@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4,df76e7ff-3b97-41be-abc2-640748680ff3
 translation-type: tm+mt
-source-git-commit: 9efd6442336a62e627b0da4e17fa742f59f715f9
+source-git-commit: 0e0cd6eb9fcf656c9ba6c72cd1a782098f9399fe
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '312'
 ht-degree: 1%
 
 ---
@@ -28,8 +28,7 @@ Questi flussi di lavoro eseguono operazioni di manutenzione sul database, sfrutt
 Oltre a questi flussi di lavoro tecnici, Campaign v8 si basa su flussi di lavoro tecnici specifici per gestire la [replica dei dati](#data-replication).
 
 * **[!UICONTROL Replicate Reference tables]**
-Questo flusso di lavoro esegue la replica automatica delle tabelle di riferimento che devono essere presenti nel database locale di Campaign (Postgres) e nel database cloud (Snowflake). È prevista l’esecuzione ogni ora, ogni giorno. Se 
-**** lastModifiedfield esiste, la replica avviene in modo incrementale, altrimenti l&#39;intera tabella viene replicata. L&#39;ordine delle tabelle nell&#39;array sottostante è l&#39;ordine utilizzato dal flusso di lavoro di replica.
+Questo flusso di lavoro esegue la replica automatica delle tabelle di riferimento che devono essere presenti nel database locale di Campaign (Postgres) e nel database Cloud ([!DNL Snowflake]). È prevista l’esecuzione ogni ora, ogni giorno. Se esiste un campo **lastModified**, la replica avviene in modo incrementale, altrimenti l&#39;intera tabella viene replicata. L&#39;ordine delle tabelle nell&#39;array sottostante è l&#39;ordine utilizzato dal flusso di lavoro di replica.
 * **[!UICONTROL Replicate Staging data]**
 Questo flusso di lavoro replica i dati di staging per le chiamate unitarie. È prevista l’esecuzione ogni ora, ogni giorno.
 * **[!UICONTROL Deploy FFDA immediately]**\
@@ -41,7 +40,7 @@ Questi flussi di lavoro tecnici sono disponibili dal nodo **[!UICONTROL Administ
 
 ## Replica dati{#data-replication}
 
-Le tabelle vengono replicate dal database di Campaign al database di Snowflake Cloud tramite flussi di lavoro dedicati descritti in precedenza.
+Le tabelle vengono replicate dal database Campaign al database [!DNL Snowflake] Cloud tramite flussi di lavoro dedicati descritti in precedenza.
 
 I criteri di replica si basano sulle dimensioni della tabella. Alcune tabelle verranno replicate. Alcune tabelle verranno replicate in tempo reale, altri verranno replicate su base oraria. Alcune tabelle avranno aggiornamenti incrementali quando altre verranno sostituite.
 
