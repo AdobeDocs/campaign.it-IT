@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
 translation-type: tm+mt
-source-git-commit: 04859274593f507a0b07f46cf6a65434b6a4bc60
+source-git-commit: 0e0cd6eb9fcf656c9ba6c72cd1a782098f9399fe
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '549'
 ht-degree: 2%
 
 ---
@@ -33,9 +33,9 @@ In qualità di utente Campaign Classic, tieni presente che la maggior parte dell
 
 ## Modifiche alla configurazione del prodotto
 
-### Campagna e Snowflake {#ac-gs-snowflake}
+### Campagna e [!DNL Snowflake] {#ac-gs-snowflake}
 
-L&#39;archiviazione cloud viene eseguita nel Snowflake: un nuovo account esterno garantisce la connettività con il database cloud. [Ulteriori informazioni](#ac-gs-snowflake).
+L&#39;archiviazione cloud viene eseguita in [!DNL Snowflake]: un nuovo account esterno garantisce la connettività con il database cloud. [Ulteriori informazioni](#ac-gs-snowflake).
 
 Questo è un cambiamento fondamentale nell&#39;architettura del software. I dati sono ora remoti: Campaign unisce tutti i dati, inclusi i profili. Il processo di Campaign ora viene ridimensionato in modo completo, dal targeting all’esecuzione della consegna: L’acquisizione dei dati, la segmentazione, il targeting, le query e l’esecuzione della consegna verranno ora eseguite in minuti.
 
@@ -45,7 +45,7 @@ Un nuovo account **esterno** integrato è dedicato a Full FDA. Questo è il cuor
 
 Qualsiasi schema/tabella incorporata che deve essere spostata o replicata nel database cloud presenta un&#39;estensione dello schema incorporata nello spazio dei nomi **xxl**. Per quanto riguarda l’estensione dello schema, il nuovo spazio dei nomi XXL verrà utilizzato per qualsiasi nuovo elemento di configurazione OOTB come JavaScript, JSSP, ecc.
 
-Tali estensioni contengono qualsiasi modifica necessaria per spostare gli schemi incorporati dal database locale di Campaign al database di Snowflake Cloud e per adattare di conseguenza la loro struttura: nuovo UUID, collegamenti aggiornati, ecc.
+Tali estensioni contengono qualsiasi modifica necessaria per spostare gli schemi incorporati dal database locale di Campaign al database [!DNL Snowflake] Cloud e per adattare di conseguenza la loro struttura: nuovo UUID, collegamenti aggiornati, ecc.
 
 >[!CAUTION]
 >
