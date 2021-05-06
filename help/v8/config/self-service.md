@@ -7,10 +7,10 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: 1eab5e9c54f2653b4b8ca9a7c2c4b06231980ed5
+source-git-commit: f1aed22d04bc0170b533bc088bb1a8e187b44dce
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 57%
+source-wordcount: '358'
+ht-degree: 58%
 
 ---
 
@@ -28,28 +28,29 @@ Puoi anche utilizzare il Pannello di controllo Campaign Campaign per configurare
 
 ## Come accedere al Pannello di controllo Campaign?
 
-Il Pannello di controllo Campaign è disponibile direttamente da Adobe Experience Cloud. È accessibile solo agli utenti amministratori. Per ulteriori informazioni, [fai clic qui](https://docs.adobe.com/content/hecontrol-panel/using/discover-control-panel/accessing-control-panel.html).
+Il Pannello di controllo Campaign è disponibile direttamente da Adobe Experience Cloud. È accessibile solo agli utenti amministratori. Per ulteriori informazioni, [fai clic qui](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html).
 
 ## Domande frequenti sul Pannello di controllo Campaign
 
-[Fai clic qui ](https://docs.adobe.com/content/hecontrol-panel/using/faq.html) per accedere alle domande frequenti sul Pannello di controllo Campaign.
+[Fai clic qui ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html) per accedere alle domande frequenti sul Pannello di controllo Campaign.
 
 ## Gestione SFTP
 
-Nel Pannello di controllo Campaign, puoi interagire con tutti i server SFTP collegati alle istanze di Campaign a cui hai accesso. Puoi monitorare la loro capacità di archiviazione, nonché gestire gli indirizzi IP nell’elenco degli indirizzi consentiti e le chiavi SSH pubbliche. Per ulteriori informazioni, [fai clic qui](https://docs.adobe.com/content/hecontrol-panel/using/sftp-management/about-sftp-management.html).
+Nel Pannello di controllo Campaign, puoi interagire con tutti i server SFTP collegati alle istanze di Campaign a cui hai accesso. Puoi monitorare la loro capacità di archiviazione, nonché gestire gli indirizzi IP nell’elenco degli indirizzi consentiti e le chiavi SSH pubbliche. Per ulteriori informazioni, [fai clic qui](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=it#sftp-management).
 
 ## Sottodomini e certificati
 
 Puoi monitorare i sottodomini e i relativi certificati. Ulteriori informazioni:
-* [Branding dei sottodomini](https://docs.adobe.com/content/hecontrol-panel/using/subdomains-and-certificates/subdomains-branding.html)
-* [Configurare un nuovo sottodominio](https://docs.adobe.com/content/hecontrol-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html)
-* [Monitorare i certificati SSL](https://docs.adobe.com/content/hecontrol-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html)
+* [Branding dei sottodomini](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
+* [Configurare un nuovo sottodominio](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html)
+* [Monitorare i certificati SSL](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html)
 
 ## Impostazioni delle istanze
 
 Scopri come gestire le impostazioni delle istanze Campaign nel Pannello di controllo Campaign.
-* [IP sull’elenco consentiti](https://docs.adobe.com/content/hecontrol-panel/using/instances-settings/ip-whitelisting-instance-access.html)
-* [Autorizzazioni URL](https://docs.adobe.com/content/hecontrol-panel/using/instances-settings/url-permissions.html)
-* [Instance details (Dettagli istanza)](https://docs.adobe.com/content/hecontrol-panel/using/instances-settings/instance-details.html)
+* [IP sull’elenco consentiti](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html)
+* [Autorizzazioni URL](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html)
+* [Instance details (Dettagli istanza)](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html)
+* [Gestione chiavi GPG](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html)
 
 :arrow_Upper_right: Scopri tutte le funzionalità del Pannello di controllo Campaign in [questa documentazione](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it)
