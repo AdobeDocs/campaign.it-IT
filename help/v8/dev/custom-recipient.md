@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
 translation-type: tm+mt
-source-git-commit: fc258cac85f1f96b6d03d69eff4e7ac70ba4247d
+source-git-commit: 5b9e381c154420c57a66e5b41b25bd4754036c60
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '254'
 ht-degree: 2%
 
 ---
@@ -34,4 +34,3 @@ Questa sezione descrive i punti chiave per mappare le tabelle esistenti in Adobe
 >
 >La personalizzazione Adobe Campaign è riservata solo agli utenti esperti. Richiede esperienza nella struttura del modulo di input e dello schema.
 
-Vedere cosa è valido/non valido qui: https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/use-a-custom-recipient-table/about-custom-recipient-table.html?lang=en#configuring-campaign-classic
