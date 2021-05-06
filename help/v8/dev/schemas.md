@@ -4,22 +4,95 @@ product: campaign
 title: Utilizzare gli schemi di Campaign
 description: Guida introduttiva agli schemi
 translation-type: tm+mt
-source-git-commit: 779542ab70f0bf3812358884c698203bab98d1ce
+source-git-commit: f1aed22d04bc0170b533bc088bb1a8e187b44dce
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 6%
+source-wordcount: '1243'
+ht-degree: 4%
 
 ---
 
 # Utilizzare gli schemi{#gs-ac-schemas}
 
+La struttura fisica e logica dei dati trasferiti nell’applicazione è descritta in XML. Obbedisce a una grammatica specifica di Adobe Campaign, denominata **schema**.
+
+Uno schema è un documento XML associato a una tabella di database. Definisce la struttura dati e descrive la definizione SQL della tabella:
+
+* Nome della tabella
+* Campi
+* Collegamenti ad altre tabelle
+
+Descrive inoltre la struttura XML utilizzata per memorizzare i dati:
+
+* Elementi e attributi
+* Gerarchia degli elementi
+* Tipi di elementi e attributi
+* Valori predefiniti
+* Etichette, descrizioni e altre proprietà.
+
+Gli schemi consentono di definire un’entità nel database. Esiste uno schema per ogni entità.
+
 Adobe Campaign utilizza gli schemi di dati per:
 
-* Definire il modo in cui gli oggetti dati all’interno dell’applicazione sono legati alle tabelle del database sottostanti.
+* Definire il modo in cui l’oggetto dati all’interno dell’applicazione è associato alle tabelle di database sottostanti.
 * Definire i collegamenti tra i diversi oggetti dati all’interno dell’applicazione Campaign.
 * Definire e descrivere i singoli campi inclusi in ciascun oggetto.
 
 Per una migliore comprensione delle tabelle integrate di Campaign e della loro interazione, consulta [questa sezione](datamodel.md).
+
+>[!CAUTION]
+>
+>Alcuni schemi di Campaign incorporati hanno uno schema associato nel database Cloud. Questi schemi sono identificati dallo spazio dei nomi **Xxl** e non devono essere modificati.
+
+## Sintassi degli schemi {#syntax-of-schemas}
+
+L&#39;elemento principale dello schema è **`<srcschema>`**. Contiene i sottoelementi **`<element>`** e **`<attribute>`** .
+
+Il primo sottoelemento **`<element>`** coincide con il livello principale dell’entità.
+
+```
+<srcSchema name="recipient" namespace="cus">
+  <element name="recipient">  
+    <attribute name="lastName"/>
+    <attribute name="email"/>
+    <element name="location">
+      <attribute name="city"/>
+   </element>
+  </element>
+</srcSchema>
+```
+
+>[!NOTE]
+>
+>L&#39;elemento principale dell&#39;entità ha lo stesso nome dello schema.
+
+![](assets/schema_and_entity.png)
+
+I tag **`<element>`** definiscono i nomi degli elementi di entità. **`<attribute>`** i tag dello schema definiscono i nomi degli attributi nei  **`<element>`** tag a cui sono stati collegati.
+
+## Identificazione di uno schema {#identification-of-a-schema}
+
+Uno schema di dati è identificato dal nome e dallo spazio dei nomi corrispondente.
+
+Uno spazio dei nomi consente di raggruppare un set di schemi per area di interesse. Ad esempio, lo spazio dei nomi **cus** viene utilizzato per la configurazione specifica del cliente (**clienti**).
+
+>[!CAUTION]
+>
+>Come standard, il nome dello spazio dei nomi deve essere conciso e deve contenere solo caratteri autorizzati in conformità alle regole di denominazione XML.
+>
+>Gli identificatori non devono iniziare con caratteri numerici.
+
+## Spazi dei nomi riservati
+
+Alcuni namespace sono riservati per le descrizioni delle entità di sistema necessarie per il funzionamento dell’applicazione Adobe Campaign. Non è necessario utilizzare il seguente namespace **per identificare un nuovo schema in una combinazione maiuscola/minuscola:**
+
+* **xxl**: riservato agli schemi di database cloud,
+* **xtk**: riservati ai dati di sistema della piattaforma,
+* **nl**: riservato all&#39;uso generale della domanda,
+* **nms**: riservato alle consegne (destinatario, consegna, tracciamento, ecc.),
+* **ncm**: riservato alla gestione dei contenuti,
+* **temperatura**: riservato agli schemi temporanei.
+
+La chiave di identificazione di uno schema è una stringa creata utilizzando lo spazio dei nomi e il nome separati da due punti; ad esempio: **nms:recipient**.
 
 ## Creare o estendere gli schemi di Campaign {#create-or-extend-schemas}
 
@@ -32,6 +105,7 @@ Per aggiungere un tipo completamente nuovo di dati che non esiste in Adobe Campa
 :lampadina: Per ulteriori informazioni, consulta [Creare un nuovo schema](create-schema.md).
 
 ![](assets/schemaextension_1.png)
+
 
 Dopo aver creato o esteso uno schema in cui lavorare, la procedura consigliata consiste nel definire i relativi elementi di contenuto XML nello stesso ordine in cui compaiono di seguito.
 
