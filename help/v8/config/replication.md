@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4,df76e7ff-3b97-41be-abc2-640748680ff3
 translation-type: tm+mt
-source-git-commit: a67c83eb531c795d621fdf36696ae4bde2151dba
+source-git-commit: 54837c7da2382696718ace7ec0ebde956efd33f4
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 1%
@@ -38,6 +38,14 @@ Questo flusso di lavoro replica i dati XS per un dato account esterno.
 
 Questi flussi di lavoro tecnici sono disponibili dal nodo **[!UICONTROL Administration > Production > Technical workflows > Full FFDA replication]** di Campaign Explorer.
 
+
+**Argomenti correlati**
+
+:arrow_Upper_right: Scopri come iniziare a utilizzare i flussi di lavoro nella [documentazione di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows)
+
+:lampadina: Accedi ai periodi di conservazione dei dati in [questa sezione](../dev/datamodel-best-practices.md#data-retention)
+
+
 ## Replica dati{#data-replication}
 
 Le tabelle vengono replicate dal database Campaign al database [!DNL Snowflake] Cloud tramite flussi di lavoro dedicati descritti in precedenza.
@@ -46,14 +54,9 @@ I criteri di replica si basano sulle dimensioni della tabella. Alcune tabelle ve
 
 | Namespace | Tabella | replica del flusso di lavoro | Replica in tempo reale |
 | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- | --------------------- |
-| XTK | xtk:enum<br>xtk:enumValue<br>xtk:enumAlias<br>xtk:folder<br>xtk:formRendering<br>xtk:operator<br>xtk:group<br>xtk:report<br>xtk:olapCube a8/>xtk:olapDimension<br>xtk:olapMeasure<br>xtk:tionaryString<br><br> | Sì (incrementale) | Sì |
-| XTK | xtk:opsecurity<br>xtk:rights<br>xtk:operatorGroup<br>xtk:reportHistory<br>xtk:reportRights | Sì (completo) | Sì |
-| NMS | nms:budget<br>nms:program<br>nms:operation<br>nms:plan<br>nms:typologyRule<br>nms:typology<br>nms:extAccount<br>nms:deliveryMapping<br>nms:delivery (replica immediata)<br>nms seedMember<br>nms:webApp<br>nms:trackingUrl (replica immediata)<br>nms:service<br>nms:offerEnv<br>nms:offerCategory<br>nms:offerSpace<br>nms:offerta a16/>nms:offerView<br>nms:recipient (incrementale?)<br><br>nms:<br>groupnms:<br>dlvExclusionnms:stock | Sì (incrementale) | Sì |
-| NMS | nms:country<br>nms:localOrgUnit<br>nms:state<br>nms:suppressionAddress<br>nms:suppressionDomain<br>nms:category<br>nms:trackingUrlInfo<br>nms:webTrackingLog<br>nms:mobileApp&lt;a/>nms:budgetCategory<br>nms:costType<br>nms:costCenter<br>nms:costStructure<br>nms:stockLine<br>nms:spesaLine<br>nms:costLine<br> | Sì (completo) | Sì |
-| NMS | nms:address<br>nms:userAgent<br>nms:userAgentReject<br>nms:userAgentStats<br>nms:wideLogMsg<br>nms:wideLog<br>nms:trackingLog<br>nms:deliveryLogStats<br>nms ms:appSubscription<br>nms:proposition<br>nms:rcpGrpRel<br>nms:wideLogRcp<br>nms:excludeLogRcp<br>nms:trackingLogRcp<br>nms:propositionRcp a14/>nms:localValidationRcp<br>nms:visitor<br>nms:wideLogVisitor<br>nms:trackingLogVisitor<br>nms:propositionVisitor<br>nms:webAppLogRcp&lt;a 20/>nms:appSubscriptionRcp<br>nms:wideLogAppSubRcp<br>nms:excludeLogAppSubRcp<br>nms:trackingLogAppSubRcp<br>nms:eventHisto<br>nms:wideLogEventHisto<br>nms:trackingLogEventHisto<br>nms:subscription<br>nms:subHisto<br>nms:trackingStats (solo utilizzo Snowflake)<br>nms:tmpBroadcast (utilizzo Snowflake) Solo)<br>nms:tmpBroadcastExclusion (solo utilizzo Snowflake)<br>nms:tmpBroadcastPaper (solo utilizzo Snowflake)<br><br> | No | No |
+| **XTK** | xtk:enum<br>xtk:enumValue<br>xtk:enumAlias<br>xtk:folder<br>xtk:formRendering<br>xtk:operator<br>xtk:group<br>xtk:report<br>xtk:olapCube a8/>xtk:olapDimension<br>xtk:olapMeasure<br>xtk:tionaryString<br><br> | Sì (incrementale) | Sì |
+| **XTK** | xtk:opsecurity<br>xtk:rights<br>xtk:operatorGroup<br>xtk:reportHistory<br>xtk:reportRights | Sì (completo) | Sì |
+| **NMS** | nms:budget<br>nms:program<br>nms:operation<br>nms:plan<br>nms:typologyRule<br>nms:typology<br>nms:extAccount<br>nms:deliveryMapping<br>nms:delivery (replica immediata)<br>nms seedMember<br>nms:webApp<br>nms:trackingUrl (replica immediata)<br>nms:service<br>nms:offerEnv<br>nms:offerCategory<br>nms:offerSpace<br>nms:offerta a16/>nms:offerView<br>nms:recipient (incrementale?)<br><br>nms:<br>groupnms:<br>dlvExclusionnms:stock | Sì (incrementale) | Sì |
+| **NMS** | nms:country<br>nms:localOrgUnit<br>nms:state<br>nms:suppressionAddress<br>nms:suppressionDomain<br>nms:category<br>nms:trackingUrlInfo<br>nms:webTrackingLog<br>nms:mobileApp&lt;a/>nms:budgetCategory<br>nms:costType<br>nms:costCenter<br>nms:costStructure<br>nms:stockLine<br>nms:spesaLine<br>nms:costLine<br> | Sì (completo) | Sì |
+| **NMS** | nms:address<br>nms:userAgent<br>nms:userAgentReject<br>nms:userAgentStats<br>nms:wideLogMsg<br>nms:wideLog<br>nms:trackingLog<br>nms:deliveryLogStats<br>nms ms:appSubscription<br>nms:proposition<br>nms:rcpGrpRel<br>nms:wideLogRcp<br>nms:excludeLogRcp<br>nms:trackingLogRcp<br>nms:propositionRcp a14/>nms:localValidationRcp<br>nms:visitor<br>nms:wideLogVisitor<br>nms:trackingLogVisitor<br>nms:propositionVisitor<br>nms:webAppLogRcp&lt;a 20/>nms:appSubscriptionRcp<br>nms:wideLogAppSubRcp<br>nms:excludeLogAppSubRcp<br>nms:trackingLogAppSubRcp<br>nms:eventHisto<br>nms:wideLogEventHisto<br>nms:trackingLogEventHisto<br>nms:subscription<br>nms:subHisto<br>nms:trackingStats (solo utilizzo Snowflake)<br>nms:tmpBroadcast (utilizzo Snowflake) Solo)<br>nms:tmpBroadcastExclusion (solo utilizzo Snowflake)<br>nms:tmpBroadcastPaper (solo utilizzo Snowflake)<br><br> | No | No |
 
-**Argomenti correlati**
-
-:arrow_Upper_right: Scopri come iniziare a utilizzare i flussi di lavoro nella [documentazione di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows)
-
-:lampadina: Accedi ai periodi di conservazione dei dati in [questa sezione](../dev/datamodel-best-practices.md#data-retention)
