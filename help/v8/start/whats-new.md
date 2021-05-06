@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 translation-type: tm+mt
-source-git-commit: 9dcde5cff8b3bdbf240b01967cb27f9de8178f98
+source-git-commit: 0e0cd6eb9fcf656c9ba6c72cd1a782098f9399fe
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Quali sono le novità di Adobe Campaign v8? {#ac-gs-what-is-new}
 
-Adobe Campaign v8 offre notevoli miglioramenti a livello di infrastruttura, sicurezza, recapito messaggi e monitoraggio. Sfruttando il Snowflake, una tecnologia di database cloud, Adobe Campaign migliora notevolmente la sua scala e velocità, con la possibilità di gestire un numero più significativo di profili cliente, nonché tassi di consegna e transazioni molto più elevati all&#39;ora.
+Adobe Campaign v8 offre notevoli miglioramenti a livello di infrastruttura, sicurezza, recapito messaggi e monitoraggio. Sfruttando [!DNL Snowflake], una tecnologia di database cloud, Adobe Campaign ne migliora notevolmente la scala e la velocità, con la possibilità di gestire un numero più significativo di profili cliente, oltre a tassi di consegna e transazioni molto più elevati all’ora.
 
 Le funzionalità principali includono:
 
@@ -40,7 +40,7 @@ E allo stesso tempo semplifichiamo la gestione dei dati
 
 Campaign v8 semplifica la gestione dei dati: nessun indice, nessuna manutenzione del database. Con Campaign v8, non è richiesto alcun indice nel database cloud. È sufficiente creare le tabelle, copiare i dati e iniziare.
 
-Il Snowflake (aka Cloud Database) ti porterà velocità e resistenza: nessun sovraccarico dei picchi di attività del sistema.
+[!DNL Snowflake] è Campaign Cloud Database e ti porterà velocità e resistenza: nessun sovraccarico dei picchi di attività del sistema.
 
 La tecnologia del database Cloud non richiede una manutenzione specifica per garantire il livello di prestazioni.
 
