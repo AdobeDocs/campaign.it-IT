@@ -5,9 +5,9 @@ title: Architettura generale
 description: Architettura generale di Campaign v8
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
 translation-type: tm+mt
-source-git-commit: 1bdc1f03a824f8867ae6066196e8e3984fa73af7
+source-git-commit: 0e0cd6eb9fcf656c9ba6c72cd1a782098f9399fe
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1162'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ Questo processo mantiene le statistiche sul numero di connessioni, i messaggi in
 
 ## Contenitori di database {#db-containers}
 
-Il database di Adobe Campaign Cloud si basa su un Snowflake che contiene i dati funzionali (profili, abbonamenti, contenuto, ecc.), i dati tecnici (processi di consegna e registri, registri di tracciamento, ecc.) e i dati di lavoro (acquisti, lead) della soluzione e tutti i componenti di Adobe Campaign comunicano con il database al fine di eseguire le attività specifiche.
+Il database di Adobe Campaign Cloud si basa su [!DNL Snowflake] che contiene i dati funzionali (profili, abbonamenti, contenuto, ecc.), i dati tecnici (processi di consegna e registri, registri di tracciamento, ecc.) e i dati di lavoro (acquisti, lead) della soluzione e tutti i componenti di Adobe Campaign comunicano con il database al fine di eseguire le attività specifiche.
 
 I clienti possono implementare Adobe Campaign utilizzando il data mart predefinito e gli schemi e possono estenderlo anche a questo. Tutti i dati all’interno del data mart sono accessibili da Adobe Campaign tramite chiamate SQL. Adobe Campaign fornisce inoltre un complemento completo degli strumenti di estrazione trasformazione e caricamento (ETL) per eseguire l’importazione e l’esportazione di dati all’interno e all’esterno del sistema.
 
