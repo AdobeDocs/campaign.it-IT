@@ -5,9 +5,9 @@ description: toto
 title: Documentazione del prodotto Adobe Campaign v8
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
 translation-type: tm+mt
-source-git-commit: 5aaac8e63ef65ff7390e5263f877e7851e9be2c0
+source-git-commit: 5d62409009168045cdfd2349a2343710d879edca
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '87'
 ht-degree: 19%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 19%
 
 * **[Linee guida](start/implement.md)**   per l’implementazione: scopri come avviare l’implementazione
 
-* **[Da Classic a v8](start/capability-matrix.md)**  - Transizione da Campaign Classic a v8? Scopri le differenze chiave
+* **[Da v7 a v8](start/capability-matrix.md)**  - Transizione da Campaign Classic v7 a v8? Scopri le differenze chiave
 
 ## Introduzione
 
