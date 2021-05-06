@@ -8,20 +8,14 @@ role: Data Engineer
 level: Beginner
 exl-id: 1c45e005-1dd1-4b91-b928-7d0f4a51e075
 translation-type: tm+mt
-source-git-commit: 1eab5e9c54f2653b4b8ca9a7c2c4b06231980ed5
+source-git-commit: fa46fc3218d3bdc90c27d1abc9e944d73c7b91bc
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 45%
+source-wordcount: '348'
+ht-degree: 46%
 
 ---
 
 # Guida e opzioni di supporto per Campaign v8 {#help-support-options}
-
-
->[!AVAILABILITY]
->
-> :warning: **Questa pagina non si applica a Campaign v8**. [Ulteriori informazioni](campaign-faq.md).
-
 
 Ottieni supporto tramite domande frequenti, best practice, risorse online e portale di supporto. Puoi anche partecipare alla community di Campaign, chiedere agli esperti o segnalare un problema
 
