@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
 translation-type: tm+mt
-source-git-commit: 5b9e381c154420c57a66e5b41b25bd4754036c60
+source-git-commit: ac75a1c085e13cd934af0f09ceba89c54bbc560a
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 2%
@@ -28,7 +28,6 @@ Questa funzionalità consente ad Adobe Campaign di elaborare i dati da un databa
 * Utilizzo di un database di profilo con una struttura non standard: possibilità di consegnare a profili salvati in varie tabelle con diverse strutture, utilizzando un’unica istanza.
 
 Questa sezione descrive i punti chiave per mappare le tabelle esistenti in Adobe Campaign e le impostazioni di configurazione da applicare per eseguire consegne in base a qualsiasi tabella. Descrive inoltre come progettare interfacce di query per gli utenti finali.
-
 
 >[!CAUTION]
 >
