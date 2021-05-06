@@ -4,7 +4,7 @@ product: campaign
 title: Moduli di input per Campaign
 description: Scopri come personalizzare i moduli di input
 translation-type: tm+mt
-source-git-commit: b4d5ed24bcca46591543b835b2fec1c18b26fc74
+source-git-commit: 8e90eb762a6e08077270d4f5852bfc37ac783122
 workflow-type: tm+mt
 source-wordcount: '2557'
 ht-degree: 0%
@@ -290,9 +290,7 @@ La selezione di Target è accessibile tramite il campo di modifica. L’ingresso
 
 Un elenco a discesa viene utilizzato per selezionare un elemento di destinazione dall’elenco di record già creati.
 
-L’icona **[!UICONTROL Modify the link]** (cartella) avvia un modulo di selezione con l’elenco degli elementi di destinazione e una zona filtro:
-
-![](assets/do-not-localize/form_exemple10.png)
+L’icona **[!UICONTROL Modify the link]** (cartella) avvia un modulo di selezione con l’elenco degli elementi di destinazione e una zona filtro.
 
 L’icona **[!UICONTROL Edit link]** (lente di ingrandimento) avvia il modulo di modifica dell’elemento collegato. Il modulo utilizzato viene dedotto per impostazione predefinita sulla chiave dello schema di destinazione. L’attributo **form** consente di forzare il nome del modulo di modifica (ad esempio &quot;cus:company2&quot;).
 
@@ -433,8 +431,6 @@ Questi elenchi vengono utilizzati su elementi di raccolta mappati XML o su colle
 
 Questo controllo visualizza un elenco di colonne modificabili con una barra degli strumenti contenente i pulsanti Aggiungi ed Elimina .
 
-![](assets/do-not-localize/form_exemple13.png)
-
 ```
 <input xpath="rcpEvent" type="list">
   <input xpath="@label"/>
@@ -452,8 +448,6 @@ Le colonne sono dichiarate nei tag secondari **`<input>`** dell’elenco. L&#39;
 
 I pulsanti della barra degli strumenti possono essere allineati orizzontalmente:
 
-![](assets/do-not-localize/form_exemple14.png)
-
 ```
 <input nolabel="true" toolbarCaption="List of events" type="list" xpath="rcpEvent" zoom="true">
   <input xpath="@label"/>
@@ -466,8 +460,6 @@ L&#39;attributo **toolbarCaption** forza l&#39;allineamento orizzontale della ba
 ### Attiva lo zoom in un elenco {#zoom-in-a-list}
 
 L’inserimento e la modifica dei dati in un elenco possono essere immessi in un modulo di modifica separato.
-
-![](assets/do-not-localize/form_exemple15.png)
 
 ```
 <input nolabel="true" toolbarCaption="List of events" type="list" xpath="rcpEvent" zoom="true" zoomOnAdd="true">
@@ -640,8 +632,6 @@ Per aggiungere un assistente, utilizzare il seguente tipo di struttura:
   ...
 </form>
 ```
-
-![](assets/do-not-localize/form_exemple19.png)
 
 La presenza dell&#39;attributo **type=&quot;Wizard&quot;** sull&#39;elemento `<form>` consente di definire la modalità guidata nella costruzione del modulo. Le pagine vengono completate da elementi `<container>`, secondari dell’elemento `<form>`. L’elemento `<container>` di una pagina viene popolato con gli attributi title per il titolo e desc per visualizzare la descrizione sotto il titolo della pagina. I pulsanti **[!UICONTROL Previous]** e **[!UICONTROL Next]** vengono aggiunti automaticamente per consentire la navigazione tra le pagine.
 
