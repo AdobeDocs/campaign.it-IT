@@ -4,9 +4,9 @@ product: campaign
 title: Estendere gli schemi di Campaign
 description: Scopri come estendere gli schemi di Campaign
 translation-type: tm+mt
-source-git-commit: f1aed22d04bc0170b533bc088bb1a8e187b44dce
+source-git-commit: 8e90eb762a6e08077270d4f5852bfc37ac783122
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '235'
 ht-degree: 1%
 
 ---
@@ -45,20 +45,26 @@ Per estendere uno schema, segui i passaggi seguenti:
 
    ![](assets/extend-schema-edit.png)
 
-   Nell’esempio seguente, aggiungiamo l’attributo Anno di appartenenza, inseriamo un limite di lunghezza per il cognome (questo limite sovrascrive quello predefinito) e rimuoviamo la data di nascita dallo schema incorporato.
+   Nell&#39;esempio seguente, aggiungiamo l&#39;attributo MembershipYear, inseriamo un limite di lunghezza per il cognome (questo limite sovrascrive quello predefinito) e rimuoviamo la data di nascita dallo schema incorporato.
+
+   ![](assets/extend-schema-sample.png)
 
    ```
    <srcSchema created="YY-MM-DD" desc="Recipient table" extendedSchema="nms:recipient"
            img="nms:recipient.png" label="Recipients" labelSingular="Recipient" lastModified="YY-MM-DD"
            mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:srcSchema">
-   <element desc="Recipient table" img="nms:recipient.png" label="Recipients" labelSingular="Recipient"
-           name="recipient">
-   <attribute name="Membership Year" label="memberYear" type="long"/>
+    <element desc="Recipient table" img="nms:recipient.png" label="Recipients" labelSingular="Recipient"
+          name="recipient">
+   <attribute label="Member since" name="MembershipYear" type="long"/>
    <attribute length="50" name="lastName"/>
    <attribute _operation="delete" name="birthDate"/>
    </element>
-   </srcSchema> 
+   </srcSchema>
    ```
+1. Disconnetti e riconnettiti a Campaign per controllare l’aggiornamento della struttura dello schema nella scheda **[!UICONTROL Structure]** .
+
+   ![](assets/extend-schema-structure.png)
 
 1. Aggiorna la struttura del database per applicare le modifiche. [Ulteriori informazioni](update-database-structure.md)
+
 1. Una volta implementate le modifiche nel database, è possibile adattare il modulo di input del destinatario per rendere visibili le modifiche. [Ulteriori informazioni](forms.md)
