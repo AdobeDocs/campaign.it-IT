@@ -7,10 +7,10 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: 0e0cd6eb9fcf656c9ba6c72cd1a782098f9399fe
+source-git-commit: fa46fc3218d3bdc90c27d1abc9e944d73c7b91bc
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 13%
+source-wordcount: '134'
+ht-degree: 18%
 
 ---
 
@@ -25,26 +25,3 @@ Gli account esterni sono utilizzati da processi tecnici quali flussi di lavoro t
 Un account esterno specifico gestisce la connessione tra il database locale di Campaign e il database Cloud ([!DNL Snowflake]).
 
 :speech_balloon: In qualità di utente di Cloud Services gestiti, l’account esterno [!DNL Snowflake] viene configurato per la tua istanza per Adobe.
-
-Puoi accedere a questo account esterno per controllare le impostazioni ed eseguire i flussi di lavoro di replica. Per eseguire questa operazione, effettua le seguenti operazioni:
-
-1. Dalla campagna **[!UICONTROL Explorer]**, fai clic su **[!UICONTROL Administration > Platform > External Accounts]**.
-
-1. Seleziona l’account esterno **[!UICONTROL Full FDA]**.
-
-![](assets/snowflake-ext-account.png)
-
-Le impostazioni globali vengono visualizzate in **[!UICONTROL General tab]**.
-
-Utilizza la scheda **[!UICONTROL Parameters]** e quindi il pulsante **[!UICONTROL Deploy functions]** per creare funzioni.
-
-![](assets/snowflake-parameters.png)
-
-**AGGIUNGI IL DESC DEI PARAMETRI QUI**
-
-Utilizza la scheda **[!UICONTROL Full FDA]** per forzare l’esecuzione del flusso di lavoro di replica.
-
-![](assets/snowflake-full-fda.png)
-
-**AGGIUNGI I DETTAGLI QUI**
-
