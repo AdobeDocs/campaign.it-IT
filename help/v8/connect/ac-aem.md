@@ -1,6 +1,6 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: Utilizzare Campaign e Adobe Experience Manager
 description: Scopri come utilizzare Campaign e Adobe Experience Manager
 feature: Panoramica
@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
 translation-type: tm+mt
-source-git-commit: c2d066ca2f935455861c3d6747c9805c847f2e0d
+source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 0%
