@@ -1,13 +1,13 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: Inviare direct mailing con Adobe Campaign
 description: Guida introduttiva alla direct mailing in Campaign
 feature: Panoramica
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: 87836271deb6bd69b7fed07108884e49a55f814a
+source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
 workflow-type: tm+mt
 source-wordcount: '51'
 ht-degree: 1%
