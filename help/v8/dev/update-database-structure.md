@@ -1,10 +1,10 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: Aggiornare la struttura del database
 description: Aggiornare la struttura del database
 translation-type: tm+mt
-source-git-commit: e509feb4624b26e33d43f2a1d926b563ab52a8c4
+source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 0%
