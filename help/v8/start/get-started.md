@@ -8,16 +8,16 @@ role: Data Engineer
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: cebe3fedb97a5570aa404bf97709e6b26bf90d7c
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 56%
+source-wordcount: '804'
+ht-degree: 47%
 
 ---
 
 # Guida introduttiva ad Adobe Campaign{#gs-ac-v8}
 
- Adobe Campaign fornisce una piattaforma per la progettazione di customer experience cross-channel e fornisce un ambiente per l’orchestrazione visiva delle campagne, la gestione delle interazioni in tempo reale e l’esecuzione cross-channel.
+Adobe Campaign fornisce una piattaforma per la progettazione di esperienze cliente cross-channel e un ambiente per l’orchestrazione visiva delle campagne, la gestione delle interazioni in tempo reale e l’esecuzione cross-channel.
 
 Utilizza Campaign per:
 
@@ -29,7 +29,7 @@ Utilizza Campaign per:
 
 ## Profilo cliente integrato {#integrated-customer-profile}
 
-I profili sono centralizzati in un database cloud powerfull. Esistono molti possibili meccanismi per l’acquisizione di profili e la creazione di questo database: raccolta on-line tramite moduli web, importazione manuale o automatica di file di testo, replica con database aziendali o altri sistemi di informazioni. Con Adobe Campaign, puoi incorporare la cronologia di marketing, le informazioni di acquisto, le preferenze, i dati di gestione delle relazioni con i clienti ed eventuali dati PII rilevanti in una vista consolidata per analizzare e intraprendere azioni.
+I profili sono centralizzati in un potente database cloud. Esistono molti possibili meccanismi per l’acquisizione di profili e la creazione di questo database: raccolta on-line tramite moduli web, importazione manuale o automatica di file di testo, replica con database aziendali o altri sistemi di informazioni. Con Adobe Campaign, puoi incorporare la cronologia di marketing, le informazioni di acquisto, le preferenze, i dati di gestione delle relazioni con i clienti ed eventuali dati PII rilevanti in una vista consolidata per analizzare e intraprendere azioni.
 
 In Adobe Campaign, i destinatari sono i profili predefiniti oggetto di targeting per l’invio di consegne (e-mail, SMS, ecc.). Grazie ai dati sui destinatari archiviati nel database, potrai filtrare il target che riceverà una determinata consegna e aggiungere dati di personalizzazione nei contenuti della consegna. Nel database sono presenti altri tipi di profili. Essi sono progettati per diversi utilizzi. Ad esempio, i profili di seed vengono creati per testare le consegne prima che vengano inviate al target finale.
 
@@ -74,13 +74,13 @@ I flussi di lavoro possono essere utilizzati in contesti diversi, ad esempio:
 
 ## Integrazioni con Adobe Experience Cloud {#adobe-experience-cloud-integrations}
 
-Puoi combinare le funzionalità di consegna e le funzionalità avanzate di gestione delle campagne di Adobe Campaign con una serie di soluzioni create per aiutarti a personalizzare la user experience: Adobe Experience Manager, Adobe Analytics, Adobe Target o i trigger di Adobe Experience Cloud, ad esempio. Puoi inoltre effettuare l’integrazione con Adobe IMS e accedere a Campaign con il tuo Adobe ID.
+Puoi combinare le funzionalità di consegna e le funzionalità avanzate di gestione delle campagne di Adobe Campaign con una serie di soluzioni create per aiutarti a personalizzare la user experience: Adobe Experience Manager, Adobe Analytics, Adobe Target o i trigger di Adobe Experience Cloud, ad esempio.
 
 :lampadina: Scopri come integrare con i servizi e le soluzioni Adobe in [questa sezione](../connect/integration.md).
 
 ## Ulteriori informazioni sulle funzionalità di Campaign {#core-capabilities-and-add-ons}
 
- Adobe Campaign offre una serie di funzionalità per aiutarti a implementare e ottimizzare le funzionalità di marketing conversazionale in base alle tue esigenze e alla tua architettura. Alcune di queste sono funzionalità di base e altre dipendono dall’installazione di un pacchetto e dalla configurazione. Una descrizione dettagliata del prodotto è disponibile qui: [Descrizione prodotto Adobe Campaign v8](https://helpx.adobe.com/it/legal/product-descriptions/adobe-campaign-classic---product-description.html).
+Adobe Campaign offre una serie di funzionalità per aiutarti a implementare e ottimizzare le funzionalità di marketing conversazionale in base alle tue esigenze e alla tua architettura. Alcune sono funzionalità di base e altre dipendono dall&#39;installazione di un pacchetto sulla configurazione. Una descrizione dettagliata del prodotto è disponibile qui: [Descrizione prodotto Adobe Campaign v8](https://helpx.adobe.com/it/legal/product-descriptions/adobe-campaign-classic---product-description.html).
 
 :lampadina: Hai già familiarità con Campaign Classic? Scopri le differenze chiave tra Campaign Classic e Campaign v8 in [questa pagina](capability-matrix.md).
 
