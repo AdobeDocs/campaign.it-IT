@@ -1,10 +1,10 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: Moduli di input per Campaign
 description: Scopri come personalizzare i moduli di input
 translation-type: tm+mt
-source-git-commit: 5adbec5dfc738c2bec260c0d2a7f80e5a232056c
+source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
 workflow-type: tm+mt
 source-wordcount: '2557'
 ht-degree: 0%
