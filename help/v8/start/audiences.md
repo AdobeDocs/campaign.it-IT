@@ -8,10 +8,10 @@ role: Data Engineer
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: 81a6d365554d87b020d47be6fd6a896f8ad33d57
 workflow-type: tm+mt
-source-wordcount: '703'
-ht-degree: 29%
+source-wordcount: '702'
+ht-degree: 26%
 
 ---
 
@@ -64,7 +64,7 @@ Il targeting può essere creato tramite una combinazione di query in una sequenz
 
 In base al contratto, a ciascuna istanza di Campaign viene fornito un numero specifico di profili attivi conteggiati a scopo di fatturazione. Per informazioni sul numero di profili attivi acquistati, fai riferimento al contratto più recente.
 
-&quot;Profilo&quot;: un registro di informazioni (ad esempio: un record nella [tabella Destinatario](../dev/datamodel.md) o una tabella esterna contenente un ID cookie, un ID cliente, un identificatore mobile o altre informazioni pertinenti a un particolare canale) che rappresenta un cliente finale, potenziale o lead. I profili sono considerati attivi se sono stati targetizzati o se è avvenuta una comunicazione con essi negli ultimi 12 mesi tramite qualsiasi canale.
+&quot;Profilo&quot;: un registro di informazioni (ad esempio: un record nella [tabella Destinatario](../dev/datamodel.md) o una tabella esterna contenente un ID cookie, un ID cliente, un identificatore mobile o altre informazioni pertinenti a un particolare canale) che rappresenta un cliente finale, potenziale o lead. I profili sono considerati attivi se sono stati targetizzati o se sono stati comunicati negli ultimi 12 mesi tramite qualsiasi canale.
 
 Puoi monitorare il numero di profili attivi utilizzati sulle istanze direttamente dal Pannello di controllo Campaign Campaign.
 
