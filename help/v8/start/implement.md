@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: 9b6190f48373b772a72d6c1ef1b7510ec41112be
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1159'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ In questa sezione imparerai a regolare Adobe Campaign in base ai requisiti della
 
 ## Prima di iniziare
 
-Questa sezione include informazioni specifiche per gli sviluppatori per la loro implementazione di cui devono occuparsi della privacy e della sicurezza prima di iniziare.
+Questa sezione contiene informazioni critiche sulla privacy e la sicurezza che devono essere esaminate e prese in considerazione prima di iniziare l&#39;implementazione effettiva.
 
 ### Privacy
 
@@ -62,7 +62,7 @@ Prima di iniziare a inviare messaggi e creare campagne di marketing, devi:
 
 1. Importare profili e creare tipi di pubblico
 
-   Campaign ti consente di aggiungere contatti al database Cloud. Puoi caricare un file, pianificare e automatizzare più aggiornamenti dei contatti, raccogliere dati sul Web o immettere informazioni sui profili direttamente nella tabella dei destinatari.
+   Campaign ti consente di aggiungere contatti al database Cloud. È possibile caricare un file, pianificare e automatizzare più aggiornamenti dei contatti, raccogliere dati sul Web o immettere informazioni di profilo direttamente nella tabella dei destinatari.
 
    :lampadina: [Scopri come importare profili](import.md).
 
@@ -88,7 +88,7 @@ Prima di iniziare a inviare messaggi e creare campagne di marketing, devi:
 
 1. Acquisisci familiarità con il modello dati integrato di Campaign
 
-   Adobe Campaign viene fornito con un modello dati predefinito. Per implementare e personalizzare l’ambiente, è necessario avere familiarità con le tabelle integrate del modello dati di Adobe Campaign e la relativa interazione.
+   Adobe Campaign viene fornito con un modello dati predefinito. Per implementare e personalizzare l’ambiente, è necessario avere familiarità con le tabelle integrate del modello dati di Adobe Campaign e con le rispettive relazioni.
 
    :lampadina: [Ulteriori informazioni sul modello dati di Campaign](../dev/datamodel.md).
 
