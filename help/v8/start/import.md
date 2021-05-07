@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: 0995e3595d2e5f38bade4f71fccc7938d7d1284b
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 1%
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # Importare dati in Campaign {#ootb-profiles}
 
-Campaign ti consente di aggiungere contatti al database Cloud. Puoi caricare un file, pianificare e automatizzare più aggiornamenti dei contatti, raccogliere dati sul Web o immettere informazioni sui profili direttamente nella tabella dei destinatari.
+Campaign ti consente di aggiungere contatti al database Cloud. È possibile caricare un file, pianificare e automatizzare più aggiornamenti dei contatti, raccogliere dati sul Web o immettere informazioni di profilo direttamente nella tabella dei destinatari.
 
 :blub: Guida introduttiva a [tipi di pubblico](audiences.md)
 :blub: Comprendere Campaign [modello dati](../dev/datamodel.md)
