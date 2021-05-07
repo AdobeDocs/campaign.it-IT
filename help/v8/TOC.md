@@ -8,7 +8,7 @@ breadcrumb-title: Campaign v8
 title: Documenti di Campaign v8
 hide: true
 translation-type: tm+mt
-source-git-commit: 7b8de5083836e906f563250e1a86b46abcd68650
+source-git-commit: 21172287921c9188037fe6e4306f755826d783f8
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 35%
@@ -28,8 +28,8 @@ ht-degree: 35%
    + [Profili e pubblico](start/audiences.md)
    + [Importare dati](start/import.md)
    + [Creare campagne](start/campaigns.md)
-   + [Gestire gli abbonamenti](start/subscriptions.md)
    + [Inviare messaggi](start/create-message.md)
+   + [Gestire gli abbonamenti](start/subscriptions.md)
    + [Tracciamento e monitoraggio](start/tracking.md)
    + [Metriche e rapporti](start/reporting.md)
    + [Domande frequenti](start/campaign-faq.md)
