@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: b39cac492f4605b7d1d7aeb75f6af26a20bf43e6
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '746'
 ht-degree: 7%
 
 ---
@@ -35,7 +35,7 @@ Prima di iniziare a implementare le campagne di marketing, devi acquisire famili
 
 * **Pianifica**: il piano di marketing può contenere più programmi. È collegato a un periodo di calendario, ha un bilancio assegnato e può anche essere collegato a documenti e obiettivi.
 
-* **Flusso di lavoro** della campagna: un flusso di lavoro della campagna contiene attività per generare la logica della campagna. I flussi di lavoro per campagne consentono di definire i tipi di pubblico e creare consegne per tutti i canali disponibili.
+* **Flusso di lavoro** della campagna: un flusso di lavoro della campagna contiene attività per generare la logica della campagna. Utilizza i flussi di lavoro delle campagne per definire i tipi di pubblico e creare consegne per tutti i canali disponibili.
 
 * **Campagne** ricorrenti: le campagne ricorrenti vengono create da un modello specifico che definisce il modello di flusso di lavoro da eseguire e la pianificazione di esecuzione.
 
