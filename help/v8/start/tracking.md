@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 95ed0369-7215-496b-8e11-fe264c436488,e7931de5-83ce-431d-ae81-83793d257550
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: 085648ae3c21971993558f913079877caeef70d7
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '906'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 ## Funzionalità di tracking in Campaign
 
-Le funzionalità di tracciamento delle campagne tengono traccia dei messaggi inviati e consentono di analizzare il comportamento dei destinatari: apertura, clic su collegamenti, abbonamenti/annullamento dell’abbonamento e altro ancora. Puoi accedere a registri, report e metriche dedicati, eseguire query sul database per esaminare i dati raccolti e altro ancora.
+Le funzionalità di tracciamento delle campagne tengono traccia dei messaggi inviati e ti aiutano ad analizzare il comportamento dei destinatari: apertura, clic su collegamenti, abbonamenti/annullamento dell’abbonamento e altro ancora. Puoi accedere a registri, report e metriche dedicati, eseguire query sul database per esaminare i dati raccolti e altro ancora.
 
 :arrow_Upper_right:  Per ulteriori informazioni, consulta la [documentazione Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#tracking-tab).
 
