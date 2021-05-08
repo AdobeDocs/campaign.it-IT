@@ -4,9 +4,9 @@ product: Adobe Campaign
 title: Best practice per la sicurezza di Campaign
 description: Guida introduttiva alle best practice per la sicurezza di Campaign
 translation-type: tm+mt
-source-git-commit: d758b6ffaee5fdab3f600f58be5a81694162d269
+source-git-commit: 5592dd4e79391d953a4bc54cdd47475417e07b56
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
@@ -40,9 +40,9 @@ Quando aggiungi collegamenti personalizzati al contenuto, evita sempre di avere 
 
 ## Restrizione dei dati
 
-Devi accertarti che le password crittografate non siano accessibili da un utente autenticato con privilegi bassi. Per fare questo, ci sono due modi principali: limita l&#39;accesso ai campi password solo o all&#39;intera entità (è necessaria una build >= 8770).
+Devi accertarti che le password crittografate non siano accessibili da un utente autenticato con privilegi bassi. Per farlo, esistono due modi principali: limita l’accesso ai campi password solo o all’intera entità.
 
-Questa limitazione consente di rimuovere i campi password, ma consente all’account esterno di essere accessibile dall’interfaccia per tutti gli utenti. Ulteriori informazioni in [questa pagina](../dev/restrict-pi-view.md).
+Questa restrizione consente di rimuovere i campi password ma lascia l’account esterno accessibile dall’interfaccia per tutti gli utenti. Ulteriori informazioni in [questa pagina](../dev/restrict-pi-view.md).
 
 1. Vai in **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**.
 
@@ -115,10 +115,10 @@ La gestione degli accessi è una parte importante dell&#39;irrigidimento della s
 
 Nello sviluppo in Adobe Campaign (flussi di lavoro, JavaScript, JSSP, ecc.), segui sempre le seguenti linee guida:
 
-* Scripting: cercare di evitare istruzioni SQL, utilizzare funzioni parametrizzate invece della concatenazione di stringhe, evitare l&#39;inserimento di SQL aggiungendo le funzioni SQL da utilizzare nell&#39;elenco consentiti.
+* **Scripting**: cercare di evitare istruzioni SQL, utilizzare funzioni parametrizzate invece della concatenazione di stringhe, evitare l&#39;inserimento di SQL aggiungendo le funzioni SQL da utilizzare nell&#39;elenco consentiti.
 
-* Proteggere il modello dati: utilizzare diritti denominati per limitare le azioni dell’operatore, aggiungere filtri di sistema (sysFilter)
+* **Proteggere il modello** dati: utilizzare diritti denominati per limitare le azioni dell’operatore, aggiungere filtri di sistema (sysFilter)
 
-* Aggiungi i sottotitoli nelle applicazioni web: aggiungi le didascalie nelle pagine di destinazione pubbliche e nelle pagine di abbonamento.
+* **Aggiungi i sottotitoli nelle applicazioni** web: aggiungi le didascalie nelle pagine di destinazione pubbliche e nelle pagine di abbonamento.
 
 :arrow_Upper_right: Ulteriori informazioni nella [documentazione Adobe Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic)
