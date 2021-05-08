@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: ddf60fb823cb0df99bdf3bc99f17d7a1abe6a33b
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '562'
 ht-degree: 6%
 
 ---
@@ -31,7 +31,7 @@ Adobe Campaign utilizza gli schemi di dati per:
 * Definire i collegamenti tra i diversi oggetti dati all’interno dell’applicazione Campaign
 * Definire e descrivere i singoli campi inclusi in ciascun oggetto
 
-Puoi aggiungere un campo a una tabella esistente, ad esempio la tabella dei destinatari (nms:recipient), e devi estendere tale schema.
+Ad esempio, per aggiungere un campo a una tabella esistente, ad esempio la tabella dei destinatari (nms:recipient), è necessario estendere tale schema.
 
 Sono disponibili due modalità di estensione della tabella:
 
@@ -44,7 +44,7 @@ Sono disponibili due modalità di estensione della tabella:
    :lampadina: Scopri come estendere uno schema esistente in [questa sezione](../dev/extend-schema.md).
 
 
-Puoi creare nuove tabelle nel database Campaign ed estendere il modello dati integrato.
+Puoi anche creare nuove tabelle nel database Campaign ed estendere il modello dati integrato.
 
 Per aggiungere un tipo completamente nuovo di dati che non esistono preconfigurati in Adobe Campaign (ad esempio, una tabella di contratti), puoi creare direttamente uno schema personalizzato. Per ulteriori informazioni, consulta [questo esempio](../dev/create-schema.md#example--creating-a-contract-table).
 
@@ -57,7 +57,7 @@ Per aggiungere un tipo completamente nuovo di dati che non esistono preconfigura
 
 ## Modificare i moduli di input
 
-I moduli di input per le campagne possono essere adattati in base all’implementazione. È possibile aggiungere o rimuovere campi modificando il contenuto XML.
+I moduli di input per le campagne possono essere adattati alla tua implementazione. È possibile aggiungere o rimuovere campi modulo modificando il contenuto XML.
 
 :lampadina: Scopri come modificare un modulo di input esistente o crearne uno nuovo in [questa sezione](../dev/forms.md).
 
