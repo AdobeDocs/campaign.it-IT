@@ -7,9 +7,9 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: e068642c1bc5bf5f0329fc09f7ca6ddbd1683d6a
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1480'
 ht-degree: 1%
 
 ---
@@ -20,10 +20,10 @@ La messaggistica transazionale (Message Center, Centro messaggi) è un modulo Ca
 
 :speech_balloon: In qualità di utente di Cloud Services gestiti, [contatta Adobe](../start/support.md#support) per installare e configurare i messaggi transazionali di Campaign nel tuo ambiente.
 
-I messaggi transazionali vengono utilizzati per:
+I messaggi transazionali vengono utilizzati per inviare:
 
 * notifiche, ad esempio conferme d&#39;ordine o reimpostazioni di password
-* inviare una risposta in tempo reale individuale a un&#39;azione del cliente
+* una risposta in tempo reale individuale a un&#39;azione del cliente
 * contenuto non promozionale
 
 :lampadina: Le impostazioni dei messaggi transazionali sono descritte in [questa sezione](../config/transactional-msg-settings.md).
@@ -116,7 +116,7 @@ Un indirizzo di seed ti consente di visualizzare un’anteprima del messaggio, i
 
    ![](assets/messagecenter_create_seed_4.png)
 
-1. Inserire i dati di prova. Vedi [questa sezione](#personalization-data).
+1. Inserire i dati di prova. Fai riferimento a [questa sezione](#personalization-data).
 
    ![](assets/messagecenter_create_custo_3.png)
 
