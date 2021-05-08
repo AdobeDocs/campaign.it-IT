@@ -7,9 +7,9 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: bbaa603e73d4c1618f326624600ea3d357b265e6
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '309'
 ht-degree: 2%
 
 ---
@@ -30,7 +30,7 @@ I passaggi chiave per l’invio di un SMS sono descritti in dettaglio in queste 
 Prima di iniziare a inviare SMS:
 
 * Assicurati che i profili dei destinatari contengano almeno un telefono cellulare nel loro profilo.
-* Consulta le best practice per le consegne [Adobe Campaign Classic ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html?lang=en#sending-messages) applicabili anche a Campaign v8.
+* Rivedi le best practice per le consegne [Adobe Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html?lang=en#sending-messages) che si applicano anche a Campaign v8.
 
 Inoltre, devi avere familiarità con il protocollo e le impostazioni SMS. Scorri la connessione impostata tra Adobe Campaign e un provider SMPP in [questo documento](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html?lang=en#sending-messages)
 
