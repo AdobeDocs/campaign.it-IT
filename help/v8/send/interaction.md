@@ -7,7 +7,7 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: e31b7e16cb4d5ed01d615e71fc15485b4e4a1859
+source-git-commit: 6f84e739f25caf5dbd2ef964e38a6264e4b4342b
 workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 1%
@@ -68,7 +68,7 @@ Prima di iniziare, in qualità di Campaign **Amministratore**, assicurati di ave
 
 1. Creare profili utente. [Ulteriori informazioni](interaction-operators.md).
 1. (facoltativo) Crea un ambiente di offerta per ogni dimensione di targeting. [Ulteriori informazioni](interaction-env.md)
-1. Crea regole di tipologia per ogni ambiente. [Ulteriori informazioni](interaction-offers.md#offer-presentation).
+1. Crea regole di tipologia per ogni ambiente. [Ulteriori informazioni](interaction-offer.md#offer-presentation).
 1. Crea spazi di offerta per ogni ambiente e configura funzioni di rendering. [Ulteriori informazioni](interaction-offer-spaces.md).
 Se lo spazio è definito da un canale unitario in modalità identificata, è necessario specificare i parametri avanzati per questo spazio.
 
