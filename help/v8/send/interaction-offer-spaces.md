@@ -7,7 +7,7 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: e31b7e16cb4d5ed01d615e71fc15485b4e4a1859
+source-git-commit: fcc0165aeba4347a53d33bed95aa7fbb5fa27005
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 3%
@@ -58,7 +58,7 @@ Per creare un nuovo spazio di offerta, effettua le seguenti operazioni:
 
    **Nota** : il formato XML è limitato alle interazioni in entrata temporaneamente non disponibili. [Ulteriori informazioni](../start/capability-matrix.md#gs-unavailable-features)
 
-   ![](assets/offer_spacecreate_006.png)_
+   ![](assets/offer_space_create_006.png)_
 
 1. Vai alla scheda **[!UICONTROL HTML rendering]** e seleziona **[!UICONTROL Overload the HTML rendering function]**.
 1. Inserisci la funzione di rendering.
