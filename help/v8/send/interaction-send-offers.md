@@ -7,7 +7,7 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: e31b7e16cb4d5ed01d615e71fc15485b4e4a1859
+source-git-commit: fcc0165aeba4347a53d33bed95aa7fbb5fa27005
 workflow-type: tm+mt
 source-wordcount: '1282'
 ht-degree: 2%
@@ -184,7 +184,7 @@ Dopo aver configurato l&#39;attività **Query**:
 
    ![](assets/int_offerengine_activity1.png)
 
-1. Quindi configura un’attività di consegna corrispondente al canale scelto. [Ulteriori informazioni](inserting-an-offer-proposition-into-a-delivery).
+1. Quindi configura un’attività di consegna corrispondente al canale scelto. [Ulteriori informazioni](#inserting-an-offer-proposition-into-a-delivery).
 
 ### Offerte per cella {#offers-by-cell}
 
