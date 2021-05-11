@@ -8,10 +8,10 @@ breadcrumb-title: Campaign v8
 title: Documenti di Campaign v8
 hide: true
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: b9de052de5aaeee4b089feb70bf20723be5c9cfa
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 35%
+source-wordcount: '194'
+ht-degree: 33%
 
 ---
 
@@ -51,6 +51,16 @@ ht-degree: 35%
    + [Notifiche push](send/push.md)
    + [Direct mail](send/direct-mail.md)
    + [Messaggi transazionali](send/transactional.md)
+   + Aggiungi offerte{#interaction}
+      + [Introduzione all’interazione](send/interaction.md)
+      + Definisci le impostazioni{#interaction}
+         + [Creare operatori](send/interaction-operators.md)
+         + [Creare ambienti](send/interaction-env.md)
+         + [Creare filtri predefiniti](send/interaction-predefined-filters.md)
+      + [Creare un catalogo di offerta](send/interaction-offer-catalog.md)
+      + [Creare un’offerta](send/interaction-offer.md)
+      + [Inviare un’offerta](send/interaction-send-offers.md)
+      + [Casi d’uso](send/interaction-use-cases.md)
 + Configura {#config}
    + [Automazione](config/workflows.md)
    + [Gestione dei dati](config/replication.md)
