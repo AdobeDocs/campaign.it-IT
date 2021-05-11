@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: 3fe4156149e9ff8724dd1ff5fc17b538e6055ef8
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,12 @@ Le funzionalità principali includono:
 
 * **Connessioni a Adobe Experience Platform**. Adobe Campaign v8 supporta i connettori dati con Adobe Experience Platform/RT-CDP, il profilo cliente unificato e l’integrazione nativa con il Journey Orchestration. Questi investimenti ottimizzeranno la customer experience di Adobe Campaign e sbloccheranno nuovi casi d’uso, come la possibilità di aggiungere percorsi di clienti in tempo reale personalizzati alle campagne.
 
-* **Cloud Services gestiti**. Adobe Campaign v8 è disponibile come Cloud Services gestito all’avanguardia, fornendo una supervisione proattiva, avvisi tempestivi e governance dei servizi. Il valore per l’addetto al marketing è una gestione delle campagne cross-channel più agile e scalabile.
+* **Cloud Services gestiti**. Adobe Campaign v8 è disponibile **solo** come Cloud Services gestito all’avanguardia, fornendo una supervisione proattiva, avvisi tempestivi e governance dei servizi. Il valore per l’addetto al marketing è una gestione delle campagne cross-channel più agile e scalabile.
+
+>[!CAUTION]
+>
+>Per il momento, Campaign v8 è disponibile solo in come Cloud Service gestito. Non puoi implementare Campaign v8 in una distribuzione on-premise o ibrida. La migrazione da un ambiente Campaign Classic v7 non è ancora disponibile.
+
 
 ## Scala
 
