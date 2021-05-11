@@ -7,7 +7,7 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: 6f84e739f25caf5dbd2ef964e38a6264e4b4342b
+source-git-commit: 3783cb5ed3085b988f573fbf15858377b2bb2e05
 workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 1%
@@ -21,6 +21,36 @@ Campaign viene fornito con un modulo **Interazione** che ti consente di risponde
 Puoi creare un catalogo di offerte che si interfaccia con i tuoi canali in uscita (e-mail, direct mailing, SMS) per selezionare l’offerta migliore da inviare a un contatto in un dato contesto. La selezione delle offerte migliori per un destinatario si basa su **regole di idoneità**. La selezione di un’offerta da un set di offerte pertinenti è determinata utilizzando regole di priorità. Le regole di presentazione delle offerte tengono conto della cronologia del contatto e aiutano a evitare che riceva la stessa offerta più volte.
 
 L’interazione ti consente di creare e gestire un catalogo di offerte e di configurare le regole di idoneità e i temi dell’applicazione ad esse collegati. A seconda del canale scelto, il contenuto dell’offerta può essere personalizzato grazie a varie funzioni di rendering. Infine, puoi utilizzare il modulo di simulazione per calcolare l’impatto di una presentazione di offerta.
+
+## Guida introduttiva alle offerte
+
+I passaggi chiave da avviare sono elencati di seguito.
+
+### Configurare la piattaforma
+
+Prima di iniziare, in qualità di Campaign **Amministratore**, assicurati di aver eseguito le seguenti attività negli ambienti di progettazione:
+
+1. Creare profili utente. [Ulteriori informazioni](interaction-operators.md).
+1. (facoltativo) Crea un ambiente di offerta per ogni dimensione di targeting. [Ulteriori informazioni](interaction-env.md)
+1. Crea regole di tipologia per ogni ambiente. [Ulteriori informazioni](interaction-offer.md#offer-presentation).
+1. Crea spazi di offerta per ogni ambiente e configura funzioni di rendering. [Ulteriori informazioni](interaction-offer-spaces.md).
+Se lo spazio è definito da un canale unitario in modalità identificata, è necessario specificare i parametri avanzati per questo spazio.
+
+### Crea e pubblica il catalogo delle offerte {#managing-the-offer-catalog-}
+
+In qualità di **Gestione offerte** devi eseguire le seguenti attività:
+
+1. Crea categorie di offerte in ambienti di progettazione. [Ulteriori informazioni](interaction-offer-catalog.md#creating-offer-categories).
+1. Creare offerte in ambienti di progettazione. [Ulteriori informazioni](interaction-offer.md).
+1. Approva e pubblica offerte su uno o più spazi per renderli disponibili in ambienti live per il gestore delle consegne. [Ulteriori informazioni](interaction-offer.md#approve-offers).
+
+### Utilizzo del catalogo delle offerte {#using-the-offer-catalog-}
+
+In qualità di **responsabile consegna** devi eseguire le seguenti attività:
+
+1. Creare una campagna.
+1. Fai riferimento a un’offerta nella campagna o nella consegna. [Ulteriori informazioni](interaction-send-offers.md).
+
 
 ## Concetti e terminologia
 
@@ -57,33 +87,4 @@ Esistono due tipi di ambienti:
 * L’ **Anteprima** dell’offerta mostra l’offerta così come viene visualizzata nella relativa cartella. È accessibile dalla finestra delle impostazioni dell’offerta o dal profilo del contatto.
 * **I** filtri predefiniti sono regole di filtro che possono tenere conto dei parametri delle offerte (ad esempio, un codice di offerta). Possono essere riutilizzati dopo la creazione delle offerte.
 * Una **rappresentazione dell&#39;offerta** è un&#39;informazione utilizzata dal canale per visualizzare l&#39;offerta. La rappresentazione dell’offerta può essere creata dalla funzione di rendering dello spazio su cui l’offerta è rappresentata o inserita direttamente nell’interfaccia (ad esempio, nel blocco HTML). Un&#39;offerta può essere rappresentata da uno spazio.
-
-## Guida introduttiva alle offerte
-
-I passaggi chiave da avviare sono elencati di seguito.
-
-### Configurare la piattaforma
-
-Prima di iniziare, in qualità di Campaign **Amministratore**, assicurati di aver eseguito le seguenti attività negli ambienti di progettazione:
-
-1. Creare profili utente. [Ulteriori informazioni](interaction-operators.md).
-1. (facoltativo) Crea un ambiente di offerta per ogni dimensione di targeting. [Ulteriori informazioni](interaction-env.md)
-1. Crea regole di tipologia per ogni ambiente. [Ulteriori informazioni](interaction-offer.md#offer-presentation).
-1. Crea spazi di offerta per ogni ambiente e configura funzioni di rendering. [Ulteriori informazioni](interaction-offer-spaces.md).
-Se lo spazio è definito da un canale unitario in modalità identificata, è necessario specificare i parametri avanzati per questo spazio.
-
-### Crea e pubblica il catalogo delle offerte {#managing-the-offer-catalog-}
-
-In qualità di **Gestione offerte** devi eseguire le seguenti attività:
-
-1. Crea categorie di offerte in ambienti di progettazione. [Ulteriori informazioni](interaction-offer-catalog.md#creating-offer-categories).
-1. Creare offerte in ambienti di progettazione. [Ulteriori informazioni](interaction-offer.md).
-1. Approva e pubblica offerte su uno o più spazi per renderli disponibili in ambienti live per il gestore delle consegne. [Ulteriori informazioni](interaction-offer.md#approve-offers).
-
-### Utilizzo del catalogo delle offerte {#using-the-offer-catalog-}
-
-In qualità di **responsabile consegna** devi eseguire le seguenti attività:
-
-1. Creare una campagna.
-1. Fai riferimento a un’offerta nella campagna o nella consegna. [Ulteriori informazioni](interaction-send-offers.md).
 
