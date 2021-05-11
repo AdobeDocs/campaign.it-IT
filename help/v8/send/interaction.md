@@ -7,7 +7,7 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: b9de052de5aaeee4b089feb70bf20723be5c9cfa
+source-git-commit: e31b7e16cb4d5ed01d615e71fc15485b4e4a1859
 workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 1%
@@ -68,22 +68,22 @@ Prima di iniziare, in qualità di Campaign **Amministratore**, assicurati di ave
 
 1. Creare profili utente. [Ulteriori informazioni](interaction-operators.md).
 1. (facoltativo) Crea un ambiente di offerta per ogni dimensione di targeting. [Ulteriori informazioni](interaction-env.md)
-1. Crea regole di tipologia per ogni ambiente. [Ulteriori informazioni](../../interaction/using/managing-offer-presentation.md#creating-and-referencing-an-offer-presentation-rule).
-1. Crea spazi di offerta per ogni ambiente e configura funzioni di rendering. [Ulteriori informazioni](../../interaction/using/creating-offer-spaces.md).
+1. Crea regole di tipologia per ogni ambiente. [Ulteriori informazioni](interaction-offers.md#offer-presentation).
+1. Crea spazi di offerta per ogni ambiente e configura funzioni di rendering. [Ulteriori informazioni](interaction-offer-spaces.md).
 Se lo spazio è definito da un canale unitario in modalità identificata, è necessario specificare i parametri avanzati per questo spazio.
 
 ### Crea e pubblica il catalogo delle offerte {#managing-the-offer-catalog-}
 
 In qualità di **Gestione offerte** devi eseguire le seguenti attività:
 
-1. Crea categorie di offerte in ambienti di progettazione. [Ulteriori informazioni](../../interaction/using/creating-offer-categories.md).
-1. Creare offerte in ambienti di progettazione. [Ulteriori informazioni](../../interaction/using/creating-an-offer.md).
-1. Approva e pubblica offerte su uno o più spazi per renderli disponibili in ambienti live per il gestore delle consegne. [Ulteriori informazioni](../../interaction/using/approving-and-activating-an-offer.md).
+1. Crea categorie di offerte in ambienti di progettazione. [Ulteriori informazioni](interaction-offer-catalog.md#creating-offer-categories).
+1. Creare offerte in ambienti di progettazione. [Ulteriori informazioni](interaction-offer.md).
+1. Approva e pubblica offerte su uno o più spazi per renderli disponibili in ambienti live per il gestore delle consegne. [Ulteriori informazioni](interaction-offer.md#approve-offers).
 
 ### Utilizzo del catalogo delle offerte {#using-the-offer-catalog-}
 
 In qualità di **responsabile consegna** devi eseguire le seguenti attività:
 
 1. Creare una campagna.
-1. Fai riferimento a un’offerta nella campagna o nella consegna. [Ulteriori informazioni](../../interaction/using/about-outbound-channels.md).
+1. Fai riferimento a un’offerta nella campagna o nella consegna. [Ulteriori informazioni](interaction-send-offers.md).
 
