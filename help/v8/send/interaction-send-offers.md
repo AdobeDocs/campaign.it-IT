@@ -7,9 +7,9 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: b9de052de5aaeee4b089feb70bf20723be5c9cfa
+source-git-commit: e31b7e16cb4d5ed01d615e71fc15485b4e4a1859
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1282'
 ht-degree: 2%
 
 ---
@@ -150,7 +150,7 @@ Per impostazione predefinita, quando un&#39;attività **Enrichment** viene utili
 
 Tuttavia, è possibile memorizzare queste informazioni come segue:
 
-1. Crea una chiamata al motore di offerta in un’attività di arricchimento inserita dopo una query e prima di un’attività di consegna. [Ulteriori informazioni](../../interaction/using/integrating-an-offer-via-a-workflow.md#specifying-an-offer-or-a-call-to-the-offer-engine).
+1. Crea una chiamata al motore di offerta in un’attività di arricchimento inserita dopo una query e prima di un’attività di consegna. [Ulteriori informazioni](#specifying-an-offer-or-a-call-to-the-offer-engine).
 1. Nella finestra principale dell’attività, seleziona **[!UICONTROL Edit additional data...]**.
 
    ![](assets/ita_enrichment_rankweight_1.png)
@@ -203,8 +203,7 @@ A questo scopo, utilizza il seguente processo:
 
       ![](assets/int_offer_per_cell1.png)
 
-1. Quindi configura un’attività di consegna corrispondente al canale scelto. Per ulteriori informazioni, consulta la sezione [Inserimento di una proposta di offerta in una consegna](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery) .
-
+1. Quindi configura un’attività di consegna corrispondente al canale scelto.
 
 <!--
 
