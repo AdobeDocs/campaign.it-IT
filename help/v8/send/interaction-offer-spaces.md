@@ -7,9 +7,9 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: b9de052de5aaeee4b089feb70bf20723be5c9cfa
+source-git-commit: e31b7e16cb4d5ed01d615e71fc15485b4e4a1859
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '606'
 ht-degree: 3%
 
 ---
@@ -19,8 +19,6 @@ ht-degree: 3%
 Il contenuto del catalogo delle offerte è configurato negli spazi delle offerte. Per impostazione predefinita, il contenuto può includere i campi seguenti: **[!UICONTROL Title]**, **[!UICONTROL Destination URL]**, **[!UICONTROL Image URL]**, **[!UICONTROL HTML content]** e **[!UICONTROL Text content]**. La sequenza di campi è configurata nello spazio di offerta.
 
 In qualità di **amministratore tecnico**, puoi creare spazi di offerta nell’ambiente di progettazione. Devi avere accesso alla sottocartella spazio offerta . Una volta creati, questi spazi di offerta vengono automaticamente duplicati nell’ambiente Live durante l’approvazione dell’offerta.
-
-I parametri avanzati consentono di specificare una chiave di identificazione del contatto (che può essere composta da vari elementi, ad esempio il nome e il campo e-mail contemporaneamente). Per ulteriori informazioni, consulta la sezione [Presentazione di un’offerta identificata](../../interaction/using/integration-via-javascript--client-side-.md#presenting-an-identified-offer) .
 
 Il rendering HTML viene creato tramite una funzione di rendering. La sequenza dei campi definiti nella funzione di rendering deve essere identica alla sequenza configurata nel contenuto.
 
@@ -66,8 +64,6 @@ Per creare un nuovo spazio di offerta, effettua le seguenti operazioni:
 1. Inserisci la funzione di rendering.
 
    ![](assets/offer_space_create_007.png)
-
-Se necessario, puoi sovraccaricare le funzioni di rendering HTML e testo. [Ulteriori informazioni](../../interaction/using/about-inbound-channels.md).
 
 ## Stato delle proposte di offerta {#offer-proposition-statuses}
 
@@ -161,5 +157,5 @@ Se un destinatario non è idoneo per alcuna offerta, questa viene visualizzata n
 ![](assets/offer_space_overview_001.png)
 
 <!--
-The preview can ignore contexts when they are restricted to a space. This is the case when the interaction schema has been extended to add fields referenced in a space using an inbound channel (for more on this, refer to [Extension example](../../interaction/using/extension-example.md)).
+The preview can ignore contexts when they are restricted to a space. This is the case when the interaction schema has been extended to add fields referenced in a space using an inbound channel (for more on this, refer to Extension example.
 -->
