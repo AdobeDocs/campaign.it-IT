@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 95ed0369-7215-496b-8e11-fe264c436488,e7931de5-83ce-431d-ae81-83793d257550
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: 43914bcbe3cf0ddb323d99a9df16189a1f687317
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,8 @@ CubiAnalizza e misura i dati, calcola le statistiche, semplifica e ottimizza la 
 
 A seconda della complessità delle query, dei calcoli e dei volumi, i dati analizzati in questi rapporti possono essere raccolti tramite una query e preaggregati in un elenco (&quot;flusso di lavoro di gestione dei dati&quot;) o in un cubo (utilizzando Marketing Analytics). Viene visualizzato sotto forma di tabella pivot o di elenco di gruppi.
 
+
 :arrow_Upper_right: Per ulteriori informazioni sulle funzionalità di reporting, [consulta questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reporting-in-adobe-campaign/about-adobe-campaign-reporting-tools.html).
 
-## Metriche chiave da controllare
+I rapporti v8 di Campaign sono ottimizzati e offrono funzionalità su scala migliore rispetto a Campaign Classic v7. Le limitazioni esistenti sui cubi non si applicano.
 
