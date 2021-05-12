@@ -7,10 +7,9 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-translation-type: tm+mt
-source-git-commit: 9b6190f48373b772a72d6c1ef1b7510ec41112be
+source-git-commit: 51efce79e4195c9d53db167be80c7adcda811e21
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1220'
 ht-degree: 2%
 
 ---
@@ -23,6 +22,12 @@ In questa sezione imparerai a regolare Adobe Campaign in base ai requisiti della
 1. **Prepara l’ambiente**: importare profili, creare tipi di pubblico, progettare flussi di lavoro e modelli di campagne, creare regole di tipologia
 1. **Personalizza l’istanza**: creare nuovi campi dati, aggiungere tabelle/schemi
 1. **Estendi la distribuzione**: connessione a soluzioni di Adobe, altri prodotti e sistemi - connettori, impostazioni per più soluzioni
+
+>[!CAUTION]
+>
+>Con **Cloud Services gestiti da Campaign**, l’ambiente e la configurazione iniziale sono stati impostati per Adobe, in base ai termini del contratto di licenza. Non è consentito modificare i pacchetti incorporati, gli schemi o i rapporti incorporati installati.
+>
+>Se devi utilizzare un componente aggiuntivo Campaign o una funzionalità specifica non disponibile, contatta l’ **Adobe Customer Care**.
 
 ## Prima di iniziare
 
@@ -40,7 +45,7 @@ Adobe Campaign viene fornito con processi e impostazioni che ti consentono di ut
 
 ### Sicurezza
 
-Scopri le linee guida e i principi di sicurezza con Adobe Campaign in [Lista di controllo sicurezza delle campagne](../config/security.md))
+Scopri le linee guida e i principi di sicurezza con Adobe Campaign in [Lista di controllo sicurezza delle campagne](../config/security.md).
 
 ## Definire le impostazioni di Campaign
 
