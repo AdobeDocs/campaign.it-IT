@@ -7,10 +7,9 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: 51efce79e4195c9d53db167be80c7adcda811e21
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -23,15 +22,15 @@ Campaign è reso disponibile come istanze individuali con ogni istanza che rappr
 
 Tre tipi di ambienti disponibili con Cloud Service Campaign:
 
-* Ambiente di produzione: ospita le applicazioni per i professionisti del business.
+* **Ambiente** di produzione: ospita le applicazioni per i professionisti del business.
 
-* Ambiente stage: utilizzati per vari test di prestazioni e qualità prima che le modifiche all’applicazione vengano inviate all’ambiente di produzione.
+* **Ambiente** stage: utilizzati per vari test di prestazioni e qualità prima che le modifiche all’applicazione vengano inviate all’ambiente di produzione.
 
-* Ambiente di sviluppo: consente agli sviluppatori di implementare Campaign nelle stesse condizioni di runtime degli ambienti di stage e produzione.
+* **Ambiente** di sviluppo: consente agli sviluppatori di implementare Campaign nelle stesse condizioni di runtime degli ambienti di stage e produzione.
 
 Puoi esportare e importare i pacchetti da un ambiente all’altro.
 
-:arrow_Upper_right: Ulteriori informazioni sui pacchetti nella documentazione di [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html?lang=en#about-data-packages)
+:arrow_Upper_right: Ulteriori informazioni sui pacchetti nella documentazione di [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html)
 
 ## Distribuzione mid-sourcing{#mid-sourcing-deployment}
 
