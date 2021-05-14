@@ -59,3 +59,4 @@ Nell&#39;archivio pubblico, vengono assegnate etichette automatizzate alle richi
 
 * **Change sent to author**: l&#39;autore è stato informato della richiesta di pull in sospeso.
 * **ready-to-merge**: pronto per la revisione da parte del team di revisione della richiesta di pull.
+
