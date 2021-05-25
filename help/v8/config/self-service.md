@@ -1,20 +1,23 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Pannello di controllo Campaign
 description: Pannello di controllo Campaign
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+hidefromtoc: true
+hide: true
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '361'
 ht-degree: 58%
 
 ---
 
 # Pannello di controllo Campaign
+
+NON ANCORA DISPONIBILE
 
 Il Pannello di controllo Campaign Campaign ti consente di aumentare l’efficienza del lavoro come amministratore di prodotto di Adobe Campaign, consentendoti di gestire le impostazioni e tenere traccia degli utilizzi per ciascuna istanza. L’interfaccia intuitiva consente di monitorare facilmente l’utilizzo delle risorse chiave, nonché di eseguire attività amministrative come l’inserimento di indirizzi IP nell’elenco Consentiti, il monitoraggio dell’archiviazione SFTP, la gestione delle chiavi e altro ancora.
 
