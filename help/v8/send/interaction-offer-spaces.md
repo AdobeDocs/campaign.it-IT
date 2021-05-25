@@ -1,13 +1,12 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Aree di offerta di interazione campagna
 description: Scopri come creare spazi di offerta
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-translation-type: tm+mt
-source-git-commit: fcc0165aeba4347a53d33bed95aa7fbb5fa27005
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 3%
