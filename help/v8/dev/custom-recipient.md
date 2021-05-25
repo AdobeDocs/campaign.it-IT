@@ -1,5 +1,5 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Modificare la tabella dei destinatari predefinita
 description: Scopri come utilizzare una tabella dei destinatari personalizzata
@@ -7,8 +7,7 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
-translation-type: tm+mt
-source-git-commit: 84ee7eb2bf2e15d30c81f32f6b25c9801b3b12b1
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 2%
