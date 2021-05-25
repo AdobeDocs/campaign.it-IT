@@ -1,12 +1,11 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Utilizzare gli schemi di Campaign
 description: Guida introduttiva agli schemi
-translation-type: tm+mt
-source-git-commit: e31b7e16cb4d5ed01d615e71fc15485b4e4a1859
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1252'
 ht-degree: 4%
 
 ---
@@ -41,7 +40,7 @@ Per una migliore comprensione delle tabelle integrate di Campaign e della loro i
 
 >[!CAUTION]
 >
->Alcuni schemi di Campaign incorporati hanno uno schema associato nel database Cloud. Questi schemi sono identificati dallo spazio dei nomi **Xxl** e non devono essere modificati.
+>Alcuni schemi di Campaign incorporati hanno uno schema associato nel database Cloud. Questi schemi sono identificati dallo spazio dei nomi **Xxl** e non devono essere modificati o estesi.
 
 ## Sintassi degli schemi {#syntax-of-schemas}
 
@@ -81,16 +80,17 @@ Uno spazio dei nomi consente di raggruppare un set di schemi per area di interes
 >
 >Gli identificatori non devono iniziare con caratteri numerici.
 
-## Spazi dei nomi riservati
+## Spazi dei nomi riservati {#reserved-namespaces}
 
 Alcuni namespace sono riservati per le descrizioni delle entità di sistema necessarie per il funzionamento dell’applicazione Adobe Campaign. Non è necessario utilizzare il seguente namespace **per identificare un nuovo schema in una combinazione maiuscola/minuscola:**
 
-* **xxl**: riservato agli schemi di database cloud,
-* **xtk**: riservati ai dati di sistema della piattaforma,
-* **nl**: riservato all&#39;uso generale della domanda,
-* **nms**: riservato alle consegne (destinatario, consegna, tracciamento, ecc.),
-* **ncm**: riservato alla gestione dei contenuti,
-* **temperatura**: riservato agli schemi temporanei.
+* **xxl**: riservato agli schemi di database cloud
+* **xtk**: riservato ai dati di sistema della piattaforma
+* **nl**: riservato all&#39;uso generale della domanda
+* **nms**: riservato alle consegne (destinatario, consegna, tracciamento, ecc.)
+* **ncm**: riservato alla gestione dei contenuti
+* **temperatura**: riservato agli schemi temporanei
+* **crm**: riservato all’integrazione dei connettori di gestione delle relazioni con i clienti
 
 La chiave di identificazione di uno schema è una stringa creata utilizzando lo spazio dei nomi e il nome separati da due punti; ad esempio: **nms:recipient**.
 
@@ -134,7 +134,7 @@ type="string" enum="exTransactionTypeEnum"/>
 >
 >È inoltre possibile utilizzare enumerazioni gestite dall’utente (in genere in **[!UICONTROL Administration]** > **[!UICONTROL Platform]** ) per specificare i valori di un dato campo. Si tratta di enumerazioni globali efficaci e di una scelta migliore se l’enumerazione può essere utilizzata al di fuori dello schema specifico in cui si sta lavorando.
 
-## Tasti {#keys}
+## Chiavi {#keys}
 
 Ogni tabella deve avere almeno una chiave e spesso viene stabilita automaticamente nell&#39;elemento principale dello schema utilizzando l&#39;attributo **@autouuid=true** impostato su &quot;true&quot;.
 
@@ -162,9 +162,9 @@ Gli attributi ti consentono di definire i campi che compongono l’oggetto dati.
 
 ![](assets/schemaextension_2.png)
 
-L&#39;elenco completo degli attributi è disponibile nella sezione `<attribute>` elemento nella [documentazione Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=en#content-model). Di seguito sono riportati alcuni degli attributi più comunemente utilizzati: **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label&lt;a 13/>,**@length **,**@name **,**@notNull **,**@required **,**@ref&lt;a22 3/>, **@xml**, **@type**.****
+L’elenco completo degli attributi è disponibile nella sezione `<attribute>` elemento nella documentazione [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=en#content-model). Di seguito sono riportati alcuni degli attributi più comunemente utilizzati: **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label&lt;a 13/>,**@length **,**@name **,**@notNull **,**@required **,**@ref&lt;a22 3/>, **@xml**, **@type**.****
 
-:arrow_Upper_right: Per ulteriori informazioni su ciascun attributo, consulta la descrizione dell’attributo nella [documentazione di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic).
+:arrow_Upper_right: Per ulteriori informazioni su ciascun attributo, consulta la descrizione dell’attributo nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic).
 
 ### Esempi {#examples}
 
