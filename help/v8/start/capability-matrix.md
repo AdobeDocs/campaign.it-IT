@@ -1,5 +1,5 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Campaign Classic v7 - Matrice di funzionalità per Campaign v8
 description: Comprendere le differenze tra Campaign Classic v7 e Campaign v8
@@ -7,50 +7,45 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-translation-type: tm+mt
-source-git-commit: e1308398e5a33f2ad9659ad632aeb05af9916e69
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 3%
+source-wordcount: '572'
+ht-degree: 2%
 
 ---
 
-# Campaign Classic v7 - Funzionalità di Campaign v8{#gs-matrix}
+# [!DNL Campaign Classic] v7 - Funzionalità  [!DNL Campaign] v8{#gs-matrix}
 
-
-In qualità di utente esistente di Campaign Classic v7, non dovrebbe verificarsi alcuna interruzione importante nel modo in cui si interagisce solitamente con Adobe Campaign. La maggior parte delle modifiche nella versione v8 non sono visibili, tranne che per le piccole modifiche visualizzate nell’interfaccia utente e nei passaggi di configurazione.
+In qualità di utente [!DNL Campaign Classic] v7 esistente, non devi aspettarti grandi interruzioni nel modo in cui solitamente interagisci con [!DNL Adobe Campaign]. La maggior parte delle modifiche nella versione v8 non sono visibili, tranne che per le piccole modifiche visualizzate nell’interfaccia utente e nei passaggi di configurazione.
 
 Modifiche chiave:
 
 * Creare segmenti fino a 200 volte più veloci
-
 * Aumento della velocità di consegna
+* Rapporti in tempo reale con cubi
 
-* Rapporti in tempo reale
+In qualità di utente [!DNL Campaign Classic], tieni presente che la maggior parte delle funzioni [!DNL Campaign Classic] v7 sono disponibili con [!DNL Campaign] v8, ad eccezione di un piccolo insieme di esse, elencate in [questa sezione](#gs-removed). Altri saranno disponibili nelle prossime versioni. [Ulteriori informazioni in questa sezione](#gs-unavailable-features)
 
-In qualità di utente Campaign Classic, tieni presente che la maggior parte delle funzioni di Campaign Classic v7 sono disponibili con Campaign v8, ad eccezione di un piccolo set di esse, elencato in [questa sezione](#gs-removed). Altri saranno disponibili nelle prossime versioni. [Ulteriori informazioni](#gs-unavailable-features)
-
+:lampadina: Ulteriori informazioni sull&#39; [!DNL Campaign] architettura v8 in [questa pagina](../dev/architecture.md).
 
 ## Modifiche alla configurazione del prodotto
 
-### Campagna e [!DNL Snowflake] {#ac-gs-snowflake}
+### [!DNL Campaign] e  [!DNL Snowflake] {#ac-gs-snowflake}
 
-L&#39;archiviazione cloud viene eseguita in [!DNL Snowflake]: un nuovo account esterno garantisce la connettività con il database cloud. [Ulteriori informazioni](#ac-gs-snowflake).
+[!DNL Adobe Campaign] v8 funziona con due database: un database locale per la messaggistica in tempo reale e le query unitarie dell’interfaccia utente e la scrittura tramite API e un database Cloud per l’esecuzione di una campagna, le query batch e l’esecuzione di un flusso di lavoro.
 
-Questo è un cambiamento fondamentale nell&#39;architettura del software. I dati sono ora remoti e Campaign unisce tutti i dati, inclusi i profili. I processi di Campaign ora vengono ridimensionati in modo end-to-end, dal targeting all’esecuzione dei messaggi: in genere, l’acquisizione di dati, la segmentazione, il targeting, le query e le consegne vengono eseguite in pochi minuti.
+Questo è un cambiamento fondamentale nell&#39;architettura del software. I dati sono ora remoti e Campaign unisce tutti i dati, inclusi i profili. [!DNL Campaign] i processi ora vengono ridimensionati in modo end-to-end, dal targeting all’esecuzione dei messaggi: in genere, l’acquisizione di dati, la segmentazione, il targeting, le query e le consegne vengono eseguite in pochi minuti. Questa nuova versione risolve l&#39;intera sfida della scalabilità mantenendo lo stesso livello di flessibilità ed estensibilità. Il numero di profili è quasi illimitato e la conservazione dei dati può essere estesa.
 
-Questa nuova versione risolve l&#39;intera sfida della scalabilità mantenendo lo stesso livello di flessibilità ed estensibilità. Il numero di profili è quasi illimitato e la conservazione dei dati può essere estesa.
+L&#39;archiviazione cloud viene eseguita in **[!DNL Snowflake]**: un nuovo account **esterno** integrato garantisce la connettività con il database cloud. È configurato da Adobe e non deve essere modificato. [Ulteriori informazioni](../config/external-accounts.md).
 
-Un nuovo account **esterno** integrato è dedicato a Full FDA. Questo è il cuore della connettività di Cloud Database. Consigliamo di partire così com&#39;è.
-
-Qualsiasi schema/tabella incorporata che deve essere spostata o replicata nel database cloud viene fornito con un&#39;estensione dello schema incorporata nello spazio dei nomi **xxl** .
-
-Tali estensioni contengono eventuali modifiche necessarie per spostare gli schemi incorporati dal database locale di Campaign al database [!DNL Snowflake] Cloud e per adattare di conseguenza la loro struttura: nuovo UUID, collegamenti aggiornati, ecc.
+Qualsiasi schema/tabella incorporata che deve essere spostata o replicata nel database cloud viene fornito con un&#39;estensione dello schema incorporata nello spazio dei nomi **xxl** . Tali estensioni contengono eventuali modifiche necessarie per spostare gli schemi incorporati dal database locale [!DNL Campaign] al database [!DNL Snowflake] Cloud e per adattare di conseguenza la loro struttura: nuovo UUID, collegamenti aggiornati, ecc.
 
 >[!CAUTION]
 >
-> I dati del cliente non vengono memorizzati nel database locale di Campaign. Di conseguenza, qualsiasi tabella personalizzata deve essere creata nel database Cloud.
+> I dati del cliente non vengono memorizzati nel database locale [!DNL Campaign]. Di conseguenza, qualsiasi tabella personalizzata deve essere creata nel database Cloud.
 
+
+Sono disponibili API specifiche per gestire i dati tra il database locale e quello cloud. Scopri come funzionano queste nuove API e come utilizzarle in [questa pagina](../dev/new-apis.md).
 
 ### Replica dati
 
@@ -68,7 +63,7 @@ Un flusso di lavoro tecnico specifico gestisce la replica delle tabelle che devo
 
 Gli oggetti Campaign v8 ora utilizzano un **ID universale univoco (UUID)**, che consente l’identificazione dei dati con valori univoci illimitati
 
-L&#39;ID è basato su stringhe e non sequenziale.
+Tieni presente che questo ID è basato su stringhe e non sequenziale.
 
 ### Manutenzione semplificata
 
