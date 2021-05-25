@@ -1,5 +1,5 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 audience: end-user
 user-guide-title: Campaign v8
@@ -7,21 +7,21 @@ description: Documentazione di Campaign v8
 breadcrumb-title: Campaign v8
 title: Documenti di Campaign v8
 hide: true
-translation-type: tm+mt
-source-git-commit: 3fe4156149e9ff8724dd1ff5fc17b538e6055ef8
+source-git-commit: 6e098ffa538c4348889a35eb454da747c80d6262
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 34%
+source-wordcount: '193'
+ht-degree: 31%
 
 ---
 
 
 # Documentazione di Adobe Campaign v8 {#campaign-v8}
 
-+ [Documentazione del prodotto](campaign-home.md)
++ [Documentazione di Campaign v8](campaign-home.md)
 + Vuoi scoprire le novità? {#start}
    + [Funzionalità principali](start/whats-new.md)
    + [Note sulla versione](start/release-notes.md)
+   + [Limitazioni note](start/known-limitations.md)
    + [Classico da v7 a v8](start/capability-matrix.md)
 + Inizio {#start}
    + [Introduzione](start/get-started.md)
@@ -44,13 +44,12 @@ ht-degree: 34%
    + [Connettersi a Campaign](start/connect.md)
    + [Autorizzazioni](start/permissions.md)
    + [Pannello di controllo Campaign](config/self-service.md)
-   + [Aiuto e supporto](start/support.md)
 + Invia {#send}
    + [E-mail](send/email.md)
    + [SMS](send/sms.md)
    + [Notifiche push](send/push.md)
    + [Messaggi LINE](send/line.md)
-   + [Direct mail](send/direct-mail.md)
+   + [Direct mailing](send/direct-mail.md)
    + [Messaggi transazionali](send/transactional.md)
    + Aggiungi offerte{#interaction}
       + [Introduzione all’interazione](send/interaction.md)
@@ -64,7 +63,7 @@ ht-degree: 34%
       + [Inviare un’offerta](send/interaction-send-offers.md)
       + [Casi d’uso](send/interaction-use-cases.md)
 + Configura {#config}
-   + [Automazione](config/workflows.md)
+   + [Automatizzare con i flussi di lavoro](config/workflows.md)
    + [Gestione dei dati](config/replication.md)
    + [Impostazioni e-mail](config/email-settings.md)
    + [Impostazioni dei messaggi transazionali](config/transactional-msg-settings.md)
@@ -95,6 +94,4 @@ ht-degree: 34%
    + API {#api}
       + [Introduzione](dev/api.md)
       + [Nuove API](dev/new-apis.md)
-      + [API di Campaign v8](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)
-
-
+      + [Meccanismo di staging API](dev/staging.md)
