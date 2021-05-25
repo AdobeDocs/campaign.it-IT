@@ -1,10 +1,9 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Mappatura del database Campaign
 description: Mappatura del database Campaign
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
 source-wordcount: '1464'
 ht-degree: 0%
@@ -379,7 +378,7 @@ Relazione 1-1 alla tabella dello schema &quot;cus:extension&quot;:
 <element integrity="own" label="Extension" name="extension" revCardinality="single" revLink="recipient" target="cus:extension" type="link"/>
 ```
 
-### Esempio 5 {#example-4}
+### Esempio 4 {#example-4}
 
 Collega a una cartella (&quot;schema xtk:folder&quot;):
 
