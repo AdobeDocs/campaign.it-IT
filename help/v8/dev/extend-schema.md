@@ -1,13 +1,12 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Estendere gli schemi di Campaign
 description: Scopri come estendere gli schemi di Campaign
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 1%
+source-wordcount: '244'
+ht-degree: 2%
 
 ---
 
@@ -37,7 +36,7 @@ Per estendere uno schema, segui i passaggi seguenti:
 
    ![](assets/extend-schema-select.png)
 
-   Per convenzione, denomina lo schema di estensione come lo schema incorporato e utilizza uno spazio dei nomi personalizzato.
+   Per convenzione, denomina lo schema di estensione come lo schema incorporato e utilizza uno spazio dei nomi personalizzato.  Alcuni namespace sono interni solo. [Ulteriori informazioni](schemas.md#reserved-namespaces).
 
    ![](assets/extend-schema-validate.png)
 
@@ -50,17 +49,17 @@ Per estendere uno schema, segui i passaggi seguenti:
    ![](assets/extend-schema-sample.png)
 
    ```
-   <srcSchema created="YY-MM-DD" desc="Recipient table" extendedSchema="nms:recipient"
-           img="nms:recipient.png" label="Recipients" labelSingular="Recipient" lastModified="YY-MM-DD"
+   <srcSchema created="YYYY-MM-DD" desc="Recipient table" extendedSchema="nms:recipient"
+           img="nms:recipient.png" label="Recipients" labelSingular="Recipient" lastModified="YYYY-MM-DD"
            mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:srcSchema">
-    <element desc="Recipient table" img="nms:recipient.png" label="Recipients" labelSingular="Recipient"
-          name="recipient">
-   <attribute label="Member since" name="MembershipYear" type="long"/>
-   <attribute length="50" name="lastName"/>
-   <attribute _operation="delete" name="birthDate"/>
+    <element desc="Recipient table" img="nms:recipient.png" label="Recipients" labelSingular="Recipient" name="recipient">
+       <attribute label="Member since" name="MembershipYear" type="long"/>
+       <attribute length="50" name="lastName"/>
+       <attribute _operation="delete" name="birthDate"/>
    </element>
    </srcSchema>
    ```
+
 1. Disconnetti e riconnettiti a Campaign per controllare l’aggiornamento della struttura dello schema nella scheda **[!UICONTROL Structure]** .
 
    ![](assets/extend-schema-structure.png)
