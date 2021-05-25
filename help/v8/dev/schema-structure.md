@@ -1,12 +1,11 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Struttura dello schema della campagna
 description: Struttura dello schema di Campaign
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1397'
 ht-degree: 1%
 
 ---
@@ -123,7 +122,7 @@ Devono essere rispettate le seguenti regole:
 
 Il tipo di dati viene immesso tramite l’attributo **type** negli elementi **`<attribute>`** e **`<element>`**.
 
-Un elenco dettagliato è disponibile nella [documentazione Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic).
+Un elenco dettagliato è disponibile nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic).
 
 Quando questo attributo non viene popolato, **string** è il tipo di dati predefinito, a meno che l&#39;elemento non contenga elementi secondari. Se lo fa, viene utilizzato solo per strutturare gli elementi gerarchicamente (**`<location>`** nel nostro esempio).
 
