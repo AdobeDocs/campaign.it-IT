@@ -1,5 +1,5 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Linee guida sull'implementazione
 description: Scopri come implementare Campaign v8
@@ -7,9 +7,9 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: 51efce79e4195c9d53db167be80c7adcda811e21
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1221'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,7 @@ Questa sezione contiene informazioni critiche sulla privacy e la sicurezza che d
 
 Adobe Campaign viene fornito con processi e impostazioni che ti consentono di utilizzare Campaign in conformità alle leggi sulla privacy dei dati applicabili e alle preferenze del destinatario. Puoi gestire:
 
-* **Acquisizione** dati: Adobe Campaign consente di raccogliere dati, comprese informazioni personali e riservate. È pertanto essenziale che tu riceva e gestisca il consenso dei destinatari. Ulteriori informazioni nella documentazione di [Campaign Classic](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=en#data-acquisition)
+* **Acquisizione** dati: Adobe Campaign consente di raccogliere dati, comprese informazioni personali e riservate. È pertanto essenziale che tu riceva e gestisca il consenso dei destinatari. Ulteriori informazioni nella documentazione di [Campaign Classic v7](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=en#data-acquisition)
 
 * **Consenso utente e conservazione** dei dati: Scopri come ottenere il consenso degli utenti, configurare i meccanismi di doppio consenso per l’abbonamento, facilitare la rinuncia e configurare la conservazione dei dati nella documentazione sulla privacy di  [Campaign Classic](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=en#consent)
 
