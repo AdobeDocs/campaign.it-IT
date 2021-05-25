@@ -1,5 +1,5 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: 'Guida introduttiva al modello dati di Campaign '
 description: 'Guida introduttiva al modello dati di Campaign '
@@ -7,10 +7,9 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896,b1319b34-ee07-48ed-9ab1-e2d12d3d99f8
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '657'
 ht-degree: 4%
 
 ---
@@ -29,11 +28,11 @@ La struttura di base del modello dati Adobe Campaign può essere descritta come 
 
 * **Tabelle** di registro: Queste tabelle memorizzano tutti i registri associati all’esecuzione delle campagne.
 
-   I registri di consegna sono tutti i messaggi inviati a destinatari o dispositivi su tutti i canali. La tabella dei registri di consegna principale (NmsBroadLog) contiene i registri di consegna per tutti i destinatari.
-La tabella dei registri di tracciamento principale (NmsTrackingLog) memorizza i registri di tracciamento per tutti i destinatari. I registri di tracciamento si riferiscono alle reazioni dei destinatari, ad esempio aperture e clic delle e-mail. Ogni reazione corrisponde a un registro di tracciamento.
+   I registri di consegna sono tutti i messaggi inviati a destinatari o dispositivi su tutti i canali. La tabella dei registri di consegna principale (NmsBroadLogRcp) contiene i registri di consegna per tutti i destinatari.
+La tabella dei registri di tracciamento principale (NmsTrackingLogRcp) memorizza i registri di tracciamento per tutti i destinatari. I registri di tracciamento si riferiscono alle reazioni dei destinatari, ad esempio aperture e clic delle e-mail. Ogni reazione corrisponde a un registro di tracciamento.
 I registri di consegna e di tracciamento vengono eliminati dopo un certo periodo, che viene specificato in Adobe Campaign e può essere modificato. Pertanto, si raccomanda vivamente di esportare i registri su base regolare.
 
-* **Tabelle** tecniche: Raccogliere i dati tecnici utilizzati per il processo applicativo, inclusi gli operatori e i diritti utente (NmsGroup), le cartelle (XtkFolder).
+* **Tabelle** tecniche: Raccogliere i dati tecnici utilizzati per il processo applicativo, inclusi gli operatori e i diritti utente (xtkGroup), le cartelle (XtkFolder).
 
 >[!NOTE]
 >
@@ -63,7 +62,7 @@ I vantaggi dell’utilizzo della tabella dei destinatari standard sono i seguent
 
 :lampadina: Scopri come estendere uno schema esistente in [questa sezione](extend-schema.md).
 
-:arrow_Upper_right: Scopri esempi di estensioni integrate di tabelle dei destinatari nella [documentazione di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#extending-a-table)
+:arrow_Upper_right: Scopri esempi di estensioni integrate di tabelle dei destinatari nella documentazione [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#extending-a-table)
 
 Puoi anche utilizzare una tabella dei destinatari diversa per adattarla meglio ai requisiti aziendali o funzionali. Questo metodo viene fornito con limitazioni ed è descritto in [questa sezione](custom-recipient.md).
 
