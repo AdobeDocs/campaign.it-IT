@@ -1,5 +1,5 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Introduzione ai messaggi
 description: Introduzione ai messaggi
@@ -7,21 +7,20 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-translation-type: tm+mt
-source-git-commit: 3fe4156149e9ff8724dd1ff5fc17b538e6055ef8
+source-git-commit: c659c31c15916077e71c63f3b3f4ca135d4d7f7d
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '666'
 ht-degree: 3%
 
 ---
 
 # Guida introduttiva ai messaggi{#gs-ac-audiences}
 
-Con Adobe Campaign, puoi inviare campagne cross-channel tra cui e-mail, SMS, messaggi LINE, notifiche push e direct mailing e misurarne l’efficacia utilizzando vari rapporti dedicati. Questi messaggi sono progettati e inviati tramite le consegne e possono essere personalizzati per ogni destinatario.
+Con Adobe Campaign, puoi inviare campagne cross-channel tra cui e-mail, SMS, notifiche push e direct mailing e misurarne l’efficacia utilizzando vari rapporti dedicati. Questi messaggi sono progettati e inviati tramite le consegne e possono essere personalizzati per ogni destinatario.
 
 Le funzionalità di base includono il targeting, la definizione e la personalizzazione dei messaggi, l’esecuzione di comunicazioni e i relativi rapporti operativi. Il punto di accesso funzionale principale è l’assistente alla consegna. Questo punto di accesso porta a più funzionalità coperte da Adobe Campaign.
 
-Scopri i passaggi chiave per creare una consegna nella [documentazione Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html).
+Scopri i passaggi chiave per creare una consegna nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html).
 
 Adobe Campaign v8 viene fornito con i seguenti canali di consegna:
 
@@ -33,7 +32,9 @@ Adobe Campaign v8 viene fornito con i seguenti canali di consegna:
 
 * **Canale** dell&#39;applicazione mobile: le consegne di app mobili ti consentono di inviare notifiche ai sistemi iOS e Android.  Ulteriori informazioni in [questa pagina](../send/push.md)
 
-* **Canale** LINE: Le consegne LINE ti consentono di inviare messaggi su LINE, un&#39;applicazione di messaggistica istantanea disponibile su tutti gli smartphone. Ulteriori informazioni in [questa pagina](../send/line.md)
+<!--
+* **LINE channel**: LINE deliveries let you send messages on LINE, an instant messaging application available on all smartphones. Learn more in [this page](../send/line.md)
+-->
 
 ## Scegliere come inviare i messaggi
 
@@ -57,11 +58,11 @@ I messaggi inviati da Adobe Campaign possono essere personalizzati in vari modi.
 Puoi:
 
 * Inserire campi di personalizzazione dinamici.
-:arrow_Upper_right: Scopri come utilizzare i campi di personalizzazione nella [documentazione di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html)
+:arrow_Upper_right: Scopri come utilizzare i campi di personalizzazione nella documentazione di [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html)
 * Inserire blocchi di personalizzazione predefiniti.
-:arrow_Upper_right: Scopri cos’è un blocco di personalizzazione e come usarlo nella [documentazione di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-blocks.html)
+:arrow_Upper_right: Scopri cos’è un blocco di personalizzazione e come usarlo nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-blocks.html)
 * Creare contenuto condizionale.
-:arrow_Upper_right: Scopri come inserire contenuto condizionale nella [documentazione di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/conditional-content.html)
+:arrow_Upper_right: Scopri come inserire contenuto condizionale nella documentazione [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/conditional-content.html)
 
 ## Inviare messaggi transazionali
 
@@ -71,7 +72,7 @@ La messaggistica transazionale (Message Center, Centro messaggi) è il modulo Ca
 
 :lampadina: I passaggi per configurare e inviare messaggi transazionali sono descritti in [questa pagina](../send/transactional.md)
 
-:arrow_Upper_right: Scopri questa funzionalità in un caso d’uso end-to-end nella [documentazione di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/use-case/transactional-email-with-attachments.html?lang=en#transactional-messaging)
+:arrow_Upper_right: Scopri questa funzionalità in un caso d’uso end-to-end nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/use-case/transactional-email-with-attachments.html?lang=en#transactional-messaging)
 
 ## Log di consegna e di tracciamento
 
