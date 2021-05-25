@@ -1,7 +1,6 @@
 ---
-source-git-commit: 4884271a9fcd96b4ad1da2e2aed5d25c8f267a7f
+source-git-commit: 098bb2252708f4c59e2ee186d4c3d0074ebec1fd
 workflow-type: tm+mt
-translation-type: tm+mt
 source-wordcount: '430'
 ht-degree: 100%
 
@@ -13,6 +12,7 @@ Ci fa piacere ricevere la collaborazione della nostra community e dei dipendenti
 ## Codice di condotta Adobe Open Source
 
 Questo progetto aderisce al [Codice di condotta di Adobe Open Source](code-of-conduct.md) o al [Codice di condotta di .NET Foundation](https://dotnetfoundation.org/code-of-conduct). Per ulteriori informazioni, leggi l’articolo [Collaborazione](contributing.md).
+
 
 ## Informazioni sulle collaborazioni relative al contenuto Adobe
 
@@ -59,4 +59,3 @@ Nell&#39;archivio pubblico, vengono assegnate etichette automatizzate alle richi
 
 * **Change sent to author**: l&#39;autore è stato informato della richiesta di pull in sospeso.
 * **ready-to-merge**: pronto per la revisione da parte del team di revisione della richiesta di pull.
-
