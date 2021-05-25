@@ -1,5 +1,5 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Utilizzare Campaign e Adobe Target
 description: Scopri come utilizzare Campaign e Adobe Target
@@ -7,10 +7,9 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '991'
 ht-degree: 1%
 
 ---
@@ -22,19 +21,19 @@ Collega Campaign e Target per includere un’offerta da Adobe Target in una cons
 Questa integrazione consente di implementare i casi di utilizzo come segue: quando un destinatario apre un’e-mail inviata tramite Adobe Campaign, una chiamata ad Adobe Target ti consente di visualizzare una versione dinamica del contenuto. Questa versione dinamica viene calcolata a seconda delle regole precedentemente specificate durante la creazione dell’e-mail.
 
 >[!NOTE]
->L’integrazione supporta solo immagini statiche. Il resto del contenuto non può essere personalizzato.
+>L’integrazione supporta solo immagini statiche. Gli altri tipi di contenuto non possono essere personalizzati.
 
-:speech_balloon: In qualità di utente di Cloud Services gestiti, [contatta Adobe](../start/support.md#support) per implementare i trigger di Experience Cloud con Campaign.
+:speech_balloon: In qualità di utente di Cloud Services gestiti, [contatta Adobe](../start/campaign-faq.md#support) per implementare i trigger di Experience Cloud con Campaign.
 
 Adobe Target può utilizzare i seguenti tipi di dati:
 
-* Dati dal data mart di Adobe Campaign
-* Segmenti collegati all’ID visitatore in Adobe Target, se i dati utilizzati non sono soggetti a limitazioni legali
+* Dati dal database Adobe Campaign
+* Segmenti collegati all’ID visitatore in Adobe Target, solo se i dati utilizzati non sono soggetti a limitazioni legali
 * Dati Adobe Target: agente utente, indirizzo IP, dati di geolocalizzazione
 
 ## Inserire un contenuto dinamico
 
-Nell’esempio seguente, imparerai a integrare un’offerta dinamica da Adobe Target in un’e-mail Adobe Campaign.
+Nell’esempio seguente, imparerai a integrare **un’offerta dinamica** da Adobe Target in un’e-mail di Adobe Campaign.
 
 Desideriamo creare un messaggio con un’immagine che cambierà dinamicamente in base al paese del destinatario. I dati vengono inviati con ogni richiesta mbox e dipendono dall’indirizzo IP del visitatore.
 
