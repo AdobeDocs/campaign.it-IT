@@ -1,13 +1,12 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Interazione campagna - Gestione delle offerte
 description: Guida introduttiva alla gestione delle offerte
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 3783cb5ed3085b988f573fbf15858377b2bb2e05
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 1%
@@ -59,7 +58,7 @@ Scopri i termini specifici dell’offerta e le relative indicazioni prima di ini
 * **** Gli ambienti includono un catalogo di offerte e spazi di offerta (hook). È necessario creare un ambiente mediante il targeting della dimensione.
 Esistono due tipi di ambienti:
 
-   * **Ambiente** di progettazione: le offerte vengono create nell’ambiente di progettazione, nonché nelle regole di tipologia e . Le regole di tipologia determinano le offerte da presentare (o meno) a una persona di destinazione. In questo ambiente viene inoltre definita la tabella dei singoli utenti interessati dalle offerte e la tabella per la memorizzazione di tutte le proposte di offerta. Il nodo **[!UICONTROL Design environment]** contiene sottocartelle per lo spazio di offerta, filtri predefiniti e categorie di offerte. Per ogni **[!UICONTROL Design environment]** esiste una **[!UICONTROL Live environment]** di sola lettura corrispondente, generata dallo stesso **[!UICONTROL Design environment]**.
+   * **Ambiente** di progettazione: le offerte vengono create nell’ambiente di progettazione, nonché nelle regole di tipologia e . Le regole di tipologia determinano le offerte da presentare (o meno) a una persona di destinazione. In questo ambiente viene inoltre definita la tabella dei singoli utenti interessati dalle offerte e la tabella per la memorizzazione di tutte le proposte di offerta. Il nodo **[!UICONTROL Design environment]** contiene sottocartelle per lo spazio disponibile, filtri predefiniti e categorie di offerte. Per ogni **[!UICONTROL Design environment]** esiste una **[!UICONTROL Live environment]** di sola lettura corrispondente, generata dallo stesso **[!UICONTROL Design environment]**.
    * **Ambiente** live: ambiente collegato a un  **[!UICONTROL Design environment]** che contiene offerte di sola lettura il cui contenuto e idoneità sono stati approvati tramite  **[!UICONTROL Design environment]**. Devono essere selezionati per essere inseriti in un messaggio.
 
 * La **Area offerte** è una posizione (cartella) che definisce la posizione in cui viene esposta l&#39;offerta. Quando crei uno spazio di offerta, puoi specificare il canale, generare il contenuto dell’offerta utilizzando le funzioni di rendering, specificare l’ordine delle offerte e la relativa modalità: modalità unitaria e/o modalità batch (impostazione predefinita). Lo spazio di offerta è l’interfaccia tra il canale e il motore di offerta.
