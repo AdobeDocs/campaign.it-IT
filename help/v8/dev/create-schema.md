@@ -1,12 +1,11 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Creare un nuovo schema in Campaign
 description: Scopri come creare un nuovo schema in Campaign
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '383'
 ht-degree: 2%
 
 ---
@@ -27,7 +26,7 @@ La scheda **[!UICONTROL Edit]** mostra il contenuto XML di uno schema:
 
 >[!NOTE]
 >
->Il controllo di modifica &quot;Nome&quot; consente di inserire la chiave dello schema composta dal nome e dallo spazio dei nomi. Gli attributi &quot;name&quot; e &quot;namespace&quot; dell’elemento principale dello schema vengono aggiornati automaticamente nella zona di modifica XML dello schema.
+>Il controllo di modifica &quot;Nome&quot; consente di inserire la chiave dello schema composta dal nome e dallo spazio dei nomi. Gli attributi &quot;name&quot; e &quot;namespace&quot; dell’elemento principale dello schema vengono aggiornati automaticamente nella zona di modifica XML dello schema. Alcuni namespace sono interni solo. [Ulteriori informazioni](schemas.md#reserved-namespaces).
 
 La scheda **[!UICONTROL Preview]** genera automaticamente lo schema esteso:
 
@@ -65,8 +64,8 @@ A questo scopo, è necessario creare lo schema della tabella e aggiornare la str
 1. Definire le impostazioni per la tabella del contratto:
 
    ```
-   <srcSchema created="AA-MM-DD HH:MM:SS.TZ" desc="Active contracts" img="crm:crm/mscrm/mscrm_account_16x16.png"
-           label="Contracts" labelSingular="Contract" lastModified="AA-MM-DD HH:MM:SS.TZ"
+   <srcSchema created="YYYY-MM-DD HH:MM:SS.TZ" desc="Active contracts" img="crm:crm/mscrm/mscrm_account_16x16.png"
+           label="Contracts" labelSingular="Contract" lastModified="YYYY-MM-DD HH:MM:SS.TZ"
            mappingType="sql" name="Contracts" namespace="cus" xtkschema="xtk:srcSchema">
       <element dataSource="nms:extAccount:ffda" desc="Active contracts" img="crm:crm/mscrm/mscrm_account_16x16.png"
            label="Contracts" labelSingular="Contract" name="Contracts">
@@ -85,7 +84,7 @@ A questo scopo, è necessario creare lo schema della tabella e aggiornare la str
    Aggiungi il tipo di enumerazione del contratto.
 
    ```
-   <srcSchema created="AA-MM-DD HH:MM:SS.TZ" desc="Active contracts" img="crm:crm/mscrm/mscrm_account_16x16.png" label="Contracts" labelSingular="Contract" lastModified="AA-MM-DD HH:MM:SS.TZ"mappingType="sql" name="Contracts" namespace="cus" xtkschema="xtk:srcSchema">
+   <srcSchema created="AA-MM-DD HH:MM:SS.TZ" desc="Active contracts" img="crm:crm/mscrm/mscrm_account_16x16.png" label="Contracts" labelSingular="Contract" AA-MM-DD HH:MM:SS.TZ"mappingType="sql" name="Contracts" namespace="cus" xtkschema="xtk:srcSchema">
       <enumeration basetype="byte" name="typeContract">
          <value label="Home" name="home" value="0"/>
          <value label="Car" name="car" value="1"/>
