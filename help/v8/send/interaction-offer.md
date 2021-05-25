@@ -1,15 +1,14 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Offerta di interazione campagna
 description: Scopri come creare un’offerta
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-translation-type: tm+mt
-source-git-commit: e31b7e16cb4d5ed01d615e71fc15485b4e4a1859
+source-git-commit: 58f294b3d17de5eca64c82fdf7720b2734320bad
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '928'
 ht-degree: 3%
 
 ---
@@ -164,8 +163,6 @@ Per eseguire questa operazione:
 
 1. Se hai personalizzato il contenuto dell’offerta, seleziona la destinazione dell’offerta per visualizzare la personalizzazione.
 
-   ![](assets/offer_preview_create_003.png)
-
 <!--
 
 ## Create a hypothesis on an offer {#creating-a-hypothesis-on-an-offer}
@@ -186,13 +183,13 @@ Creating hypotheses is detailed in [this page](../../campaign/using/about-respon
 
 Ora puoi approvare e attivare l’offerta per renderla disponibile nell’ambiente **Live** .
 
-:arrow_Upper_right: Per ulteriori informazioni, consulta la [documentazione Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=en#approving-offer-content)
+:arrow_Upper_right: Per ulteriori informazioni, consulta la documentazione [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=en#approving-offer-content)
 
 ## Gestire la presentazione delle offerte{#offer-presentation}
 
 Campaign ti consente di controllare il flusso di proposte di offerta utilizzando le regole di presentazione. Queste regole, specifiche per l’interazione con Campaign, sono **regole di tipologia**. Ti consentono di escludere le offerte in base alla cronologia delle proposte già effettuate a un destinatario. Si fa riferimento ad essi nell’ambiente.
 
-:arrow_Upper_right: Per ulteriori informazioni, consulta la [documentazione Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html?lang=en#managing-offers)
+:arrow_Upper_right: Per ulteriori informazioni, consulta la documentazione [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html?lang=en#managing-offers)
 
 ## Simulazione dell’offerta
 
@@ -200,4 +197,4 @@ Il modulo Simulazione consente di verificare la distribuzione delle offerte appa
 
 La simulazione tiene conto dei contesti e delle regole di idoneità precedentemente applicati alle offerte e alle relative regole di presentazione. Questo ti consente di testare e perfezionare diverse versioni della proposta di offerta senza utilizzare effettivamente un’offerta o sollecitare più o meno una destinazione, poiché la simulazione non ha alcun impatto sui destinatari target.
 
-:arrow_Upper_right: Per ulteriori informazioni sulla simulazione dell&#39;offerta, consulta la [documentazione di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.htm)
+:arrow_Upper_right: Per ulteriori informazioni sulla simulazione delle offerte, consulta la [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.htm)
