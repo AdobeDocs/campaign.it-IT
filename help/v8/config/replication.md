@@ -1,5 +1,5 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Flussi di lavoro tecnici e replica dei dati
 description: Flussi di lavoro tecnici e replica dei dati
@@ -7,23 +7,23 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4,df76e7ff-3b97-41be-abc2-640748680ff3
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '369'
 ht-degree: 1%
 
 ---
 
 # Flussi di lavoro tecnici e replica dei dati
 
-## Flussi di lavoro tecnici
+## Flussi di lavoro tecnici{#tech-wf}
 
 Adobe Campaign viene fornito con un set di flussi di lavoro tecnici integrati. I flussi di lavoro tecnici eseguono processi o processi, pianificati regolarmente sul server.
 
 Questi flussi di lavoro eseguono operazioni di manutenzione sul database, sfruttano le informazioni di tracciamento nei registri di consegna, creano campagne ricorrenti e altro ancora.
 
-:arrow_Upper_right: L&#39;elenco completo dei flussi di lavoro tecnici è descritto in [Documentazione Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=en#overview)
+:arrow_Upper_right: L&#39;elenco completo dei flussi di lavoro tecnici è descritto in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html)
+
 
 Oltre a questi flussi di lavoro tecnici, Campaign v8 si basa su flussi di lavoro tecnici specifici per gestire la [replica dei dati](#data-replication).
 
@@ -38,15 +38,37 @@ Questo flusso di lavoro replica i dati XS per un dato account esterno.
 
 Questi flussi di lavoro tecnici sono disponibili dal nodo **[!UICONTROL Administration > Production > Technical workflows > Full FFDA replication]** di Campaign Explorer. **Non devono essere modificati.**
 
+Se necessario, puoi avviare manualmente la sincronizzazione dati. Per eseguire questa operazione, fai clic con il pulsante destro del mouse sull&#39;attività **Scheduler** e seleziona **Esegui attività in sospeso**.
+
 ## Replica dati{#data-replication}
 
-Alcune tabelle incorporate vengono replicate dal database Campaign al database [!DNL Snowflake] Cloud tramite flussi di lavoro dedicati descritti in precedenza.
+Alcune tabelle incorporate vengono replicate dal database locale di Campaign al database [!DNL Snowflake] Cloud tramite flussi di lavoro dedicati descritti in precedenza.
 
 I criteri di replica si basano sulle dimensioni delle tabelle. Alcune tabelle verranno replicate in tempo reale, altre verranno replicate su base oraria. Alcune tabelle avranno aggiornamenti incrementali quando altre verranno sostituite.
 
+Oltre al flusso di lavoro tecnico integrato **Replica tabelle di riferimento**, puoi forzare la replica dei dati nei flussi di lavoro.
+
+Puoi:
+
+* aggiungi una specifica attività **Codice JavaScript** con il seguente codice:
+
+```
+nms.replicationStrategy.StartReplicateStagingData("dem:sampleTable")
+```
+
+![](assets/jscode.png)
+
+
+* aggiungi un&#39;attività **nlmodule** specifica con il seguente comando:
+
+```
+nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
+```
+
+![](assets/nlmodule.png)
+
 **Argomenti correlati**
 
-:arrow_Upper_right: Scopri come iniziare a utilizzare i flussi di lavoro nella [documentazione di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows)
+:arrow_Upper_right: Scopri come iniziare a utilizzare i flussi di lavoro nella documentazione di [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows)
 
 :lampadina: Accedi ai periodi di conservazione dei dati in [questa sezione](../dev/datamodel-best-practices.md#data-retention)
-
