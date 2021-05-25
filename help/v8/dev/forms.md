@@ -1,12 +1,11 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Moduli di input per Campaign
 description: Scopri come personalizzare i moduli di input
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '2557'
+source-wordcount: '2558'
 ht-degree: 0%
 
 ---
@@ -86,7 +85,7 @@ Il controllo edit si adatta automaticamente al tipo di dati corrispondente e uti
 
 Per impostazione predefinita, ogni campo viene visualizzato su una singola riga e occupa tutto lo spazio disponibile a seconda del tipo di dati.
 
-:arrow_Upper_right: Tutti gli attributi del modulo sono elencati nella [documentazione Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/control-Button.html).
+:arrow_Upper_right: Tutti gli attributi del modulo sono elencati nella [documentazione di Campaign Classic v7](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/control-Button.html).
 
 ## Formattazione {#formatting}
 
@@ -154,7 +153,7 @@ Il tag **`<static>`** con il tipo **separatore** consente di aggiungere una barr
 
 È stato aggiunto un testo della guida utilizzando il tag `<static>` con tipo di guida. Il contenuto del testo viene immesso nell&#39;attributo **label** .
 
-## Utilizza i contenitori {#containers}
+## Usa contenitori {#containers}
 
 Utilizzare **container** per raggruppare un set di controlli. Sono rappresentati dall’elemento **`<container>`** . Sono stati utilizzati in precedenza per formattare i controlli su più colonne.
 
