@@ -1,15 +1,14 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Operatori di interazione campagna
 description: Creare operatori di gestione delle offerte
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 4bc62dcf806abd71e8230ce209d9151a4188b62e
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '390'
 ht-degree: 1%
 
 ---
@@ -26,7 +25,7 @@ Due tipi di operatori possono utilizzare l’interazione con Campaign: **Gestion
 
 1. Crea un nuovo operatore.
 
-   :arrow_Upper_right: I passaggi per creare un operatore in Campaign sono descritti in [Documentazione Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
+   :arrow_Upper_right: I passaggi per creare un operatore in Campaign sono descritti in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
 
 1. Vai alla finestra **[!UICONTROL Groups and named rights]**, fai clic su **[!UICONTROL Add]** e seleziona il gruppo **[!UICONTROL Offer manager]**.
 
@@ -50,7 +49,7 @@ Nota che se le offerte sono utilizzate in un flusso di lavoro, l’operatore dev
 
 1. Crea un nuovo operatore.
 
-   :arrow_Upper_right: I passaggi per creare un operatore in Campaign sono descritti in [Documentazione Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
+   :arrow_Upper_right: I passaggi per creare un operatore in Campaign sono descritti in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
 
 1. Vai alla finestra **[!UICONTROL Groups and named rights]**, fai clic su **[!UICONTROL Add]** e seleziona il gruppo **[!UICONTROL Delivery manager]**.
 
