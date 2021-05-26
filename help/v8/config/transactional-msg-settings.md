@@ -6,16 +6,16 @@ description: Impostazioni dei messaggi transazionali di Campaign
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
 
 # Impostazioni dei messaggi transazionali
 
-:speech_balloon: In qualità di utente di Cloud Services gestiti, [contatta Adobe](../start/campaign-faq.md#support) per installare e configurare i messaggi transazionali di Campaign nel tuo ambiente.
+[!DNL :speech_balloon:] In qualità di utente di Cloud Services gestiti,  [contatta ](../start/campaign-faq.md#support) Adobe per installare e configurare i messaggi transazionali di Campaign nel tuo ambiente.
 
 [!DNL :bulb:] Le funzionalità di messaggistica transazionale sono descritte in  [questa sezione](../send/transactional.md).
 
