@@ -7,9 +7,9 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 556cd7727c7c2bf0158d59d71ae0131b4c1013ee
+source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '364'
 ht-degree: 2%
 
 ---
@@ -40,7 +40,7 @@ I campi di azione per ogni strumento sono i seguenti:
 
 Ulteriori informazioni su Adobe Campaign e Adobe Analytics su [questa pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/adobe-analytics-data-connector.html)
 
-:speech_balloon:  In qualità di utente di Cloud Services gestiti, [contatta Adobe](../start/campaign-faq.md#support) per integrare Adobe Analytics Data Connector con Campaign.
+[!DNL :speech_balloon:]  In qualità di utente di Cloud Services gestiti,  [contatta ](../start/campaign-faq.md#support) Adobe per integrare Adobe Analytics Data Connector con Campaign.
 
 
 ## Trigger di Experience Cloud
@@ -49,4 +49,4 @@ Puoi utilizzare i trigger di Experience Cloud per collegare i dati tra Adobe Cam
 
 Ulteriori informazioni su Adobe Campaign e Triggers di Experience Cloud su [questa pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html?lang=en).
 
-:speech_balloon:  In qualità di utente di Cloud Services gestiti, [contatta Adobe](../start/campaign-faq.md#support) per implementare i trigger di Experience Cloud con Campaign.
+[!DNL :speech_balloon:]  In qualità di utente di Cloud Services gestiti,  [contatta ](../start/campaign-faq.md#support) Adobe per implementare i trigger di Experience Cloud con Campaign.
