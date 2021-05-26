@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: true
 hide: true
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '358'
 ht-degree: 58%
 
 ---
@@ -56,4 +56,4 @@ Scopri come gestire le impostazioni delle istanze Campaign nel Pannello di contr
 * [Instance details (Dettagli istanza)](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html)
 * [Gestione chiavi GPG](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html)
 
-:arrow_Upper_right: Scopri tutte le funzionalità del Pannello di controllo Campaign in [questa documentazione](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it)
+:[!DNL :arrow_upper_right:]: Scopri tutte le funzionalità del Pannello di controllo Campaign in [questa documentazione](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it)
