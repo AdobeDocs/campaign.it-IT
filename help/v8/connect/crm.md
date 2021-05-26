@@ -6,10 +6,10 @@ description: 'Scopri come lavorare con Campaign e il tuo CRM '
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 21%
+source-wordcount: '269'
+ht-degree: 22%
 
 ---
 
@@ -31,12 +31,12 @@ Le versioni e i sistemi di gestione delle relazioni con i clienti supportati son
 
 ## Passaggi di implementazione {#crm-implementation-steps}
 
-:arrow_Upper_right: Scopri la procedura dettagliata per collegare Campaign e Microsoft Dynamics nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html?lang=en#microsoft-dynamics-implementation-steps)
+:[!DNL :arrow_upper_right:]: Scopri la procedura dettagliata per collegare Campaign e Microsoft Dynamics nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html?lang=en#microsoft-dynamics-implementation-steps)
 
-:arrow_Upper_right: Scopri la procedura dettagliata per collegare Campaign e Salesforce nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-sfdc.html?lang=en#getting-started)
+:[!DNL :arrow_upper_right:]: Scopri la procedura dettagliata per collegare Campaign e Salesforce nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-sfdc.html?lang=en#getting-started)
 
 
 La sincronizzazione dei dati tra Adobe Campaign e il CRM viene eseguita tramite un’attività di flusso di lavoro dedicata. Crea i tuoi flussi di lavoro per automatizzare la sincronizzazione tra Campaign e il tuo CRM. È possibile creare un flusso di lavoro che importa i contatti tramite Microsoft Dynamics, li sincronizza con i dati esistenti di Adobe Campaign, elimina i contatti duplicati e quindi aggiorna il database di Adobe Campaign.
 
-:arrow_Upper_right: Ulteriori informazioni nella documentazione di [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-data-sync.html?lang=en#getting-started)
+:[!DNL :arrow_upper_right:]: Ulteriori informazioni nella documentazione di [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-data-sync.html?lang=en#getting-started)
 
