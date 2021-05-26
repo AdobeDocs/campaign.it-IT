@@ -7,7 +7,7 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 6%
@@ -36,7 +36,7 @@ Sono disponibili due modalità di estensione della tabella:
 
 * Tramite l&#39;interfaccia, utilizzando l&#39;assistente **Nuovo campo**
 
-   :[!DNL :arrow_upper_right:]: Scopri come aggiungere rapidamente un nuovo campo in Campaign nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=en#configuring-campaign-classic)
+   [!DNL :arrow_upper_right:] Scopri come aggiungere rapidamente un nuovo campo in Campaign nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=en#configuring-campaign-classic)
 
 * Programmaticamente, estendendo lo schema
 
