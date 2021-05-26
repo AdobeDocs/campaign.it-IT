@@ -6,9 +6,9 @@ description: Guida introduttiva alle applicazioni web e ai moduli web
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Adobe Campaign integra un modulo grafico per definire e pubblicare **moduli web** per creare pagine contenenti campi di input e di selezione e che possono includere dati nel database. Consente di progettare e pubblicare pagine Web a cui gli utenti possono accedere per visualizzare o immettere informazioni.
 
-:arrow_Upper_right: Scopri come creare e pubblicare moduli web nella [documentazione di Campaign Classic v7](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=en#designing-content)
+:[!DNL :arrow_upper_right:]: Scopri come creare e pubblicare moduli web nella [documentazione di Campaign Classic v7](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=en#designing-content)
 
 ![](assets/sample.png)
 
@@ -25,4 +25,4 @@ Adobe Campaign consente inoltre di creare e pubblicare applicazioni web dinamich
 
 È possibile creare pagine, ad esempio un modulo di modifica in una rete Intranet o moduli di notifica, compresi i dati del database con tabelle, grafici, moduli di input, ecc. Questa funzionalità consente di progettare e pubblicare pagine Web in cui gli utenti possono cercare o immettere informazioni.
 
-:arrow_Upper_right: Scopri come creare e pubblicare applicazioni web nella [documentazione di Campaign Classic v7](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html?lang=en#designing-content)
+:[!DNL :arrow_upper_right:]: Scopri come creare e pubblicare applicazioni web nella [documentazione di Campaign Classic v7](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html?lang=en#designing-content)
