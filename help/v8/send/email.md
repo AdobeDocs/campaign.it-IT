@@ -6,7 +6,7 @@ description: Guida introduttiva alle e-mail in Campaign
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 3%
@@ -17,13 +17,13 @@ ht-degree: 3%
 
 Le consegne e-mail ti consentono di inviare e-mail personalizzate alla popolazione target.
 
-:[!DNL :arrow_upper_right:]: Ulteriori informazioni nella documentazione di [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/about-email-channel.html).
+[!DNL :arrow_upper_right:] Ulteriori informazioni sono disponibili nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/about-email-channel.html).
 
 ## Creare la prima consegna e-mail
 
 Crea e-mail personalizzate e contestualmente pertinenti, coerenti con il resto dell’esperienza del cliente.
 
-:[!DNL :arrow_upper_right:]: [Scopri come creare una consegna e-mail nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/use-case--creating-an-email-delivery.html)
+[!DNL :arrow_upper_right:] [Scopri come creare una consegna e-mail nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/use-case--creating-an-email-delivery.html)
 
 Puoi creare direttamente in Campaign o importare il pubblico, nonché il contenuto dell’e-mail. Utilizza i collegamenti seguenti per scoprire come:
 
@@ -43,7 +43,7 @@ Puoi creare direttamente in Campaign o importare il pubblico, nonché il contenu
 
 Campaign offre diversi modi per testare e convalidare le e-mail prima di inviarle al pubblico.
 
-:[!DNL :arrow_upper_right:]: [Applicare le best practice elencate nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/check-before-sending.html)
+[!DNL :arrow_upper_right:] [Applicare le best practice elencate nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/check-before-sending.html)
 
 Puoi:
 
@@ -53,11 +53,11 @@ Puoi:
 * Utilizzare i gruppi di controllo
 * Controllare il rendering delle e-mail
 
-:[!DNL :arrow_upper_right:]: [Ulteriori informazioni nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
+[!DNL :arrow_upper_right:] [Ulteriori informazioni nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
 
 ## Monitorare le e-mail
 
 Dopo l’invio, controlla lo stato di consegna nel dashboard di consegna e accedi ai registri di consegna e ai rapporti di conferma del corretto invio dei messaggi.
 
-:[!DNL :arrow_upper_right:]: [Ulteriori informazioni nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html)
+[!DNL :arrow_upper_right:] [Ulteriori informazioni nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html)
 
