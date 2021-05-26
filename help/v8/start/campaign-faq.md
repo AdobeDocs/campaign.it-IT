@@ -7,7 +7,7 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 44%
@@ -40,9 +40,9 @@ Hai bisogno di assistenza mentre lavori con Campaign? Leggi le principali domand
 
    Il recapito messaggi e-mail, un componente fondamentale per il successo del programma di marketing di ogni mittente, è caratterizzato da criteri e regole in continua evoluzione. Per raggiungere al meglio il pubblico, è necessario ottimizzare regolarmente la strategia e-mail, tenendo conto delle tendenze chiave di recapito messaggi, in questo mondo digitale.
 
-   :[!DNL :arrow_upper_right:]: Fai riferimento a questa guida per scoprire le [best practice per la consegna](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=it).
+   [!DNL :arrow_upper_right:] Fai riferimento a questa guida per scoprire le best practice per la  [consegna](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=it).
 
-   :[!DNL :arrow_upper_right:]: Scopri come implementare il recapito messaggi in Campaign [in questa guida](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html)
+   [!DNL :arrow_upper_right:] Scopri come implementare il recapito messaggi in Campaign  [in questa guida](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html)
 
 1. **Come posso assicurarmi che la consegna venga inviata senza errori?**
 
@@ -52,7 +52,7 @@ Hai bisogno di assistenza mentre lavori con Campaign? Leggi le principali domand
 
 1. **Posso monitorare l’esecuzione di un flusso di lavoro?**
 
-   :[!DNL :arrow_upper_right:]: Scopri come monitorare l’esecuzione del flusso di lavoro di Campaign [nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html).
+   [!DNL :arrow_upper_right:] Scopri come monitorare l’esecuzione del flusso di lavoro di Campaign  [nella documentazione](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html) di Campaign Classic v7.
 
 1. **Con quali sistemi e componenti è compatibile Campaign v8?**
 
