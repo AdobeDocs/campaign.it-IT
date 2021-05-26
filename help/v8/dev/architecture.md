@@ -7,7 +7,7 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 0dae3431ac1ddc840244d7df4929b0c949f8011f
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Tre tipi di ambienti disponibili con Cloud Service Campaign:
 
 Puoi esportare e importare i pacchetti da un ambiente all’altro.
 
-:[!DNL :arrow_upper_right:]: Ulteriori informazioni sui pacchetti nella documentazione di [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html)
+[!DNL :arrow_upper_right:] Ulteriori informazioni sui pacchetti nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html)
 
 ## Distribuzione mid-sourcing{#mid-sourcing-deployment}
 
@@ -69,7 +69,7 @@ In questa architettura specifica, la cella di esecuzione è separata dall’ista
 
 ![](assets/messagecenter_diagram.png)
 
-:[!DNL :arrow_upper_right:]: L&#39;architettura del Centro messaggi è descritta nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/transactional-messaging-architecture.html?lang=en#transactional-messaging)
+[!DNL :arrow_upper_right:] L’architettura del Centro messaggi è descritta nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/transactional-messaging-architecture.html?lang=en#transactional-messaging)
 
 ### Autenticazione
 
@@ -82,4 +82,4 @@ Quindi, con sessionToken fornito dall&#39;istanza di esecuzione in risposta alla
 * Più istanze di esecuzione
 In un’architettura di esecuzione a più celle con più istanze di esecuzione dietro un load balancer, il metodo di accesso richiamato dall’applicazione esterna passa attraverso il load balancer: per questo motivo non è possibile utilizzare un’autenticazione basata su token. È necessaria un’autenticazione basata su utente/password.
 
-:[!DNL :arrow_upper_right:]: Ulteriori informazioni sugli eventi di messaggistica transazionale nella documentazione di [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/event-description.html?lang=en#about-transactional-messaging-datamodel)
+[!DNL :arrow_upper_right:] Ulteriori informazioni sugli eventi di messaggistica transazionale nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/event-description.html?lang=en#about-transactional-messaging-datamodel)
