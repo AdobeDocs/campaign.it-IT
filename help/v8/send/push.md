@@ -6,7 +6,7 @@ description: Guida introduttiva alla notifica push in Campaign
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 1%
@@ -24,7 +24,7 @@ Per inviare notifiche push in Adobe Campaign, devi:
 1. Aggiungi al servizio le versioni iOS e Android dell&#39;applicazione.
 1. Crea una consegna per iOS e Android.
 
-:[!DNL :arrow_upper_right:]: Scopri come iniziare a utilizzare l’app mobile nella documentazione di [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html)
+[!DNL :arrow_upper_right:] Scopri come iniziare a utilizzare l’app mobile nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html)
 
 ## Integrare con Adobe SDK
 
@@ -32,25 +32,25 @@ Per inviare notifiche push in Adobe Campaign, devi:
 
 L’SDK di Campaign facilita l’integrazione dell’app mobile nella piattaforma Adobe Campaign.
 
-:[!DNL :arrow_upper_right:]: Scopri come integrare Campaign SDK con la tua app nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/integrating-campaign-sdk-into-the-mobile-application.html?lang=en#loading-campaign-sdk)
+[!DNL :arrow_upper_right:] Scopri come integrare Campaign SDK con la tua app nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/integrating-campaign-sdk-into-the-mobile-application.html?lang=en#loading-campaign-sdk)
 
 ### Configurare l’estensione Campaign in Launch
 
 Puoi integrare l’SDK di Adobe Experience Platform Launch con Campaign, sfruttando l’estensione Campaign Classic.
 
-:[!DNL :arrow_upper_right:]: Ulteriori informazioni nella [documentazione Adobe Mobile SDK](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic)
+[!DNL :arrow_upper_right:] Ulteriori informazioni nella documentazione SDK di  [Adobe Mobile](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic)
 
 ## Configurare le impostazioni dell’app in Campaign
 
 Devi definire le impostazioni delle app iOS e Android in Adobe Campaign.
 
-:[!DNL :arrow_upper_right:]: Le linee guida per la configurazione di iOS sono descritte in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en#sending-messages)
+[!DNL :arrow_upper_right:] Le linee guida per la configurazione di iOS sono descritte in dettaglio nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en#sending-messages)
 
-:[!DNL :arrow_upper_right:]: Le linee guida per la configurazione di Android sono illustrate in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html?lang=en#sending-messages)
+[!DNL :arrow_upper_right:] Le linee guida per la configurazione di Android sono descritte in dettaglio nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html?lang=en#sending-messages)
 
 ## Creare la prima notifica push
 
-:[!DNL :arrow_upper_right:]: Scopri come creare le prime notifiche push nella documentazione [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/creating-notifications.html?lang=en#sending-notifications-on-ios)
+[!DNL :arrow_upper_right:] Scopri come creare le prime notifiche push nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/creating-notifications.html?lang=en#sending-notifications-on-ios)
 
 
 >[!CAUTION]
