@@ -7,9 +7,9 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: a48e69a3f34c48ed4828bf29b8a02a3dc07bfa7e
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Adobe Campaign v8 offre notevoli miglioramenti a livello di infrastruttura, sicu
 
 Le funzionalità principali includono:
 
-* **Velocità e scala**. Adobe Campaign v8 sfrutta Cloud Database Manager, consentendo l&#39;esecuzione di query fino a 200 volte più veloci, con scalabilità a più petabyte, un numero maggiore di messaggi all&#39;ora, fino a 20 M/ora o 1,5 M/ora per i messaggi transazionali e gestendo fino a 200 M profili attivi con il potenziale per raggiungere 1B.
+* **Velocità e scala**. Adobe Campaign v8 sfrutta Cloud Database Manager, consentendo l&#39;esecuzione di query fino a 200 volte più veloci, con scalabilità a più petabyte, un numero maggiore di messaggi all&#39;ora, fino a 20 M/ora o 1 M/ora per i messaggi transazionali e gestendo fino a 200 M profili attivi con il potenziale per raggiungere 1B.
 
 * **Connessioni a Adobe Experience Platform**. Adobe Campaign v8 supporta i connettori dati con Adobe Experience Platform/RT-CDP, il profilo cliente unificato e l’integrazione nativa con il Journey Orchestration. Questi investimenti ottimizzeranno la customer experience di Adobe Campaign e sbloccheranno nuovi casi d’uso, come la possibilità di aggiungere percorsi di clienti in tempo reale personalizzati alle campagne.
 
@@ -31,6 +31,8 @@ Le funzionalità principali includono:
 >Per il momento, Campaign v8 è **disponibile solo** come Cloud Service gestito e non può essere distribuito in ambienti on-premise o ibridi.
 >
 >La migrazione da un ambiente Campaign Classic v7 esistente non è ancora disponibile.
+>
+>Se non sei sicuro del modello di distribuzione o hai domande, contatta il team del tuo account.
 
 
 ## Scala
