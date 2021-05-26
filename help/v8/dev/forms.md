@@ -3,7 +3,7 @@ solution: Campaign v8
 product: Adobe Campaign
 title: Moduli di input per Campaign
 description: Scopri come personalizzare i moduli di input
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '2555'
 ht-degree: 0%
@@ -85,7 +85,7 @@ Il controllo edit si adatta automaticamente al tipo di dati corrispondente e uti
 
 Per impostazione predefinita, ogni campo viene visualizzato su una singola riga e occupa tutto lo spazio disponibile a seconda del tipo di dati.
 
-:[!DNL :arrow_upper_right:]: Tutti gli attributi del modulo sono elencati nella documentazione [Campaign Classic v7](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/control-Button.html).
+[!DNL :arrow_upper_right:] Tutti gli attributi del modulo sono elencati nella documentazione di  [Campaign Classic v7](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/control-Button.html).
 
 ## Formattazione {#formatting}
 
