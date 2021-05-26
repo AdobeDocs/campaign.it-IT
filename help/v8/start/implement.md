@@ -7,7 +7,7 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 0dae3431ac1ddc840244d7df4929b0c949f8011f
 workflow-type: tm+mt
 source-wordcount: '1193'
 ht-degree: 2%
@@ -37,11 +37,11 @@ Questa sezione contiene informazioni critiche sulla privacy e la sicurezza che d
 
 Adobe Campaign viene fornito con processi e impostazioni che ti consentono di utilizzare Campaign in conformità alle leggi sulla privacy dei dati applicabili e alle preferenze del destinatario. Puoi gestire:
 
-* **Acquisizione** dati: Adobe Campaign consente di raccogliere dati, comprese informazioni personali e riservate. È pertanto essenziale che tu riceva e gestisca il consenso dei destinatari. Ulteriori informazioni nella documentazione di [Campaign Classic v7](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=en#data-acquisition)
+* **Acquisizione** dati: Adobe Campaign consente di raccogliere dati, comprese informazioni personali e riservate. È pertanto essenziale che tu riceva e gestisca il consenso dei destinatari. Ulteriori informazioni nella documentazione di [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=en#data-acquisition)
 
-* **Consenso utente e conservazione** dei dati: Scopri come ottenere il consenso degli utenti, configurare i meccanismi di doppio consenso per l’abbonamento, facilitare la rinuncia e configurare la conservazione dei dati nella documentazione sulla privacy di  [Campaign Classic](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=en#consent)
+* **Consenso utente e conservazione** dei dati: Scopri come ottenere il consenso degli utenti, configurare i meccanismi di doppio consenso per l’abbonamento, facilitare la rinuncia e configurare la conservazione dei dati nella documentazione sulla privacy di  [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=en#consent)
 
-* **Normative** sulla privacy e la protezione dei dati: consulta la documentazione  [Campaign Classic sulla privacy ](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html) per informazioni sul Regolamento generale sulla protezione dei dati (RGPD) dell’Unione europea, sul California Consumer Privacy Act (CCPA) e su altri requisiti internazionali sulla privacy, e su come questi regolamenti influiscono sulla tua organizzazione e su Adobe Campaign.
+* **Normative** sulla privacy e la protezione dei dati: consulta la documentazione  [Campaign Classic sulla privacy ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html) per informazioni sul Regolamento generale sulla protezione dei dati (RGPD) dell’Unione europea, sul California Consumer Privacy Act (CCPA) e su altri requisiti internazionali sulla privacy, e su come questi regolamenti influiscono sulla tua organizzazione e su Adobe Campaign.
 
 ### Sicurezza
 
