@@ -3,9 +3,9 @@ solution: Campaign v8
 product: Adobe Campaign
 title: Best practice per la sicurezza di Campaign
 description: Guida introduttiva alle best practice per la sicurezza di Campaign
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -108,7 +108,7 @@ La gestione degli accessi è una parte importante dell&#39;irrigidimento della s
 * Verificare che ogni operatore disponga dei diritti di accesso appropriati
 * Evita di utilizzare l&#39;operatore amministratore ed evita di avere troppi operatori nel gruppo di amministrazione
 
-:arrow_Upper_right: Ulteriori informazioni nella documentazione di [Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator)
+:[!DNL :arrow_upper_right:]: Ulteriori informazioni nella documentazione di [Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator)
 
 ## Linee guida sulla codifica
 
@@ -120,4 +120,4 @@ Nello sviluppo in Adobe Campaign (flussi di lavoro, JavaScript, JSSP, ecc.), seg
 
 * **Aggiungi i sottotitoli nelle applicazioni** web: aggiungi le didascalie nelle pagine di destinazione pubbliche e nelle pagine di abbonamento.
 
-:arrow_Upper_right: Ulteriori informazioni nella documentazione di [Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic)
+:[!DNL :arrow_upper_right:]: Ulteriori informazioni nella documentazione di [Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic)
