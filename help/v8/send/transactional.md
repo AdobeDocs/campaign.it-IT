@@ -6,9 +6,9 @@ description: Guida introduttiva ai messaggi transazionali
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '1489'
+source-wordcount: '1484'
 ht-degree: 1%
 
 ---
@@ -25,9 +25,9 @@ I messaggi transazionali vengono utilizzati per inviare:
 * una risposta in tempo reale individuale a un&#39;azione del cliente
 * contenuto non promozionale
 
-:lampadina: Le impostazioni dei messaggi transazionali sono descritte in [questa sezione](../config/transactional-msg-settings.md).
+[!DNL :bulb:] Le impostazioni di messaggistica transazionale sono descritte in  [questa sezione](../config/transactional-msg-settings.md).
 
-:lampadina: Comprendere l&#39;architettura dei messaggi transazionali in [questa pagina](../dev/architecture.md).
+[!DNL :bulb:] Comprendere l’architettura dei messaggi transazionali in  [questa pagina](../dev/architecture.md).
 
 >[!CAUTION]
 >
@@ -152,7 +152,7 @@ Puoi verificare la consegna dei messaggi inviando una bozza a un indirizzo di se
 
 L’invio di una bozza comporta la stessa procedura utilizzata per qualsiasi consegna.
 
-:arrow_Upper_right: Ulteriori informazioni sulle bozze nella documentazione di [Campaign Classic v7]((https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html))
+:[!DNL :arrow_upper_right:]: Ulteriori informazioni sulle bozze nella documentazione di [Campaign Classic v7]((https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html))
 
 Tuttavia, per inviare una prova di un messaggio sulle transazioni, devi eseguire le seguenti operazioni:
 
