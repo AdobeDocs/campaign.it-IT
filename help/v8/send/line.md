@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: true
 hide: true
-source-git-commit: c659c31c15916077e71c63f3b3f4ca135d4d7f7d
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '61'
 ht-degree: 1%
 
 ---
@@ -23,5 +23,5 @@ ht-degree: 1%
 
 LINE è un&#39;applicazione per la messaggistica istantanea gratuita, chiamate vocali e video, disponibile su tutti i dispositivi mobili e sul PC. Adobe Campaign ti consente di inviare messaggi LINE.
 
-:arrow_Upper_right: Ulteriori informazioni nella documentazione di [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html)
+:[!DNL :arrow_upper_right:]: Ulteriori informazioni nella documentazione di [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html)
 
