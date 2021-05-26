@@ -6,9 +6,9 @@ description: 'Scopri come lavorare con Campaign e il tuo CRM '
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '267'
 ht-degree: 22%
 
 ---
@@ -27,7 +27,7 @@ Questi connettori consentono un’integrazione rapida e semplice dei dati: Adobe
 
 Le versioni e i sistemi di gestione delle relazioni con i clienti supportati sono descritti in dettaglio in Campaign [Matrice di compatibilità](../start/compatibility-matrix.md).
 
-:speech_balloon: I connettori di gestione delle relazioni con i clienti funzionano solo con un URL sicuro (https).
+[!DNL :speech_balloon:] I connettori di gestione delle relazioni con i clienti funzionano solo con un URL sicuro (https).
 
 ## Passaggi di implementazione {#crm-implementation-steps}
 
