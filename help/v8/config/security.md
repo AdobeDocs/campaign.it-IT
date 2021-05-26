@@ -3,9 +3,9 @@ solution: Campaign v8
 product: Adobe Campaign
 title: Best practice per la sicurezza di Campaign
 description: Guida introduttiva alle best practice per la sicurezza di Campaign
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ La configurazione e l’indurimento della privacy è un elemento chiave dell’o
 * Assicurati che le password crittografate siano limitate
 * Protect le pagine che possono contenere informazioni personali come pagine mirror, applicazioni web, ecc.
 
-:speech_balloon: In qualità di utente di Cloud Services gestiti, Adobe collaborerà con te per implementare queste configurazioni nel tuo ambiente.
+[!DNL :speech_balloon:] In qualità di utente di Cloud Services gestiti, Adobe collaborerà con te per implementare queste configurazioni nel tuo ambiente.
 
 ## Personalizzazione
 
