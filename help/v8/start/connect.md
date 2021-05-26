@@ -7,9 +7,9 @@ feature: Tipi di pubblico
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '752'
 ht-degree: 4%
 
 ---
@@ -104,13 +104,13 @@ Gli utenti di Campaign possono connettersi alla console Adobe Campaign utilizzan
 * Criteri di gestione password più rigidi.
 * Utilizzo di account Federated ID (provider di ID esterno).
 
-:speech_balloon: In qualità di utente di Cloud Services gestiti, [contatta Adobe](campaign-faq.md#support) per implementare Adobe IMS con Campaign.
+[!DNL :speech_balloon:] In qualità di utente di Cloud Services gestiti,  [contatta ](campaign-faq.md#support) Adobe per implementare Adobe IMS con Campaign.
 
 ## Connettiti a Campaign con il tuo accesso LDAP
 
 Adobe Campaign può essere configurato in modo che l&#39;utente possa accedere alla piattaforma tramite la propria autenticazione LDAP.
 
-:speech_balloon: In qualità di utente di Cloud Services gestiti, [contatta Adobe](campaign-faq.md#support) per configurare l’integrazione LDAP con Campaign.
+[!DNL :speech_balloon:] In qualità di utente di Cloud Services gestiti,  [contatta ](campaign-faq.md#support) Adobe per configurare l’integrazione LDAP con Campaign.
 
 
 ## Accesso Web{#web-access}
