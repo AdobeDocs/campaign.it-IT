@@ -7,9 +7,9 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896,b1319b34-ee07-48ed-9ab1-e2d12d3d99f8
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '648'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ La struttura di base del modello dati Adobe Campaign può essere descritta come 
 
 * **Tabella** destinatari: Il modello dati si basa su una tabella principale che per impostazione predefinita è la tabella Destinatario (nmsRecipient). Questa tabella consente di memorizzare tutti i profili di marketing.
 
-   :lampadina: Per ulteriori informazioni sulla tabella Destinatario, consulta [questa sezione](#ootb-profiles).
+   [!DNL :bulb:] Per ulteriori informazioni sulla tabella Destinatario, consulta  [questa sezione](#ootb-profiles).
 
 * **Tabella** di consegna: Il modello dati include anche una parte dedicata all’archiviazione di tutte le attività di marketing. Di solito si tratta della tabella Consegna (NmsDelivery). Ogni record in questa tabella rappresenta un&#39;azione di consegna o un modello di consegna. Contiene tutti i parametri necessari per eseguire consegne quali target, contenuto e così via.
 
@@ -45,7 +45,7 @@ Puoi utilizzare la tabella Destinatario predefinita con i campi predefiniti, com
 * [Estendi una ](extend-schema.md) tabella esistente con nuovi campi. Ad esempio, puoi aggiungere un nuovo campo &quot;Fedeltà&quot; alla tabella Destinatario.
 * [Crea una nuova tabella](create-schema.md), ad esempio una tabella &quot;Acquisto&quot; in cui sono elencati tutti gli acquisti effettuati da ciascun profilo del database e collegalo alla tabella Destinatario.
 
-:lampadina: Scopri le best practice per l’utilizzo del modello dati Campaign in [questa sezione](datamodel-best-practices.md).
+[!DNL :bulb:] Scopri le best practice per l’utilizzo del modello dati Campaign in  [questa sezione](datamodel-best-practices.md).
 
 ## Tabella dei profili incorporati {#ootb-profiles}
 
@@ -60,9 +60,9 @@ I vantaggi dell’utilizzo della tabella dei destinatari standard sono i seguent
 
 È possibile estendere la tabella dei destinatari, ma non ridurre il numero di campi o collegamenti presenti nella tabella.
 
-:lampadina: Scopri come estendere uno schema esistente in [questa sezione](extend-schema.md).
+[!DNL :bulb:] Scopri come estendere uno schema esistente in  [questa sezione](extend-schema.md).
 
-:arrow_Upper_right: Scopri esempi di estensioni integrate di tabelle dei destinatari nella documentazione [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#extending-a-table)
+:[!DNL :arrow_upper_right:]: Scopri esempi di estensioni integrate di tabelle dei destinatari nella documentazione [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#extending-a-table)
 
 Puoi anche utilizzare una tabella dei destinatari diversa per adattarla meglio ai requisiti aziendali o funzionali. Questo metodo viene fornito con limitazioni ed è descritto in [questa sezione](custom-recipient.md).
 
@@ -70,9 +70,9 @@ Puoi anche utilizzare una tabella dei destinatari diversa per adattarla meglio a
 
 Per una migliore comprensione della gestione delle tabelle in Campaign v8, tieni presente che le tabelle vengono replicate tra Campaign e il database Snowflake Cloud.
 
-:lampadina: Ulteriori informazioni sulla strategia e i meccanismi di replica in [questa sezione](../config/replication.md).
+[!DNL :bulb:] Ulteriori informazioni sulla strategia e i meccanismi di replica in  [questa sezione](../config/replication.md).
 
 **Argomenti correlati**
 
-:lampadina: Scopri come importare profili in [questa sezione](../start/import.md)
-:lampadina: Ulteriori informazioni sui tipi di pubblico di Campaign in [questa sezione](../start/audiences.md)
+[!DNL :bulb:] Scopri come importare profili in  [questa ](../start/import.md)
+[!DNL :bulb:] sezioneUlteriori informazioni sui tipi di pubblico di Campaign in  [questa sezione](../start/audiences.md)
