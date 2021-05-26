@@ -7,7 +7,7 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '882'
 ht-degree: 43%
@@ -91,9 +91,9 @@ L’area di lavoro di Campaign è disponibile tramite la [Console client](../dev
 
 L’area di lavoro di Campaign può essere adattata in base alle tue esigenze.
 
-:[!DNL :arrow_upper_right:]:  Scopri come utilizzare l’area di lavoro di Campaign nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html)
+[!DNL :arrow_upper_right:]  Scopri come utilizzare l’area di lavoro di Campaign nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html)
 
-:[!DNL :arrow_upper_right:]:  Scopri come personalizzare gli elenchi nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html)
+[!DNL :arrow_upper_right:]  Scopri come personalizzare gli elenchi nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html)
 
 Puoi anche accedere ad alcune funzionalità tramite il web.
 
