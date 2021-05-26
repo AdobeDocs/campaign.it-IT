@@ -6,7 +6,7 @@ description: Creare operatori di gestione delle offerte
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 1%
@@ -25,7 +25,7 @@ Due tipi di operatori possono utilizzare l’interazione con Campaign: **Gestion
 
 1. Crea un nuovo operatore.
 
-   :[!DNL :arrow_upper_right:]: I passaggi per creare un operatore in Campaign sono descritti in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
+   [!DNL :arrow_upper_right:] I passaggi per creare un operatore in Campaign sono descritti in dettaglio nella documentazione di  [Campaign Classic v7 .](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
 
 1. Vai alla finestra **[!UICONTROL Groups and named rights]**, fai clic su **[!UICONTROL Add]** e seleziona il gruppo **[!UICONTROL Offer manager]**.
 
@@ -49,7 +49,7 @@ Nota che se le offerte sono utilizzate in un flusso di lavoro, l’operatore dev
 
 1. Crea un nuovo operatore.
 
-   :[!DNL :arrow_upper_right:]: I passaggi per creare un operatore in Campaign sono descritti in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
+   [!DNL :arrow_upper_right:] I passaggi per creare un operatore in Campaign sono descritti in dettaglio nella documentazione di  [Campaign Classic v7 .](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
 
 1. Vai alla finestra **[!UICONTROL Groups and named rights]**, fai clic su **[!UICONTROL Add]** e seleziona il gruppo **[!UICONTROL Delivery manager]**.
 
