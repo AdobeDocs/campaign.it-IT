@@ -7,7 +7,7 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 11%
@@ -40,9 +40,9 @@ Campaign v8 può connettersi con:
 
 Puoi anche combinare i tuoi **tipi di pubblico** e **risorse** tra le soluzioni Experience Cloud con le funzionalità di condivisione delle risorse e del pubblico.
 
-:[!DNL :arrow_upper_right:]: Ulteriori informazioni sulla **condivisione del pubblico** tra le soluzioni Campaign e Experience Cloud nella documentazione [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=en#integrating-with-adobe-experience-cloud)
+[!DNL :arrow_upper_right:] Ulteriori informazioni sulla condivisione  **del pubblico** tra le soluzioni Campaign e Experience Cloud nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=en#integrating-with-adobe-experience-cloud)
 
-:[!DNL :arrow_upper_right:]: Ulteriori informazioni su **Condivisione di risorse** tra le soluzioni Campaign e Experience Cloud nella documentazione [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=en#integrating-with-adobe-experience-cloud)
+[!DNL :arrow_upper_right:] Ulteriori informazioni sulla condivisione di  **risorse** tra le soluzioni Campaign e Experience Cloud nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=en#integrating-with-adobe-experience-cloud)
 
 ## Connettori di gestione delle relazioni con i clienti{#gs-crm-connectors}
 
