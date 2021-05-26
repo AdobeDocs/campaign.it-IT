@@ -6,7 +6,7 @@ description: Guida introduttiva alle e-mail in Campaign
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 3%
@@ -28,15 +28,15 @@ Crea e-mail personalizzate e contestualmente pertinenti, coerenti con il resto d
 Puoi creare direttamente in Campaign o importare il pubblico, nonché il contenuto dell’e-mail. Utilizza i collegamenti seguenti per scoprire come:
 
 * Progettazione di un’e-mail in Campaign
-:[!DNL :arrow_upper_right:]: [Scopri come progettare un&#39;e-mail](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-the-email-content.html)
+   [!DNL :arrow_upper_right:] [Scopri come progettare un’e-mail](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-the-email-content.html)
 * Importare un contenuto e-mail
-:[!DNL :arrow_upper_right:]: [Caso di utilizzo: Creare un flusso di lavoro per caricare un contenuto di consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/loading-delivery-content.html)
+   [!DNL :arrow_upper_right:] [Caso di utilizzo: Creare un flusso di lavoro per caricare un contenuto di consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/loading-delivery-content.html)
 * Creare e utilizzare un modello e-mail
-:[!DNL :arrow_upper_right:]: [Ulteriori informazioni sui modelli e-mail](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html)
+   [!DNL :arrow_upper_right:] [Ulteriori informazioni sui modelli e-mail](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html)
 * Selezionare il pubblico dell’e-mail
-:[!DNL :arrow_upper_right:]: [Scopri come definire la popolazione target](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html)
+   [!DNL :arrow_upper_right:] [Scopri come definire la popolazione target](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html)
 * Convalidare una consegna e inviare bozze
-:[!DNL :arrow_upper_right:]: [Scopri i passaggi chiave per convalidare una consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
+   [!DNL :arrow_upper_right:] [Scopri i passaggi chiave per convalidare una consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
 * Aggiungi [indirizzi di seed](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html)
 
 ## Verifica e-mail
