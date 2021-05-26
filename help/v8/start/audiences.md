@@ -7,10 +7,10 @@ feature: Tipi di pubblico
 role: Data Engineer
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: c659c31c15916077e71c63f3b3f4ca135d4d7f7d
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 19%
+source-wordcount: '743'
+ht-degree: 20%
 
 ---
 
@@ -37,34 +37,34 @@ Per compilare Campaign con i dati di profilo, puoi:
 ![](assets/create-profile.png)
 
 
-[!DNL :arrow_upper_right:] Scopri come gestire i profili nella documentazione di  [Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html).
+[!DNL :[!DNL :arrow_upper_right:]:] Scopri come gestire i profili nella [documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html).
 
 
 ## Privacy e consenso
 
 Adobe Campaign è un potente strumento per la raccolta e l’elaborazione di un grande volume di dati, inclusi dati personali e sensibili.  Adobe Campaign ti consente di raccogliere dati, incluse informazioni personali e riservate. È pertanto essenziale ricevere e monitorare il consenso dei destinatari.
 
-:arrow_Upper_right: Scopri come gestire la privacy e il consenso nella [documentazione di Adobe Campaign Classic v7](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html).
+:[!DNL :arrow_upper_right:]: Scopri come gestire la privacy e il consenso nella [documentazione di Adobe Campaign Classic v7](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html).
 
 ## Creare elenchi
 
 Un elenco è un set statico di profili che possono essere oggetto di targeting nelle azioni di consegna o aggiornati durante le operazioni di importazione o l’esecuzione di un flusso di lavoro. Ad esempio, una popolazione estratta dal database tramite una query può fornire un elenco.
 
-:arrow_Upper_right: Scopri come creare e gestire gli elenchi nella [documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/creating-and-managing-lists.html).
+:[!DNL :arrow_upper_right:]: Scopri come creare e gestire gli elenchi nella [documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/creating-and-managing-lists.html).
 
 ## Eseguire una query sul database
 
 Utilizza l’attività **Query** in un flusso di lavoro per eseguire query sul database, segmentare i dati e creare tipi di pubblico complessi.
 
-:arrow_Upper_right: Ulteriori informazioni sulle query Campaign nella [documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/targeting-data.html).
+:[!DNL :arrow_upper_right:]: Ulteriori informazioni sulle query Campaign nella [documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/targeting-data.html).
 
-:arrow_Upper_right: Tutte le attività di targeting sono elencate nella [documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html)
+:[!DNL :arrow_upper_right:]: Tutte le attività di targeting sono elencate nella [documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html)
 
 ## Creare un pubblico in un flusso di lavoro
 
 Il targeting può essere creato tramite una combinazione di query in una sequenza grafica in un flusso di lavoro. Puoi creare un pubblico di destinazione in base alle tue esigenze. Per visualizzare l’editor del flusso di lavoro, fai clic sulla scheda **[!UICONTROL Targeting and workflows]** nel dashboard della campagna.
 
-:arrow_Upper_right: Scopri come creare un pubblico in un flusso di lavoro della campagna nella [documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow)
+:[!DNL :arrow_upper_right:]: Scopri come creare un pubblico in un flusso di lavoro della campagna nella [documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow)
 
 
 ## Profili attivi{#active-profiles}
@@ -76,13 +76,13 @@ In base al contratto, a ciascuna istanza di Campaign viene fornito un numero spe
 <!--
 You can monitor the number of active profiles used on your instances directly from Campaign Control Panel. 
 
-:arrow_upper_right: For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
+:[!DNL :arrow_upper_right:]: For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
 -->
 
 **Argomenti correlati**
 
-:arrow_Upper_right: [Progettare ed eseguire un flusso di lavoro specifico per la campagna](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html)
+:[!DNL :arrow_upper_right:]: [Progettare ed eseguire un flusso di lavoro specifico per la campagna](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html)
 
-:arrow_Upper_right: [Scopri come selezionare il pubblico di una campagna](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html)
+:[!DNL :arrow_upper_right:]: [Scopri come selezionare il pubblico di una campagna](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html)
 
-:arrow_Upper_right: [Introduzione ai flussi di lavoro](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html)
+:[!DNL :arrow_upper_right:]: [Introduzione ai flussi di lavoro](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html)
