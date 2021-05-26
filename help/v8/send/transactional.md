@@ -6,9 +6,9 @@ description: Guida introduttiva ai messaggi transazionali
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
-source-wordcount: '1484'
+source-wordcount: '1482'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 La messaggistica transazionale (Message Center, Centro messaggi) è un modulo Campaign progettato per la gestione dei messaggi di attivazione. Questi messaggi sono generati da eventi attivati da sistemi informatici e possono essere: fattura, conferma dell&#39;ordine, conferma della spedizione, modifica della password, notifica di indisponibilità del prodotto, dichiarazione dell&#39;account o creazione dell&#39;account del sito web, ad esempio.
 
-:speech_balloon: In qualità di utente di Cloud Services gestiti, [contatta Adobe](../start/campaign-faq.md#support) per installare e configurare i messaggi transazionali di Campaign nel tuo ambiente.
+[!DNL :speech_balloon:] In qualità di utente di Cloud Services gestiti,  [contatta ](../start/campaign-faq.md#support) Adobe per installare e configurare i messaggi transazionali di Campaign nel tuo ambiente.
 
 I messaggi transazionali vengono utilizzati per inviare:
 
