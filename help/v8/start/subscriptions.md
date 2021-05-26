@@ -6,7 +6,7 @@ description: Scopri come gestire gli abbonamenti e i loro annullamenti in Campai
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Utilizza Adobe Campaign per creare e monitorare i tuoi servizi informativi, come le newsletter, e per gestire gli abbonamenti/i loro annullamenti. È possibile definire in parallelo diversi servizi, ad esempio: newsletter specializzate per determinate categorie di prodotti, temi o aree di un sito web, abbonamenti a vari tipi di messaggi di avviso e notifiche in tempo reale. Consulta Gestione abbonamenti .
 
-:[!DNL :arrow_upper_right:]: Scopri come creare un servizio di informazioni, inviare una newsletter e gestire l’opt-in e l’opt-out nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html)
+[!DNL :arrow_upper_right:] Scopri come creare un servizio informazioni, inviare una newsletter e gestire l’opt-in e l’opt-out nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html)
 
 Per abbonarti (opt-in) a un profilo di un servizio, le opzioni disponibili sono:
 
@@ -57,7 +57,7 @@ Per annullare l’abbonamento (opt-out) a un profilo da un servizio, le opzioni 
 * Specifica un limite di durata del servizio informazioni: i destinatari verranno automaticamente annullati alla scadenza del periodo di validità. Questo periodo è specificato nella scheda Modifica delle proprietà del servizio. Viene espresso in giorni.
 * Imposta un flusso di lavoro di annullamento dell’abbonamento per una popolazione
 
-:[!DNL :arrow_upper_right:]: Ulteriori informazioni nella documentazione di [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html?lang=en#unsubscribing-a-recipient-from-a-service)
+[!DNL :arrow_upper_right:] Ulteriori informazioni nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html?lang=en#unsubscribing-a-recipient-from-a-service)
 
 
 >[!CAUTION]
@@ -66,4 +66,4 @@ Per annullare l’abbonamento (opt-out) a un profilo da un servizio, le opzioni 
 
 Puoi anche abilitare i destinatari della consegna a inoltrare i messaggi a un amico. A questo scopo, inserisci i collegamenti rilevanti nella consegna. Puoi quindi tenere traccia di questo processo di condivisione e del numero di visite alle pagine interessate.
 
-:[!DNL :arrow_upper_right:]: Per ulteriori informazioni su questa funzionalità, consulta la [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/viral-and-social-marketing.html?lang=en#viral-marketing--forward-to-a-friend).
+[!DNL :arrow_upper_right:] Per ulteriori informazioni su questa funzionalità, consulta la documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/viral-and-social-marketing.html?lang=en#viral-marketing--forward-to-a-friend).
