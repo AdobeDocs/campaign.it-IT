@@ -4,9 +4,9 @@ product: Adobe Campaign
 title: Architettura generale
 description: Architettura generale di Campaign v8
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '1214'
 ht-degree: 0%
 
 ---
@@ -33,15 +33,15 @@ L’accesso all’applicazione può essere effettuato in diversi modi: Integrazi
 
 * **Console** client: L&#39;interfaccia utente principale dell&#39;applicazione è un&#39;applicazione nativa (su Windows) che comunica con il server dell&#39;applicazione Adobe Campaign con i protocolli Internet standard (SOAP, HTTP, ecc.). La console client di Adobe Campaign offre una grande facilità di utilizzo per la produttività, utilizza una larghezza di banda molto ridotta (tramite l’utilizzo di una cache locale) ed è progettata per una facile distribuzione. Questa console può essere implementata da un browser Internet, può essere aggiornata automaticamente e non richiede alcuna configurazione di rete specifica in quanto genera solo traffico HTTP(S).
 
-   :lampadina: [Ulteriori informazioni sulla console client di Campaign](../start/connect.md).
+   [!DNL :bulb:] [Ulteriori informazioni sulla console client di Campaign](../start/connect.md).
 
 * **Accesso** Web: parti dell&#39;applicazione sono accessibili tramite un semplice browser web che utilizza un&#39;interfaccia utente HTML, tra cui il modulo di reporting, le fasi di approvazione della consegna, il monitoraggio dell&#39;istanza, ecc.
 
-   :lampadina: [Ulteriori informazioni su Campaign Web Access](../start/connect.md).
+   [!DNL :bulb:] [Ulteriori informazioni su Campaign Web Access](../start/connect.md).
 
 * **API** di Campaign: In alcuni casi, il sistema può essere chiamato da un’applicazione esterna utilizzando le API dei servizi Web esposte tramite il protocollo SOAP.
 
-   :lampadina: [Ulteriori informazioni sulle API di Campaign](../dev/api.md).
+   [!DNL :bulb:] [Ulteriori informazioni sulle API di Campaign](../dev/api.md).
 
 ## Ambiente di sviluppo {#dev-env}
 
