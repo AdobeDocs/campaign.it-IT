@@ -3,9 +3,9 @@ solution: Campaign v8
 product: Adobe Campaign
 title: Best practice per i modelli di dati
 description: Scopri le best practice per l’estensione del modello dati di Campaign
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
-source-wordcount: '2681'
+source-wordcount: '2679'
 ht-degree: 4%
 
 ---
@@ -177,7 +177,7 @@ Sono disponibili alcune soluzioni per ridurre al minimo la necessità di record 
 
 È possibile dichiarare l&#39;attributo &quot;deleteStatus&quot; in uno schema. È più efficiente contrassegnare il record come eliminato, quindi rimandare l&#39;eliminazione nell&#39;attività di pulizia.
 
-:speech_balloon: In qualità di utente di Cloud Services gestiti, rivolgiti ai consulenti o agli amministratori tecnici di Adobe per ulteriori informazioni sulla fidelizzazione o per impostare la fidelizzazione per le tabelle personalizzate.
+[!DNL :speech_balloon:] In qualità di utente di Cloud Services gestiti, rivolgiti ai consulenti o agli amministratori tecnici di Adobe per ulteriori informazioni sulla fidelizzazione o per impostare la fidelizzazione per le tabelle personalizzate.
 
 ## Prestazioni {#performance}
 
