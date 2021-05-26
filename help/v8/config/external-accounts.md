@@ -6,9 +6,9 @@ description: Account esterni per Campaign
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1009'
 ht-degree: 4%
 
 ---
@@ -36,7 +36,7 @@ Puoi accedere agli account esterni da Adobe Campaign **[!UICONTROL Explorer]**: 
 
 I seguenti account tecnici vengono utilizzati da Adobe Campaign per abilitare ed eseguire processi specifici.
 
-:speech_balloon: In qualità di utente di Cloud Services gestiti, ad Adobe, configura per te tutti gli account esterni specifici di Campaign.
+[!DNL :speech_balloon:] In qualità di utente di Cloud Services gestiti, ad Adobe, configura per te tutti gli account esterni specifici di Campaign.
 
 * **Messaggi non recapitati (POP3)**
 
@@ -76,7 +76,7 @@ I seguenti account tecnici vengono utilizzati da Adobe Campaign per abilitare ed
 
    [!DNL :bulb:] Ulteriori informazioni su Adobe Identity Management Service (IMS) in  [questa sezione](../start/connect.md#connect-ims).
 
-   :speech_balloon: In qualità di utente di Cloud Services gestiti, [contatta Adobe](../start/campaign-faq.md#support) per implementare Adobe IMS con Campaign.
+   [!DNL :speech_balloon:] In qualità di utente di Cloud Services gestiti,  [contatta ](../start/campaign-faq.md#support) Adobe per implementare Adobe IMS con Campaign.
 
 * **Analisi web**
 
@@ -84,14 +84,14 @@ I seguenti account tecnici vengono utilizzati da Adobe Campaign per abilitare ed
 
    [!DNL :bulb:] Ulteriori informazioni sull’integrazione Adobe Campaign - Adobe Analytics in  [questa pagina](../connect/ac-aa.md).
 
-   :speech_balloon: In qualità di utente di Cloud Services gestiti, [contatta Adobe](../start/campaign-faq.md#support) per integrare Adobe Analytics con Campaign.
+   [!DNL :speech_balloon:] In qualità di utente di Cloud Services gestiti,  [contatta ](../start/campaign-faq.md#support) Adobe per integrare Adobe Analytics con Campaign.
 
    * **Adobe Experience Manager**
    L’ account esterno **[!UICONTROL AEM]** ti consente di gestire il contenuto delle consegne e-mail e dei moduli direttamente in Adobe Experience Manager.
 
    [!DNL :bulb:] Ulteriori informazioni sull’integrazione Adobe Campaign - Adobe Analytics in  [questa pagina](../connect/ac-aem.md).
 
-   :speech_balloon: In qualità di utente di Cloud Services gestiti, [contatta Adobe](../start/campaign-faq.md#support) per integrare Adobe Experience Manager con Adobe Campaign.
+   [!DNL :speech_balloon:] In qualità di utente di Cloud Services gestiti,  [contatta ](../start/campaign-faq.md#support) Adobe per integrare Adobe Experience Manager con Adobe Campaign.
 
 
 ## Account esterni del connettore di gestione delle relazioni con i clienti
