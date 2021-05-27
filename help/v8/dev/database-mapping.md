@@ -3,7 +3,7 @@ solution: Campaign v8
 product: Adobe Campaign
 title: Mappatura del database Campaign
 description: Mappatura del database Campaign
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 1b731045783565c93a2db0923dea6b6d100471ad
 workflow-type: tm+mt
 source-wordcount: '1463'
 ht-degree: 0%
@@ -207,7 +207,7 @@ Dichiarazione di una chiave incrementale nello schema di origine:
 
 ```
 <srcSchema name="recipient" namespace="cus">
-  <element name="recipient" autouuid="true">
+  <element name="recipient"  autopk="true" autouuid="true">
   ...
   </element>
 </srcSchema>
@@ -217,7 +217,7 @@ Lo schema generato:
 
 ```
 <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
-  <element name="recipient" autouuid="true" sqltable="CusRecipient"> 
+  <element name="recipient"  autopk="true" autouuid="true" sqltable="CusRecipient"> 
 
     <key internal="true" name="id">
       <keyfield xpath="@id"/>
@@ -333,7 +333,7 @@ Schema esteso del target (&quot;cus:company&quot;):
 
 ```
 <schema mappingType="sql" name="company" namespace="cus" xtkschema="xtk:schema">  
-  <element name="company" sqltable="CusCompany" autouuid="true"> 
+  <element name="company" sqltable="CusCompany"  autopk="true" autouuid="true"> 
     <key internal="true" name="id">      
       <keyfield xpath="@id"/>    
     </key>
@@ -378,7 +378,7 @@ Relazione 1-1 alla tabella dello schema &quot;cus:extension&quot;:
 <element integrity="own" label="Extension" name="extension" revCardinality="single" revLink="recipient" target="cus:extension" type="link"/>
 ```
 
-### Esempio 5 {#example-4}
+### Esempio 4 {#example-4}
 
 Collega a una cartella (&quot;schema xtk:folder&quot;):
 
@@ -388,7 +388,7 @@ Collega a una cartella (&quot;schema xtk:folder&quot;):
 
 Il valore predefinito restituisce l&#39;identificatore del primo file di tipo di parametro idoneo immesso nella funzione &quot;DefaultFolder(&#39;nmsFolder&#39;)&quot;.
 
-### Esempio 4 {#example-5}
+### Esempio 5 {#example-5}
 
 In questo esempio, desideriamo creare una chiave su un collegamento (&quot;azienda&quot; a schema &quot;cus:company&quot;) con l&#39;attributo **xlink** e un campo della tabella (&quot;e-mail&quot;):
 
