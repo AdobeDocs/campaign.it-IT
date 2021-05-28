@@ -1,7 +1,7 @@
 ---
 solution: Campaign v8
 product: Adobe Campaign
-title: Matrice di compatibilità di Campaign v8
+title: Matrice di compatibilità per Campaign v8
 description: Scopri i sistemi e le versioni compatibili con Campaign v8
 feature: Panoramica
 role: Data Engineer
@@ -10,18 +10,18 @@ exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6e
 source-git-commit: ffdfc9a2e1bec191b5a3cc7f7b40683b2456bf3e
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 30%
+ht-degree: 75%
 
 ---
 
-# Matrice di compatibilità di Campaign v8
+# Matrice di compatibilità per Campaign v8
 
-In questo documento sono elencati tutti i sistemi e i componenti supportati per la build più recente di **Adobe Campaign v8**. I prodotti e le versioni che non fanno parte di questo elenco non sono compatibili con Adobe Campaign.
+Questo documento elenca tutti i sistemi e i componenti supportati dalla build più recente di **Adobe Campaign v8**. I prodotti e le versioni che non fanno parte di questo elenco non sono compatibili con Adobe Campaign.
 
 >[!CAUTION]
 >
 >* Salvo diversa indicazione, sono supportate tutte le versioni minori.
->* Poiché versioni specifiche di questi sistemi e strumenti di terze parti raggiungono la fine del ciclo di vita (EOL), Adobe Campaign non sarà più compatibile con tali versioni e verranno rimosse da questa matrice di compatibilità. Assicurati di disporre delle versioni supportate di tutti i sistemi elencati nella matrice di compatibilità per evitare problemi.
+>* Quando versioni specifiche di questi sistemi e strumenti di terze parti raggiungono la fine del ciclo di vita (EOL), Adobe Campaign non è più compatibile con tali versioni, che vengono rimosse dalla matrice di compatibilità. Assicurati di disporre delle versioni supportate di tutti i sistemi elencati nella matrice di compatibilità per evitare problemi.
 
 
 ## Sistemi compatibili
@@ -33,7 +33,7 @@ In questo documento sono elencati tutti i sistemi e i componenti supportati per 
 **Sistemi operativi**
 
 * **Microsoft Windows Server** 2016, 2012
-* **Microsoft Windows** 8, 10 (consigliato per le istanze giapponesi)
+* **Microsoft Windows** 8, 10 (consigliato per le istanze giapponesi))
 
 **Browser**
 
@@ -41,8 +41,8 @@ In questo documento sono elencati tutti i sistemi e i componenti supportati per 
 
 ### Connettori CRM{#CRMconnectors}
 
-* **** API Salesforceconnector versione 49
-* **Microsoft** Dynamicsconnector, API Web: Dynamics 365 on-premise e online
+* API connettore **Salesforce** versione 49
+* Connettore **Microsoft Dynamics**, API Web: Dynamics 365 On-premise e online
 
 ### Federated Data Access (FDA){#FederatedDataAccessFDA}
 
@@ -51,18 +51,18 @@ In questo documento sono elencati tutti i sistemi e i componenti supportati per 
 
 ### SDK per dispositivi mobili{#MobileSDK}
 
-* **Android** 7.x, 8.x, 9.0 con SDK mobile versione 1.0.27.
-* **Apple iOS** 9 - 14 con SDK mobile versione 1.0.26, compatibile con le versioni a 32 e 64 bit.
+* **Android** 7.x, 8.x, 9.0 con SDK mobile build 1.0.27.
+* **Apple iOS** 9-14 con build 1.0.26 dell’SDK per dispositivi mobili, compatibile con le versioni a 32 e a 64 bit.
 
 ### Browser supportati {#Browsers}
 
 I seguenti browser sono compatibili con Campaign per accesso web.
 
-* **Microsoft Edge**,  **Mozilla Firefox**,  **Google Chrome**,  **Safari**  (versioni più recenti)
+* **Microsoft Edge**, **Mozilla Firefox**, **Google Chrome**, **Safari** (versioni più recenti)
 
 * **Internet Explorer** 11
 
-## Controllare la versione Campaign
+## Controllare la versione di Campaign
 
 Utilizza il menu **Aiuto > Informazioni su...** per controllare la tua versione.
 
