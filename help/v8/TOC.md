@@ -10,7 +10,7 @@ hide: true
 source-git-commit: 6e098ffa538c4348889a35eb454da747c80d6262
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 31%
+ht-degree: 84%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 31%
    + [Classico da v7 a v8](start/capability-matrix.md)
 + Inizio {#start}
    + [Introduzione](start/get-started.md)
-   + [Profili e pubblico](start/audiences.md)
+   + [Profili e tipi di pubblico](start/audiences.md)
    + [Importare dati](start/import.md)
    + [Creare campagne](start/campaigns.md)
    + [Inviare messaggi](start/create-message.md)
@@ -35,16 +35,16 @@ ht-degree: 31%
    + [Domande frequenti](start/campaign-faq.md)
 + Implementare {#implement}
    + [Passaggi di implementazione](start/implement.md)
-   + [Personalizza l’istanza](dev/customize.md)
+   + [Personalizzare l’istanza](dev/customize.md)
    + [Linee guida sulla sicurezza](config/security.md)
-   + [Progettazione di applicazioni web e moduli](dev/webapps.md)
+   + [Progettare di applicazioni web e moduli](dev/webapps.md)
    + [Best practice per i modelli di dati](dev/datamodel-best-practices.md)
-+ Distribuzione {#deploy}
++ Distribuire {#deploy}
    + [Matrice di compatibilità](start/compatibility-matrix.md)
-   + [Connettersi a Campaign](start/connect.md)
+   + [Connessione a Campaign](start/connect.md)
    + [Autorizzazioni](start/permissions.md)
    + [Pannello di controllo Campaign](config/self-service.md)
-+ Invia {#send}
++ Inviare {#send}
    + [E-mail](send/email.md)
    + [SMS](send/sms.md)
    + [Notifiche push](send/push.md)
@@ -64,18 +64,18 @@ ht-degree: 31%
       + [Casi d’uso](send/interaction-use-cases.md)
 + Configura {#config}
    + [Automatizzare con i flussi di lavoro](config/workflows.md)
-   + [Gestione dei dati](config/replication.md)
+   + [Gestire i dati](config/replication.md)
    + [Impostazioni e-mail](config/email-settings.md)
    + [Impostazioni dei messaggi transazionali](config/transactional-msg-settings.md)
    + [Account esterni](config/external-accounts.md)
-+ Connetti {#connect}
++ Connessione {#connect}
    + [Connessione con altre soluzioni](connect/integration.md)
    + [Campaign + Analytics](connect/ac-aa.md)
    + [Campaign + Experience Manager](connect/ac-aem.md)
    + [Campaign + Target](connect/ac-at.md)
    + [Campaign + RTCDP](connect/ac-rtcdp.md)
    + [Campaign + Twitter](connect/ac-tw.md)
-   + [Campaign + Database esterno](connect/fda.md)
+   + [Campaign + database esterno](connect/fda.md)
    + [Campaign + CRM](connect/crm.md)
 + Risorse per sviluppatori {#architecture}
    + [Principi globali](dev/general-architecture.md)
@@ -87,7 +87,7 @@ ht-degree: 31%
       + [Estendere gli schemi](dev/extend-schema.md)
       + [Struttura dello schema](dev/schema-structure.md)
       + [Mappatura del database](dev/database-mapping.md)
-      + [Limita visualizzazione PI](dev/restrict-pi-view.md)
+      + [Limitare visualizzazione PI](dev/restrict-pi-view.md)
       + [Utilizzare una tabella dei destinatari personalizzata](dev/custom-recipient.md)
       + [Aggiornare il database](dev/update-database-structure.md)
       + [Moduli di input](dev/forms.md)
