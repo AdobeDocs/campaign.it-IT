@@ -3,9 +3,9 @@ solution: Campaign v8
 product: Adobe Campaign
 title: Best practice per i modelli di dati
 description: Scopri le best practice per l’estensione del modello dati di Campaign
-source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
+source-git-commit: 583a8f6a03b00e1eafa6d408c9949e60a6f8158d
 workflow-type: tm+mt
-source-wordcount: '2679'
+source-wordcount: '2681'
 ht-degree: 4%
 
 ---
@@ -71,7 +71,7 @@ Un campo deve essere memorizzato in una tabella se ha uno scopo di targeting o p
 
 ### Scelta dei tasti {#choice-of-keys}
 
-Oltre al **autouuid** definito per impostazione predefinita nella maggior parte delle tabelle, è consigliabile aggiungere alcune chiavi logiche o aziendali (numero di account, numero di client e così via). Può essere utilizzato successivamente per le importazioni/riconciliazione o i pacchetti di dati. Per ulteriori informazioni, consulta [Identificatori](#identifiers).
+Oltre alle **autouuid** e **autopk** definite per impostazione predefinita nella maggior parte delle tabelle, è consigliabile aggiungere alcune chiavi logiche o aziendali (numero di account, numero di client e così via). Può essere utilizzato successivamente per le importazioni/riconciliazione o i pacchetti di dati. Per ulteriori informazioni, consulta [Identificatori](#identifiers).
 
 Le chiavi efficienti sono essenziali per le prestazioni. Con Snowflake, è possibile inserire tipi di dati numerici o basati su stringhe come chiavi per le tabelle.
 
@@ -110,7 +110,7 @@ Questa chiave personalizzata è la chiave primaria del record effettiva nel sist
 
 Durante la creazione di una tabella personalizzata sono disponibili due opzioni:
 * Combinazione di chiave generata automaticamente (id) e chiave interna (personalizzata). Questa opzione è interessante se la chiave di sistema è una chiave composita o non un numero intero. Con il Snowflake, i numeri interi o le chiavi basate su stringhe forniscono prestazioni più elevate nelle tabelle grandi e si uniscono ad altre tabelle.
-* Utilizzo della chiave primaria come chiave primaria del sistema esterno. Questa soluzione è solitamente preferita in quanto semplifica l&#39;approccio all&#39;importazione e all&#39;esportazione di dati, con una chiave coerente tra i diversi sistemi. Se la chiave si chiama &quot;id&quot; e deve essere compilata con valori esterni (non generata automaticamente), l’identificatore Autouuid deve essere disabilitato.
+* Utilizzo della chiave primaria come chiave primaria del sistema esterno. Questa soluzione è solitamente preferita in quanto semplifica l&#39;approccio all&#39;importazione e all&#39;esportazione di dati, con una chiave coerente tra i diversi sistemi. **** Se la chiave si chiama &quot;id&quot; e deve essere compilata con valori esterni (non generata automaticamente), l’opzione Autouuidid deve essere disabilitata.
 
 >[!CAUTION]
 >
@@ -123,7 +123,7 @@ Durante la creazione di una tabella personalizzata sono disponibili due opzioni:
 
 Attenzione all&#39;integrità &quot;propria&quot; su grandi tavoli. L&#39;eliminazione di record con tabelle di grandi dimensioni con integrità &quot;propria&quot; può potenzialmente arrestare l&#39;istanza. La tabella è bloccata e le eliminazioni vengono effettuate una per una. Quindi è meglio utilizzare l&#39;integrità &quot;neutrale&quot; sui tavoli figli che hanno grandi volumi.
 
-La dichiarazione di un collegamento come join esterno non è valida per le prestazioni. Il record zero-id emula la funzionalità di join esterno. Non è necessario dichiarare join esterni se il collegamento utilizza l&#39;autouuid.
+La dichiarazione di un collegamento come join esterno non è valida per le prestazioni. Il record zero-id emula la funzionalità di join esterno. Non è necessario dichiarare join esterni se il collegamento utilizza l&#39; **autouuid**.
 
 Sebbene sia possibile unire qualsiasi tabella in un flusso di lavoro, Adobe consiglia di definire collegamenti comuni tra le risorse direttamente nella definizione della struttura dati.
 
