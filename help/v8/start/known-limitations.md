@@ -7,21 +7,26 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 hidefromtoc: true
-source-git-commit: 6e098ffa538c4348889a35eb454da747c80d6262
+source-git-commit: 583a8f6a03b00e1eafa6d408c9949e60a6f8158d
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '158'
 ht-degree: 1%
 
 ---
 
 # Limitazioni note
 
-* Campaign v8 non è ancora disponibile per le distribuzioni on-premise/ibride - rilasciata solo come Cloud Service gestito da Adobe
+Le limitazioni note identificano funzionalità, architettura o processi non supportati da questa versione del prodotto o che non interagiscono correttamente con esso. Esamina attentamente queste limitazioni.
+
+Per Adobe Campaign v8 esistono le seguenti limitazioni:
+
+* Adobe Campaign v8 non è disponibile per le distribuzioni on-premise/ibride: rilasciato solo come Cloud Service gestito di Adobe
 * I clienti esistenti non possono eseguire la migrazione da un ambiente Adobe Campaign esistente ad Adobe Campaign v8
-* Nessuna replica bidirezionale dei dati, solo dal database locale di Campaign al database Cloud
-* Le funzionalità elencate [in questa sezione](capability-matrix.md#gs-unavailable-features) non sono ancora disponibili in Campaign v8
-* Alcune funzioni temporanee non disponibili o rimosse sono ancora visibili nell’interfaccia utente
-* Impossibile installare pacchetti incorporati - anche con autorizzazioni di amministratore
+* Nessuna replica bidirezionale dei dati: la replica viene eseguita solo dal database locale di Campaign al database Cloud
+* Le funzionalità elencate [in questa sezione](capability-matrix.md#gs-unavailable-features) non sono disponibili nella build corrente di Campaign v8
+* Alcune funzioni non disponibili o rimosse sono ancora visibili nell’interfaccia utente di .
+* I meccanismi di abbonamento (opt-in) e di annullamento dell’abbonamento (opt-out) e la registrazione mobile sono processi asincroni. Le richieste vengono elaborate ogni ora tramite uno specifico flusso di lavoro tecnico. [Ulteriori informazioni](../config/replication.md#tech-wf)
+* Gestione ID - duplicati - per confermare + dettagli
 * LINE - per confermare + dettagli
 * Latenza - per confermare + dettagli
 
