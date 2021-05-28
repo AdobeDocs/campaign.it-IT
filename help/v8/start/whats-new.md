@@ -2,7 +2,7 @@
 solution: Campaign v8
 product: Adobe Campaign
 title: Novità di Campaign v8
-description: Ulteriori funzionalità chiave
+description: Ulteriori informazioni sulle funzionalità principali
 feature: Panoramica
 role: Data Engineer
 level: Beginner
@@ -10,21 +10,21 @@ exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 source-git-commit: a48e69a3f34c48ed4828bf29b8a02a3dc07bfa7e
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 0%
+ht-degree: 62%
 
 ---
 
-# Quali sono le novità di Adobe Campaign v8? {#ac-gs-what-is-new}
+# Novità di Adobe Campaign v8 {#ac-gs-what-is-new}
 
 Adobe Campaign v8 offre notevoli miglioramenti a livello di infrastruttura, sicurezza, recapito messaggi e monitoraggio. Sfruttando [[!DNL Snowflake]](https://www.snowflake.com/), una tecnologia di database cloud, Adobe Campaign ne migliora notevolmente la scala e la velocità, con la possibilità di gestire un numero più significativo di profili cliente, oltre a tassi di consegna e transazioni all’ora molto più elevati.
 
 Le funzionalità principali includono:
 
-* **Velocità e scala**. Adobe Campaign v8 sfrutta Cloud Database Manager, consentendo l&#39;esecuzione di query fino a 200 volte più veloci, con scalabilità a più petabyte, un numero maggiore di messaggi all&#39;ora, fino a 20 M/ora o 1 M/ora per i messaggi transazionali e gestendo fino a 200 M profili attivi con il potenziale per raggiungere 1B.
+* **Velocità e scalabilità**. Adobe Campaign v8 sfrutta Cloud Database Manager, consentendo l’esecuzione di query fino a 200 volte più veloci, con scalabilità multi-petabyte, un numero maggiore di messaggi all’ora, messaggi transazionali fino a 20M/ora o 1M/ora e con la gestione di fino a 200M profili attivi, con il potenziale per raggiungerne 1B.
 
-* **Connessioni a Adobe Experience Platform**. Adobe Campaign v8 supporta i connettori dati con Adobe Experience Platform/RT-CDP, il profilo cliente unificato e l’integrazione nativa con il Journey Orchestration. Questi investimenti ottimizzeranno la customer experience di Adobe Campaign e sbloccheranno nuovi casi d’uso, come la possibilità di aggiungere percorsi di clienti in tempo reale personalizzati alle campagne.
+* **Connessioni ad Adobe Experience Platform**. Adobe Campaign v8 supporta i connettori dati con Adobe Experience Platform/RT-CDP, il profilo cliente unificato e l’integrazione nativa con Journey Orchestration. Questi investimenti ottimizzano la customer experience di Adobe Campaign e consentono nuovi casi d’uso, come la possibilità di aggiungere percorsi del cliente personalizzati in tempo reale alle campagne.
 
-* **Cloud Services gestiti**. Adobe Campaign v8 è disponibile come Cloud Services gestito all’avanguardia, fornendo una supervisione proattiva, avvisi tempestivi e governance dei servizi. Il valore per l’addetto al marketing è una gestione delle campagne cross-channel più agile e scalabile.
+* **Cloud Services gestiti**. Adobe Campaign v8 è disponibile come Cloud Services gestito best-in-class; fornisce supervisione proattiva, avvisi tempestivi e governance dei servizi. Il valore per l’addetto al marketing è una gestione delle campagne cross-channel più agile e scalabile.
 
 >[!CAUTION]
 >
@@ -35,29 +35,29 @@ Le funzionalità principali includono:
 >Se non sei sicuro del modello di distribuzione o hai domande, contatta il team del tuo account.
 
 
-## Scala
+## Scalabilità
 
 Campaign v8 porta la scala end-to-end in qualsiasi fase del processo, dal targeting al reporting finale:
 
-* Scala il volume di dati gestibile (fino a 8 TB)
-* Scala le prestazioni delle query per la segmentazione e il targeting, ma anche l’acquisizione e l’uscita dei dati
+* Scalabilità del volume di dati gestibile (fino a 8 TB)
+* Scalabilità delle prestazioni delle query per la segmentazione e il targeting, oltre che per l’acquisizione e l’uscita dei dati
 * Scala la preparazione della consegna (da ore a minuti)
 
 ## Semplificazione e aumento delle prestazioni
 
-Campaign v8 introduce il concetto di **Accesso completo ai dati federati** (FDA): tutti i dati sono ora remoti nel database cloud.
+Campaign v8 introduce il concetto di **Federated Data Access (FDA) completo**: adesso tutti i dati sono remoti, nel Cloud Database.
 
 Con questa nuova architettura, Campaign v8 semplifica la gestione dei dati: sul database cloud non è richiesto alcun indice. È sufficiente creare le tabelle, copiare i dati e iniziare.
 
 [!DNL Snowflake] è il database di Campaign Cloud, ti porterà velocità e resistenza: nessun sovraccarico dei picchi di attività del sistema.
 
-La tecnologia del database Cloud non richiede una manutenzione specifica per garantire il livello di prestazioni.
+La tecnologia del database Cloud non richiede una manutenzione specifica per garantire la qualità del servizio.
 
 ## Ecosistema integrato
 
-Puoi integrare Campaign con una serie di potenti soluzioni di Adobe, ad esempio: Adobe Analytics, Workfront, Journey Orchestration, Real-Time CDP e altro ancora.
+Puoi integrare Campaign con una serie di potenti soluzioni di Adobe, quali: Adobe Analytics, Workfront, Journey Orchestration, Real-Time CDP e altro ancora.
 
-Puoi anche configurare l’ottimizzazione predittiva del tempo di invio e il punteggio predittivo del coinvolgimento con Percorsi AI, nonché aumentare i tassi di apertura, i clic e i ricavi.
+Inoltre puoi configurare l’ottimizzazione del tempo di invio e il punteggio di engagement predittivi con IA per la gestione dei percorsi cliente, nonché aumentare i tassi di apertura, i clic e i ricavi.
 
-[!DNL :bulb:] [Ulteriori informazioni sulle integrazioni con Campaign](../connect/integration.md)
+[!DNL :bulb:] [Ulteriori informazioni sulle integrazioni di Campaign](../connect/integration.md)
 
