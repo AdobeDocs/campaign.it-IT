@@ -7,10 +7,10 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
+source-git-commit: eaad05675d2f875af2db5f71781afdad3a9ff004
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 11%
+source-wordcount: '342'
+ht-degree: 13%
 
 ---
 
@@ -29,13 +29,10 @@ Modernizza la tua implementazione e sfrutta tutte le funzionalità di Adobe Expe
 Campaign v8 può connettersi con:
 
 * [Journey Orchestration Adobe](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html?lang=en)
-
 * [Real-Time CDP](../connect/ac-rtcdp.md)
-
-* [Connettore dati Adobe Analytics](../connect/ac-aa.md)
-
+* [Adobe Analytics](../connect/ac-aa.md)
 * [Adobe Experience Manager](../connect/ac-aem.md)
-
+* [Trigger Adobe Experience Cloud](../connect/ac-triggers.md)
 * [Adobe Target](../connect/ac-at.md)
 
 Puoi anche combinare i tuoi **tipi di pubblico** e **risorse** tra le soluzioni Experience Cloud con le funzionalità di condivisione delle risorse e del pubblico.
@@ -44,7 +41,7 @@ Puoi anche combinare i tuoi **tipi di pubblico** e **risorse** tra le soluzioni 
 
 [!DNL :arrow_upper_right:] Ulteriori informazioni sulla condivisione di  **risorse** tra le soluzioni Campaign e Experience Cloud nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=en#integrating-with-adobe-experience-cloud)
 
-## Connettori di gestione delle relazioni con i clienti{#gs-crm-connectors}
+## Connettori per sistemi CRM{#gs-crm-connectors}
 
 Puoi collegare la tua piattaforma Adobe Campaign ai **sistemi di terze parti CRM** e sincronizzare i dati: contatti, conti, acquisti, ecc.
 
@@ -57,7 +54,7 @@ I connettori di gestione delle relazioni con i clienti consentono un’integrazi
 
 Utilizza il connettore FDA (Federated Data Access) per collegare Campaign a uno o più **database esterni** ed elaborare le informazioni archiviate senza influire sui dati del database di Campaign Cloud.
 
-[!DNL :bulb:] Ulteriori informazioni in  [questa pagina](fda.md)
+[!DNL :bulb:] Per ulteriori informazioni, consulta [questa pagina](fda.md)
 
 
 <!-- 
