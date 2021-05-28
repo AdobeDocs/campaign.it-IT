@@ -6,7 +6,7 @@ description: Scopri come creare spazi di offerta
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 583a8f6a03b00e1eafa6d408c9949e60a6f8158d
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 3%
@@ -70,7 +70,7 @@ Lo stato della proposta di offerta varia a seconda delle interazioni con la popo
 
 >[!NOTE]
 >
->L&#39;aggiornamento dello stato è un processo asincrono. Viene eseguito dal flusso di lavoro di tracciamento che viene attivato ogni ora.
+>L&#39;aggiornamento dello stato è un processo **asincrono**. Viene eseguito dal flusso di lavoro di tracciamento che viene attivato ogni ora.
 
 ### Elenco dello stato dell&#39;offerta {#status-list}
 
