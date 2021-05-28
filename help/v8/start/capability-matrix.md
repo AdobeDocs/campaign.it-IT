@@ -7,7 +7,7 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-source-git-commit: 93004d69f33fce39f8f2abb18eec2562177a7adf
+source-git-commit: 15cd7228a4920702cae182c68e7a329345946e31
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 57%
@@ -61,7 +61,7 @@ Un flusso di lavoro tecnico specifico gestisce la replica delle tabelle che devo
 
 ### Gestione ID
 
-Ora gli oggetti di Campaign v8 utilizzano un **ID universalmente univoco (UUID)**, che consente l’identificazione dei dati tramite valori univoci illimitati
+Ora gli oggetti di Campaign v8 utilizzano un **ID universalmente univoco (UUID)**, che consente l’identificazione dei dati tramite valori univoci illimitati.
 
 Tieni presente che questo ID è basato su stringhe e non sequenziale.
 
