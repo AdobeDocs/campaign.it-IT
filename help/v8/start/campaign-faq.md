@@ -10,7 +10,7 @@ exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d7
 source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
 source-wordcount: '638'
-ht-degree: 44%
+ht-degree: 66%
 
 ---
 
@@ -42,25 +42,25 @@ Hai bisogno di assistenza mentre lavori con Campaign? Leggi le principali domand
 
    [!DNL :arrow_upper_right:] Fai riferimento a questa guida per scoprire le best practice per la  [consegna](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=it).
 
-   [!DNL :arrow_upper_right:] Scopri come implementare il recapito messaggi in Campaign  [in questa guida](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html)
+   [!DNL :arrow_upper_right:] Scopri come implementare il recapito messaggi in Campaign  [in questa guida](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=it)
 
 1. **Come posso assicurarmi che la consegna venga inviata senza errori?**
 
     Adobe Campaign dispone di una serie di dashboard e strumenti per monitorare le consegne delle e-mail.
 
-   [Consulta la documentazione di Campaign Classic v7 per ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html) scoprire come assicurarti che i messaggi siano inviati, monitorare l’esecuzione e intervenire in caso di errore.
+   [Leggi la documentazione di Campaign Classic v7 per scoprire](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=it) come assicurarti che i tuoi messaggi siano inviati, come monitorare l’esecuzione e intervenire in caso di errore.
 
 1. **Posso monitorare l’esecuzione di un flusso di lavoro?**
 
-   [!DNL :arrow_upper_right:] Scopri come monitorare l’esecuzione del flusso di lavoro di Campaign  [nella documentazione](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html) di Campaign Classic v7.
+   [!DNL :arrow_upper_right:] Scopri come monitorare l’esecuzione del flusso di lavoro di Campaign  [nella documentazione](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html?lang=it) di Campaign Classic v7.
 
 1. **Con quali sistemi e componenti è compatibile Campaign v8?**
 
-   Puoi ottenere l’elenco di tutti i sistemi e i componenti supportati per la build più recente di Campaign nella [Matrice di compatibilità di Adobe Campaign ](compatibility-matrix.md).
+   Puoi ottenere l’elenco di tutti i sistemi e i componenti supportati per la build più recente di Campaign nella [Matrice di compatibilità di Adobe Campaign](compatibility-matrix.md).
 
 1. **Qual è la procedura per la delega del dominio?**
 
-   Un sottodominio è una divisione del dominio che può essere utilizzata per isolare i brand o vari tipi di traffico (messaggi transazionali, informazioni di marketing, ecc.).
+   Un sottodominio è una divisione del dominio che può essere utilizzata per isolare i brand o vari tipi di traffico (messaggi transazionali, informazioni di marketing, eccetera).
 
    [!DNL :speech_balloon:] In qualità di utente di Cloud Services gestiti,  [contatta ](../start/campaign-faq.md#support) Adobe per delegare i sottodomini all’Adobe.
 
@@ -72,13 +72,13 @@ Hai bisogno di assistenza mentre lavori con Campaign? Leggi le principali domand
 
    È possibile ottenere il programma di installazione e la console client da Adobe Download Center.
 
-   [Fare clic ](https://experience.adobe.com/#/downloads/content/software-distributicampaign.html) per accedere all&#39;Experience Cloud Distribuzione di software.
+   [Fai clic qui](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) per accedere alla Distribuzione di software di Experience Cloud.
 
-   Ulteriori informazioni sul Centro distribuzione [in questa pagina](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html).
+   Ulteriori informazioni sul Centro distribuzione sono disponibili a [questa pagina](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html).
 
 1. **Posso entrare in contatto con gli esperti di Campaign?**
 
-   Iscriviti alla community Campaign: cercare le risposte nella domanda esistente o chiedere agli esperti. [Partecipa alla conversazione](https://experienceleaguecommunities.adobe.com/?profile.language=en)
+   Iscriviti alla community di Campaign: puoi cercare le risposte nelle domande esistenti o chiedere agli esperti. [Partecipa alla conversazione](https://experienceleaguecommunities.adobe.com/?profile.language=en)
 
 
 1. **Come posso segnalare un problema?**
@@ -87,4 +87,4 @@ Hai bisogno di assistenza mentre lavori con Campaign? Leggi le principali domand
 
    Per segnalare un problema o avviare una sessione di chat nel nuovo sistema, connettiti ad [Adobe Admin Console](https://adminConsole.adobe.com/overview).
 
-   Questo sistema richiede account singoli per ogni utente, con le autorizzazioni corrette. Se non riesci ad accedere con il tuo Adobe ID, richiedi l’accesso tramite Experience League e il team di assistenza clienti completerà le tue impostazioni il prima possibile. [Ulteriori informazioni](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+   Il sistema richiede account individuali per ogni utente, con le autorizzazioni corrette. Se non riesci ad accedere con il tuo Adobe ID, richiedi l’accesso tramite Experience League e il team di assistenza clienti completerà le tue impostazioni il prima possibile. [Ulteriori informazioni](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
