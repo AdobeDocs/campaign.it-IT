@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Guida introduttiva alle funzionalità di monitoraggio e monitoraggio
 description: Guida introduttiva alle funzionalità di monitoraggio e monitoraggio
@@ -7,10 +6,10 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: 95ed0369-7215-496b-8e11-fe264c436488,e7931de5-83ce-431d-ae81-83793d257550
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '870'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
@@ -119,7 +118,7 @@ Adobe Campaign offre una serie di funzionalità per monitorare i processi e l’
 
 ### Monitorare le consegne
 
-Il monitoraggio delle consegne dopo l’invio è un passaggio chiave per garantire l’efficienza delle campagne di marketing e la disponibilità dei clienti.
+Il monitoraggio delle consegne dopo l’invio è un passaggio fondamentale per garantire l’efficienza delle campagne di marketing e l’effettivo raggiungimento dei clienti.
 
 [!DNL :arrow_upper_right:] Ulteriori informazioni sulle informazioni che puoi monitorare dopo l’invio di una consegna, informazioni su come vengono gestiti gli errori di consegna e la quarantena nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=en#sending-messages)
 
