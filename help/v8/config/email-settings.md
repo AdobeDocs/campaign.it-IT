@@ -1,15 +1,14 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Impostazioni del canale e-mail di Campaign
 description: Impostazioni del canale e-mail di Campaign
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: 3fd91879485a33961769c684acba8ca3c48bbbed
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -50,6 +49,6 @@ Una volta configurato il CCN dell’e-mail, accertati che la funzione sia abilit
 
 [!DNL :arrow_upper_right:] [Impostare l&#39;indirizzo e-mail non recapitato](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#managing-bounce-emails)
 
-[!DNL :arrow_upper_right:] [Utilizzare i modelli di consegna e-mail](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html)
+[!DNL :arrow_upper_right:] [Utilizzare i modelli di consegna e-mail](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=it)
 
 [!DNL :arrow_upper_right:] [Errori di consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html)
