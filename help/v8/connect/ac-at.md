@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Utilizzare Campaign e Adobe Target
 description: Scopri come utilizzare Campaign e Adobe Target
@@ -7,7 +6,7 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 1%
@@ -49,7 +48,7 @@ In Adobe Campaign e Adobe Target è necessario effettuare le seguenti operazioni
 
 1. [Inserire l’offerta dinamica in un messaggio e-mail](#inserting-dynamic-offer)
 1. [Creare offerte di reindirizzamento](#create-redirect-offers)
-1. [Creare un pubblico](#audiences-target)
+1. [Creare tipi di pubblico](#audiences-target)
 1. [Creare un’attività Targeting esperienze](#creating-targeting-activity)
 1. [Anteprima e invio del messaggio](#preview-send-email)
 
@@ -98,7 +97,7 @@ Nel nostro caso, sono necessarie due offerte di reindirizzamento, la terza (quel
 
 1. Segui la stessa procedura per l’offerta di reindirizzamento rimanente. Per ulteriori informazioni, consulta questa [pagina](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=en#experiences).
 
-### Creare un pubblico {#audiences-target}
+### Creare tipi di pubblico {#audiences-target}
 
 In Adobe Target, devi creare i due tipi di pubblico in cui le persone che visitano la tua offerta verranno categorizzate per i diversi contenuti da consegnare. Per ogni pubblico, aggiungi una regola per definire chi potrà visualizzare l’offerta.
 
