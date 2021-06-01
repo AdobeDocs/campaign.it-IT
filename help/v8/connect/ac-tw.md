@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Utilizzare Campaign e Twitter
 description: Scopri come utilizzare Campaign e Twitter
@@ -9,7 +8,7 @@ level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
 hidefromtoc: true
 hide: true
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 4%
@@ -40,7 +39,7 @@ Ottieni informazioni da:
 https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-social-media/publishing-on-facebook-twitter/publishing-on-twitter.html?lang=en#integrating-with-social-media
 
 
-## Tracking
+## Tracciamento
 
 Ottieni informazioni da:
 
