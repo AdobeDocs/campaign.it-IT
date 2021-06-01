@@ -1,12 +1,11 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Utilizzare Campaign e i database esterni (FDA)
 description: Scopri come utilizzare Campaign e i database esterni
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: 6f50be1e5c03937544e81582c2989b4345bb335d
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '1844'
 ht-degree: 3%
