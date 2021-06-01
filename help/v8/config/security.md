@@ -1,12 +1,11 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Best practice per la sicurezza di Campaign
 description: Guida introduttiva alle best practice per la sicurezza di Campaign
-source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -41,7 +40,7 @@ Quando aggiungi collegamenti personalizzati al contenuto, evita sempre di avere 
 
 Devi accertarti che le password crittografate non siano accessibili da un utente autenticato con privilegi bassi. Per farlo, esistono due modi principali: limita l’accesso ai campi password solo o all’intera entità.
 
-Questa restrizione consente di rimuovere i campi password ma lascia l’account esterno accessibile dall’interfaccia per tutti gli utenti. Ulteriori informazioni in [questa pagina](../dev/restrict-pi-view.md).
+Questa restrizione consente di rimuovere i campi password ma lascia l’account esterno accessibile dall’interfaccia per tutti gli utenti. Per ulteriori informazioni, consulta [questa pagina](../dev/restrict-pi-view.md).
 
 1. Vai in **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**.
 
