@@ -1,13 +1,12 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Architettura generale
 description: Architettura generale di Campaign v8
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '1214'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -31,7 +30,7 @@ La tipica implementazione della soluzione Adobe Campaign consiste dei seguenti c
 
 L’accesso all’applicazione può essere effettuato in diversi modi: Integrazione con client avanzati, thin client o API.
 
-* **Console** client: L&#39;interfaccia utente principale dell&#39;applicazione è un&#39;applicazione nativa (su Windows) che comunica con il server dell&#39;applicazione Adobe Campaign con i protocolli Internet standard (SOAP, HTTP, ecc.). La console client di Adobe Campaign offre una grande facilità di utilizzo per la produttività, utilizza una larghezza di banda molto ridotta (tramite l’utilizzo di una cache locale) ed è progettata per una facile distribuzione. Questa console può essere implementata da un browser Internet, può essere aggiornata automaticamente e non richiede alcuna configurazione di rete specifica in quanto genera solo traffico HTTP(S).
+* **Console** client: L&#39;interfaccia utente principale dell&#39;applicazione è un&#39;applicazione nativa (su Windows) che comunica con il server dell&#39;applicazione Adobe Campaign con i protocolli Internet standard (SOAP, HTTP, ecc.). La console client di Adobe Campaign consente una produttività semplice e intuitiva, utilizza una larghezza di banda molto ridotta (grazie a una cache locale) ed è progettata per una facile distribuzione. Questa console può essere implementata da un browser Internet, può essere aggiornata automaticamente e non richiede alcuna configurazione di rete specifica in quanto genera solo traffico HTTP(S).
 
    [!DNL :bulb:] [Ulteriori informazioni sulla console client di Campaign](../start/connect.md).
 
