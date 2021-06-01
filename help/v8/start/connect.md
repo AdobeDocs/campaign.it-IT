@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Scopri come connettersi a Campaign v8
 description: Connetti a Campaign v8
@@ -7,10 +6,10 @@ feature: Tipi di pubblico
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '752'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -121,4 +120,4 @@ Alcune parti dell&#39;applicazione sono accessibili tramite un semplice browser 
 
 Nel processo di convalida viene utilizzato anche l’accesso Web: gli operatori possono fare clic sull’e-mail di richiesta di approvazione e connettersi a Campaign tramite il proprio browser web per convalidare o rifiutare un contenuto o un budget di consegna.
 
-[!DNL :arrow_upper_right:] Scopri come configurare e gestire le approvazioni nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=en#orchestrating-campaigns)
+[!DNL :arrow_upper_right:] Scopri come configurare e gestire le approvazioni nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=it#orchestrating-campaigns)
