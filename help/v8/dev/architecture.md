@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Guida introduttiva all’architettura di Campaign
 description: Guida introduttiva all’architettura di Campaign
@@ -7,10 +6,10 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '631'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -32,7 +31,7 @@ Puoi esportare e importare i pacchetti da un ambiente all’altro.
 
 [!DNL :arrow_upper_right:] Ulteriori informazioni sui pacchetti nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html)
 
-## Distribuzione mid-sourcing{#mid-sourcing-deployment}
+## Implementazione mid-sourcing{#mid-sourcing-deployment}
 
 La comunicazione generale tra server e processi viene eseguita secondo il seguente schema:
 
@@ -49,7 +48,7 @@ La comunicazione generale tra server e processi viene eseguita secondo il seguen
 
 ## Architettura del centro messaggi{#transac-msg-archi}
 
-La messaggistica transazionale (Message Center, Centro messaggi) è il modulo Campaign progettato per la gestione dei messaggi di attivazione.
+La messaggistica transazionale (Message Center) è il modulo di Campaign progettato per la gestione dei messaggi di attivazione.
 
 [!DNL :bulb:] Scopri come inviare messaggi transazionali in  [questa sezione](../send/transactional.md).
 
