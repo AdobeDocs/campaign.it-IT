@@ -5,7 +5,7 @@ description: Guida introduttiva ai messaggi transazionali
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 41ea85bc3c616ed7cdd0718ff3368aab971a5352
 workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 1%
@@ -36,7 +36,7 @@ I messaggi transazionali vengono utilizzati per inviare:
 
 Ogni evento può attivare un messaggio personalizzato. Affinché ciò accada, devi creare un modello di messaggio per far corrispondere ogni tipo di evento. I modelli contengono le informazioni necessarie per personalizzare il messaggio sulle transazioni. Puoi inoltre utilizzare i modelli per testare l’anteprima del messaggio e inviare bozze utilizzando gli indirizzi di seed prima di consegnarle al target finale.
 
-### Creare il modello
+## Creare il modello
 
 Per creare un modello di messaggio, segui i passaggi seguenti:
 
@@ -62,7 +62,7 @@ Per creare un modello di messaggio, segui i passaggi seguenti:
 
 1. Immetti una natura e una descrizione, quindi fai clic su **[!UICONTROL Continue]** per creare il corpo del messaggio. Consulta [Creare il contenuto del messaggio](#create-message-content).
 
-### Crea il contenuto{#create-message-content}
+## Crea il contenuto{#create-message-content}
 
 La definizione del contenuto dei messaggi transazionali è la stessa di tutte le consegne in Adobe Campaign. Ad esempio, per una consegna e-mail, puoi creare contenuto in formato HTML o testo, aggiungere allegati o personalizzare l’oggetto di consegna. Per ulteriori informazioni al riguardo, consulta [questa sezione](../start/create-message.md).
 
@@ -92,7 +92,7 @@ Per inserire tag di personalizzazione nel corpo di un messaggio e-mail, effettua
 
    ![](assets/messagecenter_create_custo_2.png)
 
-### Aggiungere indirizzi seed{#add-seeds}
+## Aggiungere indirizzi seed{#add-seeds}
 
 Un indirizzo di seed ti consente di visualizzare un’anteprima del messaggio, inviare una bozza e testare la personalizzazione dei messaggi prima di inviare il messaggio. Gli indirizzi di seed sono collegati alla consegna e non possono essere utilizzati per altre consegne.
 
@@ -118,7 +118,7 @@ Un indirizzo di seed ti consente di visualizzare un’anteprima del messaggio, i
 
 Una volta creati gli indirizzi, puoi accedere alla loro anteprima e personalizzazione.
 
-### Aggiungi dati di personalizzazione{#personalization-data}
+## Aggiungi dati di personalizzazione{#personalization-data}
 
 Puoi aggiungere dati nel modello di messaggio per testare la personalizzazione dei messaggi transazionali. In questo modo puoi generare un’anteprima o inviare una bozza. Se si installa il modulo **Consegna**, questi dati consentono di visualizzare un rendering dei messaggi per vari client desktop, web o mobili.
 
@@ -133,7 +133,7 @@ Queste informazioni consentono di personalizzare il contenuto dei messaggi utili
 
    ![](assets/messagecenter_create_custo_3.png)
 
-### Visualizza l&#39;anteprima del messaggio sulle transazioni{#transactional-message-preview}
+## Visualizza l&#39;anteprima del messaggio sulle transazioni{#transactional-message-preview}
 
 Dopo aver creato uno o più indirizzi di seed e il corpo del messaggio, puoi visualizzare in anteprima il messaggio e controllarne la personalizzazione.
 
@@ -145,7 +145,7 @@ Dopo aver creato uno o più indirizzi di seed e il corpo del messaggio, puoi vis
 
    ![](assets/messagecenter_create_seed_7.png)
 
-### Inviare una bozza
+## Inviare una bozza
 
 Puoi verificare la consegna dei messaggi inviando una bozza a un indirizzo di seed creato in precedenza.
 
