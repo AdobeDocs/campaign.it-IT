@@ -1,14 +1,14 @@
 ---
 product: Adobe Campaign
-title: Introduzione all’automazione delle campagne
-description: Introduzione all’automazione delle campagne
+title: Gestire e automatizzare i processi con i flussi di lavoro Adobe Campaign
+description: Introduzione ai flussi di lavoro
 feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: 40b38168a3704f171f1f389e2d232e6a2c6f1d85
+source-git-commit: 41ea85bc3c616ed7cdd0718ff3368aab971a5352
 workflow-type: tm+mt
-source-wordcount: '1187'
+source-wordcount: '1189'
 ht-degree: 9%
 
 ---
