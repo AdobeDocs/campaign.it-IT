@@ -2,9 +2,9 @@
 product: Adobe Campaign
 title: 'Gestione delle chiavi in Campaign '
 description: Guida introduttiva alla gestione delle chiavi
-source-git-commit: 40b38168a3704f171f1f389e2d232e6a2c6f1d85
+source-git-commit: 08c1f2fbe79845fe54670e25ac4a63ab65517513
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,9 @@ In Campaign v8, la chiave primaria è un identificatore ID universale univoco (U
 
 Adobe campaign v8 viene fornito con Snowflake come database di base. L’architettura distribuita del database di Snowflake non fornisce meccanismi per gestire l’unicità di una chiave all’interno di una tabella: gli utenti finali sono responsabili di garantire la coerenza delle chiavi all’interno del database Adobe Campaign.
 
-Per preservare la coerenza relazionale del database, è obbligatorio evitare duplicati sulle chiavi e in particolare sulle chiavi primarie. I duplicati sulle chiavi primarie generano problemi con le attività del flusso di lavoro di gestione dei dati come Query, Reconciliation, Update e altro ancora.
+Per preservare la coerenza relazionale del database, è obbligatorio evitare duplicati sulle chiavi e in particolare sulle chiavi primarie. I duplicati sulle chiavi primarie generano problemi con le attività del flusso di lavoro di gestione dei dati come **Query**, **Riconciliazione**, **Aggiorna dati** e altro ancora.
 
-Adobe Campaign propone potenti strumenti di gestione dei dati per riconciliare i dati, assicurarsi di inserire o aggiornare i dati in base alla loro presenza nel database (riconciliazione) e rimuovere i duplicati prima di acquisire i dati (deduplicazione). Come best practice, Adobe consiglia di adottare una strategia [Rileva](#detect-duplicates) e [Correggi](#correct-duplicates) come parte del processo di gestione dei dati complessivo, nel caso in cui nel database siano state caricate chiavi duplicate.
+Adobe Campaign propone potenti strumenti di gestione dei dati per riconciliare i dati, assicurarsi di inserire o aggiornare i dati in base alla loro presenza nel database (**Riconciliazione**) e rimuovere i duplicati prima di acquisire i dati (**Deduplicazione**). Come best practice, Adobe consiglia di adottare una strategia [Rileva](#detect-duplicates) e [Correggi](#correct-duplicates) come parte del processo di gestione dei dati complessivo, nel caso in cui nel database siano state caricate chiavi duplicate.
 
 ## Rileva duplicati{#detect-duplicates}
 
@@ -81,4 +81,4 @@ and urecipientid = 'c04d93f2-6012-4668-b523-88db1262cd46';
 
 ![](assets/sql-data-management.png)
 
-Una volta aggiornata la riga selezionata con un nuovo UUID, puoi controllare la riga aggiornata dall’interfaccia e notare che l’UUID è stato aggiornato come previsto. È inoltre possibile rilevare i duplicati nel database eseguendo il flusso di lavoro &quot;Rileva duplicati&quot; [come spiegato qui](#detect-duplicates).
+Una volta aggiornata la riga selezionata con un nuovo UUID, puoi controllare la riga aggiornata dall’interfaccia e notare che l’UUID è stato aggiornato come previsto. È inoltre possibile rilevare i duplicati nel database eseguendo il flusso di lavoro **Rileva duplicati** [come spiegato qui](#detect-duplicates).
