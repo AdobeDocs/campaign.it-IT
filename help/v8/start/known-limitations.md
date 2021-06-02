@@ -6,10 +6,10 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 hidefromtoc: true
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 08c1f2fbe79845fe54670e25ac4a63ab65517513
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 1%
+source-wordcount: '162'
+ht-degree: 3%
 
 ---
 
@@ -25,6 +25,6 @@ Per Adobe Campaign v8 esistono le seguenti limitazioni:
 * Le funzionalità elencate [in questa sezione](capability-matrix.md#gs-unavailable-features) non sono disponibili nella build corrente di Campaign v8
 * Alcune funzioni non disponibili o rimosse sono ancora visibili nell’interfaccia utente di .
 * I meccanismi di abbonamento (opt-in) e di annullamento dell’abbonamento (opt-out) e la registrazione mobile sono processi asincroni. Le richieste vengono elaborate ogni ora tramite uno specifico flusso di lavoro tecnico. [Ulteriori informazioni](../config/replication.md#tech-wf)
-* Gestione ID - duplicati - per confermare + dettagli
+* I duplicati devono essere gestiti manualmente dagli utenti finali. [Ulteriori informazioni](../dev/keys.md)
 * LINE - per confermare + dettagli
 * Latenza - per confermare + dettagli
