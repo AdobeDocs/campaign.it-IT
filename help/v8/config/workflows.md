@@ -6,7 +6,7 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 40b38168a3704f171f1f389e2d232e6a2c6f1d85
 workflow-type: tm+mt
 source-wordcount: '1187'
 ht-degree: 9%
@@ -30,16 +30,16 @@ Puoi impostare:
 
 Utilizza i flussi di lavoro Adobe Campaign per migliorare la velocità e la scala di ogni aspetto delle campagne di marketing, dalla creazione di segmenti alla preparazione dei messaggi alla consegna.
 
-Scopri come progettare flussi di lavoro in questi[casi d’uso end-to-end](#end-to-end-uc).
+Scopri come progettare flussi di lavoro in questi [casi d’uso end-to-end](#end-to-end-uc).
 
 Ulteriori informazioni sull’interfaccia utente e l’esecuzione dei flussi di lavoro nella documentazione di Campaign Classic v7:
 
 [!DNL :arrow_upper_right:]  [Introduzione ai flussi di lavoro](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows)
 * Attività del flusso di lavoro:
-   * [Attività](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html) di targeting: query, elenco di lettura, arricchimento, unione e altro ancora
-   * [Attività](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/about-flow-control-activities.html) di controllo del flusso: scheduler, fork, alert, segnale esterno e altro ancora
-   * [Attività](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html) azione: consegne cross-channel, codice JavaScript, attività CRM, aggiornamento aggregato e altro ancora
-   * [Attività](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html) evento: trasferimento file, download web e altro ancora
+   * [Attività](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html) di targeting: Query, Elenco di lettura, Arricchimento, Unione e altro ancora
+   * [Attività](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/about-flow-control-activities.html) di controllo del flusso: Scheduler, Fork, Alert, Segnale esterno e altro ancora
+   * [Attività](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html) azione: Consegne cross-channel, codice JavaScript, attività CRM, aggiornamento aggregato e altro ancora
+   * [Attività](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html) evento: Trasferimento file, download web e altro ancora
       [!DNL :arrow_upper_right:]  [Creare un pubblico in un flusso di lavoro di una campagna di marketing](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow)
 
       [!DNL :arrow_upper_right:]  [Best practice per i flussi di lavoro](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html)
