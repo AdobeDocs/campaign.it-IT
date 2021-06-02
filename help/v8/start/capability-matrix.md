@@ -6,10 +6,10 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 40b38168a3704f171f1f389e2d232e6a2c6f1d85
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 57%
+source-wordcount: '800'
+ht-degree: 44%
 
 ---
 
@@ -62,7 +62,12 @@ Un flusso di lavoro tecnico specifico gestisce la replica delle tabelle che devo
 
 Ora gli oggetti di Campaign v8 utilizzano un **ID universalmente univoco (UUID)**, che consente l’identificazione dei dati tramite valori univoci illimitati.
 
-Tieni presente che questo ID è basato su stringhe e non sequenziale.
+Tieni presente che questo ID è basato su stringhe e non sequenziale. La chiave primaria non è un valore numerico in Campaign v8 e devi utilizzare gli attributi **autouuid** e **autopk** negli schemi.
+
+Nelle versioni Campaign Classic v7 e precedenti, l’unicità di una chiave all’interno di uno schema (ovvero una tabella) viene gestita a livello di motore del database. Più in generale, i motori di database classici come PostgreSQL, Oracle o SQL Server includono un meccanismo nativo per impedire l&#39;inserimento di righe duplicate basate su una colonna o su un set di colonne tramite chiavi primarie e/o indici univoci. L&#39;ID duplicato non esiste in queste versioni quando l&#39;indice e le chiavi primarie sono impostati correttamente a livello di database.
+
+Adobe campaign v8 viene fornito con Snowflake come database di base. Poiché aumenta notevolmente la scala delle query, l&#39;architettura distribuita del database di Snowflake non fornisce tali meccanismi per gestire e quindi applicare l&#39;unicità di una chiave all&#39;interno di una tabella. Di conseguenza, con Adobe Campaign v8, nulla impedisce l’inserimento di chiavi duplicate in una tabella. Gli utenti finali sono ora responsabili di garantire la coerenza delle chiavi all&#39;interno del database Adobe Campaign. [Ulteriori informazioni](../dev/keys.md).
+
 
 ### Manutenzione semplificata
 
