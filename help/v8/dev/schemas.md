@@ -2,9 +2,9 @@
 product: Adobe Campaign
 title: Utilizzare gli schemi di Campaign
 description: Guida introduttiva agli schemi
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 40b38168a3704f171f1f389e2d232e6a2c6f1d85
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1247'
 ht-degree: 5%
 
 ---
@@ -135,7 +135,7 @@ type="string" enum="exTransactionTypeEnum"/>
 
 ## Chiavi {#keys}
 
-Ogni tabella deve avere almeno una chiave e spesso viene stabilita automaticamente nell&#39;elemento principale dello schema utilizzando l&#39;attributo **@autouuid=true** impostato su &quot;true&quot;.
+Ogni tabella deve avere almeno una chiave e spesso viene automaticamente stabilita nell&#39;elemento principale dello schema utilizzando gli attributi **@autouuid** e **autopk** impostati su **true**.
 
 La chiave primaria può essere definita anche utilizzando l&#39;attributo **internal** .
 
