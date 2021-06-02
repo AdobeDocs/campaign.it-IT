@@ -5,10 +5,10 @@ description: Guida introduttiva alle e-mail in Campaign
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: 5762e58aafb11932d0e28d87df84704974c09564
+source-git-commit: dc99c00f68e53a308f8c869f07aa93baed3a5129
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 4%
+source-wordcount: '604'
+ht-degree: 5%
 
 ---
 
@@ -24,71 +24,58 @@ Crea e-mail personalizzate e contestualmente pertinenti, coerenti con il resto d
 
 ![](assets/new-email-content.png)
 
-[!DNL :arrow_upper_right:] [Scopri come creare una consegna e-mail nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/use-case--creating-an-email-delivery.html)
 
+Nell’esempio seguente, imparerai a progettare una consegna e-mail in Adobe Campaign che contiene dati personalizzati, collegamenti a un URL esterno e un collegamento alla pagina speculare.
 
-Nell’esempio seguente, vengono descritti i passaggi necessari per progettare una consegna e-mail in Adobe Campaign che contiene dati personalizzati, collegamenti a un URL esterno, un collegamento alla pagina speculare e un collegamento a un modulo web.
-
-1. Creare la consegna
+1. **Creare la consegna**
 
    Per creare una nuova consegna, passa alla scheda **Campagne** , fai clic su **Consegne** e fai clic sul pulsante **Crea** sopra l’elenco delle consegne esistenti.
 
    ![](assets/delivery_step_1.png)
 
-1. Selezionare il modello
+1. **Selezionare il modello**
 
    Seleziona un modello di consegna, quindi assegna un nome alla consegna. Questo nome sarà visibile solo agli utenti della console Adobe Campaign e non ai destinatari, tuttavia questa intestazione verrà visualizzata nell’elenco delle consegne. Fai clic su **[!UICONTROL Continue]**.
 
    ![](assets/dce_delivery_model.png)
 
-1. Importare il contenuto
+1. **Importare il contenuto**
 
    Fai clic sulla scheda **Origine** per incollare il contenuto HTML.
 
    ![](assets/paste-content.png)
 
 
-1. Personalizzare il messaggio
+1. **Personalizzare il messaggio**
 
 
-   * Visualizza il nome e il secondo nome dei destinatari
+   * Aggiungi il nome e il cognome dei destinatari
 
-      Per inserire il nome e il nome dei destinatari in un campo di testo nella consegna, fai clic sul campo di testo scelto, quindi posiziona il cursore nel punto in cui desideri visualizzarli. Fai clic sulla prima icona nella barra degli strumenti a comparsa, quindi fai clic su **[!UICONTROL Personalization block]**. Seleziona **[!UICONTROL Greetings]**, quindi fai clic su **[!UICONTROL OK]**.
+      Per inserire il nome e il cognome dei profili di destinazione nel contenuto del messaggio, posiziona il cursore nel punto in cui desideri inserirli, quindi fai clic sull’ultima icona nella barra degli strumenti, quindi fai clic su **[!UICONTROL Include]** e seleziona **[!UICONTROL Greetings]**.
 
-   * Inserire un collegamento in un’immagine
+      ![](assets/include-greetings.png)
 
-      Per portare i destinatari a un indirizzo esterno tramite un’immagine, fai clic sull’immagine corrispondente per visualizzare la barra degli strumenti a comparsa, posiziona il cursore sulla prima icona e fai clic su **[!UICONTROL Link to an external URL]**.
+      Passa alla scheda Anteprima per controllare la personalizzazione selezionando un destinatario.
+
+      ![](assets/perso-check.png)
+
+   * Inserire un collegamento tracciato
+
+      Per indirizzare i destinatari a un indirizzo esterno tramite un’immagine o un testo, selezionalo e fai clic sull’icona **[!UICONTROL Add a link]** nella barra degli strumenti.
 
       Immetti l&#39;URL del collegamento nel campo **URL** utilizzando il seguente formato **https://www.myURL.com**, quindi conferma.
 
-      Il collegamento può essere modificato in qualsiasi momento utilizzando la sezione a destra della finestra.
-
-   * Inserire un collegamento nel testo
-
-      Per integrare un collegamento esterno nel testo della consegna, seleziona un testo o un blocco di testo, quindi fai clic sulla prima icona nella barra degli strumenti a comparsa. Fai clic su **[!UICONTROL Link to an external URL]**, immetti l’indirizzo del collegamento nel campo **[!UICONTROL URL]** .
-
-      Il collegamento può essere modificato in qualsiasi momento utilizzando la sezione a destra della finestra.
+      ![](assets/add-a-link.png)
 
    * Aggiungere una pagina speculare
 
-      Per consentire ai destinatari di visualizzare il contenuto della consegna in un browser Web, puoi integrare nella consegna un collegamento a una pagina speculare.
+      Per consentire ai destinatari di visualizzare il contenuto della consegna in un browser web, aggiungi un collegamento alla pagina speculare del messaggio.
 
-      Fare clic sul campo di testo in cui si desidera visualizzare il collegamento pubblicato. Fai clic sulla prima icona nella barra degli strumenti a comparsa, seleziona **[!UICONTROL Personalization block]**, quindi **[!UICONTROL Link to Mirror Page (MirrorPage)]**. Fai clic su **[!UICONTROL Save]** per confermare.
-
-   * Integrare un collegamento a un’applicazione Web
-
-      L’editor di contenuti digitali consente di integrare i collegamenti alle applicazioni Web dalla console Adobe Campaign, ad esempio una pagina di destinazione o una pagina del modulo.
-
-      Selezionare un campo di testo per il collegamento a un&#39;applicazione Web, quindi fare clic sulla prima icona. Scegli **[!UICONTROL Link to a Web application]**, quindi seleziona l&#39;applicazione desiderata facendo clic sull&#39;icona alla fine del campo **Applicazione web**.
-
-1. Inviare messaggi
-
-   Una volta integrato il contenuto, salva la consegna facendo clic su **Salva**. Ora verrà visualizzato nell’elenco delle consegne, disponibile nella scheda **[!UICONTROL Campaigns > Deliveries]** .
+      Posizionare il cursore nel punto in cui si desidera inserire il collegamento e fare clic sull&#39;ultima icona nella barra degli strumenti, quindi fare clic su **[!UICONTROL Include]** e selezionare **[!UICONTROL link to mirror page]**.
+   Quando il contenuto è pronto, fai clic su **Salva**: verrà ora visualizzato nell’elenco delle consegne, nella scheda **[!UICONTROL Campaigns > Deliveries]** . La tua prima consegna e-mail è pronta. Ora devi definire il pubblico, convalidare la consegna e inviarla.
 
 
-## Creare contenuti e selezionare il pubblico
-
-Puoi creare direttamente in Campaign o importare il pubblico, nonché il contenuto dell’e-mail. Utilizza i collegamenti seguenti per scoprire come:
+Ulteriori informazioni sono disponibili nelle seguenti sezioni della documentazione di Campaign Classic v7:
 
 * Progettazione di un’e-mail in Campaign
    [!DNL :arrow_upper_right:] [Scopri come progettare un’e-mail](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-the-email-content.html)
