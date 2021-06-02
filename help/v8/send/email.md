@@ -5,9 +5,9 @@ description: Guida introduttiva alle e-mail in Campaign
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: d1e96b1311d9de24ceb918230186cd3cad609ab2
+source-git-commit: 5762e58aafb11932d0e28d87df84704974c09564
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '790'
 ht-degree: 4%
 
 ---
@@ -77,7 +77,7 @@ Nell’esempio seguente, vengono descritti i passaggi necessari per progettare u
 
    * Integrare un collegamento a un’applicazione Web
 
-      L’editor di contenuti digitali consente di integrare i collegamenti alle applicazioni Web dalla console Adobe Campaign, ad esempio una pagina di destinazione o una pagina del modulo. Per ulteriori informazioni, consulta [Collegamento a un&#39;applicazione Web](../../web/using/editing-content.md#link-to-a-web-application).
+      L’editor di contenuti digitali consente di integrare i collegamenti alle applicazioni Web dalla console Adobe Campaign, ad esempio una pagina di destinazione o una pagina del modulo.
 
       Selezionare un campo di testo per il collegamento a un&#39;applicazione Web, quindi fare clic sulla prima icona. Scegli **[!UICONTROL Link to a Web application]**, quindi seleziona l&#39;applicazione desiderata facendo clic sull&#39;icona alla fine del campo **Applicazione web**.
 
