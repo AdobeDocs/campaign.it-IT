@@ -2,9 +2,9 @@
 product: Adobe Campaign
 title: 'Gestione delle chiavi in Campaign '
 description: Guida introduttiva alla gestione delle chiavi
-source-git-commit: 08c1f2fbe79845fe54670e25ac4a63ab65517513
+source-git-commit: 9a1c44f74f6558f0397617353f3e78186fb15717
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Adobe campaign v8 viene fornito con Snowflake come database di base. L’archite
 
 Per preservare la coerenza relazionale del database, è obbligatorio evitare duplicati sulle chiavi e in particolare sulle chiavi primarie. I duplicati sulle chiavi primarie generano problemi con le attività del flusso di lavoro di gestione dei dati come **Query**, **Riconciliazione**, **Aggiorna dati** e altro ancora.
 
-Adobe Campaign propone potenti strumenti di gestione dei dati per riconciliare i dati, assicurarsi di inserire o aggiornare i dati in base alla loro presenza nel database (**Riconciliazione**) e rimuovere i duplicati prima di acquisire i dati (**Deduplicazione**). Come best practice, Adobe consiglia di adottare una strategia [Rileva](#detect-duplicates) e [Correggi](#correct-duplicates) come parte del processo di gestione dei dati complessivo, nel caso in cui nel database siano state caricate chiavi duplicate.
+Come best practice, Adobe consiglia di adottare una strategia [Rileva](#detect-duplicates) e [Correggi](#correct-duplicates) come parte del processo di gestione dei dati complessivo, nel caso in cui nel database siano state caricate chiavi duplicate.
 
 ## Rileva duplicati{#detect-duplicates}
 
