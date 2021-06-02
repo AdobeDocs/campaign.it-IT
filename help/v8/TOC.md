@@ -6,10 +6,10 @@ description: Documentazione di Campaign v8
 breadcrumb-title: Campaign v8
 title: Documenti di Campaign v8
 hide: true
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 40b38168a3704f171f1f389e2d232e6a2c6f1d85
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 83%
+source-wordcount: '201'
+ht-degree: 81%
 
 ---
 
@@ -83,6 +83,7 @@ ht-degree: 83%
    + [Modello dati](dev/datamodel.md)
    + Schemi e moduli {#shemas-forms}
       + [Utilizzare gli schemi](dev/schemas.md)
+      + [Gestione delle chiavi e unicità](dev/keys.md)
       + [Creare schemi](dev/create-schema.md)
       + [Estendere gli schemi](dev/extend-schema.md)
       + [Struttura dello schema](dev/schema-structure.md)
