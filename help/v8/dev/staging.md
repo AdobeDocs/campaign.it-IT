@@ -5,7 +5,7 @@ description: Meccanismo di staging API di Campaign
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 2%
@@ -20,7 +20,7 @@ La funzionalità di staging della campagna è abilitata per impostazione predefi
 
 * La struttura dello schema dati viene duplicata nella tabella di staging locale
 * Nuove API dedicate per l’inserimento dei dati scorrono direttamente nella tabella di staging locale. [Ulteriori informazioni](new-apis.md)
-* Un flusso di lavoro pianificato viene attivato ogni ora e sincronizza nuovamente i dati con il database cloud. [Ulteriori informazioni](../config/replication.md).
+* Un flusso di lavoro pianificato viene attivato ogni ora e sincronizza nuovamente i dati con il database cloud. [Ulteriori informazioni](../config/replication.md)
 
 Alcuni schemi incorporati sono impostati per impostazione predefinita, ad esempio nmsSubscriptionRcp, nmsAppSubscriptionRcp, nmsRecipient.
 
