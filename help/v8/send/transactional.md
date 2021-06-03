@@ -5,9 +5,9 @@ description: Guida introduttiva ai messaggi transazionali
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: 41ea85bc3c616ed7cdd0718ff3368aab971a5352
+source-git-commit: 726e8d3ba00481237af2765e2f339d755f4e6a01
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1477'
 ht-degree: 1%
 
 ---
@@ -219,7 +219,7 @@ Una volta pubblicato un modello di messaggio sulle istanze di esecuzione, puoi a
 
 Per annullare la pubblicazione di un modello di messaggio sulle transazioni, segui i passaggi riportati di seguito.
 
-1. Nell&#39;istanza di controllo, passare alla cartella **[!UICONTROL Message Center > Transactional message templates]** della struttura ad albero.
+1. Nell’istanza di controllo, individua la cartella **[!UICONTROL Message Center > Transactional message templates]** .
 1. Seleziona il modello da annullare la pubblicazione.
 1. Fai clic su **[!UICONTROL Unpublish]**.
 1. Fai clic su **[!UICONTROL Start]**.
