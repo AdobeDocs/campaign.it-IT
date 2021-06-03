@@ -2,9 +2,9 @@
 product: Adobe Campaign
 title: Estendere gli schemi di Campaign
 description: Scopri come estendere gli schemi di Campaign
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '254'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ I passaggi chiave per personalizzare il modello dati di Campaign sono i seguenti
 >[!CAUTION]
 >Lo schema predefinito non deve essere modificato direttamente. Se è necessario adattare uno schema incorporato, è necessario estenderlo.
 
-[!DNL :bulb:] Per una migliore comprensione delle tabelle integrate di Campaign e della loro interazione, consulta  [questa pagina](datamodel.md).
+[!DNL :bulb:] Per una migliore comprensione delle tabelle integrate di Campaign e della loro interazione, consulta  [questa pagina](datamodel.md). Vedi anche consigli durante la creazione di un nuovo schema in [questa pagina](create-schema.md).
 
 Per estendere uno schema, segui i passaggi seguenti:
 
@@ -43,7 +43,7 @@ Per estendere uno schema, segui i passaggi seguenti:
 
    ![](assets/extend-schema-edit.png)
 
-   Nell&#39;esempio seguente, aggiungiamo l&#39;attributo MembershipYear, inseriamo un limite di lunghezza per il cognome (questo limite sovrascrive quello predefinito) e rimuoviamo la data di nascita dallo schema incorporato.
+   Nell&#39;esempio seguente, aggiungiamo l&#39;attributo **MembershipYear** , inseriamo un limite di lunghezza per il cognome (questo limite sovrascrive quello predefinito) e rimuoviamo la data di nascita dallo schema incorporato.
 
    ![](assets/extend-schema-sample.png)
 
