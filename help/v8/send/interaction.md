@@ -5,7 +5,7 @@ description: Guida introduttiva alla gestione delle offerte
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 1%
@@ -28,19 +28,19 @@ I passaggi chiave da avviare sono elencati di seguito.
 
 Prima di iniziare, in qualità di Campaign **Amministratore**, assicurati di aver eseguito le seguenti attività negli ambienti di progettazione:
 
-1. Creare profili utente. [Ulteriori informazioni](interaction-operators.md).
+1. Creare profili utente. [Ulteriori informazioni](interaction-operators.md)
 1. (facoltativo) Crea un ambiente di offerta per ogni dimensione di targeting. [Ulteriori informazioni](interaction-env.md)
-1. Crea regole di tipologia per ogni ambiente. [Ulteriori informazioni](interaction-offer.md#offer-presentation).
-1. Crea spazi di offerta per ogni ambiente e configura funzioni di rendering. [Ulteriori informazioni](interaction-offer-spaces.md).
-Se lo spazio è definito da un canale unitario in modalità identificata, è necessario specificare i parametri avanzati per questo spazio.
+1. Crea regole di tipologia per ogni ambiente. [Ulteriori informazioni](interaction-offer.md#offer-presentation)
+1. Crea spazi di offerta per ogni ambiente e configura funzioni di rendering. [Ulteriori ](interaction-offer-spaces.md)
+informazioniSe lo spazio è definito da un canale unitario in modalità identificata, è necessario specificare i parametri avanzati per questo spazio.
 
 ### Crea e pubblica il catalogo delle offerte {#managing-the-offer-catalog-}
 
 In qualità di **Gestione offerte** devi eseguire le seguenti attività:
 
-1. Crea categorie di offerte in ambienti di progettazione. [Ulteriori informazioni](interaction-offer-catalog.md#creating-offer-categories).
-1. Creare offerte in ambienti di progettazione. [Ulteriori informazioni](interaction-offer.md).
-1. Approva e pubblica offerte su uno o più spazi per renderli disponibili in ambienti live per il gestore delle consegne. [Ulteriori informazioni](interaction-offer.md#approve-offers).
+1. Crea categorie di offerte in ambienti di progettazione. [Ulteriori informazioni](interaction-offer-catalog.md#creating-offer-categories)
+1. Creare offerte in ambienti di progettazione. [Ulteriori informazioni](interaction-offer.md)
+1. Approva e pubblica offerte su uno o più spazi per renderli disponibili in ambienti live per il gestore delle consegne. [Ulteriori informazioni](interaction-offer.md#approve-offers)
 
 ### Utilizzo del catalogo delle offerte {#using-the-offer-catalog-}
 
@@ -57,7 +57,7 @@ Scopri i termini specifici dell’offerta e le relative indicazioni prima di ini
 * **** Gli ambienti includono un catalogo di offerte e spazi di offerta (hook). È necessario creare un ambiente mediante il targeting della dimensione.
 Esistono due tipi di ambienti:
 
-   * **Ambiente** di progettazione: le offerte vengono create nell’ambiente di progettazione, nonché nelle regole di tipologia e . Le regole di tipologia determinano le offerte da presentare (o meno) a una persona di destinazione. In questo ambiente viene inoltre definita la tabella dei singoli utenti interessati dalle offerte e la tabella per la memorizzazione di tutte le proposte di offerta. Il nodo **[!UICONTROL Design environment]** contiene sottocartelle per lo spazio di offerta, filtri predefiniti e categorie di offerte. Per ogni **[!UICONTROL Design environment]** esiste una **[!UICONTROL Live environment]** di sola lettura corrispondente, generata dallo stesso **[!UICONTROL Design environment]**.
+   * **Ambiente** di progettazione: le offerte vengono create nell’ambiente di progettazione, nonché nelle regole di tipologia e . Le regole di tipologia determinano le offerte da presentare (o meno) a una persona di destinazione. In questo ambiente viene inoltre definita la tabella dei singoli utenti interessati dalle offerte e la tabella per la memorizzazione di tutte le proposte di offerta. Il nodo **[!UICONTROL Design environment]** contiene sottocartelle per lo spazio disponibile, filtri predefiniti e categorie di offerte. Per ogni **[!UICONTROL Design environment]** esiste una **[!UICONTROL Live environment]** di sola lettura corrispondente, generata dallo stesso **[!UICONTROL Design environment]**.
    * **Ambiente** live: ambiente collegato a un  **[!UICONTROL Design environment]** che contiene offerte di sola lettura il cui contenuto e idoneità sono stati approvati tramite  **[!UICONTROL Design environment]**. Devono essere selezionati per essere inseriti in un messaggio.
 
 * La **Area offerte** è una posizione (cartella) che definisce la posizione in cui viene esposta l&#39;offerta. Quando crei uno spazio di offerta, puoi specificare il canale, generare il contenuto dell’offerta utilizzando le funzioni di rendering, specificare l’ordine delle offerte e la relativa modalità: modalità unitaria e/o modalità batch (impostazione predefinita). Lo spazio di offerta è l’interfaccia tra il canale e il motore di offerta.
