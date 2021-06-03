@@ -6,9 +6,9 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-source-git-commit: 38ea3e82fca6299b067d6843424d4ccb92213d00
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '805'
 ht-degree: 44%
 
 ---
@@ -35,7 +35,7 @@ In qualità di utente [!DNL Campaign Classic], tieni presente che la maggior par
 
 Questo è un cambiamento fondamentale nell’architettura del software. Adesso i dati sono remoti e Campaign unisce tutti i dati, inclusi i profili. [!DNL Campaign]I processi di ora vengono scalati in modalità end-to-end, dal targeting all’esecuzione dei messaggi: in genere l’acquisizione dei dati, la segmentazione, il targeting, le query e le consegne vengono eseguite in pochi minuti. Questa nuova versione risolve l’intera sfida della scalabilità mantenendo lo stesso livello di flessibilità ed estensibilità. Il numero di profili è quasi illimitato e la conservazione dei dati può essere estesa.
 
-L&#39;archiviazione cloud viene eseguita in **[!DNL Snowflake]**: un nuovo account **esterno** integrato garantisce la connettività con il database cloud. È configurato da Adobe e non deve essere modificato. [Ulteriori informazioni](../config/external-accounts.md).
+L&#39;archiviazione cloud viene eseguita in **[!DNL Snowflake]**: un nuovo account **esterno** integrato garantisce la connettività con il database cloud. È configurato da Adobe e non deve essere modificato. [Ulteriori informazioni](../config/external-accounts.md)
 
 Qualsiasi schema/tabella integrata che deve essere spostata o replicata in Cloud Database viene fornita con un’estensione integrata dello schema nello spazio dei nomi **xxl** . Tali estensioni contengono eventuali modifiche necessarie per spostare gli schemi incorporati dal database locale [!DNL Campaign] al database [!DNL Snowflake] Cloud e per adattare di conseguenza la loro struttura: nuovo UUID, collegamenti aggiornati, ecc.
 
@@ -66,8 +66,7 @@ Tieni presente che questo ID è basato su stringhe e non sequenziale. La chiave 
 
 Nelle versioni Campaign Classic v7 e precedenti, l’unicità di una chiave all’interno di uno schema (ovvero una tabella) viene gestita a livello di motore del database. Più in generale, i motori di database classici come PostgreSQL, Oracle o SQL Server includono un meccanismo nativo per impedire l&#39;inserimento di righe duplicate basate su una colonna o su un set di colonne tramite chiavi primarie e/o indici univoci. L&#39;ID duplicato non esiste in queste versioni quando l&#39;indice e le chiavi primarie sono impostati correttamente a livello di database.
 
-Adobe campaign v8 viene fornito con Snowflake come database di base. Poiché aumenta notevolmente la scala delle query, l&#39;architettura distribuita del database di Snowflake non fornisce tali meccanismi per gestire e quindi applicare l&#39;unicità di una chiave all&#39;interno di una tabella. Di conseguenza, con Adobe Campaign v8, nulla impedisce l’inserimento di chiavi duplicate in una tabella. Gli utenti finali sono ora responsabili di garantire la coerenza delle chiavi all&#39;interno del database Adobe Campaign. [Ulteriori informazioni](../dev/keys.md).
-
+Adobe campaign v8 viene fornito con Snowflake come database di base. Poiché aumenta notevolmente la scala delle query, l&#39;architettura distribuita del database di Snowflake non fornisce tali meccanismi per gestire e quindi applicare l&#39;unicità di una chiave all&#39;interno di una tabella. Di conseguenza, con Adobe Campaign v8, nulla impedisce l’inserimento di chiavi duplicate in una tabella. Gli utenti finali sono ora responsabili di garantire la coerenza delle chiavi all&#39;interno del database Adobe Campaign. [Ulteriori informazioni](../dev/keys.md)
 
 ### Manutenzione semplificata
 
@@ -84,6 +83,7 @@ Tieni presente che alcune funzionalità non sono disponibili in questa prima ver
 * Gestione della risposta
 * Modelli di distribuzione on-premise/ibrida
 * Messaggi LINE
+* Pannello di controllo Campaign
 
 >[!CAUTION]
 >
