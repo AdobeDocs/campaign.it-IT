@@ -6,7 +6,7 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 7bb480eb69aa92e8876acaf2322e532dbb2f1f96
+source-git-commit: a7309c9ec735f958f038c6ea4e702c99c726f8bd
 workflow-type: tm+mt
 source-wordcount: '1096'
 ht-degree: 0%
@@ -135,10 +135,13 @@ Per ulteriori informazioni, consulta la pagina [Profili di prodotto per Adobe An
 
 1. Dalla finestra **[!UICONTROL Configure Analytics integration]** , mappa il tuo account esterno con la suite di rapporti creata in precedenza, fornendo le seguenti informazioni:
 
+   ![](assets/analytics_connector_0.png)
+
    * **[!UICONTROL E-Mail]**
    * **[!UICONTROL IMS Org]**
    * **[!UICONTROL Analytics Company]**
    * **[!UICONTROL Report Suite]**
+
 
 1. Dalla categoria **[!UICONTROL eVars]** , mappa i due **[!UICONTROL Conversion variables]** configurati in [!DNL Adobe Analytics].
 
