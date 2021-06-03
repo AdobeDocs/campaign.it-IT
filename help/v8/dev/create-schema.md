@@ -2,7 +2,7 @@
 product: Adobe Campaign
 title: Creare un nuovo schema in Campaign
 description: Scopri come creare un nuovo schema in Campaign
-source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 2%
@@ -25,7 +25,7 @@ La scheda **[!UICONTROL Edit]** mostra il contenuto XML di uno schema:
 
 >[!NOTE]
 >
->Il controllo di modifica &quot;Nome&quot; consente di inserire la chiave dello schema composta dal nome e dallo spazio dei nomi. Gli attributi &quot;name&quot; e &quot;namespace&quot; dell’elemento principale dello schema vengono aggiornati automaticamente nella zona di modifica XML dello schema. Alcuni namespace sono interni solo. [Ulteriori informazioni](schemas.md#reserved-namespaces).
+>Il controllo di modifica &quot;Nome&quot; consente di inserire la chiave dello schema composta dal nome e dallo spazio dei nomi. Gli attributi &quot;name&quot; e &quot;namespace&quot; dell’elemento principale dello schema vengono aggiornati automaticamente nella zona di modifica XML dello schema. Alcuni namespace sono interni solo. [Ulteriori informazioni](schemas.md#reserved-namespaces)
 
 La scheda **[!UICONTROL Preview]** genera automaticamente lo schema esteso:
 
