@@ -5,9 +5,9 @@ description: Scopri come creare spazi di offerta
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '611'
 ht-degree: 3%
 
 ---
@@ -54,7 +54,7 @@ Per creare un nuovo spazio di offerta, effettua le seguenti operazioni:
 
    Queste funzioni vengono utilizzate per generare rappresentazioni di offerte su uno spazio di offerta. Esistono diversi formati possibili: HTML o testo.
 
-   **Nota** : il formato XML è limitato alle interazioni in entrata temporaneamente non disponibili. [Ulteriori informazioni](../start/capability-matrix.md#gs-unavailable-features)
+   **Nota** : il formato XML è limitato alle interazioni in entrata non disponibili in questa versione del prodotto. [Ulteriori informazioni](../start/capability-matrix.md#gs-unavailable-features)
 
    ![](assets/offer_space_create_006.png)_
 
