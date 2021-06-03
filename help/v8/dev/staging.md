@@ -5,21 +5,21 @@ description: Meccanismo di staging API di Campaign
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 3%
+source-wordcount: '312'
+ht-degree: 2%
 
 ---
 
 # Meccanismo di staging API di Campaign
 
-Con il database Campaign Cloud, le chiamate unitarie non sono consigliate a causa delle prestazioni (latenza e concorrenza). L&#39;operazione batch è sempre preferita. Per garantire prestazioni ottimali delle API, Campaign continua a gestire le chiamate API a livello di database locale.
+Con il database di Campaign Cloud, non si consiglia di eseguire una notifica univoca per quanto riguarda le prestazioni (latenza e concorrenza). L’operazione di batch è sempre preferibile. Per migliorare le prestazioni, le API di acquisizione vengono reindirizzate al database locale.
 
-Il meccanismo di gestione temporanea delle campagne è disponibile sia per le tabelle integrate che per quelle personalizzate e presenta i seguenti vantaggi:
+La funzionalità di staging della campagna è abilitata per impostazione predefinita su alcuni schemi incorporati. Possiamo anche abilitarlo su qualsiasi schema personalizzato. Meccanismo di staging in sintesi:
 
-* La struttura dello schema dati viene replicata nella tabella di staging locale
-* Le nuove API per l’acquisizione scorrono direttamente nella tabella di staging. [Ulteriori informazioni](new-apis.md)
+* La struttura dello schema dati viene duplicata nella tabella di staging locale
+* Nuove API dedicate per l’inserimento dei dati scorrono direttamente nella tabella di staging locale. [Ulteriori informazioni](new-apis.md)
 * Un flusso di lavoro pianificato viene attivato ogni ora e sincronizza nuovamente i dati con il database cloud. [Ulteriori informazioni](../config/replication.md).
 
 Alcuni schemi incorporati sono impostati per impostazione predefinita, ad esempio nmsSubscriptionRcp, nmsAppSubscriptionRcp, nmsRecipient.
@@ -28,7 +28,13 @@ Le API di Campaign Classic v7 sono ancora disponibili ma non possono beneficiare
 
 >[!CAUTION]
 >
->Con questo nuovo meccanismo, la sincronizzazione dei dati per gli abbonamenti, gli annullamenti degli abbonamenti o la registrazione mobile è ora **asincrona**.
+>* Con questo nuovo meccanismo, la sincronizzazione dei dati per l&#39;optout del canale, gli abbonamenti, gli annullamenti degli abbonamenti o la registrazione mobile è ora **asincrona**.
+   >
+   >
+* Lo staging si applica solo agli schemi memorizzati nel database cloud. Non abilitare lo staging sugli schemi replicati. Non abilitare lo staging sugli schemi locali. Non abilitare la gestione temporanea su uno schema in fase
+
+>
+
 
 
 ## Passaggi di implementazione{#implement-staging}
