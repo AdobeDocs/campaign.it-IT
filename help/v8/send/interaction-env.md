@@ -5,7 +5,7 @@ description: Creare operatori di gestione delle offerte
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 1%
@@ -31,7 +31,7 @@ Per impostazione predefinita, Campaign viene fornito con un ambiente **[!UICONTR
 
 ![](assets/offer_environments_overview_002.png)
 
-I responsabili della distribuzione possono visualizzare solo l’ ambiente **[!UICONTROL Live]** e sfruttare le offerte per consegnarle. I responsabili delle offerte possono visualizzare e utilizzare l’ambiente **[!UICONTROL Design]** e visualizzare l’ambiente **[!UICONTROL Live]**. [Ulteriori informazioni](interaction-operators.md).
+I responsabili della distribuzione possono visualizzare solo l’ ambiente **[!UICONTROL Live]** e sfruttare le offerte per consegnarle. I responsabili delle offerte possono visualizzare e utilizzare l’ambiente **[!UICONTROL Design]** e visualizzare l’ambiente **[!UICONTROL Live]**. [Ulteriori informazioni](interaction-operators.md)
 
 ## Creare un ambiente di offerta {#creating-an-offer-environment}
 
