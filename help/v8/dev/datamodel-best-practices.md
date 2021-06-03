@@ -2,7 +2,7 @@
 product: Adobe Campaign
 title: Best practice per i modelli di dati
 description: Scopri le best practice per l’estensione del modello dati di Campaign
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 726e8d3ba00481237af2765e2f339d755f4e6a01
 workflow-type: tm+mt
 source-wordcount: '2681'
 ht-degree: 4%
@@ -66,7 +66,6 @@ Per garantire una buona architettura e prestazioni del sistema, segui le best pr
 ### Scelta dei campi {#choice-of-fields}
 
 Un campo deve essere memorizzato in una tabella se ha uno scopo di targeting o personalizzazione. In altre parole, se un campo non viene utilizzato per inviare un’e-mail personalizzata o come criterio in una query, occuperà inutilmente spazio su disco.
-
 
 ### Scelta dei tasti {#choice-of-keys}
 
