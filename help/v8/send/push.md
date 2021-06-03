@@ -5,7 +5,7 @@ description: Guida introduttiva alla notifica push in Campaign
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 1%
@@ -54,4 +54,4 @@ Devi definire le impostazioni delle app iOS e Android in Adobe Campaign.
 
 >[!CAUTION]
 >
->Con la registrazione mobile v8 di Campaign ora è **asincrono**. [Ulteriori informazioni](../dev/staging.md).
+>Con la registrazione mobile v8 di Campaign ora è **asincrono**. [Ulteriori informazioni](../dev/staging.md)
