@@ -2,9 +2,9 @@
 product: Adobe Campaign
 title: Best practice per i modelli di dati
 description: Scopri le best practice per l’estensione del modello dati di Campaign
-source-git-commit: 726e8d3ba00481237af2765e2f339d755f4e6a01
+source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
 workflow-type: tm+mt
-source-wordcount: '2681'
+source-wordcount: '2683'
 ht-degree: 4%
 
 ---
@@ -93,7 +93,7 @@ Nella tabella seguente sono descritti questi identificatori e il loro scopo.
 | Nome (o nome interno) | <ul><li>Queste informazioni sono un identificatore univoco di un record in una tabella. Questo valore può essere aggiornato manualmente, in genere con un nome generato.</li><li>Questo identificatore mantiene il suo valore quando viene distribuito in un’istanza diversa di Adobe Campaign e non deve essere vuoto.</li></ul> | <ul><li>Rinomina il nome del record generato da Adobe Campaign se l’oggetto deve essere distribuito da un ambiente a un altro.</li><li>Quando un oggetto dispone di un attributo namespace (*schema* ad esempio), questo spazio dei nomi comune verrà utilizzato in tutti gli oggetti personalizzati creati. Alcuni spazi dei nomi riservati non devono essere utilizzati: *nms*, *xtk*, ecc.  Alcuni namespace sono interni solo. [Ulteriori informazioni](schemas.md#reserved-namespaces).</li><li>Quando un oggetto non dispone di uno spazio dei nomi (*workflow* o *delivery* ad esempio), questa nozione di spazio dei nomi viene aggiunta come prefisso di un oggetto nome interno: *namespaceMyObjectName*.</li><li>Non utilizzare caratteri speciali come lo spazio &quot;&quot;, la semicolonna &quot;:&quot; o il trattino &quot;-&quot;. Tutti questi caratteri verranno sostituiti da un carattere di sottolineatura &quot;_&quot; (carattere consentito). Ad esempio, &quot;abc-def&quot; e &quot;abc:def&quot; vengono memorizzati come &quot;abc_def&quot; e si sovrascrivono a vicenda.</li></ul> |
 | Etichetta | <ul><li>L’etichetta è l’identificatore aziendale di un oggetto o record in Adobe Campaign.</li><li>Questo oggetto consente spazi e caratteri speciali.</li><li>Non garantisce l&#39;unicità di un documento.</li></ul> | <ul><li>È consigliabile determinare una struttura per le etichette degli oggetti.</li><li>Questa è la soluzione più semplice da usare per identificare un record o un oggetto per un utente Adobe Campaign.</li></ul> |
 
-La chiave primaria di Adobe Campaign è un UUID generato automaticamente per tutte le tabelle integrate. Un UUID può essere utilizzato anche per le tabelle personalizzate.
+La chiave primaria di Adobe Campaign è un UUID generato automaticamente per tutte le tabelle integrate. Un UUID può essere utilizzato anche per le tabelle personalizzate. [Ulteriori informazioni](keys.md)
 
 Anche se il numero di ID è infinito, ti devi occupare delle dimensioni del database per garantire prestazioni ottimali. Per evitare qualsiasi problema, assicurati di regolare le impostazioni di eliminazione dell’istanza. Per ulteriori informazioni, consulta [questa sezione](#data-retention).
 
