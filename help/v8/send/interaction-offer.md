@@ -5,7 +5,7 @@ description: Scopri come creare un’offerta
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 3%
@@ -50,7 +50,7 @@ A questo scopo, fai clic sul collegamento **[!UICONTROL Edit query]** e selezion
 
 ![](assets/offer_eligibility_create_003.png)
 
-Se sono già stati creati filtri predefiniti, puoi selezionarli dall’elenco dei filtri utente. [Ulteriori informazioni](interaction-predefined-filters.md).
+Se sono già stati creati filtri predefiniti, puoi selezionarli dall’elenco dei filtri utente. [Ulteriori informazioni](interaction-predefined-filters.md)
 
 ![](assets/offer_eligibility_create_004.png)
 
@@ -64,7 +64,7 @@ Ad esempio, un&#39;offerta può avere un peso di A per i contatti di età compre
 
 >[!NOTE]
 >
->Il peso assegnato può essere temporaneamente modificato in base ai parametri della categoria a cui appartiene l’offerta. [Ulteriori informazioni](interaction-offer-catalog.md#creating-offer-categories).
+>Il peso assegnato può essere temporaneamente modificato in base ai parametri della categoria a cui appartiene l’offerta. [Ulteriori informazioni](interaction-offer-catalog.md#creating-offer-categories)
 
 Per creare un peso in un’offerta, esegui i seguenti passaggi:
 
@@ -140,7 +140,7 @@ Utilizza la scheda **[!UICONTROL Content]** per definire il contenuto dell’off
 
    ![](assets/offer_content_create_002.png)
 
-   Per trovare i campi obbligatori così come sono stati definiti durante la configurazione dello spazio di offerta, fai clic sul collegamento **[!UICONTROL Content definitions]** per visualizzare l’elenco. [Ulteriori informazioni](interaction-offer-spaces.md).
+   Per trovare i campi obbligatori così come sono stati definiti durante la configurazione dello spazio di offerta, fai clic sul collegamento **[!UICONTROL Content definitions]** per visualizzare l’elenco. [Ulteriori informazioni](interaction-offer-spaces.md)
 
    ![](assets/offer_content_create_003.png)
 
