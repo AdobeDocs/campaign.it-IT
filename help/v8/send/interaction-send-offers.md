@@ -5,7 +5,7 @@ description: Scopri come creare un catalogo di offerte
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '1276'
 ht-degree: 2%
@@ -40,11 +40,11 @@ Per inserire le proposte di offerta in una consegna, effettua le seguenti operaz
 
    ![](assets/offer_delivery_005.png)
 
-1. Se necessario, seleziona l’opzione **[!UICONTROL Exclude non-eligible recipients]** . [Ulteriori informazioni](#parameters-for-calling-offer-engine).
+1. Se necessario, seleziona l’opzione **[!UICONTROL Exclude non-eligible recipients]** . [Ulteriori informazioni](#parameters-for-calling-offer-engine)
 
    ![](assets/offer_delivery_006.png)
 
-1. Se necessario, seleziona l’opzione **[!UICONTROL Do not display anything if no offers are selected]** . [Ulteriori informazioni](#parameters-for-calling-offer-engine).
+1. Se necessario, seleziona l’opzione **[!UICONTROL Do not display anything if no offers are selected]** . [Ulteriori informazioni](#parameters-for-calling-offer-engine)
 
    ![](assets/offer_delivery_007.png)
 
@@ -110,7 +110,7 @@ Dopo aver configurato l&#39;attività **Query**:
 
       ![](assets/int_enrichment_offer4.png)
 
-1. Quindi configura un’attività di consegna corrispondente al canale scelto. [Ulteriori informazioni](#offer-into-a-delivery).
+1. Quindi configura un’attività di consegna corrispondente al canale scelto. [Ulteriori informazioni](#offer-into-a-delivery)
 
    >[!NOTE]
    >
@@ -132,7 +132,7 @@ Per farlo, segui la procedura indicata di seguito:
 
    ![](assets/int_enrichment_link2.png)
 
-1. Quindi configura un’attività di consegna corrispondente al canale scelto. [Ulteriori informazioni](#offer-into-a-delivery).
+1. Quindi configura un’attività di consegna corrispondente al canale scelto. [Ulteriori informazioni](#offer-into-a-delivery)
 
    >[!NOTE]
    >
@@ -148,7 +148,7 @@ Per impostazione predefinita, quando un&#39;attività **Enrichment** viene utili
 
 Tuttavia, è possibile memorizzare queste informazioni come segue:
 
-1. Crea una chiamata al motore di offerta in un’attività di arricchimento inserita dopo una query e prima di un’attività di consegna. [Ulteriori informazioni](#specifying-an-offer-or-a-call-to-the-offer-engine).
+1. Crea una chiamata al motore di offerta in un’attività di arricchimento inserita dopo una query e prima di un’attività di consegna. [Ulteriori informazioni](#specifying-an-offer-or-a-call-to-the-offer-engine)
 1. Nella finestra principale dell’attività, seleziona **[!UICONTROL Edit additional data...]**.
 
    ![](assets/ita_enrichment_rankweight_1.png)
@@ -182,7 +182,7 @@ Dopo aver configurato l&#39;attività **Query**:
 
    ![](assets/int_offerengine_activity1.png)
 
-1. Quindi configura un’attività di consegna corrispondente al canale scelto. [Ulteriori informazioni](#inserting-an-offer-proposition-into-a-delivery).
+1. Quindi configura un’attività di consegna corrispondente al canale scelto. [Ulteriori informazioni](#inserting-an-offer-proposition-into-a-delivery)
 
 ### Offerte per cella {#offers-by-cell}
 
