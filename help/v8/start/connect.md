@@ -6,9 +6,9 @@ feature: Tipi di pubblico
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 03585f0c1514a80b0b0cba5a2d05fa3f44398405
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '799'
 ht-degree: 5%
 
 ---
@@ -117,6 +117,16 @@ Adobe Campaign può essere configurato in modo che l&#39;utente possa accedere a
 Alcune parti dell&#39;applicazione sono accessibili tramite un semplice browser web che utilizza un&#39;interfaccia utente HTML: Dashboard di Campaign, reporting per cubo, monitoraggio delle istanze e altro ancora.
 
 [!DNL :arrow_upper_right:] Ulteriori informazioni sull’accesso Web nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#console-and-web-access)
+
+L’accesso Web fornisce un’interfaccia simile alla console, ma con un set ridotto di funzionalità.
+
+Ad esempio, per un determinato operatore, nella console verrà visualizzata una campagna con le seguenti opzioni:
+
+![](assets/campaign-from-console.png)
+
+Mentre con l&#39;accesso Web, le opzioni consentono principalmente la visualizzazione:
+
+![](assets/campaign-from-web.png)
 
 Nel processo di convalida viene utilizzato anche l’accesso Web: gli operatori possono fare clic sull’e-mail di richiesta di approvazione e connettersi a Campaign tramite il proprio browser web per convalidare o rifiutare un contenuto o un budget di consegna.
 
