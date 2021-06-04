@@ -6,9 +6,9 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 36e29801bcc95565c32e51742a23d4d74d4e3049
+source-git-commit: 6a22bdd563bb0be26df12ce8d2b6da266d16f2e3
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
@@ -157,9 +157,9 @@ Per ulteriori informazioni, consulta la pagina [Profili di prodotto per Adobe An
 
    ![](assets/analytics_connnector_12.png)
 
-1. Se necessario, puoi aggiungere o rimuovere segmenti dalla scheda **[!UICONTROL Update Segments]** .
-
-   ![](assets/analytics_connnector_12a.png)
+   >[!NOTE]
+   >
+   > Non puoi aggiungere o rimuovere segmenti in questa versione di Campaign v8.
 
 1. Dal **[!UICONTROL External account]**, fai clic sul collegamento **[!UICONTROL Enrich the formula...]** per modificare la formula di calcolo dell’URL per specificare le informazioni sull’integrazione dello strumento di analisi web (ID campagna) e i domini dei siti di cui è necessario tenere traccia dell’attività.
 
