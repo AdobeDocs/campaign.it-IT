@@ -5,9 +5,9 @@ description: Guida introduttiva alle e-mail in Campaign
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: dc99c00f68e53a308f8c869f07aa93baed3a5129
+source-git-commit: e65750c4e9ebd0367f0430455cac2cc6502ade7e
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '605'
 ht-degree: 5%
 
 ---
@@ -107,7 +107,7 @@ Puoi:
 
 ## Monitorare le e-mail
 
-Dopo l’invio, controlla lo stato di consegna nel dashboard di consegna e accedi ai registri di consegna e ai rapporti di conferma del corretto invio dei messaggi.
+Una volta inviata, controlla lo stato di consegna nel Dashboard di consegna e accedi ai registri di consegna e ai rapporti per confermare che i messaggi sono stati inviati correttamente.
 
 [!DNL :arrow_upper_right:] [Ulteriori informazioni nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html)
 
