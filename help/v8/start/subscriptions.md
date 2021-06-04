@@ -5,7 +5,7 @@ description: Scopri come gestire gli abbonamenti e i loro annullamenti in Campai
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: f69d318b4ea767c44f8c19bf0cf45fb1b7001b11
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 0%
@@ -21,6 +21,8 @@ Utilizza Adobe Campaign per creare e monitorare i tuoi servizi informativi, come
 Per abbonarti (opt-in) a un profilo di un servizio, le opzioni disponibili sono:
 
 * Aggiungi manualmente il servizio al profilo destinatario: a questo scopo, dalla scheda **[!UICONTROL Subscriptions]** del profilo, fai clic su **[!UICONTROL Add]** e seleziona il servizio informazioni interessato.
+
+   ![](assets/subscribe-to-a-service.png)
 
    [!DNL :arrow_upper_right:] Ulteriori informazioni nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#deliveries-tab)
 
