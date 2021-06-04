@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;argomenti principali
 description: Centro risorse di Campaign v8
 title: Documentazione di prodotto di Adobe Campaign v8
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: 48aa738c81a811ccf314ca9cc710c34a685060c5
+source-git-commit: f266172e6b0e14aedd0029025260c42977cf467f
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 74%
+source-wordcount: '96'
+ht-degree: 62%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 74%
 
 * **[Linee guida per l’implementazione](start/implement.md)**: scopri come avviare l’implementazione
 
-* **[Dalla versione 7 alla versione v8](start/capability-matrix.md)**: transizione da Campaign Classic v7 a v8? Scopri le differenze principali
+* **[Da v7 a v8](start/capability-matrix.md)**  - Transizione da Campaign Classic v7 a Campaign v8? Scopri le differenze principali
 
 ## Introduzione
 
