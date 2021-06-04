@@ -6,7 +6,7 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: a7309c9ec735f958f038c6ea4e702c99c726f8bd
+source-git-commit: 36e29801bcc95565c32e51742a23d4d74d4e3049
 workflow-type: tm+mt
 source-wordcount: '1096'
 ht-degree: 0%
@@ -135,8 +135,6 @@ Per ulteriori informazioni, consulta la pagina [Profili di prodotto per Adobe An
 
 1. Dalla finestra **[!UICONTROL Configure Analytics integration]** , mappa il tuo account esterno con la suite di rapporti creata in precedenza, fornendo le seguenti informazioni:
 
-   ![](assets/analytics_connector_0.png)
-
    * **[!UICONTROL E-Mail]**
    * **[!UICONTROL IMS Org]**
    * **[!UICONTROL Analytics Company]**
@@ -160,6 +158,8 @@ Per ulteriori informazioni, consulta la pagina [Profili di prodotto per Adobe An
    ![](assets/analytics_connnector_12.png)
 
 1. Se necessario, puoi aggiungere o rimuovere segmenti dalla scheda **[!UICONTROL Update Segments]** .
+
+   ![](assets/analytics_connnector_12a.png)
 
 1. Dal **[!UICONTROL External account]**, fai clic sul collegamento **[!UICONTROL Enrich the formula...]** per modificare la formula di calcolo dell’URL per specificare le informazioni sull’integrazione dello strumento di analisi web (ID campagna) e i domini dei siti di cui è necessario tenere traccia dell’attività.
 
