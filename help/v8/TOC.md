@@ -5,8 +5,7 @@ user-guide-title: Campaign v8
 description: Documentazione di Campaign v8
 breadcrumb-title: Campaign v8
 title: Documenti di Campaign v8
-hide: true
-source-git-commit: 40b38168a3704f171f1f389e2d232e6a2c6f1d85
+source-git-commit: 35814053bff993d0b130bf598c8601c3f5adc407
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 81%
