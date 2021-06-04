@@ -5,9 +5,9 @@ description: Scopri come gestire gli abbonamenti e i loro annullamenti in Campai
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: f69d318b4ea767c44f8c19bf0cf45fb1b7001b11
+source-git-commit: 4cdf1b30584088d1c5de301d89c6d09bf5429ca1
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,13 @@ Per abbonarti (opt-in) a un profilo di un servizio, le opzioni disponibili sono:
 
    [!DNL :arrow_upper_right:] Ulteriori informazioni nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#deliveries-tab)
 
-* Iscriviti automaticamente al servizio un set di destinatari. L’elenco dei destinatari può provenire da un’operazione di filtro, da un gruppo, da una cartella, da un’importazione o da una selezione diretta manuale. Per sottoscrivere questi destinatari, seleziona i profili e fai clic con il pulsante destro del mouse su di essi. Selezionare **[!UICONTROL Actions > Subscribe selection to a service...]**, selezionare il servizio interessato e avviare l&#39;operazione.
+* Iscriviti automaticamente al servizio un set di destinatari. L’elenco dei destinatari può provenire da un’operazione di filtro, da un gruppo, da una cartella, da un’importazione o da una selezione diretta manuale. Per sottoscrivere questi destinatari, seleziona i profili e fai clic con il pulsante destro del mouse su di essi. Seleziona **[!UICONTROL Actions > Subscribe selection to a service...]**.
+
+   ![](assets/subscribe-selection.png)
+
+   Selezionare il servizio interessato e avviare l&#39;operazione.
+
+   ![](assets/subscribe-confirm.png)
 
    [!DNL :arrow_upper_right:] Ulteriori informazioni nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#deliveries-tab)
 
@@ -37,13 +43,20 @@ Per abbonarti (opt-in) a un profilo di un servizio, le opzioni disponibili sono:
 
 * Utilizza un modulo web per consentire ai destinatari di iscriversi a un servizio.
 
+   ![](assets/opt-in-webapp.png)
+
+   Campaign viene fornito con un modulo web predefinito per gestire l’opt-in. Puoi personalizzarlo e mappare i dati del profilo.
+
+   ![](assets/web-app.png)
+
    [!DNL :arrow_upper_right:] Ulteriori informazioni nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=en#create-a-subscription--form-with-double-opt-in)
 
 
 * Crea un flusso di lavoro di targeting e utilizza un’attività **[!UICONTROL Subscription service]** .
 
-   [!DNL :arrow_upper_right:] Ulteriori informazioni nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/subscription-services.html?lang=en#example--subscribe-a-list-of-recipients-to-a-newsletter)
+   ![](assets/wf-subscription.png)
 
+   [!DNL :arrow_upper_right:] Ulteriori informazioni nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/subscription-services.html?lang=en#example--subscribe-a-list-of-recipients-to-a-newsletter)
 
 Per annullare l’abbonamento (opt-out) a un profilo da un servizio, le opzioni disponibili sono:
 
@@ -56,7 +69,7 @@ Per annullare l’abbonamento (opt-out) a un profilo da un servizio, le opzioni 
 **Annullamento automatico della sottoscrizione**
 
 * Specifica un limite di durata del servizio informazioni: i destinatari verranno automaticamente annullati alla scadenza del periodo di validità. Questo periodo è specificato nella scheda Modifica delle proprietà del servizio. Viene espresso in giorni.
-* Imposta un flusso di lavoro di annullamento dell’abbonamento per una popolazione
+* Imposta un flusso di lavoro di annullamento dell’abbonamento per una popolazione.
 
 [!DNL :arrow_upper_right:] Ulteriori informazioni nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html?lang=en#unsubscribing-a-recipient-from-a-service)
 
