@@ -5,7 +5,7 @@ description: Guida introduttiva all’SMS in Campaign
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: 04f9d80e26fab372a1819590f8e79298c7a69ab5
+source-git-commit: 35814053bff993d0b130bf598c8601c3f5adc407
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 3%
@@ -51,9 +51,9 @@ Inoltre, devi avere familiarità con il protocollo e le impostazioni SMS. Segui 
 
    ![](assets/sms-template-list.png)
 
-   [!DNL :arrow_upper_right:] Scopri come creare un account esterno SMPP nella documentazione di  [Campaign Classic v7](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#creating-an-smpp-external-account)
+   [!DNL :arrow_upper_right:] Scopri come creare un account esterno SMPP nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#creating-an-smpp-external-account)
 
-   [!DNL :arrow_upper_right:] Scopri come creare un modello di consegna da distribuire ai dispositivi mobili nella documentazione di  [Campaign Classic v7](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#changing-the-delivery-template)
+   [!DNL :arrow_upper_right:] Scopri come creare un modello di consegna da distribuire ai dispositivi mobili nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#changing-the-delivery-template)
 
 1. Identifica la consegna con un’etichetta, un codice e una descrizione.
 
