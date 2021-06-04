@@ -5,10 +5,10 @@ description: Guida introduttiva alla notifica push in Campaign
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+source-git-commit: c6f1cfdec3d05a81f8885cc73b370723024f858f
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 1%
+source-wordcount: '594'
+ht-degree: 0%
 
 ---
 
@@ -49,9 +49,78 @@ Devi definire le impostazioni delle app iOS e Android in Adobe Campaign.
 
 ## Creare la prima notifica push
 
-[!DNL :arrow_upper_right:] Scopri come creare le prime notifiche push nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/creating-notifications.html?lang=en#sending-notifications-on-ios)
+Questa sezione descrive gli elementi specifici per la consegna delle notifiche iOS e Android.
 
+[!DNL :arrow_upper_right:] Tutti i passaggi per creare le notifiche push sono descritti in dettaglio nella documentazione di  [Campaign Classic v7 .](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/creating-notifications.html?lang=en#sending-notifications-on-ios)
 
 >[!CAUTION]
 >
->Con la registrazione mobile v8 di Campaign ora è **asincrono**. [Ulteriori informazioni](../dev/staging.md)
+>Con Campaign v8, la registrazione mobile è ora **asincrona**. [Ulteriori informazioni](../dev/staging.md)
+
+Per creare una nuova consegna, passa alla scheda **[!UICONTROL Campaigns]** , fai clic su **[!UICONTROL Deliveries]** e fai clic sul pulsante **[!UICONTROL Create]** sopra l’elenco delle consegne esistenti.
+
+![](assets/delivery_step_1.png)
+
+### Invio di notifiche su iOS {#sending-notifications-on-ios}
+
+1. Seleziona il modello di consegna **[!UICONTROL Deliver on iOS]** e fai clic su **[!UICONTROL Continue]**.
+
+   ![](assets/push-template-ios.png)
+
+1. Per definire la destinazione della notifica, fai clic sul collegamento **[!UICONTROL To]** , quindi fai clic su **[!UICONTROL Add]**.
+
+   ![](assets/push-ios-select-target.png)
+
+1. Seleziona **[!UICONTROL Subscribers of an iOS mobile application (iPhone, iPad)]**, seleziona il servizio pertinente alla tua app mobile, quindi seleziona la versione iOS dell&#39;applicazione.
+
+   ![](assets/push-ios-subscribers.png)
+
+1. Seleziona il tipo di notifica: **[!UICONTROL Alert]**, **[!UICONTROL Badge]**, **[!UICONTROL Alert and badge]** o **[!UICONTROL Silent Push]**.
+
+   ![](assets/push-ios-alert.png)
+
+1. Nel campo **[!UICONTROL Title]** , immetti l’etichetta del titolo che desideri visualizzare nella notifica.
+
+1. Immetti i valori **[!UICONTROL Message]** e **[!UICONTROL Value of the badge]** in base al tipo di notifica scelto.
+
+1. Il **[!UICONTROL Action button]** ti consente di definire un’etichetta per il pulsante di azione visualizzato nel campo notifiche di avviso (**action_loc_key** del payload).
+
+1. Nel campo **[!UICONTROL Play a sound]** , seleziona il suono che deve essere riprodotto dal terminale mobile quando viene ricevuta la notifica.
+
+1. Nel campo **[!UICONTROL Application variables]** , immetti il valore di ciascuna variabile. Ad esempio, puoi configurare una schermata specifica dell’applicazione da visualizzare quando l’utente attiva la notifica.
+
+1. Una volta configurata la notifica, fai clic sulla scheda **[!UICONTROL Preview]** per visualizzare l’anteprima della notifica.
+
+   ![](assets/push-ios-preview.png)
+
+### Invio di notifiche su Android {#sending-notifications-on-android}
+
+1. Seleziona il modello di consegna **[!UICONTROL Deliver on Android (android)]**.
+
+   ![](assets/push-template-android.png)
+
+1. Per definire la destinazione della notifica, fai clic sul collegamento **[!UICONTROL To]** , quindi fai clic su **[!UICONTROL Add]**.
+
+   ![](assets/nmac_delivery_android_2.png)
+
+1. Seleziona **[!UICONTROL Subscribers of an Android mobile application]**, scegli il servizio pertinente alla tua app mobile (in questo caso Neotrips), quindi seleziona la versione Android dell&#39;applicazione.
+
+   ![](assets/push-android-select-target.png)
+
+1. Quindi inserisci il contenuto della notifica.
+
+   ![](assets/push-android-content.png)
+
+1. Fai clic sull’icona **[!UICONTROL Insert emoticon]** per inserire gli emoticon nella notifica push.
+
+1. Nel campo **[!UICONTROL Application variables]** , immetti il valore di ciascuna variabile. Ad esempio, puoi configurare una schermata specifica dell’applicazione da visualizzare quando l’utente attiva la notifica.
+
+1. Una volta configurata la notifica, fai clic sulla scheda **[!UICONTROL Preview]** per visualizzare l’anteprima della notifica.
+
+   ![](assets/push-android-preview.png)
+
+## Test, invio e monitoraggio delle notifiche push
+
+Per inviare una bozza e la consegna finale, utilizza lo stesso processo delle consegne e-mail.
+
+Dopo aver inviato i messaggi, puoi monitorare e tenere traccia delle consegne.
