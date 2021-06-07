@@ -6,9 +6,9 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: 95ed0369-7215-496b-8e11-fe264c436488,e7931de5-83ce-431d-ae81-83793d257550
-source-git-commit: 93b690d815f73d11de7de90b92ae188082a3e9e4
+source-git-commit: 46f013dc18e504d490084a6d911b4772ce0fac2e
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Adobe Campaign fornisce un set di strumenti di reporting elencati in questa pagi
 
    A seconda della complessità delle query, dei calcoli e dei volumi, i dati analizzati in questi rapporti possono essere raccolti tramite una query e preaggregati in un elenco (flusso di lavoro del tipo di gestione dei dati) o in un cubo (tramite Marketing Analytics). Viene visualizzato sotto forma di tabella pivot o di elenco di gruppi.
 
-   [!DNL :arrow_upper_right:] Scopri come creare un riquadro nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/designing-reports-with-cubes/about-cubes.html)
+   [!DNL :arrow_upper_right:] Scopri come creare cubi nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/designing-reports-with-cubes/about-cubes.html)
 
 
 I rapporti di Adobe Campaign sono ottimizzati e offrono funzionalità su scala migliore rispetto a Campaign Classic v7. Le limitazioni esistenti sui cubi non si applicano.
