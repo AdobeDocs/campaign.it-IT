@@ -6,10 +6,10 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: 95ed0369-7215-496b-8e11-fe264c436488,e7931de5-83ce-431d-ae81-83793d257550
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 93b690d815f73d11de7de90b92ae188082a3e9e4
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 1%
+source-wordcount: '367'
+ht-degree: 0%
 
 ---
 
@@ -17,24 +17,44 @@ ht-degree: 1%
 
 ## Introduzione alla generazione di rapporti{#gs-ac-reports}
 
-Adobe Campaign fornisce una serie di strumenti di reporting:
+Adobe Campaign fornisce un set di strumenti di reporting elencati in questa pagina.
 
-* **Report**
-incorporatiAdobe Campaign offre una serie di rapporti su consegne, campagne, attività piattaforma, funzionalità facoltative, ecc. Tali rapporti sono disponibili tramite le varie funzionalità a cui si riferiscono. Possono essere adattati alle tue esigenze specifiche.
+* **Report incorporati**
 
-* **Analisi descrittiva dei datiAdobe Campaign fornisce uno strumento visivo per la produzione di statistiche sui dati nel database.**
-Puoi creare rapporti di analisi descrittivi utilizzando un assistente dedicato e adattarne il contenuto e il layout in base alle tue esigenze.
+   Adobe Campaign viene fornito con rapporti su consegne, campagne, attività di piattaforma, funzionalità facoltative, ecc. Tali rapporti sono disponibili tramite le varie funzionalità a cui si riferiscono. Possono essere adattati alle tue esigenze specifiche.
 
-* **Rapporti personalizzatiAdobe Campaign ti consente di creare rapporti sui dati nel database.**
-Una volta create, queste sono rese accessibili nei contesti appropriati.
+   Utilizza la scheda **Rapporti** per accedere a questi rapporti.
 
-* ****
-CubiAnalizza e misura i dati, calcola le statistiche, semplifica e ottimizza la creazione e il calcolo dei rapporti con Cubi.  È possibile estendere le capacità di esplorazione e analisi del database e semplificare la configurazione di report e tabelle da parte degli utenti finali: è sufficiente selezionare un cubo esistente (completamente configurato) durante la creazione del rapporto o della tabella per elaborare calcoli, misure e statistiche.
+   ![](assets/built-in-reports.png)
 
-A seconda della complessità delle query, dei calcoli e dei volumi, i dati analizzati in questi rapporti possono essere raccolti tramite una query e preaggregati in un elenco (flusso di lavoro del tipo di gestione dei dati) o in un cubo (tramite Marketing Analytics). Viene visualizzato sotto forma di tabella pivot o di elenco di gruppi.
+   [!DNL :arrow_upper_right:] I rapporti incorporati di Campaign sono presentati nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/accessing-built-in-reports/about-campaign-built-in-reports.html)
 
+* **Analisi dei dati descrittivi**
 
-[!DNL :arrow_upper_right:] Per ulteriori informazioni sulle funzionalità di reporting,  [consulta questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reporting-in-adobe-campaign/about-adobe-campaign-reporting-tools.html).
+   Adobe Campaign fornisce uno strumento visivo per la produzione di statistiche sui dati nel database. Puoi creare rapporti di analisi descrittivi utilizzando un assistente dedicato e adattarne il contenuto e il layout in base alle tue esigenze.
+
+   Utilizza il menu **[!UICONTROL Tools > Descriptive analysis...]** per creare un nuovo rapporto.
+
+   ![](assets/desc-analysis-report.png)
+
+   [!DNL :arrow_upper_right:] Il reporting dell’analisi descrittiva della campagna è presentato nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html)
+
+* **Rapporti personalizzati**
+
+   Utilizza Adobe Campaign per creare rapporti sui dati nel database. Una volta creati, rendili accessibili nei contesti appropriati.
+
+   [!DNL :arrow_upper_right:] I passaggi per creare un rapporto sono descritti in dettaglio nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html). La creazione di rapporti personalizzati è riservata agli utenti avanzati.
+
+* **Cubi**
+
+   Analizzare e misurare i dati, calcolare le statistiche, semplificare e ottimizzare la creazione e il calcolo dei rapporti con Cubi.  È possibile estendere le capacità di esplorazione e analisi del database e semplificare la configurazione di report e tabelle da parte degli utenti finali: è sufficiente selezionare un cubo esistente (completamente configurato) durante la creazione del rapporto o della tabella per elaborare calcoli, misure e statistiche.
+
+   ![](assets/create-a-report.png)
+
+   A seconda della complessità delle query, dei calcoli e dei volumi, i dati analizzati in questi rapporti possono essere raccolti tramite una query e preaggregati in un elenco (flusso di lavoro del tipo di gestione dei dati) o in un cubo (tramite Marketing Analytics). Viene visualizzato sotto forma di tabella pivot o di elenco di gruppi.
+
+   [!DNL :arrow_upper_right:] Scopri come creare un riquadro nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/designing-reports-with-cubes/about-cubes.html)
+
 
 I rapporti di Adobe Campaign sono ottimizzati e offrono funzionalità su scala migliore rispetto a Campaign Classic v7. Le limitazioni esistenti sui cubi non si applicano.
 
