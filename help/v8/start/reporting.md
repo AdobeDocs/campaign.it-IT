@@ -6,7 +6,7 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: 95ed0369-7215-496b-8e11-fe264c436488,e7931de5-83ce-431d-ae81-83793d257550
-source-git-commit: 46f013dc18e504d490084a6d911b4772ce0fac2e
+source-git-commit: 983b3cfc2f1569cd071848805e6b6b3411b4d6c6
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Adobe Campaign fornisce un set di strumenti di reporting elencati in questa pagi
 
 * **Cubi**
 
-   Analizzare e misurare i dati, calcolare le statistiche, semplificare e ottimizzare la creazione e il calcolo dei rapporti con Cubi.  È possibile estendere le capacità di esplorazione e analisi del database e semplificare la configurazione di report e tabelle da parte degli utenti finali: è sufficiente selezionare un cubo esistente (completamente configurato) durante la creazione del rapporto o della tabella per elaborare calcoli, misure e statistiche.
+   Analizzare e misurare i dati, calcolare le statistiche, semplificare e ottimizzare la creazione e il calcolo dei rapporti con Cubi.  Puoi estendere le capacità di esplorazione e analisi del database e semplificare la configurazione di report e tabelle da parte degli utenti finali. È sufficiente selezionare un cubo esistente (completamente configurato) durante la creazione del rapporto o della tabella per elaborare calcoli, misure e statistiche.
 
    ![](assets/create-a-report.png)
 
