@@ -1,15 +1,15 @@
 ---
 product: Adobe Campaign
-title: Introduzione alle campagne di marketing
-description: Introduzione alle campagne di marketing
+title: Collegare Campaign alle tue soluzioni
+description: scopri come collegare Campaign alle tue soluzioni
 feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 03cc90222cc8f64e820856382a00c92bf3f92c41
+source-git-commit: 8b31e24e0b6cfb699179e62366bc6706e9019382
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 13%
+source-wordcount: '361'
+ht-degree: 10%
 
 ---
 
