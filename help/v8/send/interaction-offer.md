@@ -5,9 +5,9 @@ description: Scopri come creare un’offerta
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+source-git-commit: 9cb1b38456601bce21d458fea42a5c112d9fafb4
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '921'
 ht-degree: 3%
 
 ---
@@ -196,4 +196,4 @@ Il modulo Simulazione consente di verificare la distribuzione delle offerte appa
 
 La simulazione tiene conto dei contesti e delle regole di idoneità precedentemente applicati alle offerte e alle relative regole di presentazione. Questo ti consente di testare e perfezionare diverse versioni della proposta di offerta senza utilizzare effettivamente un’offerta o sollecitare più o meno una destinazione, poiché la simulazione non ha alcun impatto sui destinatari target.
 
-[!DNL :arrow_upper_right:] Per ulteriori informazioni sulla simulazione delle offerte, consulta la documentazione di  [Campaign Classic v7 .](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.htm)
+[!DNL :arrow_upper_right:] Per ulteriori informazioni sulla simulazione delle offerte, consulta la documentazione di  [Campaign Classic v7 .](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html?lang=en)
