@@ -8,7 +8,7 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: ee0ea4c1e086ee579e63e391683cc8e896d09f0b
+source-git-commit: 170a80942aff9951859646942657938e206959fe
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Per integrare l’SDK di Campaign nell’app mobile, l’amministratore funziona
 
 * **In Android**:
 
-   ```
+   ```sql
    Neolane.getInstance().setIntegrationKey("your Adobe mobile app integration key");
    Neolane.getInstance().setMarketingHost("https://yourMarketingHost:yourMarketingPort/");
    Neolane.getInstance().setTrackingHost("https://yourTrackingHost:yourTrackingPort/"); 
@@ -49,7 +49,7 @@ Per integrare l’SDK di Campaign nell’app mobile, l’amministratore funziona
 
 * **In iOS**:
 
-   ```
+   ```sql
    Neolane_SDK *nl = [Neolane_SDK getInstance];
    [nl setMarketingHost:strMktHost];
    [nl setTrackingHost:strTckHost];
@@ -84,7 +84,7 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione di Google
 
    Prima di usare l&#39;SDK per Android, è necessario inizializzarlo. L&#39;inizializzazione dell&#39;SDK può essere eseguita nella funzione `onCreate` di un&#39;attività.
 
-   ```
+   ```sql
    /** Called when the activity is first created. */
    @Override
    public void onCreate(Bundle savedInstanceState)
@@ -112,7 +112,7 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione di Google
 
    Devi registrare il dispositivo su Adobe Campaign, all&#39;inizializzazione dell&#39;app o all&#39;azione dell&#39;utente. Può essere facilmente fatto utilizzando il metodo `registerDevice` .
 
-   ```
+   ```sql
    public void onClick(View v)
    {
    SharedPreferences settings = this.context.getSharedPreferences(YourApplicationActivity.APPLICATION_PREF_NAME, Context.MODE_PRIVATE);
@@ -127,7 +127,7 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione di Google
 
    YourApplicationActivity.java
 
-   ```
+   ```sql
    public static void registerOnNeolane(final Context ctx, String registrationId, String userKey)
    {
        NeolaneAsyncRunner neolaneAs = new NeolaneAsyncRunner(Neolane.getInstance());
@@ -188,7 +188,7 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione di Google
 
    YourApplicationFirebaseInstanceIDService.java
 
-   ```
+   ```sql
    package com.android.YourApplication;
    
    import android.content.Context;
@@ -225,7 +225,7 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione di Google
 
    YourApplicationMessagingService.java
 
-   ```
+   ```sql
    package com.android.YourApplication;
    
    import android.content.Context;
@@ -270,7 +270,7 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione di Google
 
    Per Campaign Android SDK v1.1.1
 
-   ```
+   ```sql
    public static void handleNotification(Context context, String message, String title, String url, String messageId, String deliveryId, Bundle extras)
    {
        if( message == null ) message = "No Content";
@@ -330,7 +330,7 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione di Google
 
    Per Campaign Android SDK v1.1.1
 
-   ```
+   ```sql
    public class NotificationActivity extends Activity {
        public void onCreate(Bundle savedBundle) {
            [...]
@@ -359,12 +359,13 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione di Google
            }
        }
    }
-   
+   ```
+
 1. **Tracciare aperture e clic sui messaggi di notifica**
 
    Per i messaggi di notifica, è necessario eseguire il tracciamento di apertura/clic con la funzione `notifyOpening` all’interno dell’attività di avvio dell’applicazione, come segue:
 
-   ```
+   ```sql
    /** Called when the activity is first created. */
    @Override
    public void onCreate(Bundle savedInstanceState)
@@ -373,7 +374,7 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione di Google
    
        SharedPreferences settings = getSharedPreferences(NeoTripActivity.APPLICATION_PREF_NAME, Context.MODE_PRIVATE);
    
-       // initialize Neolane sdk
+       // initialize Campaign SDK
        Neolane.getInstance().setIntegrationKey(settings.getString(NeoTripActivity.APPUUID_NAME, NeoTripActivity.DFT_APPUUID));
        Neolane.getInstance().setMarketingHost(settings.getString(NeoTripActivity.SOAPRT_NAME, NeoTripActivity.DFT_SOAPRT));
        Neolane.getInstance().setTrackingHost(settings.getString(NeoTripActivity.TRACKRT_NAME, NeoTripActivity.DFT_TRACKRT));
@@ -429,7 +430,7 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione di Google
 
    YourApplicationMessagingService.java
 
-   ```
+   ```sql
    package com.android.YourApplication;
    
    import android.content.Context;
@@ -472,7 +473,7 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione di Google
    }
    ```
 
-   ```
+   ```sql
    public static void handleNotification(Context context, String message, String title, String url, String messageId, String deliveryId, Bundle extras){
        .....
        .....
@@ -500,7 +501,7 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione di Google
 
    Deve essere eseguito contemporaneamente al tracciamento aperto/clic.
 
-   ```
+   ```sql
    /** Called when the activity is first created. */
        @Override
        public void onCreate(Bundle savedInstanceState)
@@ -564,7 +565,7 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione di Google
    * invia l&#39;ID di notifica o l&#39;ID push (deviceToken per iOS e registrationID per Android) ad Adobe Campaign.
    * recuperare la chiave di riconciliazione o userKey (ad esempio il numero di e-mail o account)
 
-   ```
+   ```sql
    // Callback called on successful registration to the APNs
     - (void)application:(UIApplication*)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData*)deviceToken
    {
@@ -576,18 +577,18 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione di Google
 
 1. **Abilita funzione di tracciamento**
 
-La funzione di tracciamento ti consente di tenere traccia di quando vengono attivate le notifiche (si apre).
+   La funzione di tracciamento ti consente di tenere traccia di quando vengono attivate le notifiche (si apre).
 
-```
-(void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)launchOptions
-fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
-{
-if( launchOptions ) { // Retrieve notification parameters here ... // Track application opening Neolane_SDK
-*nl = [Neolane_SDK getInstance]; [nl track:launchOptions:NL_TRACK_CLICK]; } 
-...  
-completionHandler(UIBackgroundFetchResultNoData);
-}
-```
+   ```sql
+   (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)launchOptions
+   fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
+   {
+   if( launchOptions ) { // Retrieve notification parameters here ... // Track application opening Neolane_SDK
+   *nl = [Neolane_SDK getInstance]; [nl track:launchOptions:NL_TRACK_CLICK]; } 
+   ...  
+   completionHandler(UIBackgroundFetchResultNoData);
+   }
+   ```
 
 1. **Tracciamento delle notifiche silenziose**
 
@@ -595,7 +596,7 @@ completionHandler(UIBackgroundFetchResultNoData);
 
    Per tenere traccia della notifica silenziosa, segui l’esempio seguente:
 
-   ```
+   ```sql
    // AppDelegate.m
    ...
    ...
@@ -610,7 +611,7 @@ completionHandler(UIBackgroundFetchResultNoData);
    if (launchOptions) NSLog(@"IN launchOptions: %@", [launchOptions description]);
    NSLog(@"Application state: %ld", (long)application.applicationState);
    
-   // Silent Notification (specific case, can use NL_TRACK_RECEIVE as the user doesn't have click/open the notification)
+   // Silent Notification (specific case, can use NL_TRACK_RECEIVE as the user does not have click/open the notification)
    if ([launchOptions[@"aps"][@"content-available"] intValue] == 1 )
        {
    NSLog(@"Silent Push Notification");
@@ -629,13 +630,13 @@ completionHandler(UIBackgroundFetchResultNoData);
    }
    ```
 
-1. Configurare lo stato di registrazione
+1. **Configurare lo stato di registrazione**
 
    Il protocollo delegato ti consente di ottenere il risultato della chiamata **registerDevice** e può essere utilizzato per sapere se si è verificato un errore durante la registrazione.
 
    Il prototipo **registerDeviceStatus** è:
 
-   ```
+   ```sql
    - (void) registerDeviceStatus: (ACCRegisterDeviceStatus) status:(NSString *) errorReason;
    ```
 
@@ -687,7 +688,7 @@ completionHandler(UIBackgroundFetchResultNoData);
 
    **Neolane_** SDKDelegateprotocol e  **** registerDeviceStatusdelegate definition è la seguente:
 
-   ```
+   ```sql
    //  Neolane_SDK.h
    //  Campaign SDK
    ..
@@ -721,7 +722,7 @@ completionHandler(UIBackgroundFetchResultNoData);
 
    1. Implementa **setDelegate** durante l&#39;inizializzazione dell&#39;SDK.
 
-      ```
+      ```sql
       // AppDelegate.m
       ...
       ... 
@@ -750,7 +751,7 @@ completionHandler(UIBackgroundFetchResultNoData);
 
    1. Aggiungi il protocollo nel **@interface** della classe .
 
-      ```
+      ```sql
       //  AppDelegate.h
       
       #import <UIKit/UIKit.h>
@@ -772,7 +773,7 @@ completionHandler(UIBackgroundFetchResultNoData);
 
    1. Implementa il delegato in **AppDelegate**.
 
-      ```
+      ```sql
       //  AppDelegate.m
       
       #import "AppDelegate.h"
@@ -832,7 +833,7 @@ Di seguito è riportato un esempio di codice che consente a un’app mobile di r
 
 * **In Android**:
 
-   ```
+   ```sql
    public void onReceive(Context context, Intent intent) {
         ...
        String event = intent.getStringExtra("VAR");
@@ -842,7 +843,7 @@ Di seguito è riportato un esempio di codice che consente a un’app mobile di r
 
 * **In iOS**:
 
-   ```
+   ```sql
    - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
    {
        ....
@@ -880,7 +881,7 @@ Di seguito è riportato un esempio di codice che consente a un’app mobile di r
 
 I file multimediali devono essere scaricati a livello di estensione del servizio di notifica.
 
-```
+```sql
 #import "NotificationService.h"
 
 @interface NotificationService ()
@@ -926,7 +927,7 @@ A questo livello, è necessario:
 
    Devi aggiungere del codice per inviare i dati multimediali al widget. Ecco un esempio di codice per un&#39;immagine:
 
-   ```
+   ```sql
    #import "NotificationViewController.h"
    #import <UserNotifications/UserNotifications.h>
    #import <UserNotificationsUI/UserNotificationsUI.h>
