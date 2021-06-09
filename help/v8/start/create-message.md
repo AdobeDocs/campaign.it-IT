@@ -6,10 +6,10 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 9ecd0af7a6e8e173a89106c84a78de8b2311fef7
+source-git-commit: 9cb1b38456601bce21d458fea42a5c112d9fafb4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '600'
+ht-degree: 68%
 
 ---
 
@@ -55,7 +55,7 @@ Dopo aver creato il messaggio e averne progettato e testato il relativo contenut
 
    [!DNL :arrow_upper_right:] [Scopri come automatizzare le consegne di e-mail](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/delivery.html?lang=it)
 * [Attivare ](../send/transactional.md) messaggi da un evento
-   [!DNL :arrow_upper_right:] [Caso di utilizzo: scopri come inviare un’e-mail transazionale con un allegato](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/use-case/transactional-email-with-attachments.html?lang=it)
+   [!DNL :arrow_upper_right:] [Caso di utilizzo: scopri come inviare un’e-mail transazionale con un allegato](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=en)
 * Pianificare i messaggi
 
    ![](assets/schedule-send.png)
@@ -84,7 +84,7 @@ La messaggistica transazionale (Message Center) è il modulo di Campaign progett
 
 [!DNL :bulb:] I passaggi per configurare e inviare messaggi transazionali sono descritti in [questa pagina](../send/transactional.md)
 
-[!DNL :arrow_upper_right:] Scopri questa funzionalità in un caso d’uso end-to-end nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/use-case/transactional-email-with-attachments.html?lang=it#transactional-messaging)
+[!DNL :arrow_upper_right:] Scopri questa funzionalità in un caso d’uso end-to-end nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=en)
 
 ## Registri di consegna e di tracciamento
 
