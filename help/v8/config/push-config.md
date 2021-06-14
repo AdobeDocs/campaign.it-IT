@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 35fcedd8e4d44bb6c5a97b2a48ff55aa2632947d
+source-git-commit: 68cd7d5a20dafeea3c19f35f5c9547b623319ba2
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1287'
 ht-degree: 1%
 
 ---
@@ -652,6 +652,9 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione di Google
    | ACCRegisterDeviceStatusFailureConnectionIssue | Problema di connessione con ACC | Ulteriori informazioni (nella lingua corrente del sistema operativo) |
    | ACCRegisterDeviceStatusFailureUnknownUUID | L&#39;UUID fornito (chiave di integrazione) è sconosciuto. | VUOTO |
    | ACCRegisterDeviceStatusFailureUnexpectedError | Errore imprevisto restituito al server ACC. | Il messaggio di errore è stato restituito ad ACC. |
+
+
+   {style=&quot;table-layout:auto&quot;}
 
 
    **Neolane_** SDKDelegateprotocol e  **** registerDeviceStatusdelegate definition è la seguente:
