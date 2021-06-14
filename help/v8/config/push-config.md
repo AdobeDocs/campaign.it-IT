@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 170a80942aff9951859646942657938e206959fe
+source-git-commit: 29d6a1545722afa3a07c98de1ab453cdb0a618d2
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1346'
 ht-degree: 1%
 
 ---
@@ -419,9 +419,9 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione di Google
    }
    ```
 
->[!NOTE]
->
-> È necessario eseguire una gestione simile se l’utente utilizza l’opzione `click_action` all’interno dell’attività di destinazione.
+   >[!NOTE]
+   >
+   > È necessario eseguire una gestione simile se l’utente utilizza l’opzione `click_action` all’interno dell’attività di destinazione.
 
 
 1. **Tracciamento della ricezione dei messaggi di dati**
@@ -644,6 +644,15 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione di Google
 
    * **** ErrorReasonfornisce ulteriori informazioni sugli errori che si sono verificati. Per ulteriori informazioni sugli errori disponibili e sulle relative descrizioni, consulta la tabella seguente.
 
+
+      | Stato | Descrizione | ErrorReason |
+      | ---------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
+      | ACCRegisterDeviceStatusSuccess | Registrazione riuscita | VUOTO |
+      | ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty | Il nome host del server di marketing ACC è vuoto o non è impostato. | VUOTO |
+      | ACCRegisterDeviceStatusFailureIntegrationKeyEmpty | La chiave di integrazione è vuota o non impostata. | VUOTO |
+      | ACCRegisterDeviceStatusFailureConnectionIssue | Problema di connessione con ACC | Ulteriori informazioni (nella lingua corrente del sistema operativo) |
+      | ACCRegisterDeviceStatusFailureUnknownUUID | L&#39;UUID fornito (chiave di integrazione) è sconosciuto. | VUOTO |
+      | ACCRegisterDeviceStatusFailureUnexpectedError | Errore imprevisto restituito al server ACC. | Il messaggio di errore è stato restituito ad ACC. |
    <table> 
     <thead>
     <tr>
