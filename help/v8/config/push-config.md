@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 29d6a1545722afa3a07c98de1ab453cdb0a618d2
+source-git-commit: 35fcedd8e4d44bb6c5a97b2a48ff55aa2632947d
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1284'
 ht-degree: 1%
 
 ---
@@ -644,56 +644,15 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione di Google
 
    * **** ErrorReasonfornisce ulteriori informazioni sugli errori che si sono verificati. Per ulteriori informazioni sugli errori disponibili e sulle relative descrizioni, consulta la tabella seguente.
 
+   | Stato | Descrizione | ErrorReason |
+   | ---------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
+   | ACCRegisterDeviceStatusSuccess | Registrazione riuscita | VUOTO |
+   | ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty | Il nome host del server di marketing ACC è vuoto o non è impostato. | VUOTO |
+   | ACCRegisterDeviceStatusFailureIntegrationKeyEmpty | La chiave di integrazione è vuota o non impostata. | VUOTO |
+   | ACCRegisterDeviceStatusFailureConnectionIssue | Problema di connessione con ACC | Ulteriori informazioni (nella lingua corrente del sistema operativo) |
+   | ACCRegisterDeviceStatusFailureUnknownUUID | L&#39;UUID fornito (chiave di integrazione) è sconosciuto. | VUOTO |
+   | ACCRegisterDeviceStatusFailureUnexpectedError | Errore imprevisto restituito al server ACC. | Il messaggio di errore è stato restituito ad ACC. |
 
-      | Stato | Descrizione | ErrorReason |
-      | ---------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
-      | ACCRegisterDeviceStatusSuccess | Registrazione riuscita | VUOTO |
-      | ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty | Il nome host del server di marketing ACC è vuoto o non è impostato. | VUOTO |
-      | ACCRegisterDeviceStatusFailureIntegrationKeyEmpty | La chiave di integrazione è vuota o non impostata. | VUOTO |
-      | ACCRegisterDeviceStatusFailureConnectionIssue | Problema di connessione con ACC | Ulteriori informazioni (nella lingua corrente del sistema operativo) |
-      | ACCRegisterDeviceStatusFailureUnknownUUID | L&#39;UUID fornito (chiave di integrazione) è sconosciuto. | VUOTO |
-      | ACCRegisterDeviceStatusFailureUnexpectedError | Errore imprevisto restituito al server ACC. | Il messaggio di errore è stato restituito ad ACC. |
-   <table> 
-    <thead>
-    <tr>
-    <th> Status<br /> </th>
-    <th> Descrizione<br /> </th>
-    <th> ErrorReason<br /> </th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-    <td> ACCRegisterDeviceStatusSuccess <br /> </td>
-    <td> Registrazione riuscita<br /> </td>
-    <td> EMPTY<br /> </td>
-    </tr>
-    <tr> 
-    <td> ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty <br /> </td>
-    <td> Il nome host del server di marketing ACC è vuoto o non è impostato.<br /> </td>
-    <td> EMPTY<br /> </td>
-    </tr>
-    <tr> 
-    <td> ACCRegisterDeviceStatusFailureIntegrationKeyEmpty <br /> </td>
-    <td> La chiave di integrazione è vuota o non impostata.<br /> </td>
-    <td> EMPTY<br /> </td>
-    </tr>
-    <tr> 
-    <td> ACCRegisterDeviceStatusFailureConnectionIssue<br /> </td>
-    <td> Problema di connessione con ACC<br /> </td>
-    <td> Ulteriori informazioni (nella lingua corrente del sistema operativo)<br /> </td>
-    </tr>
-    <tr> 
-    <td> ACCRegisterDeviceStatusFailureUnknownUUID<br /> </td>
-    <td> L'UUID fornito (chiave di integrazione) è sconosciuto.<br /> </td>
-    <td> EMPTY<br /> </td>
-    </tr>
-    <tr> 
-    <td> ACCRegisterDeviceStatusFailureUnexpectedError<br /> </td>
-    <td> Errore imprevisto restituito al server ACC.<br /> </td>
-    <td> Il messaggio di errore è stato restituito ad ACC.<br /> </td>
-    </tr>
-    </tbody>
-    </table>
 
    **Neolane_** SDKDelegateprotocol e  **** registerDeviceStatusdelegate definition è la seguente:
 
@@ -830,6 +789,7 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione di Google
       }
       @end
       ```
+
 
 
 ## Variabili {#variables}
