@@ -9,13 +9,13 @@ exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d7
 source-git-commit: 1f3af0a9ea29506296710024791511ceafddc824
 workflow-type: tm+mt
 source-wordcount: '640'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
 # Domande frequenti{#faq}
 
-Hai bisogno di assistenza mentre lavori con Campaign? Leggi le principali domande / risposte qui sotto.
+Hai bisogno di assistenza mentre lavori con Campaign? Leggi le principali domande/risposte di seguito.
 
 1. **Come posso aggiornare Campaign alla versione più recente?**
 
@@ -23,25 +23,25 @@ Hai bisogno di assistenza mentre lavori con Campaign? Leggi le principali domand
 
    La frequenza regolare degli aggiornamenti è volta a far ottenere agli utenti il meglio e più recente, mantenendo l’ambiente sicuro e migliorando l’esperienza di utilizzo del prodotto. Per questo motivo riteniamo fondamentale eseguire sempre la versione più recente di Adobe Campaign.
 
-   [!DNL :speech_balloon:] In qualità di utente di Cloud Services gestiti, l’istanza viene aggiornata per Adobe con ogni nuova versione.
+   [!DNL :speech_balloon:] In qualità di utente di Managed Cloud Services, l’istanza viene aggiornata da Adobe con ogni nuova versione.
 
 1. **Come posso collegarmi a Campaign v8?**
 
-   Devi scaricare e installare la console client di Campaign per connetterti ad Adobe Campaign.
+   Per connetterti ad Adobe Campaign, scarica e installa Campaign Client Console.
 
-   [!DNL :bulb:] [Fai clic qui per ulteriori informazioni](connect.md).
+   [!DNL :bulb:] [Per ulteriori informazioni, fai clic qui](connect.md).
 
-1. **Campaign v8 può essere installato in un ambiente on-premise o ibrido?**
+1. **Campaign v8 può essere installato in un ambiente locale o ibrido?**
 
-   Per il momento, Campaign v8 è disponibile solo nei Cloud Services gestiti, interamente ospitato da Adobe.
+   Per il momento, Campaign v8 è disponibile solo in Managed Cloud Services, interamente in hosting gestito da Adobe.
 
 1. **Come migliorare il recapito messaggi e-mail?**
 
-   Il recapito messaggi e-mail, un componente fondamentale per il successo del programma di marketing di ogni mittente, è caratterizzato da criteri e regole in continua evoluzione. Per raggiungere al meglio il pubblico, è necessario ottimizzare regolarmente la strategia e-mail, tenendo conto delle tendenze chiave di recapito messaggi, in questo mondo digitale.
+   Il recapito messaggi e-mail, un componente fondamentale per il successo del programma di marketing di ogni mittente, è caratterizzato da criteri e regole in continua evoluzione. Per orientarsi nel mondo digitale e raggiungere al meglio i vari tipi di pubblico, è necessario ottimizzare regolarmente la strategia e-mail tenendo conto delle tendenze chiave di recapito messaggi.
 
-   [!DNL :arrow_upper_right:] Fai riferimento a questa guida per scoprire le best practice per la  [consegna](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=it).
+   [!DNL :arrow_upper_right:] Consulta questa guida per scoprire le [best practice per la consegna](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=it).
 
-   [!DNL :arrow_upper_right:] Scopri come implementare il recapito messaggi in Campaign  [in questa guida](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=it)
+   [!DNL :arrow_upper_right:] Scopri come implementare il recapito messaggi in Campaign, [in questa guida](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=it)
 
 1. **Come posso assicurarmi che la consegna venga inviata senza errori?**
 
@@ -51,29 +51,29 @@ Hai bisogno di assistenza mentre lavori con Campaign? Leggi le principali domand
 
 1. **Posso monitorare l’esecuzione di un flusso di lavoro?**
 
-   [!DNL :arrow_upper_right:] Scopri come monitorare l’esecuzione del flusso di lavoro di Campaign  [nella documentazione](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html?lang=it) di Campaign Classic v7.
+   [!DNL :arrow_upper_right:] Scopri come monitorare l’esecuzione del flusso di lavoro di Campaign [nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html?lang=it).
 
-1. **Con quali sistemi e componenti è compatibile Campaign v8?**
+1. **Con quali sistemi e componenti è compatibile Campaign v8?**
 
    Puoi ottenere l’elenco di tutti i sistemi e i componenti supportati per la build più recente di Campaign nella [Matrice di compatibilità di Adobe Campaign](compatibility-matrix.md).
 
 1. **Qual è la procedura per la delega del dominio?**
 
-   Un sottodominio è una divisione del dominio che può essere utilizzata per isolare i brand o vari tipi di traffico (messaggi transazionali, informazioni di marketing, eccetera).
+   Un sottodominio è una divisione del dominio che può essere utilizzata per isolare i brand o vari tipi di traffico (messaggi transazionali, informazioni di marketing, ecc.).
 
-   [!DNL :speech_balloon:] In qualità di utente di Cloud Services gestiti,  [contatta ](../start/campaign-faq.md#support) Adobe per delegare i sottodomini all’Adobe.
+   [!DNL :speech_balloon:] In qualità di utente di Managed Cloud Services, [contatta Adobe](../start/campaign-faq.md#support) per delegare i sottodomini ad Adobe.
 
-1. **Come utente Campaign Classic v7, posso effettuare la migrazione a Campaign v8?**
+1. **Come utente Campaign Classic v7, posso effettuare la migrazione a Campaign v8?**
 
    Per il momento, Campaign v8 è disponibile solo per le nuove implementazioni.
 
 1. **Come posso scaricare Campaign?**
 
-   È possibile ottenere il programma di installazione e la console client da Adobe Download Center.
+   È possibile ottenere il programma di installazione e Client Console da Adobe Download Center.
 
-   [Fai clic qui](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) per accedere alla Distribuzione di software di Experience Cloud.
+   [Fai clic qui](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) per accedere alla pagina dedicata alla distribuzione di software di Experience Cloud.
 
-   Ulteriori informazioni sul Centro distribuzione sono disponibili a [questa pagina](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html).
+   Ulteriori informazioni sul Centro distribuzione sono disponibili a [questa pagina](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=it).
 
 1. **Posso entrare in contatto con gli esperti di Campaign?**
 
