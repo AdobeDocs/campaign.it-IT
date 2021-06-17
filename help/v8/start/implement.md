@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1193'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -24,9 +24,9 @@ In questa sezione imparerai a regolare Adobe Campaign in base ai requisiti della
 
 >[!CAUTION]
 >
->Con **Cloud Services gestiti da Campaign**, l’ambiente e la configurazione iniziale sono stati impostati per Adobe, in base ai termini del contratto di licenza. Non è consentito modificare i pacchetti incorporati, gli schemi o i rapporti incorporati installati.
+>Con **Campaign Managed Cloud Services**, l’ambiente e la configurazione iniziale sono stati impostati da Adobe, in base ai termini del contratto di licenza. Non ti è consentito modificare i pacchetti, gli schemi e i report integrati.
 >
->Se devi utilizzare un componente aggiuntivo Campaign o una funzionalità specifica non disponibile, contatta l’ **Adobe Customer Care**.
+>Se hai la necessità di utilizzare un componente aggiuntivo di Campaign o una funzionalità specifica non fornita, contatta l’**Assistenza clienti di Adobe**.
 
 ## Prima di iniziare
 
@@ -36,11 +36,11 @@ Questa sezione contiene informazioni critiche sulla privacy e sulla sicurezza ch
 
 Adobe Campaign viene fornito con processi e impostazioni che ti consentono di utilizzare Campaign in conformità alle leggi sulla privacy dei dati applicabili e alle preferenze del destinatario. Puoi gestire:
 
-* **Raccolta dati**: Adobe Campaign ti consente di raccogliere dati, incluse informazioni personali e riservate. È pertanto essenziale ricevere e gestire il consenso dei destinatari. Ulteriori informazioni nella documentazione di [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=en#data-acquisition)
+* **Raccolta dati**: Adobe Campaign ti consente di raccogliere dati, incluse informazioni personali e riservate. È pertanto essenziale ricevere e gestire il consenso dei destinatari. Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=it#data-acquisition)
 
-* **Consenso utente e conservazione dei dati**: scopri come ottenere il consenso degli utenti, configurare meccanismi di abbonamento a doppio consenso esplicito, facilitare la rinuncia e configurare la conservazione dei dati nella [documentazione sulla privacy di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=en#consent)
+* **Consenso utente e conservazione dei dati**: scopri come ottenere il consenso degli utenti, configurare meccanismi di abbonamento a doppio consenso esplicito, facilitare la rinuncia e configurare la conservazione dei dati nella [documentazione sulla privacy di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=it#consent)
 
-* **Normative sulla privacy e sulla protezione dei dati**: consulta la [documentazione sulla privacy di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html) per informazioni sul Regolamento generale sulla protezione dei dati (RGPD) dell’Unione europea, sul California Consumer Privacy Act (CCPA) e su altri requisiti internazionali riguardanti la privacy; scopri come questi regolamenti influiscono sulla tua organizzazione e su Adobe Campaign.
+* **Normative sulla privacy e sulla protezione dei dati**: consulta la [documentazione sulla privacy di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=it) per informazioni sul Regolamento generale sulla protezione dei dati (RGPD) dell’Unione europea, sul California Consumer Privacy Act (CCPA) e su altri requisiti internazionali riguardanti la privacy; scopri come questi regolamenti influiscono sulla tua organizzazione e su Adobe Campaign.
 
 ### Sicurezza
 
@@ -52,13 +52,13 @@ Scopri le linee guida e i principi di sicurezza con Adobe Campaign in [Elenco di
 
 Puoi aggiungere manualmente gli utenti a Campaign e associarli ai gruppi, allineati alla gerarchia dei ruoli. Gli utenti potranno quindi accedere ai dati e alle autorizzazioni a loro appropriate.
 
-[!DNL :arrow_upper_right:] Scopri come aggiungere utenti ad Adobe Campaign in  [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=it#getting-started).
+[!DNL :arrow_upper_right:] Scopri come aggiungere utenti ad Adobe Campaign in [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=it#getting-started).
 
 ### Installare la console client di Campaign
 
 L’interfaccia utente principale dell’applicazione è un client avanzato, ovvero un’applicazione nativa (Windows) che comunica con il server dell’applicazione Adobe Campaign esclusivamente tramite protocolli Internet standard (SOAP, HTTP, eccetera.). La console client di Adobe Campaign consente una produttività semplice e intuitiva, utilizza una larghezza di banda molto ridotta (grazie a una cache locale) ed è progettata per una facile distribuzione. Questa console può essere distribuita da un browser Internet, può essere aggiornata automaticamente e non richiede alcuna configurazione di rete specifica perché genera solo traffico HTTP(S).
 
-[!DNL :bulb:] [Ulteriori informazioni sulla console client di Campaign](connect.md).
+[!DNL :bulb:] [Ulteriori informazioni su Campaign Client Console](connect.md).
 
 ## Preparare l’ambiente
 
@@ -80,9 +80,9 @@ Prima di iniziare a inviare messaggi e creare campagne di marketing, devi:
 
    [!DNL :arrow_upper_right:] [Ulteriori informazioni sui modelli e-mail](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=it)
 
-   [!DNL :arrow_upper_right:] Scopri come utilizzare i modelli di campagna in  [questa pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=it#orchestrating-campaigns)
+   [!DNL :arrow_upper_right:] Scopri come utilizzare i modelli di campagna in [questa pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=it#orchestrating-campaigns)
 
-   [!DNL :arrow_upper_right:] Scopri come configurare un modello di flusso di lavoro in  [questa pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html?lang=it#workflow-templates)
+   [!DNL :arrow_upper_right:] Scopri come configurare un modello di flusso di lavoro in [questa pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html?lang=it#workflow-templates)
 
 1. Configurare le regole di tipologia
 
@@ -114,7 +114,7 @@ Puoi personalizzare diverse aree e funzionalità di Campaign. La maggior parte d
 
    [!DNL :bulb:] Scopri come gestire filtri ed elenchi in Campaign consultando [questa pagina](../dev/customize.md#gs-lists-and-filters).
 
-   Puoi anche creare nuove dashboard per visualizzare i dati di Campaign in base alle tue esigenze.
+   Puoi anche creare nuovi dashboard per visualizzare i dati di Campaign in base alle tue esigenze.
 
    [!DNL :bulb:] Per ulteriori informazioni, consulta [questa pagina](../dev/customize.md#gs-custom-dashboards).
 
@@ -124,7 +124,7 @@ Puoi personalizzare diverse aree e funzionalità di Campaign. La maggior parte d
 
    In aggiunta ai report incorporati, Adobe Campaign ti consente di generare report in vari contesti e di soddisfare esigenze diverse. I principi relativi alle modalità di utilizzo e di implementazione sono descritti nel presente documento.
 
-   [!DNL :bulb:] Ulteriori informazioni sulle funzionalità di reporting in Campaign sono disponibili a [questa pagina](reporting.md).
+   [!DNL :bulb:] Scopri le funzionalità di reporting in Campaign, in [questa pagina](reporting.md).
 
 
 ## Impostare l’automazione della campagna
@@ -155,22 +155,22 @@ Se utilizzi altre soluzioni Adobe, puoi collegarle all’ambiente Campaign e com
 
 Puoi anche utilizzare Single Sign-On (SSO) per connetterti a Campaign. Per ulteriori informazioni, consulta [questa pagina](connect.md).
 
-[!DNL :bulb:] Scopri l’elenco completo delle soluzioni Adobe che possono essere integrate con Adobe Campaign [in questa pagina](../connect/integration.md).
+[!DNL :bulb:] Scopri l’elenco completo delle soluzioni Adobe che possono essere integrate con Adobe Campaign, in [questa pagina](../connect/integration.md).
 
 ### Connettori
 
 Collega Campaign a sistemi di terze parti per combinare un’ampia gamma di funzionalità e automatizzare i processi.
 
-[!DNL :bulb:] Ulteriori informazioni sui connettori disponibili in [questa sezione](../connect/integration.md).
+[!DNL :bulb:] Scopri i connettori disponibili, in [questa sezione](../connect/integration.md).
 
 **Collegare il CRM a Campaign**
 
 Puoi collegare la tua piattaforma Adobe Campaign ai sistemi di terze parti CRM e sincronizzare i dati (contatti, account, acquisti, eccetera).
 
-[!DNL :bulb:] Scopri come collegare il sistema CRM a Campaign in [questa sezione](../connect/integration.md#gs-crm-connectors)
+[!DNL :bulb:] Scopri come collegare il sistema CRM a Campaign, in [questa sezione](../connect/integration.md#gs-crm-connectors)
 
 **Connessione a un database esterno**
 
 Puoi collegare il database di Campaign Cloud a sistemi esterni tramite il modulo Federated Data Access (FDA).
 
-[!DNL :bulb:] Scopri come configurare il modulo FDA di Campaign per definire i parametri di accesso in [questa sezione](../connect/integration.md#gs-fda)
+[!DNL :bulb:] Scopri come configurare il modulo FDA di Campaign per definire i parametri di accesso, in [questa sezione](../connect/integration.md#gs-fda)
