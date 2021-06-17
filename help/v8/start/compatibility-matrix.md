@@ -9,7 +9,7 @@ exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6e
 source-git-commit: 619edce939b39430832fd950ece734f817f9dce3
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 68%
+ht-degree: 92%
 
 ---
 
@@ -57,7 +57,7 @@ Questo documento elenca tutti i sistemi e i componenti supportati dalla build pi
 
 ### Browser supportati {#Browsers}
 
-I seguenti browser sono compatibili con Campaign per accesso web.
+I seguenti browser sono compatibili con Campaign per l’accesso web.
 
 * **Microsoft Edge**, **Mozilla Firefox**, **Google Chrome**, **Safari** (versioni più recenti)
 
@@ -71,7 +71,7 @@ Utilizza il menu **Aiuto > Informazioni su...** per controllare la tua versione.
 
 Accedi alle seguenti informazioni:
 
-* Numero **versione** della console Client e del server applicazioni. Nell’esempio precedente, la versione è 8.1.5 sia per la console Client che per il server applicazioni.
+* Il numero di **versione** della tua Client Console e del server applicazioni. Nell’esempio precedente, la versione è 8.1.5 sia per Client Console che per il server applicazioni.
 * Il numero SHA, tra parentesi.
-* Un collegamento per contattare l’Assistenza clienti Adobe.
-* Collegamenti all’Informativa sulla privacy di Adobe, alle Condizioni d’uso e all’Informativa sui cookie.
+* Un collegamento per contattare l’Assistenza clienti di Adobe.
+* Collegamenti alla Policy per i cookie, alle Condizioni d’uso e all’Informativa sulla privacy di Adobe.
