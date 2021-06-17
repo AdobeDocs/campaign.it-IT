@@ -16,7 +16,7 @@ Questo progetto aderisce al [Codice di condotta di Adobe Open Source](code-of-co
 
 ## Informazioni sulle collaborazioni relative al contenuto Adobe
 
-Consulta la [Adobe Docs Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html).
+Consulta la [Adobe Docs Contributor Guide](https://docs.adobe.com/content/help/it/contributor/contributor-guide/introduction.html).
 
 Il tipo di collaborazione dipende da chi effettua l’intervento e dal tipo di modifiche che si desidera apportare:
 
