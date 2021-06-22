@@ -5,10 +5,10 @@ description: Impostazioni del canale e-mail di Campaign
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 6%
+source-wordcount: '290'
+ht-degree: 4%
 
 ---
 
@@ -41,14 +41,14 @@ Una volta configurato il CCN dell’e-mail, accertati che la funzione sia abilit
 **Argomenti correlati** nella documentazione di Campaign Classic v7:
 
 
-[!DNL :arrow_upper_right:] [Genera la pagina speculare](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#generating-mirror-page)
+[!DNL :arrow_upper_right:] [Genera la pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#generating-mirror-page) speculare{target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [Selezionare il formato e-mail](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#selecting-message-formats)
+[!DNL :arrow_upper_right:] [Seleziona il formato](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#selecting-message-formats) e-mail {target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [Seleziona codifica caratteri](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#character-encoding)
+[!DNL :arrow_upper_right:] [Seleziona la codifica](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#character-encoding) dei caratteri {target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [Impostare l&#39;indirizzo e-mail non recapitato](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#managing-bounce-emails)
+[!DNL :arrow_upper_right:] [Imposta l&#39;indirizzo](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#managing-bounce-emails) e-mail non recapitato{target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [Utilizzare i modelli di consegna e-mail](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=it)
+[!DNL :arrow_upper_right:] [Utilizza modelli](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=it) di consegna e-mail{target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [Errori di consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html)
+[!DNL :arrow_upper_right:] [Comprendere gli errori di consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html){target=&quot;_blank&quot;}
