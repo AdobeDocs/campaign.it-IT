@@ -2,9 +2,9 @@
 product: Adobe Campaign
 title: Best practice per la sicurezza di Campaign
 description: Guida introduttiva alle best practice per la sicurezza di Campaign
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '503'
 ht-degree: 1%
 
 ---
@@ -107,7 +107,7 @@ La gestione degli accessi è una parte importante dell&#39;irrigidimento della s
 * Verificare che ogni operatore disponga dei diritti di accesso appropriati
 * Evita di utilizzare l&#39;operatore amministratore ed evita di avere troppi operatori nel gruppo di amministrazione
 
-[!DNL :arrow_upper_right:] Ulteriori informazioni nella documentazione di  [Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator)
+[!DNL :arrow_upper_right:] Ulteriori informazioni nella documentazione di  [Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator){target=&quot;_blank&quot;}
 
 ## Linee guida sulla codifica
 
@@ -119,4 +119,4 @@ Nello sviluppo in Adobe Campaign (flussi di lavoro, JavaScript, JSSP, ecc.), seg
 
 * **Aggiungi i sottotitoli nelle applicazioni** web: aggiungi le didascalie nelle pagine di destinazione pubbliche e nelle pagine di abbonamento.
 
-[!DNL :arrow_upper_right:] Ulteriori informazioni nella documentazione di  [Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic)
+[!DNL :arrow_upper_right:] Ulteriori informazioni nella documentazione di  [Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic){target=&quot;_blank&quot;}
