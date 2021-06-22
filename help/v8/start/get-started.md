@@ -6,10 +6,10 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
-source-git-commit: 8b31e24e0b6cfb699179e62366bc6706e9019382
+source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 84%
+source-wordcount: '900'
+ht-degree: 95%
 
 ---
 
@@ -19,9 +19,9 @@ Adobe Campaign fornisce una piattaforma per la progettazione di customer experie
 
 Utilizza Campaign per:
 
-* **Stimolare la personalizzazione e il coinvolgimento attraverso un’unica vista accessibile del cliente**
-* **Integrare nel percorso cliente canali e-mail, mobili, online e offline**
-* **Automatizzare la consegna di messaggi e offerte significativi e tempestivi**
+* **Stimolare** la personalizzazione e il coinvolgimento attraverso un’unica vista accessibile del cliente
+* **Integrare** nel percorso cliente canali e-mail, mobili, online e offline
+* **Automatizzare** la consegna di messaggi e offerte significativi e tempestivi
 
 ![](assets/ac-capabilities.png)
 
@@ -68,7 +68,7 @@ I flussi di lavoro possono essere utilizzati in contesti diversi, ad esempio:
 
  Adobe Campaign ti consente di monitorare e interpretare il comportamento dei clienti arricchendo gradualmente i loro dati e profili. Gli strumenti di reporting e di analisi ti consentono di sfruttare al meglio ogni nuova campagna, di eseguire meglio il targeting delle iniziative di marketing e di ottimizzarne l’impatto e il ritorno sull’investimento.
 
-[!DNL :bulb:] Ulteriori informazioni sulle funzionalità di report e tracking in  [questa sezione](reporting.md).
+[!DNL :bulb:] Scopri le funzionalità di reporting e tracciamento in [questa sezione](reporting.md).
 
 ## Integrazioni con Adobe Experience Cloud {#adobe-experience-cloud-integrations}
 
@@ -84,21 +84,21 @@ Adobe Campaign offre una serie di funzionalità per aiutarti a implementare e ot
 
 ## Area di lavoro e personalizzazione
 
-L’area di lavoro di Campaign è disponibile tramite la [Console client](../dev/general-architecture.md).
+L’area di lavoro di Campaign è disponibile tramite [Client Console](../dev/general-architecture.md).
 
 ![](assets/home-page.png)
 
-[!DNL :bulb:] [Ulteriori informazioni sulla console client di Campaign](../start/connect.md).
+[!DNL :bulb:] [Ulteriori informazioni su Campaign Client Console](../start/connect.md).
 
 L’area di lavoro di Campaign può essere adattata in base alle tue esigenze.
 
-[!DNL :arrow_upper_right:]  Scopri come utilizzare l’area di lavoro di Campaign nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=it)
+[!DNL :arrow_upper_right:] Scopri come utilizzare l’area di lavoro di Campaign nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=it){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:]  Scopri come personalizzare gli elenchi nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=it)
+[!DNL :arrow_upper_right:]  Scopri come personalizzare gli elenchi nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=it){target=&quot;_blank&quot;}
 
 Puoi anche accedere ad alcune funzionalità via web.
 
-[!DNL :bulb:] [Ulteriori informazioni su Campaign Web Access](../start/connect.md#web-access).
+[!DNL :bulb:] [Scopri come accedere a Campaign dal web](../start/connect.md#web-access).
 
 
 ## Lingue
@@ -115,9 +115,9 @@ La lingua viene selezionata durante il processo di installazione.
 
 >[!CAUTION]
 >
->La lingua non può essere modificata dopo la creazione dell’istanza.
+>Una volta creata l’istanza, non è possibile cambiare la lingua.
 
-Le date e i formati ora interessati dalla lingua. Per ulteriori informazioni, consulta la [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#date-and-time).
+I formati di date e ore dipendono dalla lingua. Per ulteriori informazioni, consulta la documentazione [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=it#date-and-time){target=&quot;_blank&quot;}.
 
 **Vedi anche**
 
