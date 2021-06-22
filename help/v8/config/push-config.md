@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 619edce939b39430832fd950ece734f817f9dce3
+source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1289'
 ht-degree: 1%
 
 ---
@@ -797,7 +797,7 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione di Google
 
 Le variabili ti consentono di definire il comportamento dell’app mobile dopo aver ricevuto una notifica. Queste variabili devono essere definite nel codice dell’app mobile e nella console Adobe Campaign, nella scheda **[!UICONTROL Variables]** del servizio dedicato per le app mobili.
 
-[!DNL :arrow_upper_right:] Ulteriori informazioni nella documentazione di  **Campaign Classic v7** sull’app mobile:  [Passaggi di configurazione per ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html) iOSe passaggi  [di configurazione per Andoid](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html).
+[!DNL :arrow_upper_right:] Ulteriori informazioni nella documentazione di  **Campaign Classic v7** sull’app mobile:  [Passaggi di configurazione per iOS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target=&quot;_blank&quot;} e passaggi  [di configurazione per Andoid](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html){target=&quot;_blank&quot;}.
 
 Di seguito è riportato un esempio di codice che consente a un’app mobile di raccogliere tutte le variabili aggiunte in una notifica. Nel nostro esempio, utilizziamo la variabile &quot;VAR&quot;.
 
