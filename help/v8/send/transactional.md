@@ -5,10 +5,10 @@ description: Guida introduttiva ai messaggi transazionali
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: 973e04eb25887f63564b416515c6e229ed5233a4
+source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 1%
+source-wordcount: '1487'
+ht-degree: 2%
 
 ---
 
@@ -151,7 +151,7 @@ Puoi verificare la consegna dei messaggi inviando una bozza a un indirizzo di se
 
 L’invio di una bozza comporta la stessa procedura utilizzata per qualsiasi consegna.
 
-[!DNL :arrow_upper_right:] Ulteriori informazioni sulle bozze nella documentazione di  [Campaign Classic v7]((https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html))
+[!DNL :arrow_upper_right:] Ulteriori informazioni sulle bozze nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=it){target=&quot;_blank&quot;}
 
 Tuttavia, per inviare una prova di un messaggio sulle transazioni, devi eseguire le seguenti operazioni:
 
