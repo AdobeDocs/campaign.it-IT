@@ -6,10 +6,10 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
-workflow-type: ht
-source-wordcount: '1193'
-ht-degree: 100%
+source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+workflow-type: tm+mt
+source-wordcount: '1214'
+ht-degree: 91%
 
 ---
 
@@ -40,7 +40,7 @@ Adobe Campaign viene fornito con processi e impostazioni che ti consentono di ut
 
 * **Consenso utente e conservazione dei dati**: scopri come ottenere il consenso degli utenti, configurare meccanismi di abbonamento a doppio consenso esplicito, facilitare la rinuncia e configurare la conservazione dei dati nella [documentazione sulla privacy di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=it#consent)
 
-* **Normative sulla privacy e sulla protezione dei dati**: consulta la [documentazione sulla privacy di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=it) per informazioni sul Regolamento generale sulla protezione dei dati (RGPD) dell’Unione europea, sul California Consumer Privacy Act (CCPA) e su altri requisiti internazionali riguardanti la privacy; scopri come questi regolamenti influiscono sulla tua organizzazione e su Adobe Campaign.
+* **Normative** sulla privacy e la protezione dei dati: consulta la documentazione sulla privacy  [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=it){target=&quot;_blank&quot;} per informazioni sul Regolamento generale sulla protezione dei dati (RGPD) dell’Unione europea, sul California Consumer Privacy Act (CCPA) e su altri requisiti internazionali sulla privacy, e su come questi regolamenti influiscono sulla tua organizzazione e su Adobe Campaign.
 
 ### Sicurezza
 
@@ -52,7 +52,7 @@ Scopri le linee guida e i principi di sicurezza con Adobe Campaign in [Elenco di
 
 Puoi aggiungere manualmente gli utenti a Campaign e associarli ai gruppi, allineati alla gerarchia dei ruoli. Gli utenti potranno quindi accedere ai dati e alle autorizzazioni a loro appropriate.
 
-[!DNL :arrow_upper_right:] Scopri come aggiungere utenti ad Adobe Campaign in [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=it#getting-started).
+[!DNL :arrow_upper_right:] Scopri come aggiungere utenti ad Adobe Campaign in  [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=it#getting-started) {target=&quot;_blank&quot;}.
 
 ### Installare la console client di Campaign
 
@@ -78,17 +78,17 @@ Prima di iniziare a inviare messaggi e creare campagne di marketing, devi:
 
    Campagne, consegne, lavori o flussi di lavoro si basano tutti su un modello, che memorizza le impostazioni e le funzionalità principali. Per ciascun componente viene fornito un modello incorporato per il quale non è stata definita alcuna configurazione specifica. Devi configurare e adattare i modelli alle tue esigenze e renderli disponibili per gli utenti finali.
 
-   [!DNL :arrow_upper_right:] [Ulteriori informazioni sui modelli e-mail](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=it)
+   [!DNL :arrow_upper_right:] [Ulteriori informazioni sui modelli e-mail](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=it){target=&quot;_blank&quot;}
 
-   [!DNL :arrow_upper_right:] Scopri come utilizzare i modelli di campagna in [questa pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=it#orchestrating-campaigns)
+   [!DNL :arrow_upper_right:] Scopri come utilizzare i modelli di campagna nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=it#orchestrating-campaigns){target=&quot;_blank&quot;}
 
-   [!DNL :arrow_upper_right:] Scopri come configurare un modello di flusso di lavoro in [questa pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html?lang=it#workflow-templates)
+   [!DNL :arrow_upper_right:] Scopri come configurare un modello di flusso di lavoro nella documentazione [ di ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html?lang=it#workflow-templates)Campaign Classic v7{target=&quot;_blank&quot;}
 
 1. Configurare le regole di tipologia
 
    Utilizza le regole di tipologia di Campaign per filtrare, controllare e monitorare l’invio delle consegne. Ad esempio, le regole di affaticamento controllano la frequenza e la quantità di messaggi per evitare un’eccessiva sollecitazione dei destinatari. Una volta implementate, nelle consegne viene fatto riferimento alle regole di tipologia.
 
-   [!DNL :arrow_upper_right:] [Ulteriori informazioni sulle tipologie e sulla gestione dell’affaticamento](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=it#orchestrating-campaigns)
+   [!DNL :arrow_upper_right:] Ulteriori informazioni sulle tipologie e sulla gestione dell’affaticamento nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=it#orchestrating-campaigns){target=&quot;_blank&quot;}
 
 1. Acquisisci familiarità con il modello dati integrato di Campaign
 
