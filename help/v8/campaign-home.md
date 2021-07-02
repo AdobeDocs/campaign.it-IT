@@ -4,9 +4,9 @@ description: Centro risorse di Campaign v8
 title: Documentazione di prodotto di Adobe Campaign v8
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
 source-git-commit: 58632224858391f673dfdc87b49417d65b2f9b09
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '93'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 76%
 
 ## Novità
 
-* **[Cos’è [!DNL Adobe Campaign]](start/get-started.md)**  - Funzionalità chiave e casi d’uso
+* **[Scopri [!DNL Adobe Campaign]](start/get-started.md)**: funzionalità principali e casi d’uso
 
 * **[Novità della versione 8](start/whats-new.md)**: scopri le funzionalità di Campaign v8
 
@@ -65,4 +65,4 @@ ht-degree: 76%
 * [Misurazione e tracciamento](start/reporting.md)
 * [Connessione con altre soluzioni](connect/integration.md)
 * [Domande frequenti su Campaign v8](start/campaign-faq.md)
-* [Descrizione del prodotto Adobe Campaign v8](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
+* [Descrizione del prodotto Adobe Campaign v8](https://helpx.adobe.com/it/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
