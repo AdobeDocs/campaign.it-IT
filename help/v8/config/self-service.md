@@ -8,9 +8,9 @@ level: Beginner
 hidefromtoc: true
 hide: true
 source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '374'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Nel Pannello di controllo Campaign, puoi interagire con tutti i server SFTP coll
 
 Puoi monitorare i sottodomini e i relativi certificati. Ulteriori informazioni:
 * [Branding dei sottodomini](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=it){target=&quot;_blank&quot;}
-* [Imposta un nuovo sottodominio](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=it){target=&quot;_blank&quot;}
+* [Impostare un nuovo sottodominio](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=it){target=&quot;_blank&quot;}
 * [Monitorare i certificati SSL](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=it){target=&quot;_blank&quot;}
 
 ## Impostazioni delle istanze
@@ -52,7 +52,7 @@ Puoi monitorare i sottodomini e i relativi certificati. Ulteriori informazioni:
 Scopri come gestire le impostazioni delle istanze di Campaign nel Pannello di controllo Campaign.
 * [IP sull’elenco Consentiti](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=it){target=&quot;_blank&quot;}
 * [Autorizzazioni URL](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=it){target=&quot;_blank&quot;}
-* [Dettagli istanza](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=it){target=&quot;_blank&quot;}
-* [Gestione chiavi GPG](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=it){target=&quot;_blank&quot;}
+* [Dettagli dell’istanza](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=it){target=&quot;_blank&quot;}
+* [Gestione delle chiavi GPG](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=it){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] Scopri tutte le funzionalità del Pannello di controllo Campaign in  [questa documentazione](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it){target=&quot;_blank&quot;}
+[!DNL :arrow_upper_right:] Scopri tutte le funzionalità del Pannello di controllo Campaign in [questa documentazione](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it){target=&quot;_blank&quot;}.
