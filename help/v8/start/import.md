@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '322'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Campaign ti aiuta ad aggiungere contatti al database Cloud. Puoi caricare un fil
 
 ## Importare profili con un flusso di lavoro
 
-Le importazioni di profili sono configurate in modelli dedicati eseguiti tramite flussi di lavoro attraverso l’attività **Importazione**. Possono essere ripetuti automaticamente in base a una pianificazione, ad esempio per automatizzare lo scambio di dati tra diversi sistemi di informazione. Ulteriori informazioni nella documentazione di [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/import-export-workflows.html?lang=it){target=&quot;_blank&quot;}.
+Le importazioni di profili sono configurate in modelli dedicati eseguiti tramite flussi di lavoro attraverso l’attività **Importazione**. Possono essere ripetuti automaticamente in base a una pianificazione, ad esempio per automatizzare lo scambio di dati tra diversi sistemi di informazione. Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/import-export-workflows.html?lang=it){target=&quot;_blank&quot;}.
 
 ![](assets/import-wf.png)
 
@@ -32,7 +32,7 @@ Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic
 
 [!DNL :arrow_upper_right:] [Best practice per l’importazione e l’esportazione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/best-practices/import-export-best-practices.html?lang=it){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [Configura ed esegui un&#39;importazione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html?lang=it){target=&quot;_blank&quot;}
+[!DNL :arrow_upper_right:] [Configurare ed eseguire un’importazione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html?lang=it){target=&quot;_blank&quot;}
 
 ## Eseguire importazioni unitarie
 
@@ -40,7 +40,7 @@ Crea ed esegui un processo di importazione dati generico per caricare i contatti
 
 ![](assets/new-import.png)
 
-[!DNL :arrow_upper_right:] Scopri come eseguire processi di importazione unitari per alimentare il database nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=it){target=&quot;_blank&quot;}.
+[!DNL :arrow_upper_right:] Scopri come eseguire processi di importazione unitari per alimentare il database, nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=it){target=&quot;_blank&quot;}.
 
 ## Raccogliere profili tramite app web
 
@@ -48,10 +48,10 @@ Utilizza Campaign per creare moduli web e raccogliere e gestire le informazioni 
 
 ![](assets/web-form-page.png)
 
-[!DNL :arrow_upper_right:] Scopri come creare moduli web nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=it){target=&quot;_blank&quot;}.
+[!DNL :arrow_upper_right:] Scopri come creare moduli web, nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=it){target=&quot;_blank&quot;}.
 
 **Argomenti correlati**
 
 * [Creare tipi di pubblico](audiences.md)
-* [Profili](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/deduplication-merge.html?lang=it) duplicati{target=&quot;_blank&quot;}
-* [Arricchisci i dati](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/enriching-data.html?lang=it) del profilo {target=&quot;_blank&quot;}
+* [Deduplicare i profili](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/deduplication-merge.html?lang=it){target=&quot;_blank&quot;}
+* [Arricchire i dati del profilo](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/enriching-data.html?lang=it) {target=&quot;_blank&quot;}
