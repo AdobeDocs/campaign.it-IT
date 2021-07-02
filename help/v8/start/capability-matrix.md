@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
 source-git-commit: 93b690d815f73d11de7de90b92ae188082a3e9e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '829'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ Gli utenti di Campaign non devono essere esperti di database: non sono più nece
 
 ## Generazione rapporti
 
-I rapporti di Adobe Campaign sono ottimizzati e offrono funzionalità su scala migliore rispetto a Campaign Classic v7. Le limitazioni esistenti sui cubi non si applicano.
+I rapporti di Adobe Campaign sono ottimizzati e offrono migliori funzioni di scalabilità rispetto a Campaign Classic v7. Le limitazioni esistenti sui cubi non si applicano.
 
 ## Funzioni non disponibili{#gs-unavailable-features}
 
