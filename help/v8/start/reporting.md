@@ -6,16 +6,16 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: 95ed0369-7215-496b-8e11-fe264c436488,e7931de5-83ce-431d-ae81-83793d257550
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '374'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 # Metriche e report
 
-## Introduzione alla generazione di rapporti{#gs-ac-reports}
+## Introduzione al reporting{#gs-ac-reports}
 
 Adobe Campaign fornisce un set di strumenti di reporting elencati in questa pagina.
 
@@ -27,7 +27,7 @@ Adobe Campaign fornisce un set di strumenti di reporting elencati in questa pagi
 
    ![](assets/built-in-reports.png)
 
-   [!DNL :arrow_upper_right:] I rapporti incorporati di Campaign sono presentati nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/accessing-built-in-reports/about-campaign-built-in-reports.html){target=&quot;_blank&quot;}
+   I rapporti incorporati di ↗️ Campaign sono presentati nella documentazione di [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/accessing-built-in-reports/about-campaign-built-in-reports.html){target=&quot;_blank&quot;}
 
 * **Analisi dei dati descrittivi**
 
@@ -37,13 +37,13 @@ Adobe Campaign fornisce un set di strumenti di reporting elencati in questa pagi
 
    ![](assets/desc-analysis-report.png)
 
-   [!DNL :arrow_upper_right:] Il reporting dell’analisi descrittiva della campagna è presentato nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target=&quot;_blank&quot;}
+   ↗️ rapporto di analisi descrittiva della campagna è presentato nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target=&quot;_blank&quot;}
 
 * **Rapporti personalizzati**
 
    Utilizza Adobe Campaign per creare rapporti sui dati nel database. Una volta creati, rendili accessibili nei contesti appropriati.
 
-   [!DNL :arrow_upper_right:] I passaggi per creare un rapporto sono descritti in dettaglio nella documentazione [ di ](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html)Campaign Classic v7{target=&quot;_blank&quot;}. La creazione di rapporti personalizzati è riservata agli utenti avanzati.
+   I passaggi ↗️ per creare un report sono descritti in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target=&quot;_blank&quot;}. La creazione di rapporti personalizzati è riservata agli utenti avanzati.
 
 * **Cubi**
 
@@ -53,8 +53,8 @@ Adobe Campaign fornisce un set di strumenti di reporting elencati in questa pagi
 
    A seconda della complessità delle query, dei calcoli e dei volumi, i dati analizzati in questi rapporti possono essere raccolti tramite una query e preaggregati in un elenco (flusso di lavoro del tipo di gestione dei dati) o in un cubo (tramite Marketing Analytics). Viene visualizzato sotto forma di tabella pivot o di elenco di gruppi.
 
-   [!DNL :arrow_upper_right:] Scopri come creare cubi nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/designing-reports-with-cubes/about-cubes.html){target=&quot;_blank&quot;}
+   ↗️ Scopri come creare cubi nella documentazione di [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/designing-reports-with-cubes/about-cubes.html){target=&quot;_blank&quot;}
 
 
-I rapporti di Adobe Campaign sono ottimizzati e offrono funzionalità su scala migliore rispetto a Campaign Classic v7. Le limitazioni esistenti sui cubi non si applicano.
+I rapporti di Adobe Campaign sono ottimizzati e offrono migliori funzioni di scalabilità rispetto a Campaign Classic v7. Le limitazioni esistenti sui cubi non si applicano.
 
