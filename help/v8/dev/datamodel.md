@@ -1,19 +1,19 @@
 ---
 product: Adobe Campaign
-title: 'Guida introduttiva al modello dati di Campaign '
-description: 'Guida introduttiva al modello dati di Campaign '
+title: 'Introduzione al modello dati di Campaign '
+description: 'Introduzione al modello dati di Campaign '
 feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896,b1319b34-ee07-48ed-9ab1-e2d12d3d99f8
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 4%
 
 ---
 
-# Guida introduttiva al modello dati di Campaign {#gs-ac-datamodel}
+# Introduzione al modello dati di Campaign {#gs-ac-datamodel}
 
 Adobe Campaign viene fornito con un modello dati predefinito. Questa sezione fornisce alcuni dettagli sulle tabelle integrate del modello dati Adobe Campaign e sulla loro interazione. Adobe Campaign si basa su un database Cloud contenente tabelle collegate tra loro.
 
@@ -21,7 +21,7 @@ La struttura di base del modello dati Adobe Campaign può essere descritta come 
 
 * **Tabella** destinatari: Il modello dati si basa su una tabella principale che per impostazione predefinita è la tabella Destinatario (nmsRecipient). Questa tabella consente di memorizzare tutti i profili di marketing.
 
-   [!DNL :bulb:] Per ulteriori informazioni sulla tabella Destinatario, consulta  [questa sezione](#ootb-profiles).
+   ? Per ulteriori informazioni sulla tabella Destinatario, consulta [questa sezione](#ootb-profiles).
 
 * **Tabella** di consegna: Il modello dati include anche una parte dedicata all’archiviazione di tutte le attività di marketing. Di solito si tratta della tabella Consegna (NmsDelivery). Ogni record in questa tabella rappresenta un&#39;azione di consegna o un modello di consegna. Contiene tutti i parametri necessari per eseguire consegne quali target, contenuto e così via.
 
@@ -44,9 +44,9 @@ Puoi utilizzare la tabella Destinatario predefinita con i campi predefiniti, com
 * [Estendi una ](extend-schema.md) tabella esistente con nuovi campi. Ad esempio, puoi aggiungere un nuovo campo &quot;Fedeltà&quot; alla tabella Destinatario.
 * [Crea una nuova tabella](create-schema.md), ad esempio una tabella &quot;Acquisto&quot; in cui sono elencati tutti gli acquisti effettuati da ciascun profilo del database e collegalo alla tabella Destinatario.
 
-[!DNL :bulb:] Scopri le best practice per l’utilizzo del modello dati Campaign in  [questa sezione](datamodel-best-practices.md).
+? Scopri le best practice per l’utilizzo del modello dati Campaign in [questa sezione](datamodel-best-practices.md).
 
-## Tabella dei profili incorporati {#ootb-profiles}
+## Tabella dei profili integrata {#ootb-profiles}
 
 La tabella dei destinatari incorporata (nmsrecipient) in Adobe Campaign fornisce un buon punto di partenza per la creazione del modello dati. Dispone di una serie di campi predefiniti e di collegamenti alle tabelle che possono essere facilmente estesi. Questa funzione è particolarmente utile quando esegui principalmente il targeting dei destinatari, perché si adatta a un semplice modello dati incentrato sui destinatari.
 
@@ -59,9 +59,9 @@ I vantaggi dell’utilizzo della tabella dei destinatari standard sono i seguent
 
 È possibile estendere la tabella dei destinatari, ma non ridurre il numero di campi o collegamenti presenti nella tabella.
 
-[!DNL :bulb:] Scopri come estendere uno schema esistente in  [questa sezione](extend-schema.md).
+? Scopri come estendere uno schema esistente in [questa sezione](extend-schema.md).
 
-[!DNL :arrow_upper_right:] Scopri esempi di estensioni integrate di tabelle dei destinatari nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#extending-a-table)
+↗️ Scopri esempi di estensioni integrate di tabelle dei destinatari nella documentazione [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#extending-a-table)
 
 Puoi anche utilizzare una tabella dei destinatari diversa per adattarla meglio ai requisiti aziendali o funzionali. Questo metodo viene fornito con limitazioni ed è descritto in [questa sezione](custom-recipient.md).
 
@@ -69,9 +69,9 @@ Puoi anche utilizzare una tabella dei destinatari diversa per adattarla meglio a
 
 Per una migliore comprensione della gestione delle tabelle in Campaign v8, tieni presente che le tabelle vengono replicate tra Campaign e il database Snowflake Cloud.
 
-[!DNL :bulb:] Ulteriori informazioni sulla strategia e i meccanismi di replica in  [questa sezione](../config/replication.md).
+? Ulteriori informazioni sulla strategia e i meccanismi di replica in [questa sezione](../config/replication.md).
 
 **Argomenti correlati**
 
-[!DNL :bulb:] Scopri come importare profili in  [questa ](../start/import.md)
-[!DNL :bulb:] sezioneUlteriori informazioni sui tipi di pubblico di Campaign in  [questa sezione](../start/audiences.md)
+? Scopri come importare profili in [questa sezione](../start/import.md)
+? Ulteriori informazioni sui tipi di pubblico di Campaign in [questa sezione](../start/audiences.md)
