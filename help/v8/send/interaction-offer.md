@@ -5,10 +5,10 @@ description: Scopri come creare un’offerta
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: 9cb1b38456601bce21d458fea42a5c112d9fafb4
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '921'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -34,7 +34,7 @@ Per creare un’offerta, segui i passaggi seguenti:
 * Filtri per la popolazione target dell’offerta. [Ulteriori informazioni](#filters-on-the-target)
 * Il peso dell&#39;offerta. [Ulteriori informazioni](#offer-weight)
 
-### Periodo di idoneità dell&#39;offerta{#eligibility-period}
+### Periodo di ammissibilità dell’offerta{#eligibility-period}
 
 Nella scheda **[!UICONTROL Eligibility]** dell’offerta, definisci il periodo di idoneità dell’offerta. utilizza gli elenchi a discesa per selezionare una data di inizio e una data di fine nel calendario.
 
@@ -42,7 +42,7 @@ Nella scheda **[!UICONTROL Eligibility]** dell’offerta, definisci il periodo d
 
 Al di fuori di questo periodo, l’offerta non verrà selezionata. Se hai configurato anche le date di idoneità per la categoria di offerta, verrà applicato il periodo più restrittivo.
 
-### Aggiungere filtri alla destinazione {#filters-on-the-target}
+### Aggiungere filtri nella destinazione {#filters-on-the-target}
 
 Nella scheda **[!UICONTROL Eligibility]** dell’offerta , applica i filtri alla destinazione dell’offerta.
 
@@ -54,7 +54,7 @@ Se sono già stati creati filtri predefiniti, puoi selezionarli dall’elenco de
 
 ![](assets/offer_eligibility_create_004.png)
 
-### Imposta il peso dell&#39;offerta {#offer-weight}
+### Imposta il peso dell’offerta {#offer-weight}
 
 Per consentire al motore di decidere tra diverse offerte per le quali il target è idoneo, devi assegnare uno o più pesi all’offerta. Puoi anche applicare filtri al target se necessario o limitare lo spazio di offerta a cui verrà applicato il peso. Un&#39;offerta con un peso più significativo sarà preferita rispetto a un&#39;offerta con meno peso.
 
@@ -100,7 +100,7 @@ Per creare un peso in un’offerta, esegui i seguenti passaggi:
    >
    >Se un target è idoneo per più pesi per un’offerta selezionata, il motore mantiene il peso migliore (massimo). Quando si richiama il motore di offerta, un’offerta viene selezionata al massimo una volta per contatto.
 
-### Riepilogo delle regole di idoneità dell&#39;offerta {#a-summary-of-offer-eligibility-rules}
+### Riepilogo delle regole di idoneità delle offerte {#a-summary-of-offer-eligibility-rules}
 
 Al termine della configurazione, un riepilogo delle regole di idoneità sarà disponibile sul dashboard delle offerte.
 
@@ -182,13 +182,13 @@ Creating hypotheses is detailed in [this page](../../campaign/using/about-respon
 
 Ora puoi approvare e attivare l’offerta per renderla disponibile nell’ambiente **Live** .
 
-[!DNL :arrow_upper_right:] Per ulteriori informazioni, consulta la documentazione di  [Campaign Classic v7 .](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=en#approving-offer-content)
+↗️ Per ulteriori informazioni, consulta la [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=en#approving-offer-content)
 
 ## Gestire la presentazione delle offerte{#offer-presentation}
 
 Campaign ti consente di controllare il flusso di proposte di offerta utilizzando le regole di presentazione. Queste regole, specifiche per l’interazione con Campaign, sono **regole di tipologia**. Ti consentono di escludere le offerte in base alla cronologia delle proposte già effettuate a un destinatario. Si fa riferimento ad essi nell’ambiente.
 
-[!DNL :arrow_upper_right:] Per ulteriori informazioni, consulta la documentazione di  [Campaign Classic v7 .](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html?lang=en#managing-offers)
+↗️ Per ulteriori informazioni, consulta la [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html?lang=en#managing-offers)
 
 ## Simulazione dell’offerta
 
@@ -196,4 +196,4 @@ Il modulo Simulazione consente di verificare la distribuzione delle offerte appa
 
 La simulazione tiene conto dei contesti e delle regole di idoneità precedentemente applicati alle offerte e alle relative regole di presentazione. Questo ti consente di testare e perfezionare diverse versioni della proposta di offerta senza utilizzare effettivamente un’offerta o sollecitare più o meno una destinazione, poiché la simulazione non ha alcun impatto sui destinatari target.
 
-[!DNL :arrow_upper_right:] Per ulteriori informazioni sulla simulazione delle offerte, consulta la documentazione di  [Campaign Classic v7 .](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html?lang=en)
+↗️ Per ulteriori informazioni sulla simulazione dell&#39;offerta, consulta la [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html?lang=en)
