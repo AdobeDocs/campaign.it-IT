@@ -6,10 +6,10 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-source-git-commit: 93b690d815f73d11de7de90b92ae188082a3e9e4
-workflow-type: ht
-source-wordcount: '829'
-ht-degree: 100%
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+workflow-type: tm+mt
+source-wordcount: '873'
+ht-degree: 94%
 
 ---
 
@@ -25,7 +25,7 @@ Modifiche principali:
 
 In qualità di utente di [!DNL Campaign Classic], tieni presente che la maggior parte delle funzioni di [!DNL Campaign Classic] v7 sono disponibili anche in [!DNL Campaign] v8, ad eccezione di un piccolo insieme elencato in [questa sezione](#gs-removed). Altre funzioni saranno disponibili nelle prossime versioni. [Per ulteriori informazioni, consulta questa sezione](#gs-unavailable-features).
 
-[!DNL :bulb:] Ulteriori informazioni sull’architettura di [!DNL Campaign] v8 sono disponibili in [questa pagina](../dev/architecture.md).
+?? Ulteriori informazioni sull’architettura di [!DNL Campaign] v8 sono disponibili in [questa pagina](../dev/architecture.md).
 
 ## Modifiche alla configurazione del prodotto
 
@@ -72,6 +72,12 @@ Adobe Campaign v8 viene fornito con Snowflake come database di base. Poiché aum
 
 Gli utenti di Campaign non devono essere esperti di database: non sono più necessarie operazioni complesse di manutenzione del database o di indicizzazione delle tabelle.
 
+## Connessione a Campaign
+
+Gli utenti di Campaign si connettono tramite il proprio Adobe ID. Lo stesso Adobe ID viene utilizzato per mantenere tutti i piani e i prodotti di Adobe associati a un singolo account.
+
+? Scopri come connettersi a [!DNL Campaign] in [questa pagina](connect.md).
+
 ## Generazione rapporti
 
 I rapporti di Adobe Campaign sono ottimizzati e offrono migliori funzioni di scalabilità rispetto a Campaign Classic v7. Le limitazioni esistenti sui cubi non si applicano.
@@ -106,4 +112,5 @@ Per allinearsi alla nuova architettura e al modello di implementazione di Campai
 * Indagini
 * Social marketing
 * Connettore ACS (offerta Prime)
-
+* Integrazione con LDAP
+* Accesso utente/password
