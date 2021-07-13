@@ -1,19 +1,19 @@
 ---
 product: Adobe Campaign
-title: Guida introduttiva alle API di Campaign
-description: Guida introduttiva alle API di Campaign
+title: 'Introduzione alle API di Campaign '
+description: 'Introduzione alle API di Campaign '
 feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '331'
-ht-degree: 7%
+ht-degree: 12%
 
 ---
 
-# Guida introduttiva alle [!DNL Campaign] API{#gs-ac-api}
+# Guida introduttiva alle API [!DNL Campaign]{#gs-ac-api}
 
 [!DNL Adobe Campaign] viene fornito con un set di funzioni Javascript che è possibile utilizzare:
 
@@ -22,8 +22,8 @@ ht-degree: 7%
 
 Puoi utilizzare le API JavaScript per scrivere nel database cloud di Campaign o leggere dal database:
 
-* API specifiche per le aziende che consentono di agire su ogni oggetto: consegne, flussi di lavoro, abbonamenti e così via. Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html).
-* API di accesso ai dati generiche per la query dei dati del modello dati. Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html).
+* API specifiche per le aziende che consentono di agire su ogni oggetto: consegne, flussi di lavoro, abbonamenti e così via. Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html).
+* API di accesso ai dati generiche per la query dei dati del modello dati. Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html).
 
 Campaign v8 funziona con due database: un database locale per la messaggistica in tempo reale e le query unitarie dell’interfaccia utente e la scrittura tramite API e un database Cloud per l’esecuzione di campagne, il reporting, l’inserimento di dati, le query batch e l’esecuzione di flussi di lavoro.
 
@@ -49,13 +49,13 @@ Per utilizzare le API e interagire con [!DNL Adobe Campaign], devi anche conosce
 
 Con il database [!DNL Campaign] Cloud, le chiamate unitarie non sono consigliate a causa delle prestazioni (latenza e concorrenza). L&#39;operazione batch è sempre preferita. Per garantire prestazioni ottimali delle API, Campaign continua a gestire le chiamate API a livello di database locale.
 
-[!DNL :bulb:] [Il meccanismo di staging API è descritto in questa pagina](staging.md)
+? [Il meccanismo di gestione temporanea API è descritto in questa pagina](staging.md)
 
 ## Nuove API
 
 Sono disponibili nuove API per gestire la sincronizzazione dati tra il database locale [!DNL Campaign] e il database Cloud. È stato inoltre introdotto un nuovo meccanismo per gestire le chiamate API a livello di database locale per evitare la latenza e migliorare le prestazioni complessive.
 
-[!DNL :bulb:] [Le nuove API sono descritte in dettaglio in questa pagina](new-apis.md)
+? [Le nuove API sono descritte in dettaglio in questa pagina](new-apis.md)
 
 **Argomenti correlati**
 
