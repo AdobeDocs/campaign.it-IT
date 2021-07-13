@@ -6,10 +6,10 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
-workflow-type: ht
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+workflow-type: tm+mt
 source-wordcount: '658'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -23,13 +23,13 @@ Hai bisogno di assistenza mentre lavori con Campaign? Leggi le principali domand
 
    La frequenza regolare degli aggiornamenti è volta a far ottenere agli utenti il meglio e più recente, mantenendo l’ambiente sicuro e migliorando l’esperienza di utilizzo del prodotto. Per questo motivo riteniamo fondamentale eseguire sempre la versione più recente di Adobe Campaign.
 
-   [!DNL :speech_balloon:] In qualità di utente di Managed Cloud Services, l’istanza viene aggiornata da Adobe con ogni nuova versione.
+   ?? In qualità di utente di Managed Cloud Services, l’istanza viene aggiornata da Adobe con ogni nuova versione.
 
 1. **Come posso collegarmi a Campaign v8?**
 
    Per connetterti ad Adobe Campaign, scarica e installa Campaign Client Console.
 
-   [!DNL :bulb:] [Per ulteriori informazioni, fai clic qui](connect.md).
+   ?? [Fai clic qui per ulteriori informazioni](connect.md).
 
 1. **Campaign v8 può essere installato in un ambiente locale o ibrido?**
 
@@ -39,9 +39,9 @@ Hai bisogno di assistenza mentre lavori con Campaign? Leggi le principali domand
 
    Il recapito messaggi e-mail, un componente fondamentale per il successo del programma di marketing di ogni mittente, è caratterizzato da criteri e regole in continua evoluzione. Per orientarsi nel mondo digitale e raggiungere al meglio i vari tipi di pubblico, è necessario ottimizzare regolarmente la strategia e-mail tenendo conto delle tendenze chiave di recapito messaggi.
 
-   [!DNL :arrow_upper_right:] Consulta questa guida per scoprire le [best practice per la consegna](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=it){target=&quot;_blank&quot;}.
+   ↗️ Fai riferimento a questa guida per scoprire le [best practice per la consegna](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=it){target=&quot;_blank&quot;}
 
-   [!DNL :arrow_upper_right:] Scopri come implementare il recapito messaggi in Campaign [in questa guida](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=it){target=&quot;_blank&quot;}.
+   ↗️ Scopri come implementare il recapito messaggi in Campaign [in questa guida](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=it){target=&quot;_blank&quot;}
 
 1. **Come posso assicurarmi che la consegna venga inviata senza errori?**
 
@@ -51,7 +51,7 @@ Hai bisogno di assistenza mentre lavori con Campaign? Leggi le principali domand
 
 1. **Posso monitorare l’esecuzione di un flusso di lavoro?**
 
-   [!DNL :arrow_upper_right:] Scopri come monitorare l’esecuzione del flusso di lavoro di Campaign nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html?lang=it){target=&quot;_blank&quot;}.
+   ↗️ Comprendere come monitorare l’esecuzione del flusso di lavoro di Campaign [nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html?lang=it){target=&quot;_blank&quot;}
 
 1. **Con quali sistemi e componenti è compatibile Campaign v8?**
 
@@ -61,7 +61,7 @@ Hai bisogno di assistenza mentre lavori con Campaign? Leggi le principali domand
 
    Un sottodominio è una divisione del dominio che può essere utilizzata per isolare i brand o vari tipi di traffico (messaggi transazionali, informazioni di marketing, ecc.).
 
-   [!DNL :speech_balloon:] In qualità di utente di Managed Cloud Services, [contatta Adobe](../start/campaign-faq.md#support) per delegare i sottodomini ad Adobe.
+   ?? In qualità di utente di Managed Cloud Services, [contatta Adobe](../start/campaign-faq.md#support) per delegare i sottodomini ad Adobe.
 
 1. **Come utente Campaign Classic v7, posso effettuare la migrazione a Campaign v8?**
 
