@@ -6,10 +6,10 @@ feature: Tipi di pubblico
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: a468597714e3974c85e4ada3b6c2ee405717106a
+source-git-commit: 44ddce019de74be96a955eefbc940e41e060a6d3
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 0%
+source-wordcount: '685'
+ht-degree: 1%
 
 ---
 
@@ -29,7 +29,7 @@ Quando utilizzi Campaign per la prima volta o se hai bisogno di eseguire l’agg
 
 Sono disponibili due opzioni:
 
-1. In qualità di amministratore di Campaign, collegati ad Adobe [Distribuzione di software](https://experience.adobe.com/#/downloads/content/software-distribution/encampaign.html) e scarica il programma di installazione della console client. È quindi possibile installarlo nel computer locale.
+1. In qualità di amministratore di Campaign, collegati ad Adobe [Distribuzione di software](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) e scarica il programma di installazione della console client. È quindi possibile installarlo nel computer locale.
 
 1. In qualità di utente finale, Adobe può distribuire la console per: una volta aggiornata la console, ti verrà richiesto di scaricare la versione più recente della console client in una finestra pop-up.
 
