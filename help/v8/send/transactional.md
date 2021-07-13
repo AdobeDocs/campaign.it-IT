@@ -5,18 +5,18 @@ description: Guida introduttiva ai messaggi transazionali
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '1487'
 ht-degree: 2%
 
 ---
 
-# Guida introduttiva alla messaggistica transazionale{#send-transactional-messages}
+# Guida introduttiva ai messaggi transazionali{#send-transactional-messages}
 
 La messaggistica transazionale (Message Center, Centro messaggi) è un modulo Campaign progettato per la gestione dei messaggi di attivazione. Questi messaggi sono generati da eventi attivati da sistemi informatici e possono essere: fattura, conferma dell&#39;ordine, conferma della spedizione, modifica della password, notifica di indisponibilità del prodotto, dichiarazione dell&#39;account o creazione dell&#39;account del sito web, ad esempio.
 
-[!DNL :speech_balloon:] In qualità di utente di Cloud Services gestiti,  [contatta ](../start/campaign-faq.md#support) Adobe per installare e configurare i messaggi transazionali di Campaign nel tuo ambiente.
+? In qualità di utente di Cloud Services gestiti, [contatta Adobe](../start/campaign-faq.md#support) per installare e configurare i messaggi transazionali di Campaign nel tuo ambiente.
 
 I messaggi transazionali vengono utilizzati per inviare:
 
@@ -24,9 +24,9 @@ I messaggi transazionali vengono utilizzati per inviare:
 * una risposta in tempo reale individuale a un&#39;azione del cliente
 * contenuto non promozionale
 
-[!DNL :bulb:] Le impostazioni di messaggistica transazionale sono descritte in  [questa sezione](../config/transactional-msg-settings.md).
+? Le impostazioni dei messaggi transazionali sono descritte in [questa sezione](../config/transactional-msg-settings.md).
 
-[!DNL :bulb:] Comprendere l’architettura dei messaggi transazionali in  [questa pagina](../dev/architecture.md).
+? Comprendere l&#39;architettura dei messaggi transazionali in [questa pagina](../dev/architecture.md).
 
 >[!CAUTION]
 >
@@ -62,7 +62,7 @@ Per creare un modello di messaggio, segui i passaggi seguenti:
 
 1. Immetti una natura e una descrizione, quindi fai clic su **[!UICONTROL Continue]** per creare il corpo del messaggio. Consulta [Creare il contenuto del messaggio](#create-message-content).
 
-### Crea il contenuto{#create-message-content}
+### Creare il contenuto{#create-message-content}
 
 La definizione del contenuto dei messaggi transazionali è la stessa di tutte le consegne in Adobe Campaign. Ad esempio, per una consegna e-mail, puoi creare contenuto in formato HTML o testo, aggiungere allegati o personalizzare l’oggetto di consegna. Per ulteriori informazioni al riguardo, consulta [questa sezione](../start/create-message.md).
 
@@ -118,7 +118,7 @@ Un indirizzo di seed ti consente di visualizzare un’anteprima del messaggio, i
 
 Una volta creati gli indirizzi, puoi accedere alla loro anteprima e personalizzazione.
 
-### Aggiungi dati di personalizzazione{#personalization-data}
+### Aggiungere dati di personalizzazione{#personalization-data}
 
 Puoi aggiungere dati nel modello di messaggio per testare la personalizzazione dei messaggi transazionali. In questo modo puoi generare un’anteprima o inviare una bozza. Se si installa il modulo **Consegna**, questi dati consentono di visualizzare un rendering dei messaggi per vari client desktop, web o mobili.
 
@@ -151,7 +151,7 @@ Puoi verificare la consegna dei messaggi inviando una bozza a un indirizzo di se
 
 L’invio di una bozza comporta la stessa procedura utilizzata per qualsiasi consegna.
 
-[!DNL :arrow_upper_right:] Ulteriori informazioni sulle bozze nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=it){target=&quot;_blank&quot;}
+↗️ Ulteriori informazioni sulle bozze nella documentazione di [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=it){target=&quot;_blank&quot;}
 
 Tuttavia, per inviare una prova di un messaggio sulle transazioni, devi eseguire le seguenti operazioni:
 
