@@ -6,9 +6,9 @@ feature: Tipi di pubblico
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 136209f05cf302a1e73a2aa18c051260edeb0762
+source-git-commit: a468597714e3974c85e4ada3b6c2ee405717106a
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Una volta che la Console client è stata appena installata, segui i passaggi seg
 
    Ad esempio, puoi utilizzare l&#39;URL del tipo [`https://<machine>.<domain>.com`](https://myserver.adobe.com).
 
-1. Se Adobe Identity Management System (IMS) è configurato per la tua organizzazione, seleziona l’opzione **[!UICONTROL Connect with an Adobe ID]** .
+1. Seleziona l’opzione **[!UICONTROL Connect with an Adobe ID]**.
 
 1. Fai clic su **[!UICONTROL Ok]** per salvare le impostazioni.
 
