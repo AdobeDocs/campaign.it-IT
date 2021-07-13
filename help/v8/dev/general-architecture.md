@@ -3,10 +3,10 @@ product: Adobe Campaign
 title: Architettura generale
 description: Ulteriori informazioni sull’architettura e sui componenti di Campaign
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-source-git-commit: 8b31e24e0b6cfb699179e62366bc6706e9019382
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '1217'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
@@ -32,15 +32,15 @@ L’accesso all’applicazione può essere effettuato in diversi modi: Integrazi
 
 * **Console** client: L&#39;interfaccia utente principale dell&#39;applicazione è un&#39;applicazione nativa (su Windows) che comunica con il server dell&#39;applicazione Adobe Campaign con i protocolli Internet standard (SOAP, HTTP, ecc.). La console client di Adobe Campaign consente una produttività semplice e intuitiva, utilizza una larghezza di banda molto ridotta (grazie a una cache locale) ed è progettata per una facile distribuzione. Questa console può essere implementata da un browser Internet, può essere aggiornata automaticamente e non richiede alcuna configurazione di rete specifica in quanto genera solo traffico HTTP(S).
 
-   [!DNL :bulb:] [Ulteriori informazioni sulla console client di Campaign](../start/connect.md).
+   ?? [Ulteriori informazioni su Campaign Client Console](../start/connect.md).
 
 * **Accesso** Web: parti dell&#39;applicazione sono accessibili tramite un semplice browser web che utilizza un&#39;interfaccia utente HTML, tra cui il modulo di reporting, le fasi di approvazione della consegna, il monitoraggio dell&#39;istanza, ecc.
 
-   [!DNL :bulb:] [Ulteriori informazioni su Campaign Web Access](../start/connect.md).
+   ?? [Scopri come accedere a Campaign dal web](../start/connect.md).
 
 * **API** di Campaign: In alcuni casi, il sistema può essere chiamato da un’applicazione esterna utilizzando le API dei servizi Web esposte tramite il protocollo SOAP.
 
-   [!DNL :bulb:] [Ulteriori informazioni sulle API di Campaign](../dev/api.md).
+   ? [Ulteriori informazioni sulle API di Campaign](../dev/api.md).
 
 ## Ambiente di sviluppo {#dev-env}
 
@@ -125,6 +125,6 @@ I clienti possono implementare Adobe Campaign utilizzando il database e gli sche
 
 >[!CAUTION]
 >
->Con **Cloud Services gestiti da Campaign**, l’ambiente e la configurazione iniziale sono stati impostati per Adobe, in base ai termini del contratto di licenza. Non è consentito modificare i pacchetti incorporati, gli schemi o i rapporti incorporati installati.
+>Con **Campaign Managed Cloud Services**, l’ambiente e la configurazione iniziale sono stati impostati da Adobe, in base ai termini del contratto di licenza. Non ti è consentito modificare i pacchetti, gli schemi e i report integrati.
 >
->Se devi utilizzare un componente aggiuntivo Campaign o una funzionalità specifica non disponibile, contatta l’ **Adobe Customer Care**.
+>Se hai la necessità di utilizzare un componente aggiuntivo di Campaign o una funzionalità specifica non fornita, contatta l’**Assistenza clienti di Adobe**.
