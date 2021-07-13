@@ -5,7 +5,7 @@ description: Guida introduttiva alla notifica push in Campaign
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: 3aed82c4c054b45b7e1d90082dee6af7ba02ea69
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 4%
@@ -23,7 +23,7 @@ Per inviare notifiche push in Adobe Campaign, devi:
 1. Aggiungi al servizio le versioni iOS e Android dell&#39;applicazione.
 1. Crea una consegna per iOS e Android.
 
-[!DNL :arrow_upper_right:] Scopri come iniziare a utilizzare l’app mobile nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html){target=&quot;_blank&quot;}
+↗️ Scopri come iniziare a utilizzare l’app mobile nella documentazione di [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html){target=&quot;_blank&quot;}
 
 ## Integrare con Adobe SDK
 
@@ -33,21 +33,21 @@ L’SDK di Campaign facilita l’integrazione dell’app mobile nella piattaform
 
 Le versioni SDK compatibili sono elencate in [Matrice di compatibilità di Campaign](../start/compatibility-matrix.md#MobileSDK).
 
-[!DNL :bulb:] Scopri come integrare gli SDK Campaign Android e iOS con la tua app in  [questa sezione](../config/push-config.md)
+? Scopri come integrare gli SDK Campaign Android e iOS con la tua app in [questa sezione](../config/push-config.md)
 
 ### Configurare l’estensione Campaign in Launch
 
 Puoi integrare l’SDK di Adobe Experience Platform Launch con Campaign, sfruttando l’estensione Campaign Classic.
 
-[!DNL :arrow_upper_right:] Ulteriori informazioni sono disponibili nella documentazione  [Adobe Mobile SDK](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic){target=&quot;_blank&quot;}
+↗️ Ulteriori informazioni nella [documentazione Adobe Mobile SDK](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic){target=&quot;_blank&quot;}
 
 ## Configurare le impostazioni dell’app in Campaign
 
 Devi definire le impostazioni delle app iOS e Android in Adobe Campaign.
 
-[!DNL :arrow_upper_right:] Le linee guida per la configurazione di iOS sono descritte in dettaglio nella documentazione [ di ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en#sending-messages)Campaign Classic v7{target=&quot;_blank&quot;}
+Le linee guida per la configurazione ↗️ per iOS sono descritte in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en#sending-messages){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] Le linee guida di configurazione per Android sono descritte in dettaglio nella documentazione [ di ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html?lang=en#sending-messages)Campaign Classic v7{target=&quot;_blank&quot;}
+Le linee guida per la configurazione ↗️ per Android sono illustrate in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html?lang=en#sending-messages){target=&quot;_blank&quot;}
 
 ## Creare la prima notifica push
 
@@ -61,7 +61,7 @@ Per creare una nuova consegna, passa alla scheda **[!UICONTROL Campaigns]** , fa
 
 ![](assets/delivery_step_1.png)
 
-[!DNL :arrow_upper_right:] Per informazioni globali su come creare una consegna, consulta la documentazione [ di ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html?lang=en#sending-messages)Campaign Classic v7{target=&quot;_blank&quot;}
+↗️ Per informazioni globali su come creare una consegna, consulta la documentazione di [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html?lang=en#sending-messages){target=&quot;_blank&quot;}
 
 ### Inviare notifiche su iOS {#send-notifications-on-ios}
 
@@ -98,7 +98,7 @@ Per creare una nuova consegna, passa alla scheda **[!UICONTROL Campaigns]** , fa
    ![](assets/push-ios-preview.png)
 
 
-### Invia notifiche su Android {#send-notifications-on-android}
+### Invio di notifiche su Android {#send-notifications-on-android}
 
 1. Seleziona il modello di consegna **[!UICONTROL Deliver on Android (android)]**.
 
@@ -129,15 +129,15 @@ Per creare una nuova consegna, passa alla scheda **[!UICONTROL Campaigns]** , fa
 Per inviare una bozza e la consegna finale, utilizza lo stesso processo delle consegne e-mail. Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7:
 
 * Convalidare una consegna e inviare bozze
-   [!DNL :arrow_upper_right:] [Scopri i passaggi chiave per convalidare una consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target=&quot;_blank&quot;}
+↗️ [Scopri i passaggi chiave per convalidare una consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=it){target=&quot;_blank&quot;}
 
 * Conferma e invia la consegna
-   [!DNL :arrow_upper_right:] [Scopri i passaggi chiave per inviare una consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=en){target=&quot;_blank&quot;}
+↗️ [Scopri i passaggi chiave per inviare una consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=en){target=&quot;_blank&quot;}
 
 Dopo aver inviato i messaggi, puoi monitorare e tenere traccia delle consegne. Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7:
 
 * quarantene di notifiche push
-   [!DNL :arrow_upper_right:] [Ulteriori informazioni sulla quarantena delle notifiche push](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#push-notification-quarantines){target=&quot;_blank&quot;}
+↗️ [Ulteriori informazioni sulla quarantena delle notifiche push](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#push-notification-quarantines){target=&quot;_blank&quot;}
 
 * Risoluzione dei problemi
-   [!DNL :arrow_upper_right:] [Scopri come risolvere i problemi delle notifiche push](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/troubleshooting.html?lang=en){target=&quot;_blank&quot;}
+↗️ [Scopri come risolvere i problemi delle notifiche push](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/troubleshooting.html?lang=en){target=&quot;_blank&quot;}
