@@ -5,7 +5,7 @@ description: Meccanismo di staging API di Campaign
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 2%
@@ -56,7 +56,7 @@ Per implementare il meccanismo di staging di Campaign su una tabella specifica, 
    </srcSchema>
    ```
 
-   [!DNL :bulb:] Ulteriori informazioni sulla creazione di schemi personalizzati in  [questa pagina](create-schema.md).
+   ? Ulteriori informazioni sulla creazione di schemi personalizzati in [questa pagina](create-schema.md).
 
 1. Salvare e aggiornare la struttura del database.  [Ulteriori informazioni](update-database-structure.md)
 
