@@ -5,10 +5,10 @@ description: Impostazioni del canale e-mail di Campaign
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -31,7 +31,7 @@ Tieni presente che:
 
 * Vengono prese in considerazione solo le e-mail inviate con successo. I messaggi non recapitati non lo sono.
 
-[!DNL :speech_balloon:] In qualità di utente di Cloud Services gestiti,  [contatta ](../start/campaign-faq.md#support) Adobe per attivare Ccn e-mail in Campaign. L’indirizzo e-mail CCN desiderato deve essere fornito al team di Adobe che lo configurerà per te.
+? In qualità di utente di Cloud Services gestiti, [contatta Adobe](../start/campaign-faq.md#support) per attivare CCN e-mail in Campaign. L’indirizzo e-mail CCN desiderato deve essere fornito al team di Adobe che lo configurerà per te.
 
 Una volta configurato il CCN dell’e-mail, accertati che la funzione sia abilitata nel modello di consegna o nella consegna tramite l’opzione **CCN dell’e-mail** .
 
@@ -41,14 +41,14 @@ Una volta configurato il CCN dell’e-mail, accertati che la funzione sia abilit
 **Argomenti correlati** nella documentazione di Campaign Classic v7:
 
 
-[!DNL :arrow_upper_right:] [Genera la pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#generating-mirror-page) speculare{target=&quot;_blank&quot;}
+↗️ [Genera la pagina speculare](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#generating-mirror-page){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [Seleziona il formato](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#selecting-message-formats) e-mail {target=&quot;_blank&quot;}
+↗️ [Seleziona formato e-mail](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#selecting-message-formats){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [Seleziona la codifica](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#character-encoding) dei caratteri {target=&quot;_blank&quot;}
+↗️ [Selezionare la codifica dei caratteri](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#character-encoding){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [Imposta l&#39;indirizzo](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#managing-bounce-emails) e-mail non recapitato{target=&quot;_blank&quot;}
+↗️ [Imposta indirizzo e-mail non recapitato](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#managing-bounce-emails){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [Utilizza modelli](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=it) di consegna e-mail{target=&quot;_blank&quot;}
+↗️ [Utilizza modelli di consegna e-mail](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=it){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [Comprendere gli errori di consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html){target=&quot;_blank&quot;}
+↗️ [Comprendere gli errori di consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html){target=&quot;_blank&quot;}
