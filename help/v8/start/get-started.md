@@ -6,10 +6,10 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
-workflow-type: ht
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+workflow-type: tm+mt
 source-wordcount: '900'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -31,9 +31,9 @@ I profili sono centralizzati in un potente database cloud. Esistono molti possib
 
 In Adobe Campaign, i destinatari sono i profili predefiniti oggetto di targeting per l’invio di consegne (e-mail, SMS, ecc.). Grazie ai dati sui destinatari archiviati nel database, potrai filtrare il target che riceverà una determinata consegna e aggiungere dati di personalizzazione nei contenuti della consegna. Nel database sono presenti altri tipi di profili. Essi sono progettati per diversi utilizzi. Ad esempio, i profili di seed vengono creati per testare le consegne prima che vengano inviate al target finale.
 
-[!DNL :bulb:] Le nozioni di base sulla gestione dei profili sono illustrate in [questa sezione](audiences.md).
+?? Le nozioni di base sulla gestione dei profili sono illustrate in [questa sezione](audiences.md).
 
-[!DNL :bulb:] Scopri come aggiungere profili a Campaign in [questa sezione](import.md).
+?? Scopri come aggiungere profili a Campaign in [questa sezione](import.md).
 
 ## Segmentazione mirata {#targeted-segmentation}
 
@@ -41,13 +41,13 @@ Adobe Campaign dispone di funzioni di segmentazione e targeting potenti e intuit
 
 La funzionalità avanzata di gestione dei dati estende le funzionalità di elaborazione dei dati. Semplifica e ottimizza il processo di targeting includendo dati non modellati nel data mart.
 
-[!DNL :bulb:] Ulteriori informazioni sulla segmentazione, la creazione di tipi di pubblico e la personalizzazione sono disponibili in [questa sezione](audiences.md).
+?? Ulteriori informazioni sulla segmentazione, la creazione di tipi di pubblico e la personalizzazione sono disponibili in [questa sezione](audiences.md).
 
 ## Orchestrazione di campagne cross-channel {#cross-channel-campaign-orchestration}
 
  Adobe Campaign ti consente di progettare e orchestrare campagne mirate e personalizzate su più canali: e-mail, direct mail, SMS, notifica push. Un’unica interfaccia ti offre tutte le funzioni necessarie per pianificare, orchestrare, configurare, personalizzare, automatizzare, eseguire e misurare tutte le tue campagne e comunicazioni.
 
-[!DNL :bulb:] Scopri come progettare, pianificare ed eseguire una campagna in [questa sezione](campaigns.md).
+?? Scopri come progettare, pianificare ed eseguire una campagna in [questa sezione](campaigns.md).
 
 ## Flussi di lavoro
 
@@ -62,25 +62,25 @@ I flussi di lavoro possono essere utilizzati in contesti diversi, ad esempio:
 * Importazione dei dati nel database di Campaign.
 * Processi tecnici come la pulizia del database, il recupero delle informazioni di tracciamento, eccetera.
 
-[!DNL :bulb:] Scopri come progettare ed eseguire flussi di lavoro in [questa sezione](../config/workflows.md).
+?? Scopri come progettare ed eseguire flussi di lavoro in [questa sezione](../config/workflows.md).
 
 ## Reporting e analisi {#analysis-and-reporting}
 
  Adobe Campaign ti consente di monitorare e interpretare il comportamento dei clienti arricchendo gradualmente i loro dati e profili. Gli strumenti di reporting e di analisi ti consentono di sfruttare al meglio ogni nuova campagna, di eseguire meglio il targeting delle iniziative di marketing e di ottimizzarne l’impatto e il ritorno sull’investimento.
 
-[!DNL :bulb:] Scopri le funzionalità di reporting e tracciamento in [questa sezione](reporting.md).
+?? Scopri le funzionalità di reporting e tracciamento in [questa sezione](reporting.md).
 
 ## Integrazioni con Adobe Experience Cloud {#adobe-experience-cloud-integrations}
 
 Puoi combinare le funzionalità di consegna e le funzionalità avanzate di gestione campagne di Adobe Campaign con una serie di soluzioni create per aiutarti a personalizzare l’esperienza utente: Adobe Experience Manager, Adobe Analytics, Adobe Target o i trigger di Adobe Experience Cloud, ad esempio.
 
-[!DNL :bulb:] Scopri come effettuare l’integrazione con i servizi e le soluzioni di Adobe in [questa sezione](../connect/integration.md).
+?? Scopri come effettuare l’integrazione con i servizi e le soluzioni di Adobe in [questa sezione](../connect/integration.md).
 
 ## Ulteriori informazioni sulle funzionalità di Campaign {#core-capabilities-and-add-ons}
 
 Adobe Campaign offre una serie di funzionalità per aiutarti a implementare e ottimizzare le funzionalità di marketing conversazionale in base alle tue esigenze e alla tua architettura. Alcune di queste sono funzionalità di base e altre dipendono dall’installazione di un pacchetto nella configurazione. Una descrizione dettagliata del prodotto è disponibile qui: [Adobe Campaign v8 Product Description](https://helpx.adobe.com/it/legal/product-descriptions/adobe-campaign-managed-cloud-services.html).
 
-[!DNL :bulb:] Hai già familiarità con Campaign Classic? Scopri le differenze principali tra Campaign Classic e Campaign v8 in [questa pagina](capability-matrix.md).
+?? Hai già familiarità con Campaign Classic? Scopri le differenze principali tra Campaign Classic e Campaign v8 in [questa pagina](capability-matrix.md).
 
 ## Area di lavoro e personalizzazione
 
@@ -88,17 +88,17 @@ L’area di lavoro di Campaign è disponibile tramite [Client Console](../dev/ge
 
 ![](assets/home-page.png)
 
-[!DNL :bulb:] [Ulteriori informazioni su Campaign Client Console](../start/connect.md).
+?? [Ulteriori informazioni su Campaign Client Console](../start/connect.md).
 
 L’area di lavoro di Campaign può essere adattata in base alle tue esigenze.
 
-[!DNL :arrow_upper_right:] Scopri come utilizzare l’area di lavoro di Campaign nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=it){target=&quot;_blank&quot;}
+↗️ Scopri come utilizzare l’area di lavoro di Campaign nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=it){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] Scopri come personalizzare gli elenchi nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=it){target=&quot;_blank&quot;}.
+↗️ Scopri come personalizzare gli elenchi nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=it){target=&quot;_blank&quot;}
 
 Puoi anche accedere ad alcune funzionalità via web.
 
-[!DNL :bulb:] [Scopri come accedere a Campaign dal web](../start/connect.md#web-access).
+?? [Scopri come accedere a Campaign dal web](../start/connect.md#web-access).
 
 
 ## Lingue
