@@ -2,7 +2,7 @@
 product: Adobe Campaign
 title: Best practice per i modelli di dati
 description: Scopri le best practice per l’estensione del modello dati di Campaign
-source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '2683'
 ht-degree: 4%
@@ -17,9 +17,9 @@ Il sistema Adobe Campaign è molto flessibile e può essere esteso oltre l&#39;i
 
 Per una migliore comprensione delle tabelle integrate di Campaign e del modo in cui si relazionano tra loro, consulta [questa sezione](datamodel.md) .
 
-[!DNL :bulb:] Consulta  [questa ](schemas.md) sezione per iniziare a utilizzare gli schemi di Campaign.
+? Per iniziare a utilizzare gli schemi di Campaign, leggi [questa sezione](schemas.md) .
 
-[!DNL :bulb:] Scopri come configurare gli schemi di estensione per estendere il modello dati concettuale del database Adobe Campaign in  [questa pagina](extend-schema.md).
+? Scopri come configurare gli schemi di estensione per estendere il modello dati concettuale del database Adobe Campaign in [questa pagina](extend-schema.md).
 
 ## Architettura del modello dati {#data-model-architecture}
 
@@ -67,7 +67,7 @@ Per garantire una buona architettura e prestazioni del sistema, segui le best pr
 
 Un campo deve essere memorizzato in una tabella se ha uno scopo di targeting o personalizzazione. In altre parole, se un campo non viene utilizzato per inviare un’e-mail personalizzata o come criterio in una query, occuperà inutilmente spazio su disco.
 
-### Scelta dei tasti {#choice-of-keys}
+### Scelta di chiavi {#choice-of-keys}
 
 Oltre alle **autouuid** e **autopk** definite per impostazione predefinita nella maggior parte delle tabelle, è consigliabile aggiungere alcune chiavi logiche o aziendali (numero di account, numero di client e così via). Può essere utilizzato successivamente per le importazioni/riconciliazione o i pacchetti di dati. Per ulteriori informazioni, consulta [Identificatori](#identifiers).
 
@@ -98,7 +98,7 @@ La chiave primaria di Adobe Campaign è un UUID generato automaticamente per tut
 Anche se il numero di ID è infinito, ti devi occupare delle dimensioni del database per garantire prestazioni ottimali. Per evitare qualsiasi problema, assicurati di regolare le impostazioni di eliminazione dell’istanza. Per ulteriori informazioni, consulta [questa sezione](#data-retention).
 
 
-## Tasti interni personalizzati {#custom-internal-keys}
+## Chiavi interne personalizzate {#custom-internal-keys}
 
 Le chiavi primarie sono necessarie per ogni tabella creata in Adobe Campaign.
 
@@ -175,7 +175,7 @@ Sono disponibili alcune soluzioni per ridurre al minimo la necessità di record 
 
 È possibile dichiarare l&#39;attributo &quot;deleteStatus&quot; in uno schema. È più efficiente contrassegnare il record come eliminato, quindi rimandare l&#39;eliminazione nell&#39;attività di pulizia.
 
-[!DNL :speech_balloon:] In qualità di utente di Cloud Services gestiti, rivolgiti ai consulenti o agli amministratori tecnici di Adobe per ulteriori informazioni sulla fidelizzazione o per impostare la fidelizzazione per le tabelle personalizzate.
+? In qualità di utente di Cloud Services gestiti, rivolgiti ai consulenti o agli amministratori tecnici di Adobe per ulteriori informazioni sulla fidelizzazione o per impostare la fidelizzazione per le tabelle personalizzate.
 
 ## Prestazioni {#performance}
 
