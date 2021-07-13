@@ -6,7 +6,7 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '1249'
 ht-degree: 2%
@@ -34,37 +34,33 @@ Scopri come progettare flussi di lavoro in questi [casi d’uso end-to-end](#end
 
 Ulteriori informazioni sull’interfaccia utente e l’esecuzione dei flussi di lavoro nella documentazione di Campaign Classic v7:
 
-[!DNL :arrow_upper_right:]  [Introduzione ai flussi di lavoro](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows){target=&quot;_blank&quot;}
+↗️ [Introduzione ai flussi di lavoro](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows){target=&quot;_blank&quot;}
 * Attività del flusso di lavoro:
    * [Attività](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html) di targeting {target=&quot;_blank&quot;}: Query, Elenco di lettura, Arricchimento, Unione e altro ancora
    * [Attività](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/about-flow-control-activities.html) di controllo del flusso {target=&quot;_blank&quot;}: Scheduler, Fork, Alert, Segnale esterno e altro ancora
    * [Attività](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html) azione {target=&quot;_blank&quot;}: Consegne cross-channel, codice JavaScript, attività CRM, aggiornamento aggregato e altro ancora
-   * [Attività](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html) evento {target=&quot;_blank&quot;}: Trasferimento file, download web e altro ancora
-      [!DNL :arrow_upper_right:]  [Creare un pubblico in un flusso di lavoro della campagna di marketing](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow){target=&quot;_blank&quot;}
-      [!DNL :arrow_upper_right:]  [Best practice per i flussi di lavoro](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html){target=&quot;_blank&quot;}
-      [!DNL :arrow_upper_right:] [Flussi di lavoro tecnici incorporati](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html){target=&quot;_blank&quot;}
-      [!DNL :arrow_upper_right:] [Monitorare l&#39;esecuzione](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html) dei flussi di lavoro{target=&quot;_blank&quot;}
+   * [Attività](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html) evento {target=&quot;_blank&quot;}: Trasferimento file, download web e altro ↗️   [Creare un pubblico in un flusso di lavoro di una campagna di marketing](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow){target=&quot;_blank&quot;} ↗️ best practice per i   [flussi di lavoro](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html){target=&quot;_blank&quot;} ↗️ flussi di lavoro tecnici  [incorporati](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html){target=&quot;_blank&quot;} ↗️  [Monitora l&#39;esecuzione dei flussi di lavoro](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html){target=&quot;_blank&quot;}
 
 
 ## Configurare campagne ricorrenti
 
 Progetta un flusso di lavoro ricorrente e crea una nuova istanza di consegna ogni volta che il flusso di lavoro viene eseguito. Ad esempio, se il flusso di lavoro è progettato per essere eseguito una volta alla settimana, si otterranno 52 consegne dopo un anno. Ciò significa anche che i registri saranno separati da ogni istanza di consegna.
 
-[!DNL :arrow_upper_right:] Scopri come creare una campagna ricorrente nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns){target=&quot;_blank&quot;}
+↗️ Scopri come creare una campagna ricorrente nella documentazione di [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns){target=&quot;_blank&quot;}
 
 
 ## Sfruttare gli eventi trigger
 
 Utilizza la messaggistica transazionale di Campaign per automatizzare i messaggi generati dagli eventi attivati dai sistemi di informazioni. Questi messaggi transazionali possono essere fatture, conferma dell&#39;ordine, conferma della spedizione, modifica della password, notifica di indisponibilità del prodotto, dichiarazione dell&#39;account o creazione dell&#39;account del sito web, ad esempio. Questi messaggi possono essere inviati singolarmente o in batch tramite e-mail, SMS o notifiche push.
 
-[!DNL :bulb:] Ulteriori informazioni sulle funzionalità di messaggistica transazionale in  [questa sezione](../send/transactional.md).
+? Ulteriori informazioni sulle funzionalità di messaggistica transazionale in [questa sezione](../send/transactional.md).
 
 Collega Adobe Campaign e Adobe Analytics per recuperare le azioni degli utenti e inviare messaggi personalizzati in tempo reale.
 
-[!DNL :bulb:] Scopri come integrare Campaign con altre soluzioni in  [questa sezione](../start/connect.md)
+? Scopri come integrare Campaign con altre soluzioni in [questa sezione](../start/connect.md)
 
 
-## Casi di utilizzo end-to-end del flusso di lavoro{#end-to-end-uc}
+## Casi d’uso end-to-end del flusso di lavoro{#end-to-end-uc}
 
 In questa sezione troverai vari casi d’uso che sfruttano le funzionalità dei flussi di lavoro di Campaign. Questi casi d’uso sono generati in Adobe Campaign Classic v7 e si applicano ad Adobe Campaign v8.
 
