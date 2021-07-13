@@ -2,7 +2,7 @@
 product: Adobe Campaign
 title: Mappatura del database Campaign
 description: Mappatura del database Campaign
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '1463'
 ht-degree: 0%
@@ -256,7 +256,7 @@ Per le relazioni di unione che utilizzano Federated Database Access:
 * ![](assets/do-not-localize/join_fda_11.png) : Cardinalità 1-1
 * ![](assets/do-not-localize/join_fda_1m.png) : Cardinalità 1-N
 
-[!DNL :bulb:] Per ulteriori informazioni sulle tabelle FDA, consulta  [Federated Data Access](../connect/fda.md).
+? Per ulteriori informazioni sulle tabelle FDA, consulta [Federated Data Access](../connect/fda.md).
 
 Un collegamento deve essere dichiarato nello schema contenente la chiave esterna della tabella collegata tramite l’elemento principale:
 
@@ -377,7 +377,7 @@ Relazione 1-1 alla tabella dello schema &quot;cus:extension&quot;:
 <element integrity="own" label="Extension" name="extension" revCardinality="single" revLink="recipient" target="cus:extension" type="link"/>
 ```
 
-### Esempio 5 {#example-4}
+### Esempio 4 {#example-4}
 
 Collega a una cartella (&quot;schema xtk:folder&quot;):
 
@@ -387,7 +387,7 @@ Collega a una cartella (&quot;schema xtk:folder&quot;):
 
 Il valore predefinito restituisce l&#39;identificatore del primo file di tipo di parametro idoneo immesso nella funzione &quot;DefaultFolder(&#39;nmsFolder&#39;)&quot;.
 
-### Esempio 4 {#example-5}
+### Esempio 5 {#example-5}
 
 In questo esempio, desideriamo creare una chiave su un collegamento (&quot;azienda&quot; a schema &quot;cus:company&quot;) con l&#39;attributo **xlink** e un campo della tabella (&quot;e-mail&quot;):
 
