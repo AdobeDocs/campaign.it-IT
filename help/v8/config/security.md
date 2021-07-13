@@ -2,14 +2,14 @@
 product: Adobe Campaign
 title: Best practice per la sicurezza di Campaign
 description: Guida introduttiva alle best practice per la sicurezza di Campaign
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 1%
 
 ---
 
-# Best practice per la sicurezza delle campagne {#ac-security}
+# Best practice per la sicurezza di Campaign {#ac-security}
 
 Ad Adobe, prendiamo la sicurezza della tua esperienza digitale molto seriamente. Le pratiche di sicurezza sono profondamente radicate nei nostri processi e strumenti interni di sviluppo software e operazioni e sono rigorosamente seguite dai nostri team interfunzionali per prevenire, rilevare e rispondere agli incidenti in modo opportuno.
 
@@ -24,7 +24,7 @@ La configurazione e l’indurimento della privacy è un elemento chiave dell’o
 * Assicurati che le password crittografate siano limitate
 * Protect le pagine che possono contenere informazioni personali come pagine mirror, applicazioni web, ecc.
 
-[!DNL :speech_balloon:] In qualità di utente di Cloud Services gestiti, Adobe collaborerà con te per implementare queste configurazioni nel tuo ambiente.
+? In qualità di utente di Cloud Services gestiti, Adobe collaborerà con te per implementare queste configurazioni nel tuo ambiente.
 
 ## Personalizzazione
 
@@ -107,7 +107,7 @@ La gestione degli accessi è una parte importante dell&#39;irrigidimento della s
 * Verificare che ogni operatore disponga dei diritti di accesso appropriati
 * Evita di utilizzare l&#39;operatore amministratore ed evita di avere troppi operatori nel gruppo di amministrazione
 
-[!DNL :arrow_upper_right:] Ulteriori informazioni nella documentazione di  [Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator){target=&quot;_blank&quot;}
+↗️ Ulteriori informazioni nella documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator){target=&quot;_blank&quot;}[
 
 ## Linee guida sulla codifica
 
@@ -119,4 +119,4 @@ Nello sviluppo in Adobe Campaign (flussi di lavoro, JavaScript, JSSP, ecc.), seg
 
 * **Aggiungi i sottotitoli nelle applicazioni** web: aggiungi le didascalie nelle pagine di destinazione pubbliche e nelle pagine di abbonamento.
 
-[!DNL :arrow_upper_right:] Ulteriori informazioni nella documentazione di  [Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic){target=&quot;_blank&quot;}
+↗️ Ulteriori informazioni nella documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic){target=&quot;_blank&quot;}[
