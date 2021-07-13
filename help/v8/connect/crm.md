@@ -5,10 +5,10 @@ description: 'Scopri come lavorare con Campaign e il tuo CRM '
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '267'
-ht-degree: 23%
+ht-degree: 25%
 
 ---
 
@@ -26,16 +26,16 @@ Questi connettori consentono un’integrazione rapida e semplice dei dati: Adobe
 
 Le versioni e i sistemi di gestione delle relazioni con i clienti supportati sono descritti in dettaglio in Campaign [Matrice di compatibilità](../start/compatibility-matrix.md).
 
-[!DNL :speech_balloon:] I connettori di gestione delle relazioni con i clienti funzionano solo con un URL sicuro (https).
+? I connettori di gestione delle relazioni con i clienti funzionano solo con un URL sicuro (https).
 
 ## Passaggi di implementazione {#crm-implementation-steps}
 
-[!DNL :arrow_upper_right:] Scopri la procedura dettagliata per collegare Campaign e Microsoft Dynamics nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html?lang=en#microsoft-dynamics-implementation-steps)
+↗️ Scopri la procedura dettagliata per collegare Campaign e Microsoft Dynamics nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html?lang=en#microsoft-dynamics-implementation-steps)
 
-[!DNL :arrow_upper_right:] Scopri la procedura dettagliata per collegare Campaign e Salesforce nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-sfdc.html?lang=en#getting-started)
+↗️ Scopri la procedura dettagliata per collegare Campaign e Salesforce nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-sfdc.html?lang=en#getting-started)
 
 
 La sincronizzazione dei dati tra Adobe Campaign e il CRM viene eseguita tramite un’attività di flusso di lavoro dedicata. Crea i tuoi flussi di lavoro per automatizzare la sincronizzazione tra Campaign e il tuo CRM. È possibile creare un flusso di lavoro che importa i contatti tramite Microsoft Dynamics, li sincronizza con i dati esistenti di Adobe Campaign, elimina i contatti duplicati e quindi aggiorna il database di Adobe Campaign.
 
-[!DNL :arrow_upper_right:] Ulteriori informazioni nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-data-sync.html?lang=en#getting-started)
+↗️ Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-data-sync.html?lang=en#getting-started)
 
