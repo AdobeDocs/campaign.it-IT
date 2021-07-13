@@ -6,7 +6,7 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 8b31e24e0b6cfb699179e62366bc6706e9019382
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 2%
@@ -29,7 +29,7 @@ Tre tipi di ambienti disponibili con Cloud Service Campaign:
 
 Puoi esportare e importare i pacchetti da un ambiente all’altro.
 
-[!DNL :arrow_upper_right:] Ulteriori informazioni sui pacchetti nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html)
+↗️ Ulteriori informazioni sui pacchetti nella documentazione di [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html)
 
 ## Implementazione mid-sourcing{#mid-sourcing-deployment}
 
@@ -46,11 +46,11 @@ La comunicazione generale tra server e processi viene eseguita secondo il seguen
 > Campaign v8 si basa su un’architettura ibrida. Se stai eseguendo la transizione da Campaign Classic v7, tieni presente che tutte le consegne passano attraverso il server di mid-sourcing .
 > Di conseguenza, l’indirizzamento interno è **impossibile** in Campaign v8 e l’account esterno è stato disabilitato di conseguenza.
 
-## Architettura del centro messaggi{#transac-msg-archi}
+## Architettura del Centro messaggi{#transac-msg-archi}
 
 La messaggistica transazionale (Message Center) è il modulo di Campaign progettato per la gestione dei messaggi di attivazione.
 
-[!DNL :bulb:] Scopri come inviare messaggi transazionali in  [questa sezione](../send/transactional.md).
+? Scopri come inviare messaggi transazionali in [questa sezione](../send/transactional.md).
 
 In risposta a un’azione di un cliente su un sito web, viene inviato un evento Campaign tramite un’API REST e il modello di messaggio viene compilato con le informazioni o i dati forniti tramite la chiamata API e viene inviato al cliente un messaggio transazionale in tempo reale. Questi messaggi possono essere inviati singolarmente o in batch tramite e-mail, SMS o notifiche push.
 
@@ -58,7 +58,7 @@ In questa architettura specifica, la cella di esecuzione è separata dall’ista
 
 * L’ **istanza di controllo** (o istanza di marketing) viene utilizzata dagli esperti di marketing e dai team IT per creare, configurare e pubblicare modelli di messaggio. Questa istanza centralizza anche il monitoraggio e la cronologia degli eventi.
 
-   [!DNL :bulb:] Scopri come creare e pubblicare modelli di messaggio in  [questa sezione](../send/transactional.md).
+   ? Scopri come creare e pubblicare modelli di messaggio in [questa sezione](../send/transactional.md).
 
 * L’ **istanza di esecuzione** recupera gli eventi in arrivo (ad esempio, reimpostazione della password o ordini da un sito web) e invia messaggi personalizzati. Ci può essere più di un&#39;istanza di esecuzione per elaborare i messaggi tramite il load-balancer e scalare il numero di eventi da elaborare per la massima disponibilità.
 
@@ -79,4 +79,4 @@ Quindi, con sessionToken fornito dall&#39;istanza di esecuzione in risposta alla
 * Più istanze di esecuzione
 In un’architettura di esecuzione a più celle con più istanze di esecuzione dietro un load balancer, il metodo di accesso richiamato dall’applicazione esterna passa attraverso il load balancer: per questo motivo non è possibile utilizzare un’autenticazione basata su token. È necessaria un’autenticazione basata su utente/password.
 
-[!DNL :arrow_upper_right:] Ulteriori informazioni sugli eventi di messaggistica transazionale nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html#about-transactional-messaging-datamodel)
+↗️ Ulteriori informazioni sugli eventi di messaggistica transazionale nella documentazione [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html#about-transactional-messaging-datamodel)
