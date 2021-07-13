@@ -6,10 +6,10 @@ feature: Tipi di pubblico
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+source-git-commit: 136209f05cf302a1e73a2aa18c051260edeb0762
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 1%
+source-wordcount: '695'
+ht-degree: 0%
 
 ---
 
@@ -75,7 +75,7 @@ Per accedere a un&#39;istanza esistente, segui i passaggi seguenti:
 
 1. Fai clic su **[!UICONTROL Ok]**.
 
-1. Puoi quindi accedere a Campaign.
+1. Puoi quindi accedere a Campaign con il tuo Adobe ID](#connect-ims).[
 
    ![](assets/adobeID.png)
 
@@ -99,11 +99,9 @@ Ulteriori informazioni sull&#39;Adobe IMS in [questa pagina](https://helpx.adobe
 
 ## Accesso Web{#web-access}
 
-Alcune parti dell&#39;applicazione sono accessibili tramite un semplice browser web che utilizza un&#39;interfaccia utente HTML: Dashboard di Campaign, reporting per cubo, monitoraggio delle istanze e altro ancora.
+Alcune parti dell&#39;applicazione sono accessibili tramite un browser web che utilizza un&#39;interfaccia utente HTML: reporting, approvazione della consegna, monitoraggio delle istanze e altro ancora.
 
-↗️ Ulteriori informazioni sull&#39;accesso Web nella documentazione di [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#console-and-web-access){target=&quot;_blank&quot;}
-
-L’accesso Web fornisce un’interfaccia simile alla console, ma con un set ridotto di funzionalità.
+L’accesso Web fornisce un’interfaccia simile alla console ma con un set ridotto di funzionalità.
 
 Ad esempio, per un determinato operatore, nella console verrà visualizzata una campagna con le seguenti opzioni:
 
@@ -115,4 +113,4 @@ Mentre con l&#39;accesso Web, le opzioni consentono principalmente la visualizza
 
 Nel processo di convalida viene utilizzato anche l’accesso Web: gli operatori possono fare clic sull’e-mail di richiesta di approvazione e connettersi a Campaign tramite il proprio browser web per convalidare o rifiutare un contenuto o un budget di consegna.
 
-↗️ Scopri come impostare e gestire le approvazioni nella documentazione di [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=it#orchestrating-campaigns){target=&quot;_blank&quot;}
+Per accedere all’istanza Campaign dal web, l’URL è:  `https://<your adobe campaign server>:<port number>/view/home`.
