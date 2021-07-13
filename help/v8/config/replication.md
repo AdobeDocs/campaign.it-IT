@@ -6,7 +6,7 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4,df76e7ff-3b97-41be-abc2-640748680ff3
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 2%
@@ -21,7 +21,7 @@ Adobe Campaign viene fornito con un set di flussi di lavoro tecnici integrati. I
 
 Questi flussi di lavoro eseguono operazioni di manutenzione sul database, sfruttano le informazioni di tracciamento nei registri di consegna, creano campagne ricorrenti e altro ancora.
 
-[!DNL :arrow_upper_right:] L’elenco completo dei flussi di lavoro tecnici è descritto in dettaglio nella documentazione [ di ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html)Campaign Classic v7{target=&quot;_blank&quot;}
+↗️ L&#39;elenco completo dei flussi di lavoro tecnici è descritto in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html){target=&quot;_blank&quot;}
 
 
 Oltre a questi flussi di lavoro tecnici, Campaign v8 si basa su flussi di lavoro tecnici specifici per gestire la [replica dei dati](#data-replication).
@@ -68,6 +68,6 @@ nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
 
 **Argomenti correlati**
 
-[!DNL :arrow_upper_right:] Scopri come iniziare a utilizzare i flussi di lavoro nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows){target=&quot;_blank&quot;}
+↗️ Scopri come iniziare a utilizzare i flussi di lavoro nella documentazione [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows){target=&quot;_blank&quot;}
 
-[!DNL :bulb:] Accedere ai periodi di conservazione dei dati in  [questa sezione](../dev/datamodel-best-practices.md#data-retention)
+? Accedi ai periodi di conservazione dei dati in [questa sezione](../dev/datamodel-best-practices.md#data-retention)
