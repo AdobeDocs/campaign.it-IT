@@ -2,14 +2,14 @@
 product: Adobe Campaign
 title: Estendere gli schemi di Campaign
 description: Scopri come estendere gli schemi di Campaign
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 2%
 
 ---
 
-# Estendi uno schema{#extend-schemas}
+# Estendere uno schema{#extend-schemas}
 
 In qualità di utente tecnico, puoi personalizzare il modello dati di Campaign per soddisfare le esigenze della tua implementazione: aggiungere elementi a uno schema esistente, modificare un elemento in uno schema o eliminare elementi.
 
@@ -22,7 +22,7 @@ I passaggi chiave per personalizzare il modello dati di Campaign sono i seguenti
 >[!CAUTION]
 >Lo schema predefinito non deve essere modificato direttamente. Se è necessario adattare uno schema incorporato, è necessario estenderlo.
 
-[!DNL :bulb:] Per una migliore comprensione delle tabelle integrate di Campaign e della loro interazione, consulta  [questa pagina](datamodel.md). Vedi anche consigli durante la creazione di un nuovo schema in [questa pagina](create-schema.md).
+? Per una migliore comprensione delle tabelle integrate di Campaign e della loro interazione, consulta [questa pagina](datamodel.md). Vedi anche consigli durante la creazione di un nuovo schema in [questa pagina](create-schema.md).
 
 Per estendere uno schema, segui i passaggi seguenti:
 
