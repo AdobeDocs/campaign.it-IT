@@ -6,7 +6,7 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 1%
@@ -22,7 +22,7 @@ Questa integrazione consente di implementare i casi di utilizzo come segue: quan
 >[!NOTE]
 >L’integrazione supporta solo immagini statiche. Gli altri tipi di contenuto non possono essere personalizzati.
 
-[!DNL :speech_balloon:] In qualità di utente di Cloud Services gestiti,  [contatta ](../start/campaign-faq.md#support) Adobe per implementare i trigger di Experience Cloud con Campaign.
+? In qualità di utente di Cloud Services gestiti, [contatta Adobe](../start/campaign-faq.md#support) per implementare i trigger di Experience Cloud con Campaign.
 
 Adobe Target può utilizzare i seguenti tipi di dati:
 
@@ -52,7 +52,7 @@ In Adobe Campaign e Adobe Target è necessario effettuare le seguenti operazioni
 1. [Creare un’attività Targeting esperienze](#creating-targeting-activity)
 1. [Anteprima e invio del messaggio](#preview-send-email)
 
-### Inserisci l’offerta dinamica in un messaggio e-mail {#inserting-dynamic-offer}
+### Inserire l’offerta dinamica in un messaggio e-mail {#inserting-dynamic-offer}
 
 In Adobe Campaign, definisci il target e il contenuto dell’e-mail. Puoi inserire un’immagine dinamica da Adobe Target.
 
