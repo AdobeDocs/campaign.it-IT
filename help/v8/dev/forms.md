@@ -2,7 +2,7 @@
 product: Adobe Campaign
 title: Moduli di input per Campaign
 description: Scopri come personalizzare i moduli di input
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '2555'
 ht-degree: 0%
@@ -84,7 +84,7 @@ Il controllo edit si adatta automaticamente al tipo di dati corrispondente e uti
 
 Per impostazione predefinita, ogni campo viene visualizzato su una singola riga e occupa tutto lo spazio disponibile a seconda del tipo di dati.
 
-[!DNL :arrow_upper_right:] Tutti gli attributi del modulo sono elencati nella documentazione di  [Campaign Classic v7](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/control-Button.html).
+↗️ Tutti gli attributi del modulo sono elencati nella [documentazione di Campaign Classic v7](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/control-Button.html).
 
 ## Formattazione {#formatting}
 
@@ -324,7 +324,7 @@ Puoi anche ordinare l’elenco con l’elemento **`<orderby>`** :
 * **noZoom**: nessun modulo di modifica sul collegamento (con il valore &quot;true&quot;)
 * **modulo**: sovraccarica il modulo di modifica dell’elemento di destinazione
 
-## Aggiungi un elenco di collegamenti (non associati) {#list-of-links}
+## Aggiungere un elenco di collegamenti (non associati) {#list-of-links}
 
 Un collegamento inserito nello schema dati come elemento di raccolta (unbound=&quot;true&quot;) deve passare attraverso un elenco per visualizzare tutti gli elementi associati ad esso.
 
@@ -453,7 +453,7 @@ I pulsanti della barra degli strumenti possono essere allineati orizzontalmente:
 
 L&#39;attributo **toolbarCaption** forza l&#39;allineamento orizzontale della barra degli strumenti e immette il titolo sopra l&#39;elenco.
 
-### Attiva lo zoom in un elenco {#zoom-in-a-list}
+### Abilita zoom in un elenco {#zoom-in-a-list}
 
 L’inserimento e la modifica dei dati in un elenco possono essere immessi in un modulo di modifica separato.
 
@@ -499,7 +499,7 @@ Esempio nel campo &quot;Genere&quot;:
 <input xpath="@gender" readOnly="true"/>
 ```
 
-## Aggiungi il pulsante di scelta {#radio-button}
+## Aggiungi pulsante di scelta {#radio-button}
 
 Un pulsante di scelta consente di scegliere tra diverse opzioni. I tag **`<input>`** vengono utilizzati per elencare le opzioni possibili e l&#39;attributo **checkedValue** specifica il valore associato alla scelta.
 
@@ -559,7 +559,7 @@ Un campo espressione aggiorna dinamicamente un campo da un’espressione; il tag
 
 L’esecuzione di un modulo di input inizializza un documento XML contenente i dati dell’entità da modificare. Questo documento rappresenta il contesto del modulo e può essere utilizzato come area di lavoro.
 
-### Aggiorna il contesto {#updating-the-context}
+### Aggiornare il contesto {#updating-the-context}
 
 Per modificare il contesto del modulo, utilizzare il tag `<set expr="<value>" xpath="<field>"/>`, dove `<field>` è il campo di destinazione, e `<value>` è l’espressione o il valore di aggiornamento.
 
