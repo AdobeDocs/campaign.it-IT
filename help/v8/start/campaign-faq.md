@@ -6,10 +6,10 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+source-git-commit: 22f47bed75d78684c85471330aca7dadafb9ed65
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 94%
+source-wordcount: '663'
+ht-degree: 92%
 
 ---
 
@@ -61,7 +61,7 @@ Hai bisogno di assistenza mentre lavori con Campaign? Leggi le principali domand
 
    Un sottodominio è una divisione del dominio che può essere utilizzata per isolare i brand o vari tipi di traffico (messaggi transazionali, informazioni di marketing, ecc.).
 
-   ?? In qualità di utente di Managed Cloud Services, [contatta Adobe](../start/campaign-faq.md#support) per delegare i sottodomini ad Adobe.
+   ?? In qualità di utente di Managed Cloud Services, contatta Adobe per delegare i sottodomini ad Adobe.
 
 1. **Come utente Campaign Classic v7, posso effettuare la migrazione a Campaign v8?**
 
@@ -71,7 +71,7 @@ Hai bisogno di assistenza mentre lavori con Campaign? Leggi le principali domand
 
    È possibile ottenere il programma di installazione e Client Console da Adobe Download Center.
 
-   [Fai clic qui](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html){target=&quot;_blank&quot;} per accedere alla pagina dedicata alla distribuzione di software di Experience Cloud.
+   In qualità di utente amministratore, accedi all&#39;Adobe [Distribuzione di software](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) {target=&quot;_blank&quot;} per scaricare Adobe Campaign.
 
    Ulteriori informazioni sul Centro distribuzione sono disponibili in [questa pagina](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=it){target=&quot;_blank&quot;}.
 
