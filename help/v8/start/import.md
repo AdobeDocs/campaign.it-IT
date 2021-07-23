@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '322'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 95%
 
 Campaign ti aiuta ad aggiungere contatti al database Cloud. Puoi caricare un file, pianificare e automatizzare più aggiornamenti dei contatti alla volta, raccogliere dati sul web o inserire informazioni di profilo direttamente nella tabella dei destinatari.
 
-? Guida introduttiva a [tipi di pubblico](audiences.md)
-? Comprendere Campaign [modello dati](../dev/datamodel.md)
+?? Introduzione ai [tipi di pubblico](audiences.md)
+?? Il [modello dati](../dev/datamodel.md) di Campaign
 
 ## Importare profili con un flusso di lavoro
 
@@ -28,7 +28,7 @@ Le importazioni di profili sono configurate in modelli dedicati eseguiti tramite
 
 Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7:
 
-↗️ [Introduzione alle importazioni e alle esportazioni](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/get-started-data-import-export.html?lang=it){target=&quot;_blank&quot;}
+↗️ [Introduzione alle importazioni ed esportazioni](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/get-started-data-import-export.html?lang=it){target=&quot;_blank&quot;}
 
 ↗️ [Best practice per l’importazione e l’esportazione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/best-practices/import-export-best-practices.html?lang=it){target=&quot;_blank&quot;}
 
