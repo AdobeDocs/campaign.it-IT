@@ -8,9 +8,9 @@ level: Beginner
 hidefromtoc: true
 hide: true
 source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '374'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -55,4 +55,4 @@ Scopri come gestire le impostazioni delle istanze di Campaign nel Pannello di co
 * [Dettagli dell’istanza](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=it){target=&quot;_blank&quot;}
 * [Gestione delle chiavi GPG](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=it){target=&quot;_blank&quot;}
 
-↗️ Scopri tutte le funzionalità del Pannello di controllo Campaign in [questa documentazione](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it){target=&quot;_blank&quot;}
+↗️ Scopri tutte le funzionalità del Pannello di controllo Campaign in [questa documentazione](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it){target=&quot;_blank&quot;}.
