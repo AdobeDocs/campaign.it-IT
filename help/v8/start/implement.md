@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1214'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -80,15 +80,15 @@ Prima di iniziare a inviare messaggi e creare campagne di marketing, devi:
 
    ↗️ [Ulteriori informazioni sui modelli e-mail](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=it){target=&quot;_blank&quot;}
 
-   ↗️ Scopri come utilizzare i modelli di campagna nella documentazione [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=it#orchestrating-campaigns){target=&quot;_blank&quot;}
+   ↗️ Scopri come utilizzare i modelli di campagna nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=it#orchestrating-campaigns){target=&quot;_blank&quot;}
 
-   ↗️ Scopri come configurare un modello di flusso di lavoro nella documentazione [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html?lang=it#workflow-templates){target=&quot;_blank&quot;}
+   ↗️ Scopri come configurare un modello di flusso di lavoro nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html?lang=it#workflow-templates){target=&quot;_blank&quot;}
 
 1. Configurare le regole di tipologia
 
    Utilizza le regole di tipologia di Campaign per filtrare, controllare e monitorare l’invio delle consegne. Ad esempio, le regole di affaticamento controllano la frequenza e la quantità di messaggi per evitare un’eccessiva sollecitazione dei destinatari. Una volta implementate, nelle consegne viene fatto riferimento alle regole di tipologia.
 
-   ↗️ Ulteriori informazioni sulle tipologie e sulla gestione dell&#39;affaticamento nella documentazione di [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=it#orchestrating-campaigns){target=&quot;_blank&quot;}
+   ↗️ Ulteriori informazioni sulle tipologie e la gestione dell’eccesso nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=it#orchestrating-campaigns){target=&quot;_blank&quot;}
 
 1. Acquisisci familiarità con il modello dati integrato di Campaign
 
@@ -124,7 +124,7 @@ Puoi personalizzare diverse aree e funzionalità di Campaign. La maggior parte d
 
    In aggiunta ai report incorporati, Adobe Campaign ti consente di generare report in vari contesti e di soddisfare esigenze diverse. I principi relativi alle modalità di utilizzo e di implementazione sono descritti nel presente documento.
 
-   ?? Scopri le funzionalità di reporting in Campaign, in [questa pagina](reporting.md).
+   ?? Scopri le funzionalità di reporting disponibili in Campaign, in [questa pagina](reporting.md).
 
 
 ## Impostare l’automazione della campagna
@@ -167,7 +167,7 @@ Collega Campaign a sistemi di terze parti per combinare un’ampia gamma di funz
 
 Puoi collegare la tua piattaforma Adobe Campaign ai sistemi di terze parti CRM e sincronizzare i dati (contatti, account, acquisti, eccetera).
 
-?? Scopri come collegare il sistema CRM a Campaign, in [questa sezione](../connect/integration.md#gs-crm-connectors)
+?? Scopri come collegare il sistema CMR con Campaign in [questa sezione](../connect/integration.md#gs-crm-connectors)
 
 **Connessione a un database esterno**
 
