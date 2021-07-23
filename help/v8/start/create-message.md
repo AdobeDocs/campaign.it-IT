@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
 source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '644'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Dopo aver creato il messaggio e averne progettato e testato il relativo contenut
 
    ![](assets/send-email.png)
 
-   ↗️ Scopri come inviare messaggi nella documentazione [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html?lang=it){target=&quot;_blank&quot;}
+   ↗️ Scopri come inviare messaggi nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html?lang=it){target=&quot;_blank&quot;}
 
 * Inviare messaggi associati a una [campagna di marketing](campaigns.md)
 
@@ -55,15 +55,16 @@ Dopo aver creato il messaggio e averne progettato e testato il relativo contenut
 
    ![](assets/send-in-a-wf.png)
 
-   ↗️ Scopri come automatizzare le consegne e-mail nella documentazione di [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/delivery.html?lang=it){target=&quot;_blank&quot;}
+   ↗️ Scopri come automatizzare le consegne e-mail nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/delivery.html?lang=it){target=&quot;_blank&quot;}
 
-* [Messaggi ](../send/transactional.md) di attivazione da un evento ↗️  [Caso di utilizzo: scopri come inviare un’e-mail transazionale con un allegato](https://experienceleague.adobe.com/docs/campaign-classic/using//transactional-messaging/transactional-email-with-attachments.html?lang=it){target=&quot;_blank&quot;}
+* [Attivare messaggi](../send/transactional.md) da un evento
+↗️ [Caso d’uso: scopri come inviare un’e-mail transazionale con un allegato](https://experienceleague.adobe.com/docs/campaign-classic/using//transactional-messaging/transactional-email-with-attachments.html?lang=it){target=&quot;_blank&quot;}
 
 * Pianificare i messaggi
 
    ![](assets/schedule-send.png)
 
-   ↗️ [Caso di utilizzo: scopri come pianificare e inviare un messaggio e-mail di compleanno](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/sending-a-birthday-email.html?lang=it){target=&quot;_blank&quot;}
+   ↗️ [Caso d’uso: come pianificare e inviare un’e-mail di compleanno](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/sending-a-birthday-email.html?lang=it){target=&quot;_blank&quot;}
 
 
 ## Aggiungi personalizzazione
@@ -73,33 +74,33 @@ I messaggi consegnati da Adobe Campaign possono essere personalizzati in vari mo
 Puoi:
 
 * Inserire campi di personalizzazione dinamici.
-↗️ Scopri come utilizzare i campi di personalizzazione nella documentazione di [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html?lang=it){target=&quot;_blank&quot;}
+↗️ Scopri come utilizzare i campi di personalizzazione nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html?lang=it){target=&quot;_blank&quot;}
 * Inserire blocchi di personalizzazione predefiniti.
-↗️ Scopri cos’è un blocco di personalizzazione e come usarlo nella documentazione di [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-blocks.html?lang=it){target=&quot;_blank&quot;}
+↗️ Scopri cos’è un blocco di personalizzazione e come utilizzarlo nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-blocks.html?lang=it){target=&quot;_blank&quot;}
 * Creare contenuto condizionale.
-↗️ Scopri come inserire contenuto condizionale nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/conditional-content.html?lang=it){target=&quot;_blank&quot;}
+↗️ Scopri come inserire contenuti condizionali nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/conditional-content.html?lang=it){target=&quot;_blank&quot;}
 
 ## Inviare messaggi transazionali
 
 La messaggistica transazionale (Message Center) è il modulo di Campaign progettato per la gestione dei messaggi di attivazione.
 
-?? Scopri le funzionalità per messaggi transazionali in [questa sezione](../dev/architecture.md#transac-msg-archi)
+?? Scopri di più sulle funzionalità per messaggi transazionali in [questa sezione](../dev/architecture.md#transac-msg-archi)
 
 ?? Scopri come configurare e inviare messaggi transazionali in [questa pagina](../send/transactional.md)
 
-↗️ Scopri questa funzionalità in un caso d’uso end-to-end nella documentazione di [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=it){target=&quot;_blank&quot;}
+↗️ Scopri questa funzionalità con un caso d’uso end-to-end descritto nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=it){target=&quot;_blank&quot;}
 
 ## Registri di consegna e di tracciamento
 
 Il monitoraggio delle consegne dopo l’invio è un passaggio fondamentale per garantire l’efficienza delle campagne di marketing e l’effettivo raggiungimento dei clienti. Puoi monitorare una consegna, oltre a capire come vengono gestiti errori e quarantene.
 
-↗️ Scopri come monitorare le consegne nella documentazione di [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=it#sending-messages){target=&quot;_blank&quot;}
+↗️ Scopri come monitorare le consegne nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=it#sending-messages){target=&quot;_blank&quot;}
 
 
 **Argomenti correlati** nella documentazione di Campaign Classic v7:
 
-↗️ [Best practice di consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html?lang=it){target=&quot;_blank&quot;}
+↗️  [Best practice per la consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html?lang=it){target=&quot;_blank&quot;}
 
-↗️ [Test e invio di un&#39;e-mail](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html){target=&quot;_blank&quot;}
+↗️  [Verificare e inviare un’e-mail](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html?lang=it){target=&quot;_blank&quot;}
 
-↗️ [Invia bozze](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=it){target=&quot;_blank&quot;}
+↗️  [Inviare bozze](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=it){target=&quot;_blank&quot;}
