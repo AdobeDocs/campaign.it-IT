@@ -9,7 +9,7 @@ exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d7
 source-git-commit: 22f47bed75d78684c85471330aca7dadafb9ed65
 workflow-type: tm+mt
 source-wordcount: '663'
-ht-degree: 92%
+ht-degree: 97%
 
 ---
 
@@ -39,7 +39,7 @@ Hai bisogno di assistenza mentre lavori con Campaign? Leggi le principali domand
 
    Il recapito messaggi e-mail, un componente fondamentale per il successo del programma di marketing di ogni mittente, è caratterizzato da criteri e regole in continua evoluzione. Per orientarsi nel mondo digitale e raggiungere al meglio i vari tipi di pubblico, è necessario ottimizzare regolarmente la strategia e-mail tenendo conto delle tendenze chiave di recapito messaggi.
 
-   ↗️ Fai riferimento a questa guida per scoprire le [best practice per la consegna](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=it){target=&quot;_blank&quot;}
+   ↗️ Consulta questa guida per scoprire le [best practice per la consegna](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=it){target=&quot;_blank&quot;}
 
    ↗️ Scopri come implementare il recapito messaggi in Campaign [in questa guida](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=it){target=&quot;_blank&quot;}
 
@@ -51,7 +51,7 @@ Hai bisogno di assistenza mentre lavori con Campaign? Leggi le principali domand
 
 1. **Posso monitorare l’esecuzione di un flusso di lavoro?**
 
-   ↗️ Comprendere come monitorare l’esecuzione del flusso di lavoro di Campaign [nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html?lang=it){target=&quot;_blank&quot;}
+   ↗️ Scopri come monitorare l’esecuzione del flusso di lavoro di Campaign nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html?lang=it){target=&quot;_blank&quot;}
 
 1. **Con quali sistemi e componenti è compatibile Campaign v8?**
 
