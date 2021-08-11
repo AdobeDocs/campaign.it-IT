@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
 source-git-commit: bfd2df90e5e6bee89bdfc7c5da82c755ac5726df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '916'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -86,9 +86,9 @@ I rapporti di Adobe Campaign sono ottimizzati e offrono migliori funzioni di sca
 
 Campaign v8 offre un’ulteriore attività del flusso di lavoro di targeting: **[!UICONTROL Change data source]**.
 
-L’attività **[!UICONTROL Change data source]** ti consente di modificare l’origine dati di un flusso di lavoro **[!UICONTROL Working table]** per gestire i dati tra diverse origini dati, come FDA, FFDA e database locale.
+L’attività **[!UICONTROL Change data source]** consente di modificare l’origine dati di un flusso di lavoro **[!UICONTROL Working table]** per gestire i dati tra diverse origini dati, come FDA, FFDA e database locale.
 
-? Ulteriori informazioni sull&#39;attività **[!UICONTROL Change data source]** in [questa pagina](../config/workflows.md#change-data-source-activity).
+?? Ulteriori informazioni sull’attività **[!UICONTROL Change data source]** sono disponibili in [questa pagina](../config/workflows.md#change-data-source-activity).
 
 ## Funzioni non disponibili{#gs-unavailable-features}
 
