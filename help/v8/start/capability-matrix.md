@@ -6,10 +6,10 @@ feature: Panoramica
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-source-git-commit: bfd2df90e5e6bee89bdfc7c5da82c755ac5726df
-workflow-type: ht
-source-wordcount: '916'
-ht-degree: 100%
+source-git-commit: d61888a4536d6f37f5956c8fd5404bdcd893ae6c
+workflow-type: tm+mt
+source-wordcount: '910'
+ht-degree: 99%
 
 ---
 
@@ -80,7 +80,7 @@ Gli utenti di Campaign si connettono tramite il proprio Adobe ID. Lo stesso Adob
 
 ## Generazione rapporti
 
-I rapporti di Adobe Campaign sono ottimizzati e offrono migliori funzioni di scalabilità rispetto a Campaign Classic v7. Le limitazioni esistenti sui cubi non si applicano.
+I rapporti di Adobe Campaign sono ottimizzati e offrono migliori funzioni di scalabilità rispetto a Campaign Classic v7. Le limitazioni sui cubi non si applicano.
 
 ## Flusso di lavoro {#workflow}
 
@@ -100,8 +100,6 @@ Tieni presente che alcune funzionalità non sono ancora disponibili in questa pr
 * Ottimizzazione di Campaign
 * Gestione della risposta
 * Modelli di distribuzione on-premise/ibrida
-* Messaggistica LINE
-* Pannello di controllo Campaign
 
 >[!CAUTION]
 >
