@@ -5,9 +5,9 @@ description: Guida introduttiva a Campaign Pannelli di controllo Campaign
 feature: Panoramica
 role: Data Engineer
 level: Beginner
-source-git-commit: d61888a4536d6f37f5956c8fd5404bdcd893ae6c
+source-git-commit: 8415bfce30948104840a92d1be0d72e07c8e29ee
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '337'
 ht-degree: 91%
 
 ---
@@ -24,7 +24,7 @@ Vantaggi principali:
 
 Puoi anche utilizzare il Pannello di controllo Campaign per configurare le impostazioni delle istanze, ad esempio l’elenco Consentiti IP, le autorizzazioni URL e recuperare informazioni sull’istanza.
 
-↗️ Ulteriori informazioni nella documentazione [Pannello di controllo Campaign campagna](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html?lang=it){target=&quot;_blank&quot;}.
+↗️ Ulteriori informazioni nella documentazione [Pannello di controllo Campaign campagna](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it){target=&quot;_blank&quot;}.
 
 >[!CAUTION]
 > Con Campaign v8 non sono ancora supportate le seguenti funzionalità:
