@@ -1,14 +1,14 @@
 ---
 product: Adobe Campaign
 title: Pannello di controllo Campaign
-description: Guida introduttiva a Campaign Pannelli di controllo Campaign
-feature: Panoramica
+description: Introduzione al Pannello di controllo Campaign
+feature: Overview
 role: Data Engineer
 level: Beginner
 source-git-commit: f35122d5e5f5812d9a3fda9b21f2f7fd88aaaa0f
-workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 82%
+workflow-type: ht
+source-wordcount: '344'
+ht-degree: 100%
 
 ---
 
@@ -24,10 +24,10 @@ Vantaggi principali:
 
 Puoi anche utilizzare il Pannello di controllo Campaign per configurare le impostazioni delle istanze, ad esempio l’elenco Consentiti IP, le autorizzazioni URL e recuperare informazioni sull’istanza.
 
-↗️ Ulteriori informazioni nella documentazione [Pannello di controllo Campaign campagna](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it){target=&quot;_blank&quot;}.
+↗️ Consulta la [documentazione del Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it){target=&quot;_blank&quot;}.
 
 >[!CAUTION]
-> Con Campaign v8 non sono ancora supportate le seguenti funzionalità:
+> In Campaign v8 non sono ancora supportate le seguenti funzionalità:
 >
 >* Gestione dei sottodomini
 >* Gestione certificati
@@ -35,18 +35,17 @@ Puoi anche utilizzare il Pannello di controllo Campaign per configurare le impos
 >
 
 
-
 ## Come accedere al Pannello di controllo Campaign?
 
-Il Pannello di controllo Campaign è disponibile direttamente da Adobe Experience Cloud. È accessibile solo agli utenti amministratori. [Fai clic qui](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=it){target=&quot;_blank&quot;} per ulteriori informazioni.
+Il Pannello di controllo Campaign è disponibile direttamente da Adobe Experience Cloud. È accessibile solo agli utenti amministratori. Per ulteriori informazioni, [fai clic qui](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=it){target=&quot;_blank&quot;}.
 
 ## Domande frequenti sul Pannello di controllo Campaign
 
-[Fai clic qui](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=en#control-panel){target=&quot;_blank&quot;} per accedere alle domande frequenti sul Pannello di controllo Campaign Campaign.
+Per accedere alle domande frequenti sul Pannello di controllo Campaign, [fai clic qui](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=it#control-panel){target=&quot;_blank&quot;}.
 
 ## Gestione SFTP
 
-Nel Pannello di controllo Campaign, puoi interagire con tutti i server SFTP collegati alle istanze di Campaign a cui hai accesso. Puoi monitorare la loro capacità di archiviazione, nonché gestire gli indirizzi IP nell’elenco degli indirizzi consentiti e le chiavi SSH pubbliche. [Fai clic qui](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=it#sftp-management){target=&quot;_blank&quot;} per ulteriori informazioni.
+Nel Pannello di controllo Campaign, puoi interagire con tutti i server SFTP collegati alle istanze di Campaign a cui hai accesso. Puoi monitorare la loro capacità di archiviazione, nonché gestire gli indirizzi IP nell’elenco degli indirizzi consentiti e le chiavi SSH pubbliche. Per ulteriori informazioni, [fai clic qui](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=it#sftp-management){target=&quot;_blank&quot;}.
 
 ## Impostazioni delle istanze
 
