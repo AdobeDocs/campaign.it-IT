@@ -2,14 +2,14 @@
 product: Adobe Campaign
 title: Matrice di funzionalità Campaign Classic v7 e Campaign v8
 description: Comprendere le differenze tra Campaign Classic v7 e Campaign v8
-feature: Panoramica
+feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
 source-git-commit: d61888a4536d6f37f5956c8fd5404bdcd893ae6c
-workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '909'
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,6 @@ Le tabelle o gli schemi integrati che devono essere spostati o replicati nel dat
 >
 > I dati dei clienti non vengono memorizzati nel database locale di [!DNL Campaign]. Di conseguenza, eventuali tabelle personalizzate devono essere create nel database cloud.
 
-
 Sono disponibili API specifiche per la gestione dei dati tra il database locale e quello cloud. Per scoprire come funzionano queste nuove API e come utilizzarle, visita [questa pagina](../dev/new-apis.md).
 
 ### Replica dei dati
@@ -54,7 +53,6 @@ Un flusso di lavoro tecnico specifico gestisce la replica delle tabelle che devo
 >
 > Sono stati creati diversi criteri di replica in base alle dimensioni della tabella (XS, XL, eccetera).
 > Alcune tabelle vengono replicate in tempo reale, altre vengono replicate su base oraria. Alcune tabelle avranno aggiornamenti incrementali, altre avranno un aggiornamento completo.
-
 
 [Ulteriori informazioni sulla replica dei dati](../config/replication.md)
 
@@ -80,7 +78,7 @@ Gli utenti di Campaign si connettono tramite il proprio Adobe ID. Lo stesso Adob
 
 ## Generazione rapporti
 
-I rapporti di Adobe Campaign sono ottimizzati e offrono migliori funzioni di scalabilità rispetto a Campaign Classic v7. Le limitazioni sui cubi non si applicano.
+I rapporti di Adobe Campaign sono ottimizzati e offrono migliori funzioni di scalabilità rispetto a Campaign Classic v7. Le limitazioni sui cubi non sono applicabili.
 
 ## Flusso di lavoro {#workflow}
 
