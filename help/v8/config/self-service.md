@@ -27,11 +27,11 @@ Puoi anche utilizzare il Pannello di controllo Campaign per configurare le impos
 ↗️ Consulta la [documentazione del Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it){target=&quot;_blank&quot;}.
 
 >[!CAUTION]
+>
 > In Campaign v8 non sono ancora supportate le seguenti funzionalità:
 >
 >* Gestione dei sottodomini
 >* Gestione certificati
-
 >
 
 
