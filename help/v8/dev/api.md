@@ -1,14 +1,13 @@
 ---
-product: Adobe Campaign
 title: 'Introduzione alle API di Campaign '
 description: 'Introduzione alle API di Campaign '
-feature: Panoramica
+feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '330'
 ht-degree: 12%
 
 ---
@@ -30,7 +29,6 @@ Campaign v8 funziona con due database: un database locale per la messaggistica i
 >[!CAUTION]
 >
 >[!DNL Adobe Campaign] v8 viene fornito con un limite sul throughput (TPS) del nostro livello API. Se si supera il limite, si verifica un errore HTTP standard (429). In qualità di utente di Cloud Services gestiti, puoi contattare Adobe per adattare la limitazione per ogni API.
-
 
 ## Prerequisiti
 

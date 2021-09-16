@@ -1,13 +1,13 @@
 ---
-product: Adobe Campaign
 title: Inviare e-mail con Adobe Campaign
 description: Guida introduttiva alle e-mail in Campaign
-feature: Panoramica
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '604'
 ht-degree: 10%
 
 ---
@@ -110,4 +110,3 @@ Puoi:
 Una volta inviata, controlla lo stato di consegna nel Dashboard di consegna e accedi ai registri di consegna e ai rapporti per confermare che i messaggi sono stati inviati correttamente.
 
 ↗️ [Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html)
-

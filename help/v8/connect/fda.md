@@ -1,13 +1,13 @@
 ---
-product: Adobe Campaign
 title: Utilizzare Campaign e i database esterni (FDA)
 description: Scopri come utilizzare Campaign e i database esterni
-feature: Panoramica
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '1844'
+source-wordcount: '1843'
 ht-degree: 3%
 
 ---
@@ -58,7 +58,7 @@ Per impostare l&#39;accesso a un database esterno con FDA, i passaggi di configu
 1. Crea lo schema del database esterno in Adobe Campaign. Ciò ti consente di identificare la struttura dati del database esterno. [Ulteriori informazioni](#create-data-schema)
 1. Se necessario, crea una nuova mappatura di destinazione dallo schema creato in precedenza. Questo è necessario se i destinatari delle consegne provengono dal database esterno. Questa implementazione include limitazioni relative alla personalizzazione dei messaggi. [Ulteriori informazioni](#define-data-mapping)
 
-## Account esterno database esterno{#fda-external-account}
+## Account esterno database esterno esterno{#fda-external-account}
 
 Devi creare un account esterno specifico per collegare l’istanza Campaign al database esterno.
 

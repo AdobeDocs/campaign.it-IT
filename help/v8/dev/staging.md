@@ -1,13 +1,13 @@
 ---
-product: Adobe Campaign
 title: Meccanismo di staging API di Campaign
 description: Meccanismo di staging API di Campaign
-feature: Panoramica
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+exl-id: 96693af9-50db-4298-ae02-c238d35e52b4
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '311'
 ht-degree: 2%
 
 ---
@@ -29,12 +29,10 @@ Le API di Campaign Classic v7 sono ancora disponibili ma non possono beneficiare
 >[!CAUTION]
 >
 >* Con questo nuovo meccanismo, la sincronizzazione dei dati per l&#39;optout del canale, gli abbonamenti, gli annullamenti degli abbonamenti o la registrazione mobile è ora **asincrona**.
-   >
-   >
-* Lo staging si applica solo agli schemi memorizzati nel database cloud. Non abilitare lo staging sugli schemi replicati. Non abilitare lo staging sugli schemi locali. Non abilitare la gestione temporanea su uno schema in fase
+>
+>* Lo staging si applica solo agli schemi memorizzati nel database cloud. Non abilitare lo staging sugli schemi replicati. Non abilitare lo staging sugli schemi locali. Non abilitare la gestione temporanea su uno schema in fase
 
 >
-
 
 
 ## Passaggi di implementazione{#implement-staging}

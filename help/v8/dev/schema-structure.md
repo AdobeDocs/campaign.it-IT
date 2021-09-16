@@ -1,8 +1,8 @@
 ---
-product: Adobe Campaign
 title: Struttura dello schema della campagna
 description: Struttura dello schema di Campaign
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+exl-id: 9c4a9e71-3fc8-4b4e-8782-0742bbeaf426
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
 source-wordcount: '1397'
 ht-degree: 1%
@@ -270,7 +270,7 @@ I valori di enumerazione sono dichiarati nell&#39;elemento **`<value>`** con i s
 * **nome**: nome del valore memorizzato internamente,
 * **etichetta**: viene visualizzata tramite l’interfaccia grafica.
 
-#### enumerazione dbenum {#dbenum-enumeration}
+#### enumerazione del dbenum {#dbenum-enumeration}
 
 * La proprietà **dbenum** consente di definire un&#39;enumerazione le cui proprietà sono simili a quelle della proprietà **enum** .
 
@@ -350,7 +350,6 @@ Gli elementi sono designati in base al loro nome e gli attributi sono designati 
 >* **`[@email]`** e  **@** emailare equivalente
 
 >
-
 
 
 È inoltre possibile definire espressioni complesse, ad esempio le seguenti operazioni aritmetiche:

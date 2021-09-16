@@ -1,13 +1,13 @@
 ---
-product: Adobe Campaign
 title: Nuove API di Campaign v8
 description: Nuove API di Campaign v8
-feature: Panoramica
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+exl-id: dd822f88-b27d-4944-879c-087f68e79825
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '431'
 ht-degree: 4%
 
 ---
@@ -26,7 +26,7 @@ Campaign v8 viene fornito con due nuove API per gestire i dati tra il database l
 
 Un flusso di lavoro integrato dedicato sincronizza i dati nel database cloud.
 
-## Inserisci dati{#data-insert-api}
+## Inserire dati{#data-insert-api}
 
 L&#39;API **xtk.session.ingest** è dedicata solo a Data Insert. Nessun aggiornamento/eliminazione.
 
@@ -204,7 +204,7 @@ Una volta eseguito il flusso di lavoro, la tabella di staging viene aggiornata c
 
 Di conseguenza, la tabella di staging viene aggiornata come previsto.
 
-## Gestione sottoscrizioni {#sub-apis}
+## Gestione degli abbonamenti {#sub-apis}
 
 La gestione delle iscrizioni in Campaign è descritta in [questa pagina](../start/subscriptions.md).
 

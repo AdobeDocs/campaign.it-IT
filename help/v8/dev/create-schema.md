@@ -1,15 +1,15 @@
 ---
-product: Adobe Campaign
 title: Creare un nuovo schema in Campaign
 description: Scopri come creare un nuovo schema in Campaign
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+exl-id: 796af848-b537-4b8d-a601-fe0628a1fc83
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 2%
 
 ---
 
-# Crea un nuovo schema{#create-new-schema}
+# Creare un nuovo schema{#create-new-schema}
 
 Per modificare, creare e configurare gli schemi, fai clic sul nodo **[!UICONTROL Administration > Configuration > Data schemas]** della console client di Adobe Campaign.
 
@@ -111,4 +111,3 @@ A questo scopo, è necessario creare lo schema della tabella e aggiornare la str
    ![](assets/configuration_structure.png)
 
 1. Aggiornare la struttura del database per creare la tabella a cui verrà collegato lo schema. Per ulteriori informazioni al riguardo, consulta [questa sezione](update-database-structure.md).
-

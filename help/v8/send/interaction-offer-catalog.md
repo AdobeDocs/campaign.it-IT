@@ -1,18 +1,18 @@
 ---
-product: Adobe Campaign
 title: Catalogo delle offerte di interazione campagna
 description: Scopri come creare un catalogo di offerte
-feature: Panoramica
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+exl-id: 911096e2-0307-46a8-873c-ee2248b8e3e8
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 1%
+source-wordcount: '380'
+ht-degree: 2%
 
 ---
 
-# Creare un catalogo di offerta
+# Creare un catalogo di offerte
 
 In qualità di **Gestione offerte**, sei responsabile della creazione del catalogo delle offerte.
 
@@ -69,4 +69,3 @@ Per includere una categoria di fallback nei consigli, segui i passaggi seguenti:
 1. Fai clic su **[!UICONTROL Save]**.
 
    ![](assets/offer_cat_default_001.png)
-

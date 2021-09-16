@@ -1,15 +1,15 @@
 ---
-product: Adobe Campaign
-title: Limitare visualizzazione PI
+title: Limitare la visualizzazione di dati personali
 description: Scopri come limitare la visualizzazione PI
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+exl-id: 1b833745-71d7-430d-ac7d-c830c78ea232
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 2%
 
 ---
 
-# Limitare visualizzazione PI{#restricting-pii-view}
+# Limitare la visualizzazione di dati personali{#restricting-pii-view}
 
 ## Panoramica {#overview}
 

@@ -1,14 +1,13 @@
 ---
-product: Adobe Campaign
 title: Connetti a Campaign v8
 description: Scopri come connettersi a Campaign v8
-feature: Tipi di pubblico
+feature: Audiences
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 44ddce019de74be96a955eefbc940e41e060a6d3
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '684'
 ht-degree: 1%
 
 ---
@@ -29,7 +28,7 @@ Quando utilizzi Campaign per la prima volta o se hai bisogno di eseguire l’agg
 
 Sono disponibili due opzioni:
 
-1. In qualità di amministratore di Campaign, collegati ad Adobe [Distribuzione di software](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) e scarica il programma di installazione della console client. È quindi possibile installarlo nel computer locale.
+1. In qualità di amministratore di Campaign, collegati ad Adobe [Distribuzione di software](https://experience.adobe.com/#/downloads/content/software-distribution/it/campaign.html) e scarica il programma di installazione della console client. È quindi possibile installarlo nel computer locale.
 
 1. In qualità di utente finale, Adobe può distribuire la console per: una volta aggiornata la console, ti verrà richiesto di scaricare la versione più recente della console client in una finestra pop-up.
 
@@ -97,7 +96,7 @@ Gli utenti di Campaign si collegano alla console Adobe Campaign utilizzando il p
 
 Ulteriori informazioni sull&#39;Adobe IMS in [questa pagina](https://helpx.adobe.com/enterprise/using/identity.html).
 
-## Accesso Web{#web-access}
+## Accesso web{#web-access}
 
 Alcune parti dell&#39;applicazione sono accessibili tramite un browser web che utilizza un&#39;interfaccia utente HTML: reporting, approvazione della consegna, monitoraggio delle istanze e altro ancora.
 

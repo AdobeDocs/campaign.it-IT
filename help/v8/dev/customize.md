@@ -1,14 +1,13 @@
 ---
-product: Adobe Campaign
 title: Personalizzare l’istanza
 description: Scopri come personalizzare l’istanza
-feature: Panoramica
+feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '545'
 ht-degree: 7%
 
 ---

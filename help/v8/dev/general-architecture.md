@@ -1,9 +1,8 @@
 ---
-product: Adobe Campaign
 title: Architettura generale
 description: Ulteriori informazioni sull’architettura e sui componenti di Campaign
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
 source-wordcount: '1217'
 ht-degree: 8%
@@ -36,7 +35,7 @@ L’accesso all’applicazione può essere effettuato in diversi modi: Integrazi
 
 * **Accesso** Web: parti dell&#39;applicazione sono accessibili tramite un semplice browser web che utilizza un&#39;interfaccia utente HTML, tra cui il modulo di reporting, le fasi di approvazione della consegna, il monitoraggio dell&#39;istanza, ecc.
 
-   ?? [Scopri come accedere a Campaign dal web](../start/connect.md).
+   ?? [Ulteriori informazioni su come accedere a Campaign dal web](../start/connect.md).
 
 * **API** di Campaign: In alcuni casi, il sistema può essere chiamato da un’applicazione esterna utilizzando le API dei servizi Web esposte tramite il protocollo SOAP.
 

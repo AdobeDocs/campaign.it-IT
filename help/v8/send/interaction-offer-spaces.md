@@ -1,13 +1,13 @@
 ---
-product: Adobe Campaign
 title: Aree di offerta di interazione campagna
 description: Scopri come creare spazi di offerta
-feature: Panoramica
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+exl-id: c116d86a-d3e2-47e3-a641-e2d7c8cc575c
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '610'
 ht-degree: 3%
 
 ---
@@ -71,7 +71,7 @@ Lo stato della proposta di offerta varia a seconda delle interazioni con la popo
 >
 >L&#39;aggiornamento dello stato è un processo **asincrono**. Viene eseguito dal flusso di lavoro di tracciamento che viene attivato ogni ora.
 
-### Elenco dello stato dell&#39;offerta {#status-list}
+### Elenco dello stato dell’offerta {#status-list}
 
 Gli stati di offerta disponibili sono:
 
@@ -88,7 +88,7 @@ Questi valori non vengono applicati per impostazione predefinita: devono essere 
 >
 >Lo stato di una proposta di offerta viene automaticamente modificato in &quot;Presentato&quot; se l’offerta è collegata a una consegna con lo stato &quot;Inviato&quot;.
 
-### Stato dell’offerta quando la proposta viene creata {#configuring-the-status-when-the-proposition-is-created}
+### Stato dell’offerta al momento della creazione della proposta {#configuring-the-status-when-the-proposition-is-created}
 
 Quando una proposta di offerta viene **creata**, il suo stato viene aggiornato.
 

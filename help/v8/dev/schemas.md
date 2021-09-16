@@ -1,8 +1,8 @@
 ---
-product: Adobe Campaign
 title: Utilizzare gli schemi di Campaign
 description: Guida introduttiva agli schemi
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+exl-id: 87af72fe-6c84-4d9a-afed-015900890cce
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 5%
@@ -250,4 +250,3 @@ Per ulteriori informazioni al riguardo, consulta [questa sezione](update-databas
 >[!NOTE]
 >
 >Quando le modifiche non influiscono sulla struttura del database, è sufficiente rigenerare gli schemi. A questo scopo, seleziona gli schemi da aggiornare, fai clic con il pulsante destro del mouse e scegli **[!UICONTROL Actions > Regenerate selected schemas...]** .
-

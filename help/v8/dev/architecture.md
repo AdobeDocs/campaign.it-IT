@@ -1,14 +1,13 @@
 ---
-product: Adobe Campaign
 title: Guida introduttiva all’architettura di Campaign
 description: Scopri ambienti e nozioni di base sulla distribuzione
-feature: Panoramica
+feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '607'
 ht-degree: 2%
 
 ---

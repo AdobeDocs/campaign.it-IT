@@ -1,11 +1,11 @@
 ---
-product: Adobe Campaign
-title: 'Gestione delle chiavi in Campaign '
+title: Gestione delle chiavi in Campaign
 description: Guida introduttiva alla gestione delle chiavi
-source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
+exl-id: ef06cb6b-1b25-4dbe-8fd0-f880ec9d645b
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
 source-wordcount: '676'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 In Campaign v8, la chiave primaria è un identificatore ID universale univoco (UUID), che è una stringa sui caratteri. Per creare questo UUID, l&#39;elemento principale dello schema deve contenere gli attributi **autouuid** e **autopk** impostati su **true**.
 
-Adobe campaign v8 viene fornito con Snowflake come database di base. L’architettura distribuita del database di Snowflake non fornisce meccanismi per gestire l’unicità di una chiave all’interno di una tabella: gli utenti finali sono responsabili di garantire la coerenza delle chiavi all’interno del database Adobe Campaign.
+Adobe Campaign v8 viene fornito con Snowflake come database di base. L’architettura distribuita del database di Snowflake non fornisce meccanismi per gestire l’unicità di una chiave all’interno di una tabella: gli utenti finali sono responsabili di garantire la coerenza delle chiavi all’interno del database Adobe Campaign.
 
 Per preservare la coerenza relazionale del database, è obbligatorio evitare duplicati sulle chiavi e in particolare sulle chiavi primarie. I duplicati sulle chiavi primarie generano problemi con le attività del flusso di lavoro di gestione dei dati come **Query**, **Riconciliazione**, **Aggiorna dati** e altro ancora.
 
@@ -53,7 +53,7 @@ In questo caso, puoi creare un flusso di lavoro per identificare le chiavi dupli
 Ora puoi accedere ai destinatari duplicati direttamente dall’elenco. Anche se la transizione contiene solo una delle righe duplicate, tutti i duplicati verranno registrati nell’elenco.
 
 
-## Correggere i duplicati{#correct-duplicates}
+## Duplicati corretti{#correct-duplicates}
 
 Per correggere i duplicati, i clienti devono aggiornare i dati di Campaign. Il tipo di azione è strettamente legato alla natura dei duplicati e all’implementazione. Possiamo affrontare casi multipli che dovrebbero richiedere una strategia di mitigazione diversa (rimozione, unione o aggiornamento).
 

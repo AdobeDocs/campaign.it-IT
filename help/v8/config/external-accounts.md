@@ -1,17 +1,16 @@
 ---
-product: Adobe Campaign
 title: Account esterni per Campaign
 description: Account esterni per Campaign
-feature: Panoramica
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1000'
 ht-degree: 4%
 
 ---
-
 
 # Configurare gli account esterni
 
@@ -173,4 +172,3 @@ Per farlo, specifica in questo account esterno l’indirizzo e le credenziali ut
    * **[!UICONTROL Encryption]**: Tipo di crittografia tra  **[!UICONTROL None]** o  **[!UICONTROL SSL]**.
 
    * **[!UICONTROL Access key]**: Scopri come trovare il tuo  **[!UICONTROL Access key]** nella documentazione  [Microsoft](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal).
-

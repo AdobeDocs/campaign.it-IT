@@ -1,8 +1,8 @@
 ---
-product: Adobe Campaign
 title: Estendere gli schemi di Campaign
 description: Scopri come estendere gli schemi di Campaign
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+exl-id: e4dcb228-0683-437a-88cd-bd7ed33da921
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 2%

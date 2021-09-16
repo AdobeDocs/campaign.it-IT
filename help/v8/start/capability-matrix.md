@@ -1,13 +1,12 @@
 ---
-product: Adobe Campaign
 title: Matrice di funzionalità Campaign Classic v7 e Campaign v8
 description: Comprendere le differenze tra Campaign Classic v7 e Campaign v8
 feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-source-git-commit: d61888a4536d6f37f5956c8fd5404bdcd893ae6c
-workflow-type: ht
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+workflow-type: tm+mt
 source-wordcount: '909'
 ht-degree: 100%
 

@@ -1,5 +1,4 @@
 ---
-product: Adobe Campaign
 title: Integrare gli SDK Campaign con la tua app
 description: Scopri come integrare gli SDK Campaign Android e iOS con la tua app
 version: v8
@@ -8,9 +7,10 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1288'
 ht-degree: 1%
 
 ---
@@ -77,9 +77,8 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione di Google
 >[!NOTE]
 >
 > * Non dimenticare di scaricare e aggiungere google-services.json al tuo progetto.
-   >
-   > 
-* Il `apiKey` deve corrispondere al `projectKey` impostato nell&#39;applicazione mobile Adobe Campaign collegata a questa applicazione Android.
+>
+> * Il `apiKey` deve corrispondere al `projectKey` impostato nell&#39;applicazione mobile Adobe Campaign collegata a questa applicazione Android.
 
 
 ### Configurare Android SDK

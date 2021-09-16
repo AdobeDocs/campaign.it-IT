@@ -1,12 +1,12 @@
 ---
-product: Adobe Campaign
 title: Pannello di controllo Campaign
 description: Introduzione al Pannello di controllo Campaign
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: f35122d5e5f5812d9a3fda9b21f2f7fd88aaaa0f
-workflow-type: ht
+exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 100%
 
@@ -27,11 +27,11 @@ Puoi anche utilizzare il Pannello di controllo Campaign per configurare le impos
 ↗️ Consulta la [documentazione del Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it){target=&quot;_blank&quot;}.
 
 >[!CAUTION]
->
 > In Campaign v8 non sono ancora supportate le seguenti funzionalità:
 >
 >* Gestione dei sottodomini
 >* Gestione certificati
+
 >
 
 
@@ -54,4 +54,3 @@ Scopri come gestire le impostazioni delle istanze di Campaign nel Pannello di co
 * [Autorizzazioni URL](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=it){target=&quot;_blank&quot;}
 * [Dettagli dell’istanza](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=it){target=&quot;_blank&quot;}
 * [Gestione delle chiavi GPG](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=it){target=&quot;_blank&quot;}
-

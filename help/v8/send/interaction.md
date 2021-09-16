@@ -1,13 +1,13 @@
 ---
-product: Adobe Campaign
 title: Interazione campagna - Gestione delle offerte
 description: Guida introduttiva alla gestione delle offerte
-feature: Panoramica
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+exl-id: 4da3e69a-6230-4c94-a6f1-4e8c01e854ba
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1213'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Prima di iniziare, in qualità di Campaign **Amministratore**, assicurati di ave
 1. Crea spazi di offerta per ogni ambiente e configura funzioni di rendering. [Ulteriori ](interaction-offer-spaces.md)
 informazioniSe lo spazio è definito da un canale unitario in modalità identificata, è necessario specificare i parametri avanzati per questo spazio.
 
-### Crea e pubblica il catalogo delle offerte {#managing-the-offer-catalog-}
+### Creare e pubblicare il catalogo delle offerte {#managing-the-offer-catalog-}
 
 In qualità di **Gestione offerte** devi eseguire le seguenti attività:
 
@@ -57,7 +57,7 @@ Scopri i termini specifici dell’offerta e le relative indicazioni prima di ini
 * **** Gli ambienti includono un catalogo di offerte e spazi di offerta (hook). È necessario creare un ambiente mediante il targeting della dimensione.
 Esistono due tipi di ambienti:
 
-   * **Ambiente** di progettazione: le offerte vengono create nell’ambiente di progettazione, nonché nelle regole di tipologia e . Le regole di tipologia determinano le offerte da presentare (o meno) a una persona di destinazione. In questo ambiente viene inoltre definita la tabella dei singoli utenti interessati dalle offerte e la tabella per la memorizzazione di tutte le proposte di offerta. Il nodo **[!UICONTROL Design environment]** contiene sottocartelle per lo spazio disponibile, filtri predefiniti e categorie di offerte. Per ogni **[!UICONTROL Design environment]** esiste una **[!UICONTROL Live environment]** di sola lettura corrispondente, generata dallo stesso **[!UICONTROL Design environment]**.
+   * **Ambiente** di progettazione: le offerte vengono create nell’ambiente di progettazione, nonché nelle regole di tipologia e . Le regole di tipologia determinano le offerte da presentare (o meno) a una persona di destinazione. In questo ambiente viene inoltre definita la tabella dei singoli utenti interessati dalle offerte e la tabella per la memorizzazione di tutte le proposte di offerta. Il nodo **[!UICONTROL Design environment]** contiene sottocartelle per lo spazio di offerta, filtri predefiniti e categorie di offerte. Per ogni **[!UICONTROL Design environment]** esiste una **[!UICONTROL Live environment]** di sola lettura corrispondente, generata dallo stesso **[!UICONTROL Design environment]**.
    * **Ambiente** live: ambiente collegato a un  **[!UICONTROL Design environment]** che contiene offerte di sola lettura il cui contenuto e idoneità sono stati approvati tramite  **[!UICONTROL Design environment]**. Devono essere selezionati per essere inseriti in un messaggio.
 
 * La **Area offerte** è una posizione (cartella) che definisce la posizione in cui viene esposta l&#39;offerta. Quando crei uno spazio di offerta, puoi specificare il canale, generare il contenuto dell’offerta utilizzando le funzioni di rendering, specificare l’ordine delle offerte e la relativa modalità: modalità unitaria e/o modalità batch (impostazione predefinita). Lo spazio di offerta è l’interfaccia tra il canale e il motore di offerta.
@@ -85,4 +85,3 @@ Esistono due tipi di ambienti:
 * L’ **Anteprima** dell’offerta mostra l’offerta così come viene visualizzata nella relativa cartella. È accessibile dalla finestra delle impostazioni dell’offerta o dal profilo del contatto.
 * **I** filtri predefiniti sono regole di filtro che possono tenere conto dei parametri delle offerte (ad esempio, un codice di offerta). Possono essere riutilizzati dopo la creazione delle offerte.
 * Una **rappresentazione dell&#39;offerta** è un&#39;informazione utilizzata dal canale per visualizzare l&#39;offerta. La rappresentazione dell’offerta può essere creata dalla funzione di rendering dello spazio su cui l’offerta è rappresentata o inserita direttamente nell’interfaccia (ad esempio, nel blocco HTML). Un&#39;offerta può essere rappresentata da uno spazio.
-

@@ -1,15 +1,15 @@
 ---
-product: Adobe Campaign
 title: Aggiornare la struttura del database
 description: Aggiornare la struttura del database
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+exl-id: fc64f3ca-67f1-47b7-b154-9c9dd044192c
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 0%
 
 ---
 
-# Aggiorna la struttura del database{#updating-the-database-structure}
+# Aggiornare la struttura del database{#updating-the-database-structure}
 
 Per applicare le modifiche apportate agli schemi, avviare la procedura guidata di aggiornamento del database. Questo assistente è accessibile tramite **[!UICONTROL Tools > Advanced > Update database structure]** . Controlla se la struttura fisica del database corrisponde alla relativa descrizione logica ed esegue gli script di aggiornamento SQL.
 
