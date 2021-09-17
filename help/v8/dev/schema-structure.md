@@ -348,7 +348,6 @@ Gli elementi sono designati in base al loro nome e gli attributi sono designati 
 >
 >* **location/@** cityis non valido; utilizzare  **`[location/@city]`**
 >* **`[@email]`** e  **@** emailare equivalente
-
 >
 
 
