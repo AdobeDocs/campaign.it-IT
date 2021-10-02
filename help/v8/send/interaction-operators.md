@@ -5,9 +5,9 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 865ddb84-3373-45e0-849d-9d3c92455d22
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: bda1fc37181396d295ee23a7161053d839d9cfc7
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '363'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ Nota che se le offerte sono utilizzate in un flusso di lavoro, l’operatore dev
 
 >[!NOTE]
 >
->Un **gestore offerte** può approvare un&#39;offerta solo se non è specificato alcun revisore o se è stato dichiarato come revisore nel modello di offerta su cui si basa l&#39;offerta.
+>**Il** gestore delle offerte approva un’offerta solo se non è specificato alcun revisore o se è stato dichiarato come revisori nel modello di offerta.
 
 ## Creare un operatore di Delivery Manager {#delivery-manager}
 
@@ -51,15 +51,15 @@ Nota che se le offerte sono utilizzate in un flusso di lavoro, l’operatore dev
 
 1. Vai alla finestra **[!UICONTROL Groups and named rights]**, fai clic su **[!UICONTROL Add]** e seleziona il gruppo **[!UICONTROL Delivery manager]**.
 
-I diritti assegnati al gestore della consegna sono/consentono loro di eseguire le seguenti attività:
+I diritti assegnati ai gestori della consegna consentono loro di svolgere i seguenti compiti:
 
 * Visualizzare gli ambienti **[!UICONTROL Live]**.
 * Visualizza e modifica le categorie di offerte.
-* Approva le offerte se s/he è specificato come uno dei suoi revisori.
+* Approva le offerte se sono i loro revisori.
 
    >[!NOTE]
    >
-   >Un **gestore consegne** può approvare un’offerta solo se è stato dichiarato come revisore durante la configurazione dell’offerta.
+   >**Il** gestore delle consegne può approvare un’offerta solo se è stato dichiarato come revisore nella configurazione dell’offerta.
 
 ## Matrice di autorizzazioni per operatore di interazione {#recap-of-rights-according-to-operator}
 
