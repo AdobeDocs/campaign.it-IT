@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
 source-git-commit: 8668970b0270b990232b78d527d0713efd9d1a4d
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '929'
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ L’attività **[!UICONTROL Change data source]** consente di modificare l’ori
 
 ## Funzioni non disponibili{#gs-unavailable-features}
 
-Tieni presente che alcune funzionalità non sono disponibili in questa versione di Campaign, ad esempio:
+Tieni presente che alcune funzionalità non sono ancora disponibili in questa versione di Campaign, ad esempio:
 
 * Gestione delle risorse marketing
 * Marketing distribuito
@@ -97,7 +97,7 @@ Tieni presente che alcune funzionalità non sono disponibili in questa versione 
 * Ottimizzazione di Campaign
 * Gestione della risposta
 * Modelli di distribuzione on-premise/ibrida
-* Canale twitter
+* Canale Twitter
 
 >[!CAUTION]
 >
@@ -110,7 +110,7 @@ Tieni presente che alcune funzionalità non sono disponibili in questa versione 
 
 ## Funzioni non supportate{#gs-removed}
 
-Per allineare la nuova architettura e il modello di distribuzione di Campaign v8, alcune funzionalità storiche di Campaign Classic v7 non sono più supportate con Campaign v8, ad esempio:
+Per allinearsi alla nuova architettura e al modello di implementazione di Campaign v8, alcune funzionalità storiche di Campaign Classic v7 non sono più supportate in Campaign v8, come ad esempio:
 
 * Coupon
 * Tracciamento web
@@ -122,4 +122,4 @@ Per allineare la nuova architettura e il modello di distribuzione di Campaign v8
 
 >[!NOTE]
 >
->Alcune funzioni non disponibili o non supportate possono ancora essere visibili nell’interfaccia utente.
+>Alcune funzioni non disponibili o non supportate possono risultare ancora visibili nell’interfaccia utente.
