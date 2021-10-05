@@ -6,7 +6,7 @@ role: Data Engineer
 level: Beginner
 exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
 source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
 ht-degree: 100%
 
@@ -27,11 +27,11 @@ Puoi anche utilizzare il Pannello di controllo Campaign per configurare le impos
 ↗️ Consulta la [documentazione del Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it){target=&quot;_blank&quot;}.
 
 >[!CAUTION]
->
 > In Campaign v8 non sono ancora supportate le seguenti funzionalità:
 >
 >* Gestione dei sottodomini
 >* Gestione certificati
+
 >
 
 
