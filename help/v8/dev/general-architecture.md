@@ -2,10 +2,10 @@
 title: Architettura generale
 description: Ulteriori informazioni sull’architettura e sui componenti di Campaign
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: eb8ad88ffd9dbaaf1f9ace2e88ba4486711bc72d
 workflow-type: tm+mt
 source-wordcount: '1217'
-ht-degree: 8%
+ht-degree: 6%
 
 ---
 
@@ -31,15 +31,15 @@ L’accesso all’applicazione può essere effettuato in diversi modi: Integrazi
 
 * **Console** client: L&#39;interfaccia utente principale dell&#39;applicazione è un&#39;applicazione nativa (su Windows) che comunica con il server dell&#39;applicazione Adobe Campaign con i protocolli Internet standard (SOAP, HTTP, ecc.). La console client di Adobe Campaign consente una produttività semplice e intuitiva, utilizza una larghezza di banda molto ridotta (grazie a una cache locale) ed è progettata per una facile distribuzione. Questa console può essere implementata da un browser Internet, può essere aggiornata automaticamente e non richiede alcuna configurazione di rete specifica in quanto genera solo traffico HTTP(S).
 
-   ?? [Ulteriori informazioni su Campaign Client Console](../start/connect.md).
+   ![](../assets/do-not-localize/glass.png) [Ulteriori informazioni su Campaign Client Console](../start/connect.md).
 
-* **Accesso** Web: parti dell&#39;applicazione sono accessibili tramite un semplice browser web che utilizza un&#39;interfaccia utente HTML, tra cui il modulo di reporting, le fasi di approvazione della consegna, il monitoraggio dell&#39;istanza, ecc.
+* **Accesso** Web: parti dell’applicazione sono accessibili tramite un semplice browser web che utilizza un’interfaccia utente HTML, tra cui il modulo di reporting, le fasi di approvazione della consegna, il monitoraggio dell’istanza, ecc.
 
-   ?? [Ulteriori informazioni su come accedere a Campaign dal web](../start/connect.md).
+   ![](../assets/do-not-localize/glass.png) [Scopri come accedere a Campaign dal web](../start/connect.md).
 
 * **API** di Campaign: In alcuni casi, il sistema può essere chiamato da un’applicazione esterna utilizzando le API dei servizi Web esposte tramite il protocollo SOAP.
 
-   ? [Ulteriori informazioni sulle API di Campaign](../dev/api.md).
+   ![](../assets/do-not-localize/glass.png) [Ulteriori informazioni sulle API di Campaign](../dev/api.md).
 
 ## Ambiente di sviluppo {#dev-env}
 
@@ -57,7 +57,7 @@ I processi principali sono i seguenti:
 
 **Server applicazioni**  (web nlserver)
 
-Questo processo espone l’intera gamma di funzionalità di Adobe Campaign tramite le API dei servizi web (SOAP / HTTP + XML). Inoltre, può generare in modo dinamico le pagine web utilizzate per l’accesso basato su HTML (rapporti, moduli web, ecc.). Per ottenere questo risultato, questo processo include un server Apache Tomcat JSP. Questo è il processo a cui la console si connette.
+Questo processo espone l’intera gamma di funzionalità di Adobe Campaign tramite le API dei servizi web (SOAP / HTTP + XML). Inoltre, può generare in modo dinamico le pagine Web utilizzate per l’accesso basato su HTML (rapporti, moduli web, ecc.). Per ottenere questo risultato, questo processo include un server Apache Tomcat JSP. Questo è il processo a cui la console si connette.
 
 **Motore del flusso di lavoro**  (nlserver wfserver)
 
@@ -124,6 +124,6 @@ I clienti possono implementare Adobe Campaign utilizzando il database e gli sche
 
 >[!CAUTION]
 >
->Con **Campaign Managed Cloud Services**, l’ambiente e la configurazione iniziale sono stati impostati da Adobe, in base ai termini del contratto di licenza. Non ti è consentito modificare i pacchetti, gli schemi e i report integrati.
+>Con **Cloud Services gestiti da Campaign**, l’ambiente e la configurazione iniziale sono stati impostati per Adobe, in base ai termini del contratto di licenza. Non ti è consentito modificare i pacchetti, gli schemi e i report integrati.
 >
 >Se hai la necessità di utilizzare un componente aggiuntivo di Campaign o una funzionalità specifica non fornita, contatta l’**Assistenza clienti di Adobe**.

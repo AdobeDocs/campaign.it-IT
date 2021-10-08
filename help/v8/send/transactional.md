@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: eb8ad88ffd9dbaaf1f9ace2e88ba4486711bc72d
 workflow-type: tm+mt
 source-wordcount: '1486'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -24,13 +24,13 @@ I messaggi transazionali vengono utilizzati per inviare:
 * una risposta in tempo reale individuale a un&#39;azione del cliente
 * contenuto non promozionale
 
-? Le impostazioni dei messaggi transazionali sono descritte in [questa sezione](../config/transactional-msg-settings.md).
+![](../assets/do-not-localize/glass.png) Le impostazioni di messaggistica transazionale sono descritte in  [questa sezione](../config/transactional-msg-settings.md).
 
-? Comprendere l&#39;architettura dei messaggi transazionali in [questa pagina](../dev/architecture.md).
+![](../assets/do-not-localize/glass.png) Comprendere l’architettura dei messaggi transazionali in  [questa pagina](../dev/architecture.md).
 
 >[!CAUTION]
 >
->La messaggistica transazionale richiede una licenza specifica. Controlla il tuo contratto di licenza.
+>La messaggistica transazionale richiede una licenza specifica. Controlla il contratto di licenza.
 
 ## Definire modelli di messaggi transazionali
 
@@ -64,14 +64,14 @@ Per creare un modello di messaggio, segui i passaggi seguenti:
 
 ### Creare il contenuto{#create-message-content}
 
-La definizione del contenuto dei messaggi transazionali è la stessa di tutte le consegne in Adobe Campaign. Ad esempio, per una consegna e-mail, puoi creare contenuto in formato HTML o testo, aggiungere allegati o personalizzare l’oggetto di consegna. Per ulteriori informazioni al riguardo, consulta [questa sezione](../start/create-message.md).
+La definizione del contenuto dei messaggi transazionali è la stessa di tutte le consegne in Adobe Campaign. Ad esempio, per una consegna e-mail, puoi creare contenuto in HTML o in formato testo, aggiungere allegati o personalizzare l’oggetto di consegna. Per ulteriori informazioni al riguardo, consulta [questa sezione](../start/create-message.md).
 
 >[!CAUTION]
 >
 >Le immagini incluse nel messaggio devono essere accessibili al pubblico. Adobe Campaign non fornisce alcun meccanismo di caricamento delle immagini per i messaggi transazionali.\
 >A differenza di JSSP o webApp, `<%=` non dispone di escape predefinito.
 >
->Devi eseguire correttamente l’escape di ogni dato proveniente dall’evento. Questo escape dipende da come viene utilizzato questo campo. Ad esempio, all’interno di un URL, utilizza encodeURIComponent. Per essere visualizzato nell&#39;HTML, è possibile utilizzare escapeXMLString.
+>Devi eseguire correttamente l’escape di ogni dato proveniente dall’evento. Questo escape dipende da come viene utilizzato questo campo. Ad esempio, all’interno di un URL, utilizza encodeURIComponent. Per essere visualizzato in HTML, è possibile utilizzare escapeXMLString.
 
 Una volta definito il contenuto del messaggio, puoi integrare le informazioni sull’evento nel corpo del messaggio e personalizzarlo. Le informazioni sull’evento vengono inserite nel corpo del testo grazie ai tag di personalizzazione.
 
@@ -151,7 +151,7 @@ Puoi verificare la consegna dei messaggi inviando una bozza a un indirizzo di se
 
 L’invio di una bozza comporta la stessa procedura utilizzata per qualsiasi consegna.
 
-↗️ Ulteriori informazioni sulle bozze nella documentazione di [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=it){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Ulteriori informazioni sulle bozze nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=it){target=&quot;_blank&quot;}
 
 Tuttavia, per inviare una prova di un messaggio sulle transazioni, devi eseguire le seguenti operazioni:
 

@@ -4,8 +4,7 @@ description: Scopri come utilizzare Campaign e i database esterni
 feature: Overview
 role: Data Engineer
 level: Beginner
-exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
 workflow-type: tm+mt
 source-wordcount: '1843'
 ht-degree: 3%
@@ -165,8 +164,8 @@ Innanzitutto, affinché l’utente possa eseguire operazioni su un database este
 1. Crea un nuovo diritto specificando l’etichetta selezionata.
 1. Inserisci il nome del diritto con nome nel seguente formato **utente:base@server**, dove :
 
-   * **** user è il nome dell’utente nel database esterno
-   * **** baseè il nome del database esterno
+   * **** utente è il nome dell&#39;utente nel database esterno
+   * **** base è il nome del database esterno
    * **** server è il nome del server di database esterno
 
 1. Salva il diritto con nome e collegalo all’operatore scelto dal nodo **[!UICONTROL Administration > Access Management > Operators]** di Adobe Campaign Explorer.

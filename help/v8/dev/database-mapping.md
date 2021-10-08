@@ -2,7 +2,7 @@
 title: Mappatura del database Campaign
 description: Mappatura del database Campaign
 exl-id: a804d164-58bf-4b15-a48e-8cf75d793668
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '1463'
 ht-degree: 0%
@@ -97,7 +97,7 @@ Per compilare un campo in XML, è necessario aggiungere l&#39;attributo **xml** 
    <element name="description" xml="true" type="html" label="Description"/>
    ```
 
-   Il tipo &quot;html&quot; ti consente di memorizzare il contenuto HTML in un tag CDATA e di visualizzare un controllo di modifica HTML speciale nell’interfaccia client di Adobe Campaign.
+   Il tipo &quot;html&quot; ti consente di memorizzare il contenuto di HTML in un tag CDATA e visualizzare un controllo speciale di modifica di HTML nell’interfaccia client di Adobe Campaign.
 
 L’utilizzo di campi XML consente di aggiungere campi senza dover modificare la struttura fisica del database. Un altro vantaggio è l&#39;utilizzo di meno risorse (dimensioni assegnate ai campi SQL, limite al numero di campi per tabella, ecc.).
 
@@ -256,7 +256,7 @@ Per le relazioni di unione che utilizzano Federated Database Access:
 * ![](assets/do-not-localize/join_fda_11.png) : Cardinalità 1-1
 * ![](assets/do-not-localize/join_fda_1m.png) : Cardinalità 1-N
 
-? Per ulteriori informazioni sulle tabelle FDA, consulta [Federated Data Access](../connect/fda.md).
+![](../assets/do-not-localize/glass.png) Per ulteriori informazioni sulle tabelle FDA, consulta  [Federated Data Access](../connect/fda.md).
 
 Un collegamento deve essere dichiarato nello schema contenente la chiave esterna della tabella collegata tramite l’elemento principale:
 

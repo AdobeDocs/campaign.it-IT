@@ -4,7 +4,7 @@ description: Guida introduttiva alle funzionalità di reporting di Campaign
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 2dc5f54065d9dad6e007a2f70f1ccf1696121628
+source-git-commit: 2e192f3a9a8189a4dc686dc4a57eee03f83d75bc
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 6%
@@ -25,7 +25,7 @@ Adobe Campaign fornisce un set di strumenti di reporting elencati in questa pagi
 
    ![](assets/built-in-reports.png)
 
-   I rapporti incorporati di ↗️ Campaign sono presentati nella documentazione di [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/accessing-built-in-reports/about-campaign-built-in-reports.html){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) I rapporti incorporati di Campaign sono presentati nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/accessing-built-in-reports/about-campaign-built-in-reports.html){target=&quot;_blank&quot;}
 
 * **Analisi dei dati descrittivi**
 
@@ -35,13 +35,13 @@ Adobe Campaign fornisce un set di strumenti di reporting elencati in questa pagi
 
    ![](assets/desc-analysis-report.png)
 
-   ↗️ rapporto di analisi descrittiva della campagna è presentato nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) Il reporting dell’analisi descrittiva della campagna è presentato nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target=&quot;_blank&quot;}
 
 * **Rapporti personalizzati**
 
    Utilizza Adobe Campaign per creare rapporti sui dati nel database. Una volta creati, rendili accessibili nei contesti appropriati.
 
-   I passaggi ↗️ per creare un report sono descritti in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target=&quot;_blank&quot;}. La creazione di rapporti personalizzati è riservata agli utenti avanzati.
+   ![](../assets/do-not-localize/book.png) I passaggi per creare un rapporto sono descritti in dettaglio nella documentazione [ di ](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html)Campaign Classic v7{target=&quot;_blank&quot;}. La creazione di rapporti personalizzati è riservata agli utenti avanzati.
 
 * **Cubi**
 
@@ -51,8 +51,7 @@ Adobe Campaign fornisce un set di strumenti di reporting elencati in questa pagi
 
    A seconda della complessità delle query, dei calcoli e dei volumi, i dati analizzati in questi rapporti possono essere raccolti tramite una query e preaggregati in un elenco (flusso di lavoro del tipo di gestione dei dati) o in un cubo (tramite Marketing Analytics). Viene visualizzato sotto forma di tabella pivot o di elenco di gruppi.
 
-   ↗️ Scopri come creare cubi nella documentazione di [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/designing-reports-with-cubes/about-cubes.html){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) Scopri come creare cubi nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/designing-reports-with-cubes/about-cubes.html){target=&quot;_blank&quot;}
 
 
 I rapporti di Adobe Campaign sono ottimizzati e offrono migliori funzioni di scalabilità rispetto a Campaign Classic v7. Le limitazioni esistenti sui cubi non si applicano.
-

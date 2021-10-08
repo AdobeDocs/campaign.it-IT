@@ -2,7 +2,7 @@
 title: Best practice per i modelli di dati
 description: Scopri le best practice per l’estensione del modello dati di Campaign
 exl-id: bdd5e993-0ce9-49a8-a618-ab0ff3796d49
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '2683'
 ht-degree: 4%
@@ -17,9 +17,9 @@ Il sistema Adobe Campaign è molto flessibile e può essere esteso oltre l&#39;i
 
 Per una migliore comprensione delle tabelle integrate di Campaign e del modo in cui si relazionano tra loro, consulta [questa sezione](datamodel.md) .
 
-? Per iniziare a utilizzare gli schemi di Campaign, leggi [questa sezione](schemas.md) .
+![](../assets/do-not-localize/glass.png) Consulta  [questa ](schemas.md) sezione per iniziare a utilizzare gli schemi di Campaign.
 
-? Scopri come configurare gli schemi di estensione per estendere il modello dati concettuale del database Adobe Campaign in [questa pagina](extend-schema.md).
+![](../assets/do-not-localize/glass.png) Scopri come configurare gli schemi di estensione per estendere il modello dati concettuale del database Adobe Campaign in  [questa pagina](extend-schema.md).
 
 ## Architettura del modello dati {#data-model-architecture}
 
@@ -108,7 +108,7 @@ Questa chiave personalizzata è la chiave primaria del record effettiva nel sist
 
 Durante la creazione di una tabella personalizzata sono disponibili due opzioni:
 * Combinazione di chiave generata automaticamente (id) e chiave interna (personalizzata). Questa opzione è interessante se la chiave di sistema è una chiave composita o non un numero intero. Con il Snowflake, i numeri interi o le chiavi basate su stringhe forniscono prestazioni più elevate nelle tabelle grandi e si uniscono ad altre tabelle.
-* Utilizzo della chiave primaria come chiave primaria del sistema esterno. Questa soluzione è solitamente preferita in quanto semplifica l&#39;approccio all&#39;importazione e all&#39;esportazione di dati, con una chiave coerente tra i diversi sistemi. **** Se la chiave si chiama &quot;id&quot; e deve essere compilata con valori esterni (non generata automaticamente), l’opzione Autouuidid deve essere disabilitata.
+* Utilizzo della chiave primaria come chiave primaria del sistema esterno. Questa soluzione è solitamente preferita in quanto semplifica l&#39;approccio all&#39;importazione e all&#39;esportazione di dati, con una chiave coerente tra i diversi sistemi. **** Se la chiave si chiama &quot;id&quot; e deve essere compilata con valori esterni (non generata automaticamente), l’opzione Autouidid deve essere disabilitata.
 
 >[!CAUTION]
 >

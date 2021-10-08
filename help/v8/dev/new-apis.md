@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: dd822f88-b27d-4944-879c-087f68e79825
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 4%
+source-wordcount: '428'
+ht-degree: 2%
 
 ---
 
@@ -213,4 +213,4 @@ L’inserimento dei dati di abbonamento e di annullamento dell’abbonamento si 
 
 **Argomenti correlati**
 
-* [JSAPI Campaign Classic v7](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html)
+* [JSAPI Campaign Classic v7](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html)

@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 4%
@@ -40,7 +40,7 @@ I seguenti account tecnici vengono utilizzati da Adobe Campaign per abilitare ed
 
    L&#39;account esterno **Bounce mails** specifica l&#39;account POP3 esterno da utilizzare per la connessione al servizio e-mail. Tutti i server configurati per l&#39;accesso POP3 possono essere utilizzati per ricevere la posta di ritorno.
 
-   ↗️ Ulteriori informazioni sulle e-mail in entrata nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/inbound-emails.html){target=&quot;_blank&quot;}[
+   ![](../assets/do-not-localize/book.png) Ulteriori informazioni sulle e-mail in entrata nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/inbound-emails.html){target=&quot;_blank&quot;}
 
 * **Indirizzamento**
 
@@ -54,7 +54,7 @@ I seguenti account tecnici vengono utilizzati da Adobe Campaign per abilitare ed
 
    Nel contesto della messaggistica transazionale, le istanze di esecuzione sono collegate all’istanza di controllo e le collegano. I modelli di messaggi transazionali vengono distribuiti nell’istanza di esecuzione.
 
-   ? Ulteriori informazioni sull&#39;architettura del Centro messaggi in [questa pagina](../dev/architecture.md#transac-msg-archi).
+   ![](../assets/do-not-localize/glass.png) Ulteriori informazioni sull&#39;architettura del Centro messaggi in  [questa pagina](../dev/architecture.md#transac-msg-archi).
 
 ## Accesso agli account esterni dei sistemi esterni
 
@@ -64,7 +64,7 @@ I seguenti account tecnici vengono utilizzati da Adobe Campaign per abilitare ed
 
    I database esterni compatibili con Adobe Campaign v8 sono elencati nella [Matrice di compatibilità](../start/compatibility-matrix.md)
 
-   ? Ulteriori informazioni sull&#39;opzione Federated Data Access (FDA) in [questa sezione](../connect/fda.md).
+   ![](../assets/do-not-localize/glass.png) Ulteriori informazioni sull’opzione Federated Data Access (FDA) in  [questa sezione](../connect/fda.md).
 
 ## Account esterni per l’integrazione di soluzioni Adobe
 
@@ -72,20 +72,20 @@ I seguenti account tecnici vengono utilizzati da Adobe Campaign per abilitare ed
 
    L’ account esterno **[!UICONTROL Adobe Experience Cloud]** viene utilizzato per implementare Adobe IMS per connettersi alla console Adobe Campaign utilizzando un Adobe ID.
 
-   ? Per ulteriori informazioni su Adobe Identity Management Service (IMS), consulta [questa sezione](../start/connect.md#connect-ims).
+   ![](../assets/do-not-localize/glass.png) Ulteriori informazioni su Adobe Identity Management Service (IMS) in  [questa sezione](../start/connect.md#connect-ims).
 
 * **Analisi web**
 
    Utilizza l’ account esterno **[!UICONTROL Web Analytics (Adobe Analytics)]** per configurare il trasferimento di dati da Adobe Analytics ad Adobe Campaign.
 
-   ? Ulteriori informazioni sull&#39;integrazione Adobe Campaign - Adobe Analytics in [questa pagina](../connect/ac-aa.md).
+   ![](../assets/do-not-localize/glass.png) Ulteriori informazioni sull’integrazione Adobe Campaign - Adobe Analytics in  [questa pagina](../connect/ac-aa.md).
 
    ? In qualità di utente di Cloud Services gestiti, [contatta Adobe](../start/campaign-faq.md#support) per integrare Adobe Analytics con Campaign.
 
    * **Adobe Experience Manager**
    L’ account esterno **[!UICONTROL AEM]** ti consente di gestire il contenuto delle consegne e-mail e dei moduli direttamente in Adobe Experience Manager.
 
-   ? Ulteriori informazioni sull&#39;integrazione Adobe Campaign - Adobe Analytics in [questa pagina](../connect/ac-aem.md).
+   ![](../assets/do-not-localize/glass.png) Ulteriori informazioni sull’integrazione Adobe Campaign - Adobe Analytics in  [questa pagina](../connect/ac-aem.md).
 
    ? In qualità di utente di Cloud Services gestiti, [contatta Adobe](../start/campaign-faq.md#support) per integrare Adobe Experience Manager con Adobe Campaign.
 
@@ -94,22 +94,22 @@ I seguenti account tecnici vengono utilizzati da Adobe Campaign per abilitare ed
 
 * **Microsoft Dynamics CRM**
 
-   L’account esterno **[!UICONTROL Microsoft Dynamics CRM]** ti consente di importare ed esportare dati di Microsoft Dynamics in Adobe Campaign.
+   L’account esterno **[!UICONTROL Microsoft Dynamics CRM]** ti consente di importare ed esportare i dati di Microsoft Dynamics in Adobe Campaign.
 
-   ? Ulteriori informazioni sull&#39;integrazione Adobe Campaign - Microsoft Dynamics CRM in [questa pagina](../connect/crm.md).
+   ![](../assets/do-not-localize/glass.png) Ulteriori informazioni sull’integrazione Adobe Campaign - Microsoft Dynamics CRM in  [questa pagina](../connect/crm.md).
 
    Con il tipo di distribuzione **[!UICONTROL Web API]** e l&#39;autenticazione **[!UICONTROL Password credentials]**, devi fornire i seguenti dettagli:
 
    * **[!UICONTROL Account]**: Account utilizzato per accedere a Microsoft CRM.
 
-   * **[!UICONTROL Server]**: URL del server Microsoft CRM in uso.
+   * **[!UICONTROL Server]**: URL del server Microsoft CRM.
 
-   * **[!UICONTROL Client identifier]**: ID client che si trova dal portale di gestione di Microsoft Azure nel  **[!UICONTROL Update your code]** campo  **[!UICONTROL Client ID]** categoria.
+   * **[!UICONTROL Client identifier]**: ID client che si trova dal portale di gestione di Microsoft Azure nel  **[!UICONTROL Update your code]** campo  **[!UICONTROL Client ID]** categoria .
 
    * **[!UICONTROL CRM version]**: Versione del CRM tra  **[!UICONTROL Dynamics CRM 2007]**,  **[!UICONTROL Dynamics CRM 2015]** o  **[!UICONTROL Dynamics CRM 2016]**.
    Con il tipo di distribuzione **[!UICONTROL Web API]** e l&#39;autenticazione **[!UICONTROL Certificate]**, devi fornire i seguenti dettagli:
 
-   * **[!UICONTROL Server]**: URL del server Microsoft CRM in uso.
+   * **[!UICONTROL Server]**: URL del server Microsoft CRM.
 
    * **[!UICONTROL Private Key (Base64 encoded)]**: Chiave privata codificata in Base64
 
@@ -117,7 +117,7 @@ I seguenti account tecnici vengono utilizzati da Adobe Campaign per abilitare ed
 
    * **[!UICONTROL Key ID]**
 
-   * **[!UICONTROL Client identifier]**: ID client che si trova dal portale di gestione di Microsoft Azure nel  **[!UICONTROL Update your code]** campo  **[!UICONTROL Client ID]** categoria.
+   * **[!UICONTROL Client identifier]**: ID client che si trova dal portale di gestione di Microsoft Azure nel  **[!UICONTROL Update your code]** campo  **[!UICONTROL Client ID]** categoria .
 
    * **[!UICONTROL CRM version]**: Versione del CRM tra  **[!UICONTROL Dynamics CRM 2007]**,  **[!UICONTROL Dynamics CRM 2015]** o  **[!UICONTROL Dynamics CRM 2016]**.
 
@@ -142,7 +142,7 @@ I seguenti account tecnici vengono utilizzati da Adobe Campaign per abilitare ed
 
 Questi account esterni possono essere utilizzati per importare o esportare dati in Adobe Campaign utilizzando un’attività di flusso di lavoro **[!UICONTROL Transfer file]** .
 
-↗️ Ulteriori informazioni sul trasferimento dei file nei flussi di lavoro nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/file-transfer.html){target=&quot;_blank&quot;}[
+![](../assets/do-not-localize/book.png) Ulteriori informazioni sul trasferimento di file nei flussi di lavoro nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/file-transfer.html){target=&quot;_blank&quot;}
 
 * **FTP e SFTP**
 
@@ -157,9 +157,9 @@ Per farlo, specifica in questo account esterno l’indirizzo e le credenziali ut
 
    * **[!UICONTROL AWS access key ID]**: Scopri come trovare il tuo ID chiave di accesso AWS nella documentazione di  [Amazon](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys) .
 
-   * **[!UICONTROL Secret access key to AWS]**: Scopri come trovare la chiave di accesso segreto ad AWS nella documentazione di  [Amazon](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
+   * **[!UICONTROL Secret access key to AWS]**: Scopri come trovare la chiave di accesso segreta per AWS nella documentazione di  [Amazon](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
 
-   * **[!UICONTROL AWS Region]**: Ulteriori informazioni sulle aree AWS nella documentazione di  [Amazon](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/).
+   * **[!UICONTROL AWS Region]**: Ulteriori informazioni sulle aree geografiche di AWS nella documentazione di  [Amazon](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/).
 
    * La casella di controllo **[!UICONTROL Use server side encryption]** consente di memorizzare il file in modalità crittografata S3. Scopri come trovare l’ID chiave di accesso e la chiave di accesso segreto nella [documentazione di Amazon](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys).
 
@@ -171,4 +171,4 @@ Per farlo, specifica in questo account esterno l’indirizzo e le credenziali ut
 
    * **[!UICONTROL Encryption]**: Tipo di crittografia tra  **[!UICONTROL None]** o  **[!UICONTROL SSL]**.
 
-   * **[!UICONTROL Access key]**: Scopri come trovare il tuo  **[!UICONTROL Access key]** nella documentazione  [Microsoft](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal).
+   * **[!UICONTROL Access key]**: Scopri come trovare il tuo  **[!UICONTROL Access key]** nella documentazione di  [Microsoft](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal).

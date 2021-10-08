@@ -2,9 +2,9 @@
 title: Moduli di input per Campaign
 description: Scopri come personalizzare i moduli di input
 exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
 workflow-type: tm+mt
-source-wordcount: '2555'
+source-wordcount: '2552'
 ht-degree: 0%
 
 ---
@@ -84,11 +84,11 @@ Il controllo edit si adatta automaticamente al tipo di dati corrispondente e uti
 
 Per impostazione predefinita, ogni campo viene visualizzato su una singola riga e occupa tutto lo spazio disponibile a seconda del tipo di dati.
 
-↗️ Tutti gli attributi del modulo sono elencati nella [documentazione di Campaign Classic v7](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/control-Button.html).
+![](../assets/do-not-localize/book.png) Tutti gli attributi del modulo sono elencati nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html).
 
 ## Formattazione {#formatting}
 
-Il layout dei controlli è simile al layout utilizzato nelle tabelle HTML, con la possibilità di dividere un controllo in più colonne, elementi di interlacciamento o di specificare l&#39;occupazione dello spazio disponibile. Tenere tuttavia presente che la formattazione consente solo di suddividere l&#39;area per proporzioni; non è possibile specificare dimensioni fisse per un oggetto.
+Il layout dei controlli è simile al layout utilizzato nelle tabelle di HTML, con la possibilità di dividere un controllo in più colonne, elementi di interlacciamento o di specificare l&#39;occupazione dello spazio disponibile. Tenere tuttavia presente che la formattazione consente solo di suddividere l&#39;area per proporzioni; non è possibile specificare dimensioni fisse per un oggetto.
 
 Per visualizzare i controlli dell&#39;esempio precedente in due colonne:
 

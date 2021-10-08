@@ -1,23 +1,23 @@
 ---
-title: Integrare gli SDK Campaign con la tua app
-description: Scopri come integrare gli SDK Campaign Android e iOS con la tua app
+title: Integrare gli SDK di Campaign con la tua app
+description: Scopri come integrare gli SDK di Campaign Android e iOS con la tua app
 version: v8
 feature: Push
 role: Developer
 level: Experienced
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
-source-git-commit: ea7d540af082782114f4a3e32c9d880b0d14df43
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '1288'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Integrare gli SDK Campaign con la tua app {#integrate-campaign-sdk}
+# Integrare gli SDK di Campaign con la tua app {#integrate-campaign-sdk}
 
 Utilizza gli SDK Campaign per iOS e Android per facilitare l’integrazione dell’app mobile nella piattaforma Adobe Campaign.
 
-Le versioni supportate per Android e iOS e le versioni compatibili per Campaign v8 sono elencate nella [Matrice di compatibilità](../start/compatibility-matrix.md#MobileSDK) .
+Le versioni supportate da Android e iOS e le versioni compatibili con Campaign SDK per Campaign v8 sono elencate nella [Matrice di compatibilità](../start/compatibility-matrix.md#MobileSDK) .
 
 >[!NOTE]
 >
@@ -66,11 +66,11 @@ In questa sezione, scopri come utilizzare l’SDK per Android in un’applicazio
 
 ### Configurare FCM
 
-Per utilizzare la notifica push su Android, è necessario disporre di un account FCM, configurare l&#39;applicazione Android per ricevere la notifica e collegare l&#39;applicazione all&#39;account FCM. Ulteriori informazioni sono disponibili in [Documentazione di Google](https://firebase.google.com/docs/cloud-messaging/).
+Per utilizzare la notifica push su Android, è necessario disporre di un account FCM, configurare l&#39;applicazione Android per ricevere la notifica e collegare l&#39;applicazione all&#39;account FCM. Ulteriori informazioni sono disponibili in [Documentazione Google](https://firebase.google.com/docs/cloud-messaging/).
 
-Per aggiungere Firebase al tuo progetto Android, fai riferimento a [Documentazione di Google](https://firebase.google.com/docs/android/setup) .
+Per aggiungere Firebase al tuo progetto Android, fai riferimento alla [Documentazione Google](https://firebase.google.com/docs/android/setup) .
 
-Scopri come implementare FCM nella tua applicazione in [Documentazione di Google](https://firebase.google.com/docs/android/setup).
+Scopri come implementare FCM nella tua applicazione in [Documentazione Google](https://firebase.google.com/docs/android/setup).
 
 >[!NOTE]
 >
@@ -554,7 +554,7 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione di Google
    ```
 
 
-## Integrare l&#39;SDK iOS
+## Integrare l’SDK di iOS
 
 1. **Registra il dispositivo mobile nel server Adobe Campaign**
 
@@ -638,7 +638,7 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione di Google
    - (void) registerDeviceStatus: (ACCRegisterDeviceStatus) status:(NSString *) errorReason;
    ```
 
-   * **** Lo stato ti consente di sapere se una registrazione è riuscita o se si è verificato un errore.
+   * **** Gli stati consentono di sapere se una registrazione è riuscita o se si è verificato un errore.
 
    * **** ErrorReasonfornisce ulteriori informazioni sugli errori che si sono verificati. Per ulteriori informazioni sugli errori disponibili e sulle relative descrizioni, consulta la tabella seguente.
 
@@ -794,7 +794,7 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione di Google
 
 Le variabili ti consentono di definire il comportamento dell’app mobile dopo aver ricevuto una notifica. Queste variabili devono essere definite nel codice dell’app mobile e nella console Adobe Campaign, nella scheda **[!UICONTROL Variables]** del servizio dedicato per le app mobili.
 
-↗️ Ulteriori informazioni nella documentazione di Campaign Classic v7 **sull&#39;app mobile: [Passaggi di configurazione per iOS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target=&quot;_blank&quot;} e [Passaggi di configurazione per Andoid](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html){target=&quot;_blank&quot;}.**
+![](../assets/do-not-localize/book.png) Ulteriori informazioni nella documentazione di  **Campaign Classic v7** sull’app mobile:  [Passaggi di configurazione per iOS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target=&quot;_blank&quot;} e passaggi  [di configurazione per Andoid](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html){target=&quot;_blank&quot;}.
 
 Di seguito è riportato un esempio di codice che consente a un’app mobile di raccogliere tutte le variabili aggiunte in una notifica. Nel nostro esempio, utilizziamo la variabile &quot;VAR&quot;.
 

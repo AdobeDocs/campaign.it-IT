@@ -2,7 +2,7 @@
 title: Estendere gli schemi di Campaign
 description: Scopri come estendere gli schemi di Campaign
 exl-id: e4dcb228-0683-437a-88cd-bd7ed33da921
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 2%
@@ -22,7 +22,7 @@ I passaggi chiave per personalizzare il modello dati di Campaign sono i seguenti
 >[!CAUTION]
 >Lo schema predefinito non deve essere modificato direttamente. Se è necessario adattare uno schema incorporato, è necessario estenderlo.
 
-? Per una migliore comprensione delle tabelle integrate di Campaign e della loro interazione, consulta [questa pagina](datamodel.md). Vedi anche consigli durante la creazione di un nuovo schema in [questa pagina](create-schema.md).
+![](../assets/do-not-localize/glass.png) Per una migliore comprensione delle tabelle integrate di Campaign e della loro interazione, consulta  [questa pagina](datamodel.md). Vedi anche consigli durante la creazione di un nuovo schema in [questa pagina](create-schema.md).
 
 Per estendere uno schema, segui i passaggi seguenti:
 

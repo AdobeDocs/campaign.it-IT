@@ -5,8 +5,8 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
-workflow-type: ht
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 100%
 
@@ -58,5 +58,5 @@ Puoi integrare Campaign con una serie di potenti soluzioni Adobe, quali: Adobe A
 
 Inoltre puoi configurare l’ottimizzazione del tempo di invio e il valore di engagement, entrambi in modalità predittiva, con il servizio IA gestione percorsi, per aumentare i tassi di apertura, i clic e i ricavi.
 
-?? [Ulteriori informazioni sulle integrazioni di Campaign](../connect/integration.md)
+![](../assets/do-not-localize/glass.png) [Ulteriori informazioni sulle integrazioni di Campaign](../connect/integration.md)
 
