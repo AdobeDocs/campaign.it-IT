@@ -5,7 +5,7 @@ feature: Audiences
 role: Data Engineer
 level: Beginner
 exl-id: 3d61abac-03df-42d3-a950-37e41a5a7756
-source-git-commit: c3ed24e16d5a8bc67b8a8c959bbf485ea0fd919c
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 7%
@@ -36,7 +36,7 @@ Ogni operatore deve essere collegato a una zona per accedere a un’istanza e l�
 
 Gli operatori sono collegati a una zona di sicurezza dal relativo profilo nella console, accessibile nel nodo **[!UICONTROL Administration > Access management > Operators]** .
 
-? In qualità di utente di Cloud Services gestiti, Adobe imposta le aree di protezione. Per ulteriori informazioni, [contattare Adobe](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+![](../assets/do-not-localize/speech.png)  In qualità di utente di Cloud Services gestiti, Adobe imposta le aree di protezione. Per ulteriori informazioni, [contattare Adobe](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
 **Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7**
 

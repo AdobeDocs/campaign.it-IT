@@ -4,7 +4,8 @@ description: Scopri come utilizzare i trigger di Campaign e Adobe Experience Clo
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
+exl-id: a2ab85c3-ef5f-49fd-a6c4-2fd397c8d21b
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%
@@ -17,4 +18,4 @@ Puoi utilizzare i trigger di Experience Cloud per collegare i dati tra Adobe Cam
 
 Ulteriori informazioni su Adobe Campaign e Triggers di Experience Cloud su [questa pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html?lang=en).
 
-?  In qualità di utente di Cloud Services gestiti, [contatta Adobe](../start/campaign-faq.md#support) per implementare i trigger di Experience Cloud con Campaign.
+![](../assets/do-not-localize/speech.png)   In qualità di utente di Cloud Services gestiti,  [contatta ](../start/campaign-faq.md#support) Adobe per implementare i trigger di Experience Cloud con Campaign.
