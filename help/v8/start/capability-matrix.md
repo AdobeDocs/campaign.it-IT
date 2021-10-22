@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
 source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '929'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ Gli utenti di Campaign non devono essere esperti di database: non sono più nece
 
 Gli utenti di Campaign si connettono tramite il proprio Adobe ID. Lo stesso Adobe ID viene utilizzato per mantenere tutti i piani e i prodotti di Adobe associati a un singolo account.
 
-![](../assets/do-not-localize/glass.png) Scopri come connetterti a  [!DNL Campaign] in  [questa pagina](connect.md).
+![](../assets/do-not-localize/glass.png) Scopri come connetterti a [!DNL Campaign] in [questa pagina](connect.md).
 
 ## Generazione rapporti
 
@@ -85,7 +85,7 @@ Campaign v8 offre un’ulteriore attività del flusso di lavoro di targeting: **
 
 L’attività **[!UICONTROL Change data source]** consente di modificare l’origine dati di un flusso di lavoro **[!UICONTROL Working table]** per gestire i dati tra diverse origini dati, come FDA, FFDA e database locale.
 
-![](../assets/do-not-localize/glass.png) Ulteriori informazioni sull’ **[!UICONTROL Change data source]** attività in  [questa pagina](../config/workflows.md#change-data-source-activity).
+![](../assets/do-not-localize/glass.png) Per saperne di più sull’attività **[!UICONTROL Change data source]**, visita [questa pagina](../config/workflows.md#change-data-source-activity).
 
 ## Funzioni non disponibili{#gs-unavailable-features}
 
