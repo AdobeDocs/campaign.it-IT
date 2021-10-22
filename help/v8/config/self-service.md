@@ -6,7 +6,7 @@ role: Data Engineer
 level: Beginner
 exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
 source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
 ht-degree: 100%
 
@@ -24,14 +24,14 @@ Vantaggi principali:
 
 Puoi anche utilizzare il Pannello di controllo Campaign per configurare le impostazioni delle istanze, ad esempio l’elenco Consentiti IP, le autorizzazioni URL e recuperare informazioni sull’istanza.
 
-![](../assets/do-not-localize/book.png) Consulta la [documentazione del Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it){target=&quot;_blank&quot;}.
+![](../assets/do-not-localize/book.png) Ulteriori informazioni nella [documentazione del Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it){target=&quot;_blank&quot;}.
 
 >[!CAUTION]
->
 > In Campaign v8 non sono ancora supportate le seguenti funzionalità:
 >
 >* Gestione dei sottodomini
 >* Gestione certificati
+
 >
 
 
