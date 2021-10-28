@@ -6,7 +6,7 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471,a9d18e75-18e7-491e-bfc4-671c3600396e
-source-git-commit: 0061c536ff309d86061548b98d2c6e1124e01a0e
+source-git-commit: ca4adc12700f0507e6cc43a104e0cf2987aa5883
 workflow-type: tm+mt
 source-wordcount: '1597'
 ht-degree: 49%
@@ -17,7 +17,7 @@ ht-degree: 49%
 
 In questa pagina sono elencate nuove funzionalità, miglioramenti e correzioni introdotti con l’**ultima versione di Campaign v8**.
 
-## Versione 8.2.1 {#release-8-2-1}
+## Versione 8.2.8 {#release-8-2-8}
 
 _28 ottobre 2021_
 
