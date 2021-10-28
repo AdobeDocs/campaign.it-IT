@@ -4,10 +4,11 @@ description: Scopri come utilizzare una tabella dei destinatari personalizzata
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 3205b492552afc0aa0514f8995f508439a7a9a0b
+exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
+source-git-commit: 7234ca65f785b005b11851a5cd88add8cddeff4f
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 1%
+source-wordcount: '136'
+ht-degree: 3%
 
 ---
 
@@ -17,15 +18,4 @@ Adobe Campaign viene fornito con una tabella di profilo integrata: **nmsRecipien
 
 L’estensione di tabella incorporata offre flessibilità, ma non consente di rimuovere alcuni campi o collegamenti non utilizzati. Di conseguenza, l’utilizzo di una tabella dei destinatari personalizzata può essere una buona opzione quando il modello dati si differenzia drasticamente dalla struttura della tabella dei destinatari integrata in Campaign o se si dispone di un numero elevato di profili.  Tuttavia, questo metodo richiede alcune precauzioni al momento dell&#39;attuazione.
 
-Questa funzionalità consente ad Adobe Campaign di elaborare i dati da un database esterno: questi dati verranno utilizzati come un set di profili per le consegne. L’implementazione di questo processo comporta limitazioni quali:
-
-* Nessun flusso di aggiornamento da e per il database di Campaign Cloud: i dati di questa tabella possono essere aggiornati direttamente tramite il motore di database che li ospita.
-* I processi che operano sul database esistente devono essere stabili.
-* Utilizzo di un database di profilo con una struttura non standard: possibilità di consegnare a profili salvati in varie tabelle con diverse strutture, utilizzando un’unica istanza.
-
-Questa sezione descrive i punti chiave per mappare le tabelle esistenti in Adobe Campaign e le impostazioni di configurazione da applicare per eseguire consegne in base a qualsiasi tabella. Descrive inoltre come progettare interfacce di query per gli utenti finali.
-
->[!CAUTION]
->
->La personalizzazione Adobe Campaign è riservata solo agli utenti esperti. Richiede esperienza nella struttura del modulo di input e dello schema.
-
+![](../assets/do-not-localize/book.png) Scopri come configurare la tua istanza per utilizzare una tabella dei destinatari personalizzata in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/use-a-custom-recipient-table/about-custom-recipient-table.html){target=&quot;_blank&quot;}.

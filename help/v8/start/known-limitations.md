@@ -6,10 +6,10 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: true
 exl-id: 50c254ba-cc33-49b2-b7d5-12aa69883c07
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
-workflow-type: ht
-source-wordcount: '176'
-ht-degree: 100%
+source-git-commit: e41816003958c3373e92d5ea82240fd7ceda5857
+workflow-type: tm+mt
+source-wordcount: '210'
+ht-degree: 87%
 
 ---
 
@@ -27,3 +27,4 @@ Adobe Campaign v8 presenta le seguenti limitazioni:
 * I meccanismi di abbonamento (opt-in), di annullamento dell’abbonamento (opt-out) e la registrazione mobile sono processi asincroni. Le richieste vengono elaborate ogni ora, mediante un flusso di lavoro tecnico specifico. [Ulteriori informazioni](../config/replication.md#tech-wf)
 * I duplicati devono essere gestiti manualmente dagli utenti finali. [Ulteriori informazioni](../dev/keys.md)
 * Adobe Campaign v8 non supporta la velocità di elaborazione estesa nelle applicazioni API e web. In caso di esigenze specifiche, contatta Adobe per ottenere assistenza.
+* Il modulo di ottimizzazione di Adobe Campaign Campaign non tiene conto delle consegne pianificate nelle regole di tipologia della pressione. Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/pressure-rules.html?lang=en#setting-the-period).

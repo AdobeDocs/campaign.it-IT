@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 4dc2008d-681c-4a79-8fc8-c270c9224ab9
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: 87c3f19cec5a756983def344620a1964b95a20d6
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 5%
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 Per creare un’offerta, segui i passaggi seguenti:
 
-1. Passa alla scheda **[!UICONTROL Campaigns]** e fai clic sul collegamento **[!UICONTROL Offers]** .
+1. Sfoglia il **[!UICONTROL Campaigns]** e fai clic su **[!UICONTROL Offers]** link.
 
 1. Fai clic sul pulsante **[!UICONTROL Create]**.
 
@@ -28,7 +28,7 @@ Per creare un’offerta, segui i passaggi seguenti:
 
 ## Impostazioni di idoneità
 
-È ora possibile utilizzare la scheda **[!UICONTROL Eligibility]** per definire:
+Ora puoi utilizzare la **[!UICONTROL Eligibility]** scheda da definire:
 
 * Periodo di ammissibilità dell&#39;offerta. [Ulteriori informazioni](#eligibility-period)
 * Filtri per la popolazione target dell’offerta. [Ulteriori informazioni](#filters-on-the-target)
@@ -36,7 +36,7 @@ Per creare un’offerta, segui i passaggi seguenti:
 
 ### Periodo di ammissibilità dell’offerta{#eligibility-period}
 
-Nella scheda **[!UICONTROL Eligibility]** dell’offerta, definisci il periodo di idoneità dell’offerta. utilizza gli elenchi a discesa per selezionare una data di inizio e una data di fine nel calendario.
+In **[!UICONTROL Eligibility]** , definisci il periodo di idoneità dell’offerta. utilizza gli elenchi a discesa per selezionare una data di inizio e una data di fine nel calendario.
 
 ![](assets/offer_eligibility_create_002.png)
 
@@ -44,13 +44,13 @@ Al di fuori di questo periodo, l’offerta non verrà selezionata. Se hai config
 
 ### Aggiungere filtri nella destinazione {#filters-on-the-target}
 
-Nella scheda **[!UICONTROL Eligibility]** dell’offerta , applica i filtri alla destinazione dell’offerta.
+In **[!UICONTROL Eligibility]** , applica i filtri alla destinazione dell’offerta.
 
-A questo scopo, fai clic sul collegamento **[!UICONTROL Edit query]** e seleziona il filtro da applicare.
+A questo scopo, fai clic sul pulsante **[!UICONTROL Edit query]** e seleziona il filtro da applicare.
 
 ![](assets/offer_eligibility_create_003.png)
 
-Se sono già stati creati filtri predefiniti, puoi selezionarli dall’elenco dei filtri utente. [Ulteriori informazioni](interaction-predefined-filters.md)
+Se i filtri predefiniti sono già stati creati, puoi selezionarli dall’elenco dei filtri utente. [Ulteriori informazioni](interaction-predefined-filters.md)
 
 ![](assets/offer_eligibility_create_004.png)
 
@@ -68,7 +68,7 @@ Ad esempio, un&#39;offerta può avere un peso di A per i contatti di età compre
 
 Per creare un peso in un’offerta, esegui i seguenti passaggi:
 
-1. Nella scheda **[!UICONTROL Eligibility]** dell’offerta, fai clic su **[!UICONTROL Add]**.
+1. In **[!UICONTROL Eligibility]** scheda dell’offerta, fai clic su **[!UICONTROL Add]**.
 
    ![](assets/offer_weight_create_001.png)
 
@@ -92,7 +92,7 @@ Per creare un peso in un’offerta, esegui i seguenti passaggi:
 
    ![](assets/offer_weight_create_004.png)
 
-1. Fare clic su **[!UICONTROL OK]** per salvare il peso.
+1. Fai clic su **[!UICONTROL OK]** per risparmiare il peso.
 
    ![](assets/offer_weight_create_005.png)
 
@@ -104,22 +104,22 @@ Per creare un peso in un’offerta, esegui i seguenti passaggi:
 
 Al termine della configurazione, un riepilogo delle regole di idoneità sarà disponibile sul dashboard delle offerte.
 
-Per visualizzarlo, fai clic sul collegamento **[!UICONTROL Schedule and eligibility rules]** .
+Per visualizzarlo, fai clic sul pulsante **[!UICONTROL Schedule and eligibility rules]** link.
 
 ![](assets/offer_eligibility_create_005.png)
 
 ## Creare il contenuto dell’offerta {#creating-the-offer-content}
 
-Utilizza la scheda **[!UICONTROL Content]** per definire il contenuto dell’offerta.
+Utilizza la **[!UICONTROL Content]** per definire il contenuto dell’offerta.
 
 ![](assets/offer_content_create_001.png)
 
 1. Definisci i vari parametri del contenuto dell’offerta.
 
-   * **[!UICONTROL Title]** : Specifica il titolo da visualizzare nell’offerta. Avviso: questo non fa riferimento all’etichetta dell’offerta, definita nella scheda **[!UICONTROL General]** .
+   * **[!UICONTROL Title]** : Specifica il titolo da visualizzare nell’offerta. Avviso: non si tratta dell’etichetta dell’offerta, definita nella **[!UICONTROL General]** scheda .
    * **[!UICONTROL Destination URL]** : specifica l’URL dell’offerta. Deve iniziare con &quot;http://&quot; o &quot;https://&quot;.
    * **[!UICONTROL Image URL]** : specifica un URL o un percorso di accesso all’immagine dell’offerta.
-   * **[!UICONTROL HTML content]** /  **[!UICONTROL Text content]** : inserisci il corpo dell’offerta nella scheda desiderata. Per generare il tracciamento, il **[!UICONTROL HTML content]** deve essere composto da elementi di HTML che possono essere racchiusi in un elemento di tipo `<div>`. Ad esempio, il risultato di un elemento `<table>` nella pagina HTML sarà il seguente:
+   * **[!UICONTROL HTML content]** / **[!UICONTROL Text content]** : inserisci il corpo dell’offerta nella scheda desiderata. Per generare il tracciamento, **[!UICONTROL HTML content]** devono essere composti da elementi HTML che possono essere racchiusi in un `<div>` elemento type. Ad esempio, il risultato di un `<table>` nella pagina HTML verrà visualizzato il seguente elemento:
 
    ```
       <div> 
@@ -140,7 +140,7 @@ Utilizza la scheda **[!UICONTROL Content]** per definire il contenuto dell’off
 
    ![](assets/offer_content_create_002.png)
 
-   Per trovare i campi obbligatori così come sono stati definiti durante la configurazione dello spazio di offerta, fai clic sul collegamento **[!UICONTROL Content definitions]** per visualizzare l’elenco. [Ulteriori informazioni](interaction-offer-spaces.md)
+   Per trovare i campi obbligatori così come sono stati definiti durante la configurazione dello spazio di offerta, fai clic sul pulsante **[!UICONTROL Content definitions]** per visualizzare l’elenco. [Ulteriori informazioni](interaction-offer-spaces.md)
 
    ![](assets/offer_content_create_003.png)
 
@@ -152,7 +152,7 @@ Una volta configurato il contenuto dell’offerta, puoi visualizzarlo in antepri
 
 Per eseguire questa operazione:
 
-1. Fai clic sulla scheda **[!UICONTROL Preview]** .
+1. Fai clic sul pulsante **[!UICONTROL Preview]** scheda .
 
    ![](assets/offer_preview_create_001.png)
 
@@ -180,7 +180,7 @@ Creating hypotheses is detailed in [this page](../../campaign/using/about-respon
 
 ## Approvare e attivare un’offerta{#approve-offers}
 
-Ora puoi approvare e attivare l’offerta per renderla disponibile nell’ambiente **Live** .
+Ora puoi approvare e attivare l’offerta per renderla disponibile nel **Live** ambiente.
 
 ![](../assets/do-not-localize/book.png) Per ulteriori informazioni, consulta la [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=en#approving-offer-content)
 
@@ -192,8 +192,8 @@ Campaign ti consente di controllare il flusso di proposte di offerta utilizzando
 
 ## Simulazione dell’offerta
 
-Il modulo Simulazione consente di verificare la distribuzione delle offerte appartenenti a una categoria o a un ambiente prima di inviare la proposta ai destinatari.
+La **Simulazione** Il modulo ti consente di verificare la distribuzione delle offerte appartenenti a una categoria o a un ambiente prima di inviare la proposta ai destinatari.
 
 La simulazione tiene conto dei contesti e delle regole di idoneità precedentemente applicati alle offerte e alle relative regole di presentazione. Questo ti consente di testare e perfezionare diverse versioni della proposta di offerta senza utilizzare effettivamente un’offerta o sollecitare più o meno una destinazione, poiché la simulazione non ha alcun impatto sui destinatari target.
 
-![](../assets/do-not-localize/book.png) Per ulteriori informazioni sulla simulazione delle offerte, consulta la documentazione di  [Campaign Classic v7 .](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html?lang=en)
+![](../assets/do-not-localize/book.png) Per ulteriori informazioni sulla simulazione dell’offerta, consulta [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html?lang=en)

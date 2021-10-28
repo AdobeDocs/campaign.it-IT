@@ -4,61 +4,62 @@ description: Creare operatori di gestione delle offerte
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
+exl-id: 865ddb84-3373-45e0-849d-9d3c92455d22
+source-git-commit: 7234ca65f785b005b11851a5cd88add8cddeff4f
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '358'
 ht-degree: 1%
 
 ---
 
 # Profili degli operatori {#operator-profiles}
 
-Due tipi di operatori possono utilizzare l’interazione con Campaign: **Gestione offerte** e **Manager consegna**. Ognuno di essi dispone di autorizzazioni e restrizioni specifiche. Ulteriori informazioni sugli operatori e sulle autorizzazioni di Campaign in [questa pagina](../start/permissions.md).
+Due tipi di operatori possono utilizzare l’interazione con Campaign: **Gestori di offerte** e **Gestori di consegna**. Ognuno di essi dispone di autorizzazioni e restrizioni specifiche. Ulteriori informazioni sugli operatori e sulle autorizzazioni di Campaign in [questa pagina](../start/permissions.md).
 
-* Il **[!UICONTROL Offer manager]** crea e gestisce le offerte.
-* Il **[!UICONTROL Delivery manager]** approva e utilizza le offerte
+* La **[!UICONTROL Offer manager]** crea e gestisce le offerte.
+* La **[!UICONTROL Delivery manager]** approva e utilizza le offerte
 
 ## Creare un operatore di Gestione offerte{#offer-manager}
 
 1. Crea un operatore.
 
-   ![](../assets/do-not-localize/book.png) I passaggi per creare un operatore in Campaign sono descritti in dettaglio nella documentazione di  [Campaign Classic v7 .](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
+   ![](../assets/do-not-localize/book.png) I passaggi per creare un operatore in Campaign sono descritti in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
 
-1. Vai alla finestra **[!UICONTROL Groups and named rights]**, fai clic su **[!UICONTROL Add]** e seleziona il gruppo **[!UICONTROL Offer manager]**.
+1. Vai a **[!UICONTROL Groups and named rights]** finestra, fai clic su **[!UICONTROL Add]** e seleziona la **[!UICONTROL Offer manager]** gruppo.
 
 I diritti assegnati al gestore di offerte consentono loro di eseguire le seguenti attività:
 
-* Modificare gli ambienti **[!UICONTROL Design]**.
-* Visualizzare gli ambienti **[!UICONTROL Live]**.
+* Modifica **[!UICONTROL Design]** ambienti.
+* Visualizza **[!UICONTROL Live]** ambienti.
 * Configura le funzioni di amministrazione (spazi e filtri predefiniti).
 * Creare e modificare le categorie.
 * Creare offerte.
 * Configura l’idoneità delle offerte.
 * Approvare le offerte.
 
-Se le offerte sono utilizzate in un flusso di lavoro, l’operatore deve essere aggiunto al gruppo di operatori **[!UICONTROL Administrator]** o **[!UICONTROL Offer managers]** per eseguire il flusso di lavoro.
+Se le offerte vengono utilizzate in un flusso di lavoro, l’operatore deve essere aggiunto al **[!UICONTROL Administrator]** o **[!UICONTROL Offer managers]** gruppo di operatori per eseguire il flusso di lavoro.
 
 >[!NOTE]
 >
->**Il** gestore delle offerte approva un’offerta solo se non è specificato alcun revisore o se è stato dichiarato come revisori nel modello di offerta.
+>**Gestori di offerte** può approvare un’offerta solo se non è stato specificato alcun revisore o se è stato dichiarato come revisori nel modello di offerta.
 
 ## Creare un operatore di Delivery Manager {#delivery-manager}
 
 1. Crea un operatore.
 
-   ![](../assets/do-not-localize/book.png) I passaggi per creare un operatore in Campaign sono descritti in dettaglio nella documentazione di  [Campaign Classic v7 .](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
+   ![](../assets/do-not-localize/book.png) I passaggi per creare un operatore in Campaign sono descritti in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
 
-1. Vai alla finestra **[!UICONTROL Groups and named rights]**, fai clic su **[!UICONTROL Add]** e seleziona il gruppo **[!UICONTROL Delivery manager]**.
+1. Vai a **[!UICONTROL Groups and named rights]** finestra, fai clic su **[!UICONTROL Add]** e seleziona la **[!UICONTROL Delivery manager]** gruppo.
 
 I diritti assegnati ai gestori della consegna consentono loro di svolgere i seguenti compiti:
 
-* Visualizzare gli ambienti **[!UICONTROL Live]**.
+* Visualizzazione **[!UICONTROL Live]** ambienti.
 * Visualizza e modifica le categorie di offerte.
 * Approva le offerte se sono i loro revisori.
 
    >[!NOTE]
    >
-   >**Il** gestore delle consegne può approvare un’offerta solo se è stato dichiarato come revisore nella configurazione dell’offerta.
+   >**Gestori di consegna** può approvare un’offerta solo se è stata dichiarata come revisore nella configurazione dell’offerta.
 
 ## Matrice di autorizzazioni per operatore di interazione {#recap-of-rights-according-to-operator}
 
@@ -90,12 +91,12 @@ I diritti assegnati ai gestori della consegna consentono loro di svolgere i segu
    <td> Leggi<br /> </td> 
   </tr> 
   <tr> 
-   <td> Spaces<br /> </td> 
+   <td> Spazi<br /> </td> 
    <td> Lettura/scrittura<br /> </td> 
    <td> Leggi<br /> </td> 
   </tr> 
   <tr> 
-   <td> Filtri di offerta predefiniti<br /> </td> 
+   <td> filtri di offerta predefiniti<br /> </td> 
    <td> Lettura/scrittura<br /> </td> 
    <td> Leggi<br /> </td> 
   </tr> 
@@ -115,7 +116,7 @@ I diritti assegnati ai gestori della consegna consentono loro di svolgere i segu
    <td> Leggi<br /> </td> 
   </tr> 
   <tr> 
-   <td> Categoria offerta<br /> </td> 
+   <td> Categoria di offerta<br /> </td> 
    <td> Lettura/scrittura<br /> </td> 
    <td> Leggi<br /> </td> 
   </tr> 
@@ -150,12 +151,12 @@ I diritti assegnati ai gestori della consegna consentono loro di svolgere i segu
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Spaces<br /> </td> 
+   <td> Spazi<br /> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Filtri di offerta predefiniti<br /> </td> 
+   <td> filtri di offerta predefiniti<br /> </td> 
    <td> Leggi<br /> </td> 
    <td> Leggi<br /> </td> 
   </tr> 
@@ -175,7 +176,7 @@ I diritti assegnati ai gestori della consegna consentono loro di svolgere i segu
    <td> Leggi<br /> </td> 
   </tr> 
   <tr> 
-   <td> Categoria offerta<br /> </td> 
+   <td> Categoria di offerta<br /> </td> 
    <td> </td> 
    <td> Leggi<br /> </td> 
   </tr> 

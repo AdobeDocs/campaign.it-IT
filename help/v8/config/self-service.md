@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
-workflow-type: ht
-source-wordcount: '344'
-ht-degree: 100%
+source-git-commit: 50e138853b047c27b106401f007043a0fcb45f07
+workflow-type: tm+mt
+source-wordcount: '410'
+ht-degree: 89%
 
 ---
 
@@ -26,15 +26,6 @@ Puoi anche utilizzare il Pannello di controllo Campaign per configurare le impos
 
 ![](../assets/do-not-localize/book.png) Ulteriori informazioni nella [documentazione del Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it){target=&quot;_blank&quot;}.
 
->[!CAUTION]
-> In Campaign v8 non sono ancora supportate le seguenti funzionalità:
->
->* Gestione dei sottodomini
->* Gestione certificati
-
->
-
-
 ## Come accedere al Pannello di controllo Campaign?
 
 Il Pannello di controllo Campaign è disponibile direttamente da Adobe Experience Cloud. È accessibile solo agli utenti amministratori. Per ulteriori informazioni, [fai clic qui](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=it){target=&quot;_blank&quot;}.
@@ -46,6 +37,19 @@ Per accedere alle domande frequenti sul Pannello di controllo Campaign, [fai cli
 ## Gestione SFTP
 
 Nel Pannello di controllo Campaign, puoi interagire con tutti i server SFTP collegati alle istanze di Campaign a cui hai accesso. Puoi monitorare la loro capacità di archiviazione, nonché gestire gli indirizzi IP nell’elenco degli indirizzi consentiti e le chiavi SSH pubbliche. Per ulteriori informazioni, [fai clic qui](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=it#sftp-management){target=&quot;_blank&quot;}.
+
+## Sottodomini e certificati
+
+Scopri come monitorare i sottodomini e i relativi certificati.
+
+* [Monitoraggio dei sottodomini](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-subdomains.html){target=&quot;_blank&quot;}
+* [Configurazione di un nuovo sottodominio](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html){target=&quot;_blank&quot;}
+* [Monitoraggio dei certificati SSL dei sottodomini](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html){target=&quot;_blank&quot;}
+
+## Monitoraggio delle prestazioni
+
+Pannelli di controllo Campaign offre diverse funzionalità per monitorare le istanze e garantire prestazioni ottimali. [Fai clic qui](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=it){target=&quot;_blank&quot;}
+
 
 ## Impostazioni delle istanze
 
