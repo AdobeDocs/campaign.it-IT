@@ -5,9 +5,9 @@ description: Documentazione di Campaign v8
 breadcrumb-title: Campaign v8
 title: Documenti di Campaign v8
 source-git-commit: 889400a238f32968464f1425bb7d6c2dc3ff3cd0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 86%
    + [Messaggistica LINE](send/line.md)
    + [Direct mail](send/direct-mail.md)
    + [Messaggi transazionali](send/transactional.md)
-   + Gestire le offerte con l’interazione con Campaign{#interaction}
+   + Gestire le offerte tramite interazione con Campaign{#interaction}
       + [Introduzione all’interazione in tempo reale](send/interaction.md)
       + [Ambienti e architettura](send/interaction-architecture.md)
       + [Best practice](send/interaction-best-practices.md)
