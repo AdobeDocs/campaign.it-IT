@@ -7,9 +7,9 @@ level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471,a9d18e75-18e7-491e-bfc4-671c3600396e
 source-git-commit: 4ce21dda9516a881cce39c94454d5ac7b43142a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1574'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ _28 ottobre 2021_
 <tbody>
 <tr>
 <td>
-<p>La gestione delle interazioni in tempo reale è ora disponibile per i canali in entrata. Utilizza il modulo di interazione in entrata Campaign per presentare l’offerta migliore ai clienti quando visitano il tuo sito web o raggiungono il tuo call center. Questa funzionalità include Campaign v8 come opzione e richiede una configurazione specifica sull’istanza. Rivolgiti al tuo rappresentante di Adobe per avere accesso al modulo di interazione in entrata.</p>
+<p>Real-time Interaction Management è ora disponibile per i canali in entrata. Utilizza il modulo di interazione in entrata di Campaign per presentare l’offerta migliore ai clienti quando visitano il sito web o contattano il call center. Questa funzionalità include Campaign v8 come opzione e richiede una configurazione specifica sull’istanza. Per avere accesso al modulo di interazione in entrata, rivolgiti al tuo rappresentante Adobe.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../send/interaction-architecture.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
@@ -40,13 +40,13 @@ _28 ottobre 2021_
 <table> 
 <thead>
 <tr> 
-<th> <strong>Ottimizzazione di Campaign</strong><br /> </th> 
+<th> <strong>Ottimizzazione delle campagne</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>È ora disponibile il modulo Ottimizzazione campagna . Questo modulo ti consente di controllare, filtrare e monitorare l’invio di consegne. Per evitare conflitti tra campagne, Adobe Campaign può sottoporre a test diverse combinazioni applicando regole di vincolo specifiche. Questo garantisce che i messaggi inviati soddisfino le esigenze e le aspettative dei clienti e le politiche di comunicazione aziendali.</p>
-<p>Per ulteriori informazioni, consulta la sezione <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html">Documentazione di Campaign Classic v7</a>.</p>
+<td> <p>È ora disponibile il modulo di ottimizzazione delle campagne. Questo modulo consente di controllare, filtrare e monitorare l’invio delle consegne. Per evitare conflitti tra campagne, Adobe Campaign può sottoporre a test diverse combinazioni applicando specifiche regole di vincolo. Ciò garantisce che i messaggi inviati soddisfino le esigenze e le aspettative dei clienti, in linea con le politiche di comunicazione aziendali.</p>
+<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=it">documentazione di Campaign Classic v7</a>.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -59,48 +59,48 @@ _28 ottobre 2021_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Unicity Service è un nuovo componente Cloud Database Manager. Consente agli utenti di preservare e monitorare l’integrità dei vincoli di chiave univoci all’interno delle tabelle del database Cloud. Questo consente di ridurre il rischio di inserimento di chiavi duplicate.
-<p>Poiché il database cloud non applica vincoli unicity, il servizio Unicity introduce a livello di applicazione, <b>una serie di nuove protezioni</b> riduci il rischio di inserimento di duplicati durante la gestione dei dati con Adobe Campaign.</p> 
-<p>Il servizio Unicity avvia un nuovo flusso di lavoro integrato denominato <b>ffdaUnicity</b> per monitorare i vincoli unicity e avvisare quando vengono rilevati duplicati.</p></td> </tr> 
+<td> <p>Il servizio Unicity è un nuovo componente Cloud Database Manager. Consente agli utenti di preservare e monitorare l’integrità dei vincoli di chiave univoca all’interno delle tabelle del database cloud. Questo consente di ridurre il rischio di inserimento di chiavi duplicate.
+<p>Poiché il database cloud non applica vincoli di unicità, il servizio Unicity introduce a livello applicativo <b>una serie di nuovi guardrail</b> per ridurre il rischio di inserimento di duplicati durante la gestione dei dati con Adobe Campaign.</p> 
+<p>Il servizio Unicity avvia un nuovo flusso di lavoro integrato denominato <b>ffdaUnicity</b> per monitorare i vincoli di unicità e avvisare quando vengono rilevati duplicati.</p></td> </tr> 
 </tbody> 
 </table>
 
 **Miglioramenti**
 
-* Il connettore del Snowflake è stato migliorato in termini di prestazioni.
-* Ai fini del monitoraggio e della verifica, i registri di audit **[!UICONTROL Replicate Staging data]** ora include il numero di record inviati al database FFDA (Full Federated Data Access).
-* L&#39;attività codice SQL consente ora di scegliere in quale database verrà memorizzato lo script SQL: l’origine dati predefinita o un account esterno FDA attivo scelto.
-* È ora disponibile un set di magazzini predefiniti che può essere utilizzato per eseguire varie query in parallelo, ad esempio segmentazione, ETL o picchi. [Leggi tutto](../config/workflows.md)
+* Il connettore Snowflake è stato migliorato in termini di prestazioni.
+* Ai fini del monitoraggio e del testing, i registri di audit dei **[!UICONTROL Replicate Staging data]** ora includono il numero di record inviati al database FFDA (Full Federated Data Access).
+* L’attività codice SQL consente ora di scegliere in quale database verrà memorizzato lo script SQL: l’origine dati predefinita o un account esterno FDA attivo prescelto.
+* È ora disponibile un set di warehouse predefiniti che può essere utilizzato per eseguire varie query in parallelo, ad esempio segmentazione, ETL o picchi. [Leggi tutto](../config/workflows.md)
 
 **Altre modifiche**
 
-* La **[!UICONTROL Encrypted identifier]** è stato aggiunto allo schema visitatore (`nms:visitor`). Questo campo viene calcolato e deve essere utilizzato per le applicazioni web.
-* È stato risolto un problema che causava un errore di analisi della consegna quando alcune affinità IP esistevano in alcuni contenitori di mid-sourcing ma non in tutti. Ora le affinità IP sono tutte memorizzate nel database, in modo che qualsiasi contenitore possa accedere alle affinità presenti in tutti gli altri contenitori. (NEO-37564)
+* Il campo **[!UICONTROL Encrypted identifier]** è stato aggiunto allo schema visitatore (`nms:visitor`). Questo campo viene calcolato e deve essere utilizzato per le applicazioni web.
+* È stato risolto un problema che causava un errore di analisi della consegna se alcune affinità IP esistevano in alcuni contenitori di mid-sourcing, ma non in tutti. Ora le affinità IP sono tutte memorizzate nel database, in modo che qualsiasi contenitore possa accedere alle affinità presenti in tutti gli altri contenitori. (NEO-37564)
 * Ora puoi importare un pacchetto con più schemi e nodi della struttura di navigazione.
 
 **Patch**
 
-* Dopo la rimozione di un utente, in uno schema di dati il `<autoStg>` attributo da un elemento di definizione di tabella o modificato il suo valore da `true` a `false`, la relativa tabella di gestione temporanea non è stata eliminata. Questo problema è stato risolto.
-* È stato risolto un problema che causava un errore durante la creazione di record con una maschera dedicata a causa della gestione degli ID con un’origine dati FFDA.
+* Se, uno schema di dati, veniva rimosso l’attributo `<autoStg>` di un elemento di definizione di tabella oppure veniva modificato il suo valore da `true` a `false`, la relativa tabella di staging non veniva eliminata. Questo problema è stato risolto.
+* È stato risolto un problema che causava un errore durante la creazione di record con un modulo dedicato a causa della gestione degli ID con un’origine dati FFDA.
 * È stato risolto un problema che poteva impedire l’inserimento di offerte in una consegna se queste erano gestite da un’attività di arricchimento in un flusso di lavoro.
 * È stato risolto un problema che poteva rallentare l’importazione dei pacchetti.
 * È stato risolto un problema che poteva impedire l’invio di consegne e-mail con indirizzi di seed.
 * È stato risolto un problema che poteva impedire il salvataggio delle proposte nella tabella delle proposte di offerta.
-* È stato risolto un problema che causava la registrazione errata dei problemi di timeout della rete come problemi di interruzione dello script invece di errori di rete. Questo problema si verificava nel caso di richieste HTTP incluse nelle attività JavaScript.
-* È stato risolto un problema che impediva la replica delle offerte nell’ambiente delle offerte live sul Snowflake.
-* È stato risolto un problema che ignorava l’attributo &quot;autoStg&quot; per gli schemi incorporati non estesi.
-* È stato risolto un problema che impediva agli utenti di selezionare **[!UICONTROL Country/Region]** collegamento durante l’anteprima di un profilo.
-* È stato risolto un problema che causava un errore di script nella visualizzazione del datepicker nei report personalizzati. (NEO-36345)
-* È stato risolto un problema che causava l&#39;arresto anomalo del sistema durante la rigenerazione della configurazione in caso di file di configurazione non validi.
+* È stato risolto un problema che causava la registrazione errata dei problemi di timeout: questi non venivano registrati come errori di rete, ma come problemi di interruzione dello script. Questo problema si verificava nel caso di richieste HTTP incluse nelle attività JavaScript.
+* È stato risolto un problema che impediva la replica delle offerte nell’ambiente delle offerte live su Snowflake.
+* È stato risolto un problema a causa del quale veniva ignorato l’attributo “autoStg” per gli schemi incorporati non estesi.
+* È stato risolto un problema che impediva agli utenti di selezionare il collegamento **[!UICONTROL Country/Region]** durante l’anteprima di un profilo.
+* È stato risolto un problema che causava un errore di script nella visualizzazione del selettore di data nei report personalizzati. (NEO-36345)
+* È stato risolto un problema che causava l’arresto anomalo del sistema durante la rigenerazione della configurazione in caso di file di configurazione non validi.
 * È stato risolto un problema che impediva l’aggiornamento corretto delle istanze di marketing e controllo.
 * È stato risolto un problema che poteva causare l’arresto anomalo del flusso di lavoro di fatturazione sulle istanze di marketing.
-* È stato risolto un problema che poteva causare la duplicazione delle chiavi nelle tabelle predefinite del Snowflake FFDA. (NEO-38583)
-* È stato risolto un problema che poteva causare la perdita di schemi temporanei del flusso di lavoro durante la modifica di due attività di deduplicazione una dopo l’altra. (NEO-34063)
-* È stato risolto un problema che restituiva risultati errati durante l&#39;esecuzione delle funzioni Amazon Redshift HoursDiff e MinutesDiff durante il tentativo di estrarre il componente tempo.(NEO-31673)
+* È stato risolto un problema che poteva causare la duplicazione delle chiavi nelle tabelle predefinite di Snowflake FFDA. (NEO-38583)
+* È stato risolto un problema che poteva causare la perdita di schemi temporanei del flusso di lavoro durante la modifica di due attività di deduplica una dopo l’altra. (NEO-34063)
+* È stato risolto un problema a causa del quale venivano restituiti risultati errati nell’esecuzione delle funzioni Amazon Redshift HoursDiff e MinutesDiff durante il tentativo di estrarre il componente “time”.(NEO-31673)
 * È stato risolto un problema che poteva impedire agli utenti di accedere alla console a causa di un problema di configurazione proxy. (NEO-38388)
-* È stato risolto un problema di regressione che impediva la **Elimina cartella** dal funzionamento corretto. (NEO-37459)
+* È stato risolto un problema di regressione che impediva il funzionamento corretto della funzionalità **Purge folder** (Svuota cartella). (NEO-37459)
 * È stato risolto un problema che poteva impedire la visualizzazione in anteprima delle consegne mobili collegate a un flusso di lavoro.
-* È stato risolto un problema che poteva impedire la **Leggi elenco** l’attività del flusso di lavoro non funziona quando l’elenco è stato identificato nel database con un ID negativo. (NEO-39607)
+* È stato risolto un problema che poteva impedire il funzionamento dell’attività del flusso di lavoro **Read list** (Leggi elenco) se l’elenco era stato identificato nel database con un ID negativo. (NEO-39607)
 
 ## Versione 8.1.20 {#release-8-1-20}
 
