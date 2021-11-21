@@ -44,7 +44,7 @@ Le regole di denominazione SQL sono le seguenti:
 
 * tabella: concatenazione dello spazio dei nomi e del nome dello schema
 
-   Nel nostro esempio, il nome della tabella viene immesso tramite l’elemento principale dello schema nell’attributo **sqltable** :
+   Nel nostro esempio, il nome della tabella viene immesso tramite l’elemento principale dello schema nel **sqltable** attributo:
 
    ```
    <element name="recipient" sqltable="CusRecipient">
@@ -52,7 +52,7 @@ Le regole di denominazione SQL sono le seguenti:
 
 * campo: nome dell’elemento preceduto da un prefisso definito in base al tipo (&#39;i&#39; per integer, &#39;d&#39; per double, &#39;s&#39; per string, &#39;ts&#39; per date, ecc.)
 
-   Il nome del campo viene immesso tramite l&#39;attributo **sqlname** per ciascun tipo **`<attribute>`** e **`<element>`**:
+   Il nome del campo viene immesso tramite la variabile **sqlname** attributo per ogni tipo **`<attribute>`** e **`<element>`**:
 
    ```
    <attribute desc="E-mail address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/> 
@@ -79,9 +79,9 @@ I vincoli del campo SQL sono i seguenti:
 
 ## Campi XML {#xml-fields}
 
-Per impostazione predefinita, qualsiasi elemento **`<attribute>`** e **`<element>`** digitato viene mappato su un campo SQL della tabella dello schema dati. È tuttavia possibile fare riferimento a questo campo in XML anziché in SQL, il che significa che i dati vengono memorizzati in un campo Memo (&quot;mData&quot;) della tabella contenente i valori di tutti i campi XML. L&#39;archiviazione di questi dati è un documento XML che osserva la struttura dello schema.
+Per impostazione predefinita, qualsiasi tipo digitato **`<attribute>`** e **`<element>`** è mappato su un campo SQL della tabella dello schema dati. È tuttavia possibile fare riferimento a questo campo in XML anziché in SQL, il che significa che i dati vengono memorizzati in un campo Memo (&quot;mData&quot;) della tabella contenente i valori di tutti i campi XML. L&#39;archiviazione di questi dati è un documento XML che osserva la struttura dello schema.
 
-Per compilare un campo in XML, è necessario aggiungere l&#39;attributo **xml** con il valore &quot;true&quot; all&#39;elemento interessato.
+Per compilare un campo in XML, è necessario aggiungere il **xml** attributo con il valore &quot;true&quot; all&#39;elemento interessato.
 
 **Esempio**: di seguito sono riportati due esempi di utilizzo del campo XML.
 
@@ -118,7 +118,7 @@ Una chiave viene dichiarata dall&#39;elemento principale dello schema dati.
 Le chiavi obbediscono alle seguenti regole:
 
 * Una chiave può fare riferimento a uno o più campi della tabella.
-* Una chiave è nota come &quot;primaria&quot; (o &quot;priorità&quot;) quando è la prima nello schema da compilare o se contiene l’attributo **interno** con il valore &quot;true&quot;.
+* Una chiave è nota come &quot;primaria&quot; (o &quot;priorità&quot;) quando è la prima nello schema da compilare o se contiene la **interno** attributo con il valore &quot;true&quot;.
 
 **Esempio**:
 
@@ -198,7 +198,7 @@ Le chiavi obbediscono alle seguenti regole:
 
 ### Chiave principale - Identificatore
 
-La chiave primaria delle tabelle Adobe Campaign è un **ID univoco universale (UUID)** generato automaticamente dal motore di database. Il valore chiave è univoco nell&#39;intero database. Il contenuto della chiave viene generato automaticamente all’inserimento del record.
+La chiave primaria delle tabelle Adobe Campaign è una **ID univoco universale (UUID)** generato automaticamente dal motore di database. Il valore chiave è univoco nell&#39;intero database. Il contenuto della chiave viene generato automaticamente all’inserimento del record.
 
 **Esempio**
 
@@ -256,7 +256,7 @@ Per le relazioni di unione che utilizzano Federated Database Access:
 * ![](assets/do-not-localize/join_fda_11.png) : Cardinalità 1-1
 * ![](assets/do-not-localize/join_fda_1m.png) : Cardinalità 1-N
 
-![](../assets/do-not-localize/glass.png) Per ulteriori informazioni sulle tabelle FDA, consulta  [Federated Data Access](../connect/fda.md).
+![](../assets/do-not-localize/glass.png) Per ulteriori informazioni sulle tabelle FDA, consulta [Federated Data Access](../connect/fda.md).
 
 Un collegamento deve essere dichiarato nello schema contenente la chiave esterna della tabella collegata tramite l’elemento principale:
 
@@ -270,28 +270,28 @@ Un collegamento deve essere dichiarato nello schema contenente la chiave esterna
 
 I collegamenti obbediscono alle seguenti regole:
 
-* La definizione di un collegamento viene inserita in un tipo **link** **`<element>`** con i seguenti attributi:
+* La definizione di un collegamento viene inserita in un **collegamento**-type **`<element>`** con i seguenti attributi:
 
-   * **nome**: nome del collegamento dalla tabella sorgente,
+   * **name**: nome del collegamento dalla tabella sorgente,
    * **target**: nome dello schema di destinazione,
    * **etichetta**: etichetta del collegamento,
-   * **revLink**  (facoltativo): nome del collegamento inverso dallo schema di destinazione (dedotto automaticamente per impostazione predefinita),
-   * **integrità**  (facoltativo): integrità referenziale dell&#39;occorrenza della tabella di origine all&#39;occorrenza della tabella di destinazione. I valori possibili sono i seguenti:
+   * **revLink** (facoltativo): nome del collegamento inverso dallo schema di destinazione (dedotto automaticamente per impostazione predefinita),
+   * **integrità** (facoltativo): integrità referenziale dell&#39;occorrenza della tabella di origine all&#39;occorrenza della tabella di destinazione. I valori possibili sono i seguenti:
 
-      * **definisci**: è possibile eliminare l&#39;occorrenza sorgente se non è più referenziata da un&#39;occorrenza di destinazione,
+      * **definire**: è possibile eliminare l&#39;occorrenza sorgente se non è più referenziata da un&#39;occorrenza di destinazione,
       * **normale**: l&#39;eliminazione dell&#39;occorrenza di origine inizializza le chiavi del collegamento all&#39;occorrenza di destinazione (modalità predefinita). Questo tipo di integrità inizializza tutte le chiavi esterne,
-      * **propri**: l&#39;eliminazione dell&#39;occorrenza di origine porta all&#39;eliminazione dell&#39;occorrenza di destinazione,
-      * **owncopy**: uguale al  **proprio**  (in caso di eliminazione) o duplica gli eventi (in caso di duplicazione),
+      * **proprio**: l&#39;eliminazione dell&#39;occorrenza di origine porta all&#39;eliminazione dell&#39;occorrenza di destinazione,
+      * **copia**: come **proprio** (in caso di cancellazione) o duplica gli eventi (in caso di duplicazione),
       * **neutro**: non fa nulla.
-   * **revIntegrity**  (facoltativo): integrità dello schema di destinazione (facoltativo, &quot;normale&quot; per impostazione predefinita),
-   * **revCardinalità**  (facoltativo): con il valore &quot;single&quot; popola la cardinalità con il tipo 1-1 (1-N per impostazione predefinita).
-   * **externalJoin**  (facoltativo): forza il join esterno
-   * **revExternalJoin**  (facoltativo): forza l&#39;unione esterna sul collegamento inverso
+   * **revIntegrity** (facoltativo): integrità dello schema di destinazione (facoltativo, &quot;normale&quot; per impostazione predefinita),
+   * **revCardinalità** (facoltativo): con il valore &quot;single&quot; popola la cardinalità con il tipo 1-1 (1-N per impostazione predefinita).
+   * **externalJoin** (facoltativo): forza il join esterno
+   * **revExternalJoin** (facoltativo): forza l&#39;unione esterna sul collegamento inverso
 
 
-* Un collegamento fa riferimento a uno o più campi dalla tabella di origine alla tabella di destinazione. I campi che compongono l’elemento join ( `<join>` ) non devono essere compilati perché vengono detratti automaticamente per impostazione predefinita utilizzando la chiave interna dello schema di destinazione.
+* Un collegamento fa riferimento a uno o più campi dalla tabella di origine alla tabella di destinazione. I campi che compongono l&#39;unione ( `<join>`  elemento) non è necessario compilarli perché vengono dedotti automaticamente per impostazione predefinita utilizzando la chiave interna dello schema di destinazione.
 * Un collegamento è costituito da due collegamenti parziali, in cui il primo è dichiarato dallo schema di origine e il secondo viene creato automaticamente nello schema esteso dello schema di destinazione.
-* Un join può essere un join esterno se viene aggiunto l&#39;attributo **externalJoin** con il valore &quot;true&quot; (supportato in PostgreSQL).
+* Un join può essere un join esterno se **externalJoin** viene aggiunto l&#39;attributo , con il valore &quot;true&quot; (supportato in PostgreSQL).
 
 >[!NOTE]
 >
@@ -348,10 +348,10 @@ Schema esteso del target (&quot;cus:company&quot;):
 
 È stato aggiunto un link inverso alla tabella &quot;cus:recipient&quot; con i seguenti parametri:
 
-* **nome**: dedotto automaticamente dal nome dello schema di origine (può essere forzato con l&#39;attributo &quot;revLink&quot; nella definizione del collegamento sullo schema di origine)
+* **name**: dedotto automaticamente dal nome dello schema di origine (può essere forzato con l&#39;attributo &quot;revLink&quot; nella definizione del collegamento sullo schema di origine)
 * **revLink**: nome del link inverso
 * **target**: chiave dello schema collegato ( schema &quot;cus:recipient&quot;)
-* **non associato**: il collegamento viene dichiarato come elemento di raccolta per una cardinalità 1-N (per impostazione predefinita)
+* **non legato**: il collegamento viene dichiarato come elemento di raccolta per una cardinalità 1-N (per impostazione predefinita)
 * **integrità**: &quot;define&quot; per impostazione predefinita (può essere forzato con l&#39;attributo &quot;revIntegrity&quot; nella definizione del collegamento sullo schema di origine).
 
 ### Esempio 2 {#example-2}
@@ -389,7 +389,7 @@ Il valore predefinito restituisce l&#39;identificatore del primo file di tipo di
 
 ### Esempio 5 {#example-5}
 
-In questo esempio, desideriamo creare una chiave su un collegamento (&quot;azienda&quot; a schema &quot;cus:company&quot;) con l&#39;attributo **xlink** e un campo della tabella (&quot;e-mail&quot;):
+In questo esempio, desideriamo creare una chiave su un collegamento (&quot;azienda&quot; a schema &quot;cus:company&quot;) con **xlink** e un campo della tabella (&quot;e-mail&quot;):
 
 ```
 <srcSchema name="recipient" namespace="cus">

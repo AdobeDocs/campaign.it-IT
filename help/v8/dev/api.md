@@ -4,18 +4,19 @@ description: 'Introduzione alle API di Campaign '
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
+exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
+source-git-commit: 94fc2739c538f3aa8b11e0ea69d08f1bfffb5d32
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 12%
 
 ---
 
-# Guida introduttiva alle API [!DNL Campaign]{#gs-ac-api}
+# Introduzione a [!DNL Campaign] API{#gs-ac-api}
 
 [!DNL Adobe Campaign] viene fornito con un set di funzioni Javascript che è possibile utilizzare:
 
-* in Script - nei flussi di lavoro [!DNL Adobe Campaign]
+* in Script - in [!DNL Adobe Campaign] workflow
 * tramite API - da sistemi esterni
 
 Puoi utilizzare le API JavaScript per scrivere nel database cloud di Campaign o leggere dal database:
@@ -31,26 +32,26 @@ Campaign v8 funziona con due database: un database locale per la messaggistica i
 
 ## Prerequisiti
 
-Prima di utilizzare le API [!DNL Adobe Campaign] , è necessario avere familiarità con i seguenti argomenti:
+Prima di utilizzare [!DNL Adobe Campaign] API, devi avere familiarità con i seguenti argomenti:
 
 * JavaScript
 * Protocollo SOAP
 * [!DNL Adobe Campaign] modello dati
 
-Per utilizzare le API e interagire con [!DNL Adobe Campaign], devi anche conoscere bene il modello dati.
+Per utilizzare le API e interagire con [!DNL Adobe Campaign], devi anche avere familiarità con il modello dati.
 
 >[!NOTE]
 >Puoi generare una descrizione completa del modello dati. Per ulteriori informazioni, consulta [questa pagina](datamodel.md).
 
 ## [!DNL Campaign] Meccanismo di staging API
 
-Con il database [!DNL Campaign] Cloud, le chiamate unitarie non sono consigliate a causa delle prestazioni (latenza e concorrenza). L&#39;operazione batch è sempre preferita. Per garantire prestazioni ottimali delle API, Campaign continua a gestire le chiamate API a livello di database locale.
+Con [!DNL Campaign] Database cloud, le chiamate unitarie di esplosione non sono raccomandate a causa delle prestazioni (latenza e concorrenza). L&#39;operazione batch è sempre preferita. Per garantire prestazioni ottimali delle API, Campaign continua a gestire le chiamate API a livello di database locale.
 
 ![](../assets/do-not-localize/glass.png) [Il meccanismo di staging API è descritto in questa pagina](staging.md)
 
 ## Nuove API
 
-Sono disponibili nuove API per gestire la sincronizzazione dati tra il database locale [!DNL Campaign] e il database Cloud. È stato inoltre introdotto un nuovo meccanismo per gestire le chiamate API a livello di database locale per evitare la latenza e migliorare le prestazioni complessive.
+Sono disponibili nuove API per gestire la sincronizzazione dati tra [!DNL Campaign] database locale e database cloud. È stato inoltre introdotto un nuovo meccanismo per gestire le chiamate API a livello di database locale per evitare la latenza e migliorare le prestazioni complessive.
 
 ![](../assets/do-not-localize/glass.png) [Le nuove API sono descritte in dettaglio in questa pagina](new-apis.md)
 

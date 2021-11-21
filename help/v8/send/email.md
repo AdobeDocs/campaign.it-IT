@@ -16,7 +16,7 @@ ht-degree: 11%
 
 Le consegne e-mail ti consentono di inviare e-mail personalizzate alla popolazione target.
 
-![](../assets/do-not-localize/book.png)[ Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/about-email-channel.html).
+![](../assets/do-not-localize/book.png) Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/about-email-channel.html).
 
 ## Creare la prima consegna e-mail
 
@@ -29,7 +29,7 @@ Nell’esempio seguente, imparerai a progettare una consegna e-mail in Adobe Cam
 
 1. **Creare la consegna**
 
-   Per creare una nuova consegna, passa alla scheda **Campagne** , fai clic su **Consegne** e fai clic sul pulsante **Crea** sopra l’elenco delle consegne esistenti.
+   Per creare una nuova consegna, seleziona **Campagne** scheda , fai clic su **Consegne** e fai clic su **Crea** , sopra l’elenco delle consegne esistenti.
 
    ![](assets/delivery_step_1.png)
 
@@ -41,7 +41,7 @@ Nell’esempio seguente, imparerai a progettare una consegna e-mail in Adobe Cam
 
 1. **Importare il contenuto**
 
-   Fai clic sulla scheda **Origine** per incollare il contenuto di HTML.
+   Fai clic sul pulsante **Origine** per incollare il contenuto di HTML.
 
    ![](assets/paste-content.png)
 
@@ -61,9 +61,9 @@ Nell’esempio seguente, imparerai a progettare una consegna e-mail in Adobe Cam
 
    * Inserire un collegamento tracciato
 
-      Per indirizzare i destinatari a un indirizzo esterno tramite un’immagine o un testo, selezionalo e fai clic sull’icona **[!UICONTROL Add a link]** nella barra degli strumenti.
+      Per indirizzare i destinatari della consegna a un indirizzo esterno tramite un’immagine o un testo, selezionalo e fai clic sul pulsante **[!UICONTROL Add a link]** nella barra degli strumenti.
 
-      Immetti l&#39;URL del collegamento nel campo **URL** utilizzando il seguente formato **https://www.myURL.com**, quindi conferma.
+      Immetti l’URL del collegamento nel **URL** utilizzando il formato seguente **https://www.myURL.com**, quindi conferma.
 
       ![](assets/add-a-link.png)
 
@@ -71,8 +71,8 @@ Nell’esempio seguente, imparerai a progettare una consegna e-mail in Adobe Cam
 
       Per consentire ai destinatari di visualizzare il contenuto della consegna in un browser web, aggiungi un collegamento alla pagina speculare del messaggio.
 
-      Posizionare il cursore nel punto in cui si desidera inserire il collegamento e fare clic sull&#39;ultima icona nella barra degli strumenti, quindi fare clic su **[!UICONTROL Include]** e selezionare **[!UICONTROL link to mirror page]**.
-   Quando il contenuto è pronto, fai clic su **Salva**: verrà ora visualizzato nell’elenco delle consegne, nella scheda **[!UICONTROL Campaigns > Deliveries]** . La tua prima consegna e-mail è pronta. Ora devi definire il pubblico, convalidare la consegna e inviarla.
+      Posiziona il cursore nel punto in cui desideri inserire il collegamento, fai clic sull’ultima icona nella barra degli strumenti, quindi fai clic su **[!UICONTROL Include]** e seleziona **[!UICONTROL link to mirror page]**.
+   Quando il contenuto è pronto, fai clic su **Salva**: verrà ora visualizzato nell’elenco delle consegne, nel **[!UICONTROL Campaigns > Deliveries]** scheda . La tua prima consegna e-mail è pronta. Ora devi definire il pubblico, convalidare la consegna e inviarla.
 
 
 Ulteriori informazioni sono disponibili nelle seguenti sezioni della documentazione di Campaign Classic v7:

@@ -43,7 +43,7 @@ Puoi utilizzare la tabella Destinatario predefinita con i campi predefiniti, com
 * [Estendere una tabella esistente](extend-schema.md) con nuovi campi. Ad esempio, puoi aggiungere un nuovo campo &quot;Fedeltà&quot; alla tabella Destinatario.
 * [Creare una nuova tabella](create-schema.md), ad esempio una tabella &quot;Acquisto&quot; in cui sono elencati tutti gli acquisti effettuati da ciascun profilo del database e che sono collegati alla tabella Destinatario.
 
-![](../assets/do-not-localize/glass.png) Scopri le best practice quando lavori con il modello dati di Campaign in [questa sezione](datamodel-best-practices.md).
+![](../assets/do-not-localize/glass.png) Scopri le best practice per lavorare con il modello dati di Campaign in [questa sezione](datamodel-best-practices.md).
 
 ## Tabella dei profili integrata {#ootb-profiles}
 

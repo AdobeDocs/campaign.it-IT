@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Impostazioni dei messaggi transazionali
 
-![](../assets/do-not-localize/speech.png)  In qualità di utente di Cloud Services gestiti,  [contatta ](../start/campaign-faq.md#support) Adobe per installare e configurare i messaggi transazionali di Campaign nel tuo ambiente.
+![](../assets/do-not-localize/speech.png)  Come utente di Cloud Services gestiti, [Adobe di contatto](../start/campaign-faq.md#support) per installare e configurare i messaggi transazionali di Campaign nel tuo ambiente.
 
-![](../assets/do-not-localize/glass.png) Le funzionalità di messaggistica transazionale sono descritte in  [questa sezione](../send/transactional.md).
+![](../assets/do-not-localize/glass.png) Le funzionalità di messaggistica transazionale sono descritte in [questa sezione](../send/transactional.md).
 
-![](../assets/do-not-localize/glass.png) Comprendere l’architettura dei messaggi transazionali in  [questa pagina](../dev/architecture.md).
+![](../assets/do-not-localize/glass.png) Comprendere l’architettura dei messaggi transazionali in [questa pagina](../dev/architecture.md).
 
 ## Definire le autorizzazioni
 
@@ -26,30 +26,30 @@ Per creare nuovi utenti per le istanze di esecuzione del Centro messaggi ospitat
 
 ## Estensioni dello schema
 
-Tutte le estensioni dello schema effettuate sugli schemi utilizzati da **flussi di lavoro tecnici del Centro messaggi** su istanze di controllo o di esecuzione devono essere duplicati sulle altre istanze utilizzate dal modulo di messaggistica transazionale di Adobe Campaign.
+Tutte le estensioni dello schema effettuate sugli schemi utilizzati da **Flussi di lavoro tecnici del Centro messaggi** nelle istanze di controllo o di esecuzione devono essere duplicate sulle altre istanze utilizzate dal modulo di messaggistica transazionale di Adobe Campaign.
 
-![](../assets/do-not-localize/book.png) Ulteriori informazioni sui flussi di lavoro tecnici del Centro messaggi nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html#technical-workflows)
+![](../assets/do-not-localize/book.png) Ulteriori informazioni sui flussi di lavoro tecnici del Centro messaggi in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html#technical-workflows)
 
 ## Inviare notifiche push transazionali
 
 Se combinato con il modulo del canale dell’app mobile, la messaggistica transazionale consente di inviare messaggi transazionali tramite notifiche su dispositivi mobili.
 
-![](../assets/do-not-localize/book.png) Il canale app mobile è descritto in dettaglio nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=en#sending-messages).
+![](../assets/do-not-localize/book.png) Il canale app mobile è descritto in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=en#sending-messages).
 
 Per inviare notifiche push transazionali, devi eseguire le seguenti configurazioni:
 
-1. Installa il pacchetto **Mobile App Channel** sulle istanze di controllo ed esecuzione.
+1. Installa il **Canale app mobile** creare pacchetti nelle istanze di controllo ed esecuzione.
 
    >[!CAUTION]
    >
    >Controlla il contratto di licenza prima di installare un nuovo pacchetto integrato di Campaign.
 
-1. Replicare il servizio **Mobile application** e le applicazioni mobili associate sulle istanze di esecuzione.
+1. Replicare il **App mobile** e le applicazioni mobili associate alle istanze di esecuzione.
 
 Affinché Campaign possa inviare notifiche push transazionali, l’evento deve contenere i seguenti elementi:
 
 * ID dispositivo mobile: **registrationId** per Android e **deviceToken** per iOS. Questo ID rappresenta l&#39;&quot;indirizzo&quot; a cui verrà inviata la notifica.
-* Il collegamento all&#39;applicazione mobile o alla chiave di integrazione (**uuid**) che consente di recuperare informazioni sulla connessione specifiche dell&#39;applicazione.
+* Il collegamento all’app mobile o alla chiave di integrazione (**uuid**), che consente di recuperare informazioni sulla connessione specifiche dell’applicazione.
 * Il canale a cui verrà inviata la notifica (**wishChannel**): 41 per iOS e 42 per Android.
 * Altri dati da sfruttare per la personalizzazione.
 

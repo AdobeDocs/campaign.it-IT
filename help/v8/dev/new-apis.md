@@ -28,13 +28,13 @@ Un flusso di lavoro integrato dedicato sincronizza i dati nel database cloud.
 
 ## Inserire dati{#data-insert-api}
 
-L&#39;API **xtk.session.ingest** è dedicata solo a Data Insert. Nessun aggiornamento/eliminazione.
+La **xtk.session.ingest** L’API è dedicata solo a Data Insert (Inserimento dati). Nessun aggiornamento/eliminazione.
 
 ### Inserisci senza riconciliazione
 
 **In un flusso di lavoro**
 
-Utilizza il seguente codice in un&#39;attività **Codice JavaScript** per inserire dati nel database Cloud senza riconciliazione:
+Utilizza il seguente codice in un **Codice JavaScript** attività per inserire dati nel database Cloud senza riconciliazione:
 
 ```
 var xmlStagingSampleTable = <sampleTableStg
@@ -91,7 +91,7 @@ Di conseguenza, la tabella di staging viene alimentata come previsto.
 
 **In un flusso di lavoro**
 
-Utilizza il seguente codice in un&#39;attività **Codice JavaScript** per inserire i dati nel database Cloud con riconciliazione:
+Utilizza il seguente codice in un **Codice JavaScript** attività per inserire dati nel database Cloud con riconciliazione:
 
 ```
 var xmlStagingSampleTable = <sampleTableStg  _key="@id" id="ABC12345"
@@ -147,13 +147,13 @@ Di conseguenza, la tabella di staging viene alimentata come previsto.
 
 ## Aggiornare o eliminare dati{#data-update-api}
 
-L&#39;API **xtk.session.IngestExt** è ottimizzata per l&#39;aggiornamento/la cancellazione dei dati. Solo per inserimento, preferisci **xtk.session.ingest**. Inserisci sta funzionando se la chiave di record non è nella tabella di staging.
+La **xtk.session.IngestExt** L’API è ottimizzata per l’aggiornamento/l’eliminazione dei dati. Solo per inserimento, preferisci **xtk.session.ingest**. Inserisci sta funzionando se la chiave di record non è nella tabella di staging.
 
 ### Inserisci/aggiorna
 
 **In un flusso di lavoro**
 
-Utilizza il seguente codice in un&#39;attività **Codice JavaScript** per aggiornare i dati nel database Cloud:
+Utilizza il seguente codice in un **Codice JavaScript** attività per aggiornare i dati nel database Cloud:
 
 ```
 var xmlStagingRecipient = <sampleTableStg  _key="@id" id="ABC12345"
@@ -206,9 +206,9 @@ Di conseguenza, la tabella di staging viene aggiornata come previsto.
 
 ## Gestione degli abbonamenti {#sub-apis}
 
-La gestione delle iscrizioni in Campaign è descritta in [questa pagina](../start/subscriptions.md).
+La gestione degli abbonamenti in Campaign è descritta in [questa pagina](../start/subscriptions.md).
 
-L’inserimento dei dati di abbonamento e di annullamento dell’abbonamento si basa sul [Meccanismo di staging](staging.md) nel database locale di Campaign. Le informazioni del sottoscrittore sono memorizzate temporaneamente nelle tabelle di gestione temporanea nel database locale e il flusso di lavoro di sincronizzazione invia tali dati dal database locale al database Cloud. Di conseguenza, i processi di abbonamento e di annullamento dell’abbonamento sono **asincroni**. Le richieste di consenso e rinuncia vengono elaborate ogni ora tramite un flusso di lavoro tecnico specifico. [Ulteriori informazioni](../config/replication.md#tech-wf)
+L’inserimento di dati di abbonamento e di annullamento dell’abbonamento si basa sul [Meccanismo di staging](staging.md) nel database locale di Campaign. Le informazioni del sottoscrittore sono memorizzate temporaneamente nelle tabelle di gestione temporanea nel database locale e il flusso di lavoro di sincronizzazione invia tali dati dal database locale al database Cloud. Di conseguenza, i processi di abbonamento e di annullamento dell’abbonamento sono **asincrono**. Le richieste di consenso e rinuncia vengono elaborate ogni ora tramite un flusso di lavoro tecnico specifico. [Ulteriori informazioni](../config/replication.md#tech-wf)
 
 
 **Argomenti correlati**

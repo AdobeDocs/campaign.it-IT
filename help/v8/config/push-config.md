@@ -21,21 +21,21 @@ Le versioni supportate da Android e iOS e le versioni compatibili con Campaign S
 
 >[!NOTE]
 >
->In qualità di amministratore di Campaign, puoi scaricare gli SDK di Campaign dalla [Distribuzione di software di Experience Cloud](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). Per ulteriori informazioni, contatta l&#39; [Adobe Customer Care](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>In qualità di amministratore di Campaign, puoi scaricare gli SDK di Campaign dal [Distribuzione di software di Experience Cloud](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). Per ulteriori informazioni, contatta [Adobe Customer Care](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 
 ## Dichiarare le impostazioni di integrazione {#declaring-integration-settings}
 
 Per integrare l’SDK di Campaign nell’app mobile, l’amministratore funzionale deve fornire allo sviluppatore le seguenti informazioni:
 
-* **Una chiave** di integrazione: per abilitare la piattaforma Adobe Campaign per identificare l’app mobile.
+* **Una chiave di integrazione**: per abilitare la piattaforma Adobe Campaign per identificare l’app mobile.
 
    >[!NOTE]
    >
-   >Questa chiave di integrazione viene immessa nella console Adobe Campaign, nella scheda **[!UICONTROL Information]** del servizio dedicato all’app mobile. Consulta la [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en#creating-ios-app).
+   >Questa chiave di integrazione viene immessa nella console Adobe Campaign, nella **[!UICONTROL Information]** scheda di servizio dedicata all’app mobile. Fai riferimento a [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en#creating-ios-app).
 
-* **Un URL** di tracciamento: che corrisponde all’indirizzo del server di tracciamento di Adobe Campaign.
-* **Un URL** di marketing: per abilitare la raccolta degli abbonamenti.
+* **Un URL di tracciamento**: che corrisponde all’indirizzo del server di tracciamento di Adobe Campaign.
+* **Un URL di marketing**: per abilitare la raccolta degli abbonamenti.
 
 * **In Android**:
 
@@ -66,24 +66,24 @@ In questa sezione, scopri come utilizzare l’SDK per Android in un’applicazio
 
 ### Configurare FCM
 
-Per utilizzare la notifica push su Android, è necessario disporre di un account FCM, configurare l&#39;applicazione Android per ricevere la notifica e collegare l&#39;applicazione all&#39;account FCM. Ulteriori informazioni sono disponibili in [Documentazione Google](https://firebase.google.com/docs/cloud-messaging/).
+Per utilizzare la notifica push su Android, è necessario disporre di un account FCM, configurare l&#39;applicazione Android per ricevere la notifica e collegare l&#39;applicazione all&#39;account FCM. Ulteriori informazioni in [Documentazione di Google](https://firebase.google.com/docs/cloud-messaging/).
 
-Per aggiungere Firebase al tuo progetto Android, fai riferimento alla [Documentazione Google](https://firebase.google.com/docs/android/setup) .
+Fai riferimento a [Documentazione di Google](https://firebase.google.com/docs/android/setup) per aggiungere Firebase al tuo progetto Android.
 
-Scopri come implementare FCM nella tua applicazione in [Documentazione Google](https://firebase.google.com/docs/android/setup).
+Scopri come implementare FCM nella tua applicazione in [Documentazione di Google](https://firebase.google.com/docs/android/setup).
 
 >[!NOTE]
 >
 > * Non dimenticare di scaricare e aggiungere google-services.json al tuo progetto.
 >
-> * Il `apiKey` deve corrispondere al `projectKey` impostato nell&#39;applicazione mobile Adobe Campaign collegata a questa applicazione Android.
+> * La `apiKey` deve corrispondere a `projectKey` impostato nell&#39;applicazione mobile Adobe Campaign collegata a questa applicazione Android.
 
 
 ### Configurare Android SDK
 
 1. **Inizializzare l&#39;SDK**
 
-   Prima di usare l&#39;SDK per Android, è necessario inizializzarlo. L&#39;inizializzazione dell&#39;SDK può essere eseguita nella funzione `onCreate` di un&#39;attività.
+   Prima di usare l&#39;SDK per Android, è necessario inizializzarlo. L&#39;inizializzazione dell&#39;SDK può essere eseguita nel `onCreate` funzione di un’attività.
 
    ```sql
    /** Called when the activity is first created. */
@@ -102,7 +102,7 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione Google](h
    }
    ```
 
-   Il `IntegrationKey` deve corrispondere al valore &#39;IntegrationKey&#39; impostato nell&#39;applicazione mobile Adobe Campaign collegata a questa applicazione Android.
+   La `IntegrationKey` deve corrispondere al valore &#39;IntegrationKey&#39; impostato nell&#39;applicazione mobile Adobe Campaign collegata a questa applicazione Android.
 
 1. **Registra il dispositivo mobile nel server Adobe Campaign**
 
@@ -111,7 +111,7 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione Google](h
    * invia l&#39;ID di notifica o l&#39;ID push (deviceToken per iOS e registrationID per Android) ad Adobe Campaign.
    * recuperare la chiave di riconciliazione o userKey (ad esempio il numero di e-mail o account)
 
-   Devi registrare il dispositivo su Adobe Campaign, all&#39;inizializzazione dell&#39;app o all&#39;azione dell&#39;utente. Può essere facilmente fatto utilizzando il metodo `registerDevice` .
+   Devi registrare il dispositivo su Adobe Campaign, all&#39;inizializzazione dell&#39;app o all&#39;azione dell&#39;utente. Può essere facilmente fatto utilizzando `registerDevice` metodo .
 
    ```sql
    public void onClick(View v)
@@ -183,7 +183,7 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione Google](h
 
 1. **Notifica a Campaign quando il token del dispositivo mobile dell’utente cambia**
 
-   È consigliabile utilizzare la funzione `registerDevice` quando si chiama la funzione `onTokenRefresh` per notificare ad Adobe Campaign la modifica apportata al token del dispositivo mobile dell’utente.
+   Ti consigliamo di utilizzare il `registerDevice` quando si chiama `onTokenRefresh` per notificare ad Adobe Campaign la modifica del token del dispositivo mobile dell’utente.
 
    Ad esempio:
 
@@ -222,7 +222,7 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione Google](h
 
 1. **Configurare il servizio di messaggistica Firebase**
 
-   Estendi il `FirebaseMessagingService` nel callback `onMessageReceived` per ricevere i messaggi. È consigliabile chiamare la funzione `notifyReceive` quando viene chiamato il callback `onMessageReceived` per abilitare il tracciamento della ricezione delle notifiche sul dispositivo mobile. In Adobe Campaign questo nome è **print** notifica: questa funzione deve essere chiamata immediatamente prima di richiedere al sistema operativo di visualizzare la notifica.
+   Estendi la `FirebaseMessagingService` in `onMessageReceived` callback per ricevere i messaggi. Ti consigliamo di chiamare il `notifyReceive` quando `onMessageReceived` viene chiamato per abilitare il tracciamento della ricezione delle notifiche sul dispositivo mobile. In Adobe Campaign questo nome è **print** notifica: questa funzione deve essere chiamata immediatamente prima di richiedere al sistema operativo di visualizzare la notifica.
 
    YourApplicationMessagingService.java
 
@@ -326,7 +326,7 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione Google](h
 
 1. **Tracciare l’apertura dei messaggi dati**
 
-   Per i messaggi di dati, è possibile tenere traccia di quando un utente fa clic su una notifica per aprirla, utilizzando la funzione `notifyOpening` . L’attività di notifica verrà creata quando l’utente fa clic sulla notifica (creata durante `onMessageReceived`chiamata di funzione)
+   Per i messaggi di dati, puoi tenere traccia di quando un utente fa clic su una notifica per aprirla, utilizzando la `notifyOpening` funzione . L’attività di notifica viene creata quando l’utente fa clic sulla notifica (creata durante `onMessageReceived`chiamata di funzione)
 
    ```sql
    public class NotificationActivity extends Activity {
@@ -361,7 +361,7 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione Google](h
 
 1. **Tracciare aperture e clic sui messaggi di notifica**
 
-   Per i messaggi di notifica, è necessario eseguire il tracciamento di apertura/clic con la funzione `notifyOpening` all’interno dell’attività di avvio dell’applicazione, come segue:
+   Per i messaggi di notifica, è necessario eseguire il tracciamento di apertura/clic con il `notifyOpening` all&#39;interno dell&#39;attività di avvio dell&#39;applicazione, come segue:
 
    ```sql
    /** Called when the activity is first created. */
@@ -419,12 +419,12 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione Google](h
 
    >[!NOTE]
    >
-   > È necessario eseguire una gestione simile se l’utente utilizza l’opzione `click_action` all’interno dell’attività di destinazione.
+   > È necessario eseguire una gestione simile se l’utente utilizza `click_action` all’interno dell’attività di destinazione.
 
 
 1. **Tracciamento della ricezione dei messaggi di dati**
 
-   Per i messaggi di dati, il tracciamento viene ricevuto a livello di chiamata `onMessageReceived` . È necessario chiamare la funzione &#39;notifyReceive&#39;.
+   Per i messaggi di dati, il tracciamento viene ricevuto nella `onMessageReceived` livello di chiamata. È necessario chiamare la funzione &#39;notifyReceive&#39;.
 
    YourApplicationMessagingService.java
 
@@ -495,7 +495,7 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione Google](h
    Per i messaggi di notifica, la ricezione del tracciamento deve essere configurata a due livelli:
 
    * `onMessageReceived` (applicazione non in background): l’implementazione è stata eseguita nella sezione precedente
-   * `onCreate` dell’attività di lancio (o dell’attività di destinazione se viene utilizzata  `click_action`la funzione ). (Applicazione non in background).
+   * `onCreate` dell’attività di lancio (o dell’attività con targeting se `click_action`viene utilizzata la funzione .) (Applicazione non in background).
 
    Deve essere eseguito contemporaneamente al tracciamento aperto/clic.
 
@@ -630,17 +630,17 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione Google](h
 
 1. **Configurare lo stato di registrazione**
 
-   Il protocollo delegato ti consente di ottenere il risultato della chiamata **registerDevice** e può essere utilizzato per sapere se si è verificato un errore durante la registrazione.
+   Il protocollo delegato ti consente di ottenere il risultato della **registerDevice** chiama e può essere utilizzato per sapere se si è verificato un errore durante la registrazione.
 
-   Il prototipo **registerDeviceStatus** è:
+   La **registerDeviceStatus** prototipo:
 
    ```sql
    - (void) registerDeviceStatus: (ACCRegisterDeviceStatus) status:(NSString *) errorReason;
    ```
 
-   * **** Gli stati consentono di sapere se una registrazione è riuscita o se si è verificato un errore.
+   * **Stato** consente di sapere se una registrazione è riuscita o se si è verificato un errore.
 
-   * **** ErrorReasonfornisce ulteriori informazioni sugli errori che si sono verificati. Per ulteriori informazioni sugli errori disponibili e sulle relative descrizioni, consulta la tabella seguente.
+   * **ErrorReason** fornisce ulteriori informazioni sugli errori che si sono verificati. Per ulteriori informazioni sugli errori disponibili e sulle relative descrizioni, consulta la tabella seguente.
 
    | Stato | Descrizione | ErrorReason |
    | ---------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
@@ -653,7 +653,7 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione Google](h
 
    {style=&quot;table-layout:auto&quot;}
 
-   **Neolane_** SDKDelegateprotocol e  **** registerDeviceStatusdelegate definition è la seguente:
+   **Neolane_SDKDelegate** protocollo e **registerDeviceStatus** la definizione di delegato è la seguente:
 
    ```sql
    //  Neolane_SDK.h
@@ -685,9 +685,9 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione Google](h
    @end
    ```
 
-   Per implementare il delegato **registerDeviceStatus**, procedi come segue:
+   Implementazione **registerDeviceStatus** delegare, segui questi passaggi:
 
-   1. Implementa **setDelegate** durante l&#39;inizializzazione dell&#39;SDK.
+   1. Implementare **setDelegate** durante l&#39;inizializzazione dell&#39;SDK.
 
       ```sql
       // AppDelegate.m
@@ -716,7 +716,7 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione Google](h
       }
       ```
 
-   1. Aggiungi il protocollo nel **@interface** della classe .
+   1. Aggiungi il protocollo nel **@interface** della tua classe.
 
       ```sql
       //  AppDelegate.h
@@ -738,7 +738,7 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione Google](h
       }
       ```
 
-   1. Implementa il delegato in **AppDelegate**.
+   1. Implementa il delegato nel **AppDelegate**.
 
       ```sql
       //  AppDelegate.m
@@ -792,9 +792,9 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione Google](h
 
 ## Variabili {#variables}
 
-Le variabili ti consentono di definire il comportamento dell’app mobile dopo aver ricevuto una notifica. Queste variabili devono essere definite nel codice dell’app mobile e nella console Adobe Campaign, nella scheda **[!UICONTROL Variables]** del servizio dedicato per le app mobili.
+Le variabili ti consentono di definire il comportamento dell’app mobile dopo aver ricevuto una notifica. Queste variabili devono essere definite nel codice dell’app mobile e nella console Adobe Campaign, nella **[!UICONTROL Variables]** nel servizio dedicato per le app mobili.
 
-![](../assets/do-not-localize/book.png) Ulteriori informazioni nella documentazione di  **Campaign Classic v7** sull’app mobile:  [Passaggi di configurazione per iOS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target=&quot;_blank&quot;} e passaggi  [di configurazione per Andoid](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html){target=&quot;_blank&quot;}.
+![](../assets/do-not-localize/book.png) Ulteriori informazioni in **Documentazione di Campaign Classic v7** nell’app mobile: [Passaggi di configurazione per iOS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target=&quot;_blank&quot;} e [Passaggi di configurazione per Andoid](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html){target=&quot;_blank&quot;}.
 
 Di seguito è riportato un esempio di codice che consente a un’app mobile di raccogliere tutte le variabili aggiunte in una notifica. Nel nostro esempio, utilizziamo la variabile &quot;VAR&quot;.
 
@@ -884,11 +884,11 @@ A questo livello, è necessario:
 
 * Associa l’estensione del contenuto alla categoria inviata da Adobe Campaign:
 
-   Se desideri che l’app mobile visualizzi un’immagine, puoi impostare il valore della categoria su &quot;image&quot; in Adobe Campaign e nella tua app mobile, crea un’estensione di notifica con il parametro **UNNotificationExtensionCategory** impostato su &quot;image&quot;. Quando la notifica push viene ricevuta sul dispositivo, l&#39;estensione viene chiamata in base al valore di categoria definito.
+   Se desideri che l’app mobile visualizzi un’immagine, puoi impostare il valore della categoria su &quot;image&quot; in Adobe Campaign e nella tua app mobile, crea un’estensione di notifica con il **UNNotificationExtensionCategory** impostato su &quot;image&quot;. Quando la notifica push viene ricevuta sul dispositivo, l&#39;estensione viene chiamata in base al valore di categoria definito.
 
 * Definire il layout delle notifiche
 
-   È necessario definire un layout con i widget pertinenti. Per un&#39;immagine, il widget si chiama **UIImageView**.
+   È necessario definire un layout con i widget pertinenti. Per un&#39;immagine, il widget viene denominato **UIImageView**.
 
 * Visualizzare i supporti
 

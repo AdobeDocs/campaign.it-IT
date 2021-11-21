@@ -23,7 +23,7 @@ Per inviare notifiche push in Adobe Campaign, devi:
 1. Aggiungi al servizio le versioni iOS e Android dell&#39;applicazione.
 1. Crea una consegna per iOS e Android.
 
-![](../assets/do-not-localize/book.png) Scopri come iniziare a utilizzare l’app mobile nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Scopri come iniziare a utilizzare l’app mobile in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html){target=&quot;_blank&quot;}
 
 ## Integrare con Adobe SDK
 
@@ -33,21 +33,21 @@ L’SDK di Campaign facilita l’integrazione dell’app mobile nella piattaform
 
 Le versioni SDK compatibili sono elencate in [Matrice di compatibilità di Campaign](../start/compatibility-matrix.md#MobileSDK).
 
-![](../assets/do-not-localize/glass.png) Scopri come integrare gli SDK Campaign Android e iOS con la tua app in  [questa sezione](../config/push-config.md)
+![](../assets/do-not-localize/glass.png) Scopri come integrare gli SDK di Campaign Android e iOS con la tua app in [questa sezione](../config/push-config.md)
 
 ### Configurare l’estensione Campaign in Launch
 
 Puoi integrare l’SDK di Adobe Experience Platform Launch con Campaign, sfruttando l’estensione Campaign Classic.
 
-![](../assets/do-not-localize/book.png) Ulteriori informazioni sono disponibili nella documentazione  [Adobe Mobile SDK](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Ulteriori informazioni in [Documentazione Adobe Mobile SDK](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic){target=&quot;_blank&quot;}
 
 ## Configurare le impostazioni dell’app in Campaign
 
 Devi definire le impostazioni delle app iOS e Android in Adobe Campaign.
 
-![](../assets/do-not-localize/book.png) Le linee guida per la configurazione di iOS sono descritte in dettaglio nella documentazione [ di ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en#sending-messages)Campaign Classic v7{target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Le linee guida per la configurazione di iOS sono descritte in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en#sending-messages){target=&quot;_blank&quot;}
 
-![](../assets/do-not-localize/book.png) Le linee guida di configurazione per Android sono descritte in dettaglio nella documentazione [ di ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html?lang=en#sending-messages)Campaign Classic v7{target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Le linee guida di configurazione per Android sono descritte in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html?lang=en#sending-messages){target=&quot;_blank&quot;}
 
 ## Creare la prima notifica push
 
@@ -55,21 +55,21 @@ Questa sezione descrive gli elementi specifici per la consegna delle notifiche i
 
 >[!CAUTION]
 >
->Con Campaign v8, la registrazione mobile è ora **asincrona**. [Ulteriori informazioni](../dev/staging.md)
+>Con Campaign v8, la registrazione mobile è ora **asincrono**. [Ulteriori informazioni](../dev/staging.md)
 
-Per creare una nuova consegna, passa alla scheda **[!UICONTROL Campaigns]** , fai clic su **[!UICONTROL Deliveries]** e fai clic sul pulsante **[!UICONTROL Create]** sopra l’elenco delle consegne esistenti.
+Per creare una nuova consegna, seleziona **[!UICONTROL Campaigns]** scheda , fai clic su **[!UICONTROL Deliveries]** e fai clic su **[!UICONTROL Create]** , sopra l’elenco delle consegne esistenti.
 
 ![](assets/delivery_step_1.png)
 
-![](../assets/do-not-localize/book.png) Per informazioni globali su come creare una consegna, consulta la documentazione [ di ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html?lang=en#sending-messages)Campaign Classic v7{target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Per informazioni globali su come creare una consegna, consulta [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html?lang=en#sending-messages){target=&quot;_blank&quot;}
 
 ### Invio di notifiche su iOS {#send-notifications-on-ios}
 
-1. Seleziona il modello di consegna **[!UICONTROL Deliver on iOS]** e fai clic su **[!UICONTROL Continue]**.
+1. Seleziona la **[!UICONTROL Deliver on iOS]** modello di consegna e fai clic su **[!UICONTROL Continue]**.
 
    ![](assets/push-template-ios.png)
 
-1. Per definire la destinazione della notifica, fai clic sul collegamento **[!UICONTROL To]** , quindi fai clic su **[!UICONTROL Add]**.
+1. Per definire il target della notifica, fai clic sul pulsante **[!UICONTROL To]** collegamento, quindi fai clic su **[!UICONTROL Add]**.
 
    ![](assets/push-ios-select-target.png)
 
@@ -81,30 +81,30 @@ Per creare una nuova consegna, passa alla scheda **[!UICONTROL Campaigns]** , fa
 
    ![](assets/push-ios-alert.png)
 
-1. Nel campo **[!UICONTROL Title]** , immetti l’etichetta del titolo che desideri visualizzare nella notifica.
+1. In **[!UICONTROL Title]** , immetti l’etichetta del titolo che desideri visualizzare nella notifica.
 
-1. Immetti i valori **[!UICONTROL Message]** e **[!UICONTROL Value of the badge]** in base al tipo di notifica scelto.
+1. Inserisci il **[!UICONTROL Message]** e **[!UICONTROL Value of the badge]** in base al tipo di notifica scelto.
 
 1. Puoi anche definire i seguenti elementi:
 
-   * Il **[!UICONTROL Action button]** ti consente di definire un’etichetta per il pulsante di azione visualizzato nel campo notifiche di avviso (**action_loc_key** del payload).
+   * La **[!UICONTROL Action button]** consente di definire un’etichetta per il pulsante di azione visualizzato nelle notifiche di avviso (**action_loc_key** campo del payload).
 
-   * Nel campo **[!UICONTROL Play a sound]** , seleziona il suono che deve essere riprodotto dal terminale mobile quando viene ricevuta la notifica.
+   * In **[!UICONTROL Play a sound]** selezionare il suono che deve essere riprodotto dal terminale mobile quando viene ricevuta la notifica.
 
-   * Nel campo **[!UICONTROL Application variables]** , immetti il valore di ciascuna variabile. Ad esempio, puoi configurare una schermata specifica dell’applicazione da visualizzare quando l’utente attiva la notifica.
+   * In **[!UICONTROL Application variables]** immettere il valore di ciascuna variabile. Ad esempio, puoi configurare una schermata specifica dell’applicazione da visualizzare quando l’utente attiva la notifica.
 
-1. Una volta configurata la notifica, fai clic sulla scheda **[!UICONTROL Preview]** per visualizzare l’anteprima della notifica.
+1. Una volta configurata la notifica, fai clic sul pulsante **[!UICONTROL Preview]** per visualizzare in anteprima la notifica.
 
    ![](assets/push-ios-preview.png)
 
 
 ### Invio di notifiche su Android {#send-notifications-on-android}
 
-1. Seleziona il modello di consegna **[!UICONTROL Deliver on Android (android)]**.
+1. Seleziona la **[!UICONTROL Deliver on Android (android)]** modello di consegna.
 
    ![](assets/push-template-android.png)
 
-1. Per definire la destinazione della notifica, fai clic sul collegamento **[!UICONTROL To]** , quindi fai clic su **[!UICONTROL Add]**.
+1. Per definire il target della notifica, fai clic sul pulsante **[!UICONTROL To]** collegamento, quindi fai clic su **[!UICONTROL Add]**.
 
    ![](assets/push-android-select-target.png)
 
@@ -116,11 +116,11 @@ Per creare una nuova consegna, passa alla scheda **[!UICONTROL Campaigns]** , fa
 
    ![](assets/push-android-content.png)
 
-1. Fai clic sull’icona **[!UICONTROL Insert emoticon]** per inserire gli emoticon nella notifica push.
+1. Fai clic sul pulsante **[!UICONTROL Insert emoticon]** per inserire gli emoticon nella notifica push.
 
-1. Nel campo **[!UICONTROL Application variables]** , immetti il valore di ciascuna variabile. Ad esempio, puoi configurare una schermata specifica dell’applicazione da visualizzare quando l’utente attiva la notifica.
+1. In **[!UICONTROL Application variables]** immettere il valore di ciascuna variabile. Ad esempio, puoi configurare una schermata specifica dell’applicazione da visualizzare quando l’utente attiva la notifica.
 
-1. Una volta configurata la notifica, fai clic sulla scheda **[!UICONTROL Preview]** per visualizzare l’anteprima della notifica.
+1. Una volta configurata la notifica, fai clic sul pulsante **[!UICONTROL Preview]** per visualizzare in anteprima la notifica.
 
    <!--![](assets/push-android-preview.png)-->
 

@@ -20,7 +20,7 @@ Inoltre, il nostro lavoro collaborativo con partner, ricercatori leader, istitut
 La configurazione e l’indurimento della privacy è un elemento chiave dell’ottimizzazione della sicurezza. Seguono alcune best practice per quanto riguarda la privacy:
 
 * Protect le informazioni personali del cliente (PI) utilizzando HTTPS invece di HTTP
-* Utilizza [Restrizione della visualizzazione PI](../dev/restrict-pi-view.md) per proteggere la privacy ed evitare che i dati vengano utilizzati in modo improprio
+* Utilizzo [Restrizione della vista PI](../dev/restrict-pi-view.md) per proteggere la privacy ed evitare che i dati vengano utilizzati in modo improprio
 * Assicurati che le password crittografate siano limitate
 * Protect le pagine che possono contenere informazioni personali come pagine mirror, applicazioni web, ecc.
 
@@ -42,7 +42,7 @@ Devi accertarti che le password crittografate non siano accessibili da un utente
 
 Questa restrizione consente di rimuovere i campi password ma lascia l’account esterno accessibile dall’interfaccia per tutti gli utenti. Per ulteriori informazioni, consulta [questa pagina](../dev/restrict-pi-view.md).
 
-1. Vai in **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**.
+1. Accedi **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**.
 
 1. Crea un nuovo **[!UICONTROL Extension of a schema]**.
 
@@ -50,7 +50,7 @@ Questa restrizione consente di rimuovere i campi password ma lascia l’account 
 
 1. Nell’ultima schermata, puoi modificare il nuovo srcSchema per limitare l’accesso a tutti i campi password:
 
-   Puoi sostituire l’elemento principale (`<element name="extAccount" ... >`) con:
+   Puoi sostituire l’elemento principale (`<element name="extAccount" ... >`) da:
 
    ```
    <element name="extAccount">
@@ -96,7 +96,7 @@ Questa restrizione consente di rimuovere i campi password ma lascia l’account 
 
    >[!NOTE]
    >
-   >È possibile sostituire `$(loginId) = 0 or $(login) = 'admin'` con `hasNamedRight('admin')` per consentire a tutti gli utenti con diritti di amministratore di visualizzare queste password.
+   >È possibile sostituire `$(loginId) = 0 or $(login) = 'admin'` da `hasNamedRight('admin')` per consentire a tutti gli utenti con diritti di amministratore di vedere queste password.
 
 
 ## Gestione degli accessi
@@ -107,7 +107,7 @@ La gestione degli accessi è una parte importante dell&#39;irrigidimento della s
 * Verificare che ogni operatore disponga dei diritti di accesso appropriati
 * Evita di utilizzare l&#39;operatore amministratore ed evita di avere troppi operatori nel gruppo di amministrazione
 
-![](../assets/do-not-localize/book.png) Ulteriori informazioni nella documentazione di  [Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Ulteriori informazioni in [Documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator){target=&quot;_blank&quot;}
 
 ## Linee guida sulla codifica
 
@@ -115,8 +115,8 @@ Nello sviluppo in Adobe Campaign (flussi di lavoro, JavaScript, JSSP, ecc.), seg
 
 * **Scripting**: cercare di evitare istruzioni SQL, utilizzare funzioni parametrizzate invece della concatenazione di stringhe, evitare l&#39;inserimento di SQL aggiungendo le funzioni SQL da utilizzare nell&#39;elenco consentiti.
 
-* **Proteggere il modello** dati: utilizzare diritti denominati per limitare le azioni dell’operatore, aggiungere filtri di sistema (sysFilter)
+* **Proteggere il modello dati**: utilizzare diritti denominati per limitare le azioni dell’operatore, aggiungere filtri di sistema (sysFilter)
 
-* **Aggiungi i sottotitoli nelle applicazioni** web: aggiungi le didascalie nelle pagine di destinazione pubbliche e nelle pagine di abbonamento.
+* **Aggiunta di sottotitoli nelle applicazioni web**: aggiungi le didascalie nelle pagine di destinazione pubbliche e nelle pagine di abbonamento.
 
-![](../assets/do-not-localize/book.png) Ulteriori informazioni nella documentazione di  [Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Ulteriori informazioni in [Documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic){target=&quot;_blank&quot;}

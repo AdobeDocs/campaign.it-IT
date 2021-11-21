@@ -20,13 +20,13 @@ Adobe Campaign viene fornito con un set di flussi di lavoro tecnici integrati. I
 
 Questi flussi di lavoro eseguono operazioni di manutenzione sul database, sfruttano le informazioni di tracciamento nei registri di consegna, creano campagne ricorrenti e altro ancora.
 
-![](../assets/do-not-localize/book.png) L’elenco completo dei flussi di lavoro tecnici è descritto in dettaglio nella documentazione [ di ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html)Campaign Classic v7{target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) L’elenco completo dei flussi di lavoro tecnici è descritto in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html){target=&quot;_blank&quot;}
 
 
-Oltre a questi flussi di lavoro tecnici, Campaign v8 si basa su flussi di lavoro tecnici specifici per gestire la [replica dei dati](#data-replication).
+Oltre a questi flussi di lavoro tecnici, Campaign v8 si basa su flussi di lavoro tecnici specifici per la gestione [replica dei dati](#data-replication).
 
 * **[!UICONTROL Replicate Reference tables]**
-Questo flusso di lavoro esegue la replica automatica delle tabelle integrate che devono essere presenti nel database locale di Campaign (Postgres) e nel database cloud ([!DNL Snowflake]). È prevista l’esecuzione ogni ora, ogni giorno. Se esiste un campo **lastModified**, la replica avviene in modo incrementale, altrimenti l&#39;intera tabella viene replicata. L&#39;ordine delle tabelle nell&#39;array sottostante è l&#39;ordine utilizzato dal flusso di lavoro di replica.
+Questo flusso di lavoro esegue la replica automatica delle tabelle integrate che devono essere presenti nel database locale di Campaign (Postgres) e nel database cloud ([!DNL Snowflake]). È prevista l’esecuzione ogni ora, ogni giorno. Se **lastModified** esiste, la replica avviene in modo incrementale, altrimenti l&#39;intera tabella viene replicata. L&#39;ordine delle tabelle nell&#39;array sottostante è l&#39;ordine utilizzato dal flusso di lavoro di replica.
 * **[!UICONTROL Replicate Staging data]**
 Questo flusso di lavoro replica i dati di staging per le chiamate unitarie. È prevista l’esecuzione ogni ora, ogni giorno.
 * **[!UICONTROL Deploy FFDA immediately]**\
@@ -34,13 +34,13 @@ Questo flusso di lavoro replica i dati di staging per le chiamate unitarie. È p
 * **[!UICONTROL Replicate FFDA data immediately]**
 Questo flusso di lavoro replica i dati XS per un dato account esterno.
 
-Questi flussi di lavoro tecnici sono disponibili dal nodo **[!UICONTROL Administration > Production > Technical workflows > Full FFDA replication]** di Campaign Explorer. **Non devono essere modificati.**
+Questi flussi di lavoro tecnici sono disponibili dal **[!UICONTROL Administration > Production > Technical workflows > Full FFDA replication]** nodo di Campaign Explorer. **Non devono essere modificati.**
 
-Se necessario, puoi avviare manualmente la sincronizzazione dati. Per eseguire questa operazione, fai clic con il pulsante destro del mouse sull&#39;attività **Scheduler** e seleziona **Esegui attività in sospeso**.
+Se necessario, puoi avviare manualmente la sincronizzazione dati. Per eseguire questa operazione, fai clic con il pulsante destro del mouse sul pulsante **Scheduler** e seleziona **Esegui subito le attività in sospeso**.
 
 ## Replica dei dati{#data-replication}
 
-Alcune tabelle incorporate vengono replicate dal database locale di Campaign al database [!DNL Snowflake] Cloud tramite flussi di lavoro dedicati descritti in precedenza.
+Alcune tabelle incorporate vengono replicate dal database locale di Campaign in [!DNL Snowflake] Database cloud tramite flussi di lavoro dedicati descritti in precedenza.
 
 Comprendere i database utilizzati da Adobe Campaign v8, il motivo per cui i dati vengono replicati, quali dati vengono replicati e come funziona il processo di replica.
 
@@ -51,11 +51,11 @@ Comprendere i database utilizzati da Adobe Campaign v8, il motivo per cui i dati
 
 I criteri di replica si basano sulle dimensioni delle tabelle. Alcune tabelle verranno replicate in tempo reale, altre verranno replicate su base oraria. Alcune tabelle avranno aggiornamenti incrementali quando altre verranno sostituite.
 
-Oltre al flusso di lavoro tecnico integrato **Replica tabelle di riferimento**, puoi forzare la replica dei dati nei flussi di lavoro.
+Oltre al **Replicare le tabelle di riferimento** flusso di lavoro tecnico, puoi forzare la replica dei dati nei flussi di lavoro.
 
 Puoi:
 
-* aggiungi una specifica attività **Codice JavaScript** con il seguente codice:
+* aggiungi un **Codice JavaScript** attività con il seguente codice:
 
 ```
 nms.replicationStrategy.StartReplicateStagingData("dem:sampleTable")
@@ -64,7 +64,7 @@ nms.replicationStrategy.StartReplicateStagingData("dem:sampleTable")
 ![](assets/jscode.png)
 
 
-* aggiungi un&#39;attività **nlmodule** specifica con il seguente comando:
+* aggiungi un **nlmodule** attività con il seguente comando:
 
 ```
 nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
@@ -76,6 +76,6 @@ nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
 
 **Argomenti correlati**
 
-![](../assets/do-not-localize/book.png) Scopri come iniziare a utilizzare i flussi di lavoro nella documentazione [ di ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows)Campaign Classic v7{target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Scopri come iniziare a utilizzare i flussi di lavoro in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows){target=&quot;_blank&quot;}
 
-![](../assets/do-not-localize/glass.png) Accedere ai periodi di conservazione dei dati in  [questa sezione](../dev/datamodel-best-practices.md#data-retention)
+![](../assets/do-not-localize/glass.png) Accedere ai periodi di conservazione dei dati in [questa sezione](../dev/datamodel-best-practices.md#data-retention)

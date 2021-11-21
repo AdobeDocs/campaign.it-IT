@@ -22,12 +22,12 @@ I passaggi chiave per personalizzare il modello dati di Campaign sono i seguenti
 >[!CAUTION]
 >Lo schema predefinito non deve essere modificato direttamente. Se è necessario adattare uno schema incorporato, è necessario estenderlo.
 
-![](../assets/do-not-localize/glass.png) Per una migliore comprensione delle tabelle integrate di Campaign e della loro interazione, consulta  [questa pagina](datamodel.md). Vedi anche consigli durante la creazione di un nuovo schema in [questa pagina](create-schema.md).
+![](../assets/do-not-localize/glass.png) Per una migliore comprensione delle tabelle integrate di Campaign e della loro interazione, consulta [questa pagina](datamodel.md). Vedi anche consigli durante la creazione di un nuovo schema in [questa pagina](create-schema.md).
 
 Per estendere uno schema, segui i passaggi seguenti:
 
-1. Passa alla cartella **[!UICONTROL Administration > Configuration > Data schemas]** in Esplora risorse.
-1. Fare clic sul pulsante **Nuovo** e selezionare **[!UICONTROL Extend the data in a table using an extension schema]**.
+1. Passa a **[!UICONTROL Administration > Configuration > Data schemas]** in Esplora risorse.
+1. Fai clic sul pulsante **Nuovo** e seleziona **[!UICONTROL Extend the data in a table using an extension schema]**.
 
    ![](assets/extend-schema-option.png)
 
@@ -43,7 +43,7 @@ Per estendere uno schema, segui i passaggi seguenti:
 
    ![](assets/extend-schema-edit.png)
 
-   Nell&#39;esempio seguente, aggiungiamo l&#39;attributo **MembershipYear** , inseriamo un limite di lunghezza per il cognome (questo limite sovrascrive quello predefinito) e rimuoviamo la data di nascita dallo schema incorporato.
+   Nell’esempio seguente, aggiungiamo la variabile **annoIscrizione** inserisci un limite di lunghezza per il cognome (questo limite sovrascrive quello predefinito) e rimuovi la data di nascita dallo schema incorporato.
 
    ![](assets/extend-schema-sample.png)
 
@@ -59,7 +59,7 @@ Per estendere uno schema, segui i passaggi seguenti:
    </srcSchema>
    ```
 
-1. Disconnetti e riconnettiti a Campaign per controllare l’aggiornamento della struttura dello schema nella scheda **[!UICONTROL Structure]** .
+1. Disconnetti e riconnettiti a Campaign per controllare l’aggiornamento della struttura dello schema nel **[!UICONTROL Structure]** scheda .
 
    ![](assets/extend-schema-structure.png)
 

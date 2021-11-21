@@ -6,7 +6,8 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: true
 hide: true
-source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
+exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
+source-git-commit: 94fc2739c538f3aa8b11e0ea69d08f1bfffb5d32
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 5%
@@ -17,7 +18,7 @@ ht-degree: 5%
 
 **NON ANCORA DISPONIBILE**
 
-Utilizza l&#39;opzione **Gestione dei social network (Social Marketing)** per interagire con clienti e potenziali clienti tramite Twitter.
+Utilizza la **Gestione dei social network (Social Marketing)** possibilità di interagire con clienti e potenziali clienti tramite Twitter.
 
 * Invia messaggi - Utilizza Adobe Campaign Social Marketing per inviare messaggi su Twitter. Adobe Campaign ti consente di inviare messaggi direttamente al tuo account twitter. Puoi anche inviare messaggi diretti a tutti i tuoi follower.
 

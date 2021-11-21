@@ -2,7 +2,8 @@
 product: campaign
 title: Presentare un’offerta (interazione in entrata)
 description: Scopri come presentare la migliore offerta utilizzando il modulo di interazione di Campaign
-source-git-commit: 889400a238f32968464f1425bb7d6c2dc3ff3cd0
+exl-id: 1eb0775a-5da9-4a27-aa7b-339372748f9c
+source-git-commit: 00a88cf9217faf32070a3cd34a2c1ae5243d9a6e
 workflow-type: tm+mt
 source-wordcount: '1454'
 ht-degree: 0%
@@ -19,7 +20,7 @@ Lo script che richiama l’URL si presenta così:
 <script id="interactionProposalScript" src="https://<SERVER_URL>/nl/interactionProposal.js?env=" type="text/javascript"></script>
 ```
 
-Il &quot;**env**&quot; riceve il nome interno dell&#39;ambiente live dedicato alle interazioni anonime.
+&quot;**env**&quot; riceve il nome interno dell&#39;ambiente live dedicato alle interazioni anonime.
 
 Per presentare un’offerta, è necessario creare un ambiente e uno spazio di offerta in Adobe Campaign, quindi configurare la pagina HTML.
 
@@ -137,17 +138,17 @@ La chiamata al motore di offerta si presenta così:
 <script type="text/javascript" id="interactionProposalScript" src="https://<SERVER_URL>/nl/interactionProposal.js?env=&cb="></script>
 ```
 
-* Il &quot;**env**&quot; riceve il nome interno dell&#39;ambiente live.
+* &quot;**env**&quot; riceve il nome interno dell&#39;ambiente live.
 
-* Il &quot;**cb**&quot; riceve il nome della funzione che leggerà il nodo XML restituito dal motore contenente le proposte (callback). Questo parametro è facoltativo.
+* &quot;**cb**&quot; riceve il nome della funzione che leggerà il nodo XML restituito dal motore contenente le proposte (callback). Questo parametro è facoltativo.
 
-* Il &quot;**t**&quot; riceve il valore del target, solo per un&#39;interazione identificata. Questo parametro può essere trasmesso anche con **actionTarget** variabile. Questo parametro è facoltativo.
+* &quot;**t**&quot; riceve il valore del target, solo per un&#39;interazione identificata. Questo parametro può essere trasmesso anche con **actionTarget** variabile. Questo parametro è facoltativo.
 
-* Il &quot;**c**&quot; riceve l&#39;elenco dei nomi interni delle categorie. Questo parametro è facoltativo.
+* &quot;**c**&quot; riceve l&#39;elenco dei nomi interni delle categorie. Questo parametro è facoltativo.
 
-* Il &quot;**th**&quot; riceve l&#39;elenco dei temi. Questo parametro è facoltativo.
+* &quot;**th**&quot; riceve l&#39;elenco dei temi. Questo parametro è facoltativo.
 
-* Il &quot;**gctx**&quot; riceve i dati della chiamata globali (contestuali) all&#39;intera pagina. Questo parametro è facoltativo.
+* &quot;**gctx**&quot; riceve i dati della chiamata globali (contestuali) all&#39;intera pagina. Questo parametro è facoltativo.
 
 Il nodo XML restituito si presenta così:
 

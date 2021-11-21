@@ -11,7 +11,7 @@ ht-degree: 5%
 
 # Utilizzare gli schemi{#gs-ac-schemas}
 
-La struttura fisica e logica dei dati trasferiti nell’applicazione è descritta in XML. Obbedisce a una grammatica specifica di Adobe Campaign, denominata **schema**.
+La struttura fisica e logica dei dati trasferiti nell’applicazione è descritta in XML. Obbedisce a una grammatica specifica di Adobe Campaign, chiamata **schema**.
 
 Uno schema è un documento XML associato a una tabella di database. Definisce la struttura dati e descrive la definizione SQL della tabella:
 
@@ -39,13 +39,13 @@ Per una migliore comprensione delle tabelle integrate di Campaign e della loro i
 
 >[!CAUTION]
 >
->Alcuni schemi di Campaign incorporati hanno uno schema associato nel database Cloud. Questi schemi sono identificati dallo spazio dei nomi **Xxl** e non devono essere modificati o estesi.
+>Alcuni schemi di Campaign incorporati hanno uno schema associato nel database Cloud. Tali schemi sono identificati dal **Xxl** spazio dei nomi e non deve essere modificato o esteso.
 
 ## Sintassi degli schemi {#syntax-of-schemas}
 
-L&#39;elemento principale dello schema è **`<srcschema>`**. Contiene i sottoelementi **`<element>`** e **`<attribute>`** .
+L&#39;elemento principale dello schema è **`<srcschema>`**. Contiene il **`<element>`** e **`<attribute>`** sottoelementi.
 
-Il primo sottoelemento **`<element>`** coincide con il livello principale dell’entità.
+Il primo **`<element>`** il sottoelemento coincide con il livello principale dell’entità.
 
 ```
 <srcSchema name="recipient" namespace="cus">
@@ -65,13 +65,13 @@ Il primo sottoelemento **`<element>`** coincide con il livello principale dell�
 
 ![](assets/schema_and_entity.png)
 
-I tag **`<element>`** definiscono i nomi degli elementi di entità. **`<attribute>`** i tag dello schema definiscono i nomi degli attributi nei  **`<element>`** tag a cui sono stati collegati.
+La **`<element>`** I tag definiscono i nomi degli elementi di entità. **`<attribute>`** i tag dello schema definiscono i nomi degli attributi nel **`<element>`** a cui sono stati collegati.
 
 ## Identificazione di uno schema {#identification-of-a-schema}
 
 Uno schema di dati è identificato dal nome e dallo spazio dei nomi corrispondente.
 
-Uno spazio dei nomi consente di raggruppare un set di schemi per area di interesse. Ad esempio, lo spazio dei nomi **cus** viene utilizzato per la configurazione specifica del cliente (**clienti**).
+Uno spazio dei nomi consente di raggruppare un set di schemi per area di interesse. Ad esempio, il **muco** Lo spazio dei nomi viene utilizzato per la configurazione specifica del cliente (**clienti**).
 
 >[!CAUTION]
 >
@@ -81,14 +81,14 @@ Uno spazio dei nomi consente di raggruppare un set di schemi per area di interes
 
 ## Spazi dei nomi riservati {#reserved-namespaces}
 
-Alcuni namespace sono riservati per le descrizioni delle entità di sistema necessarie per il funzionamento dell’applicazione Adobe Campaign. Non è necessario utilizzare il seguente namespace **per identificare un nuovo schema in una combinazione maiuscola/minuscola:**
+Alcuni namespace sono riservati per le descrizioni delle entità di sistema necessarie per il funzionamento dell’applicazione Adobe Campaign. Spazio dei nomi seguente **non devono essere utilizzati** per identificare un nuovo schema, in qualsiasi combinazione maiuscolo/minuscolo:
 
 * **xxl**: riservato agli schemi di database cloud
 * **xtk**: riservato ai dati di sistema della piattaforma
 * **nl**: riservato all&#39;uso generale della domanda
 * **nms**: riservato alle consegne (destinatario, consegna, tracciamento, ecc.)
 * **ncm**: riservato alla gestione dei contenuti
-* **temperatura**: riservato agli schemi temporanei
+* **temp**: riservato agli schemi temporanei
 * **crm**: riservato all’integrazione dei connettori di gestione delle relazioni con i clienti
 
 La chiave di identificazione di uno schema è una stringa creata utilizzando lo spazio dei nomi e il nome separati da due punti; ad esempio: **nms:recipient**.
@@ -97,11 +97,11 @@ La chiave di identificazione di uno schema è una stringa creata utilizzando lo 
 
 Per aggiungere un campo o un altro elemento a uno degli schemi di dati principali in Campaign, ad esempio la tabella dei destinatari (nms:recipient), devi estendere tale schema.
 
-![](../assets/do-not-localize/glass.png) Per ulteriori informazioni, consulta  [Estendere uno schema](extend-schema.md).
+![](../assets/do-not-localize/glass.png) Per ulteriori informazioni, consulta [Estendere uno schema](extend-schema.md).
 
 Per aggiungere un tipo completamente nuovo di dati che non esiste in Adobe Campaign (ad esempio una tabella di contratti), puoi creare direttamente uno schema personalizzato.
 
-![](../assets/do-not-localize/glass.png) Per ulteriori informazioni, consulta  [Creare un nuovo schema](create-schema.md).
+![](../assets/do-not-localize/glass.png) Per ulteriori informazioni, consulta [Creare un nuovo schema](create-schema.md).
 
 ![](assets/schemaextension_1.png)
 
@@ -131,13 +131,13 @@ type="string" enum="exTransactionTypeEnum"/>
 
 >[!NOTE]
 >
->È inoltre possibile utilizzare enumerazioni gestite dall’utente (in genere in **[!UICONTROL Administration]** > **[!UICONTROL Platform]** ) per specificare i valori di un dato campo. Si tratta di enumerazioni globali efficaci e di una scelta migliore se l’enumerazione può essere utilizzata al di fuori dello schema specifico in cui si sta lavorando.
+>È inoltre possibile utilizzare enumerazioni gestite dagli utenti (in genere in **[!UICONTROL Administration]** > **[!UICONTROL Platform]** ) per specificare i valori di un dato campo. Si tratta di enumerazioni globali efficaci e di una scelta migliore se l’enumerazione può essere utilizzata al di fuori dello schema specifico in cui si sta lavorando.
 
 ## Chiavi {#keys}
 
-Ogni tabella deve avere almeno una chiave e spesso viene automaticamente stabilita nell&#39;elemento principale dello schema utilizzando gli attributi **@autouuid** e **autopk** impostati su **true**.
+Ogni tabella deve avere almeno una chiave e spesso viene automaticamente stabilita nell’elemento principale dello schema utilizzando il **@autouuid** e **autopk** attributi impostati su **true**.
 
-La chiave primaria può essere definita anche utilizzando l&#39;attributo **internal** .
+La chiave primaria può essere definita anche utilizzando **interno** attributo.
 
 Esempio:
 
@@ -147,23 +147,23 @@ Esempio:
 </key>
 ```
 
-In questo esempio, invece di lasciare che l&#39;attributo **@autouuid** crei una chiave primaria predefinita denominata &quot;id&quot;, stiamo specificando la nostra chiave primaria &quot;familyId&quot;.
+In questo esempio, invece di lasciare che **@autouuid** creazione di una chiave primaria predefinita denominata &quot;id&quot; stiamo specificando la chiave primaria &quot;familyId&quot;.
 
 >[!CAUTION]
 >
 >Durante la creazione di un nuovo schema o durante un&#39;estensione dello schema, è necessario mantenere lo stesso valore di sequenza della chiave primaria (@pkSequence) per l&#39;intero schema.
 
-![](../assets/do-not-localize/glass.png) Ulteriori informazioni sulle chiavi in  [questa sezione](database-mapping.md#management-of-keys).
+![](../assets/do-not-localize/glass.png) Ulteriori informazioni sulle chiavi in [questa sezione](database-mapping.md#management-of-keys).
 
 ## Attributi (campi) {#attributes--fields-}
 
-Gli attributi ti consentono di definire i campi che compongono l’oggetto dati. Puoi usare il pulsante **[!UICONTROL Insert]** nella barra degli strumenti dell’edizione dello schema per rilasciare modelli di attributi vuoti nel file XML in cui si trova il cursore. Ulteriori informazioni in [questa sezione](create-schema.md).
+Gli attributi ti consentono di definire i campi che compongono l’oggetto dati. È possibile utilizzare **[!UICONTROL Insert]** nella barra degli strumenti di modifica dello schema per rilasciare modelli di attributi vuoti nel codice XML in cui si trova il cursore. Ulteriori informazioni in [questa sezione](create-schema.md).
 
 ![](assets/schemaextension_2.png)
 
-L’elenco completo degli attributi è disponibile nella sezione `<attribute>` elemento nella documentazione [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=en#content-model). Di seguito sono riportati alcuni degli attributi più comunemente utilizzati: **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label&lt;a 13/>,**@length **,**@name **,**@notNull **,**@required **,**@ref&lt;a22 3/>, **@xml**, **@type**.****
+L’elenco completo degli attributi è disponibile nella sezione `<attribute>` sezione elemento in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=en#content-model). Di seguito sono riportati alcuni degli attributi più comunemente utilizzati: **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name**, **@notNull**, **@required**, **@ref**, **@xml**, **@type**.
 
-![](../assets/do-not-localize/book.png) Per ulteriori informazioni su ciascun attributo, consulta la descrizione dell’attributo nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic).
+![](../assets/do-not-localize/book.png) Per ulteriori informazioni su ciascun attributo, consulta la descrizione dell’attributo in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic).
 
 ### Esempi {#examples}
 
@@ -179,13 +179,13 @@ Esempio di utilizzo di un attributo comune come modello per un campo contrassegn
 <attribute name="mobile" label="Mobile" template="nms:common:phone" required="true" />
 ```
 
-Esempio di campo calcolato nascosto utilizzando l&#39;attributo **@advanced** :
+Esempio di campo calcolato nascosto utilizzando la variabile **@advanced** attributo:
 
 ```
 <attribute name="domain" label="Email domain" desc="Domain of recipient email address" expr="GetEmailDomain([@email])" advanced="true" />
 ```
 
-Esempio di campo XML memorizzato anche in un campo SQL e con un attributo **@dataPolicy**.
+Esempio di campo XML memorizzato anche in un campo SQL e con un **@dataPolicy** attributo.
 
 ```
 <attribute name="secondaryEmail" label="Secondary email address" length="100" xml="true" sql="true" dataPolicy="email" />
@@ -201,7 +201,7 @@ Esempio di campo XML memorizzato anche in un campo SQL e con un attributo **@dat
 
 I collegamenti sono alcuni degli ultimi elementi nell’elemento principale dello schema. Definiscono il modo in cui tutti i diversi schemi nella tua istanza si relazionano tra loro.
 
-I collegamenti sono dichiarati nello schema che contiene la **chiave esterna** della tabella a cui è collegata.
+I collegamenti sono dichiarati nello schema che contiene **chiave estera** della tabella a cui è collegata.
 
 Ci sono tre tipi di cardinalità: 1-1, 1-N e N-N. È il tipo 1-N utilizzato per impostazione predefinita.
 

@@ -27,13 +27,13 @@ A questo scopo, i file .eml corrispondenti alle e-mail inviate vengono trasferit
 
 Tieni presente che:
 
-* È possibile utilizzare solo **un indirizzo e-mail** CCN.
+* Puoi utilizzare solo **uno** Indirizzo e-mail CCN.
 
 * Vengono prese in considerazione solo le e-mail inviate con successo. I messaggi non recapitati non lo sono.
 
-![](../assets/do-not-localize/speech.png)  In qualità di utente di Cloud Services gestiti,  [contatta ](../start/campaign-faq.md#support) Adobe per attivare Ccn e-mail in Campaign. L’indirizzo e-mail CCN desiderato deve essere fornito al team di Adobe che lo configurerà per te.
+![](../assets/do-not-localize/speech.png)  Come utente di Cloud Services gestiti, [Adobe di contatto](../start/campaign-faq.md#support) per attivare Ccn e-mail in Campaign. L’indirizzo e-mail CCN desiderato deve essere fornito al team di Adobe che lo configurerà per te.
 
-Una volta configurato il CCN dell’e-mail, accertati che la funzione sia abilitata nel modello di consegna o nella consegna tramite l’opzione **CCN dell’e-mail** .
+Una volta configurato il CCN dell’e-mail, assicurati che la funzione sia abilitata nel modello di consegna o nella consegna tramite il **Ccn e-mail** opzione .
 
 ![](assets/email-bcc.png)
 
@@ -41,14 +41,14 @@ Una volta configurato il CCN dell’e-mail, accertati che la funzione sia abilit
 **Argomenti correlati** nella documentazione di Campaign Classic v7:
 
 
-* [Genera la pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#generating-mirror-page) speculare{target=&quot;_blank&quot;}
+* [Genera la pagina speculare](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#generating-mirror-page){target=&quot;_blank&quot;}
 
-* [Seleziona il formato](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#selecting-message-formats) e-mail {target=&quot;_blank&quot;}
+* [Selezionare il formato e-mail](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#selecting-message-formats){target=&quot;_blank&quot;}
 
-* [Seleziona la codifica](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#character-encoding) dei caratteri {target=&quot;_blank&quot;}
+* [Seleziona codifica caratteri](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#character-encoding){target=&quot;_blank&quot;}
 
-* [Imposta l&#39;indirizzo](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#managing-bounce-emails) e-mail non recapitato{target=&quot;_blank&quot;}
+* [Impostare l&#39;indirizzo e-mail non recapitato](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#managing-bounce-emails){target=&quot;_blank&quot;}
 
-* [Utilizza modelli](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=it) di consegna e-mail{target=&quot;_blank&quot;}
+* [Utilizzare i modelli di consegna e-mail](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=it){target=&quot;_blank&quot;}
 
 * [Comprendere gli errori di consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html){target=&quot;_blank&quot;}

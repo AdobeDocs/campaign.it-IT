@@ -62,7 +62,7 @@ La **[!UICONTROL Working table]** consente al flusso di lavoro Adobe Campaign di
 Per impostazione predefinita, la **[!UICONTROL Working table]** viene creato nello stesso database dell&#39;origine dei dati su cui eseguiamo la query.
 
 Ad esempio, quando si esegue una query sul **[!UICONTROL Profiles]** nella tabella, memorizzata nel database Cloud, verrà creato un **[!UICONTROL Working table]** sullo stesso database Cloud.
-Per modificare questa impostazione, puoi aggiungere la variabile **[!UICONTROL Change Data Source]** per scegliere un’origine dati diversa per la **[!UICONTROL Working table]**.
+Per modificare questa impostazione, puoi aggiungere la **[!UICONTROL Change Data Source]** per scegliere un’origine dati diversa per la **[!UICONTROL Working table]**.
 
 Tieni presente che quando utilizzi **[!UICONTROL Change Data Source]** per continuare l’esecuzione del flusso di lavoro, dovrai tornare al database Cloud .
 

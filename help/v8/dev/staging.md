@@ -28,9 +28,10 @@ Le API di Campaign Classic v7 sono ancora disponibili ma non possono beneficiare
 
 >[!CAUTION]
 >
->* Con questo nuovo meccanismo, la sincronizzazione dei dati per l&#39;optout del canale, gli abbonamenti, gli annullamenti degli abbonamenti o la registrazione mobile è ora **asincrona**.
+>* Con questo nuovo meccanismo, la sincronizzazione dei dati per l&#39;optout del canale, gli abbonamenti, gli annullamenti degli abbonamenti o la registrazione mobile è ora **asincrono**.
 >
 >* Lo staging si applica solo agli schemi memorizzati nel database cloud. Non abilitare lo staging sugli schemi replicati. Non abilitare lo staging sugli schemi locali. Non abilitare la gestione temporanea su uno schema in fase
+
 >
 
 
@@ -53,11 +54,11 @@ Per implementare il meccanismo di staging di Campaign su una tabella specifica, 
    </srcSchema>
    ```
 
-   ![](../assets/do-not-localize/glass.png) Ulteriori informazioni sulla creazione di schemi personalizzati in  [questa pagina](create-schema.md).
+   ![](../assets/do-not-localize/glass.png) Ulteriori informazioni sulla creazione di schemi personalizzati in [questa pagina](create-schema.md).
 
 1. Salvare e aggiornare la struttura del database.  [Ulteriori informazioni](update-database-structure.md)
 
-1. Abilita il meccanismo di staging nella definizione dello schema aggiungendo il parametro **autoStg=&quot;true&quot;** .
+1. Abilita il meccanismo di staging nella definizione dello schema aggiungendo il **autoStg=&quot;true&quot;** parametro .
 
    ```
    <srcSchema _cs="Sample Table (dem)" "YYYY-DD-MM"

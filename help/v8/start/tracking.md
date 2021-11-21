@@ -4,7 +4,8 @@ description: Guida introduttiva alle funzionalità di monitoraggio e monitoraggi
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 76269d65246010af60fda84b388a7c74269e236f
+exl-id: f3de901f-519f-42ae-846c-f20c7cb560df
+source-git-commit: 00a88cf9217faf32070a3cd34a2c1ae5243d9a6e
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 20%
@@ -21,7 +22,7 @@ Per ulteriori informazioni, consulta la [documentazione di Campaign Classic v7]
 
 Il dashboard di consegna è uno strumento chiave per monitorare le consegne e i potenziali problemi durante l’invio dei messaggi.
 
-Per ulteriori informazioni, consulta la documentazione [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html?lang=en#sending-messages){target=&quot;_blank&quot;}.
+Per ulteriori informazioni, consulta [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html?lang=en#sending-messages){target=&quot;_blank&quot;}.
 
 Le funzionalità di tracciamento chiave disponibili in Campaign sono elencate di seguito.
 
@@ -50,7 +51,7 @@ Le funzionalità di tracciamento delle campagne ti consentono di aggiungere coll
 
 **Registri di tracciamento**
 
-Il flusso di lavoro tecnico **Tracking** recupera i dati di tracciamento una volta che la consegna è stata inviata e il tracciamento è attivato. Questi dati si trovano nella scheda Tracking della consegna.
+La **Tracking** il flusso di lavoro tecnico recupera i dati di tracciamento dopo l’invio della consegna e l’attivazione del tracciamento. Questi dati si trovano nella scheda Tracking della consegna.
 
 [Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/accessing-the-tracking-logs.html?lang=en#sending-messages){target=&quot;_blank&quot;}
 
@@ -118,16 +119,16 @@ Adobe Campaign offre una serie di funzionalità per monitorare i processi e l’
 
 Il monitoraggio delle consegne dopo l’invio è un passaggio fondamentale per garantire l’efficienza delle campagne di marketing e l’effettivo raggiungimento dei clienti.
 
-Ulteriori informazioni sulle informazioni che puoi monitorare dopo l’invio di una consegna, scopri come vengono gestiti gli errori di consegna e le quarantena nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=en#sending-messages){target=&quot;_blank&quot;}
+Ulteriori informazioni sulle informazioni che puoi monitorare dopo l’invio di una consegna, informazioni su come vengono gestiti gli errori di consegna e le quarantena in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=en#sending-messages){target=&quot;_blank&quot;}
 
 ### Monitorare i flussi di lavoro
 
-Scopri come monitorare l’esecuzione del flusso di lavoro nella documentazione [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html?lang=en#automating-with-workflows){target=&quot;_blank&quot;}
+Scopri come monitorare l’esecuzione di un flusso di lavoro in  [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html?lang=en#automating-with-workflows){target=&quot;_blank&quot;}
 
 ### Monitorare l’istanza
 
-Le linee guida per il monitoraggio delle istanze sono disponibili nella documentazione di [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/introduction/monitoring-guidelines.html?lang=en#monitoring-campaign-classic){target=&quot;_blank&quot;}
+Le linee guida per il monitoraggio delle istanze sono disponibili in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/introduction/monitoring-guidelines.html?lang=en#monitoring-campaign-classic){target=&quot;_blank&quot;}
 
 Utilizza l’interfaccia self-service di Audit trail per monitorare le modifiche apportate all’interno dell’istanza. Audit trail acquisisce in tempo reale un elenco completo delle azioni e degli eventi che si verificano all’interno dell’istanza di Adobe Campaign. Puoi accedere a una cronologia dei dati per rispondere a domande quali: cosa è successo ai flussi di lavoro e chi li ha aggiornati per ultimo o cosa hanno fatto i tuoi utenti nell’istanza.
 
-Ulteriori informazioni su Audit trail nella documentazione di [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/audit-trail.html?lang=en#accessing-audit-trail){target=&quot;_blank&quot;}
+Ulteriori informazioni su Audit trail in  [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/audit-trail.html?lang=en#accessing-audit-trail){target=&quot;_blank&quot;}

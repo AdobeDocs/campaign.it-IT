@@ -16,11 +16,11 @@ ht-degree: 10%
 
 Utilizza Adobe Campaign per creare e monitorare i tuoi servizi informativi, come le newsletter, e per gestire gli abbonamenti/i loro annullamenti. È possibile definire in parallelo diversi servizi, ad esempio: newsletter specializzate per determinate categorie di prodotti, temi o aree di un sito web, abbonamenti a vari tipi di messaggi di avviso e notifiche in tempo reale. Consulta Gestione abbonamenti .
 
-![](../assets/do-not-localize/book.png) Scopri come creare un servizio informazioni, inviare una newsletter e gestire l’opt-in e l’opt-out nella documentazione di  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Scopri come creare un servizio informazioni, inviare una newsletter e gestire l’opt-in e l’opt-out in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html){target=&quot;_blank&quot;}
 
 Per abbonarti (opt-in) a un profilo di un servizio, le opzioni disponibili sono:
 
-* Aggiungi manualmente il servizio al profilo destinatario: a questo scopo, dalla scheda **[!UICONTROL Subscriptions]** del profilo, fai clic su **[!UICONTROL Add]** e seleziona il servizio informazioni interessato.
+* Aggiungi manualmente il servizio al profilo destinatario: a tal fine, dal **[!UICONTROL Subscriptions]** scheda del profilo, fai clic su **[!UICONTROL Add]** e selezionare il servizio di informazione interessato.
 
    ![](assets/subscribe-to-a-service.png)
 
@@ -52,7 +52,7 @@ Per abbonarti (opt-in) a un profilo di un servizio, le opzioni disponibili sono:
    ![](../assets/do-not-localize/book.png) Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=en#create-a-subscription--form-with-double-opt-in){target=&quot;_blank&quot;}
 
 
-* Crea un flusso di lavoro di targeting e utilizza un’attività **[!UICONTROL Subscription service]** .
+* Creare un flusso di lavoro di targeting e utilizzare un **[!UICONTROL Subscription service]** attività.
 
    ![](assets/wf-subscription.png)
 
@@ -76,8 +76,8 @@ Per annullare l’abbonamento (opt-out) a un profilo da un servizio, le opzioni 
 
 >[!CAUTION]
 >
->Gli abbonamenti e i loro annullamenti sono **processi asincroni**. Le richieste di consenso e rinuncia vengono elaborate ogni ora. [Ulteriori informazioni](../dev/new-apis.md#sub-apis)
+>Gli abbonamenti e i loro annullamenti sono **asincrono** processi. Le richieste di consenso e rinuncia vengono elaborate ogni ora. [Ulteriori informazioni](../dev/new-apis.md#sub-apis)
 
 Puoi anche abilitare i destinatari della consegna a inoltrare i messaggi a un amico. A questo scopo, inserisci i collegamenti rilevanti nella consegna. Puoi quindi tenere traccia di questo processo di condivisione e del numero di visite alle pagine interessate.
 
-![](../assets/do-not-localize/book.png) Per ulteriori informazioni su questa funzionalità, consulta la documentazione [ di ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/viral-and-social-marketing.html?lang=en#viral-marketing--forward-to-a-friend)Campaign Classic v7{target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Per ulteriori informazioni su questa funzionalità, consulta [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/viral-and-social-marketing.html?lang=en#viral-marketing--forward-to-a-friend){target=&quot;_blank&quot;}

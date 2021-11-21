@@ -19,4 +19,4 @@ LINE è un&#39;applicazione per la messaggistica istantanea gratuita, chiamate v
 
 ![](../assets/do-not-localize/book.png) Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html?lang=it){target=&quot;_blank&quot;}.
 
-![](../assets/do-not-localize/book.png) Per creare e inviare la tua prima consegna LINE, fai riferimento a questo  [esempio ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html#example--create-and-send-a-personalized-line-message) end-to-end nella documentazione di Campaign Classic v7 .
+![](../assets/do-not-localize/book.png) Fai riferimento a questo [campione end-to-end](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html#example--create-and-send-a-personalized-line-message) nella documentazione di Campaign Classic v7 per creare e inviare la tua prima consegna LINE.

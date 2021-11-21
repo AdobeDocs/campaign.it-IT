@@ -14,21 +14,21 @@ ht-degree: 2%
 
 # Creare un catalogo di offerte
 
-In qualità di **Gestione offerte**, sei responsabile della creazione del catalogo delle offerte.
+Come **Gestione delle offerte**, l’utente è responsabile della creazione del catalogo delle offerte.
 
 Un catalogo di offerte è associato a un singolo ambiente preesistente. Le offerte in questo catalogo possono essere associate solo agli spazi specificati nello stesso ambiente.
 
-Prima di creare le offerte, è necessario specificare un [ambiente](interaction-env.md) che contiene tutte le caratteristiche (idoneità, vincoli per la destinazione, regole di presentazione) di un set di offerte, ordinate in categorie e l’elenco dei relativi spazi.
+Prima di creare le offerte, devi innanzitutto specificare un [ambiente](interaction-env.md) che contiene tutte le caratteristiche (idoneità, vincoli sul target, regole di presentazione) di un insieme di offerte, suddivise in categorie, nonché l’elenco dei relativi spazi.
 
 ## Creare categorie di offerta{#creating-offer-categories}
 
-L’offerta è organizzata in categorie/sottocategorie. Le categorie vengono create nell’ambiente **[!UICONTROL Design]** e distribuite automaticamente nell’ambiente **[!UICONTROL Live]** (ovvero rese disponibili) quando le offerte in esse contenute vengono approvate. L’ambiente **[!UICONTROL Design]** contiene una categoria predefinita per la ricezione di tutte le offerte. È possibile creare sottocategorie per aggiungere una gerarchia alle offerte del catalogo.
+L’offerta è organizzata in categorie/sottocategorie. Le categorie vengono create nel **[!UICONTROL Design]** e implementato automaticamente in **[!UICONTROL Live]** ambiente (cioè reso disponibile) quando le offerte che contengono sono approvate. La **[!UICONTROL Design]** l’ambiente contiene una categoria predefinita per la ricezione di tutte le offerte. È possibile creare sottocategorie per aggiungere una gerarchia alle offerte del catalogo.
 
-Per ogni categoria, puoi definire **date di idoneità**, che è il periodo durante il quale le offerte contenute nella categoria possono essere presentate al relativo target. Puoi anche regolare il peso di una categoria per assegnare una priorità alla presentazione dell’offerta.
+Per ogni categoria, puoi definire **date di ammissibilità**, ossia il periodo durante il quale le offerte contenute nella categoria possono essere presentate al loro target. Puoi anche regolare il peso di una categoria per assegnare una priorità alla presentazione dell’offerta.
 
 Per creare una nuova categoria, segui i passaggi seguenti:
 
-1. Browser nella cartella **[!UICONTROL Offer catalog]**.
+1. Browser to the **[!UICONTROL Offer catalog]** cartella.
 
    ![](assets/offer_cat_create_001.png)
 
@@ -36,7 +36,7 @@ Per creare una nuova categoria, segui i passaggi seguenti:
 
    ![](assets/offer_cat_create_002.png)
 
-1. Rinomina la categoria. Puoi modificare l’etichetta in un secondo momento utilizzando la scheda **[!UICONTROL General]** .
+1. Rinomina la categoria. Puoi modificare l’etichetta in un secondo momento utilizzando la **[!UICONTROL General]** scheda .
 
    ![](assets/offer_cat_create_003.png)
 
@@ -46,13 +46,13 @@ Per creare una nuova categoria, segui i passaggi seguenti:
 
    Quindi, in base alle esigenze, puoi:
 
-   * Assegna le date di idoneità dalla scheda **[!UICONTROL Eligibility]** .
+   * Assegnare le date di idoneità dal **[!UICONTROL Eligibility]** scheda .
 
       ![](assets/offer_cat_create_004.png)
 
    * **[!UICONTROL Edit query]** per applicare filtri al target dell’offerta.
 
-   * Un riepilogo delle regole di idoneità.Per visualizzarle, fare clic sul collegamento **[!UICONTROL Schedule and eligibility rules of the offer]**.
+   * Un riepilogo delle regole di idoneità.Per visualizzarle, fare clic sul pulsante **[!UICONTROL Schedule and eligibility rules of the offer]** link.
 
 ## Aggiungi una categoria di fallback
 
@@ -65,7 +65,7 @@ Inoltre, non deve essere applicata alcuna regola di presentazione a queste offer
 Per includere una categoria di fallback nei consigli, segui i passaggi seguenti:
 
 1. Sfoglia il catalogo delle offerte.
-1. Fare clic sulla scheda **[!UICONTROL Eligibility]** e selezionare l&#39;opzione **[!UICONTROL Always include this category in the recommendations]**.
+1. Fai clic sul pulsante **[!UICONTROL Eligibility]** e seleziona la **[!UICONTROL Always include this category in the recommendations]** opzione .
 1. Fai clic su **[!UICONTROL Save]**.
 
    ![](assets/offer_cat_default_001.png)
