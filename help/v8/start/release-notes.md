@@ -6,16 +6,30 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471,a9d18e75-18e7-491e-bfc4-671c3600396e
-source-git-commit: 4ce21dda9516a881cce39c94454d5ac7b43142a9
+source-git-commit: acb3b60c8b390bf91acdfd568a57899594659c7e
 workflow-type: tm+mt
-source-wordcount: '1574'
-ht-degree: 100%
+source-wordcount: '1717'
+ht-degree: 92%
 
 ---
 
 # Ultima versione{#latest-release}
 
 In questa pagina sono elencate nuove funzionalità, miglioramenti e correzioni introdotti con l’**ultima versione di Campaign v8**.
+
+## Versione 8.2.10 {#release-8-2-10}
+
+_2 febbraio 2021_
+
+**Patch**
+
+* È stato risolto un problema che causava un errore nella preparazione della consegna se veniva raggiunto il numero massimo di messaggi definiti nella regola di tipologia. (NEO-40062)
+* È stato risolto un problema durante la configurazione del connettore Adobe Analytics quando l’indirizzo e-mail conteneva un carattere &quot;s&quot;. (NEO-39082)
+* È stato risolto un problema durante il post aggiornamento, che poteva causare la perdita di dati della tabella deliveryMapping da una mappatura di consegna personalizzata. (NEO-40133)
+* È stato risolto un problema che poteva portare i destinatari a ricevere lo stesso messaggio più volte per la stessa consegna quando l’indirizzo e-mail conteneva un singolo carattere di offerta (&#39;). Questo carattere è ora evitato. (NEO-41198)
+* È stato risolto un problema di generazione ID che si verificava durante l’invio di bozze con semi o indirizzi di sostituzione. (NEO-42670)
+* È stato risolto un problema che poteva impedire l’invio di bozze utilizzando il metodo di sostituzione dell’indirizzo . (NEO-40417)
+* È stato risolto un problema che impediva l’installazione del pacchetto LINE. (NEO-42503)
 
 ## Versione 8.2.8 {#release-8-2-8}
 
