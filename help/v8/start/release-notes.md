@@ -9,7 +9,7 @@ exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471,a9d18e75-18e7-491e-bfc4-671c3600396
 source-git-commit: b7db9597aa6b4ca4fb2e1e13f8b7b718f4840031
 workflow-type: tm+mt
 source-wordcount: '1714'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +24,11 @@ _2 febbraio 2022_
 **Patch**
 
 * È stato risolto un problema che causava un errore nella preparazione della consegna se veniva raggiunto il numero massimo di messaggi, definito nella regola di tipologia.
-* È stato risolto un problema durante la configurazione del connettore Adobe Analytics quando l’indirizzo e-mail conteneva un carattere &quot;s&quot;.
-* È stato risolto un problema durante il post aggiornamento che poteva causare la perdita di dati della tabella deliveryMapping da una mappatura di consegna personalizzata.
-* È stato risolto un problema che poteva portare i destinatari a ricevere lo stesso messaggio più volte per la stessa consegna quando l’indirizzo e-mail conteneva un singolo carattere di offerta (&#39;). Questo carattere è ora evitato. (NEO-41198)
-* È stato risolto un problema di generazione ID che si verificava durante l’invio di bozze con semi o indirizzi di sostituzione. (NEO-42637)
-* È stato risolto un problema che poteva impedire l’invio di bozze utilizzando il metodo di sostituzione dell’indirizzo . (NEO-40417)
+* È stato risolto un problema che si verificava durante la configurazione del connettore Adobe Analytics se l’indirizzo e-mail conteneva un carattere “s”.
+* È stato risolto un problema che si verificava durante il post aggiornamento e poteva causare la perdita di dati della tabella deliveryMapping da una mappatura di consegna personalizzata.
+* È stato risolto un problema a causa del quale i destinatari potevano ricevere lo stesso messaggio più volte per la stessa consegna se l’indirizzo e-mail conteneva una virgoletta singola (&#39;). Questo carattere ora viene preceduto da un carattere di escape. (NEO-41198)
+* È stato risolto un problema di generazione ID che si verificava durante l’invio di bozze con indirizzi seed o sostitutivi. (NEO-42637)
+* È stato risolto un problema che poteva impedire l’invio di bozze utilizzando il metodo di sostituzione dell’indirizzo. (NEO-40417)
 * È stato risolto un problema che impediva l’installazione del pacchetto LINE. (NEO-42503)
 
 ## Versione 8.2.8 {#release-8-2-8}
