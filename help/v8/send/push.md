@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: 6fc085d59c75399b08be44cc1647083677ed337e
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 4%
+source-wordcount: '679'
+ht-degree: 3%
 
 ---
 
@@ -35,11 +35,14 @@ Le versioni SDK compatibili sono elencate in [Matrice di compatibilità di Campa
 
 ![](../assets/do-not-localize/glass.png) Scopri come integrare gli SDK di Campaign Android e iOS con la tua app in [questa sezione](../config/push-config.md)
 
-### Configurare l’estensione Campaign in Launch
+<!--
+### Configure Campaign Extension in Launch
 
-Puoi integrare l’SDK di Adobe Experience Platform Launch con Campaign, sfruttando l’estensione Campaign Classic.
+You can integrate Adobe Experience Platorm Launch SDK with Campaign, by leveraging Campaign Classic extension.
 
-![](../assets/do-not-localize/book.png) Ulteriori informazioni in [Documentazione Adobe Mobile SDK](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Learn more in [Adobe Mobile SDK documentation](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic){target="_blank"}
+
+-->
 
 ## Configurare le impostazioni dell’app in Campaign
 
