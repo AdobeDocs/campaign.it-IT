@@ -5,8 +5,8 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 hidefromtoc: false
-exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471,a9d18e75-18e7-491e-bfc4-671c3600396e
-source-git-commit: b7db9597aa6b4ca4fb2e1e13f8b7b718f4840031
+exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
+source-git-commit: 9283f1e857706455c169eb1da93cd0d04df80da0
 workflow-type: tm+mt
 source-wordcount: '1714'
 ht-degree: 100%
@@ -45,7 +45,7 @@ _28 ottobre 2021_
 <tr>
 <td>
 <p>Real-time Interaction Management è ora disponibile per i canali in entrata. Utilizza il modulo di interazione in entrata di Campaign per presentare l’offerta migliore ai clienti quando visitano il sito web o contattano il call center. Questa funzionalità include Campaign v8 come opzione e richiede una configurazione specifica sull’istanza. Per avere accesso al modulo di interazione in entrata, rivolgiti al tuo rappresentante Adobe.</p>
-<p>Per ulteriori informazioni, consulta la <a href="../send/interaction-architecture.md">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../interaction/interaction-architecture.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
