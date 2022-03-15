@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: d21dc1adc46121e5c015deed7ddb84ec6a4ec76f
+source-git-commit: 8417b1b4b7370e2a2eed76e9f1ac395eccf0ac66
 workflow-type: tm+mt
 source-wordcount: '1680'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -92,7 +92,7 @@ Per utilizzare **[!UICONTROL Change Data Source]** attività:
 
 Dopo aver creato il flusso di lavoro, puoi accedere alle opzioni aggiuntive con la **[!UICONTROL Properties]** per ulteriori configurazioni.
 
-![](../assets/do-not-localize/book.png) Ulteriori informazioni **Proprietà del flusso di lavoro** in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=en){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Ulteriori informazioni **Proprietà del flusso di lavoro** in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=it){target=&quot;_blank&quot;}
 
 Da **[!UICONTROL Execution]** scheda del flusso di lavoro **[!UICONTROL Properties]**, puoi scegliere di collegare il flusso di lavoro a diversi magazzini e ottimizzare la gestione del carico di lavoro. Per ulteriori informazioni su **Magazzini**, fare riferimento alla [Documentazione del Snowflake](https://docs.snowflake.com/en/user-guide/warehouses-overview.html).
 
@@ -175,7 +175,7 @@ In questa sezione troverai vari casi d’uso che sfruttano le funzionalità dei 
 
    Scopri come inviare un avviso a un operatore che conterrà il nome dei profili che hanno aperto una newsletter ma non hanno fatto clic sul collegamento in essa contenuto.
 
-### Gestione dati {#management}
+### Gestione dei dati {#management}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
