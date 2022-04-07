@@ -5,10 +5,10 @@ feature: Audiences
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: c3beb735f54606537bcc977f2f0539767d15b2d9
 workflow-type: tm+mt
 source-wordcount: '684'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ Prima di iniziare, è necessario:
 * Ottieni l’URL del server Campaign
 * Crea il tuo Adobe ID o ottieni le tue credenziali utente dalla tua azienda
 
-## Scaricare e installare la console client
+## Scaricare e installare la console client{#download-ac-console}
 
 Quando utilizzi Campaign per la prima volta o se hai bisogno di eseguire l’aggiornamento a una versione più recente, devi scaricare la console Client e installarla.
 
@@ -36,7 +36,7 @@ Sono disponibili due opzioni:
 >
 >L’Adobe consiglia di lasciare l’opzione **[!UICONTROL No longer ask this question]** deselezionata per fare in modo che tutti gli utenti ricevano avvisi quando è disponibile una nuova versione della console.  Se questa opzione è selezionata, l’utente non verrà informato delle nuove versioni disponibili.
 
-## Creare la connessione
+## Creare la connessione{#create-your-connection}
 
 Una volta che la Console client è stata appena installata, segui i passaggi seguenti per creare la connessione al server applicazioni:
 
@@ -60,7 +60,7 @@ Puoi aggiungere tutte le connessioni necessarie per connettersi, ad esempio, agl
 >
 >La **[!UICONTROL Add]** pulsante consente di creare **[!UICONTROL folders]** per organizzare tutte le connessioni. Trascina e rilascia ciascuna connessione in una cartella.
 
-## Accedere ad Adobe Campaign
+## Accedere ad Adobe Campaign {#logon-to-ac}
 
 Per accedere a un&#39;istanza esistente, segui i passaggi seguenti:
 
@@ -78,7 +78,7 @@ Per accedere a un&#39;istanza esistente, segui i passaggi seguenti:
 
    ![](assets/adobeID.png)
 
-## Concedere l’accesso agli utenti
+## Concedere l’accesso agli utenti{#grant-access}
 
 Adobe Campaign ti consente di definire e gestire i diritti assegnati ai vari operatori. Si tratta di una serie di diritti e restrizioni che autorizzano o negano:
 

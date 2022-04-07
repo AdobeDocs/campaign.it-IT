@@ -1,60 +1,36 @@
 ---
-title: Introduzione ai tipi di pubblico
-description: Introduzione ai tipi di pubblico
+title: Utilizzare i tipi di pubblico in Campaign
+description: Utilizzare i tipi di pubblico in Campaign
 feature: Audiences
 role: Data Engineer
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: 889400a238f32968464f1425bb7d6c2dc3ff3cd0
+source-git-commit: b5fb8825734bce2ec62485208b468757b461005f
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 23%
+source-wordcount: '509'
+ht-degree: 19%
 
 ---
 
-# Introduzione ai tipi di pubblico{#gs-ac-audiences}
+# Utilizzare i tipi di pubblico in Campaign{#gs-ac-audiences}
 
-## Utilizzare i profili{#gs-ac-profiles}
-
-I profili sono contatti memorizzati nel database di Campaign, inclusi clienti, abbonati e potenziali clienti. Esistono molti possibili meccanismi per l’acquisizione di profili e la creazione di questo database: raccolta on-line tramite moduli web, importazione manuale o automatica di file di testo, replica con database aziendali o altri sistemi di informazioni. Con Adobe Campaign, puoi incorporare la cronologia di marketing, le informazioni di acquisto, le preferenze, i dati CRM ed eventuali dati PI rilevanti in una vista consolidata per analizzare e intraprendere azioni. I profili contengono tutte le informazioni necessarie per il targeting, la qualifica e il tracciamento dei singoli utenti.
-
-Un profilo è un record nel **nmsRecipient** tabella o tabella esterna che memorizza tutti gli attributi del profilo, ad esempio nome, cognome, indirizzo e-mail, un ID cookie, ID cliente, identificatore mobile o altre informazioni pertinenti a un particolare canale. Altre tabelle collegate alla tabella dei destinatari contengono dati relativi al profilo, ad esempio la tabella dei registri di consegna che contiene i record di tutte le consegne inviate ai destinatari. Ulteriori informazioni sui profili incorporati e sulle tabelle dei destinatari in [questa sezione](../dev/datamodel.md#ootb-profiles).
+I profili sono contatti memorizzati nel database Campaign.
 
 In Adobe Campaign, **destinatari** sono i profili predefiniti target per l’invio di consegne (e-mail, SMS, ecc.). I dati dei destinatari memorizzati nel database ti consentono di filtrare il target che riceverà una determinata consegna e di aggiungere dati di personalizzazione nel contenuto della consegna. Nel database sono presenti altri tipi di profili. Essi sono progettati per diversi utilizzi. Ad esempio, i profili di seed vengono creati per testare le consegne prima che vengano inviate al target finale.
 
-I profili possono essere raggruppati in elenchi o raccolti eseguendo una query sul database.
+Scopri come importare, aggiornare e gestire profili e pubblico [in questa sezione](../audiences/gs-audiences.md).
 
-Per compilare Campaign con i dati di profilo, puoi:
+## Creare elenchi{#create-lists}
 
-* [importare file di dati](import.md) da un’origine dati esterna, ad esempio un sistema CRM
-* [creare moduli web](../dev/webapps.md) per consentire ai clienti di inserire le proprie informazioni e creare il proprio profilo
-* [mappatura su un database esterno](../connect/fda.md) in cui sono memorizzati i profili
-* immetti i profili manualmente utilizzando la console Client , come segue:
+Un elenco è un set statico di contatti che possono essere targetizzati nelle azioni di consegna o aggiornati durante un’importazione o un’altra azione del flusso di lavoro. Ad esempio, una popolazione estratta dal database tramite una query può essere memorizzata come elenco.
 
-![](assets/create-profile.png)
+![](../assets/do-not-localize/glass.png) Scopri come creare e gestire gli elenchi in [questa pagina](../audiences/create-audiences.md).
 
-![](../assets/do-not-localize/book.png) Scopri come gestire i profili in [Documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html){target=&quot;_blank&quot;}.
+## Filtrare il database{#filter-the-database}
 
+La configurazione del filtro consente di selezionare i dati da un elenco **[!UICONTROL dynamically]**: quando i dati vengono modificati, i dati filtrati vengono aggiornati. Puoi creare filtri personalizzati o utilizzare i filtri incorporati per definire un pubblico di destinazione.
 
-## Privacy e consenso
-
-Adobe Campaign è un potente strumento per la raccolta e l’elaborazione di un grande volume di dati, inclusi dati personali e sensibili.  Adobe Campaign ti consente di raccogliere dati, incluse informazioni personali e riservate. È pertanto essenziale ricevere e monitorare il consenso dei destinatari.
-
-![](../assets/do-not-localize/book.png) Scopri come gestire la privacy e il consenso in [Documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html){target=&quot;_blank&quot;}.
-
-## Creare elenchi
-
-Un elenco è un set statico di profili che possono essere oggetto di targeting nelle azioni di consegna o aggiornati durante le operazioni di importazione o l’esecuzione di un flusso di lavoro. Ad esempio, una popolazione estratta dal database tramite una query può fornire un elenco.
-
-![](../assets/do-not-localize/book.png) Scopri come creare e gestire gli elenchi in [Documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/creating-and-managing-lists.html){target=&quot;_blank&quot;}.
-
-## Eseguire una query sul database
-
-Utilizza la **Query** attività in un flusso di lavoro per eseguire query sul database, segmentare i dati e creare tipi di pubblico complessi.
-
-![](../assets/do-not-localize/book.png) Ulteriori informazioni sulle query di Campaign in [Documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/targeting-data.html){target=&quot;_blank&quot;}.
-
-![](../assets/do-not-localize/book.png) Tutte le attività di targeting sono elencate in [Documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html){target=&quot;_blank&quot;}.
+![](../assets/do-not-localize/glass.png) Scopri come creare e gestire i filtri in [questa pagina](../audiences/create-filters.md).
 
 ## Creare un pubblico in un flusso di lavoro
 
@@ -74,6 +50,13 @@ You can monitor the number of active profiles used on your instances directly fr
 
 ![](../assets/do-not-localize/book.png) For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
 -->
+
+
+## Privacy e consenso
+
+Adobe Campaign è un potente strumento per la raccolta e l’elaborazione di un grande volume di dati, inclusi dati personali e sensibili.  Adobe Campaign ti consente di raccogliere dati, incluse informazioni personali e riservate. È pertanto essenziale ricevere e monitorare il consenso dei destinatari.
+
+![](../assets/do-not-localize/book.png) Scopri come gestire la privacy e il consenso in [Documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=it){target=&quot;_blank&quot;}.
 
 
 **Argomenti correlati** nella documentazione di Campaign Classic v7:

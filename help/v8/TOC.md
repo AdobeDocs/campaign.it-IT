@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Documentazione di Campaign v8
 breadcrumb-title: Campaign v8
 title: Documenti di Campaign v8
-source-git-commit: a6182d37e6b839c8b67c25364b4c35aa7fdde7dc
+source-git-commit: c3beb735f54606537bcc977f2f0539767d15b2d9
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 98%
+source-wordcount: '307'
+ht-degree: 81%
 
 ---
 
@@ -22,7 +22,11 @@ ht-degree: 98%
    + [Da Classic v7 a v8](start/capability-matrix.md)
 + Inizio {#start}
    + [Introduzione](start/get-started.md)
-   + [Profili e tipi di pubblico](start/audiences.md)
+   + [Componenti e processi](start/ac-components.md)
+   + Interfaccia utente di Campaign {#ac-ui}
+      + [Scopri l’interfaccia di Campaign](start/campaign-ui.md)
+      + [Personalizzare l’interfaccia di Campaign](start/customize-ui.md)
+   + [Utilizzare i tipi di pubblico](start/audiences.md)
    + [Importare dati](start/import.md)
    + [Creare campagne](start/campaigns.md)
    + [Inviare messaggi](start/create-message.md)
@@ -41,7 +45,20 @@ ht-degree: 98%
    + [Connessione a Campaign](start/connect.md)
    + [Autorizzazioni](start/permissions.md)
    + [Pannello di controllo Campaign](config/self-service.md)
-+ Inviare {#send}
++ Profili e tipi di pubblico {#profiles-and-audiences}
+   + [Introduzione](audiences/gs-audiences.md)
+   + [Accedere ai profili](audiences/view-profiles.md)
+   + Aggiungere profili {#add-profiles}
+      + [Creare profili manualmente](audiences/create-profiles.md)
+      + [Importare profili da un file](audiences/import-profiles.md)
+      + [Utilizzare i profili esterni](audiences/external-profiles.md)
+      + [Raccogliere dati di profilo nei moduli web](audiences/collect-profiles.md)
+   + Creare tipi di pubblico {#create-audiences}
+      + [Crea un elenco di contatti](audiences/create-audiences.md)
+      + [Creare e gestire i filtri](audiences/create-filters.md)
+   + [Gestione di cartelle e visualizzazioni](audiences/folders-and-views.md)
+   + [Best practice](audiences/audiences-best-practices.md)
++ Inviare messaggi{#send}
    + [E-mail](send/email.md)
    + [SMS](send/sms.md)
    + [Notifiche push](send/push.md)
@@ -49,6 +66,9 @@ ht-degree: 98%
    + [Direct mail](send/direct-mail.md)
    + [Social marketing](send/twitter.md)
    + [Messaggi transazionali](send/transactional.md)
+   + Errori, mancati recapiti e quarantena{#failures}
+      + [Quarantena](send/quarantines.md)
+      + [Errori di consegna](send/delivery-failures.md)
 + Interazione in tempo reale{#interaction}
    + [Introduzione all’interazione in tempo reale](interaction/interaction.md)
    + [Ambienti e architettura](interaction/interaction-architecture.md)
@@ -104,3 +124,4 @@ ht-degree: 98%
       + [Introduzione](dev/api.md)
       + [Nuove API](dev/new-apis.md)
       + [Meccanismo di staging API](dev/staging.md)
++ [Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it)

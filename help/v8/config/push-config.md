@@ -102,7 +102,7 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione di Google
    }
    ```
 
-   La `IntegrationKey` deve corrispondere al valore &#39;IntegrationKey&#39; impostato nell&#39;applicazione mobile Adobe Campaign collegata a questa applicazione Android.
+   La `IntegrationKey` deve corrispondere al valore &#39;IntegrationKey&#39; impostato nell&#39;applicazione Adobe Campaign Mobile collegata a questa applicazione Android.
 
 1. **Registra il dispositivo mobile nel server Adobe Campaign**
 

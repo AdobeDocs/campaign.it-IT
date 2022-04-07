@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 9283f1e857706455c169eb1da93cd0d04df80da0
+source-git-commit: 2d0b40e49afdfd71e8bb5c3f0b1d569a715420b2
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 100%
+source-wordcount: '920'
+ht-degree: 98%
 
 ---
 
@@ -95,7 +95,6 @@ Tieni presente che alcune funzionalità non sono ancora disponibili in questa ve
 * Marketing distribuito
 * Gestione della risposta
 * Modelli di distribuzione on-premise/ibrida
-* Canale Twitter
 
 >[!CAUTION]
 >

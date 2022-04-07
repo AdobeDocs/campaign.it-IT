@@ -3,10 +3,10 @@ title: Messaggi su Twitter con Adobe Campaign
 description: Scopri come utilizzare il modulo Adobe Campaign Social Marketing per inviare messaggi su Twitter e raccogliere i dati di contatto
 role: Data Engineer
 level: Beginner
-hidefromtoc: true
 hide: true
+hidefromtoc: true
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
-source-git-commit: da6e585a789749ae0302f048940d104a36e2b477
+source-git-commit: 0f15112f0eec1d7cba26523adc1e88fc5d26997c
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 8%
@@ -22,7 +22,6 @@ Una volta configurata l’integrazione, puoi:
 
 * Invia messaggi su Twitter: Adobe Campaign ti consente di inviare messaggi direttamente al tuo account twitter. Puoi anche inviare messaggi diretti a tutti i tuoi follower.
 * Raccogli nuovi contatti: Adobe Campaign può ripristinare automaticamente i dati del profilo, consentendo di eseguire campagne di targeting e, quando possibile, di implementare strategie cross-channel. Questa azione richiede il consenso dell’utente.
-
 
 I passaggi di configurazione per integrare l’account Twitter con Adobe Campaign sono descritti in [questa pagina](../connect/ac-tw.md).
 

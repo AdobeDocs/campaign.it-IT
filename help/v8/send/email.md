@@ -1,6 +1,6 @@
 ---
 title: Inviare e-mail con Adobe Campaign
-description: Guida introduttiva alle e-mail in Campaign
+description: Introduzione alle e-mail in Campaign
 feature: Overview
 role: Data Engineer
 level: Beginner
@@ -8,7 +8,7 @@ exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
 source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 

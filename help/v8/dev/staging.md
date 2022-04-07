@@ -31,7 +31,6 @@ Le API di Campaign Classic v7 sono ancora disponibili ma non possono beneficiare
 >* Con questo nuovo meccanismo, la sincronizzazione dei dati per l&#39;optout del canale, gli abbonamenti, gli annullamenti degli abbonamenti o la registrazione mobile è ora **asincrono**.
 >
 >* Lo staging si applica solo agli schemi memorizzati nel database cloud. Non abilitare lo staging sugli schemi replicati. Non abilitare lo staging sugli schemi locali. Non abilitare la gestione temporanea su uno schema in fase
-
 >
 
 

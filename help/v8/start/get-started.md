@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
-source-git-commit: 889400a238f32968464f1425bb7d6c2dc3ff3cd0
+source-git-commit: c3beb735f54606537bcc977f2f0539767d15b2d9
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 100%
+source-wordcount: '853'
+ht-degree: 83%
 
 ---
 
@@ -26,7 +26,7 @@ Utilizza Campaign per:
 
 ## Integrated Customer Profile {#integrated-customer-profile}
 
-I profili sono centralizzati in un potente database cloud. Esistono molti possibili meccanismi per l’acquisizione di profili e la creazione di questo database: raccolta on-line tramite moduli web, importazione manuale o automatica di file di testo, replica con database aziendali o altri sistemi di informazioni. Con Adobe Campaign, puoi incorporare la cronologia di marketing, le informazioni di acquisto, le preferenze, i dati di gestione delle relazioni con i clienti ed eventuali dati PII rilevanti in una vista consolidata per analizzare e intraprendere azioni.
+I profili sono centralizzati in un potente database cloud. Esistono molti possibili meccanismi per l’acquisizione dei profili e la creazione di questo database: raccolta on-line tramite moduli web, importazione manuale o automatica di file di testo, replica con database aziendali o altri sistemi informativi. Con Adobe Campaign, puoi incorporare la cronologia di marketing, le informazioni di acquisto, le preferenze, i dati di gestione delle relazioni con i clienti ed eventuali dati PII rilevanti in una vista consolidata per analizzare e intraprendere azioni.
 
 In Adobe Campaign, i destinatari sono i profili predefiniti oggetto di targeting per l’invio di consegne (e-mail, SMS, ecc.). Grazie ai dati sui destinatari archiviati nel database, potrai filtrare il target che riceverà una determinata consegna e aggiungere dati di personalizzazione nei contenuti della consegna. Nel database sono presenti altri tipi di profili. Essi sono progettati per diversi utilizzi. Ad esempio, i profili di seed vengono creati per testare le consegne prima che vengano inviate al target finale.
 
@@ -67,6 +67,11 @@ I flussi di lavoro possono essere utilizzati in contesti diversi, ad esempio:
 
  Adobe Campaign ti consente di monitorare e interpretare il comportamento dei clienti arricchendo gradualmente i loro dati e profili. Gli strumenti di reporting e di analisi ti consentono di sfruttare al meglio ogni nuova campagna, di eseguire meglio il targeting delle iniziative di marketing e di ottimizzarne l’impatto e il ritorno sull’investimento.
 
+Oltre a potenti modelli di reporting predefiniti, Adobe Campaign consente di creare rapporti personalizzati a livello di consegna, campagna, utente o segmento. Effettua analisi descrittive, riepiloga il ROI o esporta dati in Adobe Analytics e altre soluzioni per ulteriore visualizzazione e analisi dei dati.
+
+La funzione di reporting della campagna facilita la creazione di report dinamici. Puoi utilizzare le variabili drag-and-drop per personalizzare i rapporti e analizzare il successo delle campagne. A seconda della complessità delle query e dei calcoli, i dati possono essere aggregati in una vista a elenco o vi si accede in un formato che semplifica la generazione di rapporti di analisi di marketing.
+
+
 ![](../assets/do-not-localize/glass.png) Scopri le funzionalità di reporting e tracciamento in [questa sezione](reporting.md).
 
 ## Integrazioni con Adobe Experience Cloud {#adobe-experience-cloud-integrations}
@@ -81,45 +86,9 @@ Adobe Campaign offre una serie di funzionalità per aiutarti a implementare e ot
 
 ![](../assets/do-not-localize/glass.png) Hai già familiarità con Campaign Classic? Scopri le differenze principali tra Campaign Classic e Campaign v8 in [questa pagina](capability-matrix.md).
 
-## Area di lavoro e personalizzazione
-
-L’area di lavoro di Campaign è disponibile tramite [Client Console](../dev/general-architecture.md).
-
-![](assets/home-page.png)
-
-![](../assets/do-not-localize/glass.png) [Ulteriori informazioni su Campaign Client Console](../start/connect.md).
-
-L’area di lavoro di Campaign può essere adattata in base alle tue esigenze.
-
-![](../assets/do-not-localize/book.png) Scopri come utilizzare l’area di lavoro di Campaign nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=it){target=&quot;_blank&quot;}
-
-![](../assets/do-not-localize/book.png) Scopri come personalizzare gli elenchi nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=it){target=&quot;_blank&quot;}.
-
-Puoi anche accedere ad alcune funzionalità via web.
-
-![](../assets/do-not-localize/glass.png) [Scopri come accedere a Campaign dal web](../start/connect.md#web-access).
-
-
-## Lingue
-
-L’interfaccia utente di Campaign v8 è disponibile nelle seguenti lingue:
-
-* Inglese (Regno Unito)
-* Inglese (Stati Uniti)
-* Francese
-* Tedesco
-* Giapponese
-
-La lingua viene selezionata durante il processo di installazione.
-
->[!CAUTION]
->
->Una volta creata l’istanza, non è possibile cambiare la lingua.
-
-I formati di date e ore dipendono dalla lingua. Per ulteriori informazioni, consulta la [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=it#date-and-time){target=&quot;_blank&quot;}.
-
 **Vedi anche**
 
+* [Area di lavoro di Campaign](campaign-ui.md)
 * [Matrice di compatibilità per Campaign v8](compatibility-matrix.md)
 * [Connessione a Campaign](connect.md)
 * [Domande frequenti](campaign-faq.md)

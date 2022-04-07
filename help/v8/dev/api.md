@@ -43,7 +43,7 @@ Per utilizzare le API e interagire con [!DNL Adobe Campaign], devi anche avere f
 >[!NOTE]
 >Puoi generare una descrizione completa del modello dati. Per ulteriori informazioni, consulta [questa pagina](datamodel.md).
 
-## [!DNL Campaign] Meccanismo di staging API
+## [!DNL Campaign] Meccanismo di staging per le API
 
 Con [!DNL Campaign] Database cloud, le chiamate unitarie di esplosione non sono raccomandate a causa delle prestazioni (latenza e concorrenza). L&#39;operazione batch è sempre preferita. Per garantire prestazioni ottimali delle API, Campaign continua a gestire le chiamate API a livello di database locale.
 
