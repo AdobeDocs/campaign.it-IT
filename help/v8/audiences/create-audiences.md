@@ -8,7 +8,7 @@ exl-id: 6fbe5616-7b8b-4504-988b-2bbbfd062548
 source-git-commit: 67d08660431f02d2a18f39b3270cc7c7b62ed40e
 workflow-type: tm+mt
 source-wordcount: '795'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,7 @@ Guarda questo video per ulteriori informazioni sulla gestione degli elenchi in A
 >[!VIDEO](https://video.tv.adobe.com/v/334909?quality=12)
 
 
-## Crea un elenco di contatti {#create-a-list-of-contacts}
+## Creare un elenco di contatti {#create-a-list-of-contacts}
 
 Per creare un elenco di contatti, segui i passaggi seguenti:
 

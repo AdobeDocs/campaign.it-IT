@@ -8,11 +8,11 @@ exl-id: 762dcacc-4aeb-4990-af01-7f793bd69170
 source-git-commit: 67d08660431f02d2a18f39b3270cc7c7b62ed40e
 workflow-type: tm+mt
 source-wordcount: '873'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Gestione di cartelle e visualizzazioni {#folders-and-views}
+# Gestire le cartelle e le visualizzazioni {#folders-and-views}
 
 Le cartelle di Campaign sono nodi nella struttura di explorer. In base al loro tipo, contengono determinati tipi di dati.
 

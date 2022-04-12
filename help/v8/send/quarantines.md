@@ -12,7 +12,7 @@ ht-degree: 5%
 
 ---
 
-# Quarantena {#quarantine-management}
+# Quarantene {#quarantine-management}
 
 Adobe Campaign gestisce un elenco di indirizzi messi in quarantena per i canali online (e-mail, SMS, notifiche push). Alcuni provider di accesso a Internet considerano automaticamente le e-mail come spam se il tasso di indirizzi non validi è troppo alto. La quarantena ti consente quindi di evitare di essere aggiunta al elenco Bloccati da questi provider. Inoltre, le quarantene contribuiscono a ridurre i costi di invio degli SMS escludendo numeri di telefono errati dalle consegne.
 

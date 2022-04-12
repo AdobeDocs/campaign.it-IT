@@ -8,7 +8,7 @@ exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63
 source-git-commit: c3beb735f54606537bcc977f2f0539767d15b2d9
 workflow-type: tm+mt
 source-wordcount: '853'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Utilizza Campaign per:
 
 ## Integrated Customer Profile {#integrated-customer-profile}
 
-I profili sono centralizzati in un potente database cloud. Esistono molti possibili meccanismi per l’acquisizione dei profili e la creazione di questo database: raccolta on-line tramite moduli web, importazione manuale o automatica di file di testo, replica con database aziendali o altri sistemi informativi. Con Adobe Campaign, puoi incorporare la cronologia di marketing, le informazioni di acquisto, le preferenze, i dati di gestione delle relazioni con i clienti ed eventuali dati PII rilevanti in una vista consolidata per analizzare e intraprendere azioni.
+I profili sono centralizzati in un potente database cloud. Esistono molti possibili meccanismi per l’acquisizione di profili e la creazione di questo database: raccolta online tramite moduli web, importazione manuale o automatica di file di testo, replica con database aziendali o altri sistemi di informazioni. Con Adobe Campaign, puoi incorporare la cronologia di marketing, le informazioni di acquisto, le preferenze, i dati di gestione delle relazioni con i clienti ed eventuali dati PII rilevanti in una vista consolidata per analizzare e intraprendere azioni.
 
 In Adobe Campaign, i destinatari sono i profili predefiniti oggetto di targeting per l’invio di consegne (e-mail, SMS, ecc.). Grazie ai dati sui destinatari archiviati nel database, potrai filtrare il target che riceverà una determinata consegna e aggiungere dati di personalizzazione nei contenuti della consegna. Nel database sono presenti altri tipi di profili. Essi sono progettati per diversi utilizzi. Ad esempio, i profili di seed vengono creati per testare le consegne prima che vengano inviate al target finale.
 
@@ -67,9 +67,9 @@ I flussi di lavoro possono essere utilizzati in contesti diversi, ad esempio:
 
  Adobe Campaign ti consente di monitorare e interpretare il comportamento dei clienti arricchendo gradualmente i loro dati e profili. Gli strumenti di reporting e di analisi ti consentono di sfruttare al meglio ogni nuova campagna, di eseguire meglio il targeting delle iniziative di marketing e di ottimizzarne l’impatto e il ritorno sull’investimento.
 
-Oltre a potenti modelli di reporting predefiniti, Adobe Campaign consente di creare rapporti personalizzati a livello di consegna, campagna, utente o segmento. Effettua analisi descrittive, riepiloga il ROI o esporta dati in Adobe Analytics e altre soluzioni per ulteriore visualizzazione e analisi dei dati.
+Oltre ai potenti modelli di reporting predefiniti, Adobe Campaign consente di creare rapporti personalizzati a livello di consegna, campagna, utente o segmento. Effettua analisi descrittive, riepiloga il ROI o esporta dati in Adobe Analytics e altre soluzioni per ulteriore visualizzazione e analisi dei dati.
 
-La funzione di reporting della campagna facilita la creazione di report dinamici. Puoi utilizzare le variabili drag-and-drop per personalizzare i rapporti e analizzare il successo delle campagne. A seconda della complessità delle query e dei calcoli, i dati possono essere aggregati in una vista a elenco o vi si accede in un formato che semplifica la generazione di rapporti di analisi di marketing.
+La funzione di reporting della campagna facilita la creazione di rapporti dinamici. Puoi trascinare e rilasciare le variabili per personalizzare i rapporti e analizzare il successo delle campagne. A seconda della complessità delle query e dei calcoli, è possibile aggregare i dati in una visualizzazione elenco o accedervi in un formato che semplifichi la generazione di rapporti di analisi marketing.
 
 
 ![](../assets/do-not-localize/glass.png) Scopri le funzionalità di reporting e tracciamento in [questa sezione](reporting.md).

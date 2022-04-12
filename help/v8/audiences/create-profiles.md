@@ -8,11 +8,11 @@ exl-id: 363b53ad-098c-4c34-8026-3185702c0452
 source-git-commit: 9c5c5e825294bd39742ecbd07b98a90b4555c138
 workflow-type: tm+mt
 source-wordcount: '94'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Creare profili manualmente{#create-profiles-manual}
+# Creare i profili manualmente{#create-profiles-manual}
 
 Per compilare il database di Campaign, puoi [profili di importazione](import-profiles.md) oppure aggiungili manualmente come descritto di seguito.
 

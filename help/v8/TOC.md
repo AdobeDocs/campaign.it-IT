@@ -7,7 +7,7 @@ title: Documenti di Campaign v8
 source-git-commit: c3beb735f54606537bcc977f2f0539767d15b2d9
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 81%
    + [Introduzione](start/get-started.md)
    + [Componenti e processi](start/ac-components.md)
    + Interfaccia utente di Campaign {#ac-ui}
-      + [Scopri l’interfaccia di Campaign](start/campaign-ui.md)
+      + [Scoprire l’interfaccia di Campaign](start/campaign-ui.md)
       + [Personalizzare l’interfaccia di Campaign](start/customize-ui.md)
    + [Utilizzare i tipi di pubblico](start/audiences.md)
    + [Importare dati](start/import.md)
@@ -49,14 +49,14 @@ ht-degree: 81%
    + [Introduzione](audiences/gs-audiences.md)
    + [Accedere ai profili](audiences/view-profiles.md)
    + Aggiungere profili {#add-profiles}
-      + [Creare profili manualmente](audiences/create-profiles.md)
-      + [Importare profili da un file](audiences/import-profiles.md)
+      + [Creare i profili manualmente](audiences/create-profiles.md)
+      + [Importare i profili da un file](audiences/import-profiles.md)
       + [Utilizzare i profili esterni](audiences/external-profiles.md)
-      + [Raccogliere dati di profilo nei moduli web](audiences/collect-profiles.md)
+      + [Raccogliere i dati del profilo nei moduli web](audiences/collect-profiles.md)
    + Creare tipi di pubblico {#create-audiences}
-      + [Crea un elenco di contatti](audiences/create-audiences.md)
+      + [Creare un elenco di contatti](audiences/create-audiences.md)
       + [Creare e gestire i filtri](audiences/create-filters.md)
-   + [Gestione di cartelle e visualizzazioni](audiences/folders-and-views.md)
+   + [Gestire le cartelle e le visualizzazioni](audiences/folders-and-views.md)
    + [Best practice](audiences/audiences-best-practices.md)
 + Inviare messaggi{#send}
    + [E-mail](send/email.md)
@@ -66,8 +66,8 @@ ht-degree: 81%
    + [Direct mail](send/direct-mail.md)
    + [Social marketing](send/twitter.md)
    + [Messaggi transazionali](send/transactional.md)
-   + Errori, mancati recapiti e quarantena{#failures}
-      + [Quarantena](send/quarantines.md)
+   + Errori, mancati recapiti e quarantene{#failures}
+      + [Quarantene](send/quarantines.md)
       + [Errori di consegna](send/delivery-failures.md)
 + Interazione in tempo reale{#interaction}
    + [Introduzione all’interazione in tempo reale](interaction/interaction.md)
