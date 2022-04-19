@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Documentazione di Campaign v8
 breadcrumb-title: Campaign v8
 title: Documenti di Campaign v8
-source-git-commit: c3beb735f54606537bcc977f2f0539767d15b2d9
+source-git-commit: 79a9d60175b06a11cf27b44275a8ba3fe11e4d3e
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 100%
+source-wordcount: '325'
+ht-degree: 94%
 
 ---
 
@@ -103,7 +103,11 @@ ht-degree: 100%
    + [Campaign + RTCDP](connect/ac-rtcdp.md)
    + [Campaign + Twitter](connect/ac-tw.md)
    + [Campaign + database esterno](connect/fda.md)
-   + [Campaign + CRM](connect/crm.md)
+   + Campaign + CRM {#ac-crm}
+      + [Guida introduttiva ai connettori di gestione delle relazioni con i clienti](connect/crm.md)
+      + [Utilizzare Campaign e SFDC](connect/ac-sfdc.md)
+      + [Utilizzare Campaign e Microsoft Dynamics](connect/ac-ms-dyn.md)
+      + [Sincronizza dati](connect/crm-data-sync.md)
 + Risorse per sviluppatori {#architecture}
    + [Principi globali](dev/general-architecture.md)
    + [Architettura](dev/architecture.md)

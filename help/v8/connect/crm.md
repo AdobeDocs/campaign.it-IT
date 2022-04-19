@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: c2d34ee9-4427-48e7-a8cf-0ae02a801d50
-source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
+source-git-commit: 79a9d60175b06a11cf27b44275a8ba3fe11e4d3e
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 25%
+source-wordcount: '343'
+ht-degree: 19%
 
 ---
 
@@ -17,6 +17,15 @@ ht-degree: 25%
 Adobe Campaign fornisce diversi connettori di gestione delle relazioni con i clienti per collegare la piattaforma Adobe Campaign ai sistemi di terze parti. Questi connettori di gestione delle relazioni con i clienti ti consentono di sincronizzare contatti, account, acquisti, ecc. Facilitano l’integrazione dell’applicazione con varie applicazioni di terze parti e aziendali.
 
 Questi connettori consentono un’integrazione rapida e semplice dei dati: Adobe Campaign fornisce un assistente dedicato per la raccolta e la selezione dalle tabelle disponibili nel CRM. Ciò garantisce la sincronizzazione bidirezionale per far sì che i dati siano sempre aggiornati in tutti i sistemi.
+
+I vantaggi principali sono:
+
+* Messaggistica coerente tra vendite e marketing: l’integrazione di Adobe Campaign con il CRM offre a entrambi i sistemi l’accesso alle informazioni sui clienti e alla cronologia delle e-mail marketing, consentendo a tutti i messaggi al cliente di condividere gli stessi messaggi coerenti.
+
+* Vista olistica di tutti i dati relativi a potenziali clienti e clienti: integrando Adobe Campaign con il tuo CRM, è possibile condividere e accedere alla cronologia di marketing e-mail su ogni contatto dal sistema CRM.
+
+* Attiva i dati CRM su qualsiasi canale: con i dati di contatto sincronizzati con Adobe Campaign, le comunicazioni possono essere inviate su qualsiasi canale online o offline con Campaign, compresi push mobile, in-app, e-mail o direct mail.
+
 
 >[!NOTE]
 >
@@ -30,10 +39,9 @@ Il CRM e le versioni supportate sono descritti in dettaglio in Campaign [Matrice
 
 ## Passaggi di implementazione {#crm-implementation-steps}
 
-![](../assets/do-not-localize/book.png) Scopri la procedura dettagliata per collegare Campaign e Microsoft Dynamics in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html?lang=en#microsoft-dynamics-implementation-steps)
+Scopri la procedura dettagliata per collegare Campaign e Microsoft Dynamics in [questa pagina](ac-ms-dyn.md).
 
-![](../assets/do-not-localize/book.png) Scopri la procedura dettagliata per collegare Campaign e Salesforce in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-sfdc.html?lang=en#getting-started)
-
+Scopri la procedura dettagliata per collegare Campaign e Salesforce.com in [questa pagina](ac-sfdc.md).
 
 La sincronizzazione dei dati tra Adobe Campaign e il CRM viene eseguita tramite un’attività di flusso di lavoro dedicata. Crea i tuoi flussi di lavoro per automatizzare la sincronizzazione tra Campaign e il tuo CRM. È possibile creare un flusso di lavoro che importa i contatti tramite Microsoft Dynamics, li sincronizza con i dati esistenti di Adobe Campaign, elimina i contatti duplicati e quindi aggiorna il database di Adobe Campaign.
 
