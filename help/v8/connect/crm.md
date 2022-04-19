@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: c2d34ee9-4427-48e7-a8cf-0ae02a801d50
-source-git-commit: 79a9d60175b06a11cf27b44275a8ba3fe11e4d3e
+source-git-commit: 9ad8623b48021eab7b53c7fbc69f3baa165afd3f
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 19%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +35,9 @@ I vantaggi principali sono:
 
 Il CRM e le versioni supportate sono descritti in dettaglio in Campaign [Matrice di compatibilità](../start/compatibility-matrix.md).
 
-![](../assets/do-not-localize/speech.png)  I connettori di gestione delle relazioni con i clienti funzionano solo con un URL sicuro (https).
+>[!CAUTION]
+>
+> I connettori di gestione delle relazioni con i clienti di Campaign funzionano solo con un URL sicuro (https).
 
 ## Passaggi di implementazione {#crm-implementation-steps}
 
@@ -43,6 +45,4 @@ Scopri la procedura dettagliata per collegare Campaign e Microsoft Dynamics in [
 
 Scopri la procedura dettagliata per collegare Campaign e Salesforce.com in [questa pagina](ac-sfdc.md).
 
-La sincronizzazione dei dati tra Adobe Campaign e il CRM viene eseguita tramite un’attività di flusso di lavoro dedicata. Crea i tuoi flussi di lavoro per automatizzare la sincronizzazione tra Campaign e il tuo CRM. È possibile creare un flusso di lavoro che importa i contatti tramite Microsoft Dynamics, li sincronizza con i dati esistenti di Adobe Campaign, elimina i contatti duplicati e quindi aggiorna il database di Adobe Campaign.
-
-![](../assets/do-not-localize/book.png) Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-data-sync.html?lang=en#getting-started)
+La sincronizzazione dei dati tra Adobe Campaign e il CRM viene eseguita tramite un’attività di flusso di lavoro dedicata. Crea i tuoi flussi di lavoro per automatizzare la sincronizzazione tra Campaign e il tuo CRM. È possibile creare un flusso di lavoro che importa i contatti tramite Microsoft Dynamics, li sincronizza con i dati esistenti di Adobe Campaign, elimina i contatti duplicati e quindi aggiorna il database di Adobe Campaign. Per ulteriori informazioni, consulta [questa pagina](crm-data-sync.md).
