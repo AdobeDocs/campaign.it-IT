@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Documentazione di Campaign v8
 breadcrumb-title: Campaign v8
 title: Documenti di Campaign v8
-source-git-commit: 79a9d60175b06a11cf27b44275a8ba3fe11e4d3e
+source-git-commit: d7e0635c6fccd70ed012a5b8148258383a1f6766
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 94%
+source-wordcount: '352'
+ht-degree: 88%
 
 ---
 
@@ -27,6 +27,7 @@ ht-degree: 94%
       + [Scoprire l’interfaccia di Campaign](start/campaign-ui.md)
       + [Personalizzare l’interfaccia di Campaign](start/customize-ui.md)
    + [Utilizzare i tipi di pubblico](start/audiences.md)
+   + [Gestire le richieste di accesso ai dati personali](start/privacy.md)
    + [Importare dati](start/import.md)
    + [Creare campagne](start/campaigns.md)
    + [Inviare messaggi](start/create-message.md)
@@ -34,6 +35,18 @@ ht-degree: 94%
    + [Tracciamento e monitoraggio](start/tracking.md)
    + [Metriche e report](start/reporting.md)
    + [Domande frequenti](start/campaign-faq.md)
++ Architettura {#architecture}
+   + [Principi globali](architecture/general-architecture.md)
+   + [Architettura](architecture/architecture.md)
+   + Distribuzione di Snowflake FDA {#fda}
+      + [Cos&#39;è il Snowflake FDA?](architecture/fda-deployment.md)
+   + Distribuzione aziendale (FFDA) {#ffda}
+      + [Cos’è Campaign FFDA?](architecture/enterprise-deployment.md)
+      + Caratteristiche {#ffda-characteristics}
+         + [Gestione delle chiavi e unicità](architecture/keys.md)
+         + [Nuove API](architecture/new-apis.md)
+         + [Meccanismo di staging API](architecture/staging.md)
+         + [Meccanismo di replica](architecture/replication.md)
 + Implementare {#implement}
    + [Passaggi di implementazione](start/implement.md)
    + [Personalizzare l’istanza](dev/customize.md)
@@ -59,7 +72,9 @@ ht-degree: 94%
    + [Gestire le cartelle e le visualizzazioni](audiences/folders-and-views.md)
    + [Best practice](audiences/audiences-best-practices.md)
 + Inviare messaggi{#send}
-   + [E-mail](send/email.md)
+   + E-mail {#emails}
+      + [Progettazione e invio di e-mail](send/email.md)
+      + [Inviare con MTA avanzato](send/enhanced-mta.md)
    + [SMS](send/sms.md)
    + [Notifiche push](send/push.md)
    + [Messaggistica LINE](send/line.md)
@@ -89,7 +104,6 @@ ht-degree: 94%
    + [Casi d’uso](interaction/interaction-use-cases.md)
 + Configurare {#config}
    + [Automatizzare con i flussi di lavoro](config/workflows.md)
-   + [Gestire i dati](config/replication.md)
    + [Impostazioni e-mail](config/email-settings.md)
    + [Impostazioni dei messaggi transazionali](config/transactional-msg-settings.md)
    + [Integrare gli SDK di Campaign con la tua app](config/push-config.md)
@@ -108,13 +122,10 @@ ht-degree: 94%
       + [Utilizzare Campaign e SFDC](connect/ac-sfdc.md)
       + [Utilizzare Campaign e Microsoft Dynamics](connect/ac-ms-dyn.md)
       + [Sincronizza dati](connect/crm-data-sync.md)
-+ Risorse per sviluppatori {#architecture}
-   + [Principi globali](dev/general-architecture.md)
-   + [Architettura](dev/architecture.md)
-   + [Modello dati](dev/datamodel.md)
++ Risorse per sviluppatori {#developer}
+   + [Modello dati di Campaign](dev/datamodel.md)
    + Schemi e moduli {#shemas-forms}
       + [Utilizzare gli schemi](dev/schemas.md)
-      + [Gestione delle chiavi e unicità](dev/keys.md)
       + [Creare gli schemi](dev/create-schema.md)
       + [Estendere gli schemi](dev/extend-schema.md)
       + [Filtrare gli schemi](dev/filter-schema.md)
@@ -124,8 +135,6 @@ ht-degree: 94%
       + [Utilizzare una tabella dei destinatari personalizzata](dev/custom-recipient.md)
       + [Aggiornare il database](dev/update-database-structure.md)
       + [Moduli di input](dev/forms.md)
-   + API {#api}
-      + [Introduzione](dev/api.md)
-      + [Nuove API](dev/new-apis.md)
-      + [Meccanismo di staging API](dev/staging.md)
+   + [API di Campaign](dev/api.md)
 + [Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it)
+

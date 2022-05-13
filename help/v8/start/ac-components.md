@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: b54a39ee6d106d68446878815c068571e310aaa3
+source-git-commit: fbec41a722f71ad91260f1571f6a48383e99b782
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 1%
@@ -76,4 +76,4 @@ La comunicazione complessiva tra i processi Campaign è descritta nel seguente d
 
 L’utente si connette al server dell’applicazione Campaign utilizzando il protocollo HTTP. Tutti i dati e le informazioni vengono gestiti nel database di Campaign. Se uno sviluppatore di Campaign esegue delle modifiche di configurazione, viene acquisito nel database. Se un addetto al marketing crea una nuova campagna, anche tutte le informazioni e i dati relativi a questa nuova campagna vengono gestiti nel database. Quando un addetto al marketing esegue una campagna, le consegne e-mail vengono inviate ai profili dal server Campaign tramite il server SMTP. Man mano che i profili interagiscono con le consegne e-mail, ad esempio aprendo l’e-mail, i dati di tracciamento vengono rimandati al server di tracciamento.
 
-![](../assets/do-not-localize/glass.png) [Ulteriori informazioni sui processi di Campaign](../dev/general-architecture.md#dev-env).
+![](../assets/do-not-localize/glass.png) [Ulteriori informazioni sui processi di Campaign](../architecture/general-architecture.md#dev-env).

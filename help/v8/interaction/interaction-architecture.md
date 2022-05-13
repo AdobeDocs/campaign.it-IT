@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 7a710960-7e41-4462-bd5e-18e874aa46f8
-source-git-commit: dafdf471fcaf2b6c6e3e8d5028cd65e35e7df3eb
+source-git-commit: fbec41a722f71ad91260f1571f6a48383e99b782
 workflow-type: tm+mt
 source-wordcount: '1314'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Non appena un&#39;offerta può o deve essere presentata (secondo le configurazio
 
 ## Architettura distribuita
 
-Per supportare la scalabilità e fornire un servizio 24 ore su 24 e 7 giorni su 7 sul canale in entrata, il **Interazione** Il modulo è implementato in un&#39;architettura distribuita. Questo tipo di architettura è già utilizzato con [Centro messaggi](../dev/architecture.md#transac-msg-archi) ed è costituito da diverse istanze:
+Per supportare la scalabilità e fornire un servizio 24 ore su 24 e 7 giorni su 7 sul canale in entrata, il **Interazione** Il modulo è implementato in un&#39;architettura distribuita. Questo tipo di architettura è già utilizzato con [Centro messaggi](../architecture/architecture.md#transac-msg-archi) ed è costituito da diverse istanze:
 
 * una o più istanze di controllo dedicate al canale in uscita e contenenti la base di progettazione marketing e ambiente
 * una o più istanze di esecuzione dedicate al canale in entrata

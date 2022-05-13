@@ -5,30 +5,30 @@ feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
 exl-id: 220b7a88-bd42-494b-b55b-b827b4971c9e
-source-git-commit: c316da3c431e42860c46b5a23c73a7c129abf3ac
+source-git-commit: 1ff06c69a4118afa228522d580dd5caa36a69275
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1093'
 ht-degree: 5%
 
 ---
 
-# Quarantene {#quarantine-management}
+# Quarantena {#quarantine-management}
 
 Adobe Campaign gestisce un elenco di indirizzi messi in quarantena per i canali online (e-mail, SMS, notifiche push). Alcuni provider di accesso a Internet considerano automaticamente le e-mail come spam se il tasso di indirizzi non validi è troppo alto. La quarantena ti consente quindi di evitare di essere aggiunta al elenco Bloccati da questi provider. Inoltre, le quarantene contribuiscono a ridurre i costi di invio degli SMS escludendo numeri di telefono errati dalle consegne.
 
-Quando l’indirizzo o il numero di telefono sono messi in quarantena, i destinatari vengono esclusi dal target durante l’analisi della consegna: non potrai inviare messaggi di marketing, comprese e-mail di flusso di lavoro automatizzate, a tali contatti. Se anche gli indirizzi messi in quarantena sono presenti negli elenchi, saranno esclusi al momento dell’invio a tali elenchi. Un indirizzo e-mail può essere messo in quarantena, ad esempio, quando la cassetta postale è piena, se l’indirizzo non esiste o se il server e-mail non è disponibile, ad esempio.
+Quando l’indirizzo o il numero di telefono sono messi in quarantena, i destinatari vengono esclusi dal target durante l’analisi della consegna: non potrai inviare messaggi di marketing, comprese e-mail di flusso di lavoro automatizzate, a tali contatti. Se anche gli indirizzi messi in quarantena sono presenti negli elenchi, saranno esclusi al momento dell’invio a tali elenchi. Un indirizzo e-mail può essere messo in quarantena, ad esempio, quando la cassetta postale è piena, se l’indirizzo non esiste o se il server e-mail non è disponibile.
 
 <!--For more on best practices to secure and optimize your deliveries, refer to [this page](delivery-best-practices.md).-->
 
 **Quarantena** si applica solo a un **indirizzo**, **numero di telefono** o **token del dispositivo**, ma non al profilo stesso. Ad esempio, un profilo il cui indirizzo e-mail è messo in quarantena può aggiornare il proprio profilo e immettere un nuovo indirizzo e può quindi essere nuovamente oggetto di targeting mediante azioni di consegna. Allo stesso modo, se due profili hanno lo stesso numero di telefono, saranno entrambi interessati se il numero viene messo in quarantena. Gli indirizzi o i numeri di telefono messi in quarantena vengono visualizzati nella [registri di esclusione](#delivery-quarantines) (per una consegna) o [elenco di quarantena](#non-deliverable-bounces) (per l&#39;intera piattaforma).
 
-D’altra parte, i profili possono essere **elenco Bloccati** come dopo un annullamento dell’abbonamento (opt-out), per un dato canale: ciò significa che non sono più presi di mira da nessuno. Di conseguenza, se un profilo nel elenco Bloccati del canale e-mail ha due indirizzi e-mail, entrambi gli indirizzi saranno esclusi dalla consegna. Puoi verificare se un profilo è sul elenco Bloccati di uno o più canali nel **[!UICONTROL No longer contact]** della sezione del profilo **[!UICONTROL General]** scheda . [Ulteriori informazioni](../audiences/view-profiles.md).
+D’altra parte, i profili possono essere **elenco Bloccati** come dopo un annullamento dell’abbonamento (opt-out), per un dato canale: ciò significa che non sono più presi di mira da nessuno. Di conseguenza, se un profilo nel elenco Bloccati del canale e-mail ha due indirizzi e-mail, entrambi gli indirizzi saranno esclusi dalla consegna. Puoi verificare se un profilo è sul elenco Bloccati di uno o più canali nel **[!UICONTROL No longer contact]** della sezione del profilo **[!UICONTROL General]** scheda . [Ulteriori informazioni](../audiences/view-profiles.md)
 
 >[!NOTE]
 >
 >Quando i destinatari segnalano il messaggio come spam o rispondono a un messaggio SMS con una parola chiave come &quot;STOP&quot;, l’indirizzo o il numero di telefono vengono messi in quarantena come **[!UICONTROL Denylisted]**. Il loro profilo viene aggiornato di conseguenza.
->
-> Per il canale e-mail, gli indirizzi e-mail vengono messi in quarantena. Per il canale app mobile, i token dispositivo vengono messi in quarantena. Per il canale SMS, i numeri di telefono vengono messi in quarantena.
+
+<!--For the email channel, email addresses are quarantined. For the mobile app channel, device tokens are quarantined. For the SMS channel, phone numbers are quarantined.?-->
 
 ## Perché un’e-mail, un telefono o un dispositivo viene messo in quarantena? {#quarantine-reason}
 
@@ -37,8 +37,7 @@ Adobe Campaign gestisce la quarantena in base al tipo di consegna non riuscita e
 È possibile acquisire due tipi o errori:
 
 * **Errore rigido**: l’indirizzo e-mail, il numero di telefono o il dispositivo vengono messi immediatamente in quarantena.
-* **Errore morbido**: gli errori soft incrementano un contatore di errori e potrebbero mettere in quarantena un&#39;e-mail, un numero di telefono o un token del dispositivo. Prestazioni della campagna [tentativi](delivery-failures.md#retries).: quando il contatore degli errori raggiunge la soglia limite, l’indirizzo, il numero di telefono o il token del dispositivo viene messo in quarantena. [Ulteriori informazioni](delivery-failures.md#retries).
-
+* **Errore morbido**: gli errori soft incrementano un contatore di errori e potrebbero mettere in quarantena un&#39;e-mail, un numero di telefono o un token del dispositivo. Le prestazioni di Campaign [tentativi](delivery-failures.md#retries): quando il contatore degli errori raggiunge la soglia limite, l’indirizzo, il numero di telefono o il token del dispositivo viene messo in quarantena. [Ulteriori informazioni](delivery-failures.md#retries).
 
 Nell’elenco degli indirizzi messi in quarantena, la **[!UICONTROL Error reason]** il campo indica perché l’indirizzo selezionato è stato messo in quarantena. [Ulteriori informazioni](#identifying-quarantined-addresses-for-the-entire-platform).
 

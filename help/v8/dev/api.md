@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
-source-git-commit: 94fc2739c538f3aa8b11e0ea69d08f1bfffb5d32
+source-git-commit: fbec41a722f71ad91260f1571f6a48383e99b782
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 12%
+source-wordcount: '235'
+ht-degree: 15%
 
 ---
 
@@ -43,17 +43,6 @@ Per utilizzare le API e interagire con [!DNL Adobe Campaign], devi anche avere f
 >[!NOTE]
 >Puoi generare una descrizione completa del modello dati. Per ulteriori informazioni, consulta [questa pagina](datamodel.md).
 
-## [!DNL Campaign] Meccanismo di staging per le API
-
-Con [!DNL Campaign] Database cloud, le chiamate unitarie di esplosione non sono raccomandate a causa delle prestazioni (latenza e concorrenza). L&#39;operazione batch è sempre preferita. Per garantire prestazioni ottimali delle API, Campaign continua a gestire le chiamate API a livello di database locale.
-
-![](../assets/do-not-localize/glass.png) [Il meccanismo di staging API è descritto in questa pagina](staging.md)
-
-## Nuove API
-
-Sono disponibili nuove API per gestire la sincronizzazione dati tra [!DNL Campaign] database locale e database cloud. È stato inoltre introdotto un nuovo meccanismo per gestire le chiamate API a livello di database locale per evitare la latenza e migliorare le prestazioni complessive.
-
-![](../assets/do-not-localize/glass.png) [Le nuove API sono descritte in dettaglio in questa pagina](new-apis.md)
 
 **Argomenti correlati**
 

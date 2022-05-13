@@ -2,9 +2,9 @@
 title: Utilizzare gli schemi di Campaign
 description: Guida introduttiva agli schemi
 exl-id: 87af72fe-6c84-4d9a-afed-015900890cce
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: 355b9219ffd9d481d15d2d0982d49923842cc27b
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1266'
 ht-degree: 5%
 
 ---
@@ -133,9 +133,43 @@ type="string" enum="exTransactionTypeEnum"/>
 >
 >È inoltre possibile utilizzare enumerazioni gestite dagli utenti (in genere in **[!UICONTROL Administration]** > **[!UICONTROL Platform]** ) per specificare i valori di un dato campo. Si tratta di enumerazioni globali efficaci e di una scelta migliore se l’enumerazione può essere utilizzata al di fuori dello schema specifico in cui si sta lavorando.
 
+<!--
+## Index {#index} 
+
+In the context of a [FDA Snowflake deployment](../architecture/fda-deployment.md), you need to declare indexes. Indexes are the first elements declared in the main element of the schema. 
+
+They can be unique or not, and reference one or more fields.
+
+Examples:
+
+```
+<dbindex name="email" unique="true">
+  <keyfield xpath="@email"/>
+</dbindex>
+```
+
+```
+<dbindex name="lastNameAndZip">
+  <keyfield xpath="@lastName"/>
+  <keyfield xpath="location/@zipCode"/>
+</dbindex>
+```
+
+The **xpath** attribute points to the field in your schema that you wish to index.
+
+>[!IMPORTANT]
+>
+>It is important to remember that the SQL query read performance gains provided by indexes also come with a performance hit on writing records. The indexes should therefore be used with precaution.
+
+For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-fields) section.
+
+-->
+
 ## Chiavi {#keys}
 
-Ogni tabella deve avere almeno una chiave e spesso viene automaticamente stabilita nell’elemento principale dello schema utilizzando il **@autouuid** e **autopk** attributi impostati su **true**.
+Ogni tabella deve avere almeno una chiave e spesso viene automaticamente stabilita nell’elemento principale dello schema utilizzando il **autopk** attributo impostato su **true**.
+
+Inoltre, nel contesto di un [Distribuzione aziendale (FFDA)](../architecture/enterprise-deployment.md), utilizza **@autouuid** e impostarlo su **true**.
 
 La chiave primaria può essere definita anche utilizzando **interno** attributo.
 
@@ -147,7 +181,7 @@ Esempio:
 </key>
 ```
 
-In questo esempio, invece di lasciare che **@autouuid** creazione di una chiave primaria predefinita denominata &quot;id&quot; stiamo specificando la chiave primaria &quot;familyId&quot;.
+In questo esempio, invece di lasciare che **@autopk** o **@autouuid** creazione di una chiave primaria predefinita denominata &quot;id&quot; stiamo specificando la chiave primaria &quot;familyId&quot;.
 
 >[!CAUTION]
 >

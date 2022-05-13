@@ -2,9 +2,9 @@
 title: Mappatura del database Campaign
 description: Mappatura del database Campaign
 exl-id: a804d164-58bf-4b15-a48e-8cf75d793668
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: fbec41a722f71ad91260f1571f6a48383e99b782
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1485'
 ht-degree: 0%
 
 ---
@@ -196,9 +196,9 @@ Le chiavi obbediscono alle seguenti regole:
    </schema>
    ```
 
-### Chiave principale - Identificatore
+### Chiave principale - Identificatore{#primary-key}
 
-La chiave primaria delle tabelle Adobe Campaign è una **ID univoco universale (UUID)** generato automaticamente dal motore di database. Il valore chiave è univoco nell&#39;intero database. Il contenuto della chiave viene generato automaticamente all’inserimento del record.
+Nel contesto di un [Distribuzione aziendale (FFDA)](../architecture/enterprise-deployment.md), la chiave primaria delle tabelle Adobe Campaign è una **ID univoco universale (UUID)** generato automaticamente dal motore di database. Il valore chiave è univoco nell&#39;intero database. Il contenuto della chiave viene generato automaticamente all’inserimento del record.
 
 **Esempio**
 
@@ -353,6 +353,8 @@ Schema esteso del target (&quot;cus:company&quot;):
 * **target**: chiave dello schema collegato ( schema &quot;cus:recipient&quot;)
 * **non legato**: il collegamento viene dichiarato come elemento di raccolta per una cardinalità 1-N (per impostazione predefinita)
 * **integrità**: &quot;define&quot; per impostazione predefinita (può essere forzato con l&#39;attributo &quot;revIntegrity&quot; nella definizione del collegamento sullo schema di origine).
+
+Tieni presente che `autouuid="true"`si applica nel contesto di un [Distribuzione aziendale (FFDA)](../architecture/enterprise-deployment.md) solo.
 
 ### Esempio 2 {#example-2}
 

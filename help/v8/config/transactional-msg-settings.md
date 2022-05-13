@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
-source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
+source-git-commit: fbec41a722f71ad91260f1571f6a48383e99b782
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![](../assets/do-not-localize/glass.png) Le funzionalità di messaggistica transazionale sono descritte in [questa sezione](../send/transactional.md).
 
-![](../assets/do-not-localize/glass.png) Comprendere l’architettura dei messaggi transazionali in [questa pagina](../dev/architecture.md).
+![](../assets/do-not-localize/glass.png) Comprendere l’architettura dei messaggi transazionali in [questa pagina](../architecture/architecture.md).
 
 ## Definire le autorizzazioni
 
@@ -32,9 +32,9 @@ Tutte le estensioni dello schema effettuate sugli schemi utilizzati da **Flussi 
 
 ## Inviare notifiche push transazionali
 
-Se combinato con il modulo del canale dell’app Mobile, i messaggi transazionali consentono di inviare messaggi transazionali tramite notifiche su dispositivi mobili.
+Se combinato con il modulo del canale dell’app mobile, la messaggistica transazionale consente di inviare messaggi transazionali tramite notifiche su dispositivi mobili.
 
-![](../assets/do-not-localize/book.png) Il canale app Mobile è descritto in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=en#sending-messages).
+![](../assets/do-not-localize/book.png) Il canale app mobile è descritto in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=en#sending-messages).
 
 Per inviare notifiche push transazionali, devi eseguire le seguenti configurazioni:
 
@@ -44,7 +44,7 @@ Per inviare notifiche push transazionali, devi eseguire le seguenti configurazio
    >
    >Controlla il contratto di licenza prima di installare un nuovo pacchetto integrato di Campaign.
 
-1. Replicare il **applicazione Mobile** e le applicazioni mobili associate alle istanze di esecuzione.
+1. Replicare il **App mobile** e le applicazioni mobili associate alle istanze di esecuzione.
 
 Affinché Campaign possa inviare notifiche push transazionali, l’evento deve contenere i seguenti elementi:
 

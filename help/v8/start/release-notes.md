@@ -6,16 +6,108 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 0f15112f0eec1d7cba26523adc1e88fc5d26997c
+source-git-commit: d3137e75bfc4986e1d6badf32f21fda4c4353c8b
 workflow-type: tm+mt
-source-wordcount: '1714'
-ht-degree: 100%
+source-wordcount: '2240'
+ht-degree: 81%
 
 ---
 
 # Ultima versione{#latest-release}
 
 In questa pagina sono elencate nuove funzionalità, miglioramenti e correzioni introdotti con l’**ultima versione di Campaign v8**.
+
+## Versione 8.3.7 {#release-8-3-7}
+
+_16 maggio 2022_
+
+**Novità**
+
+<table>
+<thead>
+<tr>
+<th><strong>Gestione della risposta</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Gestione della risposta alle campagne consente di misurare il successo e il ROI delle campagne di marketing o delle proposte di offerta su tutti i canali: e-mail, dispositivi mobili, direct mailing, ecc.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../start/campaigns.md#response-manager-add-on">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>Marketing distribuito</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>Campaign Distributed Marketing consente di implementare campagne di collaborazione tra entità centrali (sedi centrali, dipartimenti di marketing, ecc.) e gli enti locali (punti vendita, agenzie regionali, ecc.). Tramite un’area di lavoro condivisa (pacchetti di campagne), puoi creare modelli di campagna e proporli alle entità locali.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../start/campaigns.md#distributed-marketing-add-on">documentazione dettagliata</a>.</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>Notifiche sensibili al tempo</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>Con iOS 15, Apple ha aggiunto un concetto di notifica sensibile che dà il controllo allo sviluppatore dell’app di ignorare la modalità di attivazione quando una notifica è considerata sensibile e deve quindi raggiungere l’utente in tempo reale.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../send/push.md#send-notifications-on-ios">documentazione dettagliata</a>.</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>Integrazione core Privacy Service</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>Campaign v8 ora si integra con Adobe Privacy Core Service. Le richieste di accesso a dati personali inviate dal servizio core per la privacy a tutte le soluzioni Experience Cloud vengono gestite automaticamente da Campaign tramite un flusso di lavoro dedicato.</p>
+<p>Per ulteriori informazioni, consulta la <a href="privacy.md">documentazione dettagliata</a>.</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+**Aggiornamenti della compatibilità**
+
+* L’SDK di Campaign v8 supporta ora Android 12 e iOS 15 per le notifiche push.
+* Campaign v8 è ora compatibile con Windows 11.
+
+Consulta la [Matrice di compatibilità di Campaign](capability-matrix.md).
+
+**Miglioramenti**
+
+* L’autenticazione di Microsoft Exchange Online OAuth 2.0 per POP3 è ora supportata in Campaign. [Maggiori informazioni](../config/external-accounts.md#bounce-mails-external-account)
+* Sono state applicate correzioni critiche relative all’API web di Microsoft Dynamics Connector.
+* È stato aggiunto il nuovo diritto di scrittura dello schema di operatore e gruppo (operatorWrite) denominato per consentire agli utenti di inserire, aggiornare ed eliminare gli schemi Operatori (xtk:operator) e Gruppi di operatori (xtk:group).
+* Ora puoi abilitare la funzionalità CCN e-mail (copia a carbone per ciechi) per memorizzare le e-mail inviate da Campaign a livello di consegna, tramite l’opzione dedicata nelle proprietà di consegna. [Maggiori informazioni](../config/email-settings.md#email-bcc)
+* Per garantire prestazioni migliori, ora viene attivata per impostazione predefinita una nuova opzione &quot;Dividi&quot; nell’account esterno Indirizzamento. Questa opzione consente la suddivisione automatica dei messaggi tra le istanze di mid-sourcing per essere consegnati più rapidamente ai destinatari. COLLEGAMENTO
+* Per le consegne LINE sulle configurazioni di mid-sourcing, ora possono esistere più account attivi dello stesso tipo in un&#39;istanza intermedia.
+* Il numero di connessioni predefinite per il processo web è stato aumentato da 50 a 150.
+* Campaign viene fornito con un set di nuove protezioni per impedire l’inserimento di chiavi duplicate nel database di Snowflake. [Maggiori informazioni](../architecture/keys.md)
+
+**Patch**
+
+* È stato risolto un problema che si verificava durante l’utilizzo di semi e gruppi di controllo nella stessa consegna ricorrente. (NEO-41197)
+* È stato risolto un problema su FFDA che causava il blocco dell’invio di e-mail per tutti i destinatari appartenenti alla stessa deliveryPart durante il processo di invio (fino a 256) quando i blocchi di personalizzazione contenevano uno dei seguenti caratteri: `' & < > "`. Questi caratteri ora sono supportati nei blocchi di personalizzazione (ad esempio: firstname=&quot;Brian O&#39;Neil&quot;). (NEO-43184)
+* È stato risolto un problema che poteva causare un errore nel flusso di lavoro di tracciamento quando si utilizzava uno schema personalizzato come mappatura di destinazione. Ora assicuriamo che il tipo di collegamento esterno a uno schema di targeting personalizzato sia corretto durante la generazione dello schema wideLog tramite la procedura guidata di mappatura di destinazione. (NEO-43506)
+* È stato risolto un problema che poteva causare il mancato funzionamento dei flussi di lavoro di distribuzione FFDA per lingue diverse dall’inglese. (NEO-44561)
 
 ## Versione 8.2.10 {#release-8-2-10}
 
@@ -76,7 +168,9 @@ _28 ottobre 2021_
 <tr> 
 <td> <p>Il servizio Unicity è un nuovo componente Cloud Database Manager. Consente agli utenti di preservare e monitorare l’integrità dei vincoli di chiave univoca all’interno delle tabelle del database cloud. Questo consente di ridurre il rischio di inserimento di chiavi duplicate.
 <p>Poiché il database cloud non applica vincoli di unicità, il servizio Unicity introduce a livello applicativo <b>una serie di nuovi guardrail</b> per ridurre il rischio di inserimento di duplicati durante la gestione dei dati con Adobe Campaign.</p> 
-<p>Il servizio Unicity avvia un nuovo flusso di lavoro integrato denominato <b>ffdaUnicity</b> per monitorare i vincoli di unicità e avvisare quando vengono rilevati duplicati.</p></td> </tr> 
+<p>Il servizio Unicity avvia un nuovo flusso di lavoro integrato denominato <b>ffdaUnicity</b> per monitorare i vincoli di unicità e avvisare quando vengono rilevati duplicati.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../architecture/keys.md">documentazione dettagliata</a>.</p>
+</td> </tr> 
 </tbody> 
 </table>
 

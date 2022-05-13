@@ -5,9 +5,9 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
-source-git-commit: 7234ca65f785b005b11851a5cd88add8cddeff4f
+source-git-commit: fbec41a722f71ad91260f1571f6a48383e99b782
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '655'
 ht-degree: 4%
 
 ---
@@ -66,9 +66,9 @@ Puoi anche utilizzare una tabella dei destinatari diversa per adattarla meglio a
 
 ## Tabelle di Campaign e database Cloud
 
-Per una migliore comprensione della gestione delle tabelle in Campaign v8, tieni presente che le tabelle vengono replicate tra Campaign e il database Snowflake Cloud.
+Per una migliore comprensione della gestione delle tabelle in Campaign v8, tieni presente che, nel contesto di un [Distribuzione aziendale (FFDA)](../architecture/enterprise-deployment.md), le tabelle vengono replicate tra Campaign e il relativo database Snowflake Cloud.
 
-![](../assets/do-not-localize/glass.png) Ulteriori informazioni sulla strategia e i meccanismi di replica in [questa sezione](../config/replication.md).
+![](../assets/do-not-localize/glass.png) Ulteriori informazioni sulla strategia e i meccanismi di replica in [questa sezione](../architecture/replication.md).
 
 **Argomenti correlati**
 

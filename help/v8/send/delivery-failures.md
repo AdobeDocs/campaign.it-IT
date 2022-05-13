@@ -5,16 +5,18 @@ feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: c316da3c431e42860c46b5a23c73a7c129abf3ac
+source-git-commit: 1ff06c69a4118afa228522d580dd5caa36a69275
 workflow-type: tm+mt
-source-wordcount: '3106'
+source-wordcount: '2849'
 ht-degree: 6%
 
 ---
 
-# Errori di consegna{#delivery-failures}
+# Errori di consegna {#delivery-failures}
 
-I rimbalzi sono il risultato di un tentativo di consegna e di un errore in cui l&#39;ISP fornisce avvisi di errore di back. La lavorazione dei rifiuti è una parte fondamentale dell&#39;igiene degli elenchi. Dopo che una data e-mail è stata rimbalzata diverse volte di fila, questo processo la contrassegna per la soppressione. Questo processo impedisce ai sistemi di continuare a inviare indirizzi e-mail non validi. I rimbalzi sono uno dei dati chiave utilizzati dagli ISP per determinare la reputazione IP. È importante tenere d’occhio questa metrica. &quot;Consegnato&quot; rispetto a &quot;rimbalzato&quot; è probabilmente il modo più comune per misurare la consegna dei messaggi di marketing: più alta è la percentuale consegnata, meglio è.
+I rimbalzi sono il risultato di un tentativo di consegna e di un errore in cui l&#39;ISP fornisce avvisi di errore di back. La lavorazione dei rifiuti è una parte fondamentale dell&#39;igiene degli elenchi. Dopo che una data e-mail è stata rimbalzata diverse volte di fila, questo processo la contrassegna per la soppressione.
+
+Questo processo impedisce ai sistemi di continuare a inviare indirizzi e-mail non validi. I rimbalzi sono uno dei dati chiave utilizzati dagli ISP per determinare la reputazione IP. È importante tenere d’occhio questa metrica. &quot;Consegnato&quot; rispetto a &quot;rimbalzato&quot; è probabilmente il modo più comune per misurare la consegna dei messaggi di marketing: più alta è la percentuale consegnata, meglio è.
 
 Se un messaggio non può essere inviato a un profilo, il server remoto invia automaticamente un messaggio di errore ad Adobe Campaign. Questo errore è qualificato per determinare se l’indirizzo e-mail, il numero di telefono o il dispositivo devono essere messi in quarantena. Vedi [Gestione della posta non recapitata](#bounce-mail-qualification).
 
@@ -24,66 +26,21 @@ Quando un indirizzo e-mail viene messo in quarantena o se un profilo è in elenc
 
 ## Perché la consegna del messaggio non è riuscita {#delivery-failure-reasons}
 
-Esistono due tipi di errori quando un messaggio non riesce. Ogni tipo di errore determina se un indirizzo viene inviato a [quarantena](quarantines.md#quarantine-reason) o no.
-
+Esistono due tipi di errori quando un messaggio non riesce. Ogni tipo di errore di consegna determina se un indirizzo viene inviato a [quarantena](quarantines.md#quarantine-reason) o no.
 
 * **Rimbalzi netti**
-I mancati recapiti rigidi sono errori permanenti generati dopo che un ISP determina un tentativo di invio di posta a un indirizzo utente iscritto come non recapitato. In Adobe Campaign, i rimbalzi rigidi categorizzati come non consegnabili vengono aggiunti alla quarantena, il che significa che non verrebbero tentati nuovamente. Ci sono alcuni casi in cui un rimbalzo duro verrebbe ignorato se la causa del fallimento è sconosciuta.
+I mancati recapiti rigidi sono errori permanenti generati dopo che un ISP determina un tentativo di invio di posta a un indirizzo utente iscritto come non recapitato. All’interno di Adobe Campaign, i messaggi non recapitati rigidi classificati come non recapitati vengono aggiunti all’elenco di quarantena, il che significa che non verranno tentati nuovamente. Ci sono alcuni casi in cui un rimbalzo duro verrebbe ignorato se la causa del fallimento è sconosciuta.
 
    Di seguito sono riportati alcuni esempi comuni di rimbalzi duri: L&#39;indirizzo non esiste, Account disabilitato, Sintassi non valida, Dominio non valido
 
-
 * **Rimbalzi morbidi**
-I messaggi non recapitati morbidi sono errori temporanei generati dagli ISP in caso di difficoltà nella consegna della posta. Gli errori software ripeteranno più volte (con varianza a seconda dell’utilizzo delle impostazioni di consegna personalizzate o predefinite) per tentare di eseguire una consegna corretta. Gli indirizzi che rimbalzano continuamente morbido non verranno aggiunti alla quarantena fino a quando non viene tentato il numero massimo di tentativi (che variano di nuovo a seconda delle impostazioni).
+I messaggi non recapitati morbidi sono errori temporanei generati dagli ISP in caso di difficoltà nella consegna della posta. Gli errori soft [riprovare](#retries) più volte (con varianza a seconda dell’utilizzo delle impostazioni di consegna personalizzate o predefinite) per tentare di eseguire una consegna corretta. Gli indirizzi che rimbalzano continuamente morbido non verranno aggiunti alla quarantena fino a quando non viene tentato il numero massimo di tentativi (che variano di nuovo a seconda delle impostazioni).
 
    Alcune cause comuni di non recapiti morbidi includono: Cassetta postale piena, ricezione server e-mail inattivo, problemi di reputazione del mittente
 
-
 La  **Ignorato** È noto che il tipo di errore è temporaneo, ad esempio &quot;Fuori sede&quot;, o un errore tecnico, ad esempio se il tipo di mittente è &quot;postmaster&quot;.
 
-
-
-### Qualificazione di mail non recapitate {#bounce-mail-qualification}
-
-Le regole utilizzate da Campaign per qualificare gli errori di consegna sono elencate in **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** nodo. Non è esaustivo, viene aggiornato regolarmente da Adobe Campaign e può essere gestito anche dall’utente.
-
-![](assets/delivery-log-qualification.png)
-
-Le qualifiche non recapitate nel **[!UICONTROL Delivery log qualification]** tabella non utilizzata per **sincrono** messaggi di errore di consegna. Momentum determina il tipo di messaggio non recapitato e la relativa qualifica e invia nuovamente tali informazioni a Campaign.
-
-**Asincrono** i messaggi non recapitati sono qualificati dal processo inMail attraverso **[!UICONTROL Inbound email]** regole.
-
-Il messaggio restituito dal server remoto sulla prima occorrenza di questo tipo di errore viene visualizzato nella **[!UICONTROL First text]** della colonna **[!UICONTROL Audit]** scheda .
-
-![](assets/delivery-log-first-txt.png)
-
-Adobe Campaign filtra questo messaggio per eliminare il contenuto della variabile (come ID, date, indirizzi e-mail, numeri di telefono, ecc.) e visualizza il risultato filtrato nel **[!UICONTROL Text]** colonna. Le variabili vengono sostituite con **`#xxx#`**, ad eccezione degli indirizzi sostituiti con **`*`**.
-
-Questo processo consente di raggruppare tutti gli errori dello stesso tipo ed evitare più voci per errori simili nella tabella di qualificazione del registro di consegna.
-
->[!NOTE]
->
->La **[!UICONTROL Number of occurrences]** visualizza il numero di occorrenze del messaggio nell’elenco. È limitato a 100.000 occorrenze. È possibile modificare il campo se, ad esempio, si desidera ripristinarlo.
-
-Le mail non recapitate possono avere il seguente stato di qualifica:
-
-* **[!UICONTROL To qualify]** : impossibile qualificare la posta non recapitata. La qualifica deve essere assegnata al team di recapito messaggi per garantire un recapito efficiente della piattaforma. Se non è qualificato, la posta non recapitata non viene utilizzata per arricchire l’elenco delle regole di gestione delle e-mail.
-* **[!UICONTROL Keep]** : la mail non recapitata è stata qualificata e verrà utilizzata dal **Aggiornamento per il recapito messaggi** da confrontare con le regole di gestione e-mail esistenti e arricchire l’elenco.
-* **[!UICONTROL Ignore]** : la mail non recapitata viene ignorata, il che significa che questo messaggio non causerà mai la quarantena dell’indirizzo del destinatario. Non verrà utilizzato dal **Aggiornamento per il recapito messaggi** e non verrà inviato alle istanze client.
-
-![](assets/delivery-log-status.png)
-
-
->[!NOTE]
->
->In caso di interruzione di un ISP, le e-mail inviate tramite Campaign verranno erroneamente contrassegnate come mancate consegne. Per correggere questo problema, è necessario aggiornare la qualifica di mancato recapito.
-
-
-## Gestione dei tentativi {#retries}
-
-Se la consegna del messaggio non riesce a seguito di un errore temporaneo (**Morbido** o **Ignorato**), CAcampaign tenta nuovamente di inviare. Questi tentativi possono essere eseguiti fino alla fine della durata della consegna. Il numero e la frequenza dei tentativi sono impostati da Momentum, in base al tipo e alla gravità delle risposte non recapitate provenienti dall&#39;ISP del messaggio.
-
-La configurazione predefinita definisce cinque tentativi a intervalli di un’ora, seguiti da un nuovo tentativo al giorno per quattro giorni. Il numero di tentativi può essere modificato a livello globale o per ogni consegna o modello di consegna. Se devi adattare la durata della consegna e i nuovi tentativi, contatta il supporto Adobe.
+Il ciclo di feedback funziona come e-mail non recapitate: quando un utente qualifica un’e-mail come posta indesiderata, puoi configurare le regole e-mail in Adobe Campaign per bloccare tutte le consegne a questo utente. Gli indirizzi di questi utenti vengono inserita nell&#39;elenco Bloccati anche se non hanno fatto clic sul collegamento di annullamento dell’abbonamento. Gli indirizzi vengono aggiunti al (**NmsAddress**) tabella di quarantena e non al (**NmsRecipient**) tabella dei destinatari con **[!UICONTROL Denylisted]** stato. Ulteriori informazioni sul meccanismo del ciclo di feedback nel [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops).
 
 ## Errori sincroni e asincroni {#synchronous-and-asynchronous-errors}
 
@@ -91,17 +48,58 @@ La consegna di un messaggio può non riuscire immediatamente. In tal caso, viene
 
 Questi tipi di errori vengono gestiti come segue:
 
-* **Errore sincrono**: se il server remoto contattato dal server di consegna Adobe Campaign restituisce immediatamente un messaggio di errore, la consegna non può essere inviata al server del profilo. Adobe Campaign qualifica ogni errore per determinare se gli indirizzi e-mail interessati devono essere messi in quarantena. Consulta [Qualificazione di mail non recapitate](#bounce-mail-qualification).
+* **Errore sincrono**: il server remoto contattato dal server di consegna Adobe Campaign restituisce immediatamente un messaggio di errore. La consegna non può essere inviata al server del profilo. L’MTA avanzato determina il tipo di messaggio non recapitato e qualifica l’errore e invia nuovamente tali informazioni a Campaign per determinare se gli indirizzi e-mail in questione devono essere messi in quarantena. Consulta [Qualificazione di mail non recapitate](#bounce-mail-qualification).
 
 * **Errore asincrono**: una mail non recapitata o un SR viene inviato successivamente dal server ricevente. Questo errore è qualificato con un&#39;etichetta relativa all&#39;errore. Gli errori asincroni possono verificarsi fino a una settimana dopo l’invio di una consegna.
 
-   >[!NOTE]
-   >
-   >In qualità di utente Managed Services, la configurazione della cassetta postale di rimbalzo viene eseguita per Adobe.
+>[!NOTE]
+>
+>In qualità di utente Managed Services, la configurazione della cassetta postale di rimbalzo viene eseguita per Adobe.
 
-   Il ciclo di feedback funziona come e-mail non recapitate: quando un utente qualifica un’e-mail come posta indesiderata, puoi configurare le regole e-mail in Adobe Campaign per bloccare tutte le consegne a questo utente. Gli indirizzi di questi utenti sono in elenco Bloccati anche se non hanno fatto clic sul collegamento di annullamento dell’abbonamento. Gli indirizzi sono in elenco Bloccati nel (**NmsAddress**) tabella di quarantena e non in (**NmsRecipient**) tabella dei destinatari. Ulteriori informazioni sul meccanismo del ciclo di feedback in [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops).
+## Qualificazione di mail non recapitate {#bounce-mail-qualification}
+
+<!--NO LONGER WITH MOMENTUM - Rules used by Campaign to qualify delivery failures are listed in the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** node. It is non-exhaustive, and is regularly updated by Adobe Campaign and can also be managed by the user.
+
+![](assets/delivery-log-qualification.png)-->
+
+Attualmente, il modo in cui la qualifica della posta non recapitata viene gestita in Adobe Campaign dipende dal tipo di errore:
+
+* **Errori sincroni**: L’MTA avanzato determina il tipo di messaggio non recapitato e la relativa qualifica e invia nuovamente tali informazioni a Campaign. Le qualifiche non recapitate nel **[!UICONTROL Delivery log qualification]** tabella non utilizzata per **sincrono** messaggi di errore di consegna.
+
+* **Errori asincroni**: Le regole utilizzate da Campaign per qualificare gli errori di consegna asincroni sono elencate in **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** nodo. I messaggi non recapitati asincroni sono qualificati dal processo inMail attraverso **[!UICONTROL Inbound email]** regole. Per ulteriori informazioni, consulta [Documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target=&quot;_blank&quot;}.
+
+<!--NO LONGER WITH MOMENTUM - The message returned by the remote server on the first occurrence of this error type is displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Audit]** tab.
+
+![](assets/delivery-log-first-txt.png)
+
+Adobe Campaign filters this message to delete the variable content (such as IDs, dates, email addresses, phone numbers, etc.) and displays the filtered result in the **[!UICONTROL Text]** column. The variables are replaced with **`#xxx#`**, except addresses that are replaced with **`*`**.
+
+This process allows to bring together all failures of the same type and avoid multiple entries for similar errors in the Delivery log qualification table.
+  
+>[!NOTE]
+>
+>The **[!UICONTROL Number of occurrences]** field displays the number of occurrences of the message in the list. It is limited to 100 000 occurrences. You can edit the field, if you want, for example, to reset it.
+
+Bounce mails can have the following qualification status:
+
+* **[!UICONTROL To qualify]** : the bounce mail could not be qualified. Qualification must be assigned to the Deliverability team to guarantee efficient platform deliverability. As long as it is not qualified, the bounce mail is not used to enrich the list of email management rules.
+* **[!UICONTROL Keep]** : the bounce mail was qualified and will be used by the **Refresh for deliverability** workflow to be compared to existing email management rules and enrich the list.
+* **[!UICONTROL Ignore]** : the bounce mail is ignored, meaning that this bounce will never cause the recipient's address to be quarantined. It will not be used by the **Refresh for deliverability** workflow and it will not be sent to client instances.
+
+![](assets/delivery-log-status.png)
+
+>[!NOTE]
+>
+>In case of an outage of an ISP, emails sent through Campaign will be wrongly marked as bounces. To correct this, you need to update bounce qualification.-->
 
 
+## Gestione dei tentativi {#retries}
+
+Se la consegna del messaggio non riesce a seguito di un errore temporaneo (**Morbido** o **Ignorato**), Campaign tenta nuovamente di inviare. Questi tentativi possono essere eseguiti fino alla fine della durata della consegna.
+
+Il numero e la frequenza dei nuovi tentativi sono impostati dall’MTA avanzato, in base al tipo e alla gravità delle risposte non recapitate provenienti dall’ISP del messaggio.
+
+<!--NO LONGER WITH MOMENTUM - The default configuration defines five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally or for each delivery or delivery template. If you need to adapt delivery duration and retries, contact Adobe Support.-->
 
 ## Tipi di errore e-mail {#email-error-types}
 
@@ -197,7 +195,7 @@ Per il canale e-mail, i possibili motivi di un errore di consegna sono elencati 
    <td> Non definito </td> 
    <td> Non definito </td> 
    <td> 0 </td> 
-   <td> L’indirizzo è in qualificazione perché l’errore non è ancora stato incrementato. Questo tipo di errore si verifica quando un nuovo messaggio di errore viene inviato dal server: può essere un errore isolato, ma se si verifica di nuovo, il contatore degli errori aumenta, avvisando i team tecnici. Possono quindi eseguire un'analisi dei messaggi e qualificare questo errore tramite il <span class="uicontrol">Amministrazione</span> / <span class="uicontrol">Gestione delle campagne</span> / <span class="uicontrol">Gestione non consegnabili</span> nella struttura ad albero.<br /> </td> 
+   <td> L’indirizzo è in qualificazione perché l’errore non è ancora stato incrementato. Questo tipo di errore si verifica quando un nuovo messaggio di errore viene inviato dal server: può essere un errore isolato, ma se si verifica di nuovo, il contatore degli errori aumenta, avvisando i team tecnici. Possono quindi eseguire un'analisi dei messaggi e qualificare questo errore tramite il <span class="uicontrol">Amministrazione</span> / <span class="uicontrol">Campaign Management</span> / <span class="uicontrol">Gestione non consegnabili</span> nella struttura ad albero.<br /> </td> 
   </tr> 
   <tr> 
    <td> Non ammissibile alle offerte </td> 

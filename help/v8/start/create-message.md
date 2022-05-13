@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 7234ca65f785b005b11851a5cd88add8cddeff4f
+source-git-commit: 79a220ad9c9c372b64db9a33efc1843c95a2a619
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 100%
@@ -34,7 +34,7 @@ Adobe Campaign v8 è dotato dei canali di consegna seguenti:
 * **LINE channel**: LINE deliveries let you send messages on LINE, an instant messaging application available on all smartphones. Learn more in [this page](../send/line.md)
 -->
 
-## Scegli come inviare i messaggi
+## Scegli come inviare i messaggi{#gs-send-msg}
 
 Dopo aver creato il messaggio e averne progettato e testato il relativo contenuto, puoi scegliere come inviarlo. Campaign offre una serie di funzionalità per:
 
@@ -66,7 +66,7 @@ Dopo aver creato il messaggio e averne progettato e testato il relativo contenut
    ![](../assets/do-not-localize/book.png) [Caso d’uso: scopri come pianificare e inviare un’e-mail di compleanno](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/sending-a-birthday-email.html?lang=it){target=&quot;_blank&quot;}
 
 
-## Aggiungi personalizzazione
+## Aggiungi personalizzazione{#personalization}
 
 I messaggi consegnati da Adobe Campaign possono essere personalizzati in vari modi.
 
@@ -79,17 +79,17 @@ Puoi:
 * Creare contenuti condizionali
    ![](../assets/do-not-localize/book.png) Scopri come inserire contenuti condizionali nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/conditional-content.html?lang=it){target=&quot;_blank&quot;}
 
-## Inviare messaggi transazionali
+## Inviare messaggi transazionali{#gs-transac-messages}
 
 La messaggistica transazionale (Message Center) è il modulo di Campaign progettato per la gestione dei messaggi di attivazione.
 
-![](../assets/do-not-localize/glass.png) Scopri le funzionalità per messaggi transazionali in [questa sezione](../dev/architecture.md#transac-msg-archi)
+![](../assets/do-not-localize/glass.png) Scopri le funzionalità per messaggi transazionali in [questa sezione](../architecture/architecture.md#transac-msg-archi)
 
 ![](../assets/do-not-localize/glass.png) Scopri come configurare e inviare messaggi transazionali in [questa pagina](../send/transactional.md)
 
 ![](../assets/do-not-localize/book.png) Scopri questa funzionalità con un caso d’uso end-to-end descritto nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=it){target=&quot;_blank&quot;}
 
-## Registri di consegna e di tracciamento
+## Registri di consegna e di tracciamento{#gs-tracking-logs}
 
 Il monitoraggio delle consegne dopo l’invio è un passaggio fondamentale per garantire l’efficienza delle campagne di marketing e l’effettivo raggiungimento dei clienti. Puoi monitorare una consegna, oltre a capire come vengono gestiti errori e quarantene.
 

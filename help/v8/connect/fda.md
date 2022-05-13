@@ -5,9 +5,9 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
-source-git-commit: 2d0b40e49afdfd71e8bb5c3f0b1d569a715420b2
+source-git-commit: 355b9219ffd9d481d15d2d0982d49923842cc27b
 workflow-type: tm+mt
-source-wordcount: '1841'
+source-wordcount: '1699'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,11 @@ Usa il connettore FDA (Federated Data Access) per collegare Campaign a uno o pi�
 
 >[!NOTE]
 >
->I database compatibili per FDA sono elencati in [Matrice di compatibilità](../start/compatibility-matrix.md).
+>* I database compatibili per FDA sono elencati in [Matrice di compatibilità](../start/compatibility-matrix.md).
+>
+>* Nel contesto di un [Distribuzione aziendale (FFDA)](../architecture/enterprise-deployment.md), è disponibile un account esterno specifico per gestire la comunicazione tra il database locale di Campaign e il database cloud di Snowflake. Questo account esterno è configurato per l&#39;utente tramite Adobe e non deve essere modificato.
+>
+
 
 L’opzione FDA di Campaign ti consente di estendere il modello dati in un database di terze parti. Rileva automaticamente la struttura delle tabelle di destinazione e utilizza i dati dalle origini SQL.
 
@@ -56,7 +60,12 @@ Per impostare l&#39;accesso a un database esterno con FDA, i passaggi di configu
 1. In qualità di utente di Adobe Managed Services, contatta l’Adobe per installare i driver nell’istanza Campaign.
 1. Una volta installati i driver, configura l&#39;account esterno corrispondente al database sul server Adobe Campaign e verifica l&#39;account esterno. [Ulteriori informazioni](#fda-external-account)
 1. Crea lo schema del database esterno in Adobe Campaign. Ciò ti consente di identificare la struttura dati del database esterno. [Ulteriori informazioni](#create-data-schema)
-1. Se necessario, crea una nuova mappatura di destinazione dallo schema creato in precedenza. Questo è necessario se i destinatari delle consegne provengono dal database esterno. Questa implementazione include limitazioni relative alla personalizzazione dei messaggi. [Ulteriori informazioni](#define-data-mapping)
+
+<!--
+1. If needed, create a new target mapping from the previously created schema. This is required if the recipients of your deliveries come from the external database. This implementation comes with limitations related to message personalization. [Learn more](#define-data-mapping)
+-->
+
+Tieni presente che con Campaign [Distribuzione aziendale (FFDA)](../architecture/enterprise-deployment.md), non è possibile creare una mappatura di destinazione da uno schema memorizzato in un database esterno a cui si accede da FDA. Di conseguenza, i destinatari delle consegne non possono provenire dal database esterno.
 
 ## Account esterno database esterno esterno{#fda-external-account}
 
@@ -121,39 +130,40 @@ Per creare lo schema del database esterno in Adobe Campaign, effettua le seguent
 
 1. Fai clic su **[!UICONTROL Save]** per confermare la creazione.
 
-## Definire la mappatura target{#define-data-mapping}
+<!-- 
+## Define the target mapping{#define-data-mapping}
 
-Puoi definire una mappatura sui dati in una tabella esterna.
+You can define a mapping on the data in an external table.
 
-A questo scopo, una volta creato lo schema della tabella esterna, devi creare una nuova mappatura della consegna per utilizzare i dati presenti in questa tabella come destinazione della consegna.
+To do this, once the schema of the external table has been created, you need to create a new delivery mapping to use the data in this table as a delivery target.
 
-Per farlo, esegui questi passaggi:
+To do this, follow these steps:
 
-1. Sfoglia per **[!UICONTROL Administration]** `>` **[!UICONTROL Campaign Management]** `>` **[!UICONTROL Target mappings]** da Adobe Campaign explorer.
+1. Browse to **[!UICONTROL Administration]** `>` **[!UICONTROL Campaign Management]** `>` **[!UICONTROL Target mappings]** from Adobe Campaign explorer.
 
-1. Crea una nuova mappatura di destinazione e seleziona lo schema appena creato come dimensione di targeting.
+1. Create a new target mapping and select the schema you just created as the targeting dimension.
 
    ![](assets/new-target-mapping.png)
 
 
-1. Indica i campi in cui sono memorizzate le informazioni di consegna (cognome, nome, e-mail, indirizzo, ecc.).
+1. Indicate the fields where the delivery information is stored (last name, first name, email, address, etc.).
 
    ![](assets/wf_new_mapping_define_join.png)
 
-1. Specifica i parametri per l’archiviazione delle informazioni, compreso il suffisso degli schemi di estensione per facilitarne l’identificazione.
+1. Specify the parameters for information storage, including the suffix of the extension schemas for them to be easily identifiable.
 
    ![](assets/wf_new_mapping_define_names.png)
 
-   Puoi scegliere di memorizzare le esclusioni (**excludelog**), con messaggi (**broadlog**) o in una tabella separata.
+   You can choose whether to store exclusions (**excludelog**), with messages (**broadlog**) or in a separate table.
 
-   Puoi anche scegliere di gestire il tracciamento per questa mappatura della consegna (**trackinglog**).
+   You can also choose whether to manage tracking for this delivery mapping (**trackinglog**).
 
-1. Quindi seleziona le estensioni da prendere in considerazione. Il tipo di estensione dipende dai parametri e dalle opzioni della piattaforma (visualizza il contratto di licenza).
+1. Then select the extensions to be taken into account. The extension type depends on your platform's parameters and options (view your license contract).
 
    ![](assets/wf_new_mapping_define_extensions.png)
 
-   Fai clic sul pulsante **[!UICONTROL Save]** pulsante per avviare la creazione della mappatura della consegna: tutte le tabelle collegate vengono create automaticamente in base ai parametri selezionati.
-
+   Click the **[!UICONTROL Save]** button to launch delivery mapping creation: all linked tables are created automatically based on the selected parameters.
+-->
 
 ## Autorizzazioni{#fda-permissions}
 

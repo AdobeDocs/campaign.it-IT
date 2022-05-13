@@ -5,10 +5,10 @@ feature: Audiences
 role: Data Engineer
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: 36b7a7be766febca4448c6114f5acac35e30873a
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 100%
+source-wordcount: '905'
+ht-degree: 82%
 
 ---
 
@@ -18,13 +18,13 @@ Adobe Campaign offre un serie di soluzioni che consentono di personalizzare e di
 
 Le campagne includono azioni (consegne), processi (importazione o estrazione file) e risorse (documenti di marketing, descrizioni della consegna). Vengono utilizzati nelle campagne di marketing. Le campagne fanno parte di un programma e i programmi sono inclusi in un piano di campagna.
 
-## Orchestrazione di campagne cross-channel
+## Orchestrazione di campagne cross-channel{#cross-channel-orchestration}
 
  Adobe Campaign ti consente di progettare e orchestrare campagne mirate e personalizzate su più canali: e-mail, direct mail, SMS, notifica push. Un’unica interfaccia ti offre tutte le funzioni necessarie per pianificare, orchestrare, configurare, personalizzare, automatizzare, eseguire e misurare tutte le tue campagne e comunicazioni.
 
 ![](assets/campaign-tab.png)
 
-### Concetti principali
+### Concetti principali{#ac-core-concepts}
 
 Prima di iniziare a implementare le campagne di marketing, devi acquisire familiarità con i concetti seguenti:
 
@@ -40,7 +40,7 @@ Prima di iniziare a implementare le campagne di marketing, devi acquisire famili
 
 * **Campagne periodiche**: una campagna periodica è una campagna creata automaticamente in base alla pianificazione di esecuzione del relativo modello.
 
-## Area di lavoro di una campagna di marketing
+## Area di lavoro di una campagna di marketing{#ac-workspace}
 
 Adobe Campaign consente di creare, configurare, eseguire e analizzare tutte le campagne di marketing da un centro di controllo unificato.
 
@@ -49,7 +49,7 @@ Adobe Campaign consente di creare, configurare, eseguire e analizzare tutte le c
 ![](../assets/do-not-localize/book.png) Scopri come accedere e implementare campagne di marketing nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/about-marketing-campaigns/accessing-marketing-campaigns.html?lang=it#orchestrating-campaigns){target=&quot;_blank&quot;}
 
 
-## Passaggi principali per iniziare
+## Passaggi principali per iniziare{#gs-ac-start}
 
 I passaggi principali per creare una campagna di marketing cross-channel sono i seguenti:
 
@@ -90,4 +90,25 @@ I passaggi principali per creare una campagna di marketing cross-channel sono i 
    Adobe Campaign consente di impostare processi di approvazione collaborativa per le fasi principali della campagna di marketing. Per ogni campagna puoi approvare il target di consegna, i contenuti e i costi. Gli operatori di Adobe Campaign incaricati dell’approvazione possono ricevere una notifica tramite e-mail e accettare o rifiutare l’approvazione dalla console o tramite una connessione web.
 
    ![](../assets/do-not-localize/book.png) Scopri come impostare e gestire le approvazioni nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=it#orchestrating-campaigns){target=&quot;_blank&quot;}
+
+
+## Componente aggiuntivo Marketing distribuito{#distributed-marketing-add-on}
+
+Adobe Campaign offre un **Marketing distribuito** add-on per l&#39;attuazione di campagne di cooperazione tra enti centrali (sedi centrali, dipartimenti di marketing, ecc.) ed enti locali (negozi, agenzie regionali, ecc.). Questa cooperazione si basa su un&#39;area di lavoro condivisa nota come **[!UICONTROL List of campaign packages]**, in cui i modelli di campagna progettati da entità centrali vengono offerti agli enti locali.
+
+>[!NOTE]
+>
+>Questa funzionalità è disponibile a partire da Campaign v8.3. Per verificare la versione, consulta [questa sezione](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+
+[](../assets/do-not-localize/book.png) Scopri come configurare e utilizzare le funzionalità di Marketing distribuito di Campaign in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/distributed-marketing/about-distributed-marketing.html){target=&quot;_blank&quot;}
+
+## Componente aggiuntivo Marketing distribuito{#response-manager-add-on}
+
+Adobe Campaign offre un **Gestione della risposta** add-on che consente di misurare il successo e la redditività delle campagne di marketing o delle proposte di offerte tra canali di comunicazione: e-mail, dispositivi mobili, direct mailing, ecc.
+
+>[!NOTE]
+>
+>Questa funzionalità è disponibile a partire da Campaign v8.3. Per verificare la versione, consulta [questa sezione](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+
+[](../assets/do-not-localize/book.png) Scopri come configurare e utilizzare Campaign Response Manager in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html){target=&quot;_blank&quot;}
 
