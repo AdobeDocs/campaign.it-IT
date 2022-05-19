@@ -4,7 +4,8 @@ description: Scopri l’ambito e le specificità dell’invio di e-mail con l’
 feature: Email
 role: Data Engineer
 level: Beginner
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
+source-git-commit: 0fa0db62f45097755bebcbf434614c4c835d886a
 workflow-type: tm+mt
 source-wordcount: '972'
 ht-degree: 4%
@@ -112,4 +113,3 @@ La tabella seguente mostra come gli stati dei KPI e dei log di invio vengono agg
 | I messaggi di rimbalzo morbido vengono segnalati nuovamente dall’MTA avanzato | Nessuna modifica in **[!UICONTROL Success]** percentuale | Presa in considerazione dal fornitore di servizi |
 | I nuovi tentativi dei messaggi di rimbalzo non sono riusciti | **[!UICONTROL Success]** la percentuale viene aumentata di conseguenza | Inviato |
 | Messaggi di rimbalzo morbido non riusciti | Nessuna modifica in **[!UICONTROL Success]** percentuale | Non riuscito |
-
