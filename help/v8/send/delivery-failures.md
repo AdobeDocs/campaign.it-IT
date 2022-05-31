@@ -5,9 +5,9 @@ feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 9fa6666532a6943c438268d7ea832f0908588208
 workflow-type: tm+mt
-source-wordcount: '2849'
+source-wordcount: '3009'
 ht-degree: 6%
 
 ---
@@ -48,7 +48,7 @@ La consegna di un messaggio può non riuscire immediatamente. In tal caso, viene
 
 Questi tipi di errori vengono gestiti come segue:
 
-* **Errore sincrono**: il server remoto contattato dal server di consegna Adobe Campaign restituisce immediatamente un messaggio di errore. La consegna non può essere inviata al server del profilo. L’MTA avanzato determina il tipo di messaggio non recapitato e qualifica l’errore e invia nuovamente tali informazioni a Campaign per determinare se gli indirizzi e-mail in questione devono essere messi in quarantena. Consulta [Qualificazione di mail non recapitate](#bounce-mail-qualification).
+* **Errore sincrono**: il server remoto contattato dal server di consegna Adobe Campaign restituisce immediatamente un messaggio di errore. La consegna non può essere inviata al server del profilo. L’agente di trasferimento della posta (MTA) determina il tipo di messaggio non recapitato e qualifica l’errore e invia tali informazioni a Campaign per determinare se gli indirizzi e-mail in questione devono essere messi in quarantena. Consulta [Qualificazione di mail non recapitate](#bounce-mail-qualification).
 
 * **Errore asincrono**: una mail non recapitata o un SR viene inviato successivamente dal server ricevente. Questo errore è qualificato con un&#39;etichetta relativa all&#39;errore. Gli errori asincroni possono verificarsi fino a una settimana dopo l’invio di una consegna.
 
@@ -64,7 +64,7 @@ Questi tipi di errori vengono gestiti come segue:
 
 Attualmente, il modo in cui la qualifica della posta non recapitata viene gestita in Adobe Campaign dipende dal tipo di errore:
 
-* **Errori sincroni**: L’MTA avanzato determina il tipo di messaggio non recapitato e la relativa qualifica e invia nuovamente tali informazioni a Campaign. Le qualifiche non recapitate nel **[!UICONTROL Delivery log qualification]** tabella non utilizzata per **sincrono** messaggi di errore di consegna.
+* **Errori sincroni**: L’MTA determina il tipo di messaggio non recapitato e la relativa qualifica e invia nuovamente tali informazioni a Campaign. Le qualifiche non recapitate nel **[!UICONTROL Delivery log qualification]** tabella non utilizzata per **sincrono** messaggi di errore di consegna.
 
 * **Errori asincroni**: Le regole utilizzate da Campaign per qualificare gli errori di consegna asincroni sono elencate in **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** nodo. I messaggi non recapitati asincroni sono qualificati dal processo inMail attraverso **[!UICONTROL Inbound email]** regole. Per ulteriori informazioni, consulta [Documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target=&quot;_blank&quot;}.
 
@@ -97,9 +97,22 @@ Bounce mails can have the following qualification status:
 
 Se la consegna del messaggio non riesce a seguito di un errore temporaneo (**Morbido** o **Ignorato**), Campaign tenta nuovamente di inviare. Questi tentativi possono essere eseguiti fino alla fine della durata della consegna.
 
-Il numero e la frequenza dei nuovi tentativi sono impostati dall’MTA avanzato, in base al tipo e alla gravità delle risposte non recapitate provenienti dall’ISP del messaggio.
+I nuovi tentativi di mancato recapito e il periodo di tempo che li separa sono determinati dall’MTA in base al tipo e alla gravità delle risposte non recapitate provenienti dal dominio e-mail del messaggio.
 
-<!--NO LONGER WITH MOMENTUM - The default configuration defines five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally or for each delivery or delivery template. If you need to adapt delivery duration and retries, contact Adobe Support.-->
+>[!NOTE]
+>
+>Le impostazioni relative ai tentativi nelle proprietà di consegna non vengono utilizzate da Campaign.
+
+## Periodo di validità
+
+L’impostazione del periodo di validità nelle consegne di Campaign è limitata a **3,5 giorni o meno**. Per una consegna, se definisci un valore superiore a 3,5 giorni in Campaign, non verrà preso in considerazione.
+
+Ad esempio, se il periodo di validità è impostato sul valore predefinito di 5 giorni in Campaign, i messaggi di rimbalzo soft verranno inseriti nella coda dei nuovi tentativi MTA e verranno ritentati per un massimo di 3,5 giorni a partire dal momento in cui il messaggio ha raggiunto l’MTA. In tal caso, il valore impostato in Campaign non verrà utilizzato.
+
+Una volta che un messaggio è rimasto nella coda dell’MTA per 3,5 giorni e la consegna non è riuscita, si verificherà un timeout e il suo stato verrà aggiornato da **[!UICONTROL Sent]** a **[!UICONTROL Failed]** nei registri di consegna.
+
+Per ulteriori informazioni sul periodo di validità, consulta la sezione [Documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target=&quot;_blank&quot;}.
+
 
 ## Tipi di errore e-mail {#email-error-types}
 
@@ -195,7 +208,7 @@ Per il canale e-mail, i possibili motivi di un errore di consegna sono elencati 
    <td> Non definito </td> 
    <td> Non definito </td> 
    <td> 0 </td> 
-   <td> L’indirizzo è in qualificazione perché l’errore non è ancora stato incrementato. Questo tipo di errore si verifica quando un nuovo messaggio di errore viene inviato dal server: può essere un errore isolato, ma se si verifica di nuovo, il contatore degli errori aumenta, avvisando i team tecnici. Possono quindi eseguire un'analisi dei messaggi e qualificare questo errore tramite il <span class="uicontrol">Amministrazione</span> / <span class="uicontrol">Gestione delle campagne</span> / <span class="uicontrol">Gestione non consegnabili</span> nella struttura ad albero.<br /> </td> 
+   <td> L’indirizzo è in qualificazione perché l’errore non è ancora stato incrementato. Questo tipo di errore si verifica quando un nuovo messaggio di errore viene inviato dal server: può essere un errore isolato, ma se si verifica di nuovo, il contatore degli errori aumenta, avvisando i team tecnici. Possono quindi eseguire un'analisi dei messaggi e qualificare questo errore tramite il <span class="uicontrol">Amministrazione</span> / <span class="uicontrol">Campaign Management</span> / <span class="uicontrol">Gestione non consegnabili</span> nella struttura ad albero.<br /> </td> 
   </tr> 
   <tr> 
    <td> Non ammissibile alle offerte </td> 
