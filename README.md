@@ -1,6 +1,6 @@
 ---
 source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '430'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Il tipo di collaborazione dipende da chi effettua l’intervento e dal tipo di m
 
 ### Modifiche minori
 
-Se desideri collaborare con piccoli aggiornamenti per altruismo, leggi l&#39;articolo e fai clic sul collegamento **Modifica** per aprire la sorgente in GitHub. Quindi, utilizza l’interfaccia utente GitHub per effettuare gli aggiornamenti. Per ulteriori informazioni, consulta la [Adobe Docs Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html).
+Se desideri collaborare con piccoli aggiornamenti per altruismo, leggi l&#39;articolo e fai clic sul collegamento **Modifica** per aprire la sorgente in GitHub. Quindi, utilizza l’interfaccia utente GitHub per effettuare gli aggiornamenti. Per ulteriori informazioni, consulta la [Adobe Docs Contributor Guide](https://docs.adobe.com/content/help/it/contributor/contributor-guide/introduction.html).
 
 Le correzioni minori o i chiarimenti alla documentazione e gli esempi di codice in questo archivio sono coperti dai termini di utilizzo Adobe.
 
@@ -44,7 +44,7 @@ Gli autori tecnici, i responsabili di programma o gli sviluppatori del team di p
 
 I collaboratori della community possono utilizzare l’interfaccia utente di GitHub per effettuare modifiche di base o creare un fork dell&#39;archivio per apportare contributi più sostanziosi.
 
-Per informazioni dettagliate, consulta la [Adobe Docs Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html).
+Per informazioni dettagliate, consulta la [Adobe Docs Contributor Guide](https://docs.adobe.com/content/help/it/contributor/contributor-guide/introduction.html).
 
 ## Come utilizzare markdown per formattare l&#39;argomento
 
