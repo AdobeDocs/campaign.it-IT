@@ -7,9 +7,9 @@ level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2161'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ _18 maggio 2022_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Con iOS 15, Apple ha aggiunto un concetto di notifica sensibile che dà il controllo allo sviluppatore dell’app di ignorare la modalità di attivazione quando una notifica è considerata sensibile e deve quindi raggiungere l’utente in tempo reale.</p>
+<td> <p>Con iOS 15, Apple ha aggiunto un concetto di notifica sensibile che permette allo sviluppatore dell’app di ignorare la modalità di attivazione quando una notifica è considerata sensibile e deve quindi raggiungere l’utente in tempo reale.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../send/push.md#send-notifications-on-ios">documentazione dettagliata</a>.</p>
 </td> 
 </tr> 
@@ -64,7 +64,7 @@ _18 maggio 2022_
 <tbody>
 <tr>
 <td>
-<p>Gestione della risposta alle campagne consente di misurare il successo e il ROI delle campagne di marketing o delle proposte di offerta su tutti i canali: e-mail, dispositivi mobili, direct mailing, ecc.</p>
+<p>Gestione della risposta di Campaign consente di misurare il successo e il ROI delle campagne di marketing o delle proposte di offerta su tutti i canali: e-mail, dispositivi mobili, direct mailing, ecc.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../start/campaigns.md#response-manager-add-on">documentazione dettagliata</a>.</p>
 </td>
 </tr>
@@ -79,7 +79,7 @@ _18 maggio 2022_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Campaign Distributed Marketing consente di implementare campagne di collaborazione tra entità centrali (sedi centrali, dipartimenti di marketing, ecc.) e gli enti locali (punti vendita, agenzie regionali, ecc.). Tramite un’area di lavoro condivisa (pacchetti di campagne), puoi creare modelli di campagna e proporli alle entità locali.</p>
+<td> <p>Marketing distribuito di Campaign consente di implementare campagne di collaborazione tra entità centrali (sedi centrali, dipartimenti di marketing, ecc.) e gli enti locali (punti vendita, agenzie regionali, ecc.). Tramite un’area di lavoro condivisa (pacchetti di campagne), puoi creare modelli di campagna e proporli alle entità locali.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../start/campaigns.md#distributed-marketing-add-on">documentazione dettagliata</a>.</p>
 </td> 
 </tr> 
@@ -107,9 +107,9 @@ Consulta la [Matrice di compatibilità di Campaign](compatibility-matrix.md).
 
 **Patch**
 
-* È stato risolto un problema che si verificava durante l’utilizzo di semi e gruppi di controllo nella stessa consegna ricorrente. (NEO-41197)
-* È stato risolto un problema su FFDA che causava il blocco dell’invio di e-mail per tutti i destinatari appartenenti alla stessa deliveryPart durante il processo di invio (fino a 256) quando i blocchi di personalizzazione contenevano uno dei seguenti caratteri: `' & < > "`. Questi caratteri ora sono supportati nei blocchi di personalizzazione (ad esempio: firstname=&quot;Brian O&#39;Neil&quot;). (NEO-43184)
-* È stato risolto un problema che poteva causare un errore nel flusso di lavoro di tracciamento quando si utilizzava uno schema personalizzato come mappatura di destinazione. Ora assicuriamo che il tipo di collegamento esterno a uno schema di targeting personalizzato sia corretto durante la generazione dello schema wideLog tramite la procedura guidata di mappatura di destinazione. (NEO-43506)
+* È stato risolto un problema che si verificava durante l’utilizzo di seed e gruppi di controllo nella stessa consegna ricorrente. (NEO-41197)
+* È stato risolto un problema su FFDA che causava il blocco dell’invio di e-mail per tutti i destinatari appartenenti alla stessa deliveryPart durante il processo di invio (fino a 256) quando i blocchi di personalizzazione contenevano uno dei seguenti caratteri: `' & < > "`. Questi caratteri ora sono supportati nei blocchi di personalizzazione (ad esempio: nome=“Brian O&#39;Neil”). (NEO-43184)
+* È stato risolto un problema che poteva causare un errore nel flusso di lavoro di tracciamento quando si utilizzava uno schema personalizzato come mappatura di destinazione. Ora assicuriamo che il tipo di collegamento esterno a uno schema di targeting personalizzato sia corretto durante la generazione dello schema broadLog tramite la procedura guidata di mappatura di destinazione. (NEO-43506)
 * È stato risolto un problema che poteva causare il mancato funzionamento dei flussi di lavoro di distribuzione FFDA per lingue diverse dall’inglese. (NEO-44561)
 
 ## Versione 8.2.10 {#release-8-2-10}
