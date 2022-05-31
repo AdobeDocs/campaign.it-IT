@@ -7,7 +7,7 @@ title: Documenti di Campaign v8
 source-git-commit: 9fa6666532a6943c438268d7ea832f0908588208
 workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 92%
+ht-degree: 97%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 92%
    + [Principi globali](architecture/general-architecture.md)
    + [Architettura](architecture/architecture.md)
    + Distribuzione di Snowflake FDA {#fda}
-      + [Cos&#39;è il Snowflake FDA?](architecture/fda-deployment.md)
+      + [Cos’è Snowflake FDA?](architecture/fda-deployment.md)
    + Distribuzione aziendale (FFDA) {#ffda}
       + [Cos’è Campaign FFDA?](architecture/enterprise-deployment.md)
       + Caratteristiche {#ffda-characteristics}
