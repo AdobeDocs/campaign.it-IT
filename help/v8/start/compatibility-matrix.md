@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
 source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '356'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ I seguenti browser sono compatibili con Campaign per l’[accesso web](connect.m
 
 * **Microsoft Edge**, **Mozilla Firefox**, **Google Chrome**, **Safari** (versioni più recenti)
 
-## Controllare la versione e la compilazione di Campaign{#version}
+## Come selezionare la versione di Campaign{#version}
 
 Utilizza il menu **Aiuto > Informazioni su** per controllare la versione in uso.
 
