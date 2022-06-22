@@ -7,7 +7,7 @@ level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2161'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ _18 maggio 2022_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Con iOS 15, Apple ha aggiunto un concetto di notifica sensibile che permette allo sviluppatore dell’app di ignorare la modalità di attivazione quando una notifica è considerata sensibile e deve quindi raggiungere l’utente in tempo reale.</p>
+<td> <p>Con iOS 15, Apple ha aggiunto il concetto di “notifiche urgenti” che permette allo sviluppatore dell’app di ignorare la modalità di attivazione quando una notifica è considerata urgente e deve quindi raggiungere l’utente in tempo reale.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../send/push.md#send-notifications-on-ios">documentazione dettagliata</a>.</p>
 </td> 
 </tr> 
