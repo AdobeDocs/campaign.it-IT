@@ -6,10 +6,10 @@ role: Data Engineer
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 1b88ca57858efbfec6467452677620d59e9c9e32
+source-git-commit: fe425f9309af31a13b52695b103d530a6b89e3b1
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 2%
+source-wordcount: '433'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ In questa pagina sono elencati i problemi noti identificati nel **ultima version
 >
 >L’Adobe pubblica a propria discrezione questo elenco di questioni note. Si basa sul numero di rapporti sui clienti, sulla gravità e sulla disponibilità della soluzione alternativa. Se un problema che stai riscontrando non è presente nell’elenco, potrebbe non corrispondere ai criteri di pubblicazione in questa pagina.
 
-## Modifica problema dell’attività Origine dati {#issue-1}
+## Cambia problema dell’attività Origine dati n. 1 {#issue-1}
 
 ### Descrizione{#issue-1-desc}
 
@@ -57,7 +57,7 @@ Riferimento: NEO-45549
 
 
 
-## Modifica attività Origine dati non riuscita a causa di una barra rovesciata {#issue-2}
+## Cambia il problema dell’attività Origine dati #2 {#issue-2}
 
 ### Descrizione{#issue-2-desc}
 
