@@ -6,10 +6,10 @@ role: Data Engineer
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 2705e9b23f9f8a61f799381434f7e94a226de1b9
+source-git-commit: 1b88ca57858efbfec6467452677620d59e9c9e32
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 3%
+source-wordcount: '437'
+ht-degree: 2%
 
 ---
 
@@ -57,11 +57,11 @@ Riferimento: NEO-45549
 
 
 
-## Caricamento dati (file) non riuscito a causa di una barra rovesciata {#issue-2}
+## Modifica attività Origine dati non riuscita a causa di una barra rovesciata {#issue-2}
 
 ### Descrizione{#issue-2-desc}
 
-Quando si inseriscono dati nel database cloud di Snowflake con un’attività di caricamento di Campaign, il processo non riesce quando nel file di origine è presente un carattere barra rovesciata. La stringa non è preceduta da un escape e i dati non vengono elaborati correttamente sul Snowflake.
+Durante l’inserimento di dati nel database cloud di Snowflake con una campagna **Query** e **Cambia origine dati** attività , il processo non riesce quando nei dati è presente un carattere barra rovesciata. La stringa di origine non è preceduta da escape e i dati non vengono elaborati correttamente sul Snowflake.
 
 Questo problema si verifica solo se il carattere della barra rovesciata si trova alla fine della stringa, ad esempio: `Barker\`.
 
@@ -69,8 +69,9 @@ Questo problema si verifica solo se il carattere della barra rovesciata si trova
 ### Passaggi di riproduzione{#issue-2-repro}
 
 1. Collegati alla console client e crea un flusso di lavoro.
-1. Aggiungi un **Caricamento dati (file)** e configuralo.
-1. Selezionare un file locale con le caratteristiche descritte sopra.
+1. Aggiungi un **Query** e configuralo.
+1. Selezionare i dati con le caratteristiche descritte sopra.
+1. Aggiungi un **Cambia origine dati** e configuralo per selezionare il database cloud di Snowflake.
 1. Esegui il flusso di lavoro e controlla i registri del flusso di lavoro per visualizzare l’errore.
 
 
