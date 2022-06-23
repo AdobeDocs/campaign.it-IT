@@ -6,7 +6,7 @@ role: Data Engineer
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 5fe921e83f36675837b72ca282315692151dcf67
+source-git-commit: c803c13c6d433d2c6730f32f43209c8effab1fde
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 3%
@@ -120,9 +120,9 @@ Il processo non finisce mai.
 
 La soluzione consiste nell’utilizzare una console client precedente. Potrai quindi caricare il file sul server.
 
-In qualità di amministratore di Campaign, puoi scaricare la console del client Campaign v8.3.1 in [Servizio di distribuzione Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&amp;1_group.property.operation=equals&amp;1_group.property.values.0_values=target-version%3AcamCampaign%2F8&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;orderby.sort=desc&amp;desc=list&amp;p.offset=0&amp;p.limit=4){target=&quot;_blank&quot;}.
+In qualità di amministratore di Campaign, puoi scaricare la console del client Campaign v8.3.1 in [Distribuzione di software di Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&amp;1_group.property.operation=equals&amp;1_group.property.values.0_values=target-version%3AcamCampaign%2F8&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;orderby.sort=desc&amp;desc=list&amp;p.offset=0&amp;p.limit=4){target=&quot;_blank&quot;}.
 
-Scopri come accedere al servizio di distribuzione Adobe [in questa pagina](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=it){target=&quot;_blank&quot;}.
+Scopri come accedere alla Distribuzione di software di Adobe [in questa pagina](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=it){target=&quot;_blank&quot;}.
 
 Scopri come aggiornare la console client [in questa pagina](connect.md)
 
