@@ -6,10 +6,10 @@ role: Data Engineer
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 0d1d20f9692ffa7b7ea7a8fb1161ebd19f533bab
+source-git-commit: 2c9455a09d6b557d525b1af5da9374a1d59201d7
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 2%
+source-wordcount: '368'
+ht-degree: 3%
 
 ---
 
@@ -22,21 +22,22 @@ In questa pagina sono elencati i problemi noti identificati nel **ultima version
 >
 >L’Adobe pubblica a propria discrezione questo elenco di questioni note. Si basa sul numero di rapporti sui clienti, sulla gravità e sulla disponibilità della soluzione alternativa. Se un problema che stai riscontrando non è presente nell’elenco, potrebbe non corrispondere ai criteri di pubblicazione in questa pagina.
 
-## Cambia problema dell’attività Origine dati n. 1 {#issue-1}
+<!--
+## Change Data Source activity issue #1 {#issue-1}
 
-### Descrizione{#issue-1-desc}
+### Description{#issue-1-desc}
 
-La **Cambia origine dati** Errore durante il trasferimento dei dati dal database locale di Campaign al database cloud di Snowflake. Quando si cambia direzione, l’attività può generare problemi.
+The **Change Data Source** activity is failing when transfering data from Campaign local database to Snowflake cloud database. When switching directions, the activity can generate issues.
 
-### Passaggi di riproduzione{#issue-1-repro}
+### Reproduction steps{#issue-1-repro}
 
-1. Collegati alla console client e crea un flusso di lavoro.
-1. Aggiungi un **Query** attività e **Cambia origine dati** attività.
-1. Definire una query sul **email**, che è una stringa.
-1. Esegui il flusso di lavoro e fai clic con il pulsante destro del mouse sulla transizione per visualizzare il gruppo: i record e-mail vengono visualizzati sostituiti da `****`.
-1. Controlla i registri del flusso di lavoro: la **Cambia origine dati** l’attività interpreta questi record come valori numerici.
+1. Connect to the client console and create a workflow.
+1. Add a **Query** activity and a **Change Data Source** activity.
+1. Define a query on the **email**, which is a string.
+1. Run the workflow and right-click the transition to view the population: the email records are displayed replaced by `****`.
+1. Check the workflow logs: the **Change Data Source** activity interprets these records as numeric values.
 
-### Messaggio di errore{#issue-1-error}
+### Error message{#issue-1-error}
 
 ```sql
 04/13/2022 10:00:18 AM              Executing change data source 'Ok' (step 'Change Data Source')
@@ -47,23 +48,23 @@ La **Cambia origine dati** Errore durante il trasferimento dei dati dal database
 04/13/2022 10:00:26 AM              D_OPTIONALLY_ENCLOSED_BY = 'NONE') ON_ERROR = ABORT_STATEMENT PURGE = TRUE' could not be executed.
 ```
 
-### Soluzione alternativa{#issue-1-workaround}
+### Workaround{#issue-1-workaround}
 
-Per trasferire i dati dal database cloud di Snowflake al database locale di Campaign e tornare al Snowflake, devi utilizzare due diversi **Cambia origine dati** attività.
+To have the data transfered from Snowflake cloud database to Campaign local database and back to Snowflake, you must use two different **Change Data Source** activities.
 
-### Riferimento interno{#issue-1-ref}
+### Internal reference{#issue-1-ref}
 
-Riferimento: NEO-45549
+Reference: NEO-45549 
+-->
 
 
-
-## Cambia il problema dell’attività Origine dati #2 {#issue-2}
+## Modifica problema dell’attività Origine dati {#issue-2}
 
 ### Descrizione{#issue-2-desc}
 
 Durante l’inserimento di dati nel database cloud di Snowflake con una campagna **Query** e **Cambia origine dati** attività , il processo non riesce quando nei dati è presente un carattere barra rovesciata. La stringa di origine non è preceduta da escape e i dati non vengono elaborati correttamente sul Snowflake.
 
-Questo problema si verifica solo se il carattere della barra rovesciata si trova alla fine della stringa, ad esempio: `Barker\`.
+Questo problema si verifica solo se il carattere barra rovesciata si trova alla fine della stringa, ad esempio: `Barker\`.
 
 
 ### Passaggi di riproduzione{#issue-2-repro}
@@ -85,7 +86,11 @@ Error:
 
 ### Soluzione alternativa{#issue-2-workaround}
 
-Come soluzione alternativa, esporta i file con virgolette doppie intorno ai valori problematici (come `Barker\`) e includi un’opzione di formato file `FIELD_OPTIONALLY_ENCLOSED_BY = '"'`.
+La soluzione consiste nell’escludere i dati contenenti il carattere barra rovesciata alla fine della stringa o nel rimuoverlo dal file di origine.
+
+<!--
+As a workaround, export the files with double quotes around the problematic values (like `Barker\`) and include a file format option `FIELD_OPTIONALLY_ENCLOSED_BY = '"'`.
+-->
 
 ### Riferimento interno{#issue-2-ref}
 
@@ -113,7 +118,13 @@ Il processo non finisce mai.
 
 ### Soluzione alternativa{#issue-3-workaround}
 
-Usa una console client precedente per caricare il file sul server.
+La soluzione consiste nell’utilizzare una console client precedente. Potrai quindi caricare il file sul server.
+
+In qualità di amministratore, puoi scaricare la console del client Campaign v8.3.1 in [Servizio di distribuzione Adobe](https://experience.adobe.com/downloads).
+
+Scopri come accedere al servizio di distribuzione Adobe [in questa pagina](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=it)
+
+Scopri come aggiornare la console client [in questa pagina](connect.md)
 
 ### Riferimento interno{#issue-3-ref}
 
