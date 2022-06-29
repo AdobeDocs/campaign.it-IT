@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 70ad2603d299c3a848382503eb31571acae0ae48
+source-git-commit: 6f9f3ed4d2eef28b6683bf04b81431fd6a3e3dba
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 78%
+source-wordcount: '636'
+ht-degree: 76%
 
 ---
 
@@ -20,7 +20,7 @@ Per chi già utilizza [!DNL Campaign Classic] v7, non vi sono differenze signif
 >
 >* Per il momento, Campaign v8 è disponibile **solo** come Cloud Service gestito e non può essere implementato in ambienti locali o ibridi. [Ulteriori informazioni](#cloud-services)
 >
->* La migrazione da un ambiente esistente di Campaign Classic v7 non è ancora disponibile.
+>* La migrazione automatica da un ambiente Campaign Classic v7 esistente non è ancora disponibile.
 
 
 
