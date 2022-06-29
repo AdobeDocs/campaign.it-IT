@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-source-git-commit: d7621adc0f4bd4eaad1b2ff8f270943e91f4edde
+source-git-commit: 39edd6c60c220118f34cd476b887194e1e7763e4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '356'
+ht-degree: 97%
 
 ---
 
@@ -44,7 +44,7 @@ Per utilizzare la console client di Campaign sono necessari i seguenti sistemi o
 I sistemi CRM compatibili con Adobe Campaign sono elencati di seguito. [Ulteriori informazioni](../connect/crm.md).
 
 * API connettore **Salesforce** versione 49
-* Connettore **Microsoft Dynamics**, API Web: Dynamics 365 On-premise e online
+* **Microsoft Dynamics** connettore, API Web: Dynamics 365 on-premise e online
 
 ## Federated Data Access (FDA){#FederatedDataAccessFDA}
 
