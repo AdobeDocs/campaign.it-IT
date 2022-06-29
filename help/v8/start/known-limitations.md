@@ -6,10 +6,10 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: true
 exl-id: 50c254ba-cc33-49b2-b7d5-12aa69883c07
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 40f13fd93ff620a743fd8c826b0b914a9e89ee7a
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 72%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Adobe Campaign v8 presenta le seguenti limitazioni:
 * Adobe Campaign v8 non è disponibile per le implementazioni locali o ibride; questa versione è rilasciata solo come Cloud Service gestito da Adobe.
 * I clienti attuali non possono eseguire la migrazione da un ambiente Adobe Campaign esistente ad Adobe Campaign v8.
 * Nel contesto di un [Distribuzione aziendale (FFDA)](../architecture/enterprise-deployment.md), non viene fornita alcuna replica bidirezionale dei dati: la replica viene eseguita solo dal database locale di Campaign al database Cloud
-* Le funzionalità elencate in [questa sezione](capability-matrix.md#gs-unavailable-features) non sono disponibili nella build corrente di Campaign v8.
+* Le funzionalità elencate in [questa sezione](v7-to-v8.md#gs-unavailable-features) non sono disponibili nella build corrente di Campaign v8.
 * Alcune funzioni non disponibili o rimosse risultano ancora visibili nell’interfaccia utente.
 * Nel contesto di un [Distribuzione aziendale (FFDA)](../architecture/enterprise-deployment.md)I meccanismi di abbonamento , di annullamento dell’abbonamento (opt-in) e di registrazione mobile sono processi asincroni. Le richieste vengono elaborate ogni ora, mediante un flusso di lavoro tecnico specifico. [Ulteriori informazioni](../architecture/replication.md#tech-wf)
 * I duplicati devono essere gestiti manualmente dagli utenti finali. [Ulteriori informazioni](../architecture/keys.md)

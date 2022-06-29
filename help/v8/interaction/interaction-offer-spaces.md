@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: c116d86a-d3e2-47e3-a641-e2d7c8cc575c
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 40f13fd93ff620a743fd8c826b0b914a9e89ee7a
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -54,7 +54,7 @@ Per creare un nuovo spazio di offerta, effettua le seguenti operazioni:
 
    Queste funzioni vengono utilizzate per generare rappresentazioni di offerte su uno spazio di offerta. Esistono diversi formati possibili: HTML o testo.
 
-   **Nota** - Il formato XML è limitato alle interazioni in entrata non disponibili in questa versione del prodotto. [Ulteriori informazioni](../start/capability-matrix.md#gs-unavailable-features)
+   **Nota** - Il formato XML è limitato alle interazioni in entrata non disponibili in questa versione del prodotto. [Ulteriori informazioni](../start/v7-to-v8.md#gs-unavailable-features)
 
    ![](assets/offer_space_create_006.png)_
 
@@ -94,7 +94,7 @@ Quando una proposta di offerta è **creato**, lo stato viene aggiornato.
 
 In **[!UICONTROL Design]** per ogni spazio di offerta, configura lo stato da applicare al momento della creazione di una proposta, in base alle informazioni che desideri visualizzare nei rapporti di offerta.
 
-Per farlo, segui la procedura indicata di seguito:
+A tale scopo, segui la procedura indicata di seguito:
 
 1. Vai a **[!UICONTROL Storage]** scheda dello spazio desiderato.
 1. Selezionare lo stato da applicare alla proposta al momento della creazione.
@@ -105,7 +105,7 @@ Per farlo, segui la procedura indicata di seguito:
 
 Una volta che la proposta di offerta è stata **accettato**, utilizza uno dei valori forniti per impostazione predefinita per configurare il nuovo stato della proposta. L’aggiornamento viene applicato quando un destinatario fa clic su un collegamento nell’offerta.
 
-Per farlo, segui la procedura indicata di seguito:
+A tale scopo, segui la procedura indicata di seguito:
 
 1. Vai a **[!UICONTROL Storage]** scheda dello spazio desiderato.
 1. Selezionare lo stato da applicare alla proposta quando viene accettata.
