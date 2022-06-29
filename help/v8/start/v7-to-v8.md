@@ -5,9 +5,9 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 63e109f31706880a1723dfd0c611835842e39083
+source-git-commit: 70ad2603d299c3a848382503eb31571acae0ae48
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '635'
 ht-degree: 78%
 
 ---
@@ -28,7 +28,7 @@ Per chi già utilizza [!DNL Campaign Classic] v7, non vi sono differenze signif
 
 Adobe Campaign v8 è disponibile come **Cloud Service gestito**.
 
-Adobe Campaign Managed Cloud Services fornisce una piattaforma Managed Services per la progettazione di esperienze cliente cross-channel e un ambiente per l’orchestrazione visiva delle campagne, la gestione delle interazioni in tempo reale e l’esecuzione cross-channel. Ulteriori informazioni sui Cloud Services gestiti da Campaign nella sezione [pagina di descrizione del prodotto](https://helpx.adobe.com/it/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target=&quot;_blank&quot;}..
+Adobe Campaign Managed Cloud Services fornisce una piattaforma Managed Services per la progettazione di esperienze cliente cross-channel e un ambiente per l’orchestrazione visiva delle campagne, la gestione delle interazioni in tempo reale e l’esecuzione cross-channel. Ulteriori informazioni sui Cloud Services gestiti da Campaign nella sezione [pagina di descrizione del prodotto](https://helpx.adobe.com/it/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target=&quot;_blank&quot;}.
 
 La nuova offerta combina servizi all’avanguardia con un monitoraggio proattivo e un avviso tempestivo, incentrato su tre aree:
 
@@ -36,7 +36,7 @@ La nuova offerta combina servizi all’avanguardia con un monitoraggio proattivo
 * **Esperienza del servizio**: disponibilità proattiva, capacità e monitoraggio e risposta delle prestazioni per prevenire interruzioni, risolvere gli incidenti più rapidamente e rivedere regolarmente il servizio per un miglioramento continuo.
 * **Competenze approfondite su Campaign**: servizio ad alta affinità offerto da team tecnici specializzati della clientela per soddisfare le esigenze funzionali, tecniche o di recapito dei messaggi, ridurre i rischi di distribuzione e migliorare la gestione dei cambiamenti.
 
-In qualità di utente di [!DNL Campaign Classic], tieni presente che la maggior parte delle funzioni di [!DNL Campaign Classic] v7 sono disponibili anche in [!DNL Campaign] v8, ad eccezione di poche elencate in [questa sezione](#gs-removed). Altre funzioni saranno disponibili nelle prossime versioni. [Per ulteriori informazioni, consulta questa sezione](#gs-unavailable-features).
+In qualità di utente di [!DNL Campaign Classic], tieni presente che la maggior parte delle funzioni di [!DNL Campaign Classic] v7 sono disponibili anche in [!DNL Campaign] v8, ad eccezione di poche elencate in [questa sezione](#gs-removed).
 
 >[!NOTE]
 >
