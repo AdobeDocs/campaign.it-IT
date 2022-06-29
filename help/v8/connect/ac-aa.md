@@ -1,14 +1,14 @@
 ---
 title: Utilizzare Campaign e Adobe Analytics
 description: Scopri come integrare Campaign e Analytics
-feature: Overview
+feature: Analytics Integration
 role: Data Engineer
 level: Beginner
 exl-id: 11370fb6-e192-4626-944e-b80a7496e50d
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
 workflow-type: tm+mt
-source-wordcount: '1083'
-ht-degree: 76%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

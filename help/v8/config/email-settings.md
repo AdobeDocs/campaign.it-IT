@@ -1,14 +1,14 @@
 ---
 title: Impostazioni del canale e-mail di Campaign
 description: Impostazioni del canale e-mail di Campaign
-feature: Overview
+feature: Email
 role: Data Engineer
 level: Beginner
 exl-id: e4e3fb49-9942-4e2d-a020-557d1ac5dcdc
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +40,7 @@ Una volta definito l’indirizzo e-mail CCN, devi abilitare l’opzione dedicata
 >Quando crei un nuovo modello di consegna o consegna, **[!UICONTROL Email BCC]** non è abilitato per impostazione predefinita. È necessario abilitarlo manualmente nel modello di consegna o consegna e-mail.
 
 
-Per farlo, segui la procedura indicata di seguito:
+A tale scopo, segui la procedura indicata di seguito:
 
 1. Vai a **[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]** oppure **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Seleziona la consegna desiderata o duplica la preconfigurata **[!UICONTROL Email delivery]** , quindi seleziona il modello duplicato.

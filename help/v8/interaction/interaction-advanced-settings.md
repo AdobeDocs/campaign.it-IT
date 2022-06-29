@@ -1,12 +1,11 @@
 ---
 title: Impostazioni avanzate di Interazione campagna
 description: Impostazioni avanzate di Interazione campagna
-feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

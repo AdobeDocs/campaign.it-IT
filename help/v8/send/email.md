@@ -1,14 +1,14 @@
 ---
 title: Inviare e-mail con Adobe Campaign
 description: Introduzione alle e-mail in Campaign
-feature: Overview
+feature: Email
 role: Data Engineer
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: 9fa6666532a6943c438268d7ea832f0908588208
+source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 12%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -82,7 +82,7 @@ Ulteriori informazioni sono disponibili nelle seguenti sezioni della documentazi
 * Importare un contenuto e-mail
    ![](../assets/do-not-localize/book.png) [Caso di utilizzo: Creare un flusso di lavoro per caricare un contenuto di consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/loading-delivery-content.html){target=&quot;_blank&quot;}
 * Creare e utilizzare un modello e-mail
-   ![](../assets/do-not-localize/book.png) [Ulteriori informazioni sui modelli e-mail](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) [Ulteriori informazioni sui modelli e-mail](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=it){target=&quot;_blank&quot;}
 * Selezionare il pubblico dell’e-mail
    ![](../assets/do-not-localize/book.png) [Scopri come definire la popolazione target](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html){target=&quot;_blank&quot;}
 * Convalidare una consegna e inviare bozze

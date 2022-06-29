@@ -1,20 +1,20 @@
 ---
 title: Personalizzare l’istanza
 description: Scopri come personalizzare l’istanza
-feature: Overview
+feature: Application Settings
 role: Data Engineer
 level: Beginner
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
-source-git-commit: 5c1ced7972295e79418ac7ff14a6f0888e5ed39a
+source-git-commit: c44fb2de4ed0e1661801313ae0430ba9d19542f0
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Personalizzare l’istanza{#gs-ac-custom}
 
-Scopri come **Personalizzare l’istanza Campaign**
+Scopri come **Personalizzare l’istanza Campaign**.
 
 >[!CAUTION]
 >

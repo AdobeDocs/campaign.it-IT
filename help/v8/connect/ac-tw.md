@@ -1,16 +1,15 @@
 ---
 title: Utilizzare Campaign e Twitter
 description: Scopri come integrare l’ambiente Campaign con Twitter
-feature: Overview
 role: Data Engineer
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +33,7 @@ Per configurare Adobe Campaign per la pubblicazione dei tweet negli account Twit
 
 ## Creare un account di test su Twitter {#tw-test-account}
 
-Oltre all’account Twitter, crea un account Twitter privato che può essere utilizzato per l’invio [bozze di tweet](../send/twitter.md#send-tw-proofs). Per farlo, segui la procedura indicata di seguito:
+Oltre all’account Twitter, crea un account Twitter privato che può essere utilizzato per l’invio [bozze di tweet](../send/twitter.md#send-tw-proofs). A tale scopo, segui la procedura indicata di seguito:
 
 1. Crea un nuovo account Twitter.
 1. Accedere all’account  **Impostazioni**.
@@ -44,7 +43,7 @@ Oltre all’account Twitter, crea un account Twitter privato che può essere uti
 
 ## Creare un’applicazione in Twitter {#create-an-app-on-twitter}
 
-Crea un&#39;applicazione Twitter per consentire ad Adobe Campaign di pubblicare tweet sul tuo account Twitter.  Per farlo, segui la procedura indicata di seguito:
+Crea un&#39;applicazione Twitter per consentire ad Adobe Campaign di pubblicare tweet sul tuo account Twitter.  A tale scopo, segui la procedura indicata di seguito:
 
 1. Accedi al tuo account Twitter.
 1. Connetti a [Portale per sviluppatori twitter](https://developer.twitter.com/en/apps).
