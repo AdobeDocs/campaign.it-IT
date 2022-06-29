@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;argomenti principali
 description: Centro risorse di Campaign v8
 title: Documentazione di prodotto di Adobe Campaign v8
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: 40f13fd93ff620a743fd8c826b0b914a9e89ee7a
+source-git-commit: cda523168525c24ec1c976850bc336f273276ac9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '130'
+ht-degree: 97%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 ## Altre risorse
 
-* [Limitazioni note](start/known-limitations.md)
+* [Guardrail e limitazioni](start/ac-guardrails.md)
 * [Architettura](architecture/architecture.md)
 * [Misurazione e tracciamento](start/reporting.md)
 * [Connessione con altre soluzioni](connect/integration.md)

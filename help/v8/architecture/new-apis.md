@@ -1,20 +1,20 @@
 ---
-title: Nuove API di Campaign v8
-description: Nuove API di Campaign v8
+title: API di distribuzione FFDA
+description: API specifiche per FFDA
 feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: dd822f88-b27d-4944-879c-087f68e79825
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 5c1ced7972295e79418ac7ff14a6f0888e5ed39a
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '437'
 ht-degree: 2%
 
 ---
 
-# Nuove API di Campaign{#gs-new-api}
+# API specifiche della campagna FFDA{#gs-new-api}
 
-Nel contesto di un [Distribuzione aziendale (FFDA)](enterprise-deployment.md), Campaign v8 viene fornito con due nuove API per gestire i dati tra il database locale di Campaign e il database Cloud. Prerequisiti per utilizzarli è abilitare il meccanismo di staging sullo schema. [Ulteriori informazioni](staging.md)
+Nel contesto di un [Distribuzione aziendale (FFDA)](enterprise-deployment.md), Campaign v8 viene fornito con due API specifiche per gestire i dati tra il database locale di Campaign e il database Cloud. Prerequisiti per utilizzarli è abilitare il meccanismo di staging sullo schema. [Ulteriori informazioni](staging.md)
 
 * API di acquisizione: **xtk.session.ingest**
 
@@ -30,7 +30,7 @@ Un flusso di lavoro integrato dedicato sincronizza i dati nel database cloud.
 
 La **xtk.session.ingest** L’API è dedicata solo a Data Insert (Inserimento dati). Nessun aggiornamento/eliminazione.
 
-### Inserisci senza riconciliazione
+### Inserisci senza riconciliazione{#insert-no-reconciliation}
 
 **In un flusso di lavoro**
 
@@ -170,7 +170,6 @@ Una volta eseguito il flusso di lavoro, la tabella di staging viene aggiornata c
 
 **Da una chiamata SOAP**
 
-
 1. Ottieni il token di autenticazione.
 1. Attiva l&#39;API. Il payload è:
 
@@ -213,4 +212,4 @@ L’inserimento di dati di abbonamento e di annullamento dell’abbonamento si b
 
 **Argomenti correlati**
 
-* [JSAPI Campaign Classic v7](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html)
+* [JSAPI Campaign Classic v7](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target=&quot;_blank&quot;}

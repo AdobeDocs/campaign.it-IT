@@ -6,7 +6,8 @@ role: Data Engineer
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: c803c13c6d433d2c6730f32f43209c8effab1fde
+exl-id: 89a4ab6c-de8e-4408-97d2-8b8e574227f9
+source-git-commit: cda523168525c24ec1c976850bc336f273276ac9
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 3%
@@ -15,7 +16,7 @@ ht-degree: 3%
 
 # Problemi noti{#known-issues}
 
-In questa pagina sono elencati i problemi noti identificati nel **ultima versione di Campaign v8**. Sono inoltre elencate le limitazioni in arrivo con Campaign v8 [in questa pagina](known-limitations.md).
+In questa pagina sono elencati i problemi noti identificati nel **ultima versione di Campaign v8**. Sono inoltre elencate le limitazioni in arrivo con Campaign v8 [in questa pagina](ac-guardrails.md).
 
 
 >[!NOTE]

@@ -5,9 +5,9 @@ feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: 9fa6666532a6943c438268d7ea832f0908588208
+source-git-commit: 5c1ced7972295e79418ac7ff14a6f0888e5ed39a
 workflow-type: tm+mt
-source-wordcount: '3009'
+source-wordcount: '3008'
 ht-degree: 6%
 
 ---
@@ -62,7 +62,7 @@ Questi tipi di errori vengono gestiti come segue:
 
 ![](assets/delivery-log-qualification.png)-->
 
-Attualmente, il modo in cui la qualifica della posta non recapitata viene gestita in Adobe Campaign dipende dal tipo di errore:
+Il modo in cui la qualifica della posta non recapitata viene gestita in Adobe Campaign dipende dal tipo di errore:
 
 * **Errori sincroni**: L’MTA determina il tipo di messaggio non recapitato e la relativa qualifica e invia nuovamente tali informazioni a Campaign. Le qualifiche non recapitate nel **[!UICONTROL Delivery log qualification]** tabella non utilizzata per **sincrono** messaggi di errore di consegna.
 
