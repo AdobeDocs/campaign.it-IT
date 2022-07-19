@@ -5,10 +5,10 @@ feature: Monitoring
 role: Data Engineer
 level: Beginner
 exl-id: f3de901f-519f-42ae-846c-f20c7cb560df
-source-git-commit: c6a234f6c43531be032354d134e4745ad77cbcc7
+source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '898'
+ht-degree: 20%
 
 ---
 
@@ -34,32 +34,32 @@ Le funzionalità di tracciamento chiave disponibili in Campaign sono elencate di
 
 Puoi tenere traccia della ricezione dei messaggi e dell’attivazione dei collegamenti inseriti nel contenuto del messaggio per comprendere meglio il comportamento dei destinatari.
 
-[Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html?lang=en#sending-messages){target=&quot;_blank&quot;}
+[Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html?lang=en#sending-messages){target=&quot;_blank&quot;}.
 
 **Tracciamento URL**
 
 Le opzioni di tracciamento possono essere configurate attivando o disattivando gli URL tracciati.
 
-[Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/personalizing-url-tracking.html?lang=en#sending-messages){target=&quot;_blank&quot;}
+[Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/personalizing-url-tracking.html?lang=en#sending-messages){target=&quot;_blank&quot;}.
 
 
 **Personalizzazione dei collegamenti tracciati**
 
 Le funzionalità di tracciamento delle campagne ti consentono di aggiungere collegamenti nelle e-mail che possono essere personalizzati e che supportano il tracciamento.
 
-[Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/tracking-personalized-links/tracking-personalized-links.html?lang=en#sending-messages){target=&quot;_blank&quot;}
+[Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/tracking-personalized-links/tracking-personalized-links.html?lang=en#sending-messages){target=&quot;_blank&quot;}.
 
 **Registri di tracciamento**
 
 La **Tracking** il flusso di lavoro tecnico recupera i dati di tracciamento dopo l’invio della consegna e l’attivazione del tracciamento. Questi dati si trovano nella scheda Tracking della consegna.
 
-[Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/accessing-the-tracking-logs.html?lang=en#sending-messages){target=&quot;_blank&quot;}
+[Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/accessing-the-tracking-logs.html?lang=en#sending-messages){target=&quot;_blank&quot;}.
 
 **Test del tracking**
 
 Prima di inviare i messaggi con il tracciamento, puoi testare il tracciamento sulla pagina speculare, i registri e i collegamenti e-mail.
 
-[Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/testing-tracking.html?lang=en#sending-messages){target=&quot;_blank&quot;}
+[Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/testing-tracking.html?lang=en#sending-messages){target=&quot;_blank&quot;}.
 
 ### Tracciamento delle applicazioni web {#web-application-tracking}
 
@@ -69,13 +69,13 @@ Prima di inviare i messaggi con il tracciamento, puoi testare il tracciamento su
 
 È inoltre possibile tenere traccia e misurare le visite sulle pagine delle applicazioni Web con tag di tracciamento. Questa funzionalità può essere utilizzata per tutti i tipi di applicazioni Web, ad esempio i moduli e i sondaggi online.
 
-[Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/tracking-a-web-application.html?lang=en#designing-content){target=&quot;_blank&quot;}
+[Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/tracking-a-web-application.html?lang=en#designing-content){target=&quot;_blank&quot;}.
 
 **Rinuncia al tracking delle applicazioni web**
 
 La rinuncia al tracciamento delle applicazioni web consente di interrompere il tracciamento dei comportamenti web degli utenti finali che rinunciano al tracciamento dei comportamenti. Puoi includere la possibilità di visualizzare un banner nelle applicazioni web o nelle pagine di destinazione per consentire agli utenti di rinunciare.
 
-[Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/web-application-tracking-opt-out.html?lang=en#designing-content){target=&quot;_blank&quot;}
+[Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/web-application-tracking-opt-out.html?lang=en#designing-content){target=&quot;_blank&quot;}.
 
 ### Tracking dei report {#tracking-reports}
 
@@ -85,31 +85,31 @@ La rinuncia al tracciamento delle applicazioni web consente di interrompere il t
 
 Questo rapporto fornisce statistiche su aperture, clic e transazioni e consente di tenere traccia dell’impatto di marketing della consegna.
 
-[Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/about-message-tracking.html?lang=en#tracking-reports){target=&quot;_blank&quot;}
+[Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/about-message-tracking.html?lang=en#tracking-reports){target=&quot;_blank&quot;}.
 
 **URL e flussi di clic**
 
 Questo rapporto mostra l’elenco delle pagine visitate dopo una consegna.
 
-[Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html?lang=en#urls-and-click-streams){target=&quot;_blank&quot;}
+[Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html?lang=en#urls-and-click-streams){target=&quot;_blank&quot;}.
 
 **Persona/persone e destinatari**
 
 Con questo esempio è meglio comprendere la differenza di tracciamento tra una persona/persone e un destinatario in Adobe Campaign.
 
-[Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/person-people-recipients.html?lang=en#reporting){target=&quot;_blank&quot;}
+[Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/person-people-recipients.html?lang=en#reporting){target=&quot;_blank&quot;}.
 
 **Indicatori di tracciamento**
 
 Questo rapporto combina gli indicatori chiave per il tracciamento del comportamento dei destinatari alla ricezione della consegna, ad esempio tassi di click-through aperti e flussi di clic.
 
-[Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html?lang=en#reporting){target=&quot;_blank&quot;}
+[Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html?lang=en#reporting){target=&quot;_blank&quot;}.
 
 **Calcolo indicatore**
 
 Le diverse tabelle ti forniscono l’elenco degli indicatori utilizzati nei diversi rapporti e la relativa formula di calcolo a seconda del tipo di consegna.
 
-[Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/indicator-calculation.html?lang=en#reporting){target=&quot;_blank&quot;}
+[Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/indicator-calculation.html?lang=en#reporting){target=&quot;_blank&quot;}.
 
 ## Linee guida per il monitoraggio
 
@@ -123,7 +123,7 @@ Ulteriori informazioni sulle informazioni che puoi monitorare dopo l’invio di 
 
 ### Monitorare i flussi di lavoro
 
-Scopri come monitorare l’esecuzione di un flusso di lavoro in  [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html?lang=en#automating-with-workflows){target=&quot;_blank&quot;}
+Scopri come monitorare l’esecuzione di un flusso di lavoro in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html)
 
 ### Monitorare l’istanza
 

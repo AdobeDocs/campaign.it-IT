@@ -5,9 +5,9 @@ feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
 exl-id: 873578f6-6af9-4d0c-8df3-cce320fc6a4e
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 59046a11c3e057cf41c322f190a9d8aef310c356
 workflow-type: tm+mt
-source-wordcount: '1667'
+source-wordcount: '1638'
 ht-degree: 0%
 
 ---
@@ -325,12 +325,12 @@ Una volta salvati, sono disponibili filtri avanzati quando selezioni la popolazi
 
 Per eseguire funzionalità di filtro avanzate, utilizza le funzioni per definire il contenuto del filtro. L’editor di filtri avanzato sfrutta tutte le funzionalità dell’editor delle query di Campaign.
 
-Scopri come creare query avanzate nella documentazione di Adobe Campaign Classic v7. Ad esempio:
+Scopri come creare query avanzate in questi esempi end-to-end:
 
-* Scopri come eseguire il targeting su attributi di destinatario semplici in [Documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/query.html?lang=en#example--targeting-on-simple-recipient-attributes){target=&quot;_blank&quot;}.
-* Scopri come filtrare i destinatari non contattati negli ultimi 7 giorni in [Documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/designing-queries/querying-using-many-to-many-relationship.html){target=&quot;_blank&quot;}.
-* Scopri come recuperare l’elenco degli operatori che può essere filtrato da account attivi in [Documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/designing-queries/creating-a-filter.html){target=&quot;_blank&quot;}.
-* Scopri come creare un pubblico di e-mail di compleanno in  [Documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/sending-a-birthday-email.html?lang=en#identifying-recipients-whose-birthday-it-is){target=&quot;_blank&quot;}.
+* Scopri come eseguire il targeting su attributi di destinatario semplici in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html).
+* Scopri come filtrare i destinatari non contattati negli ultimi 7 giorni in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html).
+* Scopri come recuperare l’elenco degli operatori che può essere filtrato da account attivi in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html).
+* Scopri come creare un pubblico di e-mail di compleanno in  [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html).
 
 
 ### Parametri avanzati per i filtri predefiniti {#param-for-data-filters}

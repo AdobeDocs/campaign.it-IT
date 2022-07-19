@@ -5,10 +5,10 @@ feature: Application Settings
 role: Data Engineer
 level: Beginner
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
+source-git-commit: 59046a11c3e057cf41c322f190a9d8aef310c356
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1090'
+ht-degree: 5%
 
 ---
 
@@ -42,7 +42,7 @@ I seguenti account tecnici vengono utilizzati da Adobe Campaign per abilitare ed
 
 La **Messaggi non recapitati** account esterno specifica l’account POP3 esterno da utilizzare per connettersi al servizio e-mail. Tutti i server configurati per l&#39;accesso POP3 possono essere utilizzati per ricevere la posta di ritorno.
 
-![](../assets/do-not-localize/book.png) Ulteriori informazioni sulle e-mail in entrata in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/inbound-emails.html){target=&quot;_blank&quot;}
+Ulteriori informazioni sulle e-mail in entrata in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html)
 
 ![](assets/bounce_external_1.png)
 
@@ -165,7 +165,7 @@ Nel contesto della messaggistica transazionale, le istanze di esecuzione sono co
 
 Questi account esterni possono essere utilizzati per importare o esportare dati in Adobe Campaign utilizzando un **[!UICONTROL Transfer file]** attività del flusso di lavoro.
 
-![](../assets/do-not-localize/book.png) Ulteriori informazioni sul trasferimento di file nei flussi di lavoro in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/file-transfer.html){target=&quot;_blank&quot;}
+Ulteriori informazioni sul trasferimento di file nei flussi di lavoro in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html)
 
 * **FTP e SFTP**
 
@@ -178,13 +178,13 @@ Per farlo, specifica in questo account esterno l’indirizzo e le credenziali ut
 
    * **[!UICONTROL AWS S3 Account Server]**: URL del server, compilato come segue:   ```<S3bucket name>.s3.amazonaws.com/<s3object path>```
 
-   * **[!UICONTROL AWS access key ID]**: Scopri come trovare il tuo ID chiave di accesso AWS in [Documentazione di Amazon](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys) .
+   * **[!UICONTROL AWS access key ID]**: Scopri come trovare il tuo ID chiave di accesso AWS in [Documentazione di Amazon](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target=&quot;_blank&quot;}.
 
-   * **[!UICONTROL Secret access key to AWS]**: Scopri come trovare la chiave di accesso segreta in AWS in [Documentazione di Amazon](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
+   * **[!UICONTROL Secret access key to AWS]**: Scopri come trovare la chiave di accesso segreta in AWS in [Documentazione di Amazon](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/){target=&quot;_blank&quot;}.
 
-   * **[!UICONTROL AWS Region]**: Ulteriori informazioni sulle aree geografiche di AWS in [Documentazione di Amazon](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/).
+   * **[!UICONTROL AWS Region]**: Ulteriori informazioni sulle aree geografiche di AWS in [Documentazione di Amazon](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/){target=&quot;_blank&quot;}.
 
-   * La **[!UICONTROL Use server side encryption]** casella di controllo consente di memorizzare il file in modalità crittografata S3. Scopri come trovare l’ID chiave di accesso e la chiave di accesso segreto in [Documentazione di Amazon](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys).
+   * La **[!UICONTROL Use server side encryption]** casella di controllo consente di memorizzare il file in modalità crittografata S3. Scopri come trovare l’ID chiave di accesso e la chiave di accesso segreto in [Documentazione di Amazon](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target=&quot;_blank&quot;}.
 
 * **Archiviazione BLOB di Azure**
 
@@ -194,4 +194,4 @@ Per farlo, specifica in questo account esterno l’indirizzo e le credenziali ut
 
    * **[!UICONTROL Encryption]**: Tipo di cifratura tra **[!UICONTROL None]** o **[!UICONTROL SSL]**.
 
-   * **[!UICONTROL Access key]**: Scopri come trovare il tuo **[!UICONTROL Access key]** in [Documentazione di Microsoft](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal).
+   * **[!UICONTROL Access key]**: Scopri come trovare il tuo **[!UICONTROL Access key]** in [Documentazione di Microsoft](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target=&quot;_blank&quot;}.

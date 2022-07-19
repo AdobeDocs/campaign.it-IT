@@ -5,10 +5,10 @@ feature: Audiences
 role: Data Engineer
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
-source-git-commit: fc0be5fe82ba11e54851a8f612ece0b310447cdd
-workflow-type: ht
-source-wordcount: '905'
-ht-degree: 100%
+source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
+workflow-type: tm+mt
+source-wordcount: '840'
+ht-degree: 81%
 
 ---
 
@@ -46,8 +46,7 @@ Adobe Campaign consente di creare, configurare, eseguire e analizzare tutte le c
 
 ![](assets/calendar.png)
 
-![](../assets/do-not-localize/book.png) Scopri come accedere e implementare campagne di marketing nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/about-marketing-campaigns/accessing-marketing-campaigns.html?lang=it#orchestrating-campaigns){target=&quot;_blank&quot;}
-
+![](../assets/do-not-localize/book.png) Scopri come accedere e implementare campagne di marketing in [questa sezione](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html).
 
 ## Passaggi principali per iniziare{#gs-ac-start}
 
@@ -57,13 +56,13 @@ I passaggi principali per creare una campagna di marketing cross-channel sono i 
 
    Definire la gerarchia e la pianificazione, stabilire il budget, aggiungere risorse e selezionare gli operatori.
 
-   ![](../assets/do-not-localize/book.png) Scopri come creare un piano di marketing e configurare le campagne nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=it#creating-plan-and-program-hierarchy){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) Scopri come creare un piano di marketing e configurare le campagne in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html).
 
    Tutte le campagne di marketing si basano su un modello, che memorizza le impostazioni e le funzionalità principali. Viene fornito un modello integrato al fine di creare una campagna per la quale non è stata definita alcuna configurazione specifica. Puoi creare e configurare i modelli della campagna e quindi creare campagne a partire da questi modelli.
 
-   ![](../assets/do-not-localize/book.png) Scopri come utilizzare i modelli per campagne nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=it#orchestrating-campaigns){target=&quot;_blank&quot;}.
+   Scopri come utilizzare i modelli di campagna in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html).
 
-   ![](../assets/do-not-localize/book.png) Scopri le campagne ricorrenti e come configurarle nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=it#recurring-and-periodic-campaigns){target=&quot;_blank&quot;}.
+   Scopri campagne ricorrenti e come configurarle in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/recurring-periodic-campaigns.html).
 
 1. **Definire i tipi di pubblico**
 
@@ -71,7 +70,7 @@ I passaggi principali per creare una campagna di marketing cross-channel sono i 
 
    ![](assets/campaign-wf.png)
 
-   ![](../assets/do-not-localize/book.png) Scopri come definire il pubblico dei messaggi nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=it#orchestrating-campaigns){target=&quot;_blank&quot;}
+   Scopri come definire il pubblico dei messaggi in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html).
 
 1. **Creare consegne**
 
@@ -79,17 +78,17 @@ I passaggi principali per creare una campagna di marketing cross-channel sono i 
 
    ![](assets/campaign-dashboard.png)
 
-   ![](../assets/do-not-localize/book.png) Scopri come creare e avviare le consegne delle campagne di marketing nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html?lang=it#creating-deliveries){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) Scopri come creare e avviare le consegne di campagne di marketing in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html).
 
    È possibile associare vari documenti a una campagna: report, foto, pagina web, diagramma, ecc.
 
-   ![](../assets/do-not-localize/book.png) Scopri di più sui documenti associati nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-assets.html?lang=it#adding-documents){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) Ulteriori informazioni sui documenti associati in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-assets.html).
 
 1. **Impostare il processo di approvazione**
 
    Adobe Campaign consente di impostare processi di approvazione collaborativa per le fasi principali della campagna di marketing. Per ogni campagna puoi approvare il target di consegna, i contenuti e i costi. Gli operatori di Adobe Campaign incaricati dell’approvazione possono ricevere una notifica tramite e-mail e accettare o rifiutare l’approvazione dalla console o tramite una connessione web.
 
-   ![](../assets/do-not-localize/book.png) Scopri come impostare e gestire le approvazioni nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=it#orchestrating-campaigns){target=&quot;_blank&quot;}
+   Scopri come impostare e gestire le approvazioni in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html?lang=en#campaign-orchestration).
 
 
 ## Componente aggiuntivo Marketing distribuito{#distributed-marketing-add-on}
@@ -100,7 +99,7 @@ Adobe Campaign offre il componente aggiuntivo **Marketing distribuito** per l’
 >
 >Questa funzionalità è disponibile a partire da Campaign v8.3. Per verificare la versione, consulta [questa sezione](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
-[](../assets/do-not-localize/book.png) Scopri come configurare e utilizzare le funzionalità di Marketing distribuito di Campaign nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/distributed-marketing/about-distributed-marketing.html?lang=it){target=&quot;_blank&quot;}
+Scopri come configurare e utilizzare le funzionalità di Marketing distribuito di Campaign in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html)
 
 ## Componente aggiuntivo Gestione risposta{#response-manager-add-on}
 
