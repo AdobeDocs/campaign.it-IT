@@ -82,7 +82,7 @@ Ulteriori informazioni in queste sezioni di **Documentazione di Campaign Classic
 * Progettazione di un’e-mail in Campaign
    ![](../assets/do-not-localize/book.png) [Scopri come progettare un’e-mail](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-the-email-content.html){target=&quot;_blank&quot;}
 * Creare e utilizzare un modello e-mail
-   ![](../assets/do-not-localize/book.png) [Ulteriori informazioni sui modelli e-mail](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=it){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) [Ulteriori informazioni sui modelli e-mail](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html){target=&quot;_blank&quot;}
 * Selezionare il pubblico dell’e-mail
    ![](../assets/do-not-localize/book.png) [Scopri come definire la popolazione target](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html){target=&quot;_blank&quot;}
 * Convalidare una consegna e inviare bozze
