@@ -6,9 +6,9 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: d0cabf4d5b8d177f1ff0a1be6163e9abe65c57d6
+source-git-commit: c1a5dd3fcad5d377acb2f9df3a090897ed3b533e
 workflow-type: tm+mt
-source-wordcount: '2758'
+source-wordcount: '2754'
 ht-degree: 79%
 
 ---
@@ -65,9 +65,9 @@ _30 settembre 2022_
 
 **Miglioramenti**
 
-* Dopo la fine del ciclo di vita di Microsoft Internet Explorer 11, il motore di rendering HTML nella console sta ora utilizzando **Cromo bordo Microsoft**. Inoltre, l&#39;installazione di **WebView Microsoft Edge 2** runtime è ora necessario per qualsiasi installazione della console client. Maggiori informazioni
+* Dopo la fine del ciclo di vita di Microsoft Internet Explorer 11, il motore di rendering HTML nella console sta ora utilizzando **Cromo bordo Microsoft**. Inoltre, l&#39;installazione di **WebView Microsoft Edge 2** runtime è ora necessario per qualsiasi installazione della console client.
 * È stata migliorata l’esecuzione del flusso di lavoro con l’elevata disponibilità del flusso di lavoro, che consente di eseguire flussi di lavoro simultanei tra contenitori diversi per evitare la perdita del servizio del flusso di lavoro ed evitare i relativi errori di esecuzione. **Nota**: Questa nuova funzionalità viene rilasciata solo in Disponibilità limitata a un set di clienti.
-* Le richieste di privacy vengono ora eseguite in batch per uno specifico spazio dei nomi di privacy. Questo miglioramento aumenta il tempo di esecuzione per le richieste di cancellazione RGPD/privacy. Maggiori informazioni
+* Le richieste di privacy vengono ora eseguite in batch per uno specifico spazio dei nomi di privacy. Questo miglioramento aumenta il tempo di esecuzione per le richieste di cancellazione RGPD/privacy.
 
 **Aggiornamenti della compatibilità**
 
