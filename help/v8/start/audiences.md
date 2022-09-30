@@ -2,13 +2,13 @@
 title: Utilizzare i tipi di pubblico in Campaign
 description: Utilizzare i tipi di pubblico in Campaign
 feature: Audiences
-role: Data Engineer
+role: User
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '489'
-ht-degree: 18%
+ht-degree: 21%
 
 ---
 
@@ -36,7 +36,7 @@ La configurazione del filtro consente di selezionare i dati da un elenco **[!UIC
 
 Il targeting può essere creato tramite una combinazione di query in una sequenza grafica in un flusso di lavoro. Puoi creare un pubblico di destinazione in base alle tue esigenze. Per visualizzare l’editor del flusso di lavoro, fai clic sul pulsante **[!UICONTROL Targeting and workflows]** nel dashboard della campagna.
 
-Scopri come creare un pubblico in un flusso di lavoro della campagna in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html)
+Scopri come creare un pubblico in un flusso di lavoro della campagna in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=it)
 
 
 ## Profili attivi{#active-profiles}

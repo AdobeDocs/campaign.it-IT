@@ -3,7 +3,8 @@ product: campaign
 title: Esempi di codice JavaScript nei flussi di lavoro
 description: Questi esempi mostrano come utilizzare il codice JavaScript in un flusso di lavoro
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 3412e3de-1c88-496e-8fda-ca9fc9b18e69
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '1756'
 ht-degree: 2%
@@ -11,8 +12,6 @@ ht-degree: 2%
 ---
 
 # Esempi di codice JavaScript nei flussi di lavoro{#javascript-in-workflows}
-
-
 
 Gli esempi seguenti mostrano come utilizzare il codice JavaScript in un flusso di lavoro:
 

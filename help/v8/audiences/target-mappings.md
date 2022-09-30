@@ -2,9 +2,9 @@
 title: Utilizzare le mappature di destinazione
 description: Scopri come utilizzare e creare mappature di destinazione
 feature: Audiences, Profiles
-role: Data Engineer
-level: Beginner
-source-git-commit: a41bebfeb352b2f81f81b46c39b5f9b64431455b
+role: User, Developer
+level: Beginner, Intermediate
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 1%

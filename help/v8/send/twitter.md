@@ -1,15 +1,13 @@
 ---
 title: Messaggi su Twitter con Adobe Campaign
-description: Scopri come utilizzare il modulo Adobe Campaign Social Marketing per inviare messaggi su Twitter e raccogliere i dati di contatto
-role: Data Engineer
-level: Beginner
-hide: true
-hidefromtoc: true
+description: Scopri come utilizzare il modulo Adobe Campaign Social Marketing per inviare messaggi su Twitter e inviare messaggi diretti ai tuoi follower
+role: User
+level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 8%
+source-wordcount: '829'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +18,8 @@ Adobe Campaign viene fornito con un **Social marketing** modulo che consente di 
 
 Una volta configurata l’integrazione, puoi:
 
-* Invia messaggi su Twitter: Adobe Campaign ti consente di inviare messaggi direttamente al tuo account twitter. Puoi anche inviare messaggi diretti a tutti i tuoi follower.
+* Invia messaggi su Twitter: Adobe Campaign ti consente di inviare messaggi diretti ai tuoi follower.
+* Post tweet: utilizza Adobe Campaign per pubblicare tweet sul tuo account Twitter.
 * Raccogli nuovi contatti: Adobe Campaign può ripristinare automaticamente i dati del profilo, consentendo di eseguire campagne di targeting e, quando possibile, di implementare strategie cross-channel. Questa azione richiede il consenso dell’utente.
 
 I passaggi di configurazione per integrare l’account Twitter con Adobe Campaign sono descritti in [questa pagina](../connect/ac-tw.md).
@@ -33,9 +32,13 @@ Per inviare un messaggio sul tuo account Twitter, effettua le seguenti operazion
 
    Crea una nuova consegna basata su **[!UICONTROL Tweet (twitter)]** modello di consegna.
 
+   ![](assets/tw-new-delivery.png)
+
 1. Selezionare la destinazione principale
 
    Seleziona gli account a cui desideri inviare i tweet.
+
+   ![](assets/tw-define-target.png)
 
    1. Fai clic sul collegamento **[!UICONTROL To]**.
    1. Fai clic sul pulsante **[!UICONTROL Add]**.
@@ -46,7 +49,7 @@ Per inviare un messaggio sul tuo account Twitter, effettua le seguenti operazion
 
    La **[!UICONTROL Target of the proofs]** La scheda ti consente di definire l’account Twitter da utilizzare per testare le consegne prima della consegna finale.
 
-   Come descritto in [passaggi di configurazione](../connect/ac-tw.md#tw-test-account), devi creare un account Twitter privato dedicato all’invio di bozze.
+   Come descritto in [passaggi di configurazione](../connect/ac-tw.md#tw-test-account), devi creare un account Twitter di prova privato dedicato all’invio di bozze.
 
    >[!NOTE]
    >
@@ -55,6 +58,8 @@ Per inviare un messaggio sul tuo account Twitter, effettua le seguenti operazion
 1. Definire il contenuto del post
 
    Immetti il contenuto del post nella **[!UICONTROL Content]** scheda .
+
+   ![](assets/tw-delivery-content.png)
 
    >[!CAUTION]
    >
@@ -68,18 +73,15 @@ Per inviare un messaggio sul tuo account Twitter, effettua le seguenti operazion
 
    Sfoglia il **[!UICONTROL Preview]** per controllare il rendering del post.
 
+   ![](assets/tw-delivery-preview.png)
+
    1. Fai clic sul pulsante **[!UICONTROL Preview]** scheda .
    1. Fai clic sul pulsante **[!UICONTROL Test personalization]** menu a discesa e seleziona **[!UICONTROL Service]**.
    1. In **[!UICONTROL Folder]** , seleziona la cartella del servizio che contiene il tuo account Twitter.
-   1. Scegli l&#39;account Twitter con cui testare l&#39;anteprima.
 
 1. Inviare una bozza
 
    Prima di pubblicare il tuo tweet, assicurati di convalidarlo inviando una prova della tua pubblicazione: puoi quindi ottenere un rendering esatto della pubblicazione su una pagina di test Twitter privata.
-
-   Per ulteriori informazioni sulla creazione di un account Twitter privato, consulta [questa sezione](../connect/ac-tw.md#tw-test-account).
-
-   ![](../assets/do-not-localize/book.png) [Scopri i passaggi chiave per convalidare una consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=it){target=&quot;_blank&quot;}
 
 1. Pubblica il messaggio
 
@@ -87,7 +89,6 @@ Per inviare un messaggio sul tuo account Twitter, effettua le seguenti operazion
    1. Seleziona **[!UICONTROL Deliver as soon as possible]** e fai clic su **[!UICONTROL Analyze]** pulsante .
    1. Al termine dell’analisi, controlla il risultato.
    1. Fai clic su **[!UICONTROL Confirm delivery]**, quindi fai clic su **[!UICONTROL Yes]**.
-
 
 ## Inviare messaggi diretti ai follower {#direct-tw-messages}
 
@@ -99,40 +100,46 @@ Per inviare messaggi diretti ai tuoi follower, segui i passaggi seguenti:
 
 1. Selezionare la destinazione principale
 
-1. Seleziona la **[!UICONTROL To]** e **[!UICONTROL Add]** pulsante .
+   ![](assets/tw-dm-define-target.png)
 
-1. Selezionare un tipo di targeting
+   1. Seleziona la **[!UICONTROL To]** e **[!UICONTROL Add]** pulsante .
 
-   * Seleziona **[!UICONTROL Twitter subscribers]** per inviare un messaggio diretto a tutti i tuoi follower.
+   1. Scegliere un tipo di targeting
 
-   * Seleziona **[!UICONTROL Filter conditions]** per definire una query e visualizzarne il risultato. Questa opzione è la stessa delle consegne e-mail. Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/creating-queries/defining-filter-conditions.html){target=&quot;_blank&quot;}.
+      * Seleziona **[!UICONTROL Twitter subscribers]** per inviare un messaggio diretto a tutti i tuoi follower.
 
-1. Da **[!UICONTROL Target of the proofs]** seleziona il follower che riceverà la bozza del messaggio diretto.
+      * Seleziona **[!UICONTROL Filter conditions]** per definire una query e visualizzarne il risultato. Scopri come creare un filtro in [questa sezione](../audiences/create-filters.md#advanced-filters).
+
+1. Seleziona la destinazione della bozza dal **[!UICONTROL Target of the proofs]** scheda: questo account riceverà la prova del messaggio diretto.
+
+   Come descritto in [passaggi di configurazione](../connect/ac-tw.md#tw-test-account), devi creare un account Twitter di prova privato dedicato all’invio di bozze.
+
 
    >[!NOTE]
    >
-   >Se desideri inviare tutte le bozze dei messaggi diretti allo stesso follower di Twitter, puoi salvare la destinazione della bozza nella **[!UICONTROL Tweet (Direct Message)]** modello di consegna, accessibile tramite il **[!UICONTROL Resources > Templates > Delivery templates]** nodo.
+   >Se desideri inviare tutte le bozze dei messaggi diretti allo stesso account Twitter, puoi salvare la destinazione della bozza nel **[!UICONTROL Tweet (Direct Message)]** modello di consegna, accessibile tramite il **[!UICONTROL Resources > Templates > Delivery templates]** nodo.
 
 1. Immetti il contenuto del messaggio nel **[!UICONTROL Content]** scheda .
 
-   I campi di personalizzazione possono essere utilizzati nello stesso modo delle consegne e-mail, ad esempio per aggiungere il nome del follower nel corpo del messaggio. Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/about-personalization.html){target=&quot;_blank&quot;}.
+   ![](assets/tw-dm-content.png)
+
+   I campi di personalizzazione possono essere utilizzati nello stesso modo delle consegne e-mail, ad esempio per aggiungere il nome del follower nel corpo del messaggio. Ulteriori informazioni in [questa sezione](../start/create-message.md#personalization).
 
 1. Anteprima del messaggio
 
    Sfoglia il **[!UICONTROL Preview]** per controllare il rendering del post.
 
+   ![](assets/tw-dm-preview.png)
+
    1. Fai clic sul pulsante **[!UICONTROL Preview]** scheda .
-   1. Fai clic sul pulsante **[!UICONTROL Test personalization]** menu a discesa e seleziona **[!UICONTROL Service]**.
-   1. In **[!UICONTROL Folder]** , seleziona la cartella del servizio che contiene il tuo account Twitter.
-   1. Scegli l&#39;account Twitter con cui testare l&#39;anteprima.
+   1. Fai clic sul pulsante **[!UICONTROL Test personalization]** menu a discesa e seleziona **[!UICONTROL Visitor Subscription]**.
+   1. Scegli un account Twitter con cui testare l’anteprima.
 
 1. Inviare una bozza
 
    Prima di inviare il messaggio, assicurati di convalidarlo inviando una bozza a un account di prova: puoi quindi ottenere un rendering esatto del messaggio su un account Twitter privato e controllare il contenuto e la personalizzazione.
 
-   Per ulteriori informazioni sulla creazione di un account Twitter privato, consulta [questa sezione](../connect/ac-tw.md#tw-test-account).
-
-   ![](../assets/do-not-localize/book.png) [Scopri i passaggi chiave per convalidare una consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) [Scopri i passaggi chiave per convalidare una consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=it){target=&quot;_blank&quot;}
 
 1. Invia il messaggio diretto
 

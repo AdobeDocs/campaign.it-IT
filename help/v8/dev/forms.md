@@ -1,8 +1,11 @@
 ---
 title: Moduli di input per Campaign
 description: Scopri come personalizzare i moduli di input
+feature: Web Forms
+role: Developer
+level: Beginner, Intermediate, Experienced
 exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
-source-git-commit: 5c1ced7972295e79418ac7ff14a6f0888e5ed39a
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 0%

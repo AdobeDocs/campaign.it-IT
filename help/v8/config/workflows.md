@@ -2,13 +2,13 @@
 title: Gestire e automatizzare i processi con i flussi di lavoro Adobe Campaign
 description: Introduzione ai flussi di lavoro
 feature: Workflows
-role: Data Engineer
+role: User, Admin
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: 59046a11c3e057cf41c322f190a9d8aef310c356
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '1574'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -41,7 +41,7 @@ Scopri di più sull’interfaccia utente e l’esecuzione dei flussi di lavoro i
 
 * [Monitorare l’esecuzione dei flussi di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html)
 
-* [Creare un pubblico in un flusso di lavoro di una campagna di marketing](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html)
+* [Creare un pubblico in un flusso di lavoro di una campagna di marketing](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=it)
 
 ## Attività del flusso di lavoro {#wf-activities}
 
@@ -114,7 +114,7 @@ A seconda dello scopo del flusso di lavoro, puoi scegliere tra i tre magazzini s
 
 Progetta un flusso di lavoro ricorrente e crea una nuova istanza di consegna ogni volta che il flusso di lavoro viene eseguito. Ad esempio, se il flusso di lavoro è progettato per essere eseguito una volta alla settimana, si otterranno 52 consegne dopo un anno. Ciò significa anche che i registri saranno separati da ogni istanza di consegna.
 
-Scopri come creare una campagna ricorrente in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/recurring-periodic-campaigns.html)
+Scopri come creare una campagna ricorrente in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/recurring-periodic-campaigns.html?lang=it)
 
 
 ## Sfruttare gli eventi trigger
@@ -137,7 +137,7 @@ In questa sezione troverai vari casi d’uso che sfruttano le funzionalità dei 
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
 
-* [Inviare un’e-mail di compleanno](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html)
+* [Inviare un’e-mail di compleanno](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=it)
 
    Questo caso d’uso illustra come pianificare l’invio di un’e-mail ricorrente a un elenco di destinatari il giorno del loro compleanno.
 

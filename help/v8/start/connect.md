@@ -1,14 +1,14 @@
 ---
 title: Connetti a Campaign v8
 description: Scopri come connettersi a Campaign v8
-feature: Audiences
-role: Data Engineer
+feature: Client Console
+role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '832'
+ht-degree: 2%
 
 ---
 
@@ -21,6 +21,13 @@ Prima di iniziare, è necessario:
 * Verifica la compatibilità di sistema e strumenti con Adobe Campaign nella [Matrice di compatibilità](compatibility-matrix.md)
 * Ottieni l’URL del server Campaign
 * Crea il tuo Adobe ID o ottieni le tue credenziali utente dalla tua azienda
+* Installa il runtime Microsoft Edge Webview2 sul sistema (dalla versione di build di Campaign Classic 8.4). [Ulteriori informazioni](#webview)
+
+## Installazione runtime di Microsoft Edge Webview2 {#webview}
+
+Dalla versione di build di Campaign Classic 8.4, è necessaria l’installazione del runtime Microsoft Edge Webview 2 per qualsiasi installazione della console.
+
+Web View è installato per impostazione predefinita come parte del sistema operativo Windows 11. Se non è già presente nel sistema, verrà richiesto di scaricarlo da Campaign Console Installer [Sito web per sviluppatori di Microsoft](http://www.adobe.com/go/acc-ms-webview2-runtime-download_it). Il collegamento per il download non funziona nel browser Internet Explorer 11 in quanto Microsoft ne ha dichiarato obsoleto il supporto. Assicurati di utilizzare un browser diverso per accedere al collegamento.
 
 ## Scaricare e installare la console client{#download-ac-console}
 
@@ -77,6 +84,10 @@ Per accedere a un&#39;istanza esistente, segui i passaggi seguenti:
 1. Puoi quindi accedere a Campaign con [il tuo Adobe ID](#connect-ims).
 
    ![](assets/adobeID.png)
+
+>[!NOTE]
+>
+>Per le versioni di build Campaign classic 8.4, la console del client Adobe Campaign può richiedere le credenziali proxy due volte durante l’autenticazione proxy. Ciò è dovuto al fatto che Microsoft Edge Webview2 non salva le credenziali proxy nella cache/archivio password a differenza di Internet Explorer.
 
 ## Concedere l’accesso agli utenti{#grant-access}
 

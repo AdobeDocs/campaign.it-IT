@@ -2,13 +2,13 @@
 title: Utilizzare Campaign e Adobe Target
 description: Scopri come utilizzare Campaign e Adobe Target
 feature: Target Integration
-role: Data Engineer
-level: Beginner
+role: Admin, User
+level: Beginner, Intermediate
 exl-id: 891a9a87-f3a4-405a-87ed-a7703be90a67
-source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '988'
+ht-degree: 1%
 
 ---
 

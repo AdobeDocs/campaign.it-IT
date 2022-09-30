@@ -2,10 +2,10 @@
 title: Visualizzare i profili esistenti in Campaign
 description: Scopri come accedere ai dati di contatto in Campaign
 feature: Audiences, Profiles
-role: Data Engineer
+role: User
 level: Beginner
 exl-id: 03f7a736-e0b9-4216-9550-507f10e6fcf6
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 2%

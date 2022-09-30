@@ -1,14 +1,14 @@
 ---
 title: Errori di consegna in Campaign
 description: Comprendere i possibili errori durante l’invio di messaggi con Adobe Campaign
-feature: Audiences, Profiles
-role: Data Engineer
-level: Beginner
+feature: Profiles, Monitoring
+role: User
+level: Beginner, Intermediate
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: 5c1ced7972295e79418ac7ff14a6f0888e5ed39a
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '3008'
-ht-degree: 6%
+ht-degree: 10%
 
 ---
 
@@ -199,7 +199,7 @@ Per il canale e-mail, i possibili motivi di un errore di consegna sono elencati 
    <td> La cassetta postale di questo utente è piena e non può accettare altri messaggi. Questo profilo sarà nuovamente oggetto di targeting fino a raggiungere 5 errori. Successivamente, il record verrà impostato sullo stato di quarantena e non verrà eseguito alcun nuovo tentativo.<br /> Questo tipo di errore viene gestito da un processo di pulizia, l’indirizzo viene impostato su uno stato valido dopo 30 giorni.<br /> Avviso: per rimuovere automaticamente l’indirizzo dall’elenco degli indirizzi in quarantena, è necessario avviare il flusso di lavoro tecnico Database cleanup .<br /> </td> 
   </tr> 
   <tr> 
-   <td> Non connesso </td> 
+   <td> Non connessi </td> 
    <td> Ignorato </td> 
    <td> 6 </td> 
    <td> Il telefono cellulare del destinatario è spento o non è connesso alla rete quando il messaggio viene inviato.<br /> </td> 
