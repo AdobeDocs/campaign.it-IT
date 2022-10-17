@@ -6,10 +6,10 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 6986f4eb017602632d11ce6e9ca9e156d94380ff
+source-git-commit: 9ae93ce4e2b0424bb3b3862b2c7d016309bd630e
 workflow-type: tm+mt
-source-wordcount: '3368'
-ht-degree: 66%
+source-wordcount: '2835'
+ht-degree: 98%
 
 ---
 
@@ -17,9 +17,11 @@ ht-degree: 66%
 
 In questa pagina sono elencate nuove funzionalità, miglioramenti e correzioni introdotti con l’**ultima versione di Campaign v8**.
 
+
 ## Versione 8.4.1 {#release-8-4-1}
 
 _30 settembre 2022_
+
 
 **Novità**
 
@@ -31,7 +33,7 @@ _30 settembre 2022_
 </thead> 
 <tbody> 
 <tr> 
-<td><p>Sono ora disponibili nuovi connettori di destinazione e sorgente per consentire un’integrazione diretta tra Adobe Campaign e Adobe Experience Platform:</p>
+<td><p>Sono ora disponibili nuovi connettori di destinazione e origine per consentire un’integrazione fluida tra Adobe Campaign e Adobe Experience Platform:</p>
 <ul><li>Utilizza il connettore di destinazione Adobe Campaign Managed Cloud Services per inviare segmenti di Experience Platform ad Adobe Campaign per l’attivazione,</li>
 <li>Utilizza il connettore sorgente Adobe Campaign Managed Cloud Service per inviare i registri di consegna e tracciamento Adobe Campaign a Adobe Experience Platform.</li>
 </ul>
@@ -44,20 +46,20 @@ _30 settembre 2022_
 <table> 
 <thead>
 <tr> 
-<th> <strong>Disponibilità dei canali twitter</strong><br /> </th> 
+<th> <strong>Disponibilità del canale Twitter</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>La <a href="../send/twitter.md">Canale social twitter</a> è ora disponibile con Campaign v8. Puoi:</p>
+<td> <p>Il <a href="../send/twitter.md">canale social Twitter</a> è ora disponibile con Campaign v8. È possibile eseguire le seguenti operazioni:</p>
 <ul> 
-<li><p>Invia messaggi su Twitter: Adobe Campaign ti consente di inviare messaggi direttamente al tuo account twitter. Puoi anche inviare messaggi diretti a tutti i tuoi follower.
+<li><p>Inviare messaggi su Twitter: Adobe Campaign consente di inviare messaggi direttamente al tuo account Twitter. Puoi anche inviare messaggi diretti a tutti i tuoi follower.
 </p></li>
-<li><p>Raccogli nuovi contatti: Adobe Campaign può ripristinare automaticamente i dati del profilo, consentendo di eseguire campagne di targeting e implementare strategie cross-channel.
+<li><p>Raccogliere nuovi contatti: Adobe Campaign può ripristinare automaticamente i dati del profilo, consentendo di eseguire campagne di targeting e implementare strategie cross-channel.
 </p></li>
 </ul>
-<p>Scopri come collegare Campaign e Twitter nel <a href="../connect/ac-tw.md">documentazione dettagliata</a>.</p>
-<p>Scopri come pubblicare tweet e inviare messaggi diretti con Campaign in <a href="../connect/ac-tw.md">questa pagina</a>.</p>
+<p>Per scoprire come collegare Campaign e Twitter, consulta la <a href="../connect/ac-tw.md">documentazione dettagliata</a>.</p>
+<p>Per scoprire come pubblicare tweet e inviare messaggi diretti con Campaign, visita <a href="../connect/ac-tw.md">questa pagina</a>.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -67,8 +69,8 @@ _30 settembre 2022_
 
 Per ottimizzare la sicurezza, i token di sicurezza sono stati rimossi dagli URL generati da Campaign:
 
-* Questa modifica si applica solo agli URL di GET. Non vengono interessati altri tipi, inclusi gli URL di POST.
-* Se utilizzi un codice personalizzato, i token di sicurezza non vengono più recuperati dal parametro di protezione URL di GET. Devi generare un nuovo token di sicurezza utilizzando il seguente codice JSSP:
+* Questa modifica si applica solo agli URL delle richieste GET. Altri tipi, inclusi gli URL delle richieste POST, non subiscono modifiche.
+* Se utilizzi un codice personalizzato, i token di sicurezza non vengono più recuperati dal parametro di protezione URL delle richieste GET. Devi generare un nuovo token di sicurezza utilizzando il seguente codice JSSP:
 
    ```getNewSecurityToken(jsspContext.getSessionToken(), jsspContext.getSecurityToken(), true);```
 
@@ -77,68 +79,34 @@ Per ottimizzare la sicurezza, i token di sicurezza sono stati rimossi dagli URL 
 
 **Miglioramenti**
 
-* Dopo la fine del ciclo di vita di Microsoft Internet Explorer 11, il motore di rendering HTML nella console sta ora utilizzando **Cromo bordo Microsoft**. Inoltre, l&#39;installazione di **WebView Microsoft Edge 2** runtime è ora necessario per qualsiasi installazione della console client.
-* È stata migliorata l’esecuzione del flusso di lavoro con l’elevata disponibilità del flusso di lavoro, che consente di eseguire flussi di lavoro simultanei tra contenitori diversi per evitare la perdita del servizio del flusso di lavoro ed evitare i relativi errori di esecuzione. **Nota**: Questa nuova funzionalità viene rilasciata solo in Disponibilità limitata a un set di clienti.
-* Le richieste di privacy vengono ora eseguite in batch per uno specifico spazio dei nomi di privacy. Questo miglioramento aumenta il tempo di esecuzione per le richieste di cancellazione RGPD/privacy.
+* Dopo la fine del ciclo di vita di Internet Explorer 11, il motore di rendering HTML nella console utilizza ora **Microsoft Edge Chromium**. Inoltre, **Microsoft Edge WebView2 Runtime** è ora necessario per tute le installazioni della console client.
+* È stata migliorata l’esecuzione dei flussi di lavoro con elevata disponibilità, che consente di eseguire flussi di lavoro simultanei tra contenitori diversi per evitare sia la perdita del servizio del flusso di lavoro sia i relativi errori di esecuzione. **Nota**: questa nuova funzionalità viene rilasciata solo in Disponibilità limitata a un set di clienti.
+* Le richieste di privacy vengono ora eseguite in batch per uno specifico spazio dei nomi di privacy. Questo miglioramento aumenta il tempo di esecuzione per le richieste di eliminazione di dati relativi a GDPR e privacy.
 
 **Aggiornamenti della compatibilità**
 
-* L’SDK di Campaign v8 supporta ora iOS 16 per le notifiche push.
+* L’SDK di Campaign v8 supporta ora iOS 16 per le notifiche push.
 
 Consulta la [Matrice di compatibilità di Campaign](compatibility-matrix.md).
 
 **Patch**
 
-* È stato risolto un problema che influenzava gli aggiornamenti dello stato del registro di consegna sull’istanza MID, quando l’opzione FeatureFlag_GZIP_Compression era abilitata. (NEO-49183)
-* È stato risolto un problema che poteva causare il blocco delle consegne in **In sospeso** stato anche se è stata raggiunta la data di contatto. (NEO-48079)
-* È stato risolto un problema nei flussi di lavoro che poteva impedire l’aggiornamento dei file sul server quando si utilizzava **Caricamento dati (file)** attività. Il processo si è interrotto al 100% ma non è mai terminato. (NEO-47269)
-* È stato risolto un problema durante l’aggiornamento successivo negli ambienti giapponesi. (NEO-46640)
+* È stato risolto un problema che interessava gli aggiornamenti dello stato del registro di consegna sull’istanza MID quando l’opzione FeatureFlag_GZIP_Compression era abilitata. (NEO-49183)
+* È stato risolto un problema che avrebbe potuto bloccare le consegne sullo stato **In sospeso** anche se era stata raggiunta la data di contatto. (NEO-48079)
+* È stato risolto un problema nei flussi di lavoro che poteva impedire l’aggiornamento dei file sul server quando si utilizzava l’attività **Caricamento dati (file)**. Il processo si è interrotto al 100% ma non è mai terminato. (NEO-47269)
+* È stato risolto un problema durante il post-aggiornamento in ambienti giapponesi. (NEO-46640)
 * È stato risolto un problema che poteva verificarsi se una consegna raggiungeva una dimensione precisa durante il processo MTA. (NEO-46097)
 * È stato risolto un problema che impediva ai registri di tracciamento di restituire i dati relativi al browser del destinatario. (NEO-46612)
 * È stato risolto un problema che causava problemi di personalizzazione durante l’invio di messaggi SMS utilizzando una modalità di consegna esterna. (NEO-46415)
 * È stato risolto un problema che poteva generare duplicati nei registri di tracciamento. (NEO-46409)
-* È stato risolto un problema che impediva la **[!UICONTROL Replicate Staging data]** Il flusso di lavoro tecnico (ffdaReplicateStagingData) non viene interrotto anche quando si è verificato un errore durante la relativa esecuzione. (NEO-46280)
-* Per evitare la lentezza durante l’invio di prove agli indirizzi di seed, tutte le repliche consecutive dei membri di seed ora sono raggruppate in un’unica richiesta di replica. (NEO-44844)
-* È stato risolto un problema che causava la visualizzazione di un errore durante il tentativo di visualizzare l’anteprima di una consegna in qualsiasi evento archiviato del Centro messaggi . (NEO-43620)
-* È stato risolto un problema che si verificava durante l’inserimento di dati nel database cloud di Snowflake con una campagna **Query** attività e **Cambia origine dati** attività: il processo non riusciva quando nei dati è presente un carattere barra rovesciata. La stringa di origine non è preceduta dall&#39;escape e i dati non sono stati elaborati correttamente sul Snowflake. (NEO-45549)
-* È stato risolto un problema che si verificava con l’utilizzo di **Query** attività e filtraggio di una tabella. Quando un nome di colonna conteneva la parola &quot;Update&quot;, si verificava un errore di compilazione con un identificatore non valido e il seguente messaggio: &quot;numero di righe aggiornate&quot;. (NEO-46485)
-* La **Pulizia del database** il flusso di lavoro tecnico ora gestisce anche gli schemi di staging personalizzati. (NEO-48974)
-* È stato risolto un problema che poteva rallentare l’analisi della consegna, durante l’esclusione del passaggio dei destinatari inserita nell&#39;elenco Bloccati, quando si eseguiva il targeting di grandi volumi di destinatari. (NEO-48019)
-* È stata migliorata la stabilità durante la gestione di stringhe XML non valide durante le chiamate SOAP. (NEO-48027)
-* È stato risolto un problema che causava la creazione di DeliveryParts non necessarie quando la consegna utilizzava il calendario e le modalità di suddivisione. (NEO-48634)
-* È stato risolto un problema di prestazioni che si verificava durante l’utilizzo di ondate basate su calendario. (NEO-48451)
-* È stato risolto un problema che poteva causare un messaggio di errore nella schermata dell’elenco di consegna dopo la creazione di una nuova mappatura di destinazione in uno schema personalizzato. (NEO-49237)
-* È stato risolto un problema che poteva causare la perdita di dati se il flusso di lavoro di staging era in errore e il periodo di conservazione era completamente passato. (NEO-48975)
+* È stato risolto un problema che impediva al flusso di lavoro tecnico **[!UICONTROL Replicate Staging data]** (ffdaReplicateStagingData) di venire interrotto anche se si verificava un errore durante la relativa esecuzione. (NEO-46280)
+* È stato risolto un problema che poteva verificarsi se una consegna raggiungeva una dimensione precisa durante il processo MTA. (NEO-46097)
+* Per evitare rallentamenti durante l’invio di una bozza agli indirizzi seed, tutte le repliche consecutive dei membri di seed ora sono raggruppate in un’unica richiesta di replica. (NEO-44844)
+* È stato risolto un problema che causava la visualizzazione di un errore durante il tentativo di visualizzare l’anteprima di una consegna negli eventi archiviati del Centro messaggi . (NEO-43620)
+* È stato risolto un problema che si verificava durante l’inserimento di dati nel database cloud di Snowflake con un’attività **Query** e un’attività **Change Data Source** (Cambia origine dati) di Campaign: il processo non riusciva se nei dati era presente il carattere barra inversa. Alla stringa di origine non veniva applicato l’escape e i dati non venivano elaborati correttamente in Snowflake. (NEO-45549)
+* È stato risolto un problema che si verificava se si utilizzava l’attività di **Query** e si aplicava un filtro a una tabella. Se un nome di colonna conteneva la parola “Update”, si verificava un errore di compilazione con un identificatore non valido e un messaggio di tipo: “numero di righe aggiornate”. (NEO-46485)
 
-## Versione 8.3.9 {#release-8-3-9}
 
->[!CAUTION]
->
-> L’aggiornamento della console client è obbligatorio. Scopri come aggiornare la console client in questo [page](../start/connect.md#download-ac-console).
-
-_7 ottobre 2022_
-
-**Miglioramenti**
-
-* È stato risolto un problema che influenzava gli aggiornamenti dello stato del registro di consegna sull’istanza MID, quando l’opzione FeatureFlag_GZIP_Compression era abilitata. (NEO-49183)
-* La **Pulizia del database** il flusso di lavoro tecnico ora gestisce anche gli schemi di staging personalizzati. (NEO-48974)
-* È stato risolto un problema che poteva causare il blocco delle consegne in **In sospeso** stato anche se è stata raggiunta la data di contatto. (NEO-48079, NEO-48251)
-* È stata migliorata la stabilità durante la gestione di stringhe XML non valide durante le chiamate SOAP. (NEO-48027)
-* È stato risolto un problema che poteva rallentare l’analisi della consegna, durante l’esclusione del passaggio dei destinatari inserita nell&#39;elenco Bloccati, quando si eseguiva il targeting di grandi volumi di destinatari. (NEO-48019)
-* Per evitare la lentezza durante l’invio di prove agli indirizzi di seed, tutte le repliche consecutive dei membri di seed ora sono raggruppate in un’unica richiesta di replica. (NEO-44844)
-* È stato risolto un problema che causava problemi di personalizzazione durante l’invio di messaggi SMS utilizzando una modalità di consegna esterna. (NEO-46415)
-* È stato risolto un problema che causava la visualizzazione di un errore durante il tentativo di visualizzare l’anteprima di una consegna in qualsiasi evento archiviato del Centro messaggi . (NEO-43620)
-* È stato risolto un problema nei flussi di lavoro che poteva impedire l’aggiornamento dei file sul server quando si utilizzava **Caricamento dati (file)** attività. Il processo si è interrotto al 100% ma non è mai terminato. (NEO-47269)
-* È stato risolto un problema che causava la creazione di DeliveryParts non necessarie quando la consegna utilizzava il calendario e le modalità di suddivisione. (NEO-48634)
-* È stato risolto un problema di prestazioni che si verificava durante l’utilizzo di ondate basate su calendario. (NEO-48451)
-* È stato risolto un problema che poteva causare un messaggio di errore nella schermata dell’elenco di consegna dopo la creazione di una nuova mappatura di destinazione in uno schema personalizzato. (NEO-49237)
-* È stato risolto un problema che poteva verificarsi se una consegna raggiungeva una dimensione specifica durante il processo MTA. (NEO-46097)
-* È stato risolto un problema che impediva ai registri di tracciamento di restituire i dati relativi al browser del destinatario. (NEO-46612)
-* È stato risolto un problema durante l’aggiornamento successivo negli ambienti giapponesi. (NEO-46640)
-* È stato risolto un problema che si verificava con l’utilizzo di **Query** attività e filtraggio di una tabella. Quando un nome di colonna conteneva la parola &quot;Update&quot;, si è verificato un errore di compilazione con un identificatore non valido e il seguente messaggio: &quot;numero di righe aggiornate&quot;. (NEO-46485)
-* È stato risolto un problema che impediva la **[!UICONTROL Replicate Staging data]** Il flusso di lavoro tecnico (ffdaReplicateStagingData) non viene interrotto anche quando si è verificato un errore durante la relativa esecuzione. (NEO-46280)
-* È stato risolto un problema che poteva causare la perdita di dati se il flusso di lavoro di staging era in errore e il periodo di conservazione era completamente passato. (NEO-48975)
-* È stato risolto un problema che si verificava durante l’inserimento di dati nel database cloud di Snowflake con una campagna **Query** attività e **Cambia origine dati** attività: il processo non riusciva quando nei dati è presente un carattere barra rovesciata. La stringa di origine non è preceduta dall&#39;escape e i dati non sono stati elaborati correttamente sul Snowflake. (NEO-45549)
 
 ## Versione 8.3.8 {#release-8-3-8}
 
@@ -302,7 +270,7 @@ _28 ottobre 2021_
 **Miglioramenti**
 
 * Il connettore Snowflake è stato migliorato in termini di prestazioni.
-* Ai fini del monitoraggio e del testing, i registri di audit dei **[!UICONTROL Replicate Staging data]** ora includono il numero di record inviati al database FFDA (Full Federated Data Access).
+* Ai fini del monitoraggio e del testing, i registri di audit del flusso di lavoro **[!UICONTROL Replicate Staging data]** ora includono il numero di record inviati al database FFDA (Full Federated Data Access).
 * L’attività codice SQL consente ora di scegliere in quale database verrà memorizzato lo script SQL: l’origine dati predefinita o un account esterno FDA attivo prescelto.
 * È ora disponibile un set di warehouse predefiniti che può essere utilizzato per eseguire varie query in parallelo, ad esempio segmentazione, ETL o picchi. [Leggi tutto](../config/workflows.md)
 

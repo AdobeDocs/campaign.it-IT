@@ -5,9 +5,9 @@ feature: Privacy, PI
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 864f2179384d3e3cfcf310fcd04fe02240bfbefa
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '664'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,30 @@ La configurazione e l’indurimento della privacy è un elemento chiave dell’o
 * Protect le pagine che possono contenere informazioni personali come pagine mirror, applicazioni web, ecc.
 
 ![](../assets/do-not-localize/speech.png)  In qualità di utente di Cloud Services gestiti, Adobe collaborerà con te per implementare queste configurazioni nel tuo ambiente.
+
+
+## Gestione degli accessi
+
+La gestione degli accessi è una parte importante dell&#39;irrigidimento della sicurezza. Di seguito sono riportate alcune delle best practice principali:
+
+* Creare un numero sufficiente di gruppi di sicurezza
+* Verificare che ogni operatore disponga dei diritti di accesso appropriati
+* Evita di utilizzare l&#39;operatore amministratore ed evita di avere troppi operatori nel gruppo di amministrazione
+
+![](../assets/do-not-localize/book.png) Ulteriori informazioni in [Documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator){target=&quot;_blank&quot;}
+
+## Linee guida sulla codifica
+
+Nello sviluppo in Adobe Campaign (flussi di lavoro, JavaScript, JSSP, ecc.), segui sempre le seguenti linee guida:
+
+* **Scripting**: cercare di evitare istruzioni SQL, utilizzare funzioni parametrizzate invece della concatenazione di stringhe, evitare l&#39;inserimento di SQL aggiungendo le funzioni SQL da utilizzare nell&#39;elenco consentiti.
+
+* **Proteggere il modello dati**: utilizzare diritti denominati per limitare le azioni dell’operatore, aggiungere filtri di sistema (sysFilter)
+
+* **Aggiunta di sottotitoli nelle applicazioni web**: aggiungi le didascalie nelle pagine di destinazione pubbliche e nelle pagine di abbonamento.
+
+![](../assets/do-not-localize/book.png) Ulteriori informazioni in [Documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic){target=&quot;_blank&quot;}
+
 
 ## Personalizzazione
 

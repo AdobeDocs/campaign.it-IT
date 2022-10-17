@@ -5,9 +5,9 @@ feature: Profiles, Monitoring
 role: User
 level: Beginner, Intermediate
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 46be0379610a6a4a3491d49ce096c64270ed8016
 workflow-type: tm+mt
-source-wordcount: '3008'
+source-wordcount: '3009'
 ht-degree: 10%
 
 ---
@@ -54,7 +54,7 @@ Questi tipi di errori vengono gestiti come segue:
 
 >[!NOTE]
 >
->In qualità di utente Managed Services, la configurazione della cassetta postale di rimbalzo viene eseguita per Adobe.
+>In qualità di utente di Cloud Services gestiti, la configurazione della cassetta postale non recapitata viene eseguita per Adobe.
 
 ## Qualificazione di mail non recapitate {#bounce-mail-qualification}
 

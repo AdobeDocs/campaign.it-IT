@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 6605a24cea536dbef5b1a7e909ff4d76b3d6c222
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 14%
+source-wordcount: '390'
+ht-degree: 10%
 
 ---
 
@@ -18,19 +18,16 @@ Puoi collegare la tua istanza Campaign con le soluzioni Adobe Experience Cloud p
 
 Adobe Campaign include diversi connettori che consentono di comunicare con applicazioni esterne, connettersi ai motori di database, condividere e sincronizzare i dati.
 
-## Sfruttare le soluzioni di Adobe {#gs-ac-integration}
+## Combinare le soluzioni Adobe {#gs-ac-integration}
 
-Modernizza la tua implementazione e sfrutta tutte le funzionalità di Adobe Experience Cloud.
+Combina le soluzioni Adobe Experience Cloud per modernizzare la tua implementazione.
 
 ![](../assets/do-not-localize/speech.png)  Come utente di Cloud Services gestiti, [Adobe di contatto](../start/campaign-faq.md#support) per collegare Campaign ai servizi e alle soluzioni Adobe Experience Cloud.
 
 Campaign v8 può connettersi con:
 
 * [Adobe Experience Platform](../connect/ac-aep.md)
-* [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html?lang=en).
-
-   Consulta il caso d’uso end-to-end [qui](https://experienceleague.adobe.com/docs/journeys/using/use-cases-journeys/campaign-classic-use-case.html?lang=it).
-
+* [Adobe Journey Optimizer](../connect/ac-ajo.md)
 * [Adobe Analytics](../connect/ac-aa.md)
 * [Adobe Experience Manager](../connect/ac-aem.md)
 * [Trigger Adobe Experience Cloud](../connect/ac-triggers.md)
@@ -42,7 +39,7 @@ Campaign v8 può connettersi con:
 
 ![](../assets/do-not-localize/book.png) Ulteriori informazioni **Condivisione delle risorse** tra le soluzioni Campaign e Experience Cloud in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=en#integrating-with-adobe-experience-cloud)
 
-## Connettori per sistemi CRM{#gs-crm-connectors}
+## Integra con il tuo connettore di gestione delle relazioni con i clienti{#gs-crm-connectors}
 
 Puoi collegare la piattaforma Adobe Campaign al tuo **Sistemi di terze parti CRM** e sincronizza i dati: contatti, conti, acquisti, ecc.
 
@@ -51,22 +48,22 @@ I connettori di gestione delle relazioni con i clienti consentono un’integrazi
 
 ![](../assets/do-not-localize/glass.png) Scopri come integrare Campaign con Microsoft Dynamics 365 e Salesforce.com in [questa pagina](crm.md)
 
-## Federated Data Access (FDA){#gs-fda}
+## Connettere terze parti con Federated Data Access{#gs-fda}
 
 Usa il connettore FDA (Federated Data Access) per collegare Campaign a uno o più **database esterni** e elabora le informazioni archiviate senza influire sui dati del database di Campaign Cloud.
 
 ![](../assets/do-not-localize/glass.png) Per ulteriori informazioni, consulta [questa pagina](fda.md)
 
+## Utilizzare i social media{#gs-social}
 
-<!--
-## Integrate with social media
+Utilizza Adobe Campaign per interagire con clienti e potenziali clienti tramite Twitter.
 
-Use the **Managing social networks (Social Marketing)** option to interact with customers and prospects via Twitter.
+È possibile eseguire le seguenti operazioni:
 
-* Send messages on Twitter: Adobe Campaign lets you post messages directly to your twitter account. You can also send direct messages to all your followers.
-* Collect new contacts: Adobe Campaign can automatically recovers the profile data, which enables you to carry out targeting campaigns and, when possible, to implement cross-channel strategies.
+* Invia messaggi diretti ai tuoi follower
+* Pubblica i tweet sul tuo account Twitter
+* Raccogli nuovi contatti
 
-![](../assets/do-not-localize/glass.png) Learn how to set up and use Campaign Social Marketing in [this page](../connect/ac-tw.md).
+![](../assets/do-not-localize/glass.png) Scopri come configurare e utilizzare l’integrazione Twitter in [questa pagina](../connect/ac-tw.md).
 
-![](../assets/do-not-localize/glass.png) Learn how to create Twitter posts and send direct messages to your followers in [this page](../send/twitter.md).
--->
+![](../assets/do-not-localize/glass.png) Scopri come creare post Twitter e inviare messaggi diretti ai tuoi follower in [questa pagina](../send/twitter.md).

@@ -5,7 +5,7 @@ feature: Audiences, Profiles, Application Settings
 role: User
 level: Beginner, Intermediate
 exl-id: 762dcacc-4aeb-4990-af01-7f793bd69170
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: ec46a6f41d640b11306a88d6a966f81f8c2e43e0
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 1%
@@ -24,7 +24,7 @@ Una visualizzazione è una cartella specifica che non contiene dati ma visualizz
 
 È possibile assegnare autorizzazioni alle cartelle per limitare l’accesso a determinati dati. [Ulteriori informazioni](#restrict-access-to-a-folder)
 
-## Procedure consigliate per l’utilizzo delle cartelle
+## Procedure consigliate per l’utilizzo delle cartelle{#best-practices-folders}
 
 * **Utilizzare le cartelle incorporate** per facilitare l’utilizzo, la manutenzione e la risoluzione dei problemi dell’applicazione da parte di tutti i partecipanti al progetto. Evita di creare strutture di cartelle personalizzate per destinatari, elenchi, consegne, ecc., ma utilizza le cartelle standard come **Amministrazione**, **Profili e destinazioni**, **Gestione delle campagne**.
 

@@ -5,14 +5,14 @@ feature: Workflows
 role: User, Admin
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: b323dbf9504e39cca78f7082089b864544ee1633
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 3%
 
 ---
 
-# Gestire e automatizzare i processi
+# Introduzione ai flussi di lavoro{#gs-with-workflows}
 
 Configura Campaign per sfruttare le potenti funzionalità di automazione delle campagne di marketing.
 
