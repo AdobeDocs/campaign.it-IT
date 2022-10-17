@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 46be0379610a6a4a3491d49ce096c64270ed8016
+source-git-commit: 1e84fdd61bb2591bf69f5efaf8f8fc01a0d3d93f
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 94%
+source-wordcount: '638'
+ht-degree: 86%
 
 ---
 
@@ -66,27 +66,28 @@ Gli utenti di Campaign si connettono unicamente tramite il proprio Adobe ID. Lo 
 
 Utilizza il modulo Marketing Analytics per analizzare e misurare i dati, calcolare le statistiche, semplificare e ottimizzare la creazione e il calcolo dei rapporti. Inoltre, crea rapporti e genera popolazioni target: una volta identificati, vengono memorizzati in elenchi che possono essere utilizzati in Adobe Campaign (targeting, segmentazione, ecc.).
 
-I rapporti dei dati cubo di Adobe Campaign sono ottimizzati e offrono migliori funzioni di scalabilità rispetto a Campaign Classic v7. Le precedenti limitazioni sui dati cubo non si applicano in Campaign v8.
+Con [Distribuzione aziendale (FFDA)](../architecture/enterprise-deployment.md), i rapporti cubo di Adobe Campaign sono ottimizzati e forniscono funzionalità di scalabilità migliore rispetto a Campaign Classic v7. In questo modello di distribuzione specifico, le limitazioni precedenti sui cubi non si applicano in Campaign v8.
 
 ## Funzioni non disponibili{#gs-unavailable-features}
 
 Tieni presente che alcune funzionalità non sono ancora disponibili in questa versione di Campaign, ad esempio:
 
 * Gestione delle risorse marketing
-* Modelli di implementazione on-premise/ibrida
+* Coupon
+* Tracciamento web
+* Indagini
 
 
 ## Funzioni non supportate{#gs-removed}
 
-Per allinearsi alla nuova architettura e al modello di implementazione di Campaign v8, alcune funzionalità storiche di Campaign Classic v7 non sono più supportate in Campaign v8, come ad esempio:
+Alcune funzionalità storiche di Campaign Classic v7 non sono più supportate con Campaign v8, ad esempio:
 
-* Coupon
-* Tracciamento web
-* Indagini
-* Social marketing
+* Social marketing con Facebook
 * Connettore ACS (offerta Prime)
 * Integrazione con LDAP
 * Accesso utente/password
+* Modelli di implementazione on-premise/ibrida
+
 
 >[!NOTE]
 >
