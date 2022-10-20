@@ -95,7 +95,7 @@ Campaign offre diversi modi per testare e convalidare le e-mail prima di inviarl
 
 ![](../assets/do-not-localize/book.png) [Applicare le best practice elencate nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/check-before-sending.html){target=&quot;_blank&quot;}
 
-Puoi:
+È possibile eseguire le seguenti operazioni:
 
 * Controlla i registri di analisi della consegna
 * Invia bozze

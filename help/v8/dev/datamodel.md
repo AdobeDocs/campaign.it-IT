@@ -1,14 +1,14 @@
 ---
-title: 'Introduzione al modello dati di Campaign '
-description: 'Introduzione al modello dati di Campaign '
+title: Introduzione al modello dati di Campaign
+description: Introduzione al modello dati di Campaign
 feature: Data Model
 role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
 source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '655'
+ht-degree: 4%
 
 ---
 
