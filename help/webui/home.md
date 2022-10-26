@@ -1,19 +1,19 @@
 ---
-keywords: Interfaccia web di Campaign;home;argomenti comuni
+keywords: Interfaccia web di Campaign;home;argomenti principali
 product: campaign
-title: Pagina principale di Adobe Campaign WebUI
+title: Home dell’interfaccia web di Adobe Campaign
 feature: Overview
 description: Panoramica
 hide: true
 source-git-commit: 07010d0253637bce4df62f7bfa1fd37fb9fb8e7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '15'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
-# WebUI Adobe Campaign {#webui-home}
+# Interfaccia web di Adobe Campaign {#webui-home}
 
-Pagina principale WebUI
+Home dell’interfaccia web
 
 
