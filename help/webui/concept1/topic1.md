@@ -10,7 +10,7 @@ ht-degree: 100%
 
 ---
 
-#  Concetto 1 Argomento 1 dell’interfaccia web {#c1t1}
+# Concetto 1 Argomento 1 dell’interfaccia web {#c1t1}
 
 ## Informazioni su argomento 1
 
