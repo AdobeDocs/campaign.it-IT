@@ -1,18 +1,18 @@
 ---
 product: campaign
-title: argomento 2 di webUI
-description: webUI
+title: Argomento 2 dell’interfaccia web
+description: Interfaccia web
 hide: true
 source-git-commit: 07010d0253637bce4df62f7bfa1fd37fb9fb8e7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '19'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# argomento 2 del concetto 1 di webUI {#c1t2}
+# Concetto 1 Argomento 2 dell’interfaccia web {#c1t2}
 
-## Argomento 2
+## Informazioni sull’argomento 2
 
-Scopri concept2 topic 2 in [questa pagina](../concept2/topic2.md).
-Scopri l’altro argomento [qui](../../automation/workflow/about-workflows.md)
+Scopri concetto 2 argomento 2 in [questa pagina](../concept2/topic2.md).
+Scopri questo argomento [qui](../../automation/workflow/about-workflows.md)
