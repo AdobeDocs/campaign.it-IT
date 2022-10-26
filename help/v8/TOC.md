@@ -7,7 +7,7 @@ title: Documenti su Campaign v8
 source-git-commit: f3090d1da1aaec1a50452bcfbf89e65e2669fc5c
 workflow-type: tm+mt
 source-wordcount: '433'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -30,11 +30,11 @@ ht-degree: 87%
       + [Scoprire l’interfaccia di Campaign](start/campaign-ui.md)
       + [Personalizzare l’interfaccia di Campaign](start/customize-ui.md)
       + [Gestire le cartelle e le visualizzazioni](audiences/folders-and-views.md)
-   + [Da Classic v7 a v8](start/v7-to-v8.md)
+   + [Da Classic v7 a v8](start/v7-to-v8.md)
    + [Domande frequenti](start/campaign-faq.md)
-+ Campaign Management {#campaigns}
++ Gestione delle campagne {#campaigns}
    + [Introduzione alle campagne](start/campaigns.md)
-   + [Documentazione sull’orchestrazione di Campaign](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=it)
+   + [Documentazione sull’orchestrazione delle campagne](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=it)
    + Inviare messaggi{#send}
       + [Introduzione ai messaggi](start/create-message.md)
       + E-mail {#emails}
@@ -50,7 +50,7 @@ ht-degree: 87%
          + [Quarantene](send/quarantines.md)
          + [Errori di consegna](send/delivery-failures.md)
       + [Ottimizzazione dell’ora di invio](send/predictive.md)
-      + [Gestire gli abbonamenti](start/subscriptions.md)
+      + [Gestire le iscrizioni](start/subscriptions.md)
 + Gestione di profili e pubblico {#audience}
    + [Guida introduttiva a profili e tipi di pubblico](audiences/gs-audiences.md)
    + [Utilizzare i tipi di pubblico](start/audiences.md)
@@ -64,7 +64,7 @@ ht-degree: 87%
    + Creare tipi di pubblico {#create-audiences}
       + [Creare un elenco di contatti](audiences/create-audiences.md)
       + [Creare e gestire i filtri](audiences/create-filters.md)
-   + [Condivisione di tipi di pubblico con le soluzioni Adobe](start/shared-audiences.md)
+   + [Condividere tipi di pubblico con le soluzioni Adobe](start/shared-audiences.md)
    + [Best practice](audiences/audiences-best-practices.md)
 + Gestione dei contenuti {#content}
    + [Progettare applicazioni web e moduli](dev/webapps.md)
@@ -92,12 +92,12 @@ ht-degree: 87%
 + Reporting e analisi {#analytics}
    + [Tracciamento e monitoraggio](start/tracking.md)
    + [Metriche e report](start/reporting.md)
-+ Gestione dati {#data}
++ Gestione dei dati {#data}
    + [Introduzione ai flussi di lavoro](config/workflows.md)
-   + [Importare dati](start/import.md)
-   + [Documentazione del flusso di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
+   + [Importare i dati](start/import.md)
+   + [Documentazione del flusso di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=it)
 + Integrazioni {#connect}
-   + [Connettere Campaign ad altre soluzioni](connect/integration.md)
+   + [Connettere Campaign con altre soluzioni](connect/integration.md)
    + [Campaign + Experience Platform](connect/ac-aep.md)
    + [Campaign + Journey Optimizer](connect/ac-ajo.md)
    + [Campaign + Analytics](connect/ac-aa.md)
