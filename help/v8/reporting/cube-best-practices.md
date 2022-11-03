@@ -1,16 +1,16 @@
 ---
 product: campaign
-title: Implementazione e best practice con cubi
+title: Personalizzare i cubi
 description: Scopri le best practice per l’implementazione dei cubi in Adobe Campaign
 feature: Reporting
-source-git-commit: 80e5efc5998c67ce576e9f8208fab9543fc70d29
+source-git-commit: b9928cc3bda0c0a1a0d5a43b2604615d7472b419
 workflow-type: tm+mt
-source-wordcount: '1459'
+source-wordcount: '1453'
 ht-degree: 1%
 
 ---
 
-# Implementazione e best practice con cubi{#cube-best-practices}
+# Personalizzare i cubi{#cube-custom}
 
 ## Associazione dei dati {#data-binning}
 
