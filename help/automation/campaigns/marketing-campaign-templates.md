@@ -3,10 +3,11 @@ product: campaign
 title: Modelli di campagna di marketing
 description: Modelli di campagna di marketing
 feature: Campaigns, Templates
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+exl-id: 1bd8d3e7-aaa9-4e00-96bb-0d30614ab380
+source-git-commit: 60db4c2e8cd280845ddd0176bd10dc1b7edbb767
 workflow-type: tm+mt
-source-wordcount: '976'
-ht-degree: 4%
+source-wordcount: '999'
+ht-degree: 5%
 
 ---
 
@@ -165,10 +166,9 @@ Quando crei un modello di campagna, devi immettere le seguenti informazioni:
 
 * Inserisci il **etichetta** del modello: l’etichetta è obbligatoria ed è l’etichetta predefinita per tutte le campagne basate su questo modello.
 * Seleziona la campagna **natura** dall’elenco a discesa. I valori disponibili in questo elenco sono quelli salvati in **[!UICONTROL natureOp]** enumerazione.
-   <!--
-  >[!NOTE]
-  >
-  >For more information on enumerations, refer to the [Getting Started](../../platform/using/managing-enumerations.md) section.-->
+
+Scopri come accedere e configurare le enumerazioni in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target=&quot;_blank&quot;}.
+
 
 * Seleziona la **tipo di campagna**: unico, ricorrente o periodico. Per impostazione predefinita, i modelli di campagna si applicano a campagne univoche. Le campagne ricorrenti e periodiche sono descritte in [questa sezione](recurring-periodic-campaigns.md).
 * Specifica la durata della campagna, ovvero il numero di giorni in cui avrà luogo la campagna. Quando crei una campagna basata su questo modello, le date di inizio e di fine della campagna verranno compilate automaticamente.

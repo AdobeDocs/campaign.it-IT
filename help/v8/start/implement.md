@@ -5,7 +5,7 @@ feature: Overview
 role: User, Admin, Developer
 level: Beginner, Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 9bea7904ea4507083d2cf45193877e7a2539d0c7
 workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 100%
@@ -125,7 +125,7 @@ Puoi personalizzare diverse aree e funzionalità di Campaign. La maggior parte d
 
    In aggiunta ai report incorporati, Adobe Campaign ti consente di generare report in vari contesti e di soddisfare esigenze diverse. I principi relativi alle modalità di utilizzo e di implementazione sono descritti nel presente documento.
 
-   ![](../assets/do-not-localize/glass.png) Scopri le funzionalità di reporting in Campaign, in [questa pagina](reporting.md).
+   ![](../assets/do-not-localize/glass.png) Scopri le funzionalità di reporting in Campaign, in [questa pagina](../reporting/gs-reporting.md).
 
 
 ## Impostare l’automazione della campagna

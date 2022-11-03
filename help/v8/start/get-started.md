@@ -5,7 +5,7 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 9bea7904ea4507083d2cf45193877e7a2539d0c7
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 100%
@@ -72,7 +72,7 @@ Oltre ai potenti modelli di reporting predefiniti, Adobe Campaign consente di cr
 La funzione di reporting della campagna facilita la creazione di rapporti dinamici. Puoi trascinare e rilasciare le variabili per personalizzare i rapporti e analizzare il successo delle campagne. A seconda della complessità delle query e dei calcoli, è possibile aggregare i dati in una visualizzazione elenco o accedervi in un formato che semplifichi la generazione di rapporti di analisi marketing.
 
 
-![](../assets/do-not-localize/glass.png) Scopri le funzionalità di reporting e tracciamento in [questa sezione](reporting.md).
+![](../assets/do-not-localize/glass.png) Scopri le funzionalità di reporting e tracciamento in [questa sezione](../reporting/gs-reporting.md).
 
 ## Integrazioni con Adobe Experience Cloud {#adobe-experience-cloud-integrations}
 
