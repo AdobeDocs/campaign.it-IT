@@ -3,7 +3,7 @@ product: campaign
 title: Utilizzare i cubi per creare rapporti sui dati
 description: Scopri come utilizzare i cubi per creare rapporti
 feature: Reporting
-source-git-commit: 60db4c2e8cd280845ddd0176bd10dc1b7edbb767
+source-git-commit: 7fc3e5b9f12ca48ef0921e27844ef9fef71ac06b
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 1%
@@ -60,7 +60,7 @@ La **[!UICONTROL Add]** i pulsanti su ciascun asse consentono di aggiungere dime
 
    Questi parametri dipendono dal tipo di dati della dimensione selezionata.
 
-   Ad esempio, per le date, possono essere disponibili diversi livelli. Per ulteriori informazioni, consulta [Misure di visualizzazione](cube-best-practices.md#display-measures).
+   Ad esempio, per le date, possono essere disponibili diversi livelli. Per ulteriori informazioni, consulta [Misure di visualizzazione](customize-cubes.md#display-measures).
 
    In tal caso, sono disponibili le seguenti opzioni:
 
@@ -102,7 +102,7 @@ Per aggiungere e configurare le misure, segui i passaggi seguenti:
 
    ![](assets/cube-pivot-table-config.png)
 
-   È quindi possibile scegliere se visualizzare o meno le etichette delle misure. [Ulteriori informazioni](cube-best-practices.md#configure-the-display).
+   È quindi possibile scegliere se visualizzare o meno le etichette delle misure. [Ulteriori informazioni](customize-cubes.md#configure-the-display).
 
 1. Puoi creare nuove misure basate su quelle esistenti. A questo scopo, fai clic su **[!UICONTROL Create a measure]** e configuralo.
 
