@@ -4,9 +4,9 @@ description: Scopri come creare cubi
 feature: Reporting
 role: Data Engineer
 level: Beginner
-source-git-commit: bd39a18178edec2730707f0323a19c9d1c80cd76
+source-git-commit: bead34ec59f6f3dca0fbec8460d58ec7da2ed76f
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '525'
 ht-degree: 13%
 
 ---
@@ -20,11 +20,6 @@ Utilizza le funzionalità di analisi di marketing per analizzare e misurare i da
 Puoi estendere le capacità di esplorazione e di analisi del database e semplificare la configurazione di report e tabelle da parte degli utenti finali: tutto ciò che devono fare è selezionare un cubo esistente (completamente configurato) durante la creazione del report o della tabella per elaborare calcoli, misure e statistiche.
 
 I cubi vengono utilizzati per generare alcuni rapporti incorporati, tra cui [rapporti di consegna](delivery-reports.md) (tracciamento della consegna, clic, aperture, ecc.).
-
->[!CAUTION]
->
->In una [[!DNL Snowflake] Distribuzione FDA (predefinita)](../architecture/fda-deployment.md), i rapporti basati sui cubi possono essere utilizzati solo per volumi di dati inferiori a 5 milioni di linee di fatto.
-
 
 Una volta creati e configurati, i cubi vengono utilizzati nelle caselle di query dei report e nelle applicazioni web. Possono essere utilizzati e manipolati all’interno di tabelle pivot.
 
