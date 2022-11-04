@@ -3,25 +3,17 @@ product: campaign
 title: Centro messaggi (Esecuzione)
 description: Centro messaggi (Esecuzione)
 feature: Workflows
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 7%
+source-wordcount: '203'
+ht-degree: 8%
 
 ---
 
 
 # Centro messaggi (Esecuzione){#message-center-execution}
 
-
-
 I flussi di lavoro descritti di seguito sono installati con **Centro messaggi - Esecuzione** add-on per impostazione predefinita.
-
-Per ulteriori informazioni, a seconda della versione di Campaign, consulta queste sezioni:
-
-!
-
-![](assets/do-not-localize/v8.png)[  Documentazione di Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/transactional.html)
 
 <table> 
  <tbody> 

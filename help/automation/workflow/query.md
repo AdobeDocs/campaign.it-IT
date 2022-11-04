@@ -3,9 +3,9 @@ product: campaign
 title: Query
 description: Ulteriori informazioni sull’attività del flusso di lavoro Query
 feature: Workflows, Targeting Activity, Query Editor
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
 workflow-type: tm+mt
-source-wordcount: '1592'
+source-wordcount: '1568'
 ht-degree: 0%
 
 ---
@@ -176,12 +176,6 @@ La sezione seguente fornisce best practice per ottimizzare le query in esecuzion
    Un errore comune è: `iBlacklist='3'` dove `iBlacklist` è un campo numerico, e `3` indica un valore di testo.
 
    Assicurati di sapere quale sarà il piano di esecuzione della query. Evita l’esecuzione di analisi complete delle tabelle, in particolare per query in tempo reale o query quasi in tempo reale eseguite ogni minuto.
-
-   Per ulteriori informazioni, a seconda della versione di Campaign, consulta queste sezioni:
-
-   !
-
-   ![](assets/do-not-localize/v8.png)[  Documentazione di Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/shemas-forms/database-mapping.html)
 
 ### Funzioni {#functions}
 

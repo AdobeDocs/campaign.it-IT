@@ -3,10 +3,11 @@ product: campaign
 title: Flussi di lavoro tecnici
 description: Ulteriori informazioni sui flussi di lavoro tecnici disponibili con Campaign
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
+source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
 workflow-type: tm+mt
 source-wordcount: '1654'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -62,7 +63,7 @@ Scopri come monitorare i flussi di lavoro tecnici in questo [sezione dedicata](m
 | **Eliminazione eventi** (webAnalyticsPurgeWebEvents) | Connettori di Web Analytics | Questo flusso di lavoro ti consente di eliminare ogni evento dal campo del database in base al periodo configurato nel campo Durata . |
 | **Esportare tipi di pubblico in Adobe Experience Cloud** (exportSharedAudience) | Integrazione con Adobe Experience Cloud | Questo flusso di lavoro esporta i tipi di pubblico come pubblici/segmenti condivisi. Questi tipi di pubblico possono essere utilizzati nelle diverse soluzioni Adobe Experience Cloud che utilizzi. |
 | **Previsione** (previsioni) | Consegna | Questo flusso di lavoro analizza le consegne salvate nel calendario provvisorio (crea registri provvisori). Viene attivato ogni giorno all’1 per impostazione predefinita. |
-| **Calcolo aggregato completo (cubo propositionrcp)** (agg_nmspropositionrcp_full) | Motore di offerta (interazione) | Questo flusso di lavoro aggiorna l’aggregato completo per il cubo delle proposte di offerta. Viene attivato ogni giorno alle 6 per impostazione predefinita. Questo aggregato acquisisce le seguenti dimensioni: Canale, consegna, offerta di marketing e data. Il cubo delle proposte di offerta viene quindi utilizzato per generare rapporti basati sulle offerte. Puoi saperne di più sui cubi in . |
+| **Calcolo aggregato completo (cubo propositionrcp)** (agg_nmspropositionrcp_full) | Motore di offerta (interazione) | Questo flusso di lavoro aggiorna l’aggregato completo per il cubo delle proposte di offerta. Viene attivato ogni giorno alle 6 per impostazione predefinita. Questo aggregato acquisisce le seguenti dimensioni: Canale, consegna, offerta di marketing e data. Il cubo delle proposte di offerta viene quindi utilizzato per generare rapporti basati sulle offerte. Ulteriori informazioni sui cubi in  [questa sezione](../../v8/reporting/gs-cubes.md). |
 | **Identificazione dei contatti convertiti** (webAnalyticsFindConverted) | Connettori di Web Analytics | Questo flusso di lavoro indicizza i visitatori del sito che hanno completato l’acquisto dopo una campagna di remarketing. I dati recuperati da questo flusso di lavoro sono accessibili nel rapporto sull’efficienza di remarketing (consulta questa pagina). |
 | **Importare tipi di pubblico da Adobe Experience Cloud** (importSharedAudience) | Integrazione con Adobe Experience Cloud | Questo flusso di lavoro ti consente di importare tipi di pubblico/segmenti da diverse soluzioni Adobe Experience Cloud in Adobe Campaign. |
 | **Processi sulle consegne nelle campagne** (deliveryMgt) | Installato per impostazione predefinita | Questo flusso di lavoro attiva le consegne approvate e avvia la post-elaborazione del provider di servizi per una consegna esterna. Invia inoltre notifiche e promemoria di approvazione. |
@@ -86,4 +87,3 @@ Scopri come monitorare i flussi di lavoro tecnici in questo [sezione dedicata](m
 | **Tracking** (tracciamento | Installato per impostazione predefinita | Questo flusso di lavoro esegue il ripristino e il consolidamento delle informazioni di tracciamento. Assicura inoltre il ricalcolo delle statistiche di tracciamento e consegna, in particolare quelle utilizzate dai flussi di lavoro di archiviazione Message Center. Per impostazione predefinita viene attivato una volta all’ora. |
 | **Aggiorna stato evento** (updateEventsStatus) | Esecuzione di messaggi transazionali (Centro messaggi - Esecuzione) | Questo flusso di lavoro ti consente di assegnare uno stato a un evento. Gli stati dell’evento sono i seguenti:<ul><li>In sospeso: l’evento è in coda. Non è ancora stato associato alcun modello di messaggio.</li><li>Consegna in sospeso: l’evento è in coda, è stato associato un modello di messaggio ed è attualmente in fase di elaborazione da parte della consegna.</li><li>Inviato: questo stato viene copiato dai log di consegna. Significa che la consegna è stata inviata.</li><li>Ignorato dalla consegna: questo stato viene copiato dai log di consegna. Significa che la consegna è stata ignorata.</li><li>Errore di consegna: questo stato viene copiato dai log di consegna. Significa che la consegna non è riuscita.</li><li>Evento non trattato: impossibile associare l&#39;evento a un modello di messaggio. L’evento non verrà rielaborato.</li></ul> |
 | **Aggiornamento per il recapito messaggi** (deliverabilityUpdate) | Installato per impostazione predefinita | Una volta installato il pacchetto di monitoraggio del recapito messaggi (recapito messaggi e-mail), questo flusso di lavoro viene eseguito di notte e gestisce le regole di qualificazione delle e-mail non recapitate, nonché l’elenco dei domini e delle MX. Questo richiede che la porta HTTPS sia aperta sulla piattaforma. |
-

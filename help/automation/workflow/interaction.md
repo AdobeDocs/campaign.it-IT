@@ -3,26 +3,17 @@ product: campaign
 title: Interazione
 description: Interazione
 feature: Workflows, Interaction
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 4%
+source-wordcount: '135'
+ht-degree: 5%
 
 ---
 
 
 # Interazione{#interaction}
 
-
-
 I flussi di lavoro descritti di seguito sono installati con **Motore di offerta (Interazione)** add-on per impostazione predefinita.
-
-Per ulteriori informazioni, a seconda della versione di Campaign, consulta queste sezioni:
-
-!
-
-![](assets/do-not-localize/v8.png)[  Documentazione di Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/interaction/interaction.html)
-
 
 <table> 
  <tbody> 
@@ -34,14 +25,16 @@ Per ulteriori informazioni, a seconda della versione di Campaign, consulta quest
   <tr> 
    <td> <span class="uicontrol">Calcolo aggregato completo (cubo propositionrcp)</span> <br /> </td> 
    <td> <span class="uicontrol">agg_nmspropositionrcp_full</span> <br /> </td> 
-   <td> Questo flusso di lavoro aggiorna le <strong>Completo</strong> aggregato per <strong>Proposta di offerta</strong> cubo. Viene attivato ogni giorno alle 6 per impostazione predefinita. Questo aggregato acquisisce le seguenti dimensioni: Canale, consegna, offerta di marketing e data.<br /> La <strong>Proposta di offerta</strong> viene quindi utilizzato per generare rapporti basati sulle offerte. Puoi saperne di più sui cubi in .<br /> </td> 
+   <td> Questo flusso di lavoro aggiorna le <strong>Completo</strong> aggregato per <strong>Proposta di offerta</strong> cubo. Viene attivato ogni giorno alle 6 per impostazione predefinita. Questo aggregato acquisisce le seguenti dimensioni: Canale, consegna, offerta di marketing e data.<br /> La <strong>Proposta di offerta</strong> viene quindi utilizzato per generare rapporti basati sulle offerte.<br /> </td> 
   </tr> 
    <tr> 
    <td> <span class="uicontrol">Calcolo aggregato completo MessageCenter</span> <br /> </td> 
    <td> <span class="uicontrol">agg_messageCenter_full</span> <br /> </td> 
-   <td> Questo flusso di lavoro aggiorna le <strong>Completo</strong> aggregato per <strong>Centro messaggi</strong> cubo. Viene attivato ogni giorno alle 3 per impostazione predefinita. Questo aggregato acquisisce le seguenti dimensioni: Canale, data, stato ed evento.<br /> La <strong>Centro messaggi</strong> Il cubo viene quindi utilizzato per generare report basati su eventi. Puoi saperne di più sui cubi in .<br /> </td> 
+   <td> Questo flusso di lavoro aggiorna le <strong>Completo</strong> aggregato per <strong>Centro messaggi</strong> cubo. Viene attivato ogni giorno alle 3 per impostazione predefinita. Questo aggregato acquisisce le seguenti dimensioni: Canale, data, stato ed evento.<br /> La <strong>Centro messaggi</strong> Il cubo viene quindi utilizzato per generare report basati su eventi. <br /> </td> 
    <td> <br /> </td> 
   </tr> 
  </tbody> 
 </table>
+
+Ulteriori informazioni su cubi e aggregati in [questa sezione](../../v8/reporting/gs-cubes.md).
 
