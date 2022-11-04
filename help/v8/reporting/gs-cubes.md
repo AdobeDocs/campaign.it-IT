@@ -4,10 +4,10 @@ description: Scopri come creare cubi
 feature: Reporting
 role: Data Engineer
 level: Beginner
-source-git-commit: cc7195e90c38489f8e3946d6abd190effd41941a
+source-git-commit: bd39a18178edec2730707f0323a19c9d1c80cd76
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 14%
+source-wordcount: '545'
+ht-degree: 13%
 
 ---
 
@@ -18,6 +18,13 @@ Adobe Campaign è dotato di uno strumento intuitivo di esplorazione dei dati per
 Utilizza le funzionalità di analisi di marketing per analizzare e misurare i dati, calcolare le statistiche, semplificare e ottimizzare la creazione e il calcolo dei rapporti. Puoi creare rapporti e creare popolazioni target e memorizzarle in elenchi che possono essere utilizzati in Adobe Campaign per attività di targeting o segmentazione.
 
 Puoi estendere le capacità di esplorazione e di analisi del database e semplificare la configurazione di report e tabelle da parte degli utenti finali: tutto ciò che devono fare è selezionare un cubo esistente (completamente configurato) durante la creazione del report o della tabella per elaborare calcoli, misure e statistiche.
+
+I cubi vengono utilizzati per generare alcuni rapporti incorporati, tra cui [rapporti di consegna](delivery-reports.md) (tracciamento della consegna, clic, aperture, ecc.).
+
+>[!CAUTION]
+>
+>In una [[!DNL Snowflake] Distribuzione FDA (predefinita)](../architecture/fda-deployment.md), i rapporti basati sui cubi possono essere utilizzati solo per volumi di dati inferiori a 5 milioni di linee di fatto.
+
 
 Una volta creati e configurati, i cubi vengono utilizzati nelle caselle di query dei report e nelle applicazioni web. Possono essere utilizzati e manipolati all’interno di tabelle pivot.
 
