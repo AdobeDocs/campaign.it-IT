@@ -5,14 +5,14 @@ description: Scopri come creare e utilizzare modelli di consegna in Campaign
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: 822d1bee472330b6195ad9527a7e23e90c7650b4
+source-git-commit: 1c0015a02ff950d9bf9d33aacebf899db9e580fa
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 7%
+source-wordcount: '699'
+ht-degree: 8%
 
 ---
 
-# Utilizzare il modello di consegna{#creating-a-delivery-template}
+# Utilizzare il modello di consegna{#work-with-delivery-template}
 
 Utilizza i modelli di consegna per standardizzare l’aspetto creativo e l’aspetto, al fine di velocizzare l’esecuzione e l’avvio delle campagne.
 
@@ -27,9 +27,12 @@ Un modello può includere sistematicamente:
 
 ![](assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](#delivery-template-video)
 
+
+## Creare un modello{#create-a-delivery-template}
+
 Per creare un modello di consegna, puoi duplicare un modello incorporato, convertire una consegna esistente in un modello o creare un modello di consegna da zero.
 
-## Copiare un modello esistente{#copy-an-existing-template}
+### Duplicare un modello esistente{#copy-an-existing-template}
 
 Campaign viene fornito con un set di modelli incorporati per ciascun canale: e-mail, push, SMS, direct mailing e altro ancora.
 
@@ -51,7 +54,7 @@ Il modello viene aggiunto all’elenco dei modelli di consegna. Ora puoi selezio
 
 ![](assets/select-the-new-template.png)
 
-## Convertire una consegna esistente in un modello {#convert-an-existing-delivery}
+### Convertire una consegna esistente in un modello {#convert-an-existing-delivery}
 
 Una consegna può essere convertita in un modello per nuove azioni di consegna ripetute.
 
@@ -67,7 +70,7 @@ Per convertire una consegna in un modello, segui la procedura seguente:
 
    ![](assets/template-select-folders.png)
 
-## Creare un nuovo modello {#create-a-new-template}
+### Creare un nuovo modello {#create-a-new-template}
 
 >[!NOTE]
 >
@@ -87,7 +90,9 @@ Per configurare un modello di consegna da zero, segui i passaggi seguenti:
 1. Fai clic su **Salva**. Il modello è ora pronto per essere utilizzato in una consegna.
 
 
-## Creare una consegna da un modello{#create-a-delivery-from-a-template}
+## Utilizzare i modelli{#use-a-delivery-template}
+
+### Creare una consegna da un modello{#create-a-delivery-from-a-template}
 
 Per creare una consegna basata su un modello esistente, seleziona il modello dall’elenco dei modelli di consegna disponibili.
 
