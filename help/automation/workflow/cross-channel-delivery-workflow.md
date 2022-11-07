@@ -3,16 +3,15 @@ product: campaign
 title: Flusso di lavoro di consegna cross-channel
 description: Ulteriori informazioni sui flussi di lavoro di consegna cross-channel
 feature: Workflows, Channels Activity
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: fb498233-4df8-4c9e-a082-3e657c6756c9
+source-git-commit: 5b4d569a6e96c93828f63fb8376eb81301829854
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 3%
+source-wordcount: '626'
+ht-degree: 4%
 
 ---
 
 # Flusso di lavoro di consegna cross-channel{#cross-channel-delivery-workflow}
-
-
 
 Questo caso d’uso presenta un esempio che coinvolge un flusso di lavoro di consegna cross-channel. Il concetto generale di consegne cross-channel è presentato in [questa sezione](cross-channel-deliveries.md).
 
@@ -30,7 +29,7 @@ Le principali fasi di implementazione per questo caso d’uso sono le seguenti:
 
 ![](assets/wkf_cross-channel_7.png)
 
-## Passaggio 1: Targeting del pubblico {#step-1--targeting-the-audience}
+## Passaggio 1: Creare il pubblico {#step-1--build-the-audience}
 
 Per definire il target, crea una query per identificare i destinatari.
 
@@ -43,9 +42,9 @@ Per definire il target, crea una query per identificare i destinatari.
 
 1. Salva le modifiche.
 
-## Passaggio 2: Creazione di un messaggio e-mail con un’offerta {#step-2--creating-an-email-including-an-offer}
+## Passaggio 2: Creare un’e-mail con un’offerta {#step-2--create-an-email-including-an-offer}
 
-1. Crea un ** .
+1. Creare una consegna e-mail.
 1. Progetta il messaggio e inserisci un collegamento che include un’offerta nel contenuto.
 
    ![](assets/wkf_cross-channel_1.png)
@@ -64,7 +63,7 @@ Per definire il target, crea una query per identificare i destinatari.
 
    ![](assets/wkf_cross-channel_4.png)
 
-## Passaggio 3: Segmentazione del pubblico risultante {#step-3--segmenting-the-resulting-audience}
+## Passaggio 3: Segmentazione del pubblico risultante {#step-3--segment-the-resulting-audience}
 
 Una volta identificato il target e creata la prima consegna, devi segmentarlo in popolazioni diverse utilizzando condizioni di filtro.
 
@@ -100,7 +99,7 @@ Una volta identificato il target e creata la prima consegna, devi segmentarlo in
 
 1. Fai clic su **[!UICONTROL Finish]** per salvare le modifiche.
 
-## Passaggio 4: Finalizzazione del flusso di lavoro {#step-4--finalizing-the-workflow}
+## Passaggio 4: Finalizzare il flusso di lavoro {#step-4--finalize-the-workflow}
 
 1. Aggiungi le attività rilevanti al flusso di lavoro dopo i tre sottoinsiemi risultanti dalla **[!UICONTROL Split]** attività:
 
