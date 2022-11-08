@@ -3,16 +3,17 @@ product: campaign
 title: Configurare le regole di filtro
 description: Scopri come configurare le regole di filtro
 feature: Typology Rules
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+exl-id: 17507cdf-211f-4fa2-abb9-33d4f6dc47bb
+source-git-commit: 7fe079c5473fa164405753c2be6cc8be16329f58
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '523'
 ht-degree: 1%
 
 ---
 
 # Regole di filtro{#filtering-rules}
 
-Le regole di filtro ti consentono di definire i messaggi da escludere in base ai criteri definiti in una query. Queste regole sono collegate a una dimensione di targeting.
+Utilizza le regole di filtro per selezionare i messaggi da escludere in base ai criteri definiti in una query. Queste regole sono collegate a una dimensione di targeting.
 
 Le regole di filtro possono essere collegate ad altri tipi di regole (controllo, pressione, ecc.) in tipologie o raggruppate in un **Filtro** tipologia. [Ulteriori informazioni](#create-and-use-a-filtering-typology).
 
@@ -22,11 +23,12 @@ Ad esempio, puoi filtrare gli abbonati alla newsletter per impedire l’invio di
 
 Per definire questo filtro, effettua le seguenti operazioni:
 
-1. Crea un **[!UICONTROL Filtering]** regola di tipologia applicabile a tutti i canali di comunicazione.
+1. Sfoglia il **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** cartella dell’esportatore di Campaign e fai clic sul pulsante **Nuovo** per creare una regola di tipologia.
+1. Crea un **[!UICONTROL Filtering]** regola di tipologia applicabile a tutti i canali.
 
    ![](assets/campaign_opt_create_filter_01.png)
 
-1. Modifica la dimensione di targeting predefinita e seleziona le sottoscrizioni (**nms:abbonamento**).
+1. Da **Filtro** modifica della dimensione di targeting predefinita in **Abbonamenti** (**nms:abbonamento**).
 
    ![](assets/campaign_opt_create_filter_02.png)
 
@@ -34,11 +36,15 @@ Per definire questo filtro, effettua le seguenti operazioni:
 
    ![](assets/campaign_opt_create_filter_03.png)
 
-1. Collega questa regola a una tipologia di campagna e salvala.
+1. Filtra sulla pagina del destinatario e salva la condizione di filtro.
+
+   ![](assets/campaign_opt_create_filter_03b.png)
+
+1. Da **Tipologie** , collega questa regola a una tipologia di campagna e salvala.
 
    ![](assets/campaign_opt_create_filter_04.png)
 
-Quando questa regola viene utilizzata in una consegna, gli utenti con sottoscrizione inferiore vengono esclusi automaticamente. Un messaggio specifico indica l&#39;applicazione della regola:
+Quando questa regola viene utilizzata in una consegna, gli utenti con sottoscrizione inferiore vengono esclusi automaticamente. Un messaggio specifico indica quando la regola viene applicata:
 
 ![](assets/campaign_opt_create_filter_05.png)
 
@@ -46,9 +52,11 @@ Quando questa regola viene utilizzata in una consegna, gli utenti con sottoscriz
 
 Puoi limitare il campo dell’applicazione della regola di filtro in base al profilo di consegna o consegna collegato.
 
-Per eseguire questa operazione, vai alla pagina **[!UICONTROL General]** scheda della regola di tipologia, seleziona il tipo di restrizione da applicare e crea il filtro, come illustrato di seguito:
-
+Per eseguire questa operazione, vai alla pagina **[!UICONTROL General]** nella scheda della regola di tipologia, seleziona il tipo di restrizione da applicare e crea il filtro.
+<!--
 ![](assets/campaign_opt_create_filter_06.png)
+-->
+
 
 In questo caso, anche se la regola è collegata a tutte le consegne, verrà applicata solo a quelle che corrispondono ai criteri del filtro definito.
 
