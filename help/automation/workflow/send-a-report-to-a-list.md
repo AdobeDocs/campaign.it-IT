@@ -5,8 +5,8 @@ description: Scopri come inviare un rapporto a un elenco con un flusso di lavoro
 feature: Workflows
 source-git-commit: 4c3caa8e31c2076d32a03a8778a28edce50cde63
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '632'
+ht-degree: 3%
 
 ---
 
