@@ -5,10 +5,10 @@ feature: Architecture, FFDA
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 0a6f6701-b137-4320-9732-31946509ee03
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 51bba0a2b4be03577f508d352fc7c2b514ba28e5
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 55%
+source-wordcount: '1045'
+ht-degree: 54%
 
 ---
 
@@ -112,6 +112,16 @@ Tieni presente che questo ID è basato su stringhe e non è sequenziale. La chia
 In Campaign Classic v7 e versioni precedenti, l’unicità di una chiave all’interno di uno schema (ovvero una tabella) viene gestita a livello di motore del database. Più in generale, i motori di database classici come PostgreSQL, Oracle o SQL Server includono un meccanismo nativo per impedire l’inserimento di righe duplicate basate su una colonna o su un set di colonne attraverso l’uso di chiavi primarie e/o indici univoci. Quando l’indice e le chiavi primarie sono impostati correttamente a livello di database, l’ID duplicato non esiste in queste versioni.
 
 Adobe Campaign v8 viene fornito con Snowflake come database di base. Poiché aumenta notevolmente la scalabilità delle query, l’architettura distribuita del database Snowflake non fornisce i meccanismi che consentono di gestire e dunque applicare l’unicità di una chiave all’interno di una tabella. Di conseguenza, in Adobe Campaign v8, è possibile effettuare l’inserimento di chiavi duplicate all’interno di una tabella. Gli utenti finali sono ora responsabili di garantire la coerenza delle chiavi all’interno del database di Adobe Campaign. [Ulteriori informazioni](keys.md)
+
+### Disponibilità delle funzioni {#feature-availability}
+
+Alcune funzionalità non sono disponibili nel contesto di una distribuzione Enterprise (FFDA) di Campaign, ad esempio:
+
+* Gestione delle risorse marketing
+* Coupon
+* Tracciamento web
+* Indagini
+
 
 **Argomenti correlati**
 

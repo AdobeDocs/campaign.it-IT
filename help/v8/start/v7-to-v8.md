@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
+source-git-commit: c267bf2db7dfd524bf2b56c9ae48b42da37c0376
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 96%
+source-wordcount: '648'
+ht-degree: 93%
 
 ---
 
@@ -70,13 +70,12 @@ Con Adobe Campaign v8, i rapporti cubo sono ottimizzati e forniscono funzionalit
 
 ## Funzioni non disponibili{#gs-unavailable-features}
 
-Tieni presente che alcune funzionalità non sono ancora disponibili in questa versione di Campaign, ad esempio:
+Tieni presente che alcune funzionalità non sono disponibili nel contesto di un [Distribuzione aziendale (FFDA)](../architecture/enterprise-deployment.md) di Campaign, ad esempio:
 
 * Gestione delle risorse marketing
 * Coupon
 * Tracciamento web
 * Indagini
-
 
 ## Funzioni non supportate{#gs-removed}
 
