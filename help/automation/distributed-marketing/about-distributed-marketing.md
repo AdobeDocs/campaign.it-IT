@@ -3,7 +3,8 @@ product: campaign
 title: Guida introduttiva al marketing distribuito
 description: Guida introduttiva al marketing distribuito
 feature: Distributed Marketing
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: c9f5b277-3ad8-4316-94b9-789d37813b8b
+source-git-commit: c835a96b315d2c68b64869082fc626243dd006e9
 workflow-type: tm+mt
 source-wordcount: '1134'
 ht-degree: 1%
@@ -11,8 +12,6 @@ ht-degree: 1%
 ---
 
 # Guida introduttiva al marketing distribuito{#about-distributed-marketing}
-
-
 
 Adobe Campaign offre un **Marketing distribuito** domanda di realizzazione di campagne di cooperazione tra enti centrali (sedi centrali, dipartimenti di marketing, ecc.) e gli enti locali (punti vendita, agenzie regionali, ecc.). Questa cooperazione si basa su un&#39;area di lavoro condivisa nota come **[!UICONTROL list of campaign packages]**, in cui vengono offerti modelli e istanze di campagne create a livello centrale alle entità locali.
 
@@ -49,7 +48,7 @@ L’entità centrale fornisce campagne che gli enti locali possono utilizzare. L
 
    L’elenco dei pacchetti campagna contiene le campagne disponibili per le entità locali.
 
-* **Pacchetto campagna**
+* **Pacchetto campagne**
 
    Modello (o istanza di campagna) creato da un’entità centrale e reso disponibile a un set di entità locali.
 
