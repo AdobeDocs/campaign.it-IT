@@ -2,10 +2,11 @@
 product: campaign
 title: Creazione e gestione di attività
 description: Creazione e gestione di attività
-source-git-commit: c835a96b315d2c68b64869082fc626243dd006e9
+exl-id: 730d1712-53a6-4bf7-9aac-523b06bd0d0a
+source-git-commit: 399c81276d29622a2161c8c90395df1a38954763
 workflow-type: tm+mt
-source-wordcount: '3703'
-ht-degree: 0%
+source-wordcount: '3740'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +22,7 @@ Tutte le attività sono raggruppate in un elenco accessibile tramite il **Campag
 
 Possono essere visualizzati nella pianificazione del programma a cui appartengono.
 
-![](assets/d_ncs_user_tasks_in_planning.png)
+![](assets/campaign-calendar.png)
 
 ## Attività di accesso {#accessing-tasks}
 
@@ -29,113 +30,123 @@ Possono essere visualizzati nella pianificazione del programma a cui appartengon
 
 Le attività vengono visualizzate nell’elenco delle attività accessibile tramite la **[!UICONTROL Campaigns]** scheda .
 
-![](assets/s_ncs_user_task_edit_view.png)
+![](assets/campaign-task-dashboard.png)
 
-È possibile visualizzare tutte le attività dell&#39;operatore connesso.
+È possibile visualizzare tutte le attività dell&#39;operatore corrente.
 
 Per ulteriori informazioni, consulta [Stato di esecuzione di un&#39;attività](#execution-status-of-a-task) e [Stato di avanzamento di un&#39;attività](#progress-status-of-a-task).
 
 ### Filtrare le attività {#filtering-tasks}
 
-Quando visualizzi questa visualizzazione, viene filtrata automaticamente per visualizzare solo **[!UICONTROL operator tasks]**. È inoltre possibile filtrare le attività utilizzando i campi nella sezione superiore della finestra.
-
-![](assets/s_ncs_user_task_filter_from_view.png)
+Quando visualizzi questa visualizzazione, viene filtrata automaticamente per visualizzare solo il **attività dell&#39;operatore corrente**. È inoltre possibile filtrare le attività utilizzando i campi nella sezione superiore della finestra.
 
 ### Modifica delle attività {#editing-tasks}
 
 Fai clic su un’attività per modificarla.
 
-![](assets/s_ncs_user_task_edit_from_view.png)
+![](assets/edit-a-task.png)
 
 ## Crea una nuova attività {#creating-a-new-task}
 
-Per creare un’attività, fai clic sul pulsante **[!UICONTROL Tasks]** nel collegamento **[!UICONTROL Campaigns]** e seleziona **[!UICONTROL Create]**.
+Per creare un’attività, segui i passaggi seguenti:
 
-![](assets/s_ncs_user_task_create_new.png)
+1. Sfoglia il **[!UICONTROL Tasks]** nel collegamento **[!UICONTROL Campaigns]** e fai clic su **[!UICONTROL Create]**.
 
-Immettere almeno il nome dell&#39;attività e selezionare la campagna a cui è collegata. È inoltre necessario specificare le date di inizio e di fine. Queste tre informazioni sono obbligatorie.
+   ![](assets/create-a-task-from-dashboard.png)
 
-Fai clic su **[!UICONTROL Save]** per creare l’attività.
+1. Immetti il nome dell’attività e seleziona la campagna a cui è collegata.
+1. Imposta le date di inizio e di fine.
+1. Fai clic su **[!UICONTROL Save]** per creare l’attività.
 
-![](assets/s_ncs_user_task_create_simple.png)
+   ![](assets/new-task-edit.png)
 
 Puoi anche creare un’attività tramite il dashboard di una campagna: in questo caso, viene automaticamente collegato alla campagna da cui è stato creato.
 
-![](assets/s_ncs_user_task_create_new_from_op.png)
+![](assets/add-a-task-in-a-campaign.png)
 
-Dopo la creazione di un&#39;attività, questa viene aggiunta alla pianificazione della campagna e all&#39;elenco delle attività. Per modificare un&#39;attività, selezionala dalla pianificazione o fai clic sul suo nome nella panoramica dell&#39;attività, quindi fai clic sul pulsante **[!UICONTROL Open]** link.
+Dopo la creazione di un’attività, questa viene aggiunta alla pianificazione della campagna, al dashboard della campagna e all’elenco delle attività. Per modificare un&#39;attività, fai clic sul suo nome dall&#39;elenco delle attività oppure selezionala dalla pianificazione o dal dashboard della campagna, quindi fai clic su **[!UICONTROL Open]**.
 
-![](assets/s_ncs_user_task_edit_simple.png)
+Una volta creata, puoi configurare l’attività definendo:
 
-Per configurarlo, devi indicare:
+* Il responsabile e i partecipanti. [Ulteriori informazioni](#manager-and-participants)
+* Pianificazione della creazione. [Ulteriori informazioni](#execution-schedule)
+* I costi impegnati. [Ulteriori informazioni](#expenses-and-revenues)
 
-* Il responsabile e i partecipanti: fare riferimento a [Manager e partecipanti](#manager-and-participants).
-* Pianificazione della creazione: fare riferimento a [Programma di esecuzione](#execution-schedule).
-* I costi impegnati: fare riferimento a [Spese e entrate](#expenses-and-revenues).
+È inoltre possibile aggiungere [revisori](#reviewers) e [documenti di riferimento](#documents-referenced).
 
-È anche possibile aggiungere revisori (fare riferimento a [Revisori](#reviewers)) e i documenti di riferimento (fare riferimento a [Documenti di riferimento](#documents-referenced)).
-
-Il ciclo di vita dell&#39;attività è presentato in [Ciclo di vita](#life-cycle).
+Il ciclo di vita dell&#39;attività è presentato in [questa sezione](#life-cycle).
 
 ### Manager e partecipanti {#manager-and-participants}
 
-Solo l&#39;operatore responsabile di un&#39;attività è autorizzato a chiuderla.
+Per impostazione predefinita, l’attività viene assegnata all’operatore che l’ha creata. Questo operatore viene avvisato quando è necessaria un&#39;azione per tale attività.
 
-Per impostazione predefinita, quando un operatore Adobe Campaign crea un’attività, questa viene assegnata automaticamente. Per selezionare un operatore diverso, utilizza la variabile **[!UICONTROL Assigned to]** campo .
+Puoi selezionare un operatore diverso dal **[!UICONTROL Assigned to]** elenco a discesa.
 
-![](assets/s_ncs_user_task_edit_simple_general_tab.png)
+![](assets/task-assigned-to.png)
 
 >[!NOTE]
 >
 >La gestione degli operatori è descritta in [questa sezione](../../v8/start/permissions.md).
+>
+>Solo l’operatore responsabile di un’attività può chiuderla.
 
-È possibile specificare gli operatori coinvolti nell&#39;esecuzione del compito. Questi operatori non sono autorizzati a chiudere l&#39;attività. Possono approvare solo l&#39;attività assegnata loro.
+Puoi specificare altri operatori coinvolti nell’esecuzione dell’attività. Questi operatori non sono autorizzati a chiudere l&#39;attività: possono approvare solo l&#39;attività loro assegnata.
 
-Vengono selezionati utilizzando **[!UICONTROL Resources]** nella barra degli strumenti delle attività. Fai clic su **[!UICONTROL Add]** e selezionare gli operatori interessati.
+Per aggiungere operatori attività, segui i passaggi seguenti:
 
-![](assets/s_ncs_user_task_add_resources.png)
+1. Fai clic sul pulsante **[!UICONTROL Resources]** nella barra degli strumenti delle attività.
 
-Fai clic su **[!UICONTROL Ok]** e quindi inserire il tasso di utilizzo: rappresenta il carico assegnato all’operatore per la durata dell’esecuzione dell’attività. Questo tasso è solo indicativo ed è espresso in percentuale.
+   ![](assets/add-task-resources.png)
 
-Ad esempio, per un&#39;attività la cui pianificazione di esecuzione è impostata su 10 giorni, un operatore il cui tasso di utilizzo è pari al 50% verrà mobilitato su questa attività per la metà del tempo di lavoro per i 10 giorni.
+1. Fai clic su **[!UICONTROL Add]** e selezionare gli operatori interessati.
+1. Immettere il tasso di utilizzo: rappresenta il carico di lavoro assegnato all&#39;operatore per la durata dell&#39;esecuzione dell&#39;attività. Questo tasso è solo indicativo ed è espresso in percentuale.
 
-Per ogni operatore, è possibile inserire un carico di lavoro programmato e un carico di lavoro effettivo. Queste durate sono anche solo a scopo informativo.
+   ![](assets/define-operator-task-workload.png)
 
-È possibile configurare un promemoria che verrà inviato automaticamente a tutti gli operatori coinvolti nell&#39;attività prima della data di fine.
+   Ad esempio, per un&#39;attività la cui pianificazione di esecuzione è impostata su 10 giorni, un operatore il cui tasso di utilizzo è pari al 50% verrà mobilitato su questa attività per la metà del tempo di lavoro per i 10 giorni.
 
-Puoi visualizzare il profilo dell’operatore Adobe Campaign tramite il **[!UICONTROL Edit link]** icona.
+   Per ogni operatore, è possibile inserire un carico di lavoro programmato e un carico di lavoro effettivo. Queste durate sono anche solo a scopo informativo.
 
-![](assets/s_ncs_user_task_edit_resource_profile.png)
+1. Puoi configurare un promemoria da **[!UICONTROL Add a reminder...]** link. Una notifica e-mail verrà inviata a tutti gli operatori coinvolti nell’attività prima della data di fine.
+
+   ![](assets/task-op-add-a-reminder.png)
+
+1. È inoltre possibile inviare una notifica prima dell’avvio dell’attività. Per impostare questa impostazione, seleziona la data nella **[!UICONTROL Initial notification]** campo .
+1. Quando viene raggiunta la data di fine e l’attività non viene chiusa, è possibile inviare una notifica all’assegnatario o al gruppo di assegnatari selezionati nella **[!UICONTROL Assignee]** elenco a discesa.
+
 
 Il dashboard dell&#39;operatore consente di controllarne il carico di lavoro (altre attività in corso).
 
-![](assets/s_ncs_user_task_edit_resource_planning.png)
+![](assets/operator-dashboard.png)
 
-### Revisori {#reviewers}
+### Approvazione attività {#reviewers}
 
-Oltre ai partecipanti, puoi definire gli operatori che esamineranno l’attività una volta chiusa dalla persona responsabile. A questo scopo, fai clic sul pulsante **[!UICONTROL Enable task approval]** nella sezione in basso a sinistra del **[!UICONTROL Resources]** finestra. Può trattarsi di un singolo operatore, di un gruppo di operatori o di un elenco di operatori.
+Oltre ai partecipanti, puoi definire gli operatori che esamineranno l’attività una volta chiusa.
 
-![](assets/s_ncs_user_task_edit_resource_validation.png)
+A questo scopo, fai clic sul pulsante **[!UICONTROL Enable task approval]** nella sezione inferiore del **[!UICONTROL Resources]** finestra. Può trattarsi di un singolo operatore, di un gruppo di operatori o di un elenco di operatori.
 
 Per specificare un elenco di operatori, fai clic sul pulsante **[!UICONTROL Edit...]** link a destra del primo revisore e aggiungi tutti gli operatori necessari, come mostrato di seguito:
 
-![](assets/s_ncs_user_task_edit_resource_operators.png)
+![](assets/enable-task-approval.png)
 
-È possibile definire una pianificazione di approvazione per l&#39;attività nella sezione inferiore della finestra di configurazione del revisore. Per impostazione predefinita, i revisori dispongono di tre giorni a partire dalla data di invio per approvare l’attività. È possibile configurare un promemoria che verrà inviato automaticamente agli operatori interessati prima della scadenza dell&#39;approvazione.
+È possibile definire una pianificazione di approvazione per l&#39;attività nella sezione inferiore della finestra di configurazione. Per impostazione predefinita, i revisori dispongono di tre giorni a partire dalla data di invio per approvare l’attività. È inoltre possibile aggiungere un promemoria, che verrà inviato automaticamente agli operatori interessati prima della scadenza dell’approvazione.
 
-![](assets/s_ncs_user_edit_op_valid_calendar.png)
-
-La persona responsabile dell&#39;attività può assegnarsi il compito di approvarla, anche se altri operatori sono già stati assegnati a farlo. Se non è stato definito alcun revisore, le notifiche verranno inviate alla persona responsabile dell&#39;attività. Tutti gli altri operatori Adobe Campaign con **[!UICONTROL Administrator]** l’attività può essere approvata anche tramite i diritti . Tuttavia, non riceveranno notifiche.
+La persona responsabile dell&#39;attività può assegnarsi il compito di approvarla, anche se altri operatori sono già stati assegnati a farlo. Se non è stato definito alcun revisore, le notifiche verranno inviate alla persona responsabile dell&#39;attività. Tutti gli altri operatori Adobe Campaign con **[!UICONTROL Administrator]** l’attività può essere approvata anche tramite i diritti . Tuttavia, non ricevono notifiche.
 
 ### Documenti di riferimento {#documents-referenced}
 
-Puoi aggiungere [documenti e risorse di marketing](managing-marketing-resources.md) a un&#39;attività. A tale scopo, apri l’attività e fai clic sul pulsante **[!UICONTROL Documents]** nella barra degli strumenti delle attività.
+Puoi aggiungere [documenti e risorse di marketing](managing-marketing-resources.md) a un&#39;attività.
 
-Fai clic su **[!UICONTROL Add]** e selezionare il documento da aggiungere all&#39;attività. Applica lo stesso processo per le risorse di marketing.
+Per eseguire questa operazione:
 
-![](assets/s_ncs_user_task_edit_documents.png)
+1. Apri l’attività e fai clic sul pulsante **[!UICONTROL Documents]** nella barra degli strumenti delle attività.
 
-I documenti di riferimento verranno visualizzati nelle notifiche inviate agli operatori coinvolti nell&#39;attività, nonché nel dashboard attività.
+   ![](assets/add-documents-to-a-task.png)
+
+1. Fai clic su **[!UICONTROL Add]** e selezionare il documento da aggiungere all&#39;attività. Applica lo stesso processo per le risorse di marketing.
+
+
+I documenti di riferimento vengono aggiunti alle notifiche inviate agli operatori coinvolti nell’attività. Vengono inoltre aggiunti nel dashboard delle attività.
 
 ![](assets/s_ncs_user_task_notification_documents.png)
 
