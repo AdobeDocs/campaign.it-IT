@@ -5,9 +5,9 @@ description: Documentazione di Campaign v8
 breadcrumb-title: Panoramica di Campaign
 title: Documenti su Campaign v8
 source-git-commit: 43e515339a2483e82910603daf6009cad63eeeae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '474'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -93,18 +93,18 @@ ht-degree: 92%
 + Reporting e analisi {#analytics}
    + [Tracciamento e monitoraggio](start/tracking.md)
    + Utilizzare i rapporti{#reports}
-      + [Guida introduttiva ai rapporti](reporting/gs-reporting.md)
-      + Creazione di cubi{#cubes}
+      + [Introduzione ai rapporti](reporting/gs-reporting.md)
+      + Creare i cubi{#cubes}
          + [Introduzione ai cubi](reporting/gs-cubes.md)
          + [Creare un cubo](reporting/cube-indicators.md)
          + [Utilizzare i cubi per creare rapporti](reporting/cube-tables.md)
          + [Personalizzare i cubi](reporting/customize-cubes.md)
-      + Report incorporati{#ac-reports}
-         + [Elenco dei report incorporati](reporting/built-in-reports.md)
+      + Rapporti incorporati{#ac-reports}
+         + [Elenco dei rapporti incorporati](reporting/built-in-reports.md)
          + [Rapporti globali](reporting/global-reports.md)
          + [Rapporti di consegna](reporting/delivery-reports.md)
          + [Calcolo delle metriche incorporate](reporting/metrics-calculation.md)
-      + [Report personalizzati](reporting/custom-reports.md)
+      + [Rapporti personalizzati](reporting/custom-reports.md)
 + Gestione dei dati {#data}
    + [Introduzione ai flussi di lavoro](config/workflows.md)
    + [Importare i dati](start/import.md)
