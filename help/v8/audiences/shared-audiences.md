@@ -7,9 +7,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 source-git-commit: 9bea7904ea4507083d2cf45193877e7a2539d0c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '264'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -27,12 +27,12 @@ Opzione 2: Adobe People/AAM
 
 Questa integrazione supporta due tipi di ID Adobe Experience Cloud:
 
-* **ID visitatore**: questo identificatore consente di riconciliare i visitatori di Adobe Experience Cloud con i destinatari di Adobe Campaign.
-* **ID dichiarato**: questo identificatore riconcilia tutti i tipi di dati con gli elementi del database Adobe Campaign. Rappresenta la chiave di riconciliazione predefinita in Adobe Campaign.
+* **ID visitatore**: questo identificatore riconcilia i visitatori di Adobe Experience Cloud con i destinatari di Adobe Campaign.
+* **ID dichiarato**: questo identificatore riconcilia tutti i tipi di dati con gli elementi del database di Adobe Campaign. Rappresenta la chiave di riconciliazione predefinita in Adobe Campaign.
 
    >[!NOTE]
    >
-   > L’origine dati ID dichiarata può essere utilizzata anche con l’integrazione del servizio core People.
+   > L’origine dati dell’ID dichiarato può essere utilizzata anche con l’integrazione del servizio core People.
    >
    >Se utilizzi l’integrazione con il servizio core People e desideri aggiungere l’integrazione con Audience Manager, ti servirà l’aiuto di un consulente Adobe Audience Manager per evitare di perdere tutte le sincronizzazioni ID raccolte durante la transizione all’utilizzo dell’origine dati ID dichiarato in un contesto Adobe Audience Manager.
 
