@@ -1,13 +1,13 @@
 ---
 title: Architettura generale
-description: Scopri l’architettura e i componenti di Campaign
+description: Ulteriori informazioni sull’architettura e sui componenti di Adobe Campaign. Ulteriori informazioni sulla personalizzazione della console client e dell’ambiente.
 feature: Architecture
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1078'
 ht-degree: 6%
 
 ---
