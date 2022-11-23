@@ -5,51 +5,31 @@ feature: Interaction, Offers
 role: Data Engineer
 level: Beginner
 exl-id: 865ddb84-3373-45e0-849d-9d3c92455d22
-source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
+source-git-commit: eed3396584940f99a865eef2358887b6bf5c4936
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '243'
+ht-degree: 6%
 
 ---
 
 # Profili degli operatori {#operator-profiles}
 
-Due tipi di operatori possono utilizzare l’interazione con Campaign: **Gestori di offerte** e **Gestori di consegna**. Ognuno di essi dispone di autorizzazioni e restrizioni specifiche. Ulteriori informazioni sugli operatori e sulle autorizzazioni di Campaign in [questa pagina](../start/permissions.md).
+Due tipi di operatori possono utilizzare l’interazione con Campaign: **Gestori di offerte** e **Gestori di consegna**. Ognuno di essi dispone di autorizzazioni e restrizioni specifiche. Ulteriori informazioni sugli operatori e sulle autorizzazioni di Campaign in [questa pagina](../start/gs-permissions.md).
 
 * La **[!UICONTROL Offer manager]** crea e gestisce le offerte.
 * La **[!UICONTROL Delivery manager]** approva e utilizza le offerte
 
 ## Creare un operatore di Gestione offerte{#offer-manager}
 
-1. Crea un operatore.
+1. Crea un operatore. [Ulteriori informazioni](../start/manage-permissions.md#add-users)
+1. Sfoglia il **[!UICONTROL Groups and named rights]** finestra, fai clic su **[!UICONTROL Add]** e seleziona la **[!UICONTROL Offer manager]** gruppo.
 
-   ![](../assets/do-not-localize/book.png) I passaggi per creare un operatore in Campaign sono descritti in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
-
-1. Vai a **[!UICONTROL Groups and named rights]** finestra, fai clic su **[!UICONTROL Add]** e seleziona la **[!UICONTROL Offer manager]** gruppo.
-
-I diritti assegnati al gestore di offerte consentono loro di eseguire le seguenti attività:
-
-* Modifica **[!UICONTROL Design]** ambienti.
-* Visualizza **[!UICONTROL Live]** ambienti.
-* Configura le funzioni di amministrazione (spazi e filtri predefiniti).
-* Creare e modificare le categorie.
-* Creare offerte.
-* Configura l’idoneità delle offerte.
-* Approvare le offerte.
-
-Se le offerte vengono utilizzate in un flusso di lavoro, l’operatore deve essere aggiunto al **[!UICONTROL Administrator]** o **[!UICONTROL Offer managers]** gruppo di operatori per eseguire il flusso di lavoro.
-
->[!NOTE]
->
->**Gestori di offerte** può approvare un’offerta solo se non è stato specificato alcun revisore o se è stato dichiarato come revisori nel modello di offerta.
+Sono descritte le autorizzazioni associate ai gestori delle offerte [qui](../start/manage-permissions.md#ootb-productprofiles)
 
 ## Creare un operatore di Delivery Manager {#delivery-manager}
 
-1. Crea un operatore.
-
-   ![](../assets/do-not-localize/book.png) I passaggi per creare un operatore in Campaign sono descritti in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
-
-1. Vai a **[!UICONTROL Groups and named rights]** finestra, fai clic su **[!UICONTROL Add]** e seleziona la **[!UICONTROL Delivery manager]** gruppo.
+1. Crea un operatore. [Ulteriori informazioni](../start/manage-permissions.md#add-users)
+1. Sfoglia il **[!UICONTROL Groups and named rights]** scheda , fai clic su **[!UICONTROL Add]** e seleziona la **[!UICONTROL Delivery manager]** gruppo.
 
 I diritti assegnati ai gestori della consegna consentono loro di svolgere i seguenti compiti:
 
@@ -116,7 +96,7 @@ I diritti assegnati ai gestori della consegna consentono loro di svolgere i segu
    <td> Leggi<br /> </td> 
   </tr> 
   <tr> 
-   <td> Categoria di offerta<br /> </td> 
+   <td> Categoria offerta<br /> </td> 
    <td> Lettura/scrittura<br /> </td> 
    <td> Leggi<br /> </td> 
   </tr> 
@@ -176,7 +156,7 @@ I diritti assegnati ai gestori della consegna consentono loro di svolgere i segu
    <td> Leggi<br /> </td> 
   </tr> 
   <tr> 
-   <td> Categoria di offerta<br /> </td> 
+   <td> Categoria offerta<br /> </td> 
    <td> </td> 
    <td> Leggi<br /> </td> 
   </tr> 

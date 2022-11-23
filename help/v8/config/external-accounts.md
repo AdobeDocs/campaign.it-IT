@@ -5,9 +5,9 @@ feature: Application Settings
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 6dee08f0f8673e5264f3cb111fe14493980a62fc
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1091'
 ht-degree: 5%
 
 ---
@@ -26,7 +26,8 @@ Puoi accedere agli account esterni da Adobe Campaign **[!UICONTROL Explorer]**: 
 >[!CAUTION]
 >
 >Nel contesto di un [Distribuzione aziendale (FFDA)](../architecture/enterprise-deployment.md), un **[!UICONTROL Full FDA]** (ffda) l’account esterno gestisce la connessione tra il database locale di Campaign e il database Cloud ([!DNL Snowflake]).
-></br>In qualità di utente di Cloud Services gestiti, questo account esterno viene configurato per la tua istanza per Adobe. Non deve essere modificato.
+>
+>In qualità di utente di Cloud Services gestiti, gli account esterni sono configurati per la tua istanza per Adobe e non devono essere modificati.
 
 ## Account esterni specifici per la campagna
 
@@ -117,34 +118,37 @@ Nel contesto della messaggistica transazionale, le istanze di esecuzione sono co
 
 * **Database esterno (FDA)**
 
-   Utilizza la **Database esterno** digitare account esterno per connettersi a un database esterno tramite FDA.
+   La **Database esterno** Il tipo di account esterno viene utilizzato per connettersi a un database esterno tramite Federated Data Access (FDA).
 
    I database esterni compatibili con Adobe Campaign v8 sono elencati nel [Matrice di compatibilità](../start/compatibility-matrix.md)
 
    ![](../assets/do-not-localize/glass.png) Ulteriori informazioni sull’opzione Federated Data Access (FDA) in [questa sezione](../connect/fda.md).
 
+* **Twitter**
+
+   La **Twitter** Il tipo di account esterno viene utilizzato per collegare Campaign al tuo account twitter e per inviare messaggi per tuo conto.
+
+   ![](../assets/do-not-localize/glass.png) Ulteriori informazioni sull’integrazione di Twitter in [questa sezione](../connect/ac-tw.md).
+
 ## Account esterni per l’integrazione di soluzioni Adobe
 
 * **Adobe Experience Cloud**
 
-   La **[!UICONTROL Adobe Experience Cloud]** l’account esterno viene utilizzato per implementare Adobe IMS per connettersi alla console Adobe Campaign utilizzando un Adobe ID.
+   La **[!UICONTROL Adobe Experience Cloud]** l’account esterno viene utilizzato per implementare Adobe Identity Management Service (IMS) per connettersi ad Adobe Campaign.
 
    ![](../assets/do-not-localize/glass.png) Ulteriori informazioni su Adobe Identity Management Service (IMS) in [questa sezione](../start/connect.md#connect-ims).
 
 * **Analisi web**
 
-   Utilizza la **[!UICONTROL Web Analytics (Adobe Analytics)]** account esterno per configurare il trasferimento di dati da Adobe Analytics ad Adobe Campaign.
+   La **[!UICONTROL Web Analytics (Adobe Analytics)]** l’account esterno viene utilizzato per configurare il trasferimento di dati da Adobe Analytics ad Adobe Campaign.
 
    ![](../assets/do-not-localize/glass.png) Ulteriori informazioni sull’integrazione Adobe Campaign - Adobe Analytics in [questa pagina](../connect/ac-aa.md).
 
-   ![](../assets/do-not-localize/speech.png)  Come utente di Cloud Services gestiti, [Adobe di contatto](../start/campaign-faq.md#support) per integrare Adobe Analytics con Campaign.
+* **Adobe Experience Manager**
 
-   * **Adobe Experience Manager**
    La **[!UICONTROL AEM]** l’account esterno ti consente di gestire il contenuto delle consegne e-mail e dei moduli direttamente in Adobe Experience Manager.
 
    ![](../assets/do-not-localize/glass.png) Ulteriori informazioni sull’integrazione Adobe Campaign - Adobe Analytics in [questa pagina](../connect/ac-aem.md).
-
-   ![](../assets/do-not-localize/speech.png)  Come utente di Cloud Services gestiti, [Adobe di contatto](../start/campaign-faq.md#support) per integrare Adobe Experience Manager con Adobe Campaign.
 
 
 ## Account esterni del connettore di gestione delle relazioni con i clienti

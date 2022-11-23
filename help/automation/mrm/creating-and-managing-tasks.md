@@ -3,7 +3,7 @@ product: campaign
 title: Creazione e gestione di attività
 description: Creazione e gestione di attività
 exl-id: 730d1712-53a6-4bf7-9aac-523b06bd0d0a
-source-git-commit: 399c81276d29622a2161c8c90395df1a38954763
+source-git-commit: 094743fef69e137f80b670f0bf31dce56c282c34
 workflow-type: tm+mt
 source-wordcount: '3740'
 ht-degree: 1%
@@ -86,7 +86,7 @@ Puoi selezionare un operatore diverso dal **[!UICONTROL Assigned to]** elenco a 
 
 >[!NOTE]
 >
->La gestione degli operatori è descritta in [questa sezione](../../v8/start/permissions.md).
+>La gestione degli operatori è descritta in [questa sezione](../../v8/start/gs-permissions.md).
 >
 >Solo l’operatore responsabile di un’attività può chiuderla.
 

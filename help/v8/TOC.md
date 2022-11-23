@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Documentazione di Campaign v8
 breadcrumb-title: Panoramica di Campaign
 title: Documenti su Campaign v8
-source-git-commit: 43e515339a2483e82910603daf6009cad63eeeae
-workflow-type: ht
-source-wordcount: '474'
-ht-degree: 100%
+source-git-commit: a9f7bf9a976a7f3b5415c090c042f83a1bb64c24
+workflow-type: tm+mt
+source-wordcount: '487'
+ht-degree: 97%
 
 ---
 
@@ -125,7 +125,10 @@ ht-degree: 100%
       + [Utilizzare Campaign e Microsoft Dynamics](connect/ac-ms-dyn.md)
       + [Sincronizzare i dati](connect/crm-data-sync.md)
 + Amministrazione {#admin}
-   + [Autorizzazioni](start/permissions.md)
+   + Utenti e autorizzazioni {#permissions}
+      + [Introduzione alle autorizzazioni](start/gs-permissions.md)
+      + [Gestione delle autorizzazioni utente](start/manage-permissions.md)
+      + [Aggiungere autorizzazioni sulle cartelle](start/folder-permissions.md)
    + [Pannello di controllo](config/self-service.md)
 + Architettura e configurazione {#config}
    + Architettura {#architecture}
