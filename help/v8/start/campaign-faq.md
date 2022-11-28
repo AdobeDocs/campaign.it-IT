@@ -1,14 +1,14 @@
 ---
 title: Domande frequenti su Campaign v8
-description: Risposte alle domande più frequenti su Adobe Campaign.
+description: Trova le risposte alle domande più frequenti su Adobe Campaign.
 feature: Overview
 role: Admin, Developer, User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
 source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '659'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Hai bisogno di assistenza mentre lavori con Campaign? Leggi le principali domand
 
 1. **Come migliorare il recapito messaggi e-mail?**
 
-   Il recapito messaggi e-mail, un componente fondamentale per il successo del programma di marketing di ogni mittente, è caratterizzato da criteri e regole in continua evoluzione. Per orientarsi nel mondo digitale e raggiungere al meglio i vari tipi di pubblico, è necessario ottimizzare regolarmente la strategia e-mail tenendo conto delle tendenze chiave di recapito messaggi.
+   La capacità di recapito dei messaggi e-mail, un aspetto critico per il successo del programma di marketing di ogni mittente, è caratterizzata da criteri e regole in continua evoluzione. Per orientarsi nel mondo digitale e raggiungere al meglio i vari tipi di pubblico, è necessario ottimizzare regolarmente la strategia e-mail tenendo conto delle tendenze chiave di recapito messaggi.
 
    ![](../assets/do-not-localize/book.png) Consulta questa guida per scoprire le [best practice per la consegna](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=it){target=&quot;_blank&quot;}.
 
@@ -85,4 +85,4 @@ Hai bisogno di assistenza mentre lavori con Campaign? Leggi le principali domand
 
    Per segnalare un problema o avviare una sessione di chat nel nuovo sistema, connettiti ad [Adobe Admin Console](https://adminConsole.adobe.com/overview){target=&quot;_blank&quot;}.
 
-   Il sistema richiede account individuali per ogni utente, con le autorizzazioni corrette. Se non riesci ad accedere con il tuo Adobe ID, richiedi l’accesso tramite l’Experience League e il team di Assistenza clienti ti verrà configurato il prima possibile. [Ulteriori informazioni](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}
+   Il sistema richiede account individuali per ogni utente, con le autorizzazioni corrette. Se non riesci ad accedere con il tuo Adobe ID, richiedi l’accesso tramite Experience League e il team di Assistenza clienti completerà la configurazione il prima possibile. [Ulteriori informazioni](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}
