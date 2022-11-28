@@ -1,20 +1,20 @@
 ---
 title: Novità di Campaign v8
-description: Scopri le funzionalità chiave di Adobe Campaign v8, le novità e le aspettative relative all’ultima versione.
+description: Scopri le funzionalità chiave di Adobe Campaign v8, le novità e ciò che puoi trovare nell’ultima versione.
 feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '889'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # Novità di Adobe Campaign v8 {#ac-gs-what-is-new}
 
-Adobe Campaign v8 è progettato per gli esperti di marketing cross-channel che necessitano della soluzione cloud all’avanguardia per la gestione delle campagne cross-channel con scalabilità aziendale. Fornisce solide funzionalità di ETL e gestione dei dati per aiutare a creare e curare la campagna perfetta. Il motore di orchestrazione fornisce programmi di marketing multi-touch avanzati con un focus principale sui percorsi basati su batch. Viene inoltre fornito con un server di messaggistica scalabile in tempo reale che consente ai team di marketing di inviare messaggi predefiniti basati su un payload completo da qualsiasi sistema IT per elementi quali reimpostazione della password, conferma dell’ordine, e-Receips (Ricezione elettronica) e molto altro ancora.
+Adobe Campaign v8 è progettato per gli esperti di marketing cross-channel che necessitano della soluzione cloud all’avanguardia per la gestione delle campagne cross-channel con scalabilità aziendale. Fornisce solide funzionalità di ETL e gestione dei dati per aiutare a creare e curare la campagna perfetta. Il motore di orchestrazione fornisce programmi di marketing multi-touch avanzati con un focus principale sui percorsi basati su batch. Viene inoltre fornito di un server di messaggistica in tempo reale scalabile che consente ai team di marketing di inviare messaggi predefiniti basati su un payload completo da qualsiasi sistema IT per scopi quali reimpostazione della password, conferma dell’ordine, ricezione elettronica e molto altro ancora.
 
 Adobe Campaign v8 offre notevoli miglioramenti a livello di infrastruttura, sicurezza, recapito messaggi e monitoraggio.
 
@@ -53,7 +53,7 @@ Le funzionalità principali includono:
 
    Inoltre, Adobe Campaign v8 è integrato in modo nativo con le funzionalità di orchestrazione del percorso in tempo reale, in modo che gli esperti di marketing possano riutilizzare gli stessi modelli e le stesse funzionalità di consegna in Adobe Campaign per interagire con i clienti in tempo reale. Questi investimenti ottimizzano l’esperienza del cliente di Adobe Campaign e consentono nuovi casi d’uso, come la possibilità di aggiungere percorsi del cliente personalizzati in tempo reale alle campagne.
 
-   Inoltre puoi configurare l’ottimizzazione del tempo di invio e il valore di engagement, entrambi in modalità predittiva, con il servizio IA gestione percorsi, per aumentare i tassi di apertura, i clic e i ricavi.
+   Inoltre puoi configurare l’ottimizzazione del tempo di invio e il valore di engagement, entrambi in modalità predittiva, con il servizio IA per la gestione dei percorsi cliente, per aumentare i tassi di apertura, i clic e i ricavi.
 
    ![](../assets/do-not-localize/glass.png) [Ulteriori informazioni sulle integrazioni di Campaign](../connect/integration.md)
 
@@ -90,6 +90,6 @@ Grazie a un’interfaccia utente intuitiva, gli amministratori possono monitorar
 
 ![](assets/subdomain1.png)
 
-![](../assets/do-not-localize/glass.png) [Ulteriori informazioni sul Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=it){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/glass.png) [Ulteriori informazioni sul Pannello di controllo](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=it){target=&quot;_blank&quot;}
 
 
