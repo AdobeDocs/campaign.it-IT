@@ -5,9 +5,9 @@ description: Documentazione di Campaign v8
 breadcrumb-title: Panoramica di Campaign
 title: Documenti su Campaign v8
 source-git-commit: a9f7bf9a976a7f3b5415c090c042f83a1bb64c24
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '487'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -127,7 +127,7 @@ ht-degree: 97%
 + Amministrazione {#admin}
    + Utenti e autorizzazioni {#permissions}
       + [Introduzione alle autorizzazioni](start/gs-permissions.md)
-      + [Gestione delle autorizzazioni utente](start/manage-permissions.md)
+      + [Gestire le autorizzazioni utente](start/manage-permissions.md)
       + [Aggiungere autorizzazioni sulle cartelle](start/folder-permissions.md)
    + [Pannello di controllo](config/self-service.md)
 + Architettura e configurazione {#config}
