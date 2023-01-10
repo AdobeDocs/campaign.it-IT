@@ -3,9 +3,10 @@ product: campaign
 title: Configurare le regole di pressione
 description: Scopri come configurare le regole di pressione
 feature: Fatigue Management, Typology Rules
-source-git-commit: 86c37772eca9e3fffbeaa0e1d4d7de5590d8d277
+exl-id: d234db0e-936a-48db-b697-11c6b40bc3ab
+source-git-commit: 6a1e2e0a872ce5886e7374d266c71975941e87b8
 workflow-type: tm+mt
-source-wordcount: '3040'
+source-wordcount: '3027'
 ht-degree: 5%
 
 ---
@@ -106,7 +107,7 @@ Puoi indicizzare il numero di messaggi autorizzati in base al segmento a cui app
 
 ![](assets/campaign_opt_pressure_sample.png)
 
-Per definire la soglia, puoi utilizzare una dimensione collegata alla dimensione di targeting: ad esempio, per includere i messaggi consegnati ai profili dei destinatari memorizzati nella tabella dei visitatori (per ulteriori informazioni sulla tabella dei visitatori, consulta (questa sezione)(sondaggi/utilizzo/caso d’uso—creazione-a-fare-un-amico-form.md)) o per evitare di inviare più di un messaggio alla settimana alla stessa famiglia (che può fare riferimento a più indirizzi e-mail) identificati in una dimensione collegata a quella dei destinatari.
+Per definire la soglia, puoi utilizzare una dimensione collegata alla dimensione di targeting: ad esempio, per includere i messaggi inviati ai profili dei destinatari memorizzati in [tabella dei visitatori](../../v8/audiences/target-mappings.md) o per evitare di inviare più di un messaggio alla settimana alla stessa famiglia (che può fare riferimento a più indirizzi e-mail) identificati in una dimensione collegata a quella dei destinatari.
 
 A tale scopo, seleziona la **[!UICONTROL Count messages on a linked dimension]** , quindi seleziona il visitatore o la tabella dei contatti.
 
@@ -364,22 +365,22 @@ Dato che un’e-mail è già stata inviata ai destinatari interessati all’iniz
  <tbody> 
   <tr> 
    <td> Consegna 1<br /> </td> 
-   <td> Disattivato<br /> </td> 
+   <td> Disabilitato<br /> </td> 
    <td> 5<br /> </td> 
-   <td> 3 del pomeriggio<br /> </td> 
+   <td> 3pm<br /> </td> 
    <td> 8 (giorno successivo)<br /> </td> 
-   <td> 2 del pomeriggio<br /> </td> 
+   <td> 2pm<br /> </td> 
    <td> Notturno<br /> </td> 
    <td> Esclusi<br /> </td> 
    <td> Esclusi<br /> </td> 
   </tr> 
   <tr> 
    <td> Consegna 2<br /> </td> 
-   <td> Disattivato<br /> </td> 
+   <td> Disabilitato<br /> </td> 
    <td> 10<br /> </td> 
-   <td> 4 del pomeriggio<br /> </td> 
+   <td> 4pm<br /> </td> 
    <td> 9 (giorno successivo)<br /> </td> 
-   <td> 2 del pomeriggio<br /> </td> 
+   <td> 2pm<br /> </td> 
    <td> Notturno<br /> </td> 
    <td> Inviato<br /> </td> 
    <td> 9 (giorno successivo)<br /> </td> 
