@@ -1,6 +1,6 @@
 ---
 title: Inviare e-mail con Adobe Campaign
-description: Guida introduttiva alle e-mail in Adobe Campaign. Inviare e-mail personalizzate a una popolazione target.
+description: Introduzione alle e-mail in Adobe Campaign. Inviare e-mail personalizzate a una popolazione target.
 feature: Email
 role: User
 level: Beginner
@@ -8,7 +8,7 @@ exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
 source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 15%
+ht-degree: 17%
 
 ---
 
@@ -80,13 +80,13 @@ Scopri come importare un contenuto e-mail in questo [caso d&#39;uso](https://exp
 Ulteriori informazioni in queste sezioni di **Documentazione di Campaign Classic v7**:
 
 * Progettazione di un’e-mail in Campaign
-   ![](../assets/do-not-localize/book.png) [Scopri come progettare un’e-mail](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-the-email-content.html){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) [Scopri come progettare un’e-mail](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-the-email-content.html?lang=it){target=&quot;_blank&quot;}
 * Creare e utilizzare un modello e-mail
-   ![](../assets/do-not-localize/book.png) [Ulteriori informazioni sui modelli e-mail](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) [Ulteriori informazioni sui modelli e-mail](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=it){target=&quot;_blank&quot;}
 * Selezionare il pubblico dell’e-mail
    ![](../assets/do-not-localize/book.png) [Scopri come definire la popolazione target](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html){target=&quot;_blank&quot;}
 * Convalidare una consegna e inviare bozze
-   ![](../assets/do-not-localize/book.png) [Scopri i passaggi chiave per convalidare una consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) [Scopri i passaggi chiave per convalidare una consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=it){target=&quot;_blank&quot;}
 * Aggiungi [indirizzi di seed](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target=&quot;_blank&quot;}
 
 ## Verifica e-mail
@@ -103,4 +103,4 @@ Campaign offre diversi modi per testare e convalidare le e-mail prima di inviarl
 * Utilizzare i gruppi di controllo
 * Controllare il rendering delle e-mail
 
-![](../assets/do-not-localize/book.png)[Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target=&quot;_blank&quot;}.
+![](../assets/do-not-localize/book.png)[Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=it){target=&quot;_blank&quot;}.

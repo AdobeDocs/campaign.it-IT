@@ -1,6 +1,6 @@
 ---
 title: Collegare Campaign alle tue soluzioni
-description: Scopri come collegare la tua istanza Adobe Campaign con le soluzioni Experience Cloud.
+description: Scopri come collegare la tua istanza di Adobe Campaign con le soluzioni di Experience Cloud.
 feature: Overview
 role: Admin, User
 level: Beginner, Intermediate
@@ -8,7 +8,7 @@ exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
 source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
