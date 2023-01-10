@@ -5,7 +5,7 @@ description: Aggiornamento del sistema Adobe Campaign
 hide: true
 hidefromtoc: true
 exl-id: 78949d94-60b3-44f1-8e5a-d61b5b723e87
-source-git-commit: 3535e1e4fcd326412b6378253e5dde1249bce1f2
+source-git-commit: f1e963a880e8499dbbb16c44831a4ce1b537601f
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 11%
@@ -52,4 +52,4 @@ Se il sistema di database per Campaign è PostgreSQL, per beneficiare delle ulti
 
 **Come si esegue l’aggiornamento?**
 
-* In qualità di cliente di Cloud Services gestiti, Adobe ti contatterà e aggiornerà il tuo sistema di database da PostgreSQL 11 a PostgreSQL 14.
+In qualità di cliente di Cloud Services gestiti, Adobe ti contatterà e aggiornerà il tuo sistema di database da PostgreSQL 11 a PostgreSQL 14.
