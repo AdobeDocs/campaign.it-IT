@@ -4,9 +4,9 @@ user-guide-title: Campaign v8
 description: Documentazione di Campaign v8
 breadcrumb-title: Panoramica di Campaign
 title: Documenti su Campaign v8
-source-git-commit: a9f7bf9a976a7f3b5415c090c042f83a1bb64c24
+source-git-commit: 38c300555b847c9d1fd210d2fe60e4ffa1e314d2
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '486'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 100%
    + [Domande frequenti](start/campaign-faq.md)
 + Gestione delle campagne {#campaigns}
    + [Introduzione alle campagne](start/campaigns.md)
-   + [Documentazione sull’orchestrazione delle campagne](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=it)
+   + [Orchestrazione campagna >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=it)
    + Inviare messaggi{#send}
       + [Introduzione ai messaggi](start/create-message.md)
       + [Utilizzare i modelli di consegna](send/create-templates.md)
@@ -166,5 +166,5 @@ ht-degree: 100%
       + [Aggiornare il database](dev/update-database-structure.md)
       + [Moduli di input](dev/forms.md)
    + [API di Campaign](dev/api.md)
-+ [Pannello di controllo](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it)
-+ [Guida all’automazione di Campaign](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=it)
++ [Pannello di controllo >](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it)
++ [Guida all’automazione di Campaign >](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=it)

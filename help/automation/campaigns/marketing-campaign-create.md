@@ -3,7 +3,8 @@ product: campaign
 title: Creare campagne di marketing
 description: Scopri come creare ed eseguire campagne di marketing
 feature: Campaigns, Cross Channel Orchestration, Programs
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
+source-git-commit: 38c300555b847c9d1fd210d2fe60e4ffa1e314d2
 workflow-type: tm+mt
 source-wordcount: '1297'
 ht-degree: 3%
@@ -102,7 +103,7 @@ Per ogni campagna sono disponibili le seguenti funzionalità:
 * Documenti e risorse di riferimento: puoi associare i documenti alla campagna (breve, rapporto, immagini, ecc.). Sono supportati tutti i formati di documento. [Ulteriori informazioni](marketing-campaign-deliveries.md#manage-associated-documents).
 * Definire i costi: per ogni campagna, Adobe Campaign ti consente di definire voci di costo e strutture di calcolo dei costi che possono essere utilizzate durante la creazione della campagna di marketing. Ad esempio: costi di stampa, utilizzo di un&#39;agenzia esterna, noleggio di camere, ecc. [Ulteriori informazioni](providers--stocks-and-budgets.md#defining-cost-categories).
 * Definire gli obiettivi: puoi definire obiettivi quantificabili per una campagna, ad esempio numero di abbonati, volume di affari, ecc. Queste informazioni vengono successivamente utilizzate nei rapporti delle campagne.
-* Gestisci gli indirizzi di seed e i gruppi di controllo. [Ulteriori informazioni](marketing-campaign-deliveries.md#defining-a-control-group)).
+* Gestisci gli indirizzi di seed e i gruppi di controllo. [Ulteriori informazioni](marketing-campaign-deliveries.md#defining-a-control-group).
 * Gestisci le approvazioni: è possibile selezionare i trattamenti da approvare e, se necessario, selezionare gli operatori di revisione o i gruppi di operatori. [Ulteriori informazioni](marketing-campaign-approval.md#checking-and-approving-deliveries).
 
 >[!NOTE]
@@ -180,13 +181,13 @@ In questa tabella sono riepilogate le azioni che è possibile eseguire sulle cam
 | Elenco di campagne, consegne, offerte, ecc. | Eliminare una voce dell’elenco |
 | Campaign | Annullare una campagna |
 | Consegna | Approvare il contenuto e la destinazione della consegna<br/>Inviare il contenuto della consegna<br/>Conferma di una consegna<br/>Sospendi e interrompi una consegna |
-| Applicazione Web | Creare un’applicazione web<br/>Modifica del contenuto e delle proprietà dell&#39;applicazione<br/>Salva il contenuto dell’applicazione come modello<br/>Pubblicare l’applicazione |
+| Applicazione web | Creare un’applicazione web<br/>Modifica del contenuto e delle proprietà dell&#39;applicazione<br/>Salva il contenuto dell’applicazione come modello<br/>Pubblicare l’applicazione |
 | Offerta | Approvare il contenuto dell’offerta e l’idoneità<br/>Disattiva un’offerta online |
 | Attività Task | Completare un&#39;attività<br/>Annullare un’attività |
 | Risorse di marketing | Approvare una risorsa<br/>Bloccare e sbloccare una risorsa |
-| Pacchetto campagna | Invia un pacchetto per l&#39;approvazione<br/>Approvare o rifiutare un pacchetto<br/>Annullare un pacchetto |
-| Ordine campagna | Creare un ordine<br/>Accettare o rifiutare un ordine |
-| Stock | Elimina una linea di magazzino |
+| Pacchetto campagne | Invia un pacchetto per l&#39;approvazione<br/>Approvare o rifiutare un pacchetto<br/>Annullare un pacchetto |
+| Ordine delle campagne | Creare un ordine<br/>Accettare o rifiutare un ordine |
+| Magazzino | Elimina una linea di magazzino |
 | Simulazione dell’offerta | Avviare e arrestare una simulazione |
 | Flusso di lavoro di targeting | Avviare, mettere in pausa e interrompere un flusso di lavoro |
 | Rapporto | Salva i dati correnti nella cronologia del report |
@@ -206,4 +207,3 @@ Puoi anche utilizzare il collegamento contenuto nei messaggi di notifica. Per ul
 Questo video mostra come creare un piano di marketing, programmi e campagne.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333810?quality=12)
-
