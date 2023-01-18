@@ -6,10 +6,10 @@ feature: Push
 role: Admin, Developer
 level: Intermediate, Experienced
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: ad286059a9f4b63d7de4fa5130760f36d0976431
 workflow-type: tm+mt
-source-wordcount: '1288'
-ht-degree: 2%
+source-wordcount: '1281'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ Le versioni supportate da Android e iOS e le versioni compatibili con Campaign S
 
 >[!NOTE]
 >
->In qualità di amministratore di Campaign, puoi scaricare gli SDK di Campaign dal [Distribuzione di software di Experience Cloud](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). Per ulteriori informazioni, contatta [Adobe Customer Care](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>In qualità di amministratore di Campaign, puoi scaricare gli SDK di Campaign dal [Distribuzione di software di Experience Cloud](https://experience.adobe.com/#/downloads/content/software-distribution/it/campaign.html). Per ulteriori informazioni, contatta [Adobe Customer Care](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 
 ## Dichiarare le impostazioni di integrazione {#declaring-integration-settings}
@@ -794,7 +794,7 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione di Google
 
 Le variabili ti consentono di definire il comportamento dell’app mobile dopo aver ricevuto una notifica. Queste variabili devono essere definite nel codice dell’app mobile e nella console Adobe Campaign, nella **[!UICONTROL Variables]** nel servizio dedicato per le app mobili.
 
-![](../assets/do-not-localize/book.png) Ulteriori informazioni in **Documentazione di Campaign Classic v7** nell’app mobile: [Passaggi di configurazione per iOS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target=&quot;_blank&quot;} e [Passaggi di configurazione per Andoid](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html){target=&quot;_blank&quot;}.
+![](../assets/do-not-localize/book.png) Ulteriori informazioni in **Documentazione di Campaign Classic v7** nell’app mobile: [Passaggi di configurazione per iOS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target="_blank"} and [Configuration steps for Andoid](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html){target="_blank"}.
 
 Di seguito è riportato un esempio di codice che consente a un’app mobile di raccogliere tutte le variabili aggiunte in una notifica. Nel nostro esempio, utilizziamo la variabile &quot;VAR&quot;.
 
