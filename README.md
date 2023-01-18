@@ -1,8 +1,8 @@
 ---
 source-git-commit: d62a185eabf9536f7198d60702c02682af05e06d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 # Collaborare a un articolo
@@ -16,13 +16,13 @@ Questo progetto aderisce al [Codice di condotta di Adobe Open Source](code-of-co
 
 ## Informazioni sulle collaborazioni relative al contenuto Adobe
 
-Consulta la [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+Consulta la [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=it).
 
 Il tipo di collaborazione dipende da chi effettua l’intervento e dal tipo di modifiche che si desidera apportare:
 
 ### Modifiche minori
 
-Se desideri collaborare con piccoli aggiornamenti per altruismo, leggi l&#39;articolo e fai clic sul collegamento **Modifica** per aprire la sorgente in GitHub. Quindi, utilizza l’interfaccia utente GitHub per effettuare gli aggiornamenti. Per ulteriori informazioni, consulta la [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+Se desideri collaborare con piccoli aggiornamenti per altruismo, leggi l&#39;articolo e fai clic sul collegamento **Modifica** per aprire la sorgente in GitHub. Quindi, utilizza l’interfaccia utente GitHub per effettuare gli aggiornamenti. Per ulteriori informazioni, consulta la [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=it).
 
 Le correzioni minori o i chiarimenti alla documentazione e gli esempi di codice in questo archivio sono coperti dai termini di utilizzo Adobe.
 
@@ -44,7 +44,7 @@ Gli autori tecnici, i responsabili di programma o gli sviluppatori del team di p
 
 I collaboratori della community possono utilizzare l’interfaccia utente di GitHub per effettuare modifiche di base o creare un fork dell&#39;archivio per apportare contributi più sostanziosi.
 
-Per informazioni dettagliate, consulta la [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+Per informazioni dettagliate, consulta la [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=it).
 
 ## Come utilizzare markdown per formattare l&#39;argomento
 
