@@ -3,9 +3,10 @@ product: campaign
 title: Proprietà del flusso di lavoro
 description: Ulteriori informazioni sulle proprietà del flusso di lavoro di Campaign
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 7fef434e-f6bd-46a4-9ec2-0182f081c928
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '543'
 ht-degree: 1%
 
 ---
@@ -37,8 +38,6 @@ Questa sezione viene visualizzata solo nei flussi di lavoro delle campagne.
 * **[!UICONTROL Default affinity]**
 
    Se l’installazione include diversi server del flusso di lavoro, utilizza questo campo per scegliere il computer su cui verrà eseguito il flusso di lavoro. Se il valore definito in questo campo non esiste su alcun server, il flusso di lavoro rimarrà in sospeso.
-
-   Fai riferimento a questo .
 
 * **[!UICONTROL History in days]**
 
