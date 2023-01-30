@@ -4,9 +4,9 @@ title: Flusso di lavoro di consegna cross-channel
 description: Ulteriori informazioni sui flussi di lavoro di consegna cross-channel
 feature: Workflows, Channels Activity
 exl-id: fb498233-4df8-4c9e-a082-3e657c6756c9
-source-git-commit: 5b4d569a6e96c93828f63fb8376eb81301829854
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '588'
 ht-degree: 4%
 
 ---
@@ -33,7 +33,7 @@ Le principali fasi di implementazione per questo caso d’uso sono le seguenti:
 
 Per definire il target, crea una query per identificare i destinatari.
 
-1. Creare una campagna. Per ulteriori informazioni, fai riferimento a  .
+1. Creare una campagna. Per ulteriori informazioni, consulta [questa pagina](../campaigns/marketing-campaign-create.md).
 1. In **[!UICONTROL Targeting and workflows]** scheda della campagna, aggiungi una **Query** al flusso di lavoro. Per ulteriori informazioni sull’utilizzo di questa attività, consulta [questa sezione](query.md).
 1. Definisci i destinatari che riceveranno le tue consegne. Ad esempio, selezionare i membri &quot;Gold&quot; come dimensione di destinazione.
 1. Aggiungi condizioni di filtro alla query. In questo esempio, seleziona i destinatari che hanno un indirizzo e-mail e un numero di cellulare.
@@ -49,7 +49,7 @@ Per definire il target, crea una query per identificare i destinatari.
 
    ![](assets/wkf_cross-channel_1.png)
 
-   Per ulteriori informazioni sull’integrazione di un’offerta nel corpo di un messaggio, consulta .
+   Per ulteriori informazioni sull’integrazione di un’offerta nel corpo di un messaggio, consulta [questa pagina](../../v8/send/email.md).
 
 1. Salva le modifiche.
 1. Fai clic con il pulsante destro del mouse sul pulsante **[!UICONTROL Email delivery]** attività per aprirla.
@@ -107,11 +107,8 @@ Una volta identificato il target e creata la prima consegna, devi segmentarlo in
    * Aggiungi un **[!UICONTROL Mobile delivery]** per inviare un messaggio SMS al secondo sottoinsieme.
    * Aggiungi un **[!UICONTROL List update]** attività per aggiungere i destinatari corrispondenti al database.
 
-1. Fai doppio clic sulle attività di consegna nel flusso di lavoro per modificarle. Per ulteriori informazioni sulla creazione di un’e-mail e di un SMS, consulta .
+1. Fai doppio clic sulle attività di consegna nel flusso di lavoro per modificarle.
 1. Fai doppio clic sul pulsante **[!UICONTROL List update]** e seleziona la **[!UICONTROL Generate an outbound transition]** opzione .
-
-   Puoi quindi esportare i destinatari risultanti da Adobe Campaign in Adobe Experience Cloud. Ad esempio, puoi utilizzare il pubblico in Adobe Target aggiungendo un ** .
-
 1. Fai clic sul pulsante **Inizio** nella barra delle azioni per eseguire il flusso di lavoro.
 
 La popolazione oggetto della campagna **Query** l’attività verrà segmentata per ricevere un’e-mail o un SMS di consegna in base ai comportamenti dei destinatari. La popolazione rimanente verrà aggiunta al database utilizzando **[!UICONTROL List update]** attività.
