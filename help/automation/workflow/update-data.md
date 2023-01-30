@@ -3,9 +3,10 @@ product: campaign
 title: Attività Update data
 description: Ulteriori informazioni sull’attività del flusso di lavoro Update data
 feature: Workflows, Targeting Activity, Data Management
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 63b214c7-bbbf-448b-b3af-b3b7a7a5b65c
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '841'
 ht-degree: 1%
 
 ---
@@ -99,7 +100,7 @@ L’aggiornamento dei dati e l’unione delle raccolte consente di aggiornare i 
 
 1. Selezionare le raccolte da spostare al record principale e i campi da aggiornare.
 
-   Immettere le regole che si applicano a questi record secondari una o più volte identificati. A questo scopo, puoi utilizzare il Generatore di espressioni. Per ulteriori informazioni, consulta questo articolo . Ad esempio, specificando che si tratta del valore aggiornato più di recente tra tutti i diversi record che devono essere conservati.
+   Immettere le regole che si applicano a questi record secondari una o più volte identificati. A questo scopo, puoi utilizzare il Generatore di espressioni. Ad esempio, specificando che si tratta del valore aggiornato più di recente tra tutti i diversi record che devono essere conservati.
 
    Quindi inserisci le condizioni da prendere in considerazione per la regola.
 
