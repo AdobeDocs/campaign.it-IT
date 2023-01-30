@@ -5,7 +5,7 @@ feature: PI, Privacy
 role: Developer
 level: Intermediate, Experienced
 exl-id: 1b833745-71d7-430d-ac7d-c830c78ea232
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 2%
@@ -20,7 +20,7 @@ Se hai bisogno che gli utenti di marketing siano in grado di accedere ai record 
 
 ## Implementazione {#implementation}
 
-Un attributo specifico che può essere applicato a qualsiasi elemento o attributo è stato aggiunto agli schemi, integra l&#39;attributo esistente **[!UICONTROL visibleIf]** . Questo attributo è: **[!UICONTROL accessibleIf]** . Quando contiene un&#39;espressione XTK correlata al contesto utente corrente, può sfruttare **[!UICONTROL HasNamedRight]** o **[!UICONTROL $(login)]** , per esempio.
+Un attributo specifico che può essere applicato a qualsiasi elemento o attributo è stato aggiunto agli schemi, integra l&#39;attributo esistente **[!UICONTROL visibleIf]**. Questo attributo è: **[!UICONTROL accessibleIf]**. Quando contiene un&#39;espressione XTK correlata al contesto utente corrente, può sfruttare **[!UICONTROL HasNamedRight]** o **[!UICONTROL $(login)]**, per esempio.
 
 Puoi trovare un esempio di estensione dello schema destinatario che mostra questo utilizzo:
 
@@ -40,7 +40,7 @@ Puoi trovare un esempio di estensione dello schema destinatario che mostra quest
 Le proprietà principali sono:
 
 * **[!UICONTROL visibleIf]** : nasconde i campi dai metadati, pertanto non è possibile accedervi all&#39;interno di una visualizzazione schema, di una selezione di colonne o di un generatore di espressioni. Ma questo non nasconde alcun dato, se il nome del campo viene immesso manualmente in un&#39;espressione, il valore verrà visualizzato.
-* **[!UICONTROL accessibleIf]** : nasconde i dati (sostituendoli con valori vuoti) dalla query risultante. Se visibleSe è vuoto, allora ottiene la stessa espressione di **[!UICONTROL accessibleIf]** .
+* **[!UICONTROL accessibleIf]** : nasconde i dati (sostituendoli con valori vuoti) dalla query risultante. Se visibleSe è vuoto, allora ottiene la stessa espressione di **[!UICONTROL accessibleIf]**.
 
 Di seguito sono riportate le conseguenze dell’utilizzo di questo attributo in Campaign:
 
