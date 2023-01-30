@@ -3,20 +3,17 @@ product: campaign
 title: Gestire i fusi orari
 description: Gestire i fusi orari
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 04b7638d-55dd-4317-b605-5d618ef014ba
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 3%
+source-wordcount: '266'
+ht-degree: 4%
 
 ---
 
-# Gestione dei fusi orari{#managing-time-zones}
-
-
+# Gestire i fusi orari{#managing-time-zones}
 
 Adobe Campaign consente di gestire i periodi di tempo tra diversi paesi interessati dalla stessa istanza. La configurazione applicata viene configurata durante la creazione dell&#39;istanza.
-
-Per ulteriori informazioni sulla configurazione dei fusi orari in Adobe Campaign, consulta .
 
 In un flusso di lavoro, puoi adattare i piani di esecuzione dell’attività e collegare un fuso orario specifico a un’attività o all’intero flusso di lavoro. Questa configurazione può essere utile durante l’importazione del file o nel quadro della pianificazione della consegna.
 
