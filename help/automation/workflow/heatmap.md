@@ -3,20 +3,17 @@ product: campaign
 title: Workflow HeatMap della campagna
 description: Monitorare i flussi di lavoro con Workflow HeatMap
 feature: Workflows, Heatmap
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: aeb35076-2f0d-456d-8562-be69e7e902eb
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1094'
 ht-degree: 3%
 
 ---
 
 # Flusso di lavoro HeatMap {#workflow-heatmap}
 
-
-
 La Workflow HeatMap di Campaign consiste in una rappresentazione grafica codificata per colori di tutti i flussi di lavoro attualmente in esecuzione. È disponibile solo per **Amministratori di Campaign**.
-
-Scopri altri modi per monitorare i processi Campaign in .
 
 ## Introduzione a Workflow HeatMap {#about-the-workflow-heatmap}
 
@@ -52,8 +49,7 @@ L&#39;utilizzo di Workflow HeatMap richiede una buona comprensione dei seguenti 
    Per impostazione predefinita, la pagina mostra l’attività del flusso di lavoro per il giorno corrente. Puoi modificarlo e selezionare qualsiasi giorno nel passato.
 
    >[!NOTE]
-   >
-   >Solo i flussi di lavoro che non sono stati eliminati dal ** .\
+   > 
    >Per impostazione predefinita, il fuso orario Workflow HeatMap è quello definito per l&#39;utente amministratore corrente. Ad esempio, puoi modificarla se non ti trovi nella stessa area degli utenti di marketing con cui stai lavorando.
 
 1. Fai clic sul pulsante **[!UICONTROL Filters]**.
@@ -152,7 +148,7 @@ In questo caso, molti utenti si lamentano delle prestazioni del flusso di lavoro
 
 1. Vai a **[!UICONTROL Monitoring]** e fai clic su **[!UICONTROL Workflows]** per visualizzare il collegamento **[!UICONTROL Campaign Workflow HeatMap]** pagina.
 1. Imposta la **[!UICONTROL Min duration]** filtrare fino a 5 minuti.
-1. Imposta la **[!UICONTROL Workflow type]** filtrare **[!UICONTROL Marketing]** .
+1. Imposta la **[!UICONTROL Workflow type]** filtrare **[!UICONTROL Marketing]**.
 1. Dalla griglia di HeatMap, osservate quanto segue:
 
    ![](assets/wkf_monitoring_without.png)
