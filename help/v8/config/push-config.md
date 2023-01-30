@@ -6,7 +6,7 @@ feature: Push
 role: Admin, Developer
 level: Intermediate, Experienced
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
-source-git-commit: ad286059a9f4b63d7de4fa5130760f36d0976431
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 Utilizza gli SDK Campaign per iOS e Android per facilitare l’integrazione dell’app mobile nella piattaforma Adobe Campaign.
 
-Le versioni supportate da Android e iOS e le versioni compatibili con Campaign SDK per Campaign v8 sono elencate nella [Matrice di compatibilità](../start/compatibility-matrix.md#MobileSDK) .
+Le versioni supportate da Android e iOS e le versioni compatibili con Campaign SDK per Campaign v8 sono elencate nella [Matrice di compatibilità](../start/compatibility-matrix.md#MobileSDK).
 
 >[!NOTE]
 >
