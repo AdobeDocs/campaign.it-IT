@@ -3,10 +3,11 @@ product: campaign
 title: Gestione delle autorizzazioni del flusso di lavoro
 description: Scopri come gestire le autorizzazioni del flusso di lavoro
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 3cb8aeec-e758-4b71-adef-67942cf9ded7
+source-git-commit: bff7d1d51b9847c515670e5594eed513fefbe816
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 0%
+source-wordcount: '321'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +21,7 @@ In generale, gli operatori che agiscono sui flussi di lavoro devono accedere ai 
 
 Devono anche essere mappati ai diritti denominati che coincidono con le azioni eseguite dai flussi di lavoro che influiranno (importazione dei destinatari, accesso ai file, fusione, esecuzione degli script SQL, ecc.).
 
-Per ulteriori informazioni sulla gestione di operatori e autorizzazioni, consulta questo .
+Per ulteriori informazioni sulla gestione di operatori e autorizzazioni, consulta [questa sezione](../../v8/start/gs-permissions.md).
 
 ## Gruppi di operatori {#operator-groups-wf}
 
