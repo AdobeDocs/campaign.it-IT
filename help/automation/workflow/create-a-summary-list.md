@@ -3,9 +3,10 @@ product: campaign
 title: Creare un elenco di riepilogo
 description: Creare un elenco di riepilogo
 feature: Workflows, Data Management
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 86dee66a-357a-4927-916e-51cde6c006d5
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '971'
 ht-degree: 2%
 
 ---
@@ -54,9 +55,7 @@ Questi dati sono contenuti in un file di testo &quot;Purchases.txt&quot;.
 
    La **Raccoglitore file** activity ti consente di raccogliere e inviare file da e al server Adobe Campaign.
 
-   La **Caricamento dati (file)** consente di arricchire la tabella di lavoro del flusso di lavoro con i dati raccolti.
-
-   Per ulteriori informazioni su questa attività, consulta .
+   La **Caricamento dati (file)** consente di arricchire la tabella di lavoro del flusso di lavoro con i dati raccolti. Per ulteriori informazioni su questa attività, consulta [questa pagina](data-loading--file-.md).
 
 1. Configura le **Raccoglitore file** attività per la raccolta del testo (&#42;.txt) digitare i file dalla directory selezionata.
 
