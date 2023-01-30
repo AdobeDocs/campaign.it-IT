@@ -3,9 +3,10 @@ product: campaign
 title: Esempi di marketing distribuito
 description: Esempi di marketing distribuito
 feature: Distributed Marketing
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 7825426b-c9e4-49e9-840c-dc6d6d836fbe
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1284'
 ht-degree: 0%
 
 ---
@@ -13,14 +14,11 @@ ht-degree: 0%
 # Esempi di marketing distribuito{#distributed-marketing-samples}
 
 
-
 ## Creare una campagna locale (tramite modulo) {#creating-a-local-campaign--by-form-}
 
 La **Per modulo** l&#39;interfaccia web di tipo include l&#39;utilizzo di **applicazione web**. A seconda della configurazione, questa applicazione web può contenere qualsiasi tipo di elementi personalizzati definiti. Ad esempio, puoi suggerire collegamenti per valutare il target, il budget, il contenuto, ecc. tramite API dedicate.
 
 >[!NOTE]
->
->Le API sono descritte in un documento dedicato. .
 >
 >L&#39;applicazione Web utilizzata in questo esempio non è un&#39;app Web preconfigurata con Adobe Campaign. Per utilizzare un modulo in una campagna, è necessario creare l’applicazione Web dedicata.
 
