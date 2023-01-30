@@ -3,7 +3,8 @@ product: campaign
 title: Arricchimento delle e-mail con campi data personalizzati
 description: Scopri come arricchire le e-mail con campi data personalizzati
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 2bb3443c-37d8-4d49-9be1-81217f56823c
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 3%
@@ -106,7 +107,7 @@ Ora puoi iniziare a progettare la consegna e-mail con i campi data personalizzat
            formatDate(targetData.alias of your expression,"%2D.%2M")  %>
    ```
 
-1. Fai clic su ![](assets/uc_enrichment_16.png) . Seleziona **[!UICONTROL Target extension]** quindi le date di validità personalizzate create in precedenza con **[!UICONTROL Enrichment]** per aggiungere l&#39;estensione all&#39;espressione formatDate.
+1. Fai clic su ![](assets/uc_enrichment_16.png). Seleziona **[!UICONTROL Target extension]** quindi le date di validità personalizzate create in precedenza con **[!UICONTROL Enrichment]** per aggiungere l&#39;estensione all&#39;espressione formatDate.
 
    ![](assets/uc_enrichment_19.png)
 
