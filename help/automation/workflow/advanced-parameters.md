@@ -3,10 +3,11 @@ product: campaign
 title: Parametri avanzati
 description: Parametri avanzati
 feature: Workflows, Data Management
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: aafd977e-c8af-426b-904c-8388c9d8e595
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 2%
+source-wordcount: '492'
+ht-degree: 3%
 
 ---
 
@@ -47,8 +48,6 @@ Queste opzioni sono generalmente selezionate nel carrello facendo clic con il pu
 ## Affinità {#affinity}
 
 Puoi scegliere di forzare l’esecuzione di un flusso di lavoro o di un’attività del flusso di lavoro su un computer specifico. A questo scopo, devi definire una o più proprietà a livello del flusso di lavoro o dell’attività interessata.
-
-La configurazione del flusso di lavoro ad alta disponibilità è descritta in questo .
 
 
 ## Max periodo di esecuzione {#max--execution-period}
