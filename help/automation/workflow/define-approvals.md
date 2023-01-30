@@ -3,9 +3,10 @@ product: campaign
 title: Definire le approvazioni
 description: Le approvazioni consentono agli operatori di prendere decisioni relative a un flusso di lavoro o di confermarne l’esecuzione
 feature: Approvals
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 8ac159c1-fd2e-4fb9-8275-18154f6f210c
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '826'
 ht-degree: 4%
 
 ---
@@ -26,8 +27,6 @@ Nelle operazioni, tutte le fasi che richiedono l&#39;approvazione si basano sull
 
 ![](assets/validation-1-in-op.png)
 
-Gli esempi di approvazione sono disponibili in .
-
 Un operatore può rispondere in uno dei due modi seguenti: convalida tramite la pagina web collegata nel messaggio e-mail o tramite la console.
 
 >[!NOTE]
@@ -36,9 +35,7 @@ Un operatore può rispondere in uno dei due modi seguenti: convalida tramite la 
 
 ## Approvazioni per e-mail {#sending-emails}
 
-È possibile ricevere un messaggio di approvazione contenente un collegamento a una pagina web tramite il quale è possibile rispondere. Affinché l’operatore di destinazione riceva un messaggio e-mail di approvazione, l’indirizzo e-mail dell’operatore deve essere completo. In caso contrario, l’operatore deve utilizzare la console per rispondere
-
-La gestione degli operatori è descritta in questo .
+È possibile ricevere un messaggio di approvazione contenente un collegamento a una pagina web tramite il quale è possibile rispondere. Affinché l’operatore di destinazione riceva un messaggio e-mail di approvazione, l’indirizzo e-mail dell’operatore deve essere completo. In caso contrario, l’operatore deve utilizzare la console per rispondere.
 
 Le e-mail di approvazione vengono inviate continuamente. Il modello di consegna predefinito è **[!UICONTROL notifyAssignee]**: Viene salvato nella **[!UICONTROL Administration > Campaign management > Technical delivery templates]** cartella. Questo scenario può essere personalizzato ed è consigliabile creare una copia e modificare i modelli per ogni attività.
 
@@ -69,7 +66,7 @@ La seconda scheda nelle proprietà di approvazione dell’attività ti consente 
 
 ![](assets/expiration.png)
 
-Per aggiungere una nuova scadenza, fai clic su **[!UICONTROL Add]**. A ciascuna delle scadenze create viene aggiunta una transizione. Puoi:
+Per aggiungere una nuova scadenza, fai clic su **[!UICONTROL Add]**. A ciascuna delle scadenze create viene aggiunta una transizione. È possibile eseguire le seguenti operazioni:
 
 * modificare i parametri tipici direttamente facendo clic su una cella dell&#39;elenco (o premendo F2),
 * o modifica l’espressione facendo clic sul pulsante **[!UICONTROL Detail...]** pulsante .
