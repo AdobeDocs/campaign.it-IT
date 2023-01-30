@@ -3,9 +3,10 @@ product: campaign
 title: Creare una campagna locale
 description: Creare una campagna locale
 feature: Distributed Marketing
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: b46530b5-cb81-40d7-b596-c7685359782a
+source-git-commit: 7e5ffbec959785971280c394c416cebe83590897
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1554'
 ht-degree: 1%
 
 ---
@@ -44,7 +45,7 @@ Nella finestra della campagna, fai clic su **[!UICONTROL Edit]** , quindi fai cl
 
 ![](assets/mkt_distr_4.png)
 
-### Interfaccia web {#web-interface}
+### Interfaccia Web {#web-interface}
 
 In **Marketing distribuito** È possibile scegliere il tipo di interfaccia Web e specificare i valori e i parametri predefiniti da immettere quando un&#39;entità locale inserisce un ordine.
 
@@ -68,7 +69,7 @@ Sono disponibili quattro tipi di interfacce web:
 
    >[!NOTE]
    >
-   >L&#39;applicazione Web utilizzata in questo esempio è un esempio. Per poter utilizzare un modulo è necessario creare un’app Web specifica. Fai riferimento a  .
+   >L&#39;applicazione Web utilizzata in questo esempio è un esempio. Per poter utilizzare un modulo è necessario creare un’app Web specifica.
 
    ![](assets/mkt_distr_7.png)
 
@@ -155,7 +156,7 @@ Salva il modello della campagna. È ora possibile utilizzarlo dal **[!UICONTROL 
 
 >[!NOTE]
 >
->I modelli di campagna e la relativa configurazione generale sono descritti in .
+>I modelli di campagna e la relativa configurazione generale sono descritti in [questa pagina](../campaigns/marketing-campaign-templates.md).
 
 ## Creazione del pacchetto della campagna {#creating-the-campaign-package}
 
@@ -235,10 +236,6 @@ Per ordinare una campagna:
 1. Fai clic su **[!UICONTROL Order campaign]** nel messaggio di notifica o nel pulsante corrispondente in Adobe Campaign.
 
    Immetti il tuo ID e password per ordinare la campagna. L’interfaccia è composta da un set di pagine definite in un’applicazione web.
-
-   >[!NOTE]
-   >
-   >Le applicazioni web sono descritte in dettaglio in .
 
 1. Immetti le informazioni necessarie nella prima pagina (etichetta dell’ordine e commento) e fai clic su **[!UICONTROL Next]**.
 
