@@ -3,17 +3,17 @@ product: campaign
 title: Canale LINE
 description: Canale LINE
 feature: Workflows
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 11%
+source-wordcount: '95'
+ht-degree: 13%
 
 ---
 
 
 # Canale LINE{#line-channel}
 
-I flussi di lavoro descritti di seguito sono installati con **Canale LINE** modulo per impostazione predefinita. Per ulteriori informazioni su questo modulo, consulta questo .
+I flussi di lavoro descritti di seguito sono installati con **Canale LINE** modulo per impostazione predefinita. Per ulteriori informazioni su questo modulo, consulta [questa pagina](../../v8/send/line.md).
 
 <table> 
  <tbody> 
