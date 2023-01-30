@@ -3,20 +3,17 @@ product: campaign
 title: Profilo di consegna
 description: Ulteriori informazioni sull’attività del flusso di lavoro del profilo di consegna
 feature: Workflows, Targeting Activity
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 3c06b329-b2d8-4ac8-ab9b-3ab3e525d109
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '243'
 ht-degree: 1%
 
 ---
 
 # Profilo di consegna{#delivery-outline}
 
-
-
 La **profilo di consegna** consente di utilizzare una struttura in un flusso di lavoro della campagna. La struttura deve essere stata creata in precedenza nella campagna.
-
-Per ulteriori informazioni sui profili di consegna in Adobe Campaign, consulta questo .
 
 Per configurare l’attività, è sufficiente selezionare il profilo desiderato e la data di contatto pianificata. Puoi aggiungere regole di filtro aggiungendo tipologie o regole di tipologia.
 
@@ -30,9 +27,6 @@ La **profilo di consegna** L’attività , disponibile nei flussi di lavoro dell
 
 1. In un flusso di lavoro, aggiungi un’attività di profilo della consegna prima di aggiungere un’attività di consegna.
 1. Nell’attività di struttura della consegna, specifica il profilo da utilizzare.
-
-   Per ulteriori informazioni sulla specifica dei profili di consegna, consulta questo .
-
 1. Completa i campi disponibili in base alla consegna.
 1. Esistono due casi possibili:
 
