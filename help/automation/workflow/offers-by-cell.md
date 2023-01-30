@@ -3,10 +3,11 @@ product: campaign
 title: Offerte per cella
 description: Offerte per cella
 feature: Workflows, Targeting Activity, Interaction
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: e2216dfd-1ef8-4747-b716-576fd6498fa6
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 8%
+source-wordcount: '151'
+ht-degree: 7%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 8%
 
 La **[!UICONTROL Offers by cell]** l’attività ti consente di distribuire il gruppo in entrata (da una query, ad esempio) in diversi segmenti e di specificare un’offerta da presentare per ciascuno di questi segmenti.
 
-Questa attività può essere utilizzata solo con **Interazione**. Per ulteriori informazioni, consulta questo articolo .
+Questa attività può essere utilizzata solo con **Interazione**. Ulteriori informazioni sulla gestione delle offerte in [questa sezione](../../v8/interaction/interaction.md).
 
 Per eseguire questa operazione:
 
