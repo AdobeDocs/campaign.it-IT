@@ -3,10 +3,10 @@ product: campaign
 title: Consegne
 description: Ulteriori informazioni sui flussi di lavoro di consegna predefiniti
 feature: Workflows
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 5%
+source-wordcount: '316'
+ht-degree: 6%
 
 ---
 
@@ -47,7 +47,7 @@ I flussi di lavoro descritti di seguito sono installati con **Consegne** modulo 
   <tr> 
    <td> <span class="uicontrol">Database cleanup</span> <br /> </td> 
    <td> <span class="uicontrol">cleanup</span> <br /> </td> 
-   <td> <p>Questo flusso di lavoro è il flusso di lavoro di manutenzione del database: effettua calcoli diversi dalle statistiche e dai processi ed elimina dati obsoleti dal database in base alla configurazione definita nell'assistente alla distribuzione. Viene attivato ogni giorno alle 4 per impostazione predefinita.</p> <p>Per ulteriori informazioni, consulta questo articolo .</p> </td> 
+   <td> <p>Questo flusso di lavoro è il flusso di lavoro di manutenzione del database: effettua calcoli diversi dalle statistiche e dai processi ed elimina dati obsoleti dal database in base alla configurazione definita nell'assistente alla distribuzione. Viene attivato ogni giorno alle 4 per impostazione predefinita.</p></td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Pulizia dei flussi di lavoro in pausa</span> <br /> </td> 
