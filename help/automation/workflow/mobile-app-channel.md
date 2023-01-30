@@ -3,19 +3,17 @@ product: campaign
 title: Canale app mobile
 description: Canale app mobile
 feature: Workflows
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 19%
+source-wordcount: '64'
+ht-degree: 21%
 
 ---
 
 
 # Canale app mobile{#mobile-app-channel}
 
-
-
-Il flusso di lavoro descritto di seguito è installato con **Canale app mobile** modulo per impostazione predefinita. Per ulteriori informazioni su questo modulo, consulta questo .
+Il flusso di lavoro descritto di seguito è installato con **Canale app mobile** modulo per impostazione predefinita. Per ulteriori informazioni su questo modulo, consulta [questa sezione](../../v8/send/push.md).
 
 <table> 
  <tbody> 
