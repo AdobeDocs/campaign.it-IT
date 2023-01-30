@@ -3,10 +3,11 @@ product: campaign
 title: Caricamento dati (file)
 description: Ulteriori informazioni sull’attività del flusso di lavoro di caricamento dati (file)
 feature: Workflows, Data Management Activity
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 10351620-115c-4bd8-b216-e5ad6f205ef3
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 15%
+source-wordcount: '1029'
+ht-degree: 14%
 
 ---
 
@@ -31,8 +32,6 @@ La sezione superiore della finestra di configurazione per questa attività ti co
 È possibile definire un processo preliminare da eseguire durante l’importazione dei file, ad esempio per non decomprimere il file sul server (e quindi risparmiare spazio per il file decompresso) ma per includere la decompressione nell’elaborazione dei file. Seleziona la **[!UICONTROL Pre-process the file]** e scegli una delle 3 opzioni disponibili: **[!UICONTROL None]**, **[!UICONTROL Decompression]** (zcat) o **[!UICONTROL Decrypt]** (gpg).
 
 ![](assets/preprocessing-dataloading.png)
-
-Per ulteriori informazioni al riguardo, consulta questa sezione:  .
 
 ## Definizione del formato del file {#defining-the-file-format}
 
@@ -110,7 +109,7 @@ L’esempio seguente consente di raccogliere un file sul server ogni giorno, car
    * la prima colonna contiene un codice che coincide con l’evento : acquisto (più o meno di 3.000 euro), nessun acquisto o rimborso su uno o più acquisti.
    * le quattro colonne seguenti contengono il nome, il cognome, l’indirizzo e-mail e il numero di account del cliente.
 
-   La configurazione del formato del file da caricare coincide con quella definita durante un’importazione di dati in Adobe Campaign. Per ulteriori informazioni, consulta questo articolo .
+   La configurazione del formato del file da caricare coincide con quella definita durante un’importazione di dati in Adobe Campaign.
 
 1. Nell’attività divisa, specifica i sottoinsiemi da creare, in base alla **Evento** valore colonna.
 
