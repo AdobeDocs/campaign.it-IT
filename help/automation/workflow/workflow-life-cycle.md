@@ -3,9 +3,10 @@ product: campaign
 title: Ciclo di vita di un flusso di lavoro
 description: Ulteriori informazioni sul ciclo di vita di un flusso di lavoro
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 4356b90c-9d7c-49ef-88cd-716b2ccdb7f0
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '260'
 ht-degree: 3%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 3%
 
 Il ciclo del flusso di lavoro prevede tre passaggi principali.
 
-* **In corso di modifica**
+* **In fase di modifica**
 
    Questa è la fase di progettazione iniziale: Quando viene creato un nuovo flusso di lavoro, il relativo stato è &quot;In corso di modifica&quot;. Il flusso di lavoro non è ancora gestito dal server e può essere modificato senza rischi.
 
@@ -24,7 +25,7 @@ Il ciclo del flusso di lavoro prevede tre passaggi principali.
 
    Una volta completata la fase di progettazione iniziale, è possibile avviare il flusso di lavoro. In questa fase, l’istanza viene gestita dal server e le singole attività vengono eseguite. Il flusso di lavoro può ancora essere modificato con alcune precauzioni.
 
-* **Finito**
+* **Completato**
 
    Un flusso di lavoro è &quot;Completato&quot; quando non sono più presenti attività in corso o quando un operatore ha esplicitamente interrotto l’istanza.
 
@@ -37,7 +38,5 @@ Ciò significa che le prime due attività sono state eseguite correttamente e ch
 I caratteri **574 -Ok** visualizzato sopra la transizione che segue **Consegna** attività indica che la preparazione della consegna ha eseguito il targeting di 574 destinatari e che l’operazione è stata completata correttamente. Queste informazioni, che vengono aggiunte alle transizioni quando vengono eseguite, vengono calcolate dalle attività che elaborano i dati.
 
 Il flusso di lavoro viene avviato e è in attesa di un operatore appartenente al gruppo specificato nel **Approvazione** attività per prendere una decisione. Vengono notificati gli operatori appartenenti al gruppo e che dispongono di un indirizzo e-mail o di un numero di telefono cellulare.
-
-La gestione degli operatori è descritta in questo .
 
 Per ulteriori informazioni su come monitorare i flussi di lavoro, consulta [questa sezione](monitor-workflow-execution.md).
