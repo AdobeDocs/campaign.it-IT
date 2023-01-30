@@ -3,10 +3,11 @@ product: campaign
 title: Avviare un flusso di lavoro
 description: Scopri come avviare un flusso di lavoro e scoprire la barra delle azioni dei flussi di lavoro e fai clic con il pulsante destro del mouse sul menu
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 6d9789e3-d721-4ffd-b3fb-a0c522ab1c0a
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 1%
+source-wordcount: '742'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +27,7 @@ L’elenco delle opzioni disponibili nel **[!UICONTROL Actions]** di seguito son
 
 ## Barra delle azioni {#actions-toolbar}
 
-I pulsanti della barra degli strumenti sono descritti in questa sezione . La **[!UICONTROL Actions]** Questo pulsante ti consente di accedere a opzioni di esecuzione aggiuntive per l’azione sui flussi di lavoro selezionati. È inoltre possibile utilizzare **[!UICONTROL File > Actions]** oppure fai clic con il pulsante destro del mouse su un flusso di lavoro e seleziona **[!UICONTROL Actions]**.
+La **[!UICONTROL Actions]** pulsante della barra degli strumenti ti consente di accedere a opzioni di esecuzione aggiuntive sui flussi di lavoro selezionati. È inoltre possibile utilizzare **[!UICONTROL File > Actions]** oppure fai clic con il pulsante destro del mouse su un flusso di lavoro e seleziona **[!UICONTROL Actions]**.
 
 ![](assets/purge_historique.png)
 
@@ -52,8 +53,6 @@ I pulsanti della barra degli strumenti sono descritti in questa sezione . La **[
 
    Questa azione si interrompe e quindi riavvia il flusso di lavoro. Nella maggior parte dei casi, è possibile riavviare più velocemente. È inoltre utile automatizzare il riavvio quando l&#39;arresto richiede un certo tempo: questo perché il comando &#39;Stop&#39; non è disponibile quando il flusso di lavoro viene arrestato.
 
-   I caratteri ** .
-
 * **[!UICONTROL Purge history]**
 
    Questa azione ti consente di eliminare la cronologia del flusso di lavoro. Per ulteriori informazioni, consulta [Eliminazione dei registri](monitor-workflow-execution.md#purging-the-logs).
@@ -77,8 +76,6 @@ I pulsanti della barra degli strumenti sono descritti in questa sezione . La **[
 * **[!UICONTROL Save as template]**
 
    Questa azione crea un nuovo modello di flusso di lavoro basato sul flusso di lavoro selezionato. È necessario specificare la cartella in cui verrà salvata (nel **[!UICONTROL Folder]** (campo).
-
-   I caratteri ** .
 
 ## Menu di scelta rapida {#right-click-menu}
 
@@ -108,4 +105,3 @@ Nel menu di scelta rapida sono disponibili le seguenti opzioni:
 >
 >È possibile selezionare un gruppo di attività e applicarvi uno di questi comandi.
 
-Il menu di scelta rapida è descritto anche in questo .
