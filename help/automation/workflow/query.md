@@ -3,9 +3,10 @@ product: campaign
 title: Query
 description: Ulteriori informazioni sull’attività del flusso di lavoro Query
 feature: Workflows, Targeting Activity, Query Editor
-source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
+exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1545'
 ht-degree: 0%
 
 ---
@@ -41,15 +42,13 @@ La **[!UICONTROL Edit query...]** link ti consente di definire il tipo di target
 
 1. Definisci le popolazioni utilizzando la procedura guidata. I campi da immettere possono variare a seconda del tipo di target. Puoi visualizzare in anteprima la popolazione target con i criteri correnti utilizzando **[!UICONTROL Preview]** scheda .
 
-   Per ulteriori informazioni sulla creazione e l’utilizzo di filtri o query, consulta questo articolo .
-
    ![](assets/query-sample.png)
 
 1. Se hai selezionato **[!UICONTROL Filtering conditions]** al punto 1 o utilizzando **[!UICONTROL Filters]** > **[!UICONTROL Advanced filter...]** in seguito dovrai aggiungere manualmente i criteri di filtro.
 
    Puoi anche aggiungere condizioni di raggruppamento dei dati selezionando la casella corrispondente. A questo scopo, la dimensione di filtro deve essere diversa dalla dimensione di targeting della query. Per ulteriori informazioni sui raggruppamenti, consulta questo [sezione](query-grouping-management.md).
 
-   È inoltre possibile aggiungere altri criteri utilizzando il generatore di espressioni e combinarli con le opzioni logiche AND, OR ed EXCEPT. Puoi quindi visualizzare in anteprima il ** .
+   È inoltre possibile aggiungere altri criteri utilizzando il generatore di espressioni e combinarli con le opzioni logiche AND, OR ed EXCEPT.
 
    Salva il filtro se desideri riutilizzarlo in un secondo momento.
 
@@ -181,8 +180,6 @@ La sezione seguente fornisce best practice per ottimizzare le query in esecuzion
 
 * Attenzione a funzioni come `Lower(...)`. Quando si utilizza la funzione Lower, l&#39;indice non viene utilizzato.
 * Controllare attentamente le query utilizzando l&#39;istruzione &quot;like&quot; o le istruzioni &quot;Upper&quot; o &quot;Lower&quot;. Applicare &quot;Upper&quot; all&#39;input dell&#39;utente, non al campo del database.
-
-   Per ulteriori informazioni sulle funzioni, consulta .
 
 ### Filtrare le dimensioni {#filtering-dimensions}
 
