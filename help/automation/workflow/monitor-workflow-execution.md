@@ -3,24 +3,21 @@ product: campaign
 title: Monitorare l’esecuzione di un flusso di lavoro
 description: Monitorare l’esecuzione di un flusso di lavoro
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: bc13d706-7888-42eb-9116-5538e68cd515
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '1947'
-ht-degree: 1%
+source-wordcount: '1936'
+ht-degree: 0%
 
 ---
 
 # Monitorare l’esecuzione di un flusso di lavoro {#monitoring-workflow-execution}
 
-
-
 Questa sezione presenta informazioni su come monitorare l’esecuzione dei flussi di lavoro.
 
 È disponibile anche in un caso d’uso su come creare un flusso di lavoro che consente di monitorare lo stato di un set di flussi di lavoro che sono &quot;in pausa&quot;, &quot;arrestati&quot; o &quot;con errori&quot; [questa sezione](workflow-supervision.md#supervising-workflows).
 
-Inoltre, gli amministratori dell’istanza possono utilizzare le **Audit trail** per controllare le attività e le ultime modifiche apportate ai flussi di lavoro, lo stato dei flussi di lavoro. Per ulteriori informazioni, fai riferimento a  .
-
-In sono disponibili ulteriori modi per monitorare i diversi processi di Campaign.
+Inoltre, gli amministratori dell’istanza possono utilizzare le **Audit trail** per controllare le attività e le ultime modifiche apportate ai flussi di lavoro, lo stato dei flussi di lavoro. Ulteriori informazioni su Audit trail in  [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/audit-trail.html?lang=en#accessing-audit-trail){target="_blank"}.
 
 ## Visualizzazione dello stato {#displaying-progress}
 
@@ -36,7 +33,7 @@ Quando questa opzione è selezionata, le attività eseguite sono visualizzate in
 
 ## Visualizzazione dei registri {#displaying-logs}
 
-Il registro contiene la cronologia o il percorso di audit del flusso di lavoro. Registra tutte le azioni utente, tutte le operazioni eseguite e gli errori rilevati. Puoi:
+Il registro contiene la cronologia o il percorso di audit del flusso di lavoro. Registra tutte le azioni utente, tutte le operazioni eseguite e gli errori rilevati. È possibile eseguire le seguenti operazioni:
 
 * Seleziona la **[!UICONTROL Tracking]** nel dettaglio. Questo elenco contiene tutti i messaggi del flusso di lavoro.
 
@@ -138,8 +135,6 @@ In questo caso, l&#39;attività di errore viene interrotta. Questa modalità è 
 >
 >Puoi applicare questa configurazione singolarmente per ogni attività. A questo scopo, modifica le proprietà dell’attività e seleziona la modalità di gestione degli errori in **[!UICONTROL Advanced]** scheda .
 
-Per ulteriori informazioni sulla risoluzione dei problemi di esecuzione dei flussi di lavoro, consulta .
-
 ## Errori di elaborazione {#processing-errors}
 
 Per quanto riguarda le attività **[!UICONTROL Process errors]** visualizza una transizione specifica che verrà abilitata se viene generato un errore. In questo caso, il flusso di lavoro non passa alla modalità di errore e l’esecuzione continua.
@@ -229,9 +224,9 @@ Un caso d’uso è presentato in questa sezione: [Coordinamento degli aggiorname
 
 ## Manutenzione del database {#database-maintenance}
 
-I flussi di lavoro utilizzano molte tabelle di lavoro che occupano spazio e finiscono per rallentare l&#39;intera piattaforma se non viene mantenuta. Per ulteriori informazioni sulla manutenzione del database, consulta questo .
+I flussi di lavoro utilizzano molte tabelle di lavoro che occupano spazio e finiscono per rallentare l&#39;intera piattaforma se non viene mantenuta.
 
-La **Pulizia del database** flusso di lavoro accessibile tramite **Amministrazione > Produzione > Flussi di lavoro tecnici** node, consente di eliminare i dati obsoleti per evitare la crescita esponenziale del database. Il flusso di lavoro viene attivato automaticamente senza l’intervento dell’utente. Fai riferimento a  .
+La **Pulizia del database** flusso di lavoro accessibile tramite **Amministrazione > Produzione > Flussi di lavoro tecnici** node, consente di eliminare i dati obsoleti per evitare la crescita esponenziale del database. Il flusso di lavoro viene attivato automaticamente senza l’intervento dell’utente.
 
 È inoltre possibile creare flussi di lavoro tecnici specifici per eliminare lo spazio inutile occupato dai dati. Fai riferimento a e a questo [sezione](#purging-the-logs).
 
@@ -266,7 +261,7 @@ Per eseguire questa operazione:
 
 1. Fare clic con il pulsante destro del mouse sulla cartella in cui si desidera aggiungere la visualizzazione.
 1. In **[!UICONTROL Add new folder]** / **[!UICONTROL Administration]**, seleziona la visualizzazione da aggiungere.
-1. Una volta aggiunta la cartella alla struttura ad albero, accertati di configurarla come visualizzazione in modo che visualizzi tutti i flussi di lavoro, indipendentemente dalla cartella di origine.Per ulteriori informazioni su come configurare le visualizzazioni, consulta .
+1. Una volta aggiunta la cartella alla struttura ad albero, accertati di configurarla come visualizzazione in modo che visualizzi tutti i flussi di lavoro, indipendentemente dalla cartella di origine. Per ulteriori informazioni su come configurare le visualizzazioni, consulta [questa pagina](../../v8/audiences/folders-and-views.md#turn-a-folder-to-a-view).
 
 Inoltre, puoi impostare cartelle di filtri che ti consentono di filtrare l’elenco dei flussi di lavoro in base al loro stato di esecuzione. Per eseguire questa operazione:
 
