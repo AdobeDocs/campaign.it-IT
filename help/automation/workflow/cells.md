@@ -3,9 +3,10 @@ product: campaign
 title: Celle
 description: Celle
 feature: Workflows, Targeting Activity
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: d85645a6-fc15-4c3a-9d67-d4230224e1f7
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '116'
 ht-degree: 2%
 
 ---
@@ -49,4 +50,4 @@ Per questa configurazione, sono state aggiunte le seguenti informazioni al modul
                 </container>
 ```
 
-La personalizzazione dei moduli di input in Adobe Campaign è riservata agli utenti esperti. Per ulteriori informazioni, consulta questo articolo .
+La personalizzazione dei moduli di input in Adobe Campaign è riservata agli utenti esperti.
