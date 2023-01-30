@@ -3,10 +3,11 @@ product: campaign
 title: Consegna ricorrente
 description: Ulteriori informazioni sull’attività del flusso di lavoro di consegna ricorrente
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 27308b0d-cbfc-4bc6-9061-d771ceac95fd
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 14%
+source-wordcount: '263'
+ht-degree: 15%
 
 ---
 
@@ -28,7 +29,7 @@ Per eseguire questa operazione:
 
 1. Configura il modello di consegna.
 
-Il processo di configurazione per questa attività è simile a quello di creazione di un modello di consegna in termini di opzioni disponibili. Per ulteriori informazioni, consulta questo articolo .
+Il processo di configurazione per questa attività è simile a quello di creazione di un modello di consegna in termini di opzioni disponibili.
 
 Per un esempio dell’utilizzo di questa attività, consulta [sezione](send-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
 
