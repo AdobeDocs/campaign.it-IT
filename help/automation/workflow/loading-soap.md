@@ -3,9 +3,10 @@ product: campaign
 title: Caricamento (SOAP)
 description: Caricamento (SOAP)
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 21c42a36-9a50-49b8-8a07-b041ba8b2026
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '229'
 ht-degree: 4%
 
 ---
@@ -39,8 +40,6 @@ Operazione:
    ![](assets/soap_load_001.png)
 
    Se desideri aggiornare l’esempio, seleziona **[!UICONTROL Re-analyze the example]**.
-
-   Puoi anche personalizzare il formato dei dati della colonna tramite il ** .
 
 1. È possibile utilizzare il numero di riga come identificatore e/o specificare che la chiamata SOAP restituisce diversi elementi.
 1. Immettere gli script di tabulazione seguenti in base alla loro funzione:
