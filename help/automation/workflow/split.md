@@ -3,7 +3,8 @@ product: campaign
 title: Divisione
 description: Ulteriori informazioni sull’attività del flusso di lavoro Split
 feature: Workflows, Targeting Activity
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: bf4935dd-87dc-4c5c-becf-8c4df61805fd
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
 source-wordcount: '1796'
 ht-degree: 0%
@@ -145,7 +146,6 @@ Il modello di distribuzione dei dati ti consente di limitare il numero di record
    * **[!UICONTROL Targeting dimension]**: inserisci la dimensione di targeting a cui verrà applicata la distribuzione dei dati, **[!UICONTROL Recipient]** per esempio. Questo schema deve essere sempre compatibile con i dati utilizzati nel flusso di lavoro di targeting.
    * **[!UICONTROL Distribution field]**: seleziona un campo tramite la dimensione di targeting. Ad esempio, se selezioni la **[!UICONTROL Email domain]** l’elenco dei destinatari verrà suddiviso per dominio.
    * **[!UICONTROL Distribution type]**: seleziona il modo in cui il valore di limitazione del target verrà suddiviso nel **[!UICONTROL Distribution]** scheda: **[!UICONTROL Percentage]** o **[!UICONTROL Set]**.
-   * ** .
    * **[!UICONTROL Approval storage]**: se utilizzi un [Approvazione locale](local-approval.md) nel flusso di lavoro di targeting, immetti lo schema in cui verranno memorizzati i risultati di approvazione. È necessario specificare uno schema di archiviazione per schema di targeting. Se utilizzi **[!UICONTROL Recipients]** schema di targeting, immettere il valore predefinito **[!UICONTROL Local approval of recipients]** schema di archiviazione.
 
       In caso di una semplice limitazione tramite raggruppamento di dati senza approvazione locale, non è necessario immettere il **[!UICONTROL Approvals storage]** campo .
