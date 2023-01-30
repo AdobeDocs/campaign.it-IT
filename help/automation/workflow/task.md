@@ -3,28 +3,20 @@ product: campaign
 title: Attività Task
 description: Ulteriori informazioni sull’attività del flusso di lavoro Attività
 feature: Workflows
-hide: true
-hidefromtoc: true
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '78'
 ht-degree: 2%
 
 ---
 
 # Attività Task{#task}
 
-
-
->[!AVAILABILITY]
->
->:warning: Questa funzionalità è disponibile solo in Campaign Classic v7.
-
 In un flusso di lavoro della campagna, la **[!UICONTROL Task]** L’attività ti consente di specificare due scenari: il primo se l’attività è completata e un secondo se l’attività non è completata (se è contrassegnata manualmente come incompleta o se scade).
 
 ![](assets/mrm_task_in_workflow.png)
 
-La modalità di configurazione e funzionamento di un’attività è descritta in .
+
 
 ![](assets/wkf_task_activity.png)
 
