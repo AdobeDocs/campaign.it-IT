@@ -3,23 +3,18 @@ product: campaign
 title: Trasferimento file
 description: Ulteriori informazioni sull’attività del flusso di lavoro di trasferimento dei file
 feature: Workflows, Data Management
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 794de398-f35d-4c2b-af29-d6fd38eb9394
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 1%
+source-wordcount: '557'
+ht-degree: 2%
 
 ---
 
 # Trasferimento file{#file-transfer}
 
-
-
 La **Trasferimento file** consente di ricevere o inviare file, verificare la presenza di file o elencare file su un server. Il protocollo utilizzato è Azure Blob Storage, Amazon Simple Storage Service (S3), FTP o SFTP.
 Con S3, Azure Blob Storage o la connessione SFTP, puoi anche importare i dati dei segmenti in Adobe Campaign con Adobe Real-time Customer Data Platform. Per ulteriori informazioni, consulta questo [documentazione](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html).
-
->[!NOTE]
->
->Le best practice e la risoluzione dei problemi sull’utilizzo del server SFTP sono descritte in dettaglio .
 
 ## Properties {#properties}
 
@@ -55,7 +50,7 @@ La configurazione dipende dall’azione selezionata.
 
    La **[!UICONTROL Keep history of files sent]** consente di tenere traccia dei file inviati. Questa cronologia è accessibile dalla directory.
 
-1. **Test per vedere se il file esiste**
+1. **Test per verificare se il file esiste**
 
    Per verificare l’esistenza di un file, seleziona la **[!UICONTROL Test to see if file exists]** in **[!UICONTROL Action]** campo . La configurazione del server remoto è la stessa del download del file. Per ulteriori informazioni, consulta [sezione](#properties).
 
