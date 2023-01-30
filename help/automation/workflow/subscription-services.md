@@ -3,10 +3,11 @@ product: campaign
 title: Attività Subscription services
 description: Ulteriori informazioni sull’attività del flusso di lavoro Subscription Services
 feature: Workflows, Targeting Activity, Subscription Services Activity
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 919630ed-b39f-40e5-b893-f3a203713b15
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 0%
+source-wordcount: '399'
+ht-degree: 1%
 
 ---
 
@@ -28,7 +29,7 @@ Per configurarlo, modifica l’attività e inserisci la relativa etichetta, quin
 1. Fai clic su **[!UICONTROL Subscription]** o **[!UICONTROL Unsubscription]** se si desidera abbonarsi o annullare l’iscrizione della popolazione specificata al servizio informazioni selezionato o al servizio stesso.
 1. Seleziona **[!UICONTROL Send a confirmation message]** per notificare ai destinatari che si sono abbonati o hanno annullato l’abbonamento a un servizio.
 
-   Il contenuto di questo messaggio viene specificato in un modello di consegna relativo al servizio informazioni. Per ulteriori informazioni, consulta questo articolo .
+   Il contenuto di questo messaggio viene specificato in un modello di consegna relativo al servizio informazioni.
 
 ## Esempio: Iscriviti a una newsletter un elenco di destinatari {#example--subscribe-a-list-of-recipients-to-a-newsletter}
 
