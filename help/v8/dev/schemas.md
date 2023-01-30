@@ -5,7 +5,7 @@ feature: Schema Extension
 role: Developer
 level: Intermediate, Experienced
 exl-id: 87af72fe-6c84-4d9a-afed-015900890cce
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
 source-wordcount: '1266'
 ht-degree: 5%
@@ -194,7 +194,7 @@ In questo esempio, invece di lasciare che **@autopk** o **@autouuid** creazione 
 
 ## Attributi (campi) {#attributes--fields-}
 
-Gli attributi ti consentono di definire i campi che compongono l’oggetto dati. È possibile utilizzare **[!UICONTROL Insert]** nella barra degli strumenti di modifica dello schema per rilasciare modelli di attributi vuoti nel codice XML in cui si trova il cursore. Ulteriori informazioni in [questa sezione](create-schema.md).
+Gli attributi ti consentono di definire i campi che compongono l’oggetto dati. È possibile utilizzare **[!UICONTROL Insert]** nella barra degli strumenti di modifica dello schema per rilasciare modelli di attributi vuoti nel codice XML in cui si trova il cursore. Per ulteriori informazioni, consulta [questa sezione](create-schema.md).
 
 ![](assets/schemaextension_2.png)
 
@@ -286,4 +286,4 @@ Per ulteriori informazioni al riguardo, consulta [questa sezione](update-databas
 
 >[!NOTE]
 >
->Quando le modifiche non influiscono sulla struttura del database, è sufficiente rigenerare gli schemi. A questo scopo, seleziona gli schemi da aggiornare, fai clic con il pulsante destro del mouse e scegli **[!UICONTROL Actions > Regenerate selected schemas...]** .
+>Quando le modifiche non influiscono sulla struttura del database, è sufficiente rigenerare gli schemi. A questo scopo, seleziona gli schemi da aggiornare, fai clic con il pulsante destro del mouse e scegli **[!UICONTROL Actions > Regenerate selected schemas...]**.
