@@ -5,10 +5,10 @@ feature: Overview
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-source-git-commit: 00d95425ca9438cd03b27bbec171aa7c57d25d6f
+source-git-commit: 90dde8bb3bde4893971a2f364aa636ade6fff10f
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 93%
+source-wordcount: '367'
+ht-degree: 89%
 
 ---
 
@@ -37,9 +37,9 @@ Per utilizzare la console client di Campaign sono necessari i seguenti sistemi o
 
 ### Browser Web{#web-browsers}
 
-* Microsoft Edge
+* **Microsoft Edge**
 
-* Runtime Microsoft Edge WebView2, versione più recente. Scarica da [Sito web per sviluppatori Microsoft](http://www.adobe.com/go/acc-ms-webview2-runtime-download_it){target="_blank"}.
+* **Microsoft Edge WebView2**, versione più recente. Scarica da [Sito web per sviluppatori Microsoft](http://www.adobe.com/go/acc-ms-webview2-runtime-download_it){target="_blank"}.
 
 ## Connettori CRM{#CRMconnectors}
 
@@ -61,8 +61,8 @@ I database esterni compatibili con il modulo Federated Data Access (FDA) di Adob
 
 Puoi utilizzare Campaign per inviare [notifiche push](../send/push.md) sui sistemi operativi elencati di seguito, utilizzando il relativo SDK mobile.
 
-* **Android** 12 (a partire da Campaign v8.3), 9.0, 8.x, 7.x, con Campaign Android SDK build 1.1.1.
-* **Apple iOS** 9-16 con SDK Campaign iOS versione 1.0.26, compatibile con le versioni a 32 e a 64 bit. iOS 16 è supportato a partire da Campaign v8.4.
+* **Android** 12, 9.0, 8.x, 7.x, con la build 1.1.1 dell’SDK per Campaign Android.
+* **Apple iOS** 9-16 con SDK Campaign iOS versione 1.0.26, compatibile con le versioni a 32 e a 64 bit. Apple iOS 16 è supportato a partire da Campaign v8.4.
 
 
 ## Accesso web{#web-access}
