@@ -5,10 +5,10 @@ feature: Overview
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-source-git-commit: 9ae93ce4e2b0424bb3b3862b2c7d016309bd630e
-workflow-type: ht
-source-wordcount: '374'
-ht-degree: 100%
+source-git-commit: 00d95425ca9438cd03b27bbec171aa7c57d25d6f
+workflow-type: tm+mt
+source-wordcount: '370'
+ht-degree: 93%
 
 ---
 
@@ -26,37 +26,20 @@ Quando versioni specifiche di questi sistemi e strumenti di terze parti raggiung
 
 Per utilizzare la console client di Campaign sono necessari i seguenti sistemi operativi e browser. [Ulteriori informazioni](connect.md).
 
-### Sistemi operativi
+### Sistemi operativi{#op-systems}
 
 * **Microsoft Windows Server** 2019, 2016, 2012
-* **Microsoft Windows** 11 (a partire da Campaign v8.3), 10, 8
+* **Microsoft Windows** 11, 10, 8
 
 >[!NOTE]
 >
 >Microsoft Windows 10 è consigliato per le istanze giapponesi.
 
-### Browser
+### Browser Web{#web-browsers}
 
-**Microsoft Edge**
+* Microsoft Edge
 
-### Microsoft WebView2 Runtime
-
-<table>
-<tbody>
-<tr>
-<td>
-<p>Microsoft Edge WebView2 Runtime
-</p>
-</td>
-<td>
-<p>Versione più recente</p>
-</td>
-<td>
-<p><a href="http://www.adobe.com/go/acc-ms-webview2-runtime-download_it">Scarica dal sito web Microsoft Developer</a></p>
-</td>
-</tr>
-</tbody>
-</table>
+* Runtime Microsoft Edge WebView2, versione più recente. Scarica da [Sito web per sviluppatori Microsoft](http://www.adobe.com/go/acc-ms-webview2-runtime-download_it){target="_blank"}.
 
 ## Connettori CRM{#CRMconnectors}
 
@@ -82,7 +65,7 @@ Puoi utilizzare Campaign per inviare [notifiche push](../send/push.md) sui siste
 * **Apple iOS** 9-16 con SDK Campaign iOS versione 1.0.26, compatibile con le versioni a 32 e a 64 bit. iOS 16 è supportato a partire da Campaign v8.4.
 
 
-## Accesso web
+## Accesso web{#web-access}
 
 I seguenti browser sono compatibili con Campaign per l’[accesso web](connect.md#web-access).
 
