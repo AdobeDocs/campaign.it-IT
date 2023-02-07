@@ -5,7 +5,7 @@ title: Home page automazione Adobe Campaign
 feature: Overview
 description: Panoramica
 exl-id: 9ed73e65-3626-46c6-bfeb-a9fe9c2d7f72
-source-git-commit: d6ea8bef9c62d4afbc919110775ee99052eeed7a
+source-git-commit: d8a009b1d6ea4f6921cef203d61c78032951f3ee
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 38%
@@ -22,13 +22,13 @@ Adobe Campaign semplifica la sincronizzazione dei canali con un’unica interfac
 Visita le guide riportate di seguito e scopri come creare automazione con Adobe Campaign.
 
 >[!NOTE]
+>
 >Alcune schermate possono essere diverse dall&#39;ambiente in uso.
 
-
 <table>
-<tr>
+<tr style="border: 0;">
   <td valign="top">
-    <div>
+    <div><img src="assets/do-not-localize/workflow.jpeg">
     <b>Flussi di lavoro</b>
     </div>
     <br>
@@ -46,7 +46,7 @@ Visita le guide riportate di seguito e scopri come creare automazione con Adobe 
     <br>
   </td>
   <td valign="top">
-    <div>
+    <div><img src="assets/do-not-localize/campaign.jpeg">
     <b>Automazione delle campagne</b>
     </div>
     <br>
@@ -64,7 +64,7 @@ Visita le guide riportate di seguito e scopri come creare automazione con Adobe 
     <br>
   </td>
   <td valign="top">
-    <div>
+    <div><img src="assets/do-not-localize/add-on.jpeg">
     <b>Componenti aggiuntivi</b>
     </div>
     <br>
