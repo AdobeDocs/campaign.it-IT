@@ -3,10 +3,11 @@ product: campaign
 title: Approvazione locale
 description: Approvazione locale
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 172b6827-ddfc-4c6e-87c9-eb49e73ab3ab
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '642'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -32,7 +33,7 @@ Inizia immettendo un’etichetta per l’attività e il **[!UICONTROL Action to 
 
    ![](assets/local_validation_intro_3.png)
 
-## Notifica di approvazione di Target {#target-approval-notification}
+## Notifica di approvazione di destinazione {#target-approval-notification}
 
 In questo caso, il **[!UICONTROL Local approval]** l’attività viene inserita tra il targeting a monte e la consegna:
 
@@ -63,7 +64,7 @@ I campi da inserire nel caso di una notifica per l’approvazione del target son
    >
    >Questa opzione è disabilitata per impostazione predefinita.
 
-## Report di feedback sulla consegna {#delivery-feedback-report}
+## Rapporto del feedback sulla consegna {#delivery-feedback-report}
 
 In questo caso, il **[!UICONTROL Local approval]** l’attività viene inserita dopo la consegna:
 

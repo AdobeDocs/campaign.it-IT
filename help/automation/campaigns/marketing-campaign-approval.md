@@ -3,7 +3,8 @@ product: campaign
 title: Impostare e gestire il processo di approvazione
 description: Scopri come gestire le approvazioni delle campagne di marketing
 feature: Approvals, Campaigns
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+exl-id: 03be5058-436e-4de9-99a7-91d799aa17f6
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
 workflow-type: tm+mt
 source-wordcount: '2272'
 ht-degree: 2%
@@ -166,7 +167,7 @@ Per ogni consegna nella campagna, puoi approvare i seguenti processi:
 
 1. Viene inviata un’e-mail di notifica alla persona responsabile della campagna per informarla dell’approvazione o meno del contenuto. Il responsabile della campagna può riavviare il ciclo di approvazione dei contenuti in qualsiasi momento. A questo scopo, fai clic sul collegamento nel **[!UICONTROL Content status]** linea del dashboard della campagna (a livello di consegna), quindi fai clic su **[!UICONTROL Reset content approval to submit it again]**.
 
-#### Assegnare la modifica del contenuto {#assign-content-editing}
+#### Assegna modifica dei contenuti {#assign-content-editing}
 
 Questa opzione ti consente di definire un utente responsabile della modifica dei contenuti, ad esempio un webmaster. Se la **[!UICONTROL Assign content editing]** nella finestra delle impostazioni di approvazione viene selezionata l’opzione , vengono aggiunti diversi passaggi di approvazione tra la creazione della consegna e la consegna dell’e-mail di notifica alla persona responsabile del contenuto:
 
@@ -189,7 +190,7 @@ Questa opzione ti consente di definire un utente responsabile della modifica dei
 L’operatore può aggiungere un commento prima di inviare il contenuto alla persona responsabile della campagna.
 Il messaggio di notifica consente al revisore di approvare o rifiutare il contenuto.
 
-#### Approvazione dei contenuti esterni {#external-content-approval}
+#### Approvazione contenuti esterna {#external-content-approval}
 
 Questa opzione ti consente di definire un operatore esterno incaricato di approvare il rendering della consegna, ad esempio la coerenza della comunicazione del brand, i tassi, ecc. Quando il **[!UICONTROL External content approval]** nella finestra delle impostazioni di approvazione viene selezionata l’opzione , vengono aggiunti diversi passaggi di approvazione tra l’approvazione del contenuto e la consegna della notifica alla persona responsabile della campagna:
 

@@ -314,7 +314,7 @@ Il caso d’uso riportato di seguito descrive le configurazioni da eseguire in A
 
 I servizi Web SOAP forniti per la gestione delle offerte sono diversi da quelli generalmente utilizzati in Adobe Campaign. È possibile accedervi tramite l’URL di interazione descritto nella sezione precedente e consentire di presentare o aggiornare le offerte per un determinato contatto.
 
-### Proposta di offerta {#offer-proposition}
+### Proposta di offerte {#offer-proposition}
 
 Per una proposta di offerta tramite SOAP, aggiungi la **nms:proposition#Propose** seguito dai seguenti parametri:
 

@@ -3,7 +3,8 @@ product: campaign
 title: Guida introduttiva alle simulazioni delle campagne
 description: Scopri come configurare le simulazioni delle campagne
 feature: Campaigns
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+exl-id: 2b2b668f-87d9-4265-adbc-9098b85c5aab
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 0%

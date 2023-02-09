@@ -3,7 +3,8 @@ product: campaign
 title: Pubblico di destinazione della campagna di marketing
 description: Scopri come definire il pubblico delle campagne di marketing
 feature: Campaigns, Audiences
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+exl-id: 70a63632-f66d-40f2-806d-bde89303936a
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
 workflow-type: tm+mt
 source-wordcount: '1458'
 ht-degree: 2%
@@ -156,7 +157,7 @@ Le icone della barra degli strumenti consentono di intervenire sull’esecuzione
    >
    >Questa opzione è utile durante la progettazione avanzata della campagna di targeting e le fasi di test.
 
-* Interruzione incondizionata
+* Arresto incondizionato
 
    In Esplora risorse, seleziona **[!UICONTROL Administration > Production > Object created automatically > Campaign workflows]** per accedere e intervenire su ogni flusso di lavoro della campagna.
 

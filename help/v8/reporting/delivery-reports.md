@@ -2,15 +2,15 @@
 title: Report di consegna incorporati di Adobe Campaign
 description: Report di consegna incorporati di Adobe Campaign
 feature: Reporting
-source-git-commit: 60db4c2e8cd280845ddd0176bd10dc1b7edbb767
+exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 2%
+source-wordcount: '1031'
+ht-degree: 9%
 
 ---
 
-
-# Rapporti di consegna {#delivery-reports}
+# Rapporti sulle consegne {#delivery-reports}
 
 Puoi tracciare l’esecuzione delle consegne tramite vari rapporti accessibili dalla panoramica della consegna.
 
@@ -40,7 +40,7 @@ Per accedere ai rapporti, effettua le seguenti operazioni:
 
 ## Indicatori di tracciamento {#tracking-indicators}
 
-Questo rapporto combina gli indicatori chiave per tenere traccia del comportamento dei destinatari alla ricezione della consegna. Consente l&#39;accesso alle statistiche di consegna e ricezione, ai tassi di apertura e click-through, ai flussi di clic generati, al web tracking e alla condivisione delle attività sui social network.
+Questo rapporto combina gli indicatori chiave per tenere traccia del comportamento dei destinatari alla ricezione della consegna. Consente di accedere alle statistiche di consegna e ricezione, ai tassi di apertura e click-through, ai flussi clic generati, al tracciamento web e alle attività di condivisione sui social network.
 
 >[!NOTE]
 >
@@ -83,7 +83,7 @@ Questa tabella di valori mostra il raggruppamento di consegne, aperture, clic e 
 >
 >I nomi di dominio visualizzati in questo report sono definiti nell&#39;elenco dettagliato utilizzato a livello di cubo. Per modificare, aggiungere o rimuovere domini predefiniti, modifica il **[!UICONTROL Domains]** elenco dettagliato e modifica valori e alias. La **[!UICONTROL Others]** La categoria include i nomi di dominio che non appartengono ad alcun valore dell’elenco dettagliato.
 >
->Scopri come accedere e configurare le enumerazioni in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target=&quot;_blank&quot;}.
+>Scopri come accedere e configurare le enumerazioni in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target="_blank"}.
 
 
 **[!UICONTROL 4. Generated click streams]**
@@ -174,7 +174,7 @@ Questa sezione include i seguenti indicatori:
 
 ## Hot click {#hot-clicks}
 
-Questo rapporto mostra il contenuto del messaggio (HTML e/o testo) con, su ogni collegamento, la percentuale di clic sui collegamenti. I blocchi di personalizzazione per l’annullamento dell’abbonamento, i collegamenti alle pagine mirror e i collegamenti alle offerte vengono presi in considerazione nei clic totali cumulati, ma non vengono visualizzati nel rapporto.
+Questo rapporto mostra il contenuto del messaggio (HTML e/o testo) e la percentuale di clic per ogni collegamento. I collegamenti presenti nei blocchi di personalizzazione per l’annullamento dell’iscrizione, per le pagine mirror e per le offerte vengono presi in considerazione nei clic totali cumulati, ma non vengono visualizzati nel rapporto.
 
 >[!NOTE]
 >
@@ -203,5 +203,3 @@ Puoi visualizzare rapporti cumulati sulle consegne. A questo scopo, seleziona le
 Per selezionare dall’elenco consegne non adiacenti, tenere premuto il tasto CTRL durante la selezione.
 
 Per selezionare le consegne salvate in una cartella diversa, fai clic sul pulsante **[!UICONTROL Display sub-levels]** accessibile nella barra degli strumenti. Vengono quindi visualizzati nello stesso elenco.
-
-

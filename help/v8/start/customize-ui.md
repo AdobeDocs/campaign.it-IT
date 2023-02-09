@@ -7,7 +7,7 @@ level: Beginner, Intermediate, Experienced
 exl-id: a11d3895-00f1-43d0-b0f7-330fce9fd56b
 source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## Personalizzare gli elenchi{#customize-lists}
 
-Scopri come aggiungere colonne, contare record, configurare gli elenchi e condividere le impostazioni degli elenchi in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=en){target=&quot;_blank&quot;}.
+Scopri come aggiungere colonne, contare record, configurare gli elenchi e condividere le impostazioni degli elenchi in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=en){target="_blank"}.
 
 Scopri come creare filtri in [questa pagina](../audiences/create-filters.md).
 
@@ -37,7 +37,7 @@ Per ogni enumerazione, i valori vengono visualizzati in un elenco a discesa dal 
 
 Per **Apri** enumerazioni, l’utente può anche immettere i primi caratteri nel valore e vengono visualizzati i possibili valori.
 
-Scopri come accedere e configurare le enumerazioni in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target=&quot;_blank&quot;}.
+Scopri come accedere e configurare le enumerazioni in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target="_blank"}.
 
 
 ## Unità predefinite {#default-units}

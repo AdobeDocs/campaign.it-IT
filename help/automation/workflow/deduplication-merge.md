@@ -2,10 +2,11 @@
 title: Utilizzare la funzionalità di unione dell’attività Deduplication
 description: Scopri come utilizzare la funzionalità di unione dell’attività Deduplication
 feature: Workflows, Data Management
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: ee201cfd-a351-41d8-a5ad-2f2e538dc643
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -23,9 +24,9 @@ La **[!UICONTROL Deduplication]** viene utilizzata per rimuovere righe duplicate
 
 | Data ultima modifica | Nome | Cognome | E-mail | Telefono cellulare | Telefono |
 |-----|------------|-----------|-------|--------------|------|
-| 19/05/2020 | Robert | Tisner | bob@mycompany.com | 444-444-444 | 777-777-7777 |
-| 22/07/2020 | Bobby | Tisner | bob@mycompany.com |  | 777-777-7777 |
-| 03/10/2020 | Bob |  | bob@mycompany.com |  | 888-888-8888 |
+| 5/19/2020 | Robert | Tisner | bob@mycompany.com | 444-444-444 | 777-777-7777 |
+| 7/22/2020 | Bobby | Tisner | bob@mycompany.com |  | 777-777-7777 |
+| 10/03/2020 | Bob |  | bob@mycompany.com |  | 888-888-8888 |
 
 Con le attività di deduplicazione **[!UICONTROL Merge]** funzionalità, puoi configurare un set di regole per la deduplicazione per definire un gruppo di campi da unire in un singolo record di dati risultante. Ad esempio, con un set di record duplicati, puoi scegliere di mantenere il numero di telefono più vecchio o il nome più recente.
 
@@ -91,9 +92,9 @@ Dopo aver configurato queste regole, i seguenti dati vengono ricevuti alla fine 
 
 | Data di modifica | Nome | Cognome | E-mail | Telefono cellulare | Telefono |
 |-----|------------|-----------|-------|--------------|------|
-| 19/05/2020 | Robert | Tisner | bob@mycompany.com | 444-444-444 | 777-777-7777 |
-| 22/07/2020 | Bobby | Tisner | bob@mycompany.com |  | 777-777-7777 |
-| 03/10/2020 | Bob |  | bob@mycompany.com |  | 888-888-8888 |
+| 5/19/2020 | Robert | Tisner | bob@mycompany.com | 444-444-444 | 777-777-7777 |
+| 7/22/2020 | Bobby | Tisner | bob@mycompany.com |  | 777-777-7777 |
+| 10/03/2020 | Bob |  | bob@mycompany.com |  | 888-888-8888 |
 
 Il risultato viene unito dai tre record in base alle regole configurate in precedenza. Dopo il confronto, si conclude che sono utilizzati il nome e il telefono cellulare più recenti, insieme al numero di telefono originale.
 

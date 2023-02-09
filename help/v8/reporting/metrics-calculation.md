@@ -2,10 +2,11 @@
 title: Calcolo delle metriche dei rapporti incorporate
 description: Calcolo delle metriche dei rapporti incorporate
 feature: Reporting
-source-git-commit: 80e5efc5998c67ce576e9f8208fab9543fc70d29
+exl-id: ad8e9f9c-df24-4a11-b8df-4b31dd54911f
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '2978'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -539,7 +540,7 @@ Questo rapporto si basa sul **[!UICONTROL Delivery and tracking statistics]** (n
    <td> count(Iif([url/@type]=6, @id, 0))<br /> </td> 
   </tr> 
   <tr> 
-   <td> Stima dei progressi<br /> </td> 
+   <td> Stima degli inoltri<br /> </td> 
    <td> @forward<br /> </td> 
    <td> Differenza tra il numero di persone distinte e il numero di destinatari distinti che hanno fatto clic almeno una volta nell’e-mail.<br /> </td> 
    <td> @personClick - @recipientClick<br /> </td> 
@@ -789,7 +790,7 @@ Questo rapporto si basa sul **[!UICONTROL Delivery]** tabella (nms:delivery).
 
 Questo rapporto si basa sulla consegna (nms:delivery) e **[!UICONTROL Consolidated tracking]** (nms:trackingStats) tabelle.
 
-Questo rapporto mostra il contenuto del messaggio (HTML e/o testo) con, su ogni collegamento, la percentuale di clic sui collegamenti. I blocchi di personalizzazione per i collegamenti di annullamento dell’abbonamento e i collegamenti alle pagine mirror vengono presi in considerazione nei clic cumulati totali, ma non vengono visualizzati nel rapporto.
+Questo rapporto mostra il contenuto del messaggio (HTML e/o testo) e la percentuale di clic per ogni collegamento. I blocchi di personalizzazione per i collegamenti di annullamento dell’abbonamento e i collegamenti alle pagine mirror vengono presi in considerazione nei clic cumulati totali, ma non vengono visualizzati nel rapporto.
 
 ## Tracking delle statistiche {#tracking-statistics-1}
 
@@ -885,7 +886,7 @@ Questo rapporto si basa sul **[!UICONTROL Delivery and tracking statistics]** ta
  </tbody> 
 </table>
 
-## Suddivisione delle aperture {#breakdown-of-opens-1}
+## Breakdown delle aperture {#breakdown-of-opens-1}
 
 Questo rapporto si basa su **Consegne** (nms:delivery) e **Registri di tracciamento** (nms:trackingLogRcp) tabelle.
 

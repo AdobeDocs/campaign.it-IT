@@ -7,20 +7,20 @@ exl-id: d234db0e-936a-48db-b697-11c6b40bc3ab
 source-git-commit: 6a1e2e0a872ce5886e7374d266c71975941e87b8
 workflow-type: tm+mt
 source-wordcount: '3027'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
 # Regole di pressione{#pressure-rules}
 
-L’implementazione della gestione della pressione di vendita ti consente di evitare di sollecitare eccessivamente la popolazione nel database, nota anche come affaticamento del marketing. A questo scopo, puoi definire un numero massimo di messaggi per destinatario. Ti consente inoltre di implementare regole di arbitrato tra le campagne, al fine di inviare il messaggio migliore al pubblico di destinazione.
+L’implementazione della gestione della pressione di vendita ti consente di evitare di sollecitare eccessivamente la popolazione nel database, nota anche come affaticamento del marketing. A questo scopo, puoi definire un numero massimo di messaggi per destinatario. Ti consente inoltre di implementare regole di arbitrato tra le campagne al fine di inviare il messaggio migliore al pubblico di destinazione.
 
 **Pressione** regole, per gestire l’affaticamento del marketing, ad esempio, per limitare il numero di lettere da inviare a una popolazione a due, per selezionare la comunicazione che meglio corrisponde agli interessi di un gruppo di abbonati, per evitare di inviare un SMS a un cliente insoddisfatto, ecc.
 
 Le campagne vengono selezionate in base a soglie definite e al peso del messaggio.
 
 * Una soglia è il numero massimo di consegne autorizzate per un dato destinatario in un dato periodo di tempo. Può essere impostato o variabile. Viene impostato o calcolato nelle impostazioni della regola di tipologia. [Ulteriori informazioni](#maximum-number-of-messages).
-* I pesi di distribuzione consentono di identificare le consegne prioritarie nel quadro della gestione della pressione. I messaggi con il peso maggiore hanno priorità. [Ulteriori informazioni](#message-weight).
+* Il “peso” delle consegne consente di individuare le consegne prioritarie nel quadro della gestione della pressione. I messaggi con il peso maggiore hanno priorità. [Ulteriori informazioni](#message-weight).
 
 L’arbitrato consiste nell’assicurarsi che le campagne pianificate il cui peso è maggiore della campagna in corso non portino a un’eccessiva sollecitazione del profilo: in questo caso, il profilo viene escluso dalla consegna.
 

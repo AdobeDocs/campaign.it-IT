@@ -3,7 +3,8 @@ product: campaign
 title: Informazioni sulle attività di targeting
 description: Informazioni sulle attività di targeting
 feature: Workflows, Audiences, Targeting Activity
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+exl-id: e89c9f20-fc10-421f-9c14-2e33be562a8d
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 1%
@@ -34,4 +35,3 @@ Queste attività ti consentono di creare uno o più target definendo i set e sud
 * **[Servizi sottoscrizione](subscription-services.md)**: consente di gestire gli abbonamenti e gli annullamenti degli abbonamenti a un servizio di informazioni.
 * **[Union](union.md)**: consente di raggruppare il risultato di più attività in un unico target.
 * **[Update data](update-data.md)**: consente di aggiornare in modo massiccio i dati nel database.
-

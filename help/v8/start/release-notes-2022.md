@@ -230,7 +230,7 @@ Consulta la [Matrice di compatibilità di Campaign](compatibility-matrix.md).
 <!--* To ensure better performances, a new "Split" option is now activated by default in the Routing external account. This option allows messages to be automatically split across your mid-sourcing instances in order to be delivered faster to the recipients.-->
 * È ora possibile configurare più account attivi LINE su un singolo mid-sourcing.
 * Il numero di connessioni predefinite per il processo web è stato aumentato da 50 a 150.
-* Campaign viene fornito con un set di nuove protezioni per impedire l’inserimento di chiavi duplicate nel database di Snowflake. [Maggiori informazioni](../architecture/keys.md)
+* Campaign viene fornito con un set di nuovi guardrail per impedire l’inserimento di chiavi duplicate nel database di Snowflake. [Maggiori informazioni](../architecture/keys.md)
 
 **Patch**
 

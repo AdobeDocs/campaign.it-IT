@@ -6,7 +6,7 @@ feature: Workflows
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
 source-wordcount: '316'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -35,7 +35,7 @@ I flussi di lavoro descritti di seguito sono installati con **Consegne** modulo 
    <td> Questo flusso di lavoro invia il rapporto sull’attività del sistema all’operatore di "fatturazione" tramite e-mail. Viene attivato il 25 di ogni mese per impostazione predefinita.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Pulizia degli alias</span> <br /> </td> 
+   <td> <span class="uicontrol">Pulizia alias</span> <br /> </td> 
    <td> <span class="uicontrol">aliasCleansing</span> <br /> </td> 
    <td> Questo flusso di lavoro standardizza i valori di enumerazione. Viene attivato ogni giorno alle 3 per impostazione predefinita.<br /> </td> 
   </tr> 

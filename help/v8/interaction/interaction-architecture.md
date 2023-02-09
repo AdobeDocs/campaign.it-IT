@@ -7,7 +7,7 @@ level: Beginner
 exl-id: 7a710960-7e41-4462-bd5e-18e874aa46f8
 source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1312'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ La **Interazione** Il pacchetto è installato su tutte le istanze (controllo ed 
 
 >[!NOTE]
 >
->Quando installi il pacchetto, il **long** digitare i campi **nms:proposizione** tabella come l’ID della proposta, diventa **int64** digitare i campi. Questo tipo di dati è descritto in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html?lang=en#mapping-the-types-of-adobe-campaign-dbms-data){target=&quot;_blank&quot;}.
+>Quando installi il pacchetto, il **long** digitare i campi **nms:proposizione** tabella come l’ID della proposta, diventa **int64** digitare i campi. Questo tipo di dati è descritto in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html?lang=en#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}.
 
 La durata di conservazione dei dati è configurata su ogni istanza (tramite il **[!UICONTROL Data purge]** nella procedura guidata di distribuzione). Nelle istanze di esecuzione, tale periodo deve corrispondere alla profondità storica necessaria per il calcolo delle regole di tipologia (periodo scorrevole) e delle regole di idoneità.
 

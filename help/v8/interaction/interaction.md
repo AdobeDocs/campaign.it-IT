@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 4da3e69a-6230-4c94-a6f1-4e8c01e854ba
 source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1608'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ L’interazione ti consente di creare e gestire un catalogo di offerte e di conf
 
 Innanzitutto, si verifica un contatto tra un cliente e un&#39;azienda attraverso un canale di comunicazione: può essere un sito web (interazione in uscita), un’e-mail, un SMS, una notifica push (interazioni in entrata). [Ulteriori informazioni](#interaction-types)
 
-Questo contatto si traduce in una chiamata al motore di offerta. 1)
+Questo contatto si traduce in una chiamata al motore di offerta. (1)
 
 Quando si verifica la chiamata al motore di offerta, una o più offerte vengono selezionate dal catalogo Offerte a seconda del numero di impostazioni di offerte sulla proposta. (2)
 

@@ -3,7 +3,8 @@ product: campaign
 title: Consegna continua
 description: Consegna continua
 feature: Workflows, Channels Activity
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: e3ad6d92-8d53-4098-90fd-cfed29f2e56e
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 10%

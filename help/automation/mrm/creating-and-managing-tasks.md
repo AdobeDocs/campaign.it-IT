@@ -192,7 +192,7 @@ Per impostazione predefinita, il budget addebitato è il budget della campagna a
 
 In questa finestra è inoltre possibile definire gli obiettivi da raggiungere. Gli obiettivi sono espressi in termini di entrate previste per il compito.
 
-### Provider di servizi {#service-providers}
+### Fornitori di servizi {#service-providers}
 
 Un fornitore di servizi esterno può essere coinvolto nella gestione di un&#39;attività.
 

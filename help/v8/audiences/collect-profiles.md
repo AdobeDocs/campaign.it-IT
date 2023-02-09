@@ -7,8 +7,8 @@ level: Beginner
 exl-id: a228c0dc-80f5-4c51-b73b-ced0aa27a65a
 source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 44%
+source-wordcount: '88'
+ht-degree: 43%
 
 ---
 
@@ -18,4 +18,4 @@ Utilizza Campaign per creare moduli web e raccogliere e gestire i dati del profi
 
 ![](assets/web-form-page.png)
 
-![](../assets/do-not-localize/book.png) Scopri come creare moduli web, nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=it){target=&quot;_blank&quot;}.
+![](../assets/do-not-localize/book.png) Scopri come creare moduli web, nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=it){target="_blank"}.

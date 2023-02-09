@@ -3,7 +3,8 @@ product: campaign
 title: Consegne di campagne di marketing
 description: Ulteriori informazioni sulle consegne delle campagne di marketing
 feature: Campaigns, Resource Management, Cross Channel Orchestration
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+exl-id: 1d9638cb-0fc9-4d04-a9c5-bcab8f4ebe95
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 1%
@@ -34,7 +35,7 @@ Una volta salvata, la consegna viene aggiunta al dashboard della campagna.
 
 Scopri come impostare ed eseguire il flusso di approvazione della consegna [in questa pagina](marketing-campaign-approval.md).
 
-## Avviare una consegna {#start-a-delivery}
+## Inizia una consegna {#start-a-delivery}
 
 Una consegna può essere inviata una volta che tutte le approvazioni sono state rilasciate. Il processo di esecuzione della consegna dipende dal canale.
 

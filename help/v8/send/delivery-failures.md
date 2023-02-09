@@ -7,8 +7,8 @@ level: Beginner, Intermediate
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
 source-git-commit: 46be0379610a6a4a3491d49ce096c64270ed8016
 workflow-type: tm+mt
-source-wordcount: '3009'
-ht-degree: 10%
+source-wordcount: '3005'
+ht-degree: 11%
 
 ---
 
@@ -66,7 +66,7 @@ Il modo in cui la qualifica della posta non recapitata viene gestita in Adobe Ca
 
 * **Errori sincroni**: L’MTA determina il tipo di messaggio non recapitato e la relativa qualifica e invia nuovamente tali informazioni a Campaign. Le qualifiche non recapitate nel **[!UICONTROL Delivery log qualification]** tabella non utilizzata per **sincrono** messaggi di errore di consegna.
 
-* **Errori asincroni**: Le regole utilizzate da Campaign per qualificare gli errori di consegna asincroni sono elencate in **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** nodo. I messaggi non recapitati asincroni sono qualificati dal processo inMail attraverso **[!UICONTROL Inbound email]** regole. Per ulteriori informazioni, consulta [Documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target=&quot;_blank&quot;}.
+* **Errori asincroni**: Le regole utilizzate da Campaign per qualificare gli errori di consegna asincroni sono elencate in **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** nodo. I messaggi non recapitati asincroni sono qualificati dal processo inMail attraverso **[!UICONTROL Inbound email]** regole. Per ulteriori informazioni, consulta [Documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target="_blank"}.
 
 <!--NO LONGER WITH MOMENTUM - The message returned by the remote server on the first occurrence of this error type is displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Audit]** tab.
 
@@ -111,7 +111,7 @@ Ad esempio, se il periodo di validità è impostato sul valore predefinito di 5 
 
 Una volta che un messaggio è rimasto nella coda dell’MTA per 3,5 giorni e la consegna non è riuscita, si verificherà un timeout e il suo stato verrà aggiornato da **[!UICONTROL Sent]** a **[!UICONTROL Failed]** nei registri di consegna.
 
-Per ulteriori informazioni sul periodo di validità, consulta la sezione [Documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target=&quot;_blank&quot;}.
+Per ulteriori informazioni sul periodo di validità, consulta la sezione [Documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}.
 
 
 ## Tipi di errore e-mail {#email-error-types}
@@ -145,13 +145,13 @@ Per il canale e-mail, i possibili motivi di un errore di consegna sono elencati 
    <td> Il destinatario non riceve alcun indirizzo.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Indirizzo di cattiva qualità </td> 
+   <td> Indirizzo di bassa qualità </td> 
    <td> Ignorato </td> 
    <td> 14 </td> 
    <td> Il punteggio di qualità per questo indirizzo è troppo basso.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Indirizzo Inserita nell'elenco Bloccati </td> 
+   <td> Indirizzo inserito nell’elenco Bloccati </td> 
    <td> Duro </td> 
    <td> 8 </td> 
    <td> L’indirizzo è stato aggiunto al elenco Bloccati al momento dell’invio. Questo stato viene utilizzato per importare dati da elenchi esterni e sistemi esterni nell’elenco quarantena di Adobe Campaign.<br /> </td> 
@@ -211,7 +211,7 @@ Per il canale e-mail, i possibili motivi di un errore di consegna sono elencati 
    <td> L’indirizzo è in qualificazione perché l’errore non è ancora stato incrementato. Questo tipo di errore si verifica quando un nuovo messaggio di errore viene inviato dal server: può essere un errore isolato, ma se si verifica di nuovo, il contatore degli errori aumenta, avvisando i team tecnici. Possono quindi eseguire un'analisi dei messaggi e qualificare questo errore tramite il <span class="uicontrol">Amministrazione</span> / <span class="uicontrol">Campaign Management</span> / <span class="uicontrol">Gestione non consegnabili</span> nella struttura ad albero.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Non ammissibile alle offerte </td> 
+   <td> Non idoneo per le offerte </td> 
    <td> Ignorato </td> 
    <td> 16 </td> 
    <td> Il destinatario non era idoneo per le offerte nella consegna.<br /> </td> 
@@ -223,7 +223,7 @@ Per il canale e-mail, i possibili motivi di un errore di consegna sono elencati 
    <td> L’indirizzo è stato messo in quarantena a causa di un feedback di sicurezza come un rapporto spam. In base all’errore, l’indirizzo verrà ritentato finché il contatore degli errori non raggiunge 5, o verrà inviato direttamente alle quarantene.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Target con dimensioni limitate </td> 
+   <td> Target di dimensioni limitate </td> 
    <td> Ignorato </td> 
    <td> 17 </td> 
    <td> La dimensione massima di consegna è stata raggiunta per il destinatario.<br /> </td> 
@@ -232,7 +232,7 @@ Per il canale e-mail, i possibili motivi di un errore di consegna sono elencati 
    <td> Indirizzo non qualificato </td> 
    <td> Ignorato </td> 
    <td> 15 </td> 
-   <td> L'indirizzo postale non è stato qualificato.<br /> </td> 
+   <td> L’indirizzo postale non è stato qualificato.<br /> </td> 
   </tr> 
   <tr> 
    <td> Non raggiungibile </td> 

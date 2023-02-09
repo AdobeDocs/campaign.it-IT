@@ -2,10 +2,11 @@
 title: Report globali di Adobe Campaign
 description: Scopri come accedere e utilizzare i report globali
 feature: Reporting, Monitoring
-source-git-commit: 60db4c2e8cd280845ddd0176bd10dc1b7edbb767
+exl-id: 6e3409d8-86bd-44ba-a40d-10287f53a960
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '1765'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -39,7 +40,7 @@ Per visualizzare i rapporti, fare clic sui relativi nomi. Per impostazione prede
 
 ## Velocità effettiva di consegna {#delivery-throughput}
 
-Questo rapporto contiene informazioni sulla velocità effettiva di consegna dell’intera piattaforma per un determinato periodo di tempo. Per misurare la velocità con cui vengono inviati i messaggi, i criteri corrispondono al numero di messaggi inviati all’ora e alle dimensioni dei messaggi (in bit al secondo). Nell’esempio seguente, il primo grafico mostra le consegne riuscite in blu e il numero di consegne errate in arancione.
+Questo rapporto contiene informazioni sulla velocità effettiva di consegna dell’intera piattaforma per un determinato periodo di tempo. I criteri utilizzati per misurare la velocità con cui vengono consegnati i messaggi comprendono il numero di messaggi inviati all’ora e le dimensioni dei messaggi (in bit al secondo). Nell’esempio seguente, il primo grafico mostra le consegne riuscite in blu e il numero di consegne con errori in arancione.
 
 ![](assets/report-toolbar.png)
 
@@ -291,9 +292,9 @@ Vengono utilizzati i seguenti indicatori:
 * **[!UICONTROL Clicks]** : percentuale del numero di persone che hanno fatto clic in una consegna almeno una volta rispetto al numero di messaggi elaborati correttamente.
 * **[!UICONTROL Unsubscription]** : percentuale del numero di clic su un collegamento di annullamento dell’abbonamento rispetto al numero di messaggi elaborati correttamente.
 
-## Suddivisione delle aperture {#breakdown-of-opens}
+## Breakdown delle aperture {#breakdown-of-opens}
 
-Questo rapporto mostra la suddivisione delle aperture per sistema operativo, dispositivo e browser per il periodo in questione. Per ogni categoria vengono utilizzati due grafici. Il primo visualizza le statistiche relative all&#39;apertura su un computer e dispositivi mobili. Il secondo visualizza le statistiche relative solo all’apertura su dispositivi mobili.
+Questo rapporto mostra la suddivisione delle aperture per sistema operativo, dispositivo e browser per il periodo in questione. Per ogni categoria vengono utilizzati due grafici. Il primo visualizza le statistiche relative all’apertura su un computer e dispositivi mobili. Il secondo visualizza le statistiche relative solo all’apertura su dispositivi mobili.
 
 Il numero di aperture corrisponde al numero totale di messaggi aperti. Le e-mail in formato testo non vengono conteggiate. Per ulteriori informazioni sull&#39;apertura del tracciamento, consulta [questa sezione](metrics-calculation.md#tracking-opens-).
 

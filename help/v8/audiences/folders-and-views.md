@@ -34,7 +34,7 @@ Una visualizzazione è una cartella specifica che non contiene dati ma visualizz
 
    A1 - destinatari dell’importazione, inizia alle 10:00; A2: i biglietti per l’importazione iniziano alle 11:00.
 
-## Creare una cartella{#create-a-folder}
+## Crea una cartella{#create-a-folder}
 
 Per creare una cartella, fai clic con il pulsante destro del mouse su una cartella esistente e utilizza il menu contestuale.
 

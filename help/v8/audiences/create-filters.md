@@ -330,7 +330,7 @@ Scopri come creare query avanzate in questi esempi end-to-end:
 * Scopri come eseguire il targeting su attributi di destinatario semplici in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html).
 * Scopri come filtrare i destinatari non contattati negli ultimi 7 giorni in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html).
 * Scopri come recuperare l’elenco degli operatori che può essere filtrato da account attivi in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html).
-* Scopri come creare un pubblico di e-mail di compleanno in  [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html).
+* Scopri come creare un pubblico di e-mail di compleanno in  [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=it).
 
 
 ### Parametri avanzati per i filtri predefiniti {#param-for-data-filters}

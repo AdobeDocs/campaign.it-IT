@@ -8,7 +8,7 @@ exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4
 source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '382'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -52,7 +52,7 @@ I criteri di replica si basano sulle dimensioni delle tabelle. Alcune tabelle ve
 
 Oltre al **Replicare le tabelle di riferimento** flusso di lavoro tecnico, puoi forzare la replica dei dati nei flussi di lavoro.
 
-Puoi:
+È possibile eseguire le seguenti operazioni:
 
 * aggiungi un **Codice JavaScript** attività con il seguente codice:
 
@@ -74,6 +74,6 @@ nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
 
 **Argomenti correlati**
 
-* [Scopri come iniziare a utilizzare i flussi di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
+* [Scopri come iniziare a utilizzare i flussi di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=it)
 
 * [Periodi di conservazione dei dati](../dev/datamodel-best-practices.md#data-retention)

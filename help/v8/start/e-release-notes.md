@@ -6,8 +6,9 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: e873e945f7101c5c54b4b18a128951e08d329b87
-workflow-type: ht
+exl-id: a45f7b22-44c7-4dad-af0a-ae8f683ae3d9
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 100%
 
@@ -21,7 +22,7 @@ Questa pagina descrive i miglioramenti e le correzioni inclusi nella prossima ve
 
 >[!CAUTION]
 >
-> L’aggiornamento della console client è obbligatorio. Scopri come aggiornare la Console client in questa [pagina](../start/connect.md#download-ac-console).
+> L’aggiornamento della console client è obbligatorio. Scopri come aggiornare la console client in questa [pagina](../start/connect.md#download-ac-console).
 
 _7 ottobre 2022_
 

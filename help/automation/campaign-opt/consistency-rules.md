@@ -3,7 +3,8 @@ product: campaign
 title: Regole di coerenza
 description: Regole di coerenza
 feature: Typology Rules
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+exl-id: dcb4ffcf-71e5-48a2-b0f7-42915a599652
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
 workflow-type: tm+mt
 source-wordcount: '734'
 ht-degree: 4%

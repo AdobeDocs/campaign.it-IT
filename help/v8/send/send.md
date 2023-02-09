@@ -7,8 +7,8 @@ level: Beginner
 exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
 source-git-commit: 9fa6666532a6943c438268d7ea832f0908588208
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 3%
+source-wordcount: '869'
+ht-degree: 4%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 3%
 
 Una volta configurata la consegna e pronta per l’invio, assicurati di aver eseguito l’analisi della consegna.
 
-![](../assets/do-not-localize/book.png) [Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#confirming-delivery){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) [Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#confirming-delivery){target="_blank"}
 
 Al termine, conferma la consegna per avviare la consegna dei messaggi.
 
 Puoi inoltre:
 
-* pianificare la consegna in un secondo momento utilizzando [il posticipo dell’opzione di consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#scheduling-the-delivery-sending){target=&quot;_blank&quot;},
-* inviare in più batch utilizzando [onde multiple](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves){target=&quot;_blank&quot;}.
+* pianificare la consegna in un secondo momento utilizzando [il posticipo dell’opzione di consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#scheduling-the-delivery-sending){target="_blank"},
+* inviare in più batch utilizzando [onde multiple](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves){target="_blank"}.
 
 Monitora l’esecuzione della consegna dal **Consegna** , accessibile tramite i dettagli di questa consegna o tramite l’elenco delle consegne.
 
@@ -32,7 +32,7 @@ Monitora l’esecuzione della consegna dal **Consegna** , accessibile tramite i 
 
 Una volta inviata, controlla lo stato di consegna nel Dashboard di consegna e accedi ai registri di consegna e ai rapporti per confermare che i messaggi sono stati inviati correttamente.
 
-![](../assets/do-not-localize/book.png) [Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) [Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html){target="_blank"}
 
 
 ## MTA campagna {#mta}
@@ -59,7 +59,7 @@ L’MTA qualifica il messaggio di mancato recapito SMTP e lo invia nuovamente a 
 
 >[!NOTE]
 >
->Attualmente **asincrono** i messaggi non recapitati sono qualificati dal processo inMail attraverso **[!UICONTROL Inbound email]** regole. Per ulteriori informazioni, consulta [Documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target=&quot;_blank&quot;}. <!--Refer to [bounce mail qualification](delivery-failures.md#bounce-mail-qualification)-->
+>Attualmente **asincrono** i messaggi non recapitati sono qualificati dal processo inMail attraverso **[!UICONTROL Inbound email]** regole. Per ulteriori informazioni, consulta [Documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target="_blank"}. <!--Refer to [bounce mail qualification](delivery-failures.md#bounce-mail-qualification)-->
 
 Ulteriori informazioni sugli errori di consegna in [questa sezione](delivery-failures.md).
 
@@ -76,7 +76,7 @@ DKIM (Domain Keys Identified Mail) è un metodo di autenticazione utilizzato per
 
 In Adobe Campaign, la firma di autenticazione dell’e-mail DKIM viene eseguita dall’MTA.
 
-Ulteriori informazioni su DKIM nel [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication){target=&quot;_blank&quot;}.
+Ulteriori informazioni su DKIM nel [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication){target="_blank"}.
 
 ## Servizio di feedback delle e-mail {#email-feedback-service}
 
@@ -90,7 +90,7 @@ Quando il messaggio viene effettivamente recapitato ai profili target e una volt
 
 Quando i messaggi di rimbalzo rigido vengono segnalati dall’MTA, lo stato del registro cambia da **[!UICONTROL Taken into account by the service provider]** a **[!UICONTROL Failed]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->.
 
-Quando i messaggi di messaggio non recapitati vengono segnalati nuovamente dall’MTA, lo stato del registro rimane invariato (**[!UICONTROL Taken into account by the service provider]**): solo il [motivo errore](delivery-failures.md#delivery-failure-reasons) è aggiornato<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. La **[!UICONTROL Success]** La percentuale rimane invariata. I messaggi di rimbalzo temporaneo vengono quindi ritentati durante l’intera consegna [periodo di validità](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target=&quot;_blank&quot;}:
+Quando i messaggi di messaggio non recapitati vengono segnalati nuovamente dall’MTA, lo stato del registro rimane invariato (**[!UICONTROL Taken into account by the service provider]**): solo il [motivo errore](delivery-failures.md#delivery-failure-reasons) è aggiornato<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. La **[!UICONTROL Success]** La percentuale rimane invariata. I messaggi di rimbalzo temporaneo vengono quindi ritentati durante l’intera consegna [periodo di validità](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}:
 
 * Se un nuovo tentativo ha esito positivo prima della fine del periodo di validità, lo stato del messaggio cambia in **[!UICONTROL Sent]** e **[!UICONTROL Success]** la percentuale viene aumentata di conseguenza.
 
@@ -106,8 +106,8 @@ La tabella seguente mostra come gli stati dei KPI e dei log di invio vengono agg
 
 | Passaggio nel processo di invio | Riepilogo KPI | Stato dei registri di invio |
 |--- |--- |--- |
-| Il messaggio viene inviato correttamente da Campaign all’MTA | **[!UICONTROL Success]** percentuale non visualizzata (inizia a 0%) | Presa in considerazione dal fornitore di servizi |
+| Il messaggio viene inviato correttamente da Campaign all’MTA | **[!UICONTROL Success]** percentuale non visualizzata (inizia a 0%) | Considerato dal fornitore di servizi |
 | I messaggi di rimbalzo rigido vengono segnalati nuovamente dall’MTA | Nessuna modifica in **[!UICONTROL Success]** percentuale | Non riuscito |
-| I messaggi di rimbalzo morbido vengono segnalati nuovamente dall’MTA | Nessuna modifica in **[!UICONTROL Success]** percentuale | Presa in considerazione dal fornitore di servizi |
+| I messaggi di rimbalzo morbido vengono segnalati nuovamente dall’MTA | Nessuna modifica in **[!UICONTROL Success]** percentuale | Considerato dal fornitore di servizi |
 | I nuovi tentativi dei messaggi di rimbalzo non sono riusciti | **[!UICONTROL Success]** la percentuale viene aumentata di conseguenza | Inviato |
 | Messaggi di rimbalzo morbido non riusciti | Nessuna modifica in **[!UICONTROL Success]** percentuale | Non riuscito |

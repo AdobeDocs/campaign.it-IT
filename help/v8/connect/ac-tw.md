@@ -6,8 +6,8 @@ level: Beginner, Intermediate
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
 source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '1077'
-ht-degree: 3%
+source-wordcount: '1071'
+ht-degree: 4%
 
 ---
 
@@ -32,9 +32,9 @@ Per configurare Adobe Campaign per la pubblicazione dei tweet negli account Twit
 
 ## Account sviluppatore twitter {#dev-account}
 
-Per iniziare con questa integrazione, devi registrarti per un [Account sviluppatore twitter](https://developer.twitter.com){target=&quot;_blank&quot;}.
+Per iniziare con questa integrazione, devi registrarti per un [Account sviluppatore twitter](https://developer.twitter.com){target="_blank"}.
 
-Campaign utilizza la versione 1.1 dell’API Twitter. Per utilizzarlo, è necessario richiedere l&#39;accesso Elevato tramite il Developer Portal. Ulteriori informazioni su Twitter Elevated Access [in questa pagina](https://developer.twitter.com/en/portal/products/elevated){target=&quot;_blank&quot;}.
+Campaign utilizza la versione 1.1 dell’API Twitter. Per utilizzarlo, è necessario richiedere l&#39;accesso Elevato tramite il Developer Portal. Ulteriori informazioni su Twitter Elevated Access [in questa pagina](https://developer.twitter.com/en/portal/products/elevated){target="_blank"}.
 
 ## Creare un’applicazione in Twitter {#create-an-app-on-twitter}
 
@@ -111,7 +111,7 @@ Vengono fermati per impostazione predefinita: è necessario avviarli manualmente
 
 La **[!UICONTROL Synchronization of Twitter accounts]** il flusso di lavoro tecnico sincronizza gli account Twitter in Adobe Campaign. Questo flusso di lavoro recupera l’elenco dei follower di Twitter in modo da poter inviare loro messaggi diretti. [Ulteriori informazioni](../send/twitter.md#direct-tw-messages)
 
-Per impostazione predefinita, questo flusso di lavoro viene attivato ogni giovedì alle 7:30. È possibile utilizzare **[!UICONTROL Execute pending task(s) now]** per avviare il flusso di lavoro in qualsiasi momento durante l’implementazione di questa integrazione.  Puoi anche modificare la pianificazione per modificare la frequenza di attivazione del flusso di lavoro. Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/scheduler.html){target=&quot;_blank&quot;}.
+Per impostazione predefinita, questo flusso di lavoro viene attivato ogni giovedì alle 7:30. È possibile utilizzare **[!UICONTROL Execute pending task(s) now]** per avviare il flusso di lavoro in qualsiasi momento durante l’implementazione di questa integrazione.  Puoi anche modificare la pianificazione per modificare la frequenza di attivazione del flusso di lavoro. Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/scheduler.html){target="_blank"}.
 
 >[!CAUTION]
 >

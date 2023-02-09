@@ -190,7 +190,7 @@ Altre possibili conversioni sono:
 * **[!UICONTROL Without time offset]**: annulla la gestione del fuso orario applicata nella modalità predefinita.
 * **[!UICONTROL Copy/Paste]**: utilizza dati non elaborati, ad esempio stringhe (nessuna conversione).
 
-### Elaborazione errore {#error-processing}
+### Elaborazione degli errori {#error-processing}
 
 Nel quadro delle importazioni o delle esportazioni di dati, puoi applicare un processo specifico a errori e rifiuti. A questo scopo, seleziona la **[!UICONTROL Keep the rejections in a file]** e **[!UICONTROL Process errors]** nelle opzioni **[!UICONTROL Behavior]** scheda .
 
@@ -216,7 +216,7 @@ La **[!UICONTROL Reject]** la transizione di output consente di accedere allo sc
    >
    >Il periodo di eliminazione deve coincidere con le limitazioni specifiche del CRM. Ad esempio, per Salesforce.com, gli elementi eliminati più di 30 giorni fa non possono essere recuperati.
 
-## Eliminare gli oggetti nel CRM {#deleting-objects-in-the-crm}
+## Elimina oggetti nel CRM {#deleting-objects-in-the-crm}
 
 Per eliminare gli oggetti nel CRM, specifica la chiave primaria degli elementi remoti da eliminare.
 

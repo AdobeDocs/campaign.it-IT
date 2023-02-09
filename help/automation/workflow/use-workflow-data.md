@@ -2,9 +2,10 @@
 title: Utilizzare i dati del flusso di lavoro
 description: Scopri come utilizzare i dati del flusso di lavoro
 feature: Workflows, Data Management
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+exl-id: 5014c2ed-2a74-4122-b7b9-d3703db7ab12
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '707'
 ht-degree: 4%
 
 ---
@@ -43,7 +44,7 @@ A questo scopo, seleziona il menu corrispondente:
 
    Questo menu ti consente di accedere alla procedura guidata di analisi descrittiva che ti consente di produrre statistiche e rapporti sui dati della transizione.
 
-   Per ulteriori informazioni, consulta la [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target=&quot;_blank&quot;}.
+   Per ulteriori informazioni, consulta la [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target="_blank"}.
 
 I dati di destinazione vengono eliminati durante l’esecuzione del flusso di lavoro. È accessibile solo l’ultima tabella di lavoro. È possibile configurare il flusso di lavoro in modo che tutte le tabelle di lavoro rimangano accessibili: controlla **[!UICONTROL Keep the result of interim populations between two executions]** nelle proprietà del flusso di lavoro.
 
@@ -135,9 +136,6 @@ I dati del database Adobe Campaign e degli elenchi esistenti possono essere aggi
 
    Per ulteriori informazioni, consulta [Update data](update-data.md).
 
-### Gestire gli abbonamenti {#subscription-management}
+### Gestire le iscrizioni {#subscription-management}
 
 Per informazioni sull’abbonamento e l’annullamento dell’abbonamento dei destinatari a un servizio di informazione tramite un flusso di lavoro, consulta [Servizi sottoscrizione](subscription-services.md).
-
-
-

@@ -3,10 +3,11 @@ product: campaign
 title: Codice SQL e codice JavaScript
 description: Ulteriori informazioni sulle attività del flusso di lavoro relative ai codici SQL e JavaScript
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 8c385847-a320-4cd9-9048-2bf9daf2ee07
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '267'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 

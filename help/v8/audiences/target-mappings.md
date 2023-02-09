@@ -1,17 +1,18 @@
 ---
-title: Utilizzare le mappature di destinazione
+title: Utilizzare le mappature target
 description: Scopri come utilizzare e creare mappature di destinazione
 feature: Audiences, Profiles
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+exl-id: 5256fc15-1878-4064-9c75-7876a3826b83
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
-# Utilizzare le mappature di destinazione{#gs-target-mappings}
+# Utilizzare le mappature target{#gs-target-mappings}
 
 Per impostazione predefinita, target dei modelli di consegna **[!UICONTROL Recipients]**. La mappatura del target utilizza quindi i campi del **nms:recipient** tabella.
 
@@ -26,7 +27,7 @@ Adobe Campaign viene fornito con le seguenti mappature di destinazione incorpora
 | Destinatari | Consegna ai destinatari (tabella dei destinatari incorporata) | nms:recipient |
 | Visitatori | Fornisci ai visitatori i cui profili sono stati raccolti tramite riferimento (marketing virale) per es. | mns:visitatore |
 | Abbonamenti | Consegnare a destinatari abbonati a un servizio di informazione, ad esempio una newsletter | nms:abbonamento |
-| Abbonamenti ai visitatori | Consegna ai visitatori abbonati a un servizio di informazione | nms:visitorSub |
+| Abbonamenti visitatore | Consegna ai visitatori abbonati a un servizio di informazione | nms:visitorSub |
 | Operatori | Consegna agli operatori Adobe Campaign | nms:operatore |
 | File esterno | Consegna tramite un file contenente tutte le informazioni necessarie per la consegna | Nessun schema collegato, nessuna destinazione immessa |
 
@@ -65,4 +66,3 @@ La procedura guidata per la creazione della mappatura di destinazione di Adobe C
    ![](assets/wf_new_mapping_define_extensions.png)
 
    Fai clic sul pulsante **[!UICONTROL Save]** pulsante per avviare la creazione della mappatura della consegna: tutte le tabelle collegate vengono create automaticamente in base ai parametri selezionati.
-

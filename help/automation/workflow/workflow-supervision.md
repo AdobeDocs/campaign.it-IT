@@ -3,7 +3,8 @@ product: campaign
 title: Supervisione dei flussi di lavoro
 description: Scopri come supervisionare i flussi di lavoro di Campaign
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 362b347b-f914-4ebf-84d7-9989aef28a82
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
@@ -139,7 +140,7 @@ Questo modello deve includere:
 
    Queste variabili devono essere dichiarate nella variabile **Variabili** scheda delle proprietà del modello di consegna.
 
-   Per recuperare **il contenuto delle variabili dell’evento del flusso di lavoro**, è necessario dichiarare le variabili specifiche della consegna che verranno inizializzate con i valori restituiti dal codice JavaScript.
+   Per recuperare **il contenuto delle variabili dell’evento del flusso di lavoro**, devi dichiarare le variabili specifiche della consegna che verranno inizializzate con i valori restituiti dal codice JavaScript.
 
    Il modello di consegna ha il seguente contenuto:
 

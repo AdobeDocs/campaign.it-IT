@@ -4,8 +4,8 @@ user-guide-title: Guida all’automazione di Campaign
 user-guide-description: Guida all’automazione di Campaign
 source-git-commit: 75b65efce6b37e3d948f6af4a89ea3b0a5ac1a86
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '447'
+ht-degree: 84%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
       + [Informazioni sui flussi di lavoro](workflow/about-workflows.md)
       + Tipi di flussi di lavoro {#wf-type}
          + [Flussi di lavoro di targeting](workflow/targeting-workflows.md)
-         + [Flussi di lavoro di Campaign](workflow/campaign-workflows.md)
+         + [Flussi di lavoro della campagna](workflow/campaign-workflows.md)
          + [Flussi di lavoro tecnici](workflow/technical-workflows.md)
       + [Creare un flusso di lavoro](workflow/build-a-workflow.md)
       + [Best practice](workflow/workflow-best-practices.md)
@@ -31,7 +31,7 @@ ht-degree: 0%
       + [Monitorare l’esecuzione di un flusso di lavoro](workflow/monitor-workflow-execution.md)
       + [Monitorare i flussi di lavoro tecnici](workflow/monitor-technical-workflows.md)
       + [Flusso di lavoro HeatMap](workflow/heatmap.md)
-   + Attività del flusso di lavoro {#wf-activities}
+   + Attività dei flussi di lavoro {#wf-activities}
       + [Guida introduttiva alle attività](workflow/activities.md)
       + Attività di targeting {#targeting-activities}
          + [Elenco delle attività di targeting](workflow/targeting-activities.md)
@@ -59,7 +59,7 @@ ht-degree: 0%
          + [Elenco delle attività di controllo del flusso](workflow/flow-control-activities.md)
          + [Attività Alert](workflow/alert.md)
          + [Attività AND-join](workflow/and-join.md)
-         + [Attività Approval](workflow/approval.md)
+         + [Approvazione](workflow/approval.md)
          + [Attività External signal](workflow/external-signal.md)
          + [Attività Fork](workflow/fork.md)
          + [Oggetti Jump (punto iniziale e punto finale)](workflow/jump--start-point-and-end-point-.md)
