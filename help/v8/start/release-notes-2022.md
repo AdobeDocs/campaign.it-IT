@@ -1,19 +1,19 @@
 ---
 title: Note sulla versione di Campaign v8 2022
-description: Elenco delle funzioni e dei miglioramenti introdotti con le versioni v8 di Campaign 2022
+description: Elenco delle funzioni e dei miglioramenti introdotti con le versioni di Campaign v8 2022
 feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 source-git-commit: e7f4982a9b13fe5413b6cce0a1cc58e2b3a6afa4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1839'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Note sulla versione 2022{#2022-rn}
 
-In questa pagina sono elencate nuove funzionalità, miglioramenti e correzioni apportati con **Versioni 2022 di Campaign v8**.
+In questa pagina sono elencate le nuove funzionalità, i miglioramenti e le correzioni introdotte con le **versioni di Campaign v8 2022**.
 
 ## Versione 8.4.2 {#release-8-4-2}
 
