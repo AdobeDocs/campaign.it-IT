@@ -5,9 +5,9 @@ description: Documentazione di Campaign v8
 breadcrumb-title: Panoramica di Campaign
 title: Documenti su Campaign v8
 source-git-commit: 366cf800a81ea9ab10fe5e3063f44e5214bda927
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '491'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 99%
 + Versioni e aggiornamenti più recenti {#releases}
    + [Note preliminari sulla versione](start/e-release-notes.md)
    + [Note sulla versione](start/release-notes.md)
-   + Note sulla versione precedenti {#previous-rn}
+   + Note sulla versione precedente {#previous-rn}
       + [2022](start/release-notes-2022.md)
       + [2021](start/release-notes-2021.md)
    + [Guardrail](start/ac-guardrails.md)
