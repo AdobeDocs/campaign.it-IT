@@ -5,16 +5,16 @@ feature: Client Console
 role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 2ec240b139394ce8f54a5835a4fa7bd377d226eb
+source-git-commit: 445e62c290466003886f2dc49386d0c1edb80eeb
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '905'
 ht-degree: 3%
 
 ---
 
 # Connessione ad Adobe Campaign v8{#gs-ac-connect}
 
-Devi installare la console client di Campaign per connetterti ai server delle applicazioni di Campaign.
+Per iniziare a lavorare con Campaign, devi installare e configurare la console client.
 
 Client Console è un’applicazione nativa che comunica con l’application server di Adobe Campaign tramite protocolli Internet standard, come SOAP e HTTP. La console del client di Campaign centralizza tutte le funzionalità e le impostazioni e richiede una larghezza di banda minima in quanto si basa su una cache locale. Progettata per una facile implementazione, la console del client Campaign può essere distribuita da un browser Internet, aggiornata automaticamente e non richiede alcuna configurazione di rete specifica in quanto genera solo traffico HTTP(S).
 
@@ -31,7 +31,7 @@ Prima di iniziare, è necessario:
 
 Dalla versione di build di Campaign Classic 8.4, è necessaria l’installazione del runtime Microsoft Edge Webview 2 per qualsiasi installazione della console client.
 
-Web View è installato per impostazione predefinita come parte del sistema operativo Windows 11. Se non è già presente nel sistema, verrà richiesto di scaricarlo da Campaign Console Installer [Sito web per sviluppatori di Microsoft](http://www.adobe.com/go/acc-ms-webview2-runtime-download_it){target="_blank"}. Il collegamento per il download non funziona nel browser Internet Explorer 11 in quanto Microsoft ne ha dichiarato obsoleto il supporto. Assicurati di utilizzare un browser diverso per accedere al collegamento.
+Web View è installato per impostazione predefinita come parte del sistema operativo Windows 11. Se non è già presente nel sistema, il programma di installazione della console client di Campaign ti chiederà di scaricarla da [Sito web per sviluppatori di Microsoft](http://www.adobe.com/go/acc-ms-webview2-runtime-download_it){target="_blank"}. Il collegamento per il download non funziona nel browser Internet Explorer 11 in quanto Microsoft ne ha dichiarato obsoleto il supporto. Assicurati di utilizzare un browser diverso per accedere al collegamento.
 
 ### Scarica la console{#install-ac-console}
 
@@ -49,11 +49,9 @@ Non è possibile modificare la lingua della console client dopo l’installazion
 
 ## Creare la connessione{#create-your-connection}
 
-Una volta che la Console client è stata appena installata, segui i passaggi seguenti per creare la connessione al server applicazioni:
+Una volta installata la Console client, segui i passaggi descritti di seguito per creare la connessione al server applicazioni:
 
-1. Avvia la console da Windows **[!UICONTROL Start]** nel menu **Adobe Campaign** gruppo di programmi.
-
-1. Fai clic sul collegamento nell’angolo in alto a destra dei campi delle credenziali per accedere alla finestra di configurazione della connessione.
+1. Avvia la console e sfoglia il collegamento nell’angolo a destra per accedere alla schermata di configurazione della connessione.
 
 1. Fai clic su **[!UICONTROL Add > Connection]** e immetti l’etichetta e l’URL dell’application server di Adobe Campaign.
 
@@ -77,9 +75,7 @@ Gli utenti di Campaign si collegano alla console Adobe Campaign utilizzando il p
 
 Per accedere a un’istanza, segui i passaggi seguenti:
 
-1. Avvia la console da Windows **[!UICONTROL Start]** nel menu **Adobe Campaign** gruppo di programmi.
-
-1. Fai clic sul collegamento nell’angolo in alto a destra dei campi delle credenziali per accedere alla finestra di configurazione della connessione.
+1. Avvia la console e sfoglia il collegamento nell’angolo a destra per accedere alla schermata di configurazione della connessione.
 
    ![](assets/connectToCampaign.png)
 
@@ -87,13 +83,13 @@ Per accedere a un’istanza, segui i passaggi seguenti:
 
 1. Fai clic su **[!UICONTROL Ok]**.
 
-1. Puoi quindi accedere a Campaign con [il tuo Adobe ID](#connect-ims).
+Puoi quindi accedere a Campaign con [il tuo Adobe ID](#connect-ims).
 
-   ![](assets/adobeID.png)
+![](assets/adobeID.png)
 
 >[!NOTE]
 >
->Per le versioni di build Campaign classic 8.4, la console del client Adobe Campaign può richiedere le credenziali proxy due volte durante l’autenticazione proxy. Ciò è dovuto al fatto che Microsoft Edge Webview2 non salva le credenziali proxy nella cache/archivio password a differenza di Internet Explorer.
+>Poiché Microsoft Edge Webview2 non salva le credenziali proxy, la console potrebbe richiedere l’autenticazione due volte alla prima connessione.
 
 ## Aggiornare la console client{#upgrade-ac-console}
 
@@ -103,7 +99,7 @@ In qualità di utente di Cloud Services gestiti, Adobe implementa la console cli
 
 >[!CAUTION]
 >
->L’Adobe consiglia di lasciare l’opzione **[!UICONTROL No longer ask this question]** deselezionata per fare in modo che tutti gli utenti ricevano avvisi quando è disponibile una nuova versione della console. Se questa opzione è selezionata, l’utente non verrà informato delle nuove versioni disponibili.
+>L’Adobe consiglia di lasciare l’opzione **[!UICONTROL No longer ask this question]** deselezionata per essere certi di essere avvisati quando è disponibile una nuova versione della console. Se questa opzione è selezionata, l’utente non viene informato che è necessario un aggiornamento della console.
 
 
 ## Concedere l’accesso agli utenti{#grant-access}
