@@ -6,10 +6,10 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 55711ea42b9cc0be70e875e1544780b6983af98b
+source-git-commit: 2ec240b139394ce8f54a5835a4fa7bd377d226eb
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 91%
+source-wordcount: '522'
+ht-degree: 88%
 
 ---
 
@@ -19,10 +19,6 @@ In questa pagina sono elencate nuove funzionalità, miglioramenti e correzioni i
 
 ## Versione 8.4.4 {#release-8-4-4}
 
->[!CAUTION]
->
-> L’aggiornamento della console client è obbligatorio. Scopri come aggiornare la console client in questa [pagina](../start/connect.md#download-ac-console).
-
 _8 marzo 2023_
 
 **Miglioramento della sicurezza**
@@ -31,14 +27,17 @@ _8 marzo 2023_
 
 **Patch**
 
-* È stato risolto un problema che poteva impedire lo scorrimento in **Modifica** dell&#39;Editor di contenuti digitali (DCE). (NEO-54474)
-* È stato risolto un problema che poteva causare un arresto anomalo del server web durante la replica. (NEO-53670)
+* È stato risolto un problema che poteva impedire lo scorrimento nel **Modifica** scheda di Digital Content Editor (DCE). (NEO-54474)
+* È stato risolto un problema durante la replica che poteva causare un arresto anomalo del server web. (NEO-53670)
 
-## Versione 8.4.3 {#release-8-4-3}
 
 >[!CAUTION]
 >
-> L’aggiornamento della console client è obbligatorio. Scopri come aggiornare la console client in questa [pagina](../start/connect.md#download-ac-console).
+> L’aggiornamento della console client è obbligatorio. Scopri come aggiornare la console client in questa [pagina](../start/connect.md#upgrade-ac-console).
+
+
+## Versione 8.4.3 {#release-8-4-3}
+
 
 _27 gennaio 2023_
 
@@ -67,3 +66,6 @@ _27 gennaio 2023_
 * La gestione degli URL di tracciamento è stata migliorata nei flussi di lavoro con più consegne per migliorare le prestazioni. (NEO-50894) <!--OKKKK-->
 * È stato risolto un problema che poteva impedire la replica degli schemi che utilizzano Xtkfolder. (NEO-46787) <!--OKKKK-->
 * È stato risolto un problema che poteva causare l’eliminazione della colonna personalizzata “lastModified” nella tabella NmsSubscription. (NEO-48402)
+
+
+**L’aggiornamento della console client è obbligatorio per questa versione** - Scopri come aggiornare la console client in questo [page](../start/connect.md#upgrade-ac-console).
