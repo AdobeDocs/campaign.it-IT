@@ -9,7 +9,7 @@ exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 source-git-commit: 814f7c81aa4f154fdf289effc82b8d02bdd9b4c6
 workflow-type: tm+mt
 source-wordcount: '519'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -27,8 +27,8 @@ _8 marzo 2023_
 
 **Patch**
 
-* È stato risolto un problema che poteva impedire lo scorrimento nel **Modifica** scheda di Digital Content Editor (DCE). (NEO-54474)
-* È stato risolto un problema durante la replica che poteva causare un arresto anomalo del server web. (NEO-53670)
+* È stato risolto un problema che poteva impedire lo scorrimento nella scheda **Modifica** dell’editor di contenuti digitali (DCE). (NEO-54474)
+* È stato risolto un problema che poteva causare un arresto anomalo del server web durante la replica. (NEO-53670)
 
 
 >[!CAUTION]
