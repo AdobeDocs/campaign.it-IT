@@ -6,23 +6,25 @@ feature: Push
 role: Admin, Developer
 level: Intermediate, Experienced
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 4a017eabf1330b04939aa4bd0602c371a0ee3208
 workflow-type: tm+mt
-source-wordcount: '1281'
-ht-degree: 3%
+source-wordcount: '1311'
+ht-degree: 2%
 
 ---
 
 # Integrare gli SDK di Campaign con la tua app {#integrate-campaign-sdk}
 
-Utilizza gli SDK Campaign per iOS e Android per facilitare l’integrazione dell’app mobile nella piattaforma Adobe Campaign.
+Puoi utilizzare gli SDK Campaign per iOS e Android per facilitare l’integrazione dell’app mobile nella piattaforma Adobe Campaign.
 
 Le versioni supportate da Android e iOS e le versioni compatibili con Campaign SDK per Campaign v8 sono elencate nella [Matrice di compatibilità](../start/compatibility-matrix.md#MobileSDK).
 
+In qualità di amministratore di Campaign, puoi scaricare gli SDK di Campaign dal [Distribuzione di software di Experience Cloud](https://experience.adobe.com/#/downloads/content/software-distribution/it/campaign.html). Per ulteriori informazioni, contatta [Adobe Customer Care](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+
+
 >[!NOTE]
 >
->In qualità di amministratore di Campaign, puoi scaricare gli SDK di Campaign dal [Distribuzione di software di Experience Cloud](https://experience.adobe.com/#/downloads/content/software-distribution/it/campaign.html). Per ulteriori informazioni, contatta [Adobe Customer Care](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
-
+>Puoi anche utilizzare l’SDK di Adobe Experience Platform Mobile configurando l’estensione Adobe Campaign nell’interfaccia utente di raccolta dati. [Ulteriori informazioni nella documentazione per sviluppatori](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
 
 ## Dichiarare le impostazioni di integrazione {#declaring-integration-settings}
 
@@ -651,7 +653,7 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione di Google
    | ACCRegisterDeviceStatusFailureUnknownUUID | L&#39;UUID fornito (chiave di integrazione) è sconosciuto. | VUOTO |
    | ACCRegisterDeviceStatusFailureUnexpectedError | Errore imprevisto restituito al server ACC. | Il messaggio di errore è stato restituito ad ACC. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
    **Neolane_SDKDelegate** protocollo e **registerDeviceStatus** la definizione di delegato è la seguente:
 
