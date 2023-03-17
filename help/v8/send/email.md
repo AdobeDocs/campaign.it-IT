@@ -5,7 +5,7 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: bd109f9d320b3009ab0d9414291d397b331373de
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 16%
@@ -69,7 +69,7 @@ Nell’esempio seguente, imparerai a progettare una consegna e-mail in Adobe Cam
 
    * Aggiungere una pagina speculare
 
-      Per consentire ai destinatari di visualizzare il contenuto della consegna in un browser web, aggiungi un collegamento alla pagina speculare del messaggio.
+      Per consentire ai destinatari di visualizzare il contenuto della consegna in un browser web, aggiungi un collegamento al [pagina speculare](../send/mirror-page.md) del tuo messaggio.
 
       Posiziona il cursore nel punto in cui desideri inserire il collegamento, fai clic sull’ultima icona nella barra degli strumenti, quindi fai clic su **[!UICONTROL Include]** e seleziona **[!UICONTROL link to mirror page]**.
    Quando il contenuto è pronto, fai clic su **Salva**: verrà ora visualizzato nell’elenco delle consegne, nel **[!UICONTROL Campaigns > Deliveries]** scheda . La tua prima consegna e-mail è pronta. Ora devi definire il pubblico, convalidare la consegna e inviarla.
