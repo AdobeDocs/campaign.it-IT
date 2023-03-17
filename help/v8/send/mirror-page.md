@@ -1,0 +1,46 @@
+---
+title: Aggiungere un collegamento alla pagina speculare
+description: Scopri come creare un collegamento alla pagina speculare
+feature: Email
+role: User
+level: Beginner
+source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
+workflow-type: tm+mt
+source-wordcount: '365'
+ht-degree: 0%
+
+---
+
+# Informazioni sulla pagina speculare e-mail{#mirror-page}
+
+La pagina speculare è una versione online della tua e-mail.
+
+Mentre la maggior parte dei client e-mail esegue il rendering delle immagini senza alcun problema, alcuni predefiniti possono evitare la visualizzazione delle immagini per motivi di sicurezza. Gli utenti possono passare alla pagina speculare di un’e-mail, ad esempio se riscontrano problemi di rendering o immagini interrotte quando tentano di visualizzarla nella casella in entrata. Si consiglia inoltre di fornire una versione online per motivi di accessibilità o di incoraggiare la condivisione social network.
+
+La pagina speculare generata da Adobe Campaign contiene tutti i dati di personalizzazione.
+
+## Aggiungere un collegamento alla pagina speculare{#link-to-mirror-page}
+
+È buona prassi inserire un collegamento alla pagina speculare. Questo collegamento può essere ad esempio &quot;Visualizza l’e-mail nel browser&quot; e si trova spesso nell’intestazione o nel piè di pagina di un messaggio e-mail.
+
+In Adobe Campaign, puoi inserire un collegamento alla pagina speculare nel contenuto dell’e-mail utilizzando l’ **blocco di personalizzazione**. Per impostazione predefinita, la pagina speculare viene generata solo se il collegamento è inserito nel contenuto del messaggio.
+
+<!--For more on personalization blocks insertion, refer to [Personalization blocks](personalization-blocks.md).-->
+
+## Generazione di pagine mirror{#mirror-page-generation}
+
+Per impostazione predefinita, la pagina speculare viene generata automaticamente da Adobe Campaign se il contenuto dell’e-mail non è vuoto e se contiene un collegamento alla pagina speculare (aka Mirror link).
+
+Puoi controllare la modalità di generazione della pagina speculare e-mail. Le opzioni sono disponibili nelle proprietà di consegna. Per accedere a queste opzioni:
+
+1. Sfoglia il **[!UICONTROL Validity]** scheda delle proprietà e-mail.
+1. In **Gestione pagina speculare** nella sezione **[!UICONTROL Mode]** elenco a discesa.
+
+![](assets/mirror-page-generation.png)
+
+Oltre alla modalità predefinita, sono disponibili le seguenti opzioni:
+
+* **[!UICONTROL Force the generation of the mirror page]**: utilizza questa modalità per generare la pagina speculare anche se nella consegna non è inserito alcun collegamento alla pagina speculare.
+* **[!UICONTROL Do not generate the mirror page]**: utilizza questa modalità per evitare di generare una pagina speculare, anche se il collegamento è presente nella consegna.
+* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: utilizza questa opzione per abilitare l’accesso al contenuto della pagina speculare, con i dati di personalizzazione, nella finestra del registro di consegna. Per accedere a questa pagina speculare: una volta inviata la consegna, aprila e sfoglia fino alla **[!UICONTROL Delivery]** scheda . Seleziona un destinatario e fai clic sul pulsante **[!UICONTROL Display the mirror page for this message...]** link. La pagina speculare viene visualizzata in una nuova scheda.
+

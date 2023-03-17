@@ -4,9 +4,9 @@ title: Pubblico di destinazione della campagna di marketing
 description: Scopri come definire il pubblico delle campagne di marketing
 feature: Campaigns, Audiences
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1459'
 ht-degree: 2%
 
 ---
@@ -242,4 +242,4 @@ In questo video viene illustrato come creare una campagna e un messaggio e-mail 
 
 >[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 
-Sono disponibili ulteriori video dimostrativi relativi a Campaign [qui](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=it).
+Sono disponibili ulteriori video dimostrativi relativi a Campaign [qui](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.

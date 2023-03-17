@@ -3,7 +3,7 @@ title: Report di consegna incorporati di Adobe Campaign
 description: Report di consegna incorporati di Adobe Campaign
 feature: Reporting
 exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 9%
@@ -40,7 +40,7 @@ Per accedere ai rapporti, effettua le seguenti operazioni:
 
 ## Indicatori di tracciamento {#tracking-indicators}
 
-Questo rapporto combina gli indicatori chiave per tenere traccia del comportamento dei destinatari alla ricezione della consegna. Consente di accedere alle statistiche di consegna e ricezione, ai tassi di apertura e click-through, ai flussi clic generati, al tracciamento web e alle attività di condivisione sui social network.
+Questo rapporto combina gli indicatori chiave per tenere traccia del comportamento dei destinatari alla ricezione della consegna. Consente di accedere alle statistiche su consegna e ricezione, ai tassi di apertura e click-through, ai flussi clic generati, al tracciamento web e alle attività di condivisione sui social network.
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ Questo rapporto combina gli indicatori chiave per tenere traccia del comportamen
 * **[!UICONTROL Distinct opens for the population reached]** : Stima del numero di destinatari con cui è stato aperto un messaggio almeno una volta. I clic sugli URL tracciati vengono presi in considerazione poiché è necessario aprire le e-mail per fare clic su un collegamento.
 * **[!UICONTROL Sum of opens for the population reached]** : Stima del numero totale di aperture per destinatari con targeting.
 * **[!UICONTROL Clicks on opt-out link]** : Numero di clic sul collegamento di annullamento dell’abbonamento.
-* **[!UICONTROL Clicks on the mirror page link]** : Numero di clic sul collegamento alla pagina speculare. Per essere preso in considerazione, il collegamento deve essere definito come tale nella procedura guidata di consegna (URL tracciati). <!--Refer to this [page](../../delivery/using/about-delivery-monitoring.md).-->
+* **[!UICONTROL Clicks on the mirror page link]** : Numero di clic sul collegamento al [pagina speculare](../send/mirror-page.md). Per essere preso in considerazione, il collegamento deve essere definito come tale nella procedura guidata di consegna (URL tracciati).
 * **[!UICONTROL Estimation of forwards]** : Stima del numero di e-mail inoltrate dai destinatari interessati. Questo valore viene calcolato sottraendo il numero di persone distinte e il numero di destinatari distinti che hanno fatto clic nell’e-mail.
 
    >[!NOTE]
@@ -181,7 +181,7 @@ Questo rapporto mostra il contenuto del messaggio (HTML e/o testo) e la percentu
 >Se la consegna contiene offerte (Interazione), nella parte superiore del rapporto viene visualizzata una casella che mostra la percentuale di clic sulle offerte.
 
 
-## Tracking delle statistiche {#tracking-statistics}
+## Statistiche di tracciamento {#tracking-statistics}
 
 Questo rapporto fornisce statistiche su aperture, clic e transazioni.
 

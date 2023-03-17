@@ -4,10 +4,10 @@ title: Consegna continua
 description: Consegna continua
 feature: Workflows, Channels Activity
 exl-id: e3ad6d92-8d53-4098-90fd-cfed29f2e56e
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
 workflow-type: tm+mt
 source-wordcount: '364'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
@@ -64,4 +64,4 @@ Questo video mostra come configurare una consegna continua con una query increme
 
 >[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)
 
-Sono disponibili ulteriori video dimostrativi su Campaign Classic [qui](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=it).
+Sono disponibili ulteriori video dimostrativi relativi a Campaign [qui](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.

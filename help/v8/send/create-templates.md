@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
 workflow-type: tm+mt
 source-wordcount: '699'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
@@ -22,7 +22,7 @@ Un modello può includere sistematicamente:
 * Tipologie
 * Indirizzi di invio e risposta
 * Blocchi di personalizzazione di base
-* Collegamenti a pagine mirror e annullamento dell’abbonamento collegamenti
+* Collegamenti a [pagine mirror](../send/mirror-page.md) e collegamenti per annullare l’abbonamento
 * Contenuto, logo aziendale o firma
 * Altre proprietà di consegna, ad esempio la validità della risorsa, i parametri dei nuovi tentativi o le impostazioni di quarantena.
 
@@ -86,7 +86,7 @@ Per configurare un modello di consegna da zero, segui i passaggi seguenti:
 1. Da **Proprietà** , adatta le impostazioni.
 1. In **Generale** , confermare o modificare le posizioni selezionate nella **Cartella di esecuzione**, **Cartella** e **Indirizzamento** menu a discesa.
 1. Completa il **Parametri e-mail** categoria con l’oggetto dell’e-mail e la popolazione target.
-1. Aggiungi il tuo **Contenuto HTML** per personalizzare il modello, puoi visualizzare un collegamento a una pagina speculare e un collegamento di annullamento all’abbonamento.
+1. Aggiungi il tuo **Contenuto HTML** per personalizzare il modello, puoi visualizzare un [collegamento pagina speculare](../send/mirror-page.md) e un collegamento di annullamento all’abbonamento.
 1. Seleziona la **Anteprima** scheda . In **Personalizzazione dei test** menu a discesa, seleziona **Destinatario** per visualizzare in anteprima il modello come profilo scelto.
 1. Fai clic su **Salva**. Il modello è ora pronto per essere utilizzato in una consegna.
 
@@ -142,4 +142,4 @@ Questo video spiega come distribuire un modello di consegna e-mail ad hoc e spie
 
 >[!VIDEO](https://video.tv.adobe.com/v/338965?quality=12)
 
-Sono disponibili ulteriori video dimostrativi su Campaign Classic [qui](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=it).
+Sono disponibili ulteriori video dimostrativi relativi a Campaign [qui](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.
