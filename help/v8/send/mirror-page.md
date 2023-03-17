@@ -4,9 +4,9 @@ description: Scopri come creare un collegamento alla pagina speculare
 feature: Email
 role: User
 level: Beginner
-source-git-commit: 58cf4739c27dfed63cfbb0ca6c85121fe5336e8d
+source-git-commit: 2c35b169725b5300940260124a4b559eb44ffe43
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,7 @@ Mentre la maggior parte dei client e-mail esegue il rendering delle immagini sen
 
 La pagina speculare generata da Adobe Campaign contiene tutti i dati di personalizzazione.
 
-
 ![](assets/mirror-page-link.png)
-
 
 
 ## Aggiungere un collegamento alla pagina speculare{#link-to-mirror-page}
@@ -29,6 +27,8 @@ La pagina speculare generata da Adobe Campaign contiene tutti i dati di personal
 È buona prassi inserire un collegamento alla pagina speculare. Questo collegamento può essere ad esempio &quot;Visualizza l’e-mail nel browser&quot; e si trova spesso nell’intestazione o nel piè di pagina di un messaggio e-mail.
 
 In Adobe Campaign, puoi inserire un collegamento alla pagina speculare nel contenuto dell’e-mail utilizzando l’ **blocco di personalizzazione**. Per impostazione predefinita, la pagina speculare viene generata solo se il collegamento è inserito nel contenuto del messaggio.
+
+Incorporato **Collegamento a una pagina speculare** nel contenuto dell’e-mail viene inserito il seguente codice: `<%@ include view='MirrorPage' %>`.
 
 <!--For more on personalization blocks insertion, refer to [Personalization blocks](personalization-blocks.md).-->
 
