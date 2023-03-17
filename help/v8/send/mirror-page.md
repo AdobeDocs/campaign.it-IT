@@ -4,7 +4,7 @@ description: Scopri come creare un collegamento alla pagina speculare
 feature: Email
 role: User
 level: Beginner
-source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
+source-git-commit: 58cf4739c27dfed63cfbb0ca6c85121fe5336e8d
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
@@ -18,6 +18,11 @@ La pagina speculare è una versione online della tua e-mail.
 Mentre la maggior parte dei client e-mail esegue il rendering delle immagini senza alcun problema, alcuni predefiniti possono evitare la visualizzazione delle immagini per motivi di sicurezza. Gli utenti possono passare alla pagina speculare di un’e-mail, ad esempio se riscontrano problemi di rendering o immagini interrotte quando tentano di visualizzarla nella casella in entrata. Si consiglia inoltre di fornire una versione online per motivi di accessibilità o di incoraggiare la condivisione social network.
 
 La pagina speculare generata da Adobe Campaign contiene tutti i dati di personalizzazione.
+
+
+![](assets/mirror-page-link.png)
+
+
 
 ## Aggiungere un collegamento alla pagina speculare{#link-to-mirror-page}
 
