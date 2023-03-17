@@ -5,10 +5,10 @@ feature: Overview
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-source-git-commit: c68218951f721dc31e70619c97b90452b72f9563
+source-git-commit: b4593dd9fbb3e4742183719281ff0e5a78b9e6c8
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 92%
+source-wordcount: '375'
+ht-degree: 90%
 
 ---
 
@@ -55,11 +55,7 @@ I database esterni compatibili con il modulo Federated Data Access (FDA) di Adob
 
 ## SDK per dispositivi mobili{#MobileSDK}
 
-Puoi utilizzare Campaign per inviare [notifiche push](../send/push.md) sui sistemi operativi elencati di seguito, utilizzando il relativo SDK mobile.
-
-Puoi anche utilizzare l’SDK di Adobe Experience Platform Mobile configurando l’estensione Adobe Campaign nell’interfaccia utente di raccolta dati.
-
-Puoi anche utilizzare gli SDK di Campaign elencati di seguito:
+Per inviare [notifiche push](../send/push.md) con Campaign, puoi utilizzare l’SDK di Adobe Experience Platform Mobile configurando l’estensione Adobe Campaign nell’interfaccia utente di raccolta dati. Puoi anche utilizzare gli SDK di Campaign elencati di seguito:
 
 * **Android** 12, 9.0, 8.x, 7.x con Campaign Android SDK build 1.1.1.
 * **Apple iOS** 9-16 con Campaign iOS SDK build 1.0.26, compatibile con le versioni a 32 e a 64 bit. Apple iOS 16 è supportato a partire da Campaign v8.4.
