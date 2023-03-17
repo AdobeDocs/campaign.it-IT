@@ -1,17 +1,19 @@
 ---
 title: Aggiungere un collegamento alla pagina speculare
-description: Scopri come creare un collegamento alla pagina speculare
+description: Scopri come aggiungere e gestire il collegamento alla pagina speculare
 feature: Email
 role: User
 level: Beginner
-source-git-commit: 2c35b169725b5300940260124a4b559eb44ffe43
+source-git-commit: d8ceefe1dd56aecb810878d99395ac900f889c2e
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
 
-# Informazioni sulla pagina speculare e-mail{#mirror-page}
+# Collegamento alla pagina speculare{#mirror-page}
+
+## Informazioni sulla pagina speculare{#about-mirror-page}
 
 La pagina speculare è una versione online della tua e-mail.
 
@@ -24,11 +26,9 @@ La pagina speculare generata da Adobe Campaign contiene tutti i dati di personal
 
 ## Aggiungere un collegamento alla pagina speculare{#link-to-mirror-page}
 
-È buona prassi inserire un collegamento alla pagina speculare. Questo collegamento può essere ad esempio &quot;Visualizza l’e-mail nel browser&quot; e si trova spesso nell’intestazione o nel piè di pagina di un messaggio e-mail.
+È buona prassi inserire un collegamento alla pagina speculare. Questo link può essere ad esempio &#39;Visualizza questa e-mail nel tuo browser&#39; o &#39;Leggi questo online&#39;. Spesso si trova nell’intestazione o nel piè di pagina dell’e-mail.
 
-In Adobe Campaign, puoi inserire un collegamento alla pagina speculare nel contenuto dell’e-mail utilizzando l’ **blocco di personalizzazione**. Per impostazione predefinita, la pagina speculare viene generata solo se il collegamento è inserito nel contenuto del messaggio.
-
-Incorporato **Collegamento a una pagina speculare** nel contenuto dell’e-mail viene inserito il seguente codice: `<%@ include view='MirrorPage' %>`.
+In Adobe Campaign, puoi inserire un collegamento alla pagina speculare nel contenuto dell’e-mail utilizzando l’ **blocco di personalizzazione**. Incorporato **Collegamento a una pagina speculare** nel contenuto dell’e-mail viene inserito il seguente codice: `<%@ include view='MirrorPage' %>`.
 
 <!--For more on personalization blocks insertion, refer to [Personalization blocks](personalization-blocks.md).-->
 
