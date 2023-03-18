@@ -4,9 +4,9 @@ description: Scopri come aggiungere e gestire il collegamento alla pagina specul
 feature: Email
 role: User
 level: Beginner
-source-git-commit: e2aaf80a5a0d74161152fabe8ea157d31923ee19
+source-git-commit: 2a2887fcd476566d2105edd9824feba4c1caca8a
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Mentre la maggior parte dei client e-mail esegue il rendering delle immagini sen
 
 La pagina speculare generata da Adobe Campaign contiene tutti i dati di personalizzazione.
 
-![campione di collegamento a specchio](assets/mirror-page-link.png){width="500" align="left"}
+![campione di collegamento a specchio](assets/mirror-page-link.png){width="600" align="left"}
 
 ## Aggiungere un collegamento alla pagina speculare{#link-to-mirror-page}
 
@@ -29,7 +29,7 @@ La pagina speculare generata da Adobe Campaign contiene tutti i dati di personal
 
 In Adobe Campaign, puoi inserire un collegamento alla pagina speculare nel contenuto dell’e-mail utilizzando l’ **blocco di personalizzazione**. Incorporato **Collegamento a una pagina speculare** nel contenuto dell’e-mail viene inserito il seguente codice: `<%@ include view='MirrorPage' %>`.
 
-![](assets/mirror-page-insert.png){width="500" align="left"}
+![](assets/mirror-page-insert.png){width="800" align="left"}
 
 
 <!--For more on personalization blocks insertion, refer to [Personalization blocks](personalization-blocks.md).-->
@@ -43,7 +43,7 @@ Puoi controllare la modalità di generazione della pagina speculare e-mail. Le o
 1. Sfoglia il **[!UICONTROL Validity]** scheda delle proprietà e-mail.
 1. In **Gestione pagina speculare** nella sezione **[!UICONTROL Mode]** elenco a discesa.
 
-![](assets/mirror-page-generation.png){width="500" align="left"}
+![](assets/mirror-page-generation.png){width="800" align="left"}
 
 Oltre alla modalità predefinita, sono disponibili le seguenti opzioni:
 
@@ -61,7 +61,7 @@ Per accedere a questa pagina speculare:
 
 1. Seleziona un destinatario e fai clic sul pulsante **[!UICONTROL Display the mirror page for this message...]** link.
 
-   ![](assets/mirror-page-display.png){width="500" align="left"}
+   ![](assets/mirror-page-display.png){width="800" align="left"}
 
    La pagina speculare viene visualizzata in una schermata dedicata, con i dati di personalizzazione per il destinatario selezionato.
 
