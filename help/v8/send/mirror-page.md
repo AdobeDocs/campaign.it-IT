@@ -4,7 +4,7 @@ description: Scopri come aggiungere e gestire il collegamento alla pagina specul
 feature: Email
 role: User
 level: Beginner
-source-git-commit: 903224da4ab15bf4221d8769bfb19933f4cbf2b0
+source-git-commit: 124d46f1a4bec1bfd5c07210c931d7fa37db08a7
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Mentre la maggior parte dei client e-mail esegue il rendering delle immagini sen
 
 La pagina speculare generata da Adobe Campaign contiene tutti i dati di personalizzazione.
 
-![campione di collegamento a specchio](assets/mirror-page-link.png){width="300" align="center"}
+![campione di collegamento a specchio](assets/mirror-page-link.png){width="500" align="center"}
 
 ## Aggiungere un collegamento alla pagina speculare{#link-to-mirror-page}
 
