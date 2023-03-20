@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
-source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
+source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 7%
+source-wordcount: '698'
+ht-degree: 5%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 7%
 
 Utilizza i modelli di consegna per standardizzare l’aspetto creativo e l’aspetto, al fine di velocizzare l’esecuzione e l’avvio delle campagne.
 
-Un modello può includere sistematicamente:
+Un modello può includere:
 
 * Tipologie
 * Indirizzi di invio e risposta
-* Blocchi di personalizzazione di base
+* Base [blocchi di personalizzazione](../send/personalization-blocks.md)
 * Collegamenti a [pagine mirror](../send/mirror-page.md) e collegamenti per annullare l’abbonamento
 * Contenuto, logo aziendale o firma
 * Altre proprietà di consegna, ad esempio la validità della risorsa, i parametri dei nuovi tentativi o le impostazioni di quarantena.

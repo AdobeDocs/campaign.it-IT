@@ -4,7 +4,7 @@ description: Scopri come utilizzare il modulo Adobe Campaign Social Marketing pe
 role: User
 level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
-source-git-commit: 9ae93ce4e2b0424bb3b3862b2c7d016309bd630e
+source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 6%
@@ -124,7 +124,7 @@ Per inviare messaggi diretti ai tuoi follower, segui i passaggi seguenti:
 
    ![](assets/tw-dm-content.png)
 
-   I campi di personalizzazione possono essere utilizzati nello stesso modo delle consegne e-mail, ad esempio per aggiungere il nome del follower nel corpo del messaggio. Per ulteriori informazioni, consulta [questa sezione](../start/create-message.md#personalization).
+   I campi di personalizzazione possono essere utilizzati nello stesso modo delle consegne e-mail, ad esempio per aggiungere il nome del follower nel corpo del messaggio. Per ulteriori informazioni, consulta [questa sezione](../send/personalize.md).
 
 1. Anteprima del messaggio
 

@@ -4,9 +4,9 @@ description: Scopri come aggiungere e gestire il collegamento alla pagina specul
 feature: Email
 role: User
 level: Beginner
-source-git-commit: 2a2887fcd476566d2105edd9824feba4c1caca8a
+source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ In Adobe Campaign, puoi inserire un collegamento alla pagina speculare nel conte
 ![](assets/mirror-page-insert.png){width="800" align="left"}
 
 
-<!--For more on personalization blocks insertion, refer to [Personalization blocks](personalization-blocks.md).-->
+Per ulteriori informazioni sull’inserimento di blocchi di contenuto personalizzati, consulta [Blocchi di personalizzazione](personalization-blocks.md).
 
 ## Generazione di pagine mirror{#mirror-page-generation}
 

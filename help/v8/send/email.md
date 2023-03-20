@@ -5,9 +5,9 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: bd109f9d320b3009ab0d9414291d397b331373de
+source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '576'
 ht-degree: 16%
 
 ---
@@ -48,7 +48,6 @@ Nell’esempio seguente, imparerai a progettare una consegna e-mail in Adobe Cam
 
 1. **Personalizzare il messaggio**
 
-
    * Aggiungi il nome e il cognome dei destinatari
 
       Per inserire il nome e il cognome dei profili di destinazione nel contenuto del messaggio, posiziona il cursore nel punto in cui desideri inserirli, quindi fai clic sull’ultima icona nella barra degli strumenti, quindi fai clic su **[!UICONTROL Include]** e seleziona **[!UICONTROL Greetings]**.
@@ -58,6 +57,8 @@ Nell’esempio seguente, imparerai a progettare una consegna e-mail in Adobe Cam
       Passa alla scheda Anteprima per controllare la personalizzazione selezionando un destinatario.
 
       ![](assets/perso-check.png)
+
+      Ulteriori informazioni sulle opzioni di personalizzazione in [questa sezione](personalize.md).
 
    * Inserire un collegamento tracciato
 

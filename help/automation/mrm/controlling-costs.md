@@ -3,7 +3,7 @@ product: campaign
 title: Controllare i costi
 description: Scopri come controllare i costi
 exl-id: 51f3add9-a083-4db1-84a6-3aaaeec0465c
-source-git-commit: e6b1790832be6331f4b27cc50b5d034ad738a822
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
 source-wordcount: '2409'
 ht-degree: 1%
@@ -34,7 +34,7 @@ Per attuare la gestione del bilancio utilizzando MRM è necessario applicare le 
 
 Per creare un budget, segui i passaggi seguenti:
 
-1. Sfoglia il **[!UICONTROL Campaign management > Budgets]** nodo di Campaign explorer.
+1. Sfoglia il **[!UICONTROL Campaign management > Budgets]** cartella di Campaign explorer.
 1. Fai clic sul pulsante **[!UICONTROL New]** icona, nome e salva il budget.
 1. Immettere l&#39;importo iniziale: indicare l&#39;importo assegnato nel campo pertinente. Gli altri importi vengono inseriti automaticamente. [Ulteriori informazioni](#calculating-amounts).
 1. Definire il periodo di validità inserendo le date di inizio e di fine. Queste informazioni sono solo indicative.

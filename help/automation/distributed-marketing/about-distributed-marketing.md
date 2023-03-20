@@ -4,7 +4,7 @@ title: Guida introduttiva al marketing distribuito
 description: Guida introduttiva al marketing distribuito
 feature: Distributed Marketing
 exl-id: c9f5b277-3ad8-4316-94b9-789d37813b8b
-source-git-commit: c835a96b315d2c68b64869082fc626243dd006e9
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
 source-wordcount: '1134'
 ht-degree: 1%
@@ -103,7 +103,7 @@ Gli operatori locali devono appartenere al **[!UICONTROL Local management]** gru
 
 ### Entità organizzative {#organizational-entities}
 
-Per creare un’entità organizzativa, fai clic sul pulsante **[!UICONTROL Administration > Access management > Organizational entities]** e fai clic sul **[!UICONTROL New]** sopra l’elenco delle entità.
+Per creare un’entità organizzativa, fai clic sul pulsante **[!UICONTROL Administration > Access management > Organizational entities]** e fai clic su **[!UICONTROL New]** sopra l’elenco delle entità.
 
 ![](assets/s_advuser_mkg_dist_local_list.png)
 

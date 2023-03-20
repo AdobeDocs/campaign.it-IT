@@ -3,7 +3,7 @@ title: Utilizzare i dati del flusso di lavoro
 description: Scopri come utilizzare i dati del flusso di lavoro
 feature: Workflows, Data Management
 exl-id: 5014c2ed-2a74-4122-b7b9-d3703db7ab12
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 4%
@@ -57,7 +57,7 @@ I dati di destinazione vengono eliminati durante l’esecuzione del flusso di la
 
 ### Utilizzo dei dati di destinazione {#target-data}
 
-I dati memorizzati nella tabella di lavoro temporaneo del flusso di lavoro sono disponibili per le attività di personalizzazione. I dati possono essere utilizzati nei campi di personalizzazione.
+I dati memorizzati nella tabella di lavoro temporaneo del flusso di lavoro sono disponibili per le attività di personalizzazione. I dati possono essere utilizzati nella [campi di personalizzazione](../../v8/send/personalization-fields.md).
 
 Ciò ti consente ad esempio di utilizzare i dati raccolti tramite un elenco in una consegna. A questo scopo, utilizza la sintassi seguente:
 

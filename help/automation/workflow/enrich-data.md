@@ -4,9 +4,9 @@ title: Arricchire i dati
 description: Ulteriori informazioni sull’attività del flusso di lavoro Arricchimento
 feature: Workflows, Enrichment Activity
 exl-id: 3b3fa15f-b16e-42c8-a2e6-03350aee1903
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '744'
 ht-degree: 1%
 
 ---
@@ -42,17 +42,17 @@ Per impostare questo caso d’uso, abbiamo creato il seguente flusso di lavoro d
 Per creare il flusso di lavoro, esegui i seguenti passaggi:
 
 1. Due **[!UICONTROL Query]** attività e una **[!UICONTROL Intersection]** vengono aggiunte le attività per eseguire il targeting dei nuovi abbonati che sono entrati per ultimi nel concorso.
-1. La **[!UICONTROL Enrichment]** consente di aggiungere i dati memorizzati nel **[!UICONTROL Competition results]** tabella. La **[!UICONTROL Score]** il campo sul quale avrà luogo la personalizzazione della consegna viene aggiunto alla tabella di lavoro del flusso di lavoro.
-1. La **[!UICONTROL Split]** l’attività di tipo ci consente di creare sottoinsiemi di destinatari in base ai punteggi.
-1. Per ogni sottoinsieme, un **[!UICONTROL Delivery]** viene aggiunta l’attività di tipo .
+1. La **[!UICONTROL Enrichment]** viene utilizzata per aggiungere i dati memorizzati nel **[!UICONTROL Competition results]** tabella. La **[!UICONTROL Score]** il campo che verrà personalizzato per la consegna viene aggiunto alla tabella di lavoro del flusso di lavoro.
+1. La **[!UICONTROL Split]** L’attività tipo viene utilizzata per creare sottoinsiemi di destinatari in base ai punteggi.
+1. Per ogni sottoinsieme, un **[!UICONTROL Delivery]** viene aggiunta l’attività .
 
 ## Passaggio 1: Targeting {#step-1--targeting}
 
-La prima query consente di eseguire il targeting dei destinatari aggiunti al database negli ultimi sei mesi.
+La prima query viene utilizzata per eseguire il targeting dei destinatari che sono stati aggiunti al database negli ultimi sei mesi.
 
 ![](assets/uc1_enrich_4.png)
 
-La seconda query consente di eseguire il targeting dei destinatari che hanno partecipato all’ultima gara.
+La seconda query viene utilizzata per eseguire il targeting dei destinatari che hanno partecipato all’ultimo concorso.
 
 ![](assets/uc1_enrich_5.png)
 
@@ -60,7 +60,7 @@ Un **[!UICONTROL Intersection]** L’attività di tipo viene quindi aggiunta per
 
 ## Passaggio 2: Arricchimento {#step-2--enrichment}
 
-In questo esempio, vogliamo personalizzare le consegne in base alla **[!UICONTROL Score]** campo memorizzato in **[!UICONTROL Competition results]** tabella. Questa tabella presenta una relazione di tipo 1-n con la tabella dei destinatari. La **[!UICONTROL Enrichment]** l’attività ci consente di aggiungere dati da una tabella collegata alla dimensione di filtro alla tabella di lavoro del flusso di lavoro.
+In questo esempio, scopri come personalizzare le consegne in base ai **[!UICONTROL Score]** campo memorizzato in **[!UICONTROL Competition results]** tabella. Questa tabella presenta una relazione di tipo 1-n con la tabella dei destinatari. La **[!UICONTROL Enrichment]** viene utilizzata per aggiungere dati da una tabella collegata alla dimensione di filtro alla tabella di lavoro del flusso di lavoro.
 
 1. Nella schermata di modifica dell’attività di arricchimento, seleziona **[!UICONTROL Add data]**, quindi **[!UICONTROL Data linked to the filtering dimension]** e fai clic su **[!UICONTROL Next]**.
 

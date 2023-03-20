@@ -4,9 +4,9 @@ title: Guida introduttiva alle simulazioni delle campagne
 description: Scopri come configurare le simulazioni delle campagne
 feature: Campaigns
 exl-id: 2b2b668f-87d9-4265-adbc-9098b85c5aab
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1210'
 ht-degree: 0%
 
 ---
@@ -197,7 +197,7 @@ La **[!UICONTROL Calculations]** consente di definire gli assi di reporting sul 
 >[!NOTE]
 >
 >È consigliabile definire gli assi di calcolo nei modelli di simulazione anziché singolarmente per ogni simulazione.\
->I modelli di simulazione vengono salvati in **[!UICONTROL Resources > Templates > Simulation templates]** nodo della struttura Adobe Campaign.
+>I modelli di simulazione vengono salvati in **[!UICONTROL Resources > Templates > Simulation templates]** cartella di Campaign explorer.
 
 **Esempio:**
 

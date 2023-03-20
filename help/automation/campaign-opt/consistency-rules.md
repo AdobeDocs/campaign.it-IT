@@ -4,7 +4,7 @@ title: Regole di coerenza
 description: Regole di coerenza
 feature: Typology Rules
 exl-id: dcb4ffcf-71e5-48a2-b0f7-42915a599652
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
 source-wordcount: '734'
 ht-degree: 4%
@@ -27,7 +27,7 @@ Nell’esempio seguente, creiamo una regola di tipologia per una campagna di fid
 
 Per progettare una nuova regola di capacità, segui i passaggi seguenti:
 
-1. Sotto la **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** nodo, fai clic su **[!UICONTROL New]**.
+1. Sotto la **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** cartella, fai clic su **[!UICONTROL New]**.
 1. Seleziona una **[!UICONTROL Capacity]** tipo di regola.
 
    ![](assets/campaign_opt_create_capacity_01.png)

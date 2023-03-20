@@ -4,7 +4,7 @@ title: Fornitori, scorte e budget
 description: Fornitori, scorte e budget
 feature: Budget Management, Campaigns
 exl-id: 1d4a98e6-af11-4645-864e-29aa5766d9d8
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
 source-wordcount: '1816'
 ht-degree: 1%
@@ -19,7 +19,7 @@ Adobe Campaign ti consente di definire i provider di servizi che saranno coinvol
 
 Ogni provider di servizi viene salvato in un file con i dati di contatto, i modelli di servizio e i relativi processi.
 
-I provider di servizi sono configurati nel **[!UICONTROL Administration > Campaign management]** nodo dell&#39;albero.
+I provider di servizi sono configurati nel **[!UICONTROL Administration > Campaign management]** cartella di Campaign explorer.
 
 I lavori svolti durante le consegne sono eseguiti dai fornitori di servizi, in particolare per la direct mailing e i canali mobili. Questi fornitori di servizi possono, ad esempio, essere coinvolti nella stampa o nella distribuzione di messaggi. Questi lavori comportano configurazioni e costi specifici per ogni fornitore di servizi. La configurazione dei fornitori di servizi prevede quattro fasi:
 
@@ -129,7 +129,7 @@ Infine, puoi configurare un calcolo dei costi in base al numero totale di messag
 
 * La **[!UICONTROL Notification email]** consente di specificare il modello per la notifica ai provider di servizi dopo l’invio dei file. Seleziona il modello utilizzato per creare il messaggio di avviso e il gruppo di destinatari.
 
-   Per impostazione predefinita, i modelli di consegna per i messaggi di notifica vengono salvati nella **[!UICONTROL Administration > Campaign management > Technical delivery templates]** , accessibile dalla vista generale.
+   Per impostazione predefinita, i modelli di consegna per i messaggi di notifica vengono salvati nella **[!UICONTROL Administration > Campaign management > Technical delivery templates]** , accessibile dalla visualizzazione generale.
 
 * La **[!UICONTROL Post-processing]** consente di selezionare il flusso di lavoro da avviare dopo l’approvazione della consegna. Se si immette un modello di flusso di lavoro, viene automaticamente creata un’istanza di flusso di lavoro e quindi avviata non appena l’approvazione ha effetto. Questo flusso di lavoro può inviare il file di estrazione a un provider di servizi esterno per l’elaborazione, ad esempio.
 

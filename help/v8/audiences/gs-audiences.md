@@ -5,7 +5,7 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 43483085-8aa6-47e6-89e7-9211e37beaa4
-source-git-commit: 7f9a95f3748b8322933137aa780897611de91678
+source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 20%
@@ -22,7 +22,9 @@ Un profilo è un record nel **nmsRecipient** tabella o tabella esterna che memor
 
 ![](assets/recipients-in-explorer.png)
 
-In Adobe Campaign, **destinatari** sono i profili predefiniti target per l’invio di consegne (e-mail, SMS, ecc.). I dati dei destinatari memorizzati nel database ti consentono di filtrare il target che riceverà una determinata consegna e di aggiungere dati di personalizzazione nel contenuto della consegna. Nel database sono presenti altri tipi di profili. Essi sono progettati per diversi utilizzi. Ad esempio, i profili di seed vengono creati per testare le consegne prima che vengano inviate al target finale.
+In Adobe Campaign, **destinatari** sono i profili predefiniti target per l’invio di consegne (e-mail, SMS, ecc.).
+
+I dati dei destinatari memorizzati nel database ti consentono di filtrare il target che riceverà una determinata consegna e di aggiungere dati di personalizzazione nel contenuto della consegna. Nel database sono presenti altri tipi di profili. Essi sono progettati per diversi utilizzi. Ad esempio, i profili di seed vengono creati per testare le consegne prima che vengano inviate al target finale.
 
 Per compilare Adobe Campaign con i dati del profilo, puoi:
 

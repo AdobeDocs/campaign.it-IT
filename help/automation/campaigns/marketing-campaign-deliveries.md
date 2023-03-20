@@ -4,9 +4,9 @@ title: Consegne di campagne di marketing
 description: Ulteriori informazioni sulle consegne delle campagne di marketing
 feature: Campaigns, Resource Management, Cross Channel Orchestration
 exl-id: 1d9638cb-0fc9-4d04-a9c5-bcab8f4ebe95
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '706'
 ht-degree: 1%
 
 ---
@@ -57,7 +57,7 @@ La conferma della consegna è limitata agli amministratori e all’operatore o a
 
 ![](assets/select-delivery-reviewers.png)
 
-Tuttavia, puoi anche consentire al proprietario della campagna di confermare l’invio, anche se sono stati definiti revisori specifici nelle proprietà di consegna o campagna. Per eseguire questa operazione, in qualità di amministratore, crea il **NmsCampaign_Activate_OwnerConfirmation** e impostalo su **1**. Le opzioni vengono gestite dal **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** in Adobe Campaign Explorer.
+Tuttavia, puoi anche consentire al proprietario della campagna di confermare l’invio, anche se sono stati definiti revisori specifici nelle proprietà di consegna o campagna. Per eseguire questa operazione, in qualità di amministratore, crea il **NmsCampaign_Activate_OwnerConfirmation** e impostalo su **1**. Le opzioni vengono gestite dal **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** cartella di Campaign explorer.
 
 
 ### Avviare una consegna direct mailing {#start-an-offline-delivery}
