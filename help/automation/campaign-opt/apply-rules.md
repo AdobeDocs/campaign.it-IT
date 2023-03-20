@@ -4,10 +4,10 @@ title: Applicare le regole di tipologia
 description: Scopri come applicare le regole di tipologia
 feature: Typology Rules
 exl-id: 4ec3bbe1-fc4c-4b1e-989c-f4dcf8ee8d5e
-source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
+source-git-commit: a8568e0c1e9af11b533b7d435691dc12cc0a2485
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 8%
+source-wordcount: '951'
+ht-degree: 9%
 
 ---
 
@@ -15,7 +15,9 @@ ht-degree: 8%
 
 ## Applicare una tipologia a una consegna {#apply-a-typology-to-a-delivery}
 
-Per applicare le regole di tipologia create, devi associarle a una tipologia e quindi fare riferimento a questa tipologia nella consegna. Per eseguire questa operazione:
+Per applicare le regole di tipologia create, associale a una tipologia e fai riferimento a questa tipologia nella consegna.
+
+A tale scopo, segui la procedura indicata di seguito:
 
 1. Creare una tipologia di campagna.
 
@@ -27,7 +29,7 @@ Per applicare le regole di tipologia create, devi associarle a una tipologia e q
 
 1. Salva la tipologia: viene aggiunto all’elenco delle tipologie esistenti.
 1. Apri la consegna a cui desideri applicare le regole.
-1. Apri le proprietà di consegna e accedi al **[!UICONTROL Typology]** scheda .
+1. Passa alle proprietà di consegna e apri la **[!UICONTROL Typology]** scheda .
 1. Seleziona la tipologia nell’elenco a discesa.
 
    ![](assets/campaign_opt_pressure_sample_1_7.png)
@@ -56,7 +58,7 @@ Quindi utilizza l’editor delle query per definire le condizioni di filtro. Nel
 
 Gli arbitrati vengono rieseguiti automaticamente ogni notte tramite il flusso di lavoro di pulizia del database. Tuttavia, i valori possono essere salvati oltre questo periodo.
 
-In effetti, alcuni calcoli utilizzano valori che non cambiano su base giornaliera. Sarebbe quindi irrilevante ricalcolare i dati ogni giorno e sovraccaricare il database per nulla. Ad esempio, se un processo arricchisce il database di marketing con i punteggi di propensione del cliente e le informazioni di acquisto settimanalmente, i dati basati su questi valori non devono essere ricalcolati ogni giorno.
+In effetti, alcuni calcoli utilizzano valori che non cambiano quotidianamente. Sarebbe quindi irrilevante ricalcolare i dati ogni giorno e sovraccaricare il database per nulla. Ad esempio, se un processo arricchisce il database di marketing con i punteggi di propensione del cliente e le informazioni di acquisto settimanalmente, i dati basati su questi valori non devono essere ricalcolati ogni giorno.
 
 Per eseguire questa operazione, **[!UICONTROL Frequency]** campo **[!UICONTROL General]** La scheda ti consente di definire un periodo massimo durante il quale viene salvato il targeting. Per impostazione predefinita, il valore **0** indica che il calcolo rimane valido fino alla successiva esecuzione del ri-arbitrato giornaliero.
 
@@ -82,7 +84,7 @@ Nella modalità operativa standard, le regole vengono applicate nella sequenza s
 1. Regole di pressione.
 1. Regole sulla capacità.
 1. Regole di controllo, se applicate alla fine del targeting.
-1. Regole di controllo, se applicate all’inizio della personalizzazione. Se le regole dell&#39;utente (filtro / pressione / capacitivo) sono scadute e devono essere ricalcolate, verranno applicate durante questo passaggio.
+1. Regole di controllo, se applicate all’inizio della personalizzazione. Se le regole dell&#39;utente (filtro / pressione / capacitivo) sono scadute e devono essere ricalcolate, vengono applicate durante questo passaggio.
 1. Regole di controllo, se applicate al termine della personalizzazione.
 
 >[!NOTE]
@@ -91,11 +93,11 @@ Nella modalità operativa standard, le regole vengono applicate nella sequenza s
 
 È possibile adattare la sequenza di esecuzione delle regole che hanno lo stesso tipo utilizzando il campo appropriato nella sezione **[!UICONTROL General]** scheda della regola. Quando più regole vengono eseguite durante la stessa fase di elaborazione dei messaggi, puoi configurarne la sequenza di esecuzione nel **[!UICONTROL Execution sequence]** campo .
 
-Ad esempio, una regola di pressione con un ordine di esecuzione di 20 verrà eseguita prima di una regola di pressione con un ordine di esecuzione di 30.
+Ad esempio, una regola di pressione con un ordine di esecuzione di 20 viene eseguita prima di una regola di pressione con un ordine di esecuzione di 30.
 
 ### Regole di controllo {#control-rules}
 
-Per **[!UICONTROL Control]** regole, puoi decidere in quale punto del ciclo di vita della consegna verrà applicata la regola (prima o dopo il targeting, all’inizio della personalizzazione, alla fine dell’analisi). Seleziona il valore da applicare nell’elenco a discesa della **[!UICONTROL Phase]** nel campo **[!UICONTROL General]** scheda della regola di tipologia.
+Per **[!UICONTROL Control]** regole, puoi decidere in quale punto del ciclo di vita della consegna viene applicata la regola: prima o dopo il targeting, all’inizio della personalizzazione, alla fine dell’analisi. Seleziona il valore da applicare nell’elenco a discesa della **[!UICONTROL Phase]** nel campo **[!UICONTROL General]** scheda della regola di tipologia.
 
 ![](assets/campaign_opt_define_control_phase.png)
 
