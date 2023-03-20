@@ -1,18 +1,18 @@
 ---
-title: Blocchi di personalizzazione
+title: Utilizzare i blocchi di personalizzazione
 description: Scopri come utilizzare i blocchi di personalizzazione incorporati nel contenuto del messaggio
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
+source-git-commit: badcbb83c4bd0cf509c156557f5ea6f7cf7ae771
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 13%
+source-wordcount: '554'
+ht-degree: 12%
 
 ---
 
 
-# Blocchi di personalizzazione{#personalization-blocks}
+# Utilizzare i blocchi di personalizzazione{#personalization-blocks}
 
 I blocchi di personalizzazione sono contenuti dinamici che contengono un rendering specifico che puoi inserire nelle consegne. Ad esempio, puoi aggiungere un logo, un messaggio di auguri o un collegamento a una pagina speculare.
 

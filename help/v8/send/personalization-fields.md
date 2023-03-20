@@ -1,18 +1,18 @@
 ---
-title: Campi di personalizzazione
+title: Aggiungi campi di personalizzazione
 description: Scopri come inserire dati di personalizzazione nel contenuto del messaggio
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
+source-git-commit: badcbb83c4bd0cf509c156557f5ea6f7cf7ae771
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Campi di personalizzazione{#personalization-fields}
+# Aggiungi campi di personalizzazione{#personalization-fields}
 
 Utilizza i campi di personalizzazione per distribuire contenuti personalizzati su base individuale, in base alle regole impostate per ogni destinatario.
 
