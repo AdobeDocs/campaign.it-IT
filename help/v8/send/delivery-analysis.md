@@ -4,7 +4,7 @@ description: Scopri come preparare e controllare la consegna
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: 8f04981e38da79e69afc890311c559f9ffa136f4
+source-git-commit: 51b333492ad50849751208c7549dc00f66140b82
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 5%
@@ -47,11 +47,11 @@ Per preparare la consegna, accertati che il contenuto e il target della consegna
    >
    >Quando viene eseguita, l’analisi blocca la consegna (o bozza). Ogni modifica della consegna (o prova) deve essere seguita da un&#39;altra analisi prima di diventare applicabile.
 
-Al termine dell’analisi, la sezione superiore della finestra indica se la preparazione della consegna è completa o se si sono verificati degli errori. Vengono elencati tutti i passaggi, le avvertenze e gli errori di convalida. Le icone colorate mostrano il tipo di messaggio:
+   Al termine dell’analisi, la sezione superiore della finestra indica se la preparazione della consegna è completa o se si sono verificati degli errori. Vengono elencati tutti i passaggi, le avvertenze e gli errori di convalida. Le icone colorate mostrano il tipo di messaggio:
 
-* Un’icona blu indica un messaggio informativo.
-* Un’icona gialla indica un errore di elaborazione non critico.
-* Un’icona rossa indica un errore critico che impedisce l’invio della consegna.
+   * Un’icona blu indica un messaggio informativo.
+   * Un’icona gialla indica un errore di elaborazione non critico.
+   * Un’icona rossa indica un errore critico che impedisce l’invio della consegna.
 
    ![](assets/delivery-analysis-results.png){width="800" align="left"}
 
