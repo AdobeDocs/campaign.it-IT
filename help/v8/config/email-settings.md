@@ -5,10 +5,10 @@ feature: Email
 role: User
 level: Intermediate, Experienced
 exl-id: e4e3fb49-9942-4e2d-a020-557d1ac5dcdc
-source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
+source-git-commit: 1baeb8827a0eab4f9487bb5e5afe4d779e00efe4
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 8%
+source-wordcount: '411'
+ht-degree: 5%
 
 ---
 
@@ -66,7 +66,16 @@ Prendi nota delle seguenti specificità e raccomandazioni:
 
 <!--Only successfully sent emails are taken in account, bounces are not.-->
 
-**Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7**
+**Ulteriori informazioni**
+
+In queste sezioni:
+
+* [Utilizzare i modelli di consegna e-mail](../send/create-templates.md)
+
+* [Errori di consegna](../send/delivery-failures.md)
+
+
+E nella documentazione di Campaign Classic v7:
 
 * [Selezionare il formato e-mail](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#selecting-message-formats){target="_blank"}
 
@@ -74,6 +83,3 @@ Prendi nota delle seguenti specificità e raccomandazioni:
 
 * [Impostare l&#39;indirizzo e-mail non recapitato](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#managing-bounce-emails){target="_blank"}
 
-* [Utilizzare i modelli di consegna e-mail](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=it){target="_blank"}
-
-* [Errori di consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html){target="_blank"}

@@ -5,9 +5,9 @@ feature: Privacy, PI
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
-source-git-commit: 864f2179384d3e3cfcf310fcd04fe02240bfbefa
+source-git-commit: cfe559b83a7db36ab8d9223d04d348f3afd74730
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '603'
 ht-degree: 1%
 
 ---
@@ -36,9 +36,8 @@ La gestione degli accessi è una parte importante dell&#39;irrigidimento della s
 
 * Creare un numero sufficiente di gruppi di sicurezza
 * Verificare che ogni operatore disponga dei diritti di accesso appropriati
-* Evita di utilizzare l&#39;operatore amministratore ed evita di avere troppi operatori nel gruppo di amministrazione
 
-![](../assets/do-not-localize/book.png) Ulteriori informazioni in [Documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator){target="_blank"}
+Ulteriori informazioni sulle autorizzazioni in [questa sezione](../start/gs-permissions.md)
 
 ## Linee guida sulla codifica
 
@@ -132,9 +131,8 @@ La gestione degli accessi è una parte importante dell&#39;irrigidimento della s
 
 * Creare un numero sufficiente di gruppi di sicurezza
 * Verificare che ogni operatore disponga dei diritti di accesso appropriati
-* Evita di utilizzare l&#39;operatore amministratore ed evita di avere troppi operatori nel gruppo di amministrazione
 
-![](../assets/do-not-localize/book.png) Ulteriori informazioni in [Documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator){target="_blank"}
+Ulteriori informazioni sulle autorizzazioni in [in questa sezione](../start/gs-permissions.md).
 
 ## Linee guida sulla codifica
 
