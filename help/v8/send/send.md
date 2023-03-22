@@ -5,26 +5,19 @@ feature: Email
 role: Data Engineer
 level: Beginner
 exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
-source-git-commit: 9fa6666532a6943c438268d7ea832f0908588208
+source-git-commit: 4c79078e32c77499f15906fc81f31ce2b26559d7
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 4%
+source-wordcount: '795'
+ht-degree: 3%
 
 ---
 
 
 # Inviare e-mail e monitorarle
 
-Una volta configurata la consegna e pronta per l’invio, assicurati di aver eseguito l’analisi della consegna.
-
-![](../assets/do-not-localize/book.png) [Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#confirming-delivery){target="_blank"}
+Una volta configurata la consegna e pronta per l’invio, assicurati di aver eseguito l’analisi della consegna. [Ulteriori informazioni](delivery-analysis.md)
 
 Al termine, conferma la consegna per avviare la consegna dei messaggi.
-
-Puoi inoltre:
-
-* pianificare la consegna in un secondo momento utilizzando [il posticipo dell’opzione di consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#scheduling-the-delivery-sending){target="_blank"},
-* inviare in più batch utilizzando [onde multiple](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves){target="_blank"}.
 
 Monitora l’esecuzione della consegna dal **Consegna** , accessibile tramite i dettagli di questa consegna o tramite l’elenco delle consegne.
 
@@ -59,7 +52,7 @@ L’MTA qualifica il messaggio di mancato recapito SMTP e lo invia nuovamente a 
 
 >[!NOTE]
 >
->Attualmente **asincrono** i messaggi non recapitati sono qualificati dal processo inMail attraverso **[!UICONTROL Inbound email]** regole. Per ulteriori informazioni, consulta [Documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target="_blank"}. <!--Refer to [bounce mail qualification](delivery-failures.md#bounce-mail-qualification)-->
+>Attualmente **asincrono** i messaggi non recapitati sono qualificati dal processo inMail attraverso **[!UICONTROL Inbound email]** regole.
 
 Ulteriori informazioni sugli errori di consegna in [questa sezione](delivery-failures.md).
 
@@ -107,7 +100,7 @@ La tabella seguente mostra come gli stati dei KPI e dei log di invio vengono agg
 | Passaggio nel processo di invio | Riepilogo KPI | Stato dei registri di invio |
 |--- |--- |--- |
 | Il messaggio viene inviato correttamente da Campaign all’MTA | **[!UICONTROL Success]** percentuale non visualizzata (inizia a 0%) | Considerato dal fornitore di servizi |
-| I messaggi di rimbalzo rigido vengono segnalati nuovamente dall’MTA | Nessuna modifica in **[!UICONTROL Success]** percentuale | Non riuscito |
+| I messaggi di rimbalzo rigido vengono segnalati nuovamente dall’MTA | Nessuna modifica in **[!UICONTROL Success]** percentuale | Operazione non riuscita |
 | I messaggi di rimbalzo morbido vengono segnalati nuovamente dall’MTA | Nessuna modifica in **[!UICONTROL Success]** percentuale | Considerato dal fornitore di servizi |
 | I nuovi tentativi dei messaggi di rimbalzo non sono riusciti | **[!UICONTROL Success]** la percentuale viene aumentata di conseguenza | Inviato |
-| Messaggi di rimbalzo morbido non riusciti | Nessuna modifica in **[!UICONTROL Success]** percentuale | Non riuscito |
+| Messaggi di rimbalzo morbido non riusciti | Nessuna modifica in **[!UICONTROL Success]** percentuale | Operazione non riuscita |
