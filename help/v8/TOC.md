@@ -4,9 +4,9 @@ user-guide-title: Campaign v8
 description: Documentazione di Campaign v8
 breadcrumb-title: Panoramica di Campaign
 title: Documenti su Campaign v8
-source-git-commit: 4c79078e32c77499f15906fc81f31ce2b26559d7
+source-git-commit: 23f30dee861250532490da8598e6e0e18f72c1b0
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '521'
 ht-degree: 94%
 
 ---
@@ -56,15 +56,15 @@ ht-degree: 94%
          + [Errori di consegna](send/delivery-failures.md)
       + [Ottimizzazione dell’ora di invio](send/predictive.md)
       + [Gestire le iscrizioni](start/subscriptions.md)
-   + Personalizzare il contenuto {#personalize}
-      + [Guida introduttiva alla personalizzazione](send/personalize.md)
-      + [Dati di personalizzazione](send/personalization-data.md)
-      + [Aggiungi campi di personalizzazione](send/personalization-fields.md)
-      + [Utilizzare i blocchi di personalizzazione](send/personalization-blocks.md)
-      + [Creare condizioni](send/conditions.md)
-   + Convalidare la consegna {#validate}
-      + [Anteprima e bozze](send/preview-and-proof.md)
-      + [Analisi della consegna](send/delivery-analysis.md)
+      + Personalizzare il contenuto {#personalize}
+         + [Guida introduttiva alla personalizzazione](send/personalize.md)
+         + [Dati di personalizzazione](send/personalization-data.md)
+         + [Aggiungi campi di personalizzazione](send/personalization-fields.md)
+         + [Utilizzare i blocchi di personalizzazione](send/personalization-blocks.md)
+         + [Creare condizioni](send/conditions.md)
+      + Convalidare la consegna {#validate}
+         + [Anteprima e prove e-mail](send/preview-and-proof.md)
+         + [Analisi della consegna](send/delivery-analysis.md)
 + Gestione di profili e pubblico {#audience}
    + [Guida introduttiva a profili e tipi di pubblico](audiences/gs-audiences.md)
    + [Utilizzare i tipi di pubblico](start/audiences.md)
