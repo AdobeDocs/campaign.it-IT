@@ -6,16 +6,33 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 814f7c81aa4f154fdf289effc82b8d02bdd9b4c6
+source-git-commit: 44743e585119e8cd81a8fcc9b4d667c25c0d438e
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Ultima versione{#latest-release}
 
 In questa pagina sono elencate nuove funzionalità, miglioramenti e correzioni introdotti con l’**ultima versione di Campaign v8**.
+
+## Versione 8.4.5 {#release-8-4-5}
+
+_3 aprile 2023_
+
+**Patch**
+
+* È stato risolto un problema che poteva causare un errore di vincolo chiave duplicato se diversi flussi di lavoro di approvazione venivano impostati sulla stessa pianificazione. (NEO-48968)
+* È stato risolto un problema di regressione introdotto da NEO-54474 (8.4.4) che causava la modifica dell’attributo di stile del tag body durante il caricamento di un’immagine nell’editor di contenuti digitali (DCE). (NEO-57697)
+* È stato risolto un problema che poteva causare un errore durante l’esportazione dei dati tramite un connettore di gestione delle relazioni con i clienti se la tabella temporanea aveva una chiave primaria definita lunga invece di uuid. (NEO-54153)
+* È stato risolto un problema di regressione introdotto in 8.4.1 che poteva causare errori nell’esportazione di pacchetti, FDA su HTTP e nel reporting. (NEO-57731)
+* È stato risolto un problema di regressione introdotto in 8.3.8 che poteva impedire che lo stato di consegna venisse aggiornato correttamente per le consegne con ID negativi. (NEO-54675)
+* È stato risolto un problema relativo ai campi booleani durante l’importazione di dati tramite il connettore Big Query (NEO-49181)
+
+>[!CAUTION]
+>
+> L’aggiornamento della console client è obbligatorio. Scopri come aggiornare la console client in questa [pagina](../start/connect.md#upgrade-ac-console).
 
 ## Versione 8.4.4 {#release-8-4-4}
 
