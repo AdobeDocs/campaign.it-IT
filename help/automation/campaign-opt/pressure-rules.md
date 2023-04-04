@@ -13,7 +13,7 @@ ht-degree: 8%
 
 # Regole di pressione{#pressure-rules}
 
-L’implementazione della gestione della pressione di vendita ti consente di evitare di sollecitare eccessivamente la popolazione nel database, nota anche come affaticamento del marketing. A questo scopo, puoi definire un numero massimo di messaggi per destinatario. Ti consente inoltre di implementare regole di arbitrato tra le campagne al fine di inviare il messaggio migliore al pubblico di destinazione.
+L’implementazione della gestione della pressione di vendita ti consente di evitare di sollecitare eccessivamente la popolazione nel database, nota anche come affaticamento del marketing. A questo scopo, puoi definire un numero massimo di messaggi per destinatario. Ti consente inoltre di implementare regole di arbitrato tra le campagne, al fine di inviare il messaggio migliore al pubblico di destinazione.
 
 **Pressione** regole, per gestire l’affaticamento del marketing, ad esempio, per limitare il numero di lettere da inviare a una popolazione a due, per selezionare la comunicazione che meglio corrisponde agli interessi di un gruppo di abbonati, per evitare di inviare un SMS a un cliente insoddisfatto, ecc.
 

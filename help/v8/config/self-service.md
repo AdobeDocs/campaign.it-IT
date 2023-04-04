@@ -26,9 +26,9 @@ Puoi anche utilizzare il Pannello di controllo Campaign per configurare le impos
 
 ![](../assets/do-not-localize/book.png) Ulteriori informazioni in [Documentazione del Pannello di controllo Campaign della campagna](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it){target="_blank"}.
 
-## Come accedere al Pannello di controllo Campaign?
+## Come accedere al Pannello di controllo?
 
-Il Pannello di controllo Campaign è disponibile direttamente da Adobe Experience Cloud. È accessibile solo agli utenti amministratori. Per ulteriori informazioni, [fai clic qui](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=it){target="_blank"}.
+Il Pannello di controllo è disponibile direttamente da Adobe Experience Cloud. È accessibile solo agli utenti amministratori. Per ulteriori informazioni, [fai clic qui](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=it){target="_blank"}.
 
 ## Domande frequenti sul Pannello di controllo
 
@@ -36,7 +36,7 @@ Il Pannello di controllo Campaign è disponibile direttamente da Adobe Experienc
 
 ## Gestione SFTP
 
-Nel Pannello di controllo Campaign, puoi interagire con tutti i server SFTP collegati alle istanze di Campaign a cui hai accesso. Puoi monitorare la loro capacità di archiviazione, nonché gestire gli indirizzi IP nell’elenco degli indirizzi consentiti e le chiavi SSH pubbliche. Per ulteriori informazioni, [fai clic qui](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=it#sftp-management){target="_blank"}.
+Nel Pannello di controllo, puoi interagire con tutti i server SFTP collegati alle istanze di Campaign a cui hai accesso. Puoi monitorare la loro capacità di archiviazione, nonché gestire gli indirizzi IP nell’elenco degli indirizzi consentiti e le chiavi SSH pubbliche. Per ulteriori informazioni, [fai clic qui](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=it#sftp-management){target="_blank"}.
 
 ## Sottodomini e certificati
 
@@ -48,12 +48,12 @@ Scopri come monitorare i sottodomini e i relativi certificati.
 
 ## Monitoraggio delle prestazioni
 
-Il Pannello di controllo Campaign offre diverse funzionalità per monitorare le istanze e garantire prestazioni ottimali. [Fai clic qui](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=it){target="_blank"}
+Il Pannello di controllo offre diverse funzionalità per monitorare le istanze e garantire prestazioni ottimali. [Fai clic qui](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=it){target="_blank"}
 
 
 ## Impostazioni delle istanze
 
-Scopri come gestire le impostazioni delle istanze di Campaign nel Pannello di controllo Campaign.
+Scopri come gestire le impostazioni delle istanze di Campaign nel Pannello di controllo.
 * [IP sull’elenco Consentiti](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=it){target="_blank"}
 * [Autorizzazioni URL](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=it){target="_blank"}
 * [Dettagli istanza](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=it){target="_blank"}

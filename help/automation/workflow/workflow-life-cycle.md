@@ -25,7 +25,7 @@ Il ciclo del flusso di lavoro prevede tre passaggi principali.
 
    Una volta completata la fase di progettazione iniziale, è possibile avviare il flusso di lavoro. In questa fase, l’istanza viene gestita dal server e le singole attività vengono eseguite. Il flusso di lavoro può ancora essere modificato con alcune precauzioni.
 
-* **Completato**
+* **Finito**
 
    Un flusso di lavoro è &quot;Completato&quot; quando non sono più presenti attività in corso o quando un operatore ha esplicitamente interrotto l’istanza.
 

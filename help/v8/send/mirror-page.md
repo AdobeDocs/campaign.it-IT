@@ -7,11 +7,11 @@ level: Beginner
 source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
 source-wordcount: '432'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Collegamento alla pagina speculare{#mirror-page}
+# Collegamento a una pagina mirror{#mirror-page}
 
 ## Informazioni sulla pagina speculare{#about-mirror-page}
 

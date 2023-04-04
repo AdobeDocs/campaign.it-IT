@@ -81,7 +81,7 @@ La rinuncia al tracciamento delle applicazioni web consente di interrompere il t
 
 <img src="assets/do-not-localize/icon_monitor.svg" width="60px">
 
-**Tracking delle statistiche**
+**Statistiche di tracciamento**
 
 Questo rapporto fornisce statistiche su aperture, clic e transazioni e consente di tenere traccia dell’impatto di marketing della consegna.
 

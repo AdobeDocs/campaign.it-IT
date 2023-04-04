@@ -18,7 +18,7 @@ Adobe Campaign è dotato di uno strumento intuitivo di esplorazione dei dati per
 
 Utilizza le funzionalità di analisi di marketing per analizzare e misurare i dati, calcolare le statistiche, semplificare e ottimizzare la creazione e il calcolo dei rapporti. Puoi creare rapporti e creare popolazioni target e memorizzarle in elenchi che possono essere utilizzati in Adobe Campaign per attività di targeting o segmentazione.
 
-Puoi estendere le capacità di esplorazione e di analisi del database e semplificare la configurazione di report e tabelle da parte degli utenti finali: tutto ciò che devono fare è selezionare un cubo esistente (completamente configurato) durante la creazione del report o della tabella per elaborare calcoli, misure e statistiche.
+Puoi estendere le capacità di esplorazione e di analisi del database e semplificare la configurazione di rapporti e tabelle da parte dell’utente finale: per elaborare calcoli, misure e statistiche, sarà sufficiente selezionare un cubo esistente (completamente configurato) durante la creazione del rapporto o della tabella .
 
 I cubi vengono utilizzati per generare alcuni rapporti incorporati, tra cui [rapporti di consegna](delivery-reports.md) (tracciamento della consegna, clic, aperture, ecc.).
 

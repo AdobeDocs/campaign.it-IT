@@ -225,9 +225,9 @@ Consulta la [Matrice di compatibilità di Campaign](compatibility-matrix.md).
 * L’autenticazione di Microsoft Exchange Online OAuth 2.0 per POP3 è ora supportata in Campaign. [Maggiori informazioni](../config/external-accounts.md#bounce-mails-external-account)
 * Sono state applicate correzioni critiche relative all’API web di Microsoft Dynamics Connector.
 * È stato aggiunto il nuovo diritto di scrittura dello schema di operatore e gruppo (operatorWrite) denominato per consentire agli utenti di inserire, aggiornare ed eliminare gli schemi Operatori (xtk:operator) e Gruppi di operatori (xtk:group).
+   <!--* You can now enable the Email BCC (blind carbon copy) capability to store emails sent by Campaign at the delivery level, through the dedicated option in the delivery properties. [Read more](../config/email-settings.md#email-bcc)-->
 
-<!--* You can now enable the Email BCC (blind carbon copy) capability to store emails sent by Campaign at the delivery level, through the dedicated option in the delivery properties. [Read more](../config/email-settings.md#email-bcc)-->
-<!--* To ensure better performances, a new "Split" option is now activated by default in the Routing external account. This option allows messages to be automatically split across your mid-sourcing instances in order to be delivered faster to the recipients.-->
+   <!--* To ensure better performances, a new "Split" option is now activated by default in the Routing external account. This option allows messages to be automatically split across your mid-sourcing instances in order to be delivered faster to the recipients.-->
 * È ora possibile configurare più account attivi LINE su un singolo mid-sourcing.
 * Il numero di connessioni predefinite per il processo web è stato aumentato da 50 a 150.
 * Campaign viene fornito con un set di nuovi guardrail per impedire l’inserimento di chiavi duplicate nel database di Snowflake. [Maggiori informazioni](../architecture/keys.md)
