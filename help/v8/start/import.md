@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 source-git-commit: 1baeb8827a0eab4f9487bb5e5afe4d779e00efe4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '228'
 ht-degree: 100%
 
@@ -46,5 +46,5 @@ Utilizza Campaign per creare moduli web e raccogliere e gestire le informazioni 
 **Argomenti correlati**
 
 * [Creare tipi di pubblico](audiences.md)
-* [Eseguire la deduplicazione dei profili](../../automation/workflow/deduplication-merge.md)
-* [Arricchire i dati del profilo](../../automation/workflow/enrich-data.md)
+* [Deduplica i profili](../../automation/workflow/deduplication-merge.md)
+* [Arricchisci i dati del profilo](../../automation/workflow/enrich-data.md)
