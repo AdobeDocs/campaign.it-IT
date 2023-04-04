@@ -6,9 +6,9 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
 source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '866'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Adobe Campaign dispone di funzioni di segmentazione e targeting potenti e intuit
 
 La funzionalità avanzata di gestione dei dati estende le funzionalità di elaborazione dei dati. Semplifica e ottimizza il processo di targeting includendo dati non modellati nel data mart.
 
-![](../assets/do-not-localize/glass.png) Ulteriori informazioni sulla segmentazione e sulla creazione di tipi di pubblico in [questa sezione](audiences.md).
+![](../assets/do-not-localize/glass.png) Ulteriori informazioni sulla segmentazione e la creazione di pubblico sono disponibili in [questa sezione](audiences.md).
 
 ## Orchestrazione di campagne cross-channel {#cross-channel-campaign-orchestration}
 
