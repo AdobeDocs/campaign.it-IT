@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
 source-git-commit: 4c79078e32c77499f15906fc81f31ce2b26559d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '469'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Dopo aver creato il messaggio e averne progettato e testato il relativo contenut
 
    ![](assets/send-in-a-wf.png)
 
-    Per scoprire come automatizzare le consegne di e-mail, consulta [questa pagina](../../automation/workflow/delivery.md).
+   Per scoprire come automatizzare le consegne di e-mail, consulta [questa pagina](../../automation/workflow/delivery.md).
 
 * [Attivare i messaggi](../send/transactional.md) da un evento
 
