@@ -5,9 +5,9 @@ description: Documentazione di Campaign v8
 breadcrumb-title: Panoramica di Campaign
 title: Documenti su Campaign v8
 source-git-commit: 464898df7a362c137d20ebaf2b96bfef71131ae6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '520'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 94%
       + [Utilizzare i modelli di consegna](send/create-templates.md)
       + E-mail {#emails}
          + [Progettare e convalidare le e-mail](send/email.md)
-         + [Collegamento alla pagina speculare](send/mirror-page.md)
+         + [Collegamento a una pagina mirror](send/mirror-page.md)
          + [Inviare e monitorare le e-mail](send/send.md)
       + [SMS](send/sms.md)
       + [Notifiche push](send/push.md)
@@ -56,10 +56,10 @@ ht-degree: 94%
          + [Errori di consegna](send/delivery-failures.md)
       + [Ottimizzazione dell’ora di invio](send/predictive.md)
       + [Gestire le iscrizioni](start/subscriptions.md)
-      + Personalizzare il contenuto {#personalize}
-         + [Guida introduttiva alla personalizzazione](send/personalize.md)
+      + Personalizzazione dei contenuti {#personalize}
+         + [Introduzione alla personalizzazione](send/personalize.md)
          + [Dati di personalizzazione](send/personalization-data.md)
-         + [Aggiungi campi di personalizzazione](send/personalization-fields.md)
+         + [Aggiungere campi di personalizzazione](send/personalization-fields.md)
          + [Utilizzare i blocchi di personalizzazione](send/personalization-blocks.md)
          + [Creare condizioni](send/conditions.md)
       + Convalidare la consegna {#validate}
