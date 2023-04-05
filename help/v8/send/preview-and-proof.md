@@ -4,10 +4,10 @@ description: Scopri come convalidare la consegna prima dell’invio
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: 4c79078e32c77499f15906fc81f31ce2b26559d7
+source-git-commit: e0129524a051827a52de478c3fdc45b963d6c4bb
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,7 @@ Per visualizzare l’anteprima del contenuto del messaggio, effettua le seguenti
 
 ## Invia bozze {#send-proofs}
 
-L’invio di bozze consente di controllare il collegamento di rinuncia, la pagina speculare e qualsiasi altro collegamento, convalidare il messaggio, verificare che le immagini siano visualizzate, rilevare eventuali errori e così via. Puoi anche controllare la progettazione e il rendering su diversi dispositivi.
+Per le consegne e-mail, puoi inviare bozze per convalidare il contenuto del messaggio. L’invio di bozze consente di controllare il collegamento di rinuncia, la pagina speculare e qualsiasi altro collegamento, convalidare il messaggio, verificare che le immagini siano visualizzate, rilevare eventuali errori e così via. Puoi anche controllare la progettazione e il rendering su diversi dispositivi.
 
 Una bozza è un messaggio specifico che ti consente di testare un messaggio prima di inviarlo al pubblico principale. I destinatari della bozza hanno il compito di approvare il messaggio: rendering, contenuto, impostazioni di personalizzazione, configurazione.
 
