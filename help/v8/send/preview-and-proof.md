@@ -4,10 +4,10 @@ description: Scopri come convalidare la consegna prima dell’invio
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: e0129524a051827a52de478c3fdc45b963d6c4bb
+source-git-commit: a6d2cb72968fe489a73f92f00f6a50be8ed3e997
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '713'
+ht-degree: 4%
 
 ---
 
@@ -63,7 +63,7 @@ Per impostazione predefinita, la sostituzione viene eseguita in modo casuale, ma
    >
    >Gli indirizzi di seed non appartengono alla tabella dei destinatari predefinita (nms:recipient) ma vengono creati in una tabella separata. Se estendi la tabella dei destinatari con nuovi dati, devi estendere anche la tabella degli indirizzi di seed con gli stessi dati.
 
-   Ulteriori informazioni sugli indirizzi di seed in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.htmll){target="_blank"}.
+   Ulteriori informazioni sugli indirizzi di seed in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
 
 * Utilizza la **[!UICONTROL Specific target and Seed addresses]** per combinare indirizzi di seed e indirizzi e-mail specifici. Le configurazioni correlate vengono quindi definite in due schede secondarie separate.
 
