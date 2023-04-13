@@ -7,9 +7,9 @@ level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 source-git-commit: 44743e585119e8cd81a8fcc9b4d667c25c0d438e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '678'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ _3 aprile 2023_
 
 **Patch**
 
-* È stato risolto un problema che poteva causare un errore di vincolo chiave duplicato se diversi flussi di lavoro di approvazione venivano impostati sulla stessa pianificazione. (NEO-48968)
-* È stato risolto un problema di regressione introdotto da NEO-54474 (8.4.4) che causava la modifica dell’attributo di stile del tag body durante il caricamento di un’immagine nell’editor di contenuti digitali (DCE). (NEO-57697)
-* È stato risolto un problema che poteva causare un errore durante l’esportazione dei dati tramite un connettore di gestione delle relazioni con i clienti se la tabella temporanea aveva una chiave primaria definita lunga invece di uuid. (NEO-54153)
-* È stato risolto un problema di regressione introdotto in 8.4.1 che poteva causare errori nell’esportazione di pacchetti, FDA su HTTP e nel reporting. (NEO-57731)
-* È stato risolto un problema di regressione introdotto in 8.3.8 che poteva impedire che lo stato di consegna venisse aggiornato correttamente per le consegne con ID negativi. (NEO-54675)
+* È stato risolto un problema che poteva causare un errore di duplicazione di vincolo chiave se diversi flussi di lavoro di approvazione venivano impostati sulla stessa pianificazione. (NEO-48968)
+* È stato risolto un problema di regressione introdotto da NEO-54474 (8.4.4) che causava la modifica dell’attributo di stile del corpo del tag durante il caricamento di un’immagine dell’editor di contenuti digitali (DCE). (NEO-57697)
+* È stato risolto un problema che poteva causare un errore durante l’esportazione dei dati tramite un connettore CRM se la tabella temporanea aveva una chiave primaria definita come lunga invece di UUID. (NEO-54153)
+* È stato risolto un problema di regressione introdotto in 8.4.1 che poteva causare errori nell’esportazione di pacchetti, nel FDA su HTTP e nella reportistica. (NEO-57731)
+* È stato risolto un problema di regressione introdotto nella versione 8.3.8 che poteva impedire che lo stato di consegna venisse aggiornato correttamente per le consegne con ID negativi. (NEO-54675)
 * È stato risolto un problema relativo ai campi booleani durante l’importazione di dati tramite il connettore Big Query (NEO-49181)
 
 >[!CAUTION]
