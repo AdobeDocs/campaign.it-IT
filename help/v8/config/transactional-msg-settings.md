@@ -5,20 +5,20 @@ feature: Transactional Messaging
 role: Admin, Developer
 level: Intermediate, Experienced
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
-source-git-commit: c61f03252c7cae72ba0426d6edcb839950267c0a
+source-git-commit: 2d10a8f4349b9e2405847fc6a3db1ed568c60387
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 6%
+source-wordcount: '600'
+ht-degree: 5%
 
 ---
 
 # Impostazioni dei messaggi transazionali
 
+La messaggistica transazionale (Message Center, Centro messaggi) è un modulo Campaign progettato per la gestione dei messaggi attivati. Ulteriori informazioni sulla messaggistica transazionale in [questa sezione](../send/transactional.md).
+
+Comprendere l’architettura dei messaggi transazionali in [questa pagina](../architecture/architecture.md#transac-msg-archi).
+
 ![](../assets/do-not-localize/speech.png) Come utente di Cloud Services gestiti, [Adobe di contatto](../start/campaign-faq.md#support) per installare e configurare i messaggi transazionali di Campaign nel tuo ambiente.
-
-![](../assets/do-not-localize/glass.png) Le funzionalità di messaggistica transazionale sono descritte in [questa sezione](../send/transactional.md).
-
-![](../assets/do-not-localize/glass.png) Comprendere l’architettura dei messaggi transazionali in [questa pagina](../architecture/architecture.md#transac-msg-archi).
 
 ## Definire le autorizzazioni
 
@@ -26,15 +26,11 @@ Per creare nuovi utenti per le istanze di esecuzione del Centro messaggi ospitat
 
 ## Estensioni dello schema
 
-Tutte le estensioni dello schema effettuate sugli schemi utilizzati da **Flussi di lavoro tecnici del Centro messaggi** nelle istanze di controllo o di esecuzione devono essere duplicate sulle altre istanze utilizzate dal modulo di messaggistica transazionale di Adobe Campaign.
-
-![](../assets/do-not-localize/book.png) Ulteriori informazioni sui flussi di lavoro tecnici del Centro messaggi in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html#technical-workflows)
+Tutte le estensioni dello schema effettuate sugli schemi utilizzati da [Flussi di lavoro tecnici del Centro messaggi](#technical-workflows) nelle istanze di controllo o di esecuzione devono essere duplicate sulle altre istanze utilizzate dal modulo di messaggistica transazionale di Adobe Campaign.
 
 ## Inviare notifiche push transazionali
 
-Se combinato con il modulo del canale dell’app mobile, la messaggistica transazionale consente di inviare messaggi transazionali tramite notifiche su dispositivi mobili.
-
-![](../assets/do-not-localize/book.png) Il canale app mobile è descritto in [questa sezione](../send/push.md).
+Se combinato con [Modulo del canale app mobile](../send/push.md), la messaggistica transazionale consente di inviare messaggi transazionali tramite notifiche su dispositivi mobili.
 
 Per inviare notifiche push transazionali, devi eseguire le seguenti configurazioni:
 
@@ -46,14 +42,14 @@ Per inviare notifiche push transazionali, devi eseguire le seguenti configurazio
 
 1. Replicare il **App mobile** e le applicazioni mobili associate alle istanze di esecuzione.
 
-Affinché Campaign possa inviare notifiche push transazionali, l’evento deve contenere i seguenti elementi:
+Inoltre, l&#39;evento deve contenere i seguenti elementi:
 
-* ID dispositivo mobile: **registrationId** per Android e **deviceToken** per iOS. Questo ID rappresenta l&#39;&quot;indirizzo&quot; a cui verrà inviata la notifica.
+* ID dispositivo mobile: **registrationId** per Android e **deviceToken** per iOS. Questo ID rappresenta l&#39;&quot;indirizzo&quot; a cui viene inviata la notifica.
 * Il collegamento all’app mobile o alla chiave di integrazione (**uuid**), che consente di recuperare informazioni sulla connessione specifiche dell’applicazione.
 * Il canale a cui verrà inviata la notifica (**wishChannel**): 41 per iOS e 42 per Android.
-* Altri dati da sfruttare per la personalizzazione.
+* Qualsiasi altro dato di personalizzazione.
 
-Di seguito è riportato un esempio di evento contenente queste informazioni:
+Di seguito è riportato un esempio di configurazione di un evento per l’invio di notifiche push transazionali:
 
 ```
 <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
@@ -76,14 +72,7 @@ Di seguito è riportato un esempio di evento contenente queste informazioni:
 </SOAP-ENV:Envelope>
 ```
 
-## Monitorare le soglie {#monitor-thresholds}
 
-Puoi configurare le soglie di avviso (arancione) e le soglie di avviso (rosso) degli indicatori visualizzati nella **Livello di servizio del Centro messaggi** e **Tempo di elaborazione del Centro messaggi** rapporti.
-
-A tale scopo, segui la procedura indicata di seguito:
-
-1. Apri la procedura guidata di distribuzione in **istanza di esecuzione**, e sfogliare **[!UICONTROL Message Center]** pagina.
-1. Utilizzare le frecce per modificare le soglie.
 
 
 ## Eliminare gli eventi {#purge-events}

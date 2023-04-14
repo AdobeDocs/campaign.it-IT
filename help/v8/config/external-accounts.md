@@ -5,10 +5,10 @@ feature: Application Settings
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 6dee08f0f8673e5264f3cb111fe14493980a62fc
+source-git-commit: 2d10a8f4349b9e2405847fc6a3db1ed568c60387
 workflow-type: tm+mt
 source-wordcount: '1081'
-ht-degree: 6%
+ht-degree: 5%
 
 ---
 
@@ -24,10 +24,12 @@ Puoi accedere agli account esterni da Adobe Campaign **[!UICONTROL Explorer]**: 
 
 
 >[!CAUTION]
+>* In qualità di utente di Cloud Services gestiti, gli account esterni sono configurati per la tua istanza per Adobe e non devono essere modificati.
+
 >
->Nel contesto di un [Distribuzione aziendale (FFDA)](../architecture/enterprise-deployment.md), un **[!UICONTROL Full FDA]** (ffda) l’account esterno gestisce la connessione tra il database locale di Campaign e il database Cloud ([!DNL Snowflake]).
+>* >Nel contesto di un [Distribuzione aziendale (FFDA)](../architecture/enterprise-deployment.md), un **[!UICONTROL Full FDA]** (ffda) l’account esterno gestisce la connessione tra il database locale di Campaign e il database Cloud ([!DNL Snowflake]).
 >
->In qualità di utente di Cloud Services gestiti, gli account esterni sono configurati per la tua istanza per Adobe e non devono essere modificati.
+
 
 ## Account esterni specifici per la campagna
 
@@ -38,8 +40,7 @@ I seguenti account tecnici vengono utilizzati da Adobe Campaign per abilitare ed
 ### Messaggi non recapitati {#bounce-mails-external-account}
 
 >[!NOTE]
->
->L’autenticazione di Microsoft Exchange Online OAuth 2.0 per la funzionalità POP3 è disponibile a partire da Campaign v8.3. Per verificare la versione, fai riferimento a [questa sezione](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+L’autenticazione di Microsoft Exchange Online OAuth 2.0 per la funzionalità POP3 è disponibile a partire da Campaign v8.3. Per verificare la versione, fai riferimento a [questa sezione](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
 La **Messaggi non recapitati** account esterno specifica l’account POP3 esterno da utilizzare per connettersi al servizio e-mail. Tutti i server configurati per l&#39;accesso POP3 possono essere utilizzati per ricevere la posta di ritorno.
 
@@ -77,8 +78,7 @@ La **Messaggi non recapitati** account esterno specifica l’account POP3 estern
 ![](assets/bounce_external_2.png)
 
 >[!IMPORTANT]
->
->Prima di configurare l’account esterno POP3 utilizzando Microsoft OAuth 2.0, è necessario registrare l’applicazione nel portale di Azure. Per ulteriori informazioni, consulta questa [pagina](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app).
+Prima di configurare l’account esterno POP3 utilizzando Microsoft OAuth 2.0, è necessario registrare l’applicazione nel portale di Azure. Per ulteriori informazioni, consulta questa [pagina](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app){target="_blank"}.
 
 Per configurare un POP3 esterno utilizzando Microsoft OAuth 2.0, controlla il **[!UICONTROL Microsoft OAuth 2.0]** e compila i campi seguenti:
 
@@ -105,8 +105,7 @@ Dopo aver immesso le diverse credenziali, puoi fare clic su **[!UICONTROL Setup 
 La **[!UICONTROL Routing]** l’account esterno ti consente di configurare ogni canale disponibile in Adobe Campaign in base ai pacchetti installati.
 
 >[!CAUTION]
->
->La **[!UICONTROL Internal email delivery routing]** Account esterno (defaultEmailBulk) **non deve** in Adobe Campaign v8.
+La **[!UICONTROL Internal email delivery routing]** Account esterno (defaultEmailBulk) **non deve** in Adobe Campaign v8.
 
 ### Istanza di esecuzione {#execution-instance}
 
@@ -116,60 +115,30 @@ Nel contesto della messaggistica transazionale, le istanze di esecuzione sono co
 
 ## Accesso agli account esterni dei sistemi esterni
 
-* **Database esterno (FDA)**
-
-   La **Database esterno** Il tipo di account esterno viene utilizzato per connettersi a un database esterno tramite Federated Data Access (FDA).
+* **Database esterno (FDA)** - **Database esterno** Il tipo di account esterno viene utilizzato per connettersi a un database esterno tramite Federated Data Access (FDA). Ulteriori informazioni sull’opzione Federated Data Access (FDA) in [questa sezione](../connect/fda.md).
 
    I database esterni compatibili con Adobe Campaign v8 sono elencati nel [Matrice di compatibilità](../start/compatibility-matrix.md)
 
-   ![](../assets/do-not-localize/glass.png) Ulteriori informazioni sull’opzione Federated Data Access (FDA) in [questa sezione](../connect/fda.md).
-
-* **Twitter**
-
-   La **Twitter** Il tipo di account esterno viene utilizzato per collegare Campaign al tuo account twitter e per inviare messaggi per tuo conto.
-
-   ![](../assets/do-not-localize/glass.png) Ulteriori informazioni sull’integrazione di Twitter in [questa sezione](../connect/ac-tw.md).
+* **Twitter** - **Twitter** Il tipo di account esterno viene utilizzato per collegare Campaign al tuo account twitter e per inviare messaggi per tuo conto. Ulteriori informazioni sull’integrazione di Twitter in [questa sezione](../connect/ac-tw.md).
 
 ## Account esterni per l’integrazione di soluzioni Adobe
 
-* **Adobe Experience Cloud**
+* **Adobe Experience Cloud** - **[!UICONTROL Adobe Experience Cloud]** l’account esterno viene utilizzato per implementare Adobe Identity Management Service (IMS) per connettersi ad Adobe Campaign. Ulteriori informazioni su Adobe Identity Management Service (IMS) in [questa sezione](../start/connect.md#connect-ims).
 
-   La **[!UICONTROL Adobe Experience Cloud]** l’account esterno viene utilizzato per implementare Adobe Identity Management Service (IMS) per connettersi ad Adobe Campaign.
+* **Analisi web** - **[!UICONTROL Web Analytics (Adobe Analytics)]** l’account esterno viene utilizzato per configurare il trasferimento di dati da Adobe Analytics ad Adobe Campaign. Ulteriori informazioni sull’integrazione Adobe Campaign - Adobe Analytics in [questa pagina](../connect/ac-aa.md).
 
-   ![](../assets/do-not-localize/glass.png) Ulteriori informazioni su Adobe Identity Management Service (IMS) in [questa sezione](../start/connect.md#connect-ims).
-
-* **Analisi web**
-
-   La **[!UICONTROL Web Analytics (Adobe Analytics)]** l’account esterno viene utilizzato per configurare il trasferimento di dati da Adobe Analytics ad Adobe Campaign.
-
-   ![](../assets/do-not-localize/glass.png) Ulteriori informazioni sull’integrazione Adobe Campaign - Adobe Analytics in [questa pagina](../connect/ac-aa.md).
-
-* **Adobe Experience Manager**
-
-   La **[!UICONTROL AEM]** l’account esterno ti consente di gestire il contenuto delle consegne e-mail e dei moduli direttamente in Adobe Experience Manager.
-
-   ![](../assets/do-not-localize/glass.png) Ulteriori informazioni sull’integrazione Adobe Campaign - Adobe Analytics in [questa pagina](../connect/ac-aem.md).
+* **Adobe Experience Manager** - **[!UICONTROL AEM]** l’account esterno ti consente di gestire il contenuto delle consegne e-mail e dei moduli direttamente in Adobe Experience Manager. Ulteriori informazioni sull’integrazione Adobe Campaign - Adobe Analytics in [questa pagina](../connect/ac-aem.md).
 
 
 ## Account esterni del connettore di gestione delle relazioni con i clienti
 
-* **Microsoft Dynamics CRM**
+* **Microsoft Dynamics CRM** - **[!UICONTROL Microsoft Dynamics CRM]** l’account esterno ti consente di importare ed esportare dati di Microsoft Dynamics in Adobe Campaign. Ulteriori informazioni sull’integrazione di Adobe Campaign - Microsoft Dynamics CRM in [questa pagina](../connect/ac-ms-dyn.md).
 
-   La **[!UICONTROL Microsoft Dynamics CRM]** l’account esterno ti consente di importare ed esportare dati di Microsoft Dynamics in Adobe Campaign.
-
-   ![](../assets/do-not-localize/glass.png) Ulteriori informazioni sull’integrazione di Adobe Campaign - Microsoft Dynamics CRM in [questa pagina](../connect/ac-ms-dyn.md).
-
-* **Salesforce.com**
-
-   La **[!UICONTROL Salesforce CRM]** l’account esterno ti consente di importare ed esportare dati Salesforce in Adobe Campaign.
-
-   ![](../assets/do-not-localize/glass.png) Ulteriori informazioni sull&#39;integrazione di Adobe Campaign - Salesforce.com CRM in [questa pagina](../connect/ac-sfdc.md).
+* **Salesforce.com** - **[!UICONTROL Salesforce CRM]** l’account esterno ti consente di importare ed esportare dati Salesforce in Adobe Campaign. Ulteriori informazioni sull&#39;integrazione di Adobe Campaign - Salesforce.com CRM in [questa pagina](../connect/ac-sfdc.md).
 
 ## Trasferisci account esterni dati
 
-Questi account esterni possono essere utilizzati per importare o esportare dati in Adobe Campaign utilizzando un **[!UICONTROL Transfer file]** attività del flusso di lavoro.
-
-Ulteriori informazioni sul trasferimento di file nei flussi di lavoro in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html)
+Questi account esterni possono essere utilizzati per importare o esportare dati in Adobe Campaign utilizzando un **[!UICONTROL Transfer file]** attività del flusso di lavoro. Ulteriori informazioni sul trasferimento di file nei flussi di lavoro in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html)
 
 * **FTP e SFTP**
 
