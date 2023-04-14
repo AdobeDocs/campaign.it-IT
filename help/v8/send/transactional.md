@@ -5,7 +5,7 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 2a85ffc2fe3a839c14a5c844deaa7a09687743eb
 workflow-type: tm+mt
 source-wordcount: '1519'
 ht-degree: 1%
@@ -24,9 +24,9 @@ I messaggi transazionali vengono utilizzati per inviare:
 * una risposta in tempo reale individuale a un&#39;azione del cliente
 * contenuto non promozionale
 
-![](../assets/do-not-localize/glass.png) Le impostazioni di messaggistica transazionale sono descritte in [questa sezione](../config/transactional-msg-settings.md).
+Le impostazioni di messaggistica transazionale sono descritte in [questa sezione](../config/transactional-msg-settings.md).
 
-![](../assets/do-not-localize/glass.png) Comprendere l’architettura dei messaggi transazionali su [questa pagina](../architecture/architecture.md#transac-msg-archi).
+Comprendere l’architettura dei messaggi transazionali su [questa pagina](../architecture/architecture.md#transac-msg-archi).
 
 ## Principio operativo della messaggistica transazionale {#transactional-messaging-operating-principle}
 
