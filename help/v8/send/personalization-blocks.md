@@ -4,13 +4,13 @@ description: Scopri come utilizzare i blocchi di personalizzazione incorporati n
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: badcbb83c4bd0cf509c156557f5ea6f7cf7ae771
+exl-id: 214ad693-d456-47ec-a9c8-199ba23c3d9c
+source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
 workflow-type: tm+mt
 source-wordcount: '554'
-ht-degree: 13%
+ht-degree: 17%
 
 ---
-
 
 # Utilizzare i blocchi di personalizzazione{#personalization-blocks}
 
@@ -40,11 +40,11 @@ I blocchi di personalizzazione incorporati sono:
 
 * **[!UICONTROL Enabled by Adobe Campaign]**: inserisce il logo &quot;Abilitato da Adobe Campaign&quot;.
 * **[!UICONTROL Formatting function for proper nouns]**: genera **[!UICONTROL toSmartCase]** Funzione Javascript, che cambia in maiuscolo la prima lettera di ogni parola.
-* **[!UICONTROL Greetings]**: inserisce i saluti con il nome completo del destinatario, seguito da una virgola. Esempio: “Ciao John Doe,”
+* **[!UICONTROL Greetings]**: inserisce i saluti con il nome completo del destinatario, seguito da una virgola. Esempio: “Ciao John Doe,” 
 * **[!UICONTROL Insert logo]**: inserisce un logo definito nelle impostazioni dell’istanza.
-* **[!UICONTROL Link to mirror page]**: inserisce un collegamento alla [pagina speculare](mirror-page.md). Il formato predefinito è: &quot;Se non riesci a visualizzare correttamente questo messaggio, fai clic qui&quot;.
+* **[!UICONTROL Link to mirror page]**: inserisce un collegamento alla [pagina speculare](mirror-page.md). Il formato predefinito è: “Se non riesci a visualizzare correttamente questo messaggio, fai clic qui”.
 * **[!UICONTROL Mirror page URL]**: inserisce l’URL della pagina speculare, consentendo a Progettazione consegne di controllare il collegamento.
-* **[!UICONTROL Offer acceptance URL in unitary mode]**: inserisce un URL che consente di impostare un’offerta su **[!UICONTROL Accepted]**. (Questo blocco è disponibile se il modulo di interazione è abilitato)
+* **[!UICONTROL Offer acceptance URL in unitary mode]**: inserisce un URL che consente di impostare un’offerta su **[!UICONTROL Accepted]**. Questo blocco è disponibile se il modulo di interazione è abilitato
 * **[!UICONTROL Registration confirmation]**: inserisce un collegamento che consente di confermare l’abbonamento.
 * **[!UICONTROL Registration link]**: inserisce un collegamento di abbonamento. Questo collegamento è definito nelle impostazioni dell’istanza. Il contenuto predefinito è: “Per registrarti, fai clic qui.”
 * **[!UICONTROL Registration link (with referrer)]**: inserisce un collegamento di abbonamento, che consente di identificare il visitatore e la consegna. Questo collegamento è definito nelle impostazioni dell’istanza.
@@ -80,5 +80,3 @@ Una volta salvato, il nuovo blocco di personalizzazione è disponibile nell’ed
 Scopri come creare blocchi di contenuto dinamici e come utilizzarli per personalizzare il contenuto della consegna e-mail nel video seguente.
 
 >[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12)
-
-

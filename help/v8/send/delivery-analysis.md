@@ -4,7 +4,8 @@ description: Scopri come preparare e controllare la consegna
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: 51b333492ad50849751208c7549dc00f66140b82
+exl-id: 1526048d-9f02-4853-948f-8fb618670dbd
+source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 5%
@@ -89,5 +90,3 @@ Questa scheda consente di accedere alle seguenti opzioni:
 * **[!UICONTROL Start job in a detached process]** : questa opzione ti consente di avviare l’analisi della consegna in un processo separato. Per impostazione predefinita, la funzione di analisi utilizza il processo dell’application server (web nlserver) di Adobe Campaign. Selezionando questa opzione, assicurati che l’analisi venga completata anche in caso di errore dell’application server.
 * **[!UICONTROL Log SQL queries generated during the analysis in the journal]** : questa opzione aggiunge i registri di query SQL al giornale di registrazione consegne durante la fase di analisi.
 * **[!UICONTROL Ignore personalization scripts during sending]** : questa opzione consente di ignorare l’interpretazione delle direttive JavaScript presenti nel contenuto di HTML. Saranno visualizzati così come sono nel contenuto consegnato. Queste direttive sono introdotte con `<%=` tag .
-
-

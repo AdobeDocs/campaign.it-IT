@@ -4,13 +4,13 @@ description: Scopri come inserire dati di personalizzazione nel contenuto del me
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: badcbb83c4bd0cf509c156557f5ea6f7cf7ae771
+exl-id: 14a741dd-794e-4760-bfa3-bafbe993a3f7
+source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 4%
 
 ---
-
 
 # Aggiungere campi di personalizzazione{#personalization-fields}
 
@@ -65,4 +65,3 @@ Nel caso d’uso seguente, scopri come personalizzare un oggetto e un corpo dell
 Scopri come aggiungere un campo di personalizzazione alla riga dell’oggetto e il contenuto di una consegna e-mail nel video seguente.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12)
-
