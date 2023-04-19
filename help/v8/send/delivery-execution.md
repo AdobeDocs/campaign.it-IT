@@ -4,13 +4,13 @@ description: Scopri come inviare e monitorare i messaggi transazionali
 feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
-source-git-commit: 2d10a8f4349b9e2405847fc6a3db1ed568c60387
+exl-id: 084607f6-47d8-40c0-89ba-bfbb88fc2e53
+source-git-commit: c044b391c900e8ff82147f2682e2e4f91845780c
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 2%
 
 ---
-
 
 # Inviare e monitorare messaggi transazionali {#delivery-execution}
 
@@ -110,4 +110,3 @@ A tale scopo, segui la procedura indicata di seguito:
 1. Utilizzare le frecce per modificare le soglie.
 
    ![](assets/mc-thresholds.png)
-
