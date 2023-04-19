@@ -6,9 +6,9 @@ feature: Reporting
 role: Data Engineer
 level: Beginner
 exl-id: 300aedd0-6b5d-4264-bd63-e26a41ab64db
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1431'
 ht-degree: 2%
 
 ---
@@ -64,6 +64,8 @@ Per creare questo tipo di binding dei valori, procedi come segue:
 
    Ogni volta che i valori di enumerazione vengono aggiornati, i contenitori corrispondenti vengono adattati automaticamente.
 
+Ulteriori informazioni sulle enumerazioni in [questa pagina](../../v8/config/ui-settings.md#enumerations).
+
 ### Creazione di intervalli di valori {#create-value-ranges}
 
 Puoi raggruppare i valori in intervalli in base a un intervallo desiderato.
@@ -111,6 +113,8 @@ Quindi, crea un rapporto basato su questo Cubo per visualizzare i valori.
 La **[!UICONTROL Domains]** L’enumerazione viene utilizzata per generare rapporti incorporati che visualizzano l’elenco dei domini. Per adattare il contenuto di questi rapporti, è possibile modificare questo elenco.
 
 Puoi creare altre enumerazioni riservate al binding e utilizzarle in altri Cubi: tutti i valori alias verranno raggruppati nei contenitori specificati nella prima scheda enumerazione.
+
+Ulteriori informazioni sulle enumerazioni in [questa pagina](../../v8/config/ui-settings.md#enumerations).
 
 ## Aggregati nei cubi {#calculate-and-use-aggregates}
 
