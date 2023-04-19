@@ -5,9 +5,9 @@ feature: Application Settings
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: a11d3895-00f1-43d0-b0f7-330fce9fd56b
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,7 @@ Per ogni enumerazione, i valori vengono visualizzati in un elenco a discesa dal 
 
 Per **Apri** enumerazioni, l’utente può anche immettere i primi caratteri nel valore e vengono visualizzati i possibili valori.
 
-Scopri come accedere e configurare le enumerazioni in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target="_blank"}.
-
+Ulteriori informazioni sulle enumerazioni in [questa pagina](../../v8/config/ui-settings.md#enumerations).
 
 ## Unità predefinite {#default-units}
 
