@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: use-cases
 feature: Workflows, Data Management
 exl-id: 4fe2ae81-faa6-4777-a332-70c451bca75b
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 0%
@@ -15,8 +15,6 @@ ht-degree: 0%
 ---
 
 # Aggiungi un campo calcolato di tipo Enumerazione {#adding-an-enumeration-type-calculated-field}
-
-
 
 Qui si desidera creare una query con un **[!UICONTROL Enumerations]** digitare campo calcolato. Questo campo genera una colonna aggiuntiva nella finestra di anteprima dati. Questa colonna specifica i valori numerici restituiti come risultato per ciascun destinatario (0, 1 e 2). A ogni valore della nuova colonna verrà assegnato un genere: &quot;Uomo&quot; per &quot;1&quot;, &quot;Donna&quot; per &quot;2&quot; o &quot;Non indicato&quot; se il valore è uguale a &quot;0&quot;.
 
