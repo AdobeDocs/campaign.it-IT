@@ -5,9 +5,9 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
-source-git-commit: 2a85ffc2fe3a839c14a5c844deaa7a09687743eb
+source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1510'
 ht-degree: 1%
 
 ---
@@ -57,10 +57,8 @@ Quando [creazione di un modello di messaggio](#create-message-template), selezio
 
 Per creare tipi di evento che verranno elaborati da Adobe Campaign, segui i passaggi seguenti:
 
-1. Vai a **[!UICONTROL Administration > Platform > Enumerations]** cartella dell&#39;albero.
-
-1. Seleziona **[!UICONTROL Event type]** dall&#39;elenco.
-
+1. Sfoglia il **[!UICONTROL Administration > Platform > Enumerations]** cartella di Campaign explorer.
+1. Seleziona la **[!UICONTROL Event type]** enumerazione dall&#39;elenco.
 1. Fai clic su **[!UICONTROL Add]** per creare un valore di enumerazione. Può trattarsi di una conferma dell’ordine, una modifica della password, una modifica della consegna dell’ordine, ecc.
 
    ![](assets/messagecenter_eventtype_enum_001.png)
@@ -73,7 +71,8 @@ Per creare tipi di evento che verranno elaborati da Adobe Campaign, segui i pass
 
 >[!NOTE]
 >
->Ulteriori informazioni sugli elenchi dettagliati in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target="_blank"}.
+>Ulteriori informazioni sulle enumerazioni in [questa pagina](../../v8/config/ui-settings.md#enumerations).
+
 
 ## Definire un modello di messaggio sulle transazioni {#create-message-template}
 
