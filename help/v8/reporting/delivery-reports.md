@@ -3,9 +3,9 @@ title: Report di consegna incorporati di Adobe Campaign
 description: Report di consegna incorporati di Adobe Campaign
 feature: Reporting
 exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
-source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
+source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1021'
 ht-degree: 9%
 
 ---
@@ -83,7 +83,7 @@ Questa tabella di valori mostra il raggruppamento di consegne, aperture, clic e 
 >
 >I nomi di dominio visualizzati in questo report sono definiti nell&#39;elenco dettagliato utilizzato a livello di cubo. Per modificare, aggiungere o rimuovere domini predefiniti, modifica il **[!UICONTROL Domains]** elenco dettagliato e modifica valori e alias. La **[!UICONTROL Others]** La categoria include i nomi di dominio che non appartengono ad alcun valore dell’elenco dettagliato.
 >
->Scopri come accedere e configurare le enumerazioni in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target="_blank"}.
+>Scopri come accedere e configurare le enumerazioni in [questa pagina](../config/ui-settings.md).
 
 
 **[!UICONTROL 4. Generated click streams]**
