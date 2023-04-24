@@ -5,7 +5,7 @@ feature: Application Settings
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 7b8a9a323afc3154e250b4c70c4339d6c6c265c0
+source-git-commit: 7f27dbdd0ff53cd7437f956ccfef3d792020893b
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 4%
@@ -101,7 +101,7 @@ Nel contesto della messaggistica transazionale, le istanze di esecuzione sono co
 
 ## Account esterni per l’integrazione di soluzioni Adobe
 
-* **Adobe Experience Cloud** - **[!UICONTROL Adobe Experience Cloud]** l’account esterno viene utilizzato per implementare Adobe Identity Management Service (IMS) per connettersi ad Adobe Campaign. Ulteriori informazioni su Adobe Identity Management Service (IMS) in [questa sezione](../start/connect.md#connect-ims).
+* **Adobe Experience Cloud** - **[!UICONTROL Adobe Experience Cloud]** l’account esterno viene utilizzato per implementare Adobe Identity Management Service (IMS) per connettersi ad Adobe Campaign. Ulteriori informazioni su Adobe Identity Management Service (IMS) in [questa sezione](../start/connect.md#logon-to-ac).
 
 * **Analisi web** - **[!UICONTROL Web Analytics (Adobe Analytics)]** l’account esterno viene utilizzato per configurare il trasferimento di dati da Adobe Analytics ad Adobe Campaign. Ulteriori informazioni sull’integrazione Adobe Campaign - Adobe Analytics in [questa pagina](../connect/ac-aa.md).
 
