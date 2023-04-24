@@ -8,7 +8,7 @@ exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6e
 source-git-commit: dcb12339d891c61f308cf7b7e518784f3ba1ff31
 workflow-type: tm+mt
 source-wordcount: '385'
-ht-degree: 81%
+ht-degree: 88%
 
 ---
 
@@ -59,7 +59,7 @@ I database esterni compatibili con il modulo Federated Data Access (FDA) di Adob
 
 ## SDK per dispositivi mobili{#MobileSDK}
 
-Per inviare [notifiche push](../send/push.md) con Campaign, utilizza l’SDK di Adobe Experience Platform Mobile configurando l’estensione Adobe Campaign Classic nell’interfaccia utente di raccolta dati.
+Per inviare [notifiche push](../send/push.md) con Campaign, puoi utilizzare l’SDK di Adobe Experience Platform Mobile configurando l’estensione di Adobe Campaign Classic nell’interfaccia utente di raccolta dati.
 
 
 ## Accesso web{#web-access}

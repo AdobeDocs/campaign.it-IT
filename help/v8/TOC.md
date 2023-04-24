@@ -7,7 +7,7 @@ title: Documenti su Campaign v8
 source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -51,11 +51,11 @@ ht-degree: 94%
       + [Direct mail](send/direct-mail.md)
       + [Twitter](send/twitter.md)
       + Messaggi transazionali {#real-time}
-         + [Guida introduttiva ai messaggi transazionali](send/transactional.md)
+         + [Introduzione ai messaggi transazionali](send/transactional.md)
          + [Creare e pubblicare il modello](send/transactional-template.md)
-         + Gestione eventi {#event}
-         + [Raccolta ed elaborazione di eventi](send/event-processing.md)
-         + [Comprendere la descrizione dell’evento](send/event-description.md)
+         + Gestione degli eventi {#event}
+         + [Raccogliere ed elaborare gli eventi](send/event-processing.md)
+         + [Informazioni sulla descrizione dell’evento](send/event-description.md)
          + [Inviare e monitorare i messaggi](send/delivery-execution.md)
       + Errori, mancati recapiti e quarantene{#failures}
          + [Quarantene](send/quarantines.md)
