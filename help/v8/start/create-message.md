@@ -5,10 +5,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 4c79078e32c77499f15906fc81f31ce2b26559d7
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,8 +17,6 @@ ht-degree: 100%
 Con Adobe Campaign, puoi inviare campagne cross-channel tra cui e-mail, SMS, notifiche push e direct mail; inoltre, puoi misurarne l’efficacia utilizzando diversi rapporti dedicati. Questi messaggi sono progettati e inviati tramite consegna e possono essere personalizzati per ogni destinatario.
 
 Le funzionalità di base includono il targeting, la definizione e la personalizzazione dei messaggi, l’esecuzione delle comunicazioni e i relativi rapporti operativi. Il punto di accesso funzionale principale è l’assistente alla consegna. Permette di sfruttare diverse funzionalità incluse in Adobe Campaign.
-
-Per informazioni sui passaggi principali per creare una consegna, consulta la [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html?lang=it).
 
 Adobe Campaign v8 è dotato dei canali di consegna seguenti:
 
@@ -79,11 +77,10 @@ I messaggi consegnati da Adobe Campaign possono essere personalizzati in vari mo
 
 La messaggistica transazionale (Message Center) è il modulo di Campaign progettato per la gestione dei messaggi di attivazione.
 
-![](../assets/do-not-localize/glass.png) Scopri le funzionalità per messaggi transazionali in [questa sezione](../architecture/architecture.md#transac-msg-archi)
+Scopri le funzionalità per messaggi transazionali in [questa sezione](../architecture/architecture.md#transac-msg-archi)
 
-![](../assets/do-not-localize/glass.png) Scopri come configurare e inviare messaggi transazionali in [questa pagina](../send/transactional.md)
+Scopri come configurare e inviare messaggi transazionali in [questa pagina](../send/transactional.md)
 
-![](../assets/do-not-localize/book.png) Scopri questa funzionalità con un caso d’uso end-to-end descritto nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=it){target="_blank"}
 
 ## Registri di consegna e di tracciamento{#gs-tracking-logs}
 

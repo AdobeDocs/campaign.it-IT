@@ -5,10 +5,10 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
-source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
-source-wordcount: '1510'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -43,7 +43,7 @@ I passaggi principali per l&#39;attuazione di questo progetto sono descritti di 
 1. [Verifica del messaggio](#test-message-template).
 1. [Pubblica il modello di messaggio](#publish-message-template).
 
-Una volta progettato e pubblicato il modello di messaggio transazionale, se viene attivato un evento corrispondente, i dati pertinenti vengono inviati a Campaign tramite i parametri PushEvent e PushEvents [Metodi SOAP](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html){target="_blank"}e la consegna viene inviata ai destinatari con targeting.
+Una volta progettato e pubblicato il modello di messaggio transazionale, se viene attivato un evento corrispondente, i dati pertinenti vengono inviati a Campaign tramite i parametri PushEvent e PushEvents [Metodi SOAP](../send/event-description.md)e la consegna viene inviata ai destinatari con targeting.
 
 ## Creare tipi di evento {#create-event-types}
 
@@ -196,9 +196,7 @@ Dopo aver creato uno o più indirizzi di seed e il corpo del messaggio, puoi vis
 
 Puoi verificare la consegna dei messaggi inviando una bozza a un indirizzo di seed creato in precedenza.
 
-L’invio di una bozza comporta la stessa procedura utilizzata per qualsiasi consegna.
-
-![](../assets/do-not-localize/book.png) Ulteriori informazioni sulle bozze in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#sending-a-proof){target="_blank"}
+L’invio di una bozza comporta la stessa procedura utilizzata per qualsiasi consegna. Ulteriori informazioni sulle bozze in [questa sezione](../send/preview-and-proof.md).
 
 Tuttavia, per inviare una prova di un messaggio sulle transazioni, devi eseguire le seguenti operazioni:
 

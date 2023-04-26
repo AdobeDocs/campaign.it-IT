@@ -5,7 +5,7 @@ feature: Platform Integration
 role: Data Engineer
 level: Beginner
 exl-id: 21cf5611-ccaa-4e83-8891-a1a2353515aa
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 0%
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 I connettori di destinazione e origine dei Cloud Service gestiti di Adobe Campaign consentono l’integrazione diretta tra Adobe Campaign e Adobe Experience Platform.
 
-* Utilizzo **Adobe Campaign Managed Cloud Services** Connessione di destinazione per l’invio di segmenti di Experience Platform ad Adobe Campaign per l’attivazione,
+* Utilizzo **Destinazione Adobe Campaign Managed Cloud Services** connessione per inviare segmenti di Experience Platform ad Adobe Campaign per l’attivazione
 
    ![](assets/aep-destination.png)
 
-* Utilizzo **Adobe Campaign Managed Cloud Services** Connessione sorgente per inviare i registri di consegna e tracciamento di Adobe Campaign a Adobe Experience Platform.
+* Utilizzo **Origine Adobe Campaign Managed Cloud Services** connessione per inviare i registri di consegna e tracciamento di Adobe Campaign a Adobe Experience Platform
 
    ![](assets/aep-logs.png)
 

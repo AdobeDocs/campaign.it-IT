@@ -5,9 +5,9 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 618e45b6948070c6b791d2bcefa8296b297bf25e
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
-source-wordcount: '1015'
+source-wordcount: '1004'
 ht-degree: 9%
 
 ---
@@ -116,4 +116,4 @@ Quindi, con sessionToken fornito dall&#39;istanza di esecuzione in risposta alla
 
 * Più istanze di esecuzione In un&#39;architettura di esecuzione a più celle con più istanze di esecuzione dietro un load balancer, il metodo di accesso richiamato dall&#39;applicazione esterna sta passando attraverso il load balancer: per questo motivo non è possibile utilizzare un’autenticazione basata su token. È necessaria un’autenticazione basata su utente/password.
 
-![](../assets/do-not-localize/book.png) Ulteriori informazioni sugli eventi di messaggistica transazionale in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html#about-transactional-messaging-datamodel){target="_blank"}
+Ulteriori informazioni sugli eventi di messaggistica transazionale in [questa pagina](../send/event-processing.md).

@@ -8,9 +8,9 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
-source-git-commit: e7c255d30e38c4e17779ef820e8984668ac5d48b
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1261'
 ht-degree: 4%
 
 ---
@@ -36,7 +36,7 @@ Per integrare l’SDK di Campaign nell’app mobile, l’amministratore funziona
 
    >[!NOTE]
    >
-   >Questa chiave di integrazione viene immessa nella console Adobe Campaign, nella **[!UICONTROL Information]** scheda di servizio dedicata all’app mobile. Fai riferimento a [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en#creating-ios-app).
+   >Questa chiave di integrazione viene immessa nella console Adobe Campaign, nella **[!UICONTROL Information]** scheda di servizio dedicata all’app mobile.
 
 * **Un URL di tracciamento**: che corrisponde all’indirizzo del server di tracciamento di Adobe Campaign.
 * **Un URL di marketing**: per abilitare la raccolta degli abbonamenti.
@@ -798,7 +798,6 @@ Scopri come implementare FCM nella tua applicazione in [Documentazione di Google
 
 Le variabili ti consentono di definire il comportamento dell’app mobile dopo aver ricevuto una notifica. Queste variabili devono essere definite nel codice dell’app mobile e nella console Adobe Campaign, nella **[!UICONTROL Variables]** nel servizio dedicato per le app mobili.
 
-![](../assets/do-not-localize/book.png) Ulteriori informazioni in **Documentazione di Campaign Classic v7** nell’app mobile: [Passaggi di configurazione per iOS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target="_blank"} and [Configuration steps for Andoid](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html){target="_blank"}.
 
 Di seguito è riportato un esempio di codice che consente a un’app mobile di raccogliere tutte le variabili aggiunte in una notifica. Nel nostro esempio, utilizziamo la variabile &quot;VAR&quot;.
 

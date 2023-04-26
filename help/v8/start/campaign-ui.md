@@ -5,9 +5,9 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: 2aa5dd736b93990317f842bcbe1f87374279f538
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '524'
 ht-degree: 9%
 
 ---
@@ -72,11 +72,11 @@ Sfoglia Campaign Explorer per accedere a tutte le funzionalità e le impostazion
 
 Questa area di lavoro consente di accedere alla struttura ad albero di Esplora risorse per visualizzare tutte le funzionalità e le opzioni.
 
-La sezione a sinistra mostra la struttura ad albero di Campaign Explorer e ti consente di consultare tutti i componenti e le impostazioni dell’istanza, in base alle tue autorizzazioni.
+* La sezione a sinistra mostra la struttura ad albero di Campaign Explorer e ti consente di consultare tutti i componenti e le impostazioni dell’istanza, in base alle tue autorizzazioni. È possibile aggiungere e personalizzare cartelle come descritto in [questa pagina](../audiences/folders-and-views.md).
 
-Nella sezione superiore viene visualizzato l&#39;elenco dei record presenti nella cartella corrente. Questi elenchi sono completamente personalizzabili. [Ulteriori informazioni](../config/ui-settings.md)
+* Nella sezione superiore viene visualizzato l&#39;elenco dei record presenti nella cartella corrente. Questi elenchi sono completamente personalizzabili. [Ulteriori informazioni](../config/ui-settings.md)
 
-La sezione inferiore mostra i dettagli del record selezionato.
+* La sezione inferiore mostra i dettagli del record selezionato.
 
 ## Lingue{#languages}
 
