@@ -5,7 +5,7 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: eed3396584940f99a865eef2358887b6bf5c4936
+source-git-commit: 2aa5dd736b93990317f842bcbe1f87374279f538
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 9%
@@ -74,10 +74,9 @@ Questa area di lavoro consente di accedere alla struttura ad albero di Esplora r
 
 La sezione a sinistra mostra la struttura ad albero di Campaign Explorer e ti consente di consultare tutti i componenti e le impostazioni dell’istanza, in base alle tue autorizzazioni.
 
-Nella sezione superiore viene visualizzato l&#39;elenco dei record presenti nella cartella corrente. Questi elenchi sono completamente personalizzabili. [Ulteriori informazioni](customize-ui.md)
+Nella sezione superiore viene visualizzato l&#39;elenco dei record presenti nella cartella corrente. Questi elenchi sono completamente personalizzabili. [Ulteriori informazioni](../config/ui-settings.md)
 
 La sezione inferiore mostra i dettagli del record selezionato.
-
 
 ## Lingue{#languages}
 
@@ -96,7 +95,6 @@ La lingua viene selezionata durante il processo di installazione.
 >Una volta creata l’istanza, non è possibile cambiare la lingua.
 
 La lingua influisce sui formati di data e ora.
-
 
 Le principali differenze tra inglese americano e inglese britannico sono:
 
