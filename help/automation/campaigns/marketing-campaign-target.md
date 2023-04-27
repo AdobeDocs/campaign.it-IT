@@ -4,10 +4,10 @@ title: Pubblico di destinazione della campagna di marketing
 description: Scopri come definire il pubblico delle campagne di marketing
 feature: Campaigns, Audiences
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
-source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
+source-git-commit: a2518ea0c0ab23f50b3132b750a14e98b4ffad7d
 workflow-type: tm+mt
-source-wordcount: '1459'
-ht-degree: 2%
+source-wordcount: '1457'
+ht-degree: 1%
 
 ---
 
@@ -236,10 +236,10 @@ Fai clic su **[!UICONTROL Next]** definire l’ordinamento (se necessario) e sel
 Questa configurazione equivale a un **[!UICONTROL Split]** nel flusso di lavoro, che consente di suddividere il target in sottoinsiemi. Il gruppo di controllo è uno di questi sottoinsiemi.
 
 
-#### Video tutorial {#create-email-video}
+### Video tutorial {#create-email-video}
 
-In questo video viene illustrato come creare una campagna e un messaggio e-mail in Adobe Campaign.
+Questo video spiega come aggiungere un gruppo di controllo a una campagna.
 
->[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335606?quality=12)
 
 Sono disponibili ulteriori video dimostrativi relativi a Campaign [qui](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.
