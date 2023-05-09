@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
 source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '429'
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ I messaggi consegnati da Adobe Campaign possono essere personalizzati in vari mo
 
 La messaggistica transazionale (Message Center) è il modulo di Campaign progettato per la gestione dei messaggi di attivazione.
 
-Scopri le funzionalità per messaggi transazionali in [questa sezione](../architecture/architecture.md#transac-msg-archi)
+Ulteriori informazioni sulle funzionalità per messaggi transazionali in [questa sezione](../architecture/architecture.md#transac-msg-archi)
 
 Scopri come configurare e inviare messaggi transazionali in [questa pagina](../send/transactional.md)
 
