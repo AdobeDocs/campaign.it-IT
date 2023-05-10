@@ -7,9 +7,9 @@ role: Admin, Developer
 level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: e3ea361cc486096fe6c19ac469e8a71b636371ac
+source-git-commit: 251ce05310f158b0f9ebccc94b42686f892338b1
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1027'
 ht-degree: 2%
 
 ---
@@ -17,10 +17,24 @@ ht-degree: 2%
 
 # SDK AEP + Campaign: configurare il canale di notifica push {#push-notification-configuration}
 
-Prima di iniziare a inviare notifiche push con Adobe Campaign, devi accertarti che le configurazioni e le integrazioni siano presenti nell’app mobile e per i tag in Adobe Experience Platform.... .... ....
+Prima di iniziare a inviare notifiche push con Adobe Campaign, devi accertarti che le configurazioni e le integrazioni siano presenti nell’app mobile e per i tag in Adobe Experience Platform.
 
+L’SDK di Adobe Experience Platform Mobile fornisce API di integrazione lato client per i dispositivi mobili tramite SDK compatibili con Android e iOS.
 
-## Prima di iniziare {#before-starting}
+Per configurare la tua app con gli SDK di Adobe Experience Platform Mobile, segui questi passaggi:
+
+1. Controlla [prerequisiti](#before-starting)
+1. Imposta un [proprietà tag mobile](#launch-property) nella raccolta dati di Adobe Experience Platform
+1. Scarica l&#39;SDK di Adobe Experience Platform Mobile come descritto [in questa pagina](https://developer.adobe.com/client-sdks/documentation/getting-started/get-the-sdk/){target="_blank"}
+1. (facoltativo) Abilita la registrazione e le metriche del ciclo di vita, come descritto [in questa pagina](https://developer.adobe.com/client-sdks/documentation/getting-started/enable-debug-logging/){target="_blank"}
+1. (facoltativo) Aggiungi [Adobe Experience Platform Assurance nella tua app](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"} per convalidare la tua implementazione
+1. Segui [Documentazione di Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} per effettuare la configurazione con gli SDK di Adobe Experience Platform Mobile nella tua app.
+1. Installare e configurare [Estensione Adobe Campaign](#configure-extension) nella proprietà mobile
+1. Configura iOS e i servizi mobili Android in Adobe Campaign come dettagliato [in questa pagina](../send/push.md#push-config).
+
+Alla fine di questo, avresti dovuto anche creare e configurare una proprietà mobile in [!DNL Adobe Experience Platform Data Collection]. In genere creerai una proprietà mobile per ogni app mobile che desideri gestire. Scopri come creare e configurare una proprietà mobile in [Documentazione di Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
+
+## Prerequisiti {#before-starting}
 
 ### Impostare le autorizzazioni {#setup-permissions}
 
@@ -77,52 +91,46 @@ Segui i passaggi di implementazione descritti nei collegamenti seguenti:
 * Per **Apple iOS**: Scopri come registrare l’app con APN in [Documentazione di Apple](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns){target="_blank"}
 * Per **Google Android**: Scopri come configurare un’app client Firebase Cloud Messaging su Android in [Documentazione di Google](https://firebase.google.com/docs/cloud-messaging/android/client){target="_blank"}
 
-### Integrare la tua app mobile con l’SDK di Adobe Experience Platform {#integrate-mobile-app}
+<!--
+## Add your app push credentials in Adobe Experience Platform Data Collection {#push-credentials}
 
-L’SDK di Adobe Experience Platform Mobile fornisce API di integrazione lato client per i dispositivi mobili tramite SDK compatibili con Android e iOS. Segui [Documentazione di Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} per effettuare la configurazione con gli SDK di Adobe Experience Platform Mobile nella tua app.
+After granting the correct user permissions, you now need to add your mobile application push credentials in Adobe Experience Platform Data Collection. 
 
-Alla fine di questo, avresti dovuto anche creare e configurare una proprietà mobile in [!DNL Adobe Experience Platform Data Collection]. In genere creerai una proprietà mobile per ogni app mobile che desideri gestire. Scopri come creare e configurare una proprietà mobile in [Documentazione di Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
+The mobile app push credential registration is required to authorize Adobe to send push notifications on your behalf. Refer to the steps detailed below:
 
+1. From [!DNL Adobe Experience Platform Data Collection], browse to **[!UICONTROL App Surfaces]** in the left rail.
 
-## Passaggio 1: Aggiungere le credenziali push dell&#39;app nella raccolta dati di Adobe Experience Platform {#push-credentials}
+1. Click **[!UICONTROL Create App Surface]** to create a new configuration.
 
-Dopo aver concesso le autorizzazioni utente corrette, ora devi aggiungere le credenziali push dell’app mobile nella raccolta dati di Adobe Experience Platform.
+1. Enter a **[!UICONTROL Name]** for the configuration.
 
-La registrazione delle credenziali push dell’app mobile è necessaria per autorizzare l’Adobe a inviare notifiche push per tuo conto. Fai riferimento ai passaggi descritti di seguito:
+1. From **[!UICONTROL Mobile Application Configuration]**, select the system and enter settings.
 
-1. Da [!DNL Adobe Experience Platform Data Collection], sfoglia fino a **[!UICONTROL App Surfaces]** nella barra a sinistra.
+    * **For iOS**
 
-1. Fai clic su **[!UICONTROL Create App Surface]** per creare una nuova configurazione.
+        1. Enter the mobile app **Bundle Id** in the **[!UICONTROL App ID (iOS Bundle ID)]** field. The app Bundle ID can be found in the **General** tab of the primary target in **XCode**.
+        
+        1. Switched on the **[!UICONTROL Push Credentials]** button to add your credentials.
+        
+        1. Drag and drop your .p8 Apple Push Notification Authentication Key file. This key can be acquired from the **Certificates**, **Identifiers** and **Profiles** page.
 
-1. Inserisci un **[!UICONTROL Name]** per la configurazione.
+        1. Provide the **Key ID**. This is a 10 character string assigned during the creation of p8 auth key. It can be found under **Keys** tab in **Certificates**, **Identifiers** and **Profiles** page.
+        
+        1. Provide the **Team ID**. This is a string value which can be found under the Membership tab.
 
-1. Da **[!UICONTROL Mobile Application Configuration]**, selezionare il sistema operativo:
+    * **For Android**
 
-   * **Per iOS**
+        1. Provide the **[!UICONTROL App ID (Android package name)]**: usually the package name is the app id in your `build.gradle` file.
 
-      1. Immetti l’app mobile **Id Bundle** in **[!UICONTROL App ID (iOS Bundle ID)]** campo . L’ID bundle dell’app si trova nella sezione **Generale** scheda del target principale in **XCode**.
+        1. Switched on the **[!UICONTROL Push Credentials]** button to add your credentials.
 
-      1. Acceso il **[!UICONTROL Push Credentials]** per aggiungere le credenziali.
+        1. Drag and drop the FCM push credentials. For more details on how to get the push credentials refer to [Google Documentation](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
+    
 
-      1. Trascina e rilascia il file .p8 Apple Push Notification Authentication Key . Questa chiave può essere acquisita dalla **Certificati**, **Identificatori** e **Profili** pagina.
+1. Click **[!UICONTROL Save]** to create your app configuration.
+-->
 
-      1. Fornisci **ID chiave**. Si tratta di una stringa di 10 caratteri assegnata durante la creazione della chiave di autenticazione p8. Si trova in **Chiavi** scheda in **Certificati**, **Identificatori** e **Profili** pagina.
-
-      1. Fornisci **ID team**. Questo è un valore di stringa che si trova nella scheda Appartenenza.
-   * **Per Android**
-
-      1. Fornisci **[!UICONTROL App ID (Android package name)]**: in genere il nome del pacchetto è l&#39;ID app nel tuo `build.gradle` file.
-
-      1. Acceso il **[!UICONTROL Push Credentials]** per aggiungere le credenziali.
-
-      1. Trascina e rilascia le credenziali push FCM. Per ulteriori dettagli su come ottenere le credenziali push, consulta [Documentazione di Google](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
-
-
-
-1. Fai clic su **[!UICONTROL Save]** per creare la configurazione dell’app.
-
-
-## Passaggio 2: Impostare una proprietà tag mobile in Adobe Experience Platform Data Collection {#launch-property}
+## Impostare una proprietà tag mobile in Adobe Experience Platform Data Collection {#launch-property}
 
 La configurazione di una proprietà mobile consente allo sviluppatore o all’addetto al marketing dell’app mobile di configurare gli attributi degli SDK per dispositivi mobili, ad esempio Timeout sessione, e [!DNL Adobe Experience Platform] sandbox di destinazione e **[!UICONTROL Adobe Experience Platform Datasets]** da utilizzare per l’SDK mobile per l’invio di dati a .
 
@@ -145,7 +153,7 @@ Una volta creata, apri la nuova proprietà tag e crea una libreria. Per eseguire
 1. Infine, imposta questa libreria come libreria di lavoro dal **Selezionare una libreria di lavoro** pulsante .
 
 
-## Passaggio 3: Configura l’estensione Adobe Campaign nella tua proprietà mobile {#configure-extension}
+## Configura l’estensione Adobe Campaign nella tua proprietà mobile {#configure-extension}
 
 La **Estensione Adobe Campaign Classic** per gli SDK di Adobe Experience Platform Mobile puoi abilitare le notifiche push per le tue app mobili e aiutarti a raccogliere i token push degli utenti e a gestire la misurazione delle interazioni con Adobe Experience Platform Services.
 
@@ -158,7 +166,7 @@ Questa estensione è preinstallata nel tuo ambiente e deve essere configurata. P
 
 Ora puoi aggiungere Campaign alla tua app, come descritto in  [Documentazione di Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#add-campaign-classic-to-your-app){target="_blank"}.
 
-## Passaggio 4: Configurare i servizi mobili in Campaign{#push-service}
+## Configurare i servizi mobili in Campaign{#push-service}
 
 Una volta che l’app mobile è stata configurata in [!DNL Adobe Experience Platform Data Collection], devi creare due servizi (uno per i dispositivi iOS, uno per i dispositivi Android) per poter inviare notifiche push da **[!DNL Adobe Campaign]**.
 
