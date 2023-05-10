@@ -7,9 +7,9 @@ role: Admin, Developer
 level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 3bef6d2544a86bf1d5efa4868b82ec59c7e36484
+source-git-commit: ff6990f3db1122670bff4919f417b9f9f04d3183
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '935'
 ht-degree: 2%
 
 ---
@@ -132,13 +132,14 @@ The mobile app push credential registration is required to authorize Adobe to se
 ## Impostare una proprietà tag mobile in Adobe Experience Platform Data Collection {#launch-property}
 
 L’impostazione di una proprietà mobile consente allo sviluppatore o all’addetto al marketing dell’app mobile di configurare gli SDK per dispositivi mobili. In genere creerai una proprietà mobile per ogni app mobile che desideri gestire. Scopri come creare e configurare una proprietà mobile in [Documentazione di Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
+<!--
+To get the SDKs needed for push notification to work you will need the following SDK extensions, for both Android and iOS:
 
-Per far funzionare gli SDK necessari per la notifica push, avrai bisogno delle seguenti estensioni SDK, sia per Android che per iOS:
-
-* **[!UICONTROL Mobile Core]** (installato automaticamente)
-* **[!UICONTROL Profile]** (installato automaticamente)
+* **[!UICONTROL Mobile Core]** (installed automatically)
+* **[!UICONTROL Profile]** (installed automatically)
 * **[!UICONTROL Adobe Experience Platform Edge]**
-* **[!UICONTROL Adobe Experience Platform Assurance]**, facoltativo ma consigliato per eseguire il debug dell’implementazione mobile.
+* **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
+-->
 
 Ulteriori informazioni [!DNL Adobe Experience Platform Data Collection] tag in [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html){target="_blank"}.
 
@@ -154,7 +155,7 @@ Una volta creata, apri la nuova proprietà tag e crea una libreria. Per eseguire
 
 La **Estensione Adobe Campaign Classic** per gli SDK di Adobe Experience Platform Mobile puoi abilitare le notifiche push per le tue app mobili e aiutarti a raccogliere i token push degli utenti e a gestire la misurazione delle interazioni con Adobe Experience Platform Services.
 
-Questa estensione è preinstallata nel tuo ambiente e deve essere configurata. Per configurare l’estensione per la proprietà del tag mobile, segui questi passaggi:
+Questa estensione, valida sia per Campaign Classic v7 che per Campaign v8, è preinstallata nel tuo ambiente e deve essere configurata. Per configurare l’estensione per la proprietà del tag mobile, segui questi passaggi:
 
 1. Apri la proprietà tag creata in precedenza.
 1. Dalla navigazione a sinistra, cerca **Estensioni**, e apri la **Catalogo** scheda . Utilizza il campo di ricerca per trovare il **Adobe Campaign Classic** estensione.
