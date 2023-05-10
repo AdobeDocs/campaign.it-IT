@@ -7,9 +7,9 @@ role: Admin, Developer
 level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 093204ca69cc0925bc1be5581e518995b50b3fc1
+source-git-commit: 3bef6d2544a86bf1d5efa4868b82ec59c7e36484
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '959'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ Per configurare la tua app con gli SDK di Adobe Experience Platform Mobile, segu
 1. Imposta un [proprietà tag mobile](#launch-property) nella raccolta dati di Adobe Experience Platform.
 1. Scarica l&#39;SDK di Adobe Experience Platform Mobile come descritto [in questa pagina](https://developer.adobe.com/client-sdks/documentation/getting-started/get-the-sdk/){target="_blank"}.
 1. (facoltativo) Abilita la registrazione e le metriche del ciclo di vita, come descritto [in questa pagina](https://developer.adobe.com/client-sdks/documentation/getting-started/enable-debug-logging/){target="_blank"}.
-1. (facoltativo) Aggiungi [Adobe Experience Platform Assurance nella tua app](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"} per convalidare la tua implementazione.
+1. (facoltativo) Aggiungi [Adobe Experience Platform Assurance nella tua app](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"} to validate your implementation. Learn how to implement Adobe Experience Platform Assurance extension [in this page](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}.
 1. Segui [Documentazione di Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} per effettuare la configurazione con gli SDK di Adobe Experience Platform Mobile nella tua app.
 1. Installare e configurare [Estensione Adobe Campaign](#configure-extension) nella proprietà mobile.
 1. Configura iOS e i servizi mobili Android in Adobe Campaign come dettagliato [in questa pagina](../send/push.md#push-config).
