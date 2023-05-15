@@ -1,6 +1,6 @@
 ---
 title: Guida introduttiva all’architettura di Campaign
-description: Scopri ambienti e nozioni di base sulla distribuzione, inclusa la modalità di creazione di rapporti su un ambiente campagna.
+description: Scopri nozioni di base su ambienti e distribuzione, incluso come creare rapporti su un ambiente di Campaign.
 feature: Overview
 role: Data Engineer
 level: Beginner
@@ -8,7 +8,7 @@ exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
 source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
 source-wordcount: '1004'
-ht-degree: 9%
+ht-degree: 11%
 
 ---
 
