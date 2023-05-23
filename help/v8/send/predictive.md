@@ -12,22 +12,22 @@ ht-degree: 67%
 
 ---
 
-# Ottimizzazione dei tempi di invio e valutazione del coinvolgimento predittivo{#optimize-message-delivery}
+# Ottimizzazione del tempo di invio e punteggio di coinvolgimento predittivo{#optimize-message-delivery}
 
-Basata sull’intelligenza artificiale e sull’apprendimento automatico, l’ottimizzazione del tempo di invio e il punteggio di coinvolgimento predittivo di Adobe Campaign possono analizzare e prevedere i tassi di apertura, i tempi di invio ottimali e la probabilità di abbandono in base a metriche di coinvolgimento storiche.
+Grazie all’intelligenza artificiale e all’apprendimento automatico, l’ottimizzazione del tempo di invio e il punteggio di coinvolgimento predittivo di Adobe Campaign possono analizzare e prevedere i tassi di apertura, i tempi di invio ottimali e i tassi di abbandono probabili in base a metriche di coinvolgimento storiche.
 
-Adobe Campaign offre due nuovi modelli di apprendimento automatico: [Ottimizzazione predittiva del tempo di invio](#predictive-send) e [Punteggio di coinvolgimento predittivo](#predictive-scoring). Questi due modelli sono modelli di apprendimento automatico specifici per la progettazione e la fornitura di percorsi di clienti migliori.
+Adobe Campaign offre due nuovi modelli di apprendimento automatico: [Ottimizzazione del tempo di invio predittivo](#predictive-send) e [Punteggio di coinvolgimento predittivo](#predictive-scoring). Questi due modelli sono modelli di apprendimento automatico specifici per la progettazione e la fornitura di percorsi di clienti migliori.
 
 >[!CAUTION]
 >
 >Questa funzionalità non è disponibile come funzione predefinita del prodotto. È disponibile solo per i clienti Adobe Campaign Managed Cloud Services che eseguono Adobe Campaign Classic v7 o Adobe Campaign v8.
 >
->La sua implementazione richiede l’intervento della Consulenza Adobe. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>La sua implementazione richiede l’intervento della Consulenza Adobe. Per ulteriori informazioni, contatta il rappresentante del tuo Adobe.
 
 
 ## Ottimizzazione del tempo di invio predittivo{#predictive-send}
 
-Predictive Send-Time Optimization prevede qual è il tempo di invio migliore per ciascun profilo destinatario per quanto riguarda l’apertura delle e-mail o i clic e l’apertura dei messaggi push. Per ciascun profilo destinatario, i punteggi indicano il tempo di invio migliore per ogni giorno feriale e in quale giorno feriale si possono ottenere risultati ottimali.
+L’ottimizzazione predittiva del tempo di invio prevede qual è il tempo di invio migliore per ciascun profilo destinatario per quanto riguarda l’apertura delle e-mail o i clic e l’apertura dei messaggi push. Per ciascun profilo destinatario, i punteggi indicano il tempo di invio migliore per ogni giorno feriale e in quale giorno feriale si possono ottenere risultati ottimali.
 
 Nel modello Ottimizzazione predittiva del tempo di invio sono presenti due modelli secondari:
 
@@ -36,9 +36,9 @@ Nel modello Ottimizzazione predittiva del tempo di invio sono presenti due model
 * Il tempo di invio predittivo per il clic è il momento migliore per inviare una comunicazione al cliente per massimizzare i clic
 
 
-**Ingresso modello**: Log di consegna, registri di tracciamento e attributi di profilo (non PII)
+**Input modello**: registri di consegna, registri di tracciamento e attributi di profilo (non PII)
 
-**Output del modello**: L’orario migliore per inviare un messaggio (per aperture e clic)
+**Output modello**: momento migliore per inviare un messaggio (per aperture e clic)
 
 Dettagli di uscita:
 
@@ -68,7 +68,7 @@ L’ottimizzazione predittiva del tempo di invio è memorizzata a livello di pro
 
 ## Valutazione del coinvolgimento predittivo {#predictive-scoring}
 
-Il Punteggio di coinvolgimento predittivo prevede la probabilità che un destinatario si interessi a un messaggio e la probabilità che lo rifiuti (cancellando l’abbonamento) entro i successivi 7 giorni dall’invio dell’e-mail. Le probabilità sono ulteriormente suddivise in blocchi in base al livello di coinvolgimento previsto con i contenuti: alto, medio o basso. Questi modelli forniscono anche il grado percentile del rischio di annullamento sottoscrizione per i clienti per capire dove il grado di un determinato cliente è in relazione ad altri.
+Il punteggio di coinvolgimento predittivo prevede la probabilità che un destinatario sia interessato a un messaggio, ma anche la probabilità che questo annulli l’abbonamento entro i 7 giorni successivi al prossimo invio dell’e-mail. Le probabilità sono ulteriormente suddivise in contenitori in base al livello di coinvolgimento previsto con il contenuto: alto, medio o basso. Questi modelli forniscono anche il livello percentile di rischio di annullamento dell’abbonamento affinché i clienti possano capire qual è il livello di un determinato cliente in relazione agli altri.
 
 Il punteggio predittivo di coinvolgimento consente di:
 

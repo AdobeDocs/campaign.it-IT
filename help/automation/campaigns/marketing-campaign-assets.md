@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Risorse, documenti e linee di consegna della campagna di marketing
-description: Ulteriori informazioni sui documenti e i profili di consegna delle campagne di marketing
+title: Risorse della campagna di marketing, documenti e strutture di consegna
+description: Ulteriori informazioni sui documenti della campagna di marketing e sui profili di consegna
 feature: Campaigns
 exl-id: 352f6cd5-777d-413d-af79-6f53444b336f
 source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
@@ -11,16 +11,16 @@ ht-degree: 0%
 
 ---
 
-# Gestione di risorse e documenti {#manage-assets-documents}
+# Gestire risorse e documenti {#manage-assets-documents}
 
 È possibile associare vari documenti a una campagna: rapporti, foto, pagine web, diagrammi, ecc. Questi documenti possono essere in qualsiasi formato.
 
-In una campagna puoi anche fare riferimento ad altri articoli, come coupon promozionali, offerte speciali relative a uno specifico marchio o negozio, ecc. Quando questi elementi sono inclusi in una struttura, possono essere associati a una consegna direct mailing. [Ulteriori informazioni](#associating-and-structuring-resources-linked-via-a-delivery-outline).
+In una campagna puoi anche fare riferimento ad altri articoli, come coupon promozionali, offerte speciali relative a una marca o a un negozio specifico, ecc. Quando questi elementi sono inclusi in una struttura, possono essere associati a una consegna direct mailing. [Ulteriori informazioni](#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
 
 >[!CAUTION]
 >
->Questa funzionalità è progettata per le risorse e i documenti di piccole dimensioni.
+>Questa funzionalità è progettata per risorse e documenti di piccole dimensioni.
 
 <!--
 >[!NOTE]
@@ -30,22 +30,22 @@ In una campagna puoi anche fare riferimento ad altri articoli, come coupon promo
 
 ## Aggiungi documenti {#add-documents}
 
-I documenti possono essere associati a livello di campagna (documenti contestuali) o a livello di programma (documenti generali).
+I documenti possono essere associati a livello di campagna (documenti contestuali) o di programma (documenti generali).
 
-Per una campagna, la **[!UICONTROL Documents]** la scheda contiene:
+Per una campagna, il **[!UICONTROL Documents]** La scheda contiene:
 
-* Elenco di tutti i documenti richiesti per il contenuto (modello, immagini, ecc.) che possono essere scaricati localmente dagli operatori Adobe Campaign con diritti adeguati,
-* Documenti contenenti informazioni relative al router, se presenti.
+* L’elenco di tutti i documenti necessari per il contenuto (modello, immagini, ecc.) che possono essere scaricati localmente dagli operatori Adobe Campaign con i diritti appropriati,
+* Documenti contenenti informazioni per il router, se presenti.
 
-I documenti sono collegati al programma o alla campagna tramite il **[!UICONTROL Edit > Documents]** scheda .
+I documenti sono collegati al programma o alla campagna tramite **[!UICONTROL Edit > Documents]** scheda.
 
 ![](assets/op_add_document.png)
 
-Puoi anche aggiungere un documento a una campagna dal collegamento dedicato nel dashboard.
+Puoi anche aggiungere un documento a una campagna dal collegamento dedicato nella dashboard.
 
 ![](assets/add_a_document_in_op.png)
 
-Fai clic sul pulsante **[!UICONTROL Detail...]** per visualizzare il contenuto di un file e aggiungere informazioni:
+Fai clic su **[!UICONTROL Detail...]** per visualizzare il contenuto di un file e aggiungere informazioni:
 
 ![](assets/add_document_details.png)
 
@@ -53,70 +53,70 @@ Nel dashboard, i documenti associati alla campagna sono raggruppati nel **[!UICO
 
 ![](assets/edit_documents.png)
 
-È inoltre possibile modificarli e modificarli da questa visualizzazione.
+Da questa vista è possibile modificarli.
 
 ## Utilizzare i profili di consegna {#delivery-outlines}
 
-Un profilo di consegna è un insieme strutturato di elementi (documenti, negozi, coupon promozionali, ecc.) creato dalla società e per una campagna particolare. Viene utilizzato nel contesto delle consegne di direct mailing.
+Una struttura di consegna è un set strutturato di elementi (documenti, negozi, coupon promozionali, ecc.) create dall’azienda e per una determinata campagna. Viene utilizzato nel contesto delle consegne di direct mailing.
 
-Tali elementi sono raggruppati in profili di consegna e ogni profilo di consegna sarà associato a una consegna; nel file di estrazione inviato al **fornitore di servizi** da allegare alla consegna. Ad esempio, puoi creare un profilo di consegna che faccia riferimento a un’unità e alle brochure di marketing che utilizza.
+Questi elementi sono raggruppati in profili di consegna e ogni profilo di consegna sarà associato a una consegna; vi verrà fatto riferimento nel file di estrazione inviato al **service provider** per essere collegato alla consegna. Ad esempio, puoi creare una struttura di consegna che faccia riferimento a un’unità e alle brochure di marketing utilizzate.
 
-Per una campagna, i profili di consegna ti consentono di strutturare elementi esterni da associare alla consegna in base a determinati criteri: unità collegata, offerta promozionale concessa, invito a un evento locale, ecc.
+Per una campagna, i profili di consegna ti consentono di strutturare elementi esterni da associare alla consegna in base a determinati criteri: unità correlata, offerta promozionale concessa, invito a un evento locale, ecc.
 
 >[!CAUTION]
 >
->I profili di consegna sono limitati alle campagne di direct mailing.
+>I profili di consegna sono limitati alle campagne direct mailing.
 
-### Creare un profilo di consegna {#create-an-outline}
+### Creare una struttura di consegna {#create-an-outline}
 
-Per creare una struttura di consegna, fai clic sul pulsante **[!UICONTROL Delivery outlines]** sottoscheda in **[!UICONTROL Edit > Documents]** scheda della campagna interessata.
+Per creare una struttura di consegna, fai clic su **[!UICONTROL Delivery outlines]** scheda secondaria in **[!UICONTROL Edit > Documents]** scheda della campagna in questione.
 
 ![](assets/add-a-delivery-outline.png)
 
 
 >[!NOTE]
 >
->Se non riesci a visualizzare questa scheda, questa funzionalità non è disponibile per questa campagna oppure la consegna della direct mailing non è abilitata nell’istanza. Fai riferimento a [configurazione del modello di campagna](marketing-campaign-templates.md#campaign-templates) o al contratto di licenza.
+>Se non riesci a visualizzare questa scheda, questa funzionalità non è disponibile per questa campagna o la consegna direct mailing non è abilitata nella tua istanza. Consulta la sezione [configurazione del modello di campagna](marketing-campaign-templates.md#campaign-templates) o al contratto di licenza.
 
-Quindi, fai clic su **[!UICONTROL Add a delivery outline]** e crea la gerarchia di profili per la campagna:
+Quindi, fai clic su **[!UICONTROL Add a delivery outline]** e creare la gerarchia di profili per la campagna:
 
-1. Fare clic con il pulsante destro del mouse sulla radice dell&#39;albero e selezionare **[!UICONTROL New > Delivery outlines]**.
-1. Fai clic con il pulsante destro del mouse sul profilo appena creato e seleziona **[!UICONTROL New > Item]** o **[!UICONTROL New > Personalization fields]**.
+1. Fare clic con il pulsante destro del mouse sulla radice della struttura e selezionare **[!UICONTROL New > Delivery outlines]**.
+1. Fare clic con il pulsante destro del mouse sulla struttura appena creata e selezionare **[!UICONTROL New > Item]** o **[!UICONTROL New > Personalization fields]**.
 
 ![](assets/del-outline-add-new-item.png)
 
 Una struttura può contenere elementi, campi di personalizzazione e offerte:
 
-* Gli elementi possono essere documenti fisici, ad esempio, a cui viene fatto riferimento e descritto qui e che verranno allegati alla consegna.
-* I campi di personalizzazione ti consentono di creare elementi di personalizzazione relativi alle consegne anziché ai destinatari. È quindi possibile creare valori da utilizzare nelle consegne per un target specifico (offerta di benvenuto, uno sconto, ecc.) Vengono creati in Adobe Campaign e importati nella struttura tramite il **[!UICONTROL Import personalization fields...]** link.
+* Gli elementi possono essere, ad esempio, documenti fisici a cui viene fatto riferimento e che vengono descritti qui e che verranno allegati alla consegna.
+* I campi di personalizzazione ti consentono di creare elementi di personalizzazione relativi alle consegne anziché ai destinatari. È quindi possibile creare valori da utilizzare nelle consegne per un target specifico (offerta di benvenuto, uno sconto, ecc.) Vengono creati in Adobe Campaign e importati nella struttura tramite **[!UICONTROL Import personalization fields...]** collegamento.
 
    ![](assets/del-outline-perso-field.png)
 
-   È inoltre possibile crearli direttamente nel profilo facendo clic sul pulsante **[!UICONTROL Add]** a destra della zona elenco.
+   È inoltre possibile crearli direttamente nella struttura facendo clic sul pulsante **[!UICONTROL Add]** a destra della zona elenco.
 
    ![](assets/add-del-outline-button.png)
 
 
-### Selezionare una struttura {#select-an-outline}
+### Seleziona una struttura {#select-an-outline}
 
-Per ogni consegna, puoi selezionare il profilo da associare dalla sezione riservata al profilo di estrazione, come nell’esempio seguente:
+Per ogni consegna, puoi selezionare la struttura da associare dalla sezione riservata alla struttura di estrazione, come nell’esempio seguente:
 
 ![](assets/select-delivery-outline.png)
 
-Il profilo selezionato viene quindi visualizzato nella sezione inferiore della finestra. Può essere modificato utilizzando l’icona a destra del campo o utilizzando l’elenco a discesa:
+La struttura selezionata viene quindi visualizzata nella sezione inferiore della finestra. Può essere modificata utilizzando l’icona a destra del campo o modificata utilizzando l’elenco a discesa:
 
 ![](assets/delivery-outline-selected.png)
 
-La **[!UICONTROL Summary]** La scheda della consegna visualizza anche queste informazioni:
+Il **[!UICONTROL Summary]** Nella scheda della consegna vengono visualizzate anche le seguenti informazioni:
 
 ![](assets/delivery-outline-in-dashboard.png)
 
 ### Risultato estrazione {#extraction-result}
 
-Nel file estratto e inviato al fornitore di servizi, il nome del profilo e, se del caso, le sue caratteristiche (costo, descrizione, ecc.) vengono aggiunti al contenuto in base alle informazioni nel modello di esportazione associato al provider di servizi.
+Nel fascicolo estratto e inviato al prestatore di servizi, il nome della struttura e, se del caso, le sue caratteristiche (costo, descrizione, ecc.) vengono aggiunti al contenuto in base alle informazioni contenute nel modello di esportazione associato al provider di servizi.
 
-Nell’esempio seguente, l’etichetta, il costo stimato e la descrizione del profilo associato alla consegna verranno aggiunti al file di estrazione.
+Nell’esempio seguente, l’etichetta, il costo stimato e la descrizione della struttura associata alla consegna verranno aggiunti al file di estrazione.
 
 ![](assets/campaign-export-template.png)
 
-Il modello di esportazione deve essere associato al fornitore di servizi selezionato per la consegna in questione. Vedi [questa sezione](providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
+Il modello di esportazione deve essere associato al fornitore di servizi selezionato per la consegna interessata. Vedi [questa sezione](providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).

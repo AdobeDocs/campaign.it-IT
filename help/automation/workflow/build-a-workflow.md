@@ -13,27 +13,27 @@ ht-degree: 4%
 
 # Creare un flusso di lavoro {#build-a-workflow}
 
-## Creare un nuovo flusso di lavoro {#create-a-new-workflow}
+## Crea un nuovo flusso di lavoro {#create-a-new-workflow}
 
 Il flusso di creazione del flusso di lavoro dipende dal tipo di flussi di lavoro. È possibile eseguire le seguenti operazioni:
 
-* Crea [Workflow di targeting](#targeting-workflows) dal **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Jobs]** > **[!UICONTROL Targeting workflows]** del nodo di Explorer o dal **[!UICONTROL Profiles and Targets]** scheda della home page tramite **[!UICONTROL Targeting workflows]** sottoscheda .
+* Crea [Workflow di targeting](#targeting-workflows) dal **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Jobs]** > **[!UICONTROL Targeting workflows]** dell&#39;Explorer o dal **[!UICONTROL Profiles and Targets]** della home page, tramite la scheda **[!UICONTROL Targeting workflows]** scheda secondaria.
 
    ![](assets/create-targeting-wf.png)
 
-* Crea [Flussi di lavoro di Campaign](#campaign-workflows) dal **[!UICONTROL Targeting and workflows]** scheda di una campagna
+* Crea [Flussi di lavoro per campagne](#campaign-workflows) dal **[!UICONTROL Targeting and workflows]** scheda di una campagna
 
-* Crea [Flussi di lavoro tecnici](#technical-workflows) dal **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]** del nodo Explorer. È consigliabile creare una cartella di flusso di lavoro specifica per salvare i flussi di lavoro tecnici.
+* Crea [Flussi di lavoro tecnici](#technical-workflows) dal **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]** nodo di Explorer. Si consiglia di creare una cartella di flusso di lavoro specifica per salvare i flussi di lavoro tecnici.
 
-Fai clic sul pulsante **[!UICONTROL New]** si trova sopra l’elenco dei flussi di lavoro.
+Fai clic su **[!UICONTROL New]** si trova sopra l’elenco dei flussi di lavoro.
 
 ![](assets/create_a_wf_icon.png)
 
-Immetti un’etichetta e fai clic su **[!UICONTROL Save]**.
+Inserisci un’etichetta e fai clic su **[!UICONTROL Save]**.
 
 ## Aggiungere e collegare attività {#add-and-link-activities}
 
-Devi ora definire le varie attività e collegarle nel diagramma. A questo punto della configurazione, è possibile visualizzare l’etichetta del diagramma e lo stato del flusso di lavoro (Modifica in corso). La sezione inferiore della finestra viene utilizzata solo per modificare il diagramma. Contiene una barra degli strumenti, una palette di attività (a sinistra) e il diagramma stesso (a destra).
+Devi ora definire le varie attività e collegarle nel diagramma. In questa fase della configurazione, è possibile visualizzare l’etichetta del diagramma e lo stato del flusso di lavoro (Modifica in corso). La sezione inferiore della finestra viene utilizzata solo per modificare il diagramma. Contiene una barra degli strumenti, una palette di attività (a sinistra) e il diagramma stesso (a destra).
 
 ![](assets/new-workflow-2.png)
 
@@ -43,24 +43,24 @@ Devi ora definire le varie attività e collegarle nel diagramma. A questo punto 
 
 Le attività sono raggruppate per categoria nelle diverse schede della palette. Le schede e le attività disponibili possono variare a seconda del tipo di flusso di lavoro (tecnico, di targeting o del flusso di lavoro della campagna).
 
-* La prima scheda contiene attività di targeting e di manipolazione dei dati. Tali attività sono descritte in dettaglio in [Attività di targeting](targeting-activities.md).
-* La seconda scheda contiene le attività di pianificazione, utilizzate principalmente per coordinare altre attività. Tali attività sono descritte in dettaglio in [Attività di controllo del flusso](flow-control-activities.md).
-* La terza scheda contiene strumenti e azioni che possono essere utilizzati nel flusso di lavoro. Tali attività sono descritte in dettaglio in [Attività azione](action-activities.md).
-* La quarta scheda contiene attività che dipendono da un determinato evento, ad esempio la ricezione di un’e-mail o l’arrivo di un file su un server. Tali attività sono descritte in dettaglio in [Attività evento](event-activities.md).
+* La prima scheda contiene attività di targeting e manipolazione dei dati. Queste attività sono descritte in dettaglio [Attività di targeting](targeting-activities.md).
+* La seconda scheda contiene le attività di pianificazione, utilizzate principalmente per coordinare altre attività. Queste attività sono descritte in dettaglio [Attività di controllo del flusso](flow-control-activities.md).
+* La terza scheda contiene gli strumenti e le azioni che possono essere utilizzati nel flusso di lavoro. Queste attività sono descritte in dettaglio [Attività azione](action-activities.md).
+* La quarta scheda contiene attività che dipendono da un dato evento, ad esempio la ricezione di un messaggio e-mail o l’arrivo di un file su un server. Queste attività sono descritte in dettaglio [Attività di eventi](event-activities.md).
 
 Per creare il diagramma
 
-1. Aggiungi un’attività selezionandola nella palette e spostandola nel diagramma mediante un’operazione di trascinamento della selezione.
+1. Aggiungi un’attività selezionandola nella palette e spostandola nel diagramma con un’operazione di trascinamento della selezione.
 
-   Aggiungi un **Inizio** e quindi un **Consegna** sul diagramma.
+   Aggiungi un **Inizio** attività e quindi un **Consegna** attività nel diagramma.
 
    ![](assets/new-workflow-3.png)
 
-1. Collega le attività trascinando la **Inizio** transizione di attività e rilasciarla su **Consegna** attività.
+1. Collega le attività trascinando la **Inizio** transizione di attività e rilasciarla sulla **Consegna** attività.
 
    ![](assets/new-workflow-4.png)
 
-   Puoi collegare automaticamente un’attività a quella precedente inserendo la nuova attività alla fine della transizione.
+   Puoi collegare automaticamente un’attività alla precedente inserendo la nuova attività alla fine della transizione.
 
 1. Aggiungi le attività necessarie e collegale come mostrato nel diagramma seguente.
 
@@ -68,7 +68,7 @@ Per creare il diagramma
 
 >[!CAUTION]
 >
->Puoi copiare e incollare le attività all’interno di uno stesso flusso di lavoro. Tuttavia, si sconsiglia di copiare e incollare le attività tra flussi di lavoro diversi. Alcune impostazioni collegate ad attività come Consegne e Scheduler potrebbero causare conflitti ed errori durante l’esecuzione del flusso di lavoro di destinazione. Invece, ti abbiamo consigliato di  **Duplica** flussi di lavoro. Per ulteriori informazioni, consulta [Duplicare i flussi di lavoro](#duplicate-workflows).
+>Puoi copiare e incollare le attività all’interno dello stesso flusso di lavoro. Tuttavia, si sconsiglia di copiare e incollare le attività tra flussi di lavoro diversi. Alcune impostazioni associate ad attività come Consegne e Modulo di pianificazione potrebbero causare conflitti ed errori durante l’esecuzione del flusso di lavoro di destinazione. Ti consigliamo invece di  **Duplica** flussi di lavoro. Per ulteriori informazioni, consulta [Flussi di lavoro duplicati](#duplicate-workflows).
 
 È possibile modificare la visualizzazione e il layout del grafico utilizzando i seguenti elementi:
 
@@ -84,30 +84,30 @@ Per creare il diagramma
 
    Le icone relative all’avanzamento e alla visualizzazione dei registri sono descritte in dettaglio nelle sezioni seguenti:
 
-   * [Visualizza stato](monitor-workflow-execution.md#displaying-progress)
+   * [Avanzamento visualizzazione](monitor-workflow-execution.md#displaying-progress)
    * [Visualizza registri](monitor-workflow-execution.md#displaying-logs)
 
-* **Allineamento dell’oggetto**
+* **Allineamento degli oggetti**
 
-   Per allineare le icone, selezionale e fai clic sul pulsante **[!UICONTROL Align vertically]** o **[!UICONTROL Align horizontally]** icona.
+   Per allineare le icone, selezionarle e fare clic sul pulsante **[!UICONTROL Align vertically]** o **[!UICONTROL Align horizontally]** icona.
 
-   Utilizza la **CTRL** per selezionare più attività sparse o per deselezionare una o più attività. Fai clic sullo sfondo del diagramma per deselezionare tutti gli elementi.
+   Utilizza il **CTRL** chiave per selezionare più attività sparse o per deselezionare una o più attività. Fare clic sullo sfondo del diagramma per deselezionare tutto.
 
 * **Gestione delle immagini**
 
-   Puoi personalizzare l’immagine di sfondo del diagramma e quelle relative alle varie attività. Fai riferimento a [Modificare le immagini delle attività](change-activity-images.md).
+   Puoi personalizzare l’immagine di sfondo del diagramma e quelle relative alle varie attività. Fai riferimento a [Modificare le immagini dell’attività](change-activity-images.md).
 
 ## Configurare le attività {#configure-activities}
 
-Fai doppio clic su un’attività per configurarla o fai clic con il pulsante destro del mouse e seleziona (Crea attività) **[!UICONTROL Open...]**.
+Fai doppio clic su un’attività per configurarla oppure fai clic con il pulsante destro del mouse e seleziona **[!UICONTROL Open...]**.
 
 >[!NOTE]
 >
->Le attività del flusso di lavoro di Campaign sono descritte in [questa sezione](activities.md).
+>Le attività del flusso di lavoro di Campaign sono descritte in dettaglio [questa sezione](activities.md).
 
-La prima scheda contiene la configurazione di base. La **[!UICONTROL Advanced]** La scheda contiene i parametri aggiuntivi, utilizzati in particolare per definire il comportamento in caso di errore, specificare la durata di esecuzione per un&#39;attività e per immettere uno script di inizializzazione.
+La prima scheda contiene la configurazione di base. Il **[!UICONTROL Advanced]** La scheda contiene i parametri aggiuntivi, utilizzati in particolare per definire il comportamento in caso di errore, specificare la durata di esecuzione di un’attività e immettere uno script di inizializzazione.
 
-Per una migliore comprensione delle attività e per migliorare la leggibilità del flusso di lavoro, puoi inserire commenti nelle attività.
+Per comprendere meglio le attività e migliorare la leggibilità del flusso di lavoro, puoi inserire commenti nelle attività.
 
 ![](assets/example1-comment.png)
 
@@ -118,57 +118,57 @@ Questi commenti vengono visualizzati automaticamente quando gli operatori scorro
 
 ## Modelli di flusso di lavoro {#workflow-templates}
 
-I modelli di flusso di lavoro contengono la configurazione complessiva delle proprietà ed eventualmente una serie di attività concatenate all’interno di un diagramma. Questa configurazione può essere riutilizzata per creare nuovi flussi di lavoro contenenti un certo numero di elementi preconfigurati
+I modelli di flusso di lavoro contengono la configurazione generale delle proprietà e possibilmente una serie di attività concatenate all’interno di un diagramma. Questa configurazione può essere riutilizzata per creare nuovi flussi di lavoro contenenti un certo numero di elementi preconfigurati
 
 Puoi creare nuovi modelli di flusso di lavoro basati su modelli esistenti o modificare direttamente un flusso di lavoro in un modello.
 
-I modelli di flusso di lavoro sono memorizzati nella **[!UICONTROL Resources > Templates > Workflow templates]** del nodo Explorer.
+I modelli di flusso di lavoro sono memorizzati nel **[!UICONTROL Resources > Templates > Workflow templates]** nodo di Explorer.
 
-Oltre alle consuete proprietà del flusso di lavoro, le proprietà del modello ti consentono di specificare il file di esecuzione per i flussi di lavoro creati in base a questo modello.
+Oltre alle consuete proprietà del flusso di lavoro, le proprietà del modello consentono di specificare il file di esecuzione per i flussi di lavoro creati in base a questo modello.
 
 ![](assets/wf-template-properties.png)
 
-## Duplicare i flussi di lavoro {#duplicate-workflows}
+## Flussi di lavoro duplicati {#duplicate-workflows}
 
 Puoi duplicare diversi tipi di flussi di lavoro. Una volta eseguita la duplicazione, le modifiche del flusso di lavoro non vengono riportate nella copia del flusso di lavoro.
 
 >[!CAUTION]
 >
->Copia e incolla è disponibile nei flussi di lavoro, ma ti consigliamo di utilizzare **Duplica**. Una volta copiata un’attività, viene mantenuta l’intera configurazione. Per le attività di consegna (e-mail, SMS, notifica push..), viene copiato anche l’oggetto di consegna allegato all’attività, il che può causare un arresto anomalo.
+>La funzione di copia e incolla è disponibile nei flussi di lavoro, ma si consiglia di utilizzare **Duplica**. Una volta copiata un’attività, ne viene mantenuta l’intera configurazione. Per le attività di consegna (e-mail, SMS, notifica push...), viene copiato anche l’oggetto di consegna associato all’attività, che può causare l’arresto anomalo.
 
 1. Fai clic con il pulsante destro del mouse su un flusso di lavoro.
-1. Fai clic su **Duplica**.
+1. Clic **Duplica**.
 
    ![](assets/duplicate-workflows.png)
 
 1. Nella finestra del flusso di lavoro, modifica l’etichetta del flusso di lavoro.
 1. Fai clic su **Salva**.
 
-La funzione duplicata non è direttamente disponibile nella visualizzazione di una campagna.
+La funzione di duplicazione non è direttamente disponibile nella visualizzazione di una campagna.
 
-Tuttavia, puoi creare una visualizzazione per visualizzare tutti i flussi di lavoro sull’istanza. In questa visualizzazione puoi duplicare i flussi di lavoro utilizzando **Duplica su**.
+Tuttavia, puoi creare una visualizzazione per visualizzare tutti i flussi di lavoro nell’istanza. In questa vista puoi duplicare i flussi di lavoro utilizzando **Duplica a**.
 
 **Creare una visualizzazione**
 
-1. In **Esplora risorse**, vai alla cartella in cui devi creare la visualizzazione.
+1. In entrata **Esplora**, passa alla cartella in cui creare la visualizzazione.
 1. Fai clic con il pulsante destro del mouse e vai a **Aggiungi una nuova cartella** > **Processo**, seleziona **Flussi di lavoro**.
 
    ![](assets/add-new-folder-workflows.png)
 
 La nuova cartella **Flussi di lavoro** viene creato.
 
-1. Fai clic con il pulsante destro del mouse e seleziona **Proprietà**.
-1. In **Restrizione** abilita **Questa cartella è una visualizzazione** e fai clic su **Salva**.
+1. Fai clic con il pulsante destro del mouse e seleziona (Copia negli Appunti) **Proprietà**.
+1. In **Limitazione** , abilita **Questa cartella è una visualizzazione** e fai clic su **Salva**.
 
    ![](assets/folder-is-a-view.png)
 
-La cartella viene ora compilata con tutti i flussi di lavoro dell’istanza.
+La cartella ora è compilata con tutti i flussi di lavoro dell’istanza.
 
-**Duplicare un flusso di lavoro della campagna**
+**Duplicare un flusso di lavoro per una campagna**
 
-1. Seleziona un flusso di lavoro della campagna nella visualizzazione del flusso di lavoro.
-1. Fai clic con il pulsante destro del mouse **Duplica su**.
-1. Cambia l’etichetta.
+1. Seleziona un flusso di lavoro della campagna nella vista flusso di lavoro.
+1. Clic con il pulsante destro **Duplica a**.
+1. Cambiarne l’etichetta.
 1. Fai clic su **Salva**.
 
-Puoi visualizzare il flusso di lavoro duplicato nella visualizzazione del flusso di lavoro.
+Puoi visualizzare il flusso di lavoro duplicato nella vista flusso di lavoro.

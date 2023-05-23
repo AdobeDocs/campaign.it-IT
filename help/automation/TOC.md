@@ -10,7 +10,7 @@ ht-degree: 84%
 ---
 
 
-# Guide all’automazione delle campagne {#automation}
+# Guide all’automazione di Campaign {#automation}
 
 + [Guida all’automazione di Campaign](home.md)
 + Automatizzare con i flussi di lavoro {#workflows}
@@ -26,13 +26,13 @@ ht-degree: 84%
    + Eseguire un flusso di lavoro {#executing-a-workflow}
       + [Avviare un flusso di lavoro](workflow/start-a-workflow.md)
       + [Ciclo di vita di un flusso di lavoro](workflow/workflow-life-cycle.md)
-      + [Configurare le approvazioni](workflow/define-approvals.md)
+      + [Impostare le approvazioni](workflow/define-approvals.md)
    + Monitorare i flussi di lavoro {#monitoring-workflows}
       + [Monitorare l’esecuzione di un flusso di lavoro](workflow/monitor-workflow-execution.md)
       + [Monitorare i flussi di lavoro tecnici](workflow/monitor-technical-workflows.md)
       + [Flusso di lavoro HeatMap](workflow/heatmap.md)
    + Attività dei flussi di lavoro {#wf-activities}
-      + [Guida introduttiva alle attività](workflow/activities.md)
+      + [Introduzione alle attività](workflow/activities.md)
       + Attività di targeting {#targeting-activities}
          + [Elenco delle attività di targeting](workflow/targeting-activities.md)
          + [Celle](workflow/cells.md)
@@ -87,7 +87,7 @@ ht-degree: 84%
          + [Gestione dati SQL](workflow/sql-data-management.md)
          + [Aggregato di aggiornamento](workflow/update-aggregate.md)
       + Attività di eventi {#event-activities}
-         + [Elenco delle attività dell’evento](workflow/event-activities.md)
+         + [Elenco delle attività evento](workflow/event-activities.md)
          + [Raccolta file](workflow/file-collector.md)
          + [Trasferimento file](workflow/file-transfer.md)
          + [E-mail in entrata](workflow/inbound-emails.md)
@@ -117,7 +117,7 @@ ht-degree: 84%
       + Query e filtro {#designing-queries}
          + [Eseguire una query sulla tabella dei destinatari](workflow/querying-recipient-table.md)
          + [Eseguire una query sulle informazioni di consegna](workflow/query-delivery-info.md)
-         + [Calcolare gli aggregati](workflow/compute-aggregates.md)
+         + [Calcola aggregati](workflow/compute-aggregates.md)
          + [Eseguire query tramite gestione dei raggruppamenti](workflow/query-grouping-management.md)
          + [Eseguire una query tramite una relazione molti-a-molti](workflow/query-many-to-many-relationship.md)
          + [Aggiungere un campo calcolato di tipo enumerazione](workflow/adding-enumeration-type-calculated-field.md)
@@ -143,26 +143,26 @@ ht-degree: 84%
    + [Campagne ricorrenti e periodiche](campaigns/recurring-periodic-campaigns.md)
    + [Monitorare le campagne](campaigns/marketing-campaign-monitoring.md)
    + [Fornitori, scorte e budget](campaigns/providers--stocks-and-budgets.md)
-+ Ottimizzazione delle campagne (componente aggiuntivo){#campaign-optimization}
-   + [Guida introduttiva alle tipologie di campagne](campaign-opt/campaign-typologies.md)
++ Ottimizzazione di Campaign (componente aggiuntivo){#campaign-optimization}
+   + [Introduzione alle tipologie di campagne](campaign-opt/campaign-typologies.md)
    + [Regole di filtro](campaign-opt/filtering-rules.md)
    + [Regole di controllo](campaign-opt/control-rules.md)
    + [Regole di pressione](campaign-opt/pressure-rules.md)
    + [Regole di coerenza](campaign-opt/consistency-rules.md)
    + [Applicare le regole](campaign-opt/apply-rules.md)
    + [Simulazioni delle campagne](campaign-opt/campaign-simulations.md)
-+ Gestione delle risorse di marketing (componente aggiuntivo){#mrm}
-   + [Guida introduttiva alla gestione delle risorse di marketing](mrm/about-marketing-resource-management.md)
++ Gestione delle risorse marketing (componente aggiuntivo){#mrm}
+   + [Introduzione alla gestione delle risorse di marketing](mrm/about-marketing-resource-management.md)
    + [Creare e gestire le attività](mrm/creating-and-managing-tasks.md)
    + [Controllare i costi](mrm/controlling-costs.md)
    + [Gestire le risorse di marketing](mrm/managing-marketing-resources.md)
    + [Forum di discussione](mrm/discussion-forums.md)
 + Marketing distribuito (componente aggiuntivo) {#distributed-marketing}
-   + [Guida introduttiva al marketing distribuito](distributed-marketing/about-distributed-marketing.md)
+   + [Introduzione al marketing distribuito](distributed-marketing/about-distributed-marketing.md)
    + [Creare una campagna locale](distributed-marketing/creating-a-local-campaign.md)
    + [Creare una campagna collaborativa](distributed-marketing/creating-a-collaborative-campaign.md)
    + [Pubblicare il pacchetto della campagna](distributed-marketing/publishing-the-campaign-package.md)
    + [Accedere alle campagne](distributed-marketing/accessing-campaigns.md)
    + [Tracciare una campagna](distributed-marketing/tracking-a-campaign.md)
    + [Casi d’uso](distributed-marketing/examples.md)
-+ [Documentazione su Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=it)
++ [Documentazione di Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=it)

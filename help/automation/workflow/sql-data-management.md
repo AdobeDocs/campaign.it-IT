@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Gestione dati SQL
-description: Ulteriori informazioni sull'attività del flusso di lavoro SQL Data Management
+description: Ulteriori informazioni sull'attività del flusso di lavoro di Gestione dati SQL
 feature: Workflows
 exl-id: a1e08d57-0387-4802-b447-f6d9ad87072a
 source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
@@ -13,11 +13,11 @@ ht-degree: 1%
 
 # Gestione dati SQL{#sql-data-management}
 
-La **Gestione dati SQL** attività consente di creare script SQL personalizzati per creare e popolare tabelle di lavoro.
+Il **Gestione dati SQL** Activity consente di scrivere script SQL personalizzati per creare e popolare tabelle di lavoro.
 
 ## Prerequisiti {#prerequisites}
 
-Prima di configurare l’attività, verifica che siano soddisfatti i seguenti prerequisiti:
+Prima di configurare l’attività, assicurati di soddisfare i seguenti prerequisiti:
 
 * L’attività è disponibile solo per le origini dati remote.
 * Lo schema in uscita deve esistere nel database ed essere collegato a un database FDA.
@@ -25,44 +25,44 @@ Prima di configurare l’attività, verifica che siano soddisfatti i seguenti pr
 
 ## Configurazione dell&#39;attività di gestione dati SQL {#configuring-the-sql-data-management-activity}
 
-1. Specifica l’attività **[!UICONTROL Label]**.
-1. Seleziona la **[!UICONTROL External account]** da utilizzare, quindi seleziona la **[!UICONTROL Outbound schema]** collegato a questo account esterno.
+1. Specificare l’attività **[!UICONTROL Label]**.
+1. Seleziona la **[!UICONTROL External account]** da utilizzare, quindi selezionare **[!UICONTROL Outbound schema]** collegato a questo account esterno.
 
    >[!CAUTION]
    >
-   >Lo schema in uscita è fisso e non può essere modificato.
+   >Lo schema In uscita è fisso e non può essere modificato.
 
-1. Aggiungi lo script SQL.
+1. Aggiungere lo script SQL.
 
    >[!CAUTION]
    >
-   >È responsabilità dell&#39;autore dello script SQL assicurarsi che lo script SQL funzioni e che i relativi riferimenti (nomi di campi, ecc.) sono conformi allo schema in uscita.
+   >È responsabilità dell&#39;autore dello script SQL verificare che lo script SQL sia funzionale e che i relativi riferimenti (nomi dei campi, ecc.) sono conformi allo schema In uscita.
 
-   Se si desidera caricare un codice SQL esistente, selezionare la **[!UICONTROL The SQL script is contained in an entity stored in the database]** opzione . Gli script SQL devono essere creati e memorizzati nel **[!UICONTROL Administration]** / **[!UICONTROL Configuration]** / **[!UICONTROL SQL scripts]** menu.
+   Per caricare un codice SQL esistente, selezionare **[!UICONTROL The SQL script is contained in an entity stored in the database]** opzione. Gli script SQL devono essere creati e memorizzati nel **[!UICONTROL Administration]** / **[!UICONTROL Configuration]** / **[!UICONTROL SQL scripts]** menu.
 
-   In caso contrario, digitare o copiare-incollare lo script SQL nell&#39;area dedicata.
+   In caso contrario, digitare o copiare e incollare lo script SQL nell&#39;area dedicata.
 
    ![](assets/sql_datamanagement.png)
 
    L’attività ti consente di utilizzare le seguenti variabili nello script:
 
-   * **activity.tableName**: Nome SQL della tabella di lavoro in uscita.
-   * **task.entrinTransitionByName(‘name’).tableName**: Nome SQL della tabella di lavoro gestita dalla transizione in entrata da utilizzare (la transizione è identificata dal suo nome).
+   * **activity.tableName**: nome SQL della tabella di lavoro in uscita.
+   * **task.incomingTransitionByName(&quot;name&quot;).tableName**: nome SQL della tabella di lavoro trasportata dalla transizione in ingresso da utilizzare (la transizione è identificata dal relativo nome).
 
       >[!NOTE]
       >
-      >Il valore (&#39;name&#39;) corrisponde al valore **[!UICONTROL Name]** dalle proprietà della transizione.
+      >Il valore (&#39;name&#39;) corrisponde al **[!UICONTROL Name]** dalle proprietà della transizione.
 
-1. Se lo script SQL contiene già comandi per creare una tabella di lavoro in uscita, deselezionare la **[!UICONTROL Automatically create work table]** opzione . In caso contrario, una tabella di lavoro viene creata automaticamente una volta eseguito il flusso di lavoro.
-1. Fai clic su **[!UICONTROL Ok]** per confermare la configurazione dell’attività.
+1. Se lo script SQL contiene già comandi per creare una tabella di lavoro in uscita, deselezionare **[!UICONTROL Automatically create work table]** opzione. In caso contrario, una tabella di lavoro viene creata automaticamente una volta eseguito il flusso di lavoro.
+1. Clic **[!UICONTROL Ok]** per confermare la configurazione dell’attività.
 
 L’attività è ora configurata. È pronto per essere eseguito nel flusso di lavoro.
 
 >[!CAUTION]
 >
->Una volta eseguita l’attività, il conteggio dei record di transizione in uscita è indicativo solo. Può variare a seconda del livello di complessità dello script SQL.
+>Una volta eseguita l’attività, il conteggio dei record di transizione in uscita è solo indicativo. Può variare in base al livello di complessità dello script SQL.
 >  
->Se l’attività viene riavviata, l’intero script viene eseguito dall’inizio, indipendentemente dallo stato di esecuzione.
+>Se l’attività viene riavviata, l’intero script viene eseguito dal suo inizio, indipendentemente dallo stato di esecuzione.
 
 ## Esempi di script SQL {#sql-script-samples}
 
@@ -70,7 +70,7 @@ L’attività è ora configurata. È pronto per essere eseguito nel flusso di la
 >
 >Gli esempi di script in questa sezione devono essere eseguiti in PostgreSQL.
 
-Lo script sottostante consente di creare una tabella di lavoro e inserire dati in questa stessa tabella di lavoro:
+Lo script sottostante consente di creare una tabella di lavoro e di inserire dati nella stessa tabella di lavoro:
 
 ```
 CREATE UNLOGGED TABLE <%= activity.tableName %> (
@@ -87,7 +87,7 @@ FROM nmsRecipient
 GROUP BY iRecipientId, sFirstName, sMiddleName, sLastName, sEmail;
 ```
 
-Lo script sottostante consente di eseguire un&#39;operazione CTAS (CREATE TABLE AS SELECT) e creare un indice della tabella di lavoro:
+Lo script seguente consente di eseguire un&#39;operazione CTAS (CREATE TABLE AS SELECT) e di creare un indice della tabella di lavoro:
 
 ```
 CREATE TABLE <%= activity.tableName %>

@@ -14,9 +14,9 @@ ht-degree: 36%
 
 # Introduzione alla personalizzazione {#personalize-content}
 
-Per trarre il massimo da ogni campagna di marketing, Adobe Campaign offre un modo per distribuire contenuti personalizzati che parlano ai clienti a livello di . In base ai dati di profilo, le funzionalità di personalizzazione consentono di creare un’esperienza personalizzata per gruppi e singoli utenti diversi: puoi adattare i tuoi messaggi a ogni destinatario specifico sfruttando i dati e le informazioni disponibili su di essi. Può essere il loro nome, i loro interessi, dove vivono, quello che hanno comprato, e molto altro.
+Per ottenere il massimo da ogni campagna di marketing, Adobe Campaign offre un modo per fornire contenuti personalizzati che parlano ai clienti a loro livello. In base ai dati del profilo, funzionalità di personalizzazione per creare un’esperienza personalizzata per diversi gruppi e singoli utenti: puoi adattare i messaggi a ogni destinatario specifico sfruttando i dati e le informazioni di cui disponi su di essi. Può essere il nome, gli interessi, dove vivono, cosa hanno comprato, e molto altro.
 
-Adobe Campaign semplifica la personalizzazione: è possibile visualizzare diversi tipi di contenuto personalizzati per ciascun destinatario utilizzando un singolo [modello e-mail](create-templates.md). Nei messaggi transazionali, ad esempio e-mail di conferma dell’acquisto o di abbandono del carrello, includi le informazioni sugli elenchi dei prodotti per ogni individuo all’interno di un singolo modello e-mail.
+Adobe Campaign semplifica la personalizzazione: puoi visualizzare diversi tipi di contenuto personalizzati per ogni destinatario utilizzando un singolo [modello e-mail](create-templates.md). Nei messaggi transazionali, ad esempio e-mail di conferma dell’acquisto o di abbandono del carrello, includi informazioni sugli elenchi dei prodotti per ogni individuo all’interno di un singolo modello e-mail.
 
 
 ## Strategie di personalizzazione {#personalization-strategy}
@@ -47,13 +47,13 @@ Puoi personalizzare il contenuto del messaggio in diversi modi:
 
 ## Guardrail e raccomandazioni{#perso-guardrails}
 
-### Timeout personalizzazione{#perso-timeout}
+### Timeout della personalizzazione{#perso-timeout}
 
 Per migliorare la protezione della consegna, puoi impostare un periodo di timeout per la fase di personalizzazione.
 
-In **[!UICONTROL Delivery]** della scheda **[!UICONTROL Delivery properties]**, seleziona un valore massimo in secondi per il **[!UICONTROL Maximum personalization run time]** opzione .
+In **[!UICONTROL Delivery]** scheda di **[!UICONTROL Delivery properties]**, selezionare un valore massimo in secondi per **[!UICONTROL Maximum personalization run time]** opzione.
 
-Durante l’anteprima o l’invio, se la fase di personalizzazione supera il tempo massimo impostato in questo campo, il processo verrà interrotto con un messaggio di errore e la consegna avrà esito negativo.
+Durante l’anteprima o l’invio, se la fase di personalizzazione supera il tempo massimo impostato in questo campo, il processo viene interrotto con un messaggio di errore e la consegna non riesce.
 
 Il valore predefinito è 5 secondi.
 
@@ -62,7 +62,7 @@ Se imposti questa opzione su 0, non ci sarà alcun limite di tempo per la fase d
 
 ### Variabili interne{#internal-variables}
 
-Le seguenti variabili sono variabili interne che possono essere utilizzate per la personalizzazione ma che non devono essere modificate: **consegna**, **message**, **dataSource**, **targetData**, **fornitore**, **coupon**, **couponValue**, **proposta**.
+Le seguenti variabili sono variabili interne che possono essere utilizzate per la personalizzazione ma non devono essere modificate: **consegna**, **messaggio**, **dataSource**, **targetData**, **provider**, **coupon**, **couponValue**, **proposta**.
 
 
 ## Video tutorial {#personalization-video}

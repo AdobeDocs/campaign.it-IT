@@ -1,6 +1,6 @@
 ---
 title: Casi di utilizzo dell’interazione con la campagna
-description: Casi d’uso dell’interazione
+description: Casi di utilizzo dell’interazione
 feature: Interaction, Offers
 role: Data Engineer
 level: Beginner
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Casi d’uso
 
-Utilizza le funzionalità di interazione di Campaign attraverso questi casi d’uso dettagliati disponibili nella documentazione di Campaign Classic v7:
+Sfrutta le funzionalità di interazione di Campaign tramite questi casi d’uso dettagliati disponibili nella documentazione di Campaign Classic v7:
 
 ![](../assets/do-not-localize/book.png) [Creare e applicare una regola di presentazione](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/presentation-rules.html){target="_blank"}
 

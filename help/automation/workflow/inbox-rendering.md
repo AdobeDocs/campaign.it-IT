@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Casella in entrata - Flusso di lavoro tecnico di rendering
+title: Flusso di lavoro tecnico per il rendering della casella in entrata
 description: Questa sezione descrive il flusso di lavoro tecnico installato con il pacchetto di rendering della casella in entrata
 feature: Workflows, Inbox Rendering
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
@@ -11,11 +11,11 @@ ht-degree: 6%
 ---
 
 
-# Rendering della casella in entrata (IR){#inbox-rendering}
+# Rendering casella in entrata (IR){#inbox-rendering}
 
 
 
-Il flusso di lavoro descritto di seguito è installato con **Rendering della casella in entrata (IR)** modulo per impostazione predefinita.
+Il flusso di lavoro descritto di seguito viene installato con **Rendering casella in entrata (IR)** per impostazione predefinita.
 
 <table> 
  <tbody> 
@@ -25,7 +25,7 @@ Il flusso di lavoro descritto di seguito è installato con **Rendering della cas
    <td> <strong>Descrizione</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Aggiorna la rete di seed per il rendering della casella in entrata</strong><br /> </td> 
+   <td> <strong>Aggiorna rete di seed per il rendering della casella in entrata</strong><br /> </td> 
    <td> <span class="uicontrol">updateRenderingSeeds</span> <br /> </td> 
    <td> Questo flusso di lavoro aggiorna gli indirizzi e-mail utilizzati per il rendering della casella in entrata e funziona solo se la porta HTTPS è aperta per <strong>deliverability.neolane.net</strong>.<br /> </td> 
   </tr> 

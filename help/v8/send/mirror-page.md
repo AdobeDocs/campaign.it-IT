@@ -41,8 +41,8 @@ Per impostazione predefinita, la pagina mirror viene generata automaticamente da
 
 Puoi controllare la modalità di generazione della pagina mirror dell’e-mail. Le opzioni sono disponibili nelle proprietà di consegna. Per accedere a queste opzioni:
 
-1. Sfoglia il **[!UICONTROL Validity]** scheda delle proprietà e-mail.
-1. In **Gestione pagina speculare** nella sezione **[!UICONTROL Mode]** elenco a discesa.
+1. Accedi a **[!UICONTROL Validity]** delle proprietà e-mail.
+1. In **Gestione delle pagine mirror** sezione, controlla la **[!UICONTROL Mode]** elenco a discesa.
 
 ![](assets/mirror-page-generation.png){width="800" align="left"}
 
@@ -50,17 +50,17 @@ Oltre alla modalità predefinita, sono disponibili le seguenti opzioni:
 
 * **[!UICONTROL Force the generation of the mirror page]**: utilizza questa modalità per generare la pagina speculare anche se nella consegna non è inserito alcun collegamento alla pagina speculare.
 * **[!UICONTROL Do not generate the mirror page]**: utilizza questa modalità per evitare di generare una pagina speculare, anche se il collegamento è presente nella consegna.
-* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: quando il collegamento della pagina speculare non è presente nel contenuto dell’e-mail, utilizza questa opzione per abilitare l’accesso al contenuto della pagina speculare, nella finestra del registro di consegna, come descritto di seguito.
+* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: quando il collegamento alla pagina speculare non è presente nel contenuto dell’e-mail, utilizza questa opzione per abilitare l’accesso al contenuto della pagina speculare, nella finestra del registro di consegna, come descritto di seguito.
 
-## Controlla la pagina speculare per un destinatario{#mirror-page-access}
+## Controlla la pagina mirror di un destinatario{#mirror-page-access}
 
 Puoi accedere al contenuto della pagina speculare per un destinatario specifico di una consegna, con i dati di personalizzazione.
 
-Per accedere a questa pagina speculare:
+Per accedere a questa pagina mirror:
 
-1. Una volta inviata la consegna, aprila e sfoglia fino alla **[!UICONTROL Delivery]** scheda .
+1. Una volta inviata la consegna, aprila e naviga fino alla **[!UICONTROL Delivery]** scheda.
 
-1. Seleziona un destinatario e fai clic sul pulsante **[!UICONTROL Display the mirror page for this message...]** link.
+1. Seleziona un destinatario e fai clic su **[!UICONTROL Display the mirror page for this message...]** collegamento.
 
    ![](assets/mirror-page-display.png){width="800" align="left"}
 

@@ -14,31 +14,31 @@ ht-degree: 2%
 
 # Estendere uno schema{#extend-schemas}
 
-In qualità di utente tecnico, puoi personalizzare il modello dati di Campaign per soddisfare le esigenze della tua implementazione: aggiungere elementi a uno schema esistente, modificare un elemento in uno schema o eliminare elementi.
+In qualità di utente tecnico, puoi personalizzare il modello dati di Campaign per soddisfare le esigenze della tua implementazione: puoi aggiungere elementi a uno schema esistente, modificare un elemento in uno schema o eliminare elementi.
 
-I passaggi chiave per personalizzare il modello dati di Campaign sono i seguenti:
+I passaggi chiave per personalizzare il modello dati di Campaign sono:
 
 1. Creare uno schema di estensione
-1. Aggiorna il database di Campaign
+1. Aggiornare il database di Campaign
 1. Adattare il modulo di input
 
 >[!CAUTION]
->Lo schema predefinito non deve essere modificato direttamente. Se è necessario adattare uno schema incorporato, è necessario estenderlo.
+>Lo schema incorporato non deve essere modificato direttamente. Se devi adattare uno schema integrato, devi estenderlo.
 
-![](../assets/do-not-localize/glass.png) Per una migliore comprensione delle tabelle integrate di Campaign e della loro interazione, consulta [questa pagina](datamodel.md). Vedi anche consigli durante la creazione di un nuovo schema in [questa pagina](create-schema.md).
+![](../assets/do-not-localize/glass.png) Per informazioni sulle tabelle integrate di Campaign e sulla loro interazione, consulta [questa pagina](datamodel.md). Consulta anche i consigli durante la creazione di un nuovo schema in [questa pagina](create-schema.md).
 
-Per estendere uno schema, segui i passaggi seguenti:
+Per estendere uno schema, effettua le seguenti operazioni:
 
-1. Passa a **[!UICONTROL Administration > Configuration > Data schemas]** in Esplora risorse.
-1. Fai clic sul pulsante **Nuovo** e seleziona **[!UICONTROL Extend the data in a table using an extension schema]**.
+1. Accedi a **[!UICONTROL Administration > Configuration > Data schemas]** in Esplora risorse.
+1. Fai clic su **Nuovo** e seleziona **[!UICONTROL Extend the data in a table using an extension schema]**.
 
    ![](assets/extend-schema-option.png)
 
-1. Identifica lo schema incorporato da estendere e selezionarlo.
+1. Identifica lo schema integrato da estendere e selezionalo.
 
    ![](assets/extend-schema-select.png)
 
-   Per convenzione, denomina lo schema di estensione come lo schema incorporato e utilizza uno spazio dei nomi personalizzato.  Alcuni namespace sono interni solo. [Ulteriori informazioni](schemas.md#reserved-namespaces)
+   Per convenzione, assegna allo schema di estensione lo stesso nome dello schema incorporato e utilizza uno spazio dei nomi personalizzato.  Alcuni spazi dei nomi sono solo interni. [Ulteriori informazioni](schemas.md#reserved-namespaces)
 
    ![](assets/extend-schema-validate.png)
 
@@ -46,7 +46,7 @@ Per estendere uno schema, segui i passaggi seguenti:
 
    ![](assets/extend-schema-edit.png)
 
-   Nell’esempio seguente, aggiungiamo la variabile **annoIscrizione** inserisci un limite di lunghezza per il cognome (questo limite sovrascrive quello predefinito) e rimuovi la data di nascita dallo schema incorporato.
+   Nell’esempio seguente, aggiungiamo il **MembershipYear** , imposta un limite di lunghezza per il cognome (questo limite sovrascriverà quello predefinito) e rimuovi la data di nascita dallo schema predefinito.
 
    ![](assets/extend-schema-sample.png)
 
@@ -62,7 +62,7 @@ Per estendere uno schema, segui i passaggi seguenti:
    </srcSchema>
    ```
 
-1. Disconnetti e riconnettiti a Campaign per controllare l’aggiornamento della struttura dello schema nel **[!UICONTROL Structure]** scheda .
+1. Disconnettiti e riconnettiti a Campaign per verificare l’aggiornamento della struttura dello schema in **[!UICONTROL Structure]** scheda.
 
    ![](assets/extend-schema-structure.png)
 

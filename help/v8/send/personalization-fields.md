@@ -14,17 +14,17 @@ ht-degree: 4%
 
 # Aggiungere campi di personalizzazione{#personalization-fields}
 
-Utilizza i campi di personalizzazione per distribuire contenuti personalizzati su base individuale, in base alle regole impostate per ogni destinatario.
+Utilizza i campi di personalizzazione per fornire contenuti personalizzati uno a uno, in base alle regole impostate per ogni destinatario.
 
-Un campo di personalizzazione è un riferimento a un singolo campo di dati utilizzato quando si personalizza una consegna per un destinatario specifico. Il valore effettivo dei dati viene inserito durante la fase di analisi della consegna.
+Un campo di personalizzazione è un singolo riferimento a un campo dati utilizzato per personalizzare una consegna per un destinatario specifico. Il valore effettivo dei dati viene inserito durante la fase di analisi della consegna.
 
 ![esempio di personalizzazione dei messaggi](assets/perso-name-sample.png)
 
 ## Sintassi
 
-Un tag di personalizzazione utilizza sempre la sintassi seguente: `<%=table.field%>`.
+Un tag di personalizzazione utilizza sempre la seguente sintassi: `<%=table.field%>`.
 
-Ad esempio, per inserire il nome del destinatario, memorizzato nella tabella dei destinatari, il campo di personalizzazione utilizza l’ `<%= recipient.lastName %>` sintassi.
+Ad esempio, per inserire il nome del destinatario, memorizzato nella tabella dei destinatari, il campo di personalizzazione utilizza `<%= recipient.lastName %>` sintassi.
 
 >[!CAUTION]
 >
@@ -36,27 +36,27 @@ Per inserire campi di personalizzazione, fai clic sull’icona a discesa accessi
 
 ![inserire un campo di personalizzazione](assets/perso-field-insert.png)
 
-I campi di personalizzazione vengono inseriti e sono pronti per essere interpretati da Adobe Campaign: durante la preparazione dei messaggi, i campi vengono sostituiti dal relativo valore per un determinato destinatario.
+I campi di personalizzazione vengono inseriti e sono pronti per essere interpretati da Adobe Campaign: durante la preparazione dei messaggi, i campi vengono sostituiti dal loro valore per un determinato destinatario.
 
 ![campi di personalizzazione in un messaggio e-mail](assets/perso-fields-in-msg.png)
 
-Questa sostituzione può quindi essere testata nel **[!UICONTROL Preview]** scheda .
+La sostituzione può quindi essere testata nel **[!UICONTROL Preview]** scheda.
 
 <!--Learn more about message preview in [this page]().-->
 
-## Caso di utilizzo: personalizzare l’oggetto dell’e-mail {#personalization-fields-uc}
+## Caso d’uso: personalizzare l’oggetto dell’e-mail {#personalization-fields-uc}
 
 Nel caso d’uso seguente, scopri come personalizzare un oggetto e un corpo dell’e-mail con i dati dei destinatari:
 
 1. Crea una nuova consegna o apri una consegna e-mail esistente.
-1. Sfoglia il **[!UICONTROL Subject]** collegamento per modificare l’oggetto del messaggio.
+1. Accedi a **[!UICONTROL Subject]** per modificare l’oggetto del messaggio.
 1. Inserisci &quot; **Offerta speciale per** &quot; e utilizza il pulsante nella barra degli strumenti per inserire un campo di personalizzazione. Seleziona **[!UICONTROL Recipients>Title]**.
 1. Ripetere l&#39;operazione per inserire il nome del destinatario. Inserisci spazi tra tutti i campi di personalizzazione.
-1. Fai clic su **[!UICONTROL OK]** da convalidare.
-1. Inserisci la personalizzazione nel corpo del messaggio. A questo scopo, fai clic sul contenuto del messaggio e fai clic sul pulsante di inserimento del campo .
+1. Clic **[!UICONTROL OK]** da convalidare.
+1. Inserisci la personalizzazione nel corpo del messaggio. A questo scopo, fai clic sul contenuto del messaggio e fai clic sul pulsante di inserimento del campo.
 1. Seleziona **[!UICONTROL Recipient>Other...]**.
 1. Seleziona il campo con le informazioni da visualizzare e fai clic su **[!UICONTROL OK]**.
-1. Fai clic sul pulsante **[!UICONTROL Preview]** per visualizzare il risultato della personalizzazione. Devi selezionare un destinatario per visualizzare il messaggio del destinatario.
+1. Fai clic su **[!UICONTROL Preview]** per visualizzare il risultato della personalizzazione. È necessario selezionare un destinatario per visualizzarne il messaggio.
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Filtrare gli schemi di Campaign
+title: Filtrare gli schemi delle campagne
 description: Scopri come filtrare gli schemi di Campaign
 feature: Schema Extension
 role: Developer
@@ -16,23 +16,23 @@ ht-degree: 0%
 
 ## Filtri di sistema {#system-filters}
 
-Puoi filtrare l’accesso allo schema per utenti specifici, in base alle relative autorizzazioni. I filtri di sistema consentono di gestire le autorizzazioni di lettura e scrittura delle entità descritte negli schemi, utilizzando **readAccess** e **writeAccess** Parametri.
+Puoi filtrare l’accesso allo schema per utenti specifici, a seconda delle loro autorizzazioni. I filtri di sistema consentono di gestire le autorizzazioni di lettura e scrittura delle entità descritte negli schemi, utilizzando **readAccess** e **writeAccess** parametri.
 
 >[!NOTE]
 >
->Questa restrizione si applica solo agli utenti non tecnici: un utente tecnico con le relative autorizzazioni o che utilizza un flusso di lavoro sarà in grado di recuperare e aggiornare i dati.
+>Questa restrizione si applica solo agli utenti non tecnici: un utente tecnico, con le autorizzazioni correlate o che utilizza un flusso di lavoro, potrà recuperare e aggiornare i dati.
 
-* **readAccess**: consente l&#39;accesso in sola lettura ai dati dello schema.
+* **readAccess**: fornisce accesso in sola lettura ai dati dello schema.
 
-   **Avviso** - Tutte le tabelle collegate devono essere impostate con la stessa restrizione. Questa configurazione può influire sulle prestazioni.
+   **Avvertenza** - Tutte le tabelle collegate devono essere impostate con la stessa restrizione. Questa configurazione può influire sulle prestazioni.
 
-* **writeAccess**: fornisce l&#39;accesso in scrittura ai dati dello schema.
+* **writeAccess**: fornisce accesso in scrittura ai dati dello schema.
 
-Questi filtri vengono immessi nella pagina principale **elemento** per limitare l’accesso, è possibile creare il livello degli schemi e, come mostrato negli esempi seguenti.
+Questi filtri vengono immessi nella **elemento** degli schemi e, come mostrato negli esempi seguenti, possono essere formati per limitare l’accesso.
 
-* Limita autorizzazioni DI SCRITTURA
+* Limita autorizzazioni SCRITTURA
 
-   In questo caso, il filtro viene utilizzato per impedire le autorizzazioni WRITE sullo schema per gli operatori senza l&#39;autorizzazione AMMINISTRAZIONE. Ciò significa che solo gli amministratori avranno le autorizzazioni di scrittura sulle entità descritte da questo schema.
+   In questo caso, il filtro viene utilizzato per non consentire le autorizzazioni di SCRITTURA sullo schema per gli operatori che non dispongono dell’autorizzazione AMMINISTRAZIONE. Ciò significa che solo gli amministratori avranno autorizzazioni di scrittura sulle entità descritte da questo schema.
 
    ```
    <sysFilter name="writeAccess">      
@@ -40,9 +40,9 @@ Questi filtri vengono immessi nella pagina principale **elemento** per limitare 
    </sysFilter>
    ```
 
-* Limitare le autorizzazioni di LETTURA e SCRITTURA:
+* Limita le autorizzazioni di LETTURA e SCRITTURA:
 
-   In questo caso, il filtro viene utilizzato per disabilitare le autorizzazioni READ e WRITE sullo schema per tutti gli operatori. Solo il **interno** account, rappresentato dall&#39;espressione &quot;$(loginId)!=0&quot;, dispone di queste autorizzazioni.
+   In questo caso, il filtro viene utilizzato per non consentire le autorizzazioni di LETTURA e SCRITTURA sullo schema per tutti gli operatori. Solo il **interno** , rappresentato dall&#39;espressione &quot;$(loginId)!=0&quot;, dispone delle seguenti autorizzazioni.
 
    ```
    <sysFilter name="readAccess"> 
@@ -54,15 +54,15 @@ Questi filtri vengono immessi nella pagina principale **elemento** per limitare 
    </sysFilter>
    ```
 
-   Possibile **expr** i valori degli attributi utilizzati per definire la condizione sono TRUE o FALSE.
+   Possibile **espr** I valori degli attributi utilizzati per definire la condizione sono TRUE o FALSE.
 
 >[!NOTE]
 >
->Se non viene specificato alcun filtro, tutti gli operatori avranno le autorizzazioni di lettura e scrittura per lo schema.
+>Se non viene specificato alcun filtro, tutti gli operatori disporranno di autorizzazioni di lettura e scrittura per lo schema.
 
-## Schemi incorporati Protect
+## Schemi incorporati di Protect
 
-Per impostazione predefinita, gli schemi incorporati sono accessibili solo con autorizzazioni WRITE per gli operatori con diritti di amministrazione:
+Per impostazione predefinita, gli schemi incorporati sono accessibili solo con autorizzazioni di SCRITTURA per gli operatori con diritti di AMMINISTRAZIONE:
 
 * ncm:pubblicazione
 * nl:monitoraggio
@@ -75,8 +75,8 @@ Per impostazione predefinita, gli schemi incorporati sono accessibili solo con a
 * xtk:entityOriginal
 * xtk:form
 * xtk:funcList
-* xtk:fusione
-* xtk:image
+* xtk:fusion
+* xtk:immagine
 * xtk:javascript
 * xtk:jssp
 * xtk:jst
@@ -97,14 +97,14 @@ Per impostazione predefinita, gli schemi incorporati sono accessibili solo con a
 
 >[!CAUTION]
 >
->Autorizzazioni READ e WRITE per **xtk:sessionInfo** Lo schema è accessibile solo dall’account interno di un’istanza di Adobe Campaign.
+>Autorizzazioni di LETTURA e SCRITTURA per **xtk:sessionInfo** sono accessibili solo dall’account interno di un’istanza Adobe Campaign.
 
 ## Modificare i filtri di sistema degli schemi incorporati
 
-Gli schemi incorporati sono protetti per evitare problemi di compatibilità con le versioni precedenti. Adobe consiglia di non modificare i parametri dello schema predefiniti per garantire una protezione ottimale.
+Gli schemi incorporati sono protetti per evitare problemi di compatibilità con le versioni precedenti. L’Adobe consiglia di non modificare i parametri dello schema predefiniti per garantire una sicurezza ottimale.
 
-Tuttavia, in contesti specifici, potrebbe essere necessario modificare i filtri di sistema degli schemi incorporati. Per eseguire questa operazione, effettua le seguenti operazioni:
+Tuttavia, in contesti specifici, potrebbe essere necessario modificare i filtri di sistema degli schemi incorporati. Per farlo, segui la procedura indicata di seguito:
 
 1. Crea un&#39;estensione per lo schema integrato o apri un&#39;estensione esistente.
-1. Aggiungi un elemento figlio **`<sysfilter name="<filter name>" _operation="delete"/>`** nell&#39;elemento principale per ignorare il filtro nello stesso nello schema incorporato.
-1. Puoi aggiungere un nuovo filtro, come descritto in [Filtri di sistema](#system-filters) sezione .
+1. Aggiungere un elemento figlio **`<sysfilter name="<filter name>" _operation="delete"/>`** nell’elemento principale per ignorare il filtro nello stesso nello schema integrato.
+1. Puoi aggiungere un nuovo filtro, come descritto nella sezione [Filtri di sistema](#system-filters) sezione.

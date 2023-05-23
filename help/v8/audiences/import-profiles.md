@@ -14,27 +14,27 @@ ht-degree: 11%
 
 # Importare i profili da un file{#create-profiles}
 
-Per compilare il database di Campaign, puoi [aggiungere profili manualmente](create-profiles.md) o importa profili come descritto di seguito. È inoltre possibile utilizzare i file importati per aggiornare i dati di contatto.
+Per popolare il database di Campaign, puoi [aggiungere profili manualmente](create-profiles.md) o importare i profili come descritto di seguito. È inoltre possibile utilizzare i file importati per aggiornare i dati dei contatti.
 
 ## Importare profili con un flusso di lavoro {#import-profiles-with-a-wf}
 
-I flussi di lavoro possono essere un modo utile per automatizzare alcuni dei processi di importazione. Sia che importi dati da un file locale o da un SFTP, puoi utilizzare i flussi di lavoro per standardizzare le procedure di gestione dei dati.
+I flussi di lavoro possono essere utili per automatizzare alcuni dei processi di importazione. Che tu importi dati da un file locale o da un SFTP, puoi utilizzare i flussi di lavoro per standardizzare le procedure di gestione dei dati.
 
-### Utilizzare i dati di un elenco: Leggi elenco {#data-from-read-list}
+### Utilizza dati da un elenco: Leggi elenco {#data-from-read-list}
 
-Prepara e struttura i dati in un file per importarli con un flusso di lavoro. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/read-list.html).
+Prepara e struttura i dati in un file per importarlo con un flusso di lavoro. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/read-list.html).
 
 ### Caricare dati da un file {#data-from-a-file}
 
-I dati elaborati in un flusso di lavoro possono essere estratti da un file strutturato in modo che possano essere importati in Adobe Campaign. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading--file-.html).
+I dati elaborati in un flusso di lavoro possono essere estratti da un file strutturato in modo che possa essere importato in Adobe Campaign. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading--file-.html).
 
 Una volta raccolti i dati, puoi utilizzarli nei flussi di lavoro, ad esempio per arricchire una consegna o aggiornare il database. Per ulteriori informazioni al riguardo, consulta [questa sezione](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html).
 
 ## Importazioni una tantum{#import-jobs}
 
-Adobe Campaign fornisce una funzionalità di importazione generica che consente, ad esempio, di estrarre un elenco di clienti o potenziali clienti che diventeranno parte di una popolazione target, o di fornire al database dati provenienti da file esterni.
+Adobe Campaign fornisce funzionalità di importazione generiche che consentono, ad esempio, di estrarre un elenco di clienti o potenziali che entreranno a far parte di una popolazione target o di fornire al database dati provenienti da file esterni.
 
-Le importazioni generiche vengono gestite dal **[!UICONTROL Profiles and Targets > Jobs]** menu della home page di Adobe Campaign.
+Le importazioni generiche vengono gestite da **[!UICONTROL Profiles and Targets > Jobs]** nella home page di Adobe Campaign.
 
 ![](assets/new-import-job.png)
 

@@ -1,6 +1,6 @@
 ---
-title: Guida introduttiva all’implementazione FFDA di Campaign
-description: Guida introduttiva all’implementazione FFDA di Campaign
+title: Introduzione all’implementazione FFDA di Campaign
+description: Introduzione all’implementazione FFDA di Campaign
 feature: Architecture, FFDA
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
@@ -14,11 +14,11 @@ ht-degree: 54%
 
 # [!DNL Campaign] Distribuzione FFDA{#gs-ac-ffda}
 
-Sfruttando [[!DNL Snowflake]](https://www.snowflake.com/), una tecnologia di database cloud, l’implementazione di Adobe Campaign Enterprise Full Federated Access (FFDA) migliora notevolmente la sua scala e velocità, con la possibilità di gestire un numero più significativo di profili cliente, oltre a tassi di consegna e transazioni molto più elevati all’ora.
+Sfruttando [[!DNL Snowflake]](https://www.snowflake.com/), una tecnologia di database cloud, l’implementazione di Adobe Campaign Enterprise Full Federated Access (FFDA) migliora notevolmente la scalabilità e la velocità, con la possibilità di gestire un numero più significativo di profili cliente e garantendo inoltre tassi di consegna e transazioni all’ora più elevati.
 
 ## Vantaggi {#ffda-benefits}
 
-Campaign v8 Enterprise (FFDA) porta la scala end-to-end in qualsiasi fase del processo, dal targeting al reporting finale:
+Campaign v8 Enterprise (FFDA) offre una scalabilità end-to-end in qualsiasi fase del processo, dal targeting al reporting finale:
 
 * Scalabilità del volume di dati gestibile (fino a 8 TB)
 * Scalabilità delle prestazioni delle query per la segmentazione e il targeting, oltre che per l’acquisizione e l’uscita dei dati
@@ -36,60 +36,60 @@ Le tabelle o gli schemi integrati che devono essere spostati o replicati nel dat
 
 ## Architettura Campaign Enterprise (FFDA){#ffda-archi}
 
-In un [Distribuzione aziendale (FFDA)](../architecture/enterprise-deployment.md), [!DNL Adobe Campaign] v8 funziona con due database: locale [!DNL Campaign] database per la messaggistica in tempo reale e le query unitarie dell’interfaccia utente e per la scrittura tramite API e un cloud [!DNL Snowflake] database per l’esecuzione della campagna, le query batch e l’esecuzione del flusso di lavoro.
+In un [Distribuzione aziendale (FFDA)](../architecture/enterprise-deployment.md), [!DNL Adobe Campaign] v8 funziona con due database: uno locale [!DNL Campaign] database per la messaggistica in tempo reale, le query unitarie dell’interfaccia utente, le operazioni di scrittura tramite API e un cloud [!DNL Snowflake] database per l’esecuzione della campagna, le query batch e l’esecuzione dei flussi di lavoro.
 
 Campaign v8 Enterprise introduce il concetto di **Full Federated Data Access** (FFDA): adesso tutti i dati sono remoti, nel database cloud.
 
 Sono disponibili API specifiche per la gestione dei dati tra il database locale e quello cloud. Per scoprire come funzionano queste nuove API e come utilizzarle, visita [questa pagina](new-apis.md).
 
-La comunicazione generale tra server e processi viene eseguita secondo il seguente schema:
+La comunicazione generale tra server e processi viene eseguita in base allo schema seguente:
 
 ![](assets/architecture.png)
 
-* I moduli di esecuzione e gestione dei messaggi non recapitati sono disabilitati nell’istanza.
-* L’applicazione è configurata per eseguire l’esecuzione dei messaggi su un server remoto &quot;mid-sourced&quot;, gestito utilizzando chiamate SOAP (su HTTP o HTTPS).
+* I moduli di esecuzione e gestione dei mancati recapiti sono disabilitati nell’istanza.
+* L’applicazione è configurata per eseguire l’esecuzione dei messaggi su un server remoto di &quot;mid-sourcing&quot; guidato tramite chiamate SOAP (su HTTP o HTTPS).
 
-La [!DNL Snowflake] database sul lato marketing viene utilizzato per:
+Il [!DNL Snowflake] database sul lato marketing utilizzato per:
 
-* Archivia tutti i dati dei clienti: profili, dati personalizzati quali transazioni, prodotti, posizioni, ecc.
-* Memorizza tutti gli eventi e i dati di comportamento generati o raccolti da Campaign, come registri di consegna, registri di tracciamento, registrazioni push, ecc.
+* Memorizza tutti i dati del cliente: profili, dati personalizzati come transazioni, prodotti, posizioni, ecc.
+* Memorizza tutti gli eventi e i dati di comportamento generati o raccolti da Campaign, ad esempio i registri di consegna, di tracciamento, di registrazione push e così via.
 * Memorizza tutti gli aggregati di dati di cui sopra.
 * Memorizza una copia (h+1) delle tabelle di riferimento (come consegne, enumerazioni, paesi, ecc.) utilizzati nei flussi di lavoro, nelle campagne e nei rapporti.
-* Esegui tutti i processi e i carichi di lavoro batch
+* Eseguire tutti i processi batch e i carichi di lavoro
 
 
-Il database PostgreSQL nell&#39;istanza di marketing viene utilizzato per:
+Il database PostgreSQL nell’istanza di marketing viene utilizzato per:
 
-* Esegui alcuni carichi di lavoro, ad esempio API per volumi ridotti.
-* Archivia tutti i dati di Campaign, comprese le impostazioni di consegna e campagna, il flusso di lavoro e le definizioni dei servizi.
-* Memorizza tutte le tabelle di riferimento integrate (enumerazioni, paesi, ecc.) che vengono replicati in [!DNL Snowflake].
+* Eseguire determinati carichi di lavoro, ad esempio API per volumi ridotti.
+* Memorizza tutti i dati di Campaign, incluse le impostazioni di consegna e campagna, le definizioni di flussi di lavoro e servizi.
+* Memorizza tutte le tabelle di riferimento incorporate (enumerazioni, paesi, ecc.) che vengono replicati in [!DNL Snowflake].
 
-   Tuttavia, non puoi:
-   * creare personalizzazioni per i dati dei clienti, ad esempio non creare una tabella di famiglia in PostgreSQL, ma solo in Snowflake
+   Tuttavia, non è possibile:
+   * creare personalizzazioni per i dati dei clienti, ad esempio non creare una tabella domestica in PostgreSQL, ma solo nel Snowflake
    * archivia eventuali registri di consegna, registri di tracciamento, ecc. sulla dimensione di targeting FFDA.
-   * memorizza grandi volumi di dati.
+   * archiviare grandi volumi di dati.
 
 
-Il database PostgreSQL nell&#39;istanza di mid-sourcing viene utilizzato per:
+Il database PostgreSQL nell’istanza di mid-sourcing viene utilizzato per:
 
-* Esegui consegne batch e in tempo reale (RT).
-* Invio di registri di consegna e di tracciamento : gli ID di registro di consegna e di tracciamento sono UUID e non ID a 32 bit.
-* Raccogliere e memorizzare i dati di tracciamento.
+* Eseguire consegne in batch e in tempo reale (RT).
+* Invia registri di consegna e di tracciamento: tieni presente che gli ID dei registri di consegna e di tracciamento sono UUID e non ID a 32 bit.
+* Raccogli e archivia i dati di tracciamento.
 
 
-## Impatto{#ffda-impacts}
+## Impatti{#ffda-impacts}
 
 ### [!DNL Campaign] Meccanismo di staging per le API{#staging-api}
 
-Con [!DNL Campaign] Database cloud, le chiamate unitarie di esplosione non sono raccomandate a causa delle prestazioni (latenza e concorrenza). L&#39;operazione batch è sempre preferita. Per garantire prestazioni ottimali delle API, Campaign continua a gestire le chiamate API a livello di database locale.
+Con [!DNL Campaign] Database cloud, le chiamate unitarie blast non sono consigliate a causa delle prestazioni (latenza e concorrenza). L&#39;operazione batch è sempre preferibile. Al fine di garantire prestazioni ottimali delle API, Campaign continua a gestire le chiamate API a livello di database locale.
 
 ![](../assets/do-not-localize/glass.png) [Il meccanismo di staging API è descritto in questa pagina](staging.md)
 
 ### Nuove API{#new-apis}
 
-Sono disponibili nuove API per gestire la sincronizzazione dati tra [!DNL Campaign] database locale e database cloud. È stato inoltre introdotto un nuovo meccanismo per gestire le chiamate API a livello di database locale per evitare la latenza e migliorare le prestazioni complessive.
+Sono disponibili nuove API per gestire la sincronizzazione dei dati tra [!DNL Campaign] database locale e database cloud. È stato inoltre introdotto un nuovo meccanismo per gestire le chiamate API a livello di database locale al fine di evitare la latenza e aumentare le prestazioni complessive.
 
-![](../assets/do-not-localize/glass.png) [Le nuove API sono descritte in dettaglio in questa pagina](new-apis.md)
+![](../assets/do-not-localize/glass.png) [Le nuove API sono dettagliate in questa pagina](new-apis.md)
 
 
 ### Replica dei dati{#data-replication}

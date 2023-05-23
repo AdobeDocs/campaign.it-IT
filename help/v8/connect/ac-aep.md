@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Utilizzare Campaign e Adobe Experience Platform
 
-I connettori di destinazione e origine dei Cloud Service gestiti di Adobe Campaign consentono l’integrazione diretta tra Adobe Campaign e Adobe Experience Platform.
+I connettori di origine e destinazione del Cloud Service gestito di Adobe Campaign consentono un’integrazione perfetta tra Adobe Campaign e Adobe Experience Platform.
 
-* Utilizzo **Destinazione Adobe Campaign Managed Cloud Services** connessione per inviare segmenti di Experience Platform ad Adobe Campaign per l’attivazione
+* Utilizzare **Destinazione Adobe Campaign Managed Cloud Services** connessione per inviare segmenti Experience Platform ad Adobe Campaign per l’attivazione
 
    ![](assets/aep-destination.png)
 
-* Utilizzo **Origine Adobe Campaign Managed Cloud Services** connessione per inviare i registri di consegna e tracciamento di Adobe Campaign a Adobe Experience Platform
+* Utilizzare **Origine Adobe Campaign Managed Cloud Services** connessione per inviare i registri di consegna e tracciamento di Adobe Campaign a Adobe Experience Platform
 
    ![](assets/aep-logs.png)
 
@@ -28,12 +28,12 @@ I passaggi per configurare questa integrazione in Adobe Experience Platform sono
 
 1. Configura una nuova connessione di destinazione Adobe Campaign Managed Cloud Services per attivare un segmento/pubblico e inviare tali dati ad Adobe Campaign.
 
-   Fornisci i dettagli sull’istanza Campaign da utilizzare, seleziona i segmenti da attivare per la destinazione, quindi configura gli attributi da esportare in Campaign.
+   Fornisci i dettagli sull’istanza di Campaign da utilizzare, seleziona i segmenti da attivare per la destinazione, quindi configura gli attributi da esportare in Campaign.
 
    [Scopri come creare una connessione di destinazione Adobe Campaign Managed Cloud Services](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en)
 
-1. Configura una nuova connessione Adobe Campaign Managed Cloud Services Source per acquisire eventi Campaign in Adobe Experience Platform.
+1. Configura una nuova connessione sorgente Adobe Campaign Managed Cloud Services per acquisire gli eventi Campaign in Adobe Experience Platform.
 
-   Fornisci i dettagli sull’istanza Campaign e sullo schema da utilizzare, seleziona un set di dati in cui acquisire i dati, quindi configura i campi da recuperare.
+   Fornisci dettagli sull’istanza Campaign e sullo schema da utilizzare, seleziona un set di dati in cui acquisire i dati, quindi configura i campi da recuperare.
 
    [Scopri come creare una connessione sorgente Adobe Campaign Managed Cloud Services](https://www.adobe.com/go/sources-campaign-ui-en)

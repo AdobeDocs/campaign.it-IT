@@ -17,20 +17,20 @@ Le attività del flusso di lavoro sono raggruppate per categoria, in quattro sch
 
 ![](assets/wf-activity-tabs.png)
 
-A seconda delle autorizzazioni, dell’implementazione e del contesto in cui è progettato il flusso di lavoro, le attività disponibili possono variare.
+A seconda delle autorizzazioni, dell’implementazione e del contesto in cui viene progettato il flusso di lavoro, le attività disponibili possono essere diverse.
 
-Ad esempio, i flussi di lavoro creati in una campagna hanno un **Consegne** , con tutti i canali. Questa scheda non è disponibile in [flusso di lavoro tecnico](technical-workflows.md).
+Ad esempio, i flussi di lavoro creati in una campagna presentano **Consegne** , con tutti i canali. Questa scheda non è disponibile in [flusso di lavoro tecnico](technical-workflows.md).
 
 ![](assets/campaign-wf-activities.png)
 
-I flussi di lavoro tecnici hanno **Eventi** scheda non disponibile in [flussi di lavoro delle campagne](campaign-workflows.md).
+I flussi di lavoro tecnici hanno un **Eventi** scheda non disponibile in [flussi di lavoro per campagne](campaign-workflows.md).
 
 ![](assets/tech-wf-activities.png)
 
-Tutte le attività sono descritte in dettaglio nelle sezioni seguenti:
+Tutte le attività sono descritte nelle sezioni seguenti:
 
 * [Attività di targeting](targeting-activities.md)
 * [Attività di controllo del flusso](flow-control-activities.md)
-* [Azioni](action-activities.md)
+* [Attività azioni](action-activities.md)
 * [Attività di eventi](event-activities.md)
-* [Attività specifiche per il flusso di lavoro di Campaign](../campaigns/marketing-campaign-deliveries.md)
+* [Attività specifiche del flusso di lavoro della campagna](../campaigns/marketing-campaign-deliveries.md)

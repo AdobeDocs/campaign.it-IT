@@ -1,5 +1,5 @@
 ---
-title: Creare e pubblicare il modello per i messaggi transazionali
+title: Creare e pubblicare il modello per la messaggistica transazionale
 description: Scopri come creare e pubblicare il modello per i messaggi transazionali
 feature: Transactional Messaging
 role: User
@@ -12,25 +12,25 @@ ht-degree: 1%
 
 ---
 
-# Creare e pubblicare il modello per i messaggi transazionali{#template-transactional-messages}
+# Creare e pubblicare il modello per la messaggistica transazionale{#template-transactional-messages}
 
-Ogni evento può attivare un messaggio personalizzato. Affinché ciò accada, devi creare un modello di messaggio per far corrispondere ogni tipo di evento. I modelli contengono le informazioni necessarie per personalizzare il messaggio sulle transazioni. Puoi inoltre utilizzare i modelli per testare l’anteprima del messaggio e inviare bozze utilizzando gli indirizzi di seed prima di consegnarle al target finale.
+Ogni evento può attivare un messaggio personalizzato. Affinché questo accada, devi creare un modello di messaggio corrispondente a ciascun tipo di evento. I modelli contengono le informazioni necessarie per personalizzare il messaggio transazionale. Puoi inoltre utilizzare i modelli per verificare l’anteprima dei messaggi e inviare bozze utilizzando indirizzi di seed prima della consegna al target finale.
 
 ## Creare il modello{#create-message-template}
 
-Per creare un modello di messaggio, segui i passaggi seguenti:
+Per creare un modello di messaggio, effettua le seguenti operazioni:
 
 1. Vai a **[!UICONTROL Message Center >Transactional message templates]** nella struttura Adobe Campaign.
-1. Nell’elenco dei modelli di messaggi transazionali, fai clic con il pulsante destro del mouse e seleziona **[!UICONTROL New]** nel menu a discesa o fai clic su **[!UICONTROL New]** , sopra l’elenco dei modelli di messaggi transazionali.
+1. Nell’elenco dei modelli di messaggi transazionali, fai clic con il pulsante destro del mouse e seleziona **[!UICONTROL New]** nel menu a discesa o fai clic sul pulsante **[!UICONTROL New]** sopra l’elenco dei modelli di messaggi transazionali.
 
    ![](assets/messagecenter_create_model_001.png)
 
-1. Nella finestra di consegna, seleziona il modello di consegna adatto al canale che desideri utilizzare.
+1. Nella finestra di dialogo di consegna, seleziona il modello di consegna adatto al canale che desideri utilizzare.
 
    ![](assets/messagecenter_create_model_002.png)
 
-1. Se necessario, modificarne l’etichetta.
-1. Seleziona il tipo di evento che corrisponde al messaggio che desideri inviare. I tipi di evento destinati all’elaborazione da parte di Adobe Campaign devono essere creati in precedenza. [Ulteriori informazioni](#create-event-types)
+1. Se necessario, modificane l’etichetta.
+1. Seleziona il tipo di evento che corrisponde al messaggio da inviare. I tipi di evento destinati all’elaborazione da parte di Adobe Campaign devono essere creati in precedenza. [Ulteriori informazioni](#create-event-types)
 
    ![](assets/messagecenter_create_model_003.png)
 
@@ -38,51 +38,51 @@ Per creare un modello di messaggio, segui i passaggi seguenti:
    >
    >Un tipo di evento non deve mai essere collegato a più di un modello.
 
-1. Immetti una natura e una descrizione, quindi fai clic su **[!UICONTROL Continue]** per creare il corpo del messaggio.
+1. Inserisci una natura e una descrizione, quindi fai clic su **[!UICONTROL Continue]** per creare il corpo del messaggio.
 
 ## Creare il contenuto{#create-message-content}
 
-La definizione del contenuto dei messaggi transazionali è la stessa di tutte le consegne in Adobe Campaign. Ad esempio, per una consegna e-mail, puoi creare contenuto in HTML o in formato testo, aggiungere allegati o personalizzare l’oggetto di consegna. [Ulteriori informazioni](../start/create-message.md).
+La definizione del contenuto dei messaggi transazionali è la stessa di tutte le consegne in Adobe Campaign. Ad esempio, per una consegna e-mail, puoi creare contenuto in formato HTML o testo, aggiungere allegati o personalizzare l’oggetto di consegna. [Ulteriori informazioni](../start/create-message.md).
 
 >[!CAUTION]
 >
->Le immagini incluse nel messaggio devono essere accessibili al pubblico. Adobe Campaign non fornisce alcun meccanismo di caricamento delle immagini per i messaggi transazionali.\
->A differenza di JSSP o webApp, `<%=` non dispone di escape predefinito.
+>Le immagini incluse nel messaggio devono essere accessibili al pubblico. Adobe Campaign non fornisce alcun meccanismo di caricamento di immagini per i messaggi transazionali.\
+>A differenza di JSSP o webApp, `<%=` non ha alcun escape predefinito.
 >
->Devi eseguire correttamente l’escape di ogni dato proveniente dall’evento. Questo escape dipende da come viene utilizzato questo campo. Ad esempio, all’interno di un URL, utilizza encodeURIComponent. Per essere visualizzato in HTML, è possibile utilizzare escapeXMLString.
+>Devi eseguire correttamente l’escape di ogni dato proveniente dall’evento. L’escape dipende da come viene utilizzato questo campo. Ad esempio, all’interno di un URL, utilizza encodeURIComponent. Per essere visualizzato in HTML, è possibile utilizzare escapeXMLString.
 
-Una volta definito il contenuto del messaggio, puoi integrare le informazioni sull’evento nel corpo del messaggio e personalizzarlo. Le informazioni sull’evento vengono inserite nel corpo del testo grazie ai tag di personalizzazione.
+Dopo aver definito il contenuto del messaggio, puoi integrare le informazioni sull’evento nel corpo del messaggio e personalizzarlo. Le informazioni sull’evento vengono inserite nel corpo del testo grazie ai tag di personalizzazione.
 
 ![](assets/messagecenter_create_content.png)
 
 * Tutti i campi di personalizzazione provengono dal payload.
 * È possibile fare riferimento a uno o più blocchi di personalizzazione in un messaggio transazionale. <!--The block content will be added to the delivery content during the publication to the execution instance.-->
 
-Per inserire tag di personalizzazione nel corpo di un messaggio e-mail, effettua le seguenti operazioni:
+Per inserire i tag di personalizzazione nel corpo di un messaggio e-mail, effettua le seguenti operazioni:
 
-1. Nel modello di messaggio, fai clic sulla scheda che corrisponde al formato dell’e-mail (HTML o testo).
+1. Nel modello del messaggio, fai clic sulla scheda corrispondente al formato e-mail (HTML o testo).
 1. Inserisci il corpo del messaggio.
 1. Nel corpo del testo, inserisci il tag utilizzando **[!UICONTROL Real time events>Event XML]** menu.
 
    ![](assets/messagecenter_create_custo_1.png)
 
-1. Compila il tag utilizzando la seguente sintassi: **nome elemento**.@**nome attributo** come mostrato di seguito.
+1. Compila il tag utilizzando la sintassi seguente: **nome elemento**.@**nome attributo** come mostrato di seguito.
 
    ![](assets/messagecenter_create_custo_2.png)
 
-## Test del modello di messaggio transazionale {#test-message-template}
+## Testare il modello di messaggio transazionale {#test-message-template}
 
 ### Aggiungere indirizzi seed{#add-seeds}
 
-Un indirizzo di seed ti consente di visualizzare un’anteprima del messaggio, inviare una bozza e testare la personalizzazione dei messaggi prima di inviare il messaggio. Gli indirizzi di seed sono collegati alla consegna e non possono essere utilizzati per altre consegne.
+Un indirizzo di seed consente di visualizzare un’anteprima del messaggio, inviarne una bozza e testare la personalizzazione del messaggio prima di inviarlo. Gli indirizzi di seed sono collegati alla consegna e non possono essere utilizzati per altre consegne.
 
-1. Nel modello di messaggio transazionale, fai clic sul pulsante **[!UICONTROL Seed addresses]** , quindi fai clic sul pulsante **[!UICONTROL Add]** pulsante .
+1. Nel modello per messaggi transazionali, fai clic su **[!UICONTROL Seed addresses]** , quindi fare clic sulla scheda **[!UICONTROL Add]** pulsante.
 
    ![](assets/messagecenter_create_seed_1.png)
 
-1. Assegna un’etichetta per una selezione semplice in un secondo momento, quindi inserisci l’indirizzo di seed (e-mail o telefono cellulare a seconda del canale di comunicazione).
+1. Assegna un’etichetta a esso per una facile selezione in un secondo momento, quindi inserisci l’indirizzo seed (e-mail o telefono cellulare a seconda del canale di comunicazione).
 
-1. Immetti l’identificatore esterno: questo campo facoltativo consente di inserire una chiave business (ID univoco, nome + e-mail, ecc.) comune a tutte le applicazioni del sito web, utilizzato per identificare i profili. Se questo campo è presente anche nel database di marketing di Adobe Campaign, puoi quindi riconciliare un evento con un profilo nel database.
+1. Immetti l’identificatore esterno: questo campo opzionale ti consente di immettere una chiave aziendale (ID univoco, nome + e-mail, ecc.) comune a tutte le applicazioni sul sito web, utilizzato per identificare i profili. Se questo campo è presente anche nel database di marketing di Adobe Campaign, puoi riconciliare un evento con un profilo nel database.
 
    ![](assets/messagecenter_create_seed_2.png)
 
@@ -90,13 +90,13 @@ Un indirizzo di seed ti consente di visualizzare un’anteprima del messaggio, i
 
    ![](assets/messagecenter_create_custo_3.png)
 
-1. Fai clic su **[!UICONTROL Ok]** per confermare la creazione dell’indirizzo di seed.
+1. Clic **[!UICONTROL Ok]** per confermare la creazione dell’indirizzo seed.
 
 1. Ripeti il processo per creare tutti gli indirizzi necessari.
 
    ![](assets/messagecenter_create_seed_6.png)
 
-Una volta creati gli indirizzi, puoi accedere alla loro anteprima e personalizzazione.
+Una volta creati gli indirizzi, puoi accedervi all’anteprima e alla personalizzazione.
 
 <!--
 
@@ -120,48 +120,48 @@ This information enables you to personalize message content using personalizatio
 
 ### Anteprima del messaggio sulle transazioni{#transactional-message-preview}
 
-Dopo aver creato uno o più indirizzi di seed e il corpo del messaggio, puoi visualizzare in anteprima il messaggio e controllarne la personalizzazione.
+Dopo aver creato uno o più indirizzi di seed e il corpo del messaggio, puoi visualizzare l’anteprima del messaggio e controllarne la personalizzazione.
 
-1. Nel modello di messaggio, fai clic sul pulsante **[!UICONTROL Preview]** , quindi seleziona **[!UICONTROL A seed address]** nell’elenco a discesa.
+1. Nel modello di messaggio, fai clic su **[!UICONTROL Preview]** , quindi seleziona **[!UICONTROL A seed address]** nell’elenco a discesa.
 
    ![](assets/messagecenter_preview_1.png)
 
-1. Seleziona l’indirizzo di seed creato in precedenza per visualizzare il messaggio personalizzato.
+1. Seleziona l’indirizzo seed creato in precedenza per visualizzare il messaggio personalizzato.
 
    ![](assets/messagecenter_create_seed_7.png)
 
 ### Inviare una bozza
 
-Puoi verificare la consegna dei messaggi inviando una bozza a un indirizzo di seed creato in precedenza.
+Puoi verificare la consegna dei messaggi inviando una bozza a un indirizzo seed creato in precedenza.
 
-L’invio di una bozza comporta la stessa procedura utilizzata per qualsiasi consegna.
+L’invio di una bozza comporta la stessa procedura applicata per qualsiasi consegna.
 
 Ulteriori informazioni sulle bozze in [questa sezione](../send/preview-and-proof.md#proofs-send).
 
-Tuttavia, per inviare una prova di un messaggio sulle transazioni, devi eseguire le seguenti operazioni:
+Tuttavia, per inviare la bozza di un messaggio sulle transazioni, è necessario effettuare le operazioni seguenti:
 
-* Crea uno o più [indirizzi di seed](#add-seeds) con dati di test di personalizzazione
+* Crea uno o più [indirizzi seed](#add-seeds) con dati di test di personalizzazione
 * Creare il contenuto del messaggio
 
 Per inviare la bozza:
 
-1. Fai clic sul pulsante **[!UICONTROL Send a proof]** nella finestra di consegna.
+1. Fai clic su **[!UICONTROL Send a proof]** nella finestra di consegna.
 1. Analizza la consegna.
 1. Correggi eventuali errori e conferma la consegna.
 
    ![](assets/messagecenter_send_proof_001.png)
 
-1. Verifica che il messaggio sia stato recapitato all’indirizzo di seed e che il suo contenuto sia conforme alla tua configurazione.
+1. Verifica che il messaggio sia stato recapitato all’indirizzo di seed e che il suo contenuto sia conforme alla configurazione.
 
    ![](assets/messagecenter_send_proof_002.png)
 
-È possibile accedere alle bozze in ogni modello tramite il **[!UICONTROL Audit]** scheda .
+Le bozze sono accessibili in ogni modello tramite **[!UICONTROL Audit]** scheda.
 
 ![](assets/messagecenter_send_proof_003.png)
 
 ## Pubblicare il modello {#publish-message-template}
 
-Quando è stato creato il modello di messaggio<!-- on the control instance--> completato, puoi pubblicarlo, che ti consentirà di inviare messaggi collegati a eventi in tempo reale e batch.
+Quando è stato creato il modello di messaggio<!-- on the control instance--> è stato completato, puoi pubblicarlo, così potrai inviare messaggi collegati a eventi batch e in tempo reale.
 
 <!--This process will also publish it on all execution instances.
 
@@ -171,19 +171,19 @@ Publication lets you automatically create two message templates on the execution
 
 >[!CAUTION]
 >
->Ogni volta che apporti modifiche a un modello, accertati di pubblicarlo nuovamente affinché queste modifiche siano effettive durante la consegna dei messaggi transazionali.
+>Ogni volta che apporti modifiche a un modello, assicurati di pubblicarle nuovamente affinché risultino efficaci durante la consegna dei messaggi transazionali.
 
-1. Vai a **[!UICONTROL Message Center > Transactional message templates]** cartella dell&#39;albero.
+1. Vai a **[!UICONTROL Message Center > Transactional message templates]** cartella della struttura.
 1. Seleziona il modello da pubblicare<!--on your execution instances-->.
 1. Fai clic su **[!UICONTROL Publish]**.
 
    ![](assets/messagecenter_publish_template.png)
 
-Una volta completata la pubblicazione, vengono creati sia i modelli di messaggio da applicare agli eventi di tipo batch che quelli di tipo in tempo reale nel **[!UICONTROL Administration > Production > Message Center Execution> Default > Transactional message templates]** cartella.
+Una volta completata la pubblicazione, in vengono creati sia i modelli di messaggio da applicare a eventi di tipo batch che quelli di tipo in tempo reale **[!UICONTROL Administration > Production > Message Center Execution> Default > Transactional message templates]** cartella.
 
 ![](assets/messagecenter_deployed_model.png)
 
-Una volta pubblicato un modello, se viene attivato l’evento corrispondente, Adobe Campaign<!--execution instance--> riceverà l’evento, lo collegherà al modello transazionale e invierà il messaggio transazionale corrispondente a ciascun destinatario.
+Dopo la pubblicazione di un modello, se viene attivato l’evento corrispondente, Adobe Campaign<!--execution instance--> riceverà l’evento, lo collegherà al modello transazionale e invierà il messaggio transazionale corrispondente a ciascun destinatario.
 
 <!--
 >[!NOTE]
@@ -195,31 +195,31 @@ Una volta pubblicato un modello, se viene attivato l’evento corrispondente, Ad
 
 ## Annullare la pubblicazione di un modello
 
-Una volta pubblicato il modello di messaggio <!--on the execution instances-->, può essere annullata la pubblicazione.
+Dopo la pubblicazione di un modello di messaggio <!--on the execution instances-->, può essere annullata.
 
-* In effetti, un modello pubblicato può ancora essere chiamato se viene attivato l’evento corrispondente: se non utilizzi più un modello di messaggio, è consigliabile annullarne la pubblicazione. In questo modo si evita di inviare per errore un messaggio sulle transazioni indesiderato.
+* In effetti, un modello pubblicato può ancora essere chiamato se viene attivato l’evento corrispondente: se non utilizzi più un modello di messaggio, si consiglia di annullarne la pubblicazione. In questo modo si evita di inviare per errore un messaggio transazionale indesiderato.
 
-   Ad esempio, hai pubblicato un modello di messaggio da utilizzare solo per le campagne di Natale. Puoi annullare la pubblicazione dopo la fine del periodo natalizio e pubblicarlo nuovamente l’anno prossimo.
+   Ad esempio, hai pubblicato un modello di messaggio da utilizzare solo per le campagne natalizie. Puoi annullarne la pubblicazione al termine del periodo natalizio e pubblicarla nuovamente l’anno prossimo.
 
-* Inoltre, non puoi eliminare un modello di messaggio transazionale con il **[!UICONTROL Published]** stato. Per prima cosa devi annullarla pubblicazione.
+* Inoltre, non puoi eliminare un modello di messaggio transazionale con **[!UICONTROL Published]** stato. Devi prima annullare la pubblicazione.
 
-Per annullare la pubblicazione di un modello di messaggio sulle transazioni, segui i passaggi riportati di seguito.
+Per annullare la pubblicazione di un modello di messaggio sulle transazioni, effettua le seguenti operazioni.
 
-1. Sfoglia il **[!UICONTROL Message Center > Transactional message templates]** cartella.
+1. Accedi a **[!UICONTROL Message Center > Transactional message templates]** cartella.
 1. Seleziona il modello da annullare la pubblicazione.
 1. Fai clic su **[!UICONTROL Unpublish]**.
 1. Fai clic su **[!UICONTROL Start]**.
 
 ![](assets/message-center-unpublish.png)
 
-Lo stato del modello di messaggio sulle transazioni cambia da **[!UICONTROL Published]** a **[!UICONTROL Being edited]**.
+Lo stato del modello di messaggio transazionale torna da **[!UICONTROL Published]** a **[!UICONTROL Being edited]**.
 
-Al termine dell’annullamento della pubblicazione:
+Una volta completata la pubblicazione:
 
-* Entrambi i modelli di messaggio (applicati a eventi di tipo batch e in tempo reale) vengono eliminati<!-- from each execution instance-->.
+* Entrambi i modelli di messaggio (applicati a eventi batch e di tipo in tempo reale) vengono eliminati<!-- from each execution instance-->.
 
-   Non vengono più visualizzati nella **[!UICONTROL Administration > Production > Message Center Execution > Default > Transactional message templates]** cartella.
+   Non vengono più visualizzati nel **[!UICONTROL Administration > Production > Message Center Execution > Default > Transactional message templates]** cartella.
 
-* Una volta annullato la pubblicazione di un modello, puoi eliminarlo<!-- from the control instance-->.
+* Dopo aver annullato la pubblicazione di un modello, è possibile eliminarlo<!-- from the control instance-->.
 
-   A tale scopo, selezionala dall’elenco e fai clic sul pulsante **[!UICONTROL Delete]** in alto a destra dello schermo.
+   A tale scopo, selezionalo dall’elenco e fai clic sul pulsante **[!UICONTROL Delete]** in alto a destra.

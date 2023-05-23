@@ -1,6 +1,6 @@
 ---
 title: Creare profili in Campaign
-description: Scopri come aggiungere manualmente i contatti a Campaign
+description: Scopri come aggiungere manualmente contatti a Campaign
 feature: Audiences, Profiles
 role: User
 level: Beginner
@@ -14,21 +14,21 @@ ht-degree: 3%
 
 # Creare i profili manualmente{#create-profiles-manual}
 
-Per compilare il database di Campaign, puoi [profili di importazione](import-profiles.md) oppure aggiungili manualmente come descritto di seguito.
+Per popolare il database di Campaign, puoi [importare i profili](import-profiles.md) oppure aggiungerli manualmente come descritto di seguito.
 
-Per creare manualmente un destinatario, segui i passaggi seguenti:
+Per creare manualmente un destinatario, effettua le seguenti operazioni:
 
-1. Sfoglia per **[!UICONTROL Profiles and targets]** e seleziona la **[!UICONTROL Recipients]** categoria.
+1. Sfoglia per **[!UICONTROL Profiles and targets]** e seleziona la scheda **[!UICONTROL Recipients]** categoria.
 
    ![](assets/profiles-and-targets.png)
 
-   Per impostazione predefinita, i destinatari vengono memorizzati nella **[!UICONTROL Profiles and Targets > Recipients]** nodo dell&#39;albero. Puoi anche creare i destinatari da questa visualizzazione.
+   Per impostazione predefinita, i destinatari sono memorizzati in **[!UICONTROL Profiles and Targets > Recipients]** dell&#39;albero. Puoi anche creare i destinatari da questa vista.
 
-1. Fai clic sul pulsante **[!UICONTROL Create button]**.
+1. Fai clic su **[!UICONTROL Create button]**.
 1. Immetti i dati del profilo.
 
    ![](assets/new-recipient.png)
 
    Ulteriori informazioni sul modulo integrato del destinatario in [questa pagina](view-profiles.md#edit-a-profiles).
 
-1. Fai clic su **[!UICONTROL Save]**: il profilo viene aggiunto a Campaign, nella cartella dei destinatari predefinita.
+1. Clic **[!UICONTROL Save]**: il profilo viene aggiunto a Campaign, nella cartella dei destinatari predefinita.

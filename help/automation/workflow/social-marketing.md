@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Social marketing
-description: Ulteriori informazioni sui flussi di lavoro tecnici di Social Marketing
+description: Ulteriori informazioni sui flussi di lavoro tecnici del Social Marketing
 feature: Workflows
 source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
 workflow-type: tm+mt
@@ -19,7 +19,7 @@ ht-degree: 6%
 >
 >:warning: Questa funzionalità è disponibile solo in Campaign Classic v7.
 
-I flussi di lavoro descritti di seguito sono installati con **Social marketing** modulo per impostazione predefinita.
+I flussi di lavoro descritti di seguito vengono installati con **Social marketing** per impostazione predefinita.
 
 <table> 
  <tbody> 
@@ -29,14 +29,14 @@ I flussi di lavoro descritti di seguito sono installati con **Social marketing**
    <td> <strong>Descrizione</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Calcolo delle statistiche Facebook</span> <br /> </td> 
+   <td> <span class="uicontrol">Calcolo delle statistiche di Facebook</span> <br /> </td> 
    <td> <span class="uicontrol">statsFacebook</span> <br /> </td> 
-   <td> Questo flusso di lavoro calcola le statistiche collegate alle interazioni con le fan di Facebook.<br /> </td> 
+   <td> Questo flusso di lavoro calcola le statistiche collegate alle interazioni con i fan di Facebook.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Sincronizzazione delle ventole Facebook</span> <br /> </td> 
+   <td> <span class="uicontrol">Sincronizzazione delle ventole di Facebook</span> <br /> </td> 
    <td> <span class="uicontrol">syncFacebookFans</span> <br /> </td> 
-   <td> Questo flusso di lavoro importa le ventole Facebook in Adobe Campaign ogni giorno alle 7.<br /> </td> 
+   <td> Questo flusso di lavoro importa i fan di Facebook in Adobe Campaign ogni giorno alle 7.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Sincronizzazione delle pagine Facebook</span> <br /> </td> 
@@ -44,9 +44,9 @@ I flussi di lavoro descritti di seguito sono installati con **Social marketing**
    <td> Questo flusso di lavoro sincronizza le pagine Facebook con Adobe Campaign ogni giorno alle 7.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Calcolo delle statistiche Twitter</span> <br /> </td> 
+   <td> <span class="uicontrol">Calcolo delle statistiche di Twitter</span> <br /> </td> 
    <td> <span class="uicontrol">statsTwitter</span> <br /> </td> 
-   <td> Questo flusso di lavoro calcola le statistiche collegate ai retweet e alle visite in Twitter.<br /> </td> 
+   <td> Questo flusso di lavoro calcola le statistiche collegate alle retweet e alle visite su Twitter.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Sincronizzazione delle pagine Twitter</span> <br /> </td> 

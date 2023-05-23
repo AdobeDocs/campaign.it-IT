@@ -1,5 +1,5 @@
 ---
-title: Best practice per i tipi di pubblico
+title: Best practice con i tipi di pubblico
 description: Scopri le best practice con i tipi di pubblico
 feature: Audiences, Profiles
 role: Data Engineer
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 ---
 
-# Best practice per i tipi di pubblico
+# Best practice con i tipi di pubblico

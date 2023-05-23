@@ -1,6 +1,6 @@
 ---
-title: Meccanismo di staging API di Campaign
-description: Meccanismo di staging API di Campaign
+title: Meccanismo di staging per le API di Campaign
+description: Meccanismo di staging per le API di Campaign
 feature: API, FFDA
 role: Developer
 level: Beginner, Intermediate, Experienced
@@ -12,25 +12,25 @@ ht-degree: 2%
 
 ---
 
-# Meccanismo di staging API di Campaign
+# Meccanismo di staging per le API di Campaign
 
-Nel contesto di un [Distribuzione aziendale (FFDA)](enterprise-deployment.md), si sconsiglia di effettuare una blasting delle chiamate unitarie per quanto riguarda le prestazioni (latenza e concorrenza). L’operazione di batch è sempre preferibile. Per migliorare le prestazioni, le API di acquisizione vengono reindirizzate al database locale.
+Nell&#39;ambito di una [Distribuzione aziendale (FFDA)](enterprise-deployment.md), le chiamate unitarie di esplosione non sono consigliate per quanto riguarda le prestazioni (latenza e concorrenza). L&#39;operazione batch è sempre preferibile. Per migliorare le prestazioni, le API di acquisizione vengono reindirizzate al database locale.
 
-La funzionalità di staging della campagna è abilitata per impostazione predefinita su alcuni schemi incorporati. Possiamo anche abilitarlo su qualsiasi schema personalizzato. Meccanismo di staging in sintesi:
+La funzionalità di staging di Campaign è abilitata per impostazione predefinita su alcuni schemi incorporati. Possiamo anche abilitarlo su qualsiasi schema personalizzato. Meccanismo di staging in breve:
 
 * La struttura dello schema dati viene duplicata nella tabella di staging locale
-* Nuove API dedicate per l’inserimento dei dati scorrono direttamente nella tabella di staging locale. [Ulteriori informazioni](new-apis.md)
-* Un flusso di lavoro pianificato viene attivato ogni ora e sincronizza nuovamente i dati con il database cloud. [Ulteriori informazioni](replication.md)
+* Le nuove API dedicate all’acquisizione dei dati fluiscono direttamente nella tabella di staging locale. [Ulteriori informazioni](new-apis.md)
+* Un flusso di lavoro pianificato viene attivato ogni ora e i dati vengono sincronizzati nuovamente con il database cloud. [Ulteriori informazioni](replication.md)
 
-Alcuni schemi incorporati sono impostati per impostazione predefinita, ad esempio nmsSubscriptionRcp, nmsAppSubscriptionRcp, nmsRecipient.
+Alcuni schemi incorporati sono posizionati in staging per impostazione predefinita, ad esempio nmsSubscriptionRcp, nmsAppSubscriptionRcp, nmsRecipient.
 
-Le API di Campaign Classic v7 sono ancora disponibili ma non possono beneficiare di questo nuovo meccanismo di staging: Le chiamate API scorrono direttamente nel database Cloud. L’Adobe consiglia di utilizzare il più possibile un nuovo meccanismo di staging per ridurre la pressione e la latenza complessiva sul database di Campaign Cloud.
+Le API di Campaign Classic v7 sono ancora disponibili, ma non possono beneficiare di questo nuovo meccanismo di staging: le chiamate API arrivano direttamente al database Cloud. L’Adobe consiglia di utilizzare il più possibile il nuovo meccanismo di staging per ridurre la pressione complessiva e la latenza sul database di Campaign Cloud.
 
 >[!CAUTION]
 >
->* Con questo nuovo meccanismo, la sincronizzazione dei dati per l&#39;optout del canale, gli abbonamenti, gli annullamenti degli abbonamenti o la registrazione mobile è ora **asincrono**.
+>* Con questo nuovo meccanismo, è ora possibile sincronizzare i dati per opt-out del canale, abbonamenti, annullamenti di abbonamenti o registrazione mobile **asincrono**.
 >
->* Lo staging si applica solo agli schemi memorizzati nel database cloud. Non abilitare lo staging sugli schemi replicati. Non abilitare lo staging sugli schemi locali. Non abilitare la gestione temporanea su uno schema in fase
+>* La gestione temporanea si applica solo agli schemi memorizzati nel database cloud. Non abilitare la gestione temporanea negli schemi replicati. Non abilitare Gestione temporanea negli schemi locali. Non abilitare la gestione temporanea in uno schema in attesa
 >
 
 
@@ -38,7 +38,7 @@ Le API di Campaign Classic v7 sono ancora disponibili ma non possono beneficiare
 
 Per implementare il meccanismo di staging di Campaign su una tabella specifica, segui i passaggi seguenti:
 
-1. Crea uno schema personalizzato di esempio sul database di Campaign Cloud. Al passaggio corrente non è abilitata alcuna fase di staging.
+1. Crea uno schema personalizzato di esempio nel database Campaign Cloud. Nessuna gestione temporanea abilitata in questo passaggio.
 
    ```
    <srcSchema _cs="Sample Table (dem)" created="YYYY-DD-MM"
@@ -55,9 +55,9 @@ Per implementare il meccanismo di staging di Campaign su una tabella specifica, 
 
    ![](../assets/do-not-localize/glass.png) Ulteriori informazioni sulla creazione di schemi personalizzati in [questa pagina](../dev/create-schema.md).
 
-1. Salvare e aggiornare la struttura del database.  [Ulteriori informazioni](../dev/update-database-structure.md)
+1. Salva e aggiorna la struttura del database.  [Ulteriori informazioni](../dev/update-database-structure.md)
 
-1. Abilita il meccanismo di staging nella definizione dello schema aggiungendo il **autoStg=&quot;true&quot;** parametro .
+1. Abilita il meccanismo di staging nella definizione dello schema aggiungendo **autoStg=&quot;true&quot;** parametro.
 
    ```
    <srcSchema _cs="Sample Table (dem)" "YYYY-DD-MM"
@@ -72,8 +72,8 @@ Per implementare il meccanismo di staging di Campaign su una tabella specifica, 
    </srcSchema>
    ```
 
-1. Salva la modifica. È disponibile un nuovo schema di staging, che è una copia locale dello schema iniziale.
+1. Salva la modifica. È disponibile un nuovo schema di staging, ovvero una copia locale dello schema iniziale.
 
    ![](assets/staging-mechanism.png)
 
-1. Aggiorna la struttura del database. La tabella di staging verrà creata nel database locale di Campaign.
+1. Aggiornare la struttura del database. La tabella di staging verrà creata nel database locale di Campaign.

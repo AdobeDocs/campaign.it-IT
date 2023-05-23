@@ -1,6 +1,6 @@
 ---
-title: Cartelle e viste
-description: Scopri come gestire cartelle e viste in Esplora risorse di Campaign
+title: Cartelle e visualizzazioni
+description: Scopri come gestire cartelle e visualizzazioni in Esplora campagne
 feature: Audiences, Profiles, Application Settings
 role: User
 level: Beginner, Intermediate
@@ -14,59 +14,59 @@ ht-degree: 1%
 
 # Gestire le cartelle e le visualizzazioni {#folders-and-views}
 
-Le cartelle di Campaign sono nodi nella struttura di explorer. In base al loro tipo, contengono determinati tipi di dati.
+Le cartelle di Campaign sono nodi nella struttura dell’Explorer. In base al tipo, contengono determinati tipi di dati.
 
-Una visualizzazione è una cartella specifica che non contiene dati ma visualizza dati fisicamente memorizzati in altre cartelle dello stesso tipo. Ad esempio, se ruoti una cartella di consegna in una visualizzazione, questa cartella mostrerà tutte le consegne. Questi dati possono quindi essere filtrati.
+Una visualizzazione è una cartella specifica che non contiene dati, ma visualizza dati fisicamente memorizzati in altre cartelle dello stesso tipo. Ad esempio, se trasformi una cartella di consegna in una visualizzazione, questa cartella mostrerà tutte le consegne. Questi dati possono quindi essere filtrati.
 
 
 >[!NOTE]
->Per distinguere le visualizzazioni dalle cartelle standard, il loro nome viene visualizzato in blu chiaro anziché in nero.
+>Per distinguere le viste dalle cartelle standard, il loro nome viene visualizzato in blu chiaro anziché in nero.
 
 È possibile assegnare autorizzazioni alle cartelle per limitare l’accesso a determinati dati. [Ulteriori informazioni](#restrict-access-to-a-folder)
 
-## Procedure consigliate per l’utilizzo delle cartelle{#best-practices-folders}
+## Best practice per l’utilizzo delle cartelle{#best-practices-folders}
 
-* **Utilizzare le cartelle incorporate** per facilitare l’utilizzo, la manutenzione e la risoluzione dei problemi dell’applicazione da parte di tutti i partecipanti al progetto. Evita di creare strutture di cartelle personalizzate per destinatari, elenchi, consegne, ecc., ma utilizza le cartelle standard come **Amministrazione**, **Profili e destinazioni**, **Gestione delle campagne**.
+* **Utilizzare le cartelle incorporate** per facilitare l&#39;utilizzo, la manutenzione e la risoluzione dei problemi dell&#39;applicazione da parte di tutti gli utenti coinvolti nel progetto. Evita di creare strutture di cartelle personalizzate per destinatari, elenchi, consegne e così via, ma utilizza le cartelle standard, ad esempio **Amministrazione**, **Profili e destinazioni**, **Gestione delle campagne**.
 
-* **Creare sottocartelle**, ad esempio, salva i flussi di lavoro tecnici nella cartella incorporata: **[!UICONTROL Administration > Production > Technical Workflows]** e crea sottocartelle per tipo di flusso di lavoro.
+* **Creare sottocartelle**, ad esempio, salva i flussi di lavoro tecnici nella cartella incorporata: **[!UICONTROL Administration > Production > Technical Workflows]** e creare sottocartelle per tipo di flusso di lavoro.
 
-* **Definire e applicare una convenzione di denominazione**, ad esempio, è possibile denominare i flussi di lavoro in ordine alfabetico in modo che vengano visualizzati in ordine alfabetico nell’ordine di esecuzione, ad esempio:
+* **Definire e applicare una convenzione di denominazione** Ad esempio, puoi denominare i flussi di lavoro in ordine alfabetico, in modo che vengano visualizzati in ordine di esecuzione, ad esempio:
 
-   A1 - destinatari dell’importazione, inizia alle 10:00; A2: i biglietti per l’importazione iniziano alle 11:00.
+   A1 - destinatari importazione, inizia alle 10:00; A2 - biglietti importazione, inizia alle 11:00.
 
 ## Crea una cartella{#create-a-folder}
 
 Per creare una cartella, fai clic con il pulsante destro del mouse su una cartella esistente e utilizza il menu contestuale.
 
-Per creare lo stesso tipo di cartella di quello selezionato, scegliere la prima opzione nel menu contestuale. Ad esempio, da una cartella Destinatari, selezionare **[!UICONTROL Create a new 'Recipients' folder]**.
+Per creare lo stesso tipo di cartella selezionato, scegli la prima opzione nel menu contestuale. Ad esempio, da una cartella Destinatari, seleziona **[!UICONTROL Create a new 'Recipients' folder]**.
 
 ![](assets/create-recipient-folder.png)
 
-Puoi trascinare e rilasciare la nuova cartella per organizzare la struttura ad albero di Campaign Explorer in base alle tue esigenze.
+Puoi trascinare e rilasciare la nuova cartella per organizzare la struttura di Esplora campagne come necessario.
 
-Per creare un altro tipo di cartella, fare clic con il pulsante destro del mouse su una cartella esistente e selezionare **[!UICONTROL Add new folder]**. È possibile creare tutti i tipi di cartelle, a seconda dei dati da memorizzare.
+Per creare un altro tipo di cartella, fai clic con il pulsante destro del mouse su una cartella esistente e seleziona **[!UICONTROL Add new folder]**. Puoi creare tutti i tipi di cartelle, a seconda dei dati da archiviare.
 
 ![](assets/add-new-folder.png)
 
 >[!CAUTION]
 >Queste modifiche si applicano a tutti gli utenti di Campaign.
 
-## Trasformazione di una cartella in una visualizzazione{#turn-a-folder-to-a-view}
+## Trasforma una cartella in una visualizzazione{#turn-a-folder-to-a-view}
 
-Una visualizzazione è una cartella specifica che non contiene dati ma visualizza dati fisicamente memorizzati in altre cartelle dello stesso tipo.
+Una visualizzazione è una cartella specifica che non contiene dati, ma visualizza dati fisicamente memorizzati in altre cartelle dello stesso tipo.
 
-È possibile trasformare qualsiasi cartella in una visualizzazione, ma la cartella deve essere vuota. Tutti i dati memorizzati nella cartella vengono eliminati quando si converte la cartella in una visualizzazione.
+È possibile trasformare qualsiasi cartella in una visualizzazione, ma la cartella deve essere vuota. Tutti i dati memorizzati nella cartella vengono eliminati quando si trasforma la cartella in una visualizzazione.
 
 >[!CAUTION]
 >
->Una visualizzazione visualizza i dati e fornisce l’accesso a tali dati, anche se i dati non sono fisicamente memorizzati nella cartella di visualizzazione. Per poter accedere al contenuto, l’operatore deve disporre delle autorizzazioni appropriate nelle cartelle di origine, almeno per l’accesso in lettura.
+>Una visualizzazione visualizza i dati e consente di accedervi, anche se non sono fisicamente memorizzati nella cartella di visualizzazione. Per poter accedere al contenuto, l’operatore deve disporre delle autorizzazioni appropriate nelle cartelle di origine, almeno l’accesso in lettura.
 >
->Per concedere l&#39;accesso a una visualizzazione senza concedere l&#39;accesso alla relativa cartella di origine, non concedere l&#39;accesso in lettura al nodo padre della cartella di origine.
+>Per concedere l&#39;accesso a una vista senza concedere l&#39;accesso alla relativa cartella di origine, non concedere l&#39;accesso in lettura al nodo padre della cartella di origine.
 
-Nell’esempio seguente, creeremo una nuova cartella per visualizzare solo le consegne USA, in base al nome interno.
+Nell’esempio seguente, creeremo una nuova cartella per visualizzare solo le consegne negli Stati Uniti, in base al loro nome interno.
 
-1. Crea un **[!UICONTROL Deliveries]** e denominarlo **Consegne statunitensi**.
-1. Fai clic con il pulsante destro del mouse su questa cartella e seleziona **[!UICONTROL Properties...]**.
+1. Creare un **[!UICONTROL Deliveries]** cartella e denominarla **Consegne USA**.
+1. Fare clic con il pulsante destro del mouse su questa cartella e selezionare **[!UICONTROL Properties...]**.
 1. Nella scheda **[!UICONTROL Restriction]**, seleziona **[!UICONTROL This folder is a view]**. Verranno quindi visualizzate tutte le consegne nel database.
 
    ![](assets/this-folder-is-a-view.png)
@@ -77,33 +77,33 @@ Nell’esempio seguente, creeremo una nuova cartella per visualizzare solo le co
 
    >[!NOTE]
    >
-   >Scopri come progettare query in [questa pagina](create-filters.md#advanced-filters)
+   >Scopri come progettare le query in [questa pagina](create-filters.md#advanced-filters)
 
 
 >[!CAUTION]
 >
->Durante la gestione [messaggistica transazionale](../send/transactional.md) eventi, **[!UICONTROL Real time events]** o **[!UICONTROL Batch events]** le cartelle non devono essere impostate come visualizzazioni sulle istanze di esecuzione, in quanto ciò potrebbe causare problemi di autorizzazione.
+>Durante la gestione [messaggistica transazionale](../send/transactional.md) eventi, il **[!UICONTROL Real time events]** o **[!UICONTROL Batch events]** le cartelle non devono essere impostate come viste sulle istanze di esecuzione, in quanto ciò potrebbe causare problemi di autorizzazione.
 
 ## Organizzare le cartelle{#organize-your-folders}
 
-Per impostazione predefinita, una nuova cartella viene aggiunta nella parte superiore della gerarchia.
+Per impostazione predefinita, nella parte superiore della gerarchia viene aggiunta una nuova cartella.
 
-Sfoglia il **Sottocartelle** scheda delle proprietà di una cartella per organizzare le relative sottocartelle.
+Sfoglia **Sottocartelle** delle proprietà di una cartella per organizzare le relative sottocartelle.
 
-È possibile spostare le cartelle con le frecce a destra o selezionare la **[!UICONTROL Sort the sub-folders in alphabetical order]** per ordinarli automaticamente.
+Puoi spostare le cartelle con le frecce a destra o selezionare **[!UICONTROL Sort the sub-folders in alphabetical order]** per ordinarli automaticamente.
 
 ![](assets/sort-folders.png)
 
 
 ## Filtrare i dati in una cartella{#filter-data-in-a-folder}
 
-Per filtrare i dati memorizzati in una cartella, accedere alle proprietà della cartella e selezionare la scheda Limitazione.
+Per filtrare i dati memorizzati in una cartella, accedere alle proprietà della cartella e selezionare la scheda Restrizioni.
 
-Ad esempio, la cartella seguente conterrà solo i contatti con un indirizzo e-mail e la cui origine non è contrassegnata come &quot;Esterno&quot; oppure è vuota.
+Ad esempio, la cartella seguente conterrà solo contatti con un indirizzo e-mail e la cui origine non è contrassegnata come &quot;Esterna&quot; oppure è vuota.
 
 ![](assets/add-a-filter-to-a-folder.png)
 
 
 ## Limitare l’accesso a una cartella{#restrict-access-to-a-folder}
 
-Utilizza le autorizzazioni nelle cartelle per organizzare e controllare l’accesso ai dati di Campaign. Ulteriori informazioni sulle autorizzazioni per le cartelle in [questa sezione](../start/folder-permissions.md).
+Utilizza le autorizzazioni sulle cartelle per organizzare e controllare l’accesso ai dati di Campaign. Ulteriori informazioni sulle autorizzazioni per le cartelle in [questa sezione](../start/folder-permissions.md).

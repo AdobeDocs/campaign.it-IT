@@ -1,6 +1,6 @@
 ---
-title: Raccogliere e aggiornare profili con moduli web
-description: Scopri come raccogliere e aggiornare profili con moduli web
+title: Raccogliere e aggiornare profili con i moduli web
+description: Scopri come raccogliere e aggiornare i profili con i moduli web
 feature: Audiences, Profiles, Web Forms
 role: Data Engineer
 level: Beginner
@@ -12,9 +12,9 @@ ht-degree: 43%
 
 ---
 
-# Raccogliere e aggiornare profili con moduli web
+# Raccogliere e aggiornare profili con i moduli web
 
-Utilizza Campaign per creare moduli web e raccogliere e gestire i dati del profilo in modo semplice ed efficiente. Puoi condividere questi moduli nel tuo sito web, in modo che i tuoi contatti possano inviarti facilmente i loro dati. I dati vengono inviati a Campaign per creare o aggiornare il profilo.
+Utilizza Campaign per creare moduli web e raccogliere e gestire i dati di profilo in modo semplice ed efficiente. Puoi condividere questi moduli nel tuo sito web, in modo che i tuoi contatti possano inviarti facilmente i loro dati. I dati vengono inviati a Campaign per creare o aggiornare il profilo.
 
 ![](assets/web-form-page.png)
 
