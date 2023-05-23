@@ -1,14 +1,14 @@
 ---
 title: Inviare SMS con Adobe Campaign
-description: Guida introduttiva all’SMS in Campaign
+description: Introduzione agli SMS in Campaign
 feature: SMS
 role: Data Engineer
 level: Beginner
 exl-id: e2e2922a-2058-4588-b1b5-6997f29ee663
-source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
+source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 6%
+source-wordcount: '562'
+ht-degree: 5%
 
 ---
 
@@ -20,60 +20,60 @@ Utilizza Adobe Campaign per inviare messaggi SMS personalizzati.
 
 >[!NOTE]
 >
->Adobe Campaign consente inoltre di inviare notifiche push sui dispositivi mobili tramite le relative **Canale app mobile Adobe Campaign (NMAC)** opzione . Per ulteriori informazioni, consulta [questa sezione](push.md).
+>Adobe Campaign consente inoltre di inviare notifiche push su dispositivi mobili tramite **Canale app mobile Adobe Campaign (NMAC)** opzione. Per ulteriori informazioni, consulta [questa sezione](push.md).
 
 ## Configurare il canale SMS
 
 Per inviare a un telefono cellulare, è necessario:
 
-* Un account esterno che specifica un connettore e il tipo di messaggio.
+* Un account esterno che specifica un connettore e un tipo di messaggio.
 
-* Un modello di consegna in cui viene fatto riferimento a questo account esterno.
+* Un modello di consegna in cui si fa riferimento a questo account esterno.
 
-![](../assets/do-not-localize/book.png)  Scopri come configurare un canale SMS in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#sending-messages){target="_blank"}
+![](../assets/do-not-localize/book.png)  Scopri come configurare un canale SMS in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html#sending-messages){target="_blank"}
 
 Prima di iniziare a inviare SMS:
 
-* Assicurati che i profili dei destinatari contengano almeno un telefono cellulare nel loro profilo.
-* Rivedi Adobe Campaign Classic [Best practice per le consegne](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html?lang=en#sending-messages){target="_blank"} che si applicano anche a Campaign v8.
+* Assicurati che nel profilo dei destinatari sia presente almeno un telefono cellulare.
+* Rivedi Adobe Campaign Classic [Best practice per la consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html#sending-messages){target="_blank"} , applicabile anche a Campaign v8.
 
-Inoltre, devi avere familiarità con il protocollo e le impostazioni SMS. Scorri la connessione impostata tra Adobe Campaign e un provider SMPP in [presente documento](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html?lang=it#sending-messages){target="_blank"}.
+Inoltre, è necessario avere familiarità con il protocollo e le impostazioni SMS. Scopri la connessione impostata tra Adobe Campaign e un provider SMPP in [questo documento](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html#sending-messages){target="_blank"}.
 
 ## Creare la prima consegna SMS
 
-1. Per creare una nuova consegna, seleziona **[!UICONTROL Campaigns]** scheda , fai clic su **[!UICONTROL Deliveries]** e fai clic su **[!UICONTROL Create]** , sopra l’elenco delle consegne esistenti.
+1. Per creare una nuova consegna, passa a **[!UICONTROL Campaigns]** , fare clic su **[!UICONTROL Deliveries]** e fai clic su **[!UICONTROL Create]** sopra l’elenco delle consegne esistenti.
 
    ![](assets/delivery_step_1.png)
 
-   ![](../assets/do-not-localize/book.png) Per informazioni globali su come creare una consegna, consulta [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html?lang=en#sending-messages){target="_blank"}.
+   ![](../assets/do-not-localize/book.png) Per informazioni globali su come creare una consegna, consulta [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html#sending-messages){target="_blank"}.
 
 1. Seleziona un modello di consegna che fa riferimento all’account esterno pertinente per inviare consegne SMS.
 
    ![](assets/sms-template-list.png)
 
-   ![](../assets/do-not-localize/book.png) Scopri come creare un account esterno SMPP in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#creating-an-smpp-external-account){target="_blank"}
+   ![](../assets/do-not-localize/book.png) Scopri come creare un account esterno SMPP in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html#creating-an-smpp-external-account){target="_blank"}
 
-   ![](../assets/do-not-localize/book.png) Scopri come creare un modello di consegna da consegnare ai dispositivi mobili in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#changing-the-delivery-template){target="_blank"}
+   ![](../assets/do-not-localize/book.png) Scopri come creare un modello di consegna da consegnare ai cellulari in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html#changing-the-delivery-template){target="_blank"}
 
 1. Identifica la consegna con un’etichetta, un codice e una descrizione.
 
-1. Fai clic su **[!UICONTROL Continue]** per confermare e visualizzare la finestra di configurazione del messaggio.
+1. Clic **[!UICONTROL Continue]** per confermare e visualizzare la finestra configurazione messaggio.
 
-1. Immetti il contenuto del messaggio nel **[!UICONTROL Text content]** della procedura guidata, inclusi i campi di personalizzazione in base alle esigenze.
+1. Inserisci il contenuto del messaggio in **[!UICONTROL Text content]** della procedura guidata, inclusi i campi di personalizzazione in base alle esigenze.
 
    ![](assets/sms-content.png)
 
 1. Seleziona la popolazione target.
 
-I passaggi chiave per creare e progettare un SMS sono descritti in dettaglio nella documentazione di Campaign Classic v7 :
+I passaggi chiave per la creazione e la progettazione di un SMS sono descritti in dettaglio nella documentazione di Campaign Classic v7:
 
 * Creare un SMS
 
-   ![](../assets/do-not-localize/book.png) [Scopri come creare una consegna SMS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-create.html?lang=en#sending-messages){target="_blank"}
+   ![](../assets/do-not-localize/book.png) [Scopri come creare una consegna SMS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-create.html#sending-messages){target="_blank"}
 
-* Progettazione del contenuto SMS
+* Progettare il contenuto degli SMS
 
-   ![](../assets/do-not-localize/book.png) [Scopri come definire il contenuto SMS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-create.html?lang=en#defining-the-sms-content){target="_blank"}
+   ![](../assets/do-not-localize/book.png) [Scopri come definire il contenuto degli SMS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-create.html#defining-the-sms-content){target="_blank"}
 
 * Selezionare il pubblico dell’e-mail
 
@@ -81,7 +81,7 @@ I passaggi chiave per creare e progettare un SMS sono descritti in dettaglio nel
 
 ![](../assets/do-not-localize/glass.png) I passaggi per definire un pubblico sono descritti in dettaglio in [questa pagina](../start/audiences.md).
 
-## Test dell’SMS
+## Verifica l’SMS
 
 Per visualizzare il rendering del messaggio con la relativa personalizzazione, fai clic su **[!UICONTROL Preview]** e seleziona un destinatario.
 
@@ -89,19 +89,19 @@ Per visualizzare il rendering del messaggio con la relativa personalizzazione, f
 
 Per inviare una bozza, consulta le seguenti sezioni della documentazione di Campaign Classic v7:
 
-* Convalidare una consegna e inviare bozze
+* Convalidare una consegna e inviare le bozze
    ![](../assets/do-not-localize/book.png) [Scopri i passaggi chiave per convalidare una consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=it){target="_blank"}
 * Aggiungere indirizzi seed
    ![](../assets/do-not-localize/book.png) [Scopri gli indirizzi di seed](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}
 
 ## Inviare e monitorare le consegne SMS
 
-I passaggi chiave per inviare e monitorare un SMS sono descritti in dettaglio nella documentazione di Campaign Classic v7 :
+I passaggi chiave per inviare e monitorare un SMS sono descritti in dettaglio nella documentazione di Campaign Classic v7:
 
 * Inviare, monitorare e tenere traccia delle consegne SMS
 
-   ![](../assets/do-not-localize/book.png) [Scopri gli strumenti per inviare, monitorare e tracciare gli SMS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-send.html?lang=en#sending-messages){target="_blank"}
+   ![](../assets/do-not-localize/book.png) [Scopri gli strumenti per inviare, monitorare e tenere traccia degli SMS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-send.html#sending-messages){target="_blank"}
 
 * Risolvere i problemi relativi alle consegne SMS
 
-   ![](../assets/do-not-localize/book.png) [Informazioni sulla risoluzione dei problemi relativi agli SMS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/troubleshooting-sms.html?lang=en#sending-messages){target="_blank"}
+   ![](../assets/do-not-localize/book.png) [Informazioni sulla risoluzione dei problemi relativi agli SMS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/troubleshooting-sms.html#sending-messages){target="_blank"}

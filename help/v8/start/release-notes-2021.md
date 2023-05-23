@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 5ac6bda9-86c8-4200-b285-6fee2a29039d
-source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
+source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1583'
+ht-degree: 99%
 
 ---
 
@@ -45,7 +45,7 @@ _28 ottobre 2021_
 <tbody> 
 <tr> 
 <td> <p>È ora disponibile il modulo di ottimizzazione delle campagne. Questo modulo consente di controllare, filtrare e monitorare l’invio delle consegne. Per evitare conflitti tra campagne, Adobe Campaign può sottoporre a test diverse combinazioni applicando specifiche regole di vincolo. Ciò garantisce che i messaggi inviati soddisfino le esigenze e le aspettative dei clienti, in linea con le politiche di comunicazione aziendali.</p>
-<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=it#campaign-optimization">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html#campaign-optimization">documentazione dettagliata</a>.</p>
 </td> 
 </tr> 
 </tbody> 
