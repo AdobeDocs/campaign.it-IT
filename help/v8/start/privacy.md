@@ -6,9 +6,9 @@ role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 0f81d318-dbfd-45c8-b391-b1d14d23e9c8
 source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1034'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Prima di creare una richiesta di accesso a dati personali, devi **definire lo sp
 
 >[!NOTE]
 >
->Per ulteriori informazioni sugli spazi dei nomi delle identità, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=it){target="_blank"}.
+>Per ulteriori informazioni sugli spazi dei nomi di identità, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=it){target="_blank"}.
 
 Al momento Adobe Campaign non supporta l’importazione di spazi dei nomi dal servizio Identity Namespace di Experience Platform . Pertanto, dopo aver creato uno spazio dei nomi nel servizio Identity Namespace, devi creare manualmente lo spazio dei nomi corrispondente nell’interfaccia di Adobe Campaign. Per farlo, segui la procedura indicata di seguito.
 
@@ -48,7 +48,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 1. Crea uno spazio dei nomi nel [servizio Namespace Identity](https://developer.adobe.com/experience-platform-apis/references/identity-service/#tag/Identity-Namespace){target="_blank"}.
 
-1. Quando [elenco degli spazi dei nomi di identità](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces){target="_blank"} disponibile per la tua organizzazione, otterrai lo spazio dei nomi nei seguenti dettagli, ad esempio:
+1. Quando vengono [elencati gli spazi dei nomi di identità](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces){target="_blank"} disponibili per la tua organizzazione, vengono elencati i dettagli dello spazio dei nomi, ad esempio:
 
    ```
    {
@@ -95,7 +95,7 @@ Ora puoi creare richieste di accesso a dati personali in base al nuovo spazio de
 
 L’integrazione di **[!DNL Adobe Experience Platform Privacy Service]** consente di automatizzare le richieste di accesso a dati personali in un contesto multisoluzione tramite una singola chiamata API JSON. Adobe Campaign gestisce automaticamente le richieste inviate da Privacy Service tramite un flusso di lavoro dedicato.
 
-Per scoprire come creare richieste di accesso a dati personali dal servizio core per la privacy, fai riferimento alla documentazione del [Privacy Service di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).{target="_blank"}
+Per scoprire come creare richieste di accesso a dati personali dal Privacy Core Service, fai riferimento alla documentazione del [Privacy Service di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it).{target="_blank"}
 
 Ciascun processo **[!DNL Privacy Service]** è suddiviso in più richieste Privacy in Adobe Campaign in base al numero di spazi dei nomi utilizzati. A ogni richiesta corrisponde uno spazio dei nomi.
 
@@ -109,9 +109,9 @@ Il modello per il nome di un file è: `<InstanceName>-<NamespaceId>-<Reconciliat
 
 >[!CAUTION]
 >
->Per inviare una richiesta utilizzando il tipo di spazio dei nomi personalizzato, sfrutta [metodo JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html#access-delete){target="_blank"} per effettuare la richiesta.
+>Per inviare una richiesta utilizzando il tipo di spazio dei nomi personalizzato, crea la richiesta utilizzando il [metodo JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=it#access-delete){target="_blank"}.
 >
->Utilizza solo il [Interfaccia utente Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#request-builder){target="_blank"} per inviare richieste utilizzando il tipo di spazio dei nomi standard.
+>Per inviare richieste utilizzando il tipo di spazio dei nomi standard, utilizza solo l’[interfaccia utente Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it#request-builder){target="_blank"}.
 
 ### Tabelle cercate durante l’elaborazione delle richieste {#list-of-tables}
 
@@ -156,6 +156,6 @@ Di seguito sono riportati i diversi stati delle richieste di accesso a dati pers
 
 * [Guida introduttiva alla gestione della privacy](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=it){target="_blank"}
 
-* [Normative sulla gestione della privacy](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=it#privacy-management-regulations){target="_blank"} (GDPR, CCPA, PDPA e LGPD)
+* [Regolamenti sulla gestione della privacy](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=it#privacy-management-regulations){target="_blank"}(GDPR, CCPA, PDPA e LGPD)
 
 * [Rinuncia alla vendita di informazioni personali](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-requests/privacy-requests-ccpa.html?lang=it){target="_blank"} (specifico per CCPA)
