@@ -4,11 +4,11 @@ description: Introduzione alle campagne
 feature: Audiences
 role: User
 level: Beginner
-exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
-workflow-type: tm+mt
+exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66
+source-git-commit: 2e597990aafb57631aa228464e4818782524e65e
+workflow-type: ht
 source-wordcount: '833'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ I passaggi principali per creare una campagna di marketing cross-channel sono i 
 
    Adobe Campaign consente di impostare processi di approvazione collaborativa per le fasi principali della campagna di marketing. Per ogni campagna puoi approvare il target di consegna, i contenuti e i costi. Gli operatori di Adobe Campaign incaricati dell’approvazione possono ricevere una notifica tramite e-mail e accettare o rifiutare l’approvazione dalla console o tramite una connessione web.
 
-   Per scoprire come impostare e gestire le approvazioni, consulta [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html#campaign-orchestration).
+   Per scoprire come impostare e gestire le approvazioni, consulta [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html?lang=it#campaign-orchestration).
 
 
 ## Componente aggiuntivo Marketing distribuito{#distributed-marketing-add-on}
@@ -110,4 +110,3 @@ Adobe Campaign offre il componente aggiuntivo **Gestione della risposta** che co
 >Questa funzionalità è disponibile a partire da Campaign v8.3. Per verificare la versione, consulta [questa sezione](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
 [](../assets/do-not-localize/book.png) Scopri come configurare e utilizzare Campaign Response Manager nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=it){target="_blank"}
-
