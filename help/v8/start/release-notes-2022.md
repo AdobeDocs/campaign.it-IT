@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
-source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
 source-wordcount: '1839'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -84,7 +84,7 @@ Per ottimizzare la sicurezza, i token di sicurezza sono stati rimossi dagli URL 
 
 **Miglioramenti**
 
-* Dopo la fine del ciclo di vita di Internet Explorer 11, il motore di rendering HTML nella console utilizza ora **Microsoft Edge Chromium**. Inoltre, **Microsoft Edge WebView2 Runtime** è ora necessario per tute le installazioni della console client.
+* Dopo la fine del ciclo di vita di Internet Explorer 11, il motore di rendering HTML nella console utilizza ora **Microsoft Edge Chromium**. Inoltre, l&#39;installazione di **Microsoft Edge WebView 2** Il runtime è ora necessario per qualsiasi installazione della console client.
 * È stata migliorata l’esecuzione dei flussi di lavoro con elevata disponibilità, che consente di eseguire flussi di lavoro simultanei tra contenitori diversi per evitare sia la perdita del servizio del flusso di lavoro sia i relativi errori di esecuzione. **Nota**: questa nuova funzionalità viene rilasciata solo in Disponibilità limitata a un set di clienti.
 * Le richieste di privacy vengono ora eseguite in batch per uno specifico spazio dei nomi di privacy. Questo miglioramento aumenta il tempo di esecuzione per le richieste di eliminazione di dati relativi a GDPR e privacy.
 

@@ -3,9 +3,9 @@ product: campaign
 title: Creazione e gestione di attività
 description: Creazione e gestione di attività
 exl-id: 730d1712-53a6-4bf7-9aac-523b06bd0d0a
-source-git-commit: 094743fef69e137f80b670f0bf31dce56c282c34
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '3740'
+source-wordcount: '3743'
 ht-degree: 1%
 
 ---
@@ -352,7 +352,7 @@ Tuttavia, se è già stata creata un&#39;attività che si desidera collegare a u
 
 ### Attività di notifica {#notification-task}
 
-Le attività di notifica ti consentono di pianificare le consegne e-mail (a un operatore, a un gruppo di operatori, a un fornitore di servizi, ecc.). Questo consente di pianificare i promemoria, ad esempio per avvisare qualcuno che una campagna sta per terminare o per inviare documenti prima dell’inizio di una campagna in modo che gli operatori possano prepararla. Potrai quindi tenere traccia delle tue comunicazioni nella campagna o nel programma e seguire con attenzione le azioni svolte.
+Le attività di notifica ti consentono di pianificare le consegne e-mail (a un operatore, a un gruppo di operatori, a un fornitore di servizi, ecc.). Questo consente di pianificare i promemoria, ad esempio per avvisare qualcuno che una campagna sta per terminare o per inviare documenti prima dell’inizio di una campagna in modo che gli operatori possano prepararla. Potrai quindi tenere traccia delle tue comunicazioni nella campagna o nel programma e seguire da vicino le azioni svolte.
 
 #### Ciclo di vita {#life-cycle}
 
@@ -466,7 +466,7 @@ Di seguito sono riportate le fasi di un ciclo di vita completo di un&#39;attivit
 1. Dopo aver completato la sezione a loro assegnata, i partecipanti possono approvare l&#39;attività:
 
    * tramite l’e-mail di notifica.
-   * tramite la console o l’interfaccia web, nel dashboard attività.
+   * tramite la console client o l’interfaccia web, nel dashboard delle attività.
 
       ![](assets/s_ncs_user_task_start_rea.png)
 
@@ -480,7 +480,7 @@ Di seguito sono riportate le fasi di un ciclo di vita completo di un&#39;attivit
 
    ![](assets/s_ncs_user_task_follow_from_dashboard.png)
 
-1. Una volta che il responsabile dell’attività decide che è terminata, può chiuderla utilizzando il collegamento nell’e-mail di notifica inviata all’avvio dell’attività, la console o l’interfaccia.
+1. Una volta che la persona responsabile dell’attività decide che è stata completata, può chiuderla utilizzando il collegamento nell’e-mail di notifica inviata all’avvio dell’attività, la console client o l’interfaccia.
 
    ![](assets/s_ncs_user_task_console_ressource_validation.png)
 
@@ -490,7 +490,7 @@ Di seguito sono riportate le fasi di un ciclo di vita completo di un&#39;attivit
 
 1. Lo stato dell’attività diventa **[!UICONTROL To approve]** e viene inviata una notifica al revisore.
 
-   Approvano l’attività tramite l’e-mail di notifica, la console o l’interfaccia web.
+   Approvano l’attività tramite l’e-mail di notifica, la Client Console o l’interfaccia web.
 
    Possono agire tramite il dashboard della campagna:
 

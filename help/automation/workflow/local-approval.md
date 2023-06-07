@@ -4,9 +4,9 @@ title: Approvazione locale
 description: Approvazione locale
 feature: Workflows
 exl-id: 172b6827-ddfc-4c6e-87c9-eb49e73ab3ab
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '645'
 ht-degree: 2%
 
 ---
@@ -81,13 +81,13 @@ Nel caso di un rapporto sul feedback della consegna, è necessario inserire i ca
 
 Questo esempio mostra come impostare un processo di approvazione per una consegna di flusso di lavoro. Per ulteriori informazioni sulla creazione dei flussi di lavoro di consegna, consulta [Esempio: flusso di lavoro di consegna](delivery.md#example--delivery-workflow) sezione.
 
-Un operatore può approvare una consegna in uno dei due modi seguenti: utilizzando la pagina web collegata nel messaggio e-mail o tramite la console.
+Un operatore può approvare una consegna in uno dei due modi seguenti: utilizzando la pagina web collegata nel messaggio e-mail o tramite la console client.
 
 * Approvazione web
 
    L’e-mail inviata agli operatori del gruppo Amministratore ti consente di approvare il target di consegna. Il messaggio utilizza il testo definito e l’espressione JavaScript viene sostituita dal valore calcolato (in questo caso, &quot;574&quot;)
 
-   Per approvare la consegna, fai clic sul collegamento pertinente e accedi alla console Adobe Campaign.
+   Per approvare la consegna, fai clic sul collegamento pertinente e accedi alla console client di Adobe Campaign.
 
    ![](assets/new-workflow-valid-webaccess.png)
 
@@ -95,7 +95,7 @@ Un operatore può approvare una consegna in uno dei due modi seguenti: utilizzan
 
    ![](assets/new-workflow-valid-webaccess-confirm.png)
 
-* Approvazione tramite la console
+* Approvazione tramite la console client
 
    Nella struttura ad albero, il **[!UICONTROL Administration > Production > Objects created automatically > Approvals pending]** Il nodo contiene l&#39;elenco delle attività che devono essere approvate dall&#39;operatore attualmente connesso. L’elenco deve visualizzare una riga. Fare doppio clic su questa riga per rispondere. Viene visualizzata la seguente finestra:
 

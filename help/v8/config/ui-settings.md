@@ -6,9 +6,9 @@ feature: Application Settings
 role: Admin, Developer
 level: Beginner, Intermediate, Experienced
 exl-id: fefb6d80-c3d1-448b-82ab-648da58a0ba4
-source-git-commit: 666dbdac8330cae17693142cf45cc3d3d2d187a9
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '1846'
 ht-degree: 1%
 
 ---
@@ -211,7 +211,7 @@ Per creare un alias, eseguire la procedura seguente:
 
 1. Salva le modifiche. La sostituzione dei valori viene eseguita da **Pulizia alias** flusso di lavoro che viene eseguito ogni notte. Fai riferimento a [Esegui pulizia dati](#running-data-cleansing).
 
-Per tutti i campi basati su questa enumerazione, quando un utente immette il valore **Adobe** in un campo &quot;azienda&quot; (nella console Adobe Campaign, in un modulo web), verrà automaticamente sostituito dal valore **Adobe**.
+Per tutti i campi basati su questa enumerazione, quando un utente immette il valore **Adobe** in un campo &quot;azienda&quot; (nella console client di Adobe Campaign, in un modulo web), verrà automaticamente sostituito dal valore **Adobe**.
 
 #### Convertire un valore errato in un alias{#convert-to-alias}
 

@@ -3,7 +3,7 @@ title: Rapporti incorporati di Adobe Campaign
 description: Rapporti incorporati
 feature: Reporting
 exl-id: b63e6905-3bd4-4de4-9e7e-7638e5fc1192
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # Rapporti incorporati di Adobe Campaign{#ootb-reports}
 
-Questa pagina fornisce l’elenco dei rapporti incorporati di Adobe Campaign, il loro contenuto e il loro contesto. Adobe Campaign fornisce una serie di rapporti incorporati, accessibili tramite la console client o un browser Internet.
+Questa pagina fornisce l’elenco dei rapporti incorporati di Adobe Campaign, il loro contenuto e il loro contesto. Adobe Campaign fornisce una serie di rapporti incorporati, accessibili tramite Client Console o un browser Internet.
 
 Sono disponibili i seguenti tipi di rapporto:
 

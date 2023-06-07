@@ -5,7 +5,7 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 43483085-8aa6-47e6-89e7-9211e37beaa4
-source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 20%
@@ -31,7 +31,7 @@ Per popolare Adobe Campaign con i dati del profilo, puoi:
 * [importare file di dati](../start/import.md) da un’origine dati esterna, ad esempio un sistema CRM, o da un file flat
 * [creare moduli web](../dev/webapps.md) per consentire ai clienti di inserire le proprie informazioni e creare il proprio profilo
 * [mappare a un database esterno](../connect/fda.md) in cui sono memorizzati i profili
-* immetti manualmente i profili nella console Client, come segue:
+* immetti manualmente i profili nella console client, come segue:
 
 ![](assets/create-profile.png)
 

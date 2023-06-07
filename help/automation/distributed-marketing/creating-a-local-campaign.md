@@ -4,9 +4,9 @@ title: Creare una campagna locale
 description: Creare una campagna locale
 feature: Distributed Marketing
 exl-id: b46530b5-cb81-40d7-b596-c7685359782a
-source-git-commit: 7e5ffbec959785971280c394c416cebe83590897
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1555'
 ht-degree: 1%
 
 ---
@@ -295,9 +295,9 @@ Quando una campagna viene ordinata da un’entità locale, i revisori vengono av
 
 ![](assets/mkg_dist_command_valid_web.png)
 
-#### Approvazione tramite la console Adobe Campaign {#approving-via-the-adobe-campaign-console}
+#### Approva tramite la console client {#approving-via-the-adobe-campaign-console}
 
-L’ordine può anche essere approvato tramite la console, nella panoramica dell’ordine della campagna. Per approvare un ordine, selezionalo e fai clic su **[!UICONTROL Approve the order]**.
+L’ordine può essere approvato anche tramite la console client, nella panoramica dell’ordine della campagna. Per approvare un ordine, selezionalo e fai clic su **[!UICONTROL Approve the order]**.
 
 ![](assets/mkg_dist_local_order_valid.png)
 
@@ -321,7 +321,7 @@ L’operatore responsabile dell’approvazione può rifiutare un ordine o un pac
 
 Se il revisore rifiuta un ordine, la relativa notifica viene inviata automaticamente alle entità locali interessate: viene visualizzato il commento inserito dall’operatore che ha rifiutato l’approvazione.
 
-Le informazioni vengono visualizzate nell’elenco della pagina dei pacchetti della campagna o nella pagina dell’ordine della campagna. Se hanno accesso alla console Adobe Campaign, le entità locali vengono informate di questo rifiuto.
+Le informazioni vengono visualizzate nell’elenco della pagina dei pacchetti della campagna o nella pagina dell’ordine della campagna. Se hanno accesso alla console client di Adobe Campaign, le entità locali vengono informate di questo rifiuto.
 
 ![](assets/mkg_dist_do_not_valid_view.png)
 

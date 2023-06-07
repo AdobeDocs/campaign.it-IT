@@ -4,9 +4,9 @@ title: Approvazione
 description: Approvazione
 feature: Workflows, Approvals
 exl-id: 9e57d21c-ce16-448d-97f1-8c6844acb37b
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ In caso di più approvazioni, sono abilitate le transizioni corrispondenti alla 
 
 Questa attività non blocca l’elaborazione e il flusso di lavoro può eseguire altre attività in attesa di risposta.
 
-Un operatore può approvare i compiti assegnati a tale operatore dalla console. Un operatore con diritti di amministratore può visualizzare ed eliminare le attività assegnate a qualsiasi operatore, ma non può rispondervi.
+Un operatore può approvare i compiti assegnati a tale operatore dalla console client. Un operatore con diritti di amministratore può visualizzare ed eliminare le attività assegnate a qualsiasi operatore, ma non può rispondervi.
 
 La modifica del titolo o del corpo del messaggio dell’attività non influisce sulle attività correnti, ma, d’altra parte, la modifica delle scelte possibili influisce direttamente sulle attività correnti, che ereditano automaticamente il nuovo elenco di scelte.
 

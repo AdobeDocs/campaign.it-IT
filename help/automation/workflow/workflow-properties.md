@@ -4,9 +4,9 @@ title: Proprietà del flusso di lavoro
 description: Ulteriori informazioni sulle proprietà del flusso di lavoro di Campaign
 feature: Workflows
 exl-id: 7fef434e-f6bd-46a4-9ec2-0182f081c928
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '544'
 ht-degree: 40%
 
 ---
@@ -76,6 +76,6 @@ Questa sezione viene visualizzata solo nei flussi di lavoro delle campagne.
 
    ![](assets/wf-properties_select-supervisors.png)
 
-   Il **[!UICONTROL Notification to a workflow supervisor]** il modello predefinito include un collegamento per accedere alla console Adobe Campaign tramite il Web, in modo che il destinatario possa occuparsi del problema una volta effettuato l’accesso.
+   Il **[!UICONTROL Notification to a workflow supervisor]** il modello predefinito include un collegamento per accedere ad Adobe Campaign Client Console tramite il Web, in modo che il destinatario possa occuparsi del problema una volta effettuato l’accesso.
 
    Per creare un modello personalizzato, vai a **[!UICONTROL Administration>Campaign management>Technical deliveries and templates]**.

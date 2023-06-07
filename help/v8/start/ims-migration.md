@@ -3,7 +3,7 @@ title: Migrazione degli utenti tecnici all’account tecnico nella Console per s
 description: Migrazione degli utenti tecnici all’account tecnico nella Console per sviluppatori
 hide: true
 hidefromtoc: true
-source-git-commit: 1f9efc0744792c1173e77965ff81eaee0ed2c618
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Ultimo passaggio: aggiornare l’operatore tecnico nella console client di Adobe
 
 Per aggiornare la modalità di autenticazione dell’operatore tecnico a IMS, effettua le seguenti operazioni:
 
-1. Da Esplora console client di Campaign, passa alla **Amministrazione > Gestione degli accessi > Operatori**.
+1. Dall’Explorer della console client di Campaign, passa alla **Amministrazione > Gestione degli accessi > Operatori**.
 1. Modifica l’operatore tecnico esistente utilizzato per le API.
 1. Sostituisci il **Nome (accesso)** di questo operatore tecnico tramite l’e-mail dell’account tecnico recuperata in precedenza.
 1. Accedi a **Modifica** pulsante in alto a sinistra accanto a **File**, e seleziona **Modifica origine XML**.

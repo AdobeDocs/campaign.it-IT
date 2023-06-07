@@ -4,22 +4,20 @@ title: Pubblicare il pacchetto della campagna
 description: Pubblicare il pacchetto della campagna
 feature: Distributed Marketing
 exl-id: 2cd1981d-f192-41dc-b2f2-4fcd60493079
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '455'
 ht-degree: 2%
 
 ---
 
 # Pubblicare il pacchetto della campagna{#publishing-the-campaign-package}
 
-
-
 Gli operatori di entità centrali pubblicano le campagne che desiderano offrire agli enti locali nell’ambito **[!UICONTROL list of campaign packages]**.
 
 Prima di poter essere pubblicati nell’elenco dei pacchetti della campagna, i pacchetti della campagna devono essere approvati dall’entità centrale. A questo scopo, puoi specificare un revisore o un gruppo di revisori tramite **[!UICONTROL Approval parameters]** nel pacchetto della campagna.
 
-## Assegnazione di un revisore {#assigning-a-reviewer}
+## Assegnare un revisore {#assigning-a-reviewer}
 
 Per selezionare il revisore, fare clic su **[!UICONTROL Approval parameters]** collega dal pacchetto campaign e scegli il revisore pertinente dall’elenco a discesa.
 
@@ -37,25 +35,25 @@ Viene quindi inviato un messaggio di notifica al revisore per confermare la disp
 >
 >A livello di entità organizzativa, è inoltre possibile specificare revisori per approvare gli ordini. Per ulteriori informazioni, consulta [Entità organizzative](about-distributed-marketing.md#organizational-entities).
 
-## Aggiunta di altri revisori {#adding-other-reviewers}
+## Aggiungi altri revisori {#adding-other-reviewers}
 
 Puoi aggiungere altri revisori da **[!UICONTROL Edit...]** , presente nel pacchetto della campagna **[!UICONTROL Approval parameters...]** scheda.
 
 ![](assets/s_advuser_mkg_dist_select_op_valid.png)
 
-## Periodi di approvazione {#approval-periods}
+## Timeline di approvazione {#approval-periods}
 
 Per impostazione predefinita, ai revisori vengono concessi tre giorni dalla data di invio per elaborare l’approvazione.
 
 All’interno della finestra di modifica dei revisori, puoi anche impostare i promemoria per l’invio di uno o più messaggi se un pacchetto della campagna non è stato approvato. A questo scopo, fai clic su **[!UICONTROL Add reminder]** , quindi il **[!UICONTROL Add]** pulsante.
 
-I promemoria possono essere inviati in una determinata data e/o **x** giorni dopo la data di invio. Il tipo di promemoria può essere configurato nella prima colonna della tabella dei promemoria. Nell’esempio seguente, i revisori riceveranno un messaggio di promemoria in data 29/01/2014, ovvero due giorni prima della data selezionata nell’ **[!UICONTROL Date]** e un secondo promemoria un giorno prima della fine del periodo di approvazione, ossia due giorni dopo la data di presentazione per l’approvazione.
+I promemoria possono essere inviati in una determinata data e/o **x** giorni dopo la data di invio. Il tipo di promemoria può essere configurato nella prima colonna della tabella dei promemoria. Nell’esempio seguente, i revisori riceveranno un messaggio di promemoria in data 01/11/2023, ovvero due giorni prima della data selezionata nell’ **[!UICONTROL Date]** e un secondo promemoria un giorno prima della fine del periodo di approvazione, ossia due giorni dopo la data di presentazione per l’approvazione.
 
 ![](assets/s_advuser_mkg_dist_reminder_planning.png)
 
 Una volta definito e inviato il pacchetto per l’approvazione, la pianificazione di esecuzione viene visualizzata in **[!UICONTROL Audit]** scheda. Mostra la scadenza dell’elaborazione calcolata in base alla configurazione precedente, nonché le date di tutti i promemoria configurati.
 
-## Approvazione tramite la console Adobe Campaign {#approving-via-the-adobe-campaign-console}
+## Approva tramite la console client {#approving-via-the-adobe-campaign-console}
 
 Se non è stato specificato un revisore o se nessuno degli operatori notificati ha approvato il pacchetto, il **[!UICONTROL Approve the package]** consente di passare direttamente all’approvazione dal pacchetto della campagna **[!UICONTROL Dashboard]** o dalla panoramica dei pacchetti.
 

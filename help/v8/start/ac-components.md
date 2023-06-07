@@ -5,7 +5,7 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: 2ec240b139394ce8f54a5835a4fa7bd377d226eb
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 1%
@@ -60,7 +60,7 @@ Il server web di Campaign controlla l’accesso ai processi web di Campaign. Jav
 
 ![](assets/ac-processes.png)
 
-La console del client di Campaign si connette al server web utilizzando l’XML SOAP su HTTP. Il server web fornisce il livello di sicurezza, trasmette le richieste al livello applicazione utilizzando JavaScript e i processi interni di Campaign accedono al database utilizzando SQL.
+La console client di Campaign si connette al server web utilizzando l’XML SOAP su HTTP. Il server web fornisce il livello di sicurezza, trasmette le richieste al livello applicazione utilizzando JavaScript e i processi interni di Campaign accedono al database utilizzando SQL.
 
 La comunicazione complessiva tra i processi di Campaign è descritta nel seguente diagramma di distribuzione autonomo: tutti i componenti di Campaign sono installati nello stesso computer.
 
