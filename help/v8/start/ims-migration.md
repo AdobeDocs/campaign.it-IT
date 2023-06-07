@@ -3,14 +3,14 @@ title: Migrazione degli utenti tecnici all’account tecnico nella Console per s
 description: Migrazione degli utenti tecnici all’account tecnico nella Console per sviluppatori
 hide: true
 hidefromtoc: true
-source-git-commit: 7b4942b5334826adf27c8a31dbdb9a5bfb5d50eb
+source-git-commit: 8842404511bd6166d920ebdeee942007b33a1bab
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
 
-# Migrazione degli utenti tecnici all’account tecnico nella Console per sviluppatori {#migrate-tech-users-to-ims}
+# Migrazione degli operatori tecnici di Campaign alla console Adobe Developer {#migrate-tech-users-to-ims}
 
 A partire da Campaign v8.5, il processo di autenticazione per Campaign v8 viene migliorato. Gli operatori tecnici devono utilizzare [Sistema Adobe Identity Management (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} per connettersi a Campaign. Un operatore tecnico è un profilo utente di Campaign creato esplicitamente per l’integrazione API. Questo articolo descrive i passaggi necessari per migrare un operatore tecnico all’account tecnico nella console Adobe Developer.
 
@@ -23,9 +23,9 @@ Ulteriori informazioni sul processo di autenticazione da server a server [nella 
 Questa modifica è applicabile a partire da Campaign v8.5 e sarà **obbligatorio** avvio di Campaign v8.6.
 
 
-## Sono interessato?{#ims-imacts}
+## Sei interessato da questo problema?{#ims-impacts}
 
-Se utilizzi le API di Campaign, devi migrare l’operatore tecnico alla console Adobe Developer come descritto di seguito.
+Se utilizzi le API di Campaign, devi migrare gli operatori tecnici alla console Adobe Developer come descritto di seguito.
 
 ## Come effettuare la migrazione?{#ims-migration-procedure}
 
@@ -33,7 +33,7 @@ Se utilizzi le API di Campaign, devi migrare l’operatore tecnico alla console 
 
 Prima di iniziare la migrazione, devi contattare il rappresentante Adobe in modo che i team tecnici Adobe possano migrare i gruppi di operatori e i diritti denominati esistenti ad Adobe Identity Management System (IMS).
 
-### Passaggio 1: creare un progetto nella console Adobe Developer{#ims-migration-step-1}
+### Passaggio 1: creare/aggiornare il progetto Campaign in Adobe Developer Console{#ims-migration-step-1}
 
 Le integrazioni vengono create come parte di un **Progetto** nella console Adobe Developer. Ulteriori informazioni sui progetti in [Documentazione della console Adobe Developer](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.
 
@@ -55,7 +55,7 @@ Una volta stabilita la connessione dell’API, puoi accedere alle credenziali ap
 Ora puoi aggiungere al progetto il tuo profilo di prodotto Campaign, come descritto di seguito:
 
 1. Apri l’API di Adobe Campaign.
-1. Fai clic su **Modifica profili di prodotto** pulsante
+1. Fai clic su **Modificare i profili di prodotto** pulsante
 
    ![](assets/do-not-localize/ims-edit-api.png)
 
@@ -68,7 +68,7 @@ Ultimo passaggio: aggiornare l’operatore tecnico nella console client di Adobe
 
 >[!CAUTION]
 >
->Dopo aver aggiornato il tipo di autenticazione per l’operatore tecnico, tutte le integrazioni API con questo operatore tecnico cesseranno di funzionare
+>Dopo aver aggiornato il tipo di autenticazione per l’operatore tecnico, tutte le integrazioni API con questo operatore tecnico cesseranno di funzionare. Devi [aggiornare le integrazioni API](#ims-migration-step-6).
 
 Per aggiornare la modalità di autenticazione dell’operatore tecnico a IMS, effettua le seguenti operazioni:
 
@@ -89,7 +89,6 @@ Per aggiornare la modalità di autenticazione dell’operatore tecnico a IMS, ef
    ```
 
 1. Salva le modifiche.
-
 
 Puoi anche aggiornare l’operatore tecnico a livello di programmazione, utilizzando script SQL o API di Campaign. Queste modalità consentono di automatizzare i passaggi che aggiornano il nome dell’operatore con l’indirizzo e-mail dell’account tecnico e/o il tipo di autenticazione associati.
 
@@ -148,8 +147,12 @@ Puoi anche aggiornare l’operatore tecnico a livello di programmazione, utilizz
 
 Per provare la connessione, segui i passaggi descritti in [Guida alle credenziali della console Adobe Developer](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#generate-access-tokens){target="_blank"} per generare un token di accesso e copiare il comando cURL di esempio fornito.
 
-Per ulteriori dettagli sui passaggi di integrazione API, consulta [Documentazione sull’autenticazione della console Adobe Developer](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
+### Passaggio 6: aggiornare le integrazioni API di terze parti {#ims-migration-step-6}
+
+Devi aggiornare le integrazioni API con i sistemi di terze parti.
+
+Per ulteriori dettagli sui passaggi di integrazione dell’API, tra cui un codice di esempio per un’integrazione fluida, consulta [Documentazione sull’autenticazione della console Adobe Developer](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
 
 ### Esempi di chiamate Soap{#ims-migration-samples}
@@ -172,7 +175,7 @@ Una volta completato e convalidato il processo di migrazione, le chiamate Soap v
            <urn:sessiontoken>SESSION_TOKEN</urn:sessiontoken>
            <urn:domEvent>
                <!--You may enter ANY elements at this point-->
-               <rtEvent type="melon" email="dchavan@adobe.com"/>
+               <rtEvent type="type" email="name@domain.com"/>
            </urn:domEvent>
        </urn:PushEvent>
    </soapenv:Body>
@@ -181,7 +184,7 @@ Una volta completato e convalidato il processo di migrazione, le chiamate Soap v
 
 * Dopo la migrazione
 
-   ```
+   ```sql
    POST /nl/jsp/soaprouter.jsp HTTP/1.1
    Host: localhost:8080
    Content-Type: application/soap+xml;
@@ -196,7 +199,7 @@ Una volta completato e convalidato il processo di migrazione, le chiamate Soap v
            <urn:sessiontoken></urn:sessiontoken>
            <urn:domEvent>
                <!--You may enter ANY elements at this point-->
-               <rtEvent type="melon" email="dchavan@adobe.com"/>
+               <rtEvent type="type" email="name@domain.com"/>
            </urn:domEvent>
        </urn:PushEvent>
    </soapenv:Body>
