@@ -5,9 +5,9 @@ feature: Personalization
 role: User
 level: Beginner
 exl-id: 5b9fa90c-c23e-47a7-b2ca-de75da4da2ab
-source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
+source-git-commit: 19c42bcd2a96173f3d33e3e259192107b5e64c6c
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '703'
 ht-degree: 7%
 
 ---
@@ -51,20 +51,20 @@ Il tipo di destinazione della bozza è selezionato da **[!UICONTROL Targeting mo
 * Utilizza il **[!UICONTROL Substitution of the address]** opzione per immettere indirizzi e-mail e utilizzare i dati dei destinatari target per convalidare il contenuto. Gli indirizzi di sostituzione possono essere immessi manualmente o selezionati dall&#39;elenco a discesa. L&#39;enumerazione associata è Substitution address (rcpAddress).
 Per impostazione predefinita, la sostituzione viene eseguita in modo casuale, ma è possibile selezionare un destinatario specifico dal target principale tramite  **[!UICONTROL Detail]** icona.
 
-   ![](assets/target-of-proofs-substitution-details.png){width="800" align="left"}
+  ![](assets/target-of-proofs-substitution-details.png){width="800" align="left"}
 
-   Scegli la **[!UICONTROL Select a profile (must be included in the target)]** e selezionare un destinatario.
+  Scegli la **[!UICONTROL Select a profile (must be included in the target)]** e selezionare un destinatario.
 
-   ![](assets/target-of-proofs-substitution.png){width="800" align="left"}
+  ![](assets/target-of-proofs-substitution.png){width="800" align="left"}
 
 
 * Utilizza il **[!UICONTROL Seed addresses]**  opzione per utilizzare gli indirizzi seed come destinazione della bozza. Questi indirizzi possono essere importati da un file o immessi manualmente.
 
-   >[!NOTE]
-   >
-   >Gli indirizzi seed non appartengono alla tabella dei destinatari predefinita (nms:recipient), ma vengono creati in una tabella separata. Se estendi la tabella dei destinatari con nuovi dati, devi estendere anche la tabella degli indirizzi di seed con gli stessi dati.
+  >[!NOTE]
+  >
+  >Gli indirizzi seed non appartengono alla tabella dei destinatari predefinita (nms:recipient), ma vengono creati in una tabella separata. Se estendi la tabella dei destinatari con nuovi dati, devi estendere anche la tabella degli indirizzi di seed con gli stessi dati.
 
-   Ulteriori informazioni sugli indirizzi di seed in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
+  Ulteriori informazioni sugli indirizzi di seed in [questa sezione](../audiences/test-profiles.md).
 
 * Utilizza il **[!UICONTROL Specific target and Seed addresses]** opzione per combinare indirizzi seed e indirizzi e-mail specifici. Le configurazioni correlate vengono quindi definite in due schede secondarie separate.
 

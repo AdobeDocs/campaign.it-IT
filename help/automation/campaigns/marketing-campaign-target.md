@@ -4,9 +4,9 @@ title: Pubblico di destinazione della campagna di marketing
 description: Scopri come definire il pubblico delle campagne di marketing
 feature: Campaigns, Audiences
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
-source-git-commit: a2518ea0c0ab23f50b3132b750a14e98b4ffad7d
+source-git-commit: 19c42bcd2a96173f3d33e3e259192107b5e64c6c
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1464'
 ht-degree: 1%
 
 ---
@@ -17,8 +17,7 @@ In una campagna di marketing, per ogni consegna, puoi definire:
 
 * Il pubblico di destinazione. Puoi inviare messaggi a una [elenco dei destinatari](#send-to-a-group) o genera un [pubblico in un flusso di lavoro](#build-the-main-target-in-a-workflow)
 * Un gruppo di controllo. È possibile [aggiungere un gruppo di controllo](#add-a-control-group) per monitorare il comportamento dei destinatari dopo la consegna del messaggio
-<!--
-* Seed addresses - Learn more in [this section](../../delivery/using/about-seed-addresses.md).-->
+* Indirizzi seed - Ulteriori informazioni in [questa sezione](../../v8/audiences/test-profiles.md).—>
 
 Alcune di queste informazioni possono essere ereditate da [modello di campagna](marketing-campaign-templates.md#campaign-templates).
 
@@ -109,9 +108,9 @@ Le icone della barra degli strumenti consentono di intervenire sull’esecuzione
 
    * Il **[!UICONTROL Start]** consente di avviare il flusso di lavoro di targeting. Quando fai clic su questa icona, vengono attivate tutte le attività senza una transizione di input (tranne i salti al punto finale).
 
-      ![](assets/start.png)
+     ![](assets/start.png)
 
-      Il server prende in considerazione la richiesta, come mostrato dal suo stato: **[!UICONTROL Start as soon as possible]**.
+     Il server prende in considerazione la richiesta, come mostrato dal suo stato: **[!UICONTROL Start as soon as possible]**.
 
    * Puoi riavviare il flusso di lavoro di targeting tramite l’icona appropriata della barra degli strumenti. Questo comando può essere utile se **[!UICONTROL Start]** non è disponibile, ad esempio quando è in corso l’interruzione del flusso di lavoro di targeting. In questo caso, fai clic su **[!UICONTROL Restart]** per anticipare il riavvio. Il server prende in considerazione la richiesta, come mostra il suo stato: **[!UICONTROL Restart requested]**.
 
@@ -119,51 +118,52 @@ Le icone della barra degli strumenti consentono di intervenire sull’esecuzione
 
    * Le icone della barra degli strumenti consentono di interrompere o mettere in pausa un flusso di lavoro di targeting in corso.
 
-      Quando fai clic su **[!UICONTROL Pause]**, operazioni in corso **[!UICONTROL are not]** in pausa, ma non viene avviata alcuna altra attività fino al successivo riavvio.
+     Quando fai clic su **[!UICONTROL Pause]**, operazioni in corso **[!UICONTROL are not]** in pausa, ma non viene avviata alcuna altra attività fino al successivo riavvio.
 
-      ![](assets/pause.png)
+     ![](assets/pause.png)
 
-      Il server prende in considerazione il comando, come mostra il suo stato: **[!UICONTROL Pause requested]**.
+     Il server prende in considerazione il comando, come mostra il suo stato: **[!UICONTROL Pause requested]**.
 
-      Puoi anche mettere in pausa automaticamente un flusso di lavoro di targeting quando l’esecuzione raggiunge una particolare attività. A questo scopo, fai clic con il pulsante destro del mouse sull’attività da cui il flusso di lavoro di targeting deve essere sospeso e seleziona **[!UICONTROL Enable but do not execute]**.
+     Puoi anche mettere in pausa automaticamente un flusso di lavoro di targeting quando l’esecuzione raggiunge una particolare attività. A questo scopo, fai clic con il pulsante destro del mouse sull’attività da cui il flusso di lavoro di targeting deve essere sospeso e seleziona **[!UICONTROL Enable but do not execute]**.
 
-      ![](assets/donotexecute.png)
+     ![](assets/donotexecute.png)
 
-      Questa configurazione è illustrata da un’icona speciale.
+     Questa configurazione è illustrata da un’icona speciale.
 
-      ![](assets/pause_activity.png)
+     ![](assets/pause_activity.png)
 
-      >[!NOTE]
-      >
-      >Questa opzione è utile durante le fasi avanzate di progettazione e test delle campagne di targeting.
+     >[!NOTE]
+     >
+     >Questa opzione è utile durante le fasi avanzate di progettazione e test delle campagne di targeting.
 
-      Clic **[!UICONTROL Start]** per riprendere l&#39;esecuzione.
+     Clic **[!UICONTROL Start]** per riprendere l&#39;esecuzione.
 
    * Fai clic su **[!UICONTROL Stop]** per interrompere l’esecuzione in corso.
 
-      ![](assets/stop.png)
+     ![](assets/stop.png)
 
-      Il server prende in considerazione il comando, come mostra il suo stato: **[!UICONTROL Stop requested]**.
-   Puoi anche interrompere automaticamente un flusso di lavoro di targeting quando l’esecuzione raggiunge un’attività. A questo scopo, fai clic con il pulsante destro del mouse sull’attività da cui verrà interrotto il flusso di lavoro di targeting e seleziona **[!UICONTROL Do not activate]**.
+     Il server prende in considerazione il comando, come mostra il suo stato: **[!UICONTROL Stop requested]**.
 
-   ![](assets/donotactivate.png)
+  Puoi anche interrompere automaticamente un flusso di lavoro di targeting quando l’esecuzione raggiunge un’attività. A questo scopo, fai clic con il pulsante destro del mouse sull’attività da cui verrà interrotto il flusso di lavoro di targeting e seleziona **[!UICONTROL Do not activate]**.
 
-   Questa configurazione è illustrata da un’icona speciale.
+  ![](assets/donotactivate.png)
 
-   ![](assets/unactivation.png)
+  Questa configurazione è illustrata da un’icona speciale.
+
+  ![](assets/unactivation.png)
 
 
-   >[!NOTE]
-   >
-   >Questa opzione è utile durante le fasi avanzate di progettazione e test delle campagne di targeting.
+  >[!NOTE]
+  >
+  >Questa opzione è utile durante le fasi avanzate di progettazione e test delle campagne di targeting.
 
 * Arresto incondizionato
 
-   In Esplora, seleziona **[!UICONTROL Administration > Production > Object created automatically > Campaign workflows]** per accedere e intervenire su ogni flusso di lavoro di campaign.
+  In Esplora, seleziona **[!UICONTROL Administration > Production > Object created automatically > Campaign workflows]** per accedere e intervenire su ogni flusso di lavoro di campaign.
 
-   Puoi interrompere incondizionatamente il flusso di lavoro facendo clic sul pulsante **[!UICONTROL Actions]** icona e selezione **[!UICONTROL Unconditional]** fermati. Questa azione interrompe il flusso di lavoro della campagna.
+  Puoi interrompere incondizionatamente il flusso di lavoro facendo clic sul pulsante **[!UICONTROL Actions]** icona e selezione **[!UICONTROL Unconditional]** fermati. Questa azione interrompe il flusso di lavoro della campagna.
 
-   ![](assets/stop_unconditional.png)
+  ![](assets/stop_unconditional.png)
 
 ## Aggiungere un gruppo di controllo {#add-a-control-group}
 
