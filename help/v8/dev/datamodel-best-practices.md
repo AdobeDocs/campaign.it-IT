@@ -5,9 +5,9 @@ feature: Data Model
 role: User, Developer
 level: Beginner, Intermediate
 exl-id: bdd5e993-0ce9-49a8-a618-ab0ff3796d49
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: df08cdb90271f4d18fd37b8ae528ebd872d0ea63
 workflow-type: tm+mt
-source-wordcount: '2717'
+source-wordcount: '2718'
 ht-degree: 4%
 
 ---
@@ -115,7 +115,6 @@ Durante la creazione di una tabella personalizzata, sono disponibili due opzioni
 > * Il **autouuid** attributo applicabile solo a [Distribuzioni aziendali (FFDA)](../architecture/enterprise-deployment.md).
 >
 
-
 ## Collegamenti e cardinalità {#links-and-cardinality}
 
 ### Collegamenti {#links}
@@ -138,7 +137,7 @@ Per impostazione predefinita, Adobe Campaign crea un collegamento utilizzando la
 
 Quando progetti un collegamento, accertati che il record di destinazione sia univoco quando è stata dichiarata una relazione 1-1. In caso contrario, il join può restituire più record quando ne è previsto solo uno. Ciò genera errori durante la preparazione della consegna quando &quot;la query restituisce più righe del previsto&quot;. Imposta il nome del collegamento sullo stesso nome dello schema di destinazione.
 
-Definisci un collegamento con una cardinalità (1-N) nello schema sul lato (1). Ad esempio, la relazione Destinatario (1) - (N) Transazione deve essere definita nello schema della transazione.
+Definisci un collegamento con una cardinalità (1-N) nello schema sul lato (N). Ad esempio, la relazione Destinatario (1) - (N) Transazione deve essere definita nello schema della transazione.
 
 Per impostazione predefinita, la cardinalità inversa di un collegamento è (N). È possibile definire un collegamento (1-1) aggiungendo l’attributo revCardinality=&#39;single&#39; alla definizione del collegamento.
 
