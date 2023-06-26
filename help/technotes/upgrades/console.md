@@ -5,9 +5,9 @@ description: Console client a 32 bit obsoleta
 hide: true
 hidefromtoc: true
 exl-id: eaa20b88-4ba2-4146-b6bd-1eada34ecc53
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: ac356acdbbc8072ce8263b1c62804a4703781ca9
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '390'
 ht-degree: 1%
 
 ---
@@ -25,6 +25,12 @@ Con la fine del supporto, Adobe non fornisce più supporto tecnico, inclusi aggi
 Per sfruttare le funzioni più recenti e una maggiore sicurezza, l&#39;Adobe consiglia di aggiornare il computer a un sistema operativo a 64 bit.
 
 ## Domande frequenti
+
++++Come posso effettuare l’aggiornamento da Campaign v8 32 bit a Campaign v8 64 bit?
+
+L&#39;aggiornamento è senza soluzione di continuità. È sufficiente installare la nuova versione tramite l&#39;installazione come un normale aggiornamento.
+
++++
 
 +++La versione a 64 bit della console client di Campaign v8 è compatibile con i computer a 32 bit?
 
