@@ -5,7 +5,7 @@ feature: Federated Data Access
 role: Admin
 level: Beginner, Intermediate
 exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Utilizza il connettore FDA (Federated Data Access) per collegare Campaign a uno o più **database esterni** ed elabora le informazioni in essi memorizzate senza influire sui dati del database cloud di Campaign. Puoi quindi accedere ai dati esterni senza modificare la struttura dei dati di Adobe Campaign.
 
-![](../assets/do-not-localize/speech.png)   In qualità di utente di Managed Cloud Services, [Adobe di contatto](../start/campaign-faq.md#support) per collegare i database esterni a Campaign.
+![](../assets/do-not-localize/speech.png) In qualità di utente di Managed Cloud Services, [Adobe di contatto](../start/campaign-faq.md#support) per collegare i database esterni a Campaign.
 
 
 >[!NOTE]
@@ -25,7 +25,6 @@ Utilizza il connettore FDA (Federated Data Access) per collegare Campaign a uno 
 >
 >* Nell&#39;ambito di una [Distribuzione aziendale (FFDA)](../architecture/enterprise-deployment.md), è disponibile un account esterno specifico per gestire la comunicazione tra il database locale di Campaign e il database cloud di Snowflake. Questo account esterno è configurato per te da Adobe e **non deve** essere modificata.
 >
-
 
 
 ## Best practice e limitazioni
@@ -41,11 +40,12 @@ Inoltre, tieni presente le seguenti limitazioni e best practice:
    * Esporta il database di Adobe Campaign nel database esterno ed esegui le operazioni solo dal database esterno prima di reimportare i risultati in Adobe Campaign.
 
    * Raccogli i dati dal database esterno di Adobe Campaign ed esegui le operazioni localmente.
-   Se desideri eseguire la personalizzazione nelle consegne utilizzando i dati del database esterno, raccogli i dati da utilizzare in un flusso di lavoro per renderli disponibili in una tabella temporanea. Quindi utilizza i dati della tabella temporanea per personalizzare la consegna. Per eseguire questa operazione, pre-elabora la personalizzazione dei messaggi in un flusso di lavoro dedicato utilizzando **[!UICONTROL Prepare the personalization data with a workflow]** , disponibile nella **[!UICONTROL Analysis]** delle proprietà di consegna. Durante l’analisi della consegna, questa opzione crea ed esegue automaticamente un flusso di lavoro che memorizza tutti i dati collegati alla destinazione in una tabella temporanea, inclusi i dati di tabelle collegate in un database esterno.
 
-   >[!CAUTION]
-   >
-   >Questa opzione migliora notevolmente le prestazioni durante l’esecuzione del passaggio di personalizzazione.
+  Se desideri eseguire la personalizzazione nelle consegne utilizzando i dati del database esterno, raccogli i dati da utilizzare in un flusso di lavoro per renderli disponibili in una tabella temporanea. Quindi utilizza i dati della tabella temporanea per personalizzare la consegna. Per eseguire questa operazione, pre-elabora la personalizzazione dei messaggi in un flusso di lavoro dedicato utilizzando **[!UICONTROL Prepare the personalization data with a workflow]** , disponibile nella **[!UICONTROL Analysis]** delle proprietà di consegna. Durante l’analisi della consegna, questa opzione crea ed esegue automaticamente un flusso di lavoro che memorizza tutti i dati collegati alla destinazione in una tabella temporanea, inclusi i dati di tabelle collegate in un database esterno.
+
+  >[!CAUTION]
+  >
+  >Questa opzione migliora notevolmente le prestazioni durante l’esecuzione del passaggio di personalizzazione.
 
 
 ## Utilizzare dati esterni in un flusso di lavoro

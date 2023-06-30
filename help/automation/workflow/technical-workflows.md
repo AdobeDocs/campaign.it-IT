@@ -4,9 +4,9 @@ title: Flussi di lavoro tecnici
 description: Ulteriori informazioni sui flussi di lavoro tecnici disponibili con Campaign
 feature: Workflows
 exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: '1667'
 ht-degree: 3%
 
 ---
@@ -84,6 +84,7 @@ Scopri come monitorare i flussi di lavoro tecnici in questo [sezione dedicata](m
 | **Reporting aggregates** (reportingAggregates) | Consegna | Questo flusso di lavoro aggiorna gli aggregati utilizzati nei rapporti. Viene attivato ogni giorno alle 2 per impostazione predefinita. |
 | **Invio di indicatori e attributi della campagna** (webAnalyticsSendMetrics) | Connettori di analisi web | Questo flusso di lavoro consente di inviare gli indicatori della campagna e-mail da Adobe Campaign a Adobe Experience Cloud Suite tramite il connettore Adobe® Analytics. Gli indicatori interessati sono i seguenti: Inviato (iSent), conteggio totale di aperture (iTotalRecipientOpen), numero totale di destinatari che hanno fatto clic (iTotalRecipientClick), errori (iError), rinuncia (opt-out) (iOptOut). |
 | **Magazzino: Ordini e avvisi** (stockMgt) | Installato per impostazione predefinita | Questo flusso di lavoro avvia il calcolo delle scorte nelle linee dell&#39;ordine e gestisce le soglie degli avvisi di avvertenza. |
-| **Tracciamento** (tracciamento | Installato per impostazione predefinita | Questo flusso di lavoro esegue il ripristino e il consolidamento delle informazioni di tracciamento. Assicura inoltre il ricalcolo delle statistiche di tracciamento e consegna, in particolare quelle utilizzate dai flussi di lavoro di archiviazione del Centro messaggi. Per impostazione predefinita viene attivato una volta all’ora. |
+| **Sincronizza le app mobili dalla raccolta dati di Adobe Experience Platform** (syncWithLaunch) | Installato per impostazione predefinita, a partire dalla versione v8.5 | Questo flusso di lavoro sincronizzerà automaticamente le proprietà mobili con Adobe Campaign da Raccolta dati. |
+| **Tracciamento** (tracciamento) | Installato per impostazione predefinita | Questo flusso di lavoro esegue il ripristino e il consolidamento delle informazioni di tracciamento. Assicura inoltre il ricalcolo delle statistiche di tracciamento e consegna, in particolare quelle utilizzate dai flussi di lavoro di archiviazione del Centro messaggi. Per impostazione predefinita viene attivato una volta all’ora. |
 | **Aggiorna stato evento** (updateEventsStatus) | Esecuzione dei messaggi transazionali (Centro messaggi - Esecuzione) | Questo flusso di lavoro ti consente di assegnare uno stato a un evento. Gli stati degli eventi sono i seguenti:<ul><li>In sospeso: l’evento è in coda. Non è ancora stato associato alcun modello di messaggio.</li><li>In attesa di consegna: l’evento è in coda, gli è stato associato un modello di messaggio ed è attualmente in fase di elaborazione da parte della consegna.</li><li>Inviato: questo stato viene copiato dai registri di consegna. Significa che la consegna è stata inviata.</li><li>Ignored by the delivery: questo stato viene copiato dai log di consegna. Significa che la consegna è stata ignorata.</li><li>Errore di consegna: questo stato viene copiato dai registri di consegna. Significa che la consegna non è riuscita.</li><li>Evento non coperto: l’evento non è stato associato a un modello di messaggio. L’evento non verrà rielaborato.</li></ul> |
 | **Aggiornamento per il recapito messaggi** (deliverabilityUpdate) | Installato per impostazione predefinita | Una volta installato il pacchetto di monitoraggio del recapito messaggi (recapito messaggi e-mail), questo flusso di lavoro viene eseguito di notte e gestisce le regole di qualifica delle e-mail non recapitate, nonché l’elenco di domini e MX. Questo richiede che la porta HTTPS sia aperta sulla piattaforma. |

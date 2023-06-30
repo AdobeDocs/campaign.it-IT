@@ -5,10 +5,10 @@ type: Event
 title: Note tecniche di Adobe Campaign
 description: Note tecniche sulla campagna
 breadcrumb-title: Note tecniche sulla campagna
-source-git-commit: 67368286cb04d97cbf4564846eab91d64b8f90f1
+source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 37%
+source-wordcount: '41'
+ht-degree: 31%
 
 ---
 
@@ -17,6 +17,7 @@ ht-degree: 37%
 
 + [Note tecniche sulla campagna](technotes-home.md)
 + Aggiornamenti{#tn-new}
+   + [Migrazione dell’operatore tecnico a Console sviluppatori](upgrades/ims-migration.md)
    + [Aggiorna versione Apache](upgrades/apache.md)
    + [Browser Internet](upgrades/browsers.md)
    + [Aggiornamenti del sistema 2023](upgrades/tech-stack-upgrade.md)

@@ -5,7 +5,7 @@ feature: Client Console
 role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 3%
@@ -100,6 +100,8 @@ In qualità di utente di Managed Cloud Services, Adobe distribuisce la Client Co
 >[!CAUTION]
 >
 >Adobe consiglia di lasciare l’opzione **[!UICONTROL No longer ask this question]** deselezionato per essere sicuri di ricevere un avviso quando è disponibile una nuova versione della console. Se questa opzione è selezionata, l’utente non viene informato che è necessario un aggiornamento della console.
+>
+
 
 
 ## Concedere l’accesso agli utenti{#grant-access}

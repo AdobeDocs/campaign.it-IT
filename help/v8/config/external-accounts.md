@@ -5,9 +5,9 @@ feature: Application Settings
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: c46eaa73deed643a4e92928b6ce2b1beb1596d73
+source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1085'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,6 @@ Puoi accedere ad account esterni da Adobe Campaign **[!UICONTROL Explorer]**: pa
 >* Nell&#39;ambito di una [Distribuzione aziendale (FFDA)](../architecture/enterprise-deployment.md), uno specifico **[!UICONTROL Full FDA]** (ffda) un account esterno gestisce la connessione tra il database locale di Campaign e il database cloud ([!DNL Snowflake]).
 >
 
-
 ## Account esterni specifici per la campagna
 
 I seguenti account tecnici vengono utilizzati da Adobe Campaign per abilitare ed eseguire processi specifici.
@@ -41,6 +40,7 @@ I seguenti account tecnici vengono utilizzati da Adobe Campaign per abilitare ed
 >[!NOTE]
 >
 >A partire da Campaign v8.3, è disponibile l’autenticazione OAuth 2.0 di Microsoft Exchange Online per la funzionalità POP3. Per verificare la versione, consulta [questa sezione](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion).
+>
 
 Il **Messaggi non recapitati** account esterno specifica l&#39;account POP3 esterno da utilizzare per la connessione al servizio e-mail. Tutti i server configurati per l&#39;accesso POP3 possono essere utilizzati per ricevere la posta di ritorno.
 
@@ -60,7 +60,7 @@ Per configurare **[!UICONTROL Bounce mails (defaultPopAccount)]** account estern
 
 * **[!UICONTROL Encryption]** - Tipo di crittografia scelta tra **[!UICONTROL By default]**, **[!UICONTROL POP3 + STARTTLS]**, **[!UICONTROL POP3]** o **[!UICONTROL POP3S]**.
 
-   Il **Messaggi non recapitati** account esterno specifica l&#39;account POP3 esterno da utilizzare per la connessione al servizio e-mail. Tutti i server configurati per l&#39;accesso POP3 possono essere utilizzati per ricevere la posta di ritorno.
+  Il **Messaggi non recapitati** account esterno specifica l&#39;account POP3 esterno da utilizzare per la connessione al servizio e-mail. Tutti i server configurati per l&#39;accesso POP3 possono essere utilizzati per ricevere la posta di ritorno.
 
 * **[!UICONTROL Function]** - E-mail in entrata o router SOAP
 
@@ -69,6 +69,7 @@ Per configurare **[!UICONTROL Bounce mails (defaultPopAccount)]** account estern
 >[!CAUTION]
 >
 >Prima di configurare l’account esterno POP3 utilizzando Microsoft OAuth 2.0, è necessario registrare l’applicazione nel portale di Azure. Per ulteriori informazioni, consulta questa [pagina](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app){target="_blank"}.
+>
 
 Per configurare un POP3 esterno tramite Microsoft OAuth 2.0, seleziona la **[!UICONTROL Microsoft OAuth 2.0]** e compilare i campi seguenti:
 
@@ -80,15 +81,11 @@ Per configurare un POP3 esterno tramite Microsoft OAuth 2.0, seleziona la **[!UI
 
 * **[!UICONTROL Azure Redirect URL]** - L’URL di reindirizzamento si trova nella sezione **Autenticazione** dell’applicazione nel portale di Azure. Deve terminare con la seguente sintassi `nl/jsp/oauth.jsp`, ad es. `https://redirect.adobe.net/nl/jsp/oauth.jsp`.
 
-   Dopo aver immesso le diverse credenziali, puoi fare clic su **[!UICONTROL Setup the connection]** per completare la configurazione dell’account esterno.
+  Dopo aver immesso le diverse credenziali, puoi fare clic su **[!UICONTROL Setup the connection]** per completare la configurazione dell’account esterno.
 
 ### Indirizzamento {#routing}
 
 Il **[!UICONTROL Routing]** l’account esterno ti consente di configurare ogni canale disponibile in Adobe Campaign in base ai pacchetti installati.
-
->[!CAUTION]
->
->Il **[!UICONTROL Internal email delivery routing]** (defaultEmailBulk) account esterno **non deve** essere abilitato in Adobe Campaign v8.
 
 ### Istanza di esecuzione {#execution-instance}
 
@@ -98,7 +95,7 @@ Nel contesto della messaggistica transazionale, le istanze di esecuzione sono co
 
 * **Database esterno (FDA)** - Il **Database esterno** tipo di account esterno utilizzato per connettersi a un database esterno tramite Federated Data Access (FDA). Ulteriori informazioni sull’opzione Federated Data Access (FDA) in [questa sezione](../connect/fda.md).
 
-   I database esterni compatibili con Adobe Campaign v8 sono elencati nella [Matrice di compatibilità](../start/compatibility-matrix.md)
+  I database esterni compatibili con Adobe Campaign v8 sono elencati nella [Matrice di compatibilità](../start/compatibility-matrix.md)
 
 * **Twitter** - Il **Twitter** digita account esterno per collegare Campaign al tuo account twitter e pubblicare messaggi per tuo conto. Ulteriori informazioni sull’integrazione di Twitter in [questa sezione](../connect/ac-tw.md).
 
@@ -123,7 +120,11 @@ Questi account esterni possono essere utilizzati per importare o esportare dati 
 
 * **FTP e SFTP** - Il **FTP** l’account esterno consente di configurare e testare l’accesso a un server esterno a Adobe Campaign. Per configurare le connessioni con sistemi esterni, come i server SFTP o FTP 898 utilizzati per i trasferimenti di file, puoi creare account esterni.
 
-   Per farlo, specifica in questo account esterno l’indirizzo e le credenziali utilizzati per stabilire la connessione al server SFTP o FTP.
+  Per farlo, specifica in questo account esterno l’indirizzo e le credenziali utilizzati per stabilire la connessione al server SFTP o FTP.
+
+  >[!NOTE]
+  >
+  >A partire dalla versione 8.5, ora puoi eseguire l’autenticazione in modo sicuro utilizzando una chiave privata durante la configurazione dell’account esterno SFTP. [Ulteriori informazioni sulla gestione delle chiavi](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html)
 
 * **Servizio Amazon Simple Storage (S3)** - Il **AWS S3** il connettore può essere utilizzato per importare o esportare dati in Adobe Campaign utilizzando un **[!UICONTROL Transfer file]** attività del flusso di lavoro. Quando imposti questo nuovo account esterno, dovrai fornire i seguenti dettagli:
 
