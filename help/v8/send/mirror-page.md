@@ -5,16 +5,16 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 7bf3937c-484d-4404-8a9b-de7a10f5455a
-source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
+source-git-commit: b333db04dd10cc28956959a446f6567e2a89b2d4
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 58%
+source-wordcount: '434'
+ht-degree: 57%
 
 ---
 
-# Collegamento a una pagina mirror{#mirror-page}
+# Collegamento a una pagina mirror {#mirror-page}
 
-## Informazioni sulla pagina mirror{#about-mirror-page}
+## Informazioni sulla pagina mirror {#about-mirror-page}
 
 La pagina mirror è una versione online della tua e-mail.
 
@@ -24,7 +24,7 @@ La pagina mirror generata da Adobe Campaign contiene tutti i dati di personalizz
 
 ![esempio di collegamento mirror](assets/mirror-page-link.png){width="600" align="left"}
 
-## Aggiungere un collegamento alla pagina mirror{#link-to-mirror-page}
+## Aggiungere un collegamento alla pagina mirror {#link-to-mirror-page}
 
 È buona prassi inserire un collegamento alla pagina mirror. Questo link può essere ad esempio “Visualizza questa e-mail nel tuo browser” o “Leggi online”. Spesso si trova nell’intestazione o nel piè di pagina dell’e-mail.
 
@@ -33,9 +33,9 @@ In Adobe Campaign, puoi inserire un collegamento alla pagina mirror nel contenut
 ![](assets/mirror-page-insert.png){width="800" align="left"}
 
 
-Per ulteriori informazioni sull’inserimento di blocchi di contenuto personalizzati, consulta [Blocchi di personalizzazione](personalization-blocks.md).
+Per ulteriori informazioni sull’inserimento di blocchi di contenuto di personalizzazione, consulta [Blocchi di personalizzazione](personalization-blocks.md).
 
-## Generazione di pagine mirror{#mirror-page-generation}
+## Gestire la generazione della pagina speculare {#mirror-page-generation}
 
 Per impostazione predefinita, la pagina mirror viene generata automaticamente da Adobe Campaign se il contenuto dell’e-mail non è vuoto e se contiene un collegamento alla pagina mirror (detto anche collegamento mirror).
 
@@ -52,7 +52,7 @@ Oltre alla modalità predefinita, sono disponibili le seguenti opzioni:
 * **[!UICONTROL Do not generate the mirror page]**: utilizza questa modalità per evitare di generare una pagina speculare, anche se il collegamento è presente nella consegna.
 * **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: quando il collegamento alla pagina speculare non è presente nel contenuto dell’e-mail, utilizza questa opzione per abilitare l’accesso al contenuto della pagina speculare, nella finestra del registro di consegna, come descritto di seguito.
 
-## Controlla la pagina mirror di un destinatario{#mirror-page-access}
+## Controlla la pagina mirror di un destinatario {#mirror-page-access}
 
 Puoi accedere al contenuto della pagina speculare per un destinatario specifico di una consegna, con i dati di personalizzazione.
 
