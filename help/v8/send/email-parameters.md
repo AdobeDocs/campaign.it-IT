@@ -24,7 +24,7 @@ Questa sezione presenta le opzioni e i parametri disponibili nelle proprietà di
 
 Puoi configurare Adobe Campaign per conservare una copia delle e-mail inviate dalla tua piattaforma.
 
-Adobe Campaign stessa non gestisce i file archiviati. Consente di inviare i messaggi desiderati a un indirizzo e-mail Ccn (copia nascosta) dedicato, da cui possono essere elaborati e archiviati utilizzando un sistema esterno. I file .eml corrispondenti alle e-mail inviate possono quindi essere trasferiti su un server remoto, ad esempio un server di posta elettronica SMTP.
+Adobe Campaign stessa non gestisce i file archiviati. Consente di inviare i messaggi desiderati a un indirizzo e-mail Ccn (copia nascosta) dedicato, da cui possono essere elaborati e archiviati utilizzando un sistema esterno. I file .eml corrispondenti alle e-mail inviate possono quindi essere trasferiti su un server remoto, ad esempio un server e-mail SMTP.
 
 >[!CAUTION]
 >
