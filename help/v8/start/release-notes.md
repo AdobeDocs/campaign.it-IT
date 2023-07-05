@@ -5,7 +5,7 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 441310dc1cdcb96296c0cbe5bf3fb7cd1502709f
+source-git-commit: d5bd383dca524e15a098fc63661236b50144cb3d
 workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 57%
@@ -20,7 +20,7 @@ Adobe Campaign viene aggiornato regolarmente. La frequenza regolare degli aggior
 
 Inoltre, in qualità di cliente, assicurati di utilizzare le versioni supportate più recenti dei sistemi elencati in [Matrice di compatibilità](compatibility-matrix.md).
 
-## Versione 8.5 {#release-8-5}
+## Versione 8.5.1 {#release-8-5}
 
 _30 giugno 2023_
 
@@ -34,7 +34,7 @@ _30 giugno 2023_
 </thead> 
 <tbody> 
 <tr> 
-<td><p>Campaign v8.5 introduce il servizio di notifica push più recente, basato su un solido framework basato su una tecnologia all’avanguardia. Questo servizio è progettato per sbloccare nuovi livelli di scalabilità, garantendo che le notifiche possano raggiungere un pubblico più ampio con una perfetta efficienza. Con la nostra infrastruttura migliorata e i nostri processi ottimizzati, puoi aspettarti maggiore scalabilità e affidabilità, consentendoti di interagire e connettersi con gli utenti delle app mobili come mai prima d’ora. Questa funzionalità è disponibile solo per un gruppo selezionato di clienti (disponibilità limitata).</p>
+<td><p>Campaign v8.5.1 introduce il servizio di notifica push più recente, basato su un solido framework basato su una tecnologia all’avanguardia. Questo servizio è progettato per sbloccare nuovi livelli di scalabilità, garantendo che le notifiche possano raggiungere un pubblico più ampio con una perfetta efficienza. Con la nostra infrastruttura migliorata e i nostri processi ottimizzati, puoi aspettarti maggiore scalabilità e affidabilità, consentendoti di interagire e connettersi con gli utenti delle app mobili come mai prima d’ora. Questa funzionalità è disponibile solo per un gruppo selezionato di clienti (disponibilità limitata).</p>
 <p>Per ulteriori informazioni, consulta la <a href="../send/push-data-collection.md">documentazione dettagliata</a>.</p>
 
 </td> 
@@ -56,7 +56,7 @@ _30 giugno 2023_
 
 **Miglioramenti di sicurezza**
 
-* A partire dalla versione 8.5 di Campaign, il processo di autenticazione a Campaign v8 è stato migliorato. Per connettersi a Campaign, gli operatori tecnici devono utilizzare Adobe Identity Management System (IMS). Scopri come eseguire la migrazione degli account tecnici esistenti in [questa nota tecnica](../../technotes/upgrades/ims-migration.md).
+* A partire dalla versione 8.5.1 di Campaign, il processo di autenticazione per Campaign v8 è stato migliorato. Per connettersi a Campaign, gli operatori tecnici devono utilizzare Adobe Identity Management System (IMS). Scopri come eseguire la migrazione degli account tecnici esistenti in [questa nota tecnica](../../technotes/upgrades/ims-migration.md).
 * Non è più possibile creare operatori dalla console client di Campaign. L’interfaccia utente è stata aggiornata di conseguenza. Ora devi utilizzare Adobe Admin Console. [Ulteriori informazioni](../start/gs-permissions.md).
 * Diversi strumenti di terze parti sono stati aggiornati per ottimizzare la sicurezza.
 
