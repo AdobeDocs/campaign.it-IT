@@ -5,7 +5,7 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: d5bd383dca524e15a098fc63661236b50144cb3d
+source-git-commit: dc2ccd7092fd31f043b338868762440ae0394991
 workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 57%
@@ -42,12 +42,10 @@ _30 giugno 2023_
 </tbody> 
 </table>
 
-**Aggiornamenti della compatibilità**
-
-* La versione a 32 bit della console client è ora obsoleta. A partire dalla versione 8.6, la Console client sarà disponibile solo a 64 bit. L’aggiornamento alla versione a 64 bit della console client è semplice. Per ulteriori informazioni su come aggiornare il sistema operativo, consulta questa [nota tecnica](../../technotes/upgrades/console.md).
-* Ora puoi collegare la tua istanza di Campaign v8 al database esterno della tua Azure synapse. Questa connessione viene gestita tramite un nuovo account esterno. Ulteriori informazioni in [Matrice di compatibilità di Campaign](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda).
-
 **Miglioramenti**
+
+
+
 
 * La velocità effettiva degli SMS è stata notevolmente migliorata implementando una serie di ottimizzazioni, con conseguente miglioramento della velocità e dell’efficienza delle comunicazioni SMS.
 * Ora puoi sfruttare la connessione di destinazione Adobe Experience Platform per sincronizzare gli attributi del profilo, ad esempio i dati di rinuncia, tra Adobe Experience Platform e il database di Campaign v8.
@@ -59,6 +57,13 @@ _30 giugno 2023_
 * A partire dalla versione 8.5.1 di Campaign, il processo di autenticazione per Campaign v8 è stato migliorato. Per connettersi a Campaign, gli operatori tecnici devono utilizzare Adobe Identity Management System (IMS). Scopri come eseguire la migrazione degli account tecnici esistenti in [questa nota tecnica](../../technotes/upgrades/ims-migration.md).
 * Non è più possibile creare operatori dalla console client di Campaign. L’interfaccia utente è stata aggiornata di conseguenza. Ora devi utilizzare Adobe Admin Console. [Ulteriori informazioni](../start/gs-permissions.md).
 * Diversi strumenti di terze parti sono stati aggiornati per ottimizzare la sicurezza.
+
+**Aggiornamenti della compatibilità**
+
+* La versione a 32 bit della console client è ora obsoleta. A partire dalla versione 8.6, la Console client sarà disponibile solo a 64 bit. L’aggiornamento alla versione a 64 bit della console client è semplice. Per ulteriori informazioni su come aggiornare il sistema operativo, consulta questa [nota tecnica](../../technotes/upgrades/console.md).
+* Ora puoi collegare la tua istanza di Campaign v8 al database esterno della tua Azure synapse. Questa connessione viene gestita tramite un nuovo account esterno. Ulteriori informazioni in [Matrice di compatibilità di Campaign](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda).
+
+
 
 **Patch**
 
