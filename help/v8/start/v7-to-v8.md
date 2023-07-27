@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
+source-git-commit: 5d307e0fcafdc4d25402c62c6869ecc07c1a47e4
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 100%
+source-wordcount: '682'
+ht-degree: 95%
 
 ---
 
@@ -21,7 +21,6 @@ Per chi già utilizza [!DNL Campaign Classic] v7, non vi sono differenze signif
 >* Per il momento, Campaign v8 è disponibile **solo** come Managed Cloud Service e non può essere implementato in ambienti on-premise o ibridi. [Ulteriori informazioni](#cloud-services)
 >
 >* La migrazione automatizzata da un ambiente esistente di Campaign Classic v7 non è ancora disponibile.
-
 
 
 ## Managed Cloud Services{#cloud-services}
@@ -44,6 +43,7 @@ In qualità di utente di [!DNL Campaign Classic], tieni presente che la maggior 
 >
 > Di conseguenza, il routing interno è **impossibile** in Campaign v8 e l’account esterno è stato disabilitato di conseguenza.
 
+La nuova architettura cloud consente a Campaign di semplificare i processi, ridurre i costi, gestire i rischi e migliorare la sicurezza dei dati. Il tuo ambiente Campaign v8 è dotato di un Virtual Private Cloud (VPC) dedicato preconfigurato per te.
 
 ## [!DNL Campaign] e [!DNL Snowflake] {#ac-gs-snowflake}
 
