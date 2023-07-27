@@ -4,9 +4,9 @@ title: Configurare le regole di pressione
 description: Scopri come configurare le regole di pressione
 feature: Fatigue Management, Typology Rules
 exl-id: d234db0e-936a-48db-b697-11c6b40bc3ab
-source-git-commit: 6a1e2e0a872ce5886e7374d266c71975941e87b8
+source-git-commit: 5810f9b53bd3ad5383d4b9767bc65a3d595862c7
 workflow-type: tm+mt
-source-wordcount: '3027'
+source-wordcount: '3037'
 ht-degree: 8%
 
 ---
@@ -57,7 +57,7 @@ Per creare e configurare una regola di tipologia **[!UICONTROL Pressure]**, atti
 
    >[!NOTE]
    >
-   >Le consegne pianificate non vengono prese in considerazione.
+   >Nell&#39;ambito di una [Distribuzione aziendale (FFDA)](../../v8/architecture/enterprise-deployment.md) In Campaign, le consegne programmate non vengono prese in considerazione.
 
 1. Definisci il metodo di calcolo del numero massimo di messaggi.
 
@@ -82,7 +82,8 @@ Per creare e configurare una regola di tipologia **[!UICONTROL Pressure]**, atti
    * La sezione superiore di questa scheda ti consente di limitare i destinatari interessati.
    * La sezione inferiore di questa scheda ti consente di filtrare i messaggi da conteggiare.
 
-      Nell’esempio seguente, solo i destinatari salvati nel **Nuovi contatti** vengono prese in considerazione e le consegne che iniziano con **Newsletter** sono preoccupati.
+     Nell’esempio seguente, solo i destinatari salvati nel **Nuovi contatti** vengono prese in considerazione e le consegne che iniziano con **Newsletter** sono preoccupati.
+
    ![](assets/campaign_opt_create_a_rule_05.png)
 
 1. Il **[!UICONTROL Typologies]** Questa scheda ti consente di visualizzare le tipologie di campagne che applicano questa regola o di collegare la regola a una o più tipologie esistenti. [Ulteriori informazioni](campaign-typologies.md#apply-typologies).
@@ -264,15 +265,15 @@ Durante l’analisi della consegna, i destinatari della consegna sono esclusi da
 
 * Visualizzare il risultato dell&#39;analisi:
 
-   ![](assets/campaign_opt_pressure_sample_1_8.png)
+  ![](assets/campaign_opt_pressure_sample_1_8.png)
 
 * Modifica la consegna e fai clic su **[!UICONTROL Delivery]** e il **[!UICONTROL Exclusions]** scheda secondaria:
 
-   ![](assets/campaign_opt_pressure_sample_1_9.png)
+  ![](assets/campaign_opt_pressure_sample_1_9.png)
 
 * Fai clic su **[!UICONTROL Audit]** , quindi la scheda **[!UICONTROL Causes of exclusions]** scheda secondaria per visualizzare il numero di esclusioni e le regole di tipologia applicate:
 
-   ![](assets/campaign_opt_pressure_sample_1_10.png)
+  ![](assets/campaign_opt_pressure_sample_1_10.png)
 
 ### Calcolare il peso della consegna in base al comportamento {#calculate-the-delivery-weight-based-on-behavior}
 

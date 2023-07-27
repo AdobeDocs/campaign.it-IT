@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner, Intermediate, Experienced
 exl-id: 50c254ba-cc33-49b2-b7d5-12aa69883c07
-source-git-commit: 58fff46ba12f5c6221bbcd88a40fa0806a6c98b9
+source-git-commit: 5810f9b53bd3ad5383d4b9767bc65a3d595862c7
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 100%
+source-wordcount: '254'
+ht-degree: 84%
 
 ---
 
@@ -26,6 +26,7 @@ I guardrail e le limitazioni identificano le funzionalità, l’architettura o i
 * Le funzionalità elencate in [questa sezione](v7-to-v8.md#gs-unavailable-features) non sono disponibili nella build corrente di Campaign v8.
 * Alcune funzioni non disponibili o rimosse risultano ancora visibili nell’interfaccia utente.
 * Nel contesto di un’[implementazione Enterprise (FFDA)](../architecture/enterprise-deployment.md) i meccanismi di abbonamento (opt-in), annullamento dell’abbonamento (opt-out) e registrazione mobile sono processi asincroni. Le richieste vengono elaborate ogni ora, mediante un flusso di lavoro tecnico specifico. [Ulteriori informazioni](../architecture/replication.md#tech-wf)
-* I duplicati devono essere gestiti manualmente dagli utenti finali. [Ulteriori informazioni](../architecture/keys.md)
+* 
+   * Nell&#39;ambito di una [Distribuzione aziendale (FFDA)](../architecture/enterprise-deployment.md), i duplicati devono essere gestiti manualmente dagli utenti finali. [Ulteriori informazioni](../architecture/keys.md)
 * Adobe Campaign v8 non supporta la velocità di elaborazione estesa nelle applicazioni API e web; in caso di esigenze specifiche, contatta Adobe per ottenere assistenza
-* Il modulo di ottimizzazione delle campagne di Adobe Campaign non tiene conto delle consegne pianificate nelle regole di tipologia di pressione. Per ulteriori informazioni, consulta [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=it)
+* Nell&#39;ambito di una [Distribuzione aziendale (FFDA)](../architecture/enterprise-deployment.md), il modulo di ottimizzazione delle campagne di Adobe Campaign non tiene conto delle consegne pianificate nelle regole di tipologia di pressione. Per ulteriori informazioni, consulta [questa pagina](../../automation/campaign-opt/pressure-rules.md)
