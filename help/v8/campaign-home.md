@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;argomenti principali
 description: Centro risorse di Campaign v8
 title: Documentazione di prodotto di Adobe Campaign v8
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: dc2ccd7092fd31f043b338868762440ae0394991
+source-git-commit: c42dfe96f1f18f1d9eab0a8761c1ea65479962b2
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 80%
+source-wordcount: '153'
+ht-degree: 81%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 80%
 
 * **[Dalla versione 7 alla versione v8](start/v7-to-v8.md)**: transizione da Campaign Classic v7 a v8? Scopri le differenze principali
 
-* **[Pannello di controllo Campaign per Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=it){target="_blank"}** - Eseguire autonomamente le principali attività di amministratore con Campaign Pannelli di controllo Campaign
+* **[Pannello di controllo Campaign per Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=it){target="_blank"}** - Eseguire autonomamente le principali attività di amministratore con Campaign Pannello di controllo Campaign
 
 * **[Note sulla versione](start/release-notes.md)** - Scopri le funzioni e i miglioramenti più recenti
 
@@ -66,15 +66,6 @@ ht-degree: 80%
 </a>
 <div>
 <a href="send/push.md"><strong>Inviare notifiche push</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="../automation/workflow/about-workflows.md">
-<img alt="Creare campagne" src="start/assets/do-not-localize/workflow.jpeg">
-</a>
-<div>
-<a href="../automation/workflow/about-workflows.md"><strong>Creare flussi di lavoro</strong></a>
 </div>
 <p>
 </td>

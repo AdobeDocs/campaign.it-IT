@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 70171ecfb39116f4db4c05ab03b55502e3faed43
+source-git-commit: 32d0264c03eb4ec6ab1959d0a66be78c06a0dccb
 workflow-type: tm+mt
-source-wordcount: '1337'
-ht-degree: 56%
+source-wordcount: '1453'
+ht-degree: 51%
 
 ---
 
@@ -24,32 +24,57 @@ Inoltre, in qualità di cliente, assicurati di utilizzare le versioni supportate
 
 _30 giugno 2023_
 
-**Novità**
 
-<table> 
-<thead>
-<tr> 
-<th> <strong>Servizio di notifica push avanzato</strong><br /> </th> 
-</tr> 
-</thead> 
-<tbody> 
-<tr> 
-<td><p>Campaign v8.5.1 introduce il servizio di notifica push più recente, basato su un solido framework basato su una tecnologia all’avanguardia. Questo servizio è progettato per sbloccare nuovi livelli di scalabilità, garantendo che le notifiche possano raggiungere un pubblico più ampio con una perfetta efficienza. Con la nostra infrastruttura migliorata e i nostri processi ottimizzati, puoi aspettarti maggiore scalabilità e affidabilità, consentendoti di interagire e connettersi con gli utenti delle app mobili come mai prima d’ora. Questa funzionalità è disponibile solo per un gruppo selezionato di clienti (disponibilità limitata).</p>
-<p>Per ulteriori informazioni, consulta la <a href="../send/push-data-collection.md">documentazione dettagliata</a>.</p>
+**Servizio di notifica push avanzato**
 
-</td> 
-</tr> 
-</tbody> 
-</table>
+Campaign v8.5.1 introduce il servizio di notifica push più recente, basato su un solido framework basato su una tecnologia all’avanguardia. Questo servizio è progettato per sbloccare nuovi livelli di scalabilità, garantendo che le notifiche possano raggiungere un pubblico più ampio con una perfetta efficienza. Con la nostra infrastruttura migliorata e i nostri processi ottimizzati, puoi aspettarti maggiore scalabilità e affidabilità, consentendoti di interagire e connettersi con gli utenti delle app mobili come mai prima d’ora. Questa funzionalità è disponibile solo per un gruppo selezionato di clienti (disponibilità limitata).
 
-**Miglioramenti**
+Per ulteriori informazioni, consulta la [documentazione dettagliata](../send/push-data-collection.md).
 
 
+**Throughput aumentato del canale mobile**
+
+<!--
+The newly introduced Push notification service showcases significant improvements in throughput for both Push Android and Push iOS compared to our previous version (v8.4). Users will experience notably enhanced performance with the upgraded service in the latest version (v8.5).
+
+* Push Notifications (Android): up to **5x** faster
+* Push Notifications (iOS): up to **2.2x** faster
+
+SMS throughput has undergone substantial enhancements through a series of optimizations, resulting in notable improvements in speed and efficiency for SMS communication. These upgrades have led to increased throughput from the previous version (v8.4) to the latest version (v8.5), encompassing both sending and feedback updates. Users can now experience the benefits of this enhanced SMS service.</p>
+
+* SMS throughput: up to **5x** faster
+
+These max throughput performances have been measured by Adobe testing teams, in lab conditions.
+-->
+
+<table style="table-layout:fixed" text-align="bottom"><tr style="border: 0;">
+<td>
+<img alt="Miglioramenti della velocità effettiva" src="../start/assets/do-not-localize/improvements.jpeg">
+<p>
+</td>
+<td>
+<div>
+
+<p>Il nuovo servizio di notifica push mostra miglioramenti significativi nella velocità effettiva sia per Android push che per iOS push rispetto alla versione precedente (v8.4). Gli utenti potranno beneficiare di prestazioni notevolmente migliorate grazie al servizio aggiornato nella versione più recente (v8.5). </p>
+<ul>
+<li>Notifiche push (Android): fino a <strong>5x</strong> più veloce </li>
+<li>Notifiche push (iOS): fino a <strong>2,2x</strong> più veloce</li>
+</ul>
+<p>La velocità effettiva degli SMS è stata notevolmente migliorata grazie a una serie di ottimizzazioni, con conseguenti notevoli miglioramenti in termini di velocità ed efficienza per le comunicazioni SMS. Questi aggiornamenti hanno aumentato la velocità effettiva dalla versione precedente (v8.4) alla versione più recente (v8.5), includendo sia gli aggiornamenti di invio che quelli di feedback. Gli utenti possono ora usufruire dei vantaggi di questo servizio SMS avanzato.</p>
+<ul>
+<li>Velocità effettiva SMS: fino a <strong>5x</strong> più veloce</li>
+</ul>
+<p><em>Queste prestazioni di throughput massime sono state misurate da team di test Adobi, in condizioni di laboratorio.</em></p>
+</div>
+<p></p>
+</td>
+</tr></table>
 
 
-* La velocità effettiva degli SMS è stata notevolmente migliorata implementando una serie di ottimizzazioni, con conseguente miglioramento della velocità e dell’efficienza delle comunicazioni SMS.
+**Miglioramenti generali**
+
 * Ora puoi sfruttare la connessione di destinazione Adobe Experience Platform per sincronizzare gli attributi del profilo, ad esempio i dati di rinuncia, tra Adobe Experience Platform e il database di Campaign v8.
-* La preparazione della consegna è stata ottimizzata.
+* La preparazione della consegna è stata ottimizzata su tutti i canali.
 * È stata aggiunta una nuova opzione di autenticazione basata su chiave per l’account esterno SFTP, insieme al metodo di autenticazione utente/password esistente. Ora gli utenti possono eseguire l’autenticazione in modo sicuro utilizzando una chiave privata, migliorando la sicurezza e fornendo un meccanismo di autenticazione alternativo per l’accesso SFTP. Per ulteriori informazioni, consulta [questa sezione](../config/external-accounts.md).
 
 **Miglioramenti di sicurezza**
@@ -62,7 +87,6 @@ _30 giugno 2023_
 
 * La versione a 32 bit della console client è ora obsoleta. A partire dalla versione 8.6, la Console client sarà disponibile solo a 64 bit. L’aggiornamento alla versione a 64 bit della console client è semplice. Per ulteriori informazioni su come aggiornare il sistema operativo, consulta questa [nota tecnica](../../technotes/upgrades/console.md).
 * Ora puoi collegare la tua istanza di Campaign v8 al database esterno della tua Azure synapse. Questa connessione viene gestita tramite un nuovo account esterno. Ulteriori informazioni in [Matrice di compatibilità di Campaign](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda).
-
 
 
 **Patch**
