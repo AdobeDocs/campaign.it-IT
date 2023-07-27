@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 5d307e0fcafdc4d25402c62c6869ecc07c1a47e4
+source-git-commit: 1297d5a602d125cb80ca6efb490b12174bcea8d6
 workflow-type: tm+mt
 source-wordcount: '682'
-ht-degree: 95%
+ht-degree: 93%
 
 ---
 
@@ -37,13 +37,11 @@ La nuova offerta combina servizi all’avanguardia con un monitoraggio proattivo
 
 In qualità di utente di [!DNL Campaign Classic], tieni presente che la maggior parte delle funzioni di [!DNL Campaign Classic] v7 sono disponibili anche in [!DNL Campaign] v8, ad eccezione di alcune che sono elencate in [questa sezione](#gs-removed).
 
+Campaign v8 si basa su un **architettura ibrida**. Se stai eseguendo la transizione da Campaign Classic v7, tieni presente che tutte le consegne passano attraverso il server di mid-sourcing . [Ulteriori informazioni](../architecture/architecture.md). Di conseguenza, il routing interno è **impossibile** in Campaign v8 e l’account esterno è stato disabilitato di conseguenza.
+
 >[!NOTE]
 >
-> Campaign v8 si basa su un’architettura ibrida. Se stai eseguendo la transizione da Campaign Classic v7, tieni presente che tutte le consegne passano attraverso il server di mid-sourcing . [Ulteriori informazioni](../architecture/architecture.md)
->
-> Di conseguenza, il routing interno è **impossibile** in Campaign v8 e l’account esterno è stato disabilitato di conseguenza.
-
-La nuova architettura cloud consente a Campaign di semplificare i processi, ridurre i costi, gestire i rischi e migliorare la sicurezza dei dati. Il tuo ambiente Campaign v8 è dotato di un Virtual Private Cloud (VPC) dedicato preconfigurato per te.
+>La nuova architettura cloud consente a Campaign di semplificare i processi, ridurre i costi, gestire i rischi e migliorare la sicurezza dei dati. Il tuo ambiente Campaign v8 è dotato di un Virtual Private Cloud (VPC) dedicato preconfigurato per te.
 
 ## [!DNL Campaign] e [!DNL Snowflake] {#ac-gs-snowflake}
 
