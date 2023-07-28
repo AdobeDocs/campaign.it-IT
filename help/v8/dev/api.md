@@ -5,10 +5,10 @@ feature: API
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 9c7a4f7d4e84fde4b74bf6f8e0432681aa7e42d3
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 15%
+source-wordcount: '276'
+ht-degree: 13%
 
 ---
 
@@ -28,7 +28,10 @@ Tieni presente che nei suoi [Distribuzione aziendale (FFDA)](../architecture/ent
 
 >[!CAUTION]
 >
->[!DNL Adobe Campaign] v8 viene fornito con un limite al throughput (TPS) del livello API. Se si supera il limite, viene generato un errore HTTP standard (429). In qualità di utente di Managed Cloud Services, puoi contattare Adobe per adattare la limitazione per ogni API.
+>* A partire dalla versione 8.5.1 di Campaign, il processo di autenticazione è stato modificato in Campaign v8. Per connettersi a Campaign, gli operatori tecnici devono utilizzare Adobe Identity Management System (IMS). Scopri come eseguire la migrazione degli account tecnici esistenti in [questa nota tecnica](../../technotes/upgrades/ims-migration.md).
+>
+>* [!DNL Adobe Campaign] v8 viene fornito con un limite al throughput (TPS) del livello API. Se si supera il limite, viene generato un errore HTTP standard (429). In qualità di utente di Managed Cloud Services, puoi contattare Adobe per adattare la limitazione per ogni API.
+> 
 
 ## Prerequisiti
 
