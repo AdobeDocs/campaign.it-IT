@@ -161,15 +161,15 @@ Quando riceve un evento, Adobe Campaign genera un ID restituito univoco. Questo 
 
 * Esempio di un identificatore restituito dal metodo quando l’elaborazione dell’evento ha esito positivo:
 
-   ```
-   <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="http://xml.apache.org/xml-soap" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
-      <SOAP-ENV:Body>
-         <urn:PushEventResponse SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:urn="urn:nms:rtEvent">
-            <plId xsi:type="xsd:long">72057594037935966</plId>
-         </urn:PushEventResponse>
-      </SOAP-ENV:Body>
-   </SOAP-ENV:Envelope>
-   ```
+  ```
+  <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="http://xml.apache.org/xml-soap" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+     <SOAP-ENV:Body>
+        <urn:PushEventResponse SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:urn="urn:nms:rtEvent">
+           <plId xsi:type="xsd:long">72057594037935966</plId>
+        </urn:PushEventResponse>
+     </SOAP-ENV:Body>
+  </SOAP-ENV:Envelope>
+  ```
 
 Se il valore dell’identificatore restituito è rigorosamente maggiore di zero, significa che l’evento è stato archiviato correttamente in Adobe Campaign.
 
@@ -177,51 +177,51 @@ Tuttavia, se l&#39;evento non viene elaborato, il metodo restituisce un messaggi
 
 * Esempio di elaborazione di un evento non riuscito quando la query non contiene un account di accesso o l’operatore specificato non dispone dei diritti necessari:
 
-   ```
-   <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
-      <SOAP-ENV:Body>
-         <SOAP-ENV:Fault>
-            <faultcode>SOAP-ENV:Client</faultcode>
-            <faultstring xsi:type="xsd:string">Error while reading parameters of method 'PushEvent' of service 'nms:rtEvent'.</faultstring>
-            <detail xsi:type="xsd:string">Invalid login or password. Connection denied.</detail>
-         </SOAP-ENV:Fault>
-      </SOAP-ENV:Body>
-   </SOAP-ENV:Envelope>
-   ```
+  ```
+  <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+     <SOAP-ENV:Body>
+        <SOAP-ENV:Fault>
+           <faultcode>SOAP-ENV:Client</faultcode>
+           <faultstring xsi:type="xsd:string">Error while reading parameters of method 'PushEvent' of service 'nms:rtEvent'.</faultstring>
+           <detail xsi:type="xsd:string">Invalid login or password. Connection denied.</detail>
+        </SOAP-ENV:Fault>
+     </SOAP-ENV:Body>
+  </SOAP-ENV:Envelope>
+  ```
 
 * Esempio di un evento non riuscito a causa di un errore nella query (la classificazione XML non è rispettata):
 
-   ```
-   <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
-      <SOAP-ENV:Body>
-         <SOAP-ENV:Fault>
-            <faultcode>SOAP-ENV:Client</faultcode>
-            <faultstring xsi:type="xsd:string">The XML SOAP message is invalid (service 'PushEvent', method 'nms:rtEvent').</faultstring>
-            <detail xsi:type="xsd:string"><![CDATA[(16:8) : Expected end of tag 'rtevent'
-   Error while parsing XML string '<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:nms:rtEvent">
-      <soapenv:Header/>
-      <soapenv:Body>
-         <urn:PushEvent>
-            <urn:sessiontoken>mc/</urn:sessiontoken>
-            <urn:domEvent>
-   <rtevent type="create_account" email="esther.hall@adobe.com" origin="eCommerce" wishedChannel="email" 
-         externalId="1596" language="english" country="EN" emailFormat="2"
-         mobilePhone="+447700123123">
-     <ctx>
-      <website name="eCommerce" url="http://www.eCo']]></detail>
-         </SOAP-ENV:Fault>
-      </SOAP-ENV:Body>
-   </SOAP-ENV:Envelope>
-   ```
+  ```
+  <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+     <SOAP-ENV:Body>
+        <SOAP-ENV:Fault>
+           <faultcode>SOAP-ENV:Client</faultcode>
+           <faultstring xsi:type="xsd:string">The XML SOAP message is invalid (service 'PushEvent', method 'nms:rtEvent').</faultstring>
+           <detail xsi:type="xsd:string"><![CDATA[(16:8) : Expected end of tag 'rtevent'
+  Error while parsing XML string '<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:nms:rtEvent">
+     <soapenv:Header/>
+     <soapenv:Body>
+        <urn:PushEvent>
+           <urn:sessiontoken>mc/</urn:sessiontoken>
+           <urn:domEvent>
+  <rtevent type="create_account" email="esther.hall@adobe.com" origin="eCommerce" wishedChannel="email" 
+        externalId="1596" language="english" country="EN" emailFormat="2"
+        mobilePhone="+447700123123">
+    <ctx>
+     <website name="eCommerce" url="http://www.eCo']]></detail>
+        </SOAP-ENV:Fault>
+     </SOAP-ENV:Body>
+  </SOAP-ENV:Envelope>
+  ```
 
 * Esempio di un evento non riuscito e che ha restituito un identificatore zero (nome di metodo errato):
 
-   ```
-   <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="http://xml.apache.org/xml-soap" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
-      <SOAP-ENV:Body>
-         <urn:PushEventResponse SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:urn="urn:nms:rtEvent">
-            <plId xsi:type="xsd:long">0</plId>
-         </urn:PushEventResponse>
-      </SOAP-ENV:Body>
-   </SOAP-ENV:Envelope>
-   ```
+  ```
+  <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="http://xml.apache.org/xml-soap" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+     <SOAP-ENV:Body>
+        <urn:PushEventResponse SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:urn="urn:nms:rtEvent">
+           <plId xsi:type="xsd:long">0</plId>
+        </urn:PushEventResponse>
+     </SOAP-ENV:Body>
+  </SOAP-ENV:Envelope>
+  ```

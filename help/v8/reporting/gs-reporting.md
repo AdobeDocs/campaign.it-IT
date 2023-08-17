@@ -18,38 +18,38 @@ Adobe Campaign fornisce una serie di strumenti di reporting elencati in questa p
 
 * **Cubi**
 
-   Adobe Campaign viene fornito con uno strumento di esplorazione dei dati intuitivo per la creazione di rapporti dinamici.
+  Adobe Campaign viene fornito con uno strumento di esplorazione dei dati intuitivo per la creazione di rapporti dinamici.
 
-   Utilizza le funzionalità di analisi marketing per analizzare e misurare i dati, calcolare le statistiche, semplificare e ottimizzare la creazione e il calcolo dei rapporti. Puoi creare rapporti e creare popolazioni target e memorizzarle in elenchi che possono essere utilizzati in Adobe Campaign per attività di targeting o segmentazione.
+  Utilizza le funzionalità di analisi marketing per analizzare e misurare i dati, calcolare le statistiche, semplificare e ottimizzare la creazione e il calcolo dei rapporti. Puoi creare rapporti e creare popolazioni target e memorizzarle in elenchi che possono essere utilizzati in Adobe Campaign per attività di targeting o segmentazione.
 
-   ![](assets/create-a-report.png)
+  ![](assets/create-a-report.png)
 
-   A seconda della complessità delle query, dei calcoli e dei volumi, i dati analizzati in questi rapporti possono essere raccolti tramite una query e preaggregati in un elenco (flusso di lavoro di tipo gestione dati) o in un cubo (utilizzando Marketing Analytics). Verrà visualizzata sotto forma di tabella pivot o di elenco di gruppi.
+  A seconda della complessità delle query, dei calcoli e dei volumi, i dati analizzati in questi rapporti possono essere raccolti tramite una query e preaggregati in un elenco (flusso di lavoro di tipo gestione dati) o in un cubo (utilizzando Marketing Analytics). Verrà visualizzata sotto forma di tabella pivot o di elenco di gruppi.
 
-   Per ulteriori informazioni al riguardo, consulta [questa sezione](gs-cubes.md).
+  Per ulteriori informazioni al riguardo, consulta [questa sezione](gs-cubes.md).
 
 * **Rapporti incorporati**
 
-   Adobe Campaign viene fornito con rapporti su consegne, campagne, attività della piattaforma, funzionalità opzionali e così via. Questi rapporti sono disponibili attraverso le varie funzionalità a cui si riferiscono. Possono essere adattati alle tue esigenze specifiche.
+  Adobe Campaign viene fornito con rapporti su consegne, campagne, attività della piattaforma, funzionalità opzionali e così via. Questi rapporti sono disponibili attraverso le varie funzionalità a cui si riferiscono. Possono essere adattati alle tue esigenze specifiche.
 
-   Utilizza il **Rapporti** per accedere a questi rapporti.
+  Utilizza il **Rapporti** per accedere a questi rapporti.
 
-   ![](assets/built-in-reports.png)
+  ![](assets/built-in-reports.png)
 
-   Per ulteriori informazioni al riguardo, consulta [questa sezione](built-in-reports.md).
+  Per ulteriori informazioni al riguardo, consulta [questa sezione](built-in-reports.md).
 
 * **Analisi dei dati descrittivi**
 
-   Adobe Campaign fornisce uno strumento visivo per la produzione di statistiche sui dati nel database. Puoi creare rapporti di analisi descrittivi utilizzando un assistente dedicato e adattarne il contenuto e il layout in base alle tue esigenze.
+  Adobe Campaign fornisce uno strumento visivo per la produzione di statistiche sui dati nel database. Puoi creare rapporti di analisi descrittivi utilizzando un assistente dedicato e adattarne il contenuto e il layout in base alle tue esigenze.
 
-   Utilizza il **[!UICONTROL Tools > Descriptive analysis...]** per creare un nuovo rapporto.
+  Utilizza il **[!UICONTROL Tools > Descriptive analysis...]** per creare un nuovo rapporto.
 
-   ![](assets/desc-analysis-report.png)
+  ![](assets/desc-analysis-report.png)
 
-   ![](../assets/do-not-localize/book.png) Il reporting dell’analisi descrittiva della campagna è presentato in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target="_blank"}
+  ![](../assets/do-not-localize/book.png) Il reporting dell’analisi descrittiva della campagna è presentato in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target="_blank"}
 
 * **Rapporti personalizzati**
 
-   Utilizza Adobe Campaign per creare rapporti sui dati nel database. Una volta creati, rendili accessibili nei contesti appropriati.
+  Utilizza Adobe Campaign per creare rapporti sui dati nel database. Una volta creati, rendili accessibili nei contesti appropriati.
 
-   ![](../assets/do-not-localize/book.png) I passaggi per creare un rapporto sono descritti in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target="_blank"}. La creazione di rapporti personalizzati è riservata agli utenti avanzati.
+  ![](../assets/do-not-localize/book.png) I passaggi per creare un rapporto sono descritti in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target="_blank"}. La creazione di rapporti personalizzati è riservata agli utenti avanzati.

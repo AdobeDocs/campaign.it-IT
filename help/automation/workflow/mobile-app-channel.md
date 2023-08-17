@@ -6,7 +6,7 @@ feature: Workflows
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 21%
+ht-degree: 26%
 
 ---
 
@@ -23,7 +23,7 @@ Il flusso di lavoro descritto di seguito viene installato con **Canale app mobil
    <td> <strong>Descrizione</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Gestione degli opt-out NMAC</span> <br /> </td> 
+   <td> <span class="uicontrol">Gestione rinuncia NMAC</span> <br /> </td> 
    <td> <span class="uicontrol">mobileAppOptOutMgt</span> <br /> </td> 
    <td> Questo flusso di lavoro aggiorna gli annullamenti degli abbonamenti alle notifiche sui dispositivi mobili. Viene attivato ogni 6 ore tra l’1 e mezzanotte. Per ulteriori informazioni, consulta questa sezione</a>.<br /> </td> 
   </tr> 

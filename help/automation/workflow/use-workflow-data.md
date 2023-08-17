@@ -30,21 +30,21 @@ A questo scopo, seleziona il menu pertinente:
 
 * **[!UICONTROL Display the target...]**
 
-   Questo menu visualizza i dati disponibili sulla popolazione target.
+  Questo menu visualizza i dati disponibili sulla popolazione target.
 
-   ![](assets/wf-right-click-display.png)
+  ![](assets/wf-right-click-display.png)
 
-   È possibile accedere alla struttura della tabella di lavoro nel **[!UICONTROL Schema]** scheda.
+  È possibile accedere alla struttura della tabella di lavoro nel **[!UICONTROL Schema]** scheda.
 
-   ![](assets/wf-right-click-schema.png)
+  ![](assets/wf-right-click-schema.png)
 
-   Per ulteriori informazioni al riguardo, consulta [questa sezione](monitor-workflow-execution.md#worktables-and-workflow-schema).
+  Per ulteriori informazioni al riguardo, consulta [questa sezione](monitor-workflow-execution.md#worktables-and-workflow-schema).
 
 * **[!UICONTROL Analyze target...]**
 
-   Questo menu consente di accedere alla procedura guidata di analisi descrittiva che consente di produrre statistiche e rapporti sui dati di transizione.
+  Questo menu consente di accedere alla procedura guidata di analisi descrittiva che consente di produrre statistiche e rapporti sui dati di transizione.
 
-   Per ulteriori informazioni, consulta la [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target="_blank"}.
+  Per ulteriori informazioni, consulta la [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target="_blank"}.
 
 I dati di destinazione vengono eliminati durante l’esecuzione del flusso di lavoro. È accessibile solo l&#39;ultima tabella di lavoro. È possibile configurare il flusso di lavoro in modo che tutte le tabelle di lavoro rimangano accessibili: selezionare **[!UICONTROL Keep the result of interim populations between two executions]** nelle proprietà del flusso di lavoro.
 
@@ -126,15 +126,15 @@ I dati del database di Adobe Campaign e gli elenchi esistenti possono essere agg
 
 * Il **[!UICONTROL List update]** attività consente di memorizzare le tabelle di lavoro in un datalist.
 
-   È possibile selezionare un elenco esistente o crearlo. In questo caso, vengono calcolati il nome e, se possibile, la cartella dei record.
+  È possibile selezionare un elenco esistente o crearlo. In questo caso, vengono calcolati il nome e, se possibile, la cartella dei record.
 
-   ![](assets/s_user_create_list.png)
+  ![](assets/s_user_create_list.png)
 
-   Fai riferimento a [Aggiornamento elenco](list-update.md).
+  Fai riferimento a [Aggiornamento elenco](list-update.md).
 
 * Il **[!UICONTROL Update data]** l’attività esegue un aggiornamento di massa dei campi nel database.
 
-   Per ulteriori informazioni, consulta [Aggiorna dati](update-data.md).
+  Per ulteriori informazioni, consulta [Aggiorna dati](update-data.md).
 
 ### Gestire le iscrizioni {#subscription-management}
 

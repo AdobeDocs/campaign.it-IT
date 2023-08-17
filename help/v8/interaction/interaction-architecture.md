@@ -1,5 +1,5 @@
 ---
-title: Architettura dell’interazione con Campaign
+title: Architettura dell’interazione di Campaign
 description: Nozioni di base sull’architettura di interazione di Campaign
 feature: Interaction
 role: Data Engineer
@@ -20,9 +20,9 @@ Esistono due ambienti per ogni dimensione di targeting utilizzata durante la ges
 
 * A **progettazione** ambiente in cui il gestore delle offerte si occupa di creare e classificare le offerte, modificarle e avviare il processo di approvazione in modo che possano essere utilizzate. In questo ambiente sono definite anche le regole per ogni categoria, gli spazi di offerta su cui possono essere presentate le offerte e i filtri predefiniti utilizzati per definire l’idoneità di un’offerta.
 
-   Le categorie possono inoltre essere pubblicate manualmente nell&#39;ambiente online.
+  Le categorie possono inoltre essere pubblicate manualmente nell&#39;ambiente online.
 
-   Il processo di approvazione delle offerte è dettagliato [in questa sezione](interaction-offer.md#approve-offers).
+  Il processo di approvazione delle offerte è dettagliato [in questa sezione](interaction-offer.md#approve-offers).
 
 * A **live** ambiente in cui sono disponibili le offerte approvate dell’ambiente di progettazione, nonché i vari spazi di offerta, filtri, categorie e regole configurati nell’ambiente di progettazione. Durante una chiamata al motore delle offerte, questo utilizzerà sempre le offerte provenienti dall’ambiente live.
 
@@ -102,10 +102,11 @@ Sulle istanze di controllo:
    * Controllare il tipo di applicazione utilizzata: **[!UICONTROL Message Center]**, **[!UICONTROL Interaction]**, o entrambi.
    * Immettere l&#39;account FDA utilizzato. Un operatore deve essere creato nelle istanze di esecuzione e deve disporre dei seguenti diritti di lettura e scrittura sul database dell’istanza in questione:
 
-      ```
-      grant SELECT ON nmspropositionrcp, nmsoffer, nmsofferspace, xtkoption, xtkfolder TO user;
-      grant DELETE, INSERT, UPDATE ON nmspropositionrcp TO user;
-      ```
+     ```
+     grant SELECT ON nmspropositionrcp, nmsoffer, nmsofferspace, xtkoption, xtkfolder TO user;
+     grant DELETE, INSERT, UPDATE ON nmspropositionrcp TO user;
+     ```
+
    >[!NOTE]
    >
    >L&#39;indirizzo IP dell&#39;istanza di controllo deve essere autorizzato nelle istanze di esecuzione.
@@ -117,9 +118,9 @@ Sulle istanze di controllo:
    * Aggiungi l’elenco delle istanze di esecuzione.
    * Per ciascuno, specifica il periodo di sincronizzazione e i criteri di filtro (ad esempio, per paese).
 
-      >[!NOTE]
-      >
-      >Se riscontri un errore, puoi consultare i flussi di lavoro di sincronizzazione e le notifiche delle offerte. Questi si trovano nei flussi di lavoro tecnici dell’applicazione.
+     >[!NOTE]
+     >
+     >Se riscontri un errore, puoi consultare i flussi di lavoro di sincronizzazione e le notifiche delle offerte. Questi si trovano nei flussi di lavoro tecnici dell’applicazione.
 
 Se, per motivi di ottimizzazione, nelle istanze di esecuzione viene duplicata solo una parte del database di marketing, puoi specificare uno schema con restrizioni collegato all’ambiente per consentire agli utenti di utilizzare solo i dati disponibili nelle istanze di esecuzione. Puoi creare un’offerta utilizzando dati non disponibili nelle istanze di esecuzione. A questo scopo, devi disattivare la regola sugli altri canali limitandola sul canale in uscita (**[!UICONTROL Taken into account if]** ).
 

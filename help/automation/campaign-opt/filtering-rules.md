@@ -85,6 +85,7 @@ Puoi anche collegare le regole di filtro direttamente tramite questa scheda, sen
 >Nella finestra di selezione sono disponibili solo le tipologie e le regole di filtro.
 >
 >Queste configurazioni possono essere definite nel modello di consegna e applicate automaticamente a tutte le nuove consegne create utilizzando il modello.
+>
 
 ## Regole di esclusione del recapito messaggi predefinite {#default-deliverability-exclusion-rules}
 

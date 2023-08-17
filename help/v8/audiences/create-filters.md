@@ -339,7 +339,7 @@ Per i filtri predefiniti sono disponibili parametri avanzati. Per accedervi, pas
 
 * Per visualizzare il filtro per impostazione predefinita per tutti gli elenchi basati su questo tipo di documento, selezionare **[!UICONTROL Default filter for the associated document type]** opzione.
 
-   Ad esempio, il **[!UICONTROL By name or login]** Il filtro viene applicato agli operatori Questa opzione è selezionata, in modo che il filtro venga sempre visualizzato in tutti gli elenchi di operatori.
+  Ad esempio, il **[!UICONTROL By name or login]** Il filtro viene applicato agli operatori Questa opzione è selezionata, in modo che il filtro venga sempre visualizzato in tutti gli elenchi di operatori.
 
 * Per rendere un filtro disponibile a tutti gli operatori di Campaign, seleziona la  **[!UICONTROL Filter shared with other operators]** opzione.
 

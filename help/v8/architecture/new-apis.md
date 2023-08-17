@@ -18,11 +18,11 @@ Nell&#39;ambito di una [Distribuzione aziendale (FFDA)](enterprise-deployment.md
 
 * API di acquisizione: **xtk.session.ingest**
 
-   Questa API è dedicata solo a Data Insert. [Ulteriori informazioni](#data-insert-api)
+  Questa API è dedicata solo a Data Insert. [Ulteriori informazioni](#data-insert-api)
 
 * API di aggiornamento/eliminazione dati: **xtk.session.ingestExt**
 
-   Questa API viene utilizzata per aggiornare o eliminare i dati. [Ulteriori informazioni](#data-update-api)
+  Questa API viene utilizzata per aggiornare o eliminare i dati. [Ulteriori informazioni](#data-update-api)
 
 Un flusso di lavoro integrato dedicato sincronizzerà i dati nel database cloud.
 

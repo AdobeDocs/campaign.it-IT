@@ -27,7 +27,7 @@ Segui i passaggi seguenti per configurare un account esterno dedicato per import
 Per ogni sistema, questi passaggi devono essere eseguiti da un amministratore.
 
 >[!CAUTION]
-> I passaggi descritti in questa documentazione ti guideranno attraverso la creazione di integrazioni/registrazioni che richiedono l’assegnazione di autorizzazioni e/o accesso amministratore. È tua responsabilità accertarti che questi passaggi siano conformi alle politiche aziendali prima di eseguire e di eseguirli con attenzione.
+> I passaggi descritti in questa documentazione ti guideranno attraverso la creazione di integrazioni/registrazioni che richiedono l’assegnazione di autorizzazioni e/o l’accesso come amministratore. È tua responsabilità accertarti che questi passaggi siano conformi alle politiche aziendali prima di eseguire e di eseguirli con attenzione.
 
 ## Configurare Microsoft Dynamics 365 {#config-crm-microsoft}
 
@@ -151,6 +151,7 @@ Innanzitutto, devi creare l’account esterno di Microsoft Dynamics 365.
       * **Password**: account utilizzato per accedere a Microsoft CRM.
       * **Identificatore client**: ID dell’applicazione (client) accessibile dal portale di gestione di Microsoft Azure nel campo Aggiorna la categoria del codice, ID client.
       * **Versione CRM**: scegli la versione CRM di Dynamics CRM 365.
+
    1. Per configurare l&#39;account esterno di Microsoft Dynamics CRM per la connessione ad Adobe Campaign con un **Certificato**, fornisci i seguenti dettagli:
 
       * **Server**: URL del server Microsoft CRM in uso. Per trovare l&#39;URL del server di Microsoft CRM, accedere all&#39;account di Microsoft Dynamics CRM, quindi fare clic su Dynamics 365 e selezionare l&#39;app. Puoi quindi trovare l’URL del server nella barra degli indirizzi del browser, ad esempio https://myserver.crm.dynamics.com/.
@@ -159,7 +160,6 @@ Innanzitutto, devi creare l’account esterno di Microsoft Dynamics 365.
       * **Identificatore chiave personalizzato**: identificatore disponibile nella **Manifesto** della tua applicazione, come spiegato in [questa sezione](#config-certificate-key-id).
       * **Identificatore client**: ID dell’applicazione (client) reperibile dal portale di gestione di Microsoft Azure come spiegato in [questa sezione](#get-client-id-microsoft).
       * **Versione CRM**: scegli la versione CRM di Dynamics CRM 365.
-
 
 1. Seleziona la **Abilita** per attivare l’account in Campaign.
 

@@ -90,11 +90,11 @@ Una struttura può contenere elementi, campi di personalizzazione e offerte:
 * Gli elementi possono essere, ad esempio, documenti fisici a cui viene fatto riferimento e che vengono descritti qui e che verranno allegati alla consegna.
 * I campi di personalizzazione ti consentono di creare elementi di personalizzazione relativi alle consegne anziché ai destinatari. È quindi possibile creare valori da utilizzare nelle consegne per un target specifico (offerta di benvenuto, uno sconto, ecc.) Vengono creati in Adobe Campaign e importati nella struttura tramite **[!UICONTROL Import personalization fields...]** collegamento.
 
-   ![](assets/del-outline-perso-field.png)
+  ![](assets/del-outline-perso-field.png)
 
-   È inoltre possibile crearli direttamente nella struttura facendo clic sul pulsante **[!UICONTROL Add]** a destra della zona elenco.
+  È inoltre possibile crearli direttamente nella struttura facendo clic sul pulsante **[!UICONTROL Add]** a destra della zona elenco.
 
-   ![](assets/add-del-outline-button.png)
+  ![](assets/add-del-outline-button.png)
 
 
 ### Seleziona una struttura {#select-an-outline}
@@ -119,4 +119,4 @@ Nell’esempio seguente, l’etichetta, il costo stimato e la descrizione della 
 
 ![](assets/campaign-export-template.png)
 
-Il modello di esportazione deve essere associato al fornitore di servizi selezionato per la consegna interessata. Vedi [questa sezione](providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
+Il modello di esportazione deve essere associato al fornitore di servizi selezionato per la consegna interessata. Consulta [questa sezione](providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).

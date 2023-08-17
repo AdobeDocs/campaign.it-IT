@@ -20,13 +20,13 @@ La struttura di base del modello dati di Adobe Campaign può essere descritta co
 
 * **Tabella destinatari**: il modello dati si basa su una tabella principale che è per impostazione predefinita la tabella Destinatario (nmsRecipient). Questa tabella memorizza tutti i profili di marketing.
 
-   ![](../assets/do-not-localize/glass.png) Per ulteriori informazioni sulla tabella Destinatario, consulta [questa sezione](#ootb-profiles).
+  ![](../assets/do-not-localize/glass.png) Per ulteriori informazioni sulla tabella Destinatario, consulta [questa sezione](#ootb-profiles).
 
 * **Tabella di consegna**: il modello dati include anche una parte dedicata alla memorizzazione di tutte le attività di marketing. Di solito si tratta della tabella Delivery (NmsDelivery). Ogni record di questa tabella rappresenta un’azione di consegna o un modello di consegna. Contiene tutti i parametri necessari per eseguire le consegne come destinazione, contenuto, ecc.
 
 * **Tabelle dei registri**: queste tabelle memorizzano tutti i registri associati all’esecuzione delle campagne.
 
-   I registri di consegna sono tutti messaggi inviati a destinatari o dispositivi su tutti i canali. La tabella principale dei registri di consegna (NmsBroadLogRcp) contiene i registri di consegna per tutti i destinatari.
+  I registri di consegna sono tutti messaggi inviati a destinatari o dispositivi su tutti i canali. La tabella principale dei registri di consegna (NmsBroadLogRcp) contiene i registri di consegna per tutti i destinatari.
 La tabella principale dei registri di tracciamento (NmsTrackingLogRcp) memorizza i registri di tracciamento per tutti i destinatari. I registri di tracciamento si riferiscono alle reazioni dei destinatari, ad esempio aperture delle e-mail e clic. Ogni reazione corrisponde a un registro di tracciamento.
 I registri di consegna e di tracciamento vengono eliminati dopo un determinato periodo di tempo, specificato in Adobe Campaign, che può essere modificato. Pertanto, si consiglia vivamente di esportare i registri su base regolare.
 

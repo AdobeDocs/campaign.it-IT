@@ -21,6 +21,7 @@ Una visualizzazione è una cartella specifica che non contiene dati, ma visualiz
 
 >[!NOTE]
 >Per distinguere le viste dalle cartelle standard, il loro nome viene visualizzato in blu chiaro anziché in nero.
+>
 
 È possibile assegnare autorizzazioni alle cartelle per limitare l’accesso a determinati dati. [Ulteriori informazioni](#restrict-access-to-a-folder)
 
@@ -32,7 +33,7 @@ Una visualizzazione è una cartella specifica che non contiene dati, ma visualiz
 
 * **Definire e applicare una convenzione di denominazione** Ad esempio, puoi denominare i flussi di lavoro in ordine alfabetico, in modo che vengano visualizzati in ordine di esecuzione, ad esempio:
 
-   A1 - destinatari importazione, inizia alle 10:00; A2 - biglietti importazione, inizia alle 11:00.
+  A1 - destinatari importazione, inizia alle 10:00; A2 - biglietti importazione, inizia alle 11:00.
 
 ## Crea una cartella{#create-a-folder}
 
@@ -50,6 +51,7 @@ Per creare un altro tipo di cartella, fai clic con il pulsante destro del mouse 
 
 >[!CAUTION]
 >Queste modifiche si applicano a tutti gli utenti di Campaign.
+>
 
 ## Trasforma una cartella in una visualizzazione{#turn-a-folder-to-a-view}
 

@@ -27,4 +27,4 @@ Le seguenti attività sono attività di database: vengono utilizzate per coordin
 * **[Test](test.md)**: abilita una transizione basata su un risultato del test.
 * **[Vincolo di tempo](time-constraint.md)**: consente di mettere in pausa un’attività per un periodo impostato.
 * **[Wait](wait.md)**: abilita la transizione in uscita dopo un determinato limite di tempo.
-   <!--* **Task**: lets you configure task execution. Refer to the [Task](task.md) section.-->
+  <!--* **Task**: lets you configure task execution. Refer to the [Task](task.md) section.-->

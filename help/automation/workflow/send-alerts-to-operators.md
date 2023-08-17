@@ -17,7 +17,7 @@ ht-degree: 2%
 
 In questo esempio, vogliamo inviare un avviso a un operatore che conterrà il nome dei profili che hanno aperto una newsletter ma non hanno fatto clic sul collegamento in essa contenuto.
 
-I campi nome e cognome dei profili sono collegati al **[!UICONTROL Recipients]** la dimensione di targeting, mentre **[!UICONTROL Alert]** l&#39;attività è collegata al **[!UICONTROL Operator]** dimensione di targeting. Di conseguenza, non è disponibile alcun campo tra le due dimensioni di targeting per eseguire una riconciliazione, recuperare i campi nome e cognome e visualizzarli nell’attività Avviso.
+I campi Nome e Cognome dei profili sono collegati al **[!UICONTROL Recipients]** la dimensione di targeting, mentre **[!UICONTROL Alert]** l&#39;attività è collegata al **[!UICONTROL Operator]** dimensione di targeting. Di conseguenza, non è disponibile alcun campo tra le due dimensioni di targeting per eseguire una riconciliazione, recuperare i campi nome e cognome e visualizzarli nell’attività Avviso.
 
 Il processo consiste nel creare un flusso di lavoro come indicato di seguito:
 

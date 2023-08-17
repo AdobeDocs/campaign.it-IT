@@ -53,6 +53,7 @@ Per caricare tutti i record, fare clic con il pulsante destro del mouse sull&#39
 >[!CAUTION]
 >
 >Quando un elenco contiene un elevato volume di record, il caricamento completo può richiedere un po&#39; di tempo.
+>
 
 ### Aggiungere e rimuovere colonne {#add-columns}
 
@@ -79,6 +80,7 @@ Puoi anche utilizzare la schermata di configurazione dell’elenco per aggiunger
    >Per impostazione predefinita, i campi avanzati non vengono visualizzati. Per visualizzarli, fai clic su **Visualizza campi avanzati** nella sezione inferiore destra dell’elenco dei campi disponibili.
    >
    >I campi sono identificati da icone specifiche: campi SQL, tabelle collegate, campi calcolati e così via. Per ogni campo selezionato, la descrizione viene visualizzata nell’elenco dei campi disponibili.
+   >
 
 1. Utilizza le frecce su/giù per modificare **ordine di visualizzazione**.
 
@@ -254,6 +256,7 @@ Il **[!UICONTROL Alias]** scheda secondaria di un’enumerazione può visualizza
 >[!CAUTION]
 >
 >Il calcolo delle occorrenze della voce alias può richiedere molto tempo.
+>
 
 Puoi eseguire il calcolo degli hit manualmente tramite **[!UICONTROL Cleanse values...]** collegamento. A questo scopo, fai clic su **[!UICONTROL Advanced parameters...]** collega e seleziona le opzioni.
 

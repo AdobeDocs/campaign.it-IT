@@ -25,15 +25,15 @@ Il **[!UICONTROL Deduplication]** L’attività viene utilizzata per rimuovere l
 | Data ultima modifica | Nome | Cognome | E-mail | Telefono cellulare | Telefono |
 |-----|------------|-----------|-------|--------------|------|
 | 5/19/2020 | Robert | Tisner | bob@mycompany.com | 444-444-444 | 777-777-7777 |
-| 7/22/2020 | Bobby | Tisner | bob@mycompany.com |  | 777-777-7777 |
-| 10/03/2020 | Bob |  | bob@mycompany.com |  | 888-888-8888 |
+| 7/22/2020 | Bobby | Tisner | bob@mycompany.com | | 777-777-7777 |
+| 10/03/2020 | Bob |  | bob@mycompany.com | | 888-888-8888 |
 
 Con l’attività Deduplicazione di **[!UICONTROL Merge]** funzionalità, puoi configurare un set di regole per la deduplicazione per definire un gruppo di campi da unire in un singolo record di dati risultante. Ad esempio, con un set di record duplicati, è possibile scegliere di mantenere il numero di telefono meno recente o il nome più recente.
 
 ## Attivazione della funzionalità di unione {#activating-merge}
 
 
-Per abilitare la funzionalità di unione, devi innanzitutto configurare **[!UICONTROL Deduplication]** attività. Per farlo, esegui questi passaggi:
+Per abilitare la funzionalità di unione, devi innanzitutto configurare **[!UICONTROL Deduplication]** attività. Per farlo, segui questi passaggi:
 
 1. Apri l’attività, quindi fai clic su **[Modifica configurazione]** collegamento.
 
@@ -93,8 +93,8 @@ Dopo aver configurato queste regole, i seguenti dati vengono ricevuti alla fine 
 | Data di modifica | Nome | Cognome | E-mail | Telefono cellulare | Telefono |
 |-----|------------|-----------|-------|--------------|------|
 | 5/19/2020 | Robert | Tisner | bob@mycompany.com | 444-444-444 | 777-777-7777 |
-| 7/22/2020 | Bobby | Tisner | bob@mycompany.com |  | 777-777-7777 |
-| 10/03/2020 | Bob |  | bob@mycompany.com |  | 888-888-8888 |
+| 7/22/2020 | Bobby | Tisner | bob@mycompany.com | | 777-777-7777 |
+| 10/03/2020 | Bob |  | bob@mycompany.com | | 888-888-8888 |
 
 Il risultato viene unito dai tre record in base alle regole configurate in precedenza. Dopo il confronto, si conclude che vengono utilizzati il nome e il telefono cellulare più recenti, insieme al numero di telefono originale.
 

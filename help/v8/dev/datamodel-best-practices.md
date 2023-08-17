@@ -175,7 +175,7 @@ Esistono alcune soluzioni per ridurre al minimo la necessità di record in Adobe
 
 È possibile dichiarare l’attributo &quot;deleteStatus&quot; in uno schema. È più efficiente contrassegnare il record come eliminato, quindi posticipare l’eliminazione nell’attività di pulizia.
 
-![](../assets/do-not-localize/speech.png)  In qualità di utente di Cloud Services gestiti, rivolgiti ai consulenti o agli amministratori tecnici Adobe per ulteriori informazioni sulla conservazione o per impostare la conservazione per tabelle personalizzate.
+![](../assets/do-not-localize/speech.png)  In qualità di utente di Cloud Service gestiti, rivolgiti ai consulenti o agli amministratori tecnici Adobe per ulteriori informazioni sulla conservazione o per impostare la conservazione per tabelle personalizzate.
 
 ## Prestazioni {#performance}
 

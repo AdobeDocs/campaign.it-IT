@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Attività Fork
+title: Fork
 description: Ulteriori informazioni sull’attività del flusso di lavoro Fork
 feature: Workflows
 exl-id: 7b94776c-2478-4e12-82a6-c94be12e7e22
@@ -11,7 +11,7 @@ ht-degree: 1%
 
 ---
 
-# Attività Fork{#fork}
+# Fork{#fork}
 
 
 
@@ -39,7 +39,7 @@ In questo esempio, e-mail diverse vengono inviate a gruppi di popolazione divers
 * Salvare il risultato della query
 * Segmentare il risultato per inviare più consegne
 
-   ![L’attività fork segue l’intersezione di due query e precede un’attività di aggiornamento elenco e un’attività divisa.](assets/wkf_fork_example.png)
+  ![L’attività fork segue l’intersezione di due query e precede un’attività di aggiornamento elenco e un’attività divisa.](assets/wkf_fork_example.png)
 
 Il flusso di lavoro comprende le seguenti attività:
 

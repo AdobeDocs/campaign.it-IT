@@ -7,7 +7,7 @@ exl-id: a1e08d57-0387-4802-b447-f6d9ad87072a
 source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '366'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -49,14 +49,14 @@ Prima di configurare l’attività, assicurati di soddisfare i seguenti prerequi
    * **activity.tableName**: nome SQL della tabella di lavoro in uscita.
    * **task.incomingTransitionByName(&quot;name&quot;).tableName**: nome SQL della tabella di lavoro trasportata dalla transizione in ingresso da utilizzare (la transizione è identificata dal relativo nome).
 
-      >[!NOTE]
-      >
-      >Il valore (&#39;name&#39;) corrisponde al **[!UICONTROL Name]** dalle proprietà della transizione.
+     >[!NOTE]
+     >
+     >Il valore (&#39;name&#39;) corrisponde al **[!UICONTROL Name]** dalle proprietà della transizione.
 
 1. Se lo script SQL contiene già comandi per creare una tabella di lavoro in uscita, deselezionare **[!UICONTROL Automatically create work table]** opzione. In caso contrario, una tabella di lavoro viene creata automaticamente una volta eseguito il flusso di lavoro.
 1. Clic **[!UICONTROL Ok]** per confermare la configurazione dell’attività.
 
-L’attività è ora configurata. È pronto per essere eseguito nel flusso di lavoro.
+L’attività adesso è configurata. È pronto per essere eseguito nel flusso di lavoro.
 
 >[!CAUTION]
 >

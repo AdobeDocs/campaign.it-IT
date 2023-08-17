@@ -46,19 +46,19 @@ Le regole di denominazione SQL sono le seguenti:
 
 * tabella: concatenazione dello spazio dei nomi e del nome dello schema
 
-   Nel nostro esempio, il nome della tabella viene immesso tramite l’elemento principale dello schema nel **sqltable** attributo:
+  Nel nostro esempio, il nome della tabella viene immesso tramite l’elemento principale dello schema nel **sqltable** attributo:
 
-   ```
-   <element name="recipient" sqltable="CusRecipient">
-   ```
+  ```
+  <element name="recipient" sqltable="CusRecipient">
+  ```
 
 * campo: nome dell’elemento preceduto da un prefisso definito secondo il tipo (&quot;i&quot; per numero intero, &quot;d&quot; per doppio, &quot;s&quot; per stringa, &quot;ts&quot; per date, ecc.)
 
-   Il nome del campo viene immesso tramite **sqlname** attributo per ogni tipo **`<attribute>`** e **`<element>`**:
+  Il nome del campo viene immesso tramite **sqlname** attributo per ogni tipo **`<attribute>`** e **`<element>`**:
 
-   ```
-   <attribute desc="E-mail address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/> 
-   ```
+  ```
+  <attribute desc="E-mail address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/> 
+  ```
 
 >[!NOTE]
 >
@@ -89,17 +89,17 @@ Per compilare un campo in XML, è necessario aggiungere **xml** con il valore &q
 
 * Campo commento su più righe:
 
-   ```
-   <element name="comment" xml="true" type="memo" label="Comment"/>
-   ```
+  ```
+  <element name="comment" xml="true" type="memo" label="Comment"/>
+  ```
 
 * Descrizione dei dati in formato HTML:
 
-   ```
-   <element name="description" xml="true" type="html" label="Description"/>
-   ```
+  ```
+  <element name="description" xml="true" type="html" label="Description"/>
+  ```
 
-   Il tipo &quot;html&quot; consente di memorizzare il contenuto HTML in un tag CDATA e di visualizzare uno speciale controllo di modifica HTML nell’interfaccia client di Adobe Campaign.
+  Il tipo &quot;html&quot; consente di memorizzare il contenuto HTML in un tag CDATA e di visualizzare uno speciale controllo di modifica HTML nell’interfaccia client di Adobe Campaign.
 
 L&#39;utilizzo di campi XML consente di aggiungere campi senza dover modificare la struttura fisica del database. Un altro vantaggio consiste nell&#39;utilizzo di meno risorse (dimensioni allocate ai campi SQL, limite al numero di campi per tabella, ecc.).
 
@@ -126,77 +126,77 @@ Le chiavi rispettano le seguenti regole:
 
 * Aggiunta di una chiave all&#39;indirizzo di posta elettronica e alla città:
 
-   ```
-   <srcSchema name="recipient" namespace="cus">
-     <element name="recipient">
-       <key name="email">
-         <keyfield xpath="@email"/> 
-         <keyfield xpath="location/@city"/> 
-       </key>
-   
-       <attribute name="email" type="string" length="80" label="Email" desc="E-mail address of recipient"/>
-       <element name="location" label="Location">
-         <attribute name="city" type="string" length="50" label="City" userEnum="city"/>
-       </element>
-     </element>
-   </srcSchema>
-   ```
+  ```
+  <srcSchema name="recipient" namespace="cus">
+    <element name="recipient">
+      <key name="email">
+        <keyfield xpath="@email"/> 
+        <keyfield xpath="location/@city"/> 
+      </key>
+  
+      <attribute name="email" type="string" length="80" label="Email" desc="E-mail address of recipient"/>
+      <element name="location" label="Location">
+        <attribute name="city" type="string" length="50" label="City" userEnum="city"/>
+      </element>
+    </element>
+  </srcSchema>
+  ```
 
-   Lo schema generato:
+  Lo schema generato:
 
-   ```
-   <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
-     <element name="recipient" sqltable="CusRecipient">    
-      <key name="email">      
-       <keyfield xpath="@email"/>      
-       <keyfield xpath="location/@city"/>    
-      </key>    
-   
-      <attribute desc="E-mail address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>    
-      <element label="Location" name="location">      
-        <attribute label="City" length="50" name="city" sqlname="sCity" type="string" userEnum="city"/>    
-      </element>  
-     </element>
-   </schema>
-   ```
+  ```
+  <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
+    <element name="recipient" sqltable="CusRecipient">    
+     <key name="email">      
+      <keyfield xpath="@email"/>      
+      <keyfield xpath="location/@city"/>    
+     </key>    
+  
+     <attribute desc="E-mail address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>    
+     <element label="Location" name="location">      
+       <attribute label="City" length="50" name="city" sqlname="sCity" type="string" userEnum="city"/>    
+     </element>  
+    </element>
+  </schema>
+  ```
 
 * Aggiunta di una chiave primaria o interna nel campo del nome &quot;id&quot;:
 
-   ```
-   <srcSchema name="recipient" namespace="cus">
-     <element name="recipient">
-       <key name="id" internal="true">
-         <keyfield xpath="@id"/> 
-       </key>
-   
-       <key name="email">
-         <keyfield xpath="@email"/> 
-       </key>
-   
-       <attribute name="id" type="long" label="Identifier"/>
-       <attribute name="email" type="string" length="80" label="Email" desc="E-mail address of recipient"/>
-     </element>
-   </srcSchema>
-   ```
+  ```
+  <srcSchema name="recipient" namespace="cus">
+    <element name="recipient">
+      <key name="id" internal="true">
+        <keyfield xpath="@id"/> 
+      </key>
+  
+      <key name="email">
+        <keyfield xpath="@email"/> 
+      </key>
+  
+      <attribute name="id" type="long" label="Identifier"/>
+      <attribute name="email" type="string" length="80" label="Email" desc="E-mail address of recipient"/>
+    </element>
+  </srcSchema>
+  ```
 
-   Lo schema generato:
+  Lo schema generato:
 
-   ```
-   <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
-     <element name="recipient" sqltable="CusRecipient">    
-       <key name="email">      
-         <keyfield xpath="@email"/>    
-       </key>  
-   
-       <key internal="true" name="id">      
-        <keyfield xpath="@id"/>    
-       </key>    
-   
-       <attribute label="Identifier" name="id" sqlname="iRecipientId" type="long"/>    
-       <attribute desc="E-mail address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>  
-     </element>
-   </schema>
-   ```
+  ```
+  <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
+    <element name="recipient" sqltable="CusRecipient">    
+      <key name="email">      
+        <keyfield xpath="@email"/>    
+      </key>  
+  
+      <key internal="true" name="id">      
+       <keyfield xpath="@id"/>    
+      </key>    
+  
+      <attribute label="Identifier" name="id" sqlname="iRecipientId" type="long"/>    
+      <attribute desc="E-mail address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>  
+    </element>
+  </schema>
+  ```
 
 ### Chiave primaria - Identificatore{#primary-key}
 
@@ -285,11 +285,11 @@ I collegamenti rispettano le seguenti regole:
       * **proprio**: l’eliminazione dell’occorrenza sorgente determina l’eliminazione dell’occorrenza target,
       * **owncopy**: uguale a **proprio** (in caso di eliminazione) o duplica le occorrenze (in caso di duplicazione),
       * **neutro**: non esegue alcuna operazione.
+
    * **revIntegrity** (facoltativo): integrità nello schema di destinazione (opzionale, &quot;normale&quot; per impostazione predefinita),
    * **revCardinality** (facoltativo): con il valore &quot;single&quot; compila la cardinalità con il tipo 1-1 (1-N per impostazione predefinita).
    * **externalJoin** (facoltativo): forza l’outer join
    * **revExternalJoin** (facoltativo): forza il join esterno sul collegamento inverso
-
 
 * Un collegamento fa riferimento a uno o più campi dalla tabella di origine alla tabella di destinazione. Campi che compongono il join ( `<join>`  element) non devono essere compilati perché vengono automaticamente dedotti per impostazione predefinita utilizzando la chiave interna dello schema di destinazione.
 * Un collegamento è costituito da due collegamenti intermedi, in cui il primo viene dichiarato dallo schema di origine e il secondo viene creato automaticamente nello schema esteso dello schema di destinazione.

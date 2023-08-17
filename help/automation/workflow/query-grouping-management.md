@@ -19,15 +19,15 @@ In questo esempio, desideri eseguire una query per trovare tutti i domini e-mail
 
 * Quale tabella deve essere selezionata?
 
-   Tabella dei destinatari (nms:recipient)
+  Tabella dei destinatari (nms:recipient)
 
 * Campi da selezionare nelle colonne di output?
 
-   Dominio e-mail e chiave primaria (con conteggio)
+  Dominio e-mail e chiave primaria (con conteggio)
 
 * Raggruppamento dati?
 
-   In base al dominio e-mail con un numero di chiavi primarie superiore a 30. Questa operazione viene eseguita con il **[!UICONTROL Group by + Having]** opzione. **[!UICONTROL Group by + Having]** consente di raggruppare i dati (&quot;raggruppa per&quot;) e di effettuare una selezione di ciò che è stato raggruppato (&quot;avere&quot;).
+  In base al dominio e-mail con un numero di chiavi primarie superiore a 30. Questa operazione viene eseguita con il **[!UICONTROL Group by + Having]** opzione. **[!UICONTROL Group by + Having]** consente di raggruppare i dati (&quot;raggruppa per&quot;) e di effettuare una selezione di ciò che è stato raggruppato (&quot;avere&quot;).
 
 Per creare questo esempio, attieniti alla seguente procedura:
 

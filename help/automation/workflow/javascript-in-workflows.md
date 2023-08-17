@@ -182,47 +182,47 @@ Scrivi il `select`, `where`, e `orderBy` clausole come elementi XML:
 
 * `select` clausola
 
-   Specificare le colonne da restituire. Ad esempio, per selezionare il nome e il cognome della persona, scrivere il codice seguente:
+  Specificare le colonne da restituire. Ad esempio, per selezionare il nome e il cognome della persona, scrivere il codice seguente:
 
-   ```xml
-   <select>
-       <node expr="@firstName"/>
-       <node expr="@lastName"/>
-   </select>
-   ```
+  ```xml
+  <select>
+      <node expr="@firstName"/>
+      <node expr="@lastName"/>
+  </select>
+  ```
 
-   Con il `nms:recipient` schema, gli elementi vengono restituiti nel seguente formato:
+  Con il `nms:recipient` schema, gli elementi vengono restituiti nel seguente formato:
 
-   ```xml
-   <recipient firstName="Bo" lastName="Didley"/>
-   ```
+  ```xml
+  <recipient firstName="Bo" lastName="Didley"/>
+  ```
 
 * `where` clausola
 
-   Per specificare le condizioni, utilizza una `where` clausola. Ad esempio, per selezionare i record che si trovano nel **Formazione** cartella, puoi scrivere questo codice:
+  Per specificare le condizioni, utilizza una `where` clausola. Ad esempio, per selezionare i record che si trovano nel **Formazione** cartella, puoi scrivere questo codice:
 
-   ```xml
-   <where>
-       <condition expr="[folder/@label]='Training'"/>
-   </where>
-   ```
+  ```xml
+  <where>
+      <condition expr="[folder/@label]='Training'"/>
+  </where>
+  ```
 
-   Quando combini più espressioni, utilizza l’operatore booleano nella prima espressione. Ad esempio, per selezionare tutte le persone denominate Isabel Garcia, puoi scrivere questo codice:
+  Quando combini più espressioni, utilizza l’operatore booleano nella prima espressione. Ad esempio, per selezionare tutte le persone denominate Isabel Garcia, puoi scrivere questo codice:
 
-   ```xml
-   <condition boolOperator="AND" expr="@firstName='Isabel'"/>
-   <condition expr="@lastName='Garcia'"/>
-   ```
+  ```xml
+  <condition boolOperator="AND" expr="@firstName='Isabel'"/>
+  <condition expr="@lastName='Garcia'"/>
+  ```
 
 * `orderBy` clausola
 
-   Per ordinare il set di risultati, specificare `orderBy` come elemento XML con `sortDesc` attributo. Ad esempio, per ordinare i cognomi in ordine crescente, è possibile scrivere il codice seguente:
+  Per ordinare il set di risultati, specificare `orderBy` come elemento XML con `sortDesc` attributo. Ad esempio, per ordinare i cognomi in ordine crescente, è possibile scrivere il codice seguente:
 
-   ```xml
-   <orderBy>
-       <node expr="@lastName> sortDesc="false"/>
-   </orderBy>
-   ```
+  ```xml
+  <orderBy>
+      <node expr="@lastName> sortDesc="false"/>
+  </orderBy>
+  ```
 
 ### Passaggio 2: creare un oggetto query
 
@@ -368,11 +368,11 @@ Puoi attivare i flussi di lavoro in diversi modi:
    * Aggiungere uno script di inizializzazione al **[!UICONTROL End]** attività del flusso di lavoro iniziale.
    * Aggiungi il **[!UICONTROL External signal]** attività all’inizio del flusso di lavoro di target.
 
-      Al completamento del flusso di lavoro iniziale, viene registrato un evento. La transizione in uscita viene attivata e le variabili dell’evento vengono compilate. Quindi, l’evento viene ricevuto dal flusso di lavoro di destinazione.
+     Al completamento del flusso di lavoro iniziale, viene registrato un evento. La transizione in uscita viene attivata e le variabili dell’evento vengono compilate. Quindi, l’evento viene ricevuto dal flusso di lavoro di destinazione.
 
-      >[!TIP]
-      >
-      >Come best practice, quando aggiungi uno script a un’attività, racchiudi il nome dell’attività in trattini doppi, ad esempio: `-- end --`. [Ulteriori informazioni](workflow-best-practices.md) informazioni sulle best practice per i flussi di lavoro.
+     >[!TIP]
+     >
+     >Come best practice, quando aggiungi uno script a un’attività, racchiudi il nome dell’attività in trattini doppi, ad esempio: `-- end --`. [Ulteriori informazioni](workflow-best-practices.md) informazioni sulle best practice per i flussi di lavoro.
 
 Sintassi del `PostEvent` metodo:
 
@@ -555,7 +555,7 @@ for each (var w in res.recipient)
 * Il `update` operazione
 * Il `insertOrUpdate` con il `_key` per identificare il record da aggiornare
 
-   Se non si specifica **Destinatari** cartella, se esiste una corrispondenza, il record viene aggiornato in qualsiasi sottocartella. In caso contrario, il record viene creato nella radice **Destinatari** cartella.
+  Se non si specifica **Destinatari** cartella, se esiste una corrispondenza, il record viene aggiornato in qualsiasi sottocartella. In caso contrario, il record viene creato nella radice **Destinatari** cartella.
 
 * Il `delete` operazione
 
@@ -600,7 +600,7 @@ xtk.session.Write(
 }
 ```
 
-Questo video illustra come utilizzare i metodi API non statici:
+Questo video mostra come utilizzare i metodi API non statici:
 >[!VIDEO](https://video.tv.adobe.com/v/18477/?learn=on)
 
 Questo video mostra un esempio di utilizzo di un metodo API non statico in un flusso di lavoro:

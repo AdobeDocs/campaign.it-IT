@@ -75,7 +75,7 @@ Per creare una campagna collaborativa (tramite approvazione target), **[!UICONTR
 
 Il flusso di lavoro della campagna deve essere integrato **Approvazione locale** attività di tipo. I parametri di attività sono i seguenti:
 
-* **[!UICONTROL Action to perform]** : Notifica di approvazione di destinazione.
+* **[!UICONTROL Action to perform]** : Notifica per approvazione target.
 * **[!UICONTROL Distribution context]** : Esplicito.
 * **[!UICONTROL Data distribution]** : distribuzione di entità locali.
 

@@ -26,7 +26,7 @@ Segui i passaggi seguenti per configurare un account esterno dedicato per import
 
 ## Creare la connessione{#new-sfdc-external-account}
 
-Innanzitutto devi creare l’account esterno Salesforce.
+Innanzitutto, devi creare l’account esterno Salesforce.
 
 1. Sfoglia **[!UICONTROL Administration > Platform > External accounts]** dell’Explorer di Campaign e creare un account esterno.
 1. Seleziona **[!UICONTROL Salesforce.com]** account esterno in **Tipo** sezione.

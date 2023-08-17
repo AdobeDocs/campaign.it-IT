@@ -31,16 +31,16 @@ Esistono due tipi di errore quando un messaggio non riesce. Ogni tipo di errore 
 * **Mancato recapito permanente**
 I mancati recapiti permanenti sono errori permanenti generati dopo che un ISP determina che un tentativo di invio di e-mail all’indirizzo di un abbonato non è consegnabile. In Adobe Campaign, i mancati recapiti permanenti classificati come impossibili da recapitare vengono aggiunti all’elenco di quarantena, il che significa che non verranno ritentati. In alcuni casi, un mancato recapito permanente verrebbe ignorato se la causa dell’errore fosse sconosciuta.
 
-   Di seguito sono riportati alcuni esempi comuni di mancati recapiti permanenti: l’indirizzo non esiste, l’account è disabilitato, la sintassi non è valida, il dominio non valido
+  Di seguito sono riportati alcuni esempi comuni di mancati recapiti permanenti: l’indirizzo non esiste, l’account è disabilitato, la sintassi non è valida, il dominio non valido
 
 * **Mancati recapiti non permanenti**
 I mancati recapiti non permanenti sono errori temporanei generati dagli ISP in caso di difficoltà nella consegna della posta. I guasti non permanenti [riprova](#retries) più volte (con varianza a seconda dell’utilizzo di impostazioni di consegna personalizzate o predefinite) per tentare una consegna corretta. Gli indirizzi che generano mancati recapiti non permanenti in modo continuo non verranno aggiunti alla quarantena fino a quando non sarà raggiunto il numero massimo di tentativi (che, anche in questo caso, varia a seconda delle impostazioni).
 
-   Alcune cause comuni di mancati recapiti non permanenti includono: Cassetta postale piena, Ricezione del server e-mail inattivo, Problemi di reputazione del mittente
+  Alcune cause comuni di mancati recapiti non permanenti includono: Cassetta postale piena, Ricezione del server e-mail inattivo, Problemi di reputazione del mittente
 
 Il  **Ignorato** il tipo di errore è considerato temporaneo, ad esempio &quot;Fuori sede&quot;, o è un errore tecnico, ad esempio se il tipo di mittente è &quot;postmaster&quot;.
 
-Il ciclo di feedback funziona come le e-mail non recapitate: quando un utente qualifica un’e-mail come spam, puoi configurare le regole e-mail in Adobe Campaign per bloccare tutte le consegne a questo utente. Inserita nell&#39;elenco Bloccati Gli indirizzi di questi utenti vengono anche se non hanno fatto clic sul collegamento di annullamento dell’abbonamento. Gli indirizzi vengono aggiunti al (**NmsAddress**) e non alla tabella di quarantena (**NmsRecipient**) tabella dei destinatari con **[!UICONTROL Denylisted]** stato. Ulteriori informazioni sul meccanismo del ciclo di feedback sono disponibili in [Guida alle best practice per la consegna di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops).
+Il ciclo di feedback funziona come le e-mail non recapitate: quando un utente qualifica un’e-mail come spam, puoi configurare le regole e-mail in Adobe Campaign per bloccare tutte le consegne a questo utente. Inserire nell&#39;elenco Bloccati Gli indirizzi di questi utenti vengono anche se non hanno fatto clic sul collegamento di annullamento dell’abbonamento. Gli indirizzi vengono aggiunti al (**NmsAddress**) e non alla tabella di quarantena (**NmsRecipient**) tabella dei destinatari con **[!UICONTROL Denylisted]** stato. Ulteriori informazioni sul meccanismo del ciclo di feedback sono disponibili in [Guida alle best practice per la consegna di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops).
 
 ## Errori sincroni e asincroni {#synchronous-and-asynchronous-errors}
 
@@ -54,7 +54,7 @@ Questi tipi di errori vengono gestiti come segue:
 
 >[!NOTE]
 >
->In qualità di utente di Managed Cloud Services, la configurazione della cassetta postale di mancato recapito viene eseguita da Adobe.
+>In qualità di utente di Managed Cloud Service, la configurazione della cassetta postale di mancato recapito viene eseguita da Adobe.
 
 ## Qualificazione di mail non recapitate {#bounce-mail-qualification}
 
@@ -151,7 +151,7 @@ Di seguito sono elencati i possibili motivi di un errore di consegna per il cana
    <td> La valutazione della qualità per questo indirizzo è troppo bassa.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Indirizzo inserito nell’elenco Bloccati </td> 
+   <td> Indirizzo inserito nell’elenco bloccati </td> 
    <td> Rigido </td> 
    <td> 8 </td> 
    <td> L’indirizzo è stato aggiunto al inserisco nell'elenco Bloccati di invio della. Questo stato viene utilizzato per importare i dati da elenchi esterni e sistemi esterni nell’elenco di quarantena di Adobe Campaign.<br /> </td> 
@@ -659,18 +659,18 @@ SR Generic DELIVRD 000|#MESSAGE#
 * Tutti i messaggi di errore iniziano con **SR** per distinguere i codici di errore SMS dai codici di errore e-mail.
 * La seconda parte (**Generico** in questo esempio) del messaggio di errore si riferisce al nome dell’implementazione SMSC, come definito nella **[!UICONTROL SMSC implementation name]** campo dell’account esterno SMS.
 
-   Poiché lo stesso codice di errore può avere un significato diverso per ogni provider, questo campo consente di sapere quale provider ha generato il codice di errore. L’errore è quindi disponibile nella documentazione del provider pertinente.
+  Poiché lo stesso codice di errore può avere un significato diverso per ogni provider, questo campo consente di sapere quale provider ha generato il codice di errore. L’errore è quindi disponibile nella documentazione del provider pertinente.
 
 * La terza parte (**CONSEGNA** in questo esempio) del messaggio di errore corrisponde al codice di stato recuperato dall’SR utilizzando il regex di estrazione dello stato definito nell’account esterno SMS.
 
-   Questo regex è specificato nel **[!UICONTROL SMSC specificities]** dell’account esterno.
+  Questo regex è specificato nel **[!UICONTROL SMSC specificities]** dell’account esterno.
 Per impostazione predefinita, il codice regex estrae **stat:** campo definito dalla **Appendice B** sezione del **Specifiche SMPP 3.4**.
 
 * La quarta parte (**000** in questo esempio) del messaggio di errore corrisponde al codice di errore estratto dall’SR utilizzando l’estrazione del codice di errore regex definita nell’account esterno SMS.
 
-   Questo regex è specificato nel **[!UICONTROL SMSC specificities]** dell’account esterno.
+  Questo regex è specificato nel **[!UICONTROL SMSC specificities]** dell’account esterno.
 
-   Per impostazione predefinita, il codice regex estrae **errore:** campo definito dalla **Appendice B** sezione del **Specifiche SMPP 3.4**.
+  Per impostazione predefinita, il codice regex estrae **errore:** campo definito dalla **Appendice B** sezione del **Specifiche SMPP 3.4**.
 
 * Tutto ciò che segue il simbolo di barra verticale (|) viene visualizzato solo nel **[!UICONTROL First text]** colonna del **[!UICONTROL Delivery log qualification]** tabella. Questo contenuto viene sempre sostituito da **#MESSAGE#** dopo la normalizzazione del messaggio. Questo processo evita di inserire più voci per errori simili ed è lo stesso delle e-mail.
 

@@ -49,25 +49,25 @@ Per creare il modello di consegna, segui i passaggi seguenti:
 
    * Fai clic su **[!UICONTROL Attachments]** e fai clic sulla freccia accanto al **[!UICONTROL Add]** pulsante. Seleziona **[!UICONTROL Calculated attachment...]**.
 
-      ![](assets/use_case_report_4.png)
+     ![](assets/use_case_report_4.png)
 
    * In **[!UICONTROL Type]** , seleziona l’opzione più recente: **[!UICONTROL File name is computed during delivery of each message (it may then depend on the recipient profile)]**.
 
-      ![](assets/use_case_report_5.png)
+     ![](assets/use_case_report_5.png)
 
-      Il valore immesso nel **[!UICONTROL Label]** non verrà visualizzato nella consegna finale.
+     Il valore immesso nel **[!UICONTROL Label]** non verrà visualizzato nella consegna finale.
 
    * Nell&#39;area di testo immettere il percorso di accesso e il nome del file.
 
-      ![](assets/use_case_report_6.png)
+     ![](assets/use_case_report_6.png)
 
-      >[!CAUTION]
-      >
-      >Il percorso e il nome devono essere identici a quelli immessi nella **[!UICONTROL JavaScript code]** tipo di attività del flusso di lavoro, come spiegato in [Passaggio 3: creare il flusso di lavoro](#step-3--creating-the-workflow).
+     >[!CAUTION]
+     >
+     >Il percorso e il nome devono essere identici a quelli immessi nella **[!UICONTROL JavaScript code]** tipo di attività del flusso di lavoro, come spiegato in [Passaggio 3: creare il flusso di lavoro](#step-3--creating-the-workflow).
 
    * Seleziona la **[!UICONTROL Advanced]** Tab e check **[!UICONTROL Script the name of the file name displayed in the mails sent]**. Nell’area di testo, immetti il nome dell’allegato nella consegna finale.
 
-      ![](assets/use_case_report_6b.png)
+     ![](assets/use_case_report_6b.png)
 
 ## Passaggio 3: creare il flusso di lavoro {#step-3--creating-the-workflow}
 
@@ -117,9 +117,9 @@ Per creare questo flusso di lavoro, effettua le seguenti operazioni:
    * **var reportName**: inserisci il nome interno del rapporto tra virgolette. In questo caso, il nome interno del **Indicatore di tracciamento** report è &quot;deliveryFeedback&quot;.
    * **percorso var**: immetti il percorso di salvataggio del file (&quot;tmp&quot;), il nome che desideri assegnare al file (&quot;deliveryFeedback&quot;) e l’estensione (&quot;.pdf&quot;). In questo caso, abbiamo utilizzato il nome interno come nome del file. I valori devono essere compresi tra virgolette doppie e separati dal carattere &quot;+&quot;.
 
-      >[!CAUTION]
-      >
-      >Il file deve essere salvato sul server. È necessario immettere lo stesso percorso e lo stesso nome del file **[!UICONTROL General]** scheda della finestra di modifica per l&#39;allegato calcolato, come descritto [qui](#step-2--create-the-delivery-template)).
+     >[!CAUTION]
+     >
+     >Il file deve essere salvato sul server. È necessario immettere lo stesso percorso e lo stesso nome del file **[!UICONTROL General]** scheda della finestra di modifica per l&#39;allegato calcolato, come descritto [qui](#step-2--create-the-delivery-template)).
 
    * **var exportFormat**: inserisci il formato di esportazione del file (&quot;PDF&quot;).
    * **var_ctx** (contesto): in questo caso utilizziamo il **[!UICONTROL Tracking indicators]** nel suo contesto globale.

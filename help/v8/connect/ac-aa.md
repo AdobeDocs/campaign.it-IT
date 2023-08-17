@@ -18,7 +18,7 @@ Puoi configurare Adobe Analytics per integrare Campaign e Analytics.
 
 Questa integrazione consente ad Adobe Campaign e Adobe Analytics di interagire attraverso **Connettori di analisi web** componente aggiuntivo. Questa integrazione invia ad Adobe Analytics indicatori e attributi delle campagne e-mail consegnate da Adobe Campaign.
 
-![](../assets/do-not-localize/speech.png)  In qualità di utente di Managed Cloud Services, [Adobe di contatto](../start/campaign-faq.md#support) per collegare Campaign con i servizi e le soluzioni di Adobe Experience Cloud. Il componente aggiuntivo Connettore Web Analytics deve essere installato nell’ambiente tramite il pacchetto dedicato.
+![](../assets/do-not-localize/speech.png)  In qualità di utente di Managed Cloud Service, [Adobe di contatto](../start/campaign-faq.md#support) per collegare Campaign con i servizi e le soluzioni di Adobe Experience Cloud. Il componente aggiuntivo Connettore Web Analytics deve essere installato nell’ambiente tramite il pacchetto dedicato.
 
 Utilizzando il connettore Adobe Analytics, Adobe Campaign ha un modo di misurare il pubblico Internet (analisi web). Gli strumenti di analisi web consentono ad Adobe Campaign di inoltrare indicatori e attributi della campagna ad Analytics.
 

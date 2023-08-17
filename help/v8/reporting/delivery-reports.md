@@ -65,9 +65,9 @@ Questo rapporto combina gli indicatori chiave per monitorare il comportamento de
 * **[!UICONTROL Clicks on the mirror page link]** : numero di clic sul collegamento al [pagina mirror](../send/mirror-page.md). Per poter essere preso in considerazione, il collegamento deve essere definito come tale nella procedura guidata di consegna (URL tracciati).
 * **[!UICONTROL Estimation of forwards]** : stima del numero di e-mail inoltrate dai destinatari interessati. Questo valore viene calcolato sottraendo il numero di persone distinte e il numero di destinatari distinti che hanno fatto clic nell’e-mail.
 
-   >[!NOTE]
-   >
-   >Per ulteriori informazioni sulla differenza tra persone distinte e destinatari mirati, consulta [Persone/destinatari interessati](metrics-calculation.md#targeted-persons---recipients).
+  >[!NOTE]
+  >
+  >Per ulteriori informazioni sulla differenza tra persone distinte e destinatari mirati, consulta [Persone/destinatari interessati](metrics-calculation.md#targeted-persons---recipients).
 
 **[!UICONTROL 3. Open and click-through rate]**
 
@@ -146,7 +146,7 @@ The central table provides the following information:
 This chart shows the breakdown of cumulated clicks per day.
 -->
 
-## Riepilogo consegne {#delivery-summary}
+## Riepilogo delle consegne {#delivery-summary}
 
 Questo rapporto fornisce tutte le informazioni principali sulla consegna.
 

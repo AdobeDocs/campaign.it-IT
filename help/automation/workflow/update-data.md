@@ -37,7 +37,7 @@ Specificare come identificare i record nel database:
 
 * Se le voci di dati si riferiscono a una dimensione di targeting esistente, seleziona la **[!UICONTROL By directly using the targeting dimension]** e selezionarla nella **[!UICONTROL Updated dimension]** campo.
 
-   Puoi visualizzare i campi per la dimensione selezionata utilizzando **[!UICONTROL Edit this link]** pulsante lente di ingrandimento.
+  Puoi visualizzare i campi per la dimensione selezionata utilizzando **[!UICONTROL Edit this link]** pulsante lente di ingrandimento.
 
 * In caso contrario, specifica uno o più collegamenti che consentano l’identificazione dei dati nel database o l’uso diretto delle chiavi di riconciliazione.
 
@@ -61,7 +61,7 @@ In un **[!UICONTROL Insert or update]** , puoi selezionare la campagna da applic
 
 ![](assets/s_advuser_update_data_5.png)
 
-Il **[!UICONTROL modifiedDate]**, **[!UICONTROL modifiedBy]**, **[!UICONTROL createdDate]** e **[!UICONTROL createdBy]** I campi vengono aggiornati automaticamente durante gli aggiornamenti dei dati, a meno che la relativa modalità di gestione non sia configurata specificamente nella tabella di aggiornamento dei campi.
+Il **[!UICONTROL modifiedDate]**, **[!UICONTROL modifiedBy]**, **[!UICONTROL createdDate]** e **[!UICONTROL createdBy]** I campi vengono aggiornati automaticamente durante gli aggiornamenti dei dati, a meno che la relativa modalità di gestione non sia configurata in modo specifico nella tabella di aggiornamento dei campi.
 
 L&#39;aggiornamento del record viene eseguito solo per i record contenenti almeno una differenza. Se i valori sono identici, non viene eseguito alcun aggiornamento.
 

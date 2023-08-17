@@ -65,7 +65,7 @@ Ora puoi aggiungere al progetto il tuo profilo di prodotto Campaign, come descri
 
 Questo passaggio è necessario solo se per questo operatore sono stati definiti autorizzazioni di cartella o diritti denominati specifici (non tramite il gruppo dell&#39;operatore ).
 
-Ora devi aggiornare l’operatore tecnico appena creato nella console client di Adobe Campaign. È necessario applicare al nuovo operatore tecnico le autorizzazioni esistenti per la cartella dell&#39;operatore tecnico.
+Ora devi aggiornare l’operatore tecnico appena creato nella console client di Adobe Campaign. È necessario applicare al nuovo operatore tecnico le autorizzazioni esistenti per la cartella dell’operatore tecnico.
 Per aggiornare questo operatore, effettua le seguenti operazioni:
 
 1. Dall’Explorer della console client di Campaign, passa alla **Amministrazione > Gestione degli accessi > Operatori**.

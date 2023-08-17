@@ -24,4 +24,4 @@ Ciò significa che puoi sfruttare al massimo sia le funzionalità di modifica de
 
 ![](../assets/do-not-localize/book.png) [Scopri questa integrazione in questo esempio end-to-end](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-experience-manager/creating-an-experience-manager-newsletter.html#integrating-with-adobe-experience-cloud)
 
-![](../assets/do-not-localize/speech.png)  In qualità di utente di Managed Cloud Services, [Adobe di contatto](../start/campaign-faq.md#support) per integrare Adobe Experience Manager con Campaign.
+![](../assets/do-not-localize/speech.png)  In qualità di utente di Managed Cloud Service, [Adobe di contatto](../start/campaign-faq.md#support) per integrare Adobe Experience Manager con Campaign.

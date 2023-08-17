@@ -139,7 +139,7 @@ In questa sezione troverai diversi casi d’uso che sfruttano le funzionalità d
 
 * [Inviare un’e-mail di compleanno](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=it)
 
-   Questo caso d’uso illustra come pianificare l’invio di un’e-mail ricorrente a un elenco di destinatari il giorno del loro compleanno.
+  Questo caso d’uso illustra come pianificare l’invio di un’e-mail ricorrente a un elenco di destinatari il giorno del loro compleanno.
 
 * [Caricare i contenuti della consegna](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html)
 Quando il contenuto della consegna è disponibile in un file HTML che si trova su un server remoto, puoi facilmente caricarlo nelle consegne Adobe Campaign.

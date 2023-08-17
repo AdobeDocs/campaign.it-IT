@@ -8,13 +8,13 @@ exl-id: 214ad693-d456-47ec-a9c8-199ba23c3d9c
 source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
 workflow-type: tm+mt
 source-wordcount: '554'
-ht-degree: 17%
+ht-degree: 20%
 
 ---
 
 # Utilizzare i blocchi di personalizzazione{#personalization-blocks}
 
-I blocchi di personalizzazione sono contenuti dinamici che contengono un rendering specifico che puoi inserire nelle consegne. Ad esempio, puoi aggiungere un logo, un messaggio di saluto o un collegamento a una pagina speculare.
+I blocchi di personalizzazione sono contenuti dinamici che contengono un rendering specifico che puoi inserire nelle consegne. Ad esempio, puoi aggiungere un logo, un messaggio di auguri o un collegamento alla pagina mirror.
 
 Per accedere ai blocchi di contenuto personalizzati, passa alla **[!UICONTROL Resources > Campaign Management > Personalization blocks]** nodo dell&#39;explorer. I blocchi di personalizzazione incorporati sono elencati in [questa sezione](#ootb-personalization-blocks).
 

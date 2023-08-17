@@ -25,15 +25,15 @@ Se necessario, è possibile assegnare l&#39;attività di approvazione a un singo
 
 * Per selezionare un singolo operatore, selezionare **[!UICONTROL Operator]** valore in **[!UICONTROL Assignment type]** e selezionare l&#39;operatore pertinente nell&#39;elenco a discesa del **[!UICONTROL Assignee]** campo.
 
-   ![](assets/s_advuser_validation_box_assign.png)
+  ![](assets/s_advuser_validation_box_assign.png)
 
-   >[!CAUTION]
-   >
-   >Solo l&#39;operatore scelto sarà autorizzato ad approvare l&#39;attività.
+  >[!CAUTION]
+  >
+  >Solo l&#39;operatore scelto sarà autorizzato ad approvare l&#39;attività.
 
 * Puoi definire una query per filtrare gli operatori di approvazione. A questo scopo, seleziona la **[!UICONTROL Filter]** valore in **[!UICONTROL Assignment type]** e fare clic sul pulsante **[!UICONTROL Advanced parameters...]** per definire le condizioni di filtro, come mostrato nell’esempio seguente:
 
-   ![](assets/s_advuser_validation_box_filter.png)
+  ![](assets/s_advuser_validation_box_filter.png)
 
 In caso di approvazione singola, viene attivata la transizione corrispondente alla scelta dell’operatore e l’operazione è terminata: gli altri operatori non possono rispondere.
 
@@ -69,8 +69,8 @@ Un esempio di approvazione è mostrato in [Definizione delle approvazioni](defin
 
 * **[!UICONTROL response]**
 
-   Commento relativo alla risposta
+  Commento relativo alla risposta
 
 * **[!UICONTROL responseOperator]**
 
-   Identificatore dell’operatore che ha risposto. Questo campo è un valore numerico, ma **[!UICONTROL String]** campo.
+  Identificatore dell’operatore che ha risposto. Questo campo è un valore numerico, ma **[!UICONTROL String]** campo.

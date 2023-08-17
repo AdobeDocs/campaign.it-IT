@@ -4,8 +4,8 @@ description: Ti avvicini ora ad Adobe Campaign? Consulta la documentazione su co
 feature: Overview
 role: Admin, Developer, User
 level: Beginner
-exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
-source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
+exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d
+source-git-commit: 2e597990aafb57631aa228464e4818782524e65e
 workflow-type: tm+mt
 source-wordcount: '866'
 ht-degree: 100%

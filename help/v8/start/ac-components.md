@@ -30,15 +30,15 @@ Puoi accedere ad Adobe Campaign tramite un client avanzato, un thin client o un�
 
 * Client avanzato
 
-   Il client Campaign Rich è un’applicazione nativa che comunica con il server applicazioni Adobe Campaign tramite protocolli Internet standard, come SOAP e HTTP. [Ulteriori informazioni su Campaign Client Console](../start/connect.md).
+  Il client Campaign Rich è un’applicazione nativa che comunica con il server applicazioni Adobe Campaign tramite protocolli Internet standard, come SOAP e HTTP. [Ulteriori informazioni su Campaign Client Console](../start/connect.md).
 
 * Thin client
 
-   Le funzionalità di accesso web di Adobe Campaign ti consentono di accedere a un sottoinsieme di funzionalità di Campaign con un browser web, utilizzando un’interfaccia utente di HTML. Utilizza questa interfaccia web per accedere ai rapporti, controllare e convalidare i messaggi, accedere alle dashboard di monitoraggio e altro ancora.  [Scopri come accedere a Campaign dal web](../start/connect.md).
+  Le funzionalità di accesso web di Adobe Campaign ti consentono di accedere a un sottoinsieme di funzionalità di Campaign con un browser web, utilizzando un’interfaccia utente di HTML. Utilizza questa interfaccia web per accedere ai rapporti, controllare e convalidare i messaggi, accedere alle dashboard di monitoraggio e altro ancora.  [Scopri come accedere a Campaign dal web](../start/connect.md).
 
 * Applicazioni esterne con API
 
-   In alcuni casi, il sistema può essere richiamato da applicazioni esterne utilizzando le API dei servizi web esposte tramite il protocollo SOAP. [Ulteriori informazioni sulle API di Campaign](../dev/api.md).
+  In alcuni casi, il sistema può essere richiamato da applicazioni esterne utilizzando le API dei servizi web esposte tramite il protocollo SOAP. [Ulteriori informazioni sulle API di Campaign](../dev/api.md).
 
 ### Livello di persistenza{#persistance-layer}
 
@@ -50,7 +50,7 @@ L’affidabilità del database è di fondamentale importanza perché la maggior 
 
 Il livello di applicazione logico di Campaign è facilmente configurabile per soddisfare esigenze aziendali complesse. Puoi utilizzare Campaign come una singola piattaforma con diverse applicazioni che si combinano per creare un’architettura aperta e scalabile. Ogni istanza di Campaign è una raccolta di processi nel livello dell’applicazione, alcuni dei quali sono condivisi e altri dedicati.
 
-## Cloud Services gestiti di Campaign{#ac-managed-services}
+## Cloud Service gestiti di Campaign{#ac-managed-services}
 
 Adobe Campaign v8 è implementato come as a Managed Service: tutti i componenti di Adobe Campaign, inclusa l’interfaccia utente, il motore di gestione dell’esecuzione e i database di Campaign, sono completamente ospitati come Adobe, tra cui l’esecuzione delle e-mail, le pagine mirror, il server di tracciamento e i componenti web rivolti verso l’esterno come la pagina di annullamento dell’abbonamento/il centro preferenze e le pagine di destinazione.
 

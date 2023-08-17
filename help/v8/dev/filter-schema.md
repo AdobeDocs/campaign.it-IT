@@ -24,7 +24,7 @@ Puoi filtrare l’accesso allo schema per utenti specifici, a seconda delle loro
 
 * **readAccess**: fornisce accesso in sola lettura ai dati dello schema.
 
-   **Avvertenza** - Tutte le tabelle collegate devono essere impostate con la stessa restrizione. Questa configurazione può influire sulle prestazioni.
+  **Avvertenza** - Tutte le tabelle collegate devono essere impostate con la stessa restrizione. Questa configurazione può influire sulle prestazioni.
 
 * **writeAccess**: fornisce accesso in scrittura ai dati dello schema.
 
@@ -32,29 +32,29 @@ Questi filtri vengono immessi nella **elemento** degli schemi e, come mostrato n
 
 * Limita autorizzazioni SCRITTURA
 
-   In questo caso, il filtro viene utilizzato per non consentire le autorizzazioni di SCRITTURA sullo schema per gli operatori che non dispongono dell’autorizzazione AMMINISTRAZIONE. Ciò significa che solo gli amministratori avranno autorizzazioni di scrittura sulle entità descritte da questo schema.
+  In questo caso, il filtro viene utilizzato per non consentire le autorizzazioni di SCRITTURA sullo schema per gli operatori che non dispongono dell’autorizzazione AMMINISTRAZIONE. Ciò significa che solo gli amministratori avranno autorizzazioni di scrittura sulle entità descritte da questo schema.
 
-   ```
-   <sysFilter name="writeAccess">      
-    <condition enabledIf="hasNamedRight('admin')=false" expr="FALSE"/>    
-   </sysFilter>
-   ```
+  ```
+  <sysFilter name="writeAccess">      
+   <condition enabledIf="hasNamedRight('admin')=false" expr="FALSE"/>    
+  </sysFilter>
+  ```
 
 * Limita le autorizzazioni di LETTURA e SCRITTURA:
 
-   In questo caso, il filtro viene utilizzato per non consentire le autorizzazioni di LETTURA e SCRITTURA sullo schema per tutti gli operatori. Solo il **interno** , rappresentato dall&#39;espressione &quot;$(loginId)!=0&quot;, dispone delle seguenti autorizzazioni.
+  In questo caso, il filtro viene utilizzato per non consentire le autorizzazioni di LETTURA e SCRITTURA sullo schema per tutti gli operatori. Solo il **interno** , rappresentato dall&#39;espressione &quot;$(loginId)!=0&quot;, dispone delle seguenti autorizzazioni.
 
-   ```
-   <sysFilter name="readAccess"> 
-    <condition enabledIf="$(loginId)!=0" expr="FALSE"/>
-   </sysFilter>
-   
-   <sysFilter name="writeAccess">  
-    <condition enabledIf="$(loginId)!=0" expr="FALSE"/>
-   </sysFilter>
-   ```
+  ```
+  <sysFilter name="readAccess"> 
+   <condition enabledIf="$(loginId)!=0" expr="FALSE"/>
+  </sysFilter>
+  
+  <sysFilter name="writeAccess">  
+   <condition enabledIf="$(loginId)!=0" expr="FALSE"/>
+  </sysFilter>
+  ```
 
-   Possibile **espr** I valori degli attributi utilizzati per definire la condizione sono TRUE o FALSE.
+  Possibile **espr** I valori degli attributi utilizzati per definire la condizione sono TRUE o FALSE.
 
 >[!NOTE]
 >

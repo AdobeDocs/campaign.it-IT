@@ -42,11 +42,11 @@ Esistono quattro tipi di collegamenti:
 * **[!UICONTROL Define a link whose target is still available]**: consente di definire un collegamento con cardinalità 1-1 tra le tabelle. Le condizioni di join devono essere definite da un singolo record nella tabella di destinazione.
 * **[!UICONTROL Define a link whose target does not necessarily exist in the base]**: consente di definire un collegamento con cardinalità 0-1 tra le tabelle. La condizione di unione deve essere definita da 0 o 1 (max) nella tabella di destinazione.
 
-   Questa opzione è configurata in **[!UICONTROL Simple Join]** accessibile tramite il **[!UICONTROL Edit additional data]** collegamento del **[!UICONTROL Enrichment]** attività.
+  Questa opzione è configurata in **[!UICONTROL Simple Join]** accessibile tramite il **[!UICONTROL Edit additional data]** collegamento del **[!UICONTROL Enrichment]** attività.
 
 * **[!UICONTROL Define a link by searching for a reference among several options]**: questo tipo di collegamento definisce una riconciliazione verso un record univoco. Adobe Campaign crea un collegamento a una tabella di destinazione aggiungendo una chiave esterna nella tabella di destinazione per la memorizzazione di un riferimento al record univoco.
 
-   Questa opzione è configurata in **[!UICONTROL Reconciliation and deduplication]** accessibile tramite il **[!UICONTROL Edit additional data]** collegamento del **[!UICONTROL Enrichment]** attività.
+  Questa opzione è configurata in **[!UICONTROL Reconciliation and deduplication]** accessibile tramite il **[!UICONTROL Edit additional data]** collegamento del **[!UICONTROL Enrichment]** attività.
 
 I casi d’uso che descrivono nel dettaglio il funzionamento delle attività di arricchimento nel loro contesto sono disponibili anche in queste sezioni:
 
@@ -170,11 +170,11 @@ Dopo aver configurato la query (consulta questa [sezione](query.md)):
 
    * **[!UICONTROL Search for the best offer in a category]**: seleziona questa opzione e specifica i parametri di chiamata del motore di offerta (spazio dell’offerta, categoria o temi, data di contatto, numero di offerte da mantenere). Il motore calcola automaticamente le offerte da aggiungere in base a questi parametri. È consigliabile completare **[!UICONTROL Category]** o **[!UICONTROL Theme]** e non entrambi contemporaneamente.
 
-      ![](assets/int_enrichment_offer3.png)
+     ![](assets/int_enrichment_offer3.png)
 
    * **[!UICONTROL A predefined offer]**: seleziona questa opzione e specifica uno spazio dell’offerta, un’offerta specifica e una data di contatto per configurare direttamente l’offerta da aggiungere, senza chiamare il motore delle offerte.
 
-      ![](assets/int_enrichment_offer4.png)
+     ![](assets/int_enrichment_offer4.png)
 
 1. Quindi configura un’attività di consegna che corrisponde al canale scelto. Fai riferimento a [Consegne cross-channel](cross-channel-deliveries.md).
 

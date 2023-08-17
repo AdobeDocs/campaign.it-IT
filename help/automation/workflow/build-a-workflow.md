@@ -15,11 +15,11 @@ ht-degree: 4%
 
 ## Crea un nuovo flusso di lavoro {#create-a-new-workflow}
 
-Il flusso di creazione del flusso di lavoro dipende dal tipo di flussi di lavoro. È possibile eseguire le seguenti operazioni:
+Il flusso di creazione del flusso di lavoro dipende dal tipo di flussi di lavoro. Puoi:
 
 * Crea [Workflow di targeting](#targeting-workflows) dal **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Jobs]** > **[!UICONTROL Targeting workflows]** dell&#39;Explorer o dal **[!UICONTROL Profiles and Targets]** della home page, tramite la scheda **[!UICONTROL Targeting workflows]** scheda secondaria.
 
-   ![](assets/create-targeting-wf.png)
+  ![](assets/create-targeting-wf.png)
 
 * Crea [Flussi di lavoro per campagne](#campaign-workflows) dal **[!UICONTROL Targeting and workflows]** scheda di una campagna
 
@@ -74,28 +74,28 @@ Per creare il diagramma
 
 * **Utilizzare la barra degli strumenti**
 
-   La barra degli strumenti di modifica del diagramma consente di accedere alle funzioni di layout ed esecuzione del flusso di lavoro.
+  La barra degli strumenti di modifica del diagramma consente di accedere alle funzioni di layout ed esecuzione del flusso di lavoro.
 
-   ![](assets/wf-toolbar.png)
+  ![](assets/wf-toolbar.png)
 
-   Questo consente di adattare il layout dello strumento di modifica: visualizzazione della palette e panoramica, dimensioni e allineamento degli oggetti grafici.
+  Questo consente di adattare il layout dello strumento di modifica: visualizzazione della palette e panoramica, dimensioni e allineamento degli oggetti grafici.
 
-   ![](assets/s_user_segmentation_toolbar.png)
+  ![](assets/s_user_segmentation_toolbar.png)
 
-   Le icone relative all’avanzamento e alla visualizzazione dei registri sono descritte in dettaglio nelle sezioni seguenti:
+  Le icone relative all’avanzamento e alla visualizzazione dei registri sono descritte in dettaglio nelle sezioni seguenti:
 
    * [Avanzamento visualizzazione](monitor-workflow-execution.md#displaying-progress)
    * [Visualizza registri](monitor-workflow-execution.md#displaying-logs)
 
 * **Allineamento degli oggetti**
 
-   Per allineare le icone, selezionarle e fare clic sul pulsante **[!UICONTROL Align vertically]** o **[!UICONTROL Align horizontally]** icona.
+  Per allineare le icone, selezionarle e fare clic sul pulsante **[!UICONTROL Align vertically]** o **[!UICONTROL Align horizontally]** icona.
 
-   Utilizza il **CTRL** chiave per selezionare più attività sparse o per deselezionare una o più attività. Fare clic sullo sfondo del diagramma per deselezionare tutto.
+  Utilizza il **CTRL** chiave per selezionare più attività sparse o per deselezionare una o più attività. Fare clic sullo sfondo del diagramma per deselezionare tutto.
 
 * **Gestione delle immagini**
 
-   Puoi personalizzare l’immagine di sfondo del diagramma e quelle relative alle varie attività. Fai riferimento a [Modificare le immagini dell’attività](change-activity-images.md).
+  Puoi personalizzare l’immagine di sfondo del diagramma e quelle relative alle varie attività. Fai riferimento a [Modificare le immagini dell’attività](change-activity-images.md).
 
 ## Configurare le attività {#configure-activities}
 

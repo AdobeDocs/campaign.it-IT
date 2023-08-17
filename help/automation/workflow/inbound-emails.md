@@ -25,31 +25,31 @@ La prima scheda della **E-mail in entrata** attività consente di immettere i pa
 
    * **[!UICONTROL Use an external account]**
 
-      Quando questa opzione è attivata, è possibile selezionare un account POP3 esterno invece di immettere i parametri di connessione. Il **[!UICONTROL External account]** specifica l’account POP3 esterno da utilizzare per la connessione al servizio e-mail. Questo campo è visibile solo se è abilitata l’opzione &quot;Usa un account esterno&quot;.
+     Quando questa opzione è attivata, è possibile selezionare un account POP3 esterno invece di immettere i parametri di connessione. Il **[!UICONTROL External account]** specifica l’account POP3 esterno da utilizzare per la connessione al servizio e-mail. Questo campo è visibile solo se è abilitata l’opzione &quot;Usa un account esterno&quot;.
 
-      Se questa opzione non è selezionata, è necessario specificare i seguenti parametri:
+     Se questa opzione non è selezionata, è necessario specificare i seguenti parametri:
 
-      ![](assets/email_rec_edit_1b.png)
+     ![](assets/email_rec_edit_1b.png)
 
       * **[!UICONTROL POP3 server]**
 
-         Nome del server POP3.
+        Nome del server POP3.
 
       * **[!UICONTROL POP3 account]**
 
-         Nome dell’utente.
+        Nome dell’utente.
 
       * **[!UICONTROL Password]**
 
-         Password dell’account utente.
+        Password dell’account utente.
 
       * **[!UICONTROL Port]**
 
-         Numero porta di connessione POP3. La porta predefinita è 110.
+        Numero porta di connessione POP3. La porta predefinita è 110.
+
    * **[!UICONTROL Stop as soon as email is processed]**
 
-      Questa opzione consente di elaborare le e-mail singolarmente. L’attività attiva la relativa transizione una sola volta e quindi termina l’elaborazione, lasciando sul server i messaggi non elaborati.
-
+     Questa opzione consente di elaborare le e-mail singolarmente. L’attività attiva la relativa transizione una sola volta e quindi termina l’elaborazione, lasciando sul server i messaggi non elaborati.
 
 1. **[!UICONTROL Script]**
 

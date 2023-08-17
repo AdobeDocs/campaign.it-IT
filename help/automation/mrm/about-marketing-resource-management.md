@@ -33,15 +33,15 @@ Nel contesto di Adobe Campaign Marketing Resource Management, i concetti e i ter
 
 * **Attività**
 
-   Un’attività corrisponde a un’azione da eseguire nel contesto di una campagna. Un&#39;attività viene assegnata a un gruppo o a una persona. Un&#39;attività figlio può dipendere da un&#39;attività padre, il che significa che l&#39;attività padre non verrà eseguita fino al completamento di tutte le attività figlio. Alcuni esempi di attività includono: riferimento a un sito web, una revisione del budget, una descrizione, ecc.
+  Un’attività corrisponde a un’azione da eseguire nel contesto di una campagna. Un&#39;attività viene assegnata a un gruppo o a una persona. Un&#39;attività figlio può dipendere da un&#39;attività padre, il che significa che l&#39;attività padre non verrà eseguita fino al completamento di tutte le attività figlio. Alcuni esempi di attività includono: riferimento a un sito web, una revisione del budget, una descrizione, ecc.
 
-   Per ulteriori informazioni, consulta [Creare e gestire le attività](creating-and-managing-tasks.md).
+  Per ulteriori informazioni, consulta [Creare e gestire le attività](creating-and-managing-tasks.md).
 
 * **Risorse di marketing**
 
-   Adobe Campaign consente di monitorare l’avanzamento dei progetti di marketing collaborativo come mezzi di comunicazione, piani d’azione, newsletter, ecc. Il ciclo di creazione e approvazione di queste risorse di marketing può essere tracciato dal dashboard delle risorse fino alla loro pubblicazione.
+  Adobe Campaign consente di monitorare l’avanzamento dei progetti di marketing collaborativo come mezzi di comunicazione, piani d’azione, newsletter, ecc. Il ciclo di creazione e approvazione di queste risorse di marketing può essere tracciato dal dashboard delle risorse fino alla loro pubblicazione.
 
-   Per ulteriori informazioni, consulta [Gestire le risorse di marketing](managing-marketing-resources.md).
+  Per ulteriori informazioni, consulta [Gestire le risorse di marketing](managing-marketing-resources.md).
 
 <!--
 >[!NOTE]

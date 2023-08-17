@@ -110,7 +110,7 @@ Il loro stato diventa quindi **[!UICONTROL Valid]**.
 
 * Modifica il suo stato in **[!UICONTROL Valid]** dal **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** nodo.
 
-   ![](assets/tech-quarantine-status.png)
+  ![](assets/tech-quarantine-status.png)
 
 Potrebbe essere necessario eseguire aggiornamenti in blocco sull’elenco di quarantena, ad esempio in caso di un’interruzione del servizio dell’ISP durante la quale le e-mail vengono erroneamente contrassegnate come non recapitate perché non possono essere consegnate correttamente al destinatario.
 

@@ -37,9 +37,9 @@ I diritti assegnati ai responsabili delle consegne consentono loro di svolgere i
 * Visualizzare e modificare le categorie di offerta.
 * Approva le offerte se sono i loro revisori.
 
-   >[!NOTE]
-   >
-   >**Responsabili della consegna** può approvare un’offerta solo se è stata dichiarata come revisore nella configurazione dell’offerta.
+  >[!NOTE]
+  >
+  >**Responsabili della consegna** può approvare un’offerta solo se è stata dichiarata come revisore nella configurazione dell’offerta.
 
 ## Matrice di autorizzazione per operatore di interazione {#recap-of-rights-according-to-operator}
 

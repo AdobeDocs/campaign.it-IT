@@ -23,13 +23,13 @@ I messaggi di notifica vengono inviati agli operatori di Adobe Campaign designat
 Gli operatori possono approvare in diversi modi:
 
 * Dal messaggio di notifica. Il collegamento nell’e-mail porta l’operatore a Campaign tramite un browser web. Dopo la connessione, il revisore può scegliere se approvare o meno il contenuto.
-   ![](assets/approval-content-email.png)
+  ![](assets/approval-content-email.png)
 
 * Dal dashboard della campagna.
-   ![](assets/approval-from-dashboard.png)
+  ![](assets/approval-from-dashboard.png)
 
 * Dal dashboard di consegna.
-   ![](assets/approval-from-delivery-dashboard.png)
+  ![](assets/approval-from-delivery-dashboard.png)
 
 Gli operatori possono accedere alla campagna e alla consegna dalla finestra di approvazione. Possono anche inserire un commento.
 
@@ -98,6 +98,7 @@ Al termine di queste fasi di convalida, la consegna può essere avviata. [Ulteri
 >[!NOTE]
 >
 >I processi che richiedono un’approvazione vengono selezionati nel modello della campagna. [Ulteriori informazioni](marketing-campaign-templates.md).
+>
 
 ### Passaggi per approvare una consegna {#approving-processes}
 
@@ -109,33 +110,33 @@ Per ogni consegna nella campagna, puoi approvare i seguenti processi:
 
 * **Targeting, contenuto e budget**
 
-   Quando **[!UICONTROL Enable target approval]**, **[!UICONTROL Enable content approval]** o **[!UICONTROL Enable budget approval]** sono selezionate nelle impostazioni di approvazione, i collegamenti correlati sono visualizzati nelle dashboard di campaign e delivery.
+  Quando **[!UICONTROL Enable target approval]**, **[!UICONTROL Enable content approval]** o **[!UICONTROL Enable budget approval]** sono selezionate nelle impostazioni di approvazione, i collegamenti correlati sono visualizzati nelle dashboard di campaign e delivery.
 
-   ![](assets/template-activate-6.png)
+  ![](assets/template-activate-6.png)
 
-   >[!NOTE]
-   >
-   >L&#39;approvazione del budget è disponibile solo se l&#39;approvazione target è abilitata nella finestra delle impostazioni di approvazione. Il collegamento per l&#39;approvazione del budget viene visualizzato solo dopo l&#39;analisi della destinazione.
+  >[!NOTE]
+  >
+  >L&#39;approvazione del budget è disponibile solo se l&#39;approvazione target è abilitata nella finestra delle impostazioni di approvazione. Il collegamento per l&#39;approvazione del budget viene visualizzato solo dopo l&#39;analisi della destinazione.
 
-   Se il **[!UICONTROL Assign content editing]** o **[!UICONTROL External content approval]** nella finestra delle impostazioni di approvazione, il dashboard mostra **[!UICONTROL Available content]** e **[!UICONTROL External content approval]** collegamenti.
+  Se il **[!UICONTROL Assign content editing]** o **[!UICONTROL External content approval]** nella finestra delle impostazioni di approvazione, il dashboard mostra **[!UICONTROL Available content]** e **[!UICONTROL External content approval]** collegamenti.
 
-   L’approvazione del contenuto ti consente di accedere alle bozze inviate.
+  L’approvazione del contenuto ti consente di accedere alle bozze inviate.
 
 * **Approvazione estrazione (consegna direct mailing)**
 
-   Quando **[!UICONTROL Enable extraction approval]** è selezionato nella finestra delle impostazioni di approvazione, il file estratto deve essere approvato prima che il router possa ricevere una notifica.
+  Quando **[!UICONTROL Enable extraction approval]** è selezionato nella finestra delle impostazioni di approvazione, il file estratto deve essere approvato prima che il router possa ricevere una notifica.
 
-   Il **[!UICONTROL Approve file]** è disponibile nelle dashboard di campaign e delivery.
+  Il **[!UICONTROL Approve file]** è disponibile nelle dashboard di campaign e delivery.
 
-   ![](assets/approve-file-preview.png)
+  ![](assets/approve-file-preview.png)
 
-   È possibile visualizzare in anteprima il file di output prima della convalida. L’anteprima del file di estrazione mostra solo un esempio di dati. L&#39;intero file non è stato caricato.
+  È possibile visualizzare in anteprima il file di output prima della convalida. L’anteprima del file di estrazione mostra solo un esempio di dati. L&#39;intero file non è stato caricato.
 
 * **Approvazione delle consegne associate**
 
-   Il **[!UICONTROL Enable individual approval of each associated delivery]** L’opzione viene utilizzata per una consegna principale associata alle consegne secondarie. Per impostazione predefinita, questa opzione non è selezionata, pertanto è possibile eseguire un’approvazione complessiva della consegna principale. Se questa opzione è selezionata, ogni consegna deve essere approvata singolarmente.
+  Il **[!UICONTROL Enable individual approval of each associated delivery]** L’opzione viene utilizzata per una consegna principale associata alle consegne secondarie. Per impostazione predefinita, questa opzione non è selezionata, pertanto è possibile eseguire un’approvazione complessiva della consegna principale. Se questa opzione è selezionata, ogni consegna deve essere approvata singolarmente.
 
-   ![](assets/enable-ind-approval.png)
+  ![](assets/enable-ind-approval.png)
 
 
 >[!NOTE]
@@ -259,19 +260,19 @@ I registri di approvazione sono disponibili nell’interfaccia utente:
 
 * Nel registro di approvazione della campagna: **[!UICONTROL Approvals]** scheda secondaria della scheda **[!UICONTROL Edit > Audit]** scheda:
 
-   ![](assets/approval-tracking-from-campaign.png)
+  ![](assets/approval-tracking-from-campaign.png)
 
 * Nel registro di consegna della campagna, **[!UICONTROL Deliveries]** scheda secondaria della scheda **[!UICONTROL Edit > Audit]** scheda:
 
-   ![](assets/approval-tracking-from-campaign-deliveries.png)
+  ![](assets/approval-tracking-from-campaign-deliveries.png)
 
 * Lo stato di approvazione di ogni consegna può essere visualizzato facendo clic sul pulsante **[!UICONTROL Hide/display logs]** opzione del **[!UICONTROL Summary]** scheda.
 
-   ![](assets/approval-tracking-delivery-dashboard.png)
+  ![](assets/approval-tracking-delivery-dashboard.png)
 
 * Queste informazioni sono accessibili tramite **[!UICONTROL Audit > Approvals]** scheda di ciascuna consegna:
 
-   ![](assets/approval-tracking-delivery-tab.png)
+  ![](assets/approval-tracking-delivery-tab.png)
 
 >[!NOTE]
 >

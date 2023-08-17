@@ -35,7 +35,7 @@ La modalità di consegna viene scelta in **[!UICONTROL Typology]** scheda second
 
 Per creare una simulazione, attieniti alla seguente procedura:
 
-1. Apri **[!UICONTROL Campaigns]** , fare clic sulla scheda **[!UICONTROL More]** collegamento all&#39;interno del **[!UICONTROL Create]** e seleziona la sezione **[!UICONTROL Simulation]** opzione.
+1. Apri **[!UICONTROL Campaigns]** , fare clic sulla scheda **[!UICONTROL More]** collegamento all&#39;interno del **[!UICONTROL Create]** e seleziona la **[!UICONTROL Simulation]** opzione.
 
    ![](assets/simu_campaign_opti_01.png)
 
@@ -114,9 +114,9 @@ Al termine dell’esecuzione, apri la simulazione e fai clic su **[!UICONTROL Re
    * Il **[!UICONTROL Initial count]** è il target calcolato durante la stima nella consegna.
    * Il **[!UICONTROL Final count]** è il numero di destinatari conteggiati dopo la simulazione.
 
-      La differenza tra i conteggi iniziali e finali riflette l’applicazione delle varie regole o filtri configurati prima della simulazione.
+     La differenza tra i conteggi iniziali e finali riflette l’applicazione delle varie regole o filtri configurati prima della simulazione.
 
-      Per ulteriori informazioni su questo calcolo, modifica **[!UICONTROL Exclusions]** scheda secondaria.
+     Per ulteriori informazioni su questo calcolo, modifica **[!UICONTROL Exclusions]** scheda secondaria.
 
 1. Il **[!UICONTROL Exclusions]** scheda secondaria consente di visualizzare il raggruppamento di esclusione.
 
@@ -212,15 +212,15 @@ Nell’esempio seguente, vogliamo creare un asse di reporting aggiuntivo basato 
 
    * **[!UICONTROL Generate target overlap statistics]** consente di recuperare tutte le statistiche di sovrapposizione nel rapporto di simulazione. Le sovrapposizioni sono destinatari di almeno due consegne nell’ambito di una simulazione.
 
-      >[!CAUTION]
-      >
-      >Selezionando questa opzione si aumenta notevolmente il tempo di esecuzione della simulazione.
+     >[!CAUTION]
+     >
+     >Selezionando questa opzione si aumenta notevolmente il tempo di esecuzione della simulazione.
 
    * **[!UICONTROL Keep the simulation work table]** consente di conservare le tracce della simulazione.
 
-      >[!CAUTION]
-      >
-      >Il salvataggio automatico di queste tabelle richiede una capacità di archiviazione significativa: assicurati che il database sia sufficientemente grande.
+     >[!CAUTION]
+     >
+     >Il salvataggio automatico di queste tabelle richiede una capacità di archiviazione significativa: assicurati che il database sia sufficientemente grande.
 
 Quando vengono visualizzati i risultati della simulazione, le informazioni sull’espressione selezionata vengono visualizzate nel **[!UICONTROL Overlaps]** scheda secondaria.
 

@@ -29,7 +29,7 @@ Questo flusso di lavoro esegue la replica automatica delle tabelle integrate che
 * **[!UICONTROL Replicate Staging data]**
 Questo flusso di lavoro replica i dati di staging per le chiamate unitarie. È pianificata per l&#39;esecuzione ogni ora, ogni giorno.
 * **[!UICONTROL Deploy FFDA immediately]**\
-   Questo flusso di lavoro esegue una distribuzione immediata nel database cloud.
+  Questo flusso di lavoro esegue una distribuzione immediata nel database cloud.
 * **[!UICONTROL Replicate FFDA data immediately]**
 Questo flusso di lavoro replica i dati XS per un determinato account esterno.
 
@@ -52,7 +52,7 @@ I criteri di replica si basano sulle dimensioni delle tabelle. Alcune tabelle sa
 
 Oltre al **Replica tabelle di riferimento** del flusso di lavoro tecnico, puoi forzare la replica dei dati nei flussi di lavoro.
 
-È possibile eseguire le seguenti operazioni:
+Puoi:
 
 * aggiungi uno specifico **Codice JavaScript** attività con il seguente codice:
 

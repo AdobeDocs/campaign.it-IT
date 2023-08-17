@@ -21,7 +21,7 @@ Questa integrazione consente di implementare i casi d’uso come segue: quando u
 >[!NOTE]
 >L’integrazione supporta solo immagini statiche. Gli altri tipi di contenuto non possono essere personalizzati.
 
-![](../assets/do-not-localize/speech.png)  In qualità di utente di Managed Cloud Services, [Adobe di contatto](../start/campaign-faq.md#support) per implementare Experience Cloud triggers con Campaign.
+![](../assets/do-not-localize/speech.png)  In qualità di utente di Managed Cloud Service, [Adobe di contatto](../start/campaign-faq.md#support) per implementare Experience Cloud triggers con Campaign.
 
 Adobe Target può utilizzare i seguenti tipi di dati:
 
@@ -61,11 +61,11 @@ In Adobe Campaign, esistono due modi per inserire un’immagine dinamica da Targ
 
 * Se utilizzi l’editor di contenuti digitali, scegli un’immagine esistente e seleziona **[!UICONTROL Insert]** > **[!UICONTROL Dynamic image served by Adobe Target]** dalla barra degli strumenti.
 
-   ![](assets/target_5.png)
+  ![](assets/target_5.png)
 
 * Se si utilizza l&#39;editor standard, posizionare il cursore nel punto in cui si desidera inserire l&#39;immagine e selezionare **[!UICONTROL Include]** > **[!UICONTROL Dynamic image served by Adobe Target...]** dal menu a discesa personalizzazione.
 
-   ![](assets/target_12.png)
+  ![](assets/target_12.png)
 
 Puoi quindi definire i parametri dell’immagine:
 

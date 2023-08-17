@@ -7,7 +7,7 @@ exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
 source-wordcount: '1545'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -85,7 +85,7 @@ Per aggiungere dati dal database di Adobe Campaign:
    * Un campo calcolato in base ai dati ottenuti dalla popolazione target o a un aggregato (numero di acquisti in sospeso nell’ultimo mese, importo medio di una ricevuta, ecc.). Ad esempio, vai a [Seleziona dati](targeting-workflows.md#selecting-data).
    * Un nuovo campo, creato utilizzando **[!UICONTROL Add]** a destra dell&#39;elenco delle colonne di output.
 
-      Puoi anche aggiungere una raccolta di informazioni, ad esempio un elenco di contratti, le ultime 5 consegne e così via. Le raccolte coincidono con campi che possono avere più valori per lo stesso profilo (relazione 1-N). Per ulteriori informazioni, consulta [Modifica dati aggiuntivi](targeting-workflows.md#editing-additional-data).
+     Puoi anche aggiungere una raccolta di informazioni, ad esempio un elenco di contratti, le ultime 5 consegne e così via. Le raccolte coincidono con campi che possono avere più valori per lo stesso profilo (relazione 1-N). Per ulteriori informazioni, consulta [Modifica dati aggiuntivi](targeting-workflows.md#editing-additional-data).
 
 Per aggiungere una raccolta di informazioni collegate a una popolazione target:
 
@@ -98,11 +98,11 @@ Per aggiungere una raccolta di informazioni collegate a una popolazione target:
 
    * Se un singolo elemento della raccolta coincide con le condizioni di filtro per questa raccolta, seleziona **[!UICONTROL Single row]** nel **[!UICONTROL Data collected]** campo.
 
-      >[!IMPORTANT]
-      >
-      >Questa modalità ottimizza la query SQL generata grazie a una giunzione diretta sugli elementi di raccolta.
-      >
-      >Se la condizione iniziale non viene rispettata, il risultato potrebbe essere difettoso (linee mancanti o sovrapposte).
+     >[!IMPORTANT]
+     >
+     >Questa modalità ottimizza la query SQL generata grazie a una giunzione diretta sugli elementi di raccolta.
+     >
+     >Se la condizione iniziale non viene rispettata, il risultato potrebbe essere difettoso (linee mancanti o sovrapposte).
 
    * Se si sceglie di recuperare più righe (**[!UICONTROL Limit the line count]**) puoi specificare il numero di righe da raccogliere.
    * Se le colonne raccolte contengono aggregati, ad esempio il numero di errori dichiarati, la spesa media in un sito e così via. è possibile utilizzare **[!UICONTROL Aggregates]** valore.
@@ -170,11 +170,11 @@ La sezione seguente fornisce le best practice per ottimizzare le query in esecuz
 * Evitare di eseguire outer join. Se possibile, utilizza il record ID zero per ottenere la funzionalità outer join.
 * Utilizza il tipo di dati corretto per i join.
 
-   Assicurati che `where` è dello stesso tipo del campo.
+  Assicurati che `where` è dello stesso tipo del campo.
 
-   Un errore comune è: `iBlacklist='3'` dove `iBlacklist` è un campo numerico e `3` indica un valore di testo.
+  Un errore comune è: `iBlacklist='3'` dove `iBlacklist` è un campo numerico e `3` indica un valore di testo.
 
-   Assicurati di sapere quale sarà il piano di esecuzione della query. Evita scansioni complete delle tabelle, in particolare per query in tempo reale o quasi query in tempo reale in esecuzione ogni minuto.
+  Assicurati di sapere quale sarà il piano di esecuzione della query. Evita scansioni complete delle tabelle, in particolare per query in tempo reale o quasi query in tempo reale in esecuzione ogni minuto.
 
 ### Funzioni {#functions}
 
@@ -212,10 +212,10 @@ Per ulteriori informazioni sul filtraggio delle dimensioni, consulta [questa sez
    * Applicazione,
    * Volumi.
 
-   >[!NOTE]
-   >
-   >Una funzione che funziona in un ambiente di sviluppo potrebbe non funzionare in un ambiente di produzione in cui i dati potrebbero essere diversi. Cercare di individuare le principali differenze per anticipare i rischi e preparare soluzioni.
+  >[!NOTE]
+  >
+  >Una funzione che funziona in un ambiente di sviluppo potrebbe non funzionare in un ambiente di produzione in cui i dati potrebbero essere diversi. Cercare di individuare le principali differenze per anticipare i rischi e preparare soluzioni.
 
 * Creare configurazioni corrispondenti ai volumi di destinazione. Volumi di grandi dimensioni richiedono configurazioni specifiche. Una configurazione che ha funzionato per 100.000 destinatari potrebbe non funzionare per 10.000.000 di destinatari.
 
-   Considera come il sistema si ridimensionerà quando andrà in diretta. Solo perché qualcosa funziona su piccola scala non significa che sarà adatto con volumi maggiori. Le prove devono essere eseguite con volumi simili al volume in produzione. È inoltre necessario valutare l’effetto delle modifiche nei volumi (numero di chiamate, dimensioni del database) nelle ore di picco, nei giorni di picco e per tutta la durata del progetto.
+  Considera come il sistema si ridimensionerà quando andrà in diretta. Solo perché qualcosa funziona su piccola scala non significa che sarà adatto con volumi maggiori. Le prove devono essere eseguite con volumi simili al volume in produzione. È inoltre necessario valutare l’effetto delle modifiche nei volumi (numero di chiamate, dimensioni del database) nelle ore di picco, nei giorni di picco e per tutta la durata del progetto.

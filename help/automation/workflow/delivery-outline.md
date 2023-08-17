@@ -32,7 +32,7 @@ Il **struttura della consegna** l’attività, disponibile nei flussi di lavoro 
 
    * Se desideri chiamare il motore di offerta, seleziona la **[!UICONTROL Restrict the number of propositions selected]** casella. Specifica lo spazio dell’offerta e il numero di proposte che verranno presentate nella consegna.
 
-      Il motore di offerta terrà conto dei pesi delle offerte e delle regole di idoneità.
+     Il motore di offerta terrà conto dei pesi delle offerte e delle regole di idoneità.
 
    * Se non selezioni la casella, tutte le offerte nella struttura della consegna verranno presentate senza effettuare una chiamata al motore di offerta.
 

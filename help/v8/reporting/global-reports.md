@@ -6,7 +6,7 @@ exl-id: 6e3409d8-86bd-44ba-a40d-10287f53a960
 source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
 workflow-type: tm+mt
 source-wordcount: '1763'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -51,6 +51,7 @@ Puoi configurare i valori visualizzati modificando la scala cronologica: visuali
 >Puoi anche monitorare il numero di consegne inviate all’ora utilizzando [Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html).
 >
 >Il Pannello di controllo è accessibile a tutti gli utenti amministratori. I passaggi per concedere a un utente l’accesso come amministratore sono descritti in[questa pagina](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=it#discover-control-panel).
+>
 
 ## Attività degli utenti {#user-activities}
 
@@ -64,7 +65,7 @@ Sono disponibili le seguenti opzioni:
 * **[!UICONTROL Transactions]** : Total number of transactions after a message is received. In order for a transaction to be taken into account, a transaction type webtracking tag must be inserted into the matching web page. Webtracking configuration is presented in [this section](../../configuration/using/about-web-tracking.md).
 -->
 
-## Messaggi non recapitati e non trasferibili {#non-deliverables-and-bounces}
+## Messaggi non recapitabili e mancati recapiti {#non-deliverables-and-bounces}
 
 Questo rapporto mostra il raggruppamento dei messaggi non recapitati e dei messaggi non recapitati per dominio Internet.
 
@@ -74,7 +75,7 @@ Il **[!UICONTROL Number of messages processed]** rappresenta il numero totale di
 
 >[!NOTE]
 >
->Gli errori visualizzati in questo report attivano il processo di quarantena. Per ulteriori informazioni sulla gestione della quarantena, consulta [Gestione della quarantena](../send/quarantines.md).
+>Gli errori inclusi in questo rapporto attivano il processo di quarantena. Per ulteriori informazioni sulla gestione della quarantena, consulta [Gestione della quarantena](../send/quarantines.md).
 
 La prima sezione di questo rapporto mostra la suddivisione dei messaggi non recapitati sotto forma di tabella di valori e di grafico.
 
@@ -94,11 +95,11 @@ Sono utilizzati i seguenti indicatori:
 * **[!UICONTROL Unreachable]** : tipo di errore che si verifica nella stringa di distribuzione del messaggio: incidente sull’inoltro SMTP, dominio temporaneamente non raggiungibile, ecc.
 * **[!UICONTROL Not connected]** : tipo di errore per indicare che il telefono cellulare del destinatario è spento o disconnesso dalla rete al momento dell’invio.
 
-   >[!NOTE]
-   >
-   >Questo indicatore si riferisce alle consegne il [canali mobili](../send/send.md) solo.
+  >[!NOTE]
+  >
+  >Questo indicatore si riferisce alle consegne il [canali mobili](../send/send.md) solo.
 
-   È possibile aprire ogni riga della tabella dei valori facendo clic sul pulsante `[+]` simbolo. Per ogni tipo di errore, puoi visualizzare la suddivisione dei messaggi di errore per dominio.
+  È possibile aprire ogni riga della tabella dei valori facendo clic sul pulsante `[+]` simbolo. Per ogni tipo di errore, puoi visualizzare la suddivisione dei messaggi di errore per dominio.
 
 **[!UICONTROL Breakdown of errors per domain]**
 
@@ -284,17 +285,17 @@ Sono utilizzati i seguenti indicatori:
 * **[!UICONTROL Hard bounces]** : percentuale del numero di mancati recapiti &quot;permanenti&quot; rispetto al numero totale di messaggi elaborati.
 * **[!UICONTROL Soft bounces]** : percentuale del numero di mancati recapiti &quot;non permanenti&quot; rispetto al numero totale di messaggi elaborati.
 
-   >[!NOTE]
-   >
-   >Per ulteriori informazioni sui mancati recapiti permanenti e non permanenti, consulta [questa pagina](../send/quarantines.md).
+  >[!NOTE]
+  >
+  >Per ulteriori informazioni sui mancati recapiti permanenti e non permanenti, consulta [questa pagina](../send/quarantines.md).
 
 * **[!UICONTROL Opens]** : percentuale del numero di destinatari che hanno aperto un messaggio almeno una volta rispetto al numero di messaggi elaborati correttamente.
 * **[!UICONTROL Clicks]** : percentuale del numero di persone che hanno fatto clic su una consegna almeno una volta rispetto al numero di messaggi elaborati correttamente.
 * **[!UICONTROL Unsubscription]** : percentuale del numero di clic su un collegamento di annullamento dell’abbonamento rispetto al numero di messaggi elaborati correttamente.
 
-## Breakdown delle aperture {#breakdown-of-opens}
+## Raggruppamenti delle aperture {#breakdown-of-opens}
 
-Questo rapporto mostra il raggruppamento delle aperture per sistema operativo, dispositivo e browser per il periodo in questione. Per ogni categoria vengono utilizzati due grafici. Il primo visualizza le statistiche relative all’apertura su un computer e dispositivi mobili. Il secondo visualizza le statistiche relative solo all’apertura su dispositivi mobili.
+Raggruppamenti delle aperture: questo rapporto mostra le aperture raggruppate per sistema operativo, dispositivo e browser per il periodo in questione. Per ogni categoria vengono utilizzati due grafici. Il primo visualizza le statistiche relative all’apertura su un computer e dispositivi mobili. Il secondo visualizza le statistiche relative solo all’apertura su dispositivi mobili.
 
 Il numero di aperture corrisponde al numero totale di messaggi aperti. Le e-mail in formato testo non vengono conteggiate. Per ulteriori informazioni sulle aperture di tracciamento, consulta [questa sezione](metrics-calculation.md#tracking-opens-).
 

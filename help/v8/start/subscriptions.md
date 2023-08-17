@@ -22,41 +22,41 @@ Per abbonare (opt-in) un profilo a un servizio, le opzioni disponibili sono:
 
 * Aggiungi manualmente il servizio al profilo del destinatario: a questo scopo, dal **[!UICONTROL Subscriptions]** del loro profilo, fai clic su **[!UICONTROL Add]** e selezionare il servizio di informazione interessato.
 
-   ![](assets/subscribe-to-a-service.png)
+  ![](assets/subscribe-to-a-service.png)
 
-   ![](../assets/do-not-localize/book.png) Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html#deliveries-tab){target="_blank"}
+  ![](../assets/do-not-localize/book.png) Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html#deliveries-tab){target="_blank"}
 
 * Iscrizione automatica di un set di destinatari al servizio. L’elenco dei destinatari può provenire da un’operazione di filtro, un gruppo, una cartella, un’importazione o una selezione manuale diretta. Per sottoscrivere questi destinatari, seleziona i profili e fai clic con il pulsante destro del mouse. Seleziona **[!UICONTROL Actions > Subscribe selection to a service...]**.
 
-   ![](assets/subscribe-selection.png)
+  ![](assets/subscribe-selection.png)
 
-   Selezionare il servizio interessato e avviare l&#39;operazione.
+  Selezionare il servizio interessato e avviare l&#39;operazione.
 
-   ![](assets/subscribe-confirm.png)
+  ![](assets/subscribe-confirm.png)
 
-   ![](../assets/do-not-localize/book.png) Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html#deliveries-tab){target="_blank"}
+  ![](../assets/do-not-localize/book.png) Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html#deliveries-tab){target="_blank"}
 
 
 * Importa i destinatari e abbonali automaticamente a un servizio di informazioni. A questo scopo, seleziona il servizio interessato nell’ultimo passaggio della procedura guidata di importazione.
 
-   ![](../assets/do-not-localize/book.png) Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html#step-5---additional-step-when-importing-recipients){target="_blank"}
+  ![](../assets/do-not-localize/book.png) Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html#step-5---additional-step-when-importing-recipients){target="_blank"}
 
 * Utilizza un modulo web in modo che i destinatari possano abbonarsi a un servizio.
 
-   ![](assets/opt-in-webapp.png)
+  ![](assets/opt-in-webapp.png)
 
-   Campaign viene fornito con un modulo web predefinito per gestire l’opt-in. Puoi personalizzarlo e mappare i dati del profilo.
+  Campaign viene fornito con un modulo web predefinito per gestire l’opt-in. Puoi personalizzarlo e mappare i dati del profilo.
 
-   ![](assets/web-app.png)
+  ![](assets/web-app.png)
 
-   ![](../assets/do-not-localize/book.png) Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html#create-a-subscription--form-with-double-opt-in){target="_blank"}
+  ![](../assets/do-not-localize/book.png) Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html#create-a-subscription--form-with-double-opt-in){target="_blank"}
 
 
 * Creare un flusso di lavoro di targeting e utilizzare un **[!UICONTROL Subscription service]** attività.
 
-   ![](assets/wf-subscription.png)
+  ![](assets/wf-subscription.png)
 
-   Per ulteriori informazioni, consulta [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/subscription-services.html).
+  Per ulteriori informazioni, consulta [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/subscription-services.html).
 
 Per annullare l’abbonamento (rinuncia) di un profilo da un servizio, le opzioni disponibili sono:
 

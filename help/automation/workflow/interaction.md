@@ -6,7 +6,7 @@ feature: Workflows, Interaction
 source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
 workflow-type: tm+mt
 source-wordcount: '135'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -23,7 +23,7 @@ I flussi di lavoro descritti di seguito vengono installati con **Motore di offer
    <td> <strong>Descrizione</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Calcolo aggregato completo (cubo propositionrcp)</span> <br /> </td> 
+   <td> <span class="uicontrol">Calcolo aggregato complessivo (cubo propositionRcp)</span> <br /> </td> 
    <td> <span class="uicontrol">agg_nmspropositionrcp_full</span> <br /> </td> 
    <td> Questo flusso di lavoro aggiorna <strong>Completo</strong> aggregato per <strong>Proposta di offerta</strong> cubo. Per impostazione predefinita viene attivato ogni giorno alle 6. Questo aggregato acquisisce le seguenti dimensioni: Canale, Consegna, Offerta di marketing e Data.<br /> Il <strong>Proposta di offerta</strong> Il cubo viene quindi utilizzato per generare rapporti basati sulle offerte.<br /> </td> 
   </tr> 

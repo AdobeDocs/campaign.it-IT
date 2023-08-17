@@ -16,7 +16,7 @@ ht-degree: 1%
 
 La messaggistica transazionale (Message Center) è un modulo di Campaign progettato per la gestione dei messaggi di attivazione. Queste notifiche sono generate da eventi attivati dai sistemi informativi e possono essere: fattura, conferma dell’ordine, conferma della spedizione, modifica della password, notifica di indisponibilità del prodotto, estratto conto, creazione di account sul sito web, ecc.
 
-![](../assets/do-not-localize/speech.png)  In qualità di utente di Managed Cloud Services, [Adobe di contatto](../start/campaign-faq.md#support){target="_blank"} per configurare la messaggistica transazionale di Campaign nell’ambiente.
+![](../assets/do-not-localize/speech.png)  In qualità di utente di Managed Cloud Service, [Adobe di contatto](../start/campaign-faq.md#support){target="_blank"} per configurare la messaggistica transazionale di Campaign nell’ambiente.
 
 I messaggi transazionali vengono utilizzati per inviare:
 
@@ -259,7 +259,7 @@ Dopo la pubblicazione di un modello di messaggio <!--on the execution instances-
 
 * In effetti, un modello pubblicato può ancora essere chiamato se viene attivato l’evento corrispondente: se non utilizzi più un modello di messaggio, si consiglia di annullarne la pubblicazione. In questo modo si evita di inviare per errore un messaggio transazionale indesiderato.
 
-   Ad esempio, hai pubblicato un modello di messaggio da utilizzare solo per le campagne natalizie. Puoi annullarne la pubblicazione al termine del periodo natalizio e pubblicarla nuovamente l’anno prossimo.
+  Ad esempio, hai pubblicato un modello di messaggio da utilizzare solo per le campagne natalizie. Puoi annullarne la pubblicazione al termine del periodo natalizio e pubblicarla nuovamente l’anno prossimo.
 
 * Inoltre, non puoi eliminare un modello di messaggio transazionale con **[!UICONTROL Published]** stato. Devi prima annullare la pubblicazione.
 
@@ -278,8 +278,8 @@ Una volta completata la pubblicazione:
 
 * Entrambi i modelli di messaggio (applicati a eventi batch e di tipo in tempo reale) vengono eliminati<!-- from each execution instance-->.
 
-   Non vengono più visualizzati nel **[!UICONTROL Administration > Production > Message Center Execution > Default > Transactional message templates]** cartella.
+  Non vengono più visualizzati nel **[!UICONTROL Administration > Production > Message Center Execution > Default > Transactional message templates]** cartella.
 
 * Dopo aver annullato la pubblicazione di un modello, è possibile eliminarlo<!-- from the control instance-->.
 
-   A tale scopo, selezionalo dall’elenco e fai clic sul pulsante **[!UICONTROL Delete]** in alto a destra.
+  A tale scopo, selezionalo dall’elenco e fai clic sul pulsante **[!UICONTROL Delete]** in alto a destra.

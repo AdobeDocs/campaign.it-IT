@@ -9,7 +9,7 @@ hidefromtoc: true
 source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
 workflow-type: tm+mt
 source-wordcount: '256'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -30,14 +30,14 @@ Questa integrazione supporta due tipi di ID Adobe Experience Cloud:
 * **ID visitatore**: questo identificatore riconcilia i visitatori di Adobe Experience Cloud con i destinatari di Adobe Campaign.
 * **ID dichiarato**: questo identificatore riconcilia tutti i tipi di dati con gli elementi del database di Adobe Campaign. Rappresenta la chiave di riconciliazione predefinita in Adobe Campaign.
 
-   >[!NOTE]
-   >
-   > L’origine dati dell’ID dichiarato può essere utilizzata anche con l’integrazione del servizio core People.
-   >
-   >Se utilizzi l’integrazione con il servizio core People e desideri aggiungere l’integrazione con Audience Manager, ti servirà l’aiuto di un consulente Adobe Audience Manager per evitare di perdere tutte le sincronizzazioni ID raccolte durante la transizione all’utilizzo dell’origine dati ID dichiarato in un contesto Adobe Audience Manager.
+  >[!NOTE]
+  >
+  > L’origine dati dell’ID dichiarato può essere utilizzata anche con l’integrazione del servizio core People.
+  >
+  >Se utilizzi l’integrazione con il servizio core People e desideri aggiungere l’integrazione con Audience Manager, ti servirà l’aiuto di un consulente Adobe Audience Manager per evitare di perdere tutte le sincronizzazioni ID raccolte durante la transizione all’utilizzo dell’origine dati ID dichiarato in un contesto Adobe Audience Manager.
 
 A questo proposito, consulta la sezione:
 
-[https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html)
+[https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=it](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=it)
 
-[https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html)
+[https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=it](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=it)

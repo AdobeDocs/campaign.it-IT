@@ -61,6 +61,7 @@ Per preparare la consegna, assicurati che il contenuto e il target della consegn
    >[!NOTE]
    >
    >Fai clic su **[!UICONTROL Change the main delivery target]** collega se il numero di messaggi da inviare non corrisponde alle tue aspettative. Questa opzione consente di modificare la definizione della popolazione target e riavviare l’analisi.
+   >
 
 1. Dopo aver verificato il risultato dell&#39;analisi, fate clic su **[!UICONTROL Confirm delivery]** per inviare il messaggio al target principale.
 
@@ -77,11 +78,11 @@ Questa scheda consente di accedere alle seguenti opzioni:
 
 * **[!UICONTROL Approval mode]** : questo campo ti consente di definire la consegna manuale o automatica una volta completata l’analisi.
 
-   Se durante l’analisi vengono generati avvisi (ad esempio, se determinati caratteri sono accentuati nell’oggetto della consegna, ecc.), puoi configurare la consegna per definire se deve ancora essere eseguita. Per impostazione predefinita, l’utente deve confermare l’invio di messaggi al termine della fase di analisi: si tratta di convalida **manuale**.
+  Se durante l’analisi vengono generati avvisi (ad esempio, se determinati caratteri sono accentuati nell’oggetto della consegna, ecc.), puoi configurare la consegna per definire se deve ancora essere eseguita. Per impostazione predefinita, l’utente deve confermare l’invio di messaggi al termine della fase di analisi: si tratta di convalida **manuale**.
 
-   Seleziona un’altra modalità di approvazione dall’elenco a discesa nel campo appropriato.
+  Seleziona un’altra modalità di approvazione dall’elenco a discesa nel campo appropriato.
 
-   Sono disponibili le seguenti modalità di approvazione:
+  Sono disponibili le seguenti modalità di approvazione:
 
    * **[!UICONTROL Manual]**: al termine della fase di analisi, l’utente deve confermare la consegna per iniziare l’invio. A questo scopo, fai clic su **[!UICONTROL Start]** per avviare la consegna.
    * **[!UICONTROL Semi-automatic]**: l’invio inizia automaticamente se la fase di analisi non genera messaggi di avviso.

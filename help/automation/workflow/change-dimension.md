@@ -45,27 +45,27 @@ Per configurare **[!UICONTROL Change dimension]** attività, esegui i seguenti p
 
    * Fai clic su **[!UICONTROL Add data...]** collega e seleziona **[!UICONTROL Data linked to the filtering dimension]**.
 
-      ![](assets/wf_change-dimension_sample_01.png)
+     ![](assets/wf_change-dimension_sample_01.png)
 
-      >[!NOTE]
-      >
-      >Per informazioni sulla creazione e la gestione di colonne aggiuntive, fare riferimento a [Aggiungi dati](query.md#add-data).
+     >[!NOTE]
+     >
+     >Per informazioni sulla creazione e la gestione di colonne aggiuntive, fare riferimento a [Aggiungi dati](query.md#add-data).
 
    * Selezionare la dimensione di targeting precedente (prima del cambio asse) e selezionare **[!UICONTROL Zip Code]** nel campo del destinatario **[!UICONTROL Location]** sottostruttura, quindi fai clic su **[!UICONTROL Edit expression]**.
 
-      ![](assets/wf_change-dimension_sample_02.png)
+     ![](assets/wf_change-dimension_sample_02.png)
 
    * Clic **[!UICONTROL Advanced selection]** e scegli **[!UICONTROL Edit the formula using an expression]**.
 
-      ![](assets/wf_change-dimension_sample_03.png)
+     ![](assets/wf_change-dimension_sample_03.png)
 
    * Utilizzare le funzioni offerte nell&#39;elenco e specificare il calcolo da eseguire.
 
-      ![](assets/wf_change-dimension_sample_04.png)
+     ![](assets/wf_change-dimension_sample_04.png)
 
    * Infine, immetti l’etichetta della colonna appena creata.
 
-      ![](assets/wf_change-dimension_sample_05.png)
+     ![](assets/wf_change-dimension_sample_05.png)
 
 1. Esegui il flusso di lavoro per visualizzare il risultato di questa configurazione. Confronta i dati nelle tabelle prima e dopo l’attività di modifica della dimensione e confronta la struttura delle tabelle del flusso di lavoro, come illustrato negli esempi seguenti:
 

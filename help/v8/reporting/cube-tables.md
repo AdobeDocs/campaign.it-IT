@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Usare i cubi per esplorare i dati{#use-cubes-to-create-reports}
 
-Utilizza i cubi per creare rapporti e per identificare e selezionare dati dal database. È possibile eseguire le seguenti operazioni:
+Utilizza i cubi per creare rapporti e per identificare e selezionare dati dal database. Puoi:
 
 * Crea rapporti basati su cubi. [Ulteriori informazioni](#explore-the-data-in-a-report).
 * Raccogli i dati nel database e raggruppali in elenchi, ad esempio per identificare e creare destinazioni e consegne. [Ulteriori informazioni](#build-a-target-population).
@@ -113,7 +113,7 @@ Per aggiungere e configurare le misure, attieniti alla procedura seguente:
 
    * Combinazione di misure: questo tipo di misura consente di creare la nuova misura utilizzando quelle esistenti:
 
-      Gli operatori disponibili sono: somma, differenza, moltiplicazione e tasso.
+     Gli operatori disponibili sono: somma, differenza, moltiplicazione e tasso.
 
    * Proporzione: questo tipo di misura consente di calcolare il numero di record misurati per una determinata dimensione. Puoi calcolare la proporzionalità in base a una dimensione o a una dimensione secondaria.
    * Variante: questa misura consente di calcolare la variazione dei valori di un livello.

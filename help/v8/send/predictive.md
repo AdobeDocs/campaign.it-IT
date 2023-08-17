@@ -23,6 +23,7 @@ Adobe Campaign offre due nuovi modelli di apprendimento automatico: [Ottimizzazi
 >Questa funzionalità non è disponibile come funzione predefinita del prodotto. È disponibile solo per i clienti Adobe Campaign Managed Cloud Services che eseguono Adobe Campaign Classic v7 o Adobe Campaign v8.
 >
 >La sua implementazione richiede l’intervento della Consulenza Adobe. Per ulteriori informazioni, contatta il rappresentante del tuo Adobe.
+>
 
 
 ## Ottimizzazione del tempo di invio predittivo{#predictive-send}
@@ -64,6 +65,7 @@ L’ottimizzazione predittiva del tempo di invio è memorizzata a livello di pro
 >[!NOTE]
 >
 >Il modello necessita di almeno un mese di dati per produrre risultati significativi. Queste funzionalità predittive si applicano solo ai canali e-mail e push.
+>
 
 
 ## Valutazione del coinvolgimento predittivo {#predictive-scoring}

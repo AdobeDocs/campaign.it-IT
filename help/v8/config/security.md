@@ -27,7 +27,7 @@ La configurazione e l’irrigidimento della privacy sono un elemento chiave dell
 * Assicurarsi che le password crittografate siano limitate
 * Protect le pagine che potrebbero contenere informazioni personali come pagine mirror, applicazioni web, ecc.
 
-![](../assets/do-not-localize/speech.png)  In qualità di utente di Cloud Services gestiti, Adobe collabora con te per implementare queste configurazioni nel tuo ambiente.
+![](../assets/do-not-localize/speech.png)  In qualità di utente di Cloud Service gestiti, Adobe collabora con te per implementare queste configurazioni nel tuo ambiente.
 
 
 ## Gestione degli accessi

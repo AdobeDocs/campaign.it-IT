@@ -34,13 +34,13 @@ Sono disponibili due modelli di distribuzione:
 
 * **FDA campagna [!DNL Snowflake] distribuzione**
 
-   Nel suo [[!DNL Snowflake] Distribuzione FDA](fda-deployment.md), [!DNL Adobe Campaign] v8 è connesso a [!DNL Snowflake] per accedere ai dati tramite la funzionalità Federated Data Access: puoi accedere ed elaborare dati e informazioni esterni memorizzati nel tuo [!DNL Snowflake] senza modificare la struttura dei dati di Adobe Campaign. PostgreSQL è il database primario e Snowflake è il database secondario. Puoi estendere il modello dati e archiviare i dati sul Snowflake. Successivamente, puoi eseguire ETL, segmentazione e rapporti su un set di dati di grandi dimensioni con prestazioni eccezionali.
+  Nel suo [[!DNL Snowflake] Distribuzione FDA](fda-deployment.md), [!DNL Adobe Campaign] v8 è connesso a [!DNL Snowflake] per accedere ai dati tramite la funzionalità Federated Data Access: puoi accedere ed elaborare dati e informazioni esterni memorizzati nel tuo [!DNL Snowflake] senza modificare la struttura dei dati di Adobe Campaign. PostgreSQL è il database primario e Snowflake è il database secondario. Puoi estendere il modello dati e archiviare i dati sul Snowflake. Successivamente, puoi eseguire ETL, segmentazione e rapporti su un set di dati di grandi dimensioni con prestazioni eccezionali.
 
 * **Distribuzione di Campaign Enterprise (FFDA)**
 
-   Nell&#39;ambito di una [Distribuzione aziendale (FFDA)](enterprise-deployment.md), [!DNL Adobe Campaign] v8 funziona con due database: uno locale [!DNL Campaign] database per la messaggistica in tempo reale, le query unitarie dell’interfaccia utente, le operazioni di scrittura tramite API e un cloud [!DNL Snowflake] database per l’esecuzione della campagna, le query batch e l’esecuzione dei flussi di lavoro.
+  Nell&#39;ambito di una [Distribuzione aziendale (FFDA)](enterprise-deployment.md), [!DNL Adobe Campaign] v8 funziona con due database: uno locale [!DNL Campaign] database per la messaggistica in tempo reale, le query unitarie dell’interfaccia utente, le operazioni di scrittura tramite API e un cloud [!DNL Snowflake] database per l’esecuzione della campagna, le query batch e l’esecuzione dei flussi di lavoro.
 
-   Campaign v8 Enterprise introduce il concetto di **Full Federated Data Access** (FFDA): adesso tutti i dati sono remoti, nel database cloud. Con questa nuova architettura, l’implementazione di Campaign v8 Enterprise (FFDA) semplifica la gestione dei dati, in quanto nel database cloud non è richiesto alcun indice. È sufficiente creare le tabelle, copiare i dati e iniziare. La tecnologia del database cloud non richiede una manutenzione specifica per garantire la qualità del servizio.
+  Campaign v8 Enterprise introduce il concetto di **Full Federated Data Access** (FFDA): adesso tutti i dati sono remoti, nel database cloud. Con questa nuova architettura, l’implementazione di Campaign v8 Enterprise (FFDA) semplifica la gestione dei dati, in quanto nel database cloud non è richiesto alcun indice. È sufficiente creare le tabelle, copiare i dati e iniziare. La tecnologia del database cloud non richiede una manutenzione specifica per garantire la qualità del servizio.
 
 ## Esecuzione della consegna divisa {#split}
 
@@ -67,9 +67,9 @@ A questo scopo, è necessario disporre di ulteriori account esterni con **[!UICO
 >
 >Per impostazione predefinita, la modalità di routing diviso è abilitata per l’account &quot;Consegna divisa - E-mail&quot;. Per tutti gli altri account esterni dei canali, contatta l’Assistenza clienti per far sì che l’opzione sia abilitata.
 >
->Per impostazione predefinita, il valore della dimensione di soglia per suddividere una consegna tra più mid è 100.000. È possibile modificare questo valore nell’opzione &quot;NmsDelivery_MultiMidSplitThreshold&quot; in **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL Options]** menu.
+>Per impostazione predefinita, il valore di dimensione della soglia per suddividere una consegna tra più mid è 100.000. È possibile modificare questo valore nell’opzione &quot;NmsDelivery_MultiMidSplitThreshold&quot; in **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL Options]** menu.
 
-Per impostare gli account esterni suddivisi come account predefinito per l’invio delle consegne, devi cambiare il provider di indirizzamento nei modelli di consegna. Per farlo, esegui questi passaggi:
+Per impostare gli account esterni suddivisi come account predefinito per l’invio delle consegne, devi cambiare il provider di indirizzamento nei modelli di consegna. Per farlo, segui questi passaggi:
 
 1. Accedi a **[!UICONTROL Resources]** / **[!UICONTROL Templates]** / **[!UICONTROL Delivery templates]** e apri il modello di consegna desiderato. In questo esempio, desideri modificare il modello di consegna e-mail.
 
@@ -97,7 +97,7 @@ In questa architettura specifica, la cella di esecuzione è separata dall’ista
 
 * Il **Istanza di controllo** (o istanza Marketing) viene utilizzato dagli addetti al marketing e dai team IT per creare, configurare e pubblicare modelli di messaggio. Questa istanza centralizza anche il monitoraggio e la cronologia degli eventi.
 
-   ![](../assets/do-not-localize/glass.png) Scopri come creare e pubblicare modelli di messaggio in [questa sezione](../send/transactional.md).
+  ![](../assets/do-not-localize/glass.png) Scopri come creare e pubblicare modelli di messaggio in [questa sezione](../send/transactional.md).
 
 * Il **Istanza di esecuzione** archivia gli eventi in arrivo (ad esempio, reimpostazione della password o ordini da un sito web) e invia messaggi personalizzati. Possono essere presenti più istanze di esecuzione per elaborare i messaggi tramite il load-balancer e scalare il numero di eventi da eseguire per ottenere la massima disponibilità.
 

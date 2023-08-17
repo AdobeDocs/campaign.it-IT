@@ -16,13 +16,14 @@ ht-degree: 11%
 
 L’infrastruttura di Campaign si basa su sistemi di terze parti che devono essere regolarmente aggiornati con le versioni e le correzioni più recenti. Questi aggiornamenti sono obbligatori per garantire la continuità del servizio e la protezione degli ambienti Campaign dai rischi di sicurezza. Inoltre, è necessario un aggiornamento di Campaign per garantire la compatibilità con modifiche al sistema di terze parti.
 
-As a **Cliente Cloud Services gestiti**, Adobe fornisce informazioni su questi aggiornamenti quando sono necessari. Gli ambienti dovranno essere aggiornati in conformità con le raccomandazioni per garantire la conformità.
+As a **Cliente Cloud Service gestiti**, Adobe fornisce informazioni su questi aggiornamenti quando sono necessari. Gli ambienti dovranno essere aggiornati in conformità con le raccomandazioni per garantire la conformità.
 
 Per motivi di sicurezza, l’Adobe deve [installare la build Campaign più recente](#ac-upgrade), quindi aggiornare il [sistema operativo](#os-upgrade) e/o [Sistema di gestione del database relazionale (RDBMS)](#pg-upgrade).
 
 >[!NOTE]
 >
 >Per qualsiasi domanda su queste modifiche, contatta [Adobe Customer Care](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>
 
 ## Aggiornamento della build di Campaign {#ac-upgrade}
 
@@ -32,7 +33,7 @@ Se è interessato da [aggiornamento del sistema operativo](#os-upgrade) e/o [agg
 
 **Come si esegue l’aggiornamento?**
 
-In qualità di cliente di Cloud Services gestiti, Adobe ti contatterà e aggiornerà la tua versione di Campaign.
+In qualità di cliente di Cloud Service gestiti, Adobe ti contatterà e aggiornerà la tua versione di Campaign.
 
 ## Aggiornamento del sistema operativo {#os-upgrade}
 
@@ -42,7 +43,7 @@ Se esegui Campaign su un sistema operativo Debian, per beneficiare degli ultimi 
 
 **Come si esegue l’aggiornamento?**
 
-In qualità di cliente di Cloud Services gestiti, Adobe ti contatterà per aggiornare il tuo ambiente.
+In qualità di cliente di Cloud Service gestiti, Adobe ti contatterà per aggiornare il tuo ambiente.
 
 ## Aggiornamento del sistema del database {#pg-upgrade}
 
@@ -52,4 +53,4 @@ Se il sistema di database per Campaign è PostgreSQL, per beneficiare delle ulti
 
 **Come si esegue l’aggiornamento?**
 
-In qualità di cliente di Cloud Services gestiti, Adobe contatterà l&#39;utente e aggiornerà il database system da PostgreSQL 11 a PostgreSQL 14.
+In qualità di cliente di Cloud Service gestiti, Adobe contatterà l&#39;utente e aggiornerà il database system da PostgreSQL 11 a PostgreSQL 14.

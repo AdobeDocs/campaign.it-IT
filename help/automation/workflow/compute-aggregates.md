@@ -17,15 +17,15 @@ In questo esempio, vogliamo contare il numero di destinatari che vivono a Londra
 
 * Quale tabella deve essere selezionata?
 
-   Tabella dei destinatari (**nms:destinatario**)
+  Tabella dei destinatari (**nms:destinatario**)
 
 * Quali campi devono essere selezionati nella colonna di output?
 
-   Chiave primaria (con conteggio) e genere
+  Chiave primaria (con conteggio) e genere
 
 * Su quali condizioni vengono filtrate le informazioni?
 
-   In base ai destinatari che vivono a Londra
+  In base ai destinatari che vivono a Londra
 
 Per creare questo esempio, attieniti alla seguente procedura:
 

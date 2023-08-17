@@ -22,7 +22,7 @@ Adobe Campaign è dotato di diversi connettori che consentono di comunicare con 
 
 Combina le soluzioni Adobe Experience Cloud per modernizzare la tua implementazione.
 
-![](../assets/do-not-localize/speech.png)  In qualità di utente di Managed Cloud Services, [Adobe di contatto](../start/campaign-faq.md#support) per collegare Campaign con i servizi e le soluzioni di Adobe Experience Cloud.
+![](../assets/do-not-localize/speech.png)  In qualità di utente di Managed Cloud Service, [Adobe di contatto](../start/campaign-faq.md#support) per collegare Campaign con i servizi e le soluzioni di Adobe Experience Cloud.
 
 Campaign v8 è in grado di connettersi con:
 
@@ -58,10 +58,10 @@ Utilizza il connettore FDA (Federated Data Access) per collegare Campaign a uno 
 
 Utilizza Adobe Campaign per interagire con clienti attuali e potenziali tramite Twitter.
 
-È possibile eseguire le seguenti operazioni:
+Puoi:
 
 * Inviare messaggi diretti ai propri follower
-* Pubblica tweet sul tuo account Twitter
+* Pubblica tweet sul tuo account di Twitter
 * Raccogli nuovi contatti
 
 Scopri come impostare e utilizzare l’integrazione di Twitter in [questa pagina](../connect/ac-tw.md).

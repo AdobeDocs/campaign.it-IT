@@ -45,6 +45,7 @@ Per creare un budget, effettua le seguenti operazioni:
 >[!NOTE]
 >
 >Puoi selezionare un budget correlato. Per ulteriori informazioni al riguardo, consulta [questa sezione](#linking-a-budget-to-another).
+>
 
 ### Calcola importi {#calculating-amounts}
 

@@ -6,7 +6,7 @@ feature: Workflows, Privacy
 source-git-commit: ac4d0d0c16f429ca0948a3c3257558c46700baeb
 workflow-type: tm+mt
 source-wordcount: '107'
-ht-degree: 12%
+ht-degree: 21%
 
 ---
 
@@ -24,17 +24,17 @@ I flussi di lavoro descritti di seguito vengono installati con **Regolamento sul
    <td> <strong>Descrizione</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Raccogliere richieste di privacy</span> <br /> </td> 
+   <td> <span class="uicontrol">Raccogli richieste di privacy</span> <br /> </td> 
    <td> <span class="uicontrol">collectPrivacyRequests</span> <br /> </td> 
    <td> Questo flusso di lavoro genera i dati del destinatario memorizzati in Adobe Campaign e li rende disponibili per il download nella schermata della richiesta di accesso a dati personali.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Eliminare i dati delle richieste di privacy</span> <br /> </td> 
+   <td> <span class="uicontrol">Elimina i dati delle richieste di privacy</span> <br /> </td> 
    <td> <span class="uicontrol">deletePrivacyRequestsData</span> <br /> </td> 
    <td> Questo flusso di lavoro elimina i dati del destinatario memorizzati in Adobe Campaign.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Pulizia richiesta di accesso a dati personali</span> <br /> </td> 
+   <td> <span class="uicontrol">Pulizia delle richieste di privacy</span> <br /> </td> 
    <td> <span class="uicontrol">cleanupPrivacyRequests</span> <br /> </td> 
    <td> Questo flusso di lavoro cancella i file di richiesta di accesso che sono più vecchi di 90 giorni.<br /> </td> 
   </tr> 

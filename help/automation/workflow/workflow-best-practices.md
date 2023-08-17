@@ -78,7 +78,7 @@ Il nome dell’attività si trova nella sezione **[!UICONTROL Advanced]** scheda
 * Avvia sempre il flusso di lavoro con un **[!UICONTROL Start]** attività o un **[!UICONTROL Scheduler]** attività. Se necessario, puoi anche utilizzare un’ **[!UICONTROL External signal]** attività.
 * Durante la creazione del flusso di lavoro, utilizza un solo **[!UICONTROL Scheduler]** attività per ramo. Se lo stesso ramo di un flusso di lavoro include più pianificatori (collegati tra loro), il numero di attività da eseguire verrà moltiplicato in modo esponenziale, il che sovraccaricherebbe notevolmente il database. Questa regola si applica anche a tutte le attività con **[!UICONTROL Scheduling & History]** scheda. Ulteriori informazioni su [Pianificazione](scheduler.md).
 
-   ![](assets/wf-scheduler.png)
+  ![](assets/wf-scheduler.png)
 
 * Utilizzare **[!UICONTROL End]** per ogni flusso di lavoro. Questo consente ad Adobe Campaign di liberare spazio temporaneo utilizzato per i calcoli all’interno dei flussi di lavoro. Per ulteriori informazioni, consulta: [Inizio e fine](start-and-end.md).
 
@@ -144,7 +144,7 @@ Migliora la stabilità dell’istanza implementando le seguenti best practice:
 
 * **Evitare di lasciare i flussi di lavoro in stato di pausa**. Se crei un flusso di lavoro temporaneo, assicurati che possa terminare correttamente e non rimanere in un **[!UICONTROL paused]** stato. Se viene messo in pausa, implicherebbe la necessità di mantenere le tabelle temporanee e quindi aumentare le dimensioni del database. Assegna supervisori flusso di lavoro in Proprietà flusso di lavoro per inviare un avviso quando un flusso di lavoro non riesce o viene messo in pausa dal sistema.
 
-   Per evitare che i flussi di lavoro si trovino in stato di pausa:
+  Per evitare che i flussi di lavoro si trovino in stato di pausa:
 
    * Controlla i flussi di lavoro regolarmente per assicurarti che non si verifichino errori imprevisti.
    * Mantieni i flussi di lavoro il più semplici possibile, ad esempio suddividendo flussi di lavoro di grandi dimensioni in diversi flussi di lavoro. È possibile utilizzare **[!UICONTROL External signal]** Le attività attivano la loro esecuzione in base all’esecuzione di altri flussi di lavoro.

@@ -33,7 +33,7 @@ Un contatto trovato in **[!UICONTROL Recipients]** la tabella può essere colleg
 
 ![](assets/uc1_enrich_2.png)
 
-Lo scopo di questo caso d’uso è quello di inviare consegne personalizzate a persone che hanno preso parte all’ultimo concorso a seconda dei punteggi più elevati. Il destinatario con il punteggio più alto ottiene il primo premio, il destinatario con il secondo punteggio più alto riceve un premio di consolazione e tutti gli altri ricevono un messaggio augurando loro maggiore fortuna la prossima volta.
+Lo scopo di questo caso d’uso è quello di inviare consegne personalizzate a persone che hanno partecipato all’ultimo concorso a seconda dei punteggi più elevati. Il destinatario con il punteggio più alto ottiene il primo premio, il destinatario con il secondo punteggio più alto riceve un premio di consolazione e tutti gli altri ricevono un messaggio augurando loro maggiore fortuna la prossima volta.
 
 Per impostare questo caso d’uso, abbiamo creato il seguente flusso di lavoro di targeting:
 

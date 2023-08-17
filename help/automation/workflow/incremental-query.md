@@ -49,15 +49,15 @@ Per eseguire questa operazione:
 
    * **[!UICONTROL History in days]**
 
-      I destinatari già oggetto di targeting possono essere registrati per un numero massimo di giorni dal giorno in cui sono stati oggetto di targeting. Se questo valore è zero, i destinatari non vengono mai eliminati dal registro.
+     I destinatari già oggetto di targeting possono essere registrati per un numero massimo di giorni dal giorno in cui sono stati oggetto di targeting. Se questo valore è zero, i destinatari non vengono mai eliminati dal registro.
 
    * **[!UICONTROL Keep history when starting]**
 
-      Questa opzione consente di non eliminare il registro quando l’attività è abilitata.
+     Questa opzione consente di non eliminare il registro quando l’attività è abilitata.
 
    * **[!UICONTROL SQL table name]**
 
-      Questo parametro consente di sovraccaricare la tabella SQL predefinita contenente i dati della cronologia.
+     Questo parametro consente di sovraccaricare la tabella SQL predefinita contenente i dati della cronologia.
 
 ## Parametri di output {#output-parameters}
 

@@ -19,27 +19,27 @@ ht-degree: 3%
 
 * Per modificare l’immagine di sfondo, seleziona il flusso di lavoro di targeting desiderato, quindi fai clic su **[!UICONTROL Properties]** scheda.
 
-   ![](assets/s_user_segmentation_properties_tab.png)
+  ![](assets/s_user_segmentation_properties_tab.png)
 
-   Per selezionare l&#39;immagine da utilizzare, fare clic su **[!UICONTROL Select link]** a destra del **[!UICONTROL Background image]** campo.
+  Per selezionare l&#39;immagine da utilizzare, fare clic su **[!UICONTROL Select link]** a destra del **[!UICONTROL Background image]** campo.
 
-   >[!NOTE]
-   >
-   >La larghezza in pixel dell&#39;immagine di sfondo deve essere un multiplo di 4.
+  >[!NOTE]
+  >
+  >La larghezza in pixel dell&#39;immagine di sfondo deve essere un multiplo di 4.
 
-   ![](assets/s_user_segmentation_background_select.png)
+  ![](assets/s_user_segmentation_background_select.png)
 
-   Il **[!UICONTROL Edit link]** consente di visualizzare l’immagine selezionata.
+  Il **[!UICONTROL Edit link]** consente di visualizzare l’immagine selezionata.
 
 * Per modificare l’immagine associata a un’attività, fai doppio clic sull’oggetto, quindi fai clic sul pulsante **[!UICONTROL Advanced]** scheda.
 
-   Per selezionare l&#39;immagine da utilizzare, fare clic su **[!UICONTROL Select link]** a destra del **[!UICONTROL Image]** campo.
+  Per selezionare l&#39;immagine da utilizzare, fare clic su **[!UICONTROL Select link]** a destra del **[!UICONTROL Image]** campo.
 
-   ![](assets/s_user_segmentation_activity_image.png)
+  ![](assets/s_user_segmentation_activity_image.png)
 
-   Il **[!UICONTROL Edit link]** consente di visualizzare l’immagine selezionata.
+  Il **[!UICONTROL Edit link]** consente di visualizzare l’immagine selezionata.
 
-   ![](assets/s_user_segmentation_activity_image_select.png)
+  ![](assets/s_user_segmentation_activity_image_select.png)
 
 >[!NOTE]
 >

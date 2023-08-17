@@ -21,11 +21,11 @@ Le seguenti informazioni sono accessibili tramite questa scheda secondaria:
 
 * Il **[!UICONTROL Audit]** scheda secondaria mostra il giornale di registrazione attività. Contiene i processi eseguiti nella campagna: creazione o avvio del flusso di lavoro, approvazione, estrazione, gestione del magazzino, ecc.
 
-   ![](assets/campaign-audit-tab.png)
+  ![](assets/campaign-audit-tab.png)
 
 * Il **[!UICONTROL Deliveries]** scheda secondaria contiene tutte le consegne della campagna. Da questa vista è possibile modificarli. A questo scopo, seleziona la consegna e fai clic sul pulsante **[!UICONTROL Detail]** icona.
 
-   ![](assets/campaign-delivery-tab.png)
+  ![](assets/campaign-delivery-tab.png)
 
 * Il **[!UICONTROL Approvals]** scheda secondaria contiene tutto il processo di approvazione per la campagna. Puoi controllare dettagli e commenti
 

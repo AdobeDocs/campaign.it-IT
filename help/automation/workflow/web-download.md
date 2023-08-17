@@ -25,17 +25,17 @@ Il **Download web** l’attività avvia il download di un file su un URL esplici
 
    * Per immettere direttamente l’URL del file da scaricare, seleziona la **[!UICONTROL Explicit URL]** e specifica l’URL nel campo appropriato. Questo URL può essere costruito con dati variabili.
 
-      ![](assets/download_web_edit.png)
+     ![](assets/download_web_edit.png)
 
    * Per utilizzare un&#39; **[!UICONTROL External account]**, seleziona l’account dall’elenco a discesa e specifica il file da scaricare.
 
-      Gli account esterni sono configurati da **[!UICONTROL Administration > Platform > External accounts]** della struttura Adobe Campaign. I parametri dell’account possono essere modificati tramite **[!UICONTROL Edit link]** icona.
+     Gli account esterni sono configurati da **[!UICONTROL Administration > Platform > External accounts]** della struttura Adobe Campaign. I parametri dell’account possono essere modificati tramite **[!UICONTROL Edit link]** icona.
 
-      ![](assets/download_web_edit_external.png)
+     ![](assets/download_web_edit_external.png)
 
    * Per scaricare il file dall’istanza di Adobe Campaign, seleziona la **[!UICONTROL Adobe Campaign Instance]** opzione.
 
-      ![](assets/download_web_edit_instance.png)
+     ![](assets/download_web_edit_instance.png)
 
 1. **Storicizzazione dei file**
 

@@ -189,7 +189,7 @@ I diritti denominati concedono le autorizzazioni a:
 
 * Accesso alle cartelle L&#39;appartenenza ai gruppi di operatori può concedere o limitare i diritti di accesso alle cartelle modificando le impostazioni di protezione delle cartelle. [Ulteriori informazioni](folder-permissions.md#restrict-access-to-a-folder).
 
-   Ad esempio, può avere un impatto su: **Accesso in scrittura** creare nuove entità (come consegne, profili, ecc.), **Accesso in lettura** per utilizzare le entità, **Elimina accesso** per eliminare le entità.
+  Ad esempio, può avere un impatto su: **Accesso in scrittura** creare nuove entità (come consegne, profili, ecc.), **Accesso in lettura** per utilizzare le entità, **Elimina accesso** per eliminare le entità.
 
 I diritti denominati predefiniti in Adobe Campaign sono:
 

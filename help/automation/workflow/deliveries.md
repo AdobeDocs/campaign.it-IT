@@ -55,7 +55,7 @@ I flussi di lavoro descritti di seguito vengono installati con **Consegne** per 
    <td> <p>Questo flusso di lavoro analizza i flussi di lavoro in pausa la cui gravità è impostata su Normal e attiva avvisi e notifiche se sono stati messi in pausa troppo a lungo. Dopo un mese, i flussi di lavoro tecnici in pausa vengono interrotti incondizionatamente. Per impostazione predefinita viene attivato ogni lunedì alle 5.</p> <p>Per ulteriori informazioni, consulta Gestione dei flussi di lavoro in pausa</a>.</p></td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Notifica di offerta</span> <br /> </td> 
+   <td> <span class="uicontrol">Notifica dell’offerta</span> <br /> </td> 
    <td> <span class="uicontrol">offerManagement</span> <br /> </td> 
    <td> Questo flusso di lavoro distribuisce le offerte approvate nell’ambiente online, nonché in ogni categoria contenuta nel catalogo delle offerte.<br /> </td> 
   </tr> 

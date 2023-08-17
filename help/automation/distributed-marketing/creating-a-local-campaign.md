@@ -59,24 +59,24 @@ Sono disponibili quattro tipi di interfacce web:
 
 * **[!UICONTROL By brief]** : l’entità locale deve fornire una descrizione che descriva le configurazioni della campagna. Una volta approvato l’ordine, l’entità centrale configura ed esegue la campagna nel suo insieme.
 
-   ![](assets/mkt_distr_6.png)
+  ![](assets/mkt_distr_6.png)
 
 * **[!UICONTROL By form]** : l’entità locale ha accesso a un modulo web in cui, a seconda del modello utilizzato, può modificare il contenuto, il target, la sua dimensione massima, nonché le date di creazione ed estrazione utilizzando i campi di personalizzazione. L’entità locale può valutare la destinazione e visualizzare in anteprima il contenuto di questo modulo web.
 
-   ![](assets/mkt_distr_8.png)
+  ![](assets/mkt_distr_8.png)
 
-   Il modulo offerto è specificato in un’applicazione web che deve essere selezionata in un elenco a discesa dal **[!UICONTROL web Interface]** nel campo del modello **[!UICONTROL Advanced campaign parameters...]** collegamento. Fai riferimento a [Creazione di una campagna locale (per modulo)](examples.md#creating-a-local-campaign--by-form-).
+  Il modulo offerto è specificato in un’applicazione web che deve essere selezionata in un elenco a discesa dal **[!UICONTROL web Interface]** nel campo del modello **[!UICONTROL Advanced campaign parameters...]** collegamento. Fai riferimento a [Creazione di una campagna locale (per modulo)](examples.md#creating-a-local-campaign--by-form-).
 
-   >[!NOTE]
-   >
-   >L’applicazione web utilizzata in questo esempio è un esempio. Devi creare un’app web specifica per poter utilizzare un modulo.
+  >[!NOTE]
+  >
+  >L’applicazione web utilizzata in questo esempio è un esempio. Devi creare un’app web specifica per poter utilizzare un modulo.
 
-   ![](assets/mkt_distr_7.png)
+  ![](assets/mkt_distr_7.png)
 
 * **[!UICONTROL By external form]** : l’entità locale ha accesso ai parametri della campagna nella sua extranet (non Adobe Campaign). Questi parametri sono identici a quelli di un **campagna locale (per modulo)**.
 * **[!UICONTROL Pre-set]** : l’entità locale ordina la campagna utilizzando il modulo predefinito, senza localizzarlo.
 
-   ![](assets/mkt_distr_5.png)
+  ![](assets/mkt_distr_5.png)
 
 ### Valori predefiniti {#default-values}
 

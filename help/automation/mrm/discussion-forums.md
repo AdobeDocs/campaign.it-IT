@@ -56,13 +56,13 @@ Per rispondere a un messaggio, fai clic sul corpo dell’e-mail, quindi accedi a
 
 * Per iscriversi a un forum, fare clic su **[!UICONTROL Follow discussions]** nella sezione in alto a destra sopra l’elenco dei messaggi.
 
-   La sezione diventa blu e mostra che hai effettuato l’iscrizione al forum.
+  La sezione diventa blu e mostra che hai effettuato l’iscrizione al forum.
 
 * Per annullare l’abbonamento a un forum, fai clic su **[!UICONTROL Unsubscribe]** pulsante.
 
 * Nel dashboard personale sono elencati i forum a cui sei abbonato. Fai clic su **[!UICONTROL Subscription to discussion forums]** per visualizzare l’elenco, quindi fai clic sull’elemento di tuo interesse per accedere al forum.
 
-   ![](assets/forum-subscribed.png)
+  ![](assets/forum-subscribed.png)
 
 
 ## Risoluzione dei problemi di consegna delle notifiche {#checking-notification-delivery}
@@ -75,4 +75,5 @@ Se gli operatori abbonati a un forum non ricevono le notifiche previste:
 
    * Nella home page di Adobe Campaign, passa a **[!UICONTROL Campaigns > Navigation > Deliveries]**, quindi aprire **[!UICONTROL Discussion forum notification]** consegna.
    * In Esplora campagne, passa a **[!UICONTROL Administration > Production > Objects created automatically > Technical deliveries > Workflow notifications]**, quindi fai clic su **[!UICONTROL Discussion forum notifications]**.
-   In **[!UICONTROL Discussion forum notifications]** , i registri di consegna si trovano nella sezione **[!UICONTROL Edit > Delivery]** scheda. È inoltre possibile visualizzare **[!UICONTROL Tracking > Log]** e **[!UICONTROL Exclusion causes]** schede.
+
+  In **[!UICONTROL Discussion forum notifications]** , i registri di consegna si trovano nella sezione **[!UICONTROL Edit > Delivery]** scheda. È inoltre possibile visualizzare **[!UICONTROL Tracking > Log]** e **[!UICONTROL Exclusion causes]** schede.

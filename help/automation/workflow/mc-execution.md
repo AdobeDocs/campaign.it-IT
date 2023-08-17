@@ -6,7 +6,7 @@ feature: Workflows
 source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
 workflow-type: tm+mt
 source-wordcount: '203'
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
@@ -36,7 +36,7 @@ I flussi di lavoro descritti di seguito vengono installati con **Centro messaggi
     </ul> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Elaborazione di eventi batch</span> <br /> </td> 
+   <td> <span class="uicontrol">Elaborazione degli eventi batch</span> <br /> </td> 
    <td> <span class="uicontrol">batchEventsProcessing</span> <br /> </td> 
    <td> Questo flusso di lavoro ti consente di mettere in coda gli eventi batch prima di associarli a un modello di messaggio. <br /> </td> 
   </tr> 

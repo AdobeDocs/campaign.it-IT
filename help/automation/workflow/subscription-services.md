@@ -57,7 +57,7 @@ A questo scopo, devi escludere anche i destinatari che si sono già abbonati.
    Se lo desideri, puoi informare i destinatari della loro iscrizione alla newsletter controllando il **[!UICONTROL Send a confirmation message]** casella.
 
 1. Seleziona la cartella in cui si trova la newsletter, quindi seleziona la newsletter dall’elenco visualizzato.
-1. Lascia **[!UICONTROL Generate outbound transition]** deselezionata in modo che questa attività contrassegni la fine del flusso di lavoro, quindi fai clic su **[!UICONTROL Ok]**.
+1. Lascia **[!UICONTROL Generate outbound transition]** deselezionato in modo che questa attività contrassegni la fine del flusso di lavoro, quindi fai clic su **[!UICONTROL Ok]**.
 
 Durante l’esecuzione del flusso di lavoro, i destinatari corrispondenti a tutte e tre le query vengono aggiunti all’elenco e iscritti alla newsletter.
 

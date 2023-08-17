@@ -19,11 +19,11 @@ La schermata delle proprietà di un’attività presenta **[!UICONTROL Advanced]
 
 * una versione semplificata (per **[!UICONTROL Start]** e **[!UICONTROL End]** ad esempio)
 
-   ![](assets/wf-advanced-basic.png)
+  ![](assets/wf-advanced-basic.png)
 
 * una versione più dettagliata (per **[!UICONTROL Query]** ad esempio)
 
-   ![](assets/wf-advanced-full.png)
+  ![](assets/wf-advanced-full.png)
 
 I campi da inserire nel **[!UICONTROL Advanced]** nelle sezioni seguenti.
 

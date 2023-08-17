@@ -89,4 +89,4 @@ Puoi creare un flusso di lavoro di monitoraggio per inviare un’e-mail ogni vol
 
 È possibile creare una vista in modo da poter monitorare tutti i flussi di lavoro in un’area funzionale o a livello di sistema.
 
-Puoi anche utilizzare la funzionalità per processi o rapporti di Adobe Campaign per creare la documentazione su richiesta, sempre aggiornata.
+Puoi anche utilizzare la funzionalità per job o report di Adobe Campaign per creare la documentazione su richiesta, sempre aggiornata.

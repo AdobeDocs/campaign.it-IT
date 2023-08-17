@@ -9,13 +9,13 @@ exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
 source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
 source-wordcount: '698'
-ht-degree: 5%
+ht-degree: 33%
 
 ---
 
-# Utilizzare il modello di consegna{#work-with-delivery-template}
+# Utilizzare i modelli di consegna{#work-with-delivery-template}
 
-Utilizza i modelli di consegna per standardizzare l’aspetto creativo e velocizzare l’esecuzione e il lancio delle campagne.
+Utilizza i modelli di consegna per uniformare l’aspetto creativo delle comunicazioni e velocizzare l’esecuzione e il lancio delle campagne.
 
 Un modello può includere:
 
@@ -23,23 +23,23 @@ Un modello può includere:
 * Indirizzi di invio e risposta
 * Base [blocchi di personalizzazione](../send/personalization-blocks.md)
 * Collegamenti a [pagine mirror](../send/mirror-page.md) e i collegamenti di annullamento dell’abbonamento
-* Contenuto, logo aziendale o firma
-* Altre proprietà di consegna, come la validità delle risorse, i parametri dei nuovi tentativi o le impostazioni di quarantena.
+* Contenuto, logo dell’azienda o firma
+* Altre proprietà di consegna, ad esempio validità della risorsa, parametri dei nuovi tentativi o impostazioni della quarantena.
 
 ![](assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](#delivery-template-video)
 
 
 ## Creare un modello{#create-a-delivery-template}
 
-Per creare un modello di consegna, puoi duplicare un modello incorporato, convertire una consegna esistente in un modello o creare un modello di consegna da zero.
+Per creare un modello di consegna, è possibile duplicare un modello incorporato, convertire una consegna esistente in un modello o creare un modello di consegna da zero.
 
-### Duplica un modello esistente{#copy-an-existing-template}
+### Duplicare un modello esistente{#copy-an-existing-template}
 
 Campaign è dotato di un set di modelli incorporati per ogni canale: e-mail, push, SMS, direct mail e altro ancora.
 
-Il modo più semplice per creare un modello di consegna è duplicare e personalizzare un modello incorporato.
+Il modo più semplice per creare un modello di consegna è consiste nel duplicare e personalizzare un modello incorporato.
 
-Per duplicare un modello di consegna, effettua le seguenti operazioni:
+Per duplicare un modello di consegna, segui la procedura seguente:
 
 1. Sfoglia per **[!UICONTROL Resources > Templates > Delivery templates]** in Adobe Campaign explorer.
 1. Seleziona un modello di consegna integrato. I modelli incorporati sono visualizzati in grassetto nell’elenco.
@@ -59,7 +59,7 @@ Il modello viene aggiunto all’elenco dei modelli di consegna. Ora puoi selezio
 
 Una consegna può essere convertita in un modello per nuove azioni di consegna ripetute.
 
-Per convertire una consegna in un modello, effettua le seguenti operazioni:
+Per convertire una consegna in un modello, segui la procedura seguente:
 
 1. Seleziona la consegna dall’elenco di consegna, accessibile tramite **[!UICONTROL Campaign management]** nodo di Campaign explorer.
 
@@ -71,13 +71,13 @@ Per convertire una consegna in un modello, effettua le seguenti operazioni:
 
    ![](assets/template-select-folders.png)
 
-### Crea un nuovo modello {#create-a-new-template}
+### Creare un nuovo modello {#create-a-new-template}
 
 >[!NOTE]
 >
->Per evitare errori di configurazione, l’Adobe consiglia di: [duplicare un modello incorporato](#copy-an-existing-template) e personalizzarne le proprietà anziché creare un nuovo modello.
+>Per evitare errori di configurazione, Adobe consiglia di [duplicare un modello incorporato](#copy-an-existing-template) e personalizzarne le proprietà anziché creare un nuovo modello.
 
-Per configurare un modello di consegna da zero, segui i passaggi seguenti:
+Per configurare un modello di consegna da zero, segui la procedura seguente:
 
 1. Accedi a **Risorse** in Esplora campagne e seleziona **Modelli** allora **Modelli di consegna**.
 1. Clic **Nuovo** nella barra degli strumenti per creare un nuovo modello di consegna.

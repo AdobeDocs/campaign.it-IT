@@ -379,7 +379,7 @@ Sono inoltre forniti i seguenti rapporti incorporati. Per ulteriori informazioni
   </tr> 
   <tr> 
    <td> Cronologia delle acquisizioni di prospettive sociali (socialVisitorStatistics)<br /> </td> 
-   <td> La cronologia delle acquisizioni di potenziali clienti Twitter e Facebook dipende dal componente aggiuntivo Social marketing.<br /> </td> 
+   <td> La cronologia delle acquisizioni di potenziali clienti di Twitter e Facebook dipende dal componente aggiuntivo Social marketing.<br /> </td> 
    <td> nms:visitatore<br /> </td> 
   </tr> 
   <tr> 

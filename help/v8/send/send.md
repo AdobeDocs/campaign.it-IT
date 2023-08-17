@@ -100,7 +100,7 @@ La tabella seguente mostra come vengono aggiornati gli stati dei KPI e dei regis
 | Passaggio nel processo di invio | Riepilogo KPI | Stato dei registri di invio |
 |--- |--- |--- |
 | Il messaggio è stato inoltrato correttamente da Campaign all’MTA | **[!UICONTROL Success]** percentuale non visualizzata (inizia da 0%) | Considerato dal fornitore di servizi |
-| I messaggi non recapitabili vengono segnalati dall’MTA | Nessuna modifica in **[!UICONTROL Success]** percentuale | Operazione non riuscita |
+| I messaggi non recapitabili vengono segnalati dall’MTA | Nessuna modifica in **[!UICONTROL Success]** percentuale | Non riuscito |
 | I messaggi in soft-bouncing vengono segnalati dall’MTA | Nessuna modifica in **[!UICONTROL Success]** percentuale | Considerato dal fornitore di servizi |
 | Nuovi tentativi di messaggi con mancati recapiti non permanenti riusciti | **[!UICONTROL Success]** la percentuale viene aumentata di conseguenza | Inviato |
-| Nuovi tentativi di messaggi con mancati recapiti non riusciti | Nessuna modifica in **[!UICONTROL Success]** percentuale | Operazione non riuscita |
+| Nuovi tentativi di messaggi con mancati recapiti non riusciti | Nessuna modifica in **[!UICONTROL Success]** percentuale | Non riuscito |

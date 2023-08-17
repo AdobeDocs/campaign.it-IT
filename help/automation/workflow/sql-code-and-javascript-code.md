@@ -23,11 +23,11 @@ Un **[!UICONTROL SQL code]** L&#39;attività esegue uno script SQL. Lo script è
 
 * **[!UICONTROL Script]**
 
-   L’area centrale dell’editor contiene lo script da eseguire. Questo script è un modello JST e può quindi essere configurato in base al contesto del flusso di lavoro.
+  L’area centrale dell’editor contiene lo script da eseguire. Questo script è un modello JST e può quindi essere configurato in base al contesto del flusso di lavoro.
 
 * **[!UICONTROL Processing errors]**
 
-   Fai riferimento a [Errori di elaborazione](monitor-workflow-execution.md#processing-errors).
+  Fai riferimento a [Errori di elaborazione](monitor-workflow-execution.md#processing-errors).
 
 ## Codice JavaScript e codice JavaScript avanzato {#javascript-code}
 

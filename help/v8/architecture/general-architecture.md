@@ -18,15 +18,15 @@ La tipica distribuzione della soluzione Adobe Campaign è costituita dai seguent
 
 * **Ambiente client personalizzato**
 
-   Interfaccia grafica intuitiva che consente agli utenti di comunicare e tenere traccia delle offerte di marketing, creare campagne, rivedere e gestire tutte le attività, i programmi e i piani di marketing, inclusi e-mail, flussi di lavoro e pagine di destinazione, creare e gestire profili cliente e creare tipi di pubblico.
+  Interfaccia grafica intuitiva che consente agli utenti di comunicare e tenere traccia delle offerte di marketing, creare campagne, rivedere e gestire tutte le attività, i programmi e i piani di marketing, inclusi e-mail, flussi di lavoro e pagine di destinazione, creare e gestire profili cliente e creare tipi di pubblico.
 
 * **Ambiente di sviluppo**
 
-   Software lato server che esegue le campagne di marketing tramite canali di comunicazione scelti, tra cui e-mail, SMS, notifiche push, direct mail, web o social, in base alle regole e ai flussi di lavoro definiti nell’interfaccia utente.
+  Software lato server che esegue le campagne di marketing tramite canali di comunicazione scelti, tra cui e-mail, SMS, notifiche push, direct mail, web o social, in base alle regole e ai flussi di lavoro definiti nell’interfaccia utente.
 
 * **Contenitori database**
 
-   Basato sulla tecnologia del database relazionale, Adobe Campaign Cloud Database memorizza tutte le informazioni, i componenti della campagna, le offerte, i flussi di lavoro e i risultati della campagna in contenitori di database.
+  Basato sulla tecnologia del database relazionale, Adobe Campaign Cloud Database memorizza tutte le informazioni, i componenti della campagna, le offerte, i flussi di lavoro e i risultati della campagna in contenitori di database.
 
 ## Ambiente client personalizzato {#client-env}
 
@@ -60,7 +60,7 @@ I processi principali sono i seguenti:
 
 * **Server di reindirizzamento** (nlserver webmdl): per le e-mail, Adobe Campaign gestisce automaticamente il tracciamento di aperture e clic (un’ulteriore possibilità è il tracciamento transazionale a livello di sito web). A questo scopo, gli URL incorporati nei messaggi e-mail vengono riscritti in modo da puntare a questo modulo, che registra il passaggio dell’utente Internet prima di reindirizzarlo all’URL richiesto.
 
-   Per garantire la massima disponibilità, questo processo è completamente indipendente dal database: gli altri processi server comunicano con esso utilizzando solo chiamate SOAP (HTTP, HTTP(S) e XML). Tecnicamente, questa funzionalità viene implementata in un modulo di estensione di un server HTTP (estensione ISAPI in IIS, o un modulo Apache DSO, ecc.) ed è disponibile solo in Windows.
+  Per garantire la massima disponibilità, questo processo è completamente indipendente dal database: gli altri processi server comunicano con esso utilizzando solo chiamate SOAP (HTTP, HTTP(S) e XML). Tecnicamente, questa funzionalità viene implementata in un modulo di estensione di un server HTTP (estensione ISAPI in IIS, o un modulo Apache DSO, ecc.) ed è disponibile solo in Windows.
 
 Sono disponibili anche altri processi più tecnici:
 

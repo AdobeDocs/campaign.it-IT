@@ -66,7 +66,7 @@ La seconda scheda nelle proprietà di approvazione dell’attività ti consente 
 
 ![](assets/expiration.png)
 
-Per aggiungere una nuova scadenza, fai clic su **[!UICONTROL Add]**. A ciascuna delle scadenze create viene aggiunta una transizione. È possibile eseguire le seguenti operazioni:
+Per aggiungere una nuova scadenza, fai clic su **[!UICONTROL Add]**. A ciascuna delle scadenze create viene aggiunta una transizione. Puoi:
 
 * modificare direttamente i parametri tipici facendo clic su una cella dell&#39;elenco (o premendo F2),
 * o modificare l’espressione facendo clic sul pulsante **[!UICONTROL Detail...]** pulsante.
@@ -84,15 +84,15 @@ Puoi creare quattro tipi di scadenza:
 * **Ritarda prima di una data specificata**: la scadenza viene calcolata sottraendo un periodo di tempo da una data specificata.
 * **Scadenza calcolata dallo script**: la scadenza viene calcolata utilizzando JavaScript.
 
-   L’esempio seguente calcola una scadenza 24 ore prima della data di inizio di una consegna (identificata da **vars.deliveryId**):
+  L’esempio seguente calcola una scadenza 24 ore prima della data di inizio di una consegna (identificata da **vars.deliveryId**):
 
-   ```
-   var delivery = nms.delivery.get(vars.deliveryId)
-   var expiration = delivery.scheduling.contactDate
-   var oneDay = 1000*60*60*24
-   expiration.setTime(expiration.getTime() - oneDay)
-   return expiration
-   ```
+  ```
+  var delivery = nms.delivery.get(vars.deliveryId)
+  var expiration = delivery.scheduling.contactDate
+  var oneDay = 1000*60*60*24
+  expiration.setTime(expiration.getTime() - oneDay)
+  return expiration
+  ```
 
 ## Approvazione multipla {#multiple-approval}
 

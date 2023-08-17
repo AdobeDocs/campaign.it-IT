@@ -82,15 +82,16 @@ Per configurare una deduplicazione, immetti l’etichetta, il metodo e i criteri
    * **[!UICONTROL Choose for me]**: seleziona in modo casuale il record da escludere dai duplicati.
    * **[!UICONTROL Following a list of values]**: ti consente di definire un valore di priorità per uno o più campi. Per definire i valori, seleziona un campo o crea un’espressione, quindi aggiungi i valori nella tabella appropriata. Per definire un nuovo campo, fai clic sul pulsante **[!UICONTROL Add]** situato sopra l’elenco dei valori.
 
-      ![](assets/s_user_segmentation_dedup_param5.png)
+     ![](assets/s_user_segmentation_dedup_param5.png)
 
    * **[!UICONTROL Non-empty value]**: questo ti consente di conservare i record per i quali il valore dell’espressione selezionata non è vuoto come priorità.
 
-      ![](assets/s_user_segmentation_dedup_param6.png)
+     ![](assets/s_user_segmentation_dedup_param6.png)
 
    * **[!UICONTROL Using an expression]**: consente di conservare i record con il valore più basso (o più alto) dell’espressione specificata.
 
-      ![](assets/s_user_segmentation_dedup_param7.png)
+     ![](assets/s_user_segmentation_dedup_param7.png)
+
    >[!NOTE]
    >
    >Il **[!UICONTROL Merge]** , accessibile tramite **[!UICONTROL Advanced parameters]** , ti consente di configurare un set di regole per unire un campo o un gruppo di campi in un singolo record di dati risultante. Per ulteriori informazioni, consulta [Unione di campi in un unico record](#merging-fields-into-single-record).
@@ -141,7 +142,7 @@ Ad esempio, con un set di record duplicati, è possibile scegliere di mantenere 
 
 Un caso d’uso che sfrutta questa funzione è disponibile in [questa sezione](deduplication-merge.md).
 
-Per farlo, esegui questi passaggi:
+Per farlo, segui questi passaggi:
 
 1. In **[!UICONTROL Deduplication method]** fase di selezione, fai clic sul pulsante **[!UICONTROL Advanced Parameters]** collegamento.
 

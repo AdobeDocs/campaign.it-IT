@@ -48,7 +48,7 @@ Per creare una nuova categoria, effettua le seguenti operazioni:
 
    * Assegna date di idoneità da **[!UICONTROL Eligibility]** scheda.
 
-      ![](assets/offer_cat_create_004.png)
+     ![](assets/offer_cat_create_004.png)
 
    * **[!UICONTROL Edit query]** per applicare filtri al target dell’offerta.
 

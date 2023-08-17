@@ -58,7 +58,7 @@ Di seguito è riportato un elenco delle funzioni di aggregazione disponibili:
 
 * **[!UICONTROL Count]** per contare tutti i valori non nulli del campo da aggregare, compresi i valori duplicati (del campo aggregato),
 
-   **[!UICONTROL Distinct]** per contare il numero totale di valori diversi e non nulli del campo da aggregare (i valori duplicati sono esclusi prima del calcolo),
+  **[!UICONTROL Distinct]** per contare il numero totale di valori diversi e non nulli del campo da aggregare (i valori duplicati sono esclusi prima del calcolo),
 
 * **[!UICONTROL Sum]** calcolare la somma dei valori di un campo numerico,
 * **[!UICONTROL Minimum value]** calcolare i valori minimi di un campo (numerici o di altro tipo),

@@ -30,7 +30,7 @@ Tieni presente che nei suoi [Distribuzione aziendale (FFDA)](../architecture/ent
 >
 >* A partire dalla versione 8.5.1 di Campaign, il processo di autenticazione è stato modificato in Campaign v8. Per connettersi a Campaign, gli operatori tecnici devono utilizzare Adobe Identity Management System (IMS). Scopri come eseguire la migrazione degli account tecnici esistenti in [questa nota tecnica](../../technotes/upgrades/ims-migration.md).
 >
->* [!DNL Adobe Campaign] v8 viene fornito con un limite al throughput (TPS) del livello API. Se si supera il limite, viene generato un errore HTTP standard (429). In qualità di utente di Managed Cloud Services, puoi contattare Adobe per adattare la limitazione per ogni API.
+>* [!DNL Adobe Campaign] v8 viene fornito con un limite al throughput (TPS) del livello API. Se si supera il limite, viene generato un errore HTTP standard (429). In qualità di utente di Managed Cloud Service, puoi contattare Adobe per adattare la limitazione per ogni API.
 > 
 
 ## Prerequisiti

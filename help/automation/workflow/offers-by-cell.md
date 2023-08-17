@@ -28,6 +28,6 @@ Per eseguire questa operazione:
    * Specifica la popolazione del sottoinsieme utilizzando le regole di filtro e limitazione disponibili.
    * Quindi, seleziona l’offerta da presentare al sottoinsieme. Le offerte disponibili sono quelle idonee per lo spazio dell’offerta selezionato al passaggio precedente.
 
-      ![](assets/int_offer_per_cell1.png)
+     ![](assets/int_offer_per_cell1.png)
 
 1. Quindi configura un’attività di consegna che corrisponde al canale scelto. Fai riferimento a [Consegne cross-channel](cross-channel-deliveries.md).

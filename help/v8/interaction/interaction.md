@@ -59,6 +59,7 @@ Se lo spazio è definito da un canale unitario in modalità identificata, è nec
    >[!NOTE]
    >
    >Quando si crea uno spazio dell’offerta sul canale web in entrata, è necessario configurare il sito web in modo da visualizzare questa offerta.
+   >
 
 ### Creare e pubblicare il catalogo delle offerte {#managing-the-offer-catalog-}
 
@@ -90,29 +91,29 @@ Scopri i termini specifici dell’offerta e le relative indicazioni prima di ini
    * creare il contenuto dell’offerta utilizzando le funzioni di rendering
    * specifica le offerte da presentare
 
-   Uno spazio è un’interfaccia tra il canale e il motore di offerta.
+  Uno spazio è un’interfaccia tra il canale e il motore di offerta.
 
-   >[!CAUTION]
-   >
-   >Uno spazio dell’offerta non è un canale di comunicazione, bensì coincide con una posizione specifica dell’esposizione sul canale. Ad esempio, le offerte esposte su un sito web possono occupare due spazi sulla stessa pagina. In questo caso, sono disponibili due spazi per lo stesso canale.
-   >
-   >Gli spazi devono essere definiti nelle specifiche e non devono essere modificati durante il progetto.
+  >[!CAUTION]
+  >
+  >Uno spazio dell’offerta non è un canale di comunicazione, bensì coincide con una posizione specifica dell’esposizione sul canale. Ad esempio, le offerte esposte su un sito web possono occupare due spazi sulla stessa pagina. In questo caso, sono disponibili due spazi per lo stesso canale.
+  >
+  >Gli spazi devono essere definiti nelle specifiche e non devono essere modificati durante il progetto.
 
 * **Catalogo delle offerte**: set di offerte definite in Adobe Campaign che possono essere selezionate durante un’interazione. Il catalogo è organizzato gerarchicamente e ogni nodo corrisponde a una categoria.
 * **Categoria**: cartella collegata al catalogo delle offerte in un ambiente, che organizza le offerte in base alla natura, alla data di idoneità e al tema dell’applicazione. Una categoria può contenere sottocategorie, che ereditano tutte le caratteristiche della categoria padre. Le regole di idoneità possono essere definite per una categoria in modo da condividerle per più offerte.
 * **Temi applicazione**: parole chiave definite nella categoria, che consentono di filtrare le offerte quando vengono presentate a un canale in entrata o in uscita limitando la selezione delle offerte a una o due categorie.
 
-   >[!NOTE]
-   >
-   >Le categorie figlio ereditano i temi identificati nella categoria padre.
+  >[!NOTE]
+  >
+  >Le categorie figlio ereditano i temi identificati nella categoria padre.
 
 * **Regole di idoneità**: vincoli applicati a un ambiente, una categoria o un’offerta per quanto riguarda il periodo di validità, il target e il peso. Ti consentono di verificare che un’offerta sia in linea con il contatto mirato.
 
-   Negli ambienti, le regole di idoneità includono le regole di presentazione applicate alle offerte e alle persone di destinazione.
+  Negli ambienti, le regole di idoneità includono le regole di presentazione applicate alle offerte e alle persone di destinazione.
 
-   Nelle categorie, le regole di idoneità consentono di: limitare la validità della categoria nel tempo, definire i temi dell’applicazione e determinare le persone di destinazione. Possono anche ricevere un peso moltiplicatore per un dato tempo. Questo consente di condividere le regole per le offerte in altre categorie, semplificandone la gestione.
+  Nelle categorie, le regole di idoneità consentono di: limitare la validità della categoria nel tempo, definire i temi dell’applicazione e determinare le persone di destinazione. Possono anche ricevere un peso moltiplicatore per un dato tempo. Questo consente di condividere le regole per le offerte in altre categorie, semplificandone la gestione.
 
-   Nelle offerte, le regole di idoneità ti consentono di limitare la validità delle offerte in tempo e determinare le persone di destinazione.
+  Nelle offerte, le regole di idoneità ti consentono di limitare la validità delle offerte in tempo e determinare le persone di destinazione.
 
 * **Arbitraggio**: selezione delle offerte da visualizzare in un ambiente (offerte idonee). Il principio di arbitraggio classifica le offerte per priorità in base ai criteri definiti nelle categorie, nelle offerte e nelle offerte contestuali.
 * **Contatto**: un contatto da un’interazione in entrata. Durante l’elaborazione delle chiamate al motore, il contatto è associato a una dimensione di targeting. Esistono due tipi di contatti:
@@ -120,9 +121,9 @@ Scopri i termini specifici dell’offerta e le relative indicazioni prima di ini
    * **[!UICONTROL Identified contact]** : contatto che è stato identificato volontariamente sul canale. Nelle interazioni in uscita, il contatto viene identificato automaticamente.
    * **[!UICONTROL Anonymous contact]** : un contatto che non si è abbonato volontariamente tramite il canale, ma che può essere identificato implicitamente tramite un cookie. Questa terminologia viene utilizzata solo per le interazioni in ingresso.
 
-      >[!NOTE]
-      >
-      >I contatti anonimi non identificati vengono attribuiti alla dimensione di targeting dei visitatori.
+     >[!NOTE]
+     >
+     >I contatti anonimi non identificati vengono attribuiti alla dimensione di targeting dei visitatori.
 
 * **Interazione in uscita**: chiama al motore delle offerte da un elenco di contatti (utilizzato per la consegna di e-mail, direct mailing, ecc.). A ogni contatto vengono applicate le stesse regole e le stesse procedure. Questo tipo di interazione viene in genere elaborato in modalità batch.
 * **Interazione in entrata**: interazione successiva a una chiamata in arrivo generata dall’azione di un contatto sul canale. Questo tipo di interazione viene solitamente elaborato in modalità unitaria.

@@ -60,11 +60,11 @@ La fase di instradamento consiste nel collegare un evento al modello di messaggi
 
 * Il tipo di evento specificato nelle proprietà dell’evento stesso:
 
-   ![](assets/event-type-sample.png)
+  ![](assets/event-type-sample.png)
 
 * Tipo di evento specificato nelle proprietà del modello di messaggio:
 
-   ![](assets/event-type-select.png)
+  ![](assets/event-type-select.png)
 
 Per impostazione predefinita, il ciclo si basa sulle seguenti informazioni:
 
@@ -86,8 +86,7 @@ I possibili stati sono:
 * **Consegna in sospeso**
 L’evento è stato elaborato e il modello di consegna è collegato. L’e-mail è in attesa di consegna e viene applicato il processo di consegna classico. Per ulteriori informazioni, puoi aprire la consegna.
 * **Inviato**, **Ignorato** e **Errore di consegna**
-Questi stati di consegna vengono recuperati tramite 
-**updateEventsStatus** flusso di lavoro. Per ulteriori informazioni, puoi aprire la consegna pertinente.
+Questi stati di consegna vengono recuperati tramite **updateEventsStatus** flusso di lavoro. Per ulteriori informazioni, puoi aprire la consegna pertinente.
 * **Evento non coperto**
 Fase di routing della messaggistica transazionale non riuscita. Ad esempio, Adobe Campaign non ha trovato l’e-mail che funge da modello per l’evento.
 * **Evento scaduto**

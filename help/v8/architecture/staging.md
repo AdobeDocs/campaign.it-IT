@@ -33,7 +33,6 @@ Le API di Campaign Classic v7 sono ancora disponibili, ma non possono beneficiar
 >* La gestione temporanea si applica solo agli schemi memorizzati nel database cloud. Non abilitare la gestione temporanea negli schemi replicati. Non abilitare Gestione temporanea negli schemi locali. Non abilitare la gestione temporanea in uno schema in attesa
 >
 
-
 ## Passaggi di implementazione{#implement-staging}
 
 Per implementare il meccanismo di staging di Campaign su una tabella specifica, segui i passaggi seguenti:

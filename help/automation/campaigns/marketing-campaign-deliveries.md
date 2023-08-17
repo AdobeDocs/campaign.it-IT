@@ -29,9 +29,9 @@ Una volta salvata, la consegna viene aggiunta al dashboard della campagna.
 
 * Da un flusso di lavoro della campagna, nel **[!UICONTROL Targeting and workflows]** , aggiungendo la consegna.
 
-   ![](assets/campaign-wf-delivery.png)
+  ![](assets/campaign-wf-delivery.png)
 
-   Una volta avviato il flusso di lavoro, la consegna viene aggiunta al dashboard della campagna.
+  Una volta avviato il flusso di lavoro, la consegna viene aggiunta al dashboard della campagna.
 
 Scopri come impostare ed eseguire il flusso di approvazione della consegna [in questa pagina](marketing-campaign-approval.md).
 
@@ -94,21 +94,21 @@ L’estrazione del file avvia due processi: il calcolo del budget e il calcolo d
 
 * Il **[!UICONTROL Budget]** consente di gestire i budget per la campagna. Il totale delle voci di costo è indicato nella **[!UICONTROL Calculated cost]** della scheda principale della campagna e il programma a cui appartiene. Gli importi sono riportati anche nel bilancio della campagna.
 
-   ![](assets/campaign-budget-tab.png)
+  ![](assets/campaign-budget-tab.png)
 
-   Il costo reale verrà calcolato in base alle informazioni fornite dal router. Solo i messaggi effettivamente inviati vengono fatturati.
+  Il costo reale verrà calcolato in base alle informazioni fornite dal router. Solo i messaggi effettivamente inviati vengono fatturati.
 
 * Le scorte sono definite nella **[!UICONTROL Administration > Campaign management > Stocks]** dell&#39;albero.
 
-   ![](assets/campaign-stocks.png)
+  ![](assets/campaign-stocks.png)
 
-   Strutture di costo nel **[!UICONTROL Administration > Campaign management > Service providers]** nodo.
+  Strutture di costo nel **[!UICONTROL Administration > Campaign management > Service providers]** nodo.
 
-   ![](assets/campaign-service-providers.png)
+  ![](assets/campaign-service-providers.png)
 
-   Le linee del grezzo sono visibili nella sezione del grezzo. Per definire il materiale iniziale, aprire una linea del materiale. Le scorte vengono diminuite ogni volta che si verifica una consegna. Puoi definire un livello di avviso e le notifiche.
+  Le linee del grezzo sono visibili nella sezione del grezzo. Per definire il materiale iniziale, aprire una linea del materiale. Le scorte vengono diminuite ogni volta che si verifica una consegna. Puoi definire un livello di avviso e le notifiche.
 
 
-   >[!NOTE]
-   >
-   >Ulteriori informazioni sui budget [in questa sezione](providers--stocks-and-budgets.md).
+  >[!NOTE]
+  >
+  >Ulteriori informazioni sui budget [in questa sezione](providers--stocks-and-budgets.md).

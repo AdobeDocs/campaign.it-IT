@@ -29,19 +29,19 @@ I valori possibili sono:
 
 * Fuso orario server
 
-   Utilizza il fuso orario del server applicazioni Adobe Campaign.
+  Utilizza il fuso orario del server applicazioni Adobe Campaign.
 
 * Fuso orario utente
 
-   Utilizza il fuso orario dell’operatore Adobe Campaign che esegue il flusso di lavoro.
+  Utilizza il fuso orario dell’operatore Adobe Campaign che esegue il flusso di lavoro.
 
 * Fuso orario del database
 
-   Utilizza il fuso orario del server di database utilizzato.
+  Utilizza il fuso orario del server di database utilizzato.
 
 * Fusi orari specifici
 
-   Utilizza il fuso orario selezionato.
+  Utilizza il fuso orario selezionato.
 
 Se il **[!UICONTROL By default]** se è selezionato il valore, viene applicato il fuso orario del flusso di lavoro o, in caso contrario, quello del server applicazioni.
 

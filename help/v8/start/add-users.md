@@ -34,7 +34,7 @@ Ogni operatore deve essere collegato a una zona per accedere a un&#39;istanza e 
 
 Gli operatori sono collegati a un’area di sicurezza dal suo profilo nella console, accessibile nella **[!UICONTROL Administration > Access management > Operators]** nodo.
 
-![](../assets/do-not-localize/speech.png)  In qualità di utente di Cloud Services gestiti, Adobe imposta automaticamente le aree di protezione. Per ulteriori informazioni, [Adobe di contatto](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
+![](../assets/do-not-localize/speech.png)  In qualità di utente di Cloud Service gestiti, Adobe imposta automaticamente le aree di protezione. Per ulteriori informazioni, [Adobe di contatto](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
 
 **Ulteriori informazioni**
 

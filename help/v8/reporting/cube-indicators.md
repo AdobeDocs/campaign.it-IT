@@ -24,30 +24,31 @@ Con i cubi è possibile:
 
 * Esportare i dati direttamente in un rapporto, progettato in **[!UICONTROL Reports]** della piattaforma Adobe Campaign.
 
-   A questo scopo, crea un nuovo rapporto e seleziona il cubo da utilizzare.
+  A questo scopo, crea un nuovo rapporto e seleziona il cubo da utilizzare.
 
-   ![](assets/create-new-cube.png)
+  ![](assets/create-new-cube.png)
 
-   I cubi vengono visualizzati come modelli in base ai rapporti creati. Dopo aver scelto un modello, fai clic su **[!UICONTROL Create]** per configurare e visualizzare il nuovo rapporto.
+  I cubi vengono visualizzati come modelli in base ai rapporti creati. Dopo aver scelto un modello, fai clic su **[!UICONTROL Create]** per configurare e visualizzare il nuovo rapporto.
 
-   Puoi adattare le misure, modificare la modalità di visualizzazione o configurare la tabella, quindi visualizzare il rapporto utilizzando il pulsante principale.
+  Puoi adattare le misure, modificare la modalità di visualizzazione o configurare la tabella, quindi visualizzare il rapporto utilizzando il pulsante principale.
 
-   ![](assets/display-cube-table.png)
+  ![](assets/display-cube-table.png)
 
 * Fare riferimento a un cubo nel **[!UICONTROL Query]** di una relazione per utilizzare i propri indicatori, come illustrato di seguito:
 
-   ![](assets/cube-report-query.png)
+  ![](assets/cube-report-query.png)
 
 * Inserire una tabella pivot basata su un cubo in una pagina qualsiasi di un report. A questo scopo, fai riferimento al cubo da utilizzare nel **[!UICONTROL Data]** della tabella pivot sulla pagina interessata.
 
-   ![](assets/cube-in-a-report.png)
+  ![](assets/cube-in-a-report.png)
 
-   Per ulteriori informazioni, consulta [Esplorare i dati in un rapporto](cube-tables.md#explore-the-data-in-a-report).
+  Per ulteriori informazioni, consulta [Esplorare i dati in un rapporto](cube-tables.md#explore-the-data-in-a-report).
 
 
 >[!CAUTION]
 >
 >Per creare i cubi sono necessarie le autorizzazioni di amministratore.
+>
 
 ## Creare un cubo{#cube-create}
 

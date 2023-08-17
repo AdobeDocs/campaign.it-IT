@@ -19,19 +19,19 @@ In questo esempio, vogliamo recuperare i nomi e le e-mail dei destinatari il cui
 
 * Quale tabella selezionare?
 
-   Tabella dei destinatari (nms:recipient)
+  Tabella dei destinatari (nms:recipient)
 
 * Campi da selezionare come colonne di output
 
-   E-mail, nome, città e numero account
+  E-mail, nome, città e numero account
 
 * Quali sono le condizioni di filtro dei destinatari?
 
-   città e dominio e-mail
+  città e dominio e-mail
 
 * È configurato un ordinamento?
 
-   Sì, in base a **[!UICONTROL Account number]** e **[!UICONTROL Last name]**
+  Sì, in base a **[!UICONTROL Account number]** e **[!UICONTROL Last name]**
 
 Per creare questo esempio, attieniti alla seguente procedura:
 

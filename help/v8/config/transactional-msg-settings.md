@@ -18,7 +18,7 @@ La messaggistica transazionale (Message Center) è un modulo di Campaign progett
 
 L’architettura della messaggistica transazionale in [questa pagina](../architecture/architecture.md#transac-msg-archi).
 
-![](../assets/do-not-localize/speech.png) In qualità di utente di Managed Cloud Services, [Adobe di contatto](../start/campaign-faq.md#support) per installare e configurare la messaggistica transazionale di Campaign nell’ambiente.
+![](../assets/do-not-localize/speech.png) In qualità di utente di Managed Cloud Service, [Adobe di contatto](../start/campaign-faq.md#support) per installare e configurare la messaggistica transazionale di Campaign nell’ambiente.
 
 ## Definire le autorizzazioni
 
@@ -101,7 +101,7 @@ Nelle istanze di esecuzione, devi avviare i seguenti flussi di lavoro tecnici:
 * **[!UICONTROL Processing real time events]** (nome interno: **[!UICONTROL rtEventsProcessing]** ): questo flusso di lavoro ti consente di suddividere gli eventi in tempo reale in una coda prima che vengano collegati a un modello di messaggio.
 * **[!UICONTROL Update event status]** (nome interno: **[!UICONTROL updateEventStatus]** ): questo flusso di lavoro ti consente di attribuire uno stato all’evento.
 
-   I possibili stati degli eventi sono:
+  I possibili stati degli eventi sono:
 
    * **[!UICONTROL Pending]**: l’evento è in coda. Non è ancora stato assegnato alcun modello di messaggio.
    * **[!UICONTROL Pending delivery]**: l’evento è in coda, gli è stato assegnato un modello di messaggio e viene elaborato dalla consegna.

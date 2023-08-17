@@ -33,7 +33,7 @@ Sono disponibili due modalità di estensione della tabella:
 
 * Tramite l’interfaccia, utilizzando **Nuovo campo** assistente
 
-   Scopri come aggiungere rapidamente un nuovo campo in Campaign in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html#configuring-campaign-classic){target="_blank"}
+  Scopri come aggiungere rapidamente un nuovo campo in Campaign in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html#configuring-campaign-classic){target="_blank"}
 
 * A livello di programmazione, estendendo lo schema. Scopri come estendere uno schema esistente in [questa sezione](../dev/extend-schema.md).
 

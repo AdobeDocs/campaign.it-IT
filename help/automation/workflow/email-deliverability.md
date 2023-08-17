@@ -6,7 +6,7 @@ feature: Workflows, Deliverability
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -22,7 +22,7 @@ Il flusso di lavoro descritto di seguito viene installato per impostazione prede
    <td> <strong>Descrizione</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Aggiorna per il recapito messaggi</strong><br /> </td> 
+   <td> <strong>Aggiorna per recapitabilità</strong><br /> </td> 
    <td> <span class="uicontrol">deliverabilityUpdate</span> <br /> </td> 
    <td>  Una volta <strong>Monitoraggio del recapito messaggi (recapito messaggi e-mail)</strong> viene installato, questo flusso di lavoro viene eseguito ogni notte per aggiornare regolarmente l’elenco delle regole e consente di gestire attivamente il recapito messaggi della piattaforma.<br /> </td> 
   </tr> 

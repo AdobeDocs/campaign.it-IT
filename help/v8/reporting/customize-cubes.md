@@ -82,11 +82,11 @@ Puoi effettuare le seguenti operazioni:
 
 * **[!UICONTROL Recover the most frequently used values]**
 
-   Se si generano 4 raccoglitori, verranno visualizzati i 4 valori utilizzati più di frequente, mentre gli altri verranno contati e raggruppati nella categoria &quot;Altri&quot;.
+  Se si generano 4 raccoglitori, verranno visualizzati i 4 valori utilizzati più di frequente, mentre gli altri verranno contati e raggruppati nella categoria &quot;Altri&quot;.
 
 * **[!UICONTROL Generate bins in the form of slots]**
 
-   Per lo stesso esempio, Adobe Campaign crea automaticamente 4 slot di valori delle stesse dimensioni per visualizzare i valori nel database.
+  Per lo stesso esempio, Adobe Campaign crea automaticamente 4 slot di valori delle stesse dimensioni per visualizzare i valori nel database.
 
 In questo caso, il filtro selezionato nello schema dei fatti viene ignorato.
 
@@ -140,7 +140,7 @@ Per creare un nuovo aggregato, attenersi alla procedura descritta di seguito.
    * Il **[!UICONTROL Scheduler]** attività consente di definire la frequenza degli aggiornamenti di calcolo. Il modulo di pianificazione è descritto in [questa sezione](../../automation/workflow/scheduler.md).
    * Il **[!UICONTROL Aggregate update]** attività consente di selezionare la modalità di aggiornamento da applicare: completo o parziale.
 
-      Per impostazione predefinita, durante ogni calcolo viene eseguito un aggiornamento completo. Per abilitare un aggiornamento parziale, seleziona l’opzione pertinente e definisci le condizioni di aggiornamento.
+     Per impostazione predefinita, durante ogni calcolo viene eseguito un aggiornamento completo. Per abilitare un aggiornamento parziale, seleziona l’opzione pertinente e definisci le condizioni di aggiornamento.
 
 ## Definire le misure {#define-measures}
 
@@ -186,7 +186,7 @@ La configurazione di misure, linee e colonne può essere eseguita singolarmente 
 
 * Fai clic su **[!UICONTROL Edit the configuration of the pivot table]** per accedere alla finestra di configurazione.
 
-   È possibile scegliere se visualizzare o meno le etichette delle misure e configurarne il layout (righe o colonne).
+  È possibile scegliere se visualizzare o meno le etichette delle misure e configurarne il layout (righe o colonne).
 
 ![](assets/cube-pivot-table-config-details.png)
 

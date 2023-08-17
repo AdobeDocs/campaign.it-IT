@@ -38,27 +38,27 @@ Dopo aver creato il messaggio e averne progettato e testato il relativo contenut
 
 * Inviare messaggi manualmente al target principale
 
-   ![](assets/send-email.png)
+  ![](assets/send-email.png)
 
-   Scopri come inviare messaggi in [questa sezione](../send/send.md)
+  Scopri come inviare messaggi in [questa sezione](../send/send.md)
 
 * Inviare messaggi associati a una [campagna di marketing](campaigns.md)
 
-   ![](assets/deliveries-in-a-campaign.png)
+  ![](assets/deliveries-in-a-campaign.png)
 
-   Per scoprire come inviare messaggi nel contesto di una campagna, consulta [questa sezione](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=it).
+  Per scoprire come inviare messaggi nel contesto di una campagna, consulta [questa sezione](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=it).
 
 * Inviare messaggi tramite un [flusso di lavoro](../config/workflows.md)
 
-   ![](assets/send-in-a-wf.png)
+  ![](assets/send-in-a-wf.png)
 
-   Per scoprire come automatizzare le consegne di e-mail, consulta [questa pagina](../../automation/workflow/delivery.md).
+  Per scoprire come automatizzare le consegne di e-mail, consulta [questa pagina](../../automation/workflow/delivery.md).
 
 * [Attivare i messaggi](../send/transactional.md) da un evento
 
 * Pianificare i messaggi
 
-   ![](assets/schedule-send.png)
+  ![](assets/schedule-send.png)
 
 [Caso d’uso: scopri come pianificare e inviare un’e-mail di compleanno](../../automation/workflow/send-a-birthday-email.md)
 

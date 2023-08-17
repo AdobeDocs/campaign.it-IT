@@ -8,7 +8,7 @@ exl-id: d39b1768-4c39-4d64-b9b6-d9c9424a2b0d
 source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
 workflow-type: tm+mt
 source-wordcount: '1265'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -52,7 +52,7 @@ Per inserire le proposte di offerta in una consegna, segui i passaggi seguenti:
 
    ![](assets/offer_delivery_008.png)
 
-1. Completa il contenuto, verifica e invia la consegna.
+1. Completa il contenuto, esegui un test e invia la consegna.
 
    ![](assets/offer_delivery_010.png)
 
@@ -102,11 +102,11 @@ Dopo aver configurato **Query** attività:
 
    * **[!UICONTROL Search for the best offer in a category]** : seleziona questa opzione e specifica i parametri di chiamata del motore di offerta (spazio dell’offerta, categoria o temi, data di contatto, numero di offerte da mantenere). Il motore calcola automaticamente le offerte da aggiungere in base a questi parametri. È consigliabile completare **[!UICONTROL Category]** o **[!UICONTROL Theme]** e non entrambi contemporaneamente.
 
-      ![](assets/int_enrichment_offer3.png)
+     ![](assets/int_enrichment_offer3.png)
 
    * **[!UICONTROL A pre-defined offer]** : seleziona questa opzione e specifica uno spazio dell’offerta, un’offerta specifica e una data di contatto per configurare direttamente l’offerta da aggiungere, senza chiamare il motore di offerta.
 
-      ![](assets/int_enrichment_offer4.png)
+     ![](assets/int_enrichment_offer4.png)
 
 1. Quindi configura un’attività di consegna che corrisponde al canale scelto. [Ulteriori informazioni](#offer-into-a-delivery)
 
@@ -165,7 +165,7 @@ Il **[!UICONTROL Offer engine]** L’attività ti consente inoltre di specificar
 
 Per ulteriori informazioni su **Motore di offerta** attività, fare riferimento a [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html)
 
-Questa attività funziona in base allo stesso principio **Arricchimento** attività con una chiamata del motore, arricchendo i dati della popolazione in entrata con un’offerta calcolata dal motore prima di una consegna.
+Questa attività funziona in base allo stesso principio **Arricchimento** attività con una chiamata del motore, arricchendo i dati della popolazione in entrata con un’offerta calcolata dal motore, prima di una consegna.
 
 ![](assets/int_offerengine_activity2.png)
 
@@ -197,7 +197,7 @@ A questo scopo, utilizza il seguente processo:
    * Specifica la popolazione del sottoinsieme utilizzando le regole di filtro e limitazione disponibili.
    * Quindi seleziona l’offerta da presentare al sottoinsieme. Le offerte disponibili sono quelle idonee nell’ambiente delle offerte selezionato al passaggio precedente.
 
-      ![](assets/int_offer_per_cell1.png)
+     ![](assets/int_offer_per_cell1.png)
 
 1. Quindi configura un’attività di consegna che corrisponde al canale scelto.
 

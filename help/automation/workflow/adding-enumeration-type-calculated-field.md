@@ -20,15 +20,15 @@ In questo caso vogliamo creare una query con un **[!UICONTROL Enumerations]** di
 
 * Quale tabella deve essere selezionata?
 
-   Tabella dei destinatari (nms:recipient)
+  Tabella dei destinatari (nms:recipient)
 
 * Campi da selezionare nella colonna di output?
 
-   Cognome, Nome, Genere
+  Cognome, Nome, Genere
 
 * Criteri in base ai quali le informazioni verranno filtrate?
 
-   La lingua del destinatario
+  La lingua del destinatario
 
 Applica i seguenti passaggi:
 

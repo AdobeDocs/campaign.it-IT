@@ -75,9 +75,9 @@ Per ulteriori informazioni sulla creazione di un modello di distribuzione dati, 
    * **[!UICONTROL Label]**: immetti l’etichetta del dominio da visualizzare nelle notifiche di approvazione e feedback.
    * **[!UICONTROL Group or operator]**: seleziona l’operatore o il gruppo di operatori assegnati al dominio.
 
-      >[!CAUTION]
-      >
-      >Assicurati che agli operatori siano stati assegnati i diritti appropriati.
+     >[!CAUTION]
+     >
+     >Assicurati che agli operatori siano stati assegnati i diritti appropriati.
 
 ## Passaggio 2: creare il flusso di lavoro di targeting {#step-2--creating-the-targeting-workflow}
 
@@ -144,7 +144,7 @@ Per ulteriori informazioni sulla configurazione di **[!UICONTROL Local approval]
 
 Un messaggio e-mail di notifica viene inviato da **[!UICONTROL Local approval]** alle autorità di vigilanza locali.
 
-### Attività Wait {#wait}
+### Attendi {#wait}
 
 L’attività Attendi ti consente di posticipare l’inizio della seconda attività di approvazione locale che invierà la notifica di feedback della consegna. In **[!UICONTROL Duration]** , è stato immesso il **[!UICONTROL 5d]** (5 giorni). Le azioni eseguite dai destinatari nei 5 giorni successivi all’invio della consegna verranno incluse nella notifica di feedback.
 

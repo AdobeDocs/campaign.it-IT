@@ -23,7 +23,7 @@ I connettori di origine e destinazione del Cloud Service gestito di Adobe Campai
 
 I passaggi principali per inviare il pubblico di Adobe Experience Platform ad Adobe Campaign e inviare i registri di consegna e tracciamento sono i seguenti:
 
-* Utilizzare un Adobe Campaign Managed Cloud Services **Connessione di destinazione** per inviare segmenti Experience Platform ad Adobe Campaign:
+* Utilizzare un Adobe Campaign Managed Cloud Services **Connessione di destinazione** per inviare segmenti Experienci Platform ad Adobe Campaign:
 
    1. Accedi al catalogo delle destinazioni di Adobe Experience Platform e crea un nuovo **[!UICONTROL Adobe Campaign Managed Cloud Services]** connessione.
    1. Fornisci i dettagli sull’istanza Campaign da utilizzare e scegli **[!UICONTROL Audience sync]** come tipo di sincronizzazione.

@@ -1,21 +1,21 @@
 ---
 product: campaign
-title: Attività AND-join
-description: Attività AND-join
+title: Unione AND
+description: Unione AND
 feature: Workflows
 exl-id: c70a106d-3518-4eac-9944-6f7c93d85bac
 source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 5%
+ht-degree: 21%
 
 ---
 
-# Attività AND-join{#and-join}
+# Unione AND{#and-join}
 
 
 
-Un join attiva la relativa transizione in uscita solo quando vengono attivate tutte le transizioni in entrata, ovvero quando tutte le attività precedenti sono state completate. Questo ti consente di verificare che alcune attività siano state completate prima di continuare a eseguire il flusso di lavoro.
+Un join attiva la relativa transizione in uscita solo quando vengono attivate tutte le transizioni in entrata, ovvero quando tutte le attività precedenti sono state completate. Questo consente di verificare che alcune attività siano state completate prima di continuare a eseguire il flusso di lavoro.
 
 Ad esempio, puoi utilizzare un’attività AND-join nel contesto della creazione di contenuti e dell’automazione dell’invio della consegna, per assicurarti che una consegna venga avviata solo una volta completati i passaggi di query di destinazione e aggiornamenti dei contenuti. Un caso d’uso dedicato è disponibile in
 

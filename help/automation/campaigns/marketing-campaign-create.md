@@ -57,7 +57,7 @@ Durante la modifica di un programma, utilizza le schede descritte di seguito per
 
 * Il **Modifica** Questa scheda ti permette di personalizzare il programma: nome, date di inizio e fine, budget, documenti collegati, ecc.
 
-   ![](assets/new-program-edit-tab.png)
+  ![](assets/new-program-edit-tab.png)
 
 ## Utilizzare le campagne{#work-with-campaigns}
 

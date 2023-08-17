@@ -31,21 +31,21 @@ La prima scheda della **[!UICONTROL File collector]** activity (attività) conse
 
    * **[!UICONTROL Directory]**
 
-      Directory contenente i file da scaricare. Questa directory deve essere creata in precedenza sul server: se non esiste, verrà generato un errore.
+     Directory contenente i file da scaricare. Questa directory deve essere creata in precedenza sul server: se non esiste, verrà generato un errore.
 
    * **[!UICONTROL Filter]**
 
-      Vengono considerati solo i file che corrispondono a questo filtro. Gli altri file nella directory vengono ignorati. Se il filtro è vuoto, vengono presi in considerazione tutti i file nella directory. Esempi di filtro: **&#42;.zip**, **import-&#42;.txt**.
+     Vengono considerati solo i file che corrispondono a questo filtro. Gli altri file nella directory vengono ignorati. Se il filtro è vuoto, vengono presi in considerazione tutti i file nella directory. Esempi di filtro: **&#42;.zip**, **import-&#42;.txt**.
 
    * **[!UICONTROL Stop as soon as a file has been processed]**
 
-      Se questa opzione è abilitata, l’attività termina dopo la ricezione del primo file. Se nella directory sono presenti più file corrispondenti al filtro, ne verrà preso in considerazione solo uno. Questa opzione garantisce che venga inviato un solo evento. Il file preso in considerazione è il primo dell’elenco in ordine alfabetico.
+     Se questa opzione è abilitata, l’attività termina dopo la ricezione del primo file. Se nella directory sono presenti più file corrispondenti al filtro, ne verrà preso in considerazione solo uno. Questa opzione garantisce che venga inviato un solo evento. Il file preso in considerazione è il primo dell’elenco in ordine alfabetico.
 
-      Per un’attività non pianificata, se nella directory specificata non è presente alcun file corrispondente al filtro e se **[!UICONTROL Process file nonexistence]** non è abilitata, verrà generato un errore.
+     Per un’attività non pianificata, se nella directory specificata non è presente alcun file corrispondente al filtro e se **[!UICONTROL Process file nonexistence]** non è abilitata, verrà generato un errore.
 
    * **[!UICONTROL Execution schedule]**
 
-      Determina la frequenza del controllo della presenza di file tramite i parametri della **[!UICONTROL Schedule]** scheda.
+     Determina la frequenza del controllo della presenza di file tramite i parametri della **[!UICONTROL Schedule]** scheda.
 
 1. **Gestione degli errori**
 
@@ -53,17 +53,17 @@ La prima scheda della **[!UICONTROL File collector]** activity (attività) conse
 
    * **[!UICONTROL Process file nonexistence]**
 
-      Questa opzione avvia una transizione speciale ogni volta che nella directory specificata non viene trovato alcun file corrispondente al filtro.
+     Questa opzione avvia una transizione speciale ogni volta che nella directory specificata non viene trovato alcun file corrispondente al filtro.
 
-      Se l’attività non è pianificata, questa transizione verrà attivata una sola volta.
+     Se l’attività non è pianificata, questa transizione verrà attivata una sola volta.
 
    * **[!UICONTROL Processing errors]**
 
-      Questa opzione consente di visualizzare una transizione speciale da attivare in caso di errore. In questo caso, il flusso di lavoro non passa allo stato di errore e continua l’esecuzione
+     Questa opzione consente di visualizzare una transizione speciale da attivare in caso di errore. In questo caso, il flusso di lavoro non passa allo stato di errore e continua l’esecuzione
 
-      Gli errori presi in considerazione sono errori del file system (file non spostabile, directory non accessibile, ecc.).
+     Gli errori presi in considerazione sono errori del file system (file non spostabile, directory non accessibile, ecc.).
 
-      Questa opzione non elabora gli errori relativi alla configurazione dell’attività, ovvero valori non validi.
+     Questa opzione non elabora gli errori relativi alla configurazione dell’attività, ovvero valori non validi.
 
 1. **Cronologia**
 

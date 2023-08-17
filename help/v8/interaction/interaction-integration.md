@@ -338,7 +338,7 @@ In risposta alla query, il servizio SOAP restituirà i seguenti parametri:
 
 ### Aggiornamento offerta {#offer-update}
 
-Aggiungi il **nms:interazione#AggiornaStato** all&#39;URL, seguito dai seguenti parametri:
+Aggiungi il **nms:interazione#UpdateStatus** all&#39;URL, seguito dai seguenti parametri:
 
 * **proposta**: stringa di caratteri che contiene l’ID della proposta fornito come output durante una proposta di offerta. Fai riferimento a [Proposta di offerta](#offer-proposition).
 * **stato**: tipo di stringa, specifica il nuovo stato dell’offerta. I valori possibili sono elencati nella **propositionStatus** enumerazione, nel **nms:comune** schema. Ad esempio, il numero 3 corrisponde al valore **Accettato** stato.

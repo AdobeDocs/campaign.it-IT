@@ -7,11 +7,11 @@ exl-id: 12777107-5ccc-4f19-9dcd-8f6cade3ee98
 source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 4%
+ht-degree: 8%
 
 ---
 
-# Intersezione{#intersection}
+# Intersezione {#intersection}
 
 
 
@@ -23,7 +23,7 @@ L’intersezione consente di estrarre solo la popolazione comune a tutti i risul
 
 Per ulteriori informazioni sulla configurazione e sull’utilizzo dell’attività di intersezione, consulta [Estrazione dei dati articolari (intersezione)](targeting-workflows.md#extracting-joint-data--intersection-).
 
-Controlla la **[!UICONTROL Generate complement]** se desideri elaborare la popolazione rimanente. Il complemento conterrà l’unione dei risultati di tutte le attività in entrata meno l’intersezione. Verrà quindi aggiunta all’attività un’ulteriore transizione in uscita, come segue:
+Controlla la **[!UICONTROL Generate complement]** se desideri elaborare la popolazione rimanente. Il complemento conterrà l’unione dei risultati di tutte le attività in entrata senza l’intersezione. Verrà quindi aggiunta all’attività un’ulteriore transizione in uscita, come segue:
 
 ![](assets/s_user_segmentation_inter_compl.png)
 

@@ -53,7 +53,7 @@ Una volta eseguito, il flusso di lavoro chiamato come flusso di lavoro secondari
 * Impossibile visualizzare il conteggio delle popolazioni intermedie.
 * I registri del flusso di lavoro secondario vengono visualizzati nel flusso di lavoro principale.
 
-   ![](assets/subworkflow_logs.png)
+  ![](assets/subworkflow_logs.png)
 
 >[!NOTE]
 >

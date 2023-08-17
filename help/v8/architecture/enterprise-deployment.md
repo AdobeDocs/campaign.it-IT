@@ -33,6 +33,7 @@ Le tabelle o gli schemi integrati che devono essere spostati o replicati nel dat
 >[!CAUTION]
 >
 > I dati dei clienti non vengono memorizzati nel database locale di [!DNL Campaign]. Di conseguenza, eventuali tabelle personalizzate devono essere create nel database cloud.
+>
 
 ## Architettura Campaign Enterprise (FFDA){#ffda-archi}
 
@@ -64,7 +65,7 @@ Il database PostgreSQL nell’istanza di marketing viene utilizzato per:
 * Memorizza tutti i dati di Campaign, incluse le impostazioni di consegna e campagna, le definizioni di flussi di lavoro e servizi.
 * Memorizza tutte le tabelle di riferimento incorporate (enumerazioni, paesi, ecc.) che vengono replicati in [!DNL Snowflake].
 
-   Tuttavia, non è possibile:
+  Tuttavia, non è possibile:
    * creare personalizzazioni per i dati dei clienti, ad esempio non creare una tabella domestica in PostgreSQL, ma solo nel Snowflake
    * archivia eventuali registri di consegna, registri di tracciamento, ecc. sulla dimensione di targeting FFDA.
    * archiviare grandi volumi di dati.
@@ -100,6 +101,7 @@ Un flusso di lavoro tecnico specifico gestisce la replica delle tabelle che devo
 >
 > Sono stati creati diversi criteri di replica in base alle dimensioni della tabella (XS, XL, eccetera).
 > Alcune tabelle vengono replicate in tempo reale, altre vengono replicate su base oraria. Alcune tabelle avranno aggiornamenti incrementali, altre avranno un aggiornamento completo.
+>
 
 [Ulteriori informazioni sulla replica dei dati](replication.md)
 
