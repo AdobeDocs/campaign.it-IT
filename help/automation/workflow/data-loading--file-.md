@@ -4,9 +4,9 @@ title: Caricamento dati (file)
 description: Ulteriori informazioni sull’attività del flusso di lavoro Caricamento dati (file)
 feature: Workflows, Data Management Activity
 exl-id: 10351620-115c-4bd8-b216-e5ad6f205ef3
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: cf88140d1e8b71203729732163f66060423965a0
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1037'
 ht-degree: 14%
 
 ---
@@ -32,6 +32,10 @@ La sezione superiore della finestra di configurazione per questa attività ti co
 È possibile definire un pre-processo da eseguire durante l&#39;importazione dei file, ad esempio per non dover decomprimere il file sul server (e quindi risparmiare spazio per il file decompresso) ma per includere la decompressione nell&#39;elaborazione dei file. Seleziona la **[!UICONTROL Pre-process the file]** e scegliere una delle tre opzioni seguenti: **[!UICONTROL None]**, **[!UICONTROL Decompression]** (zcat) oppure **[!UICONTROL Decrypt]** (gpg).
 
 ![](assets/preprocessing-dataloading.png)
+
+>[!IMPORTANT]
+>
+>Non è possibile decomprimere file compressi di dimensioni superiori a 4 Gb.
 
 ## Definizione del formato del file {#defining-the-file-format}
 
