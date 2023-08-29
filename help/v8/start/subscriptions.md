@@ -5,18 +5,18 @@ feature: Subscriptions
 role: User
 level: Beginner
 exl-id: d5933b12-8664-49b8-953c-ea98eb428cc2
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: b0150b38b50b04c08b10ed73b3be3064a09d7b88
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '448'
 ht-degree: 11%
 
 ---
 
 # Gestire gli abbonamenti e il loro annullamento{#optin-optout}
 
-Utilizza Adobe Campaign per creare e monitorare i tuoi servizi di informazioni, come le newsletter, e per gestire gli abbonamenti/annullamenti degli abbonamenti a tali servizi. È possibile definire in parallelo diversi servizi, ad esempio newsletter specializzate per determinate categorie di prodotti, temi o aree di un sito Web, abbonamenti a vari tipi di messaggi di avviso e notifiche in tempo reale. Consulta Gestire gli abbonamenti.
+Utilizza Adobe Campaign per creare e monitorare i tuoi servizi di informazioni, come le newsletter, e per gestire gli abbonamenti/annullamenti degli abbonamenti a tali servizi. È possibile definire in parallelo diversi servizi, ad esempio newsletter specializzate per determinate categorie di prodotti, temi o aree di un sito Web, abbonamenti a vari tipi di messaggi di avviso e notifiche in tempo reale.
 
-![](../assets/do-not-localize/book.png) Scopri come creare un servizio di informazioni, inviare una newsletter e gestire consenso e rinuncia in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html){target="_blank"}
+![](../assets/do-not-localize/book.png) Scopri come creare un servizio di informazioni, inviare newsletter e gestire consenso e rinuncia in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html){target="_blank"}
 
 Per abbonare (opt-in) un profilo a un servizio, le opzioni disponibili sono:
 
