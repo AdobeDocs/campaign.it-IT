@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 title: Documentazione di Adobe Campaign v8
 description: Documentazione di Campaign v8
 breadcrumb-title: Panoramica di Campaign
-source-git-commit: 4ff6e8134c887da6c207afc7f9532a60ff9ef31e
+source-git-commit: cb5bec3107872d4d6da83b4ddbc7cad3e9276b00
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 94%
+source-wordcount: '578'
+ht-degree: 92%
 
 ---
 
@@ -133,7 +133,9 @@ ht-degree: 94%
    + [Documentazione del flusso di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=it)
 + Integrazioni {#connect}
    + [Connettere Campaign con altre soluzioni](connect/integration.md)
-   + [Campaign + Experience Platform](connect/ac-aep.md)
+   + Campaign + Experience Platform {#ac-aep}
+      + [Tipi di pubblico e attributi di profilo](connect/ac-aep.md)
+      + [Pagine di destinazione e attributi del profilo di Campaign](connect/ac-aep-landing-pages.md)
    + [Campaign + Journey Optimizer](connect/ac-ajo.md)
    + [Campaign + Analytics](connect/ac-aa.md)
    + [Campaign + Experience Manager](connect/ac-aem.md)

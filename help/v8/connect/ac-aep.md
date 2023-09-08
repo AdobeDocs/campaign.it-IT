@@ -1,13 +1,13 @@
 ---
-title: Utilizzare Campaign e Adobe Experience Platform
-description: Scopri come utilizzare Campaign e Adobe Experience Platform
+title: Tipi di pubblico e attributi di profilo
+description: Scopri come sincronizzare i tipi di pubblico e gli attributi del profilo di Adobe Experience Platform con Campaign
 feature: Platform Integration
 role: Data Engineer
 level: Beginner
 exl-id: 21cf5611-ccaa-4e83-8891-a1a2353515aa
-source-git-commit: d9a91fddbdcfae0f59fe780f8b6962238b89c886
+source-git-commit: 2bd007dec1a61828a499d6c4db738e7673382fb4
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '541'
 ht-degree: 3%
 
 ---
