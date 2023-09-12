@@ -5,9 +5,9 @@ feature: Architecture
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
+source-git-commit: d791cb9afc51457e799ee62f8bb845fd888fecf2
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1129'
 ht-degree: 7%
 
 ---
@@ -78,6 +78,7 @@ Sono disponibili anche altri processi più tecnici:
 
 * **Server statistiche** (nlserver stat) - Questo processo mantiene statistiche sul numero di connessioni, sui messaggi inviati per ciascun server di posta a cui vengono inviati i messaggi, nonché sulle relative limitazioni (numero massimo di connessioni simultanee, messaggi all’ora/ e/o connessione). Consente inoltre di federare più istanze o computer se condividono gli stessi indirizzi IP pubblici.
 
+
 ## Contenitori database {#db-containers}
 
 Il database di Adobe Campaign Cloud si basa su [!DNL Snowflake] che contiene i dati funzionali (profili, abbonamenti, contenuti, ecc.), i dati tecnici (processi e registri di consegna, registri di tracciamento, ecc.) e i dati di lavoro (acquisti, lead) della soluzione e tutti i componenti di Adobe Campaign comunicano con il database per eseguire le attività specifiche.
@@ -92,3 +93,9 @@ Puoi distribuire Adobe Campaign utilizzando il database e gli schemi predefiniti
 >Con **Campaign Managed Cloud Services**, l’ambiente e la configurazione iniziale sono stati impostati da Adobe, in base ai termini del contratto di licenza. Non ti è consentito modificare i pacchetti, gli schemi e i report integrati.
 >
 >Se hai la necessità di utilizzare un componente aggiuntivo di Campaign o una funzionalità specifica non fornita, contatta l’**Assistenza clienti di Adobe**.
+
+## Archiviazione del database {#db-storage}
+
+Lo spazio di archiviazione totale è suddiviso tra il database principale e il magazzino di Snowflake. La posizione in cui vengono memorizzati i dati deve essere determinata al momento dell’implementazione o dell’aggiornamento, in base ai casi d’uso specifici per il cliente.
+
+Scopri come monitorare l’utilizzo del database in [Documentazione del Pannello di controllo Campaign della campagna](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html){target="_blank"}.
