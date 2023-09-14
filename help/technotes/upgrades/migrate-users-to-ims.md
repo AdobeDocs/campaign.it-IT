@@ -1,11 +1,9 @@
 ---
 title: Migrazione degli operatori di Campaign a Adobe Identity Management System (IMS)
 description: Scopri come migrare gli operatori di Campaign a Adobe Identity Management System (IMS)
-hide: true
-hidefromtoc: true
-source-git-commit: 53412ab167721c8a8f9d84e07112b0f410d4785d
+source-git-commit: a85368a8cd34c9bcdfcea91b71fa4b519b6437a3
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1078'
 ht-degree: 2%
 
 ---
@@ -88,7 +86,7 @@ In qualità di amministratore di Campaign, devi aggiungere gli ID e-mail a tutti
 1. Inserisci l’e-mail dell’operatore nel **Punti di contatto** sezione del modulo operatore.
 1. Salva le modifiche.
 
-Puoi anche importare un file CSV per aggiornare tutti i profili dell’operatore con la relativa e-mail.
+<!--You can also import a CSV file to update all your operator profiles with their email.-->
 
 
 ### Come effettuare l’accesso a Campaign tramite IMS? {#ims-migration-log}
