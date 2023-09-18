@@ -3,7 +3,7 @@ title: Migrazione dell’infrastruttura di invio di Campaign ad Amazon Web Servi
 description: Migrazione dell’infrastruttura di invio di Campaign ad Amazon Web Services (AWS)
 hide: true
 hidefromtoc: true
-source-git-commit: d0935df57d8a25fa023dd93e7923c2728d889577
+source-git-commit: 53080e3641e0070b0b6e47d1ec8b55b4c7aa2b1a
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 5%
@@ -31,7 +31,7 @@ La migrazione degli ambienti di produzione deve iniziare tra **Gennaio 2024**. U
 
 In qualità di cliente di Campaign, riceverai una notifica aggiuntiva durante la pianificazione delle ondate di migrazione. Le notifiche saranno inviate almeno sette giorni prima della migrazione.
 
-## Quale sarà l’impatto dell&#39;aggiornamento?{#aws-impact}
+## Quale sarà l’impatto dell&#39;aggiornamento?{#impact}
 
 Questo passaggio sarà trasparente per i clienti:
 
