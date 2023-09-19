@@ -3,9 +3,9 @@ title: Migrazione dell’infrastruttura di invio di Campaign ad Amazon Web Servi
 description: Migrazione dell’infrastruttura di invio di Campaign ad Amazon Web Services (AWS)
 hide: true
 hidefromtoc: true
-source-git-commit: 557d61e0e015fa955b70858d614e476febd467cb
+source-git-commit: 3a8fd0a0c721d03f1818dce45b58a841284bbb00
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '400'
 ht-degree: 2%
 
 ---
@@ -64,7 +64,7 @@ Questo passaggio sarà trasparente per i clienti:
 
 * **Quali convalide devono essere eseguite dai clienti?**
 
-  Non sono necessari test specifici per questo aggiornamento della sicurezza. In caso di problemi, contatta il [Assistenza clienti Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support)
+  Per questa migrazione non è necessario alcun test specifico. In caso di problemi, contatta il [Assistenza clienti Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support)
 
 
 * **È possibile richiedere una modifica in Data/ora nello slot di aggiornamento della sicurezza pianificato?**
