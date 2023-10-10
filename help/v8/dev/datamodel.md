@@ -5,10 +5,10 @@ feature: Data Model
 role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: 87e56e7c296884458a0c8fd704b82611f56e695d
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,19 +18,19 @@ Adobe Campaign viene fornito con un modello dati predefinito. Questa sezione for
 
 La struttura di base del modello dati di Adobe Campaign può essere descritta come segue:
 
-* **Tabella destinatari**: il modello dati si basa su una tabella principale che è per impostazione predefinita la tabella Destinatario (nmsRecipient). Questa tabella memorizza tutti i profili di marketing.
+* **Tabella destinatari**: il modello dati si basa su una tabella principale che è, per impostazione predefinita, la tabella Destinatario (**nmsRecipient**). Questa tabella memorizza tutti i profili di marketing. Ulteriori informazioni sulla tabella dei destinatari in [questa sezione](#ootb-profiles).
 
-  ![](../assets/do-not-localize/glass.png) Per ulteriori informazioni sulla tabella Destinatario, consulta [questa sezione](#ootb-profiles).
-
-* **Tabella di consegna**: il modello dati include anche una parte dedicata alla memorizzazione di tutte le attività di marketing. Di solito si tratta della tabella Delivery (NmsDelivery). Ogni record di questa tabella rappresenta un’azione di consegna o un modello di consegna. Contiene tutti i parametri necessari per eseguire le consegne come destinazione, contenuto, ecc.
+* **Tabella di consegna**: questa tabella memorizza un record per azione di consegna. Di solito si tratta della tabella Delivery (**NmsDelivery**). in questa tabella rappresenta un’azione di consegna o un modello di consegna. Contiene tutti i parametri necessari per eseguire le consegne come destinazione, contenuto, ecc. Ogni record viene aggiornato diverse volte per riflettere l’avanzamento della consegna
 
 * **Tabelle dei registri**: queste tabelle memorizzano tutti i registri associati all’esecuzione delle campagne.
 
-  I registri di consegna sono tutti messaggi inviati a destinatari o dispositivi su tutti i canali. La tabella principale dei registri di consegna (NmsBroadLogRcp) contiene i registri di consegna per tutti i destinatari.
-La tabella principale dei registri di tracciamento (NmsTrackingLogRcp) memorizza i registri di tracciamento per tutti i destinatari. I registri di tracciamento si riferiscono alle reazioni dei destinatari, ad esempio aperture delle e-mail e clic. Ogni reazione corrisponde a un registro di tracciamento.
-I registri di consegna e di tracciamento vengono eliminati dopo un determinato periodo di tempo, specificato in Adobe Campaign, che può essere modificato. Pertanto, si consiglia vivamente di esportare i registri su base regolare.
+   * I registri di consegna sono tutti messaggi inviati a destinatari o dispositivi su tutti i canali. La tabella dei registri di consegna principale (**NmsBroadLogRcp**) contiene i registri di consegna per tutti i destinatari.
+   * Il **nmsBroadlog** tabella è la tabella più grande del sistema. Memorizza un record per messaggio inviato e questi record vengono inseriti, aggiornati per tenere traccia dello stato di consegna ed eliminati quando la cronologia viene eliminata.
+   * La tabella principale dei registri di tracciamento (**NmsTrackingLogRcp**) memorizza i registri di tracciamento per tutti i destinatari. I registri di tracciamento si riferiscono alle reazioni dei destinatari, ad esempio aperture delle e-mail e clic. Ogni reazione corrisponde a un registro di tracciamento.
 
-* **Tabelle tecniche**: raccoglie i dati tecnici utilizzati per il processo applicativo, inclusi gli operatori e i diritti utente (xtkGroup) e le cartelle (XtkFolder).
+  I registri di consegna e di tracciamento vengono eliminati dopo un determinato periodo di tempo, specificato in Adobe Campaign, che può essere modificato. Pertanto, si consiglia vivamente di esportare i registri su base regolare.
+
+* **Tabelle tecniche**: raccogli i dati tecnici utilizzati per il processo applicativo, inclusi gli operatori e i diritti utente (**xtkGroup**), sessioni utente (**xtkSessionInfo**), cartelle nella struttura dell&#39;elenco delle cartelle (**XtkFolder**), flussi di lavoro (**xtkWorkflow**) e altro ancora.
 
 >[!NOTE]
 >
