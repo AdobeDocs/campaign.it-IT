@@ -3,8 +3,9 @@ product: campaign
 title: Impostare un’importazione ricorrente
 description: Scopri come configurare un modello di flusso di lavoro per le importazioni ricorrenti.
 feature: Workflows, Data Management
+role: User, Data Engineer
 exl-id: 13f0091b-b62c-47df-9658-6631ba1cf03a
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 28742db06b9ca78a4e952fcb0e066aa5ec344416
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 0%
