@@ -3,8 +3,9 @@ product: campaign
 title: Consegne di campagne di marketing
 description: Ulteriori informazioni sulle consegne delle campagne di marketing
 feature: Campaigns, Resource Management, Cross Channel Orchestration
+role: User
 exl-id: 1d9638cb-0fc9-4d04-a9c5-bcab8f4ebe95
-source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 1%

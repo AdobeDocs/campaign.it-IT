@@ -3,8 +3,9 @@ product: campaign
 title: Tipo di flussi di lavoro
 description: Scopri diversi tipi di flussi di lavoro in Campaign
 feature: Workflows
+role: User
 exl-id: f511332c-1fcc-444f-851b-e8b470b719b4
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 4%

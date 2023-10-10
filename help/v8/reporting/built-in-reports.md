@@ -2,8 +2,9 @@
 title: Rapporti incorporati di Adobe Campaign
 description: Rapporti incorporati
 feature: Reporting
+role: User
 exl-id: b63e6905-3bd4-4de4-9e7e-7638e5fc1192
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 2%

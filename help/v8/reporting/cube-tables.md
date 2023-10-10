@@ -3,8 +3,9 @@ product: campaign
 title: Utilizzare i cubi per creare rapporti sui dati
 description: Scopri come utilizzare i cubi per creare rapporti
 feature: Reporting
+role: User, Data Engineer
 exl-id: 7dbc66ab-a468-40ff-9db2-b33e4fd27754
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 1%
@@ -13,7 +14,7 @@ ht-degree: 1%
 
 # Usare i cubi per esplorare i dati{#use-cubes-to-create-reports}
 
-Utilizza i cubi per creare rapporti e per identificare e selezionare dati dal database. Puoi:
+Utilizza i cubi per creare rapporti e per identificare e selezionare dati dal database. Puoi eseguire le seguenti azioni:
 
 * Crea rapporti basati su cubi. [Ulteriori informazioni](#explore-the-data-in-a-report).
 * Raccogli i dati nel database e raggruppali in elenchi, ad esempio per identificare e creare destinazioni e consegne. [Ulteriori informazioni](#build-a-target-population).

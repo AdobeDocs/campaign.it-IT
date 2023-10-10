@@ -3,8 +3,9 @@ product: campaign
 title: Creare campagne di marketing
 description: Scopri come creare ed eseguire campagne di marketing
 feature: Campaigns, Cross Channel Orchestration, Programs
+role: User
 exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '1298'
 ht-degree: 3%
@@ -185,7 +186,7 @@ Questa tabella fornisce un riepilogo delle azioni che è possibile eseguire sull
 | Offerta | Approvare il contenuto e l’idoneità dell’offerta<br/>Disattivare un’offerta online |
 | Attività Task | Terminare un’attività<br/>Annullare un’attività |
 | Risorse di marketing | Approvare una risorsa<br/>Bloccare e sbloccare una risorsa |
-| Pacchetto campagne | Inviare un pacchetto per l&#39;approvazione<br/>Approvare o rifiutare un pacchetto<br/>Annullare un pacchetto |
+| Pacchetto campagna | Inviare un pacchetto per l&#39;approvazione<br/>Approvare o rifiutare un pacchetto<br/>Annullare un pacchetto |
 | Ordine delle campagne | Crea un ordine<br/>Accettare o rifiutare un ordine |
 | Magazzino | Eliminare una linea di magazzino |
 | Simulazione di offerta | Avviare e interrompere una simulazione |

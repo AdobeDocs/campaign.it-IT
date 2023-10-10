@@ -2,8 +2,9 @@
 product: campaign
 title: Flussi di lavoro del regolamento sulla protezione dei dati sulla privacy
 description: Ulteriori informazioni sui flussi di lavoro del Regolamento sulla protezione dei dati sulla privacy
+role: User
 feature: Workflows, Privacy
-source-git-commit: ac4d0d0c16f429ca0948a3c3257558c46700baeb
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 21%

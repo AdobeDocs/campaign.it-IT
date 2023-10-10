@@ -3,11 +3,12 @@ product: campaign
 title: Fork
 description: Ulteriori informazioni sull’attività del flusso di lavoro Fork
 feature: Workflows
+role: User
 exl-id: 7b94776c-2478-4e12-82a6-c94be12e7e22
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 

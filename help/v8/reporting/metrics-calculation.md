@@ -2,11 +2,12 @@
 title: Calcolo delle metriche di report integrato
 description: Calcolo delle metriche di report integrato
 feature: Reporting
+role: Data Engineer
 exl-id: ad8e9f9c-df24-4a11-b8df-4b31dd54911f
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '2978'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -95,7 +96,7 @@ Questo rapporto si basa sulla **[!UICONTROL Delivery and tracking statistics]** 
   </tr> 
   <tr> 
    <td> Account disabilitato<br /> </td> 
-   <td> @disabled<br /> </td> 
+   <td> @disabilitato<br /> </td> 
    <td> Numero di tutti i messaggi con uno stato uguale a "Non riuscito" e un motivo uguale a "Account disabilitato".<br /> </td> 
    <td> Count(@status=2 e msg/@failureReason=4)<br /> </td> 
   </tr> 
@@ -181,7 +182,7 @@ Questo rapporto si basa sulla **[!UICONTROL Internet Browser Statistics]** tabel
  <tbody> 
   <tr> 
    <td> Tasso di utilizzo<br /> </td> 
-   <td> @visitors<br /> </td> 
+   <td> @visitatori<br /> </td> 
    <td> Percentuale del numero di visitatori al giorno che utilizza questo browser rispetto al numero di visitatori misurato nel giorno con il maggior numero di visite.<br /> </td> 
    <td> percentuale(somma(@visitors),max(@visitorsOfTheDay))<br /> </td> 
   </tr> 
@@ -423,7 +424,7 @@ Questo rapporto si basa sulla **[!UICONTROL Internet Browser Statistics]** tabel
  <tbody> 
   <tr> 
    <td> Tasso di utilizzo<br /> </td> 
-   <td> @visitors<br /> </td> 
+   <td> @visitatori<br /> </td> 
    <td> Percentuale del numero di visitatori al giorno in questo sistema operativo rispetto al numero di visitatori misurato nel giorno con il maggior numero di visite.<br /> </td> 
    <td> percentuale(somma(@visitors), max(@visitorsOfTheDay))<br /> </td> 
   </tr> 
@@ -469,7 +470,7 @@ Questo rapporto si basa sulla **[!UICONTROL Services]** tabella (nms:service).
    <td> sum(Iif(@action = 1 e @date &gt; addDays(getDate(), (-1)), 1, 0))<br /> </td> 
   </tr> 
   <tr> 
-   <td> Iscrizioni annullate<br /> </td> 
+   <td> Annullamenti dell’abbonamento<br /> </td> 
    <td> @_unsubscription<br /> </td> 
    <td> numero di annullamenti di abbonamenti (azione = 0) nel giorno precedente.<br /> </td> 
    <td> sum(Iif(@action = 0 e @date &gt; addDays(getDate(), (-1)), 1, 0))<br /> </td> 
@@ -878,7 +879,7 @@ Questo rapporto si basa sulla **[!UICONTROL Delivery and tracking statistics]** 
    <td> Countdistinct(Iif([url/@type]=1, @source-id, 0)) <br /> </td> 
   </tr> 
   <tr> 
-   <td> Iscrizioni annullate<br /> </td> 
+   <td> Annullamenti dell’abbonamento<br /> </td> 
    <td> @optOut<br /> </td> 
    <td> Numero totale di @ids per i quali la categoria URL è uguale a "Rinuncia".<br /> </td> 
    <td> count(Iif([url/@type]=3, @id, 0))<br /> </td> 
@@ -919,7 +920,7 @@ Se riscontri desincronizzazione o incoerenza per alcuni indicatori, seleziona la
 
 ## Tracciamento delle aperture {#tracking-opens-}
 
-Affinché Adobe Campaign possa rilevare l’apertura di un messaggio, il destinatario deve scaricare le immagini nell’e-mail. Le e-mail HTML e Multipart/Alternative includono un’immagine da 0 pixel, che consente di rilevare i messaggi aperti. Poiché i messaggi in formato testo non includono immagini, è impossibile rilevare se sono stati aperti o meno. I valori calcolati in base all’apertura dei messaggi sono sempre delle stime, a causa del margine di errore legato alla visualizzazione delle immagini.
+Affinché Adobe Campaign possa rilevare l’apertura di un messaggio, il destinatario deve scaricare le immagini nell’e-mail. Le e-mail HTML e Multipart/Alternative includono un’immagine a 0 pixel, che consente di rilevare quali messaggi sono stati aperti. Poiché i messaggi in formato di testo non includono immagini, è impossibile rilevare se sono stati aperti o meno. I valori calcolati in base alle aperture dei messaggi sono sempre delle stime, a causa del margine di errore legato alla visualizzazione delle immagini.
 
 ## Persone/destinatari interessati {#targeted-persons---recipients}
 

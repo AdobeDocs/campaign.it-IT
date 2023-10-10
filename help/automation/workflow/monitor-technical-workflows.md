@@ -3,8 +3,9 @@ product: campaign
 title: Monitorare i flussi di lavoro tecnici
 description: Monitorare i flussi di lavoro tecnici
 feature: Workflows
+role: Admin
 exl-id: 8524d916-8af7-4641-b047-9c348f1017fd
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 5%
@@ -35,15 +36,15 @@ A seconda del flusso di lavoro tecnico, segui i passaggi descritti di seguito pe
 
 Per comprendere meglio le funzioni di ogni flusso di lavoro tecnico, consulta questa [sezione](technical-workflows.md).
 
-Per **[!UICONTROL Database Cleanup workflow (‘cleanup’)]**:
+Per **[!UICONTROL Database Cleanup workflow ('cleanup')]**:
 
 Controlla il giornale di registrazione per verificare che il tempo trascorso sia relativamente costante nel tempo e non interferisca con altri flussi di lavoro.
 
-Per **[!UICONTROL Tracking workflow (‘tracking’)]**:
+Per **[!UICONTROL Tracking workflow ('tracking')]**:
 
 Verificare che il flusso di lavoro di tracciamento venga eseguito come pianificato (ogni ora per impostazione predefinita) e che il giornale di registrazione non evidenzi gli errori ricorrenti. Per ulteriori informazioni, consulta questa [sezione](delivery.md).
 
-Per **[!UICONTROL Deliverability update (‘deliverabilityUpdate’)]**:
+Per **[!UICONTROL Deliverability update ('deliverabilityUpdate')]**:
 
 1. Verifica che la **[!UICONTROL Deliverability update]** il flusso di lavoro viene eseguito e terminato correttamente ogni giorno.
 1. Verifica nel giornale di registrazione che le regole vengano aggiornate regolarmente.

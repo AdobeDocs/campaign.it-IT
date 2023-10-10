@@ -3,8 +3,9 @@ product: campaign
 title: Esempi di codice JavaScript nei flussi di lavoro
 description: Questi esempi mostrano come utilizzare il codice JavaScript in un flusso di lavoro
 feature: Workflows
+role: Developer
 exl-id: 3412e3de-1c88-496e-8fda-ca9fc9b18e69
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '1752'
 ht-degree: 3%
@@ -29,7 +30,7 @@ Per provare questi esempi, segui questi passaggi:
 1. Crea un flusso di lavoro e aggiungi queste attività al flusso di lavoro:
    1. Avvia attività
    1. Attività codice JavaScript
-   1. Attività fine
+   1. Attività Fine
 
    [Ulteriori informazioni](build-a-workflow.md) informazioni sulla creazione di flussi di lavoro.
 

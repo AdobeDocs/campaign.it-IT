@@ -3,8 +3,9 @@ product: campaign
 title: Creare un flusso di lavoro
 description: Scopri come creare un flusso di lavoro
 feature: Workflows
+role: User
 exl-id: a6003fdb-1035-4b80-8831-73f30a0b4fb2
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '969'
 ht-degree: 4%
@@ -15,7 +16,7 @@ ht-degree: 4%
 
 ## Crea un nuovo flusso di lavoro {#create-a-new-workflow}
 
-Il flusso di creazione del flusso di lavoro dipende dal tipo di flussi di lavoro. Puoi:
+Il flusso di creazione del flusso di lavoro dipende dal tipo di flussi di lavoro. Puoi eseguire le seguenti azioni:
 
 * Crea [Workflow di targeting](#targeting-workflows) dal **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Jobs]** > **[!UICONTROL Targeting workflows]** dell&#39;Explorer o dal **[!UICONTROL Profiles and Targets]** della home page, tramite la scheda **[!UICONTROL Targeting workflows]** scheda secondaria.
 

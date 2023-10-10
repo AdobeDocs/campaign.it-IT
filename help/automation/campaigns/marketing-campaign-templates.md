@@ -3,11 +3,12 @@ product: campaign
 title: Modelli di campagna di marketing
 description: Modelli di campagna di marketing
 feature: Campaigns, Templates
+role: User
 exl-id: 1bd8d3e7-aaa9-4e00-96bb-0d30614ab380
-source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '987'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -26,7 +27,7 @@ Viene fornito un modello integrato al fine di creare una campagna per la quale n
 
 ## Creare un modello di campagna {#create-a-campaign-template}
 
-Per creare un modello di campagna, effettua le seguenti operazioni:
+Per creare un modello per campagne, segui la procedura seguente:
 
 1. Apri campagna **Esplora**, e naviga su **Risorse > Modelli > Modelli per campagne**.
 1. Clic **Nuovo** nella barra degli strumenti sopra l’elenco dei modelli.

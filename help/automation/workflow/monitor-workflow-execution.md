@@ -3,8 +3,9 @@ product: campaign
 title: Monitorare l’esecuzione di un flusso di lavoro
 description: Monitorare l’esecuzione di un flusso di lavoro
 feature: Workflows
+role: Admin
 exl-id: bc13d706-7888-42eb-9116-5538e68cd515
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '1935'
 ht-degree: 2%
@@ -33,7 +34,7 @@ Quando questa opzione è selezionata, le attività eseguite vengono visualizzate
 
 ## Visualizzazione dei registri {#displaying-logs}
 
-Il registro contiene la cronologia o l’audit trail del flusso di lavoro. Registra tutte le azioni dell’utente, tutte le operazioni eseguite e gli errori riscontrati. Puoi:
+Il registro contiene la cronologia o l’audit trail del flusso di lavoro. Registra tutte le azioni dell’utente, tutte le operazioni eseguite e gli errori riscontrati. Puoi eseguire le seguenti azioni:
 
 * Seleziona la **[!UICONTROL Tracking]** nel dettaglio. Questo elenco contiene tutti i messaggi del flusso di lavoro.
 

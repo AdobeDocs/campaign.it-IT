@@ -3,8 +3,9 @@ product: campaign
 title: Coordinare gli aggiornamenti dei dati
 description: Coordinare gli aggiornamenti dei dati
 feature: Workflows, Data Management
+role: User
 exl-id: 9faf7ee7-07c1-415b-b234-a945994792c7
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 3%

@@ -3,8 +3,9 @@ product: campaign
 title: Definire le approvazioni
 description: Le approvazioni consentono agli operatori di prendere decisioni relative a un flusso di lavoro o di confermarne l’esecuzione
 feature: Approvals
+role: User
 exl-id: 8ac159c1-fd2e-4fb9-8275-18154f6f210c
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 4%
@@ -66,7 +67,7 @@ La seconda scheda nelle proprietà di approvazione dell’attività ti consente 
 
 ![](assets/expiration.png)
 
-Per aggiungere una nuova scadenza, fai clic su **[!UICONTROL Add]**. A ciascuna delle scadenze create viene aggiunta una transizione. Puoi:
+Per aggiungere una nuova scadenza, fai clic su **[!UICONTROL Add]**. A ciascuna delle scadenze create viene aggiunta una transizione. Puoi eseguire le seguenti azioni:
 
 * modificare direttamente i parametri tipici facendo clic su una cella dell&#39;elenco (o premendo F2),
 * o modificare l’espressione facendo clic sul pulsante **[!UICONTROL Detail...]** pulsante.

@@ -3,7 +3,8 @@ product: campaign
 title: Flusso di lavoro tecnico per il rendering della casella in entrata
 description: Questa sezione descrive il flusso di lavoro tecnico installato con il pacchetto di rendering della casella in entrata
 feature: Workflows, Inbox Rendering
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+role: User, Admin
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 6%
