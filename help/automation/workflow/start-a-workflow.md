@@ -3,15 +3,16 @@ product: campaign
 title: Avviare un flusso di lavoro
 description: Scopri come avviare un flusso di lavoro e scoprire i flussi di lavoro, la barra degli strumenti delle azioni e il menu di scelta rapida
 feature: Workflows
+role: User, Admin
 exl-id: 6d9789e3-d721-4ffd-b3fb-a0c522ab1c0a
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: d4e28ddf6081881f02042416aa8214761ea42be9
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '1065'
 ht-degree: 0%
 
 ---
 
-# Avviare un flusso di lavoro {#starting-a-workflow}
+# Avviare, sospendere e interrompere un flusso di lavoro {#starting-a-workflow}
 
 Un workflow viene sempre avviato manualmente. Quando viene avviato, può tuttavia rimanere inattivo a seconda delle informazioni specificate tramite una pianificazione (vedi [Scheduler](scheduler.md)) o pianificazione delle attività.
 
@@ -49,6 +50,14 @@ Il **[!UICONTROL Actions]** sulla barra degli strumenti consente di accedere a o
   >
   >L’arresto di un flusso di lavoro è un processo asincrono: la richiesta viene registrata, quindi il server o i server del flusso di lavoro annullano le operazioni in corso. L&#39;arresto di un&#39;istanza del flusso di lavoro può quindi richiedere tempo, soprattutto se il flusso di lavoro è in esecuzione su più server, ognuno dei quali deve assumere il controllo per annullare le attività in corso. Per evitare problemi, attendi il completamento dell’operazione di arresto e non eseguire più richieste di arresto sullo stesso flusso di lavoro.
 
+* **[!UICONTROL Unconditional stop]**
+
+  Questa opzione cambia lo stato del flusso di lavoro in **[!UICONTROL Finished]**. Questa azione deve essere utilizzata solo come ultima risorsa se il normale processo di arresto non riesce dopo alcuni minuti. Utilizzare l&#39;interruzione incondizionata solo se si è certi che non vi siano processi di flusso di lavoro effettivi in corso.
+
+  >[!CAUTION]
+  >
+  >Questa opzione è riservata agli utenti esperti.
+
 * **[!UICONTROL Restart]**
 
   Questa azione si interrompe e riavvia il flusso di lavoro. Nella maggior parte dei casi, consente un riavvio più rapido. È inoltre utile automatizzare il riavvio quando l’arresto richiede un certo periodo di tempo, perché il comando &quot;Interrompi&quot; non è disponibile quando il flusso di lavoro viene arrestato.
@@ -65,17 +74,31 @@ Il **[!UICONTROL Actions]** sulla barra degli strumenti consente di accedere a o
 
   Questa azione ti consente di avviare tutte le attività in sospeso il prima possibile. Per avviare un’attività specifica, fai clic con il pulsante destro del mouse sulla relativa attività e seleziona **[!UICONTROL Execute pending task(s) now]**.
 
-* **[!UICONTROL Unconditional stop]**
-
-  Questa opzione cambia lo stato del flusso di lavoro in **[!UICONTROL Finished]**. Questa azione deve essere utilizzata solo come ultima risorsa se il normale processo di arresto non riesce dopo alcuni minuti. Utilizzare l&#39;interruzione incondizionata solo se si è certi che non vi siano processi di flusso di lavoro effettivi in corso.
-
-  >[!CAUTION]
-  >
-  >Questa opzione è riservata agli utenti esperti.
 
 * **[!UICONTROL Save as template]**
 
   Questa azione consente di creare un nuovo modello di workflow basato sul workflow selezionato. È necessario specificare la cartella in cui verrà salvata (nel **[!UICONTROL Folder]** ).
+
+
+## Best practice per l’esecuzione dei flussi di lavoro {#workflow-execution-best-practices}
+
+Migliora la stabilità dell’istanza implementando le seguenti best practice:
+
+* **Non pianificare l&#39;esecuzione di un flusso di lavoro ogni 15 minuti** perché potrebbe ostacolare le prestazioni complessive del sistema e creare blocchi nel database.
+
+* **Evitare di lasciare i flussi di lavoro in stato di pausa**. Se crei un flusso di lavoro temporaneo, assicurati che possa terminare correttamente e non rimanere in un **[!UICONTROL paused]** stato. Se viene messo in pausa, implicherebbe la necessità di mantenere le tabelle temporanee e quindi aumentare le dimensioni del database. Assegna supervisori flusso di lavoro in Proprietà flusso di lavoro per inviare un avviso quando un flusso di lavoro non riesce o viene messo in pausa dal sistema.
+
+  Per evitare che i flussi di lavoro si trovino in stato di pausa:
+
+   * Controlla i flussi di lavoro regolarmente per assicurarti che non si verifichino errori imprevisti.
+   * Mantieni i flussi di lavoro il più semplici possibile, ad esempio suddividendo flussi di lavoro di grandi dimensioni in diversi flussi di lavoro. È possibile utilizzare **[!UICONTROL External signal]** Le attività attivano la loro esecuzione in base all’esecuzione di altri flussi di lavoro.
+   * Evita di disabilitare le attività con i flussi nei flussi di lavoro, lasciando aperti i thread e portando a molte tabelle temporanee che possono occupare molto spazio. Non mantenere le attività in **[!UICONTROL Do not enable]** o **[!UICONTROL Enable but do not execute]** nei flussi di lavoro.
+
+* **Interrompere i flussi di lavoro inutilizzati**. I flussi di lavoro in esecuzione gestiscono le connessioni al database.
+
+* **Utilizza l’interruzione incondizionata solo nei casi più rari**. Non utilizzi questa azione regolarmente. La mancata esecuzione di una chiusura pulita delle connessioni generate dai flussi di lavoro al database influisce sulle prestazioni.
+
+* **Non eseguire più richieste di arresto sullo stesso flusso di lavoro**. L’arresto di un flusso di lavoro è un processo asincrono: la richiesta viene registrata, quindi il server o i server del flusso di lavoro annullano le operazioni in corso. L&#39;arresto di un&#39;istanza del flusso di lavoro può quindi richiedere tempo, soprattutto se il flusso di lavoro è in esecuzione su più server, ognuno dei quali deve assumere il controllo per annullare le attività in corso. Per evitare problemi, attendi il completamento dell’operazione di arresto ed evita di arrestare più volte un flusso di lavoro.
 
 ## Menu di scelta rapida {#right-click-menu}
 

@@ -3,11 +3,12 @@ product: campaign
 title: Best practice per i flussi di lavoro
 description: Scopri le best practice per i flussi di lavoro di Campaign
 feature: Workflows
+role: User, Admin
 exl-id: 8bcaf367-5b1f-4d31-80c9-c77df43c6ed1
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: d4e28ddf6081881f02042416aa8214761ea42be9
 workflow-type: tm+mt
-source-wordcount: '1664'
-ht-degree: 11%
+source-wordcount: '1345'
+ht-degree: 13%
 
 ---
 
@@ -71,7 +72,7 @@ Workflow HeatMap consente agli amministratori della piattaforma Adobe Campaign d
 
 Durante lo sviluppo del flusso di lavoro, tutte le attività avranno un nome, così come tutti gli oggetti di Adobe Campaign. Mentre il nome viene generato dallo strumento, è consigliabile rinominarlo con un nome esplicito durante la configurazione. Se lo facesse in un secondo momento, potrebbe interrompere il flusso di lavoro con le attività che utilizzano il nome di un’altra attività precedente. Sarebbe quindi difficile aggiornare i nomi in seguito.
 
-Il nome dell’attività si trova nella sezione **[!UICONTROL Advanced]** scheda. Non lasciarle con il nome **[!UICONTROL query]**, **[!UICONTROL query1]**, **[!UICONTROL query11]**, ma assegna loro nomi espliciti quali **[!UICONTROL querySubscribedRecipients]**. Questo nome verrà visualizzato nel giornale di registrazione e, se applicabile, nei registri SQL e sarà utile per eseguire il debug del flusso di lavoro durante la configurazione.
+Il nome dell’attività si trova nella sezione **[!UICONTROL Advanced]** scheda. Non lasciarle chiamate **[!UICONTROL query]**, **[!UICONTROL query1]**, **[!UICONTROL query11]**, ma assegna loro nomi espliciti quali **[!UICONTROL querySubscribedRecipients]**. Questo nome verrà visualizzato nel giornale di registrazione e, se applicabile, nei registri SQL e sarà utile per eseguire il debug del flusso di lavoro durante la configurazione.
 
 ### Prima e ultima attività {#first-and-last-activities}
 
@@ -136,25 +137,6 @@ Per evitare problemi, nella pianificazione dell’esecuzione dei flussi di lavor
 * Per ridurre i tempi di esecuzione complessivi, sostituisci le attività che richiedono tempo con attività semplificate e più veloci.
 * Evita di eseguire più di 20 flussi di lavoro simultaneamente. Quando troppi flussi di lavoro vengono eseguiti contemporaneamente, la piattaforma può essere sovraccarica e diventare instabile.
 
-### Esecuzione di un flusso di lavoro {#workflow-execution}
-
-Migliora la stabilità dell’istanza implementando le seguenti best practice:
-
-* **Non pianificare l&#39;esecuzione di un flusso di lavoro ogni 15 minuti** perché potrebbe ostacolare le prestazioni complessive del sistema e creare blocchi nel database.
-
-* **Evitare di lasciare i flussi di lavoro in stato di pausa**. Se crei un flusso di lavoro temporaneo, assicurati che possa terminare correttamente e non rimanere in un **[!UICONTROL paused]** stato. Se viene messo in pausa, implicherebbe la necessità di mantenere le tabelle temporanee e quindi aumentare le dimensioni del database. Assegna supervisori flusso di lavoro in Proprietà flusso di lavoro per inviare un avviso quando un flusso di lavoro non riesce o viene messo in pausa dal sistema.
-
-  Per evitare che i flussi di lavoro si trovino in stato di pausa:
-
-   * Controlla i flussi di lavoro regolarmente per assicurarti che non si verifichino errori imprevisti.
-   * Mantieni i flussi di lavoro il più semplici possibile, ad esempio suddividendo flussi di lavoro di grandi dimensioni in diversi flussi di lavoro. È possibile utilizzare **[!UICONTROL External signal]** Le attività attivano la loro esecuzione in base all’esecuzione di altri flussi di lavoro.
-   * Evita di disabilitare le attività con i flussi nei flussi di lavoro, lasciando aperti i thread e portando a molte tabelle temporanee che possono occupare molto spazio. Non mantenere le attività in **[!UICONTROL Do not enable]** o **[!UICONTROL Enable but do not execute]** nei flussi di lavoro.
-
-* **Interrompere i flussi di lavoro inutilizzati**. I flussi di lavoro in esecuzione gestiscono le connessioni al database.
-
-* **Utilizza l’interruzione incondizionata solo nei casi più rari**. Non utilizzi questa azione regolarmente. La mancata esecuzione di una chiusura pulita delle connessioni generate dai flussi di lavoro al database influisce sulle prestazioni.
-
-* **Non eseguire più richieste di arresto sullo stesso flusso di lavoro**. L’arresto di un flusso di lavoro è un processo asincrono: la richiesta viene registrata, quindi il server o i server del flusso di lavoro annullano le operazioni in corso. L&#39;arresto di un&#39;istanza del flusso di lavoro può quindi richiedere tempo, soprattutto se il flusso di lavoro è in esecuzione su più server, ognuno dei quali deve assumere il controllo per annullare le attività in corso. Per evitare problemi, attendi il completamento dell’operazione di arresto ed evita di arrestare più volte un flusso di lavoro.
 
 ### Esegui nel motore, opzione {#execute-in-the-engine-option}
 
