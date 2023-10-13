@@ -1,16 +1,16 @@
 ---
 title: Condividere tipi di pubblico con le soluzioni Adobe Experience Cloud
 description: Scopri come condividere i tipi di pubblico con le soluzioni Adobe Experience Cloud
-feature: Subscriptions
+feature: Audiences
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: c4d30771-db5e-40be-8af6-50f0fab9f9af
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: e0ec2940db3120dc8fbfd17dd2f5083bbf31232c
 workflow-type: tm+mt
 source-wordcount: '264'
-ht-degree: 100%
+ht-degree: 80%
 
 ---
 
@@ -36,7 +36,7 @@ Questa integrazione supporta due tipi di ID Adobe Experience Cloud:
   >
   > L’origine dati ID dichiarato ora piò essere utilizzata anche con l’integrazione del servizio core People.
   >
-  >Se utilizzi l’integrazione con il servizio core People e desideri aggiungere l’integrazione con Audience Manager, ti servirà l’aiuto di un consulente Adobe Audience Manager per evitare di perdere tutte le sincronizzazioni ID raccolte durante la transizione all’utilizzo dell’origine dati ID dichiarato in un contesto Adobe Audience Manager.
+  >Se utilizzi l’integrazione con il servizio core People e desideri aggiungere l’integrazione con l’Audience Manager, ti servirà l’aiuto di un consulente Adobe Audience Manager per evitare di perdere tutte le sincronizzazioni ID raccolte durante la transizione all’utilizzo dell’origine dati ID dichiarato in un contesto Adobe Audience Manager.
 
 A questo proposito, consulta la sezione:
 
