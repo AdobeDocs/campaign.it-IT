@@ -2,16 +2,17 @@
 product: campaign
 title: Best practice per l’interazione con Adobe Campaign
 description: Approccio basato sulle best practice per gestire il modulo di interazione in Adobe Campaign
+feature: Interaction, Offers
 role: User, Admin
 exl-id: 28f3a5bc-67f5-413e-b2ba-35c341f9ec5f
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 0%
 
 ---
 
-# Best practice di interazione{#interaction-best-practices}
+# Best practice di interazione {#interaction-best-practices}
 
 ## Raccomandazioni generali {#general-recommendations}
 

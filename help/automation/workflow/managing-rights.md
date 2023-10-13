@@ -2,10 +2,10 @@
 product: campaign
 title: Gestire le autorizzazioni del flusso di lavoro
 description: Scopri come gestire le autorizzazioni del flusso di lavoro
-feature: Workflows
+feature: Workflows, Permissions
 role: Admin
 exl-id: 3cb8aeec-e758-4b71-adef-67942cf9ded7
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 1%

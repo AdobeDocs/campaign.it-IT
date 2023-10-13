@@ -1,18 +1,18 @@
 ---
 title: Moduli di input per campagne
 description: Scopri come personalizzare i moduli di input
-feature: Web Forms
+feature: Web Forms, Landing Pages
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '2552'
 ht-degree: 0%
 
 ---
 
-# Introduzione ai moduli di input{#gs-ac-forms}
+# Introduzione ai moduli di input {#gs-ac-forms}
 
 Quando si crea o si estende uno schema, è necessario creare o modificare i moduli di input associati per rendere tali modifiche visibili agli utenti finali.
 

@@ -1,11 +1,11 @@
 ---
 title: Account esterni di Campaign
 description: Account esterni di Campaign
-feature: Application Settings
+feature: Application Settings, External Account
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '1085'
 ht-degree: 4%
@@ -13,7 +13,7 @@ ht-degree: 4%
 ---
 
 
-# Configurare gli account esterni
+# Configurare gli account esterni {#config-external-accounts}
 
 Adobe Campaign è dotato di un set di account esterni predefiniti. Per impostare connessioni con sistemi esterni, puoi creare nuovi account esterni.
 
@@ -31,7 +31,7 @@ Puoi accedere ad account esterni da Adobe Campaign **[!UICONTROL Explorer]**: pa
 >* Nell&#39;ambito di una [Distribuzione aziendale (FFDA)](../architecture/enterprise-deployment.md), uno specifico **[!UICONTROL Full FDA]** (ffda) un account esterno gestisce la connessione tra il database locale di Campaign e il database cloud ([!DNL Snowflake]).
 >
 
-## Account esterni specifici per la campagna
+## Account esterni specifici per la campagna {#ac-external-accounts}
 
 I seguenti account tecnici vengono utilizzati da Adobe Campaign per abilitare ed eseguire processi specifici.
 
@@ -91,7 +91,7 @@ Il **[!UICONTROL Routing]** l’account esterno ti consente di configurare ogni 
 
 Nel contesto della messaggistica transazionale, le istanze di esecuzione sono collegate all’istanza di controllo e le connettono. I modelli di messaggi transazionali vengono distribuiti nell’istanza di esecuzione. Ulteriori informazioni sull’architettura del Centro messaggi in [questa pagina](../architecture/architecture.md#transac-msg-archi).
 
-## Accesso a account esterni di sistemi esterni
+## Accesso a account esterni di sistemi esterni {#external-syst-external-accounts}
 
 * **Database esterno (FDA)** - Il **Database esterno** tipo di account esterno utilizzato per connettersi a un database esterno tramite Federated Data Access (FDA). Ulteriori informazioni sull’opzione Federated Data Access (FDA) in [questa sezione](../connect/fda.md).
 
@@ -99,7 +99,7 @@ Nel contesto della messaggistica transazionale, le istanze di esecuzione sono co
 
 * **Twitter** - Il **Twitter** digita account esterno per collegare Campaign al tuo account di twitter, per pubblicare messaggi per tuo conto. Ulteriori informazioni sull’integrazione del Twitter in [questa sezione](../connect/ac-tw.md).
 
-## Account esterni di Adobe Solution Integration
+## Account esterni di Adobe Solution Integration {#adobe-integration-external-accounts}
 
 * **Adobe Experience Cloud** - Il **[!UICONTROL Adobe Experience Cloud]** viene utilizzato un account esterno per implementare Adobe Identity Management Service (IMS) e connettersi a Adobe Campaign. Ulteriori informazioni sul servizio Identity Management (IMS) di Adobe in [questa sezione](../start/connect.md#logon-to-ac).
 
@@ -108,13 +108,13 @@ Nel contesto della messaggistica transazionale, le istanze di esecuzione sono co
 * **Adobe Experience Manager** - Il **[!UICONTROL AEM]** l’account esterno consente di gestire il contenuto delle consegne e-mail e dei moduli direttamente in Adobe Experience Manager. Ulteriori informazioni sull’integrazione Adobe Campaign - Adobe Analytics in [questa pagina](../connect/ac-aem.md).
 
 
-## Account esterni del connettore CRM
+## Account esterni del connettore CRM {#crm-external-accounts}
 
 * **Microsoft Dynamics CRM** - Il **[!UICONTROL Microsoft Dynamics CRM]** l’account esterno ti consente di importare ed esportare dati di Microsoft Dynamics in Adobe Campaign. Ulteriori informazioni sull’integrazione di Adobe Campaign con Microsoft Dynamics CRM in [questa pagina](../connect/ac-ms-dyn.md).
 
 * **Salesforce.com** - Il **[!UICONTROL Salesforce CRM]** l’account esterno ti consente di importare ed esportare i dati di Salesforce in Adobe Campaign. Ulteriori informazioni sull’integrazione di Adobe Campaign con il sistema CRM Salesforce.com in [questa pagina](../connect/ac-sfdc.md).
 
-## Trasferisci dati account esterni
+## Trasferisci dati account esterni {#transfer-data-external-accounts}
 
 Questi account esterni possono essere utilizzati per importare o esportare dati in Adobe Campaign utilizzando un **[!UICONTROL Transfer file]** attività del flusso di lavoro. Ulteriori informazioni su **Trasferimento file** nei flussi di lavoro in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html).
 

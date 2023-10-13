@@ -5,14 +5,14 @@ feature: Data Model
 role: User, Developer
 level: Beginner, Intermediate
 exl-id: bdd5e993-0ce9-49a8-a618-ab0ff3796d49
-source-git-commit: df08cdb90271f4d18fd37b8ae528ebd872d0ea63
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '2718'
 ht-degree: 4%
 
 ---
 
-# Best practice per i modelli di dati{#data-model-best-practices}
+# Best practice per i modelli di dati {#data-model-best-practices}
 
 Questo documento illustra i consigli chiave durante la progettazione del modello dati di Adobe Campaign.
 

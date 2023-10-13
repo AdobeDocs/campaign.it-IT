@@ -1,17 +1,18 @@
 ---
 title: Aggiornare la struttura del database
 description: Aggiornare la struttura del database
+feature: Configuration
 role: Developer
 level: Intermediate, Experienced
 exl-id: fc64f3ca-67f1-47b7-b154-9c9dd044192c
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 0%
 
 ---
 
-# Aggiornare la struttura del database{#updating-the-database-structure}
+# Aggiornare la struttura del database {#updating-the-database-structure}
 
 Per applicare le modifiche apportate agli schemi, avviare la procedura guidata di aggiornamento del database. L’assistente è accessibile tramite **[!UICONTROL Tools > Advanced > Update database structure]**. Controlla se la struttura fisica del database corrisponde alla relativa descrizione logica ed esegue gli script di aggiornamento SQL.
 

@@ -1,10 +1,11 @@
 ---
 title: Creare profili di test in Campaign
 description: Scopri come creare e gestire i profili di test in Adobe Campaign
-feature: Audiences, Profiles
+feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
-source-git-commit: 19c42bcd2a96173f3d33e3e259192107b5e64c6c
+exl-id: 878b5963-100c-4dd7-97a0-c59a62c493b1
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 1%
@@ -103,4 +104,3 @@ Se la tabella di consegna è esterna, dovrai effettuare configurazioni aggiuntiv
 In questo caso, per aggiungere indirizzi di seed alla consegna, inserisci i campi appropriati direttamente nella scheda corrispondente o importa i modelli di indirizzo.
 
 <!--The **nms:seedMember** schema extension is [this section](../../configuration/using/seed-addresses.md).-->
-

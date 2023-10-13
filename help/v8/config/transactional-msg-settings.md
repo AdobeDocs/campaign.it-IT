@@ -5,14 +5,14 @@ feature: Transactional Messaging
 role: Admin, Developer
 level: Intermediate, Experienced
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
-source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 5%
 
 ---
 
-# Impostazioni dei messaggi transazionali
+# Impostazioni dei messaggi transazionali {#mc-settings}
 
 La messaggistica transazionale (Message Center) è un modulo di Campaign progettato per la gestione dei messaggi attivati. Ulteriori informazioni sulla messaggistica transazionale in [questa sezione](../send/transactional.md).
 
@@ -20,15 +20,15 @@ L’architettura della messaggistica transazionale in [questa pagina](../archite
 
 ![](../assets/do-not-localize/speech.png) In qualità di utente di Managed Cloud Service, [Adobe di contatto](../start/campaign-faq.md#support) per installare e configurare la messaggistica transazionale di Campaign nell’ambiente.
 
-## Definire le autorizzazioni
+## Definire le autorizzazioni {#mc-permissions}
 
 Per creare nuovi utenti per le istanze di esecuzione del Centro messaggi ospitate su Adobe Cloud, devi contattare l’Assistenza clienti di Adobe. Gli utenti del Centro messaggi sono operatori specifici che richiedono autorizzazioni dedicate per accedere alle cartelle &quot;Eventi in tempo reale&quot; (nmsRtEvent).
 
-## Estensioni schema
+## Estensioni schema  {#mc-schema-ext}
 
 Tutte le estensioni dello schema effettuate sugli schemi utilizzati da [Flussi di lavoro tecnici del Centro messaggi](#technical-workflows) su istanze di controllo o di esecuzione devono essere duplicate sulle altre istanze utilizzate dal modulo di messaggistica transazionale di Adobe Campaign.
 
-## Inviare notifiche push transazionali
+## Inviare notifiche push transazionali {#mc-transactional-push}
 
 In combinazione con [Modulo canale app mobile](../send/push.md), la messaggistica transazionale consente di inviare messaggi transazionali tramite notifiche su dispositivi mobili.
 
@@ -59,7 +59,7 @@ Di seguito è riportato un esempio di configurazione di un evento per l’invio 
          <urn:domEvent>
 
               <rtEvent wishedChannel="41" type="DELIVERY" registrationToken="2cefnefzef758398493srefzefkzq483974">
-                <mobileApp _operation=”none” uuid="com.adobe.NeoMiles"/>
+                <mobileApp _operation="none" uuid="com.adobe.NeoMiles"/>
                 <ctx>
                     <deliveryTime>1:30 PM</deliveryTime>
                     <url>http://www.adobe.com</url>
@@ -71,8 +71,6 @@ Di seguito è riportato un esempio di configurazione di un evento per l’invio 
    </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 ```
-
-
 
 ## Eliminare gli eventi {#purge-events}
 

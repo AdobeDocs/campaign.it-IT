@@ -1,11 +1,11 @@
 ---
 title: Meccanismo di staging per le API di Campaign
 description: Meccanismo di staging per le API di Campaign
-feature: API, FFDA
+feature: Configuration, API, FFDA
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 96693af9-50db-4298-ae02-c238d35e52b4
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 2%
@@ -33,7 +33,7 @@ Le API di Campaign Classic v7 sono ancora disponibili, ma non possono beneficiar
 >* La gestione temporanea si applica solo agli schemi memorizzati nel database cloud. Non abilitare la gestione temporanea negli schemi replicati. Non abilitare Gestione temporanea negli schemi locali. Non abilitare la gestione temporanea in uno schema in attesa
 >
 
-## Passaggi di implementazione{#implement-staging}
+## Passaggi di implementazione {#implement-staging}
 
 Per implementare il meccanismo di staging di Campaign su una tabella specifica, segui i passaggi seguenti:
 

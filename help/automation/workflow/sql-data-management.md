@@ -3,8 +3,10 @@ product: campaign
 title: Gestione dati SQL
 description: Ulteriori informazioni sull'attività del flusso di lavoro di Gestione dati SQL
 feature: Workflows
+Role: User
+Level: Experienced
 exl-id: a1e08d57-0387-4802-b447-f6d9ad87072a
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 3%
@@ -47,7 +49,7 @@ Prima di configurare l’attività, assicurati di soddisfare i seguenti prerequi
    L’attività ti consente di utilizzare le seguenti variabili nello script:
 
    * **activity.tableName**: nome SQL della tabella di lavoro in uscita.
-   * **task.incomingTransitionByName(&quot;name&quot;).tableName**: nome SQL della tabella di lavoro trasportata dalla transizione in ingresso da utilizzare (la transizione è identificata dal relativo nome).
+   * **task.incomingTransitionByName(&#39;name&#39;).tableName**: nome SQL della tabella di lavoro trasportata dalla transizione in ingresso da utilizzare (la transizione è identificata dal relativo nome).
 
      >[!NOTE]
      >

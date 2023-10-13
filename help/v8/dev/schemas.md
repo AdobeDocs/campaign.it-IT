@@ -1,11 +1,11 @@
 ---
 title: Utilizzare gli schemi di Campaign
 description: Introduzione agli schemi
-feature: Schema Extension
+feature: Schema Extension, Configuration, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: 87af72fe-6c84-4d9a-afed-015900890cce
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '1262'
 ht-degree: 5%
