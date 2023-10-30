@@ -5,9 +5,9 @@ description: Ulteriori informazioni sull’attività del flusso di lavoro Carica
 feature: Workflows, Data Management Activity
 role: User
 exl-id: 10351620-115c-4bd8-b216-e5ad6f205ef3
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: d946d4a50a4fc13e848b22ee87b02a10b7dfd2ad
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1060'
 ht-degree: 14%
 
 ---
@@ -51,6 +51,10 @@ A questo scopo, seleziona **[!UICONTROL Click here to change the file format...]
 La formattazione generale del file consente di definire il modo in cui le colonne verranno riconosciute (codifica file, separatori utilizzati, ecc.).
 
 La formattazione della colonna ti consente di definire il valore di elaborazione di ciascuna colonna:
+
+>[!NOTE]
+>
+>Puoi aggiungere tutte le colonne che desideri. La lunghezza massima dei valori in ogni colonna è determinata dal tipo di dati scelto.
 
 * **[!UICONTROL Ignore column]**: non elabora questa colonna durante il caricamento dei dati.
 * **[!UICONTROL Data type]**: specifica il tipo di dati previsto per ogni colonna.
