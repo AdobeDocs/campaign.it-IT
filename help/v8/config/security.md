@@ -3,12 +3,12 @@ title: Best practice per la sicurezza di Campaign
 description: Guida introduttiva alle best practice per la sicurezza di Campaign
 feature: Privacy, PI
 role: Developer
-level: Beginner, Intermediate, Experienced
+level: Beginner
 exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '599'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -37,7 +37,7 @@ La gestione degli accessi è una parte importante della protezione avanzata. Di 
 * Creare un numero sufficiente di gruppi di sicurezza
 * Verifica che ogni operatore disponga dei diritti di accesso appropriati
 
-Ulteriori informazioni sulle autorizzazioni in [questa sezione](../start/gs-permissions.md)
+Ulteriori informazioni sulle autorizzazioni sono disponibili in [questa sezione](../start/gs-permissions.md)
 
 ## Linee guida per la codifica
 

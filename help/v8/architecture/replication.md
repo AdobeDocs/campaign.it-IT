@@ -3,9 +3,9 @@ title: Workflow tecnici e replica dei dati
 description: Workflow tecnici e replica dei dati
 feature: Workflows, FFDA
 role: Developer
-level: Beginner, Intermediate, Experienced
+level: Intermediate
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 4%

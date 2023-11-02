@@ -2,10 +2,10 @@
 title: Gestione della quarantena in Campaign
 description: Gestione della quarantena in Adobe Campaign
 feature: Profiles, Monitoring
-role: User, Developer
-level: Beginner, Intermediate
+role: User, Data Engineer
+level: Beginner
 exl-id: 220b7a88-bd42-494b-b55b-b827b4971c9e
-source-git-commit: b783b1444457b3204fea35b613582642499acf65
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '1181'
 ht-degree: 4%
@@ -22,7 +22,7 @@ Quando l’indirizzo o il numero di telefono vengono messi in quarantena, i dest
 
 **Quarantena** si applica solo a un **indirizzo**, a **numero di telefono** o un **token dispositivo**, ma non al profilo stesso. Ad esempio, un profilo con un indirizzo e-mail messo in quarantena può aggiornare il profilo e immettere un nuovo indirizzo, per poi essere nuovamente indirizzato mediante azioni di consegna. Allo stesso modo, se due profili hanno lo stesso numero di telefono, saranno entrambi interessati se il numero viene messo in quarantena. Gli indirizzi o i numeri di telefono in quarantena vengono visualizzati nel [registri di esclusione](#delivery-quarantines) (per una consegna) o nella [elenco di quarantena](#non-deliverable-bounces) (per l’intera piattaforma).
 
-D’altra parte, i profili possono trovarsi nel **inserisco nell&#39;elenco Bloccati** come dopo l’annullamento dell’abbonamento (rinuncia), per un determinato canale: questo significa che non sono più oggetto di targeting da parte di alcun. Di conseguenza, se un profilo nel inserisco nell&#39;elenco Bloccati di per il canale e-mail ha due indirizzi e-mail, entrambi gli indirizzi verranno esclusi dalla consegna. Puoi verificare se un profilo si trova nel inserisco nell&#39;elenco Bloccati di per uno o più canali nel **[!UICONTROL No longer contact]** sezione del profilo **[!UICONTROL General]** scheda. [Ulteriori informazioni](../audiences/view-profiles.md)
+D’altra parte, i profili possono trovarsi nel **inserisco nell&#39;elenco Bloccati** come dopo l’annullamento dell’abbonamento (rinuncia), per un determinato canale: questo significa che non sono più oggetto di targeting da parte di alcun. Di conseguenza, se un profilo nel inserisco nell&#39;elenco Bloccati di per il canale e-mail ha due indirizzi e-mail, entrambi gli indirizzi verranno esclusi dalla consegna. Puoi verificare se un profilo si trova nel inserisco nell&#39;elenco Bloccati di per uno o più canali nel **[!UICONTROL No longer contact]** sezione del profilo di **[!UICONTROL General]** scheda. [Ulteriori informazioni](../audiences/view-profiles.md)
 
 >[!NOTE]
 >
