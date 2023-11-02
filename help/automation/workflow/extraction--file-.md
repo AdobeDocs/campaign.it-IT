@@ -5,7 +5,7 @@ description: Ulteriori informazioni sull’attività del flusso di lavoro Estraz
 feature: Workflows, Data Management Activity
 role: User
 exl-id: 8510e879-2862-491f-bc52-ca8f56105932
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 4c787abbf9b13c08263e602930bc532d73e08a5a
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 1%
@@ -13,8 +13,6 @@ ht-degree: 1%
 ---
 
 # Estrazione dati (file){#extraction-file}
-
-
 
 È possibile estrarre dati da una tabella del flusso di lavoro in un file esterno utilizzando **[!UICONTROL Data extraction (file)]** attività.
 

@@ -5,10 +5,10 @@ feature: Audiences, Profiles
 role: User, Developer
 level: Beginner, Intermediate
 exl-id: 5256fc15-1878-4064-9c75-7876a3826b83
-source-git-commit: db27abf860b0744a4120166c68e2cc2ae8a3d172
+source-git-commit: 4c787abbf9b13c08263e602930bc532d73e08a5a
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 4%
+source-wordcount: '379'
+ht-degree: 28%
 
 ---
 
@@ -26,12 +26,14 @@ Adobe Campaign è dotato delle seguenti mappature di destinazione integrate:
 
 | Nome | Utilizza per | Schema |
 |---|---|---|
-| Destinatari | Consegna ai destinatari (tabella dei destinatari incorporata) | nms:destinatario |
-| Visitatori | Consegna ai visitatori i cui profili sono stati raccolti tramite riferimento (marketing virale) per es. | mns:visitatore |
-| Abbonamenti | Consegna ai destinatari abbonati a un servizio di informazioni, ad esempio una newsletter | nms:sottoscrizione |
-| Abbonamenti visitatore | Consegna ai visitatori abbonati a un servizio di informazioni | nms:visitorSub |
-| Operatori | Consegna agli operatori Adobe Campaign | nms:operatore |
-| File esterno | Consegna tramite un file contenente tutte le informazioni necessarie per la consegna | Nessuno schema collegato, nessuna destinazione immessa |
+| Destinatari | Consegnare ai destinatari (tabella dei destinatari incorporata) | nms:recipient |
+| Visitatori | Consegnare ai visitatori i cui profili sono stati raccolti tramite riferimento (marketing virale) per es. | mns:visitor |
+| Abbonamenti | Consegnare ai destinatari abbonati o iscritti a un servizio informativo, ad esempio una newsletter | nms:subscription |
+| Abbonamenti visitatore | Consegnare ai visitatori abbonati o iscritti a un servizio informativo | nms:visitorSub |
+| Operatori | Consegnare agli operatori Adobe Campaign | nms:operator |
+| File esterno | Consegnare tramite un file contenente tutte le informazioni necessarie per la consegna | Nessuno schema collegato, nessuna destinazione immessa |
+| Applicazioni in abbonamento | Consegnare ai destinatari abbonati o iscritti a un’applicazione | nms:appSubscriptionRcp |
+
 
 ## Creare una mappatura di destinazione {#new-mapping}
 
