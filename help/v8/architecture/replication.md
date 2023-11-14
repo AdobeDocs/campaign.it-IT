@@ -5,9 +5,9 @@ feature: Workflows, FFDA
 role: Developer
 level: Intermediate
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: f807963a7640773ac18d49999b561f2f3b894d7f
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '380'
 ht-degree: 4%
 
 ---
@@ -48,7 +48,7 @@ Scopri quali database utilizza Adobe Campaign v8, perché i dati vengono replica
 
 ### Criteri di replica dei dati {#data-replication-policies}
 
-I criteri di replica si basano sulle dimensioni delle tabelle. Alcune tabelle saranno replicate in tempo reale, altre in base alle ore. Alcune tabelle avranno aggiornamenti incrementali quando altre verranno sostituite.
+I criteri di replica si basano sulle dimensioni delle tabelle. Alcune tabelle vengono replicate in tempo reale, altre su base oraria. Alcune tabelle avranno aggiornamenti incrementali quando altre verranno sostituite.
 
 Oltre al **Replica tabelle di riferimento** del flusso di lavoro tecnico, puoi forzare la replica dei dati nei flussi di lavoro.
 
