@@ -4,9 +4,9 @@ title: Modifiche imminenti del canale di notifica push
 description: Modifiche imminenti del canale di notifica push
 hide: true
 hidefromtoc: true
-source-git-commit: 4072421cd8f0f3ab3b15c4a475428a59503aa955
+source-git-commit: 9ff84e523e7de6f1d6bb4e8cd193d19743fcf90c
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '772'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,7 @@ Per migrare l’ambiente a HTTP v1, segui questi passaggi sui server di esecuzio
 
 1. Fai clic su **[!UICONTROL Finish]**, quindi su **[!UICONTROL Save]**.
 
-Di seguito sono riportati i nomi del payload FCM per personalizzare ulteriormente la notifica push:
+Di seguito sono riportati i nomi del payload FCM per personalizzare ulteriormente la notifica push. Queste opzioni sono dettagliate [qui](#fcm-apps).
 
 | Tipo di messaggio | Elemento del messaggio configurabile (nome del payload FCM) | Opzioni configurabili (nome payload FCM) |
 |:-:|:-:|:-:|
@@ -79,7 +79,7 @@ Di seguito sono riportati i nomi del payload FCM per personalizzare ulteriorment
 
 >[!NOTE]
 >
->Il passaggio all’API HTTP v1 viene applicato a tutte le nuove consegne. Le consegne in un nuovo tentativo, in corso e in uso utilizzano ancora l’API HTTP (legacy).
+>Una volta applicate queste modifiche a tutti i server, tutte le nuove consegne di notifiche push ai dispositivi Android utilizzano l’API HTTP v1. Le consegne push esistenti in un nuovo tentativo, in corso e in uso utilizzano ancora l’API HTTP (legacy).
 
 ### Qual è l’impatto sulle app Android? {#fcm-apps}
 
@@ -89,6 +89,7 @@ Tuttavia, con HTTP v1, puoi personalizzare ulteriormente la notifica push con **
 
 ![](assets/android-push-additional-options.png)
 
+Puoi eseguire le seguenti azioni:
 
 * Utilizza il **[!UICONTROL Ticker]** per impostare il testo del ticker della notifica.
 * Utilizza il **[!UICONTROL Image]** per impostare l’URL dell’immagine da visualizzare nella notifica.
