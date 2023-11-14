@@ -4,7 +4,7 @@ title: Modifiche imminenti del canale di notifica push
 description: Modifiche imminenti del canale di notifica push
 hide: true
 hidefromtoc: true
-source-git-commit: 9ff84e523e7de6f1d6bb4e8cd193d19743fcf90c
+source-git-commit: fc274e1266d37611c8781a007ccb6a293a683c21
 workflow-type: tm+mt
 source-wordcount: '772'
 ht-degree: 1%
@@ -49,11 +49,8 @@ Per verificare se sei interessato, puoi filtrare il **Servizi e abbonamenti** se
 Per migrare l’ambiente a HTTP v1, segui questi passaggi sui server di esecuzione Marketing e Real-Time:
 
 1. Sfoglia l’elenco di **Servizi e abbonamenti**.
-
 1. Individua tutte le applicazioni mobili utilizzando **HTTP (legacy)** Versione API.
-
 1. Per ciascuna di queste applicazioni mobili, imposta il **Versione API** a **HTTP v1**.
-
 1. Fai clic su **[!UICONTROL Load project json file to extract project details...]** collegamento per caricare direttamente il file di chiave JSON.
 
    È inoltre possibile immettere manualmente i seguenti dettagli:
@@ -64,9 +61,7 @@ Per migrare l’ambiente a HTTP v1, segui questi passaggi sui server di esecuzio
    ![](assets/android-http-v1-config.png)
 
 1. Clic **[!UICONTROL Test the connection]** per verificare che la configurazione sia corretta e che il server di marketing abbia accesso a FCM. Tieni presente che per le distribuzioni Mid-Sourcing, il **[!UICONTROL Test connection]** non può verificare se il server ha accesso al servizio Android Firebase Cloud Messaging (FCM).
-
 1. Come opzione, puoi arricchire il contenuto di un messaggio push con **[!UICONTROL Application variables]** se necessario. Questi sono completamente personalizzabili e fanno parte del payload del messaggio inviato al dispositivo mobile.
-
 1. Fai clic su **[!UICONTROL Finish]**, quindi su **[!UICONTROL Save]**.
 
 Di seguito sono riportati i nomi del payload FCM per personalizzare ulteriormente la notifica push. Queste opzioni sono dettagliate [qui](#fcm-apps).
