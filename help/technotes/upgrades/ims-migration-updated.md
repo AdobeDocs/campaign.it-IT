@@ -3,7 +3,7 @@ title: Migrazione degli utenti tecnici alla console Adobe Developer
 description: Scopri come migrare gli operatori tecnici di Campaign all’account tecnico nella console Adobe Developer
 hide: true
 hidefromtoc: true
-source-git-commit: 4863679106dec92d6b63f63cec0911738853dc04
+source-git-commit: 6655a62e18ea14e8ae126dfec88a17dd04c7b488
 workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 0%
@@ -66,9 +66,10 @@ Per creare un nuovo progetto, fai clic su **Crea nuovo progetto** dalla schermat
 
 È possibile utilizzare **Modifica progetto** per rinominare il progetto.
 
-Dalla schermata del progetto appena creato, aggiungi nelle API necessarie per poter utilizzare questo progetto come account tecnico per le chiamate API ad Adobe Campaign.
 
 ### Passaggio 2: aggiungere API al progetto{#ims-migration-step-2}
+
+Dalla schermata del progetto appena creato, aggiungi nelle API necessarie per poter utilizzare questo progetto come account tecnico per le chiamate API ad Adobe Campaign.
 
 Per aggiungere API al progetto, effettua le seguenti operazioni:
 
