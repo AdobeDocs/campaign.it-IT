@@ -3,9 +3,9 @@ title: Migrazione degli utenti tecnici alla console Adobe Developer
 description: Scopri come migrare gli operatori tecnici di Campaign all’account tecnico nella console Adobe Developer
 hide: true
 hidefromtoc: true
-source-git-commit: 6655a62e18ea14e8ae126dfec88a17dd04c7b488
+source-git-commit: 87d155cbc2a5c6f4cbeeadb6ae7ae8aa3166a321
 workflow-type: tm+mt
-source-wordcount: '1599'
+source-wordcount: '1580'
 ht-degree: 0%
 
 ---
@@ -19,32 +19,32 @@ Un operatore tecnico è un profilo utente di Campaign creato esplicitamente per 
 
 ## Sei interessato da questo problema?{#ims-impacts}
 
-Tutti i clienti di Campaign che effettuano chiamate API da un sistema esterno a Campaign all’istanza Campaign Marketing o al Centro messaggi in tempo reale dovranno migrare gli operatori tecnici agli account tecnici tramite la console Adobe Developer, come descritto di seguito.
+Se effettui chiamate API da un sistema esterno a Campaign nell’istanza Campaign Marketing o Real Time Message Center, devi migrare gli operatori tecnici agli account tecnici tramite la console Adobe Developer come descritto di seguito.
 
 Questa modifica è applicabile a partire da Campaign v8.5.
 
 
 ## Processo di migrazione {#ims-migration-procedure}
 
-Seguendo i passaggi seguenti, potrai creare account tecnici nella console Adobe Developer e quindi utilizzare gli account appena creati per modificare i metodi di autenticazione per tutti i sistemi esterni che effettuano chiamate API in Adobe Campaign.
+Segui i passaggi seguenti per creare account tecnici nella console Adobe Developer, quindi utilizza gli account appena creati per poter modificare i metodi di autenticazione per tutti i sistemi esterni che effettuano chiamate API in Adobe Campaign.
 
 Ecco una panoramica dei passaggi:
 
 * Creazione di un progetto nella console Adobe Developer
 * Assegnazione delle API appropriate al progetto appena creato
 * Assegnazione dei profili di prodotto di Campaign necessari al progetto
-* Aggiornamento delle API lato cliente per utilizzare le credenziali dell’account tecnico appena create
+* Aggiornamento delle API per utilizzare le credenziali dell’account tecnico appena create
 * Rimuovere gli operatori tecnici legacy dall’istanza Campaign
 
 ### Prerequisiti per la migrazione{#ims-migration-prerequisites}
 
-Per poter creare gli account tecnici che verranno utilizzati per sostituire gli operatori tecnici, è necessario convalidare il prerequisito per l’esistenza di profili di prodotto di Campaign nell’Admin Console per tutte le istanze di Campaign. Per ulteriori informazioni sui profili di prodotto, consulta la console Adobe in [Documentazione della console Adobe Developer](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.
+Per poter creare gli account tecnici che sostituiscono gli operatori tecnici, è necessario convalidare il prerequisito per l’esistenza di profili di prodotto di Campaign appropriati nell’Admin Console per tutte le istanze di Campaign. Per ulteriori informazioni sui profili di prodotto, consulta la console Adobe in [Documentazione della console Adobe Developer](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.
 
-Per le chiamate API nelle istanze del Centro messaggi, un profilo di prodotto avrebbe dovuto essere creato durante l’aggiornamento a Campaign v8.5 o durante il provisioning dell’istanza. Questo profilo di prodotto sarà denominato:
+Per le chiamate API nelle istanze del Centro messaggi, avrebbe dovuto essere creato un profilo di prodotto durante l’aggiornamento a Campaign v8.5 o durante il provisioning dell’istanza. Questo profilo di prodotto è denominato:
 
 `campaign - <your campaign instance> - messagecenter`
 
-Se utilizzi già l’autenticazione basata su IMS per l’accesso utente a Campaign, i profili di prodotto necessari per le chiamate API dovrebbero già esistere all’interno dell’Admin Console. Se utilizzi un gruppo di operatori personalizzato all’interno di Campaign per le chiamate API all’istanza Marketing, dovrai creare tale profilo di prodotto nell’Admin Console.
+Se utilizzi già l’autenticazione basata su IMS per l’accesso utente a Campaign, i profili di prodotto necessari per le chiamate API dovrebbero già esistere all’interno dell’Admin Console. Se utilizzi un gruppo di operatori personalizzato all’interno di Campaign per le chiamate API all’istanza Marketing, devi creare tale profilo di prodotto nell’Admin Console.
 
 Per gli altri casi, devi contattare il tuo Adobe Transition Manager in modo che i team tecnici Adobe possano migrare i gruppi di operatori e i diritti denominati esistenti ai profili di prodotto all’interno dell’Admin Console.
 
@@ -67,7 +67,7 @@ Per creare un nuovo progetto, fai clic su **Crea nuovo progetto** dalla schermat
 È possibile utilizzare **Modifica progetto** per rinominare il progetto.
 
 
-### Passaggio 2: aggiungere API al progetto{#ims-migration-step-2}
+### Passaggio 2: aggiungere API al progetto {#ims-migration-step-2}
 
 Dalla schermata del progetto appena creato, aggiungi nelle API necessarie per poter utilizzare questo progetto come account tecnico per le chiamate API ad Adobe Campaign.
 
@@ -131,7 +131,7 @@ In **Configurare API** , l&#39;autenticazione server-to-server OAuth è già esi
 Viene visualizzata di nuovo la schermata Progetto nell’API di gestione I/O del progetto appena creato. Fai clic sul nome del progetto nelle breadcrumb nella parte superiore dello schermo per tornare alla pagina principale dei Dettagli del progetto.
 
 
-### Passaggio 6: verificare la configurazione del progetto{#ims-migration-step-6}
+### Passaggio 6: verificare la configurazione del progetto {#ims-migration-step-6}
 
 Rivedi il progetto per assicurarti che sia simile a quello riportato di seguito con **API di gestione I/O** e **API ADOBE CAMPAIGN** visibile nella sezione Prodotti e servizi e **OAuth Server-to-Server** nella sezione Credenziali.
 
@@ -203,16 +203,13 @@ Una volta completato e convalidato il processo di migrazione, le chiamate Soap v
 
 
 
-
-
-
 ### Passaggio 9: (facoltativo) aggiorna l’operatore dell’account tecnico nella console client di Campaign {#ims-migration-step-9}
 
 Questo passaggio è facoltativo e disponibile solo all’interno delle istanze Marketing, non all’interno di alcuna istanza del Centro messaggi. Se sono state definite autorizzazioni di cartelle specifiche o diritti denominati per l’operatore tecnico non tramite i gruppi di operatori assegnati. Ora è necessario aggiornare l’utente dell’account tecnico appena creato nell’Admin Console per concedere le autorizzazioni della cartella o i diritti denominati richiesti.
 
 L’utente dell’account tecnico NON esisterà in Adobe Campaign finché non verrà effettuata almeno una chiamata API all’istanza di Campaign, momento in cui IMS creerà l’utente all’interno di Campaign. Se non riesci a individuare gli utenti tecnici all’interno di Campaign, assicurati di aver inviato correttamente una chiamata API come descritto [nel passaggio 7](#ims-migration-step-7).
 
-1. Per applicare le modifiche necessarie per il nuovo Utente account tecnico, le individuerai nella console client di Campaign per indirizzo e-mail. Questo indirizzo e-mail è stato creato durante i passaggi di creazione e autenticazione del progetto descritti sopra.
+1. Per applicare le modifiche necessarie per il nuovo utente account tecnico, individuale nella console client di Campaign per indirizzo e-mail. Questo indirizzo e-mail è stato creato durante i passaggi di creazione e autenticazione del progetto descritti sopra.
 
    Puoi individuare questo indirizzo e-mail facendo clic sul pulsante **OAuth Server-to-Server** intestazione nel **Credenziali** sezione del progetto.
 
@@ -238,7 +235,7 @@ L’utente dell’account tecnico NON esisterà in Adobe Campaign finché non ve
 >Il nuovo operatore tecnico deve aver effettuato almeno una chiamata API per essere aggiunto alla console client di Campaign.
 >
 
-### Passaggio 10: rimuovere il vecchio operatore tecnico da Adobe Campaign {#ims-migration-step-10}
+### Passaggio 10 - Rimuovere il vecchio operatore tecnico da Adobe Campaign {#ims-migration-step-10}
 
 Dopo aver migrato tutti i sistemi di terze parti per utilizzare il nuovo account tecnico con autenticazione IMS, puoi eliminare il vecchio operatore tecnico dalla console client di Campaign.
 
