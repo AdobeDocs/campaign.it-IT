@@ -3,7 +3,7 @@ title: Migrazione degli utenti tecnici alla console Adobe Developer
 description: Scopri come migrare gli operatori tecnici di Campaign all’account tecnico nella console Adobe Developer
 hide: true
 hidefromtoc: true
-source-git-commit: 87d155cbc2a5c6f4cbeeadb6ae7ae8aa3166a321
+source-git-commit: d52744e1d798447bb6b90909607e42082f7eeaf5
 workflow-type: tm+mt
 source-wordcount: '1580'
 ht-degree: 0%
@@ -118,7 +118,7 @@ Dalla schermata del progetto, fai clic su **[!UICONTROL + Add to Project]** e sc
 
 ![](assets/do-not-localize/ims-updates-04.png)
 
-In **Aggiungere un’API** scorri verso il basso per trovare la **API di gestione I/O** Card. Selezionala facendo clic sulla casella di controllo visualizzata quando passi il cursore del mouse sulla scheda. Quindi fai clic su **Successivo** nella parte inferiore dello schermo.
+In **Aggiungere un’API** scorri verso il basso per trovare la **API di gestione I/O** Card. Selezionala facendo clic sulla casella di controllo che compare quando passi il cursore del mouse sulla scheda. Quindi fai clic su **Successivo** nella parte inferiore dello schermo.
 
 ![](assets/do-not-localize/ims-updates-05.png)
 
