@@ -5,9 +5,9 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 858c9216-c5a0-4bf9-b4b0-91e403293f73
-source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
+source-git-commit: 555e1d64ada12dc145fbba9124611e30d7746ba5
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1170'
 ht-degree: 1%
 
 ---
@@ -158,6 +158,18 @@ Per inviare la bozza:
 Le bozze sono accessibili in ogni modello tramite **[!UICONTROL Audit]** scheda.
 
 ![](assets/messagecenter_send_proof_003.png)
+
+#### Transizione da [!DNL Campaign Classic] v7
+
+Se sei [transizione da Campaign Classic v7](../start/v7-to-v8.md), tutte le consegne passano attraverso il server di mid-sourcing.
+
+Tuttavia, quando si crea un modello di messaggio transazionale, il routing necessario per il corretto utilizzo del modello è **consegna e-mail interna**. Questo ciclo impedisce l’invio di bozze.
+
+Di conseguenza, per inviare una bozza per il modello di messaggio transazionale, devi modificare il percorso dalla consegna e-mail interna a **account di indirizzamento mid-sourcing**.
+
+![](assets/messagecenter_send_proof_004.png)
+
+Una volta inviate le bozze, devi ripristinare il routing alla consegna e-mail interna prima di pubblicare il modello di messaggio transazionale.
 
 ## Pubblicare il modello {#publish-message-template}
 
