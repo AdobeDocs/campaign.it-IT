@@ -5,7 +5,7 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 858c9216-c5a0-4bf9-b4b0-91e403293f73
-source-git-commit: 555e1d64ada12dc145fbba9124611e30d7746ba5
+source-git-commit: 973c799be51226510549290376f129aaeb86f6ab
 workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 1%
@@ -130,7 +130,7 @@ Dopo aver creato uno o più indirizzi di seed e il corpo del messaggio, puoi vis
 
    ![](assets/messagecenter_create_seed_7.png)
 
-### Inviare una bozza
+### Inviare una bozza {#send-proof}
 
 Puoi verificare la consegna dei messaggi inviando una bozza a un indirizzo seed creato in precedenza.
 
@@ -159,7 +159,7 @@ Le bozze sono accessibili in ogni modello tramite **[!UICONTROL Audit]** scheda.
 
 ![](assets/messagecenter_send_proof_003.png)
 
-#### Transizione da [!DNL Campaign Classic] v7
+#### Transizione da [!DNL Campaign Classic] v7 {#transition-from-v7}
 
 Se sei [transizione da Campaign Classic v7](../start/v7-to-v8.md), tutte le consegne passano attraverso il server di mid-sourcing.
 
