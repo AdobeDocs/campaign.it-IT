@@ -4,9 +4,9 @@ title: Regole di coerenza
 description: Regole di coerenza
 feature: Typology Rules
 exl-id: dcb4ffcf-71e5-48a2-b0f7-42915a599652
-source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
+source-git-commit: 8247bed87deb3fb19a01447dab180ed9c97ea96c
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '736'
 ht-degree: 4%
 
 ---
@@ -97,7 +97,7 @@ Le righe di disponibilità sono solo a scopo informativo. Per escludere i messag
 
 ![](assets/campaign_opt_create_capacity_04.png)
 
-Il numero di messaggi da elaborare viene suddiviso in modo uniforme nell’intervallo di disponibilità definito. Ciò è particolarmente importante per i call center, poiché il loro numero massimo di chiamate al giorno è limitato. In caso di consegne e-mail, il **[!UICONTROL Do not limit instantaneous delivery capacity]** consente di ignorare questo intervallo di disponibilità e di inviare le e-mail contemporaneamente.
+Il numero massimo di messaggi che possono essere elaborati viene suddiviso in modo uniforme nell’intervallo di disponibilità definito. Ciò è particolarmente importante per i call center, poiché il loro numero massimo di chiamate al giorno è limitato. In caso di consegne e-mail, il **[!UICONTROL Do not limit instantaneous delivery capacity]** consente di ignorare questo intervallo di disponibilità e di inviare le e-mail contemporaneamente.
 
 ![](assets/campaign_opt_create_capacity_05.png)
 
