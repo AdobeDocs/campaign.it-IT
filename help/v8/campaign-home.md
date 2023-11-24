@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;argomenti principali
 description: Centro risorse di Campaign v8
 title: Documentazione di prodotto di Adobe Campaign v8
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: 8b1f8fe7f78440f1db1b518f1cca24a898dabddb
+source-git-commit: 05afe85c73a6fc54af6e139cdaadb98cd7a832b6
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 81%
+source-wordcount: '454'
+ht-degree: 10%
 
 ---
 
@@ -16,67 +16,102 @@ ht-degree: 81%
 
 ## Novità
 
-* **[[!DNL Adobe Campaign] guida all’automazione](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=it){target="_blank"}** - Scopri come creare flussi di lavoro e campagne
+Dai un’occhiata ai più recenti miglioramenti introdotti in Journey Optimizer. Per un elenco completo delle funzioni, dei miglioramenti e delle correzioni, consulta la [Note sulla versione](start/release-notes.md).
 
-* **[Scopri [!DNL Adobe Campaign]](start/get-started.md)**: funzionalità principali e casi d’uso
+>[!BEGINTABS]
 
-* **[Novità della versione 8](start/whats-new.md)**: scopri le funzionalità di Campaign v8
+>[!TAB Servizio di notifica push avanzato]
 
-* **[Linee guida per l’implementazione](start/implement.md)**: scopri come avviare l’implementazione
+Campaign v8.5.1 introduce il servizio di notifica push più recente, basato su un solido framework basato su una tecnologia all’avanguardia. Questo servizio è progettato per sbloccare nuovi livelli di scalabilità, garantendo che le notifiche possano raggiungere un pubblico più ampio con una perfetta efficienza. Con la nostra infrastruttura migliorata e i nostri processi ottimizzati, puoi aspettarti maggiore scalabilità e affidabilità, consentendoti di interagire e connettersi con gli utenti delle app mobili come mai prima d’ora. Questa funzionalità è disponibile solo per un gruppo selezionato di clienti (disponibilità limitata).
 
-* **[Dalla versione 7 alla versione v8](start/v7-to-v8.md)**: transizione da Campaign Classic v7 a v8? Scopri le differenze principali
+[![immagine](assets/do-not-localize/learn-more-button.svg)](send/push-data-collection.md)
 
-* **[Pannello di controllo Campaign per Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=it){target="_blank"}** - Eseguire autonomamente le principali attività di amministratore con Campaign Pannello di controllo Campaign
+>[!TAB Throughput aumentato del canale mobile]
 
-* **[Note sulla versione](start/release-notes.md)** - Scopri le funzioni e i miglioramenti più recenti
+Il nuovo servizio di notifica push mostra miglioramenti significativi nella velocità effettiva sia per Android push che per iOS push rispetto alla versione precedente (v8.4). Gli utenti potranno beneficiare di prestazioni notevolmente migliorate grazie al servizio aggiornato nella versione più recente (v8.5).
 
+* Notifiche push (Android): fino a **5x** più veloce
+* Notifiche push (iOS): fino a **2,2x** più veloce
 
-## Introduzione
+La velocità effettiva degli SMS è stata notevolmente migliorata grazie a una serie di ottimizzazioni, con conseguenti notevoli miglioramenti in termini di velocità ed efficienza per le comunicazioni SMS. Questi aggiornamenti hanno aumentato la velocità effettiva dalla versione precedente (v8.4) alla versione più recente (v8.5), includendo sia gli aggiornamenti di invio che quelli di feedback. Gli utenti possono ora usufruire dei vantaggi di questo servizio SMS avanzato.
 
+* Velocità effettiva SMS: fino a <strong>5x</strong> più veloce</li>
 
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td>
-<a href="start/connect.md">
-<img alt="Connettersi a Campaign v8" src="start/assets/do-not-localize/login.jpeg">
-</a>
-<div><a href="start/connect.md"><strong>Connessione a Campaign</strong>
-</div>
-<p>
-</td>
-<td>
-<a href="start/import.md">
-<img alt="Importazione profili" src="start/assets/do-not-localize/profiles.jpeg">
-</a>
-<div>
-<a href="start/import.md"><strong>Importare profili</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="start/create-message.md">
-<img alt="Creare un messaggio e-mail" src="start/assets/do-not-localize/email-design.jpeg">
-</a>
-<div>
-<a href="start/create-message.md"><strong>Creare un messaggio e-mail</strong></a>
-</div>
-<p></td>
-<td>
-<a href="send/push.md">
-<img alt="Inviare notifiche push" src="start/assets/do-not-localize/push-send.jpeg">
-</a>
-<div>
-<a href="send/push.md"><strong>Inviare notifiche push</strong></a>
-</div>
-<p>
-</td>
-</tr></table>
+Queste prestazioni di throughput massime sono state misurate da team di test Adobi, in condizioni di laboratorio.
 
+>[!ENDTABS]
 
-## Altre risorse
+## Inizia con le nozioni di base
 
-* [Guardrail e limitazioni](start/ac-guardrails.md)
-* [Architettura](architecture/architecture.md)
-* [Misurazione e tracciamento](reporting/gs-reporting.md)
-* [Connessione con altre soluzioni](connect/integration.md)
-* [Domande frequenti su Campaign v8](start/campaign-faq.md)
+<table style="table-layout:fixed">
+  <tr style="border: 0;">
+    <td>
+    <a href="start/whats-new.md"><img src="assets/do-not-localize/start-capabilities.png"></a></a>
+    <div><strong>Funzionalità principali</strong><br/>Esplora le funzionalità chiave di Adobe Campaign v8 per la gestione delle campagne cross-channel.</div>
+    </td>
+    <td>
+    <a href="start/connect.md"><img src="assets/do-not-localize/start-connect.jpeg"></a>
+    <div><strong>Connettersi a Campaign v8</strong><br/>Scopri come connettersi ad Adobe Campaign v8 e avviare il percorso di gestione delle campagne installando e configurando la console client.</div><br/>
+    </td>
+    <td>
+    <a href="start/create-message.md"><img src="assets/do-not-localize/start-send.jpeg"></a>
+    <div><strong>Inviare messaggi</strong><br/>Scopri come inviare messaggi su vari canali, tra cui e-mail, SMS, notifiche push.
+    </div></td>
+    <td>
+    <a href="audiences/create-profiles.md"><img src="assets/do-not-localize/start-profiles.png"></a>
+    <div><strong>Importare profili</strong><br/>Scopri facilmente come creare profili nel database di Adobe Campaign v8. Aggiungi profili manualmente o tramite importazioni, perfezionando i dati dei clienti e personalizzando le campagne in modo semplice.</div>
+    </td>
+  </tr>
+</table>
+
+## Esplora la documentazione
+
+<table style="table-layout:auto">
+  <tr style="border: 0;">
+    <td>
+      <img src="assets/do-not-localize/icon-start.svg" width="70px">
+    <td>
+      <strong>Introduzione</strong><br/><a href="start/campaign-ui.md">Interfaccia utente</a> - <a href="start/ac-components.md">Componenti e processi</a> - <a href="start/v7-to-v8.md">Da Classic v7 a v8</a> - <a href="start/campaign-faq.md">Domande frequenti</a>
+    </td>
+    <td>
+      <img src="assets/do-not-localize/icon-experience.svg" width="70px">
+    </td>
+    <td>
+      <strong>Esperienza del cliente</strong><br/><a href="../automation/workflow/about-workflows.md" target="_blank">Automatizzare con i flussi di lavoro</a> - <a href="../automation/campaigns/set-up-campaigns.md" target="_blank">Orchestrazione campagna</a> - <a href="interaction/interaction.md">Gestione delle decisioni</a> - <a href="send/personalize.md">Personalizzazione</a>
+    </td>
+    <td>
+      <img src="assets/do-not-localize/icon-send.svg" width="70px">
+    </td>
+    <td>
+      <strong>Inviare messaggi</strong><br/><a href="start/create-message.md">Introduzione</a> - <a href="send/preview-and-proof.md">Anteprima e bozze</a> - <a href="send/predictive.md">Ottimizzazione del tempo di invio</a> - <a href="reporting/gs-reporting.md">Reporting e analisi</a>
+    </td>
+  </tr>
+  <tr style="border: 0;">
+    <td>
+      <img src="assets/do-not-localize/icon_profile-audience.svg" width="70px">
+    </td>
+    <td>
+      <strong>Profili e pubblico</strong><br/><a href="audiences/create-profiles.md">Aggiungere profili</a> - <a href="audiences/create-audiences.md">Creare tipi di pubblico</a> - <a href="start/subscriptions.md">Gestire gli abbonamenti</a> - <a href="start/privacy.md">Privacy</a>
+    </td>
+    <td>
+      <img src="assets/do-not-localize/icon-configure.svg" width="70px">
+    </td>
+    <td>
+      <strong>Architettura e configurazione</strong><br/><a href="architecture/architecture.md">Architettura</a> - <a href="start/implement.md">Implementazione di Campaign v8</a> - <a href="connect/integration.md">Connessione con altre soluzioni</a> - <a href="start/gs-permissions.md">Utenti e autorizzazioni</a>
+    </td>
+    <td>
+      <img src="assets/do-not-localize/icon-dev.svg" width="70px">
+    </td>
+    <td>
+      <strong>Risorse per sviluppatori</strong><br/><a href="dev/datamodel.md">Modello dati di Campaign v8</a> - <a href="dev/schemas.md">Schemi</a> - <a href="dev/api.md">API</a>
+    </td>
+  </tr>
+</table>
+
+## Risorse aggiuntive
+
 * [Descrizione del prodotto Adobe Campaign v8](https://helpx.adobe.com/it/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
+* [Tutorial](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html){target="_blank"}
+* [[!DNL Adobe Campaign] guida all’automazione](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=it){target="_blank"}
+* [Pannello di controllo Campaign per Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=it){target="_blank"}
+
