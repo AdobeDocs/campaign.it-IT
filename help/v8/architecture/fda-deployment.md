@@ -5,9 +5,9 @@ feature: Architecture, Federated Data Access, Deployment
 role: Admin, Developer
 level: Beginner
 exl-id: b3df0336-f40e-4ac1-b6a4-068b8827dca2
-source-git-commit: 16367814b53344e4cd68025dfe925cc17aac6bcf
+source-git-commit: 561e4b6d2c99e98e068132c80c2bebb756b60a44
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,11 @@ ht-degree: 0%
 # [!DNL Campaign] Distribuzione FDA{#gs-fda}
 
 Nella sua implementazione Campaign FDA (predefinita), [!DNL Adobe Campaign] v8 può essere connesso a [!DNL Snowflake] per accedere ai dati tramite [Federated Data Access](../connect/fda.md) funzionalità: puoi quindi accedere ed elaborare dati e informazioni esterni archiviati nel tuo [!DNL Snowflake] senza modificare la struttura dei dati di Adobe Campaign.
+
+>[!NOTE]
+>
+>In questo modello di distribuzione, il [!DNL Snowflake] database secondario disponibile solo su richiesta. Per aggiornare la distribuzione con [!DNL Snowflake], contatta il tuo Adobe Transition Manager.
+>
 
 ## Vantaggi{#fda-benefits}
 

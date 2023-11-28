@@ -5,10 +5,10 @@ feature: Control Panel, Monitoring
 role: Admin
 level: Beginner
 exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 561e4b6d2c99e98e068132c80c2bebb756b60a44
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 95%
+source-wordcount: '379'
+ht-degree: 91%
 
 ---
 
@@ -18,7 +18,7 @@ Consentendoti di gestire le impostazioni e di tenere traccia dell’utilizzo di 
 
 Vantaggi principali:
 
-* Apporta rapidamente le modifiche alle impostazioni senza rivolgerti all’Assistenza clienti.
+* Apporta rapidamente le modifiche alle impostazioni senza rivolgerti agli Adobi.
 * Configura le impostazioni in base alle diverse esigenze aziendali in momenti diversi.
 * Migliora la sicurezza controllando le impostazioni di accesso in base alle necessità.
 

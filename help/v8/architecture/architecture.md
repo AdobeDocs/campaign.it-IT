@@ -5,7 +5,7 @@ feature: Architecture, Deployment
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 16367814b53344e4cd68025dfe925cc17aac6bcf
+source-git-commit: 561e4b6d2c99e98e068132c80c2bebb756b60a44
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 10%
@@ -38,7 +38,7 @@ Sono disponibili due modelli di distribuzione:
 
   >[!NOTE]
   >
-  >In questo modello di distribuzione, il [!DNL Snowflake] database secondario disponibile solo su richiesta. Per aggiornare la distribuzione con [!DNL Snowflake], contatta il tuo Adobe Technical Account Manager.
+  >In questo modello di distribuzione, il [!DNL Snowflake] database secondario disponibile solo su richiesta. Per aggiornare la distribuzione con [!DNL Snowflake], contatta il tuo Adobe Transition Manager.
   >
 
 * **Distribuzione di Campaign Enterprise (FFDA)**
@@ -70,7 +70,7 @@ A questo scopo, è necessario disporre di ulteriori account esterni con **[!UICO
 
 >[!IMPORTANT]
 >
->Per impostazione predefinita, la modalità di routing diviso è abilitata per l’account &quot;Consegna divisa - E-mail&quot;. Per tutti gli altri account esterni dei canali, contatta l’Assistenza clienti per far sì che l’opzione sia abilitata.
+>Per impostazione predefinita, la modalità di routing diviso è abilitata per l’account &quot;Consegna divisa - E-mail&quot;. Per tutti gli altri account esterni dei canali, contatta l’Adobe Transition Manager per abilitare l’opzione.
 >
 >Per impostazione predefinita, il valore di dimensione della soglia per suddividere una consegna tra più mid è 100.000. È possibile modificare questo valore nell’opzione &quot;NmsDelivery_MultiMidSplitThreshold&quot; in **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL Options]** menu.
 
