@@ -5,9 +5,9 @@ feature: Architecture, Deployment
 role: Admin, Developer
 level: Beginner
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1136'
 ht-degree: 7%
 
 ---
@@ -81,7 +81,7 @@ Sono disponibili anche altri processi più tecnici:
 
 ## Contenitori database {#db-containers}
 
-Il database di Adobe Campaign Cloud si basa su [!DNL Snowflake] che contiene i dati funzionali (profili, abbonamenti, contenuti, ecc.), i dati tecnici (processi e registri di consegna, registri di tracciamento, ecc.) e i dati di lavoro (acquisti, lead) della soluzione e tutti i componenti di Adobe Campaign comunicano con il database per eseguire le attività specifiche.
+Nel suo [Distribuzione aziendale (FFDA)](enterprise-deployment.md), il database di Adobe Campaign Cloud si basa su [!DNL Snowflake] che contiene i dati funzionali (profili, abbonamenti, contenuti, ecc.), i dati tecnici (processi e registri di consegna, registri di tracciamento, ecc.) e i dati di lavoro (acquisti, lead) della soluzione e tutti i componenti di Adobe Campaign comunicano con il database per eseguire le attività specifiche.
 
 Puoi distribuire Adobe Campaign utilizzando il database e gli schemi predefiniti e, se necessario, estendere questo ambiente predefinito. Adobe Campaign accede a tutti i dati all’interno del data mart tramite chiamate SQL. Adobe Campaign fornisce inoltre una serie completa di strumenti ETL (Extract Transform and Load) per eseguire l’importazione e l’esportazione dei dati all’interno e all’esterno del sistema.
 
@@ -96,6 +96,6 @@ Puoi distribuire Adobe Campaign utilizzando il database e gli schemi predefiniti
 
 ## Archiviazione del database {#db-storage}
 
-Lo spazio di archiviazione totale è suddiviso tra il database principale e il magazzino di Snowflake. La posizione in cui vengono memorizzati i dati deve essere determinata al momento dell’implementazione o dell’aggiornamento, in base ai casi d’uso specifici per il cliente.
+Lo spazio di archiviazione totale è suddiviso tra il database principale e il database secondario di Snowflake (facoltativo). La posizione in cui vengono memorizzati i dati deve essere determinata al momento dell’implementazione o dell’aggiornamento, in base ai casi d’uso specifici per il cliente.
 
 Scopri come monitorare l’utilizzo del database in [Documentazione del Pannello di controllo Campaign della campagna](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html){target="_blank"}.

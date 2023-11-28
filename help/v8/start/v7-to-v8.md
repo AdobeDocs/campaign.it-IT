@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 973c799be51226510549290376f129aaeb86f6ab
+source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 92%
+source-wordcount: '690'
+ht-degree: 86%
 
 ---
 
@@ -47,9 +47,7 @@ Campaign v8 si basa su un **architettura ibrida**. Se stai eseguendo la transizi
 
 ## [!DNL Campaign] e [!DNL Snowflake] {#ac-gs-snowflake}
 
-Campaign v8 funziona con [!DNL Snowflake].
-
-Nell’[implementazione Enterprise (FFDA)](../architecture/enterprise-deployment.md), [!DNL Adobe Campaign] v8 funziona con due database: un database [!DNL Campaign] locale per la messaggistica in tempo reale, le query unitarie dell’interfaccia utente e le operazioni di scrittura tramite API; e un database cloud [!DNL Snowflake] per l’esecuzione della campagna, le query batch e l’esecuzione dei flussi di lavoro.
+Nel suo [Distribuzione aziendale (FFDA)](../architecture/enterprise-deployment.md), [!DNL Adobe Campaign] v8 funziona con due database: uno locale [!DNL Campaign] database per la messaggistica in tempo reale, le query unitarie dell’interfaccia utente, le operazioni di scrittura tramite API e un cloud [!DNL Snowflake] database per l’esecuzione della campagna, le query batch e l’esecuzione dei flussi di lavoro.
 
 Campaign v8 Enterprise introduce il concetto di **Full Federated Data Access** (FFDA): adesso tutti i dati sono remoti, nel database cloud. Con questa nuova architettura, l’implementazione di Campaign v8 Enterprise (FFDA) semplifica la gestione dei dati, in quanto nel database cloud non è richiesto alcun indice. È sufficiente creare le tabelle, copiare i dati e iniziare. La tecnologia del database cloud non richiede una manutenzione specifica per garantire la qualità del servizio.
 

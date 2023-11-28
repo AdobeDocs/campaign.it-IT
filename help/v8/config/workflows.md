@@ -5,7 +5,7 @@ feature: Workflows
 role: User, Admin
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
 workflow-type: tm+mt
 source-wordcount: '1570'
 ht-degree: 4%
@@ -94,7 +94,7 @@ Dopo aver creato il flusso di lavoro, puoi accedere ad altre opzioni con il **[!
 
 Ulteriori informazioni su **Proprietà del flusso di lavoro** in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/workflow-properties.html).
 
-Dalla sezione **[!UICONTROL Execution]** del flusso di lavoro **[!UICONTROL Properties]**, è possibile scegliere di collegare il flusso di lavoro a warehouse diversi e ottimizzare la gestione del carico di lavoro. Per ulteriori informazioni su **Magazzini**, fare riferimento a [Documentazione del Snowflake](https://docs.snowflake.com/en/user-guide/warehouses-overview.html).
+Dalla sezione **[!UICONTROL Execution]** del flusso di lavoro **[!UICONTROL Properties]**, è possibile scegliere di collegare il flusso di lavoro a warehouse diversi e ottimizzare la gestione del carico di lavoro. Per ulteriori informazioni su **Magazzini**, fare riferimento a [Documentazione del Snowflake](https://docs.snowflake.com/en/user-guide/warehouses-overview.html){target="_blank"}.
 
 ![](assets/warehouse.png)
 

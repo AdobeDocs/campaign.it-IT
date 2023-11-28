@@ -1,20 +1,20 @@
 ---
-title: Introduzione all’implementazione del Snowflake FDA di Campaign
-description: Introduzione all’implementazione del Snowflake FDA di Campaign
+title: Introduzione all’implementazione FDA di Campaign
+description: Introduzione all’implementazione FDA di Campaign
 feature: Architecture, Federated Data Access, Deployment
 role: Admin, Developer
 level: Beginner
 exl-id: b3df0336-f40e-4ac1-b6a4-068b8827dca2
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 16367814b53344e4cd68025dfe925cc17aac6bcf
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
 
-# [!DNL Campaign] FDA [!DNL Snowflake] distribuzione{#gs-fda-snowflake}
+# [!DNL Campaign] Distribuzione FDA{#gs-fda}
 
-In un [!DNL Snowflake] implementazione FDA (predefinita), [!DNL Adobe Campaign] v8 è connesso a [!DNL Snowflake] per accedere ai dati tramite [Federated Data Access](../connect/fda.md) funzionalità: è possibile accedere ed elaborare dati e informazioni esterni archiviati nel [!DNL Snowflake] senza modificare la struttura dei dati di Adobe Campaign.
+Nella sua implementazione Campaign FDA (predefinita), [!DNL Adobe Campaign] v8 può essere connesso a [!DNL Snowflake] per accedere ai dati tramite [Federated Data Access](../connect/fda.md) funzionalità: puoi quindi accedere ed elaborare dati e informazioni esterni archiviati nel tuo [!DNL Snowflake] senza modificare la struttura dei dati di Adobe Campaign.
 
 ## Vantaggi{#fda-benefits}
 
@@ -37,4 +37,4 @@ La comunicazione generale tra server e processi viene eseguita in base allo sche
 
 ![](assets/fda-architecture.png)
 
-PostgreSQL è il database primario e Snowflake è il database secondario. Puoi estendere il modello dati e archiviare i dati sul Snowflake. Successivamente, puoi eseguire ETL, segmentazione e rapporti su un set di dati di grandi dimensioni con prestazioni eccezionali.
+PostgreSQL è il database primario e il Snowflake può essere utilizzato come database secondario. Puoi estendere il modello dati e archiviare i dati sul Snowflake. Successivamente, puoi eseguire ETL, segmentazione e rapporti su un set di dati di grandi dimensioni con prestazioni eccezionali.

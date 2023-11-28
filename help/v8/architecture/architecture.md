@@ -5,10 +5,10 @@ feature: Architecture, Deployment
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: 16367814b53344e4cd68025dfe925cc17aac6bcf
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 11%
+source-wordcount: '1032'
+ht-degree: 10%
 
 ---
 
@@ -32,9 +32,14 @@ Puoi esportare e importare pacchetti da un ambiente a un altro.
 
 Sono disponibili due modelli di distribuzione:
 
-* **FDA campagna [!DNL Snowflake] distribuzione**
+* **Distribuzione FDA di Campaign**
 
-  Nel suo [[!DNL Snowflake] Distribuzione FDA](fda-deployment.md), [!DNL Adobe Campaign] v8 è connesso a [!DNL Snowflake] per accedere ai dati tramite la funzionalità Federated Data Access: puoi accedere ed elaborare dati e informazioni esterni memorizzati nel tuo [!DNL Snowflake] senza modificare la struttura dei dati di Adobe Campaign. PostgreSQL è il database primario e Snowflake è il database secondario. Puoi estendere il modello dati e archiviare i dati sul Snowflake. Successivamente, puoi eseguire ETL, segmentazione e rapporti su un set di dati di grandi dimensioni con prestazioni eccezionali.
+  Nel suo [Distribuzione FDA](fda-deployment.md), [!DNL Adobe Campaign] v8 può essere connesso a [!DNL Snowflake] per accedere ai dati tramite la funzionalità Federated Data Access: puoi accedere ed elaborare dati e informazioni esterni memorizzati nel tuo [!DNL Snowflake] senza modificare la struttura dei dati di Adobe Campaign. PostgreSQL è il database primario ed è possibile utilizzare Snowflake come database secondario per estendere quindi il modello dati e archiviare i dati nel Snowflake. Successivamente, puoi eseguire ETL, segmentazione e rapporti su un set di dati di grandi dimensioni con prestazioni eccezionali.
+
+  >[!NOTE]
+  >
+  >In questo modello di distribuzione, il [!DNL Snowflake] database secondario disponibile solo su richiesta. Per aggiornare la distribuzione con [!DNL Snowflake], contatta il tuo Adobe Technical Account Manager.
+  >
 
 * **Distribuzione di Campaign Enterprise (FFDA)**
 
