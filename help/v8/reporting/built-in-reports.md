@@ -5,9 +5,9 @@ feature: Reporting
 role: User
 level: Beginner
 exl-id: b63e6905-3bd4-4de4-9e7e-7638e5fc1192
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1115'
 ht-degree: 2%
 
 ---
@@ -381,7 +381,7 @@ Sono inoltre forniti i seguenti rapporti incorporati. Per ulteriori informazioni
   </tr> 
   <tr> 
    <td> Cronologia delle acquisizioni di prospettive sociali (socialVisitorStatistics)<br /> </td> 
-   <td> La cronologia delle acquisizioni di potenziali clienti di Twitter e Facebook dipende dal componente aggiuntivo Social marketing.<br /> </td> 
+   <td> La storia delle acquisizioni di X (precedentemente noto come Twitter) e Facebook prospect dipende dal componente aggiuntivo Social marketing.<br /> </td> 
    <td> nms:visitatore<br /> </td> 
   </tr> 
   <tr> 

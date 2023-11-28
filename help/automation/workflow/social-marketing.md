@@ -3,9 +3,9 @@ product: campaign
 title: Social marketing
 description: Ulteriori informazioni sui flussi di lavoro tecnici del Social Marketing
 feature: Workflows
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '120'
 ht-degree: 18%
 
 ---
@@ -46,12 +46,12 @@ I flussi di lavoro descritti di seguito vengono installati con **Social marketin
   <tr> 
    <td> <span class="uicontrol">Calcolo delle statistiche di Twitter</span> <br /> </td> 
    <td> <span class="uicontrol">statsTwitter</span> <br /> </td> 
-   <td> Questo flusso di lavoro calcola le statistiche collegate alle retweet e alle visite sul Twitter.<br /> </td> 
+   <td> Questo flusso di lavoro calcola le statistiche relative ai retweet e alle visite su X (precedentemente noto come Twitter).<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Sincronizzazione delle pagine del Twitter</span> <br /> </td> 
    <td> <span class="uicontrol">syncTwitter</span> <br /> </td> 
-   <td> Questo flusso di lavoro importa i follower del Twitter in Adobe Campaign ogni giorno alle 7.<br /> </td> 
+   <td> Questo flusso di lavoro importa X follower in Adobe Campaign ogni giorno alle 7.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
