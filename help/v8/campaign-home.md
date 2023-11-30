@@ -3,9 +3,9 @@ keywords: Campaign Classic;home;argomenti principali
 description: Centro risorse di Campaign v8
 title: Documentazione di prodotto di Adobe Campaign v8
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: 09aacde1f06b679899ca8a736419f64a5cf46823
+source-git-commit: b0f5f5b4871752651c43c6f582d0f543be7bb5bd
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '458'
 ht-degree: 10%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 10%
 
 ## Novità
 
-Dai un’occhiata ai miglioramenti più recenti introdotti in Adobe Campaign v8. Per un elenco completo delle funzioni, dei miglioramenti e delle correzioni, consulta la [Note sulla versione](start/release-notes.md).
+Dai un’occhiata ai miglioramenti più recenti presenti nel prodotto e nella documentazione di Adobe Campaign v8. Per un elenco completo delle funzioni, dei miglioramenti e delle correzioni, consulta la [Note sulla versione](start/release-notes.md).
 
 >[!BEGINTABS]
 
