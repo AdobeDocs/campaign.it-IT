@@ -3,9 +3,10 @@ title: Migrazione degli utenti tecnici alla console Adobe Developer
 description: Scopri come migrare gli operatori tecnici di Campaign all’account tecnico nella console Adobe Developer
 feature: Technote
 role: Admin
-source-git-commit: 9f93057d2d729d4251d914426488f46b6ef24bbb
+exl-id: 775c5dbb-ef73-48dd-b163-23cfadc3dab8
+source-git-commit: 8f58db2b00f2fc98afd737f20411f829dd24c78a
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1507'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ Come parte degli sforzi per rafforzare la sicurezza e il processo di autenticazi
 Un operatore tecnico è un profilo utente di Campaign creato esplicitamente per l’integrazione API. Questo articolo descrive i passaggi necessari per migrare un operatore tecnico a un account tecnico tramite la console Adobe Developer.
 
 
-## Sei interessato da questo problema?{#ims-impacts}
+## Sei interessato?{#ims-impacts}
 
 Se effettui chiamate API da un sistema esterno a Campaign nell’istanza Campaign Marketing o Real-Time Message Center, devi migrare gli operatori tecnici agli account tecnici tramite la console Adobe Developer come descritto di seguito.
 
@@ -38,7 +39,7 @@ Ecco una panoramica dei passaggi:
 
 ### Prerequisiti per la migrazione{#ims-migration-prerequisites}
 
-Per poter creare gli account tecnici che sostituiscono gli operatori tecnici, è necessario convalidare il prerequisito per l’esistenza di profili di prodotto di Campaign appropriati nell’Admin Console per tutte le istanze di Campaign. Per ulteriori informazioni sui profili di prodotto, consulta la console Adobe in [Documentazione della console Adobe Developer](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.
+<!--To be able to create the technical accounts which replace the technical operators, the prerequisite that the proper Campaign Product Profiles exist within the Admin Console for all Campaign instances need to be validated. You can learn more about Product Profiles within the Adobe Console in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.-->
 
 Per le chiamate API nelle istanze del Centro messaggi, avrebbe dovuto essere creato un profilo di prodotto durante l’aggiornamento a Campaign v8.5 o durante il provisioning dell’istanza. Questo profilo di prodotto è denominato:
 

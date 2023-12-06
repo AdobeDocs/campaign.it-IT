@@ -5,10 +5,10 @@ role: User, Admin
 feature: Social Marketing
 level: Beginner, Intermediate
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
-source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
+source-git-commit: 8f58db2b00f2fc98afd737f20411f829dd24c78a
 workflow-type: tm+mt
-source-wordcount: '1072'
-ht-degree: 3%
+source-wordcount: '1065'
+ht-degree: 2%
 
 ---
 
@@ -39,7 +39,7 @@ Campaign utilizza la versione 1.1 dell’API X. Per utilizzarlo, devi richiedere
 
 ## Creare un’applicazione su X {#create-an-app-on-twitter}
 
-Dopo aver ricevuto l’approvazione con accesso privilegiato, crea un’applicazione X per consentire ad Adobe Campaign di creare post sul tuo account X. A tale scopo, segui la procedura indicata di seguito:
+Dopo aver ricevuto l’approvazione con accesso privilegiato, crea un’applicazione X per consentire ad Adobe Campaign di creare post sul tuo account X. A questo scopo, segui la procedura indicata di seguito:
 
 1. Accedi al tuo account X.
 1. Connetti a [X portale per sviluppatori](https://developer.twitter.com/en/apps).
@@ -124,7 +124,7 @@ I follower sono memorizzati in una tabella specifica: la tabella dei visitatori.
 
 Per ogni follower, Adobe Campaign memorizza le seguenti informazioni:
 
-* **[!UICONTROL Origin]**: Twitter
+* **[!UICONTROL Origin]**: TWITTER
 * **[!UICONTROL External ID]**: identificatore utente
 * **[!UICONTROL Username]**: nome account dell’utente
 * **[!UICONTROL Full name]**: nome dell’utente
@@ -135,12 +135,12 @@ Al termine della configurazione, puoi creare post sui tuoi account X e inviare m
 
 ## Crea un account di test su X {#tw-test-account}
 
-Oltre all’account X, crea un account X privato da utilizzare per l’invio [bozze tweet](../send/twitter.md#send-tw-proofs). A tale scopo, segui la procedura indicata di seguito:
+Oltre all’account X, crea un account X privato da utilizzare per l’invio [bozze tweet](../send/twitter.md#send-tw-proofs). A questo scopo, segui la procedura indicata di seguito:
 
 1. Crea un nuovo account X.
 1. Accedere all’account  **Impostazioni**.
 1. Sfoglia per **Privacy e sicurezza** e **Pubblico e assegnazione tag** e controlla **Protect post** opzione. I tuoi post e altre informazioni sull&#39;account sono visibili solo alle persone che ti seguono.
 
-![](assets/social_tw_test_page.png)
+![](assets/do-not-localize/social_tw_test_page.png)
 
 Configura l’app X e il servizio Campaign affinché funzionino con questo account di test, come descritto in precedenza.

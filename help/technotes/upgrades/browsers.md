@@ -5,9 +5,9 @@ description: Componenti web di Campaign e versione 100 nei browser Chrome, Firef
 hide: true
 hidefromtoc: true
 exl-id: 912ad71e-2b23-4b16-b5f9-47d547fc83d5
-source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
+source-git-commit: 8f58db2b00f2fc98afd737f20411f829dd24c78a
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ La compatibilità dei principali siti web è stata testata in anticipo. In caso 
 
 I potenziali problemi o la perdita di funzionalità sul sito web derivano dalla stringa dell’agente utente inviata dai browser ai siti web che stai visitando: l’agente utente è una stringa inviata dal browser al sito web per comunicare al sito il browser e la versione in uso, nonché la tecnologia associata. Quando il browser invia una richiesta a un sito web, si identifica con la stringa dell’agente utente prima di recuperare il contenuto richiesto. I dati nella stringa dell’agente utente aiutano il sito web a distribuire il contenuto in un formato adatto al browser. La versione dell’agente utente viene incrementata in modo che corrisponda al numero di versione del browser. Il passaggio da 2 a 3 cifre può causare problemi.
 
-## Sei interessato da questo problema?{#version-100-impact}
+## Sei interessato?{#version-100-impact}
 
 L’Adobe consiglia di testare le applicazioni web di Campaign, inclusi moduli web e sondaggi, per assicurarsi che continuino a funzionare correttamente con queste nuove versioni del browser.
 
@@ -48,7 +48,7 @@ Per testare le pagine web con Mozilla Firefox 100, puoi simulare la prossima mod
 1. Cerca `general.useragent.override`.
 1. Selezionare Stringa e fare clic sul segno più (+).
 
-   ![](assets/force-user-agent-firefox.png)
+   ![](assets/do-not-localize/force-user-agent-firefox.png)
 
 1. Immetti il testo seguente nel campo:
 
@@ -68,7 +68,7 @@ Per testare l’agente utente di Google Chrome 100 sulle tue app web, puoi abili
 1. Apri Chrome, immetti `chrome://flags` nella barra degli indirizzi e premere invio.
 1. Ricerca `Force major version to 100 in User-Agent` nel campo di ricerca e abilitalo come mostrato di seguito.
 
-   ![](assets/force-user-agent-chrome.png)
+   ![](assets/do-not-localize/force-user-agent-chrome.png)
 
 1. Riavvia il browser.
 1. Chiudi `chrome://flags` scheda.
@@ -83,7 +83,7 @@ A partire da v97, i proprietari del sito possono emulare questa versione abilita
 1. Apri Microsoft Edge, immetti `edge://flags` nella barra degli indirizzi e premere invio.
 1. Cerca `force-major-version-to-100` e abilitarlo come illustrato di seguito.
 
-   ![](assets/force-user-agent-edge.png)
+   ![](assets/do-not-localize/force-user-agent-edge.png)
 
 1. Riavvia il browser.
 1. Chiudi `edge://flags` scheda.

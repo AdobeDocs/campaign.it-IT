@@ -5,10 +5,10 @@ feature: Overview, Architecture, Configuration
 role: User
 level: Beginner
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: 7deb5e8f646b086adec2e0652538a187e68adbee
+source-git-commit: 8f58db2b00f2fc98afd737f20411f829dd24c78a
 workflow-type: tm+mt
 source-wordcount: '660'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Ulteriori informazioni sulle funzionalità chiave di Campaign in [questa pagina]
 
 Di seguito sono descritti i componenti e l’architettura globale di Adobe Campaign.
 
-![](assets/ac-components.png)
+![](assets/do-not-localize//ac-components.png)
 
 ### Livello di presentazione{#presentation-layer}
 
@@ -30,11 +30,11 @@ Puoi accedere ad Adobe Campaign tramite un client avanzato, un thin client o un�
 
 * Client avanzato
 
-  Il client Campaign Rich è un’applicazione nativa che comunica con il server applicazioni Adobe Campaign tramite protocolli Internet standard, come SOAP e HTTP. [Ulteriori informazioni su Campaign Client Console](../start/connect.md).
+  Il client Campaign Rich è un’applicazione nativa che comunica con il server applicazioni Adobe Campaign tramite protocolli Internet standard, come SOAP e HTTP. [Ulteriori informazioni sulla console client di Campaign](../start/connect.md).
 
 * Thin client
 
-  Le funzionalità di accesso web di Adobe Campaign ti consentono di accedere a un sottoinsieme di funzionalità di Campaign con un browser web, utilizzando un’interfaccia utente di HTML. Utilizza questa interfaccia web per accedere ai rapporti, controllare e convalidare i messaggi, accedere alle dashboard di monitoraggio e altro ancora.  [Scopri come accedere a Campaign dal web](../start/connect.md).
+  Le funzionalità di accesso web di Adobe Campaign ti consentono di accedere a un sottoinsieme di funzionalità di Campaign con un browser web, utilizzando un’interfaccia utente di HTML. Utilizza questa interfaccia web per accedere ai rapporti, controllare e convalidare i messaggi, accedere alle dashboard di monitoraggio e altro ancora.  [Ulteriori informazioni su Campaign Web Access](../start/connect.md).
 
 * Applicazioni esterne con API
 
@@ -58,13 +58,13 @@ Adobe Campaign v8 è implementato come as a Managed Service: tutti i componenti 
 
 Il server web di Campaign controlla l’accesso ai processi web di Campaign. JavaScript è il linguaggio lato server utilizzato per le funzioni principali e la personalizzazione del prodotto. Tomcat è il motore back-end ed è incorporato nel prodotto Campaign come parte del processo web. JavaScript viene utilizzato, ad esempio, nelle pagine JSP o JSSP per eseguire il rendering del contenuto dinamico.
 
-![](assets/ac-processes.png)
+![](assets/do-not-localize/ac-processes.png)
 
 La console client di Campaign si connette al server web utilizzando l’XML SOAP su HTTP. Il server web fornisce il livello di sicurezza, trasmette le richieste al livello applicazione utilizzando JavaScript e i processi interni di Campaign accedono al database utilizzando SQL.
 
 La comunicazione complessiva tra i processi di Campaign è descritta nel seguente diagramma di distribuzione autonomo: tutti i componenti di Campaign sono installati nello stesso computer.
 
-![](assets/ac-standalone.png)
+![](assets/do-not-localize//ac-standalone.png)
 
 L’utente si connette al server applicazioni Campaign utilizzando il protocollo HTTP. Tutti i dati e le informazioni vengono gestiti nel database di Campaign. Se uno sviluppatore di Campaign esegue modifiche alla configurazione, queste vengono acquisite nel database. Se un addetto al marketing crea una nuova campagna, nel database vengono gestite anche tutte le informazioni e i dati relativi alla nuova campagna. Quando un addetto al marketing esegue una campagna, le consegne e-mail vengono inviate ai profili dal server Campaign tramite il server SMTP. Quando i profili interagiscono con le consegne e-mail, ad esempio l’apertura dell’e-mail, i dati di tracciamento vengono rimandati al server di tracciamento.
 
