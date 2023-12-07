@@ -1,14 +1,14 @@
 ---
 title: Novità di Campaign v8
-description: Scopri le funzionalità chiave di Adobe Campaign v8
+description: Scopri le funzionalità chiave in Campaign v8
 feature: Overview
 role: User
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 91%
+source-wordcount: '904'
+ht-degree: 90%
 
 ---
 
@@ -40,7 +40,7 @@ Con Adobe Campaign, puoi rendere le e-mail migliori, più personalizzate e più 
 
 ![](../assets/do-not-localize/glass.png) [Ulteriori informazioni sulle funzionalità di personalizzazione](create-message.md)
 
-### Gestione dei dati dei clienti {#customer-data-mgt}
+### Gestione dati cliente {#customer-data-mgt}
 
 Visualizza l’immagine completa dei tuoi clienti per creare rapidamente campagne personalizzate su scala aziendale.
 
@@ -57,7 +57,7 @@ Le funzionalità includono un profilo integrato che fornisce una singola vista d
 ![](../assets/do-not-localize/glass.png) [Ulteriori informazioni sulla gestione delle campagne](campaigns.md)
 
 
-### Connessioni ad Adobe Experience Platform {#connection-to-aep}
+### Connessioni a Adobe Experience Platform {#connection-to-aep}
 
 Adobe Campaign v8 supporta i connettori dati con Real-Time CDP e Adobe Experience Platform, in modo che le organizzazioni possano sfruttare il profilo cliente unificato in tempo reale.
 
