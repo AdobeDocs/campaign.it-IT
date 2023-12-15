@@ -6,18 +6,22 @@ feature: Push
 role: Admin, Developer
 level: Intermediate
 exl-id: 1a75f411-3f71-4114-b738-277820dc6138
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 9d0ddad6acf349a9498471af228640444565ed72
 workflow-type: tm+mt
-source-wordcount: '1659'
-ht-degree: 3%
+source-wordcount: '1631'
+ht-degree: 2%
 
 ---
 
 # Configurare il canale di notifica push {#push-notification-configuration}
 
-Prima di iniziare a inviare notifiche push con Adobe Campaign, è necessario assicurarsi che le configurazioni e le integrazioni siano attive nell’app mobile e per i tag in Adobe Experience Platform.
+Per inviare notifiche push con Adobe Campaign, devi prima configurare l’ambiente e l’app come descritto in questa pagina. In Adobe Campaign, il canale per l’invio di notifiche push è il canale app mobile.
 
-L’SDK di Adobe Experience Platform Mobile fornisce API di integrazione lato client per i dispositivi mobili tramite SDK compatibili con Android e iOS.
+>[!CAUTION]
+>
+>Alcune modifiche importanti al servizio Android Firebase Cloud Messaging (FCM) saranno rilasciate nel 2024 e potrebbero influire sull’implementazione di Adobe Campaign. Per supportare questa modifica, potrebbe essere necessario aggiornare la configurazione dei servizi di abbonamento per i messaggi push Android. Puoi già verificare ed eseguire azioni. [Ulteriori informazioni](../../technotes/upgrades/push-technote.md).
+
+Prima di iniziare a inviare notifiche push con Adobe Campaign, è necessario assicurarsi che le configurazioni e le integrazioni siano attive nell’app mobile e per i tag in Adobe Experience Platform. L’SDK di Adobe Experience Platform Mobile fornisce API di integrazione lato client per i dispositivi mobili tramite SDK compatibili con Android e iOS.
 
 Per configurare la tua app con gli SDK di Adobe Experience Platform Mobile, segui questi passaggi:
 
@@ -259,7 +263,7 @@ Per creare un&#39;app per dispositivi Android, effettua le seguenti operazioni:
 
 1. (facoltativo) Puoi arricchire il contenuto di un messaggio push con alcune **[!UICONTROL Application variables]** se necessario. Questi sono completamente personalizzabili e fanno parte del payload del messaggio inviato al dispositivo mobile.
 
-1. Fai clic su **[!UICONTROL Finish]**, quindi su **[!UICONTROL Save]**. L’applicazione Android è ora pronta per essere utilizzata in Campaign.
+1. Clic **[!UICONTROL Finish]** allora **[!UICONTROL Save]**. L’applicazione Android è ora pronta per essere utilizzata in Campaign.
 
 Di seguito sono riportati i nomi del payload FCM per personalizzare ulteriormente la notifica push:
 

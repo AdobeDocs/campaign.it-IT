@@ -1,22 +1,21 @@
 ---
 product: campaign
-title: Modifiche imminenti del canale di notifica push
-description: Modifiche imminenti del canale di notifica push
+title: Prossime modifiche del canale di notifica push
+description: Prossime modifiche del canale di notifica push
 feature: Push
 role: Admin
 level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="Applicabile anche a Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Applicabile a Campaign v8"
-hide: true
-hidefromtoc: true
-source-git-commit: 65b8d84e600e1814484fa81fb814475c0a8b9296
+exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
+source-git-commit: 9d0ddad6acf349a9498471af228640444565ed72
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 1%
+source-wordcount: '804'
+ht-degree: 3%
 
 ---
 
-# Modifiche imminenti del canale di notifica push {#push-upgrade}
+# Prossime modifiche del canale di notifica push {#push-upgrade}
 
 Puoi utilizzare Campaign per inviare notifiche push su dispositivi Android. Per eseguire questa operazione, Campaign si basa su servizi di abbonamento specifici. Alcune modifiche importanti al servizio Android Firebase Cloud Messaging (FCM) saranno rilasciate nel 2024 e potrebbero influire sull’implementazione di Adobe Campaign. Per supportare questa modifica, potrebbe essere necessario aggiornare la configurazione dei servizi di abbonamento per i messaggi push Android.
 
@@ -26,7 +25,7 @@ Come parte del continuo sforzo di Google per migliorare i suoi servizi, le API F
 
 Adobe Campaign Classic v7 e Adobe Campaign v8 supportano già le API più recenti per l’invio di messaggi di notifica push. Tuttavia, alcune implementazioni precedenti si basano ancora sulle API legacy. Queste implementazioni devono essere aggiornate.
 
-## Sei interessato da questo problema? {#fcm-impact}
+## Sei interessato? {#fcm-impact}
 
 Se l’implementazione corrente supporta i servizi di abbonamento che si connettono a FCM utilizzando le API legacy, sei interessato. Per evitare distrazioni di servizio, è necessario eseguire la migrazione alle API più recenti. In tal caso, i team di Adobi ti contatteranno.
 
@@ -102,4 +101,3 @@ Puoi eseguire le seguenti azioni:
 * Imposta il **[!UICONTROL Visibility]** livello della notifica a pubblico, privato o segreto.
 
 Per ulteriori informazioni su **[!UICONTROL HTTP v1 additional options]** e come compilare questi campi, consulta [Documentazione FCM](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification){target="_blank"}.
-

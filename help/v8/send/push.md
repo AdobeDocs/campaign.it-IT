@@ -5,9 +5,9 @@ feature: Push
 role: User
 level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 9d0ddad6acf349a9498471af228640444565ed72
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '866'
 ht-degree: 11%
 
 ---
@@ -17,6 +17,11 @@ ht-degree: 11%
 Le consegne tramite app mobile ti consentono di inviare notifiche ai dispositivi iOS e Android.
 
 Prima di iniziare a inviare notifiche push con Adobe Campaign, è necessario assicurarsi che le configurazioni e le integrazioni siano attive nell’app mobile e per i tag in Adobe Experience Platform. [Ulteriori informazioni sulla configurazione push.](push-settings.md)
+
+>[!CAUTION]
+>
+>Alcune modifiche importanti al servizio Android Firebase Cloud Messaging (FCM) saranno rilasciate nel 2024 e potrebbero influire sull’implementazione di Adobe Campaign. Per supportare questa modifica, potrebbe essere necessario aggiornare la configurazione dei servizi di abbonamento per i messaggi push Android. Puoi già verificare ed eseguire azioni. [Ulteriori informazioni](../../technotes/upgrades/push-technote.md).
+
 
 ## Creare la prima notifica push{#push-create}
 

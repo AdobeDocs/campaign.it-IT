@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;argomenti principali
 description: Centro risorse di Campaign v8
 title: Documentazione di prodotto di Adobe Campaign v8
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: 0f86b6303bd380f5079b38de88ee3d097e415695
+source-git-commit: 9d0ddad6acf349a9498471af228640444565ed72
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 5%
+source-wordcount: '348'
+ht-degree: 7%
 
 ---
 
@@ -18,24 +18,17 @@ Dai un’occhiata ai miglioramenti più recenti presenti nel prodotto e nella do
 
 >[!BEGINTABS]
 
+>[!TAB Modifiche imminenti del canale push]
+
+Alcune modifiche importanti al servizio Android Firebase Cloud Messaging (FCM) saranno rilasciate nel 2024 e potrebbero influire sull’implementazione di Adobe Campaign. Per supportare questa modifica, potrebbe essere necessario aggiornare la configurazione dei servizi di abbonamento per i messaggi push Android. Puoi già verificare ed eseguire azioni.
+
+[![immagine](assets/do-not-localize/learn-more-button.svg)](../technotes/upgrades/push-technote.md)
+
 >[!TAB Servizio di notifica push avanzato]
 
 Campaign v8.5.1 introduce il servizio di notifica push più recente, basato su un solido framework basato su una tecnologia all’avanguardia. Questo servizio è progettato per sbloccare nuovi livelli di scalabilità, garantendo che le notifiche possano raggiungere un pubblico più ampio con una perfetta efficienza. Con la nostra infrastruttura migliorata e i nostri processi ottimizzati, puoi aspettarti maggiore scalabilità e affidabilità, consentendoti di interagire e connettersi con gli utenti delle app mobili come mai prima d’ora. Questa funzionalità è disponibile solo per un gruppo selezionato di clienti (disponibilità limitata).
 
 [![immagine](assets/do-not-localize/learn-more-button.svg)](send/push-data-collection.md)
-
->[!TAB Throughput aumentato del canale mobile]
-
-Il nuovo servizio di notifica push mostra miglioramenti significativi nella velocità effettiva sia per Android push che per iOS push rispetto alla versione precedente (v8.4). Gli utenti potranno beneficiare di prestazioni notevolmente migliorate grazie al servizio aggiornato nella versione più recente (v8.5).
-
-* Notifiche push (Android): fino a **5x** più veloce
-* Notifiche push (iOS): fino a **2,2x** più veloce
-
-La velocità effettiva degli SMS è stata notevolmente migliorata grazie a una serie di ottimizzazioni, con conseguenti notevoli miglioramenti in termini di velocità ed efficienza per le comunicazioni SMS. Questi aggiornamenti hanno aumentato la velocità effettiva dalla versione precedente (v8.4) alla versione più recente (v8.5), includendo sia gli aggiornamenti di invio che quelli di feedback. Gli utenti possono ora usufruire dei vantaggi di questo servizio SMS avanzato.
-
-* Velocità effettiva SMS: fino a <strong>5x</strong> più veloce</li>
-
-Queste prestazioni di throughput massime sono state misurate da team di test Adobi, in condizioni di laboratorio.
 
 >[!ENDTABS]
 
