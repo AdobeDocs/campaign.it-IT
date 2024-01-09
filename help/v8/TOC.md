@@ -3,11 +3,11 @@ audience: end-user
 user-guide-title: Campaign v8
 title: Documentazione di Adobe Campaign v8
 description: Documentazione di Campaign v8
-breadcrumb-title: Panoramica di Campaign
-source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
+breadcrumb-title: Documentazione di Campaign v8
+source-git-commit: 24785675a2138e3ce9c806fb52ac29a6a18c6d31
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 90%
+source-wordcount: '557'
+ht-degree: 85%
 
 ---
 
@@ -157,7 +157,7 @@ ht-degree: 90%
 + Architettura e configurazione {#config}
    + Architettura di Campaign v8 {#architecture}
       + [Principi globali](architecture/general-architecture.md)
-      + [Architettura modelli](architecture/architecture.md)
+      + [Modelli di architettura](architecture/architecture.md)
       + [Distribuzione FDA di Campaign](architecture/fda-deployment.md)
       + Distribuzione aziendale (FFDA) {#ffda}
          + [Cos’è Campaign FFDA?](architecture/enterprise-deployment.md)
@@ -174,7 +174,7 @@ ht-degree: 90%
       + [Gestire le cartelle e le visualizzazioni](audiences/folders-and-views.md)
       + [Impostazioni e-mail](config/email-settings.md)
       + [Impostazioni dei messaggi transazionali](config/transactional-msg-settings.md)
-      + [Integrare gli SDK di Campaign con la tua app - PAGINA OBSOLETA](config/push-config.md)
+      + [Integrare gli SDK di Campaign con l’app - PAGINA OBSOLETA](config/push-config.md)
       + [Account esterni](config/external-accounts.md)
 + Risorse per sviluppatori {#developer}
    + [Modello dati di Campaign](dev/datamodel.md)
