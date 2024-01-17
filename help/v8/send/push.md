@@ -5,7 +5,7 @@ feature: Push
 role: User
 level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
-source-git-commit: 9d0ddad6acf349a9498471af228640444565ed72
+source-git-commit: 6d54f072ad0e67b435cd6e03433fa9ddd0794dea
 workflow-type: tm+mt
 source-wordcount: '866'
 ht-degree: 11%
@@ -27,7 +27,7 @@ Prima di iniziare a inviare notifiche push con Adobe Campaign, è necessario ass
 
 Questa sezione descrive gli elementi specifici per la consegna delle notifiche iOS e Android.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Nell&#39;ambito di una [Distribuzione aziendale (FFDA)](../architecture/enterprise-deployment.md), la registrazione mobile è ora **asincrono**. [Ulteriori informazioni](../architecture/staging.md)
 
