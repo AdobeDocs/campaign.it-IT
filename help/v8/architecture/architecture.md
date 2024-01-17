@@ -5,9 +5,9 @@ feature: Architecture, Deployment
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 06a505988579d38b4425643aaf85f5e4fa4d00b6
+source-git-commit: 86fa52c445b89227cfabb65e74627c5da7d3db1f
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1039'
 ht-degree: 10%
 
 ---
@@ -37,7 +37,7 @@ Sono disponibili due modelli di distribuzione: **Distribuzione FDA di Campaign**
 Nel suo [Distribuzione FDA](fda-deployment.md), [!DNL Adobe Campaign] v8 può essere connesso a [!DNL Snowflake] per accedere ai dati tramite la funzionalità Federated Data Access: puoi accedere ed elaborare dati e informazioni esterni memorizzati nel tuo [!DNL Snowflake] senza modificare la struttura dei dati di Adobe Campaign. PostgreSQL è il database primario ed è possibile utilizzare Snowflake come database secondario per estendere quindi il modello dati e archiviare i dati nel Snowflake. Successivamente, puoi eseguire ETL, segmentazione e rapporti su un set di dati di grandi dimensioni con prestazioni eccezionali.
 
 
-![](assets/P1-P3-architecture.png)
+![](assets/P1-P3-architecture.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ Nell&#39;ambito di una [Distribuzione aziendale (FFDA)](enterprise-deployment.md
 
 Campaign v8 Enterprise introduce il concetto di **Full Federated Data Access** (FFDA): adesso tutti i dati sono remoti, nel database cloud. Con questa nuova architettura, l’implementazione di Campaign v8 Enterprise (FFDA) semplifica la gestione dei dati, in quanto nel database cloud non è richiesto alcun indice. È sufficiente creare le tabelle, copiare i dati e iniziare. La tecnologia del database cloud non richiede una manutenzione specifica per garantire la qualità del servizio.
 
-![](assets/P4-architecture.png)
+![](assets/P4-architecture.png){zoomable=&quot;yes&quot;}
 
 
 ## Esecuzione della consegna divisa {#split}
