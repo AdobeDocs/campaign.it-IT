@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;argomenti principali
 description: Centro risorse di Campaign v8
 title: Documentazione di prodotto di Adobe Campaign v8
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: 9d0ddad6acf349a9498471af228640444565ed72
+source-git-commit: f04db53bee75c935bc8737eef93fa05ec6868ebc
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 7%
+source-wordcount: '363'
+ht-degree: 13%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 ## Novità
 
-Dai un’occhiata ai miglioramenti più recenti presenti nel prodotto e nella documentazione di Adobe Campaign v8. Per un elenco completo delle funzioni, dei miglioramenti e delle correzioni, consulta la [Note sulla versione](start/release-notes.md).
+Dai un’occhiata ai miglioramenti più recenti presenti nel prodotto e nella documentazione di Adobe Campaign v8. Per un elenco completo di funzionalità, miglioramenti e correzioni, consulta le [Note sulla versione](start/release-notes.md). Resta aggiornato sulle ultime modifiche apportate alla documentazione di visitando il [aggiornamenti della documentazione](start/documentation-updates.md) pagina.
 
 >[!BEGINTABS]
 
@@ -32,7 +32,7 @@ Campaign v8.5.1 introduce il servizio di notifica push più recente, basato su u
 
 >[!ENDTABS]
 
-## Inizia con le nozioni di base
+## Inizia dalle basi
 
 <table style="table-layout:fixed">
   <tr style="border: 0;">

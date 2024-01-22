@@ -5,10 +5,10 @@ feature: Direct Mail
 role: User
 level: Beginner
 exl-id: ff2be012-72f3-428d-a973-196fea7ec4ab
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: f04db53bee75c935bc8737eef93fa05ec6868ebc
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 13%
+source-wordcount: '387'
+ht-degree: 4%
 
 ---
 
@@ -22,29 +22,29 @@ I passaggi per generare il file sono i seguenti:
 
    Crea una consegna direct mailing in base al modello. Puoi duplicare e configurare i **[!UICONTROL Deliver by direct mail (paper)]** modello incorporato.
 
-   ![](../assets/do-not-localize/book.png) Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/creating-a-direct-mail-delivery.html){target="_blank"}
+   ![](../assets/do-not-localize/book.png) Ulteriori informazioni in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/creating-a-direct-mail-delivery.html){target="_blank"}
 
 1. Definire il pubblico
 
    I profili dei destinatari devono contenere almeno i propri nomi e indirizzi postali.
 
-   Gli indirizzi postali sono campi calcolati. Per impostazione predefinita, un indirizzo può contenere fino a sei righe: la prima contiene il nome e il cognome, le righe successive contengono l’indirizzo postale (strada, ecc.) e l’ultima riga contiene il codice postale o ZIP e la città o città.
+   Gli indirizzi postali sono campi calcolati. Per impostazione predefinita, un indirizzo può contenere fino a sei righe: la prima contiene il nome e il cognome, le righe successive contengono l’indirizzo postale (strada, ecc.) e l’ultima riga contiene il codice postale o ZIP e la città o città. La definizione del campo postalAddress predefinito calcolato può essere rivista nello schema nms:recipient.
 
-   Un indirizzo è considerato completo se il nome, il campo CAP e i campi città non sono vuoti.
+   Un indirizzo è considerato completo se il nome, il campo CAP e i campi città non sono vuoti. Tutti i destinatari con indirizzi incompleti saranno esclusi dalle consegne di direct mailing.
 
-   ![](../assets/do-not-localize/book.png) Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html){target="_blank"}
+   ![](../assets/do-not-localize/book.png) Ulteriori informazioni in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html){target="_blank"}
 
 1. Definire il contenuto del file
 
    Utilizza l’estrazione guidata per definire le informazioni (colonne) da esportare nel file di output.
 
-   ![](../assets/do-not-localize/book.png) Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/defining-the-direct-mail-content.html){target="_blank"}
+   ![](../assets/do-not-localize/book.png) Ulteriori informazioni in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/defining-the-direct-mail-content.html){target="_blank"}
 
 1. Convalidare la consegna
 
    Verificare il risultato dell&#39;analisi e il contenuto del file di output.
 
-   ![](../assets/do-not-localize/book.png) Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/validating.html){target="_blank"}
+   ![](../assets/do-not-localize/book.png) Ulteriori informazioni in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/validating.html){target="_blank"}
 
    Nel contesto di una campagna di marketing, alla data di estrazione viene creato il file di estrazione. Puoi visualizzare il contenuto del file estratto, approvarlo o modificare il formato e, se necessario, riavviare l’estrazione. Una volta approvato il file, è possibile inviare il messaggio di notifica al router. Per ulteriori informazioni, consulta [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html)
 
@@ -54,4 +54,4 @@ I passaggi per generare il file sono i seguenti:
 
    La conferma avvia l’estrazione dei dati nel file specificato.
 
-   Nel contesto di una campagna di marketing, quando tutte le approvazioni sono state concesse, i file di estrazione vengono creati tramite un flusso di lavoro speciale che, in una configurazione predefinita, si avvia automaticamente quando una consegna direct mailing è in attesa di estrazione. Per ulteriori informazioni, consulta [questa sezione](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=it)
+   Nel contesto di una campagna di marketing, quando tutte le approvazioni sono state concesse, i file di estrazione vengono creati tramite un flusso di lavoro speciale che, in una configurazione predefinita, si avvia automaticamente quando una consegna direct mailing è in attesa di estrazione. Ulteriori informazioni in [questa sezione](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=it)
