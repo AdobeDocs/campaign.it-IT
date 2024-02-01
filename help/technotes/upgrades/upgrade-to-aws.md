@@ -2,10 +2,10 @@
 title: Aggiornamento dell’infrastruttura di invio e-mail di Campaign
 description: Aggiornamento dell’infrastruttura di invio e-mail di Campaign
 exl-id: f01e38ad-490e-4389-af5e-87beef533eb0
-source-git-commit: 557a74dbfbd0af385cc5104801ce3ab91dd33a95
+source-git-commit: 68252db5ad53e2a37c76765cd35650f824101289
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 2%
+source-wordcount: '331'
+ht-degree: 1%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 Come parte del nostro impegno continuo per fornire un’esperienza utente all’avanguardia, stiamo aggiornando il nostro servizio di consegna e-mail.
 
-## Sei interessato da questo problema?{#aws-impact}
+## Sei interessato?{#aws-impact}
 
 Questa modifica interessa:
 
@@ -25,11 +25,9 @@ Questa modifica interessa:
 
 ## Quando avverrà l&#39;aggiornamento?{#aws-timeline}
 
-Gli aggiornamenti degli ambienti di sviluppo e di staging devono avere luogo in **Ottobre 2023**.
+Gli aggiornamenti degli ambienti di sviluppo e staging sono iniziati in **Ottobre 2023**.
 
-Stiamo pianificando la pianificazione degli aggiornamenti dell’ambiente di produzione a partire da **Gennaio 2024**.
-
-In qualità di cliente Campaign, riceverai una notifica aggiuntiva riguardante l’aggiornamento della produzione con almeno trenta (30) giorni di anticipo.
+Gli aggiornamenti degli ambienti di produzione sono iniziati in **Gennaio 2024**.
 
 ## Cosa aspettarsi?{#impact}
 
