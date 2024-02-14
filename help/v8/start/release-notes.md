@@ -5,7 +5,7 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 2dbe73df0cbc194ec6c239e13851395a0b94c991
+source-git-commit: 92fe7c41047aafd26cca70a547025a3eff73e398
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 17%
@@ -33,7 +33,7 @@ _14 febbraio 2024_
 
 * Adobe Campaign v8 ora si integra con **Adobe Experience Manager as a Cloud Service**, con possibilità di creare contenuti esclusivamente tramite l’interfaccia utente web di Adobe Campaign. [Ulteriori informazioni](../connect/ac-aem.md)
 
-* Ora puoi utilizzare il tuo **Libreria Adobe Experience Manager Assets** insieme alle risorse di Experience Cloud anche se il pacchetto Integrazione con Adobe Experience Cloud è installato nell’istanza di Adobe Campaign.[Ulteriori informazioni](../connect/ac-aem.md)
+* Ora puoi utilizzare il tuo **Libreria Adobe Experience Manager Assets** insieme alle risorse di Experience Cloud anche se il pacchetto Integrazione con Adobe Experience Cloud è installato nell’istanza di Adobe Campaign.[Ulteriori informazioni](../connect/ac-aem.md#assets-library)
 
 ### Miglioramenti generali {#improvements-8-6-1}
 
