@@ -5,9 +5,9 @@ feature: Experience Manager Integration
 role: Admin, User
 level: Beginner
 exl-id: e83893f7-a8be-48a3-a7a6-aced7b4d4f69
-source-git-commit: 92fe7c41047aafd26cca70a547025a3eff73e398
+source-git-commit: 2f8cee4522efb59782a568334fc1300fc39d559f
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ L’integrazione tra Adobe Campaign e Adobe Experience Manager consente di gesti
 
 ![](../assets/do-not-localize/book.png) [Ulteriori informazioni su Adobe Experience Manager in questo documento](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html#aem-and-adobe-campaign-integration-workflow)
 
-## Authoring con Adobe Experience Manager {#integrating-with-aem}
+## Importa contenuto da Adobe Experience Manager {#integrating-with-aem}
 
 ![](../assets/do-not-localize/speech.png)  In qualità di utente di Managed Cloud Service, [Adobe di contatto](../start/campaign-faq.md#support) per integrare Adobe Experience Manager con Campaign.
 
@@ -80,7 +80,13 @@ La newsletter è ora pronta e sincronizzata in Adobe Campaign.
 
 1. Seleziona la consegna AEM creata in precedenza in [!DNL Adobe Experience Manager] e confermare facendo clic su **[!UICONTROL Ok]**.
 
+   ![](assets/aem_authoring_11.png)
+
 1. Assicurati di fare clic su **[!UICONTROL Refresh content]** ogni volta che vengono apportate modifiche alla consegna dell’AEM.
+
+   ![](assets/aem_authoring_12.png)
+
+1. Per rimuovere il collegamento tra Experience Manager e Campaign, fai clic su **[!UICONTROL Desynchronize]**.
 
 L’e-mail è ora pronta per essere inviata al pubblico.
 
@@ -88,22 +94,42 @@ L’e-mail è ora pronta per essere inviata al pubblico.
 
 Puoi anche inserire direttamente le risorse dal tuo [!DNL Adobe Experience Manager Assets Library] durante la modifica di un’e-mail o di una pagina di destinazione in Adobe Campaign. Questa funzionalità è descritta in [Documentazione di Adobe Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=en).
 
-1. Carica le risorse nel tuo **Libreria Adobe Experience Manager Assets**. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=en#uploading-assets)
+**Da Adobe Experience Manager:**
+
+1. Accedi al tuo [!DNL Adobe Experience Manager] istanza di authoring e fai clic su Esperienza di Adobe nell’angolo superiore sinistro della pagina. Scegli **[!UICONTROL Assets]** `>` **[!UICONTROL Files]** dal menu.
+
+   ![](assets/aem_assets_1.png)
+
+1. Clic **Crea** allora **File** per importare la risorsa nel **Libreria Adobe Experience Manager Assets**. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=en#uploading-assets)
+
+   ![](assets/aem_assets_2.png)
+
+1. Se necessario, rinomina la risorsa e seleziona **Carica**.
+
+La risorsa è ora caricata nel tuo **Libreria Adobe Experience Manager Assets**.
+
+**Da Adobe Campaign:**
 
 1. In Adobe Campaign, crea una nuova consegna navigando nel **Campagne** , fare clic su **Consegne** e fai clic su **Crea** sopra l’elenco delle consegne esistenti.
+
+   ![](assets/aem_assets_3.png)
 
 1. Seleziona un **Modello di consegna**, quindi denomina la consegna.
 
 1. Definisci e personalizza il contenuto del messaggio. [Ulteriori informazioni](../send/email.md)
 
-1. Per utilizzare il **Libreria Adobe Experience Manager Assets**, accedere a **[!UICONTROL Properties]** della sua consegna di AEM e selezionare **[!UICONTROL Advanced]** scheda. Abilita **[!UICONTROL Use above AEM instance as shared asset library]** opzione.
+1. Per utilizzare il **Libreria Adobe Experience Manager Assets**, accedere a **[!UICONTROL Properties]** della sua consegna di AEM e selezionare **[!UICONTROL Advanced]** scheda.
+
+   Scegli il tuo **Account AEM** e abilita **[!UICONTROL Use above AEM instance as shared asset library]** opzione.
 
    ![](assets/aem_authoring_9.png)
 
 1. Dalla sezione **Immagine** , accedere al **[!UICONTROL Select a shared asset]** menu.
 
-   ![](assets/aem_authoring_10.png)
+   ![](assets/aem_assets_4.png)
 
-1. Nella finestra di selezione, selezionare un&#39;immagine dalla **Libreria Adobe Experience Manager Assets**, quindi conferma.
+1. Nella finestra di selezione, selezionare un&#39;immagine dalla **Libreria Adobe Experience Manager Assets**, quindi **Seleziona**.
 
-La consegna dell’e-mail è pronta. Ora puoi specificare il pubblico di destinazione, confermare la consegna e procedere con l’invio.
+   ![](assets/aem_assets_5.png)
+
+La risorsa viene ora caricata nella consegna e-mail. Ora puoi specificare il pubblico di destinazione, confermare la consegna e procedere con l’invio.
