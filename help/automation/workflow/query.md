@@ -5,10 +5,10 @@ description: Ulteriori informazioni sull’attività del flusso di lavoro Query
 feature: Workflows, Targeting Activity, Query Editor
 role: User, Data Engineer
 exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
-source-git-commit: 28742db06b9ca78a4e952fcb0e066aa5ec344416
+source-git-commit: 0191ca8c29813c448040fc887f98550c74197578
 workflow-type: tm+mt
-source-wordcount: '1545'
-ht-degree: 1%
+source-wordcount: '1553'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 Una query consente di selezionare una destinazione in base ai criteri. È possibile associare un codice di segmento al risultato della query e inserirvi dati aggiuntivi.
 Per ulteriori informazioni sugli esempi di query, consulta questa [questa sezione](querying-recipient-table.md).
 
-![](assets/query-activity.png)
+![](assets/query-activity.png){width="70%" align="center" zoomable="yes"}
 
 Per ulteriori informazioni sull’utilizzo e la gestione di dati aggiuntivi, consulta [Aggiungi dati](#adding-data).
 
@@ -35,15 +35,15 @@ Il **[!UICONTROL Edit query...]** Il collegamento ti consente di definire il tip
 
    Per ulteriori informazioni, consulta [Dimensioni di targeting e filtro](targeting-workflows.md#targeting-and-filtering-dimensions).
 
-   ![](assets/targeting-filtering-dimensions.png)
+   ![](assets/targeting-filtering-dimensions.png){width="70%" align="center" zoomable="yes"}
 
    Una query può essere basata sui dati della transizione in entrata, se necessario, selezionando **[!UICONTROL Temporary schema]** durante la scelta delle dimensioni di targeting e filtro.
 
-   ![](assets/query_temporary_table.png)
+   ![](assets/query_temporary_table.png){width="70%" align="center" zoomable="yes"}
 
 1. Definisci le popolazioni utilizzando la procedura guidata. I campi da immettere possono variare a seconda del tipo di destinazione. Puoi visualizzare in anteprima la popolazione target con i criteri correnti utilizzando **[!UICONTROL Preview]** scheda.
 
-   ![](assets/query-sample.png)
+   ![](assets/query-sample.png){width="70%" align="center" zoomable="yes"}
 
 1. Se hai selezionato **[!UICONTROL Filtering conditions]** al passaggio 1 o utilizzando **[!UICONTROL Filters]** > **[!UICONTROL Advanced filter...]** , sarà necessario aggiungere manualmente i criteri di filtro in un secondo momento.
 
@@ -59,11 +59,11 @@ Le colonne aggiuntive consentono di raccogliere informazioni aggiuntive sulla po
 
 Il **[!UICONTROL Add data...]** consente di selezionare i dati aggiuntivi da raccogliere.
 
-![](assets/wf_add_data_link.png)
+![](assets/wf_add_data_link.png){width="70%" align="center" zoomable="yes"}
 
 Per iniziare, seleziona il tipo di dati da aggiungere:
 
-![](assets/wf_add_data_1st_option.png)
+![](assets/wf_add_data_1st_option.png){width="70%" align="center" zoomable="yes"}
 
 * Seleziona **[!UICONTROL Data linked to the filtering dimension]** per selezionare i dati nel database di Adobe Campaign.
 * Seleziona **[!UICONTROL External data]** per aggiungere dati da un database esterno. Questa opzione è disponibile solo se hai acquistato **Federated Data Access** opzione. Per ulteriori informazioni, consulta [Accedere a un database esterno (FDA)](accessing-an-external-database--fda-.md).
@@ -75,11 +75,11 @@ Per aggiungere dati dal database di Adobe Campaign:
 
 1. Seleziona il tipo di dati da aggiungere. Possono essere dati appartenenti alla dimensione di filtro o dati memorizzati in tabelle collegate.
 
-   ![](assets/query_add_columns.png)
+   ![](assets/query_add_columns.png){width="70%" align="center" zoomable="yes"}
 
 1. Se i dati appartengono alla dimensione di filtro della query, selezionali semplicemente nell’elenco dei campi disponibili per visualizzarli nelle colonne di output.
 
-   ![](assets/wf_add_data_field_selection.png)
+   ![](assets/wf_add_data_field_selection.png){width="70%" align="center" zoomable="yes"}
 
    Puoi aggiungere:
 
@@ -93,7 +93,7 @@ Per aggiungere una raccolta di informazioni collegate a una popolazione target:
 1. Al primo passaggio della procedura guidata, seleziona **[!UICONTROL Data linked to the filtering dimension]** opzione:
 1. Seleziona la tabella contenente le informazioni da raccogliere e fai clic su **[!UICONTROL Next]**.
 
-   ![](assets/wf_add_data_linked_table.png)
+   ![](assets/wf_add_data_linked_table.png){width="70%" align="center" zoomable="yes"}
 
 1. Se necessario, specifica il numero di elementi della raccolta che desideri mantenere selezionando uno dei valori in **[!UICONTROL Data collected]** campo. Per impostazione predefinita, tutte le righe della raccolta vengono recuperate e quindi filtrate in base alle condizioni specificate al passaggio successivo.
 
@@ -108,11 +108,11 @@ Per aggiungere una raccolta di informazioni collegate a una popolazione target:
    * Se si sceglie di recuperare più righe (**[!UICONTROL Limit the line count]**) puoi specificare il numero di righe da raccogliere.
    * Se le colonne raccolte contengono aggregati, ad esempio il numero di errori dichiarati, la spesa media in un sito e così via. è possibile utilizzare **[!UICONTROL Aggregates]** valore.
 
-   ![](assets/query_add_collection_param.png)
+   ![](assets/query_add_collection_param.png){width="70%" align="center" zoomable="yes"}
 
 1. Specifica la sottoselezione della raccolta.
 
-   ![](assets/query_add_columns_collection_filter.png)
+   ![](assets/query_add_columns_collection_filter.png){width="70%" align="center" zoomable="yes"}
 
 1. Se hai selezionato **[!UICONTROL Limit the line count]** , definisci l’ordine in cui devono essere filtrati i dati raccolti. Quando il numero di righe raccolte è superiore al numero di righe che si è specificato di mantenere, l&#39;ordine di filtraggio consente di specificare quali righe mantenere.
 
@@ -133,20 +133,20 @@ Nell’esempio che segue, l’interrogazione mira a individuare gli uomini di et
    * Destinatari di età superiore a 18 anni.
    * Destinatari che vivono in Francia.
 
-   ![](assets/query_example.png)
+   ![](assets/query_example.png){width="70%" align="center" zoomable="yes"}
 
    È possibile visualizzare il codice SQL corrispondente alla combinazione di criteri:
 
-   ![](assets/query_example_sql.png)
+   ![](assets/query_example_sql.png){width="70%" align="center" zoomable="yes"}
 
 1. Per verificare che il criterio sia corretto, visualizza in anteprima i destinatari che corrispondono alla query nella scheda pertinente:
 
-   ![](assets/query_example_preview.png)
+   ![](assets/query_example_preview.png){width="70%" align="center" zoomable="yes"}
 
 1. Salva i filtri in modo da poterli riutilizzare in un secondo momento facendo clic su **[!UICONTROL Finish]** > **[!UICONTROL OK]**.
 1. Continua a modificare il flusso di lavoro aggiungendovi altre attività. Una volta avviato e completato il passaggio di query precedente, verrà visualizzato il numero di destinatari trovati. Potete visualizzare ulteriori dettagli utilizzando il menu a comparsa del mouse (fate clic con il pulsante destro del mouse sulla transizione > **[!UICONTROL Display the target...]**).
 
-   ![](assets/query_example_result.png)
+   ![](assets/query_example_result.png){width="70%" align="center" zoomable="yes"}
 
 ## Parametri di output {#output-parameters}
 
@@ -186,7 +186,7 @@ La sezione seguente fornisce le best practice per ottimizzare le query in esecuz
 
 Utilizza la dimensione di filtro della query invece di utilizzare l’operatore &quot;esiste come&quot;.
 
-![](assets/optimize-queries-filtering.png)
+![](assets/optimize-queries-filtering.png){width="70%" align="center" zoomable="yes"}
 
 Nelle query, le condizioni &quot;esiste come&quot; nei filtri non sono efficienti. Equivale a una sottoquery in SQL:
 
@@ -194,7 +194,7 @@ Nelle query, le condizioni &quot;esiste come&quot; nei filtri non sono efficient
 
 La best practice prevede invece di utilizzare la dimensione di filtro della query:
 
-![](assets/optimize-queries-filtering2.png)
+![](assets/optimize-queries-filtering2.png){width="70%" align="center" zoomable="yes"}
 
 L&#39;equivalente della dimensione di filtro in SQL è l&#39;inner join:
 
