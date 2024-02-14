@@ -5,9 +5,9 @@ description: Approvazione locale
 feature: Workflows, Approvals
 role: User
 exl-id: 172b6827-ddfc-4c6e-87c9-eb49e73ab3ab
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '646'
 ht-degree: 3%
 
 ---

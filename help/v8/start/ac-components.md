@@ -5,9 +5,9 @@ feature: Overview, Architecture, Configuration
 role: User
 level: Beginner
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: 8f58db2b00f2fc98afd737f20411f829dd24c78a
+source-git-commit: 79d916c4d65c0c55ec20f2f5850fec40fe4e99a3
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
@@ -24,21 +24,7 @@ Di seguito sono descritti i componenti e l’architettura globale di Adobe Campa
 
 ![](assets/do-not-localize//ac-components.png)
 
-### Livello di presentazione{#presentation-layer}
 
-Puoi accedere ad Adobe Campaign tramite un client avanzato, un thin client o un’integrazione API.
-
-* Client avanzato
-
-  Il client Campaign Rich è un’applicazione nativa che comunica con il server applicazioni Adobe Campaign tramite protocolli Internet standard, come SOAP e HTTP. [Ulteriori informazioni sulla console client di Campaign](../start/connect.md).
-
-* Thin client
-
-  Le funzionalità di accesso web di Adobe Campaign ti consentono di accedere a un sottoinsieme di funzionalità di Campaign con un browser web, utilizzando un’interfaccia utente di HTML. Utilizza questa interfaccia web per accedere ai rapporti, controllare e convalidare i messaggi, accedere alle dashboard di monitoraggio e altro ancora.  [Ulteriori informazioni su Campaign Web Access](../start/connect.md).
-
-* Applicazioni esterne con API
-
-  In alcuni casi, il sistema può essere richiamato da applicazioni esterne utilizzando le API dei servizi web esposte tramite il protocollo SOAP. [Ulteriori informazioni sulle API di Campaign](../dev/api.md).
 
 ### Livello di persistenza{#persistance-layer}
 

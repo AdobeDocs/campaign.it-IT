@@ -1,11 +1,11 @@
 ---
 product: campaign
-title: Console client a 32 bit obsoleta
-description: Console client a 32 bit obsoleta
-exl-id: eaa20b88-4ba2-4146-b6bd-1eada34ecc53
-source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
+title: deprecazione a 32 bit della console client
+description: deprecazione a 32 bit della console client
+exl-id: 9411e38a-5783-439c-ad54-f33bd374f2b8
+source-git-commit: 9df599ec0a898a1af16cb92d334d50375fde86ba
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '338'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 La versione a 32 bit della console client è obsoleta nella versione 8.5. È disponibile una nuova versione a 64 bit della console client per un aggiornamento senza soluzione di continuità.
 
-A partire dalla versione 8.6, Campaign v8 non supporterà più i sistemi operativi a 32 bit, inclusi gli aggiornamenti di prodotto e sicurezza. L’Adobe consiglia vivamente di mantenere aggiornati gli aggiornamenti di sicurezza.
+A partire dalla versione 8.6, Campaign non supporterà più i sistemi operativi a 32 bit, inclusi gli aggiornamenti di prodotto e sicurezza. L’Adobe consiglia vivamente di mantenere aggiornati gli aggiornamenti di sicurezza.
 
 Questa modifica interessa solo gli utenti che dispongono della versione a 32 bit di Windows 8 o 10.
 
@@ -36,7 +36,7 @@ L&#39;aggiornamento è senza soluzione di continuità. È sufficiente installare
 
 +++La versione a 64 bit della console client di Campaign v8 è compatibile con i computer a 32 bit?
 
-No. La versione a 64 bit della console client di Campaign v8 supporta solo i computer a 64 bit.
+No. La versione a 64 bit della console client di Campaign v8 supporta solo computer a 64 bit.
 
 +++
 

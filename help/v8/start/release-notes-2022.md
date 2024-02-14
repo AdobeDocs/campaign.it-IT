@@ -5,9 +5,9 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
-source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
+source-git-commit: 43994eb29af2b85272de0ce4dc34cc66aba2e04a
 workflow-type: tm+mt
-source-wordcount: '1847'
+source-wordcount: '1919'
 ht-degree: 91%
 
 ---
@@ -20,7 +20,7 @@ In questa pagina sono elencate le nuove funzionalità, i miglioramenti e le corr
 
 _28 ottobre 2022_
 
-**Miglioramenti**
+**Correzioni**
 
 * È stato risolto un problema che impediva l’aggiornamento corretto dell’indicatore di consegna riuscita quando si utilizzava l’MTA avanzato di Adobe Campaign. (NEO-50462)
 
@@ -84,7 +84,7 @@ Per ottimizzare la sicurezza, i token di sicurezza sono stati rimossi dagli URL 
 
 **Miglioramenti**
 
-* Dopo la fine del ciclo di vita di Internet Explorer 11, il motore di rendering HTML nella console utilizza ora **Microsoft Edge Chromium**. Inoltre, l&#39;installazione di **Microsoft Edge WebView 2** Il runtime è ora necessario per qualsiasi installazione della console client.
+* Dopo la fine del ciclo di vita di Internet Explorer 11, il motore di rendering HTML nella console utilizza ora **Microsoft Edge Chromium**. Inoltre, **Microsoft Edge WebView2 Runtime** è ora necessario per tute le installazioni della console client.
 * È stata migliorata l’esecuzione dei flussi di lavoro con elevata disponibilità, che consente di eseguire flussi di lavoro simultanei tra contenitori diversi per evitare sia la perdita del servizio del flusso di lavoro sia i relativi errori di esecuzione. **Nota**: questa nuova funzionalità viene rilasciata solo in Disponibilità limitata a un set di clienti.
 * Le richieste di privacy vengono ora eseguite in batch per uno specifico spazio dei nomi di privacy. Questo miglioramento aumenta il tempo di esecuzione per le richieste di eliminazione di dati relativi a GDPR e privacy.
 
@@ -94,7 +94,7 @@ Per ottimizzare la sicurezza, i token di sicurezza sono stati rimossi dagli URL 
 
 Consulta la [Matrice di compatibilità di Campaign](compatibility-matrix.md).
 
-**Patch**
+**Correzioni**
 
 * È stato risolto un problema che interessava gli aggiornamenti dello stato del registro di consegna sull’istanza MID quando l’opzione FeatureFlag_GZIP_Compression era abilitata. (NEO-49183)
 * È stato risolto un problema che avrebbe potuto bloccare le consegne sullo stato **In sospeso** anche se era stata raggiunta la data di contatto. (NEO-48079)
@@ -121,11 +121,11 @@ Consulta la [Matrice di compatibilità di Campaign](compatibility-matrix.md).
 
 >[!CAUTION]
 >
-> L’aggiornamento della console client è obbligatorio. Scopri come aggiornare la console client in questa [pagina](../start/connect.md#download-ac-console).
+> aggiornamento della console client obbligatorio. Scopri come aggiornare la console client in questo [pagina](../start/connect.md#download-ac-console).
 
 _7 ottobre 2022_
 
-**Miglioramenti**
+**Correzioni**
 
 * È stato risolto un problema che interessava gli aggiornamenti dello stato del registro di consegna sull’istanza MID quando l’opzione FeatureFlag_GZIP_Compression era abilitata. (NEO-49183)
 * Il flusso di lavoro tecnico per la **pulizia del database** ora gestisce anche gli schemi di staging personalizzati. (NEO-48974)
@@ -232,7 +232,7 @@ Consulta la [Matrice di compatibilità di Campaign](compatibility-matrix.md).
 * Il numero di connessioni predefinite per il processo web è stato aumentato da 50 a 150.
 * Campaign viene fornito con un set di nuovi guardrail per impedire l’inserimento di chiavi duplicate nel database di Snowflake. [Maggiori informazioni](../architecture/keys.md)
 
-**Patch**
+**Correzioni**
 
 * È stato risolto un problema che si verificava durante l’utilizzo di seed e gruppi di controllo nella stessa consegna ricorrente. (NEO-41197)
 * È stato risolto un problema su FFDA che causava il blocco dell’invio di e-mail per tutti i destinatari appartenenti alla stessa deliveryPart durante il processo di invio (fino a 256) quando i blocchi di personalizzazione contenevano uno dei seguenti caratteri: `' & < > "`. Questi caratteri ora sono supportati nei blocchi di personalizzazione (ad esempio: nome=“Brian O&#39;Neil”). (NEO-43184)
@@ -243,7 +243,7 @@ Consulta la [Matrice di compatibilità di Campaign](compatibility-matrix.md).
 
 _2 febbraio 2022_
 
-**Patch**
+**Correzioni**
 
 * È stato risolto un problema che causava un errore nella preparazione della consegna se veniva raggiunto il numero massimo di messaggi, definito nella regola di tipologia.
 * È stato risolto un problema che si verificava durante la configurazione del connettore Adobe Analytics se l’indirizzo e-mail conteneva un carattere “s”.

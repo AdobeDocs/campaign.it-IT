@@ -5,21 +5,21 @@ feature: Reporting
 role: User
 level: Beginner
 exl-id: b63e6905-3bd4-4de4-9e7e-7638e5fc1192
-source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '1115'
-ht-degree: 2%
+source-wordcount: '1108'
+ht-degree: 1%
 
 ---
 
 # Rapporti incorporati di Adobe Campaign {#ootb-reports}
 
-Questa pagina fornisce l’elenco dei rapporti incorporati di Adobe Campaign, il loro contenuto e il loro contesto. Adobe Campaign fornisce una serie di rapporti incorporati, accessibili tramite Client Console o un browser Internet.
+Questa pagina fornisce l’elenco dei rapporti incorporati di Adobe Campaign, il loro contenuto e il loro contesto. Adobe Campaign fornisce una serie di rapporti incorporati, accessibili tramite la console client o un browser Internet.
 
 Sono disponibili i seguenti tipi di rapporto:
 
 * Report sull&#39;intera piattaforma. [Ulteriori informazioni](global-reports.md).
-* Rapporti sulle consegne. [Ulteriori informazioni](delivery-reports.md).
+* Rapporti di consegna. [Ulteriori informazioni](delivery-reports.md).
 
 Puoi accedere ai rapporti incorporati dalla pagina Home di Campaign, dalla dashboard dei rapporti dedicati o dall’elenco di consegna. Il modo in cui il rapporto viene visualizzato nell’interfaccia utente dipende dal suo contesto.
 
@@ -55,7 +55,7 @@ Il principio è lo stesso per elenchi, servizi, offerte, ecc. come mostrato di s
 ![](assets/reporting-on-offer.png)
 
 
-## Report sulle consegne {#reports-on-deliveries}
+## Rapporti sulle consegne {#reports-on-deliveries}
 
 I rapporti incorporati forniti da Adobe Campaign sono disponibili nella tabella seguente.
 

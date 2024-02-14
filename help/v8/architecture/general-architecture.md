@@ -5,10 +5,10 @@ feature: Architecture, Deployment
 role: Admin, Developer
 level: Beginner
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
+source-git-commit: 79d916c4d65c0c55ec20f2f5850fec40fe4e99a3
 workflow-type: tm+mt
 source-wordcount: '1136'
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 
@@ -30,9 +30,9 @@ La tipica distribuzione della soluzione Adobe Campaign è costituita dai seguent
 
 ## Ambiente client personalizzato {#client-env}
 
-È possibile accedere all’applicazione in diversi modi: Rich client, Thin client o integrazione API.
+È possibile accedere all’applicazione in diversi modi: tramite interfaccia utente web, console client (rich client), accesso web (thin client) o integrazione API.
 
-![](../assets/do-not-localize/glass.png) [Ulteriori informazioni sul livello di presentazione di Campaign](../start/ac-components.md).
+![](../assets/do-not-localize/glass.png) [Ulteriori informazioni sull’interfaccia utente di Campaign](../start/campaign-ui.md).
 
 ## Ambiente di sviluppo {#dev-env}
 

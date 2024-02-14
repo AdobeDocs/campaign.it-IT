@@ -5,14 +5,14 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: 878b5963-100c-4dd7-97a0-c59a62c493b1
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: 79d916c4d65c0c55ec20f2f5850fec40fe4e99a3
 workflow-type: tm+mt
-source-wordcount: '951'
-ht-degree: 1%
+source-wordcount: '928'
+ht-degree: 0%
 
 ---
 
-# Creare e gestire i profili di test {#create-test-profiles}
+# Creare e gestire profili di test {#create-test-profiles}
 
 ## Che cos&#39;è un indirizzo di seed? {#gs-seeds}
 
@@ -20,7 +20,7 @@ I profili di test vengono creati come indirizzi di seed. Vengono utilizzati per 
 
 Gli indirizzi seed presentano i seguenti vantaggi:
 
-* Sostituzione casuale di campi con dati ottenuti dai profili dei destinatari: ciò ti consente di inserire solo l’indirizzo e-mail, ad esempio nella sezione dell’indirizzo di seed, e di consentire a Campaign di compilare automaticamente gli altri campi del profilo. Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case--selecting-seed-addresses-on-criteria.html?lang=en){target="_blank"}.
+* Sostituzione casuale di campi con dati ottenuti dai profili dei destinatari: ciò ti consente di inserire solo l’indirizzo e-mail, ad esempio nella sezione dell’indirizzo di seed, e di consentire a Campaign di compilare automaticamente gli altri campi del profilo. Ulteriori informazioni in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case--selecting-seed-addresses-on-criteria.html){target="_blank"}.
 * Quando si utilizza un flusso di lavoro con funzionalità di gestione dati, i dati aggiuntivi elaborati nelle consegne possono essere inseriti a livello di indirizzo di seed per forzare i valori: in questo modo si evita la sostituzione casuale dei valori.
 * Gli indirizzi di seed vengono automaticamente esclusi dai rapporti sulle seguenti statistiche di consegna: **[!UICONTROL Clicks]**, **[!UICONTROL Opens]**, **[!UICONTROL Unsubscriptions]**.
 

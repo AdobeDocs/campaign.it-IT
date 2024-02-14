@@ -5,10 +5,10 @@ feature: Permissions
 role: User, Admin
 level: Beginner
 exl-id: 3d61abac-03df-42d3-a950-37e41a5a7756
-source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 3%
+source-wordcount: '515'
+ht-degree: 1%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 3%
 Adobe Campaign ti consente di definire e gestire i diritti assegnati agli utenti. Si tratta di una serie di diritti e restrizioni che autorizzano o negano:
 
 * Accesso a determinate funzionalità
-* Accedere a determinati dati
+* Accesso a determinati dati
 * Accesso a determinate azioni (creazione, modifica, eliminazione)
 
 Queste autorizzazioni vengono definite combinando le autorizzazioni del gruppo di operatori, i diritti denominati e le autorizzazioni per le cartelle.
@@ -29,7 +29,7 @@ In Adobe Campaign, gli utenti sono **operatori** e **gruppi di operatori** rappr
 
 ## Passaggi chiave per concedere le autorizzazioni{#key-steps-permissions}
 
-In qualità di amministratore di prodotto, puoi concedere autorizzazioni agli utenti della tua organizzazione. Le autorizzazioni vengono concesse tramite Adobe Admin Console e la console client di Campaign. Gli utenti accedono ad Adobe Campaign con il proprio Adobe ID. Scopri come connettersi ad Adobe Campaign in [questa pagina](connect.md).
+In qualità di amministratore di prodotto, puoi concedere autorizzazioni agli utenti della tua organizzazione. Le autorizzazioni vengono concesse tramite la console client di Adobe Admin Console e Campaign. Gli utenti accedono ad Adobe Campaign con il proprio Adobe ID. Scopri come connettersi ad Adobe Campaign in [questa pagina](connect.md).
 
 I passaggi chiave sono i seguenti:
 
@@ -52,7 +52,7 @@ Scopri come aggiungere utenti in [questa pagina](manage-permissions.md#add-users
 
 I profili di prodotto sono gruppi di prodotti e servizi che puoi assegnare agli utenti. In Adobe Experience Cloud, le autorizzazioni si basano sul profilo di un prodotto, non sull’utente. Tuttavia, puoi delegare i diritti di amministratore a utenti specifici.
 
-Nell’Admin Console, ogni Adobe Experience Cloud **profilo prodotto** per Campaign è associato a un **gruppo di operatori** nella console client di Campaign.
+Nell’Admin Console, ogni Adobe Experience Cloud **profilo prodotto** per Campaign è associato a un **gruppo di operatori** nella console del client Campaign.
 
 Scopri come creare e assegnare profili di prodotto in [questa pagina](manage-permissions.md#create-a-product-profile).
 

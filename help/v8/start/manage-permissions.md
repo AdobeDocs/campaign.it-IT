@@ -5,9 +5,9 @@ feature: Permissions
 role: User, Admin
 level: Beginner
 exl-id: 90154f84-b6a7-407c-93b7-9731dc94d9de
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1618'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Per aggiungere un utente, effettua le seguenti operazioni:
 
    Scopri come creare gruppi di utenti in [questa sezione](#user-groups)
 
-1. Fai clic su **Salva**. L’utente viene aggiunto e viene visualizzato nell’elenco Utenti. Se assegni un ruolo di amministratore o un profilo di prodotto agli utenti, questi riceveranno una notifica e-mail. Gli utenti devono seguire il link per completare il loro profilo.
+1. Clic **Salva**. L’utente viene aggiunto e viene visualizzato nell’elenco Utenti. Se assegni un ruolo di amministratore o un profilo di prodotto agli utenti, questi riceveranno una notifica e-mail. Gli utenti devono seguire il link per completare il loro profilo.
 
 Per ulteriori informazioni sulla creazione di utenti, consulta l’Admin Console in [questa pagina](https://helpx.adobe.com/ie/enterprise/using/manage-users-individually.html){target="_blank"}.
 
@@ -161,7 +161,7 @@ Questi profili di prodotto corrispondono a Campaign **gruppi di operatori**. I g
    * Visualizza **[!UICONTROL Live]** ambienti.
    * Configurare le funzioni di amministrazione (spazi e filtri predefiniti).
    * Crea e aggiorna le categorie.
-   * Crea offerte.
+   * Creare le offerte.
    * Configurare l’idoneità per le offerte.
    * Approvare le offerte.
 

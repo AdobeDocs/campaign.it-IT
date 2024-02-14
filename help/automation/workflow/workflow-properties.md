@@ -4,10 +4,10 @@ title: Proprietà del flusso di lavoro
 description: Ulteriori informazioni sulle proprietà del flusso di lavoro di Campaign
 feature: Workflows
 exl-id: 7fef434e-f6bd-46a4-9ec2-0182f081c928
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 40%
+source-wordcount: '546'
+ht-degree: 39%
 
 ---
 
@@ -21,7 +21,7 @@ Il **[!UICONTROL Execution]** scheda di **[!UICONTROL Properties]** La finestra 
 
 ![](assets/wf_execution_tab.png)
 
-### Attività Scheduler {#scheduler}
+### Modulo di pianificazione {#scheduler}
 
 Questa sezione viene visualizzata solo nei flussi di lavoro delle campagne.
 
@@ -47,7 +47,7 @@ Questa sezione viene visualizzata solo nei flussi di lavoro delle campagne.
 
   Questa funzionalità è riservata agli utenti avanzati. Riguarda i flussi di lavoro che contengono attività di targeting (query, unione, intersezione, ecc.). Quando questa opzione è selezionata, le query SQL inviate al database durante l’esecuzione del flusso di lavoro vengono visualizzate in Adobe Campaign: potrai quindi analizzarle per ottimizzare le query o diagnosticare eventuali problemi.
 
-  Le query vengono visualizzate in un **[!UICONTROL SQL logs]** che viene aggiunta al flusso di lavoro (ad eccezione dei flussi di lavoro della campagna) e alla scheda **[!UICONTROL Properties]** quando l’opzione è abilitata. La scheda **[!UICONTROL Audit]** include anche le query SQL.
+  Le query vengono visualizzate in un **[!UICONTROL SQL logs]** che viene aggiunta al flusso di lavoro (ad eccezione dei flussi di lavoro della campagna) e alla scheda **[!UICONTROL Properties]** quando l’opzione è abilitata. Il **[!UICONTROL Audit]** La scheda include anche le query SQL.
 
   ![](assets/wf_tab_log_sql.png)
 
@@ -76,6 +76,6 @@ Questa sezione viene visualizzata solo nei flussi di lavoro delle campagne.
 
   ![](assets/wf-properties_select-supervisors.png)
 
-  Il **[!UICONTROL Notification to a workflow supervisor]** il modello predefinito include un collegamento per accedere ad Adobe Campaign Client Console tramite il Web, in modo che il destinatario possa occuparsi del problema una volta effettuato l’accesso.
+  Il **[!UICONTROL Notification to a workflow supervisor]** il modello predefinito include un collegamento per accedere alla console client di Adobe Campaign tramite il web, in modo che il destinatario possa occuparsi del problema una volta effettuato l’accesso.
 
   Per creare un modello personalizzato, vai a **[!UICONTROL Administration>Campaign management>Technical deliveries and templates]**.

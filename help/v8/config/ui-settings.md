@@ -6,10 +6,10 @@ feature: Application Settings
 role: Admin, Developer
 level: Beginner
 exl-id: 9fa6fc42-45be-41db-9b4a-19b3b0c40dcd
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '1846'
-ht-degree: 1%
+source-wordcount: '1848'
+ht-degree: 0%
 
 ---
 
@@ -146,7 +146,7 @@ Gli elenchi possono contenere una grande quantità di dati. Puoi ordinare questi
 
 Fai clic sull’intestazione della colonna per applicare un ordinamento crescente o decrescente oppure per annullare l’ordinamento dei dati. Lo stato e l’ordinamento attivi sono indicati da una freccia blu prima dell’etichetta della colonna. Un trattino rosso prima dell’etichetta della colonna indica che l’ordinamento viene applicato ai dati indicizzati dal database. Questo metodo di ordinamento viene utilizzato per ottimizzare i processi di ordinamento.
 
-È inoltre possibile configurare criteri di ordinamento o combinare criteri di ordinamento. A tale scopo, segui la procedura indicata di seguito:
+È inoltre possibile configurare criteri di ordinamento o combinare criteri di ordinamento. A questo scopo, segui la procedura indicata di seguito:
 
 1. **[!UICONTROL Configure list]** in basso e a destra dell&#39;elenco.
 1. Nella finestra di configurazione dell’elenco, fai clic su **[!UICONTROL Sorting]** scheda.

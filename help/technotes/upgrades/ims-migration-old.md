@@ -4,10 +4,10 @@ description: Scopri come migrare gli operatori tecnici di Campaign all’account
 exl-id: 63008b58-4384-4d2b-864a-57f11d701c01
 hide: true
 hidefromtoc: true
-source-git-commit: 9f93057d2d729d4251d914426488f46b6ef24bbb
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 1%
+source-wordcount: '861'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ Ulteriori informazioni sul nuovo processo di autenticazione server-to-server in 
 Questa modifica è applicabile a partire da Campaign v8.5 e sarà **obbligatorio** avvio di Campaign v8.6.
 
 
-## Sei interessato da questo problema?{#ims-impacts}
+## Sei interessato?{#ims-impacts}
 
 Se utilizzi le API di Campaign, devi migrare gli operatori tecnici alla console Adobe Developer come descritto di seguito.
 
@@ -80,7 +80,7 @@ Questo passaggio è necessario solo se per questo operatore sono stati definiti 
 Ora devi aggiornare l’operatore tecnico appena creato nella console client di Adobe Campaign. È necessario applicare al nuovo operatore tecnico le autorizzazioni esistenti per la cartella dell’operatore tecnico.
 Per aggiornare questo operatore, effettua le seguenti operazioni:
 
-1. Dall’Explorer della console client di Campaign, passa alla **Amministrazione > Gestione degli accessi > Operatori**.
+1. Da Esplora console client di Campaign, passa alla **Amministrazione > Gestione degli accessi > Operatori**.
 1. Accedi all’operatore tecnico esistente utilizzato per le API.
 1. Individua le autorizzazioni della cartella e controlla i diritti.
 1. Applica le stesse autorizzazioni all’operatore tecnico appena creato. L’e-mail di questo operatore è **E-mail account tecnico** valore copiato in precedenza.
@@ -100,7 +100,7 @@ Per aggiornare questo operatore, effettua le seguenti operazioni:
 
 To update the technical operator authentication mode to IMS, follow these steps:
 
-1. From Campaign Client Console explorer, browse to the **Administration > Access Management > Operators**.
+1. From Campaign client console explorer, browse to the **Administration > Access Management > Operators**.
 1. Edit the existing technical operator used for APIs.
 1. Replace the **Name (login)** of this technical operator by the technical account email retrieved earlier.
 1. Browse to the **Edit** button on the top left beside **File**, and select **Edit the XML source**.

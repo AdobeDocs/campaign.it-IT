@@ -5,9 +5,9 @@ description: Scopri come gestire le approvazioni delle campagne di marketing
 feature: Approvals, Campaigns
 role: User
 exl-id: 03be5058-436e-4de9-99a7-91d799aa17f6
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '2280'
+source-wordcount: '2281'
 ht-degree: 1%
 
 ---
@@ -90,7 +90,7 @@ Se è definito un elenco di revisori, un processo viene approvato quando un revi
 
 ## Rivedere e approvare le consegne {#review-and-approve-deliveries}
 
-Per ogni campagna puoi approvare il target di consegna, [contenuto della consegna](#approving-content) e i costi. Gli operatori Adobe Campaign incaricati dell’approvazione possono ricevere una notifica tramite e-mail e accettare o rifiutare l’approvazione dalla console client o tramite una connessione web. [Ulteriori informazioni](#approving-processes).
+Per ogni campagna puoi approvare il target di consegna, [contenuto della consegna](#approving-content) e i costi. Gli operatori Adobe Campaign incaricati dell’approvazione possono ricevere una notifica tramite e-mail e accettare o rifiutare l’approvazione dalla console client o tramite un browser web. [Ulteriori informazioni](#approving-processes).
 
 Per le consegne di direct mailing, gli operatori Adobe Campaign possono visualizzare il file di estrazione prima di inviarlo al router, e se necessario possono modificare il formato e riavviare l’estrazione. [Ulteriori informazioni](#approve-an-extraction-file).
 
@@ -103,7 +103,7 @@ Al termine di queste fasi di convalida, la consegna può essere avviata. [Ulteri
 
 ### Passaggi per approvare una consegna {#approving-processes}
 
-Le fasi che richiedono l’approvazione vengono visualizzate nel dashboard della campagna (tramite la console client o l’interfaccia web). Vengono inoltre visualizzati nella tabella di tracciamento della consegna e nel dashboard della consegna.
+I passaggi che richiedono l’approvazione vengono visualizzati nel dashboard della campagna (tramite la console client o un browser web). Vengono inoltre visualizzati nella tabella di tracciamento della consegna e nel dashboard della consegna.
 
 ![](assets/delivery-approval-actions.png)
 
@@ -165,7 +165,7 @@ Per ogni consegna nella campagna, puoi approvare i seguenti processi:
 
    * tramite l’e-mail di notifica: l’e-mail di notifica contiene un collegamento alle bozze già inviate ed eventualmente un rendering del messaggio per i vari webmail se il **Recapito messaggi** il componente aggiuntivo è abilitato per questa istanza.
 
-   * tramite la console client o l’interfaccia web, il tracciamento della consegna, il dashboard di consegna o il dashboard della campagna. Questo dashboard della campagna consente di visualizzare l’elenco delle bozze inviate facendo clic sulla scheda **[!UICONTROL Inbox rendering...]** collegamento. Per visualizzarne il contenuto, fai clic su **[!UICONTROL Detail]** a destra dell’elenco.
+   * tramite la console client o un browser web, il tracciamento della consegna, il dashboard di consegna o il dashboard della campagna. Questo dashboard della campagna consente di visualizzare l’elenco delle bozze inviate facendo clic sulla scheda **[!UICONTROL Inbox rendering...]** collegamento. Per visualizzarne il contenuto, fai clic su **[!UICONTROL Detail]** a destra dell’elenco.
 
 1. Alla persona responsabile della campagna viene inviata un’e-mail di notifica per informarla se il contenuto è stato approvato o meno. Il responsabile della campagna può riavviare il ciclo di approvazione dei contenuti in qualsiasi momento. A tale scopo, fai clic sul collegamento **[!UICONTROL Content status]** riga del dashboard della campagna (a livello di consegna), quindi fai clic su **[!UICONTROL Reset content approval to submit it again]**.
 
@@ -199,7 +199,7 @@ Questa opzione consente di definire un operatore esterno incaricato di approvare
 1. Il gestore di contenuti esterno riceve un’e-mail di notifica che informa che il contenuto è stato approvato e richiede l’approvazione esterna.
 1. L’e-mail di notifica contiene collegamenti alle bozze inviate, che consentono di visualizzare il rendering della consegna, e un pulsante per approvare o rifiutare il contenuto della consegna.
 
-Questi collegamenti sono disponibili solo se sono state inviate una o più bozze. In caso contrario, il rendering della consegna è disponibile solo tramite la console client o l’interfaccia web.
+Questi collegamenti sono disponibili solo se sono state inviate una o più bozze. In caso contrario, il rendering della consegna è disponibile solo tramite la console client o un browser web.
 
 ### Approvare un file di estrazione {#approve-an-extraction-file}
 
@@ -219,7 +219,7 @@ I processi possono essere approvati nel dashboard della campagna, nella scheda d
 
 ### Approva nel dashboard {#approval-via-the-dashboard}
 
-Per approvare un processo tramite la console client o l’interfaccia web, fai clic sul collegamento appropriato nel dashboard della campagna.
+Per approvare un processo tramite la console client o un browser web, fai clic sul collegamento appropriato nel dashboard della campagna.
 
 Ad esempio, una volta eseguita l’analisi della consegna:
 
@@ -249,7 +249,7 @@ Per approvare un processo da [messaggio di notifica](#notifications):
 1. Accedi ad Adobe Campaign.
 1. Controllare le informazioni da approvare
 1. Seleziona **[!UICONTROL Accept]** o **[!UICONTROL Reject]** e inserisci un commento, se necessario.
-1. Convalidare. La scelta e il commento vengono visualizzati nei registri di convalida.
+1. Convalida. La scelta e il commento vengono visualizzati nei registri di convalida.
 
 >[!NOTE]
 >

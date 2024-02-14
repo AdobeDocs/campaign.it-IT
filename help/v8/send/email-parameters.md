@@ -5,10 +5,10 @@ feature: Email
 role: User
 level: Beginner
 exl-id: ad75f01e-2c6c-4607-b15a-8870d399002a
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 87c971ac6cf4abb6b04d52ce60ac2036055e1e02
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 8%
+source-wordcount: '594'
+ht-degree: 10%
 
 ---
 
@@ -18,54 +18,7 @@ Questa sezione presenta le opzioni e i parametri disponibili nelle proprietà di
 
 ## Usa Ccn e-mail {#email-bcc}
 
-<!--
->[!NOTE]
->
->This capability is available starting Campaign v8.3. To check your version, refer to [this section](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)-->
-
-Puoi configurare Adobe Campaign per conservare una copia delle e-mail inviate dalla tua piattaforma.
-
-Adobe Campaign stessa non gestisce i file archiviati. Consente di inviare i messaggi desiderati a un indirizzo e-mail Ccn (copia nascosta) dedicato, da cui possono essere elaborati e archiviati utilizzando un sistema esterno. I file .eml corrispondenti alle e-mail inviate possono quindi essere trasferiti su un server remoto, ad esempio un server e-mail SMTP.
-
->[!CAUTION]
->
->Per motivi di privacy, le e-mail in formato Ccn devono essere elaborate da un sistema di archiviazione in grado di memorizzare informazioni personali (PII) protette.
-
-La destinazione di archiviazione è l’indirizzo e-mail Ccn scelto, che rimarrà invisibile ai destinatari della consegna.
-
-![](../assets/do-not-localize/speech.png)  In qualità di utente di Managed Cloud Service, [Adobe di contatto](../start/campaign-faq.md#support){target="_blank"} per comunicare l&#39;indirizzo e-mail Ccn da utilizzare per l&#39;archiviazione.
-
-Una volta definito l’indirizzo e-mail Ccn, devi abilitare l’opzione dedicata a livello di consegna.
-
->[!CAUTION]
->
->**[!UICONTROL Email BCC]** non è attivato per impostazione predefinita. Devi abilitarlo manualmente nel modello di consegna e-mail o.
-
-A tale scopo, segui la procedura indicata di seguito:
-
-1. Vai a **[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]**, o **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
-1. Seleziona la consegna desiderata o duplica la preconfigurata **[!UICONTROL Email delivery]** , quindi selezionare il modello duplicato.
-1. Fai clic sul pulsante **[!UICONTROL Properties]**.
-1. Seleziona la scheda **[!UICONTROL Delivery]**.
-1. Seleziona l’opzione **[!UICONTROL Email BCC]**.
-
-   ![](assets/email-bcc.png)
-
-1. Seleziona **[!UICONTROL Ok]**.
-
-Una copia di tutti i messaggi inviati per ogni consegna basata su questo modello verrà inviata all’indirizzo e-mail Ccn configurato.
-
-Considera le seguenti specificità e raccomandazioni:
-
-* È possibile utilizzare un solo indirizzo e-mail Ccn.
-
-* Assicurati che l’indirizzo Ccn disponga di una capacità di ricezione sufficiente per archiviare tutte le e-mail inviate.
-
-* CCN e-mail <!--with Enhanced MTA--> effettua la consegna all’indirizzo e-mail Ccn prima di effettuare la consegna ai destinatari; ciò può comportare l’invio di messaggi Ccn anche se le consegne originali potrebbero essere state non consegnate. Per ulteriori informazioni sui mancati recapiti, consulta [Errori di consegna](delivery-failures.md).
-
-* Se le e-mail inviate all’indirizzo Ccn vengono aperte e cliccate attraverso, questo verrà preso in considerazione nel **[!UICONTROL Total opens]** e **[!UICONTROL Clicks]** dall’analisi di invio, che potrebbe causare alcuni errori di calcolo.
-
-<!--Only successfully sent emails are taken in account, bounces are not.-->
+Puoi configurare Adobe Campaign per conservare una copia delle e-mail inviate dalla tua piattaforma. Questa opzione è descritta in [questa pagina](email-bcc.md).
 
 ## Seleziona i formati dei messaggi {#selecting-message-formats}
 
@@ -132,15 +85,15 @@ Se necessario, i valori vengono codificati automaticamente.
 
 >[!IMPORTANT]
 >
->L’aggiunta di uno script per l’inserimento di intestazioni SMTP aggiuntive è un’operazione riservata agli utenti avanzati.
+>L’aggiunta di uno script per l’inserimento di intestazioni SMTP aggiuntive è riservata agli utenti avanzati.
 >
 >La sintassi di questo script deve essere conforme ai requisiti di questo tipo di contenuto: nessuno spazio inutilizzato, nessuna linea vuota e così via.
 
 ![](assets/email-smtp-headers.png)
 
-<!--
-## Generate mirror page {#generating-mirror-page}
 
-The mirror page is an HTML page accessible online via a web browser. Its content is identical to the email. It can be useful if your recipients are experiencing rendering issues or broken images when trying to view your email in their inbox.
+## Genera pagina mirror {#generating-mirror-page}
 
-Learn how to insert a link to the mirror page in [this section](mirror-page.md).-->
+La pagina mirror è una pagina HTML accessibile online tramite un browser web. Il contenuto è identico a quello dell’e-mail. Può essere utile se i destinatari riscontrano problemi di rendering o immagini danneggiate quando tentano di visualizzare l’e-mail nella casella in entrata.
+
+Scopri come inserire un collegamento alla pagina speculare in [questa sezione](mirror-page.md)

@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
+source-git-commit: 84b90cbd150c81edc81f5cc653db6fbe96af80aa
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 86%
+source-wordcount: '714'
+ht-degree: 76%
 
 ---
 
@@ -27,7 +27,7 @@ Per chi già utilizza [!DNL Campaign Classic] v7, non vi sono differenze signif
 
 Adobe Campaign v8 è disponibile come **Managed Cloud Service**.
 
-Adobe Campaign Managed Cloud Services fornisce una piattaforma Managed Cloud Services per la progettazione di esperienze cliente cross-channel oltre a un ambiente per l’orchestrazione visiva delle campagne, la gestione delle interazioni in tempo reale e l’esecuzione su più canali. Ulteriori informazioni su Campaign Managed Cloud Services sono disponibili nella [pagina di descrizione del prodotto](https://helpx.adobe.com/it/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+Adobe Campaign Managed Cloud Services fornisce una piattaforma Managed Cloud Services per la progettazione di esperienze cliente cross-channel oltre a un ambiente per l’orchestrazione visiva delle campagne, la gestione delle interazioni in tempo reale e l’esecuzione su più canali. Ulteriori informazioni sui Cloud Service gestiti da Campaign sono disponibili in [pagina di descrizione del prodotto](https://helpx.adobe.com/it/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
 La nuova offerta combina servizi all’avanguardia con un monitoraggio proattivo e un avviso tempestivo, incentrato su tre aree:
 
@@ -37,19 +37,27 @@ La nuova offerta combina servizi all’avanguardia con un monitoraggio proattivo
 
 In qualità di utente di [!DNL Campaign Classic], tieni presente che la maggior parte delle funzioni di [!DNL Campaign Classic] v7 sono disponibili anche in [!DNL Campaign] v8, ad eccezione di alcune che sono elencate in [questa sezione](#gs-removed).
 
-Campaign v8 si basa su un **architettura ibrida**. Se stai eseguendo la transizione da Campaign Classic v7, tieni presente che tutte le consegne passano attraverso il server di mid-sourcing . Di conseguenza, il routing interno è **impossibile** in Campaign v8 e l’account esterno è stato disabilitato di conseguenza.
+>La nuova architettura cloud consente a Campaign di semplificare i processi, ridurre i costi, gestire i rischi e migliorare la sicurezza dei dati. Il tuo ambiente Campaign v8 è dotato di un Virtual Private Cloud (VPC) dedicato preconfigurato per te.
+
+
+## Architettura ibrida {#hybrid-archi}
+
+Campaign v8 si basa su un **architettura ibrida**. Se stai passando da Campaign Classic v7, tieni presente che tutte le consegne passano attraverso il server di mid-sourcing.
+
+Di conseguenza:
+
+* Il routing interno è **non possibile** in Campaign v8 e l’account esterno è stato disabilitato di conseguenza,
+* Lo stato delle consegne non viene aggiornato all’istante: viene eseguito un processo tecnico sull’istanza Marketing che aggiornerà gli stati di consegna in modo tempestivo.
+
 
 ![](../assets/do-not-localize/glass.png) Ulteriori informazioni sull’invio di bozze dei messaggi transazionali durante la transizione da v7 a [questa pagina](../send/transactional-template.md#transition-from-v7).
 
->[!NOTE]
->
->La nuova architettura cloud consente a Campaign di semplificare i processi, ridurre i costi, gestire i rischi e migliorare la sicurezza dei dati. Il tuo ambiente Campaign v8 è dotato di un Virtual Private Cloud (VPC) dedicato preconfigurato per te.
 
 ## [!DNL Campaign] e [!DNL Snowflake] {#ac-gs-snowflake}
 
 Nel suo [Distribuzione aziendale (FFDA)](../architecture/enterprise-deployment.md), [!DNL Adobe Campaign] v8 funziona con due database: uno locale [!DNL Campaign] database per la messaggistica in tempo reale, le query unitarie dell’interfaccia utente, le operazioni di scrittura tramite API e un cloud [!DNL Snowflake] database per l’esecuzione della campagna, le query batch e l’esecuzione dei flussi di lavoro.
 
-Campaign v8 Enterprise introduce il concetto di **Full Federated Data Access** (FFDA): adesso tutti i dati sono remoti, nel database cloud. Con questa nuova architettura, l’implementazione di Campaign v8 Enterprise (FFDA) semplifica la gestione dei dati, in quanto nel database cloud non è richiesto alcun indice. È sufficiente creare le tabelle, copiare i dati e iniziare. La tecnologia del database cloud non richiede una manutenzione specifica per garantire la qualità del servizio.
+Campaign v8 Enterprise introduce il concetto di **Full Federated Data Access** (FFDA): adesso tutti i dati sono remoti, nel database cloud. Con questa nuova architettura, l’implementazione di Campaign v8 Enterprise (FFDA) semplifica la gestione dei dati, in quanto nel database cloud non è richiesto alcun indice. È sufficiente creare le tabelle, copiare i dati e iniziare. La tecnologia del database cloud non richiede una manutenzione specifica per garantire le prestazioni del servizio.
 
 ![](../assets/do-not-localize/glass.png) Ulteriori informazioni sull’architettura di [!DNL Campaign] v8 sono disponibili in [questa pagina](../architecture/architecture.md).
 

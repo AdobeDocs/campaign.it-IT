@@ -4,7 +4,7 @@ description: Scopri come migrare gli operatori tecnici di Campaign all’account
 feature: Technote
 role: Admin
 exl-id: 775c5dbb-ef73-48dd-b163-23cfadc3dab8
-source-git-commit: 8f58db2b00f2fc98afd737f20411f829dd24c78a
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
 source-wordcount: '1507'
 ht-degree: 0%
@@ -224,7 +224,7 @@ L’utente dell’account tecnico NON esisterà in Adobe Campaign finché non ve
 
    Per aggiornare questo operatore, effettua le seguenti operazioni:
 
-   1. Dall’Explorer della console client di Campaign, passa alla **Amministrazione > Gestione degli accessi > Operatori**.
+   1. Da Esplora console client di Campaign, passa alla **Amministrazione > Gestione degli accessi > Operatori**.
    1. Accedi all’operatore tecnico esistente utilizzato per le API.
    1. Individua le autorizzazioni della cartella e controlla i diritti.
    1. Applica le stesse autorizzazioni all’operatore tecnico appena creato. L’e-mail di questo operatore è **E-mail account tecnico** valore copiato in precedenza.

@@ -1,20 +1,20 @@
 ---
 product: campaign
-title: Creazione e gestione di attività
-description: Creazione e gestione di attività
+title: Creazione e gestione delle attività
+description: Creazione e gestione delle attività
 feature: Campaigns, Resource Management
 role: User
 exl-id: 730d1712-53a6-4bf7-9aac-523b06bd0d0a
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '3743'
-ht-degree: 1%
+source-wordcount: '3758'
+ht-degree: 0%
 
 ---
 
 # Creare e gestire le attività{#creating-and-managing-tasks}
 
-Adobe Campaign consente di creare attività e gestirne il ciclo di vita completo direttamente dall’interno dell’applicazione. L’implementazione del programma e della campagna può essere suddivisa in attività assegnate ad operatori Adobe Campaign o a fornitori di servizi esterni. Questa modalità operativa consente di creare un ambiente di collaborazione aperto che includa tutti i partecipanti al programma e i partecipanti esterni.
+Adobe Campaign consente di creare attività e gestirne il ciclo di vita completo direttamente all’interno dell’applicazione. L’implementazione del programma e della campagna può essere suddivisa in attività assegnate ad operatori Adobe Campaign o a fornitori di servizi esterni. Questa modalità operativa consente di creare un ambiente di collaborazione aperto che includa tutti i partecipanti al programma e i partecipanti esterni.
 
 Le attività possono essere create, visualizzate e monitorate dall’elenco delle attività o dal dashboard della campagna. Possono anche essere visualizzate e tracciate nelle pianificazioni del piano di marketing, dei programmi e delle campagne.
 
@@ -467,7 +467,7 @@ Di seguito sono riportate le fasi di un ciclo di vita completo di un&#39;attivit
 1. Dopo aver completato la sezione a loro assegnata, i partecipanti possono approvare l&#39;attività:
 
    * tramite l’e-mail di notifica.
-   * tramite la console client o l’interfaccia web, nel dashboard delle attività.
+   * tramite la console client o l’accesso web, nel dashboard attività.
 
      ![](assets/s_ncs_user_task_start_rea.png)
 
@@ -481,7 +481,7 @@ Di seguito sono riportate le fasi di un ciclo di vita completo di un&#39;attivit
 
    ![](assets/s_ncs_user_task_follow_from_dashboard.png)
 
-1. Una volta che la persona responsabile dell’attività decide che è stata completata, può chiuderla utilizzando il collegamento nell’e-mail di notifica inviata all’avvio dell’attività, la console client o l’interfaccia.
+1. Una volta che il responsabile dell’attività decide che è terminata, può chiuderla utilizzando il collegamento nell’e-mail di notifica inviata all’avvio dell’attività, la console client o l’interfaccia.
 
    ![](assets/s_ncs_user_task_console_ressource_validation.png)
 
@@ -491,7 +491,7 @@ Di seguito sono riportate le fasi di un ciclo di vita completo di un&#39;attivit
 
 1. Lo stato dell’attività diventa **[!UICONTROL To approve]** e viene inviata una notifica al revisore.
 
-   Approvano l’attività tramite l’e-mail di notifica, la Client Console o l’interfaccia web.
+   Approvano l’attività tramite l’e-mail di notifica, la console client o un browser web.
 
    Possono agire tramite il dashboard della campagna:
 

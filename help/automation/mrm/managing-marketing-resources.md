@@ -5,7 +5,7 @@ description: Scopri come gestire le risorse di marketing
 feature: Campaigns, Resource Management
 role: User
 exl-id: 4d91fb7d-f846-4644-b83d-5a6a988ae297
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 1%

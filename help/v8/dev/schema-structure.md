@@ -5,9 +5,9 @@ feature: Schema Extension, Configuration, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: 9c4a9e71-3fc8-4b4e-8782-0742bbeaf426
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1394'
 ht-degree: 1%
 
 ---
@@ -186,7 +186,7 @@ Il **`<elements>`** e **`<attributes>`** Gli elementi dello schema dati possono 
 
 * Il **desc** consente di immettere una descrizione lunga.
 
-  La descrizione può essere visualizzata dal modulo di input nella barra di stato della finestra principale di Adobe Campaign Client Console.
+  La descrizione può essere visualizzata dal modulo di input nella barra di stato della finestra principale della console client di Adobe Campaign.
 
   >[!NOTE]
   >

@@ -5,10 +5,10 @@ feature: Microsoft CRM Integration
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '1365'
-ht-degree: 3%
+source-wordcount: '1376'
+ht-degree: 2%
 
 ---
 

@@ -5,9 +5,9 @@ description: Creare una campagna locale
 feature: Distributed Marketing
 role: User
 exl-id: b46530b5-cb81-40d7-b596-c7685359782a
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1553'
 ht-degree: 1%
 
 ---
@@ -46,17 +46,17 @@ Nella finestra della campagna, fai clic su **[!UICONTROL Edit]** , quindi fare c
 
 ![](assets/mkt_distr_4.png)
 
-### Interfaccia Web {#web-interface}
+### Tipo di interfaccia {#web-interface}
 
-In **Marketing distribuito** , è possibile scegliere il tipo di interfaccia Web e specificare i valori e i parametri predefiniti da immettere quando un&#39;entità locale effettua un ordine.
+In **Marketing distribuito** , è possibile scegliere il tipo di interfaccia e specificare i valori e i parametri predefiniti da immettere quando un&#39;entità locale inserisce un ordine.
 
-L’interfaccia web corrisponde a un modulo che l’entità locale deve compilare quando ordina la campagna.
+L’interfaccia corrisponde a un modulo che l’entità locale deve compilare quando ordina la campagna.
 
-Seleziona il tipo di interfaccia web da applicare alle campagne create dal modello:
+Seleziona il tipo di interfaccia da applicare alle campagne create dal modello:
 
 ![](assets/mkt_distr_1.png)
 
-Sono disponibili quattro tipi di interfacce web:
+Sono disponibili quattro tipi di interfacce:
 
 * **[!UICONTROL By brief]** : l’entità locale deve fornire una descrizione che descriva le configurazioni della campagna. Una volta approvato l’ordine, l’entità centrale configura ed esegue la campagna nel suo insieme.
 

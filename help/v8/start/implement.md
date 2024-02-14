@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: 561e4b6d2c99e98e068132c80c2bebb756b60a44
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 97%
+source-wordcount: '1146'
+ht-degree: 92%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 
 In questa sezione, scopri come adeguare Adobe Campaign ai requisiti della tua azienda. Utilizza le linee guida seguenti per strutturare e organizzare l’implementazione.
 
-1. **Definisci le impostazioni**: concedi l’accesso, condividi la console client e configura i canali (e-mail, push, sms). [Ulteriori informazioni](#implementation-ac-settings)
+1. **Definire le impostazioni**: concedi l’accesso, condividi la console client e configura i canali (e-mail, push, sms). [Ulteriori informazioni](#implementation-ac-settings)
 1. **Prepara l’ambiente**: importa profili, crea tipi di pubblico, progetta i flussi di lavoro e i modelli di campagne, crea regole di tipologia. [Ulteriori informazioni](#implementation-prepare-your-env)
 1. **Personalizza l’istanza**: crea nuovi campi dati, aggiungi tabelle/schemi. [Ulteriori informazioni](#implementation-custom-your-instance)
 1. **Automatizza i processi**: configura le funzionalità di automazione di Adobe Campaign. [Ulteriori informazioni](#implementation-automation)
@@ -60,9 +60,9 @@ Puoi aggiungere manualmente gli utenti a Campaign e associarli ai gruppi, in bas
 
 ### Installare la console client di Campaign{#implementation-install-console}
 
-L’interfaccia utente principale dell’applicazione è un client avanzato, ovvero un’applicazione nativa (Windows) che comunica con il server dell’applicazione Adobe Campaign esclusivamente tramite protocolli Internet standard (SOAP, HTTP, eccetera.). La console client di Adobe Campaign consente una produttività semplice e intuitiva, utilizza una larghezza di banda molto ridotta (grazie a una cache locale) ed è progettata per una facile distribuzione. Questa console può essere distribuita da un browser Internet, può essere aggiornata automaticamente e non richiede alcuna configurazione di rete specifica perché genera solo traffico HTTP(S).
+L’interfaccia utente principale dell’applicazione è un client avanzato, ovvero un’applicazione nativa (Windows) che comunica con il server dell’applicazione Adobe Campaign esclusivamente tramite protocolli Internet standard (SOAP, HTTP, eccetera.). La console client di Adobe Campaign offre una produttività semplice e intuitiva, utilizza una larghezza di banda molto ridotta (tramite l’utilizzo di una cache locale) ed è progettata per una facile distribuzione. Questa console può essere distribuita da un browser Internet, può essere aggiornata automaticamente e non richiede alcuna configurazione di rete specifica perché genera solo traffico HTTP(S).
 
-![](../assets/do-not-localize/glass.png) [Ulteriori informazioni su Campaign Client Console](connect.md).
+![](../assets/do-not-localize/glass.png) [Ulteriori informazioni sulla console client di Campaign](connect.md).
 
 ## Preparare l’ambiente{#implementation-prepare-your-env}
 
@@ -160,7 +160,7 @@ Se utilizzi altre soluzioni Adobe, puoi collegarle all’ambiente Campaign e com
 * Campaign: connettori dati di Analytics
 
 
-Puoi anche utilizzare Single Sign-On (SSO) per connetterti a Campaign. Per ulteriori informazioni, consulta [questa pagina](connect.md).
+Per connettersi a Campaign, è possibile utilizzare solo Single Sign-On (SSO). Per ulteriori informazioni, consulta [questa pagina](connect.md).
 
 ![](../assets/do-not-localize/glass.png) Scopri l’elenco completo delle soluzioni Adobe che possono essere integrate con Adobe Campaign, in [questa pagina](../connect/integration.md).
 

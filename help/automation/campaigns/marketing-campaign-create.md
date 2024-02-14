@@ -5,9 +5,9 @@ description: Scopri come creare ed eseguire campagne di marketing
 feature: Campaigns, Cross Channel Orchestration, Programs
 role: User
 exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: d7750add8d71bb51ea1c099a45a7bce05da3b4d7
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1327'
 ht-degree: 3%
 
 ---
@@ -158,9 +158,14 @@ Durante l’esplorazione del calendario, puoi anche creare un programma o una ca
 Quando crei una campagna tramite **[!UICONTROL Schedule]** di un programma, la campagna viene automaticamente collegata al programma in questione. Il **[!UICONTROL Program]** è nascosto in questo caso.
 
 
-## Utilizzare l’interfaccia web {#use-the-web-interface-}
+## Accedere a Campaign con un browser web {#use-the-web-interface}
 
-Puoi accedere alle schermate della console client di Adobe Campaign tramite un browser Internet per visualizzare tutte le campagne e le consegne, nonché i rapporti e le informazioni sui profili nel database. Questo accesso non consente la creazione di record. A seconda dei diritti degli operatori, è possibile visualizzare e/o agire sui dati nel database. Ad esempio, puoi approvare il contenuto della campagna e il targeting, riavviare o interrompere una consegna, ecc.
+
+>[!AVAILABILITY]
+>
+>A partire dalla versione 8.6 di Campaign, Campaign è disponibile in un’interfaccia utente web. La maggior parte delle azioni di marketing può essere eseguita da questa nuova interfaccia. [Ulteriori informazioni](../../v8/start/campaign-ui.md#discover-the-user-interface).
+
+Puoi accedere ad alcune delle schermate della console client di Adobe Campaign tramite un browser Internet per visualizzare tutte le campagne e le consegne, nonché i rapporti e le informazioni sui profili nel database. Non è possibile creare componenti da questo accesso Web ma, a seconda dei diritti di accesso, è possibile visualizzare e/o agire sui dati nel database. In genere, puoi approvare il contenuto della campagna e il targeting, riavviare o interrompere una consegna, ecc.
 
 1. Accedi come al solito tramite https://`<your instance>:<port>/view/home`.
 1. Utilizza i menu per accedere alle panoramiche.
@@ -191,7 +196,7 @@ Questa tabella fornisce un riepilogo delle azioni che è possibile eseguire sull
 | Magazzino | Eliminare una linea di magazzino |
 | Simulazione di offerta | Avviare e interrompere una simulazione |
 | Flusso di lavoro di destinazione | Avviare, mettere in pausa e interrompere un flusso di lavoro |
-| Rapporto | Salva i dati correnti nella cronologia del rapporto |
+| Report | Salva i dati correnti nella cronologia del rapporto |
 | Forum | Aggiungere una discussione<br/>Rispondere a un messaggio in una discussione<br/>Segui una discussione e annulla l’iscrizione |
 
 ### Gestire le approvazioni

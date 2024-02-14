@@ -5,15 +5,15 @@ feature: Email
 role: Data Engineer
 level: Beginner
 exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
-source-git-commit: 4c79078e32c77499f15906fc81f31ce2b26559d7
+source-git-commit: 84b90cbd150c81edc81f5cc653db6fbe96af80aa
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 3%
+source-wordcount: '808'
+ht-degree: 2%
 
 ---
 
 
-# Inviare e monitorare le e-mail
+# Inviare e monitorare le e-mail  {#send-and-monitor-emails}
 
 Quando la consegna è configurata e pronta per essere inviata, assicurati di aver eseguito l’analisi della consegna. [Ulteriori informazioni](delivery-analysis.md)
 
@@ -21,12 +21,18 @@ Al termine, conferma la consegna per avviare la consegna dei messaggi.
 
 Monitora l’esecuzione della consegna da **Consegna** accessibile tramite i dettagli di questa consegna o tramite l’elenco delle consegne.
 
-## Monitorare le e-mail
+## Monitorare le e-mail {#email-monitoring}
 
-Una volta inviati, controlla lo stato di consegna nel dashboard di consegna e accedi ai registri e ai rapporti di consegna per verificare che i messaggi siano stati inviati correttamente.
+Una volta inviato, controlla lo stato della consegna in **Dashboard di consegna** e accedere ai registri di consegna e ai rapporti per confermare che i messaggi sono stati inviati correttamente.
 
-![](../assets/do-not-localize/book.png) [Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html){target="_blank"}
+Dal dashboard di consegna, puoi controllare i messaggi elaborati e i registri di controllo della consegna. Puoi anche controllare lo stato dei messaggi nei registri di consegna.
 
+>[!NOTE]
+>
+>Gli stati di consegna non vengono visualizzati in tempo reale. Ulteriori informazioni su Email Feedback Service [in questa sezione](#email-feedback-service).
+
+
+![](../assets/do-not-localize/book.png) [Ulteriori informazioni sul monitoraggio della consegna nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html){target="_blank"}
 
 ## MTA della campagna {#mta}
 
@@ -61,7 +67,7 @@ Ulteriori informazioni sugli errori di consegna in [questa sezione](delivery-fai
 
 Le regole MX (Mail eXchanger) sono le regole che gestiscono la comunicazione tra un server di invio e un server ricevente.
 
-L’MTA dispone di proprie regole MX che gli consentono di personalizzare la velocità effettiva per dominio in base alla reputazione cronologica dell’e-mail e al feedback in tempo reale proveniente dai domini in cui invii le e-mail.
+L’MTA dispone di proprie regole MX che gli consentono di personalizzare la velocità effettiva per dominio in base alla reputazione cronologica dell’e-mail e al feedback in tempo reale proveniente dai domini in cui stai inviando le e-mail.
 
 ### Firma DKIM
 
@@ -73,11 +79,9 @@ Ulteriori informazioni su DKIM in [Guida alle procedure consigliate per la conse
 
 ## Servizio di feedback delle e-mail {#email-feedback-service}
 
-Con la funzionalità Email Feedback Service (EFS), lo stato di ogni e-mail viene segnalato con precisione, perché il feedback viene acquisito direttamente dall’MTA.
+Il servizio di feedback delle e-mail di Campaign (EFS) segnala lo stato di ogni consegna e-mail inviata con Adobe Campaign.
 
-Una volta iniziata la consegna, non vi è alcuna modifica nel **[!UICONTROL Success]** percentuale di inoltro del messaggio da Campaign all’MTA.
-
-I registri di consegna mostrano **[!UICONTROL Taken into account by the service provider]** stato per ogni indirizzo di destinazione.
+Una volta iniziata la consegna, non vi è alcuna modifica nel **[!UICONTROL Success]** percentuale di inoltro del messaggio da Campaign all’MTA. I registri di consegna mostrano **[!UICONTROL Taken into account by the service provider]** stato per ogni indirizzo di destinazione.
 
 Quando il messaggio viene effettivamente recapitato ai profili target e una volta che queste informazioni vengono segnalate in tempo reale dall’MTA, i registri di consegna mostrano **[!UICONTROL Sent]** stato di ogni indirizzo che ha ricevuto correttamente il messaggio. Il **[!UICONTROL Success]** la percentuale viene aumentata di conseguenza con ogni consegna riuscita.
 
@@ -95,7 +99,7 @@ Quando i messaggi in soft-bouncing vengono segnalati dall’MTA, il loro stato d
 >
 >Per ulteriori informazioni sui nuovi tentativi dopo un errore temporaneo di consegna, consulta [questa sezione](delivery-failures.md#retries).
 
-La tabella seguente mostra come vengono aggiornati gli stati dei KPI e dei registri di invio in ogni fase del processo di invio con la funzionalità EFS.
+La tabella seguente mostra come vengono aggiornati gli stati dei KPI e dei registri di invio in ogni fase del processo di invio.
 
 | Passaggio nel processo di invio | Riepilogo KPI | Stato dei registri di invio |
 |--- |--- |--- |
