@@ -5,7 +5,7 @@ description: Ulteriori informazioni sui documenti della campagna di marketing e 
 feature: Campaigns
 role: User
 exl-id: 352f6cd5-777d-413d-af79-6f53444b336f
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
@@ -120,4 +120,4 @@ Nell’esempio seguente, l’etichetta, il costo stimato e la descrizione della 
 
 ![](assets/campaign-export-template.png)
 
-Il modello di esportazione deve essere associato al fornitore di servizi selezionato per la consegna interessata. Consulta [questa sezione](providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
+Il modello di esportazione deve essere associato al fornitore di servizi selezionato per la consegna interessata. Consulta [questa sezione](providers-stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).

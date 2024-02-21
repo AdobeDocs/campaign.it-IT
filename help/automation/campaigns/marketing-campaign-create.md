@@ -5,7 +5,7 @@ description: Scopri come creare ed eseguire campagne di marketing
 feature: Campaigns, Cross Channel Orchestration, Programs
 role: User
 exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
-source-git-commit: d7750add8d71bb51ea1c099a45a7bce05da3b4d7
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '1327'
 ht-degree: 3%
@@ -92,7 +92,7 @@ Accedi alle sezioni seguenti per scoprire come configurare la campagna:
 * [Gestire risorse e documenti](marketing-campaign-assets.md)
 * [Creare il pubblico di destinazione](marketing-campaign-target.md)
 * [Impostare il processo di approvazione](marketing-campaign-approval.md)
-* [Gestire scorte e budget](providers--stocks-and-budgets.md)
+* [Gestire scorte e budget](providers-stocks-and-budgets.md)
 
 
 ### Modificare le impostazioni della campagna {#campaign-settings}
@@ -102,7 +102,7 @@ Le campagne vengono create tramite modelli di campagna. Puoi configurare modelli
 Per ogni campagna sono disponibili le seguenti funzionalità:
 
 * Documentazione e risorse di riferimento: è possibile associare documenti alla campagna (breve, rapporto, immagini, ecc.). Sono supportati tutti i formati di documento. [Ulteriori informazioni](marketing-campaign-deliveries.md#manage-associated-documents).
-* Definire i costi: per ogni campagna, Adobe Campaign consente di definire le voci di costo e le strutture di calcolo dei costi che possono essere utilizzate durante la creazione della campagna di marketing. Ad esempio: spese di stampa, ricorso ad agenzie esterne, affitto di stanze, ecc. [Ulteriori informazioni](providers--stocks-and-budgets.md#defining-cost-categories).
+* Definire i costi: per ogni campagna, Adobe Campaign consente di definire le voci di costo e le strutture di calcolo dei costi che possono essere utilizzate durante la creazione della campagna di marketing. Ad esempio: spese di stampa, ricorso ad agenzie esterne, affitto di stanze, ecc. [Ulteriori informazioni](providers-stocks-and-budgets.md#defining-cost-categories).
 * Definire gli obiettivi: puoi definire obiettivi quantificabili per una campagna, ad esempio numero di abbonati, volume di business, ecc. Queste informazioni vengono successivamente utilizzate nei rapporti delle campagne.
 * Gestisce gli indirizzi seed e i gruppi di controllo. [Ulteriori informazioni](marketing-campaign-deliveries.md#defining-a-control-group).
 * Gestisci approvazioni: puoi selezionare i trattamenti da approvare e, se necessario, selezionare gli operatori o i gruppi di operatori per la revisione. [Ulteriori informazioni](marketing-campaign-approval.md#checking-and-approving-deliveries).

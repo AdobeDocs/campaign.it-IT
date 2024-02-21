@@ -5,7 +5,7 @@ description: Elenco delle attività di controllo del flusso
 feature: Workflows
 role: User
 exl-id: 904f2d94-bd3e-4c46-aeab-2ef77a7bdeee
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Le seguenti attività sono attività di database: vengono utilizzate per coordin
 * **[Approvazione](approval.md)**: ti consente di inviare un’e-mail a un operatore o a un gruppo di operatori e di attendere che l’approvazione continui con l’esecuzione.
 * **[Segnale esterno](external-signal.md)**: consente di abilitare la transizione in uscita dopo la ricezione di un segnale esterno.
 * **[Fork](fork.md)**: ti consente di attivare tutte le transizioni in uscita.
-* **[Salto (punto iniziale e punto finale)](jump--start-point-and-end-point-.md)**: consente di implementare le transizioni senza collegamenti.
+* **[Salto (punto iniziale e punto finale)](jump-start-point-and-end-point.md)**: consente di implementare le transizioni senza collegamenti.
 * **[Inizio e fine](start-and-end.md)**: ti consente di visualizzare i punti iniziale e finale di un flusso di lavoro.
 * **[Scheduler](scheduler.md)**: ti consente di definire una pianificazione di esecuzione del flusso di lavoro.
 * **[Flusso di lavoro secondario](sub-workflow.md)**: consente di eseguire un altro flusso di lavoro.

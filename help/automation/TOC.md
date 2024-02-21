@@ -2,10 +2,10 @@
 audience: user
 user-guide-title: Guida all’automazione di Campaign
 user-guide-description: Guida all’automazione di Campaign
-source-git-commit: 75b65efce6b37e3d948f6af4a89ea3b0a5ac1a86
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 84%
+source-wordcount: '442'
+ht-degree: 81%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 84%
       + [Monitorare l’esecuzione di un flusso di lavoro](workflow/monitor-workflow-execution.md)
       + [Monitorare i flussi di lavoro tecnici](workflow/monitor-technical-workflows.md)
       + [Flusso di lavoro HeatMap](workflow/heatmap.md)
-   + Attività dei flussi di lavoro {#wf-activities}
+   + Attività del flusso di lavoro {#wf-activities}
       + [Introduzione alle attività](workflow/activities.md)
       + Attività di targeting {#targeting-activities}
          + [Elenco delle attività di targeting](workflow/targeting-activities.md)
@@ -54,17 +54,17 @@ ht-degree: 84%
          + [Dividi](workflow/split.md)
          + [Attività Subscription services](workflow/subscription-services.md)
          + [Unione](workflow/union.md)
-         + [Attività Update data](workflow/update-data.md)
+         + [Aggiornare i dati](workflow/update-data.md)
       + Attività di controllo del flusso {#flow-control-activities}
          + [Elenco delle attività di controllo del flusso](workflow/flow-control-activities.md)
          + [Attività Alert](workflow/alert.md)
-         + [Unione AND](workflow/and-join.md)
+         + [AND-join](workflow/and-join.md)
          + [Approvazione](workflow/approval.md)
          + [Attività External signal](workflow/external-signal.md)
          + [Fork](workflow/fork.md)
-         + [Oggetti Jump (punto iniziale e punto finale)](workflow/jump--start-point-and-end-point-.md)
+         + [Oggetti Jump (punto iniziale e punto finale)](workflow/jump-start-point-and-end-point.md)
          + [Attività Start e End](workflow/start-and-end.md)
-         + [Attività Scheduler](workflow/scheduler.md)
+         + [Modulo di pianificazione](workflow/scheduler.md)
          + [Flusso di lavoro secondario](workflow/sub-workflow.md)
          + [Attività Test](workflow/test.md)
          + [Attività Time constraint](workflow/time-constraint.md)
@@ -74,9 +74,9 @@ ht-degree: 84%
          + [Gestione dei contenuti](workflow/content-management.md)
          + [Consegna continua](workflow/continuous-delivery.md)
          + [Consegne cross-channel](workflow/cross-channel-deliveries.md)
-         + [Estrazione dati (file)](workflow/extraction--file-.md)
-         + [Caricamento dati (file)](workflow/data-loading--file-.md)
-         + [Caricamento dati (RDBMS)](workflow/data-loading--rdbms-.md)
+         + [Estrazione dati (file)](workflow/extraction-file.md)
+         + [Caricamento dati (file)](workflow/data-loading-file.md)
+         + [Caricamento dati (RDBMS)](workflow/data-loading-rdbms.md)
          + [Consegna](workflow/delivery.md)
          + [Controllo della consegna](workflow/delivery-control.md)
          + [Approvazione locale](workflow/local-approval.md)
@@ -128,7 +128,7 @@ ht-degree: 84%
       + [Parametri avanzati](workflow/advanced-parameters.md)
       + [Script e modelli JavaScript](workflow/javascript-scripts-and-templates.md)
       + [Esempi di codice JavaScript nei flussi di lavoro](workflow/javascript-in-workflows.md)
-      + [Accedere a un database esterno](workflow/accessing-an-external-database--fda-.md)
+      + [Accedere a un database esterno](workflow/accessing-an-external-database-fda.md)
       + [Gestire le autorizzazioni](workflow/managing-rights.md)
       + [Modificare le immagini dell’attività](workflow/change-activity-images.md)
       + [Gestire i fusi orari](workflow/managing-time-zones.md)
@@ -142,7 +142,7 @@ ht-degree: 84%
    + [Impostare e gestire le approvazioni](campaigns/marketing-campaign-approval.md)
    + [Campagne ricorrenti e periodiche](campaigns/recurring-periodic-campaigns.md)
    + [Monitorare le campagne](campaigns/marketing-campaign-monitoring.md)
-   + [Fornitori, scorte e budget](campaigns/providers--stocks-and-budgets.md)
+   + [Fornitori, scorte e budget](campaigns/providers-stocks-and-budgets.md)
 + Ottimizzazione di Campaign (componente aggiuntivo){#campaign-optimization}
    + [Introduzione alle tipologie di campagne](campaign-opt/campaign-typologies.md)
    + [Regole di filtro](campaign-opt/filtering-rules.md)

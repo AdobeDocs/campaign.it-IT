@@ -5,10 +5,10 @@ description: Scopri come iniziare con le campagne di marketing
 feature: Campaigns, Cross Channel Orchestration, Programs
 role: User
 exl-id: eb1a0e52-14d9-4ad2-8bf2-ea955c6fd0f5
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 16%
+ht-degree: 11%
 
 ---
 
@@ -48,7 +48,7 @@ Definisci i revisori e configura il flusso di approvazione per monitorare e cont
 Tieni traccia delle campagne dal dashboard, controlla gli stati di consegna e l’esecuzione dall’interfaccia utente di Campaign. [Ulteriori informazioni](marketing-campaign-monitoring.md).
 
 1. **Tenere traccia di budget, scorte e costi associati**.
-Utilizza Adobe Campaign per controllare l’allocazione del budget e gestire fornitori, scorte e costi. [Ulteriori informazioni](providers--stocks-and-budgets.md#create-service-providers-and-their-cost-structures).
+Utilizza Adobe Campaign per controllare l’allocazione del budget e gestire fornitori, scorte e costi. [Ulteriori informazioni](providers-stocks-and-budgets.md#create-service-providers-and-their-cost-structures).
 
 Una volta completati questi passaggi, puoi [avviare le consegne](marketing-campaign-deliveries.md#start-a-delivery), verifica i dati, i processi e le informazioni relativi alle consegne e, se necessario, [gestisci i documenti associati](marketing-campaign-deliveries.md#manage-associated-documents). È inoltre possibile [tracciare e monitorare l’esecuzione](marketing-campaign-monitoring.md) delle campagne e delle consegne.
 

@@ -5,7 +5,7 @@ description: Ulteriori informazioni sull’attività del flusso di lavoro Query
 feature: Workflows, Targeting Activity, Query Editor
 role: User, Data Engineer
 exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
-source-git-commit: 0191ca8c29813c448040fc887f98550c74197578
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '1553'
 ht-degree: 0%
@@ -66,7 +66,7 @@ Per iniziare, seleziona il tipo di dati da aggiungere:
 ![](assets/wf_add_data_1st_option.png){width="70%" align="center" zoomable="yes"}
 
 * Seleziona **[!UICONTROL Data linked to the filtering dimension]** per selezionare i dati nel database di Adobe Campaign.
-* Seleziona **[!UICONTROL External data]** per aggiungere dati da un database esterno. Questa opzione è disponibile solo se hai acquistato **Federated Data Access** opzione. Per ulteriori informazioni, consulta [Accedere a un database esterno (FDA)](accessing-an-external-database--fda-.md).
+* Seleziona **[!UICONTROL External data]** per aggiungere dati da un database esterno. Questa opzione è disponibile solo se hai acquistato **Federated Data Access** opzione. Per ulteriori informazioni, consulta [Accedere a un database esterno (FDA)](accessing-an-external-database-fda.md).
 * Seleziona la **[!UICONTROL An offer proposition]** opzione per aggiungere un set di colonne che ti consente di memorizzare la proposta migliore generata dal motore di offerta. Questa opzione è disponibile solo se hai acquistato **Interazione** modulo.
 
 Se sulla piattaforma non è installato alcun modulo opzionale, questa fase non viene visualizzata. Si passerà direttamente alla fase successiva.

@@ -5,7 +5,7 @@ description: Creazione e gestione delle attività
 feature: Campaigns, Resource Management
 role: User
 exl-id: 730d1712-53a6-4bf7-9aac-523b06bd0d0a
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '3758'
 ht-degree: 0%
@@ -190,7 +190,7 @@ Per impostazione predefinita, il budget addebitato è il budget della campagna a
 
 >[!NOTE]
 >
->Per ulteriori informazioni su spese e budget, consulta [questa sezione](../campaigns/providers--stocks-and-budgets.md#cost-commitment--calculation-and-charging).
+>Per ulteriori informazioni su spese e budget, consulta [questa sezione](../campaigns/providers-stocks-and-budgets.md#cost-commitment--calculation-and-charging).
 
 In questa finestra puoi anche definire gli obiettivi da raggiungere. Gli obiettivi sono espressi in termini di ricavi previsti per l&#39;attività.
 

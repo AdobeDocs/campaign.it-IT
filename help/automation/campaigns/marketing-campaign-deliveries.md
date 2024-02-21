@@ -5,9 +5,9 @@ description: Ulteriori informazioni sulle consegne delle campagne di marketing
 feature: Campaigns, Resource Management, Cross Channel Orchestration
 role: User
 exl-id: 1d9638cb-0fc9-4d04-a9c5-bcab8f4ebe95
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '705'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ Una volta salvata, la consegna viene aggiunta al dashboard della campagna.
 
 Scopri come impostare ed eseguire il flusso di approvazione della consegna [in questa pagina](marketing-campaign-approval.md).
 
-## Inizia una consegna {#start-a-delivery}
+## Avviare una consegna {#start-a-delivery}
 
 Una consegna può essere inviata una volta che tutte le approvazioni sono state concesse. Il processo di esecuzione della consegna dipende dal canale.
 
@@ -112,4 +112,4 @@ L’estrazione del file avvia due processi: il calcolo del budget e il calcolo d
 
   >[!NOTE]
   >
-  >Ulteriori informazioni sui budget [in questa sezione](providers--stocks-and-budgets.md).
+  >Ulteriori informazioni sui budget [in questa sezione](providers-stocks-and-budgets.md).

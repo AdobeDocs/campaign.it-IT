@@ -3,9 +3,9 @@ title: Creare flussi di lavoro di targeting
 description: Scopri come creare tipi di pubblico target in un flusso di lavoro
 feature: Query Editor, Data Management
 exl-id: 27be9d5a-168c-470e-a480-f3c71858fc75
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
-source-wordcount: '2248'
+source-wordcount: '2252'
 ht-degree: 7%
 
 ---
@@ -270,7 +270,7 @@ In Adobe Campaign, Data Management combina una serie di attività per risolvere 
 
 Per implementare queste operazioni, Adobe Campaign offre:
 
-* Attività di raccolta dati: [Trasferimento file](file-transfer.md), [Caricamento dati (file)](data-loading--file-.md), [Caricamento dati (RDBMS)](data-loading--rdbms-.md), [Aggiorna dati](update-data.md). Questo primo passaggio di raccolta dei dati prepara i dati per consentirne l’elaborazione in altre attività. È necessario monitorare diversi parametri per garantire che il flusso di lavoro venga eseguito correttamente e dia i risultati previsti. Ad esempio, quando si importano dati, la chiave primaria (Pkey) per questi dati deve essere univoca per ciascun record.
+* Attività di raccolta dati: [Trasferimento file](file-transfer.md), [Caricamento dati (file)](data-loading-file.md), [Caricamento dati (RDBMS)](data-loading-rdbms.md), [Aggiorna dati](update-data.md). Questo primo passaggio di raccolta dei dati prepara i dati per consentirne l’elaborazione in altre attività. È necessario monitorare diversi parametri per garantire che il flusso di lavoro venga eseguito correttamente e dia i risultati previsti. Ad esempio, quando si importano dati, la chiave primaria (Pkey) per questi dati deve essere univoca per ciascun record.
 * Le attività di targeting sono state arricchite con opzioni di gestione dati: [Query](query.md), [Union](union.md), [Intersezione](intersection.md), [Dividi](split.md). Questo consente di configurare un’unione o un’intersezione tra dati provenienti da diverse dimensioni di targeting diverse, purché sia possibile la riconciliazione dei dati.
 * Attività di trasformazione dei dati: [Arricchimento](enrichment.md), [Cambia dimensione](change-dimension.md).
 

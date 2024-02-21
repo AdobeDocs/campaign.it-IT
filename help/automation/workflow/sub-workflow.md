@@ -4,9 +4,9 @@ title: Flusso di lavoro secondario
 description: Ulteriori informazioni sull’attività del flusso di lavoro secondario
 feature: Workflows
 exl-id: c530fb4e-d21e-4059-88e1-77a8d33a7832
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Il **[!UICONTROL Sub-workflow]** L’attività ti consente di attivare l’esecu
 
 È possibile chiamare più flussi di lavoro secondari in un unico flusso di lavoro. I workflow secondari vengono eseguiti in modo sincrono.
 
-Nell’esempio seguente, un flusso di lavoro primario sta chiamando un flusso di lavoro secondario utilizzando i ponticelli. Per ulteriori informazioni sugli oggetti grafici di tipo Salto, consultate [questa sezione](jump--start-point-and-end-point-.md).
+Nell’esempio seguente, un flusso di lavoro primario sta chiamando un flusso di lavoro secondario utilizzando i ponticelli. Per ulteriori informazioni sugli oggetti grafici di tipo Salto, consultate [questa sezione](jump-start-point-and-end-point.md).
 
 1. Crea un flusso di lavoro da utilizzare come flusso di lavoro secondario in un altro flusso di lavoro.
 1. Inserisci un **[!UICONTROL Jump (end point)]** attività con priorità 1 all’inizio del flusso di lavoro. Se disponi di più salti di tipo &quot;end point&quot;, Adobe Campaign utilizzerà il salto &quot;end point&quot; con il numero più basso.
