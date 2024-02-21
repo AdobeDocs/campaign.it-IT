@@ -5,10 +5,10 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 59d33983db930b3a7dc022693d72704bda99e3a1
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 22%
+source-wordcount: '453'
+ht-degree: 16%
 
 ---
 
@@ -39,17 +39,17 @@ Il targeting può essere creato tramite una combinazione di query in una sequenz
 Scopri come creare un pubblico in un flusso di lavoro della campagna in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=it)
 
 
-## Profili attivi{#active-profiles}
+## Profili attivi {#active-profiles}
 
-In base al contratto, a ciascuna istanza di Campaign viene fornito un numero specifico di profili attivi conteggiati a scopo di fatturazione. Per informazioni sul numero di profili attivi acquistati, fai riferimento al contratto più recente.
+Un profilo attivo è un profilo con cui il cliente ha tentato di comunicare negli ultimi 12 mesi tramite qualsiasi canale. Le metriche delle licenze si basano sui profili attivi. Ulteriori informazioni in [Descrizione del prodotto Adobe Campaign](https://helpx.adobe.com/it/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
-**Profilo** registrazione di informazioni (ad esempio, una registrazione nella [Tabella destinatari](../dev/datamodel.md) o una tabella esterna contenente un ID cookie, un ID cliente, un identificatore mobile o altre informazioni relative a un canale particolare) che rappresenta un cliente finale, potenziale o un lead. I profili sono considerati attivi se sono stati targetizzati o comunicati negli ultimi 12 mesi tramite qualsiasi canale.
+Puoi monitorare il numero di profili attivi nell’istanza direttamente dal Pannello di controllo Campaign Campaign. Per ulteriori informazioni, consulta [Documentazione del Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}.
 
-<!--
-You can monitor the number of active profiles used on your instances directly from Campaign Control Panel. 
-
-![](../assets/do-not-localize/book.png) For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
--->
+>[!CAUTION]
+>
+>* Un profilo che è stato oggetto di targeting per diverse consegne viene conteggiato una sola volta.
+>
+>* I profili target nel contesto di Social marketing al Twitter X non vengono considerati come profili attivi.
 
 ## Privacy e consenso{#privacy-and-consent}
 

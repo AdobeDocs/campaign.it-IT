@@ -5,9 +5,9 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 03f7a736-e0b9-4216-9550-507f10e6fcf6
-source-git-commit: b5574ba2d9fa520b701f7af4e34862304b825a66
+source-git-commit: 59d33983db930b3a7dc022693d72704bda99e3a1
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '452'
 ht-degree: 2%
 
 ---
@@ -80,16 +80,3 @@ Per un destinatario predefinito tipico, puoi accedere alle seguenti schede:
 * **Tracciamento**, per tutti i registri di tracciamento per il profilo selezionato. Queste informazioni vengono utilizzate per tenere traccia del comportamento del profilo dopo le consegne. Questa scheda mostra il totale cumulativo di tutti gli URL tracciati nelle consegne. L’elenco è configurabile e in genere contiene: l’URL su cui è stato fatto clic, la data e l’ora del clic e il documento che conteneva l’URL
 
   Ulteriori informazioni sul tracciamento [in questa sezione](../start/tracking.md).
-
-
-## Profili attivi {#active-profiles}
-
-Un profilo attivo è un profilo con cui il cliente ha tentato di comunicare negli ultimi 12 mesi tramite qualsiasi canale. Le metriche delle licenze si basano sui profili attivi. Ulteriori informazioni in [Descrizione del prodotto Adobe Campaign](https://helpx.adobe.com/it/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
-
->[!CAUTION]
->
->* Un profilo che è stato oggetto di targeting per diverse consegne viene conteggiato una sola volta.
->
->* I profili target nel contesto di Social marketing su X (precedentemente noti come Twitter) non vengono considerati come profili attivi.
-
-Puoi monitorare il numero di profili attivi nell’istanza direttamente dal Pannello di controllo Campaign Campaign. Per ulteriori informazioni, consulta [Documentazione del Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}.
