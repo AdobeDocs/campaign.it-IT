@@ -4,10 +4,10 @@ description: Scopri come navigare e utilizzare l’interfaccia utente di Campaig
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: 8666c04f0e98cd6444af831d47056c46019c6088
+source-git-commit: 9ad8158f280acae2c2d10161f8ac6157398b9e3d
 workflow-type: tm+mt
-source-wordcount: '997'
-ht-degree: 3%
+source-wordcount: '1003'
+ht-degree: 2%
 
 ---
 
@@ -23,17 +23,7 @@ Puoi accedere ad Adobe Campaign tramite la sua console client o la sua interfacc
 
   Scopri come installare e configurare la console client di Campaign in [questa sezione](../start/connect.md).
 
-<!--    ![](assets/home-page.png) -->
-
 * **Interfaccia utente web** - In qualità di utente di Campaign v8, a partire dalla versione v8.6.1, ora puoi accedere a un ambiente web, disponibile tramite l’interfaccia utente centrale di Adobe Experience Cloud. Puoi quindi connetterti ad Adobe Campaign da un browser web. Questa nuova interfaccia consente di creare, gestire ed eseguire azioni di marketing chiave. Tuttavia, non tutte le funzionalità di Campaign sono disponibili. [Ulteriori informazioni](#ac-web-ui).
-
-  L’interfaccia utente di Campaign Web è disponibile tramite la home page della console client.
-
-  ![](assets/web-ui.png)
-
-  >[!NOTE]
-  >
-  >Se la nuova scheda di accesso non viene visualizzata, verifica che i seguenti campi non siano lasciati vuoti all’interno dell’account esterno Adobe Experience Cloud: **Server**, **Tenant**, **Server di richiamata**, e **Marchio di associazione**.
 
 * **Accesso web** : le funzionalità di accesso web di Adobe Campaign ti consentono di accedere a un sottoinsieme di funzioni di Campaign con un browser web, utilizzando un’interfaccia utente di HTML. Utilizza questa interfaccia web per accedere ai rapporti, controllare e convalidare i messaggi, accedere alle dashboard di monitoraggio e altro ancora.  Ulteriori informazioni su Campaign Web Access [in questa sezione](../start/connect.md#web-access).
 
@@ -42,9 +32,15 @@ Puoi accedere ad Adobe Campaign tramite la sua console client o la sua interfacc
 
 ## Utilizzare la console client {#ui-access}
 
-La console client di Campaign è un’applicazione nativa che comunica con il server applicazioni di Adobe Campaign tramite protocolli Internet standard, come SOAP e HTTP. La console client di Campaign centralizza tutte le funzionalità e le impostazioni e richiede una larghezza di banda minima in quanto si basa su una cache locale. Progettata per una facile distribuzione, la console client di Campaign può essere distribuita da un browser Internet, aggiornata automaticamente e non richiede alcuna configurazione di rete specifica in quanto genera solo traffico HTTP(S).  [Ulteriori informazioni sulla console client di Campaign](../start/connect.md).
+La console client di Campaign è un’applicazione nativa che comunica con il server applicazioni di Adobe Campaign tramite protocolli Internet standard, come SOAP e HTTP. La console client di Campaign centralizza tutte le funzionalità e le impostazioni e richiede una larghezza di banda minima in quanto si basa su una cache locale. Progettata per una facile distribuzione, la console client di Campaign può essere distribuita da un browser Internet, aggiornata automaticamente e non richiede alcuna configurazione di rete specifica in quanto genera solo traffico HTTP(S).  [Ulteriori informazioni sulla console client di Campaign](../start/connect.md). Puoi passare all’interfaccia utente di Campaign Web dalla scheda dedicata nella pagina Home della console client.
 
-![](assets/home-page.png)
+![](assets/web-ui.png)
+
+
+>[!NOTE]
+>
+>Se la nuova scheda di accesso non viene visualizzata, verifica che i seguenti campi non siano lasciati vuoti all’interno dell’account esterno Adobe Experience Cloud: **Server**, **Tenant**, **Server di richiamata**, e **Marchio di associazione**.
+
 
 Puoi anche utilizzare un browser web per accedere a Campaign. In questo contesto, è disponibile solo un sottoinsieme delle funzionalità di Campaign. [Ulteriori informazioni](#web-browser)
 
