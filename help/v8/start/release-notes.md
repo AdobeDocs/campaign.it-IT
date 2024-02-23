@@ -5,10 +5,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 2f8cee4522efb59782a568334fc1300fc39d559f
+source-git-commit: 3b790305984436f1168f9c73aa09df509b2217f0
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 17%
+source-wordcount: '478'
+ht-degree: 16%
 
 ---
 
@@ -21,10 +21,19 @@ In qualità di utente di Managed Cloud Service, l’istanza viene aggiornata da 
 Inoltre, in qualità di cliente, assicurati di utilizzare le versioni supportate più recenti dei sistemi elencati in [Matrice di compatibilità](compatibility-matrix.md).
 
 
+## Versione 8.6.2 {#release-8-6-2}
+
+_23 febbraio 2024_
+
+### Correzioni {#fixes-8-6-2}
+
+Questa versione risolve il seguente problema:
+
+* È stato risolto un problema di prestazioni che poteva verificarsi sull’istanza di mid-sourcing (NEO-72595).
+
 ## Versione 8.6.1 {#release-8-6-1}
 
 _14 febbraio 2024_
-
 
 ### Nuove funzioni {#new-8-6-1}
 
