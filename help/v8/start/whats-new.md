@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: 9ad8158f280acae2c2d10161f8ac6157398b9e3d
+source-git-commit: 43b6ee223d0d6b6a0e2fd9f067378965274e63a4
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1028'
 ht-degree: 77%
 
 ---
@@ -21,8 +21,6 @@ Adobe Campaign v8 offre notevoli miglioramenti a livello di infrastruttura, sicu
 ![](assets/home-page.png)
 
 ## Funzionalità principali{#key-capabilities}
-
-Le funzionalità principali sono elencate di seguito.
 
 ### Gestione centrale del flusso di lavoro{#central-wf-mgt}
 
@@ -74,11 +72,17 @@ Adobe Campaign v8 è disponibile come Cloud Service gestito e fornisce supervisi
 
 L’approccio dei servizi gestiti consente agli addetti al marketing di trarre vantaggio dalla scala operativa e dai vantaggi economici dell’infrastruttura cloud senza la necessità di ricorrere a ingenti risorse IT interne. I team di Adobe di consulenza e implementazione collaborano con il cliente per valutare i piani di marketing, le pratiche esistenti, i requisiti di dati e il volume di messaggi, quindi consigliano i pacchetti di assistenza, supporto e consegna più appropriati. Il team Adobe Campaign Managed Cloud Services può quindi monitorare e creare rapporti su prestazioni della campagna, reputazione del brand, metriche sulla customer experience e altro ancora.
 
-[Scarica questo white paper](assets/do-not-localize/IDC-Report-BusinessValueOfAdobeCampaign.pdf) per ulteriori informazioni sul valore aziendale di Adobe Campaign Managed Cloud Services.
+[!BADGE PDF]{type=Informative}[Leggi questo white paper](assets/do-not-localize/IDC-Report-BusinessValueOfAdobeCampaign.pdf){target="_blank"} per ulteriori informazioni sul valore aziendale di Adobe Campaign Managed Cloud Services.
 
->[!NOTE]
+La nuova architettura cloud consente a Campaign di semplificare i processi, ridurre i costi, gestire i rischi e migliorare la sicurezza dei dati. Il tuo ambiente Campaign v8 è dotato di un Virtual Private Cloud (VPC) dedicato preconfigurato per te.
+
+
+>[!AVAILABILITY]
 >
->La nuova architettura cloud consente a Campaign di semplificare i processi, ridurre i costi, gestire i rischi e migliorare la sicurezza dei dati. Il tuo ambiente Campaign v8 è dotato di un Virtual Private Cloud (VPC) dedicato preconfigurato per te.
+>* Campaign v8 è disponibile **solo** come Cloud Service gestito e non può essere distribuito in ambienti on-premise o ibridi.
+>
+>* La migrazione automatizzata da un ambiente esistente di Campaign Classic v7 non è ancora disponibile.
+
 
 ### Velocità e scalabilità {#speed-scale}
 
@@ -87,12 +91,6 @@ Adobe Campaign ora può sfruttare le tecnologie di database su scala cloud per m
 [Campaign v8 Enterprise](../architecture/enterprise-deployment.md) introduce il concetto di **Full Federated Data Access** (FFDA): adesso tutti i dati sono remoti, nel Cloud Database. Con questa nuova offerta, Campaign v8 semplifica la gestione dati: nel database cloud non è richiesto alcun indice. È sufficiente creare le tabelle, copiare i dati e iniziare. [!DNL Snowflake] è il database cloud di Campaign che ti offre velocità e resistenza, senza il rischio di sovraccarichi per picchi di attività del sistema. La tecnologia del database cloud non richiede una manutenzione specifica per garantire le prestazioni del servizio.
 
 ![](../assets/do-not-localize/glass.png) [Ulteriori informazioni sull’implementazione di Enterprise (FFDA)](../architecture/enterprise-deployment.md)
-
->[!CAUTION]
->
->* Campaign v8 è disponibile **solo** come Cloud Service gestito e non può essere distribuito in ambienti on-premise o ibridi.
->
->* La migrazione automatizzata da un ambiente esistente di Campaign Classic v7 non è ancora disponibile.
 
 
 ## Interfaccia di amministrazione self-service{#self-service-admin}
