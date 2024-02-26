@@ -1,6 +1,6 @@
 ---
 title: Connettersi a Campaign con la console client
-description: Scopri come installare la console client di Campaign sul computer e connettersi ad Adobe Campaign
+description: Scopri come installare la console client di Campaign sul computer e connetterti ad Adobe Campaign
 feature: Client Console
 role: User
 level: Beginner
@@ -8,7 +8,7 @@ exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
 source-git-commit: 9df599ec0a898a1af16cb92d334d50375fde86ba
 workflow-type: tm+mt
 source-wordcount: '850'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
