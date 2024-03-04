@@ -4,11 +4,10 @@ title: Nota tecnica - Aggiornamenti dei sistemi Adobe Campaign
 description: Aggiornamento del sistema Adobe Campaign
 hide: true
 hidefromtoc: true
-exl-id: 78949d94-60b3-44f1-8e5a-d61b5b723e87
-source-git-commit: f1e963a880e8499dbbb16c44831a4ce1b537601f
+source-git-commit: c362e6ff932f5017530434c4b458070ec1a97abc
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 11%
+source-wordcount: '313'
+ht-degree: 9%
 
 ---
 

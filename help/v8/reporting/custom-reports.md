@@ -3,11 +3,10 @@ title: Passaggi chiave per creare un rapporto personalizzato
 description: Scopri i passaggi chiave per creare un rapporto personalizzato
 feature: Reporting
 role: User, Data Engineer
-exl-id: 262c1469-94b4-4f81-9f6f-5c7f481765da
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: c362e6ff932f5017530434c4b458070ec1a97abc
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 3%
+source-wordcount: '175'
+ht-degree: 1%
 
 ---
 
@@ -21,9 +20,9 @@ Per produrre statistiche sui dati nel database di Campaign, puoi creare rapporti
 
 Per creare, pubblicare e consegnare un rapporto di analisi sui dati, effettua le seguenti operazioni:
 
-1. Crea un nuovo rapporto: fai riferimento a [Creare un nuovo rapporto](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/creating-a-new-report.html){target="_blank"},
+1. Crea un nuovo rapporto: fai riferimento a [Creare un nuovo rapporto](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/creating-a-new-report.html?lang=it){target="_blank"},
 1. Raccogliere i dati da analizzare: fare riferimento a [Raccogliere dati da analizzare](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/collecting-data-to-analyze.html){target="_blank"}, and [Use the context](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/collecting-data-to-analyze.html){target="_blank"},
 1. Definisci il contenuto del rapporto con le attività e i relativi contenitori: fai riferimento a [Creare una tabella](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/creating-a-table.html){target="_blank"}, [Creating a chart](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/creating-a-chart.html?lang=it){target="_blank"} and [Element layout](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/element-layout.html){target="_blank"},
-1. Configura le opzioni di visualizzazione: tipo di visualizzazione, rapporti condivisi: fai riferimento a [Definire un contenuto condizionale](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/defining-a-conditional-content.html){target="_blank"} and [Configure access to the report](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html){target="_blank"},
+1. Configura le opzioni di visualizzazione: tipo di visualizzazione, rapporti condivisi: fai riferimento a [Definire un contenuto condizionale](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/defining-a-conditional-content.html){target="_blank"} and [Configure access to the report](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html?lang=it){target="_blank"},
 1. Pubblicare il rapporto (procedura guidata di pubblicazione): consultare [Pubblicare il rapporto](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html#publishing-the-report){target="_blank"},
 1. Converti il rapporto: esportazione, cronologia, visualizzazione in un browser: fai riferimento a [Azioni sui rapporti](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/actions-on-reports.html){target="_blank"}.
