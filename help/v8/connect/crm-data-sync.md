@@ -5,9 +5,9 @@ feature: Salesforce Integration, Microsoft CRM Integration
 role: Admin
 level: Beginner
 exl-id: 2a7ae88e-d47f-416b-84cd-986ab9be6aef
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: e45799f0f3849d53d2c5f593bc02954b3a55fc28
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1315'
 ht-degree: 1%
 
 ---
@@ -87,7 +87,7 @@ Per impostazione predefinita, la data dell’ultima sincronizzazione viene memor
 >
 >Questa nota si applica solo al modello generico **[!UICONTROL CRM Connector]** attività. Per altre attività CRM, il processo è automatico.
 >
->Questa opzione deve essere creata e compilata manualmente in **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**. Deve essere un’opzione di testo e il suo valore deve corrispondere al seguente formato: **aaaa/MM/gg hh:mm:ss**.
+>Questa opzione deve essere creata e compilata manualmente in **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**. Deve essere un’opzione di testo e il suo valore deve corrispondere al seguente formato: **`yyyy/MM/dd hh:mm:ss`**.
 > 
 >È necessario aggiornare manualmente questa opzione per ulteriori importazioni.
 
@@ -106,7 +106,7 @@ Attivazione di **[!UICONTROL Automatic index]** genera tre variabili che possono
 
   >[!NOTE]
   >
-  >Queste date vengono visualizzate nel seguente formato: **aaaa/MM/gg hh:mm:ss**.
+  >Queste date vengono visualizzate nel seguente formato: **`yyyy/MM/dd hh:mm:ss`**.
 
 ### Filtrare i dati {#filtering-data}
 
@@ -129,7 +129,7 @@ L’ordine delle colonne nell’elenco è il seguente:
 
 ![](assets/crm-import-order.png)
 
-### Identificazione del record {#record-identification}
+### Identificazione record {#record-identification}
 
 Invece di importare gli elementi inclusi (e possibilmente filtrati) nel CRM, puoi utilizzare una popolazione calcolata in precedenza nel flusso di lavoro.
 

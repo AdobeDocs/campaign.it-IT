@@ -5,9 +5,9 @@ feature: Profiles, Monitoring
 role: User, Data Engineer
 level: Beginner
 exl-id: 220b7a88-bd42-494b-b55b-b827b4971c9e
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: e45799f0f3849d53d2c5f593bc02954b3a55fc28
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1167'
 ht-degree: 4%
 
 ---
@@ -73,7 +73,7 @@ Per visualizzare l’elenco degli indirizzi messi in quarantena **per l&#39;inte
 >
 >Fine anno 1: (1&#42;0,33)/(1+0,5)=22%.
 >
->Fine anno 2: ((1,22&#42;0,33)+0,33)/(1,5+0,75)=32,5%.
+Fine anno 2: ((1,22&#42;0,33)+0,33)/(1,5+0,75)=32,5%.
 
 Inoltre, la **[!UICONTROL Non-deliverables and bounces]** rapporto incorporato, disponibile dal **Rapporti** sezione di questa home page, visualizza informazioni sugli indirizzi in quarantena, i tipi di errore riscontrati e un raggruppamento degli errori per dominio. Puoi filtrare i dati per una consegna specifica o personalizzare questo rapporto in base alle esigenze.
 
@@ -104,7 +104,7 @@ Il loro stato diventa quindi **[!UICONTROL Valid]**.
 
 >[!CAUTION]
 >
->Destinatari con un indirizzo in una **[!UICONTROL Quarantine]** o **[!UICONTROL Denylisted]** Lo stato non verrà mai rimosso, anche se si riceve un’e-mail.
+Destinatari con un indirizzo in una **[!UICONTROL Quarantine]** o **[!UICONTROL Denylisted]** Lo stato non verrà mai rimosso, anche se si riceve un’e-mail.
 
 È inoltre possibile rimuovere manualmente un indirizzo dall’elenco di quarantena. Per rimuovere un indirizzo dalla quarantena, è possibile:
 
@@ -120,8 +120,8 @@ Di seguito sono riportate le linee guida consigliate per questa query:
 
 * **Testo di errore (testo di quarantena)** contiene &quot;Momen_Code10_InvalidRecipient&quot;
 * **Dominio e-mail (@domain)** uguale a domain1.com OR **Dominio e-mail (@domain)** uguale a domain2.com OR **Dominio e-mail (@domain)** uguale a domain3.com
-* **Stato aggiornamento (@lastModified)** il o dopo il GG/MM/AAAA HH:MM:SS AM
-* **Stato aggiornamento (@lastModified)** entro il GG/MM/AAAA HH:MM:SS PM
+* **Stato aggiornamento (@lastModified)** il o dopo il `MM/DD/YYYY HH:MM:SS AM`
+* **Stato aggiornamento (@lastModified)** il o prima del `MM/DD/YYYY HH:MM:SS PM`
 
 Dopo aver visualizzato l’elenco dei destinatari interessati, aggiungi un **[!UICONTROL Update data]** per impostare il loro stato su **[!UICONTROL Valid]** in modo che vengano rimossi dall’elenco di quarantena dal **[!UICONTROL Database cleanup]** workflow,. Puoi anche semplicemente eliminarli dalla tabella di quarantena.
 
