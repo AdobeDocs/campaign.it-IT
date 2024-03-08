@@ -5,9 +5,9 @@ feature: Experience Platform Integration
 role: Data Engineer
 level: Beginner
 exl-id: 565a1c8b-1930-4b43-bc11-ae517df077d6
-source-git-commit: ea37b72efd03afb212c060f809b6ba077b996701
+source-git-commit: bbe3ba03bfecf5b0931795ff827d25560f955702
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1029'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ Per farlo, segui questi passaggi:
 
    * `CLIENT ID`
    * `CLIENT SECRET`
-   * &#39;ORGANIZATION ID
+   * `ORGANIZATION ID`
 
    ![](assets/ac-lp-oauth.png){width="70%"}
 
