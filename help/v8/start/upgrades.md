@@ -4,7 +4,8 @@ description: Ulteriori informazioni sulle versioni e sugli aggiornamenti di Camp
 feature: Release Notes
 role: User
 level: Beginner
-source-git-commit: 43994eb29af2b85272de0ce4dc34cc66aba2e04a
+exl-id: 04bda36f-051f-41a3-84b3-6af3c5e34ab2
+source-git-commit: a779f243b0ba13dc3fcb7839377ca8766e5f7841
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 14%
@@ -81,8 +82,3 @@ In genere, l’aggiornamento alla versione più recente comporta:
 In qualità di cliente v8, se il tuo account necessita l’aggiornamento a una nuova versione, riceverai una notifica direttamente da Adobe.
 
 Il team di Adobi è a capo della tua organizzazione e la guiderà attraverso questo percorso. Abbiamo organizzato un team di responsabili dell’Assistenza clienti, Product Manager, tecnici, specialisti TechOps e consulenti di prodotto che potrà assisterti e garantire un’esperienza fluida.
-
-
-
-
-

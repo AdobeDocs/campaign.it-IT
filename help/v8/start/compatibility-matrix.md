@@ -5,10 +5,10 @@ feature: Release Notes
 role: Admin
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
-source-git-commit: 374c0df2cd95e656cfbaa1fb355bf1f48828dfee
+source-git-commit: a779f243b0ba13dc3fcb7839377ca8766e5f7841
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 63%
+source-wordcount: '406'
+ht-degree: 52%
 
 ---
 
@@ -26,13 +26,12 @@ Quando versioni specifiche di questi sistemi e strumenti di terze parti raggiung
 
 Per utilizzare la console client di Campaign sono necessari i seguenti sistemi operativi e browser. [Ulteriori informazioni](connect.md).
 
-### Sistemi operativi{#op-systems}
+### Sistemi operativi {#op-systems}
 
 * **Microsoft Windows Server** 2019, 2016
 * **Microsoft Windows** 11, 10
 
 >[!NOTE]
->
 >La versione a 32 bit della console client è obsoleta a partire dalla versione 8.5. A partire dalla versione 8.6, la console client è disponibile solo a 64 bit. Per ulteriori informazioni su come aggiornare il sistema, fare riferimento a [nota tecnica](../../technotes/upgrades/console.md).
 
 ### Browser web {#web-browsers}
@@ -43,14 +42,14 @@ Per utilizzare la console client di Campaign sono necessari i seguenti sistemi o
 
 ## Connettori CRM {#CRMconnectors}
 
-I sistemi CRM compatibili con Adobe Campaign sono elencati di seguito. [Ulteriori informazioni](../connect/crm.md).
+I sistemi CRM per la gestione delle relazioni con i clienti compatibili con Adobe Campaign sono elencati di seguito. Ulteriori informazioni sui connettori CRM [in questa pagina](../connect/crm.md).
 
 * API connettore **Salesforce** versione 49
 * Connettore **Microsoft Dynamics**, API Web: Dynamics 365 on-premise e online
 
 ## Federated Data Access (FDA){#FederatedDataAccessFDA}
 
-I database esterni compatibili con il modulo Federated Data Access (FDA) di Adobe Campaign sono elencati di seguito. [Ulteriori informazioni](../connect/fda.md).
+I database esterni compatibili con il modulo Federated Data Access (FDA) di Adobe Campaign sono elencati di seguito. Ulteriori informazioni su FDA [in questa pagina](../connect/fda.md).
 
 * **[!DNL Amazon Redshift]**
 * **[!DNL Azure Synapse]**, avvio di Campaign v8.5
@@ -62,14 +61,19 @@ I database esterni compatibili con il modulo Federated Data Access (FDA) di Adob
 
 Per inviare [notifiche push](../send/push.md) con Campaign, puoi utilizzare l’SDK di Adobe Experience Platform Mobile configurando l’estensione di Adobe Campaign Classic nell’interfaccia utente di raccolta dati.
 
-Le versioni compatibili per iOS e Android sono descritte in dettaglio [Documentazione di Adobe Developer](https://developer.adobe.com/client-sdks/home/)
+Le versioni compatibili per iOS e Android sono descritte in dettaglio [Documentazione di Adobe Developer](https://developer.adobe.com/client-sdks/home/){target="_blank"}.
+
+## Interfaccia utente web {#web-ui}
+
+I seguenti browser sono compatibili con l’interfaccia utente web di Campaign. Ulteriori informazioni sull’interfaccia web di Campaign [in questa pagina](campaign-ui.md#ac-web-ui).
+
+* **Microsoft Edge**, **Google Chrome**, **Safari** (versioni più recenti)
 
 ## Accesso web {#web-access}
 
-I seguenti browser sono compatibili con Campaign per l’[accesso web](connect.md#web-access).
+I seguenti browser sono compatibili con Campaign per l’accesso web. Ulteriori informazioni sull’accesso web a Campaign [in questa pagina](connect.md#web-access).
 
 * **Microsoft Edge**, **Mozilla Firefox**, **Google Chrome**, **Safari** (versioni più recenti)
-
 
 ## Risorse aggiuntive {#support}
 

@@ -5,16 +5,16 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: b860c843-155e-4abb-bdd6-b68dc7eaa0ee
-source-git-commit: 3a63539bc6bb20fa79bdac76dd60efe7b232458b
+source-git-commit: a779f243b0ba13dc3fcb7839377ca8766e5f7841
 workflow-type: tm+mt
 source-wordcount: '1474'
-ht-degree: 57%
+ht-degree: 56%
 
 ---
 
 # Note sulla versione 2023 {#2023-rn}
 
-In questa pagina sono elencate le nuove funzionalità, i miglioramenti e correzioni introdotte con le **versioni di Campaign v8 2023**.
+In questa pagina sono elencate nuove funzionalità, miglioramenti e correzioni introdotti con **Versioni di Campaign v8 2023**.
 
 ## Versione 8.5.2 {#release-8-5-2}
 
