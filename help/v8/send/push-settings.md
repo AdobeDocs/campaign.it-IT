@@ -6,10 +6,10 @@ feature: Push
 role: Admin, Developer
 level: Intermediate
 exl-id: 1a75f411-3f71-4114-b738-277820dc6138
-source-git-commit: 9d0ddad6acf349a9498471af228640444565ed72
+source-git-commit: 550e3cbd064ae7831855377f1d08d6acecd55c9e
 workflow-type: tm+mt
-source-wordcount: '1631'
-ht-degree: 2%
+source-wordcount: '1664'
+ht-degree: 4%
 
 ---
 
@@ -19,7 +19,7 @@ Per inviare notifiche push con Adobe Campaign, devi prima configurare l’ambien
 
 >[!CAUTION]
 >
->Alcune modifiche importanti al servizio Android Firebase Cloud Messaging (FCM) saranno rilasciate nel 2024 e potrebbero influire sull’implementazione di Adobe Campaign. Per supportare questa modifica, potrebbe essere necessario aggiornare la configurazione dei servizi di abbonamento per i messaggi push Android. Puoi già verificare ed eseguire azioni. [Ulteriori informazioni](../../technotes/upgrades/push-technote.md).
+>Alcune importanti modifiche al servizio Android Firebase Cloud Messaging (FCM) verranno rilasciate nel 2024 e potranno influenzare la tua implementazione di Adobe Campaign. Per supportare questa modifica, potrebbe essere necessario aggiornare la configurazione dei servizi di abbonamento per i messaggi push Android. Puoi già verificare ed eseguire azioni. [Ulteriori informazioni](../../technotes/upgrades/push-technote.md).
 
 Prima di iniziare a inviare notifiche push con Adobe Campaign, è necessario assicurarsi che le configurazioni e le integrazioni siano attive nell’app mobile e per i tag in Adobe Experience Platform. L’SDK di Adobe Experience Platform Mobile fornisce API di integrazione lato client per i dispositivi mobili tramite SDK compatibili con Android e iOS.
 
@@ -213,9 +213,7 @@ Per creare un&#39;app per dispositivi iOS, effettua le seguenti operazioni:
 
    * (Consigliato) **[!UICONTROL Token-based authentication]**: inserisci le impostazioni di connessione APNs **[!UICONTROL Key Id]**, **[!UICONTROL Team Id]** e **[!UICONTROL Bundle Id]** quindi seleziona il certificato p8 facendo clic su **[!UICONTROL Enter the private key...]**. Per ulteriori informazioni su **[!UICONTROL Token-based authentication]**, fare riferimento a [Documentazione di Apple](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns){target="_blank"}.
 
-   * **[!UICONTROL Certificate-based authentication]**: fai clic **[!UICONTROL Enter the certificate...]**  quindi seleziona la chiave p12 e immetti la password fornita dallo sviluppatore dell’app mobile.
-
-   Puoi modificare la modalità di autenticazione in un secondo momento nel **[!UICONTROL Certificate]** della tua app mobile.
+   * **[!UICONTROL Certificate-based authentication]**: fai clic **[!UICONTROL Enter the certificate...]**  quindi seleziona la chiave p12 e immetti la password fornita dallo sviluppatore dell’app mobile. Tieni presente che questo certificato ha una data di scadenza e deve essere rinnovato su base annuale. Per evitare interruzioni del servizio per gli utenti, aggiorna i certificati prima della scadenza. I certificati sono validi per un anno e devi aggiornarli per continuare a comunicare con i numeri APN.
 
 1. Utilizza il **[!UICONTROL Test the connection]** per convalidare la configurazione.
 
