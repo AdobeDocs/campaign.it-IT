@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 source-git-commit: 55324243c70f2bbdace4acac233d1dd470562414
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1028'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 77%
 
 Adobe Campaign v8 è progettato per gli esperti di marketing cross-channel che necessitano della soluzione cloud all’avanguardia per la gestione delle campagne cross-channel con scalabilità aziendale. Fornisce solide funzionalità di ETL e gestione dei dati per aiutare a creare e curare la campagna perfetta. Il motore di orchestrazione fornisce programmi di marketing multi-touch avanzati con un focus principale sui percorsi basati su batch. Viene inoltre fornito di un server di messaggistica in tempo reale scalabile che consente ai team di marketing di inviare messaggi predefiniti basati su un payload completo da qualsiasi sistema IT per scopi quali reimpostazione della password, conferma dell’ordine, ricezione elettronica e molto altro ancora.
 
-Adobe Campaign v8 offre notevoli miglioramenti a livello di infrastruttura, sicurezza, recapito messaggi e monitoraggio. È disponibile come **Cloud Service gestito** che combina i servizi con una supervisione proattiva e modifiche tempestive. Ulteriori informazioni sui Cloud Service gestiti da Campaign [in questa sezione](#acms-desc).
+Adobe Campaign v8 offre notevoli miglioramenti a livello di infrastruttura, sicurezza, recapito messaggi e monitoraggio. È disponibile come **Cloud Service gestito** che combina i servizi con una supervisione proattiva e modifiche tempestive. Per ulteriori informazioni sui Cloud Service gestiti da Campaign, consulta [questa sezione](#acms-desc).
 
 ![](assets/home-page.png)
 
@@ -38,7 +38,7 @@ Con Adobe Campaign, puoi rendere le e-mail migliori, più personalizzate e più 
 
 ![](../assets/do-not-localize/glass.png) [Ulteriori informazioni sulle funzionalità di personalizzazione](create-message.md)
 
-### Gestione dati cliente {#customer-data-mgt}
+### Gestione dei dati dei clienti {#customer-data-mgt}
 
 Visualizza l’immagine completa dei tuoi clienti per creare rapidamente campagne personalizzate su scala aziendale.
 
@@ -46,7 +46,7 @@ Adobe Campaign ti aiuta a creare profili cliente dai dati raccolti su tutti i tu
 
 ![](../assets/do-not-localize/glass.png) [Ulteriori informazioni sulla gestione dei dati dei clienti](audiences.md)
 
-### Gestione di campagne all’avanguardia {#best-in-campaign-mgt}
+### Gestione di campagne all’avanguardia  {#best-in-campaign-mgt}
 
 Adobe Campaign v8 offre agli addetti al marketing funzionalità all’avanguardia per pianificare, avviare e misurare le campagne tra i canali.
 
@@ -55,7 +55,7 @@ Le funzionalità includono un profilo integrato che fornisce una singola vista d
 ![](../assets/do-not-localize/glass.png) [Ulteriori informazioni sulla gestione delle campagne](campaigns.md)
 
 
-### Connessioni a Adobe Experience Platform {#connection-to-aep}
+### Connessioni ad Adobe Experience Platform {#connection-to-aep}
 
 Adobe Campaign v8 supporta i connettori dati con Real-Time CDP e Adobe Experience Platform, in modo che le organizzazioni possano sfruttare il profilo cliente unificato in tempo reale.
 
@@ -68,13 +68,13 @@ Inoltre puoi configurare l’ottimizzazione del tempo di invio e il valore di en
 
 ### Managed Cloud Services {#acms-desc}
 
-Adobe Campaign v8 è disponibile come Cloud Service gestito e fornisce supervisione proattiva, avvisi tempestivi e governance dei servizi. Il Cloud Service gestito da Adobe offre agli addetti al marketing una soluzione di gestione delle campagne cross-channel più agile, sicura e scalabile con un basso costo totale di proprietà. La nuova offerta unisce i servizi a una sorveglianza proattiva e a un avviso tempestivo.
+Adobe Campaign v8 è disponibile come Cloud Services gestito, fornisce supervisione proattiva, avvisi tempestivi e governance dei servizi. Il Cloud Service gestito da Adobe offre agli addetti al marketing una soluzione di gestione delle campagne cross-channel più agile, sicura e scalabile con un basso costo totale di proprietà. La nuova offerta unisce i servizi a una sorveglianza proattiva e a un avviso tempestivo.
 
-L’approccio dei servizi gestiti consente agli addetti al marketing di trarre vantaggio dalla scala operativa e dai vantaggi economici dell’infrastruttura cloud senza la necessità di ricorrere a ingenti risorse IT interne. I team di Adobe di consulenza e implementazione collaborano con il cliente per valutare i piani di marketing, le pratiche esistenti, i requisiti di dati e il volume di messaggi, quindi consigliano i pacchetti di assistenza, supporto e consegna più appropriati. Il team Adobe Campaign Managed Cloud Services può quindi monitorare e creare rapporti su prestazioni della campagna, reputazione del brand, metriche sulla customer experience e altro ancora.
+L’approccio Managed Services consente ai marketer di trarre vantaggio dalla scala operativa e dalle economie dell’infrastruttura cloud, senza la necessità di ricorrere a ingenti risorse IT interne. I team di consulenza e implementazione di Adobe collaborano con la clientela per valutare i piani di marketing, le pratiche esistenti, i requisiti di dati e il volume di messaggi, quindi consigliano i pacchetti di assistenza, supporto e recapito messaggi più appropriati. Il team Adobe Campaign Managed Cloud Services può quindi monitorare e creare rapporti su prestazioni della campagna, reputazione del brand, metriche sulla customer experience e altro ancora.
 
-[!BADGE PDF]{type=Informative}[Leggi questo white paper](assets/do-not-localize/IDC-Report-BusinessValueOfAdobeCampaign.pdf){target="_blank"} per ulteriori informazioni sul valore aziendale di Adobe Campaign Managed Cloud Services.
+[!BADGE PDF]{type=Informative}Per ulteriori informazioni sul valore aziendale di Adobe Campaign Managed Cloud Services, [leggi questo white paper](assets/do-not-localize/IDC-Report-BusinessValueOfAdobeCampaign.pdf){target="_blank"}.
 
-La nuova architettura cloud consente a Campaign di semplificare i processi, ridurre i costi, gestire i rischi e migliorare la sicurezza dei dati. Il tuo ambiente Campaign v8 è dotato di un Virtual Private Cloud (VPC) dedicato preconfigurato per te.
+La nuova architettura cloud consente a Campaign di semplificare i processi, ridurre i costi, gestire i rischi e migliorare la sicurezza dei dati. Il tuo ambiente Campaign v8 è dotato di un Virtual Private Cloud (VPC) dedicato e preconfigurato.
 
 
 >[!AVAILABILITY]
@@ -84,7 +84,7 @@ La nuova architettura cloud consente a Campaign di semplificare i processi, ridu
 >* La migrazione automatizzata da un ambiente esistente di Campaign Classic v7 non è ancora disponibile.
 
 
-### Velocità e scalabilità {#speed-scale}
+### Velocità e scalabilità  {#speed-scale}
 
 Adobe Campaign ora può sfruttare le tecnologie di database su scala cloud per migliorarne notevolmente la scalabilità e la velocità.
 
@@ -105,6 +105,6 @@ Grazie a un’interfaccia utente intuitiva, gli amministratori possono monitorar
 
 ![](assets/subdomain1.png)
 
-![](../assets/do-not-localize/glass.png) [Ulteriori informazioni sul Pannello di controllo Campaign di Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=it){target="_blank"}
+![](../assets/do-not-localize/glass.png) [Ulteriori informazioni sul Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=it){target="_blank"}
 
 

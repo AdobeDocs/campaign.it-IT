@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d
 source-git-commit: 86a6979b8258bbe3136ed9e4de6ce44a8164d5d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '994'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe Campaign fornisce una piattaforma per la progettazione di esperienze clien
 
 Adobe Campaign v8 è lo strumento per campagne di nuova generazione creato per vari canali di marketing come e-mail, notifiche push, SMS e direct mail. Fornisce solide funzionalità di ETL e gestione dei dati per aiutare a creare e curare la campagna perfetta. Il motore di orchestrazione fornisce programmi di marketing multi-touch avanzati con un focus principale sui percorsi basati su batch. Viene inoltre fornito di un server di messaggistica in tempo reale scalabile che consente ai team di marketing di inviare messaggi predefiniti basati su un payload completo da qualsiasi sistema IT per scopi quali reimpostazione della password, conferma dell’ordine, ricezione elettronica e molto altro ancora.
 
-Adobe Campaign v8 offre notevoli miglioramenti a livello di infrastruttura, sicurezza, recapito messaggi e monitoraggio. È disponibile come **Cloud Service gestito** che combina i servizi con una supervisione proattiva e modifiche tempestive. Ulteriori informazioni sui Cloud Service gestiti da Campaign [in questa pagina](whats-new.md#acms-desc).
+Adobe Campaign v8 offre notevoli miglioramenti a livello di infrastruttura, sicurezza, recapito messaggi e monitoraggio. È disponibile come **Cloud Service gestito** che combina i servizi con una supervisione proattiva e modifiche tempestive. Per ulteriori informazioni su Campaign Managed Cloud Services, visita [questa pagina](whats-new.md#acms-desc).
 
 Utilizza Campaign per:
 
