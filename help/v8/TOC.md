@@ -8,7 +8,7 @@ breadcrumb-title: Documentazione di Campaign v8
 source-git-commit: a779f243b0ba13dc3fcb7839377ca8766e5f7841
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 82%
+ht-degree: 99%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 82%
 + Introduzione {#new}
    + [Introduzione ad Adobe Campaign](start/get-started.md)
    + [Funzionalità principali](start/whats-new.md)
-   + [Scopri l’interfaccia utente](start/campaign-ui.md)
+   + [Scoprire l’interfaccia utente](start/campaign-ui.md)
    + [Connessione a Campaign](start/connect.md)
    + [Componenti e processi](start/ac-components.md)
    + [Da Classic v7 a v8](start/v7-to-v8.md)
@@ -44,8 +44,8 @@ ht-degree: 82%
    + E-mail {#emails}
       + [Progettare e convalidare le e-mail](send/email.md)
       + [Collegamento a una pagina mirror](send/mirror-page.md)
-      + [Aggiungi un indirizzo Ccn](send/email-bcc.md)
-      + [Definire parametri e-mail aggiuntivi](send/email-parameters.md)
+      + [Aggiungere un indirizzo Ccn](send/email-bcc.md)
+      + [Definire i parametri e-mail aggiuntivi](send/email-parameters.md)
       + [Inviare e monitorare le e-mail](send/send.md)
    + [SMS](send/sms.md)
    + Notifiche push {#push}
@@ -138,7 +138,7 @@ ht-degree: 82%
    + [Documentazione del flusso di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=it)
 + Integrazioni {#connect}
    + [Connettere Campaign con altre soluzioni](connect/integration.md)
-   + Campaign + Experience Platform {#ac-aep}
+   + Campaign ed Experience Platform {#ac-aep}
       + [Condividere e sincronizzare tipi di pubblico e attributi di profilo](connect/ac-aep.md)
       + [Aggiornare i profili AEP dalle pagine di destinazione di Campaign](connect/ac-aep-landing-pages.md)
    + [Campaign + Journey Optimizer](connect/ac-ajo.md)
@@ -146,10 +146,10 @@ ht-degree: 82%
    + [Campaign + Experience Manager](connect/ac-aem.md)
    + [Campaign + Target](connect/ac-at.md)
    + [Campaign + trigger di Experience Cloud](connect/ac-triggers.md)
-   + [Campaign + Workfront](connect/ac-workfront.md)
-   + [Campaign + X (Twitter)](connect/ac-tw.md)
-   + [Campaign + database esterno](connect/fda.md)
-   + Campaign + CRM {#ac-crm}
+   + [Campaign e Workfront](connect/ac-workfront.md)
+   + [Campaign e X (Twitter)](connect/ac-tw.md)
+   + [Campaign e database esterno](connect/fda.md)
+   + Campaign e CRM {#ac-crm}
       + [Introduzione ai connettori CRM](connect/crm.md)
       + [Utilizzare Campaign e SFDC](connect/ac-sfdc.md)
       + [Utilizzare Campaign e Microsoft Dynamics](connect/ac-ms-dyn.md)
@@ -179,7 +179,7 @@ ht-degree: 82%
       + [Impostazioni dell’interfaccia utente](config/ui-settings.md)
       + [Gestire le cartelle e le visualizzazioni](audiences/folders-and-views.md)
       + [Impostazioni dei messaggi transazionali](config/transactional-msg-settings.md)
-      + [Integrare gli SDK di Campaign con l’app - PAGINA OBSOLETA](config/push-config.md)
+      + [Integrare gli SDK di Campaign con la tua app - PAGINA OBSOLETA](config/push-config.md)
       + [Account esterni](config/external-accounts.md)
 + Risorse per sviluppatori {#developer}
    + [Modello dati di Campaign](dev/datamodel.md)
@@ -190,8 +190,8 @@ ht-degree: 82%
       + [Filtrare gli schemi](dev/filter-schema.md)
       + [Struttura dello schema](dev/schema-structure.md)
       + [Mappatura del database](dev/database-mapping.md)
-      + [Gestione delle chiavi](dev/database-keys.md)
-      + [Gestione dei collegamenti](dev/database-links.md)
+      + [Gestioni delle chiavi](dev/database-keys.md)
+      + [Gestione collegamento](dev/database-links.md)
       + [Limitare la visualizzazione di dati personali](dev/restrict-pi-view.md)
       + [Utilizzare una tabella dei destinatari personalizzata](dev/custom-recipient.md)
       + [Aggiornare il database](dev/update-database-structure.md)
