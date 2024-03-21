@@ -5,7 +5,7 @@ feature: Email
 role: Data Engineer
 level: Beginner
 exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
-source-git-commit: 84b90cbd150c81edc81f5cc653db6fbe96af80aa
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 2%
@@ -32,7 +32,7 @@ Dal dashboard di consegna, puoi controllare i messaggi elaborati e i registri di
 >Gli stati di consegna non vengono visualizzati in tempo reale. Ulteriori informazioni su Email Feedback Service [in questa sezione](#email-feedback-service).
 
 
-![](../assets/do-not-localize/book.png) [Ulteriori informazioni sul monitoraggio della consegna nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html){target="_blank"}
+[Ulteriori informazioni sul monitoraggio della consegna nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html){target="_blank"}
 
 ## MTA della campagna {#mta}
 

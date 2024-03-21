@@ -5,7 +5,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 55c177b6931ef2c427c8e9793b463274b8abb015
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 76%
@@ -37,7 +37,7 @@ La nuova offerta combina servizi all’avanguardia con un monitoraggio proattivo
 
 In qualità di utente di [!DNL Campaign Classic], tieni presente che la maggior parte delle funzioni di [!DNL Campaign Classic] v7 sono disponibili anche in [!DNL Campaign] v8, ad eccezione di alcune che sono elencate in [questa sezione](#gs-removed).
 
->La nuova architettura cloud consente a Campaign di semplificare i processi, ridurre i costi, gestire i rischi e migliorare la sicurezza dei dati. Il tuo ambiente Campaign v8 è dotato di un Virtual Private Cloud (VPC) dedicato preconfigurato per te.
+>La nuova architettura cloud consente a Campaign di semplificare i processi, ridurre i costi, gestire i rischi e migliorare la sicurezza dei dati. Il tuo ambiente Campaign v8 è dotato di un Virtual Private Cloud (VPC) dedicato e preconfigurato.
 
 
 ## Architettura ibrida {#hybrid-archi}
@@ -50,7 +50,7 @@ Di conseguenza:
 * Lo stato delle consegne non viene aggiornato all’istante: viene eseguito un processo tecnico sull’istanza Marketing che aggiornerà gli stati di consegna in modo tempestivo.
 
 
-![](../assets/do-not-localize/glass.png) Ulteriori informazioni sull’invio di bozze dei messaggi transazionali durante la transizione da v7 a [questa pagina](../send/transactional-template.md#transition-from-v7).
+Ulteriori informazioni sull’invio di bozze dei messaggi transazionali durante la transizione da v7 a [questa pagina](../send/transactional-template.md#transition-from-v7).
 
 
 ## [!DNL Campaign] e [!DNL Snowflake] {#ac-gs-snowflake}
@@ -59,14 +59,14 @@ Nel suo [Distribuzione aziendale (FFDA)](../architecture/enterprise-deployment.m
 
 Campaign v8 Enterprise introduce il concetto di **Full Federated Data Access** (FFDA): adesso tutti i dati sono remoti, nel database cloud. Con questa nuova architettura, l’implementazione di Campaign v8 Enterprise (FFDA) semplifica la gestione dei dati, in quanto nel database cloud non è richiesto alcun indice. È sufficiente creare le tabelle, copiare i dati e iniziare. La tecnologia del database cloud non richiede una manutenzione specifica per garantire le prestazioni del servizio.
 
-![](../assets/do-not-localize/glass.png) Ulteriori informazioni sull’architettura di [!DNL Campaign] v8 sono disponibili in [questa pagina](../architecture/architecture.md).
+Ulteriori informazioni su [!DNL Campaign] Architettura v8 in [questa pagina](../architecture/architecture.md).
 
 
 ## Utilizza il tuo Adobe ID per connetterti a Campaign{#adobe-id}
 
 Gli utenti di Campaign si connettono unicamente tramite il proprio Adobe ID. Lo stesso Adobe ID viene utilizzato per mantenere tutti i piani e i prodotti di Adobe associati a un singolo account, per tutte le soluzioni di Adobe Experience Cloud.
 
-![](../assets/do-not-localize/glass.png) Scopri come connetterti a [!DNL Campaign] in [questa pagina](connect.md).
+Scopri come connetterti a [!DNL Campaign] in [questa pagina](connect.md).
 
 ## Analizzare i dati con i cubi{#adobe-reporting}
 

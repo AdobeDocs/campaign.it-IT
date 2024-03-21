@@ -5,10 +5,10 @@ feature: Configuration, Application Settings
 role: Developer
 level: Intermediate, Experienced
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 8%
+source-wordcount: '451'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ Scopri come **Personalizzare l’istanza di Campaign**.
 
 Adobe Campaign utilizza gli schemi di dati per:
 
-* Definire il modo in cui gli oggetti dati all’interno dell’applicazione sono legati alle tabelle del database sottostanti
+* Definire il modo in cui gli oggetti dati all&#39;interno dell&#39;applicazione sono legati alle tabelle di database sottostanti
 * Definire i collegamenti tra i diversi oggetti dati all’interno dell’applicazione Campaign
 * Definire e descrivere i singoli campi inclusi in ciascun oggetto
 
@@ -44,9 +44,9 @@ Per aggiungere un tipo di dati completamente nuovo che non esiste come standard 
 
 **Argomenti correlati**
 
-![](../assets/do-not-localize/book.png) Esempio di modifica dello schema in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#configuring-campaign-classic){target="_blank"}
+Esempio di modifica dello schema in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#configuring-campaign-classic){target="_blank"}
 
-![](../assets/do-not-localize/book.png) Caso d’uso: collegare un campo a una tabella di riferimento esistente in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#uc-link){target="_blank"}
+Caso d’uso: collegare un campo a una tabella di riferimento esistente in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#uc-link){target="_blank"}
 
 
 ## Modificare i moduli di input

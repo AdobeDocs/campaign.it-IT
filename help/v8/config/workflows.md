@@ -5,10 +5,10 @@ feature: Workflows
 role: User, Admin
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '1570'
-ht-degree: 4%
+source-wordcount: '1307'
+ht-degree: 2%
 
 ---
 
@@ -43,9 +43,9 @@ Per ulteriori informazioni sull’interfaccia utente e l’esecuzione dei flussi
 
 * [Creare un pubblico in un flusso di lavoro per una campagna di marketing](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=it)
 
-## Attività dei flussi di lavoro {#wf-activities}
+## Attività del flussi di lavoro {#wf-activities}
 
-Ulteriori informazioni sulle attività del flusso di lavoro disponibili in [questa sezione](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html)
+Ulteriori informazioni sulle attività del flusso di lavoro disponibili in [questa sezione](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html?lang=it)
 
 Le attività del flusso di lavoro sono raggruppate per categoria. Sono disponibili le quattro categorie di attività seguenti:
 
@@ -68,7 +68,7 @@ Tieni presente che quando utilizzi **[!UICONTROL Change Data Source]** attività
 
 Per utilizzare **[!UICONTROL Change Data Source]** attività:
 
-1. Creare un flusso di lavoro.
+1. Crea un flusso di lavoro.
 
 1. Effettua query sui destinatari target con una **[!UICONTROL Query]** attività.
 
@@ -121,11 +121,11 @@ Scopri come creare una campagna ricorrente in [questa pagina](https://experience
 
 Utilizza la messaggistica transazionale di Campaign per automatizzare i messaggi generati dagli eventi attivati dai sistemi di informazione. Questi messaggi transazionali possono essere, ad esempio, fatture, conferme di ordini, conferme di spedizione, modifiche della password, notifiche di non disponibilità del prodotto, rendiconti dei conti o creazione di account sul sito web. Questi messaggi possono essere inviati singolarmente o in batch tramite e-mail, SMS o notifiche push.
 
-![](../assets/do-not-localize/glass.png) Ulteriori informazioni sulle funzionalità di messaggistica transazionale in in [questa sezione](../send/transactional.md).
+Ulteriori informazioni sulle funzionalità di messaggistica transazionale in in [questa sezione](../send/transactional.md).
 
 Connetti Adobe Campaign e Adobe Analytics per recuperare le azioni degli utenti e inviare messaggi personalizzati in tempo reale.
 
-![](../assets/do-not-localize/glass.png) Scopri come integrare Campaign con altre soluzioni in [questa sezione](../start/connect.md)
+Scopri come integrare Campaign con altre soluzioni in [questa sezione](../start/connect.md)
 
 
 ## Casi d’uso end-to-end del flusso di lavoro{#end-to-end-uc}
@@ -171,7 +171,7 @@ Scopri come creare un flusso di lavoro che consenta di monitorare lo stato di un
 * [Inviare avvisi personalizzati agli operatori](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/send-alerts-to-operators.html)
 Scopri come inviare un avviso a un operatore che conterrà il nome dei profili che hanno aperto una newsletter ma non hanno fatto clic sul collegamento in essa contenuto.
 
-### Gestione dei dati {#management}
+### Gestione dati {#management}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 

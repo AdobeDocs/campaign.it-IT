@@ -4,20 +4,21 @@ description: Scopri come navigare e utilizzare l’interfaccia utente di Campaig
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: 9ad8158f280acae2c2d10161f8ac6157398b9e3d
+exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '1003'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
-# Scopri l’interfaccia utente {#ui-client-console}
+# Scoprire l’interfaccia utente {#ui-client-console}
 
 Puoi accedere ad Adobe Campaign tramite la sua console client o la sua interfaccia utente web. Puoi anche utilizzare le API per gestire i dati ed eseguire attività nella piattaforma Campaign.
 
 >[!CAUTION]
 >
->Questa documentazione si concentra sull’utilizzo della console client di Campaign. Se utilizzi l’interfaccia utente di Campaign Web, consulta [questa documentazione](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"}.
+>Questa documentazione si concentra sull’utilizzo della console client di Campaign. Se utilizzi l’interfaccia utente di Campaign Web, consulta [questa documentazione](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=it){target="_blank"}.
 
 * **Console client** - La console client di Campaign è un’applicazione nativa che comunica con il server applicazioni Adobe Campaign tramite protocolli Internet standard, come SOAP e HTTP. La console client di Campaign centralizza tutte le funzionalità e le impostazioni e richiede una larghezza di banda minima in quanto si basa su una cache locale. Progettata per una facile distribuzione, la console client di Campaign può essere distribuita da un browser Internet, aggiornata automaticamente e non richiede alcuna configurazione di rete specifica in quanto genera solo traffico HTTP(S). [Ulteriori informazioni](#ui-access)
 
@@ -83,7 +84,7 @@ You can also access a subset of Campaign capabilities through the a web browser.
 
 The web access interface is similar to the console interface. From a browser, you can use the same navigation and display features as in the console, but you can perform only a reduced set of actions on campaigns. For example, you can view and cancel campaigns, but you cannot modify campaigns. 
 
-![](../assets/do-not-localize/glass.png) [Learn more about Campaign web access](../start/connect.md#web-access).-->
+[Learn more about Campaign web access](../start/connect.md#web-access).-->
 
 ### Accedere a Campaign Explorer {#ac-explorer-ui}
 
@@ -106,9 +107,9 @@ In qualità di utente della console client di Campaign v8, a partire dalla versi
 
 ![Home page dell’interfaccia utente web di Adobe Campaign](assets/ac-web-home.png)
 
-Ulteriori informazioni sulla nuova interfaccia utente di Campaign Web in [questa documentazione](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"}.
+Ulteriori informazioni sulla nuova interfaccia utente di Campaign Web in [questa documentazione](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=it){target="_blank"}.
 
-Funzionalità, configurazione e impostazioni aggiuntive e avanzate sono disponibili solo nella console client. Ulteriori informazioni sulle funzionalità disponibili in entrambe le interfacce utente [nella documentazione dell’interfaccia utente di Campaign Web](https://experienceleague.adobe.com/docs/campaign-web/v8/start/capability-matrix.html){target="_blank"}.
+Funzionalità, configurazione e impostazioni aggiuntive e avanzate sono disponibili solo nella console client. Ulteriori informazioni sulle funzionalità disponibili in entrambe le interfacce utente [nella documentazione dell’interfaccia utente di Campaign Web](https://experienceleague.adobe.com/docs/campaign-web/v8/start/capability-matrix.html?lang=it){target="_blank"}.
 
 
 ## Lingue supportate {#languages}

@@ -5,7 +5,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
-source-git-commit: 193d2459d5a4ba55822c20a7e376d18b3c6d8795
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 73%
@@ -28,7 +28,7 @@ Hai bisogno di assistenza mentre lavori con Campaign? Leggi le principali domand
 
    Per connetterti ad Adobe Campaign, scarica e installa la console client di Campaign.
 
-   ![](../assets/do-not-localize/glass.png) [Per ulteriori informazioni, fai clic qui](connect.md).
+   [Fai clic qui per ulteriori informazioni](connect.md).
 
    A partire dalla versione v8.6 di Campaign, puoi accedere alla nuova versione **Interfaccia utente di Campaign Web**, disponibile nell’ambiente Adobe Experience Cloud centrale. Experience Cloud è un insieme integrato di applicazioni, prodotti e servizi per il marketing digitale di Adobe. Grazie alla sua interfaccia intuitiva, puoi accedere rapidamente alle applicazioni cloud, alle funzionalità dei prodotti e ai servizi.
 
@@ -43,9 +43,9 @@ Hai bisogno di assistenza mentre lavori con Campaign? Leggi le principali domand
 
    La capacità di recapito dei messaggi e-mail, un aspetto critico per il successo del programma di marketing di ogni mittente, è caratterizzata da criteri e regole in continua evoluzione. Per orientarsi nel mondo digitale e raggiungere al meglio i vari tipi di pubblico, è necessario ottimizzare regolarmente la strategia e-mail tenendo conto delle tendenze chiave di recapito messaggi.
 
-   ![](../assets/do-not-localize/book.png) Per ulteriori informazioni, consulta questa guida [Best practice per la consegna](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=it){target="_blank"}
+   Per ulteriori informazioni, consulta questa guida [Best practice per la consegna](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=it){target="_blank"}
 
-   ![](../assets/do-not-localize/book.png) Scopri come implementare il recapito messaggi in Campaign [in questa guida](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=it){target="_blank"}
+   Scopri come implementare il recapito messaggi in Campaign [in questa guida](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=it){target="_blank"}
 
 1. **Come posso assicurarmi che la consegna venga inviata senza errori?**
 

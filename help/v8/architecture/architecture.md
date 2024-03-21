@@ -5,7 +5,7 @@ feature: Architecture, Deployment
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 86fa52c445b89227cfabb65e74627c5da7d3db1f
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 10%
@@ -26,7 +26,7 @@ Sono disponibili due tipi di ambienti:
 
 Puoi esportare e importare pacchetti da un ambiente a un altro.
 
-![](../assets/do-not-localize/book.png) Ulteriori informazioni sui pacchetti in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html){target="_blank"}
+Ulteriori informazioni sui pacchetti in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html){target="_blank"}
 
 ## Modelli di distribuzione {#ac-deployment}
 
@@ -48,7 +48,7 @@ Nel suo [Distribuzione FDA](fda-deployment.md), [!DNL Adobe Campaign] v8 può es
 
 Nell&#39;ambito di una [Distribuzione aziendale (FFDA)](enterprise-deployment.md), [!DNL Adobe Campaign] v8 funziona con due database: uno locale [!DNL Campaign] database per la messaggistica in tempo reale, le query unitarie dell’interfaccia utente, le operazioni di scrittura tramite API e un cloud [!DNL Snowflake] database per l’esecuzione della campagna, le query batch e l’esecuzione dei flussi di lavoro.
 
-Campaign v8 Enterprise introduce il concetto di **Full Federated Data Access** (FFDA): adesso tutti i dati sono remoti, nel database cloud. Con questa nuova architettura, l’implementazione di Campaign v8 Enterprise (FFDA) semplifica la gestione dei dati, in quanto nel database cloud non è richiesto alcun indice. È sufficiente creare le tabelle, copiare i dati e iniziare. La tecnologia del database cloud non richiede una manutenzione specifica per garantire la qualità del servizio.
+Campaign v8 Enterprise introduce il concetto di **Full Federated Data Access** (FFDA): adesso tutti i dati sono remoti, nel database cloud. Con questa nuova architettura, l’implementazione di Campaign v8 Enterprise (FFDA) semplifica la gestione dei dati, in quanto nel database cloud non è richiesto alcun indice. È sufficiente creare le tabelle, copiare i dati e iniziare. La tecnologia del database cloud non richiede una manutenzione specifica per garantire le prestazioni del servizio.
 
 ![](assets/P4-architecture.png){zoomable=&quot;yes&quot;}
 
@@ -100,7 +100,7 @@ Per impostare gli account esterni suddivisi come account predefinito per l’inv
 
 La messaggistica transazionale (Message Center) è il modulo di Campaign progettato per la gestione dei messaggi di attivazione.
 
-![](../assets/do-not-localize/glass.png) Scopri come inviare messaggi transazionali in [questa sezione](../send/transactional.md).
+Scopri come inviare messaggi transazionali in [questa sezione](../send/transactional.md).
 
 In risposta a un’azione di un cliente su un sito web, un evento viene inviato a Campaign tramite un’API REST, il modello del messaggio viene compilato con le informazioni o i dati forniti tramite la chiamata API e un messaggio transazionale viene inviato in tempo reale al cliente. Questi messaggi possono essere inviati singolarmente o in batch tramite e-mail, SMS o notifiche push.
 
@@ -108,7 +108,7 @@ In questa architettura specifica, la cella di esecuzione è separata dall’ista
 
 * Il **Istanza di controllo** (o istanza Marketing) viene utilizzato dagli addetti al marketing e dai team IT per creare, configurare e pubblicare modelli di messaggio. Questa istanza centralizza anche il monitoraggio e la cronologia degli eventi.
 
-  ![](../assets/do-not-localize/glass.png) Scopri come creare e pubblicare modelli di messaggio in [questa sezione](../send/transactional.md).
+  Scopri come creare e pubblicare modelli di messaggio in [questa sezione](../send/transactional.md).
 
 * Il **Istanza di esecuzione** archivia gli eventi in arrivo (ad esempio, reimpostazione della password o ordini da un sito web) e invia messaggi personalizzati. Possono essere presenti più istanze di esecuzione per elaborare i messaggi tramite il load-balancer e scalare il numero di eventi da eseguire per ottenere la massima disponibilità.
 

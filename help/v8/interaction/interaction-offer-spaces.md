@@ -5,10 +5,10 @@ feature: Interaction, Offers
 role: User, Admin
 level: Beginner
 exl-id: c116d86a-d3e2-47e3-a641-e2d7c8cc575c
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 3%
+source-wordcount: '837'
+ht-degree: 1%
 
 ---
 
@@ -94,7 +94,7 @@ Quando una proposta di offerta è **creato**, il suo stato viene aggiornato.
 
 In **[!UICONTROL Design]** in ogni spazio dell’offerta, configura lo stato da applicare al momento della creazione di una proposta, in base alle informazioni da visualizzare nei rapporti dell’offerta.
 
-A tale scopo, segui la procedura indicata di seguito:
+A questo scopo, segui la procedura indicata di seguito:
 
 1. Vai a **[!UICONTROL Storage]** dello spazio desiderato.
 1. Seleziona lo stato da applicare alla proposta al momento della sua creazione.
@@ -105,7 +105,7 @@ A tale scopo, segui la procedura indicata di seguito:
 
 Una volta proposta un’offerta **accettato**, utilizza uno dei valori forniti per impostazione predefinita per configurare il nuovo stato della proposta. L’aggiornamento viene applicato quando un destinatario fa clic su un collegamento nell’offerta.
 
-A tale scopo, segui la procedura indicata di seguito:
+A questo scopo, segui la procedura indicata di seguito:
 
 1. Vai a **[!UICONTROL Storage]** dello spazio desiderato.
 1. Seleziona lo stato da applicare alla proposta quando viene accettata.
@@ -156,4 +156,4 @@ Se un destinatario non è idoneo per nessuna offerta, ciò viene mostrato nell�
 
 L’anteprima può ignorare i contesti quando sono limitati a uno spazio. Ciò si verifica quando lo schema di interazione è stato esteso per aggiungere campi a cui si fa riferimento in uno spazio utilizzando un canale in entrata.
 
-![](../assets/do-not-localize/book.png)  Per ulteriori informazioni, consulta questo esempio in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html){target="_blank"}.
+Per ulteriori informazioni, consulta questo esempio in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html){target="_blank"}.

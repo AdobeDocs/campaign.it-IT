@@ -5,10 +5,10 @@ feature: Profiles, Data Management
 role: User
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
-source-git-commit: e0ec2940db3120dc8fbfd17dd2f5083bbf31232c
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 100%
+source-wordcount: '213'
+ht-degree: 84%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 100%
 
 Campaign ti aiuta ad aggiungere contatti al database Cloud. Puoi caricare un file, pianificare e automatizzare più aggiornamenti dei contatti alla volta, raccogliere dati sul web o inserire informazioni di profilo direttamente nella tabella dei destinatari.
 
-![](../assets/do-not-localize/glass.png) Introduzione ai [tipi di pubblico](audiences.md)
+Introduzione a [audience](audiences.md)
 
-![](../assets/do-not-localize/glass.png) Il [modello dati](../dev/datamodel.md) di Campaign
+Comprendere Campaign [modello dati](../dev/datamodel.md)
 
 ## Importare profili con un flusso di lavoro
 
@@ -33,7 +33,7 @@ Crea ed esegui un processo di importazione dati generico per caricare i contatti
 
 ![](assets/new-import.png)
 
-![](../assets/do-not-localize/book.png) Scopri come eseguire processi di importazione unitari per alimentare il database, nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=it){target="_blank"}.
+Scopri come eseguire processi di importazione unitari per alimentare il database in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=it){target="_blank"}.
 
 ## Raccogliere profili tramite app web
 
@@ -41,7 +41,7 @@ Utilizza Campaign per creare moduli web e raccogliere e gestire le informazioni 
 
 ![](assets/web-form-page.png)
 
-![](../assets/do-not-localize/book.png) Scopri come creare moduli web, nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=it){target="_blank"}.
+Scopri come creare moduli web in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=it){target="_blank"}.
 
 **Argomenti correlati**
 
