@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 193d2459d5a4ba55822c20a7e376d18b3c6d8795
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 82%
+source-wordcount: '706'
+ht-degree: 73%
 
 ---
 
@@ -30,9 +30,14 @@ Hai bisogno di assistenza mentre lavori con Campaign? Leggi le principali domand
 
    ![](../assets/do-not-localize/glass.png) [Per ulteriori informazioni, fai clic qui](connect.md).
 
+   A partire dalla versione v8.6 di Campaign, puoi accedere alla nuova versione **Interfaccia utente di Campaign Web**, disponibile nell’ambiente Adobe Experience Cloud centrale. Experience Cloud è un insieme integrato di applicazioni, prodotti e servizi per il marketing digitale di Adobe. Grazie alla sua interfaccia intuitiva, puoi accedere rapidamente alle applicazioni cloud, alle funzionalità dei prodotti e ai servizi.
+
+   Scopri come connetterti ad Adobe Experience Cloud e come accedere all’interfaccia di Adobe Campaign Web [in questa pagina](campaign-ui.md#ac-web-ui).
+
+   Per ulteriori informazioni, consulta [Documentazione dell’interfaccia utente web di Adobe Campaign](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
 1. **Campaign v8 può essere installato in un ambiente locale o ibrido?**
 
-   Per il momento, Campaign v8 è disponibile solo in Managed Cloud Services, interamente in hosting gestito da Adobe.
+   Campaign v8 è disponibile solo in Cloud Service gestiti, interamente in hosting gestito da Adobe.
 
 1. **Come migliorare il recapito messaggi e-mail?**
 
@@ -60,11 +65,15 @@ Hai bisogno di assistenza mentre lavori con Campaign? Leggi le principali domand
 
    Un sottodominio è una divisione del dominio che può essere utilizzata per isolare i brand o vari tipi di traffico (messaggi transazionali, informazioni di marketing, ecc.).
 
-   ![](../assets/do-not-localize/speech.png) In qualità di utente di Managed Cloud Services, contatta Adobe per delegare i sottodomini ad Adobe.
+   ![](../assets/do-not-localize/speech.png) In qualità di utente di Cloud Service gestiti, contatta l’Adobe per delegare i sottodomini ad Adobe.
 
 1. **Come utente Campaign Classic v7, posso effettuare la migrazione a Campaign v8?**
 
-   Per il momento, Campaign v8 è disponibile solo per le nuove implementazioni.
+   La migrazione automatizzata da un ambiente esistente di Campaign Classic v7 non è ancora disponibile.
+
+   Campaign v8 è disponibile **solo** come Cloud Service gestito e non può essere distribuito in ambienti on-premise o ibridi.
+
+   ![](../assets/do-not-localize/speech.png) Per ulteriori informazioni sul processo di migrazione, contatta il rappresentante del tuo Adobe.
 
 1. **Come posso scaricare Campaign?**
 
