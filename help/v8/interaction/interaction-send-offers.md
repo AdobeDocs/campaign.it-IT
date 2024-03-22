@@ -5,10 +5,10 @@ feature: Interaction, Offers
 role: User, Admin
 level: Beginner
 exl-id: d39b1768-4c39-4d64-b9b6-d9c9424a2b0d
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '1265'
-ht-degree: 7%
+source-wordcount: '1241'
+ht-degree: 4%
 
 ---
 
@@ -63,7 +63,7 @@ Per inserire le proposte di offerta in una consegna, segui i passaggi seguenti:
 * **[!UICONTROL Category]** : cartella specifica in cui vengono ordinate le offerte. Se non viene specificata alcuna categoria, tutte le offerte contenute nell’ambiente verranno prese in considerazione dal motore di offerta, a meno che non venga selezionato un tema.
 * **[!UICONTROL Themes]** : parole chiave definite a monte nelle categorie. Queste fungono da filtro e ti consentono di perfezionare il numero di offerte da presentare selezionandole in un set di categorie.
 * **[!UICONTROL Number of propositions]** : numero di offerte restituite dal motore che possono essere inserite nel corpo della consegna. Se non vengono inserite nel messaggio, le offerte verranno comunque generate, ma non presentate.
-* **[!UICONTROL Exclude non-eligible recipients]** : Questa opzione consente di attivare o disattivare l’esclusione dei destinatari per i quali non sono disponibili sufficienti offerte idonee. Il numero di proposte idonee può essere inferiore al numero richiesto di proposte. Se questa casella è selezionata, i destinatari che non dispongono di un numero sufficiente di proposte verranno esclusi dalla consegna. Se non selezioni questa opzione, questi destinatari non verranno esclusi ma non avranno il numero richiesto di proposte.
+* **[!UICONTROL Exclude non-eligible recipients]** : questa opzione consente di attivare o disattivare l’esclusione dei destinatari per i quali non vi sono sufficienti offerte idonee. Il numero di proposte idonee può essere inferiore al numero richiesto di proposte. Se questa casella è selezionata, i destinatari che non dispongono di un numero sufficiente di proposte verranno esclusi dalla consegna. Se non selezioni questa opzione, questi destinatari non verranno esclusi ma non avranno il numero richiesto di proposte.
 * **[!UICONTROL Do not display anything if no offer is selected]** : questa opzione ti consente di scegliere come verrà elaborato il messaggio nel caso in cui una delle proposte non esista. Quando questa casella è selezionata, la rappresentazione della proposta mancante non viene visualizzata e nel messaggio relativo non verrà visualizzato alcun contenuto. Se la casella non è selezionata, il messaggio viene annullato durante l’invio e i destinatari non riceveranno più messaggi.
 
 ## Inviare offerte nei flussi di lavoro{#offer-via-wf}
@@ -76,7 +76,7 @@ Diverse attività di flusso di lavoro ti consentono di definire il modo in cui v
 
 ### Arricchimento {#enrichment}
 
-Il **Arricchimento** l’attività ti consente di aggiungere offerte o collegamenti alle offerte per i destinatari della consegna.[Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html)
+Il **Arricchimento** l’attività ti consente di aggiungere offerte o collegamenti alle offerte per i destinatari della consegna.[Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html){target="_blank"}.
 
 Ad esempio, puoi arricchire i dati di una query del destinatario prima di una consegna.
 
@@ -92,7 +92,7 @@ Esistono due metodi per specificare le proposte di offerta.
 Dopo aver configurato **Query** attività:
 
 1. Aggiungi e apri un **Arricchimento** attività.
-1. Nella scheda **[!UICONTROL Enrichment]**, seleziona **[!UICONTROL Add data]**.
+1. In **[!UICONTROL Enrichment]** , seleziona **[!UICONTROL Add data]**.
 1. Seleziona **[!UICONTROL An offer proposition]** nei tipi di dati da aggiungere.
 
    ![](assets/int_enrichment_offer2.png)
@@ -118,7 +118,7 @@ Dopo aver configurato **Query** attività:
 
 È inoltre possibile fare riferimento a un collegamento a un’offerta in un **Arricchimento** attività.
 
-A tale scopo, segui la procedura indicata di seguito:
+A questo scopo, segui la procedura indicata di seguito:
 
 1. Seleziona **[!UICONTROL Add data]** nel file dell’attività **[!UICONTROL Enrichment]** scheda.
 1. Nella finestra in cui si sceglie il tipo di dati da aggiungere, selezionare **[!UICONTROL A link]**.
@@ -163,7 +163,7 @@ La consegna memorizza automaticamente la classificazione e il peso delle offerte
 
 Il **[!UICONTROL Offer engine]** L’attività ti consente inoltre di specificare una chiamata al motore di offerta prima della consegna.
 
-Per ulteriori informazioni su **Motore di offerta** attività, fare riferimento a [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html)
+Per ulteriori informazioni su **Motore di offerta** attività, fare riferimento a [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html){target="_blank"}.
 
 Questa attività funziona in base allo stesso principio **Arricchimento** attività con una chiamata del motore, arricchendo i dati della popolazione in entrata con un’offerta calcolata dal motore, prima di una consegna.
 
@@ -186,7 +186,7 @@ Dopo aver configurato **Query** attività:
 
 Il **[!UICONTROL Offers by cell]** L’attività ti consente di distribuire il gruppo in entrata (ad esempio da una query) in più segmenti e di specificare un’offerta da presentare per ciascuno di questi segmenti.
 
-Per ulteriori informazioni su **Offerta per cella** attività, fare riferimento a [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html)
+Per ulteriori informazioni su **Offerta per cella** attività, fare riferimento a [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html){target="_blank"}.
 
 A questo scopo, utilizza il seguente processo:
 

@@ -5,10 +5,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 97%
+ht-degree: 93%
 
 ---
 
@@ -46,7 +46,7 @@ Dopo aver creato il messaggio e averne progettato e testato il relativo contenut
 
   ![](assets/deliveries-in-a-campaign.png)
 
-  Per scoprire come inviare messaggi nel contesto di una campagna, consulta [questa sezione](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=it).
+  Scopri come inviare messaggi nel contesto di una campagna in [questa sezione](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=it){target="_blank"}
 
 * Inviare messaggi tramite un [flusso di lavoro](../config/workflows.md)
 

@@ -5,10 +5,10 @@ feature: Privacy
 role: Admin
 level: Beginner
 exl-id: 0f81d318-dbfd-45c8-b391-b1d14d23e9c8
-source-git-commit: 9df599ec0a898a1af16cb92d334d50375fde86ba
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '930'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe offre ai titolari del trattamento strumenti per creare ed elaborare richie
 
 Per gestire le richieste di accesso a dati personali in Campaign, devi prima [definire uno spazio dei nomi](#namespaces). Dopodiché puoi creare e gestire le richieste Privacy. Per eseguire le richieste di accesso a dati personali, utilizza l’integrazione **Adobe Privacy Service**. Le richieste di accesso a dati personali inviate da Privacy Service a tutte le soluzioni Adobe Experience Cloud vengono gestite automaticamente da Campaign tramite un flusso di lavoro dedicato. [Ulteriori informazioni](#create-privacy-request)
 
-![](../assets/do-not-localize/speech.png) Informazioni sul **Diritto di accesso** e **Diritto all’oblio** (richiesta DELETE) nella [Documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=it#right-access-forgotten){target="_blank"}.
+Scopri di più su **Diritto di accesso** e **Diritto all’oblio** (richiesta di eliminazione) in [Documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=it#right-access-forgotten){target="_blank"}.
 
 <!--
 >[!NOTE]

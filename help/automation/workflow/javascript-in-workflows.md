@@ -5,10 +5,10 @@ description: Questi esempi mostrano come utilizzare il codice JavaScript in un f
 feature: Workflows
 role: Developer
 exl-id: 3412e3de-1c88-496e-8fda-ca9fc9b18e69
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '1752'
-ht-degree: 3%
+source-wordcount: '1683'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ Questi esempi mostrano come utilizzare il codice JavaScript in un flusso di lavo
 * [Attivare un flusso di lavoro utilizzando un metodo SOAP statico](#trigger-example)
 * [Interagire con il database utilizzando un metodo SOAP non statico](#interact-example)
 
-[Ulteriori informazioni](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html) informazioni sui metodi SOAP statici e non statici.
+[Ulteriori informazioni](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html){target="_blank"} informazioni sui metodi SOAP statici e non statici.
 
 In questi esempi viene utilizzata l&#39;estensione ECMAScript for XML (E4X). Con questa estensione, puoi combinare le chiamate JavaScript e le primitive XML nello stesso script.
 
@@ -37,7 +37,7 @@ Per provare questi esempi, segui questi passaggi:
 1. Aggiungi il codice JavaScript a un’attività. [Ulteriori informazioni](advanced-parameters.md).
 1. Salva il flusso di lavoro.
 1. Prova gli esempi:
-   1. Avviare il flusso di lavoro. [Ulteriori informazioni](start-a-workflow.md).
+   1. Avvia il flusso di lavoro. [Ulteriori informazioni](start-a-workflow.md).
    1. Apri il diario. [Ulteriori informazioni](monitor-workflow-execution.md#displaying-logs).
 
 ## Esempio 1: scrivere nel database{#write-example}
@@ -99,7 +99,7 @@ var myXML = <recipient xtkschema="nms:recipient"
 
 #### Eliminare un record
 
-Utilizza il `DeleteCollection` metodo. [Ulteriori informazioni](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html).
+Utilizza il `DeleteCollection` metodo. [Ulteriori informazioni](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html){target="_blank"}.
 
 Specifica queste informazioni:
 
@@ -273,7 +273,7 @@ for each (var rcp in res:recipient)
     logInfo(rcp.@email)
 ```
 
-Il ciclo include una variabile di destinatario locale. Per ogni destinatario restituito nella raccolta di destinatari, viene stampata l’e-mail del destinatario. [Ulteriori informazioni](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html) informazioni su `logInfo` funzione.
+Il ciclo include una variabile di destinatario locale. Per ogni destinatario restituito nella raccolta di destinatari, viene stampata l’e-mail del destinatario. [Ulteriori informazioni](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html){target="_blank"} informazioni su `logInfo` funzione.
 
 #### Risultati di una `getIfExists` operazione
 
@@ -359,7 +359,7 @@ Puoi attivare i flussi di lavoro a livello di programmazione, ad esempio nei flu
 
 L’attivazione dei flussi di lavoro avviene tramite l’utilizzo di eventi. Puoi utilizzare queste funzioni per gli eventi:
 
-* Per pubblicare un evento, puoi utilizzare l’ `PostEvent` metodo. [Ulteriori informazioni](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html).
+* Per pubblicare un evento, puoi utilizzare l’ `PostEvent` metodo. [Ulteriori informazioni](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html){target="_blank"}.
 * Per ricevere un evento, puoi utilizzare **[!UICONTROL External signal]** attività. [Ulteriori informazioni](external-signal.md).
 
 Puoi attivare i flussi di lavoro in diversi modi:
@@ -426,10 +426,10 @@ Segui questi passaggi:
 
 1. Definisci la query:
 
-   * Recuperare un&#39;entità utilizzando `create` nello schema corrispondente, ad esempio il metodo `xtk:workflow` schema. [Ulteriori informazioni](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html).
+   * Recuperare un&#39;entità utilizzando `create` nello schema corrispondente, ad esempio il metodo `xtk:workflow` schema. [Ulteriori informazioni](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html){target="_blank"}.
    * Utilizza il `queryDef` per eseguire una query SQL.
 
-1. Eseguire la query utilizzando `ExecuteQuery` metodo. [Ulteriori informazioni](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html).
+1. Eseguire la query utilizzando `ExecuteQuery` metodo. [Ulteriori informazioni](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html){target="_blank"}.
 
    Utilizza il `for each` per recuperare i risultati.
 
@@ -611,11 +611,11 @@ Questo video mostra un esempio di utilizzo di un metodo API non statico in un fl
 
 ### Documentazione API
 
-* [Esempi di chiamate SOAP](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html)
+* [Esempi di chiamate SOAP](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html){target="_blank"}
 * Metodi:
-   * [Crea](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html)
-   * [DeleteCollection](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html)
-   * [ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html)
-   * [PostEvent](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html)
-   * [Scrittura](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-Write.html)
-* [funzione logInfo](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html)
+   * [Crea](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html){target="_blank"}
+   * [DeleteCollection](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html){target="_blank"}
+   * [ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html){target="_blank"}
+   * [PostEvent](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html){target="_blank"}
+   * [Scrittura](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-Write.html){target="_blank"}
+* [funzione logInfo](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html){target="_blank"}

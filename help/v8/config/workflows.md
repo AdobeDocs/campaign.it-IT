@@ -5,10 +5,10 @@ feature: Workflows
 role: User, Admin
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '1307'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -33,26 +33,26 @@ Scopri come progettare flussi di lavoro in questi [casi d’uso end-to-end](#end
 
 Per ulteriori informazioni sull’interfaccia utente e l’esecuzione dei flussi di lavoro, consulta queste pagine:
 
-* [Introduzione ai flussi di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=it)
+* [Introduzione ai flussi di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=it){target="_blank"}
 
-* [Best practice per i flussi di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html)
+* [Best practice per i flussi di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"}
 
-* [Flussi di lavoro tecnici integrati](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html)
+* [Flussi di lavoro tecnici integrati](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}
 
-* [Monitorare l’esecuzione dei flussi di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html)
+* [Monitorare l’esecuzione dei flussi di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
 
-* [Creare un pubblico in un flusso di lavoro per una campagna di marketing](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=it)
+* [Creare un pubblico in un flusso di lavoro per una campagna di marketing](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=it){target="_blank"}
 
 ## Attività del flussi di lavoro {#wf-activities}
 
-Ulteriori informazioni sulle attività del flusso di lavoro disponibili in [questa sezione](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html?lang=it)
+Ulteriori informazioni sulle attività del flusso di lavoro disponibili in [questa sezione](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html?lang=it){target="_blank"}
 
 Le attività del flusso di lavoro sono raggruppate per categoria. Sono disponibili le quattro categorie di attività seguenti:
 
-* [Attività di targeting](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html): Query, Leggi elenco, Arricchimento, Unione e altro ancora
-* [Attività di controllo del flusso](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html): modulo di pianificazione, fork, avviso, segnale esterno e altro ancora
-* [Attività azione](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html): consegne cross-channel, codice JavaScript, attività di gestione delle relazioni con i clienti, aggregazione aggiornamenti e altro ancora
-* [Attività di eventi](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/event-activities.html): trasferimento di file, download Web e altro ancora
+* [Attività di targeting](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html){target="_blank"}: Query, Leggi elenco, Arricchimento, Unione e altro ancora
+* [Attività di controllo del flusso](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html){target="_blank"}: modulo di pianificazione, fork, avviso, segnale esterno e altro ancora
+* [Attività azione](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html){target="_blank"}: consegne cross-channel, codice JavaScript, attività di gestione delle relazioni con i clienti, aggregazione aggiornamenti e altro ancora
+* [Attività di eventi](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/event-activities.html){target="_blank"}: trasferimento di file, download Web e altro ancora
 
 ### Modificare l’attività dell’origine dati {#change-data-source-activity}
 
@@ -72,7 +72,7 @@ Per utilizzare **[!UICONTROL Change Data Source]** attività:
 
 1. Effettua query sui destinatari target con una **[!UICONTROL Query]** attività.
 
-   Per ulteriori informazioni su **[!UICONTROL Query]** attività, fare riferimento a [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html).
+   Per ulteriori informazioni su **[!UICONTROL Query]** attività, fare riferimento a [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
 
 1. Dalla sezione **[!UICONTROL Targeting]** , aggiungi un **[!UICONTROL Change data source]** attività e fare doppio clic per selezionarla **[!UICONTROL Default data source]**.
 
@@ -80,7 +80,7 @@ Per utilizzare **[!UICONTROL Change Data Source]** attività:
 
 1. Dalla sezione **[!UICONTROL Actions]** , trascina e rilascia una **[!UICONTROL JavaScript code]** attività per eseguire operazioni unitarie sulla tabella di lavoro.
 
-   Per ulteriori informazioni su **[!UICONTROL JavaScript code]** attività, fare riferimento a [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code.html).
+   Per ulteriori informazioni su **[!UICONTROL JavaScript code]** attività, fare riferimento a [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code.html){target="_blank"}.
 
 1. Aggiungi un altro **[!UICONTROL Change data source]** per tornare al database Cloud.
 
@@ -92,7 +92,7 @@ Per utilizzare **[!UICONTROL Change Data Source]** attività:
 
 Dopo aver creato il flusso di lavoro, puoi accedere ad altre opzioni con il **[!UICONTROL Properties]** per ulteriori configurazioni.
 
-Ulteriori informazioni su **Proprietà del flusso di lavoro** in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/workflow-properties.html).
+Ulteriori informazioni su **Proprietà del flusso di lavoro** in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/workflow-properties.html){target="_blank"}.
 
 Dalla sezione **[!UICONTROL Execution]** del flusso di lavoro **[!UICONTROL Properties]**, è possibile scegliere di collegare il flusso di lavoro a warehouse diversi e ottimizzare la gestione del carico di lavoro. Per ulteriori informazioni su **Magazzini**, fare riferimento a [Documentazione del Snowflake](https://docs.snowflake.com/en/user-guide/warehouses-overview.html){target="_blank"}.
 
@@ -114,7 +114,7 @@ A seconda dello scopo del flusso di lavoro, è possibile scegliere tra i tre mag
 
 Progetta un flusso di lavoro ricorrente e crea una nuova istanza di consegna ogni volta che il flusso di lavoro viene eseguito. Ad esempio, se il flusso di lavoro è progettato per essere eseguito una volta alla settimana, in un anno si otterranno 52 consegne. Ciò significa anche che i registri saranno separati da ogni istanza di consegna.
 
-Scopri come creare una campagna ricorrente in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/recurring-periodic-campaigns.html?lang=it)
+Scopri come creare una campagna ricorrente in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/recurring-periodic-campaigns.html?lang=it){target="_blank"}.
 
 
 ## Sfruttare gli eventi trigger
@@ -137,17 +137,17 @@ In questa sezione troverai diversi casi d’uso che sfruttano le funzionalità d
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
 
-* [Inviare un’e-mail di compleanno](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=it)
+* [Inviare un’e-mail di compleanno](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=it){target="_blank"}
 
   Questo caso d’uso illustra come pianificare l’invio di un’e-mail ricorrente a un elenco di destinatari il giorno del loro compleanno.
 
-* [Caricare i contenuti della consegna](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html)
+* [Caricare i contenuti della consegna](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}
 Quando il contenuto della consegna è disponibile in un file HTML che si trova su un server remoto, puoi facilmente caricarlo nelle consegne Adobe Campaign.
 
-* [Flusso di lavoro di consegna cross-channel](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/cross-channel-delivery-workflow.html)
+* [Flusso di lavoro di consegna cross-channel](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/cross-channel-delivery-workflow.html){target="_blank"}
 Scopri come creare un flusso di lavoro di consegna cross-channel. L’obiettivo è segmentare un pubblico dai destinatari del database in gruppi diversi e inviare un’e-mail al primo gruppo e un SMS all’altro.
 
-* [Arricchimento delle e-mail con campi data personalizzati](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/email-enrichment-with-custom-date-fields.html)
+* [Arricchimento delle e-mail con campi data personalizzati](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/email-enrichment-with-custom-date-fields.html){target="_blank"}
 Scopri come inviare un’e-mail con campi dati personalizzati ai profili che festeggiano il loro compleanno questo mese. L’e-mail includerà un coupon valido una settimana prima e dopo il compleanno.
 
 E queste pagine nella documentazione di Campaign v7:
@@ -162,54 +162,54 @@ Scopri come confrontare due contenuti di consegna e-mail tramite un flusso di la
 
 <img src="assets/do-not-localize/icon_monitoring.svg" width="60px">
 
-* [Inviare un rapporto a un elenco](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/send-a-report-to-a-list.html)
+* [Inviare un rapporto a un elenco](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/send-a-report-to-a-list.html){target="_blank"}
 Scopri come generare un rapporto mensile integrato sugli indicatori di tracciamento in formato PDF e inviarlo a un elenco di operatori di Campaign.
 
-* [Supervisionare i flussi di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/workflow-supervision.html)
+* [Supervisionare i flussi di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/workflow-supervision.html){target="_blank"}
 Scopri come creare un flusso di lavoro che consenta di monitorare lo stato di un set di flussi di lavoro &quot;in pausa&quot;, &quot;interrotti&quot; o &quot;con errori&quot;.
 
-* [Inviare avvisi personalizzati agli operatori](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/send-alerts-to-operators.html)
+* [Inviare avvisi personalizzati agli operatori](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/send-alerts-to-operators.html){target="_blank"}
 Scopri come inviare un avviso a un operatore che conterrà il nome dei profili che hanno aperto una newsletter ma non hanno fatto clic sul collegamento in essa contenuto.
 
 ### Gestione dati {#management}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-* [Coordinare gli aggiornamenti dei dati](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/coordinate-data-updates.html)
+* [Coordinare gli aggiornamenti dei dati](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/coordinate-data-updates.html){target="_blank"}
 Scopri come verificare che il processo di aggiornamento sia terminato prima di eseguire un’altra operazione di aggiornamento. A questo scopo, verrà impostata una variabile di istanza e verrà eseguito un test del flusso di lavoro se l’istanza è in esecuzione per decidere se continuare l’esecuzione del flusso di lavoro ed eseguire l’aggiornamento.
 
-* [Creare un elenco di riepilogo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/create-a-summary-list.html)
+* [Creare un elenco di riepilogo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/create-a-summary-list.html){target="_blank"}
 Scopri come creare un flusso di lavoro che, dopo aver raccolto i file e aver seguito diversi arricchimenti, ti consenta di creare un elenco di riepilogo. L&#39;esempio si basa su un elenco di contatti che hanno effettuato acquisti in un negozio.
 
-* [Arricchire i dati](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/enrich-data.html?lang=it)
+* [Arricchire i dati](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/enrich-data.html?lang=it){target="_blank"}
 Scopri come inviare consegne personalizzate ai profili che hanno partecipato all’ultimo concorso a seconda del punteggio ottenuto.
 
-* [Utilizzare gli aggregati](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html)
+* [Utilizzare gli aggregati](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html){target="_blank"}
 Scopri come identificare gli ultimi destinatari aggiunti al database.
 
-* [Aggiornamento dell’elenco trimestrale tramite una query incrementale](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/quarterly-list-update.html)
+* [Aggiornamento dell’elenco trimestrale tramite una query incrementale](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/quarterly-list-update.html){target="_blank"}
 Scopri come utilizzare una query incrementale per aggiornare automaticamente un elenco di destinatari.
 
-* [Impostare un flusso di lavoro di importazione ricorrente](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html)
+* [Impostare un flusso di lavoro di importazione ricorrente](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html){target="_blank"}
 Scopri come progettare un flusso di lavoro che possa essere riutilizzato per importare nel database di Adobe Campaign i profili provenienti da un sistema di gestione delle relazioni con i clienti.
 
 ### Targeting {#designing-queries}
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
-* [Eseguire una query sulla tabella dei destinatari](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/querying-recipient-table.html)
+* [Eseguire una query sulla tabella dei destinatari](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/querying-recipient-table.html){target="_blank"}
 Scopri come recuperare i nomi e le e-mail dei destinatari il cui dominio e-mail è &quot;orange.co.uk&quot; e che non vivono a Londra.
 
-* [Eseguire una query sulle informazioni di consegna](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-delivery-info.html)
+* [Eseguire una query sulle informazioni di consegna](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-delivery-info.html){target="_blank"}
 Scopri come definire query sulle informazioni di consegna per recuperare il comportamento del profilo.
 
-* [Calcola aggregati](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/compute-aggregates.html)
+* [Calcola aggregati](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/compute-aggregates.html){target="_blank"}
 Scopri come contare il numero di profili che vivono a Londra, in base al sesso.
 
-* [Eseguire una query tramite una relazione molti-a-molti](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html)
+* [Eseguire una query tramite una relazione molti-a-molti](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html){target="_blank"}
 Scopri come trovare profili non contattati negli ultimi 7 giorni.
 
-* [Chiamare una variabile di istanza in una query](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates.html)
+* [Chiamare una variabile di istanza in una query](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates.html){target="_blank"}
 Scopri come utilizzare una variabile di istanza per calcolare dinamicamente la percentuale divisa da applicare a una popolazione.
 
 <!--

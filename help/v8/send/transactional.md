@@ -5,7 +5,7 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
-source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '1491'
 ht-degree: 1%
@@ -16,7 +16,9 @@ ht-degree: 1%
 
 La messaggistica transazionale (Message Center) è un modulo di Campaign progettato per la gestione dei messaggi di attivazione. Queste notifiche sono generate da eventi attivati dai sistemi informativi e possono essere: fattura, conferma dell’ordine, conferma della spedizione, modifica della password, notifica di indisponibilità del prodotto, estratto conto, creazione di account sul sito web, ecc.
 
-![](../assets/do-not-localize/speech.png)  In qualità di utente di Managed Cloud Service, [Adobe di contatto](../start/campaign-faq.md#support){target="_blank"} per configurare la messaggistica transazionale di Campaign nell’ambiente.
+>[!NOTE]
+>
+>In qualità di utente di Managed Cloud Service, [Adobe di contatto](../start/campaign-faq.md#support){target="_blank"} per configurare la messaggistica transazionale di Campaign nell’ambiente.
 
 I messaggi transazionali vengono utilizzati per inviare:
 
@@ -41,7 +43,7 @@ Di seguito sono illustrate le fasi principali per l’attuazione di questa proce
 1. [Creare un tipo di evento](#create-event-types).
 1. [Creare e progettare il modello di messaggio](#create-message-template). Collega un evento al messaggio durante questo passaggio.
 1. [Verifica il messaggio](#test-message-template).
-1. [Pubblica il modello di messaggio](#publish-message-template).
+1. [Pubblicare il modello di messaggio](#publish-message-template).
 
 Una volta progettato e pubblicato il modello di messaggio transazionale, se viene attivato un evento corrispondente, i dati pertinenti vengono inviati a Campaign tramite PushEvent e PushEvents [Metodi SOAP](../send/event-description.md)e la consegna viene inviata ai destinatari target.
 

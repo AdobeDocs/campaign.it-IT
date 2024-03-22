@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: c4d30771-db5e-40be-8af6-50f0fab9f9af
-source-git-commit: e0ec2940db3120dc8fbfd17dd2f5083bbf31232c
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 80%
+source-wordcount: '249'
+ht-degree: 74%
 
 ---
 
@@ -40,6 +40,6 @@ Questa integrazione supporta due tipi di ID Adobe Experience Cloud:
 
 A questo proposito, consulta la sezione:
 
-[https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=it](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=it)
+[Documentazione di Adobe Audience Manager](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=it){target="_blank"}
 
-[https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=it](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=it)
+[Guida ai componenti dell’interfaccia centrale di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=it){target="_blank"}

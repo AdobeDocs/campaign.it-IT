@@ -4,13 +4,13 @@ description: Scopri come attivare il campo CCN dell’e-mail in Adobe Campaign
 feature: Email
 role: User
 level: Beginner
-source-git-commit: 87c971ac6cf4abb6b04d52ce60ac2036055e1e02
+exl-id: 35702b81-1984-4a62-8f00-c2bc32ab2b42
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 1%
 
 ---
-
 
 # Invia una copia dei messaggi a un indirizzo Ccn {#bcc}
 
@@ -26,7 +26,9 @@ Adobe Campaign stessa non gestisce i file archiviati. I file .eml corrispondenti
 
 La destinazione di archiviazione è l’indirizzo e-mail Ccn scelto, che rimarrà invisibile ai destinatari della consegna. Una volta definito l’indirizzo e-mail Ccn, devi abilitare l’opzione dedicata in [modello di consegna](create-templates.md) livello.
 
-![](../assets/do-not-localize/speech.png)  In qualità di utente di Managed Cloud Service, [Adobe di contatto](../start/campaign-faq.md#support){target="_blank"} per comunicare l&#39;indirizzo e-mail Ccn da utilizzare per l&#39;archiviazione.
+>[!NOTE]
+>
+>In qualità di utente di Managed Cloud Service, [Adobe di contatto](../start/campaign-faq.md#support){target="_blank"} per comunicare l&#39;indirizzo e-mail Ccn da utilizzare per l&#39;archiviazione.
 
 >[!CAUTION]
 >

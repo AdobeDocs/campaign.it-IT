@@ -5,7 +5,7 @@ feature: Data Model
 role: User, Developer
 level: Beginner, Intermediate
 exl-id: bdd5e993-0ce9-49a8-a618-ab0ff3796d49
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '2740'
 ht-degree: 4%
@@ -175,7 +175,7 @@ Esistono alcune soluzioni per ridurre al minimo la necessità di record in Adobe
 
 È possibile dichiarare l’attributo &quot;deleteStatus&quot; in uno schema. È più efficiente contrassegnare il record come eliminato, quindi posticipare l’eliminazione nell’attività di pulizia.
 
-![](../assets/do-not-localize/speech.png)  In qualità di utente di Cloud Service gestiti, rivolgiti ai consulenti o agli amministratori tecnici Adobe per ulteriori informazioni sulla conservazione o per impostare la conservazione per tabelle personalizzate.
+In qualità di utente di Cloud Service gestiti, rivolgiti ai consulenti o agli amministratori tecnici Adobe per ulteriori informazioni sulla conservazione o per impostare la conservazione per tabelle personalizzate.
 
 ## Prestazioni {#performance}
 

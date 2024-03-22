@@ -6,10 +6,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 100%
+source-wordcount: '242'
+ht-degree: 73%
 
 ---
 
@@ -34,10 +34,10 @@ Questa integrazione supporta due tipi di ID Adobe Experience Cloud:
   >
   > L’origine dati dell’ID dichiarato può essere utilizzata anche con l’integrazione del servizio core People.
   >
-  >Se utilizzi l’integrazione con il servizio core People e desideri aggiungere l’integrazione con Audience Manager, ti servirà l’aiuto di un consulente Adobe Audience Manager per evitare di perdere tutte le sincronizzazioni ID raccolte durante la transizione all’utilizzo dell’origine dati ID dichiarato in un contesto Adobe Audience Manager.
+  >Se utilizzi l’integrazione con il servizio core People e desideri aggiungere l’integrazione con l’Audience Manager, ti servirà l’aiuto di un consulente Adobe Audience Manager per evitare di perdere tutte le sincronizzazioni ID raccolte durante la transizione all’utilizzo dell’origine dati ID dichiarato in un contesto Adobe Audience Manager.
 
 A questo proposito, consulta la sezione:
 
-[https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=it](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=it)
+[Knowledge Base di Adobe Audience Manager](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=it){target="_blank"}.
 
-[https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=it](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=it)
+[Guida ai componenti dell’interfaccia centrale di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=it){target="_blank"}.

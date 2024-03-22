@@ -5,10 +5,10 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: a08dd72a2be703e5e9cd3cdc20dbb3064b06b35d
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 9%
+source-wordcount: '510'
+ht-degree: 10%
 
 ---
 
@@ -83,7 +83,7 @@ Nell’esempio seguente, scoprirai i passaggi per progettare una consegna e-mail
 
 La prima consegna e-mail è pronta. Ora devi definire il pubblico, convalidare la consegna e inviarla.
 
-Scopri come importare un contenuto e-mail in questo [caso d’uso](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html).
+Scopri come importare un contenuto e-mail in questo [caso d’uso](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}.
 
 Per ulteriori informazioni, consulta le sezioni seguenti:
 
@@ -97,9 +97,9 @@ Per ulteriori informazioni, consulta le sezioni seguenti:
 
 Campaign offre diversi modi per testare e convalidare le e-mail prima di inviarle al pubblico. Scopri come visualizzare in anteprima e testare il contenuto delle e-mail in [questa sezione](../send/preview-and-proof.md).
 
-Puoi:
+Puoi eseguire le seguenti azioni:
 
-* [Invia bozze](preview-and-proof.md)
+* [Inviare bozze](preview-and-proof.md)
 * [Aggiungere indirizzi seed](../audiences/test-profiles.md)
 * [Controllare i registri di analisi della consegna](delivery-analysis.md)
 

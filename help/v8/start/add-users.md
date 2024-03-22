@@ -5,10 +5,10 @@ feature: Permissions
 role: User, Admin
 level: Beginner
 exl-id: 3d61abac-03df-42d3-a950-37e41a5a7756
-source-git-commit: 1baeb8827a0eab4f9487bb5e5afe4d779e00efe4
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 5%
+source-wordcount: '302'
+ht-degree: 2%
 
 ---
 
@@ -26,7 +26,7 @@ I diritti denominati concedono le autorizzazioni a:
 
 * Eseguire operazioni Ad esempio, il **Analizza** nell’editor di consegna sia attivato per i membri del gruppo **Operatore di consegna** gruppo che dispone di **Prepara consegna** Denominato a destra
 
-* Accesso alle cartelle L&#39;appartenenza ai gruppi di operatori può concedere o limitare i diritti di accesso alle cartelle modificando le impostazioni di protezione delle cartelle. Per ulteriori informazioni, consulta [questa pagina](../start/folder-permissions.md). Ad esempio, può avere un impatto su: **Accesso in scrittura** creare nuove entità (come consegne, profili, ecc.), **Accesso in lettura** per utilizzare le entità, **Elimina accesso** per eliminare le entità.
+* Accesso alle cartelle L&#39;appartenenza ai gruppi di operatori può concedere o limitare i diritti di accesso alle cartelle modificando le impostazioni di protezione delle cartelle. Ulteriori informazioni in [questa pagina](../start/folder-permissions.md). Ad esempio, può avere un impatto su: **Accesso in scrittura** creare nuove entità (come consegne, profili, ecc.), **Accesso in lettura** per utilizzare le entità, **Elimina accesso** per eliminare le entità.
 
 ## Aree di protezione
 
@@ -34,7 +34,9 @@ Ogni operatore deve essere collegato a una zona per accedere a un&#39;istanza e 
 
 Gli operatori sono collegati a un’area di sicurezza dal suo profilo nella console, accessibile nella **[!UICONTROL Administration > Access management > Operators]** nodo.
 
-![](../assets/do-not-localize/speech.png)  In qualità di utente di Cloud Service gestiti, Adobe imposta automaticamente le aree di protezione. Per ulteriori informazioni, [Adobe di contatto](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
+>[!NOTE]
+>
+>In qualità di utente di Cloud Service gestiti, Adobe imposta automaticamente le aree di protezione. Per ulteriori informazioni, [Adobe di contatto](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
 
 **Ulteriori informazioni**
 

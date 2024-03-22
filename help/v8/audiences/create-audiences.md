@@ -5,10 +5,10 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 6fbe5616-7b8b-4504-988b-2bbbfd062548
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 2%
+source-wordcount: '773'
+ht-degree: 3%
 
 ---
 
@@ -57,7 +57,7 @@ Per creare un elenco di contatti, effettuare le seguenti operazioni:
 
 ## Convertire i contatti filtrati in un elenco {#convert-data-to-a-list}
 
-Puoi selezionare i profili e aggiungerli a un elenco. Per farlo, segui la procedura indicata di seguito:
+Puoi selezionare i profili e aggiungerli a un elenco. A tale scopo, segui i passaggi indicati di seguito:
 
 1. Da Campaign Explorer, seleziona i profili e fai clic con il pulsante destro del mouse.
 
@@ -103,7 +103,7 @@ Nell’esempio seguente, crea un elenco di tutti i destinatari tra 25 e 40.
 
    ![](assets/targeting-wf-age-filter.png)
 
-   Scopri come creare una query in un flusso di lavoro in [questa sezione](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html).
+   Scopri come creare una query in un flusso di lavoro in [questa sezione](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
 
 1. Aggiungi un’etichetta per questa query e salva le modifiche.
 1. Aggiungi un **[!UICONTROL List update]** e modificarla.
@@ -124,7 +124,7 @@ Nell’esempio seguente, crea un elenco di tutti i destinatari tra 25 e 40.
 
    ![](assets/access-new-list.png)
 
-   Puoi rendere ricorrente questo flusso di lavoro aggiungendo una pianificazione al flusso di lavoro. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html).
+   Puoi rendere ricorrente questo flusso di lavoro aggiungendo una pianificazione al flusso di lavoro. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html){target="_blank"}.
 
 ## Rimuovere un profilo da un elenco {#remove-a-profile-from-a-list}
 

@@ -5,10 +5,10 @@ feature: Profiles, Monitoring
 role: User
 level: Beginner, Intermediate
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: 46be0379610a6a4a3491d49ce096c64270ed8016
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '3005'
-ht-degree: 11%
+source-wordcount: '2990'
+ht-degree: 5%
 
 ---
 
@@ -40,7 +40,7 @@ I mancati recapiti non permanenti sono errori temporanei generati dagli ISP in c
 
 Il  **Ignorato** il tipo di errore è considerato temporaneo, ad esempio &quot;Fuori sede&quot;, o è un errore tecnico, ad esempio se il tipo di mittente è &quot;postmaster&quot;.
 
-Il ciclo di feedback funziona come le e-mail non recapitate: quando un utente qualifica un’e-mail come spam, puoi configurare le regole e-mail in Adobe Campaign per bloccare tutte le consegne a questo utente. Inserire nell&#39;elenco Bloccati Gli indirizzi di questi utenti vengono anche se non hanno fatto clic sul collegamento di annullamento dell’abbonamento. Gli indirizzi vengono aggiunti al (**NmsAddress**) e non alla tabella di quarantena (**NmsRecipient**) tabella dei destinatari con **[!UICONTROL Denylisted]** stato. Ulteriori informazioni sul meccanismo del ciclo di feedback sono disponibili in [Guida alle best practice per la consegna di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops).
+Il ciclo di feedback funziona come le e-mail non recapitate: quando un utente qualifica un’e-mail come spam, puoi configurare le regole e-mail in Adobe Campaign per bloccare tutte le consegne a questo utente. Inserire nell&#39;elenco Bloccati Gli indirizzi di questi utenti vengono anche se non hanno fatto clic sul collegamento di annullamento dell’abbonamento. Gli indirizzi vengono aggiunti al (**NmsAddress**) e non alla tabella di quarantena (**NmsRecipient**) tabella dei destinatari con **[!UICONTROL Denylisted]** stato. Ulteriori informazioni sul meccanismo del ciclo di feedback sono disponibili in [Guida alle best practice per la consegna di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target="_blank"}.
 
 ## Errori sincroni e asincroni {#synchronous-and-asynchronous-errors}
 
@@ -97,7 +97,7 @@ Bounce mails can have the following qualification status:
 
 Se la consegna dei messaggi non riesce a seguito di un errore temporaneo (**Morbido** o **Ignorato**), Campaign ritenta l’invio. Questi nuovi tentativi possono essere eseguiti fino alla fine della durata della consegna.
 
-I nuovi tentativi di mancato recapito non permanenti e il periodo di tempo che intercorre tra di essi sono determinati dall’MTA in base al tipo e alla gravità delle risposte di mancato recapito provenienti dal dominio e-mail del messaggio.
+I nuovi tentativi di mancato recapito non permanenti e il periodo di tempo tra di essi è determinato dall’MTA in base al tipo e alla gravità delle risposte di mancato recapito provenienti dal dominio e-mail del messaggio.
 
 >[!NOTE]
 >
@@ -190,7 +190,7 @@ Di seguito sono elencati i possibili motivi di un errore di consegna per il cana
    <td> Dominio non valido </td> 
    <td> Morbido </td> 
    <td> 2 </td> 
-   <td> Il dominio dell’indirizzo e-mail non è corretto o non esiste più. Questo profilo sarà nuovamente oggetto di targeting fino a raggiungere 5 errori. Successivamente, il record verrà impostato sullo stato di quarantena e non verrà eseguito alcun nuovo tentativo.<br /> </td> 
+   <td> Il dominio dell’indirizzo e-mail non è corretto o non esiste più. Questo profilo sarà nuovamente oggetto di targeting fino a raggiungere 5 errori. In seguito, il record verrà impostato sullo stato di quarantena e non verrà eseguito alcun nuovo tentativo.<br /> </td> 
   </tr> 
   <tr> 
    <td> Cassetta postale piena </td> 
@@ -199,7 +199,7 @@ Di seguito sono elencati i possibili motivi di un errore di consegna per il cana
    <td> La cassetta postale dell'utente è piena e non può accettare altri messaggi. Questo profilo sarà nuovamente oggetto di targeting fino a raggiungere 5 errori. Successivamente, il record verrà impostato sullo stato di quarantena e non verrà eseguito alcun nuovo tentativo.<br /> Questo tipo di errore è gestito da un processo di pulizia, l’indirizzo viene impostato su uno stato valido dopo 30 giorni.<br /> Avviso: per consentire la rimozione automatica dell’indirizzo dall’elenco degli indirizzi in quarantena, è necessario avviare il flusso di lavoro tecnico Database cleanup.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Non connessi </td> 
+   <td> Non connesso </td> 
    <td> Ignorato </td> 
    <td> 6 </td> 
    <td> Il telefono cellulare del destinatario è spento o non è connesso alla rete quando il messaggio viene inviato.<br /> </td> 
@@ -232,7 +232,7 @@ Di seguito sono elencati i possibili motivi di un errore di consegna per il cana
    <td> Indirizzo non qualificato </td> 
    <td> Ignorato </td> 
    <td> 15 </td> 
-   <td> L’indirizzo postale non è stato qualificato.<br /> </td> 
+   <td> L'indirizzo postale non è stato qualificato.<br /> </td> 
   </tr> 
   <tr> 
    <td> Non raggiungibile </td> 

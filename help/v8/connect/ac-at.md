@@ -5,10 +5,10 @@ feature: Target Integration
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 891a9a87-f3a4-405a-87ed-a7703be90a67
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 1%
+source-wordcount: '970'
+ht-degree: 0%
 
 ---
 
@@ -19,9 +19,9 @@ Connetti Campaign e Target per includere un’offerta da Adobe Target in una con
 Questa integrazione consente di implementare i casi d’uso come segue: quando un destinatario apre un’e-mail inviata tramite Adobe Campaign, una chiamata ad Adobe Target consente di visualizzare una versione dinamica del contenuto. Questa versione dinamica viene calcolata in base alle regole specificate in precedenza durante la creazione dell’e-mail.
 
 >[!NOTE]
->L’integrazione supporta solo immagini statiche. Gli altri tipi di contenuto non possono essere personalizzati.
-
-![](../assets/do-not-localize/speech.png)  In qualità di utente di Managed Cloud Service, [Adobe di contatto](../start/campaign-faq.md#support) per implementare Experience Cloud triggers con Campaign.
+>* L’integrazione supporta solo immagini statiche. Gli altri tipi di contenuto non possono essere personalizzati.
+>
+>* In qualità di utente di Managed Cloud Service, [Adobe di contatto](../start/campaign-faq.md#support) per implementare Experience Cloud triggers con Campaign.
 
 Adobe Target può utilizzare i seguenti tipi di dati:
 
@@ -74,7 +74,7 @@ Puoi quindi definire i parametri dell’immagine:
 * Il **[!UICONTROL Landing Page]** consente di reindirizzare l’immagine predefinita a una pagina di destinazione predefinita. Questo URL si applica solo quando l’immagine predefinita viene visualizzata nell’e-mail finale. È opzionale.
 * Il **[!UICONTROL Additional decision parameters]**  definisce la mappatura tra i campi definiti nei segmenti di Adobe Target e i campi di Adobe Campaign. I campi Adobe Campaign utilizzati devono essere stati specificati nella rawbox. Nel nostro esempio, abbiamo aggiunto il campo Paese.
 
-Se utilizzi le autorizzazioni Enterprise nelle impostazioni di Adobe Target, aggiungi la proprietà corrispondente in questo campo. Ulteriori informazioni sulle autorizzazioni di Target Enterprise in [questa pagina](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html#administer).
+Se utilizzi le autorizzazioni Enterprise nelle impostazioni di Adobe Target, aggiungi la proprietà corrispondente in questo campo. Ulteriori informazioni sulle autorizzazioni di Target Enterprise in [Documentazione di Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/administer/manage-users/enterprise/properties-overview#administer){target="_blank"}.
 
 ![](assets/target_13.png)
 
@@ -94,7 +94,7 @@ Nel nostro caso, abbiamo bisogno di due offerte di reindirizzamento, la terza (q
 
    ![](assets/target_6.png)
 
-1. Segui la stessa procedura per l’offerta di reindirizzamento rimanente. Per ulteriori informazioni, consulta questa [pagina](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html#experiences).
+1. Segui la stessa procedura per l’offerta di reindirizzamento rimanente. Per ulteriori informazioni, consulta questa [Documentazione di Adobe Target](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html#experiences){target="_blank"}.
 
 ### Creare tipi di pubblico {#audiences-target}
 

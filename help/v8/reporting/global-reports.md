@@ -4,10 +4,10 @@ description: Scopri come accedere e utilizzare i rapporti globali
 feature: Reporting, Monitoring
 role: User, Data Engineer
 exl-id: 6e3409d8-86bd-44ba-a40d-10287f53a960
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '1763'
-ht-degree: 10%
+source-wordcount: '1750'
+ht-degree: 8%
 
 ---
 
@@ -39,19 +39,19 @@ Per visualizzare i rapporti, fai clic sui relativi nomi. Per impostazione predef
 * **[!UICONTROL Delivery statistics]** : fai riferimento a [Statistiche consegna](#delivery-statistics).
 * **[!UICONTROL Breakdown of opens]** : fai riferimento a [Raggruppamento delle aperture](#breakdown-of-opens).
 
-## Velocità effettiva di consegna {#delivery-throughput}
+## Velocità di consegna {#delivery-throughput}
 
 Questo rapporto contiene informazioni sulla velocità effettiva di consegna dell’intera piattaforma per un determinato periodo. I criteri utilizzati per misurare la velocità con cui vengono consegnati i messaggi comprendono il numero di messaggi inviati all’ora e le dimensioni dei messaggi (in bit al secondo). Nell’esempio seguente, il primo grafico mostra le consegne riuscite in blu e il numero di consegne con errori in arancione.
 
 ![](assets/report-toolbar.png)
 
-Puoi configurare i valori visualizzati modificando la scala cronologica: visualizzazione a 1 ora, visualizzazione a 3 ore, visualizzazione a 24 ore, ecc. Fai clic su **[!UICONTROL Refresh]** per confermare la selezione.
+Puoi configurare i valori visualizzati modificando la scala cronologica: visualizzazione a 1 ora, visualizzazione a 3 ore, visualizzazione a 24 ore, ecc. Clic **[!UICONTROL Refresh]** per confermare la selezione.
 
 >[!NOTE]
 >
->Puoi anche monitorare il numero di consegne inviate all’ora utilizzando [Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html).
+>Puoi anche monitorare il numero di consegne inviate all’ora utilizzando [Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html){target="_blank"}.
 >
->Il Pannello di controllo è accessibile a tutti gli utenti amministratori. I passaggi per concedere a un utente l’accesso come amministratore sono descritti in[questa pagina](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=it#discover-control-panel).
+>Il Pannello di controllo è accessibile a tutti gli utenti amministratori. I passaggi per concedere a un utente i diritti da amministratore sono descritti in [questa pagina](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=it#discover-control-panel){target="_blank"}.
 >
 
 ## Attività degli utenti {#user-activities}
@@ -118,7 +118,7 @@ Per ogni nome di dominio, abbiamo:
 
 >[!NOTE]
 >
->I nomi di dominio visualizzati in questo report sono definiti a livello di cubo. Per modificare questi valori, modificare il **[!UICONTROL Delivery logs (broadlogrcp)]** cubo. Per ulteriori informazioni al riguardo, consulta [questa sezione](gs-cubes.md). Il **[!UICONTROL Others]** categoria include i nomi di dominio che non appartengono a una classe specifica.
+>I nomi di dominio visualizzati in questo report sono definiti a livello di cubo. Per modificare questi valori, modificare il **[!UICONTROL Delivery logs (broadlogrcp)]** cubo. Per ulteriori informazioni, consulta [questa sezione](gs-cubes.md). Il **[!UICONTROL Others]** categoria include i nomi di dominio che non appartengono a una classe specifica.
 
 ## Browser {#browsers}
 

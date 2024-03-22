@@ -5,10 +5,10 @@ feature: Transactional Messaging
 role: Admin, Developer
 level: Experienced
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
-source-git-commit: 561e4b6d2c99e98e068132c80c2bebb756b60a44
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 5%
+source-wordcount: '600'
+ht-degree: 4%
 
 ---
 
@@ -18,7 +18,10 @@ La messaggistica transazionale (Message Center) è un modulo di Campaign progett
 
 L’architettura della messaggistica transazionale in [questa pagina](../architecture/architecture.md#transac-msg-archi).
 
-![](../assets/do-not-localize/speech.png) In qualità di utente di Managed Cloud Service, [Adobe di contatto](../start/campaign-faq.md#support) per installare e configurare la messaggistica transazionale di Campaign nell’ambiente.
+
+>[!NOTE]
+>
+>In qualità di utente di Managed Cloud Service, [Adobe di contatto](../start/campaign-faq.md#support) per installare e configurare la messaggistica transazionale di Campaign nell’ambiente.
 
 ## Definire le autorizzazioni {#mc-permissions}
 
@@ -51,7 +54,7 @@ Inoltre, l’evento deve contenere i seguenti elementi:
 
 Di seguito è riportato un esempio di configurazione di un evento per l’invio di notifiche push transazionali:
 
-```
+```xml
 <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
    <SOAP-ENV:Body>
      <urn:PushEvent>
@@ -106,4 +109,4 @@ Nelle istanze di esecuzione, devi avviare i seguenti flussi di lavoro tecnici:
    * **[!UICONTROL Sent]**: questo stato viene copiato dai registri di consegna. Significa che la consegna è stata inviata.
    * **[!UICONTROL Ignored by the delivery]**: questo stato viene copiato dai registri di consegna. Significa che la consegna è stata ignorata.
    * **[!UICONTROL Delivery failed]**: questo stato viene copiato dai registri di consegna. Significa che la consegna è non è andata a buon fine.
-   * **[!UICONTROL Event not taken into account]**: impossibile collegare l’evento a un modello di messaggio. L’evento non viene elaborato.
+   * **[!UICONTROL Event not taken into account]**: impossibile collegare l’evento a un modello di messaggio. L’evento non verrà elaborato.

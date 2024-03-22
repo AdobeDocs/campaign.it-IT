@@ -5,7 +5,7 @@ feature: Reporting
 role: User
 level: Beginner
 exl-id: b63e6905-3bd4-4de4-9e7e-7638e5fc1192
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '1108'
 ht-degree: 1%
@@ -25,7 +25,7 @@ Puoi accedere ai rapporti incorporati dalla pagina Home di Campaign, dalla dashb
 
 Nella home page è disponibile un elenco di rapporti chiave che consentono di accedere rapidamente ai dati di consegna. Questo elenco può essere modificato in base alle tue esigenze. Puoi anche imparare ad aggiungere i tuoi rapporti personalizzati al **[!UICONTROL Reports]** scheda.
 
-Per ulteriori informazioni su queste configurazioni personalizzate, consulta questa [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html).
+Per ulteriori informazioni su queste configurazioni personalizzate, consulta questa [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html?lang=it){target="_blank"}.
 
 
 ## Accedere ai rapporti incorporati {#access-ootb-reports}

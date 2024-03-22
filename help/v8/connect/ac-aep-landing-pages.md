@@ -5,7 +5,7 @@ feature: Experience Platform Integration
 role: Data Engineer
 level: Beginner
 exl-id: 565a1c8b-1930-4b43-bc11-ae517df077d6
-source-git-commit: bbe3ba03bfecf5b0931795ff827d25560f955702
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '1029'
 ht-degree: 1%
@@ -56,7 +56,7 @@ Una volta stabilita la connessione OAuth, il passaggio successivo consiste nel c
 
    ![](assets/ac-lp-source.png){width="70%"}
 
-1. Configura la connessione in base alle tue esigenze. Informazioni dettagliate su come configurare una connessione API HTTP sono disponibili in [Documentazione sulle origini di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html).
+1. Configura la connessione in base alle tue esigenze. Informazioni dettagliate su come configurare una connessione API HTTP sono disponibili in [Documentazione sulle origini di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html){target="_blank"}.
 
    Alla **[!UICONTROL Authentication]** passaggio, attiva **[!UICONTROL Enable authentication]** opzione per eseguire l’autenticazione utilizzando il token di accesso generato in precedenza tramite l’integrazione OAuth.
 
@@ -98,7 +98,7 @@ Sfoglia le schede seguenti per scoprire i due metodi:
 
 >[!TAB Aggiungere opzioni utilizzando un’attività di codice JavaScript]
 
-Per configurare automaticamente queste opzioni durante l’esecuzione del flusso di lavoro delle pagine di destinazione, aggiungi una **[!UICONTROL JavaScript code]** al flusso di lavoro con il codice seguente. [Scopri come configurare un’attività di codice JavaScript](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html#JavaScript-code).
+Per configurare automaticamente queste opzioni durante l’esecuzione del flusso di lavoro delle pagine di destinazione, aggiungi una **[!UICONTROL JavaScript code]** al flusso di lavoro con il codice seguente. [Scopri come configurare un’attività di codice JavaScript](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html#JavaScript-code){target="_blank"}.
 
 Durante l’esecuzione del flusso di lavoro, le opzioni vengono create automaticamente nella console Campaign con i valori forniti.
 
@@ -344,5 +344,5 @@ Di seguito è riportato un esempio di pagina di destinazione e di attività di c
 ### Ulteriori informazioni
 
 * [Configurare un’attività di codice JavaScript](../../automation/workflow/sql-code-and-javascript-code.md#javascript-code)
-* [Creare una pagina di destinazione](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/creating-a-landing-page.html)
+* [Creare una pagina di destinazione](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/creating-a-landing-page.html){target="_blank"}
 * [Gestire gli abbonamenti e il loro annullamento](../start/subscriptions.md)

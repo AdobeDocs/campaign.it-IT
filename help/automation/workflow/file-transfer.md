@@ -5,17 +5,17 @@ description: Ulteriori informazioni sull’attività del flusso di lavoro Trasfe
 feature: Workflows, Data Management
 role: User
 exl-id: 794de398-f35d-4c2b-af29-d6fd38eb9394
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 2%
+source-wordcount: '550'
+ht-degree: 1%
 
 ---
 
 # Trasferimento file{#file-transfer}
 
 Il **Trasferimento file** attività consente di ricevere o inviare file, verificare la presenza di file o elencarli su un server. Il protocollo utilizzato è Azure Blob Storage, Amazon Simple Storage Service (S3), FTP o SFTP.
-Con la connessione S3, Azure Blob Storage o SFTP, puoi anche importare i dati dei segmenti in Adobe Campaign con Adobe Real-time Customer Data Platform. Per ulteriori informazioni, consulta questa [documentazione](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html).
+Con la connessione S3, Azure Blob Storage o SFTP, puoi anche importare i dati dei segmenti in Adobe Campaign con Adobe Real-time Customer Data Platform. Per ulteriori informazioni, consulta questa [documentazione](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html){target="_blank"}.
 
 ## Properties {#properties}
 

@@ -5,7 +5,7 @@ feature: Federated Data Access
 role: Admin
 level: Beginner
 exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 1%
@@ -16,15 +16,13 @@ ht-degree: 1%
 
 Utilizza il connettore FDA (Federated Data Access) per collegare Campaign a uno o più **database esterni** ed elabora le informazioni in essi memorizzate senza influire sui dati del database cloud di Campaign. Puoi quindi accedere ai dati esterni senza modificare la struttura dei dati di Adobe Campaign.
 
-![](../assets/do-not-localize/speech.png) In qualità di utente di Managed Cloud Service, [Adobe di contatto](../start/campaign-faq.md#support) per collegare i database esterni a Campaign.
-
-
 >[!NOTE]
 >
 >* I database compatibili per Federated Data Access sono elencati nella [Matrice di compatibilità](../start/compatibility-matrix.md).
 >
 >* Nell&#39;ambito di una [Distribuzione aziendale (FFDA)](../architecture/enterprise-deployment.md), è disponibile un account esterno specifico per gestire la comunicazione tra il database locale di Campaign e il database cloud di Snowflake. Questo account esterno è configurato per te da Adobe e **non deve** essere modificata.
 >
+>* In qualità di utente di Managed Cloud Service, [Adobe di contatto](../start/campaign-faq.md#support) per collegare i database esterni a Campaign.
 
 
 ## Best practice e limitazioni

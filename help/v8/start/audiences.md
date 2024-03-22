@@ -5,10 +5,10 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 16%
+ht-degree: 15%
 
 ---
 
@@ -36,7 +36,7 @@ Scopri come creare e gestire i filtri in [questa pagina](../audiences/create-fil
 
 Il targeting può essere creato tramite una combinazione di query in una sequenza grafica in un flusso di lavoro. Puoi creare tipi di pubblico mirati in base alle tue esigenze. Per visualizzare l’editor del flusso di lavoro, fai clic su **[!UICONTROL Targeting and workflows]** nel dashboard della campagna.
 
-Scopri come creare un pubblico in un flusso di lavoro della campagna in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=it)
+Scopri come creare un pubblico in un flusso di lavoro della campagna in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=it){target="_blank"}.
 
 
 ## Profili attivi {#active-profiles}
@@ -59,8 +59,8 @@ Scopri come gestire la privacy e il consenso in [Documentazione di Adobe Campaig
 
 **Argomenti correlati**
 
-* [Progettare ed eseguire un flusso di lavoro specifico per la campagna](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/campaign-workflows.html)
+* [Progettare ed eseguire un flusso di lavoro specifico per la campagna](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/campaign-workflows.html){target="_blank"}
 
-* [Scopri come selezionare il pubblico di una campagna](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=it)
+* [Scopri come selezionare il pubblico di una campagna](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=it){target="_blank"}
 
-* [Introduzione ai flussi di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=it)
+* [Introduzione ai flussi di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=it){target="_blank"}
