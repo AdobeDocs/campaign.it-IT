@@ -5,10 +5,10 @@ feature: Analytics Integration, Reporting
 role: Admin, User
 level: Beginner
 exl-id: 11370fb6-e192-4626-944e-b80a7496e50d
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: adfde71faebf3cec7e7b730c9753e6765aeadab0
 workflow-type: tm+mt
-source-wordcount: '1051'
-ht-degree: 66%
+source-wordcount: '1308'
+ht-degree: 67%
 
 ---
 
@@ -124,7 +124,7 @@ Nota che se uno dei **[!UICONTROL Report suite]**, **[!UICONTROL Conversion vari
 
 Per ulteriori informazioni, consulta [Profili di prodotto per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html#product-profile-admins){target="_blank"} pagina.
 
-1. Vai alla cartella **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External accounts]** della struttura Adobe Campaign e fai clic su **[!UICONTROL New]**.
+1. Accedi a **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External accounts]** cartella della struttura di Adobe Campaign explorer e fai clic su **[!UICONTROL New]**.
 
    ![](assets/analytics_connnector_9.png)
 
@@ -244,6 +244,25 @@ Affinché Adobe Experience Cloud sia in grado di monitorare l’attività sui si
 
 1. Ora puoi inviare la consegna e accedere al relativo rapporto in Adobe Analytics.
 
+
+## Creare una campagna di remarketing {#create-a-re-marketing-campaign}
+
+Per preparare la campagna di remarketing, è sufficiente creare modelli di consegna da utilizzare per campagne di tipo remarketing. Quindi configura la tua campagna di remarketing e collegala a un segmento. Ogni segmento deve avere una campagna di remarketing diversa.
+
+Le campagne di remarketing vengono avviate automaticamente una volta che Adobe Campaign ha completato il recupero dei segmenti analizzando il comportamento delle persone target della campagna iniziale. In caso di abbandono del carrello o di visualizzazione del prodotto senza un acquisto, viene inviata una consegna ai destinatari interessati affinché la loro navigazione sul sito finalizzi il loro acquisto.
+
+Adobe Campaign fornisce modelli di consegna personalizzati su cui puoi utilizzare o creare un database per preparare le campagne.
+
+1. Dalla cartella **[!UICONTROL Explorer]**, vai alla cartella **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** della struttura Adobe Campaign.
+1. Duplica il modello **[!UICONTROL Email delivery (re-marketing)]** o gli esempi di modelli di remarketing offerti da Adobe Campaign.
+1. Personalizza il modello in base alle tue esigenze e salvalo.
+1. Crea una nuova campagna e seleziona il modello **[!UICONTROL Re-marketing campaign]** dall’elenco a discesa.
+1. Fai clic sul collegamento **[!UICONTROL Configure...]** per specificare il segmento e il modello di consegna collegati alla campagna.
+1. Seleziona l’e di Analytics[account esterno](#external-account-ac)e il segmento interessato.
+1. Seleziona il modello di consegna da utilizzare per la campagna di remarketing, quindi fai clic su **[!UICONTROL Finish]** per chiudere la finestra.
+1. Fai clic su **[!UICONTROL OK]** per chiudere la finestra della campagna.
+
+Il rapporto **[!UICONTROL Re-marketing efficiency]** è accessibile tramite la pagina dei report globali. Ti consente di visualizzare il numero di contatti convertiti (ovvero che hanno acquistato qualcosa) in relazione al numero di abbandoni del carrello a seguito della campagna di remarketing Adobe Campaign. Il tasso di conversione viene calcolato per settimana, mese o dall’inizio della sincronizzazione tra Adobe Campaign e Adobe Analytics.
 
 **Argomenti correlati**
 
