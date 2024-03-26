@@ -7,7 +7,7 @@ level: Beginner, Intermediate
 exl-id: 762dcacc-4aeb-4990-af01-7f793bd69170
 source-git-commit: 515520bb5b7131fc2ed2d1b2a843373f01af306a
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '674'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,7 @@ Nell’esempio seguente, creeremo una nuova cartella per visualizzare solo le co
 
 1. Creare un **[!UICONTROL Deliveries]** cartella e denominarla **Consegne USA**.
 1. Fare clic con il pulsante destro del mouse su questa cartella e selezionare **[!UICONTROL Properties...]**.
-1. Nella scheda **[!UICONTROL Restriction]**, seleziona **[!UICONTROL This folder is a view]**. Verranno quindi visualizzate tutte le consegne nel database.
+1. In **[!UICONTROL Restriction]** , seleziona **[!UICONTROL This folder is a view]**. Verranno quindi visualizzate tutte le consegne nel database.
 
    ![](assets/this-folder-is-a-view.png)
 

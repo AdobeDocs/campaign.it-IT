@@ -7,7 +7,7 @@ role: User
 exl-id: e3ad6d92-8d53-4098-90fd-cfed29f2e56e
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '358'
 ht-degree: 9%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 9%
 
 A **Consegna continua** l’azione di tipo ti consente di aggiungere nuovi destinatari a una consegna esistente. Questo tipo di consegna evita di dover creare ogni volta una nuova consegna: questa modalità è spesso più efficiente, in particolare per gli avvisi o le notifiche di basso volume inviate come e quando necessario.
 
-![](assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](#continuous-delivery-video)
+![](assets/do-not-localize/how-to-video.png) [Guarda il video su questa funzione](#continuous-delivery-video)
 
 A livello di modello di consegna, puoi specificare uno script per calcolare l’etichetta (e la cartella della campagna) della consegna associata. Se lo script calcola una consegna che non esiste ancora, viene creato al volo.
 

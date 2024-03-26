@@ -6,8 +6,8 @@ role: User
 exl-id: ee201cfd-a351-41d8-a5ad-2f2e538dc643
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 8%
+source-wordcount: '570'
+ht-degree: 4%
 
 ---
 
@@ -25,9 +25,9 @@ Il **[!UICONTROL Deduplication]** L’attività viene utilizzata per rimuovere l
 
 | Data ultima modifica | Nome | Cognome | E-mail | Telefono cellulare | Telefono |
 |-----|------------|-----------|-------|--------------|------|
-| 5/19/2020 | Robert | Tisner | bob@mycompany.com | 444-444-444 | 777-777-7777 |
-| 7/22/2020 | Bobby | Tisner | bob@mycompany.com | | 777-777-7777 |
-| 10/03/2020 | Bob |  | bob@mycompany.com | | 888-888-8888 |
+| 5/19/2020 | Robert | Tisner | bob@mycompany.com | 444-444-444 | 777 77 77 777 |
+| 7/22/2020 | Bobby | Tisner | bob@mycompany.com | | 777 77 77 777 |
+| 10/03/2020 | Bob |  | bob@mycompany.com | | 888 88 88 888 |
 
 Con l’attività Deduplicazione di **[!UICONTROL Merge]** funzionalità, puoi configurare un set di regole per la deduplicazione per definire un gruppo di campi da unire in un singolo record di dati risultante. Ad esempio, con un set di record duplicati, è possibile scegliere di mantenere il numero di telefono meno recente o il nome più recente.
 
@@ -93,15 +93,15 @@ Dopo aver configurato queste regole, i seguenti dati vengono ricevuti alla fine 
 
 | Data di modifica | Nome | Cognome | E-mail | Telefono cellulare | Telefono |
 |-----|------------|-----------|-------|--------------|------|
-| 5/19/2020 | Robert | Tisner | bob@mycompany.com | 444-444-444 | 777-777-7777 |
-| 7/22/2020 | Bobby | Tisner | bob@mycompany.com | | 777-777-7777 |
-| 10/03/2020 | Bob |  | bob@mycompany.com | | 888-888-8888 |
+| 5/19/2020 | Robert | Tisner | bob@mycompany.com | 444-444-444 | 777 77 77 777 |
+| 7/22/2020 | Bobby | Tisner | bob@mycompany.com | | 777 77 77 777 |
+| 10/03/2020 | Bob |  | bob@mycompany.com | | 888 88 88 888 |
 
 Il risultato viene unito dai tre record in base alle regole configurate in precedenza. Dopo il confronto, si conclude che vengono utilizzati il nome e il telefono cellulare più recenti, insieme al numero di telefono originale.
 
 | Nome | Cognome | E-mail | Telefono cellulare | Telefono |
 |------------|-----------|-------|--------------|------|
-| Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888 |
+| Bobby | Tisner | bob@mycompany.com | 444 44 44 444 | 888 88 88 888 |
 
 >[!NOTE]
 >

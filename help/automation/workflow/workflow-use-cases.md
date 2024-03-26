@@ -7,7 +7,7 @@ exl-id: 6e899937-5ca0-4ca5-bb14-f914e41559ab
 source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
 workflow-type: tm+mt
 source-wordcount: '172'
-ht-degree: 59%
+ht-degree: 55%
 
 ---
 
@@ -34,7 +34,7 @@ Scopri diversi contesti in cui è possibile utilizzare i flussi di lavoro e come
 * [Inviare avvisi personalizzati agli operatori](send-alerts-to-operators.md)
 * [Impostare un processo di approvazione del destinatario prima dell’invio di una consegna](local-approval-activity.md)
 
-## Gestione dei dati {#management}
+## Gestione dati {#management}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 

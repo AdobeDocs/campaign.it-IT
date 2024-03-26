@@ -8,7 +8,7 @@ exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
 source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '1327'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -26,7 +26,7 @@ Un programma di marketing è costituito da campagne, che sono costituite da cons
 
 ### Creare la gerarchia di piani e programmi {#create-plan-and-program}
 
-Ogni campagna appartiene a un programma che appartiene a un piano. Tutti i piani, i programmi e le campagne sono disponibili tramite **[!UICONTROL Campaign calendar]** menu in **Campagne** scheda.
+Ogni campagna appartiene a un programma che a sua volta appartiene a un piano. Tutti i piani, i programmi e le campagne sono disponibili tramite **[!UICONTROL Campaign calendar]** menu in **Campagne** scheda.
 
 Prima di iniziare a creare campagne e consegne, configura la gerarchia di cartelle per i piani e i programmi di marketing.
 

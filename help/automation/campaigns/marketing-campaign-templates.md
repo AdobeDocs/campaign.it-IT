@@ -8,7 +8,7 @@ exl-id: 1bd8d3e7-aaa9-4e00-96bb-0d30614ab380
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '987'
-ht-degree: 6%
+ht-degree: 5%
 
 ---
 
@@ -49,7 +49,7 @@ Per creare un modello per campagne, segui la procedura seguente:
 
    ![](assets/campaign-template-create-wf.png)
 
-1. Fai clic su **Salva**. Il modello è ora pronto per essere utilizzato per creare una nuova campagna.
+1. Clic **Salva**. Il modello è ora pronto per essere utilizzato per creare una nuova campagna.
 
 Le varie schede e schede secondarie del modello della campagna consentono di accedere alle relative impostazioni, descritte in [Configurazione generale](#general-configuration).
 

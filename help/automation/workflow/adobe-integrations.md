@@ -7,7 +7,7 @@ topic-tags: technical-workflows
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '109'
-ht-degree: 30%
+ht-degree: 8%
 
 ---
 
@@ -24,7 +24,7 @@ I flussi di lavoro descritti di seguito vengono installati con **Integrazione co
    <td> <strong>Descrizione</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Importa tipi di pubblico da Adobe Experience Cloud</span> <br /> </td> 
+   <td> <span class="uicontrol">Importare tipi di pubblico da Adobe Experience Cloud</span> <br /> </td> 
    <td> <span class="uicontrol">importSharedAudience</span> <br /> </td> 
    <td> Questo flusso di lavoro ti consente di importare tipi di pubblico/segmenti da diverse soluzioni Adobe Experience Cloud in Adobe Campaign.<br /> </td> 
   </tr> 

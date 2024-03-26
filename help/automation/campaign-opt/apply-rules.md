@@ -6,8 +6,8 @@ feature: Typology Rules
 exl-id: 4ec3bbe1-fc4c-4b1e-989c-f4dcf8ee8d5e
 source-git-commit: a8568e0c1e9af11b533b7d435691dc12cc0a2485
 workflow-type: tm+mt
-source-wordcount: '951'
-ht-degree: 9%
+source-wordcount: '955'
+ht-degree: 7%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 9%
 
 Per applicare le regole di tipologia create, associale a una tipologia e fai riferimento a essa nella consegna.
 
-A tale scopo, segui la procedura indicata di seguito:
+A questo scopo, segui la procedura indicata di seguito:
 
 1. Creare una tipologia di campagna.
 

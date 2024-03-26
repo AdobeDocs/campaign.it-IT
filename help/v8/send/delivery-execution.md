@@ -8,7 +8,7 @@ exl-id: 084607f6-47d8-40c0-89ba-bfbb88fc2e53
 source-git-commit: c044b391c900e8ff82147f2682e2e4f91845780c
 workflow-type: tm+mt
 source-wordcount: '778'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -104,7 +104,7 @@ Gli indicatori visualizzati nella **[!UICONTROL Indicators over the period]** ve
 
 È possibile configurare le soglie di avviso (arancione) e di avviso (rosso) degli indicatori visualizzati nella **Livello di servizio del Centro messaggi** e **Tempo di elaborazione del Centro messaggi** rapporti.
 
-A tale scopo, segui la procedura indicata di seguito:
+A questo scopo, segui la procedura indicata di seguito:
 
 1. Apri la procedura guidata di distribuzione su **istanza di esecuzione**, e naviga su **[!UICONTROL Message Center]** pagina.
 1. Utilizzare le frecce per modificare le soglie.

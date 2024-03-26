@@ -7,8 +7,8 @@ role: User
 exl-id: c9f5b277-3ad8-4316-94b9-789d37813b8b
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 2%
+source-wordcount: '1135'
+ht-degree: 1%
 
 ---
 
@@ -49,7 +49,7 @@ L’entità centrale fornisce campagne che le entità locali possono utilizzare.
 
   L’elenco dei pacchetti di campagne contiene le campagne disponibili per le entità locali.
 
-* **Pacchetto campagna**
+* **Pacchetto campagne**
 
   Modello (o istanza della campagna) creato da un&#39;entità centrale e reso disponibile a un set di entità locali.
 

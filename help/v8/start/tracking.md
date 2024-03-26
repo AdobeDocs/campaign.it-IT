@@ -7,8 +7,8 @@ level: Beginner, Intermediate
 exl-id: f3de901f-519f-42ae-846c-f20c7cb560df
 source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 18%
+source-wordcount: '680'
+ht-degree: 19%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 18%
 
 Le funzionalità di tracciamento delle campagne tengono traccia dei messaggi inviati e ti aiutano ad analizzare il comportamento dei destinatari: apertura, clic su collegamenti, abbonamenti/annullamento dell’abbonamento e altro ancora. Puoi accedere a registri, report e metriche dedicati, eseguire query sul database per rivedere i dati raccolti e altro ancora.
 
-Per ulteriori informazioni, consulta la [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html#tracking-tab){target="_blank"}.
+Per ulteriori informazioni, consulta [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html#tracking-tab){target="_blank"}.
 
 Il dashboard di consegna è uno strumento chiave per monitorare le consegne e i potenziali problemi durante l’invio dei messaggi.
 

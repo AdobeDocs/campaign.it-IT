@@ -15,7 +15,7 @@ ht-degree: 19%
 
 **Ottimizzazione di Campaign** è il modulo Adobe Campaign che consente di controllare, filtrare e monitorare l’invio delle consegne. Per evitare conflitti tra campagne, Adobe Campaign può sottoporre a test diverse combinazioni applicando specifiche regole di vincolo. Ciò garantisce che i messaggi inviati soddisfino le esigenze e le aspettative dei clienti, in linea con le politiche di comunicazione aziendali.
 
-![](assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](#typologies-video)
+![](assets/do-not-localize/how-to-video.png) [Guarda il video su questa funzione](#typologies-video)
 
 >[!NOTE]
 >

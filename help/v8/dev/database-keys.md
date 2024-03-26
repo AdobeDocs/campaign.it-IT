@@ -4,13 +4,13 @@ description: Gestione delle chiavi negli schemi di Adobe Campaign
 feature: Data Model, Configuration
 role: Developer
 level: Intermediate, Experienced
-source-git-commit: 673298a60927902bba71fd9167c5408e538f4929
+exl-id: cf1f5cfc-172f-44ec-ac97-804d15f9d628
+source-git-commit: 0f5efba364ef924447324bdd806e15e6db8d799d
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 1%
 
 ---
-
 
 # Gestione delle chiavi {#management-of-keys}
 
@@ -142,4 +142,3 @@ Oltre alla definizione della chiave, allo schema esteso è stato aggiunto un cam
 >[!CAUTION]
 >
 >Un record con una chiave primaria impostata su 0 viene inserito automaticamente al momento della creazione della tabella. Questo record viene utilizzato per evitare outer join che non sono validi per le tabelle dei volumi. Per impostazione predefinita, tutte le chiavi esterne sono inizializzate con il valore 0, in modo che un risultato possa sempre essere restituito sul join quando l&#39;elemento dati non viene popolato.
-

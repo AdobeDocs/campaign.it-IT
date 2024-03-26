@@ -24,15 +24,15 @@ L’interazione consente di creare e gestire un catalogo di offerte e configurar
 
 In primo luogo, si verifica un contatto tra un cliente e un’azienda attraverso un canale di comunicazione: può essere un sito web (interazione in uscita), un’e-mail, un SMS, una notifica push (interazioni in entrata). [Ulteriori informazioni](#interaction-types)
 
-Il contatto determina una chiamata al motore di offerta. (1)
+Il contatto determina una chiamata al motore di offerta. 1)
 
-Quando si verifica la chiamata al motore di offerta, una o più offerte vengono selezionate dal catalogo delle offerte a seconda del numero di impostazioni sulla proposta. (2)
+Quando si verifica la chiamata al motore di offerta, una o più offerte vengono selezionate dal catalogo delle offerte a seconda del numero di impostazioni sulla proposta. 2)
 
-Vengono quindi applicate le regole di idoneità: le offerte migliori vengono selezionate in base alle regole di idoneità, alle date di inizio e di fine delle offerte, ai dati del profilo e al comportamento in tempo reale del cliente. (3)
+Vengono quindi applicate le regole di idoneità: le offerte migliori vengono selezionate in base alle regole di idoneità, alle date di inizio e di fine delle offerte, ai dati del profilo e al comportamento in tempo reale del cliente. 3)
 
-La cronologia delle proposte di profilo viene aggiornata una volta effettuata la selezione, per evitare la duplicazione delle offerte presentate. (4)
+La cronologia delle proposte di profilo viene aggiornata una volta effettuata la selezione, per evitare la duplicazione delle offerte presentate. 4)
 
-Infine, viene proposta al target l&#39;offerta migliore. (5)
+Infine, viene proposta al target l&#39;offerta migliore. 5)
 
 ## Introduzione alle offerte
 

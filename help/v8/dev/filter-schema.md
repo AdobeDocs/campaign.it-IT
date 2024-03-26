@@ -7,8 +7,8 @@ level: Intermediate, Experienced
 exl-id: e8ad021c-ce2e-4a74-b9bf-a989d8879fd1
 source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 0%
+source-wordcount: '426'
+ht-degree: 2%
 
 ---
 
@@ -103,7 +103,7 @@ Per impostazione predefinita, gli schemi incorporati sono accessibili solo con a
 
 Gli schemi incorporati sono protetti per evitare problemi di compatibilità con le versioni precedenti. L’Adobe consiglia di non modificare i parametri dello schema predefiniti per garantire una sicurezza ottimale.
 
-Tuttavia, in contesti specifici, potrebbe essere necessario modificare i filtri di sistema degli schemi incorporati. Per farlo, segui la procedura indicata di seguito:
+Tuttavia, in contesti specifici, potrebbe essere necessario modificare i filtri di sistema degli schemi incorporati. A tale scopo, segui i passaggi indicati di seguito:
 
 1. Crea un&#39;estensione per lo schema integrato o apri un&#39;estensione esistente.
 1. Aggiungere un elemento figlio **`<sysfilter name="<filter name>" _operation="delete"/>`** nell’elemento principale per ignorare il filtro nello stesso nello schema integrato.

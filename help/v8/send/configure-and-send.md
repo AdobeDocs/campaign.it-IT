@@ -4,10 +4,11 @@ description: Scopri come configurare le e-mail in Adobe Campaign.
 feature: Email
 role: User
 level: Beginner
-source-git-commit: 263ec61c3717c054cc135f1c4fb1f7e287e4a154
+exl-id: 36033255-1e75-41c1-9816-126777f7330a
+source-git-commit: 3e95a56825a143a4457ab7ee242208d7daaeb414
 workflow-type: tm+mt
-source-wordcount: '1128'
-ht-degree: 8%
+source-wordcount: '1130'
+ht-degree: 9%
 
 ---
 
@@ -39,7 +40,7 @@ Prima di inviare la consegna, puoi definirne i parametri nelle relative propriet
 
 * **[!UICONTROL Email BCC]**: utilizza questa opzione per memorizzare le e-mail su un sistema esterno tramite Ccn semplicemente aggiungendo un indirizzo e-mail Ccn alla destinazione del messaggio. [Ulteriori informazioni](email-parameters.md).
 
-## Invia in più scaglioni {#sending-using-multiple-waves}
+## Inviare in più scaglioni {#sending-using-multiple-waves}
 
 Per bilanciare il carico, puoi dividere le consegne in più batch. Configura il numero di batch e la loro proporzione rispetto all’intera consegna.
 

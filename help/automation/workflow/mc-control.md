@@ -1,18 +1,18 @@
 ---
 product: campaign
-title: Centro messaggi (Controllo)
-description: Centro messaggi (Controllo)
+title: Centro messaggi (controllo)
+description: Centro messaggi (controllo)
 feature: Workflows
 role: User
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 10%
+source-wordcount: '125'
+ht-degree: 1%
 
 ---
 
 
-# Centro messaggi (Controllo){#message-center-control}
+# Centro messaggi (controllo){#message-center-control}
 
 Il flusso di lavoro descritto di seguito viene pianificato per l’esecuzione ogni ora. Viene installato con **Centro messaggi - Controllo** per impostazione predefinita.
 

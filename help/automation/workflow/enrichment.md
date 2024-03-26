@@ -7,8 +7,8 @@ role: User
 exl-id: 23bfabac-62cc-4f86-a739-a34a0e183c31
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 2%
+source-wordcount: '1297'
+ht-degree: 1%
 
 ---
 
@@ -124,7 +124,7 @@ A questo scopo, esegui i seguenti passaggi:
 
    ![](assets/enrichment_edit_after_file_box.png)
 
-1. Seleziona la **[!UICONTROL Link definition]** e fare clic sul pulsante **[!UICONTROL Next]** pulsante. Specifica il tipo di collegamento da creare. In questo esempio, vogliamo riconciliare il paese del destinatario del file con un paese nell’elenco dei paesi disponibili nella tabella dedicata del database. Scegli l’opzione **[!UICONTROL Define a link by searching for a reference among several options]**. Selezionare la tabella dei paesi in **[!UICONTROL Target schema]** campo.
+1. Seleziona la **[!UICONTROL Link definition]** e fare clic sul pulsante **[!UICONTROL Next]** pulsante. Specifica il tipo di collegamento da creare. In questo esempio, vogliamo riconciliare il paese del destinatario del file con un paese nell’elenco dei paesi disponibili nella tabella dedicata del database. Scegli la **[!UICONTROL Define a link by searching for a reference among several options]** opzione. Selezionare la tabella dei paesi in **[!UICONTROL Target schema]** campo.
 
    ![](assets/enrichment_add_a_link_select_option4.png)
 
@@ -161,7 +161,7 @@ Ad esempio, puoi arricchire i dati di una query del destinatario prima di una co
 Dopo aver configurato la query (consulta questa [sezione](query.md)):
 
 1. Aggiungi e apri un’attività di arricchimento.
-1. Nella scheda **[!UICONTROL Enrichment]**, seleziona **[!UICONTROL Add data]**.
+1. In **[!UICONTROL Enrichment]** , seleziona **[!UICONTROL Add data]**.
 1. Seleziona **[!UICONTROL An offer proposition]** nei tipi di dati da aggiungere.
 
    ![](assets/int_enrichment_offer2.png)

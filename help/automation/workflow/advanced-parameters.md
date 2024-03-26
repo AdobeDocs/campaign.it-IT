@@ -51,7 +51,7 @@ Queste opzioni vengono generalmente selezionate nel carrello facendo clic con il
 Puoi scegliere di forzare l’esecuzione di un flusso di lavoro o di un’attività del flusso di lavoro su un computer specifico. A questo scopo, devi definire una o più propensione a livello del flusso di lavoro o dell’attività interessata.
 
 
-## Max. periodo di esecuzione {#max--execution-period}
+## Max periodo di esecuzione {#max--execution-period}
 
 Questo campo consente di impostare un avviso per i casi in cui l&#39;attività richiede troppo tempo. Non influirà sul funzionamento del flusso di lavoro. Se l&#39;attività non è terminata entro il **[!UICONTROL Max. execution period]** è finito, il **[!UICONTROL Instance monitoring]** verrà visualizzato un avviso per questo flusso di lavoro. Questa pagina è accessibile tramite **[!UICONTROL Monitoring]** della home page.
 

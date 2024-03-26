@@ -7,7 +7,7 @@ role: User
 source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '95'
-ht-degree: 27%
+ht-degree: 2%
 
 ---
 
@@ -29,7 +29,7 @@ I flussi di lavoro descritti di seguito vengono installati con **Canale LINE** p
    <td> Questo flusso di lavoro aggiorna il token di accesso alla LINE V2.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Elimina gli utenti LINE bloccati</span> <br /> </td> 
+   <td> <span class="uicontrol">Elimina utenti LINE bloccati</span> <br /> </td> 
    <td> <span class="uicontrol">deleteBlockedLineUsersV2</span> <br /> </td> 
    <td> Questo flusso di lavoro assicura che i dati degli utenti LINE V2 vengano eliminati dopo che hanno bloccato l’account ufficiale LINE per 180 giorni.<br /> </td> 
   </tr> 

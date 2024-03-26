@@ -6,8 +6,8 @@ feature: Workflows
 role: User, Admin
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 7%
+source-wordcount: '317'
+ht-degree: 5%
 
 ---
 
@@ -56,7 +56,7 @@ I flussi di lavoro descritti di seguito vengono installati con **Consegne** per 
    <td> <p>Questo flusso di lavoro analizza i flussi di lavoro in pausa la cui gravità è impostata su Normal e attiva avvisi e notifiche se sono stati messi in pausa troppo a lungo. Dopo un mese, i flussi di lavoro tecnici in pausa vengono interrotti incondizionatamente. Per impostazione predefinita viene attivato ogni lunedì alle 5.</p> <p>Per ulteriori informazioni, consulta Gestione dei flussi di lavoro in pausa</a>.</p></td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Notifica dell’offerta</span> <br /> </td> 
+   <td> <span class="uicontrol">Notifica di offerta</span> <br /> </td> 
    <td> <span class="uicontrol">offerManagement</span> <br /> </td> 
    <td> Questo flusso di lavoro distribuisce le offerte approvate nell’ambiente online, nonché in ogni categoria contenuta nel catalogo delle offerte.<br /> </td> 
   </tr> 
@@ -66,7 +66,7 @@ I flussi di lavoro descritti di seguito vengono installati con **Consegne** per 
    <td> Questo flusso di lavoro analizza le consegne salvate nel calendario provvisorio (crea registri provvisori). Per impostazione predefinita viene attivato ogni giorno all’1.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Tracking</span> <br /> </td> 
+   <td> <span class="uicontrol">Tracciamento</span> <br /> </td> 
    <td> <span class="uicontrol">tracciamento</span> <br /> </td> 
    <td> Questo flusso di lavoro esegue il ripristino e il consolidamento delle informazioni di tracciamento. Assicura inoltre il ricalcolo delle statistiche di tracciamento e consegna, in particolare quelle utilizzate dai flussi di lavoro di archiviazione del Centro messaggi. Per impostazione predefinita viene attivato una volta all’ora. <br /> </td> 
   </tr> 

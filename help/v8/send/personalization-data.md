@@ -8,7 +8,7 @@ exl-id: 711256e2-ab77-404a-b052-6793a85da193
 source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
 workflow-type: tm+mt
 source-wordcount: '625'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -70,4 +70,4 @@ Al termine dell’analisi, passa al flusso di lavoro **[!UICONTROL Properties]**
 
 Quando una consegna viene creata nel contesto di un flusso di lavoro, puoi utilizzare i dati della tabella del flusso di lavoro temporaneo. I dati memorizzati nella tabella di lavoro temporanea del flusso di lavoro sono disponibili per le attività di personalizzazione. I dati possono essere utilizzati nei campi di personalizzazione.
 
-Questi dati sono raggruppati in **[!UICONTROL Target extension]** menu. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../automation/workflow/use-workflow-data.md#target-data).
+Questi dati sono raggruppati in **[!UICONTROL Target extension]** menu. Per ulteriori informazioni, consulta  [questa sezione](../../automation/workflow/use-workflow-data.md#target-data).

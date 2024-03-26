@@ -7,8 +7,8 @@ role: User, Data Engineer
 exl-id: 27308b0d-cbfc-4bc6-9061-d771ceac95fd
 source-git-commit: 28742db06b9ca78a4e952fcb0e066aa5ec344416
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 12%
+source-wordcount: '258'
+ht-degree: 13%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 12%
 
 A **[!UICONTROL Recurring delivery]** attività consente di configurare un’occorrenza del modello di consegna specifica per una campagna.
 
-![](assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](#recurring-delivery-video)
+![](assets/do-not-localize/how-to-video.png) [Guarda il video su questa funzione](#recurring-delivery-video)
 
 Questa attività è disponibile solo da **[!UICONTROL Targeting and workflows]** scheda trovata in una campagna.
 

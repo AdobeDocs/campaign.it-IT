@@ -7,8 +7,8 @@ role: User
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
-source-wordcount: '1464'
-ht-degree: 1%
+source-wordcount: '1463'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ To build the delivery target, you can define filtering criteria for the recipien
 
 ## Invia a un gruppo{#send-to-a-group}
 
-Puoi importare una popolazione in un elenco, quindi eseguire il targeting di questo elenco nelle consegne. A tale scopo, segui la procedura indicata di seguito:
+Puoi importare una popolazione in un elenco, quindi eseguire il targeting di questo elenco nelle consegne. A questo scopo, segui la procedura indicata di seguito:
 
 1. Modifica la consegna e fai clic su **[!UICONTROL To]** collegamento per modificare la popolazione target.
 1. In **[!UICONTROL Main target]** , seleziona la scheda **[!UICONTROL Defined via the database]** e fai clic su **[!UICONTROL Add]** per selezionare i destinatari.

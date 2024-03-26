@@ -8,7 +8,7 @@ level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
 source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '692'
 ht-degree: 33%
 
 ---
@@ -26,7 +26,7 @@ Un modello può includere:
 * Contenuto, logo dell’azienda o firma
 * Altre proprietà di consegna, ad esempio validità della risorsa, parametri dei nuovi tentativi o impostazioni della quarantena.
 
-![](assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](#delivery-template-video)
+![](assets/do-not-localize/how-to-video.png) [Guarda il video su questa funzione](#delivery-template-video)
 
 
 ## Creare un modello{#create-a-delivery-template}
@@ -88,7 +88,7 @@ Per configurare un modello di consegna da zero, segui la procedura seguente:
 1. Completa il **Parametri e-mail** categoria con l’oggetto dell’e-mail e la popolazione target.
 1. Aggiungi il **Contenuto HTML** per personalizzare il modello, puoi visualizzare una [collegamento pagina mirror](../send/mirror-page.md) e un collegamento per annullare l’abbonamento.
 1. Seleziona la **Anteprima** scheda. In **Test personalizzazione** menu a discesa, seleziona **Destinatario** per visualizzare in anteprima il modello come profilo scelto.
-1. Fai clic su **Salva**. Il modello è ora pronto per essere utilizzato in una consegna.
+1. Clic **Salva**. Il modello è ora pronto per essere utilizzato in una consegna.
 
 
 ## Utilizzare i modelli{#use-a-delivery-template}

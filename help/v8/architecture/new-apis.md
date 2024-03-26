@@ -7,7 +7,7 @@ level: Intermediate
 exl-id: dd822f88-b27d-4944-879c-087f68e79825
 source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '429'
 ht-degree: 2%
 
 ---
@@ -212,4 +212,4 @@ L’inserimento di dati di abbonamento e di annullamento dell’abbonamento si b
 
 **Argomenti correlati**
 
-* [JSAPI per Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target="_blank"}
+* [JSAPI campagna](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target="_blank"}

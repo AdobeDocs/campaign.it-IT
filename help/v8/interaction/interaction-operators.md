@@ -8,7 +8,7 @@ exl-id: 865ddb84-3373-45e0-849d-9d3c92455d22
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 8%
+ht-degree: 2%
 
 ---
 
@@ -96,7 +96,7 @@ I diritti assegnati ai responsabili delle consegne consentono loro di svolgere i
    <td> Letto<br /> </td> 
   </tr> 
   <tr> 
-   <td> Categoria offerta<br /> </td> 
+   <td> Categoria di offerta<br /> </td> 
    <td> Lettura/scrittura<br /> </td> 
    <td> Letto<br /> </td> 
   </tr> 
@@ -156,7 +156,7 @@ I diritti assegnati ai responsabili delle consegne consentono loro di svolgere i
    <td> Letto<br /> </td> 
   </tr> 
   <tr> 
-   <td> Categoria offerta<br /> </td> 
+   <td> Categoria di offerta<br /> </td> 
    <td> </td> 
    <td> Letto<br /> </td> 
   </tr> 

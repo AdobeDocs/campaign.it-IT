@@ -8,7 +8,7 @@ exl-id: 04bda36f-051f-41a3-84b3-6af3c5e34ab2
 source-git-commit: a779f243b0ba13dc3fcb7839377ca8766e5f7841
 workflow-type: tm+mt
 source-wordcount: '656'
-ht-degree: 14%
+ht-degree: 18%
 
 ---
 
@@ -26,7 +26,7 @@ Gli aggiornamenti possono essere:
 
 Informazioni dettagliate su ogni nuova versione sono disponibili nel [Note sulla versione](release-notes.md).
 
-Per garantire una configurazione stabile, l’Adobe consiglia di installare **la stessa versione** su tutti i server di Campaign. Inoltre, salvo diversa indicazione [Note sulla versione](release-notes.md), la console client deve essere attiva **la stessa versione** come istanza del server. Scopri come aggiornare la console client [in questa pagina](../start/connect.md#upgrade-ac-console).
+Per garantire una configurazione stabile, l’Adobe consiglia di installare **la stessa versione** su tutti i server di Campaign. Inoltre, salvo diversa indicazione [Note sulla versione](release-notes.md), la console client deve essere attiva **la stessa versione** come istanza del server. Scopri come aggiornare la console client in questa [pagina](../start/connect.md#upgrade-ac-console).
 
 In qualità di cliente di Campaign Managed Services, quando è disponibile una nuova versione di Campaign, l’infrastruttura viene aggiornata di Adobe senza ulteriori azioni.
 
@@ -52,7 +52,7 @@ Accedi alle seguenti informazioni:
 
 Le nuove versioni e le modifiche apportate sono elencate in [Note sulla versione](release-notes.md). Quando sarà disponibile una nuova versione, Adobe ti contatterà e aggiornerà i tuoi ambienti.
 
-Per ricevere informazioni sulle nuove versioni di Experience Cloud solution, abbonati al [Adobe di aggiornamento del prodotto con priorità](https://www.adobe.com/it/subscription/priority-product-update.html){target="_blank"}.
+Per ricevere informazioni sulle nuove versioni della soluzione Experience Cloud, iscriviti ad [Adobe Priority Product Update](https://www.adobe.com/it/subscription/priority-product-update.html){target="_blank"}.
 
 Puoi anche visitare [Community campagna](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&amp;sort=date&amp;order=desc&amp;filters=adobe-campaign-classic-community&amp;topic=Campaign+v8){target="_blank"} per ricevere informazioni sugli aggiornamenti delle versioni.
 

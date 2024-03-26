@@ -8,7 +8,7 @@ exl-id: 878b5963-100c-4dd7-97a0-c59a62c493b1
 source-git-commit: 79d916c4d65c0c55ec20f2f5850fec40fe4e99a3
 workflow-type: tm+mt
 source-wordcount: '928'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## Che cos&#39;è un indirizzo di seed? {#gs-seeds}
 
-I profili di test vengono creati come indirizzi di seed. Vengono utilizzati per eseguire il targeting di destinatari che non corrispondono ai criteri di target definiti. Gli indirizzi seed ti consentono di visualizzare in anteprima e testare la personalizzazione e il rendering prima di inviare la consegna, inviando loro delle bozze.
+I profili di test vengono creati come indirizzi seed. Vengono utilizzati per eseguire il targeting di destinatari che non corrispondono ai criteri di target definiti. Gli indirizzi seed ti consentono di visualizzare in anteprima e testare la personalizzazione e il rendering prima di inviare la consegna, inviando loro delle bozze.
 
 Gli indirizzi seed presentano i seguenti vantaggi:
 

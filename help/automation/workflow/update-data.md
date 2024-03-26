@@ -1,17 +1,17 @@
 ---
 product: campaign
-title: Attività Update data
+title: Aggiornare i dati
 description: Ulteriori informazioni sull’attività del flusso di lavoro Aggiorna dati
 feature: Workflows, Targeting Activity, Data Management
 exl-id: 63b214c7-bbbf-448b-b3af-b3b7a7a5b65c
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '844'
 ht-degree: 1%
 
 ---
 
-# Attività Update data{#update-data}
+# Aggiornare i dati{#update-data}
 
 
 
@@ -31,7 +31,7 @@ Il **[!UICONTROL Operation type]** consente di scegliere il processo da eseguire
 
 Il **[!UICONTROL Batch size]** Questo campo consente di selezionare il numero di elementi di transizione in entrata da aggiornare. Se ad esempio si specifica 500, verranno aggiornati i primi 500 record trattati.
 
-## Identificazione del record {#record-identification}
+## Identificazione record {#record-identification}
 
 Specificare come identificare i record nel database:
 

@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 648fefcc-6476-4af8-9f0d-c9a87a7a3019
 source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 67%
+source-wordcount: '783'
+ht-degree: 64%
 
 ---
 
@@ -41,7 +41,7 @@ Nel modello Ottimizzazione predittiva del tempo di invio sono presenti due model
 
 **Output modello**: momento migliore per inviare un messaggio (per aperture e clic)
 
-Dettagli di uscita:
+Dettagli di output:
 
 * Calcola il momento migliore per l’invio di un’e-mail nei 7 giorni della settimana con intervalli di 1 ora (ad es.: 9:00, 10:00, 11:00)
 * Il modello indica il giorno migliore della settimana e l’ora migliore di quel determinato giorno

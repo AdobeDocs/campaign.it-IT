@@ -1,18 +1,18 @@
 ---
 product: campaign
-title: Centro messaggi (Esecuzione)
-description: Centro messaggi (Esecuzione)
+title: Centro messaggi (esecuzione)
+description: Centro messaggi (esecuzione)
 feature: Workflows
 role: User
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '203'
-ht-degree: 11%
+ht-degree: 2%
 
 ---
 
 
-# Centro messaggi (Esecuzione){#message-center-execution}
+# Centro messaggi (esecuzione){#message-center-execution}
 
 I flussi di lavoro descritti di seguito vengono installati con **Centro messaggi - Esecuzione** componente aggiuntivo per impostazione predefinita.
 
@@ -37,7 +37,7 @@ I flussi di lavoro descritti di seguito vengono installati con **Centro messaggi
     </ul> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Elaborazione degli eventi batch</span> <br /> </td> 
+   <td> <span class="uicontrol">Elaborazione di eventi batch</span> <br /> </td> 
    <td> <span class="uicontrol">batchEventsProcessing</span> <br /> </td> 
    <td> Questo flusso di lavoro ti consente di mettere in coda gli eventi batch prima di associarli a un modello di messaggio. <br /> </td> 
   </tr> 

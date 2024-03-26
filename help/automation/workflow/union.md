@@ -7,7 +7,7 @@ exl-id: 4109e198-bf9d-4dd2-92a1-16bbadbe30e8
 source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '297'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,7 @@ Nell’esempio seguente, i risultati di due query sono stati combinati per aggio
    Specifica questo numero finale immettendo il numero massimo di destinatari e selezionando la query la cui popolazione avrà la priorità.
 
 1. Approva il **[!UICONTROL Union]** attività, quindi configura il [Aggiornamento elenco](list-update.md) attività.
-1. Avviare il flusso di lavoro. Viene visualizzato il numero di risultati e viene creato o aggiornato l’elenco definito nell’attività di aggiornamento elenco. Questo elenco contiene il set di destinatari per entrambe le query o, se applicabile, il numero definito al passaggio precedente.
+1. Avvia il flusso di lavoro. Viene visualizzato il numero di risultati e viene creato o aggiornato l’elenco definito nell’attività di aggiornamento elenco. Questo elenco contiene il set di destinatari per entrambe le query o, se applicabile, il numero definito al passaggio precedente.
 
    ![](assets/union_example.png)
 

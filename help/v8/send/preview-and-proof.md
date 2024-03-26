@@ -1,5 +1,5 @@
 ---
-title: Anteprima e test dell’e-mail
+title: Anteprima e verifica dell’e-mail
 description: Scopri come convalidare la consegna prima dell’invio
 feature: Personalization
 role: User
@@ -8,11 +8,11 @@ exl-id: 5b9fa90c-c23e-47a7-b2ca-de75da4da2ab
 source-git-commit: 19c42bcd2a96173f3d33e3e259192107b5e64c6c
 workflow-type: tm+mt
 source-wordcount: '703'
-ht-degree: 7%
+ht-degree: 3%
 
 ---
 
-# Anteprima e test dell’e-mail {#preview-test}
+# Anteprima e verifica dell’e-mail {#preview-test}
 
 Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarlo in anteprima e testarlo. Se è stato inserito [contenuti personalizzati](personalize.md), puoi verificare come viene visualizzato questo contenuto nel messaggio, utilizzando i dati del profilo di test. Inoltre, per rilevare eventuali errori nel contenuto del messaggio o nelle impostazioni di personalizzazione, invia bozze ai profili di test. Per convalidare il contenuto più recente, è necessario inviare una bozza ogni volta che viene apportata una modifica.
 
@@ -33,7 +33,7 @@ Per visualizzare in anteprima il contenuto del messaggio, segui i passaggi segue
 
 1. Seleziona altri profili di test per visualizzare in anteprima il rendering delle e-mail per ogni variante del messaggio.
 
-## Invia bozze {#send-proofs}
+## Inviare bozze {#send-proofs}
 
 Per le consegne e-mail, puoi inviare bozze per convalidare il contenuto del messaggio. L’invio di bozze ti consente di controllare il collegamento di rinuncia, la pagina speculare e tutti gli altri collegamenti, convalidare il messaggio, verificare che siano visualizzate le immagini, rilevare eventuali errori, ecc. Puoi anche controllare la progettazione e il rendering su dispositivi diversi.
 
@@ -101,7 +101,7 @@ Per impostazione predefinita, i messaggi di bozza sono identificati da `Proof #N
 ![](assets/proof-parameters.png){width="800" align="left"}
 
 
-## Video tutorial {#video-proof}
+## Video dimostrativo {#video-proof}
 
 Scopri come inviare e convalidare una bozza per una consegna e-mail.
 

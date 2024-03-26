@@ -6,8 +6,8 @@ role: Data Engineer
 exl-id: ad8e9f9c-df24-4a11-b8df-4b31dd54911f
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
-source-wordcount: '2978'
-ht-degree: 9%
+source-wordcount: '3048'
+ht-degree: 3%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 9%
   </tr> 
   <tr> 
    <td> Transazioni<br /> </td> 
-   <td> @transazioni<br /> </td> 
+   <td> @transactions<br /> </td> 
    <td> Somma di tutte le @totalClicks con un tipo di URL uguale a "Transaction".<br /> </td> 
    <td> sum(Iif([url/@type]=5, @totalClicks, 0))<br /> </td> 
   </tr> 
@@ -96,7 +96,7 @@ Questo rapporto si basa sulla **[!UICONTROL Delivery and tracking statistics]** 
   </tr> 
   <tr> 
    <td> Account disabilitato<br /> </td> 
-   <td> @disabilitato<br /> </td> 
+   <td> @disabled<br /> </td> 
    <td> Numero di tutti i messaggi con uno stato uguale a "Non riuscito" e un motivo uguale a "Account disabilitato".<br /> </td> 
    <td> Count(@status=2 e msg/@failureReason=4)<br /> </td> 
   </tr> 
@@ -108,7 +108,7 @@ Questo rapporto si basa sulla **[!UICONTROL Delivery and tracking statistics]** 
   </tr> 
   <tr> 
    <td> Errori<br /> </td> 
-   <td> @valore<br /> </td> 
+   <td> @value<br /> </td> 
    <td> Numero di messaggi non riusciti per questo tipo di errore.<br /> </td> 
    <td> Count(@status=2 e msg/@failureReason="Valore del tipo di errore")<br /> </td> 
   </tr> 
@@ -148,7 +148,7 @@ Questo rapporto si basa sulla **[!UICONTROL Internet Browser Statistics]** tabel
  </thead> 
  <tbody> 
   <tr> 
-   <td> Visitatori<br /> </td> 
+   <td> Visitor<br /> </td> 
    <td> @totalVisitors<br /> </td> 
    <td> Numero totale di destinatari di destinazione per questo browser che hanno fatto clic almeno una volta in una consegna.<br /> </td> 
    <td> Somma(@visitors)<br /> </td> 
@@ -182,7 +182,7 @@ Questo rapporto si basa sulla **[!UICONTROL Internet Browser Statistics]** tabel
  <tbody> 
   <tr> 
    <td> Tasso di utilizzo<br /> </td> 
-   <td> @visitatori<br /> </td> 
+   <td> @visitors<br /> </td> 
    <td> Percentuale del numero di visitatori al giorno che utilizza questo browser rispetto al numero di visitatori misurato nel giorno con il maggior numero di visite.<br /> </td> 
    <td> percentuale(somma(@visitors),max(@visitorsOfTheDay))<br /> </td> 
   </tr> 
@@ -229,7 +229,7 @@ Questo rapporto si basa sulla **[!UICONTROL Delivery]** (nms:consegna), **[!UICO
   </tr> 
   <tr> 
    <td> E-mail<br /> </td> 
-   <td> @e-mail<br /> </td> 
+   <td> @email<br /> </td> 
    <td> Somma di tutte le @totalClicks per le quali la categoria URL è uguale a "e-mail".<br /> </td> 
    <td> Sum(iIf([url/@category]='email',@totalClicks,0))<br /> </td> 
   </tr> 
@@ -390,7 +390,7 @@ Questo rapporto si basa sulla **[!UICONTROL Internet Browser Statistics]** tabel
  </thead> 
  <tbody> 
   <tr> 
-   <td> Visitatori<br /> </td> 
+   <td> Visitor<br /> </td> 
    <td> @totalVisitors/@days<br /> </td> 
    <td> Media giornaliera del numero totale di destinatari interessati dal sistema operativo che hanno fatto clic almeno una volta su una consegna.<br /> </td> 
    <td> Somma(@visitors)<br /> </td> 
@@ -424,7 +424,7 @@ Questo rapporto si basa sulla **[!UICONTROL Internet Browser Statistics]** tabel
  <tbody> 
   <tr> 
    <td> Tasso di utilizzo<br /> </td> 
-   <td> @visitatori<br /> </td> 
+   <td> @visitors<br /> </td> 
    <td> Percentuale del numero di visitatori al giorno in questo sistema operativo rispetto al numero di visitatori misurato nel giorno con il maggior numero di visite.<br /> </td> 
    <td> percentuale(somma(@visitors), max(@visitorsOfTheDay))<br /> </td> 
   </tr> 
@@ -464,13 +464,13 @@ Questo rapporto si basa sulla **[!UICONTROL Services]** tabella (nms:service).
    <td> sum(Iif(@created &lt; addDays(getDate(), (-1)), 1, 0))<br /> </td> 
   </tr> 
   <tr> 
-   <td> Abbonamenti<br /> </td> 
+   <td> Iscrizioni<br /> </td> 
    <td> @_subscription<br /> </td> 
    <td> numero di abbonamenti (@action = 1) nel giorno precedente.<br /> </td> 
    <td> sum(Iif(@action = 1 e @date &gt; addDays(getDate(), (-1)), 1, 0))<br /> </td> 
   </tr> 
   <tr> 
-   <td> Annullamenti dell’abbonamento<br /> </td> 
+   <td> Annullamenti iscrizione<br /> </td> 
    <td> @_unsubscription<br /> </td> 
    <td> numero di annullamenti di abbonamenti (azione = 0) nel giorno precedente.<br /> </td> 
    <td> sum(Iif(@action = 0 e @date &gt; addDays(getDate(), (-1)), 1, 0))<br /> </td> 
@@ -583,7 +583,7 @@ Questo rapporto si basa sulla **[!UICONTROL Delivery and tracking statistics]** 
    <td> Countdistinct(Iif([url/@type]=1, @source-id, 0))<br /> </td> 
   </tr> 
   <tr> 
-   <td> Click complessivi<br /> </td> 
+   <td> Clic cumulativi<br /> </td> 
    <td> @totalRecipientClick<br /> </td> 
    <td> Numero di tutti i @ids con una categoria URL uguale a "E-mail click".<br /> </td> 
    <td> count(Iif([url/@type]=1, @id, 0))<br /> </td> 
@@ -619,7 +619,7 @@ Questo rapporto si basa sulla **[!UICONTROL Delivery and tracking statistics]** 
    <td> Sum(Iif([url/@type]=5, webTrackingLog/@amount, 0))<br /> </td> 
   </tr> 
   <tr> 
-   <td> Importo medio delle transazioni<br /> </td> 
+   <td> Importo medio della transazione<br /> </td> 
    <td> -<br /> </td> 
    <td> Rapporto tra l'importo totale e il numero di transazioni.<br /> </td> 
    <td> div(@amount, @transaction)<br /> </td> 
@@ -644,7 +644,7 @@ Questo rapporto si basa sulla **[!UICONTROL Delivery and tracking statistics]** 
   </tr> 
   <tr> 
    <td> E-mail<br /> </td> 
-   <td> @e-mail<br /> </td> 
+   <td> @email<br /> </td> 
    <td> Somma di tutte le @totalClicks con una categoria URL uguale a "e-mail".<br /> </td> 
    <td> Sum(iIf([url/@category]='email',@totalClicks,0))<br /> </td> 
   </tr> 
@@ -714,7 +714,7 @@ Questo rapporto si basa sulla **[!UICONTROL Delivery]** tabella (nms:delivery).
    <td> percent([indicatori/@personClick], [indicatori/@success])<br /> </td> 
   </tr> 
   <tr> 
-   <td> Click complessivi<br /> </td> 
+   <td> Clic cumulativi<br /> </td> 
    <td> @totalClicks<br /> </td> 
    <td> Rapporto tra il numero totale di clic dei destinatari target e il numero di messaggi consegnati con successo.<br /> </td> 
    <td> percent([indicatori/@totalRecipientClick], [indicatori/@success])<br /> </td> 
@@ -734,7 +734,7 @@ Questo rapporto si basa sulla **[!UICONTROL Delivery]** tabella (nms:delivery).
  </tbody> 
 </table>
 
-## Riepilogo delle consegne {#delivery-summary-1}
+## Riepilogo della consegna {#delivery-summary-1}
 
 Questo rapporto si basa sulla **[!UICONTROL Delivery]** tabella (nms:delivery).
 
@@ -809,7 +809,7 @@ Questo rapporto si basa sulla **[!UICONTROL Delivery]** tabella (nms:delivery).
  <tbody> 
   <tr> 
    <td> Transazioni<br /> </td> 
-   <td> @transazioni<br /> </td> 
+   <td> @transactions<br /> </td> 
    <td> Somma di tutte le @totalClicks con un tipo di URL uguale a "Transaction".<br /> </td> 
    <td> sum(Iif([url/@type] = 5, @totalClicks, 0))<br /> </td> 
   </tr> 
@@ -849,13 +849,13 @@ Questo rapporto si basa sulla **[!UICONTROL Delivery and tracking statistics]** 
    <td> @prepared + @error + @success<br /> </td> 
   </tr> 
   <tr> 
-   <td> Consegnati<br /> </td> 
+   <td> Consegnato<br /> </td> 
    <td> @success<br /> </td> 
    <td> Numero di messaggi elaborati correttamente.<br /> </td> 
    <td> indicatori/@success<br /> </td> 
   </tr> 
   <tr> 
-   <td> Mancati recapiti permanenti<br /> </td> 
+   <td> Mancato recapito permanente<br /> </td> 
    <td> @hardBounce<br /> </td> 
    <td> Numero totale di messaggi con stato uguale a "Non riuscito" e motivo uguale a "Utente sconosciuto".<br /> </td> 
    <td> @unknownUser<br /> </td> 
@@ -879,7 +879,7 @@ Questo rapporto si basa sulla **[!UICONTROL Delivery and tracking statistics]** 
    <td> Countdistinct(Iif([url/@type]=1, @source-id, 0)) <br /> </td> 
   </tr> 
   <tr> 
-   <td> Annullamenti dell’abbonamento<br /> </td> 
+   <td> Annullamenti iscrizione<br /> </td> 
    <td> @optOut<br /> </td> 
    <td> Numero totale di @ids per i quali la categoria URL è uguale a "Rinuncia".<br /> </td> 
    <td> count(Iif([url/@type]=3, @id, 0))<br /> </td> 

@@ -6,7 +6,7 @@ exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
 source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
 source-wordcount: '1021'
-ht-degree: 9%
+ht-degree: 12%
 
 ---
 
@@ -51,7 +51,7 @@ Questo rapporto combina gli indicatori chiave per monitorare il comportamento de
 **[!UICONTROL 1. Delivery statistics]**
 
 * **[!UICONTROL Messages to deliver]** : numero totale di messaggi da consegnare dopo l’analisi della consegna.
-* **[!UICONTROL Success]** : Numero di messaggi elaborati correttamente.
+* **[!UICONTROL Success]** : numero di messaggi elaborati correttamente.
 
 **[!UICONTROL 2. Reception statistics]**
 
@@ -146,7 +146,7 @@ The central table provides the following information:
 This chart shows the breakdown of cumulated clicks per day.
 -->
 
-## Riepilogo delle consegne {#delivery-summary}
+## Riepilogo della consegna {#delivery-summary}
 
 Questo rapporto fornisce tutte le informazioni principali sulla consegna.
 
@@ -168,9 +168,9 @@ Il grafico centrale mostra il raggruppamento per regola dei messaggi rifiutati d
 Questa sezione include i seguenti indicatori:
 
 * **[!UICONTROL Messages to be delivered]** : numero totale di messaggi da consegnare dopo l’analisi della consegna.
-* **[!UICONTROL Success]** : numero di messaggi elaborati correttamente. La frequenza associata è il rapporto con il numero di messaggi da consegnare.
-* **[!UICONTROL Errors]** : numero totale di errori accumulati durante le consegne ed elaborazione automatica del rimbalzo. La frequenza associata è il rapporto con il numero di messaggi da consegnare.
-* **[!UICONTROL New quarantines]** : numero di indirizzi messi in quarantena a seguito di una consegna non riuscita (utente sconosciuto, dominio non valido). La frequenza associata è il rapporto con il numero di messaggi da consegnare.
+* **[!UICONTROL Success]** : numero di messaggi elaborati correttamente. Il tasso associato è il rapporto con il numero di messaggi da consegnare.
+* **[!UICONTROL Errors]** : numero totale di errori accumulati durante le consegne ed elaborazione automatica del rimbalzo. Il tasso associato è il rapporto con il numero di messaggi da consegnare.
+* **[!UICONTROL New quarantines]** : numero di indirizzi messi in quarantena a seguito di una consegna non riuscita (utente sconosciuto, dominio non valido). Il tasso associato è il rapporto con il numero di messaggi da consegnare.
 
 ## Hot click {#hot-clicks}
 
@@ -185,7 +185,7 @@ Questo rapporto mostra il contenuto del messaggio (HTML e/o testo) e la percentu
 
 Questo rapporto fornisce statistiche su aperture, clic e transazioni.
 
-Ti consente di monitorare l’impatto di marketing della consegna. Puoi configurare la modalità di visualizzazione dei valori modificando la scala cronologica (visualizzazione a 1 ora, a 3 ore o a 24 ore, ecc.). Fai clic su **[!UICONTROL Refresh]** per confermare la selezione.
+Ti consente di monitorare l’impatto di marketing della consegna. Puoi configurare la modalità di visualizzazione dei valori modificando la scala cronologica (visualizzazione a 1 ora, a 3 ore o a 24 ore, ecc.). Clic **[!UICONTROL Refresh]** per confermare la selezione.
 
 Questo rapporto fornisce una tabella di valori e un grafico Pareto che mostra il tempo necessario affinché la consegna raggiunga la massima efficienza. Sono utilizzati i seguenti indicatori:
 

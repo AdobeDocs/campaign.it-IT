@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 8bcaf367-5b1f-4d31-80c9-c77df43c6ed1
 source-git-commit: d4e28ddf6081881f02042416aa8214761ea42be9
 workflow-type: tm+mt
-source-wordcount: '1345'
-ht-degree: 13%
+source-wordcount: '1353'
+ht-degree: 11%
 
 ---
 
@@ -77,7 +77,7 @@ Il nome dell’attività si trova nella sezione **[!UICONTROL Advanced]** scheda
 ### Prima e ultima attività {#first-and-last-activities}
 
 * Avvia sempre il flusso di lavoro con un **[!UICONTROL Start]** attività o un **[!UICONTROL Scheduler]** attività. Se necessario, puoi anche utilizzare un’ **[!UICONTROL External signal]** attività.
-* Durante la creazione del flusso di lavoro, utilizza un solo **[!UICONTROL Scheduler]** attività per ramo. Se lo stesso ramo di un flusso di lavoro include più pianificatori (collegati tra loro), il numero di attività da eseguire verrà moltiplicato in modo esponenziale, il che sovraccaricherebbe notevolmente il database. Questa regola si applica anche a tutte le attività con **[!UICONTROL Scheduling & History]** scheda. Ulteriori informazioni su [Pianificazione](scheduler.md).
+* Durante la creazione del flusso di lavoro, utilizza un solo **[!UICONTROL Scheduler]** attività per ramo. Se lo stesso ramo di un flusso di lavoro ha più pianificatori (collegati tra loro), il numero di attività da eseguire verrà moltiplicato in modo esponenziale, il che sovraccaricherebbe notevolmente il database. Questa regola si applica anche a tutte le attività con **[!UICONTROL Scheduling & History]** scheda. Ulteriori informazioni su [Pianificazione](scheduler.md).
 
   ![](assets/wf-scheduler.png)
 

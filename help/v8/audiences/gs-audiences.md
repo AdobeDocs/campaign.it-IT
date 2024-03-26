@@ -12,7 +12,7 @@ ht-degree: 20%
 
 ---
 
-# Guida introduttiva a profili e tipi di pubblico{#gs-profiles-and-audiences}
+# Guida introduttiva ai profili e ai tipi di pubblico{#gs-profiles-and-audiences}
 
 I profili sono contatti memorizzati nel database di Campaign, ad esempio clienti, abbonati a un servizio o potenziali clienti. Esistono molti possibili meccanismi per l’acquisizione di profili e la creazione di questo database: raccolta online tramite moduli web, importazione manuale o automatica di file di testo, replica con database aziendali o altri sistemi di informazioni. Con Adobe Campaign, puoi incorporare la cronologia di marketing, le informazioni di acquisto, le preferenze, i dati di gestione delle relazioni con i clienti ed eventuali dati PI rilevanti in una visualizzazione consolidata per analizzare e intraprendere azioni. I profili contengono tutte le informazioni necessarie per il targeting, la qualificazione e il tracciamento dei singoli utenti.
 

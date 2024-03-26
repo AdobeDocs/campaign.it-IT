@@ -8,7 +8,7 @@ exl-id: edf887fb-c391-405c-b3cf-dc34aed69c53
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '910'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -76,7 +76,7 @@ Per creare una campagna collaborativa (tramite approvazione target), **[!UICONTR
 
 Il flusso di lavoro della campagna deve essere integrato **Approvazione locale** attività di tipo. I parametri di attività sono i seguenti:
 
-* **[!UICONTROL Action to perform]** : Notifica per approvazione target.
+* **[!UICONTROL Action to perform]** : notifica di approvazione di Target.
 * **[!UICONTROL Distribution context]** : Esplicito.
 * **[!UICONTROL Data distribution]** : distribuzione di entità locali.
 

@@ -8,7 +8,7 @@ exl-id: a6003fdb-1035-4b80-8831-73f30a0b4fb2
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '969'
-ht-degree: 4%
+ht-degree: 1%
 
 ---
 
@@ -34,7 +34,7 @@ Inserisci un’etichetta e fai clic su **[!UICONTROL Save]**.
 
 ## Aggiungere e collegare attività {#add-and-link-activities}
 
-Devi ora definire le varie attività e collegarle nel diagramma. In questa fase della configurazione, è possibile visualizzare l’etichetta del diagramma e lo stato del flusso di lavoro (Modifica in corso). La sezione inferiore della finestra viene utilizzata solo per modificare il diagramma. Contiene una barra degli strumenti, una palette di attività (a sinistra) e il diagramma stesso (a destra).
+Ora devi definire le varie attività e collegarle nel diagramma. In questa fase della configurazione, è possibile visualizzare l’etichetta del diagramma e lo stato del flusso di lavoro (Modifica in corso). La sezione inferiore della finestra viene utilizzata solo per modificare il diagramma. Contiene una barra degli strumenti, una palette di attività (a sinistra) e il diagramma stesso (a destra).
 
 ![](assets/new-workflow-2.png)
 

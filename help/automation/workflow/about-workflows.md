@@ -8,7 +8,7 @@ exl-id: 297aa4e3-b672-46b5-9016-5accee8568b8
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '639'
-ht-degree: 47%
+ht-degree: 44%
 
 ---
 
@@ -42,7 +42,7 @@ Ogni flusso di lavoro contiene:
 
 * **[!UICONTROL Activities]**
 
-  Un’attività descrive un modello di attività. Le varie attività disponibili sono rappresentate nel diagramma da icone. Ogni tipo ha proprietà comuni e proprietà specifiche. Ad esempio, tutte le attività hanno un nome e un’etichetta, ma solo **[!UICONTROL Approval]** l&#39;attività ha un&#39;assegnazione.
+  Un’attività descrive un modello di attività. Le varie attività disponibili sono rappresentate nel diagramma da icone. Ogni tipo ha proprietà comuni e specifiche. Ad esempio, tutte le attività hanno un nome e un’etichetta, ma solo **[!UICONTROL Approval]** l&#39;attività ha un&#39;assegnazione.
 
   In un diagramma di flusso di lavoro, una determinata attività può produrre più attività, in particolare quando è presente un ciclo continuo o azioni ricorrenti (periodiche).
 
@@ -50,7 +50,7 @@ Ogni flusso di lavoro contiene:
 
 * **[!UICONTROL Transitions]**
 
-  Le transizioni consentono di collegare le attività e definirne la sequenza. Una transizione collega un’attività di origine a un’attività di destinazione. Esistono diversi tipi di transizioni, che dipendono dall’attività sorgente. Alcune transizioni presentano parametri aggiuntivi, ad esempio una durata, una condizione o un filtro.
+  Le transizioni consentono di collegare le attività e definirne la sequenza. Una transizione collega un’attività sorgente a un’attività di destinazione. Esistono diversi tipi di transizioni, che dipendono dall’attività sorgente. Alcune transizioni presentano parametri aggiuntivi, ad esempio una durata, una condizione o un filtro.
 
   Una transizione non collegata a un’attività di destinazione è di colore arancione e la punta della freccia è visualizzata come un rombo.
 

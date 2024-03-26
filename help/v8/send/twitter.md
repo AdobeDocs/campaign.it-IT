@@ -6,8 +6,8 @@ level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
 source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 5%
+source-wordcount: '785'
+ht-degree: 2%
 
 ---
 
@@ -149,7 +149,7 @@ Per inviare messaggi diretti ai tuoi follower, segui i passaggi seguenti:
 
 >[!CAUTION]
 >
->Non puoi inviare più di 250 messaggi diretti al giorno. Per evitare di superare questa soglia, è possibile effettuare la consegna in ondate. Per ulteriori informazioni, consulta la [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves){target="_blank"}.
+>Non puoi inviare più di 250 messaggi diretti al giorno. Per evitare di superare questa soglia, è possibile effettuare la consegna in ondate. Per ulteriori informazioni, consulta [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves){target="_blank"}.
 
 
 ## Accedere ai dati di tracciamento {#tw-tracking}
@@ -158,5 +158,5 @@ Nella scheda **[!UICONTROL Tweet]** modello di consegna, il tracciamento è abil
 
 I dati di tracciamento possono essere visualizzati nei rapporti di consegna e nella **[!UICONTROL Edit > Tracking]** della consegna e del servizio.
 
-La configurazione di tracciamento è la stessa di una consegna e-mail. Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=it){target="_blank"}.
+La configurazione di tracciamento è la stessa di una consegna e-mail. Ulteriori informazioni in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=it){target="_blank"}.
 

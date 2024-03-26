@@ -6,8 +6,8 @@ feature: Fatigue Management, Typology Rules
 exl-id: d234db0e-936a-48db-b697-11c6b40bc3ab
 source-git-commit: 5810f9b53bd3ad5383d4b9767bc65a3d595862c7
 workflow-type: tm+mt
-source-wordcount: '3037'
-ht-degree: 8%
+source-wordcount: '3102'
+ht-degree: 7%
 
 ---
 
@@ -20,7 +20,7 @@ L’implementazione della gestione della pressione di vendita consente di evitar
 Le campagne vengono selezionate in base a soglie e peso del messaggio definiti.
 
 * Una soglia è il numero più elevato di consegne autorizzate per un determinato destinatario in un determinato periodo. Può essere impostato o variabile. Viene impostata o calcolata nelle impostazioni delle regole di tipologia. [Ulteriori informazioni](#maximum-number-of-messages).
-* Il “peso” delle consegne consente di individuare le consegne prioritarie nel quadro della gestione della pressione. I messaggi con il peso maggiore hanno priorità. [Ulteriori informazioni](#message-weight).
+* Il peso delle consegne consente di individuare le consegne prioritarie nel quadro della gestione della pressione. I messaggi con il peso maggiore hanno la priorità. [Ulteriori informazioni](#message-weight).
 
 L’arbitrato consiste nell’assicurarsi che le campagne pianificate il cui peso è maggiore della campagna in corso non comportino un’eccessiva sollecitazione del profilo: in questo caso, il profilo viene escluso dalla consegna.
 
@@ -354,7 +354,7 @@ Considerando che un’e-mail è già stata inviata ai destinatari interessati in
   <tr> 
    <th> Consegna<br /> </th> 
    <th> Approvazioni<br /> </th> 
-   <th> Peso<br /> </th> 
+   <th> Spessore<br /> </th> 
    <th> Data/ora di estrazione<br /> </th> 
    <th> Data di contatto<br /> </th> 
    <th> Data/ora di inizio della consegna<br /> </th> 
@@ -368,20 +368,20 @@ Considerando che un’e-mail è già stata inviata ai destinatari interessati in
    <td> Consegna 1<br /> </td> 
    <td> Disabilitato<br /> </td> 
    <td> 5<br /> </td> 
-   <td> 3pm<br /> </td> 
+   <td> 15:00<br /> </td> 
    <td> 8:00 (giorno successivo)<br /> </td> 
-   <td> 2pm<br /> </td> 
+   <td> 14:00<br /> </td> 
    <td> Notte<br /> </td> 
-   <td> Esclusi<br /> </td> 
-   <td> Esclusi<br /> </td> 
+   <td> Escluso<br /> </td> 
+   <td> Escluso<br /> </td> 
   </tr> 
   <tr> 
    <td> Consegna 2<br /> </td> 
    <td> Disabilitato<br /> </td> 
    <td> 10<br /> </td> 
-   <td> 4pm<br /> </td> 
+   <td> 16:00<br /> </td> 
    <td> 9 (giorno successivo)<br /> </td> 
-   <td> 2pm<br /> </td> 
+   <td> 14:00<br /> </td> 
    <td> Notte<br /> </td> 
    <td> Inviato<br /> </td> 
    <td> 9 (giorno successivo)<br /> </td> 

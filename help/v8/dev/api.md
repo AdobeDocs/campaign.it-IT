@@ -7,8 +7,8 @@ level: Intermediate, Experienced
 exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
 source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 13%
+source-wordcount: '263'
+ht-degree: 9%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 13%
 
 Puoi utilizzare le API JavaScript per scrivere nel database cloud di Campaign o leggere dal database:
 
-* API specifiche per l’azienda che consentono di agire su ciascun oggetto: consegne, flussi di lavoro, abbonamenti e così via. Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html){target="_blank"}.
-* API di accesso ai dati generiche per l’esecuzione di query sui dati del modello di dati. Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html){target="_blank"}.
+* API specifiche per l’azienda che consentono di agire su ciascun oggetto: consegne, flussi di lavoro, abbonamenti e così via. Ulteriori informazioni in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html){target="_blank"}.
+* API di accesso ai dati generiche per l’esecuzione di query sui dati del modello di dati. Ulteriori informazioni in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html){target="_blank"}.
 
 Tieni presente che nei suoi [Distribuzione aziendale (FFDA)](../architecture/enterprise-deployment.md), Campaign funziona con due database: uno locale per la messaggistica in tempo reale, le query unitarie dell’interfaccia utente e le operazioni di scrittura tramite API; e un database cloud per l’esecuzione della campagna, il reporting, l’acquisizione dei dati, le query batch e l’esecuzione dei flussi di lavoro.
 
