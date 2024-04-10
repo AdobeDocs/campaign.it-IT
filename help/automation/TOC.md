@@ -36,7 +36,7 @@ ht-degree: 81%
       + Attività di targeting {#targeting-activities}
          + [Elenco delle attività di targeting](workflow/targeting-activities.md)
          + [Celle](workflow/cells.md)
-         + [Modificare l’origine dati](workflow/change-data-source.md)
+         + [Cambiare l’origine dati](workflow/change-data-source.md)
          + [Cambiare dimensione](workflow/change-dimension.md)
          + [Connettore per sistema CRM](workflow/crm-connector.md)
          + [Deduplica](workflow/deduplication.md)

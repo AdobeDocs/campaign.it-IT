@@ -15,7 +15,7 @@ ht-degree: 1%
 
 ---
 
-# Modifiche al canale di notifica push {#push-upgrade}
+# Modifiche del canale di notifica push {#push-upgrade}
 
 Puoi utilizzare Campaign per inviare notifiche push su dispositivi iOS e Android. Per eseguire questa operazione, Campaign si basa sui servizi di abbonamento alle app mobili.
 

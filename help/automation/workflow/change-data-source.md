@@ -1,5 +1,5 @@
 ---
-title: Modificare l’origine dati
+title: Cambiare l’origine dati
 description: Ulteriori informazioni sull’attività Modifica origine dati
 feature: Workflows, Data Management, Federated Data Access
 role: User
@@ -11,7 +11,7 @@ ht-degree: 2%
 
 ---
 
-# Modificare l’origine dati {#change-data-source}
+# Cambiare l’origine dati {#change-data-source}
 
 Utilizza il **[!UICONTROL Change data source]** attività per modificare l’origine dati di un [tabella di lavoro del flusso di lavoro](use-workflow-data.md#workflow-temporary-work-table). Questa attività offre maggiore flessibilità per gestire i dati tra diverse origini dati, come Federated Data Access (FDA), Campaign Cloud database (FFDA) e Campaign Local database.
 

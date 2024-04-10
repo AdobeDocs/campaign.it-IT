@@ -95,7 +95,7 @@ Ora puoi creare richieste di accesso a dati personali in base al nuovo spazio de
 
 L’integrazione di **[!DNL Adobe Experience Platform Privacy Service]** consente di automatizzare le richieste di accesso a dati personali in un contesto multisoluzione tramite una singola chiamata API JSON. Adobe Campaign gestisce automaticamente le richieste inviate da Privacy Service tramite un flusso di lavoro dedicato.
 
-Per scoprire come creare richieste di accesso a dati personali dal Privacy Core Service, fai riferimento alla documentazione del [Privacy Service di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it).{target="_blank"}
+Per scoprire come creare richieste di accesso a dati personali dal Privacy Core Service, fai riferimento alla documentazione del [Privacy Service di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it){target="_blank"}.
 
 Ciascun processo **[!DNL Privacy Service]** è suddiviso in più richieste Privacy in Adobe Campaign in base al numero di spazi dei nomi utilizzati. A ogni richiesta corrisponde uno spazio dei nomi.
 
