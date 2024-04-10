@@ -5,10 +5,10 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 99cb937a475997aae714a67b1f9f91c6bae932f4
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 15%
+source-wordcount: '521'
+ht-degree: 17%
 
 ---
 
@@ -41,15 +41,20 @@ Scopri come creare un pubblico in un flusso di lavoro della campagna in [questa 
 
 ## Profili attivi {#active-profiles}
 
-Un profilo attivo è un profilo con cui il cliente ha tentato di comunicare negli ultimi 12 mesi tramite qualsiasi canale. Le metriche delle licenze si basano sui profili attivi. Ulteriori informazioni in [Descrizione del prodotto Adobe Campaign](https://helpx.adobe.com/it/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+
+Un profilo attivo è un profilo con cui il cliente ha tentato di comunicare negli ultimi 12 mesi tramite qualsiasi canale.
+
+In base al contratto, a ciascuna istanza di Campaign viene fornito un numero specifico di profili attivi conteggiati a scopo di fatturazione. Fai riferimento al contratto più recente per informazioni sul numero di profili attivi acquistati. Ulteriori informazioni in [Descrizione del prodotto Adobe Campaign](https://helpx.adobe.com/it/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
 Puoi monitorare il numero di profili attivi nell’istanza direttamente dal Pannello di controllo Campaign Campaign. Per ulteriori informazioni, consulta [Documentazione del Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}.
 
->[!CAUTION]
->
->* Un profilo che è stato oggetto di targeting per diverse consegne viene conteggiato una sola volta.
->
->* I profili target nel contesto di Social marketing al Twitter X non vengono considerati come profili attivi.
+
+Si applicano le seguenti protezioni e limitazioni:
+
+* Un profilo che è stato oggetto di targeting per diverse consegne viene conteggiato una sola volta.
+* I profili target nel contesto di Social marketing al Twitter X non vengono considerati come profili attivi.
+* Il conteggio si basa sulla chiave primaria del destinatario. Di conseguenza, se un profilo è presente in due diverse tabelle dei destinatari, può essere conteggiato due volte come profilo attivo.
+
 
 ## Privacy e consenso{#privacy-and-consent}
 
