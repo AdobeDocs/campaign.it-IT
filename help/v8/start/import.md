@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '213'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 84%
 
 Campaign ti aiuta ad aggiungere contatti al database Cloud. Puoi caricare un file, pianificare e automatizzare più aggiornamenti dei contatti alla volta, raccogliere dati sul web o inserire informazioni di profilo direttamente nella tabella dei destinatari.
 
-Introduzione a [audience](audiences.md)
+Introduzione ai [tipi di pubblico](audiences.md)
 
-Comprendere Campaign [modello dati](../dev/datamodel.md)
+Comprendere il [modello dati](../dev/datamodel.md) di Campaign
 
 ## Importare profili con un flusso di lavoro
 
@@ -33,7 +33,7 @@ Crea ed esegui un processo di importazione dati generico per caricare i contatti
 
 ![](assets/new-import.png)
 
-Scopri come eseguire processi di importazione unitari per alimentare il database in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=it){target="_blank"}.
+Scopri come eseguire processi di importazione unitari per alimentare il database, nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=it){target="_blank"}.
 
 ## Raccogliere profili tramite app web
 
@@ -41,7 +41,7 @@ Utilizza Campaign per creare moduli web e raccogliere e gestire le informazioni 
 
 ![](assets/web-form-page.png)
 
-Scopri come creare moduli web in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=it){target="_blank"}.
+Scopri come creare moduli web, nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=it){target="_blank"}.
 
 **Argomenti correlati**
 

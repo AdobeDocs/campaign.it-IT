@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '415'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Dopo aver creato il messaggio e averne progettato e testato il relativo contenut
 
   ![](assets/deliveries-in-a-campaign.png)
 
-  Scopri come inviare messaggi nel contesto di una campagna in [questa sezione](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=it){target="_blank"}
+  Per scoprire come inviare messaggi nel contesto di una campagna, consulta [questa sezione](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=it){target="_blank"}
 
 * Inviare messaggi tramite un [flusso di lavoro](../config/workflows.md)
 
@@ -86,5 +86,5 @@ Scopri come configurare e inviare messaggi transazionali in [questa pagina](../s
 
 Il monitoraggio delle consegne dopo l’invio è un passaggio fondamentale per garantire l’efficienza delle campagne di marketing e l’effettivo raggiungimento dei clienti. Puoi monitorare una consegna, oltre a capire come vengono gestiti errori e quarantene.
 
-Scopri come monitorare le consegne in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=it#sending-messages){target="_blank"}
+Scopri come monitorare le consegne nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=it#sending-messages){target="_blank"}
 

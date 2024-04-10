@@ -6,9 +6,9 @@ role: User
 level: Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1146'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 79%
 
 In questa sezione, scopri come adeguare Adobe Campaign ai requisiti della tua azienda. Utilizza le linee guida seguenti per strutturare e organizzare l’implementazione.
 
-1. **Definire le impostazioni**: concedi l’accesso, condividi la console client e configura i canali (e-mail, push, sms). [Ulteriori informazioni](#implementation-ac-settings)
+1. **Definisci le impostazioni**: concedi l’accesso, condividi la console client e configura i canali (e-mail, push, sms). [Ulteriori informazioni](#implementation-ac-settings)
 1. **Prepara l’ambiente**: importa profili, crea tipi di pubblico, progetta i flussi di lavoro e i modelli di campagne, crea regole di tipologia. [Ulteriori informazioni](#implementation-prepare-your-env)
 1. **Personalizza l’istanza**: crea nuovi campi dati, aggiungi tabelle/schemi. [Ulteriori informazioni](#implementation-custom-your-instance)
 1. **Automatizza i processi**: configura le funzionalità di automazione di Adobe Campaign. [Ulteriori informazioni](#implementation-automation)
@@ -26,7 +26,7 @@ In questa sezione, scopri come adeguare Adobe Campaign ai requisiti della tua az
 >
 >Con **Campaign Managed Cloud Services**, l’ambiente e la configurazione iniziale sono impostati da Adobe in base ai termini del contratto di licenza. Non ti è consentito modificare i pacchetti installati incorporati, gli schemi o i rapporti integrati.
 >
->Se devi utilizzare un componente aggiuntivo di Campaign o una funzionalità specifica non fornita, devi contattare il tuo **Gestione transizione Adobe**.
+>Se hai la necessità di utilizzare un componente aggiuntivo di Campaign o una funzionalità specifica che non è stata fornita, devi contattare il **Transition Manager di Adobe**.
 
 ## Prima di iniziare{#before-starting}
 
@@ -60,7 +60,7 @@ Scopri come aggiungere utenti ad Adobe Campaign in [questa sezione](../start/gs-
 
 ### Installare la console client di Campaign{#implementation-install-console}
 
-L’interfaccia utente principale dell’applicazione è un client avanzato, ovvero un’applicazione nativa (Windows) che comunica con il server dell’applicazione Adobe Campaign esclusivamente tramite protocolli Internet standard (SOAP, HTTP, eccetera.). La console client di Adobe Campaign offre una produttività semplice e intuitiva, utilizza una larghezza di banda molto ridotta (tramite l’utilizzo di una cache locale) ed è progettata per una facile distribuzione. Questa console può essere distribuita da un browser Internet, può essere aggiornata automaticamente e non richiede alcuna configurazione di rete specifica perché genera solo traffico HTTP(S).
+L’interfaccia utente principale dell’applicazione è un client avanzato, ovvero un’applicazione nativa (Windows) che comunica con il server dell’applicazione Adobe Campaign esclusivamente tramite protocolli Internet standard (SOAP, HTTP, eccetera.). La console client di Adobe Campaign consente una produttività semplice e intuitiva, utilizza una larghezza di banda molto ridotta (grazie all’utilizzo di una cache locale) ed è progettata per una facile implementazione. Questa console può essere distribuita da un browser Internet, può essere aggiornata automaticamente e non richiede alcuna configurazione di rete specifica perché genera solo traffico HTTP(S).
 
 [Ulteriori informazioni sulla console client di Campaign](connect.md).
 
@@ -87,14 +87,14 @@ Prima di iniziare a inviare messaggi e creare campagne di marketing, devi:
 
    Scopri come configurare un modello di flusso di lavoro in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=it){target="_blank"}.
 
-   Ulteriori informazioni sui modelli e-mail in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=it){target="_blank"}.
+   Ulteriori informazioni sui modelli e-mail sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=it){target="_blank"}.
 
 
 1. **Configurare le regole di tipologia**
 
    Utilizza le regole di tipologia di Campaign per filtrare, controllare e monitorare l’invio delle consegne. Ad esempio, le regole di affaticamento controllano la frequenza e la quantità di messaggi per evitare un’eccessiva sollecitazione dei destinatari. Una volta implementate, nelle consegne viene fatto riferimento alle regole di tipologia.
 
-   Ulteriori informazioni sulle tipologie e sulla gestione dell’eccesso in [questa sezione](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=it){target="_blank"}.
+   Ulteriori informazioni sulle tipologie e sulla gestione dell’eccesso sono disponibili in [questa sezione](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=it){target="_blank"}.
 
 1. **Acquisisci familiarità con il modello dati integrato di Campaign**
 
@@ -110,7 +110,7 @@ Puoi personalizzare diverse aree e funzionalità di Campaign. La maggior parte d
 
    Adobe Campaign include schemi comuni per identificare dati quali: destinatari, registri di consegna, abbonamenti e altro ancora.
 
-   Fai riferimento a questa sezione per ulteriori informazioni su [Modello dati integrato di Campaign](../dev/datamodel.md).
+   Per ulteriori informazioni sul [modello dati integrato di Campaign](../dev/datamodel.md), consulta questa sezione.
 
    Puoi estendere gli schemi esistenti o creare nuovi schemi da zero. Per ulteriori informazioni, consulta [questa pagina](../dev/customize.md).
 
@@ -120,7 +120,7 @@ Puoi personalizzare diverse aree e funzionalità di Campaign. La maggior parte d
 
    Scopri come gestire filtri ed elenchi in Campaign in [questa pagina](../dev/customize.md#gs-lists-and-filters).
 
-   Puoi anche creare nuovi dashboard per visualizzare i dati di Campaign in base alle tue esigenze.
+   Puoi anche creare nuove dashboard per visualizzare i dati di Campaign in base alle tue esigenze.
 
    Per ulteriori informazioni, consulta [questa pagina](../dev/customize.md#gs-custom-dashboards).
 
@@ -130,7 +130,7 @@ Puoi personalizzare diverse aree e funzionalità di Campaign. La maggior parte d
 
    In aggiunta ai report incorporati, Adobe Campaign ti consente di generare report in vari contesti e di soddisfare esigenze diverse. I principi relativi alle modalità di utilizzo e di implementazione sono descritti nel presente documento.
 
-   Ulteriori informazioni sulle funzionalità di reporting in Campaign in [questa pagina](../reporting/gs-reporting.md).
+   Ulteriori informazioni sulle funzionalità di reporting in Campaign sono disponibili in [questa pagina](../reporting/gs-reporting.md).
 
 
 ## Impostare l’automazione della campagna{#implementation-automation}
@@ -162,19 +162,19 @@ Se utilizzi altre soluzioni Adobe, puoi collegarle all’ambiente Campaign e com
 
 Puoi anche utilizzare il Single Sign-On (SSO) per connetterti a Campaign. Per ulteriori informazioni, consulta [questa pagina](connect.md).
 
-Scopri l’elenco completo delle soluzioni Adobe che possono essere integrate con Adobe Campaign [in questa pagina](../connect/integration.md).
+Scopri l’elenco completo delle soluzioni Adobe che possono essere integrate con Adobe Campaign in [questa pagina](../connect/integration.md).
 
 ### Connettori{#implementation-connectors}
 
 Collega Campaign a sistemi di terze parti per combinare un’ampia gamma di funzionalità e automatizzare i processi.
 
-Ulteriori informazioni sui connettori disponibili in [questa sezione](../connect/integration.md).
+Ulteriori informazioni sui connettori disponibili sono descritte in [questa sezione](../connect/integration.md).
 
 **Collegare il CRM a Campaign**
 
 Puoi collegare la tua piattaforma Adobe Campaign ai sistemi di terze parti CRM e sincronizzare i dati (contatti, account, acquisti, eccetera).
 
-Scopri come collegare il sistema CRM a Campaign in [questa sezione](../connect/integration.md#gs-crm-connectors)
+Scopri come collegare il sistema CMR con Campaign in [questa sezione](../connect/integration.md#gs-crm-connectors)
 
 **Connessione a un database esterno**
 

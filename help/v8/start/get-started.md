@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d
 source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '994'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Adobe Campaign dispone di funzioni di segmentazione e targeting potenti e intuit
 
 La funzionalità avanzata di gestione dei dati estende le funzionalità di elaborazione dei dati. Semplifica e ottimizza il processo di targeting includendo dati non modellati nel data mart.
 
-Ulteriori informazioni sulla segmentazione e la creazione di tipi di pubblico in [questa sezione](audiences.md).
+Ulteriori informazioni sulla segmentazione e la creazione del pubblico sono disponibili in [questa sezione](audiences.md).
 
 ## Orchestrazione di campagne cross-channel {#cross-channel-campaign-orchestration}
 
@@ -76,7 +76,7 @@ Oltre ai potenti modelli di reporting predefiniti, Adobe Campaign consente di cr
 La funzione di reporting della campagna facilita la creazione di rapporti dinamici. Puoi trascinare e rilasciare le variabili per personalizzare i rapporti e analizzare il successo delle campagne. A seconda della complessità delle query e dei calcoli, è possibile aggregare i dati in una visualizzazione elenco o accedervi in un formato che semplifichi la generazione di rapporti di analisi marketing.
 
 
-Ulteriori informazioni sulle funzionalità di reporting e tracciamento in [questa sezione](../reporting/gs-reporting.md).
+Ulteriori informazioni sulle funzionalità di reporting e tracciamento sono disponibili in [questa sezione](../reporting/gs-reporting.md).
 
 ## Integrazioni con Adobe Experience Cloud {#adobe-experience-cloud-integrations}
 

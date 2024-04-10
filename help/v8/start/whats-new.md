@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1028'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Visualizza l’immagine completa dei tuoi clienti per creare rapidamente campagn
 
 Adobe Campaign ti aiuta a creare profili cliente dai dati raccolti su tutti i tuoi canali. Con questo profilo, puoi orchestrare campagne tra canali diversi. Collegando tutti i canali di marketing, sarai in grado di personalizzare il percorso che prenderanno i clienti nel modo che avrà senso per loro.
 
-[Ulteriori informazioni sulla gestione dei dati dei clienti](audiences.md)
+[Ulteriori informazioni sulla gestione dei dati della clientela](audiences.md)
 
 ### Gestione di campagne all’avanguardia  {#best-in-campaign-mgt}
 
@@ -88,7 +88,7 @@ La nuova architettura cloud consente a Campaign di semplificare i processi, ridu
 
 Adobe Campaign ora può sfruttare le tecnologie di database su scala cloud per migliorarne notevolmente la scalabilità e la velocità.
 
-[Campaign v8 Enterprise](../architecture/enterprise-deployment.md) introduce il concetto di **Full Federated Data Access** (FFDA): adesso tutti i dati sono remoti, nel Cloud Database. Con questa nuova offerta, Campaign v8 semplifica la gestione dati: nel database cloud non è richiesto alcun indice. È sufficiente creare le tabelle, copiare i dati e iniziare. [!DNL Snowflake] è il database cloud di Campaign che ti offre velocità e resistenza, senza il rischio di sovraccarichi per picchi di attività del sistema. La tecnologia del database cloud non richiede una manutenzione specifica per garantire le prestazioni del servizio.
+[Campaign v8 Enterprise](../architecture/enterprise-deployment.md) introduce il concetto di **Full Federated Data Access** (FFDA): adesso tutti i dati sono remoti, nel Cloud Database. Con questa nuova offerta, Campaign v8 semplifica la gestione dati: nel database cloud non è richiesto alcun indice. È sufficiente creare le tabelle, copiare i dati e iniziare. [!DNL Snowflake] è il database cloud di Campaign che ti offre velocità e resistenza, senza il rischio di sovraccarichi per picchi di attività del sistema. La tecnologia del database Cloud non richiede una manutenzione specifica per garantire le prestazioni del servizio.
 
 [Ulteriori informazioni sull’implementazione di Enterprise (FFDA)](../architecture/enterprise-deployment.md)
 
@@ -105,6 +105,6 @@ Grazie a un’interfaccia utente intuitiva, gli amministratori possono monitorar
 
 ![](assets/subdomain1.png)
 
-[Ulteriori informazioni sul Pannello di controllo Campaign di Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=it){target="_blank"}
+[Ulteriori informazioni sul Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=it){target="_blank"}
 
 
