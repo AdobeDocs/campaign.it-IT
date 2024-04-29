@@ -5,10 +5,10 @@ user-guide-description: Documentazione di prodotto per Adobe Campaign v8 (consol
 title: Documentazione di Adobe Campaign v8
 description: Documentazione di Campaign v8
 breadcrumb-title: Documentazione di Campaign v8
-source-git-commit: 782362d6d742a3121d3b87b26c2f1481731ff694
-workflow-type: ht
-source-wordcount: '594'
-ht-degree: 100%
+source-git-commit: 19593cd689609515264aa2995e33e53f3bc95c95
+workflow-type: tm+mt
+source-wordcount: '596'
+ht-degree: 99%
 
 ---
 
@@ -100,6 +100,7 @@ ht-degree: 100%
 + Gestione della privacy e della sicurezza {#privacy}
    + [Gestire le richieste di accesso ai dati personali](start/privacy.md)
    + [Linee guida sulla sicurezza](config/security.md)
+   + [Sicurezza avanzata](config/enhanced-security.md)
 + Gestione delle decisioni {#offers}
    + [Introduzione all’interazione in tempo reale](interaction/interaction.md)
    + [Ambienti e architettura](interaction/interaction-architecture.md)
