@@ -5,9 +5,9 @@ feature: API
 role: Developer
 level: Intermediate, Experienced
 exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 07e85c2933194a24b4275519dd7da9c3226f6a3c
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '282'
 ht-degree: 9%
 
 ---
@@ -27,6 +27,8 @@ Puoi utilizzare le API JavaScript per scrivere nel database cloud di Campaign o 
 Tieni presente che nei suoi [Distribuzione aziendale (FFDA)](../architecture/enterprise-deployment.md), Campaign funziona con due database: uno locale per la messaggistica in tempo reale, le query unitarie dell’interfaccia utente e le operazioni di scrittura tramite API; e un database cloud per l’esecuzione della campagna, il reporting, l’acquisizione dei dati, le query batch e l’esecuzione dei flussi di lavoro.
 
 >[!CAUTION]
+>
+>* In qualità di utente di Campaign che passa da Campaign Standard, puoi utilizzare le API REST con Campaign v8. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/get-started-apis){target="_blank"}.
 >
 >* A partire dalla versione 8.5.1 di Campaign, il processo di autenticazione è stato modificato in Campaign v8. Per connettersi a Campaign, gli operatori tecnici devono utilizzare Adobe Identity Management System (IMS). Scopri come eseguire la migrazione degli account tecnici esistenti in [questa nota tecnica](../../technotes/upgrades/ims-migration.md).
 >
