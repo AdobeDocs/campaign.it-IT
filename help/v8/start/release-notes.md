@@ -5,9 +5,9 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 520a7798cd1969e7c29519cbc918b66a44ff2a71
+source-git-commit: c4a289e713d01297a7d38158b3cd4450ceef5276
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '907'
 ht-degree: 51%
 
 ---
@@ -46,7 +46,7 @@ _venerdì 2 maggio 2024_
 
 ### Aggiornamenti della compatibilità {#comp-8-7-1}
 
-I database sono ora supportati come database esterno con Federated Data Access (FDA) di Adobe Campaign. Ulteriori informazioni sull’FDA sono disponibili [in questa pagina](../connect/fda.md)
+I database sono ora supportati come database esterno con Federated Data Access (FDA) di Adobe Campaign. Per ulteriori informazioni, consulta [questa pagina](compatibility-matrix.md#FederatedDataAccessFDA).
 
 ### Miglioramenti generali {#improvements-8-7-1}
 
