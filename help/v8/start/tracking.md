@@ -5,9 +5,9 @@ feature: Monitoring
 role: User
 level: Beginner, Intermediate
 exl-id: f3de901f-519f-42ae-846c-f20c7cb560df
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: a78019d11a0a2acbd8c0d9ba7c2082c09f90356c
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '677'
 ht-degree: 19%
 
 ---
@@ -131,4 +131,4 @@ Le linee guida per il monitoraggio delle istanze sono disponibili in [Documentaz
 
 Utilizza l’interfaccia self-service di Audit trail per monitorare le modifiche apportate all’interno dell’istanza. Audit trail acquisisce in tempo reale un elenco completo delle azioni e degli eventi che si verificano all’interno dell’istanza Adobe Campaign. Puoi accedere alla cronologia dei dati per rispondere a domande quali: cosa è successo ai flussi di lavoro e chi li ha aggiornati per ultimo o cosa hanno fatto gli utenti nell’istanza.
 
-Ulteriori informazioni su Audit trail in  [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/audit-trail.html#accessing-audit-trail){target="_blank"}
+Ulteriori informazioni su Audit trail sono disponibili in questo articolo [pagina](../reporting/audit-trail.md){target="_blank"}

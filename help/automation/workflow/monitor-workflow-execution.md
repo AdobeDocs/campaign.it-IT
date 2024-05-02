@@ -5,9 +5,9 @@ description: Monitorare l’esecuzione di un flusso di lavoro
 feature: Workflows
 role: Admin
 exl-id: bc13d706-7888-42eb-9116-5538e68cd515
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: a78019d11a0a2acbd8c0d9ba7c2082c09f90356c
 workflow-type: tm+mt
-source-wordcount: '1929'
+source-wordcount: '1926'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ Questa sezione contiene informazioni su come monitorare l’esecuzione dei fluss
 
 Un caso d’uso su come creare un flusso di lavoro che consente di monitorare lo stato di un set di flussi di lavoro &quot;in pausa&quot;, &quot;interrotti&quot; o &quot;con errori&quot; è disponibile anche in [questa sezione](workflow-supervision.md#supervising-workflows).
 
-Inoltre, gli amministratori dell’istanza possono utilizzare **Audit trail** per verificare le attività e le ultime modifiche apportate ai flussi di lavoro, lo stato dei flussi di lavoro. Ulteriori informazioni su Audit trail in  [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/audit-trail.html#accessing-audit-trail){target="_blank"}.
+Inoltre, gli amministratori dell’istanza possono utilizzare **Audit trail** per verificare le attività e le ultime modifiche apportate ai flussi di lavoro, lo stato dei flussi di lavoro. Ulteriori informazioni su Audit trail sono disponibili in questo articolo [pagina](../../v8/reporting/audit-trail.md){target="_blank"}.
 
 ## Visualizzazione dell&#39;avanzamento {#displaying-progress}
 

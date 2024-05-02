@@ -5,7 +5,7 @@ role: Admin, User
 feature: Journey Optimizer Integration
 level: Beginner
 exl-id: 52d8e2a5-9fdf-498a-bdbd-13a9935a94d6
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 7cd2e433cbfce9634b5664d037ad6e73e05b7516
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 0%
@@ -22,7 +22,7 @@ I passaggi di base consistono nel creare un modello di messaggio transazionale i
 ![](assets/ajo-integration.png)
 
 
-[Scopri questa integrazione in questo esempio end-to-end](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-classic.html){target="_blank"}.
+[Scopri questa integrazione in questo esempio end-to-end](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journey-use-cases/business-use-cases/ajo-ac){target="_blank"}.
 
 
-[Ulteriori informazioni sono disponibili nella documentazione di Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-classic.html){target="_blank"}.
+[Ulteriori informazioni sono disponibili nella documentazione di Journey Optimizer]https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-v7-v8){target="_blank"}.
