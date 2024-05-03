@@ -4,7 +4,7 @@ description: Scopri come migrare gli operatori tecnici di Campaign all’account
 feature: Technote
 role: Admin
 exl-id: 775c5dbb-ef73-48dd-b163-23cfadc3dab8
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 5d3dd679eb7a756200d604601c20c3fed5770fc2
 workflow-type: tm+mt
 source-wordcount: '1507'
 ht-degree: 0%
@@ -145,7 +145,7 @@ Per provare la connessione, segui i passaggi descritti in [Guida alle credenzi
 
 ### Passaggio 8: aggiornare le integrazioni API di terze parti {#ims-migration-step-8}
 
-Ora devi aggiornare delle integrazioni API che effettuano chiamate ad Adobe Campaign per utilizzare l’account tecnico appena creato.
+Ora devi aggiornare tutte le integrazioni API che effettuano chiamate ad Adobe Campaign per utilizzare l’account tecnico appena creato.
 
 Per ulteriori dettagli sui passaggi di integrazione dell’API, tra cui un codice di esempio per un’integrazione fluida, consulta [Documentazione sull’autenticazione della console Adobe Developer](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
