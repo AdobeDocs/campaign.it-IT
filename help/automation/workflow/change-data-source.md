@@ -4,9 +4,9 @@ description: Ulteriori informazioni sull’attività Modifica origine dati
 feature: Workflows, Data Management, Federated Data Access
 role: User
 exl-id: ca7eca9d-9112-4ea1-9a0c-a24cf6a978e6
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 5af8753e9412c239ba40997abc5f8e61f405e999
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '279'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,10 @@ Ad esempio, quando si esegue una query su **[!UICONTROL Recipients]** memorizzat
 Utilizza un **[!UICONTROL Change Data Source]** per utilizzare un’origine dati diversa per il tuo **[!UICONTROL Working table]**.
 
 Tieni presente che quando utilizzi **[!UICONTROL Change Data Source]** attività, devi tornare al database Cloud per continuare l’esecuzione del flusso di lavoro.
+
+>[!IMPORTANT]
+>
+>Tieni presente che **[!UICONTROL Change Dimension]** e **[!UICONTROL Change Data source]** Le attività non devono essere aggiunte in una riga. Se devi utilizzare entrambe le attività consecutivamente, assicurati di includere un’ **[!UICONTROOL Arricchimento]** attività tra di loro. In questo modo si garantisce la corretta esecuzione e si evitano potenziali conflitti o errori.
 
 Per utilizzare **[!UICONTROL Change Data Source]** attività, devi:
 
