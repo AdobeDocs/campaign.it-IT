@@ -5,9 +5,9 @@ description: Scopri come creare un flusso di lavoro
 feature: Workflows
 role: User
 exl-id: a6003fdb-1035-4b80-8831-73f30a0b4fb2
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: b7fa3dfb1e596d2ea41674278cbe315199264611
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '838'
 ht-degree: 1%
 
 ---
@@ -145,31 +145,3 @@ Puoi duplicare diversi tipi di flussi di lavoro. Una volta eseguita la duplicazi
 1. Nella finestra del flusso di lavoro, modifica l’etichetta del flusso di lavoro.
 1. Fai clic su **Salva**.
 
-La funzione di duplicazione non è direttamente disponibile nella visualizzazione di una campagna.
-
-Tuttavia, puoi creare una visualizzazione per visualizzare tutti i flussi di lavoro nell’istanza. In questa vista puoi duplicare i flussi di lavoro utilizzando **Duplica a**.
-
-**Creare una visualizzazione**
-
-1. In entrata **Esplora**, passa alla cartella in cui creare la visualizzazione.
-1. Fai clic con il pulsante destro del mouse e vai a **Aggiungi una nuova cartella** > **Processo**, seleziona **Flussi di lavoro**.
-
-   ![](assets/add-new-folder-workflows.png)
-
-La nuova cartella **Flussi di lavoro** viene creato.
-
-1. Fai clic con il pulsante destro del mouse e seleziona (Copia negli Appunti) **Proprietà**.
-1. In **Limitazione** , abilita **Questa cartella è una visualizzazione** e fai clic su **Salva**.
-
-   ![](assets/folder-is-a-view.png)
-
-La cartella ora è compilata con tutti i flussi di lavoro dell’istanza.
-
-**Duplicare un flusso di lavoro per una campagna**
-
-1. Seleziona un flusso di lavoro della campagna nella vista flusso di lavoro.
-1. Clic con il pulsante destro **Duplica a**.
-1. Cambiarne l’etichetta.
-1. Fai clic su **Salva**.
-
-Puoi visualizzare il flusso di lavoro duplicato nella vista flusso di lavoro.
