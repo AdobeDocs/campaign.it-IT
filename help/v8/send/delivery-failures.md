@@ -145,7 +145,7 @@ Di seguito sono elencati i possibili motivi di un errore di consegna per il cana
    <td> Nessun indirizzo specificato per il destinatario.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Indirizzo di bassa qualità </td> 
+   <td> Indirizzo di qualità scadente </td> 
    <td> Ignorato </td> 
    <td> 14 </td> 
    <td> La valutazione della qualità per questo indirizzo è troppo bassa.<br /> </td> 

@@ -8,7 +8,7 @@ exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
 source-git-commit: 43994eb29af2b85272de0ce4dc34cc66aba2e04a
 workflow-type: tm+mt
 source-wordcount: '1919'
-ht-degree: 91%
+ht-degree: 92%
 
 ---
 
@@ -121,7 +121,7 @@ Consulta la [Matrice di compatibilità di Campaign](compatibility-matrix.md).
 
 >[!CAUTION]
 >
-> aggiornamento della console client obbligatorio. Scopri come aggiornare la console client in questo [pagina](../start/connect.md#download-ac-console).
+> aggiornamento della console client obbligatorio. Scopri come aggiornare la console client in questa [pagina](../start/connect.md#download-ac-console).
 
 _7 ottobre 2022_
 

@@ -8,7 +8,7 @@ exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
 source-git-commit: 1857f0f40d554abededfaa0c1e3dec4b57ca23b7
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -52,8 +52,8 @@ I sistemi CRM per la gestione delle relazioni con i clienti compatibili con Adob
 I database esterni compatibili con il modulo Federated Data Access (FDA) di Adobe Campaign sono elencati di seguito. Ulteriori informazioni sull’FDA sono disponibili [in questa pagina](../connect/fda.md)
 
 * **[!DNL Amazon Redshift]**
-* **[!DNL Azure Synapse]**, avvio di Campaign v8.5
-* **[!DNL Databricks]**, a partire da Campaign v8.7
+* **[!DNL Azure Synapse]**, a partire da Campaign v8.5 
+* **[!DNL Databricks]**, a partire da Campaign v8.5
 * **[!DNL Google Big Query]**
 * **[!DNL Snowflake]**
 * **[!DNL Vertica]**

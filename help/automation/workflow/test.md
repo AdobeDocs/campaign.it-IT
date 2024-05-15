@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Attività Test
+title: Test
 description: Ulteriori informazioni sull’attività del flusso di lavoro Test
 feature: Workflows
 exl-id: 0d4d13f6-7128-44d3-ad5c-4ed02257ee64
@@ -11,7 +11,7 @@ ht-degree: 1%
 
 ---
 
-# Attività Test{#test}
+# Test{#test}
 
 
 

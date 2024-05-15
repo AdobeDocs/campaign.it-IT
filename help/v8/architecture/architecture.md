@@ -48,7 +48,7 @@ Nel suo [Distribuzione FDA](fda-deployment.md), [!DNL Adobe Campaign] v8 può es
 
 Nell&#39;ambito di una [Distribuzione aziendale (FFDA)](enterprise-deployment.md), [!DNL Adobe Campaign] v8 funziona con due database: uno locale [!DNL Campaign] database per la messaggistica in tempo reale, le query unitarie dell’interfaccia utente, le operazioni di scrittura tramite API e un cloud [!DNL Snowflake] database per l’esecuzione della campagna, le query batch e l’esecuzione dei flussi di lavoro.
 
-Campaign v8 Enterprise introduce il concetto di **Full Federated Data Access** (FFDA): adesso tutti i dati sono remoti, nel database cloud. Con questa nuova architettura, l’implementazione di Campaign v8 Enterprise (FFDA) semplifica la gestione dei dati, in quanto nel database cloud non è richiesto alcun indice. È sufficiente creare le tabelle, copiare i dati e iniziare. La tecnologia del database cloud non richiede una manutenzione specifica per garantire le prestazioni del servizio.
+Campaign v8 Enterprise introduce il concetto di **Full Federated Data Access** (FFDA): adesso tutti i dati sono remoti, nel database cloud. Con questa nuova architettura, l’implementazione di Campaign v8 Enterprise (FFDA) semplifica la gestione dei dati, in quanto nel database cloud non è richiesto alcun indice. È sufficiente creare le tabelle, copiare i dati e iniziare. La tecnologia del database Cloud non richiede una manutenzione specifica per garantire le prestazioni del servizio.
 
 ![](assets/P4-architecture.png){zoomable=&quot;yes&quot;}
 

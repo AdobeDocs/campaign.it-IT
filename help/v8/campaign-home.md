@@ -6,7 +6,7 @@ exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74
 source-git-commit: 574206bd243a2492e512ee62f057da940d29da6e
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 33%
+ht-degree: 100%
 
 ---
 
@@ -14,25 +14,25 @@ ht-degree: 33%
 
 ## Novità
 
-Dai un’occhiata ai miglioramenti più recenti del prodotto Adobe Campaign v8 (console client) e della relativa documentazione. Per un elenco completo di funzionalità, miglioramenti e correzioni, consulta le [Note sulla versione](start/release-notes.md). Resta aggiornato sulle ultime modifiche apportate alla documentazione di visitando il [aggiornamenti della documentazione](start/documentation-updates.md) pagina.
+Dai un’occhiata ai più recenti miglioramenti apportati al prodotto e alla documentazione di Adobe Campaign v8 (console client). Per un elenco completo di funzionalità, miglioramenti e correzioni, consulta le [Note sulla versione](start/release-notes.md). Per essere sempre al corrente delle ultime modifiche apportate all documentazione, visita regolarmente la pagina degli [aggiornamenti della documentazione](start/documentation-updates.md).
 
 >[!BEGINTABS]
 
->[!TAB La versione v8.7 di Campaign è live]
+>[!TAB La versione v8.7 di Campaign è ora disponibile]
 
-L’ultima versione di Adobe Campaign è ora live. È stato rilasciato in **Disponibilità limitata** (LA). Per ulteriori informazioni, consulta le note sulla versione.
+La versione più recente di Adobe Campaign è ora disponibile. È stata rilasciata in **Disponibilità limitata** (LA). Per ulteriori informazioni, consulta le note sulla versione.
 
 [![immagine](assets/do-not-localize/learn-more-button.svg)](start/release-notes.md)
 
 
 >[!TAB Nuova interfaccia utente di Campaign Web]
 
-Scopri la nuova interfaccia utente di Adobe Campaign. Più moderno, intuitivo e dinamico!
+Scopri la nuova interfaccia utente di Adobe Campaign. Più moderna, intuitiva e dinamica.
 
 [![immagine](assets/do-not-localize/learn-more-button.svg)](start/campaign-ui.md#ac-web-ui)
 
 
->[!TAB Modifiche imminenti del canale push]
+>[!TAB Prossime modifiche del canale di notifica push]
 
 Alcune importanti modifiche al servizio Android Firebase Cloud Messaging (FCM) verranno rilasciate nel 2024 e potranno influenzare la tua implementazione di Adobe Campaign. Per supportare questa modifica, potrebbe essere necessario aggiornare la configurazione dei servizi di abbonamento per i messaggi push Android. Puoi già verificare e intervenire.
 
@@ -48,19 +48,19 @@ Alcune importanti modifiche al servizio Android Firebase Cloud Messaging (FCM) v
   <tr style="border: 0;">
     <td>
     <a href="start/whats-new.md"><img src="assets/do-not-localize/start-capabilities.png"></a>
-    <div><strong>Funzionalità principali</strong><br/>Esplora le funzionalità chiave di Adobe Campaign v8 per la gestione delle campagne cross-channel.</div>
+    <div><strong>Funzionalità principali</strong><br/>: scopri le funzionalità chiave di Adobe Campaign v8 per la gestione delle campagne cross-channel.</div>
     </td>
     <td>
     <a href="start/connect.md"><img src="assets/do-not-localize/start-connect.jpeg"></a>
-    <div><strong>Connettersi a Campaign v8</strong><br/>Scopri come connettersi ad Adobe Campaign v8 e avviare il percorso di gestione delle campagne installando e configurando la console client.</div><br/>
+    <div><strong>Connessione a Campaign v8</strong><br/>: scopri come connetterti ad Adobe Campaign v8 e avviare il percorso di gestione delle campagne installando e configurando la console client.</div><br/>
     </td>
     <td>
     <a href="start/create-message.md"><img src="assets/do-not-localize/start-send.jpeg"></a>
-    <div><strong>Inviare messaggi</strong><br/>Scopri come inviare messaggi su vari canali, tra cui e-mail, SMS, notifiche push.
+    <div><strong>Inviare messaggi</strong><br/>: scopri come inviare messaggi attraverso vari canali come ad esempio e-mail, SMS e notifiche push.
     </div></td>
     <td>
     <a href="audiences/create-profiles.md"><img src="assets/do-not-localize/start-profiles.png"></a>
-    <div><strong>Importare profili</strong><br/>Scopri facilmente come creare profili nel database di Adobe Campaign v8. Aggiungi profili manualmente o tramite importazioni, perfezionando i dati dei clienti e personalizzando le campagne in modo semplice.</div>
+    <div><strong>Importare i profili</strong><br/>: esplora con facilità la creazione dei profili nel database di Adobe Campaign v8. Aggiungi profili manualmente o tramite importazioni, perfezionando i dati dei clienti e personalizzando le campagne in modo semplice.</div>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -83,7 +83,7 @@ Alcune importanti modifiche al servizio Android Firebase Cloud Messaging (FCM) v
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>Esperienza del cliente</strong><br/><a href="../automation/workflow/about-workflows.md" target="_blank">Automatizzare con i flussi di lavoro</a> - <a href="../automation/campaigns/set-up-campaigns.md" target="_blank">Orchestrazione campagna</a> - <a href="interaction/interaction.md">Gestione delle decisioni</a> - <a href="send/personalize.md">Personalizzazione</a>
+      <strong>Esperienza cliente</strong><br/> <a href="../automation/workflow/about-workflows.md" target="_blank">Automatizza con i flussi di lavoro</a> - <a href="../automation/campaigns/set-up-campaigns.md" target="_blank">Orchestrazione della campagna</a> - <a href="interaction/interaction.md">Gestione delle decisioni</a> - <a href="send/personalize.md">Personalizzazione</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">
@@ -95,7 +95,7 @@ Alcune importanti modifiche al servizio Android Firebase Cloud Messaging (FCM) v
     <td>
       <img src="assets/do-not-localize/icon_profile-audience.svg" width="35px">
     <br/>
-      <strong>Profili e pubblico</strong><br/><a href="audiences/create-profiles.md">Aggiungere profili</a> - <a href="audiences/create-audiences.md">Creare tipi di pubblico</a> - <a href="start/subscriptions.md">Gestire gli abbonamenti</a> - <a href="start/privacy.md">Privacy</a>
+      <strong>Profili e tipi di pubblico</strong><br/> <a href="audiences/create-profiles.md">Aggiungere profili</a> - <a href="audiences/create-audiences.md">Creare tipi di pubblico</a> - <a href="start/subscriptions.md">Gestiire gli abbonamenti</a> - <a href="start/privacy.md">Privacy</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-configure.svg" width="35px">

@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Attività External signal
+title: Segnale esterno
 description: Ulteriori informazioni sull’attività del flusso di lavoro External signal
 feature: Workflows
 role: User
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 ---
 
-# Attività External signal{#external-signal}
+# Segnale esterno{#external-signal}
 
 
 
