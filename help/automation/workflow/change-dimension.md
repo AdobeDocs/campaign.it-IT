@@ -5,9 +5,9 @@ description: Scopri come utilizzare l’attività Modifica dimensione
 feature: Workflows, Targeting Activity
 role: User
 exl-id: 71f36413-377a-4be6-921c-9e794fe882fd
-source-git-commit: 5af8753e9412c239ba40997abc5f8e61f405e999
+source-git-commit: b77c37ab9ba9556fdefc563deac6b55ab0d91dc8
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '413'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ Puoi inoltre utilizzare questa attività per definire le colonne aggiuntive dell
 
 >[!IMPORTANT]
 >
->Tieni presente che **[!UICONTROL Change Dimension]** e **[!UICONTROL Change Data source]** Le attività non devono essere aggiunte in una riga. Se devi utilizzare entrambe le attività consecutivamente, assicurati di includere un’ **[!UICONTROOL Arricchimento]** attività tra di loro. In questo modo si garantisce la corretta esecuzione e si evitano potenziali conflitti o errori.
+>Tieni presente che **[!UICONTROL Change Dimension]** e **[!UICONTROL Change Data source]** Le attività non devono essere aggiunte in una riga. Se devi utilizzare entrambe le attività consecutivamente, assicurati di includere un’ **[!UICONTROL Enrichement]** attività tra di loro. In questo modo si garantisce la corretta esecuzione e si evitano potenziali conflitti o errori.
 
 Per configurare **[!UICONTROL Change dimension]** attività, esegui i seguenti passaggi:
 
