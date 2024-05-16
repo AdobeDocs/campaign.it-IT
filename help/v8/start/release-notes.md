@@ -5,10 +5,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 166fe487aa169f47f9da86c2990acb1f6dff430e
+source-git-commit: 1f113f63089395269c494a9328d633684977912a
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 97%
+source-wordcount: '898'
+ht-degree: 90%
 
 ---
 
@@ -52,7 +52,7 @@ Databricks è ora supportato come database esterno con Federated Data Access (FD
 
 * Diversi schemi sono stati modificati da 32 a 64 bit. Questo vale solo per i clienti che eseguono la migrazione da Campaign Standard. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-cloud/campaign/technotes/64-bit-tables.html?lang=it).
 
-* Nelle tabelle di Campaign, un nuovo flag consente di gestire le modifiche agli attributi lastModified, created e createdBy-id. Quando il flag è attivato, i valori forniti dagli utenti a questi attributi vengono ignorati. Vengono utilizzati solo l’ora del server e l’ID provenienti dal contesto dell’utente. Quando il flag è disattivato, vengono utilizzati i valori forniti dall’utente per questi attributi. Il flag ignoreTimestampsID si trova in serverConf.xml sotto il nodo “shared”.
+* Nelle tabelle di Campaign, i seguenti attributi ora vengono compilati per impostazione predefinita dalla data e dall’ora del server: lastModified, created, createdBy-id. I valori forniti dagli utenti nelle chiamate API vengono ignorati. Questa configurazione può essere modificata nel file di configurazione del server Campaign. In qualità di cliente di Cloud Service gestiti, devi contattare Adobe per modificare questa configurazione predefinita.
 
 ### Correzioni {#fixes-8-7-1}
 
