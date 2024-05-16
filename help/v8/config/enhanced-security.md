@@ -7,9 +7,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
-source-git-commit: 042a1cc96b819a1a77442e274defbadeb393eafc
+source-git-commit: 166fe487aa169f47f9da86c2990acb1f6dff430e
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '743'
 ht-degree: 3%
 
 ---
@@ -37,7 +37,7 @@ Una volta implementate queste funzionalità, Adobe monitora:
 
 ## Integrazione sicura con chiave gestita dal cliente {#secure-cmk-integration}
 
-Il **Integrazione Secure Customer-Managed Key (CMK)** ti consente di crittografare l’istanza e i dati utilizzando la tua chiave tramite l’account Amazon Web Services (AWS).
+Il **Integrazione Secure Customer-Managed Key (CMK)** consente di crittografare i dati quando sono inattivi utilizzando la propria chiave tramite l’account Amazon Web Services (AWS).
 
 Le chiavi gestite dal cliente sono chiavi del servizio di gestione delle chiavi nell’account AWS che crei, possiedi e gestisci. Queste chiavi KMS sono completamente controllate e utilizzate per crittografare e decrittografare i dati. Questa capacità, che rende responsabili della generazione e della gestione delle chiavi di crittografia, consente di avere un maggiore controllo su di esse, inclusa la revoca di una chiave.
 
