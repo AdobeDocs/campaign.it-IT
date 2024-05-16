@@ -5,9 +5,9 @@ user-guide-description: Documentazione di prodotto per Adobe Campaign v8 (consol
 title: Documentazione di Adobe Campaign v8
 description: Documentazione di Campaign v8
 breadcrumb-title: Documentazione di Campaign v8
-source-git-commit: 5312045424d74f8aa1eb44b2f40347553d471a12
+source-git-commit: 7ea0224f3483221596b9277133516e4624afdabf
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '605'
 ht-degree: 99%
 
 ---
@@ -35,6 +35,7 @@ ht-degree: 99%
    + [Connessione a Campaign](start/connect.md)
    + [Componenti e processi](start/ac-components.md)
    + [Da Classic v7 a v8](start/v7-to-v8.md)
+   + [Da Campaign Standard a v8](start/acs-to-v8.md)
    + [Domande frequenti](start/campaign-faq.md)
 + Gestione delle campagne {#campaigns}
    + [Introduzione alle campagne](start/campaigns.md)
