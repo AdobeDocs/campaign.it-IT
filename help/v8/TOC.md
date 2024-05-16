@@ -5,10 +5,10 @@ user-guide-description: Documentazione di prodotto per Adobe Campaign v8 (consol
 title: Documentazione di Adobe Campaign v8
 description: Documentazione di Campaign v8
 breadcrumb-title: Documentazione di Campaign v8
-source-git-commit: 7ea0224f3483221596b9277133516e4624afdabf
+source-git-commit: 5ad40a349df472ace07f124776517c41f4bddc5e
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 99%
+source-wordcount: '612'
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 99%
    + [Scoprire l’interfaccia utente](start/campaign-ui.md)
    + [Connessione a Campaign](start/connect.md)
    + [Componenti e processi](start/ac-components.md)
-   + [Da Classic v7 a v8](start/v7-to-v8.md)
+   + [Da Campaign Classic v7 a v8](start/v7-to-v8.md)
    + [Da Campaign Standard a v8](start/acs-to-v8.md)
    + [Domande frequenti](start/campaign-faq.md)
 + Gestione delle campagne {#campaigns}
@@ -201,5 +201,7 @@ ht-degree: 99%
       + [Aggiornare il database](dev/update-database-structure.md)
       + [Moduli di input](dev/forms.md)
    + [API di Campaign](dev/api.md)
-+ [Pannello di controllo Campaign >](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it)
-+ [Guida all’automazione di Campaign >](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=it)
++ [Pannello di controllo Campaign >](https://experienceleague.adobe.com/en/docs/control-panel/using/control-panel-home)
++ [Guida all’automazione di Campaign >](https://experienceleague.adobe.com/en/docs/campaign/automation/home)
++ [Documentazione sull’interfaccia web di Campaign >](https://experienceleague.adobe.com/it/docs/campaign-web/v8/campaign-web-home)
+
