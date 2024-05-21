@@ -4,12 +4,10 @@ description: Introduzione al componente aggiuntivo di sicurezza avanzato di Camp
 feature: Configuration
 role: Developer
 level: Experienced
-hide: true
-hidefromtoc: true
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
-source-git-commit: 166fe487aa169f47f9da86c2990acb1f6dff430e
+source-git-commit: 55c16fe19125ea54035a8f97928484c7baea161b
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '753'
 ht-degree: 3%
 
 ---
@@ -90,7 +88,7 @@ Per garantire l&#39;elevata disponibilità (HA), utilizza due tunnel per evitare
 
 Sono supportati tre casi d’uso:
 
-* Federated Data Access (FDA) tramite VPN<!--to access your on-premise database from the Campaign instance over VPN-->
+* Federated Data Access (FDA) tramite VPN, per accedere al database locale dall’istanza Campaign tramite VPN
 
 * Accesso all’istanza tramite VPN da un client spesso
 
@@ -117,7 +115,7 @@ Per garantire un utilizzo corretto di questa funzione, attieniti alle linee guid
 
 Le seguenti protezioni e limitazioni si applicano all’integrazione del tunneling VPN con Adobe Campaign v8:
 
-* Attualmente, sono supportati solo i database locali, ad esempio<!--Richa to check the list with PM-->:
+* Sono supportati solo i database locali, ad esempio<!--Richa to check the list with PM-->:
 
    * MySQL
    * Netezza
