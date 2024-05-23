@@ -5,10 +5,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 74523cc93f694710e136b191fec3372872605ab6
+source-git-commit: b280be52621890c9bd840182d3ad0389912568d4
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 81%
+source-wordcount: '1035'
+ht-degree: 78%
 
 ---
 
@@ -40,9 +40,8 @@ _2 maggio 2024_
 
 * **Reporting dinamico**: in qualità di utente Campaign Standard migrato, puoi accedere al Reporting dinamico che fornisce rapporti completamente personalizzabili e in tempo reale per misurare l’impatto delle attività di marketing. Permette di accedere ai dati del profilo, abilitando l’analisi demografica per dimensioni di profilo, come genere, città ed età, oltre ai dati funzionali delle campagne e-mail come aperture e clic. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=it){target="_blank"}
 
-<!--
-* **New Enhanced security add-on**: To make your network connection more secure and provide improved security for your resources, Adobe Campaign offers a new Enhanced security add-on, which includes two features: Secure CMK integration and Secure VPN tunneling.
--->
+* **Nuovo componente aggiuntivo Sicurezza avanzata**: per rendere più sicura la connessione di rete e migliorare la sicurezza delle risorse, Adobe Campaign offre un nuovo componente aggiuntivo Sicurezza avanzata, che include due funzionalità: integrazione CMK sicura e tunneling VPN sicuro. [Ulteriori informazioni](../config/enhanced-security.md)
+
 
 ### Aggiornamenti della compatibilità {#comp-8-7-1}
 
