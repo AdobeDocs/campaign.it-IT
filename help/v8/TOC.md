@@ -6,9 +6,9 @@ title: Documentazione di Adobe Campaign v8
 description: Documentazione di Campaign v8
 breadcrumb-title: Documentazione di Campaign v8
 source-git-commit: 5ad40a349df472ace07f124776517c41f4bddc5e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '612'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -201,7 +201,7 @@ ht-degree: 97%
       + [Aggiornare il database](dev/update-database-structure.md)
       + [Moduli di input](dev/forms.md)
    + [API di Campaign](dev/api.md)
-+ [Pannello di controllo Campaign >](https://experienceleague.adobe.com/en/docs/control-panel/using/control-panel-home)
-+ [Guida all’automazione di Campaign >](https://experienceleague.adobe.com/en/docs/campaign/automation/home)
-+ [Documentazione sull’interfaccia web di Campaign >](https://experienceleague.adobe.com/it/docs/campaign-web/v8/campaign-web-home)
++ [Pannello di controllo Campaign >](https://experienceleague.adobe.com/it/docs/control-panel/using/control-panel-home)
++ [Guida all’automazione di Campaign >](https://experienceleague.adobe.com/it/docs/campaign/automation/home)
++ [Documentazione sull’interfaccia utente web di Campaign >](https://experienceleague.adobe.com/it/docs/campaign-web/v8/campaign-web-home)
 
