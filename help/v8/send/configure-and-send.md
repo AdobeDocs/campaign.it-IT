@@ -5,9 +5,9 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 36033255-1e75-41c1-9816-126777f7330a
-source-git-commit: 52863e9cb3b9ccf03c8e2b838827af862b30e3b9
+source-git-commit: 070aa96187c5654e40665cb5b23329d3f7d508d6
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1193'
 ht-degree: 8%
 
 ---
@@ -48,6 +48,8 @@ Utilizza il  **[!UICONTROL Test SMTP delivery]** per verificare l’invio tramit
 
 Per bilanciare il carico, puoi dividere le consegne in più batch. Configura il numero di batch e la loro proporzione rispetto all’intera consegna.
 
+### Attiva ondate {#enable-waves}
+
 Per definire le ondate, effettuare le seguenti operazioni:
 
 1. Apri le proprietà di consegna e passa alla **[!UICONTROL Delivery]** scheda.
@@ -55,26 +57,27 @@ Per definire le ondate, effettuare le seguenti operazioni:
 
    ![](assets/delivery-define-waves.png)
 
+### Configura ondate {#config-waves}
 
-1. Configurare le ondate come descritto di seguito.
+>[!NOTE]
+>
+>Puoi definire solo la dimensione e il ritardo tra due scaglioni consecutivi. Non è possibile configurare i criteri di selezione dei destinatari per ogni ondata.
 
-   >[!NOTE]
-   >
-   >Puoi definire solo la dimensione e il ritardo tra due scaglioni consecutivi. Non è possibile configurare i criteri di selezione dei destinatari per ogni ondata.
+È possibile definire la dimensione di ogni scaglione o aggiungerlo a un calendario.
 
-Puoi definire:
+* **Definire la dimensione per ogni scaglione**. Ad esempio, se si immette **[!UICONTROL 30%]** nel campo corrispondente, ogni ondata rappresenterà il 30% dei messaggi inclusi nella consegna, ad eccezione dell’ultimo, che rappresenterà il 10% dei messaggi.
 
-    * **La dimensione per ogni onda**. Ad esempio, se si immette **[!UICONTROL 30%]** nel campo corrispondente, ogni ondata rappresenterà il 30% dei messaggi inclusi nella consegna, ad eccezione dell’ultimo, che rappresenterà il 10% dei messaggi.
-    
-    Nel **[!UICONTROL Period]** campo, specifica il ritardo tra l’inizio di due ondate consecutive. Ad esempio, se si immette **[!UICONTROL 2d]**, la prima ondata comincerà immediatamente, la seconda fra due giorni, la terza fra quattro giorni, e così via.
-    
-    ![](assets/delivery-waves-size.png)
-    
-    * **Un calendario per l’invio di ogni ondata**.  Ad esempio, la prima ondata rappresenta il 25% del numero totale di messaggi inclusi nella consegna e inizierà immediatamente. Le due fasi successive completano la consegna e sono impostate per iniziare a intervalli di sei ore.
-    
-    Nel **[!UICONTROL Start]** colonna, specifica il ritardo tra l’inizio di due ondate consecutive. Nel **[!UICONTROL Size]** colonna, immettere un numero fisso o una percentuale.
-    
-    ![](assets/delivery-waves-calendar.png)
+  In **[!UICONTROL Period]** , specificare il ritardo tra l&#39;inizio di due scaglioni consecutivi. Ad esempio, se si immette **[!UICONTROL 2d]**, la prima ondata comincerà immediatamente, la seconda fra due giorni, la terza fra quattro giorni e così via.
+
+  ![](assets/delivery-waves-size.png)
+
+* **Definisci un calendario per l&#39;invio di ogni ondata**.  Ad esempio, la prima ondata rappresenta il 25% del numero totale di messaggi inclusi nella consegna e inizierà immediatamente. Le due fasi successive completano la consegna e sono impostate per iniziare a intervalli di sei ore.
+
+  In **[!UICONTROL Start]** , specificare il ritardo tra l&#39;inizio di due ondate consecutive. In **[!UICONTROL Size]** , immettere un numero fisso o una percentuale.
+
+  ![](assets/delivery-waves-calendar.png)
+
+### Controllo programmazione ondata {#check-waves}
 
 Una regola di tipologia specifica, **[!UICONTROL Wave scheduling check]**, assicura che l’ultimo scaglione sia pianificato prima del limite di validità della consegna. Le tipologie di campagne e le relative regole, configurate in **[!UICONTROL Typology]** delle proprietà di consegna, sono presentate in [questa sezione](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->.
 
@@ -84,9 +87,14 @@ Una regola di tipologia specifica, **[!UICONTROL Wave scheduling check]**, assic
 >
 >È inoltre necessario impostare un tempo sufficiente per i nuovi tentativi durante la configurazione delle ultime ondate. Ulteriori informazioni sui nuovi tentativi in [questa sezione](delivery-failures.md#retries).
 
+### Monitorare le ondate {#monitor-waves}
+
 Per monitorare gli invii, passa ai registri di consegna. Consulta [questa pagina](send.md)
 
 Puoi visualizzare le consegne già inviate negli scaglioni elaborati (**[!UICONTROL Sent]** stato) e le consegne da inviare negli scaglioni rimanenti (**[!UICONTROL Pending]** stato).
+
+
+### Esempi di scaglioni {#samples-waves}
 
 I due esempi seguenti sono i casi d’uso più comuni per l’utilizzo di più scaglioni.
 
