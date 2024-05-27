@@ -6,9 +6,9 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 3c1cae6e-0a75-4f18-b1ee-2d5fa23b4251
-source-git-commit: d6160d927601f66f450553a6dd6f91d74b0b1104
+source-git-commit: 5f62addc95197ce5f4f80c026cc51ac14e61ff58
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '179'
 ht-degree: 24%
 
 ---
@@ -21,6 +21,7 @@ Questa pagina elenca tutti gli aggiornamenti più recenti in [!DNL Campaign] v8 
 ## Maggio 2024 {#may-2024}
 
 * L’elenco dei canali e dei tipi di consegne è ora elencato in [questa pagina](create-message.md).
+* Le sezioni relative alle impostazioni di consegna e alla gestione delle ondate sono state riorganizzate e migliorate. [Ulteriori informazioni](../send/configure-and-send.md).
 * È stata aggiunta una nota per specificare che **[!UICONTROL Change Dimension]** e **[!UICONTROL Change Data source]** le attività non devono essere aggiunte in una riga e devono avere un **[!UICONTROL Enrichement]** attività tra di loro. Per ulteriori informazioni, consulta [Cambia dimensione](../../automation/workflow/change-dimension.md) e [Cambia origine dati](../../automation/workflow/change-data-source.md) sezioni.
 
 ## Febbraio 2024 {#feb-2024}
