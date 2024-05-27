@@ -5,9 +5,9 @@ description: Fornitori, scorte e budget
 feature: Budget Management, Campaigns
 role: User
 exl-id: 1d4a98e6-af11-4645-864e-29aa5766d9d8
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: 7f6c394f56d517c0a675e0fd2341bb6ef98044f0
 workflow-type: tm+mt
-source-wordcount: '1832'
+source-wordcount: '1830'
 ht-degree: 1%
 
 ---
@@ -148,7 +148,7 @@ Quando viene selezionato un servizio, le categorie di costo corrispondenti al ti
 
   ![](assets/supplier-mail-delivery-select.png)
 
-* Per le consegne su canali mobili o telefono, si applica la stessa modalità di selezione.
+* Per la consegna su canali mobili, si applica la stessa modalità di selezione.
 * Per una consegna e-mail, il servizio viene selezionato da **[!UICONTROL Advanced]** nelle proprietà di consegna, come nell’esempio seguente:
 
   ![](assets/supplier-email-delivery-select.png)

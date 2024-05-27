@@ -4,9 +4,9 @@ title: Regole di coerenza
 description: Regole di coerenza
 feature: Typology Rules
 exl-id: dcb4ffcf-71e5-48a2-b0f7-42915a599652
-source-git-commit: 8247bed87deb3fb19a01447dab180ed9c97ea96c
+source-git-commit: 7f6c394f56d517c0a675e0fd2341bb6ef98044f0
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '738'
 ht-degree: 4%
 
 ---
@@ -19,11 +19,11 @@ Adobe Campaign garantisce comunicazioni coerenti grazie a un set di regole conte
 
 ## Capacità di controllo {#control-capacity}
 
-Prima di consegnare i messaggi, è necessario assicurarsi che l’organizzazione abbia la capacità di elaborare la consegna (infrastruttura fisica), le risposte che la consegna può generare (messaggi in entrata) e il numero di chiamate da effettuare per contattare gli abbonati (capacità di elaborazione del call center), ad esempio.
+Prima di consegnare i messaggi, è necessario assicurarsi che l’organizzazione abbia la capacità (infrastruttura fisica) di elaborare la consegna, le risposte che la consegna può generare (messaggi in entrata) e il numero di chiamate da effettuare per contattare gli abbonati (capacità di elaborazione del call center), ad esempio.
 
-A questo scopo, devi creare **[!UICONTROL Capacity]** regole di tipologia.
+Per eseguire questa operazione, crea **[!UICONTROL Capacity]** regole di tipologia.
 
-Nell’esempio seguente viene creata una regola di tipologia per una campagna fedeltà telefonica. Limitiamo il numero di messaggi a 20 al giorno, ovvero la capacità di elaborazione giornaliera di un call center. Una volta applicata la regola a due consegne, possiamo monitorare il consumo tramite i registri.
+Nell’esempio seguente, creiamo una regola di tipologia per una campagna fedeltà telefonicamente. Limitiamo il numero di messaggi a 20 al giorno, ovvero la capacità di elaborazione giornaliera di un call center. Una volta applicata la regola a due consegne, possiamo monitorare il consumo tramite i registri.
 
 Per progettare una nuova regola di capacità, effettuare le seguenti operazioni:
 

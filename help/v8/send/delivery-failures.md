@@ -5,7 +5,7 @@ feature: Profiles, Monitoring
 role: User
 level: Beginner, Intermediate
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 7f6c394f56d517c0a675e0fd2341bb6ef98044f0
 workflow-type: tm+mt
 source-wordcount: '2990'
 ht-degree: 5%
@@ -103,7 +103,7 @@ I nuovi tentativi di mancato recapito non permanenti e il periodo di tempo tra d
 >
 >Le impostazioni per i nuovi tentativi nelle proprietà di consegna non vengono utilizzate da Campaign.
 
-## Periodo di validità
+## Periodo di validità {#valid-period}
 
 L’impostazione del periodo di validità nelle consegne di Campaign è limitata a **3,5 giorni o meno**. Per una consegna, se definisci un valore superiore a 3,5 giorni in Campaign, non verrà preso in considerazione.
 
