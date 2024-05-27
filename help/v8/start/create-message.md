@@ -5,7 +5,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: d6160d927601f66f450553a6dd6f91d74b0b1104
+source-git-commit: fb0b7dbeae1d083935da91bbe50a711ce5f47b7e
 workflow-type: tm+mt
 source-wordcount: '1317'
 ht-degree: 29%
@@ -114,7 +114,7 @@ Se un’informazione nella consegna cambia (contenuto, nome, ecc.), all’esecuz
 
 Ad esempio, se esegui questo tipo di attività una volta al mese, finirai con una singola consegna dopo un anno (purché non sia stata apportata alcuna modifica alla consegna).
 
-Le consegne continue vengono create all’interno dei flussi di lavoro tramite [Attività di consegna continua](../../automation/workflow/contin).
+Le consegne continue vengono create all’interno dei flussi di lavoro tramite [Attività di consegna continua](../../automation/workflow/continuous-delivery.md).
 
 
 ## Scegli come inviare i messaggi{#gs-send-msg}
