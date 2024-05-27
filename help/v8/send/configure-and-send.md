@@ -5,14 +5,16 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 36033255-1e75-41c1-9816-126777f7330a
-source-git-commit: 7f6c394f56d517c0a675e0fd2341bb6ef98044f0
+source-git-commit: 52863e9cb3b9ccf03c8e2b838827af862b30e3b9
 workflow-type: tm+mt
-source-wordcount: '1160'
-ht-degree: 9%
+source-wordcount: '1178'
+ht-degree: 8%
 
 ---
 
 # Configurare e inviare la consegna {#configure-delivery}
+
+Accedi ai parametri di consegna per configurare altre impostazioni e definire la modalità di invio dei messaggi. Puoi definire la consegna [priorità](#delivery-priority), configurazione [ondate](#sending-using-multiple-waves)e verifica l’invio della consegna. Al termine della configurazione, puoi confermare l’invio come descritto in [questa sezione](#confirm-delivery). I messaggi vengono quindi inviati immediatamente o in base alla consegna [pianificazione](#schedule-delivery-sending).
 
 ## Imposta parametri aggiuntivi {#delivery-additional-parameters}
 
@@ -20,25 +22,27 @@ Prima di inviare la consegna, puoi definirne i parametri nelle relative propriet
 
 ![](assets/delivery-properties-delivery.png)
 
-* **[!UICONTROL Delivery priority]**: utilizza questa opzione per modificare l’ordine di invio delle consegne impostandone il livello di priorità, da **[!UICONTROL Very low]** a **[!UICONTROL Very high]** (il valore predefinito è **[!UICONTROL Normal]**).
+### Priorità della consegna {#delivery-priority}
 
-* **[!UICONTROL Message batch quantity]**: utilizza questa opzione per definire il numero di messaggi raggruppati nello stesso pacchetto di consegna XML. Se il parametro è impostato su 0, i messaggi vengono raggruppati automaticamente. La dimensione del pacchetto è definita dal calcolo `<delivery size>/1024`, con un minimo di 8 e un massimo di 256 messaggi per pacchetto.
+Utilizza il **[!UICONTROL Delivery priority]** per modificare l’ordine di invio delle consegne impostandone il livello di priorità, da **[!UICONTROL Very low]** a **[!UICONTROL Very high]** (il valore predefinito è **[!UICONTROL Normal]**).
 
-  >[!IMPORTANT]
-  >
-  >Quando la consegna viene creata duplicandone una esistente, questo parametro viene reimpostato.
+### Quantità batch
 
-* **[!UICONTROL Send using multiple waves]**: utilizza questa opzione per inviare i messaggi in batch anziché all’intero pubblico contemporaneamente. [Ulteriori informazioni](#sending-using-multiple-waves).
+Utilizza il  **[!UICONTROL Message batch quantity]** per definire il numero di messaggi raggruppati nello stesso pacchetto di consegna XML. Se il parametro è impostato su 0, i messaggi vengono raggruppati automaticamente. La dimensione del pacchetto è definita dal calcolo `<delivery size>/1024`, con un minimo di 8 e un massimo di 256 messaggi per pacchetto.
 
-* **[!UICONTROL Test SMTP delivery]**: utilizza questa opzione per verificare l’invio tramite SMTP. La consegna viene elaborata fino alla connessione al server SMTP, ma non viene inviata: per ogni destinatario della consegna, Campaign si connette al server del provider SMTP, esegue il comando SMTP RCPT TO e chiude la connessione prima del comando SMTP DATA.
+>[!IMPORTANT]
+>
+>Quando la consegna viene creata duplicandone una esistente, questo parametro viene reimpostato.
 
-  >[!NOTE]
-  >
-  >* Questa opzione non deve essere impostata nel mid-sourcing.
-  >
-  >* Ulteriori informazioni sulla configurazione del server SMTP in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html#smtp-relay){target="_blank"}.
+### Testare l’invio della consegna
 
-* **[!UICONTROL Email BCC]**: utilizza questa opzione per memorizzare le e-mail su un sistema esterno tramite Ccn semplicemente aggiungendo un indirizzo e-mail Ccn alla destinazione del messaggio. [Ulteriori informazioni](email-parameters.md).
+Utilizza il  **[!UICONTROL Test SMTP delivery]** per verificare l’invio tramite SMTP. La consegna viene elaborata fino alla connessione al server SMTP, ma non viene inviata: per ogni destinatario della consegna, Campaign si connette al server del provider SMTP, esegue il comando SMTP RCPT TO e chiude la connessione prima del comando SMTP DATA.
+
+>[!NOTE]
+>
+>* Questa opzione non deve essere impostata nel mid-sourcing.
+>
+>* Ulteriori informazioni sulla configurazione del server SMTP in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html#smtp-relay){target="_blank"}.
 
 ## Inviare in più scaglioni {#sending-using-multiple-waves}
 
