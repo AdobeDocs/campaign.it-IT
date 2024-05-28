@@ -4,9 +4,9 @@ description: Utilizzo dei pacchetti di dati
 feature: Data Management, Package Export/Import
 role: Developer
 level: Intermediate, Experienced
-source-git-commit: 8b537c723335ea98eb39bfbc3a4f1df09861aaea
+source-git-commit: 933c266febdc293dccdf9b7383d94d7a5dce22bc
 workflow-type: tm+mt
-source-wordcount: '1963'
+source-wordcount: '1941'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Per esportare un set di oggetti in un pacchetto di dati, eseguire la procedura s
 
    >[!NOTE]
    >
-   >L’editor delle query viene presentato in [questa sezione](../../platform/using/about-queries-in-campaign.md).
+   >L’editor delle query viene presentato in [questa sezione](../../automation/workflow/query.md).
 
 1. Clic **[!UICONTROL Next]** e selezionare l&#39;ordinamento dei dati esportati.
 
@@ -191,13 +191,6 @@ Infine, la `@pkgStatus` attribute consente di definire le regole di esportazione
 ## Gestire le definizioni dei pacchetti {#manage-package-definitions}
 
 Le definizioni dei pacchetti consentono di creare una struttura di pacchetti in cui aggiungere entità che verranno esportate successivamente in un singolo pacchetto. Potrai quindi importare questo pacchetto e tutte le entità aggiunte in un’altra istanza di Campaign.
-
-**Argomenti correlati:**
-
-* [Creare una definizione di pacchetto](#create-a-package-definition)
-* [Aggiungere entità a una definizione di pacchetto](#add-entities-to-a-package-definition)
-* [Configurare la generazione delle definizioni dei pacchetti](#configure-package-definitions-generation)
-* [Esportare pacchetti da una definizione di pacchetto](#export-packages-from-a-package-definition)
 
 ### Creare una definizione di pacchetto {#create-a-package-definition}
 
