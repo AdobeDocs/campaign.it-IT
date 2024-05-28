@@ -5,10 +5,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 607ef2ab8f1f1c7400451019e188c70f8c7d6091
+source-git-commit: 8621ad138d90fed92788d1b9753adeb2fe772a71
 workflow-type: tm+mt
-source-wordcount: '1178'
-ht-degree: 74%
+source-wordcount: '1097'
+ht-degree: 79%
 
 ---
 
@@ -26,10 +26,7 @@ _mercoledì 28 maggio 2024_
 
 ### Migrazione alle credenziali server-to-server OAuth {#change-8-5-3}
 
-* A partire da questa versione, poiché le credenziali dell’account di servizio (JWT) sono state dichiarate obsolete da Adobe, le integrazioni in uscita di Campaign con le soluzioni e le app Adobe ora si basano sulle credenziali server-to-server OAuth. Adobe eseguirà la migrazione da JWT a OAuth per le integrazioni in uscita, ad esempio l’integrazione Campaign-Analytics o l’integrazione Experience Cloud Triggers.
-
-  Se hai implementato le integrazioni in entrata con Campaign, devi migrare l’account tecnico come descritto in [questa documentazione](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. Le credenziali dell’account di servizio (JWT) esistenti continueranno a funzionare fino al **27 gennaio 2025**. Inoltre, Developer Console continuerà a supportare la creazione di nuove credenziali dell’account di servizio (JWT) fino al **3 giugno 2024**. Non è possibile creare o aggiungere a un progetto una nuova credenziale dell’account di servizio (JWT) dopo questa data.
-
+A partire da questa versione, poiché le credenziali dell’account di servizio (JWT) sono state dichiarate obsolete da Adobe, le integrazioni in uscita di Campaign con le soluzioni e le app Adobe ora si basano sulle credenziali server-to-server OAuth. [Ulteriori informazioni](#change-8-7-1)
 
 ### Correzioni {#fixes-8-5-3}
 
@@ -62,9 +59,11 @@ _2 maggio 2024_
 
 * Databricks è ora supportato come database esterno con Federated Data Access (FDA) di Adobe Campaign. Per ulteriori informazioni, consulta [questa pagina](compatibility-matrix.md#FederatedDataAccessFDA).
 
-* A partire da questa versione, poiché le credenziali dell’account di servizio (JWT) sono state dichiarate obsolete da Adobe, le integrazioni in uscita di Campaign con le soluzioni e le app Adobe ora si basano sulle credenziali server-to-server OAuth. Adobe eseguirà la migrazione da JWT a OAuth per le integrazioni in uscita, ad esempio l’integrazione Campaign-Analytics o l’integrazione Experience Cloud Triggers.
+### Migrazione alle credenziali server-to-server OAuth {#change-8-7-1}
 
-  Se hai implementato le integrazioni in entrata con Campaign, devi migrare l’account tecnico come descritto in [questa documentazione](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. Le credenziali dell’account di servizio (JWT) esistenti continueranno a funzionare fino al **27 gennaio 2025**. Inoltre, Developer Console continuerà a supportare la creazione di nuove credenziali dell’account di servizio (JWT) fino al **3 giugno 2024**. Non è possibile creare o aggiungere a un progetto una nuova credenziale dell’account di servizio (JWT) dopo questa data.
+A partire da questa versione, poiché le credenziali dell’account di servizio (JWT) sono state dichiarate obsolete da Adobe, le integrazioni in uscita di Campaign con le soluzioni e le app Adobe ora si basano sulle credenziali server-to-server OAuth. Adobe eseguirà la migrazione da JWT a OAuth per le integrazioni in uscita, ad esempio l’integrazione Campaign-Analytics o l’integrazione Experience Cloud Triggers.
+
+Se hai implementato le integrazioni in entrata con Campaign, devi migrare l’account tecnico come descritto in [questa documentazione](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. Le credenziali dell’account di servizio (JWT) esistenti continueranno a funzionare fino al **27 gennaio 2025**. Inoltre, Developer Console continuerà a supportare la creazione di nuove credenziali dell’account di servizio (JWT) fino al **3 giugno 2024**. Non è possibile creare o aggiungere a un progetto una nuova credenziale dell’account di servizio (JWT) dopo questa data.
 
 
 ### Miglioramenti generali {#improvements-8-7-1}
