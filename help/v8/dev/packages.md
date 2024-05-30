@@ -4,7 +4,7 @@ description: Utilizzo dei pacchetti di dati
 feature: Data Management, Package Export/Import
 role: Developer
 level: Intermediate, Experienced
-source-git-commit: 933c266febdc293dccdf9b7383d94d7a5dce22bc
+source-git-commit: 202a0553f0c736086eca993b9647737732f57d07
 workflow-type: tm+mt
 source-wordcount: '1941'
 ht-degree: 0%
@@ -93,7 +93,7 @@ Per esportare un set di oggetti in un pacchetto di dati, eseguire la procedura s
    >
    >Se si esporta un **[!UICONTROL Offer category]**, **[!UICONTROL Offer environment]**, **[!UICONTROL Program]** o **[!UICONTROL Plan]** digita la cartella, non selezionare mai la cartella **xtk:cartella** poiché alcuni dati potrebbero andare persi. Seleziona l’entità che corrisponde alla cartella: **nms:offerCategory** per le categorie di offerta, **nms:offerEnv** per gli ambienti di offerta, **nms:programma** per i programmi, e **nms:piano** per i piani.
 
-   Il meccanismo di dipendenza controlla la sequenza di esportazione delle entità. Per ulteriori informazioni, consulta [Gestione delle dipendenze](#managing-dependencies).
+   Il meccanismo di dipendenza controlla la sequenza di esportazione delle entità. Per ulteriori informazioni, consulta [Gestione delle dipendenze](#manage-dependencies).
 
 1. Clic **[!UICONTROL Next]** e definiscono la query di filtro in base al tipo di documento da estrarre. È necessario configurare la clausola di filtro per l&#39;estrazione dei dati.
 

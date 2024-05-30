@@ -5,7 +5,7 @@ feature: Configuration, FFDA
 role: Developer
 level: Intermediate
 exl-id: ef06cb6b-1b25-4dbe-8fd0-f880ec9d645b
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 202a0553f0c736086eca993b9647737732f57d07
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 3%
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # Gestione delle chiavi e unicità {#key-management}
 
-Nell&#39;ambito di una [Distribuzione aziendale (FFDA)](enterprise-deployment.md), la chiave primaria è un identificatore ID universalmente univoco (UUID), che è una stringa di caratteri. Per creare questo UUID, l’elemento principale dello schema deve contenere **autouuid** e **autopk** attributi impostati su **true**.
+Nell&#39;ambito di una [Distribuzione aziendale (FFDA)](enterprise-deployment.md), la chiave primaria è un IDentifier universalmente univoco (UUID), ovvero una stringa di caratteri. Per creare questo UUID, l’elemento principale dello schema deve contenere **autouuid** e **autopk** attributi impostati su **true**.
 
 Adobe Campaign v8 utilizza [!DNL Snowflake] come database di base. Architettura distribuita del [!DNL Snowflake] Il database di non fornisce un meccanismo per garantire l’unicità di una chiave all’interno di una tabella: gli utenti finali sono responsabili della coerenza delle chiavi all’interno del database di Adobe Campaign.
 
