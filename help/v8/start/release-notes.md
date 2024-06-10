@@ -3,10 +3,10 @@ title: Note sulla versione di Campaign v8
 description: Ultima versione di Campaign v8
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 338432b41276317f1f07a92f0106e20177b5becd
-workflow-type: ht
-source-wordcount: '783'
-ht-degree: 100%
+source-git-commit: e119c415ce363a635f9f0318e3fd70f90f4bde06
+workflow-type: tm+mt
+source-wordcount: '801'
+ht-degree: 97%
 
 ---
 
@@ -32,6 +32,14 @@ In questa versione sono stati risolti i seguenti problemi:
 
 NEO-70263, NEO-64984, NEO-63657, NEO-63387, NEO-62964, NEO-62750, NEO-62686, NEO-59544, NEO-52542
 
+
+## Aggiornamenti di maggio {#may-updates}
+
+La seguente modifica è stata rilasciata a maggio ed è ora disponibile per gli utenti di Campaign v8:
+
+* **Nuovo componente aggiuntivo di sicurezza avanzato**: per rendere più sicura la connessione di rete e migliorare la sicurezza delle risorse, Adobe Campaign offre un nuovo componente aggiuntivo di sicurezza avanzato, che include due funzionalità: integrazione CMK sicura e tunneling VPN sicuro. [Ulteriori informazioni](../config/enhanced-security.md)
+
+
 ## Versione 8.7.1 {#release-8-7-1}
 
 _2 maggio 2024_
@@ -52,7 +60,7 @@ _2 maggio 2024_
 
 * **Reporting dinamico**: in qualità di utente Campaign Standard migrato, puoi accedere al Reporting dinamico che fornisce rapporti completamente personalizzabili e in tempo reale per misurare l’impatto delle attività di marketing. Permette di accedere ai dati del profilo, abilitando l’analisi demografica per dimensioni di profilo, come genere, città ed età, oltre ai dati funzionali delle campagne e-mail come aperture e clic. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=it){target="_blank"}
 
-* **Nuovo componente aggiuntivo di sicurezza avanzato**: per rendere più sicura la connessione di rete e migliorare la sicurezza delle risorse, Adobe Campaign offre un nuovo componente aggiuntivo di sicurezza avanzato, che include due funzionalità: integrazione CMK sicura e tunneling VPN sicuro. [Ulteriori informazioni](../config/enhanced-security.md)
+
 
 
 ### Aggiornamenti della compatibilità {#comp-8-7-1}
