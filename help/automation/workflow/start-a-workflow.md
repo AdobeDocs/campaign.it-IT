@@ -6,9 +6,9 @@ feature: Workflows
 level: Beginner
 role: User, Admin
 exl-id: 6d9789e3-d721-4ffd-b3fb-a0c522ab1c0a
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: ab6c16af7652f2e8dbfa5c899c2152cefb7fc7c6
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1129'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,16 @@ Il **[!UICONTROL Actions]** sulla barra degli strumenti consente di accedere a o
 * **[!UICONTROL Restart]**
 
   Questa azione si interrompe e riavvia il flusso di lavoro. Nella maggior parte dei casi, consente un riavvio più rapido. È inoltre utile automatizzare il riavvio quando l’arresto richiede un certo periodo di tempo, perché il comando &quot;Interrompi&quot; non è disponibile quando il flusso di lavoro viene arrestato.
+
+  Tieni presente che **Riavvia** L&#39;azione non cancella le variabili dell&#39;istanza del flusso di lavoro confrontate con **Esecuzione**, **Interrompi**, e **Inizio** (la cancellazione delle variabili di istanza avviene al momento dell’azione Avvia). Durante il riavvio di un flusso di lavoro, le variabili dell’istanza sono ancora disponibili per l’utilizzo con valori conservati. Per cancellarli, puoi effettuare le seguenti operazioni:
+   * Esegui **Interrompi** e **Inizio** azioni.
+   * Aggiungi di seguito il codice JavaScript alla fine dell’esecuzione del flusso di lavoro:
+
+     ```
+     var wkf = xtk.workflow.load(instance.id)
+     wkf.variables='<variables/>'
+     wkf.save()
+     ```
 
 * **[!UICONTROL Purge history]**
 
