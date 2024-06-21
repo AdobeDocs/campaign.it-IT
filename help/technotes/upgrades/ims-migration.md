@@ -4,16 +4,16 @@ description: Scopri come migrare gli operatori tecnici di Campaign all’account
 feature: Technote
 role: Admin
 exl-id: 775c5dbb-ef73-48dd-b163-23cfadc3dab8
-source-git-commit: 5d3dd679eb7a756200d604601c20c3fed5770fc2
+source-git-commit: 07c2a7460c407a0afb536d8b64f4105d8bc547f4
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1547'
 ht-degree: 0%
 
 ---
 
 # Migrazione degli operatori tecnici di Campaign alla console Adobe Developer {#migrate-tech-users-to-ims}
 
-Come parte degli sforzi per rafforzare la sicurezza e il processo di autenticazione, a partire da Campaign v8.5, il processo di autenticazione a Campaign v8 viene migliorato. Gli operatori tecnici possono ora utilizzare [Sistema Adobe Identity Management (IMS)](https://helpx.adobe.com/it/enterprise/using/users.html){target="_blank"} to connect to Campaign. Learn more about the new server to server authentication process in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
+Come parte degli sforzi per rafforzare la sicurezza e il processo di autenticazione, a partire da Campaign v8.5, il processo di autenticazione a Campaign v8 viene migliorato. Gli operatori tecnici possono ora utilizzare [Sistema Adobe Identity Management (IMS)](https://helpx.adobe.com/it/enterprise/using/users.html){target="_blank"} per connettersi a Campaign. Ulteriori informazioni sul nuovo processo di autenticazione server-to-server in [Documentazione della console Adobe Developer](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
 Un operatore tecnico è un profilo utente di Campaign creato esplicitamente per l’integrazione API. Questo articolo descrive i passaggi necessari per migrare un operatore tecnico a un account tecnico tramite la console Adobe Developer.
 
@@ -151,9 +151,13 @@ Per ulteriori dettagli sui passaggi di integrazione dell’API, tra cui un codic
 
 Di seguito sono riportati alcuni esempi di chiamate SOAP che mostrano le chiamate prima e dopo la migrazione per i sistemi di terze parti.
 
+Quando si utilizza l’autenticazione Adobe Identity Management System (IMS), per generare un file WSDL è necessario aggiungere `Authorization: Bearer <IMS_Technical_Token_Token>` nella chiamata al postino:
+
+```
+curl --location --request POST 'https://<instance_url>/nl/jsp/schemawsdl.jsp?schema=nms:rtEvent' \--header 'Authorization: Bearer <Technical account access token>'
+```
+
 Una volta completato e convalidato il processo di migrazione, le chiamate Soap vengono aggiornate come segue:
-
-
 
 * Prima della migrazione: non era disponibile il supporto per il token di accesso dell’account tecnico.
 
@@ -201,8 +205,6 @@ Una volta completato e convalidato il processo di migrazione, le chiamate Soap v
   </soapenv:Body>
   </soapenv:Envelope>
   ```
-
-
 
 ### Passaggio 9: (facoltativo) aggiorna l’operatore dell’account tecnico nella console client di Campaign {#ims-migration-step-9}
 

@@ -4,9 +4,9 @@ title: Dividi
 description: Ulteriori informazioni sull’attività Dividi flusso di lavoro
 feature: Workflows, Targeting Activity
 exl-id: bf4935dd-87dc-4c5c-becf-8c4df61805fd
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: a5d44321c3d68b9370cfb6e9b1df62435de0dbda
 workflow-type: tm+mt
-source-wordcount: '1807'
+source-wordcount: '1832'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,13 @@ A **Dividi** L’attività di tipo -type consente di suddividere un target in di
 
 Questa attività non attiva un’unione di popolazioni in entrata. Se nell’ambito di un’attività divisa si verificano più transizioni, si consiglia di inserire un’ **[!UICONTROL Union]** attività di fronte a esso.
 
-Per un esempio dell’attività divisa in uso, fai riferimento a [questa sezione](targeting-workflows.md#create-subsets-using-the-split-activity).
+>[!NOTE]
+>
+>Non è possibile eseguire operazioni di suddivisione per tabelle con origini diverse. A questo scopo, devi aggiungere una **Arricchimento** attività prima del **Dividi** attività.
 
-Un esempio che illustra come utilizzare l’attività Split per segmentare il target in popolazioni diverse utilizzando condizioni di filtro è descritto in [questa sezione](cross-channel-delivery-workflow.md).
-
-Un esempio che mostra come utilizzare una variabile di istanza in un’attività Split è disponibile in [questa sezione](javascript-scripts-and-templates.md).
+* Per un esempio dell’attività divisa in uso, fai riferimento a [questa sezione](targeting-workflows.md#create-subsets-using-the-split-activity).
+* Un esempio che illustra come utilizzare l’attività Split per segmentare il target in popolazioni diverse utilizzando condizioni di filtro è descritto in [questa sezione](cross-channel-delivery-workflow.md).
+* Un esempio che mostra come utilizzare una variabile di istanza in un’attività Split è disponibile in [questa sezione](javascript-scripts-and-templates.md).
 
 Per configurare questa attività, definisci il contenuto e l’etichetta del sottoinsieme in **[!UICONTROL Subsets]** , quindi scegliere la dimensione di destinazione nella scheda **[!UICONTROL General]** scheda.
 
