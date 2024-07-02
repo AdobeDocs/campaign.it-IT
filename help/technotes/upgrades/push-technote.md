@@ -8,10 +8,10 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="Applicabile anche a Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Applicabile a Campaign v8"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: a280e560a6e84f5afa214daaded9ac5331018d7c
+source-git-commit: 24d9adddbc983a600f99dab8bab1235585b48ceb
 workflow-type: tm+mt
 source-wordcount: '1357'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 Puoi utilizzare Campaign per inviare notifiche push su dispositivi iOS e Android. Per eseguire questa operazione, Campaign si basa sui servizi di abbonamento alle app mobili.
 
-Alcune modifiche importanti al servizio Android Firebase Cloud Messaging (FCM) sono state rilasciate nel 2024 e potrebbero influire sull’implementazione di Adobe Campaign. Per supportare questa modifica, potrebbe essere necessario aggiornare la configurazione dei servizi di abbonamento per i messaggi push Android.
+Alcune modifiche importanti al servizio Android Firebase Cloud Messaging (FCM) sono state rilasciate nel 2024 e potrebbero influire sull’implementazione di Adobe Campaign. Per supportare questa modifica, potrebbe essere necessario aggiornare la configurazione dei servizi di abbonamento per i messaggi push di Android.
 
 Inoltre, Adobe consiglia vivamente di passare alla connessione basata su token ai numeri APN anziché a una connessione basata su certificati, che è più sicura e scalabile.
 
@@ -27,7 +27,7 @@ Inoltre, Adobe consiglia vivamente di passare alla connessione basata su token a
 
 ### Cosa è cambiato? {#fcm-changes}
 
-Come parte del continuo sforzo di Google per migliorare i suoi servizi, le API FCM legacy saranno interrotte il **20 giugno 2024**. Ulteriori informazioni sul protocollo HTTP Firebase Cloud Messaging in [Documentazione di Google Firebase](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
+Come parte del continuo sforzo di Google per migliorare i suoi servizi, le API FCM legacy saranno interrotte il **22 luglio 2024**. Ulteriori informazioni sul protocollo HTTP Firebase Cloud Messaging in [Documentazione di Google Firebase](https://firebase.google.com/docs/cloud-messaging/migrate-v1){target="_blank"}.
 
 Adobe Campaign Classic v7 e Adobe Campaign v8 supportano già le API più recenti per l’invio di messaggi di notifica push. Tuttavia, alcune implementazioni precedenti si basano ancora sulle API legacy. Queste implementazioni devono essere aggiornate.
 
@@ -42,7 +42,7 @@ Per verificare se sei interessato, puoi filtrare il **Servizi e abbonamenti** se
 
 * Se uno dei servizi di notifica push attivi utilizza **HTTP (legacy)** API, la configurazione sarà direttamente interessata da questa modifica. È necessario rivedere le configurazioni correnti e passare alle API più recenti come descritto di seguito.
 
-* Se la configurazione utilizza esclusivamente **HTTP v1** API per notifiche push Android, sei già conforme e non saranno necessarie ulteriori azioni da parte tua.
+* Se la configurazione utilizza esclusivamente **HTTP v1** API per le notifiche push in Android, hai già ottenuto la conformità e non saranno necessarie ulteriori azioni da parte tua.
 
 ### Come si esegue l’aggiornamento? {#fcm-transition-procedure}
 
@@ -50,7 +50,7 @@ Per verificare se sei interessato, puoi filtrare il **Servizi e abbonamenti** se
 
 * Per Campaign Classic v7, il supporto di HTTP v1 è stato aggiunto nella versione 20.3.1. Se l’ambiente è in esecuzione su una versione precedente, un prerequisito per la transizione a HTTP v1 è aggiornare l’ambiente a [build Campaign Classic più recente](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. Per Campaign v8, HTTP v1 è supportato da tutte le versioni e non è necessario alcun aggiornamento.
 
-* Il file JSON dell&#39;account del servizio Admin SDK per Android Firebase è necessario per spostare l&#39;app mobile su HTTP v1. Scopri come ottenere questo file in [Documentazione di Google Firebase](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
+* Il file JSON dell&#39;account del servizio Android Firebase Admin SDK è necessario per spostare l&#39;app mobile su HTTP v1. Scopri come ottenere questo file in [Documentazione di Google Firebase](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
 * Per le distribuzioni ibride, in hosting e Managed Services, oltre alla procedura di transizione riportata di seguito, contatta l’Adobe per aggiornare il server di esecuzione in tempo reale (RT). Il server Mid-Sourcing non è interessato.
 
@@ -73,7 +73,7 @@ Per spostare l’ambiente in HTTP v1, effettua le seguenti operazioni:
 
    ![](assets/android-http-v1-config.png)
 
-1. Clic **[!UICONTROL Test the connection]** per verificare che la configurazione sia corretta e che il server di marketing abbia accesso a FCM. Tieni presente che per le distribuzioni Mid-Sourcing, il **[!UICONTROL Test connection]** non può verificare se il server ha accesso al servizio Android Firebase Cloud Messaging (FCM).
+1. Clic **[!UICONTROL Test the connection]** per verificare che la configurazione sia corretta e che il server di marketing abbia accesso a FCM. Tieni presente che per le distribuzioni Mid-Sourcing, il **[!UICONTROL Test connection]** Impossibile verificare se il server ha accesso al servizio Android Firebase Cloud Messaging (FCM).
 1. Come opzione, puoi arricchire il contenuto di un messaggio push con **[!UICONTROL Application variables]** se necessario. Questi sono completamente personalizzabili e fanno parte del payload del messaggio inviato al dispositivo mobile.
 1. Fai clic su **[!UICONTROL Finish]**, quindi su **[!UICONTROL Save]**.
 
