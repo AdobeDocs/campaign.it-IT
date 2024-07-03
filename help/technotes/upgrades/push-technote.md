@@ -8,10 +8,10 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="Applicabile anche a Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Applicabile a Campaign v8"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: 24d9adddbc983a600f99dab8bab1235585b48ceb
+source-git-commit: 9eb8521a1cc264d4d0137c68654ca45ccade81bd
 workflow-type: tm+mt
-source-wordcount: '1357'
-ht-degree: 2%
+source-wordcount: '1422'
+ht-degree: 1%
 
 ---
 
@@ -77,12 +77,14 @@ Per spostare l’ambiente in HTTP v1, effettua le seguenti operazioni:
 1. Come opzione, puoi arricchire il contenuto di un messaggio push con **[!UICONTROL Application variables]** se necessario. Questi sono completamente personalizzabili e fanno parte del payload del messaggio inviato al dispositivo mobile.
 1. Fai clic su **[!UICONTROL Finish]**, quindi su **[!UICONTROL Save]**.
 
-Di seguito sono riportati i nomi del payload FCM per personalizzare ulteriormente la notifica push. Queste opzioni sono dettagliate [qui](#fcm-apps).
+   Di seguito sono riportati i nomi del payload FCM per personalizzare ulteriormente la notifica push. Queste opzioni sono dettagliate [qui](#fcm-apps).
 
-| Tipo di messaggio | Elemento del messaggio configurabile (nome del payload FCM) | Opzioni configurabili (nome payload FCM) |
-|:-:|:-:|:-:|
-| messaggio dati | N/D | validate_only |
-| messaggio di notifica | titolo, corpo, android_channel_id, icona, suono, tag, colore, click_action, immagine, ticker, fisso, visibilità, notification_priority, notification_count <br> | validate_only |
+   | Tipo di messaggio | Elemento del messaggio configurabile (nome del payload FCM) | Opzioni configurabili (nome payload FCM) |
+   |:-:|:-:|:-:|
+   | messaggio dati | N/D | validate_only |
+   | messaggio di notifica | titolo, corpo, android_channel_id, icona, suono, tag, colore, click_action, immagine, ticker, fisso, visibilità, notification_priority, notification_count <br> | validate_only |
+
+1. Al termine della transizione HTTP v1, è necessario aggiornare **modelli di consegna** per le notifiche push di Android per aumentare il numero di messaggi batch. A questo scopo, individua le proprietà del modello di consegna Android e, nella **Consegna** , impostare **Quantità batch messaggi** a **256**. Applica questa modifica a tutti i modelli di consegna Android utilizzati per le consegne Android e a tutte le consegne Android esistenti.
 
 
 >[!NOTE]
@@ -107,7 +109,6 @@ Puoi eseguire le seguenti azioni:
 * Imposta il **[!UICONTROL Visibility]** livello della notifica a pubblico, privato o segreto.
 
 Per ulteriori informazioni su **[!UICONTROL HTTP v1 additional options]** e come compilare questi campi, consulta [Documentazione FCM](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification){target="_blank"}.
-
 
 
 
