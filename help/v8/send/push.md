@@ -5,10 +5,10 @@ feature: Push
 role: User
 level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
-source-git-commit: 6d54f072ad0e67b435cd6e03433fa9ddd0794dea
+source-git-commit: 48aba38f3dc8bb322e6d0b38c1b743e980671cd7
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 16%
+source-wordcount: '968'
+ht-degree: 12%
 
 ---
 
@@ -16,24 +16,28 @@ ht-degree: 16%
 
 Le consegne tramite app mobile ti consentono di inviare notifiche ai dispositivi iOS e Android.
 
-Prima di iniziare a inviare notifiche push con Adobe Campaign, è necessario assicurarsi che le configurazioni e le integrazioni siano attive nell’app mobile e per i tag in Adobe Experience Platform. [Ulteriori informazioni sulla configurazione push.](push-settings.md)
+Prima di iniziare a inviare notifiche push con Adobe Campaign, è necessario assicurarsi che le configurazioni e le integrazioni siano attive nell’app mobile e per i tag in Adobe Experience Platform. [Ulteriori informazioni sulla configurazione push.](push-settings.md).
 
 >[!CAUTION]
 >
->Alcune importanti modifiche al servizio Android Firebase Cloud Messaging (FCM) verranno rilasciate nel 2024 e potranno influenzare la tua implementazione di Adobe Campaign. Per supportare questa modifica, potrebbe essere necessario aggiornare la configurazione dei servizi di abbonamento per i messaggi push Android. Puoi già verificare ed eseguire azioni. [Ulteriori informazioni](../../technotes/upgrades/push-technote.md).
+>Alcune modifiche importanti al servizio Android Firebase Cloud Messaging (FCM) verranno rilasciate nel 2024 e potrebbero influire sull’implementazione di Adobe Campaign. Per supportare questa modifica, potrebbe essere necessario aggiornare la configurazione dei servizi di abbonamento per i messaggi push Android. Puoi già verificare ed eseguire azioni. [Ulteriori informazioni](../../technotes/upgrades/push-technote.md).
 
 
-## Creare la prima notifica push{#push-create}
+## Creare la prima notifica push {#push-create}
 
-Questa sezione descrive gli elementi specifici per la consegna delle notifiche iOS e Android.
+Questa sezione descrive gli elementi specifici per la consegna delle notifiche di iOS e Android.
 
 >[!IMPORTANT]
 >
 >Nell&#39;ambito di una [Distribuzione aziendale (FFDA)](../architecture/enterprise-deployment.md), la registrazione mobile è ora **asincrono**. [Ulteriori informazioni](../architecture/staging.md)
 
+
 Per creare una nuova consegna, passa a **[!UICONTROL Campaigns]** , fare clic su **[!UICONTROL Deliveries]** e fai clic su **[!UICONTROL Create]** sopra l’elenco delle consegne esistenti.
 
 ![](assets/delivery_step_1.png)
+
+
+Per impostazione predefinita, Adobe Campaign viene fornito con due modelli di consegna: uno per iOS e uno per Android. Puoi duplicarli per definire le tue impostazioni. Di seguito sono riportati i passaggi per configurare una consegna push in base a questi modelli.
 
 >[!BEGINTABS]
 
@@ -127,17 +131,22 @@ Per inviare notifiche sui dispositivi iOS, effettua le seguenti operazioni:
 
 >[!TAB Android]
 
-Per inviare notifiche su dispositivi Android, effettua le seguenti operazioni:
+Per inviare notifiche sui dispositivi Android, effettua le seguenti operazioni:
 
 1. Seleziona la **[!UICONTROL Deliver on Android (android)]** modello di consegna.
 
    ![](assets/push-template-android.png)
 
+   >[!NOTE]
+   > 
+   >Con le API FCM più recenti (HTTP v1), è necessario aggiornare **modelli di consegna** per le notifiche push di Android per aumentare il numero di messaggi batch. A questo scopo, individua le proprietà del modello di consegna Android e, nella **Consegna** , impostare [Quantità batch messaggi](../../v8/send/configure-and-send.md#delivery-batch-quantity) a **256**. Applica questa modifica a tutti i modelli di consegna utilizzati per le consegne Android e a tutte le consegne Android esistenti.
+
+
 1. Per definire il target della notifica, fai clic sul pulsante **[!UICONTROL To]** , quindi fai clic su **[!UICONTROL Add]**.
 
    ![](assets/push-android-select-target.png)
 
-1. Seleziona **[!UICONTROL Subscribers of an Android mobile application]**, scegli il servizio relativo alla tua app mobile (Neotrips, in questo caso), quindi seleziona la versione Android dell’applicazione.
+1. Seleziona **[!UICONTROL Subscribers of an Android mobile application]**, scegli il servizio relativo alla tua app mobile (Neotrips, in questo caso), quindi seleziona la versione di Android dell’applicazione.
 
    ![](assets/push-android-subscribers.png)
 
@@ -155,7 +164,8 @@ Per inviare notifiche su dispositivi Android, effettua le seguenti operazioni:
 
 >[!ENDTABS]
 
-## Testare, inviare e monitorare le notifiche push
+
+## Testare, inviare e monitorare le notifiche push {#push-test}
 
 Per inviare una bozza e la consegna finale, utilizza lo stesso processo utilizzato per le altre consegne.
 
