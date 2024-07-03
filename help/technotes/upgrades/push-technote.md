@@ -8,7 +8,7 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="Applicabile anche a Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Applicabile a Campaign v8"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: 9eb8521a1cc264d4d0137c68654ca45ccade81bd
+source-git-commit: 2e9c9f8e677233b2906f6ebb8f42dd86afe4e111
 workflow-type: tm+mt
 source-wordcount: '1422'
 ht-degree: 1%
@@ -84,7 +84,7 @@ Per spostare l’ambiente in HTTP v1, effettua le seguenti operazioni:
    | messaggio dati | N/D | validate_only |
    | messaggio di notifica | titolo, corpo, android_channel_id, icona, suono, tag, colore, click_action, immagine, ticker, fisso, visibilità, notification_priority, notification_count <br> | validate_only |
 
-1. Al termine della transizione HTTP v1, è necessario aggiornare **modelli di consegna** per le notifiche push di Android per aumentare il numero di messaggi batch. A questo scopo, individua le proprietà del modello di consegna Android e, nella **Consegna** , impostare **Quantità batch messaggi** a **256**. Applica questa modifica a tutti i modelli di consegna Android utilizzati per le consegne Android e a tutte le consegne Android esistenti.
+1. Al termine della transizione HTTP v1, è necessario aggiornare **modelli di consegna** per le notifiche push di Android per aumentare il numero di messaggi batch. A questo scopo, individua le proprietà del modello di consegna Android e, nella **Consegna** , impostare [Quantità batch messaggi](../../v8/send/configure-and-send.md#delivery-batch-quantity) a **256**. Applica questa modifica a tutti i modelli di consegna Android utilizzati per le consegne Android e a tutte le consegne Android esistenti.
 
 
 >[!NOTE]
