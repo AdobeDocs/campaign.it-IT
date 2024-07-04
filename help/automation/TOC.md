@@ -2,9 +2,9 @@
 audience: user
 user-guide-title: Guida all’automazione di Campaign
 user-guide-description: Guida all’automazione di Campaign
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: c5e804db7deaa6b9511858d088eb6da5d16e8abf
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '444'
 ht-degree: 81%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 81%
          + [Query](workflow/query.md)
          + [Lettura di un elenco](workflow/read-list.md)
          + [Dividi](workflow/split.md)
-         + [Attività Subscription services](workflow/subscription-services.md)
+         + [Servizi di iscrizione](workflow/subscription-services.md)
          + [Unione](workflow/union.md)
          + [Aggiornare i dati](workflow/update-data.md)
       + Attività di controllo del flusso {#flow-control-activities}
@@ -165,4 +165,4 @@ ht-degree: 81%
    + [Accedere alle campagne](distributed-marketing/accessing-campaigns.md)
    + [Tracciare una campagna](distributed-marketing/tracking-a-campaign.md)
    + [Casi d’uso](distributed-marketing/examples.md)
-+ [Documentazione di Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=it)
++ [&lt; Documentazione di Back to Campaign v8](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/campaign-home)
