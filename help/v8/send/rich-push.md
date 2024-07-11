@@ -1,15 +1,15 @@
 ---
 audience: end-user
 title: Progettare una consegna di notifiche push potenziata
-description: Scopri come progettare una consegna di notifiche push potenziata per Android con Adobe Campaign Web
+description: Scopri come progettare una consegna di notifiche push potenziata da Android con Adobe Campaign Web
 feature: Push
 role: User
 level: Beginner
 exl-id: 42e3623b-b401-4fcc-80a7-ea38347fddc6
-source-git-commit: 94dba45c59c699680675bdcd2b73da386d727435
+source-git-commit: 5236cc94e78db11b8975ad84c49594b282fdecf3
 workflow-type: tm+mt
-source-wordcount: '1135'
-ht-degree: 32%
+source-wordcount: '1157'
+ht-degree: 31%
 
 ---
 
@@ -26,6 +26,10 @@ Con Firebase Cloud Messaging puoi scegliere tra due tipi di messaggi:
 * Il **[!UICONTROL Notification message]**, gestito automaticamente dall’SDK FCM. FCM mostra automaticamente il messaggio sui dispositivi degli utenti per conto dell’app client. I messaggi di notifica contengono un set preimpostato di parametri e opzioni, ma possono ancora essere personalizzati con variabili personalizzate dell’applicazione.
 
 ## Definisci il contenuto della notifica {#push-message}
+
+>[!IMPORTANT]
+>
+>Prima di progettare una notifica push potenziata, è necessario configurare il connettore. Fai riferimento a [questa pagina](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android) procedura dettagliata.
 
 Una volta creata la consegna push, puoi definirne il contenuto. Sono disponibili tre modelli:
 
@@ -92,7 +96,7 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 
    * **[!UICONTROL Open App]**: gli URL aperti dell’app ti consentono di connettersi direttamente al contenuto all’interno di un’applicazione. Consente all’applicazione di impostarsi come gestore predefinito per un tipo specifico di collegamento, ignorando la finestra di dialogo per la disambiguazione.
 
-   Per ulteriori informazioni su come gestire i collegamenti alle app Android, consulta [Documentazione per sviluppatori Android](https://developer.android.com/training/app-links).
+   Per ulteriori informazioni su come gestire i collegamenti alle app Android, consulta [Documentazione per gli sviluppatori di Android](https://developer.android.com/training/app-links).
 
    ![](assets/rich_push_basic_3.png)
 
