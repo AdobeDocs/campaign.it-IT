@@ -5,10 +5,10 @@ type: Event
 title: Note tecniche di Adobe Campaign
 description: Note tecniche sulla campagna
 breadcrumb-title: Note tecniche sulla campagna
-source-git-commit: c5e804db7deaa6b9511858d088eb6da5d16e8abf
+source-git-commit: a9a376e1726bf92ddce937d5598314cbfd744f1f
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 25%
+source-wordcount: '68'
+ht-degree: 23%
 
 ---
 
@@ -27,4 +27,6 @@ ht-degree: 25%
    + [Browser Internet](upgrades/browsers.md)
    + [Aggiornamenti del sistema 2023](upgrades/tech-stack-upgrade.md)
    + [deprecazione a 32 bit della console client](upgrades/console.md)
-+ [&lt; Documentazione di Back to Campaign v8](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/campaign-home)
+   + Protezione {#security}
+      + [Rotazione delle credenziali del cliente](security/credential-rotation-guide.md)
++ [&lt; Torna alla documentazione di Campaign v8](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/campaign-home)
