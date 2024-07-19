@@ -24,7 +24,7 @@ I passaggi principali per configurare questa integrazione sono i seguenti:
 <table>
 <tr>
 <td><img src="../assets/do-not-localize/icon-connection.svg" width="60px"><p><a href="#oauth">Configurare una connessione OAuth</a></p></td>
-<td><img src="../assets/do-not-localize/icon-source.svg" width="60px"><p><a href="#source">Creare una connessione sorgente API HTTP</a></p></td>
+<td><img src="../assets/do-not-localize/icon-source.svg" width="60px"><p><a href="#source">Creare una connessione HTTP API Source</a></p></td>
 <td><img src="../assets/do-not-localize/icon-options.svg" width="60px"><p><a href="#xtk">Aggiungere opzioni di autenticazione in Campaign</a></p></td>
 <td><img src="../assets/do-not-localize/icon-javascript.svg" width="60px"><p><a href="#javascript">Aggiungere codici JavaScript in Campaign</a></p></td>
 <td><img src="../assets/do-not-localize/icon-workflow.svg" width="60px"><p><a href="#script">Configurare il flusso di lavoro per la pagina di destinazione</a></p></td>
@@ -32,13 +32,13 @@ I passaggi principali per configurare questa integrazione sono i seguenti:
 
 ## Configurare una connessione OAuth {#oauth}
 
-Le API di Adobe Cloud Platform utilizzano il protocollo OAuth 2.0 per l’autenticazione e l’autorizzazione. Per collegare Adobe Experience Platform ad Adobe Campaign utilizzando le chiamate API, devi generare un token di accesso utilizzando l’integrazione OAuth creata nella console Adobe Developer.
+Le API di Adobe Cloud Platform utilizzano il protocollo OAuth 2.0 per l’autenticazione e l’autorizzazione. Per collegare Adobe Experience Platform ad Adobe Campaign utilizzando le chiamate API, devi generare un token di accesso utilizzando l’integrazione OAuth creata in Adobe Developer Console.
 
 Per farlo, segui questi passaggi:
 
-1. Accedi alla console Adobe Developer.
-1. Crea una nuova connessione API utilizzando il prodotto API di Adobe Experience Platform. I passaggi dettagliati per ottenere un token di accesso OAuth 2.0 sono disponibili nella sezione [Documentazione della console Adobe Developer](https://developer.adobe.com/developer-console/docs/guides/authentication/Tools/OAuthPlayground/).
-1. Una volta creata la connessione, accedi al **[!UICONTROL OAuth Server-to-Server]** copia i dettagli riportati di seguito, necessari in Campaign per l’autenticazione:
+1. Accedi a Adobe Developer Console.
+1. Crea una nuova connessione API utilizzando il prodotto API di Adobe Experience Platform. I passaggi dettagliati su come ottenere un token di accesso OAuth 2.0 sono disponibili nella [documentazione di Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/authentication/Tools/OAuthPlayground/).
+1. Dopo aver creato la connessione, passa al menu **[!UICONTROL OAuth Server-to-Server]** e copia i dettagli riportati di seguito, necessari in Campaign per l&#39;autenticazione:
 
    * `CLIENT ID`
    * `CLIENT SECRET`
@@ -46,19 +46,19 @@ Per farlo, segui questi passaggi:
 
    ![](assets/ac-lp-oauth.png){width="70%"}
 
-Ora che la connessione OAuth è configurata, crea e configura un nuovo **[!UICONTROL HTTP API]** Connessione sorgente per collegare Adobe Campaign a Adobe Experience Platform.
+Dopo aver configurato la connessione Oauth, creare e configurare una nuova connessione Source **[!UICONTROL HTTP API]** per collegare Adobe Campaign a Adobe Experience Platform.
 
-## Creare una connessione sorgente API HTTP {#source}
+## Creare una connessione HTTP API Source {#source}
 
-Una volta stabilita la connessione OAuth, il passaggio successivo consiste nel creare un **[!UICONTROL HTTP API]** Connessione sorgente in Adobe Experience Platform. Questa connessione ti consente di inviare dati a Adobe Experience Platform in streaming utilizzando le API. Segui questi passaggi:
+Una volta stabilita la connessione OAuth, il passaggio successivo consiste nel creare una connessione Source **[!UICONTROL HTTP API]** in Adobe Experience Platform. Questa connessione ti consente di inviare dati a Adobe Experience Platform in streaming utilizzando le API. Segui questi passaggi:
 
-1. Passa a Adobe Experience Platform **[!UICONTROL Sources]**, cerca **[!UICONTROL HTTP API]** sorgente, quindi fai clic su **[!UICONTROL Add data]**.
+1. Passare a Adobe Experience Platform **[!UICONTROL Sources]**, cercare l&#39;origine **[!UICONTROL HTTP API]**, quindi fare clic su **[!UICONTROL Add data]**.
 
    ![](assets/ac-lp-source.png){width="70%"}
 
-1. Configura la connessione in base alle tue esigenze. Informazioni dettagliate su come configurare una connessione API HTTP sono disponibili in [Documentazione sulle origini di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html){target="_blank"}.
+1. Configura la connessione in base alle tue esigenze. Informazioni dettagliate su come configurare una connessione API HTTP sono disponibili nella [documentazione sulle origini di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html){target="_blank"}.
 
-   Alla **[!UICONTROL Authentication]** passaggio, attiva **[!UICONTROL Enable authentication]** opzione per eseguire l’autenticazione utilizzando il token di accesso generato in precedenza tramite l’integrazione OAuth.
+   Al passaggio **[!UICONTROL Authentication]**, attiva l&#39;opzione **[!UICONTROL Enable authentication]** per eseguire l&#39;autenticazione utilizzando il token di accesso generato in precedenza tramite l&#39;integrazione OAuth.
 
    ![](assets/ac-lp-source-authentication.png){width="70%"}
 
@@ -66,7 +66,7 @@ Una volta stabilita la connessione OAuth, il passaggio successivo consiste nel c
 
    ![](assets/ac-lp-endpoint.png){width="70%"}
 
-   Puoi anche accedere a un esempio del formato dei dati acquisito in Adobe Experience Platform aprendo il flusso di dati appena creato da **[!UICONTROL Dataflows]** scheda.
+   È inoltre possibile accedere a un esempio del formato dati acquisito in Adobe Experience Platform aprendo il flusso di dati appena creato dalla scheda **[!UICONTROL Dataflows]**.
 
    ![](assets/ac-lp-schema.png){width="70%"}
 
@@ -74,16 +74,16 @@ Ora che la connessione HTTP API Source è configurata, è necessario aggiungere 
 
 ## Aggiungere opzioni di autenticazione in Adobe Campaign {#xtk}
 
-Una volta configurata la connessione HTTP API Source, è necessario aggiungere opzioni specifiche in Adobe Campaign per abilitare la connessione con Adobe Experience Platform. Questa operazione può essere eseguita nel menu Amministrazione campagna oppure durante l’esecuzione del flusso di lavoro della pagina di destinazione aggiungendo un **[!UICONTROL JavaScript code]** attività.
+Una volta configurata la connessione HTTP API Source, è necessario aggiungere opzioni specifiche ad Adobe Campaign per abilitare la connessione a Adobe Experience Platform. Questa operazione può essere eseguita nel menu Amministrazione campagna oppure durante l&#39;esecuzione del flusso di lavoro della pagina di destinazione aggiungendo un&#39;attività **[!UICONTROL JavaScript code]** specifica.
 
 Sfoglia le schede seguenti per scoprire i due metodi:
 
 >[!BEGINTABS]
 
->[!TAB Aggiungere opzioni dal menu Amministrazione]
+>[!TAB Aggiungi opzioni dal menu Amministrazione]
 
-1. Accedi a **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**  menu.
-1. Aggiungi le seguenti opzioni con i valori corrispondenti dalla console Adobe Developer:
+1. Passare al menu **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**.
+1. Aggiungi le seguenti opzioni con i valori corrispondenti da Adobe Developer Console:
 
    * IMS_CLIENT_ID = cryptString(CLIENT ID)
    * IMS_CLIENT_SECRET = cryptString(CLIENT SECRET)
@@ -96,9 +96,9 @@ Sfoglia le schede seguenti per scoprire i due metodi:
    >
    >La funzione cryptString() viene utilizzata per crittografare i dati di autenticazione.
 
->[!TAB Aggiungere opzioni utilizzando un’attività di codice JavaScript]
+>[!TAB Aggiungi opzioni tramite un&#39;attività codice JavaScript]
 
-Per configurare automaticamente queste opzioni durante l’esecuzione del flusso di lavoro delle pagine di destinazione, aggiungi una **[!UICONTROL JavaScript code]** al flusso di lavoro con il codice seguente. [Scopri come configurare un’attività di codice JavaScript](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html#JavaScript-code){target="_blank"}.
+Per configurare automaticamente queste opzioni durante l&#39;esecuzione del flusso di lavoro delle pagine di destinazione, aggiungere un&#39;attività **[!UICONTROL JavaScript code]** al flusso di lavoro con il codice seguente. [Scopri come configurare un&#39;attività codice JavaScript](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html#JavaScript-code){target="_blank"}.
 
 Durante l’esecuzione del flusso di lavoro, le opzioni vengono create automaticamente nella console Campaign con i valori forniti.
 
@@ -110,13 +110,13 @@ Durante l’esecuzione del flusso di lavoro, le opzioni vengono create automatic
     
     function setAuthCredentials()
     {
-    setOption(&quot;IMS_CLIENT_ID&quot;, cryptString(&#39;CLIENT ID&#39;);
-    setOption(&quot;IMS_CLIENT_SECRET&quot;, cryptString(&#39;CLIENT SECRET&#39;));
-    setOption(&quot;IMS_ORG_ID&quot;, cryptString(&quot;ORGANIZATION ID&quot;));
-    setOption(&quot;IMS_CLIENT_API_KEY&quot;, cryptString(&quot;CLIENT ID&quot;);
+    setOption(&quot;IMS_CLIENT_ID&quot;, cryptString(&#39;CLIENT ID&#39;));
+    setOption(&quot;IMS_CLIENT_SECRET&quot;, cryptString(&#39;CLIENT SECRET&#39;);}setOption(&quot;IMS_ORG_ID&quot;, cryptString(&#39;ORGANIZATION ID&#39;);
+    setOption(&quot;IMS_CLIENT_API_KEY&quot;, cryptString(&#39;CLIENT ID&#39;));
     }
     &quot;
 
+    
 >[!ENDTABS]
 
 Ora che in Campaign sono configurate le opzioni di autenticazione, devi creare codici JavaScript personalizzati per consentire la sincronizzazione dei dati tra Campaign e Adobe Experience Platform dalla pagina di destinazione.
@@ -125,8 +125,8 @@ Ora che in Campaign sono configurate le opzioni di autenticazione, devi creare c
 
 Per consentire la sincronizzazione dei dati tra le pagine di destinazione e Adobe Experience Platform, è necessario aggiungere codici JavaScript personalizzati ad Adobe Campaign. Segui questi passaggi:
 
-1. Accedi a **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL JavaScript codes]** menu.
-1. Crea nuovi codici JavaScript e copia e incolla i seguenti snippet.
+1. Passare al menu **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL JavaScript codes]**.
+1. Crea nuovi codici JavaScript e copia e incolla i frammenti seguenti.
 
    >[!NOTE]
    >
@@ -209,9 +209,9 @@ Ora che i codici JavaScript personalizzati sono stati creati in Adobe Campaign, 
 
 ## Configurare il flusso di lavoro per la pagina di destinazione {#script}
 
-Aggiungendo i codici JavaScript ad Adobe Campaign, puoi sfruttarli nel flusso di lavoro della pagina di destinazione utilizzando **[!UICONTROL JavaScript code]** attività:
+Con i codici JavaScript aggiunti ad Adobe Campaign, puoi sfruttarli nel flusso di lavoro della pagina di destinazione utilizzando **[!UICONTROL JavaScript code]** attività:
 
-* Per caricare i dati dall’Experience Platform prima di caricare la pagina di destinazione, aggiungi un **[!UICONTROL JavaScript code]** attività prima dell’attività della pagina di destinazione e copia e incolla Script 1.
+* Per caricare i dati dall&#39;Experience Platform prima di caricare la pagina di destinazione, aggiungi un&#39;attività **[!UICONTROL JavaScript code]** prima dell&#39;attività della pagina di destinazione e copia e incolla lo script 1.
 
 +++ Script 1 - Caricare gli attributi del profilo dall&#39;Experience Platform
 
@@ -251,7 +251,7 @@ Aggiungendo i codici JavaScript ad Adobe Campaign, puoi sfruttarli nel flusso di
 
 +++
 
-* Per aggiornare gli attributi del profilo di Experience Platform con i dati inviati nella pagina di destinazione, aggiungi un **[!UICONTROL JavaScript code]** attività dopo l’attività della pagina di destinazione e copia e incolla Script 2.
+* Per aggiornare gli attributi del profilo di Experience Platform con i dati inviati nella pagina di destinazione, aggiungi un&#39;attività **[!UICONTROL JavaScript code]** dopo l&#39;attività della pagina di destinazione e copia e incolla lo script 2.
 
 +++ Script 2 - Aggiornare gli attributi del profilo di Experience Platform
 
@@ -335,7 +335,7 @@ Di seguito è riportato un flusso di lavoro di esempio che utilizza le attività
 
 ![](assets/ac-lp-wkf.png){width="70%"}
 
-Di seguito è riportato un esempio di pagina di destinazione e di attività di codice JavaScript configurate per aggiornare gli attributi del profilo in Adobe Experience Platform:
+Di seguito è riportato un esempio di pagina di destinazione e di attività codice JavaScript configurate per aggiornare gli attributi del profilo in Adobe Experience Platform:
 
 ![](assets/ac-lp-example.png){width="70%"}
 
@@ -344,5 +344,5 @@ Di seguito è riportato un esempio di pagina di destinazione e di attività di c
 ### Ulteriori informazioni
 
 * [Configurare un’attività di codice JavaScript](../../automation/workflow/sql-code-and-javascript-code.md#javascript-code)
-* [Creare una pagina di destinazione](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/creating-a-landing-page.html){target="_blank"}
+* [Crea una pagina di destinazione](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/creating-a-landing-page.html){target="_blank"}
 * [Gestire gli abbonamenti e il loro annullamento](../start/subscriptions.md)

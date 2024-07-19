@@ -24,7 +24,7 @@ Ad esempio, puoi utilizzare un’attività AND-join nel contesto della creazione
 
 >[!NOTE]
 >
->Tieni presente che le transizioni in entrata configurate con dimensioni di targeting diverse non possono essere unite tra loro utilizzando una **[!UICONTROL AND-join]** attività.
+>Le transizioni in entrata configurate con dimensioni di targeting diverse non possono essere unite insieme utilizzando un&#39;attività **[!UICONTROL AND-join]**.
 
 La popolazione in uscita inviata dell’attività è determinata scegliendo un set principale tra le transizioni in entrata nell’attività.
 
@@ -32,4 +32,4 @@ La transizione in uscita può contenere solo una delle popolazioni di transizion
 
 >[!CAUTION]
 >
->Nel caso di **Unione AND** attività di tipo, le variabili evento vengono unite ma se una stessa variabile viene definita due volte, si verifica un conflitto e il valore rimane indeterminato. Per ulteriori informazioni al riguardo, consulta [questa sezione](javascript-scripts-and-templates.md#event-variables).
+>Nel caso di attività di tipo **AND-join**, le variabili evento vengono unite ma se viene definita due volte la stessa variabile, si verifica un conflitto e il valore rimane indeterminato. Per ulteriori informazioni al riguardo, consulta [questa sezione](javascript-scripts-and-templates.md#event-variables).

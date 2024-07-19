@@ -29,8 +29,8 @@ Per informazioni sulle tabelle integrate di Campaign e sulla loro interazione, c
 
 Per estendere uno schema, effettua le seguenti operazioni:
 
-1. Accedi a **[!UICONTROL Administration > Configuration > Data schemas]** in Esplora risorse.
-1. Fai clic su **Nuovo** e seleziona **[!UICONTROL Extend the data in a table using an extension schema]**.
+1. Passare alla cartella **[!UICONTROL Administration > Configuration > Data schemas]** in Explorer.
+1. Fare clic sul pulsante **Nuovo** e selezionare **[!UICONTROL Extend the data in a table using an extension schema]**.
 
    ![](assets/extend-schema-option.png)
 
@@ -46,7 +46,7 @@ Per estendere uno schema, effettua le seguenti operazioni:
 
    ![](assets/extend-schema-edit.png)
 
-   Nell’esempio seguente, aggiungiamo il **MembershipYear** , imposta un limite di lunghezza per il cognome (questo limite sovrascriverà quello predefinito) e rimuovi la data di nascita dallo schema predefinito.
+   Nell&#39;esempio seguente viene aggiunto l&#39;attributo **MembershipYear**, viene inserito un limite di lunghezza per il cognome (questo limite sovrascriverà quello predefinito) e la data di nascita viene rimossa dallo schema predefinito.
 
    ![](assets/extend-schema-sample.png)
 
@@ -62,7 +62,7 @@ Per estendere uno schema, effettua le seguenti operazioni:
    </srcSchema>
    ```
 
-1. Disconnettiti e riconnettiti a Campaign per verificare l’aggiornamento della struttura dello schema in **[!UICONTROL Structure]** scheda.
+1. Disconnettersi e riconnettersi a Campaign per verificare l’aggiornamento della struttura dello schema nella scheda **[!UICONTROL Structure]**.
 
    ![](assets/extend-schema-structure.png)
 

@@ -56,7 +56,7 @@ A partire dalla versione 8.6, tutte le versioni di Campaign v8 non supporteranno
 
 +++Come si esegue l&#39;aggiornamento dal sistema operativo Windows (32 bit) al sistema operativo Windows (64 bit)?
 
-Verificare che il processore del computer supporti l&#39;installazione di un sistema operativo a 64 bit. L&#39;aggiornamento dalla versione a 32 bit alla versione a 64 bit di Windows richiede la riformattazione del disco rigido, l&#39;installazione della versione a 64 bit di Windows e quindi la reinstallazione di tutti gli altri elementi presenti nel dispositivo. Per ulteriori informazioni, consulta [Windows a 32 bit e a 64 bit: domande frequenti](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d){target="_blank"}.
+Verificare che il processore del computer supporti l&#39;installazione di un sistema operativo a 64 bit. L&#39;aggiornamento dalla versione a 32 bit alla versione a 64 bit di Windows richiede la riformattazione del disco rigido, l&#39;installazione della versione a 64 bit di Windows e quindi la reinstallazione di tutti gli altri elementi presenti nel dispositivo. Per ulteriori informazioni, vedere [Windows a 32 bit e 64 bit: domande frequenti](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d){target="_blank"}.
 
 +++
 

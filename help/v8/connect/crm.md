@@ -29,11 +29,11 @@ I principali vantaggi sono:
 
 >[!NOTE]
 >
->Questa funzione è disponibile in Adobe Campaign tramite **Connettori CRM** pacchetto dedicato.
+>Questa funzione è disponibile in Adobe Campaign tramite il pacchetto dedicato **Connettori CRM**.
 
 ## Sistemi compatibili {#compatible-crm-systems-and-limitations}
 
-Il CRM e le versioni supportate sono descritti in dettaglio in Campaign [Matrice di compatibilità](../start/compatibility-matrix.md).
+Il CRM e le versioni supportate sono descritti in dettaglio nella [Matrice di compatibilità](../start/compatibility-matrix.md) della campagna.
 
 >[!CAUTION]
 >
@@ -41,8 +41,8 @@ Il CRM e le versioni supportate sono descritti in dettaglio in Campaign [Matrice
 
 ## Passaggi di implementazione {#crm-implementation-steps}
 
-Scopri la procedura dettagliata per collegare Campaign e Microsoft Dynamics in [questa pagina](ac-ms-dyn.md).
+Scopri la procedura dettagliata per connettere Campaign e Microsoft Dynamics in [questa pagina](ac-ms-dyn.md).
 
-Scopri la procedura dettagliata per collegare Campaign e Salesforce.com in [questa pagina](ac-sfdc.md).
+Scopri la procedura dettagliata per connettere Campaign e Salesforce.com in [questa pagina](ac-sfdc.md).
 
 La sincronizzazione dei dati tra Adobe Campaign e il sistema CRM viene eseguita tramite un’attività del flusso di lavoro dedicata. Crea i flussi di lavoro per automatizzare la sincronizzazione tra Campaign e il tuo sistema CRM. Puoi creare un flusso di lavoro che importa i contatti tramite Microsoft Dynamics, li sincronizza con i dati esistenti di Adobe Campaign, elimina i contatti duplicati e quindi aggiorna il database di Adobe Campaign. Per ulteriori informazioni, consulta [questa pagina](crm-data-sync.md).

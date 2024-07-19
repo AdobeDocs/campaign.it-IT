@@ -16,7 +16,7 @@ ht-degree: 2%
 
 # Problemi noti{#known-issues}
 
-In questa pagina sono elencati i problemi noti identificati in **ultime versioni di Campaign v8**. Inoltre, sono elencate le limitazioni di Campaign v8 [in questa pagina](ac-guardrails.md).
+In questa pagina sono elencati i problemi noti identificati nelle **ultime versioni di Campaign v8**. Inoltre, le limitazioni di Campaign v8 sono elencate [in questa pagina](ac-guardrails.md).
 
 
 >[!NOTE]
@@ -25,11 +25,11 @@ In questa pagina sono elencati i problemi noti identificati in **ultime versioni
 
 ## Campaign v8.3.8{#8.3-issues}
 
-### Cambia problema di attività dell’origine dati {#issue-2}
+### Cambia problema di attività di Data Source {#issue-2}
 
 #### Descrizione{#issue-2-desc}
 
-Quando si inseriscono dati in un database cloud di Snowflake con una campagna **Query** e un **Cambia origine dati** se nei dati è presente un carattere barra rovesciata, il processo non riesce. La stringa di origine non ha escape e i dati non vengono elaborati correttamente nel Snowflake.
+Quando si inseriscono dati in un database cloud di Snowflake con un&#39;attività **Query** di Campaign e **Change Data Source**, il processo non riesce se nei dati è presente un carattere barra rovesciata. La stringa di origine non ha escape e i dati non vengono elaborati correttamente nel Snowflake.
 
 Questo problema si verifica solo se il carattere barra rovesciata si trova alla fine della stringa, ad esempio: `Barker\`.
 
@@ -37,9 +37,9 @@ Questo problema si verifica solo se il carattere barra rovesciata si trova alla 
 #### Passaggi di riproduzione{#issue-2-repro}
 
 1. Connettiti alla console client e crea un flusso di lavoro.
-1. Aggiungi un **Query** e configurarlo.
+1. Aggiungi un&#39;attività **Query** e configurala.
 1. Seleziona i dati con le caratteristiche descritte in precedenza.
-1. Aggiungi un **Cambia origine dati** e configurarlo per selezionare Snowflake cloud database.
+1. Aggiungi un&#39;attività **Modifica dati Source** e configurala per selezionare il database cloud di Snowflake.
 1. Esegui il flusso di lavoro e controlla i registri del flusso di lavoro per visualizzare l’errore.
 
 
@@ -65,15 +65,15 @@ Riferimento: NEO-45549
 
 #### Descrizione{#issue-3-desc}
 
-Quando si carica un file sul server Campaign con un **Caricamento dati (file)** il processo si arresta al 100% ma non termina mai.
+Quando si carica un file sul server Campaign con un&#39;attività **Caricamento dati (file)**, il processo si arresta al 100% ma non termina mai.
 
 #### Passaggi di riproduzione{#issue-3-repro}
 
 1. Connettiti alla console client e crea un flusso di lavoro.
-1. Aggiungi un **Caricamento dati (file)** e configurarlo.
-1. Seleziona la **Carica sul server** opzione.
+1. Aggiungi un&#39;attività **Caricamento dati (file)** e configurala.
+1. Selezionare l&#39;opzione **Carica sul server**.
 1. Selezionare il file sul computer locale,
-1. Clic **Carica**
+1. Fai clic su **Carica**
 
 
 #### Messaggio di errore{#issue-3-error}
@@ -84,7 +84,7 @@ Il processo non termina mai.
 
 La soluzione consiste nell’utilizzare una console client precedente. Potrai quindi caricare il file sul server.
 
-In qualità di amministratore di Campaign, puoi scaricare la console client di Campaign v8.3.1 in [Distribuzione di software di Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&amp;1_group.propertyvalues.operation=equals&amp;1_group.propertyvalues.0_values=versione-destinazione%3Acampaign%2F8&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;orderby.sort=desc&amp;layout=list&amp;p.offset=0&amp;p.limit=4){target="_blank"}.
+In qualità di amministratore di Campaign, puoi scaricare la console del client Campaign v8.3.1 in [Distribuzione di software di Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&amp;1_group.propertyvalues.operation=equals&amp;1_group.propertyvalues.0_values=versione-destinazione%3Acampaign%2F8&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;orderby.sort=desc&amp;layout=list&amp;p.offset=0&amp;p.limit=4){target="_blank"}.
 
 Scopri come accedere a Adobe Software Distribution [in questa pagina](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=it){target="_blank"}.
 

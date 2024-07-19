@@ -14,24 +14,24 @@ ht-degree: 1%
 
 # Profilo di consegna{#delivery-outline}
 
-Il **struttura della consegna** consente di utilizzare una struttura in un flusso di lavoro della campagna. La struttura deve essere stata creata in precedenza nella campagna.
+La **struttura di consegna** ti consente di utilizzare una struttura in un flusso di lavoro della campagna. La struttura deve essere stata creata in precedenza nella campagna.
 
 Per configurare l’attività, è sufficiente selezionare la struttura desiderata e la data di contatto pianificata. Puoi aggiungere regole di filtro aggiungendo tipologie o regole di tipologia.
 
 ## Esempio: inserimento di un’offerta tramite una struttura di consegna {#example--inserting-an-offer-via-a-delivery-outline}
 
-Il **struttura della consegna** l’attività, disponibile nei flussi di lavoro della campagna, ti consente di presentare le offerte a cui si fa riferimento in una struttura di consegna dalla campagna corrente in corso.
+L&#39;attività **struttura consegna**, disponibile nei flussi di lavoro della campagna, consente di presentare le offerte a cui si fa riferimento in una struttura di consegna della campagna corrente in corso.
 
 >[!NOTE]
 >
->Il **Interazione** deve essere installato.
+>È necessario installare il pacchetto **Interaction**.
 
 1. In un flusso di lavoro, aggiungi un’attività di struttura della consegna prima di aggiungerla.
 1. Nell’attività di struttura della consegna, specifica la struttura da utilizzare.
 1. Completa i campi disponibili in base alla consegna.
 1. Esistono due casi possibili:
 
-   * Se desideri chiamare il motore di offerta, seleziona la **[!UICONTROL Restrict the number of propositions selected]** casella. Specifica lo spazio dell’offerta e il numero di proposte che verranno presentate nella consegna.
+   * Se desideri chiamare il motore di offerta, seleziona la casella **[!UICONTROL Restrict the number of propositions selected]**. Specifica lo spazio dell’offerta e il numero di proposte che verranno presentate nella consegna.
 
      Il motore di offerta terrà conto dei pesi delle offerte e delle regole di idoneità.
 

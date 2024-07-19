@@ -20,14 +20,14 @@ L’analisi è il passaggio di preparazione della consegna. Può essere avviato 
 
 Per preparare la consegna, assicurati che il contenuto e il target della consegna siano stati definiti e segui i passaggi seguenti:
 
-1. Dalle finestre di consegna, fai clic su **[!UICONTROL Send]** pulsante.
-1. Seleziona **[!UICONTROL Deliver as soon as possible]** per eseguire il calcolo del pubblico e la preparazione dei contenuti per un invio immediato. Puoi anche posticipare la consegna a una data successiva, oppure ottenere una stima della popolazione senza preparare il contenuto.
+1. Dalle finestre di consegna, fare clic sul pulsante **[!UICONTROL Send]**.
+1. Selezionare **[!UICONTROL Deliver as soon as possible]** per eseguire il calcolo del pubblico e la preparazione del contenuto per un invio immediato. Puoi anche posticipare la consegna a una data successiva, oppure ottenere una stima della popolazione senza preparare il contenuto.
 
    ![](assets/delivery-analysis-start.png)
 
-1. Clic **[!UICONTROL Analyze]** per avviare l&#39;analisi manualmente. La barra di avanzamento mostra lo stato di avanzamento dell’analisi.
+1. Fare clic su **[!UICONTROL Analyze]** per avviare l&#39;analisi manualmente. La barra di avanzamento mostra lo stato di avanzamento dell’analisi.
 
-   Durante l’analisi della consegna viene applicata una serie di regole di controllo. Queste regole sono definite in un **tipologia**, selezionato nella **[!UICONTROL Typology]** nelle proprietà di consegna. Ulteriori informazioni sulle tipologie in [questa sezione](../../automation/campaign-opt/campaign-typologies.md).
+   Durante l’analisi della consegna viene applicata una serie di regole di controllo. Queste regole sono definite in una **tipologia**, selezionata nella scheda **[!UICONTROL Typology]** nelle proprietà di consegna. Ulteriori informazioni sulle tipologie in [questa sezione](../../automation/campaign-opt/campaign-typologies.md).
 
    Per impostazione predefinita, per le e-mail, l’analisi tratta i seguenti punti:
 
@@ -40,7 +40,7 @@ Per preparare la consegna, assicurati che il contenuto e il target della consegn
    * Controllo della programmazione delle ondate
 
 
-1. È possibile interrompere l’analisi in qualsiasi momento facendo clic sul pulsante **[!UICONTROL Stop]** pulsante.
+1. È possibile interrompere l&#39;analisi in qualsiasi momento facendo clic sul pulsante **[!UICONTROL Stop]**.
 
    Durante la fase di preparazione non vengono inviati messaggi. È quindi possibile avviare o annullare l’analisi senza rischi.
 
@@ -56,27 +56,27 @@ Per preparare la consegna, assicurati che il contenuto e il target della consegn
 
    ![](assets/delivery-analysis-results.png){width="800" align="left"}
 
-1. Clic **[!UICONTROL Close]** per correggere gli eventuali errori. Dopo aver apportato le modifiche, riavvia l’analisi facendo clic su **[!UICONTROL Analyze]**.
+1. Fare clic su **[!UICONTROL Close]** per correggere gli eventuali errori. Dopo aver apportato le modifiche, riavviare l&#39;analisi facendo clic su **[!UICONTROL Analyze]**.
 
    >[!NOTE]
    >
-   >Fai clic su **[!UICONTROL Change the main delivery target]** collega se il numero di messaggi da inviare non corrisponde alle tue aspettative. Questa opzione consente di modificare la definizione della popolazione target e riavviare l’analisi.
+   >Fare clic sul collegamento **[!UICONTROL Change the main delivery target]** se il numero di messaggi da inviare non corrisponde alle aspettative. Questa opzione consente di modificare la definizione della popolazione target e riavviare l’analisi.
    >
 
-1. Dopo aver verificato il risultato dell&#39;analisi, fate clic su **[!UICONTROL Confirm delivery]** per inviare il messaggio al target principale.
+1. Dopo aver verificato il risultato dell&#39;analisi, fare clic su **[!UICONTROL Confirm delivery]** per inviare il messaggio alla destinazione principale.
 
 
 ## Impostazioni analisi {#analysis-settings}
 
-Accedi a **[!UICONTROL Analysis]** delle proprietà di consegna per definire le impostazioni per la preparazione dei messaggi durante la fase di analisi.
+Passa alla scheda **[!UICONTROL Analysis]** delle proprietà di consegna per definire le impostazioni per la preparazione dei messaggi durante la fase di analisi.
 
 ![](assets/delivery-properties-analysis-tab.png){width="800" align="left"}
 
 Questa scheda consente di accedere alle seguenti opzioni:
 
-* **[!UICONTROL Label and code of the delivery]** : le opzioni presenti in questa sezione vengono utilizzate per calcolare i valori di questi campi durante la fase di analisi della consegna. Il **[!UICONTROL Compute the execution folder during the delivery analysis]** calcola il nome della cartella che conterrà questa azione di consegna durante la fase di analisi.
+* **[!UICONTROL Label and code of the delivery]** : le opzioni in questa sezione vengono utilizzate per calcolare i valori di questi campi durante la fase di analisi della consegna. Il campo **[!UICONTROL Compute the execution folder during the delivery analysis]** calcola il nome della cartella che conterrà questa azione di consegna durante la fase di analisi.
 
-* **[!UICONTROL Approval mode]** : questo campo ti consente di definire la consegna manuale o automatica una volta completata l’analisi.
+* **[!UICONTROL Approval mode]** : questo campo consente di definire la consegna manuale o automatica una volta completata l&#39;analisi.
 
   Se durante l’analisi vengono generati avvisi (ad esempio, se determinati caratteri sono accentuati nell’oggetto della consegna, ecc.), puoi configurare la consegna per definire se deve ancora essere eseguita. Per impostazione predefinita, l’utente deve confermare l’invio di messaggi al termine della fase di analisi: si tratta di convalida **manuale**.
 
@@ -84,10 +84,10 @@ Questa scheda consente di accedere alle seguenti opzioni:
 
   Sono disponibili le seguenti modalità di approvazione:
 
-   * **[!UICONTROL Manual]**: al termine della fase di analisi, l’utente deve confermare la consegna per iniziare l’invio. A questo scopo, fai clic su **[!UICONTROL Start]** per avviare la consegna.
-   * **[!UICONTROL Semi-automatic]**: l’invio inizia automaticamente se la fase di analisi non genera messaggi di avviso.
-   * **[!UICONTROL Automatic]**: l’invio inizia automaticamente alla fine della fase di analisi, indipendentemente dal suo risultato.
+   * **[!UICONTROL Manual]**: al termine della fase di analisi, l&#39;utente deve confermare la consegna per iniziare l&#39;invio. A tale scopo, fare clic sul pulsante **[!UICONTROL Start]** per avviare la consegna.
+   * **[!UICONTROL Semi-automatic]**: l&#39;invio inizia automaticamente se la fase di analisi non genera messaggi di avviso.
+   * **[!UICONTROL Automatic]**: l&#39;invio inizia automaticamente alla fine della fase di analisi indipendentemente dal risultato.
 
-* **[!UICONTROL Start job in a detached process]** : questa opzione ti consente di avviare l’analisi della consegna in un processo separato. Per impostazione predefinita, la funzione di analisi utilizza il processo del server applicazioni di Adobe Campaign (web nlserver). Selezionando questa opzione, l&#39;analisi verrà completata anche in caso di errore del server applicazioni.
+* **[!UICONTROL Start job in a detached process]** : questa opzione consente di avviare l&#39;analisi della consegna in un processo separato. Per impostazione predefinita, la funzione di analisi utilizza il processo del server applicazioni di Adobe Campaign (web nlserver). Selezionando questa opzione, l&#39;analisi verrà completata anche in caso di errore del server applicazioni.
 * **[!UICONTROL Log SQL queries generated during the analysis in the journal]** : questa opzione aggiunge i registri di query SQL al giornale di registrazione di consegna durante la fase di analisi.
-* **[!UICONTROL Ignore personalization scripts during sending]** : questa opzione consente di ignorare l’interpretazione delle direttive JavaScript presenti nel contenuto di HTML. Vengono visualizzati così come sono nel contenuto consegnato. Queste direttive sono introdotte con il `<%=` tag.
+* **[!UICONTROL Ignore personalization scripts during sending]** : questa opzione consente di ignorare l&#39;interpretazione delle direttive di JavaScript presenti nel contenuto di HTML. Vengono visualizzati così come sono nel contenuto consegnato. Queste direttive sono state introdotte con il tag `<%=`.

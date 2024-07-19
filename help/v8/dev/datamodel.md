@@ -18,30 +18,30 @@ Adobe Campaign viene fornito con un modello dati predefinito. Questa sezione for
 
 La struttura di base del modello dati di Adobe Campaign può essere descritta come segue:
 
-* **Tabella destinatari**: il modello dati si basa su una tabella principale che è, per impostazione predefinita, la tabella Destinatario (**nmsRecipient**). Questa tabella memorizza tutti i profili di marketing. Ulteriori informazioni sulla tabella dei destinatari in [questa sezione](#ootb-profiles).
+* **Tabella destinatari**: il modello dati si basa su una tabella principale che per impostazione predefinita è la tabella destinatari (**nmsRecipient**). Questa tabella memorizza tutti i profili di marketing. Ulteriori informazioni sulla tabella dei destinatari in [questa sezione](#ootb-profiles).
 
-* **Tabella di consegna**: questa tabella memorizza un record per azione di consegna. Di solito si tratta della tabella Delivery (**NmsDelivery**). in questa tabella rappresenta un’azione di consegna o un modello di consegna. Contiene tutti i parametri necessari per eseguire le consegne come destinazione, contenuto, ecc. Ogni record viene aggiornato diverse volte per riflettere l’avanzamento della consegna
+* **Tabella di consegna**: in questa tabella viene memorizzato un record per azione di consegna. Di solito si tratta della tabella di consegna (**NmsDelivery**). in questa tabella rappresenta un’azione di consegna o un modello di consegna. Contiene tutti i parametri necessari per eseguire le consegne come destinazione, contenuto, ecc. Ogni record viene aggiornato diverse volte per riflettere l’avanzamento della consegna
 
-* **Tabelle dei registri**: queste tabelle memorizzano tutti i registri associati all’esecuzione delle campagne.
+* **Tabelle dei registri**: queste tabelle memorizzano tutti i registri associati all&#39;esecuzione delle campagne.
 
-   * I registri di consegna sono tutti messaggi inviati a destinatari o dispositivi su tutti i canali. La tabella dei registri di consegna principale (**NmsBroadLogRcp**) contiene i registri di consegna per tutti i destinatari.
-   * Il **nmsBroadlog** tabella è la tabella più grande del sistema. Memorizza un record per messaggio inviato e questi record vengono inseriti, aggiornati per tenere traccia dello stato di consegna ed eliminati quando la cronologia viene eliminata.
+   * I registri di consegna sono tutti messaggi inviati a destinatari o dispositivi su tutti i canali. La tabella principale dei registri di consegna (**NmsBroadLogRcp**) contiene i registri di consegna per tutti i destinatari.
+   * La tabella **nmsBroadlog** è la più grande del sistema. Memorizza un record per messaggio inviato e questi record vengono inseriti, aggiornati per tenere traccia dello stato di consegna ed eliminati quando la cronologia viene eliminata.
    * La tabella principale dei registri di tracciamento (**NmsTrackingLogRcp**) memorizza i registri di tracciamento per tutti i destinatari. I registri di tracciamento si riferiscono alle reazioni dei destinatari, ad esempio aperture delle e-mail e clic. Ogni reazione corrisponde a un registro di tracciamento.
 
   I registri di consegna e di tracciamento vengono eliminati dopo un determinato periodo di tempo, specificato in Adobe Campaign, che può essere modificato. Pertanto, si consiglia vivamente di esportare i registri su base regolare.
 
-* **Tabelle tecniche**: raccogli i dati tecnici utilizzati per il processo applicativo, inclusi gli operatori e i diritti utente (**xtkGroup**), sessioni utente (**xtkSessionInfo**), cartelle nella struttura dell&#39;elenco delle cartelle (**XtkFolder**), flussi di lavoro (**xtkWorkflow**) e altro ancora.
+* **Tabelle tecniche**: raccogliere i dati tecnici utilizzati per il processo applicativo, inclusi gli operatori e i diritti utente (**xtkGroup**), le sessioni utente (**xtkSessionInfo**), le cartelle nella struttura dell&#39;elenco delle cartelle (**XtkFolder**), i flussi di lavoro (**xtkWorkflow**) e altro ancora.
 
 >[!NOTE]
 >
->Per accedere alla descrizione di ogni tabella, selezionare **Amministrazione > Configurazione > Schemi dati**, seleziona una risorsa dall’elenco e fai clic sul pulsante **Documentazione** scheda.
+>Per accedere alla descrizione di ogni tabella, passa a **Amministrazione > Configurazione > Schemi dati**, seleziona una risorsa dall&#39;elenco e fai clic sulla scheda **Documentazione**.
 
 Quando si inizia con Adobe Campaign, è necessario valutare il modello dati predefinito per verificare quale tabella è più adatta per memorizzare i dati di marketing.
 
 È possibile utilizzare la tabella Destinatario predefinita con i campi predefiniti, come descritto in [questa sezione](#ootb-profiles). Se necessario, è possibile estenderlo con due meccanismi:
 
 * [Estendere una tabella esistente](extend-schema.md) con nuovi campi. Ad esempio, puoi aggiungere un nuovo campo &quot;Fedeltà&quot; alla tabella Destinatario.
-* [Crea una nuova tabella](create-schema.md), ad esempio una tabella &quot;Purchase&quot; in cui sono elencati tutti gli acquisti effettuati da ciascun profilo del database, quindi collegarla alla tabella Recipient.
+* [Creare una nuova tabella](create-schema.md), ad esempio una tabella &quot;Acquisti&quot; in cui sono elencati tutti gli acquisti effettuati da ciascun profilo del database e collegarla alla tabella Destinatario.
 
 Scopri le best practice per l’utilizzo del modello dati di Campaign in [questa sezione](datamodel-best-practices.md).
 
@@ -60,15 +60,15 @@ L’utilizzo della tabella dei destinatari standard offre i seguenti vantaggi:
 
 Scopri come estendere uno schema esistente in [questa sezione](extend-schema.md).
 
-Scopri esempi di estensioni della tabella dei destinatari incorporate in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#extending-a-table){target="_blank"}
+Scopri alcuni esempi di estensioni della tabella dei destinatari incorporate nella documentazione di [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#extending-a-table){target="_blank"}
 
 È inoltre possibile utilizzare una tabella dei destinatari diversa per soddisfare meglio i requisiti aziendali o funzionali. Questo metodo presenta limitazioni ed è descritto in [questa sezione](custom-recipient.md).
 
 ## Tabelle di Campaign e database cloud
 
-Per una migliore comprensione della gestione delle tabelle in Campaign v8, tieni presente che, nel contesto di un’ [Distribuzione aziendale (FFDA)](../architecture/enterprise-deployment.md), le tabelle vengono replicate tra Campaign e il relativo database Cloud di Snowflake.
+Per comprendere meglio la gestione delle tabelle in Campaign v8, tieni presente che, nel contesto di una distribuzione [Enterprise (FFDA)](../architecture/enterprise-deployment.md), le tabelle vengono replicate tra Campaign e il relativo database Snowflake Cloud.
 
-Ulteriori informazioni sulla strategia e sui meccanismi di replica in [questa sezione](../architecture/replication.md).
+Ulteriori informazioni sulla strategia e sui meccanismi di replica sono disponibili in [questa sezione](../architecture/replication.md).
 
 **Argomenti correlati**
 

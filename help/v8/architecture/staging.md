@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Meccanismo di staging per le API di Campaign
 
-Nell&#39;ambito di una [Distribuzione aziendale (FFDA)](enterprise-deployment.md), le chiamate unitarie di esplosione non sono consigliate per quanto riguarda le prestazioni (latenza e concorrenza). L&#39;operazione batch è sempre preferibile. Per migliorare le prestazioni, le API di acquisizione vengono reindirizzate al database locale.
+Nel contesto di un&#39;implementazione [Enterprise (FFDA)](enterprise-deployment.md), la generazione di chiamate unitarie non è consigliata per quanto riguarda le prestazioni (latenza e concorrenza). L&#39;operazione batch è sempre preferibile. Per migliorare le prestazioni, le API di acquisizione vengono reindirizzate al database locale.
 
 La funzionalità di staging di Campaign è abilitata per impostazione predefinita su alcuni schemi incorporati. Possiamo anche abilitarlo su qualsiasi schema personalizzato. Meccanismo di staging in breve:
 
@@ -28,7 +28,7 @@ Le API di Campaign Classic v7 sono ancora disponibili, ma non possono beneficiar
 
 >[!CAUTION]
 >
->* Con questo nuovo meccanismo, è ora possibile sincronizzare i dati per opt-out del canale, abbonamenti, annullamenti di abbonamenti o registrazione mobile **asincrono**.
+>* Con questo nuovo meccanismo, la sincronizzazione dei dati per rinuncia al canale, abbonamenti, annullamenti di abbonamenti o registrazione mobile è ora **asincrona**.
 >
 >* La gestione temporanea si applica solo agli schemi memorizzati nel database cloud. Non abilitare la gestione temporanea negli schemi replicati. Non abilitare Gestione temporanea negli schemi locali. Non abilitare la gestione temporanea in uno schema in attesa
 >
@@ -56,7 +56,7 @@ Per implementare il meccanismo di staging di Campaign su una tabella specifica, 
 
 1. Salva e aggiorna la struttura del database.  [Ulteriori informazioni](../dev/update-database-structure.md)
 
-1. Abilita il meccanismo di staging nella definizione dello schema aggiungendo **autoStg=&quot;true&quot;** parametro.
+1. Abilita il meccanismo di staging nella definizione dello schema aggiungendo il parametro **autoStg=&quot;true&quot;**.
 
    ```
    <srcSchema _cs="Sample Table (dem)" "YYYY-DD-MM"

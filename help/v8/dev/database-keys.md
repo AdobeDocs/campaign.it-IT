@@ -26,7 +26,7 @@ Una chiave viene dichiarata dall’elemento principale dello schema di dati.
 </key>
 ```
 
-Una chiave è nota come &quot;chiave primaria&quot; quando è la prima dello schema a essere compilata, o se contiene `internal` attributo impostato su &quot;true&quot;.
+Una chiave è nota come &quot;chiave primaria&quot; quando è la prima dello schema a essere compilata o se contiene l&#39;attributo `internal` impostato su &quot;true&quot;.
 
 Una chiave può fare riferimento a uno o più campi della tabella.
 
@@ -108,7 +108,7 @@ Una chiave può fare riferimento a uno o più campi della tabella.
 
 ## Chiave primaria - Identificatore{#primary-key}
 
-Nell&#39;ambito di una [Distribuzione aziendale (FFDA)](../architecture/enterprise-deployment.md), la chiave primaria delle tabelle di Adobe Campaign è un **ID universalmente univoco (UUID)** generato automaticamente dal motore di database. Il valore chiave è univoco nell&#39;intero database. Il contenuto della chiave viene generato automaticamente all’inserimento del record.
+Nel contesto di una distribuzione [Enterprise (FFDA)](../architecture/enterprise-deployment.md), la chiave primaria delle tabelle di Adobe Campaign è un **ID universalmente univoco (UUID)** generato automaticamente dal motore di database. Il valore chiave è univoco nell&#39;intero database. Il contenuto della chiave viene generato automaticamente all’inserimento del record.
 
 **Esempio**
 

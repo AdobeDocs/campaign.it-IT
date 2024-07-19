@@ -13,7 +13,7 @@ ht-degree: 10%
 
 # Connettore per sistema CRM{#crm-connector}
 
-Il **Connettore CRM** L’attività ti consente di configurare la sincronizzazione dei dati tra Adobe Campaign e un sistema di gestione delle relazioni con i clienti.
+L&#39;attività del connettore **CRM** consente di configurare la sincronizzazione dei dati tra Adobe Campaign e un sistema CRM.
 
 Con questa attività, puoi:
 

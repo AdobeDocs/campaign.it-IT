@@ -19,17 +19,17 @@ Quando la consegna è configurata e pronta per essere inviata, assicurati di ave
 
 Al termine, conferma la consegna per avviare la consegna dei messaggi.
 
-Monitora l’esecuzione della consegna da **Consegna** accessibile tramite i dettagli di questa consegna o tramite l’elenco delle consegne.
+Monitora l&#39;esecuzione della consegna dalla scheda **Consegna**, accessibile tramite i dettagli della consegna o tramite l&#39;elenco delle consegne.
 
 ## Monitorare le e-mail {#email-monitoring}
 
-Una volta inviato, controlla lo stato della consegna in **Dashboard di consegna** e accedere ai registri di consegna e ai rapporti per confermare che i messaggi sono stati inviati correttamente.
+Una volta inviato, controlla lo stato della consegna nel **dashboard di consegna** e accedi ai registri di consegna e ai rapporti per verificare che i messaggi siano stati inviati correttamente.
 
 Dal dashboard di consegna, puoi controllare i messaggi elaborati e i registri di controllo della consegna. Puoi anche controllare lo stato dei messaggi nei registri di consegna.
 
 >[!NOTE]
 >
->Gli stati di consegna non vengono visualizzati in tempo reale. Ulteriori informazioni su Email Feedback Service [in questa sezione](#email-feedback-service).
+>Gli stati di consegna non vengono visualizzati in tempo reale. Ulteriori informazioni sul servizio di feedback delle e-mail [sono disponibili in questa sezione](#email-feedback-service).
 
 
 [Ulteriori informazioni sul monitoraggio della consegna nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html){target="_blank"}
@@ -42,7 +42,7 @@ Disponibile per tutti i clienti di Campaign v8, garantisce scalabilità, un elev
 
 ### Vantaggi
 
-Adobe Campaign utilizza un Mail Transfer Agent (MTA) che esegue l’MTA dell’e-mail commerciale di SparkPost denominato **Momentum**.
+Adobe Campaign utilizza un Mail Transfer Agent (MTA) che esegue l&#39;MTA della posta elettronica commerciale di SparkPost denominato **Momentum**.
 
 Momentum rappresenta una tecnologia MTA innovativa e ad alte prestazioni che include una gestione dei messaggi non recapitati più intelligente e una funzionalità di ottimizzazione automatizzata della consegna dei messaggi che consente ai mittenti di raggiungere e mantenere tassi di consegna della casella in entrata ottimali.
 
@@ -52,13 +52,13 @@ Momentum rappresenta una tecnologia MTA innovativa e ad alte prestazioni che inc
 
 ### Qualificazione di mancato recapito
 
-Per **sincrono** messaggi di errore di consegna, l’MTA determina il tipo di mancato recapito e la qualifica e invia nuovamente tali informazioni a Campaign.
+Per i messaggi di errore di consegna **sincroni**, l&#39;MTA determina il tipo di mancato recapito e la qualifica e invia nuovamente tali informazioni a Campaign.
 
 L’MTA qualifica il mancato recapito SMTP e invia nuovamente tale qualifica a Campaign sotto forma di un codice di mancato recapito mappato su un motivo e una qualifica di mancato recapito della campagna.
 
 >[!NOTE]
 >
->Attualmente **asincrono** i mancati recapiti sono qualificati dal processo inMail attraverso **[!UICONTROL Inbound email]** regole.
+>Attualmente **mancati recapiti asincroni** sono qualificati dal processo inMail tramite le regole **[!UICONTROL Inbound email]**.
 
 Ulteriori informazioni sugli errori di consegna in [questa sezione](delivery-failures.md).
 
@@ -75,36 +75,36 @@ Domain Keys Identified Mail (DKIM) è un metodo di autenticazione utilizzato per
 
 In Adobe Campaign, la firma di autenticazione dell’e-mail DKIM viene eseguita dall’MTA.
 
-Ulteriori informazioni su DKIM in [Guida alle procedure consigliate per la consegna dei messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication){target="_blank"}.
+Per ulteriori informazioni su DKIM, consulta la [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication){target="_blank"}.
 
 ## Servizio di feedback delle e-mail {#email-feedback-service}
 
 Il servizio di feedback delle e-mail di Campaign (EFS) segnala lo stato di ogni consegna e-mail inviata con Adobe Campaign.
 
-Una volta iniziata la consegna, non vi è alcuna modifica nel **[!UICONTROL Success]** percentuale di inoltro del messaggio da Campaign all’MTA. I registri di consegna mostrano **[!UICONTROL Taken into account by the service provider]** stato per ogni indirizzo di destinazione.
+Una volta avviata la consegna, non vi è alcuna modifica nella percentuale di **[!UICONTROL Success]** quando il messaggio viene inoltrato correttamente da Campaign all’MTA. I registri di consegna mostrano lo stato **[!UICONTROL Taken into account by the service provider]** per ogni indirizzo di destinazione.
 
-Quando il messaggio viene effettivamente recapitato ai profili target e una volta che queste informazioni vengono segnalate in tempo reale dall’MTA, i registri di consegna mostrano **[!UICONTROL Sent]** stato di ogni indirizzo che ha ricevuto correttamente il messaggio. Il **[!UICONTROL Success]** la percentuale viene aumentata di conseguenza con ogni consegna riuscita.
+Quando il messaggio viene effettivamente recapitato ai profili target e una volta che queste informazioni vengono segnalate in tempo reale dall’MTA, i registri di consegna mostrano lo stato **[!UICONTROL Sent]** per ogni indirizzo che ha ricevuto correttamente il messaggio. La percentuale di **[!UICONTROL Success]** viene aumentata di conseguenza a ogni consegna riuscita.
 
-Quando i messaggi non recapitabili vengono segnalati dall’MTA, lo stato del registro cambia da **[!UICONTROL Taken into account by the service provider]** a **[!UICONTROL Failed]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->.
+Quando i messaggi non recapitabili vengono segnalati dall&#39;MTA, lo stato del registro cambia da **[!UICONTROL Taken into account by the service provider]** a **[!UICONTROL Failed]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->.
 
-Quando i messaggi in soft-bouncing vengono segnalati dall’MTA, il loro stato di registro rimane invariato (**[!UICONTROL Taken into account by the service provider]**): solo il [motivo errore](delivery-failures.md#delivery-failure-reasons) è aggiornato<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. Il **[!UICONTROL Success]** La percentuale rimane invariata. I messaggi in mancati recapiti non permanenti vengono quindi ritentati durante la consegna [periodo di validità](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}:
+Quando vengono segnalati i messaggi in mancati recapiti dall&#39;MTA, lo stato del registro rimane invariato (**[!UICONTROL Taken into account by the service provider]**): viene aggiornato solo il [motivo errore](delivery-failures.md#delivery-failure-reasons)<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. La percentuale **[!UICONTROL Success]** rimane invariata. I messaggi non recapitabili vengono quindi ritentati per tutto il [periodo di validità](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"} della consegna:
 
-* Se un nuovo tentativo ha esito positivo prima della fine del periodo di validità, lo stato del messaggio cambia in **[!UICONTROL Sent]** e **[!UICONTROL Success]** la percentuale viene aumentata di conseguenza.
+* Se un nuovo tentativo ha esito positivo prima della fine del periodo di validità, lo stato del messaggio cambia in **[!UICONTROL Sent]** e la percentuale di **[!UICONTROL Success]** viene aumentata di conseguenza.
 
-* In caso contrario, lo stato cambia in **[!UICONTROL Failed]**. Il **[!UICONTROL Success]** <!--and **[!UICONTROL Bounces + errors]** -->La percentuale rimane invariata.
+* In caso contrario, lo stato diventa **[!UICONTROL Failed]**. La **[!UICONTROL Success]** <!--and **[!UICONTROL Bounces + errors]** --> percentuale rimane invariata.
 
 >[!NOTE]
 >
->Per ulteriori informazioni sui mancati recapiti non permanenti, consulta [questa sezione](delivery-failures.md#delivery-failure-reasons).
+>Per ulteriori informazioni sui mancati recapiti permanenti e non permanenti, consulta [questa sezione](delivery-failures.md#delivery-failure-reasons).
 >
->Per ulteriori informazioni sui nuovi tentativi dopo un errore temporaneo di consegna, consulta [questa sezione](delivery-failures.md#retries).
+>Per ulteriori informazioni sui nuovi tentativi dopo un errore temporaneo di consegna, vedere [questa sezione](delivery-failures.md#retries).
 
 La tabella seguente mostra come vengono aggiornati gli stati dei KPI e dei registri di invio in ogni fase del processo di invio.
 
 | Passaggio nel processo di invio | Riepilogo KPI | Stato dei registri di invio |
 |--- |--- |--- |
-| Il messaggio è stato inoltrato correttamente da Campaign all’MTA | **[!UICONTROL Success]** percentuale non visualizzata (inizia da 0%) | Considerato dal fornitore di servizi |
-| I messaggi non recapitabili vengono segnalati dall’MTA | Nessuna modifica in **[!UICONTROL Success]** percentuale | Non riuscito |
-| I messaggi in soft-bouncing vengono segnalati dall’MTA | Nessuna modifica in **[!UICONTROL Success]** percentuale | Considerato dal fornitore di servizi |
-| Nuovi tentativi di messaggi con mancati recapiti non permanenti riusciti | **[!UICONTROL Success]** la percentuale viene aumentata di conseguenza | Inviato |
-| Nuovi tentativi di messaggi con mancati recapiti non riusciti | Nessuna modifica in **[!UICONTROL Success]** percentuale | Non riuscito |
+| Il messaggio è stato inoltrato correttamente da Campaign all’MTA | La percentuale **[!UICONTROL Success]** non viene visualizzata (inizia da 0%) | Considerato dal fornitore di servizi |
+| I messaggi non recapitabili vengono segnalati dall’MTA | Nessuna modifica nella percentuale **[!UICONTROL Success]** | Non riuscito |
+| I messaggi in soft-bouncing vengono segnalati dall’MTA | Nessuna modifica nella percentuale **[!UICONTROL Success]** | Considerato dal fornitore di servizi |
+| Nuovi tentativi di messaggi con mancati recapiti non permanenti riusciti | La percentuale di **[!UICONTROL Success]** viene aumentata di conseguenza | Inviato |
+| Nuovi tentativi di messaggi con mancati recapiti non riusciti | Nessuna modifica nella percentuale **[!UICONTROL Success]** | Non riuscito |

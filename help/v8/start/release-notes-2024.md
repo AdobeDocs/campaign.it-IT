@@ -2,16 +2,17 @@
 title: Note sulla versione 2023 di Campaign v8 (console)
 description: Elenco delle funzioni e dei miglioramenti introdotti con le versioni v8 di Campaign 2023
 feature: Release Notes
-source-git-commit: 4fecae16b2db0f174de6d77acf5b846906073aeb
+exl-id: 6a0a9486-19a9-4ec3-9030-48dbf419f45f
+source-git-commit: 69ef7e81d5fc0f5cf0dc74fa16d970ef89607331
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 75%
+ht-degree: 77%
 
 ---
 
 # Note sulla versione 2024 {#2024-rn}
 
-In questa pagina sono elencate nuove funzionalità, miglioramenti e correzioni introdotti con **Versioni di Campaign v8 2024**.
+In questa pagina sono elencate nuove funzionalità, miglioramenti e correzioni introdotti con le versioni di **2024 Campaign v8**.
 
 
 ## Versione 8.6.2 {#release-8-6-2}

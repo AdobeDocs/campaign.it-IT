@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## Unità predefinite {#default-units}
 
-In Adobe Campaign, per i campi che esprimono una durata (ad esempio periodo di validità delle risorse, scadenza dell’approvazione per un’attività, ecc.), i valori possono essere espressi come segue **unità**:
+In Adobe Campaign, per i campi che esprimono una durata (ad esempio periodo di validità delle risorse, scadenza dell&#39;approvazione per un&#39;attività, ecc.), i valori possono essere espressi nelle seguenti **unità**:
 
 * **[!UICONTROL s]** per secondi
 * **[!UICONTROL mn]** per minuti
@@ -40,13 +40,13 @@ Inoltre, puoi creare e salvare i filtri.  Ulteriori informazioni sui filtri in [
 
 Per impostazione predefinita, Adobe Campaign carica i primi 200 record di un elenco. Ciò significa che la visualizzazione non mostra necessariamente tutti i record della tabella visualizzata. È possibile eseguire un conteggio del numero di record nell&#39;elenco e caricare altri record.
 
-Nella parte in basso a destra della schermata dell’elenco, **contatore** mostra quanti record sono stati caricati e il numero totale di record nel database (dopo l’applicazione di eventuali filtri):
+Nella parte in basso a destra della schermata dell&#39;elenco, un **contatore** mostra quanti record sono stati caricati e il numero totale di record nel database (dopo l&#39;applicazione di filtri):
 
 ![Visualizza il numero totale di record in un elenco](assets/number-of-records.png)
 
 Se viene visualizzato un punto interrogativo invece del numero a destra, ad esempio `240/?`, fare clic sul contatore per avviare il calcolo.
 
-Per caricare e visualizzare record aggiuntivi, fare clic su **[!UICONTROL Continue loading]**. Per impostazione predefinita, vengono caricati 200 record. Per modificare il numero predefinito di record da caricare, utilizzare **[!UICONTROL Configure list]** nell’angolo in basso a destra dell’elenco. Nella finestra di configurazione dell’elenco, fai clic su **[!UICONTROL Advanced parameters]** (in basso a sinistra) e cambia il numero di righe da recuperare.
+Per caricare e visualizzare record aggiuntivi, fare clic su **[!UICONTROL Continue loading]**. Per impostazione predefinita, vengono caricati 200 record. Per modificare il numero predefinito di record da caricare, utilizzare l&#39;icona **[!UICONTROL Configure list]** nell&#39;angolo inferiore destro dell&#39;elenco. Nella finestra di configurazione dell&#39;elenco, fare clic su **[!UICONTROL Advanced parameters]** (in basso a sinistra) e modificare il numero di righe da recuperare.
 
 Per caricare tutti i record, fare clic con il pulsante destro del mouse sull&#39;elenco e selezionare **[!UICONTROL Load all]**.
 
@@ -59,7 +59,7 @@ Per caricare tutti i record, fare clic con il pulsante destro del mouse sull&#39
 
 Per ogni elenco, la configurazione di colonna incorporata può essere adattata per visualizzare ulteriori informazioni o nascondere le colonne non utilizzate.
 
-Quando i dati sono visibili nei dettagli di un record, fare clic con il pulsante destro del mouse sul campo e selezionare **[!UICONTROL Add in the list]**.
+Quando i dati sono visibili nel dettaglio di un record, fare clic con il pulsante destro del mouse sul campo e selezionare **[!UICONTROL Add in the list]**.
 
 ![Aggiungere un campo nell&#39;elenco](assets/add-in-the-list.png)
 
@@ -69,26 +69,26 @@ La colonna viene aggiunta a destra delle colonne esistenti.
 
 Puoi anche utilizzare la schermata di configurazione dell’elenco per aggiungere e rimuovere colonne:
 
-1. Da un elenco di record, fare clic su **[!UICONTROL Configure list]** nella sezione in basso a destra.
-1. Fare doppio clic sui campi da aggiungere nel **[!UICONTROL Available fields]** : vengono aggiunti al **[!UICONTROL Output columns]** elenco.
+1. Da un elenco di record, fare clic sull&#39;icona **[!UICONTROL Configure list]** nella sezione in basso a destra.
+1. Fare doppio clic sui campi da aggiungere all&#39;elenco **[!UICONTROL Available fields]**: verranno aggiunti all&#39;elenco **[!UICONTROL Output columns]**.
 
    ![Schermata di configurazione elenco](assets/list-config-screen.png)
 
 
    >[!NOTE]
    >
-   >Per impostazione predefinita, i campi avanzati non vengono visualizzati. Per visualizzarli, fai clic su **Visualizza campi avanzati** nella sezione inferiore destra dell’elenco dei campi disponibili.
+   >Per impostazione predefinita, i campi avanzati non vengono visualizzati. Per visualizzarli, fare clic sull&#39;icona **Visualizza campi avanzati** nella sezione inferiore destra dell&#39;elenco dei campi disponibili.
    >
    >I campi sono identificati da icone specifiche: campi SQL, tabelle collegate, campi calcolati e così via. Per ogni campo selezionato, la descrizione viene visualizzata nell’elenco dei campi disponibili.
    >
 
-1. Utilizza le frecce su/giù per modificare **ordine di visualizzazione**.
+1. Utilizza le frecce su/giù per modificare l&#39;**ordine di visualizzazione**.
 
-1. Clic **[!UICONTROL OK]** per confermare la configurazione e visualizzare il risultato.
+1. Fare clic su **[!UICONTROL OK]** per confermare la configurazione e visualizzare il risultato.
 
-Per rimuovere una colonna, selezionarla e fare clic sul pulsante **Cestino** icona.
+Se devi rimuovere una colonna, selezionala e fai clic sull&#39;icona **Elimina**.
 
-È possibile utilizzare **[!UICONTROL Distribution of values]** per visualizzare la ripartizione dei valori per il campo selezionato nella cartella corrente.
+È possibile utilizzare l&#39;icona **[!UICONTROL Distribution of values]** per visualizzare la partizione dei valori per il campo selezionato nella cartella corrente.
 
 ![](assets/value-distribution.png)
 
@@ -99,8 +99,8 @@ Per rimuovere una colonna, selezionarla e fare clic sul pulsante **Cestino** ico
 
 Per creare una colonna, effettua le seguenti operazioni:
 
-1. Da un elenco di record, fare clic su **[!UICONTROL Configure list]** nella sezione in basso a destra.
-1. Fai clic su **[!UICONTROL Add]** per visualizzare un nuovo campo nell’elenco.
+1. Da un elenco di record, fare clic sull&#39;icona **[!UICONTROL Configure list]** nella sezione in basso a destra.
+1. Fare clic sull&#39;icona **[!UICONTROL Add]** per visualizzare un nuovo campo nell&#39;elenco.
 1. Configura il campo da aggiungere nella colonna.
 
 
@@ -125,14 +125,14 @@ Per salvare una configurazione di elenco in modo che possa essere riutilizzata, 
 
 1. In Esplora risorse fare clic con il pulsante destro del mouse sulla cartella contenente i dati visualizzati.
 1. Seleziona **[!UICONTROL Properties]**.
-1. Clic **[!UICONTROL Advanced settings]** e quindi specifica un nome nel **[!UICONTROL Configuration]** campo.
-1. Clic **[!UICONTROL OK]** e quindi fare clic su **[!UICONTROL Save]**.
+1. Fare clic su **[!UICONTROL Advanced settings]** e quindi specificare un nome nel campo **[!UICONTROL Configuration]**.
+1. Fare clic su **[!UICONTROL OK]** e quindi su **[!UICONTROL Save]**.
 
 Puoi quindi applicare questa configurazione a qualsiasi altra cartella dello stesso tipo. Ulteriori informazioni sulle cartelle in [questa pagina](../audiences/folders-and-views.md).
 
 ### Esportare un elenco {#exporting-a-list}
 
-Per esportare dati da un elenco, è necessario utilizzare una procedura guidata di esportazione. Per accedervi, seleziona gli elementi da esportare dall’elenco, fai clic con il pulsante destro del mouse e seleziona **[!UICONTROL Export...]**.
+Per esportare dati da un elenco, è necessario utilizzare una procedura guidata di esportazione. Per accedervi, selezionare gli elementi da esportare dall&#39;elenco, fare clic con il pulsante destro del mouse e selezionare **[!UICONTROL Export...]**.
 
 <!--The use of the import and export functions is explained in [Generic imports and exports](../../platform/using/about-generic-imports-exports.md).-->
 
@@ -148,14 +148,14 @@ Fai clic sull’intestazione della colonna per applicare un ordinamento crescent
 
 È inoltre possibile configurare criteri di ordinamento o combinare criteri di ordinamento. A questo scopo, segui la procedura indicata di seguito:
 
-1. **[!UICONTROL Configure list]** in basso e a destra dell&#39;elenco.
-1. Nella finestra di configurazione dell’elenco, fai clic su **[!UICONTROL Sorting]** scheda.
+1. **[!UICONTROL Configure list]** di seguito e a destra dell&#39;elenco.
+1. Nella finestra di configurazione dell&#39;elenco fare clic sulla scheda **[!UICONTROL Sorting]**.
 1. Selezionare i campi da ordinare e la direzione di ordinamento (crescente o decrescente).
 1. La priorità di ordinamento è definita dall&#39;ordine delle colonne di ordinamento. Per modificare la priorità, utilizzare le icone appropriate per modificare l&#39;ordine delle colonne.
 
    La priorità di ordinamento non influisce sulla visualizzazione delle colonne nell’elenco.
 
-1. Clic **[!UICONTROL Ok]** per confermare questa configurazione e visualizzare il risultato nell’elenco.
+1. Fare clic su **[!UICONTROL Ok]** per confermare questa configurazione e visualizzare il risultato nell&#39;elenco.
 
 
 
@@ -166,70 +166,70 @@ Un’enumerazione (nota anche come &quot;elenco dettagliato&quot;) è un elenco 
 
 L&#39;elenco di valori viene visualizzato come elenco a discesa dal quale è possibile selezionare il valore da immettere nel campo. L’elenco a discesa consente inoltre l’input predittivo: inserisci le prime lettere e l’applicazione compila le altre.
 
-I valori per questo tipo di campo sono definiti e l’amministrazione complessiva di questi campi (aggiunta/eliminazione di un valore) viene eseguita tramite **[!UICONTROL Administration > Platform > Enumerations]** dell&#39;albero.
+I valori per questo tipo di campo sono definiti e l&#39;amministrazione complessiva di questi campi (aggiunta/eliminazione di un valore) viene eseguita tramite il nodo **[!UICONTROL Administration > Platform > Enumerations]** della struttura.
 
 ![Enumerazioni di accesso](assets/enumerations-menu.png)
 
 ### Tipi di enumerazioni {#types-of-enum}
 
-Le enumerazioni vengono memorizzate in **[!UICONTROL Administration > Platform > Enumerations]** cartella dell&#39;elenco delle cartelle.
+Le enumerazioni sono archiviate nella cartella **[!UICONTROL Administration > Platform > Enumerations]** dell&#39;elenco delle cartelle.
 
 Possono essere: Aperto, Sistema, Emoticon o Chiuso.
 
-* Un **Apri** consente agli utenti di aggiungere nuovi valori direttamente nei campi basati su questa enumerazione.
-* A **Chiuso** L&#39;enumerazione dispone di un elenco fisso di valori che possono essere modificati solo dal **[!UICONTROL Administration > Platform > Enumerations]** cartella dell&#39;elenco delle cartelle.
-* Un **Emoticon** L’enumerazione viene utilizzata per aggiornare l’elenco delle emoticon. Ulteriori informazioni
-* A **Sistema** L&#39;enumerazione è associata ai campi di sistema e viene fornita con un nome interno.
+* Un&#39;enumerazione **Open** consente agli utenti di aggiungere nuovi valori direttamente nei campi basati su questa enumerazione.
+* Un&#39;enumerazione **Closed** ha un elenco fisso di valori che possono essere modificati solo dalla cartella **[!UICONTROL Administration > Platform > Enumerations]** dell&#39;Explorer.
+* Enumerazione **Emoticon** utilizzata per aggiornare l&#39;elenco delle emoticon. Ulteriori informazioni
+* Un&#39;enumerazione **System** è associata ai campi di sistema e viene fornita con un nome interno.
 
-Per **Apri** e **Chiuso** enumerazioni, sono disponibili opzioni specifiche:
+Per le enumerazioni **Open** e **Closed** sono disponibili opzioni specifiche:
 
 * **Enumerazione semplice** è il tipo standard predefinito.
-* **Pulizia alias** L&#39;enumerazione viene utilizzata per armonizzare i valori di enumerazione memorizzati nel database. [Ulteriori informazioni](#alias-cleansing)
-* **Riservato per binning** è un’opzione che consente di collegare i valori del cubo a questa enumerazione. [Ulteriori informazioni](../reporting/gs-cubes.md)
+* L&#39;enumerazione **Alias cleansing** viene utilizzata per armonizzare i valori di enumerazione archiviati nel database. [Ulteriori informazioni](#alias-cleansing)
+* **Riservato per il binning** è un&#39;opzione che consente di collegare i valori del cubo a questa enumerazione. [Ulteriori informazioni](../reporting/gs-cubes.md)
 
 
 ### Pulizia alias {#alias-cleansing}
 
-Nei campi di enumerazione è possibile selezionare un valore o immettere un valore personalizzato non disponibile nell&#39;elenco a discesa. I valori personalizzati possono essere aggiunti ai valori delle enumerazioni esistenti, come valori nuovi, in questo caso **[!UICONTROL Open]** deve essere selezionata. Questi valori personalizzati possono essere puliti utilizzando le funzionalità di pulizia degli alias. Ad esempio, se un utente immette `Adob` invece di `Adobe`, il processo di pulizia degli alias può automaticamente sostituirlo con il termine corretto.
+Nei campi di enumerazione è possibile selezionare un valore o immettere un valore personalizzato non disponibile nell&#39;elenco a discesa. È possibile aggiungere valori personalizzati alle enumerazioni esistenti come valori nuovi. In questo caso, è necessario selezionare l&#39;opzione **[!UICONTROL Open]**. Questi valori personalizzati possono essere puliti utilizzando le funzionalità di pulizia degli alias. Ad esempio, se un utente immette `Adob` invece di `Adobe`, il processo di pulizia degli alias può automaticamente sostituirlo con il termine corretto.
 
 >[!CAUTION]
 >
 >La pulizia dei dati è un processo critico che influisce sui dati presenti nel database. Adobe Campaign esegue aggiornamenti di massa dei dati, che potrebbero causare l’eliminazione di alcuni valori. Questa operazione è pertanto riservata agli utenti esperti.
 
-Abilita **[!UICONTROL Alias cleansing]** opzione per utilizzare le funzionalità di pulizia dati per un’enumerazione. Quando questa opzione è selezionata, il **[!UICONTROL Alias]** nella parte inferiore della finestra.
+Abilitare l&#39;opzione **[!UICONTROL Alias cleansing]** per utilizzare le funzionalità di pulizia dati per un&#39;enumerazione. Quando questa opzione è selezionata, nella parte inferiore della finestra viene visualizzata la scheda **[!UICONTROL Alias]**.
 
-Quando un utente immette un valore che non esiste in un’enumerazione di pulizia Alias, questo viene aggiunto al **Valori** elenco. È possibile [crea alias da questi valori](#convert-to-alias), o [creare nuovi alias da zero](#create-alias).
+Quando un utente immette un valore che non esiste in un&#39;enumerazione di pulizia Alias, questo viene aggiunto all&#39;elenco **Valori**. È possibile [creare alias da questi valori](#convert-to-alias) o [creare nuovi alias da zero](#create-alias).
 
 #### Creare un alias{#create-alias}
 
 Per creare un alias, eseguire la procedura seguente:
 
-1. Clic **[!UICONTROL Add]** pulsante della **[!UICONTROL Alias]** scheda.
+1. Fare clic sul pulsante **[!UICONTROL Add]** della scheda **[!UICONTROL Alias]**.
 1. Immettere l&#39;alias da convertire e selezionare il valore da applicare nell&#39;elenco a discesa.
 
    ![Crea un nuovo alias](assets/new-alias.png)
 
-1. Clic **[!UICONTROL Ok]** e confermare.
+1. Fai clic su **[!UICONTROL Ok]** e conferma.
 
-1. Salva le modifiche. La sostituzione dei valori viene eseguita da **Pulizia alias** flusso di lavoro che viene eseguito ogni notte. Fai riferimento a [Esegui pulizia dati](#running-data-cleansing).
+1. Salva le modifiche. La sostituzione dei valori viene eseguita dal flusso di lavoro **Pulizia alias** che viene eseguito ogni notte. Consulta [Eseguire la pulizia dei dati](#running-data-cleansing).
 
-Per tutti i campi basati su questa enumerazione, quando un utente immette il valore **Adobe** in un campo &quot;azienda&quot; (nella console client di Adobe Campaign, in un modulo web), verrà automaticamente sostituito dal valore **Adobe**.
+Per tutti i campi basati su questa enumerazione, quando un utente immette il valore **Adobe** in un campo &quot;company&quot; (nella console client di Adobe Campaign, in un modulo web), verrà automaticamente sostituito dal valore **Adobe**.
 
 #### Convertire un valore errato in un alias{#convert-to-alias}
 
 È inoltre possibile convertire un valore di enumerazione esistente in un alias. Per eseguire questa operazione:
 
-1. Nell’elenco dei valori di un’enumerazione, fai clic con il pulsante destro del mouse e individua **[!UICONTROL Actions... > Convert values into aliases...]**.
+1. Nell&#39;elenco dei valori di un&#39;enumerazione, fare clic con il pulsante destro del mouse e selezionare **[!UICONTROL Actions... > Convert values into aliases...]**.
 
    ![Convertire un valore in un alias](assets/convert-into-aliases.png)
 
 1. Selezionare i valori da convertire in alias e fare clic su **[!UICONTROL Next]**.
-1. Clic **[!UICONTROL Start]** per eseguire la conversione.
+1. Fare clic su **[!UICONTROL Start]** per eseguire la conversione.
 
-   Una volta completata l’esecuzione, gli alias vengono aggiunti all’elenco, nel **Alias** scheda. È possibile associare un valore corretto per sostituire le voci errate. Per eseguire questa operazione:
+   Al termine dell&#39;esecuzione, gli alias vengono aggiunti all&#39;elenco nella scheda **Alias**. È possibile associare un valore corretto per sostituire le voci errate. Per eseguire questa operazione:
 
 1. Selezionate un valore da pulire.
-1. Fai clic su **Dettagli...** pulsante.
+1. Fare clic sul pulsante **Dettagli...**.
 1. Seleziona il nuovo valore nell’elenco a discesa.
 
    ![Crea un nuovo alias](assets/define-new-alias.png)
@@ -237,35 +237,35 @@ Per tutti i campi basati su questa enumerazione, quando un utente immette il val
 
 >[!NOTE]
 >
->È possibile tenere traccia delle occorrenze di un alias nel **[!UICONTROL Hits]** colonna nella **[!UICONTROL Alias]** scheda secondaria. Può visualizzare il numero di volte in cui il valore è stato immesso.  [Ulteriori informazioni](#calculate-entry-occurrences).
+>È possibile tenere traccia delle occorrenze di un alias nella colonna **[!UICONTROL Hits]** nella scheda secondaria **[!UICONTROL Alias]**. Può visualizzare il numero di volte in cui il valore è stato immesso.  [Ulteriori informazioni](#calculate-entry-occurrences).
 
 #### Esegui pulizia dati {#running-data-cleansing}
 
-La pulizia dei dati viene eseguita da **[!UICONTROL Alias cleansing]** flusso di lavoro tecnico. Per impostazione predefinita, viene eseguito su base giornaliera.
+La pulizia dei dati viene eseguita dal flusso di lavoro tecnico **[!UICONTROL Alias cleansing]**. Per impostazione predefinita, viene eseguito su base giornaliera.
 
-La pulizia può essere attivata anche tramite **[!UICONTROL Cleanse values...]** collegamento.
+La pulizia può essere attivata anche tramite il collegamento **[!UICONTROL Cleanse values...]**.
 
-Il **[!UICONTROL Advanced parameters...]** Questo collegamento ti consente di impostare la data a partire dalla quale i valori raccolti vengono presi in considerazione.
+Il collegamento **[!UICONTROL Advanced parameters...]** consente di impostare la data a partire dalla quale i valori raccolti vengono presi in considerazione.
 
-Fai clic su **[!UICONTROL Start]** per eseguire la pulizia dei dati.
+Fare clic sul pulsante **[!UICONTROL Start]** per eseguire la pulizia dei dati.
 
 ##### Monitorare le occorrenze {#calculate-entry-occurrences}
 
-Il **[!UICONTROL Alias]** scheda secondaria di un’enumerazione può visualizzare il numero di occorrenze di un alias tra tutti i valori immessi. Queste informazioni sono una stima e verranno visualizzate nel **[!UICONTROL Hits]** colonna.
+Nella scheda secondaria **[!UICONTROL Alias]** di un&#39;enumerazione è possibile visualizzare il numero di occorrenze di un alias tra tutti i valori immessi. Queste informazioni sono una stima e verranno visualizzate nella colonna **[!UICONTROL Hits]**.
 
 >[!CAUTION]
 >
 >Il calcolo delle occorrenze della voce alias può richiedere molto tempo.
 >
 
-Puoi eseguire il calcolo degli hit manualmente tramite **[!UICONTROL Cleanse values...]** collegamento. A questo scopo, fai clic su **[!UICONTROL Advanced parameters...]** collega e seleziona le opzioni.
+Puoi eseguire il calcolo degli hit manualmente tramite il collegamento **[!UICONTROL Cleanse values...]**. A questo scopo, fai clic sul collegamento **[!UICONTROL Advanced parameters...]** e seleziona le opzioni.
 
-* **[!UICONTROL Update the number of alias hits]**: questo ti consente di aggiornare gli hit che sono già stati calcolati, in base alla data immessa.
-* **[!UICONTROL Recalculate the number of alias hits from the start]**: consente di eseguire calcoli sull’intera piattaforma Adobe Campaign.
+* **[!UICONTROL Update the number of alias hits]**: consente di aggiornare gli hit già calcolati in base alla data immessa.
+* **[!UICONTROL Recalculate the number of alias hits from the start]**: consente di eseguire calcoli sull&#39;intera piattaforma Adobe Campaign.
 
 Puoi anche creare un flusso di lavoro dedicato per consentire l’esecuzione automatica del calcolo per un determinato periodo, ad esempio una volta alla settimana.
 
-A questo scopo, crea una copia di **[!UICONTROL Alias cleansing]** , modificare la pianificazione e utilizzare le impostazioni seguenti nel **[!UICONTROL Enumeration value cleansing]** attività:
+Per eseguire questa operazione, creare una copia del flusso di lavoro **[!UICONTROL Alias cleansing]**, modificare la pianificazione e utilizzare le impostazioni seguenti nell&#39;attività **[!UICONTROL Enumeration value cleansing]**:
 
 * **-updateHits** per aggiornare il numero di hit alias,
-* **-updateHits:completo** per ricalcolare tutti gli hit alias.
+* **-updateHits:full** per ricalcolare tutti gli hit alias.

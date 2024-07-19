@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Aggiornare la struttura del database {#updating-the-database-structure}
 
-Per applicare le modifiche apportate agli schemi, avviare la procedura guidata di aggiornamento del database. L’assistente è accessibile tramite **[!UICONTROL Tools > Advanced > Update database structure]**. Controlla se la struttura fisica del database corrisponde alla relativa descrizione logica ed esegue gli script di aggiornamento SQL.
+Per applicare le modifiche apportate agli schemi, avviare la procedura guidata di aggiornamento del database. L&#39;assistente è accessibile tramite **[!UICONTROL Tools > Advanced > Update database structure]**. Controlla se la struttura fisica del database corrisponde alla relativa descrizione logica ed esegue gli script di aggiornamento SQL.
 
 ![](assets/schema_update.png)
 

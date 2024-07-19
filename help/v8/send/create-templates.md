@@ -21,8 +21,8 @@ Un modello può includere:
 
 * Tipologie
 * Indirizzi di invio e risposta
-* Base [blocchi di personalizzazione](../send/personalization-blocks.md)
-* Collegamenti a [pagine mirror](../send/mirror-page.md) e i collegamenti di annullamento dell’abbonamento
+* [blocchi di personalizzazione](../send/personalization-blocks.md) di base
+* Collegamenti a [pagine mirror](../send/mirror-page.md) e collegamenti per annullare l&#39;abbonamento
 * Contenuto, logo dell’azienda o firma
 * Altre proprietà di consegna, ad esempio validità della risorsa, parametri dei nuovi tentativi o impostazioni della quarantena.
 
@@ -41,9 +41,9 @@ Il modo più semplice per creare un modello di consegna è consiste nel duplicar
 
 Per duplicare un modello di consegna, segui la procedura seguente:
 
-1. Sfoglia per **[!UICONTROL Resources > Templates > Delivery templates]** in Adobe Campaign explorer.
+1. Passa a **[!UICONTROL Resources > Templates > Delivery templates]** in Adobe Campaign Explorer.
 1. Seleziona un modello di consegna integrato. I modelli incorporati sono visualizzati in grassetto nell’elenco.
-1. Fai clic con il pulsante destro del mouse e seleziona (Copia negli Appunti) **[!UICONTROL Duplicate]**.
+1. Fare clic con il pulsante destro del mouse e selezionare **[!UICONTROL Duplicate]**.
 
    ![](assets/duplicate-built-in-template.png)
 
@@ -61,13 +61,13 @@ Una consegna può essere convertita in un modello per nuove azioni di consegna r
 
 Per convertire una consegna in un modello, segui la procedura seguente:
 
-1. Seleziona la consegna dall’elenco di consegna, accessibile tramite **[!UICONTROL Campaign management]** nodo di Campaign explorer.
+1. Seleziona la consegna dall’elenco di consegna, accessibile tramite il nodo **[!UICONTROL Campaign management]** di Campaign Explorer.
 
-1. Fai clic con il pulsante destro del mouse e seleziona (Copia negli Appunti) **[!UICONTROL Actions > Save as template...]**.
+1. Fare clic con il pulsante destro del mouse e selezionare **[!UICONTROL Actions > Save as template...]**.
 
    ![](assets/save-as-template.png)
 
-1. Modifica le proprietà di consegna e seleziona la cartella in cui salvare il nuovo modello (nel **[!UICONTROL Folder]** ) e la cartella in cui devono essere create le consegne basate su questo modello (nel **[!UICONTROL Execution folder]** ).
+1. Modificare le proprietà di consegna e selezionare la cartella in cui salvare il nuovo modello (nel campo **[!UICONTROL Folder]**) e la cartella in cui creare le consegne basate su questo modello (nel campo **[!UICONTROL Execution folder]**).
 
    ![](assets/template-select-folders.png)
 
@@ -79,16 +79,16 @@ Per convertire una consegna in un modello, segui la procedura seguente:
 
 Per configurare un modello di consegna da zero, segui la procedura seguente:
 
-1. Accedi a **Risorse** in Esplora campagne e seleziona **Modelli** allora **Modelli di consegna**.
-1. Clic **Nuovo** nella barra degli strumenti per creare un nuovo modello di consegna.
-1. Imposta il **Etichetta** e **Nome interno** della cartella.
+1. Individua la cartella **Resources** in Esplora campagne e seleziona **Templates** e quindi **Delivery templates**.
+1. Fai clic su **Nuovo** nella barra degli strumenti per creare un nuovo modello di consegna.
+1. Imposta l&#39;**etichetta** e il **nome interno** della cartella.
 1. Salva il modello e riaprilo.
-1. Dalla sezione **Proprietà** , adattare le impostazioni.
-1. In **Generale** , confermare o modificare le posizioni selezionate nella scheda **Cartella di esecuzione**, **Cartella**, e **Indirizzamento** menu a discesa.
-1. Completa il **Parametri e-mail** categoria con l’oggetto dell’e-mail e la popolazione target.
-1. Aggiungi il **Contenuto HTML** per personalizzare il modello, puoi visualizzare una [collegamento pagina mirror](../send/mirror-page.md) e un collegamento per annullare l’abbonamento.
-1. Seleziona la **Anteprima** scheda. In **Test personalizzazione** menu a discesa, seleziona **Destinatario** per visualizzare in anteprima il modello come profilo scelto.
-1. Clic **Salva**. Il modello è ora pronto per essere utilizzato in una consegna.
+1. Dal pulsante **Proprietà**, adatta le impostazioni.
+1. Nella scheda **Generale**, confermare o modificare i percorsi selezionati nei menu a discesa **Cartella di esecuzione**, **Cartella** e **Indirizzamento**.
+1. Completa la categoria **Parametri e-mail** con l&#39;oggetto dell&#39;e-mail e la popolazione di destinazione.
+1. Aggiungi il tuo contenuto di **HTML** per personalizzare il modello. Puoi visualizzare un [collegamento a una pagina speculare](../send/mirror-page.md) e un collegamento per annullare l&#39;iscrizione.
+1. Selezionare la scheda **Anteprima**. Nel menu a discesa **Prova personalizzazione**, seleziona **Destinatario** per visualizzare in anteprima il modello come profilo scelto.
+1. Fai clic su **Salva**. Il modello è ora pronto per essere utilizzato in una consegna.
 
 
 ## Utilizzare i modelli{#use-a-delivery-template}
@@ -99,13 +99,13 @@ Per creare una consegna basata su un modello esistente, seleziona il modello dal
 
 ![](assets/select-the-new-template.png)
 
-Se non riesci a visualizzare il modello, fai clic su **[!UICONTROL Select link]** a destra del campo per sfogliare le cartelle di Campaign.
+Se non riesci a visualizzare il modello, fai clic sulla cartella **[!UICONTROL Select link]** a destra del campo per sfogliare le cartelle di Campaign.
 
 ![](assets/browse-templates.png)
 
-Seleziona la directory desiderata da **[!UICONTROL Folder]** o fai clic sul pulsante **[!UICONTROL Display sub-levels]** per visualizzare il contenuto delle directory nelle sottostrutture della directory corrente.
+Selezionare la directory desiderata dal campo **[!UICONTROL Folder]** oppure fare clic sull&#39;icona **[!UICONTROL Display sub-levels]** per visualizzare il contenuto delle directory nelle sottostrutture della directory corrente.
 
-Seleziona il modello di consegna da utilizzare e fai clic su **[!UICONTROL Ok]**.
+Selezionare il modello di consegna da utilizzare e fare clic su **[!UICONTROL Ok]**.
 
 ### Eseguire un modello {#execute-a-template}
 
@@ -113,11 +113,11 @@ Puoi avviare l’esecuzione di un modello direttamente dall’elenco dei modelli
 
 A questo scopo, seleziona il modello da eseguire e fai clic con il pulsante destro del mouse. Seleziona **[!UICONTROL Actions>Execute the delivery template...]**.
 
-Puoi anche utilizzare **[!UICONTROL File>Actions>Execute the delivery template...]**.
+È inoltre possibile utilizzare **[!UICONTROL File>Actions>Execute the delivery template...]**.
 
 ![](assets/execute-delivery-template.png)
 
-Inserisci i parametri di consegna e fai clic su **[!UICONTROL Send]**.
+Immettere i parametri di consegna e fare clic su **[!UICONTROL Send]**.
 
 Questa azione genera una consegna nella cartella associata al modello. Il nome di questa consegna è il nome del modello di consegna da cui è stata creata.
 
@@ -142,4 +142,4 @@ Questo video spiega come distribuire un modello di consegna e-mail ad hoc e la d
 
 >[!VIDEO](https://video.tv.adobe.com/v/338965?quality=12)
 
-Sono disponibili altri video dimostrativi di Campaign [qui](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.
+Ulteriori video dimostrativi di Campaign sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.

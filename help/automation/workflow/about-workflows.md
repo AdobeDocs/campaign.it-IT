@@ -42,11 +42,11 @@ Ogni flusso di lavoro contiene:
 
 * **[!UICONTROL Activities]**
 
-  Un’attività descrive un modello di attività. Le varie attività disponibili sono rappresentate nel diagramma da icone. Ogni tipo ha proprietà comuni e specifiche. Ad esempio, tutte le attività hanno un nome e un’etichetta, ma solo **[!UICONTROL Approval]** l&#39;attività ha un&#39;assegnazione.
+  Un’attività descrive un modello di attività. Le varie attività disponibili sono rappresentate nel diagramma da icone. Ogni tipo ha proprietà comuni e specifiche. Ad esempio, mentre tutte le attività hanno un nome e un&#39;etichetta, solo l&#39;attività **[!UICONTROL Approval]** ha un&#39;assegnazione.
 
   In un diagramma di flusso di lavoro, una determinata attività può produrre più attività, in particolare quando è presente un ciclo continuo o azioni ricorrenti (periodiche).
 
-  Tutte le attività del flusso di lavoro sono elencate in [questa sezione](activities.md), inclusi casi d&#39;uso e campioni.
+  Tutte le attività del flusso di lavoro sono elencate in [questa sezione](activities.md), inclusi casi d&#39;uso ed esempi.
 
 * **[!UICONTROL Transitions]**
 
@@ -70,10 +70,10 @@ Ogni flusso di lavoro contiene:
 
 Consulta queste sezioni per trovare indicazioni e best practice per automatizzare i processi con i flussi di lavoro:
 
-* Ulteriori informazioni sulle attività dei flussi di lavoro in [questa pagina](use-workflow-data.md).
+* Ulteriori informazioni sulle attività del flusso di lavoro in [questa pagina](use-workflow-data.md).
 * Scopri come creare un flusso di lavoro in [questa sezione](build-a-workflow.md).
 * Scopri come utilizzare i flussi di lavoro per importare dati in Campaign in [questa sezione](campaign-workflows.md)..
-* Le best practice per i flussi di lavoro sono descritte in dettaglio [questa pagina](workflow-best-practices.md).
-* Trova informazioni sull’esecuzione dei flussi di lavoro in [questa sezione](start-a-workflow.md).
+* Le best practice per i flussi di lavoro sono descritte in [questa pagina](workflow-best-practices.md).
+* Trova indicazioni sull&#39;esecuzione del flusso di lavoro in [questa sezione](start-a-workflow.md).
 * Scopri come monitorare i flussi di lavoro in [questa pagina](monitor-workflow-execution.md).
-* Scopri come concedere l’accesso agli utenti per utilizzare i flussi di lavoro in [questa pagina](managing-rights.md).
+* Scopri come concedere agli utenti l&#39;accesso per utilizzare i flussi di lavoro in [questa pagina](managing-rights.md).

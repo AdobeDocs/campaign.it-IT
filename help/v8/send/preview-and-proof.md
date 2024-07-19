@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # Anteprima e verifica dell’e-mail {#preview-test}
 
-Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarlo in anteprima e testarlo. Se è stato inserito [contenuti personalizzati](personalize.md), puoi verificare come viene visualizzato questo contenuto nel messaggio, utilizzando i dati del profilo di test. Inoltre, per rilevare eventuali errori nel contenuto del messaggio o nelle impostazioni di personalizzazione, invia bozze ai profili di test. Per convalidare il contenuto più recente, è necessario inviare una bozza ogni volta che viene apportata una modifica.
+Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarlo in anteprima e testarlo. Se hai inserito [contenuto personalizzato](personalize.md), puoi verificare come viene visualizzato nel messaggio utilizzando i dati del profilo di test. Inoltre, per rilevare eventuali errori nel contenuto del messaggio o nelle impostazioni di personalizzazione, invia bozze ai profili di test. Per convalidare il contenuto più recente, è necessario inviare una bozza ogni volta che viene apportata una modifica.
 
 ## Anteprima contenuto{#preview-content}
 
@@ -22,8 +22,8 @@ Prima di inviare le bozze, una best practice consiste nel controllare il contenu
 
 Per visualizzare in anteprima il contenuto del messaggio, segui i passaggi seguenti:
 
-1. Accedi a **Anteprima** della consegna.
-1. Fai clic su **[!UICONTROL Test personalization]** per selezionare un profilo per compilare i dati di personalizzazione. Puoi scegliere un destinatario specifico nel database, un indirizzo di seed o selezionare un profilo dalla popolazione target, se è già stato definito. Puoi anche controllare il contenuto senza personalizzazione.
+1. Passa alla scheda **Anteprima** della consegna.
+1. Fai clic sul pulsante **[!UICONTROL Test personalization]** per selezionare un profilo per compilare i dati di personalizzazione. Puoi scegliere un destinatario specifico nel database, un indirizzo di seed o selezionare un profilo dalla popolazione target, se è già stato definito. Puoi anche controllare il contenuto senza personalizzazione.
 
    ![](assets/test-personalization.png)
 
@@ -41,24 +41,24 @@ Una bozza è un messaggio specifico che ti consente di testare un messaggio prim
 
 ### Destinatari bozza {#proofs-recipients}
 
-Il target della bozza può essere definito nel modello di consegna o specifico per una consegna. In entrambi i casi, passa alla schermata di definizione del target dal menu **[!UICONTROL To]** e seleziona la **[!UICONTROL Target of the proofs]** scheda.
+Il target della bozza può essere definito nel modello di consegna o specifico per una consegna. In entrambi i casi, passare alla schermata di definizione di destinazione dal collegamento **[!UICONTROL To]** e selezionare la scheda **[!UICONTROL Target of the proofs]**.
 
 ![](assets/target-of-proofs.png)
 
-Il tipo di destinazione della bozza è selezionato da **[!UICONTROL Targeting mode]** elenco a discesa.
+Il tipo di destinazione della bozza è selezionato dall&#39;elenco a discesa **[!UICONTROL Targeting mode]**.
 
-* Utilizza il **[!UICONTROL Definition of a specific proof target]** per selezionare i destinatari nel database come destinazione della bozza.
-* Utilizza il **[!UICONTROL Substitution of the address]** opzione per immettere indirizzi e-mail e utilizzare i dati dei destinatari target per convalidare il contenuto. Gli indirizzi di sostituzione possono essere immessi manualmente o selezionati dall&#39;elenco a discesa. L&#39;enumerazione associata è Substitution address (rcpAddress).
-Per impostazione predefinita, la sostituzione viene eseguita in modo casuale, ma è possibile selezionare un destinatario specifico dal target principale tramite  **[!UICONTROL Detail]** icona.
+* Utilizzare l&#39;opzione **[!UICONTROL Definition of a specific proof target]** per selezionare i destinatari nel database come destinazione della bozza.
+* Utilizzare l&#39;opzione **[!UICONTROL Substitution of the address]** per immettere gli indirizzi di posta elettronica e utilizzare i dati dei destinatari di destinazione per convalidare il contenuto. Gli indirizzi di sostituzione possono essere immessi manualmente o selezionati dall&#39;elenco a discesa. L&#39;enumerazione associata è Substitution address (rcpAddress).
+Per impostazione predefinita, la sostituzione viene eseguita in modo casuale, ma è possibile selezionare un destinatario specifico dal target principale tramite l&#39;icona **[!UICONTROL Detail]**.
 
   ![](assets/target-of-proofs-substitution-details.png){width="800" align="left"}
 
-  Scegli la **[!UICONTROL Select a profile (must be included in the target)]** e selezionare un destinatario.
+  Scegliere l&#39;opzione **[!UICONTROL Select a profile (must be included in the target)]** e selezionare un destinatario.
 
   ![](assets/target-of-proofs-substitution.png){width="800" align="left"}
 
 
-* Utilizza il **[!UICONTROL Seed addresses]**  opzione per utilizzare gli indirizzi seed come destinazione della bozza. Questi indirizzi possono essere importati da un file o immessi manualmente.
+* Utilizza l&#39;opzione **[!UICONTROL Seed addresses]** per utilizzare gli indirizzi di seed come destinazione della bozza. Questi indirizzi possono essere importati da un file o immessi manualmente.
 
   >[!NOTE]
   >
@@ -66,21 +66,21 @@ Per impostazione predefinita, la sostituzione viene eseguita in modo casuale, ma
 
   Ulteriori informazioni sugli indirizzi di seed in [questa sezione](../audiences/test-profiles.md).
 
-* Utilizza il **[!UICONTROL Specific target and Seed addresses]** opzione per combinare indirizzi seed e indirizzi e-mail specifici. Le configurazioni correlate vengono quindi definite in due schede secondarie separate.
+* Utilizzare l&#39;opzione **[!UICONTROL Specific target and Seed addresses]** per combinare indirizzi seed e indirizzi e-mail specifici. Le configurazioni correlate vengono quindi definite in due schede secondarie separate.
 
 ### Inviare una bozza{#proofs-send}
 
 Per inviare bozze dei messaggi, effettua le seguenti operazioni:
 
-1. Nella schermata di definizione del messaggio, fai clic su **[!UICONTROL Send a proof]** pulsante.
-1. Dalla sezione **[!UICONTROL Send a proof]** , controlla i destinatari della bozza.
-1. Clic **[!UICONTROL Analyze]** per avviare la preparazione dei messaggi di bozza.
+1. Nella schermata di definizione del messaggio, fare clic sul pulsante **[!UICONTROL Send a proof]**.
+1. Dalla finestra **[!UICONTROL Send a proof]**, controlla i destinatari della bozza.
+1. Fare clic su **[!UICONTROL Analyze]** per avviare la preparazione dei messaggi di bozza.
 
    ![](assets/send-proof-analyze.png){width="800" align="left"}
 
 1. Una volta completata la preparazione della consegna, utilizza **[!UICONTROL Confirm delivery]** per iniziare a inviare messaggi di prova.
 
-Accedi a **[!UICONTROL Audit]** scheda della consegna per verificare la consegna delle copie della bozza.
+Passa alla scheda **[!UICONTROL Audit]** della consegna per verificare la consegna delle copie della bozza.
 
 Si consiglia di inviare le bozze dopo ogni modifica al contenuto del messaggio.
 
@@ -90,13 +90,13 @@ Si consiglia di inviare le bozze dopo ogni modifica al contenuto del messaggio.
 
 ### Proprietà bozza{#proofs-properties}
 
-Le proprietà della bozza sono impostate in **[!UICONTROL Advanced]** scheda delle finestre delle proprietà di consegna. Accedi a **[!UICONTROL Proof properties...]** per definire i parametri e l’etichetta delle bozze. Puoi scegliere di mantenere:
+Le proprietà della bozza sono impostate nella scheda **[!UICONTROL Advanced]** delle finestre delle proprietà di consegna. Passa al collegamento **[!UICONTROL Proof properties...]** per definire i parametri e l&#39;etichetta delle bozze. Puoi scegliere di mantenere:
 
 * Indirizzi duplicati nella bozza
-* Indirizzi Inseriti nell&#39;elenco Bloccati nella bozza
+* Inserire nell&#39;elenco Bloccati Indirizzi nella bozza
 * Indirizzi in quarantena nella bozza
 
-Per impostazione predefinita, i messaggi di bozza sono identificati da `Proof #N` menzione nell&#39;oggetto, dove `N` è il numero della bozza. Questo numero viene incrementato con ogni analisi della consegna della bozza. È possibile modificare il `proof` prefisso, se necessario.
+Per impostazione predefinita, i messaggi di bozza sono identificati dalla menzione `Proof #N` nell&#39;oggetto, dove `N` è il numero della bozza. Questo numero viene incrementato con ogni analisi della consegna della bozza. È possibile modificare il prefisso `proof` in base alle esigenze.
 
 ![](assets/proof-parameters.png){width="800" align="left"}
 

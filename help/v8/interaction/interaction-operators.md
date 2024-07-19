@@ -14,32 +14,32 @@ ht-degree: 2%
 
 # Profili operatori {#operator-profiles}
 
-L’interazione con Campaign può essere utilizzata da due tipi di operatori: **Manager offerta** e **Responsabili della consegna**. Ognuno di essi dispone di autorizzazioni e restrizioni specifiche. Ulteriori informazioni sugli operatori e sulle autorizzazioni di Campaign in [questa pagina](../start/gs-permissions.md).
+Due tipi di operatori possono utilizzare l&#39;interazione con Campaign: **Gestione offerte** e **Gestione consegne**. Ognuno di essi dispone di autorizzazioni e restrizioni specifiche. Ulteriori informazioni sugli operatori e sulle autorizzazioni di Campaign in [questa pagina](../start/gs-permissions.md).
 
-* Il **[!UICONTROL Offer manager]** crea e mantiene le offerte.
-* Il **[!UICONTROL Delivery manager]** approva e utilizza le offerte
+* **[!UICONTROL Offer manager]** crea e gestisce le offerte.
+* **[!UICONTROL Delivery manager]** approva e utilizza le offerte
 
 ## Creare un operatore di Gestione offerte{#offer-manager}
 
 1. Crea un operatore. [Ulteriori informazioni](../start/manage-permissions.md#add-users)
-1. Accedi a **[!UICONTROL Groups and named rights]** finestra, fai clic su **[!UICONTROL Add]** e seleziona la **[!UICONTROL Offer manager]** gruppo.
+1. Passare alla finestra **[!UICONTROL Groups and named rights]**, fare clic su **[!UICONTROL Add]** e selezionare il gruppo **[!UICONTROL Offer manager]**.
 
-Sono descritte le autorizzazioni associate ai gestori delle offerte [qui](../start/manage-permissions.md#ootb-productprofiles)
+Le autorizzazioni associate a Gestione offerte sono descritte [qui](../start/manage-permissions.md#ootb-productprofiles)
 
 ## Creare un operatore di Delivery Manager {#delivery-manager}
 
 1. Crea un operatore. [Ulteriori informazioni](../start/manage-permissions.md#add-users)
-1. Accedi a **[!UICONTROL Groups and named rights]** , fare clic su **[!UICONTROL Add]** e seleziona la **[!UICONTROL Delivery manager]** gruppo.
+1. Passare alla scheda **[!UICONTROL Groups and named rights]**, fare clic su **[!UICONTROL Add]** e selezionare il gruppo **[!UICONTROL Delivery manager]**.
 
 I diritti assegnati ai responsabili delle consegne consentono loro di svolgere i seguenti compiti:
 
-* Visualizzazione **[!UICONTROL Live]** ambienti.
+* Visualizza **[!UICONTROL Live]** ambienti.
 * Visualizzare e modificare le categorie di offerta.
 * Approva le offerte se sono i loro revisori.
 
   >[!NOTE]
   >
-  >**Responsabili della consegna** può approvare un’offerta solo se è stata dichiarata come revisore nella configurazione dell’offerta.
+  >**I responsabili della consegna** possono approvare un&#39;offerta solo se sono stati dichiarati come revisori nella configurazione dell&#39;offerta.
 
 ## Matrice di autorizzazione per operatore di interazione {#recap-of-rights-according-to-operator}
 
@@ -71,7 +71,7 @@ I diritti assegnati ai responsabili delle consegne consentono loro di svolgere i
    <td> Letto<br /> </td> 
   </tr> 
   <tr> 
-   <td> Spaces<br /> </td> 
+   <td> Spazi<br /> </td> 
    <td> Lettura/scrittura<br /> </td> 
    <td> Letto<br /> </td> 
   </tr> 
@@ -91,12 +91,12 @@ I diritti assegnati ai responsabili delle consegne consentono loro di svolgere i
    <td> Letto<br /> </td> 
   </tr> 
   <tr> 
-   <td> Catalogo delle offerte<br /> </td> 
+   <td> Catalogo offerte<br /> </td> 
    <td> Lettura/scrittura<br /> </td> 
    <td> Letto<br /> </td> 
   </tr> 
   <tr> 
-   <td> Categoria di offerta<br /> </td> 
+   <td> Categoria offerta<br /> </td> 
    <td> Lettura/scrittura<br /> </td> 
    <td> Letto<br /> </td> 
   </tr> 
@@ -131,7 +131,7 @@ I diritti assegnati ai responsabili delle consegne consentono loro di svolgere i
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Spaces<br /> </td> 
+   <td> Spazi<br /> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
@@ -151,12 +151,12 @@ I diritti assegnati ai responsabili delle consegne consentono loro di svolgere i
    <td> Letto<br /> </td> 
   </tr> 
   <tr> 
-   <td> Catalogo delle offerte<br /> </td> 
+   <td> Catalogo offerte<br /> </td> 
    <td> Letto<br /> </td> 
    <td> Letto<br /> </td> 
   </tr> 
   <tr> 
-   <td> Categoria di offerta<br /> </td> 
+   <td> Categoria offerta<br /> </td> 
    <td> </td> 
    <td> Letto<br /> </td> 
   </tr> 

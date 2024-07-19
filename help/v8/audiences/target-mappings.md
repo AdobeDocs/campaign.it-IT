@@ -14,9 +14,9 @@ ht-degree: 28%
 
 # Utilizzare le mappature target{#gs-target-mappings}
 
-Per impostazione predefinita, i modelli di consegna e-mail e SMS sono destinati a **[!UICONTROL Recipients]**. La loro mappatura target utilizza quindi i campi del **nms:destinatario** tabella.
+Per impostazione predefinita, i modelli di consegna e-mail e SMS sono destinati a **[!UICONTROL Recipients]**. La mappatura di destinazione utilizza pertanto i campi della tabella **nms:recipient**.
 
-Per le notifiche push, la mappatura target predefinita è **Applicazioni in abbonamento (nms:appSubscriptionRcp)**, che è collegato alla tabella dei destinatari.
+Per le notifiche push, il mapping di destinazione predefinito è **Applicazioni in abbonamento (nms:appSubscriptionRcp)**, che è collegato alla tabella dei destinatari.
 
 Puoi utilizzare altre mappature di destinazione per le consegne o crearne una nuova.
 
@@ -46,7 +46,7 @@ Ulteriori informazioni sulle tabelle dei destinatari personalizzate in [questa p
 
 la procedura guidata per la creazione di Adobe Campaign target mapping consente di creare tutti gli schemi necessari per utilizzare la mappatura di destinazione personalizzata.
 
-1. Sfoglia per **[!UICONTROL Administration]** `>` **[!UICONTROL Campaign Management]** `>` **[!UICONTROL Target mappings]** da Adobe Campaign explorer.
+1. Passare a **[!UICONTROL Administration]** `>` **[!UICONTROL Campaign Management]** `>` **[!UICONTROL Target mappings]** da Adobe Campaign Explorer.
 
 1. Crea una nuova mappatura di destinazione e seleziona lo schema personalizzato come dimensione di targeting.
 
@@ -61,7 +61,7 @@ la procedura guidata per la creazione di Adobe Campaign target mapping consente 
 
    ![](assets/wf_new_mapping_define_names.png)
 
-   Puoi scegliere se memorizzare le esclusioni (**excludelog**), con messaggi (**broadlog**) o in una tabella separata.
+   Puoi scegliere se memorizzare le esclusioni (**excludelog**), con i messaggi (**broadlog**) o in una tabella separata.
 
    Puoi anche scegliere se gestire il tracciamento per questa mappatura di consegna (**trackinglog**).
 
@@ -69,4 +69,4 @@ la procedura guidata per la creazione di Adobe Campaign target mapping consente 
 
    ![](assets/wf_new_mapping_define_extensions.png)
 
-   Fai clic su **[!UICONTROL Save]** pulsante per avviare la creazione della mappatura di consegna: tutte le tabelle collegate vengono create automaticamente in base ai parametri selezionati.
+   Fai clic sul pulsante **[!UICONTROL Save]** per avviare la creazione della mappatura di consegna: tutte le tabelle collegate vengono create automaticamente in base ai parametri selezionati.

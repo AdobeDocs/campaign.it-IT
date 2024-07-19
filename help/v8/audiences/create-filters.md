@@ -24,23 +24,23 @@ La configurazione del filtro consente di selezionare i dati da un elenco **[!UIC
 
 >[!NOTE]
 >
->Le impostazioni di configurazione dell’interfaccia utente sono definite localmente a livello di dispositivo. A volte può essere necessario pulire questi dati, in particolare se si verificano problemi durante l’aggiornamento dei dati. A tale scopo, utilizza **[!UICONTROL File > Clear the local cache]** menu.
+>Le impostazioni di configurazione dell’interfaccia utente sono definite localmente a livello di dispositivo. A volte può essere necessario pulire questi dati, in particolare se si verificano problemi durante l’aggiornamento dei dati. A tale scopo, utilizzare il menu **[!UICONTROL File > Clear the local cache]**.
 
 In Adobe Campaign sono disponibili i seguenti tipi di filtro:
 
 ## Filtri preimpostati{#predefined-filters}
 
-I filtri predefiniti sono disponibili nella **Filtri** sopra ogni elenco.
+I filtri predefiniti sono disponibili dal pulsante **Filtri** sopra ogni elenco.
 
 Ad esempio, per i profili, sono disponibili i seguenti filtri incorporati:
 
 ![](assets/built-in-filters.png)
 
-Puoi accedere ai dettagli dei filtri nella sezione **[!UICONTROL Profiles and Targets > Pre-defined filters]** nodo di Explorer.
+È possibile accedere ai dettagli dei filtri nel nodo **[!UICONTROL Profiles and Targets > Pre-defined filters]** di Explorer.
 
 >[!NOTE]
 >
->Per tutti gli altri elenchi di dati, i filtri predefiniti sono memorizzati nel  **[!UICONTROL Administration > Configuration > Predefined filters]** nodo.
+>Per tutti gli altri elenchi di dati, i filtri predefiniti sono memorizzati nel nodo **[!UICONTROL Administration > Configuration > Predefined filters]**.
 
 Seleziona un filtro per visualizzarne la definizione.
 
@@ -64,7 +64,7 @@ I filtri predefiniti incorporati sono:
    <td> Seleziona i destinatari che hanno aperto una consegna.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Aperto ma non cliccato<br /> </td> 
+   <td> Aperto ma non selezionato<br /> </td> 
    <td> Seleziona i destinatari che hanno aperto una consegna ma non hanno fatto clic su un collegamento.<br /> </td> 
   </tr> 
   <tr> 
@@ -88,7 +88,7 @@ I filtri predefiniti incorporati sono:
    <td> Seleziona i destinatari che hanno fatto clic su una consegna almeno X volte negli ultimi Y mesi.<br /> </td> 
   </tr> 
   <tr> 
- <td> Indirizzo e-mail Inserito nell'elenco Bloccati<br /> </td> 
+ <td> Inserire nell'elenco Bloccati Indirizzo e-mail<br /> </td> 
     <td> Seleziona i destinatari il cui indirizzo e-mail si trova nel inserisco nell'elenco Bloccati di.<br/> </td>
   </tr> 
   <tr> 
@@ -100,8 +100,8 @@ I filtri predefiniti incorporati sono:
    <td> Seleziona i destinatari il cui indirizzo e-mail è duplicato nella cartella.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Non aperto né cliccato<br /> </td> 
-   <td> Seleziona i destinatari che non hanno aperto una consegna o hanno fatto clic su di essa.<br /> </td> 
+   <td> Non ha aperto né fatto clic su<br /> </td> 
+   <td> Seleziona i destinatari che non hanno aperto o fatto clic su una consegna.<br /> </td> 
   </tr> 
   <tr> 
    <td> Nuovi destinatari (giorni)<br /> </td> 
@@ -116,15 +116,15 @@ I filtri predefiniti incorporati sono:
    <td> Seleziona i destinatari creati negli ultimi X mesi.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Per abbonamento<br /> </td> 
-   <td> Seleziona i destinatari per abbonamento.<br /> </td> 
+   <td> Per sottoscrizione<br /> </td> 
+   <td> Seleziona i destinatari per sottoscrizione.<br /> </td> 
   </tr> 
   <tr> 
    <td> Facendo clic su un collegamento specifico<br /> </td> 
-   <td> Seleziona i destinatari che hanno fatto clic su un URL specifico in una consegna.<br /> </td> 
+   <td> Seleziona i destinatari che hanno fatto clic su un URL particolare in una consegna.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Per comportamento di consegna post<br /> </td> 
+   <td> Per comportamento di recapito post<br /> </td> 
    <td> Seleziona i destinatari in base al loro comportamento dopo la ricezione di una consegna.<br /> </td> 
   </tr> 
   <tr> 
@@ -145,11 +145,11 @@ I filtri predefiniti incorporati sono:
   </tr> 
   <tr> 
    <td> Per numero di aperture<br /> </td> 
-   <td> Seleziona i destinatari che hanno aperto tra le consegne X e Y nel periodo di tempo Z.<br /> </td> 
+   <td> Seleziona i destinatari che hanno aperto tra le consegne X e Y nel tempo Z.<br /> </td> 
   </tr> 
   <tr> 
    <td> Per nome o e-mail<br /> </td> 
-   <td> Seleziona i destinatari in base al loro nome o e-mail.<br /> </td> 
+   <td> Seleziona i destinatari in base al nome o all'indirizzo e-mail.<br /> </td> 
   </tr> 
   <tr> 
    <td> Per fascia di età<br /> </td> 
@@ -161,45 +161,45 @@ I filtri predefiniti incorporati sono:
 
 ### Filtri predefiniti{#default-filters}
 
-I campi sopra ogni elenco ti consentono di utilizzare **filtro predefinito** per questo elenco. Per impostazione predefinita, per l’elenco dei destinatari puoi filtrare in base al nome e all’indirizzo e-mail.
+I campi sopra ogni elenco ti consentono di utilizzare il **filtro predefinito** per questo elenco. Per impostazione predefinita, per l’elenco dei destinatari puoi filtrare in base al nome e all’indirizzo e-mail.
 
 ![](assets/filter-recipient-name.png)
 
 
 >[!NOTE]
 >
->Il **%** sostituisce qualsiasi stringa di caratteri. Ad esempio, immetti `%@gmail.com` nel campo E-mail per visualizzare tutti i profili con un indirizzo Gmail. Invio `%@L` nel campo Cognome per visualizzare tutti i profili con una L nel cognome.
+>Il carattere **%** sostituisce qualsiasi stringa di caratteri. Ad esempio, immetti `%@gmail.com` nel campo E-mail per visualizzare tutti i profili con un indirizzo Gmail. Immettere `%@L` nel campo Cognome per visualizzare tutti i profili il cui cognome contiene una L.
 
-Per modificare il filtro predefinito per un elenco di destinatari, passare alla **[!UICONTROL Profiles and Targets > Predefined filters]** nodo.
+Per modificare il filtro predefinito per un elenco di destinatari, passare al nodo **[!UICONTROL Profiles and Targets > Predefined filters]**.
 
-Per tutti gli altri tipi di dati, configura il filtro predefinito tramite **[!UICONTROL Administration > Configuration > Predefined filters]** nodo.
+Per tutti gli altri tipi di dati, configurare il filtro predefinito tramite il nodo **[!UICONTROL Administration > Configuration > Predefined filters]**.
 
 Applica i seguenti passaggi:
 
 1. Seleziona il filtro da utilizzare per impostazione predefinita.
-1. Fai clic su **[!UICONTROL Parameters]** e seleziona **[!UICONTROL Default filter for the associated document type]**.
+1. Fare clic sulla scheda **[!UICONTROL Parameters]** e selezionare **[!UICONTROL Default filter for the associated document type]**.
 
    ![](assets/change-default-filter.png)
 
 1. Deseleziona la stessa opzione per il filtro predefinito corrente.
-1. Clic **[!UICONTROL Save]** per applicare il filtro.
-1. Individua la cartella Destinatario e fai clic su **[!UICONTROL Remove this filter]** icona a destra del filtro corrente: è disponibile il nuovo filtro predefinito.
+1. Fare clic su **[!UICONTROL Save]** per applicare il filtro.
+1. Individuare la cartella Destinatario e fare clic sull&#39;icona **[!UICONTROL Remove this filter]** a destra del filtro corrente. Il nuovo filtro predefinito è disponibile.
    ![](assets/updated-default-filter.png)
 
 
 ## Filtri rapidi{#quick-filters}
 
-Usa e combina **Filtri rapidi** per definire filtri su campi specifici.
+Utilizza e combina **Filtri rapidi** per definire filtri in campi specifici.
 
 Una volta aggiunti, i campi filtro rapido vengono visualizzati sopra l’elenco dei dati, uno dopo l’altro. Possono essere cancellati indipendentemente l&#39;uno dall&#39;altro.
 
 I filtri rapidi sono specifici di ciascun operatore e vengono reinizializzati ogni volta che l’operatore cancella la cache della propria console client.
 
-Se devi riutilizzare un filtro, crea un’ **filtro avanzato** e salvalo. [Ulteriori informazioni](#advanced-filters).
+Se devi riutilizzare un filtro, crea un **filtro avanzato** e salvalo. [Ulteriori informazioni](#advanced-filters).
 
-Per creare un **filtro rapido**, segui i passaggi seguenti:
+Per creare un **filtro rapido**, eseguire la procedura seguente:
 
-1. Fare clic con il pulsante destro del mouse sul campo che si desidera filtrare e selezionare **[!UICONTROL Filter on this field]**.
+1. Fare clic con il pulsante destro del mouse sul campo da filtrare e selezionare **[!UICONTROL Filter on this field]**.
 
    ![](assets/quick-filter-on-this-field.png)
 
@@ -216,15 +216,15 @@ Per creare un **filtro rapido**, segui i passaggi seguenti:
 
 Se devi filtrare un campo non disponibile nel modulo, selezionalo nelle colonne e applica un filtro a tale colonna. Per eseguire questa operazione,
 
-1. Fai clic su **[!UICONTROL Configure list]** icona.
+1. Fare clic sull&#39;icona **[!UICONTROL Configure list]**.
 
    ![](assets/configure-list.png)
 
-1. Seleziona la colonna da visualizzare, ad esempio l’età dei destinatari, e fai clic su **Ok**.
+1. Selezionare la colonna da visualizzare, ad esempio l&#39;età dei destinatari, e fare clic su **Ok**.
 
    ![](assets/add-age-column.png)
 
-1. Fare clic con il pulsante destro del mouse **Età** nell&#39;elenco dei destinatari e selezionare **[!UICONTROL Filter on this column]**.
+1. Fare clic con il pulsante destro del mouse sulla colonna **Età** nell&#39;elenco dei destinatari e selezionare **[!UICONTROL Filter on this column]**.
 
    ![](assets/age-filter-on-this-column.png)
 
@@ -238,15 +238,15 @@ Combinare criteri complessi in **Filtri avanzati**. Utilizzare questi filtri per
 
 ### Creare un filtro avanzato{#create-adv-filters}
 
-Per creare un **filtro avanzato**, fare clic su **[!UICONTROL Filters]** e seleziona **[!UICONTROL Advanced filter...]**.
+Per creare un **filtro avanzato**, fare clic sul pulsante **[!UICONTROL Filters]** e selezionare **[!UICONTROL Advanced filter...]**.
 
 ![](assets/adv-filter.png)
 
-Puoi anche fare clic con il pulsante destro del mouse sull’elenco dei dati e selezionare **[!UICONTROL Advanced filter...]**.
+È inoltre possibile fare clic con il pulsante destro del mouse sull&#39;elenco dei dati e selezionare **[!UICONTROL Advanced filter...]**.
 
 Definisci le condizioni di filtro. Nell’esempio seguente, filtrerai in base ai destinatari il cui numero di account non inizia con NL e che vivono a Parigi o Los Angeles.
 
-1. Fai clic su **[!UICONTROL Edit expression]** icona del **[!UICONTROL Expression]** colonna.
+1. Fare clic sull&#39;icona **[!UICONTROL Edit expression]** della colonna **[!UICONTROL Expression]**.
 
    ![](assets/edit-exp.png)
 
@@ -255,7 +255,7 @@ Definisci le condizioni di filtro. Nell’esempio seguente, filtrerai in base ai
 
    ![](assets/select-operator.png)
 
-1. Seleziona un valore previsto da **[!UICONTROL Value]** colonna. Puoi combinare diversi filtri per perfezionare la query. Per aggiungere una condizione di filtro, fai clic su **[!UICONTROL Add]**.
+1. Selezionare un valore previsto dalla colonna **[!UICONTROL Value]**. Puoi combinare diversi filtri per perfezionare la query. Per aggiungere una condizione di filtro, fare clic su **[!UICONTROL Add]**.
 
    ![](assets/add-an-exp.png)
 
@@ -263,11 +263,11 @@ Definisci le condizioni di filtro. Nell’esempio seguente, filtrerai in base ai
    >
    >È possibile assegnare una gerarchia alle espressioni o modificare l’ordine delle espressioni di query utilizzando le frecce della barra degli strumenti.
 
-1. Per combinare le espressioni sono disponibili tre operatori:  **E**, **Oppure**, **Eccetto**. Fai clic sulla freccia per passare a **Oppure**.
+1. Per combinare le espressioni sono disponibili tre operatori: **And**, **Or**, **Except**. Fare clic sulla freccia per passare a **Or**.
 
    ![](assets/select-or-operator.png)
 
-1. Clic **[!UICONTROL Ok]** per creare il filtro e applicarlo all&#39;elenco corrente.
+1. Fare clic su **[!UICONTROL Ok]** per creare il filtro e applicarlo all&#39;elenco corrente.
 
 Il filtro applicato viene visualizzato sopra l’elenco.
 
@@ -278,12 +278,12 @@ Per modificare o modificare questo filtro, fai clic sul relativo collegamento di
 
 ### Salvare un filtro avanzato{#save-adv-filters}
 
-Puoi salvare un filtro avanzato come  [filtro predefinito](#predefined-filters), in modo da poterlo riutilizzare e condividerlo con gli altri utenti di Campaign.
+Puoi salvare un filtro avanzato come [filtro predefinito](#predefined-filters), in modo da poterlo riutilizzare e condividerlo con gli altri utenti di Campaign.
 
 Per salvare un filtro avanzato, effettua le seguenti operazioni:
 
 1. Fai clic sulla descrizione del filtro per modificarlo.
-1. Fai clic su **[!UICONTROL Save as filter]** nella sezione superiore destra della finestra.
+1. Fare clic sull&#39;icona **[!UICONTROL Save as filter]** nella parte superiore destra della finestra.
 
    ![](assets/save-as-filter.png)
 
@@ -291,7 +291,7 @@ Per salvare un filtro avanzato, effettua le seguenti operazioni:
 
    ![](assets/application-filter-save.png)
 
-Il filtro viene aggiunto al [filtri predefiniti](#predefined-filters). Può essere aggiornato da questo nodo.
+Filtro aggiunto ai [filtri predefiniti](#predefined-filters). Può essere aggiornato da questo nodo.
 
 ![](assets/added-to-predefined-filters.png)
 
@@ -311,14 +311,14 @@ Questo filtro è disponibile anche dai filtri predefiniti dell’elenco dei dest
 
 Puoi utilizzare e combinare i filtri per creare un segmento di popolazione target.
 
-Una volta salvati, i filtri avanzati sono disponibili quando si seleziona la popolazione target di un messaggio, nel **[!UICONTROL User filters]** sezione.
+Una volta salvati, i filtri avanzati sono disponibili quando si seleziona la popolazione target di un messaggio, nella sezione **[!UICONTROL User filters]**.
 
 ![](assets/adv-filter-target-type.png)
 
 
 >[!NOTE]
 >
->Utilizza il **[!UICONTROL Exclude recipients from this segment]** per eseguire il targeting solo dei contatti che non corrispondono ai criteri di filtro.
+>Utilizzare **[!UICONTROL Exclude recipients from this segment]** per eseguire il targeting solo dei contatti che non corrispondono ai criteri di filtro.
 
 
 ### Utilizzare le funzioni per creare filtri avanzati{#use-functions-adv-filters}
@@ -329,26 +329,26 @@ Scopri come creare query avanzate in questi esempi end-to-end:
 
 * Scopri come eseguire il targeting sugli attributi dei destinatari semplici in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
 * Scopri come filtrare i destinatari non contattati negli ultimi 7 giorni in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html){target="_blank"}.
-* Scopri come recuperare l’elenco degli operatori che possono essere filtrati per account attivi in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html){target="_blank"}.
-* Scopri come creare un pubblico di e-mail di compleanno in  [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=it){target="_blank"}.
+* Scopri come ripristinare l&#39;elenco degli operatori filtrabile per account attivi in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html){target="_blank"}.
+* Scopri come creare un pubblico di e-mail di compleanno in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=it){target="_blank"}.
 
 
 ### Parametri avanzati per filtri predefiniti {#param-for-data-filters}
 
-Per i filtri predefiniti sono disponibili parametri avanzati. Per accedervi, passa a **[!UICONTROL Parameters]** del filtro.
+Per i filtri predefiniti sono disponibili parametri avanzati. Per accedervi, passare alla scheda **[!UICONTROL Parameters]** del filtro.
 
-* Per visualizzare il filtro per impostazione predefinita per tutti gli elenchi basati su questo tipo di documento, selezionare **[!UICONTROL Default filter for the associated document type]** opzione.
+* Per visualizzare il filtro predefinito per tutti gli elenchi basati su questo tipo di documento, selezionare l&#39;opzione **[!UICONTROL Default filter for the associated document type]**.
 
-  Ad esempio, il **[!UICONTROL By name or login]** Il filtro viene applicato agli operatori Questa opzione è selezionata, in modo che il filtro venga sempre visualizzato in tutti gli elenchi di operatori.
+  Ad esempio, il filtro **[!UICONTROL By name or login]** viene applicato agli operatori Questa opzione è selezionata, quindi il filtro viene sempre visualizzato in tutti gli elenchi di operatori.
 
-* Per rendere un filtro disponibile a tutti gli operatori di Campaign, seleziona la  **[!UICONTROL Filter shared with other operators]** opzione.
+* Per rendere disponibile un filtro per tutti gli operatori di Campaign, selezionare l&#39;opzione **[!UICONTROL Filter shared with other operators]**.
 
-* Per definire una maschera per la selezione dei criteri di filtraggio, selezionare  **[!UICONTROL Use parameter entry form]** opzione. Questo modulo deve essere immesso in formato XML nel **[!UICONTROL Form]** scheda. Ad esempio, il filtro predefinito incorporato **[!UICONTROL Recipients who have opened]**, disponibile nell’elenco dei destinatari, visualizza un campo filtro che consente di selezionare la consegna a cui si applica il filtro.
+* Per definire un modulo per la selezione dei criteri di filtro, selezionare l&#39;opzione **[!UICONTROL Use parameter entry form]**. Il modulo deve essere immesso in formato XML nella scheda **[!UICONTROL Form]**. Ad esempio, il filtro predefinito incorporato **[!UICONTROL Recipients who have opened]**, disponibile nell&#39;elenco dei destinatari, visualizza un campo filtro che consente di selezionare la consegna a cui si applica il filtro.
 
 ![](assets/predefined-filters-parameters.png)
 
 
-* Il **[!UICONTROL Advanced parameters]** consente di definire impostazioni aggiuntive.
+* Il collegamento **[!UICONTROL Advanced parameters]** consente di definire impostazioni aggiuntive.
 
    * È possibile associare una tabella SQL al filtro per renderla comune a tutti gli editor che la condividono.
-   * Per impedire a qualsiasi utente di sovrascrivere il filtro, seleziona la **[!UICONTROL Do not restrict the filter]** opzione. Ad esempio, questa opzione è attiva per i filtri &quot;Destinatari di una consegna&quot; e &quot;Destinatari delle consegne appartenenti a una cartella&quot;, disponibili nella consegna guidata. Questi filtri non possono essere sovraccaricati.
+   * Per impedire a qualsiasi utente di ignorare il filtro, selezionare l&#39;opzione **[!UICONTROL Do not restrict the filter]**. Ad esempio, questa opzione è attiva per i filtri &quot;Destinatari di una consegna&quot; e &quot;Destinatari delle consegne appartenenti a una cartella&quot;, disponibili nella consegna guidata. Questi filtri non possono essere sovraccaricati.

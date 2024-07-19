@@ -27,35 +27,35 @@ Nell’esempio seguente, scopri come creare un messaggio, personalizzato in modo
 Per creare contenuto condizionale in base al valore di un campo, effettua le seguenti operazioni:
 
 1. Apri una consegna e-mail esistente o creane una nuova.
-1. Nell’editor dei contenuti e-mail, fai clic sull’icona di personalizzazione e seleziona **[!UICONTROL Conditional content > If]**.
+1. Nell&#39;editor dei contenuti e-mail, fai clic sull&#39;icona di personalizzazione e seleziona **[!UICONTROL Conditional content > If]**.
 
-   ![Inserire una condizione](assets/condition-insert.png)
+   ![Inserisci una condizione](assets/condition-insert.png)
 
    Gli elementi di personalizzazione vengono inseriti nel corpo del messaggio. Ora devi configurarli.
 
-1. Compila i parametri della **se** espressione.
+1. Immettere i parametri dell&#39;espressione **if**.
 
-   * Selezionare il primo elemento dell&#39;espressione, **`<FIELD>`** e fai clic sull’icona di personalizzazione per sostituirla con il campo di test.
-   * Sostituisci **`<VALUE>`** con il valore del campo per il quale verrà soddisfatta la condizione. Questo valore deve essere racchiuso tra virgolette.
+   * Selezionare il primo elemento dell&#39;espressione, **`<FIELD>`**, quindi fare clic sull&#39;icona di personalizzazione per sostituirlo con il campo di test.
+   * Sostituire **`<VALUE>`** con il valore del campo per il quale verrà soddisfatta la condizione. Questo valore deve essere racchiuso tra virgolette.
    * Specifica il contenuto da inserire quando la condizione viene soddisfatta. Può trattarsi di un testo, un’immagine, un modulo, un collegamento ipertestuale, ecc.
 
    ![Condizione in un messaggio e-mail](assets/condition-in-email.png)
 
-1. Fai clic su **[!UICONTROL Preview]** per visualizzare il contenuto del messaggio in base al destinatario della consegna. Seleziona un destinatario per il quale la condizione è true per verificare il contenuto. Quindi seleziona un altro destinatario per il quale è false e controlla di nuovo.
+1. Fare clic sulla scheda **[!UICONTROL Preview]** per visualizzare il contenuto del messaggio in base al destinatario della consegna. Seleziona un destinatario per il quale la condizione è true per verificare il contenuto. Quindi seleziona un altro destinatario per il quale è false e controlla di nuovo.
 
-Puoi aggiungere altri casi e definire contenuti diversi in base ai valori di uno o più campi. A tale scopo, utilizza **[!UICONTROL Conditional content > Else]** e **[!UICONTROL Conditional content > Else if]**. Queste espressioni sono configurate come **se** espressione.
+Puoi aggiungere altri casi e definire contenuti diversi in base ai valori di uno o più campi. Per eseguire questa operazione, utilizzare **[!UICONTROL Conditional content > Else]** e **[!UICONTROL Conditional content > Else if]**. Queste espressioni sono configurate nello stesso modo dell&#39;espressione **if**.
 
 >[!CAUTION]
 >
->Il **%> &lt;%** i caratteri devono essere eliminati dopo l’aggiunta **Altro** e **Altrimenti se** condizioni.
+>Eliminare **%> &lt;%** caratteri dopo aver aggiunto **Else** e **Else if** condizioni.
 
 
 ## Caso d’uso: creare un’e-mail multilingue {#creating-multilingual-email}
 
 Nell’esempio seguente, scopri come creare un’e-mail multilingue. Il contenuto viene visualizzato in una lingua o nell’altra, a seconda della lingua preferita del destinatario.
 
-1. Crea un messaggio e-mail e seleziona la popolazione target. In questo esempio, la condizione per visualizzare una versione o l’altra sarà basata sulla **Lingua** valore del profilo del destinatario. Questi valori sono impostati su **IT**, **FR**, **ES**.
-1. Nel contenuto di e-mail HTML, fai clic su **[!UICONTROL Source]** Tab e incolla il seguente codice:
+1. Crea un messaggio e-mail e seleziona la popolazione target. In questo esempio, la condizione per visualizzare una versione o l&#39;altra sarà basata sul valore **Lingua** del profilo del destinatario. Questi valori sono impostati su **EN**, **FR**, **ES**.
+1. Nel contenuto di e-mail HTML, fare clic sulla scheda **[!UICONTROL Source]** e incollare il seguente codice:
 
    ```
    <% if (language == "EN" ) { %>
@@ -76,7 +76,7 @@ Nell’esempio seguente, scopri come creare un’e-mail multilingue. Il contenut
    <% } %>
    ```
 
-1. Testare il contenuto delle e-mail in **[!UICONTROL Preview]** selezionando i destinatari con diverse lingue preferite.
+1. Verificare il contenuto delle e-mail nella scheda **[!UICONTROL Preview]** selezionando i destinatari con lingue preferite diverse.
 
    >[!NOTE]
    >

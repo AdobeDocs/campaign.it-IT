@@ -20,22 +20,22 @@ Gli operatori possono iscriversi a un forum per ricevere un’e-mail di notifica
 
 ## Accedere a un forum {#accessing-a-forum}
 
-Per accedere a un forum, individua un dashboard e fai clic su **[!UICONTROL Forum]** nell’angolo in alto a destra.
+Per accedere a un forum, passare a un dashboard e fare clic sul collegamento **[!UICONTROL Forum]** nell&#39;angolo superiore destro.
 
 ![](assets/mrm-forum-icon.png)
 
 I messaggi e le relative risposte vengono visualizzati dal più recente al meno recente.
 
-Per avviare un nuovo thread, fare clic su **[!UICONTROL Add a discussion]** nell’angolo in alto a destra. Il **[!UICONTROL Discussion forum]** (vedere sotto).
+Per avviare un nuovo thread, fare clic sul pulsante **[!UICONTROL Add a discussion]** nell&#39;angolo superiore destro. Viene visualizzata la casella **[!UICONTROL Discussion forum]** (vedere di seguito).
 
 ![](assets/mrm-forum-new-thread.png)
 
 
-Inserisci il testo in **[!UICONTROL Message]** e un titolo di discussione nel **[!UICONTROL Subject]** campo.
+Immettere il testo nel campo **[!UICONTROL Message]** e un titolo di discussione nel campo **[!UICONTROL Subject]**.
 
 Gli operatori che hanno già pubblicato un messaggio in questo forum ricevono una notifica per impostazione predefinita. Puoi selezionare un operatore aggiuntivo da notificare. Per notificare più operatori, seleziona un gruppo di operatori.
 
-È possibile aggiungere un allegato al messaggio utilizzando  **[!UICONTROL Browse...]** pulsante. L’allegato verrà incluso anche nell’e-mail di notifica. Gli allegati possono essere inviati solo singolarmente: per inviare diversi file, è necessario comprimerli in un file .zip.
+È possibile aggiungere un allegato al messaggio utilizzando il pulsante **[!UICONTROL Browse...]**. L’allegato verrà incluso anche nell’e-mail di notifica. Gli allegati possono essere inviati solo singolarmente: per inviare diversi file, è necessario comprimerli in un file .zip.
 
 >[!CAUTION]
 >
@@ -47,7 +47,7 @@ Puoi inviare un messaggio al forum di un operatore. I forum personali sono pubbl
 
 Per accedere al forum di un operatore, puoi effettuare le seguenti operazioni:
 
-* Accedi a **[!UICONTROL Administration > Access management > Operators]** cartella di Campaign explorer, seleziona l’operatore per aprire il dashboard, quindi fai clic su **[!UICONTROL Forum]** nell’angolo in alto a destra.
+* Individua la cartella **[!UICONTROL Administration > Access management > Operators]** di Campaign Explorer, seleziona l’operatore per aprire il dashboard, quindi fai clic sul collegamento **[!UICONTROL Forum]** nell’angolo in alto a destra.
 * Trova il nome dell’operatore nell’interfaccia utente di Adobe Campaign (tramite un messaggio inviato al forum da questo operatore, a cui viene assegnata un’attività) e fai clic su di esso per accedere al dashboard dell’operatore.
 
 ## Iscriviti a un forum {#subscribing-to-a-forum}
@@ -56,13 +56,13 @@ La sottoscrizione a un forum consente di seguire tutte le discussioni. Una volta
 
 Per rispondere a un messaggio, fai clic sul corpo dell’e-mail, quindi accedi all’interfaccia web di Adobe Campaign.
 
-* Per iscriversi a un forum, fare clic su **[!UICONTROL Follow discussions]** nella sezione in alto a destra sopra l’elenco dei messaggi.
+* Per iscriversi a un forum, fare clic sul pulsante **[!UICONTROL Follow discussions]** nella sezione superiore destra sopra l&#39;elenco dei messaggi.
 
   La sezione diventa blu e mostra che hai effettuato l’iscrizione al forum.
 
-* Per annullare l’abbonamento a un forum, fai clic su **[!UICONTROL Unsubscribe]** pulsante.
+* Per annullare l&#39;iscrizione a un forum, fare clic sul pulsante **[!UICONTROL Unsubscribe]**.
 
-* Nel dashboard personale sono elencati i forum a cui sei abbonato. Fai clic su **[!UICONTROL Subscription to discussion forums]** per visualizzare l’elenco, quindi fai clic sull’elemento di tuo interesse per accedere al forum.
+* Nel dashboard personale sono elencati i forum a cui sei abbonato. Fai clic sul collegamento **[!UICONTROL Subscription to discussion forums]** per visualizzare l&#39;elenco, quindi fai clic sull&#39;elemento che ti interessa per accedere al relativo forum.
 
   ![](assets/forum-subscribed.png)
 
@@ -72,10 +72,10 @@ Per rispondere a un messaggio, fai clic sul corpo dell’e-mail, quindi accedi a
 Se gli operatori abbonati a un forum non ricevono le notifiche previste:
 
 * Verifica che gli indirizzi e-mail vengano immessi nei profili dell’operatore.
-* Accedi a **[!UICONTROL Administration > Production > Technical workflows > Campaign processes]** cartella di Campaign explorer e controlla **[!UICONTROL Jobs in discussion forums]** il flusso di lavoro viene avviato senza errori.
+* Individua la cartella **[!UICONTROL Administration > Production > Technical workflows > Campaign processes]** di Campaign Explorer e verifica che il flusso di lavoro **[!UICONTROL Jobs in discussion forums]** sia avviato senza errori.
 * Controlla i registri di consegna:
 
-   * Nella home page di Adobe Campaign, passa a **[!UICONTROL Campaigns > Navigation > Deliveries]**, quindi aprire **[!UICONTROL Discussion forum notification]** consegna.
+   * Nella home page di Adobe Campaign, passa a **[!UICONTROL Campaigns > Navigation > Deliveries]**, quindi apri la consegna **[!UICONTROL Discussion forum notification]**.
    * In Esplora campagne, passa a **[!UICONTROL Administration > Production > Objects created automatically > Technical deliveries > Workflow notifications]**, quindi fai clic su **[!UICONTROL Discussion forum notifications]**.
 
-  In **[!UICONTROL Discussion forum notifications]** , i registri di consegna si trovano nella sezione **[!UICONTROL Edit > Delivery]** scheda. È inoltre possibile visualizzare **[!UICONTROL Tracking > Log]** e **[!UICONTROL Exclusion causes]** schede.
+  Nella casella **[!UICONTROL Discussion forum notifications]**, i registri di consegna si trovano nella scheda **[!UICONTROL Edit > Delivery]**. È inoltre possibile visualizzare le schede **[!UICONTROL Tracking > Log]** e **[!UICONTROL Exclusion causes]**.

@@ -13,7 +13,7 @@ ht-degree: 8%
 
 # Rapporti globali {#global-reports}
 
-Tali relazioni riguardano l&#39;attività dei dati nell&#39;intero database. Per visualizzare il dashboard dei rapporti, vai al **[!UICONTROL Reports]** scheda.
+Tali relazioni riguardano l&#39;attività dei dati nell&#39;intero database. Per visualizzare il dashboard dei report, passare alla scheda **[!UICONTROL Reports]**.
 
 ![](assets/reports-tab.png)
 
@@ -27,17 +27,17 @@ Per visualizzare i rapporti, fai clic sui relativi nomi. Per impostazione predef
 
 * **[!UICONTROL Delivery throughput]** : fai riferimento a [Velocità effettiva di consegna](#delivery-throughput).
 * **[!UICONTROL Browsers]** : fai riferimento a [Browser](#browsers).
-* **[!UICONTROL Sharing to social networks]** : fai riferimento a [Condivisione sui social network](#sharing-to-social-networks).
-* **[!UICONTROL Statistics on sharing activities]** : fai riferimento a [Statistiche sulla condivisione delle attività](#statistics-on-sharing-activities).
-* **[!UICONTROL Operating systems]** : fai riferimento a [Sistemi operativi](#operating-systems).
-* **[!UICONTROL URLs and click streams]** : fai riferimento a [URL e flussi di clic](delivery-reports.md#urls-and-click-streams).
+* **[!UICONTROL Sharing to social networks]**: fare riferimento a [Condivisione su social network](#sharing-to-social-networks).
+* **[!UICONTROL Statistics on sharing activities]** : fai riferimento a [Statistiche sulle attività di condivisione](#statistics-on-sharing-activities).
+* **[!UICONTROL Operating systems]** : fare riferimento a [Sistemi operativi](#operating-systems).
+* **[!UICONTROL URLs and click streams]** : fai riferimento a [URL e ai flussi di clic](delivery-reports.md#urls-and-click-streams).
 * **[!UICONTROL Tracking indicators]** : fai riferimento a [Indicatori di tracciamento](delivery-reports.md#tracking-indicators).
-* **[!UICONTROL Non-deliverables and bounces]** : fai riferimento a [Non consegnabili e mancati recapiti](#non-deliverables-and-bounces).
-* **[!UICONTROL User activities]** : fai riferimento a [Attività degli utenti](#user-activities).
+* **[!UICONTROL Non-deliverables and bounces]** : fai riferimento a [Messaggi non recapitati e non recapitati](#non-deliverables-and-bounces).
+* **[!UICONTROL User activities]** : fai riferimento a [Attività utente](#user-activities).
 * **[!UICONTROL Subscription tracking]** : fai riferimento a [Tracciamento abbonamento](#subscription-tracking).
-* **[!UICONTROL Delivery summary]** : fai riferimento a [Riepilogo delle consegne](delivery-reports.md#delivery-summary).
-* **[!UICONTROL Delivery statistics]** : fai riferimento a [Statistiche consegna](#delivery-statistics).
-* **[!UICONTROL Breakdown of opens]** : fai riferimento a [Raggruppamento delle aperture](#breakdown-of-opens).
+* **[!UICONTROL Delivery summary]** : fai riferimento a [Riepilogo consegna](delivery-reports.md#delivery-summary).
+* **[!UICONTROL Delivery statistics]** : fai riferimento a [Statistiche di consegna](#delivery-statistics).
+* **[!UICONTROL Breakdown of opens]** : fai riferimento a [Raggruppamento di aperture](#breakdown-of-opens).
 
 ## Velocità di consegna {#delivery-throughput}
 
@@ -45,13 +45,13 @@ Questo rapporto contiene informazioni sulla velocità effettiva di consegna dell
 
 ![](assets/report-toolbar.png)
 
-Puoi configurare i valori visualizzati modificando la scala cronologica: visualizzazione a 1 ora, visualizzazione a 3 ore, visualizzazione a 24 ore, ecc. Clic **[!UICONTROL Refresh]** per confermare la selezione.
+Puoi configurare i valori visualizzati modificando la scala cronologica: visualizzazione a 1 ora, visualizzazione a 3 ore, visualizzazione a 24 ore, ecc. Fai clic su **[!UICONTROL Refresh]** per confermare la selezione.
 
 >[!NOTE]
 >
->Puoi anche monitorare il numero di consegne inviate all’ora utilizzando [Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html){target="_blank"}.
+>Puoi anche monitorare il numero di consegne inviate all&#39;ora utilizzando [Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html){target="_blank"}.
 >
->Il Pannello di controllo è accessibile a tutti gli utenti amministratori. I passaggi per concedere a un utente i diritti da amministratore sono descritti in [questa pagina](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=it#discover-control-panel){target="_blank"}.
+>Il Pannello di controllo è accessibile a tutti gli utenti amministratori. I passaggi per concedere a un utente l&#39;accesso come amministratore sono descritti in [questa pagina](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=it#discover-control-panel){target="_blank"}.
 >
 
 ## Attività degli utenti {#user-activities}
@@ -60,7 +60,7 @@ Questo rapporto mostra il raggruppamento di aperture, clic e transazioni per mez
 
 Sono disponibili le seguenti opzioni:
 
-* **[!UICONTROL Opens]** : numero totale di messaggi aperti. Le e-mail in formato testo non vengono prese in considerazione. [Ulteriori informazioni](metrics-calculation.md#tracking-opens-).
+* **[!UICONTROL Opens]**: numero totale di messaggi aperti. Le e-mail in formato testo non vengono prese in considerazione. [Ulteriori informazioni](metrics-calculation.md#tracking-opens-).
 * **[!UICONTROL Clicks]** : numero totale di clic sui collegamenti nelle consegne. I clic sui collegamenti di annullamento dell’abbonamento e sulle pagine mirror non vengono presi in considerazione.
 <!--
 * **[!UICONTROL Transactions]** : Total number of transactions after a message is received. In order for a transaction to be taken into account, a transaction type webtracking tag must be inserted into the matching web page. Webtracking configuration is presented in [this section](../../configuration/using/about-web-tracking.md).
@@ -70,7 +70,7 @@ Sono disponibili le seguenti opzioni:
 
 Questo rapporto mostra il raggruppamento dei messaggi non recapitati e dei messaggi non recapitati per dominio Internet.
 
-Il **[!UICONTROL Number of messages processed]** rappresenta il numero totale di messaggi elaborati dal server di consegna. Questo valore è inferiore al numero di messaggi da consegnare quando alcune consegne sono state interrotte o sospese (prima di essere elaborate dal server).
+**[!UICONTROL Number of messages processed]** rappresenta il numero totale di messaggi elaborati dal server di consegna. Questo valore è inferiore al numero di messaggi da consegnare quando alcune consegne sono state interrotte o sospese (prima di essere elaborate dal server).
 
 **[!UICONTROL Breakdown of errors by type]**
 
@@ -88,19 +88,19 @@ Per ogni tipo di errore, sono disponibili:
 
 Sono utilizzati i seguenti indicatori:
 
-* **[!UICONTROL User unknown]** : tipo di errore generato durante la consegna per indicare che l’indirizzo e-mail non è valido.
-* **[!UICONTROL Invalid domain]** : tipo di errore generato durante l’invio di una consegna per indicare che il dominio dell’indirizzo e-mail è errato o non esiste.
+* **[!UICONTROL User unknown]**: tipo di errore generato durante la consegna per indicare che l&#39;indirizzo e-mail non è valido.
+* **[!UICONTROL Invalid domain]**: tipo di errore generato durante l&#39;invio di una consegna per indicare che il dominio dell&#39;indirizzo e-mail è errato o inesistente.
 * **[!UICONTROL Inbox full]** : tipo di errore generato dopo cinque tentativi di consegna per indicare che la casella in entrata dei destinatari contiene troppi messaggi.
-* **[!UICONTROL Account disabled]** : tipo di errore generato durante l’invio di una consegna per indicare che l’indirizzo non esiste più.
-* **[!UICONTROL Rejected]** : tipo di errore generato quando un indirizzo viene rifiutato da IAP (Internet Access Provider), ad esempio in seguito all’applicazione di una regola di sicurezza (software anti-spam).
-* **[!UICONTROL Unreachable]** : tipo di errore che si verifica nella stringa di distribuzione del messaggio: incidente sull’inoltro SMTP, dominio temporaneamente non raggiungibile, ecc.
-* **[!UICONTROL Not connected]** : tipo di errore per indicare che il telefono cellulare del destinatario è spento o disconnesso dalla rete al momento dell’invio.
+* **[!UICONTROL Account disabled]**: tipo di errore generato durante l&#39;invio di una consegna per indicare che l&#39;indirizzo non esiste più.
+* **[!UICONTROL Rejected]**: tipo di errore generato quando un indirizzo viene rifiutato da IAP (Internet Access Provider), ad esempio in seguito all&#39;applicazione di una regola di sicurezza (software anti-spam).
+* **[!UICONTROL Unreachable]**: tipo di errore che si verifica nella stringa di distribuzione del messaggio: problema nell&#39;inoltro SMTP, dominio temporaneamente non raggiungibile, ecc.
+* **[!UICONTROL Not connected]**: tipo di errore per indicare che il telefono cellulare dei destinatari è spento o disconnesso dalla rete al momento dell&#39;invio.
 
   >[!NOTE]
   >
-  >Questo indicatore si riferisce alle consegne il [canali mobili](../send/send.md) solo.
+  >Questo indicatore si riferisce alle consegne solo su [canali mobili](../send/send.md).
 
-  È possibile aprire ogni riga della tabella dei valori facendo clic sul pulsante `[+]` simbolo. Per ogni tipo di errore, puoi visualizzare la suddivisione dei messaggi di errore per dominio.
+  È possibile aprire ogni riga della tabella dei valori facendo clic sul simbolo `[+]`. Per ogni tipo di errore, puoi visualizzare la suddivisione dei messaggi di errore per dominio.
 
 **[!UICONTROL Breakdown of errors per domain]**
 
@@ -112,13 +112,13 @@ Per ogni nome di dominio, abbiamo:
 * la percentuale di messaggi con errori per questo dominio rispetto al numero totale di messaggi elaborati per questo dominio,
 * la percentuale di messaggi di errore per questo dominio rispetto al numero totale di messaggi di errore.
 
-È possibile aprire ogni riga della tabella dei valori facendo clic sul pulsante [+] simbolo. Per ogni tipo di dominio, puoi visualizzare la suddivisione dei messaggi di errore per tipo.
+Per aprire ogni riga della tabella dei valori, fare clic sul simbolo [+]. Per ogni tipo di dominio, puoi visualizzare la suddivisione dei messaggi di errore per tipo.
 
 ![](assets/errors-report-details.png)
 
 >[!NOTE]
 >
->I nomi di dominio visualizzati in questo report sono definiti a livello di cubo. Per modificare questi valori, modificare il **[!UICONTROL Delivery logs (broadlogrcp)]** cubo. Per ulteriori informazioni, consulta [questa sezione](gs-cubes.md). Il **[!UICONTROL Others]** categoria include i nomi di dominio che non appartengono a una classe specifica.
+>I nomi di dominio visualizzati in questo report sono definiti a livello di cubo. Per modificare questi valori, modificare il cubo **[!UICONTROL Delivery logs (broadlogrcp)]**. Per ulteriori informazioni, consulta [questa sezione](gs-cubes.md). La categoria **[!UICONTROL Others]** include nomi di dominio che non appartengono a una classe specifica.
 
 ## Browser {#browsers}
 
@@ -136,9 +136,9 @@ Le statistiche globali sull’utilizzo del browser sono presentate sotto forma d
 
 Sono utilizzati i seguenti indicatori:
 
-* **[!UICONTROL Visitors]** : numero totale di destinatari target (per browser Internet) che hanno fatto clic almeno una volta su una consegna.
+* **[!UICONTROL Visitors]**: numero totale di destinatari di destinazione (per browser Internet) che hanno fatto clic almeno una volta su una consegna.
 * **[!UICONTROL Pages viewed]** : numero totale di clic sui collegamenti in una consegna (per browser Internet) per tutte le consegne.
-* **[!UICONTROL Usage rate]** : questo tasso rappresenta la suddivisione dei visitatori (per browser Internet) in relazione al numero totale di visitatori.
+* **[!UICONTROL Usage rate]** : questo tasso rappresenta il raggruppamento dei visitatori (per browser Internet) in relazione al numero totale di visitatori.
 
 **Statistiche per browser**
 
@@ -148,9 +148,9 @@ Nella tabella dei valori delle statistiche globali, puoi fare clic sul nome di o
 
 Le statistiche sono presentate sotto forma di curva, grafico e tabella di valori.
 
-Il **[!UICONTROL History]** rappresenta la frequenza giornaliera di questo browser. Il tasso è il rapporto tra il numero di visitatori al giorno (in questo browser) e il numero di visitatori misurato nel giorno con il tasso di partecipazione più elevato.
+La curva **[!UICONTROL History]** rappresenta la frequenza giornaliera di questo browser. Il tasso è il rapporto tra il numero di visitatori al giorno (in questo browser) e il numero di visitatori misurato nel giorno con il tasso di partecipazione più elevato.
 
-Il **[!UICONTROL Breakdown per version]** il grafico rappresenta il raggruppamento dei visitatori per versione rispetto al numero totale di visitatori (in questo browser).
+Il grafico **[!UICONTROL Breakdown per version]** rappresenta il raggruppamento dei visitatori per versione rispetto al numero totale di visitatori (in questo browser).
 
 La tabella dei valori utilizza i seguenti indicatori:
 
@@ -226,9 +226,9 @@ Le statistiche di utilizzo globali dei sistemi operativi vengono presentate sott
 
 Sono utilizzati i seguenti indicatori:
 
-* **[!UICONTROL Visitors]** : media giornaliera del numero totale di destinatari target (per sistema operativo) che hanno fatto clic almeno una volta in una consegna.
-* **[!UICONTROL Pages viewed]** : media giornaliera del numero totale di clic sui collegamenti di consegna (per sistema operativo) per tutte le consegne.
-* **[!UICONTROL Rate of use]** : questo tasso rappresenta la suddivisione dei visitatori (per sistema operativo) in relazione al numero totale di visitatori.
+* **[!UICONTROL Visitors]**: media giornaliera del numero totale di destinatari di destinazione (per sistema operativo) che hanno fatto clic almeno una volta in una consegna.
+* **[!UICONTROL Pages viewed]**: media giornaliera del numero totale di clic sui collegamenti di consegna (per sistema operativo) per tutte le consegne.
+* **[!UICONTROL Rate of use]** : questo tasso rappresenta il raggruppamento dei visitatori (per sistema operativo) in relazione al numero totale di visitatori.
 
 **Statistiche per sistema operativo**
 
@@ -238,14 +238,14 @@ Nella tabella dei valori delle statistiche globali fare clic sul nome di ogni si
 
 Le statistiche sono presentate sotto forma di curva, grafico e tabella di valori.
 
-Il **[!UICONTROL History]** La curva rappresenta il tasso di utilizzo giornaliero del sistema operativo. Questo tasso è il rapporto tra il numero di visitatori al giorno (in questo sistema operativo) e il numero di visitatori misurato nel giorno con la partecipazione più elevata.
+La curva **[!UICONTROL History]** rappresenta il tasso di utilizzo giornaliero del sistema operativo. Questo tasso è il rapporto tra il numero di visitatori al giorno (in questo sistema operativo) e il numero di visitatori misurato nel giorno con la partecipazione più elevata.
 
-Il **[!UICONTROL Breakdown by version]** il grafico rappresenta il raggruppamento dei visitatori per versione in relazione al numero totale di visitatori su questo sistema operativo.
+Il grafico **[!UICONTROL Breakdown by version]** rappresenta il raggruppamento dei visitatori per versione in relazione al numero totale di visitatori su questo sistema operativo.
 
 La tabella dei valori utilizza i seguenti indicatori:
 
-* **[!UICONTROL Global rate]** : questo tasso rappresenta la suddivisione dei visitatori (per versione) in relazione al numero totale di visitatori in tutti i sistemi operativi.
-* **[!UICONTROL Relative rate]** : questo tasso rappresenta la suddivisione dei visitatori (per versione) in relazione al numero totale di visitatori per questo sistema operativo.
+* **[!UICONTROL Global rate]** : questo tasso rappresenta il raggruppamento dei visitatori (per versione) in relazione al numero totale di visitatori in tutti i sistemi operativi.
+* **[!UICONTROL Relative rate]** : questo tasso rappresenta il raggruppamento dei visitatori (per versione) in relazione al numero totale di visitatori per questo sistema operativo.
 
 ## Tracciamento abbonamento {#subscription-tracking}
 
@@ -253,21 +253,21 @@ Questo report consente di monitorare gli abbonamenti ai servizi di informazione.
 
 ![](assets/service-report.png)
 
-Per visualizzarlo per un abbonamento, fai clic sul pulsante **[!UICONTROL Profiles and targets > Services and subscriptions]** della home page o dell&#39;explorer. Selezionare l&#39;abbonamento desiderato, quindi fare clic su **[!UICONTROL Reports]** scheda. Il **[!UICONTROL Subscriptions tracking]** è disponibile per impostazione predefinita. Ti consente di visualizzare le tendenze di abbonamento e annullamento dell’abbonamento e il tasso di fedeltà in un periodo. Puoi configurare la rappresentazione di questi dati tramite l’elenco a discesa. Clic **[!UICONTROL Refresh]** per convalidare la configurazione selezionata.
+È possibile visualizzarlo per un abbonamento facendo clic sul nodo **[!UICONTROL Profiles and targets > Services and subscriptions]** della home page o dell&#39;Explorer. Selezionare la sottoscrizione desiderata, quindi fare clic sulla scheda **[!UICONTROL Reports]**. Il report **[!UICONTROL Subscriptions tracking]** è disponibile per impostazione predefinita. Ti consente di visualizzare le tendenze di abbonamento e annullamento dell’abbonamento e il tasso di fedeltà in un periodo. Puoi configurare la rappresentazione di questi dati tramite l’elenco a discesa. Fare clic su **[!UICONTROL Refresh]** per convalidare la configurazione selezionata.
 
-Per ulteriori informazioni, fare riferimento a [questa pagina](../start/subscriptions.md).
+Per ulteriori informazioni, consultare [questa pagina](../start/subscriptions.md).
 
-Il **[!UICONTROL Number subscribed to date]** rappresenta il numero totale di persone attualmente abbonate.
+**[!UICONTROL Number subscribed to date]** rappresenta il numero totale di persone attualmente abbonate.
 
 **[!UICONTROL Overall evolution of subscriptions]**
 
 La tabella dei valori utilizza i seguenti indicatori:
 
-* **[!UICONTROL Subscribers]** : numero totale di abbonati per il periodo in questione.
-* **[!UICONTROL Subscriptions]** : numero di abbonamenti per il periodo in questione.
+* **[!UICONTROL Subscribers]**: numero totale di abbonati per il periodo in questione.
+* **[!UICONTROL Subscriptions]** : numero di abbonamenti per il periodo interessato.
 * **[!UICONTROL Unsubscriptions]** : numero di annullamenti di abbonamenti per il periodo in questione.
 * **[!UICONTROL Evolution]** : numero di annullamenti di abbonamenti meno il numero di abbonamenti. La tariffa viene calcolata in base al numero totale di abbonati.
-* **[!UICONTROL Loyalty]** : tasso di fedeltà degli abbonati per il periodo in questione.
+* **[!UICONTROL Loyalty]**: tasso di fedeltà degli abbonati per il periodo in questione.
 
 **[!UICONTROL Subscription evolution curves]**
 
@@ -281,7 +281,7 @@ Questo rapporto mostra la suddivisione per dominio Internet di tutti i messaggi 
 
 Sono utilizzati i seguenti indicatori:
 
-* **[!UICONTROL Emails processed]** : numero totale di messaggi elaborati dal server di consegna.
+* **[!UICONTROL Emails processed]**: numero totale di messaggi elaborati dal server di consegna.
 * **[!UICONTROL Delivered]** : percentuale del numero di messaggi elaborati correttamente rispetto al numero totale di messaggi elaborati.
 * **[!UICONTROL Hard bounces]** : percentuale del numero di mancati recapiti &quot;permanenti&quot; rispetto al numero totale di messaggi elaborati.
 * **[!UICONTROL Soft bounces]** : percentuale del numero di mancati recapiti &quot;non permanenti&quot; rispetto al numero totale di messaggi elaborati.
@@ -290,9 +290,9 @@ Sono utilizzati i seguenti indicatori:
   >
   >Per ulteriori informazioni sui mancati recapiti permanenti e non permanenti, consulta [questa pagina](../send/quarantines.md).
 
-* **[!UICONTROL Opens]** : percentuale del numero di destinatari che hanno aperto un messaggio almeno una volta rispetto al numero di messaggi elaborati correttamente.
-* **[!UICONTROL Clicks]** : percentuale del numero di persone che hanno fatto clic su una consegna almeno una volta rispetto al numero di messaggi elaborati correttamente.
-* **[!UICONTROL Unsubscription]** : percentuale del numero di clic su un collegamento di annullamento dell’abbonamento rispetto al numero di messaggi elaborati correttamente.
+* **[!UICONTROL Opens]** : percentuale del numero di destinatari di destinazione che hanno aperto un messaggio almeno una volta rispetto al numero di messaggi elaborati correttamente.
+* **[!UICONTROL Clicks]** : percentuale di persone che hanno fatto clic su una consegna almeno una volta rispetto al numero di messaggi elaborati correttamente.
+* **[!UICONTROL Unsubscription]** : percentuale del numero di clic su un collegamento di annullamento dell&#39;abbonamento rispetto al numero di messaggi elaborati correttamente.
 
 ## Raggruppamenti delle aperture {#breakdown-of-opens}
 

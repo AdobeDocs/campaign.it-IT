@@ -34,7 +34,7 @@ A questo scopo, seleziona il menu pertinente:
 
   ![](assets/wf-right-click-display.png)
 
-  È possibile accedere alla struttura della tabella di lavoro nel **[!UICONTROL Schema]** scheda.
+  È possibile accedere alla struttura della tabella di lavoro nella scheda **[!UICONTROL Schema]**.
 
   ![](assets/wf-right-click-schema.png)
 
@@ -44,9 +44,9 @@ A questo scopo, seleziona il menu pertinente:
 
   Utilizza questo menu per accedere alla procedura guidata di analisi descrittiva che consente di generare statistiche e rapporti sui dati di transizione.
 
-  Scopri come utilizzare la procedura guidata di analisi descrittiva in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=it){target="_blank"}.
+  Scopri come utilizzare la procedura guidata di analisi descrittiva nella documentazione di [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=it){target="_blank"}.
 
-I dati di destinazione vengono eliminati durante l’esecuzione del flusso di lavoro. È accessibile solo l&#39;ultima tabella di lavoro. È possibile configurare il flusso di lavoro in modo che tutte le tabelle di lavoro rimangano accessibili: selezionare **[!UICONTROL Keep the result of interim populations between two executions]** nelle proprietà del flusso di lavoro.
+I dati di destinazione vengono eliminati durante l’esecuzione del flusso di lavoro. È accessibile solo l&#39;ultima tabella di lavoro. È possibile configurare il flusso di lavoro in modo che tutte le tabelle di lavoro rimangano accessibili: selezionare l&#39;opzione **[!UICONTROL Keep the result of interim populations between two executions]** nelle proprietà del flusso di lavoro.
 
 ![](assets/wf-purge-data-option.png)
 
@@ -57,7 +57,7 @@ I dati di destinazione vengono eliminati durante l’esecuzione del flusso di la
 
 ### Sfruttare i dati target {#target-data}
 
-I dati memorizzati nella tabella di lavoro temporanea del flusso di lavoro sono disponibili per le attività di personalizzazione. I dati possono essere utilizzati in [campi di personalizzazione](../../v8/send/personalization-fields.md).
+I dati memorizzati nella tabella di lavoro temporanea del flusso di lavoro sono disponibili per le attività di personalizzazione. I dati possono essere utilizzati nei [campi di personalizzazione](../../v8/send/personalization-fields.md).
 
 Questo consente di utilizzare i dati raccolti tramite un elenco in una consegna, ad esempio. A tale scopo, utilizza la sintassi seguente:
 
@@ -65,7 +65,7 @@ Questo consente di utilizzare i dati raccolti tramite un elenco in una consegna,
 %= targetData.FIELD %
 ```
 
-**[!UICONTROL Target extension]** (targetData) Gli elementi di personalizzazione del tipo non sono disponibili per i flussi di lavoro di targeting. Il target della consegna deve essere integrato nel flusso di lavoro e specificato nella transizione in entrata della consegna.
+Gli elementi di personalizzazione del tipo **[!UICONTROL Target extension]** (targetData) non sono disponibili per i flussi di lavoro di targeting. Il target della consegna deve essere integrato nel flusso di lavoro e specificato nella transizione in entrata della consegna.
 
 Nell’esempio seguente, stai raccogliendo un elenco di informazioni sui clienti, da utilizzare in un’e-mail personalizzata. Applica i seguenti passaggi:
 
@@ -85,25 +85,25 @@ Nell’esempio seguente, stai raccogliendo un elenco di informazioni sui clienti
    [...]
    ```
 
-   Per caricare il file, configura **[!UICONTROL Data loading (file)]** attività come segue:
+   Per caricare il file, configurare l&#39;attività **[!UICONTROL Data loading (file)]** come segue:
 
    ![](assets/wf-targetdata-sample-2.png)
 
-1. Configurare **[!UICONTROL Enrichment]** per riconciliare i dati raccolti con quelli già presenti nel database di Adobe Campaign. In questo caso, la chiave di riconciliazione è il numero di account:
+1. Configurare l&#39;attività **[!UICONTROL Enrichment]** per riconciliare i dati raccolti con quelli già presenti nel database di Adobe Campaign. In questo caso, la chiave di riconciliazione è il numero di account:
 
    ![](assets/wf-targetdata-sample-3.png)
 
-1. Quindi configura il **[!UICONTROL Delivery]**: viene creato in base a un modello e i destinatari sono specificati dalla transizione in entrata.
+1. Quindi configura **[!UICONTROL Delivery]**: viene creato in base a un modello e i destinatari sono specificati dalla transizione in entrata.
 
    ![](assets/wf-targetdata-sample-4.png)
 
    >[!CAUTION]
    >
-   >Per personalizzare la consegna è possibile utilizzare solo i dati contenuti nella transizione. **targetData** i campi di personalizzazione del tipo sono disponibili solo per la popolazione in entrata del **[!UICONTROL Delivery]** attività.
+   >Per personalizzare la consegna è possibile utilizzare solo i dati contenuti nella transizione. I campi di personalizzazione di tipo **targetData** sono disponibili solo per il gruppo in entrata dell&#39;attività **[!UICONTROL Delivery]**.
 
 1. Nel modello di consegna, utilizza i campi raccolti nel flusso di lavoro.
 
-   A tale scopo, inserire **[!UICONTROL Target extension]** digita i campi di personalizzazione.
+   Per eseguire questa operazione, inserire campi di personalizzazione di tipo **[!UICONTROL Target extension]**.
 
    ![](assets/wf-targetdata-sample-5.png)
 
@@ -113,7 +113,7 @@ Nell’esempio seguente, stai raccogliendo un elenco di informazioni sui clienti
 
    ![](assets/wf-targetdata-sample-6.png)
 
-   **[!UICONTROL Target extension]** I dati di tipo (targetData) vengono inseriti nelle consegne utilizzando le stesse caratteristiche di tutti i campi di personalizzazione. Possono essere utilizzati anche nell’oggetto, nelle etichette di collegamento o nei collegamenti stessi.
+   I dati di tipo **[!UICONTROL Target extension]** (targetData) vengono inseriti nelle consegne utilizzando le stesse caratteristiche di tutti i campi di personalizzazione. Possono essere utilizzati anche nell’oggetto, nelle etichette di collegamento o nei collegamenti stessi.
 
 
 ## Aggiornare il database {#update-the-database}
@@ -124,18 +124,18 @@ Tutti i dati raccolti possono essere utilizzati per aggiornare il database o nel
 
 I dati del database di Adobe Campaign e gli elenchi esistenti possono essere aggiornati utilizzando due attività dedicate:
 
-* Il **[!UICONTROL List update]** attività consente di memorizzare le tabelle di lavoro in un datalist.
+* L&#39;attività **[!UICONTROL List update]** consente di archiviare le tabelle di lavoro in un datalist.
 
   È possibile selezionare un elenco esistente o crearlo. In questo caso, vengono calcolati il nome e, se possibile, la cartella dei record.
 
   ![](assets/s_user_create_list.png)
 
-  Fai riferimento a [Aggiornamento elenco](list-update.md).
+  Consulta [Aggiornamento elenco](list-update.md).
 
-* Il **[!UICONTROL Update data]** l’attività esegue un aggiornamento di massa dei campi nel database.
+* L&#39;attività **[!UICONTROL Update data]** esegue un aggiornamento di massa dei campi nel database.
 
   Per ulteriori informazioni, consulta [Aggiorna dati](update-data.md).
 
 ### Gestire le iscrizioni {#subscription-management}
 
-Per informazioni sull’abbonamento e sull’annullamento dell’abbonamento dei destinatari a un servizio di informazioni tramite un flusso di lavoro, consulta [Subscription Services](subscription-services.md).
+Per informazioni sull&#39;abbonamento e l&#39;annullamento dell&#39;abbonamento dei destinatari a un servizio di informazioni tramite un flusso di lavoro, fare riferimento a [Servizi di abbonamento](subscription-services.md).

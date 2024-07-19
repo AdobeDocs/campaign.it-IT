@@ -20,7 +20,7 @@ I passaggi per generare il file sono i seguenti:
 
 1. Creare la consegna
 
-   Crea una consegna direct mailing in base al modello. Puoi duplicare e configurare i **[!UICONTROL Deliver by direct mail (paper)]** modello incorporato.
+   Crea una consegna direct mailing in base al modello. È possibile duplicare e configurare il modello incorporato di **[!UICONTROL Deliver by direct mail (paper)]**.
 
    Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/creating-a-direct-mail-delivery.html){target="_blank"}
 

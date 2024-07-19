@@ -34,8 +34,8 @@ Una volta raccolti i dati, puoi utilizzarli nei flussi di lavoro, ad esempio per
 
 Adobe Campaign fornisce funzionalità di importazione generiche che consentono, ad esempio, di estrarre un elenco di clienti o potenziali che entreranno a far parte di una popolazione target o di fornire al database dati provenienti da file esterni.
 
-Le importazioni generiche vengono gestite da **[!UICONTROL Profiles and Targets > Jobs]** nella home page di Adobe Campaign.
+Le importazioni generiche vengono gestite dal menu **[!UICONTROL Profiles and Targets > Jobs]** della home page di Adobe Campaign.
 
 ![](assets/new-import-job.png)
 
-I passaggi per eseguire un’importazione generica sono descritti in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=it){target="_blank"}.
+I passaggi per eseguire un&#39;importazione generica sono descritti nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=it){target="_blank"}.

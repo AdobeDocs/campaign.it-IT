@@ -11,22 +11,22 @@ ht-degree: 0%
 
 ---
 
-# Migrazione degli operatori tecnici di Campaign alla console Adobe Developer {#migrate-tech-users-to-ims}
+# Migrazione degli operatori tecnici di Campaign a Adobe Developer Console {#migrate-tech-users-to-ims}
 
-A partire da Campaign v8.5, il processo di autenticazione per Campaign v8 viene migliorato. Gli operatori tecnici devono utilizzare [Sistema Adobe Identity Management (IMS)](https://helpx.adobe.com/it/enterprise/using/users.html){target="_blank"} per connettersi a Campaign. Un operatore tecnico è un profilo utente di Campaign creato esplicitamente per l’integrazione API. Questo articolo descrive i passaggi necessari per migrare un operatore tecnico all’account tecnico nella console Adobe Developer.
+A partire da Campaign v8.5, il processo di autenticazione per Campaign v8 viene migliorato. Gli operatori tecnici devono utilizzare [Adobe Identity Management System (IMS)](https://helpx.adobe.com/it/enterprise/using/users.html){target="_blank"} per connettersi a Campaign. Un operatore tecnico è un profilo utente di Campaign creato esplicitamente per l’integrazione API. Questo articolo descrive i passaggi necessari per migrare un operatore tecnico all’account tecnico nella console Adobe Developer.
 
 ## Cosa è cambiato?{#ims-changes}
 
 Gli utenti abituali di Campaign si connettono già alla console Adobe Campaign utilizzando il proprio Adobe ID, tramite Adobe Identity Management System (IMS). Come parte del tentativo di rafforzare la sicurezza e il processo di autenticazione, l’applicazione client di Adobe Campaign ora chiama le API di Campaign direttamente utilizzando il token dell’account tecnico IMS.
 
-Ulteriori informazioni sul nuovo processo di autenticazione server-to-server in [Documentazione della console Adobe Developer](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
+Ulteriori informazioni sul processo di autenticazione da server a server nel [documento Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
-Questa modifica è applicabile a partire da Campaign v8.5 e sarà **obbligatorio** avvio di Campaign v8.6.
+Questa modifica è applicabile a partire da Campaign v8.5 e sarà **obbligatoria** a partire da Campaign v8.6.
 
 
 ## Sei interessato?{#ims-impacts}
 
-Se utilizzi le API di Campaign, devi migrare gli operatori tecnici alla console Adobe Developer come descritto di seguito.
+Se utilizzi le API di Campaign, devi migrare gli operatori tecnici in Adobe Developer Console come descritto di seguito.
 
 ## Come effettuare la migrazione?{#ims-migration-procedure}
 
@@ -36,7 +36,7 @@ I passaggi chiave sono i seguenti:
 
 1. Crea innanzitutto il conto tecnico corrispondente all’operatore tecnico. Ad esempio, supponiamo che sia stato creato un nuovo account tecnico (TA1) per l’operatore tecnico (TO1).
 1. Esegui i passaggi descritti di seguito nell’account tecnico TA1
-   [Passaggio 4](#ims-migration-step-4) è facoltativo e obbligatorio solo se l’operatore tecnico dispone di autorizzazioni specifiche per le cartelle.
+   [Il passaggio 4](#ims-migration-step-4) è facoltativo e obbligatorio solo se l&#39;operatore tecnico dispone di autorizzazioni specifiche per la cartella.
 1. Esegui la migrazione di tutta l’implementazione dell’integrazione API di Campaign all’account tecnico TA1 appena creato.
 1. Una volta che tutte le API/integrazioni rivolte al cliente iniziano a funzionare completamente in TA1, sostituisci l’operatore tecnico TO1 con l’account tecnico TA1.
 
@@ -46,18 +46,18 @@ Prima di iniziare la migrazione, devi contattare il tuo Adobe Transition Manager
 
 ### Passaggio 1: creare/aggiornare il progetto Campaign in Adobe Developer Console{#ims-migration-step-1}
 
-Le integrazioni vengono create come parte di un **Progetto** nella console Adobe Developer. Ulteriori informazioni sui progetti in [Documentazione della console Adobe Developer](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.
+Le integrazioni vengono create come parte di un **progetto** in Adobe Developer Console. Ulteriori informazioni sui progetti nella [documentazione di Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.
 
-Puoi utilizzare qualsiasi progetto creato in precedenza da te oppure creare un nuovo progetto. I passaggi per creare un progetto sono descritti in [Documentazione della console Adobe Developer](https://developer.adobe.com/developer-console/docs/guides/getting-started/){target="_blank"}.
+Puoi utilizzare qualsiasi progetto creato in precedenza da te oppure creare un nuovo progetto. I passaggi per la creazione di un progetto sono descritti nella [documentazione di Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/getting-started/){target="_blank"}.
 
-Per questa migrazione, devi aggiungere le seguenti API al progetto: **API di gestione I/O** e **Adobe Campaign**.
+Per questa migrazione, devi aggiungere le seguenti API nel progetto: **API di gestione I/O** e **Adobe Campaign**.
 
 ![](assets/do-not-localize/ims-products-and-services.png)
 
 
 ### Passaggio 2: aggiungere un’API al progetto utilizzando l’autenticazione server-to-server{#ims-migration-step-2}
 
-Una volta creato il progetto nella console Adobe Developer, aggiungi un’API che utilizza l’autenticazione server-to-server. Scopri come impostare le credenziali server-to-server OAuth in [Documentazione della console Adobe Developer](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/){target="_blank"}.
+Una volta creato il progetto in Adobe Developer Console, aggiungi un’API che utilizza l’autenticazione server-to-server. Scopri come impostare le credenziali da server a server OAuth nella [documentazione di Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/){target="_blank"}.
 
 Una volta stabilita la connessione dell’API, puoi accedere alle credenziali appena generate, inclusi ID client e Segreto client, nonché generare un token di accesso.
 
@@ -66,12 +66,12 @@ Una volta stabilita la connessione dell’API, puoi accedere alle credenziali ap
 Ora puoi aggiungere al progetto il tuo profilo di prodotto Campaign, come descritto di seguito:
 
 1. Apri l’API di Adobe Campaign.
-1. Fai clic su **Modificare i profili di prodotto** pulsante
+1. Fai clic sul pulsante **Modifica profili di prodotto**
 
    ![](assets/do-not-localize/ims-edit-api.png)
 
 1. Assegna all’API tutti i profili di prodotto rilevanti, ad esempio &quot;messagecenter&quot;, e salva le modifiche.
-1. Accedi a **Dettagli delle credenziali** del progetto e copia il file **E-mail account tecnico** valore.
+1. Passa alla scheda **Dettagli credenziali** del progetto e copia il valore **E-mail account tecnico**.
 
 ### Passaggio 4: aggiornare l’operatore tecnico nella console client {#ims-migration-step-4}
 
@@ -80,10 +80,10 @@ Questo passaggio è necessario solo se per questo operatore sono stati definiti 
 Ora devi aggiornare l’operatore tecnico appena creato nella console client di Adobe Campaign. È necessario applicare al nuovo operatore tecnico le autorizzazioni esistenti per la cartella dell’operatore tecnico.
 Per aggiornare questo operatore, effettua le seguenti operazioni:
 
-1. Da Esplora console client di Campaign, passa alla **Amministrazione > Gestione degli accessi > Operatori**.
+1. Da Esplora console client di Campaign, passa a **Amministrazione > Gestione degli accessi > Operatori**.
 1. Accedi all’operatore tecnico esistente utilizzato per le API.
 1. Individua le autorizzazioni della cartella e controlla i diritti.
-1. Applica le stesse autorizzazioni all’operatore tecnico appena creato. L’e-mail di questo operatore è **E-mail account tecnico** valore copiato in precedenza.
+1. Applica le stesse autorizzazioni all’operatore tecnico appena creato. L&#39;e-mail di questo operatore è il valore **E-mail account tecnico** copiato in precedenza.
 1. Salva le modifiche.
 
 
@@ -174,14 +174,14 @@ You can also update the technical operator programmatically, using SQL scripts o
 
 ### Passaggio 5: convalidare la configurazione {#ims-migration-step-5}
 
-Per provare la connessione, segui i passaggi descritti in [Guida alle credenziali della console Adobe Developer](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#generate-access-tokens){target="_blank"} per generare un token di accesso e copiare il comando cURL di esempio fornito.
+Per provare la connessione, seguire i passaggi descritti nella [guida alle credenziali di Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#generate-access-tokens){target="_blank"} per generare un token di accesso e copiare il comando cURL di esempio fornito.
 
 
 ### Passaggio 6: aggiornare le integrazioni API di terze parti {#ims-migration-step-6}
 
 Devi aggiornare le integrazioni API con i sistemi di terze parti.
 
-Per ulteriori dettagli sui passaggi di integrazione dell’API, tra cui un codice di esempio per un’integrazione fluida, consulta [Documentazione sull’autenticazione della console Adobe Developer](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
+Per ulteriori dettagli sui passaggi di integrazione API, incluso un codice di esempio per un&#39;integrazione fluida, consulta la [documentazione di autenticazione di Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
 
 ### Passaggio 7 - Rimuovere il vecchio operatore tecnico {#ims-migration-step-7}
@@ -216,7 +216,7 @@ Una volta completato e convalidato il processo di migrazione, le chiamate Soap v
   </soapenv:Envelope>
   ```
 
-* Dopo la migrazione: è disponibile il supporto per il token di accesso dell’account tecnico. Il token di accesso deve essere fornito in `Authorization` intestazione come token Bearer. L’utilizzo del token di sessione deve essere ignorato qui, come mostrato nell’esempio di chiamata soap seguente.
+* Dopo la migrazione: è disponibile il supporto per il token di accesso dell’account tecnico. Il token di accesso deve essere fornito nell&#39;intestazione `Authorization` come token Bearer. L’utilizzo del token di sessione deve essere ignorato qui, come mostrato nell’esempio di chiamata soap seguente.
 
   ```sql
   POST /nl/jsp/soaprouter.jsp HTTP/1.1

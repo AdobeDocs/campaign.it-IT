@@ -18,19 +18,19 @@ I profili sono contatti memorizzati nel database di Campaign, ad esempio clienti
 
 
 
-Un profilo è un record in **nmsRecipient** tabella o tabella esterna in cui sono memorizzati tutti gli attributi del profilo, ad esempio nome, cognome, indirizzo e-mail, un ID cookie, un ID cliente, un identificatore mobile o altre informazioni relative a un canale specifico. Altre tabelle collegate alla tabella dei destinatari contengono dati relativi al profilo, ad esempio la tabella dei registri di consegna che contiene i record di tutte le consegne inviate ai destinatari. Ulteriori informazioni sui profili incorporati e sulle tabelle dei destinatari in [questa sezione](../dev/datamodel.md#ootb-profiles).
+Un profilo è un record nella tabella **nmsRecipient** o in una tabella esterna in cui sono memorizzati tutti gli attributi del profilo, ad esempio nome, cognome, indirizzo e-mail, un ID cookie, un ID cliente, un identificatore mobile o altre informazioni relative a un canale specifico. Altre tabelle collegate alla tabella dei destinatari contengono dati relativi al profilo, ad esempio la tabella dei registri di consegna che contiene i record di tutte le consegne inviate ai destinatari. Ulteriori informazioni sui profili incorporati e sulle tabelle dei destinatari in [questa sezione](../dev/datamodel.md#ootb-profiles).
 
 ![](assets/recipients-in-explorer.png)
 
-In Adobe Campaign, **destinatari** sono i profili predefiniti target per l’invio di consegne (e-mail, SMS, ecc.).
+In Adobe Campaign, **destinatari** sono i profili predefiniti target per l&#39;invio di consegne (e-mail, SMS, ecc.).
 
 I dati dei destinatari memorizzati nel database consentono di filtrare il target che riceverà una determinata consegna e di aggiungere dati di personalizzazione al contenuto della consegna. Nel database sono presenti altri tipi di profili. Essi sono progettati per diversi utilizzi. Ad esempio, i profili di seed vengono creati per testare le consegne prima che vengano inviate al target finale.
 
 Per popolare Adobe Campaign con i dati del profilo, puoi:
 
-* [importare file di dati](../start/import.md) da un’origine dati esterna, ad esempio un sistema CRM, o da un file flat
-* [creare moduli web](../dev/webapps.md) per consentire ai clienti di inserire le proprie informazioni e creare il proprio profilo
-* [mappare a un database esterno](../connect/fda.md) in cui sono memorizzati i profili
+* [importa file di dati](../start/import.md) da un&#39;origine dati esterna, ad esempio un sistema CRM o un file flat
+* [crea moduli web](../dev/webapps.md) per consentire ai clienti di immettere le proprie informazioni e creare il proprio profilo
+* [mappa su un database esterno](../connect/fda.md) in cui sono archiviati i profili
 * immetti i profili manualmente nella console client, come segue:
 
 ![](assets/create-profile.png)

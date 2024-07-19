@@ -18,17 +18,17 @@ Utilizza Adobe Campaign per gestire e tenere traccia delle risorse di marketing 
 
 Per ogni risorsa marketing gestita tramite Adobe Campaign, puoi tracciarne lo stato e la cronologia in qualsiasi momento e visualizzare la versione corrente.
 
-Per impostazione predefinita, le risorse di marketing sono memorizzate in **[!UICONTROL MRM > Marketing resources]** cartella di Campaign explorer.
+Per impostazione predefinita, le risorse di marketing sono archiviate nella cartella **[!UICONTROL MRM > Marketing resources]** di Campaign Explorer.
 
 ## Aggiungere una risorsa di marketing {#adding-a-marketing-resource}
 
 Per aggiungere una risorsa di marketing, effettua le seguenti operazioni:
 
-1. Accedi a **[!UICONTROL Campaigns]** e seleziona **[!UICONTROL Marketing resouces]**.
+1. Passare alla scheda **[!UICONTROL Campaigns]** e selezionare **[!UICONTROL Marketing resouces]**.
 
 1. Fai clic sul pulsante **[!UICONTROL Create]**.
    ![](assets/add-a-mkt-resource.png)
-1. Trascina e rilascia il file nella finestra delle risorse Marketing per caricarlo sul server Campaign. È inoltre possibile utilizzare **[!UICONTROL Upload file to server...]** collegamento.
+1. Trascina e rilascia il file nella finestra delle risorse Marketing per caricarlo sul server Campaign. È inoltre possibile utilizzare il collegamento **[!UICONTROL Upload file to server...]**.
    ![](assets/mkt-resource-creation.png)
 
 Al termine del caricamento, la risorsa viene aggiunta all’elenco delle risorse disponibili.
@@ -39,23 +39,23 @@ Una volta caricata, la risorsa marketing è disponibile per tutti gli operatori 
 
 ![](assets/open-a-marketing-resource.png)
 
-Utilizza il **[!UICONTROL Assigned to]** elenco a discesa nella **[!UICONTROL Edit]** per selezionare l’operatore responsabile della risorsa.
+Utilizzare l&#39;elenco a discesa **[!UICONTROL Assigned to]** nella scheda **[!UICONTROL Edit]** per selezionare l&#39;operatore responsabile della risorsa.
 
 ![](assets/assign-a-mkt-resource.png)
 
-Puoi anche selezionare gli operatori o i gruppi di operatori responsabili della convalida delle risorse e della pubblicazione delle risorse. Per accedere a queste opzioni, fai clic su  **[!UICONTROL Advanced parameters]** collegamento.
+Puoi anche selezionare gli operatori o i gruppi di operatori responsabili della convalida delle risorse e della pubblicazione delle risorse. Per accedere a queste opzioni, fare clic sul collegamento **[!UICONTROL Advanced parameters]**.
 
 Questi operatori ricevono una notifica tramite e-mail all’avvio del processo di convalida delle risorse.
 
-Se non è selezionato alcun revisore, la risorsa **[!UICONTROL cannot be]** soggetto ad approvazione.
+Se non è selezionato alcun revisore, la risorsa **[!UICONTROL cannot be]** è soggetta ad approvazione.
 
-Utilizza il **[!UICONTROL Audit]** per aggiungere un lettore di bozze e definire una data di disponibilità per la risorsa. Oltre questa data, verrà visualizzato con **[!UICONTROL Late]** stato.
+Utilizzare la scheda **[!UICONTROL Audit]** per aggiungere un lettore di bozze e definire una data di disponibilità per la risorsa. Oltre questa data, verrà visualizzato con lo stato **[!UICONTROL Late]**.
 
 >[!NOTE]
 >
->Il **[!UICONTROL History]** contiene il registro di download e aggiornamento della risorsa. Il **[!UICONTROL Details]** consente di visualizzare la versione selezionata.
+>La scheda **[!UICONTROL History]** contiene il registro di download e aggiornamento per la risorsa. Il pulsante **[!UICONTROL Details]** consente di visualizzare la versione selezionata.
 >
->Il **[!UICONTROL Audit]** Questa scheda ti consente di monitorare tutte le azioni eseguite sulla risorsa: approvazioni, rifiuti di approvazione, commenti correlati o pubblicazioni.
+>La scheda **[!UICONTROL Audit]** consente di monitorare tutte le azioni eseguite sulla risorsa: approvazioni, rifiuti di approvazione, commenti correlati o pubblicazioni.
 
 ### Blocco/sblocco di una risorsa {#locking-unlocking-a-resource}
 
@@ -65,18 +65,18 @@ Quando un operatore inizia a lavorare su una risorsa, si consiglia di bloccarla 
 
 Una risorsa marketing può essere bloccata solo se non è stata approvata.
 
-Per bloccare una risorsa, fai clic su **[!UICONTROL Lock]** nel dashboard delle risorse.
+Per bloccare una risorsa, è necessario fare clic sul pulsante **[!UICONTROL Lock]** nel dashboard delle risorse.
 
 ![](assets/lock-a-resource.png)
 
 
-Una volta aggiornata la risorsa, fai clic su **[!UICONTROL Lock]** nel dashboard delle risorse per renderli nuovamente disponibili a tutti gli operatori.
+Una volta aggiornata la risorsa, fare clic sul pulsante **[!UICONTROL Lock]** nel dashboard delle risorse per renderla nuovamente disponibile a tutti gli operatori.
 
 Un messaggio speciale avvisa gli operatori che tentano di accedervi:
 
 ![](assets/mkt-resource-locked.png)
 
-Il **[!UICONTROL Tracking]** indica il nome dell’operatore che ha bloccato la risorsa.
+La scheda **[!UICONTROL Tracking]** indica il nome dell&#39;operatore che ha bloccato la risorsa.
 
 ![](assets/mkt-resource-audit-tab.png)
 
@@ -87,17 +87,17 @@ Il **[!UICONTROL Tracking]** indica il nome dell’operatore che ha bloccato la 
 
 ### Forum di discussione {#discussion-forums}
 
-Per ogni risorsa, il **[!UICONTROL Forum]** consente ai partecipanti di condividere le informazioni.
+Per ogni risorsa, la scheda **[!UICONTROL Forum]** consente ai partecipanti di condividere le informazioni.
 
 ![](assets/mkt-resource-forum.png)
 
-Per ulteriori informazioni, consulta [Forum di discussione](discussion-forums.md) sezione.
+Ulteriori informazioni sono disponibili nella sezione [Forum di discussione](discussion-forums.md).
 
 ### Processo di approvazione {#approval-process}
 
-La data di disponibilità prevista viene visualizzata nei dettagli della risorsa, se è stata specificata in **[!UICONTROL Tracking]** scheda. Una volta raggiunta tale data, puoi eseguire il processo di approvazione utilizzando **[!UICONTROL Submit for approval]** nel dashboard delle risorse. Lo stato della risorsa diventa **[!UICONTROL Approval in progress]**.
+La data di disponibilità prevista viene visualizzata nei dettagli della risorsa, se specificata nella scheda **[!UICONTROL Tracking]**. Una volta raggiunta questa data, è possibile eseguire il processo di approvazione utilizzando il pulsante **[!UICONTROL Submit for approval]** nel dashboard delle risorse. Lo stato della risorsa cambia quindi in **[!UICONTROL Approval in progress]**.
 
-Per approvare una risorsa, fai clic su **[!UICONTROL Approve the resource]** sulla dashboard.
+Per approvare una risorsa, fare clic sul pulsante **[!UICONTROL Approve the resource]** nel relativo dashboard.
 
 ![](assets/mkt-resouce-approve.png)
 
@@ -107,17 +107,17 @@ La finestra di approvazione consente di inserire un commento.
 
 ![](assets/mkt-resource-approval-confirmation.png)
 
-Accedi a **[!UICONTROL Tracking]** per verificare le approvazioni.
+Passare alla scheda **[!UICONTROL Tracking]** per verificare le approvazioni.
 
 >[!NOTE]
 >
 >Oltre al revisore specificato per ogni risorsa di marketing, gli operatori con diritti di amministratore e il responsabile risorse sono autorizzati ad approvare una risorsa di marketing.
 
-### Pubblicare una risorsa {#publishing-a-resource}
+### Publish una risorsa {#publishing-a-resource}
 
 Una volta approvata, la risorsa marketing deve essere pubblicata. Il processo di pubblicazione deve essere soggetto a un&#39;implementazione specifica in base ai requisiti aziendali. Ciò significa che le risorse possono essere pubblicate su una extranet o su qualsiasi altro server, che è possibile inviare informazioni specifiche a un fornitore di servizi esterno e così via.
 
-Per pubblicare una risorsa, fai clic su **[!UICONTROL Publish]** nell’area di modifica del dashboard delle risorse di marketing.
+Per pubblicare una risorsa, fai clic sul pulsante **[!UICONTROL Publish]** nell&#39;area di modifica del dashboard delle risorse di marketing.
 
 ![](assets/mkt-resource-publish.png)
 
@@ -125,14 +125,14 @@ Puoi anche automatizzare la pubblicazione di una risorsa tramite un flusso di la
 
 Pubblicare una risorsa significa renderla disponibile per l’uso (ad esempio, da un’altra attività). La pubblicazione varia a seconda della natura della risorsa: per un volantino, la pubblicazione può significare l&#39;invio del file a una stampante, per un&#39;agenzia web, può significare la pubblicazione su un sito web, ecc.
 
-Per pubblicare Adobe Campaign, devi creare un flusso di lavoro adeguato e collegarlo alla risorsa. Per eseguire questa operazione, apri la **[!UICONTROL Advanced settings...]** della risorsa, quindi seleziona il flusso di lavoro desiderato nella sezione **[!UICONTROL Post-processing]** campo.
+Per pubblicare Adobe Campaign, devi creare un flusso di lavoro adeguato e collegarlo alla risorsa. A questo scopo, apri la casella **[!UICONTROL Advanced settings...]** della risorsa, quindi seleziona il flusso di lavoro desiderato nel campo **[!UICONTROL Post-processing]**.
 
 ![](assets/mkt-resource-post-processing-wf.png)
 
 Il flusso di lavoro viene eseguito:
 
-* Quando il revisore fa clic su **[!UICONTROL Publish resource]** (o, se non è stato definito alcun revisore, la persona responsabile della risorsa).
-* Se la risorsa viene gestita tramite un’attività di creazione di risorse di marketing, verrà eseguita quando l’attività è impostata su **[!UICONTROL Finished]**, purché **[!UICONTROL Publish the marketing resource]** è selezionata nell&#39;attività. [Ulteriori informazioni](creating-and-managing-tasks.md#marketing-resource-creation-task))
+* Quando il revisore fa clic sul collegamento **[!UICONTROL Publish resource]** o, se non è stato definito alcun revisore, la persona responsabile della risorsa.
+* Se la risorsa è gestita tramite un&#39;attività di creazione di risorse di marketing, verrà eseguita quando l&#39;attività è impostata su **[!UICONTROL Finished]**, purché la casella **[!UICONTROL Publish the marketing resource]** sia selezionata nell&#39;attività. [Ulteriori informazioni](creating-and-managing-tasks.md#marketing-resource-creation-task))
 
 Se un flusso di lavoro non viene avviato immediatamente (ad esempio se viene interrotto), lo stato della risorsa cambia in **[!UICONTROL Pending publication]**. Una volta avviato il flusso di lavoro, lo stato della risorsa cambia in **[!UICONTROL Published]**. Questo stato non tiene conto di possibili errori nel processo di pubblicazione. Controlla lo stato del flusso di lavoro per assicurarti che sia eseguito correttamente.
 
@@ -140,15 +140,15 @@ Se un flusso di lavoro non viene avviato immediatamente (ad esempio se viene int
 
 ### Fare riferimento a una risorsa di marketing {#referencing-a-marketing-resource}
 
-Le risorse di marketing possono essere associate alle campagne, purché questa funzione sia stata selezionata nel [modello di campagna](../campaigns/marketing-campaign-templates.md).
+Le risorse di marketing possono essere associate alle campagne, purché questa funzione sia stata selezionata nel [modello campagna](../campaigns/marketing-campaign-templates.md).
 
-Accedi a **[!UICONTROL Edit > Documents > Resources]** nel dashboard della campagna, quindi fai clic su **[!UICONTROL Add]** per selezionare la risorsa in questione.
+Passa alla scheda **[!UICONTROL Edit > Documents > Resources]** nel dashboard della campagna, quindi fai clic su **[!UICONTROL Add]** per selezionare la risorsa interessata.
 
 ![](assets/link-a-mkt-resource-to-a-campaign.png)
 
 Puoi filtrare le risorse per stato, natura o tipo, oppure applicare un filtro personalizzato.
 
-Utilizza il **[!UICONTROL Details]** per modificare e visualizzare in anteprima la risorsa.
+Utilizza il pulsante **[!UICONTROL Details]** per modificare e visualizzare in anteprima la risorsa.
 
 ### Aggiungere una risorsa marketing a una struttura di consegna {#adding-a-marketing-resource-to-a-delivery-outline}
 
@@ -160,7 +160,7 @@ A questo scopo, fai clic con il pulsante destro del mouse su una struttura di co
 
 ![](assets/mkt-resource-add-in-del-outline.png)
 
-Inserisci il nome della risorsa e selezionala dalla **Risorsa marketing** elenco a discesa.
+Immetti il nome della risorsa e selezionala dall&#39;elenco a discesa **Risorsa marketing**.
 
 ![](assets/mkt-resource-select-in-del-outline.png)
 
@@ -178,8 +178,8 @@ Per associare una risorsa marketing a un magazzino, effettuare le seguenti opera
 
    ![](assets/mkt-resource-in-a-stock-line.png)
 
-   Puoi modificare la risorsa selezionata tramite **[!UICONTROL Edit the link]** a destra della risorsa, una volta selezionata.
+   È possibile modificare la risorsa selezionata tramite l&#39;icona **[!UICONTROL Edit the link]** situata a destra della risorsa dopo averla selezionata.
 
 1. Specificare il materiale iniziale e il materiale di allerta, quindi salvare.
 
-Le scorte sono indicate nella risorsa di marketing **Scorte** scheda.
+Le scorte sono indicate nella scheda della risorsa marketing **Scorte**.

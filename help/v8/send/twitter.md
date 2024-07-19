@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Pubblica messaggi su X (Twitter) con Adobe Campaign {#post-tw-messages}
 
-Adobe Campaign viene fornito con **Social marketing** che consente di interagire con i clienti attuali e potenziali tramite X (precedentemente noto come Twitter).
+Adobe Campaign viene fornito con un modulo **Social Marketing** che ti consente di interagire con i tuoi clienti attuali e potenziali tramite X (precedentemente noto come Twitter).
 
 Una volta configurata l’integrazione, puoi:
 
@@ -23,7 +23,7 @@ Una volta configurata l’integrazione, puoi:
 * Raccogliere nuovi contatti recuperando i dati del profilo, che consente di eseguire campagne di targeting e, quando possibile, di implementare strategie cross-channel. Questa azione richiede il consenso dell’utente.
 
 
-I passaggi di configurazione per integrare l’account X con Adobe Campaign sono descritti in [questa pagina](../connect/ac-tw.md).
+I passaggi di configurazione per integrare il tuo account X con Adobe Campaign sono descritti in [questa pagina](../connect/ac-tw.md).
 
 ## Creare e pubblicare un post X {#publish-on-tw}
 
@@ -31,7 +31,7 @@ Segui i passaggi seguenti per pubblicare un messaggio sul tuo account X:
 
 1. Creare una consegna X
 
-   Crea una nuova consegna basata su **[!UICONTROL Tweet (twitter)]** modello di consegna.
+   Creare una nuova consegna basata sul modello di consegna **[!UICONTROL Tweet (twitter)]**.
 
    ![](assets/tw-new-delivery.png)
 
@@ -44,21 +44,21 @@ Segui i passaggi seguenti per pubblicare un messaggio sul tuo account X:
    1. Fai clic sul collegamento **[!UICONTROL To]**.
    1. Fai clic sul pulsante **[!UICONTROL Add]**.
    1. Seleziona **[!UICONTROL A Twitter account]**.
-   1. In **[!UICONTROL Folder]** , selezionare la cartella del servizio che contiene l&#39;account X. Quindi seleziona l’account X a cui inviare il tweet.
+   1. Nel campo **[!UICONTROL Folder]** selezionare la cartella del servizio che contiene l&#39;account X. Quindi seleziona l’account X a cui inviare il tweet.
 
 1. Seleziona la destinazione della bozza
 
-   Il **[!UICONTROL Target of the proofs]** Questa scheda ti consente di definire l’account X da utilizzare per le consegne di test prima della consegna finale.
+   La scheda **[!UICONTROL Target of the proofs]** ti consente di definire l’account X da utilizzare per le consegne di test prima della consegna finale.
 
-   Come descritto nella sezione [passaggi di configurazione](../connect/ac-tw.md#tw-test-account), devi creare un account X di test privato dedicato all’invio delle bozze.
+   Come descritto nei [passaggi di configurazione](../connect/ac-tw.md#tw-test-account), devi creare un account X di test privato dedicato all&#39;invio delle bozze.
 
    >[!NOTE]
    >
-   >Se utilizzi lo stesso account di test X per tutte le consegne, puoi salvare il target della bozza in **[!UICONTROL Tweet]** modello di consegna, accessibile tramite **[!UICONTROL Resources > Templates > Delivery templates]** nodo. La destinazione della bozza verrà quindi inserita per impostazione predefinita per ogni nuova consegna.
+   >Se utilizzi lo stesso account di test X per tutte le consegne, puoi salvare la destinazione della bozza nel modello di consegna **[!UICONTROL Tweet]**, accessibile tramite il nodo **[!UICONTROL Resources > Templates > Delivery templates]**. La destinazione della bozza verrà quindi inserita per impostazione predefinita per ogni nuova consegna.
 
 1. Definire il contenuto del post
 
-   Inserisci il contenuto del post in **[!UICONTROL Content]** scheda.
+   Immettere il contenuto del post nella scheda **[!UICONTROL Content]**.
 
    ![](assets/tw-delivery-content.png)
 
@@ -72,13 +72,13 @@ Segui i passaggi seguenti per pubblicare un messaggio sul tuo account X:
 
 1. Anteprima del post
 
-   Sfoglia **[!UICONTROL Preview]** per controllare il rendering del post.
+   Sfoglia la scheda **[!UICONTROL Preview]** per controllare il rendering del post.
 
    ![](assets/tw-delivery-preview.png)
 
-   1. Fai clic su **[!UICONTROL Preview]** scheda.
-   1. Fai clic su **[!UICONTROL Test personalization]** menu a discesa e selezionare **[!UICONTROL Service]**.
-   1. In **[!UICONTROL Folder]** , selezionare la cartella del servizio che contiene l&#39;account X.
+   1. Fare clic sulla scheda **[!UICONTROL Preview]**.
+   1. Fare clic sul menu a discesa **[!UICONTROL Test personalization]** e selezionare **[!UICONTROL Service]**.
+   1. Nel campo **[!UICONTROL Folder]** selezionare la cartella del servizio che contiene l&#39;account X.
 
 1. Inviare una bozza
 
@@ -86,41 +86,41 @@ Segui i passaggi seguenti per pubblicare un messaggio sul tuo account X:
 
 1. Pubblica il messaggio
 
-   1. Una volta approvato il contenuto, fai clic su **[!UICONTROL Send]** pulsante.
-   1. Seleziona **[!UICONTROL Deliver as soon as possible]** e fai clic su **[!UICONTROL Analyze]** pulsante.
+   1. Una volta approvato il contenuto, fare clic sul pulsante **[!UICONTROL Send]**.
+   1. Selezionare **[!UICONTROL Deliver as soon as possible]** e fare clic sul pulsante **[!UICONTROL Analyze]**.
    1. Al termine dell’analisi, verifica il risultato.
-   1. Clic **[!UICONTROL Confirm delivery]**, quindi fai clic su **[!UICONTROL Yes]**.
+   1. Fare clic su **[!UICONTROL Confirm delivery]**, quindi su **[!UICONTROL Yes]**.
 
 ## Inviare messaggi diretti ai follower {#direct-tw-messages}
 
-Il **[!UICONTROL Synchronize Twitter accounts]** il flusso di lavoro tecnico recupera l’elenco degli X follower in modo da poter inviare loro messaggi diretti. [Ulteriori informazioni](../connect/ac-tw.md#synchro-tw-accounts)
+Il flusso di lavoro tecnico **[!UICONTROL Synchronize Twitter accounts]** recupera l&#39;elenco degli X follower in modo da poter inviare loro messaggi diretti. [Ulteriori informazioni](../connect/ac-tw.md#synchro-tw-accounts)
 
 Per inviare messaggi diretti ai tuoi follower, segui i passaggi seguenti:
 
-1. Creare una consegna X in base al **[!UICONTROL Tweet (Direct Message)]** modello di consegna incorporato.
+1. Creare una consegna X basata sul modello di consegna incorporato **[!UICONTROL Tweet (Direct Message)]**.
 
 1. Seleziona la destinazione principale
 
    ![](assets/tw-dm-define-target.png)
 
-   1. Seleziona la **[!UICONTROL To]** e il **[!UICONTROL Add]** pulsante.
+   1. Selezionare il collegamento **[!UICONTROL To]** e il pulsante **[!UICONTROL Add]**.
 
    1. Scegli un tipo di targeting
 
       * Seleziona **[!UICONTROL Twitter subscribers]** per inviare un messaggio diretto a tutti i tuoi follower.
 
-      * Seleziona **[!UICONTROL Filter conditions]** per definire una query e visualizzarne il risultato. Scopri come creare un filtro in [questa sezione](../audiences/create-filters.md#advanced-filters).
+      * Selezionare **[!UICONTROL Filter conditions]** per definire una query e visualizzarne il risultato. Scopri come creare un filtro in [questa sezione](../audiences/create-filters.md#advanced-filters).
 
-1. Seleziona la destinazione della bozza da **[!UICONTROL Target of the proofs]** scheda: questo account riceverà la prova del tuo messaggio diretto.
+1. Seleziona la destinazione della bozza dalla scheda **[!UICONTROL Target of the proofs]**: questo account riceverà la bozza del tuo messaggio diretto.
 
-   Come descritto nella sezione [passaggi di configurazione](../connect/ac-tw.md#tw-test-account), devi creare un account X di test privato dedicato all’invio delle bozze.
+   Come descritto nei [passaggi di configurazione](../connect/ac-tw.md#tw-test-account), devi creare un account X di test privato dedicato all&#39;invio delle bozze.
 
 
    >[!NOTE]
    >
-   >Se desideri inviare tutte le bozze dei messaggi diretti allo stesso account X, puoi salvare il target della bozza in **[!UICONTROL Tweet (Direct Message)]** modello di consegna, accessibile tramite **[!UICONTROL Resources > Templates > Delivery templates]** nodo.
+   >Se desideri inviare tutte le bozze dei messaggi diretti allo stesso account X, puoi salvare la destinazione della bozza nel modello di consegna **[!UICONTROL Tweet (Direct Message)]**, accessibile tramite il nodo **[!UICONTROL Resources > Templates > Delivery templates]**.
 
-1. Inserisci il contenuto del messaggio in **[!UICONTROL Content]** scheda.
+1. Immettere il contenuto del messaggio nella scheda **[!UICONTROL Content]**.
 
    ![](assets/tw-dm-content.png)
 
@@ -128,35 +128,35 @@ Per inviare messaggi diretti ai tuoi follower, segui i passaggi seguenti:
 
 1. Anteprima del messaggio
 
-   Sfoglia **[!UICONTROL Preview]** per controllare il rendering del post.
+   Sfoglia la scheda **[!UICONTROL Preview]** per controllare il rendering del post.
 
    ![](assets/tw-dm-preview.png)
 
-   1. Fai clic su **[!UICONTROL Preview]** scheda.
-   1. Fai clic su **[!UICONTROL Test personalization]** menu a discesa e selezionare **[!UICONTROL Visitor Subscription]**.
+   1. Fare clic sulla scheda **[!UICONTROL Preview]**.
+   1. Fare clic sul menu a discesa **[!UICONTROL Test personalization]** e selezionare **[!UICONTROL Visitor Subscription]**.
    1. Scegli un account X con cui desideri verificare l’anteprima.
 
 1. Inviare una bozza
 
-   Prima di inviare il messaggio, assicurati di convalidarlo tramite [invio di una bozza a un account di test](../send/preview-and-proof.md): puoi quindi ottenere un rendering esatto del messaggio su un account X privato e controllare il contenuto e la personalizzazione.
+   Prima di inviare il messaggio, assicurati di convalidarlo inviando [una bozza a un account di prova](../send/preview-and-proof.md): potrai quindi ottenere un rendering esatto del messaggio su un account X privato e controllare il contenuto e la personalizzazione.
 
 1. Inviare il messaggio diretto
 
-   1. Una volta approvato il contenuto, fai clic su **[!UICONTROL Send]** pulsante.
-   1. Seleziona **[!UICONTROL Deliver as soon as possible]** e fai clic su **[!UICONTROL Analyze]** pulsante.
+   1. Una volta approvato il contenuto, fare clic sul pulsante **[!UICONTROL Send]**.
+   1. Selezionare **[!UICONTROL Deliver as soon as possible]** e fare clic sul pulsante **[!UICONTROL Analyze]**.
    1. Al termine dell’analisi, verifica il risultato.
-   1. Clic **[!UICONTROL Confirm delivery]**, quindi fai clic su **[!UICONTROL Yes]**.
+   1. Fare clic su **[!UICONTROL Confirm delivery]**, quindi su **[!UICONTROL Yes]**.
 
 >[!CAUTION]
 >
->Non puoi inviare più di 250 messaggi diretti al giorno. Per evitare di superare questa soglia, è possibile effettuare la consegna in ondate. Per ulteriori informazioni, consulta [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves){target="_blank"}.
+>Non puoi inviare più di 250 messaggi diretti al giorno. Per evitare di superare questa soglia, è possibile effettuare la consegna in ondate. Per ulteriori informazioni, consulta la [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves){target="_blank"}.
 
 
 ## Accedere ai dati di tracciamento {#tw-tracking}
 
-Nella scheda **[!UICONTROL Tweet]** modello di consegna, il tracciamento è abilitato per impostazione predefinita.
+Nel modello di consegna **[!UICONTROL Tweet]** incorporato, il tracciamento è abilitato per impostazione predefinita.
 
-I dati di tracciamento possono essere visualizzati nei rapporti di consegna e nella **[!UICONTROL Edit > Tracking]** della consegna e del servizio.
+I dati di tracciamento possono essere visualizzati nei report di consegna e nella scheda **[!UICONTROL Edit > Tracking]** della consegna e del servizio.
 
-La configurazione di tracciamento è la stessa di una consegna e-mail. Ulteriori informazioni in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=it){target="_blank"}.
+La configurazione di tracciamento è la stessa di una consegna e-mail. Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=it){target="_blank"}.
 

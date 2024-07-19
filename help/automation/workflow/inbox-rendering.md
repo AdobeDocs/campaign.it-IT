@@ -16,7 +16,7 @@ ht-degree: 3%
 
 
 
-Il flusso di lavoro descritto di seguito viene installato con **Rendering casella in entrata (IR)** per impostazione predefinita.
+Per impostazione predefinita, il flusso di lavoro descritto di seguito viene installato con il modulo **Rendering Posta in arrivo (IR)**.
 
 <table> 
  <tbody> 

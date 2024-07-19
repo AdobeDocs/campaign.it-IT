@@ -12,9 +12,9 @@ ht-degree: 50%
 
 ---
 
-# [!DNL Campaign] Distribuzione FFDA {#gs-ac-ffda}
+# Distribuzione FFDA [!DNL Campaign] {#gs-ac-ffda}
 
-Sfruttando [[!DNL Snowflake]](https://www.snowflake.com/){target="_blank"}, una tecnologia di database cloud, l’implementazione di Adobe Campaign Enterprise Full Federated Access (FFDA) migliora notevolmente la scalabilità e la velocità, con la possibilità di gestire un numero più significativo di profili cliente e garantendo inoltre tassi di consegna e transazioni all’ora più elevati.
+Sfruttando [[!DNL Snowflake]](https://www.snowflake.com/){target="_blank"}, una tecnologia di database cloud, l&#39;implementazione di Adobe Campaign Enterprise Full Federated Access (FFDA) migliora notevolmente la scalabilità e la velocità, con la possibilità di gestire un numero più significativo di profili cliente e garantendo inoltre tassi di consegna e transazioni all&#39;ora più elevati.
 
 ## Vantaggi {#ffda-benefits}
 
@@ -37,9 +37,9 @@ Le tabelle o gli schemi integrati che devono essere spostati o replicati nel dat
 
 ## Architettura Campaign Enterprise (FFDA){#ffda-archi}
 
-In un [Distribuzione aziendale (FFDA)](../architecture/enterprise-deployment.md), [!DNL Adobe Campaign] v8 funziona con due database: uno locale [!DNL Campaign] database per la messaggistica in tempo reale, le query unitarie dell’interfaccia utente, le operazioni di scrittura tramite API e un cloud [!DNL Snowflake] database per l’esecuzione della campagna, le query batch e l’esecuzione dei flussi di lavoro.
+In una distribuzione di [Enterprise (FFDA)](../architecture/enterprise-deployment.md), [!DNL Adobe Campaign] v8 funziona con due database: un database [!DNL Campaign] locale per la messaggistica in tempo reale, le query unitarie dell&#39;interfaccia utente e le operazioni di scrittura tramite API e un database [!DNL Snowflake] cloud per l&#39;esecuzione della campagna, le query batch e l&#39;esecuzione del flusso di lavoro.
 
-Campaign v8 Enterprise introduce il concetto di **Federated Data Access completo** (FFDA): adesso tutti i dati sono remoti, nel Cloud Database.
+Campaign v8 Enterprise introduce il concetto di **Full Federated Data Access** (FFDA): adesso tutti i dati sono remoti, nel database cloud.
 
 Sono disponibili API specifiche per la gestione dei dati tra il database locale e quello cloud. Per scoprire come funzionano queste nuove API e come utilizzarle, visita [questa pagina](new-apis.md).
 
@@ -50,7 +50,7 @@ La comunicazione generale tra server e processi viene eseguita in base allo sche
 * I moduli di esecuzione e gestione dei mancati recapiti sono disabilitati nell’istanza.
 * L’applicazione è configurata per eseguire l’esecuzione dei messaggi su un server remoto di &quot;mid-sourcing&quot; guidato tramite chiamate SOAP (su HTTP o HTTPS).
 
-Il [!DNL Snowflake] database sul lato marketing utilizzato per:
+Il database [!DNL Snowflake] sul lato marketing viene utilizzato per:
 
 * Memorizza tutti i dati del cliente: profili, dati personalizzati come transazioni, prodotti, posizioni, ecc.
 * Memorizza tutti gli eventi e i dati di comportamento generati o raccolti da Campaign, ad esempio i registri di consegna, di tracciamento, di registrazione push e così via.
@@ -63,7 +63,7 @@ Il database PostgreSQL nell’istanza di marketing viene utilizzato per:
 
 * Eseguire determinati carichi di lavoro, ad esempio API per volumi ridotti.
 * Memorizza tutti i dati di Campaign, incluse le impostazioni di consegna e campagna, le definizioni di flussi di lavoro e servizi.
-* Memorizza tutte le tabelle di riferimento incorporate (enumerazioni, paesi, ecc.) che vengono replicati in [!DNL Snowflake].
+* Memorizza tutte le tabelle di riferimento incorporate (enumerazioni, paesi, ecc.) replicati in [!DNL Snowflake].
 
   Tuttavia, non è possibile:
    * creare personalizzazioni per i dati dei clienti, ad esempio non creare una tabella domestica in PostgreSQL, ma solo nel Snowflake
@@ -80,15 +80,15 @@ Il database PostgreSQL nell’istanza di mid-sourcing viene utilizzato per:
 
 ## Impatti{#ffda-impacts}
 
-### [!DNL Campaign] Meccanismo di staging API{#staging-api}
+### Meccanismo di staging API [!DNL Campaign]{#staging-api}
 
-Con [!DNL Campaign] Database cloud, le chiamate unitarie blast non sono consigliate a causa delle prestazioni (latenza e concorrenza). L&#39;operazione batch è sempre preferibile. Al fine di garantire prestazioni ottimali delle API, Campaign continua a gestire le chiamate API a livello di database locale.
+Con il database cloud [!DNL Campaign], le chiamate unitarie blast non sono consigliate a causa delle prestazioni (latenza e concorrenza). L&#39;operazione batch è sempre preferibile. Al fine di garantire prestazioni ottimali delle API, Campaign continua a gestire le chiamate API a livello di database locale.
 
 [Il meccanismo di staging API è descritto in questa pagina](staging.md)
 
 ### Nuove API{#new-apis}
 
-Sono disponibili nuove API per gestire la sincronizzazione dei dati tra [!DNL Campaign] database locale e database cloud. È stato inoltre introdotto un nuovo meccanismo per gestire le chiamate API a livello di database locale al fine di evitare la latenza e aumentare le prestazioni complessive.
+Sono disponibili nuove API per gestire la sincronizzazione dei dati tra il database locale [!DNL Campaign] e il database cloud. È stato inoltre introdotto un nuovo meccanismo per gestire le chiamate API a livello di database locale al fine di evitare la latenza e aumentare le prestazioni complessive.
 
 [Le nuove API sono dettagliate in questa pagina](new-apis.md)
 
@@ -107,7 +107,7 @@ Un flusso di lavoro tecnico specifico gestisce la replica delle tabelle che devo
 
 ### Gestione ID{#id-mgt-ffda}
 
-Ora gli oggetti di Campaign v8 utilizzano un **ID universalmente univoco (UUID)**, che consente l’identificazione dei dati con valori univoci illimitati.
+Gli oggetti di Campaign v8 utilizzano ora un **ID universalmente univoco (UUID)**, che consente l’identificazione dei dati tramite valori univoci illimitati.
 
 Tieni presente che questo ID è basato su stringhe e non è sequenziale. La chiave primaria non è un valore numerico in Campaign v8 e devi utilizzare gli attributi **autouuid** e **autopk** negli schemi.
 

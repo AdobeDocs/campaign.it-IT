@@ -26,16 +26,16 @@ Prima di iniziare, è necessario:
 
 >[!NOTE]
 >
->Puoi anche connetterti all’interfaccia utente di Campaign Web tramite un browser web. Ulteriori informazioni sulla nuova interfaccia utente di Campaign Web in [questa documentazione](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=it){target="_blank"}.
+>Puoi anche connetterti all’interfaccia utente di Campaign Web tramite un browser web. Ulteriori informazioni sulla nuova interfaccia utente di Campaign Web sono disponibili in [questa documentazione](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=it){target="_blank"}.
 
 
 ## Installare la console client{#download-ac-console}
 
-### Microsoft Edge WebView2 Runtime {#webview}
+### Microsoft Edge Webview2 Runtime {#webview}
 
 A partire dalla versione della build Campaign Classic 8.4, l’installazione di Microsoft Edge Webview 2 Runtime è necessaria per qualsiasi installazione della console client.
 
-La visualizzazione Web è installata per impostazione predefinita come parte del sistema operativo Windows 11. Se non è già presente nel sistema, il programma di installazione della console client di Campaign ti chiederà di scaricarla da [Sito Web Microsoft Developer](http://www.adobe.com/go/acc-ms-webview2-runtime-download_it){target="_blank"}. Il collegamento di download non funziona nel browser Internet Explorer 11 in quanto Microsoft ne ha dichiarato obsoleto il supporto. Utilizza un browser diverso per accedere al collegamento.
+La visualizzazione Web è installata per impostazione predefinita come parte del sistema operativo Windows 11. Se non è già presente nel sistema, il programma di installazione della console client di Campaign ti chiederà di scaricarla dal [sito Web Microsoft Developer](http://www.adobe.com/go/acc-ms-webview2-runtime-download_it){target="_blank"}. Il collegamento di download non funziona nel browser Internet Explorer 11 in quanto Microsoft ne ha dichiarato obsoleto il supporto. Utilizza un browser diverso per accedere al collegamento.
 
 ### Scarica la console{#install-ac-console}
 
@@ -43,7 +43,7 @@ Quando utilizzi Campaign per la prima volta, devi scaricare la console client e 
 
 Per scaricare la console client sono disponibili due opzioni:
 
-1. In qualità di amministratore di Campaign, accedi ad Adobe [Distribuzione di software](https://experience.adobe.com/#/downloads/content/software-distribution/it/campaign.html){target="_blank"}.
+1. In qualità di amministratore di Campaign, connettiti all&#39;Adobe [Distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/campaign.html){target="_blank"}.
 
 1. In qualità di utente finale, l’amministratore di Campaign implementa la console client e la rende disponibile tramite un URL dedicato.
 
@@ -57,21 +57,21 @@ Dopo aver installato la console client, attenersi alla procedura descritta di se
 
 1. Avvia la Console e sfoglia il collegamento nell’angolo a destra per accedere alla schermata di configurazione della connessione.
 
-1. Clic **[!UICONTROL Add > Connection]** e immetti l’etichetta e l’URL del server applicazioni Adobe Campaign.
+1. Fare clic su **[!UICONTROL Add > Connection]** e immettere l&#39;etichetta e l&#39;URL del server applicazioni Adobe Campaign.
 
 1. Specifica una connessione al server applicazioni Adobe Campaign tramite un URL. Utilizza un DNS o un alias del computer oppure il tuo indirizzo IP.
 
-   Ad esempio, puoi utilizzare [`https://<machine>.<domain>.com`](https://myserver.adobe.com) digita URL.
+   È possibile, ad esempio, utilizzare l&#39;URL di tipo [`https://<machine>.<domain>.com`](https://myserver.adobe.com).
 
-1. Seleziona l’opzione **[!UICONTROL Connect with an Adobe ID]**.
+1. Selezionare l&#39;opzione **[!UICONTROL Connect with an Adobe ID]**.
 
-1. Clic **[!UICONTROL Ok]** per salvare le impostazioni.
+1. Fai clic su **[!UICONTROL Ok]** per salvare le impostazioni.
 
 Puoi aggiungere tutte le connessioni necessarie per connettersi, ad esempio, agli ambienti di test, stage e produzione.
 
 >[!NOTE]
 >
->Il **[!UICONTROL Add]** consente di creare **[!UICONTROL folders]** per organizzare tutte le connessioni. È sufficiente trascinare ogni connessione in una cartella.
+>Il pulsante **[!UICONTROL Add]** consente di creare **[!UICONTROL folders]** per organizzare tutte le connessioni. È sufficiente trascinare ogni connessione in una cartella.
 
 ## Accedere ad Adobe Campaign {#logon-to-ac}
 
@@ -97,13 +97,13 @@ Puoi quindi accedere a Campaign con il tuo Adobe ID.
 
 ## Aggiorna la console client{#upgrade-ac-console}
 
-Quando il sistema viene aggiornato a una versione più recente, è necessario aggiornare la console client alla stessa versione. Questa è una best practice e per alcune versioni questo aggiornamento è obbligatorio. In tal caso, è menzionato nella [Note sulla versione](release-notes.md).
+Quando il sistema viene aggiornato a una versione più recente, è necessario aggiornare la console client alla stessa versione. Questa è una best practice e per alcune versioni questo aggiornamento è obbligatorio. In tal caso, è menzionato nelle [Note sulla versione](release-notes.md).
 
 In qualità di utente di Managed Cloud Service, Adobe distribuisce la console client. Quando ci si connette all&#39;ambiente aggiornato, viene richiesto di scaricare l&#39;ultima versione della console client in una finestra popup. Devi accettare questo aggiornamento e aggiornare la console client come richiesto.
 
 >[!CAUTION]
 >
->Adobe consiglia di lasciare l’opzione **[!UICONTROL No longer ask this question]** deselezionato per essere sicuri di ricevere un avviso quando è disponibile una nuova versione della console. Se questa opzione è selezionata, l’utente non viene informato che è necessario un aggiornamento della console.
+>L&#39;Adobe consiglia di lasciare deselezionata l&#39;opzione **[!UICONTROL No longer ask this question]** per assicurarsi di ricevere un avviso quando è disponibile una nuova versione della console. Se questa opzione è selezionata, l’utente non viene informato che è necessario un aggiornamento della console.
 >
 
 
@@ -143,4 +143,4 @@ Con l’accesso web, invece, le opzioni consentono principalmente la visualizzaz
 
 L’accesso web viene utilizzato anche per nel processo di convalida: gli operatori possono fare clic sull’e-mail della richiesta di approvazione e connettersi a Campaign tramite il proprio browser web per convalidare o rifiutare un contenuto o un budget di consegna.
 
-Per accedere alla tua istanza di Campaign dal web, l’URL è:  `https://<your adobe campaign server>:<port number>/view/home`.
+Per accedere all&#39;istanza Campaign dal Web, l&#39;URL è: `https://<your adobe campaign server>:<port number>/view/home`.

@@ -37,7 +37,7 @@ La mappatura SQL dello schema di esempio fornisce il seguente documento XML:
 
 ## Descrizione {#description}
 
-L’elemento principale dello schema non è più **`<srcschema>`**, ma **`<schema>`**.
+L&#39;elemento radice dello schema non è più **`<srcschema>`**, ma **`<schema>`**.
 
 Questo ci porta a un altro tipo di documento, che viene generato automaticamente dallo schema di origine, semplicemente denominato schema. Questo schema verrà utilizzato dall’applicazione Adobe Campaign.
 
@@ -47,7 +47,7 @@ Le regole di denominazione SQL sono le seguenti:
 
 * tabella: concatenazione dello spazio dei nomi e del nome dello schema
 
-  Nel nostro esempio, il nome della tabella viene immesso tramite l’elemento principale dello schema nel **sqltable** attributo:
+  Nel nostro esempio, il nome della tabella viene immesso tramite l&#39;elemento principale dello schema nell&#39;attributo **sqltable**:
 
   ```sql
   <element name="recipient" sqltable="CusRecipient">
@@ -55,7 +55,7 @@ Le regole di denominazione SQL sono le seguenti:
 
 * campo: nome dell’elemento preceduto da un prefisso definito secondo il tipo (&quot;i&quot; per numero intero, &quot;d&quot; per doppio, &quot;s&quot; per stringa, &quot;ts&quot; per date, ecc.)
 
-  Il nome del campo viene immesso tramite **sqlname** attributo per ogni tipo **`<attribute>`** e **`<element>`**:
+  Il nome del campo viene immesso tramite l&#39;attributo **sqlname** per ogni tipo di **`<attribute>`** e **`<element>`**:
 
   ```sql
   <attribute desc="E-mail address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/> 
@@ -82,9 +82,9 @@ I vincoli del campo SQL sono i seguenti:
 
 ## Campi XML {#xml-fields}
 
-Per impostazione predefinita, qualsiasi **`<attribute>`** e **`<element>`** viene mappato su un campo SQL della tabella dello schema di dati. È tuttavia possibile fare riferimento a questo campo in formato XML anziché in formato SQL, il che significa che i dati vengono memorizzati in un campo Memo (&quot;mData&quot;) della tabella contenente i valori di tutti i campi XML. La memorizzazione di questi dati è un documento XML che osserva la struttura dello schema.
+Per impostazione predefinita, qualsiasi elemento **`<attribute>`** e **`<element>`** digitato è mappato su un campo SQL della tabella dello schema dati. È tuttavia possibile fare riferimento a questo campo in formato XML anziché in formato SQL, il che significa che i dati vengono memorizzati in un campo Memo (&quot;mData&quot;) della tabella contenente i valori di tutti i campi XML. La memorizzazione di questi dati è un documento XML che osserva la struttura dello schema.
 
-Per compilare un campo in XML, è necessario aggiungere **xml** con il valore &quot;true&quot; all&#39;elemento interessato.
+Per compilare un campo in XML, è necessario aggiungere l&#39;attributo **xml** con il valore &quot;true&quot; all&#39;elemento interessato.
 
 **Esempi**
 

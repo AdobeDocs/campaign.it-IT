@@ -19,8 +19,8 @@ Il compito principale di queste attività consiste nell’attendere un evento. P
 Queste attività non sono disponibili in [flussi di lavoro specifici per le campagne](campaign-workflows.md).
 
 
-* **[Raccoglitore file](file-collector.md)**: monitora l’arrivo di uno o più file in una directory e abilita la transizione per ciascun file ricevuto.
-* **[Trasferimento file](file-transfer.md)**: trasferisce un file su un server.
+* **[Raccoglitore file](file-collector.md)**: controlla l&#39;arrivo di uno o più file in una directory e abilita la transizione per ogni file ricevuto.
+* **[Trasferimento file](file-transfer.md)**: trasferisce un file in un server.
 * **[E-mail in entrata](inbound-emails.md)**: recupera ed elabora le e-mail.
-* **[SMS in entrata](inbound-sms.md)**: recupera ed elabora gli SMS.
-* **[Download web](web-download.md)**: scarica un file dal web.
+* **[SMS in entrata](inbound-sms.md)**: ripristina ed elabora gli SMS.
+* **[Download Web](web-download.md)**: scarica un file dal Web.

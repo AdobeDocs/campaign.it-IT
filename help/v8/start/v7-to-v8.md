@@ -27,7 +27,7 @@ Per chi già utilizza [!DNL Campaign Classic] v7, non vi sono differenze signif
 
 Adobe Campaign v8 è disponibile come **Managed Cloud Service**.
 
-Adobe Campaign Managed Cloud Services fornisce una piattaforma Managed Cloud Services per la progettazione di esperienze cliente cross-channel oltre a un ambiente per l’orchestrazione visiva delle campagne, la gestione delle interazioni in tempo reale e l’esecuzione su più canali. Ulteriori informazioni sui Cloud Service gestiti da Campaign sono disponibili in [pagina di descrizione del prodotto](https://helpx.adobe.com/it/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+Adobe Campaign Managed Cloud Services fornisce una piattaforma Managed Cloud Services per la progettazione di esperienze cliente cross-channel oltre a un ambiente per l’orchestrazione visiva delle campagne, la gestione delle interazioni in tempo reale e l’esecuzione su più canali. Ulteriori informazioni sui Cloud Service gestiti da Campaign sono disponibili nella [pagina di descrizione del prodotto](https://helpx.adobe.com/it/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
 La nuova offerta combina servizi all’avanguardia con un monitoraggio proattivo e un avviso tempestivo, incentrato su tre aree:
 
@@ -42,24 +42,24 @@ In qualità di utente di [!DNL Campaign Classic], tieni presente che la maggior 
 
 ## Architettura ibrida {#hybrid-archi}
 
-Campaign v8 si basa su un **architettura ibrida**. Se stai passando da Campaign Classic v7, tieni presente che tutte le consegne passano attraverso il server di mid-sourcing.
+Campaign v8 si basa su una **architettura ibrida**. Se stai passando da Campaign Classic v7, tieni presente che tutte le consegne passano attraverso il server di mid-sourcing.
 
 Di conseguenza:
 
-* Il routing interno è **non possibile** in Campaign v8 e l’account esterno è stato disabilitato di conseguenza,
+* Il routing interno è **impossibile** in Campaign v8 e l&#39;account esterno è stato disabilitato di conseguenza,
 * Lo stato delle consegne non viene aggiornato all’istante: viene eseguito un processo tecnico sull’istanza Marketing che aggiornerà gli stati di consegna in modo tempestivo.
 
 
-Ulteriori informazioni sull’invio di bozze dei messaggi transazionali durante la transizione da v7 a [questa pagina](../send/transactional-template.md#transition-from-v7).
+Ulteriori informazioni sull&#39;invio di bozze dei messaggi transazionali durante la transizione da v7 in [questa pagina](../send/transactional-template.md#transition-from-v7).
 
 
 ## [!DNL Campaign] e [!DNL Snowflake] {#ac-gs-snowflake}
 
-Nel suo [Distribuzione aziendale (FFDA)](../architecture/enterprise-deployment.md), [!DNL Adobe Campaign] v8 funziona con due database: uno locale [!DNL Campaign] database per la messaggistica in tempo reale, le query unitarie dell’interfaccia utente, le operazioni di scrittura tramite API e un cloud [!DNL Snowflake] database per l’esecuzione della campagna, le query batch e l’esecuzione dei flussi di lavoro.
+Nella distribuzione [Enterprise (FFDA)](../architecture/enterprise-deployment.md), [!DNL Adobe Campaign] v8 funziona con due database: un database [!DNL Campaign] locale per la messaggistica in tempo reale, le query unitarie dell&#39;interfaccia utente e le operazioni di scrittura tramite API e un database [!DNL Snowflake] cloud per l&#39;esecuzione della campagna, le query batch e l&#39;esecuzione del flusso di lavoro.
 
 Campaign v8 Enterprise introduce il concetto di **Full Federated Data Access** (FFDA): adesso tutti i dati sono remoti, nel database cloud. Con questa nuova architettura, l’implementazione di Campaign v8 Enterprise (FFDA) semplifica la gestione dei dati, in quanto nel database cloud non è richiesto alcun indice. È sufficiente creare le tabelle, copiare i dati e iniziare. La tecnologia del database cloud non richiede una manutenzione specifica per garantire le prestazioni del servizio.
 
-Ulteriori informazioni su [!DNL Campaign] Architettura v8 in [questa pagina](../architecture/architecture.md).
+Ulteriori informazioni sull&#39;architettura di [!DNL Campaign] v8 in [questa pagina](../architecture/architecture.md).
 
 
 ## Utilizza il tuo Adobe ID per connetterti a Campaign{#adobe-id}

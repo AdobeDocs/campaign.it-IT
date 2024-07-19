@@ -22,13 +22,13 @@ Le consegne possono essere create tramite il dashboard della campagna, un flusso
 
 Puoi aggiungere consegne alle campagne di marketing in due modi:
 
-* Dalla sezione **[!UICONTROL Add a delivery]** nel dashboard della campagna.
+* Dal collegamento **[!UICONTROL Add a delivery]** nel dashboard della campagna.
 
 ![](assets/campaign_op_add_delivery.png)
 
 Una volta salvata, la consegna viene aggiunta al dashboard della campagna.
 
-* Da un flusso di lavoro della campagna, nel **[!UICONTROL Targeting and workflows]** , aggiungendo la consegna.
+* Da un flusso di lavoro della campagna, nella scheda **[!UICONTROL Targeting and workflows]**, aggiungendo la consegna.
 
   ![](assets/campaign-wf-delivery.png)
 
@@ -50,7 +50,7 @@ Dopo aver concesso tutte le richieste di approvazione, lo stato di consegna camb
 
 ![](assets/confirm-delivery.png)
 
-Le informazioni vengono visualizzate anche nel dashboard della campagna. Il **[!UICONTROL Confirm delivery]** ti consente di avviare la consegna.
+Le informazioni vengono visualizzate anche nel dashboard della campagna. Il collegamento **[!UICONTROL Confirm delivery]** ti consente di avviare la consegna.
 
 ![](assets/confirm-delivery-from-dashboard.png)
 
@@ -58,12 +58,12 @@ La conferma della consegna è riservata agli amministratori e all’operatore o 
 
 ![](assets/select-delivery-reviewers.png)
 
-Tuttavia, puoi anche consentire al proprietario della campagna di confermare l’invio, anche se nelle proprietà della consegna o della campagna sono stati definiti revisori specifici. A questo scopo, in qualità di amministratore, crea **NmsCampaign_Activate_OwnerConfirmation** e impostarla su **1**. Le opzioni vengono gestite dalla **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** cartella di Campaign explorer.
+Tuttavia, puoi anche consentire al proprietario della campagna di confermare l’invio, anche se nelle proprietà della consegna o della campagna sono stati definiti revisori specifici. Per eseguire questa operazione, come amministratore, crea l&#39;opzione **NmsCampaign_Activate_OwnerConfirmation** e impostala su **1**. Le opzioni sono gestite dalla cartella **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** di Campaign Explorer.
 
 
 ### Avviare una consegna direct mailing {#start-an-offline-delivery}
 
-Una volta concesse tutte le approvazioni, lo stato di consegna cambia in **[!UICONTROL Pending extraction]**. I file di estrazione vengono creati tramite un [flusso di lavoro tecnico](../workflow/technical-workflows.md) che, in una configurazione predefinita, viene avviato automaticamente quando una consegna direct mailing è in attesa di estrazione. Quando un processo è in corso, viene visualizzato nel dashboard e può essere modificato tramite il relativo collegamento.
+Dopo aver concesso tutte le approvazioni, lo stato di consegna cambia in **[!UICONTROL Pending extraction]**. I file di estrazione vengono creati tramite un [flusso di lavoro tecnico](../workflow/technical-workflows.md) dedicato che, in una configurazione predefinita, viene avviato automaticamente quando una consegna direct mailing è in attesa di estrazione. Quando un processo è in corso, viene visualizzato nel dashboard e può essere modificato tramite il relativo collegamento.
 
 Una volta eseguito correttamente il flusso di lavoro di estrazione, il file di estrazione deve essere approvato (a condizione che l’approvazione del file di estrazione sia stata selezionata nelle impostazioni di consegna). [Ulteriori informazioni](marketing-campaign-approval.md#approving-an-extraction-file).
 
@@ -71,19 +71,19 @@ Per convalidare i contenuti e inviare il file al provider, segui la procedura ri
 
 1. Una volta approvato il file di estrazione, puoi generare la bozza dell’e-mail di notifica del router. Questo messaggio e-mail è costruito in base a un modello di consegna. Deve essere approvato.
 
-   Questo passaggio è disponibile solo se **[!UICONTROL Enable the sending and validation of proofs (Direct mail)]** l&#39;opzione è stata abilitata in **[!UICONTROL Approvals]** dei parametri avanzati della campagna.
+   Questo passaggio è disponibile solo se l&#39;opzione **[!UICONTROL Enable the sending and validation of proofs (Direct mail)]** è stata abilitata nella scheda **[!UICONTROL Approvals]** dei parametri della campagna avanzata.
 
    ![](assets/enable-proof-validation.png)
 
-1. Fai clic su **[!UICONTROL Send a proof]** per creare le bozze.
+1. Fare clic sul pulsante **[!UICONTROL Send a proof]** per creare le bozze.
 
    Il target della bozza deve essere definito in anticipo.
 
-   Puoi creare tutte le bozze necessarie. Per accedervi, utilizza **[!UICONTROL Direct mail...]** collegamento dei dettagli della consegna.
+   Puoi creare tutte le bozze necessarie. Sono accessibili tramite il collegamento **[!UICONTROL Direct mail...]** dei dettagli di consegna.
 
-1. Lo stato della consegna cambia in **[!UICONTROL To submit]**. Fai clic su **[!UICONTROL Submit proofs]** per avviare il processo di approvazione.
+1. Lo stato della consegna cambia in **[!UICONTROL To submit]**. Fare clic sul pulsante **[!UICONTROL Submit proofs]** per avviare il processo di approvazione.
 
-1. Lo stato della consegna cambia in **[!UICONTROL Proof to validate]** e un pulsante ti consente di accettare o rifiutare l’approvazione.
+1. Lo stato della consegna cambia in **[!UICONTROL Proof to validate]** e un pulsante consente di accettare o rifiutare l&#39;approvazione.
 
    Puoi accettare o rifiutare questa approvazione oppure tornare al passaggio di estrazione.
 
@@ -93,17 +93,17 @@ Per convalidare i contenuti e inviare il file al provider, segui la procedura ri
 
 L’estrazione del file avvia due processi: il calcolo del budget e il calcolo delle scorte. Le voci di budget vengono aggiornate.
 
-* Il **[!UICONTROL Budget]** consente di gestire i budget per la campagna. Il totale delle voci di costo è indicato nella **[!UICONTROL Calculated cost]** della scheda principale della campagna e il programma a cui appartiene. Gli importi sono riportati anche nel bilancio della campagna.
+* La scheda **[!UICONTROL Budget]** consente di gestire i budget per la campagna. Il totale delle voci di costo è visualizzato nel campo **[!UICONTROL Calculated cost]** della scheda principale della campagna e nel programma a cui appartiene. Gli importi sono riportati anche nel bilancio della campagna.
 
   ![](assets/campaign-budget-tab.png)
 
   Il costo reale verrà calcolato in base alle informazioni fornite dal router. Solo i messaggi effettivamente inviati vengono fatturati.
 
-* Le scorte sono definite nella **[!UICONTROL Administration > Campaign management > Stocks]** dell&#39;albero.
+* Le scorte sono definite nel nodo **[!UICONTROL Administration > Campaign management > Stocks]** della struttura.
 
   ![](assets/campaign-stocks.png)
 
-  Strutture di costo nel **[!UICONTROL Administration > Campaign management > Service providers]** nodo.
+  Strutture di costo nel nodo **[!UICONTROL Administration > Campaign management > Service providers]**.
 
   ![](assets/campaign-service-providers.png)
 

@@ -14,7 +14,7 @@ ht-degree: 57%
 
 # Note sulla versione 2023 {#2023-rn}
 
-In questa pagina sono elencate nuove funzionalità, miglioramenti e correzioni introdotti con **Versioni di Campaign v8 2023**.
+In questa pagina sono elencate nuove funzionalità, miglioramenti e correzioni introdotti con le versioni di **2023 Campaign v8**.
 
 
 ## Versione 8.5.2 {#release-8-5-2}
@@ -46,11 +46,11 @@ Per ulteriori informazioni, consulta la [documentazione dettagliata](../send/pus
 <p>Il nuovo servizio di notifica push mostra miglioramenti significativi nella velocità effettiva sia per Android push che per iOS push rispetto alla versione precedente (v8.4). Gli utenti potranno beneficiare di prestazioni notevolmente migliorate grazie al servizio aggiornato nella versione più recente (v8.5). </p>
 <ul>
 <li>Notifiche push (Android): fino a <strong>5x</strong> più veloce </li>
-<li>Notifiche push (iOS): fino a <strong>2,2x</strong> più veloce</li>
+<li>Notifiche push (iOS): fino a <strong>2.2x</strong> più veloce</li>
 </ul>
 <p>La velocità effettiva degli SMS è stata notevolmente migliorata grazie a una serie di ottimizzazioni, con conseguenti notevoli miglioramenti in termini di velocità ed efficienza per le comunicazioni SMS. Questi aggiornamenti hanno aumentato la velocità effettiva dalla versione precedente (v8.4) alla versione più recente (v8.5), includendo sia gli aggiornamenti di invio che quelli di feedback. Gli utenti possono ora usufruire dei vantaggi di questo servizio SMS avanzato.</p>
 <ul>
-<li>Velocità effettiva SMS: fino a <strong>5x</strong> più veloce</li>
+<li>Throughput SMS: fino a <strong>5x</strong> più veloce</li>
 </ul>
 <p><em>Queste prestazioni di throughput massime sono state misurate da team di test Adobi, in condizioni di laboratorio.</em></p>
 </div>
@@ -74,7 +74,7 @@ Per ulteriori informazioni, consulta la [documentazione dettagliata](../send/pus
 **Aggiornamenti della compatibilità**
 
 * La versione a 32 bit della console client è ora obsoleta. A partire dalla versione 8.6, la console client sarà disponibile solo a 64 bit. L’aggiornamento alla versione a 64 bit della console client è semplice. Per ulteriori informazioni su come aggiornare il sistema operativo, consulta questa [nota tecnica](../../technotes/upgrades/console.md).
-* Ora puoi collegare la tua istanza di Campaign v8 al database esterno della tua Azure synapse. Questa connessione viene gestita tramite un nuovo account esterno. Ulteriori informazioni in [Matrice di compatibilità di Campaign](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda).
+* Ora puoi collegare la tua istanza di Campaign v8 al database esterno della tua Azure synapse. Questa connessione viene gestita tramite un nuovo account esterno. Ulteriori informazioni nella [Matrice di compatibilità di Campaign](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda).
 
 
 **Correzioni**

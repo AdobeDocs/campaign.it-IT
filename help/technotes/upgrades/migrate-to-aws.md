@@ -30,9 +30,9 @@ Questa modifica interessa:
 
 ## Quando avverrà questa migrazione?{#aws-timeline}
 
-La migrazione degli ambienti di sviluppo e staging avrà luogo in **Ottobre 2023**.
+La migrazione degli ambienti di sviluppo e staging avrà luogo il **ottobre 2023**.
 
-La migrazione degli ambienti di produzione deve iniziare tra **Gennaio 2024**. Ulteriori dettagli verranno forniti con l’approssimarsi della data.
+La migrazione degli ambienti di produzione deve iniziare il **gennaio 2024**. Ulteriori dettagli verranno forniti con l’approssimarsi della data.
 
 In qualità di cliente di Campaign, riceverai una notifica aggiuntiva durante la pianificazione delle ondate di migrazione. Le notifiche vengono inviate almeno 7 giorni prima della migrazione per gli ambienti di staging e almeno 30 giorni prima della migrazione per gli ambienti di produzione.
 
@@ -47,13 +47,13 @@ Questo passaggio sarà trasparente per i clienti:
 
 ## Domande frequenti {#aws-faq}
 
-* **Perché è un aggiornamento obbligatorio?**
+* **Perché si tratta di un aggiornamento obbligatorio?**
 
   Adobe pianifica di smantellare il datacenter legacy; le istanze Adobe Campaign in esecuzione in tale data center devono essere trasferite al nuovo datacenter di riferimento, Amazon Web Services (AWS).
 
   Il cloud Managed Services di Adobe è ospitato su Amazon Web Services (AWS), un ambiente moderno, sicuro e ottimizzato. [Ulteriori informazioni su Amazon Web Services](https://aws.amazon.com/application-hosting/benefits/){target="_blank"}.
 
-* **Quali clienti sono interessati da questa migrazione?**
+* **Quali clienti sono destinatari di questa migrazione?**
 
   Tutti i clienti Campaign v8 e Campaign Classic v7 ibridi, in hosting e Campaign Managed Services avranno la migrazione dei loro ambienti. Anche i clienti Campaign Standard sono interessati.
 
@@ -61,17 +61,17 @@ Questo passaggio sarà trasparente per i clienti:
 
   La migrazione dovrebbe richiedere tra 30 minuti e 60 minuti, ma la lunghezza di ogni ondata di migrazione potrebbe variare a seconda del numero di istanze di Campaign interessate. Quando è pianificata un’ondata di migrazione, la notifica includerà la durata prevista.
 
-* **Il cliente deve eseguire delle azioni per la migrazione?**
+* **Il cliente ha bisogno di eseguire una migrazione?**
 
   Non è richiesta alcuna azione in quanto la migrazione verrà eseguita automaticamente da Adobe.
 
 * **Quali convalide devono essere eseguite dai clienti?**
 
-  Per questa migrazione non è necessario alcun test specifico. In caso di problemi, contatta il [Assistenza clienti Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
+  Per questa migrazione non è necessario alcun test specifico. In caso di problemi, contatta l&#39;[Assistenza clienti Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
 
 
-* **È possibile richiedere una modifica in Data/ora nello slot di aggiornamento della sicurezza pianificato?**
+* **Posso richiedere una modifica di data/ora nello slot di aggiornamento della sicurezza pianificato?**
 
   Poiché si tratta di una migrazione obbligatoria, non possiamo accettare modifiche alla pianificazione esistente.
 
-Per qualsiasi altra domanda, puoi contattare [Assistenza clienti Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
+Per qualsiasi altra domanda, puoi contattare [l&#39;Assistenza clienti Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.

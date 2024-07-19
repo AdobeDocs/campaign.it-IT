@@ -13,46 +13,46 @@ ht-degree: 2%
 
 # Cambiare l’origine dati {#change-data-source}
 
-Utilizza il **[!UICONTROL Change data source]** attività per modificare l’origine dati di un [tabella di lavoro del flusso di lavoro](use-workflow-data.md#workflow-temporary-work-table). Questa attività offre maggiore flessibilità per gestire i dati tra diverse origini dati, come Federated Data Access (FDA), Campaign Cloud database (FFDA) e Campaign Local database.
+Utilizzare l&#39;attività **[!UICONTROL Change data source]** per modificare l&#39;origine dati di una [tabella di lavoro del flusso di lavoro](use-workflow-data.md#workflow-temporary-work-table). Questa attività offre maggiore flessibilità per gestire i dati tra diverse origini dati, come Federated Data Access (FDA), Campaign Cloud database (FFDA) e Campaign Local database.
 
-Il flusso di lavoro **[!UICONTROL Working table]** viene utilizzato per gestire e condividere i dati con le attività del flusso di lavoro.
+Il flusso di lavoro **[!UICONTROL Working table]** viene utilizzato per gestire e condividere dati con le attività del flusso di lavoro.
 
-Per impostazione predefinita, il **[!UICONTROL Working table]** viene creato nello stesso database dell’origine dei dati su cui è necessario eseguire la query.
-Ad esempio, quando si esegue una query su **[!UICONTROL Recipients]** memorizzata nel database Cloud, il flusso di lavoro crea un **[!UICONTROL Working table]** sullo stesso database cloud.
+Per impostazione predefinita, **[!UICONTROL Working table]** viene creato nello stesso database dell&#39;origine dei dati su cui eseguire la query.
+Ad esempio, quando si esegue una query sulla tabella **[!UICONTROL Recipients]** memorizzata nel database Cloud, il flusso di lavoro crea un **[!UICONTROL Working table]** nello stesso database Cloud.
 
-Utilizza un **[!UICONTROL Change Data Source]** per utilizzare un’origine dati diversa per il tuo **[!UICONTROL Working table]**.
+Utilizzare un&#39;attività **[!UICONTROL Change Data Source]** per utilizzare un&#39;origine dati diversa per **[!UICONTROL Working table]**.
 
-Tieni presente che quando utilizzi **[!UICONTROL Change Data Source]** attività, devi tornare al database Cloud per continuare l’esecuzione del flusso di lavoro.
+Quando si utilizza l&#39;attività **[!UICONTROL Change Data Source]**, è necessario tornare al database cloud per continuare l&#39;esecuzione del flusso di lavoro.
 
 >[!IMPORTANT]
 >
->Tieni presente che **[!UICONTROL Change Dimension]** e **[!UICONTROL Change Data source]** Le attività non devono essere aggiunte in una riga. Se devi utilizzare entrambe le attività consecutivamente, assicurati di includere un’ **[!UICONTROL Enrichement]** attività tra di loro. In questo modo si garantisce la corretta esecuzione e si evitano potenziali conflitti o errori.
+>Le attività **[!UICONTROL Change Dimension]** e **[!UICONTROL Change Data source]** non devono essere aggiunte in una riga. Se è necessario utilizzare entrambe le attività in sequenza, assicurarsi di includere un&#39;attività **[!UICONTROL Enrichement]** tra di esse. In questo modo si garantisce la corretta esecuzione e si evitano potenziali conflitti o errori.
 
-Per utilizzare **[!UICONTROL Change Data Source]** attività, devi:
+Per utilizzare l&#39;attività **[!UICONTROL Change Data Source]**, è necessario:
 
 1. Crea un flusso di lavoro.
 
-1. Effettua query sui destinatari target con una **[!UICONTROL Query]** attività.
+1. Eseguire una query sui destinatari con un&#39;attività **[!UICONTROL Query]**.
 
-   Per ulteriori informazioni su **[!UICONTROL Query]** attività, fai riferimento a questo [pagina](query.md#create-a-query).
+   Per ulteriori informazioni sull&#39;attività **[!UICONTROL Query]**, vedere questa [pagina](query.md#create-a-query).
 
-1. Aggiungi un **[!UICONTROL Change data source]** attività.
+1. Aggiungi un&#39;attività **[!UICONTROL Change data source]**.
 
    ![](assets/change-data-source.png)
 
-1. Modifica il **[!UICONTROL Change data source]** attività da selezionare **[!UICONTROL Default data source]**.
+1. Modifica l&#39;attività **[!UICONTROL Change data source]** per selezionare **[!UICONTROL Default data source]**.
 
    La tabella di lavoro, che contiene il risultato della query, viene quindi spostata nel database locale di Campaign predefinito.
 
    ![](assets/change-data-source_2.png)
 
-1. Aggiungi un **[!UICONTROL JavaScript code]** attività per eseguire operazioni unitarie sulla tabella di lavoro.
+1. Aggiungere un&#39;attività **[!UICONTROL JavaScript code]** per eseguire operazioni unitarie sulla tabella di lavoro.
 
-   Per ulteriori informazioni su **[!UICONTROL JavaScript code]** attività, fai riferimento alla [questa pagina](sql-code-and-javascript-code.md#javascript-code).
+   Per ulteriori informazioni sull&#39;attività **[!UICONTROL JavaScript code]**, vedere [questa pagina](sql-code-and-javascript-code.md#javascript-code).
 
-1. Aggiungi un altro **[!UICONTROL Change data source]** per tornare al database Cloud.
+1. Aggiungi un&#39;altra attività **[!UICONTROL Change data source]** per tornare al database cloud.
 
-1. Modifica questa attività e seleziona **[!UICONTROL Active FDA external account]**, e la corrispondente **[!UICONTROL External database]** account esterno.
+1. Modifica questa attività e seleziona **[!UICONTROL Active FDA external account]** e l&#39;account esterno **[!UICONTROL External database]** corrispondente.
 
    ![](assets/change-data-source_3.png)
 

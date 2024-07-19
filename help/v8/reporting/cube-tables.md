@@ -25,15 +25,15 @@ Utilizza i cubi per creare rapporti e per identificare e selezionare dati dal da
 
 ### Passaggio 1: creare un rapporto basato su un cubo {#step-1---create-a-report-based-on-a-cube}
 
-Una volta [cubo configurato](cube-indicators.md), può essere utilizzato come modello per la creazione di un nuovo rapporto.
+Una volta configurato il cubo [](cube-indicators.md), è possibile utilizzarlo come modello per la creazione di un nuovo report.
 
 Per creare un report basato su un cubo esistente, effettuare le seguenti operazioni:
 
-1. Fai clic su **[!UICONTROL Create]** pulsante della **[!UICONTROL Reports]** e selezionare il cubo appena creato.
+1. Fare clic sul pulsante **[!UICONTROL Create]** della scheda **[!UICONTROL Reports]** e selezionare il cubo appena creato.
 
    ![](assets/new-report-based-on-cube.png)
 
-1. Fai clic su **[!UICONTROL Create]** pulsante per confermare: questo pulsante ti porterà alla pagina configurazione e visualizzazione del rapporto.
+1. Fare clic sul pulsante **[!UICONTROL Create]** per confermare: verrà visualizzata la pagina Configurazione e visualizzazione del report.
 
    Per impostazione predefinita, le prime due dimensioni disponibili sono offerte in linee e colonne, ma nella tabella non viene visualizzato alcun valore. Per generare la tabella, fai clic sull’icona principale:
 
@@ -49,7 +49,7 @@ Per creare un report basato su un cubo esistente, effettuare le seguenti operazi
 
 La visualizzazione predefinita mostra le prime due dimensioni del cubo (età e città, in questo caso).
 
-Il **[!UICONTROL Add]** su ciascun asse consente di aggiungere dimensioni.
+I pulsanti **[!UICONTROL Add]** su ciascun asse consentono di aggiungere dimensioni.
 
 ![](assets/cube-switch.png)
 
@@ -63,7 +63,7 @@ Il **[!UICONTROL Add]** su ciascun asse consente di aggiungere dimensioni.
 
    Questi parametri dipendono dal tipo di dati della dimensione selezionata.
 
-   Ad esempio, per le date, possono essere disponibili diversi livelli. Per ulteriori informazioni, consulta [Visualizza misure](customize-cubes.md#display-measures).
+   Ad esempio, per le date, possono essere disponibili diversi livelli. Per ulteriori informazioni, consulta [Misure di visualizzazione](customize-cubes.md#display-measures).
 
    In tal caso, sono disponibili le seguenti opzioni:
 
@@ -77,9 +77,9 @@ Il **[!UICONTROL Add]** su ciascun asse consente di aggiungere dimensioni.
    * Visualizza i valori in ordine crescente (a-z, 0-9) o decrescente (z-a, 9-0).
    * Modifica il numero di colonne da visualizzare al caricamento (per impostazione predefinita: 200).
 
-1. Clic **[!UICONTROL Ok]** per confermare: la dimensione viene aggiunta alle dimensioni esistenti.
+1. Fare clic su **[!UICONTROL Ok]** per confermare: la dimensione viene aggiunta alle dimensioni esistenti.
 
-   Il banner giallo sopra la tabella mostra che hai apportato modifiche: fai clic sul pulsante **[!UICONTROL Save]** per salvarli.
+   Il banner giallo sopra la tabella mostra che sono state apportate modifiche: fai clic sul pulsante **[!UICONTROL Save]** per salvarle.
 
    ![](assets/cube-in-report.png)
 
@@ -93,7 +93,7 @@ Per aggiungere e configurare le misure, attieniti alla procedura seguente:
 
    ![](assets/cube-measure-button.png)
 
-1. All&#39;interno del **[!UICONTROL Use a measure]** , selezionare una delle misure esistenti.
+1. Con il pulsante **[!UICONTROL Use a measure]**, seleziona una delle misure esistenti.
 
    ![](assets/cube-add-measure.png)
 
@@ -101,13 +101,13 @@ Per aggiungere e configurare le misure, attieniti alla procedura seguente:
 
    ![](assets/cube-measure-options.png)
 
-   La configurazione generale delle misure è disponibile anche tramite **[!UICONTROL Edit the configuration of the pivot table]** nell’intestazione.
+   La configurazione generale delle misure è disponibile anche tramite l&#39;icona **[!UICONTROL Edit the configuration of the pivot table]** nell&#39;intestazione.
 
    ![](assets/cube-pivot-table-config.png)
 
    È quindi possibile scegliere se visualizzare o meno le etichette delle misure. [Ulteriori informazioni](customize-cubes.md#configure-the-display).
 
-1. Puoi creare nuove misure in base a quelle esistenti. A questo scopo, fai clic su **[!UICONTROL Create a measure]** e configurarlo.
+1. Puoi creare nuove misure in base a quelle esistenti. A tale scopo, fare clic su **[!UICONTROL Create a measure]** e configurarlo.
 
    ![](assets/cube-create-new-measure.png)
 
@@ -125,9 +125,9 @@ Per aggiungere e configurare le misure, attieniti alla procedura seguente:
 
    ![](assets/cube-display-new-measure.png)
 
-   Dopo aver creato una misura, potete modificarla e modificarne la configurazione. A questo scopo, fai clic su **[!UICONTROL Measures]** , quindi passare alla scheda della misura da modificare.
+   Dopo aver creato una misura, potete modificarla e modificarne la configurazione. A tale scopo, fare clic sul pulsante **[!UICONTROL Measures]**, quindi passare alla scheda della misura da modificare.
 
-   Quindi fai clic su **[!UICONTROL Edit the dynamic measure]** per accedere al menu delle impostazioni.
+   Quindi fare clic su **[!UICONTROL Edit the dynamic measure]** per accedere al menu delle impostazioni.
 
 ## Creare una popolazione target {#build-a-target-population}
 
@@ -135,23 +135,23 @@ I rapporti generati utilizzando i cubi consentono di raccogliere i dati dalla ta
 
 Per raggruppare una popolazione in un elenco, effettua le seguenti operazioni:
 
-1. Fai clic sulle celle contenenti la popolazione da raccogliere per selezionarle, quindi fai clic su **[!UICONTROL Add to cart]** icona.
+1. Fare clic sulle celle che contengono la popolazione da raccogliere per selezionarle, quindi fare clic sull&#39;icona **[!UICONTROL Add to cart]**.
 
    ![](assets/cube-add-to-cart.png)
 
    A questo scopo, quante volte è necessario raccogliere vari profili
 
-1. Fai clic su **[!UICONTROL Show cart]** per visualizzarne il contenuto prima di eseguire l’esportazione.
+1. Fare clic sul pulsante **[!UICONTROL Show cart]** per visualizzarne il contenuto prima di eseguire l&#39;esportazione.
 
    ![](assets/cube-show-cart.png)
 
-1. Utilizza il **[!UICONTROL Export]** per raggruppare gli elementi nel carrello in un elenco.
+1. Utilizza il pulsante **[!UICONTROL Export]** per raggruppare gli elementi nel carrello in un elenco.
 
    Immettere il nome dell&#39;elenco e selezionare il tipo di esportazione da eseguire.
 
    ![](assets/cube-export-report.png)
 
-   Clic **[!UICONTROL Start]** per eseguire l&#39;esportazione.
+   Fare clic su **[!UICONTROL Start]** per eseguire l&#39;esportazione.
 
 1. Una volta completata l’esportazione, un messaggio conferma l’esecuzione e il numero di record elaborati.
 
@@ -159,7 +159,7 @@ Per raggruppare una popolazione in un elenco, effettua le seguenti operazioni:
 
    Puoi salvare il contenuto del carrello o svuotarlo.
 
-   Il nuovo elenco è disponibile tramite **[!UICONTROL Profiles and targets]** scheda.
+   Il nuovo elenco è disponibile tramite la scheda **[!UICONTROL Profiles and targets]**.
 
    ![](assets/cube-list-available.png)
 
@@ -171,8 +171,8 @@ Per creare una tabella ed esplorare i dati in un cubo, effettuare le seguenti op
 
    ![](assets/cube-insert-in-report.png)
 
-1. In **[!UICONTROL Data]** della pagina, selezionare un cubo per elaborare le dimensioni in esso contenute e visualizzare le misure calcolate.
+1. Nella scheda **[!UICONTROL Data]** della pagina, selezionare un cubo per elaborare le dimensioni in esso contenute e visualizzare le misure calcolate.
 
    ![](assets/cube-selected-in-report.png)
 
-   Questo ti consente di creare il rapporto da visualizzare. Per ulteriori informazioni, consulta [Passaggio 2: selezionare righe e colonne](#step-2---select-lines-and-columns).
+   Questo ti consente di creare il rapporto da visualizzare. Per ulteriori informazioni, consulta [Passaggio 2 - Selezionare righe e colonne](#step-2---select-lines-and-columns).

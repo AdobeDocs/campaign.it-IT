@@ -18,9 +18,9 @@ Questo documento illustra i consigli chiave durante la progettazione del modello
 
 Il sistema Adobe Campaign è molto flessibile e può essere esteso oltre l’implementazione iniziale. Tuttavia, anche se le possibilità sono infinite, è fondamentale prendere decisioni sagge e creare solide basi per iniziare a progettare il modello di dati.
 
-Per comprendere meglio le tabelle integrate di Campaign e le rispettive relazioni, consulta [questa sezione](datamodel.md).
+Per una migliore comprensione delle tabelle integrate di Campaign e del modo in cui si relazionano tra loro, consulta [questa sezione](datamodel.md).
 
-Leggete [questa sezione](schemas.md) per iniziare a utilizzare gli schemi di Campaign.
+Consulta [questa sezione](schemas.md) per iniziare a utilizzare gli schemi di Campaign.
 
 Scopri come configurare gli schemi di estensione per estendere il modello dati concettuale del database di Adobe Campaign in [questa pagina](extend-schema.md).
 
@@ -32,12 +32,12 @@ Adobe Campaign è un potente sistema di gestione delle campagne cross-channel ch
 
 Mentre la maggior parte dei provider di servizi e-mail comunica con i clienti tramite un approccio incentrato sugli elenchi, Adobe Campaign si basa su un database relazionale per sfruttare una visione più ampia dei clienti e dei loro attributi.
 
-Per accedere alla descrizione di ogni tabella, vai a **[!UICONTROL Admin > Configuration > Data schemas]**, seleziona una risorsa dall’elenco e fai clic su **[!UICONTROL Documentation]** scheda.
+Per accedere alla descrizione di ogni tabella, passare a **[!UICONTROL Admin > Configuration > Data schemas]**, selezionare una risorsa dall&#39;elenco e fare clic sulla scheda **[!UICONTROL Documentation]**.
 
 
 >[!NOTE]
 >
->Adobe Campaign consente di creare un [tabella dei destinatari personalizzata](custom-recipient.md). Tuttavia, nella maggior parte dei casi, si consiglia di sfruttare il [Tabella destinatari](datamodel.md#ootb-profiles) che dispone già di tabelle e funzionalità aggiuntive predefinite.
+>Adobe Campaign consente di generare una [tabella dei destinatari personalizzata](custom-recipient.md). Tuttavia, nella maggior parte dei casi, si consiglia di sfruttare la [tabella dei destinatari](datamodel.md#ootb-profiles) integrata che dispone già di tabelle e funzionalità aggiuntive predefinite.
 
 ### Dati per Adobe Campaign {#data-for-campaign}
 
@@ -50,8 +50,8 @@ Quali dati devono essere inviati ad Adobe Campaign? È fondamentale determinare 
 Per decidere se un attributo sia necessario o meno in Adobe Campaign, chiediti se rientra in una di queste categorie:
 
 * Attributo utilizzato per **segmentazione**
-* Attributo utilizzato per **processi di gestione dei dati** (ad esempio, calcolo aggregato).
-* Attributo utilizzato per **personalizzazione**
+* Attributo utilizzato per **processi di gestione dati** (ad esempio, calcolo aggregato)
+* Attributo utilizzato per **personalization**
 
 Se non rientra in nessuno di questi, molto probabilmente non avrai bisogno di questo attributo in Adobe Campaign.
 
@@ -60,10 +60,10 @@ Se non rientra in nessuno di questi, molto probabilmente non avrai bisogno di qu
 Per garantire una buona architettura e prestazioni del sistema, segui le best practice riportate di seguito per configurare i dati in Adobe Campaign.
 
 * All’interno di tabelle di grandi dimensioni, puoi inserire campi stringa o numerici e aggiungere collegamenti alle tabelle di riferimento (quando utilizzi un elenco di valori).
-* Il **espr** Questo attributo consente di definire un attributo di schema come campo calcolato anziché come valore fisico impostato in una tabella. Questo può consentire l’accesso alle informazioni in un formato diverso (ad esempio per età e data di nascita) senza la necessità di memorizzare entrambi i valori. Questo è un buon modo per evitare la duplicazione dei campi. Ad esempio, la tabella Destinatario utilizza un’espressione per il dominio, che è già presente nel campo e-mail.
-* Tuttavia, quando il calcolo dell’espressione è complesso, si sconsiglia di utilizzare il **espr** attributo come calcolo immediato può influire sulle prestazioni delle query.
-* Il **XML** Il tipo è un buon modo per evitare di creare troppi campi. ma occupa anche spazio su disco in quanto utilizza una colonna CLOB nel database. Può inoltre causare query SQL complesse e influire sulle prestazioni.
-* Lunghezza per un **stringa** deve sempre essere definito con la colonna. Per impostazione predefinita, la lunghezza massima in Adobe Campaign è 16K, ma l’Adobe consiglia di mantenere il campo più corto se sai già che la dimensione non supera una lunghezza più breve.
+* L&#39;attributo **expr** consente di definire un attributo di schema come campo calcolato anziché come valore fisico impostato in una tabella. Questo può consentire l’accesso alle informazioni in un formato diverso (ad esempio per età e data di nascita) senza la necessità di memorizzare entrambi i valori. Questo è un buon modo per evitare la duplicazione dei campi. Ad esempio, la tabella Destinatario utilizza un’espressione per il dominio, che è già presente nel campo e-mail.
+* Tuttavia, quando il calcolo dell&#39;espressione è complesso, si sconsiglia di utilizzare l&#39;attributo **expr** in quanto il calcolo immediato potrebbe influire sulle prestazioni delle query.
+* Il tipo **XML** è adatto per evitare la creazione di troppi campi. ma occupa anche spazio su disco in quanto utilizza una colonna CLOB nel database. Può inoltre causare query SQL complesse e influire sulle prestazioni.
+* La lunghezza di un campo **stringa** deve sempre essere definita con la colonna. Per impostazione predefinita, la lunghezza massima in Adobe Campaign è 16K, ma l’Adobe consiglia di mantenere il campo più corto se sai già che la dimensione non supera una lunghezza più breve.
 * È accettabile avere un campo più breve in Adobe Campaign rispetto a quello presente nel sistema di origine se si è certi che la dimensione nel sistema di origine è stata sovrastimata e non sarebbe raggiunta. Questo potrebbe significare una stringa più breve o un numero intero più piccolo in Adobe Campaign.
 
 ### Scelta dei campi {#choice-of-fields}
@@ -72,13 +72,13 @@ Un campo deve essere memorizzato in una tabella se ha uno scopo di targeting o p
 
 ### Scelta delle chiavi {#choice-of-keys}
 
-Oltre al **autouuid** e **autopk** definite per impostazione predefinita nella maggior parte delle tabelle, è consigliabile aggiungere alcune chiavi logiche o aziendali (numero di conto, numero di client e così via). Può essere utilizzato successivamente per importazioni/riconciliazione o pacchetti di dati. Per ulteriori informazioni, consulta [Identificatori](#identifiers).
+Oltre a **autouuid** e **autopk** definiti per impostazione predefinita nella maggior parte delle tabelle, è consigliabile aggiungere alcune chiavi logiche o aziendali (numero account, numero client e così via). Può essere utilizzato successivamente per importazioni/riconciliazione o pacchetti di dati. Per ulteriori informazioni, consulta [Identificatori](#identifiers).
 
 Chiavi efficienti sono essenziali per le prestazioni. Con Snowflake è possibile inserire tipi di dati numerici o basati su stringhe come chiavi per le tabelle.
 
 >[!NOTE]
 >
->Il **autouuid** attributo applicabile solo a [Distribuzioni aziendali (FFDA)](../architecture/enterprise-deployment.md).
+>L&#39;attributo **autouuid** si applica solo alle [distribuzioni Enterprise (FFDA)](../architecture/enterprise-deployment.md).
 
 ## Identificatori {#identifiers}
 
@@ -89,10 +89,10 @@ La tabella seguente descrive tali identificatori e il loro scopo.
 | Identificatore | Descrizione | Best practice |
 |--- |--- |--- |
 | Id | <ul><li>L’ID è la chiave primaria fisica di una tabella Adobe Campaign. Per le tabelle integrate, è un ID universalmente univoco (UUID)</li><li>Questo identificatore deve essere univoco. </li><li>Un UUID può essere visibile in una definizione di schema.</li></ul> | <ul><li>Gli identificatori generati automaticamente non devono essere utilizzati come riferimento in un flusso di lavoro o in una definizione di pacchetto.</li><li>L’ID in una tabella è un UUID e questo tipo non deve essere modificato.</li></ul> |
-| Nome (o nome interno) | <ul><li>Queste informazioni sono un identificatore univoco di un record in una tabella. Questo valore può essere aggiornato manualmente, in genere con un nome generato.</li><li>Questo identificatore mantiene il suo valore quando distribuito in un’istanza diversa di Adobe Campaign e non deve essere vuoto.</li></ul> | <ul><li>Rinomina il nome del record generato da Adobe Campaign se l’oggetto deve essere distribuito da un ambiente a un altro.</li><li>Quando un oggetto ha un attributo namespace (*schema* ad esempio), questo spazio dei nomi comune verrà utilizzato in tutti gli oggetti personalizzati creati. Alcuni spazi dei nomi riservati non devono essere utilizzati: *nms*, *xtk*, ecc.  Alcuni spazi dei nomi sono solo interni. [Ulteriori informazioni](schemas.md#reserved-namespaces).</li><li>Quando un oggetto non ha uno spazio dei nomi (*workflow* o *consegna* ad esempio), questa nozione di spazio dei nomi viene aggiunta come prefisso di un oggetto nome interno: *namespaceMyObjectName*.</li><li>Non utilizzare caratteri speciali come lo spazio &quot;&quot;, la semiconna &quot;:&quot; o il trattino &quot;-&quot;. Tutti questi caratteri verrebbero sostituiti da un carattere di sottolineatura &quot;_&quot; (carattere consentito). Ad esempio, &quot;abc-def&quot; e &quot;abc:def&quot; verrebbero memorizzati come &quot;abc_def&quot; e si sovrascriverebbero a vicenda.</li></ul> |
+| Nome (o nome interno) | <ul><li>Queste informazioni sono un identificatore univoco di un record in una tabella. Questo valore può essere aggiornato manualmente, in genere con un nome generato.</li><li>Questo identificatore mantiene il suo valore quando distribuito in un’istanza diversa di Adobe Campaign e non deve essere vuoto.</li></ul> | <ul><li>Rinomina il nome del record generato da Adobe Campaign se l’oggetto deve essere distribuito da un ambiente a un altro.</li><li>Quando un oggetto ha un attributo di spazio dei nomi (*schema*, ad esempio), questo spazio dei nomi comune verrà utilizzato in tutti gli oggetti personalizzati creati. Alcuni spazi dei nomi riservati non devono essere utilizzati: *nms*, *xtk*, ecc.  Alcuni spazi dei nomi sono solo interni. [Ulteriori informazioni](schemas.md#reserved-namespaces).</li><li>Se un oggetto non dispone di alcuno spazio dei nomi (*flusso di lavoro* o *consegna*, ad esempio), questa nozione di spazio dei nomi viene aggiunta come prefisso di un oggetto nome interno: *namespaceMyObjectName*.</li><li>Non utilizzare caratteri speciali come lo spazio &quot;&quot;, la semiconna &quot;:&quot; o il trattino &quot;-&quot;. Tutti questi caratteri verrebbero sostituiti da un carattere di sottolineatura &quot;_&quot; (carattere consentito). Ad esempio, &quot;abc-def&quot; e &quot;abc:def&quot; verrebbero memorizzati come &quot;abc_def&quot; e si sovrascriverebbero a vicenda.</li></ul> |
 | Etichetta | <ul><li>L’etichetta è l’identificatore aziendale di un oggetto o di un record in Adobe Campaign.</li><li>Questo oggetto consente spazi e caratteri speciali.</li><li>Non garantisce l&#39;univocità di un record.</li></ul> | <ul><li>Si consiglia di determinare una struttura per le etichette degli oggetti.</li><li>Questa è la soluzione più semplice da usare per identificare un record o un oggetto per un utente di Adobe Campaign.</li></ul> |
 
-Nell&#39;ambito di una [Distribuzione aziendale (FFDA)](../architecture/enterprise-deployment.md), la chiave primaria di Adobe Campaign è un UUID generato automaticamente per tutte le tabelle integrate. Un UUID può essere utilizzato anche per le tabelle personalizzate. [Ulteriori informazioni](../architecture/keys.md)
+Nel contesto di una distribuzione [Enterprise (FFDA)](../architecture/enterprise-deployment.md), la chiave primaria di Adobe Campaign è un UUID generato automaticamente per tutte le tabelle incorporate. Un UUID può essere utilizzato anche per le tabelle personalizzate. [Ulteriori informazioni](../architecture/keys.md)
 
 Anche se il numero di ID è infinito, è necessario considerare le dimensioni del database per garantire prestazioni ottimali. Per evitare problemi, assicurati di regolare le impostazioni di eliminazione dell’istanza. Per ulteriori informazioni, consulta [questa sezione](#data-retention).
 
@@ -107,12 +107,12 @@ Questa chiave personalizzata è la chiave primaria del record effettivo nel sist
 
 Durante la creazione di una tabella personalizzata, sono disponibili due opzioni:
 * Una combinazione di chiave (id) generata automaticamente e chiave interna (personalizzata). Questa opzione è interessante se la chiave di sistema è una chiave composita o non un numero intero. Con Snowflake, i numeri interi o le chiavi basate su stringhe forniranno prestazioni più elevate nelle tabelle di grandi dimensioni e l’unione con altre tabelle.
-* Utilizzo della chiave primaria come chiave primaria del sistema esterno. Questa soluzione è in genere preferita in quanto semplifica l’approccio all’importazione e all’esportazione dei dati, con una chiave coerente tra i diversi sistemi. **Autouuid** deve essere disabilitato se la chiave è denominata &quot;id&quot; e deve essere compilata con valori esterni (non generati automaticamente).
+* Utilizzo della chiave primaria come chiave primaria del sistema esterno. Questa soluzione è in genere preferita in quanto semplifica l’approccio all’importazione e all’esportazione dei dati, con una chiave coerente tra i diversi sistemi. **Autouuid** deve essere disabilitato se la chiave è denominata &quot;id&quot; e deve essere riempita con valori esterni (non generati automaticamente).
 
 >[!CAUTION]
 >
 >* Un autouuid non deve essere utilizzato come riferimento nei flussi di lavoro.
-> * Il **autouuid** attributo applicabile solo a [Distribuzioni aziendali (FFDA)](../architecture/enterprise-deployment.md).
+> * L&#39;attributo **autouuid** si applica solo alle [distribuzioni Enterprise (FFDA)](../architecture/enterprise-deployment.md).
 >
 
 ## Collegamenti e cardinalità {#links-and-cardinality}
@@ -121,7 +121,7 @@ Durante la creazione di una tabella personalizzata, sono disponibili due opzioni
 
 Presta attenzione alla &quot;propria&quot; integrità sulle tabelle di grandi dimensioni. L’eliminazione di record con tabelle di grandi dimensioni con integrità &quot;propria&quot; può potenzialmente arrestare l’istanza. La tabella è bloccata e le eliminazioni vengono eseguite una alla volta. Quindi è meglio usare l&#39;integrità &quot;neutra&quot; su tavoli di bambini che hanno grandi volumi.
 
-Dichiarare un collegamento come join esterno non è un vantaggio in termini di prestazioni. Il record con ID zero emula la funzionalità di join esterno. Nell&#39;ambito di una [Distribuzione aziendale (FFDA)](../architecture/enterprise-deployment.md), non è necessario dichiarare join esterni se il collegamento utilizza **autouuid**.
+Dichiarare un collegamento come join esterno non è un vantaggio in termini di prestazioni. Il record con ID zero emula la funzionalità di join esterno. Nel contesto di una distribuzione [Enterprise (FFDA)](../architecture/enterprise-deployment.md), non è necessario dichiarare join esterni se il collegamento utilizza **autouuid**.
 
 Anche se è possibile unire qualsiasi tabella in un flusso di lavoro, l’Adobe consiglia di definire collegamenti comuni tra le risorse direttamente nella definizione della struttura dati.
 
@@ -141,7 +141,7 @@ Definisci un collegamento con una cardinalità (1-N) nello schema sul lato (N). 
 
 Per impostazione predefinita, la cardinalità inversa di un collegamento è (N). È possibile definire un collegamento (1-1) aggiungendo l’attributo revCardinality=&#39;single&#39; alla definizione del collegamento.
 
-Se il collegamento inverso non deve essere visibile all’utente, puoi nasconderlo con la definizione di collegamento revLink=’_NESSUNO_&quot;. Un buon caso d’uso consiste nel definire, ad esempio, un collegamento tra il destinatario e l’ultima transazione completata. È sufficiente visualizzare il collegamento tra il destinatario e l&#39;ultima transazione e non è necessario che dalla tabella delle transazioni sia visibile alcun collegamento inverso.
+Se il collegamento inverso non deve essere visibile all&#39;utente, è possibile nasconderlo con la definizione di collegamento revLink=&#39;_NONE_&#39;. Un buon caso d’uso consiste nel definire, ad esempio, un collegamento tra il destinatario e l’ultima transazione completata. È sufficiente visualizzare il collegamento tra il destinatario e l&#39;ultima transazione e non è necessario che dalla tabella delle transazioni sia visibile alcun collegamento inverso.
 
 I collegamenti che eseguono un join esterno (1-0..1) devono essere utilizzati con cautela in quanto influiscono sulle prestazioni del sistema.
 
@@ -213,9 +213,9 @@ Di seguito sono riportate alcune best practice comuni da seguire durante la prog
 
 La dimensione della tabella è una combinazione del numero di record e del numero di colonne per record. Entrambi possono influire sulle prestazioni delle query.
 
-* A **di piccole dimensioni** è simile alla tabella Delivery.
-* A **dimensioni medie** corrisponde alle dimensioni della tabella Destinatario. Ha un record per cliente.
-* A **grande** è simile alla tabella di registro Broad. Dispone di molti record per cliente.
+* Una tabella **di piccole dimensioni** è simile alla tabella Delivery.
+* Una tabella di **dimensioni medie** ha le stesse dimensioni della tabella Destinatario. Ha un record per cliente.
+* Una tabella **di grandi dimensioni** è simile alla tabella di registro Broad. Dispone di molti record per cliente.
 Ad esempio, se il database contiene 10 milioni di destinatari, la tabella di registro Broad contiene circa 100-200 milioni di messaggi e la tabella Delivery contiene alcune migliaia di record.
 
 Il numero di righe influisce anche sulle prestazioni. Il database di Adobe Campaign non è progettato per memorizzare dati storici che non vengono utilizzati attivamente a scopo di targeting o personalizzazione; si tratta di un database operativo.

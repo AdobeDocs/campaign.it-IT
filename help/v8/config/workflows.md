@@ -29,7 +29,7 @@ Puoi impostare:
 
 Utilizza i flussi di lavoro di Adobe Campaign per migliorare la velocità e la scalabilità di ogni aspetto delle campagne di marketing, dalla creazione di segmenti e preparazione dei messaggi alla consegna.
 
-Scopri come progettare flussi di lavoro in questi [casi d’uso end-to-end](#end-to-end-uc).
+Scopri come progettare flussi di lavoro in questi [casi d&#39;uso end-to-end](#end-to-end-uc).
 
 Per ulteriori informazioni sull’interfaccia utente e l’esecuzione dei flussi di lavoro, consulta queste pagine:
 
@@ -37,11 +37,11 @@ Per ulteriori informazioni sull’interfaccia utente e l’esecuzione dei flussi
 
 * [Best practice per i flussi di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"}
 
-* [Flussi di lavoro tecnici integrati](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}
+* [Flussi di lavoro tecnici incorporati](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}
 
-* [Monitorare l’esecuzione dei flussi di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
+* [Monitorare l&#39;esecuzione dei flussi di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
 
-* [Creare un pubblico in un flusso di lavoro per una campagna di marketing](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=it){target="_blank"}
+* [Crea un pubblico in un flusso di lavoro della campagna di marketing](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=it){target="_blank"}
 
 ## Attività del flussi di lavoro {#wf-activities}
 
@@ -52,63 +52,63 @@ Le attività del flusso di lavoro sono raggruppate per categoria. Sono disponibi
 * [Attività di targeting](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html){target="_blank"}: Query, Leggi elenco, Arricchimento, Unione e altro ancora
 * [Attività di controllo del flusso](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html){target="_blank"}: modulo di pianificazione, fork, avviso, segnale esterno e altro ancora
 * [Attività azione](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html){target="_blank"}: consegne cross-channel, codice JavaScript, attività di gestione delle relazioni con i clienti, aggregazione aggiornamenti e altro ancora
-* [Attività di eventi](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/event-activities.html){target="_blank"}: trasferimento di file, download Web e altro ancora
+* [Attività evento](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/event-activities.html){target="_blank"}: trasferimento file, download Web e altro ancora
 
 ### Modificare l’attività dell’origine dati {#change-data-source-activity}
 
-Il **[!UICONTROL Change data source]** attività ti consente di modificare l’origine dati di un flusso di lavoro **[!UICONTROL Working table]**. Questo offre maggiore flessibilità per gestire i dati tra diverse origini dati, come FDA, FFDA e database locale.
+L&#39;attività **[!UICONTROL Change data source]** consente di modificare l&#39;origine dati di un flusso di lavoro **[!UICONTROL Working table]**. Questo offre maggiore flessibilità per gestire i dati tra diverse origini dati, come FDA, FFDA e database locale.
 
-Il **[!UICONTROL Working table]** consente al flusso di lavoro di Adobe Campaign di gestire i dati e condividerli con le attività del flusso di lavoro.
-Per impostazione predefinita, il **[!UICONTROL Working table]** viene creato nello stesso database dell’origine dei dati su cui eseguiamo le query.
+**[!UICONTROL Working table]** consente al flusso di lavoro di Adobe Campaign di gestire i dati e condividerli con le attività del flusso di lavoro.
+Per impostazione predefinita, **[!UICONTROL Working table]** viene creato nello stesso database dell&#39;origine dei dati su cui viene eseguita la query.
 
-Ad esempio, quando si esegue una query su **[!UICONTROL Profiles]** , memorizzata nel database Cloud, creerai un&#39; **[!UICONTROL Working table]** sullo stesso database cloud.
-Per modificare questa impostazione, puoi aggiungere **[!UICONTROL Change Data Source]** attività per scegliere un’origine dati diversa per il **[!UICONTROL Working table]**.
+Ad esempio, quando si esegue una query sulla tabella **[!UICONTROL Profiles]**, memorizzata nel database Cloud, verrà creato un **[!UICONTROL Working table]** sullo stesso database Cloud.
+Per modificare questa impostazione, è possibile aggiungere l&#39;attività **[!UICONTROL Change Data Source]** per scegliere un&#39;origine dati diversa per **[!UICONTROL Working table]**.
 
-Tieni presente che quando utilizzi **[!UICONTROL Change Data Source]** attività, dovrai tornare al database Cloud per continuare l’esecuzione del flusso di lavoro.
+Quando si utilizza l&#39;attività **[!UICONTROL Change Data Source]**, è necessario tornare al database cloud per continuare l&#39;esecuzione del flusso di lavoro.
 
-Per utilizzare **[!UICONTROL Change Data Source]** attività:
+Per utilizzare l&#39;attività **[!UICONTROL Change Data Source]**:
 
 1. Crea un flusso di lavoro.
 
-1. Effettua query sui destinatari target con una **[!UICONTROL Query]** attività.
+1. Eseguire una query sui destinatari con un&#39;attività **[!UICONTROL Query]**.
 
-   Per ulteriori informazioni su **[!UICONTROL Query]** attività, fare riferimento a [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
+   Per ulteriori informazioni sull&#39;attività **[!UICONTROL Query]**, vedere [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
 
-1. Dalla sezione **[!UICONTROL Targeting]** , aggiungi un **[!UICONTROL Change data source]** attività e fare doppio clic per selezionarla **[!UICONTROL Default data source]**.
+1. Dalla scheda **[!UICONTROL Targeting]**, aggiungere un&#39;attività **[!UICONTROL Change data source]** e fare doppio clic su di essa per selezionare **[!UICONTROL Default data source]**.
 
    La tabella di lavoro, che contiene il risultato della query, viene quindi spostata nel database PostgreSQL predefinito.
 
-1. Dalla sezione **[!UICONTROL Actions]** , trascina e rilascia una **[!UICONTROL JavaScript code]** attività per eseguire operazioni unitarie sulla tabella di lavoro.
+1. Dalla scheda **[!UICONTROL Actions]**, trascina e rilascia un&#39;attività **[!UICONTROL JavaScript code]** per eseguire operazioni unitarie sulla tabella di lavoro.
 
-   Per ulteriori informazioni su **[!UICONTROL JavaScript code]** attività, fare riferimento a [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code.html){target="_blank"}.
+   Per ulteriori informazioni sull&#39;attività **[!UICONTROL JavaScript code]**, vedere [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code.html){target="_blank"}.
 
-1. Aggiungi un altro **[!UICONTROL Change data source]** per tornare al database Cloud.
+1. Aggiungi un&#39;altra attività **[!UICONTROL Change data source]** per tornare al database cloud.
 
-   Fai doppio clic sull’attività e seleziona **[!UICONTROL Active FDA external account]** quindi l’account esterno corrispondente.
+   Fai doppio clic sull&#39;attività e seleziona **[!UICONTROL Active FDA external account]**, quindi l&#39;account esterno corrispondente.
 
 1. Ora puoi avviare il flusso di lavoro.
 
 ## Gestire i magazzini virtuali {#warehouse}
 
-Dopo aver creato il flusso di lavoro, puoi accedere ad altre opzioni con il **[!UICONTROL Properties]** per ulteriori configurazioni.
+Dopo aver creato il flusso di lavoro, è possibile accedere alle opzioni aggiuntive con il pulsante **[!UICONTROL Properties]** per ulteriori configurazioni.
 
-Ulteriori informazioni su **Proprietà del flusso di lavoro** in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/workflow-properties.html){target="_blank"}.
+Ulteriori informazioni sulle **proprietà flusso di lavoro** in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/workflow-properties.html){target="_blank"}.
 
-Dalla sezione **[!UICONTROL Execution]** del flusso di lavoro **[!UICONTROL Properties]**, è possibile scegliere di collegare il flusso di lavoro a warehouse diversi e ottimizzare la gestione del carico di lavoro. Per ulteriori informazioni su **Magazzini**, fare riferimento a [Documentazione del Snowflake](https://docs.snowflake.com/en/user-guide/warehouses-overview.html){target="_blank"}.
+Dalla scheda **[!UICONTROL Execution]** di **[!UICONTROL Properties]** del flusso di lavoro, puoi scegliere di collegare il flusso di lavoro a warehouse diversi e ottimizzare la gestione del carico di lavoro. Per ulteriori informazioni su **Warehouse**, consulta la [documentazione del Snowflake](https://docs.snowflake.com/en/user-guide/warehouses-overview.html){target="_blank"}.
 
 ![](assets/warehouse.png)
 
-A seconda dello scopo del flusso di lavoro, è possibile scegliere tra i tre magazzini seguenti **[!UICONTROL Warehouse]** elenco a discesa:
+A seconda dello scopo del flusso di lavoro, è possibile scegliere tra i tre warehouse seguenti dall&#39;elenco a discesa **[!UICONTROL Warehouse]**:
 
-* **[!UICONTROL Default]** / **[!UICONTROL Campaign]**: impostato per impostazione predefinita durante la creazione di un nuovo flusso di lavoro.
+* **[!UICONTROL Default]** / **[!UICONTROL Campaign]**: impostazione predefinita per la creazione di un nuovo flusso di lavoro.
 
 * **[!UICONTROL Import / Export]**: deve essere impostato con flussi di lavoro di importazione o esportazione per ottimizzare le prestazioni delle attività.
 
-* **[!UICONTROL Campaign Burst]**: deve essere impostato con flussi di lavoro per campagne o consegne per ottimizzare il tempo di elaborazione delle consegne.
+* **[!UICONTROL Campaign Burst]**: deve essere impostato con i flussi di lavoro campagna o consegne per ottimizzare il tempo di elaborazione delle consegne.
 
 >[!NOTE]
 >
->Il **[!UICONTROL System]** warehouse impostato solo per i flussi di lavoro incorporati.
+>Il data warehouse **[!UICONTROL System]** è impostato solo per i flussi di lavoro incorporati.
 
 ## Configurare campagne ricorrenti
 
@@ -137,11 +137,11 @@ In questa sezione troverai diversi casi d’uso che sfruttano le funzionalità d
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
 
-* [Inviare un’e-mail di compleanno](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=it){target="_blank"}
+* [Invia un&#39;e-mail di compleanno](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=it){target="_blank"}
 
   Questo caso d’uso illustra come pianificare l’invio di un’e-mail ricorrente a un elenco di destinatari il giorno del loro compleanno.
 
-* [Caricare i contenuti della consegna](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}
+* [Carica contenuto consegna](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}
 Quando il contenuto della consegna è disponibile in un file HTML che si trova su un server remoto, puoi facilmente caricarlo nelle consegne Adobe Campaign.
 
 * [Flusso di lavoro di consegna cross-channel](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/cross-channel-delivery-workflow.html){target="_blank"}
@@ -162,13 +162,13 @@ Scopri come confrontare due contenuti di consegna e-mail tramite un flusso di la
 
 <img src="assets/do-not-localize/icon_monitoring.svg" width="60px">
 
-* [Inviare un rapporto a un elenco](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/send-a-report-to-a-list.html){target="_blank"}
+* [Invia un report a un elenco](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/send-a-report-to-a-list.html){target="_blank"}
 Scopri come generare un rapporto mensile integrato sugli indicatori di tracciamento in formato PDF e inviarlo a un elenco di operatori di Campaign.
 
-* [Supervisionare i flussi di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/workflow-supervision.html){target="_blank"}
+* [Supervisiona i tuoi flussi di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/workflow-supervision.html){target="_blank"}
 Scopri come creare un flusso di lavoro che consenta di monitorare lo stato di un set di flussi di lavoro &quot;in pausa&quot;, &quot;interrotti&quot; o &quot;con errori&quot;.
 
-* [Inviare avvisi personalizzati agli operatori](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/send-alerts-to-operators.html){target="_blank"}
+* [Invia avvisi personalizzati agli operatori](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/send-alerts-to-operators.html){target="_blank"}
 Scopri come inviare un avviso a un operatore che conterrà il nome dei profili che hanno aperto una newsletter ma non hanno fatto clic sul collegamento in essa contenuto.
 
 ### Gestione dati {#management}
@@ -181,16 +181,16 @@ Scopri come verificare che il processo di aggiornamento sia terminato prima di e
 * [Creare un elenco di riepilogo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/create-a-summary-list.html){target="_blank"}
 Scopri come creare un flusso di lavoro che, dopo aver raccolto i file e aver seguito diversi arricchimenti, ti consenta di creare un elenco di riepilogo. L&#39;esempio si basa su un elenco di contatti che hanno effettuato acquisti in un negozio.
 
-* [Arricchire i dati](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/enrich-data.html?lang=it){target="_blank"}
+* [Arricchisci dati](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/enrich-data.html?lang=it){target="_blank"}
 Scopri come inviare consegne personalizzate ai profili che hanno partecipato all’ultimo concorso a seconda del punteggio ottenuto.
 
-* [Utilizzare gli aggregati](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html){target="_blank"}
+* [Usa aggregati](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html){target="_blank"}
 Scopri come identificare gli ultimi destinatari aggiunti al database.
 
-* [Aggiornamento dell’elenco trimestrale tramite una query incrementale](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/quarterly-list-update.html){target="_blank"}
+* [Aggiornamento elenco trimestrale tramite una query incrementale](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/quarterly-list-update.html){target="_blank"}
 Scopri come utilizzare una query incrementale per aggiornare automaticamente un elenco di destinatari.
 
-* [Impostare un flusso di lavoro di importazione ricorrente](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html){target="_blank"}
+* [Imposta un flusso di lavoro di importazione ricorrente](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html){target="_blank"}
 Scopri come progettare un flusso di lavoro che possa essere riutilizzato per importare nel database di Adobe Campaign i profili provenienti da un sistema di gestione delle relazioni con i clienti.
 
 ### Targeting {#designing-queries}
@@ -203,7 +203,7 @@ Scopri come recuperare i nomi e le e-mail dei destinatari il cui dominio e-mail 
 * [Eseguire una query sulle informazioni di consegna](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-delivery-info.html){target="_blank"}
 Scopri come definire query sulle informazioni di consegna per recuperare il comportamento del profilo.
 
-* [Calcola aggregati](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/compute-aggregates.html){target="_blank"}
+* [Calcola aggregazioni](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/compute-aggregates.html){target="_blank"}
 Scopri come contare il numero di profili che vivono a Londra, in base al sesso.
 
 * [Eseguire una query tramite una relazione molti-a-molti](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html){target="_blank"}

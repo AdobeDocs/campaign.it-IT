@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Utilizzare Campaign e X (Twitter) {#tw-ac-ovv}
 
-Il **Gestione dei social network (Social Marketing)** consente di interagire con i clienti tramite X (precedentemente noto come Twitter). Utilizza questa funzionalità per:
+Il modulo **Gestione dei social network (Social Marketing)** consente di interagire con i clienti tramite X (precedentemente noto come Twitter). Utilizza questa funzionalità per:
 
 * Pubblica messaggi e invia messaggi DM: utilizza Adobe Campaign Social Marketing per pubblicare messaggi su X. Puoi anche inviare messaggi diretti a tutti i tuoi follower.
 
@@ -23,7 +23,7 @@ Il **Gestione dei social network (Social Marketing)** consente di interagire con
 
 >[!NOTE]
 >
->In qualità di utente di Managed Cloud Service, [Adobe di contatto](../start/campaign-faq.md#support) per collegare Campaign a X. Il  **Gestione dei social network (Social Marketing)** il componente aggiuntivo deve essere installato nell’ambiente tramite il pacchetto dedicato e l’account esterno del Twitter deve essere configurato.
+>In qualità di utente di Cloud Service gestiti, [contatta l&#39;Adobe](../start/campaign-faq.md#support) per connettere Campaign a X. Il componente aggiuntivo **Gestione dei social network (Social Marketing)** deve essere installato nel tuo ambiente tramite il pacchetto dedicato e deve essere configurato l&#39;account esterno del Twitter.
 
 
 Per configurare Adobe Campaign per la pubblicazione di tweet sui tuoi account X, delega l’accesso in scrittura ad Adobe Campaign per questi account. A questo scopo, devi:
@@ -36,27 +36,27 @@ Per configurare Adobe Campaign per la pubblicazione di tweet sui tuoi account X,
 
 ## X account sviluppatore {#dev-account}
 
-Per iniziare con questa integrazione, devi iscriverti a [X account sviluppatore](https://developer.twitter.com){target="_blank"}.
+Per iniziare con questa integrazione, devi iscriverti a un account sviluppatore [X](https://developer.twitter.com){target="_blank"}.
 
-Campaign utilizza la versione 1.1 dell’API X. Per utilizzarlo, devi richiedere l’accesso con privilegi elevati tramite il portale per sviluppatori. Ulteriori informazioni su X Elevated Access [in questa pagina](https://developer.twitter.com/en/portal/products/elevated){target="_blank"}.
+Campaign utilizza la versione 1.1 dell’API X. Per utilizzarlo, devi richiedere l’accesso con privilegi elevati tramite il portale per sviluppatori. Ulteriori informazioni su X Elevated Access [sono disponibili in questa pagina](https://developer.twitter.com/en/portal/products/elevated){target="_blank"}.
 
 ## Creare un’applicazione su X {#create-an-app-on-twitter}
 
 Dopo aver ricevuto l’approvazione con accesso privilegiato, crea un’applicazione X per consentire ad Adobe Campaign di creare post sul tuo account X. A questo scopo, segui la procedura indicata di seguito:
 
 1. Accedi al tuo account X.
-1. Connetti a [X portale per sviluppatori](https://developer.twitter.com/en/apps){target="_blank"}.
-1. Seleziona **Creare un’app**.
+1. Connetti al [X portale per sviluppatori](https://developer.twitter.com/en/apps){target="_blank"}.
+1. Selezionare **Crea un&#39;app**.
 1. Lascia che l’assistente X ti guidi attraverso il processo.
-1. Per consentire ad Adobe Campaign di creare post sul tuo account, modifica in **Autorizzazioni app** dalla sezione Configurazione dell’autenticazione utente nell’app. Seleziona **Lettura, scrittura e messaggi diretti**.
+1. Per consentire ad Adobe Campaign di creare post sul tuo account, modifica le **autorizzazioni app** dalla sezione Configurazione autenticazione utente dell&#39;app. Selezionare **Messaggi diretti, di lettura e scrittura**.
 
    ![](assets/tw-permissions.png)
 
-1. In **Tipo di app** sezione, seleziona **App web, app automatizzata o bot**. È possibile lasciare **URL callback** e salva la configurazione.
+1. Nella sezione **Tipo di app**, selezionare **App Web, App automatizzata o Bot**. Puoi lasciare vuoto il campo **URL richiamata** e salvare la configurazione.
 
    ![](assets/tw-app-type.png)
 
-1. Torna al dashboard dell’app, seleziona l’app e passa alla sezione **Tasti e token** scheda. Sotto **Token di accesso e segreto**, se **Lettura, scrittura e messaggi diretti** L&#39;autorizzazione non è menzionata, devi rigenerare il token e il segreto dell&#39;app. Tieni presente che tutte le chiavi e i token devono essere salvati al momento della creazione. Saranno necessarie per configurare il servizio di Twitter Campaign.
+1. Torna al dashboard dell&#39;app, seleziona l&#39;app e passa alla scheda **Tasti e token**. In **Token di accesso e segreto**, se l&#39;autorizzazione **Messaggi diretti, di lettura e scrittura** non è menzionata, è necessario rigenerare il token e il segreto dell&#39;app. Tieni presente che tutte le chiavi e i token devono essere salvati al momento della creazione. Saranno necessarie per configurare il servizio di Twitter Campaign.
 
    ![](assets/tw-permissions-check.png)
 
@@ -68,81 +68,81 @@ Dopo aver ricevuto l’approvazione con accesso privilegiato, crea un’applicaz
 
 ## Creazione di un servizio di Twitter in Campaign {#create-tw-service}
 
-Per collegare la tua istanza di Campaign all’account X, crea un’ **Twitter** accesso in scrittura a Campaign tramite servizio e delegato.
+Per collegare la tua istanza di Campaign all&#39;account X, crea un servizio di **Twitter** e delega l&#39;accesso in scrittura a Campaign.
 
 >[!CAUTION]
 >
->Crea un elemento **Twitter** servizio per account X. Di conseguenza, devi creare un altro servizio di test per inviare le bozze al tuo [account di prova](#tw-test-account).
+>Crea un servizio **Twitter** per ogni account X. Di conseguenza, devi creare un altro servizio di test per inviare le bozze al tuo [account di test](#tw-test-account).
 >
->Ogni **Twitter** deve essere creato anche da Adobe sull’istanza MID. Contatta il rappresentante del tuo Adobe per configurare l’ambiente.
+>Ogni servizio **Twitter** deve essere creato anche da Adobe nell&#39;istanza MID. Contatta il rappresentante del tuo Adobe per configurare l’ambiente.
 >
 
 Per immettere le impostazioni, devi accedere sia alla console client di Adobe Campaign che alle autorizzazioni della tua app X.
 
-1. In entrata **Adobe Campaign**, passare alla **[!UICONTROL Profiles and targets]** e seleziona la scheda **[!UICONTROL Services and Subscriptions]** link
+1. In **Adobe Campaign**, passare alla scheda **[!UICONTROL Profiles and targets]** e selezionare il collegamento **[!UICONTROL Services and Subscriptions]**
 1. Crea un nuovo servizio.
-1. Seleziona la **[!UICONTROL Twitter]** tipo.
+1. Selezionare il tipo **[!UICONTROL Twitter]**.
 1. Inserisci l’etichetta e il nome interno del servizio.
 
    >[!CAUTION]
    >
-   >Il **[!UICONTROL Internal name]** del servizio deve corrispondere esattamente allo stesso nome del tuo account X.
+   >**[!UICONTROL Internal name]** del servizio deve avere lo stesso nome dell&#39;account X.
    >
 
-1. Per impostazione predefinita, i follower vengono salvati in **[!UICONTROL Visitors]** cartella. È possibile selezionare un&#39;altra posizione dal **[!UICONTROL Visitor folder]** campo. [Ulteriori informazioni](../send/twitter.md#direct-tw-messages)
+1. Per impostazione predefinita, i follower vengono salvati nella cartella **[!UICONTROL Visitors]**. È possibile selezionare un altro percorso dal campo **[!UICONTROL Visitor folder]**. [Ulteriori informazioni](../send/twitter.md#direct-tw-messages)
 
    ![](assets/tw-service-in-ac.png)
 
    >[!NOTE]
    >
-   >Il **[!UICONTROL Synchronize subscriptions]** è attivata per impostazione predefinita: questa opzione recupera automaticamente l’elenco degli X follower in modo che sia possibile [inviare loro messaggi diretti](../send/twitter.md#direct-tw-messages). La sincronizzazione viene eseguita da un [flusso di lavoro tecnico dedicato](#synchro-tw-accounts).
+   >L&#39;opzione **[!UICONTROL Synchronize subscriptions]** è attivata per impostazione predefinita: questa opzione ripristina automaticamente l&#39;elenco degli X follower in modo che tu possa [inviare loro messaggi diretti](../send/twitter.md#direct-tw-messages). La sincronizzazione viene eseguita da un [flusso di lavoro tecnico dedicato](#synchro-tw-accounts).
 
-1. Dall’app X, copia il contenuto della **Chiave API** e **[Segreto chiave API]** e incollarli nel **[!UICONTROL Consumer key]** e **[!UICONTROL Consumer secret]** campi della campagna **Twitter** servizio.
+1. Dall&#39;app X, copia il contenuto dei campi **Chiave API** e **[Segreto chiave API]** e incollali nei campi **[!UICONTROL Consumer key]** e **[!UICONTROL Consumer secret]** del servizio **Twitter** della campagna.
 
-1. Dall’app X, copia il contenuto della **Token di accesso** e **Segreto token di accesso** e incollarli nel **[!UICONTROL Access token]** e **[!UICONTROL Access token secret]** campi della campagna **Twitter** servizio.
+1. Dall&#39;app X, copia il contenuto dei campi **Token di accesso** e **Segreto token di accesso** e incollali nei campi **[!UICONTROL Access token]** e **[!UICONTROL Access token secret]** del servizio **Twitter** della campagna.
 
-1. Nella console client di Campaign, fai clic su **[!UICONTROL Save]**. Ora hai delegato l’accesso in scrittura ad Adobe Campaign.
+1. Nella console del client di Campaign, fai clic su **[!UICONTROL Save]**. Ora hai delegato l’accesso in scrittura ad Adobe Campaign.
 
 Per verificare le impostazioni, è possibile:
 
-* Modifica il **Twitter** servizio appena creato.
-* Sfoglia **[!UICONTROL Twitter page]** scheda: viene visualizzato l’account di Twitter.
+* Modifica il servizio **Twitter** appena creato.
+* Sfoglia la scheda **[!UICONTROL Twitter page]**: dovrebbe essere visualizzato l&#39;account di Twitter.
   ![](assets/tw-page.png)
 
 ## Sincronizza il tuo account X {#synchro-tw-accounts}
 
-La sincronizzazione tra Campaign e X viene gestita tramite flussi di lavoro tecnici dedicati. Questi flussi di lavoro sono memorizzati nel **[!UICONTROL Administration > Production > Technical workflows > Managing social networks]** cartella.
+La sincronizzazione tra Campaign e X viene gestita tramite flussi di lavoro tecnici dedicati. Questi flussi di lavoro sono archiviati nella cartella **[!UICONTROL Administration > Production > Technical workflows > Managing social networks]**.
 
-Per impostazione predefinita vengono arrestati: è necessario avviarli manualmente quando si inizia a utilizzare **Social marketing** modulo.
+Per impostazione predefinita sono interrotti. Devi avviarli manualmente quando inizi a utilizzare il modulo **Social Marketing**.
 
-Il **[!UICONTROL Synchronization of Twitter accounts]** il flusso di lavoro tecnico sincronizza gli account X in Adobe Campaign. Questo flusso di lavoro recupera l’elenco degli X follower in modo da poter inviare loro messaggi diretti. [Ulteriori informazioni](../send/twitter.md#direct-tw-messages)
+Il flusso di lavoro tecnico **[!UICONTROL Synchronization of Twitter accounts]** sincronizza gli account X in Adobe Campaign. Questo flusso di lavoro recupera l’elenco degli X follower in modo da poter inviare loro messaggi diretti. [Ulteriori informazioni](../send/twitter.md#direct-tw-messages)
 
-Per impostazione predefinita, questo flusso di lavoro viene attivato ogni giovedì alle 07:30. È possibile utilizzare **[!UICONTROL Execute pending task(s) now]** per avviare il flusso di lavoro in qualsiasi momento durante l’implementazione di questa integrazione.  Puoi anche modificare la pianificazione per cambiare la frequenza di attivazione del flusso di lavoro. Per ulteriori informazioni, consulta [questa pagina](../../automation/workflow/scheduler.md).
+Per impostazione predefinita, questo flusso di lavoro viene attivato ogni giovedì alle 07:30. È possibile utilizzare l&#39;opzione **[!UICONTROL Execute pending task(s) now]** per avviare il flusso di lavoro in qualsiasi momento durante l&#39;implementazione di questa integrazione.  Puoi anche modificare la pianificazione per cambiare la frequenza di attivazione del flusso di lavoro. Per ulteriori informazioni, consulta [questa pagina](../../automation/workflow/scheduler.md).
 
 >[!CAUTION]
 >
->Per recuperare l’elenco degli abbonati X, utilizza **[!UICONTROL Twitter account synchronization]** deve essere selezionata l’opzione per il servizio collegato all’account. [Ulteriori informazioni](#create-tw-service)
+>Per ripristinare l&#39;elenco degli abbonati X, è necessario controllare l&#39;opzione **[!UICONTROL Twitter account synchronization]** per il servizio collegato all&#39;account. [Ulteriori informazioni](#create-tw-service)
 
-I follower sono memorizzati in una tabella specifica: la tabella dei visitatori. Per visualizzare l&#39;elenco degli X follower, selezionare **[!UICONTROL Profiles and Targets > Visitors]**.
+I follower sono memorizzati in una tabella specifica: la tabella dei visitatori. Per visualizzare l&#39;elenco degli X follower, passa a **[!UICONTROL Profiles and Targets > Visitors]**.
 
 Per ogni follower, Adobe Campaign memorizza le seguenti informazioni:
 
-* **[!UICONTROL Origin]**: TWITTER
+* **[!UICONTROL Origin]**: Twitter
 * **[!UICONTROL External ID]**: identificatore utente
-* **[!UICONTROL Username]**: nome account dell’utente
-* **[!UICONTROL Full name]**: nome dell’utente
+* **[!UICONTROL Username]**: nome account dell&#39;utente
+* **[!UICONTROL Full name]**: nome dell&#39;utente
 * **[!UICONTROL Number of friends]**: numero di follower
-* **[!UICONTROL Checked]**: questo campo indica se l’utente dispone di un account di Twitter verificato
+* **[!UICONTROL Checked]**: questo campo indica se l&#39;utente dispone di un account di Twitter verificato
 
 Al termine della configurazione, puoi creare post sui tuoi account X e inviare messaggi diretti ai tuoi follower. [Ulteriori informazioni](../send/twitter.md)
 
 ## Crea un account di test su X {#tw-test-account}
 
-Oltre all’account X, crea un account X privato da utilizzare per l’invio [bozze tweet](../send/twitter.md#send-tw-proofs). A questo scopo, segui la procedura indicata di seguito:
+Oltre all&#39;account X, crea un account X privato che può essere utilizzato per inviare [bozze tweet](../send/twitter.md#send-tw-proofs). A questo scopo, segui la procedura indicata di seguito:
 
 1. Crea un nuovo account X.
-1. Accedere all’account  **Impostazioni**.
-1. Sfoglia per **Privacy e sicurezza** e **Pubblico e assegnazione tag** e controlla **Protect post** opzione. I tuoi post e altre informazioni sull&#39;account sono visibili solo alle persone che ti seguono.
+1. Accedi all&#39;account **Impostazioni**.
+1. Cerca **Privacy e sicurezza** e **Pubblico e assegnazione tag** e seleziona l&#39;opzione **Protect tuoi post**. I tuoi post e altre informazioni sull&#39;account sono visibili solo alle persone che ti seguono.
 
 ![](assets/do-not-localize/social_tw_test_page.png)
 

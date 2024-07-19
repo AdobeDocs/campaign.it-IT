@@ -20,7 +20,7 @@ Utilizza le funzionalità di analisi marketing per analizzare e misurare i dati,
 
 Puoi estendere le capacità di esplorazione e di analisi del database e semplificare la configurazione di rapporti e tabelle da parte dell’utente finale: per elaborare calcoli, misure e statistiche, sarà sufficiente selezionare un cubo esistente (completamente configurato) durante la creazione del rapporto o della tabella .
 
-I cubi vengono utilizzati per generare determinati rapporti incorporati, tra cui [rapporti di consegna](delivery-reports.md) (tracciamento della consegna, clic, aperture, ecc.).
+I cubi vengono utilizzati per generare alcuni rapporti incorporati, tra cui [rapporti di consegna](delivery-reports.md) (tracciamento della consegna, clic, aperture, ecc.).
 
 Una volta creati e configurati, i cubi vengono utilizzati nelle caselle di query dei report e nelle applicazioni web. Possono essere utilizzati e manipolati all’interno di tabelle pivot.
 
@@ -50,12 +50,12 @@ Utilizza il modulo Marketing Analytics di Campaign per:
 
 Di seguito sono elencati i termini specifici per l&#39;utilizzo dei cubi.
 
-* **Cubo** - Un cubo è una rappresentazione di informazioni multidimensionali: fornisce agli utenti finali strutture progettate per l&#39;analisi interattiva dei dati.
+* **Cubo** - Un cubo è una rappresentazione di informazioni multidimensionali: fornisce agli utenti finali strutture progettate per l&#39;analisi dei dati interattivi.
 
-* **Tabella dei fatti/schema** - La fact table (o schema dei fatti) contiene i dati grezzi o elementari su cui verranno basate le analisi. Si tratta principalmente di tabelle di volumi di grandi dimensioni (eventualmente con tabelle collegate) con calcoli potenzialmente lunghi. Ad esempio, una fact table può essere: la tabella broadlog, la tabella purchase e così via.
+* **Tabella dei fatti/schema** - La tabella dei fatti (o schema dei fatti) contiene i dati non elaborati o elementari su cui verranno basate le analisi. Si tratta principalmente di tabelle di volumi di grandi dimensioni (eventualmente con tabelle collegate) con calcoli potenzialmente lunghi. Ad esempio, una fact table può essere: la tabella broadlog, la tabella purchase e così via.
 
 * **Dimension** - I Dimension consentono di segmentare i dati in gruppi: una volta creati, le dimensioni fungono da assi di analisi. Nella maggior parte dei casi, per una determinata dimensione, vengono definiti diversi livelli. Ad esempio, per una dimensione temporale, i livelli saranno mesi, giorni, ore, minuti e così via. Questo set di livelli rappresenta la gerarchia delle dimensioni e abilita vari livelli di analisi dei dati.
 
-* **Binning** - In alcuni campi è possibile definire il binning per raggruppare i valori e semplificare la lettura delle informazioni. Binning applicato ai livelli. Si consiglia di definire il binning quando esiste la possibilità di molti valori diversi.
+* **Binning** - Per alcuni campi è possibile definire il binning per raggruppare i valori e semplificare la lettura delle informazioni. Binning applicato ai livelli. Si consiglia di definire il binning quando esiste la possibilità di molti valori diversi.
 
-* **Misura** - Le misure più frequenti sono somma, media, massima, minima, deviazione standard, ecc. Le misure possono essere calcolate: ad esempio, il tasso di accettazione di un’offerta è il rapporto tra il numero di volte in cui è stata presentata e il numero di volte in cui è stata accettata.
+* **Misura** - Le misure più frequenti sono somma, media, massima, minima, deviazione standard e così via. Le misure possono essere calcolate: ad esempio, il tasso di accettazione di un’offerta è il rapporto tra il numero di volte in cui è stata presentata e il numero di volte in cui è stata accettata.

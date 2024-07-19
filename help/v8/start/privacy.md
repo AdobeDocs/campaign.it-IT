@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 0f81d318-dbfd-45c8-b391-b1d14d23e9c8
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 96%
+source-wordcount: '942'
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe offre ai titolari del trattamento strumenti per creare ed elaborare richie
 
 Per gestire le richieste di accesso a dati personali in Campaign, devi prima [definire uno spazio dei nomi](#namespaces). Dopodiché puoi creare e gestire le richieste Privacy. Per eseguire le richieste di accesso a dati personali, utilizza l’integrazione **Adobe Privacy Service**. Le richieste di accesso a dati personali inviate da Privacy Service a tutte le soluzioni Adobe Experience Cloud vengono gestite automaticamente da Campaign tramite un flusso di lavoro dedicato. [Ulteriori informazioni](#create-privacy-request)
 
-Scopri di più su **Diritto di accesso** e **Diritto all’oblio** (richiesta di eliminazione) in [Documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=it#right-access-forgotten){target="_blank"}.
+Scopri il **Diritto di accesso** e il **Diritto all&#39;oblio** (elimina richiesta) nella [Documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=it#right-access-forgotten){target="_blank"}.
 
 <!--
 >[!NOTE]
@@ -109,7 +109,7 @@ Il modello per il nome di un file è: `<InstanceName>-<NamespaceId>-<Reconciliat
 
 >[!CAUTION]
 >
->Per inviare una richiesta utilizzando il tipo di spazio dei nomi personalizzato, crea la richiesta utilizzando il [metodo JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=it#access-delete){target="_blank"}.
+>Per inviare una richiesta utilizzando il tipo di spazio dei nomi personalizzato, sfrutta il metodo [JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it#json){target="_blank"} e aggiungi namespaceId alla richiesta, oppure utilizza la [chiamata API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=it#access-delete){target="_blank"} per effettuare la richiesta.
 >
 >Per inviare richieste utilizzando il tipo di spazio dei nomi standard, utilizza solo l’[interfaccia utente Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it#request-builder){target="_blank"}.
 

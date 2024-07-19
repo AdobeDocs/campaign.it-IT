@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # Trasferisci a mid-sourcing{#transfer-to-mid-sourcing}
 
-I flussi di lavoro descritti di seguito vengono installati con **Trasferisci a mid-sourcing** per impostazione predefinita.
+Per impostazione predefinita, i flussi di lavoro descritti di seguito vengono installati con il modulo **Trasferisci a mid-sourcing**.
 
 <table> 
  <tbody> 

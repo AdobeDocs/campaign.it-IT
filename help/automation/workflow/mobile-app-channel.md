@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # Canale app mobile{#mobile-app-channel}
 
-Il flusso di lavoro descritto di seguito viene installato con **Canale app mobile** per impostazione predefinita. Per ulteriori informazioni su questo modulo, consulta [questa sezione](../../v8/send/push.md).
+Per impostazione predefinita, il flusso di lavoro descritto di seguito viene installato con il modulo **Canale app mobile**. Per ulteriori informazioni su questo modulo, consulta [questa sezione](../../v8/send/push.md).
 
 <table> 
  <tbody> 
@@ -24,9 +24,9 @@ Il flusso di lavoro descritto di seguito viene installato con **Canale app mobil
    <td> <strong>Descrizione</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Gestione degli opt-out NMAC</span> <br /> </td> 
+   <td> <span class="uicontrol">Gestione rinuncia NMAC</span> <br /> </td> 
    <td> <span class="uicontrol">mobileAppOptOutMgt</span> <br /> </td> 
-   <td> Questo flusso di lavoro aggiorna gli annullamenti degli abbonamenti alle notifiche sui dispositivi mobili. Viene attivato ogni 6 ore tra l’1 e mezzanotte. Per ulteriori informazioni, consulta questa sezione</a>.<br /> </td> 
+   <td> Questo flusso di lavoro aggiorna gli annullamenti degli abbonamenti alle notifiche sui dispositivi mobili. Viene attivato ogni 6 ore tra l’1 e mezzanotte. Per ulteriori dettagli, vedere questa sezione</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -49,19 +49,19 @@ _30 settembre 2022_
 <table> 
 <thead>
 <tr> 
-<th> <strong>Disponibilità del canale X (precedentemente noto come Twitter)</strong><br /> </th> 
+<th> Disponibilità del canale <strong>X (precedentemente noto come Twitter)</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Il <a href="../send/twitter.md">Canale social X</a> è ora disponibile con Campaign v8. Puoi eseguire le seguenti azioni:</p>
+<td> <p>Il canale social <a href="../send/twitter.md">X</a> è ora disponibile con Campaign v8. Puoi eseguire le seguenti azioni:</p>
 <ul> 
 <li><p>Inviare messaggi su X (precedentemente noto come Twitter): Adobe Campaign consente di inviare messaggi direttamente al tuo account X. Puoi anche inviare messaggi diretti a tutti i tuoi follower.
 </p></li>
 <li><p>Raccogliere nuovi contatti: Adobe Campaign può ripristinare automaticamente i dati del profilo, consentendo di eseguire campagne di targeting e implementare strategie cross-channel.
 </p></li>
 </ul>
-<p>Scopri come collegare Campaign e X nel <a href="../connect/ac-tw.md">documentazione dettagliata</a>.</p>
+<p>Scopri come collegare Campaign e X nella <a href="../connect/ac-tw.md">documentazione dettagliata</a>.</p>
 <p>Scopri come creare post e inviare messaggi diretti con Campaign in <a href="../connect/ac-tw.md">questa pagina</a>.</p>
 </td> 
 </tr> 

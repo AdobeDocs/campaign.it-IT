@@ -151,7 +151,7 @@ ht-degree: 81%
    + [Regole di coerenza](campaign-opt/consistency-rules.md)
    + [Applicare le regole](campaign-opt/apply-rules.md)
    + [Simulazioni delle campagne](campaign-opt/campaign-simulations.md)
-+ Gestione delle risorse marketing (componente aggiuntivo){#mrm}
++ Gestione risorse marketing (componente aggiuntivo){#mrm}
    + [Introduzione alla gestione delle risorse di marketing](mrm/about-marketing-resource-management.md)
    + [Creare e gestire le attività](mrm/creating-and-managing-tasks.md)
    + [Controllare i costi](mrm/controlling-costs.md)
@@ -165,4 +165,4 @@ ht-degree: 81%
    + [Accedere alle campagne](distributed-marketing/accessing-campaigns.md)
    + [Tracciare una campagna](distributed-marketing/tracking-a-campaign.md)
    + [Casi d’uso](distributed-marketing/examples.md)
-+ [&lt; Documentazione di Back to Campaign v8](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/campaign-home)
++ [&lt; Torna alla documentazione di Campaign v8](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/campaign-home)

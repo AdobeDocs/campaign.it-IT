@@ -22,7 +22,7 @@ Puoi configurare Adobe Campaign per conservare una copia delle e-mail inviate da
 
 ## Seleziona i formati dei messaggi {#selecting-message-formats}
 
-Puoi modificare il formato dei messaggi e-mail inviati. A questo scopo, modifica le proprietà di consegna e fai clic sul pulsante **[!UICONTROL Delivery]** scheda.
+Puoi modificare il formato dei messaggi e-mail inviati. A tale scopo, modificare le proprietà di consegna e fare clic sulla scheda **[!UICONTROL Delivery]**.
 
 ![](assets/email-message-format.png)
 
@@ -30,7 +30,7 @@ Seleziona il formato dell’e-mail nella sezione inferiore della finestra:
 
 * **[!UICONTROL Use recipient preferences]** (modalità predefinita)
 
-  Il formato del messaggio è definito in base ai dati memorizzati nel profilo del destinatario e memorizzati per impostazione predefinita nel **[!UICONTROL email format]** campo (@emailFormat). Se un destinatario desidera ricevere i messaggi in un determinato formato, questo sarà il formato inviato. Se il campo non è compilato, viene inviato un messaggio multipart-alternative (vedi sotto).
+  Il formato del messaggio è definito in base ai dati memorizzati nel profilo del destinatario e archiviato per impostazione predefinita nel campo **[!UICONTROL email format]** (@emailFormat). Se un destinatario desidera ricevere i messaggi in un determinato formato, questo sarà il formato inviato. Se il campo non è compilato, viene inviato un messaggio multipart-alternative (vedi sotto).
 
 * **[!UICONTROL Let recipient mail client choose the most appropriate format]**
 
@@ -51,23 +51,23 @@ Seleziona il formato dell’e-mail nella sezione inferiore della finestra:
 
 ## Imposta codifica caratteri {#character-encoding}
 
-In **[!UICONTROL SMTP]** dei parametri di consegna, la scheda **[!UICONTROL Character encoding]** consente di impostare una codifica specifica.
+Nella scheda **[!UICONTROL SMTP]** dei parametri di consegna, la sezione **[!UICONTROL Character encoding]** ti consente di impostare una codifica specifica.
 
 La codifica predefinita è UTF-8. Se alcuni provider di posta elettronica dei destinatari non supportano la codifica standard UTF-8, è possibile impostare una codifica specifica per visualizzare correttamente i caratteri speciali per i destinatari delle e-mail.
 
 Ad esempio, desideri inviare un’e-mail contenente caratteri giapponesi. Per garantire che tutti i caratteri vengano visualizzati correttamente ai destinatari in Giappone, è possibile utilizzare una codifica che supporti i caratteri giapponesi anziché il formato UTF-8 standard.
 
-A questo scopo, seleziona la **[!UICONTROL Force the encoding used for messages]** opzione in **[!UICONTROL Character encoding]** e scegliere una codifica dall&#39;elenco a discesa visualizzato.
+A tale scopo, selezionare l&#39;opzione **[!UICONTROL Force the encoding used for messages]** nella sezione **[!UICONTROL Character encoding]** e scegliere una codifica dall&#39;elenco a discesa visualizzato.
 
 ![](assets/email-smtp-encoding.png)
 
 ## Gestire le e-mail non recapitate {#managing-bounce-emails}
 
-Il **[!UICONTROL SMTP]** scheda delle proprietà di consegna consente inoltre di configurare la gestione dei messaggi non recapitati.
+La scheda **[!UICONTROL SMTP]** delle proprietà di consegna consente inoltre di configurare la gestione dei messaggi non recapitati.
 
 * **[!UICONTROL Errors-to-address]**: per impostazione predefinita, le e-mail non consegnate vengono ricevute nella casella di errore predefinita della piattaforma, ma puoi definire un indirizzo di errore specifico per una consegna.
 
-* **[!UICONTROL Bounce address]**: puoi anche definire un altro indirizzo al quale vengono inoltrate le e-mail non elaborate non recapitate. Questo indirizzo consente di indagare i motivi di mancato recapito quando le e-mail non potevano essere qualificate automaticamente dall’applicazione.
+* **[!UICONTROL Bounce address]**: È inoltre possibile definire un altro indirizzo al quale vengono inoltrate le e-mail non elaborate non recapitate. Questo indirizzo consente di indagare i motivi di mancato recapito quando le e-mail non potevano essere qualificate automaticamente dall’applicazione.
 
 Ognuno di questi campi può essere personalizzato utilizzando l’icona dedicata. Ulteriori informazioni sui campi di personalizzazione in [questa sezione](personalization-fields.md).
 
@@ -77,9 +77,9 @@ Per ulteriori informazioni sulla gestione della posta non recapitata, consulta [
 
 ## Aggiungi intestazioni SMTP {#adding-smtp-headers}
 
-È possibile aggiungere intestazioni SMTP alle consegne. A questo scopo, utilizza la sezione pertinente del **[!UICONTROL SMTP]** nella consegna.
+È possibile aggiungere intestazioni SMTP alle consegne. A questo scopo, utilizza la sezione pertinente della scheda **[!UICONTROL SMTP]** nella consegna.
 
-Lo script inserito in questa finestra deve fare riferimento a un&#39;intestazione per riga nel seguente modulo: **nome:valore**.
+Lo script immesso in questa finestra deve fare riferimento a un&#39;intestazione per riga nel seguente formato: **nome:valore**.
 
 Se necessario, i valori vengono codificati automaticamente.
 
@@ -96,4 +96,4 @@ Se necessario, i valori vengono codificati automaticamente.
 
 La pagina mirror è una pagina HTML accessibile online tramite un browser web. Il contenuto è identico a quello dell’e-mail. Può essere utile se i destinatari riscontrano problemi di rendering o immagini danneggiate quando tentano di visualizzare l’e-mail nella casella in entrata.
 
-Scopri come inserire un collegamento alla pagina speculare in [questa sezione](mirror-page.md)
+Scopri come inserire un collegamento alla pagina mirror in [questa sezione](mirror-page.md)

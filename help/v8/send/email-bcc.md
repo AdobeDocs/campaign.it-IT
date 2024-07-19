@@ -24,11 +24,11 @@ ht-degree: 1%
 Puoi configurare Adobe Campaign per conservare una copia delle e-mail inviate dalla tua piattaforma. Questa opzione consente di inviare ai messaggi un indirizzo e-mail Ccn (Blind Carbon Copy) dedicato, da cui possono essere elaborati e archiviati utilizzando un sistema esterno.
 Adobe Campaign stessa non gestisce i file archiviati. I file .eml corrispondenti alle e-mail inviate possono quindi essere trasferiti su un server remoto, ad esempio un server e-mail SMTP.
 
-La destinazione di archiviazione è l’indirizzo e-mail Ccn scelto, che rimarrà invisibile ai destinatari della consegna. Una volta definito l’indirizzo e-mail Ccn, devi abilitare l’opzione dedicata in [modello di consegna](create-templates.md) livello.
+La destinazione di archiviazione è l’indirizzo e-mail Ccn scelto, che rimarrà invisibile ai destinatari della consegna. Una volta definito l&#39;indirizzo e-mail Ccn, devi abilitare l&#39;opzione dedicata al livello [modello di consegna](create-templates.md).
 
 >[!NOTE]
 >
->In qualità di utente di Managed Cloud Service, [Adobe di contatto](../start/campaign-faq.md#support){target="_blank"} per comunicare l&#39;indirizzo e-mail Ccn da utilizzare per l&#39;archiviazione.
+>In qualità di utente di Cloud Service gestiti, [contatta l&#39;Adobe](../start/campaign-faq.md#support){target="_blank"} per comunicare l&#39;indirizzo e-mail Ccn da utilizzare per l&#39;archiviazione.
 
 >[!CAUTION]
 >
@@ -37,12 +37,12 @@ La destinazione di archiviazione è l’indirizzo e-mail Ccn scelto, che rimarr�
 
 ## Abilita CCN e-mail {#enable-bcc}
 
-Per abilitare Ccn per un [modello di consegna](create-templates.md), effettua le seguenti operazioni:
+Per abilitare Ccn per uno specifico [modello di consegna](create-templates.md), eseguire la procedura seguente:
 
-1. Da Esplora campagne, passa alla cartella dei modelli di consegna. Per impostazione predefinita, i modelli di consegna sono memorizzati in **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** cartella.
+1. Da Esplora campagne, passa alla cartella dei modelli di consegna. Per impostazione predefinita, i modelli di consegna sono archiviati nella cartella **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Modifica il modello di consegna da aggiornare con Ccn.
 1. Fai clic sul pulsante **[!UICONTROL Properties]**.
-1. Dalla sezione **[!UICONTROL Delivery]** , selezionare la scheda **[!UICONTROL Email BCC]** opzione.
+1. Dalla scheda **[!UICONTROL Delivery]**, seleziona l&#39;opzione **[!UICONTROL Email BCC]**.
 
    ![](assets/email-bcc.png)
 
@@ -58,8 +58,8 @@ Quando utilizzi CCN e-mail con Adobe Campaign, si applicano i seguenti guardrail
 
 * Assicurati che l’indirizzo Ccn disponga di una capacità di ricezione sufficiente per archiviare tutte le e-mail inviate.
 
-* CCN e-mail <!--with Enhanced MTA--> effettua la consegna all’indirizzo e-mail Ccn prima di effettuare la consegna ai destinatari; ciò può comportare l’invio di messaggi Ccn anche se le consegne originali potrebbero essere state non consegnate. Per ulteriori informazioni sui mancati recapiti, consulta [Errori di consegna](delivery-failures.md).
+* L&#39;indirizzo e-mail Ccn <!--with Enhanced MTA--> viene recapitato all&#39;indirizzo e-mail Ccn prima di essere recapitato ai destinatari. Ciò può comportare l&#39;invio di messaggi Ccn anche se le consegne originali potrebbero essere state recapitate. Per ulteriori informazioni sui mancati recapiti, vedi [Informazioni sugli errori di consegna](delivery-failures.md).
 
-* Le e-mail inviate all’indirizzo Ccn non devono essere aperte e cliccate attraverso, in quanto tali attività vengono prese in considerazione nella sezione **[!UICONTROL Total opens]** e **[!UICONTROL Clicks]** dall’analisi di invio, può causare errori di calcolo.
+* Le e-mail inviate all&#39;indirizzo Ccn non devono essere aperte e cliccate tramite, poiché queste attività vengono prese in considerazione nell&#39;analisi **[!UICONTROL Total opens]** e **[!UICONTROL Clicks]** dall&#39;analisi di invio, possono causare errori di calcolo.
 
 <!--Only successfully sent emails are taken in account, bounces are not.-->

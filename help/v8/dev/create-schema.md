@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Crea un nuovo schema {#create-new-schema}
 
-Per modificare, creare e configurare gli schemi, fai clic sul pulsante **[!UICONTROL Administration > Configuration > Data schemas]** della console client di Adobe Campaign.
+Per modificare, creare e configurare gli schemi, fare clic sul nodo **[!UICONTROL Administration > Configuration > Data schemas]** della console client di Adobe Campaign.
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ Per modificare, creare e configurare gli schemi, fai clic sul pulsante **[!UICON
 
 ![](assets/schema_navtree.png)
 
-Il **[!UICONTROL Edit]** La scheda mostra il contenuto XML di uno schema:
+La scheda **[!UICONTROL Edit]** mostra il contenuto XML di uno schema:
 
 ![](assets/schema_edition.png)
 
@@ -30,7 +30,7 @@ Il **[!UICONTROL Edit]** La scheda mostra il contenuto XML di uno schema:
 >
 >Il controllo di modifica &quot;Nome&quot; consente di immettere la chiave dello schema composta dal nome e dallo spazio dei nomi. Gli attributi &quot;name&quot; e &quot;namespace&quot; dell&#39;elemento principale dello schema vengono aggiornati automaticamente nell&#39;area di modifica XML dello schema. Alcuni spazi dei nomi sono solo interni. [Ulteriori informazioni](schemas.md#reserved-namespaces)
 
-Il **[!UICONTROL Preview]** La scheda genera automaticamente lo schema esteso:
+La scheda **[!UICONTROL Preview]** genera automaticamente lo schema esteso:
 
 ![](assets/schema_edition2.png)
 
@@ -38,7 +38,7 @@ Il **[!UICONTROL Preview]** La scheda genera automaticamente lo schema esteso:
 >
 >Quando lo schema di origine viene salvato, viene avviata automaticamente la generazione dello schema esteso.
 
-Se devi controllare la struttura completa di uno schema, puoi utilizzare **[!UICONTROL Preview]** scheda. Se lo schema è stato esteso, potrai visualizzarne tutte le estensioni. A titolo complementare, la **[!UICONTROL Documentation]** Nella scheda vengono visualizzati tutti gli attributi e gli elementi dello schema e le relative proprietà (SQL Field, type/length, label, description). Il **[!UICONTROL Documentation]** Questa scheda si applica solo agli schemi generati.
+Per controllare la struttura completa di uno schema, è possibile utilizzare la scheda **[!UICONTROL Preview]**. Se lo schema è stato esteso, potrai visualizzarne tutte le estensioni. Come complemento, nella scheda **[!UICONTROL Documentation]** vengono visualizzati tutti gli attributi e gli elementi dello schema e le relative proprietà (Campo SQL, tipo/lunghezza, etichetta, descrizione). La scheda **[!UICONTROL Documentation]** si applica solo agli schemi generati.
 
 ## Caso d’uso: creare una tabella di contratti {#example--creating-a-contract-table}
 
@@ -46,8 +46,8 @@ Nell&#39;esempio seguente viene creata una nuova tabella per **contratti** nel d
 
 A questo scopo, devi creare lo schema della tabella e aggiornare la struttura del database per generare la tabella corrispondente. Di seguito sono elencati i passaggi dettagliati.
 
-1. Modifica il **[!UICONTROL Administration > Configuration > Data schemas]** nodo della struttura Adobe Campaign e fai clic su **[!UICONTROL New]**.
-1. Scegli la **[!UICONTROL Create a new table in the data template]** e fai clic su **[!UICONTROL Next]** .
+1. Modificare il nodo **[!UICONTROL Administration > Configuration > Data schemas]** della struttura Adobe Campaign e fare clic su **[!UICONTROL New]**.
+1. Scegliere l&#39;opzione **[!UICONTROL Create a new table in the data template]** e fare clic su **[!UICONTROL Next]**.
 
    ![](assets/create_new_schema.png)
 
@@ -59,13 +59,13 @@ A questo scopo, devi creare lo schema della tabella e aggiornare la struttura de
    >
    >Per impostazione predefinita, gli schemi creati dagli utenti vengono memorizzati nello spazio dei nomi &quot;cus&quot;. Per ulteriori informazioni, consulta [Identificazione di uno schema](extend-schema.md#identification-of-a-schema).
 
-1. Crea il contenuto della tabella. È consigliabile utilizzare l’assistente dedicato per verificare che non manchino impostazioni. A questo scopo, fai clic su **[!UICONTROL Insert]** e scegliere il tipo di impostazione da aggiungere.
+1. Crea il contenuto della tabella. È consigliabile utilizzare l’assistente dedicato per verificare che non manchino impostazioni. A tale scopo, fare clic sul pulsante **[!UICONTROL Insert]** e scegliere il tipo di impostazione da aggiungere.
 
    ![](assets/create_new_content.png)
 
 1. Definire le impostazioni per la tabella dei contratti.
 
-   Come best practice, crea la tabella nel database Cloud aggiungendo la `dataSource="nms:extAccount:ffda"` attributo. Questo attributo viene aggiunto per impostazione predefinita durante la creazione di una nuova tabella.
+   È consigliabile creare la tabella nel database Cloud aggiungendo l&#39;attributo `dataSource="nms:extAccount:ffda"`. Questo attributo viene aggiunto per impostazione predefinita durante la creazione di una nuova tabella.
 
    ```
    <srcSchema created="YYYY-MM-DD HH:MM:SS.TZ" desc="Active contracts" img="crm:crm/mscrm/mscrm_account_16x16.png"
@@ -109,7 +109,7 @@ A questo scopo, devi creare lo schema della tabella e aggiornare la struttura de
    </srcSchema>
    ```
 
-1. Salva lo schema e fai clic su **[!UICONTROL Structure]** per generare la struttura:
+1. Salvare lo schema e fare clic sulla scheda **[!UICONTROL Structure]** per generare la struttura:
 
    ![](assets/configuration_structure.png)
 

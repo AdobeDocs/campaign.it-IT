@@ -38,7 +38,7 @@ Il livello di applicazione logico di Campaign è facilmente configurabile per so
 
 ## Cloud Service gestiti di Campaign{#ac-managed-services}
 
-Adobe Campaign v8 è implementato come as a Managed Service: tutti i componenti di Adobe Campaign, inclusa l’interfaccia utente, il motore di gestione dell’esecuzione e i database di Campaign, sono completamente ospitati come Adobe, tra cui l’esecuzione delle e-mail, le pagine mirror, il server di tracciamento e i componenti web rivolti verso l’esterno come la pagina di annullamento dell’abbonamento/il centro preferenze e le pagine di destinazione.
+Adobe Campaign v8 è stato implementato in versione as a Managed Service: tutti i componenti di Adobe Campaign, inclusa l’interfaccia utente, il motore di gestione dell’esecuzione e i database di Campaign, sono completamente ospitati in Adobe, tra cui l’esecuzione e-mail, le pagine mirror, il server di tracciamento e i componenti web rivolti verso l’esterno come la pagina di annullamento dell’abbonamento/il centro preferenze e le pagine di destinazione.
 
 ## Processi della campagna
 

@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # Audit trail{#audit-trail}
 
-Il **[!UICONTROL Audit trail]** funzionalità di Adobe Campaign offre una registrazione granulare di tutte le modifiche apportate a entità importanti all’interno dell’istanza, in genere quelle che influiscono in modo significativo sul corretto funzionamento dell’istanza. Fungendo da registro in tempo reale, acquisisce un elenco dettagliato di azioni ed eventi nel momento in cui si verificano.
+La funzionalità **[!UICONTROL Audit trail]** di Adobe Campaign offre un record granulare di tutte le modifiche apportate a entità importanti all&#39;interno dell&#39;istanza, in genere quelle che influiscono in modo significativo sul corretto funzionamento dell&#39;istanza. Fungendo da registro in tempo reale, acquisisce un elenco dettagliato di azioni ed eventi nel momento in cui si verificano.
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ Il **[!UICONTROL Audit trail]** funzionalità di Adobe Campaign offre una regist
 
 +++ Ulteriori informazioni sulle entità disponibili in Audit Trail
 
-* **Audit trail dello schema**: ti consente di esplorare le modifiche apportate agli schemi, nonché di identificare chi le ha apportate e quando si sono verificate.
+* **Audit trail dello schema**: consente di esplorare le modifiche apportate agli schemi, nonché di identificare chi ha apportato tali modifiche e quando si sono verificate.
 
   Per informazioni dettagliate sugli schemi, consulta [pagina](../dev/schemas.md).
 
@@ -39,31 +39,31 @@ Il **[!UICONTROL Audit trail]** funzionalità di Adobe Campaign offre una regist
 
   Per ulteriori informazioni sui flussi di lavoro, consulta questa [pagina](../../automation/workflow/about-workflows.md).
 
-  Per ulteriori informazioni su come monitorare i flussi di lavoro, consulta [sezione dedicata](../../automation/workflow/monitor-workflow-execution.md).
+  Per ulteriori informazioni su come monitorare i flussi di lavoro, consulta la [sezione dedicata](../../automation/workflow/monitor-workflow-execution.md).
 
-* **Opzione audit trail** consente di controllare le attività e le ultime modifiche apportate alle opzioni.
+* **Option audit trail** consente di controllare le attività e le ultime modifiche apportate alle opzioni.
 
   Per ulteriori informazioni sulle opzioni, consulta questa [pagina](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
 
-* **Audit trail della consegna** consente di controllare le attività e le ultime modifiche apportate alle consegne.
+* **Audit trail consegna** consente di controllare le attività e le ultime modifiche apportate alle consegne.
 
-  Per ulteriori informazioni sulle consegne, consulta [pagina](../start/create-message.md).
+  Per ulteriori informazioni sulle consegne, consulta questa [pagina](../start/create-message.md).
 
-* **Account esterno** consente di verificare le modifiche apportate ad account esterni, utilizzate da processi tecnici come flussi di lavoro tecnici o flussi di lavoro di campagne.
+* **Account esterno** consente di controllare le modifiche apportate agli account esterni, utilizzate da processi tecnici quali flussi di lavoro tecnici o flussi di lavoro per campagne.
 
-  Per ulteriori informazioni sull’account esterno, consulta questa [pagina](../config/external-accounts.md).
+  Per ulteriori informazioni sull&#39;account esterno, fare riferimento a questa [pagina](../config/external-accounts.md).
 
 * **Mappatura consegna** consente di monitorare le attività e le modifiche recenti apportate alle mappature di consegna.
 
-  Per ulteriori informazioni sulla mappatura della consegna, consulta [pagina](../audiences/target-mappings.md).
+  Per ulteriori informazioni sulla mappatura della consegna, consulta questa [pagina](../audiences/target-mappings.md).
 
-* **Applicazione web** consente di verificare le modifiche apportate ai moduli web in Campaign V8 utilizzati per creare pagine con campi di input e selezione e che possono includere dati dal database.
+* **Applicazione Web** consente di controllare le modifiche apportate ai moduli Web in Campaign V8 utilizzati per creare pagine con campi di input e di selezione e che possono includere dati dal database.
 
-  Per ulteriori informazioni sull’applicazione web, consulta questa [pagina](../dev/webapps.md).
+  Per ulteriori informazioni sull&#39;applicazione Web, fare riferimento a questa [pagina](../dev/webapps.md).
 
-* **Offerta** consente di controllare le attività e le ultime modifiche apportate alle offerte.
+* **Offerta** ti consente di controllare le attività e le ultime modifiche apportate alle offerte.
 
-  Per ulteriori informazioni sull’offerta, consulta questa [pagina](../interaction/interaction.md).
+  Per ulteriori informazioni sull&#39;offerta, consulta questa [pagina](../interaction/interaction.md).
 
 * **Operatore** consente di monitorare le attività e le modifiche recenti apportate agli operatori.
 
@@ -73,25 +73,25 @@ Il **[!UICONTROL Audit trail]** funzionalità di Adobe Campaign offre una regist
 
 ## Accesso a Audit trail {#accessing-audit-trail}
 
-Per accedere al di **[!UICONTROL Audit trail]**:
+Per accedere a **[!UICONTROL Audit trail]** dell&#39;istanza:
 
-1. Accedere a **[!UICONTROL Explorer]** della tua istanza.
+1. Accedi al menu **[!UICONTROL Explorer]** della tua istanza.
 
-1. Sotto **[!UICONTROL Administration]** menu, seleziona **[!UICONTROL Audit]** allora **[!UICONTROL Audit Trail]**.
+1. Nel menu **[!UICONTROL Administration]**, selezionare **[!UICONTROL Audit]** e quindi **[!UICONTROL Audit Trail]**.
 
    ![](assets/audit-trail-1.png)
 
-1. Il **[!UICONTROL Audit trail]** viene visualizzata la finestra con l&#39;elenco delle entità. Adobe Campaign controllerà le azioni di creazione, modifica ed eliminazione per le diverse entità.
+1. Viene visualizzata la finestra **[!UICONTROL Audit trail]** con l&#39;elenco delle entità. Adobe Campaign controllerà le azioni di creazione, modifica ed eliminazione per le diverse entità.
 
    Selezionate una delle entità per ulteriori informazioni sulle ultime modifiche.
 
-1. Il **[!UICONTROL Audit entity]** La finestra fornisce informazioni più dettagliate sull’entità scelta, ad esempio:
+1. La finestra **[!UICONTROL Audit entity]** fornisce informazioni più dettagliate sull&#39;entità scelta, ad esempio:
 
    * **[!UICONTROL Type]**: flusso di lavoro, opzioni, consegne o schemi.
    * **[!UICONTROL Entity]**: nome interno delle attività.
-   * **[!UICONTROL Modified by]**: nome utente dell’ultima persona che ha modificato questa entità.
-   * **[!UICONTROL Action]**: ultima azione eseguita sull’entità, Creata, Modificata o Eliminata.
-   * **[!UICONTROL Modification date]**: data dell’ultima azione eseguita su questa entità.
+   * **[!UICONTROL Modified by]**: nome utente dell&#39;ultima persona che ha modificato l&#39;entità.
+   * **[!UICONTROL Action]**: ultima azione eseguita sull&#39;entità, Creata, Modificata o Eliminata.
+   * **[!UICONTROL Modification date]**: data dell&#39;ultima azione eseguita su questa entità.
 
    ![](assets/audit-trail-2.png)
 
@@ -105,9 +105,9 @@ L’audit trail può essere facilmente attivato o disattivato per un’attività
 
 Per eseguire questa operazione:
 
-1. Accedere a **[!UICONTROL Explorer]** della tua istanza.
+1. Accedi al menu **[!UICONTROL Explorer]** della tua istanza.
 
-1. Sotto **[!UICONTROL Administration]** menu, seleziona **[!UICONTROL Platform]** allora **[!UICONTROL Options]**.
+1. Nel menu **[!UICONTROL Administration]**, selezionare **[!UICONTROL Platform]** e quindi **[!UICONTROL Options]**.
 
 1. Selezionate una delle seguenti opzioni a seconda dell&#39;entità da attivare/disattivare:
 
@@ -116,15 +116,15 @@ Per eseguire questa operazione:
    * Per le opzioni: **[!UICONTROL XtkAudit_Option]**
    * Per le consegne: **[!UICONTROL XtkAudit_Delivery]**
    * Per Account Esterno: **[!UICONTROL XtkAudit_ExtAccount]**
-   * Per la mappatura della consegna: **[!UICONTROL XtkAudit_DeliveryMapping]**
+   * Per mapping di consegna: **[!UICONTROL XtkAudit_DeliveryMapping]**
    * Per l&#39;applicazione Web: **[!UICONTROL XtkAudit_WebApp]**
    * Per offerta: **[!UICONTROL XtkAudit_Offer]**
-   * Per Operatore: **[!UICONTROL XtkAudit_Operator]**
+   * Per l&#39;operatore: **[!UICONTROL XtkAudit_Operator]**
    * Per ogni entità: **[!UICONTROL XtkAudit_Enable_All]**
 
    ![](assets/audit-trail-3.png)
 
-1. Modificare il **[!UICONTROL Value]** a 1 se si desidera abilitare l’entità o a 0 se si desidera disabilitarla.
+1. Modificare **[!UICONTROL Value]** in 1 se si desidera abilitare l&#39;entità o in 0 se si desidera disabilitarla.
 
    ![](assets/audit-trail-4.png)
 

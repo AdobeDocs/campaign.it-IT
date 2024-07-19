@@ -27,25 +27,26 @@ Una visualizzazione è una cartella specifica che non contiene dati, ma visualiz
 
 ## Best practice per l’utilizzo delle cartelle{#best-practices-folders}
 
-* **Utilizzare le cartelle incorporate** per facilitare l&#39;utilizzo, la manutenzione e la risoluzione dei problemi dell&#39;applicazione da parte di tutti gli utenti coinvolti nel progetto. Evita di creare strutture di cartelle personalizzate per destinatari, elenchi, consegne e così via, ma utilizza le cartelle standard, ad esempio **Amministrazione**, **Profili e destinazioni**, **Gestione delle campagne**.
+* **Utilizzare le cartelle incorporate** per semplificare l&#39;utilizzo, la manutenzione e la risoluzione dei problemi dell&#39;applicazione da parte di tutti gli utenti coinvolti nel progetto. Evita di creare strutture di cartelle personalizzate per destinatari, elenchi, consegne e così via, ma utilizza le cartelle standard come **Amministrazione**, **Profili e destinazioni**, **Gestione campagne**.
 
-* **Creare sottocartelle**, ad esempio, salva i flussi di lavoro tecnici nella cartella incorporata: **[!UICONTROL Administration > Production > Technical Workflows]** e creare sottocartelle per tipo di flusso di lavoro.
+* **Crea sottocartelle**, ad esempio salva i flussi di lavoro tecnici nella cartella incorporata **[!UICONTROL Administration > Production > Technical Workflows]** e crea sottocartelle per tipo di flusso di lavoro.
 
-* **Definire e applicare una convenzione di denominazione** Ad esempio, puoi denominare i flussi di lavoro in ordine alfabetico, in modo che vengano visualizzati in ordine di esecuzione, ad esempio:
+* **Definire e applicare una convenzione per i nomi**. Ad esempio, è possibile denominare i flussi di lavoro in ordine alfabetico in modo che vengano visualizzati ordinati in base all&#39;ordine di esecuzione, ad esempio:
 
-  A1 - destinatari importazione, inizia alle 10:00; A2 - biglietti importazione, inizia alle 11:00.
+  A1 - destinatari delle importazioni, inizia alle 10:00;
+A2 - l&#39;importazione dei biglietti inizia alle 11:00.
 
 ## Crea una cartella{#create-a-folder}
 
 Per creare una cartella, fai clic con il pulsante destro del mouse su una cartella esistente e utilizza il menu contestuale.
 
-Per creare lo stesso tipo di cartella selezionato, scegli la prima opzione nel menu contestuale. Ad esempio, da una cartella Destinatari, seleziona **[!UICONTROL Create a new 'Recipients' folder]**.
+Per creare lo stesso tipo di cartella selezionato, scegli la prima opzione nel menu contestuale. Ad esempio, da una cartella Destinatari, selezionare **[!UICONTROL Create a new 'Recipients' folder]**.
 
 ![](assets/create-recipient-folder.png)
 
 Puoi trascinare e rilasciare la nuova cartella per organizzare la struttura di Esplora campagne come necessario.
 
-Per creare un altro tipo di cartella, fai clic con il pulsante destro del mouse su una cartella esistente e seleziona **[!UICONTROL Add new folder]**. Puoi creare tutti i tipi di cartelle, a seconda dei dati da archiviare.
+Per creare un altro tipo di cartella, fare clic con il pulsante destro del mouse su una cartella esistente e selezionare **[!UICONTROL Add new folder]**. Puoi creare tutti i tipi di cartelle, a seconda dei dati da archiviare.
 
 ![](assets/add-new-folder.png)
 
@@ -67,9 +68,9 @@ Una visualizzazione è una cartella specifica che non contiene dati, ma visualiz
 
 Nell’esempio seguente, creeremo una nuova cartella per visualizzare solo le consegne negli Stati Uniti, in base al loro nome interno.
 
-1. Creare un **[!UICONTROL Deliveries]** cartella e denominarla **Consegne USA**.
+1. Crea una cartella **[!UICONTROL Deliveries]** e denominala **Consegne USA**.
 1. Fare clic con il pulsante destro del mouse su questa cartella e selezionare **[!UICONTROL Properties...]**.
-1. In **[!UICONTROL Restriction]** , seleziona **[!UICONTROL This folder is a view]**. Verranno quindi visualizzate tutte le consegne nel database.
+1. Nella scheda **[!UICONTROL Restriction]**, selezionare **[!UICONTROL This folder is a view]**. Verranno quindi visualizzate tutte le consegne nel database.
 
    ![](assets/this-folder-is-a-view.png)
 
@@ -84,15 +85,15 @@ Nell’esempio seguente, creeremo una nuova cartella per visualizzare solo le co
 
 >[!CAUTION]
 >
->Durante la gestione [messaggistica transazionale](../send/transactional.md) eventi, il **[!UICONTROL Real time events]** o **[!UICONTROL Batch events]** le cartelle non devono essere impostate come viste sulle istanze di esecuzione, in quanto ciò potrebbe causare problemi di autorizzazione.
+>Durante la gestione di [eventi di messaggistica transazionale](../send/transactional.md), le cartelle **[!UICONTROL Real time events]** o **[!UICONTROL Batch events]** non devono essere impostate come viste nelle istanze di esecuzione, in quanto ciò potrebbe causare problemi di autorizzazioni.
 
 ## Organizzare le cartelle{#organize-your-folders}
 
 Per impostazione predefinita, nella parte superiore della gerarchia viene aggiunta una nuova cartella.
 
-Sfoglia **Sottocartelle** delle proprietà di una cartella per organizzare le relative sottocartelle.
+Sfoglia la scheda **Sottocartelle** delle proprietà di una cartella per organizzarne le sottocartelle.
 
-Puoi spostare le cartelle con le frecce a destra o selezionare **[!UICONTROL Sort the sub-folders in alphabetical order]** per ordinarli automaticamente.
+È possibile spostare le cartelle con le frecce a destra oppure selezionare l&#39;opzione **[!UICONTROL Sort the sub-folders in alphabetical order]** per ordinarle automaticamente.
 
 ![](assets/sort-folders.png)
 

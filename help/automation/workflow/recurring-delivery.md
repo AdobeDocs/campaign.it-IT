@@ -16,11 +16,11 @@ ht-degree: 13%
 
 
 
-A **[!UICONTROL Recurring delivery]** attività consente di configurare un’occorrenza del modello di consegna specifica per una campagna.
+Un&#39;attività **[!UICONTROL Recurring delivery]** consente di configurare un&#39;occorrenza del modello di consegna specifica per una campagna.
 
 ![](assets/do-not-localize/how-to-video.png) [Guarda il video su questa funzione](#recurring-delivery-video)
 
-Questa attività è disponibile solo da **[!UICONTROL Targeting and workflows]** scheda trovata in una campagna.
+Questa attività è disponibile solo dalla scheda **[!UICONTROL Targeting and workflows]** trovata in una campagna.
 
 Per eseguire questa operazione:
 
@@ -32,11 +32,11 @@ Per eseguire questa operazione:
 
 Il processo di configurazione per questa attività è simile a quello della creazione di un modello di consegna in termini di opzioni disponibili.
 
-Per un esempio di questa attività in uso, fai riferimento a questo [sezione](send-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
+Per un esempio di questa attività in uso, fai riferimento a questa [sezione](send-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
 
 ## Come impostare la consegna ricorrente
 
-A **consegna ricorrente** creerà una nuova istanza di consegna ogni volta che viene eseguita. Ad esempio, se il flusso di lavoro è pianificato per essere eseguito una volta alla settimana, in un anno si otterranno 52 consegne. Ciò significa anche che i log ampi e quelli di tracciamento saranno separati per ogni istanza di consegna.
+Una **consegna ricorrente** creerà una nuova istanza di consegna ogni volta che viene eseguita. Ad esempio, se il flusso di lavoro è pianificato per essere eseguito una volta alla settimana, in un anno si otterranno 52 consegne. Ciò significa anche che i log ampi e quelli di tracciamento saranno separati per ogni istanza di consegna.
 
 ![Consegna ricorrente](assets/delivery_recurring.jpg)
 
@@ -44,7 +44,7 @@ Se desideri interrompere l’esecuzione di una consegna ricorrente, devi annulla
 
 >[!NOTE]
 >
->Non è possibile inviare una bozza da un **[!UICONTROL Recurring delivery]** attività di tipo.
+>Impossibile inviare una bozza da un&#39;attività di tipo **[!UICONTROL Recurring delivery]**.
 > 
 >Per creare direttamente una consegna tramite un flusso di lavoro della campagna, utilizza le attività specifiche del canale preconfigurate (ad esempio **[!UICONTROL Email delivery]**).
 
@@ -54,4 +54,4 @@ Questo video spiega come configurare una consegna ricorrente e un’attività di
 
 >[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
 
-Sono disponibili altri video dimostrativi di Campaign [qui](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.
+Ulteriori video dimostrativi di Campaign sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.

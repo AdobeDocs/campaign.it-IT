@@ -18,13 +18,13 @@ ht-degree: 0%
 
 Esistono due ambienti per ogni dimensione di targeting utilizzata durante la gestione delle offerte:
 
-* A **progettazione** ambiente in cui il gestore delle offerte si occupa di creare e classificare le offerte, modificarle e avviare il processo di approvazione in modo che possano essere utilizzate. In questo ambiente sono definite anche le regole per ogni categoria, gli spazi di offerta su cui possono essere presentate le offerte e i filtri predefiniti utilizzati per definire l’idoneità di un’offerta.
+* Ambiente **design** in cui il gestore delle offerte si occupa di creare e classificare le offerte, modificarle e avviare il processo di approvazione in modo che possano essere utilizzate. In questo ambiente sono definite anche le regole per ogni categoria, gli spazi di offerta su cui possono essere presentate le offerte e i filtri predefiniti utilizzati per definire l’idoneità di un’offerta.
 
   Le categorie possono inoltre essere pubblicate manualmente nell&#39;ambiente online.
 
-  Il processo di approvazione delle offerte è dettagliato [in questa sezione](interaction-offer.md#approve-offers).
+  Il processo di approvazione delle offerte è descritto in [questa sezione](interaction-offer.md#approve-offers).
 
-* A **live** ambiente in cui sono disponibili le offerte approvate dell’ambiente di progettazione, nonché i vari spazi di offerta, filtri, categorie e regole configurati nell’ambiente di progettazione. Durante una chiamata al motore delle offerte, questo utilizzerà sempre le offerte provenienti dall’ambiente live.
+* Ambiente **live** in cui sono disponibili offerte approvate dall&#39;ambiente di progettazione, nonché vari spazi di offerta, filtri, categorie e regole configurati nell&#39;ambiente di progettazione. Durante una chiamata al motore delle offerte, questo utilizzerà sempre le offerte provenienti dall’ambiente live.
 
 Un’offerta viene distribuita solo sugli spazi dell’offerta selezionati durante il processo di approvazione. Pertanto, un’offerta può essere live ma inutilizzabile in uno spazio dell’offerta che è anche live.
 
@@ -32,10 +32,10 @@ Un’offerta viene distribuita solo sugli spazi dell’offerta selezionati duran
 
 Il modulo di interazione di Adobe Campaign propone due tipi di interazioni:
 
-* **in entrata** interazioni, avviate da un contatto. [Ulteriori informazioni](interaction-present-offers.md)
-* **in uscita** interazioni, avviate da un manager di consegna della campagna. [Ulteriori informazioni](interaction-send-offers.md)
+* **interazioni in entrata**, avviate da un contatto. [Ulteriori informazioni](interaction-present-offers.md)
+* **interazioni in uscita**, avviate da un responsabile consegna campagna. [Ulteriori informazioni](interaction-send-offers.md)
 
-Questi due tipi di interazioni possono essere eseguite in **modalità unitaria** (l’offerta è calcolata per un singolo contatto), oppure in **modalità batch** (l’offerta viene calcolata per un set di contatti). In genere, le interazioni in entrata vengono eseguite in modalità unitaria, mentre le interazioni in uscita vengono eseguite in modalità batch. Tuttavia, possono esservi alcune eccezioni, ad esempio [messaggi transazionali](../send/transactional.md) ad esempio, in cui l’interazione in uscita viene eseguita in modalità unitaria.
+Questi due tipi di interazioni possono essere eseguiti in **modalità unitaria** (l&#39;offerta è calcolata per un singolo contatto) o in **modalità batch** (l&#39;offerta è calcolata per un insieme di contatti). In genere, le interazioni in entrata vengono eseguite in modalità unitaria, mentre le interazioni in uscita vengono eseguite in modalità batch. Tuttavia, possono esserci alcune eccezioni, ad esempio per [messaggi transazionali](../send/transactional.md), in cui l&#39;interazione in uscita viene eseguita in modalità unitaria.
 
 Non appena un’offerta può o deve essere presentata (in base alle configurazioni effettuate), il motore di offerta svolge il ruolo di intermediario: calcola automaticamente la migliore offerta possibile per un contatto tra quelli disponibili combinando i dati ricevuti sul contatto e le diverse regole che possono essere applicate come specificato nell’applicazione.
 
@@ -43,7 +43,7 @@ Non appena un’offerta può o deve essere presentata (in base alle configurazio
 
 ## Architettura distribuita
 
-Per supportare la scalabilità e fornire un servizio 24 ore su 24, 7 giorni su 7 sul canale in entrata, **Interazione** è implementato in un&#39;architettura distribuita. Questo tipo di architettura è già in uso con [Centro messaggi](../architecture/architecture.md#transac-msg-archi) ed è costituito da diverse istanze:
+Per supportare la scalabilità e fornire un servizio 24 ore su 24, 7 giorni su 7 sul canale in entrata, il modulo **Interaction** è implementato in un&#39;architettura distribuita. Questo tipo di architettura è già in uso con [Centro messaggi](../architecture/architecture.md#transac-msg-archi) ed è costituito da diverse istanze:
 
 * una o più istanze di controllo dedicate al canale in uscita e contenenti la base di progettazione di marketing e ambiente
 * una o più istanze di esecuzione dedicate al canale in entrata
@@ -78,15 +78,15 @@ Per ogni ambiente e account esterno viene creato un flusso di lavoro per la sinc
 
 ### Configurazione pacchetti {#packages-configuration}
 
-Qualsiasi estensione dello schema collegata direttamente a **Interazione** (offerte, proposte, destinatari, ecc.) deve essere distribuito sulle istanze di esecuzione.
+Qualsiasi estensione dello schema collegata direttamente a **Interaction** (offerte, proposte, destinatari, ecc.) deve essere distribuito sulle istanze di esecuzione.
 
-Il **Interazione** Il pacchetto viene installato su tutte le istanze (controllo ed esecuzione). Sono disponibili due pacchetti aggiuntivi: uno per le istanze di controllo e l’altro per ogni istanza di esecuzione.
+Il pacchetto **Interaction** è installato in tutte le istanze (controllo ed esecuzione). Sono disponibili due pacchetti aggiuntivi: uno per le istanze di controllo e l’altro per ogni istanza di esecuzione.
 
 >[!NOTE]
 >
->Durante l’installazione del pacchetto, il **long** campi tipo di **nms:proposta** come l’ID proposta, diventa **int64** digita i campi. Questo tipo di dati è descritto in [Documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}.
+>Durante l&#39;installazione del pacchetto, i campi di tipo **long** della tabella **nms:proposition**, ad esempio l&#39;ID della proposta, diventano campi di tipo **int64**. Questo tipo di dati è descritto nella documentazione di [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}.
 
-La durata di conservazione dei dati è configurata su ogni istanza (tramite **[!UICONTROL Data purge]** nella procedura guidata di distribuzione). Nelle istanze di esecuzione, questo periodo deve corrispondere alla profondità storica necessaria per le regole di tipologia (periodo scorrevole) e le regole di idoneità da calcolare.
+La durata di conservazione dei dati è configurata in ogni istanza (tramite la finestra **[!UICONTROL Data purge]** nella procedura guidata di distribuzione). Nelle istanze di esecuzione, questo periodo deve corrispondere alla profondità storica necessaria per le regole di tipologia (periodo scorrevole) e le regole di idoneità da calcolare.
 
 Sulle istanze di controllo:
 
@@ -98,8 +98,8 @@ Sulle istanze di controllo:
    * Seleziona **[!UICONTROL Execution instance]**.
    * Seleziona l’opzione **[!UICONTROL Enabled]**.
    * Completa i parametri di connessione per l’istanza di esecuzione.
-   * Ogni istanza di esecuzione deve essere collegata a un ID. Questo ID viene assegnato quando fai clic su **[!UICONTROL Initialize connection]** pulsante.
-   * Controllare il tipo di applicazione utilizzata: **[!UICONTROL Message Center]**, **[!UICONTROL Interaction]**, o entrambi.
+   * Ogni istanza di esecuzione deve essere collegata a un ID. Questo ID viene assegnato quando si fa clic sul pulsante **[!UICONTROL Initialize connection]**.
+   * Controllare il tipo di applicazione utilizzato: **[!UICONTROL Message Center]**, **[!UICONTROL Interaction]** o entrambi.
    * Immettere l&#39;account FDA utilizzato. Un operatore deve essere creato nelle istanze di esecuzione e deve disporre dei seguenti diritti di lettura e scrittura sul database dell’istanza in questione:
 
      ```
@@ -122,7 +122,7 @@ Sulle istanze di controllo:
      >
      >Se riscontri un errore, puoi consultare i flussi di lavoro di sincronizzazione e le notifiche delle offerte. Questi si trovano nei flussi di lavoro tecnici dell’applicazione.
 
-Se, per motivi di ottimizzazione, nelle istanze di esecuzione viene duplicata solo una parte del database di marketing, puoi specificare uno schema con restrizioni collegato all’ambiente per consentire agli utenti di utilizzare solo i dati disponibili nelle istanze di esecuzione. Puoi creare un’offerta utilizzando dati non disponibili nelle istanze di esecuzione. A questo scopo, devi disattivare la regola sugli altri canali limitandola sul canale in uscita (**[!UICONTROL Taken into account if]** ).
+Se, per motivi di ottimizzazione, nelle istanze di esecuzione viene duplicata solo una parte del database di marketing, puoi specificare uno schema con restrizioni collegato all’ambiente per consentire agli utenti di utilizzare solo i dati disponibili nelle istanze di esecuzione. Puoi creare un’offerta utilizzando dati non disponibili nelle istanze di esecuzione. A tale scopo, è necessario disattivare la regola sugli altri canali limitandola sul canale in uscita (campo **[!UICONTROL Taken into account if]**).
 
 ![](assets/ita_filtering.png)
 
@@ -134,17 +134,17 @@ Elenco delle opzioni di manutenzione disponibili nell’istanza di controllo:
 >
 >Queste opzioni devono essere utilizzate solo per casi di manutenzione specifici.
 
-* **`NmsInteraction_LastOfferEnvSynch_<offerEnvId>_<executionInstanceId>`**: data dell’ultima sincronizzazione di un ambiente in una determinata istanza.
-* **`NmsInteraction_LastPropositionSynch_<propositionSchema>_<executionInstanceIdSource>_<executionInstanceIdTarget>`**: ultima data in cui le proposte da un dato schema sono state sincronizzate da un’istanza all’altra.
-* **`NmsInteraction_MapWorkflowId`**: opzione contenente l’elenco di tutti i flussi di lavoro di sincronizzazione generati.
+* **`NmsInteraction_LastOfferEnvSynch_<offerEnvId>_<executionInstanceId>`**: data dell&#39;ultima sincronizzazione di un ambiente in una determinata istanza.
+* **`NmsInteraction_LastPropositionSynch_<propositionSchema>_<executionInstanceIdSource>_<executionInstanceIdTarget>`**: ultima data in cui le proposte da un dato schema sono state sincronizzate da un&#39;istanza all&#39;altra.
+* **`NmsInteraction_MapWorkflowId`**: opzione contenente l&#39;elenco di tutti i flussi di lavoro di sincronizzazione generati.
 
 Nelle istanze di esecuzione è disponibile la seguente opzione:
 
-**NmsExecutionInstanceId**: opzione contenente l’ID istanza.
+**NmsExecutionInstanceId**: opzione contenente l&#39;ID istanza.
 
 ### Installazione dei pacchetti {#packages-installation}
 
-Se nell’istanza non era presente in precedenza **Interazione** non è necessaria alcuna migrazione. Per impostazione predefinita, la tabella della proposta è a 64 bit dopo l’installazione dei pacchetti.
+Se in precedenza l&#39;istanza non aveva il pacchetto **Interaction**, non è necessaria alcuna migrazione. Per impostazione predefinita, la tabella della proposta è a 64 bit dopo l’installazione dei pacchetti.
 
 >[!CAUTION]
 >
@@ -160,7 +160,7 @@ Se nell’istanza non era presente in precedenza **Interazione** non è necessar
 
 Esistono due metodi:
 
-**Tabella di lavoro** (consigliato)
+**Tabella di lavoro** (scelta consigliata)
 
 ```
 CREATE TABLE NmsPropositionRcp_tmp AS SELECT * FROM nmspropositionrcp WHERE 0=1;

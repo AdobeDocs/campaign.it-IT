@@ -37,7 +37,7 @@ Visita le guide seguenti e scopri come creare automazione con Adobe Campaign.
     </div>
     <br>     
     <div>
-    <a href="workflow/build-a-workflow.md">Creare il primo flusso di lavoro</a>
+    <a href="workflow/build-a-workflow.md">Crea il tuo primo flusso di lavoro</a>
     </div>
     <br>
     <div>
@@ -55,7 +55,7 @@ Visita le guide seguenti e scopri come creare automazione con Adobe Campaign.
     </div>
     <br>
     <div>
-    <a href="campaigns/marketing-campaign-create.md">Creare la prima campagna</a>
+    <a href="campaigns/marketing-campaign-create.md">Crea la tua prima campagna</a>
     </div>
     <br>
     <div>
@@ -73,11 +73,11 @@ Visita le guide seguenti e scopri come creare automazione con Adobe Campaign.
     </div>
     <br>
     <div>
-    <a href="campaign-opt/campaign-typologies.md">Ottimizzazione di Campaign</a>
+    <a href="campaign-opt/campaign-typologies.md">Ottimizzazione campagna</a>
     </div>
     <br>
     <div>
-    <a href="mrm/about-marketing-resource-management.md">Gestione delle risorse marketing (MRM)</a>
+    <a href="mrm/about-marketing-resource-management.md">Gestione risorse marketing (MRM)</a>
     </div>
     <br>
   </td>

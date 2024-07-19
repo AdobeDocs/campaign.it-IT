@@ -19,7 +19,7 @@ Per ottenere il massimo da ogni campagna di marketing, Adobe Campaign offre un m
 Adobe Campaign semplifica la personalizzazione: puoi visualizzare diversi tipi di contenuto personalizzati per ogni destinatario utilizzando un singolo [modello di messaggio](create-templates.md). Nei messaggi transazionali, ad esempio e-mail di conferma dell’acquisto o di abbandono del carrello, includi informazioni sugli elenchi dei prodotti per ogni individuo all’interno di un singolo modello e-mail.
 
 
-## Strategie di personalizzazione {#personalization-strategy}
+## Strategie Personalization {#personalization-strategy}
 
 Utilizza Campaign per creare contenuti dinamici e inviare messaggi personalizzati. Le funzionalità di personalizzazione possono essere combinate per migliorare i messaggi e creare un’esperienza utente personalizzata.
 
@@ -47,11 +47,11 @@ Puoi personalizzare il contenuto del messaggio in diversi modi:
 
 ## Guardrail e raccomandazioni{#perso-guardrails}
 
-### Timeout della personalizzazione{#perso-timeout}
+### Timeout di Personalization{#perso-timeout}
 
 Per migliorare la protezione della consegna, puoi impostare un periodo di timeout per la fase di personalizzazione.
 
-In **[!UICONTROL Delivery]** scheda di **[!UICONTROL Delivery properties]**, selezionare un valore massimo in secondi per **[!UICONTROL Maximum personalization run time]** opzione.
+Nella scheda **[!UICONTROL Delivery]** di **[!UICONTROL Delivery properties]**, selezionare un valore massimo in secondi per l&#39;opzione **[!UICONTROL Maximum personalization run time]**.
 
 Durante l’anteprima o l’invio, se la fase di personalizzazione supera il tempo massimo impostato in questo campo, il processo viene interrotto con un messaggio di errore e la consegna non riesce.
 
@@ -62,7 +62,7 @@ Se imposti questa opzione su 0, non ci sarà alcun limite di tempo per la fase d
 
 ### Variabili interne{#internal-variables}
 
-Le seguenti variabili sono variabili interne che possono essere utilizzate per la personalizzazione ma non devono essere modificate: **consegna**, **messaggio**, **dataSource**, **targetData**, **provider**, **coupon**, **couponValue**, **proposta**.
+Le seguenti variabili sono variabili interne che possono essere utilizzate per la personalizzazione ma che non devono essere modificate: **delivery**, **message**, **dataSource**, **targetData**, **provider**, **coupon**, **couponValue**, **proposition**.
 
 
 ## Video tutorial {#personalization-video}

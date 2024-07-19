@@ -16,7 +16,7 @@ ht-degree: 64%
 
 Grazie all’intelligenza artificiale e all’apprendimento automatico, l’ottimizzazione del tempo di invio e il punteggio di coinvolgimento predittivo di Adobe Campaign possono analizzare e prevedere i tassi di apertura, i tempi di invio ottimali e i tassi di abbandono probabili in base a metriche di coinvolgimento storiche.
 
-Adobe Campaign offre due nuovi modelli di apprendimento automatico: [Ottimizzazione del tempo di invio predittivo](#predictive-send) e [Punteggio di coinvolgimento predittivo](#predictive-scoring). Questi due modelli sono modelli di apprendimento automatico specifici per la progettazione e la fornitura di percorsi di clienti migliori.
+Adobe Campaign offre due nuovi modelli di apprendimento automatico: [Ottimizzazione predittiva del tempo di invio](#predictive-send) e [Punteggio predittivo di coinvolgimento](#predictive-scoring). Questi due modelli sono modelli di apprendimento automatico specifici per la progettazione e la fornitura di percorsi di clienti migliori.
 
 >[!CAUTION]
 >
@@ -37,7 +37,7 @@ Nel modello Ottimizzazione predittiva del tempo di invio sono presenti due model
 * Il tempo di invio predittivo per il clic è il momento migliore per inviare una comunicazione al cliente per massimizzare i clic
 
 
-**Input modello**: registri di consegna, registri di tracciamento e attributi di profilo (non PII)
+**Modello entrata**: registri di consegna, registri di tracciamento e attributi di profilo (non PII)
 
 **Output modello**: momento migliore per inviare un messaggio (per aperture e clic)
 

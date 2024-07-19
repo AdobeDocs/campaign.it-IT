@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # API specifiche per campagne FFDA{#gs-new-api}
 
-Nell&#39;ambito di una [Distribuzione aziendale (FFDA)](enterprise-deployment.md), Campaign v8 è dotato di due API specifiche per la gestione dei dati tra il database locale di Campaign e il database Cloud. I prerequisiti per utilizzarli sono quelli di abilitare il meccanismo di staging sullo schema. [Ulteriori informazioni](staging.md)
+Nel contesto di una distribuzione [Enterprise (FFDA)](enterprise-deployment.md), Campaign v8 è dotato di due API specifiche per la gestione dei dati tra il database locale di Campaign e il database Cloud. I prerequisiti per utilizzarli sono quelli di abilitare il meccanismo di staging sullo schema. [Ulteriori informazioni](staging.md)
 
 * API di acquisizione: **xtk.session.ingest**
 
@@ -28,13 +28,13 @@ Un flusso di lavoro integrato dedicato sincronizzerà i dati nel database cloud.
 
 ## Inserisci dati{#data-insert-api}
 
-Il **xtk.session.ingest** L’API è dedicata solo a Data Insert. Nessun aggiornamento/eliminazione.
+L&#39;API **xtk.session.ingest** è dedicata solo a Data Insert. Nessun aggiornamento/eliminazione.
 
 ### Inserisci senza riconciliazione{#insert-no-reconciliation}
 
 **In un flusso di lavoro**
 
-Utilizza il seguente codice in una **Codice JavaScript** attività per inserire dati nel database Cloud senza riconciliazione:
+Utilizza il seguente codice in un&#39;attività **Codice JavaScript** per inserire dati nel database Cloud senza riconciliazione:
 
 ```
 var xmlStagingSampleTable = <sampleTableStg
@@ -71,7 +71,7 @@ Una volta eseguito il flusso di lavoro, la tabella di staging viene alimentata c
    </soapenv:Envelope>
    ```
 
-1. UUID viene rimandato alla risposta SOAP:
+1. L’UUID viene rimandato alla risposta dell’SOAP:
 
    ```
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
@@ -91,7 +91,7 @@ Di conseguenza, la tabella di staging viene alimentata come previsto.
 
 **In un flusso di lavoro**
 
-Utilizza il seguente codice in una **Codice JavaScript** attività per inserire dati nel database Cloud con riconciliazione:
+Utilizza il seguente codice in un&#39;attività **Codice JavaScript** per inserire dati nel database cloud con la riconciliazione:
 
 ```
 var xmlStagingSampleTable = <sampleTableStg  _key="@id" id="ABC12345"
@@ -147,13 +147,13 @@ Di conseguenza, la tabella di staging viene alimentata come previsto.
 
 ## Aggiornare o eliminare dati{#data-update-api}
 
-Il **xtk.session.IngestExt** L’API è ottimizzata per l’aggiornamento/eliminazione dei dati. Solo per inserimento, preferisci **xtk.session.ingest**. Inserisci funziona indipendentemente dal fatto che la chiave del record non sia nella tabella di gestione temporanea.
+L&#39;API **xtk.session.IngestExt** è ottimizzata per l&#39;aggiornamento/eliminazione dei dati. Solo per inserimento, preferisci **xtk.session.ingest**. Inserisci funziona indipendentemente dal fatto che la chiave del record non sia nella tabella di gestione temporanea.
 
 ### Inserisci/aggiorna
 
 **In un flusso di lavoro**
 
-Utilizza il seguente codice in una **Codice JavaScript** attività per aggiornare i dati nel database Cloud:
+Utilizza il seguente codice in un&#39;attività **Codice JavaScript** per aggiornare i dati nel database cloud:
 
 ```
 var xmlStagingRecipient = <sampleTableStg  _key="@id" id="ABC12345"
@@ -191,7 +191,7 @@ Una volta eseguito il flusso di lavoro, la tabella di staging viene aggiornata c
    </soapenv:Envelope>
    ```
 
-1. La risposta SOAP è:
+1. La risposta dell’SOAP è:
 
    ```
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
@@ -207,7 +207,7 @@ Di conseguenza, la tabella di gestione temporanea viene aggiornata come previsto
 
 La gestione degli abbonamenti in Campaign è descritta in [questa pagina](../start/subscriptions.md).
 
-L’inserimento di dati di abbonamento e di annullamento dell’abbonamento si basa sul [Meccanismo di staging](staging.md) nel database locale di Campaign. Le informazioni del sottoscrittore sono temporaneamente memorizzate nelle tabelle intermedie nel database locale e il flusso di lavoro di sincronizzazione invia tali dati dal database locale al database cloud. Di conseguenza, i processi di abbonamento e annullamento dell’abbonamento sono **asincrono**. Le richieste di consenso e rinuncia vengono elaborate ogni ora tramite un flusso di lavoro tecnico specifico. [Ulteriori informazioni](replication.md#tech-wf)
+L&#39;inserimento dei dati di sottoscrizione e annullamento dell&#39;abbonamento si basa sul [meccanismo di gestione temporanea](staging.md) nel database locale di Campaign. Le informazioni del sottoscrittore sono temporaneamente memorizzate nelle tabelle intermedie nel database locale e il flusso di lavoro di sincronizzazione invia tali dati dal database locale al database cloud. Di conseguenza, i processi di sottoscrizione e annullamento dell&#39;abbonamento sono **asincroni**. Le richieste di consenso e rinuncia vengono elaborate ogni ora tramite un flusso di lavoro tecnico specifico. [Ulteriori informazioni](replication.md#tech-wf)
 
 
 **Argomenti correlati**

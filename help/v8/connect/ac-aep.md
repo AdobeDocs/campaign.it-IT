@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Condividere e sincronizzare i tipi di pubblico con Adobe Experience Platform {#gs-ac-aep}
 
-I connettori di origine e destinazione del Cloud Service gestito di Adobe Campaign consentono un’integrazione perfetta tra Adobe Campaign e Adobe Experience Platform. Con questa integrazione, puoi:
+I connettori Adobe Campaign Managed Cloud Service Destination e Source consentono un’integrazione perfetta tra Adobe Campaign e Adobe Experience Platform. Con questa integrazione, puoi:
 
 * Invia il pubblico di Adobe Experience Platform ad Adobe Campaign e invia i registri di consegna e tracciamento a Adobe Experience Platform a scopo di analisi,
 * Importa gli attributi del profilo Adobe Experience Platform in Adobe Campaign e disponi di un processo di sincronizzazione in modo che possano essere aggiornati regolarmente.
@@ -23,10 +23,10 @@ I connettori di origine e destinazione del Cloud Service gestito di Adobe Campai
 
 I passaggi principali per inviare il pubblico di Adobe Experience Platform ad Adobe Campaign e inviare i registri di consegna e tracciamento sono i seguenti:
 
-* Utilizzare un Adobe Campaign Managed Cloud Services **Connessione di destinazione** per inviare segmenti Experienci Platform ad Adobe Campaign:
+* Utilizza una **connessione di destinazione** di Adobe Campaign Managed Cloud Services per inviare segmenti Experience Platform ad Adobe Campaign:
 
-   1. Accedi al catalogo delle destinazioni di Adobe Experience Platform e crea un nuovo **[!UICONTROL Adobe Campaign Managed Cloud Services]** connessione.
-   1. Fornisci i dettagli sull’istanza Campaign da utilizzare e scegli **[!UICONTROL Audience sync]** come tipo di sincronizzazione.
+   1. Accedere al catalogo delle destinazioni di Adobe Experience Platform e creare una nuova connessione **[!UICONTROL Adobe Campaign Managed Cloud Services]**.
+   1. Fornire dettagli sull&#39;istanza di Campaign da utilizzare e scegliere **[!UICONTROL Audience sync]** come tipo di sincronizzazione.
 
       ![](assets/aep-audience-sync.png){width="800" align="center"}
 
@@ -36,11 +36,11 @@ I passaggi principali per inviare il pubblico di Adobe Experience Platform ad Ad
 
       ![](assets/aep-destination.png){width="800" align="center"}
 
-  Informazioni dettagliate su come configurare la destinazione sono disponibili in [Documentazione della connessione Adobe Campaign Managed Cloud Services](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en){target="_blank"}
+  Informazioni dettagliate su come configurare la destinazione sono disponibili nella [documentazione sulla connessione di Adobe Campaign Managed Cloud Services](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en){target="_blank"}
 
-* Utilizzare un Adobe Campaign Managed Cloud Services **Connessione sorgente** per inviare i registri di consegna e tracciamento di Adobe Campaign a Adobe Experience Platform:
+* Utilizza una **connessione Source** di Adobe Campaign Managed Cloud Services per inviare i registri di consegna e tracciamento di Adobe Campaign a Adobe Experience Platform:
 
-  A questo scopo, configura un nuovo Adobe Campaign Managed Cloud Services **Connessione sorgente** per acquisire gli eventi di Campaign in Adobe Experience Platform. Fornisci dettagli sull’istanza Campaign e sullo schema da utilizzare, seleziona un set di dati in cui acquisire i dati, quindi configura i campi da recuperare. [Scopri come creare una connessione sorgente Adobe Campaign Managed Cloud Services](https://www.adobe.com/go/sources-campaign-ui-en)
+  A questo scopo, configura una nuova connessione Adobe Campaign Managed Cloud Services **Source** per acquisire gli eventi Campaign in Adobe Experience Platform. Fornisci dettagli sull’istanza Campaign e sullo schema da utilizzare, seleziona un set di dati in cui acquisire i dati, quindi configura i campi da recuperare. [Scopri come creare una connessione di origine Adobe Campaign Managed Cloud Services](https://www.adobe.com/go/sources-campaign-ui-en)
 
   ![](assets/aep-logs.png){width="800" align="center"}
 
@@ -56,8 +56,8 @@ Supponiamo ad esempio che tu stia acquisendo valori di consenso e rinuncia in Ad
 
 I passaggi principali per sincronizzare gli attributi del profilo di Adobe Experience Platform con Adobe Campaign sono i seguenti:
 
-1. Accedi al catalogo delle destinazioni di Adobe Experience Platform e crea un nuovo **[!UICONTROL Adobe Campaign Managed Cloud Services]** connessione.
-1. Fornisci i dettagli sull’istanza Campaign da utilizzare e scegli **[!UICONTROL Profile sync (Update only)]** come tipo di sincronizzazione.
+1. Accedere al catalogo delle destinazioni di Adobe Experience Platform e creare una nuova connessione **[!UICONTROL Adobe Campaign Managed Cloud Services]**.
+1. Fornire dettagli sull&#39;istanza di Campaign da utilizzare e scegliere **[!UICONTROL Profile sync (Update only)]** come tipo di sincronizzazione.
 
    ![](assets/aep-profile-sync.png){width="800" align="center"}
 
@@ -65,4 +65,4 @@ I passaggi principali per sincronizzare gli attributi del profilo di Adobe Exper
 1. Configura gli attributi del profilo da aggiornare in Adobe Campaign.
 1. Una volta configurato il flusso, gli attributi di profilo selezionati verranno sincronizzati con Adobe Campaign e aggiornati per tutti i profili target dei segmenti configurati nella destinazione.
 
-Informazioni dettagliate su come configurare la destinazione sono disponibili in [Documentazione della connessione Adobe Campaign Managed Cloud Services](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en){target="_blank"}
+Informazioni dettagliate su come configurare la destinazione sono disponibili nella [documentazione sulla connessione di Adobe Campaign Managed Cloud Services](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en){target="_blank"}

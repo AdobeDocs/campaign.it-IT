@@ -16,27 +16,27 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->Queste funzionalità sono visibili solo online e solo al **Responsabili della consegna**.
+>Queste funzionalità sono visibili solo online e solo ai **Responsabili della consegna**.
 
 ## Cronologia delle proposte di offerta{#offer-proposition-history}
 
 Una volta create le proposte di offerta, puoi visualizzare la cronologia delle presentazioni.
 
-* A livello di offerta, nella **[!UICONTROL Edit]** , fare clic su **[!UICONTROL Propositions]**.
+* A livello di offerta, nella scheda **[!UICONTROL Edit]**, fare clic su **[!UICONTROL Propositions]**.
 
   ![](assets/offer_followup_006.png)
 
-* Dal profilo di un destinatario, fai clic sul pulsante **[!UICONTROL Propositions]** scheda.
+* Dal profilo di un destinatario, fare clic sulla scheda **[!UICONTROL Propositions]**.
 
   ![](assets/offer_followup_002.png)
 
-* A livello di spazio dell’offerta, fai clic su **[!UICONTROL Propositions]** scheda.
+* A livello di spazio dell&#39;offerta, fare clic sulla scheda **[!UICONTROL Propositions]**.
 
   ![](assets/offer_space_prop_001_b.png)
 
 ## Rapporto di analisi delle offerte{#offer-analysis-report}
 
-Il **[!UICONTROL Offer analysis]** Questo rapporto fornisce una panoramica del numero di proposte accettate o rifiutate.
+Il report **[!UICONTROL Offer analysis]** fornisce una panoramica del numero di proposte accettate o rifiutate.
 
 Le statistiche sono ordinate in base a tre criteri:
 
@@ -52,4 +52,4 @@ Le statistiche sono ordinate in base a tre criteri:
 
   ![](assets/offer_report_perdeliveries.png)
 
-I dati possono essere filtrati in base ai vari criteri disponibili nella sezione superiore del rapporto. Dopo aver selezionato i criteri desiderati, fai clic su **[!UICONTROL Refresh]** per applicarli al report.
+I dati possono essere filtrati in base ai vari criteri disponibili nella sezione superiore del rapporto. Dopo aver selezionato i criteri desiderati, fare clic sul collegamento **[!UICONTROL Refresh]** per applicarli al report.

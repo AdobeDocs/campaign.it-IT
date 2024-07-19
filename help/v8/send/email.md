@@ -25,9 +25,9 @@ Crea e-mail personalizzate e contestualmente pertinenti, coerenti con il resto d
 
 Nell’esempio seguente, scoprirai i passaggi per progettare una consegna e-mail in Adobe Campaign che contiene dati personalizzati, collegamenti a un URL esterno e un collegamento alla pagina speculare.
 
-1. **Creare la consegna**
+1. **Crea la consegna**
 
-   Per creare una nuova consegna, passa a **Campagne** , fare clic su **Consegne** e fai clic su **Crea** sopra l’elenco delle consegne esistenti.
+   Per creare una nuova consegna, passa alla scheda **Campagne**, fai clic su **Consegne** e fai clic sul pulsante **Crea** sopra l&#39;elenco delle consegne esistenti.
 
    ![](assets/delivery_step_1.png)
 
@@ -37,9 +37,9 @@ Nell’esempio seguente, scoprirai i passaggi per progettare una consegna e-mail
 
    ![](assets/dce_delivery_model.png)
 
-1. **Importa i contenuti**
+1. **Importa il contenuto**
 
-   Fai clic su **Sorgente** per incollare il contenuto HTML.
+   Fai clic sulla scheda **Source** per incollare il contenuto di HTML.
 
    ![](assets/paste-content.png)
 
@@ -47,11 +47,11 @@ Nell’esempio seguente, scoprirai i passaggi per progettare una consegna e-mail
    >
    >Per evitare problemi di prestazioni, le immagini incluse nelle e-mail non possono superare i 100 KB.
 
-1. **Personalizzare il messaggio**
+1. **Personalizza il messaggio**
 
    * Aggiungi nome e cognome dei destinatari
 
-     Per inserire il nome e il cognome dei profili target nel contenuto del messaggio, posiziona il cursore nel punto in cui desideri inserirli e fai clic sull’ultima icona nella barra degli strumenti, quindi fai clic su **[!UICONTROL Include]** e seleziona **[!UICONTROL Greetings]**.
+     Per inserire il nome e il cognome dei profili di destinazione nel contenuto del messaggio, posizionare il cursore nel punto in cui si desidera inserirli e fare clic sull&#39;ultima icona nella barra degli strumenti, quindi fare clic su **[!UICONTROL Include]** e selezionare **[!UICONTROL Greetings]**.
 
      ![](assets/include-greetings.png)
 
@@ -63,27 +63,27 @@ Nell’esempio seguente, scoprirai i passaggi per progettare una consegna e-mail
 
    * Inserire un collegamento tracciato
 
-     Per portare i destinatari della consegna a un indirizzo esterno tramite un’immagine o un testo, selezionalo e fai clic sul pulsante **[!UICONTROL Add a link]** nella barra degli strumenti.
+     Per portare i destinatari della consegna a un indirizzo esterno tramite un&#39;immagine o un testo, selezionarlo e fare clic sull&#39;icona **[!UICONTROL Add a link]** nella barra degli strumenti.
 
-     Immetti l’URL del collegamento in **URL** utilizzando il seguente formato **https://www.myURL.com**, quindi conferma.
+     Immetti l&#39;URL per il collegamento nel campo **URL** utilizzando il seguente formato **https://www.myURL.com**, quindi conferma.
 
      ![](assets/add-a-link.png)
 
    * Aggiungere una pagina mirror
 
-     Per consentire ai destinatari di visualizzare il contenuto della consegna in un browser web, aggiungi un collegamento a [pagina mirror](mirror-page.md) del messaggio.
+     Per consentire ai destinatari di visualizzare il contenuto della consegna in un browser Web, aggiungi un collegamento alla [pagina mirror](mirror-page.md) del messaggio.
 
-     Posizionare il cursore nel punto in cui si desidera inserire il collegamento e fare clic sull&#39;ultima icona nella barra degli strumenti, quindi fare clic su **[!UICONTROL Include]** e seleziona **[!UICONTROL link to mirror page]**.
+     Posizionare il cursore nel punto in cui si desidera inserire il collegamento e fare clic sull&#39;ultima icona nella barra degli strumenti, quindi fare clic su **[!UICONTROL Include]** e selezionare **[!UICONTROL link to mirror page]**.
 
      Ulteriori informazioni sulla gestione della pagina mirror in [questa sezione](mirror-page.md#link-to-mirror-page).
 
 1. Puoi definire parametri aggiuntivi per l’e-mail, ad esempio l’invio di una copia dei messaggi a un indirizzo BBC, la modifica del formato del messaggio, l’impostazione di una codifica specifica e così via. Per ulteriori informazioni, consulta [questa sezione](email-parameters.md).
 
-1. Quando il contenuto è pronto, fai clic su **Salva**: ora verrà visualizzato nell’elenco delle consegne, nel **[!UICONTROL Campaigns > Deliveries]** scheda.
+1. Quando il contenuto è pronto, fai clic su **Salva**: verrà ora visualizzato nell&#39;elenco delle consegne, nella scheda **[!UICONTROL Campaigns > Deliveries]**.
 
 La prima consegna e-mail è pronta. Ora devi definire il pubblico, convalidare la consegna e inviarla.
 
-Scopri come importare un contenuto e-mail in questo [caso d’uso](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}.
+Scopri come importare un contenuto e-mail in questo [caso d&#39;uso](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}.
 
 Per ulteriori informazioni, consulta le sezioni seguenti:
 
@@ -95,7 +95,7 @@ Per ulteriori informazioni, consulta le sezioni seguenti:
 
 ## Verifica e convalida le e-mail
 
-Campaign offre diversi modi per testare e convalidare le e-mail prima di inviarle al pubblico. Scopri come visualizzare in anteprima e testare il contenuto delle e-mail in [questa sezione](../send/preview-and-proof.md).
+Campaign offre diversi modi per testare e convalidare le e-mail prima di inviarle al pubblico. Scopri come visualizzare in anteprima e verificare il contenuto delle e-mail in [questa sezione](../send/preview-and-proof.md).
 
 Puoi eseguire le seguenti azioni:
 
