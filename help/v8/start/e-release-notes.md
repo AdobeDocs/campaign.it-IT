@@ -7,7 +7,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: a45f7b22-44c7-4dad-af0a-ae8f683ae3d9
-source-git-commit: dfc86ebaa2acc0b7777843b2d1d370939b6bfcc2
+source-git-commit: 65efda7469c5ad35e8d03703951c3d1480b015f4
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 49%
@@ -48,13 +48,11 @@ NEO-76592, NEO-75400, NEO-77406, NEO-77674, NEO-77899, NEO-73989, NEO-76064, NEO
 
 _mercoledì 30 luglio 2024_
 
-
 ### Nuove funzioni {#new-8-6-3}
 
 * **Notifica push potenziata** - È ora possibile inviare notifiche push potenziate. La notifica push avanzate è una forma avanzata di notifica mobile che va oltre i semplici messaggi di testo incorporando elementi multimediali come immagini, pulsanti interattivi o altri contenuti rich media. Con questa versione, è ora disponibile un set di modelli per notifiche push potenziate per le app iOS e Android. [Ulteriori informazioni](../send/rich-push.md).
 
 * A partire da questa versione, poiché le credenziali dell’account di servizio (JWT) sono state dichiarate obsolete da Adobe, le integrazioni in uscita di Campaign con le soluzioni e le app Adobe ora si basano sulle credenziali OAuth server-to-server. [Ulteriori informazioni](release-notes.md#change-8-7-1)
-
 
 ### Miglioramenti generali {#improvements-8-6-3}
 
