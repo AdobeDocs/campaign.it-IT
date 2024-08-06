@@ -6,9 +6,9 @@ title: Documentazione di Adobe Campaign v8
 description: Documentazione di Campaign v8
 breadcrumb-title: Documentazione di Campaign v8
 source-git-commit: 0b4fc6da8761d2efe57d8eb0ff87cd11d0e2d250
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '623'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -52,9 +52,9 @@ ht-degree: 98%
    + [SMS](send/sms.md)
    + Notifiche push {#push}
       + [Creare e inviare notifiche push](send/push.md)
-      + Push avanzato {#rich-push}
-         + [Progettare una consegna push potenziata per Android](send/rich-push-android.md)
-         + [Progettare una consegna push potenziata per iOS](send/rich-push-ios.md)
+      + Push avanzata {#rich-push}
+         + [Progettare una consegna push avanzata per Android](send/rich-push-android.md)
+         + [Progettare una consegna push avanzata per iOS](send/rich-push-ios.md)
       + [Configurare il canale di notifica push](send/push-settings.md)
       + [Configurare le notifiche push con Raccolta dati](send/push-data-collection.md)
    + [Messaggistica LINE](send/line.md)
