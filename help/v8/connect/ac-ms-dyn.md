@@ -5,7 +5,7 @@ feature: Microsoft CRM Integration
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 2%
@@ -34,7 +34,7 @@ Per ogni sistema, questi passaggi devono essere eseguiti da un amministratore.
 Per connettere Microsoft Dynamics 365 per l&#39;utilizzo con Adobe Campaign tramite **API Web**, accedere alla [directory di Microsoft Azure](https://portal.azure.com) utilizzando una credenziale **Global administrator**, quindi eseguire la procedura seguente:
 
 1. Ottieni l’ID dell’applicazione (client) Dynamics 365. [Ulteriori informazioni](#get-client-id-microsoft)
-1. Genera l&#39;identificatore chiave del certificato e l&#39;ID chiave di Microsoft Dynamics. [Ulteriori informazioni](#config-certificate-key-id)
+1. Genera l&#39;identificatore e l&#39;ID della chiave del certificato di Microsoft Dynamics. [Ulteriori informazioni](#config-certificate-key-id)
 1. Configurare le autorizzazioni. [Ulteriori informazioni](#config-permissions-microsoft)
 1. Crea un utente dell’app. [Ulteriori informazioni](#create-app-user-microsoft)
 1. Codifica la chiave privata. [Ulteriori informazioni](#configure-acc-for-microsoftt)
@@ -202,7 +202,7 @@ Di seguito sono elencati i tipi di attributo supportati/non supportati per Micro
 
 | Tipo di attributo | Supportato |
 | --------------------------------------------------------------------------------- | --------- |
-| Tipi di base : boolean, datetime, decimal, float, double, integer, bigint , string | Sì |
+| Tipi di base: boolean, datetime, decimal, float, double, integer, bigint , string | Sì |
 | Denaro (doppio) | Sì |
 | memo, entityname , primarykey, uniqueidentifier (come stringhe) | Sì |
 | Stato, elenco a discesa (i valori possibili vengono memorizzati nelle enumerazioni), stato (stringa) | Sì |

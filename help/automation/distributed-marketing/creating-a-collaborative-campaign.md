@@ -5,7 +5,7 @@ description: Scopri come creare una campagna collaborativa
 feature: Distributed Marketing
 role: User
 exl-id: edf887fb-c391-405c-b3cf-dc34aed69c53
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 3%
@@ -76,8 +76,8 @@ Per creare una campagna collaborativa (per approvazione target), è necessario s
 
 Il flusso di lavoro della campagna deve integrare l&#39;attività di tipo **Approvazione locale**. I parametri di attività sono i seguenti:
 
-* **[!UICONTROL Action to perform]** : Notifica di approvazione di Target.
-* **[!UICONTROL Distribution context]** : Esplicito.
+* **[!UICONTROL Action to perform]**: notifica di approvazione di Target.
+* **[!UICONTROL Distribution context]**: Esplicito.
 * **[!UICONTROL Data distribution]**: distribuzione entità locale.
 
 **È necessario creare la distribuzione dei dati di tipo di entità locale**. Il modello di distribuzione dati consente di limitare il numero di record da un elenco di valori di raggruppamento. In **[!UICONTROL Resources > Campaign management > Data distribution]**, fare clic sull&#39;icona **[!UICONTROL New]** per creare un nuovo **[!UICONTROL Data distribution]**. Per ulteriori informazioni sulla distribuzione dei dati,

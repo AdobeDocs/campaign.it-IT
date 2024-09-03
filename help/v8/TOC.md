@@ -5,10 +5,10 @@ user-guide-description: Documentazione di prodotto per Adobe Campaign v8 (consol
 title: Documentazione di Adobe Campaign v8
 description: Documentazione di Campaign v8
 breadcrumb-title: Documentazione di Campaign v8
-source-git-commit: 0b4fc6da8761d2efe57d8eb0ff87cd11d0e2d250
-workflow-type: ht
-source-wordcount: '623'
-ht-degree: 100%
+source-git-commit: 8ff207246bea1f476b37b1d4f2c79498362e7481
+workflow-type: tm+mt
+source-wordcount: '675'
+ht-degree: 93%
 
 ---
 
@@ -49,7 +49,23 @@ ht-degree: 100%
       + [Aggiungere un indirizzo Ccn](send/email-bcc.md)
       + [Definire i parametri e-mail aggiuntivi](send/email-parameters.md)
       + [Inviare e monitorare le e-mail](send/send.md)
-   + [SMS](send/sms.md)
+   + SMS {#sms}
+      + [Introduzione agli SMS](send/sms/sms.md)
+      + Configurare il canale SMS {#config-sms}
+         + [Impostazioni account esterno SMPP](send/sms/smpp-external-account.md)
+         + [Caratteristiche del canale SMS](send/sms/sms-channel.md)
+         + [Convalida di una connessione SMPP](send/sms/smpp-connection.md)
+         + [Istanza autonoma](send/sms/sms-standalone-instance.md)
+         + [Infrastruttura mid-sourcing](send/sms/sms-mid-sourcing.md)
+         + [Descrizione connettore SMPP](send/sms/smpp-connector-delivery.md)
+      + Crea un SMS {#create-sms}
+         + [Impostazioni di consegna SMS](send/sms/sms-delivery-settings.md)
+         + [Definire il contenuto](send/sms/sms-content.md)
+         + [Selezionare il pubblico](send/sms/sms-audience.md)
+      + Convalida e invia SMS {#validate-sms}
+         + [Invia bozze SMS](send/sms/sms-proofs.md)
+         + [Invia al pubblico](send/sms/sms-send.md)
+      + [Monitorare e tenere traccia degli SMS](send/sms/sms-monitor.md)
    + Notifiche push {#push}
       + [Creare e inviare notifiche push](send/push.md)
       + Push avanzata {#rich-push}
@@ -67,10 +83,10 @@ ht-degree: 100%
       + [Utilizzare i blocchi di personalizzazione](send/personalization-blocks.md)
       + [Creare condizioni](send/conditions.md)
    + Convalidare e inviare la consegna {#validate}
-   + [Anteprima e bozze](send/preview-and-proof.md)
-   + [Analisi della consegna](send/delivery-analysis.md)
-   + [Configurare e inviare la consegna](send/configure-and-send.md)
-   + [Ottimizzazione dell’ora di invio](send/predictive.md)
+      + [Anteprima e bozze](send/preview-and-proof.md)
+      + [Analisi della consegna](send/delivery-analysis.md)
+      + [Configurare e inviare la consegna](send/configure-and-send.md)
+      + [Ottimizzazione dell’ora di invio](send/predictive.md)
    + Errori, mancati recapiti e quarantene{#failures}
       + [Quarantene](send/quarantines.md)
       + [Errori di consegna](send/delivery-failures.md)

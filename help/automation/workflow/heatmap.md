@@ -5,7 +5,7 @@ description: Monitorare i flussi di lavoro con Workflow HeatMap
 feature: Workflows, Heatmap
 role: Admin
 exl-id: aeb35076-2f0d-456d-8562-be69e7e902eb
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 3%
@@ -69,10 +69,10 @@ L&#39;utilizzo di Workflow HeatMap richiede una buona comprensione dei seguenti 
    >
    >Il filtro **[!UICONTROL Min duration]** è applicato. Se non riesci a trovare un flusso di lavoro specifico, reimposta la durata minima su 0 in modo che tutti i flussi di lavoro vengano visualizzati nell’elenco.
 
-1. È inoltre possibile filtrare in base a **[!UICONTROL Workflow type]**:
+1. Puoi anche filtrare in base a **[!UICONTROL Workflow type]**:
 
    * **[!UICONTROL Technical]**: vengono visualizzati solo [flussi di lavoro tecnici incorporati](technical-workflows.md) e [flussi di lavoro di gestione dati](targeting-workflows.md#data-management).
-   * **[!UICONTROL Marketing]** : vengono visualizzati solo i flussi di lavoro collegati a una campagna di marketing, noti come [flussi di lavoro campagna](campaign-workflows.md).
+   * **[!UICONTROL Marketing]**: vengono visualizzati solo i flussi di lavoro collegati a una campagna di marketing, noti come [flussi di lavoro campagna](campaign-workflows.md).
 
 1. Per cercare un flusso di lavoro specifico per nome, è inoltre possibile utilizzare il campo **[!UICONTROL Workflow name filter]**.
 

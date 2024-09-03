@@ -5,7 +5,7 @@ feature: Interaction, Offers
 role: User, Admin
 level: Beginner
 exl-id: 4da3e69a-6230-4c94-a6f1-4e8c01e854ba
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '1608'
 ht-degree: 2%
@@ -118,8 +118,8 @@ Scopri i termini specifici dell’offerta e le relative indicazioni prima di ini
 * **Arbitraggio**: selezione delle offerte da visualizzare in un ambiente (offerte idonee). Il principio di arbitraggio classifica le offerte per priorità in base ai criteri definiti nelle categorie, nelle offerte e nelle offerte contestuali.
 * **Contatto**: un contatto da un&#39;interazione in entrata. Durante l’elaborazione delle chiamate al motore, il contatto è associato a una dimensione di targeting. Esistono due tipi di contatti:
 
-   * **[!UICONTROL Identified contact]**: contatto identificato volontariamente sul canale. Nelle interazioni in uscita, il contatto viene identificato automaticamente.
-   * **[!UICONTROL Anonymous contact]** : contatto che non si è abbonato volontariamente tramite il canale ma che può essere identificato implicitamente tramite un cookie. Questa terminologia viene utilizzata solo per le interazioni in ingresso.
+   * **[!UICONTROL Identified contact]**: un contatto identificato volontariamente sul canale. Nelle interazioni in uscita, il contatto viene identificato automaticamente.
+   * **[!UICONTROL Anonymous contact]**: un contatto che non si è abbonato volontariamente tramite il canale ma che può essere identificato implicitamente tramite un cookie. Questa terminologia viene utilizzata solo per le interazioni in ingresso.
 
      >[!NOTE]
      >
@@ -131,8 +131,8 @@ Scopri i termini specifici dell’offerta e le relative indicazioni prima di ini
 * **Modalità unitaria**: viene elaborato un singolo contatto alla volta. Questa modalità si applica in genere alle interazioni in entrata e ai messaggi transazionali.
 * **Modalità di identificazione**: fa riferimento allo stato di un contatto:
 
-   * **[!UICONTROL explicit]** : i contatti sono identificati dal loro accesso all&#39;interfaccia del canale.
-   * **[!UICONTROL implicit]** : i contatti sono identificati da un cookie (permanente o sessione). Può essere elaborato come contatto anonimo o identificato.
+   * **[!UICONTROL explicit]**: i contatti sono identificati dal loro accesso all&#39;interfaccia del canale.
+   * **[!UICONTROL implicit]**: il contatto è identificato da un cookie (permanente o sessione). Può essere elaborato come contatto anonimo o identificato.
    * **[!UICONTROL anonymous]**: impossibile identificare i contatti.
 
 * **Offerta idonea**: offerta che soddisfa i vincoli definiti a monte e che può essere offerta in modo coerente a una destinazione.

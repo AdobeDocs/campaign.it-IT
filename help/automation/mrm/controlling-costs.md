@@ -5,7 +5,7 @@ description: Scopri come controllare i costi
 feature: Campaigns, Resource Management
 role: User
 exl-id: 51f3add9-a083-4db1-84a6-3aaaeec0465c
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '2428'
 ht-degree: 1%
@@ -28,7 +28,7 @@ Per implementare la gestione del budget utilizzando MRM, è necessario eseguire 
 
 1. Definire il metodo di calcolo dei costi: le strutture dei costi vengono definite per i fornitori di servizi. [Ulteriori informazioni](../campaigns/providers-stocks-and-budgets.md).
 
-1. Definire i costi della campagna (consegne/attività) : i costi sostenuti dalle consegne e dalle attività vengono inseriti singolarmente o globalmente per il modello della campagna. [Ulteriori informazioni](../campaigns/marketing-campaign-deliveries.md#compute-costs-and-stocks).
+1. Definire i costi della campagna (consegne/attività): i costi sostenuti dalle consegne e dalle attività vengono inseriti singolarmente o globalmente per il modello della campagna. [Ulteriori informazioni](../campaigns/marketing-campaign-deliveries.md#compute-costs-and-stocks).
 
 1. Consolida: in base allo stato di avanzamento delle attività, delle consegne e della campagna, i costi verranno calcolati e trasferiti al budget corrispondente. Quando la creazione della campagna è sufficientemente avanzata, lo stato di avanzamento del budget della campagna può essere modificato in **[!UICONTROL Specified]**. Il costo calcolato del programma viene quindi inserito automaticamente con i costi calcolati sulla campagna. [Ulteriori informazioni](#cost-commitment--calculation-and-charging).
 

@@ -5,10 +5,10 @@ feature: Privacy
 role: Admin
 level: Beginner
 exl-id: 0f81d318-dbfd-45c8-b391-b1d14d23e9c8
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '942'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -101,7 +101,7 @@ Ciascun processo **[!DNL Privacy Service]** è suddiviso in più richieste Priva
 
 È inoltre possibile eseguire un processo su più istanze. In questo caso vengono creati più file per un processo. Ad esempio, se una richiesta ha due spazi di nomi ed è in esecuzione in tre istanze, vengono inviati in totale sei file. Un file per ogni spazio dei nomi e istanza.
 
-Il modello per il nome di un file è: `<InstanceName>-<NamespaceId>-<ReconciliationKey>.xml`
+Il modello per un nome file è: `<InstanceName>-<NamespaceId>-<ReconciliationKey>.xml`
 
 * **InstanceName**: il nome dell’istanza Campaign
 * **NamespaceId**: l’ID spazio dei nomi di Identity Service per lo spazio dei nomi utilizzato

@@ -5,7 +5,7 @@ feature: Interaction, Offers
 role: User, Admin
 level: Beginner
 exl-id: 4dc2008d-681c-4a79-8fc8-c270c9224ab9
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 3%
@@ -116,9 +116,9 @@ Utilizzare la scheda **[!UICONTROL Content]** per definire il contenuto dell&#39
 
 1. Definisci i vari parametri del contenuto dell’offerta.
 
-   * **[!UICONTROL Title]** : specifica il titolo da visualizzare nell&#39;offerta. Avviso: non si tratta dell&#39;etichetta dell&#39;offerta, definita nella scheda **[!UICONTROL General]**.
-   * **[!UICONTROL Destination URL]** : specifica l&#39;URL dell&#39;offerta. Deve iniziare con &quot;http://&quot; o &quot;https://&quot;.
-   * **[!UICONTROL Image URL]** : specifica un URL o un percorso di accesso all&#39;immagine dell&#39;offerta.
+   * **[!UICONTROL Title]**: specifica il titolo da visualizzare nell&#39;offerta. Avviso: non si tratta dell&#39;etichetta dell&#39;offerta, definita nella scheda **[!UICONTROL General]**.
+   * **[!UICONTROL Destination URL]**: specifica l&#39;URL dell&#39;offerta. Deve iniziare con &quot;http://&quot; o &quot;https://&quot;.
+   * **[!UICONTROL Image URL]**: specifica un URL o un percorso di accesso all&#39;immagine dell&#39;offerta.
    * **[!UICONTROL HTML content]** / **[!UICONTROL Text content]**: inserisci il corpo dell&#39;offerta nella scheda desiderata. Per generare il tracciamento, **[!UICONTROL HTML content]** deve essere composto da elementi HTML che possono essere racchiusi in un elemento di tipo `<div>`. Il risultato di un elemento `<table>` nella pagina HTML, ad esempio, sarà il seguente:
 
    ```

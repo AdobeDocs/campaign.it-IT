@@ -5,7 +5,7 @@ description: Creazione e gestione delle attività
 feature: Campaigns, Resource Management
 role: User
 exl-id: 730d1712-53a6-4bf7-9aac-523b06bd0d0a
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '3758'
 ht-degree: 0%
@@ -374,10 +374,10 @@ Un&#39;attività di notifica può avere i seguenti stati:
 
 Durante la creazione, è necessario immettere i seguenti elementi nell&#39;attività:
 
-* **[!UICONTROL Assigned to]** : l&#39;operatore o il gruppo di operatori che riceveranno l&#39;e-mail. Se riassegni l’attività una volta inviata l’e-mail, questa non verrà inviata al nuovo operatore (affinché ciò accada, devi reinizializzare l’attività e modificarne la data di inizio).
+* **[!UICONTROL Assigned to]**: l&#39;operatore o il gruppo di operatori che riceveranno l&#39;e-mail. Se riassegni l’attività una volta inviata l’e-mail, questa non verrà inviata al nuovo operatore (affinché ciò accada, devi reinizializzare l’attività e modificarne la data di inizio).
 * **Data di inizio attività**: data in cui l&#39;e-mail di notifica verrà inviata. Tale data deve essere nel futuro al momento della registrazione dell&#39;attività.
 * **Data di fine attività**: data in cui lo stato dell&#39;attività diventa **[!UICONTROL Finished]**. Per impostazione predefinita, la data di fine è identica alla data di inizio. Tuttavia, l’assegnazione di una durata all’attività ti consente di simboleggiare il tempo di azione dell’operatore nella pianificazione, se necessario.
-* **[!UICONTROL Description]** : il testo immesso verrà visualizzato nel corpo dell&#39;e-mail di notifica.
+* **[!UICONTROL Description]**: il testo immesso verrà visualizzato nel corpo dell&#39;e-mail di notifica.
 
   ![](assets/mrm_task_notif_dashboard_msg.png)
 

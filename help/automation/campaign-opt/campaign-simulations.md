@@ -4,7 +4,7 @@ title: Introduzione alle simulazioni delle campagne
 description: Scopri come configurare le simulazioni delle campagne
 feature: Campaigns
 exl-id: 2b2b668f-87d9-4265-adbc-9098b85c5aab
-source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '1210'
 ht-degree: 0%
@@ -153,9 +153,9 @@ Per analizzare il risultato di una simulazione, modificane i rapporti: mostrano 
 
 Per impostazione predefinita, vengono forniti i seguenti rapporti:
 
-* **[!UICONTROL Detail of simulation exclusions]** : questo report fornisce un grafico dettagliato delle cause di esclusione per tutte le consegne interessate.
-* **[!UICONTROL Simulation summary]** : questo rapporto mostra le popolazioni escluse dalla simulazione in tutte le varie consegne.
-* **[!UICONTROL Summary of exclusions linked to the simulation]** : questo report mostra un grafico delle esclusioni causate dalla simulazione insieme alla regola di tipologia applicata e un grafico che mostra il rapporto di esclusione per regola.
+* **[!UICONTROL Detail of simulation exclusions]**: questo report fornisce un grafico dettagliato delle cause di esclusione per tutte le consegne interessate.
+* **[!UICONTROL Simulation summary]**: questo rapporto mostra le popolazioni escluse dalla simulazione in tutte le varie consegne.
+* **[!UICONTROL Summary of exclusions linked to the simulation]**: questo report mostra un grafico delle esclusioni causate dalla simulazione insieme alla regola di tipologia applicata e un grafico che mostra il rapporto di esclusione per regola.
 
 <!--
 >[!NOTE]

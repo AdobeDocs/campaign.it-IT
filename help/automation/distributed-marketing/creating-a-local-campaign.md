@@ -5,7 +5,7 @@ description: Creare una campagna locale
 feature: Distributed Marketing
 role: User
 exl-id: b46530b5-cb81-40d7-b596-c7685359782a
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '1553'
 ht-degree: 1%
@@ -62,7 +62,7 @@ Sono disponibili quattro tipi di interfacce:
 
   ![](assets/mkt_distr_6.png)
 
-* **[!UICONTROL By form]** : l&#39;entità locale ha accesso a un modulo web in cui, a seconda del modello utilizzato, può modificare il contenuto, la destinazione, la sua dimensione massima, nonché le date di creazione ed estrazione utilizzando i campi di personalizzazione. L’entità locale può valutare la destinazione e visualizzare in anteprima il contenuto di questo modulo web.
+* **[!UICONTROL By form]**: l&#39;entità locale ha accesso a un modulo web in cui, a seconda del modello utilizzato, può modificare il contenuto, la destinazione, la sua dimensione massima, nonché le date di creazione ed estrazione utilizzando i campi di personalizzazione. L’entità locale può valutare la destinazione e visualizzare in anteprima il contenuto di questo modulo web.
 
   ![](assets/mkt_distr_8.png)
 
@@ -75,7 +75,7 @@ Sono disponibili quattro tipi di interfacce:
   ![](assets/mkt_distr_7.png)
 
 * **[!UICONTROL By external form]**: l&#39;entità locale ha accesso ai parametri della campagna nella sua extranet (non Adobe Campaign). Questi parametri sono identici a quelli di una **campagna locale (per modulo)**.
-* **[!UICONTROL Pre-set]** : l&#39;entità locale ordina la campagna utilizzando il modulo predefinito, senza localizzarlo.
+* **[!UICONTROL Pre-set]**: l&#39;entità locale ordina la campagna utilizzando il modulo predefinito, senza localizzarlo.
 
   ![](assets/mkt_distr_5.png)
 

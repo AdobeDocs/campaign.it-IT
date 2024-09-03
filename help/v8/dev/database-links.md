@@ -5,7 +5,7 @@ feature: Data Model, Configuration
 role: Developer
 level: Intermediate, Experienced
 exl-id: f7047c6e-f045-4534-b117-311dd90dd92b
-source-git-commit: 0f5efba364ef924447324bdd806e15e6db8d799d
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 0%
@@ -28,12 +28,12 @@ Per le relazioni di join con una tabella o un database di Campaign:
 
 * ![](assets/do-not-localize/join_with_campaign11.png): Cardinalità 1-1. Ad esempio, tra un destinatario e un ordine corrente. Un destinatario può essere correlato a una sola occorrenza della tabella dell&#39;ordine corrente alla volta.
 * ![](assets/do-not-localize/externaljoin11.png): Cardinalità 1-1, join esterno. Ad esempio, tra un destinatario e il suo paese. Un destinatario può essere correlato a una sola occorrenza del paese della tabella. Il contenuto della country table non verrà salvato.
-* ![](assets/do-not-localize/join_with_campaign1n.png) : Cardinalità 1-N. Ad esempio, tra un destinatario e la tabella delle sottoscrizioni. Un destinatario può essere correlato a diverse occorrenze nella tabella delle sottoscrizioni.
+* ![](assets/do-not-localize/join_with_campaign1n.png): Cardinalità 1-N. Ad esempio, tra un destinatario e la tabella delle sottoscrizioni. Un destinatario può essere correlato a diverse occorrenze nella tabella delle sottoscrizioni.
 
 Per le relazioni di join che utilizzano Federated Database Access (FDA):
 
 * ![](assets/do-not-localize/join_fda_11.png): Cardinalità 1-1
-* ![](assets/do-not-localize/join_fda_1m.png): cardinalità 1-N
+* ![](assets/do-not-localize/join_fda_1m.png): Cardinalità 1-N
 
 Per ulteriori informazioni sulle tabelle FDA, vedere [Accesso a un database esterno](../connect/fda.md).
 

@@ -3,7 +3,7 @@ title: Rapporti di consegna incorporati in Adobe Campaign
 description: Rapporti di consegna incorporati in Adobe Campaign
 feature: Reporting
 exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
-source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '1021'
 ht-degree: 12%
@@ -50,7 +50,7 @@ Questo rapporto combina gli indicatori chiave per monitorare il comportamento de
 
 **[!UICONTROL 1. Delivery statistics]**
 
-* **[!UICONTROL Messages to deliver]** : numero totale di messaggi da consegnare dopo l’analisi della consegna.
+* **[!UICONTROL Messages to deliver]**: numero totale di messaggi da consegnare dopo l&#39;analisi della consegna.
 * **[!UICONTROL Success]**: numero di messaggi elaborati correttamente.
 
 **[!UICONTROL 2. Reception statistics]**
@@ -61,8 +61,8 @@ Questo rapporto combina gli indicatori chiave per monitorare il comportamento de
 
 * **[!UICONTROL Distinct opens for the population reached]**: stima del numero di destinatari di destinazione che hanno aperto un messaggio almeno una volta. I clic sugli URL tracciati vengono presi in considerazione, in quanto è necessario aprire le e-mail per fare clic su un collegamento.
 * **[!UICONTROL Sum of opens for the population reached]**: stima del numero totale di aperture da parte dei destinatari di destinazione.
-* **[!UICONTROL Clicks on opt-out link]** : numero di clic sul collegamento di annullamento dell&#39;abbonamento.
-* **[!UICONTROL Clicks on the mirror page link]** : numero di clic sul collegamento alla [pagina mirror](../send/mirror-page.md). Per poter essere preso in considerazione, il collegamento deve essere definito come tale nella procedura guidata di consegna (URL tracciati).
+* **[!UICONTROL Clicks on opt-out link]**: numero di clic sul collegamento di annullamento dell&#39;abbonamento.
+* **[!UICONTROL Clicks on the mirror page link]**: numero di clic sul collegamento alla [pagina mirror](../send/mirror-page.md). Per poter essere preso in considerazione, il collegamento deve essere definito come tale nella procedura guidata di consegna (URL tracciati).
 * **[!UICONTROL Estimation of forwards]**: stima del numero di e-mail inoltrate dai destinatari interessati. Questo valore viene calcolato sottraendo il numero di persone distinte e il numero di destinatari distinti che hanno fatto clic nell’e-mail.
 
   >[!NOTE]
@@ -74,10 +74,10 @@ Questo rapporto combina gli indicatori chiave per monitorare il comportamento de
 Questa tabella di valori mostra il raggruppamento di consegne, aperture, clic e reattività non elaborata per dominio Internet. Sono utilizzati i seguenti indicatori:
 
 * **[!UICONTROL Sent]**: numero totale di messaggi inviati in questo dominio.
-* **[!UICONTROL Complaints]** : numero di messaggi per questo dominio che sono stati segnalati come indesiderati dal destinatario. La frequenza viene calcolata in base al numero totale di messaggi inviati su questo dominio.
-* **[!UICONTROL Opens]** : numero di destinatari di destinazione distinti per questo dominio che hanno aperto un messaggio almeno una volta. La frequenza viene calcolata in base al numero totale di messaggi inviati su questo dominio.
+* **[!UICONTROL Complaints]**: numero di messaggi per questo dominio segnalati come non desiderati dal destinatario. La frequenza viene calcolata in base al numero totale di messaggi inviati su questo dominio.
+* **[!UICONTROL Opens]**: numero di destinatari di destinazione distinti per questo dominio che hanno aperto un messaggio almeno una volta. La frequenza viene calcolata in base al numero totale di messaggi inviati su questo dominio.
 * **[!UICONTROL Clicks]**: numero di destinatari di destinazione distinti che hanno fatto clic almeno una volta nella stessa consegna. La frequenza viene calcolata in base al numero totale di messaggi inviati su questo dominio
-* **[!UICONTROL Raw reactivity]** : percentuale del numero di destinatari che hanno fatto clic su una consegna almeno una volta rispetto al numero di destinatari che hanno aperto una consegna almeno una volta.
+* **[!UICONTROL Raw reactivity]**: percentuale del numero di destinatari che hanno fatto clic su una consegna almeno una volta rispetto al numero di destinatari che hanno aperto una consegna almeno una volta.
 
 >[!NOTE]
 >
@@ -93,19 +93,19 @@ Questa tabella di valori mostra il raggruppamento di consegne, aperture, clic e 
 >Le percentuali correlate vengono calcolate in base al numero di messaggi inoltrati correttamente.
 
 * **[!UICONTROL Distinct clicks for the population reached]**: numero di persone distinte che hanno fatto clic almeno una volta in una consegna.
-* **[!UICONTROL Cumulated clicks]** : numero totale di clic da parte dei destinatari di destinazione, esclusi i collegamenti di annullamento dell&#39;abbonamento e le pagine mirror.
+* **[!UICONTROL Cumulated clicks]**: numero totale di clic dai destinatari di destinazione, esclusi i collegamenti di annullamento dell&#39;abbonamento e le pagine mirror.
 * **[!UICONTROL Recipient clicks]**: numero di destinatari di destinazione distinti che hanno fatto clic almeno una volta nella stessa consegna.
 * **[!UICONTROL Estimated recipient reactivity]**: rapporto tra il numero di destinatari che hanno fatto clic almeno una volta in una consegna e il numero stimato di destinatari che hanno aperto una consegna almeno una volta. I clic sui collegamenti di rinuncia e pagina speculare non vengono presi in considerazione.
 <!--
 **[!UICONTROL 5. Web tracking]**
 
-* **[!UICONTROL Visited pages]** : Number of web pages visited following message reception.
-* **[!UICONTROL Transactions]** : Number of purchases following message reception.
-* **[!UICONTROL Total amount]** : Total amount of purchases following message reception. 
-* **[!UICONTROL Average transaction amount]** : Average purchase made by distinct delivery recipients. 
-* **[!UICONTROL Articles]** : Number of articles purchased by the delivery recipients. 
-* **[!UICONTROL Average count of articles per transaction]** : Average number of items per purchase made by distinct recipients.
-* **[!UICONTROL Average amount per message]** : Average amount of purchases generated per message.
+* **[!UICONTROL Visited pages]**: Number of web pages visited following message reception.
+* **[!UICONTROL Transactions]**: Number of purchases following message reception.
+* **[!UICONTROL Total amount]**: Total amount of purchases following message reception. 
+* **[!UICONTROL Average transaction amount]**: Average purchase made by distinct delivery recipients. 
+* **[!UICONTROL Articles]**: Number of articles purchased by the delivery recipients. 
+* **[!UICONTROL Average count of articles per transaction]**: Average number of items per purchase made by distinct recipients.
+* **[!UICONTROL Average amount per message]**: Average amount of purchases generated per message.
 
   >[!NOTE]
   >
@@ -125,21 +125,21 @@ You can configure the contents of this report by selecting: the score chart to b
 
 The following rates are displayed in the upper section of the report:
 
-* **[!UICONTROL Reactivity]** : Ratio of the number of targeted recipients having clicked in a delivery, in relation to the estimated number of targeted recipients having opened a delivery. Clicks on the opt-out link and on the mirror page are not taken into account.
+* **[!UICONTROL Reactivity]**: Ratio of the number of targeted recipients having clicked in a delivery, in relation to the estimated number of targeted recipients having opened a delivery. Clicks on the opt-out link and on the mirror page are not taken into account.
 
   >[!NOTE]
   >
   >For more information on tracking opens, refer to [this section](metrics-calculation.md#tracking-opens-).
 
-* **[!UICONTROL Distinct clicks]** : Number of distinct people having clicked at least once (excluding unsubscription link and mirror page) in a delivery. The rate displayed is calculated based on the number of messages delivered successfully. 
-* **[!UICONTROL Cumulated clicks]** : Total number of clicks by targeted recipients (excluding unsubscription link and mirror page). The rate displayed is calculated based on the number of messages forwarded successfully.
+* **[!UICONTROL Distinct clicks]**: Number of distinct people having clicked at least once (excluding unsubscription link and mirror page) in a delivery. The rate displayed is calculated based on the number of messages delivered successfully. 
+* **[!UICONTROL Cumulated clicks]**: Total number of clicks by targeted recipients (excluding unsubscription link and mirror page). The rate displayed is calculated based on the number of messages forwarded successfully.
 
-**[!UICONTROL Platform average]** : This average rate, displayed under each rate (reactivity, distinct clicks, and cumulated clicks), is calculated for deliveries sent over the previous six months. Only deliveries with the same typology and on the same channel are taken into account. Proofs are excluded.
+**[!UICONTROL Platform average]**: This average rate, displayed under each rate (reactivity, distinct clicks, and cumulated clicks), is calculated for deliveries sent over the previous six months. Only deliveries with the same typology and on the same channel are taken into account. Proofs are excluded.
 
 The central table provides the following information:
 
-* **[!UICONTROL Clicks]** : Number of cumulated clicks, per link. 
-* **[!UICONTROL Clicks (in %)]** : Breakdown of the number of clicks per link, in relation to the total number of cumulated clicks.
+* **[!UICONTROL Clicks]**: Number of cumulated clicks, per link. 
+* **[!UICONTROL Clicks (in %)]**: Breakdown of the number of clicks per link, in relation to the total number of cumulated clicks.
 
 **[!UICONTROL Breakdown of clicks in time]**
 
@@ -157,7 +157,7 @@ Questo rapporto fornisce tutte le informazioni principali sulla consegna.
 Questa sezione presenta due indicatori:
 
 * **[!UICONTROL Initial population]**: numero totale di destinatari interessati dalla consegna.
-* inserire nell&#39;elenco Bloccati **[!UICONTROL Messages rejected by the rule]** : numero di indirizzi ignorati durante l&#39;analisi durante l&#39;applicazione delle regole di tipologia: indirizzo mancante, messo in quarantena, in fase di, ecc. <!--For more information on typology rules, refer to this [page](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).-->
+* inserire nell&#39;elenco Bloccati **[!UICONTROL Messages rejected by the rule]**: numero di indirizzi ignorati durante l&#39;analisi durante l&#39;applicazione delle regole di tipologia: indirizzo mancante, messo in quarantena, in fase di, ecc. <!--For more information on typology rules, refer to this [page](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).-->
 
 **[!UICONTROL Causes of exclusion]**
 
@@ -167,10 +167,10 @@ Il grafico centrale mostra il raggruppamento per regola dei messaggi rifiutati d
 
 Questa sezione include i seguenti indicatori:
 
-* **[!UICONTROL Messages to be delivered]** : numero totale di messaggi da consegnare dopo l’analisi della consegna.
+* **[!UICONTROL Messages to be delivered]**: numero totale di messaggi da consegnare dopo l&#39;analisi della consegna.
 * **[!UICONTROL Success]**: numero di messaggi elaborati correttamente. Il tasso associato è il rapporto con il numero di messaggi da consegnare.
-* **[!UICONTROL Errors]** : numero totale di errori cumulativi durante le consegne ed elaborazione automatica del rebound. Il tasso associato è il rapporto con il numero di messaggi da consegnare.
-* **[!UICONTROL New quarantines]** : numero di indirizzi messi in quarantena a seguito di una consegna non riuscita (utente sconosciuto, dominio non valido). Il tasso associato è il rapporto con il numero di messaggi da consegnare.
+* **[!UICONTROL Errors]**: numero totale di errori accumulati durante le consegne ed elaborazione automatica del rebound. Il tasso associato è il rapporto con il numero di messaggi da consegnare.
+* **[!UICONTROL New quarantines]**: numero di indirizzi messi in quarantena a seguito di una consegna non riuscita (utente sconosciuto, dominio non valido). Il tasso associato è il rapporto con il numero di messaggi da consegnare.
 
 ## Hot click {#hot-clicks}
 
@@ -192,7 +192,7 @@ Questo rapporto fornisce una tabella di valori e un grafico Pareto che mostra il
 * **[!UICONTROL Opens]**: stima del tempo necessario per raggiungere una percentuale del numero totale di messaggi aperti. Le e-mail in formato testo non vengono prese in considerazione. [Ulteriori informazioni](metrics-calculation.md#tracking-opens-).
 * **[!UICONTROL Clicks]**: stima del tempo necessario per raggiungere una percentuale del numero totale di clic registrati. I clic sul collegamento di rinuncia e sulla pagina speculare non vengono presi in considerazione.
 <!--
-* **[!UICONTROL Transactions]** : Time required to achieve a percentage of the total number of transactions following message reception. In order for a transaction to be taken into account, a transaction type webtracking tag must be inserted into the matching web page. Webtracking configuration is presented in [this section](../../configuration/using/about-web-tracking.md).
+* **[!UICONTROL Transactions]**: Time required to achieve a percentage of the total number of transactions following message reception. In order for a transaction to be taken into account, a transaction type webtracking tag must be inserted into the matching web page. Webtracking configuration is presented in [this section](../../configuration/using/about-web-tracking.md).
 -->
 
 
