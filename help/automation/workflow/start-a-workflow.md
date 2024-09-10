@@ -6,9 +6,9 @@ feature: Workflows
 level: Beginner
 role: User, Admin
 exl-id: 6d9789e3-d721-4ffd-b3fb-a0c522ab1c0a
-source-git-commit: ab6c16af7652f2e8dbfa5c899c2152cefb7fc7c6
+source-git-commit: d292c20e520b2466f782ccf86eb9d61e01915563
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1136'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Il pulsante **[!UICONTROL Actions]** della barra degli strumenti consente di acc
 
   >[!CAUTION]
   >
-  >Questa opzione è riservata agli utenti esperti.
+  >L’arresto incondizionato è limitato agli utenti amministratori.
 
 * **[!UICONTROL Restart]**
 
@@ -107,7 +107,7 @@ Migliora la stabilità dell’istanza implementando le seguenti best practice:
 
 * **Interrompere i flussi di lavoro inutilizzati**. I flussi di lavoro in esecuzione gestiscono le connessioni al database.
 
-* **Utilizzare l&#39;interruzione incondizionata solo nei casi più rari**. Non utilizzi questa azione regolarmente. La mancata esecuzione di una chiusura pulita delle connessioni generate dai flussi di lavoro al database influisce sulle prestazioni.
+* **Utilizzare l&#39;interruzione incondizionata solo nei casi più rari**. Questa opzione è riservata agli utenti amministratori. Non utilizzi questa azione regolarmente. La mancata esecuzione di una chiusura pulita delle connessioni generate dai flussi di lavoro al database influisce sulle prestazioni.
 
 * **Non eseguire più richieste di arresto nello stesso flusso di lavoro**. L’arresto di un flusso di lavoro è un processo asincrono: la richiesta viene registrata, quindi il server o i server del flusso di lavoro annullano le operazioni in corso. L&#39;arresto di un&#39;istanza del flusso di lavoro può quindi richiedere tempo, soprattutto se il flusso di lavoro è in esecuzione su più server, ognuno dei quali deve assumere il controllo per annullare le attività in corso. Per evitare problemi, attendi il completamento dell’operazione di arresto ed evita di arrestare più volte un flusso di lavoro.
 

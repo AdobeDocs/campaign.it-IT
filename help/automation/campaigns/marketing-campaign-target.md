@@ -5,9 +5,9 @@ description: Scopri come definire il pubblico delle campagne di marketing
 feature: Campaigns, Audiences
 role: User
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: d292c20e520b2466f782ccf86eb9d61e01915563
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1470'
 ht-degree: 0%
 
 ---
@@ -165,6 +165,10 @@ Le icone della barra degli strumenti consentono di intervenire sull’esecuzione
   È possibile interrompere incondizionatamente il flusso di lavoro facendo clic sull&#39;icona **[!UICONTROL Actions]** e selezionando **[!UICONTROL Unconditional]** Interrompi. Questa azione interrompe il flusso di lavoro della campagna.
 
   ![](assets/stop_unconditional.png)
+
+  >[!CAUTION]
+  >
+  >L’arresto incondizionato è limitato agli utenti amministratori.
 
 ## Aggiungere un gruppo di controllo {#add-a-control-group}
 
