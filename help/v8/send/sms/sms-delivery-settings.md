@@ -5,13 +5,13 @@ feature: SMS
 role: User
 level: Beginner, Intermediate
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: a184a29301f2bd739bc3fd1373fc8cfad58f0393
+exl-id: c4d500ef-2339-491f-9ae2-9bfaf72088a9
+source-git-commit: 8dffc24ff859ded70ea9c5b9ede39512c1543e74
 workflow-type: tm+mt
 source-wordcount: '893'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
-
 
 # Impostazioni di consegna SMS {#sms-settings}
 
@@ -55,12 +55,12 @@ Queste sono le informazioni necessarie per compilare il modulo. Ogni campo è sp
 
 * **[!UICONTROL Transmission mode]**
 
-Questo campo indica il tipo di SMS che desideri trasferire: messaggi normali o flash, memorizzati sul cellulare o sulla scheda SIM. Questa impostazione viene trasmessa nel campo facoltativo dest_addr_subunit nella PDU SUBMIT_SM.
+  Questo campo indica il tipo di SMS che desideri trasferire: messaggi normali o flash, memorizzati sul cellulare o sulla scheda SIM. Questa impostazione viene trasmessa nel campo facoltativo dest_addr_subunit nella PDU SUBMIT_SM.
 
-* **Flash** imposta il valore su 1. Invia un messaggio flash che viene visualizzato sul dispositivo mobile e non viene memorizzato.
-* **Normal** imposta il valore su 0. Invia un messaggio normale.
-* **Salva su dispositivo mobile** imposta il valore su 2. Indica al telefono di memorizzare l’SMS nella memoria interna.
-* **Salva nel terminale** imposta il valore su 3. Indica al telefono di memorizzare l’SMS nella scheda SIM.
+   * **Flash** imposta il valore su 1. Invia un messaggio flash che viene visualizzato sul dispositivo mobile e non viene memorizzato.
+   * **Normal** imposta il valore su 0. Invia un messaggio normale.
+   * **Salva su dispositivo mobile** imposta il valore su 2. Indica al telefono di memorizzare l’SMS nella memoria interna.
+   * **Salva nel terminale** imposta il valore su 3. Indica al telefono di memorizzare l’SMS nella scheda SIM.
 
 * **[!UICONTROL Priority, Communication type]**
 
