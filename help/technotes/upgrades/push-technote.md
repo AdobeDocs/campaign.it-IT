@@ -8,9 +8,9 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="Applicabile anche a Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Applicabile a Campaign v8"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: dffe082d5e31eda4ecfba369b92d8a2d441fca04
+source-git-commit: e7f0f20deb930be2a3b2f798f70d17644c646fb6
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1633'
 ht-degree: 1%
 
 ---
@@ -91,7 +91,7 @@ Per spostare l’ambiente in HTTP v1, effettua le seguenti operazioni:
 >
 >Dopo aver applicato queste modifiche in tutto il server, tutte le **nuove** consegne di notifiche push ai dispositivi Android utilizzano l&#39;API HTTP v1. Le consegne push esistenti in un nuovo tentativo, in corso e in uso utilizzano ancora l’API HTTP (legacy). Scopri come aggiornarli nella sezione seguente.
 
-### Aggiornare i modelli esistenti {#fcm-transition-update}
+#### Aggiornare i modelli esistenti {#fcm-transition-update}
 
 Al termine della transizione HTTP v1, devi aggiornare i **modelli di consegna** per le notifiche push di Android per aumentare il numero di messaggi batch. A questo scopo, sfoglia le proprietà del modello di consegna Android e, nella scheda **Consegna**, imposta la [quantità batch messaggi](../../v8/send/configure-and-send.md#delivery-batch-quantity) su **256**. Applica questa modifica a tutti i modelli di consegna utilizzati per le consegne Android e a tutte le consegne Android esistenti.
 
@@ -99,16 +99,16 @@ Puoi anche aggiornare le consegne e i modelli di consegna esistenti creati prima
 
 * In qualità di cliente di Cloud Service gestiti o in hosting, contatta l’Adobe per aggiornare i modelli di consegna Android esistenti.
 
-* Per gli ambienti on-premise, scarica ed esegui lo script `fcm-httpv1-migration.js` come descritto di seguito.
+* Per gli ambienti locali, scaricare lo script `fcm-httpv1-migration.js` ed eseguirlo come descritto di seguito.
 
-  Scarica [fcm-httpv1-migration.js](assets/do-not-localize/fcm-httpv1-migration.js)
+  Scarica [fcm-httpv1-migration.zip](assets/do-not-localize/fcm-httpv1-migration.zip)
 
   >[!CAUTION]
   >
   >Lo script deve essere eseguito negli ambienti Marketing, Mid-Sourcing e Real-Time.
 
 
-  +++Passaggi per aggiornare consegne e modelli esistenti
+  +++Passaggi per aggiornare consegne e modelli esistenti (solo on-premise)
 
   Per applicare una patch a tutti i modelli di consegne e consegne creati prima dell’aggiornamento a una versione che supporta HTTP v1, effettua le seguenti operazioni:
 
