@@ -5,9 +5,9 @@ user-guide-description: Documentazione di prodotto per Adobe Campaign v8 (consol
 title: Documentazione di Adobe Campaign v8
 description: Documentazione di Campaign v8
 breadcrumb-title: Documentazione di Campaign v8
-source-git-commit: 8ff207246bea1f476b37b1d4f2c79498362e7481
+source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '677'
 ht-degree: 93%
 
 ---
@@ -207,7 +207,7 @@ ht-degree: 93%
       + [Integrare gli SDK di Campaign con la tua app - PAGINA OBSOLETA](config/push-config.md)
       + [Account esterni](config/external-accounts.md)
 + Risorse per sviluppatori {#developer}
-   + [Modello dati di Campaign](dev/datamodel.md)
+   + [Modello dati della campagna](dev/datamodel.md)
    + Schemi e moduli {#shemas-forms}
       + [Utilizzare gli schemi](dev/schemas.md)
       + [Creare gli schemi](dev/create-schema.md)

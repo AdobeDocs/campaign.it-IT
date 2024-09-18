@@ -5,9 +5,9 @@ feature: Data Model
 role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '706'
 ht-degree: 5%
 
 ---
@@ -43,7 +43,7 @@ Quando si inizia con Adobe Campaign, è necessario valutare il modello dati pred
 * [Estendere una tabella esistente](extend-schema.md) con nuovi campi. Ad esempio, puoi aggiungere un nuovo campo &quot;Fedeltà&quot; alla tabella Destinatario.
 * [Creare una nuova tabella](create-schema.md), ad esempio una tabella &quot;Acquisti&quot; in cui sono elencati tutti gli acquisti effettuati da ciascun profilo del database e collegarla alla tabella Destinatario.
 
-Scopri le best practice per l’utilizzo del modello dati di Campaign in [questa sezione](datamodel-best-practices.md).
+Scopri le best practice per l&#39;utilizzo del modello dati di Campaign in [questa sezione](datamodel-best-practices.md).
 
 ## Tabella profilo incorporata {#ootb-profiles}
 

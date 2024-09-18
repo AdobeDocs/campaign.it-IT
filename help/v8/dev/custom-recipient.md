@@ -5,9 +5,9 @@ feature: Custom Resources, Profiles, Configuration
 role: User, Developer
 level: Intermediate, Experienced
 exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '128'
 ht-degree: 3%
 
 ---
@@ -16,6 +16,6 @@ ht-degree: 3%
 
 Adobe Campaign viene fornito con una tabella di profilo integrata: **nmsRecipient**. Questa tabella contiene una serie di campi e tabelle predefiniti che possono essere facilmente estesi. Ulteriori informazioni su questa tabella sono disponibili in [questa pagina](datamodel.md#ootb-profiles).
 
-L’estensione di tabella incorporata offre flessibilità, ma non consente di rimuovere alcuni campi o collegamenti non utilizzati. Di conseguenza, l’utilizzo di una tabella dei destinatari personalizzata può essere una buona opzione quando il modello dati è notevolmente diverso dalla struttura della tabella dei destinatari incorporata in Campaign o se disponi di un numero elevato di profili.  Tuttavia, questo metodo richiede alcune precauzioni durante la sua applicazione.
+L’estensione di tabella incorporata offre flessibilità, ma non consente di rimuovere alcuni campi o collegamenti non utilizzati. Di conseguenza, l’utilizzo di una tabella dei destinatari personalizzata può essere una buona opzione quando il modello di dati è notevolmente diverso dalla struttura integrata della tabella dei destinatari di Campaign o se disponi di un numero elevato di profili.  Tuttavia, questo metodo richiede alcune precauzioni durante la sua applicazione.
 
 Scopri come configurare la tua istanza per utilizzare una tabella dei destinatari personalizzata nella documentazione di [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/use-a-custom-recipient-table/about-custom-recipient-table.html){target="_blank"}.
