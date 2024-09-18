@@ -8,9 +8,9 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="Applicabile anche a Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Applicabile a Campaign v8"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: a6a1af4e0255a2fec359c415cbbf45da2e4baf67
+source-git-commit: aba0048e5aff1caa2067eb61d26548b08a3deb36
 workflow-type: tm+mt
-source-wordcount: '1633'
+source-wordcount: '1664'
 ht-degree: 1%
 
 ---
@@ -48,15 +48,19 @@ Per verificare se sei interessato, puoi filtrare i **Servizi e abbonamenti** in 
 
 #### Prerequisiti {#fcm-transition-prerequisites}
 
-* Per Campaign Classic v7, il supporto di HTTP v1 è stato aggiunto nella versione 20.3.1. Se l&#39;ambiente è in esecuzione su una versione precedente, un prerequisito per la transizione a HTTP v1 è aggiornare l&#39;ambiente alla [build Campaign Classic più recente](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. Per Campaign v8, HTTP v1 è supportato da tutte le versioni e non è necessario alcun aggiornamento.
-
 * Il file JSON dell&#39;account del servizio Android Firebase Admin SDK è necessario per spostare l&#39;app mobile su HTTP v1. Scopri come ottenere questo file nella [documentazione di Google Firebase](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
-* Per le distribuzioni ibride, in hosting e Managed Services, oltre alla procedura di transizione riportata di seguito, contatta l’Adobe per aggiornare il server di esecuzione in tempo reale (RT). Il server Mid-Sourcing non è interessato.
+* Per Campaign Classic v7, il supporto di HTTP v1 è stato aggiunto nella versione 20.3.1. Se l&#39;ambiente è in esecuzione su una versione precedente, un prerequisito per la transizione a HTTP v1 è aggiornare l&#39;ambiente alla [build Campaign Classic più recente](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. Per Campaign v8, HTTP v1 è supportato da tutte le versioni e non è necessario alcun aggiornamento.
 
-* In qualità di utente on-premise di Campaign Classic v7, devi aggiornare sia il server di esecuzione Marketing che il server di esecuzione in tempo reale. Il server Mid-Sourcing non è interessato.
+* In qualità di utente on-premise di Campaign Classic v7, devi aggiornare sia il server di esecuzione Marketing che il server di esecuzione in tempo reale.
 
-* In qualità di utente on-premise o ibrido di Campaign Classic v7, verifica che l&#39;account esterno di indirizzamento di Android sia configurato con `androidPushConnectorV2.js`. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android)
+* Per le distribuzioni di Cloud Service ibridi, in hosting e gestiti, oltre alla procedura di transizione riportata di seguito, contatta l’Adobe per aggiornare il server di esecuzione in tempo reale (RT).
+
+* Informazioni sull’account esterno di indirizzamento di Android:
+
+   * In qualità di utente on-premise o ibrido di Campaign Classic v7, verifica che l&#39;account esterno di indirizzamento di Android sia configurato con `androidPushConnectorV2.js`. Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}.
+
+   * Per le distribuzioni di Cloud Service ibridi, in hosting e gestiti, è inoltre necessario connettersi con il team dell&#39;Assistenza clienti Adobe per verificare che il connettore `androidPushConnectorV2.js (nms)` sia selezionato nell&#39;account esterno di indirizzamento Android del server Mid sourcing.
 
 #### Procedura di transizione {#fcm-transition-steps}
 
@@ -105,7 +109,7 @@ Puoi anche aggiornare le consegne e i modelli di consegna esistenti creati prima
 
   >[!CAUTION]
   >
-  >Lo script deve essere eseguito negli ambienti Marketing, Mid-Sourcing e Real-Time.
+  >Lo script deve essere eseguito nell’istanza Marketing.
 
 
   +++Passaggi per aggiornare consegne e modelli esistenti (solo on-premise)
