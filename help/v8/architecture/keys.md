@@ -5,9 +5,9 @@ feature: Configuration, FFDA
 role: Developer
 level: Intermediate
 exl-id: ef06cb6b-1b25-4dbe-8fd0-f880ec9d645b
-source-git-commit: 202a0553f0c736086eca993b9647737732f57d07
+source-git-commit: 9d500f185a9e706b6558135978c4f8c79d92d0d4
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '572'
 ht-degree: 3%
 
 ---
@@ -55,7 +55,7 @@ Una notifica specifica viene inviata al gruppo di operatori **[!UICONTROL Workfl
 ![](assets/wf-alert-activity.png)
 
 
-## Guardrail aggiuntivi{#duplicates-guardrails}
+## Guardrail aggiuntivi {#duplicates-guardrails}
 
 Campaign viene fornito con un set di nuovi guardrail per impedire l&#39;inserimento di chiavi duplicate nel database [!DNL Snowflake].
 
@@ -63,19 +63,19 @@ Campaign viene fornito con un set di nuovi guardrail per impedire l&#39;inserime
 >
 >Queste protezioni sono disponibili a partire da Campaign v8.3. Per verificare la versione, consulta [questa sezione](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
-### Preparazione della consegna{#remove-duplicates-delivery-preparation}
+### Preparazione della consegna {#remove-duplicates-delivery-preparation}
 
 Adobe Campaign rimuove automaticamente qualsiasi UUID duplicato da un pubblico durante la preparazione della consegna. Questo meccanismo impedisce che si verifichino errori durante la preparazione di una consegna. In qualità di utente finale, puoi controllare queste informazioni nei registri di consegna: alcuni destinatari possono essere esclusi dal target principale a causa di una chiave duplicata. In tal caso, verrà visualizzato il seguente avviso: `Exclusion of duplicates (based on the primary key or targeted records)`.
 
 ![](assets/exclusion-duplicates-log.png)
 
-### Aggiornare i dati in un flusso di lavoro{#duplicates-update-data}
+### Aggiornare i dati in un flusso di lavoro {#duplicates-update-data}
 
 Nel contesto di una distribuzione [Enterprise (FFDA)](enterprise-deployment.md), non è possibile selezionare una chiave interna (UUID) come campo per aggiornare i dati in un flusso di lavoro.
 
 ![](assets/update-data-no-internal-key.png)
 
-### Eseguire una query su uno schema con duplicati{#query-with-duplicates}
+### Eseguire una query su uno schema con duplicati {#query-with-duplicates}
 
 Quando un flusso di lavoro avvia l&#39;esecuzione di una query su uno schema, Adobe Campaign controlla se nella [tabella Controllo unicità](#unicity-wf) sono riportati record duplicati. In tal caso, il flusso di lavoro registra un avviso, poiché l’operazione successiva sui dati duplicati potrebbe influire sui risultati del flusso di lavoro.
 
@@ -86,3 +86,8 @@ Questo controllo viene eseguito nelle seguenti attività del flusso di lavoro:
 * Query
 * Incremental Query
 * Lettura di un elenco
+
+
+>[!NOTE]
+>
+>Se stai passando da un’altra versione di Campaign, è fondamentale rimuovere i duplicati, risolvere i problemi e bonificare i dati per evitare di influire sulla transizione.

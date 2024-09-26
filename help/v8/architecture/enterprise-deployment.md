@@ -5,9 +5,9 @@ feature: Architecture, FFDA, Deployment
 role: Admin, Developer
 level: Beginner
 exl-id: 0a6f6701-b137-4320-9732-31946509ee03
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 9d500f185a9e706b6558135978c4f8c79d92d0d4
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1050'
 ht-degree: 50%
 
 ---
@@ -82,7 +82,7 @@ Il database PostgreSQL nell’istanza di mid-sourcing viene utilizzato per:
 
 ### Meccanismo di staging API [!DNL Campaign]{#staging-api}
 
-Con il database cloud [!DNL Campaign], le chiamate unitarie blast non sono consigliate a causa delle prestazioni (latenza e concorrenza). L&#39;operazione batch è sempre preferibile. Al fine di garantire prestazioni ottimali delle API, Campaign continua a gestire le chiamate API a livello di database locale.
+Con il database cloud [!DNL Campaign], le chiamate unitarie blast non sono consigliate a causa delle prestazioni (latenza e concorrenza). A meno che non invii volumi di invio elevati, è necessario utilizzare le operazioni batch per garantire prestazioni ottimali delle API, Campaign continua a gestire le chiamate API a livello di database locale.
 
 [Il meccanismo di staging API è descritto in questa pagina](staging.md)
 
