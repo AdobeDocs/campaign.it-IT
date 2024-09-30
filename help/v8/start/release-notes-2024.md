@@ -3,7 +3,7 @@ title: Note sulla versione 2023 di Campaign v8 (console)
 description: Elenco delle funzioni e dei miglioramenti introdotti con le versioni v8 di Campaign 2023
 feature: Release Notes
 exl-id: 6a0a9486-19a9-4ec3-9030-48dbf419f45f
-source-git-commit: 07e0bfdade0356eedb24641259aa754fdb1c6155
+source-git-commit: fb7abba9009591a2757c07f584c0a7c59c6eb01a
 workflow-type: tm+mt
 source-wordcount: '1016'
 ht-degree: 91%
@@ -46,7 +46,7 @@ _2 maggio 2024_
 >
 >Questa versione è in **Disponibilità limitata** (LA). È limitata ai clienti che eseguono la migrazione **da Adobe Campaign Standard ad Adobe Campaign v8** e non possono essere distribuiti in nessun altro ambiente.
 >
->In qualità di utente Campaign Standard che passa a Campaign v8, scopri di più su questa transizione nella [Documentazione sull’interfaccia web di Campaign v8](https://experienceleague.adobe.com/it/docs/campaign-web/v8/release-notes/acs-migration){target="_blank"}.
+>In qualità di utente Campaign Standard che passa a Campaign v8, scopri di più su questa transizione nella [Documentazione sull’interfaccia web di Campaign v8](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration){target="_blank"}.
 
 ### Nuove funzioni {#new-8-7-1}
 
