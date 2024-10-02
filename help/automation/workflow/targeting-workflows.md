@@ -3,7 +3,7 @@ title: Creare flussi di lavoro di targeting
 description: Scopri come creare tipi di pubblico target in un flusso di lavoro
 feature: Query Editor, Data Management
 exl-id: 27be9d5a-168c-470e-a480-f3c71858fc75
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: 122d78e310e66d5f354ffbc86c27a2fbff007447
 workflow-type: tm+mt
 source-wordcount: '2252'
 ht-degree: 7%
@@ -106,7 +106,7 @@ Nelle attività di tipo **[!UICONTROL Union]** o **[!UICONTROL Intersection]**, 
 
 ![](assets/use-common-add-data-only.png)
 
-### Riconcilia con dati aggiuntivi {#reconciliation-with-additional-data}
+### Riconciliare con dati aggiuntivi {#reconciliation-with-additional-data}
 
 Durante le fasi di riconciliazione dei dati (**[!UICONTROL Union]**, **[!UICONTROL Intersection]**, ecc.) attività), è possibile selezionare le colonne da utilizzare per la riconciliazione dei dati dalle colonne aggiuntive. A questo scopo, configura una riconciliazione su una selezione di colonne e specifica il set principale. Selezionare quindi le colonne nella colonna inferiore della finestra, come illustrato nell&#39;esempio seguente:
 
