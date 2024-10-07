@@ -5,9 +5,9 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: 99cb937a475997aae714a67b1f9f91c6bae932f4
+source-git-commit: 9ce5acd97e077105316c81029e3ccbc6fa4389dc
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '520'
 ht-degree: 17%
 
 ---
@@ -64,7 +64,7 @@ Scopri come gestire la privacy e il consenso nella [documentazione di Adobe Camp
 
 **Argomenti correlati**
 
-* [Progetta ed esegui un flusso di lavoro specifico per la campagna](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/campaign-workflows.html){target="_blank"}
+* [Progetta ed esegui un flusso di lavoro specifico per la campagna](../../automation/workflow/campaign-workflows.md){target="_blank"}
 
 * [Scopri come selezionare il pubblico di una campagna](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=it){target="_blank"}
 
