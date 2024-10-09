@@ -6,9 +6,9 @@ title: Documentazione di Adobe Campaign v8
 description: Documentazione di Campaign v8
 breadcrumb-title: Documentazione di Campaign v8
 source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '677'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -58,13 +58,13 @@ ht-degree: 93%
          + [Istanza autonoma](send/sms/sms-standalone-instance.md)
          + [Infrastruttura mid-sourcing](send/sms/sms-mid-sourcing.md)
          + [Descrizione connettore SMPP](send/sms/smpp-connector-delivery.md)
-      + Crea un SMS {#create-sms}
-         + [Impostazioni di consegna SMS](send/sms/sms-delivery-settings.md)
+      + Creare un SMS{#create-sms}
+         + [Impostazioni sulla consegna SMS](send/sms/sms-delivery-settings.md)
          + [Definire il contenuto](send/sms/sms-content.md)
          + [Selezionare il pubblico](send/sms/sms-audience.md)
-      + Convalida e invia SMS {#validate-sms}
-         + [Invia bozze SMS](send/sms/sms-proofs.md)
-         + [Invia al pubblico](send/sms/sms-send.md)
+      + Convalidare e inviare SMS {#validate-sms}
+         + [Inviare bozze SMS](send/sms/sms-proofs.md)
+         + [Inviare al pubblico](send/sms/sms-send.md)
       + [Monitorare e tenere traccia degli SMS](send/sms/sms-monitor.md)
    + Notifiche push {#push}
       + [Creare e inviare notifiche push](send/push.md)
@@ -207,7 +207,7 @@ ht-degree: 93%
       + [Integrare gli SDK di Campaign con la tua app - PAGINA OBSOLETA](config/push-config.md)
       + [Account esterni](config/external-accounts.md)
 + Risorse per sviluppatori {#developer}
-   + [Modello dati della campagna](dev/datamodel.md)
+   + [Modello dati di Campaign](dev/datamodel.md)
    + Schemi e moduli {#shemas-forms}
       + [Utilizzare gli schemi](dev/schemas.md)
       + [Creare gli schemi](dev/create-schema.md)

@@ -6,9 +6,9 @@ role: User
 level: Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1148'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -96,7 +96,7 @@ Prima di iniziare a inviare messaggi e creare campagne di marketing, devi:
 
    Ulteriori informazioni sulle tipologie e sulla gestione dell’eccesso sono disponibili in [questa sezione](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=it){target="_blank"}.
 
-1. **Acquisisci familiarità con il modello dati integrato di Campaign**
+1. **Acquisisci familiarità con il modello dati incorporato di Campaign**
 
    Adobe Campaign viene fornito con un modello dati predefinito. Per implementare e personalizzare l’ambiente, è necessario avere familiarità con le tabelle integrate del modello dati di Adobe Campaign e con le rispettive relazioni.
 
@@ -110,7 +110,7 @@ Puoi personalizzare diverse aree e funzionalità di Campaign. La maggior parte d
 
    Adobe Campaign include schemi comuni per identificare dati quali: destinatari, registri di consegna, abbonamenti e altro ancora.
 
-   Fai riferimento a questa sezione per ulteriori informazioni su [Modello dati integrato di Campaign](../dev/datamodel.md).
+   Per ulteriori informazioni sul [modello dati incorporato in Campaign](../dev/datamodel.md), consulta questa sezione.
 
    Puoi estendere gli schemi esistenti o creare nuovi schemi da zero. Per ulteriori informazioni, consulta [questa pagina](../dev/customize.md).
 
