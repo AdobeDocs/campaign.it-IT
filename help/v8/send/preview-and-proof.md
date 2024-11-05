@@ -5,7 +5,7 @@ feature: Personalization
 role: User
 level: Beginner
 exl-id: 5b9fa90c-c23e-47a7-b2ca-de75da4da2ab
-source-git-commit: 19c42bcd2a96173f3d33e3e259192107b5e64c6c
+source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 3%
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarlo in anteprima e testarlo. Se hai inserito [contenuto personalizzato](personalize.md), puoi verificare come viene visualizzato nel messaggio utilizzando i dati del profilo di test. Inoltre, per rilevare eventuali errori nel contenuto del messaggio o nelle impostazioni di personalizzazione, invia bozze ai profili di test. Per convalidare il contenuto più recente, è necessario inviare una bozza ogni volta che viene apportata una modifica.
 
-## Anteprima contenuto{#preview-content}
+## Anteprima contenuto {#preview-content}
 
 Prima di inviare le bozze, una best practice consiste nel controllare il contenuto del messaggio nella sezione di anteprima della finestra di consegna.
 
@@ -68,7 +68,7 @@ Per impostazione predefinita, la sostituzione viene eseguita in modo casuale, ma
 
 * Utilizzare l&#39;opzione **[!UICONTROL Specific target and Seed addresses]** per combinare indirizzi seed e indirizzi e-mail specifici. Le configurazioni correlate vengono quindi definite in due schede secondarie separate.
 
-### Inviare una bozza{#proofs-send}
+### Inviare una bozza {#proofs-send}
 
 Per inviare bozze dei messaggi, effettua le seguenti operazioni:
 
@@ -88,7 +88,7 @@ Si consiglia di inviare le bozze dopo ogni modifica al contenuto del messaggio.
 >
 >Nella bozza inviata, il collegamento alla pagina speculare non è attivo. Viene attivato solo nei messaggi finali.
 
-### Proprietà bozza{#proofs-properties}
+### Proprietà bozza {#proofs-properties}
 
 Le proprietà della bozza sono impostate nella scheda **[!UICONTROL Advanced]** delle finestre delle proprietà di consegna. Passa al collegamento **[!UICONTROL Proof properties...]** per definire i parametri e l&#39;etichetta delle bozze. Puoi scegliere di mantenere:
 

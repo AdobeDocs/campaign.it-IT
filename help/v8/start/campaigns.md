@@ -5,14 +5,14 @@ feature: Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 100%
+source-wordcount: '770'
+ht-degree: 92%
 
 ---
 
-# Introduzione alle campagne{#gs-ac-campaigns}
+# Introduzione alle campagne {#gs-ac-campaigns}
 
 Adobe Campaign offre un serie di soluzioni che consentono di personalizzare e distribuire campagne su tutti i canali online e offline. Puoi creare, configurare, eseguire e analizzare campagne di marketing. Tutte le campagne di marketing possono essere gestite da un centro di controllo unificato. Scopri come sfogliare e creare campagne di marketing in questa sezione.
 
@@ -78,11 +78,9 @@ I passaggi principali per creare una campagna di marketing cross-channel sono i 
 
    ![](assets/campaign-dashboard.png)
 
-   Scopri come creare e avviare le consegne delle campagne di marketing in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=it){target="_blank"}.
+   Scopri come creare e avviare le consegne delle campagne di marketing in [questa pagina](../../automation/campaigns/marketing-campaign-deliveries.md).
 
-   È possibile associare vari documenti a una campagna: rapporti, foto, pagine web, diagrammi, ecc.
-
-   Ulteriori informazioni sui documenti associati sono disponibili in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-assets.html?lang=it){target="_blank"}.
+   È possibile associare vari documenti a una campagna: report, foto, pagina web, diagramma, ecc. Ulteriori informazioni sui documenti associati in [questa pagina](../../automation/campaigns/marketing-campaign-assets.md).
 
 1. **Impostare il processo di approvazione**
 
@@ -93,7 +91,7 @@ I passaggi principali per creare una campagna di marketing cross-channel sono i 
 
 ## Componente aggiuntivo Marketing distribuito{#distributed-marketing-add-on}
 
-Adobe Campaign offre il componente aggiuntivo **Marketing distribuito** per l’implementazione di campagne di cooperazione tra enti centrali (sedi centrali, dipartimenti di marketing, ecc.) ed enti locali (negozi, agenzie regionali, ecc.). Questa cooperazione si basa su un’area di lavoro condivisa nota come **[!UICONTROL List of campaign packages]**, in cui i modelli di campagna progettati da entità centrali vengono offerti agli enti locali.
+Adobe Campaign offre il componente aggiuntivo **Marketing distribuito** per l&#39;implementazione di campagne di cooperazione tra entità centrali (sedi centrali, dipartimenti di marketing, ecc.) ed entità locali (negozi, agenzie regionali, ecc.). Questa cooperazione si basa su un’area di lavoro condivisa nota come **[!UICONTROL List of campaign packages]**, in cui i modelli di campagna progettati da entità centrali vengono offerti agli enti locali.
 
 >[!NOTE]
 >

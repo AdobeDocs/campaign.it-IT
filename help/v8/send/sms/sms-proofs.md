@@ -4,18 +4,17 @@ description: Scopri come inviare bozze di una consegna SMS
 feature: SMS
 role: User
 level: Beginner, Intermediate
-badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: a184a29301f2bd739bc3fd1373fc8cfad58f0393
+exl-id: d2ec4d92-7f00-47c8-98e6-0613d6387de0
+source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '243'
 ht-degree: 0%
 
 ---
 
-
 # Inviare una prova di una consegna SMS {#sms-proof}
 
-L’Adobe consiglia vivamente di impostare un ciclo di convalida della consegna. Assicurati che il contenuto sia approvato prima di inviarlo al pubblico.
+Adobe consiglia vivamente di impostare un ciclo di convalida della consegna. Assicurati che il contenuto sia approvato prima di inviarlo al pubblico.
 
 Puoi inviare una bozza per la consegna SMS per convalidarla:
 

@@ -5,7 +5,7 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: 878b5963-100c-4dd7-97a0-c59a62c493b1
-source-git-commit: 79d916c4d65c0c55ec20f2f5850fec40fe4e99a3
+source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
 workflow-type: tm+mt
 source-wordcount: '928'
 ht-degree: 1%
@@ -31,8 +31,6 @@ Gli indirizzi di seed vengono aggiunti al target delle consegne importando o cre
 >Gli indirizzi di seed non vengono creati nella tabella dei destinatari, ma in una tabella separata. Se estendi la tabella dei destinatari con nuovi dati, devi estendere anche la tabella degli indirizzi di seed con gli stessi dati. In caso contrario, i campi estesi non verranno presi in considerazione per gli indirizzi seed.
 >
 >Un esempio di come estendere la tabella degli indirizzi di seed è presentato nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case--selecting-seed-addresses-on-criteria.html){target="_blank"}.
-
-
 
 ## Creare indirizzi seed
 

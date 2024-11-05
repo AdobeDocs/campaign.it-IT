@@ -5,7 +5,7 @@ description: Ulteriori informazioni sulle consegne delle campagne di marketing
 feature: Campaigns, Resource Management, Cross Channel Orchestration
 role: User
 exl-id: 1d9638cb-0fc9-4d04-a9c5-bcab8f4ebe95
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 1%
@@ -24,9 +24,9 @@ Puoi aggiungere consegne alle campagne di marketing in due modi:
 
 * Dal collegamento **[!UICONTROL Add a delivery]** nel dashboard della campagna.
 
-![](assets/campaign_op_add_delivery.png)
+  ![](assets/campaign_op_add_delivery.png)
 
-Una volta salvata, la consegna viene aggiunta al dashboard della campagna.
+  Una volta salvata, la consegna viene aggiunta al dashboard della campagna.
 
 * Da un flusso di lavoro della campagna, nella scheda **[!UICONTROL Targeting and workflows]**, aggiungendo la consegna.
 
