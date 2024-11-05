@@ -5,9 +5,9 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: cf292ecd7d30862d7d195536ecc5be709fe037b3
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '522'
 ht-degree: 10%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 10%
 # Progettazione e invio di e-mail
 
 Le consegne di e-mail ti consentono di inviare e-mail personalizzate alla popolazione target. [Ulteriori informazioni](../send/send.md)
+
+Scopri i passaggi chiave per creare e configurare una consegna in [questa pagina](../start/create-message.md).
 
 ## Creare la prima consegna e-mail
 
