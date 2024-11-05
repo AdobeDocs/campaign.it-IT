@@ -5,7 +5,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: cf292ecd7d30862d7d195536ecc5be709fe037b3
+source-git-commit: 1bf3c4b2d0c8d9b1bdbc82a9047c52c0d80cd997
 workflow-type: tm+mt
 source-wordcount: '1525'
 ht-degree: 4%
@@ -28,7 +28,7 @@ Potrai quindi preparare, testare, inviare e monitorare i messaggi.
 
 >[!NOTE]
 >
->I passaggi descritti in questa sezione presuppongono che tutti i destinatari di destinazione e i relativi profili siano memorizzati nel database, ad eccezione del caso di consegna esterna (vedere [Selezione di destinatari esterni](steps-defining-the-target-population.md#selecting-external-recipients)).
+>I passaggi descritti in questa sezione presuppongono che tutti i destinatari e i loro profili siano memorizzati nel database, tranne nel caso di consegna esterna. Vedere [Selezione di destinatari esterni](#selecting-external-recipients).
 
 ## Creare la consegna {#create-the-delivery}
 
@@ -40,7 +40,7 @@ Per creare una consegna, segui questi passaggi:
 
    Per ogni canale installato viene fornito un modello incorporato: direct mailing, e-mail, telefono, canale mobile (SMS), X (Twitter), ecc. I canali disponibili nell’elenco dipendono dal contratto di licenza.
 
-   Puoi creare nuovi modelli di consegna per preconfigurare parametri specifici in base alle tue esigenze. Per ulteriori informazioni sui modelli, consultare [questa sezione](about-templates.md).
+   Puoi creare nuovi modelli di consegna per preconfigurare parametri specifici in base alle tue esigenze. Per ulteriori informazioni sui modelli, consultare [questa sezione](../send/create-templates.md).
 
 1. Immettere un nome per la consegna nel campo **[!UICONTROL Label]**.
 
@@ -74,7 +74,7 @@ Inoltre, nel contesto di una campagna di marketing, puoi aggiungere:
 
 ### Selezionare i destinatari principali della consegna {#select-the-main-target}
 
-Nella maggior parte dei casi, il target principale viene estratto dal database di Adobe Campaign (modalità predefinita). Tuttavia, i destinatari possono anche essere archiviati in un [file esterno](steps-defining-the-target-population.md#selecting-external-recipients).
+Nella maggior parte dei casi, il target principale viene estratto dal database di Adobe Campaign (modalità predefinita). Tuttavia, i destinatari possono anche essere archiviati in un [file esterno](#selecting-external-recipients).
 
 Per selezionare i destinatari di una consegna, segui i passaggi seguenti:
 
@@ -157,7 +157,7 @@ Sono disponibili le seguenti opzioni:
 
 * **[!UICONTROL Exclude duplicate addresses during delivery]**: questa opzione è attiva per impostazione predefinita e rimuove gli indirizzi e-mail duplicati durante la consegna. La strategia applicata può variare a seconda del modo in cui Adobe Campaign viene utilizzato e del tipo di dati nel database. Il valore dell’opzione può essere configurato per ogni modello di consegna.
 * **[!UICONTROL Exclude recipients who no longer want to be contacted]** , ovvero i destinatari i cui indirizzi e-mail si trovano in fase di inserisce nell&#39;elenco Bloccati (opt out) di. Questa opzione deve rimanere selezionata per rispettare l&#39;etica professionale dell&#39;e-marketing.
-* **[!UICONTROL Exclude quarantined recipients]**: questa opzione consente di escludere dal target i profili con un indirizzo messo in quarantena. Si consiglia vivamente di mantenere selezionata questa opzione. Ulteriori informazioni sulla gestione della quarantena in [questa sezione](understanding-quarantine-management.md).
+* **[!UICONTROL Exclude quarantined recipients]**: questa opzione consente di escludere dal target i profili con un indirizzo messo in quarantena. Si consiglia vivamente di mantenere selezionata questa opzione. Ulteriori informazioni sulla gestione della quarantena in [questa sezione](../send/quarantines.md).
 * **[!UICONTROL Limit delivery]** a un determinato numero di messaggi. Questa opzione consente di immettere il numero massimo di messaggi da inviare. Se il pubblico di destinazione supera il numero di messaggi indicati, viene applicata una selezione casuale. Per inviare tutti i messaggi, mantieni questo valore su &quot;0&quot;.
 * **[!UICONTROL Keep duplicate records (same identifier)]**: questa opzione consente di inviare più consegne a destinatari che soddisfano diversi criteri di targeting.
 
