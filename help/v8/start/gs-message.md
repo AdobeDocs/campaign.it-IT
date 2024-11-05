@@ -4,9 +4,9 @@ description: Introduzione ai messaggi
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+source-git-commit: 0ff645a87700c038b78fb4cc45062822d6d97148
 workflow-type: tm+mt
-source-wordcount: '1307'
+source-wordcount: '1305'
 ht-degree: 88%
 
 ---
@@ -17,7 +17,7 @@ Con Adobe Campaign, puoi inviare campagne cross-channel tra cui e-mail, SMS, not
 
 Le funzionalità di base includono il targeting, la definizione e la personalizzazione dei messaggi, l’esecuzione di comunicazioni e i relativi rapporti operativi.
 
-## Creare una consegna {#gs-ac-delivery}
+## Casi d’uso {#gs-ac-delivery}
 
 Per inviare messaggi, devi creare una consegna. La modalità di creazione della consegna dipende dal caso d’uso.
 
@@ -147,7 +147,7 @@ Ad esempio, se esegui questo tipo di attività una volta al mese, ti ritroverai 
 
 Le consegne continue vengono create all’interno dei flussi di lavoro tramite l’[attività Consegna continua](../../automation/workflow/continuous-delivery.md).
 
-## Aggiungere la personalizzazione{#personalization}
+## Aggiungere la personalizzazione {#personalization}
 
 I messaggi consegnati da Adobe Campaign possono essere personalizzati in vari modi. [Ulteriori informazioni sulle funzionalità di personalizzazione](../send/personalize.md)
 
@@ -158,7 +158,7 @@ I messaggi consegnati da Adobe Campaign possono essere personalizzati in vari mo
 * Creare contenuto condizionale. [Ulteriori informazioni](../send/conditions.md)
 
 
-## Registri di consegna e di tracciamento{#gs-tracking-logs}
+## Inviare e tracciare {#gs-tracking-logs}
 
 Il monitoraggio delle consegne dopo l’invio è un passaggio fondamentale per garantire l’efficienza delle campagne di marketing e l’effettivo raggiungimento dei clienti. Puoi monitorare una consegna, oltre a capire come vengono gestiti errori e quarantene.
 
