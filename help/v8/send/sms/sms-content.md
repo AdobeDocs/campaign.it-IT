@@ -1,38 +1,40 @@
 ---
-title: Gli SMS definiscono il contenuto
-description: Scopri come impostare il contenuto di una consegna SMS
+title: Definire e personalizzare il contenuto degli SMS
+description: Scopri come definire e personalizzare il contenuto di una consegna SMS
 feature: SMS
 role: User
 level: Beginner, Intermediate
 exl-id: 71d9376c-86e8-41ec-92dc-863455d40c7a
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+source-git-commit: 0ef082b49261d0d2de5a6891a4a7f0cf5aafa221
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
 
-# Contenuto SMS {#sms-content}
+# Definire il contenuto dell’SMS {#sms-content}
 
 Per configurare il contenuto della consegna SMS:
 
-1. Immettere il contenuto del messaggio nella procedura guidata **[!UICONTROL Text content]**
+1. Immettere il contenuto del messaggio nella scheda **[!UICONTROL Text content]**.
 
    ![](assets/sms_content.png){zoomable="yes"}
 
-1. Puoi personalizzare il messaggio inserendo campi di personalizzazione (ad esempio, aggiungendo il nome) o blocchi di personalizzazione predefiniti (ad esempio, aggiungendo i saluti). Puoi fare clic sul pulsante di personalizzazione per aggiungere questi:
+1. Puoi personalizzare il messaggio inserendo campi di personalizzazione (ad esempio, aggiungendo il nome) o blocchi di personalizzazione predefiniti (ad esempio, aggiungendo i saluti). Fai clic sul pulsante di personalizzazione per aggiungere questi:
 
    ![](assets/sms_perso.png){zoomable="yes"}
 
-   Dopo aver fatto clic su **[!UICONTROL Recipient]** > **[!UICONTROL First name]**, la personalizzazione sarà simile alla seguente:
+   Ad esempio, dopo aver fatto clic su **[!UICONTROL Recipient]** > **[!UICONTROL First name]**, il contenuto dell&#39;SMS viene aggiornato con il campo di personalizzazione, come segue:
 
    ![](assets/sms_perso_recipient.png){zoomable="yes"}
 
-1. Per visualizzare l&#39;anteprima della consegna, andare nella scheda **[!UICONTROL Preview]**, fare clic sull&#39;elenco a discesa **[!UICONTROL Test personalization]** e scegliere un destinatario nella tabella **[!UICONTROL Recipient]**.
+   Ulteriori informazioni sulla personalizzazione in Adobe Campaign in [questa sezione](../personalize.md).
+
+1. È possibile visualizzare in anteprima il contenuto della consegna dalla scheda **[!UICONTROL Preview]**. Per verificare le impostazioni di personalizzazione, fare clic sull&#39;elenco a discesa **[!UICONTROL Test personalization]** e selezionare un destinatario.
 
    ![](assets/sms_preview.png){zoomable="yes"}
 
-   Avrai l’anteprima del tuo SMS con la personalizzazione:
+   Puoi controllare l’anteprima del tuo SMS con la personalizzazione:
 
    ![](assets/sms_preview_phone.png){zoomable="yes"}
 

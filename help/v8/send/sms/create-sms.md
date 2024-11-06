@@ -4,10 +4,10 @@ description: Scopri come creare una consegna SMS
 feature: SMS
 role: User
 level: Beginner, Intermediate
-source-git-commit: 826abd5c5f8b191d34abf724b91c5a82665d00a2
+source-git-commit: 0ef082b49261d0d2de5a6891a4a7f0cf5aafa221
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 6%
+source-wordcount: '170'
+ht-degree: 4%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 6%
 
 Per creare una nuova consegna SMS, segui i passaggi seguenti:
 
-1. Crea una nuova consegna e seleziona il modello di consegna SMS creato per gli invii SMS. [Ulteriori informazioni](sms-mid-sourcing.md#sms-delivery-template).
+1. Crea una nuova consegna e seleziona il [modello di consegna SMS](sms-mid-sourcing.md#sms-delivery-template) creato per le invii SMS.
 
    ![](assets/sms_create.png){zoomable="yes"}
 
-   Ulteriori informazioni sui passaggi di creazione della consegna in [questa pagina](../../start/create-message.md).
+   I passaggi per la creazione della consegna sono descritti in [questa pagina](../../start/create-message.md).
 
 <!-- * For standalone instance,  [learn more here](sms-standalone-instance.md#sms-delivery-template).
 * For mid-sourcing infrastructure, -->
@@ -31,7 +31,7 @@ Per creare una nuova consegna SMS, segui i passaggi seguenti:
 
 1. È possibile archiviare il pulsante **[!UICONTROL Properties]** in modo che tutto sia configurato in base alle esigenze. [Ulteriori informazioni sulla scheda SMS](sms-delivery-settings.md#sms-tab)
 
-![](assets/sms_settings.png){zoomable="yes"}
+   ![](assets/sms_settings.png){zoomable="yes"}
 
 1. [Definisci il contenuto](sms-content.md) della consegna.
 
