@@ -5,9 +5,9 @@ user-guide-description: Documentazione di prodotto per Adobe Campaign v8 (consol
 title: Documentazione di Adobe Campaign v8
 description: Documentazione di Campaign v8
 breadcrumb-title: Documentazione di Campaign v8
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+source-git-commit: 826abd5c5f8b191d34abf724b91c5a82665d00a2
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '685'
 ht-degree: 99%
 
 ---
@@ -53,6 +53,7 @@ ht-degree: 99%
    + SMS {#sms}
       + [Introduzione agli SMS](send/sms/sms.md)
       + Configurare il canale SMS {#config-sms}
+         + [Impostazioni sulla consegna SMS](send/sms/sms-delivery-settings.md)
          + [Impostazioni account esterno SMPP](send/sms/smpp-external-account.md)
          + [Caratteristiche del canale SMS](send/sms/sms-channel.md)
          + [Convalida di una connessione SMPP](send/sms/smpp-connection.md)
@@ -60,7 +61,7 @@ ht-degree: 99%
          + [Infrastruttura mid-sourcing](send/sms/sms-mid-sourcing.md)
          + [Descrizione connettore SMPP](send/sms/smpp-connector-delivery.md)
       + Creare un SMS{#create-sms}
-         + [Impostazioni sulla consegna SMS](send/sms/sms-delivery-settings.md)
+         + [Creare una consegna SMS](send/sms/create-sms.md)
          + [Definire il contenuto](send/sms/sms-content.md)
          + [Selezionare il pubblico](send/sms/sms-audience.md)
       + Convalidare e inviare SMS {#validate-sms}

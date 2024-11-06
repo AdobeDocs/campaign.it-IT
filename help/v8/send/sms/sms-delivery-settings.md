@@ -6,10 +6,10 @@ role: User
 level: Beginner, Intermediate
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: c4d500ef-2339-491f-9ae2-9bfaf72088a9
-source-git-commit: 8dffc24ff859ded70ea9c5b9ede39512c1543e74
+source-git-commit: 826abd5c5f8b191d34abf724b91c5a82665d00a2
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 1%
+source-wordcount: '787'
+ht-degree: 0%
 
 ---
 
@@ -23,13 +23,12 @@ ht-degree: 1%
 
 Le impostazioni tecniche necessarie per una consegna SMS sono:
 
-* Routing: [account esterno SMPP](smpp-external-account.md#smpp-connection-settings)
-
-* [Il ](#sms-tab)
+* L’account esterno SMPP per il routing dei messaggi. [Ulteriori informazioni](smpp-external-account.md#smpp-connection-settings)
+* Configura la scheda SMS. [Scopri come](#sms-tab)
 
 Puoi impostarli tutti in un modello di consegna per evitare di eseguire le impostazioni per ogni creazione di consegna SMS.
 
-## Configura scheda **[!UICONTROL SMS]** {#sms-tab}
+## Configurare la scheda SMS {#sms-tab}
 
 ![](assets/send_settings.png){zoomable="yes"}
 
@@ -97,25 +96,3 @@ Nella tabella sono elencati i parametri facoltativi da inviare con ogni messaggi
   >
   >I formati binari sono sempre codificati in formato big-endian.
 
-## Creare una consegna SMS {#sms-delivery}
-
-Per creare una nuova consegna SMS, segui i passaggi seguenti:
-
-1. Creare una nuova consegna, ad esempio dal dashboard di consegna o nella cartella Consegna in **[!UICONTROL Explorer]**.  Per impostazione predefinita, è etichettato come &quot;Email delivery&quot;.
-
-1. Seleziona il modello di consegna creato per gli invii SMS. [Ulteriori informazioni](sms-mid-sourcing.md#sms-delivery-template).
-
-   ![](assets/sms_create.png){zoomable="yes"}
-
-<!-- * For standalone instance,  [learn more here](sms-standalone-instance.md#sms-delivery-template).
-* For mid-sourcing infrastructure, -->
-
-1. Rinomina la consegna nel campo **[!UICONTROL Label]** e aggiungi le informazioni nel campo **[!UICONTROL Delivery code]** e nell&#39;elenco **[!UICONTROL Nature]**, se necessario, per il tracciamento. Puoi anche aggiungere **[!UICONTROL Description]** alla consegna.
-
-1. Fare clic sul pulsante **[!UICONTROL Continue]**. Ora nella consegna sono presenti tutte le impostazioni del modello.
-
-1. È possibile archiviare il pulsante **[!UICONTROL Properties]** in modo che tutto sia configurato in base alle esigenze. [Ulteriori informazioni sulla scheda SMS](#sms-tab)
-
-![](assets/sms_settings.png){zoomable="yes"}
-
-Ora puoi configurare il [contenuto SMS](sms-content.md).
