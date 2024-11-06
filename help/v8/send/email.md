@@ -5,10 +5,10 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: cf292ecd7d30862d7d195536ecc5be709fe037b3
+source-git-commit: 5b2638927e39b6f839fb3a8639fe106d2c519fbf
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 10%
+source-wordcount: '521'
+ht-degree: 11%
 
 ---
 
@@ -18,7 +18,7 @@ Le consegne di e-mail ti consentono di inviare e-mail personalizzate alla popola
 
 Scopri i passaggi chiave per creare e configurare una consegna in [questa pagina](../start/create-message.md).
 
-## Creare la prima consegna e-mail
+## Creare una consegna e-mail
 
 Crea e-mail personalizzate e contestualmente pertinenti, coerenti con il resto dell’esperienza del cliente.
 
