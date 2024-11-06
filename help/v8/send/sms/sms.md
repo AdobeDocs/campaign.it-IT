@@ -5,7 +5,7 @@ feature: SMS
 role: User, Data Engineer
 level: Beginner
 exl-id: e2e2922a-2058-4588-b1b5-6997f29ee663
-source-git-commit: 5b2638927e39b6f839fb3a8639fe106d2c519fbf
+source-git-commit: bb77b915f50b31d8d91e25da6fa86aa15b03bba4
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 17%
@@ -14,13 +14,13 @@ ht-degree: 17%
 
 # Introduzione agli SMS {#gs-sms-channel}
 
-Adobe Campaign ti consente di inviare [SMS](../send/sms/sms.md) personalizzati sui dispositivi mobili.
+Adobe Campaign ti consente di inviare SMS personalizzati sui dispositivi mobili.
 
 Per i messaggi SMS, puoi creare, modificare e personalizzare i messaggi solo in formato testo. Puoi anche visualizzare in anteprima i messaggi SMS prima che vengano inviati.
 
 >[!NOTE]
 >
->Puoi anche utilizzare Adobe Campaign per inviare [LINE](../send/line.md) messaggi, con testo e/o immagini e collegamenti.
+>Puoi anche utilizzare Adobe Campaign per inviare [LINE](../../send/line.md) messaggi, con testo e/o immagini e collegamenti.
 
 Per inviare SMS a un telefono cellulare con Adobe Campaign, è necessario:
 
