@@ -5,10 +5,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: ad96c126836981f861c246eafa2ec7d2c0e179dc
+source-git-commit: 55b752713a29c035680dd39e42422b1743e15269
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 4%
+source-wordcount: '1525'
+ht-degree: 3%
 
 ---
 
@@ -176,15 +176,12 @@ Una bozza è un messaggio specifico che ti consente di testare un messaggio prim
 
 Per ulteriori informazioni sui destinatari e sull&#39;invio di bozze, consulta [questa sezione](../send/preview-and-proof.md#send-proofs).
 
-![](../send/assets/do-not-localize/how-to-video.png) [Guarda il video su questa funzione](#seeds-and-proofs-video)
-
 
 #### Video tutorial {#seeds-and-proofs-video}
 
 Questo video illustra come aggiungere seed e bozze a un’e-mail esistente e come inviarla.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333404?quality=12)
-
 
 Sono disponibili altri video dimostrativi di Campaign Classic [qui](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=it).
 
@@ -200,7 +197,7 @@ Per eseguire questa operazione:
 
 >[!IMPORTANT]
 >
->I due passaggi precedenti DEVONO ESSERE eseguiti dopo ogni modifica sul contenuto del messaggio.
+>I due passaggi sopra **devono essere** eseguiti dopo ogni modifica al contenuto del messaggio.
 
 
 ## Configurare e inviare la consegna {#configuring-and-sending-the-delivery}
