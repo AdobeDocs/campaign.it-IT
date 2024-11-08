@@ -4,7 +4,7 @@ description: Scopri le best practice per la progettazione e l’invio di consegn
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: b4fad76b43a77909a4ea2c0877527af80027681a
+source-git-commit: 10af828319569ad9aeeecc809bc213f9608791ac
 workflow-type: tm+mt
 source-wordcount: '2869'
 ht-degree: 3%
@@ -151,7 +151,7 @@ Il collegamento di annullamento dell’abbonamento è essenziale. Deve essere vi
 
 **Suggerimento**: poiché l&#39;errore umano è sempre possibile, verificare che il collegamento di rinuncia funzioni correttamente prima di ogni invio. Ad esempio, quando invii la bozza, accertati che il collegamento sia valido, che il modulo sia in linea e che il campo `No longer contact this recipient ` sia modificato in `Yes`.
 
-Scopri come inserire un collegamento di rinuncia [in questa sezione](personalization-blocks.md#personalization-blocks-example).
+Scopri come inserire un collegamento di rinuncia [in questa sezione](../send/personalization-blocks.md).
 
 ### Dimensione e-mail
 
@@ -328,7 +328,7 @@ Puoi definire un processo di convalida completo, che coinvolga operatori e grupp
 
 #### Usa ondate
 
-È possibile aumentare progressivamente il volume inviato mediante scaglioni. In questo modo i messaggi non verranno contrassegnati come spam o quando desideri limitare il numero di messaggi al giorno. Utilizzando le scaglioni è possibile suddividere le consegne in più batch anziché inviare contemporaneamente volumi elevati di messaggi. Per ulteriori informazioni, consulta [questa sezione](../send/configure-and-send.mdsending-using-multiple-waves).
+È possibile aumentare progressivamente il volume inviato mediante scaglioni. In questo modo i messaggi non verranno contrassegnati come spam o quando desideri limitare il numero di messaggi al giorno. Utilizzando le scaglioni è possibile suddividere le consegne in più batch anziché inviare contemporaneamente volumi elevati di messaggi. Per ulteriori informazioni, consulta [questa sezione](../send/configure-and-send.md#sending-using-multiple-waves).
 
 #### Assegnare priorità ai messaggi
 
