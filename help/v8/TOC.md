@@ -5,9 +5,9 @@ user-guide-description: Documentazione di prodotto per Adobe Campaign v8 (consol
 title: Documentazione di Adobe Campaign v8
 description: Documentazione di Campaign v8
 breadcrumb-title: Documentazione di Campaign v8
-source-git-commit: 826abd5c5f8b191d34abf724b91c5a82665d00a2
+source-git-commit: 3ac2976839f084761ba56647b282062d8d457ff2
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '688'
 ht-degree: 99%
 
 ---
@@ -44,6 +44,7 @@ ht-degree: 99%
 + Inviare messaggi{#send}
    + [Introduzione ai messaggi](start/gs-message.md)
    + [Creare la prima consegna](start/create-message.md)
+   + [Best practice per la consegna](start/delivery-best-practices.md)
    + E-mail {#emails}
       + [Progettare e convalidare le e-mail](send/email.md)
       + [Collegamento a una pagina mirror](send/mirror-page.md)

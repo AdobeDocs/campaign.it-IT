@@ -5,9 +5,9 @@ feature: Personalization
 role: User
 level: Beginner
 exl-id: 1da45746-4d69-415b-a793-9a08ce80091d
-source-git-commit: 6d54f072ad0e67b435cd6e03433fa9ddd0794dea
+source-git-commit: 3ac2976839f084761ba56647b282062d8d457ff2
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '471'
 ht-degree: 48%
 
 ---
@@ -47,7 +47,7 @@ Puoi personalizzare il contenuto del messaggio in diversi modi:
 
 ## Guardrail e raccomandazioni{#perso-guardrails}
 
-### Timeout di Personalization{#perso-timeout}
+### Timeout di Personalization {#perso-timeout}
 
 Per migliorare la protezione della consegna, puoi impostare un periodo di timeout per la fase di personalizzazione.
 
