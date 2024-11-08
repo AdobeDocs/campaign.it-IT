@@ -4,7 +4,7 @@ description: Scopri le best practice per la progettazione e l’invio di consegn
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: 3ac2976839f084761ba56647b282062d8d457ff2
+source-git-commit: b4fad76b43a77909a4ea2c0877527af80027681a
 workflow-type: tm+mt
 source-wordcount: '2869'
 ht-degree: 3%
@@ -117,7 +117,7 @@ Per ulteriori informazioni sui blocchi di personalizzazione, consulta [questa se
 
 Puoi preparare i dati di personalizzazione in un flusso di lavoro per migliorare l’analisi della preparazione della consegna. Questa deve essere utilizzata in modo particolare se i dati di personalizzazione provengono da una tabella esterna tramite Federated Data Access (FDA). Questa opzione è descritta in [questa sezione](../send/personalization-data.md#optimize-personalization)
 
-### Creare contenuti ottimizzati {#optimize-content}
+### Creare contenuti ottimizzati {#build-optimized-content}
 
 Durante la creazione delle e-mail, tieni presenti le best practice generali riportate di seguito:
 
