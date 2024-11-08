@@ -5,9 +5,9 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: 9ce5acd97e077105316c81029e3ccbc6fa4389dc
+source-git-commit: ad96c126836981f861c246eafa2ec7d2c0e179dc
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '497'
 ht-degree: 17%
 
 ---
@@ -41,7 +41,6 @@ Scopri come creare un pubblico in un flusso di lavoro della campagna in [questa 
 
 ## Profili attivi {#active-profiles}
 
-
 Un profilo attivo è un profilo con cui il cliente ha tentato di comunicare negli ultimi 12 mesi tramite qualsiasi canale.
 
 In base al contratto, a ciascuna istanza di Campaign viene fornito un numero specifico di profili attivi conteggiati a scopo di fatturazione. Fai riferimento al contratto più recente per informazioni sul numero di profili attivi acquistati. Ulteriori informazioni sono disponibili nella [descrizione del prodotto Adobe Campaign](https://helpx.adobe.com/it/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
@@ -55,17 +54,9 @@ Si applicano le seguenti protezioni e limitazioni:
 * I profili target nel contesto di Social marketing al Twitter X non vengono considerati come profili attivi.
 * Il conteggio si basa sulla chiave primaria del destinatario. Di conseguenza, se un profilo è presente in due diverse tabelle dei destinatari, può essere conteggiato due volte come profilo attivo.
 
-
 ## Privacy e consenso{#privacy-and-consent}
 
 Adobe Campaign è uno strumento utile per la raccolta e l’elaborazione di grandi volumi di dati, compresi informazioni personali e dati sensibili.  Adobe Campaign ti consente di raccogliere dati, incluse informazioni personali e riservate. È pertanto essenziale ricevere e monitorare il consenso dei destinatari.
 
 Scopri come gestire la privacy e il consenso nella [documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=it){target="_blank"}.
 
-**Argomenti correlati**
-
-* [Progetta ed esegui un flusso di lavoro specifico per la campagna](../../automation/workflow/campaign-workflows.md){target="_blank"}
-
-* [Scopri come selezionare il pubblico di una campagna](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=it){target="_blank"}
-
-* [Introduzione ai flussi di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=it){target="_blank"}

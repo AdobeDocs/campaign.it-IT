@@ -5,9 +5,9 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 1bf3c4b2d0c8d9b1bdbc82a9047c52c0d80cd997
+source-git-commit: ad96c126836981f861c246eafa2ec7d2c0e179dc
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1530'
 ht-degree: 4%
 
 ---
@@ -24,7 +24,7 @@ I passaggi chiave durante la creazione di una consegna una tantum sono i seguent
 
 1. **Selezionare la popolazione target**. [Ulteriori informazioni](#target-population)
 
-Potrai quindi preparare, testare, inviare e monitorare i messaggi.
+Puoi quindi preparare, testare, inviare e monitorare i messaggi con Adobe Campaign.
 
 >[!NOTE]
 >
@@ -34,13 +34,14 @@ Potrai quindi preparare, testare, inviare e monitorare i messaggi.
 
 Per creare una consegna, segui questi passaggi:
 
-1. Fai clic su **[!UICONTROL Create]** sopra l&#39;elenco delle consegne. Quando crei una nuova consegna, devi selezionare il canale di consegna. A tale scopo, selezionare il modello di consegna appropriato dall&#39;elenco a discesa nel campo **[!UICONTROL Delivery template]**.
+1. Individuare l&#39;elenco delle consegne e fare clic su **[!UICONTROL Create]**.
+1. Seleziona il canale di consegna. A questo scopo, scegli il modello di consegna appropriato dall’elenco a discesa.
 
    ![](../send/assets/select-the-new-template.png)
 
-   Per ogni canale installato viene fornito un modello incorporato: direct mailing, e-mail, telefono, canale mobile (SMS), X (Twitter), ecc. I canali disponibili nell’elenco dipendono dal contratto di licenza.
+   Per ogni canale installato viene fornito un modello incorporato: e-mail, telefono, canali mobili (push/SMS), direct mail, X (Twitter), ecc. I canali disponibili nell’elenco dipendono dal contratto di licenza.
 
-   Puoi creare nuovi modelli di consegna per preconfigurare parametri specifici in base alle tue esigenze. Per ulteriori informazioni sui modelli, consultare [questa sezione](../send/create-templates.md).
+   Puoi creare nuovi modelli di consegna per preconfigurare parametri specifici in base alle tue esigenze.  [Ulteriori informazioni](../send/create-templates.md).
 
 1. Immettere un nome per la consegna nel campo **[!UICONTROL Label]**.
 
@@ -48,7 +49,7 @@ Per creare una consegna, segui questi passaggi:
 
 1. (facoltativo) Aggiungere una descrizione nel campo **[!UICONTROL Description]**.
 1. (facoltativo) seleziona la natura della consegna nel campo pertinente. Queste informazioni sono utili per il tracciamento della consegna: puoi filtrare in base a questo criterio nell’elenco di consegna o creare query utilizzando questo criterio di selezione.
-1. Fare clic su **[!UICONTROL Continue]** per confermare queste informazioni e visualizzare la finestra di configurazione del messaggio.
+1. Fare clic su **[!UICONTROL Continue]** per visualizzare la finestra del contenuto del messaggio.
 
 ## Definire il contenuto della consegna {#content-of-the-delivery}
 
@@ -126,7 +127,7 @@ Per selezionare i destinatari di una consegna, segui i passaggi seguenti:
 
    ![](assets/target-remove-criterion.png)
 
-#### Seleziona destinatari esterni {#selecting-external-recipients}
+### Seleziona destinatari esterni {#selecting-external-recipients}
 
 Puoi inviare messaggi ai profili che non sono memorizzati nel database, ma in un file esterno. Ad esempio, per inviare una consegna a destinatari importati da un file di testo, effettua le seguenti operazioni:
 
@@ -141,25 +142,31 @@ Puoi inviare messaggi ai profili che non sono memorizzati nel database, ma in un
 
 >[!CAUTION]
 >
->Quando definisci il contenuto del messaggio per la consegna e-mail, non includere il collegamento alla pagina speculare: non può essere generato in questa modalità di consegna.
+>Quando definisci il contenuto del messaggio per la consegna e-mail a destinatari esterni, non includere il collegamento alla pagina speculare: non può essere generato in questa modalità di consegna.
 
-#### Definire le impostazioni di esclusione {#define-exclusion-settings}
+### Impostazioni di esclusione {#define-exclusion-settings}
 
-Quando si definisce la destinazione di una consegna, viene utilizzata la scheda **[!UICONTROL Exclusions]** per limitare il numero di messaggi. I parametri predefiniti sono consigliati, ma puoi adattare le impostazioni in base alle tue esigenze. Tuttavia, queste opzioni devono essere modificate solo da un utente esperto per evitare abusi ed errori.
+Quando si definisce il pubblico [di una consegna](#target-population), viene utilizzata la scheda **[!UICONTROL Exclusions]** per limitare il numero di messaggi. I parametri predefiniti sono consigliati, ma puoi adattare le impostazioni in base alle tue esigenze. Tuttavia, queste opzioni devono essere modificate solo da un utente esperto per evitare abusi ed errori.
 
-Puoi scegliere di escludere gli indirizzi che hanno raggiunto un certo numero di errori consecutivi o la cui valutazione della qualità è inferiore a una soglia specificata in questa finestra. Puoi anche scegliere se autorizzare o meno gli indirizzi non qualificati per i quali non sono stati restituiti dati.
+>[!CAUTION]
+>
+>In qualità di utente esperto, per casi d’uso specifici puoi modificare queste impostazioni, ma Adobe consiglia di mantenere la configurazione predefinita.
 
-Fare clic sul collegamento **[!UICONTROL Edit...]** per modificare la configurazione predefinita.
+Puoi escludere gli indirizzi che hanno raggiunto un certo numero di errori consecutivi o la cui valutazione della qualità è inferiore a una soglia specificata in questa finestra. Puoi anche scegliere se autorizzare o meno gli indirizzi non qualificati per i quali non sono stati restituiti dati.
+
+Per modificare la configurazione predefinita, fare clic sul collegamento **[!UICONTROL Edit...]**.
 
 ![](assets/target-exclusion-settings.png)
 
-Sono disponibili le seguenti opzioni:
++++ Visualizza le opzioni disponibili
 
 * **[!UICONTROL Exclude duplicate addresses during delivery]**: questa opzione è attiva per impostazione predefinita e rimuove gli indirizzi e-mail duplicati durante la consegna. La strategia applicata può variare a seconda del modo in cui Adobe Campaign viene utilizzato e del tipo di dati nel database. Il valore dell’opzione può essere configurato per ogni modello di consegna.
 * **[!UICONTROL Exclude recipients who no longer want to be contacted]** , ovvero i destinatari i cui indirizzi e-mail si trovano in fase di inserisce nell&#39;elenco Bloccati (opt out) di. Questa opzione deve rimanere selezionata per rispettare l&#39;etica professionale dell&#39;e-marketing.
 * **[!UICONTROL Exclude quarantined recipients]**: questa opzione consente di escludere dal target i profili con un indirizzo messo in quarantena. Si consiglia vivamente di mantenere selezionata questa opzione. Ulteriori informazioni sulla gestione della quarantena in [questa sezione](../send/quarantines.md).
 * **[!UICONTROL Limit delivery]** a un determinato numero di messaggi. Questa opzione consente di immettere il numero massimo di messaggi da inviare. Se il pubblico di destinazione supera il numero di messaggi indicati, viene applicata una selezione casuale. Per inviare tutti i messaggi, mantieni questo valore su &quot;0&quot;.
 * **[!UICONTROL Keep duplicate records (same identifier)]**: questa opzione consente di inviare più consegne a destinatari che soddisfano diversi criteri di targeting.
++++
+
 
 ### Selezionare i destinatari dei messaggi di bozza {#select-the-proof-target}
 
