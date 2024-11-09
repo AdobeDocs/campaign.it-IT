@@ -4,9 +4,10 @@ description: Scopri le best practice per la progettazione e l’invio di consegn
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: 10af828319569ad9aeeecc809bc213f9608791ac
+exl-id: cb6094eb-0010-4c62-9589-3b52fd60c2c2
+source-git-commit: 61c86c3c9d6dbbabf2d5174b8b7b1721b38280cb
 workflow-type: tm+mt
-source-wordcount: '2869'
+source-wordcount: '2890'
 ht-degree: 3%
 
 ---
@@ -44,7 +45,7 @@ Per ulteriori informazioni su come avviare una nuova piattaforma, consulta la [G
 I consigli tecnici sono elencati in [questa sezione](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations){target="_blank"}.
 
 
-**Suggerimenti**
++++ **Leggi alcune best practice**
 
 * Se disponi di un elenco di indirizzi non validi, Adobe consiglia di importarlo nella tabella di quarantena tramite **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** > **[!UICONTROL Non deliverables and addresses]**.
 
@@ -52,6 +53,9 @@ I consigli tecnici sono elencati in [questa sezione](https://experienceleague.ad
 Adobe Campaign gestisce gli indirizzi errati in base al tipo di errore restituito. [Ulteriori informazioni sulle quarantene](../send/quarantines.md)
 
 * Alcuni provider di accesso a Internet considerano automaticamente le e-mail come spam se la percentuale di indirizzi non validi è troppo elevata. La quarantena consente quindi di evitare che questi provider aggiungano altri elementi al elenco Bloccati del sistema di protezione.
+
++++
+
 
 
 ### Doppio meccanismo di consenso {#double-opt-in}
@@ -74,6 +78,8 @@ Assicurati di applicare le seguenti linee guida:
 * Un indirizzo con formato non corretto può comportare il rifiuto da parte del server ricevente. Devi accertarti che sia stato fornito un indirizzo corretto.
 * L’indirizzo deve identificare esplicitamente il mittente. Il dominio deve essere di proprietà del mittente e deve essere registrato nel mittente.
 * Adobe consiglia di creare account e-mail corrispondenti agli indirizzi specificati per le consegne e le risposte. Rivolgiti all’amministratore del sistema di messaggistica.
+
++++ **Configurare gli indirizzi nell&#39;interfaccia utente di Campaign**
 
 Per configurare gli indirizzi nell’interfaccia di Campaign, effettua le seguenti operazioni:
 
@@ -119,7 +125,9 @@ Puoi preparare i dati di personalizzazione in un flusso di lavoro per migliorare
 
 ### Creare contenuti ottimizzati {#build-optimized-content}
 
-Durante la creazione delle e-mail, tieni presenti le best practice generali riportate di seguito:
+Quando crei le e-mail, applica le best practice generali per il contenuto delle e-mail.
+
++++ **Leggi alcune best practice**
 
 * Design semplice
 
@@ -131,15 +139,24 @@ Durante la creazione delle e-mail, tieni presenti le best practice generali ripo
 
 * Codifica caratteri speciali
 
++++
+
+
 ### Oggetto
 
-Lavora sulla [riga dell&#39;oggetto](../send/personalization-fields.md#personalization-fields-uc) per migliorare i tassi di apertura:
+Utilizza l&#39;indirizzo e-mail [oggetto](../send/personalization-fields.md#personalization-fields-uc) per migliorare i tassi di apertura.
+
+
++++ **Leggi alcune best practice**
+
 
 * Evitare soggetti troppo lunghi. Usa massimo 50 caratteri
 
 * Evita di usare parole ripetitive come &quot;gratuito&quot; o &quot;offerta&quot;, che potrebbero essere considerate spam
 
 * Evita lettere maiuscole e caratteri speciali come &quot;!&quot;, &quot;£&quot;, &quot;€&quot;, &quot;$&quot;
+
++++
 
 ### Pagina mirror
 
@@ -149,15 +166,20 @@ Includi sempre un collegamento a una pagina speculare. La posizione preferita è
 
 Il collegamento di annullamento dell’abbonamento è essenziale. Deve essere visibile e valido e il modulo deve essere funzionale. Per impostazione predefinita, quando il messaggio viene analizzato, una regola di tipologia [ **[!UICONTROL Unsubscription link approval]** integrata](../../automation/campaign-opt/control-rules.md) controlla se è stato incluso un collegamento di rinuncia e, in caso contrario, genera un avviso.
 
-**Suggerimento**: poiché l&#39;errore umano è sempre possibile, verificare che il collegamento di rinuncia funzioni correttamente prima di ogni invio. Ad esempio, quando invii la bozza, accertati che il collegamento sia valido, che il modulo sia in linea e che il campo `No longer contact this recipient ` sia modificato in `Yes`.
-
 Scopri come inserire un collegamento di rinuncia [in questa sezione](../send/personalization-blocks.md).
+
++++ **Applica questa best practice**
+
+Poiché l’errore umano è sempre possibile, verifica che il collegamento di rinuncia funzioni correttamente prima di ogni invio. Ad esempio, quando invii la bozza, accertati che il collegamento sia valido, che il modulo sia in linea e che il campo `No longer contact this recipient ` sia modificato in `Yes`.
+
++++
 
 ### Dimensione e-mail
 
 Per evitare problemi di prestazioni o recapito messaggi, la dimensione massima consigliata per un&#39;e-mail è di circa **35KB**. Per verificare la dimensione del messaggio, sfogliare la scheda **[!UICONTROL Preview]** e scegliere un profilo di test. Una volta generata, la dimensione del messaggio viene visualizzata nell’angolo in alto a destra.
 
-Per mantenere l’e-mail entro il limite, considera quanto segue:
+
++++ **Leggi alcune best practice**
 
 * Rimuovi stili ridondanti o inutilizzati
 
@@ -167,19 +189,22 @@ Per mantenere l’e-mail entro il limite, considera quanto segue:
 
 Assicurati di verificare eventuali modifiche prima dell’invio finale.
 
++++
+
+
 ### Lunghezza SMS
 
 Per impostazione predefinita, il numero di caratteri in un SMS soddisfa gli standard GSM (Global System for Mobile Communications). I messaggi SMS che utilizzano la codifica GSM sono limitati a 160 caratteri o 153 caratteri per SMS per messaggi inviati in più parti.
 
 La traslitterazione consiste nel sostituire un carattere di un SMS con un altro quando tale carattere non è preso in considerazione dallo standard GSM. L’inserimento di campi di personalizzazione nel contenuto del messaggio SMS potrebbe introdurre caratteri che non vengono presi in considerazione dalla codifica GSM. Puoi autorizzare la traslitterazione di caratteri selezionando la casella corrispondente nella scheda Impostazioni canale SMPP del **[!UICONTROL External account]** corrispondente.
 
-**Suggerimenti**
++++ **Leggi alcune best practice**
 
 * Per mantenere invariati tutti i caratteri nei messaggi SMS, ad esempio per non modificare i nomi propri, non abilitare la traslitterazione.
 
-* Tuttavia, se i messaggi SMS contengono molti caratteri che non sono presi in considerazione dallo standard GSM, abilita la traslitterazione per limitare i costi di invio dei messaggi.
+* Tuttavia, se i messaggi SMS contengono molti caratteri che non sono presi in considerazione dallo standard GSM, abilita la traslitterazione per limitare i costi di invio dei messaggi. Per ulteriori informazioni, consulta [questa sezione](../send/sms/smpp-external-account.md#smpp-transliteration).
 
-Per ulteriori informazioni, consulta [questa sezione](../send/sms/smpp-external-account.md#smpp-transliteration).
++++
 
 ### Evita allegati
 
@@ -385,8 +410,7 @@ Dal dashboard di consegna di Campaign, puoi controllare i messaggi elaborati e i
 
 Per conoscere meglio il comportamento dei destinatari, puoi tenere traccia della loro reazione a una consegna: ricezione, apertura, clic su collegamenti, annullamenti di abbonamenti, ecc. In Campaign, queste informazioni vengono visualizzate nella scheda **Tracciamento** dei destinatari interessati dalla consegna e nella scheda Tracciamento della consegna.
 
-**Suggerimento**: il monitoraggio dei messaggi è abilitato per impostazione predefinita. Per configurare gli URL, seleziona l’opzione Visualizza URL nella sezione inferiore dell’assistente alla consegna. Per ogni URL del messaggio, puoi scegliere se attivare il tracciamento.
+Il tracciamento dei messaggi è abilitato per impostazione predefinita. Per configurare gli URL, seleziona l’opzione Visualizza URL nella sezione inferiore dell’assistente alla consegna. Per ogni URL del messaggio, puoi scegliere se attivare il tracciamento.
 
 
 [Ulteriori informazioni sulle funzionalità di tracciamento sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html#sending-messages){target="_blank"}
-
