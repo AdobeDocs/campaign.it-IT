@@ -5,7 +5,7 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 36033255-1e75-41c1-9816-126777f7330a
-source-git-commit: 2e9c9f8e677233b2906f6ebb8f42dd86afe4e111
+source-git-commit: 768ebf4b350da61f0076eb9e43a16246be3b2628
 workflow-type: tm+mt
 source-wordcount: '1193'
 ht-degree: 8%
@@ -83,9 +83,9 @@ Una regola di tipologia specifica, **[!UICONTROL Wave scheduling check]**, garan
 
 >[!IMPORTANT]
 >
->Assicurarsi che gli ultimi scaglioni non superino la scadenza della consegna, definita nella scheda **[!UICONTROL Validity]**. In caso contrario, alcuni messaggi potrebbero non essere inviati. Ulteriori informazioni sul periodo di validità di una consegna in [questa sezione](delivery-failures.md#valid-period).
+>* Assicurarsi che gli ultimi scaglioni non superino la scadenza della consegna, definita nella scheda **[!UICONTROL Validity]**. In caso contrario, alcuni messaggi potrebbero non essere inviati. Ulteriori informazioni sul periodo di validità di una consegna in [questa sezione](delivery-failures.md#valid-period).
 >
->È inoltre necessario impostare un tempo sufficiente per i nuovi tentativi durante la configurazione delle ultime ondate. Ulteriori informazioni sui nuovi tentativi in [questa sezione](delivery-failures.md#retries).
+>* È inoltre necessario impostare un tempo sufficiente per i nuovi tentativi durante la configurazione delle ultime ondate. Ulteriori informazioni sui nuovi tentativi in [questa sezione](delivery-failures.md#retries).
 
 ### Monitorare le ondate {#monitor-waves}
 
