@@ -5,16 +5,16 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: 5b2638927e39b6f839fb3a8639fe106d2c519fbf
+source-git-commit: 578f774152afbd42342da0f161b679ba9dd10c78
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 11%
+source-wordcount: '528'
+ht-degree: 10%
 
 ---
 
 # Progettazione e invio di e-mail
 
-Le consegne di e-mail ti consentono di inviare e-mail personalizzate alla popolazione target. [Ulteriori informazioni](../send/send.md)
+Con Adobe Campaign, crea consegne e-mail per inviare e-mail personalizzate alla popolazione target. [Ulteriori informazioni](../send/send.md)
 
 Scopri i passaggi chiave per creare e configurare una consegna in [questa pagina](../start/create-message.md).
 
@@ -85,15 +85,16 @@ Nell’esempio seguente, scoprirai i passaggi per progettare una consegna e-mail
 
 La prima consegna e-mail è pronta. Ora devi definire il pubblico, convalidare la consegna e inviarla.
 
-Scopri come importare un contenuto e-mail in questo [caso d&#39;uso](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}.
+Scopri come creare un flusso di lavoro per importare un contenuto e-mail in questo [caso d&#39;uso](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}.
 
-Per ulteriori informazioni, consulta le sezioni seguenti:
-
-<!--[Design an email in Campaign]-->
-* [Creare e utilizzare un modello e-mail](../send/create-templates.md)
-* [Selezionare il pubblico dell’e-mail](../audiences/gs-audiences.md)
-* [Convalidare una consegna e inviare le bozze](preview-and-proof.md)
-* [Configurare e inviare la consegna](configure-and-send.md)
+>[!MORELIKETHIS]
+>
+>* [Crea una consegna](../start/create-message.md)
+>* [Creare e utilizzare un modello di posta elettronica](create-templates.md)
+>* [Seleziona il pubblico della tua e-mail](../audiences/gs-audiences.md)
+>* [Convalidare una consegna e inviare bozze](preview-and-proof.md)
+>* [Configura e invia la consegna](configure-and-send.md)
+>* [Best practice per la consegna](../start/delivery-best-practices.md)
 
 ## Verifica e convalida le e-mail
 
