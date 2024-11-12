@@ -6,20 +6,22 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+source-git-commit: acb559c74aea3f59c05792b7596d0f85ff05047c
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 25%
+source-wordcount: '939'
+ht-degree: 19%
 
 ---
 
 # Utilizzare i modelli di consegna {#work-with-delivery-template}
 
-Ogni consegna viene creata in base a un modello. Sono disponibili modelli incorporati per ogni canale. Puoi personalizzarli per applicare le stesse impostazioni a un set di consegne.
+## Introduzione ai modelli di consegna
 
-Un modello include:
+Ogni consegna viene creata in base a un modello. Un modello è una configurazione che può essere riutilizzata per facilitare e standardizzare l’implementazione. Puoi utilizzare un modello predefinito o personalizzato.
 
-* Regole di tipologia
+Un modello può includere impostazioni di configurazione parziali o complete, ad esempio:
+
+* [Regole di tipologia](../../automation/campaign-opt/campaign-typologies.md)
 * Indirizzi di invio e risposta
 * [blocchi di personalizzazione](../send/personalization-blocks.md) di base
 * Collegamenti a [pagine mirror](../send/mirror-page.md) e collegamenti per annullare l&#39;abbonamento
@@ -27,6 +29,17 @@ Un modello include:
 * Altre proprietà di consegna, ad esempio validità della risorsa, parametri dei nuovi tentativi o impostazioni della quarantena.
 
 ![](assets/do-not-localize/how-to-video.png) [Guarda il video su questa funzione](#delivery-template-video)
+
+In Adobe Campaign puoi utilizzare due tipi di modelli:
+
+1. Modelli di consegna Adobe Campaign **incorporati**: i modelli incorporati sono disponibili per ogni canale. NON DEVONO essere né modificati né eliminati. Includono una configurazione di base per ogni canale di consegna. In qualità di amministratore, puoi impostare valori predefiniti o limitare alcune funzioni agli utenti finali, ad esempio la modifica dei parametri di tracciamento, degli indirizzi e-mail del mittente e altro ancora. I modelli incorporati vengono visualizzati in grassetto nell’elenco dei modelli.
+
+1. **Modelli di consegna personalizzati** - In qualità di amministratore di Adobe Campaign, puoi creare nuovi modelli di consegna. Si consiglia di duplicare e aggiornare un modello incorporato anziché creare un modello da zero. Ad esempio, puoi configurare un modello di consegna e-mail e, quando gli utenti creano una consegna da questo modello, devono solo inserire il testo o il contenuto HTML. Tutte le altre impostazioni sono già definite.
+
+>[!NOTE]
+>
+>I modelli disponibili dipendono dai diritti di accesso, dalla configurazione dell’istanza e dal contesto. Ad esempio, quando crei un servizio di informazioni, puoi collegare un modello di consegna per i messaggi di conferma: puoi quindi accedere solo ai modelli il cui mapping di destinazione è il mapping di abbonamento. Altri modelli non sono visibili in questo contesto. Per ulteriori informazioni, consulta [Selezionare un mapping di destinazione](../audiences/target-mappings.md) e [Servizi e sottoscrizioni](../start/subscriptions.md).
+
 
 ## Creare un modello {#create-a-delivery-template}
 
