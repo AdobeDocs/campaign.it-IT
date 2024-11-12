@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
-source-git-commit: 12de29e15d660cd5a40cda059fc19e45311fe312
+source-git-commit: 08e04f3642320df94d719a415e878e3a26d2e00f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '990'
+ht-degree: 18%
 
 ---
 
@@ -38,7 +38,7 @@ I modelli di consegna sono archiviati nella cartella **[!UICONTROL Resources > T
 
 >[!NOTE]
 >
->I modelli disponibili dipendono dai diritti di accesso, dalla configurazione dell’istanza e dal contesto. Ad esempio, quando crei un servizio di informazioni, puoi collegare un modello di consegna per i messaggi di conferma: puoi quindi accedere solo ai modelli il cui mapping di destinazione è il mapping di abbonamento. Altri modelli non sono visibili in questo contesto. Per ulteriori informazioni, consulta [Selezionare un mapping di destinazione](../audiences/target-mappings.md) e [Servizi e sottoscrizioni](../start/subscriptions.md).
+>I modelli disponibili dipendono dai diritti di accesso, dalla configurazione dell’istanza e dal contesto. Ad esempio, quando crei un servizio di informazioni, puoi collegare un modello di consegna per i messaggi di conferma: puoi quindi accedere solo ai modelli il cui mapping di destinazione è il mapping di abbonamento. Altri modelli non sono visibili in questo contesto. Per ulteriori informazioni, consulta [Utilizzare i mapping di destinazione](../audiences/target-mappings.md) e [Gestire sottoscrizioni e annullamenti di sottoscrizioni](../start/subscriptions.md).
 
 
 ## Creare un modello {#create-a-delivery-template}

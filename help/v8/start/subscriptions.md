@@ -5,14 +5,14 @@ feature: Subscriptions
 role: User
 level: Beginner
 exl-id: d5933b12-8664-49b8-953c-ea98eb428cc2
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 08e04f3642320df94d719a415e878e3a26d2e00f
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 6%
 
 ---
 
-# Gestire gli abbonamenti e il loro annullamento{#optin-optout}
+# Gestire gli abbonamenti e il loro annullamento {#optin-optout}
 
 Utilizza Adobe Campaign per creare e monitorare i tuoi servizi di informazioni, come le newsletter, e per gestire gli abbonamenti/annullamenti degli abbonamenti a tali servizi. È possibile definire in parallelo diversi servizi, ad esempio newsletter specializzate per determinate categorie di prodotti, temi o aree di un sito Web, abbonamenti a vari tipi di messaggi di avviso e notifiche in tempo reale.
 
