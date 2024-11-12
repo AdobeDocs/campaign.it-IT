@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
-source-git-commit: acb559c74aea3f59c05792b7596d0f85ff05047c
+source-git-commit: 5054dd1352972b402d54c1b51cfee1fb41ff4d1c
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 19%
+source-wordcount: '988'
+ht-degree: 18%
 
 ---
 
@@ -30,7 +30,7 @@ Un modello può includere impostazioni di configurazione parziali o complete, ad
 
 ![](assets/do-not-localize/how-to-video.png) [Guarda il video su questa funzione](#delivery-template-video)
 
-In Adobe Campaign puoi utilizzare due tipi di modelli:
+I modelli di consegna sono archiviati nella cartella **[!UICONTROL Resources > Templates > Delivery templates]** di Explorer. In Adobe Campaign puoi utilizzare due tipi di modelli:
 
 1. Modelli di consegna Adobe Campaign **incorporati**: i modelli incorporati sono disponibili per ogni canale. NON DEVONO essere né modificati né eliminati. Includono una configurazione di base per ogni canale di consegna. In qualità di amministratore, puoi impostare valori predefiniti o limitare alcune funzioni agli utenti finali, ad esempio la modifica dei parametri di tracciamento, degli indirizzi e-mail del mittente e altro ancora. I modelli incorporati vengono visualizzati in grassetto nell’elenco dei modelli.
 
@@ -121,18 +121,19 @@ Selezionare il modello di consegna da utilizzare e fare clic su **[!UICONTROL Ok
 
 ### Eseguire un modello {#execute-a-template}
 
-Puoi avviare l’esecuzione di un modello direttamente dall’elenco dei modelli senza prima creare una consegna.
+Puoi avviare l’esecuzione di un modello direttamente dall’elenco dei modelli senza prima creare una consegna. Il modello di consegna può essere eseguito manualmente, come descritto di seguito, o attivato da un evento (eseguito in un determinato momento, quando un file è disponibile nel server, ecc.), come spiegato in [questa sezione](../../automation/workflow/deliveries.md).
 
-A questo scopo, seleziona il modello da eseguire e fai clic con il pulsante destro del mouse. Seleziona **[!UICONTROL Actions>Execute the delivery template...]**.
+Per eseguire manualmente un modello, effettua le seguenti operazioni:
 
-È inoltre possibile utilizzare **[!UICONTROL File>Actions>Execute the delivery template...]**.
+1. Seleziona il modello da eseguire e fai clic con il pulsante destro del mouse. Seleziona **[!UICONTROL Actions>Execute the delivery template...]**.
 
-![](assets/execute-delivery-template.png)
+   È inoltre possibile utilizzare **[!UICONTROL File>Actions>Execute the delivery template...]**.
 
-Immettere i parametri di consegna e fare clic su **[!UICONTROL Send]**.
+   ![](assets/execute-delivery-template.png)
+
+1. Immettere i parametri di consegna e fare clic su **[!UICONTROL Send]**.
 
 Questa azione genera una consegna nella cartella associata al modello. Il nome di questa consegna è il nome del modello di consegna da cui è stata creata.
-
 
 ## Video tutorial {#delivery-template-video}
 
