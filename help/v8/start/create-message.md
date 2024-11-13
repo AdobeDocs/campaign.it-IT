@@ -5,16 +5,16 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 55b752713a29c035680dd39e42422b1743e15269
+source-git-commit: 53fab31c21fdfe2f90c4793ccd025af1d5c0e061
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1523'
 ht-degree: 3%
 
 ---
 
 # Creare la prima consegna {#create-a-msg}
 
-In questa pagina imparerai a creare una singola consegna. Puoi creare altri tipi di consegne per risolvere i casi d’uso. Ulteriori informazioni sui diversi tipi di consegne e su come crearle in [questa pagina](gs-message.md).
+In questa pagina, scopri come creare una singola consegna. Puoi creare altri tipi di consegne per generare i tuoi casi d’uso. Ulteriori informazioni sui diversi tipi di consegne e su come crearle in [questa pagina](gs-message.md).
 
 I passaggi chiave durante la creazione di una consegna una tantum sono i seguenti:
 
