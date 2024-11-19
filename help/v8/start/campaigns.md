@@ -8,7 +8,7 @@ exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66
 source-git-commit: 8d6c3e03f9b7533f7f325b755e3b6d4f74b63a8d
 workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 91%
+ht-degree: 99%
 
 ---
 
@@ -78,9 +78,9 @@ I passaggi principali per creare una campagna di marketing cross-channel sono i 
 
    ![](assets/campaign-dashboard.png)
 
-   Scopri come creare e avviare le consegne delle campagne di marketing in [questa pagina](../../automation/campaigns/marketing-campaign-deliveries.md).
+   Per informazioni su come creare e avviare le consegne di campagne marketing, consulta [questa pagina](../../automation/campaigns/marketing-campaign-deliveries.md).
 
-   È possibile associare vari documenti a una campagna: report, foto, pagina web, diagramma, ecc. Ulteriori informazioni sui documenti associati in [questa pagina](../../automation/campaigns/marketing-campaign-assets.md).
+   È possibile associare vari documenti a una campagna: rapporti, foto, pagina web, diagramma, ecc. Per ulteriori informazioni sui documenti associati, consulta [questa pagina](../../automation/campaigns/marketing-campaign-assets.md).
 
 1. **Impostare il processo di approvazione**
 
@@ -91,7 +91,7 @@ I passaggi principali per creare una campagna di marketing cross-channel sono i 
 
 ## Componente aggiuntivo Marketing distribuito{#distributed-marketing-add-on}
 
-Adobe Campaign offre il componente aggiuntivo **Marketing distribuito** per l&#39;implementazione di campagne di cooperazione tra entità centrali (sedi centrali, dipartimenti di marketing, ecc.) ed entità locali (negozi, agenzie regionali, ecc.). Questa cooperazione si basa su un’area di lavoro condivisa nota come **[!UICONTROL List of campaign packages]**, in cui i modelli di campagna progettati da entità centrali vengono offerti agli enti locali.
+Adobe Campaign offre il componente aggiuntivo **Marketing distribuito** per l’implementazione di campagne di cooperazione tra entità centrali (sedi centrali, reparti di marketing, ecc.) ed entità locali (negozi, agenzie locali, ecc.). Questa cooperazione si basa su un’area di lavoro condivisa nota come **[!UICONTROL List of campaign packages]**, in cui i modelli di campagna progettati da entità centrali vengono offerti agli enti locali.
 
 >[!NOTE]
 >
