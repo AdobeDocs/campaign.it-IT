@@ -6,9 +6,9 @@ title: Documentazione di Adobe Campaign v8
 description: Documentazione di Campaign v8
 breadcrumb-title: Documentazione di Campaign v8
 source-git-commit: 3ac2976839f084761ba56647b282062d8d457ff2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '688'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 99%
    + SMS {#sms}
       + [Introduzione agli SMS](send/sms/sms.md)
       + Configurare il canale SMS {#config-sms}
-         + [Impostazioni sulla consegna SMS](send/sms/sms-delivery-settings.md)
+         + [Impostazioni delle consegne SMS](send/sms/sms-delivery-settings.md)
          + [Impostazioni account esterno SMPP](send/sms/smpp-external-account.md)
          + [Caratteristiche del canale SMS](send/sms/sms-channel.md)
          + [Convalida di una connessione SMPP](send/sms/smpp-connection.md)
