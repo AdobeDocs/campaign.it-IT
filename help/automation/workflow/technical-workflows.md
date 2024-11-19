@@ -5,9 +5,9 @@ description: Ulteriori informazioni sui flussi di lavoro tecnici disponibili con
 feature: Workflows
 role: User, Admin
 exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
-source-git-commit: d4e28ddf6081881f02042416aa8214761ea42be9
+source-git-commit: 4cb825c1899243e72a66b9dea2e56c45dc466fde
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1799'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,7 @@ Scopri come monitorare i flussi di lavoro tecnici in questa [sezione dedicata](m
 | **Processi di marketing distribuito** (centralLocalMgt) | Marketing centrale e locale (marketing distribuito) | Questo flusso di lavoro avvia l’elaborazione correlata all’utilizzo del modulo di marketing distribuito. Avvia la creazione di campagne locali e gestisce le notifiche relative agli ordini e alla disponibilità dei pacchetti delle campagne. |
 | **Eliminazione eventi** (webAnalyticsPurgeWebEvents) | Connettori di analisi web | Questo flusso di lavoro ti consente di eliminare ogni evento dal campo del database in base al periodo configurato nel campo Durata. |
 | **Esporta tipi di pubblico in Adobe Experience Cloud** (exportSharedAudience) | Integrazione con Adobe Experience Cloud | Questo flusso di lavoro esporta i tipi di pubblico come tipi di pubblico/segmenti condivisi. Questi tipi di pubblico possono essere utilizzati nelle diverse soluzioni Adobe Experience Cloud che utilizzi. |
+| **ffdaUnsuscribe** | Installato per impostazione predefinita | Questo flusso di lavoro gestisce gli annullamenti degli abbonamenti ricevuti come messaggi di posta non recapitati (tramite l&#39;utilizzo del metodo `<mailto>` List-Unsubscribe). Viene eseguito ogni giorno, ogni 1 ora, solo sulle istanze di marketing con una distribuzione Enterprise (FFDA).<br/><br/>Il flusso di lavoro controlla i broadLog da un determinato intervallo di tempo (ora dell&#39;ultima elaborazione e ora corrente) contrassegnati come mancati recapiti di annullamento dell&#39;abbonamento dal modulo inMail (contrassegno impostato nella colonna iFlags della tabella NmsBroadLog) ed elabora un annullamento dell&#39;abbonamento a seconda che il servizio del Broadlog sia impostato o meno:<ul><li>Se il valore di serviceId è 0 (non definito), il destinatario verrà inserito nell&#39;elenco Bloccati in modo da essere in grado di eseguire l operazione.</li><li>Se serviceId è diverso da 0 (collegato a un servizio esistente), al destinatario verrà annullato l’abbonamento a tale servizio.</li></ul><br/>Nota: questo flusso di lavoro gestisce solo gli annullamenti di abbonamenti non recapitati; gli annullamenti di abbonamenti effettuati tramite il collegamento di rinuncia e l&#39;annullamento di abbonamenti con un clic (metodo URL) vengono gestiti separatamente all&#39;esterno di questo flusso di lavoro. |
 | **Previsione** (previsione) | Consegna | Questo flusso di lavoro analizza le consegne salvate nel calendario provvisorio (crea registri provvisori). Per impostazione predefinita viene attivato ogni giorno all’1. |
 | **Calcolo aggregato completo (cubo propositionrcp)** (agg_nmspropositionrcp_full) | Motore di offerta (interazione) | Questo flusso di lavoro aggiorna l’aggregato completo per il cubo della proposta di offerta. Per impostazione predefinita viene attivato ogni giorno alle 6. Questo aggregato acquisisce le seguenti dimensioni: Canale, Consegna, Offerta di marketing e Data. Il cubo della proposta di offerta viene quindi utilizzato per generare rapporti basati sulle offerte. Ulteriori informazioni sui cubi in [questa sezione](../../v8/reporting/gs-cubes.md). |
 | **Identificazione dei contatti convertiti** (webAnalyticsFindConverted) | Connettori di analisi web | Questo flusso di lavoro indicizza i visitatori del sito che hanno completato l’acquisto dopo una campagna di remarketing. I dati recuperati da questo flusso di lavoro sono accessibili nel rapporto sull’efficienza del remarketing (consulta questa pagina). |
