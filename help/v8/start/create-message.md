@@ -6,15 +6,15 @@ role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
 source-git-commit: 53fab31c21fdfe2f90c4793ccd025af1d5c0e061
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1523'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Creare la prima consegna {#create-a-msg}
 
-In questa pagina, scopri come creare una singola consegna. Puoi creare altri tipi di consegne per generare i tuoi casi d’uso. Ulteriori informazioni sui diversi tipi di consegne e su come crearle sono disponibili in [questa pagina](gs-message.md).
+In questa pagina scoprirai come creare una consegna singola. Puoi creare altri tipi di consegne per generare i tuoi casi d’uso. Ulteriori informazioni sui diversi tipi di consegne e su come crearle sono disponibili in [questa pagina](gs-message.md).
 
 I passaggi chiave per la creazione di una consegna singola sono i seguenti:
 
