@@ -5,7 +5,7 @@ description: Ulteriori informazioni sull’attività del flusso di lavoro Contro
 feature: Workflows
 role: User
 exl-id: 09fe638d-5e1c-49d1-9196-6300c1e56703
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 2%
@@ -13,8 +13,6 @@ ht-degree: 2%
 ---
 
 # Controllo della consegna{#delivery-control}
-
-
 
 Un&#39;azione di tipo **Controllo di consegna** consente di avviare, mettere in pausa o interrompere una consegna.
 
@@ -38,4 +36,4 @@ Sono disponibili le seguenti opzioni:
 
 * deliveryId
 
-Identificatore di consegna, se l&#39;azione selezionata è **[!UICONTROL Specified in the transition]**.
+  Identificatore di consegna, se l&#39;azione selezionata è **[!UICONTROL Specified in the transition]**.

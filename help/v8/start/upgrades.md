@@ -5,14 +5,20 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 04bda36f-051f-41a3-84b3-6af3c5e34ab2
-source-git-commit: a779f243b0ba13dc3fcb7839377ca8766e5f7841
+source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 18%
+source-wordcount: '775'
+ht-degree: 21%
 
 ---
 
 # Versioni e aggiornamenti {#upgrades}
+
+Adobe Campaign viene aggiornato regolarmente. La frequenza regolare degli aggiornamenti è volta a far ottenere agli utenti il prodotto migliore e più recente, mantenendo l’ambiente sicuro e migliorando l’esperienza di utilizzo. Adobe consiglia vivamente a tutta la clientela di effettuare l’aggiornamento alla versione più recente.
+
+In qualità di utente di Managed Cloud Services, la tua istanza viene aggiornata da Adobe con ogni nuova versione. Il tuo rappresentante di Adobe ti contatta per aggiornare i tuoi ambienti. La console client di Campaign **deve essere aggiornata alla stessa versione** come i server di Campaign. Scopri come aggiornare la console client in questa [pagina](../start/connect.md#upgrade-ac-console).
+
+Inoltre, in qualità di cliente, assicurati di utilizzare la versione supportata più recente dei sistemi elencati nella [Matrice di compatibilità](compatibility-matrix.md).
 
 ## Versioni di Campaign {#versions}
 
@@ -26,12 +32,14 @@ Gli aggiornamenti possono essere:
 
 Informazioni dettagliate su ogni nuova versione sono disponibili nelle [Note sulla versione](release-notes.md).
 
-Adobe Per garantire una configurazione stabile, si consiglia di installare **esattamente la stessa versione** su tutti i server di Campaign. Inoltre, salvo diversa indicazione nelle [Note sulla versione](release-notes.md), la console client deve essere in **la stessa versione** dell&#39;istanza del server. Scopri come aggiornare la console client in questa [pagina](../start/connect.md#upgrade-ac-console).
+Per garantire una configurazione stabile, Adobe consiglia di installare **esattamente la stessa versione** su tutti i server Campaign. Inoltre, salvo diversa indicazione nelle [Note sulla versione](release-notes.md), la console client deve essere in **la stessa versione** dell&#39;istanza del server. Scopri come aggiornare la console client in questa [pagina](../start/connect.md#upgrade-ac-console).
 
-In qualità di cliente di Campaign Managed Services, quando è disponibile una nuova versione di Campaign, l’infrastruttura viene aggiornata di Adobe senza ulteriori azioni.
+
+## Aggiornamenti di Campaign {#ac-upgrades}
+
+In qualità di cliente di Campaign Managed Services, quando è disponibile una nuova versione di Campaign, l’infrastruttura viene aggiornata da Adobe senza ulteriori azioni.
 
 In qualità di cliente, devi assicurarti di utilizzare le versioni più recenti supportate dei sistemi elencati nella [Matrice di compatibilità](compatibility-matrix.md).
-
 
 ## Domande frequenti {#upgrades-faq}
 
@@ -50,14 +58,14 @@ Accedi alle seguenti informazioni:
 
 ### Come posso essere informato del rilascio di una nuova versione? {#upgrades-0}
 
-Le nuove versioni e le modifiche apportate sono elencate nelle [Note sulla versione](release-notes.md). Quando sarà disponibile una nuova versione, Adobe ti contatterà e aggiornerà i tuoi ambienti.
+Le nuove versioni e le modifiche apportate sono elencate nelle [Note sulla versione](release-notes.md). Quando è disponibile una nuova versione, il rappresentante dell’Adobe ti contatta e aggiorna gli ambienti.
 
-Per ricevere informazioni sulle nuove versioni della soluzione Experience Cloud, iscriviti ad [Adobe Priority Product Update](https://www.adobe.com/it/subscription/priority-product-update.html){target="_blank"}.
+Per ricevere informazioni sulle nuove versioni di Experience Cloud Solution e sui relativi contenuti, abbonati alla comunicazione [Aggiornamenti dei prodotti priority Adobe](https://www.adobe.com/it/subscription/priority-product-update.html){target="_blank"}.
 
 Puoi anche visitare la [Community di Campaign](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&amp;sort=date&amp;order=desc&amp;filters=adobe-campaign-classic-community&amp;topic=Campaign+v8){target="_blank"} per ricevere informazioni sugli aggiornamenti delle versioni.
 
 
-### Perché la mia organizzazione ha bisogno di questo aggiornamento? {#upgrades-1}
+### Perché la mia organizzazione ha bisogno di un aggiornamento? {#upgrades-1}
 
 L’aggiornamento dell’infrastruttura alla versione più recente garantisce la protezione dell’account da vulnerabilità e l’utilizzo di una tecnologia delle prestazioni aggiornata.
 
@@ -77,8 +85,8 @@ In genere, l’aggiornamento alla versione più recente comporta:
   Nel tempo, il team di Adobe Campaign identifica modi per migliorare la stabilità e le prestazioni del prodotto, nonché per risolvere i problemi noti. L’aggiornamento consente di aggiornare l’istanza con questi miglioramenti ed elimina le problematiche comuni riscontrate dalle organizzazioni che registrano una rapida crescita e/o complessità all’interno delle proprie istanze Campaign.I team di marketing e IT dell’organizzazione riscontrano miglioramenti nello stack tecnologico che alimenta Campaign.
 
 
-### Quali sono il processo e tempistica di questo aggiornamento? {#upgrades-2}
+### Qual è il processo e la tempistica per un aggiornamento? {#upgrades-2}
 
-In qualità di cliente v8, se il tuo account necessita l’aggiornamento a una nuova versione, riceverai una notifica direttamente da Adobe.
+Adobe In qualità di cliente v8, se il tuo account necessita l’aggiornamento a una nuova versione ne riceve notifica direttamente.
 
-Il team di Adobi è a capo della tua organizzazione e la guiderà attraverso questo percorso. Abbiamo organizzato un team di responsabili dell’Assistenza clienti, Product Manager, tecnici, specialisti TechOps e consulenti di prodotto che potrà assisterti e garantire un’esperienza fluida.
+Il team di Adobe guiderà la tua organizzazione attraverso questo percorso. Qui trovi un team di responsabili dell’Assistenza clienti, Product Manager, tecnici, specialisti TechOps e consulenti di prodotto che potrà assisterti e garantire un’esperienza fluida.

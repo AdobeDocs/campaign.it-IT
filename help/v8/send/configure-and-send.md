@@ -5,10 +5,10 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 36033255-1e75-41c1-9816-126777f7330a
-source-git-commit: 768ebf4b350da61f0076eb9e43a16246be3b2628
+source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
 workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 8%
+source-wordcount: '1188'
+ht-degree: 10%
 
 ---
 
@@ -126,7 +126,7 @@ A tale scopo, segui la procedura indicata di seguito.
 
 1. Fare clic su **[!UICONTROL Send]** e selezionare l&#39;azione desiderata.
 
-   * Per inviare la consegna immediatamente, selezionare [**Consegna il prima possibile**].
+   * Per inviare immediatamente la consegna, selezionare **[!UICONTROL Deliver as soon as possible]**.
    * Per pianificare l&#39;invio a una data successiva, selezionare **[!UICONTROL Postpone the delivery]**. [Ulteriori informazioni](#schedule-delivery-sending)
 
 1. Fai clic su **[!UICONTROL Analyze]**. Per ulteriori informazioni, consulta [questa sezione](delivery-analysis.md).

@@ -5,9 +5,9 @@ description: Ulteriori informazioni sull’attività del flusso di lavoro Conseg
 feature: Workflows
 role: User, Data Engineer
 exl-id: 27308b0d-cbfc-4bc6-9061-d771ceac95fd
-source-git-commit: 28742db06b9ca78a4e952fcb0e066aa5ec344416
+source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '257'
 ht-degree: 13%
 
 ---
@@ -40,7 +40,7 @@ Una **consegna ricorrente** creerà una nuova istanza di consegna ogni volta che
 
 ![Consegna ricorrente](assets/delivery_recurring.jpg)
 
-Se desideri interrompere l’esecuzione di una consegna ricorrente, devi annullare completamente la campagna o interrompere l’esecuzione del flusso di lavoro. L’interruzione della consegna dal dashboard Campaign interrompe solo l’occorrenza della consegna: le istanze successive della consegna ricorrente continueranno a essere create a ogni esecuzione del flusso di lavoro.
+Se desideri interrompere l’esecuzione di una consegna ricorrente, devi annullare completamente la campagna o interrompere l’esecuzione del flusso di lavoro. L’interruzione della consegna dal dashboard di Campaign interrompe solo l’occorrenza della consegna: le istanze successive della consegna ricorrente continueranno a essere create a ogni esecuzione del flusso di lavoro.
 
 >[!NOTE]
 >
