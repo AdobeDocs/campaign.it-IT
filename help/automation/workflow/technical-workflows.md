@@ -5,9 +5,9 @@ description: Ulteriori informazioni sui flussi di lavoro tecnici disponibili con
 feature: Workflows
 role: User, Admin
 exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
-source-git-commit: 97ab8259c0044b65fec2ad5ddc44d28f0cbf65e5
+source-git-commit: e8546d56232c50dbf4aedf054a7d63838e3fd957
 workflow-type: tm+mt
-source-wordcount: '1804'
+source-wordcount: '1803'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Adobe Campaign viene fornito con una serie di flussi di lavoro tecnici incorpora
 
 Per impostazione predefinita, i flussi di lavoro tecnici sono disponibili in una sottocartella del seguente nodo: **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]**.
 
-![](assets/navtree.png){width="50%" align="center" zoomable="yes"}
+![](assets/navtree.png){width="50%" align="left" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -28,8 +28,7 @@ Per impostazione predefinita, i flussi di lavoro tecnici sono disponibili in una
 
 La sottocartella **[!UICONTROL Campaign process]** centralizza i flussi di lavoro necessari per l&#39;esecuzione dei processi all&#39;interno delle campagne: notifica delle attività, gestione delle scorte, calcolo dei costi, ecc.
 
-![](assets/campaign-processes-wf.png){width="70%" align="center" zoomable="yes"}
-
+![](assets/campaign-processes-wf.png)
 
 ## Gestire e creare flussi di lavoro tecnici {#manage-tech-workflows}
 
@@ -37,7 +36,7 @@ I flussi di lavoro tecnici di Campaign possono essere avviati e modificati solo 
 
 È possibile creare flussi di lavoro tecnici personalizzati nel nodo **[!UICONTROL Administration > Production > Technical workflows]** della struttura ad albero. Sono disponibili modelli nativi per la creazione di flussi di lavoro tecnici. Possono essere configurati in base alle tue esigenze. Tuttavia, questo processo è riservato agli utenti esperti. Le attività disponibili nei flussi di lavoro tecnici sono le stesse dei flussi di lavoro di targeting. [Ulteriori informazioni](targeting-workflows.md).
 
-## Elenco dei flussi di lavoro tecnici {#list-technical-workflows}
+## Flussi di lavoro tecnici integrati {#list-technical-workflows}
 
 I flussi di lavoro descritti in questa pagina vengono installati con i pacchetti incorporati di Adobe Campaign. Questi pacchetti e i flussi di lavoro tecnici associati dipendono dal contratto di licenza e dai componenti aggiuntivi.
 
