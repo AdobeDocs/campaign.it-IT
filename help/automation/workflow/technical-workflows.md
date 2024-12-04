@@ -5,48 +5,41 @@ description: Ulteriori informazioni sui flussi di lavoro tecnici disponibili con
 feature: Workflows
 role: User, Admin
 exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
-source-git-commit: 4cb825c1899243e72a66b9dea2e56c45dc466fde
+source-git-commit: 97ab8259c0044b65fec2ad5ddc44d28f0cbf65e5
 workflow-type: tm+mt
-source-wordcount: '1799'
+source-wordcount: '1804'
 ht-degree: 0%
 
 ---
 
 # Flussi di lavoro tecnici{#about-technical-workflows}
 
-Adobe Campaign viene fornito con una serie di flussi di lavoro tecnici incorporati. Gestiscono le operazioni e i processi pianificati per l&#39;esecuzione periodica sul server. Consentono di eseguire attività di manutenzione sul database, inoltrare informazioni di tracciamento sulle consegne o impostare processi provvisori sulle consegne. I flussi di lavoro tecnici sono configurati tramite il nodo **[!UICONTROL Administration > Production > Technical workflows]**.
-
-![](assets/navtree.png)
-
-Sono disponibili modelli nativi per la creazione di flussi di lavoro tecnici. Possono essere configurati in base alle tue esigenze.
-
-La sottocartella **[!UICONTROL Campaign process]** centralizza i flussi di lavoro necessari per l&#39;esecuzione dei processi all&#39;interno delle campagne: notifica delle attività, gestione delle scorte, calcolo dei costi, ecc.
-
-![](assets/campaign-processes-wf.png)
-
-
->[!NOTE]
->
->L&#39;elenco dei flussi di lavoro tecnici installati con ciascun modulo è disponibile in una [sezione dedicata](technical-workflows.md).
-
-È possibile creare altri flussi di lavoro tecnici nel nodo **[!UICONTROL Administration > Production > Technical workflows]** della struttura ad albero. Tuttavia, questo processo è riservato agli utenti esperti.
-
-Le attività offerte sono le stesse dei flussi di lavoro di targeting. [Ulteriori informazioni](targeting-workflows.md)
-
-I flussi di lavoro descritti in questa sezione vengono installati con i diversi pacchetti incorporati di Adobe Campaign. Questi pacchetti e i relativi flussi di lavoro tecnici dipendono dal contratto di licenza.
+Adobe Campaign viene fornito con una serie di flussi di lavoro tecnici incorporati. Controllano le operazioni e i processi pianificati per l&#39;esecuzione periodica sul server. I flussi di lavoro tecnici eseguono operazioni di manutenzione sul database di Campaign, gestiscono i dati di tracciamento sulle consegne e impostano anche processi provvisori sulle consegne.
 
 Per impostazione predefinita, i flussi di lavoro tecnici sono disponibili in una sottocartella del seguente nodo: **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]**.
 
-I flussi di lavoro tecnici possono essere avviati e modificati solo da operatori con autorizzazioni di amministrazione.
+![](assets/navtree.png){width="50%" align="center" zoomable="yes"}
 
 >[!NOTE]
 >
->I flussi di lavoro tecnici relativi al componente aggiuntivo Centro messaggi sono disponibili per impostazione predefinita nel nodo **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Message Center]** > **[!UICONTROL Technical workflows]**.
+>* L&#39;elenco dei flussi di lavoro tecnici installati con ogni modulo è disponibile in una [questa sezione](#list-technical-workflows).
+>
+>* I flussi di lavoro tecnici relativi al componente aggiuntivo Centro messaggi sono archiviati per impostazione predefinita nel nodo **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Message Center]** > **[!UICONTROL Technical workflows]**.
 
-Scopri come monitorare i flussi di lavoro tecnici in questa [sezione dedicata](monitor-technical-workflows.md).
+La sottocartella **[!UICONTROL Campaign process]** centralizza i flussi di lavoro necessari per l&#39;esecuzione dei processi all&#39;interno delle campagne: notifica delle attività, gestione delle scorte, calcolo dei costi, ecc.
 
+![](assets/campaign-processes-wf.png){width="70%" align="center" zoomable="yes"}
+
+
+## Gestire e creare flussi di lavoro tecnici {#manage-tech-workflows}
+
+I flussi di lavoro tecnici di Campaign possono essere avviati e modificati solo da operatori con autorizzazioni **Amministrazione**. Scopri come monitorare i flussi di lavoro tecnici in questa [sezione dedicata](monitor-technical-workflows.md).
+
+È possibile creare flussi di lavoro tecnici personalizzati nel nodo **[!UICONTROL Administration > Production > Technical workflows]** della struttura ad albero. Sono disponibili modelli nativi per la creazione di flussi di lavoro tecnici. Possono essere configurati in base alle tue esigenze. Tuttavia, questo processo è riservato agli utenti esperti. Le attività disponibili nei flussi di lavoro tecnici sono le stesse dei flussi di lavoro di targeting. [Ulteriori informazioni](targeting-workflows.md).
 
 ## Elenco dei flussi di lavoro tecnici {#list-technical-workflows}
+
+I flussi di lavoro descritti in questa pagina vengono installati con i pacchetti incorporati di Adobe Campaign. Questi pacchetti e i flussi di lavoro tecnici associati dipendono dal contratto di licenza e dai componenti aggiuntivi.
 
 | Flusso di lavoro tecnico | Pacchetto | Descrizione |
 |------|--------|-----------|
@@ -59,12 +52,12 @@ Scopri come monitorare i flussi di lavoro tecnici in questa [sezione dedicata](m
 | **Pulizia database** (pulizia) | Installato per impostazione predefinita | Questo flusso di lavoro è il flusso di lavoro di manutenzione del database: esegue calcoli diversi dalle statistiche e dai processi ed elimina i dati obsoleti dal database in base alla configurazione definita nell’assistente alla distribuzione. Viene attivato ogni giorno alle 4 per impostazione predefinita. |
 | **Elimina utenti LINE bloccati** (deleteBlockedLineUsersV2) | Canale LINE | Questo flusso di lavoro assicura che i dati degli utenti LINE V2 vengano eliminati dopo che hanno bloccato l’account ufficiale LINE per 180 giorni. |
 | **Elimina dati richieste privacy** (deletePrivacyRequestsData) | Regolamento sulla protezione dei dati personali | Questo flusso di lavoro elimina i dati del destinatario memorizzati in Adobe Campaign. |
-| **Indicatori di consegna** (deliveryIndicators) | Piattaforma di mid-sourcing | Questo flusso di lavoro aggiorna gli indicatori di tracciamento della consegna per una consegna. Questo flusso di lavoro viene attivato ogni ora per impostazione predefinita. |
+| **Indicatori di consegna** (deliveryIndicators) | Installato per impostazione predefinita | Questo flusso di lavoro aggiorna gli indicatori di tracciamento della consegna per una consegna. Questo flusso di lavoro viene attivato ogni ora per impostazione predefinita. |
 | **Processi di marketing distribuito** (centralLocalMgt) | Marketing centrale e locale (marketing distribuito) | Questo flusso di lavoro avvia l’elaborazione correlata all’utilizzo del modulo di marketing distribuito. Avvia la creazione di campagne locali e gestisce le notifiche relative agli ordini e alla disponibilità dei pacchetti delle campagne. |
 | **Eliminazione eventi** (webAnalyticsPurgeWebEvents) | Connettori di analisi web | Questo flusso di lavoro ti consente di eliminare ogni evento dal campo del database in base al periodo configurato nel campo Durata. |
 | **Esporta tipi di pubblico in Adobe Experience Cloud** (exportSharedAudience) | Integrazione con Adobe Experience Cloud | Questo flusso di lavoro esporta i tipi di pubblico come tipi di pubblico/segmenti condivisi. Questi tipi di pubblico possono essere utilizzati nelle diverse soluzioni Adobe Experience Cloud che utilizzi. |
 | **ffdaUnsuscribe** | Installato per impostazione predefinita | Questo flusso di lavoro gestisce gli annullamenti degli abbonamenti ricevuti come messaggi di posta non recapitati (tramite l&#39;utilizzo del metodo `<mailto>` List-Unsubscribe). Viene eseguito ogni giorno, ogni 1 ora, solo sulle istanze di marketing con una distribuzione Enterprise (FFDA).<br/><br/>Il flusso di lavoro controlla i broadLog da un determinato intervallo di tempo (ora dell&#39;ultima elaborazione e ora corrente) contrassegnati come mancati recapiti di annullamento dell&#39;abbonamento dal modulo inMail (contrassegno impostato nella colonna iFlags della tabella NmsBroadLog) ed elabora un annullamento dell&#39;abbonamento a seconda che il servizio del Broadlog sia impostato o meno:<ul><li>Se il valore di serviceId è 0 (non definito), il destinatario verrà inserito nell&#39;elenco Bloccati in modo da essere in grado di eseguire l operazione.</li><li>Se serviceId è diverso da 0 (collegato a un servizio esistente), al destinatario verrà annullato l’abbonamento a tale servizio.</li></ul><br/>Nota: questo flusso di lavoro gestisce solo gli annullamenti di abbonamenti non recapitati; gli annullamenti di abbonamenti effettuati tramite il collegamento di rinuncia e l&#39;annullamento di abbonamenti con un clic (metodo URL) vengono gestiti separatamente all&#39;esterno di questo flusso di lavoro. |
-| **Previsione** (previsione) | Consegna | Questo flusso di lavoro analizza le consegne salvate nel calendario provvisorio (crea registri provvisori). Per impostazione predefinita viene attivato ogni giorno all’1. |
+| **Previsione** (previsione) | Installato per impostazione predefinita | Questo flusso di lavoro analizza le consegne salvate nel calendario provvisorio (crea registri provvisori). Per impostazione predefinita viene attivato ogni giorno all’1. |
 | **Calcolo aggregato completo (cubo propositionrcp)** (agg_nmspropositionrcp_full) | Motore di offerta (interazione) | Questo flusso di lavoro aggiorna l’aggregato completo per il cubo della proposta di offerta. Per impostazione predefinita viene attivato ogni giorno alle 6. Questo aggregato acquisisce le seguenti dimensioni: Canale, Consegna, Offerta di marketing e Data. Il cubo della proposta di offerta viene quindi utilizzato per generare rapporti basati sulle offerte. Ulteriori informazioni sui cubi in [questa sezione](../../v8/reporting/gs-cubes.md). |
 | **Identificazione dei contatti convertiti** (webAnalyticsFindConverted) | Connettori di analisi web | Questo flusso di lavoro indicizza i visitatori del sito che hanno completato l’acquisto dopo una campagna di remarketing. I dati recuperati da questo flusso di lavoro sono accessibili nel rapporto sull’efficienza del remarketing (consulta questa pagina). |
 | **Importa tipi di pubblico da Adobe Experience Cloud** (importSharedAudience) | Integrazione con Adobe Experience Cloud | Questo flusso di lavoro ti consente di importare tipi di pubblico/segmenti da diverse soluzioni Adobe Experience Cloud in Adobe Campaign. |
