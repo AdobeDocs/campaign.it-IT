@@ -3,16 +3,28 @@ title: Note sulla versione di Campaign v8 2022
 description: Elenco delle funzioni e dei miglioramenti introdotti con le versioni di Campaign v8 2022
 feature: Release Notes
 exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
-source-git-commit: 4fecae16b2db0f174de6d77acf5b846906073aeb
+source-git-commit: fe96eb65ac04fc2b89f0dfe1e8ed4286223c3f85
 workflow-type: tm+mt
-source-wordcount: '1919'
-ht-degree: 92%
+source-wordcount: '1943'
+ht-degree: 89%
 
 ---
 
 # Note sulla versione 2022{#2022-rn}
 
 In questa pagina sono elencate le nuove funzionalità, i miglioramenti e le correzioni introdotte con le **versioni di Campaign v8 2022**.
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina**
+
+* Campaign v8.4 - [Versione 8.4.1](#release-8-4-1) | [Versione 8.4.2](#release-8-4-2)
+* Campaign v8.3 - [Versione 8.3.8](#release-8-3-8) | [Versione 8.3.9](#release-8-3-9)
+* Campaign v8.2 - [Versione 8.2.10](#release-8-2-10)
+
+>[!ENDSHADEBOX]
+
+
 
 ## Versione 8.4.2 {#release-8-4-2}
 
@@ -205,7 +217,7 @@ _18 maggio 2022_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Marketing distribuito di Campaign consente di implementare campagne di collaborazione tra entità centrali (sedi centrali, dipartimenti di marketing, ecc.) e gli enti locali (punti vendita, agenzie regionali, ecc.). Tramite un’area di lavoro condivisa (pacchetti di campagne), puoi creare modelli di campagna e proporli alle entità locali.</p>
+<td> <p>Marketing distribuito di Campaign consente di implementare campagne di collaborazione tra entità centrali (sedi centrali, dipartimenti di marketing, ecc.) ed entità locali (punti vendita, agenzie regionali, ecc.). Tramite un’area di lavoro condivisa (pacchetti di campagne), puoi creare modelli di campagna e proporli alle entità locali.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../start/campaigns.md#distributed-marketing-add-on">documentazione dettagliata</a>.</p>
 </td> 
 </tr> 

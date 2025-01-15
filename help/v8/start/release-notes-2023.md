@@ -5,10 +5,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: b860c843-155e-4abb-bdd6-b68dc7eaa0ee
-source-git-commit: ad198540dc65152680e1d14c45286b94397948fd
+source-git-commit: fe96eb65ac04fc2b89f0dfe1e8ed4286223c3f85
 workflow-type: tm+mt
-source-wordcount: '1474'
-ht-degree: 57%
+source-wordcount: '1496'
+ht-degree: 56%
 
 ---
 
@@ -16,6 +16,14 @@ ht-degree: 57%
 
 In questa pagina sono elencate nuove funzionalità, miglioramenti e correzioni introdotti con le versioni di **2023 Campaign v8**.
 
+>[!BEGINSHADEBOX]
+
+**In questa pagina**
+
+* Campaign v8.5 - [Versione 8.5.1](#release-8-5-1) | [Versione 8.5.2](#release-8-5-2)
+* Campaign v8.4 - [Versione 8.4.3](#release-8-4-3) | [Versione 8.4.4](#release-8-4-4) | [Versione 8.4.5](#release-8-4-5)
+
+>[!ENDSHADEBOX]
 
 ## Versione 8.5.2 {#release-8-5-2}
 
@@ -52,7 +60,7 @@ Per ulteriori informazioni, consulta la [documentazione dettagliata](../send/pus
 <ul>
 <li>Throughput SMS: fino a <strong>5x</strong> più veloce</li>
 </ul>
-<p><em>Queste prestazioni di throughput massime sono state misurate da team di test Adobi, in condizioni di laboratorio.</em></p>
+<p><em>Queste prestazioni di throughput massime sono state misurate da team di test Adobe, in condizioni di laboratorio.</em></p>
 </div>
 <p></p>
 </td>

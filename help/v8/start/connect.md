@@ -5,9 +5,9 @@ feature: Client Console
 role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 9ce5acd97e077105316c81029e3ccbc6fa4389dc
+source-git-commit: 87426a5924e1044faf212631ba868753ae43fad6
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '962'
 ht-degree: 11%
 
 ---
@@ -43,7 +43,7 @@ Quando utilizzi Campaign per la prima volta, devi scaricare la console client e 
 
 Per scaricare la console client sono disponibili due opzioni:
 
-1. In qualità di amministratore di Campaign, connettiti all&#39;Adobe [Distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/campaign.html){target="_blank"}.
+1. Adobe In qualità di amministratore di Campaign, connettiti a [Distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/campaign.html){target="_blank"}.
 
 1. In qualità di utente finale, l’amministratore di Campaign implementa la console client e la rende disponibile tramite un URL dedicato.
 
@@ -75,7 +75,7 @@ Puoi aggiungere tutte le connessioni necessarie per connettersi, ad esempio, agl
 
 ## Accedere ad Adobe Campaign {#logon-to-ac}
 
-Gli utenti di Campaign si connettono alla console Adobe Campaign utilizzando il proprio Adobe ID, tramite Adobe Identity Management System (IMS). Possono utilizzare lo stesso ID per tutte le soluzioni di Adobe. La connessione viene salvata quando si utilizza Adobe Campaign con altre soluzioni. Ulteriori informazioni su Adobe IMS in [questa pagina](https://helpx.adobe.com/it/enterprise/using/users.html){target="_blank"}.
+Gli utenti di Campaign si connettono alla console Adobe Campaign utilizzando il proprio Adobe ID, tramite Adobe Identity Management System (IMS). Possono utilizzare lo stesso ID per tutte le soluzioni Adobe. La connessione viene salvata quando si utilizza Adobe Campaign con altre soluzioni. Ulteriori informazioni su Adobe IMS in [questa pagina](https://helpx.adobe.com/it/enterprise/using/users.html){target="_blank"}.
 
 Per accedere a un’istanza, effettua le seguenti operazioni:
 
@@ -103,7 +103,7 @@ In qualità di utente di Managed Cloud Service, Adobe distribuisce la console cl
 
 >[!CAUTION]
 >
->L&#39;Adobe consiglia di lasciare deselezionata l&#39;opzione **[!UICONTROL No longer ask this question]** per assicurarsi di ricevere un avviso quando è disponibile una nuova versione della console. Se questa opzione è selezionata, l’utente non viene informato che è necessario un aggiornamento della console.
+>Adobe consiglia di lasciare deselezionata l&#39;opzione **[!UICONTROL No longer ask this question]** per assicurarsi di ricevere un avviso quando è disponibile una nuova versione della console. Se questa opzione è selezionata, l’utente non viene informato che è necessario un aggiornamento della console.
 >
 
 
@@ -122,6 +122,10 @@ Ulteriori informazioni sugli utenti e su come definire le relative autorizzazion
 ### Interfaccia utente web {#connect-web-ui}
 
 A partire dalla versione di Campaign v8.6, potrai accedere alla nuova **interfaccia utente web di Campaign**, disponibile nell’ambiente Adobe Experience Cloud centrale. Experience Cloud è un insieme integrato di applicazioni, prodotti e servizi per il marketing digitale di Adobe. Grazie alla sua interfaccia intuitiva, puoi accedere rapidamente alle applicazioni cloud, alle funzionalità dei prodotti e ai servizi.
+
+>[!AVAILABILITY]
+>L’interfaccia utente di Campaign Web è disponibile solo per gli utenti che si connettono a Adobe Campaign con il proprio Adobe ID. Ulteriori informazioni su [Adobe Identity Management System (IMS)](https://helpx.adobe.com/it/enterprise/using/users.html){target="_blank"}.
+>
 
 Scopri come connetterti ad Adobe Experience Cloud e come accedere all’interfaccia di Adobe Campaign Web [in questa pagina](campaign-ui.md#ac-web-ui).
 
