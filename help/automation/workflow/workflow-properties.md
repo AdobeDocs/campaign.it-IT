@@ -4,16 +4,14 @@ title: Proprietà del flusso di lavoro
 description: Ulteriori informazioni sulle proprietà del flusso di lavoro di Campaign
 feature: Workflows
 exl-id: 7fef434e-f6bd-46a4-9ec2-0182f081c928
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 63b7eaba3ea7b580d9b6c3c0e0c015c057539aa8
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 39%
+source-wordcount: '628'
+ht-degree: 34%
 
 ---
 
 # Proprietà del flusso di lavoro{#workflow-properties}
-
-
 
 ## Scheda Esecuzione {#execution-tab}
 
@@ -54,6 +52,16 @@ Questa sezione viene visualizzata solo nei flussi di lavoro delle campagne.
 * **[!UICONTROL Execute in the engine]**
 
   Questa opzione può essere utilizzata solo per il debug e mai in produzione. Quando è abilitato, il flusso di lavoro ha la priorità e tutti gli altri flussi di lavoro vengono interrotti fino al termine di questo.
+
+* **[!UICONTROL Enable watchdog supervisor to keep workflow running permanently]**
+
+  Questa opzione forza il riavvio automatico dei flussi di lavoro in seguito a un errore. Quando è attivato, il riavvio controlla ogni 30 secondi lo stato del flusso di lavoro e lo riavvia quando necessario. Per regolare l&#39;intervallo di 30 secondi, è possibile creare l&#39;opzione tecnica `XtkWorkflow_WatchdogTimerTimeout` e utilizzare un tipo di dati integer per specificare il ritardo desiderato.
+
+  >[!NOTE]
+  >
+  >Questa opzione è destinata agli utenti avanzati e deve essere abilitata solo per **flussi di lavoro tecnici**.
+  >
+  >Per impostazione predefinita è abilitato per i flussi di lavoro di replica centralizzata disponibili con il pacchetto `fullFdaMkt`.
 
 ### Gestione degli errori {#error-management}
 
