@@ -5,7 +5,7 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 35702b81-1984-4a62-8f00-c2bc32ab2b42
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 1cb92c6075e9478b641b11eae52372a909258cd3
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 1%
@@ -22,6 +22,11 @@ ht-degree: 1%
 ## Informazioni su CCN e-mail {#gs-bcc}
 
 Puoi configurare Adobe Campaign per conservare una copia delle e-mail inviate dalla tua piattaforma. Questa opzione consente di inviare ai messaggi un indirizzo e-mail Ccn (Blind Carbon Copy) dedicato, da cui possono essere elaborati e archiviati utilizzando un sistema esterno.
+
+>[!CAUTION]
+>
+>Per motivi di privacy, le e-mail in formato Ccn devono essere elaborate da un sistema di archiviazione in grado di memorizzare informazioni personali (PII) protette.
+
 Adobe Campaign stessa non gestisce i file archiviati. I file .eml corrispondenti alle e-mail inviate possono quindi essere trasferiti su un server remoto, ad esempio un server e-mail SMTP.
 
 La destinazione di archiviazione è l’indirizzo e-mail Ccn scelto, che rimarrà invisibile ai destinatari della consegna. Una volta definito l&#39;indirizzo e-mail Ccn, devi abilitare l&#39;opzione dedicata al livello [modello di consegna](create-templates.md).
@@ -29,11 +34,6 @@ La destinazione di archiviazione è l’indirizzo e-mail Ccn scelto, che rimarr�
 >[!NOTE]
 >
 >In qualità di utente di Cloud Service gestiti, [contatta l&#39;Adobe](../start/campaign-faq.md#support){target="_blank"} per comunicare l&#39;indirizzo e-mail Ccn da utilizzare per l&#39;archiviazione.
-
->[!CAUTION]
->
->Per motivi di privacy, le e-mail in formato Ccn devono essere elaborate da un sistema di archiviazione in grado di memorizzare informazioni personali (PII) protette.
-
 
 ## Abilita CCN e-mail {#enable-bcc}
 
