@@ -6,7 +6,7 @@ feature: Application Settings
 role: Admin, Developer
 level: Beginner
 exl-id: 9fa6fc42-45be-41db-9b4a-19b3b0c40dcd
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 2f7496a0376776d35cf88b0e81365f6e414655fd
 workflow-type: tm+mt
 source-wordcount: '1848'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Puoi aggiungere cartelle a Esplora campagne, creare visualizzazioni e assegnare 
 
 Scopri come gestire cartelle e visualizzazioni in [questa pagina](../audiences/folders-and-views.md)
 
-## Gestire e personalizzare gli elenchi{#customize-lists}
+## Gestire e personalizzare gli elenchi {#customize-lists}
 
 Nella console client di Campaign, i dati vengono visualizzati in elenchi. È possibile adattare questi elenchi alle proprie esigenze. Ad esempio, puoi aggiungere colonne, filtrare dati, contare record, salvare e condividere le impostazioni.
 

@@ -4,16 +4,19 @@ description: Introduzione alle pagine di destinazione
 feature: Landing Pages
 role: User, Developer
 level: Beginner
-source-git-commit: 45999f56c2d9e4417c6a54987d8395b69cdd2b2f
+exl-id: ad639a39-f011-4f0f-9db6-d06078f2e7a2
+source-git-commit: 2f7496a0376776d35cf88b0e81365f6e414655fd
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 8%
+source-wordcount: '228'
+ht-degree: 24%
 
 ---
 
 # Creare e gestire pagine di destinazione {#ac-gs-lp}
 
-[L&#39;interfaccia utente di Adobe Campaign v8](../start/campaign-ui.md#campaign-web-user-interface-ac-web-ui) include un&#39;esperienza utente riprogettata per le pagine di destinazione. Campaign ti consente di creare, progettare e condividere pagine di destinazione. Le pagine di destinazione consentono di indirizzare gli utenti a moduli online in cui possono aggiornare i dati, rinunciare o rinunciare alla ricezione delle comunicazioni o iscriversi a un servizio specifico, ad esempio una newsletter. In qualità di utente di Campaign v8, puoi accedere a questa nuova interfaccia utente per eseguire attività e semplificare la tua esperienza mentre utilizzi Adobe Campaign. Ulteriori informazioni su
+Le pagine di destinazione consentono di indirizzare gli utenti a moduli online in cui possono aggiornare i dati, acconsentire o rinunciare alla ricezione delle comunicazioni o iscriversi a un servizio specifico, ad esempio una newsletter.
+
+Per creare pagine di destinazione, passa all&#39;[interfaccia utente Web](../start/campaign-ui.md#campaign-web-user-interface-ac-web-ui). Adobe Campaign viene fornito con un’esperienza utente riprogettata per le pagine di destinazione, disponibile solo nell’interfaccia utente web.
 
 
 >[!AVAILABILITY]
