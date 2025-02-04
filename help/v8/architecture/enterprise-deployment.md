@@ -5,9 +5,9 @@ feature: Architecture, FFDA, Deployment
 role: Admin, Developer
 level: Beginner
 exl-id: 0a6f6701-b137-4320-9732-31946509ee03
-source-git-commit: 9d500f185a9e706b6558135978c4f8c79d92d0d4
+source-git-commit: 3235701e0939466d4275b1e9202f82694ccdb352
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1053'
 ht-degree: 50%
 
 ---
@@ -55,7 +55,7 @@ Il database [!DNL Snowflake] sul lato marketing viene utilizzato per:
 * Memorizza tutti i dati del cliente: profili, dati personalizzati come transazioni, prodotti, posizioni, ecc.
 * Memorizza tutti gli eventi e i dati di comportamento generati o raccolti da Campaign, ad esempio i registri di consegna, di tracciamento, di registrazione push e così via.
 * Memorizza tutti gli aggregati di dati di cui sopra.
-* Memorizza una copia (h+1) delle tabelle di riferimento (come consegne, enumerazioni, paesi, ecc.) utilizzati nei flussi di lavoro, nelle campagne e nei rapporti.
+* Memorizza una copia (h+1) delle tabelle di riferimento (come consegne, enumerazioni, paesi, ecc.) utilizzate nei flussi di lavoro, nelle campagne e nei rapporti.
 * Eseguire tutti i processi batch e i carichi di lavoro
 
 
@@ -63,7 +63,7 @@ Il database PostgreSQL nell’istanza di marketing viene utilizzato per:
 
 * Eseguire determinati carichi di lavoro, ad esempio API per volumi ridotti.
 * Memorizza tutti i dati di Campaign, incluse le impostazioni di consegna e campagna, le definizioni di flussi di lavoro e servizi.
-* Memorizza tutte le tabelle di riferimento incorporate (enumerazioni, paesi, ecc.) replicati in [!DNL Snowflake].
+* Memorizza tutte le tabelle di riferimento incorporate (enumerazioni, paesi, ecc.) replicate in [!DNL Snowflake].
 
   Tuttavia, non è possibile:
    * creare personalizzazioni per i dati dei clienti, ad esempio non creare una tabella domestica in PostgreSQL, ma solo nel Snowflake
@@ -82,9 +82,7 @@ Il database PostgreSQL nell’istanza di mid-sourcing viene utilizzato per:
 
 ### Meccanismo di staging API [!DNL Campaign]{#staging-api}
 
-Con il database cloud [!DNL Campaign], le chiamate unitarie blast non sono consigliate a causa delle prestazioni (latenza e concorrenza). A meno che non invii volumi di invio elevati, è necessario utilizzare le operazioni batch per garantire prestazioni ottimali delle API, Campaign continua a gestire le chiamate API a livello di database locale.
-
-[Il meccanismo di staging API è descritto in questa pagina](staging.md)
+Con il database cloud [!DNL Campaign], non è consigliabile attivare chiamate unitarie per quanto riguarda le prestazioni (latenza e concorrenza). A meno che non si invii un volume estremamente basso, le operazioni batch devono essere utilizzate per garantire prestazioni API ottimali. Per migliorare le prestazioni, le API di acquisizione vengono reindirizzate al database locale. [Ulteriori informazioni sul meccanismo di staging delle API di Campaign](staging.md)
 
 ### Nuove API{#new-apis}
 
