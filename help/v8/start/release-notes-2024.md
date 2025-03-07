@@ -3,10 +3,10 @@ title: Note sulla versione 2024 di Campaign v8 (console)
 description: Elenco delle funzioni e dei miglioramenti introdotti con le versioni v8 di Campaign 2024
 feature: Release Notes
 exl-id: 6a0a9486-19a9-4ec3-9030-48dbf419f45f
-source-git-commit: 54cc5686cc5187a1ab0514abcaf9fcd69e7a1ede
+source-git-commit: 041df8d2d6128d72a04008affbc9680ba5b640a1
 workflow-type: tm+mt
-source-wordcount: '1217'
-ht-degree: 88%
+source-wordcount: '1308'
+ht-degree: 81%
 
 ---
 
@@ -48,7 +48,16 @@ _2 maggio 2024_
 
 ### Aggiornamenti della compatibilità {#comp-8-7-1}
 
-* Databricks è ora supportato come database esterno con Federated Data Access (FDA) di Adobe Campaign. Per ulteriori informazioni, consulta [questa pagina](compatibility-matrix.md#FederatedDataAccessFDA).
+Sono stati aggiunti i seguenti connettori FDA. Fai riferimento a questa [pagina](compatibility-matrix.md#FederatedDataAccessFDA).
+
+* I database sono ora supportati come database esterno con Federated Data Access (FDA) di Adobe Campaign.
+
+* È ora disponibile un nuovo connettore ODBC Amazon Redshift FDA. Offre connettività migliorata, manutenzione semplificata e compatibilità migliorata. Questa nuova versione include i seguenti miglioramenti:
+
+   * Il nuovo connettore si basa sull&#39;interfaccia ODBC che si allinea ai nostri connettori FDA più recenti. Questo garantisce un supporto a lungo termine.
+   * Inoltre, introduce un nuovo meccanismo di caricamento dei dati utilizzando bucket s3, che migliora in modo significativo le prestazioni.
+
+  È comunque possibile utilizzare il connettore legacy. Se vuoi provare il nuovo, contatta il tuo rappresentante Adobe.
 
 ### Migrazione alle credenziali OAuth server-to-server {#change-8-7-1}
 
@@ -123,7 +132,7 @@ _14 febbraio 2024_
 
   >[!AVAILABILITY]
   >
-  >L’interfaccia utente di Campaign Web è disponibile solo per gli utenti che si connettono a Adobe Campaign con il proprio Adobe ID. Ulteriori informazioni su [Adobe Identity Management System (IMS)](https://helpx.adobe.com/it/enterprise/using/users.html){target="_blank"}.
+  >L’interfaccia utente di Campaign Web è disponibile solo per gli utenti che si connettono a Adobe Campaign con il proprio Adobe ID. Ulteriori informazioni su [Adobe Identity Management System (IMS)](https://helpx.adobe.com/it/enterprise/using/identity.html){target="_blank"}.
   >
 
 * Adobe Campaign v8 ora si integra con **Adobe Experience Manager as a Cloud Service** e l’authoring sarà disponibile esclusivamente tramite l’interfaccia utente di Adobe Campaign Web. [Ulteriori informazioni](../connect/ac-aem.md)
