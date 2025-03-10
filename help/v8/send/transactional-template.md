@@ -5,9 +5,9 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 858c9216-c5a0-4bf9-b4b0-91e403293f73
-source-git-commit: 253f3be945cbfa304fa7342c68f0c73b079e2870
+source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1170'
 ht-degree: 1%
 
 ---
@@ -42,14 +42,14 @@ Per creare un modello di messaggio, effettua le seguenti operazioni:
 
 ## Creare il contenuto{#create-message-content}
 
-La definizione del contenuto dei messaggi transazionali è la stessa di tutte le consegne in Adobe Campaign. Ad esempio, per una consegna e-mail, puoi creare contenuto in formato HTML o testo, aggiungere allegati o personalizzare l’oggetto di consegna. [Ulteriori informazioni](../start/create-message.md).
+La definizione del contenuto dei messaggi transazionali è la stessa di tutte le consegne in Adobe Campaign. Ad esempio, per una consegna e-mail, puoi creare contenuti in formato HTML o testo, aggiungere allegati o personalizzare l’oggetto di consegna. [Ulteriori informazioni](../start/create-message.md).
 
 >[!CAUTION]
 >
 >Le immagini incluse nel messaggio devono essere accessibili al pubblico. Adobe Campaign non fornisce alcun meccanismo di caricamento di immagini per i messaggi transazionali.\
 >A differenza di JSSP o WebApp, `<%=` non ha alcun escape predefinito.
 >
->Devi eseguire correttamente l’escape di ogni dato proveniente dall’evento. L’escape dipende da come viene utilizzato questo campo. Ad esempio, all’interno di un URL, utilizza encodeURIComponent. Per essere visualizzato in HTML, è possibile utilizzare escapeXMLString.
+>Devi eseguire correttamente l’escape di ogni dato proveniente dall’evento. L’escape dipende da come viene utilizzato questo campo. Ad esempio, all’interno di un URL, utilizza encodeURIComponent. Per essere visualizzato in HTML, puoi utilizzare escapeXMLString.
 
 Dopo aver definito il contenuto del messaggio, puoi integrare le informazioni sull’evento nel corpo del messaggio e personalizzarlo. Le informazioni sull’evento vengono inserite nel corpo del testo grazie ai tag di personalizzazione.
 
@@ -60,7 +60,7 @@ Dopo aver definito il contenuto del messaggio, puoi integrare le informazioni su
 
 Per inserire i tag di personalizzazione nel corpo di un messaggio e-mail, effettua le seguenti operazioni:
 
-1. Nel modello del messaggio, fai clic sulla scheda corrispondente al formato e-mail (HTML o testo).
+1. Nel modello del messaggio, fai clic sulla scheda corrispondente al formato dell’e-mail (HTML o testo).
 1. Inserisci il corpo del messaggio.
 1. Nel corpo del testo, inserire il tag utilizzando i menu **[!UICONTROL Real time events>Event XML]**.
 
@@ -82,7 +82,7 @@ Un indirizzo di seed consente di visualizzare un’anteprima del messaggio, invi
 
 1. Assegna un’etichetta a esso per una facile selezione in un secondo momento, quindi inserisci l’indirizzo seed (e-mail o telefono cellulare a seconda del canale di comunicazione).
 
-1. Immetti l’identificatore esterno: questo campo opzionale ti consente di immettere una chiave aziendale (ID univoco, nome + e-mail, ecc.) comune a tutte le applicazioni sul sito web, utilizzato per identificare i profili. Se questo campo è presente anche nel database di marketing di Adobe Campaign, puoi riconciliare un evento con un profilo nel database.
+1. Inserisci l’identificatore esterno: questo campo opzionale ti consente di inserire una chiave aziendale (ID univoco, nome + e-mail, ecc.) comune a tutte le applicazioni sul sito web, utilizzata per identificare i profili. Se questo campo è presente anche nel database di marketing di Adobe Campaign, puoi riconciliare un evento con un profilo nel database.
 
    ![](assets/messagecenter_create_seed_2.png)
 
@@ -161,7 +161,7 @@ Per inviare la bozza:
 
 #### Transizione da [!DNL Campaign Classic] v7 {#transition-from-v7}
 
-Se [stai passando da Campaign Classic v7](../start/v7-to-v8.md), tutte le consegne passano attraverso il server di mid-sourcing.
+Se [esegui la transizione da Campaign Classic v7](../start/v7-to-v8.md), tutte le consegne passano attraverso il server MID-sourcing.
 
 Tuttavia, quando si crea un modello di messaggio transazionale, il routing necessario per il corretto utilizzo del modello è **consegna e-mail interna**. Questo ciclo impedisce l’invio di bozze.
 
@@ -171,7 +171,7 @@ Di conseguenza, per inviare una bozza per il modello di messaggio transazionale,
 
 Una volta inviate le bozze, devi ripristinare il routing alla consegna e-mail interna prima di pubblicare il modello di messaggio transazionale.
 
-## Publish il modello {#publish-message-template}
+## Pubblicare il modello {#publish-message-template}
 
 Quando il modello di messaggio creato<!-- on the control instance--> è completo, è possibile pubblicarlo, in modo da poter inviare messaggi collegati a eventi batch e in tempo reale.
 

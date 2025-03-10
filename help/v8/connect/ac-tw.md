@@ -5,9 +5,9 @@ role: User, Admin
 feature: Social Marketing
 level: Beginner, Intermediate
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1066'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ Il modulo **Gestione dei social network (Social Marketing)** consente di interag
 
 >[!NOTE]
 >
->In qualità di utente di Cloud Service gestiti, [contatta l&#39;Adobe](../start/campaign-faq.md#support) per connettere Campaign a X. Il componente aggiuntivo **Gestione dei social network (Social Marketing)** deve essere installato nel tuo ambiente tramite il pacchetto dedicato e deve essere configurato l&#39;account esterno del Twitter.
+>In qualità di utente di Managed Cloud Services, [contatta Adobe](../start/campaign-faq.md#support) per connettere Campaign a X. Il componente aggiuntivo **Gestione dei social network (Social Marketing)** deve essere installato nel tuo ambiente tramite il pacchetto dedicato e l&#39;account esterno Twitter deve essere configurato.
 
 
 Per configurare Adobe Campaign per la pubblicazione di tweet sui tuoi account X, delega l’accesso in scrittura ad Adobe Campaign per questi account. A questo scopo, devi:
@@ -56,7 +56,7 @@ Dopo aver ricevuto l’approvazione con accesso privilegiato, crea un’applicaz
 
    ![](assets/tw-app-type.png)
 
-1. Torna al dashboard dell&#39;app, seleziona l&#39;app e passa alla scheda **Tasti e token**. In **Token di accesso e segreto**, se l&#39;autorizzazione **Messaggi diretti, di lettura e scrittura** non è menzionata, è necessario rigenerare il token e il segreto dell&#39;app. Tieni presente che tutte le chiavi e i token devono essere salvati al momento della creazione. Saranno necessarie per configurare il servizio di Twitter Campaign.
+1. Torna al dashboard dell&#39;app, seleziona l&#39;app e passa alla scheda **Tasti e token**. In **Token di accesso e segreto**, se l&#39;autorizzazione **Messaggi diretti, di lettura e scrittura** non è menzionata, è necessario rigenerare il token e il segreto dell&#39;app. Tieni presente che tutte le chiavi e i token devono essere salvati al momento della creazione. Saranno necessarie per configurare il servizio Campaign Twitter.
 
    ![](assets/tw-permissions-check.png)
 
@@ -66,15 +66,15 @@ Dopo aver ricevuto l’approvazione con accesso privilegiato, crea un’applicaz
 >È necessaria un&#39;applicazione per ogni account X. Di conseguenza, devi creare un’altra applicazione di test per inviare le bozze al tuo account di test.
 >
 
-## Creazione di un servizio di Twitter in Campaign {#create-tw-service}
+## Creare un servizio Twitter in Campaign {#create-tw-service}
 
-Per collegare la tua istanza di Campaign all&#39;account X, crea un servizio di **Twitter** e delega l&#39;accesso in scrittura a Campaign.
+Per collegare la tua istanza di Campaign all&#39;account X, crea un servizio **Twitter** e delega l&#39;accesso in scrittura a Campaign.
 
 >[!CAUTION]
 >
 >Crea un servizio **Twitter** per ogni account X. Di conseguenza, devi creare un altro servizio di test per inviare le bozze al tuo [account di test](#tw-test-account).
 >
->Ogni servizio **Twitter** deve essere creato anche da Adobe nell&#39;istanza MID. Contatta il rappresentante del tuo Adobe per configurare l’ambiente.
+>Ogni servizio **Twitter** deve essere creato anche da Adobe nell&#39;istanza MID (mid-sourcing). Contatta il rappresentante Adobe per configurare l’ambiente.
 >
 
 Per immettere le impostazioni, devi accedere sia alla console client di Adobe Campaign che alle autorizzazioni della tua app X.
@@ -106,7 +106,7 @@ Per immettere le impostazioni, devi accedere sia alla console client di Adobe Ca
 Per verificare le impostazioni, è possibile:
 
 * Modifica il servizio **Twitter** appena creato.
-* Sfoglia la scheda **[!UICONTROL Twitter page]**: dovrebbe essere visualizzato l&#39;account di Twitter.
+* Sfoglia la scheda **[!UICONTROL Twitter page]**: dovrebbe essere visualizzato il tuo account Twitter.
   ![](assets/tw-page.png)
 
 ## Sincronizza il tuo account X {#synchro-tw-accounts}
@@ -132,7 +132,7 @@ Per ogni follower, Adobe Campaign memorizza le seguenti informazioni:
 * **[!UICONTROL Username]**: nome account dell&#39;utente
 * **[!UICONTROL Full name]**: nome dell&#39;utente
 * **[!UICONTROL Number of friends]**: numero di follower
-* **[!UICONTROL Checked]**: questo campo indica se l&#39;utente dispone di un account di Twitter verificato
+* **[!UICONTROL Checked]**: questo campo indica se l&#39;utente dispone di un account Twitter verificato
 
 Al termine della configurazione, puoi creare post sui tuoi account X e inviare messaggi diretti ai tuoi follower. [Ulteriori informazioni](../send/twitter.md)
 
@@ -142,7 +142,7 @@ Oltre all&#39;account X, crea un account X privato che può essere utilizzato pe
 
 1. Crea un nuovo account X.
 1. Accedi all&#39;account **Impostazioni**.
-1. Cerca **Privacy e sicurezza** e **Pubblico e assegnazione tag** e seleziona l&#39;opzione **Protect tuoi post**. I tuoi post e altre informazioni sull&#39;account sono visibili solo alle persone che ti seguono.
+1. Passa a **Privacy e sicurezza** e **Pubblico e assegnazione tag** e seleziona l&#39;opzione **Proteggi i tuoi post**. I tuoi post e altre informazioni sull&#39;account sono visibili solo alle persone che ti seguono.
 
 ![](assets/do-not-localize/social_tw_test_page.png)
 

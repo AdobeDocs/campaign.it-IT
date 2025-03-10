@@ -5,9 +5,9 @@ feature: Architecture, Deployment
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1039'
 ht-degree: 10%
 
 ---
@@ -34,7 +34,7 @@ Sono disponibili due modelli di distribuzione: **Distribuzione FDA campagna** (P
 
 ### Distribuzione FDA di Campaign {#ac-deployment-fda}
 
-Nella distribuzione [FDA](fda-deployment.md), [!DNL Adobe Campaign] v8 può essere connesso a [!DNL Snowflake] per accedere ai dati tramite la funzionalità Federated Data Access: è possibile accedere ed elaborare dati e informazioni esterni archiviati nel database [!DNL Snowflake] senza modificare la struttura dei dati di Adobe Campaign. PostgreSQL è il database primario ed è possibile utilizzare Snowflake come database secondario per estendere quindi il modello dati e archiviare i dati nel Snowflake. Successivamente, puoi eseguire ETL, segmentazione e rapporti su un set di dati di grandi dimensioni con prestazioni eccezionali.
+Nella distribuzione [FDA](fda-deployment.md), [!DNL Adobe Campaign] v8 può essere connesso a [!DNL Snowflake] per accedere ai dati tramite la funzionalità Federated Data Access: è possibile accedere ed elaborare dati e informazioni esterni archiviati nel database [!DNL Snowflake] senza modificare la struttura dei dati di Adobe Campaign. PostgreSQL è il database principale e puoi utilizzare Snowflake come database secondario per estendere il modello dati e archiviare i dati in Snowflake. Successivamente, puoi eseguire ETL, segmentazione e rapporti su un set di dati di grandi dimensioni con prestazioni eccezionali.
 
 
 ![](assets/P1-P3-architecture.png){zoomable="yes"}
@@ -57,7 +57,7 @@ Campaign v8 Enterprise introduce il concetto di **Full Federated Data Access** (
 
 >[!AVAILABILITY]
 >
->Questa funzione è disponibile solo per i clienti con più configurazioni di istanze MID.
+>Questa funzione è disponibile solo per i clienti con più configurazioni di istanze MID-sourcing.
 
 A seconda del pacchetto Campaign v8, ti viene fornito un numero specifico di istanze di mid-sourcing responsabili dell’esecuzione delle consegne.
 
@@ -76,9 +76,9 @@ A questo scopo, vengono creati account esterni aggiuntivi con la modalità di ro
 
 >[!IMPORTANT]
 >
->Per impostazione predefinita, la modalità di routing diviso è abilitata per l’account &quot;Consegna divisa - E-mail&quot;. Per tutti gli altri account esterni dei canali, contatta l’Adobe Transition Manager per abilitare l’opzione.
+>Per impostazione predefinita, la modalità di routing diviso è abilitata per l’account &quot;Consegna divisa - E-mail&quot;. Per tutti gli altri account esterni dei canali, contatta il tuo Adobe Transition Manager per far sì che l’opzione sia abilitata.
 >
->Per impostazione predefinita, il valore di dimensione della soglia per suddividere una consegna tra più mid è 100.000. È possibile modificare questo valore nell&#39;opzione &quot;NmsDelivery_MultiMidSplitThreshold&quot; del menu **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL Options]**.
+>Per impostazione predefinita, il valore di dimensione soglia per suddividere una consegna tra più istanze di mid-sourcing (MID) è 100.000. È possibile modificare questo valore nell&#39;opzione &quot;NmsDelivery_MultiMidSplitThreshold&quot; del menu **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL Options]**.
 
 Per impostare gli account esterni suddivisi come account predefinito per l’invio delle consegne, devi cambiare il provider di indirizzamento nei modelli di consegna. Per farlo, segui questi passaggi:
 
@@ -123,8 +123,8 @@ In questa architettura specifica, la cella di esecuzione è separata dall’ista
 Per utilizzare queste funzionalità, gli utenti di Adobe Campaign accedono all’istanza di controllo per creare modelli di messaggi transazionali, generare l’anteprima dei messaggi utilizzando un elenco di seed, visualizzare i rapporti e monitorare le istanze di esecuzione.
 
 * Istanza di esecuzione singola
-Quando interagisce con un’istanza di esecuzione del Centro messaggi ospitata da un Adobe, un sistema esterno può prima recuperare un token di sessione (che per impostazione predefinita scade tra 24 ore), effettuando una chiamata API al metodo di accesso alla sessione, utilizzando un account di accesso e una password forniti.
-Quindi, con il sessionToken fornito dall’istanza di esecuzione in risposta alla chiamata di cui sopra, l’applicazione esterna può effettuare chiamate API SOAP (rtEvents o batchEvents) per inviare comunicazioni, senza la necessità di includere in ogni chiamata SOAP l’accesso e la password dell’account.
+Quando interagisce con un’istanza di esecuzione del Centro messaggi ospitata da Adobe, un sistema esterno può prima recuperare un token di sessione (che per impostazione predefinita scade tra 24 ore), effettuando una chiamata API al metodo di accesso alla sessione, utilizzando un account di accesso e una password forniti.
+Quindi, con il sessionToken fornito dall’istanza di esecuzione in risposta alla chiamata di cui sopra, l’applicazione esterna può effettuare chiamate API di SOAP (rtEvents o batchEvents) per inviare comunicazioni, senza la necessità di includere in ogni chiamata di SOAP l’accesso e la password dell’account.
 
 * Più istanze di esecuzione
 In un’architettura di esecuzione a più celle con più istanze di esecuzione dietro un load balancer, il metodo di accesso richiamato dall’applicazione esterna passa attraverso il load balancer: per questo motivo, non è possibile utilizzare un’autenticazione basata su token. È necessaria un&#39;autenticazione basata su utente/password.

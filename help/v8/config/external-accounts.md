@@ -5,9 +5,9 @@ feature: Application Settings, External Account
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1049'
 ht-degree: 4%
 
 ---
@@ -26,7 +26,7 @@ Gli account esterni sono utilizzati da processi tecnici quali flussi di lavoro t
 
 >[!CAUTION]
 >
->* In qualità di utente di Managed Cloud Service, gli account esterni sono configurati per la tua istanza da Adobe e non devono essere modificati.
+>* In qualità di utente di Managed Cloud Services, gli account esterni vengono configurati per la tua istanza da Adobe e non devono essere modificati.
 >
 >* Nel contesto di una distribuzione [Enterprise (FFDA)](../architecture/enterprise-deployment.md), un account esterno **[!UICONTROL Full FDA]** (ffda) specifico gestisce la connessione tra il database locale di Campaign e il database cloud ([!DNL Snowflake]).
 >
@@ -35,7 +35,7 @@ Gli account esterni sono utilizzati da processi tecnici quali flussi di lavoro t
 
 I seguenti account tecnici vengono utilizzati da Adobe Campaign per abilitare ed eseguire processi specifici.
 
-### Messaggi non recapitati {#bounce-mails-external-account}
+### E-mail non recapitate {#bounce-mails-external-account}
 
 >[!NOTE]
 >
@@ -87,6 +87,8 @@ Per configurare un POP3 esterno tramite Microsoft OAuth 2.0, seleziona l’opzio
 
 L&#39;account esterno **[!UICONTROL Routing]** consente di configurare ogni canale disponibile in Adobe Campaign in base ai pacchetti installati.
 
+Ulteriori informazioni sulla gestione degli account esterni e sull&#39;esecuzione della consegna in [questa sezione](../architecture/architecture.md#split).
+
 ### Istanza di esecuzione {#execution-instance}
 
 Nel contesto della messaggistica transazionale, le istanze di esecuzione sono collegate all’istanza di controllo e le connettono. I modelli di messaggi transazionali vengono distribuiti nell’istanza di esecuzione. Ulteriori informazioni sull&#39;architettura del Centro messaggi in [questa pagina](../architecture/architecture.md#transac-msg-archi).
@@ -99,9 +101,9 @@ Nel contesto della messaggistica transazionale, le istanze di esecuzione sono co
 
 * **X (precedentemente noto come Twitter)** - L&#39;account esterno di tipo **Twitter** viene utilizzato per connettere Campaign al tuo account X, per pubblicare messaggi per tuo conto. Ulteriori informazioni sull&#39;integrazione X in [questa sezione](../connect/ac-tw.md).
 
-## Account esterni di Adobe Solution Integration {#adobe-integration-external-accounts}
+## Account esterni per l’integrazione delle soluzioni Adobe {#adobe-integration-external-accounts}
 
-* **Adobe Experience Cloud** - L&#39;account esterno **[!UICONTROL Adobe Experience Cloud]** è utilizzato per implementare Adobe Identity Management Service (IMS) per connettersi ad Adobe Campaign. Ulteriori informazioni su Identity Management Service (IMS) Adobe sono disponibili in [questa sezione](../start/connect.md#logon-to-ac).
+* **Adobe Experience Cloud** - L&#39;account esterno **[!UICONTROL Adobe Experience Cloud]** è utilizzato per implementare Adobe Identity Management Service (IMS) per connettersi ad Adobe Campaign. Ulteriori informazioni su Adobe Identity Management Service (IMS) sono disponibili in [questa sezione](../start/connect.md#logon-to-ac).
 
 * **Web Analytics** - L&#39;account esterno **[!UICONTROL Web Analytics (Adobe Analytics)]** viene utilizzato per configurare il trasferimento di dati da Adobe Analytics ad Adobe Campaign. Ulteriori informazioni sull&#39;integrazione Adobe Campaign - Adobe Analytics in [questa pagina](../connect/ac-aa.md).
 
@@ -110,9 +112,9 @@ Nel contesto della messaggistica transazionale, le istanze di esecuzione sono co
 
 ## Account esterni del connettore CRM {#crm-external-accounts}
 
-* **Microsoft Dynamics CRM** - L&#39;account esterno **[!UICONTROL Microsoft Dynamics CRM]** consente di importare ed esportare dati di Microsoft Dynamics in Adobe Campaign. Ulteriori informazioni sull&#39;integrazione tra Adobe Campaign e Microsoft Dynamics CRM in [questa pagina](../connect/ac-ms-dyn.md).
+* **Microsoft Dynamics CRM** - L&#39;account esterno **[!UICONTROL Microsoft Dynamics CRM]** ti consente di importare ed esportare dati Microsoft Dynamics in Adobe Campaign. Ulteriori informazioni sull&#39;integrazione tra Adobe Campaign e Microsoft Dynamics CRM in [questa pagina](../connect/ac-ms-dyn.md).
 
-* **Salesforce.com** - L&#39;account esterno **[!UICONTROL Salesforce CRM]** ti consente di importare ed esportare dati Salesforce in Adobe Campaign. Ulteriori informazioni sull&#39;integrazione di Adobe Campaign - Salesforce.com CRM in [questa pagina](../connect/ac-sfdc.md).
+* **Salesforce.com** - L&#39;account esterno **[!UICONTROL Salesforce CRM]** consente di importare ed esportare dati Salesforce in Adobe Campaign. Ulteriori informazioni sull&#39;integrazione di Adobe Campaign - Salesforce.com CRM in [questa pagina](../connect/ac-sfdc.md).
 
 ## Trasferisci dati account esterni {#transfer-data-external-accounts}
 
