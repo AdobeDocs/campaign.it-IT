@@ -5,10 +5,10 @@ feature: Permissions
 role: User, Admin
 level: Beginner
 exl-id: 3d61abac-03df-42d3-a950-37e41a5a7756
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 19f85d4e19f756d8a45ce5364dd0601373128f50
 workflow-type: tm+mt
 source-wordcount: '515'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 1%
 
 Adobe Campaign ti consente di definire e gestire i diritti assegnati agli utenti. Si tratta di una serie di diritti e restrizioni che autorizzano o negano:
 
-* Accesso a determinate funzionalità
-* Accesso a determinati dati
-* Accesso a determinate azioni (creazione, modifica, eliminazione)
+* Accedere a determinate funzionalità
+* Accedere a determinati dati
+* Accedere a determinate azioni (creazione, modifica, eliminazione)
 
 Queste autorizzazioni vengono definite combinando le autorizzazioni del gruppo di operatori, i diritti denominati e le autorizzazioni per le cartelle.
 
-In Adobe Campaign, gli utenti sono **operatori** e **gruppi di operatori** rappresentano ruoli utente. Un operatore è un utente di Adobe Campaign che dispone delle autorizzazioni per accedere ed eseguire azioni. Gli utenti vengono creati nell’Admin Console. Le autorizzazioni si applicano ai profili utente o ai gruppi di utenti. È possibile concedere due tipi di autorizzazioni:
+In Adobe Campaign, gli utenti sono **operatori** e **gruppi di operatori** rappresentano ruoli utente. Un operatore è un utente di Adobe Campaign che dispone delle autorizzazioni per accedere ed eseguire azioni. Gli utenti vengono creati in Admin Console. Le autorizzazioni si applicano ai profili utente o ai gruppi di utenti. È possibile concedere due tipi di autorizzazioni:
 
 * È possibile definire gruppi di operatori a cui si attribuiscono diritti, quindi associare gli operatori a uno o più gruppi. Questo consente di riutilizzare i diritti e rendere più coerenti i profili dell’operatore. Semplifica inoltre la gestione e la manutenzione dei profili utente.
 * Puoi assegnare i diritti denominati direttamente agli utenti, in alcuni casi per sovraccaricare i diritti allocati tramite i gruppi.
@@ -40,11 +40,11 @@ Puoi utilizzare i profili di prodotto incorporati per iniziare con. [Ulteriori i
 * **Passaggio 3**: crea utenti in Adobe Admin Console e assegnali a un profilo di prodotto. [Ulteriori informazioni](manage-permissions.md#add-users).
 * **Passaggio 4** (facoltativo): assegnare autorizzazioni alle cartelle. [Ulteriori informazioni](manage-permissions.md#ootb-productprofiles).
 
-## Informazioni sull’Admin Console{#gs-admin-console}
+## Informazioni su Admin Console{#gs-admin-console}
 
-Adobe Admin Console è una posizione centrale per la gestione dei diritti Adobi in tutta l’organizzazione. È accessibile solo agli amministratori di prodotto.
+Adobe Admin Console è una posizione centrale per la gestione delle adesioni Adobe in tutta l’organizzazione. È accessibile solo agli amministratori di prodotto.
 
-Utilizza l’Admin Console per aggiungere utenti, creare e assegnare profili di prodotto (che sono gruppi di ruoli dell’operatore).
+Utilizza Admin Console per aggiungere utenti, creare e assegnare profili di prodotto (che sono gruppi di ruoli dell’operatore).
 
 Scopri come aggiungere utenti in [questa pagina](manage-permissions.md#add-users).
 
@@ -52,7 +52,7 @@ Scopri come aggiungere utenti in [questa pagina](manage-permissions.md#add-users
 
 I profili di prodotto sono gruppi di prodotti e servizi che puoi assegnare agli utenti. In Adobe Experience Cloud, le autorizzazioni si basano sul profilo di un prodotto, non sull’utente. Tuttavia, puoi delegare i diritti di amministratore a utenti specifici.
 
-Nell&#39;Admin Console, ogni **profilo di prodotto** di Adobe Experience Cloud per Campaign è associato a un **gruppo di operatori** nella console client di Campaign.
+In Admin Console, ogni **profilo di prodotto** di Adobe Experience Cloud per Campaign è associato a un **gruppo di operatori** nella console client di Campaign.
 
 Scopri come creare e assegnare profili di prodotto in [questa pagina](manage-permissions.md#create-a-product-profile).
 
