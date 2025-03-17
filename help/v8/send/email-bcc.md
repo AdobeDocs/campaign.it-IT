@@ -5,7 +5,7 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 35702b81-1984-4a62-8f00-c2bc32ab2b42
-source-git-commit: 1cb92c6075e9478b641b11eae52372a909258cd3
+source-git-commit: 286af4739c33b79c74b3cb7fa90ad167670a4b4c
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 1%
@@ -33,7 +33,7 @@ La destinazione di archiviazione è l’indirizzo e-mail Ccn scelto, che rimarr�
 
 >[!NOTE]
 >
->In qualità di utente di Cloud Service gestiti, [contatta l&#39;Adobe](../start/campaign-faq.md#support){target="_blank"} per comunicare l&#39;indirizzo e-mail Ccn da utilizzare per l&#39;archiviazione.
+>In qualità di utente di Managed Cloud Services, [contatta Adobe](../start/campaign-faq.md#support){target="_blank"} per comunicare l&#39;indirizzo e-mail Ccn da utilizzare per l&#39;archiviazione.
 
 ## Abilita CCN e-mail {#enable-bcc}
 
@@ -42,7 +42,7 @@ Per abilitare Ccn per uno specifico [modello di consegna](create-templates.md), 
 1. Da Esplora campagne, passa alla cartella dei modelli di consegna. Per impostazione predefinita, i modelli di consegna sono archiviati nella cartella **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Modifica il modello di consegna da aggiornare con Ccn.
 1. Fai clic sul pulsante **[!UICONTROL Properties]**.
-1. Dalla scheda **[!UICONTROL Delivery]**, seleziona l&#39;opzione **[!UICONTROL Email BCC]**.
+1. Dalla scheda **[!UICONTROL Delivery]**, seleziona l&#39;opzione **[!UICONTROL Email BCC with enhanced Momentum]**.
 
    ![](assets/email-bcc.png)
 
