@@ -1,14 +1,13 @@
 ---
 title: Integrare gli SDK di Campaign con la tua app
 description: Scopri come integrare gli SDK di Campaign Android e iOS con la tua app
-version: v8
 feature: Push
 role: Admin, Developer
 level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+source-git-commit: a288845e1f092d293d679fa9aaaf6d609de85230
 workflow-type: tm+mt
 source-wordcount: '1230'
 ht-degree: 1%
@@ -21,17 +20,17 @@ Puoi utilizzare gli SDK di Campaign per iOS e Android per facilitare l’integra
 
 Le versioni supportate di Android e iOS e le versioni compatibili con gli SDK di Campaign per Campaign v8 sono elencate nella [Matrice di compatibilità](../start/compatibility-matrix.md#MobileSDK).
 
-In qualità di amministratore di Campaign, puoi scaricare gli SDK di Campaign dalla [Distribuzione di software di Experience Cloud](https://experience.adobe.com/#/downloads/content/software-distribution/it/campaign.html). Per ulteriori informazioni, contatta [l&#39;Assistenza clienti Adobe](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+In qualità di amministratore di Campaign, puoi scaricare gli SDK di Campaign dalla [Distribuzione di software di Experience Cloud](https://experience.adobe.com/#/downloads/content/software-distribution/it/campaign.html). Per ulteriori informazioni, contatta l&#39;[Assistenza clienti Adobe](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 
 >[!NOTE]
 >
->Puoi anche utilizzare l’SDK di Adobe Experience Platform Mobile configurando l’estensione Adobe Campaign nell’interfaccia utente di Data Collection. [Ulteriori informazioni sono disponibili nella documentazione per gli sviluppatori](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
+>Puoi anche utilizzare Adobe Experience Platform Mobile SDK configurando l’estensione Adobe Campaign nell’interfaccia utente di Data Collection. [Ulteriori informazioni sono disponibili nella documentazione per gli sviluppatori](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
 >
 
 ## Dichiarare le impostazioni di integrazione {#declaring-integration-settings}
 
-Per integrare l’SDK di Campaign nell’app mobile, l’amministratore funzionale deve fornire le seguenti informazioni allo sviluppatore:
+Per integrare Campaign SDK nell’app mobile, l’amministratore funzionale deve fornire le seguenti informazioni allo sviluppatore:
 
 * **Chiave di integrazione**: per abilitare la piattaforma Adobe Campaign per identificare l&#39;applicazione mobile.
 
@@ -59,11 +58,11 @@ Per integrare l’SDK di Campaign nell’app mobile, l’amministratore funziona
   [nl setIntegrationKey:strIntegrationKey];
   ```
 
-## Integrare l’SDK di Android
+## Integrare Android SDK
 
 Android SDK è una libreria jar scritta in JAVA. Consente agli sviluppatori di Android di integrarsi con Adobe Campaign: registra un nuovo dispositivo, collegalo a un utente, tieni traccia del comportamento e altro ancora.
 
-In questa sezione, scopri come utilizzare l&#39;SDK per Android in un&#39;applicazione Android che implementa [Google Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging/).
+In questa sezione, scopri come utilizzare Android SDK in un&#39;applicazione Android che implementa [Google Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging/).
 
 >[!CAUTION]
 >
@@ -83,11 +82,11 @@ Scopri come implementare FCM nell&#39;applicazione nella [documentazione Google]
 >
 > * `apiKey` deve corrispondere al set `projectKey` nell&#39;applicazione mobile Adobe Campaign collegata a questa applicazione Android.
 
-### Configurare l’SDK di Android
+### Configurare Android SDK
 
 1. **Inizializza SDK**
 
-   Prima di utilizzare l’SDK di Android, è necessario inizializzarlo. L&#39;inizializzazione SDK può essere eseguita nella funzione `onCreate` di un&#39;attività.
+   Prima di utilizzare Android SDK, è necessario inizializzarlo. L&#39;inizializzazione di SDK può essere eseguita nella funzione `onCreate` di un&#39;attività.
 
    ```sql
    /** Called when the activity is first created. */
@@ -499,7 +498,7 @@ Scopri come implementare FCM nell&#39;applicazione nella [documentazione Google]
    Per i messaggi di notifica, la ricezione di tracciamento deve essere configurata a due livelli:
 
    * `onMessageReceived` (applicazione non in background): l&#39;implementazione è stata eseguita nella sezione precedente
-   * `onCreate` dell&#39;attività di avvio (o dell&#39;attività di destinazione se viene utilizzata la funzione `click_action`). (Applicazione non in background).
+   * `onCreate` dell&#39;attività di avvio (o dell&#39;attività di destinazione se viene utilizzata la funzione `click_action`) (applicazione non in background).
 
    Deve essere eseguito nello stesso momento del tracciamento di apertura/clic.
 
@@ -558,7 +557,7 @@ Scopri come implementare FCM nell&#39;applicazione nella [documentazione Google]
    ```
 
 
-## Integrare l’SDK di iOS
+## Integrare iOS SDK
 
 1. **Registra il dispositivo mobile sul server Adobe Campaign**
 
@@ -692,7 +691,7 @@ Scopri come implementare FCM nell&#39;applicazione nella [documentazione Google]
 
    Per implementare il delegato **registerDeviceStatus**, eseguire la procedura seguente:
 
-   1. Implementa **setDelegate** durante l&#39;inizializzazione dell&#39;SDK.
+   1. Implementare **setDelegate** durante l&#39;inizializzazione di SDK.
 
       ```sql
       // AppDelegate.m
@@ -843,7 +842,7 @@ Di seguito è riportato un esempio di codice che consente a un’app mobile di r
 
 >[!CAUTION]
 >
->L’Adobe consiglia di scegliere nomi di variabili brevi, perché la dimensione della notifica è limitata a 4 kB per iOS e Android.
+>Adobe consiglia di scegliere nomi di variabili brevi perché la dimensione della notifica è limitata a 4 kB per iOS e Android.
 
 ## Estensione del servizio di notifica {#notification-service-extension}
 
