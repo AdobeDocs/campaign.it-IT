@@ -4,7 +4,7 @@ title: Proprietà del flusso di lavoro
 description: Ulteriori informazioni sulle proprietà del flusso di lavoro di Campaign
 feature: Workflows
 exl-id: 7fef434e-f6bd-46a4-9ec2-0182f081c928
-source-git-commit: 13723ebda8daf57c6885a05a2d583c0c38c86441
+source-git-commit: d31040885ec45068d70a7d4c0b481269c8af7a33
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 33%
@@ -63,7 +63,7 @@ Questa sezione viene visualizzata solo nei flussi di lavoro delle campagne.
   >
   >* Questa opzione è destinata agli utenti avanzati e deve essere abilitata solo per **flussi di lavoro tecnici**.
   >
-  >* Questa opzione è abilitata per impostazione predefinita per i flussi di lavoro di replica centralizzata disponibili nel contesto di una distribuzione [Enterprise (FFDA)](enterprise-deployment.md). [Ulteriori informazioni](../../v8/architecture/replication.md)
+  >* Questa opzione è abilitata per impostazione predefinita per i flussi di lavoro di replica centralizzata disponibili nel contesto di una distribuzione [Enterprise (FFDA)](../../v8/architecture/enterprise-deployment.md). [Ulteriori informazioni](../../v8/architecture/replication.md)
 
 ### Gestione degli errori {#error-management}
 
