@@ -5,9 +5,9 @@ feature: Configuration
 role: Developer
 level: Experienced
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
-source-git-commit: c225b3ee5b356d98d6a5e3bb9bd1cb0feae0300a
+source-git-commit: 24b252373923a9724743650b13a69d4f2c8dcd24
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '737'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ Una volta implementate queste funzionalità, Adobe monitora:
 
 * I tunnel VPN e procedere con l’avviso in caso di problemi.
 
-## Integrazione sicura con chiave gestita dal cliente {#secure-cmk-integration}
+## Integrazione sicura delle chiavi gestite dal cliente {#secure-cmk-integration}
 
 L&#39;integrazione di **Secure Customer-Managed Key (CMK)** ti consente di crittografare i dati inattivi utilizzando la tua chiave tramite il tuo account Amazon Web Services (AWS).
 
@@ -49,24 +49,24 @@ Per abilitare l’integrazione della CMK con Campaign, effettua le seguenti oper
 
 1. Genera una chiave con rotazione automatica quando utilizzi AWS Key Management Service (KMS). [Scopri come](https://docs.aws.amazon.com/kms/latest/developerguide/create-keys.html){target="_blank"}.
 
-1. Applica la policy fornita da Adobe all’account AWS per concedere l’accesso alle risorse. [Ulteriori informazioni](https://docs.aws.amazon.com/kms/latest/developerguide/key-policy-services.html){target="_blank"}. <!--link TBC-->
+1. Applica la policy fornita da Adobe al tuo account AWS per concedere l’accesso alle tue risorse. [Ulteriori informazioni](https://docs.aws.amazon.com/kms/latest/developerguide/key-policy-services.html){target="_blank"}. <!--link TBC-->
 
-1. Condividi [Amazon Resource Name (ARN chiave)](https://docs.aws.amazon.com/kms/latest/developerguide/find-cmk-id-arn.html){target="_blank"} con [!DNL Adobe Campaign]. Per farlo, contatta il rappresentante del tuo Adobe. <!--or Adobe transition manager?-->
+1. Condividi [Amazon Resource Name (ARN chiave)](https://docs.aws.amazon.com/kms/latest/developerguide/find-cmk-id-arn.html){target="_blank"} con [!DNL Adobe Campaign]. A questo scopo, contatta il tuo rappresentante Adobe. <!--or Adobe transition manager?-->
 
-1. Creare e testare le regole Amazon EventBridge per abilitare il monitoraggio delle chiavi per Adobe &#x200B; [Ulteriori informazioni](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-rules.html){target="_blank"}.
+1. Crea e verifica le regole di Amazon EventBridge per abilitare il monitoraggio delle chiavi da parte di Adobe&#x200B; [Ulteriori informazioni](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-rules.html){target="_blank"}.
 
 
 ### Guardrail e limitazioni {#cmk-callouts}
 
 Le seguenti protezioni e limitazioni si applicano all’integrazione della CMK con Adobe Campaign v8:
 
-* Adobe non fornisce un account [Amazon Web Services (AWS)](https://aws.amazon.com/){target="_blank"}. Devi disporre di un tuo account AWS e configurarlo per generare e condividere la chiave con Adobe.
+* Adobe non fornisce un account [Amazon Web Services (AWS)](https://aws.amazon.com/){target="_blank"}. Devi disporre di un tuo account AWS e configurarlo per generare e condividere la tua chiave con Adobe.
 
 * Sono supportate solo [chiavi del servizio di gestione delle chiavi di AWS](https://docs.aws.amazon.com/kms/latest/developerguide/overview.html){target="_blank"} (KMS). Non è possibile utilizzare chiavi generate dal cliente al di fuori di KMS&#x200B;
 
 * Durante la prima configurazione è previsto un tempo di inattività. &#x200B;La durata del tempo di inattività dipende dalle dimensioni del database.
 
-* In qualità di cliente, possiedi e gestisci la chiave. Devi contattare Adobe in caso di eventuali modifiche alla chiave&#x200B;
+* In qualità di cliente, possiedi e gestisci la chiave. Devi contattare Adobe in caso di modifiche alla chiave. &#x200B;
 
 * Puoi controllare la tua chiave utilizzando [AWS CloudTrail](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html){target="_blank"} e revocarla, se necessario&#x200B;
 
@@ -100,7 +100,7 @@ Sono supportati tre casi d’uso:
 
 Per garantire un utilizzo corretto di questa funzione, attieniti alle linee guida seguenti:
 
-* Imposta la tua VPN laterale in base alla configurazione della VPN lato Adobe.
+* Configura la tua VPN laterale in base alla configurazione della VPN lato Adobe.
 
 * Mantenere entrambi i tunnel aggiornati per un&#39;elevata disponibilità.
 
@@ -129,4 +129,4 @@ Sono supportati solo i dispositivi VPN conformi ad AWS. Un elenco di dispositivi
 >
 >* La connettività VPN a terze parti o a fornitori esterni non è supportata.
 >
->* Non sono incluse VPN aggiuntive gestite da Adobi per database cloud privati.
+>* Non sono incluse le VPN aggiuntive gestite da Adobe per i database cloud privati.
