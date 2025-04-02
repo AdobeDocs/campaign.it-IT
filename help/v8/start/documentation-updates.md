@@ -6,16 +6,20 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 3c1cae6e-0a75-4f18-b1ee-2d5fa23b4251
-source-git-commit: fdd0e534feb80e3acaec0a68238ac4ac596980e2
+source-git-commit: ba8cf031db178f6575104858340e16d4e7bd6a31
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 29%
+source-wordcount: '275'
+ht-degree: 27%
 
 ---
 
 # Aggiornamenti della documentazione {#latest-updates}
 
 In questa pagina sono elencati tutti gli aggiornamenti più recenti della documentazione di [!DNL Campaign] v8 (console).
+
+## Aprile 2025 {#april-2025}
+
+È stata aggiunta una procedura consigliata per riavviare il flusso di lavoro dopo la modifica dell&#39;ora pianificata dell&#39;attività **[!UICONTROL Scheduler]** in modo che venga eseguita in base alla pianificazione aggiornata. [Ulteriori informazioni](../../automation/workflow/scheduler.md)
 
 ## Gennaio 2025 {#january-2025}
 

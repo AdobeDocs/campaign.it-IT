@@ -5,10 +5,10 @@ description: Ulteriori informazioni sull’attività del flusso di lavoro Schedu
 feature: Workflows
 role: User
 exl-id: ed70d2d3-251e-4ee8-84d4-73ad03e8dd35
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: ba8cf031db178f6575104858340e16d4e7bd6a31
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 18%
+source-wordcount: '393'
+ht-degree: 8%
 
 ---
 
@@ -22,15 +22,15 @@ Dovresti considerare l’attività **[!UICONTROL Scheduler]** come un inizio pia
 
 ## Best practice {#best-practices}
 
-* Non pianificare l’esecuzione di un flusso di lavoro con una frequenza superiore a 15 minuti, in quanto ciò potrebbe ostacolare le prestazioni complessive del sistema e creare blocchi nel database.
+**Riavvia il flusso di lavoro dopo aver modificato la tempistica del modulo di pianificazione**. Quando si modifica l&#39;ora pianificata dell&#39;attività **[!UICONTROL Scheduler]**, è importante riavviare il flusso di lavoro. In questo modo il flusso di lavoro viene eseguito agli orari aggiornati. Senza il riavvio, il flusso di lavoro continuerà a essere eseguito in base alla pianificazione precedente.
 
-* Non utilizzare mai più di un&#39;attività **[!UICONTROL Scheduler]** per ramo in un flusso di lavoro. Vedi [Utilizzo delle attività](workflow-best-practices.md#using-activities).
+**Limita la frequenza dell&#39;utilità di pianificazione** - Evitare di pianificare l&#39;esecuzione dei flussi di lavoro con una frequenza maggiore di ogni 15 minuti. Eseguirli più spesso può compromettere le prestazioni del sistema e causare una congestione del database.
 
-* L’utilizzo di un’attività di pianificazione può comportare l’esecuzione simultanea di più esecuzioni di un flusso di lavoro. Ad esempio, puoi fare in modo che una pianificazione attivi l’esecuzione del flusso di lavoro ogni ora, ma a volte l’esecuzione dell’intero flusso di lavoro richiede più di un’ora.
+**Utilizza un modulo di pianificazione per ramo** - Ogni ramo del flusso di lavoro deve avere una sola attività **[!UICONTROL Scheduler]**. Per ulteriori informazioni sulle best practice per l&#39;utilizzo delle attività nei flussi di lavoro, fare riferimento alla [pagina sulle best practice per i flussi di lavoro](workflow-best-practices.md#using-activities).
 
-  Potrebbe essere necessario saltare l’esecuzione se il flusso di lavoro è già in esecuzione. Per ulteriori informazioni su come impedire l&#39;esecuzione simultanea di un flusso di lavoro, fare riferimento a [questa pagina](monitor-workflow-execution.md#preventing-simultaneous-multiple-executions).
+**Impedisci esecuzioni simultanee del flusso di lavoro** - Se un flusso di lavoro viene attivato da un modulo di pianificazione, tenere presente che è possibile eseguire più istanze del flusso di lavoro contemporaneamente. Ad esempio, se una pianificazione attiva il flusso di lavoro ogni ora, ma l’esecuzione del flusso di lavoro richiede più di un’ora, si potrebbero verificare esecuzioni sovrapposte.Per evitare questo problema, è consigliabile impostare dei controlli per evitare più esecuzioni simultanee. [Scopri come impedire l&#39;esecuzione simultanea di più flussi di lavoro](monitor-workflow-execution.md#preventing-simultaneous-multiple-executions).
 
-* Si noti che la transizione può essere attivata diverse ore dopo se il flusso di lavoro eseguiva un&#39;attività a lungo termine, ad esempio un&#39;importazione, oppure se il modulo wfserver è stato interrotto per un certo periodo di tempo. In questo caso, potrebbe essere necessario limitare l&#39;esecuzione dell&#39;operazione attivata dal modulo di pianificazione a un determinato intervallo di tempo.
+**Account per transizioni ritardate** - Le transizioni attivate dal modulo di pianificazione potrebbero essere ritardate se il flusso di lavoro esegue attività con tempi di esecuzione lunghi (come le importazioni) o se il modulo wfserver è stato temporaneamente interrotto. Per ovviare a questo problema, limitare i tempi di attivazione del modulo di pianificazione in modo che i task vengano eseguiti entro un intervallo di tempo definito.
 
 ## Configurazione dell’attività Scheduler {#configuring-scheduler-activity}
 
