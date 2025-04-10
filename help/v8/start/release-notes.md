@@ -3,10 +3,10 @@ title: Note sulla versione di Campaign v8
 description: Ultima versione di Campaign v8
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: c6b4f4cee6f033218c77a495c39885e231c06126
+source-git-commit: 49ce7d776eb626d6a927da7630ed7d0e2644fda3
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 17%
+source-wordcount: '737'
+ht-degree: 19%
 
 ---
 
@@ -18,11 +18,33 @@ In questa pagina sono elencate nuove funzionalità, miglioramenti e correzioni i
 
 **In questa pagina**
 
-* Campaign v8.6 - [Versione 8.6.4](#release-8-6-4)
-* Campaign v8.7 - [Versione 8.7.3](#release-8-7-3)
+* [Versione 8.7.4](#release-8-7-4)
+* [Versione 8.7.3](#release-8-7-3)
+* [Versione 8.6.4](#release-8-6-4)
 
 >[!ENDSHADEBOX]
 
+## Versione 8.7.4 {#release-8-7-4}
+
+_venerdì 10 aprile 2025_
+
+>[!AVAILABILITY]
+>
+>Questa versione è in **Disponibilità limitata** (LA). È limitata ai clienti che eseguono la migrazione **da Adobe Campaign Standard ad Adobe Campaign v8** e non possono essere distribuiti in nessun altro ambiente.
+>
+>In qualità di utente di Campaign Standard che passa a Campaign v8, scopri di più su questa transizione nella [documentazione dell&#39;interfaccia utente web di Campaign v8](https://experienceleague.adobe.com/it/docs/campaign-web/v8/start/acs-migration){target="_blank"}.
+
+### Nuove funzioni {#features-8-7-4}
+
+* **Supporto API REST SMS** - L&#39;API REST per la messaggistica transazionale è ora disponibile per il canale SMS. Quando nel payload sono presenti sia e-mail che telefono cellulare, puoi utilizzare il campo &quot;wishedChannel&quot; per specificare il canale. Se non viene fornito, l’e-mail verrà utilizzata per impostazione predefinita a meno che il canale desiderato non richieda esplicitamente l’invio di SMS.
+
+* **Consegne multilingue** - A partire dalla versione di aprile dell&#39;interfaccia utente web di Campaign, potrai inviare più consegne e-mail in lingue diverse e accedere ai relativi rapporti dinamici. Questa funzionalità sarà disponibile nell’interfaccia utente di Adobe Campaign Web solo alla fine di aprile e richiederà un aggiornamento del server a Campaign v8.7.4.
+
+### Correzioni {#fixes-8-7-4}
+
+In questa versione sono stati risolti i seguenti problemi:
+
+NEO-80245, NEO-83559
 
 ## Versione 8.7.3 {#release-8-7-3}
 
@@ -32,7 +54,7 @@ _14 febbraio 2025_
 >
 >Questa versione è in **Disponibilità limitata** (LA). È limitata ai clienti che eseguono la migrazione **da Adobe Campaign Standard ad Adobe Campaign v8** e non possono essere distribuiti in nessun altro ambiente.
 >
->In qualità di utente Campaign Standard che passa a Campaign v8, scopri di più su questa transizione nella [Documentazione sull’interfaccia web di Campaign v8](https://experienceleague.adobe.com/it/docs/campaign-web/v8/start/acs-migration){target="_blank"}.
+>In qualità di utente di Campaign Standard che passa a Campaign v8, scopri di più su questa transizione nella [documentazione dell&#39;interfaccia utente web di Campaign v8](https://experienceleague.adobe.com/it/docs/campaign-web/v8/start/acs-migration){target="_blank"}.
 
 ### Nuove funzioni {#features-8-7-3}
 
@@ -60,7 +82,7 @@ _15 gennaio 2025_
 
 ### Miglioramenti di sicurezza {#security-8-6-4}
 
-La connessione con le soluzioni e le app Adobe tramite l&#39;account esterno **[!UICONTROL Adobe Experience Cloud]** è stata aggiornata per rafforzare la sicurezza.
+La connessione con le soluzioni e le app Adobe tramite l’account esterno di **[!UICONTROL Adobe Experience Cloud]** è stata aggiornata per rafforzare la sicurezza.
 
 <!--
 ### Connection to Campaign {#ims-8-6-4}
