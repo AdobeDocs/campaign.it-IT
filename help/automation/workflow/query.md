@@ -5,9 +5,9 @@ description: Ulteriori informazioni sull’attività del flusso di lavoro Query
 feature: Workflows, Targeting Activity, Query Editor
 role: User, Data Engineer
 exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: 71bad190894243f8c4dd82792dcc379faa947e04
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1607'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,11 @@ ht-degree: 1%
 
 Una query consente di selezionare una destinazione in base ai criteri. È possibile associare un codice di segmento al risultato della query e inserirvi dati aggiuntivi.
 Per ulteriori informazioni sugli esempi di query, consulta questa [sezione](querying-recipient-table.md).
+
+>[!NOTE]
+>
+>L’interfaccia web di Adobe Campaign dispone di un potente modellatore di query che semplifica il processo di filtraggio dei database per selezionare destinazioni specifiche in base a vari criteri, consentendo di creare e gestire più facilmente le query. Per ulteriori informazioni su Query Modeler per l&#39;interfaccia utente Web, consulta la [documentazione dell&#39;interfaccia utente Web di Adobe Campaign](https://experienceleague.adobe.com/it/docs/campaign-web/v8/query-database/query-modeler-overview){target=_blank}.
+
 
 ![](assets/query-activity.png){width="70%" align="center" zoomable="yes"}
 
