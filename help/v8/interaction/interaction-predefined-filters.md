@@ -5,16 +5,21 @@ feature: Interaction, Offers
 role: User, Admin
 level: Beginner
 exl-id: 092262c7-768c-4e86-9b2b-c52516f6a030
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: c748654c76c6b6ce8ad4d4886a1f73004a41e7ac
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 3%
+source-wordcount: '149'
+ht-degree: 7%
 
 ---
 
 # Creare filtri predefiniti{#creating-pre-defined-filters}
 
 Crea filtri predefiniti per definire le regole di idoneità per la popolazione target, che possono essere facilmente riutilizzate durante la creazione dell’offerta. Sono specifici per ogni ambiente e tengono conto dei parametri dell’offerta.
+
+>[!NOTE]
+>
+>L’interfaccia web di Adobe Campaign offre un’interfaccia intuitiva per gestire e personalizzare facilmente i filtri predefiniti in base alle tue esigenze specifiche. Crea una sola volta e salva per un utilizzo futuro. Per ulteriori informazioni sui filtri predefiniti per l&#39;interfaccia utente Web, consulta la [documentazione dell&#39;interfaccia utente Web di Adobe Campaign](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/predefined-filters){target=_blank}.
+
 
 Per creare un filtro predefinito, applica il seguente processo:
 
