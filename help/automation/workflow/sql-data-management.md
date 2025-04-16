@@ -4,9 +4,9 @@ title: Gestione dati SQL
 description: Ulteriori informazioni sull'attività del flusso di lavoro di Gestione dati SQL
 feature: Workflows
 Role: User
-Level: Experienced
+level: Experienced
 exl-id: a1e08d57-0387-4802-b447-f6d9ad87072a
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: 64b24d7a72c2cdee841ea301ca46b0204f1fccaa
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 3%
@@ -38,7 +38,7 @@ Prima di configurare l’attività, assicurati di soddisfare i seguenti prerequi
 
    >[!CAUTION]
    >
-   >È responsabilità dell&#39;autore dello script SQL verificare che lo script SQL sia funzionale e che i relativi riferimenti (nomi dei campi, ecc.) sono conformi allo schema In uscita.
+   >È responsabilità dell&#39;autore dello script SQL verificare che lo script SQL funzioni e che i relativi riferimenti (nomi di campi, ecc.) siano conformi allo schema in uscita.
 
    Per caricare un codice SQL esistente, selezionare l&#39;opzione **[!UICONTROL The SQL script is contained in an entity stored in the database]**. Gli script SQL devono essere creati e memorizzati nel menu **[!UICONTROL Administration]** / **[!UICONTROL Configuration]** / **[!UICONTROL SQL scripts]**.
 

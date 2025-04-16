@@ -3,10 +3,10 @@ title: Note sulla versione 2024 di Campaign v8 (console)
 description: Elenco delle funzioni e dei miglioramenti introdotti con le versioni v8 di Campaign 2024
 feature: Release Notes
 exl-id: 6a0a9486-19a9-4ec3-9030-48dbf419f45f
-source-git-commit: 041df8d2d6128d72a04008affbc9680ba5b640a1
+source-git-commit: 57b18835b87be2a201ce23f5b6053266d13b9cb8
 workflow-type: tm+mt
 source-wordcount: '1308'
-ht-degree: 81%
+ht-degree: 77%
 
 ---
 
@@ -34,7 +34,7 @@ _2 maggio 2024_
 >
 >Questa versione è in **Disponibilità limitata** (LA). È limitata ai clienti che eseguono la migrazione **da Adobe Campaign Standard ad Adobe Campaign v8** e non possono essere distribuiti in nessun altro ambiente.
 >
->In qualità di utente Campaign Standard che passa a Campaign v8, scopri di più su questa transizione nella [Documentazione sull’interfaccia web di Campaign v8](https://experienceleague.adobe.com/it/docs/campaign-web/v8/start/acs-migration){target="_blank"}.
+>In qualità di utente di Campaign Standard che passa a Campaign v8, scopri di più su questa transizione nella [documentazione dell&#39;interfaccia utente web di Campaign v8](https://experienceleague.adobe.com/it/docs/campaign-web/v8/start/acs-migration){target="_blank"}.
 
 ### Nuove funzioni {#new-8-7-1}
 
@@ -42,7 +42,7 @@ _2 maggio 2024_
 
 * **Branding**: in qualità di utente Campaign Standard migrato, gli amministratori tecnici possono ora definire uno o più brand per centralizzare i parametri che ne influiscono l’identità. Ciò include il logo del brand, il dominio dell’URL di accesso delle pagine di destinazione o le impostazioni di tracciamento dei messaggi. Puoi creare questi brand e collegarli a messaggi o pagine di destinazione. Questa configurazione viene gestita tramite modelli. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=it){target="_blank"}
 
-* **API REST**: in qualità di utente migrato a Campaign Standard, puoi utilizzare le API REST per creare integrazioni per Adobe Campaign e un proprio ecosistema interfacciando Adobe Campaign con il pannello di tecnologie che utilizzi. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=it){target="_blank"}
+* **API REST**: in qualità di utente Campaign Standard migrato, puoi utilizzare le API REST per creare integrazioni per Adobe Campaign e il tuo ecosistema interfacciando Adobe Campaign con il pannello di tecnologie utilizzato. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=it){target="_blank"}
 
 * **Reporting dinamico**: in qualità di utente Campaign Standard migrato, puoi accedere al Reporting dinamico che fornisce rapporti completamente personalizzabili e in tempo reale per misurare l’impatto delle attività di marketing. Permette di accedere ai dati del profilo, abilitando l’analisi demografica per dimensioni di profilo, come genere, città ed età, oltre ai dati funzionali delle campagne e-mail come aperture e clic. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=it){target="_blank"}
 
@@ -63,7 +63,7 @@ Sono stati aggiunti i seguenti connettori FDA. Fai riferimento a questa [pagina]
 
 A partire da questa versione, poiché le credenziali dell’account di servizio (JWT) sono state dichiarate obsolete da Adobe, le integrazioni in uscita di Campaign con le soluzioni e le app Adobe ora si basano sulle credenziali OAuth server-to-server. Adobe eseguirà la migrazione da JWT a OAuth per le integrazioni in uscita, ad esempio l’integrazione Campaign-Analytics o l’integrazione dei trigger di Experience Cloud.
 
-Se hai implementato le integrazioni in entrata con Campaign, devi migrare l’account tecnico come descritto in [questa documentazione](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. Le credenziali dell’account di servizio (JWT) esistenti continueranno a funzionare fino al **27 gennaio 2025**.
+Se hai implementato integrazioni in entrata con Campaign, devi migrare l&#39;account tecnico come descritto in [questa documentazione](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. Le credenziali dell’account di servizio (JWT) esistenti continueranno a funzionare fino al **martedì 30 giugno 2025**.
 
 ### Miglioramenti generali {#improvements-8-7-1}
 
