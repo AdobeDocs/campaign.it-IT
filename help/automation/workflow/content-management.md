@@ -5,7 +5,7 @@ description: Gestione dei contenuti
 feature: Workflows, Data Management
 role: User
 exl-id: 9b225f78-1959-4e4f-aa4e-ff8a63051154
-source-git-commit: 9014c2d235fd3dde4afb961ef970334e4e909778
+source-git-commit: c73f9f3dc7958152c284dbaf06210d09115e5df8
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 2%
@@ -22,7 +22,7 @@ Un&#39;attività di **gestione dei contenuti** consente di creare e manipolare u
 
 >[!NOTE]
 >
->L’interfaccia utente di Adobe Campaign Web consente di utilizzare frammenti di contenuto per i contenuti. Consente agli utenti marketing di precreare più blocchi di contenuto personalizzati, grazie a un componente riutilizzabile a cui è possibile fare riferimento in uno o più messaggi e che consente di assemblare rapidamente il contenuto dei messaggi in un processo di progettazione migliorato. Per ulteriori informazioni sui frammenti di contenuto, consulta la [documentazione dell&#39;interfaccia utente Web di Adobe Campaign.](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments){target=_blank}
+>L’interfaccia utente di Adobe Campaign Web consente di utilizzare frammenti di contenuto per i contenuti. Consente agli utenti marketing di precreare più blocchi di contenuto personalizzati, grazie a componenti riutilizzabili a cui è possibile fare riferimento in uno o più messaggi, che consentono di assemblare rapidamente il contenuto dei messaggi in un processo di progettazione migliorato. Per ulteriori informazioni sui frammenti di contenuto, consulta la [documentazione dell&#39;interfaccia utente Web di Adobe Campaign.](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments){target=_blank}
 
 Le proprietà dell’attività sono suddivise in tre passaggi:
 
