@@ -4,8 +4,9 @@ title: Impostare e gestire il processo di approvazione
 description: Scopri come gestire le approvazioni delle campagne di marketing
 feature: Approvals, Campaigns
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 03be5058-436e-4de9-99a7-91d799aa17f6
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
 workflow-type: tm+mt
 source-wordcount: '2281'
 ht-degree: 1%

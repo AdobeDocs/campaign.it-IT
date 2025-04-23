@@ -4,11 +4,12 @@ title: Pubblico di destinazione della campagna di marketing
 description: Scopri come definire il pubblico delle campagne di marketing
 feature: Campaigns, Audiences
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
-source-git-commit: d292c20e520b2466f782ccf86eb9d61e01915563
+source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
 workflow-type: tm+mt
 source-wordcount: '1470'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -101,7 +102,7 @@ I flussi di lavoro di targeting possono essere avviati manualmente tramite il pu
 
 Il targeting può essere programmato per l’esecuzione automatica in base a una pianificazione (scheduler) o a un evento (segnale esterno, importazione file, ecc.).
 
-Le azioni relative all’esecuzione del flusso di lavoro di targeting (avvio, arresto, pausa, ecc.) sono **processi asincroni**: il comando viene salvato e avrà effetto non appena il server sarà disponibile per applicarlo.
+Le azioni correlate all&#39;esecuzione del flusso di lavoro di targeting (avvio, arresto, pausa, ecc.) sono **processi asincroni**: il comando viene salvato e avrà effetto non appena il server sarà disponibile per applicarlo.
 
 Le icone della barra degli strumenti consentono di intervenire sull’esecuzione del flusso di lavoro di targeting.
 
@@ -158,7 +159,7 @@ Le icone della barra degli strumenti consentono di intervenire sull’esecuzione
   >
   >Questa opzione è utile durante le fasi avanzate di progettazione e test delle campagne di targeting.
 
-* Arresto incondizionato
+* Interruzione incondizionata
 
   In Esplora, seleziona **[!UICONTROL Administration > Production > Object created automatically > Campaign workflows]** per accedere e agire su ogni flusso di lavoro della campagna.
 
@@ -185,7 +186,7 @@ Puoi definire un gruppo di controllo a livello di campagna, nel qual caso verrà
 
    ![](assets/enable-control-group.png)
 
-1. Selezionare l&#39;opzione **[!UICONTROL Enable and edit control group configuration]**.
+1. Seleziona l’opzione **[!UICONTROL Enable and edit control group configuration]**.
 1. Fare clic su **[!UICONTROL Edit...]** per configurare il gruppo di controllo.
 
    ![](assets/edit-control-group.png)

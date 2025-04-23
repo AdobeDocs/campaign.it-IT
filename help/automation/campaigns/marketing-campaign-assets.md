@@ -4,8 +4,9 @@ title: Risorse della campagna di marketing, documenti e strutture di consegna
 description: Ulteriori informazioni sui documenti della campagna di marketing e sui profili di consegna
 feature: Campaigns
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 352f6cd5-777d-413d-af79-6f53444b336f
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
@@ -35,7 +36,7 @@ I documenti possono essere associati a livello di campagna (documenti contestual
 
 Per una campagna, la scheda **[!UICONTROL Documents]** contiene:
 
-* L’elenco di tutti i documenti necessari per il contenuto (modello, immagini, ecc.) che possono essere scaricati localmente dagli operatori Adobe Campaign con i diritti appropriati,
+* L’elenco di tutti i documenti necessari per il contenuto (modello, immagini ecc.) che possono essere scaricati localmente dagli operatori Adobe Campaign con i diritti appropriati,
 * Documenti contenenti informazioni per il router, se presenti.
 
 I documenti sono collegati al programma o alla campagna tramite la scheda **[!UICONTROL Edit > Documents]**.
@@ -58,7 +59,7 @@ Da questa vista è possibile modificarli.
 
 ## Utilizzare i profili di consegna {#delivery-outlines}
 
-Una struttura di consegna è un set strutturato di elementi (documenti, negozi, coupon promozionali, ecc.) create dall’azienda e per una determinata campagna. Viene utilizzato nel contesto delle consegne di direct mailing.
+Una struttura di consegna è un set strutturato di elementi (documenti, negozi, coupon promozionali, ecc.) creati dall’azienda e per una determinata campagna. Viene utilizzato nel contesto delle consegne di direct mailing.
 
 Questi elementi sono raggruppati nei profili di consegna e ogni profilo di consegna sarà associato a una consegna; vi verrà fatto riferimento nel file di estrazione inviato al **service provider** per essere allegato alla consegna. Ad esempio, puoi creare una struttura di consegna che faccia riferimento a un’unità e alle brochure di marketing utilizzate.
 
@@ -114,7 +115,7 @@ Nella scheda **[!UICONTROL Summary]** della consegna vengono visualizzate anche 
 
 ### Risultato estrazione {#extraction-result}
 
-Nel fascicolo estratto e inviato al prestatore di servizi, il nome della struttura e, se del caso, le sue caratteristiche (costo, descrizione, ecc.) vengono aggiunti al contenuto in base alle informazioni contenute nel modello di esportazione associato al provider di servizi.
+Nel file estratto e inviato al fornitore di servizi, il nome della struttura e, se del caso, le sue caratteristiche (costo, descrizione, ecc.) sono aggiunti al contenuto in base alle informazioni contenute nel modello di esportazione associato al fornitore di servizi.
 
 Nell’esempio seguente, l’etichetta, il costo stimato e la descrizione della struttura associata alla consegna verranno aggiunti al file di estrazione.
 

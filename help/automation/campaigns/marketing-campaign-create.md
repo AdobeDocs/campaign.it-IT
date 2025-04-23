@@ -4,8 +4,9 @@ title: Creare campagne di marketing
 description: Scopri come creare ed eseguire campagne di marketing
 feature: Campaigns, Cross Channel Orchestration, Programs
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
 workflow-type: tm+mt
 source-wordcount: '1327'
 ht-degree: 4%
@@ -32,7 +33,7 @@ Prima di iniziare a creare campagne e consegne, configura la gerarchia di cartel
 
 1. Fai clic sull&#39;icona **Explorer** nella home page.
 1. Fare clic con il pulsante destro del mouse sulla cartella in cui si desidera creare il piano.
-1. Selezionare **Aggiungi nuova cartella > Campaign Management > Piano**.
+1. Selezionare **Aggiungi nuova cartella > Gestione campagne > Piano**.
 
    ![](assets/create-new-plan-folder.png)
 
@@ -187,7 +188,7 @@ Questa tabella fornisce un riepilogo delle azioni che è possibile eseguire sull
 | Elenco di campagne, consegne, offerte, ecc. | Eliminare una voce di elenco |
 | Campaign | Annullare una campagna |
 | Consegna | Approva il contenuto e la destinazione della consegna<br/>Invia il contenuto della consegna<br/>Conferma una consegna<br/>Sospendi e interrompi una consegna |
-| Applicazione web | Crea un&#39;applicazione Web<br/>Modifica il contenuto e le proprietà dell&#39;applicazione<br/>Salva il contenuto dell&#39;applicazione come modello<br/>Publish l&#39;applicazione |
+| Applicazione web | Crea un&#39;applicazione Web<br/>Modifica il contenuto e le proprietà dell&#39;applicazione<br/>Salva il contenuto dell&#39;applicazione come modello<br/>Pubblica l&#39;applicazione |
 | Offerta | Approva il contenuto e l&#39;idoneità dell&#39;offerta<br/>Disattiva un&#39;offerta online |
 | Attività Task | Termina un&#39;attività<br/>Annulla un&#39;attività |
 | Risorse di marketing | Approva una risorsa<br/>Blocca e sblocca una risorsa |
