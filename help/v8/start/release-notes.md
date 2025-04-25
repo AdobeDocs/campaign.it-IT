@@ -3,10 +3,10 @@ title: Note sulla versione di Campaign v8
 description: Ultima versione di Campaign v8
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 66e4b59915eae595b28076622f7bcfb5b5a0ffa4
+source-git-commit: 5ece3ca4ebf9f3973d9cbd1a00ea57b29c1f2e93
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 16%
+source-wordcount: '781'
+ht-degree: 32%
 
 ---
 
@@ -18,10 +18,37 @@ In questa pagina sono elencate nuove funzionalità, miglioramenti e correzioni i
 
 **In questa pagina**
 
+* [Versione 8.6.5](#release-8-6-4)
 * [Versione 8.7.4](#release-8-7-4)
 * [Versione 8.6.4](#release-8-6-4)
 
 >[!ENDSHADEBOX]
+
+## Versione 8.6.5 {#release-8-6-5}
+
+_sabato 25 aprile 2025_
+
+>[!AVAILABILITY]
+>
+>Questa versione è in **Disponibilità limitata** (LA).
+
+### Nuove funzioni {#features-8-6-5}
+
+**Nuovo connettore di invio SMS** - Il connettore di invio SMS è stato modernizzato e migliorato per abilitare le connessioni SMPP in modalità ricetrasmettitore, abilitare le connessioni SMPP permanenti e garantire una migliore compatibilità per gli ambienti in transizione da Adobe Campaign Standard. È ora disponibile un nuovo account esterno SMS per tutte le nuove implementazioni SMS. L’implementazione esistente è ancora supportata, tuttavia si consiglia di passare a questo nuovo connettore moderno ed esteso. [Ulteriori informazioni](../send/sms/sms.md).
+
+### Miglioramenti generali {#improvements-8-6-5}
+
+* Le prestazioni globali dell’applicazione sono state migliorate, nel contesto di una distribuzione Enterprise (FFDA), tra cui l’invio di bozze di consegna e la pulizia del database.
+
+* Per aumentare la sicurezza su tutte le comunicazioni tra applicazioni, mTLS è ora supportato per le chiamate API esterne.
+
+* Mail Transfer Agent (MTA): è stato risolto elemento secondario MTA orfano bloccato nello stato **[!UICONTROL Start pending]**.
+
+### Correzioni {#fixes-8-6-5}
+
+In questa versione sono stati risolti anche i seguenti problemi:
+
+NEO-67620, NEO-71534, NEO-80245, NEO-81105, NEO-81758, NEO-81908, NEO-82351, NEO-82742, NEO-83044, NEO-83138, NEO-83350, NEO-83729, NEO-83793, NEO-83809, NEO-84038, NEO-84108, NEO-85269, NEO-86121, NEO-86556, NEO-86739
 
 ## Versione 8.7.4 {#release-8-7-4}
 
