@@ -4,9 +4,9 @@ title: Configurare le regole di pressione
 description: Scopri come configurare le regole di pressione
 feature: Fatigue Management, Typology Rules
 exl-id: d234db0e-936a-48db-b697-11c6b40bc3ab
-source-git-commit: 5810f9b53bd3ad5383d4b9767bc65a3d595862c7
+source-git-commit: 8272550faefece753636418bcb748b36f989fcb5
 workflow-type: tm+mt
-source-wordcount: '3102'
+source-wordcount: '3126'
 ht-degree: 7%
 
 ---
@@ -36,6 +36,10 @@ In caso contrario, il destinatario sarà **[!UICONTROL Excluded by arbitration]*
 ## Creare una regola di pressione {#create-a-pressure-rule}
 
 Per impostare l&#39;arbitrato tra le campagne che utilizzano Adobe Campaign, inizia creando tipologie di campagna e definendo regole di tipologia collegate (**Regole di pressione**).
+
+>[!NOTE]
+>
+>Per applicare correttamente una regola di pressione, la dimensione di targeting della regola deve corrispondere alla dimensione di targeting della mappatura di consegna.
 
 Per creare e configurare una regola di tipologia **[!UICONTROL Pressure]**, attieniti alla seguente procedura:
 
