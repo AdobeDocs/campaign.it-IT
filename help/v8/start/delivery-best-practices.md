@@ -115,11 +115,11 @@ Per personalizzare i messaggi, puoi utilizzare i dati dei destinatari memorizzat
 
 * Verifica le impostazioni di personalizzazione: assicurati che il contenuto del messaggio sia progettato correttamente per evitare errori che possono essere correlati alla personalizzazione. Un tag di personalizzazione Adobe Campaign ha sempre il seguente formato: `<%=table.field%>`. L’utilizzo errato dei parametri nei blocchi di personalizzazione può rappresentare un problema. Ad esempio, le variabili in JavaScript devono essere utilizzate come segue:
 
-  ``
+  &grave;&grave;
   <%
   var brand = "xxx"
   %>
-  ``
+  &grave;&grave;
 
   Per ulteriori informazioni sui blocchi di personalizzazione, consulta [questa sezione](../send/personalization-blocks.md).
 

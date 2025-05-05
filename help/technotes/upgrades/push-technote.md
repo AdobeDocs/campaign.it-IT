@@ -156,7 +156,7 @@ Puoi anche aggiornare le consegne e i modelli di consegna esistenti creati prima
       nlserver javascript -instance:<instance_name> -file fcm-httpv1-migration.js -arg:run
       ```
 
-+++
+  +++
 
 ### Qual è l’impatto sulle app Android? {#fcm-apps}
 

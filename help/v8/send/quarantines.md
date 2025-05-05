@@ -73,7 +73,7 @@ Per visualizzare l&#39;elenco degli indirizzi messi in quarantena **per l&#39;in
 >
 >Fine anno 1: (1&#42;0,33)/(1+0,5)=22%.
 >
-Fine anno 2: ((1,22&#42;0,33)+0,33)/(1,5+0,75)=32,5%.
+>Fine anno 2: ((1,22&#42;0,33)+0,33)/(1,5+0,75)=32,5%.
 
 Inoltre, il report integrato **[!UICONTROL Non-deliverables and bounces]**, disponibile nella sezione **Reports** di questa home page, visualizza informazioni sugli indirizzi messi in quarantena, sui tipi di errore riscontrati e un raggruppamento di errori per dominio. Puoi filtrare i dati per una consegna specifica o personalizzare questo rapporto in base alle esigenze.
 
@@ -104,7 +104,7 @@ Il loro stato diventa quindi **[!UICONTROL Valid]**.
 
 >[!CAUTION]
 >
-I destinatari con un indirizzo nello stato **[!UICONTROL Quarantine]** o **[!UICONTROL Denylisted]** non verranno mai rimossi, anche se ricevono un&#39;e-mail.
+>I destinatari con un indirizzo nello stato **[!UICONTROL Quarantine]** o **[!UICONTROL Denylisted]** non verranno mai rimossi, anche se ricevono un&#39;e-mail.
 
 È inoltre possibile rimuovere manualmente un indirizzo dall’elenco di quarantena. Per rimuovere un indirizzo dalla quarantena, è possibile:
 

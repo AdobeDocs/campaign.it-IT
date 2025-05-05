@@ -218,7 +218,7 @@ L’utente dell’account tecnico NON esisterà in Adobe Campaign finché non ve
 
    ![](assets/do-not-localize/ims-updates-07.png)
 
-   Nella schermata Credenziali, scorri verso il basso per individuare il **Indirizzo e-mail account tecnico **e fai clic sul pulsante **Copia**.
+   Nella schermata Credenziali, scorri verso il basso per individuare il **Indirizzo e-mail account tecnico &#x200B;** e fai clic sul pulsante **Copia**.
 
    ![](assets/do-not-localize/ims-updates-08.png)
 
