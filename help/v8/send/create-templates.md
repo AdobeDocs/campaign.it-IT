@@ -141,18 +141,18 @@ Questa azione genera una consegna nella cartella associata al modello. Il nome d
 
 Il video seguente illustra come configurare un modello per una consegna ad hoc.
 
->[!VIDEO](https://video.tv.adobe.com/v/342082?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3409246?quality=12&captions=ita)
 
 ### Impostare le proprietà dei modelli di consegna
 
 Il video seguente mostra come impostare le proprietà del modello di consegna e spiega in dettaglio ciascuna proprietà.
 
->[!VIDEO](https://video.tv.adobe.com/v/338969?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3443409?quality=12&captions=ita)
 
 ### Come distribuire un modello di consegna ad hoc
 
 Questo video spiega come distribuire un modello di consegna e-mail ad hoc e la differenza tra una consegna e-mail e un flusso di lavoro di consegna.
 
->[!VIDEO](https://video.tv.adobe.com/v/338965?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3444965?quality=12&captions=ita)
 
 Ulteriori video dimostrativi di Campaign sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=it){target="_blank"}.

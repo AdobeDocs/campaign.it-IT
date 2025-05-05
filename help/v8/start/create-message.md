@@ -181,7 +181,7 @@ Per ulteriori informazioni sui destinatari e l’invio della bozza, consulta [qu
 
 In questo video scoprirai come aggiungere seed e bozze a un’e-mail esistente e come inviarla.
 
->[!VIDEO](https://video.tv.adobe.com/v/333404?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3447007?quality=12&captions=ita)
 
 Ulteriori video dimostrativi di Campaign Classic sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=it).
 

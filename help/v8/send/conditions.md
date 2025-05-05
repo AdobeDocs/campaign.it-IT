@@ -86,4 +86,4 @@ Nell’esempio seguente, scopri come creare un’e-mail multilingue. Il contenut
 
 Scopri come aggiungere contenuti condizionali a una consegna sull’esempio di una newsletter multilingue.
 
->[!VIDEO](https://video.tv.adobe.com/v/335682?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3446719?quality=12&captions=ita)
