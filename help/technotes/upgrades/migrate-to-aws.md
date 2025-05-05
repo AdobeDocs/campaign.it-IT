@@ -67,11 +67,11 @@ Questo passaggio sarà trasparente per i clienti:
 
 * **Quali convalide devono essere eseguite dai clienti?**
 
-  Per questa migrazione non è necessario alcun test specifico. In caso di problemi, contatta l&#39;[Assistenza clienti Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
+  Per questa migrazione non è necessario alcun test specifico. In caso di problemi, contatta l&#39;[Assistenza clienti Adobe](https://experienceleague.adobe.com/it?support-solution=Campaign#support){target="_blank"}.
 
 
 * **Posso richiedere una modifica di data/ora nello slot di aggiornamento della sicurezza pianificato?**
 
   Poiché si tratta di una migrazione obbligatoria, non possiamo accettare modifiche alla pianificazione esistente.
 
-Per qualsiasi altra domanda, puoi contattare [l&#39;Assistenza clienti Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
+Per qualsiasi altra domanda, puoi contattare [l&#39;Assistenza clienti Adobe](https://experienceleague.adobe.com/it?support-solution=Campaign#support){target="_blank"}.

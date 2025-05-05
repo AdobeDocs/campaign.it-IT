@@ -19,7 +19,7 @@ ht-degree: 0%
 >
 >Questa documentazione è per Adobe Campaign v8.7.2 e versioni successive.
 >
->Per le versioni precedenti, leggere la documentazione di [Campaign Classic v7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up).
+>Per le versioni precedenti, leggere la documentazione di [Campaign Classic v7](https://experienceleague.adobe.com/it/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up).
 
 L’invio di consegne SMS con un’infrastruttura mid-sourcing richiede:
 

@@ -52,4 +52,4 @@ Adobe Campaign fornisce una serie di strumenti di reporting elencati in questa p
 
   Utilizza Adobe Campaign per creare rapporti sui dati nel database. Una volta creati, rendili accessibili nei contesti appropriati.
 
-  La procedura per la creazione di un report è descritta nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target="_blank"}. La creazione di rapporti personalizzati è riservata agli utenti avanzati.
+  La procedura per la creazione di un report è descritta nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html?lang=it){target="_blank"}. La creazione di rapporti personalizzati è riservata agli utenti avanzati.

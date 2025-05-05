@@ -22,7 +22,7 @@ I passaggi per generare il file sono i seguenti:
 
    Crea una consegna direct mailing in base al modello. È possibile duplicare e configurare il modello incorporato di **[!UICONTROL Deliver by direct mail (paper)]**.
 
-   Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/creating-a-direct-mail-delivery.html){target="_blank"}
+   Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/creating-a-direct-mail-delivery.html?lang=it){target="_blank"}
 
 1. Definire il pubblico
 
@@ -32,19 +32,19 @@ I passaggi per generare il file sono i seguenti:
 
    Un indirizzo è considerato completo se il nome, il campo CAP e i campi città non sono vuoti. Tutti i destinatari con indirizzi incompleti saranno esclusi dalle consegne di direct mailing.
 
-   Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html){target="_blank"}
+   Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html?lang=it){target="_blank"}
 
 1. Definire il contenuto del file
 
    Utilizza l’estrazione guidata per definire le informazioni (colonne) da esportare nel file di output.
 
-   Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/defining-the-direct-mail-content.html){target="_blank"}
+   Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/defining-the-direct-mail-content.html?lang=it){target="_blank"}
 
 1. Convalidare la consegna
 
    Verificare il risultato dell&#39;analisi e il contenuto del file di output.
 
-   Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/validating.html){target="_blank"}
+   Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/validating.html?lang=it){target="_blank"}
 
    Nel contesto di una campagna di marketing, alla data di estrazione viene creato il file di estrazione. Puoi visualizzare il contenuto del file estratto, approvarlo o modificare il formato e, se necessario, riavviare l’estrazione. Una volta approvato il file, è possibile inviare il messaggio di notifica al router. Per ulteriori informazioni, consulta [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html?lang=it)
 

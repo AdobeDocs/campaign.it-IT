@@ -34,9 +34,9 @@ Campaign v8 è in grado di connettersi con le seguenti soluzioni di Adobe. Sfogl
 
 Puoi anche combinare le **audience** e **risorse** nelle soluzioni Experience Cloud con le funzionalità di condivisione delle risorse e dei tipi di pubblico.
 
-Ulteriori informazioni sulla **condivisione del pubblico** tra Campaign e le soluzioni Experience Cloud nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}.
+Ulteriori informazioni sulla **condivisione del pubblico** tra Campaign e le soluzioni Experience Cloud nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=it#integrating-with-adobe-experience-cloud){target="_blank"}.
 
-Ulteriori informazioni sulla **condivisione di risorse** tra Campaign e le soluzioni Experience Cloud nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}.
+Ulteriori informazioni sulla **condivisione di risorse** tra Campaign e le soluzioni Experience Cloud nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=it#integrating-with-adobe-experience-cloud){target="_blank"}.
 
 >[!NOTE]
 >

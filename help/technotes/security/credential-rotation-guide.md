@@ -44,19 +44,19 @@ Per gli operatori `mc*` tecnici specifici (es: mc1, mc2, ecc.) e `Interaction*` 
 
 Per la rotazione delle chiavi private e del certificato relativi ai servizi mobili, fai riferimento ai collegamenti riportati di seguito.
 
-* Per Android, consulta [questa documentazione](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android){target="_blank"}.
+* Per Android, consulta [questa documentazione](https://experienceleague.adobe.com/it/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android){target="_blank"}.
 Passare alla sezione **Creare l&#39;applicazione mobile Android > Configurare la versione API**.
 
-* Per iOS, consulta [questa documentazione](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application){target="_blank"}.
+* Per iOS, consulta [questa documentazione](https://experienceleague.adobe.com/it/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application){target="_blank"}.
 Passa alla sezione **Crea app mobile iOS->Modalità di autenticazione**.
 
 ## Chiavi GPG {#ac-gpg-credentials}
 
 Per la rotazione delle chiavi GPG, è necessario seguire i seguenti passaggi:
 
-1. Decrittare i dati esistenti utilizzando la chiave esistente. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"}.
+1. Decrittare i dati esistenti utilizzando la chiave esistente. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"}.
 
-1. Crea una nuova coppia di chiavi GPG. Ulteriori informazioni sulla gestione delle chiavi GPG in [questa documentazione](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"}.
+1. Crea una nuova coppia di chiavi GPG. Ulteriori informazioni sulla gestione delle chiavi GPG in [questa documentazione](https://experienceleague.adobe.com/it/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"}.
 
 1. Sostituisci l’utilizzo della chiave GPG esistente in tutti i flussi di lavoro con la chiave appena creata.
 

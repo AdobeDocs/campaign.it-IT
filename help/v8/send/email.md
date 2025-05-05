@@ -90,7 +90,7 @@ Nell’esempio seguente, scoprirai i passaggi per progettare una consegna e-mail
 
 La prima consegna e-mail è pronta. Ora devi definire il pubblico, convalidare la consegna e inviarla.
 
-Scopri come creare un flusso di lavoro per importare un contenuto e-mail in questo [caso d&#39;uso](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}.
+Scopri come creare un flusso di lavoro per importare un contenuto e-mail in questo [caso d&#39;uso](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=it){target="_blank"}.
 
 >[!MORELIKETHIS]
 >
