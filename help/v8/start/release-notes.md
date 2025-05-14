@@ -3,10 +3,10 @@ title: Note sulla versione di Campaign v8
 description: Ultima versione di Campaign v8
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 5ece3ca4ebf9f3973d9cbd1a00ea57b29c1f2e93
+source-git-commit: 6d2425f7e7f35f5461151790fbda2bef2959bff4
 workflow-type: tm+mt
 source-wordcount: '781'
-ht-degree: 32%
+ht-degree: 35%
 
 ---
 
@@ -62,7 +62,7 @@ _venerdì 10 aprile 2025_
 
 ### Nuove funzioni {#features-8-7-4}
 
-* **Supporto API REST SMS** - L&#39;API REST per la messaggistica transazionale è ora disponibile per il canale SMS. Quando nel payload sono presenti sia e-mail che telefono cellulare, puoi utilizzare il campo &quot;wishedChannel&quot; per specificare il canale. Se non viene fornito, l’e-mail verrà utilizzata per impostazione predefinita a meno che il canale desiderato non richieda esplicitamente l’invio di SMS.
+* **Supporto API REST SMS** - L&#39;API REST per la messaggistica transazionale è ora disponibile per il canale SMS. Quando nel payload sono presenti sia e-mail che telefono cellulare, puoi utilizzare il campo “wishedChannel” per specificare il canale. Se non viene fornito, l’e-mail verrà utilizzata per impostazione predefinita a meno che il canale desiderato non richieda esplicitamente l’invio di SMS.
 
 * **Consegne multilingue** - A partire dalla versione di aprile dell&#39;interfaccia utente web di Campaign, potrai inviare più consegne e-mail in lingue diverse e accedere ai relativi rapporti dinamici. Questa funzionalità sarà disponibile nell’interfaccia utente di Adobe Campaign Web solo alla fine di aprile e richiederà un aggiornamento del server a Campaign v8.7.4.
 
