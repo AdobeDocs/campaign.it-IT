@@ -5,10 +5,10 @@ user-guide-description: Documentazione di prodotto per Adobe Campaign v8 (consol
 title: Documentazione di Adobe Campaign v8
 description: Documentazione di Campaign v8
 breadcrumb-title: Documentazione di Campaign v8
-source-git-commit: d50c746d11b6f1bb0b5af0d5ddab5660b99dc359
+source-git-commit: 4a62c551c43cd5a4866df36cce10e294f35db363
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 99%
+source-wordcount: '695'
+ht-degree: 89%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 99%
          + [Istanza autonoma](send/sms/sms-standalone-instance.md)
          + [Infrastruttura mid-sourcing](send/sms/sms-mid-sourcing.md)
          + [Descrizione connettore SMPP](send/sms/smpp-connector-delivery.md)
-      + Creare un SMS{#create-sms}
+      + Creare un SMS  {#create-sms}
          + [Creare una consegna SMS](send/sms/create-sms.md)
          + [Definire il contenuto](send/sms/sms-content.md)
          + [Selezionare il pubblico](send/sms/sms-audience.md)
@@ -80,6 +80,7 @@ ht-degree: 99%
    + [Messaggistica LINE](send/line.md)
    + [Direct mail](send/direct-mail.md)
    + [X (Twitter)](send/twitter.md)
+   + [Canale esterno personalizzato](send/custom-channel.md)
    + Personalizzazione dei contenuti {#personalize}
       + [Introduzione alla personalizzazione](send/personalize.md)
       + [Dati di personalizzazione](send/personalization-data.md)
@@ -162,13 +163,13 @@ ht-degree: 99%
          + [Rapporti di consegna](reporting/delivery-reports.md)
          + [Calcolo delle metriche incorporate](reporting/metrics-calculation.md)
       + [Rapporti personalizzati](reporting/custom-reports.md)
-+ Gestione dei dati {#data}
++ Gestione dati {#data}
    + [Introduzione ai flussi di lavoro](config/workflows.md)
    + [Importare i dati](start/import.md)
    + [Documentazione del flusso di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=it)
 + Integrazioni {#connect}
    + [Connettere Campaign con altre soluzioni](connect/integration.md)
-   + Campaign ed Experience Platform {#ac-aep}
+   + Campaign + Experience Platform {#ac-aep}
       + [Condividere e sincronizzare tipi di pubblico e attributi di profilo](connect/ac-aep.md)
       + [Aggiornare i profili AEP dalle pagine di destinazione di Campaign](connect/ac-aep-landing-pages.md)
    + [Campaign + Journey Optimizer](connect/ac-ajo.md)
@@ -179,7 +180,7 @@ ht-degree: 99%
    + [Campaign e Workfront](connect/ac-workfront.md)
    + [Campaign e X (Twitter)](connect/ac-tw.md)
    + [Campaign e database esterno](connect/fda.md)
-   + Campaign e CRM {#ac-crm}
+   + Campaign + CRM {#ac-crm}
       + [Introduzione ai connettori CRM](connect/crm.md)
       + [Utilizzare Campaign e SFDC](connect/ac-sfdc.md)
       + [Utilizzare Campaign e Microsoft Dynamics](connect/ac-ms-dyn.md)

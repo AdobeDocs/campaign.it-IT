@@ -5,9 +5,9 @@ feature: Permissions
 role: User, Admin
 level: Beginner
 exl-id: 5bd8dbba-7a06-4737-bc5a-60354f91c709
-source-git-commit: 0513b9f65e9431f5207b384a0e2d8c5aeb8e209f
+source-git-commit: 4a62c551c43cd5a4866df36cce10e294f35db363
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,12 @@ Per modificare le autorizzazioni per una cartella Campaign specifica, effettua l
 * Per **autorizzare un gruppo o un operatore**, fare clic sul pulsante **[!UICONTROL Add]** e selezionare il gruppo o l&#39;operatore a cui assegnare le autorizzazioni per la cartella.
 * Per **vietare un gruppo o un operatore**, fare clic su **[!UICONTROL Delete]** e selezionare il gruppo o l&#39;operatore per rimuovere l&#39;autorizzazione per la cartella.
 * Per **selezionare i diritti assegnati a un gruppo o a un operatore**, selezionare il gruppo o l&#39;operatore, selezionare i diritti di accesso che si desidera concedere e deselezionare gli altri.
+
+>[!NOTE]
+>
+>Non è possibile creare un oggetto per il quale non si dispone di almeno una cartella con diritti di scrittura.
+>
+>Per creare i frammenti non è necessario essere un amministratore, ma è necessario disporre dei diritti di scrittura per almeno una cartella &quot;Frammento visivo di contenuto&quot;. In caso contrario, non potrai creare un frammento visivo.
 
 ## Propagare le autorizzazioni {#propagate-permissions}
 
