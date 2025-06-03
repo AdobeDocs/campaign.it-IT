@@ -8,7 +8,7 @@ exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
 source-git-commit: a9f26a033d63ab1dece9ef9780392823ee130047
 workflow-type: tm+mt
 source-wordcount: '706'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -36,7 +36,7 @@ Hai bisogno di assistenza mentre lavori con Campaign? Leggi le principali domand
 
    Scopri come connetterti ad Adobe Experience Cloud e come accedere all’interfaccia di Adobe Campaign Web [in questa pagina](campaign-ui.md#ac-web-ui).
 
-   Per ulteriori informazioni, consulta la [documentazione dell’interfaccia utente web di Adobe Campaign](https://experienceleague.adobe.com/it/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
+   Ulteriori informazioni sono disponibili nella [documentazione dell&#39;interfaccia utente Web di Adobe Campaign](https://experienceleague.adobe.com/it/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
 
 1. **Campaign v8 può essere installato in un ambiente locale o ibrido?**
 
@@ -46,15 +46,15 @@ Hai bisogno di assistenza mentre lavori con Campaign? Leggi le principali domand
 
    La capacità di recapito dei messaggi e-mail, un aspetto critico per il successo del programma di marketing di ogni mittente, è caratterizzata da criteri e regole in continua evoluzione. Per orientarsi nel mondo digitale e raggiungere al meglio i vari tipi di pubblico, è necessario ottimizzare regolarmente la strategia e-mail tenendo conto delle tendenze chiave di recapito messaggi.
 
-   Consulta questa guida per scoprire le [ebst practice per il recapito messaggi](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=it){target="_blank"}
+   Consulta questa guida per scoprire le [best practice per la consegna](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=it){target="_blank"}
 
-   Scopri come implementare il recapito messaggi in Campaign, [in questa guida](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=it){target="_blank"}
+   Scopri come implementare il recapito messaggi nella campagna [in questa guida](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=it){target="_blank"}
 
 1. **Come posso assicurarmi che la consegna venga inviata senza errori?**
 
    Adobe Campaign dispone di una serie di dashboard e strumenti per monitorare le consegne delle e-mail.
 
-   [Leggi la documentazione di Campaign Classic v7 per scoprire](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=it){target="_blank"} come assicurarti che i messaggi siano inviati, come monitorare l’esecuzione e intervenire in caso di errore.
+   [Leggi la documentazione di Campaign Classic v7 per scoprire](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=it){target="_blank"} come assicurarti che i tuoi messaggi siano inviati, come monitorare l’esecuzione e intervenire in caso di errore.
 
 1. **Posso monitorare l’esecuzione di un flusso di lavoro?**
 
@@ -86,7 +86,7 @@ Hai bisogno di assistenza mentre lavori con Campaign? Leggi le principali domand
 
    Per scaricare Adobe Campaign, accedi come utente amministratore alla [Distribuzione di software](https://experience.adobe.com/#/downloads/content/software-distribution/it/campaign.html) {target="_blank"} di Adobe.
 
-   Ulteriori informazioni sul Centro distribuzione sono disponibili in [questa pagina](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=it){target="_blank"}.
+   Ulteriori informazioni sul Centro distribuzione sono disponibili a [questa pagina](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=it){target="_blank"}.
 
 1. **Posso entrare in contatto con gli esperti di Campaign?**
 

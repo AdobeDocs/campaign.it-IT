@@ -6,9 +6,9 @@ feature: Campaigns, Cross Channel Orchestration, Programs
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
-source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
+source-git-commit: 24ecf598d3d01f7fb59c70e1c8c81e9c086e653e
 workflow-type: tm+mt
-source-wordcount: '1327'
+source-wordcount: '1298'
 ht-degree: 4%
 
 ---
@@ -159,14 +159,9 @@ Durante l’esplorazione del calendario, puoi anche creare un programma o una ca
 Quando si crea una campagna tramite la scheda **[!UICONTROL Schedule]** di un programma, la campagna viene automaticamente collegata al programma interessato. In questo caso, il campo **[!UICONTROL Program]** è nascosto.
 
 
-## Accedere a Campaign con un browser web {#use-the-web-interface}
+## Utilizzare l’interfaccia web {#use-the-web-interface-}
 
-
->[!AVAILABILITY]
->
->A partire dalla versione 8.6 di Campaign, Campaign è disponibile in un’interfaccia utente web. La maggior parte delle azioni di marketing può essere eseguita da questa nuova interfaccia. [Ulteriori informazioni](../../v8/start/campaign-ui.md#discover-the-user-interface).
-
-Puoi accedere ad alcune delle schermate della console client di Adobe Campaign tramite un browser Internet per visualizzare tutte le campagne e le consegne, nonché i rapporti e le informazioni sui profili nel database. Non è possibile creare componenti da questo accesso Web ma, a seconda dei diritti di accesso, è possibile visualizzare e/o agire sui dati nel database. In genere, puoi approvare il contenuto della campagna e il targeting, riavviare o interrompere una consegna, ecc.
+Puoi accedere alle schermate della console client di Adobe Campaign tramite un browser Internet per visualizzare tutte le campagne e le consegne, nonché i rapporti e le informazioni sui profili nel database. Questo accesso non consente la creazione di record. A seconda dei diritti degli operatori, è possibile visualizzare e/o agire sui dati nel database. Ad esempio, puoi approvare il contenuto della campagna e il targeting, riavviare o interrompere una consegna, ecc.
 
 1. Accedi come di consueto tramite https://`<your instance>:<port>/view/home`.
 1. Utilizza i menu per accedere alle panoramiche.
@@ -213,4 +208,4 @@ Puoi anche utilizzare il collegamento contenuto nei messaggi di notifica. Per ul
 
 Questo video mostra come creare un piano di marketing, programmi e campagne.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449911?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/333810?quality=12)

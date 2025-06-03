@@ -3,7 +3,7 @@ title: Note sulla versione di Campaign v8 2022
 description: Elenco delle funzioni e dei miglioramenti introdotti con le versioni di Campaign v8 2022
 feature: Release Notes
 exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
-source-git-commit: fe96eb65ac04fc2b89f0dfe1e8ed4286223c3f85
+source-git-commit: b3ca222fb28c1a5d35190e41cfbbe463c5d1bcad
 workflow-type: tm+mt
 source-wordcount: '1943'
 ht-degree: 89%
@@ -68,7 +68,7 @@ _30 settembre 2022_
 <tr> 
 <td> <p>Il canale social <a href="../send/twitter.md">X</a> è ora disponibile con Campaign v8. Puoi eseguire le seguenti azioni:</p>
 <ul> 
-<li><p>Inviare messaggi su X (precedentemente noto come Twitter): Adobe Campaign consente di inviare messaggi direttamente al tuo account X. Puoi anche inviare messaggi diretti a tutti i tuoi follower.
+<li><p>Inviare messaggi su X (precedentemente noto come Twitter): Adobe Campaign consente di pubblicare messaggi direttamente sul tuo account X. Puoi anche inviare messaggi diretti a tutti i tuoi follower.
 </p></li>
 <li><p>Raccogliere nuovi contatti: Adobe Campaign può ripristinare automaticamente i dati del profilo, consentendo di eseguire campagne di targeting e implementare strategie cross-channel.
 </p></li>
@@ -94,7 +94,7 @@ Per ottimizzare la sicurezza, i token di sicurezza sono stati rimossi dagli URL 
 
 **Miglioramenti**
 
-* Dopo la fine del ciclo di vita di Internet Explorer 11, il motore di rendering HTML nella console utilizza ora **Microsoft Edge Chromium**. Inoltre, **Microsoft Edge WebView2 Runtime** è ora necessario per tute le installazioni della console client.
+* Dopo la fine del ciclo di vita di Internet Explorer 11, il motore di rendering HTML nella console utilizza ora **Microsoft Edge Chromium**. Inoltre, l&#39;installazione di **Microsoft Edge WebView 2** Runtime è ora necessaria per qualsiasi installazione della console client.
 * È stata migliorata l’esecuzione dei flussi di lavoro con elevata disponibilità, che consente di eseguire flussi di lavoro simultanei tra contenitori diversi per evitare sia la perdita del servizio del flusso di lavoro sia i relativi errori di esecuzione. **Nota**: questa nuova funzionalità viene rilasciata solo in Disponibilità limitata a un set di clienti.
 * Le richieste di privacy vengono ora eseguite in batch per uno specifico spazio dei nomi di privacy. Questo miglioramento aumenta il tempo di esecuzione per le richieste di eliminazione di dati relativi a GDPR e privacy.
 
@@ -131,7 +131,7 @@ Consulta la [Matrice di compatibilità di Campaign](compatibility-matrix.md).
 
 >[!CAUTION]
 >
-> aggiornamento della console client obbligatorio. Scopri come aggiornare la console client in questa [pagina](../start/connect.md#download-ac-console).
+> L’aggiornamento della console client è obbligatorio. Scopri come aggiornare la console client in questa [pagina](../start/connect.md#download-ac-console).
 
 _7 ottobre 2022_
 

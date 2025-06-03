@@ -5,7 +5,7 @@ feature: Web Forms, Landing Pages
 role: Developer
 level: Beginner, Intermediate
 exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 4f9183c7f1d12feb255a0050da423647f0fce85e
 workflow-type: tm+mt
 source-wordcount: '2551'
 ht-degree: 0%
@@ -87,11 +87,11 @@ Il controllo di modifica si adatta automaticamente al tipo di dati corrispondent
 
 Per impostazione predefinita, ogni campo viene visualizzato su una sola riga e occupa tutto lo spazio disponibile a seconda del tipo di dati.
 
-Tutti gli attributi del modulo sono elencati nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html?lang=it){target="_blank"}.
+Tutti gli attributi del modulo sono elencati nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html){target="_blank"}.
 
 ## Formattazione {#formatting}
 
-Il layout dei controlli è simile al layout utilizzato nelle tabelle HTML, con la possibilità di dividere un controllo in più colonne, di interlacciare elementi o di specificare l&#39;occupazione dello spazio disponibile. Tenete presente, tuttavia, che la formattazione consente di dividere l&#39;area solo per le proporzioni; non è possibile specificare dimensioni fisse per un oggetto.
+Il layout dei controlli è simile al layout utilizzato nelle tabelle di HTML, con la possibilità di dividere un controllo in più colonne, di interlacciare elementi o di specificare l&#39;occupazione dello spazio disponibile. Tenete presente, tuttavia, che la formattazione consente di dividere l&#39;area solo per le proporzioni; non è possibile specificare dimensioni fisse per un oggetto.
 
 Per visualizzare i controlli dell&#39;esempio precedente in due colonne:
 
@@ -636,9 +636,9 @@ La presenza dell&#39;attributo **type=&quot;wizard&quot;** nell&#39;elemento `<f
 
 Il pulsante **[!UICONTROL Finish]** consente di salvare i dati immessi e di chiudere il modulo.
 
-### Metodi SOAP {#soap-methods}
+### metodi SOAP {#soap-methods}
 
-L&#39;esecuzione del metodo SOAP può essere avviata da un tag **`<leave>`** popolato alla fine di una pagina.
+È possibile avviare l&#39;esecuzione del metodo SOAP da un tag **`<leave>`** popolato alla fine di una pagina.
 
 Il tag **`<soapcall>`** contiene la chiamata per il metodo con i seguenti parametri di input:
 

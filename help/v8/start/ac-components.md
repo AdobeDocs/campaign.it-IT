@@ -5,9 +5,9 @@ feature: Overview, Architecture, Configuration
 role: User
 level: Beginner
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: 6926d84576df1810b511ef1a9976593cb99585bb
+source-git-commit: e4f6c70ecdcf7414b5f49a43933cfd1c967a0905
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,21 @@ Di seguito sono descritti i componenti e l’architettura globale di Adobe Campa
 
 ![](assets/do-not-localize//ac-components.png)
 
+### Livello di presentazione{#presentation-layer}
 
+Puoi accedere ad Adobe Campaign tramite un client avanzato, un thin client o un’integrazione API.
+
+* Client avanzato
+
+  Il client Campaign Rich è un’applicazione nativa che comunica con il server applicazioni Adobe Campaign tramite protocolli Internet standard, come SOAP e HTTP. [Ulteriori informazioni sulla console client di Campaign](../start/connect.md).
+
+* Thin client
+
+  Le funzionalità di accesso web di Adobe Campaign ti consentono di accedere a un sottoinsieme di funzionalità di Campaign con un browser web, utilizzando un’interfaccia utente di HTML. Utilizza questa interfaccia web per accedere ai rapporti, controllare e convalidare i messaggi, accedere alle dashboard di monitoraggio e altro ancora.  [Ulteriori informazioni su Campaign Web Access](../start/connect.md).
+
+* Applicazioni esterne con API
+
+  In alcuni casi, il sistema può essere richiamato da applicazioni esterne utilizzando le API dei servizi Web esposte tramite il protocollo SOAP. [Ulteriori informazioni sulle API di Campaign](../dev/api.md).
 
 ### Livello di persistenza{#persistance-layer}
 
@@ -36,9 +50,9 @@ L’affidabilità del database è di fondamentale importanza perché la maggior 
 
 Il livello di applicazione logico di Campaign è facilmente configurabile per soddisfare esigenze aziendali complesse. Puoi utilizzare Campaign come una singola piattaforma con diverse applicazioni che si combinano per creare un’architettura aperta e scalabile. Ogni istanza di Campaign è una raccolta di processi nel livello dell’applicazione, alcuni dei quali sono condivisi e altri dedicati.
 
-## Cloud Service gestiti di Campaign{#ac-managed-services}
+## Servizi cloud gestiti di Campaign{#ac-managed-services}
 
-Adobe Campaign v8 è stato implementato in versione as a Managed Service: tutti i componenti di Adobe Campaign, inclusa l’interfaccia utente, il motore di gestione dell’esecuzione e i database di Campaign, sono completamente ospitati in Adobe, tra cui l’esecuzione e-mail, le pagine mirror, il server di tracciamento e i componenti web rivolti verso l’esterno come la pagina di annullamento dell’abbonamento/il centro preferenze e le pagine di destinazione.
+Adobe Campaign v8 è implementato in as a Managed Service: tutti i componenti di Adobe Campaign, inclusa l’interfaccia utente, il motore di gestione dell’esecuzione e i database di Campaign, sono completamente ospitati in Adobe, tra cui l’esecuzione delle e-mail, le pagine mirror, il server di tracciamento e i componenti web rivolti verso l’esterno come la pagina di annullamento dell’abbonamento/il centro preferenze e le pagine di destinazione.
 
 ## Processi della campagna
 
@@ -46,7 +60,7 @@ Il server web di Campaign controlla l’accesso ai processi web di Campaign. Jav
 
 ![](assets/do-not-localize/ac-processes.png)
 
-La console client di Campaign si connette al server web utilizzando l’XML SOAP su HTTP. Il server web fornisce il livello di sicurezza, trasmette le richieste al livello applicazione utilizzando JavaScript e i processi interni di Campaign accedono al database utilizzando SQL.
+La console client di Campaign si connette al server web utilizzando SOAP XML su HTTP. Il server web fornisce il livello di sicurezza, trasmette le richieste al livello applicazione utilizzando JavaScript e i processi interni di Campaign accedono al database utilizzando SQL.
 
 <!--The overall communication between Campaign processes are described in the following standalone deployment diagram: all Campaign components are installed in the same machine.
 

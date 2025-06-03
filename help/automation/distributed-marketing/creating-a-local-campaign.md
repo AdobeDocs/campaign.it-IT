@@ -5,9 +5,9 @@ description: Creare una campagna locale
 feature: Distributed Marketing
 role: User
 exl-id: b46530b5-cb81-40d7-b596-c7685359782a
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+source-git-commit: d80a39d7f0df939d0e9e3f782d5d9aef3d459a32
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1556'
 ht-degree: 1%
 
 ---
@@ -46,17 +46,17 @@ Nella finestra della campagna, fai clic sulla scheda **[!UICONTROL Edit]**, quin
 
 ![](assets/mkt_distr_4.png)
 
-### Tipo di interfaccia {#web-interface}
+### Interfaccia Web {#web-interface}
 
-Nella scheda **Marketing distribuito** è possibile scegliere il tipo di interfaccia e specificare i valori e i parametri predefiniti da immettere quando un&#39;entità locale effettua un ordine.
+Nella scheda **Marketing distribuito** è possibile scegliere il tipo di interfaccia Web e specificare i valori e i parametri predefiniti da immettere quando un&#39;entità locale effettua un ordine.
 
-L’interfaccia corrisponde a un modulo che l’entità locale deve compilare quando ordina la campagna.
+L’interfaccia web corrisponde a un modulo che l’entità locale deve compilare quando ordina la campagna.
 
-Seleziona il tipo di interfaccia da applicare alle campagne create dal modello:
+Seleziona il tipo di interfaccia web da applicare alle campagne create dal modello:
 
 ![](assets/mkt_distr_1.png)
 
-Sono disponibili quattro tipi di interfacce:
+Sono disponibili quattro tipi di interfacce web:
 
 * **[!UICONTROL By brief]**: l&#39;entità locale deve fornire una descrizione che descriva le configurazioni della campagna. Una volta approvato l’ordine, l’entità centrale configura ed esegue la campagna nel suo insieme.
 
@@ -107,7 +107,7 @@ Se non desideri assegnare un nome ai revisori per una campagna, immetti 0.
 
 ### Documenti {#documents}
 
-Puoi consentire agli operatori di entità locali di collegare documenti (file di testo, fogli di calcolo, immagini, descrizioni di campagne, ecc.) alla campagna locale durante la creazione dell’ordine. Il collegamento **[!UICONTROL Advanced parameters for campaign entry...]** consente di limitare il numero di documenti. A questo scopo, è sufficiente immettere il numero massimo consentito nel campo **[!UICONTROL Number of documents]**.
+È possibile consentire agli operatori di entità locali di collegare documenti (file di testo, fogli di calcolo, immagini, descrizioni delle campagne, ecc.) alla campagna locale durante la creazione dell’ordine. Il collegamento **[!UICONTROL Advanced parameters for campaign entry...]** consente di limitare il numero di documenti. A questo scopo, è sufficiente immettere il numero massimo consentito nel campo **[!UICONTROL Number of documents]**.
 
 ![](assets/s_advuser_mkg_dist_local_docs.png)
 

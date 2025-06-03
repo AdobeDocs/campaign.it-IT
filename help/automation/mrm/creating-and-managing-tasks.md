@@ -5,9 +5,9 @@ description: Creazione e gestione delle attività
 feature: Campaigns, Resource Management
 role: User
 exl-id: 730d1712-53a6-4bf7-9aac-523b06bd0d0a
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+source-git-commit: d80a39d7f0df939d0e9e3f782d5d9aef3d459a32
 workflow-type: tm+mt
-source-wordcount: '3758'
+source-wordcount: '3757'
 ht-degree: 0%
 
 ---
@@ -467,7 +467,7 @@ Di seguito sono riportate le fasi di un ciclo di vita completo di un&#39;attivit
 1. Dopo aver completato la sezione a loro assegnata, i partecipanti possono approvare l&#39;attività:
 
    * tramite l’e-mail di notifica.
-   * tramite la console client o l’accesso web, nel dashboard attività.
+   * tramite la console client o l’interfaccia web, nel dashboard delle attività.
 
      ![](assets/s_ncs_user_task_start_rea.png)
 
@@ -481,7 +481,7 @@ Di seguito sono riportate le fasi di un ciclo di vita completo di un&#39;attivit
 
    ![](assets/s_ncs_user_task_follow_from_dashboard.png)
 
-1. Una volta che il responsabile dell’attività decide che è terminata, può chiuderla utilizzando il collegamento nell’e-mail di notifica inviata all’avvio dell’attività, la console client o l’interfaccia.
+1. Una volta che la persona responsabile dell’attività decide che è stata completata, può chiuderla utilizzando il collegamento nell’e-mail di notifica inviata all’avvio dell’attività, la console client o l’interfaccia.
 
    ![](assets/s_ncs_user_task_console_ressource_validation.png)
 
@@ -491,7 +491,7 @@ Di seguito sono riportate le fasi di un ciclo di vita completo di un&#39;attivit
 
 1. Lo stato dell&#39;attività cambia in **[!UICONTROL To approve]** e viene inviata una notifica al revisore.
 
-   Approvano l’attività tramite l’e-mail di notifica, la console client o un browser web.
+   Approvano l’attività tramite l’e-mail di notifica, la Client Console o l’interfaccia web.
 
    Possono agire tramite il dashboard della campagna:
 

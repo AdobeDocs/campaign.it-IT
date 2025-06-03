@@ -5,7 +5,7 @@ role: User, Admin
 feature: Social Marketing
 level: Beginner, Intermediate
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
-source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
+source-git-commit: 24ecf598d3d01f7fb59c70e1c8c81e9c086e653e
 workflow-type: tm+mt
 source-wordcount: '1066'
 ht-degree: 2%
@@ -45,7 +45,7 @@ Campaign utilizza la versione 1.1 dell’API X. Per utilizzarlo, devi richiedere
 Dopo aver ricevuto l’approvazione con accesso privilegiato, crea un’applicazione X per consentire ad Adobe Campaign di creare post sul tuo account X. A questo scopo, segui la procedura indicata di seguito:
 
 1. Accedi al tuo account X.
-1. Connetti al [X portale per sviluppatori](https://developer.twitter.com/en/apps){target="_blank"}.
+1. Connetti a [X portale per sviluppatori](https://developer.twitter.com/en/apps){target="_blank"}.
 1. Selezionare **Crea un&#39;app**.
 1. Lascia che l’assistente X ti guidi attraverso il processo.
 1. Per consentire ad Adobe Campaign di creare post sul tuo account, modifica le **autorizzazioni app** dalla sezione Configurazione autenticazione utente dell&#39;app. Selezionare **Messaggi diretti, di lettura e scrittura**.
@@ -101,7 +101,7 @@ Per immettere le impostazioni, devi accedere sia alla console client di Adobe Ca
 
 1. Dall&#39;app X, copia il contenuto dei campi **Token di accesso** e **Segreto token di accesso** e incollali nei campi **[!UICONTROL Access token]** e **[!UICONTROL Access token secret]** del servizio **Twitter** della campagna.
 
-1. Nella console del client di Campaign, fai clic su **[!UICONTROL Save]**. Ora hai delegato l’accesso in scrittura ad Adobe Campaign.
+1. Nella console client di Campaign, fare clic su **[!UICONTROL Save]**. Ora hai delegato l’accesso in scrittura ad Adobe Campaign.
 
 Per verificare le impostazioni, è possibile:
 

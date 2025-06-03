@@ -5,7 +5,7 @@ feature: Permissions
 role: User, Admin
 level: Beginner
 exl-id: 3d61abac-03df-42d3-a950-37e41a5a7756
-source-git-commit: 19f85d4e19f756d8a45ce5364dd0601373128f50
+source-git-commit: 24ecf598d3d01f7fb59c70e1c8c81e9c086e653e
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 4%
@@ -29,7 +29,7 @@ In Adobe Campaign, gli utenti sono **operatori** e **gruppi di operatori** rappr
 
 ## Passaggi chiave per concedere le autorizzazioni{#key-steps-permissions}
 
-In qualità di amministratore di prodotto, puoi concedere autorizzazioni agli utenti della tua organizzazione. Le autorizzazioni vengono concesse tramite la console client di Adobe Admin Console e Campaign. Gli utenti accedono ad Adobe Campaign con il proprio Adobe ID. Scopri come connetterti ad Adobe Campaign in [questa pagina](connect.md).
+In qualità di amministratore di prodotto, puoi concedere autorizzazioni agli utenti della tua organizzazione. Le autorizzazioni vengono concesse tramite Adobe Admin Console e la console client di Campaign. Gli utenti accedono ad Adobe Campaign con il proprio Adobe ID. Scopri come connetterti ad Adobe Campaign in [questa pagina](connect.md).
 
 I passaggi chiave sono i seguenti:
 

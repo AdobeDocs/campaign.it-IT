@@ -5,7 +5,7 @@ feature: Microsoft CRM Integration
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+source-git-commit: d80a39d7f0df939d0e9e3f782d5d9aef3d459a32
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 2%
@@ -20,9 +20,9 @@ Al termine della configurazione, la sincronizzazione dei dati tra sistemi viene 
 
 >[!NOTE]
 >
->Le versioni supportate di Microsoft Dynamics sono descritte in dettaglio nella [Matrice di compatibilità](../start/compatibility-matrix.md) di Campaign.
+>Le versioni di Microsoft Dynamics supportate sono descritte in dettaglio nella [Matrice di compatibilità](../start/compatibility-matrix.md) di Campaign.
 
-Segui i passaggi seguenti per configurare un account esterno dedicato per importare ed esportare dati di Microsoft Dynamics 365 in Adobe Campaign.
+Segui i passaggi seguenti per configurare un account esterno dedicato per importare ed esportare dati Microsoft Dynamics 365 in Adobe Campaign.
 
 Per ogni sistema, questi passaggi devono essere eseguiti da un amministratore.
 
@@ -34,7 +34,7 @@ Per ogni sistema, questi passaggi devono essere eseguiti da un amministratore.
 Per connettere Microsoft Dynamics 365 per l&#39;utilizzo con Adobe Campaign tramite **API Web**, accedere alla [directory di Microsoft Azure](https://portal.azure.com) utilizzando una credenziale **Global administrator**, quindi eseguire la procedura seguente:
 
 1. Ottieni l’ID dell’applicazione (client) Dynamics 365. [Ulteriori informazioni](#get-client-id-microsoft)
-1. Genera l&#39;identificatore e l&#39;ID della chiave del certificato di Microsoft Dynamics. [Ulteriori informazioni](#config-certificate-key-id)
+1. Genera l’identificatore e l’ID della chiave del certificato di Microsoft Dynamics. [Ulteriori informazioni](#config-certificate-key-id)
 1. Configurare le autorizzazioni. [Ulteriori informazioni](#config-permissions-microsoft)
 1. Crea un utente dell’app. [Ulteriori informazioni](#create-app-user-microsoft)
 1. Codifica la chiave privata. [Ulteriori informazioni](#configure-acc-for-microsoftt)
@@ -136,7 +136,7 @@ L’utente dell’app è l’utente che verrà utilizzato dall’applicazione re
 
 ### Creare la connessione{#new-ms-dyn-external-account}
 
-Innanzitutto, devi creare l’account esterno di Microsoft Dynamics 365.
+Innanzitutto, devi creare l’account esterno Microsoft Dynamics 365.
 
 1. Sfoglia il nodo **[!UICONTROL Administration > Platform > External accounts]** di Esplora campagne e crea un account esterno.
 1. Selezionare l&#39;account esterno **[!UICONTROL Microsoft Dynamics CRM]** nella sezione **Tipo**.
@@ -177,7 +177,7 @@ Innanzitutto, devi creare l’account esterno di Microsoft Dynamics 365.
 
 >[!NOTE]
 >
->Assicurarsi di aggiungere al elenco Consentiti di due URL: l&#39;URL del server e `login.microsoftonline.com`. Per eseguire questa operazione, contatta il rappresentante del tuo Adobe.
+>Assicurarsi di aggiungere al elenco Consentiti di due URL: l&#39;URL del server e `login.microsoftonline.com`. Per eseguire l’operazione, contatta il rappresentante Adobe.
 
 ## Sincronizzare le enumerazioni{#sfdc-enum-sync}
 
@@ -197,7 +197,7 @@ Ulteriori informazioni sulla sincronizzazione dei dati [sono disponibili in ques
 
 ### Tipi di dati dei campi supportati {#ms-dyn-supported-types}
 
-Di seguito sono elencati i tipi di attributo supportati/non supportati per Microsoft Dynamics 365:
+Di seguito sono elencati i tipi di attributo supportati/non supportati da Microsoft Dynamics 365:
 
 
 | Tipo di attributo | Supportato |

@@ -5,7 +5,7 @@ description: Approvazione
 feature: Workflows, Approvals
 role: User
 exl-id: 9e57d21c-ce16-448d-97f1-8c6844acb37b
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 41e39e046ec77de8b5e657ba76645898ff1cd2d7
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Le attività di tipo **Approvazione** sono accessibili dal nodo **[!UICONTROL Ad
 
 ![](assets/s_advuser_validation_from_console.png)
 
-## Properties {#properties}
+## Proprietà {#properties}
 
 Le variabili di personalizzazione possono essere utilizzate nel messaggio inviato ai revisori. Possono essere inseriti nel titolo o nel corpo del messaggio.
 

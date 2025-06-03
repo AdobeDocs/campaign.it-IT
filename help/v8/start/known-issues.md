@@ -7,7 +7,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 89a4ab6c-de8e-4408-97d2-8b8e574227f9
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 41e39e046ec77de8b5e657ba76645898ff1cd2d7
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 2%
@@ -21,7 +21,7 @@ In questa pagina sono elencati i problemi noti identificati nelle **ultime versi
 
 >[!NOTE]
 >
->L’Adobe pubblica questo elenco di problemi noti a propria discrezione. Si basa sul numero di rapporti dei clienti, sulla gravità e sulla disponibilità della soluzione alternativa. Se un problema che stai riscontrando non è elencato, potrebbe non essere conforme ai criteri di pubblicazione in questa pagina.
+>Adobe pubblica questo elenco di problemi noti a propria discrezione. Si basa sul numero di rapporti dei clienti, sulla gravità e sulla disponibilità della soluzione alternativa. Se un problema che stai riscontrando non è elencato, potrebbe non essere conforme ai criteri di pubblicazione in questa pagina.
 
 ## Campaign v8.3.8{#8.3-issues}
 
@@ -29,7 +29,7 @@ In questa pagina sono elencati i problemi noti identificati nelle **ultime versi
 
 #### Descrizione{#issue-2-desc}
 
-Quando si inseriscono dati in un database cloud di Snowflake con un&#39;attività **Query** di Campaign e **Change Data Source**, il processo non riesce se nei dati è presente un carattere barra rovesciata. La stringa di origine non ha escape e i dati non vengono elaborati correttamente nel Snowflake.
+Quando si inseriscono dati nel database cloud di Snowflake con un&#39;attività **Query** e **Change Data Source** di Campaign, il processo non riesce se nei dati è presente un carattere barra rovesciata. La stringa di origine non ha escape e i dati non vengono elaborati correttamente in Snowflake.
 
 Questo problema si verifica solo se il carattere barra rovesciata si trova alla fine della stringa, ad esempio: `Barker\`.
 
@@ -39,7 +39,7 @@ Questo problema si verifica solo se il carattere barra rovesciata si trova alla 
 1. Connettiti alla console client e crea un flusso di lavoro.
 1. Aggiungi un&#39;attività **Query** e configurala.
 1. Seleziona i dati con le caratteristiche descritte in precedenza.
-1. Aggiungi un&#39;attività **Modifica dati Source** e configurala per selezionare il database cloud di Snowflake.
+1. Aggiungi un&#39;attività **Modifica dati Source** e configurala per selezionare il database cloud Snowflake.
 1. Esegui il flusso di lavoro e controlla i registri del flusso di lavoro per visualizzare l’errore.
 
 
@@ -84,11 +84,11 @@ Il processo non termina mai.
 
 La soluzione consiste nell’utilizzare una console client precedente. Potrai quindi caricare il file sul server.
 
-In qualità di amministratore di Campaign, puoi scaricare la console del client Campaign v8.3.1 in [Distribuzione di software di Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&amp;1_group.propertyvalues.operation=equals&amp;1_group.propertyvalues.0_values=versione-destinazione%3Acampaign%2F8&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;orderby.sort=desc&amp;layout=list&amp;p.offset=0&amp;p.limit=4){target="_blank"}.
+In qualità di amministratore di Campaign, puoi scaricare la console client di Campaign v8.3.1 in [Distribuzione di software di Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&amp;1_group.propertyvalues.operation=equals&amp;1_group.propertyvalues.0_values=versione-destinazione%3Acampaign%2F8&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;orderby.sort=desc&amp;layout=list&amp;p.offset=0&amp;p.limit=4){target="_blank"}.
 
-Scopri come accedere a Adobe Software Distribution [in questa pagina](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=it){target="_blank"}.
+Scopri come accedere a Distribuzione di software di Adobe [ in questa pagina](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=it){target="_blank"}.
 
-Scopri come aggiornare la console client [in questa pagina](connect.md)
+Scopri come aggiornare la console client [ in questa pagina](connect.md)
 
 #### Riferimento interno{#issue-3-ref}
 
