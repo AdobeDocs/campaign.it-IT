@@ -4,10 +4,12 @@ description: Introduzione ai messaggi
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: 5b2638927e39b6f839fb3a8639fe106d2c519fbf
+version: Campaign v8, Campaign Classic v7
+exl-id: a523e76d-776c-47d3-9c15-34241cee1092
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '1002'
-ht-degree: 74%
+ht-degree: 73%
 
 ---
 
@@ -58,7 +60,7 @@ Adobe Campaign v8 viene fornito con i canali di consegna elencati di seguito. I 
 
   >[!NOTE]
   >
-  >Il Canale telefonico non è un canale integrato. L’implementazione richiede il coinvolgimento del team di consulenza o di un partner di Adobe. Per maggiori informazioni, contatta il tuo rappresentante Adobe.
+  >Il canale Telefono non è un canale incorporato. L’implementazione richiede il coinvolgimento del team di consulenza o di un partner di Adobe. Per maggiori informazioni, contatta il tuo rappresentante Adobe.
 
   Le consegne di tipo “Altro” utilizzano un modello tecnico specifico che non esegue un processo: questo consente di gestire le azioni di marketing eseguite al di fuori della piattaforma Adobe Campaign.
 
@@ -108,4 +110,3 @@ I messaggi consegnati da Adobe Campaign possono essere personalizzati in vari mo
 Il monitoraggio delle consegne dopo l’invio è un passaggio fondamentale per garantire l’efficienza delle campagne di marketing e l’effettivo raggiungimento dei clienti. Puoi monitorare una consegna, oltre a capire come vengono gestiti errori e quarantene.
 
 Scopri come monitorare le consegne nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=it#sending-messages){target="_blank"}
-

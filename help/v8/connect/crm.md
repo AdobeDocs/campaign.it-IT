@@ -5,7 +5,8 @@ feature: Salesforce Integration, Microsoft CRM Integration
 role: Admin, User
 level: Beginner
 exl-id: c2d34ee9-4427-48e7-a8cf-0ae02a801d50
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+version: Campaign v8, Campaign Classic v7
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 20%
@@ -20,7 +21,7 @@ Questi connettori consentono un’integrazione rapida e semplice dei dati: Adobe
 
 I principali vantaggi sono:
 
-* Messaggistica coerente tra vendite e marketing: l’integrazione di Adobe Campaign con il CRM offre a entrambi i sistemi l’accesso a informazioni sul cliente e alla cronologia di e-mail marketing, consentendo a tutti i messaggi indirizzati al cliente di condividere lo stesso messaggio coerente.
+* Messaggistica coerente tra vendite e marketing: l’integrazione di Adobe Campaign con il CRM offre a entrambi i sistemi l’accesso alla cronologia di marketing del cliente insight e via e-mail, consentendo a tutti i messaggi indirizzati al cliente di condividere lo stesso messaggio coerente.
 
 * Vista olistica di tutti i dati cliente e potenziale: integrando Adobe Campaign con il tuo sistema di gestione delle relazioni con i clienti, è possibile condividere e accedere alla cronologia del marketing e-mail su ogni contatto dall’interno del sistema di gestione delle relazioni con i clienti.
 
@@ -41,7 +42,7 @@ Il CRM e le versioni supportate sono descritti in dettaglio nella [Matrice di co
 
 ## Passaggi di implementazione {#crm-implementation-steps}
 
-Scopri la procedura dettagliata per connettere Campaign e Microsoft Dynamics in [questa pagina](ac-ms-dyn.md).
+Scopri la procedura dettagliata per collegare Campaign e Microsoft Dynamics in [questa pagina](ac-ms-dyn.md).
 
 Scopri la procedura dettagliata per connettere Campaign e Salesforce.com in [questa pagina](ac-sfdc.md).
 

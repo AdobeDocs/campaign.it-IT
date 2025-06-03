@@ -5,10 +5,11 @@ feature: Permissions
 role: User, Admin
 level: Beginner
 exl-id: 5bd8dbba-7a06-4737-bc5a-60354f91c709
-source-git-commit: 4a62c551c43cd5a4866df36cce10e294f35db363
+version: Campaign v8, Campaign Classic v7
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '310'
-ht-degree: 0%
+ht-degree: 18%
 
 ---
 
@@ -33,9 +34,9 @@ Per modificare le autorizzazioni per una cartella Campaign specifica, effettua l
 
 >[!NOTE]
 >
->Non è possibile creare un oggetto per il quale non si dispone di almeno una cartella con diritti di scrittura.
+>Non è possibile creare un oggetto per il quale non disponi di almeno una cartella con diritti di scrittura.
 >
->Per creare i frammenti non è necessario essere un amministratore, ma è necessario disporre dei diritti di scrittura per almeno una cartella &quot;Frammento visivo di contenuto&quot;. In caso contrario, non potrai creare un frammento visivo.
+>Per creare i frammenti non è necessario essere un amministratore, ma devi disporre dei diritti di scrittura per almeno una cartella per “Frammenti visivi di contenuto”. In caso contrario, non potrai creare un frammento visivo.
 
 ## Propagare le autorizzazioni {#propagate-permissions}
 

@@ -5,9 +5,9 @@ feature: Profiles, Monitoring
 role: User
 level: Beginner, Intermediate
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
-source-wordcount: '2990'
+source-wordcount: '2976'
 ht-degree: 5%
 
 ---
@@ -40,7 +40,7 @@ I mancati recapiti non permanenti sono errori temporanei generati dagli ISP in c
 
 Il tipo di errore **Ignorato** è considerato temporaneo, ad esempio &quot;Fuori sede&quot;, oppure è un errore tecnico, ad esempio se il tipo di mittente è &quot;postmaster&quot;.
 
-Il ciclo di feedback funziona come le e-mail non recapitate: quando un utente qualifica un’e-mail come spam, puoi configurare le regole e-mail in Adobe Campaign per bloccare tutte le consegne a questo utente. Inserire nell&#39;elenco Bloccati Gli indirizzi di questi utenti vengono anche se non hanno fatto clic sul collegamento di annullamento dell’abbonamento. Gli indirizzi vengono aggiunti alla tabella di quarantena (**NmsAddress**) e non alla tabella dei destinatari (**NmsRecipient**) con lo stato **[!UICONTROL Denylisted]**. Ulteriori informazioni sul meccanismo del ciclo di feedback sono disponibili nella [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=it#feedback-loops){target="_blank"}.
+Il ciclo di feedback funziona come le e-mail non recapitate: quando un utente qualifica un’e-mail come spam, puoi configurare le regole e-mail in Adobe Campaign per bloccare tutte le consegne a questo utente. Inserire nell&#39;elenco Bloccati Gli indirizzi di questi utenti vengono anche se non hanno fatto clic sul collegamento di annullamento dell’abbonamento. Gli indirizzi vengono aggiunti alla tabella di quarantena (**NmsAddress**) e non alla tabella dei destinatari (**NmsRecipient**) con lo stato **[!UICONTROL Denylisted]**. Ulteriori informazioni sul meccanismo del ciclo di feedback nella [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target="_blank"}.
 
 ## Errori sincroni e asincroni {#synchronous-and-asynchronous-errors}
 
@@ -54,7 +54,7 @@ Questi tipi di errori vengono gestiti come segue:
 
 >[!NOTE]
 >
->In qualità di utente di Managed Cloud Service, la configurazione della cassetta postale di mancato recapito viene eseguita da Adobe.
+>In qualità di utente di Managed Cloud Services, la configurazione della cassetta postale di mancato recapito viene eseguita da Adobe.
 
 ## Qualificazione di mail non recapitate {#bounce-mail-qualification}
 
@@ -66,7 +66,7 @@ Il modo in cui viene gestita la qualifica della posta non recapitata in Adobe Ca
 
 * **Errori sincroni**: l&#39;MTA determina il tipo e la qualifica di mancato recapito e invia nuovamente tali informazioni a Campaign. Le qualifiche di mancato recapito nella tabella **[!UICONTROL Delivery log qualification]** non vengono utilizzate per **messaggi di errore di recapito sincroni**.
 
-* **Errori asincroni**: le regole utilizzate da Campaign per qualificare gli errori di consegna asincroni sono elencate nel nodo **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]**. Le mancate consegne asincrone sono qualificate dal processo inMail attraverso le regole **[!UICONTROL Inbound email]**. Per ulteriori informazioni, consulta la [documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=it#bounce-mail-qualification){target="_blank"}.
+* **Errori asincroni**: le regole utilizzate da Campaign per qualificare gli errori di consegna asincroni sono elencate nel nodo **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]**. Le mancate consegne asincrone sono qualificate dal processo inMail attraverso le regole **[!UICONTROL Inbound email]**. Per ulteriori informazioni, consulta la [documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target="_blank"}.
 
 <!--NO LONGER WITH MOMENTUM - The message returned by the remote server on the first occurrence of this error type is displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Audit]** tab.
 
@@ -111,7 +111,7 @@ Ad esempio, se il periodo di validità è impostato sul valore predefinito di 5 
 
 Una volta che un messaggio è rimasto nella coda MTA per 3,5 giorni e la consegna non è riuscita, si verificherà un timeout e il suo stato verrà aggiornato da **[!UICONTROL Sent]** a **[!UICONTROL Failed]** nei registri di consegna.
 
-Per ulteriori informazioni sul periodo di validità, consulta la [documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=it#defining-validity-period){target="_blank"}.
+<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}.-->
 
 
 ## Tipi di errore e-mail {#email-error-types}
@@ -208,7 +208,7 @@ Di seguito sono elencati i possibili motivi di un errore di consegna per il cana
    <td> Non definito </td> 
    <td> Non definito </td> 
    <td> 0 </td> 
-   <td> L’indirizzo è in qualificazione perché l’errore non è ancora stato incrementato. Questo tipo di errore si verifica quando un nuovo messaggio di errore viene inviato dal server: può essere un errore isolato, ma se si verifica di nuovo, il contatore degli errori aumenta, avvisando i team tecnici. Possono quindi eseguire l'analisi dei messaggi e qualificare questo errore tramite il nodo <span class="uicontrol">Amministrazione</span> / <span class="uicontrol">Campaign Management</span> / <span class="uicontrol">Gestione non deliverables</span> nella struttura ad albero.<br /> </td> 
+   <td> L’indirizzo è in qualificazione perché l’errore non è ancora stato incrementato. Questo tipo di errore si verifica quando un nuovo messaggio di errore viene inviato dal server: può essere un errore isolato, ma se si verifica di nuovo, il contatore degli errori aumenta, avvisando i team tecnici. Possono quindi eseguire l'analisi dei messaggi e qualificare questo errore tramite il nodo <span class="uicontrol">Amministrazione</span> / <span class="uicontrol">Gestione campagne</span> / <span class="uicontrol">Gestione non deliverables</span> nella struttura ad albero.<br /> </td> 
   </tr> 
   <tr> 
    <td> Non idoneo per le offerte </td> 
@@ -312,7 +312,7 @@ In modo sincrono, se il servizio APN restituisce lo stato &quot;unregistered&quo
    <td> No<br /> </td> 
   </tr> 
   <tr> 
-   <td> Problema del certificato (password, danneggiamento, ecc.) e verifica la connessione al problema APNs<br /> </td> 
+   <td> Problema del certificato (password, danneggiamento e così via) e verifica della connessione al problema APNs<br /> </td> 
    <td> Errore<br /> </td> 
    <td> Vari messaggi di errore in base all'errore<br /> </td> 
    <td> Morbido<br /> </td> 

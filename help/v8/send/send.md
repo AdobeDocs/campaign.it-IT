@@ -4,8 +4,9 @@ description: Scopri l’ambito e le specificità dell’invio di e-mail con Adob
 feature: Email
 role: Data Engineer
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 2%
@@ -32,7 +33,7 @@ Dal dashboard di consegna, puoi controllare i messaggi elaborati e i registri di
 >Gli stati di consegna non vengono visualizzati in tempo reale. Ulteriori informazioni sul servizio di feedback delle e-mail [sono disponibili in questa sezione](#email-feedback-service).
 
 
-[Ulteriori informazioni sul monitoraggio della consegna nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html?lang=it){target="_blank"}
+[Ulteriori informazioni sul monitoraggio della consegna nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html){target="_blank"}
 
 ## MTA della campagna {#mta}
 
@@ -71,11 +72,11 @@ L’MTA dispone di proprie regole MX che gli consentono di personalizzare la vel
 
 ### Firma DKIM
 
-Domain Keys Identified Mail (DKIM) è un metodo di autenticazione utilizzato per rilevare indirizzi di mittente contraffatti (comunemente chiamato spoofing).
+Domain Keys Identified Mail (DKIM) è un metodo di autenticazione utilizzato per rilevare indirizzi di mittente contraffatti (comunemente denominato spoofing).
 
-In Adobe Campaign, la firma di autenticazione dell’e-mail DKIM viene eseguita dall’MTA.
+In Adobe Campaign, la firma di autenticazione e-mail di DKIM viene eseguita dall’MTA.
 
-Per ulteriori informazioni su DKIM, consulta la [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=it#authentication){target="_blank"}.
+Ulteriori informazioni su DKIM sono disponibili nella [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication){target="_blank"}.
 
 ## Servizio di feedback delle e-mail {#email-feedback-service}
 
@@ -87,7 +88,7 @@ Quando il messaggio viene effettivamente recapitato ai profili target e una volt
 
 Quando i messaggi non recapitabili vengono segnalati dall&#39;MTA, lo stato del registro cambia da **[!UICONTROL Taken into account by the service provider]** a **[!UICONTROL Failed]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->.
 
-Quando vengono segnalati i messaggi in mancati recapiti dall&#39;MTA, lo stato del registro rimane invariato (**[!UICONTROL Taken into account by the service provider]**): viene aggiornato solo il [motivo errore](delivery-failures.md#delivery-failure-reasons)<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. La percentuale **[!UICONTROL Success]** rimane invariata. I messaggi non recapitabili vengono quindi ritentati per tutto il [periodo di validità](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=it#defining-validity-period){target="_blank"} della consegna:
+Quando vengono segnalati i messaggi in mancati recapiti dall&#39;MTA, lo stato del registro rimane invariato (**[!UICONTROL Taken into account by the service provider]**): viene aggiornato solo il [motivo errore](delivery-failures.md#delivery-failure-reasons)<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. La percentuale **[!UICONTROL Success]** rimane invariata. I messaggi non recapitabili vengono quindi ritentati per tutto il [periodo di validità](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"} della consegna:
 
 * Se un nuovo tentativo ha esito positivo prima della fine del periodo di validità, lo stato del messaggio cambia in **[!UICONTROL Sent]** e la percentuale di **[!UICONTROL Success]** viene aumentata di conseguenza.
 

@@ -4,11 +4,12 @@ description: Scopri come impostare il pubblico di una consegna SMS
 feature: SMS
 role: User
 level: Beginner, Intermediate
+version: Campaign v8, Campaign Classic v7
 exl-id: e0603a4d-cde1-4199-a164-bf0c992ba937
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '457'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -32,7 +33,7 @@ Per selezionare il pubblico della consegna, segui i passaggi seguenti:
 
    Sono disponibili altre mappature di destinazione, alcune delle quali possono essere correlate alla configurazione specifica. Per ulteriori informazioni sui mapping di destinazione, fare riferimento a [Operazioni con i mapping di destinazione](../../audiences/target-mappings.md).
 
-1. Fare clic sul pulsante **[!UICONTROL Add]** per definire i filtri di restrizione.
+1. Fai clic sul pulsante **[!UICONTROL Add]** per definire i filtri di restrizione.
 
    Puoi quindi selezionare il tipo di filtro da applicare:
 
@@ -51,7 +52,7 @@ Per selezionare il pubblico della consegna, segui i passaggi seguenti:
    * **[!UICONTROL Subscribers of an information service]**: questa opzione consente di selezionare una newsletter a cui i destinatari devono iscriversi per essere destinatari della consegna creata.
    * **[!UICONTROL User filters]**: consente di utilizzare i filtri predefiniti.
 
-   L&#39;opzione **[!UICONTROL Exclude recipients from this segment]** consente di eseguire il targeting di destinatari che non soddisfano i criteri di destinazione definiti. Per utilizzare questa opzione, seleziona la casella appropriata e quindi applica il targeting, come definito in precedenza, per escludere i profili risultanti.
+   L&#39;opzione **[!UICONTROL Exclude recipients from this segment]** consente di eseguire il targeting di destinatari che non soddisfano i criteri di destinazione definiti. Per utilizzare questa opzione, seleziona la casella appropriata, quindi applica il targeting, come definito in precedenza, per escludere i profili risultanti.
 
 1. Immetti il nome del pubblico nel campo etichetta e fai clic sul pulsante **[!UICONTROL Finish]** per convalidare il pubblico.
 

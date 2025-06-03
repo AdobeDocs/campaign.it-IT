@@ -4,11 +4,12 @@ description: Creare la prima consegna
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 53fab31c21fdfe2f90c4793ccd025af1d5c0e061
-workflow-type: ht
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+workflow-type: tm+mt
 source-wordcount: '1523'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -58,7 +59,7 @@ Il contenuto della consegna è pronto per essere configurato. La definizione del
 * [Definire il contenuto dell’e-mail](../send/email.md)
 * [Definire il contenuto dell’SMS](../send/sms/sms-content.md)
 * [Definire il contenuto delle direct mail](../send/direct-mail.md)
-* [Definire il contenuto delle notifiche push](../send/push.md)
+* [Definire il contenuto della notifica push](../send/push.md)
 
 
 ## Definire il pubblico di destinazione {#target-population}
@@ -136,7 +137,7 @@ Per selezionare i destinatari di una consegna, segui i passaggi indicati di segu
 1. Seleziona il file contenente i destinatari.
 1. Durante l’importazione dei destinatari, fai clic sul collegamento **[!UICONTROL File format definition...]** per selezionare e configurare il file esterno.
 
-   Per ulteriori informazioni sull’importazione di dati, consulta la [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/it/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs#step-2---source-file-selection){target="_blank"}.
+   Per ulteriori informazioni sull&#39;importazione dei dati, consulta la [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/it/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs#step-2---source-file-selection){target="_blank"}.
 
 1. Fai clic su **[!UICONTROL Finish]** e configura la consegna come consegna standard.
 
@@ -181,7 +182,7 @@ Per ulteriori informazioni sui destinatari e l’invio della bozza, consulta [qu
 
 In questo video scoprirai come aggiungere seed e bozze a un’e-mail esistente e come inviarla.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447007?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/333404?quality=12)
 
 Ulteriori video dimostrativi di Campaign Classic sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=it).
 

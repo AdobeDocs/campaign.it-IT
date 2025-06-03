@@ -5,7 +5,8 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 43483085-8aa6-47e6-89e7-9211e37beaa4
-source-git-commit: 41e39e046ec77de8b5e657ba76645898ff1cd2d7
+version: Campaign v8, Campaign Classic v7
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 20%
@@ -35,6 +36,6 @@ Per popolare Adobe Campaign con i dati del profilo, puoi:
 
 ![](assets/create-profile.png)
 
-<!--You can also select your message audience in an external file: recipients are stored not in the database, but in files. These are known as “external” deliveries. These contacts can be imported or not in Adobe Campaign. [Learn more](external-profiles.md).-->
+<!--You can also select your message audience in an external file: recipients are stored not in the database, but in files. These are known as "external" deliveries. These contacts can be imported or not in Adobe Campaign. [Learn more](external-profiles.md).-->
 
 Una volta importato, puoi creare tipi di pubblico per inviare i messaggi. Scopri come creare tipi di pubblico [in questa sezione](create-audiences.md).
