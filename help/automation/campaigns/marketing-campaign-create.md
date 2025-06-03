@@ -208,4 +208,4 @@ Puoi anche utilizzare il collegamento contenuto nei messaggi di notifica. Per ul
 
 Questo video mostra come creare un piano di marketing, programmi e campagne.
 
->[!VIDEO](https://video.tv.adobe.com/v/333810?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3449911?quality=12&captions=ita)

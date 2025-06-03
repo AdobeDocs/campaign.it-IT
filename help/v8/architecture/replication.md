@@ -115,6 +115,6 @@ Ogni coda viene gestita da un flusso di lavoro tecnico, che gestisce la replica 
 
 Questo video illustra i concetti chiave dei database utilizzati da Adobe Campaign v8, il motivo per cui i dati vengono replicati, quali dati vengono replicati e come funziona il processo di replica.
 
->[!VIDEO](https://video.tv.adobe.com/v/334460?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416866?quality=12&captions=ita)
 
 Ulteriori tutorial sulla console client di Campaign v8 sono disponibili [qui](https://experienceleague.adobe.com/it/docs/campaign-learn/tutorials/overview).
