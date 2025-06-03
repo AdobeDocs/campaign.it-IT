@@ -32,7 +32,7 @@ Per evitare questo problema, coordina la pianificazione delle consegne con gli a
 
 * Esecuzione del flusso di lavoro: il monitoraggio dei flussi di lavoro è essenziale per evitare problemi di prestazioni della piattaforma. Segui le linee guida elencate [in questo documento](../../automation/workflow/workflow-best-practices.md#execution-and-performance).
 
-* Connettiti alle [funzionalità di Pannello di controllo Campaign di Campaign](https://experienceleague.adobe.com/en/docs/control-panel/using/discover-control-panel/key-features){target="_blank"} per monitorare la piattaforma, utilizzando le [funzionalità di monitoraggio delle prestazioni](https://experienceleague.adobe.com/en/docs/control-panel/using/performance-monitoring/about-performance-monitoring){target="_blank"}.
+* Connettiti alle [funzionalità di Pannello di controllo Campaign di Campaign](https://experienceleague.adobe.com/it/docs/control-panel/using/discover-control-panel/key-features){target="_blank"} per monitorare la piattaforma, utilizzando le [funzionalità di monitoraggio delle prestazioni](https://experienceleague.adobe.com/it/docs/control-panel/using/performance-monitoring/about-performance-monitoring){target="_blank"}.
 
 #### Gestione della quarantena {#quarantine-management}
 
@@ -41,9 +41,9 @@ Per evitare questo problema, coordina la pianificazione delle consegne con gli a
 Quando inizi a inviare e-mail su una nuova piattaforma, puoi utilizzare un elenco di indirizzi non completamente qualificati. Se invii a indirizzi non validi o a indirizzi honeypot (cassette postali create solo per ingannare gli spammer), questo comincerà a ridurre la reputazione della tua piattaforma. Una buona gestione della quarantena aiuta a: mantenere la qualità dell’indirizzo, evitare l’inserisco nell&#39;elenco Bloccati da parte dei provider di accesso a Internet e ridurre il tasso di errore, velocizzando le consegne e la velocità effettiva.
 
 
-Per ulteriori informazioni su come avviare una nuova piattaforma, consulta la [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-starting-new-platform){target="_blank"}.
+Per ulteriori informazioni su come avviare una nuova piattaforma, consulta la [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/it/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-starting-new-platform){target="_blank"}.
 
-I consigli tecnici sono elencati in [questa sezione](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations){target="_blank"}.
+I consigli tecnici sono elencati in [questa sezione](https://experienceleague.adobe.com/it/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations){target="_blank"}.
 
 
 +++ **Leggi alcune best practice**
@@ -69,7 +69,7 @@ I modelli di consegna consentono una maggiore efficienza, fornendo scenari pront
 
 ### Sottodomini e branding {#subdomains-and-branding}
 
-Quando gestisci più marchi in Adobe Campaign, Adobe consiglia di avere un sottodominio per marchio. Ad esempio, una banca può avere diversi sottodomini corrispondenti a ciascuna delle sue agenzie regionali. Se una banca è proprietaria del dominio bluebank.com, i sottodomini possono essere @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com, ecc. Disporre di un modello di consegna per sottodominio consente di utilizzare sempre i giusti parametri preconfigurati per ciascun marchio, evitando errori e risparmiando tempo. Ulteriori informazioni sul branding dei sottodomini sono disponibili nella [documentazione del Pannello di controllo Campaign Campaign](https://experienceleague.adobe.com/en/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}.
+Quando gestisci più marchi in Adobe Campaign, Adobe consiglia di avere un sottodominio per marchio. Ad esempio, una banca può avere diversi sottodomini corrispondenti a ciascuna delle sue agenzie regionali. Se una banca è proprietaria del dominio bluebank.com, i sottodomini possono essere @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com, ecc. Disporre di un modello di consegna per sottodominio consente di utilizzare sempre i giusti parametri preconfigurati per ciascun marchio, evitando errori e risparmiando tempo. Ulteriori informazioni sul branding dei sottodomini sono disponibili nella [documentazione del Pannello di controllo Campaign Campaign](https://experienceleague.adobe.com/it/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}.
 
 ### Configurare gli indirizzi {#configure-addresses}
 
@@ -226,7 +226,7 @@ To avoid common formatting errors, check the following elements:
 
 * Usage of **authorized characters** in emails: the list of valid characters for email addresses is defined in the "XtkEmail_Characters" option. Learn how to access Campaign options [in this section](../../installation/using/configuring-campaign-options.md). To correctly handle special characters, Adobe Campaign needs to be installed in Unicode. 
 
-* Configuration of **Email Authentication**: make sure that the email headers contain the DKIM signature. DKIM (Domain Keys Identified Mail) authentication allows the receiving email server to verify that a message was indeed sent by the person or entity it claims it was sent by, and whether the message content was altered in between the time it was originally sent (and DKIM "signed") and the time it was received. This standard typically uses the domain in the From or Sender header. For more on this, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).-->
+* Configuration of **Email Authentication**: make sure that the email headers contain the DKIM signature. DKIM (Domain Keys Identified Mail) authentication allows the receiving email server to verify that a message was indeed sent by the person or entity it claims it was sent by, and whether the message content was altered in between the time it was originally sent (and DKIM "signed") and the time it was received. This standard typically uses the domain in the From or Sender header. For more on this, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=it#authentication).-->
 
 ## Gestione immagini {#manage-images}
 
@@ -412,7 +412,7 @@ Per controllare le campagne, devi assicurarti che il messaggio sia stato effetti
 
 Dal dashboard di consegna di Campaign, puoi controllare i messaggi elaborati e i registri di controllo della consegna. Puoi anche controllare lo stato dei messaggi nei registri di consegna.
 
-[Ulteriori informazioni sul monitoraggio della consegna nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html){target="_blank"}
+[Ulteriori informazioni sul monitoraggio della consegna nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html?lang=it){target="_blank"}
 
 
 ## Tracciare il comportamento {#track-behaviour}
@@ -422,4 +422,4 @@ Per conoscere meglio il comportamento dei destinatari, puoi tenere traccia della
 Il tracciamento dei messaggi è abilitato per impostazione predefinita. Per configurare gli URL, seleziona l’opzione Visualizza URL nella sezione inferiore dell’assistente alla consegna. Per ogni URL del messaggio, puoi scegliere se attivare il tracciamento.
 
 
-[Ulteriori informazioni sulle funzionalità di tracciamento sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html#sending-messages){target="_blank"}
+[Ulteriori informazioni sulle funzionalità di tracciamento sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html?lang=it#sending-messages){target="_blank"}
