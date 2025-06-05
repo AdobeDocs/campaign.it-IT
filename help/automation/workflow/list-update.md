@@ -75,4 +75,4 @@ Questo video mostra come creare un elenco di destinatari da Explorer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 
-Ulteriori video dimostrativi di Campaign sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.
+Ulteriori video dimostrativi di Campaign sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=it){target="_blank"}.
