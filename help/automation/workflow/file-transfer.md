@@ -4,8 +4,9 @@ title: Trasferimento file
 description: Ulteriori informazioni sull’attività del flusso di lavoro Trasferimento file
 feature: Workflows, Data Management
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 794de398-f35d-4c2b-af29-d6fd38eb9394
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 1%
@@ -15,9 +16,9 @@ ht-degree: 1%
 # Trasferimento file{#file-transfer}
 
 L&#39;attività **Trasferimento file** consente di ricevere o inviare file, verificare la presenza di file o elencare file in un server. Il protocollo utilizzato è Azure Blob Storage, Amazon Simple Storage Service (S3), FTP o SFTP.
-Con la connessione S3, Azure Blob Storage o SFTP, puoi anche importare i dati dei segmenti in Adobe Campaign con Adobe Real-time Customer Data Platform. Per ulteriori informazioni, consulta questa [documentazione](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html?lang=it){target="_blank"}.
+Con la connessione S3, Azure Blob Storage o SFTP, puoi anche importare i dati dei segmenti in Adobe Campaign con Adobe Real-time Customer Data Platform. Per ulteriori informazioni, consulta questa [documentazione](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html){target="_blank"}.
 
-## Properties {#properties}
+## Proprietà {#properties}
 
 Utilizzare l&#39;elenco a discesa del campo **[!UICONTROL Action]** per selezionare l&#39;azione dell&#39;attività.
 

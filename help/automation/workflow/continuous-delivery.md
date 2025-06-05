@@ -4,8 +4,9 @@ title: Consegna continua
 description: Consegna continua
 feature: Workflows, Channels Activity
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: e3ad6d92-8d53-4098-90fd-cfed29f2e56e
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 10%
@@ -63,6 +64,6 @@ Una consegna continua creerà un SINGOLO registro di consegna e consegna (broadL
 
 Questo video mostra come configurare una consegna continua con una query incrementale.
 
->[!VIDEO](https://video.tv.adobe.com/v/329896?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)
 
-Ulteriori video dimostrativi di Campaign sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=it){target="_blank"}.
+Ulteriori video dimostrativi di Campaign sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.

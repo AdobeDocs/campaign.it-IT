@@ -3,8 +3,9 @@ product: campaign
 title: Dividi
 description: Ulteriori informazioni sull’attività Dividi flusso di lavoro
 feature: Workflows, Targeting Activity
+version: Campaign v8, Campaign Classic v7
 exl-id: bf4935dd-87dc-4c5c-becf-8c4df61805fd
-source-git-commit: a5d44321c3d68b9370cfb6e9b1df62435de0dbda
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '1832'
 ht-degree: 3%
@@ -207,14 +208,14 @@ Selezionare l&#39;opzione **[!UICONTROL Generate complement]** se si desidera sf
 
 Affinché questa opzione funzioni correttamente, i dati in entrata devono avere una chiave primaria.
 
-Se, ad esempio, i dati vengono letti direttamente da un database esterno come Netezza (che non supporta la nozione di indice) tramite un&#39;attività **[!UICONTROL Data loading (RDBMS)]**, il complemento generato dall&#39;attività **[!UICONTROL Split]** non sarà corretto.
+Se ad esempio i dati vengono letti direttamente da un database esterno come Netezza (che non supporta la nozione di indice) tramite un&#39;attività **[!UICONTROL Data loading (RDBMS)]**, il complemento generato dall&#39;attività **[!UICONTROL Split]** non sarà corretto.
 
 Per evitare questo problema, è possibile trascinare un&#39;attività **[!UICONTROL Enrichment]** immediatamente prima dell&#39;attività **[!UICONTROL Split]**. Nell&#39;attività **[!UICONTROL Enrichment]**, controllare **[!UICONTROL Keep all additional data from the main set]** e specificare nei dati aggiuntivi le colonne che si desidera utilizzare per configurare i filtri dell&#39;attività **[!UICONTROL Split]**. I dati della transizione in entrata dell&#39;attività **[!UICONTROL Split]** vengono quindi memorizzati localmente in una tabella temporanea sul server Adobe Campaign e il complemento può essere generato correttamente.
 
 L&#39;opzione **[!UICONTROL Enable overlapping of output populations]** consente di gestire le popolazioni appartenenti a diversi sottoinsiemi:
 
-* Quando la casella non è selezionata, l’attività di suddivisione si assicura che un destinatario non possa essere presente in diverse transizioni di output, anche se soddisfa i criteri di diversi sottoinsiemi. Saranno nel target della prima scheda con criteri corrispondenti.
-* Quando la casella è selezionata, i destinatari possono essere trovati in diversi sottoinsiemi se soddisfano i propri criteri di filtro. Adobe Campaign consiglia di utilizzare criteri esclusivi.
+* Quando questa opzione non è selezionata, l’attività Dividi si assicura che un destinatario non possa essere presente in diverse transizioni di output, anche se soddisfa i criteri di diversi sottoinsiemi. Saranno nel target della prima scheda con criteri corrispondenti.
+* Quando questa opzione è selezionata, i destinatari possono essere in più sottoinsiemi se soddisfano i rispettivi criteri di filtro. Adobe Campaign consiglia di usare criteri esclusivi.
 
 ## Parametri di input {#input-parameters}
 

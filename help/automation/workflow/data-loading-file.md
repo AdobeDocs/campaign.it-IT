@@ -4,8 +4,9 @@ title: Caricamento dati (file)
 description: Ulteriori informazioni sull’attività del flusso di lavoro Caricamento dati (file)
 feature: Workflows, Data Management Activity
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 10351620-115c-4bd8-b216-e5ad6f205ef3
-source-git-commit: 8272550faefece753636418bcb748b36f989fcb5
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '1097'
 ht-degree: 14%
@@ -16,7 +17,7 @@ ht-degree: 14%
 
 
 
-## Utilizzare {#use}
+## Utilizzo {#use}
 
 L&#39;attività **[!UICONTROL Data loading (File)]** ti consente di accedere direttamente a un&#39;origine di dati esterni e di utilizzarla in Adobe Campaign. Infatti, tutti i dati necessari per le operazioni di targeting non sempre si trovano nel database di Adobe Campaign: possono essere resi disponibili in file esterni.
 
@@ -26,7 +27,7 @@ La sezione superiore della finestra di configurazione per questa attività ti co
 
 >[!CAUTION]
 >
->Sono supportati solo i file con struttura &quot;flat&quot; (ad esempio CSV, TXT, ecc.). Non è consigliabile utilizzare il formato XML. Con la console client, puoi caricare file fino a una dimensione massima di 150 MB. Nell’interfaccia utente web, l’attività Load file ha un limite di 50 MB. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html?lang=it){target="_blank"}
+>Sono supportati solo i file con struttura &quot;flat&quot; (ad esempio CSV, TXT, ecc.). Non è consigliabile utilizzare il formato XML. Con la console client, puoi caricare file fino a una dimensione massima di 150 MB. Nell’interfaccia utente web, l’attività Load file ha un limite di 50 MB. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
 
 ![](assets/s_advuser_wf_etl_file.png)
 

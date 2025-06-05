@@ -4,8 +4,9 @@ title: Aggiungere un campo calcolato di tipo enumerazione
 description: Scopri come aggiungere un campo calcolato di tipo enumerazione
 feature: Workflows, Data Management
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 4fe2ae81-faa6-4777-a332-70c451bca75b
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -79,6 +80,6 @@ Applica i seguenti passaggi:
 
    ![](assets/query_editor_nveau_79.png)
 
-   Prendiamo un altro esempio e diciamo che il valore di enumerazione &quot;2&quot; non è inserito. Selezionare la funzione **[!UICONTROL Generate an error and reject the line]**: tutti i destinatari di genere &quot;2&quot; genereranno anomalie e le altre informazioni nella riga (nome e cognome, ecc.) non verrà esportato. Un log degli errori viene visualizzato nel campo **[!UICONTROL Logs generated during export]** della finestra di anteprima dati. Questo registro indica che non è stato immesso il valore di enumerazione &quot;2&quot;.
+   Prendiamo un altro esempio e diciamo che il valore di enumerazione &quot;2&quot; non è inserito. Selezionare la funzione **[!UICONTROL Generate an error and reject the line]**: tutti i destinatari di genere &quot;2&quot; genereranno anomalie e le altre informazioni nella riga (nome e cognome, ecc.) non verranno esportati. Un log degli errori viene visualizzato nel campo **[!UICONTROL Logs generated during export]** della finestra di anteprima dati. Questo registro indica che non è stato immesso il valore di enumerazione &quot;2&quot;.
 
    ![](assets/query_editor_nveau_80.png)

@@ -5,8 +5,9 @@ description: Scopri come avviare un flusso di lavoro e scoprire i flussi di lavo
 feature: Workflows
 level: Beginner
 role: User, Admin
+version: Campaign v8, Campaign Classic v7
 exl-id: 6d9789e3-d721-4ffd-b3fb-a0c522ab1c0a
-source-git-commit: d292c20e520b2466f782ccf86eb9d61e01915563
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '1136'
 ht-degree: 0%
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 Un workflow viene sempre avviato manualmente. Quando viene avviato, può tuttavia rimanere inattivo a seconda delle informazioni specificate tramite una pianificazione (vedi [Pianificazione](scheduler.md)) o la pianificazione delle attività.
 
-Azioni relative all’esecuzione del flusso di lavoro di targeting (avvio, arresto, pausa, ecc.) sono **processi asincroni**: l&#39;ordine è registrato e diventerà effettivo non appena il server sarà disponibile per applicarlo.
+Le azioni relative all&#39;esecuzione del flusso di lavoro di targeting (avvio, arresto, pausa, ecc.) sono **processi asincroni**: l&#39;ordine viene registrato e diventerà effettivo non appena il server sarà disponibile per applicarlo.
 
 La barra degli strumenti consente di avviare e tenere traccia dell’esecuzione del flusso di lavoro.
 
@@ -79,7 +80,7 @@ Il pulsante **[!UICONTROL Actions]** della barra degli strumenti consente di acc
 
 * **[!UICONTROL Start in simulation mode]**
 
-  Questa opzione consente di avviare il flusso di lavoro in modalità simulazione anziché in modalità reale. Ciò significa che quando si attiva questa modalità, vengono eseguite solo le attività che non influiscono sul database o sul file system (ad esempio **[!UICONTROL Query]**, **[!UICONTROL Union]**, **[!UICONTROL Intersection]**, ecc.). Attività che hanno un impatto (ad esempio **[!UICONTROL Export]**, **[!UICONTROL Import]**, ecc.) così come quelli successivi (nello stesso ramo) non vengono eseguiti.
+  Questa opzione consente di avviare il flusso di lavoro in modalità simulazione anziché in modalità reale. Ciò significa che quando si attiva questa modalità, vengono eseguite solo le attività che non influiscono sul database o sul file system (ad esempio **[!UICONTROL Query]**, **[!UICONTROL Union]**, **[!UICONTROL Intersection]**, ecc.). Le attività che hanno un impatto (ad esempio **[!UICONTROL Export]**, **[!UICONTROL Import]** e così via) e quelle successive (nello stesso ramo) non vengono eseguite.
 
 * **[!UICONTROL Execute pending tasks now]**
 

@@ -4,8 +4,9 @@ title: Utilizzare l’attività di approvazione locale
 description: Scopri come utilizzare l’attività di approvazione locale
 feature: Workflows, Approvals
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 31089026-3fc0-4491-8b70-0fb7fd1e3ac0
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 2%
@@ -145,7 +146,7 @@ Per ulteriori informazioni sulla configurazione dell&#39;attività **[!UICONTROL
 
 L&#39;attività **[!UICONTROL Local approval]** invia un&#39;e-mail di notifica ai supervisori locali.
 
-### Attendi {#wait}
+### Attendere {#wait}
 
 L’attività Attendi ti consente di posticipare l’inizio della seconda attività di approvazione locale che invierà la notifica di feedback della consegna. Nel campo **[!UICONTROL Duration]** è stato immesso il valore **[!UICONTROL 5d]** (5 giorni). Le azioni eseguite dai destinatari nei 5 giorni successivi all’invio della consegna verranno incluse nella notifica di feedback.
 

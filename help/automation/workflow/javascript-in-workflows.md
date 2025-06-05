@@ -4,11 +4,12 @@ title: Esempi di codice JavaScript nei flussi di lavoro
 description: Questi esempi mostrano come utilizzare il codice JavaScript in un flusso di lavoro
 feature: Workflows
 role: Developer
+version: Campaign v8, Campaign Classic v7
 exl-id: 3412e3de-1c88-496e-8fda-ca9fc9b18e69
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '1683'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -17,11 +18,11 @@ ht-degree: 2%
 Questi esempi mostrano come utilizzare il codice JavaScript in un flusso di lavoro:
 
 * [Scrivi nel database](#write-example)
-* [Eseguire una query sul database](#read-example)
+* [Eseguire query sul database](#read-example)
 * [Attivare un flusso di lavoro utilizzando un metodo SOAP statico](#trigger-example)
 * [Interagire con il database utilizzando un metodo SOAP non statico](#interact-example)
 
-[Ulteriori informazioni](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=it){target="_blank"} sui metodi SOAP statici e non statici.
+[Ulteriori informazioni](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html){target="_blank"} sui metodi SOAP statici e non statici.
 
 In questi esempi viene utilizzata l&#39;estensione ECMAScript for XML (E4X). Con questa estensione, puoi combinare le chiamate JavaScript e le primitive XML nello stesso script.
 
@@ -51,7 +52,7 @@ Per scrivere nel database, è possibile utilizzare il metodo statico `Write` nel
    1. Chiama il metodo `Write` nello schema `xtk:session`.
 
       >[!IMPORTANT]
-      > Se utilizzi Adobe Campaign v8, ti consigliamo di utilizzare il meccanismo di gestione temporanea con le API **Ingestion** e **Data update/delete** per il metodo `Write` in una tabella di Snowflake. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html?lang=it){target="_blank"}.
+      > Se utilizzi Adobe Campaign v8, ti consigliamo di utilizzare il meccanismo di gestione temporanea con le API **Ingestion** e **Data update/delete** per il metodo `Write` in una tabella Snowflake. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html){target="_blank"}.
 
    1. Passa il codice XML come argomento per la richiesta di scrittura.
 
@@ -99,7 +100,7 @@ var myXML = <recipient xtkschema="nms:recipient"
 
 #### Eliminare un record
 
-Utilizzare il metodo `DeleteCollection`. [Ulteriori informazioni](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html?lang=it){target="_blank"}.
+Utilizzare il metodo `DeleteCollection`. [Ulteriori informazioni](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html){target="_blank"}.
 
 Specifica queste informazioni:
 
@@ -273,7 +274,7 @@ for each (var rcp in res:recipient)
     logInfo(rcp.@email)
 ```
 
-Il ciclo include una variabile di destinatario locale. Per ogni destinatario restituito nella raccolta di destinatari, viene stampata l’e-mail del destinatario. [Ulteriori informazioni](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html?lang=it){target="_blank"} sulla funzione `logInfo`.
+Il ciclo include una variabile di destinatario locale. Per ogni destinatario restituito nella raccolta di destinatari, viene stampata l’e-mail del destinatario. [Ulteriori informazioni](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html){target="_blank"} sulla funzione `logInfo`.
 
 #### Risultati di un&#39;operazione `getIfExists`
 
@@ -359,7 +360,7 @@ Puoi attivare i flussi di lavoro a livello di programmazione, ad esempio nei flu
 
 L’attivazione dei flussi di lavoro avviene tramite l’utilizzo di eventi. Puoi utilizzare queste funzioni per gli eventi:
 
-* Per pubblicare un evento, è possibile utilizzare il metodo statico `PostEvent`. [Ulteriori informazioni](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=it){target="_blank"}.
+* Per pubblicare un evento, è possibile utilizzare il metodo statico `PostEvent`. [Ulteriori informazioni](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html){target="_blank"}.
 * Per ricevere un evento, è possibile utilizzare l&#39;attività **[!UICONTROL External signal]**. [Ulteriori informazioni](external-signal.md).
 
 Puoi attivare i flussi di lavoro in diversi modi:
@@ -426,10 +427,10 @@ Segui questi passaggi:
 
 1. Definisci la query:
 
-   * Recuperare un&#39;entità utilizzando il metodo `create` nello schema corrispondente, ad esempio lo schema `xtk:workflow`. [Ulteriori informazioni](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html?lang=it){target="_blank"}.
+   * Recuperare un&#39;entità utilizzando il metodo `create` nello schema corrispondente, ad esempio lo schema `xtk:workflow`. [Ulteriori informazioni](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html){target="_blank"}.
    * Utilizzare il metodo `queryDef` per eseguire una query SQL.
 
-1. Eseguire la query utilizzando il metodo `ExecuteQuery`. [Ulteriori informazioni](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html?lang=it){target="_blank"}.
+1. Eseguire la query utilizzando il metodo `ExecuteQuery`. [Ulteriori informazioni](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html){target="_blank"}.
 
    Utilizzare il ciclo `for each` per recuperare i risultati.
 
@@ -561,7 +562,7 @@ for each (var w in res.recipient)
 * Operazione `delete`
 
 >[!IMPORTANT]
-> Se utilizzi Adobe Campaign v8, ti consigliamo di utilizzare il meccanismo di gestione temporanea con le API **Ingestion** e **Data update/delete** per il metodo `Write` in una tabella di Snowflake. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html?lang=it){target="_blank"}.
+> Se utilizzi Adobe Campaign v8, ti consigliamo di utilizzare il meccanismo di gestione temporanea con le API **Ingestion** e **Data update/delete** per il metodo `Write` in una tabella Snowflake. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html){target="_blank"}.
 
 #### Esempio 1: inserire o aggiornare un record
 
@@ -611,11 +612,11 @@ Questo video mostra un esempio di utilizzo di un metodo API non statico in un fl
 
 ### Documentazione API
 
-* [Esempi di chiamate SOAP](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=it){target="_blank"}
+* [Esempi di chiamate SOAP](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html){target="_blank"}
 * Metodi:
-   * [Crea](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html?lang=it){target="_blank"}
-   * [EliminaRaccolta](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html?lang=it){target="_blank"}
-   * [ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html?lang=it){target="_blank"}
-   * [PostEvent](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=it){target="_blank"}
-   * [Scrivi](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-Write.html?lang=it){target="_blank"}
-* [funzione logInfo](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html?lang=it){target="_blank"}
+   * [Crea](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html){target="_blank"}
+   * [EliminaRaccolta](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html){target="_blank"}
+   * [ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html){target="_blank"}
+   * [PostEvent](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html){target="_blank"}
+   * [Scrittura](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-Write.html){target="_blank"}
+* [funzione logInfo](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html){target="_blank"}

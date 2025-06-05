@@ -4,8 +4,9 @@ title: HeatMap del flusso di lavoro della campagna
 description: Monitorare i flussi di lavoro con Workflow HeatMap
 feature: Workflows, Heatmap
 role: Admin
+version: Campaign v8, Campaign Classic v7
 exl-id: aeb35076-2f0d-456d-8562-be69e7e902eb
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 3%

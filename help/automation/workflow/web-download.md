@@ -3,8 +3,9 @@ product: campaign
 title: Download web
 description: Ulteriori informazioni sull’attività del flusso di lavoro Download web
 feature: Workflows
+version: Campaign v8, Campaign Classic v7
 exl-id: 73bacf61-ac03-4a5c-b03b-6dfbe3fb9538
-source-git-commit: 76a5737e2326e9691113957d1c7bf390ea969695
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 1%
@@ -17,7 +18,7 @@ ht-degree: 1%
 
 L&#39;attività **Download Web** avvia il download di un file su un URL esplicito, un account esterno o un&#39;istanza di Adobe Campaign. Viene utilizzato il protocollo HTTP. Può trattarsi di un download GET o POST.
 
-## Properties {#properties}
+## Proprietà {#properties}
 
 1. **Selezione del file Web**
 

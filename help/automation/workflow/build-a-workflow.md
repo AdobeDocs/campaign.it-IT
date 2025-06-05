@@ -4,8 +4,9 @@ title: Creare un flusso di lavoro
 description: Scopri come creare un flusso di lavoro
 feature: Workflows
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: a6003fdb-1035-4b80-8831-73f30a0b4fb2
-source-git-commit: 166fe487aa169f47f9da86c2990acb1f6dff430e
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 1%
@@ -133,7 +134,7 @@ Oltre alle consuete proprietà del flusso di lavoro, le proprietà del modello c
 
 Puoi duplicare diversi tipi di flussi di lavoro. Una volta eseguita la duplicazione, le modifiche del flusso di lavoro non vengono riportate nella copia del flusso di lavoro.
 
-L’Adobe consiglia di duplicare un flusso di lavoro invece di eseguire un copia/incolla delle attività. Quando un’attività viene copiata, vengono mantenute tutte le relative impostazioni. Per le attività dei canali, viene copiato anche l’oggetto di consegna associato all’attività, il che può causare problemi gravi.
+Adobe consiglia di duplicare un flusso di lavoro invece di eseguire un copia/incolla delle attività. Quando un’attività viene copiata, vengono mantenute tutte le relative impostazioni. Per le attività dei canali, viene copiato anche l’oggetto di consegna associato all’attività, il che può causare problemi gravi.
 
 1. Fai clic con il pulsante destro del mouse su un flusso di lavoro.
 1. Fai clic su **Duplica**.

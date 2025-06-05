@@ -4,11 +4,12 @@ title: Creare un elenco di riepilogo
 description: Creare un elenco di riepilogo
 feature: Workflows, Data Management
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 86dee66a-357a-4927-916e-51cde6c006d5
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '975'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -84,7 +85,7 @@ Aggiungi l’attività Enrichment e configurala come segue:
 
    ![](assets/uc2_enrich_enrich2.png)
 
-1. Selezionare l&#39;opzione **[!UICONTROL Define a collection]**.
+1. Seleziona l’opzione **[!UICONTROL Define a collection]**.
 1. Seleziona lo schema &quot;Archivi&quot; come destinazione.
 
    ![](assets/uc2_enrich_enrich3.png)
@@ -169,7 +170,7 @@ Per preparare l&#39;elenco di riepilogo, è necessario aggiungere campi dai camp
 L’ultimo passaggio prevede la scrittura di tutti i dati arricchiti in un elenco.
 
 1. Aggiungi un&#39;attività **Aggiornamento elenco** al flusso di lavoro. Questa attività deve essere collegata alla transizione in uscita della seconda attività di arricchimento.
-1. Selezionare l&#39;opzione **[!UICONTROL Create the list if necessary (Calculated name)]**.
+1. Seleziona l’opzione **[!UICONTROL Create the list if necessary (Calculated name)]**.
 1. Selezionare un valore per il nome calcolato. L&#39;etichetta scelta per l&#39;elenco è la data corrente: &lt;%= formatDate(new Date(), &quot;%2D/%2M/%2Y&quot;) %>.
 
 Una volta eseguito il flusso di lavoro, l’elenco include:

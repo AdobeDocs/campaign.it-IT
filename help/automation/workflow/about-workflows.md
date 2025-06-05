@@ -3,9 +3,10 @@ product: campaign
 title: Informazioni sui flussi di lavoro
 description: Automatizza i processi con i flussi di lavoro, gestisci dati e tipi di pubblico, invia messaggi e altro ancora.
 feature: Workflows
+version: Campaign v8, Campaign Classic v7
 role: User
 exl-id: 297aa4e3-b672-46b5-9016-5accee8568b8
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 44%
