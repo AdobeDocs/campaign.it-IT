@@ -57,7 +57,7 @@ Di seguito sono riportate le conseguenze dell’utilizzo di questo attributo in 
 >
 >L&#39;utilizzo dell&#39;attributo **accessibleIf** nei parametri critici (ad esempio quelli nelle chiavi composite) può causare errori per gli utenti che non sono autorizzati a leggere i dati a causa di dati nascosti. Questo può causare errori di query o comportamenti imprevisti. Assicurati che i parametri essenziali siano accessibili per evitare interruzioni.
 
-## Raccomandazioni {#recommendations}
+## Consigli {#recommendations}
 
 In ogni consegna, gli indirizzi e-mail vengono copiati nelle tabelle **[!UICONTROL broadLog]** e **[!UICONTROL forecastLog]**: di conseguenza, anche questi campi devono essere protetti.
 

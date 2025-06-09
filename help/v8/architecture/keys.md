@@ -46,7 +46,7 @@ Se il flusso di lavoro **[!UICONTROL Unicity alerting]** (ffdaUnicity) rileva al
 
 ![](assets/unicity-table.png)
 
-In qualità di amministratore di database, puoi utilizzare un’attività SQL per rimuovere i duplicati o contattare l’Adobe Customer Care per ulteriori indicazioni.
+In qualità di amministratore di database, puoi utilizzare un’attività SQL per rimuovere i duplicati o contattare l’Assistenza clienti di Adobe per ulteriori indicazioni.
 
 ### Avvisi{#unicity-wf-alerting}
 

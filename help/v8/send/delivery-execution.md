@@ -39,7 +39,7 @@ Le consegne transazionali inviate dall&#39;istanza di esecuzione vengono sincron
 <!--
 To monitor the activity and running of the execution instance(s), see [Transactional messaging reports](transactional-messaging-reports.md).-->
 
-## Reportistica{#reporting-transactional-msg}
+## Reporting{#reporting-transactional-msg}
 
 Adobe Campaign offre diversi rapporti che ti consentono di controllare l’attività e l’esecuzione fluida delle istanze di esecuzione.
 

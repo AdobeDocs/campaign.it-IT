@@ -106,7 +106,7 @@ Per creare un report utilizzando questa enumerazione, creare un cubo utilizzando
 
 Quindi, crea un report basato su questo cubo per visualizzare i valori.
 
-È sufficiente modificare l’enumerazione per aggiornare il rapporto correlato. Creare ad esempio il valore **Adobe** e aggiungere l&#39;alias **adobe.com**. Il report verrà aggiornato automaticamente con il valore Adobe a livello di enumerazione.
+È sufficiente modificare l’enumerazione per aggiornare il rapporto correlato. Ad esempio, crea il valore **Adobe** e aggiungi l&#39;alias **adobe.com**. Il report verrà aggiornato automaticamente con il valore Adobe a livello di enumerazione.
 
 ![](assets/nmx_add_alias.png)
 

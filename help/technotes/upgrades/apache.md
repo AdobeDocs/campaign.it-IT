@@ -15,17 +15,17 @@ ht-degree: 0%
 # Adobe Campaign - Aggiornamento sulla sicurezza della versione di Apache {#apache-update}
 
 >[!CAUTION]
->Il presente articolo si applica a: clienti Campaign Classic v7 Managed Cloud Service, clienti Campaign v8 e clienti Campaign Standard.
+>Il presente articolo si applica a: clienti Campaign Classic v7 Managed Cloud Services, clienti Campaign v8 e clienti Campaign Standard.
 
 Adobe Campaign funziona con strumenti di terze parti e la compatibilità viene aggiornata regolarmente, al fine di implementare solo le versioni supportate e beneficiare delle correzioni e dei miglioramenti più recenti.
 
 Adobe Campaign include Apache Tomcat che funge da punto di ingresso nel server applicazioni tramite HTTP ed è integrato con il server web Apache. Apache Software Foundation ha rilasciato Apache HTTP Server 2.4.53. Questa versione affronta le vulnerabilità che possono consentire a un utente malintenzionato remoto di prendere il controllo di un sistema interessato. Ulteriori informazioni sono disponibili nell&#39;annuncio di [Apache 2.4.53](https://downloads.apache.org/httpd/Announcement2.4.html){target="_blank"}.
 
-Il team di Adobe Campaign eseguirà l’attività di aggiornamento della sicurezza della versione di Apache entro il **15 giugno 2022** per mitigare questa vulnerabilità di Apache e rendere più sicuro l’ambiente delle istanze. Questo aggiornamento si applica a tutti i clienti di Cloud Service gestiti Campaign Classic v7, Campaign v8 e Campaign Standard che eseguono su una versione vulnerabile di Apache HTTP Server. Se sei interessato, Adobe ti ha già contattato per informarti su questo aggiornamento.
+Il team di Adobe Campaign eseguirà l’attività di aggiornamento della sicurezza della versione di Apache entro il **15 giugno 2022** per mitigare questa vulnerabilità di Apache e rendere più sicuro l’ambiente delle istanze. Questo aggiornamento si applica a tutti i clienti di Campaign Classic v7 Managed Cloud Services, Campaign v8 e Campaign Standard che eseguono su una versione vulnerabile di Apache HTTP Server. Se sei interessato, Adobe ti ha già contattato per informarti su questo aggiornamento.
 
 Questo aggiornamento dovrebbe essere eseguito automaticamente al di fuori del normale orario di lavoro per consentire di continuare a utilizzare il servizio Campaign senza interruzioni.
 
-Le istanze non di produzione verranno aggiornate dai nostri team prima di aggiornare le istanze di produzione. Poiché si tratta di un processo di aggiornamento automatico di proprietà di Adobe, non è necessaria alcuna azione da parte tua. Tuttavia, in caso di problemi, contatta l&#39;[Assistenza clienti Adobe](https://experienceleague.adobe.com/it?support-solution=Campaign#support){target="_blank"}.
+Le istanze non di produzione verranno aggiornate dai nostri team prima di aggiornare le istanze di produzione. Poiché si tratta di un processo di aggiornamento automatico di proprietà di Adobe, non è necessaria alcuna azione da parte tua. Tuttavia, in caso di problemi, contatta l&#39;[Assistenza clienti Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
 
 
 >[!NOTE]
@@ -53,7 +53,7 @@ Le istanze non di produzione verranno aggiornate dai nostri team prima di aggior
 
 * **Quali convalide devono essere eseguite dai clienti?**
 
-  Non sono necessari test specifici per questo aggiornamento della sicurezza. In caso di problemi, contatta l&#39;[Assistenza clienti Adobe](https://experienceleague.adobe.com/it?support-solution=Campaign#support){target="_blank"}.
+  Non sono necessari test specifici per questo aggiornamento della sicurezza. In caso di problemi, contatta l&#39;[Assistenza clienti Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
 
 
 * **Posso richiedere una modifica di data/ora nello slot di aggiornamento della sicurezza pianificato?**
@@ -61,4 +61,4 @@ Le istanze non di produzione verranno aggiornate dai nostri team prima di aggior
   Poiché si tratta di una correzione di sicurezza, si consiglia vivamente di adattarsi alla pianificazione esistente.
 
 
-Per qualsiasi altra domanda, puoi contattare [l&#39;Assistenza clienti Adobe](https://experienceleague.adobe.com/it?support-solution=Campaign#support){target="_blank"}.
+Per qualsiasi altra domanda, puoi contattare l&#39;[Assistenza clienti Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.

@@ -16,10 +16,10 @@ ht-degree: 4%
 
 Sfrutta le funzionalità di interazione di Campaign tramite questi casi d’uso dettagliati disponibili nella documentazione di Campaign Classic v7:
 
-[Crea e applica una regola di presentazione](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/presentation-rules.html?lang=it){target="_blank"}
+[Creare e applicare una regola di presentazione](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/presentation-rules.html){target="_blank"}
 
-[Inviare una consegna di offerta e-mail](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html?lang=it){target="_blank"}
+[Inviare una consegna di offerte via e-mail](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html){target="_blank"}
 
-[Presenta un&#39;offerta a un visitatore anonimo](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html?lang=it){target="_blank"}
+[Presenta un&#39;offerta a un visitatore anonimo](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html){target="_blank"}
 
-[Eseguire una simulazione delle offerte](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html?lang=it){target="_blank"}
+[Eseguire una simulazione delle offerte](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html){target="_blank"}

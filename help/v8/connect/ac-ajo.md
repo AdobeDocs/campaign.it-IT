@@ -22,7 +22,7 @@ I passaggi di base consistono nel creare un modello di messaggio transazionale i
 ![](assets/ajo-integration.png)
 
 
-[Scopri questa integrazione in questo esempio end-to-end](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/journey-use-cases/business-use-cases/ajo-ac){target="_blank"}.
+[Scopri questa integrazione in questo esempio end-to-end](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journey-use-cases/business-use-cases/ajo-ac){target="_blank"}.
 
 
-[Ulteriori informazioni nella documentazione di Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-v7-v8){target="_blank"}.
+[Ulteriori informazioni nella documentazione di Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-v7-v8){target="_blank"}.

@@ -64,4 +64,4 @@ Nel caso d’uso seguente, scopri come personalizzare un oggetto e un corpo dell
 
 Scopri come aggiungere un campo di personalizzazione alla riga dell’oggetto e il contenuto di una consegna e-mail nel video seguente.
 
->[!VIDEO](https://video.tv.adobe.com/v/329894?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12)

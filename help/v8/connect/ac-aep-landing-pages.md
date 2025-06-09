@@ -56,7 +56,7 @@ Una volta stabilita la connessione OAuth, il passaggio successivo consiste nel c
 
    ![](assets/ac-lp-source.png){width="70%"}
 
-1. Configura la connessione in base alle tue esigenze. Informazioni dettagliate su come configurare una connessione API HTTP sono disponibili nella [documentazione sulle origini di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=it){target="_blank"}.
+1. Configura la connessione in base alle tue esigenze. Informazioni dettagliate su come configurare una connessione API HTTP sono disponibili nella [documentazione sulle origini di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html){target="_blank"}.
 
    Al passaggio **[!UICONTROL Authentication]**, attiva l&#39;opzione **[!UICONTROL Enable authentication]** per eseguire l&#39;autenticazione utilizzando il token di accesso generato in precedenza tramite l&#39;integrazione OAuth.
 
@@ -98,7 +98,7 @@ Sfoglia le schede seguenti per scoprire i due metodi:
 
 >[!TAB Aggiungi opzioni tramite un&#39;attività codice JavaScript]
 
-Per configurare automaticamente queste opzioni durante l&#39;esecuzione del flusso di lavoro delle pagine di destinazione, aggiungere un&#39;attività **[!UICONTROL JavaScript code]** al flusso di lavoro con il codice seguente. [Scopri come configurare un&#39;attività codice JavaScript](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html?lang=it#JavaScript-code){target="_blank"}.
+Per configurare automaticamente queste opzioni durante l&#39;esecuzione del flusso di lavoro delle pagine di destinazione, aggiungere un&#39;attività **[!UICONTROL JavaScript code]** al flusso di lavoro con il codice seguente. [Scopri come configurare un&#39;attività codice JavaScript](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html#JavaScript-code){target="_blank"}.
 
 Durante l’esecuzione del flusso di lavoro, le opzioni vengono create automaticamente nella console Campaign con i valori forniti.
 
@@ -134,7 +134,7 @@ Per consentire la sincronizzazione dei dati tra le pagine di destinazione e Adob
 
    ![](assets/ac-lp-script.png){width="70%"}
 
-+++  Script 1 - Caricare gli attributi del profilo dall&#39;Experience Platform
++++  Script 1 - Caricare gli attributi del profilo da Experience Platform
 
    Questo codice controlla se il profilo esiste in Adobe Experience Platform prima di caricare la pagina di destinazione. Recupera gli attributi del profilo e li visualizza nei campi corrispondenti della pagina di destinazione.
 
@@ -211,9 +211,9 @@ Ora che i codici JavaScript personalizzati sono stati creati in Adobe Campaign, 
 
 Con i codici JavaScript aggiunti ad Adobe Campaign, puoi sfruttarli nel flusso di lavoro della pagina di destinazione utilizzando **[!UICONTROL JavaScript code]** attività:
 
-* Per caricare i dati dall&#39;Experience Platform prima di caricare la pagina di destinazione, aggiungi un&#39;attività **[!UICONTROL JavaScript code]** prima dell&#39;attività della pagina di destinazione e copia e incolla lo script 1.
+* Per caricare i dati da Experience Platform prima di caricare la pagina di destinazione, aggiungi un&#39;attività **[!UICONTROL JavaScript code]** prima dell&#39;attività della pagina di destinazione e copia e incolla lo script 1.
 
-+++ Script 1 - Caricare gli attributi del profilo dall&#39;Experience Platform
++++ Script 1 - Caricare gli attributi del profilo da Experience Platform
 
   ```javascript
   // Script code to read profile from AEP.
@@ -251,7 +251,7 @@ Con i codici JavaScript aggiunti ad Adobe Campaign, puoi sfruttarli nel flusso d
 
 +++
 
-* Per aggiornare gli attributi del profilo di Experience Platform con i dati inviati nella pagina di destinazione, aggiungi un&#39;attività **[!UICONTROL JavaScript code]** dopo l&#39;attività della pagina di destinazione e copia e incolla lo script 2.
+* Per aggiornare gli attributi del profilo di Experience Platform con i dati inviati nella pagina di destinazione, aggiungi un&#39;attività **[!UICONTROL JavaScript code]** dopo l&#39;attività della pagina di destinazione e copia e incolla script 2.
 
 +++ Script 2 - Aggiornare gli attributi del profilo di Experience Platform
 
@@ -344,5 +344,5 @@ Di seguito è riportato un esempio di pagina di destinazione e di attività codi
 ### Ulteriori informazioni
 
 * [Configurare un’attività di codice JavaScript](../../automation/workflow/sql-code-and-javascript-code.md#javascript-code)
-* [Crea una pagina di destinazione](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/creating-a-landing-page.html?lang=it){target="_blank"}
+* [Creare una pagina di destinazione](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/creating-a-landing-page.html){target="_blank"}
 * [Gestire gli abbonamenti e il loro annullamento](../start/subscriptions.md)

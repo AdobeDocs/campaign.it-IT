@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66
 source-git-commit: 8d6c3e03f9b7533f7f325b755e3b6d4f74b63a8d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -58,11 +58,11 @@ I passaggi principali per creare una campagna di marketing cross-channel sono i 
 
    Scopri come creare un piano di marketing e configurare le campagne in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=it){target="_blank"}.
 
-   Tutte le campagne di marketing si basano su un modello, che memorizza le impostazioni e le funzionalità principali. Viene fornito un modello integrato al fine di creare una campagna per la quale non è stata definita alcuna configurazione specifica. Puoi creare e configurare i modelli della campagna e quindi creare campagne a partire da questi modelli.
+   Tutte le campagne di marketing si basano su un modello, che memorizza le impostazioni e le funzionalità principali. Viene fornito un modello incorporato al fine di creare una campagna per la quale non è stata definita alcuna configurazione specifica. Puoi creare e configurare i modelli della campagna e quindi creare campagne a partire da questi modelli.
 
-   Scopri come utilizzare i modelli di campagna in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=it){target="_blank"}.
+   Per scoprire come utilizzare i modelli di campagna, consulta [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=it){target="_blank"}.
 
-   Scopri cosa sono le campagne ricorrenti e come si configurano in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/recurring-periodic-campaigns.html?lang=it){target="_blank"}.
+   Per scoprire cosa sono le campagne ricorrenti e come configurarle, consulta [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/recurring-periodic-campaigns.html?lang=it){target="_blank"}.
 
 1. **Definire i tipi di pubblico**
 
@@ -70,7 +70,7 @@ I passaggi principali per creare una campagna di marketing cross-channel sono i 
 
    ![](assets/campaign-wf.png)
 
-   Scopri come definire il pubblico dei messaggi in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=it){target="_blank"}.
+   Per scoprire come definire il pubblico dei messaggi, consulta [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=it){target="_blank"}.
 
 1. **Creare consegne**
 
@@ -86,7 +86,7 @@ I passaggi principali per creare una campagna di marketing cross-channel sono i 
 
    Adobe Campaign consente di impostare processi di approvazione collaborativa per le fasi principali della campagna di marketing. Per ogni campagna puoi approvare il target di consegna, i contenuti e i costi. Gli operatori di Adobe Campaign incaricati dell’approvazione possono ricevere una notifica tramite e-mail e accettare o rifiutare l’approvazione dalla console o tramite una connessione web.
 
-   Scopri come impostare e gestire le approvazioni in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html?lang=it#campaign-orchestration){target="_blank"}.
+   Per scoprire come impostare e gestire le approvazioni, consulta [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html?lang=it#campaign-orchestration){target="_blank"}.
 
 
 ## Componente aggiuntivo Marketing distribuito{#distributed-marketing-add-on}
@@ -97,7 +97,7 @@ Adobe Campaign offre il componente aggiuntivo **Marketing distribuito** per l’
 >
 >Questa funzionalità è disponibile a partire da Campaign v8.3. Per verificare la versione, consulta [questa sezione](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
-Scopri come configurare e utilizzare le funzionalità di marketing distribuito di Campaign in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=it){target="_blank"}.
+Scopri come configurare e utilizzare le funzionalità di Marketing distribuito di Campaign in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=it){target="_blank"}.
 
 ## Componente aggiuntivo Gestione risposta{#response-manager-add-on}
 
@@ -107,4 +107,4 @@ Adobe Campaign offre il componente aggiuntivo **Gestione della risposta** che co
 >
 >Questa funzionalità è disponibile a partire da Campaign v8.3. Per verificare la versione, consulta [questa sezione](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
-[](../assets/do-not-localize/book.png)Scopri come configurare e utilizzare la gestione della risposta di Campaign nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=it){target="_blank"}
+[](../assets/do-not-localize/book.png) Scopri come configurare e utilizzare Campaign Response Manager nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=it){target="_blank"}.

@@ -42,4 +42,4 @@ La comunicazione generale tra server e processi viene eseguita in base allo sche
 
 ![](assets/fda-architecture.png)
 
-PostgreSQL è il database primario e il Snowflake può essere utilizzato come database secondario. Puoi estendere il modello dati e archiviare i dati sul Snowflake. Successivamente, puoi eseguire ETL, segmentazione e rapporti su un set di dati di grandi dimensioni con prestazioni eccezionali.
+PostgreSQL è il database primario e Snowflake può essere utilizzato come database secondario. Puoi estendere il modello dati e archiviare i dati su Snowflake. Successivamente, puoi eseguire ETL, segmentazione e rapporti su un set di dati di grandi dimensioni con prestazioni eccezionali.

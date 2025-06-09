@@ -7,13 +7,13 @@ hide: true
 hidefromtoc: true
 level: Beginner, Intermediate
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 6926d84576df1810b511ef1a9976593cb99585bb
+exl-id: 7cebcde0-c5a8-4b9b-baba-27a62bebde91
+source-git-commit: 30babc4bec802f61d3bd28a7ebcf0c15e22b2284
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
 
 ---
-
 
 # SMS in un’istanza autonoma {#sms-standalone}
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >Questa documentazione è per Adobe Campaign v8.7.2 e versioni successive.
 >
->Per le versioni precedenti, leggere la documentazione di [Campaign Classic v7](https://experienceleague.adobe.com/it/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up).
+>Per le versioni precedenti, leggere la [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up).
 
 In un’istanza autonoma, l’invio di una consegna SMS richiede:
 
@@ -50,7 +50,7 @@ La casella **[!UICONTROL Send messages through a dedicated process]** è selezio
 
    ![](assets/sms_extaccount_connector.png){zoomable="yes"}
 
-   Per impostare la connessione, è necessario compilare le schede di questo modulo. Per ulteriori informazioni sull&#39;account esterno SMPP[&#128279;](smpp-external-account.md#smpp-connection-settings), vedere .
+   Per impostare la connessione, è necessario compilare le schede di questo modulo. Per ulteriori informazioni sull&#39;account esterno SMPP](smpp-external-account.md#smpp-connection-settings), vedere [.
 
 
 ## Configurare il modello di consegna {#sms-delivery-template}

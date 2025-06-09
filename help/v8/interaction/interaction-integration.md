@@ -24,7 +24,7 @@ L’URL di chiamata dello script si presenta così:
 
 Il parametro &quot;**env**&quot; riceve il nome interno dell&#39;ambiente live dedicato alle interazioni anonime.
 
-Per presentare un’offerta, è necessario creare un ambiente e uno spazio delle offerte in Adobe Campaign, quindi configurare la pagina HTML.
+Per presentare un’offerta, è necessario creare un ambiente e uno spazio dell’offerta in Adobe Campaign, quindi configurare la pagina HTML.
 
 I seguenti casi d’uso descrivono le opzioni possibili per l’integrazione delle offerte tramite JavaScript.
 
@@ -38,7 +38,7 @@ I seguenti casi d’uso descrivono le opzioni possibili per l’integrazione del
 1. Crea uno spazio delle offerte collegato all’ambiente anonimo.
 1. Crea un’offerta e la relativa rappresentazione collegata allo spazio dell’offerta.
 
-**Passaggio 2: aggiorna il contenuto della pagina HTML**
+**Passaggio 2: aggiornare il contenuto della pagina HTML**
 
 La pagina HTML deve includere un elemento con un attributo @id con il valore del nome interno dello spazio dell’offerta creato (&quot;i_internal name space&quot;). L’offerta verrà inserita in questo elemento dall’interazione.
 
@@ -116,7 +116,7 @@ Nel contenuto della pagina web, devi aggiungere il seguente script che identific
    </script>
    ```
 
-### Utilizzare una funzione di rendering HTML {#using-an-html-rendering-function}
+### Utilizzare una funzione di rendering di HTML {#using-an-html-rendering-function}
 
 Per generare automaticamente la rappresentazione dell’offerta HTML, puoi utilizzare una funzione di rendering.
 
@@ -314,9 +314,9 @@ Il caso d’uso seguente descrive le configurazioni da eseguire in Adobe Campaig
 
 ## Configurare un’integrazione SOAP
 
-I servizi web dell’SOAP forniti per la gestione delle offerte sono diversi da quelli solitamente utilizzati in Adobe Campaign. È possibile accedervi tramite l’URL di interazione descritto nella sezione precedente e presentare o aggiornare le offerte per un determinato contatto.
+I servizi web di SOAP forniti per la gestione delle offerte sono diversi da quelli solitamente utilizzati in Adobe Campaign. È possibile accedervi tramite l’URL di interazione descritto nella sezione precedente e presentare o aggiornare le offerte per un determinato contatto.
 
-### Proposta di offerte {#offer-proposition}
+### Proposta di offerta {#offer-proposition}
 
 Per una proposta di offerta tramite SOAP, aggiungi il comando **nms:proposition#Propose** seguito dai seguenti parametri:
 
@@ -333,7 +333,7 @@ Per una proposta di offerta tramite SOAP, aggiungi il comando **nms:proposition#
 >
 >Le impostazioni **targetId** e **maxCount** sono obbligatorie. Le altre sono facoltative.
 
-In risposta alla richiesta, il servizio SOAP restituirà i seguenti parametri:
+In risposta alla query, il servizio SOAP restituirà i seguenti parametri:
 
 * **interfaceId**: ID dell&#39;interazione.
 * **propositions**: elemento XML, contiene l&#39;elenco delle proposte, ciascuna con il proprio ID e la propria rappresentazione HTML.
@@ -348,7 +348,7 @@ Aggiungi il comando **nms:interface#UpdateStatus** all&#39;URL, seguito dai segu
 
 ### Esempio di utilizzo di una chiamata SOAP {#example-using-a-soap-call}
 
-Ecco un esempio di codice per una chiamata SOAP:
+Di seguito è riportato un esempio di codice per una chiamata SOAP:
 
 ```
 <%

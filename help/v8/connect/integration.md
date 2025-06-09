@@ -18,11 +18,11 @@ Puoi collegare la tua istanza di Campaign con le soluzioni Adobe Experience Clou
 
 Adobe Campaign è dotato di diversi connettori che consentono di comunicare con applicazioni esterne, connettersi ai motori di database, condividere e sincronizzare i dati.
 
-## Combinare le soluzioni Adobi {#gs-ac-integration}
+## Combinare le soluzioni Adobe {#gs-ac-integration}
 
 Combina le soluzioni Adobe Experience Cloud per modernizzare la tua implementazione.
 
-Campaign v8 è in grado di connettersi con le seguenti soluzioni di Adobe. Sfoglia i collegamenti per ulteriori informazioni su casi d’uso, configurazione e linee guida:
+Campaign v8 può connettersi con le seguenti soluzioni Adobe. Sfoglia i collegamenti per ulteriori informazioni su casi d’uso, configurazione e linee guida:
 
 * Adobe Analytics.[Ulteriori informazioni](../connect/ac-aa.md)
 * Trigger di Adobe Experience Cloud. [Ulteriori informazioni](../connect/ac-triggers.md)
@@ -34,13 +34,13 @@ Campaign v8 è in grado di connettersi con le seguenti soluzioni di Adobe. Sfogl
 
 Puoi anche combinare le **audience** e **risorse** nelle soluzioni Experience Cloud con le funzionalità di condivisione delle risorse e dei tipi di pubblico.
 
-Ulteriori informazioni sulla **condivisione del pubblico** tra Campaign e le soluzioni Experience Cloud nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=it#integrating-with-adobe-experience-cloud){target="_blank"}.
+Ulteriori informazioni sulla **condivisione del pubblico** tra le soluzioni Campaign e Experience Cloud nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}.
 
-Ulteriori informazioni sulla **condivisione di risorse** tra Campaign e le soluzioni Experience Cloud nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=it#integrating-with-adobe-experience-cloud){target="_blank"}.
+Ulteriori informazioni sulla **condivisione di risorse** tra le soluzioni Campaign e Experience Cloud nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}.
 
 >[!NOTE]
 >
->In qualità di utente di Cloud Service gestiti, [contatta l&#39;Adobe](../start/campaign-faq.md#support) per collegare Campaign ai servizi e alle soluzioni di Adobe Experience Cloud.
+>In qualità di utente di Managed Cloud Services, [contatta Adobe](../start/campaign-faq.md#support) per collegare Campaign ai servizi e alle soluzioni Adobe Experience Cloud.
 
 
 ## Integrare con il connettore CRM{#gs-crm-connectors}

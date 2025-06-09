@@ -22,7 +22,7 @@ Adobe Campaign offre due nuovi modelli di apprendimento automatico: [Ottimizzazi
 >
 >Questa funzionalità non è disponibile come funzione predefinita del prodotto. È disponibile solo per i clienti Adobe Campaign Managed Cloud Services che eseguono Adobe Campaign Classic v7 o Adobe Campaign v8.
 >
->La sua implementazione richiede l’intervento della Consulenza Adobe. Per ulteriori informazioni, contatta il rappresentante del tuo Adobe.
+>La sua implementazione richiede l’intervento della Consulenza Adobe. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 >
 
 
@@ -83,7 +83,7 @@ Questo modello utilizza più punteggi per indicare:
 * **Punteggio di coinvolgimento per apertura/Punteggio di coinvolgimento per clic**: questo valore corrisponde alla probabilità che un utente iscritto sia interessato a un messaggio specifico (apertura o clic). I valori sono compresi tra 0,0 e 1,0.
 * **Probabilità di annullamento abbonamento**: questo valore corrisponde alla probabilità che il destinatario annulli l’iscrizione al canale e-mail a causa di un messaggio e-mail aperto. I valori sono compresi tra 0,0 e 1,0.
 * **Livello di mantenimento**: questo valore classifica gli utenti in tre livelli: basso, medio e alto. Con un valore alto, è molto probabile che il cliente sia interessato al marchio, mentre un valore basso implica la possibilità che annulli l’abbonamento.
-* **Grado percentuale di mantenimento**: classificazione del profilo in termini di probabilità di annullamento della sottoscrizione. I valori sono compresi tra 0,0 e 1,0. Ad esempio, se la percentuale di mantenimento è 0,953, il destinatario ha più probabilità di restare con il marchio e meno probabilità di annullare l’iscrizione rispetto al 95,3% di tutti i destinatari.
+* **Grado percentile di mantenimento**: classificazione del profilo in termini di probabilità di annullamento dell’iscrizione. I valori sono compresi tra 0,0 e 1,0. Ad esempio, se la percentuale di mantenimento è 0,953, il destinatario ha più probabilità di restare con il marchio e meno probabilità di annullare l’iscrizione rispetto al 95,3% di tutti i destinatari.
 
 >[!NOTE]
 >

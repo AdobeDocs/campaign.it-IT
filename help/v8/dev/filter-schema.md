@@ -60,7 +60,7 @@ Questi filtri vengono immessi al livello **elemento** principale degli schemi e,
 >
 >Se non viene specificato alcun filtro, tutti gli operatori disporranno di autorizzazioni di lettura e scrittura per lo schema.
 
-## Schemi incorporati di Protect
+## Proteggere gli schemi incorporati
 
 Per impostazione predefinita, gli schemi incorporati sono accessibili solo con autorizzazioni di SCRITTURA per gli operatori con diritti di AMMINISTRAZIONE:
 
@@ -101,7 +101,7 @@ Per impostazione predefinita, gli schemi incorporati sono accessibili solo con a
 
 ## Modificare i filtri di sistema degli schemi incorporati
 
-Gli schemi incorporati sono protetti per evitare problemi di compatibilità con le versioni precedenti. L’Adobe consiglia di non modificare i parametri dello schema predefiniti per garantire una sicurezza ottimale.
+Gli schemi incorporati sono protetti per evitare problemi di compatibilità con le versioni precedenti. Adobe consiglia di non modificare i parametri dello schema predefiniti per garantire una sicurezza ottimale.
 
 Tuttavia, in contesti specifici, potrebbe essere necessario modificare i filtri di sistema degli schemi incorporati. A tale scopo, segui i passaggi indicati di seguito:
 

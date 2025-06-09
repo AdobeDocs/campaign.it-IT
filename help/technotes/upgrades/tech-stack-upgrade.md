@@ -16,7 +16,7 @@ ht-degree: 9%
 
 L’infrastruttura di Campaign si basa su sistemi di terze parti che devono essere regolarmente aggiornati con le versioni e le correzioni più recenti. Questi aggiornamenti sono obbligatori per garantire la continuità del servizio e la protezione degli ambienti Campaign dai rischi di sicurezza. Inoltre, è necessario un aggiornamento di Campaign per garantire la compatibilità con modifiche al sistema di terze parti.
 
-In qualità di **cliente di Cloud Service gestiti**, Adobe ti informa su questi aggiornamenti quando sono necessari. Gli ambienti dovranno essere aggiornati in conformità con le raccomandazioni per garantire la conformità.
+In qualità di **cliente di Managed Cloud Services**, Adobe ti informa su questi aggiornamenti quando sono necessari. Gli ambienti dovranno essere aggiornati in conformità con le raccomandazioni per garantire la conformità.
 
 Per motivi di sicurezza, Adobe deve [installare la build Campaign più recente](#ac-upgrade), quindi aggiornare il [sistema operativo](#os-upgrade) e/o il [Relation Database Management System (RDBMS)](#pg-upgrade).
 
@@ -33,17 +33,17 @@ Se sei interessato dall&#39;[aggiornamento del sistema operativo](#os-upgrade) e
 
 **Come si esegue l’aggiornamento?**
 
-In qualità di cliente di Cloud Service gestiti, Adobe ti contatterà e aggiornerà la tua versione di Campaign.
+In qualità di cliente di Managed Cloud Services, Adobe ti contatterà e aggiornerà la tua versione di Campaign.
 
 ## Aggiornamento del sistema operativo {#os-upgrade}
 
 **Sei interessato da questo problema?**
 
-Se esegui Campaign su un sistema operativo Debian, per beneficiare degli ultimi aggiornamenti di sicurezza Debian, Adobe deve spostare l’infrastruttura Campaign in **Debian 11**. Tieni presente che il supporto per la sicurezza di Debian 9 sarà disponibile fino al 30 giugno 2023.
+Se esegui Campaign su un sistema operativo Debian, per beneficiare degli ultimi aggiornamenti di sicurezza Debian, Adobe deve spostare l’infrastruttura di Campaign in **Debian 11**. Tieni presente che il supporto per la sicurezza di Debian 9 sarà disponibile fino al 30 giugno 2023.
 
 **Come si esegue l’aggiornamento?**
 
-In qualità di cliente di Cloud Service gestiti, Adobe ti contatterà per aggiornare il tuo ambiente.
+In qualità di cliente di Managed Cloud Services, Adobe ti contatterà per aggiornare il tuo ambiente.
 
 ## Aggiornamento del sistema del database {#pg-upgrade}
 
@@ -53,4 +53,4 @@ Se il sistema di database per Campaign è PostgreSQL, per beneficiare delle ulti
 
 **Come si esegue l’aggiornamento?**
 
-In qualità di cliente di Cloud Service gestiti, Adobe contatterà l&#39;utente e aggiornerà il database system da PostgreSQL 11 a PostgreSQL 14.
+In qualità di cliente di Managed Cloud Services, Adobe ti contatterà e aggiornerà il sistema di database da PostgreSQL 11 a PostgreSQL 14.

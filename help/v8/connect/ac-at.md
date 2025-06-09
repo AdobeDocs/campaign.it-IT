@@ -21,7 +21,7 @@ Questa integrazione consente di implementare i casi d’uso come segue: quando u
 >[!NOTE]
 >* L’integrazione supporta solo immagini statiche. Gli altri tipi di contenuto non possono essere personalizzati.
 >
->* In qualità di utente di Cloud Service gestiti, [contatta l&#39;Adobe](../start/campaign-faq.md#support) per implementare i trigger Experience Cloud con Campaign.
+>* In qualità di utente di Managed Cloud Services, [contatta Adobe](../start/campaign-faq.md#support) per implementare i trigger di Experience Cloud con Campaign.
 
 Adobe Target può utilizzare i seguenti tipi di dati:
 
@@ -74,7 +74,7 @@ Puoi quindi definire i parametri dell’immagine:
 * **[!UICONTROL Landing Page]** consente di reindirizzare l&#39;immagine predefinita a una pagina di destinazione predefinita. Questo URL si applica solo quando l’immagine predefinita viene visualizzata nell’e-mail finale. È opzionale.
 * **[!UICONTROL Additional decision parameters]** definisce il mapping tra i campi definiti nei segmenti Adobe Target e i campi Adobe Campaign. I campi Adobe Campaign utilizzati devono essere stati specificati nella rawbox. Nel nostro esempio, abbiamo aggiunto il campo Paese.
 
-Se utilizzi le autorizzazioni Enterprise nelle impostazioni di Adobe Target, aggiungi la proprietà corrispondente in questo campo. Ulteriori informazioni sulle autorizzazioni di Target Enterprise nella [documentazione di Adobe Target](https://experienceleague.adobe.com/it/docs/target/using/administer/manage-users/enterprise/properties-overview#administer){target="_blank"}.
+Se utilizzi le autorizzazioni Enterprise nelle impostazioni di Adobe Target, aggiungi la proprietà corrispondente in questo campo. Per ulteriori informazioni sulle autorizzazioni Enterprise per Target, consulta la [documentazione di Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/administer/manage-users/enterprise/properties-overview#administer){target="_blank"}.
 
 ![](assets/target_13.png)
 
@@ -94,7 +94,7 @@ Nel nostro caso, abbiamo bisogno di due offerte di reindirizzamento, la terza (q
 
    ![](assets/target_6.png)
 
-1. Segui la stessa procedura per l’offerta di reindirizzamento rimanente. Per ulteriori informazioni, consulta questa [documentazione di Adobe Target](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=it#experiences){target="_blank"}.
+1. Segui la stessa procedura per l’offerta di reindirizzamento rimanente. Per ulteriori informazioni, consulta questa [documentazione di Adobe Target](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html#experiences){target="_blank"}.
 
 ### Creare tipi di pubblico {#audiences-target}
 

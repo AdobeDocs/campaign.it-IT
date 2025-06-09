@@ -11,7 +11,7 @@ exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
 source-git-commit: a9aa9cb508ca1f5cdcd59e61b5be029e3de1a82f
 workflow-type: tm+mt
 source-wordcount: '1665'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ Puoi utilizzare Campaign per inviare notifiche push su dispositivi iOS e Android
 
 Alcune modifiche importanti al servizio Android Firebase Cloud Messaging (FCM) sono state rilasciate nel 2024 e potrebbero influire sull’implementazione di Adobe Campaign. Per supportare questa modifica, potrebbe essere necessario aggiornare la configurazione dei servizi di abbonamento per i messaggi push di Android.
 
-Inoltre, Adobe consiglia vivamente di passare alla connessione basata su token ai numeri APN anziché a una connessione basata su certificati, che è più sicura e scalabile.
+Inoltre, Adobe consiglia vivamente di passare alla connessione basata su token agli APN anziché a una connessione basata su certificati, che è più sicura e scalabile.
 
 ## Servizio Google Android Firebase Cloud Messaging (FCM) {#fcm-push-upgrade}
 
@@ -33,7 +33,7 @@ Adobe Campaign Classic v7 e Adobe Campaign v8 supportano già le API più recent
 
 ### Sei interessato? {#fcm-impact}
 
-Se l’implementazione corrente supporta i servizi di abbonamento che si connettono a FCM utilizzando le API legacy, sei interessato. Per evitare distrazioni di servizio, è necessario passare alle API più recenti. In tal caso, i team di Adobi ti contatteranno.
+Se l’implementazione corrente supporta i servizi di abbonamento che si connettono a FCM utilizzando le API legacy, sei interessato. Per evitare distrazioni di servizio, è necessario passare alle API più recenti. In tal caso, i team di Adobe ti contatteranno.
 
 Per verificare se sei interessato, puoi filtrare i **Servizi e abbonamenti** in base al filtro seguente:
 
@@ -50,17 +50,17 @@ Per verificare se sei interessato, puoi filtrare i **Servizi e abbonamenti** in 
 
 * Il file JSON dell&#39;account del servizio Android Firebase Admin SDK è necessario per spostare l&#39;app mobile su HTTP v1. Scopri come ottenere questo file nella [documentazione di Google Firebase](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
-* Per Campaign Classic v7, il supporto di HTTP v1 è stato aggiunto nella versione 20.3.1. Se l&#39;ambiente è in esecuzione su una versione precedente, un prerequisito per la transizione a HTTP v1 è aggiornare l&#39;ambiente alla [build Campaign Classic più recente](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=it){target="_blank"}. Per Campaign v8, HTTP v1 è supportato da tutte le versioni e non è necessario alcun aggiornamento.
+* Per Campaign Classic v7, il supporto di HTTP v1 è stato aggiunto nella versione 20.3.1. Se l&#39;ambiente è in esecuzione su una versione precedente, un prerequisito per la transizione a HTTP v1 è aggiornare l&#39;ambiente alla [build Campaign Classic più recente](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. Per Campaign v8, HTTP v1 è supportato da tutte le versioni e non è necessario alcun aggiornamento.
 
 * In qualità di utente on-premise di Campaign Classic v7, devi aggiornare sia il server di esecuzione Marketing che il server di esecuzione in tempo reale.
 
-* Per le distribuzioni di Cloud Service ibridi, in hosting e gestiti, oltre alla procedura di transizione riportata di seguito, contatta l’Adobe per aggiornare il server di esecuzione in tempo reale (RT).
+* Per le distribuzioni di servizi cloud ibridi, in hosting e gestiti, oltre alla procedura di transizione descritta di seguito, contatta Adobe per aggiornare il server di esecuzione in tempo reale (RT).
 
 * Informazioni sull’account esterno di indirizzamento di Android:
 
-   * In qualità di utente on-premise o ibrido di Campaign Classic v7, verifica che l&#39;account esterno di indirizzamento di Android sia configurato con `androidPushConnectorV2.js`. Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/it/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}.
+   * In qualità di utente on-premise o ibrido di Campaign Classic v7, verifica che l&#39;account esterno di indirizzamento di Android sia configurato con `androidPushConnectorV2.js`. Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}.
 
-   * Per le distribuzioni di Cloud Service ibridi, in hosting e gestiti, è inoltre necessario connettersi con il team dell&#39;Assistenza clienti Adobe per verificare che il connettore `androidPushConnectorV2.js (nms)` sia selezionato nell&#39;account esterno di indirizzamento Android del server Mid sourcing.
+   * Per le distribuzioni di Cloud Services ibridi, in hosting e gestiti, è necessario connettersi anche con il team di Assistenza clienti di Adobe per verificare che il connettore `androidPushConnectorV2.js (nms)` sia selezionato nell&#39;account esterno di indirizzamento di Android del server di mid sourcing.
 
 #### Procedura di transizione {#fcm-transition-steps}
 
@@ -101,7 +101,7 @@ Al termine della transizione HTTP v1, devi aggiornare i **modelli di consegna** 
 
 Puoi anche aggiornare le consegne e i modelli di consegna esistenti creati prima dell’aggiornamento a una versione che supporta HTTP v1. Per eseguire questa operazione:
 
-* In qualità di cliente di Cloud Service gestiti o in hosting, contatta l’Adobe per aggiornare i modelli di consegna Android esistenti.
+* In qualità di cliente di Managed Cloud Services o Hosted, contatta Adobe per aggiornare i modelli di consegna esistenti di Android.
 
 * Per gli ambienti locali, scaricare lo script `fcm-httpv1-migration.js` ed eseguirlo come descritto di seguito.
 
@@ -156,7 +156,7 @@ Puoi anche aggiornare le consegne e i modelli di consegna esistenti creati prima
       nlserver javascript -instance:<instance_name> -file fcm-httpv1-migration.js -arg:run
       ```
 
-  +++
++++
 
 ### Qual è l’impatto sulle app Android? {#fcm-apps}
 
@@ -212,11 +212,11 @@ Per verificare se sei interessato, puoi filtrare i **Servizi e abbonamenti** in 
 
 #### Prerequisiti {#ios-transition-prerequisites}
 
-* Per Campaign Classic v7, il supporto della modalità di autenticazione **basata su token** è stato aggiunto nella versione 20.2. Se l&#39;ambiente è in esecuzione su una versione precedente, un prerequisito per questa modifica è aggiornare l&#39;ambiente alla [build Campaign Classic più recente](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=it){target="_blank"}. Per Campaign v8, la modalità **Autenticazione basata su token** è supportata da tutte le versioni e non è necessario alcun aggiornamento.
+* Per Campaign Classic v7, il supporto della modalità di autenticazione **basata su token** è stato aggiunto nella versione 20.2. Se l&#39;ambiente è in esecuzione su una versione precedente, un prerequisito per questa modifica è aggiornare l&#39;ambiente alla [build Campaign Classic più recente](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. Per Campaign v8, la modalità **Autenticazione basata su token** è supportata da tutte le versioni e non è necessario alcun aggiornamento.
 
-* Per generare i token utilizzati dal server è necessaria una chiave di firma del token di autenticazione APNs. Richiedi questa chiave al tuo account sviluppatore Apple, come descritto nella [documentazione per sviluppatori Apple](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
+* Per generare i token utilizzati dal server è necessaria una chiave di firma del token di autenticazione APNs. Richiedi questa chiave al tuo account sviluppatore Apple, come spiegato in [Documentazione per sviluppatori Apple](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
 
-* Per le distribuzioni ibride, in hosting e Managed Services, oltre alla procedura di transizione riportata di seguito, contatta l’Adobe per aggiornare il server di esecuzione in tempo reale (RT). Il server Mid-Sourcing non è interessato.
+* Per le distribuzioni ibride, in hosting e Managed Services, oltre alla procedura di transizione riportata di seguito, contatta Adobe per aggiornare il server di esecuzione in tempo reale (RT). Il server Mid-Sourcing non è interessato.
 
 * In qualità di utente on-premise di Campaign Classic v7, devi aggiornare sia il server di esecuzione Marketing che il server di esecuzione in tempo reale. Il server Mid-Sourcing non è interessato.
 

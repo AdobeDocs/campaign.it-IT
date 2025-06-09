@@ -80,7 +80,7 @@ Per creare un cubo, effettuare le seguenti operazioni:
 
 ### Definire le dimensioni {#define-dimensions}
 
-Una volta creato il cubo, definirne le dimensioni. I Dimension sono gli assi di analisi definiti per ciascun cubo in base al relativo schema fact. Queste sono le dimensioni analizzate nell’analisi, come il tempo (anno, mese, data), una classificazione di prodotti o contratti (famiglia, riferimento, ecc.), un segmento di popolazione (per città, fascia di età, stato, ecc.).
+Una volta creato il cubo, definirne le dimensioni. Le dimensioni sono gli assi di analisi definiti per ciascun cubo in base al relativo schema fact. Queste sono le dimensioni analizzate nell’analisi, come il tempo (anno, mese, data), una classificazione di prodotti o contratti (famiglia, riferimento, ecc.), un segmento di popolazione (per città, fascia di età, stato, ecc.).
 
 Per creare le quote, effettuate le seguenti operazioni:
 

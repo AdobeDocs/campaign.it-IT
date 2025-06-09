@@ -1,5 +1,5 @@
 ---
-title: Pubblica messaggi su X (Twitter) con Adobe Campaign
+title: Pubblicare messaggi su X (Twitter) con Adobe Campaign
 description: Scopri come utilizzare il modulo Adobe Campaign Social Marketing per pubblicare messaggi su X (precedentemente noto come Twitter) e inviare messaggi diretti ai tuoi follower
 role: User
 level: Beginner, Intermediate
@@ -7,14 +7,14 @@ exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
 source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
 workflow-type: tm+mt
 source-wordcount: '785'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
 
-# Pubblica messaggi su X (Twitter) con Adobe Campaign {#post-tw-messages}
+# Pubblicare messaggi su X (Twitter) con Adobe Campaign {#post-tw-messages}
 
-Adobe Campaign viene fornito con un modulo **Social Marketing** che ti consente di interagire con i tuoi clienti attuali e potenziali tramite X (precedentemente noto come Twitter).
+Adobe Campaign viene fornito con un modulo **Social Marketing** che consente di interagire con i clienti attuali e potenziali tramite X (precedentemente noto come Twitter).
 
 Una volta configurata l’integrazione, puoi:
 
@@ -149,7 +149,7 @@ Per inviare messaggi diretti ai tuoi follower, segui i passaggi seguenti:
 
 >[!CAUTION]
 >
->Non puoi inviare più di 250 messaggi diretti al giorno. Per evitare di superare questa soglia, è possibile effettuare la consegna in ondate. Per ulteriori informazioni, consulta la [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=it#sending-using-multiple-waves){target="_blank"}.
+>Non puoi inviare più di 250 messaggi diretti al giorno. Per evitare di superare questa soglia, è possibile effettuare la consegna in ondate. Per ulteriori informazioni, consulta la [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves){target="_blank"}.
 
 
 ## Accedere ai dati di tracciamento {#tw-tracking}
@@ -158,5 +158,5 @@ Nel modello di consegna **[!UICONTROL Tweet]** incorporato, il tracciamento è a
 
 I dati di tracciamento possono essere visualizzati nei report di consegna e nella scheda **[!UICONTROL Edit > Tracking]** della consegna e del servizio.
 
-La configurazione di tracciamento è la stessa di una consegna e-mail. Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=it){target="_blank"}.
+La configurazione di tracciamento è la stessa di una consegna e-mail. Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=it){target="_blank"}.
 

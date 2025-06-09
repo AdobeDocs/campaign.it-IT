@@ -71,7 +71,7 @@ Una volta eseguito il flusso di lavoro, la tabella di staging viene alimentata c
    </soapenv:Envelope>
    ```
 
-1. L’UUID viene rimandato alla risposta dell’SOAP:
+1. L’UUID viene rimandato alla risposta di SOAP:
 
    ```
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
@@ -191,7 +191,7 @@ Una volta eseguito il flusso di lavoro, la tabella di staging viene aggiornata c
    </soapenv:Envelope>
    ```
 
-1. La risposta dell’SOAP è:
+1. La risposta di SOAP è:
 
    ```
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
@@ -212,4 +212,4 @@ L&#39;inserimento dei dati di sottoscrizione e annullamento dell&#39;abbonamento
 
 **Argomenti correlati**
 
-* [JSAPI campagna](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=it){target="_blank"}
+* [JSAPI per Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target="_blank"}

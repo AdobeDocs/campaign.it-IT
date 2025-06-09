@@ -7,7 +7,7 @@ exl-id: 6e3409d8-86bd-44ba-a40d-10287f53a960
 source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '1750'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -49,9 +49,9 @@ Puoi configurare i valori visualizzati modificando la scala cronologica: visuali
 
 >[!NOTE]
 >
->Puoi anche monitorare il numero di consegne inviate all&#39;ora utilizzando [Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=it){target="_blank"}.
+>Puoi anche monitorare il numero di consegne inviate all&#39;ora utilizzando [Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html){target="_blank"}.
 >
->Il Pannello di controllo è accessibile a tutti gli utenti amministratori. I passaggi per concedere a un utente l&#39;accesso come amministratore sono descritti in [questa pagina](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=it#discover-control-panel){target="_blank"}.
+>Il Pannello di controllo è accessibile a tutti gli utenti amministratori. I passaggi per concedere a un utente l’accesso come amministratore sono descritti in[questa pagina](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=it#discover-control-panel){target="_blank"}.
 >
 
 ## Attività degli utenti {#user-activities}
@@ -66,7 +66,7 @@ Sono disponibili le seguenti opzioni:
 * **[!UICONTROL Transactions]**: Total number of transactions after a message is received. In order for a transaction to be taken into account, a transaction type webtracking tag must be inserted into the matching web page. Webtracking configuration is presented in [this section](../../configuration/using/about-web-tracking.md).
 -->
 
-## Messaggi non recapitabili e mancati recapiti {#non-deliverables-and-bounces}
+## Messaggi non recapitati e non consegnabili {#non-deliverables-and-bounces}
 
 Questo rapporto mostra il raggruppamento dei messaggi non recapitati e dei messaggi non recapitati per dominio Internet.
 

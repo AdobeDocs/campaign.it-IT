@@ -21,7 +21,7 @@ Scopri l&#39;architettura della messaggistica transazionale in [questa pagina](.
 
 >[!NOTE]
 >
->In qualità di utente di Cloud Service gestiti, [contatta l&#39;Adobe](../start/campaign-faq.md#support) per installare e configurare la messaggistica transazionale di Campaign nel tuo ambiente.
+>In qualità di utente di Managed Cloud Services, [contatta Adobe](../start/campaign-faq.md#support) per installare e configurare la messaggistica transazionale di Campaign nel tuo ambiente.
 
 ## Definire le autorizzazioni {#mc-permissions}
 

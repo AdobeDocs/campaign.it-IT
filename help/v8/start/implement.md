@@ -6,9 +6,9 @@ role: User
 level: Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ In questa sezione, scopri come adeguare Adobe Campaign ai requisiti della tua az
 
 >[!CAUTION]
 >
->Con **Campaign Managed Cloud Services**, l’ambiente e la configurazione iniziale sono impostati da Adobe in base ai termini del contratto di licenza. Non ti è consentito modificare i pacchetti installati incorporati, gli schemi o i rapporti integrati.
+>Con **Campaign Managed Cloud Services**, l’ambiente e la configurazione iniziale sono impostati da Adobe in base ai termini del contratto di licenza. Non è consentito modificare i pacchetti installati incorporati, gli schemi incorporati o i rapporti.
 >
 >Se hai la necessità di utilizzare un componente aggiuntivo di Campaign o una funzionalità specifica che non è stata fornita, devi contattare il **Transition Manager di Adobe**.
 
@@ -42,7 +42,7 @@ Adobe Campaign viene fornito con processi e impostazioni che ti consentono di ut
 
 * **Consenso utente e conservazione dei dati**: è necessario ottenere il consenso degli utenti, configurare i meccanismi di abbonamento a doppio consenso, facilitare la rinuncia e configurare la conservazione dei dati.
 
-  Ulteriori informazioni sono disponibili nella [documentazione sulla privacy di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=it#consent){target="_blank"}
+  Ulteriori informazioni nella [documentazione sulla privacy di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=it#consent){target="_blank"}
 
 * **Normative sulla privacy e la protezione dei dati**: fai riferimento a [questa sezione](privacy.md) per informazioni sui requisiti di privacy e su come questi regolamenti influiscono sulla tua organizzazione e su Adobe Campaign.
 
@@ -83,9 +83,9 @@ Prima di iniziare a inviare messaggi e creare campagne di marketing, devi:
    Campagne, consegne, lavori o flussi di lavoro si basano tutti su un modello, che memorizza le impostazioni e le funzionalità principali. Per ciascun componente viene fornito un modello incorporato per il quale non è stata definita alcuna configurazione specifica. Devi configurare e adattare i modelli alle tue esigenze e renderli disponibili per gli utenti finali.
 
 
-   Scopri come utilizzare i modelli di campagna in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=it){target="_blank"}.
+   Per scoprire come utilizzare i modelli di campagna, consulta [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=it){target="_blank"}.
 
-   Scopri come configurare un modello di flusso di lavoro in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=it){target="_blank"}.
+   Scopri come configurare un modello di workflow in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=it){target="_blank"}.
 
    Ulteriori informazioni sui modelli e-mail sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=it){target="_blank"}.
 
@@ -94,11 +94,11 @@ Prima di iniziare a inviare messaggi e creare campagne di marketing, devi:
 
    Utilizza le regole di tipologia di Campaign per filtrare, controllare e monitorare l’invio delle consegne. Ad esempio, le regole di affaticamento controllano la frequenza e la quantità di messaggi per evitare un’eccessiva sollecitazione dei destinatari. Una volta implementate, nelle consegne viene fatto riferimento alle regole di tipologia.
 
-   Ulteriori informazioni sulle tipologie e sulla gestione dell’eccesso sono disponibili in [questa sezione](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=it){target="_blank"}.
+   Per ulteriori informazioni sulle tipologie e sulla gestione dell’eccesso, consulta [questa sezione](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=it){target="_blank"}.
 
 1. **Acquisisci familiarità con il modello dati incorporato di Campaign**
 
-   Adobe Campaign viene fornito con un modello dati predefinito. Per implementare e personalizzare l’ambiente, è necessario avere familiarità con le tabelle integrate del modello dati di Adobe Campaign e con le rispettive relazioni.
+   Adobe Campaign viene fornito con un modello dati predefinito. Per implementare e personalizzare l’ambiente, è necessario avere familiarità con le tabelle incorporate del modello dati di Adobe Campaign e con le rispettive relazioni.
 
    [Ulteriori informazioni sul modello dati di Campaign](../dev/datamodel.md).
 
@@ -128,7 +128,7 @@ Puoi personalizzare diverse aree e funzionalità di Campaign. La maggior parte d
 
    Campaign fornisce una serie di rapporti incorporati sul monitoraggio della consegna, sugli URL e sui flussi di clic, sul tracciamento, sugli indicatori di recapito e altro ancora.
 
-   In aggiunta ai report incorporati, Adobe Campaign ti consente di generare report in vari contesti e di soddisfare esigenze diverse. I principi relativi alle modalità di utilizzo e di implementazione sono descritti nel presente documento.
+   In aggiunta ai rapporti incorporati, Adobe Campaign consente di generare rapporti in vari contesti e di soddisfare esigenze diverse. I principi relativi alle modalità di utilizzo e di implementazione sono descritti nel presente documento.
 
    Ulteriori informazioni sulle funzionalità di reporting in Campaign sono disponibili in [questa pagina](../reporting/gs-reporting.md).
 

@@ -20,9 +20,9 @@ Utilizza il connettore FDA (Federated Data Access) per collegare Campaign a uno 
 >
 >* I database compatibili per Federated Data Access sono elencati nella [Matrice di compatibilità](../start/compatibility-matrix.md).
 >
->* Nel contesto di una distribuzione [Enterprise (FFDA)](../architecture/enterprise-deployment.md), è disponibile un account esterno specifico per gestire la comunicazione tra il database locale di Campaign e il database cloud di Snowflake. Questo account esterno è configurato per te da Adobe e **non deve essere modificato**.
+>* Nel contesto di una distribuzione [Enterprise (FFDA)](../architecture/enterprise-deployment.md), è disponibile un account esterno specifico per gestire la comunicazione tra il database locale di Campaign e il database cloud di Snowflake. Questo account esterno è configurato per te da Adobe e **non deve** essere modificato.
 >
->* In qualità di utente di Managed Cloud Service, [contatta l&#39;Adobe](../start/campaign-faq.md#support) per collegare i database esterni con Campaign.
+>* In qualità di utente di Managed Cloud Services, [contatta Adobe](../start/campaign-faq.md#support) per collegare i tuoi database esterni con Campaign.
 
 
 ## Best practice e limitazioni

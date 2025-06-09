@@ -8,7 +8,7 @@ exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '1028'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -72,7 +72,7 @@ Adobe Campaign v8 è disponibile come Cloud Services gestito, fornisce supervisi
 
 L’approccio Managed Services consente ai marketer di trarre vantaggio dalla scala operativa e dalle economie dell’infrastruttura cloud, senza la necessità di ricorrere a ingenti risorse IT interne. I team di consulenza e implementazione di Adobe collaborano con la clientela per valutare i piani di marketing, le pratiche esistenti, i requisiti di dati e il volume di messaggi, quindi consigliano i pacchetti di assistenza, supporto e recapito messaggi più appropriati. Il team Adobe Campaign Managed Cloud Services può quindi monitorare e creare rapporti su prestazioni della campagna, reputazione del brand, metriche sulla customer experience e altro ancora.
 
-[!BADGE PDF]{type=Informative}Per ulteriori informazioni sul valore aziendale di Adobe Campaign Managed Cloud Services, [leggi questo white paper](assets/do-not-localize/IDC-Report-BusinessValueOfAdobeCampaign.pdf){target="_blank"}.
+[!BADGE PDF]{type=Informative} [Consulta questo white paper](assets/do-not-localize/IDC-Report-BusinessValueOfAdobeCampaign.pdf){target="_blank"} per ulteriori informazioni sul valore aziendale di Adobe Campaign Managed Cloud Services.
 
 La nuova architettura cloud consente a Campaign di semplificare i processi, ridurre i costi, gestire i rischi e migliorare la sicurezza dei dati. Il tuo ambiente Campaign v8 è dotato di un Virtual Private Cloud (VPC) dedicato e preconfigurato.
 
@@ -105,6 +105,6 @@ Grazie a un’interfaccia utente intuitiva, gli amministratori possono monitorar
 
 ![](assets/subdomain1.png)
 
-[Ulteriori informazioni sul Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=it){target="_blank"}
+[Ulteriori informazioni sul Pannello di controllo Campaign di campagne](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=it){target="_blank"}
 
 

@@ -18,9 +18,9 @@ ht-degree: 0%
 
 La messaggistica transazionale si basa sul modello dati di Adobe Campaign e utilizza due tabelle separate aggiuntive. Queste tabelle, **NmsRtEvent** e **NmsBatchEvent**, contengono gli stessi campi e consentono di gestire eventi in tempo reale da un lato e eventi batch dall&#39;altro.
 
-## Metodi SOAP {#soap-methods}
+## metodi SOAP {#soap-methods}
 
-Questa sezione descrive i metodi SOAP associati agli schemi del modulo dei messaggi transazionali.
+Questa sezione descrive i metodi di SOAP associati agli schemi dei moduli per messaggi transazionali.
 
 Due metodi SOAP **PushEvent** o **PushEvents** sono collegati ai due dataschemi **nms:rtEvent** e **nms:BatchEvent**. È il sistema informativo che determina se un evento è di tipo &quot;batch&quot; o &quot;tempo reale&quot;.
 

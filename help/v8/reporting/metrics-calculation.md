@@ -48,7 +48,7 @@ ht-degree: 3%
 
 Questo report è basato sulla tabella **[!UICONTROL Consolidated tracking]** (nms:trackingStats). Questa tabella aggregata viene utilizzata per motivi di prestazioni durante la visualizzazione dei report al posto della tabella **[!UICONTROL Recipient tracking logs]** (nms:trackingLogRcp) e non viene calcolata in tempo reale. La tabella viene generata pochi minuti dopo il recupero dei registri di tracciamento. Se gli indicatori sono aggiornati, i risultati saranno gli stessi degli indicatori del report **Tracking indicators**. L’indicatore @totalclicks esprime il numero totale di clic in un periodo di 5 minuti.
 
-## Messaggi non recapitabili e mancati recapiti {#non-deliverables-and-bounces-1}
+## Messaggi non recapitati e non consegnabili {#non-deliverables-and-bounces-1}
 
 **Raggruppamento per tipo di errore**
 
@@ -236,7 +236,7 @@ Questo report è basato sulle tabelle **[!UICONTROL Delivery]** (nms:delivery), 
   <tr> 
    <td> Facebook<br /> </td> 
    <td> @facebook<br /> </td> 
-   <td> Somma di tutte le @totalClicks per le quali la categoria URL è uguale a "facebook".<br /> </td> 
+   <td> Somma di tutti i @totalClicks per i quali la categoria URL è uguale a "facebook".<br /> </td> 
    <td> Sum(iIf([url/@category]='facebook',@totalClicks,0))<br /> </td> 
   </tr> 
   <tr> 
@@ -368,7 +368,7 @@ Questo report è basato sulle tabelle **[!UICONTROL Delivery]** (nms:delivery), 
    <td> Condivisioni<br /> </td> 
    <td> @shared<br /> </td> 
    <td> Categoria URL inclusa in 'email' , 'facebook' , 'twitter' , 'delizioso' , 'digg' , 'google' , 'linkedin'<br /> Numero di tutti i @totalClicks con una categoria URL uguale a "email", "facebook", "twitter", "delizioso", "digg", "google" o "linkedin".<br /> </td> 
-   <td> count (Iif([url/@category] IN (e-mail' , "facebook" , "twitter" , "delizioso" , "digg" , "google" , "linkedin"), @totalClicks, 0))<br /> </td> 
+   <td> count (Iif([url/@category] IN (email' , 'facebook' , 'twitter' , 'delizioso' , 'digg' , 'google' , 'linkedin'), @totalClicks, 0))<br /> </td> 
   </tr> 
  </tbody> 
 </table>

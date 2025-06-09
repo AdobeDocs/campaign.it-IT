@@ -12,7 +12,7 @@ ht-degree: 56%
 
 ---
 
-# Note sulla versione 2023 {#2023-rn}
+# Note sulle versioni 2023 {#2023-rn}
 
 In questa pagina sono elencate nuove funzionalità, miglioramenti e correzioni introdotti con le versioni di **2023 Campaign v8**.
 
@@ -60,7 +60,7 @@ Per ulteriori informazioni, consulta la [documentazione dettagliata](../send/pus
 <ul>
 <li>Throughput SMS: fino a <strong>5x</strong> più veloce</li>
 </ul>
-<p><em>Queste prestazioni di throughput massime sono state misurate da team di test Adobe, in condizioni di laboratorio.</em></p>
+<p><em>Queste prestazioni di throughput massime sono state misurate dai team di test di Adobe, in condizioni di laboratorio.</em></p>
 </div>
 <p></p>
 </td>
@@ -82,7 +82,7 @@ Per ulteriori informazioni, consulta la [documentazione dettagliata](../send/pus
 **Aggiornamenti della compatibilità**
 
 * La versione a 32 bit della console client è ora obsoleta. A partire dalla versione 8.6, la console client sarà disponibile solo a 64 bit. L’aggiornamento alla versione a 64 bit della console client è semplice. Per ulteriori informazioni su come aggiornare il sistema operativo, consulta questa [nota tecnica](../../technotes/upgrades/console.md).
-* Ora puoi collegare la tua istanza di Campaign v8 al database esterno della tua Azure synapse. Questa connessione viene gestita tramite un nuovo account esterno. Ulteriori informazioni nella [Matrice di compatibilità di Campaign](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda).
+* Ora puoi collegare la tua istanza di Campaign v8 al database esterno di Azure Synapse. Questa connessione viene gestita tramite un nuovo account esterno. Ulteriori informazioni nella [Matrice di compatibilità di Campaign](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda).
 
 
 **Correzioni**

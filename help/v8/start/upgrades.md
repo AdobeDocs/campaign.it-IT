@@ -16,7 +16,7 @@ ht-degree: 21%
 
 Adobe Campaign viene aggiornato regolarmente. La frequenza regolare degli aggiornamenti è volta a far ottenere agli utenti il prodotto migliore e più recente, mantenendo l’ambiente sicuro e migliorando l’esperienza di utilizzo. Adobe consiglia vivamente a tutta la clientela di effettuare l’aggiornamento alla versione più recente.
 
-In qualità di utente di Managed Cloud Services, la tua istanza viene aggiornata da Adobe con ogni nuova versione. Il tuo rappresentante di Adobe ti contatta per aggiornare i tuoi ambienti. La console client di Campaign **deve essere aggiornata alla stessa versione** come i server di Campaign. Scopri come aggiornare la console client in questa [pagina](../start/connect.md#upgrade-ac-console).
+In qualità di utente di Managed Cloud Services, la tua istanza viene aggiornata da Adobe con ogni nuova versione. Il tuo rappresentante Adobe ti contatta per aggiornare i tuoi ambienti. La console client di Campaign **deve essere aggiornata alla stessa versione** come i server di Campaign. Scopri come aggiornare la console client in questa [pagina](../start/connect.md#upgrade-ac-console).
 
 Inoltre, in qualità di cliente, assicurati di utilizzare la versione supportata più recente dei sistemi elencati nella [Matrice di compatibilità](compatibility-matrix.md).
 
@@ -58,9 +58,9 @@ Accedi alle seguenti informazioni:
 
 ### Come posso essere informato del rilascio di una nuova versione? {#upgrades-0}
 
-Le nuove versioni e le modifiche apportate sono elencate nelle [Note sulla versione](release-notes.md). Quando è disponibile una nuova versione, il rappresentante dell’Adobe ti contatta e aggiorna gli ambienti.
+Le nuove versioni e le modifiche apportate sono elencate nelle [Note sulla versione](release-notes.md). Quando è disponibile una nuova versione, il rappresentante Adobe ti contatta e aggiorna gli ambienti.
 
-Per ricevere informazioni sulle nuove versioni di Experience Cloud Solution e sui relativi contenuti, abbonati alla comunicazione [Aggiornamenti dei prodotti priority Adobe](https://www.adobe.com/it/subscription/priority-product-update.html){target="_blank"}.
+Per ricevere informazioni sulle nuove versioni della soluzione Experience Cloud e sui relativi contenuti, abbonati alla comunicazione [Aggiornamenti dei prodotti priority Adobe](https://www.adobe.com/it/subscription/priority-product-update.html){target="_blank"}.
 
 Puoi anche visitare la [Community di Campaign](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&amp;sort=date&amp;order=desc&amp;filters=adobe-campaign-classic-community&amp;topic=Campaign+v8){target="_blank"} per ricevere informazioni sugli aggiornamenti delle versioni.
 
@@ -87,6 +87,6 @@ In genere, l’aggiornamento alla versione più recente comporta:
 
 ### Qual è il processo e la tempistica per un aggiornamento? {#upgrades-2}
 
-Adobe In qualità di cliente v8, se il tuo account necessita l’aggiornamento a una nuova versione ne riceve notifica direttamente.
+In qualità di cliente v8, se il tuo account necessita l’aggiornamento a una nuova versione ne viene informato direttamente da Adobe.
 
-Il team di Adobe guiderà la tua organizzazione attraverso questo percorso. Qui trovi un team di responsabili dell’Assistenza clienti, Product Manager, tecnici, specialisti TechOps e consulenti di prodotto che potrà assisterti e garantire un’esperienza fluida.
+Il team Adobe guiderà la tua organizzazione attraverso questo percorso. Qui trovi un team di responsabili dell’Assistenza clienti, Product Manager, tecnici, specialisti TechOps e consulenti di prodotto che potrà assisterti e garantire un’esperienza fluida.

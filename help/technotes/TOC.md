@@ -8,7 +8,7 @@ breadcrumb-title: Note tecniche sulla campagna
 source-git-commit: 0fa6767f042eb595b1697d086e5c5cd5fc42625e
 workflow-type: tm+mt
 source-wordcount: '68'
-ht-degree: 23%
+ht-degree: 26%
 
 ---
 
@@ -27,6 +27,6 @@ ht-degree: 23%
    + [Browser Internet](upgrades/browsers.md)
    + [Aggiornamenti del sistema 2023](upgrades/tech-stack-upgrade.md)
    + [deprecazione a 32 bit della console client](upgrades/console.md)
-   + Protezione {#security}
+   + Sicurezza {#security}
       + [Rotazione delle credenziali del cliente](security/credential-rotation-guide.md)
 + [&lt; Torna alla documentazione di Campaign v8](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/campaign-home)

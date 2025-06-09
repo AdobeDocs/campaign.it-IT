@@ -26,9 +26,9 @@ Campaign v8 Enterprise (FFDA) offre una scalabilità end-to-end in qualsiasi fas
 
 Questo è un cambiamento fondamentale nell’architettura del software. Adesso i dati sono remoti e Campaign unisce tutti i dati, inclusi i profili. I processi di [!DNL Campaign] ora vengono scalati in modalità end-to-end, dal targeting all’esecuzione dei messaggi: in genere l’acquisizione dei dati, la segmentazione, il targeting, le query e le consegne vengono eseguite in pochi minuti. Questa nuova versione risolve l’intera sfida della scalabilità mantenendo lo stesso livello di flessibilità ed estensibilità. Il numero di profili è quasi illimitato e la conservazione dei dati può essere estesa.
 
-L’archiviazione cloud viene eseguita in **[!DNL Snowflake]**: un nuovo **account esterno** integrato garantisce la connettività con il database cloud. È configurato da Adobe e non deve essere modificato. [Ulteriori informazioni](../config/external-accounts.md)
+L’archiviazione cloud viene eseguita in **[!DNL Snowflake]**: un nuovo **account esterno** incorporato garantisce la connettività con il database cloud. È configurato da Adobe e non deve essere modificato. [Ulteriori informazioni](../config/external-accounts.md)
 
-Le tabelle o gli schemi integrati che devono essere spostati o replicati nel database cloud hanno un’estensione di schema integrato nello spazio dei nomi **xxl**. Tali estensioni contengono eventuali modifiche necessarie per spostare gli schemi integrati dal database locale di [!DNL Campaign] al database cloud [!DNL Snowflake] e per adattarne di conseguenza la struttura: nuovo UUID, collegamenti aggiornati, ecc.
+Le tabelle o gli schemi incorporati che devono essere spostati o replicati nel database cloud hanno un’estensione di schema incorporato nello spazio dei nomi **xxl**. Tali estensioni contengono eventuali modifiche necessarie per spostare gli schemi incorporati dal database locale di [!DNL Campaign] al database cloud [!DNL Snowflake] e per adattarne di conseguenza la struttura: nuovo UUID, collegamenti aggiornati, ecc.
 
 >[!CAUTION]
 >
@@ -66,7 +66,7 @@ Il database PostgreSQL nell’istanza di marketing viene utilizzato per:
 * Memorizza tutte le tabelle di riferimento incorporate (enumerazioni, paesi, ecc.) replicate in [!DNL Snowflake].
 
   Tuttavia, non è possibile:
-   * creare personalizzazioni per i dati dei clienti, ad esempio non creare una tabella domestica in PostgreSQL, ma solo nel Snowflake
+   * creare personalizzazioni per i dati dei clienti, ad esempio non creare una tabella domestica in PostgreSQL, ma solo in Snowflake
    * archivia eventuali registri di consegna, registri di tracciamento, ecc. sulla dimensione di targeting FFDA.
    * archiviare grandi volumi di dati.
 
@@ -93,12 +93,12 @@ Sono disponibili nuove API per gestire la sincronizzazione dei dati tra il datab
 
 ### Replica dei dati{#data-replication}
 
-Un flusso di lavoro tecnico specifico gestisce la replica delle tabelle che devono essere presenti su entrambi i lati (database Cloud e database locale di Campaign). Questo flusso di lavoro viene attivato ogni ora e si basa su una nuova libreria JavaScript integrata.
+Un flusso di lavoro tecnico specifico gestisce la replica delle tabelle che devono essere presenti su entrambi i lati (database Cloud e database locale di Campaign). Questo flusso di lavoro viene attivato ogni ora e si basa su una nuova libreria JavaScript incorporata.
 
 >[!NOTE]
 >
 > Sono stati creati diversi criteri di replica in base alle dimensioni della tabella (XS, XL, eccetera).
-> Alcune tabelle vengono replicate in tempo reale, altre vengono replicate su base oraria. Alcune tabelle avranno aggiornamenti incrementali, altre avranno un aggiornamento completo.
+> > Alcune tabelle vengono replicate in tempo reale, altre vengono replicate su base oraria. Alcune tabelle avranno aggiornamenti incrementali, altre avranno un aggiornamento completo.
 >
 
 [Ulteriori informazioni sulla replica dei dati](replication.md)
@@ -111,7 +111,7 @@ Tieni presente che questo ID è basato su stringhe e non è sequenziale. La chia
 
 In Campaign Classic v7 e versioni precedenti, l’unicità di una chiave all’interno di uno schema (ovvero una tabella) viene gestita a livello di motore del database. Più in generale, i motori di database classici come PostgreSQL, Oracle o SQL Server includono un meccanismo nativo per impedire l’inserimento di righe duplicate basate su una colonna o su un set di colonne attraverso l’uso di chiavi primarie e/o indici univoci. Quando l’indice e le chiavi primarie sono impostati correttamente a livello di database, l’ID duplicato non esiste in queste versioni.
 
-Adobe Campaign v8 viene fornito con Snowflake come database di base. Poiché aumenta notevolmente la scalabilità delle query, l’architettura distribuita del database Snowflake non fornisce i meccanismi che consentono di gestire e dunque applicare l’unicità di una chiave all’interno di una tabella. Di conseguenza, in Adobe Campaign v8, è possibile effettuare l’inserimento di chiavi duplicate all’interno di una tabella. Gli utenti finali sono ora responsabili di garantire la coerenza delle chiavi all’interno del database di Adobe Campaign. [Ulteriori informazioni](keys.md)
+Adobe Campaign v8 viene fornito con Snowflake come database di base. Poiché aumenta notevolmente la scalabilità delle query, l’architettura distribuita del database Snowflake non fornisce i meccanismi che consentono di gestire e dunque applicare l’unicità di una chiave all’interno di una tabella. Di conseguenza, in Adobe Campaign v8, è possibile effettuare l’acquisizione di chiavi duplicate all’interno di una tabella. Gli utenti finali sono ora responsabili di garantire la coerenza delle chiavi all’interno del database di Adobe Campaign. [Ulteriori informazioni](keys.md)
 
 ### Disponibilità delle funzioni {#feature-availability}
 

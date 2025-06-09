@@ -49,9 +49,9 @@ Questo passaggio sarà trasparente per i clienti:
 
 * **Perché si tratta di un aggiornamento obbligatorio?**
 
-  Adobe pianifica di smantellare il datacenter legacy; le istanze Adobe Campaign in esecuzione in tale data center devono essere trasferite al nuovo datacenter di riferimento, Amazon Web Services (AWS).
+  Adobe prevede di rimuovere i data center legacy e le istanze Adobe Campaign in esecuzione in tale data center devono essere trasferite al nuovo data center di riferimento, Amazon Web Services (AWS).
 
-  Il cloud Managed Services di Adobe è ospitato su Amazon Web Services (AWS), un ambiente moderno, sicuro e ottimizzato. [Ulteriori informazioni su Amazon Web Services](https://aws.amazon.com/application-hosting/benefits/){target="_blank"}.
+  Il cloud Adobe Managed Services è ospitato su Amazon Web Services (AWS), un ambiente moderno, sicuro e ottimizzato. [Ulteriori informazioni su Amazon Web Services](https://aws.amazon.com/application-hosting/benefits/){target="_blank"}.
 
 * **Quali clienti sono destinatari di questa migrazione?**
 
@@ -67,11 +67,11 @@ Questo passaggio sarà trasparente per i clienti:
 
 * **Quali convalide devono essere eseguite dai clienti?**
 
-  Per questa migrazione non è necessario alcun test specifico. In caso di problemi, contatta l&#39;[Assistenza clienti Adobe](https://experienceleague.adobe.com/it?support-solution=Campaign#support){target="_blank"}.
+  Per questa migrazione non è necessario alcun test specifico. In caso di problemi, contatta l&#39;[Assistenza clienti Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
 
 
 * **Posso richiedere una modifica di data/ora nello slot di aggiornamento della sicurezza pianificato?**
 
   Poiché si tratta di una migrazione obbligatoria, non possiamo accettare modifiche alla pianificazione esistente.
 
-Per qualsiasi altra domanda, puoi contattare [l&#39;Assistenza clienti Adobe](https://experienceleague.adobe.com/it?support-solution=Campaign#support){target="_blank"}.
+Per qualsiasi altra domanda, puoi contattare l&#39;[Assistenza clienti Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.

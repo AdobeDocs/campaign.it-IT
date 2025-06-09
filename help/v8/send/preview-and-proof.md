@@ -8,7 +8,7 @@ exl-id: 5b9fa90c-c23e-47a7-b2ca-de75da4da2ab
 source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
 workflow-type: tm+mt
 source-wordcount: '703'
-ht-degree: 3%
+ht-degree: 16%
 
 ---
 
@@ -35,9 +35,9 @@ Per visualizzare in anteprima il contenuto del messaggio, segui i passaggi segue
 
 ## Inviare bozze {#send-proofs}
 
-Per le consegne e-mail, puoi inviare bozze per convalidare il contenuto del messaggio. L’invio di bozze ti consente di controllare il collegamento di rinuncia, la pagina speculare e tutti gli altri collegamenti, convalidare il messaggio, verificare che siano visualizzate le immagini, rilevare eventuali errori, ecc. Puoi anche controllare la progettazione e il rendering su dispositivi diversi.
+Per le consegne e-mail, puoi inviare bozze per convalidare il contenuto del messaggio. L’invio di bozze consente di controllare il collegamento di rinuncia, la mirror page e tutti gli altri collegamenti, convalidare il messaggio, verificare che siano visualizzate le immagini, rilevare eventuali errori, ecc. È possibile anche controllare la progettazione e il rendering su dispositivi diversi.
 
-Una bozza è un messaggio specifico che ti consente di testare un messaggio prima di inviarlo al pubblico principale. I destinatari della bozza hanno il compito di approvare il messaggio: rendering, contenuto, impostazioni di personalizzazione, configurazione.
+Una bozza è un messaggio specifico che consente di testare un messaggio prima che venga inviato al pubblico principale. I destinatari della bozza hanno il compito di approvare il messaggio: rendering, contenuto, impostazioni di personalizzazione, configurazione.
 
 ### Destinatari bozza {#proofs-recipients}
 
@@ -105,4 +105,4 @@ Per impostazione predefinita, i messaggi di bozza sono identificati dalla menzio
 
 Scopri come inviare e convalidare una bozza per una consegna e-mail.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447007?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/333404)

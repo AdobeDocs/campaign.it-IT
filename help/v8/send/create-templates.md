@@ -98,7 +98,7 @@ Per configurare un modello di consegna da zero, segui la procedura seguente:
 1. Dal pulsante **Proprietà**, adatta le impostazioni.
 1. Nella scheda **Generale**, confermare o modificare i percorsi selezionati nei menu a discesa **Cartella di esecuzione**, **Cartella** e **Indirizzamento**.
 1. Completa la categoria **Parametri e-mail** con l&#39;oggetto dell&#39;e-mail e la popolazione di destinazione.
-1. Aggiungi il tuo contenuto di **HTML** per personalizzare il modello. Puoi visualizzare un [collegamento a una pagina speculare](../send/mirror-page.md) e un collegamento per annullare l&#39;iscrizione.
+1. Aggiungi il tuo **contenuto HTML** per personalizzare il modello. Puoi visualizzare un [collegamento a una pagina speculare](../send/mirror-page.md) e un collegamento per annullare l&#39;abbonamento.
 1. Selezionare la scheda **Anteprima**. Nel menu a discesa **Prova personalizzazione**, seleziona **Destinatario** per visualizzare in anteprima il modello come profilo scelto.
 1. Fai clic su **Salva**. Il modello è ora pronto per essere utilizzato in una consegna.
 
@@ -121,7 +121,7 @@ Selezionare il modello di consegna da utilizzare e fare clic su **[!UICONTROL Ok
 
 ### Eseguire un modello {#execute-a-template}
 
-Puoi avviare l’esecuzione di un modello direttamente dall’elenco dei modelli senza prima creare una consegna. Il modello di consegna può essere eseguito manualmente, come descritto di seguito, o attivato da un evento (eseguito in un determinato momento, quando un file è disponibile nel server, ecc.), come spiegato in [questa sezione](https://experienceleague.adobe.com/it/docs/campaign/automation/workflows/wf-activities/action-activities/delivery).
+Puoi avviare l’esecuzione di un modello direttamente dall’elenco dei modelli senza prima creare una consegna. Il modello di consegna può essere eseguito manualmente, come descritto di seguito, o attivato da un evento (eseguito in un determinato momento, quando un file è disponibile nel server, ecc.), come spiegato in [questa sezione](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/delivery).
 
 Per eseguire manualmente un modello, effettua le seguenti operazioni:
 
@@ -141,18 +141,18 @@ Questa azione genera una consegna nella cartella associata al modello. Il nome d
 
 Il video seguente illustra come configurare un modello per una consegna ad hoc.
 
->[!VIDEO](https://video.tv.adobe.com/v/3409246?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/342082?quality=12)
 
 ### Impostare le proprietà dei modelli di consegna
 
 Il video seguente mostra come impostare le proprietà del modello di consegna e spiega in dettaglio ciascuna proprietà.
 
->[!VIDEO](https://video.tv.adobe.com/v/3443409?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/338969?quality=12)
 
 ### Come distribuire un modello di consegna ad hoc
 
 Questo video spiega come distribuire un modello di consegna e-mail ad hoc e la differenza tra una consegna e-mail e un flusso di lavoro di consegna.
 
->[!VIDEO](https://video.tv.adobe.com/v/3444965?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/338965?quality=12)
 
-Ulteriori video dimostrativi di Campaign sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=it){target="_blank"}.
+Ulteriori video dimostrativi di Campaign sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.

@@ -42,7 +42,7 @@ Adobe Campaign gestisce la quarantena in base al tipo di consegna non riuscita e
 Nell&#39;elenco degli indirizzi messi in quarantena, il campo **[!UICONTROL Error reason]** indica il motivo per cui l&#39;indirizzo selezionato è stato messo in quarantena. [Ulteriori informazioni](#identifying-quarantined-addresses-for-the-entire-platform).
 
 
-Se un utente qualifica un’e-mail come spam, il messaggio viene automaticamente reindirizzato verso una casella di posta tecnica gestita da Adobe. L’indirizzo e-mail dell’utente viene quindi messo automaticamente in quarantena con lo stato **[!UICONTROL Denylisted]**. Questo stato si riferisce solo all’indirizzo, il profilo non è nel inserisco nell&#39;elenco Bloccati di, in modo che l’utente continui a ricevere messaggi SMS e notifiche push. Ulteriori informazioni sui cicli di feedback sono disponibili nella [Guida alle best practice per le consegne](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=it#feedback-loops){target="_blank"}.
+Se un utente qualifica un’e-mail come spam, il messaggio viene automaticamente reindirizzato verso una casella di posta tecnica gestita da Adobe. L’indirizzo e-mail dell’utente viene quindi messo automaticamente in quarantena con lo stato **[!UICONTROL Denylisted]**. Questo stato si riferisce solo all’indirizzo, il profilo non è nel inserisco nell&#39;elenco Bloccati di, in modo che l’utente continui a ricevere messaggi SMS e notifiche push. Ulteriori informazioni sui cicli di feedback sono disponibili nella [Guida alle best practice per le consegne](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target="_blank"}.
 
 >[!NOTE]
 >
@@ -73,11 +73,11 @@ Per visualizzare l&#39;elenco degli indirizzi messi in quarantena **per l&#39;in
 >
 >Fine anno 1: (1&#42;0,33)/(1+0,5)=22%.
 >
->Fine anno 2: ((1,22&#42;0,33)+0,33)/(1,5+0,75)=32,5%.
+Fine anno 2: ((1,22&#42;0,33)+0,33)/(1,5+0,75)=32,5%.
 
 Inoltre, il report integrato **[!UICONTROL Non-deliverables and bounces]**, disponibile nella sezione **Reports** di questa home page, visualizza informazioni sugli indirizzi messi in quarantena, sui tipi di errore riscontrati e un raggruppamento di errori per dominio. Puoi filtrare i dati per una consegna specifica o personalizzare questo rapporto in base alle esigenze.
 
-Ulteriori informazioni sugli indirizzi non recapitati nella [Guida alle best practice per il recapito messaggi](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=it){target="_blank"}.
+Ulteriori informazioni sugli indirizzi non recapitati nella [Guida alle best practice per il recapito messaggi](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html){target="_blank"}.
 
 ### Indirizzo e-mail in quarantena {#quarantined-recipient}
 
@@ -104,7 +104,7 @@ Il loro stato diventa quindi **[!UICONTROL Valid]**.
 
 >[!CAUTION]
 >
->I destinatari con un indirizzo nello stato **[!UICONTROL Quarantine]** o **[!UICONTROL Denylisted]** non verranno mai rimossi, anche se ricevono un&#39;e-mail.
+I destinatari con un indirizzo nello stato **[!UICONTROL Quarantine]** o **[!UICONTROL Denylisted]** non verranno mai rimossi, anche se ricevono un&#39;e-mail.
 
 È inoltre possibile rimuovere manualmente un indirizzo dall’elenco di quarantena. Per rimuovere un indirizzo dalla quarantena, è possibile:
 

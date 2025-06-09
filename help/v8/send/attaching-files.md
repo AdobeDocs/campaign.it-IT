@@ -5,7 +5,8 @@ description: Allegare file
 feature: Email
 role: User
 version: Campaign v8, Campaign Classic v7
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+exl-id: 27d13642-2971-466b-818d-39328c198b14
+source-git-commit: 3d562aab2f19b84aad8b484768bf19648145feb3
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 1%
@@ -20,7 +21,7 @@ Puoi allegare uno o più file a una consegna e-mail.
 
 >[!NOTE]
 >
->Per evitare problemi di prestazioni, si consiglia di non includere più di un allegato per e-mail. La soglia consigliata può essere configurata dall’elenco delle opzioni di Campaign. Consulta la [documentazione di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=it#delivery).
+>Per evitare problemi di prestazioni, si consiglia di non includere più di un allegato per e-mail. La soglia consigliata può essere configurata dall’elenco delle opzioni di Campaign. Consulta la [documentazione di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#delivery).
 
 Esistono due casi possibili:
 
@@ -37,7 +38,7 @@ Per evitare problemi di prestazioni, le immagini incluse nelle e-mail non posson
 
 Adobe consiglia inoltre di limitare le dimensioni e il numero di file allegati. Per impostazione predefinita, è possibile aggiungere un solo file come allegato a un messaggio e-mail. Questa soglia può essere configurata dall&#39;opzione `NmsDelivery_MaxRecommendedAttachments`.
 
-Ulteriori informazioni sono disponibili nell&#39;elenco delle opzioni di Campaign nella [documentazione di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=it#delivery).
+Ulteriori informazioni sono disponibili nell&#39;elenco delle opzioni di Campaign nella [documentazione di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#delivery).
 
 ## Allega un file locale {#attaching-a-local-file}
 

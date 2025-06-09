@@ -8,7 +8,7 @@ exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
 source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,7 @@ Vantaggi principali:
 
 Puoi anche utilizzare il Pannello di controllo Campaign per configurare le impostazioni delle istanze, ad esempio l’elenco Consentiti IP, le autorizzazioni URL e recuperare informazioni sull’istanza.
 
-Ulteriori informazioni sono disponibili nella [documentazione del Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it){target="_blank"}.
+Ulteriori informazioni sono disponibili nella [documentazione del Pannello di controllo Campaign di campagne](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it){target="_blank"}.
 
 ## Come accedere al Pannello di controllo? {#ac-control-panel-access}
 
@@ -32,7 +32,7 @@ Il Pannello di controllo è disponibile direttamente da Adobe Experience Cloud. 
 
 ## Domande frequenti sul Pannello di controllo {#ac-control-faq}
 
-Per accedere alle domande frequenti sul Pannello di controllo Campaign [Fai clic qui](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=it#control-panel){target="_blank"}.
+[Fai clic qui ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=it#control-panel){target="_blank"} per accedere alle domande frequenti sul Pannello di controllo Campaign.
 
 ## Gestione SFTP {#ac-control-sftp}
 

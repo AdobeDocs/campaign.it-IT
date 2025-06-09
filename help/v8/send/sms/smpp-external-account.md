@@ -8,7 +8,7 @@ exl-id: 1f941b35-c7e0-4e8c-b6e5-a1a3e5354483
 source-git-commit: 3ac2976839f084761ba56647b282062d8d457ff2
 workflow-type: tm+mt
 source-wordcount: '3650'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -26,7 +26,7 @@ Il connettore SMS in Adobe Campaign offre molte opzioni per adattarne il comport
 
 L’apparecchiatura di rete sul lato del fornitore di servizi SMS è spesso denominata SMSC.
 
-## Impostazioni di connessione {#smpp-connection-settings}
+## Impostazioni della connessione {#smpp-connection-settings}
 
 ![](assets/smpp_connection_settings.png){zoomable="yes"}
 
@@ -67,7 +67,7 @@ Queste impostazioni si applicano al ricevitore in modalità trasmettitore+ricevi
 * **Abilita tracce SMPP dettagliate nel file di registro**
 Quando questa opzione è attivata, i registri aggiuntivi verranno inviati al file di registro. Questa funzione è molto utile per la risoluzione dei problemi, ma deve essere mantenuta disabilitata nelle istanze con throughput elevato se non è richiesta alcuna risoluzione dei problemi.
 
-## Impostazioni del canale SMPP {#smpp-channel-settings}
+## Impostazioni canale SMPP {#smpp-channel-settings}
 
 ![](assets/smpp_channel_settings.png){zoomable="yes"}
 
@@ -81,7 +81,7 @@ Se questa casella è selezionata, la codifica del testo tenterà di convertire l
 
 Per una spiegazione più generale del processo di codifica, vedere [Definire una mappatura specifica delle impostazioni di codifica](#mapping-encodings).
 
-### Numero sorgente
+### Numero di origine
 
 Definisce l&#39;indirizzo di origine predefinito per i messaggi. Questa impostazione si applica solo se il numero di origine è stato lasciato vuoto nella consegna. Per impostazione predefinita, il campo del numero di origine non viene passato, pertanto il provider lo sostituirà con il codice breve.
 
@@ -141,7 +141,7 @@ Quando la connessione TCP viene persa, il connettore attenderà questo numero di
 
 Timeout tra SUBMIT_SM e il corrispondente SUBMIT_SM_RESP. Se il RESP non viene ricevuto in tempo, il messaggio verrà considerato come non riuscito e verranno applicati i criteri globali per i nuovi tentativi dell’MTA.
 
-### Associa timeout
+### Timeout di associazione
 
 Timeout tra il tentativo di connessione TCP e la risposta BIND_*_RESP. Quando si verifica un timeout, la connessione viene chiusa dal connettore Campaign e si attende il tempo necessario per riconnettersi prima di riprovare.
 
@@ -172,7 +172,7 @@ Ciò significa che l’MTA tenterà di codificare il messaggio in GSM, se riesce
 
 Se il messaggio non può essere codificato in GSM, verrà codificato in UCS-2 e data_coding verrà impostato su 8.
 
-## Specificità di SMSC {#smsc-specificities}
+## Specificità SMSC {#smsc-specificities}
 
 ![](assets/smsc_specificities.png){zoomable="yes"}
 
@@ -241,13 +241,13 @@ Per impostazione predefinita, acquisisce tra 5 e 15 caratteri dopo &quot;stat:&q
 
 Il regex deve avere **esattamente un gruppo di acquisizione** (una parte racchiusa tra parentesi). Le parentesi devono circondare la parte corrispondente allo stato. Il formato regex è PCRE.
 
-### Regex applicato per determinare lo stato del completamento
+### Regex applicato per determinare lo stato Riuscito
 
 Questo regex viene applicato al risultato del precedente regex (&quot;Regex di estrazione dello stato&quot;). Se il regex corrisponde, il messaggio viene considerato di successo.
 
 Per impostazione predefinita, corrisponde a tutto ciò che inizia con &quot;DELIV&quot;. Corrisponde al valore standard &quot;DELIVRD&quot;.
 
-### Regex applicato per determinare lo stato dell’errore
+### Regex applicato per determinare lo stato Errore
 
 Questo regex viene applicato al risultato del precedente regex (&quot;Regex di estrazione dello stato&quot;). Se il regex corrisponde, il messaggio viene considerato errato.
 
@@ -274,7 +274,7 @@ Indica il formato dell’ID restituito nel campo message_id della PDU SUBMIT_SM_
 
 Indica il formato dell’ID acquisito dal regex di estrazione dell’ID nell’SR. I valori hanno lo stesso significato e lo stesso comportamento del formato in MT qui sopra.
 
-### ID SR o codice di errore nel campo opzionale
+### ID SR o codice di errore in campo opzionale
 
 Se questa opzione è selezionata, il contenuto dei campi facoltativi verrà aggiunto al testo elaborato dai regex di cui sopra. Il testo avrà il formato &quot; 0xTAG:VALUE&quot;, dove 0xTAG è il valore esadecimale a 4 cifre del tag in lettere maiuscole (ad esempio 0x002E).
 
@@ -292,7 +292,7 @@ Per acquisire questo valore, ora puoi impostare il seguente regex nel regex di e
 >
 >È possibile acquisire solo campi facoltativi con valori di testo a 8 bit (ASCII/UTF-8). In particolare, i campi binari non possono essere acquisiti in modo affidabile con il sistema regex corrente.
 
-### ID SR o codice di errore nel campo di testo
+### ID SR o codice di errore in campo di testo
 
 Se questa opzione è selezionata, durante l’elaborazione del testo di stato dell’SR verrà mantenuto il campo Testo:. Questa opzione è utile se il provider inserisce dati importanti in questo campo, ad esempio l’ID o lo stato. Di solito questo campo può essere eliminato in modo sicuro perché può contenere testo con una codifica non ASCII e interrompere l’elaborazione regex.
 

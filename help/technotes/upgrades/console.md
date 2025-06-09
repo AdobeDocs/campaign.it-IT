@@ -16,15 +16,15 @@ ht-degree: 1%
 
 La versione a 32 bit della console client è obsoleta nella versione 8.5. È disponibile una nuova versione a 64 bit della console client per un aggiornamento senza soluzione di continuità.
 
-A partire dalla versione 8.6, Campaign non supporterà più i sistemi operativi a 32 bit, inclusi gli aggiornamenti di prodotto e sicurezza. L’Adobe consiglia vivamente di mantenere aggiornati gli aggiornamenti di sicurezza.
+A partire dalla versione 8.6, Campaign non supporterà più i sistemi operativi a 32 bit, inclusi gli aggiornamenti di prodotto e sicurezza. Adobe consiglia vivamente di mantenere aggiornati gli aggiornamenti di sicurezza.
 
 Questa modifica interessa solo gli utenti che dispongono della versione a 32 bit di Windows 8 o 10.
 
 ## Fine del supporto{#eol}
 
-Con la fine del supporto, Adobe non fornisce più supporto tecnico, inclusi aggiornamenti di prodotto e/o sicurezza, per tutte le versioni derivate di un prodotto o di una versione di prodotto (versioni localizzate, aggiornamenti minori, sistemi operativi, rilasci di punti e doppi punti e prodotti di connessione).
+La fine del supporto significa che Adobe non fornisce più supporto tecnico, inclusi aggiornamenti di prodotto e/o sicurezza, per tutte le versioni derivate di un prodotto o di una versione di prodotto (versioni localizzate, aggiornamenti minori, sistemi operativi, versioni con punto e doppio punto e prodotti di connessione).
 
-## Raccomandazioni{#console-eol-recommendations}
+## Consigli{#console-eol-recommendations}
 
 Per sfruttare le funzionalità più recenti e una maggiore sicurezza, è necessario aggiornare il computer a un sistema operativo a 64 bit.
 
@@ -56,7 +56,7 @@ A partire dalla versione 8.6, tutte le versioni di Campaign v8 non supporteranno
 
 +++Come si esegue l&#39;aggiornamento dal sistema operativo Windows (32 bit) al sistema operativo Windows (64 bit)?
 
-Verificare che il processore del computer supporti l&#39;installazione di un sistema operativo a 64 bit. L&#39;aggiornamento dalla versione a 32 bit alla versione a 64 bit di Windows richiede la riformattazione del disco rigido, l&#39;installazione della versione a 64 bit di Windows e quindi la reinstallazione di tutti gli altri elementi presenti nel dispositivo. Per ulteriori informazioni, vedere [Windows a 32 bit e 64 bit: domande frequenti](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d){target="_blank"}.
+Verificare che il processore del computer supporti l&#39;installazione di un sistema operativo a 64 bit. L&#39;aggiornamento dalla versione a 32 bit alla versione a 64 bit di Windows richiede la riformattazione del disco rigido, l&#39;installazione della versione a 64 bit di Windows e quindi la reinstallazione di tutti gli altri elementi presenti nel dispositivo. Per ulteriori informazioni, vedere [Windows a 32 bit e a 64 bit: domande frequenti](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d){target="_blank"}.
 
 +++
 

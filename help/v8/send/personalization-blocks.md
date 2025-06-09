@@ -49,7 +49,7 @@ I blocchi di personalizzazione incorporati sono:
 * **[!UICONTROL Registration link]**: inserisce un collegamento di sottoscrizione. Questo collegamento è definito nelle impostazioni dell’istanza. Il contenuto predefinito è: “Per registrarti, fai clic qui.”
 * **[!UICONTROL Registration link (with referrer)]**: inserisce un collegamento di abbonamento che consente di identificare il visitatore e la consegna. Questo collegamento è definito nelle impostazioni dell’istanza.
 * **[!UICONTROL Registration page URL]**: inserisce un URL di abbonamento
-* **[!UICONTROL Style of content emails]** e **[!UICONTROL Notification style]**: genera codice che formatta un messaggio e-mail con stili di HTML predefiniti.
+* **[!UICONTROL Style of content emails]** e **[!UICONTROL Notification style]**: genera codice che formatta un&#39;e-mail con stili HTML predefiniti.
 * **[!UICONTROL Unsubscription link]**: inserisce un collegamento che consente di annullare l&#39;abbonamento a tutte le consegne (inserisco nell&#39;elenco Bloccati di). Il contenuto associato predefinito è: “Hai ricevuto questo messaggio perché sei stato in contatto con ***nome organizzazione*** o una sua filiale. Per non ricevere più messaggi da ***nome organizzazione***, fai clic qui.”
 
 ## Creare blocchi di personalizzazione personalizzati {#create-custom-personalization-blocks}
@@ -70,8 +70,8 @@ Per creare un blocco di personalizzazione, effettua le seguenti operazioni:
    * Inserisci l’etichetta del blocco. Questa etichetta viene visualizzata nella finestra di inserimento del campo di personalizzazione.
    * Seleziona un tipo di contenuto **Consegna**.
    * Abilita l&#39;opzione **[!UICONTROL Visible in the customization menus]** per rendere accessibile questo blocco dall&#39;icona di inserimento del campo di personalizzazione.
-   * Se necessario, abilita l’opzione **[!UICONTROL The content of the personalization block depends upon the format]** per definire due blocchi diversi per le e-mail HTML e Text.
-   * Inserisci il contenuto (in HTML, testo, JavaScript, ecc.) del blocco di personalizzazione e fare clic su **[!UICONTROL Save]**.
+   * Se necessario, abilita l&#39;opzione **[!UICONTROL The content of the personalization block depends upon the format]**, per definire due blocchi diversi per le e-mail HTML e Text.
+   * Immettere il contenuto (in HTML, testo, JavaScript, ecc.) del blocco di personalizzazione e fare clic su **[!UICONTROL Save]**.
 
 Una volta salvato, il nuovo blocco di personalizzazione è disponibile nell’editor di consegna.
 
@@ -79,4 +79,4 @@ Una volta salvato, il nuovo blocco di personalizzazione è disponibile nell’ed
 
 Scopri come creare blocchi di contenuto dinamici e come utilizzarli per personalizzare il contenuto della consegna e-mail nel video seguente.
 
->[!VIDEO](https://video.tv.adobe.com/v/344595?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12)

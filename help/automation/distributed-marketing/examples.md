@@ -94,7 +94,7 @@ I passaggi sono i seguenti:
 
 1. Crea un&#39;attività **[!UICONTROL Data distribution]**.
 1. Crea la campagna collaborativa.
-1. Publish la campagna.
+1. Pubblica la campagna.
 
 ### Lato entità locale {#local-entity-side}
 
@@ -155,7 +155,7 @@ Una volta approvati i controlli, la campagna può iniziare automaticamente.
 
 1. Salvare il record.
 
-#### Publish la campagna {#publishing-the-campaign}
+#### Pubblicare la campagna {#publishing-the-campaign}
 
 È ora possibile aggiungere un **pacchetto campagna** dalla scheda **[!UICONTROL Campaigns]**.
 

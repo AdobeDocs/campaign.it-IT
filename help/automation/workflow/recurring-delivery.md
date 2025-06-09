@@ -53,6 +53,6 @@ Se desideri interrompere l’esecuzione di una consegna ricorrente, devi annulla
 
 Questo video spiega come configurare una consegna ricorrente e un’attività di pianificazione.
 
->[!VIDEO](https://video.tv.adobe.com/v/27506?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
 
-Ulteriori video dimostrativi di Campaign sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=it){target="_blank"}.
+Ulteriori video dimostrativi di Campaign sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.

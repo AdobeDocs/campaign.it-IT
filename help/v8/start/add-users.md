@@ -38,7 +38,7 @@ Gli operatori sono collegati a un&#39;area di sicurezza dal relativo profilo nel
 
 >[!NOTE]
 >
->In qualità di utente di Cloud Service gestiti, Adobe imposta automaticamente le aree di protezione. Per ulteriori informazioni, [contatta l&#39;Adobe](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
+>In qualità di utente di Managed Cloud Services, Adobe imposta le aree di sicurezza per te. Per ulteriori informazioni, [contattare Adobe](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
 
 **Ulteriori informazioni**
 

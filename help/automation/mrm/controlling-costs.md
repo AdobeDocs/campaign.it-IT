@@ -166,7 +166,7 @@ I costi sono suddivisi in tre categorie:
 
 1. Costo calcolato
 
-   Il costo calcolato dipende dall’elemento interessato (campagna, consegna, attività, ecc.) e il relativo stato (in corso di modifica, in corso, terminato). In ogni caso, se si specifica il costo reale, il costo calcolato utilizzerà tale importo.
+   Il costo calcolato dipende dall’elemento interessato (campagna, consegna, attività, ecc.) e dal suo stato (in corso di modifica, in corso, finito). In ogni caso, se si specifica il costo reale, il costo calcolato utilizzerà tale importo.
 
    Se non viene fornito il costo effettivo, si applicano le seguenti regole:
 

@@ -5,18 +5,19 @@ description: Scopri come progettare una consegna di notifiche push potenziata da
 feature: Push
 role: User
 level: Beginner
-source-git-commit: 4e52e596d4eb2a8e1a1799fcd7104dcd894b6c2d
+exl-id: 75a57ddb-558e-4dd2-a684-e63e51545554
+source-git-commit: fef2c829da637b43067147b51aff7030d25c9744
 workflow-type: tm+mt
 source-wordcount: '1093'
 ht-degree: 7%
 
 ---
 
-# Progettare una consegna push potenziata per iOS {#rich-push}
+# Progettare una consegna push iOS avanzata {#rich-push}
 
 >[!IMPORTANT]
 >
->Prima di progettare una notifica push potenziata, è necessario configurare il connettore V2. Per la procedura dettagliata, consulta [questa pagina](https://experienceleague.adobe.com/it/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application).
+>Prima di progettare una notifica push potenziata, è necessario configurare il connettore V2. Per la procedura dettagliata, consulta [questa pagina](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application).
 
 ## Definire il contenuto di una notifica iOS {#push-message}
 
@@ -187,4 +188,3 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 | **[!UICONTROL Click action]** | Imposta l’azione associata a un utente che fa clic sulla notifica. |
 | **[!UICONTROL Interruption level]** | <ul><li>Attivo: per impostazione predefinita, il sistema presenta immediatamente la notifica, illumina lo schermo e può riprodurre un suono. Le notifiche non interrompono le modalità di attivazione.</li><li>Passivo: il sistema aggiunge la notifica all’elenco delle notifiche senza accendere lo schermo o riprodurre un suono. Le notifiche non interrompono le modalità Focus.</li><li> Sensibile al tempo: il sistema presenta immediatamente la notifica, accende lo schermo, può riprodurre un suono e interrompere le modalità di messa a fuoco. Questo livello non richiede un’autorizzazione speciale da Apple.</li><li>Critico: il sistema presenta immediatamente la notifica, illumina lo schermo e ignora le modalità di disattivazione audio o di messa a fuoco. Tieni presente che questo livello richiede un’autorizzazione speciale da parte di Apple.</li></ul> |
 | **[!UICONTROL Relevance score]** | Imposta un punteggio di rilevanza da 0 a 100. Il sistema utilizza questa funzione per ordinare le notifiche nel riepilogo delle notifiche. |
-

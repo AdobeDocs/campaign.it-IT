@@ -23,7 +23,7 @@ In questa sezione vengono presentate le best practice per gestire il modulo **In
 * Quando **si implementano e si configurano le interazioni**, è necessario tenere presenti le seguenti raccomandazioni:
 
    * Per il motore batch (in genere utilizzato nelle comunicazioni in uscita come le e-mail), la velocità effettiva è il problema principale, in quanto è possibile gestire più contatti contemporaneamente. Il collo di bottiglia tipico è rappresentato dalle prestazioni del database.
-   * Il vincolo principale per il motore unitario (in genere utilizzato nelle comunicazioni in entrata come un banner su un sito web) è la latenza, in quanto qualcuno si aspetta una risposta. Il collo di bottiglia tipico è rappresentato dalle prestazioni della CPU.
+   * Il vincolo principale per il motore unitario (in genere utilizzato nelle comunicazioni in entrata come un banner su un sito web) è la latenza, in quanto qualcuno si aspetta una risposta. Il collo di bottiglia tipico è rappresentato dalle prestazioni di CPU.
    * Il design del catalogo delle offerte ha un impatto enorme sulle prestazioni di Adobe Campaign.
    * Quando si lavora con molte offerte, si consiglia di suddividerle in diversi cataloghi di offerte.
 
@@ -61,21 +61,21 @@ Nell&#39;esempio seguente, lo spazio dell&#39;offerta selezionato nella consegna
 
 ![](assets/Interaction-best-practices-offer-space-selected.png)
 
-Se lo spazio dell’offerta selezionato nella consegna non dispone di una funzione di rendering HTML configurata, non verrà visualizzato nel menu della consegna e non sarà disponibile per la selezione. Indipendente dallo spazio delle offerte selezionato nell&#39;attività **Arricchimento**.
+Se lo spazio dell’offerta selezionato nella consegna non dispone di una funzione di rendering di HTML configurata, non verrà visualizzato nel menu di consegna e non sarà disponibile per la selezione. Indipendente dallo spazio delle offerte selezionato nell&#39;attività **Arricchimento**.
 
-Nell’esempio seguente, la funzione di rendering HTML è disponibile nell’elenco a discesa perché lo spazio dell’offerta selezionato nella consegna ha una funzione di rendering:
+Nell’esempio seguente, la funzione di rendering di HTML è disponibile nell’elenco a discesa perché lo spazio dell’offerta selezionato nella consegna ha una funzione di rendering:
 
 ![](assets/Interaction-best-practices-HTML-rendering.png)
 
 Questa funzione inserisce il codice seguente: `<%@ include proposition="targetData.proposition" view="rendering/html" %>`.
 
 Quando si seleziona la proposta, il valore dell&#39;attributo **[!UICONTROL view]** è il seguente:
-* &quot;rendering/html&quot;: rendering html. Utilizza la funzione di rendering HTML.
-* &quot;offer/view/html&quot;: contenuto html. Non utilizza la funzione di rendering HTML. Include solo il campo HTML.
+* &quot;rendering/html&quot;: rendering html. Utilizza la funzione di rendering di HTML.
+* &quot;offer/view/html&quot;: contenuto html. Non utilizza la funzione di rendering di HTML. Include solo il campo HTML.
 
 Se includi più spazi di offerta in una singola consegna e-mail e alcuni di essi dispongono di funzioni di rendering, è necessario ricordare quali offerte utilizzano quali spazi di offerta e quali spazi di offerta dispongono di funzioni di rendering.
 
-Di conseguenza, per evitare problemi, si consiglia di definire una funzione di rendering HTML per tutti gli spazi dell’offerta, anche se lo spazio dell’offerta richiede solo contenuto HTML.
+Di conseguenza, per evitare problemi, si consiglia di definire una funzione di rendering HTML per tutti gli spazi dell’offerta, anche se lo spazio dell’offerta richiede solo contenuti HTML.
 
 ### Impostare la classificazione nella tabella del registro delle proposte {#rank-proposition-log-table}
 

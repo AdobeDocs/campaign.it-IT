@@ -63,7 +63,7 @@ Per garantire una buona architettura e prestazioni del sistema, segui le best pr
 * L&#39;attributo **expr** consente di definire un attributo di schema come campo calcolato anziché come valore fisico impostato in una tabella. Questo può consentire l’accesso alle informazioni in un formato diverso (ad esempio per età e data di nascita) senza la necessità di memorizzare entrambi i valori. Questo è un buon modo per evitare la duplicazione dei campi. Ad esempio, la tabella Destinatario utilizza un’espressione per il dominio, che è già presente nel campo e-mail.
 * Tuttavia, quando il calcolo dell&#39;espressione è complesso, si sconsiglia di utilizzare l&#39;attributo **expr** in quanto il calcolo immediato potrebbe influire sulle prestazioni delle query.
 * Il tipo **XML** è adatto per evitare la creazione di troppi campi. ma occupa anche spazio su disco in quanto utilizza una colonna CLOB nel database. Può inoltre causare query SQL complesse e influire sulle prestazioni.
-* La lunghezza di un campo **stringa** deve sempre essere definita con la colonna. Per impostazione predefinita, la lunghezza massima in Adobe Campaign è 16K, ma l’Adobe consiglia di mantenere il campo più corto se sai già che la dimensione non supera una lunghezza più breve.
+* La lunghezza di un campo **stringa** deve sempre essere definita con la colonna. Per impostazione predefinita, la lunghezza massima in Adobe Campaign è 16K, ma Adobe consiglia di mantenere il campo più corto se sai già che la dimensione non supera una lunghezza più breve.
 * È accettabile avere un campo più breve in Adobe Campaign rispetto a quello presente nel sistema di origine se si è certi che la dimensione nel sistema di origine è stata sovrastimata e non sarebbe raggiunta. Questo potrebbe significare una stringa più breve o un numero intero più piccolo in Adobe Campaign.
 
 ### Scelta dei campi {#choice-of-fields}
@@ -123,7 +123,7 @@ Presta attenzione alla &quot;propria&quot; integrità sulle tabelle di grandi di
 
 Dichiarare un collegamento come join esterno non è un vantaggio in termini di prestazioni. Il record con ID zero emula la funzionalità di join esterno. Nel contesto di una distribuzione [Enterprise (FFDA)](../architecture/enterprise-deployment.md), non è necessario dichiarare join esterni se il collegamento utilizza **autouuid**.
 
-Anche se è possibile unire qualsiasi tabella in un flusso di lavoro, l’Adobe consiglia di definire collegamenti comuni tra le risorse direttamente nella definizione della struttura dati.
+Anche se è possibile unire qualsiasi tabella in un flusso di lavoro, Adobe consiglia di definire collegamenti comuni tra le risorse direttamente nella definizione della struttura dati.
 
 Il collegamento deve essere definito in allineamento con i dati effettivi nelle tabelle. Una definizione errata potrebbe influire sui dati recuperati tramite collegamenti, ad esempio duplicando in modo imprevisto i record.
 
@@ -149,9 +149,9 @@ I collegamenti che eseguono un join esterno (1-0..1) devono essere utilizzati co
 
 Adobe Campaign non è né un data warehouse né uno strumento di reporting. Pertanto, per garantire buone prestazioni della soluzione Adobe Campaign, la crescita del database deve rimanere sotto controllo. Per ottenere questo risultato, segui alcune delle best practice riportate di seguito.
 
-Per quanto riguarda la conservazione, le tabelle di registro integrate in Campaign dispongono di periodi di conservazione preimpostati che in genere limitano l’archiviazione dei dati a un massimo di sei mesi.
+Per quanto riguarda la conservazione, le tabelle di registro incorporate in Campaign dispongono di periodi di conservazione preimpostati che in genere limitano l’archiviazione dei dati a un massimo di sei mesi.
 
-Di seguito sono riportati i valori di conservazione predefiniti per le tabelle integrate. Ricorda che la configurazione della conservazione è impostata dagli amministratori tecnici di Adobe durante l’implementazione e che i valori possono variare per ciascuna implementazione, in base ai requisiti dei clienti.
+Di seguito sono riportati i valori di conservazione predefiniti per le tabelle incorporate. Ricorda che la configurazione della conservazione è impostata dagli amministratori tecnici di Adobe durante l’implementazione e che i valori possono variare per ciascuna implementazione, in base ai requisiti dei clienti.
 
 * **Tracciamento consolidato**: 1 anno
 * **Registri di consegna**: 6 mesi
@@ -175,7 +175,7 @@ Esistono alcune soluzioni per ridurre al minimo la necessità di record in Adobe
 
 È possibile dichiarare l’attributo &quot;deleteStatus&quot; in uno schema. È più efficiente contrassegnare il record come eliminato, quindi posticipare l’eliminazione nell’attività di pulizia.
 
-In qualità di utente di Cloud Service gestiti, rivolgiti ai consulenti o agli amministratori tecnici Adobe per ulteriori informazioni sulla conservazione o per impostare la conservazione per tabelle personalizzate.
+In qualità di utente di Managed Cloud Services, rivolgiti ai consulenti o agli amministratori tecnici di Adobe per ulteriori informazioni sulla conservazione o per impostare la conservazione per tabelle personalizzate.
 
 ## Prestazioni {#performance}
 

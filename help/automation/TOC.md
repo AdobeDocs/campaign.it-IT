@@ -6,7 +6,7 @@ feature: Overview
 source-git-commit: 8ff207246bea1f476b37b1d4f2c79498362e7481
 workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 81%
+ht-degree: 78%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 81%
       + [Monitorare l’esecuzione di un flusso di lavoro](workflow/monitor-workflow-execution.md)
       + [Monitorare i flussi di lavoro tecnici](workflow/monitor-technical-workflows.md)
       + [Flusso di lavoro HeatMap](workflow/heatmap.md)
-   + Attività del flusso di lavoro {#wf-activities}
+   + Attività del flussi di lavoro {#wf-activities}
       + [Introduzione alle attività](workflow/activities.md)
       + Attività di targeting {#targeting-activities}
          + [Elenco delle attività di targeting](workflow/targeting-activities.md)
@@ -69,8 +69,8 @@ ht-degree: 81%
          + [Flusso di lavoro secondario](workflow/sub-workflow.md)
          + [Test](workflow/test.md)
          + [Attività Time constraint](workflow/time-constraint.md)
-         + [Attendi](workflow/wait.md)
-      + Attività di azione {#action-activities}
+         + [Attendere](workflow/wait.md)
+      + Attività azione {#action-activities}
          + [Elenco delle attività di azione](workflow/action-activities.md)
          + [Gestione dei contenuti](workflow/content-management.md)
          + [Consegna continua](workflow/continuous-delivery.md)
@@ -106,7 +106,7 @@ ht-degree: 81%
          + [Inviare un rapporto a un elenco](workflow/send-a-report-to-a-list.md)
          + [Supervisionare i flussi di lavoro](workflow/workflow-supervision.md)
          + [Inviare avvisi personalizzati agli operatori](workflow/send-alerts-to-operators.md)
-      + Gestione dei dati {#data-management}
+      + Gestione dati {#data-management}
          + [Coordinare gli aggiornamenti dei dati](workflow/coordinate-data-updates.md)
          + [Creare un elenco di riepilogo](workflow/create-a-summary-list.md)
          + [Arricchire i dati](workflow/enrich-data.md)
@@ -152,7 +152,7 @@ ht-degree: 81%
    + [Regole di coerenza](campaign-opt/consistency-rules.md)
    + [Applicare le regole](campaign-opt/apply-rules.md)
    + [Simulazioni delle campagne](campaign-opt/campaign-simulations.md)
-+ Gestione risorse marketing (componente aggiuntivo){#mrm}
++ Gestione delle risorse marketing (componente aggiuntivo){#mrm}
    + [Introduzione alla gestione delle risorse di marketing](mrm/about-marketing-resource-management.md)
    + [Creare e gestire le attività](mrm/creating-and-managing-tasks.md)
    + [Controllare i costi](mrm/controlling-costs.md)

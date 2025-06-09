@@ -156,4 +156,4 @@ Se un destinatario non è idoneo per nessuna offerta, ciò viene mostrato nell�
 
 L’anteprima può ignorare i contesti quando sono limitati a uno spazio. Ciò si verifica quando lo schema di interazione è stato esteso per aggiungere campi a cui si fa riferimento in uno spazio utilizzando un canale in entrata.
 
-Per ulteriori informazioni, consulta questo esempio nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html?lang=it){target="_blank"}.
+Per ulteriori informazioni, consulta questo esempio nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html){target="_blank"}.

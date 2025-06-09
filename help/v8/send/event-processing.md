@@ -40,7 +40,7 @@ Una volta completati tutti i passaggi, ogni destinatario riceve un messaggio per
 
 Gli eventi generati dal sistema di informazione possono essere raccolti utilizzando due modalità:
 
-* Le chiamate ai metodi SOAP consentono di inviare eventi in push in Adobe Campaign: il metodo PushEvent consente di inviare un evento alla volta, il metodo PushEvents consente di inviare diversi eventi alla volta. [Ulteriori informazioni](event-description.md).
+* Le chiamate ai metodi SOAP consentono di inviare eventi push in Adobe Campaign: il metodo PushEvent consente di inviare un evento alla volta, il metodo PushEvents consente di inviare diversi eventi alla volta. [Ulteriori informazioni](event-description.md).
 
 * La creazione di un flusso di lavoro consente di ripristinare gli eventi importando file o tramite un gateway SQL con il modulo [Federated Data Access](../connect/fda.md).
 
@@ -100,4 +100,4 @@ A questo scopo, devi configurare un flusso di lavoro che ricrea tutti gli eventi
 
 >[!CAUTION]
 >
->Questo passaggio può essere eseguito solo utilizzando un flusso di lavoro ed è quindi riservato agli utenti esperti. Per ulteriori informazioni, contatta il responsabile del tuo account Adobe.
+>Questo passaggio può essere eseguito solo utilizzando un flusso di lavoro ed è quindi riservato agli utenti esperti. Per ulteriori informazioni, contatta il tuo account executive di Adobe.

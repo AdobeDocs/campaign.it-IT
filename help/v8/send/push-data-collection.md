@@ -43,7 +43,7 @@ Nel contesto di questa implementazione aggiornata, per inviare notifiche push in
 
 È necessario aggiungere le credenziali push dell&#39;app mobile in [!DNL Adobe Experience Platform Data Collection].
 
-La registrazione delle credenziali push dell’app mobile è necessaria per autorizzare l’Adobe a inviare notifiche push per tuo conto. Consulta i passaggi descritti di seguito:
+La registrazione delle credenziali push dell’app mobile è necessaria per autorizzare Adobe a inviare notifiche push per tuo conto. Consulta i passaggi descritti di seguito:
 
 1. Da [!DNL Adobe Experience Platform Data Collection], selezionare la scheda **[!UICONTROL App Surfaces]** nel pannello a sinistra.
 
@@ -143,14 +143,14 @@ Per creare un&#39;app per dispositivi iOS, effettua le seguenti operazioni:
 
 1. **[!UICONTROL Integration key]** è specifico per ogni applicazione. Collega l’app mobile ad Adobe Campaign e verrà utilizzata per configurare l’estensione Campaign.
 
-   Assicurati che lo stesso **[!UICONTROL Integration key]** sia definito in Adobe Campaign e nel codice dell&#39;applicazione tramite l&#39;SDK.
+   Assicurati che lo stesso **[!UICONTROL Integration key]** sia definito in Adobe Campaign e nel codice dell&#39;applicazione tramite SDK.
 
    Ulteriori informazioni sono disponibili nella [documentazione per sviluppatori](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
 
 
    >[!NOTE]
    >
-   > **[!UICONTROL Integration key]** è completamente personalizzabile con valore stringa, ma deve essere esattamente lo stesso specificato nell&#39;SDK.
+   > **[!UICONTROL Integration key]** è completamente personalizzabile con valore stringa, ma deve essere esattamente lo stesso specificato in SDK.
    >
    > Non è possibile utilizzare lo stesso certificato per la versione di sviluppo (sandbox) e la versione di produzione dell’applicazione.
 
@@ -178,13 +178,13 @@ Per creare un&#39;app per dispositivi Android, effettua le seguenti operazioni:
 
 1. La chiave di integrazione è specifica per ogni applicazione. Collega l’app mobile ad Adobe Campaign e verrà utilizzata per configurare l’estensione Campaign.
 
-   Assicurati che lo stesso **[!UICONTROL Integration key]** sia definito in Adobe Campaign e nel codice dell&#39;applicazione tramite l&#39;SDK.
+   Assicurati che lo stesso **[!UICONTROL Integration key]** sia definito in Adobe Campaign e nel codice dell&#39;applicazione tramite SDK.
 
    Ulteriori informazioni sono disponibili nella [documentazione per sviluppatori](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
 
    >[!NOTE]
    >
-   > **[!UICONTROL Integration key]** è completamente personalizzabile con valore stringa, ma deve essere esattamente lo stesso specificato nell&#39;SDK.
+   > **[!UICONTROL Integration key]** è completamente personalizzabile con valore stringa, ma deve essere esattamente lo stesso specificato in SDK.
 
    ![](assets/push-config-12.png)
 

@@ -198,9 +198,9 @@ Gli attributi consentono di definire i campi che compongono l’oggetto dati. È
 
 ![](assets/schemaextension_2.png)
 
-L&#39;elenco completo degli attributi è disponibile nella sezione dell&#39;elemento `<attribute>` della [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=it#content-model){target="_blank"}. Di seguito sono riportati alcuni degli attributi più comunemente utilizzati: **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name**, **@notNull**, **@required**, **@ref**, **@xml**, **@type**.
+L&#39;elenco completo degli attributi è disponibile nella sezione dell&#39;elemento `<attribute>` della [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html#content-model){target="_blank"}. Di seguito sono riportati alcuni degli attributi più comunemente utilizzati: **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name**, **@notNull**, **@required**, **@ref**, **@xml**, **@type**.
 
-Per ulteriori informazioni su ciascun attributo, consulta la descrizione dell&#39;attributo nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=it#configuring-campaign-classic){target="_blank"}.
+Per ulteriori informazioni su ciascun attributo, consulta la descrizione dell&#39;attributo nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic){target="_blank"}.
 
 ### Esempi {#examples}
 

@@ -20,7 +20,7 @@ Per creare pagine di destinazione, passa all&#39;[interfaccia utente Web](../sta
 
 >[!AVAILABILITY]
 >
->* L’interfaccia utente di Campaign Web è disponibile solo per gli utenti che si connettono a Adobe Campaign con il proprio Adobe ID. Ulteriori informazioni su [Adobe Identity Management System (IMS)](https://helpx.adobe.com/it/enterprise/using/users.html){target="_blank"}.
+>* L’interfaccia utente di Campaign Web è disponibile solo per gli utenti che si connettono a Adobe Campaign con il proprio Adobe ID. Ulteriori informazioni su [Adobe Identity Management System (IMS)](https://helpx.adobe.com/it/enterprise/using/identity.html){target="_blank"}.
 >
 >* Le pagine di destinazione create nell’interfaccia utente di Campaign Web non possono essere visualizzate o modificate nella console client di Campaign.
 >
@@ -34,34 +34,34 @@ Con le pagine di destinazione puoi:
 * Fornisci ai destinatari la possibilità di annullare l’abbonamento alla ricezione delle comunicazioni.
 
 
-Ulteriori informazioni sulle pagine di destinazione nella [documentazione dell&#39;interfaccia utente di Campaign Web](https://experienceleague.adobe.com/it/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}.
+Ulteriori informazioni sulle pagine di destinazione nella [documentazione dell&#39;interfaccia utente di Campaign Web](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}.
 
 È inoltre possibile sfogliare le sezioni seguenti:
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="https://experienceleague.adobe.com/it/docs/campaign-web/v8/landing-pages/create-lp">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/create-lp">
 <img alt="Lead" src="assets/do-not-localize/lp-subscription.jpeg">
 </a>
-<div><a href="https://experienceleague.adobe.com/it/docs/campaign-web/v8/landing-pages/create-lp"><strong>Creare pagina di destinazione</strong>
+<div><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/create-lp"><strong>Creare pagine di destinazione</strong>
 </div>
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/it/docs/campaign-web/v8/landing-pages/lp-content">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-content">
 <img alt="Convalida" src="assets/do-not-localize//lp-design.jpg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/it/docs/campaign-web/v8/landing-pages/lp-content"><strong>Progettare pagine di destinazione</strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-content"><strong>Progettare pagine di destinazione</strong></a>
 </div>
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/it/docs/campaign-web/v8/landing-pages/lp-templates">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-templates">
 <img alt="Convalida" src="assets/do-not-localize/lp-reporting.jpg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/it/docs/campaign-web/v8/landing-pages/lp-templates"><strong>Utilizzare i modelli di pagina di destinazione</strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-templates"><strong>Utilizzare i modelli di pagina di destinazione</strong></a>
 </div>
 <p>
 </td>

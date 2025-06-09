@@ -18,7 +18,7 @@ La messaggistica transazionale (Message Center) è un modulo di Campaign progett
 
 >[!NOTE]
 >
->In qualità di utente di Cloud Service gestiti, [contatta l&#39;Adobe](../start/campaign-faq.md#support){target="_blank"} per configurare la messaggistica transazionale di Campaign nel tuo ambiente.
+>In qualità di utente di Managed Cloud Services, [contatta Adobe](../start/campaign-faq.md#support){target="_blank"} per configurare la messaggistica transazionale di Campaign nel tuo ambiente.
 
 I messaggi transazionali vengono utilizzati per inviare:
 
@@ -43,9 +43,9 @@ Di seguito sono illustrate le fasi principali per l’attuazione di questa proce
 1. [Crea un tipo di evento](#create-event-types).
 1. [Creare e progettare il modello di messaggio](transactional-template.md#create-message-template). Collega un evento al messaggio durante questo passaggio.
 1. [Verifica il messaggio](transactional-template.md#test-message-template).
-1. [Publish il modello di messaggio](transactional-template.md#publish-message-template).
+1. [Pubblica il modello di messaggio](transactional-template.md#publish-message-template).
 
-Dopo aver progettato e pubblicato il modello di messaggio transazionale, se viene attivato un evento corrispondente, i dati rilevanti vengono inviati a Campaign tramite i metodi [SOAP ](../send/event-description.md) PushEvent e PushEvents e la consegna viene inviata ai destinatari desiderati.
+Dopo aver progettato e pubblicato il modello di messaggio transazionale, se viene attivato un evento corrispondente, i dati rilevanti vengono inviati a Campaign tramite i [metodi SOAP](../send/event-description.md) PushEvent e PushEvents e la consegna viene inviata ai destinatari desiderati.
 
 ## Creare tipi di evento {#create-event-types}
 

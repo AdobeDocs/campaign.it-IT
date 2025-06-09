@@ -55,7 +55,7 @@ Puoi aggiungere altri casi e definire contenuti diversi in base ai valori di uno
 Nell’esempio seguente, scopri come creare un’e-mail multilingue. Il contenuto viene visualizzato in una lingua o nell’altra, a seconda della lingua preferita del destinatario.
 
 1. Crea un messaggio e-mail e seleziona la popolazione target. In questo esempio, la condizione per visualizzare una versione o l&#39;altra sarà basata sul valore **Lingua** del profilo del destinatario. Questi valori sono impostati su **EN**, **FR**, **ES**.
-1. Nel contenuto di e-mail HTML, fare clic sulla scheda **[!UICONTROL Source]** e incollare il seguente codice:
+1. Nel contenuto del HTML e-mail, fare clic sulla scheda **[!UICONTROL Source]** e incollare il seguente codice:
 
    ```
    <% if (language == "EN" ) { %>
@@ -86,4 +86,4 @@ Nell’esempio seguente, scopri come creare un’e-mail multilingue. Il contenut
 
 Scopri come aggiungere contenuti condizionali a una consegna sull’esempio di una newsletter multilingue.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446719?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/335682?quality=12)

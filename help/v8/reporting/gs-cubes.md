@@ -54,7 +54,7 @@ Di seguito sono elencati i termini specifici per l&#39;utilizzo dei cubi.
 
 * **Tabella dei fatti/schema** - La tabella dei fatti (o schema dei fatti) contiene i dati non elaborati o elementari su cui verranno basate le analisi. Si tratta principalmente di tabelle di volumi di grandi dimensioni (eventualmente con tabelle collegate) con calcoli potenzialmente lunghi. Ad esempio, una fact table può essere: la tabella broadlog, la tabella purchase e così via.
 
-* **Dimension** - I Dimension consentono di segmentare i dati in gruppi: una volta creati, le dimensioni fungono da assi di analisi. Nella maggior parte dei casi, per una determinata dimensione, vengono definiti diversi livelli. Ad esempio, per una dimensione temporale, i livelli saranno mesi, giorni, ore, minuti e così via. Questo set di livelli rappresenta la gerarchia delle dimensioni e abilita vari livelli di analisi dei dati.
+* **Dimension** - Le dimensioni consentono di segmentare i dati in gruppi: una volta create, le dimensioni fungono da assi di analisi. Nella maggior parte dei casi, per una determinata dimensione, vengono definiti diversi livelli. Ad esempio, per una dimensione temporale, i livelli saranno mesi, giorni, ore, minuti e così via. Questo set di livelli rappresenta la gerarchia delle dimensioni e abilita vari livelli di analisi dei dati.
 
 * **Binning** - Per alcuni campi è possibile definire il binning per raggruppare i valori e semplificare la lettura delle informazioni. Binning applicato ai livelli. Si consiglia di definire il binning quando esiste la possibilità di molti valori diversi.
 

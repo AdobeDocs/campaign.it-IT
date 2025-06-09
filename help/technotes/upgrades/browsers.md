@@ -28,7 +28,7 @@ I potenziali problemi o la perdita di funzionalità sul sito web derivano dalla 
 
 ## Sei interessato?{#version-100-impact}
 
-L’Adobe consiglia di testare le applicazioni web di Campaign, inclusi moduli web e sondaggi, per assicurarsi che continuino a funzionare correttamente con queste nuove versioni del browser.
+Adobe consiglia di testare le applicazioni web di Campaign, inclusi moduli web e sondaggi, per assicurarsi che continuino a funzionare correttamente con queste nuove versioni del browser.
 
 Questo consiglio si applica a tutte le applicazioni web, in particolare se hai incluso il codice JavaScript.
 

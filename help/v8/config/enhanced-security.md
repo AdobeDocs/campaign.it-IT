@@ -45,7 +45,7 @@ Le chiavi gestite dal cliente sono chiavi del servizio di gestione delle chiavi 
 
 Per abilitare l’integrazione della CMK con Campaign, effettua le seguenti operazioni:
 
-1. Connetti al tuo account [Amazon Web Services (AWS)](https://aws.amazon.com/){target="_blank"}.
+1. Connettiti al tuo account [Amazon Web Services (AWS)](https://aws.amazon.com/){target="_blank"}.
 
 1. Genera una chiave con rotazione automatica quando utilizzi AWS Key Management Service (KMS). [Scopri come](https://docs.aws.amazon.com/kms/latest/developerguide/create-keys.html){target="_blank"}.
 

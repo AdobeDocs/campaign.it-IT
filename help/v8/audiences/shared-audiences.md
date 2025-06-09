@@ -34,7 +34,7 @@ Questa integrazione supporta due tipi di ID Adobe Experience Cloud:
   >
   > L’origine dati dell’ID dichiarato può essere utilizzata anche con l’integrazione del servizio core People.
   >
-  >Se utilizzi l’integrazione con il servizio core People e desideri aggiungere l’integrazione con l’Audience Manager, ti servirà l’aiuto di un consulente Adobe Audience Manager per evitare di perdere tutte le sincronizzazioni ID raccolte durante la transizione all’utilizzo dell’origine dati ID dichiarato in un contesto Adobe Audience Manager.
+  >Se utilizzi l’integrazione con il servizio core People e desideri aggiungere l’integrazione con Audience Manager, ti servirà l’aiuto di un consulente Adobe Audience Manager per evitare di perdere tutte le sincronizzazioni ID raccolte durante la transizione all’utilizzo dell’origine dati ID dichiarato in un contesto Adobe Audience Manager.
 
 A questo proposito, consulta la sezione:
 
