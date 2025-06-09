@@ -79,4 +79,4 @@ Una volta salvato, il nuovo blocco di personalizzazione è disponibile nell’ed
 
 Scopri come creare blocchi di contenuto dinamici e come utilizzarli per personalizzare il contenuto della consegna e-mail nel video seguente.
 
->[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/344595?quality=12&captions=ita)

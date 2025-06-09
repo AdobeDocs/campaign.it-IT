@@ -79,11 +79,11 @@ Casi d&#39;uso di esempio sulle regole di tipologia della pressione sono disponi
 
 Questo video spiega come implementare la gestione dell’eccesso in Adobe Campaign sfruttando le regole di tipologia.
 
->[!VIDEO](https://video.tv.adobe.com/v/333787?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3448339?quality=12&captions=ita)
 
 ### Gestire l’eccesso di comunicazioni mediante filtri predefiniti
 
 La gestione dell’eccesso controlla la frequenza e la quantità di messaggi per evitare un’eccessiva sollecitazione dei destinatari. Se nell’istanza della campagna non è presente il modulo di ottimizzazione, puoi configurare un filtro predefinito che filtrerà la popolazione target in base al numero di messaggi ricevuti
 Questo video spiega come implementare la gestione dell’eccesso in Adobe Campaign utilizzando i filtri.
 
->[!VIDEO](https://video.tv.adobe.com/v/333778?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3444608?quality=12&captions=ita)

@@ -105,4 +105,4 @@ Per impostazione predefinita, i messaggi di bozza sono identificati dalla menzio
 
 Scopri come inviare e convalidare una bozza per una consegna e-mail.
 
->[!VIDEO](https://video.tv.adobe.com/v/333404)
+>[!VIDEO](https://video.tv.adobe.com/v/3447007?captions=ita)

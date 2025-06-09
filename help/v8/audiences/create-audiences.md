@@ -26,7 +26,7 @@ Gli elenchi vengono creati e gestiti tramite il collegamento **[!UICONTROL Lists
 
 Guarda questo video per ulteriori informazioni sulla gestione degli elenchi in Adobe Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/334909?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3426460?quality=12&captions=ita)
 
 
 ## Creare un elenco di contatti {#create-a-list-of-contacts}
