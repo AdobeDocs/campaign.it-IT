@@ -50,7 +50,7 @@ La casella **[!UICONTROL Send messages through a dedicated process]** è selezio
 
    ![](assets/sms_extaccount_connector.png){zoomable="yes"}
 
-   Per impostare la connessione, è necessario compilare le schede di questo modulo. Per ulteriori informazioni sull&#39;account esterno SMPP](smpp-external-account.md#smpp-connection-settings), vedere [.
+   Per impostare la connessione, è necessario compilare le schede di questo modulo. Per ulteriori informazioni sull&#39;account esterno SMPP[&#128279;](smpp-external-account.md#smpp-connection-settings), vedere .
 
 
 ## Configurare il modello di consegna {#sms-delivery-template}

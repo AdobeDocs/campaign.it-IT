@@ -98,7 +98,7 @@ Un flusso di lavoro tecnico specifico gestisce la replica delle tabelle che devo
 >[!NOTE]
 >
 > Sono stati creati diversi criteri di replica in base alle dimensioni della tabella (XS, XL, eccetera).
-> > Alcune tabelle vengono replicate in tempo reale, altre vengono replicate su base oraria. Alcune tabelle avranno aggiornamenti incrementali, altre avranno un aggiornamento completo.
+> &#x200B;> Alcune tabelle vengono replicate in tempo reale, altre vengono replicate su base oraria. Alcune tabelle avranno aggiornamenti incrementali, altre avranno un aggiornamento completo.
 >
 
 [Ulteriori informazioni sulla replica dei dati](replication.md)
