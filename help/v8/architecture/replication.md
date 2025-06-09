@@ -42,7 +42,7 @@ I criteri di replica definiscono la quantità di dati replicati da una tabella d
 
 Campaign v8 si basa su flussi di lavoro tecnici specifici per gestire la replica pianificata dei dati. Questi flussi di lavoro tecnici sono disponibili dal nodo **[!UICONTROL Administration > Production > Technical workflows > Full FFDA Replication]** di Campaign Explorer. **Non devono essere modificati.**
 
-I flussi di lavoro tecnici eseguono processi o processi, pianificati regolarmente sul server. L&#39;elenco completo dei flussi di lavoro tecnici è descritto in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}.
+I flussi di lavoro tecnici eseguono processi o processi, pianificati regolarmente sul server. L&#39;elenco completo dei flussi di lavoro tecnici è descritto in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=it){target="_blank"}.
 
 I flussi di lavoro tecnici che garantiscono la replica dei dati sono i seguenti:
 
@@ -117,4 +117,4 @@ Questo video illustra i concetti chiave dei database utilizzati da Adobe Campaig
 
 >[!VIDEO](https://video.tv.adobe.com/v/334460?quality=12)
 
-Ulteriori tutorial sulla console client di Campaign v8 sono disponibili [qui](https://experienceleague.adobe.com/en/docs/campaign-learn/tutorials/overview).
+Ulteriori tutorial sulla console client di Campaign v8 sono disponibili [qui](https://experienceleague.adobe.com/it/docs/campaign-learn/tutorials/overview).

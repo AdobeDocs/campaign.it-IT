@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Puoi utilizzare Experience Cloud Triggers per collegare i dati tra Adobe Campaign e Adobe Analytics utilizzando la pipeline. La pipeline recupera le azioni o i trigger dell’utente dal sito web. L’abbandono del carrello è un esempio di trigger. Gli attivatori vengono elaborati in Adobe Campaign per inviare e-mail quasi in tempo reale.
 
-Ulteriori informazioni su Adobe Campaign e Experience Cloud Triggers su [questa pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html){target="_blank"}.
+Ulteriori informazioni su Adobe Campaign e Experience Cloud Triggers su [questa pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html?lang=it){target="_blank"}.
 
-Scopri come [creare un trigger di Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html){target="_blank"} e identificare, definire e monitorare i comportamenti critici dei consumatori.
+Scopri come [creare un trigger di Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=it){target="_blank"} e identificare, definire e monitorare i comportamenti critici dei consumatori.
 

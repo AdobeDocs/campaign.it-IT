@@ -117,7 +117,7 @@ In qualità di utente della console client di Campaign v8, a partire dalla versi
 >L’interfaccia utente di Campaign Web è disponibile solo per gli utenti che si connettono a Adobe Campaign con il proprio Adobe ID. Ulteriori informazioni su [Adobe Identity Management System (IMS)](https://helpx.adobe.com/it/enterprise/using/identity.html){target="_blank"}.
 >
 
-Ulteriori informazioni sulla nuova interfaccia utente di Campaign Web sono disponibili in [questa documentazione](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=it){target="_blank"}. Puoi anche visitare la pagina dedicata [Domande frequenti](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/faq){target="_blank"}, nella documentazione dell&#39;interfaccia utente web di Campaign.
+Ulteriori informazioni sulla nuova interfaccia utente di Campaign Web sono disponibili in [questa documentazione](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=it){target="_blank"}. Puoi anche visitare la pagina dedicata [Domande frequenti](https://experienceleague.adobe.com/it/docs/campaign-web/v8/start/faq){target="_blank"}, nella documentazione dell&#39;interfaccia utente web di Campaign.
 
 Funzionalità, configurazione e impostazioni aggiuntive e avanzate sono disponibili solo nella console client. Ulteriori informazioni sulle funzionalità disponibili in entrambe le interfacce utente [nella documentazione dell&#39;interfaccia utente di Campaign Web](https://experienceleague.adobe.com/docs/campaign-web/v8/start/capability-matrix.html?lang=it){target="_blank"}.
 
@@ -139,7 +139,7 @@ Le lingue supportate dipendono dall’interfaccia utente.
   >
   >La lingua viene selezionata durante il processo di installazione e non può essere modificata in seguito.
 
-* Per le lingue supportate dall&#39;interfaccia utente di Campaign Web, [fai riferimento a questa pagina](https://experienceleague.adobe.com/docs/campaign-web/v8/start/connect-to-campaign.html#language-pref){target="_blank"}.
+* Per le lingue supportate dall&#39;interfaccia utente di Campaign Web, [fai riferimento a questa pagina](https://experienceleague.adobe.com/docs/campaign-web/v8/start/connect-to-campaign.html?lang=it#language-pref){target="_blank"}.
 
 
 La lingua influisce sui formati di data e ora.

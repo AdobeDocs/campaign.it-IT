@@ -18,11 +18,11 @@ ht-degree: 20%
 
 Le funzionalità di tracciamento delle campagne tengono traccia dei messaggi inviati e ti aiutano ad analizzare il comportamento dei destinatari: apertura, clic su collegamenti, abbonamenti/annullamento dell’abbonamento e altro ancora. Puoi accedere a registri, report e metriche dedicati, eseguire query sul database per rivedere i dati raccolti e altro ancora.
 
-Per ulteriori informazioni, consulta la [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html#tracking-tab){target="_blank"}.
+Per ulteriori informazioni, consulta la [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=it#tracking-tab){target="_blank"}.
 
 Il dashboard di consegna è uno strumento chiave per monitorare le consegne e i potenziali problemi durante l’invio dei messaggi.
 
-Per ulteriori informazioni, consulta la [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#sending-messages){target="_blank"}.
+Per ulteriori informazioni, consulta la [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html?lang=it#sending-messages){target="_blank"}.
 
 Di seguito sono elencate le funzionalità di tracciamento chiave disponibili in Campaign.
 
@@ -69,13 +69,13 @@ Prima di inviare i messaggi con il tracciamento, puoi testarlo sulla pagina spec
 
 È inoltre possibile monitorare e misurare le visite sulle pagine delle applicazioni web con i tag di tracciamento. Questa funzionalità può essere utilizzata per tutti i tipi di applicazioni Web, ad esempio moduli e sondaggi online.
 
-[Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/tracking-a-web-application.html#designing-content){target="_blank"}
+[Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/tracking-a-web-application.html?lang=it#designing-content){target="_blank"}
 
 **Rinuncia al tracking delle applicazioni web**
 
 La rinuncia al tracciamento delle applicazioni web consente di interrompere il tracciamento dei comportamenti web degli utenti finali che rinunciano al tracciamento comportamentale. Puoi includere la possibilità di visualizzare un banner nelle applicazioni web o nelle pagine di destinazione per consentire agli utenti di rinunciare.
 
-[Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/web-application-tracking-opt-out.html#designing-content){target="_blank"}
+[Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/web-application-tracking-opt-out.html?lang=it#designing-content){target="_blank"}
 
 ### Tracciamento dei rapporti {#tracking-reports}
 
@@ -91,19 +91,19 @@ Questo rapporto fornisce statistiche su aperture, clic e transazioni e consente 
 
 Questo rapporto mostra l’elenco delle pagine visitate dopo una consegna.
 
-[Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html#urls-and-click-streams){target="_blank"}
+[Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html?lang=it#urls-and-click-streams){target="_blank"}
 
 **Persona/persone e destinatari**
 
 Con questo esempio, puoi comprendere meglio la differenza di tracciamento tra una persona/persone e un destinatario in Adobe Campaign.
 
-[Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/person-people-recipients.html#reporting){target="_blank"}
+[Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/person-people-recipients.html?lang=it#reporting){target="_blank"}
 
 **Indicatori di tracciamento**
 
 Questo rapporto combina gli indicatori chiave per monitorare il comportamento dei destinatari al momento della ricezione della consegna, ad esempio i tassi di apertura e click-through e i flussi di clic.
 
-[Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html#reporting){target="_blank"}
+[Ulteriori informazioni sono disponibili nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html?lang=it#reporting){target="_blank"}
 
 **Calcolo indicatore**
 
@@ -123,11 +123,11 @@ Ulteriori informazioni sulle informazioni che è possibile monitorare dopo l&#39
 
 ### Monitorare i flussi di lavoro
 
-Scopri come monitorare l’esecuzione di un flusso di lavoro in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html)
+Scopri come monitorare l’esecuzione di un flusso di lavoro in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=it)
 
 ### Monitorare l’istanza
 
-Le linee guida per il monitoraggio delle istanze sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/introduction/monitoring-guidelines.html#monitoring-campaign-classic){target="_blank"}
+Le linee guida per il monitoraggio delle istanze sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/introduction/monitoring-guidelines.html?lang=it#monitoring-campaign-classic){target="_blank"}
 
 Utilizza l’interfaccia self-service di Audit trail per monitorare le modifiche apportate all’interno dell’istanza. Audit trail acquisisce in tempo reale un elenco completo delle azioni e degli eventi che si verificano all’interno dell’istanza Adobe Campaign. Puoi accedere alla cronologia dei dati per rispondere a domande quali: cosa è successo ai flussi di lavoro e chi li ha aggiornati per ultimo o cosa hanno fatto gli utenti nell’istanza.
 
