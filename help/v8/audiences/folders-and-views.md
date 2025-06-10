@@ -6,9 +6,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 762dcacc-4aeb-4990-af01-7f793bd69170
 version: Campaign v8, Campaign Classic v7
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+source-git-commit: 567ca1cd8fa6e4f03c8871488152710753ea02f1
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '686'
 ht-degree: 1%
 
 ---
@@ -21,8 +21,8 @@ Una visualizzazione è una cartella specifica che non contiene dati, ma visualiz
 
 
 >[!NOTE]
->Per distinguere le viste dalle cartelle standard, il loro nome viene visualizzato in blu chiaro anziché in nero.
 >
+>Per distinguere le viste dalle cartelle standard, il loro nome viene visualizzato in blu chiaro anziché in nero.
 
 È possibile assegnare autorizzazioni alle cartelle per limitare l’accesso a determinati dati. [Ulteriori informazioni](#restrict-access-to-a-folder)
 
@@ -52,14 +52,19 @@ Per creare un altro tipo di cartella, fare clic con il pulsante destro del mouse
 ![](assets/add-new-folder.png)
 
 >[!CAUTION]
->Queste modifiche si applicano a tutti gli utenti di Campaign.
 >
+>Queste modifiche si applicano a tutti gli utenti di Campaign.
 
 ## Trasforma una cartella in una visualizzazione{#turn-a-folder-to-a-view}
 
 Una visualizzazione è una cartella specifica che non contiene dati, ma visualizza dati fisicamente memorizzati in altre cartelle dello stesso tipo.
 
 È possibile trasformare qualsiasi cartella in una visualizzazione, ma la cartella deve essere vuota. Tutti i dati memorizzati nella cartella vengono eliminati quando si trasforma la cartella in una visualizzazione.
+
+>[!IMPORTANT]
+>
+>Le cartelle pronte all’uso non devono essere trasformate in una visualizzazione.
+
 
 >[!CAUTION]
 >
