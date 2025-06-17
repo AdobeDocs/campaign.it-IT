@@ -6,9 +6,9 @@ role: Admin
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
 source-git-commit: fb2cf4407750f8cff65ca53f0e87c32e9702de92
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -51,10 +51,10 @@ I sistemi CRM per la gestione delle relazioni con i clienti compatibili con Adob
 
 I database esterni compatibili con il modulo Federated Data Access (FDA) di Adobe Campaign sono elencati di seguito. Ulteriori informazioni sull’FDA sono disponibili [in questa pagina](../connect/fda.md)
 
-* **[!DNL Amazon Redshift]** connettore ODBC, avvio di Campaign v8.6.4 / v8.7.1
-* Connettore legacy **[!DNL Amazon Redshift]**
+* Connettore ODBC **[!DNL Amazon Redshift]**, a partire dalle versioni v8.6.4 / v8.7.1 di Campaign
+* **[!DNL Amazon Redshift]** connettore legacy
 * **[!DNL Azure Synapse]**, a partire da Campaign v8.5 
-* **[!DNL Databricks]**, avvio di Campaign v8.6.4 / v8.7
+* **[!DNL Databricks]**, a partire dalle versioni v8.6.4 / v8.7 di Campaign
 * **[!DNL Google Big Query]**
 * **[!DNL Snowflake]**
 * **[!DNL Vertica]**
@@ -67,7 +67,7 @@ I database esterni compatibili con il modulo Federated Data Access (FDA) di Adob
 
 Per inviare [notifiche push](../send/push.md) con Campaign, puoi utilizzare l’SDK di Adobe Experience Platform Mobile configurando l’estensione di Adobe Campaign Classic nell’interfaccia utente di raccolta dati.
 
-Le versioni compatibili per iOS e Android sono descritte in dettaglio nella [documentazione di Adobe Developer](https://developer.adobe.com/client-sdks/home/){target="_blank"}.
+Le versioni compatibili per iOS e Android sono descritte in dettagli nella [documentazione di Adobe Developer](https://developer.adobe.com/client-sdks/home/){target="_blank"}.
 
 ## Interfaccia utente web {#web-ui}
 
@@ -88,4 +88,4 @@ I seguenti browser sono compatibili con Campaign per l’accesso web. Ulteriori 
 * [Installare la console client di Campaign](connect.md)
 * [Versioni del Pannello di controllo](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=it){target="_blank"}
 
-Per ricevere informazioni sulle nuove versioni della soluzione Experience Cloud, abbonati ad [Adobe Priority Product Update](https://www.adobe.com/it/subscription/priority-product-update.html){target="_blank"}.
+Per ricevere informazioni sulle nuove versioni della soluzione Experience Cloud, iscriviti ad [Adobe Priority Product Update](https://www.adobe.com/it/subscription/priority-product-update.html){target="_blank"}.

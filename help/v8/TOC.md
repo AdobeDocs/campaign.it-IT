@@ -6,9 +6,9 @@ title: Documentazione di Adobe Campaign v8
 description: Documentazione di Campaign v8
 breadcrumb-title: Documentazione di Campaign v8
 source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '712'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 89%
    + [Guardrail](start/ac-guardrails.md)
    + [Problemi noti](start/known-issues.md)
    + [Matrice di compatibilità](start/compatibility-matrix.md)
-   + [Aggiornamenti della documentazione](start/documentation-updates.md)
+   + [Aggiornamenti alla documentazione](start/documentation-updates.md)
 + Introduzione {#new}
    + [Introduzione ad Adobe Campaign](start/get-started.md)
    + [Funzionalità principali](start/whats-new.md)
@@ -50,12 +50,12 @@ ht-degree: 89%
       + [Progettare e convalidare le e-mail](send/email.md)
       + [Definire il contenuto dell’e-mail](send/defining-the-email-content.md)
       + [Definire il contenuto interattivo](send/defining-interactive-content.md)
-      + [Collegamento a una pagina mirror](send/mirror-page.md)
+      + [Collegamento alla pagina mirror](send/mirror-page.md)
       + [Aggiungere un indirizzo Ccn](send/email-bcc.md)
       + [Definire i parametri e-mail aggiuntivi](send/email-parameters.md)
       + [Inviare e monitorare le e-mail](send/send.md)
-      + [Inviare e-mail su cellulari giapponesi](send/sending-emails-on-japanese-mobiles.md)
-      + [Allegare file a un messaggio e-mail](send/attaching-files.md)
+      + [Inviare e-mail su dispositivi mobili giapponesi](send/sending-emails-on-japanese-mobiles.md)
+      + [Allegare file a un’e-mail](send/attaching-files.md)
    + SMS {#sms}
       + [Introduzione agli SMS](send/sms/sms.md)
       + Configurare il canale SMS {#config-sms}
@@ -107,7 +107,7 @@ ht-degree: 89%
          + [Raccogliere ed elaborare gli eventi](send/event-processing.md)
          + [Informazioni sulla descrizione dell’evento](send/event-description.md)
          + [Inviare e monitorare i messaggi](send/delivery-execution.md)
-+ Gestione di profili e pubblico {#audience}
++ Gestione del profilo e del pubblico {#audience}
    + [Guida introduttiva a profili e tipi di pubblico](audiences/gs-audiences.md)
    + [Utilizzare i tipi di pubblico](start/audiences.md)
    + [Accedere ai profili](audiences/view-profiles.md)
@@ -200,7 +200,7 @@ ht-degree: 89%
       + [Principi globali](architecture/general-architecture.md)
       + [Modelli di architettura](architecture/architecture.md)
       + [Distribuzione FDA di Campaign](architecture/fda-deployment.md)
-      + Distribuzione aziendale (FFDA) {#ffda}
+      + Distribuzione Enterprise (FFDA) {#ffda}
          + [Cos’è Campaign FFDA?](architecture/enterprise-deployment.md)
          + [Gestione delle chiavi e unicità](architecture/keys.md)
          + [Nuove API](architecture/new-apis.md)
