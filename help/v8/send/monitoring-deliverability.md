@@ -30,7 +30,7 @@ Adobe Campaign ti consente di accedere a tutti gli strumenti di recapito messagg
 
   <!--For more on this, see the [Delivery statistics](../reporting/global-reports.md#delivery-statistics) section.-->
 
-* Più in generale, il [dashboard di consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#sending-messages){target="_blank"} ti consente di accedere a:
+* Più in generale, il [dashboard di consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html?lang=it#sending-messages){target="_blank"} ti consente di accedere a:
    * il riepilogo della consegna, che mostra i dettagli dell’invio e il numero di messaggi da inviare, elaborare e inviare con esito positivo;
    * i registri di consegna e la cronologia, che indicano quale target è stato escluso e perché;
    * i registri di tracciamento, che mostrano informazioni di tracciamento come aperture e clic.
@@ -42,7 +42,7 @@ Di seguito sono riportate alcune linee guida aggiuntive sul monitoraggio della c
 * Controlla regolarmente la [velocità effettiva di consegna](../reporting/global-reports.md#delivery-throughput) per l&#39;intera piattaforma per verificare se è coerente con la configurazione originale.
 * Verifica che [nuovi tentativi](delivery-failures.md#retries) siano configurati correttamente (30 minuti per il periodo di esecuzione dei nuovi tentativi e più di 20 tentativi) nei modelli di consegna.
 * Verificare regolarmente che la cassetta postale [bounce](delivery-failures.md#bounce-mail-qualification) sia accessibile e che l&#39;account non stia per scadere.
-* Controlla ogni velocità effettiva di consegna, accessibile dal [dashboard di consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#sending-messages){target="_blank"}, per assicurarti che sia coerente con la validità del contenuto della consegna (ad esempio, le &quot;vendite flash&quot; devono essere consegnate in minuti, non in giorni). è uno strumento chiave per monitorare le consegne e i potenziali problemi durante l’invio dei messaggi.
+* Controlla ogni velocità effettiva di consegna, accessibile dal [dashboard di consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html?lang=it#sending-messages){target="_blank"}, per assicurarti che sia coerente con la validità del contenuto della consegna (ad esempio, le &quot;vendite flash&quot; devono essere consegnate in minuti, non in giorni). è uno strumento chiave per monitorare le consegne e i potenziali problemi durante l’invio dei messaggi.
 * Quando utilizzi [scaglioni](configure-and-send.md#sending-using-multiple-waves), verifica che ogni scaglione abbia tempo sufficiente per terminare prima che venga attivato il successivo.
 * Verifica che il numero di errori e le nuove [quarantene](quarantines.md) siano coerenti con le altre consegne.
-* Consulta attentamente i [registri di consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#delivery-logs-and-history){target="_blank"} per verificare il tipo di errori evidenziati (inserisce nell&#39;elenco Bloccati di, problemi DNS, regole anti-spam, ecc.).
+* Consulta attentamente i [registri di consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html?lang=it#delivery-logs-and-history){target="_blank"} per verificare il tipo di errori evidenziati (inserisce nell&#39;elenco Bloccati di, problemi DNS, regole anti-spam, ecc.).
