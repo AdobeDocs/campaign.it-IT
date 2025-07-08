@@ -5,9 +5,9 @@ user-guide-description: Documentazione di prodotto per Adobe Campaign v8 (consol
 title: Documentazione di Adobe Campaign v8
 description: Documentazione di Campaign v8
 breadcrumb-title: Documentazione di Campaign v8
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
-workflow-type: ht
-source-wordcount: '712'
+source-git-commit: b4947c8c20e123877e24f57d5ad7a15aa3f304a2
+workflow-type: tm+mt
+source-wordcount: '725'
 ht-degree: 100%
 
 ---
@@ -45,6 +45,7 @@ ht-degree: 100%
 + Inviare messaggi{#send}
    + [Introduzione ai messaggi](start/gs-message.md)
    + [Creare la prima consegna](start/create-message.md)
+   + [Utilizzare i modelli di consegna](send/create-templates.md)
    + [Best practice per la consegna](start/delivery-best-practices.md)
    + E-mail {#emails}
       + [Progettare e convalidare le e-mail](send/email.md)
@@ -99,7 +100,12 @@ ht-degree: 100%
    + Errori, mancati recapiti e quarantene{#failures}
       + [Quarantene](send/quarantines.md)
       + [Errori di consegna](send/delivery-failures.md)
-   + [Utilizzare i modelli di consegna](send/create-templates.md)
+   + Gestione della recapitabilità {#deliverability-management}
+      + [Che cos’è il recapito messaggi](send/about-deliverability.md)
+      + [Controllare il contenuto dei messaggi](send/control-message-content.md)
+      + [Monitoraggio del recapito messaggi](send/monitoring-deliverability.md)
+      + [Rendering della casella in entrata](send/inbox-rendering.md)
+      + [SpamAssassin](send/spamassassin.md)
    + Messaggi transazionali {#real-time}
       + [Introduzione ai messaggi transazionali](send/transactional.md)
       + [Creare e pubblicare il modello](send/transactional-template.md)
