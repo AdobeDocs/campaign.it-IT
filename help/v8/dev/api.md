@@ -21,8 +21,8 @@ ht-degree: 14%
 
 Puoi utilizzare le API di JavaScript per scrivere nel database cloud di Campaign o leggere dal database:
 
-* API specifiche per l’azienda che consentono di agire su ciascun oggetto: consegne, flussi di lavoro, abbonamenti e così via. Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html){target="_blank"}.
-* API di accesso ai dati generiche per l’esecuzione di query sui dati del modello di dati. Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html){target="_blank"}.
+* API specifiche per l’azienda che consentono di agire su ciascun oggetto: consegne, flussi di lavoro, abbonamenti e così via. Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html?lang=it){target="_blank"}.
+* API di accesso ai dati generiche per l’esecuzione di query sui dati del modello di dati. Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html?lang=it){target="_blank"}.
 
 Nella distribuzione [Enterprise (FFDA)](../architecture/enterprise-deployment.md), Campaign funziona con due database: un database locale per la messaggistica in tempo reale, le query unitarie dell&#39;interfaccia utente e le operazioni di scrittura tramite API; e un database cloud per l&#39;esecuzione della campagna, il reporting, l&#39;acquisizione dei dati, le query batch e l&#39;esecuzione dei flussi di lavoro.
 
