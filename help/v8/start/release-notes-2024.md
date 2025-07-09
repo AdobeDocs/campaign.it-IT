@@ -1,30 +1,55 @@
 ---
-title: Note sulla versione 2024 di Campaign v8 (console)
-description: Elenco delle funzioni e dei miglioramenti introdotti con le versioni v8 di Campaign 2024
+title: Note sulla versione di Campaign v8 (console) 2024
+description: Elenco di funzioni e miglioramenti introdotti con le versioni di Campaign v8 2024
 feature: Release Notes
 exl-id: 6a0a9486-19a9-4ec3-9030-48dbf419f45f
-source-git-commit: 57b18835b87be2a201ce23f5b6053266d13b9cb8
+source-git-commit: b52308bcbe68a7c382918fe28f8166e3bfcb6cde
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 77%
+source-wordcount: '1568'
+ht-degree: 91%
 
 ---
 
 # Note sulla versione 2024 {#2024-rn}
 
-In questa pagina sono elencate nuove funzionalità, miglioramenti e correzioni introdotti con le versioni di **2024 Campaign v8**.
+In questa pagina sono elencate le nuove funzionalità, i miglioramenti e le correzioni inclusi nelle **versioni di Campaign v8 2024**. Per la versione più recente, consulta [questa pagina](release-notes.md).
+
+Per qualsiasi nuova implementazione o aggiornamento a un ambiente esistente, installa [la versione più recente](release-notes.md).
+
 
 >[!BEGINSHADEBOX]
 
 **In questa pagina**
 
-* Campaign v8.7 - [Versione 8.7.1](#release-8-7-1)
+* Campaign v8.7 - [Versione 8.7.1](#release-8-7-1) | [Versione 8.7.2](#release-8-7-2)
 * Campaign v8.6 - [Versione 8.6.1](#release-8-6-1) | [Versione 8.6.2](#release-8-6-2) | [Versione 8.6.3](#release-8-6-3)
 * Campaign v8.5 - [Versione 8.5.3](#release-8-5-3)
 
 >[!ENDSHADEBOX]
 
+## Versione 8.7.2 {#release-8-7-2}
 
+_3 settembre 2024_
+
+>[!AVAILABILITY]
+>
+>Questa versione è in **Disponibilità limitata** (LA). È limitata ai clienti che eseguono la migrazione **da Adobe Campaign Standard ad Adobe Campaign v8** e non possono essere distribuiti in nessun altro ambiente.
+>
+>In qualità di utente Campaign Standard che passa a Campaign v8, scopri di più su questa transizione nella [documentazione sull’interfaccia utente web di Campaign v8](https://experienceleague.adobe.com/it/docs/campaign-web/v8/start/acs-migration){target="_blank"}.
+
+### Nuove funzioni {#new-8-7-2}
+
+* **Nuovo connettore di invio SMS** - Il connettore di invio SMS è stato modernizzato e migliorato per abilitare le connessioni SMPP in modalità ricetrasmettitore, abilitare le connessioni SMPP permanenti e garantire una migliore compatibilità per gli ambienti in transizione da Adobe Campaign Standard. È ora disponibile un nuovo account esterno SMS per tutte le nuove implementazioni SMS. L’implementazione esistente è ancora supportata, tuttavia si consiglia di passare a questo nuovo connettore moderno ed esteso. [Ulteriori informazioni](../send/sms/sms.md).
+
+* **Notifica push avanzata (GA)**: ora puoi inviare notifiche push avanzate. La notifica push avanzata è una forma avanzata di notifica mobile che va oltre i semplici messaggi di testo incorporando elementi multimediali come immagini, pulsanti interattivi o altri contenuti rich media. Con questa versione, è ora disponibile un set di modelli per notifiche push avanzate per le app iOS e Android. [Ulteriori informazioni](../send/rich-push-android.md).
+
+* **Branding** - Le opzioni di branding sono ora disponibili per tutti i canali, inclusi SMS e Direct mail. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html){target="_blank"}
+
+### Correzioni {#fixes-8-7-2}
+
+In questa versione sono stati risolti i seguenti problemi:
+
+NEO-48232, NEO-56832, NEO-72504, NEO-74855, NEO-75898, NEO-76097, NEO-76958, NEO-77014, NEO-77795, NEO-78843, NEO-79328.
 
 ## Versione 8.7.1 {#release-8-7-1}
 
@@ -34,30 +59,30 @@ _2 maggio 2024_
 >
 >Questa versione è in **Disponibilità limitata** (LA). È limitata ai clienti che eseguono la migrazione **da Adobe Campaign Standard ad Adobe Campaign v8** e non possono essere distribuiti in nessun altro ambiente.
 >
->In qualità di utente di Campaign Standard che passa a Campaign v8, scopri di più su questa transizione nella [documentazione dell&#39;interfaccia utente web di Campaign v8](https://experienceleague.adobe.com/it/docs/campaign-web/v8/start/acs-migration){target="_blank"}.
+>In qualità di utente Campaign Standard che passa a Campaign v8, scopri di più su questa transizione nella [documentazione sull’interfaccia utente web di Campaign v8](https://experienceleague.adobe.com/it/docs/campaign-web/v8/start/acs-migration){target="_blank"}.
 
 ### Nuove funzioni {#new-8-7-1}
 
 * **Modelli di notifiche push avanzate**: è ora possibile inviare notifiche push avanzate tramite Android. La notifica push avanzata è una forma avanzata di notifica mobile che va oltre i semplici messaggi di testo incorporando elementi multimediali come immagini, pulsanti interattivi o altri contenuti rich media. [Ulteriori informazioni](../send/rich-push-ios.md).
 
-* **Branding**: in qualità di utente Campaign Standard migrato, gli amministratori tecnici possono ora definire uno o più brand per centralizzare i parametri che ne influiscono l’identità. Ciò include il logo del brand, il dominio dell’URL di accesso delle pagine di destinazione o le impostazioni di tracciamento dei messaggi. Puoi creare questi brand e collegarli a messaggi o pagine di destinazione. Questa configurazione viene gestita tramite modelli. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=it){target="_blank"}
+* **Branding**: in qualità di utente Campaign Standard migrato, gli amministratori tecnici possono ora definire uno o più brand per centralizzare i parametri che ne influiscono l’identità. Ciò include il logo del brand, il dominio dell’URL di accesso delle pagine di destinazione o le impostazioni di tracciamento dei messaggi. Puoi creare questi brand e collegarli a messaggi o pagine di destinazione. Questa configurazione viene gestita tramite modelli. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html){target="_blank"}
 
-* **API REST**: in qualità di utente Campaign Standard migrato, puoi utilizzare le API REST per creare integrazioni per Adobe Campaign e il tuo ecosistema interfacciando Adobe Campaign con il pannello di tecnologie utilizzato. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=it){target="_blank"}
+* **API REST**: in qualità di utente Campaign Standard migrato, puoi utilizzare le API REST per creare integrazioni per Adobe Campaign e il tuo ecosistema interfacciando Adobe Campaign con il pannello di tecnologie utilizzato. [Ulteriori informazioni](../dev/api/get-started-apis.md)
 
-* **Reporting dinamico**: in qualità di utente Campaign Standard migrato, puoi accedere al Reporting dinamico che fornisce rapporti completamente personalizzabili e in tempo reale per misurare l’impatto delle attività di marketing. Permette di accedere ai dati del profilo, abilitando l’analisi demografica per dimensioni di profilo, come genere, città ed età, oltre ai dati funzionali delle campagne e-mail come aperture e clic. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=it){target="_blank"}
+* **Reporting dinamico**: in qualità di utente Campaign Standard migrato, puoi accedere al Reporting dinamico che fornisce rapporti completamente personalizzabili e in tempo reale per misurare l’impatto delle attività di marketing. Permette di accedere ai dati del profilo, abilitando l’analisi demografica per dimensioni di profilo, come genere, città ed età, oltre ai dati funzionali delle campagne e-mail come aperture e clic. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"}
 
 ### Aggiornamenti della compatibilità {#comp-8-7-1}
 
-Sono stati aggiunti i seguenti connettori FDA. Fai riferimento a questa [pagina](compatibility-matrix.md#FederatedDataAccessFDA).
+Sono stati aggiunti i seguenti connettori FDA. Consulta [questa pagina](compatibility-matrix.md#FederatedDataAccessFDA).
 
-* I database sono ora supportati come database esterno con Federated Data Access (FDA) di Adobe Campaign.
+* Databricks è ora supportato come database esterno con il Federated Data Access (FDA) di Adobe Campaign.
 
-* È ora disponibile un nuovo connettore ODBC Amazon Redshift FDA. Offre connettività migliorata, manutenzione semplificata e compatibilità migliorata. Questa nuova versione include i seguenti miglioramenti:
+* È ora disponibile un nuovo connettore Amazon Redshift FDA ODBC. Offre connettività migliorata, manutenzione semplificata e compatibilità avanzata. Questa nuova versione include i seguenti miglioramenti:
 
-   * Il nuovo connettore si basa sull&#39;interfaccia ODBC che si allinea ai nostri connettori FDA più recenti. Questo garantisce un supporto a lungo termine.
-   * Inoltre, introduce un nuovo meccanismo di caricamento dei dati utilizzando bucket s3, che migliora in modo significativo le prestazioni.
+   * Il nuovo connettore si basa sull’interfaccia ODBC che si allinea ai connettori FDA più recenti. Questo garantisce un supporto a lungo termine.
+   * Inoltre, introduce un nuovo meccanismo di caricamento dei dati utilizzando bucket S3, che migliora in modo significativo le prestazioni.
 
-  È comunque possibile utilizzare il connettore legacy. Se vuoi provare il nuovo, contatta il tuo rappresentante Adobe.
+  È comunque possibile utilizzare il connettore legacy. Se desideri provare quello nuovo, contatta il tuo rappresentante Adobe.
 
 ### Migrazione alle credenziali OAuth server-to-server {#change-8-7-1}
 
@@ -132,7 +157,7 @@ _14 febbraio 2024_
 
   >[!AVAILABILITY]
   >
-  >L’interfaccia utente di Campaign Web è disponibile solo per gli utenti che si connettono a Adobe Campaign con il proprio Adobe ID. Ulteriori informazioni su [Adobe Identity Management System (IMS)](https://helpx.adobe.com/it/enterprise/using/identity.html){target="_blank"}.
+  >L’interfaccia utente di Campaign Web è disponibile solo per gli utenti che si connettono ad Adobe Campaign con il proprio Adobe ID. Ulteriori informazioni su [Adobe Identity Management System (IMS)](https://helpx.adobe.com/it/enterprise/using/identity.html){target="_blank"}.
   >
 
 * Adobe Campaign v8 ora si integra con **Adobe Experience Manager as a Cloud Service** e l’authoring sarà disponibile esclusivamente tramite l’interfaccia utente di Adobe Campaign Web. [Ulteriori informazioni](../connect/ac-aem.md)
@@ -148,7 +173,7 @@ _14 febbraio 2024_
 
 * Entro febbraio 2024, qualsiasi azienda che invia più di 5.000 messaggi e-mail tramite Google o Yahoo! dovrà iniziare a utilizzare una tecnologia di autenticazione nota come Domain-based Message Authentication Reporting and Conformance (DMARC). Assicurati di aver impostato il record DMARC per tutti i sottodomini che utilizzi con Adobe Campaign. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=it){target="_blank"}
 
-* A partire dal 1° giugno 2024, Google e Yahoo! richiederanno ai mittenti di conformarsi all’opzione Annulla iscrizione elenco con un clic. Adobe Campaign ora supporta questa opzione. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=it#list-unsubscribe){target="_blank"}
+* A partire dal 1° giugno 2024, Google e Yahoo! richiederanno ai mittenti di conformarsi all’opzione Annulla iscrizione elenco con un clic. Adobe Campaign ora supporta questa opzione. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#list-unsubscribe){target="_blank"}
 
 
 ### Correzioni {#fixes-8-6-1}

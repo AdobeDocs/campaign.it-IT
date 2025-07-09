@@ -5,9 +5,9 @@ feature: Profiles, Monitoring
 role: User, Data Engineer
 level: Beginner
 exl-id: 220b7a88-bd42-494b-b55b-b827b4971c9e
-source-git-commit: e45799f0f3849d53d2c5f593bc02954b3a55fc28
+source-git-commit: cb4cbc9ba14e953d2b3109e87eece4f310bfe838
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1213'
 ht-degree: 4%
 
 ---
@@ -20,15 +20,21 @@ Quando l’indirizzo o il numero di telefono vengono messi in quarantena, i dest
 
 <!--For more on best practices to secure and optimize your deliveries, refer to [this page](delivery-best-practices.md).-->
 
-**Quarantena** si applica solo a un **indirizzo**, a un **numero di telefono** o a un **token dispositivo**, ma non al profilo stesso. Ad esempio, un profilo con un indirizzo e-mail messo in quarantena può aggiornare il profilo e immettere un nuovo indirizzo, per poi essere nuovamente indirizzato mediante azioni di consegna. Allo stesso modo, se due profili hanno lo stesso numero di telefono, saranno entrambi interessati se il numero viene messo in quarantena. Gli indirizzi o i numeri di telefono messi in quarantena vengono visualizzati nei [registri di esclusione](#delivery-quarantines) (per una consegna) o nell&#39;[elenco di quarantena](#non-deliverable-bounces) (per l&#39;intera piattaforma).
+## Quarantena e elenco Bloccati di
 
-D&#39;altra parte, i profili possono trovarsi nel **inserisco nell&#39;elenco Bloccati di** come dopo l&#39;annullamento dell&#39;abbonamento (rinuncia) per un determinato canale: questo implica che non sono più oggetto di targeting da parte di alcun. Di conseguenza, se un profilo nel elenco Bloccati di per il canale e-mail ha due indirizzi e-mail, entrambi gli indirizzi verranno esclusi dalla consegna. È possibile verificare se un profilo si trova nel elenco Bloccati di accesso a uno o più canali nella sezione **[!UICONTROL No longer contact]** della scheda **[!UICONTROL General]** del profilo. [Ulteriori informazioni](../audiences/view-profiles.md)
+**Quarantena** si applica solo a un **indirizzo**, a un **numero di telefono** o a un **token dispositivo**, ma non al profilo stesso. Ad esempio, un profilo con un indirizzo e-mail messo in quarantena può aggiornare il profilo e immettere un nuovo indirizzo, per poi essere nuovamente indirizzato mediante azioni di consegna. Allo stesso modo, se due profili hanno lo stesso numero di telefono, saranno entrambi interessati se il numero viene messo in quarantena. Gli indirizzi o i numeri di telefono messi in quarantena vengono visualizzati nei [registri di esclusione](#delivery-quarantines) (per una consegna) o nell&#39;[elenco di quarantena](#non-deliverable-bounces) (per l&#39;intera piattaforma).
 
 >[!NOTE]
 >
 >Quando i destinatari segnalano il messaggio come spam o rispondono a un messaggio SMS con una parola chiave come &quot;STOP&quot;, il loro indirizzo o numero di telefono viene messo in quarantena come **[!UICONTROL Denylisted]**. Il loro profilo viene aggiornato di conseguenza.
 
-<!--For the email channel, email addresses are quarantined. For the mobile app channel, device tokens are quarantined. For the SMS channel, phone numbers are quarantined.?-->
+D&#39;altra parte, **profili** possono trovarsi nel **inserisco nell&#39;elenco Bloccati di** come dopo l&#39;annullamento dell&#39;abbonamento (rinuncia) per un determinato canale: ciò implica che non sono più oggetto di targeting da alcuna consegna. Di conseguenza, se un profilo nel elenco Bloccati di per il canale e-mail ha due indirizzi e-mail, entrambi gli indirizzi verranno esclusi dalla consegna. È possibile verificare se un profilo si trova nel elenco Bloccati di accesso a uno o più canali nella sezione **[!UICONTROL No longer contact]** della scheda **[!UICONTROL General]** del profilo. [Ulteriori informazioni](../audiences/view-profiles.md)
+
+>[!NOTE]
+>
+>I destinatari non sottoscritti tramite il metodo [&quot;mailto&quot; List-Unsubscribe](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations#mailto-list-unsubscribe){target="_blank"} non vengono messi in quarantena. È stato annullato l&#39;abbonamento al [servizio](../start/subscriptions.md) associato alla consegna oppure è stato inviato al inserisco nell&#39;elenco Bloccati di (visibile nella sezione **[!UICONTROL No longer contact]** del profilo) se per la consegna non è stato definito alcun servizio.
+
+<!--For the mobile app channel, device tokens are quarantined.-->
 
 ## Perché viene messa in quarantena un’e-mail, un telefono o un dispositivo {#quarantine-reason}
 
@@ -42,7 +48,7 @@ Adobe Campaign gestisce la quarantena in base al tipo di consegna non riuscita e
 Nell&#39;elenco degli indirizzi messi in quarantena, il campo **[!UICONTROL Error reason]** indica il motivo per cui l&#39;indirizzo selezionato è stato messo in quarantena. [Ulteriori informazioni](#identifying-quarantined-addresses-for-the-entire-platform).
 
 
-Se un utente qualifica un’e-mail come spam, il messaggio viene automaticamente reindirizzato verso una casella di posta tecnica gestita da Adobe. L’indirizzo e-mail dell’utente viene quindi messo automaticamente in quarantena con lo stato **[!UICONTROL Denylisted]**. Questo stato si riferisce solo all’indirizzo, il profilo non è nel inserisco nell&#39;elenco Bloccati di, in modo che l’utente continui a ricevere messaggi SMS e notifiche push. Ulteriori informazioni sui cicli di feedback sono disponibili nella [Guida alle best practice per le consegne](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=it#feedback-loops){target="_blank"}.
+Se un utente qualifica un’e-mail come spam, il messaggio viene automaticamente reindirizzato verso una casella di posta tecnica gestita da Adobe. L’indirizzo e-mail dell’utente viene quindi messo automaticamente in quarantena con lo stato **[!UICONTROL Denylisted]**. Questo stato si riferisce solo all’indirizzo, il profilo non è nel inserisco nell&#39;elenco Bloccati di, in modo che l’utente continui a ricevere messaggi SMS e notifiche push. Ulteriori informazioni sui cicli di feedback sono disponibili nella [Guida alle best practice per le consegne](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target="_blank"}.
 
 >[!NOTE]
 >
@@ -77,7 +83,7 @@ Per visualizzare l&#39;elenco degli indirizzi messi in quarantena **per l&#39;in
 
 Inoltre, il report integrato **[!UICONTROL Non-deliverables and bounces]**, disponibile nella sezione **Reports** di questa home page, visualizza informazioni sugli indirizzi messi in quarantena, sui tipi di errore riscontrati e un raggruppamento di errori per dominio. Puoi filtrare i dati per una consegna specifica o personalizzare questo rapporto in base alle esigenze.
 
-Ulteriori informazioni sugli indirizzi non recapitati nella [Guida alle best practice per il recapito messaggi](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=it){target="_blank"}.
+Ulteriori informazioni sugli indirizzi non recapitati nella [Guida alle best practice per il recapito messaggi](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html){target="_blank"}.
 
 ### Indirizzo e-mail in quarantena {#quarantined-recipient}
 

@@ -1,25 +1,24 @@
 ---
-title: Impostazioni di consegna SMS
+title: Impostazioni sulla consegna SMS
 description: Scopri come impostare una consegna SMS
 feature: SMS
 role: User
 level: Beginner, Intermediate
-badge: label="Disponibilità limitata" type="Informative"
 exl-id: c4d500ef-2339-491f-9ae2-9bfaf72088a9
-source-git-commit: 826abd5c5f8b191d34abf724b91c5a82665d00a2
+source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 0%
+source-wordcount: '800'
+ht-degree: 1%
 
 ---
 
-# Impostazioni di consegna SMS {#sms-settings}
+# Impostazioni sulla consegna SMS {#sms-settings}
 
 >[!IMPORTANT]
 >
->Questa documentazione è per Adobe Campaign v8.7.2 e versioni successive.
+>Questa documentazione si applica ad Adobe Campaign v8.7.2 e versioni successive. Per passare dalla versione precedente al nuovo connettore SMS, fai riferimento a questa [nota tecnica](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"}
 >
->Per le versioni precedenti, leggere la [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/it/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up).
+>Per le versioni precedenti, leggere la [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}.
 
 Le impostazioni tecniche necessarie per una consegna SMS sono:
 

@@ -5,10 +5,10 @@ feature: Application Settings, External Account
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
+source-git-commit: d43fb6dc75113e7e89315b731ed8b4a77951125c
 workflow-type: tm+mt
-source-wordcount: '1049'
-ht-degree: 5%
+source-wordcount: '1118'
+ht-degree: 4%
 
 ---
 
@@ -44,7 +44,7 @@ I seguenti account tecnici vengono utilizzati da Adobe Campaign per abilitare ed
 
 L&#39;account esterno **Messaggi non recapitati** specifica l&#39;account POP3 esterno da utilizzare per connettersi al servizio e-mail. Tutti i server configurati per l&#39;accesso POP3 possono essere utilizzati per ricevere la posta di ritorno.
 
-Ulteriori informazioni sulle e-mail in entrata in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html?lang=it){target="_blank"}.
+Ulteriori informazioni sulle e-mail in entrata in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html){target="_blank"}.
 
 ![](assets/bounce_external_1.png)
 
@@ -118,7 +118,7 @@ Nel contesto della messaggistica transazionale, le istanze di esecuzione sono co
 
 ## Trasferisci dati account esterni {#transfer-data-external-accounts}
 
-Questi account esterni possono essere utilizzati per importare o esportare dati in Adobe Campaign utilizzando un&#39;attività del flusso di lavoro **[!UICONTROL Transfer file]**. Ulteriori informazioni su **Trasferimento file** nei flussi di lavoro in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=it){target="_blank"}.
+Questi account esterni possono essere utilizzati per importare o esportare dati in Adobe Campaign utilizzando un&#39;attività del flusso di lavoro **[!UICONTROL Transfer file]**. Ulteriori informazioni su **Trasferimento file** nei flussi di lavoro in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}.
 
 * **FTP e SFTP** - L&#39;account esterno **FTP** consente di configurare e testare l&#39;accesso a un server esterno a Adobe Campaign. Per configurare le connessioni con sistemi esterni, come i server SFTP o FTP 898 utilizzati per i trasferimenti di file, puoi creare account esterni.
 
@@ -126,7 +126,7 @@ Questi account esterni possono essere utilizzati per importare o esportare dati 
 
   >[!NOTE]
   >
-  >A partire dalla versione 8.5, ora puoi eseguire l’autenticazione in modo sicuro utilizzando una chiave privata durante la configurazione dell’account esterno SFTP. [Ulteriori informazioni sulla gestione delle chiavi](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=it){target="_blank"}.
+  >A partire dalla versione 8.5, ora puoi eseguire l’autenticazione in modo sicuro utilizzando una chiave privata durante la configurazione dell’account esterno SFTP. [Ulteriori informazioni sulla gestione delle chiavi](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html){target="_blank"}.
 
 * **Servizio Amazon Simple Storage (S3)** - Il connettore **AWS S3** può essere utilizzato per importare o esportare dati in Adobe Campaign utilizzando un&#39;attività del flusso di lavoro **[!UICONTROL Transfer file]**. Quando imposti questo nuovo account esterno, dovrai fornire i seguenti dettagli:
 
@@ -147,3 +147,11 @@ Questi account esterni possono essere utilizzati per importare o esportare dati 
    * **[!UICONTROL Encryption]**: tipo di crittografia tra **[!UICONTROL None]** o **[!UICONTROL SSL]**.
 
    * **[!UICONTROL Access key]**: scopri come trovare **[!UICONTROL Access key]** nella [documentazione di Microsoft](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"}.
+
+* **Microsoft Fabric** - L&#39;account esterno **Microsoft Fabric** consente di importare ed esportare dati tra Microsoft Fabric e Adobe Campaign utilizzando l&#39;attività del flusso di lavoro **[!UICONTROL Transfer file]**. Per configurare questa integrazione, fornisci i seguenti dettagli:
+
+   * **[!UICONTROL Server]**: URL del server di archiviazione Microsoft Fabric.
+
+   * **[!UICONTROL Application ID]**: identificatore univoco dell&#39;applicazione utilizzata per l&#39;autenticazione e l&#39;accesso alle risorse di Microsoft Fabric.
+
+   * **[!UICONTROL Client secret]**: la chiave o la password di autenticazione associata all&#39;applicazione, necessaria per connettersi in modo sicuro a Microsoft Fabric.

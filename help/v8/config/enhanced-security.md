@@ -5,10 +5,10 @@ feature: Configuration
 role: Developer
 level: Experienced
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
-source-git-commit: 24b252373923a9724743650b13a69d4f2c8dcd24
+source-git-commit: 3f36d7c425dd5a9a13e1de7a77371b29a462dbea
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 2%
+source-wordcount: '727'
+ht-degree: 3%
 
 ---
 
@@ -96,7 +96,7 @@ Sono supportati tre casi d’uso:
 
 >[!CAUTION]
 >
->Sono supportati solo i database on-premise e i dispositivi VPN conformi a AWS. [Ulteriori informazioni](#vpn-databases)
+>Sono supportati i database locali e cloud. [Ulteriori informazioni](#vpn-databases)
 
 Per garantire un utilizzo corretto di questa funzione, attieniti alle linee guida seguenti:
 
@@ -122,8 +122,9 @@ Sono supportati i seguenti database locali:
 * Sybase
 * Teradata
 * Hadoop tramite HiveSQL
+* PostgreSQL
 
-Sono supportati solo i dispositivi VPN conformi ad AWS. Un elenco di dispositivi compatibili è disponibile in [questa pagina](https://docs.aws.amazon.com/vpn/latest/s2svpn/your-cgw.html#example-configuration-files){target="_blank"}.
+I database cloud sono supportati. Consulta la [matrice di compatibilità](../start/compatibility-matrix.md#FederatedDataAccessFDA).
 
 >[!NOTE]
 >
