@@ -5,20 +5,20 @@ feature: SMS
 role: User
 level: Beginner, Intermediate
 exl-id: 704e151a-b863-46d0-b8a1-fca86abd88b9
-source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
+source-git-commit: ea51863bdbc22489af35b2b3c81259b327380be4
 workflow-type: tm+mt
-source-wordcount: '1340'
+source-wordcount: '1342'
 ht-degree: 5%
 
 ---
 
 # Descrizione del connettore SMPP {#smpp-connector-desc}
 
->[!IMPORTANT]
+>[!AVAILABILITY]
 >
->Questa documentazione si applica ad Adobe Campaign v8.7.2 e versioni successive. Per passare dalla versione precedente al nuovo connettore SMS, fai riferimento a questa [nota tecnica](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"}.
+>Questa funzionalità è disponibile per tutti gli ambienti FDA di Campaign. È **non** disponibile per le distribuzioni FFDA di Campaign. Questa documentazione si applica ad Adobe Campaign v8.7.2 e versioni successive. Per passare dalla versione precedente al nuovo connettore SMS, fai riferimento a questa [nota tecnica](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"}
 >
->Per le versioni precedenti, leggere la [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/it/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}.
+>Per le versioni precedenti, leggere la [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}.
 
 ## Flusso di dati del connettore SMS {#sms-data-flow}
 
@@ -32,13 +32,13 @@ Il processo SMS ospita 2 componenti importanti: il connettore SMPP che gestisce 
 
 ### Flusso di dati per gli account SMPP {#sms-data-flow-smpp-accounts}
 
-Il processo SMS esegue il polling di nms:extAccount e genera nuove connessioni nel connettore SMPP, passando le impostazioni di ciascun account. La frequenza di polling può essere regolata in serverConf nell&#39;impostazione *configRefreshMillis*.
+Il processo SMS esegue il polling di nms:extAccount e genera nuove connessioni nel connettore SMPP, passando le impostazioni di ogni account. La frequenza di polling può essere regolata in serverConf nell&#39;impostazione *configRefreshMillis*.
 
 Per ogni account SMPP attivo, il connettore SMPP cerca di mantenere sempre attive le connessioni. Si riconnette se la connessione viene persa.
 
 ### Flusso di dati durante l’invio di messaggi {#sms-data-flow-sending-msg}
 
-* Il processo SMS seleziona le consegne attive analizzando nms:delivery. Una consegna è attiva quando:
+* Il processo SMS seleziona le consegne attive eseguendo la scansione di nms:delivery. Una consegna è attiva quando:
    * Il suo stato implica che i messaggi possono essere inviati
    * Il suo periodo di validità non è scaduto
    * In realtà è una consegna (ad esempio non è un modello, non viene eliminato)
@@ -47,9 +47,9 @@ Per ogni account SMPP attivo, il connettore SMPP cerca di mantenere sempre attiv
 * Il processo SMS espande il modello con i dati di personalizzazione della parte di consegna.
 * Il connettore SMPP genera una PDU MT (SUBMIT_SM PDU) che corrisponde al contenuto e ad altre impostazioni.
 * Il connettore SMPP invia il messaggio MT tramite una connessione del trasmettitore (o ricetrasmettitore).
-* Il provider restituisce un ID per questo messaggio MT. Viene inserito in nms:providerMsgId.
+* Il provider restituisce un ID per questo messaggio MT. È inserito in nms:providerMsgId.
 * Il processo SMS aggiorna l’ampio registro allo stato inviato.
-* In caso di errore finale, il processo SMS aggiorna di conseguenza l’ampio registro e può creare un nuovo tipo di errore in nms:broadLogMsg.
+* In caso di errore finale, il processo SMS aggiorna di conseguenza l&#39;ampio registro e potrebbe creare un nuovo tipo di errore in nms:broadLogMsg.
 
 ### Flusso di dati durante la ricezione di messaggi SR {#sms-data-flow-sr}
 
@@ -61,7 +61,7 @@ Per ogni account SMPP attivo, il connettore SMPP cerca di mantenere sempre attiv
 ### Flusso di dati durante la ricezione di un messaggio MO {#sms-data-flow-mo}
 
 * Il connettore SMPP riceve e decodifica il MO (DELIVER_SM PDU).
-* La parola chiave viene estratta dal messaggio. Se corrisponde a una qualsiasi parola chiave dichiarata, vengono eseguite le azioni corrispondenti. Può scrivere in nms:address per aggiornare la quarantena.
+* La parola chiave viene estratta dal messaggio. Se corrisponde a una qualsiasi parola chiave dichiarata, vengono eseguite le azioni corrispondenti. È possibile scrivere in nms:address per aggiornare la quarantena.
 * Se vengono dichiarati valori TLV personalizzati, vengono decodificati in base alle rispettive impostazioni.
 * Il MO completamente decodificato ed elaborato viene inserito nella tabella nms:inSms.
 * Il connettore SMPP risponde con una PDU DELIVER_SM_RESP. Se viene rilevato un errore, verrà restituito un codice di errore al provider.
@@ -70,7 +70,7 @@ Per ogni account SMPP attivo, il connettore SMPP cerca di mantenere sempre attiv
 
 * Il componente di riconciliazione SR legge periodicamente nms:providerMsgId e nms:providerMsgStatus. I dati di entrambe le tabelle sono collegati in join.
 * Per tutti i messaggi che hanno una voce in entrambe le tabelle, la voce corrispondente nms:broadLog viene aggiornata.
-* La tabella nms:broadLogMsg può essere aggiornata nel processo se viene rilevato un nuovo tipo di errore o per aggiornare i contatori per gli errori che non sono stati qualificati manualmente.
+* È possibile aggiornare la tabella nms:broadLogMsg nel processo se viene rilevato un nuovo tipo di errore o per aggiornare i contatori per gli errori non qualificati manualmente.
 
 ## Voci MT, SR e broadlog corrispondenti {#sms-matching-entries}
 
@@ -84,7 +84,7 @@ Ecco un diagramma che descrive l’intero processo:
 * Il connettore SMPP lo formatta come PDU MT SUBMIT_SM.
 * Il messaggio MT viene inviato al provider SMPP.
 * Il provider risponde con SUBMIT_SM_RESP. SUBMIT_SM e SUBMIT_SM_RESP corrispondono al rispettivo sequence_number.
-* SUBMIT_SM_RESP fornisce un ID proveniente dal provider. Questo ID viene inserito insieme all’ID di registro ampio nella tabella nms:providerMsgId.
+* SUBMIT_SM_RESP fornisce un ID proveniente dal provider. Questo ID viene inserito insieme all&#39;ID di registro generale nella tabella nms:providerMsgId.
 
 **Fase 2**
 
