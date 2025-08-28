@@ -5,18 +5,18 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: ad96c126836981f861c246eafa2ec7d2c0e179dc
+version: Campaign v8, Campaign Classic v7
+source-git-commit: b24e05f152bc299ea7953856bfa71950b5cc9837
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 17%
+source-wordcount: '493'
+ht-degree: 11%
 
 ---
 
+
 # Utilizzare i tipi di pubblico in Campaign{#gs-ac-audiences}
 
-I profili sono contatti memorizzati nel database di Campaign.
-
-In Adobe Campaign, **destinatari** sono i profili predefiniti target per l&#39;invio di consegne (e-mail, SMS, ecc.). I dati dei destinatari memorizzati nel database consentono di filtrare il target che riceverà una determinata consegna e di aggiungere dati di personalizzazione al contenuto della consegna. Nel database sono presenti altri tipi di profili. Essi sono progettati per diversi utilizzi. Ad esempio, i profili di seed vengono creati per testare le consegne prima che vengano inviate al target finale.
+I profili rappresentano i contatti memorizzati nel database di Adobe Campaign. Per impostazione predefinita, **destinatari** sono i profili principali utilizzati per l&#39;invio di consegne quali e-mail, SMS o direct mailing. I dati dei destinatari memorizzati nel database ti consentono di definire e filtrare i tipi di pubblico target e di personalizzare il contenuto della consegna. Oltre ai destinatari, esistono altri tipi di profilo per scopi specifici. Ad esempio, i profili di seed consentono di testare le consegne prima che vengano inviate al pubblico effettivo.
 
 Scopri come importare, aggiornare e gestire profili e tipi di pubblico [in questa sezione](../audiences/gs-audiences.md).
 
@@ -45,7 +45,7 @@ Un profilo attivo è un profilo con cui il cliente ha tentato di comunicare negl
 
 In base al contratto, a ciascuna istanza di Campaign viene fornito un numero specifico di profili attivi conteggiati a scopo di fatturazione. Fai riferimento al contratto più recente per informazioni sul numero di profili attivi acquistati. Ulteriori informazioni sono disponibili in [Descrizione del prodotto Adobe Campaign](https://helpx.adobe.com/it/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
-Puoi monitorare il numero di profili attivi nell’istanza direttamente dal Pannello di controllo Campaign Campaign. Per ulteriori informazioni, consulta la [documentazione del Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=it){target="_blank"}.
+Puoi monitorare il numero di profili attivi nell’istanza direttamente dal Pannello di controllo Campaign Campaign. Per ulteriori informazioni, consulta la [documentazione del Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}.
 
 
 Si applicano le seguenti protezioni e limitazioni:

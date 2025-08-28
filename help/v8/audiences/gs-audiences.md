@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 43483085-8aa6-47e6-89e7-9211e37beaa4
 version: Campaign v8, Campaign Classic v7
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+source-git-commit: b24e05f152bc299ea7953856bfa71950b5cc9837
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 20%
@@ -16,8 +16,6 @@ ht-degree: 20%
 # Guida introduttiva ai profili e ai tipi di pubblico{#gs-profiles-and-audiences}
 
 I profili sono contatti memorizzati nel database di Campaign, ad esempio clienti, abbonati a un servizio o potenziali clienti. Esistono molti possibili meccanismi per l’acquisizione di profili e la creazione di questo database: raccolta online tramite moduli web, importazione manuale o automatica di file di testo, replica con database aziendali o altri sistemi di informazioni. Con Adobe Campaign, puoi incorporare la cronologia di marketing, le informazioni di acquisto, le preferenze, i dati di gestione delle relazioni con i clienti ed eventuali dati PI rilevanti in una visualizzazione consolidata per analizzare e intraprendere azioni. I profili contengono tutte le informazioni necessarie per il targeting, la qualificazione e il tracciamento dei singoli utenti.
-
-
 
 Un profilo è un record nella tabella **nmsRecipient** o in una tabella esterna in cui sono memorizzati tutti gli attributi del profilo, ad esempio nome, cognome, indirizzo e-mail, un ID cookie, un ID cliente, un identificatore mobile o altre informazioni relative a un canale specifico. Altre tabelle collegate alla tabella dei destinatari contengono dati relativi al profilo, ad esempio la tabella dei registri di consegna che contiene i record di tutte le consegne inviate ai destinatari. Ulteriori informazioni sui profili incorporati e sulle tabelle dei destinatari in [questa sezione](../dev/datamodel.md#ootb-profiles).
 
