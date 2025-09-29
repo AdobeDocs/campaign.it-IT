@@ -5,10 +5,10 @@ type: Event
 title: Note tecniche di Adobe Campaign
 description: Note tecniche sulla campagna
 breadcrumb-title: Note tecniche sulla campagna
-source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
+source-git-commit: d80d81bf8c25c467c909c9ccac7c31e6963409f0
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 25%
+source-wordcount: '73'
+ht-degree: 24%
 
 ---
 
@@ -30,4 +30,5 @@ ht-degree: 25%
    + [deprecazione a 32 bit della console client](upgrades/console.md)
    + Sicurezza {#security}
       + [Rotazione delle credenziali del cliente](security/credential-rotation-guide.md)
+      + [Crittografia asimmetrica](security/asymetric-encryption.md)
 + [&lt; Torna alla documentazione di Campaign v8](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/campaign-home)
