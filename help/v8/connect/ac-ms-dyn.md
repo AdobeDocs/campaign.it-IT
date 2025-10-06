@@ -5,10 +5,10 @@ feature: Microsoft CRM Integration
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
-source-git-commit: d80a39d7f0df939d0e9e3f782d5d9aef3d459a32
+source-git-commit: fbde111671fb972f6c96ba45eba4c8a88dbcac64
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 2%
+source-wordcount: '1386'
+ht-degree: 3%
 
 ---
 
@@ -194,6 +194,8 @@ Adobe Campaign e Microsoft Dynamics 365 sono ora connessi. È possibile impostar
 Per sincronizzare i dati tra i dati di Adobe Campaign e Microsoft CRM, creare un workflow e utilizzare l&#39;attività **[!UICONTROL CRM connector]**.
 
 Ulteriori informazioni sulla sincronizzazione dei dati [sono disponibili in questa pagina](crm-data-sync.md).
+
+Ulteriori informazioni sulla gestione dell&#39;enumerazione in Campaign [in questa pagina](../dev/enumerations.md).
 
 ### Tipi di dati dei campi supportati {#ms-dyn-supported-types}
 

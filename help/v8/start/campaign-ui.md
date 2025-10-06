@@ -6,10 +6,10 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: 428de72e0459b95a6db0b06ec8541d0475b72fdd
+source-git-commit: fbde111671fb972f6c96ba45eba4c8a88dbcac64
 workflow-type: tm+mt
-source-wordcount: '1235'
-ht-degree: 67%
+source-wordcount: '1121'
+ht-degree: 74%
 
 ---
 
@@ -189,25 +189,7 @@ Le principali differenze tra l’inglese (US) e l’inglese (UK) sono:
 </table>
 
 
+## Risorse aggiuntive
 
-## Unità predefinite {#default-units}
-
-Nei campi che esprimono una durata (ad esempio periodo di validità delle risorse di una consegna, scadenza dell&#39;approvazione per un&#39;attività, ecc.), il valore può essere espresso nelle seguenti **unità**:
-
-* **[!UICONTROL s]** per secondi,
-* **[!UICONTROL mn]** per minuti,
-* **[!UICONTROL h]** per ore,
-* **[!UICONTROL d]** per giorni.
-
-
-## Elemento “enumeration” {#enumeration}
-
-Utilizzando i campi di input con un elenco a discesa, puoi immettere un valore di enumerazione, che può essere memorizzato e quindi proposto come opzione nell’elenco a discesa.
-
-Ad esempio, nel campo **[!UICONTROL City]** della scheda **[!UICONTROL General]** di un profilo destinatario, puoi immettere Londra. Quando premi Invio per confermare questo valore, viene visualizzato un messaggio in cui viene richiesto se desideri salvare questo valore per l’enumerazione associata al campo.  Se si fa clic su **[!UICONTROL Yes]**, questo valore sarà disponibile nel menu a discesa del campo pertinente.
-
-Le enumerazioni (note anche come &quot;elenchi dettagliati&quot;) sono gestite dall&#39;amministratore tramite la sezione **[!UICONTROL Administration > Platform > Enumerations]**.
-
-Scopri come [Utilizzare le enumerazioni](../dev/enumerations.md)
-
-Ulteriori informazioni sulle [enumerazioni negli schemi](../dev/schema-structure.md#enumerations)
+* **[Operazioni con le enumerazioni](../dev/enumerations.md)** - Standardizzazione dei valori dei campi con elenchi a discesa predefiniti per un&#39;immissione più rapida e coerente dei dati.
+* **[Enumerazioni negli schemi](../dev/schema-structure.md#enumerations)** - In qualità di sviluppatore di Campaign, utilizza enumerazioni libere, fisse o basate su database negli schemi per controllare i valori dei campi.
