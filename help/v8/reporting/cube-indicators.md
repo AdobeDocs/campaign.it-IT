@@ -5,7 +5,7 @@ feature: Reporting
 role: Data Engineer
 level: Beginner
 exl-id: 03a6816b-e51a-4eaf-ab76-02d24f97ba46
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 3%
@@ -102,7 +102,7 @@ Nel nostro esempio, vogliamo visualizzare solo anni, mesi e giorni. Tieni presen
 
 1. Crea un’altra dimensione per analizzare i dati relativi alla città del destinatario. A questo scopo, aggiungi una nuova dimensione e seleziona la città nel nodo **[!UICONTROL Location]** dello schema del destinatario.
 
-È possibile abilitare il binning per semplificare la lettura delle informazioni e collegare i valori a un&#39;enumerazione.
+È possibile abilitare il binning per semplificare la lettura delle informazioni e collegare i valori a una [enumerazione](../config/enumerations.md).
 
 Seleziona l’enumerazione dall’elenco a discesa. Questa enumerazione deve essere definita come **[!UICONTROL Reserved for binning]**.
 

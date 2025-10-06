@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 version: Campaign v8, Campaign Classic v7
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
-source-wordcount: '4024'
+source-wordcount: '4027'
 ht-degree: 5%
 
 ---
@@ -104,7 +104,7 @@ Il collegamento **[!UICONTROL Advanced parameters]** consente di accedere alle o
 
    * **[!UICONTROL Do not update enumerations]**
 
-     Selezionare questa opzione per evitare di arricchire l&#39;elenco dei valori enumerati nel database.
+     Selezionare questa opzione per evitare di arricchire l&#39;elenco dei valori enumerati nel database. Ulteriori informazioni sulle [enumerazioni](../config/enumerations.md).
 
 * Scheda **[!UICONTROL Variables]**
 

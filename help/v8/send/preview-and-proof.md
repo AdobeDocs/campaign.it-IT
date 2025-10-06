@@ -5,9 +5,9 @@ feature: Personalization
 role: User
 level: Beginner
 exl-id: 5b9fa90c-c23e-47a7-b2ca-de75da4da2ab
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '702'
 ht-degree: 16%
 
 ---
@@ -48,8 +48,9 @@ Il target della bozza può essere definito nel modello di consegna o specifico p
 Il tipo di destinazione della bozza è selezionato dall&#39;elenco a discesa **[!UICONTROL Targeting mode]**.
 
 * Utilizzare l&#39;opzione **[!UICONTROL Definition of a specific proof target]** per selezionare i destinatari nel database come destinazione della bozza.
-* Utilizzare l&#39;opzione **[!UICONTROL Substitution of the address]** per immettere gli indirizzi di posta elettronica e utilizzare i dati dei destinatari di destinazione per convalidare il contenuto. Gli indirizzi di sostituzione possono essere immessi manualmente o selezionati dall&#39;elenco a discesa. L&#39;enumerazione associata è Substitution address (rcpAddress).
-Per impostazione predefinita, la sostituzione viene eseguita in modo casuale, ma è possibile selezionare un destinatario specifico dal target principale tramite l&#39;icona **[!UICONTROL Detail]**.
+* Utilizzare l&#39;opzione **[!UICONTROL Substitution of the address]** per immettere gli indirizzi di posta elettronica e utilizzare i dati dei destinatari di destinazione per convalidare il contenuto. Gli indirizzi di sostituzione possono essere immessi manualmente o selezionati dall&#39;elenco a discesa. L&#39;[enumerazione](../config/enumerations.md) associata è **Indirizzo di sostituzione (rcpAddress)**.
+
+  Per impostazione predefinita, la sostituzione viene eseguita in modo casuale, ma è possibile selezionare un destinatario specifico dal target principale tramite l&#39;icona **[!UICONTROL Detail]**.
 
   ![](assets/target-of-proofs-substitution-details.png){width="800" align="left"}
 
@@ -105,4 +106,4 @@ Per impostazione predefinita, i messaggi di bozza sono identificati dalla menzio
 
 Scopri come inviare e convalidare una bozza per una consegna e-mail.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447007?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/333404)

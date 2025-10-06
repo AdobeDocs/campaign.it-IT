@@ -6,7 +6,7 @@ feature: Workflows
 role: User, Admin
 version: Campaign v8, Campaign Classic v7
 exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
 source-wordcount: '2064'
 ht-degree: 0%
@@ -43,7 +43,7 @@ I flussi di lavoro descritti in questa pagina vengono installati con i pacchetti
 
 | Flusso di lavoro tecnico | Pacchetto | Descrizione |
 |------|--------|-----------|
-| **Pulizia alias** (aliasCleansing) | Installato per impostazione predefinita | Questo flusso di lavoro standardizza i valori di enumerazione. Viene attivato ogni giorno alle 3 per impostazione predefinita. |
+| **Pulizia alias** (aliasCleansing) | Installato per impostazione predefinita | Questo flusso di lavoro standardizza i valori di [enumerazione](../../v8/config/enumerations.md#alias-cleansing). Viene attivato ogni giorno alle 3 per impostazione predefinita. |
 | **Fatturazione** (fatturazione) | Installato per impostazione predefinita | Questo flusso di lavoro invia il rapporto sull’attività del sistema all’operatore di &quot;fatturazione&quot; tramite e-mail. Viene attivato il 25 di ogni mese sull’istanza Marketing. |
 | **Processi campagna** (operationMgt) | Installato per impostazione predefinita | Questo flusso di lavoro gestisce i processi per le campagne di marketing (avvio, targeting, estrazione file, ecc.). Crea anche flussi di lavoro relativi a campagne ricorrenti e periodiche. |
 | **Raccogli dati per il servizio HeatMap** (collectDataHeatMapService) | Installato per impostazione predefinita | Questo flusso di lavoro recupera i dati richiesti dal servizio HeatMap. |

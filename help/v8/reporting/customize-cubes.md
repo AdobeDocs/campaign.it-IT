@@ -6,7 +6,7 @@ feature: Reporting
 role: Data Engineer
 level: Beginner
 exl-id: 300aedd0-6b5d-4264-bd63-e26a41ab64db
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
 source-wordcount: '1438'
 ht-degree: 2%
@@ -22,14 +22,14 @@ Utilizza il data binning per semplificare la visualizzazione dei dati raggruppan
 Nel complesso, sono disponibili tre tipi di binning:
 
 1. Utilizzo di intervalli di valori definiti manualmente. Ad esempio, età, carrello medio, numero di consegne aperte, ecc.). Per ulteriori informazioni, fare riferimento a [Definizione di ogni contenitore](#defining-each-bin).
-1. Dinamicamente, a seconda dei valori di un’enumerazione: visualizza solo i valori contenuti nell’enumerazione, tutti gli altri valori sono raggruppati in &quot;Altri&quot;. Per ulteriori informazioni, consulta [Gestione dinamica dei contenitori](#dynamically-managing-bins).
+1. Dinamicamente, a seconda dei valori di un&#39;enumerazione [](../config/enumerations.md): visualizza solo i valori contenuti nell&#39;enumerazione, tutti gli altri valori sono raggruppati in &#39;Altri&#39;. Per ulteriori informazioni, consulta [Gestione dinamica dei contenitori](#dynamically-managing-bins).
 1. Utilizzando intervalli di valori, raggruppando tutti gli altri. Ad esempio, i giovani tra i 18 e i 25 anni, tra i 26 e i 59 anni e gli altri. Per ulteriori informazioni, consulta [Creazione di intervalli di valori](#creating-value-ranges).
 
 Per abilitare il binning, selezionate la casella appropriata durante la creazione della quota.
 
 ![](assets/cube-class.png)
 
-È possibile creare i raccoglitori manualmente o collegarli a un&#39;enumerazione esistente.
+Puoi creare i raccoglitori manualmente o collegarli a una [enumerazione](../config/enumerations.md) esistente.
 
 Adobe Campaign fornisce anche un assistente per il binning automatico: i valori possono essere suddivisi in N gruppi o raggruppati in base ai valori più frequenti nel database.
 
@@ -64,7 +64,7 @@ Per creare questo tipo di binning di valore, attieniti alla procedura seguente:
 
    Ogni volta che i valori di enumerazione vengono aggiornati, i raccoglitori corrispondenti vengono adattati automaticamente.
 
-Ulteriori informazioni sulle enumerazioni in [questa pagina](../../v8/config/ui-settings.md#enumerations).
+   Ulteriori informazioni sulle enumerazioni in [questa pagina](../config/enumerations.md).
 
 ### Creare intervalli di valori {#create-value-ranges}
 

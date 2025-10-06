@@ -6,7 +6,7 @@ role: User
 level: Beginner, Intermediate
 version: Campaign v8, Campaign Classic v7
 exl-id: d2ec4d92-7f00-47c8-98e6-0613d6387de0
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Puoi inviare una bozza per la consegna SMS per convalidarla:
    Sono disponibili più modalità per inviare una bozza:
 
    * **[!UICONTROL Definition of a specific proof target]**: consente di eseguire query con filtri sugli indirizzi nel database come destinazione della bozza
-   * **[!UICONTROL Substitution of the address]**: consente di immettere gli indirizzi di test e utilizzare i dati dei destinatari di destinazione per convalidare il contenuto. Gli indirizzi di sostituzione possono essere immessi manualmente o selezionati dall&#39;elenco a discesa. L&#39;enumerazione associata è **[!UICONTROL Substitution address (rcpAddress)]**.
+   * **[!UICONTROL Substitution of the address]**: consente di immettere gli indirizzi di test e utilizzare i dati dei destinatari di destinazione per convalidare il contenuto. Gli indirizzi di sostituzione possono essere immessi manualmente o selezionati dall&#39;elenco a discesa. L&#39;[enumerazione](../../config/enumerations.md) associata è **[!UICONTROL Substitution address (rcpAddress)]**.
 Per impostazione predefinita, la sostituzione viene eseguita in modo casuale, ma è possibile selezionare un destinatario specifico dal target principale tramite l&#39;icona **[!UICONTROL Detail]**.
    * **[!UICONTROL Seed addresses]**: consente di accedere agli indirizzi di seed come destinazione della bozza. Questi indirizzi possono essere importati da un file o immessi manualmente.
    * **[!UICONTROL Specific target and Seed addresses]**: consente di combinare gli indirizzi di seed e gli indirizzi del destinatario.
