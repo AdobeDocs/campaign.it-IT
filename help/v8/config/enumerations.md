@@ -5,9 +5,9 @@ feature: Configuration, Application Settings
 role: Developer
 version: Campaign v8, Campaign Classic v7
 level: Intermediate, Experienced
-source-git-commit: 2898fe400e9bf53fc2fe8fde26ccc61ec43bc69e
+source-git-commit: a1f479538a2d93a2ec13e35cb6813e09c8c4a5f8
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '797'
 ht-degree: 1%
 
 ---
@@ -16,19 +16,19 @@ ht-degree: 1%
 
 Un’enumerazione (detta anche elenco dettagliato) è un elenco predefinito di valori che è possibile utilizzare per compilare determinati campi. Le enumerazioni consentono di standardizzare i valori dei campi, rendendo più coerente l&#39;immissione dei dati e semplificando le query.
 
-Se disponibili, i valori vengono visualizzati in un elenco a discesa. Puoi selezionare direttamente un valore o iniziare a digitare; l’input predittivo suggerisce i valori corrispondenti e li completa automaticamente.
+Una volta definiti, i valori vengono visualizzati in un elenco a discesa. Un valore può essere selezionato direttamente o immesso utilizzando l’input predittivo, che suggerisce e completa le voci corrispondenti. Alcuni campi includono enumerazioni predefinite; se necessario, è possibile creare enumerazioni aggiuntive.
 
 ![](assets/enum_values.png)
 
-Alcuni campi della console sono configurati con enumerazioni. Se un&#39;enumerazione è **open**, è anche possibile aggiungere nuovi valori direttamente nel campo.
-
-![Enumerazioni di accesso](../config/assets/enumerations-menu.png)
 
 ## Tipi di enumerazioni {#types-of-enum}
 
 Le enumerazioni sono archiviate nella cartella **[!UICONTROL Administration > Platform > Enumerations]** dell&#39;elenco delle cartelle.
 
-Possono essere: Aperto, Sistema, Emoticon o Chiuso.
+![Enumerazioni di accesso](../config/assets/enumerations-menu.png)
+
+
+Un&#39;enumerazione può essere: **Open**, **System**, **Emoticon** o **Closed**.
 
 * Un&#39;enumerazione **Open** consente agli utenti di aggiungere nuovi valori direttamente nei campi basati su questa enumerazione.
 * Un&#39;enumerazione **Closed** ha un elenco fisso di valori che possono essere modificati solo dalla cartella **[!UICONTROL Administration > Platform > Enumerations]** dell&#39;Explorer.
@@ -44,11 +44,12 @@ Per le enumerazioni **Open** e **Closed** sono disponibili opzioni specifiche:
 
 ## Pulizia alias {#alias-cleansing}
 
-Nei campi di enumerazione è possibile selezionare un valore o immettere un valore personalizzato non disponibile nell&#39;elenco a discesa. È possibile aggiungere valori personalizzati alle enumerazioni esistenti come valori nuovi. In questo caso, è necessario selezionare l&#39;opzione **[!UICONTROL Open]**. Questi valori personalizzati possono essere puliti utilizzando le funzionalità di pulizia degli alias. Ad esempio, se un utente immette `Adob` invece di `Adobe`, il processo di pulizia degli alias può automaticamente sostituirlo con il termine corretto.
+Nei campi di enumerazione è possibile selezionare un valore dall&#39;elenco a discesa o immetterlo manualmente se non disponibile nell&#39;elenco. È possibile aggiungere valori personalizzati all&#39;enumerazione quando l&#39;opzione **[!UICONTROL Open]** è abilitata. Questi valori possono essere standardizzati in seguito tramite la pulizia degli alias, che sostituisce automaticamente le varianti con il termine corretto (ad esempio, convertendo `Adob` in `Adobe`).
+
 
 >[!CAUTION]
 >
->La pulizia dei dati è un processo critico che influisce sui dati presenti nel database. Adobe Campaign esegue aggiornamenti di massa dei dati, che potrebbero causare l’eliminazione di alcuni valori. Questa operazione è pertanto riservata agli utenti esperti.
+>La pulizia dei dati è un&#39;operazione critica che influisce sui valori del database. Adobe Campaign esegue aggiornamenti di massa dei dati, che possono comportare l’eliminazione di determinati valori. Questa operazione è destinata solo agli utenti esperti.
 
 Abilitare l&#39;opzione **[!UICONTROL Alias cleansing]** per utilizzare le funzionalità di pulizia dati per un&#39;enumerazione. Quando questa opzione è selezionata, nella parte inferiore della finestra viene visualizzata la scheda **[!UICONTROL Alias]**.
 
