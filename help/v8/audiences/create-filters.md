@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 873578f6-6af9-4d0c-8df3-cce320fc6a4e
 version: Campaign v8, Campaign Classic v7
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
 workflow-type: tm+mt
 source-wordcount: '1607'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Utilizza l’ultima scheda per visualizzare in anteprima i dati filtrati.
 ![](assets/built-in-filter-preview.png)
 
 
-I filtri predefiniti incorporati sono:
++++  Filtri predefiniti incorporati
 
 <table> 
  <tbody> 
@@ -159,6 +159,7 @@ I filtri predefiniti incorporati sono:
  </tbody> 
 </table>
 
++++
 
 ### Filtri predefiniti{#default-filters}
 
@@ -328,9 +329,9 @@ Per eseguire funzionalità di filtro avanzate, utilizza le funzioni per definire
 
 Scopri come creare query avanzate in questi esempi end-to-end:
 
-* Scopri come eseguire il targeting sugli attributi dei destinatari semplici in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=it){target="_blank"}.
-* Scopri come filtrare i destinatari non contattati negli ultimi 7 giorni in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html?lang=it){target="_blank"}.
-* Scopri come ripristinare l&#39;elenco degli operatori filtrabile per account attivi in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html?lang=it){target="_blank"}.
+* Scopri come eseguire il targeting sugli attributi dei destinatari semplici in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
+* Scopri come filtrare i destinatari non contattati negli ultimi 7 giorni in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html){target="_blank"}.
+* Scopri come ripristinare l&#39;elenco degli operatori filtrabile per account attivi in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html){target="_blank"}.
 * Scopri come creare un pubblico di e-mail di compleanno in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=it){target="_blank"}.
 
 
@@ -353,3 +354,6 @@ Per i filtri predefiniti sono disponibili parametri avanzati. Per accedervi, pas
 
    * È possibile associare una tabella SQL al filtro per renderla comune a tutti gli editor che la condividono.
    * Per impedire a qualsiasi utente di ignorare il filtro, selezionare l&#39;opzione **[!UICONTROL Do not restrict the filter]**. Ad esempio, questa opzione è attiva per i filtri &quot;Destinatari di una consegna&quot; e &quot;Destinatari delle consegne appartenenti a una cartella&quot;, disponibili nella consegna guidata. Questi filtri non possono essere sovraccaricati.
+
+
+### Operatori

@@ -6,18 +6,18 @@ feature: Query Editor, Workflows
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 8e6fd9b4-77c4-4af8-921b-c3fe104fa5bc
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '220'
 ht-degree: 2%
 
 ---
 
 # Creare un filtro {#creating-a-filter}
 
-I filtri disponibili in Adobe Campaign vengono definiti tramite condizioni di filtro create utilizzando la stessa modalità operativa delle query.
+I filtri disponibili in Adobe Campaign vengono definiti tramite condizioni di filtro create utilizzando la stessa modalità operativa utilizzata per la creazione di query nell&#39;[Editor query](../../v8/start/query-editor.md).
 
-Il nodo **[!UICONTROL Administration > Configuration > Predefined filters]** contiene tutti i filtri utilizzati negli elenchi e nelle panoramiche.
+Il nodo **[!UICONTROL Administration > Configuration > Predefined filters]** contiene tutti i filtri predefiniti. Alcuni di questi sono utilizzati negli elenchi e nelle panoramiche. Ulteriori informazioni sui [filtri predefiniti incorporati](../../v8/audiences/create-filters.md).
 
 Ad esempio, l&#39;elenco degli operatori può essere filtrato per **[!UICONTROL Active accounts]**:
 

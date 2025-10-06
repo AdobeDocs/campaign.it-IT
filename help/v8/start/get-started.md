@@ -6,10 +6,10 @@ role: User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 428de72e0459b95a6db0b06ec8541d0475b72fdd
+source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
 workflow-type: tm+mt
 source-wordcount: '1033'
-ht-degree: 96%
+ht-degree: 92%
 
 ---
 
@@ -48,7 +48,7 @@ Scopri come aggiungere profili a Campaign in [questa sezione](import.md).
 
 ## Segmentazione mirata {#targeted-segmentation}
 
-Adobe Campaign dispone di funzioni di segmentazione e targeting potenti e intuitive che ti consentono di creare offerte altamente mirate e differenziate. La funzionalità di analisi descrittiva ti consente di analizzare le informazioni a monte e a valle delle campagne di marketing, e la funzionalità di gestione dei filtri e di editor di query grafiche ti consente di filtrare la popolazione degli abbonati e di campionare o creare gruppi target in base a un numero illimitato di criteri.
+Adobe Campaign dispone di funzioni di segmentazione e targeting potenti e intuitive che ti consentono di creare offerte altamente mirate e differenziate. La funzionalità di analisi descrittiva ti consente di analizzare le informazioni a monte e a valle delle campagne di marketing, e la funzionalità [gestione dei filtri](../audiences/create-filters.md) e la funzionalità grafica [editor delle query](query-editor.md) ti consentono di filtrare la popolazione degli abbonati e di campionare o creare gruppi target in base a un numero illimitato di criteri.
 
 La funzionalità avanzata di gestione dei dati estende le funzionalità di elaborazione dei dati. Semplifica e ottimizza il processo di targeting includendo dati non modellati nel data mart.
 

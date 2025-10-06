@@ -6,35 +6,22 @@ role: User
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 version: Campaign v8, Campaign Classic v7
-source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
+source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
 workflow-type: tm+mt
-source-wordcount: '4027'
-ht-degree: 5%
+source-wordcount: '3832'
+ht-degree: 4%
 
 ---
 
 # Importare dati in Campaign {#ootb-profiles}
 
-Campaign ti aiuta ad aggiungere contatti al database Cloud. Puoi caricare un file, pianificare e automatizzare più aggiornamenti dei contatti alla volta, raccogliere dati sul web o inserire informazioni di profilo direttamente nella tabella dei destinatari.
-
-Introduzione ai [tipi di pubblico](audiences.md)
-
-Comprendere il [modello dati](../dev/datamodel.md) di Campaign
-
-## Importare profili con un flusso di lavoro
+Campaign ti consente di aggiungere contatti al database. Puoi caricare un file, pianificare e automatizzare più aggiornamenti dei contatti alla volta, raccogliere dati sul web o inserire informazioni di profilo direttamente nella tabella dei destinatari.
 
 Le importazioni di profili sono configurate in modelli dedicati eseguiti tramite flussi di lavoro attraverso l’attività **Importazione**. Possono essere ripetuti automaticamente in base a una pianificazione, ad esempio per automatizzare lo scambio di dati tra diversi sistemi di informazione. Per ulteriori informazioni, consulta [questa sezione](../../automation/workflow/recurring-import-workflow.md).
 
 ![](assets/import-wf.png)
 
-
-## Eseguire importazioni unitarie
-
-Crea ed esegui un processo di importazione dati generico per caricare i contatti nel database Cloud.
-
-![](assets/new-import.png)
-
-### Importare i dati
+## Eseguire un’importazione
 
 Adobe Campaign consente di importare nel database dati da uno o più file in formato testo, CSV, TAB o XML. Questi file sono associati a una tabella (principale o collegata) e ogni campo dei file di origine è associato a un campo del database.
 
@@ -42,19 +29,18 @@ Adobe Campaign consente di importare nel database dati da uno o più file in for
 >
 >È possibile importare dati senza eseguirne il mapping con i dati del database utilizzando la funzione **[!UICONTROL Import a list]**. I dati possono quindi essere utilizzati esclusivamente nei flussi di lavoro tramite l&#39;oggetto **[!UICONTROL Read list]**. Per ulteriori informazioni, consulta [questa pagina](../../automation/workflow/read-list.md).
 
+
+## Utilizza l’assistente all’importazione
+
 L’assistente all’importazione ti consente di configurare un’importazione, definirne le opzioni (ad esempio, la trasformazione dei dati) e avviarne l’esecuzione. Si tratta di una serie di schermate il cui contenuto dipende dal tipo di importazione (semplice o multipla) e dai diritti dell’operatore.
 
 L’assistente all’importazione viene visualizzato dopo la creazione di un nuovo processo di importazione.
 
->[!NOTE]
->
->Se si utilizza un server Web IIS, potrebbe essere necessaria una configurazione per autorizzare il caricamento di file di grandi dimensioni (>28 MB).
-
-#### File sorgente {#source-file}
+![](assets/new-import.png)
 
 Nel file di origine, ogni riga coincide con un record. I dati nei record sono separati da delimitatori (spazio, tabulazione, carattere, ecc.). Ciò significa che i dati vengono recuperati sotto forma di colonne e che ogni colonna è associata a un campo del database.
 
-## Passaggio 1: scegliere il modello di importazione {#step-1---choosing-the-import-template}
+### Passaggio 1: scegliere il modello di importazione {#step-1---choosing-the-import-template}
 
 Quando avvii l’assistente all’importazione, devi innanzitutto selezionare un modello. Ad esempio, per configurare l’importazione dei destinatari che hanno ricevuto una newsletter, effettua le seguenti operazioni:
 
@@ -84,37 +70,7 @@ Quando avvii l’assistente all’importazione, devi innanzitutto selezionare un
    >
    >Le importazioni multiple devono soddisfare solo esigenze specifiche e non sono consigliate.
 
-### Parametri avanzati {#advanced-parameters}
-
-Il collegamento **[!UICONTROL Advanced parameters]** consente di accedere alle opzioni seguenti:
-
-* Scheda **[!UICONTROL General]**
-
-   * **[!UICONTROL Stop execution if there are too many rejects]**
-
-     Questa opzione è selezionata per impostazione predefinita. Puoi deselezionarla se desideri continuare a eseguire l’importazione indipendentemente dal numero di rifiuti. Per impostazione predefinita, l’esecuzione viene interrotta se le prime 100 righe vengono rifiutate.
-
-   * **[!UICONTROL Trace mode]**
-
-     Selezionare questa opzione per tenere traccia dell&#39;esecuzione dell&#39;importazione per ogni riga.
-
-   * **[!UICONTROL Start the job in a detached process]**
-
-     Questa opzione è selezionata per impostazione predefinita. Consente di scollegare l’esecuzione dell’importazione in modo che non influisca su altri processi in corso nel database.
-
-   * **[!UICONTROL Do not update enumerations]**
-
-     Selezionare questa opzione per evitare di arricchire l&#39;elenco dei valori enumerati nel database. Ulteriori informazioni sulle [enumerazioni](../config/enumerations.md).
-
-* Scheda **[!UICONTROL Variables]**
-
-  Puoi definire le variabili associate al processo che saranno accessibili negli editor delle query e nei campi calcolati. Per creare una variabile, fare clic su **[!UICONTROL Add]** e utilizzare l&#39;editor di variabili.
-
-  >[!IMPORTANT]
-  >
-  >La scheda **[!UICONTROL Variables]** è solo per uso di programmazione di tipo flusso di lavoro e deve essere configurata solo da utenti esperti.
-
-## Passaggio 2: selezione del file Source {#step-2---source-file-selection}
+#### Passaggio 2: selezione del file Source {#step-2---source-file-selection}
 
 Il file di origine può essere in formato testo (txt, csv, tab, colonne fisse) o xml.
 
@@ -146,7 +102,7 @@ Questo passaggio ti consente di descrivere come leggere i valori dei campi del f
 
 Fai clic su **[!UICONTROL OK]** per salvare la formattazione, quindi fai clic su **[!UICONTROL Next]** per visualizzare il passaggio successivo.
 
-## Passaggio 3: mappatura dei campi {#step-3---field-mapping}
+### Passaggio 3: mappatura dei campi {#step-3---field-mapping}
 
 È quindi necessario selezionare lo schema di destinazione e mappare i dati di ciascuna colonna sui campi del database.
 
@@ -173,7 +129,7 @@ Fai clic su **[!UICONTROL OK]** per salvare la formattazione, quindi fai clic su
 
 * Puoi aggiungere campi calcolati utilizzando l’icona appropriata, situata a destra della tabella centrale. I campi calcolati consentono di eseguire trasformazioni complesse, aggiungere colonne virtuali o unire i dati di più colonne. Per informazioni dettagliate sulle varie possibilità, consulta le sezioni seguenti.
 
-### Campi calcolati {#calculated-fields}
+#### Campi calcolati {#calculated-fields}
 
 I campi calcolati sono nuove colonne aggiunte al file di origine e calcolate da altre colonne. I campi calcolati possono quindi essere associati ai campi del database di Adobe Campaign. Le operazioni di riconciliazione, tuttavia, non sono possibili sui campi calcolati.
 
@@ -190,7 +146,7 @@ Esistono quattro tipi di campi calcolati:
 
   ![](assets/s_ncs_user_import_wizard03_4.png)
 
-#### Passaggio 4 - Riconciliazione {#step-4---reconciliation}
+### Passaggio 4 - Riconciliazione {#step-4---reconciliation}
 
 Il passaggio di riconciliazione dell’assistente all’importazione ti consente di definire la modalità di riconciliazione dei dati del file con i dati esistenti nel database e di impostare le regole di priorità tra i dati del file e i dati del database. La finestra di configurazione si presenta così:
 
@@ -292,7 +248,7 @@ La struttura nella schermata di rifiuto di un’istanza di importazione indica q
 
 ![](assets/s_ncs_user_import_errors_export.png)
 
-#### Passaggio 5: passaggio aggiuntivo durante l’importazione dei destinatari {#step-5---additional-step-when-importing-recipients}
+### Passaggio 5: passaggio aggiuntivo durante l’importazione dei destinatari {#step-5---additional-step-when-importing-recipients}
 
 Il passaggio successivo dell’assistente all’importazione consente di selezionare o creare la cartella in cui verranno importati i dati, mappare automaticamente i destinatari importati con un elenco (nuovo o esistente) e abbonare i destinatari a un servizio.
 
@@ -348,7 +304,7 @@ Il passaggio successivo dell’assistente all’importazione consente di selezio
 
 Fare clic su **[!UICONTROL Next]** per convalidare questo passaggio e visualizzare il passaggio seguente.
 
-## Passaggio 6: avviare l’importazione {#step-6---launching-the-import}
+### Passaggio 6: avviare l’importazione {#step-6---launching-the-import}
 
 L’ultimo passaggio dell’assistente consente di avviare l’importazione dei dati. A tale scopo, fare clic sul pulsante **[!UICONTROL Start]**.
 
@@ -356,7 +312,7 @@ L’ultimo passaggio dell’assistente consente di avviare l’importazione dei 
 
 È quindi possibile monitorare l&#39;esecuzione del processo di importazione (vedere [Monitorare l&#39;esecuzione del flusso di lavoro](../../automation/workflow/monitor-workflow-execution.md)).
 
-### Esporta dati
+## Esporta dati
 
 I processi di esportazione ti consentono di accedere ed estrarre dati dal database: contatti, client, elenchi, segmenti, ecc.
 
@@ -366,7 +322,7 @@ L’assistente per l’esportazione ti consente di configurare un’esportazione
 
 L’assistente per l’esportazione viene visualizzato dopo la creazione di un nuovo processo di esportazione.
 
-#### Passaggio 1: scegliere il modello di esportazione {#step-1---choosing-the-export-template}
+### Passaggio 1: scegliere il modello di esportazione {#step-1---choosing-the-export-template}
 
 Quando avvii l’assistente all’esportazione, devi innanzitutto selezionare un modello. Ad esempio, per configurare l’esportazione dei destinatari che si sono registrati di recente, effettua le seguenti operazioni:
 
@@ -382,7 +338,7 @@ Quando avvii l’assistente all’esportazione, devi innanzitutto selezionare un
 1. Immettere un nome da esportare nel campo **[!UICONTROL Label]**. Puoi aggiungere una descrizione.
 1. Seleziona il tipo di esportazione. Esistono due possibili tipi di esportazione: **[!UICONTROL Simple export]** per esportare un solo file e **[!UICONTROL Multiple export]** per esportare più file in una singola esecuzione da uno o più tipi di documenti di origine.
 
-## Passaggio 2: tipo di file da esportare {#step-2---type-of-file-to-export}
+### Passaggio 2: tipo di file da esportare {#step-2---type-of-file-to-export}
 
 Selezionare il tipo di documento da esportare, ovvero lo schema dei dati da esportare.
 
@@ -415,7 +371,7 @@ Selezionate un formato di output per il file di esportazione. È possibile utili
 * Indicare il formato della data e del numero. A tale scopo, fare clic sul pulsante **[!UICONTROL Edit]** per il campo interessato e utilizzare l&#39;editor.
 * Per i campi contenenti valori enumerati, è possibile selezionare **[!UICONTROL Export labels instead of internal values of enumerations]**. Ad esempio, il titolo può essere memorizzato nel formato **1=Sig.**, **2=Miss**, **3=Signora**. Se questa opzione è selezionata, verranno esportati **Mr**, **Miss** e **Mrs**.
 
-#### Passaggio 4: selezione dei dati {#step-4---data-selection}
+### Passaggio 4: selezione dei dati {#step-4---data-selection}
 
 Selezionare i campi da esportare. Per eseguire questa operazione:
 
@@ -426,19 +382,19 @@ Selezionare i campi da esportare. Per eseguire questa operazione:
 
 1. Fare clic sul pulsante **[!UICONTROL Add]** per richiamare le funzioni.
 
-#### Passaggio 5: ordinare le colonne {#step-5---sorting-columns}
+### Passaggio 5: ordinare le colonne {#step-5---sorting-columns}
 
 Selezionare l&#39;ordinamento delle colonne.
 
 ![](assets/s_ncs_user_export_wizard05.png)
 
-#### Passaggio 6 - Condizioni del filtro {#step-6---filter-conditions-}
+### Passaggio 6 - Condizioni del filtro {#step-6---filter-conditions-}
 
 Puoi aggiungere condizioni di filtro per evitare di esportare tutti i dati. La configurazione di questo filtro è la stessa del targeting dei destinatari nell’assistente alla consegna.
 
 ![](assets/s_ncs_user_export_wizard05_b.png)
 
-#### Passaggio 7: formattazione dei dati {#step-7---data-formatting}
+### Passaggio 7: formattazione dei dati {#step-7---data-formatting}
 
 È possibile modificare l&#39;ordine e l&#39;etichetta dei campi per il file di output e applicare le trasformazioni ai dati di origine.
 
@@ -458,7 +414,7 @@ Se esporti una raccolta di elementi (ad esempio le sottoscrizioni dei destinatar
 
 ![](assets/s_ncs_user_export_wizard06_c.png)
 
-#### Passaggio 8: anteprima dei dati {#step-8---data-preview}
+### Passaggio 8: anteprima dei dati {#step-8---data-preview}
 
 Fare clic su **[!UICONTROL Start the preview of the data]** per visualizzare un&#39;anteprima del risultato dell&#39;esportazione. Per impostazione predefinita, vengono visualizzate le prime 200 righe. Per modificare questo valore, fare clic sulle frecce a destra del campo **[!UICONTROL Lines to display]**.
 
@@ -466,7 +422,7 @@ Fare clic su **[!UICONTROL Start the preview of the data]** per visualizzare un&
 
 Fai clic sulle schede nella parte inferiore dell’assistente per passare dall’anteprima dei risultati nelle colonne ai risultati in XML. È inoltre possibile visualizzare le query SQL generate.
 
-#### Passaggio 9: avviare l’esportazione {#step-9---launching-the-export}
+### Passaggio 9: avviare l’esportazione {#step-9---launching-the-export}
 
 Fare clic su **[!UICONTROL Start]** per avviare l&#39;esportazione dei dati.
 
@@ -488,3 +444,4 @@ Scopri come creare moduli web nella [documentazione di Campaign Classic v7](http
 * [Creare tipi di pubblico](audiences.md)
 * [Deduplica i profili](../../automation/workflow/deduplication-merge.md)
 * [Arricchisci i dati del profilo](../../automation/workflow/enrich-data.md)
+* Comprendere il [modello dati](../dev/datamodel.md) di Campaign

@@ -4,7 +4,7 @@ title: Applicare le regole di tipologia
 description: Scopri come applicare le regole di tipologia
 feature: Typology Rules
 exl-id: 4ec3bbe1-fc4c-4b1e-989c-f4dcf8ee8d5e
-source-git-commit: a8568e0c1e9af11b533b7d435691dc12cc0a2485
+source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
 workflow-type: tm+mt
 source-wordcount: '955'
 ht-degree: 7%
@@ -46,7 +46,7 @@ A questo scopo, segui la procedura indicata di seguito:
 
 Per definire le condizioni di applicazione di una regola, fare clic sul collegamento **[!UICONTROL Edit the rule application conditions...]** nella scheda **[!UICONTROL General]**.
 
-Quindi utilizza l’editor delle query per definire le condizioni di filtro. Nell’esempio seguente, la regola di capacità riguarda solo le consegne con la parola &quot;offerta&quot; nell’etichetta o le consegne create prima del 1° aprile 2013.
+Quindi utilizza l&#39;[editor query](../../v8/start/query-editor.md) per definire le condizioni di filtro. Nell’esempio seguente, la regola di capacità riguarda solo le consegne con la parola &quot;offerta&quot; nell’etichetta o le consegne create prima del 1° aprile 2013.
 
 ![](assets/campaign_opt_create_capacity_criterion.png)
 

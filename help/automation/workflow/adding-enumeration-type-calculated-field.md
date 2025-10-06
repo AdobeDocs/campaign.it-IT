@@ -6,9 +6,9 @@ feature: Workflows, Data Management
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 4fe2ae81-faa6-4777-a332-70c451bca75b
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Si desidera creare una query con un campo calcolato di tipo **[!UICONTROL Enumer
 
 Applica i seguenti passaggi:
 
-1. Aprire l&#39;editor delle query generiche e selezionare la tabella Destinatario (**[!UICONTROL nms:recipient]**).
+1. Aprire [Generic query editor](../../v8/start/query-editor.md) e selezionare la tabella Destinatario (**[!UICONTROL nms:recipient]**).
 1. Nella finestra **[!UICONTROL Data to extract]**, selezionare **[!UICONTROL Last name]**, **[!UICONTROL First name]** e **[!UICONTROL Gender]**.
 
    ![](assets/query_editor_nveau_73.png)

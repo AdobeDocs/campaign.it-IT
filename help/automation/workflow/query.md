@@ -6,9 +6,9 @@ feature: Workflows, Targeting Activity, Query Editor
 role: User, Data Engineer
 exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
 version: Campaign v8, Campaign Classic v7
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1603'
 ht-degree: 1%
 
 ---
@@ -20,16 +20,13 @@ ht-degree: 1%
 ## Creare una query {#creating-a-query}
 
 Una query consente di selezionare una destinazione in base ai criteri. È possibile associare un codice di segmento al risultato della query e inserirvi dati aggiuntivi.
-Per ulteriori informazioni sugli esempi di query, consulta questa [sezione](querying-recipient-table.md).
-
->[!NOTE]
->
->L’interfaccia web di Adobe Campaign dispone di un potente modellatore di query che semplifica il processo di filtraggio dei database per selezionare destinazioni specifiche in base a vari criteri, consentendo di creare e gestire più facilmente le query. Per ulteriori informazioni su Query Modeler per l&#39;interfaccia utente Web, consulta la [documentazione dell&#39;interfaccia utente Web di Adobe Campaign](https://experienceleague.adobe.com/it/docs/campaign-web/v8/query-database/query-modeler-overview){target=_blank}.
-
+Scopri come creare query tramite casi d&#39;uso in [questa sezione](querying-recipient-table.md). Vedere anche la sezione relativa all&#39;[editor query](../../v8/start/query-editor.md).
 
 ![](assets/query-activity.png){width="70%" align="center" zoomable="yes"}
 
-Per ulteriori informazioni sull&#39;utilizzo e sulla gestione di dati aggiuntivi, fare riferimento a [Aggiungi dati](#adding-data).
+>[!NOTE]
+>
+>L’interfaccia utente web di Adobe Campaign dispone di un potente modellatore di query che semplifica il processo di filtraggio dei database per selezionare destinazioni specifiche in base a vari criteri, consentendo di creare e gestire più facilmente le query. Per ulteriori informazioni su Query Modeler per l&#39;interfaccia utente Web, consulta la [documentazione dell&#39;interfaccia utente Web di Adobe Campaign](https://experienceleague.adobe.com/it/docs/campaign-web/v8/query-database/query-modeler-overview){target=_blank}.
 
 Il collegamento **[!UICONTROL Edit query...]** consente di definire il tipo di targeting, le restrizioni e i criteri di selezione per la popolazione nel modo seguente:
 
