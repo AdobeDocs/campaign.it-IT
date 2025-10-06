@@ -17,7 +17,7 @@ Adobe Campaign consente di creare canali personalizzati esterni o API integrati 
 
 La creazione e l’invio della consegna possono essere eseguiti sia nella console client che nell’interfaccia web. Tuttavia, la configurazione del canale personalizzata viene eseguita solo nella console client.
 
-Per informazioni su come creare e inviare una consegna basata su un canale personalizzato, consulta questa [pagina](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html){target="_blank"}.
+Per informazioni su come creare e inviare una consegna basata su un canale personalizzato, consulta questa [pagina](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html?lang=it){target="_blank"}.
 
 Di seguito sono riportati i passaggi per configurare un nuovo canale personalizzato nella console client. Questi passaggi sono comuni ai canali esterni e API personalizzati:
 
@@ -90,7 +90,7 @@ Dall’interfaccia web di Campaign, imposta la definizione della schermata perso
 
    ![](assets/cus-schema2.png){zoomable="yes"}
 
-1. Seleziona la scheda che corrisponde al canale e definisci come verranno visualizzati i campi nella schermata del contenuto della consegna. Per ulteriori informazioni sull&#39;edizione dello schermo, consulta questa [pagina](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html#fields){target="_blank"}.
+1. Seleziona la scheda che corrisponde al canale e definisci come verranno visualizzati i campi nella schermata del contenuto della consegna. Per ulteriori informazioni sull&#39;edizione dello schermo, consulta questa [pagina](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html?lang=it#fields){target="_blank"}.
 
    ![](assets/cus-schema3.png){zoomable="yes"}
 
