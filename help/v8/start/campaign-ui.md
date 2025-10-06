@@ -6,7 +6,7 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: fbde111671fb972f6c96ba45eba4c8a88dbcac64
+source-git-commit: 2898fe400e9bf53fc2fe8fde26ccc61ec43bc69e
 workflow-type: tm+mt
 source-wordcount: '1121'
 ht-degree: 74%
@@ -191,5 +191,5 @@ Le principali differenze tra l’inglese (US) e l’inglese (UK) sono:
 
 ## Risorse aggiuntive
 
-* **[Operazioni con le enumerazioni](../dev/enumerations.md)** - Standardizzazione dei valori dei campi con elenchi a discesa predefiniti per un&#39;immissione più rapida e coerente dei dati.
+* **[Operazioni con le enumerazioni](../config/enumerations.md)** - Standardizzazione dei valori dei campi con elenchi a discesa predefiniti per un&#39;immissione più rapida e coerente dei dati.
 * **[Enumerazioni negli schemi](../dev/schema-structure.md#enumerations)** - In qualità di sviluppatore di Campaign, utilizza enumerazioni libere, fisse o basate su database negli schemi per controllare i valori dei campi.

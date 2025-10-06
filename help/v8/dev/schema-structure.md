@@ -5,7 +5,7 @@ feature: Schema Extension, Configuration, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: 9c4a9e71-3fc8-4b4e-8782-0742bbeaf426
-source-git-commit: fbde111671fb972f6c96ba45eba4c8a88dbcac64
+source-git-commit: 2898fe400e9bf53fc2fe8fde26ccc61ec43bc69e
 workflow-type: tm+mt
 source-wordcount: '1417'
 ht-degree: 1%
@@ -124,7 +124,7 @@ Devono essere rispettate le seguenti regole:
 
 Il tipo di dati viene immesso tramite l&#39;attributo **type** negli elementi **`<attribute>`** e **`<element>`**.
 
-Elenco dettagliato disponibile nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=it#configuring-campaign-classic){target="_blank"}.
+Elenco dettagliato disponibile nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic){target="_blank"}.
 
 Quando questo attributo non viene popolato, **stringa** è il tipo di dati predefinito a meno che l&#39;elemento non contenga elementi figlio. In caso affermativo, viene utilizzato solo per strutturare gli elementi in modo gerarchico (**`<location>`** elemento nel nostro esempio).
 
@@ -223,7 +223,7 @@ Per collegare un valore predefinito a un campo, è possibile utilizzare `<defaul
 
 ### Enumerazioni {#enumerations}
 
-Utilizza [enumerazioni](../dev/enumerations.md) libere, fisse o basate su database per controllare i valori dei campi. Forniscono elenchi a discesa per semplificare l’input, i dati coerenti e la progettazione flessibile degli schemi.
+Utilizza [enumerazioni](../config/enumerations.md) libere, fisse o basate su database per controllare i valori dei campi. Forniscono elenchi a discesa per semplificare l’input, i dati coerenti e la progettazione flessibile degli schemi.
 
 #### Enumerazione gratuita {#free-enumeration}
 
