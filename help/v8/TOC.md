@@ -5,7 +5,7 @@ user-guide-description: Documentazione di prodotto per Adobe Campaign v8 (consol
 title: Documentazione di Adobe Campaign v8
 description: Documentazione di Campaign v8
 breadcrumb-title: Documentazione di Campaign v8
-source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
+source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 96%
@@ -82,7 +82,7 @@ ht-degree: 96%
          + [Progettare una consegna push avanzata per iOS](send/rich-push-ios.md)
       + [Configurare il canale di notifica push](send/push-settings.md)
       + [Configurare le notifiche push con Raccolta dati](send/push-data-collection.md)
-   + [Messaggistica LINE](send/line.md)
+   + [Messaggistica LINE](send/line/line.md)
    + [Direct mail](send/direct-mail.md)
    + [X (Twitter)](send/twitter.md)
    + [Canale esterno personalizzato](send/custom-channel.md)

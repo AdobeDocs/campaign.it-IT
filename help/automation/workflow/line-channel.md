@@ -5,7 +5,7 @@ description: Canale LINE
 feature: Workflows, Line App
 role: User
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Canale LINE{#line-channel}
 
-Per impostazione predefinita, i flussi di lavoro descritti di seguito vengono installati con il modulo **LINE channel**. Per ulteriori informazioni su questo modulo, consulta [questa pagina](../../v8/send/line.md).
+Per impostazione predefinita, i flussi di lavoro descritti di seguito vengono installati con il modulo **LINE channel**. Per ulteriori informazioni su questo modulo, consulta [questa pagina](../../v8/send/line/line.md).
 
 <table> 
  <tbody> 

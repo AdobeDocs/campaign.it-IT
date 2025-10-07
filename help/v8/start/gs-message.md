@@ -6,7 +6,7 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: a523e76d-776c-47d3-9c15-34241cee1092
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
 workflow-type: tm+mt
 source-wordcount: '1002'
 ht-degree: 73%
@@ -47,7 +47,7 @@ Adobe Campaign v8 viene fornito con i canali di consegna elencati di seguito. I 
 
 * **Canale e-mail**: le consegne e-mail ti consentono di inviare e-mail personalizzate alla popolazione target. [Ulteriori informazioni](../send/email.md)
 
-* **Canali mobili**: le consegne sui canali mobili ti consentono di inviare messaggi personalizzati ai dispositivi della popolazione target. Puoi inviare [SMS](../send/sms/sms.md) e [LINE](../send/line.md) messaggi su dispositivi mobili.
+* **Canali mobili**: le consegne sui canali mobili ti consentono di inviare messaggi personalizzati ai dispositivi della popolazione target. Puoi inviare [SMS](../send/sms/sms.md) e [LINE](../send/line/line.md) messaggi su dispositivi mobili.
 
 * **Canale app mobile**: puoi utilizzare Adobe Campaign per inviare [notifiche push personalizzate e segmentate](../send/push.md) su dispositivi mobili iOS e Android tramite app dedicate. Una volta eseguiti i passaggi di configurazione e integrazione, le consegne iOS e Android possono essere create e inviate tramite Adobe Campaign. Puoi anche progettare e inviare notifiche avanzate ai dispositivi Android con immagini o video.
 
@@ -72,7 +72,7 @@ In Campaign sono disponibili tre tipi di oggetti di consegna:
 
 ### Consegna unica {#single-delivery}
 
-Una **consegna** è un oggetto di consegna autonoma che viene eseguito una volta. Può essere duplicato, preparato di nuovo, ma finché è nel suo stato finale (annullato, interrotto, finito), non può essere riutilizzato.
+Una **consegna** è un oggetto di consegna autonoma che viene eseguito una volta. Può essere duplicato, preparato di nuovo, ma finché è nel suo stato finale (annullato, interrotto, completato), non può essere riutilizzato.
 
 Le consegne possono essere create dall’elenco delle consegne o all’interno di un flusso di lavoro tramite un’attività di [Consegna](../../automation/workflow/delivery.md).
 
