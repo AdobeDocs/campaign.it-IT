@@ -6,10 +6,10 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
+source-git-commit: 56d5628312ea3dedf9335dd0933811e4bf66eb97
 workflow-type: tm+mt
-source-wordcount: '1523'
-ht-degree: 100%
+source-wordcount: '1524'
+ht-degree: 99%
 
 ---
 
@@ -94,7 +94,7 @@ Per selezionare i destinatari di una consegna, segui i passaggi indicati di segu
 
    Sono disponibili i seguenti tipi di target:
 
-   * **[!UICONTROL Filtering conditions]**: utilizza questa opzione per definire una query e visualizzare il risultato. Per informazioni su come progettare una query, consulta [questa sezione](../start/query-editor.md).
+   * **[!UICONTROL Filtering conditions]**: utilizzare questa opzione per definire una query personalizzata per il recupero dei destinatari. Per informazioni su come progettare una query, consulta [questa sezione](../start/query-editor.md).
    * **[!UICONTROL A list of recipients]**: utilizza questa opzione per impostare come target un elenco di profili. Per ulteriori informazioni sugli elenchi, consulta [questa sezione](../audiences/create-audiences.md).
    * **[!UICONTROL A recipient]**: utilizza questa opzione per selezionare un profilo specifico nel database.
    * **[!UICONTROL Recipients included in a folder]**: utilizza questa opzione per eseguire il targeting di tutti i profili contenuti in una cartella specifica.
@@ -182,7 +182,7 @@ Per ulteriori informazioni sui destinatari e l’invio della bozza, consulta [qu
 
 In questo video scoprirai come aggiungere seed e bozze a un’e-mail esistente e come inviarla.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447007?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/333404?quality=12)
 
 Ulteriori video dimostrativi di Campaign Classic sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=it).
 
