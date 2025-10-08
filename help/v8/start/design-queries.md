@@ -5,10 +5,10 @@ feature: Query Editor, Data Management
 role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 56d5628312ea3dedf9335dd0933811e4bf66eb97
+source-git-commit: adea4eb54f3d519802119646bc501aae2ef5f831
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 1%
+source-wordcount: '867'
+ht-degree: 2%
 
 ---
 
@@ -18,48 +18,45 @@ Le query vengono create utilizzando i campi della tabella selezionata o utilizza
 
 I passaggi per la creazione di una query in Adobe Campaign sono i seguenti:
 
-1. Selezionare la tabella di lavoro. Fare riferimento a [Passaggio 1 - Scegliere una tabella](#step-1---choose-a-table).
-1. Seleziona i dati da estrarre. Consulta [Passaggio 2 - Scegliere i dati da estrarre](#step-2---choose-data-to-extract).
-1. Definire la sequenza di ordinamento dei dati. Consulta [Passaggio 3 - Ordinare i dati](#step-3---sort-data).
-1. Filtrare i dati. Consulta [Passaggio 4 - Filtrare i dati](#step-4---filter-data).
-1. Formattare i dati. Consulta [Passaggio 5 - Formattare i dati](#step-5---format-data).
-1. Visualizzare il risultato. Consulta [Passaggio 6 - Anteprima dati](#step-6---preview-data).
+1. [Selezionare la tabella di lavoro](#step-1---choose-a-table).
+1. [Selezionare i dati da estrarre](#step-2---choose-data-to-extract).
+1. [Definire la modalità di ordinamento dei dati](#step-3---sort-data).
+1. [Definire le opzioni di filtro dei dati](#step-4---filter-data).
+1. [Configura la formattazione dei dati](#step-5---format-data).
+1. [Anteprima dei risultati della query](#step-6---preview-data).
 
->[!NOTE]
->
->* Tutti questi passaggi sono disponibili nell&#39;[editor di query generico](query-editor.md). Quando una query viene creata in un altro contesto, alcuni passaggi possono essere esclusi.
->
->* Per ulteriori informazioni sulle query e su come crearle, consulta la [documentazione del flusso di lavoro di Campaign](../../automation/workflow/query.md).
+Tutti questi passaggi sono disponibili nell&#39;[editor di query generico](query-editor.md). Quando una query viene creata in un altro contesto, alcuni passaggi possono mancare. Per ulteriori informazioni sulle query, consulta anche la [documentazione sull&#39;attività Query del flusso di lavoro](../../automation/workflow/query.md).
 
-Per eseguire una query sul database di Campaign, apri l&#39;**[editor di query generico](query-editor.md)** e segui questi passaggi:
 
 ## Passaggio 1: scegliere una tabella {#step-1---choose-a-table}
 
-Selezionare la tabella contenente i dati da interrogare nella finestra **[!UICONTROL Document type]**. Se necessario, filtrare i dati utilizzando il campo filtro o il pulsante **[!UICONTROL Filters]**.
+Per eseguire una query sul database di Campaign, aprire l&#39;**[editor di query generico](query-editor.md)** e selezionare la tabella contenente i dati che si desidera eseguire nella finestra **[!UICONTROL Document type]**.
 
 ![](assets/query_editor_nveau_21.png)
 
+Se necessario, filtrare i dati utilizzando il campo filtro o il pulsante **[!UICONTROL Filters]**.
+
 ## Passaggio 2: scegliere i dati da estrarre {#step-2---choose-data-to-extract}
 
-Nella finestra **[!UICONTROL Data to extract]**, selezionare i dati da visualizzare: questi campi costituiranno le colonne di output.
+Nella schermata **[!UICONTROL Data to extract]** scegliere i campi che si desidera includere nell&#39;output. Questi campi definiscono le colonne visualizzate nei risultati.
 
-Selezionare ad esempio **[!UICONTROL Age]**, **[!UICONTROL Primary key]**, **[!UICONTROL Email domain]** e **[!UICONTROL City]**. I risultati saranno organizzati in base a questa selezione. Utilizzare le frecce blu a destra della finestra per modificare l&#39;ordine delle colonne.
+È possibile ad esempio selezionare **[!UICONTROL Age]**, **[!UICONTROL Primary key]**, **[!UICONTROL Email domain]** e **[!UICONTROL City]**. L’output sarà strutturato in base a questa selezione. Per regolare l&#39;ordine delle colonne, utilizzare le frecce blu sul lato destro della finestra.
 
 ![](assets/query_editor_nveau_01.png)
 
-È possibile modificare un&#39;espressione inserendovi una formula o eseguendo un processo su una funzione di aggregazione. A tale scopo, fare clic sul campo colonna **[!UICONTROL Expression]**, quindi selezionare **[!UICONTROL Edit expression]**.
+È possibile modificare un&#39;espressione aggiungendo una formula o applicando un processo a una funzione di aggregazione. Per modificare un&#39;espressione, fare clic sul campo colonna **[!UICONTROL Expression]**, quindi selezionare **[!UICONTROL Edit expression]**.
 
 ![](assets/query_editor_nveau_97.png)
 
-È possibile raggruppare i dati della colonna di output: a tale scopo, selezionare **[!UICONTROL Yes]** nella colonna **[!UICONTROL Group]** della finestra **[!UICONTROL Data to extract]**. Questa funzione genera un risultato attorno all’asse di raggruppamento selezionato. Un esempio di query con raggruppamento è disponibile in [questa sezione](../../automation/workflow/query-delivery-info.md).
+È possibile raggruppare i dati visualizzati nelle colonne di output. A tale scopo, selezionare **[!UICONTROL Yes]** nella colonna **[!UICONTROL Group]** della finestra **[!UICONTROL Data to extract]**. I risultati verranno quindi aggregati in base all&#39;asse di raggruppamento selezionato. Per un esempio di query con raggruppamento, vedere [questa sezione](../../automation/workflow/query-delivery-info.md).
 
 ![](assets/query_editor_nveau_56.png)
 
-* La funzione **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** consente di &quot;raggruppare&quot; e selezionare ciò che è stato raggruppato (&quot;avere&quot;). Questa funzione si applica a tutti i campi nella colonna di output. Ad esempio, questa opzione consente di raggruppare tutte le scelte di una colonna di output e di recuperare un tipo specifico di informazioni, ad esempio i destinatari compresi tra 35 e 50.
+* L&#39;opzione **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** consente di raggruppare i risultati e di applicare condizioni a tali gruppi. Si applica a tutti i campi nelle colonne di output. Ad esempio, puoi utilizzarlo per raggruppare i valori di una colonna di output e quindi filtrare i risultati in modo da recuperare solo informazioni specifiche, ad esempio i destinatari di età compresa tra 35 e 50 anni.
 
   Per ulteriori informazioni al riguardo, consulta [questa sezione](../../automation/workflow/query-grouping-management.md).
 
-* La funzione **[!UICONTROL Remove duplicate rows (DISTINCT)]** consente di deduplicare risultati identici ottenuti nella colonna di output. Ad esempio, se esegui un censimento selezionando i campi Cognome, Nome ed E-mail nella colonna di output, quelli con dati identici verranno eliminati, in quanto significa che lo stesso contatto è stato immesso più volte nel database: verrà preso in considerazione un solo risultato.
+L&#39;opzione **[!UICONTROL Remove duplicate rows (DISTINCT)]** elimina righe identiche dall&#39;output (deduplicazione). Ad esempio, se selezioni **Cognome**, **Nome** e **E-mail** come colonne di output, tutti i record con gli stessi valori in tutti e tre i campi verranno considerati duplicati. Nei risultati verrà mantenuta solo un’istanza, garantendo che ogni contatto venga visualizzato una sola volta.
 
 ## Passaggio 3: ordinare i dati {#step-3---sort-data}
 
@@ -74,24 +71,23 @@ In questo esempio, i dati vengono ordinati in ordine crescente in base all’et�
 
 ## Passaggio 4: filtrare i dati {#step-4---filter-data}
 
-L’editor delle query ti consente di filtrare i dati per perfezionare la ricerca.
-
-I filtri offerti dipendono dalla tabella interessata dalla query.
+L’editor delle query ti consente di filtrare i dati per limitare i risultati. I filtri disponibili dipendono dalla tabella su cui si sta eseguendo la query.
 
 ![](assets/query_editor_nveau_09.png)
 
-Dopo aver selezionato **[!UICONTROL Filtering conditions]**, potrai accedere alla sezione **[!UICONTROL Target elements]**: questo ti consente di definire come filtrare i dati da raccogliere.
+Dopo aver selezionato **[!UICONTROL Filtering conditions]**, viene aperta la sezione **[!UICONTROL Target elements]**. Qui puoi definire le regole per filtrare i dati da raccogliere.
 
-* Per creare un nuovo filtro, selezionare i campi, gli operatori e i valori necessari per la creazione della formula da verificare per la selezione dei dati. Puoi anche combinare diverse condizioni come [dettagliato in questa pagina](filter-conditions.md).
-* Per utilizzare i filtri salvati in precedenza, aprire l&#39;elenco a discesa facendo clic sul pulsante **[!UICONTROL Add]**, fare clic su **[!UICONTROL Predefined filter]** e selezionare quello desiderato.
+* Per creare un nuovo filtro, scegli i campi, gli operatori e i valori necessari per creare la condizione. È inoltre possibile combinare più condizioni, come spiegato [in questa pagina](filter-conditions.md).
+
+* Per riutilizzare un filtro esistente, fare clic sul pulsante **[!UICONTROL Add]**, selezionare **[!UICONTROL Predefined filter]** e scegliere il filtro desiderato.
 
   ![](assets/query_editor_15.png)
 
-* I filtri creati in **[!UICONTROL Generic query editor]** sono disponibili in altre applicazioni di query e viceversa. Per salvare un filtro, fare clic sull&#39;icona **[!UICONTROL Save]**.
+I filtri creati in **[!UICONTROL Generic query editor]** possono essere riutilizzati in altre applicazioni di query e viceversa. Per salvare un filtro per un utilizzo successivo, fare clic sull&#39;icona **[!UICONTROL Save]**.
 
-  >[!NOTE]
-  >
-  >Per ulteriori informazioni sulla creazione e l&#39;utilizzo dei filtri, consulta [Opzioni di filtro](filter-conditions.md).
+>[!NOTE]
+>
+>Per ulteriori informazioni sulla creazione e l&#39;utilizzo dei filtri, consulta [Opzioni di filtro](filter-conditions.md).
 
 Come mostrato nell&#39;esempio seguente, per recuperare tutti i destinatari di lingua inglese, selezionare: &quot;recipient language **equal to** EN&quot;.
 
@@ -111,13 +107,13 @@ Gli utenti che hanno familiarità con il linguaggio SQL possono fare clic su **[
 
 ## Passaggio 5: formattare i dati {#step-5---format-data}
 
-Dopo aver configurato i filtri di restrizione, si accede alla finestra **[!UICONTROL Data formatting]**. Questa finestra consente di ridisporre le colonne di output, trasformare i dati e modificare le lettere maiuscole e minuscole delle etichette di colonna. Consente inoltre di applicare una formula al risultato finale utilizzando un campo calcolato.
+Dopo aver configurato i filtri di restrizione, viene visualizzata la finestra **[!UICONTROL Data formatting]**. In questa finestra è possibile ridisporre le colonne di output, trasformare i dati e regolare la maiuscola delle etichette di colonna. È inoltre possibile applicare formule al risultato finale creando un campo calcolato.
 
 >[!NOTE]
 >
 >Per ulteriori informazioni sui tipi di campi calcolati, vedere [Creare campi calcolati](filter-conditions.md#creating-calculated-fields).
 
-Le colonne non selezionate non vengono visualizzate nella finestra di anteprima dati.
+Le colonne non selezionate sono nascoste nella finestra di anteprima dati.
 
 ![](assets/query_editor_nveau_10.png)
 
@@ -131,7 +127,7 @@ La colonna **[!UICONTROL Transformation]** consente di modificare l&#39;etichett
 
 ## Passaggio 6: visualizzare l’anteprima dei dati {#step-6---preview-data}
 
-La finestra **[!UICONTROL Data preview]** è l&#39;ultima fase. Fai clic su **[!UICONTROL Start the preview of the data]** per ottenere i risultati della query. È disponibile in colonne o in formato XML. Fare clic sulla scheda **[!UICONTROL Generated SQL queries]** per visualizzare la query in formato SQL.
+La finestra **[!UICONTROL Data preview]** contrassegna la fase finale del processo di query. Fai clic su **[!UICONTROL Start the preview of the data]** per esaminare i risultati, che possono essere visualizzati in colonne o in formato XML. Per esaminare la query SQL sottostante, aprire la scheda **[!UICONTROL Generated SQL queries]**. Questo passaggio ti consente di verificare che la query si comporti come previsto prima di utilizzarla ulteriormente.
 
 In questo esempio, i dati vengono ordinati in ordine crescente in base all’età del destinatario.
 
@@ -139,7 +135,7 @@ In questo esempio, i dati vengono ordinati in ordine crescente in base all’et�
 
 >[!NOTE]
 >
->Per impostazione predefinita, nella finestra **[!UICONTROL Data preview]** vengono visualizzate solo le prime 200 righe. Per modificare il valore, immettere un numero nella casella **[!UICONTROL Lines to display]** e fare clic su **[!UICONTROL Start the preview of the data]**.
+>Come in per tutti gli elenchi disponibili nella console, per impostazione predefinita nella finestra **[!UICONTROL Data preview]** vengono visualizzate solo le prime 200 righe. Per modificare il valore, immettere un numero nella casella **[!UICONTROL Lines to display]** e fare clic su **[!UICONTROL Start the preview of the data]**. [Ulteriori informazioni](../config/ui-settings.md#manage-and-customize-lists)
 
 
 

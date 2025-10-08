@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
+source-git-commit: adea4eb54f3d519802119646bc501aae2ef5f831
 workflow-type: tm+mt
-source-wordcount: '3832'
+source-wordcount: '3845'
 ht-degree: 4%
 
 ---
@@ -416,9 +416,13 @@ Se esporti una raccolta di elementi (ad esempio le sottoscrizioni dei destinatar
 
 ### Passaggio 8: anteprima dei dati {#step-8---data-preview}
 
-Fare clic su **[!UICONTROL Start the preview of the data]** per visualizzare un&#39;anteprima del risultato dell&#39;esportazione. Per impostazione predefinita, vengono visualizzate le prime 200 righe. Per modificare questo valore, fare clic sulle frecce a destra del campo **[!UICONTROL Lines to display]**.
+Fare clic su **[!UICONTROL Start the preview of the data]** per visualizzare un&#39;anteprima del risultato dell&#39;esportazione.
 
 ![](assets/s_ncs_user_export_wizard07.png)
+
+>[!NOTE]
+>
+>Come in per tutti gli elenchi disponibili nella console, per impostazione predefinita nella finestra **[!UICONTROL Data preview]** vengono visualizzate solo le prime 200 righe. Per modificare il valore, immettere un numero nella casella **[!UICONTROL Lines to display]** e fare clic su **[!UICONTROL Start the preview of the data]**. [Ulteriori informazioni](../config/ui-settings.md#manage-and-customize-lists)
 
 Fai clic sulle schede nella parte inferiore dell’assistente per passare dall’anteprima dei risultati nelle colonne ai risultati in XML. È inoltre possibile visualizzare le query SQL generate.
 
