@@ -5,7 +5,7 @@ description: Ulteriori informazioni sull’attività del flusso di lavoro Aggior
 feature: Workflows, Targeting Activity, Data Management
 version: Campaign v8, Campaign Classic v7
 exl-id: 63b214c7-bbbf-448b-b3af-b3b7a7a5b65c
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+source-git-commit: 2d13ba585b55f0e149d1bca53240b05fe5a8a9eb
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 4%
@@ -101,7 +101,7 @@ L’aggiornamento dei dati e l’unione delle raccolte ti consentono di aggiorna
 
 1. Selezionare le raccolte da spostare nel record principale e i campi da aggiornare.
 
-   Immettere le regole applicabili a questi record una volta identificati uno o più record secondari. A questo scopo, puoi utilizzare il Generatore di espressioni. Ad esempio, specificando che si tratta del valore aggiornato più di recente tra tutti i diversi record che devono essere conservati.
+   Immettere le regole applicabili a questi record una volta identificati uno o più record secondari. A tale scopo, è possibile utilizzare il [Generatore di espressioni](../../v8/start/filter-conditions.md#list-of-functions). Ad esempio, specificando che si tratta del valore aggiornato più di recente tra tutti i diversi record che devono essere conservati.
 
    Quindi inserisci le condizioni da considerare per la regola.
 

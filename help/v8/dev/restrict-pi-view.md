@@ -5,10 +5,10 @@ feature: PI, Privacy, Configuration
 role: Developer
 level: Intermediate, Experienced
 exl-id: 1b833745-71d7-430d-ac7d-c830c78ea232
-source-git-commit: 8ff207246bea1f476b37b1d4f2c79498362e7481
+source-git-commit: 2d13ba585b55f0e149d1bca53240b05fe5a8a9eb
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -39,7 +39,7 @@ Di seguito è riportato un esempio di estensione dello schema del destinatario, 
 
 Le proprietà principali sono:
 
-* **[!UICONTROL visibleIf]**: nasconde i campi dai metadati, pertanto non è possibile accedervi all&#39;interno di una visualizzazione schema, di una selezione di colonne o di un generatore di espressioni. Tuttavia, se il nome del campo viene immesso manualmente in un’espressione, il valore non viene nascosto.
+* **[!UICONTROL visibleIf]**: nasconde i campi dai metadati, pertanto non è possibile accedervi in una visualizzazione schema o in una selezione di colonne oppure in un [Generatore di espressioni](../../v8/start/filter-conditions.md#list-of-functions). Tuttavia, se il nome del campo viene immesso manualmente in un’espressione, il valore non viene nascosto.
 * **[!UICONTROL accessibleIf]**: nasconde i dati (sostituendoli con valori vuoti) dalla query risultante. Se visibleIf è vuoto, ottiene la stessa espressione di **[!UICONTROL accessibleIf]**.
 
 Di seguito sono riportate le conseguenze dell’utilizzo di questo attributo in Campaign:

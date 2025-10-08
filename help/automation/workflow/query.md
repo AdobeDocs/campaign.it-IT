@@ -6,7 +6,7 @@ feature: Workflows, Targeting Activity, Query Editor
 role: User, Data Engineer
 exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
+source-git-commit: 2d13ba585b55f0e149d1bca53240b05fe5a8a9eb
 workflow-type: tm+mt
 source-wordcount: '1603'
 ht-degree: 1%
@@ -52,7 +52,7 @@ Il collegamento **[!UICONTROL Edit query...]** consente di definire il tipo di t
 
    È inoltre possibile aggiungere condizioni di raggruppamento dei dati selezionando la casella corrispondente. A questo scopo, la dimensione di filtro deve essere diversa dalla dimensione di targeting della query. Per ulteriori informazioni sul raggruppamento, consulta questa [sezione](query-grouping-management.md).
 
-   È inoltre possibile aggiungere altri criteri utilizzando il generatore di espressioni e combinarlo con le opzioni logiche AND, OR e EXCEPT.
+   È inoltre possibile aggiungere altri criteri utilizzando [Generatore di espressioni](../../v8/start/filter-conditions.md#using-and--or--except) e combinarlo con le opzioni logiche AND, OR e EXCEPT.
 
    Salva il filtro se desideri riutilizzarlo in un secondo momento.
 
