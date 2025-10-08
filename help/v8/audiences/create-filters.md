@@ -1,14 +1,14 @@
 ---
-title: Creare filtri in Adobe Campaign
+title: Utilizzare i filtri in Adobe Campaign
 description: Scopri come filtrare i dati e salvare i filtri in Campaign
 feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 873578f6-6af9-4d0c-8df3-cce320fc6a4e
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 24a5c4f1d73ea08e40d271db483da33bf5615fb2
+source-git-commit: ec1b41ccf532b044e75c69e795eabfb19a523ec2
 workflow-type: tm+mt
-source-wordcount: '1882'
+source-wordcount: '1883'
 ht-degree: 0%
 
 ---
@@ -384,9 +384,9 @@ Per eseguire funzionalità di filtro avanzate, utilizza le funzioni per definire
 
 Scopri come creare query avanzate in questi esempi end-to-end:
 
-* Scopri come eseguire il targeting sugli attributi dei destinatari semplici in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=it){target="_blank"}.
-* Scopri come filtrare i destinatari non contattati negli ultimi 7 giorni in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html?lang=it){target="_blank"}.
-* Scopri come ripristinare l&#39;elenco degli operatori filtrabile per account attivi in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html?lang=it){target="_blank"}.
+* Scopri come eseguire il targeting sugli attributi dei destinatari semplici in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
+* Scopri come filtrare i destinatari non contattati negli ultimi 7 giorni in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html){target="_blank"}.
+* Scopri come ripristinare l&#39;elenco degli operatori filtrabile per account attivi in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html){target="_blank"}.
 * Scopri come creare un pubblico di e-mail di compleanno in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=it){target="_blank"}.
 
 
