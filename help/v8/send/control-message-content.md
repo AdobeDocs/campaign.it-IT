@@ -6,9 +6,9 @@ feature: Deliverability
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
-source-git-commit: 11c8c4c51c7901ba0d119323c564a64b940428b7
+source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '742'
 ht-degree: 5%
 
 ---
@@ -25,11 +25,11 @@ Durante la progettazione del contenuto del messaggio, segui i principi elencati 
 * [Collegamento per l&#39;annullamento dell&#39;abbonamento](#opt-out) e pagina di destinazione: il collegamento per l&#39;annullamento dell&#39;abbonamento è essenziale. Deve essere visibile e valido e il modulo deve essere funzionale.
 * Anteprima: utilizza gli strumenti offerti da Adobe Campaign per verificare e ottimizzare il contenuto dell&#39;e-mail ([Rendering della casella in entrata](#message-responsiveness), [SpamAssassin](#spamassassin)).
 
-Per ulteriori suggerimenti per ottimizzare il recapito messaggi durante la progettazione del contenuto, consulta la [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html?lang=it){target="_blank"}.
+Per ulteriori suggerimenti per ottimizzare il recapito messaggi durante la progettazione del contenuto, consulta la [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html){target="_blank"}.
 
 >[!NOTE]
 >
->Per ulteriori informazioni sulla modifica del contenuto di posta elettronica, vedere [Definire il contenuto di posta elettronica](defining-the-email-content.md).
+>Per ulteriori informazioni sulla modifica del contenuto delle e-mail, consulta questa [pagina](defining-the-email-content.md).
 
 ## Indirizzo mittente {#sender-address}
 
@@ -37,7 +37,7 @@ Alcuni ISP verificano la validità dell&#39;indirizzo del mittente (**[!UICONTRO
 
 È necessario assicurarsi che sia fornito un indirizzo corretto a livello di istanza (menu **[!UICONTROL Tools > Advanced > deployment wizard...]**) o negli scenari utilizzati più di frequente.
 
-Per ulteriori informazioni sulla definizione dell&#39;indirizzo del mittente, vedere [questa pagina](defining-the-email-content.md#sender).
+Per ulteriori informazioni sulla definizione dell&#39;indirizzo del mittente, consulta questa [pagina](defining-the-email-content.md#sender).
 
 ## Personalizzazione {#personalization}
 
@@ -63,7 +63,7 @@ La richiesta di conferma aggiuntiva non è affidabile: un utente può avere due 
 
 Prima di inviare il messaggio, puoi verificarne la reattività controllando come si presenterà su diversi dispositivi. In questo modo, si assicurerà che venga visualizzato in modo ottimale su diversi client web, servizi di posta sul web e dispositivi.
 
-Per ottenere questo risultato, Adobe Campaign acquisisce il rendering e lo rende disponibile in un report dedicato. Ciò ti permette di visualizzare in anteprima il messaggio inviato nei vari contesti in cui potrebbe essere ricevuto.
+Per ottenere questo risultato, Adobe Campaign acquisisce il rendering e lo rende disponibile in un report dedicato. Questo ti permette di visualizzare in anteprima il messaggio inviato nei vari contesti in cui potrebbe essere ricevuto.
 
 Per ulteriori informazioni, consulta [Rendering in entrata](inbox-rendering.md).
 

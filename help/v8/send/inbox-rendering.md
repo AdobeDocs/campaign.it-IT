@@ -6,7 +6,7 @@ feature: Inbox Rendering, Monitoring, Email Rendering
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
-source-git-commit: 11c8c4c51c7901ba0d119323c564a64b940428b7
+source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 8%
@@ -62,7 +62,8 @@ In genere, la funzione di rendering della casella in entrata viene utilizzata pe
 
 Dopo aver creato la consegna e-mail e averne definito il contenuto e la popolazione target, effettua le seguenti operazioni.
 
-Per ulteriori informazioni sulla creazione, progettazione e targeting di una consegna, consulta [questa sezione](defining-the-email-content.md).
+Per ulteriori informazioni sulla creazione, progettazione e targeting di una consegna, consulta questa [pagina](defining-the-email-content.md).
+
 
 1. Nella barra superiore della consegna, fai clic sul pulsante **[!UICONTROL Inbox rendering]**.
 
