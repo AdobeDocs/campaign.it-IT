@@ -109,7 +109,7 @@ A questo scopo, segui la procedura indicata di seguito:
 
    ![](assets/sms_extaccount_connector.png){zoomable="yes"}
 
-   Per impostare la connessione, è necessario compilare le schede di questo modulo. Per ulteriori informazioni sull&#39;account esterno SMPP[, vedere ](smpp-external-account.md#smpp-connection-settings).
+   Per impostare la connessione, è necessario compilare le schede di questo modulo. Per ulteriori informazioni sull&#39;account esterno SMPP[, vedere &#x200B;](smpp-external-account.md#smpp-connection-settings).
 
 ## Configurare il modello di consegna {#sms-delivery-template}
 

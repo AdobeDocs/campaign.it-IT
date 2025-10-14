@@ -44,7 +44,7 @@ I tipi di pubblico possono essere importati da un elenco o incorporati in un flu
 Orchestrazione delle consegne cross-channel nelle campagne. Semplifica le tue comunicazioni con Adobe Campaign tramite e-mail, SMS personalizzati, notifiche push e messaggi in-app. Puoi anche aggiungere consegne di direct mailing. Scopri come creare, convalidare e monitorare le consegne nelle campagne [in questa sezione](marketing-campaign-deliveries.md).
 
 1. **Impostare il flusso di avvicinamento**
-Definisci i revisori e configura il flusso di approvazione per monitorare e controllare i processi della campagna: targeting, contenuto, budget, estrazione e invio di bozze. Scopri come impostare le approvazioni [ in questa sezione](marketing-campaign-approval.md).
+Definisci i revisori e configura il flusso di approvazione per monitorare e controllare i processi della campagna: targeting, contenuto, budget, estrazione e invio di bozze. Scopri come impostare le approvazioni [&#x200B; in questa sezione](marketing-campaign-approval.md).
 
 1. **Monitorare le consegne**.
 Tieni traccia delle campagne dal dashboard, controlla gli stati di consegna e l’esecuzione dall’interfaccia utente di Campaign. [Ulteriori informazioni](marketing-campaign-monitoring.md).
