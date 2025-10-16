@@ -5,9 +5,9 @@ user-guide-description: Documentazione di prodotto per Adobe Campaign v8 (consol
 title: Documentazione di Adobe Campaign v8
 description: Documentazione di Campaign v8
 breadcrumb-title: Documentazione di Campaign v8
-source-git-commit: f308f34afc16426d81d31eeaca5f14b10ac49c32
+source-git-commit: 0e2e96a37165b82829df7421760de761a2c2b1a5
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '806'
 ht-degree: 95%
 
 ---
@@ -92,6 +92,9 @@ ht-degree: 95%
       + [Aggiungere campi di personalizzazione](send/personalization-fields.md)
       + [Utilizzare i blocchi di personalizzazione](send/personalization-blocks.md)
       + [Creare condizioni](send/conditions.md)
+      + [Coupon personalizzati](send/personalized-coupons.md)
+      + [Generare documenti PDF personalizzati](send/generating-personalized-pdf-documents.md)
+      + [Personalizzare l’elenco delle emoticon](send/customizing-emoticon-list.md)
    + Convalidare e inviare la consegna {#validate}
       + [Anteprima e bozze](send/preview-and-proof.md)
       + [Analisi della consegna](send/delivery-analysis.md)
