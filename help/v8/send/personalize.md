@@ -4,8 +4,9 @@ description: Scopri come personalizzare il contenuto dei messaggi
 feature: Personalization
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 1da45746-4d69-415b-a793-9a08ce80091d
-source-git-commit: 3ac2976839f084761ba56647b282062d8d457ff2
+source-git-commit: 25ee55d5327e0ba7f2192f7b462853269c8cbf46
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 48%
@@ -70,4 +71,4 @@ Le seguenti variabili sono variabili interne che possono essere utilizzate per l
 Scopri i diversi tipi di contenuti dinamici e come creare e applicare blocchi di personalizzazione e istruzioni condizionali a una consegna.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3452876?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/335734?quality=12)
