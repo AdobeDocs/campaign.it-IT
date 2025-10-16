@@ -5,10 +5,9 @@ description: Scopri come creare e inserire coupon personalizzati
 feature: Personalization
 role: User
 version: Campaign v8, Campaign Classic v7
-exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
-source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
+source-git-commit: 33462c1e2af34000131ce81e23ac2360c2cc5a3a
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '888'
 ht-degree: 1%
 
 ---
@@ -23,7 +22,7 @@ L’aggiunta di coupon alle consegne può fornire ai destinatari un valore aggiu
 
 La gestione dei coupon si basa su un pacchetto che deve essere installato. Per confermare che hai la gestione del coupon, seleziona **[!UICONTROL Administration > Configuration > Package management > Installed packages.]**
 
-I dati del coupon possono essere importati ed esportati utilizzando i formati CSV e XML. [Ulteriori informazioni](../../platform/using/get-started-data-import-export.md).
+I dati del coupon possono essere importati ed esportati utilizzando i formati CSV e XML. [Ulteriori informazioni](../start/import.md).
 
 ## Crea un coupon {#creating-a-coupon}
 
@@ -58,7 +57,7 @@ Prima di seguire i passaggi seguenti, assicurati di conoscere il tipo di coupon 
 
    >[!NOTE]
    >
-   >I singoli coupon possono essere importati in blocco. Per informazioni dettagliate sull&#39;importazione e l&#39;esportazione, consultare [questa sezione](../../platform/using/get-started-data-import-export.md).
+   >I singoli coupon possono essere importati in blocco. Per informazioni dettagliate sull&#39;importazione e l&#39;esportazione, consultare [questa sezione](../start/import.md).
 
 ### Configurare singoli coupon {#configuring-individual-coupons}
 
@@ -75,8 +74,7 @@ I valori per **[!UICONTROL status]**, **[!UICONTROL channel]** e **[!UICONTROL a
 
 ## Inserire un coupon in una consegna e-mail {#inserting-a-coupon-into-an-email-delivery}
 
-Nell’esempio seguente, la consegna viene creata dalla pagina Home. Per istruzioni dettagliate su come creare una consegna, consulta [questa sezione](about-email-channel.md). Puoi anche aggiungere un coupon a una consegna in un flusso di lavoro.
-
+Nell’esempio seguente, la consegna viene creata dalla pagina Home. Per istruzioni dettagliate su come creare una consegna, consulta [questa sezione](email.md)
 1. Vai a **[!UICONTROL Campaigns]** e scegli **[!UICONTROL Deliveries]**.
 1. Fai clic su **[!UICONTROL Create]**.
 
@@ -150,9 +148,9 @@ Per confermare che la consegna è avvenuta correttamente:
 
 >[!NOTE]
 >
->Per impostazione predefinita, il modulo di gestione dei coupon utilizza una tabella **nms:recipient**. [Ulteriori informazioni](../../configuration/using/about-data-model.md#default-recipient-table).
+>Per impostazione predefinita, il modulo di gestione dei coupon utilizza una tabella **nms:recipient**. [Ulteriori informazioni](../dev/datamodel.md#ootb-profiles).
 >
->Scopri come utilizzare una tabella dei destinatari personalizzata [in questa pagina](../../configuration/using/about-custom-recipient-table.md).
+>Scopri come utilizzare una tabella dei destinatari personalizzata [in questa pagina](../dev/custom-recipient.md).
 
 ## Gestisci coupon insufficienti {#managing-insufficient-coupons}
 
