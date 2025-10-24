@@ -5,10 +5,10 @@ feature: Workflows, Data Management, Federated Data Access
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: ca7eca9d-9112-4ea1-9a0c-a24cf6a978e6
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+source-git-commit: 26829656f8e06434ca3207c0c7b62ba907765972
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 2%
+source-wordcount: '304'
+ht-degree: 1%
 
 ---
 
@@ -28,6 +28,10 @@ Quando si utilizza l&#39;attività **[!UICONTROL Change Data Source]**, è neces
 >[!IMPORTANT]
 >
 >Le attività **[!UICONTROL Change Dimension]** e **[!UICONTROL Change Data source]** non devono essere aggiunte in una riga. Se è necessario utilizzare entrambe le attività in sequenza, assicurarsi di includere un&#39;attività **[!UICONTROL Enrichement]** tra di esse. In questo modo si garantisce la corretta esecuzione e si evitano potenziali conflitti o errori.
+
+>[!NOTE]
+>
+>L&#39;attività **Change Data Source** può elaborare un massimo di un milione di record per esecuzione. Se devi aumentare questo limite, contatta il rappresentante Adobe.
 
 Per utilizzare l&#39;attività **[!UICONTROL Change Data Source]**, è necessario:
 
