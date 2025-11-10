@@ -5,10 +5,10 @@ type: Event
 title: Note tecniche di Adobe Campaign
 description: Note tecniche sulla campagna
 breadcrumb-title: Note tecniche sulla campagna
-source-git-commit: d80d81bf8c25c467c909c9ccac7c31e6963409f0
+source-git-commit: 784c74aaff23dbf1f35c6e8153f90610048e1c07
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 24%
+source-wordcount: '70'
+ht-degree: 25%
 
 ---
 
@@ -17,7 +17,6 @@ ht-degree: 24%
 
 + [Note tecniche sulla campagna](technotes-home.md)
 + Aggiornamenti{#tn-new}
-   + [Migrazione del connettore SMS](upgrades/sms-migration.md)
    + [Modifiche al canale di notifica push](upgrades/push-technote.md)
    + [Migrazione utenti a IMS](upgrades/migrate-users-to-ims.md)
    + [Migrazione degli operatori tecnici a Developer Console](upgrades/ims-migration.md)
