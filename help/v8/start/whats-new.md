@@ -61,7 +61,7 @@ Adobe Campaign v8 supporta i connettori dati con Real-Time CDP e Adobe Experienc
 
 Inoltre, Adobe Campaign v8 è integrato in modo nativo con le funzionalità di orchestrazione del percorso in tempo reale, in modo che gli esperti di marketing possano riutilizzare gli stessi modelli e le stesse funzionalità di consegna in Adobe Campaign per interagire con i clienti in tempo reale. Questi investimenti ottimizzano l’esperienza del cliente di Adobe Campaign e consentono nuovi casi d’uso, come la possibilità di aggiungere percorsi del cliente personalizzati in tempo reale alle campagne.
 
-Inoltre puoi configurare l’ottimizzazione del tempo di invio e il valore di engagement, entrambi in modalità predittiva, con il servizio IA per la gestione dei percorsi cliente, per aumentare i tassi di apertura, i clic e i ricavi.
+Inoltre puoi configurare l’ottimizzazione dell’ora di invio e il punteggio di coinvolgimento, entrambi in modalità predittiva, con il servizio IA per la gestione dei percorsi cliente, per aumentare i tassi di apertura, i clic e i ricavi.
 
 [Ulteriori informazioni sulle integrazioni di Campaign](../connect/integration.md)
 
