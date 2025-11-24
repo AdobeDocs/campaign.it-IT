@@ -6,10 +6,10 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: ad75f01e-2c6c-4607-b15a-8870d399002a
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+source-git-commit: 6b70ad987b828dc1c17bc4f0683046be4eff0408
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 10%
+source-wordcount: '862'
+ht-degree: 8%
 
 ---
 
@@ -76,11 +76,55 @@ Ognuno di questi campi può essere personalizzato utilizzando l’icona dedicata
 
 Per ulteriori informazioni sulla gestione della posta non recapitata, consulta [questa sezione](delivery-failures.md#bounce-mail-management).
 
+## Abilita annullamento iscrizione con un solo clic all’elenco {#one-click-list-unsubscribe}
+
+L’URL per l’annullamento dell’iscrizione con un solo clic è un collegamento o un pulsante visualizzato accanto alle informazioni sul mittente dell’e-mail che consente ai destinatari di annullare immediatamente l’iscrizione alle mailing list con un solo clic. <!--[Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#list-unsubscribe){target="_blank"}-->
+
+Viene visualizzato come collegamento **Annulla sottoscrizione** nelle interfacce e-mail degli ISP. Ad esempio:
+
+![](assets/email-list-unsubscribe-example.png)
+
+L’aggiunta di un’intestazione SMTP denominata Annullamento iscrizione a mailing list è obbligatoria per garantire una gestione ottimale del recapito messaggi e può essere utilizzata in alternativa all’icona &quot;Report as SPAM&quot; (Report as SPAM). In effetti, l’utilizzo di questa funzionalità riduce la percentuale di reclami e contribuisce a proteggere la tua reputazione.
+
+>[!IMPORTANT]
+>
+>Per visualizzare l’URL con un solo clic per l’annullamento dell’iscrizione nell’intestazione dell’e-mail, il client e-mail dei destinatari deve supportare questa funzione.
+
+Per abilitare questa funzionalità, seleziona l&#39;opzione **[!UICONTROL Addition of One-click List-Unsubscription Header]** nella scheda **[!UICONTROL SMTP]** delle proprietà di consegna.
+
+>[!NOTE]
+>
+>Questa opzione è abilitata per impostazione predefinita.
+
+![](assets/email-smtp-list-unsubscribe.png)
+
+<!--
+>[!WARNING]
+>
+>If you uncheck this option in the delivery template, it will still be enabled by default in the deliveries created from this template. You need to enable the option again at the delivery level.-->
+
+A seconda del client e-mail e del metodo utilizzato per eseguire la rinuncia, fare clic sul collegamento **Annulla iscrizione** nell&#39;intestazione e-mail può avere i seguenti effetti:
+
+* Se il client di posta elettronica utilizza il metodo **One-Click** List-Unsubscribe, il destinatario viene direttamente escluso.
+
+  >[!NOTE]
+  >
+  >Principali ISP come Google e Yahoo! richiede ai mittenti di rispettare **Annullamento iscrizione a mailing list con un solo clic**.
+
+* Se il client di posta elettronica non supporta il metodo One-Click List-Unsubscribe, è comunque possibile utilizzare il metodo **&quot;mailto&quot;** List-Unsubscribe, che invia un&#39;e-mail precompilata all&#39;indirizzo di annullamento dell&#39;iscrizione specificato nell&#39;intestazione dell&#39;e-mail.
+
+  È possibile impostare l&#39;indirizzo in modo esplicito nell&#39;intestazione o utilizzare un indirizzo dinamico, ad esempio utilizzando &lt;%=errorAddress%> o l&#39;opzione &#39;NmsEmail_DefaultErrorAddr&#39;, che può essere impostata tramite la procedura guidata di distribuzione.
+
+>[!NOTE]
+>
+>È inoltre possibile impostare manualmente i metodi [Annullamento sottoscrizione a un solo clic](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#one-click-list-unsubscribe){target="_blank"} e [&quot;mailto&quot; Annullamento sottoscrizione a un elenco](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#mailto-list-unsubscribe){target="_blank"}. I passaggi dettagliati sono descritti nella [Guida alle best practice per il recapito messaggi](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#list-unsubscribe){target="_blank"} di Experience Cloud.
+
+
 ## Aggiungi intestazioni SMTP {#adding-smtp-headers}
 
 È possibile aggiungere intestazioni SMTP alle consegne. A questo scopo, utilizza la sezione pertinente della scheda **[!UICONTROL SMTP]** nella consegna.
 
-Lo script immesso in questa finestra deve fare riferimento a un&#39;intestazione per riga nel seguente formato: **nome:valore**.
+Lo script immesso in questa finestra deve fare riferimento a un&#39;intestazione per riga nel seguente formato: **nome:value**.
 
 Se necessario, i valori vengono codificati automaticamente.
 
