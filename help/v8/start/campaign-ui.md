@@ -6,10 +6,10 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: f308f34afc16426d81d31eeaca5f14b10ac49c32
+source-git-commit: df8ab43d9c7aee96c23240cd6c2775311da1abf2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1178'
+ht-degree: 68%
 
 ---
 
@@ -82,19 +82,17 @@ Per ogni funzionalità, è possibile accedere al set di funzioni chiave nella se
 
 Ad esempio, durante la navigazione nella scheda **[!UICONTROL Profiles and targets]**, è possibile accedere agli elenchi dei destinatari, ai servizi di abbonamento, ai flussi di lavoro di targeting esistenti e alle scelte rapide per la creazione di tutti questi componenti.
 
-![](assets/overview-list.png)
+![Interfaccia utente della console di Campaign che mostra come accedere agli elenchi dalla scheda Profili e destinazione](assets/overview-list.png)
 
 Quando selezioni un elemento nella schermata, questo viene caricato in una nuova scheda in modo da poter sfogliare facilmente il contenuto.
 
-![](assets/new-tab.png)
+![Interfaccia utente della console di Campaign che mostra come modificare un elenco in una nuova scheda](assets/new-tab.png)
 
 ### Creare un elemento {#create-an-element}
 
 Utilizza le scelte rapide nella sezione **[!UICONTROL Create]** a sinistra della schermata per aggiungere nuovi elementi. Puoi anche utilizzare il pulsante **[!UICONTROL Create]** sopra l’elenco per aggiungere nuovi elementi all’elenco corrente.
 
-Ad esempio, nella pagina della consegna, utilizza il pulsante **[!UICONTROL Create]** per creare una nuova consegna.
-
-![](assets/new-recipient.png)
+![Interfaccia utente della console di Campaign che mostra come creare un destinatario dalla schermata Profili e destinazione](assets/new-recipient.png)
 
 <!--
 ## Use a web browser {#web-browser}
@@ -109,7 +107,7 @@ The web access interface is similar to the console interface. From a browser, yo
 
 Sfoglia Campaign Explorer per accedere a tutte le funzionalità e le impostazioni di Adobe Campaign.
 
-![](assets/explorer.png)
+![Interfaccia utente della console Campaign con Explorer attivo nel menu Campagne](assets/explorer.png)
 
 Questa area di lavoro consente di accedere alla struttura di Explorer per sfogliare tutte le funzioni e le opzioni.
 
@@ -153,7 +151,7 @@ Le lingue supportate dipendono dall’interfaccia utente.
   >
   >La lingua viene selezionata durante il processo di installazione e **non può essere modificata** in seguito.
 
-* Per le lingue supportate dall’interfaccia utente di Campaign Web, [consulta questa pagina](https://experienceleague.adobe.com/it/docs/campaign-web/v8/start/connect-to-campaign#language-pref){target="_blank"}.
+* Per le lingue supportate dall&#39;interfaccia utente di Campaign Web, [consulta la documentazione dell&#39;interfaccia utente di Campaign Web](https://experienceleague.adobe.com/it/docs/campaign-web/v8/start/connect-to-campaign#language-pref){target="_blank"}.
 
 ## Formati
 
