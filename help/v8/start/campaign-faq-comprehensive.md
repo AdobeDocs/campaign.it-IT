@@ -944,7 +944,7 @@ Campaign gestisce automaticamente un elenco di quarantena per proteggere la repu
 * **Soglia di mancato recapito non permanente** - Errori temporanei ripetuti (cassetta postale piena, server temporaneamente non disponibile) che superano la soglia di errore
 * **Reclami spam** - Destinatari che contrassegnano le e-mail come spam
 * **Indirizzi non validi** - Indirizzi con errori di sintassi o che non superano la convalida
-* inserire nell&#39;elenco Bloccati **** - Destinatari che hanno rinunciato o richiesto di essere esclusi
+* inserire nell&#39;elenco Bloccati **&#x200B;**&#x200B;- Destinatari che hanno rinunciato o richiesto di essere esclusi
 
 **Funzionamento della quarantena:**
 
@@ -1517,7 +1517,7 @@ Il principio dei pacchetti di dati è di esportare una configurazione di dati e 
 
 +++ Dove posso trovare l’elenco delle API di Campaign v8?
 
-Tutte le API di Campaign, inclusa la loro descrizione completa, sono disponibili in questa [](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=it){target="_blank"}documentazione dedicata.
+Tutte le API di Campaign, inclusa la loro descrizione completa, sono disponibili in questa [&#128279;](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=it){target="_blank"}documentazione dedicata.
 
 +++
 
