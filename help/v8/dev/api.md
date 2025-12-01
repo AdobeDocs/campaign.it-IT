@@ -5,10 +5,10 @@ feature: API
 role: Developer
 level: Intermediate, Experienced
 exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
-source-git-commit: 115b7b6824f3736e03f9fb87898f1264f9bab636
+source-git-commit: 26fededf0ee83299477e45e891df30a46c6d40fe
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 14%
+source-wordcount: '296'
+ht-degree: 11%
 
 ---
 
@@ -23,10 +23,10 @@ ht-degree: 14%
 >
 >A seconda del modello di implementazione, con Campaign v8 puoi anche utilizzare le API REST. [Ulteriori informazioni](../dev/api/get-started-apis.md).
 
-Puoi utilizzare [le API di Campaign JavaScript](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=it){target="_blank"} per scrivere nel database cloud di Campaign o leggere dal database:
+Puoi utilizzare [le API di Campaign JavaScript](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target="_blank"} per scrivere nel database cloud di Campaign o leggere dal database:
 
-* API specifiche per l’azienda che consentono di agire su ciascun oggetto: consegne, flussi di lavoro, abbonamenti e così via. Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html?lang=it){target="_blank"}.
-* API di accesso ai dati generiche per l’esecuzione di query sui dati del modello di dati. Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html?lang=it){target="_blank"}.
+* API specifiche per l’azienda che consentono di agire su ciascun oggetto: consegne, flussi di lavoro, abbonamenti e così via. Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html){target="_blank"}.
+* API di accesso ai dati generiche per l&#39;esecuzione di query sui dati del modello di dati tramite i metodi queryDef e NLWS. Ulteriori informazioni in [Eseguire una query sul database con queryDef](query-api.md).
 
 Nella distribuzione [Enterprise (FFDA)](../architecture/enterprise-deployment.md), Campaign funziona con due database: un database locale per la messaggistica in tempo reale, le query unitarie dell&#39;interfaccia utente e le operazioni di scrittura tramite API; e un database cloud per l&#39;esecuzione della campagna, il reporting, l&#39;acquisizione dei dati, le query batch e l&#39;esecuzione dei flussi di lavoro.
 
@@ -53,5 +53,6 @@ Per utilizzare le API e interagire con [!DNL Adobe Campaign], è inoltre necessa
 
 **Argomenti correlati**
 
+* [Eseguire una query sul database con queryDef](query-api.md)
 * [Best practice per i modelli di dati](datamodel-best-practices.md)
-* [Documentazione JSAPI per Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=it){target="_blank"}
+* [Documentazione JSAPI per Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target="_blank"}
