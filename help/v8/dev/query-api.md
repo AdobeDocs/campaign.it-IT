@@ -7,20 +7,52 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 0fd39d6c-9e87-4b0f-a960-2aef76c9c8eb
-source-git-commit: 26fededf0ee83299477e45e891df30a46c6d40fe
+source-git-commit: ceab90331fab0725962a2a98f338ac3dc31a2588
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '1281'
 ht-degree: 1%
 
 ---
 
 # Eseguire una query sul database con queryDef {#query-database-api}
 
-[!DNL Adobe Campaign] fornisce potenti metodi di JavaScript per interagire con il database utilizzando `queryDef` e `NLWS`. Questi metodi consentono di caricare, creare, aggiornare ed eseguire query sui dati utilizzando JSON, XML o SQL.
+[!DNL Adobe Campaign] fornisce potenti metodi di JavaScript per interagire con il database utilizzando `queryDef` e l&#39;oggetto `NLWS`. Questi metodi basati su SOAP consentono di caricare, creare, aggiornare ed eseguire query sui dati utilizzando JSON, XML o SQL.
 
 >[!NOTE]
 >
 >Questa documentazione descrive le API orientate ai dati per l’esecuzione di query sul database a livello di programmazione. Per le API REST, fare riferimento a [Introduzione alle API REST](api/get-started-apis.md). Per la creazione di query visive, fare riferimento a [Utilizzare l&#39;editor di query](../start/query-editor.md).
+
+## Che cos&#39;è NLWS? {#what-is-nlws}
+
+`NLWS` (Servizi Web Neolane) è l&#39;oggetto JavaScript globale utilizzato per accedere ai metodi API basati su SOAP di [!DNL Adobe Campaign]. Gli schemi sono proprietà dell&#39;oggetto `NLWS` e consentono di interagire con le entità di Campaign a livello di programmazione.
+
+In base alla [documentazione JSAPI per Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html){target="_blank"}, &quot;gli schemi sono oggetti globali &#39;NLWS&#39;.&quot; La sintassi per accedere ai metodi dello schema segue il seguente schema:
+
+```javascript
+NLWS.<namespace><SchemaName>.<method>()
+```
+
+**Esempi:**
+
+* `NLWS.nmsRecipient` - Metodi di accesso per lo schema destinatario (`nms:recipient`)
+* `NLWS.nmsDelivery` - Metodi di accesso per lo schema di consegna (`nms:delivery`)
+* `NLWS.xtkQueryDef` - Accedere ai metodi queryDef per eseguire query sul database
+
+I metodi API comuni includono:
+
+* `load(id)` - Carica un&#39;entità in base al relativo ID. [Ulteriori informazioni](https://experienceleague.adobe.com/developer/campaign-api/api/f-load.html){target="_blank"}
+* `create(data)` - Crea una nuova entità
+* `save()` - Salva le modifiche apportate a un&#39;entità
+
+**Esempio tratto dalla documentazione ufficiale:**
+
+```javascript
+var delivery = NLWS.nmsDelivery.load("12435")
+```
+
+>[!NOTE]
+>
+>**Sintassi alternativa:** Per compatibilità con le versioni precedenti, è possibile che in alcuni documenti venga visualizzata anche la sintassi dello spazio dei nomi in minuscolo (ad esempio, `nms.recipient.create()`, `xtk.queryDef.create()`). Entrambe le sintassi funzionano, ma `NLWS` è lo standard documentato nel riferimento JSAPI ufficiale di Campaign.
 
 ## Prerequisiti {#prerequisites}
 
@@ -30,11 +62,30 @@ Prima di utilizzare i metodi queryDef e NLWS, è necessario conoscere:
 * [!DNL Adobe Campaign] modello dati e schemi
 * Espressioni XPath per la navigazione tra gli elementi dello schema
 
-Ulteriori informazioni sul modello dati di Campaign in [questa pagina](datamodel.md).
+**Informazioni sul modello dati di Campaign:**
 
-## Metodi statici dello schema di entità {#entity-schema-methods}
+Adobe Campaign viene fornito con un modello dati predefinito costituito da tabelle collegate tra loro in un database Cloud. La struttura di base comprende:
 
-Ogni schema in [!DNL Adobe Campaign] (ad esempio, `nms:recipient`, `nms:delivery`) include metodi statici accessibili tramite l&#39;oggetto `NLWS`. Questi metodi forniscono un modo pratico per interagire con le entità del database.
+* **Tabella destinatari** (`nmsRecipient`) - Tabella principale in cui sono memorizzati i profili di marketing
+* **Tabella di consegna** (`nmsDelivery`) - Memorizza le azioni e i modelli di consegna con i parametri per l&#39;esecuzione delle consegne
+* **Tabelle dei registri** - Registri di esecuzione dell&#39;archivio:
+   * `nmsBroadLogRcp` - Registri di consegna per tutti i messaggi inviati ai destinatari
+   * `nmsTrackingLogRcp` - Registri di tracciamento per reazioni del destinatario (aperture, clic)
+* **Tabelle tecniche** - Archivia dati di sistema come operatori (`xtkGroup`), sessioni (`xtkSessionInfo`), flussi di lavoro (`xtkWorkflow`)
+
+Per accedere alle descrizioni dello schema nell&#39;interfaccia di Campaign, passa a **Amministrazione > Configurazione > Schemi dati**, seleziona una risorsa e fai clic sulla scheda **Documentazione**.
+
+## Metodi dello schema di entità {#entity-schema-methods}
+
+Ogni schema in [!DNL Adobe Campaign] (ad esempio, `nms:recipient`, `nms:delivery`) include metodi accessibili tramite l&#39;oggetto `NLWS`. Questi metodi forniscono un modo pratico per interagire con le entità del database.
+
+### Metodi statici {#static-methods}
+
+I metodi statici di SOAP sono accessibili richiamando un metodo sull’oggetto che rappresenta lo schema. `NLWS.xtkWorkflow.PostEvent()` richiama ad esempio un metodo statico.
+
+### Metodi non statici {#non-static-methods}
+
+Per utilizzare metodi di SOAP non statici, è innanzitutto necessario recuperare un&#39;entità utilizzando i metodi `load` o `create` negli schemi corrispondenti. Ulteriori informazioni sono disponibili nella [documentazione JSAPI per Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html){target="_blank"}.
 
 ### Caricare, salvare e creare entità {#load-save-create}
 
@@ -87,7 +138,7 @@ Lo schema `xtk:queryDef` fornisce metodi per generare ed eseguire query sul data
 * `getIfExists` - Recupera un singolo record, restituisce null se non viene trovato
 * `count` - Conta record corrispondenti ai criteri
 
-Ulteriori informazioni sui metodi queryDef sono disponibili nella [documentazione JSAPI di Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html?lang=it){target="_blank"}.
+Ulteriori informazioni sui metodi queryDef sono disponibili nella [documentazione JSAPI di Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html){target="_blank"}.
 
 ## Query con JSON {#query-json}
 
@@ -209,9 +260,12 @@ for each(var delivery in deliveries.delivery) {
 
 >[!NOTE]
 >
->Il parametro `lineCount` limita il numero di risultati. Senza di esso, il limite predefinito è 10.000 record.
+>**Limiti risultati:** Campaign limita automaticamente i risultati delle query per evitare problemi di memoria:
+>* Il limite predefinito varia in base al contesto (in genere 200-10.000 record)
+>* Utilizza `lineCount` per impostare esplicitamente il numero massimo di risultati
+>* Per i set di dati di grandi dimensioni (>1000 record), utilizza i flussi di lavoro invece di queryDef. I flussi di lavoro sono progettati per elaborare milioni di righe in modo efficiente.
 
-Ulteriori informazioni su [ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html?lang=it){target="_blank"}.
+Ulteriori informazioni su [ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html){target="_blank"} e [best practice per le query](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html){target="_blank"}.
 
 ## Eseguire una query sui dati di transizione del flusso di lavoro {#workflow-transition-data}
 
@@ -256,7 +310,7 @@ for each(var record in records.getElements()) {
 
 >[!CAUTION]
 >
->Utilizzare sempre query con parametri con `$(sz)` per le stringhe e `$(l)` per i numeri interi per evitare vulnerabilità SQL injection. Ulteriori informazioni sono disponibili nella [documentazione JSAPI per Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/f-sqlExec.html?lang=it){target="_blank"}.
+>Utilizzare sempre query con parametri con `$(sz)` per le stringhe e `$(l)` per i numeri interi per evitare vulnerabilità SQL injection. Ulteriori informazioni sono disponibili nella [documentazione JSAPI per Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/f-sqlExec.html){target="_blank"}.
 
 ## Conteggio dei record {#count-records}
 
@@ -349,6 +403,78 @@ for each(var result in d.get()) {
 }
 ```
 
+## Enumerazioni delle query con analyse {#analyze-enumerations}
+
+L&#39;opzione `analyze` restituisce nomi descrittivi per i valori di enumerazione. Invece dei soli valori numerici, Campaign restituirà anche il valore stringa e l’etichetta utilizzando i suffissi &quot;Name&quot; ed &quot;Label&quot;.
+
+**Mappatura consegna query con analisi enumerazione:**
+
+```javascript
+var query = NLWS.xtkQueryDef.create({
+  queryDef: {
+    schema: "nms:deliveryMapping",
+    operation: "get",
+    select: {
+      node: [
+        {expr: "@id"},
+        {expr: "@name"},
+        {expr: "[storage/@exclusionType]", analyze: true}  // Analyze enumeration
+      ]
+    },
+    where: {
+      condition: [{expr: "@name='mapRecipient'"}]
+    }
+  }
+});
+
+var mapping = query.ExecuteQuery();
+
+// Result includes:
+// - exclusionType: 2 (numeric value)
+// - exclusionTypeName: "excludeRecipient" (string value)
+// - exclusionTypeLabel: "Exclude recipient" (display label)
+logInfo("Type: " + mapping.$exclusionType);
+logInfo("Name: " + mapping.$exclusionTypeName);
+logInfo("Label: " + mapping.$exclusionTypeLabel);
+```
+
+Ulteriori informazioni sull&#39;[opzione di analisi](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html#the-analyze-option){target="_blank"}.
+
+## Paginazione {#pagination}
+
+Utilizzare `lineCount` e `startLine` per impaginare i set di risultati di grandi dimensioni.
+
+**Recupera record nelle pagine:**
+
+```javascript
+// Get records 3 and 4 (skip first 2)
+var query = NLWS.xtkQueryDef.create({
+  queryDef: {
+    schema: "nms:recipient",
+    operation: "select",
+    lineCount: 2,     // Number of records per page
+    startLine: 2,     // Starting position (0-indexed)
+    select: {
+      node: [
+        {expr: "@id"},
+        {expr: "@email"}
+      ]
+    },
+    orderBy: {
+      node: [{expr: "@id"}]  // Critical: Always use orderBy for pagination
+    }
+  }
+});
+
+var recipients = query.ExecuteQuery();
+```
+
+>[!CAUTION]
+>
+>**L&#39;impaginazione richiede orderBy:** Senza una clausola `orderBy`, i risultati delle query non sono garantiti in un ordine coerente. Le chiamate successive possono restituire pagine diverse o record duplicati. Includi sempre `orderBy` quando si utilizza l&#39;impaginazione.
+
+Ulteriori informazioni sulla [paginazione](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html#pagination){target="_blank"}.
+
 ## Costruzione di query dinamiche {#dynamic-queries}
 
 Crea le query in modo dinamico aggiungendo le condizioni a livello di programmazione.
@@ -435,7 +561,7 @@ logInfo("Generated SQL: " + sql);
 // Output: "SELECT iRecipientId, sEmail FROM NmsRecipient WHERE sEmail IS NOT NULL"
 ```
 
-Ulteriori informazioni su [BuildQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-BuildQuery.html?lang=it){target="_blank"}.
+Ulteriori informazioni su [BuildQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-BuildQuery.html){target="_blank"}.
 
 ### BuildQueryEx - Ottieni SQL con stringa di formato {#build-query-ex}
 
@@ -460,7 +586,7 @@ logInfo("Format: " + format);
 var results = sqlSelect(format, sql);
 ```
 
-Ulteriori informazioni su [BuildQueryEx](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-BuildQueryEx.html?lang=it){target="_blank"}.
+Ulteriori informazioni su [BuildQueryEx](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-BuildQueryEx.html){target="_blank"}.
 
 ### SelectAll - Aggiungi tutti i campi da selezionare {#select-all}
 
@@ -483,7 +609,7 @@ var result = query.ExecuteQuery();
 // Result contains all recipient fields
 ```
 
-Ulteriori informazioni su [SelectAll](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-SelectAll.html?lang=it){target="_blank"}.
+Ulteriori informazioni su [SelectAll](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-SelectAll.html){target="_blank"}.
 
 ### Aggiorna - Aggiorna di massa i record {#mass-update}
 
@@ -513,7 +639,7 @@ logInfo("Mass update completed");
 >
 >Gli aggiornamenti di massa influiscono su tutti i record che corrispondono alla clausola WHERE. Eseguire sempre il test delle condizioni WHERE con una query di selezione per verificare quali record saranno interessati.
 
-Ulteriori informazioni sull&#39;[aggiornamento](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-Update.html?lang=it){target="_blank"}.
+Ulteriori informazioni sull&#39;[aggiornamento](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-Update.html){target="_blank"}.
 
 ### GetInstanceFromModel - Istanze modello di query {#get-instance-from-model}
 
@@ -536,7 +662,7 @@ var query = NLWS.xtkQueryDef.create(
 var instance = query.GetInstanceFromModel("nms:delivery");
 ```
 
-Ulteriori informazioni su [GetInstanceFromModel](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-GetInstanceFromModel.html?lang=it){target="_blank"}.
+Ulteriori informazioni su [GetInstanceFromModel](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-GetInstanceFromModel.html){target="_blank"}.
 
 ## Operazioni batch {#batch-operations}
 
@@ -629,12 +755,14 @@ for each(var record in xml.collection) {
 
 Quando si utilizzano i metodi queryDef e NLWS:
 
+* **Utilizzare flussi di lavoro per set di dati di grandi dimensioni** - QueryDef non è progettato per l&#39;elaborazione di dati con volumi elevati. Per i set di dati con più di 1.000 record, utilizza flussi di lavoro in grado di gestire milioni di righe in modo efficiente. Ulteriori informazioni sono disponibili nella [documentazione di Campaign SDK](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html){target="_blank"}
 * **Usa query con parametri** - Usa sempre parametri associati (`$(sz)`, `$(l)`) con `sqlExec` per impedire SQL injection
-* **Imposta lineCount** - Sostituisci il limite predefinito di 10.000 record quando necessario con `lineCount: 999999999`
+* **Imposta limiti espliciti**. Utilizzare `lineCount` per controllare la dimensione dei risultati. I limiti predefiniti della campagna variano in base al contesto (200-10.000 record)
+* **Utilizzare orderBy con paginazione** - Includere sempre una clausola `orderBy` quando si utilizzano `startLine` e `lineCount` per garantire una paginazione coerente
 * **Usa getIfExists** - Usa `operation: "getIfExists"` quando i record potrebbero non esistere per evitare eccezioni
+* **Utilizza analyse for enumerations**. Aggiungi `analyze: true` per selezionare i nodi per ottenere nomi ed etichette di enumerazione intuitivi
 * **Ottimizza query** - Aggiungi `where` condizioni appropriate per limitare i set di risultati
-* **Elaborazione batch** - Elabora set di dati di grandi dimensioni in batch per evitare timeout
-* **Sicurezza delle transazioni** - Valutare la possibilità di utilizzare le transazioni per più aggiornamenti correlati
+* **Elaborazione batch** - Elabora più record in batch per evitare problemi di memoria e timeout
 * **Riconoscimento FFDA** - Nelle [distribuzioni Enterprise (FFDA)](../architecture/enterprise-deployment.md), tieni presente che [!DNL Campaign] funziona con due database
 
 
@@ -772,9 +900,9 @@ Struttura completa dell&#39;oggetto `queryDef`:
 ## Argomenti correlati {#related-topics}
 
 * [Introduzione alle API di Campaign](api.md)
-* [Riferimento API queryDef](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html?lang=it){target="_blank"}
-* [Documentazione JSAPI per Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=it){target="_blank"}
-* [Modello dati](datamodel.md)
+* [Campaign JavaScript SDK - API per query](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html){target="_blank"}
+* [Riferimento API queryDef](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html){target="_blank"}
+* [Documentazione JSAPI per Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target="_blank"}
 * [Utilizzare gli schemi](schemas.md)
 * [Utilizzare l’editor delle query](../start/query-editor.md)
 
