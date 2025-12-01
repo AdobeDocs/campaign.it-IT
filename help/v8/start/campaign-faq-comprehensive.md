@@ -8,10 +8,10 @@ keywords: Domande frequenti, Campaign v8, domande, risposte, aiuto, supporto, ri
 version: Campaign v8
 hide: true
 hidefromtoc: true
-source-git-commit: e09936490f04a8bd85021cbb0da8f39940a36027
+source-git-commit: abbbe4c59847a64142cc80704c1a77348a7c35ff
 workflow-type: tm+mt
-source-wordcount: '13018'
-ht-degree: 6%
+source-wordcount: '9819'
+ht-degree: 7%
 
 ---
 
@@ -63,47 +63,23 @@ Scopri come implementare la recapitabilità in Campaign [in questa guida](https:
 
 +++ Come posso assicurarmi che la consegna venga inviata senza errori?
 
-Per garantire la corretta consegna, segui i passaggi seguenti:
+**Prima di inviare:** Esegui analisi consegna, invia bozze di test, controlla gli avvisi, verifica il conteggio delle destinazioni.
 
-**Prima dell&#39;invio:**
+**Durante/dopo l&#39;invio:** monitora il dashboard di consegna (inviato, recapitato, mancati recapiti, errori), controlla i registri di consegna, tieni traccia delle percentuali di successo/mancato recapito, controlla gli indirizzi messi in quarantena.
 
-* Esegui l’analisi della consegna per rilevare gli errori (personalizzazione mancante, destinatari non validi, problemi di contenuto)
-* Inviare bozze di test per verificare il rendering e la personalizzazione
-* Controlla gli avvisi durante la preparazione
-* Verificare il conteggio della popolazione target
+**Best practice:** configura gli avvisi, utilizza ondate per volumi di grandi dimensioni, verifica prima i volumi di piccole dimensioni, pulisci regolarmente il database dei destinatari e monitora la reputazione del mittente.
 
-**Durante e dopo l&#39;invio:**
-
-* Monitora il dashboard di consegna per statistiche in tempo reale (invio, consegna, mancati recapiti, errori)
-* Controlla i registri di consegna per lo stato a livello di messaggio
-* Tracciare il tasso di successo, il tasso di mancato recapito e i messaggi di errore
-* Rivedi indirizzi messi in quarantena
-
-**Best practice:**
-
-* Impostare gli avvisi per le soglie di errore
-* Utilizza ondate (invio batch) per volumi di grandi dimensioni
-* Eseguire prima il test con volumi ridotti
-* Pulire regolarmente il database dei destinatari
-* Monitorare la reputazione del mittente
-
-Ulteriori informazioni sulle [best practice per il monitoraggio delle consegne](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=it){target="_blank"} e [consegne](delivery-best-practices.md).
+[Monitorare le consegne](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=it){target="_blank"} | [Best practice per la consegna](delivery-best-practices.md)
 
 +++
 
 +++ Posso monitorare l’esecuzione di un flusso di lavoro?
 
-Sì. Campaign fornisce diversi strumenti per monitorare l’esecuzione dei flussi di lavoro:
+Sì. Campaign fornisce diversi strumenti di monitoraggio: dashboard del flusso di lavoro (stato in tempo reale ed errori), registri del flusso di lavoro (registri di esecuzione dettagliati), mappa di calore (visualizzazione dell’attività e dei colli di bottiglia), audit trail (tracciamento delle modifiche) e avvisi (notifiche degli errori).
 
-* **[Dashboard del flusso di lavoro](https://experienceleague.adobe.com/it/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution){target="_blank"}** - Visualizza stato, avanzamento ed errori in tempo reale per ogni attività del flusso di lavoro
-* **[Registri del flusso di lavoro](https://experienceleague.adobe.com/it/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution#displaying-logs){target="_blank"}** - Accedi ai registri di esecuzione dettagliati per risolvere i problemi
-* **[Heatmap](https://experienceleague.adobe.com/it/docs/campaign/automation/workflows/monitoring-workflows/heatmap){target="_blank"}** - Visualizza l&#39;attività del flusso di lavoro e identifica i colli di bottiglia delle prestazioni
-* **[Audit trail](../reporting/audit-trail.md)** - Monitora tutte le modifiche apportate ai flussi di lavoro
-* **[Avvisi](https://experienceleague.adobe.com/it/docs/campaign/automation/workflows/use-cases/monitoring/send-alerts-to-operators){target="_blank"}** - Imposta le notifiche per gli errori o i ritardi del flusso di lavoro
+Per monitorare, aprire il flusso di lavoro e fare clic sulla scheda **Registri**. Le attività non riuscite vengono visualizzate in rosso.
 
-Per monitorare un flusso di lavoro, aprilo e fai clic sulla scheda **Registri**. Le attività non riuscite sono evidenziate in rosso e puoi visualizzare i dettagli dell’errore facendo clic su di esse.
-
-Ulteriori informazioni su [monitoraggio dell&#39;esecuzione del flusso di lavoro](https://experienceleague.adobe.com/it/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution){target="_blank"} e [best practice per i flussi di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=it){target="_blank"}.
+[Monitorare l&#39;esecuzione del flusso di lavoro](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution){target="_blank"} | [Best practice per i flussi di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"}
 
 +++
 
@@ -129,13 +105,11 @@ Un sottodominio è una divisione del dominio che può essere utilizzata per isol
 
 +++ Come posso segnalare un problema?
 
-La creazione di un caso consente di contattare il team Assistenza clienti di Adobe per eventuali problemi riscontrati con i prodotti Adobe. Per aiutarti a risolvere un problema, Adobe Admin Console consente di chattare con l’Assistenza clienti di Adobe.
+Per contattare l&#39;Assistenza clienti Adobe, connettiti a [Adobe Admin Console](https://adminconsole.adobe.com/overview){target="_blank"} per creare un caso o avviare una sessione di chat.
 
-Per segnalare un problema o avviare una sessione di chat nel nuovo sistema, connettiti ad [Adobe Admin Console](https://adminconsole.adobe.com/overview){target="_blank"}.
+Richiede account individuali con le autorizzazioni corrette. Se non riesci ad accedere, richiedi l’accesso tramite Experience League. [Ulteriori informazioni](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
 
-Il sistema richiede account individuali per ogni utente, con le autorizzazioni corrette. Se non riesci ad accedere con il tuo Adobe ID, richiedi l’accesso tramite Experience League e il team di Assistenza clienti completerà la configurazione il prima possibile. [Ulteriori informazioni](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
-
-Iscriviti alla community di Campaign: puoi cercare le risposte nelle domande esistenti o chiedere agli esperti. [Partecipa alla conversazione](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}
+In alternativa, partecipa a [Community Campaign](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"} per cercare risposte o chiedere agli esperti.
 
 +++
 
@@ -147,21 +121,11 @@ Puoi ottenere l’elenco di tutti i sistemi e i componenti supportati per la bui
 
 +++ Posso utilizzare Campaign v8 con altre soluzioni Adobe?
 
-Sì. Campaign v8 si integra perfettamente con le soluzioni Adobe Experience Cloud per creare un potente ecosistema di marketing unificato. In qualità di Managed Cloud Service, v8 è progettato per l’integrazione nativa con le applicazioni aziendali di Adobe.
+Sì. Campaign v8 si integra perfettamente con le soluzioni Adobe Experience Cloud per un ecosistema di marketing unificato.
 
-**Integrazioni chiave disponibili:**
+**Integrazioni chiave:** Adobe Experience Platform (profili unificati, dati in tempo reale), Adobe Analytics (misurazione prestazioni), Adobe Target (personalizzazione), Adobe Experience Manager (gestione contenuti), Adobe Audience Manager (segmenti di pubblico).
 
-* **Adobe Experience Platform** - Utilizzo di profili cliente unificati e dati in tempo reale
-* **Adobe Analytics** - Misura le prestazioni della campagna e il comportamento del cliente nei diversi canali
-* **Adobe Target** - Personalizza i contenuti in base ai segmenti e al comportamento dei clienti
-* **Adobe Experience Manager** - Centralizzazione della creazione di contenuti e della gestione delle risorse
-* **Adobe Audience Manager** - Crea e attiva segmenti di pubblico su più piattaforme
-
-**Vantaggi:** dati cliente unificati, esperienze utente coerenti, flussi di lavoro semplificati e funzionalità di personalizzazione avanzate.
-
-**Configurazione:** l&#39;integrazione con le soluzioni Adobe richiede l&#39;autenticazione Adobe Identity Management System (IMS), configurata automaticamente per Campaign v8 Managed Cloud Services.
-
-**Argomenti correlati:**
+**Configurazione:** richiede l&#39;autenticazione Adobe IMS, configurata automaticamente per Campaign v8 Managed Cloud Services.
 
 [Integrazioni Adobe Campaign](../connect/integration.md) | [Connessione con Adobe ID](connect.md)
 
@@ -169,32 +133,18 @@ Sì. Campaign v8 si integra perfettamente con le soluzioni Adobe Experience Clou
 
 +++ Quali sono i limiti di Campaign v8?
 
-Campaign v8 introduce modifiche architetturali (in particolare nelle implementazioni FFDA) che apportano miglioramenti significativi alle prestazioni, ma anche alcune differenze rispetto a Campaign Classic v7. Comprendere queste funzioni aiuta a pianificare le migrazioni e a definire le aspettative appropriate.
+Campaign v8 offre miglioramenti significativi delle prestazioni, ma presenta alcune differenze a livello di architettura rispetto a Campaign Classic v7, in particolare nelle implementazioni FFDA.
 
-**Considerazioni principali su v8:**
+**Considerazioni chiave:**
 
-* **Architettura FFDA** - Le distribuzioni Enterprise utilizzano il database cloud (Snowflake) con diversi modelli di accesso ai dati
-* **Aggiornamenti di unità** - Gli aggiornamenti dei dati devono essere eseguiti in flussi di lavoro, non tramite API o accesso diretto al database
-* **Scritture in tempo reale**: ottimizzate per le operazioni batch anziché per singoli aggiornamenti ad alta frequenza
-* **Modello dati** - Alcune personalizzazioni dello schema richiedono approcci diversi
-* **Accesso al database esterno** - La configurazione FDA (Federated Data Access) è diversa da quella di v7
+* **Architettura FFDA** - Utilizza il database cloud (Snowflake) con diversi modelli di accesso ai dati
+* **Aggiornamenti dati** - Devono essere eseguiti nei flussi di lavoro e non tramite accesso diretto al database
+* **Ottimizzato per batch**: ottimizzato per le operazioni batch anziché per singoli aggiornamenti ad alta frequenza
+* **Non disponibile in FFDA** - Indagini, Marketing Resource Management (MRM), alcuni connettori specifici
 
-**Funzionalità non disponibili nelle distribuzioni FFDA:**
+**Impatto della migrazione:** Il codice personalizzato che utilizza le scritture dirette del database richiede il refactoring; le integrazioni API potrebbero richiedere un adeguamento per l&#39;elaborazione batch.
 
-* Indagini (disponibili nelle implementazioni standard di v8)
-* Gestione delle risorse marketing (MRM)
-* Alcune configurazioni di connettori specifiche
-
-**Considerazioni sulla migrazione:**
-
-* Il codice personalizzato con scritture dirette del database richiede il refactoring
-* Le integrazioni API possono richiedere un adeguamento per l’elaborazione in batch
-* I flussi di lavoro devono seguire le best practice FFDA per le operazioni sui dati
-* I test sono essenziali per convalidare gli sviluppi personalizzati
-
-**Importante:** queste limitazioni si stanno evolvendo man mano che Adobe continua a migliorare v8. Consulta la documentazione più recente per lo stato corrente e la roadmap.
-
-**Argomenti correlati:**
+Queste limitazioni si stanno evolvendo man mano che Adobe migliora v8. Consulta la documentazione più recente per informazioni sullo stato corrente.
 
 [Migrazione da Campaign v7 a v8](../start/v7-to-v8.md#limitations) | [Architettura FFDA](../architecture/enterprise-deployment.md)
 
@@ -278,110 +228,57 @@ Un flusso di lavoro può inoltre coinvolgere uno o più operatori da avvisare o 
 
 **Argomenti correlati:**
 
-[Introduzione ai flussi di lavoro](../config/workflows.md) | [Crea il tuo primo flusso di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=it){target="_blank"} | [Casi di utilizzo del flusso di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"} | [Monitorare l&#39;esecuzione del flusso di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=it){target="_blank"}
+[Introduzione ai flussi di lavoro](../config/workflows.md) | [Crea il tuo primo flusso di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=it){target="_blank"} | [Casi di utilizzo del flusso di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"} | [Monitorare l&#39;esecuzione del flusso di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
 
 +++
 
 +++ Come si crea e invia una prima e-mail?
 
-La creazione della prima e-mail in Campaign v8 prevede diversi passaggi chiave:
+**5 passaggi chiave:**
 
-1. **Crea la consegna**. Per iniziare, crea una nuova consegna e-mail da un modello o da zero
-1. **Definisci il pubblico** - Seleziona i destinatari di destinazione utilizzando query, elenchi o flussi di lavoro
-1. **Progetta il contenuto**. Utilizza la finestra di progettazione e-mail per creare il messaggio con la personalizzazione
-1. **Prova con bozze** - Invia e-mail di prova per convalidare il contenuto e la personalizzazione
-1. **Analizza e invia** - Esegui l&#39;analisi della consegna per verificare la presenza di errori, quindi invia l&#39;e-mail
+1. Crea consegna da modello
+2. Definire il pubblico (query, elenchi o flussi di lavoro)
+3. Progettare contenuti con la personalizzazione
+4. Inviare bozze di test da convalidare
+5. Eseguire analisi e inviare
 
-Campaign v8 offre due interfacce per la creazione di e-mail:
+Campaign v8 offre due interfacce: **Console client** (funzionalità complete) e **Interfaccia utente Campaign Web** (moderna, intuitiva).
 
-* **Console client** - Applicazione desktop completa con funzionalità avanzate
-* **Interfaccia web di Campaign** - Interfaccia web moderna e intuitiva per una creazione più rapida delle e-mail
-
-[Ulteriori informazioni sulla progettazione e la convalida delle e-mail](../send/email.md) in Campaign v8.
-
-**Argomenti correlati:**
-
-[Crea la prima consegna](create-message.md) | [Utilizzare i modelli di consegna](../send/create-templates.md) | [Best practice per la consegna](delivery-best-practices.md) | [Definisci il contenuto dell&#39;e-mail](../send/defining-the-email-content.md) | [Anteprima e bozze](../send/preview-and-proof.md) | [Configura e invia](../send/configure-and-send.md) | [Personalizzare il contenuto](../send/personalize.md)
+[Progettazione e convalida e-mail](../send/email.md) | [Crea prima consegna](create-message.md) | [Modelli di consegna](../send/create-templates.md) | [Personalizza contenuto](../send/personalize.md)
 
 +++
 
 +++ Come si inviano i messaggi SMS?
 
-L’invio di messaggi SMS con Campaign v8 richiede la configurazione iniziale e segue quindi un processo di consegna semplice:
+L’invio di SMS richiede la configurazione iniziale (configurazione del canale SMS, connessione SMPP, routing) e quindi la creazione di consegne standard.
 
-**Configurazione iniziale (configurazione una tantum):**
+**Processo di base:**
 
-1. **Configura canale SMS** - Configura le impostazioni di consegna SMS e l&#39;account esterno
-1. **Configura connessione SMPP** - Connetti al provider di servizi SMS tramite il protocollo SMPP
-1. **Verifica la connessione** - Convalida la connettività con il provider SMS
-1. **Imposta routing** - Definisci il modo in cui i messaggi SMS vengono instradati attraverso il provider
+1. Configurare la connessione al canale SMS e al provider (configurazione una tantum)
+2. Creare una consegna SMS dal modello
+3. Definire i destinatari e scrivere il contenuto (standard a 160 caratteri, concatenazione automatica per un tempo maggiore)
+4. Aggiungere personalizzazione e inviare bozze di test
+5. Analizzare e inviare
 
-**Creazione e invio di SMS:**
+**Funzionalità:** più connettori SMPP, tracciamento della consegna, supporto GSM7/Unicode, lunga concatenazione automatica SMS, SMS bidirezionali con flussi di lavoro.
 
-1. **Crea consegna SMS** - Avvia una nuova consegna SMS da un modello
-1. **Definisci i destinatari** - Seleziona il pubblico mobile utilizzando i campi del numero di telefono
-1. **Scrivi contenuto SMS** - Crea il messaggio (160 caratteri standard o più a lungo con concatenazione)
-1. **Aggiungi personalizzazione** - Includi campi dinamici specifici per ciascun destinatario
-1. **Invia bozze** - Verifica consegna SMS per convalidare contenuto e consegna
-1. **Analizza e invia** - Esegui analisi e invia al tuo pubblico
-
-**Funzionalità SMS chiave:**
-
-* **Più connettori SMPP** - Supporto per vari provider e protocolli SMS
-* **Rapporti di recapito** - Tracciamento dei messaggi inviati, recapitati e non riusciti
-* **Codifica caratteri** - Supporto per GSM7, Unicode e caratteri speciali
-* **Supporto SMS lunghi** - Concatenazione automatica dei messaggi per testi più lunghi
-* **SMS bidirezionale** - Gestisce le risposte SMS in entrata con i flussi di lavoro
-
-[Ulteriori informazioni sulla configurazione e l&#39;invio di SMS](../send/sms/sms.md) in Campaign v8.
-
-**Argomenti correlati:**
-
-[Introduzione agli SMS](../send/sms/sms.md) | [Impostazioni di consegna SMS](../send/sms/sms-delivery-settings.md) | [Impostazioni account esterno SMPP](../send/sms/smpp-external-account.md) | [Creare una consegna SMS](../send/sms/create-sms.md) | [Contenuto SMS](../send/sms/sms-content.md) | [Invia bozze SMS](../send/sms/sms-proofs.md) | [Monitorare SMS](../send/sms/sms-monitor.md)
+[Ulteriori informazioni sulla configurazione e l&#39;invio di SMS](../send/sms/sms.md) | [Impostazioni di consegna SMS](../send/sms/sms-delivery-settings.md) | [Crea consegna SMS](../send/sms/create-sms.md)
 
 +++
 
 +++ Come si inviano le notifiche push?
 
-L’invio di notifiche push con Campaign v8 comporta la configurazione dell’integrazione dell’app mobile e la creazione di notifiche coinvolgenti:
+L’invio di notifiche push richiede la configurazione iniziale dell’integrazione dell’app mobile e quindi la creazione di consegne standard.
 
-**Configurazione iniziale (configurazione una tantum):**
+**Processo di base:**
 
-1. **Configurare il canale push** - Configurare le impostazioni del canale di notifica push in Campaign
-1. **Integrare Campaign SDK** - Aggiungere Adobe Campaign SDK alla tua app mobile (o utilizzare Raccolta dati)
-1. **Configura l&#39;app mobile** - Registra le tue app iOS e Android in Campaign
-1. **Configurazione certificati** - Configurazione certificato APNs (iOS) e chiave FCM (Android)
-1. **Verifica registrazione** - Verificare che i dispositivi possano registrare e ricevere token
+1. **Configurazione iniziale** (una tantum): configurazione del canale push, integrazione di Campaign SDK o Data Collection, registrazione di app iOS/Android, configurazione di certificati APN/FCM
+2. **Crea consegna**: crea invio push da modello, seleziona la piattaforma, definisci il pubblico, progetta la notifica con rich media
+3. **Verifica e invia**: convalida su dispositivi reali, quindi invia
 
-**Creazione e invio di notifiche push:**
+**Funzionalità:** funzionalità avanzate push (immagini, video, pulsanti), personalizzazione, collegamenti profondi, pianificazione, test A/B, tracciamento. Funzioni specifiche per la piattaforma per iOS e Android.
 
-1. **Crea consegna push** - Avvia una nuova notifica push da un modello
-1. **Seleziona piattaforma** - Scegli iOS, Android o entrambe le piattaforme
-1. **Definisci pubblico** - Effettua il targeting degli abbonati all&#39;app utilizzando i dati di abbonamento all&#39;app mobile
-1. **Notifica di progettazione** - Crea titolo, messaggio e contenuti rich media
-1. **Configura comportamento** - Imposta azioni clic, collegamenti profondi e dati personalizzati
-1. **Invia notifiche test** - Convalida su dispositivi reali prima dell&#39;invio
-1. **Analizza e invia** - Rivedi il targeting e invia al tuo pubblico di dispositivi mobili
-
-**Funzionalità di notifica push:**
-
-* **Notifiche push potenziate** - Includi immagini, video e pulsanti interattivi (iOS e Android)
-* **Personalization** - Contenuto dinamico basato sul profilo utente e sul comportamento
-* **Collegamenti profondi** - Indirizza gli utenti a schermi o contenuti specifici dell&#39;app
-* **Pianificazione** - Invia in tempi ottimali in base al fuso orario dell&#39;utente
-* **Test A/B** - Verifica messaggi diversi e ottimizza il coinvolgimento
-* **Tracciamento** - Monitora aperture, clic e conversioni
-
-**Caratteristiche specifiche della piattaforma:**
-
-* **iOS** - Notifiche silenziose, categorie di notifica, personalizzazione audio
-* **Android** - Modelli push avanzati, canali di notifica, layout personalizzati
-
-[Ulteriori informazioni sulla configurazione delle notifiche push](../send/push-settings.md) in Campaign v8.
-
-**Argomenti correlati:**
-
-[Creare e inviare notifiche push](../send/push.md) | [Configurare il canale di notifica push](../send/push-settings.md) | [Progettare un push avanzato Android](../send/rich-push-android.md) | [Progettare un push avanzato iOS](../send/rich-push-ios.md) | [Configura con raccolta dati](../send/push-data-collection.md) | [Tracciare e monitorare](tracking.md)
+[Ulteriori informazioni sulle notifiche push](../send/push.md) | [Configurare il canale push](../send/push-settings.md) | [Push avanzato Android](../send/rich-push-android.md) | [Push avanzato iOS](../send/rich-push-ios.md)
 
 +++
 
@@ -391,7 +288,7 @@ Puoi utilizzare l’editor di contenuti digitali di Adobe Campaign per progettar
 
 [Ulteriori informazioni](../dev/landing-pages.md) nella documentazione di Campaign v8.
 
-Puoi anche utilizzare l&#39;interfaccia utente di Campaign Web per creare e pubblicare pagine di destinazione - [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}.
+Puoi anche utilizzare l&#39;interfaccia utente di Campaign Web per creare e pubblicare pagine di destinazione - [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}.
 
 +++
 
@@ -419,7 +316,7 @@ Sì. Crea moduli web utilizzando **Applicazioni web di Campaign e Forms** (conso
 
 **Argomenti correlati:**
 
-[Ulteriori informazioni sulle applicazioni Web e sui moduli](../dev/webapps.md) | [Pagine di destinazione dell&#39;interfaccia utente Web di Campaign](https://experienceleague.adobe.com/it/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
+[Ulteriori informazioni sulle applicazioni Web e sui moduli](../dev/webapps.md) | [Pagine di destinazione dell&#39;interfaccia utente Web di Campaign](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
 
 +++
 
@@ -547,75 +444,29 @@ Campaign v8 è basato su una moderna architettura nativa per il cloud con miglio
 
 **Argomenti correlati:**
 
-[Funzionalità chiave di Campaign v8](whats-new.md) | [Architettura di Campaign v8](../architecture/architecture.md) | [Matrice di capacità](https://experienceleague.adobe.com/it/docs/campaign-web/v8/start/capability-matrix){target="_blank"} | [Guardrail e limitazioni](ac-guardrails.md)
+[Funzionalità chiave di Campaign v8](whats-new.md) | [Architettura di Campaign v8](../architecture/architecture.md) | [Matrice di capacità](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/capability-matrix){target="_blank"} | [Guardrail e limitazioni](ac-guardrails.md)
 
 +++
 
 +++ Devo effettuare la migrazione da Campaign Classic v7 o Campaign Standard a v8?
 
-**Campaign v8 è ideale per le organizzazioni che richiedono:**
+Campaign v8 è la piattaforma strategica di Adobe, ideale per le organizzazioni che necessitano di campagne dal volume elevato (20 milioni di operazioni all’ora), interfaccia web moderna, vantaggi nativi per il cloud e supporto a lungo termine. Le versioni precedenti raggiungeranno la fine del supporto nei prossimi anni.
 
-* **Campagne dal volume elevato** - Invia milioni di messaggi con prestazioni e affidabilità migliorate (20 milioni di operazioni/ora)
-* **Scalabilità aziendale**: aumento del database e delle campagne senza problemi di prestazioni
-* **Interfaccia utente Web moderna** - Interfaccia utente Web di Campaign intuitiva e reattiva per creare campagne più rapidamente e migliorare l&#39;esperienza utente
-* **Vantaggi nativi per il cloud** - Utilizzo di aggiornamenti automatici, infrastruttura gestita, scalabilità elastica e monitoraggio proattivo
-* **Supporto a lungo termine** - Campaign v8 è la piattaforma strategica di Adobe con supporto esteso, mentre le versioni precedenti raggiungeranno la fine del supporto nei prossimi anni
-* **Riduzione del sovraccarico IT** - Eliminazione della gestione dell&#39;infrastruttura e della pianificazione degli aggiornamenti
-* **Funzionalità avanzate** - Assistente AI, push avanzato, SMS avanzato, integrazione con Adobe Experience Platform
+**Vantaggi chiave:**
 
-**Per utenti Campaign Standard:**
+* **Per gli utenti di Campaign Standard** - Interfaccia utente Web familiare, parità di funzioni (Reporting dinamico, API REST, pagine di destinazione), migrazione dei dati fluida
+* **Per utenti Campaign Classic v7** - Doppia interfaccia (console + interfaccia Web), prestazioni migliori, aggiornamenti automatici, architettura FFDA migliorata
 
-Gli utenti di Campaign Standard ora possono effettuare la transizione a Campaign v8 Managed Cloud Services. I vantaggi principali includono:
+**Prova a eseguire la migrazione se:**
 
-* **Interfaccia familiare** - L&#39;interfaccia utente Web di Campaign ha molte somiglianze con Campaign Standard, riducendo al minimo la curva di apprendimento
-* **Parità di funzionalità** - Le funzionalità principali di Campaign Standard sono state aggiunte a v8 (Reporting dinamico, Branding centralizzato, API REST, pagine di destinazione, frammenti visivi)
-* **Supporto avanzato** - Assistenza di prim&#39;ordine per una transizione senza problemi e un monitoraggio continuo della piattaforma
-* **Migrazione dati** - Tutti i dati da Campaign Standard vengono importati con interruzioni minime
-* **Esperienza utente coerente** - Continua a lavorare con flussi di lavoro e interfacce familiari
+* Gestire grandi volumi di dati o problemi di prestazioni
+* Desideri ridurre il sovraccarico IT e la gestione dell&#39;infrastruttura
+* Necessità di integrazione Adobe Experience Cloud/Platform
+* Desiderate una tecnologia a prova di futuro con aggiornamenti automatici
 
-**Per utenti di Campaign Classic v7:**
+**Passaggi successivi:** Contatta il tuo rappresentante Adobe per valutare la fattibilità della migrazione e accedere agli strumenti di migrazione.
 
-Campaign v8 offre miglioramenti sostanziali mantenendo al contempo le funzionalità di base di Campaign:
-
-* **Doppia interfaccia** - Accedi alla potente console client e alla moderna interfaccia web di Campaign
-* **Prestazioni migliori** - Prestazioni delle query ed elaborazione dei dati notevolmente migliorate
-* **Vantaggi per il cloud** - Aggiornamenti automatici, patch di sicurezza, backup e ripristino gestiti da Adobe
-* **Architettura moderna** - Architettura FFDA migliorata con PostgreSQL per una migliore scalabilità
-
-**Quando considerare la migrazione:**
-
-* L’istanza Campaign corrente gestisce grandi volumi di dati (milioni di profili)
-* Stai riscontrando problemi di prestazioni con flussi di lavoro complessi o targeting
-* Per ridurre i costi di gestione e manutenzione dell&#39;infrastruttura
-* È necessaria un&#39;integrazione perfetta con Adobe Experience Cloud o Adobe Experience Platform
-* Stai comunque pianificando un aggiornamento importante o un aggiornamento dell&#39;infrastruttura
-* **Tecnologia a prova di futuro** - Le versioni precedenti raggiungeranno la fine del supporto
-* **Il tuo team ha bisogno di un&#39;interfaccia moderna** - L&#39;interfaccia Web di Campaign offre una migliore accessibilità per gli addetti al marketing
-
-**Considerazioni sulla migrazione:**
-
-* Adobe fornisce supporto, guida e strumenti per la migrazione
-* v8 è solo Managed Cloud Service (nessuna distribuzione on-premise o ibrida)
-* Alcune implementazioni tecniche potrebbero essere diverse. Rivedi la [matrice delle funzionalità](https://experienceleague.adobe.com/it/docs/campaign-web/v8/start/capability-matrix){target="_blank"}
-* La migrazione e il testing dei dati richiedono pianificazione e risorse
-* **Per gli utenti di Campaign Standard** - La transizione è progettata per essere fluida con un&#39;interruzione minima del flusso di lavoro
-
-**Passaggi successivi:**
-
-Contatta il tuo rappresentante Adobe per:
-
-* Valutare la fattibilità della migrazione e la tempistica
-* Comprendere i vantaggi specifici del caso d’uso
-* Pianificare la strategia di migrazione e l&#39;allocazione delle risorse
-* Accedere agli strumenti di migrazione e al supporto
-
-**Argomenti correlati:**
-
-**Per utenti di Campaign Classic v7:** [Da Campaign Classic v7 a v8](v7-to-v8.md) | Guida dettagliata da [v7 a v8](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/new/v7-to-v8){target="_blank"}
-
-**Per gli utenti di Campaign Standard:** [Transizione di Campaign Standard alla versione v8](https://experienceleague.adobe.com/it/docs/campaign-web/v8/start/acs-migration){target="_blank"} | [Guida all&#39;adozione di Campaign v8](https://experienceleague.adobe.com/it/docs/campaign-web/acs-to-ac/home){target="_blank"} | [Panoramica da Campaign Standard a v8](https://experienceleague.adobe.com/it/docs/campaign-web/acs-to-ac/overview){target="_blank"} | [Introduzione per gli addetti al marketing](https://experienceleague.adobe.com/it/docs/campaign-web/acs-to-ac/marketers){target="_blank"} | [Introduzione per amministratori/sviluppatori](https://experienceleague.adobe.com/it/docs/campaign-web/acs-to-ac/admin-developers){target="_blank"}
-
-**Risorse generali:** [Matrice di funzionalità di Campaign v8](https://experienceleague.adobe.com/it/docs/campaign-web/v8/start/capability-matrix){target="_blank"} | [Matrice di compatibilità](compatibility-matrix.md)
+**Ulteriori informazioni:** [Da Campaign Classic v7 a v8](v7-to-v8.md) | [Guida alla transizione di Campaign Standard](https://experienceleague.adobe.com/it/docs/campaign-web/v8/start/acs-migration){target="_blank"} | [Matrice di capacità](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/capability-matrix){target="_blank"}
 
 +++
 
@@ -638,64 +489,29 @@ Ulteriori informazioni sulla [migrazione a Managed Services](https://experiencel
 
 +++ Quali sono le principali differenze terminologiche e di funzionalità in Campaign v8?
 
-Campaign v8 offre la maggior parte delle funzionalità di Campaign Classic v7 e Campaign Standard con miglioramenti, ma alcune funzionalità hanno subito modifiche a causa dell’architettura nativa per il cloud e alcuni termini differiscono tra le versioni.
+Campaign v8 offre la maggior parte delle funzionalità v7/Standard con miglioramenti, ma alcuni termini e funzioni differiscono a causa dell’architettura nativa per il cloud.
 
-**Differenze terminologiche (da Campaign Standard a v8):**
+**Modifiche terminologiche chiave (Campaign Standard → v8):**
 
-* **Le risorse personalizzate** sono ora **Schemi**
-* **I messaggi** sono denominati **Consegne**
-* **Gli utenti del prodotto** sono ora **Operatori**
-* **I ruoli** sono configurati con **diritti denominati**
-* **I gruppi di sicurezza** sono ora **Gruppi di operatori**
-* **Le unità organizzative** sono gestite tramite **autorizzazioni cartella**
+* Risorse personalizzate → **Schemi** | Messaggi → **Consegne** | Utenti del prodotto → **Operatori**
+* Gruppi di sicurezza → **Gruppi di operatori** | Unità organizzative → **autorizzazioni cartella**
 
-**Aggiornamenti terminologici interfaccia utente Web di Campaign:**
+**Aggiornamenti all&#39;interfaccia utente Web di Campaign:**
 
-I seguenti termini sono stati aggiornati nell’interfaccia utente di Campaign Web (la console client utilizza termini tradizionali):
-
-* **I destinatari** sono ora **Profili**
-* **Gli indirizzi seed** sono ora **Profili di test**
-* **L&#39;analisi della consegna** è ora **Preparazione consegna** (fai clic sul pulsante **Prepara**)
-* **Anteprima e-mail** è disponibile tramite il pulsante **Simula contenuto**
-* **Gli elenchi** sono diventati **Tipi di pubblico**
+* Destinatari → **Profili** | Indirizzi seed → **Profili di test** | Analisi della consegna → **Preparazione della consegna**
+* Elenchi → **Tipi di pubblico** | Anteprima e-mail → **Simula contenuto**
 
 **Non disponibile nella versione 8:**
 
-* **Distribuzioni locali e ibride** - v8 è solo Managed Cloud Services
-* **Accesso diretto al database**. Utilizzare le API e gli strumenti forniti
-* **Infrastruttura gestita dal cliente**: Adobe gestisce tutte le infrastrutture
-* **Aggiornamenti build manuali** - Ora automatici (Adobe gestiti)
+* Distribuzioni on-premise/ibride (solo Managed Cloud Services)
+* Accesso diretto al database (tramite API)
+* Gestione manuale dell’infrastruttura (gestito da Adobe)
 
-**Diverse implementazioni in v8:**
+**Nuove funzionalità per gli utenti di Campaign Standard:**
 
-* **Flussi di lavoro tecnici** - Alcuni ottimizzati per l&#39;architettura cloud, potrebbero funzionare in modo diverso
-* **Struttura del database** - L&#39;architettura FFDA avanzata potrebbe richiedere adattamenti dello schema
-* **Integrazioni personalizzate** - Potrebbero essere necessari aggiornamenti per l&#39;architettura basata su cloud
-* **Personalizzazioni di basso livello** - Alcune richiedono approcci diversi nell&#39;ambiente gestito
+* Reporting dinamico, branding centralizzato, API REST, miglioramenti delle pagine di destinazione, frammenti visivi
 
-**Migliorato o sostituito in v8:**
-
-* **Aggiornamenti build** - Automatico con modello di consegna continua anziché manuale
-* **Ottimizzazione delle prestazioni** - Gestito dall&#39;ottimizzazione dell&#39;infrastruttura Adobe
-* **Patch di sicurezza** - Applicate automaticamente da Adobe
-* **Backup e ripristino** - Gestito da Adobe come parte del servizio
-* **Interfaccia utente** - Nuova interfaccia utente di Campaign Web con la console client
-
-**Funzionalità aggiunte per gli utenti di Campaign Standard che passano alla versione v8:**
-
-* **Reporting dinamico**: report personalizzabili in tempo reale con analisi demografica
-* **Branding centralizzato**: definizione delle linee guida visive e tecniche per il brand
-* **API REST** - Crea integrazioni e crea il tuo ecosistema
-* **Miglioramenti alle pagine di destinazione** - Parità di funzionalità migliorata con Campaign Standard
-* **Frammenti visivi** - Componenti visivi riutilizzabili per e-mail e modelli di contenuto
-
-**Importante:** la maggior parte delle funzioni di marketing e operative sono disponibili e migliorate nella versione v8. Le funzioni tecniche e a livello di infrastruttura sono gestite da Adobe nell’ambiente cloud.
-
-**Argomenti correlati:**
-
-[Matrice di capacità](https://experienceleague.adobe.com/it/docs/campaign-web/v8/start/capability-matrix){target="_blank"} | [Matrice di compatibilità](compatibility-matrix.md) | [Guardrail e limitazioni](ac-guardrails.md) | Guida alla transizione da [v7 a v8](v7-to-v8.md)
-
-[Transizione da Campaign Standard a v8](https://experienceleague.adobe.com/it/docs/campaign-web/v8/start/acs-migration){target="_blank"}
+**Ulteriori informazioni:** [Matrice di capacità](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/capability-matrix){target="_blank"} | Guida alla transizione da [v7 a v8](v7-to-v8.md) | [Transizione da Campaign Standard a v8](https://experienceleague.adobe.com/it/docs/campaign-web/v8/start/acs-migration){target="_blank"}
 
 +++
 
@@ -722,7 +538,7 @@ Per le importazioni di file, prepara il file di dati (CSV/TXT, codifica UTF-8), 
 
 **Argomenti correlati:**
 
-[Importa guida dati](../start/import.md) | [Flusso di lavoro di importazione ricorrente](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html?lang=it){target="_blank"} | [Attività di caricamento dati](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=it){target="_blank"}
+[Importa guida dati](../start/import.md) | [Flusso di lavoro di importazione ricorrente](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html){target="_blank"} | [Attività di caricamento dati](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html){target="_blank"}
 
 +++
 
@@ -730,7 +546,7 @@ Per le importazioni di file, prepara il file di dati (CSV/TXT, codifica UTF-8), 
 
 Campaign offre più metodi di targeting: crea query con criteri visivi, esegui il targeting di elenchi o segmenti esistenti, importa destinatari da file esterni (CSV, TXT) o applica filtri predefiniti. Puoi combinare i criteri con la logica AND/OR, escludere popolazioni specifiche, utilizzare gruppi di controllo e suddividerli per il test A/B. Visualizza sempre in anteprima la dimensione della popolazione target prima dell’invio.
 
-[Definire i target della campagna](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=it){target="_blank"} | [Attività query](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=it){target="_blank"} | [Crea pubblico](../audiences/create-audiences.md)
+[Definire i target della campagna](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=it){target="_blank"} | [Attività query](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"} | [Crea pubblico](../audiences/create-audiences.md)
 
 +++
 
@@ -750,7 +566,7 @@ Un elenco è un set statico di destinatari che puoi targetizzare nelle consegne 
 
 **Argomenti correlati:**
 
-[Crea pubblico](../audiences/create-audiences.md) | [Attività di aggiornamento elenco](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/list-update.html?lang=it){target="_blank"}
+[Crea pubblico](../audiences/create-audiences.md) | [Attività di aggiornamento elenco](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/list-update.html){target="_blank"}
 
 +++
 
@@ -760,7 +576,7 @@ Utilizzare l&#39;attività **[!UICONTROL Deduplication]** in un flusso di lavoro
 
 **Suggerimento:** deduplicare sempre prima dell&#39;invio per assicurarsi che ogni persona riceva il messaggio una sola volta.
 
-Ulteriori informazioni sull&#39;[attività Deduplication](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html?lang=it){target="_blank"}
+Ulteriori informazioni sull&#39;[attività Deduplication](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html){target="_blank"}
 
 +++
 
@@ -776,7 +592,7 @@ Campaign tiene traccia della cronologia degli abbonamenti/annullamenti e gestisc
 
 **Argomenti correlati:**
 
-[Gestione sottoscrizioni](../start/subscriptions.md) | [Attività query](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=it){target="_blank"}
+[Gestione sottoscrizioni](../start/subscriptions.md) | [Attività query](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}
 
 +++
 
@@ -784,7 +600,7 @@ Campaign tiene traccia della cronologia degli abbonamenti/annullamenti e gestisc
 
 Utilizza l&#39;attività **[!UICONTROL Exclusion]** in un flusso di lavoro per rimuovere i profili indesiderati dalla destinazione. Inseriscilo dopo le attività di targeting e definisci quale popolazione escludere.
 
-Ulteriori informazioni sull&#39;[attività di esclusione](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/exclusion.html?lang=it){target="_blank"}
+Ulteriori informazioni sull&#39;[attività di esclusione](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/exclusion.html){target="_blank"}
 
 +++
 
@@ -867,7 +683,7 @@ Funzioni chiave: duplicazione automatica dei contenuti, invio automatico basato 
 
 La console client supporta anche contenuti multilingue utilizzando contenuti condizionali e flussi di lavoro, ma richiede una configurazione più manuale.
 
-[Consegne multilingue (interfaccia Web)](https://experienceleague.adobe.com/it/docs/campaign-web/v8/msg/multilingual){target="_blank"} | [Contenuto condizionale (console client)](../send/conditions.md)
+[Consegne multilingue (interfaccia Web)](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/multilingual){target="_blank"} | [Contenuto condizionale (console client)](../send/conditions.md)
 
 +++
 
@@ -893,7 +709,7 @@ Sì, ma **solo tramite l&#39;interfaccia utente Web di Campaign**. L’Assistent
 
 **Nota:** l&#39;Assistente all&#39;intelligenza artificiale è disponibile esclusivamente nell&#39;interfaccia utente Web di Campaign e attualmente supporta solo la lingua inglese. Gli utenti devono disporre delle autorizzazioni appropriate e devono accettare un contratto utente.
 
-[Panoramica dell&#39;Assistente AI](https://experienceleague.adobe.com/it/docs/campaign-web/v8/content/ai-assistant/generative-gs){target="_blank"} | [Casi di utilizzo dell&#39;Assistente IA](https://experienceleague.adobe.com/it/docs/campaign-web/v8/content/ai-assistant/generative-uc){target="_blank"} | [Allineamento marchio](https://experienceleague.adobe.com/it/docs/campaign-web/v8/content/ai-assistant/ai-assistant/brands-score){target="_blank"}
+[Panoramica dell&#39;Assistente AI](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-gs){target="_blank"} | [Casi di utilizzo dell&#39;Assistente IA](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-uc){target="_blank"} | [Allineamento marchio](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/ai-assistant/brands-score){target="_blank"}
 
 +++
 
@@ -932,7 +748,7 @@ Gli indirizzi seed sono destinatari speciali aggiunti automaticamente a ogni con
 
 Gestisci indirizzi seed in **[!UICONTROL Resources > Campaign management > Seed addresses]**. Mantieni gli elenchi piccoli per evitare di influenzare le metriche di consegna.
 
-[Guida agli indirizzi seed](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/delivery-control.html?lang=it){target="_blank"}
+[Guida agli indirizzi seed](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/delivery-control.html){target="_blank"}
 
 +++
 
@@ -1113,7 +929,7 @@ Campaign gestisce automaticamente un elenco di quarantena per proteggere la repu
 * **Soglia di mancato recapito non permanente** - Errori temporanei ripetuti (cassetta postale piena, server temporaneamente non disponibile) che superano la soglia di errore
 * **Reclami spam** - Destinatari che contrassegnano le e-mail come spam
 * **Indirizzi non validi** - Indirizzi con errori di sintassi o che non superano la convalida
-* inserire nell&#39;elenco Bloccati **&#x200B;**&#x200B;- Destinatari che hanno rinunciato o richiesto di essere esclusi
+* inserire nell&#39;elenco Bloccati **** - Destinatari che hanno rinunciato o richiesto di essere esclusi
 
 **Funzionamento della quarantena:**
 
@@ -1150,321 +966,124 @@ Modelli di flusso di lavoro comuni: importazione di dati, segmentazione del pubb
 
 **Argomenti correlati:**
 
-[Crea un flusso di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=it){target="_blank"} | [Attività del flusso di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/about-activities.html){target="_blank"} | [Best practice per i flussi di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=it){target="_blank"} | [Casi di utilizzo del flusso di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"}
+[Crea un flusso di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=it){target="_blank"} | [Attività del flusso di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/about-activities.html){target="_blank"} | [Best practice per i flussi di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"} | [Casi di utilizzo del flusso di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"}
 
 +++
 
 +++ Come posso importare dati in Campaign?
 
-Importa dati in Campaign utilizzando più metodi a seconda delle tue esigenze:
+**Metodi:** Importazione guidata (CSV/TXT una tantum), importazione basata su flusso di lavoro (**[!UICONTROL Data loading (file)]** attività per importazioni complesse/ricorrenti con trasformazioni), API REST (sincronizzazione programmatica/in tempo reale).
 
-**Importazione file semplice:**
+**Best practice:** verifica con campioni di piccole dimensioni, utilizza la codifica UTF-8, mappa correttamente i campi, applica la deduplicazione, pianifica importazioni di grandi dimensioni fuori picco.
 
-* Utilizza l’Importazione guidata per importare in modalità CSV/TXT una tantum con un’interfaccia guidata
-* Ideale per caricamenti manuali e rapidi di dati
-
-**Importazione basata su flusso di lavoro:**
-
-* Crea flussi di lavoro con attività **[!UICONTROL Data loading (file)]** per importazioni complesse
-* Aggiunta di trasformazioni, arricchimento e deduplicazione dei dati
-* Pianificazione delle importazioni ricorrenti da SFTP, directory locali o archiviazione cloud
-
-**Integrazione API:**
-
-* Utilizzare le API REST per importare i dati a livello di programmazione da sistemi esterni
-* Ideale per la sincronizzazione in tempo reale con CRM, e-commerce o altre piattaforme
-
-**Best practice:** verifica sempre con campioni di piccole dimensioni, utilizza la codifica UTF-8, mappa correttamente i campi, applica regole di deduplicazione e pianifica importazioni di grandi dimensioni nelle ore di minore utilizzo.
-
-**Argomenti correlati:**
-
-[Best practice per l&#39;importazione](../start/import.md) | [Attività di caricamento dati](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=it){target="_blank"} | [Flusso di lavoro di importazione ricorrente](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html?lang=it){target="_blank"}
+[Best practice per l&#39;importazione](../start/import.md) | [Attività di caricamento dati](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html){target="_blank"} | [Flusso di lavoro di importazione ricorrente](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html){target="_blank"}
 
 +++
 
 +++ Quali sono i casi d’uso comuni dei flussi di lavoro in Campaign?
 
-I flussi di lavoro delle campagne possono automatizzare praticamente qualsiasi processo di marketing. Di seguito sono riportati i casi d’uso più comuni:
+I flussi di lavoro automatizzano i processi di marketing, tra cui:
 
-**Gestione dati:**
+**Gestione dati:** Importare/caricare dati, pulizia, arricchimento, gestione elenchi\
+**Automazione campagna:** serie di benvenuto, campagne di compleanno, ricoinvolgimento, abbandono del carrello\
+**Destinazione avanzata:** test A/B, segmentazione dinamica, punteggio lead, orchestrazione cross-channel\
+**Monitoraggio:** Monitoraggio del flusso di lavoro/della consegna, avvisi, manutenzione del database\
+**Integrazione:** sincronizzazione CRM, integrazioni API, flussi di lavoro attivati da eventi
 
-* **Importare e caricare dati** - Automatizzare le importazioni di file da SFTP, API o archiviazione cloud
-* **Pulizia dati** - Deduplicazione dei profili, standardizzazione dei formati, rimozione dei record non validi
-* **Arricchimento dei dati** - Migliora i profili con dati esterni o campi calcolati
-* **Gestione elenchi**: aggiorna automaticamente i segmenti in base al comportamento o ai criteri
-
-**Automazione campagna:**
-
-* **Serie di benvenuto** - Attiva le e-mail di onboarding automatico per i nuovi abbonati
-* **Campagne di compleanno** - Invia messaggi personalizzati in occasione di compleanni o anniversari del cliente
-* **Nuovo coinvolgimento** - Esegui il targeting degli abbonati inattivi con campagne di riconquista
-* **Abbandono carrello** - Invia promemoria ai clienti che hanno lasciato elementi nel carrello
-
-**Destinazione avanzata:**
-
-* **Test A/B** - Dividi i tipi di pubblico e testa diverse varianti di contenuto
-* **Segmentazione dinamica** - Crea segmenti in base a comportamenti o attributi in tempo reale
-* **Punteggio lead** - Calcola e aggiorna i punteggi lead in base al coinvolgimento
-* **Orchestrazione cross-channel** - Coordinare la messaggistica tra e-mail, SMS e push
-
-**Monitoraggio e avvisi:**
-
-* **Monitoraggio del flusso di lavoro** - Traccia lo stato del flusso di lavoro e invia avvisi in caso di errori
-* **Monitoraggio della consegna** - Monitora le prestazioni della campagna e le percentuali di mancato recapito
-* **Manutenzione del database** - Pulizia automatica dei vecchi registri e dei dati temporanei
-
-**Integrazione e sincronizzazione:**
-
-* **Sincronizzazione CRM** - Mantieni i dati del cliente sincronizzati con Salesforce, Dynamics, ecc.
-* **Integrazioni API** - Connessione con piattaforme di e-commerce, strumenti di analisi o sistemi personalizzati
-* **Flussi di lavoro attivati da eventi** - Reagire a eventi in tempo reale da siti Web o app
-
-**Argomenti correlati:**
-
-[Libreria dei casi di utilizzo del flusso di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"} | [Crea un flusso di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=it){target="_blank"} | [Best practice per i flussi di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=it){target="_blank"} | [Flussi di lavoro di targeting](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=it){target="_blank"} | [Flussi di lavoro di gestione dati](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/about-data-management.html){target="_blank"}
+[Libreria dei casi di utilizzo del flusso di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"} | [Crea un flusso di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=it){target="_blank"} | [Best practice per i flussi di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"}
 
 +++
 
 +++ Come posso aggiornare i dati di Campaign con un flusso di lavoro?
 
-Utilizza l&#39;attività **[!UICONTROL Update data]** nei flussi di lavoro per eseguire operazioni in blocco sul database:
+Utilizza l&#39;attività **[!UICONTROL Update data]** per operazioni di database in blocco: Inserisci (aggiungi nuovi record), Aggiorna (modifica esistente), Inserisci o aggiorna (upsert), Elimina (rimuovi record corrispondenti).
 
-**Operazioni supportate:**
+**Utilizzi comuni:** aggiornare gli attributi del profilo, sincronizzarli con i sistemi esterni, gestire le appartenenze agli elenchi, pulire/deduplicare i dati, applicare modifiche di stato in blocco.
 
-* **Inserisci** - Aggiungi nuovi record al database
-* **Aggiornamento** - Modifica i record esistenti in base ai criteri corrispondenti
-* **Inserisci o aggiorna** - Aggiungi nuovi record o aggiorna quelli esistenti (upsert)
-* **Elimina** - Rimuovi i record che corrispondono a criteri specifici
+Configura le chiavi di riconciliazione per una corrispondenza precisa e scegli le opzioni di aggiornamento.
 
-**Casi d&#39;uso comuni:**
-
-* Aggiorna attributi profilo dopo l’arricchimento dei dati
-* Sincronizzare i dati con sistemi esterni
-* Gestisci appartenenze a elenchi in base al comportamento
-* Pulire e deduplicare i dati
-* Applica modifiche di stato in blocco (ad esempio rinuncia, quarantena)
-
-Configura le chiavi di riconciliazione in modo che corrispondano accuratamente ai record e scegli le opzioni di aggiornamento (aggiorna tutti i campi o solo quelli vuoti).
-
-**Argomenti correlati:**
-
-[Aggiorna attività dati](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html?lang=it){target="_blank"} | [Attività di gestione dati](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/about-action-activities.html){target="_blank"}
+[Aggiorna attività dati](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html){target="_blank"} | [Attività di gestione dati](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/about-action-activities.html){target="_blank"}
 
 +++
 
 +++ Come posso sfruttare le funzionalità di gestione dati?
 
-Le attività di gestione dati di Campaign consentono operazioni di dati sofisticate all’interno dei flussi di lavoro per operazioni di targeting e segmentazione complesse.
+Le attività di gestione dei dati consentono operazioni sofisticate: arricchimento (aggiunta di dati da tabelle correlate), suddivisione (popolazioni di segmenti), deduplicazione (rimozione di duplicati), aggiornamento dei dati (operazioni in blocco), modifica della dimensione (dimensioni di targeting switch), intersezione/unione/esclusione (combinare/filtrare le popolazioni).
 
-**Attività di gestione dati chiave:**
+**Utilizzi comuni:** arricchisci con dati di acquisto/comportamento, segmenta i tipi di pubblico, rimuovi i duplicati, integra database esterni (FDA), crea query complesse a più tabelle.
 
-* **Arricchimento** - Aggiungi dati da tabelle o origini esterne correlate alla tua popolazione di lavoro
-* **Dividi** - Segmenta le popolazioni in base ai criteri o distribuiscili in modo casuale
-* **Deduplicazione** - Rimuovi i record duplicati in base alle chiavi specificate
-* **Aggiornare i dati** - Eseguire operazioni di inserimento, aggiornamento o eliminazione in blocco
-* **Modifica dimensione** - Cambia dimensioni di targeting (ad esempio, da destinatari a sottoscrizioni)
-* **Intersection/Union/Exclusion** - Combina o filtra più popolazioni
-
-**Casi d&#39;uso comuni:**
-
-* Arricchire i profili con la cronologia degli acquisti o i dati sul comportamento
-* Segmentare i tipi di pubblico in più gruppi per messaggi diversi
-* Rimuovi duplicati prima della consegna
-* Integrare dati da database esterni (FDA - Federated Data Access)
-* Creare query e join di più tabelle complessi
-
-Queste attività ti consentono di lavorare con i dati non direttamente nella tabella dei destinatari principale ed eseguire operazioni avanzate sul database.
-
-**Argomenti correlati:**
-
-[Attività di gestione dati](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/about-targeting-activities.html){target="_blank"} | [Flussi di lavoro di targeting](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=it){target="_blank"} | [Attività di arricchimento](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=it){target="_blank"}
+[Attività di gestione dati](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/about-targeting-activities.html){target="_blank"} | [Attività di arricchimento](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html){target="_blank"}
 
 +++
 
 +++ Posso automatizzare l’invio di messaggi personalizzati?
 
-Sì. I flussi di lavoro consentono campagne di messaggi personalizzati completamente automatizzate in base ai dati dei destinatari, al comportamento e ai criteri personalizzati.
+Sì. Creare flussi di lavoro automatizzati: Query (pubblico di destinazione) → Arricchimento (aggiunta di dati di personalizzazione) → Suddivisione (segmenti facoltativi) → Consegna (messaggi personalizzati) → Scheduler (esecuzione ricorrente).
 
-**Struttura del flusso di lavoro di automazione:**
+**Personalization:** Utilizzare dati di profilo, dati comportamentali, contenuto condizionale e valori dinamici. Scenari comuni: campagne di compleanno, abbandono del carrello, programmi fedeltà, messaggi di riconquista e attivati da eventi.
 
-1. **Query** - Seleziona il pubblico di destinazione in base ai criteri
-1. **Arricchimento** - Aggiungere dati di personalizzazione da tabelle correlate
-1. **Dividi** - Segmento in gruppi per diverse varianti di messaggio (facoltativo)
-1. **Consegna** - Invia messaggi personalizzati con campi unione
-1. **Scheduler** - Configura esecuzione ricorrente per campagne automatizzate
-
-**Opzioni Personalization:**
-
-* Utilizzare i dati del profilo del destinatario (nome, posizione, preferenze)
-* Includi dati comportamentali (cronologia acquisti, punteggi di coinvolgimento)
-* Applicare contenuto condizionale in base a segmenti o attributi
-* Calcola i valori dinamici (punti fedeltà, date di scadenza)
-
-Scenari comuni: campagne di compleanno, abbandono del carrello, programmi fedeltà, campagne di riconquista e messaggi attivati da eventi.
-
-**Argomenti correlati:**
-
-[Guida di Personalization](../send/personalize.md) | [Casi di utilizzo del flusso di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=it){target="_blank"} | [Attività di arricchimento](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=it){target="_blank"}
+[Guida di Personalization](../send/personalize.md) | [Casi di utilizzo del flusso di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=it){target="_blank"}
 
 +++
 
 +++ Come posso dividere un pubblico in sottoinsiemi con un flusso di lavoro?
 
-Utilizzare l&#39;attività **[!UICONTROL Split]** per suddividere una singola popolazione in più sottoinsiemi in base a criteri o regole di distribuzione.
+Utilizza l&#39;attività **[!UICONTROL Split]** per dividere le popolazioni: condizioni di filtro (età, posizione, stato VIP), distribuzione percentuale (test A/B), record limite (primo N, primo X%), raggruppamento dati (un sottoinsieme per valore).
 
-**Metodi di suddivisione:**
+**Utilizzi comuni:** test A/B, routing delle preferenze del canale, rollout progressivo, messaggistica specifica per il segmento, bilanciamento del carico. Ogni sottoinsieme scorre verso una transizione separata per elaborazioni diverse.
 
-* **Condizioni di filtro** - Crea sottoinsiemi in base a criteri (ad esempio, gruppi di età, posizione, stato VIP)
-* **Distribuzione percentuale** - Dividi in modo casuale in percentuali uguali o personalizzate per il test A/B
-* **Limita record** - Limita le dimensioni del sottoinsieme (primi N record, primi X%, selezione casuale)
-* **Raggruppamento dati** - Crea un sottoinsieme per valore distinto (ad esempio, un sottoinsieme per paese)
-
-**Casi d&#39;uso comuni:**
-
-* Test A/B con gruppi di controllo
-* Indirizzamento delle preferenze del canale (e-mail e SMS)
-* Rollout progressivo (invia al 10%, quindi al 90%)
-* Messaggistica specifica per il segmento (VIP, clienti standard e nuovi)
-* Bilanciamento del carico tra più server di consegna
-
-Ogni sottoinsieme suddiviso scorre in una transizione separata, consentendo un’elaborazione o una consegna diversa per ciascun gruppo.
-
-**Argomenti correlati:**
-
-[Attività divisa](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html?lang=it){target="_blank"} | [Guida ai test A/B](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/a-b-testing.html){target="_blank"}
+[Attività divisa](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html){target="_blank"} | [Guida ai test A/B](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/a-b-testing.html){target="_blank"}
 
 +++
 
 +++ Come posso aggiornare i dati sui destinatari da un file esterno?
 
-Sì. Utilizza i flussi di lavoro per aggiornare i dati di Campaign con i valori di file esterni (CSV, TXT).
+Sì. Flusso di lavoro: caricamento dei dati (file) → arricchimento (facoltativo) → riconciliazione (chiavi di corrispondenza come e-mail/ID) → aggiornamento dei dati (aggiornamento dei record corrispondenti, inserimento di nuovi se non corrispondono).
 
-**Struttura del flusso di lavoro:**
+**Utilizzi comuni:** aggiorna gli attributi del profilo da CRM, aggiorna gli stati di abbonamento, sincronizza i punti fedeltà, aggiorna le preferenze di consenso/rinuncia.
 
-1. **Caricamento dati (file)** - Carica il file esterno e mappa le colonne
-1. **Arricchimento** (facoltativo) - Aggiungere dati o trasformazioni aggiuntive
-1. **Riconciliazione** - Definisci le chiavi per far corrispondere i record dei file con i record del database (ad esempio, indirizzo e-mail, ID destinatario)
-1. **Aggiorna dati** - Scegliere le opzioni di aggiornamento:
-   * Aggiorna solo record corrispondenti
-   * Aggiorna campi esistenti o solo quelli vuoti
-   * Inserisci nuovi record se non viene trovata alcuna corrispondenza
+**Best practice:** utilizza identificatori univoci, convalida prima i dati, verifica con esempi, pianifica aggiornamenti regolari.
 
-**Scenari comuni:**
-
-* Aggiornare gli attributi del profilo dalle esportazioni CRM
-* Aggiorna gli stati di abbonamento da sistemi esterni
-* Sincronizzare punti fedeltà o punteggi cliente
-* Aggiornare le preferenze di consenso/rinuncia
-* Arricchire i profili con i dati comportamentali
-
-**Best practice:** utilizza identificatori univoci per la riconciliazione, convalida i dati prima dell&#39;aggiornamento, verifica con campioni di piccole dimensioni e pianifica aggiornamenti regolari per la sincronizzazione in corso.
-
-**Argomenti correlati:**
-
-[Importa guida dati](../start/import.md) | [Attività di caricamento dati](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=it){target="_blank"} | [Aggiorna attività dati](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html?lang=it){target="_blank"}
+[Importa guida dati](../start/import.md) | [Attività di caricamento dati](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html){target="_blank"} | [Aggiorna attività dati](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html){target="_blank"}
 
 +++
 
 +++ Come posso identificare ed eseguire il targeting dei nuovi destinatari?
 
-Utilizza i flussi di lavoro con le attività di query per identificare i destinatari aggiunti di recente e attivare le campagne di benvenuto automatizzate.
+Eseguire la query sul campo **[!UICONTROL Created date]** per selezionare i destinatari aggiunti entro un intervallo di tempo specifico.
 
-**Approccio query:**
+**Flusso di lavoro di benvenuto automatizzato:** modulo di pianificazione (esecuzione giornaliera) → query (selezione di nuovi destinatari) → deduplicazione (facoltativa) → consegna (messaggio di benvenuto) → Aggiorna dati (contrassegna come &quot;benvenuto&quot;).
 
-Creare un filtro di query nel campo **[!UICONTROL Created date]** per selezionare i destinatari aggiunti entro un intervallo di tempo specifico (ad esempio, ultime 24 ore, ultima settimana).
+**Avanzate:** utilizza funzioni di aggregazione per identificare dinamicamente le aggiunte recenti.
 
-**Struttura del flusso di lavoro di benvenuto automatica:**
-
-1. **Scheduler** - Esecuzione giornaliera o a intervalli specifici
-1. **Query** - Selezionare i destinatari creati dall&#39;ultima esecuzione
-1. **Deduplicazione** (facoltativo) - Assicurati che non vi siano duplicati
-1. **Consegna** - Invia messaggio di benvenuto
-1. **Aggiorna dati** (facoltativo) - Contrassegna i destinatari come &quot;accolti&quot;
-
-**Tecnica avanzata con aggregati:**
-
-Utilizza le funzioni di aggregazione per identificare in modo dinamico le aggiunte più recenti e confrontare con i destinatari elaborati in precedenza per un sofisticato rilevamento dei nuovi destinatari.
-
-**Argomenti correlati:**
-
-[Attività query](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=it){target="_blank"} | [Utilizzo di aggregati](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html?lang=it){target="_blank"} | [Programmi di benvenuto](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=it){target="_blank"}
+[Attività query](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"} | [Utilizzo di aggregati](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html){target="_blank"}
 
 +++
 
 +++ Come si utilizzano le attività del flusso di lavoro?
 
-I flussi di lavoro delle campagne vengono generati utilizzando quattro categorie principali di attività, ciascuna con scopi specifici:
+Quattro categorie di attività:
 
-**Attività di targeting** - Definisci e perfeziona il pubblico
+**Targeting:** Query, Split, Deduplication, Enrichment, Intersection, Union, Exclusion (definisci/perfeziona pubblico)\
+**Controllo di flusso:** modulo di pianificazione, attesa, test, fork, AND-join, OR-join, Jump (gestione logica/tempistica)\
+**Azione:** Consegna, Aggiorna dati, Caricamento/estrazione dati, Codice JavaScript (eseguire operazioni)\
+**Evento:** segnale esterno, raccoglitore file, trasferimento HTTP (reagisce ai trigger)
 
-* Query, suddivisione, deduplicazione, arricchimento, intersezione, unione, esclusione
-* Utilizza questi per selezionare i destinatari, segmentare le popolazioni e combinare le origini dati
+Trascina dalla palette, fai doppio clic per configurare, connetti con le transizioni.
 
-**Attività di controllo del flusso di lavoro** - Gestisci logica e tempistica del flusso di lavoro
-
-* Scheduler, Wait, Test, Fork, AND-join, OR-join, Jump
-* Controllare il flusso di esecuzione, aggiungere condizioni e gestire percorsi paralleli
-
-**Attività azione** - Eseguire operazioni e inviare messaggi
-
-* Consegna, Aggiorna dati, Caricamento dati (file), Estrazione dati (file), Codice JavaScript
-* Eseguire operazioni di database, trasferimenti di file e invio di messaggi
-
-**Attività evento** - Reagire ai trigger esterni
-
-* Segnale esterno, raccoglitore file, trasferimento HTTP, SMS, e-mail
-* Gestire i dati in arrivo e le interazioni con sistemi esterni
-
-Per utilizzare le attività, trascinale dalla palette all’area di lavoro del flusso di lavoro, fai doppio clic per configurare i parametri e collegali con le transizioni.
-
-**Argomenti correlati:**
-
-[Riferimento attività di targeting](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html?lang=it){target="_blank"} | [Riferimento attività controllo flusso](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html?lang=it){target="_blank"} | [Riferimento attività azione](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html?lang=it){target="_blank"} | [Riferimento attività evento](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/event-activities.html?lang=it){target="_blank"}
+[Attività di targeting](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html){target="_blank"} | [Controllo del flusso](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html){target="_blank"} | [Attività azione](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html){target="_blank"}
 
 +++
 
 +++ Quali sono le best practice per i flussi di lavoro?
 
-Segui queste best practice per creare flussi di lavoro efficienti, manutenibili e affidabili:
+**Progettazione:** Cancella nomi, aggiungi etichette/descrizioni, raggruppa attività correlate, suddividi processi complessi in flussi di lavoro più piccoli\
+**Prestazioni:** Limitare le dimensioni delle query, utilizzare tabelle temporanee, pianificare l&#39;esecuzione fuori picco, evitare cicli eccessivi\
+**Gestione degli errori:** Aggiungere percorsi di errore, configurare avvisi, eseguire test con esempi, esaminare i registri\
+**Manutenzione:** archiviazione di flussi di lavoro obsoleti, controllo della versione, complessità limitata (&lt;20 attività), utilizzo di modelli\
+**Sicurezza:** Applica le autorizzazioni, pulisci i dati temporanei, usa le variabili senza valori hardcoded
 
-**Progettazione e organizzazione:**
-
-* Utilizza nomi chiari e descrittivi per flussi di lavoro e attività
-* Aggiungere etichette e descrizioni alla logica del documento
-* Raggruppa visivamente le attività correlate per migliorarne la leggibilità
-* Suddividere processi complessi in più flussi di lavoro più piccoli
-
-**Ottimizzazione delle prestazioni:**
-
-* Limitare le dimensioni dei risultati delle query con i filtri appropriati
-* Utilizzare tabelle temporanee per l&#39;archiviazione dati intermedia
-* Pianificazione di flussi di lavoro a uso intensivo di risorse nelle ore di minore utilizzo
-* Evitare cicli inutili e iterazioni eccessive
-
-**Gestione e monitoraggio degli errori:**
-
-* Aggiungere percorsi di gestione degli errori con i supervisori
-* Configurare gli avvisi per i flussi di lavoro non riusciti
-* Test con campioni di dati di piccole dimensioni prima dell’esecuzione completa
-* Esamina regolarmente i registri di esecuzione per individuare eventuali problemi di prestazioni
-
-**Manutenzione e governance:**
-
-* Archiviare o eliminare flussi di lavoro obsoleti
-* Modifiche al flusso di lavoro del controllo delle versioni e modifiche ai documenti
-* Limita la complessità del flusso di lavoro (obiettivo per &lt; 20 attività)
-* Utilizzare i modelli di flusso di lavoro per i modelli ricorrenti
-
-**Sicurezza e gestione dati:**
-
-* Applica le autorizzazioni operatore appropriate
-* Pulire i dati temporanei con la pulizia del flusso di lavoro
-* Evitare i valori di codifica fissa: utilizzare variabili e opzioni
-* Rivedere e ottimizzare regolarmente i flussi di lavoro con prestazioni scadenti
-
-**Argomenti correlati:**
-
-[Guida alle best practice per i flussi di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=it){target="_blank"} | [Crea un flusso di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=it){target="_blank"} | [Monitorare i flussi di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=it){target="_blank"}
+[Guida alle best practice per i flussi di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"} | [Monitorare i flussi di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
 
 +++
 
@@ -1492,7 +1111,7 @@ Dipende dall’interfaccia in uso. La lingua della **console client** è fissa, 
 
 **Argomenti correlati:**
 
-[Cambia lingua nell&#39;interfaccia utente di Campaign Web](https://experienceleague.adobe.com/it/docs/campaign-web/v8/start/connect-to-campaign#language-pref){target="_blank"} | [Introduzione alla console client di Campaign](connect.md)
+[Cambia lingua nell&#39;interfaccia utente di Campaign Web](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/connect-to-campaign#language-pref){target="_blank"} | [Introduzione alla console client di Campaign](connect.md)
 
 +++
 
@@ -1518,7 +1137,7 @@ Campaign Pannelli di controllo Campaign è un’interfaccia amministrativa basat
 
 **Risorse aggiuntive:**
 
-[Documentazione del Pannello di controllo Campaign](https://experienceleague.adobe.com/it/docs/control-panel/using/control-panel-home){target="_blank"} | [Video tutorial di Pannello di controllo Campaign](https://experienceleague.adobe.com/it/docs/control-panel-learn/tutorials/control-panel-overview){target="_blank"}
+[Documentazione del Pannello di controllo Campaign](https://experienceleague.adobe.com/it/docs/control-panel/using/control-panel-home){target="_blank"} | [Video tutorial di Pannello di controllo Campaign](https://experienceleague.adobe.com/en/docs/control-panel-learn/tutorials/control-panel-overview){target="_blank"}
 
 +++
 
@@ -1579,53 +1198,21 @@ Il recapito messaggi e-mail dipende dalla configurazione tecnica, dalla qualità
 
 +++ A quali database esterni posso collegare Campaign?
 
-Campaign v8 supporta le connessioni Federated Data Access (FDA) ai principali sistemi di database aziendali, consentendo di sfruttare l’infrastruttura di dati esistente.
+Campaign v8 supporta le connessioni Federated Data Access (FDA) ai principali sistemi di database aziendali (database cloud, database aziendali, data warehouse, piattaforme di big data).
 
-**Database supportati:**
+Le versioni del database supportate e i requisiti di connessione variano. Controlla la [Matrice di compatibilità](compatibility-matrix.md) per la versione di Campaign v8 per confermare il supporto per database specifici e garantire la licenza corretta per i connettori FDA.
 
-* **Database cloud:** Amazon Redshift, Google BigQuery, Snowflake, Azure Synapse Analytics
-* **Database aziendali:** Oracle, Microsoft SQL Server, PostgreSQL, MySQL
-* **Data warehouse:** Teradata, Vertica, SAP HANA
-* **Big data:** Hadoop tramite Hive
-
-**Considerazioni specifiche per la piattaforma:** Le versioni del database supportate e i requisiti di connessione variano. Campaign v8 as a Managed Cloud Service può presentare requisiti di rete e sicurezza specifici per l’accesso al database esterno.
-
-**Importante:** controlla sempre la matrice di compatibilità ufficiale per la versione di Campaign v8 per confermare il supporto di versioni di database specifiche e garantire la licenza corretta per i connettori di database esterni.
-
-**Argomenti correlati:**
-
-[Matrice di compatibilità](compatibility-matrix.md) | [Configurare le connessioni FDA](../connect/fda.md)
+[Configurare le connessioni FDA](../connect/fda.md)
 
 +++
 
 +++ Adobe Campaign può integrarsi con i sistemi CRM?
 
-Sì. Campaign fornisce connettori CRM nativi per una sincronizzazione bidirezionale fluida tra Campaign e il sistema di gestione delle relazioni con i clienti, garantendo la coerenza dei dati dei clienti su tutte le piattaforme.
+Sì. Campaign fornisce connettori CRM nativi per la sincronizzazione bidirezionale con i principali sistemi CRM. Sincronizza dati di contatto, lead, account, registri di consegna, dati di tracciamento e metriche di coinvolgimento. Supporta modalità di sincronizzazione pianificate, manuali e in tempo reale (tramite API).
 
-**Sistemi CRM supportati:**
+Utilizza l’assistente del connettore di gestione delle relazioni con i clienti di Campaign per mappare i campi, selezionare le tabelle e pianificare la sincronizzazione. Controllare [Matrice di compatibilità](compatibility-matrix.md) per le versioni di CRM supportate.
 
-* **Salesforce** - Lead, contatti, account, opportunità, campagne
-* **Microsoft Dynamics 365** - Contatti, account, lead, entità personalizzate
-* Altri CRM tramite integrazioni API personalizzate
-
-**Sincronizzazioni:**
-
-* **Da CRM a Campaign:** record di contatto, informazioni account, lead, campi personalizzati, dati di segmentazione
-* **Da Campaign a CRM:** registri di consegna, dati di tracciamento, metriche di coinvolgimento, risposte alle campagne, stato abbonamento
-
-**Modalità di sincronizzazione:**
-
-* **Pianificato** - Sincronizzazione automatica a intervalli definiti (ogni ora, ogni giorno)
-* **Manuale** - Sincronizzazione su richiesta attivata dagli operatori
-* **In tempo reale** - Tramite API per aggiornamenti immediati (sviluppo personalizzato)
-
-**Configurazione:** utilizza l&#39;assistente del connettore CRM integrato di Campaign per mappare i campi del CRM agli attributi di Campaign, selezionare le tabelle da sincronizzare e pianificare la sincronizzazione. Il connettore gestisce la risoluzione dei conflitti e mantiene la coerenza dei dati.
-
-**Best practice:** inizia con la sincronizzazione di sola lettura per testare la mappatura, quindi abilita la sincronizzazione bidirezionale. Monitora i registri di sincronizzazione per individuare eventuali errori e conserva dati puliti in entrambi i sistemi.
-
-**Argomenti correlati:**
-
-[Configurazione connettore CRM](../connect/crm.md) | [Attività CRM per flussi di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/crm-connector.html?lang=it){target="_blank"}
+[Configurazione connettore CRM](../connect/crm.md) | [Attività CRM per flussi di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/crm-connector.html){target="_blank"}
 
 +++
 
@@ -1672,7 +1259,6 @@ Sì. Gli amministratori di Campaign possono personalizzare l’interfaccia utent
 
 * **A livello di istanza** - Applica a tutti gli utenti (richiede diritti di amministratore)
 * **Specifico per l&#39;utente** - Preferenze individuali e impostazioni personali
-* **Gruppo di operatori** - Impostazioni ereditate da tutti i membri del gruppo
 
 **Argomenti correlati:**
 
@@ -1711,14 +1297,13 @@ Ottieni informazioni sulle funzionalità di reporting di Campaign, inclusi rappo
 
 +++ Come posso creare nuovi rapporti?
 
-Campaign offre diverse opzioni di reporting in base alle tue esigenze e competenze tecniche. Puoi utilizzare i rapporti incorporati, creare rapporti personalizzati nella console client o progettare dashboard visive nell’interfaccia utente web di Campaign.
+Campaign offre diverse opzioni di reporting in base alle tue esigenze e competenze tecniche: rapporti incorporati, analisi descrittive, rapporti personalizzati nella console client e cubi.
 
 **Opzioni di reporting:**
 
 * **Rapporti incorporati** - Rapporti di consegna, campagne e tracciamento pronti all&#39;uso accessibili dalla scheda **[!UICONTROL Reports]**
 * **Analisi descrittiva** - Rapporti statistici rapidi su qualsiasi dato con un&#39;interfaccia guidata
 * **Rapporti personalizzati** - Rapporti avanzati creati da utenti tecnici tramite l&#39;editor di rapporti
-* **Dashboard dell&#39;interfaccia Web** - Report visivi e dashboard moderni con interfaccia di trascinamento della selezione
 * **Cubi** - Esplorazione dei dati multidimensionali e analisi della tabella pivot
 
 **Importante:** Campaign è progettato per la generazione di rapporti sulle operazioni di marketing e non come strumento specializzato di business intelligence. Per esigenze analitiche complesse, è consigliabile integrare con Adobe Analytics o piattaforme BI dedicate.
@@ -1751,7 +1336,7 @@ Ulteriori informazioni su [Analisi descrittiva](../reporting/built-in-reports.md
 
 +++ Come posso progettare report avanzati sui miei dati?
 
-Campaign offre due approcci per la creazione di rapporti personalizzati avanzati: rapporti tecnici nella console client per analisi complesse e dashboard visivi per la creazione di rapporti più semplice.
+Utilizza la console client per creare rapporti personalizzati avanzati con funzionalità di analisi complesse.
 
 Nella console client puoi effettuare le seguenti operazioni:
 
@@ -1766,8 +1351,7 @@ Scopri come [creare rapporti personalizzati (console client)](../reporting/custo
 
 +++ Cos’è un cubo e come posso utilizzarlo per il reporting?
 
-I cubi sono strutture di dati multidimensionali che consentono agli utenti aziendali di esplorare e analizzare i dati di Campaign tramite tabelle pivot senza competenze tecniche. Considerali come modelli di dati preconfigurati che semplificano la generazione di rapporti complessi.
-
+I cubi sono strutture di dati multidimensionali che consentono agli utenti aziendali di esplorare e analizzare i dati di Campaign tramite tabelle pivot senza competenze tecniche. Considerali come modelli di dati preconfigurati che semplificano la generazione di rapporti complessi. Questo strumento di reporting è disponibile sia nella console client che nell’interfaccia utente web di Campaign.
 
 * Gli utenti tecnici creano e configurano cubi che definiscono dimensioni (tempo, area geografica, canali) e misure (aperture, clic, ricavi).
 * Gli utenti aziendali selezionano un cubo durante la creazione di rapporti e trascinano le dimensioni per esplorare i dati
@@ -1793,12 +1377,6 @@ Sì! Campaign include un modulo Survey che consente di creare questionari online
 * Esporta le risposte ai sondaggi in Excel, PDF o CSV per ulteriori analisi
 * Utilizzare i dati dei sondaggi nei flussi di lavoro di targeting per personalizzare le campagne
 
-**Report sondaggi incorporati:**
-
-* **Rapporto generale** - Tendenze delle risposte nel tempo, distribuzione per origine e lingua
-* **Raggruppamento delle risposte** - Raggruppamento dettagliato delle risposte per ogni domanda
-* **Rapporto sulla documentazione** - Rappresentazione visiva della struttura del sondaggio
-
 **Analisi avanzata:**
 
 * Accedere alle risposte al sondaggio dalla scheda **[!UICONTROL Responses]** ed esportare i dati
@@ -1808,31 +1386,21 @@ Sì! Campaign include un modulo Survey che consente di creare questionari online
 
 **Argomenti correlati:**
 
-[Introduzione ai sondaggi](https://experienceleague.adobe.com/it/docs/campaign-classic/using/online-surveys/about-surveys){target="_blank"} | [Report sondaggi](https://experienceleague.adobe.com/it/docs/campaign-classic/using/online-surveys/publish-track-and-use-collected-data#reports-on-surveys){target="_blank"}
+[Introduzione ai sondaggi](https://experienceleague.adobe.com/en/docs/campaign-classic/using/online-surveys/about-surveys){target="_blank"} | [Report sondaggi](https://experienceleague.adobe.com/en/docs/campaign-classic/using/online-surveys/publish-track-and-use-collected-data#reports-on-surveys){target="_blank"}
 
 +++
 
 +++ Come posso condividere l’accesso ai miei report?
 
-Campaign offre opzioni flessibili per la condivisione di rapporti con diversi gruppi di utenti, il controllo della visibilità e delle autorizzazioni di accesso in base a ruoli e responsabilità.
+Controlla la visibilità dei rapporti tramite le autorizzazioni per le cartelle e i diritti denominati in Campaign.
 
-**Controllo dell&#39;accesso al report:**
+**Metodi di controllo degli accessi:**
 
-* **Autorizzazioni cartella** - Posiziona i report in cartelle con accesso in lettura/scrittura appropriato per i gruppi di utenti
-* **Diritti denominati** - Assegna diritti specifici per visualizzare, creare o modificare i report
-* **Contesto di visualizzazione** - Definisci dove vengono visualizzati i report: nella cartella **[!UICONTROL Reports]**, nelle schede della campagna o nelle schermate di consegna
-* **Condivisione dell&#39;interfaccia utente Web** - Condividere i collegamenti del dashboard con i membri del team tramite l&#39;interfaccia utente Web di Campaign
+* **Autorizzazioni cartella** - Posiziona i report in cartelle con accesso appropriato per i gruppi di utenti
+* **Diritti denominati** - Assegna i diritti per visualizzare, creare o modificare i report
+* **Contesto di visualizzazione** - Definisci dove vengono visualizzati i report (cartella dei report, schede della campagna, schermate di consegna)
 
-**Come configurare l&#39;accesso:**
-
-1. Salvare il report in una cartella specifica nella console client
-2. Configurare le autorizzazioni di accesso alle cartelle per i gruppi di operatori rilevanti
-3. Definire le proprietà del rapporto: tipo di rapporto, contesto di visualizzazione e disponibilità
-4. Verifica l’accesso con un utente del gruppo target prima di un rollout più ampio
-
-**Best practice:** crea cartelle di rapporti dedicate per diversi team (marketing, operazioni, gestione) con autorizzazioni di accesso personalizzate. Documenta lo scopo del rapporto e le pianificazioni di aggiornamento.
-
-**Argomenti correlati:**
+**Configurazione:** Salvare il report in una cartella specifica → Configurare l&#39;accesso alla cartella per i gruppi di operatori → Definire le proprietà del report e il contesto di visualizzazione.
 
 [Rapporti personalizzati](../reporting/custom-reports.md) | [Autorizzazioni utente](gs-permissions.md)
 
@@ -1875,27 +1443,13 @@ Accedi alle informazioni tecniche per gli sviluppatori, inclusi i dettagli del m
 
 +++ Qual è il modello dati di Campaign?
 
-Il modello dati di Campaign è una struttura di database relazionale basata su schema che definisce il modo in cui i dati di marketing sono organizzati e correlati. È costituito da tabelle integrate per i principali oggetti di marketing (destinatari, consegne, campagne) e può essere esteso per soddisfare esigenze aziendali specifiche.
+Il modello dati di Campaign è una struttura di database relazionale basata su schema costituita da tabelle integrate (destinatari, consegne, campagne) che possono essere estese in base alle esigenze aziendali.
 
-**Concetti chiave del modello dati:**
+**Concetti chiave:** schemi (definizioni XML), tabelle incorporate, collegamenti (relazioni), enumerazioni (elenchi di valori), estensioni (campi/tabelle personalizzati).
 
-* **Schemi** - Definizioni XML che descrivono la struttura, i campi e le relazioni della tabella
-* **Tabelle incorporate** - Entità marketing di base (destinatari, consegne, flussi di lavoro, campagne)
-* **Collegamenti** - Relazioni tra tabelle (1-1, 1-N, N-N)
-* **Enumerazioni** - Elenchi di valori predefiniti per i campi a discesa
-* **Estensioni** - Campi e tabelle personalizzati aggiunti al modello standard
+**Schemi principali:** destinatario (`nms:recipient`), consegna (`nms:delivery`), flusso di lavoro (`xtk:workflow`), campagna (`nms:operation`), registri di tracciamento.
 
-**Schemi principali incorporati:**
-
-* **Destinatario (nms:recipient)** - Profili cliente e informazioni di contatto
-* **Consegna (nms:delivery)** - Campagne e-mail, SMS e push
-* **Flusso di lavoro (xtk:workflow)** - Processi di automazione
-* **Campagna (nms:operation)** - Orchestrazione campagna di marketing
-* **Registri di tracciamento** - Aperture, clic e dati di coinvolgimento
-
-**Perché è importante:** Comprendere il modello di dati è essenziale per creare flussi di lavoro, creare query, estendere schemi e sviluppare integrazioni personalizzate. L’approccio basato su schema garantisce la coerenza dei dati e abilita potenti funzionalità di query.
-
-**Argomenti correlati:**
+Comprendere il modello dati è essenziale per flussi di lavoro, query, estensioni di schema e integrazioni.
 
 [Modello dati campagna](../dev/datamodel.md) | [Best practice per i modelli di dati](../dev/datamodel-best-practices.md)
 
@@ -1903,33 +1457,18 @@ Il modello dati di Campaign è una struttura di database relazionale basata su s
 
 +++ Come si utilizzano gli schemi di Campaign?
 
-Gli schemi sono alla base della struttura dati di Campaign e definiscono tabelle, campi e relazioni in formato XML. Comprendere gli schemi è fondamentale per la personalizzazione, l’integrazione e lo sviluppo avanzato dei flussi di lavoro.
-
-**Quali schemi definiscono:**
-
-* **Struttura della tabella** - Tabelle di database e oggetti applicativi corrispondenti
-* **Proprietà campo** - Tipi di dati, etichette, regole di convalida e valori predefiniti
-* **Relazioni** - Collegamenti tra tabelle (join) e cardinalità
-* **Indici** - Ottimizzazione del database per le prestazioni delle query
-* **Controllo dell&#39;accesso** - Quali campi gli utenti possono visualizzare e modificare
+Gli schemi definiscono la struttura dati di Campaign in formato XML, specificando la struttura della tabella, le proprietà dei campi, le relazioni, gli indici e il controllo degli accessi.
 
 **Utilizzo degli schemi:**
 
-* **Visualizza schemi:** Accesso tramite **[!UICONTROL Administration > Configuration > Data schemas]** nella console client
-* **Estendi schemi:** Crea schemi di estensione (ad esempio, `cus:recipient` estende `nms:recipient`) per aggiungere campi personalizzati senza modificare gli schemi di base
-* **Creare schemi personalizzati:** Creare tabelle completamente nuove per dati specifici dell&#39;azienda
-* **Aggiorna database:** Applica le modifiche allo schema utilizzando **[!UICONTROL Tools > Advanced > Update database structure]**
+* **Visualizza:** Accesso tramite **[!UICONTROL Administration > Configuration > Data schemas]**
+* **Estendi:** crea schemi di estensione (ad esempio, `cus:recipient`) per aggiungere campi personalizzati senza modificare gli schemi di base
+* **Crea:** Crea nuove tabelle per dati specifici dell&#39;azienda
+* **Aggiornamento:** Applica modifiche tramite **[!UICONTROL Tools > Advanced > Update database structure]**
 
-**Casi d&#39;uso comuni:**
+**Utilizzi comuni:** aggiungere campi personalizzati alla tabella dei destinatari, creare tabelle personalizzate, definire relazioni e implementare modelli specifici per l&#39;azienda.
 
-* Aggiunta di campi personalizzati alla tabella dei destinatari (ID società, livello fedeltà, preferenze)
-* Creazione di tabelle personalizzate per prodotti, archivi o transazioni
-* Definizione delle relazioni tra tabelle personalizzate e integrate
-* Implementazione di modelli di dati specifici per le aziende
-
-**Importante:** non modificare mai direttamente gli schemi incorporati. Utilizza sempre gli schemi di estensione per mantenere la compatibilità dell’aggiornamento e il supporto di Adobe.
-
-**Argomenti correlati:**
+**Importante:** non modificare mai direttamente gli schemi incorporati. Utilizza sempre gli schemi di estensione per compatibilità con l’aggiornamento.
 
 [Introduzione agli schemi](../dev/schemas.md) | [Estendere uno schema](../dev/extend-schema.md)
 
@@ -1937,34 +1476,13 @@ Gli schemi sono alla base della struttura dati di Campaign e definiscono tabelle
 
 +++ Come si utilizza una tabella dei destinatari personalizzata?
 
-Campaign ti consente di utilizzare una tabella personalizzata invece della tabella dei destinatari incorporata quando la tua azienda richiede una diversa struttura di dati per il targeting (ad esempio, account B2B, abbonati, lead o contatti esterni).
+Utilizza una tabella dei destinatari personalizzata quando esegui il targeting di account B2B, dati di abbonati separati, sistemi esterni o architetture multi-brand invece della tabella dei destinatari standard.
 
-**Perché utilizzare una tabella dei destinatari personalizzata:**
+**Implementazione:** crea uno schema personalizzato con campi obbligatori (e-mail, chiave primaria, esclusioni) → Configura le mappature di destinazione → Aggiorna i modelli di consegna → Adatta flussi di lavoro/query.
 
-* Aziende o unità organizzative B2B di destinazione invece di contatti individuali
-* Separa i dati dell’abbonato dal database principale del cliente
-* Usa una tabella clienti esistente da un altro sistema
-* Implementazione di architetture multi-brand con tabelle di contatto separate
-* Conformità a specifici requisiti di governance dei dati
+**Considerazioni chiave:** deve includere i campi di consegna richiesti, i flussi di lavoro/moduli devono essere adattati e i test critici prima della migrazione di produzione.
 
-**Passaggi di implementazione:**
-
-1. Creare uno schema personalizzato che definisca la struttura della tabella dei destinatari
-2. Includi campi obbligatori (e-mail, chiave primaria, flag di esclusione)
-3. Configurare le mappature di destinazione per collegare la tabella con le consegne
-4. Aggiornare i modelli di consegna per utilizzare la nuova mappatura di destinazione
-5. Adattare flussi di lavoro e query per fare riferimento alla tabella personalizzata
-
-**Considerazioni chiave:**
-
-* Le tabelle dei destinatari personalizzate devono includere campi obbligatori per le consegne (e-mail, esclusioni, tracciamento)
-* I flussi di lavoro e i moduli devono essere adattati per funzionare con la struttura personalizzata
-* Alcune funzioni incorporate potrebbero richiedere la personalizzazione
-* I test sono fondamentali prima della migrazione delle campagne di produzione
-
-**Best practice:** inizia con l&#39;estensione della tabella dei destinatari standard prima di prendere in considerazione una tabella personalizzata. Le tabelle dei destinatari personalizzate aggiungono complessità e devono essere utilizzate solo quando è veramente necessario.
-
-**Argomenti correlati:**
+**Best practice:** estendere prima la tabella dei destinatari standard. Utilizza le tabelle personalizzate solo quando è veramente necessario a causa di una maggiore complessità.
 
 [Tabella dei destinatari personalizzata](../dev/custom-recipient.md) | [Mappature di destinazione](../audiences/target-mappings.md)
 
@@ -1972,94 +1490,42 @@ Campaign ti consente di utilizzare una tabella personalizzata invece della tabel
 
 +++ Quali sono le best practice per definire le query in Campaign?
 
-L’editor delle query di Campaign è un potente strumento visivo per la creazione di query nel database senza conoscenze SQL. La padronanza è essenziale per il targeting, la segmentazione e l’analisi dei dati efficaci.
+L’editor delle query di Campaign crea visivamente le query del database senza SQL, utilizzandole nelle attività del flusso di lavoro, nel targeting della consegna, negli elenchi, nei rapporti e nei filtri.
 
-**Dove vengono utilizzate le query:**
+**Best practice:**
 
-* **Attività del flusso di lavoro** - Query, suddivisione, aggiornamento dati, attività di arricchimento
-* **Destinazione consegna** - Definisci le popolazioni dei destinatari per le campagne
-* **Elenchi** - Crea elenchi di destinatari dinamici o statici
-* **Rapporti** - Generazione di estrazioni e analisi di dati personalizzati
-* **Filtri** - Crea criteri di targeting riutilizzabili
+* Inizia semplice: genera in modo incrementale, verifica ogni passaggio
+* Utilizzare dimensioni filtro: sfruttare le relazioni tra tabelle
+* Ottimizza le prestazioni: indicizza i campi interrogati, evita calcoli complessi
+* Riutilizzare i filtri predefiniti per coerenza
+* Eseguire prima il test con campioni di piccole dimensioni
+* Documenta query complesse
 
-**Best practice per le query:**
+**Pattern comuni:** i messaggi di apertura della consegna di Target, i contatti inattivi, i segmenti per comportamento, escludono i destinatari precedenti.
 
-* **Inizio semplice** - Genera le query in modo incrementale, eseguendo il test a ogni passaggio
-* **Usa dimensioni filtro** - Sfrutta le relazioni tra tabelle (destinatari → consegne → registri di tracciamento)
-* **Ottimizza prestazioni** - Indicizza i campi con query frequenti, evita i campi calcolati complessi
-* **Utilizzo di filtri predefiniti** - Riutilizzare e combinare i filtri esistenti per coerenza
-* **Test con campioni di piccole dimensioni** - Convalida logica di query prima dell&#39;esecuzione nel database completo
-* **Documenta query complesse** - Aggiungi descrizioni per manutenzione e trasferimento delle conoscenze
+**Accesso:** **[!UICONTROL Tools > Generic query editor]** per esplorazioni ad hoc.
 
-**Modelli di query comuni:**
-
-* Destinatari che hanno aperto una consegna specifica: filtra i registri di tracciamento collegati ai destinatari
-* Trova contatti inattivi: esegui una query sull’ultima data di consegna o sull’attività di tracciamento
-* Segmento per comportamento: combina i criteri di consegna, tracciamento e profilo
-* Escludi destinatari precedenti: utilizza le operazioni set (unione, intersezione, esclusione)
-
-**Accesso all&#39;editor di query generico:** **[!UICONTROL Tools > Generic query editor]** per l&#39;esplorazione di database ad hoc e l&#39;estrazione di dati all&#39;esterno dei flussi di lavoro.
-
-**Argomenti correlati:**
-
-[Editor query](../start/query-editor.md) | [Attività query nei flussi di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=it){target="_blank"}
+[Editor query](../start/query-editor.md) | [Attività query](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}
 
 +++
 
 +++ Come posso importare un pacchetto di dati?
 
-I pacchetti di dati ti consentono di esportare e importare configurazioni di Campaign (schemi, flussi di lavoro, tipologie, filtri) e dati tra istanze. Ciò è essenziale per la distribuzione di configurazioni dallo sviluppo alla produzione o per la condivisione di componenti tra organizzazioni diverse.
+Importa pacchetti tramite **[!UICONTROL Tools > Advanced > Import package]** nella console client. I pacchetti contengono configurazioni di Campaign (schemi, flussi di lavoro, tipologie) e dati per la distribuzione tra le istanze.
 
-**Cosa è possibile imballare:**
+**Tipi di pacchetto:** pacchetto utente (configurazioni personalizzate), pacchetto piattaforma (fornito da Adobe), pacchetto dati (dati effettivi).
 
-* **Oggetti di configurazione** - Schemi, flussi di lavoro, regole di tipologia, moduli, filtri
-* **Componenti di Campaign** - Modelli di consegna, modelli di campagna, blocchi di contenuto
-* **Impostazioni applicazione** - Operatori, gruppi di operatori, strutture di cartelle
-* **Dati** - Elenchi destinatari, indirizzi seed, frammenti di contenuto
-* **Sviluppi personalizzati** - Codice JavaScript, script SQL, applicazioni Web
+**Best practice:** Esegui prima il test in sviluppo, esegui un backup prima dell&#39;importazione ed esporta dalla stessa/precedente versione.
 
-
-**Tipi di pacchetto:**
-
-* **Pacchetto utente** - Configurazioni personalizzate create ed esportate
-* **Pacchetto piattaforma** - Funzioni e aggiornamenti forniti da Adobe
-* **Pacchetto dati** - Contiene record di dati effettivi, non solo la struttura
-
-**Best practice:**
-
-* Esporta sempre pacchetti dalla stessa versione di Campaign o da una versione precedente
-* Importazioni del pacchetto di prova nell’ambiente di sviluppo prima della produzione
-* Contenuto e dipendenze del pacchetto documenti
-* Usa controllo della versione per i file XML del pacchetto
-* Esegui il backup dell’istanza prima delle importazioni dei pacchetti principali
-
-Ulteriori informazioni su come [Utilizzare i pacchetti dati](../dev/packages.md)
+[Utilizzare i pacchetti di dati](../dev/packages.md)
 
 +++
 
 +++ Dove posso trovare l’elenco delle API di Campaign v8?
 
-Campaign v8 fornisce una documentazione API completa che copre sia le API SOAP (per le interazioni con la console client) che le API REST (per le integrazioni moderne). Il riferimento API include tutti i metodi, parametri e formati di risposta disponibili.
+Campaign v8 fornisce API SOAP (operazioni della console client), API REST (integrazioni moderne) e API JavaScript (script del flusso di lavoro).
 
-**Tipi di API di Campaign:**
-
-* **API SOAP** - API tradizionali per le operazioni della console client di Campaign, la manipolazione dello schema e il controllo del flusso di lavoro
-* **API REST** - API HTTP moderne per integrazioni di sistema esterne, gestione dei profili e attivazione di eventi
-* **API JavaScript** - API di scripting lato server per attività del flusso di lavoro e logica di business personalizzata
-
-**Risorse di documentazione API:**
-
-* **Riferimento API completo:** Documentazione API SOAP completa con firme di metodo, parametri ed esempi
-* **Guida REST API:** endpoint REST moderni per profili, eventi e unità organizzative
-* **API JavaScript:** funzioni lato server disponibili negli script del flusso di lavoro e nelle applicazioni Web
-
-**Casi d&#39;uso comuni per l&#39;API:**
-
-* Integrare Campaign con applicazioni CRM, ERP o personalizzate
-* Automatizzare le operazioni della campagna e l’esecuzione dei flussi di lavoro
-* Sincronizzazione dei dati tra sistemi in tempo reale
-* Creare soluzioni di monitoraggio e avvisi personalizzate
-* Creare interfacce esterne per dati e operazioni di Campaign
+**Utilizzi comuni:** integrazione con CRM/ERP, automazione di campagne, sincronizzazione di dati, creazione di soluzioni di monitoraggio, creazione di interfacce esterne.
 
 **Accesso:** [Documentazione API di Campaign v8](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=it){target="_blank"}
 
@@ -2068,68 +1534,29 @@ Campaign v8 fornisce una documentazione API completa che copre sia le API SOAP (
 
 +++ Come si monitorano i flussi di lavoro dall’API?
 
-Le API di Campaign consentono di controllare e monitorare in modo programmatico l’esecuzione dei flussi di lavoro, abilitando sistemi di monitoraggio esterni, avvisi automatizzati e soluzioni di orchestrazione personalizzate.
+Le API di Campaign consentono di controllare in modo programmatico i flussi di lavoro: avvio, pausa/ripresa, arresto, stato della query, recupero dei registri, monitoraggio dell’avanzamento dell’attività.
 
-**Operazioni possibili tramite API:**
+**Endpoint API:** `POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands`
 
-* **Avvia flussi di lavoro** - Attiva l&#39;esecuzione del flusso di lavoro a livello di programmazione
-* **Sospendi/Riprendi flussi di lavoro** - Controlla il flusso di esecuzione del flusso di lavoro
-* **Interrompi flussi di lavoro** - Termina flussi di lavoro in esecuzione
-* **Stato flusso di lavoro query** - Verificare se i flussi di lavoro sono in esecuzione, in pausa o completati
-* **Recupera registri** - Accedi ai registri di esecuzione del flusso di lavoro e ai messaggi di errore
-* **Monitorare l&#39;avanzamento dell&#39;attività** - Monitorare il completamento delle singole attività del flusso di lavoro
+**Comandi:** `{"method":"start"}`, `{"method":"pause"}`, `{"method":"resume"}`, `{"method":"stop"}`
 
-**Endpoint API:**
+**Casi d&#39;uso:** creare dashboard di monitoraggio, implementare avvisi automatici, orchestrare da scheduler esterni, creare dipendenze tra istanze, generare report personalizzati.
 
-Tutti i comandi di controllo del flusso di lavoro utilizzano lo stesso endpoint POST con parametri di metodo diversi:
+**Best practice:** combina il monitoraggio API con l&#39;audit trail per una governance completa.
 
-`POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands`
-
-**Comandi disponibili:**
-
-* `{"method":"start"}` - Avvia un flusso di lavoro
-* `{"method":"pause"}` - Sospendi un flusso di lavoro in esecuzione
-* `{"method":"resume"}` - Riprendi un flusso di lavoro in pausa
-* `{"method":"stop"}` - Interrompere un flusso di lavoro
-
-**Casi d&#39;uso comuni:**
-
-* Creare dashboard di monitoraggio personalizzati che mostrino lo stato del flusso di lavoro
-* Implementare avvisi automatici in caso di errore o durata eccessiva dei flussi di lavoro
-* Orchestrazione dei flussi di lavoro da scheduler o sistemi di eventi esterni
-* Creare dipendenze del flusso di lavoro tra più istanze di Campaign
-* Generare rapporti di esecuzione del flusso di lavoro personalizzati
-
-**Best practice:** combina il monitoraggio API con l&#39;audit trail del flusso di lavoro per una governance completa del flusso di lavoro. Utilizza strumenti di monitoraggio esterni per tenere traccia degli SLA del flusso di lavoro e delle metriche delle prestazioni.
-
-Scopri come [controllare i flussi di lavoro tramite API](../dev/api/controlling-a-workflow.md)
+[Controllare i flussi di lavoro tramite API](../dev/api/controlling-a-workflow.md)
 
 +++
 
 +++ Come posso aggiornare la struttura del database?
 
-Dopo aver modificato gli schemi di Campaign (aggiunta di campi, creazione di tabelle, modifica dei tipi di dati), devi aggiornare la struttura fisica del database per applicare le modifiche. Questa sincronizzazione garantisce che il database corrisponda alle definizioni dello schema.
+Dopo aver modificato gli schemi (aggiunta di campi, creazione di tabelle, modifica dei tipi di dati), aggiornare la struttura del database fisico tramite **[!UICONTROL Tools > Advanced > Update database structure]** per applicare le modifiche.
 
-**Quando sono necessari aggiornamenti del database:**
+**Se necessario:** aggiunta di campi, creazione/estensione di tabelle, modifica delle proprietà dei campi, aggiunta/rimozione di collegamenti, creazione di indici.
 
-* Aggiunta di nuovi campi agli schemi esistenti
-* Creazione di tabelle personalizzate o estensione di tabelle incorporate
-* Modifica delle proprietà del campo (tipo di dati, lunghezza, stato richiesto)
-* Aggiunta o rimozione di collegamenti tra tabelle
-* Creazione di nuovi indici per l’ottimizzazione delle query
+**Importante:** esegui prima il backup, verifica in fase di sviluppo, pianifica i tempi di inattività per modifiche di grandi dimensioni, coordinati con il supporto di Adobe (Managed Cloud Services). Tieni presente che alcune modifiche potrebbero causare la perdita di dati.
 
-
-**Considerazioni importanti:**
-
-* **Esegui prima il backup**: esegui sempre il backup del database prima delle modifiche strutturali
-* **Test in sviluppo** - Convalida modifiche schema in ambiente di sviluppo prima della produzione
-* **Pianificazione dei tempi di inattività** - Modifiche strutturali di grandi dimensioni potrebbero richiedere brevi finestre di manutenzione
-* **Per Managed Cloud Services** - Coordinare le modifiche principali con il supporto Adobe
-* **Reversibilità** - Alcune modifiche (come la rimozione dei campi) possono causare la perdita di dati
-
-**Best practice:** utilizzare il controllo delle versioni dello schema e il rilevamento delle modifiche. Documenta tutte le modifiche allo schema personalizzato per manutenzione e risoluzione dei problemi.
-
-**Argomenti correlati:**
+**Best practice:** utilizza il controllo delle versioni dello schema, documenta tutte le modifiche.
 
 [Aggiorna struttura database](../dev/update-database-structure.md) | [Estendi schema](../dev/extend-schema.md)
 
@@ -2253,7 +1680,7 @@ Entra in contatto con altri utenti di Campaign ed esperti di Adobe per condivide
 
 * **[Community di Adobe Campaign](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}** - Poni domande, condividi soluzioni e collegati alla community di Campaign
 * **[Forum Experience League](https://experienceleaguecommunities.adobe.com/){target="_blank"}** - Sfogliare discussioni tra tutti i prodotti Adobe
-* **[Orario di lavoro della community di Campaign](https://experienceleague.adobe.com/it){target="_blank"}** - Partecipa a sessioni live con esperti Adobe
+* **[Orario di lavoro della community di Campaign](https://experienceleague.adobe.com/){target="_blank"}** - Partecipa a sessioni live con esperti Adobe
 
 ### Documentazione e apprendimento
 
@@ -2285,10 +1712,10 @@ Chiedi aiuto al team di supporto di Adobe e gestisci la tua istanza.
 
 Migliora le tue competenze con i programmi ufficiali di formazione e certificazione di Adobe.
 
-* **[Guida di Experience League](https://experienceleague.adobe.com/it/browse/campaign/campaign-v8){target="_blank"}** - Risorse di aiuto per Campaign v8 (interfaccia utente Web e console CLient)
+* **[Guida di Experience League](https://experienceleague.adobe.com/en/browse/campaign/campaign-v8){target="_blank"}** - Risorse di aiuto per Campaign v8 (interfaccia utente Web e console CLient)
 * **[Adobe Digital Learning Services](https://learning.adobe.com/){target="_blank"}** - Corsi ufficiali con istruttore e autoapprendimento
-* **[Certificazione Adobe Campaign](https://experienceleague.adobe.com/docs/certification/program/overview.html?lang=it){target="_blank"}** - Convalida la tua esperienza con la certificazione professionale
-* **[Percorsi di apprendimento Experience League](https://experienceleague.adobe.com/it?lang=en#dashboard/learning){target="_blank"}** - percorsi di apprendimento guidato
+* **[Certificazione Adobe Campaign](https://experienceleague.adobe.com/docs/certification/program/overview.html){target="_blank"}** - Convalida la tua esperienza con la certificazione professionale
+* **[Percorsi di apprendimento Experience League](https://experienceleague.adobe.com/?lang=en#dashboard/learning){target="_blank"}** - percorsi di apprendimento guidato
 
 ### Altre risorse utili
 
