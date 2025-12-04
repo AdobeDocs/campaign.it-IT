@@ -46,7 +46,7 @@ ht-degree: 81%
          + [Arricchimento](workflow/enrichment.md)
          + [Esclusione](workflow/exclusion.md)
          + [Query incrementale](workflow/incremental-query.md)
-         + [Intersezione &#x200B;](workflow/intersection.md)
+         + [Intersezione ](workflow/intersection.md)
          + [Aggiornare un elenco](workflow/list-update.md)
          + [Offerte per cella](workflow/offers-by-cell.md)
          + [Motore di offerta](workflow/offer-engine.md)

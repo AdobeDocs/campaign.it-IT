@@ -18,7 +18,7 @@ Adobe Campaign fornisce una serie di strumenti di reporting elencati in questa p
 
 * **Reporting dinamico**
 
-  Disponibile nell’interfaccia web di Campaign, il reporting dinamico fornisce rapporti completamente personalizzabili e in tempo reale per misurare l’impatto delle attività di marketing. Consente di accedere ai dati del profilo, abilitando l’analisi demografica per dimensioni di profilo, come genere, città ed età, oltre ai dati funzionali delle campagne e-mail come aperture e clic. Consulta la [documentazione dell&#39;interfaccia utente Web v7](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html?lang=it){target="_blank"}.
+  Disponibile nell’interfaccia web di Campaign, il reporting dinamico fornisce rapporti completamente personalizzabili e in tempo reale per misurare l’impatto delle attività di marketing. Consente di accedere ai dati del profilo, abilitando l’analisi demografica per dimensioni di profilo, come genere, città ed età, oltre ai dati funzionali delle campagne e-mail come aperture e clic. Consulta la [documentazione dell&#39;interfaccia utente Web v7](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"}.
 
 * **Cubi**
 
@@ -56,4 +56,4 @@ Adobe Campaign fornisce una serie di strumenti di reporting elencati in questa p
 
   Utilizza Adobe Campaign per creare rapporti sui dati nel database. Una volta creati, rendili accessibili nei contesti appropriati.
 
-  I passaggi per creare un report sono descritti in dettaglio nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html?lang=it){target="_blank"}. La creazione di rapporti personalizzati è riservata agli utenti avanzati.
+  I passaggi per creare un report sono descritti in dettaglio nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target="_blank"}. La creazione di rapporti personalizzati è riservata agli utenti avanzati.

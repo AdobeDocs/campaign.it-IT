@@ -41,7 +41,7 @@ I mancati recapiti non permanenti sono errori temporanei generati dagli ISP in c
 
 Il tipo di errore **Ignorato** è considerato temporaneo, ad esempio &quot;Fuori sede&quot;, oppure è un errore tecnico, ad esempio se il tipo di mittente è &quot;postmaster&quot;.
 
-Il ciclo di feedback funziona come le e-mail non recapitate: quando un utente qualifica un’e-mail come spam, puoi configurare le regole e-mail in Adobe Campaign per bloccare tutte le consegne a questo utente. Inserire nell&#39;elenco Bloccati Gli indirizzi di questi utenti vengono anche se non hanno fatto clic sul collegamento di annullamento dell’abbonamento. Gli indirizzi vengono aggiunti alla tabella di quarantena (**NmsAddress**) e non alla tabella dei destinatari (**NmsRecipient**) con lo stato **[!UICONTROL Denylisted]**. Ulteriori informazioni sul meccanismo del ciclo di feedback nella [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=it#feedback-loops){target="_blank"}.
+Il ciclo di feedback funziona come le e-mail non recapitate: quando un utente qualifica un’e-mail come spam, puoi configurare le regole e-mail in Adobe Campaign per bloccare tutte le consegne a questo utente. Inserire nell&#39;elenco Bloccati Gli indirizzi di questi utenti vengono anche se non hanno fatto clic sul collegamento di annullamento dell’abbonamento. Gli indirizzi vengono aggiunti alla tabella di quarantena (**NmsAddress**) e non alla tabella dei destinatari (**NmsRecipient**) con lo stato **[!UICONTROL Denylisted]**. Ulteriori informazioni sul meccanismo del ciclo di feedback nella [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target="_blank"}.
 
 ## Errori sincroni e asincroni {#synchronous-and-asynchronous-errors}
 
@@ -112,7 +112,7 @@ Ad esempio, se il periodo di validità è impostato sul valore predefinito di 5 
 
 Una volta che un messaggio è rimasto nella coda MTA per 3,5 giorni e la consegna non è riuscita, si verificherà un timeout e il suo stato verrà aggiornato da **[!UICONTROL Sent]** a **[!UICONTROL Failed]** nei registri di consegna.
 
-<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=it#defining-validity-period){target="_blank"}.-->
+<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}.-->
 
 
 ## Tipi di errore e-mail {#email-error-types}
@@ -723,7 +723,7 @@ DLV-XXXX The count of message prepared (123) is greater than the number of messa
 
 **Causa**: nell&#39;e-mail è presente un campo o un blocco di personalizzazione con più valori per il destinatario. Un blocco di personalizzazione è in uso e sta recuperando più di un record per un destinatario specifico.
 
-**Risoluzione**: controlla i dati di personalizzazione utilizzati, quindi controlla la destinazione per i destinatari che hanno più di una voce per uno qualsiasi di questi campi. È inoltre possibile utilizzare un&#39;attività **[!UICONTROL Deduplication]** nel flusso di lavoro di targeting prima dell&#39;attività di consegna per assicurarsi che esista un solo campo di personalizzazione alla volta. Per ulteriori informazioni sulla deduplicazione, consulta la [documentazione del flusso di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html?lang=it){target="_blank"}.
+**Risoluzione**: controlla i dati di personalizzazione utilizzati, quindi controlla la destinazione per i destinatari che hanno più di una voce per uno qualsiasi di questi campi. È inoltre possibile utilizzare un&#39;attività **[!UICONTROL Deduplication]** nel flusso di lavoro di targeting prima dell&#39;attività di consegna per assicurarsi che esista un solo campo di personalizzazione alla volta. Per ulteriori informazioni sulla deduplicazione, consulta la [documentazione del flusso di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html){target="_blank"}.
 
 ### Gestione della risposta automatica {#auto-reply-handling}
 
