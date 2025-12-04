@@ -5,9 +5,9 @@ feature: Monitoring, Email
 role: User
 level: Beginner
 exl-id: f3de901f-519f-42ae-846c-f20c7cb560df
-source-git-commit: 90ed82673b893b62a185227dd8cdfe80cc8f1455
+source-git-commit: 57e177dc6c30502f2ed3bb08b18586fa5399e89c
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '455'
 ht-degree: 3%
 
 ---
@@ -78,7 +78,7 @@ Questo rapporto mostra l’elenco delle pagine visitate dopo una consegna.
 
 Con questo esempio, puoi comprendere meglio la differenza di tracciamento tra una persona/persone e un destinatario in Adobe Campaign.
 
-Ulteriori informazioni su persona/persone e destinatari sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/person-people-recipients.html?lang=it#reporting){target="_blank"}
+[Ulteriori informazioni su persone e destinatari mirati](../reporting/metrics-calculation.md#targeted-persons---recipients)
 
 **Indicatori di tracciamento**
 
