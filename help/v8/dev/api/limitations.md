@@ -4,13 +4,13 @@ description: Raccomandazioni e limitazioni durante la migrazione alle API REST d
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
 mini-toc-levels: 1
 exl-id: 45acebb1-9325-4e26-8fe9-cc73f745d801
-source-git-commit: 4ed5799c77c647c9f1aeabba7645fbb475d03c09
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1046'
 ht-degree: 1%
 
 ---
@@ -107,11 +107,11 @@ La sezione seguente elenca le differenze tra i codici di errore e i messaggi di 
 
 | Scenario | Campaign Standard | Campaign v8 |
 |  ---  |  ---  |  ---  |
-| Usa una chiave PKey non valida nel corpo della richiesta | 500 - Attributo &#39;O5iRp40EGA&#39; sconosciuto (vedi definizione dello schema &#39;Profiles (nms:recipient)&#39;). XTK-170036 Impossibile analizzare l’espressione &quot;@id = @O5iRp40EGA&quot;. | 404 - Impossibile decrittografare PKey. (PKey=@jksad) |
-| Usa una chiave PKey non valida nell&#39;URI | 500 - Attributo &#39;O5iRp40EGA&#39; sconosciuto (vedi definizione dello schema &#39;Profiles (nms:recipient)&#39;). XTK-170036 Impossibile analizzare l’espressione &quot;@id = @O5iRp40EGA&quot;. | 404 - Impossibile decrittografare PKey. (PKey=@jksad) Endpoint non supportato. (endpoint=rest/profileAndServices/profile/@jksad) |
+| Usa una chiave PKey non valida nel corpo della richiesta | 500 - Attributo &#39;O5iRp40EGA&#39; sconosciuto (vedere la definizione dello schema &#39;Profiles (nms:recipient)&#39;). XTK-170036 Impossibile analizzare l’espressione &quot;@id = @O5iRp40EGA&quot;. | 404 - Impossibile decrittografare PKey. (PKey=@jksad) |
+| Usa una chiave PKey non valida nell&#39;URI | 500 - Attributo &#39;O5iRp40EGA&#39; sconosciuto (vedere la definizione dello schema &#39;Profiles (nms:recipient)&#39;). XTK-170036 Impossibile analizzare l’espressione &quot;@id = @O5iRp40EGA&quot;. | 404 - Impossibile decrittografare PKey. (PKey=@jksad) Endpoint non supportato. (endpoint=rest/profileAndServices/profile/@jksad) |
 | Utilizzo di due diverse chiavi non elaborate nell’URI e nel corpo della richiesta | 500 - RST-360011 Si è verificato un errore. Contattare l&#39;amministratore. RST-360012 Operazione non coerente sulla risorsa &#39;service&#39;. Impossibile aggiornare la chiave &#39;SVC3&#39; a &#39;SVC4&#39;. | 500 - Si è verificato un errore - contatta l’amministratore. |
 | Utilizzo di PKey nell’URI e di una PKey non elaborata diversa nel corpo della richiesta | 500 - Esiste già un &quot;Servizio&quot; con la stessa chiave &quot;SVC4&quot;. Errore PGS-220000 PostgreSQL: ERRORE: il valore di chiave duplicato viola il vincolo univoco &quot;nmsservice_name&quot; DETAIL: la chiave (sname)=(SVC4) esiste già. | 500 - Si è verificato un errore - contatta l’amministratore. |
-| Utilizzo di un raw-id non esistente nell’URI | 404 - RST-360011 Si è verificato un errore. Contattare l&#39;amministratore. Impossibile trovare il documento con il percorso &quot;Servizio&quot; dalla chiave &quot;adobe_nl:0&quot; (documento con schema &quot;servizio&quot; e nome &quot;adobe_nl&quot;) | 404 - Impossibile trovare il documento con il percorso &quot;Service&quot; dalla chiave &quot;adobe_nl&quot; (documento con schema &quot;service&quot; e nome &quot;adobe_nl&quot;) |
+| Utilizzo di un raw-id non esistente nell’URI | 404 - RST-360011 Si è verificato un errore. Contattare l&#39;amministratore. Impossibile trovare il documento con il percorso &#39;Service&#39; dalla chiave &#39;adobe_nl:0&#39; (documento con schema &#39;service&#39; e nome &#39;adobe_nl&#39;) | 404 - Impossibile trovare il documento con il percorso &quot;Service&quot; dalla chiave &quot;adobe_nl&quot; (documento con schema &quot;service&quot; e nome &quot;adobe_nl&quot;) |
 | Utilizzo di un raw-id non esistente nel corpo della richiesta | 404 - RST-360011 Si è verificato un errore. Contattare l&#39;amministratore. Impossibile trovare il documento con il percorso &quot;Servizio&quot; dalla chiave &quot;adobe_nl&quot; (documento con schema &quot;servizio&quot; e nome &quot;adobe_nl&quot;) | 404 - Impossibile trovare il documento con il percorso &quot;Service&quot; dalla chiave &quot;adobe_nl&quot; (documento con schema &quot;service&quot; e nome &quot;adobe_nl&quot;) |
 | - | 500 - RST-360011 Si è verificato un errore. Contattare l&#39;amministratore. | 500 - Si è verificato un errore - contatta l’amministratore. |
 | Inserisci un profilo/servizio con un valore enum di genere (o altro) non valido | 500 - RST-360011 Si è verificato un errore. Contattare l&#39;amministratore. Il valore &#39;invalid&#39; non è valido per l&#39;enumerazione &#39;nms:recipient:gender&#39; del campo &#39;@gender&#39; | 500 - Si è verificato un errore. Contattare l&#39;amministratore. |

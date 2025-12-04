@@ -3,10 +3,10 @@ audience: user
 user-guide-title: Guida all’automazione di Campaign
 user-guide-description: Guida all’automazione di Campaign
 feature: Overview
-source-git-commit: 8ff207246bea1f476b37b1d4f2c79498362e7481
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 78%
+ht-degree: 81%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 78%
          + [Arricchimento](workflow/enrichment.md)
          + [Esclusione](workflow/exclusion.md)
          + [Query incrementale](workflow/incremental-query.md)
-         + [Intersezione &#x200B;](workflow/intersection.md)
+         + [Intersezione ](workflow/intersection.md)
          + [Aggiornare un elenco](workflow/list-update.md)
          + [Offerte per cella](workflow/offers-by-cell.md)
          + [Motore di offerta](workflow/offer-engine.md)
@@ -70,7 +70,7 @@ ht-degree: 78%
          + [Test](workflow/test.md)
          + [Attività Time constraint](workflow/time-constraint.md)
          + [Attendere](workflow/wait.md)
-      + Attività azione {#action-activities}
+      + Attività di azione {#action-activities}
          + [Elenco delle attività di azione](workflow/action-activities.md)
          + [Gestione dei contenuti](workflow/content-management.md)
          + [Consegna continua](workflow/continuous-delivery.md)
@@ -100,7 +100,7 @@ ht-degree: 78%
          + [Utilizzare l’attività di approvazione locale](workflow/local-approval-activity.md)
          + [Inviare un’e-mail di compleanno](workflow/send-a-birthday-email.md)
          + [Caricare i contenuti della consegna](workflow/load-delivery-content.md)
-         + [Flusso di lavoro di consegna cross-channel](workflow/cross-channel-delivery-workflow.md)
+         + [Flusso di lavoro per consegna cross-channel](workflow/cross-channel-delivery-workflow.md)
          + [Arricchimento delle e-mail con campi data personalizzati](workflow/email-enrichment-with-custom-date-fields.md)
       + Monitoraggio {#monitoring}
          + [Inviare un rapporto a un elenco](workflow/send-a-report-to-a-list.md)
@@ -133,7 +133,7 @@ ht-degree: 78%
       + [Gestire le autorizzazioni](workflow/managing-rights.md)
       + [Modificare le immagini dell’attività](workflow/change-activity-images.md)
       + [Gestire i fusi orari](workflow/managing-time-zones.md)
-+ Orchestrazione campagna {#campaign-orchestration}
++ Orchestrazione della campagna {#campaign-orchestration}
    + [Introduzione alle campagne di marketing](campaigns/set-up-campaigns.md)
    + [Creare programmi e campagne](campaigns/marketing-campaign-create.md)
    + [Creare e configurare i modelli](campaigns/marketing-campaign-templates.md)

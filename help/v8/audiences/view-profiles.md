@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 03f7a736-e0b9-4216-9550-507f10e6fcf6
 version: Campaign v8, Campaign Classic v7
-source-git-commit: ec1b41ccf532b044e75c69e795eabfb19a523ec2
+source-git-commit: 3453820bb0eca7847ec55d7e6ea15766a57ab94e
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 2%
@@ -80,4 +80,4 @@ Per un destinatario predefinito tipico, puoi accedere alle seguenti schede:
 
 * **Tracciamento**, per tutti i registri di tracciamento per il profilo selezionato. Queste informazioni vengono utilizzate per tenere traccia del comportamento del profilo dopo le consegne. Questa scheda mostra il totale cumulativo di tutti gli URL tracciati nelle consegne. L’elenco è configurabile e in genere contiene: l’URL su cui è stato fatto clic, la data e l’ora del clic e il documento che conteneva l’URL
 
-  Ulteriori informazioni sul tracciamento di [sono disponibili in questa sezione](../start/tracking.md).
+  Ulteriori informazioni sul tracciamento di [sono disponibili in questa sezione](../send/tracking.md).

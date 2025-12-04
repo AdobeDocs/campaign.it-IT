@@ -2,11 +2,11 @@
 title: Calcolo delle metriche di report integrato
 description: Calcolo delle metriche di report integrato
 feature: Reporting
-role: Data Engineer
+role: Developer
 exl-id: ad8e9f9c-df24-4a11-b8df-4b31dd54911f
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '3048'
+source-wordcount: '3025'
 ht-degree: 3%
 
 ---
@@ -889,7 +889,7 @@ Questo report è basato sulla tabella **[!UICONTROL Delivery and tracking statis
 
 ## Raggruppamenti delle aperture {#breakdown-of-opens-1}
 
-Questo report è basato su **tabelle Deliveries** (nms:delivery) e **log di tracciamento** (nms:trackingLogRcp).
+Questo report è basato su **Tabelle Consegne** (nms:delivery) e **Registri di tracciamento** (nms:trackingLogRcp).
 
 <table> 
  <thead> 

@@ -4,10 +4,10 @@ description: Scopri come eseguire le operazioni di filtro.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: cdb050b7-d327-42f7-b534-d32d988c8ffb
-source-git-commit: 4ed5799c77c647c9f1aeabba7645fbb475d03c09
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -201,8 +201,8 @@ Se desideri utilizzare un filtro personalizzato, devi crearlo e personalizzarlo 
 
 Per ulteriori informazioni, consulta la documentazione di Campaign Standard:
 
-* [Configurazione della definizione del filtro](https://helpx.adobe.com/it/campaign/standard/developing/using/configuring-filter-definition.html).
-* [Caso d&#39;uso: chiamata di una risorsa tramite una chiave di identificazione composita](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html?lang=it).
+* [Configurazione della definizione del filtro](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
+* [Caso d&#39;uso: chiamata di una risorsa tramite una chiave di identificazione composita](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
 
 <br/>
 

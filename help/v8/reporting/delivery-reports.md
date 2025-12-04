@@ -3,10 +3,10 @@ title: Rapporti di consegna incorporati in Adobe Campaign
 description: Rapporti di consegna incorporati in Adobe Campaign
 feature: Reporting
 exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
-source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
+source-git-commit: 3453820bb0eca7847ec55d7e6ea15766a57ab94e
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 12%
+source-wordcount: '1019'
+ht-degree: 10%
 
 ---
 
@@ -40,7 +40,7 @@ Per accedere ai rapporti, effettua le seguenti operazioni:
 
 ## Indicatori di tracciamento {#tracking-indicators}
 
-Questo rapporto combina gli indicatori chiave per monitorare il comportamento dei destinatari al momento della ricezione della consegna. Consente di accedere alle statistiche su consegna e ricezione, ai tassi di apertura e click-through, ai flussi clic generati, al tracciamento web e alle attività di condivisione sui social network.
+Questo rapporto combina gli indicatori chiave per monitorare il comportamento dei destinatari al momento della ricezione della consegna. Consente di accedere alle statistiche di consegna e ricezione, ai tassi di apertura e click-through, ai flussi di clic generati, nonché di condividere attività sui social network.
 
 >[!NOTE]
 >

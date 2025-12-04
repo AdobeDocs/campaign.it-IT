@@ -3,10 +3,10 @@ product: campaign
 title: Consegna ricorrente
 description: Ulteriori informazioni sull’attività del flusso di lavoro Consegna ricorrente
 feature: Workflows
-role: User, Data Engineer
+role: User, Developer
 version: Campaign v8, Campaign Classic v7
 exl-id: 27308b0d-cbfc-4bc6-9061-d771ceac95fd
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 13%
@@ -53,6 +53,6 @@ Se desideri interrompere l’esecuzione di una consegna ricorrente, devi annulla
 
 Questo video spiega come configurare una consegna ricorrente e un’attività di pianificazione.
 
->[!VIDEO](https://video.tv.adobe.com/v/27506?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
 
-Ulteriori video dimostrativi di Campaign sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=it){target="_blank"}.
+Ulteriori video dimostrativi di Campaign sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.

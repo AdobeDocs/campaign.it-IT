@@ -2,10 +2,10 @@
 title: Introduzione all’architettura di Campaign
 description: Scopri nozioni di base su ambienti e distribuzione, incluso come creare rapporti su un ambiente di Campaign.
 feature: Architecture, Deployment
-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 10%
@@ -26,7 +26,7 @@ Sono disponibili due tipi di ambienti:
 
 Puoi esportare e importare pacchetti da un ambiente a un altro.
 
-Ulteriori informazioni sui pacchetti nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html?lang=it){target="_blank"}
+Ulteriori informazioni sui pacchetti nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html){target="_blank"}
 
 ## Modelli di distribuzione {#ac-deployment}
 

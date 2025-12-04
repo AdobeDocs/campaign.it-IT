@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
-source-git-commit: a9f26a033d63ab1dece9ef9780392823ee130047
-workflow-type: ht
-source-wordcount: '706'
-ht-degree: 100%
+source-git-commit: 3453820bb0eca7847ec55d7e6ea15766a57ab94e
+workflow-type: tm+mt
+source-wordcount: '704'
+ht-degree: 96%
 
 ---
 
@@ -54,7 +54,7 @@ Hai bisogno di assistenza mentre lavori con Campaign? Leggi le principali domand
 
    Adobe Campaign dispone di una serie di dashboard e strumenti per monitorare le consegne delle e-mail.
 
-   [Leggi la documentazione di Campaign Classic v7 per scoprire](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=it){target="_blank"} come assicurarti che i tuoi messaggi siano inviati, come monitorare l’esecuzione e intervenire in caso di errore.
+   Scopri come [tenere traccia e monitorare i messaggi](../send/tracking.md) per assicurarti che vengano inviati, monitorare l&#39;esecuzione e intervenire in caso di errore.
 
 1. **Posso monitorare l’esecuzione di un flusso di lavoro?**
 

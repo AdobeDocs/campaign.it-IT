@@ -2,13 +2,13 @@
 title: Inviare e monitorare le e-mail
 description: Scopri l’ambito e le specificità dell’invio di e-mail con Adobe Campaign
 feature: Email
-role: Data Engineer
+role: Developer
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
-source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
+source-git-commit: c7f139dd7f139ba421eb034f4d8911671b3b3332
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '802'
 ht-degree: 2%
 
 ---
@@ -27,6 +27,8 @@ Monitora l&#39;esecuzione della consegna dalla scheda **Consegna**, accessibile 
 Una volta inviato, controlla lo stato della consegna nel **dashboard di consegna** e accedi ai registri di consegna e ai rapporti per verificare che i messaggi siano stati inviati correttamente.
 
 Dal dashboard di consegna, puoi controllare i messaggi elaborati e i registri di controllo della consegna. Puoi anche controllare lo stato dei messaggi nei registri di consegna.
+
+Ulteriori informazioni su [stati di consegna](delivery-statuses.md).
 
 >[!NOTE]
 >
@@ -73,7 +75,7 @@ Domain Keys Identified Mail (DKIM) è un metodo di autenticazione utilizzato per
 
 In Adobe Campaign, la firma di autenticazione e-mail di DKIM viene eseguita dall’MTA.
 
-Ulteriori informazioni su DKIM sono disponibili nella [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=it#authentication){target="_blank"}.
+Ulteriori informazioni su DKIM sono disponibili nella [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication){target="_blank"}.
 
 ## Servizio di feedback delle e-mail {#email-feedback-service}
 

@@ -2,12 +2,12 @@
 title: Architettura dell’interazione di Campaign
 description: Nozioni di base sull’architettura di interazione di Campaign
 feature: Interaction, Offers
-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: 7a710960-7e41-4462-bd5e-18e874aa46f8
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1304'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ Il pacchetto **Interaction** è installato in tutte le istanze (controllo ed ese
 
 >[!NOTE]
 >
->Durante l&#39;installazione del pacchetto, i campi di tipo **long** della tabella **nms:proposition**, ad esempio l&#39;ID della proposta, diventano campi di tipo **int64**. Questo tipo di dati è descritto nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html?lang=it#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}.
+>Durante l&#39;installazione del pacchetto, i campi di tipo **long** della tabella **nms:proposition**, come l&#39;ID proposta, diventano campi di tipo **int64**. Questo tipo di dati è descritto nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}.
 
 La durata di conservazione dei dati è configurata in ogni istanza (tramite la finestra **[!UICONTROL Data purge]** nella procedura guidata di distribuzione). Nelle istanze di esecuzione, questo periodo deve corrispondere alla profondità storica necessaria per le regole di tipologia (periodo scorrevole) e le regole di idoneità da calcolare.
 

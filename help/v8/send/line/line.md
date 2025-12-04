@@ -2,11 +2,11 @@
 title: Inviare messaggi LINE diretti con Adobe Campaign
 description: Introduzione ai messaggi LINE
 feature: Line App
-role: Data Engineer
+role: Developer
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 4de3b2c2-7eb7-4fd9-9350-64a6e9e2b7f8
-source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '1166'
 ht-degree: 4%
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 LINE è un’applicazione per la messaggistica istantanea gratuita, chiamate vocali e video, disponibile su tutti i dispositivi mobili e su PC. Puoi utilizzare Adobe Campaign per inviare messaggi LINE.
 
-È inoltre possibile combinare [!DNL LINE] con il modulo dei messaggi transazionali per inviare messaggi in tempo reale sull&#39;app [!DNL LINE] installata nei dispositivi mobili di consumo. Per ulteriori informazioni, consulta questa [pagina](https://experienceleague.adobe.com/it/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/transactional-messaging-architecture#transactional-messaging-and-line) nella documentazione di Campaign Classic v7.
+È inoltre possibile combinare [!DNL LINE] con il modulo dei messaggi transazionali per inviare messaggi in tempo reale sull&#39;app [!DNL LINE] installata nei dispositivi mobili di consumo. Per ulteriori informazioni, consulta questa [pagina](https://experienceleague.adobe.com/en/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/transactional-messaging-architecture#transactional-messaging-and-line) nella documentazione di Campaign Classic v7.
 
 ![](assets/line_message.png)
 

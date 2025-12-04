@@ -2,10 +2,10 @@
 title: Introduzione agli strumenti di reporting di Adobe Campaign
 description: Misura il successo delle campagne e analizza il comportamento degli utenti
 feature: Reporting
-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: f931fc0d-12c1-4bff-a4f2-153e8d91c339
-source-git-commit: 3ca0b96c9235008148067dc9a309f420bd9a92f8
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 12%
@@ -18,7 +18,7 @@ Adobe Campaign fornisce una serie di strumenti di reporting elencati in questa p
 
 * **Reporting dinamico**
 
-  Disponibile nell’interfaccia web di Campaign, il reporting dinamico fornisce rapporti completamente personalizzabili e in tempo reale per misurare l’impatto delle attività di marketing. Permette di accedere ai dati del profilo, abilitando l’analisi demografica per dimensioni di profilo, come genere, città ed età, oltre ai dati funzionali delle campagne e-mail come aperture e clic. Consulta la [documentazione dell&#39;interfaccia utente Web v7](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html?lang=it){target="_blank"}.
+  Disponibile nell’interfaccia web di Campaign, il reporting dinamico fornisce rapporti completamente personalizzabili e in tempo reale per misurare l’impatto delle attività di marketing. Consente di accedere ai dati del profilo, abilitando l’analisi demografica per dimensioni di profilo, come genere, città ed età, oltre ai dati funzionali delle campagne e-mail come aperture e clic. Consulta la [documentazione dell&#39;interfaccia utente Web v7](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"}.
 
 * **Cubi**
 
@@ -56,4 +56,4 @@ Adobe Campaign fornisce una serie di strumenti di reporting elencati in questa p
 
   Utilizza Adobe Campaign per creare rapporti sui dati nel database. Una volta creati, rendili accessibili nei contesti appropriati.
 
-  I passaggi per creare un report sono descritti in dettaglio nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html?lang=it){target="_blank"}. La creazione di rapporti personalizzati è riservata agli utenti avanzati.
+  I passaggi per creare un report sono descritti in dettaglio nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target="_blank"}. La creazione di rapporti personalizzati è riservata agli utenti avanzati.

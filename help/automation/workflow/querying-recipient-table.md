@@ -3,12 +3,12 @@ product: campaign
 title: Eseguire una query sulla tabella dei destinatari
 description: Scopri come eseguire query sulla tabella dei destinatari
 feature: Query Editor
-role: User, Data Engineer
+role: User, Developer
 version: Campaign v8, Campaign Classic v7
 exl-id: 7f859ce9-7ab8-46e1-8bd6-43aaffe30da2
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '390'
 ht-degree: 3%
 
 ---
@@ -37,7 +37,7 @@ In questo esempio, vogliamo recuperare i nomi e le e-mail dei destinatari il cui
 
 Per creare questo esempio, attieniti alla seguente procedura:
 
-1. Fare clic su **[!UICONTROL Tools > Generic query editor...]** e scegliere la tabella **Destinatari** (**nms:recipient**). Quindi fai clic su **[!UICONTROL Next]**.
+1. Fai clic su **[!UICONTROL Tools > Generic query editor...]** e scegli la tabella **Destinatari** (**nms:recipient**). Quindi fai clic su **[!UICONTROL Next]**.
 1. Scegliere: **[!UICONTROL Last name]**, **[!UICONTROL First name]**, **[!UICONTROL Email]**, **[!UICONTROL City]** e **[!UICONTROL Account number]**. Questi campi vengono aggiunti a **[!UICONTROL Output columns]**. Quindi fai clic su **[!UICONTROL Next]**.
 
    ![](assets/query_editor_03.png)

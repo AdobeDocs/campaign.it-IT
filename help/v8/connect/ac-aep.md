@@ -2,10 +2,10 @@
 title: Condividere e sincronizzare tipi di pubblico e attributi di profilo con Adobe Experience Platform
 description: Scopri come sincronizzare i tipi di pubblico e gli attributi di profilo di Adobe Experience Platform con Campaign
 feature: Experience Platform Integration
-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: 21cf5611-ccaa-4e83-8891-a1a2353515aa
-source-git-commit: ea37b72efd03afb212c060f809b6ba077b996701
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%

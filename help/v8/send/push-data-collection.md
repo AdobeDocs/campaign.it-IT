@@ -2,13 +2,13 @@
 title: Inviare notifiche push con Adobe Campaign
 description: Introduzione alle notifiche push in Campaign
 feature: Push
-role: Data Engineer
+role: Developer
 level: Intermediate
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 0f22b17c-ed01-4add-8300-8689b8a9f963
-source-git-commit: 1fb93efac4fee4965213f8b42f518f2c10638e20
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1353'
 ht-degree: 2%
 
 ---
@@ -55,37 +55,43 @@ La registrazione delle credenziali push dell’app mobile è necessaria per auto
 
 1. Da **[!UICONTROL Mobile Application Configuration]**, selezionare il sistema operativo:
 
-   * **Per iOS**
+>[!BEGINTABS]
 
-     ![](assets/push-config-2.png)
+>[!TAB iOS]
 
-      1. Immetti l&#39;ID **bundle** dell&#39;app mobile nel campo **[!UICONTROL App ID (iOS Bundle ID)]**.
+![](assets/push-config-2.png)
 
-         L&#39;ID del bundle dell&#39;app si trova nella scheda **General** della destinazione primaria in **XCode** del tuo account sviluppatore Apple.
+1. Immetti l&#39;ID **bundle** dell&#39;app mobile nel campo **[!UICONTROL App ID (iOS Bundle ID)]**.
 
-      1. Attiva **[!UICONTROL Push Credentials]** per aggiungere le tue credenziali.
+   L&#39;ID del bundle dell&#39;app si trova nella scheda **General** della destinazione primaria in **XCode** del tuo account sviluppatore Apple.
 
-      1. Trascina e rilascia il file .p8 Apple Push Notification Authentication Key.
+1. Attiva **[!UICONTROL Push Credentials]** per aggiungere le tue credenziali.
 
-         Questa chiave può essere acquisita dalla pagina **Certificati**, **Identificatori** e **Profili** del tuo account sviluppatore Apple.
+1. Trascina e rilascia il file .p8 Apple Push Notification Authentication Key.
 
-      1. Fornisci l&#39;**ID chiave**. Si tratta di una stringa di 10 caratteri assegnata durante la creazione del tasto di autenticazione p8.
+   Questa chiave può essere acquisita dalla pagina **Certificati**, **Identificatori** e **Profili** del tuo account sviluppatore Apple.
 
-         È disponibile nella scheda **Chiavi** della pagina **Certificati**, **Identificatori** e **Profili** del tuo account sviluppatore Apple.
+1. Fornisci l&#39;**ID chiave**. Si tratta di una stringa di 10 caratteri assegnata durante la creazione del tasto di autenticazione p8.
 
-      1. Fornisci **ID team**. Questo è un valore stringa che si trova nella scheda **Appartenenza**.
-
-   * **Per Android**
-
-     ![](assets/push-config-3.png)
-
-      1. Fornisci **[!UICONTROL App ID (Android package name)]**. In genere il nome del pacchetto corrisponde all&#39;ID app nel file `build.gradle`.
-
-      1. Passa a **[!UICONTROL Push Credentials]** per aggiungere le tue credenziali.
-
-      1. Trascina e rilascia le credenziali push FCM. Per ulteriori dettagli su come ottenere le credenziali push, consulta la [documentazione di Google](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
+       Si trova nella scheda **Chiavi** della pagina **Certificati**, **Identificatori** e **Profili** del tuo account sviluppatore Apple.
+   
+1. Fornisci **ID team**. Questo è un valore stringa che si trova nella scheda **Appartenenza**.
 
 1. Fai clic su **[!UICONTROL Save]** per creare la configurazione dell&#39;app.
+
+>[!TAB Android]
+
+![](assets/push-config-3.png)
+
+1. Fornisci **[!UICONTROL App ID (Android package name)]**. In genere il nome del pacchetto corrisponde all&#39;ID app nel file `build.gradle`.
+
+1. Passa a **[!UICONTROL Push Credentials]** per aggiungere le tue credenziali.
+
+1. Trascina e rilascia le credenziali push FCM. Per ulteriori dettagli su come ottenere le credenziali push, consulta la [documentazione di Google](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
+
+1. Fai clic su **[!UICONTROL Save]** per creare la configurazione dell&#39;app.
+
+>[!ENDTABS]
 
 ## Configurare le impostazioni dell’applicazione in Adobe Campaign{#push-config-campaign}
 

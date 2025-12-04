@@ -3,10 +3,10 @@ product: campaign
 title: Utilizzare i cubi per creare rapporti sui dati
 description: Scopri come utilizzare i cubi per creare rapporti
 feature: Reporting
-role: User, Data Engineer
+role: User, Developer
 level: Beginner
 exl-id: 7dbc66ab-a468-40ff-9db2-b33e4fd27754
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 1%
@@ -25,7 +25,7 @@ Utilizza i cubi per creare rapporti e per identificare e selezionare dati dal da
 
 ### Passaggio 1: creare un rapporto basato su un cubo {#step-1---create-a-report-based-on-a-cube}
 
-Una volta configurato il cubo [&#128279;](cube-indicators.md), è possibile utilizzarlo come modello per la creazione di un nuovo report.
+Una volta configurato il cubo [](cube-indicators.md), è possibile utilizzarlo come modello per la creazione di un nuovo report.
 
 Per creare un report basato su un cubo esistente, effettuare le seguenti operazioni:
 
