@@ -128,11 +128,11 @@ Per personalizzare i messaggi, puoi utilizzare i dati dei destinatari memorizzat
 
 * Verifica le impostazioni di personalizzazione: assicurati che il contenuto del messaggio sia progettato correttamente per evitare errori che possono essere correlati alla personalizzazione. Un tag di personalizzazione Adobe Campaign ha sempre il seguente formato: `<%=table.field%>`. L’utilizzo errato dei parametri nei blocchi di personalizzazione può rappresentare un problema. Ad esempio, le variabili in JavaScript devono essere utilizzate come segue:
 
-  ``
+  &grave;&grave;
   <%
   var brand = "xxx"
   %>
-  ``
+  &grave;&grave;
 
   Per ulteriori informazioni sui blocchi di personalizzazione, consulta [questa sezione](../send/personalization-blocks.md).
 
@@ -182,7 +182,7 @@ Includi sempre un collegamento a una pagina speculare. La posizione preferita è
 
 ### Collegamento per annullamento iscrizione {#unsub-link-check}
 
-Il collegamento di annullamento dell’abbonamento è essenziale. Deve essere visibile e valido e il modulo deve essere funzionale. Per impostazione predefinita, quando il messaggio viene analizzato, una regola di tipologia **[!UICONTROL Unsubscription link approval]** [ integrata](../../automation/campaign-opt/control-rules.md) controlla se è stato incluso un collegamento di rinuncia e, in caso contrario, genera un avviso.
+Il collegamento di annullamento dell’abbonamento è essenziale. Deve essere visibile e valido e il modulo deve essere funzionale. Per impostazione predefinita, quando il messaggio viene analizzato, una regola di tipologia **[!UICONTROL Unsubscription link approval]** [&#x200B; integrata](../../automation/campaign-opt/control-rules.md) controlla se è stato incluso un collegamento di rinuncia e, in caso contrario, genera un avviso.
 
 Scopri come inserire un collegamento di rinuncia [in questa sezione](../send/personalization-blocks.md).
 

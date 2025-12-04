@@ -86,9 +86,9 @@ La soluzione consiste nell’utilizzare una console client precedente. Potrai qu
 
 In qualità di amministratore di Campaign, puoi scaricare la console client di Campaign v8.3.1 in [Distribuzione di software di Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&1_group.propertyvalues.operation=equals&1_group.propertyvalues.0_values=versione-destinazione%3Acampaign%2F8&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=4){target="_blank"}.
 
-Scopri come accedere a Distribuzione di software di Adobe [ in questa pagina](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=it){target="_blank"}.
+Scopri come accedere a Distribuzione di software di Adobe [&#x200B; in questa pagina](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=it){target="_blank"}.
 
-Scopri come aggiornare la console client [ in questa pagina](connect.md)
+Scopri come aggiornare la console client [&#x200B; in questa pagina](connect.md)
 
 #### Riferimento interno{#issue-3-ref}
 
