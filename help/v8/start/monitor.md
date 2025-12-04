@@ -51,7 +51,7 @@ I flussi di lavoro sono essenziali per automatizzare le campagne di marketing e 
 
 **Monitora i seguenti elementi del flusso di lavoro:**
 
-**Stato esecuzione flusso di lavoro** - Monitora se i flussi di lavoro sono in esecuzione, in pausa, non riusciti o completati. [Ulteriori informazioni sull&#39;esecuzione del flusso di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
+**Stato esecuzione flusso di lavoro** - Monitora se i flussi di lavoro sono in esecuzione, in pausa, non riusciti o completati. [Ulteriori informazioni sull&#39;esecuzione del flusso di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=it){target="_blank"}
 
 **Registri di esecuzione attività** - Accedi ai registri dettagliati per ogni attività del flusso di lavoro per risolvere i problemi e ottimizzare le prestazioni.
 
@@ -82,13 +82,13 @@ Ulteriori informazioni su [Audit trail](../reporting/audit-trail.md)
 
 Campaign v8 fornisce diverse funzionalità di monitoraggio per monitorare le prestazioni dell’istanza e garantire il funzionamento ottimale:
 
-**Monitoraggio del database** - Monitora l&#39;utilizzo e la capacità del database tramite il Pannello di controllo Campaign per garantire prestazioni e gestione dello storage ottimali. [Ulteriori informazioni sul monitoraggio del database](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring.html){target="_blank"}
+**Monitoraggio del database** - Monitora l&#39;utilizzo e la capacità del database tramite il Pannello di controllo Campaign per garantire prestazioni e gestione dello storage ottimali. [Ulteriori informazioni sul monitoraggio del database](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring.html?lang=it){target="_blank"}
 
-**Monitoraggio profili attivi** - Monitora l&#39;utilizzo dei profili attivi in base ai limiti contrattuali, per mantenere la conformità e ottimizzare l&#39;allocazione delle risorse. [Ulteriori informazioni sui profili attivi](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}
+**Monitoraggio profili attivi** - Monitora l&#39;utilizzo dei profili attivi in base ai limiti contrattuali, per mantenere la conformità e ottimizzare l&#39;allocazione delle risorse. [Ulteriori informazioni sui profili attivi](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=it){target="_blank"}
 
 **Monitoraggio del flusso di lavoro** - Monitora lo stato di esecuzione del flusso di lavoro per identificare i flussi di lavoro con tempi di esecuzione lunghi e garantire il corretto funzionamento di tutti i flussi di lavoro tecnici. [Ulteriori informazioni sui flussi di lavoro tecnici](#technical-workflows)
 
-**Velocità effettiva e latenza di consegna** - Monitoraggio della velocità effettiva di consegna (messaggi inviati all&#39;ora) e della latenza per le comunicazioni transazionali tramite il Pannello di controllo Campaign. [Ulteriori informazioni sul monitoraggio della velocità effettiva](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/throughputs-latencies.html){target="_blank"}
+**Velocità effettiva e latenza di consegna** - Monitoraggio della velocità effettiva di consegna (messaggi inviati all&#39;ora) e della latenza per le comunicazioni transazionali tramite il Pannello di controllo Campaign. [Ulteriori informazioni sul monitoraggio della velocità effettiva](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/throughputs-latencies.html?lang=it){target="_blank"}
 
 >[!NOTE]
 >
@@ -113,7 +113,7 @@ I flussi di lavoro tecnici sono processi essenziali che vengono eseguiti in back
 | **Aggiornamento del recapito messaggi** | Aggiorna le regole di recapito messaggi e i modelli di filtro anti-spam |
 | **Pulizia database** | Elimina i vecchi registri di consegna e tracciamento |
 
-Ulteriori informazioni sui [flussi di lavoro tecnici](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}
+Ulteriori informazioni sui [flussi di lavoro tecnici](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=it){target="_blank"}
 
 ### Pannello di controllo Campaign {#control-panel}
 
