@@ -78,7 +78,7 @@ Questo rapporto mostra l’elenco delle pagine visitate dopo una consegna.
 
 Con questo esempio, puoi comprendere meglio la differenza di tracciamento tra una persona/persone e un destinatario in Adobe Campaign.
 
-Ulteriori informazioni su persona/persone e destinatari sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/person-people-recipients.html#reporting){target="_blank"}
+Ulteriori informazioni su persona/persone e destinatari sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/person-people-recipients.html?lang=it#reporting){target="_blank"}
 
 **Indicatori di tracciamento**
 
