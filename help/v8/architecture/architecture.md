@@ -5,7 +5,7 @@ feature: Architecture, Deployment
 role: Developer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
+source-git-commit: 7465cacc74b8b7df38c5eb10d2928749c70a87ea
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 10%
@@ -34,7 +34,7 @@ Sono disponibili due modelli di distribuzione: **Distribuzione FDA campagna** (P
 
 ### Distribuzione FDA di Campaign {#ac-deployment-fda}
 
-Nella distribuzione [FDA](fda-deployment.md), [!DNL Adobe Campaign] v8 può essere connesso a [!DNL Snowflake] per accedere ai dati tramite la funzionalità Federated Data Access: è possibile accedere ed elaborare dati e informazioni esterni archiviati nel database [!DNL Snowflake] senza modificare la struttura dei dati di Adobe Campaign. PostgreSQL è il database principale e puoi utilizzare Snowflake come database secondario per estendere il modello dati e archiviare i dati in Snowflake. Successivamente, puoi eseguire ETL, segmentazione e rapporti su un set di dati di grandi dimensioni con prestazioni eccezionali.
+Nella distribuzione [FDA](fda-deployment.md), [!DNL Adobe Campaign] v8 può essere connesso a [!DNL Snowflake] per accedere ai dati tramite la funzionalità Federated Data Access: è possibile accedere ed elaborare dati e informazioni esterni archiviati nel database [!DNL Snowflake] senza modificare la struttura dei dati di Adobe Campaign. PostgreSQL è il database principale e puoi utilizzare Snowflake come database secondario per estendere il modello di dati e archiviare i dati in Snowflake. Successivamente, puoi eseguire ETL, segmentazione e rapporti su un set di dati di grandi dimensioni con prestazioni eccezionali.
 
 
 ![](assets/P1-P3-architecture.png){zoomable="yes"}
@@ -63,7 +63,7 @@ A seconda del pacchetto Campaign v8, ti viene fornito un numero specifico di ist
 
 Per impostazione predefinita, gli account esterni di tutti i canali utilizzano una modalità di routing **[!UICONTROL Alternate]**, il che significa che viene inviata una consegna da ogni istanza MID alla volta in modo alternativo.
 
-Per garantire prestazioni migliori in termini di velocità e scalabilità, puoi consentire la suddivisione automatica delle consegne tra le istanze di mid-sourcing in modo che vengano consegnate più rapidamente ai destinatari. Questa operazione è trasparente durante l’esecuzione della consegna dall’istanza di marketing: una volta inviata la consegna, tutti i registri vengono consolidati insieme, prima di essere rimandati all’istanza di marketing in un singolo oggetto di consegna.
+Per garantire prestazioni migliori in termini di velocità e scalabilità, puoi consentire la suddivisione automatica delle consegne tra le istanze di mid-sourcing in modo da consegnarle più rapidamente ai destinatari. Questa operazione è trasparente durante l’esecuzione della consegna dall’istanza di marketing: una volta inviata la consegna, tutti i registri vengono consolidati insieme, prima di essere rimandati all’istanza di marketing in un singolo oggetto di consegna.
 
 A questo scopo, vengono creati account esterni aggiuntivi con la modalità di routing **[!UICONTROL Split]** al momento del provisioning per ogni canale:
 
@@ -76,7 +76,7 @@ A questo scopo, vengono creati account esterni aggiuntivi con la modalità di ro
 
 >[!IMPORTANT]
 >
->Per impostazione predefinita, la modalità di routing diviso è abilitata per l’account &quot;Consegna divisa - E-mail&quot;. Per tutti gli altri account esterni dei canali, contatta il tuo Adobe Transition Manager per far sì che l’opzione sia abilitata.
+>Per impostazione predefinita, la modalità di routing diviso è abilitata per l’account &quot;Consegna divisa - E-mail&quot;. Per tutti gli altri account esterni dei canali, contatta il tuo Adobe Transition Manager per abilitare l’opzione.
 >
 >Per impostazione predefinita, il valore di dimensione soglia per suddividere una consegna tra più istanze di mid-sourcing (MID) è 100.000. È possibile modificare questo valore nell&#39;opzione &quot;NmsDelivery_MultiMidSplitThreshold&quot; del menu **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL Options]**.
 
@@ -110,7 +110,7 @@ In questa architettura specifica, la cella di esecuzione è separata dall’ista
 
   Scopri come creare e pubblicare modelli di messaggio in [questa sezione](../send/transactional.md).
 
-* L&#39;**istanza di esecuzione** recupera gli eventi in arrivo (reimpostazione password o ordini da un sito Web, ad esempio) e invia messaggi personalizzati. Possono essere presenti più istanze di esecuzione per elaborare i messaggi tramite il load-balancer e scalare il numero di eventi da eseguire per ottenere la massima disponibilità.
+* L&#39;**istanza di esecuzione** recupera gli eventi in arrivo (reimpostazione password o ordini da un sito Web, ad esempio) e invia messaggi personalizzati. Possono essere presenti più istanze di esecuzione per elaborare i messaggi tramite il load balancer e scalare il numero di eventi da elaborare per ottenere la massima disponibilità.
 
 >[!CAUTION]
 >
