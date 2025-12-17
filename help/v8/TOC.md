@@ -5,9 +5,9 @@ user-guide-description: Documentazione di prodotto per Adobe Campaign v8 (consol
 title: Documentazione di Adobe Campaign v8
 description: Documentazione di Campaign v8
 breadcrumb-title: Documentazione di Campaign v8
-source-git-commit: c4d3a5d3cf89f2d342c661e54b5192d84ceb3a75
+source-git-commit: 050612f6d7ab20aed5880454eec9cfc6e5fc18c2
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '837'
 ht-degree: 87%
 
 ---
@@ -131,7 +131,6 @@ ht-degree: 87%
    + Aggiungere profili {#add-profiles}
       + [Creare i profili manualmente](audiences/create-profiles.md)
       + [Importare i profili da un file](audiences/import-profiles.md)
-      + [Utilizzare i profili esterni](audiences/external-profiles.md)
       + [Raccogliere i dati del profilo nei moduli web](audiences/collect-profiles.md)
       + [Utilizzare le mappature target](audiences/target-mappings.md)
       + [Creare profili di test](audiences/test-profiles.md)
