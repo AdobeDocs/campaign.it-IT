@@ -2,9 +2,9 @@
 title: Migrazione degli operatori di Campaign ad Adobe Identity Management System (IMS)
 description: Scopri come migrare gli operatori Campaign ad Adobe Identity Management System (IMS)
 exl-id: 58c130d8-8ba8-42ce-9ab4-a697125d3f85
-source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
+source-git-commit: ec506653830f4d02d0875a4f26ff4ee76f880272
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1433'
 ht-degree: 1%
 
 ---
@@ -30,6 +30,14 @@ Questa modifica è applicabile a partire da Campaign v8.5.2 ed è **obbligatoria
 Se gli operatori della tua organizzazione si connettono alla console client di Campaign utilizzando il proprio login/password (alias. autenticazione nativa), sei interessato e devi migrare questi operatori in Adobe IMS come descritto di seguito.
 
 La migrazione a [Adobe Identity Management System (IMS)](https://helpx.adobe.com/it/enterprise/using/identity.html){target="_blank"} è un imperativo di sicurezza per rendere gli ambienti sicuri e standardizzati, in quanto la maggior parte delle altre soluzioni e app Adobe Experience Cloud sono già in IMS.
+
+>[!IMPORTANT]
+>
+>**Impatto di accesso al Pannello di controllo Campaign**
+>
+>Dopo aver trasferito gli utenti a IMS, tieni presente che qualsiasi profilo di prodotto nel Adobe Admin Console che contenga la parola &quot;admin&quot; nel nome (ad esempio &quot;Administrators&quot;, &quot;admin&quot;, &quot;admins&quot;, &quot;approval admin&quot;, ecc.) concederà automaticamente l’accesso al Pannello di controllo Campaign Campaign. Pannelli di controllo Campaign è uno strumento self-service che consente di apportare modifiche significative alle istanze di Campaign.
+>
+>Esamina attentamente le convenzioni di denominazione del profilo di prodotto per assicurarti che solo gli utenti autorizzati abbiano accesso al Pannello di controllo Campaign. Per ulteriori informazioni sulla gestione delle autorizzazioni di Pannello di controllo Campaign, consulta la [documentazione del Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"}.
 
 ## Come effettuare la migrazione?{#ims-migration-procedure}
 
