@@ -107,7 +107,7 @@ Questi profili di prodotto corrispondono ai **gruppi di operatori** della campag
 
    >[!IMPORTANT]
    >
-   >Il ruolo **[!UICONTROL Administrator]** concede l&#39;accesso al Pannello di controllo Campaign Campaign. Qualsiasi profilo di prodotto nel Adobe Admin Console che contenga la parola &quot;admin&quot; nel proprio nome (come &quot;Administrators&quot;, &quot;admin&quot;, &quot;admins&quot;, &quot;approval admin&quot;, ecc.) concederà l’accesso al Pannello di controllo Campaign. Ulteriori informazioni sulla [gestione dell&#39;accesso al Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"}.
+   >Il ruolo **[!UICONTROL Administrator]** concede l&#39;accesso al Pannello di controllo Campaign Campaign. Qualsiasi profilo di prodotto nel Adobe Admin Console che contenga la parola &quot;admin&quot; nel proprio nome (come &quot;Administrators&quot;, &quot;admin&quot;, &quot;admins&quot;, &quot;approval admin&quot;, ecc.) concederà l’accesso al Pannello di controllo Campaign. Ulteriori informazioni sulla [gestione dell&#39;accesso al Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=it){target="_blank"}.
 
 1. **[!UICONTROL Delivery operators]** (consegna)
 

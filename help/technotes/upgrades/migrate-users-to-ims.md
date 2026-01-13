@@ -37,7 +37,7 @@ La migrazione a [Adobe Identity Management System (IMS)](https://helpx.adobe.com
 >
 >Dopo aver trasferito gli utenti a IMS, tieni presente che qualsiasi profilo di prodotto nel Adobe Admin Console che contenga la parola &quot;admin&quot; nel nome (ad esempio &quot;Administrators&quot;, &quot;admin&quot;, &quot;admins&quot;, &quot;approval admin&quot;, ecc.) concederà automaticamente l’accesso al Pannello di controllo Campaign Campaign. Pannelli di controllo Campaign è uno strumento self-service che consente di apportare modifiche significative alle istanze di Campaign.
 >
->Esamina attentamente le convenzioni di denominazione del profilo di prodotto per assicurarti che solo gli utenti autorizzati abbiano accesso al Pannello di controllo Campaign. Per ulteriori informazioni sulla gestione delle autorizzazioni di Pannello di controllo Campaign, consulta la [documentazione del Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"}.
+>Esamina attentamente le convenzioni di denominazione del profilo di prodotto per assicurarti che solo gli utenti autorizzati abbiano accesso al Pannello di controllo Campaign. Per ulteriori informazioni sulla gestione delle autorizzazioni di Pannello di controllo Campaign, consulta la [documentazione del Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=it){target="_blank"}.
 
 ## Come effettuare la migrazione?{#ims-migration-procedure}
 
