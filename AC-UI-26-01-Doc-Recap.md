@@ -18,7 +18,7 @@ ht-degree: 5%
 | Revisione DOCAC | 3 |
 | Chiudi DOC | 5 |
 
----
+&#x200B;---
 
 ## Piano d&#39;azione per la documentazione di 📋
 
@@ -43,7 +43,7 @@ ht-degree: 5%
 | [NEO-91563](https://jira.corp.adobe.com/browse/NEO-91563) | 🔴 No | [13825](https://jira.corp.adobe.com/browse/DOCAC-13825) DOCAC | Chiusura di ❌ |
 | [NEO-92151](https://jira.corp.adobe.com/browse/NEO-92151) | 🔴 No | [13823](https://jira.corp.adobe.com/browse/DOCAC-13823) DOCAC | Chiusura di ❌ |
 
----
+&#x200B;---
 
 ## ⚠️ attenzione richiesta
 
