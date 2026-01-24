@@ -92,7 +92,7 @@ Hai bisogno di assistenza mentre lavori con Campaign? Leggi le principali domand
 
 1. **Posso entrare in contatto con gli esperti di Campaign?**
 
-   Iscriviti alla community di Campaign: puoi cercare le risposte nelle domande esistenti o chiedere agli esperti. [Partecipa alla conversazione](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}
+   Iscriviti alla community di Campaign: puoi cercare le risposte nelle domande esistenti o chiedere agli esperti. [Partecipa alla conversazione](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=it){target="_blank"}
 
 
 1. **Come posso segnalare un problema?**

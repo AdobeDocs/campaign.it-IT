@@ -21,7 +21,7 @@ Risposte rapide alle domande più frequenti su Adobe Campaign v8. Se stai inizia
 **Hai bisogno di assistenza per le versioni?** Controllare [Aggiornamenti](#upgrades) per informazioni sulla versione e sui processi di aggiornamento.\
 **Migrazione da v7 o Standard?** Per informazioni sulle differenze e sulla transizione, consulta [Campaign v8 rispetto alle versioni precedenti](#v7-differences).\
 **Hai bisogno di assistenza tecnica?** Seleziona [Sviluppatori](#developers) e [Impostazioni campagna](#settings).\
-**Impossibile trovare la risposta?** Visita i [forum della community](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"} o [contatta l&#39;assistenza](#get-help).
+**Impossibile trovare la risposta?** Visita i [forum della community](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=it){target="_blank"} o [contatta l&#39;assistenza](#get-help).
 
 **Suggerimento:** utilizzare Ctrl+F (Comando+F su Mac) per cercare parole chiave specifiche in questa pagina. Fare clic su una domanda per espandere la risposta.
 
@@ -161,7 +161,7 @@ Per contattare l&#39;Assistenza clienti Adobe, connettiti a [Adobe Admin Console
 
 Richiede account individuali con le autorizzazioni corrette. Se non riesci ad accedere, richiedi l’accesso tramite Experience League. [Ulteriori informazioni](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
 
-In alternativa, partecipa a [Community Campaign](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"} per cercare risposte o chiedere agli esperti.
+In alternativa, partecipa a [Community Campaign](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=it){target="_blank"} per cercare risposte o chiedere agli esperti.
 
 +++
 
@@ -248,7 +248,7 @@ Resta informato sulle nuove versioni di Campaign tramite questi canali:
 * **Rappresentante Adobe** - Contatta direttamente l&#39;utente quando è disponibile una nuova versione
 * **Note sulla versione** - Tutte le versioni e le modifiche sono documentate in [Note sulla versione di Campaign](release-notes.md)
 * **Aggiornamenti dei prodotti con priorità Adobe** - [Abbonati](https://www.adobe.com/it/subscription/priority-product-update.html){target="_blank"} per ricevere notifiche e-mail
-* **Community di Campaign** - Partecipa a [discussioni](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"} per aggiornamenti anticipati
+* **Community di Campaign** - Partecipa a [discussioni](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=it){target="_blank"} per aggiornamenti anticipati
 
 In qualità di utente di Managed Cloud Services, Adobe gestisce gli aggiornamenti e coordina i tempi con te.
 
@@ -384,7 +384,7 @@ La migrazione ad Adobe Managed Services offre un percorso strategico dalla versi
 
 **Guida introduttiva:** Contatta il tuo rappresentante Adobe per valutare il tuo ambiente e sviluppare un piano di migrazione dettagliato con Adobe Professional Services.
 
-Ulteriori informazioni sulla [migrazione a Managed Services](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/migrate-your-adobe-campaign-v7-onprem-hybrid-environment-to/ba-p/681605){target="_blank"}, incluse le sfide, le best practice e la roadmap dettagliata per la migrazione.
+Ulteriori informazioni sulla [migrazione a Managed Services](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/migrate-your-adobe-campaign-v7-onprem-hybrid-environment-to/ba-p/681605?profile.language=it){target="_blank"}, incluse le sfide, le best practice e la roadmap dettagliata per la migrazione.
 
 +++
 
@@ -1755,8 +1755,8 @@ Non riesci a trovare quello che stai cercando? Risorse aggiuntive per la corrett
 
 Entra in contatto con altri utenti di Campaign ed esperti di Adobe per condividere le conoscenze e ottenere le risposte.
 
-* **[Community di Adobe Campaign](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}** - Poni domande, condividi soluzioni e collegati alla community di Campaign
-* **[Forum Experience League](https://experienceleaguecommunities.adobe.com/){target="_blank"}** - Sfogliare discussioni tra tutti i prodotti Adobe
+* **[Community di Adobe Campaign](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=it){target="_blank"}** - Poni domande, condividi soluzioni e collegati alla community di Campaign
+* **[Forum Experience League](https://experienceleaguecommunities.adobe.com/?profile.language=it){target="_blank"}** - Sfogliare discussioni tra tutti i prodotti Adobe
 * **[Orario di lavoro della community di Campaign](https://experienceleague.adobe.com/it){target="_blank"}** - Partecipa a sessioni live con esperti Adobe
 
 ### Documentazione e apprendimento
