@@ -3,10 +3,10 @@ title: Note sulla versione di Campaign v8
 description: Ultima versione di Campaign v8
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 6693bb8a62c0d126b871dc24a75b76de71b86f8d
+source-git-commit: 981fa2029528cac5806da7c39aec3a2e6de0bf56
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 21%
+source-wordcount: '733'
+ht-degree: 20%
 
 ---
 
@@ -28,12 +28,12 @@ Il **nuovo connettore di invio SMS** è ora disponibile per tutti i clienti (GA)
 
 Questa versione include una serie di funzionalità disponibili con l’interfaccia utente di Campaign Web:
 
-* [Funzionalità di consegna multilingue (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=it){target="_blank"}
-* [Arricchimento profilo nei messaggi transazionali (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html?lang=it){target="_blank"}
-* [Adobe Experience Manager Live e copie per lingua](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html?lang=it){target="_blank"}
-* [Esperimenti di contenuto - Test A/B](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html?lang=it)
-* [Attività di consegna continua](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html?lang=it)
-* [Gestione approvazione campagna](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html?lang=it)
+* [Funzionalità di consegna multilingue (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
+* [Arricchimento profilo nei messaggi transazionali (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
+* [Adobe Experience Manager Live e copie per lingua](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html){target="_blank"}
+* [Esperimenti di contenuto - Test A/B](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html){target="_blank"}
+* [Attività di consegna continua](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html){target="_blank"}
+* [Gestione approvazione campagna](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html){target="_blank"}
 
 Consulta le [note sulla versione](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it){target="_blank"} dell’interfaccia utente di Campaign Web
 
@@ -84,3 +84,4 @@ Consulta le [note sulla versione](https://experienceleague.adobe.com/docs/campai
 * Sono state ottimizzate le query lente nella tabella dei destinatari nelle distribuzioni FFDA. (NEO-89268)
 * È stato risolto un problema a causa del quale le attività di query incrementali ignoravano le pianificazioni configurate. (NEO-89317)
 * Sono stati risolti gli errori di accesso che si verificavano all’apertura delle campagne in ambienti ibridi. (NEO-89320)
+* Sono state corrette le discrepanze nei rapporti dell’interfaccia utente web di Campaign a causa delle quali le statistiche di tracciamento mostravano valori diversi rispetto alla console. I rapporti Tracking Indicators, Sending Summary e URL Click Streams (Indicatori di tracciamento, Riepilogo di invio e Flusso di clic URL) mostrano ora metriche coerenti tra le due interfacce. (NEO-82339)
