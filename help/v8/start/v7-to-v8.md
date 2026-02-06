@@ -5,7 +5,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 334b327c7798c78fcfa90e90afe04896959037eb
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 76%
@@ -55,11 +55,11 @@ Ulteriori informazioni sull&#39;invio di bozze dei messaggi transazionali durant
 
 ## [!DNL Campaign] e [!DNL Snowflake] {#ac-gs-snowflake}
 
-Nella distribuzione [Enterprise (FFDA)](../architecture/enterprise-deployment.md), [!DNL Adobe Campaign] v8 funziona con due database: un database [!DNL Campaign] locale per la messaggistica in tempo reale, le query unitarie dell&#39;interfaccia utente e le operazioni di scrittura tramite API e un database [!DNL Snowflake] cloud per l&#39;esecuzione della campagna, le query batch e l&#39;esecuzione del flusso di lavoro.
+Nella distribuzione [Enterprise (FFDA)](../../v8/architecture/enterprise-deployment.md), [!DNL Adobe Campaign] v8 funziona con due database: un database [!DNL Campaign] locale per la messaggistica in tempo reale, le query unitarie dell&#39;interfaccia utente e le operazioni di scrittura tramite API e un database [!DNL Snowflake] cloud per l&#39;esecuzione della campagna, le query batch e l&#39;esecuzione del flusso di lavoro.
 
 Campaign v8 Enterprise introduce il concetto di **Full Federated Data Access** (FFDA): adesso tutti i dati sono remoti, nel database cloud. Con questa nuova architettura, l’implementazione di Campaign v8 Enterprise (FFDA) semplifica la gestione dei dati, in quanto nel database cloud non è richiesto alcun indice. È sufficiente creare le tabelle, copiare i dati e iniziare. La tecnologia del database cloud non richiede una manutenzione specifica per garantire le prestazioni del servizio.
 
-Ulteriori informazioni sull&#39;architettura di [!DNL Campaign] v8 in [questa pagina](../architecture/architecture.md).
+Ulteriori informazioni sull&#39;architettura di [!DNL Campaign] v8 in [questa pagina](../../v8/architecture/architecture.md).
 
 
 ## Utilizza il tuo Adobe ID per connetterti a Campaign{#adobe-id}
@@ -76,7 +76,7 @@ Con Adobe Campaign v8, i rapporti cubo sono ottimizzati e offrono migliori funzi
 
 ## Funzioni non disponibili{#gs-unavailable-features}
 
-Tieni presente che alcune funzionalità non sono disponibili nel contesto di una [implementazione Enterprise (FFDA)](../architecture/enterprise-deployment.md) di Campaign, ad esempio:
+Tieni presente che alcune funzionalità non sono disponibili nel contesto di una [implementazione Enterprise (FFDA)](../../v8/architecture/enterprise-deployment.md) di Campaign, ad esempio:
 
 * Gestione delle risorse marketing
 * Coupon
@@ -87,7 +87,7 @@ Tieni presente che alcune funzionalità non sono disponibili nel contesto di una
 
 Alcune funzionalità storiche di Campaign Classic v7 non sono più supportate in Campaign v8, ad esempio:
 
-* Social marketing con Facebook
+* Social Marketing con Facebook
 * Connettore ACS (offerta Prime)
 * Integrazione con LDAP
 * Accesso utente/password
