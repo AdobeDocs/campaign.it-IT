@@ -3,10 +3,10 @@ title: Note sulla versione di Campaign v8
 description: Ultima versione di Campaign v8
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 4fe8b8eaf88f763e796dbe06ef3c1477de12bad6
+source-git-commit: f25b0a0fea5f32dd509d8b78e6f6a010d9598a9f
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 18%
+source-wordcount: '923'
+ht-degree: 17%
 
 ---
 
@@ -28,12 +28,12 @@ Il **nuovo connettore di invio SMS** è ora disponibile per tutti i clienti (GA)
 
 Questa versione include una serie di funzionalità disponibili con l’interfaccia utente di Campaign Web:
 
-* [Funzionalità di consegna multilingue (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=it){target="_blank"}
-* [Arricchimento profilo nei messaggi transazionali (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html?lang=it){target="_blank"}
-* [Adobe Experience Manager Live e copie per lingua](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html?lang=it){target="_blank"}
-* [Esperimenti di contenuto - Test A/B](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html?lang=it){target="_blank"}
-* [Attività di consegna continua](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html?lang=it){target="_blank"}
-* [Gestione approvazione campagna](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html?lang=it){target="_blank"}
+* [Funzionalità di consegna multilingue (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
+* [Arricchimento profilo nei messaggi transazionali (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
+* [Adobe Experience Manager Live e copie per lingua](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html){target="_blank"}
+* [Esperimenti di contenuto - Test A/B](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html){target="_blank"}
+* [Attività di consegna continua](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html){target="_blank"}
+* [Gestione approvazione campagna](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html){target="_blank"}
 
 Consulta le [note sulla versione](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it){target="_blank"} dell’interfaccia utente di Campaign Web
 
@@ -53,42 +53,42 @@ Consulta le [note sulla versione](https://experienceleague.adobe.com/docs/campai
 ### Correzioni {#fixes-8-9-1}
 
 * È stato risolto un problema che impediva l’aggiornamento della struttura del database in seguito alle modifiche apportate a sysFilter. (NEO-93306)
-* È stato risolto un problema a causa del quale mancavano dati del rapporto dinamico dopo la migrazione. (NEO-92962)
+* È stato risolto un problema a causa del quale mancavano i dati del report dinamico dopo la migrazione. (NEO-92962)
 * È stato risolto un problema che impediva l’aggiornamento corretto dello stato di consegna. (NEO-92908)
-* È stata aggiunta una soluzione alternativa per la restrizione FDA USE CATALOG per Databricks. (NEO-92900)
-* È stato risolto un problema che causava il mancato funzionamento del layout di HTML nel desktop di Outlook. (NEO-92611)
-* È stato risolto un problema critico di integrità dei dati a causa del quale le chiavi primarie di consegna venivano duplicate nell’istanza MID dopo l’aggiornamento. (NEO-92424)
+* È stato risolto un problema relativo alla restrizione FDA Use Catalog per Databricks. (NEO-92900)
+* È stato risolto un problema che poteva causare errori di layout di HTML nel desktop di Outlook Windows. (NEO-92611)
+* È stato risolto un problema di integrità dei dati a causa del quale le chiavi primarie di consegna venivano duplicate sull’istanza mid dopo un aggiornamento. (NEO-92424)
 * È stato risolto un problema che impediva la disattivazione dei collegamenti nella finestra di dialogo Tracciamento e immagini in una consegna. (NEO-92381)
-* È stato corretto un problema a causa del quale la funzione nms.subscribtion.RecipientSubscribe() non funzionava per l’abbonamento in blocco. (NEO-92308)
-* È stato risolto un problema che causava errori di consegna a causa di parti di consegna mancanti dopo l’aggiornamento. (NEO-92278)
-* È stato risolto un problema nel flusso di lavoro di tracciamento. (NEO-92239)
-* È stato risolto un problema a causa del quale mancavano riferimenti enum temporanei nell&#39;XML elenco dopo la creazione dell&#39;elenco tramite un flusso di lavoro. (NEO-91158)
-* È stato risolto un problema che impediva la chiusura e il congelamento della finestra di dialogo Pubblicazione/Annullamento pubblicazione RT. (NEO-91038)
-* È stato risolto un problema a causa del quale i destinatari bloccati con lo stato di &quot;Preso in considerazione dal fornitore di servizi&quot; non raggiungevano Momentum. (NEO-90927)
-* È stato risolto un problema che causava l’assenza dell’origine (Un)Subscription in v8 per i collegamenti di rinuncia. (NEO-90714)
-* È stato corretto un problema a causa del quale l’aggiunta di coupon non riusciva a preparare la consegna. (NEO-90547)
+* È stato risolto un problema che impediva il funzionamento della funzione nms.subscribtion.RecipientSubscribe() per l’abbonamento in blocco. (NEO-92308)
+* È stato risolto un problema che causava errori di consegna a causa di parti di consegna mancanti dopo un aggiornamento. (NEO-92278)
+* È stato risolto un problema nel flusso di lavoro di tracciamento a causa del quale errori di stato duplicati ed errori di sintassi SQL impedivano l’aggiornamento degli indicatori di tracciamento. (NEO-92239)
+* È stato risolto un problema a causa del quale le etichette dei campi di enumerazione risultavano mancanti o non venivano visualizzate correttamente negli elenchi creati tramite il flusso di lavoro quando si utilizzavano campi dbEnum. (NEO-91158)
+* È stato risolto un problema che impediva la chiusura e il congelamento della finestra di dialogo RT Publish/Unpublish. (NEO-91038)
+* È stato risolto un problema che si verificava per i destinatari con lo stato &quot;Preso in considerazione dal provider di servizi&quot;. (NEO-90927)
+* È stato risolto un problema che causava l’assenza dell’origine (non) dell’abbonamento per i collegamenti di rinuncia. (NEO-90714)
+* È stato risolto un problema che impediva l’aggiunta di coupon per la preparazione della consegna. (NEO-90547)
 * È stato risolto un problema a causa del quale l’opzione Inserisci conteggio rifiuti non veniva riflessa in modo accurato nella scheda Audit. (NEO-90318)
-* È stato risolto un problema di sicurezza che poteva causare il rifiuto del servizio da parte dell&#39;applicazione. (NEO-89984)
+* È stato risolto un problema di sicurezza che poteva causare il rifiuto del servizio da parte dell’applicazione. (NEO-89984)
 * È stato risolto un problema che causava il mancato funzionamento del PDF scaricato del rapporto Hotclick. (NEO-89954)
-* È stato risolto un errore SSL che si verificava dopo l’aggiornamento e causava un errore EOF imprevisto durante la lettura degli errori. (NEO-89108)
-* È stato risolto un problema che impediva l’esecuzione di query sui dati nello schema dopo l’aggiornamento. (NEO-88663)
+* È stato risolto un errore SSL che si verificava dopo un aggiornamento, causando un errore EOF imprevisto durante la lettura degli errori. (NEO-89108)
+* È stato risolto un problema che impediva l’esecuzione di query sui dati in uno schema di dati dopo un aggiornamento. (NEO-88663)
 * È stato corretto un errore che si verificava durante la concatenazione di un campo &quot;char&quot; in PostgreSQL 15. (NEO-88028)
 * È stato risolto un problema che causava la modifica dell’ordine delle variabili del modello di consegna durante il salvataggio o la duplicazione del modello. (NEO-87845)
-* È stato risolto un problema che causava l’arresto anomalo dell’interfaccia Web a causa della creazione di un nuovo schema della libreria dati. (NEO-87816)
-* È stato risolto un problema che impediva il funzionamento del codice del segmento del set di complementi dell’attività Deduplicazione. (NEO-87711)
-* Risoluzione di una richiesta di pacchetto di installazione senza dipendenza X11. (NEO-87471)
+* È stato risolto un problema che causava l’arresto anomalo dell’interfaccia web a causa della creazione di un nuovo schema della libreria dati. (NEO-87816)
+* È stato risolto un problema relativo ai set di complementi nell’attività Deduplication. (NEO-87711)
+* È stata corretta una richiesta di pacchetto di installazione senza dipendenza X11. (NEO-87471)
 * È stato risolto un problema che impediva l’utilizzo dei codici di segmento nei report dinamici. (NEO-87276)
 * È stato risolto un problema che bloccava i flussi di lavoro nell’attività Update Data (Aggiorna dati). (NEO-87252)
 * È stato risolto un problema a causa del quale BigQuery utilizzava un fuso orario errato. (NEO-86622)
 * È stato corretto un errore di JavaScript che si verificava durante la valutazione dello script &quot;mcSynch_mcExec1/jsReplicateUrl&quot;. (NEO-86553)
-* È stato risolto un problema che causava la visualizzazione di eventi duplicati nella tabella eventHisto a causa del metodo di calcolo dell’identificatore. (NEO-86544)
+* È stato risolto un problema che causava la visualizzazione di eventi duplicati nella tabella eventHisto a causa di un metodo di calcolo dell’identificatore errato. (NEO-86544)
 * È stato risolto un problema che impediva la visualizzazione della scheda Avanzate per Push al momento della copia in iOS. (NEO-86231)
-* È stato risolto un problema che impediva al flusso di lavoro Replica tabelle di riferimento di replicare lo schema nms:delivery. (NEO-85884)
+* È stato risolto un problema che impediva al flusso di lavoro replica tabelle di riferimento di replicare lo schema nms:delivery. (NEO-85884)
 * È stato risolto un problema che causava la visualizzazione di errori di dominio nulli corrispondenti a indirizzi MXIP nei registri di errore durante l’invio delle consegne. (NEO-85238)
-* È stato aggiunto un modo per aggiornare i modelli di consegna tecnica dopo eventuali modifiche apportate alle opzioni. (NEO-84149)
+* È stato risolto un problema a causa del quale i modelli di consegna tecnica non venivano aggiornati dopo le modifiche apportate alle opzioni. (NEO-84149)
 * È stato corretto un errore nel flusso di lavoro di fatturazione preconfigurato. (NEO-83624)
 * È stato risolto un problema di esclusione dei duplicati basati solo sulla chiave primaria dei record di destinazione. (NEO-82910)
-* Sono state corrette le discrepanze nei rapporti dell’interfaccia utente web di Campaign a causa delle quali le statistiche di tracciamento mostravano valori diversi rispetto alla console. I rapporti Tracking Indicators, Sending Summary e URL Click Streams (Indicatori di tracciamento, Riepilogo di invio e Flusso di clic URL) mostrano ora metriche coerenti tra le due interfacce. (NEO-82339)
-* È stato corretto un problema a causa del quale la data dell’ultima modifica veniva modificata anche se il record non doveva essere aggiornato nell’attività Aggiorna dati. (NEO-82002)
-* È stato risolto un problema che causava l’interruzione della lettura dell’elenco a causa dell’aggiunta di nuovi attributi in un elenco. (NEO-80258)
-* È stata risolta un’anomalia nel rapporto Tracking Indicators (Indicatori di tracciamento). (NEO-79466)
+* Sono state corrette le discrepanze nei rapporti dell’interfaccia utente web di Campaign a causa delle quali le statistiche di tracciamento mostravano valori diversi rispetto alla console. (NEO-82339)
+* È stato risolto un problema che causava la modifica della data dell’ultima modifica anche se il record non doveva essere aggiornato nell’attività Aggiorna dati. (NEO-82002)
+* È stato risolto un problema che impediva l’aggiunta di nuovi attributi in un elenco a causa del quale i flussi di lavoro che leggevano l’elenco non riuscivano. (NEO-80258)
+* È stato risolto un problema che causava la visualizzazione di valori errati nel rapporto Tracking Indicators (Indicatori di tracciamento) per aperture distinte. (NEO-79466)
