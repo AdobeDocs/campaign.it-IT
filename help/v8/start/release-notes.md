@@ -3,9 +3,9 @@ title: Note sulla versione di Campaign v8
 description: Ultima versione di Campaign v8
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: f25b0a0fea5f32dd509d8b78e6f6a010d9598a9f
+source-git-commit: c7f1edc27a7e09a3a7da172af1df7de01118c516
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '958'
 ht-degree: 17%
 
 ---
@@ -28,18 +28,19 @@ Il **nuovo connettore di invio SMS** è ora disponibile per tutti i clienti (GA)
 
 Questa versione include una serie di funzionalità disponibili con l’interfaccia utente di Campaign Web:
 
-* [Funzionalità di consegna multilingue (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=it){target="_blank"}
-* [Arricchimento profilo nei messaggi transazionali (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html?lang=it){target="_blank"}
-* [Adobe Experience Manager Live e copie per lingua](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html?lang=it){target="_blank"}
-* [Esperimenti di contenuto - Test A/B](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html?lang=it){target="_blank"}
-* [Attività di consegna continua](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html?lang=it){target="_blank"}
-* [Gestione approvazione campagna](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html?lang=it){target="_blank"}
+* [Funzionalità di consegna multilingue (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
+* [Arricchimento profilo nei messaggi transazionali (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
+* [Adobe Experience Manager Live e copie per lingua](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html){target="_blank"}
+* [Esperimenti di contenuto - Test A/B](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html){target="_blank"}
+* [Attività di consegna continua](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html){target="_blank"}
+* [Gestione approvazione campagna](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html){target="_blank"}
 
 Consulta le [note sulla versione](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it){target="_blank"} dell’interfaccia utente di Campaign Web
 
 ### Miglioramenti di sicurezza {#security-8-9-1}
 
 * Gli account esterni di Snowflake ora supportano l’autenticazione OAuth2, fornendo metodi di autenticazione moderni e sicuri per le connessioni federate di accesso ai dati. (NEO-87013)
+* Gli account esterni Databricks ora supportano l’autenticazione OAuth2 tramite l’entità principale del servizio (flusso di credenziali client non interattive), fornendo metodi di autenticazione sicuri per le connessioni federate di accesso ai dati. L’autenticazione interattiva OAuth2 sarà disponibile in una versione futura. (NEO-87422)
 * Sono state corrette le vulnerabilità di accesso ai file del flusso di lavoro limitando le operazioni alle directory autorizzate, impedendo l’accesso non autorizzato e la potenziale esecuzione di codice remoto. (NEO-88460)
 * È stato aggiunto l’URL FTP, che consente di inserire nell&#39;elenco Consentiti controlli alle attività del codice JavaScript del flusso di lavoro, limitando le connessioni FTP in uscita solo agli indirizzi autorizzati. (NEO-89083)
 
