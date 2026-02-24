@@ -5,9 +5,9 @@ user-guide-description: Documentazione di prodotto per Adobe Campaign v8 (consol
 title: Documentazione di Adobe Campaign v8
 description: Documentazione di Campaign v8
 breadcrumb-title: Documentazione di Campaign v8
-source-git-commit: 050612f6d7ab20aed5880454eec9cfc6e5fc18c2
+source-git-commit: 4626d93dea22e0ee458babfd53758c8c63a98ad4
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '840'
 ht-degree: 87%
 
 ---
@@ -30,6 +30,7 @@ ht-degree: 87%
    + [Problemi noti](start/known-issues.md)
    + [Matrice di compatibilità](start/compatibility-matrix.md)
    + [Aggiornamenti alla documentazione](start/documentation-updates.md)
+   + [Rapporto aggiornamenti mensili](../../monthly-updates-report.md)
 + Introduzione {#new}
    + [Introduzione ad Adobe Campaign](start/get-started.md)
    + [Funzionalità principali](start/whats-new.md)
@@ -247,7 +248,7 @@ ht-degree: 87%
       + [Struttura dello schema](dev/schema-structure.md)
       + [Mappatura del database](dev/database-mapping.md)
       + [Gestioni delle chiavi](dev/database-keys.md)
-      + [Gestione collegamento](dev/database-links.md)
+      + [Gestione collegamenti](dev/database-links.md)
       + [Limitare la visualizzazione di dati personali](dev/restrict-pi-view.md)
       + [Utilizzare una tabella dei destinatari personalizzata](dev/custom-recipient.md)
       + [Aggiornare il database](dev/update-database-structure.md)
