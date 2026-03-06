@@ -5,20 +5,14 @@ feature: SMS
 role: User
 level: Beginner, Intermediate
 exl-id: 704e151a-b863-46d0-b8a1-fca86abd88b9
-source-git-commit: ea51863bdbc22489af35b2b3c81259b327380be4
+source-git-commit: e349e9f236c3eeb28ffe96bcc5ec72ab64c4c127
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1290'
 ht-degree: 5%
 
 ---
 
 # Descrizione del connettore SMPP {#smpp-connector-desc}
-
->[!AVAILABILITY]
->
->Questa funzionalità è disponibile per tutti gli ambienti FDA di Campaign. È **non** disponibile per le distribuzioni FFDA di Campaign. Questa documentazione si applica ad Adobe Campaign v8.7.2 e versioni successive. Per passare dalla versione precedente al nuovo connettore SMS, fai riferimento a questa [nota tecnica](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"}
->
->Per le versioni precedenti, leggere la [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/it/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}.
 
 ## Flusso di dati del connettore SMS {#sms-data-flow}
 

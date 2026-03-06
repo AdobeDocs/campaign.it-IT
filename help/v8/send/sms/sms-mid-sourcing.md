@@ -5,20 +5,14 @@ feature: SMS
 role: User
 level: Beginner, Intermediate
 exl-id: b5eb9eaa-0ca8-478c-9ed5-e5006e9b5609
-source-git-commit: ea51863bdbc22489af35b2b3c81259b327380be4
+source-git-commit: e349e9f236c3eeb28ffe96bcc5ec72ab64c4c127
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '560'
 ht-degree: 0%
 
 ---
 
 # SMS in un’infrastruttura mid-sourcing {#sms-mid}
-
->[!AVAILABILITY]
->
->Questa funzionalità è disponibile per tutti gli ambienti FDA di Campaign. È **non** disponibile per le distribuzioni FFDA di Campaign. Questa documentazione si applica ad Adobe Campaign v8.7.2 e versioni successive. Per passare dalla versione precedente al nuovo connettore SMS, fai riferimento a questa [nota tecnica](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"}
->
->Per le versioni precedenti, leggere la [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/it/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}.
 
 L’invio di consegne SMS con un’infrastruttura mid-sourcing richiede:
 
@@ -109,7 +103,7 @@ A questo scopo, segui la procedura indicata di seguito:
 
    ![](assets/sms_extaccount_connector.png){zoomable="yes"}
 
-   Per impostare la connessione, è necessario compilare le schede di questo modulo. Per ulteriori informazioni sull&#39;account esterno SMPP[, vedere &#x200B;](smpp-external-account.md#smpp-connection-settings).
+   Per impostare la connessione, è necessario compilare le schede di questo modulo. Per ulteriori informazioni sull&#39;account esterno SMPP[, vedere ](smpp-external-account.md#smpp-connection-settings).
 
 ## Configurare il modello di consegna {#sms-delivery-template}
 
