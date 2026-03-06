@@ -24,7 +24,7 @@ Il connettore SMS legacy è il connettore SMS basato su MTA utilizzato nelle ver
 
 Per informazioni su come trarre vantaggio dal connettore v2, consulta la sezione [Activation](#activation).
 
-Per informazioni dettagliate sulla configurazione e sull&#39;utilizzo del connettore SMS legacy, consulta la [documentazione di Campaign Classic](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}.
+Per informazioni dettagliate sulla configurazione e sull&#39;utilizzo del connettore SMS legacy, consulta la [documentazione di Campaign Classic](https://experienceleague.adobe.com/it/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}.
 
 ## Connettore SMS v2 {#sms-connector-v2}
 
