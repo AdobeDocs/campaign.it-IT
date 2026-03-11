@@ -3,9 +3,9 @@ title: Note sulla versione di Campaign v8
 description: Ultima versione di Campaign v8
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 3ce922319646fae03ad7f6757ffdd94804120144
+source-git-commit: 3256a2c57e3ccfec40dde33a2daaccbc3ff57b9b
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1108'
 ht-degree: 18%
 
 ---
@@ -16,7 +16,7 @@ In questa pagina sono elencate le nuove funzionalità, i miglioramenti e le corr
 
 ## Versione 8.9.2 {#release-8-9-2}
 
-_9 marzo 2026_
+_11 marzo 2026_
 
 >[!CAUTION]
 >
@@ -31,6 +31,8 @@ _9 marzo 2026_
 * È stato risolto un problema che impediva la corretta impostazione delle date degli eventi negli eventi transazionali a causa di un problema di conversione del tipo di dati, causando date errate nel reporting dinamico. (NEO-93923)
 * È stato risolto un problema a causa del quale le notifiche push silenziose di Android e iOS non riuscivano durante la preparazione della consegna quando i campi titolo e corpo erano vuoti. (NEO-93739)
 * È stato risolto un problema che impediva l’acquisizione del campo della lingua per i token di registrazione dell’app Android a causa di chiavi di riconciliazione errate. (NEO-93100)
+* È stato risolto un problema che impediva la preparazione della consegna durante l’applicazione di regole di tipologia personalizzate con regole di pressione. (NEO-94457)
+* È stato risolto un problema che causava errori di elaborazione delle richieste HTTP nella console client. (NEO-94071)
 
 ## Versione 8.9.1 {#release-8-9-1}
 
@@ -46,12 +48,12 @@ Il **nuovo connettore di invio SMS** è ora disponibile per tutti i clienti (GA)
 
 Questa versione include una serie di funzionalità disponibili con l’interfaccia utente di Campaign Web:
 
-* [Funzionalità di consegna multilingue (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=it){target="_blank"}
-* [Arricchimento profilo nei messaggi transazionali (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html?lang=it){target="_blank"}
-* [Adobe Experience Manager Live e copie per lingua](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html?lang=it){target="_blank"}
-* [Esperimenti di contenuto - Test A/B](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html?lang=it){target="_blank"}
-* [Attività di consegna continua](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html?lang=it){target="_blank"}
-* [Gestione approvazione campagna](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html?lang=it){target="_blank"}
+* [Funzionalità di consegna multilingue (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
+* [Arricchimento profilo nei messaggi transazionali (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
+* [Adobe Experience Manager Live e copie per lingua](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html){target="_blank"}
+* [Esperimenti di contenuto - Test A/B](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html){target="_blank"}
+* [Attività di consegna continua](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html){target="_blank"}
+* [Gestione approvazione campagna](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html){target="_blank"}
 
 Consulta le [note sulla versione](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it){target="_blank"} dell’interfaccia utente di Campaign Web
 
