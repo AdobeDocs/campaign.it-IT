@@ -1837,7 +1837,7 @@ Chiedi aiuto al team di supporto di Adobe e gestisci la tua istanza.
 * **[Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}** - Registrazione dei casi di supporto e gestione degli utenti
 * **[Assistenza clienti Adobe](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}** - Contatta il team di supporto
 * **[Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it){target="_blank"}** - Gestisci le impostazioni dell&#39;istanza Campaign
-* **[Stato del sistema](https://status.adobe.com/){target="_blank"}** - Verifica lo stato dei servizi Adobe
+* **[Stato del sistema](https://status.adobe.com/it-it/){target="_blank"}** - Verifica lo stato dei servizi Adobe
 
 ### Formazione e certificazione
 
