@@ -4,7 +4,7 @@ description: Scopri come migrare gli operatori tecnici di Campaign all’account
 feature: Technote
 role: Admin
 exl-id: 775c5dbb-ef73-48dd-b163-23cfadc3dab8
-source-git-commit: 07c2a7460c407a0afb536d8b64f4105d8bc547f4
+source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
 source-wordcount: '1547'
 ht-degree: 0%
@@ -59,7 +59,8 @@ Puoi utilizzare qualsiasi progetto creato in precedenza da te oppure creare un n
 <!--
 For this migration, you must add below APIs in your project: **I/O Management API** and **Adobe Campaign**.
 
-![](assets/do-not-localize/ims-products-and-services.png)-->
+![](assets/do-not-localize/ims-products-and-services.png)
+-->
 
 Per creare un nuovo progetto, fare clic su **Crea nuovo progetto** nella schermata principale di Adobe Developer Console.
 
@@ -89,7 +90,8 @@ Nella schermata **Configura API**, selezionare il tipo di autenticazione necessa
 <!--
 Once your project is created in the Adobe Developer Console, add an API that uses Server-to-Server authentication. Learn how to set up the OAuth Server-to-Server credential in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/){target="_blank"}.
 
-When the API has been successfully connected, you can access the newly generated credentials including Client ID and Client Secret, as well as generate an access token.-->
+When the API has been successfully connected, you can access the newly generated credentials including Client ID and Client Secret, as well as generate an access token.
+-->
 
 ### Passaggio 4: selezionare i profili di prodotto {#ims-migration-step-4}
 
@@ -110,7 +112,8 @@ You can now add your Campaign product profile to the project, as detailed below:
     ![](assets/do-not-localize/ims-edit-api.png)
 
 1. Assign all the relevant Product Profiles to the API, for example 'messagecenter', and save your changes.
-1. Browse to the **Credential details** tab of your project, and copy the **Technical Account Email** value.-->
+1. Browse to the **Credential details** tab of your project, and copy the **Technical Account Email** value.
+-->
 
 ### Passaggio 5: aggiungi l’API di gestione I/O al progetto {#ims-migration-step-5}
 
@@ -218,7 +221,7 @@ L’utente dell’account tecnico NON esisterà in Adobe Campaign finché non ve
 
    ![](assets/do-not-localize/ims-updates-07.png)
 
-   Nella schermata Credenziali, scorri verso il basso per individuare il **Indirizzo e-mail account tecnico &#x200B;** e fai clic sul pulsante **Copia**.
+   Nella schermata Credenziali, scorri verso il basso per individuare il **Indirizzo e-mail account tecnico **e fai clic sul pulsante **Copia**.
 
    ![](assets/do-not-localize/ims-updates-08.png)
 

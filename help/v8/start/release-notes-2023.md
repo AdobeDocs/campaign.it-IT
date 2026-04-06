@@ -5,10 +5,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: b860c843-155e-4abb-bdd6-b68dc7eaa0ee
-source-git-commit: b52308bcbe68a7c382918fe28f8166e3bfcb6cde
+source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '1518'
-ht-degree: 56%
+source-wordcount: '1516'
+ht-degree: 55%
 
 ---
 
@@ -76,7 +76,7 @@ Per ulteriori informazioni, consulta la [documentazione dettagliata](../send/pus
 * La preparazione della consegna è stata ottimizzata su tutti i canali.
 * È stata aggiunta una nuova opzione di autenticazione basata su chiave per l’account esterno SFTP, insieme al metodo di autenticazione utente/password esistente. Ora gli utenti possono eseguire l’autenticazione in modo sicuro utilizzando una chiave privata, migliorando la sicurezza e fornendo un meccanismo di autenticazione alternativo per l’accesso SFTP. Per ulteriori informazioni, consulta [questa sezione](../config/external-accounts.md).
 
-**Miglioramenti di sicurezza**
+**Miglioramenti della sicurezza**
 
 * Con Campaign v8.5.1, il processo di autenticazione per Campaign v8 è stato migliorato e protetto. Gli operatori tecnici devono ora utilizzare Adobe Identity Management System (IMS) per connettersi a Campaign. Scopri come eseguire la migrazione degli account tecnici esistenti in [questa nota tecnica](../../technotes/upgrades/ims-migration.md).
 * A partire dalla versione v8.6 in arrivo, non ti sarà più consentito creare operatori dalla console client di Campaign. Se utilizzi l’autenticazione nativa per login/password, devi migrare gli operatori ad Adobe Identity Management System (IMS). Scopri come effettuare la migrazione degli operatori in [questa nota tecnica](../../technotes/upgrades/migrate-users-to-ims.md).
@@ -108,7 +108,7 @@ Per ulteriori informazioni, consulta la [documentazione dettagliata](../send/pus
 
 ## Versione 8.4.5 {#release-8-4-5}
 
-_3 aprile 2023_
+_martedì 3 aprile 2023_
 
 **Correzioni**
 
@@ -122,7 +122,7 @@ _3 aprile 2023_
 
 ## Versione 8.4.4 {#release-8-4-4}
 
-_8 marzo 2023_
+_giovedì 8 marzo 2023_
 
 **Miglioramento della sicurezza**
 
@@ -137,7 +137,7 @@ _8 marzo 2023_
 ## Versione 8.4.3 {#release-8-4-3}
 
 
-_27 gennaio 2023_
+_sabato 27 gennaio 2023_
 
 **Correzioni**
 
@@ -155,8 +155,10 @@ _27 gennaio 2023_
 * È stato risolto un problema relativo a Snowflake (tutte le distribuzioni) durante l’utilizzo del parametro di ordinamento in un’attività del flusso di lavoro di **Divisione**. (NEO-45899) <!--OKKKK-->
 * È stato risolto un problema che causava un errore quando un utente con diritti di accesso in lettura nella cartella nmsDeliveryMapping tentava di eseguire una campagna o un flusso di lavoro. (NEO-48230)
 * È stato risolto un problema di prestazioni nella scheda HTML di una consegna che poteva verificarsi in caso di un codice HTML di grandi dimensioni. (NEO-47440)
-<!-- * Fixed an issue which could lead to a "Character set mismatch" error when using certain functions such as `to_nclob` with an Oracle unicode database where NChar was not enabled. (NEO-49361)
-* Fixed an issue which prevented users from inserting a Time datatype in a **Data Update** workflow activity on MSSQL. (NEO-47763)-->
+<!--
+ * Fixed an issue which could lead to a "Character set mismatch" error when using certain functions such as `to_nclob` with an Oracle unicode database where NChar was not enabled. (NEO-49361)
+* Fixed an issue which prevented users from inserting a Time datatype in a **Data Update** workflow activity on MSSQL. (NEO-47763)
+-->
 * È stato risolto un problema che impediva l’utilizzo dell’opzione del flusso di lavoro **Unisci righe selezionate**. (NEO-48488)
 * È stato risolto un problema del connettore Snowflake FDA che causava la perdita di record durante l’utilizzo di “unione semplice a 0 o 1 cardinalità” durante l’arricchimento. (NEO-48737)
 * I riferimenti rimanenti alla libreria log4j sono stati rimossi dall’installazione di Campaign su Windows. (NEO-44851)

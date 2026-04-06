@@ -5,8 +5,8 @@ feature: Overview, Architecture, Configuration
 role: User
 level: Beginner
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: e4f6c70ecdcf7414b5f49a43933cfd1c967a0905
-workflow-type: ht
+source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
+workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 100%
 
@@ -62,9 +62,11 @@ Il server di Campaign Web controlla l’accesso ai processi di Campaign Web. Jav
 
 La console client di Campaign si connette al server web utilizzando SOAP XML su HTTP. Il server web fornisce il livello di sicurezza, trasmette le richieste al livello dell’applicazione utilizzando JavaScript e i processi interni di Campaign accedono al database utilizzando SQL.
 
-<!--The overall communication between Campaign processes are described in the following standalone deployment diagram: all Campaign components are installed in the same machine.
+<!--
+The overall communication between Campaign processes are described in the following standalone deployment diagram: all Campaign components are installed in the same machine.
 
-![](assets/do-not-localize//ac-standalone.png) -->
+![](assets/do-not-localize//ac-standalone.png)
+-->
 
 L’utente si connette al server applicazioni di Campaign utilizzando il protocollo HTTP. Tutti i dati e le informazioni vengono gestiti nel database di Campaign. Se uno sviluppatore di Campaign apporta modifiche alla configurazione, queste vengono acquisite nel database. Se un marketer crea una nuova campagna, nel database vengono gestite anche tutte le informazioni e i dati relativi ad essa. Quando un markter esegue una campagna, le consegne e-mail vengono inviate ai profili dal server di Campaign tramite il server SMTP. Quando i profili interagiscono con le consegne e-mail, ad esempio l’apertura dell’e-mail, i dati di tracciamento vengono rimandati al server di tracciamento.
 

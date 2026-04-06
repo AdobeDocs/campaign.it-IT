@@ -5,7 +5,7 @@ feature: Architecture, Deployment
 role: Developer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 7465cacc74b8b7df38c5eb10d2928749c70a87ea
+source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 10%
@@ -92,9 +92,11 @@ Per impostare gli account esterni suddivisi come account predefinito per l’inv
 
 1. Salva le modifiche. Tutte le consegne inviate utilizzando il modello ora utilizzano la modalità di routing diviso per impostazione predefinita.
 
-<!--In addition, you can select split external accounts as the default routing provider for all future delivery templates. To do this, change the value of the **[!UICONTROL xtkoption NmsBroadcast_DefaultProvider]** option to the name of the split account.
+<!--
+In addition, you can select split external accounts as the default routing provider for all future delivery templates. To do this, change the value of the **[!UICONTROL xtkoption NmsBroadcast_DefaultProvider]** option to the name of the split account.
 
-![](assets/split-default-options.png) -->
+![](assets/split-default-options.png)
+-->
 
 ## Architettura del Centro messaggi{#transac-msg-archi}
 

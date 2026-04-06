@@ -6,7 +6,7 @@ role: Admin
 level: Beginner
 exl-id: 0f81d318-dbfd-45c8-b391-b1d14d23e9c8
 version: Campaign v8, Campaign Classic v7
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 82%
@@ -39,7 +39,8 @@ Prima di creare una richiesta di accesso a dati personali, devi **definire lo sp
 
 Al momento Adobe Campaign non supporta l’importazione di spazi dei nomi dal servizio Spazio dei nomi identità di Experience Platform. Pertanto, dopo aver creato uno spazio dei nomi nel servizio Spazio dei nomi identità, devi creare manualmente lo spazio dei nomi corrispondente nell’interfaccia di Adobe Campaign. Per farlo, segui la procedura indicata di seguito.
 
-<!--v7?
+<!--
+v7?
 Three namespaces are available out-of-the-box: email, phone and mobile phone. If you need a different namespace (a recipient custom field, for example), you can create a new one from **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Namespaces]**.
 
 >[!NOTE]
@@ -100,7 +101,7 @@ Per scoprire come creare richieste di accesso a dati personali dal servizio core
 
 Ciascun processo **[!DNL Privacy Service]** è suddiviso in più richieste Privacy in Adobe Campaign in base al numero di spazi dei nomi utilizzati. A ogni richiesta corrisponde uno spazio dei nomi.
 
-È inoltre possibile eseguire un processo su più istanze. In questo caso vengono creati più file per un processo. Ad esempio, se una richiesta ha due spazi di nomi ed è in esecuzione in tre istanze, vengono inviati in totale sei file. Un file per ogni spazio dei nomi e istanza.
+È inoltre possibile eseguire un processo su più istanze. In questo caso vengono creati più file per un processo. Ad esempio, se una richiesta ha due spazi dei nomi ed è in esecuzione in tre istanze, vengono inviati in totale sei file. Un file per ogni spazio dei nomi e istanza.
 
 Il modello per un nome file è: `<InstanceName>-<NamespaceId>-<ReconciliationKey>.xml`
 
@@ -138,7 +139,8 @@ Se hai creato tabelle personalizzate con un collegamento alla tabella dei profil
 >If you perform Privacy batch requests using profile deletion workflows, please take into consideration the following remarks:
 >* Profile deletion via workflows do not process children tables.
 >* You need to handle the deletion for all the children tables.
->* Adobe recommends that you create an ETL workflow that add the lines to delete in the Privacy Access table and let the **[!UICONTROL Delete privacy requests data]** workflow perform the deletion. We suggest to limit to 200 profiles per day to delete for performance reasons.-->
+>* Adobe recommends that you create an ETL workflow that add the lines to delete in the Privacy Access table and let the **[!UICONTROL Delete privacy requests data]** workflow perform the deletion. We suggest to limit to 200 profiles per day to delete for performance reasons.
+-->
 
 ### Stati delle richieste di accesso a dati personali {#privacy-request-statuses}
 

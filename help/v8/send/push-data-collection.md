@@ -6,7 +6,7 @@ role: Developer
 level: Intermediate
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 0f22b17c-ed01-4add-8300-8689b8a9f963
-source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
+source-git-commit: 52ea7f0a7690ef656568cc75925b9982e1f475e9
 workflow-type: tm+mt
 source-wordcount: '1353'
 ht-degree: 2%
@@ -73,8 +73,8 @@ La registrazione delle credenziali push dell’app mobile è necessaria per auto
 
 1. Fornisci l&#39;**ID chiave**. Si tratta di una stringa di 10 caratteri assegnata durante la creazione del tasto di autenticazione p8.
 
-       Si trova nella scheda **Chiavi** della pagina **Certificati**, **Identificatori** e **Profili** del tuo account sviluppatore Apple.
-   
+   È disponibile nella scheda **Chiavi** della pagina **Certificati**, **Identificatori** e **Profili** del tuo account sviluppatore Apple.
+
 1. Fornisci **ID team**. Questo è un valore stringa che si trova nella scheda **Appartenenza**.
 
 1. Fai clic su **[!UICONTROL Save]** per creare la configurazione dell&#39;app.

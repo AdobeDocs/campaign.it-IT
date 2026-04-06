@@ -6,7 +6,7 @@ feature: Campaigns, Cross Channel Orchestration, Programs
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: eb1a0e52-14d9-4ad2-8bf2-ea955c6fd0f5
-source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
+source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 11%
@@ -18,11 +18,13 @@ ht-degree: 11%
 Adobe Campaign ti consente di definire, ottimizzare, eseguire e analizzare campagne di comunicazione e marketing. Adobe Campaign funziona come un centro unificato di esecuzione e ordini per strategie di marketing. Gestisci più origini di dati, definisci i segmenti di pubblico e pianifica ed esegui campagne cross-channel con un&#39;interfaccia di flusso di lavoro visivo basata su trascinamento.
 
 
-<!--In addition, the **Marketing Resource Management (MRM)** module lets you control marketing actions in a collaborative mode by providing complete management and real-time tracking of the tasks, budgets and marketing resources involved. The Marketing Resource Management lets you optimize and regulate the management of internal and external processes, resources and marketing campaigns, as well as third party relations (agencies, printers, etc.). For more on this, refer to [this section](about-marketing-resource-management.md).
+<!--
+In addition, the **Marketing Resource Management (MRM)** module lets you control marketing actions in a collaborative mode by providing complete management and real-time tracking of the tasks, budgets and marketing resources involved. The Marketing Resource Management lets you optimize and regulate the management of internal and external processes, resources and marketing campaigns, as well as third party relations (agencies, printers, etc.). For more on this, refer to [this section](about-marketing-resource-management.md).
 
 >[!NOTE]
 >
->Capabilities related to population targeting, message personalization and message delivery on the various channels are detailed in [this section](../../delivery/using/steps-about-delivery-creation-steps.md).-->
+>Capabilities related to population targeting, message personalization and message delivery on the various channels are detailed in [this section](../../delivery/using/steps-about-delivery-creation-steps.md).
+-->
 
 
 ## Passaggi chiave per progettare le campagne {#key-steps-campaign}
@@ -44,7 +46,7 @@ I tipi di pubblico possono essere importati da un elenco o incorporati in un flu
 Orchestrazione delle consegne cross-channel nelle campagne. Semplifica le tue comunicazioni con Adobe Campaign tramite e-mail, SMS personalizzati, notifiche push e messaggi in-app. Puoi anche aggiungere consegne di direct mailing. Scopri come creare, convalidare e monitorare le consegne nelle campagne [in questa sezione](marketing-campaign-deliveries.md).
 
 1. **Impostare il flusso di avvicinamento**
-Definisci i revisori e configura il flusso di approvazione per monitorare e controllare i processi della campagna: targeting, contenuto, budget, estrazione e invio di bozze. Scopri come impostare le approvazioni [&#x200B; in questa sezione](marketing-campaign-approval.md).
+Definisci i revisori e configura il flusso di approvazione per monitorare e controllare i processi della campagna: targeting, contenuto, budget, estrazione e invio di bozze. Scopri come impostare le approvazioni [ in questa sezione](marketing-campaign-approval.md).
 
 1. **Monitorare le consegne**.
 Tieni traccia delle campagne dal dashboard, controlla gli stati di consegna e l’esecuzione dall’interfaccia utente di Campaign. [Ulteriori informazioni](marketing-campaign-monitoring.md).
@@ -59,4 +61,4 @@ Una volta completati questi passaggi, puoi [avviare le consegne](marketing-campa
 
 Questo video illustra i concetti chiave delle campagne di marketing.
 
->[!VIDEO](https://video.tv.adobe.com/v/326578?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/35131?quality=12)

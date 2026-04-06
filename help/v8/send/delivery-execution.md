@@ -5,7 +5,7 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 084607f6-47d8-40c0-89ba-bfbb88fc2e53
-source-git-commit: c044b391c900e8ff82147f2682e2e4f91845780c
+source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 1%
@@ -37,9 +37,10 @@ Le consegne transazionali inviate dall&#39;istanza di esecuzione vengono sincron
 >Le consegne settimanali accumulano gli eventi in base all’ultimo aggiornamento dell’evento e non alla data di creazione dell’evento. Pertanto, durante l’estrazione dei registri di consegna della messaggistica transazionale dall’istanza di controllo, l’ID di consegna associato a ciascun ID del registro di consegna può cambiare nel tempo man mano che il registro viene aggiornato (ad esempio, quando viene ricevuto un mancato recapito in entrata per l’evento).
 
 <!--
-To monitor the activity and running of the execution instance(s), see [Transactional messaging reports](transactional-messaging-reports.md).-->
+To monitor the activity and running of the execution instance(s), see [Transactional messaging reports](transactional-messaging-reports.md).
+-->
 
-## Reporting{#reporting-transactional-msg}
+## Generazione rapporti{#reporting-transactional-msg}
 
 Adobe Campaign offre diversi rapporti che ti consentono di controllare l’attività e l’esecuzione fluida delle istanze di esecuzione.
 

@@ -6,7 +6,7 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 1da45746-4d69-415b-a793-9a08ce80091d
-source-git-commit: 25ee55d5327e0ba7f2192f7b462853269c8cbf46
+source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 48%
@@ -40,8 +40,9 @@ Puoi personalizzare il contenuto del messaggio in diversi modi:
 
   Configura il contenuto condizionale per aggiungere la personalizzazione dinamica, ad esempio in base al profilo del destinatario. I blocchi di testo e/o le immagini vengono inseriti quando viene soddisfatta una particolare condizione. [Ulteriori informazioni](conditions.md).
 
-<!--* Add **personalized offers**
-    
+<!--
+* Add **personalized offers**
+
     Insert personalized offers in your message content, depending on the recipient location, the current weather, or the last purchase order.
 -->
 
@@ -71,4 +72,4 @@ Le seguenti variabili sono variabili interne che possono essere utilizzate per l
 Scopri i diversi tipi di contenuti dinamici e come creare e applicare blocchi di personalizzazione e istruzioni condizionali a una consegna.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3452876?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335734?quality=12)
