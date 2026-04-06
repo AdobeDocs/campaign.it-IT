@@ -49,7 +49,7 @@ Puoi configurare i valori visualizzati modificando la scala cronologica: visuali
 
 >[!NOTE]
 >
->Puoi anche monitorare il numero di consegne inviate all&#39;ora utilizzando [Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html){target="_blank"}.
+>Puoi anche monitorare il numero di consegne inviate all&#39;ora utilizzando [Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=it){target="_blank"}.
 >
 >Il Pannello di controllo è accessibile a tutti gli utenti amministratori. I passaggi per concedere a un utente l’accesso come amministratore sono descritti in[questa pagina](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=it#discover-control-panel){target="_blank"}.
 >
