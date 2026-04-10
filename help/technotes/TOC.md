@@ -5,10 +5,10 @@ type: Event
 title: Note tecniche di Adobe Campaign
 description: Note tecniche sulla campagna
 breadcrumb-title: Note tecniche sulla campagna
-source-git-commit: ed9e784c1610a6f042b99223ac0d4cc0cf312b09
+source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
 workflow-type: tm+mt
 source-wordcount: '76'
-ht-degree: 23%
+ht-degree: 17%
 
 ---
 
@@ -17,18 +17,18 @@ ht-degree: 23%
 
 + [Note tecniche sulla campagna](technotes-home.md)
 + Aggiornamenti{#tn-new}
-   + [Modifiche al canale di notifica push](upgrades/push-technote.md)
+   + {hide-from-toc}[Modifiche al canale di notifica push](upgrades/push-technote.md)
    + [Migrazione utenti a IMS](upgrades/migrate-users-to-ims.md)
    + [Migrazione degli operatori tecnici a Developer Console](upgrades/ims-migration.md)
-   + [Migrazione dell’operatore tecnico a Developer Console](upgrades/ims-migration-old.md)
+   + {hide-from-toc}[Migra operatore tecnico a Developer Console](upgrades/ims-migration-old.md)
    + [Passa al nuovo connettore SMS](upgrades/sms-migration.md)
-   + [Campaign invio della migrazione dell’infrastruttura ad AWS](upgrades/migrate-to-aws.md)
-   + [Aggiornamento dell’infrastruttura di invio e-mail di Campaign](upgrades/upgrade-to-aws.md)
-   + [Aggiorna versione Apache](upgrades/apache.md)
-   + [Browser Internet](upgrades/browsers.md)
-   + [Aggiornamenti del sistema 2023](upgrades/tech-stack-upgrade.md)
-   + [deprecazione a 32 bit della console client](upgrades/console.md)
+   + {hide-from-toc}[Migrazione dell&#39;infrastruttura di invio della campagna ad AWS](upgrades/migrate-to-aws.md)
+   + {hide-from-toc}[Aggiornamento dell&#39;infrastruttura di invio e-mail per Campaign](upgrades/upgrade-to-aws.md)
+   + {hide-from-toc}[Aggiorna Apache versione](upgrades/apache.md)
+   + {hide-from-toc}[Browser Internet](upgrades/browsers.md)
+   + {hide-from-toc}[Aggiornamenti di sistema 2023](upgrades/tech-stack-upgrade.md)
+   + {hide-from-toc}[deprecazione a 32 bit della console client](upgrades/console.md)
    + Sicurezza {#security}
-      + [Rotazione delle credenziali del cliente](security/credential-rotation-guide.md)
-      + [Crittografia asimmetrica](security/asymetric-encryption.md)
+      + {hide-from-toc}[Rotazione credenziali cliente](security/credential-rotation-guide.md)
+      + {hide-from-toc}[Crittografia asimmetrica](security/asymetric-encryption.md)
 + [&lt; Torna alla documentazione di Campaign v8](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/campaign-home)

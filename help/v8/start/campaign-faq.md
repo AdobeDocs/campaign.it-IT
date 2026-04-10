@@ -6,8 +6,7 @@ role: User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
 hide: true
-hidefromtoc: true
-source-git-commit: 9c751429ac3da2a583990ba0d891744353bd65c8
+source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
 workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 96%
@@ -20,7 +19,7 @@ Hai bisogno di assistenza mentre lavori con Campaign? Leggi le principali domand
 
 1. **Come posso aggiornare Campaign alla versione più recente?**
 
-    Adobe Campaign viene aggiornato regolarmente. Versioni minori vengono rilasciate ogni anno con nuove funzioni, miglioramenti e correzioni. Inoltre, rilasciamo periodicamente build contenenti solo correzioni cumulative.
+   Adobe Campaign viene aggiornato regolarmente. Versioni minori vengono rilasciate ogni anno con nuove funzioni, miglioramenti e correzioni. Inoltre, rilasciamo periodicamente build contenenti solo correzioni cumulative.
 
    La frequenza regolare degli aggiornamenti è volta a far ottenere agli utenti il meglio e più recente, mantenendo l’ambiente sicuro e migliorando l’esperienza di utilizzo del prodotto. Per questo motivo riteniamo fondamentale eseguire sempre la versione più recente di Adobe Campaign.
 
@@ -86,13 +85,13 @@ Hai bisogno di assistenza mentre lavori con Campaign? Leggi le principali domand
 
    È possibile ottenere il programma di installazione e Client Console da Adobe Download Center.
 
-   Per scaricare Adobe Campaign, accedi come utente amministratore alla [Distribuzione di software](https://experience.adobe.com/#/downloads/content/software-distribution/it/campaign.html){target="_blank"}  di Adobe.
+   Per scaricare Adobe Campaign, accedi come utente amministratore alla [Distribuzione di software](https://experience.adobe.com/#/downloads/content/software-distribution/it/campaign.html) {target="_blank"} di Adobe.
 
    Ulteriori informazioni sul Centro distribuzione sono disponibili a [questa pagina](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=it){target="_blank"}.
 
 1. **Posso entrare in contatto con gli esperti di Campaign?**
 
-   Iscriviti alla community di Campaign: puoi cercare le risposte nelle domande esistenti o chiedere agli esperti. [Partecipa alla conversazione](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=it){target="_blank"}
+   Iscriviti alla community di Campaign: puoi cercare le risposte nelle domande esistenti o chiedere agli esperti. [Partecipa alla conversazione](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}
 
 
 1. **Come posso segnalare un problema?**
