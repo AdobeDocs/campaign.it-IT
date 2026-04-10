@@ -5,9 +5,8 @@ feature: API
 role: Developer
 level: Intermediate, Experienced
 hide: true
-hidefromtoc: true
-exl-id: 0fd39d6c-9e87-4b0f-a960-2aef76c9c8eb
-source-git-commit: ceab90331fab0725962a2a98f338ac3dc31a2588
+exl-id: c2862f94-7d15-4a49-a74e-df90d0ea7bc9
+source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 1%
@@ -905,4 +904,3 @@ Struttura completa dell&#39;oggetto `queryDef`:
 * [Documentazione JSAPI per Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=it){target="_blank"}
 * [Utilizzare gli schemi](schemas.md)
 * [Utilizzare l’editor delle query](../start/query-editor.md)
-

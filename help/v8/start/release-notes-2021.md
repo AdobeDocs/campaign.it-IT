@@ -3,9 +3,8 @@ title: Note sulla versione di Campaign v8 2021
 description: Elenco delle funzioni e dei miglioramenti introdotti con le versioni v8 di Campaign 2021
 feature: Release Notes
 hide: true
-hidefromtoc: true
 exl-id: 5ac6bda9-86c8-4200-b285-6fee2a29039d
-source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
+source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
 workflow-type: tm+mt
 source-wordcount: '1577'
 ht-degree: 97%
@@ -18,7 +17,7 @@ In questa pagina sono elencate le nuove funzionalità, i miglioramenti e correzi
 
 ## Versione 8.2.8 {#release-8-2-8}
 
-_28 ottobre 2021_
+_venerdì 28 ottobre 2021_
 
 <table>
 <thead>
@@ -71,7 +70,7 @@ _28 ottobre 2021_
 **Miglioramenti**
 
 * Il connettore Snowflake è stato migliorato in termini di prestazioni.
-* Ai fini del monitoraggio e del testing, i registri di audit del flusso di lavoro **[!UICONTROL Replicate Staging data]** ora includono il numero di record inviati al database FFDA (Full Federated Data Access).
+* Ai fini del monitoraggio e del testing, i registri di controllo del flusso di lavoro **[!UICONTROL Replicate Staging data]** ora includono il numero di record inviati al database FFDA (Full Federated Data Access).
 * L’attività codice SQL consente ora di scegliere in quale database verrà memorizzato lo script SQL: l’origine dati predefinita o un account esterno FDA attivo prescelto.
 * È ora disponibile un set di warehouse predefiniti che può essere utilizzato per eseguire varie query in parallelo, ad esempio segmentazione, ETL o picchi. [Leggi tutto](../config/workflows.md)
 
@@ -89,7 +88,7 @@ _28 ottobre 2021_
 * È stato risolto un problema che poteva rallentare l’importazione dei pacchetti.
 * È stato risolto un problema che poteva impedire l’invio di consegne e-mail con indirizzi di seed.
 * È stato risolto un problema che poteva impedire il salvataggio delle proposte nella tabella delle proposte di offerta.
-* È stato risolto un problema che causava la registrazione errata dei problemi di timeout: questi non venivano registrati come errori di rete, ma come problemi di interruzione dello script. Questo problema si verificava nel caso di richieste HTTP incluse nelle attività JavaScript.
+* È stato risolto un problema che causava la registrazione errata dei problemi di timeout della rete: invece di essere registrati come errori di rete, venivano registrati come problemi di interruzione dello script. Questo problema si verificava nel caso di richieste HTTP incluse nelle attività JavaScript.
 * È stato risolto un problema che impediva la replica delle offerte nell’ambiente delle offerte live su Snowflake.
 * È stato risolto un problema a causa del quale veniva ignorato l’attributo “autoStg” per gli schemi incorporati non estesi.
 * È stato risolto un problema che impediva agli utenti di selezionare il collegamento **[!UICONTROL Country/Region]** durante l’anteprima di un profilo.
@@ -109,7 +108,7 @@ _28 ottobre 2021_
 
 _7 settembre 2021_
 
-**Miglioramenti di sicurezza**
+**Miglioramenti della sicurezza**
 
 * È stato risolto un problema di sicurezza per rafforzare la protezione contro gli attacchi di navigazione nelle directory. (NEO-28547)
 
@@ -124,7 +123,7 @@ _7 settembre 2021_
 * I connettori Microsoft CRM precedentemente dichiarati obsoleti (per implementazioni Office 365 e on-premise) sono stati rimossi dall’interfaccia. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-ms-dynamics.html?lang=it#configure-acc-for-microsoft)
 
 * In seguito alla migrazione a Tomcat 8, lo script di installazione di IIS è stato aggiornato per risolvere i problemi di integrazione di IIS. (NEO-31019)
-* È stata aggiunto un guardrail per consentire solo l’esecuzione del [flusso di lavoro tecnico di fatturazione](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/monitoring-processes.html?lang=it#billing-report) sull’istanza di marketing.
+* È stato aggiunto un guardrail per consentire l’esecuzione del [flusso di lavoro tecnico di fatturazione](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/monitoring-processes.html?lang=it#billing-report) solo sull’istanza di marketing.
 * L’identificazione dell’origine dati è stata migliorata nelle schede dati e schema della finestra **Visualizza popolazione** delle transizioni del flusso di lavoro.
 * Indici di database mancanti aggiunti ai seguenti schemi per evitare problemi di aggiornamento del database: xtk:rights, nms:dlvExclusion, nms:seedMember, nms:trackingUrl
 
@@ -137,16 +136,16 @@ _7 settembre 2021_
 * È stato corretto un errore che si verificava durante la connessione a Microsoft CRM tramite API web. Il messaggio di errore è stato rimosso perché le funzionalità non erano interessate.
 * È stato risolto un problema di deduplica del registro di tracciamento quando il server mid veniva impostato come relay tra i server di tracciamento e di marketing. (NEO-36285)
 * È stata corretta una regressione che impediva l’utilizzo di Vault come archivio di codice specifico.
-* È stato risolto un problema che impediva l’utilizzo di variabili in un’attività del flusso di lavoro **Arricchimento** quando la transizione in ingresso proveniva da un’origine dati FDA.
+* È stato risolto un problema che impediva l’utilizzo di variabili in un’attività del flusso di lavoro **Enrichment** quando la transizione in ingresso proveniva da un’origine dati FDA.
 * È stato risolto un problema relativo a FFDA che impediva la corretta replica dei gruppi di operatori e dei diritti.
 * È stato risolto un problema che poteva causare l’invio di un collegamento di annullamento dell’abbonamento errato tramite la consegna.
 * È stato risolto un problema nella gestione della replica che influiva sulla durata del post aggiornamento.
 * È stato risolto un problema che poteva impedire la visualizzazione di **Hot click**.
-* È stato risolto un problema che poteva causare il malfunzionamento degli URL nei messaggi e-mail.
+* È stato risolto un problema che poteva causare il mancato funzionamento degli URL nei messaggi e-mail.
 
 ## Versione 8.1.14 {#release-8-1-14}
 
-_23 luglio 2021_
+_sabato 23 luglio 2021_
 
 **Novità**
 

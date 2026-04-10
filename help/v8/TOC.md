@@ -5,10 +5,10 @@ user-guide-description: Documentazione di prodotto per Adobe Campaign v8 (consol
 title: Documentazione di Adobe Campaign v8
 description: Documentazione di Campaign v8
 breadcrumb-title: Documentazione di Campaign v8
-source-git-commit: a81ec247d3c44c06aad977c0c58ad7916d6aa2a6
+source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 87%
+ht-degree: 84%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 87%
 
 + [Documentazione di Campaign v8](campaign-home.md)
 + Note sulla versione {#releases}
-   + [Note preliminari sulla versione](start/e-release-notes.md)
+   + {hide-from-toc}[Note preliminari sulla versione](start/e-release-notes.md)
    + [Versioni e aggiornamenti](start/upgrades.md)
    + [Versioni più recenti](start/release-notes.md)
    + Versioni precedenti {#previous-rn}
@@ -25,11 +25,11 @@ ht-degree: 87%
       + [2024](start/release-notes-2024.md)
       + [2023](start/release-notes-2023.md)
       + [2022](start/release-notes-2022.md)
-      + [2021](start/release-notes-2021.md)
+      + {hide-from-toc}[2021](start/release-notes-2021.md)
    + [Guardrail](start/ac-guardrails.md)
-   + [Problemi noti](start/known-issues.md)
+   + {hide-from-toc}[Problemi noti](start/known-issues.md)
    + [Matrice di compatibilità](start/compatibility-matrix.md)
-   + [Aggiornamenti alla documentazione](start/documentation-updates.md)
+   + {hide-from-toc}[Aggiornamenti alla documentazione](start/documentation-updates.md)
    + [Rapporto aggiornamenti mensili](../../monthly-updates-report.md)
 + Introduzione {#new}
    + [Introduzione ad Adobe Campaign](start/get-started.md)
@@ -40,7 +40,7 @@ ht-degree: 87%
    + [Da Campaign Classic v7 a v8](start/v7-to-v8.md)
    + [Da Campaign Standard a v8](start/acs-to-v8.md)
    + [Domande frequenti](start/campaign-faq-comprehensive.md)
-   + [Domande frequenti](start/campaign-faq.md)
+   + {hide-from-toc}[Domande frequenti](start/campaign-faq.md)
 + Amministrazione e autorizzazioni {#permissions}
    + [Introduzione alle autorizzazioni](start/gs-permissions.md)
    + [Gestire le autorizzazioni utente](start/manage-permissions.md)
@@ -78,7 +78,7 @@ ht-degree: 87%
          + [Impostazioni delle consegne SMS](send/sms/sms-delivery-settings.md)
          + [Impostazioni account esterno SMPP](send/sms/smpp-external-account.md)
          + [Convalida di una connessione SMPP](send/sms/smpp-connection.md)
-         + [Istanza autonoma](send/sms/sms-standalone-instance.md)
+         + {hide-from-toc}[Istanza autonoma](send/sms/sms-standalone-instance.md)
          + [Infrastruttura mid-sourcing](send/sms/sms-mid-sourcing.md)
          + [Descrizione del connettore SMPP](send/sms/smpp-connector-delivery.md)
    + Notifiche push {#push}
@@ -138,8 +138,8 @@ ht-degree: 87%
       + [Creare profili di test](audiences/test-profiles.md)
    + Creare tipi di pubblico {#create-audiences}
       + [Creare un elenco di contatti](audiences/create-audiences.md)
-      + [Condividere tipi di pubblico con le soluzioni Adobe](start/shared-audiences.md)
-   + [Best practice](audiences/audiences-best-practices.md)
+      + {hide-from-toc}[Condividere tipi di pubblico con le soluzioni Adobe](start/shared-audiences.md)
+   + {hide-from-toc}[Best practice](audiences/audiences-best-practices.md)
    + [Gestire le iscrizioni](start/subscriptions.md)
 + Pagine di destinazione e Forms {#content}
    + [Creare pagine di destinazione](dev/landing-pages.md)
@@ -237,7 +237,7 @@ ht-degree: 87%
       + [Gestire le cartelle e le visualizzazioni](audiences/folders-and-views.md)
       + [Utilizzare le enumerazioni](config/enumerations.md)
       + [Impostazioni dei messaggi transazionali](config/transactional-msg-settings.md)
-      + [Integrare gli SDK di Campaign con la tua app - PAGINA OBSOLETA](config/push-config.md)
+      + {hide-from-toc}[Integra gli SDK di Campaign con la tua app - PAGINA OBSOLETA](config/push-config.md)
       + [Account esterni](config/external-accounts.md)
 + Risorse per sviluppatori {#developer}
    + [Modello dati di Campaign](dev/datamodel.md)
@@ -256,7 +256,7 @@ ht-degree: 87%
       + [Moduli di input](dev/forms.md)
    + [Utilizzare i pacchetti di dati](dev/packages.md)
    + [API di Campaign](dev/api.md)
-   + [Eseguire una query sul database con queryDef](dev/query-api.md)
+   + {hide-from-toc}[Eseguire una query sul database con queryDef](dev/query-api.md)
    + API REST {#apis}
       + [Introduzione alle API REST](dev/api/get-started-apis.md)
       + [Raccomandazioni e limitazioni](dev/api/limitations.md)

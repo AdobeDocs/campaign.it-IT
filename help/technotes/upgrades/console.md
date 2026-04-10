@@ -3,9 +3,8 @@ product: campaign
 title: deprecazione a 32 bit della console client
 description: deprecazione a 32 bit della console client
 hide: true
-hidefromtoc: true
 exl-id: 9411e38a-5783-439c-ad54-f33bd374f2b8
-source-git-commit: 50dcdf1f6bcc8c8a195a0bf0a37af254f33b80d5
+source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 1%
