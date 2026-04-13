@@ -7,9 +7,9 @@ Role: User
 level: Experienced
 version: Campaign v8, Campaign Classic v7
 exl-id: a1e08d57-0387-4802-b447-f6d9ad87072a
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+source-git-commit: c9098683077d4a01e269801b4434fcf5eb1f90a4
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '418'
 ht-degree: 3%
 
 ---
@@ -25,6 +25,16 @@ Prima di configurare l’attività, assicurati di soddisfare i seguenti prerequi
 * L’attività è disponibile solo per le origini dati remote.
 * Lo schema in uscita deve esistere nel database ed essere collegato a un database FDA.
 
+## Note importanti {#important-notes}
+
+Dalla versione 8.9.1, le attività del flusso di lavoro **[!UICONTROL SQL code]** e **[!UICONTROL SQL Data Management]** sono state migliorate per proteggere meglio i database PostgreSQL e mantenere i flussi di lavoro in esecuzione senza problemi quando l’istruzione SQL personalizzata viene eseguita da Campaign.
+
+In caso di errori, sono disponibili due soluzioni:
+
+* Soluzione 1 - `XtkSecurity_FeatureFlag_SqlSensitive`
+* Soluzione 2 - `XtkSecurity_SqlSensitive_Methods`
+
+Per ulteriori dettagli e best practice, consulta [Codice SQL](sql-code-and-javascript-code.md#important-notes).
 
 ## Configurazione dell&#39;attività di gestione dati SQL {#configuring-the-sql-data-management-activity}
 
