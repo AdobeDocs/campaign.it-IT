@@ -1,22 +1,20 @@
 ---
 product: campaign
 title: Codice SQL e codice JavaScript
-description: Ulteriori informazioni sulle attività del flusso di lavoro dei codici SQL e JavaScript
+description: Ulteriori informazioni sulle attività del flusso di lavoro del codice SQL e JavaScript
 feature: Workflows
 Role: User
 level: Experienced
 version: Campaign v8, Campaign Classic v7
 exl-id: 8c385847-a320-4cd9-9048-2bf9daf2ee07
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+source-git-commit: aa9413dc794cf1a3683b33ca064ce228c90107f7
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 13%
+source-wordcount: '386'
+ht-degree: 9%
 
 ---
 
 # Codice SQL e codice JavaScript{#sql-code-and-javascript-code}
-
-
 
 ## Codice SQL {#sql-code}
 
@@ -31,6 +29,22 @@ Un&#39;attività **[!UICONTROL SQL code]** esegue uno script SQL. Lo script è u
 * **[!UICONTROL Processing errors]**
 
   Consulta [Errori di elaborazione](monitor-workflow-execution.md#processing-errors).
+
+### Note importanti {#important-notes}
+
+Dalla versione 8.9.1, le attività del flusso di lavoro **[!UICONTROL SQL code]** e **[!UICONTROL SQL Data Management]** sono state migliorate per proteggere meglio i database PostgreSQL e mantenere i flussi di lavoro in esecuzione senza problemi quando l’istruzione SQL personalizzata viene eseguita da Campaign. Di seguito sono riportate alcune best practice da seguire in caso di errori.
+
+Opzioni disponibili in **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**. In caso di errori sono disponibili due soluzioni:
+
+**Soluzione 1**
+
+Imposta `XtkSecurity_FeatureFlag_SqlSensitive` su `0`. La funzione è disattivata.
+
+**Soluzione 2**
+
+Modifica `XtkSecurity_SqlSensitive_Methods`. È possibile cambiare `<method name="TRUNCATE" action="block"/>` in `<method name="TRUNCATE" action="warn"/>`
+
+Altri metodi, quali VACUUM FULL, REINDEX, CREATE INDEX e DROP INDEX, sono bloccati per impostazione predefinita per proteggere l&#39;integrità del database. Presta attenzione se desideri impostarli per l’avviso anziché per il blocco. Questi metodi possono avere un impatto significativo sulle prestazioni del database durante l&#39;esecuzione.
 
 ## Codice JavaScript e codice JavaScript avanzato {#javascript-code}
 
