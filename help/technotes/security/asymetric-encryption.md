@@ -4,7 +4,7 @@ title: 'Nota tecnica: crittografia e decrittografia asimmetriche in Adobe Campai
 description: 'Nota tecnica: crittografia e decrittografia asimmetriche in Adobe Campaign'
 hide: true
 exl-id: 6ee8b05b-2a46-4adf-a036-82fdd4809d0d
-source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
+source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 1%
@@ -54,4 +54,4 @@ var decrypted = rsaPrivateDecrypt(
 **Risorse aggiuntive**
 
 * [Introduzione alle [!DNL Campaign] API](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/developer/api){target="_blank"}
-* [Documentazione JSAPI per Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=it){target="_blank"}
+* [Documentazione JSAPI per Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target="_blank"}

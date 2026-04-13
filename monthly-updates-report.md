@@ -5,7 +5,8 @@ title: Rapporto sugli aggiornamenti mensili della documentazione
 description: Elenco delle pagine della documentazione nuove e aggiornate
 hide: true
 hidefromtoc: true
-source-git-commit: 4626d93dea22e0ee458babfd53758c8c63a98ad4
+exl-id: 5e13798e-314f-4cbe-aea8-6229b7c1f9e6
+source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 0%
