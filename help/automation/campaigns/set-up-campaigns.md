@@ -61,4 +61,4 @@ Una volta completati questi passaggi, puoi [avviare le consegne](marketing-campa
 
 Questo video illustra i concetti chiave delle campagne di marketing.
 
->[!VIDEO](https://video.tv.adobe.com/v/35131?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/326578?captions=ita&quality=12)
