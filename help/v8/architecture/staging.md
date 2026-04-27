@@ -7,14 +7,14 @@ level: Intermediate
 exl-id: 96693af9-50db-4298-ae02-c238d35e52b4
 source-git-commit: 9d500f185a9e706b6558135978c4f8c79d92d0d4
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '324'
 ht-degree: 2%
 
 ---
 
 # Meccanismo di staging per le API di Campaign
 
-Nel contesto di un&#39;implementazione [Enterprise (FFDA)](enterprise-deployment.md), la generazione di chiamate unitarie non è consigliata per quanto riguarda le prestazioni (latenza e concorrenza). A meno che non si invii un volume estremamente basso, è necessario utilizzare l&#39;operazione batch **1&rbrace;.** Per migliorare le prestazioni, le API di acquisizione vengono reindirizzate al database locale.
+Nel contesto di un&#39;implementazione [Enterprise (FFDA)](enterprise-deployment.md), la generazione di chiamate unitarie non è consigliata per quanto riguarda le prestazioni (latenza e concorrenza). A meno che non si invii un volume estremamente basso, è necessario utilizzare l&#39;operazione batch **1}.** Per migliorare le prestazioni, le API di acquisizione vengono reindirizzate al database locale.
 
 La funzionalità di staging di Campaign è abilitata per impostazione predefinita su alcuni schemi incorporati. Possiamo anche abilitarlo su qualsiasi schema personalizzato. Meccanismo di staging in breve:
 

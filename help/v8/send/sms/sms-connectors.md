@@ -4,9 +4,10 @@ description: Scopri i connettori SMS in Adobe Campaign
 feature: SMS
 role: User, Admin
 level: Intermediate
-source-git-commit: e349e9f236c3eeb28ffe96bcc5ec72ab64c4c127
+exl-id: 5ec3f172-22dc-458b-8688-9974009c985e
+source-git-commit: 0278c5161b4b32cd2158c7694d3c7a9996a401cb
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '472'
 ht-degree: 1%
 
 ---
@@ -24,7 +25,7 @@ Il connettore SMS legacy è il connettore SMS basato su MTA utilizzato nelle ver
 
 Per informazioni su come trarre vantaggio dal connettore v2, consulta la sezione [Activation](#activation).
 
-Per informazioni dettagliate sulla configurazione e sull&#39;utilizzo del connettore SMS legacy, consulta la [documentazione di Campaign Classic](https://experienceleague.adobe.com/it/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}.
+Per informazioni dettagliate sulla configurazione e sull&#39;utilizzo del connettore SMS legacy, consulta la [documentazione di Campaign Classic](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}.
 
 ## Connettore SMS v2 {#sms-connector-v2}
 

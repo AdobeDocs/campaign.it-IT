@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 36033255-1e75-41c1-9816-126777f7330a
 source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 10%
+source-wordcount: '1209'
+ht-degree: 9%
 
 ---
 
@@ -42,7 +42,7 @@ Utilizzare l&#39;opzione **[!UICONTROL Test SMTP delivery]** per verificare l&#3
 >
 >* Questa opzione non deve essere impostata nel mid-sourcing.
 >
->* Ulteriori informazioni sulla configurazione del server SMTP nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html?lang=it#smtp-relay){target="_blank"}.
+>* Ulteriori informazioni sulla configurazione del server SMTP nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html#smtp-relay){target="_blank"}.
 
 ## Inviare in più scaglioni {#sending-using-multiple-waves}
 

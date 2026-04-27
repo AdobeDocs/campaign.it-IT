@@ -6,8 +6,8 @@ role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
 source-git-commit: 24ecf598d3d01f7fb59c70e1c8c81e9c086e653e
-workflow-type: ht
-source-wordcount: '1006'
+workflow-type: tm+mt
+source-wordcount: '1041'
 ht-degree: 100%
 
 ---
@@ -39,7 +39,7 @@ Quando utilizzi Campaign per la prima volta, devi scaricare la console client e 
 
 Per scaricare la console client sono disponibili due opzioni:
 
-1. In qualità di amministratore di Campaign, connettiti alla [Distribuzione di software](https://experience.adobe.com/#/downloads/content/software-distribution/it/campaign.html){target="_blank"} di Adobe.
+1. In qualità di amministratore di Campaign, connettiti alla [Distribuzione di software](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html){target="_blank"} di Adobe.
 
 1. In qualità di utente finale, l’amministratore di Campaign implementa la console client e la rende disponibile tramite un URL dedicato.
 
@@ -63,7 +63,7 @@ Dopo aver installato la console client, segui i passaggi seguenti per creare la 
 
 1. Fai clic su **[!UICONTROL Ok]** per salvare le impostazioni.
 
-Puoi aggiungere tutte le connessioni necessarie per connetterti, ad esempio, agli ambienti di test, stage e produzione.
+Puoi aggiungere tutte le connessioni necessarie per connetterti, ad esempio, agli ambienti di test, di staging e di produzione.
 
 >[!NOTE]
 >
@@ -95,7 +95,7 @@ Puoi quindi accedere a Campaign con il tuo Adobe ID.
 
 Quando il sistema viene aggiornato a una versione più recente, devi aggiornare la console client alla stessa versione. Questa è una best practice e per alcune versioni questo aggiornamento è obbligatorio. In tal caso, viene menzionato nelle [Note sulla versione](release-notes.md).
 
-In qualità di utente di Managed Cloud Services, Adobe distribuisce la console client per te. Quando ti connetti all’ambiente aggiornato, ti viene richiesto di scaricare l’ultima versione della console client in una finestra a comparsa. Devi accettare questo aggiornamento e aggiornare la console client come richiesto.
+In qualità di utente di Managed Cloud Services, Adobe distribuisce la console client per te. Quando ti connetti all’ambiente aggiornato, compare una finestra a comparsa in cui ti viene richiesto di scaricare l’ultima versione della console client. Devi accettare questo aggiornamento e aggiornare la console client come richiesto.
 
 >[!CAUTION]
 >

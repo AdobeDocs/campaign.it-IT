@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 0a6f6701-b137-4320-9732-31946509ee03
 source-git-commit: 3235701e0939466d4275b1e9202f82694ccdb352
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 50%
+source-wordcount: '1073'
+ht-degree: 52%
 
 ---
 
@@ -55,7 +55,7 @@ Il database [!DNL Snowflake] sul lato marketing viene utilizzato per:
 * Memorizza tutti i dati del cliente: profili, dati personalizzati come transazioni, prodotti, posizioni, ecc.
 * Memorizza tutti gli eventi e i dati di comportamento generati o raccolti da Campaign, ad esempio i registri di consegna, di tracciamento, di registrazione push e così via.
 * Memorizza tutti gli aggregati di dati di cui sopra.
-* Memorizza una copia (h+1) delle tabelle di riferimento (come consegne, enumerazioni, paesi, ecc.) utilizzate nei flussi di lavoro, nelle campagne e nei rapporti.
+* Memorizza una copia (h+1) delle tabelle di riferimento (come consegne, enumerazioni, paesi, ecc.) utilizzati nei flussi di lavoro, nelle campagne e nei rapporti.
 * Eseguire tutti i processi batch e i carichi di lavoro
 
 
@@ -63,11 +63,11 @@ Il database PostgreSQL nell’istanza di marketing viene utilizzato per:
 
 * Eseguire determinati carichi di lavoro, ad esempio API per volumi ridotti.
 * Memorizza tutti i dati di Campaign, incluse le impostazioni di consegna e campagna, le definizioni di flussi di lavoro e servizi.
-* Memorizza tutte le tabelle di riferimento incorporate (enumerazioni, paesi, ecc.) replicate in [!DNL Snowflake].
+* Memorizza tutte le tabelle di riferimento incorporate (enumerazioni, paesi, ecc.) replicati in [!DNL Snowflake].
 
   Tuttavia, non è possibile:
    * creare personalizzazioni per i dati dei clienti, ad esempio non creare una tabella domestica in PostgreSQL, ma solo in Snowflake
-   * archivia eventuali registri di consegna, registri di tracciamento, ecc. sulla dimensione di targeting FFDA.
+   * archivia eventuali registri di consegna, registri di tracciamento, ecc. nella dimensione di targeting FFDA.
    * archiviare grandi volumi di dati.
 
 
@@ -98,7 +98,7 @@ Un flusso di lavoro tecnico specifico gestisce la replica delle tabelle che devo
 >[!NOTE]
 >
 > Sono stati creati diversi criteri di replica in base alle dimensioni della tabella (XS, XL, eccetera).
-> &#x200B;> Alcune tabelle vengono replicate in tempo reale, altre vengono replicate su base oraria. Alcune tabelle avranno aggiornamenti incrementali, altre avranno un aggiornamento completo.
+> Alcune tabelle vengono replicate in tempo reale, altre vengono replicate su base oraria. Alcune tabelle avranno aggiornamenti incrementali, altre avranno un aggiornamento completo.
 >
 
 [Ulteriori informazioni sulla replica dei dati](replication.md)

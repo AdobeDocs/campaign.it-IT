@@ -8,7 +8,7 @@ exl-id: 762dcacc-4aeb-4990-af01-7f793bd69170
 version: Campaign v8, Campaign Classic v7
 source-git-commit: 567ca1cd8fa6e4f03c8871488152710753ea02f1
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '695'
 ht-degree: 1%
 
 ---
@@ -34,8 +34,8 @@ Una visualizzazione è una cartella specifica che non contiene dati, ma visualiz
 
 * **Definire e applicare una convenzione per i nomi**. Ad esempio, è possibile denominare i flussi di lavoro in ordine alfabetico in modo che vengano visualizzati ordinati in base all&#39;ordine di esecuzione, ad esempio:
 
-  A1 - destinatari delle importazioni, inizia alle 10:00;
-A2 - l&#39;importazione dei biglietti inizia alle 11:00.
+  A1 - destinatari importazione, inizia da 10:00;
+A2 - importa ticket, inizia alle 11:00.
 
 ## Crea una cartella{#create-a-folder}
 

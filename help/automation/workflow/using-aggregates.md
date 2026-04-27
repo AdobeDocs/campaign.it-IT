@@ -8,7 +8,7 @@ exl-id: 7522f449-341e-4aef-8c1e-c49e13809c08
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '615'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -38,7 +38,7 @@ Per eseguire un filtro di tipo **Data di creazione = max (Data di creazione)** s
 
    ![](assets/datamanagement_usecase_2.png)
 
-1. Fare clic su **[!UICONTROL Edit additional data]** e quindi su **[!UICONTROL Advanced parameters...]**. Seleziona l’opzione **[!UICONTROL Disable automatic adding of the primary keys of the targeting dimension]**.
+1. Fai clic su **[!UICONTROL Edit additional data]**, quindi su **[!UICONTROL Advanced parameters...]**. Seleziona l’opzione **[!UICONTROL Disable automatic adding of the primary keys of the targeting dimension]**.
 
    Questa opzione garantisce che tutti i destinatari non vengano visualizzati come risultato e che i dati aggiunti esplicitamente non vengano conservati. In questo caso, si riferisce all’ultima data di creazione di un destinatario.
 

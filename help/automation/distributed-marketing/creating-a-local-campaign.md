@@ -7,7 +7,7 @@ role: User
 exl-id: b46530b5-cb81-40d7-b596-c7685359782a
 source-git-commit: d80a39d7f0df939d0e9e3f782d5d9aef3d459a32
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1557'
 ht-degree: 1%
 
 ---
@@ -107,7 +107,7 @@ Se non desideri assegnare un nome ai revisori per una campagna, immetti 0.
 
 ### Documenti {#documents}
 
-È possibile consentire agli operatori di entità locali di collegare documenti (file di testo, fogli di calcolo, immagini, descrizioni delle campagne, ecc.) alla campagna locale durante la creazione dell’ordine. Il collegamento **[!UICONTROL Advanced parameters for campaign entry...]** consente di limitare il numero di documenti. A questo scopo, è sufficiente immettere il numero massimo consentito nel campo **[!UICONTROL Number of documents]**.
+Puoi consentire agli operatori di entità locali di collegare documenti (file di testo, fogli di calcolo, immagini, descrizioni di campagne, ecc.) alla campagna locale durante la creazione dell’ordine. Il collegamento **[!UICONTROL Advanced parameters for campaign entry...]** consente di limitare il numero di documenti. A questo scopo, è sufficiente immettere il numero massimo consentito nel campo **[!UICONTROL Number of documents]**.
 
 ![](assets/s_advuser_mkg_dist_local_docs.png)
 

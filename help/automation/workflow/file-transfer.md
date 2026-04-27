@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 794de398-f35d-4c2b-af29-d6fd38eb9394
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '562'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 # Trasferimento file{#file-transfer}
 
 L&#39;attività **Trasferimento file** consente di ricevere o inviare file, verificare la presenza di file o elencare file in un server. Il protocollo utilizzato è Azure Blob Storage, Amazon Simple Storage Service (S3), FTP o SFTP.
-Con la connessione S3, Azure Blob Storage o SFTP, puoi anche importare i dati dei segmenti in Adobe Campaign con Adobe Real-time Customer Data Platform. Per ulteriori informazioni, consulta questa [documentazione](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html?lang=it){target="_blank"}.
+Con la connessione S3, Azure Blob Storage o SFTP, puoi anche importare i dati dei segmenti in Adobe Campaign con Adobe Real-time Customer Data Platform. Per ulteriori informazioni, consulta questa [documentazione](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html){target="_blank"}.
 
 ## Proprietà {#properties}
 
@@ -32,7 +32,7 @@ La configurazione dipende dall’azione selezionata.
 
    ![](assets/file_transfert_edit.png)
 
-   Selezionare **[!UICONTROL Use an external account]** per selezionare un account dagli account di archiviazione BLOB di Azure, S3, FTP o SFTP configurati nel nodo **[!UICONTROL Administration > Platform > External accounts]** della struttura. Quindi specifica quale directory sul server contiene i file da scaricare.
+   Selezionare **[!UICONTROL Use an external account]** per selezionare un account dall&#39;archivio BLOB di Azure, dagli account S3, FTP o SFTP configurati nel nodo **[!UICONTROL Administration > Platform > External accounts]** della struttura. Quindi specifica quale directory sul server contiene i file da scaricare.
 
    ![](assets/file_transfert_edit_external.png)
 

@@ -8,8 +8,8 @@ hide: true
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
 source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 1%
+source-wordcount: '1271'
+ht-degree: 2%
 
 ---
 
@@ -19,7 +19,7 @@ Puoi utilizzare gli SDK di Campaign per iOS e Android per facilitare l’integra
 
 Le versioni supportate di Android e iOS e le versioni compatibili con gli SDK di Campaign per Campaign v8 sono elencate nella [Matrice di compatibilità](../start/compatibility-matrix.md#MobileSDK).
 
-In qualità di amministratore di Campaign, puoi scaricare gli SDK di Campaign dalla [Distribuzione di software di Experience Cloud](https://experience.adobe.com/#/downloads/content/software-distribution/it/campaign.html). Per ulteriori informazioni, contatta l&#39;[Assistenza clienti Adobe](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+In qualità di amministratore di Campaign, puoi scaricare gli SDK di Campaign dalla [Distribuzione di software di Experience Cloud](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). Per ulteriori informazioni, contatta l&#39;[Assistenza clienti Adobe](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 
 >[!NOTE]
@@ -497,7 +497,7 @@ Scopri come implementare FCM nell&#39;applicazione nella [documentazione Google]
    Per i messaggi di notifica, la ricezione di tracciamento deve essere configurata a due livelli:
 
    * `onMessageReceived` (applicazione non in background): l&#39;implementazione è stata eseguita nella sezione precedente
-   * `onCreate` dell&#39;attività di avvio (o dell&#39;attività di destinazione se viene utilizzata la funzione `click_action`) (applicazione non in background).
+   * `onCreate` dell&#39;attività di avvio (o dell&#39;attività di destinazione se viene utilizzata la funzione `click_action`). (Applicazione non in background).
 
    Deve essere eseguito nello stesso momento del tracciamento di apertura/clic.
 

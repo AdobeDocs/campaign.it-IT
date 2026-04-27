@@ -7,7 +7,7 @@ level: Beginner
 exl-id: 16ad36b7-c13e-4b77-86ca-41c9ef174172
 source-git-commit: edbe7ab49a628436dfb4d27ae17122917d7371e9
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '627'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Puoi verificare il tracciamento su pagine mirror, registri e collegamenti e-mail
 
    ![](assets/s_ncs_user_email_del_tracking_param.png)
 
-[Ulteriori informazioni sulle opzioni di tracciamento URL](url-tracking.md)
+   [Ulteriori informazioni sulle opzioni di tracciamento URL](url-tracking.md)
 
 1. Invia la consegna al destinatario del test. [Informazioni sull&#39;invio di consegne](configure-and-send.md)
 

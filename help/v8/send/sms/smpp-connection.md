@@ -7,7 +7,7 @@ level: Intermediate
 exl-id: eda6934a-e48a-4932-8c88-588f661005d6
 source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
 workflow-type: tm+mt
-source-wordcount: '4437'
+source-wordcount: '4458'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Eseguire un test per caricare la connessione al 100% per almeno 5 secondi. Dovra
 
 Il numero minimo di messaggi da inviare può essere calcolato come segue:
 
-*Velocità effettiva MT massima * Numero totale di connessioni trasmettitore/ricetrasmettitore * 5*
+*Velocità effettiva MT massima* Numero totale di connessioni trasmettitore/ricetrasmettitore * 5*
 
 Al termine della consegna, verifica quanto segue:
 
@@ -170,10 +170,10 @@ In questo caso, puoi applicare altre procedure di risoluzione dei problemi su og
 
 Si è verificato un conflitto tra gli account. Adobe Campaign tratta gli account singolarmente, ma il provider può trattarli come un singolo account.
 
-*Stai utilizzando combinazioni di login/password diverse tra tutti i tuoi account*
+*Stai utilizzando combinazioni di login/password diverse tra tutti gli account*
 Contattare il provider per diagnosticare potenziali conflitti.
 
-*Alcuni account esterni condividono la stessa combinazione di account di accesso e password*
+*Alcuni degli account esterni condividono la stessa combinazione di login/password*
 Il provider non ha modo di sapere da quale account esterno proviene la PDU BIND, quindi tratta tutte le connessioni da più account come un unico account, quindi probabilmente indirizzano MO e SR in modo casuale sui 2 account, causando problemi apparentemente casuali.
 
 Se il provider supporta più codici brevi per la stessa combinazione di login/password, dovrai chiedere loro dove inserire tale codice breve nella PDU BIND. Si noti che questa informazione deve essere inserita nella PDU BIND e non in SUBMIT_SM, perché la PDU BIND è l&#39;unica posizione che consente il routing corretto dei MO.

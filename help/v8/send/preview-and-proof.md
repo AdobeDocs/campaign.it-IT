@@ -7,14 +7,14 @@ level: Beginner
 exl-id: 5b9fa90c-c23e-47a7-b2ca-de75da4da2ab
 source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 16%
+source-wordcount: '707'
+ht-degree: 13%
 
 ---
 
 # Anteprima e verifica dell’e-mail {#preview-test}
 
-Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarlo in anteprima e testarlo. Se hai inserito [contenuto personalizzato](personalize.md), puoi verificare come viene visualizzato nel messaggio utilizzando i dati del profilo di test. Inoltre, per rilevare eventuali errori nel contenuto del messaggio o nelle impostazioni di personalizzazione, invia bozze ai profili di test. Per convalidare il contenuto più recente, è necessario inviare una bozza ogni volta che viene apportata una modifica.
+Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarlo in anteprima e testarlo. Se hai inserito [contenuto personalizzato](personalize.md), puoi verificare come viene visualizzato nel messaggio utilizzando i dati del profilo di test. Inoltre, per rilevare eventuali errori nel contenuto del messaggio o nelle impostazioni di personalizzazione, invia bozze ai profili di test. Per convalidare il contenuto più recente, a ogni modifica deve essere inviata una bozza.
 
 ## Anteprima contenuto {#preview-content}
 
@@ -35,7 +35,7 @@ Per visualizzare in anteprima il contenuto del messaggio, segui i passaggi segue
 
 ## Inviare bozze {#send-proofs}
 
-Per le consegne e-mail, puoi inviare bozze per convalidare il contenuto del messaggio. L’invio di bozze consente di controllare il collegamento di rinuncia, la mirror page e tutti gli altri collegamenti, convalidare il messaggio, verificare che siano visualizzate le immagini, rilevare eventuali errori, ecc. È possibile anche controllare la progettazione e il rendering su dispositivi diversi.
+Per le consegne e-mail, puoi inviare bozze per convalidare il contenuto del messaggio. L’invio di bozze ti consente di controllare il collegamento di rinuncia, la pagina speculare e tutti gli altri collegamenti, convalidare il messaggio, verificare che siano visualizzate le immagini, rilevare eventuali errori, ecc. Puoi anche controllare la progettazione e il rendering su dispositivi diversi.
 
 Una bozza è un messaggio specifico che consente di testare un messaggio prima che venga inviato al pubblico principale. I destinatari della bozza hanno il compito di approvare il messaggio: rendering, contenuto, impostazioni di personalizzazione, configurazione.
 
@@ -94,7 +94,7 @@ Si consiglia di inviare le bozze dopo ogni modifica al contenuto del messaggio.
 Le proprietà della bozza sono impostate nella scheda **[!UICONTROL Advanced]** delle finestre delle proprietà di consegna. Passa al collegamento **[!UICONTROL Proof properties...]** per definire i parametri e l&#39;etichetta delle bozze. Puoi scegliere di mantenere:
 
 * Indirizzi duplicati nella bozza
-* Inserire nell&#39;elenco Bloccati Indirizzi nella bozza
+* Indirizzi nella bozza
 * Indirizzi in quarantena nella bozza
 
 Per impostazione predefinita, i messaggi di bozza sono identificati dalla menzione `Proof #N` nell&#39;oggetto, dove `N` è il numero della bozza. Questo numero viene incrementato con ogni analisi della consegna della bozza. È possibile modificare il prefisso `proof` in base alle esigenze.
@@ -106,4 +106,4 @@ Per impostazione predefinita, i messaggi di bozza sono identificati dalla menzio
 
 Scopri come inviare e convalidare una bozza per una consegna e-mail.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447007?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/333404)

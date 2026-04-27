@@ -7,7 +7,7 @@ level: Beginner
 exl-id: 092262c7-768c-4e86-9b2b-c52516f6a030
 source-git-commit: c748654c76c6b6ce8ad4d4886a1f73004a41e7ac
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '166'
 ht-degree: 7%
 
 ---
@@ -18,7 +18,7 @@ Crea filtri predefiniti per definire le regole di idoneità per la popolazione t
 
 >[!NOTE]
 >
->L’interfaccia web di Adobe Campaign offre un’interfaccia intuitiva per gestire e personalizzare facilmente i filtri predefiniti in base alle tue esigenze specifiche. Crea una sola volta e salva per un utilizzo futuro. Per ulteriori informazioni sui filtri predefiniti per l&#39;interfaccia utente Web, consulta la [documentazione dell&#39;interfaccia utente Web di Adobe Campaign](https://experienceleague.adobe.com/it/docs/campaign-web/v8/start/predefined-filters){target=_blank}.
+>L’interfaccia web di Adobe Campaign offre un’interfaccia intuitiva per gestire e personalizzare facilmente i filtri predefiniti in base alle tue esigenze specifiche. Crea una sola volta e salva per un utilizzo futuro. Per ulteriori informazioni sui filtri predefiniti per l&#39;interfaccia utente Web, consulta la [documentazione dell&#39;interfaccia utente Web di Adobe Campaign](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/predefined-filters){target=_blank}.
 
 
 Per creare un filtro predefinito, applica il seguente processo:

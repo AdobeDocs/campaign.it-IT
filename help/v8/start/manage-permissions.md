@@ -8,14 +8,14 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 90154f84-b6a7-407c-93b7-9731dc94d9de
 source-git-commit: ec506653830f4d02d0875a4f26ff4ee76f880272
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1734'
 ht-degree: 1%
 
 ---
 
 # Gestire le autorizzazioni utente{#manage-permissions}
 
-## Aggiungi utenti {#add-users}
+## Aggiungere utenti {#add-users}
 
 In qualità di amministratore di prodotto, puoi aggiungere utenti e concedere l’accesso a Campaign.
 
@@ -107,7 +107,7 @@ Questi profili di prodotto corrispondono ai **gruppi di operatori** della campag
 
    >[!IMPORTANT]
    >
-   >Il ruolo **[!UICONTROL Administrator]** concede l&#39;accesso al Pannello di controllo Campaign Campaign. Qualsiasi profilo di prodotto nel Adobe Admin Console che contenga la parola &quot;admin&quot; nel proprio nome (come &quot;Administrators&quot;, &quot;admin&quot;, &quot;admins&quot;, &quot;approval admin&quot;, ecc.) concederà l’accesso al Pannello di controllo Campaign. Ulteriori informazioni sulla [gestione dell&#39;accesso al Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=it){target="_blank"}.
+   >Il ruolo **[!UICONTROL Administrator]** concede l&#39;accesso al Pannello di controllo Campaign Campaign. Qualsiasi profilo di prodotto nel Adobe Admin Console che contenga la parola &quot;admin&quot; nel suo nome (come &quot;Administrators&quot;, &quot;admin&quot;, &quot;admins&quot;, &quot;approval admin&quot;, ecc.) concederà l&#39;accesso al Pannello di controllo Campaign. Ulteriori informazioni sulla [gestione dell&#39;accesso al Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"}.
 
 1. **[!UICONTROL Delivery operators]** (consegna)
 
@@ -120,7 +120,7 @@ Questi profili di prodotto corrispondono ai **gruppi di operatori** della campag
 
 1. **[!UICONTROL Campaign managers]** (operazione)
 
-   Gli operatori di questo gruppo possono gestire le campagne di marketing: ti consente di accedere agli oggetti collegati alle campagne (piani, programmi, flussi di lavoro, budget, ecc.) nel framework di **[!UICONTROL Campaign]** (modulo Adobe Campaign facoltativo).
+   Gli operatori di questo gruppo possono gestire le campagne di marketing: ti consente di accedere agli oggetti collegati alle campagne (piani, programmi, flussi di lavoro, budget, ecc.) nel framework di **[!UICONTROL Campaign]** (modulo Adobe Campaign opzionale).
 
    Questo gruppo contiene i seguenti diritti denominati:
 

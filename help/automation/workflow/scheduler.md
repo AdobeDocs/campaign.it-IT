@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: ed70d2d3-251e-4ee8-84d4-73ad03e8dd35
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '396'
 ht-degree: 8%
 
 ---
@@ -29,7 +29,7 @@ Dovresti considerare l’attività **[!UICONTROL Scheduler]** come un inizio pia
 
 **Utilizza un modulo di pianificazione per ramo** - Ogni ramo del flusso di lavoro deve avere una sola attività **[!UICONTROL Scheduler]**. Per ulteriori informazioni sulle best practice per l&#39;utilizzo delle attività nei flussi di lavoro, fare riferimento alla [pagina sulle best practice per i flussi di lavoro](workflow-best-practices.md#using-activities).
 
-**Impedisci esecuzioni simultanee del flusso di lavoro** - Se un flusso di lavoro viene attivato da un modulo di pianificazione, tenere presente che è possibile eseguire più istanze del flusso di lavoro contemporaneamente. Ad esempio, se una pianificazione attiva il flusso di lavoro ogni ora, ma l’esecuzione del flusso di lavoro richiede più di un’ora, si potrebbero verificare esecuzioni sovrapposte.Per evitare questo problema, è consigliabile impostare dei controlli per evitare più esecuzioni simultanee. [Scopri come impedire l&#39;esecuzione simultanea di più flussi di lavoro](monitor-workflow-execution.md#preventing-simultaneous-multiple-executions).
+**Impedisci esecuzioni simultanee del flusso di lavoro** - Se un flusso di lavoro viene attivato da un modulo di pianificazione, tenere presente che è possibile eseguire più istanze del flusso di lavoro contemporaneamente. Ad esempio, se una pianificazione attiva il flusso di lavoro ogni ora, ma l’esecuzione del flusso di lavoro richiede più di un’ora, potresti ritrovarti con esecuzioni sovrapposte.Per evitare questo problema, puoi impostare dei controlli per evitare più esecuzioni simultanee. [Scopri come impedire l&#39;esecuzione simultanea di più flussi di lavoro](monitor-workflow-execution.md#preventing-simultaneous-multiple-executions).
 
 **Account per transizioni ritardate** - Le transizioni attivate dal modulo di pianificazione potrebbero essere ritardate se il flusso di lavoro esegue attività con tempi di esecuzione lunghi (come le importazioni) o se il modulo wfserver è stato temporaneamente interrotto. Per ovviare a questo problema, limitare i tempi di attivazione del modulo di pianificazione in modo che i task vengano eseguiti entro un intervallo di tempo definito.
 

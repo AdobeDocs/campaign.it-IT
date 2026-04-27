@@ -7,14 +7,14 @@ role: User, Admin
 exl-id: 28f3a5bc-67f5-413e-b2ba-35c341f9ec5f
 source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1173'
 ht-degree: 0%
 
 ---
 
 # Best practice di interazione {#interaction-best-practices}
 
-## Raccomandazioni generali {#general-recommendations}
+## Consigli generali {#general-recommendations}
 
 La gestione delle offerte in Adobe Campaign richiede un’attenta gestione per funzionare in modo efficiente. Per evitare problemi, è necessario trovare un equilibrio tra il numero di contatti e il numero di categorie e di offerte di offerta.
 
@@ -113,7 +113,7 @@ Quando si utilizza l’interazione e si selezionano manualmente le offerte, l’
 
 ### Estendere lo schema nms:offer {#extending-nms-offer-schema}
 
-Quando estendi lo schema nms:offer, accertati di seguire la struttura preconfigurata già impostata:
+Quando si estende lo schema nms:offer, assicurarsi di seguire la struttura preconfigurata già configurata:
 * Definire un nuovo campo per l&#39;archiviazione del contenuto in `<element name="view">`.
 * Ogni nuovo campo deve essere definito due volte. Una volta come campo XML normale e una volta come campo XML CDATA con &quot;_jst&quot; aggiunto al nome. Ad esempio:
 

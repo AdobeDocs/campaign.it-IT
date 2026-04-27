@@ -7,8 +7,8 @@ level: Beginner, Intermediate
 exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
 source-git-commit: 2898fe400e9bf53fc2fe8fde26ccc61ec43bc69e
 workflow-type: tm+mt
-source-wordcount: '1386'
-ht-degree: 3%
+source-wordcount: '1425'
+ht-degree: 2%
 
 ---
 
@@ -31,7 +31,7 @@ Per ogni sistema, questi passaggi devono essere eseguiti da un amministratore.
 
 ## Configurare Microsoft Dynamics 365 {#config-crm-microsoft}
 
-Per connettere Microsoft Dynamics 365 per l&#39;utilizzo con Adobe Campaign tramite **API Web**, accedere alla [directory di Microsoft Azure](https://portal.azure.com) utilizzando una credenziale **Global administrator**, quindi eseguire la procedura seguente:
+Per connettere Microsoft Dynamics 365 per l&#39;utilizzo con Adobe Campaign tramite **API Web**, accedere alla [directory Azure di Microsoft](https://portal.azure.com) utilizzando una credenziale **Global administrator**, quindi eseguire la procedura seguente:
 
 1. Ottieni l’ID dell’applicazione (client) Dynamics 365. [Ulteriori informazioni](#get-client-id-microsoft)
 1. Genera l’identificatore e l’ID della chiave del certificato di Microsoft Dynamics. [Ulteriori informazioni](#config-certificate-key-id)
@@ -44,10 +44,10 @@ Per connettere Microsoft Dynamics 365 per l&#39;utilizzo con Adobe Campaign tram
 
 Per ottenere l&#39;ID applicazione (client), è necessario registrare un&#39;app in Azure Active Directory.
 
-1. Selezionare **Azure Active Directory > Registrazioni app** e selezionare **Nuova registrazione**.
+1. Passa a **Azure Active Directory > Registrazioni app** e seleziona **Nuova registrazione**.
 1. Immettere un nome univoco che consenta di identificare un&#39;istanza, ad esempio **adobecampaign`<instance identifier>`**.
 
-Dopo il salvataggio, la directory di Microsoft Azure assegna un ID **applicazione (client) univoco** all&#39;app. Questo ID sarà necessario successivamente per configurare Dynamics 365 in Adobe Campaign.
+Dopo il salvataggio, Microsoft Azure Directory assegna un ID **applicazione (client) univoco** all&#39;app. Questo ID sarà necessario successivamente per configurare Dynamics 365 in Adobe Campaign.
 
 Ulteriori informazioni sono disponibili nella [documentazione di Microsoft Dynamics 365](https://docs.microsoft.com/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory){target="_blank"}.
 
@@ -96,12 +96,12 @@ Ad esempio:
 
 **Passaggio 2**: concedere il consenso dell&#39;amministratore
 
-1. Passare a **Azure Active Directory > Applicazioni aziendali**.
+1. Passa a **Azure Active Directory > Applicazioni aziendali**.
 1. Seleziona l’applicazione a cui desideri concedere il consenso dell’amministratore a livello di tenant.
 1. Dal menu del riquadro a sinistra, selezionare **Autorizzazioni** in **Sicurezza**.
 1. Fai clic su **Concedi il consenso dell&#39;amministratore**.
 
-Per ulteriori informazioni, consulta [Documentazione di Azure](https://docs.microsoft.com/azure/active-directory/manage-apps/grant-admin-consent#grant-admin-consent-from-the-azure-portal).
+Per ulteriori informazioni, consulta la [documentazione di Azure](https://docs.microsoft.com/azure/active-directory/manage-apps/grant-admin-consent#grant-admin-consent-from-the-azure-portal).
 
 ### Creare un utente dell’app {#create-app-user-microsoft}
 
@@ -119,14 +119,14 @@ L’utente dell’app è l’utente che verrà utilizzato dall’applicazione re
 
 **Passaggio 2**: assegna una licenza corretta all&#39;utente creato
 
-1. Da [Microsoft Azure](https://portal.azure.com), fare clic su **App amministratore**.
+1. Da [Microsoft Azure](https://portal.azure.com), fai clic su **Admin app**.
 1. Vai a **Utenti > Utenti attivi** e fai clic sull&#39;utente appena creato.
 1. Fai clic su **Modifica licenze prodotto** e seleziona il **Piano di coinvolgimento del cliente Dynamics 365**.
 1. Fai clic su **Chiudi**.
 
 **Passaggio 3**: creare un utente dell&#39;applicazione in Dynamics CRM
 
-1. Da [Microsoft Azure](https://portal.azure.com), passare a **Impostazioni > Protezione > Utenti**.
+1. Da [Microsoft Azure](https://portal.azure.com), passa a **Impostazioni > Protezione > Utenti**.
 1. Fare clic sull&#39;elenco a discesa, selezionare **Utenti applicazioni** e fare clic su **Nuovo**.
 1. Utilizzare lo stesso nome utente creato in Active Directory.
 1. Assegna **ID applicazione** per [l&#39;applicazione creata in precedenza](#get-client-id-microsoft).
@@ -149,7 +149,7 @@ Innanzitutto, devi creare l’account esterno Microsoft Dynamics 365.
       * **Server**: URL del server Microsoft CRM. Per trovare l&#39;URL del server di Microsoft CRM, accedere all&#39;account di Microsoft Dynamics CRM, quindi fare clic su Dynamics 365 e selezionare l&#39;app. Puoi quindi trovare l’URL del server nella barra degli indirizzi del browser, ad esempio https://myserver.crm.dynamics.com/.
       * **Account**: account utilizzato per accedere a Microsoft CRM.
       * **Password**: account utilizzato per accedere a Microsoft CRM.
-      * **Identificatore client**: ID applicazione (client) che è possibile trovare dal portale di gestione di Microsoft Azure nel campo Aggiorna categoria codice, ID client.
+      * **Identificatore client**: ID applicazione (client) che si trova nel portale di gestione di Microsoft Azure nel campo Aggiorna categoria codice, ID client.
       * **Versione CRM**: scegliere la versione CRM 365 di Dynamics CRM.
 
    1. Per configurare l&#39;account esterno di Microsoft Dynamics CRM per la connessione ad Adobe Campaign con un **certificato**, specificare i dettagli seguenti:
@@ -158,7 +158,7 @@ Innanzitutto, devi creare l’account esterno Microsoft Dynamics 365.
       * **Chiave privata**: copia/incolla la chiave privata, codificata base64 come spiegato in [questa sezione](#config-certificate-key-id).
       * **ID chiave**: chiave disponibile nella scheda **Manifesto** dell&#39;applicazione, come spiegato in [questa sezione](#config-certificate-key-id).
       * **Identificatore chiave personalizzato**: identificatore disponibile nella scheda **Manifesto** dell&#39;applicazione, come spiegato in [questa sezione](#config-certificate-key-id).
-      * **Identificatore client**: ID dell&#39;applicazione (client) che è possibile trovare dal portale di gestione di Microsoft Azure come spiegato in [questa sezione](#get-client-id-microsoft).
+      * **Identificatore client**: ID dell&#39;applicazione (client) reperibile dal portale di gestione di Microsoft Azure come spiegato in [questa sezione](#get-client-id-microsoft).
       * **Versione CRM**: scegliere la versione CRM 365 di Dynamics CRM.
 
 1. Seleziona l&#39;opzione **Abilita** per attivare l&#39;account in Campaign.

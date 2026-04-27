@@ -7,7 +7,7 @@ level: Intermediate
 exl-id: abab6f15-43ea-42fc-817b-8dbd88df82f7
 source-git-commit: e349e9f236c3eeb28ffe96bcc5ec72ab64c4c127
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1353'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ Nel protocollo SMPP, il testo GSM7 verrà espanso a 8 bit per carattere per faci
 In caso di problemi di codifica, ecco alcuni aspetti importanti da verificare:
 * Innanzitutto, assicurati di sapere quali caratteri appartengono a quale codifica. GSM7 è tristemente noto per il suo parziale supporto dei segni diacritici (accenti). Soprattutto in francese, dove è ed è fanno parte del GSM7, ma ê, â o ï non lo sono. Lo stesso vale per lo spagnolo.
 * La C con cediglia (ç) è presente solo in maiuscolo nell’alfabeto GSM7, ma alcuni telefoni la rendono in minuscolo o con caratteri &quot;intelligenti&quot;: il consiglio generale è di evitarla completamente e rimuovere la cediglia (è ancora molto leggibile in francese) o passare a UCS-2.
-* **Non utilizzare ASCII negli SMS.** a meno che non sia esplicitamente richiesto dal provider SMPP: questa codifica spreca spazio perché contiene caratteri a 8 bit e una copertura inferiore rispetto a GSM7. Questa codifica può essere richiesta per le reti CDMA (utilizzate in Nord America).
+* **Non utilizzare ASCII in SMS!** a meno che non sia esplicitamente richiesto dal provider SMPP: questa codifica spreca spazio perché presenta caratteri a 8 bit e una copertura inferiore rispetto a GSM7. Questa codifica può essere richiesta per le reti CDMA (utilizzate in Nord America).
 * Latin-1 non è sempre supportato. Verifica la compatibilità con il provider SMPP prima di tentare di utilizzare Latin-1.
 * Le tabelle di cambio della lingua nazionale non sono supportate dal connettore Adobe Campaign. Al suo posto, utilizza UCS-2 o un altro codice_dati.
 * Le unità UCS-2 e UTF-16 sono spesso combinate dai telefoni. Questo è un problema per le persone che inviano emoji e altri caratteri raramente utilizzati non presenti in UCS-2.

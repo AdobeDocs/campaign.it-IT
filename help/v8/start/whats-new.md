@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 source-git-commit: 4b67d5f5427b1be8217f141a97c4de413f5e1f2e
 workflow-type: tm+mt
-source-wordcount: '1447'
-ht-degree: 69%
+source-wordcount: '1504'
+ht-degree: 70%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Campaign v8 offre una **nuova interfaccia utente web** insieme alla consol
 
 A partire dalla versione 8.6 di Campaign, l’interfaccia utente web di Campaign è disponibile tramite Adobe Experience Cloud e consente di accedere senza problemi a tutte le soluzioni Adobe.
 
-[Ulteriori informazioni sull&#39;interfaccia utente di Campaign Web](https://experienceleague.adobe.com/it/docs/campaign-web/v8/campaign-web-home){target="_blank"}
+[Ulteriori informazioni sull’interfaccia utente di Campaign Web](https://experienceleague.adobe.com/it/docs/campaign-web/v8/campaign-web-home){target="_blank"}
 
 ### Gestione centrale del flusso di lavoro{#central-wf-mgt}
 
@@ -62,7 +62,7 @@ Adobe Campaign ti aiuta a creare profili cliente dai dati raccolti su tutti i tu
 
 [Ulteriori informazioni sulla gestione dei dati della clientela](audiences.md)
 
-### Gestione di campagne all’avanguardia  {#best-in-campaign-mgt}
+### Gestione di campagne all’avanguardia {#best-in-campaign-mgt}
 
 Adobe Campaign v8 offre agli addetti al marketing funzionalità all’avanguardia per pianificare, avviare e misurare le campagne tra i canali.
 
@@ -100,7 +100,7 @@ La nuova architettura cloud consente a Campaign di semplificare i processi, ridu
 >* La migrazione automatizzata da un ambiente esistente di Campaign Classic v7 non è ancora disponibile.
 
 
-### Velocità e scalabilità  {#speed-scale}
+### Velocità e scalabilità {#speed-scale}
 
 Adobe Campaign ora può sfruttare le tecnologie di database su scala cloud per migliorarne notevolmente la scalabilità e la velocità.
 
@@ -178,6 +178,6 @@ Grazie a un’interfaccia utente intuitiva, gli amministratori possono monitorar
 
 ![](assets/subdomain1.png)
 
-[Ulteriori informazioni sul Pannello di controllo Campaign di campagne](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=it){target="_blank"}
+[Ulteriori informazioni sul Pannello di controllo Campaign di Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=it){target="_blank"}
 
 

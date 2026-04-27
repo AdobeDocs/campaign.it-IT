@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Introduzione al marketing distribuito{#about-distributed-marketing}
 
-Adobe Campaign offre un&#39;applicazione **Marketing distribuito** per l&#39;implementazione di campagne di cooperazione tra entità centrali (sedi centrali, dipartimenti di marketing, ecc.) ed entità locali (punti vendita, agenzie regionali, ecc.). Questa cooperazione si basa su un&#39;area di lavoro condivisa nota come **[!UICONTROL list of campaign packages]**, in cui i modelli e le istanze della campagna creati a livello centrale vengono offerti alle entità locali.
+Adobe Campaign offre un&#39;applicazione **Marketing distribuito** per l&#39;implementazione di campagne di cooperazione tra entità centrali (sedi centrali, dipartimenti di marketing, ecc.) ed enti locali (punti vendita, agenzie regionali, ecc.). Questa cooperazione si basa su un&#39;area di lavoro condivisa nota come **[!UICONTROL list of campaign packages]**, in cui i modelli e le istanze della campagna creati a livello centrale vengono offerti alle entità locali.
 
 L’entità centrale fornisce campagne che le entità locali possono utilizzare. Le campagne vengono materializzate da pacchetti che rappresentano campagne locali o collaborative. Per utilizzare una campagna, l’entità locale deve ordinarla e l’ordine deve essere approvato.
 
@@ -108,7 +108,7 @@ Per creare un&#39;entità organizzativa, fare clic sulla cartella **[!UICONTROL 
 
 ![](assets/s_advuser_mkg_dist_local_list.png)
 
-Ogni entità organizzativa contiene informazioni di identificazione (etichetta, nome interno, informazioni di contatto, ecc.) e gruppi coinvolti nel processo di approvazione dell’ordine. Questi sono definiti nella sezione **[!UICONTROL Notifications and approvals]** trovata nella scheda **[!UICONTROL General]**.
+Ogni entità organizzativa contiene informazioni di identificazione (etichetta, nome interno, informazioni di contatto, ecc.) e i gruppi coinvolti nel processo di approvazione degli ordini. Questi sono definiti nella sezione **[!UICONTROL Notifications and approvals]** trovata nella scheda **[!UICONTROL General]**.
 
 * Definire un gruppo di notifica dei pacchetti: gli operatori di questo gruppo riceveranno una notifica ogni volta che un nuovo pacchetto viene aggiunto all’elenco dei pacchetti della campagna e ogni volta che una campagna diventa disponibile.
 * Seleziona il gruppo di revisori incaricati di approvare gli ordini, ovvero quelli incaricati di approvare le campagne ordinate dall’entità locale.

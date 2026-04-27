@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
 source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 9%
+source-wordcount: '588'
+ht-degree: 8%
 
 ---
 
@@ -85,13 +85,13 @@ Nell’esempio seguente, scoprirai i passaggi per progettare una consegna e-mail
 
      Ulteriori informazioni sulla gestione della pagina mirror in [questa sezione](mirror-page.md#link-to-mirror-page).
 
-1. Puoi definire parametri aggiuntivi per l’e-mail, ad esempio l’invio di una copia dei messaggi a un indirizzo BBC, la modifica del formato del messaggio, l’impostazione di una codifica specifica e così via. Per ulteriori informazioni, consulta [questa sezione](email-parameters.md).
+1. Puoi definire parametri aggiuntivi per l’e-mail, ad esempio l’invio di una copia dei messaggi a un indirizzo BBC, la modifica del formato del messaggio, l’impostazione di una codifica specifica e così via. Ulteriori informazioni in [questa sezione](email-parameters.md).
 
 1. Quando il contenuto è pronto, fai clic su **Salva**: verrà ora visualizzato nell&#39;elenco delle consegne, nella scheda **[!UICONTROL Campaigns > Deliveries]**.
 
 La prima consegna e-mail è pronta. Ora devi definire il pubblico, convalidare la consegna e inviarla.
 
-Scopri come creare un flusso di lavoro per importare un contenuto e-mail in questo [caso d&#39;uso](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=it){target="_blank"}.
+Scopri come creare un flusso di lavoro per importare un contenuto e-mail in questo [caso d&#39;uso](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}.
 
 >[!MORELIKETHIS]
 >
@@ -100,7 +100,7 @@ Scopri come creare un flusso di lavoro per importare un contenuto e-mail in ques
 >* [Seleziona il pubblico della tua e-mail](../audiences/gs-audiences.md)
 >* [Convalidare una consegna e inviare bozze](preview-and-proof.md)
 >* [Configura e invia la consegna](configure-and-send.md)
->* [Best practice per la consegna](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=it){target="_blank"}
+>* [Best practice per la consegna](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html){target="_blank"}
 
 ## Verifica e convalida le e-mail
 

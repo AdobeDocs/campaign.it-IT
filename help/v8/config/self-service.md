@@ -7,8 +7,8 @@ level: Beginner
 exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
 source-git-commit: ec506653830f4d02d0875a4f26ff4ee76f880272
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 76%
+source-wordcount: '496'
+ht-degree: 96%
 
 ---
 
@@ -32,15 +32,15 @@ Il Pannello di controllo è disponibile direttamente da Adobe Experience Cloud. 
 
 >[!IMPORTANT]
 >
->Per impostazione predefinita, il Pannello di controllo Campaign è accessibile agli utenti amministratori che appartengono al profilo di prodotto &quot;Amministratori&quot;. In base alla configurazione dell’organizzazione, il profilo di prodotto può essere denominato in modo diverso (&quot;admin&quot;, &quot;admins&quot;, &quot;approval admin&quot;, ecc.). **Qualsiasi profilo di prodotto che contiene la parola &quot;admin&quot; nel suo nome concederà automaticamente l&#39;accesso al Pannello di controllo Campaign.**
+>Per impostazione predefinita, il Pannello di controllo è accessibile agli utenti amministratori che appartengono al profilo di prodotto “Amministratori”. In base alla configurazione della tua organizzazione, il profilo di prodotto può essere denominato in modo diverso (“admin”, “amministratori”, “admin di approvazione”, ecc.). **Qualsiasi profilo di prodotto che contiene la parola “admin” nel nome concederà automaticamente l’accesso al Pannello di controllo.**
 >
->Esamina attentamente la denominazione del profilo di prodotto per assicurarti che solo gli utenti autorizzati abbiano accesso al Pannello di controllo Campaign.
+>Esamina attentamente la denominazione del profilo di prodotto affinché solo gli utenti autorizzati abbiano accesso al Pannello di controllo.
 
 Per ulteriori informazioni, [fai clic qui](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=it){target="_blank"}.
 
 ## Domande frequenti sul Pannello di controllo {#ac-control-faq}
 
-[Fai clic qui &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=it#control-panel){target="_blank"} per accedere alle domande frequenti sul Pannello di controllo Campaign.
+[Fai clic qui ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=it#control-panel){target="_blank"} per accedere alle domande frequenti sul Pannello di controllo Campaign.
 
 ## Gestione SFTP {#ac-control-sftp}
 
@@ -62,7 +62,7 @@ Il Pannello di controllo offre diverse funzionalità per monitorare le istanze e
 ## Impostazioni delle istanze
 
 Scopri come gestire le impostazioni delle istanze di Campaign nel Pannello di controllo.
-* [IP sull’elenco Consentiti](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=it){target="_blank"}
+* [IP sull’elenco consentiti](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=it){target="_blank"}
 * [Autorizzazioni URL](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=it){target="_blank"}
 * [Dettagli istanza](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=it){target="_blank"}
 * [Gestione chiavi GPG](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=it){target="_blank"}

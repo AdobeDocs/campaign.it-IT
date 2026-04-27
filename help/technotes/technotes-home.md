@@ -7,8 +7,8 @@ level: Experienced
 exl-id: ae1ef010-24d5-4be4-a30c-899e2b0040a4
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 79%
+source-wordcount: '151'
+ht-degree: 47%
 
 ---
 
@@ -48,19 +48,19 @@ Starting Campaign v8.6, the authentication process to Campaign v8 is being impro
     <td>
       <img src="../v8/assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>Esperienza cliente</strong><br/> <a href="../automation/workflow/about-workflows.md" target="_blank">Automatizza con i flussi di lavoro</a> - <a href="../automation/campaigns/set-up-campaigns.md" target="_blank">Orchestrazione della campagna</a> - <a href="../v8/interaction/interaction.md">Gestione delle decisioni</a> - <a href="../v8/send/personalize.md">Personalizzazione</a>
+      <strong>Esperienza del cliente</strong><br/><a href="../automation/workflow/about-workflows.md" target="_blank">Automatizzare con flussi di lavoro</a> - <a href="../automation/campaigns/set-up-campaigns.md" target="_blank">Orchestrazione campagna</a> - <a href="../v8/interaction/interaction.md">Gestione decisioni</a> - <a href="../v8/send/personalize.md">Personalization</a>
     </td>
     <td>
       <img src="../v8/assets/do-not-localize/icon-send.svg" width="35px">
     <br/>
-      <strong>Inviare messaggi</strong><br/><a href="../v8/start/create-message.md">Introduzione</a> - <a href="../v8/send/preview-and-proof.md">Anteprima e bozze</a> - <a href="../v8/send/predictive.md">Ottimizzazione del tempo di invio</a> - <a href="../v8/reporting/gs-reporting.md">Reporting e analisi</a>
+      <strong>Inviare messaggi</strong><br/><a href="../v8/start/create-message.md">Inizia</a> - <a href="../v8/send/preview-and-proof.md">Anteprima e bozze</a> - <a href="../v8/send/predictive.md">Ottimizzazione dell'ora di invio</a> - <a href="../v8/reporting/gs-reporting.md">Reporting e analisi</a>
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
       <img src="../v8/assets/do-not-localize/icon_profile-audience.svg" width="35px">
     <br/>
-      <strong>Profili e tipi di pubblico</strong><br/> <a href="../v8/audiences/create-profiles.md">Aggiungere profili</a> - <a href="../v8/audiences/create-audiences.md">Creare tipi di pubblico</a> - <a href="../v8/start/subscriptions.md">Gestiire gli abbonamenti</a> - <a href="../v8/start/privacy.md">Privacy</a>
+      <strong>Profili e pubblico</strong><br/><a href="../v8/audiences/create-profiles.md">Aggiungi profili</a> - <a href="../v8/audiences/create-audiences.md">Crea pubblico</a> - <a href="../v8/start/subscriptions.md">Gestisci abbonamenti</a> - <a href="../v8/start/privacy.md">Privacy</a>
     </td>
     <td>
       <img src="../v8/assets/do-not-localize/icon-configure.svg" width="35px">

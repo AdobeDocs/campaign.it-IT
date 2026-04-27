@@ -5,8 +5,8 @@ feature: Release Notes
 exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
 source-git-commit: b3ca222fb28c1a5d35190e41cfbbe463c5d1bcad
 workflow-type: tm+mt
-source-wordcount: '1943'
-ht-degree: 89%
+source-wordcount: '1946'
+ht-degree: 88%
 
 ---
 
@@ -28,7 +28,7 @@ In questa pagina sono elencate le nuove funzionalità, i miglioramenti e le corr
 
 ## Versione 8.4.2 {#release-8-4-2}
 
-_28 ottobre 2022_
+_sabato 28 ottobre 2022_
 
 **Correzioni**
 
@@ -36,7 +36,7 @@ _28 ottobre 2022_
 
 ## Versione 8.4.1 {#release-8-4-1}
 
-_30 settembre 2022_
+_sabato 30 settembre 2022_
 
 **Novità**
 
@@ -133,7 +133,7 @@ Consulta la [Matrice di compatibilità di Campaign](compatibility-matrix.md).
 >
 > L’aggiornamento della console client è obbligatorio. Scopri come aggiornare la console client in questa [pagina](../start/connect.md#download-ac-console).
 
-_7 ottobre 2022_
+_sabato 7 ottobre 2022_
 
 **Correzioni**
 
@@ -159,7 +159,7 @@ _7 ottobre 2022_
 
 ## Versione 8.3.8 {#release-8-3-8}
 
-_18 maggio 2022_
+_giovedì 18 maggio 2022_
 
 **Novità**
 
@@ -217,7 +217,7 @@ _18 maggio 2022_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Marketing distribuito di Campaign consente di implementare campagne di collaborazione tra entità centrali (sedi centrali, dipartimenti di marketing, ecc.) ed entità locali (punti vendita, agenzie regionali, ecc.). Tramite un’area di lavoro condivisa (pacchetti di campagne), puoi creare modelli di campagna e proporli alle entità locali.</p>
+<td> <p>Marketing distribuito di Campaign consente di implementare campagne di collaborazione tra entità centrali (sedi centrali, dipartimenti di marketing, ecc.) ed enti locali (punti vendita, agenzie regionali, ecc.). Tramite un’area di lavoro condivisa (pacchetto campagna), puoi creare modelli di campagna e proporli alle entità locali.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../start/campaigns.md#distributed-marketing-add-on">documentazione dettagliata</a>.</p>
 </td> 
 </tr> 
@@ -235,12 +235,12 @@ Consulta la [Matrice di compatibilità di Campaign](compatibility-matrix.md).
 
 * L’autenticazione di Microsoft Exchange Online OAuth 2.0 per POP3 è ora supportata in Campaign. [Maggiori informazioni](../config/external-accounts.md#bounce-mails-external-account)
 * Sono state applicate correzioni critiche relative all’API web di Microsoft Dynamics Connector.
-* È stato aggiunto il nuovo diritto di scrittura dello schema di operatore e gruppo (operatorWrite) denominato per consentire agli utenti di inserire, aggiornare ed eliminare gli schemi Operatori (xtk:operator) e Gruppi di operatori (xtk:group).
+* È stato aggiunto il nuovo diritto di scrittura dello schema di operatore e gruppo (operatorWrite) denominato per consentire agli utenti di inserire, aggiornare ed eliminare schemi di operatori (xtk:operator) e gruppi di operatori (xtk:group).
   <!--* You can now enable the Email BCC (blind carbon copy) capability to store emails sent by Campaign at the delivery level, through the dedicated option in the delivery properties. [Read more](../config/email-settings.md#email-bcc)-->
   <!--* To ensure better performances, a new "Split" option is now activated by default in the Routing external account. This option allows messages to be automatically split across your mid-sourcing instances in order to be delivered faster to the recipients.-->
 * È ora possibile configurare più account attivi LINE su un singolo mid-sourcing.
 * Il numero di connessioni predefinite per il processo web è stato aumentato da 50 a 150.
-* Campaign viene fornito con un set di nuovi guardrail per impedire l’inserimento di chiavi duplicate nel database di Snowflake. [Maggiori informazioni](../architecture/keys.md)
+* Campaign viene fornito con un set di nuovi guardrail per impedire l’inserimento di chiavi duplicate nel database di Snowflake. [Ulteriori informazioni](../architecture/keys.md)
 
 **Correzioni**
 
@@ -251,13 +251,13 @@ Consulta la [Matrice di compatibilità di Campaign](compatibility-matrix.md).
 
 ## Versione 8.2.10 {#release-8-2-10}
 
-_2 febbraio 2022_
+_giovedì 2 febbraio 2022_
 
 **Correzioni**
 
 * È stato risolto un problema che causava un errore nella preparazione della consegna se veniva raggiunto il numero massimo di messaggi, definito nella regola di tipologia.
 * È stato risolto un problema che si verificava durante la configurazione del connettore Adobe Analytics se l’indirizzo e-mail conteneva un carattere “s”.
-* È stato risolto un problema che si verificava durante il post aggiornamento e poteva causare la perdita di dati della tabella deliveryMapping da una mappatura di consegna personalizzata.
+* È stato risolto un problema che si verificava durante il post-aggiornamento e poteva causare la perdita di dati della tabella deliveryMapping da una mappatura di consegna personalizzata.
 * È stato risolto un problema a causa del quale i destinatari potevano ricevere lo stesso messaggio più volte per la stessa consegna se l’indirizzo e-mail conteneva una virgoletta singola (&#39;). Questo carattere ora viene preceduto da un carattere di escape. (NEO-41198)
 * È stato risolto un problema di generazione ID che si verificava durante l’invio di bozze con indirizzi seed o sostitutivi. (NEO-42637)
 * È stato risolto un problema che poteva impedire l’invio di bozze utilizzando il metodo di sostituzione dell’indirizzo. (NEO-40417)

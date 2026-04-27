@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 04bda36f-051f-41a3-84b3-6af3c5e34ab2
 source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 21%
+source-wordcount: '806'
+ht-degree: 30%
 
 ---
 
@@ -62,7 +62,7 @@ Le nuove versioni e le modifiche apportate sono elencate nelle [Note sulla versi
 
 Per ricevere informazioni sulle nuove versioni della soluzione Experience Cloud e sui relativi contenuti, abbonati alla comunicazione [Aggiornamenti dei prodotti priority Adobe](https://www.adobe.com/it/subscription/priority-product-update.html){target="_blank"}.
 
-Puoi anche visitare la [Community di Campaign](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?profile.language=it&style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"} per ricevere informazioni sugli aggiornamenti delle versioni.
+Puoi anche visitare la [Community di Campaign](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"} per ricevere informazioni sugli aggiornamenti delle versioni.
 
 
 ### Perché la mia organizzazione ha bisogno di un aggiornamento? {#upgrades-1}
@@ -77,12 +77,12 @@ In genere, l’aggiornamento alla versione più recente comporta:
 
 * Supporto migliorato
 
-  La maggior parte dei problemi critici vengono effettivamente risolti con gli aggiornamenti e possono essere evitati. Gli aggiornamenti regolari contribuiscono a ridurre le sfide da affrontare e ad aumentare l&#39;efficienza eliminandole. La riduzione nel volume di richieste di assistenza determina risoluzioni più rapide e maggiore attenzione ai problemi che non sono correlati agli aggiornamenti.
+  La maggior parte dei problemi critici in realtà vengono risolti con gli aggiornamenti e possono essere evitati. Gli aggiornamenti regolari contribuiscono a ridurre ed eliminare le difficoltà e di conseguenza aumentano l’efficienza. La riduzione nel volume di richieste di assistenza determina risoluzioni più rapide e maggiore attenzione ai problemi che non sono correlati agli aggiornamenti.
 
 
 * Manutenzione e stabilità migliorate
 
-  Nel tempo, il team di Adobe Campaign identifica modi per migliorare la stabilità e le prestazioni del prodotto, nonché per risolvere i problemi noti. L’aggiornamento consente di aggiornare l’istanza con questi miglioramenti ed elimina le problematiche comuni riscontrate dalle organizzazioni che registrano una rapida crescita e/o complessità all’interno delle proprie istanze Campaign.I team di marketing e IT dell’organizzazione riscontrano miglioramenti nello stack tecnologico che alimenta Campaign.
+  Nel tempo, il team Adobe Campaign individua modi efficaci per migliorare la stabilità e le prestazioni del prodotto e per risolvere i problemi noti. L’aggiornamento consente di aggiornare l’istanza con questi miglioramenti ed elimina le problematiche comuni riscontrate dalle organizzazioni che registrano una rapida crescita e/o complessità all’interno delle istanze Campaign.I team di marketing e IT dell’organizzazione coglieranno subito i miglioramenti implementati nello stack tecnologico di Campaign.
 
 
 ### Qual è il processo e la tempistica per un aggiornamento? {#upgrades-2}

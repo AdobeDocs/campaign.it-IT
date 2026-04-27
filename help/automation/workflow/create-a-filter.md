@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 8e6fd9b4-77c4-4af8-921b-c3fe104fa5bc
 source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '219'
 ht-degree: 2%
 
 ---
@@ -51,4 +51,4 @@ La colonna **[!UICONTROL Taken into account if]** consente di definire i criteri
 
 In questo caso, **$(/tmp/@text)=&#39;agency&#39;**
 
-**$(/tmp/@text).L&#39;espressione =&#39;** applica ogni condizione quando il campo di input non è vuoto.
+L&#39;espressione **$(/tmp/@text)!=&#39;** applica ogni condizione quando il campo di input non è vuoto.

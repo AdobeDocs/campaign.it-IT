@@ -5,10 +5,11 @@ feature: Monitoring, Deliverability
 role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
-source-git-commit: c4d3a5d3cf89f2d342c661e54b5192d84ceb3a75
+exl-id: 90f2b7b2-db9e-42aa-aef2-e90aee5d208e
+source-git-commit: 0868fa6522f622e9fa18d4acc3606f690550e5b6
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 3%
+source-wordcount: '557'
+ht-degree: 5%
 
 ---
 
@@ -62,7 +63,7 @@ Per ulteriori dettagli sui diversi errori di consegna riscontrabili e su come ri
   </tr> 
   <tr> 
    <td> Considerato dal provider di servizi<br /> </td> 
-   <td> Per le consegne SMS, il provider di servizi SMS ha ricevuto la consegna.<br /> Per le consegne e-mail, il messaggio è stato inoltrato correttamente da Campaign all'MTA (Mail Transfer Agent).</td> 
+   <td> Per le consegne SMS, il provider del servizio SMS ha ricevuto la consegna.<br /> Per le consegne e-mail, il messaggio è stato inoltrato correttamente da Campaign all’MTA (Mail Transfer Agent).</td> 
   </tr> 
   <tr> 
    <td> Ricevuto su dispositivo mobile<br /> </td> 
@@ -94,7 +95,7 @@ Se la consegna non viene inviata e il suo stato rimane **[!UICONTROL Pending]**,
 
   Il limite di campagne simultanee è definito nell&#39;opzione **[!UICONTROL NmsOperation_LimitConcurrency]**. Il valore predefinito è 10.
 
-  In qualità di utente di Managed Cloud Services, puoi lavorare con Adobe per regolare questo limite, se necessario. Ulteriori informazioni sulle opzioni nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=it){target="_blank"}.
+  In qualità di utente di Managed Cloud Services, puoi lavorare con Adobe per regolare questo limite, se necessario. Ulteriori informazioni sulle opzioni nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html){target="_blank"}.
 
 * **Problemi relativi alla disponibilità delle risorse**
 
@@ -109,4 +110,3 @@ Se la consegna non viene inviata e il suo stato rimane **[!UICONTROL Pending]**,
 * [Inviare e monitorare le e-mail](send.md#email-monitoring)
 * [Errori di consegna](delivery-failures.md)
 * [Monitorare l’ambiente Campaign](../start/monitor.md#monitor-deliveries)
-

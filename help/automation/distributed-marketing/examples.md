@@ -7,7 +7,7 @@ role: User
 exl-id: 7825426b-c9e4-49e9-840c-dc6d6d836fbe
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1297'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## Creare una campagna locale (tramite modulo) {#creating-a-local-campaign--by-form-}
 
-L&#39;interfaccia Web di tipo **Per modulo** prevede l&#39;utilizzo di una **applicazione Web**. A seconda della configurazione, questa applicazione web può contenere qualsiasi tipo di elementi personalizzati definiti. Ad esempio, puoi suggerire collegamenti per valutare il target, il budget, il contenuto e così via. tramite API dedicate.
+L&#39;interfaccia Web di tipo **Per modulo** prevede l&#39;utilizzo di una **applicazione Web**. A seconda della configurazione, questa applicazione web può contenere qualsiasi tipo di elementi personalizzati definiti. Ad esempio, puoi suggerire collegamenti per valutare il target, il budget, il contenuto e così via tramite API dedicate.
 
 >[!NOTE]
 >

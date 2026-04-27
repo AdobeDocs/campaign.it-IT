@@ -9,7 +9,7 @@ level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
 source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '448'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ L’accesso alle API di Adobe Campaign Standard è configurato attraverso i pass
 
 >[!IMPORTANT]
 >
->Per gestire i certificati in [Adobe Developer](https://developer.adobe.com/), assicurati di disporre dei diritti di **amministratore di sistema** per l&#39;organizzazione o di un account [sviluppatore](https://helpx.adobe.com/it/enterprise/using/manage-developers.html) in Admin Console.
+>Per gestire i certificati in [Adobe Developer](https://developer.adobe.com/), assicurati di disporre dei diritti di **amministratore di sistema** per l&#39;organizzazione o di un account [sviluppatore](https://helpx.adobe.com/enterprise/using/manage-developers.html) in Admin Console.
 
 1. **Verifica di disporre di un certificato digitale** o creane uno, se necessario. Le chiavi pubbliche e private fornite con il certificato sono necessarie nei passaggi seguenti.
 1. **Crea una nuova integrazione con il servizio Adobe Campaign** in [Adobe Developer](https://developer.adobe.com/) e configuralo. Verranno quindi generate le credenziali (chiave API, segreto client...).
@@ -43,7 +43,7 @@ Per stabilire una sessione API Adobe I/O service-to-service sicura, ogni richies
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-* **&lt;ORGANIZZAZIONE>**: questo è il tuo ID organizzazione personale, un ID organizzazione viene fornito da Adobe per ciascuna istanza:
+* **&lt;ORGANIZATION>**: questo è il tuo ID organizzazione personale, un ID organizzazione viene fornito da Adobe per ciascuna istanza:
 
    * &lt;ORGANIZZAZIONE> : l’istanza di produzione,
    * &lt;ORGANIZATION-market-stage>: l’istanza di stage.
@@ -52,7 +52,7 @@ Per stabilire una sessione API Adobe I/O service-to-service sicura, ogni richies
 
 * **&lt;ACCESS_TOKEN>**: token di accesso personale recuperato durante lo scambio del token Web JSON tramite una richiesta POST.
 
-* **&lt;API_KEY>**: chiave API personale. Viene fornito in Adobe I/O dopo aver creato una nuova integrazione al servizio Adobe Campaign.
+* **&lt;API_KEY>**: la chiave API personale. Viene fornito in Adobe I/O dopo aver creato una nuova integrazione al servizio Adobe Campaign.
 
   ![testo alternativo](assets/tenant.png)
 

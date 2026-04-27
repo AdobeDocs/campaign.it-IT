@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 14a741dd-794e-4760-bfa3-bafbe993a3f7
 source-git-commit: 25ee55d5327e0ba7f2192f7b462853269c8cbf46
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '329'
 ht-degree: 4%
 
 ---
@@ -65,4 +65,4 @@ Nel caso d’uso seguente, scopri come personalizzare un oggetto e un corpo dell
 
 Scopri come aggiungere un campo di personalizzazione alla riga dell’oggetto e il contenuto di una consegna e-mail nel video seguente.
 
->[!VIDEO](https://video.tv.adobe.com/v/329894?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12)

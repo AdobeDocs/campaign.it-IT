@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Flusso di lavoro di consegna cross-channel
+title: Flusso di lavoro per consegna cross-channel
 description: Ulteriori informazioni sui flussi di lavoro di consegna cross-channel
 feature: Workflows, Channels Activity
 role: User
@@ -8,12 +8,12 @@ version: Campaign v8, Campaign Classic v7
 exl-id: fb498233-4df8-4c9e-a082-3e657c6756c9
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '604'
 ht-degree: 3%
 
 ---
 
-# Flusso di lavoro di consegna cross-channel{#cross-channel-delivery-workflow}
+# Flusso di lavoro per consegna cross-channel{#cross-channel-delivery-workflow}
 
 Questo caso d’uso presenta un esempio che coinvolge un flusso di lavoro di consegna cross-channel. Il concetto generale delle consegne cross-channel è presentato in [questa sezione](cross-channel-deliveries.md).
 

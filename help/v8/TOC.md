@@ -7,8 +7,8 @@ description: Documentazione di Campaign v8
 breadcrumb-title: Documentazione di Campaign v8
 source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 84%
+source-wordcount: '893'
+ht-degree: 85%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 84%
    + [Pannello di controllo](config/self-service.md)
 + Gestione delle campagne {#campaigns}
    + [Introduzione alle campagne](start/campaigns.md)
-   + [Documentazione di orchestrazione campagna >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=it)
+   + [Documentazione di Campaign Orchestration >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=it)
 + Inviare messaggi {#send}
    + [Introduzione ai messaggi](start/gs-message.md)
    + [Creare la prima consegna](start/create-message.md)
@@ -146,7 +146,7 @@ ht-degree: 84%
    + [Progettare applicazioni web e moduli](dev/webapps.md)
 + Flussi di lavoro {#workflows}
    + [Introduzione ai flussi di lavoro](config/workflows.md)
-   + [Documentazione flusso di lavoro >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=it)
+   + [Documentazione del flusso di lavoro >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=it)
 + Privacy e sicurezza {#privacy}
    + [Gestire le richieste di accesso ai dati personali](start/privacy.md)
    + [Linee guida sulla sicurezza](config/security.md)
@@ -198,7 +198,7 @@ ht-degree: 84%
       + [Progettare le query](start/design-queries.md)
       + [Definire le condizioni del filtro](start/filter-conditions.md)
    + [Importare i dati](start/import.md)
-   + [Documentazione flusso di lavoro >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=it)
+   + [Documentazione del flusso di lavoro >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=it)
 + Integrazioni {#connect}
    + [Connettere Campaign con altre soluzioni](connect/integration.md)
    + Campaign + Experience Platform {#ac-aep}
@@ -284,6 +284,6 @@ ht-degree: 84%
          + [Controllo di un flusso di lavoro](dev/api/controlling-a-workflow.md)
          + [Attivazione di attività di segnale](dev/api/triggering-a-signal-activity.md)
 + Risorse aggiuntive {#resources}
-   + [Note tecniche campagna >](https://experienceleague.adobe.com/it/docs/campaign/technotes-ac/technotes-home)
-   + [Documentazione dell&#39;interfaccia utente di Campaign Web >](https://experienceleague.adobe.com/it/docs/campaign-web/v8/campaign-web-home)
+   + [Note tecniche di Campaign >](https://experienceleague.adobe.com/it/docs/campaign/technotes-ac/technotes-home)
+   + [Documentazione sull’interfaccia utente di Campaign Web >](https://experienceleague.adobe.com/it/docs/campaign-web/v8/campaign-web-home)
 

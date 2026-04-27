@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: d2ec4d92-7f00-47c8-98e6-0613d6387de0
 source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 0%
+source-wordcount: '244'
+ht-degree: 1%
 
 ---
 
@@ -37,7 +37,7 @@ Per impostazione predefinita, la sostituzione viene eseguita in modo casuale, ma
 
    ![](assets/proof_recipient.png){zoomable="yes"}
 
-1. Fare clic sul pulsante **[!UICONTROL Analyze]**.
+1. Fai clic sul pulsante **[!UICONTROL Analyze]**.
 Adobe Campaign eseguirà tutti i controlli prima di convalidare l’invio della bozza. Al termine dell&#39;analisi, sarà possibile fare clic sul pulsante **[!UICONTROL Confirm delivery]**.
 
    ![](assets/proof_analyze.png){zoomable="yes"}
