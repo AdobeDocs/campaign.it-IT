@@ -34,7 +34,7 @@ Sono disponibili due modalità di estensione della tabella:
 
 * Tramite l&#39;interfaccia, utilizzando l&#39;assistente **Nuovo campo**
 
-  Scopri come aggiungere rapidamente un nuovo campo in Campaign nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html#configuring-campaign-classic){target="_blank"}
+  Scopri come aggiungere rapidamente un nuovo campo in Campaign nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=it#configuring-campaign-classic){target="_blank"}
 
 * A livello di programmazione, estendendo lo schema. Scopri come estendere uno schema esistente in [questa sezione](../dev/extend-schema.md).
 
@@ -44,9 +44,9 @@ Per aggiungere un tipo di dati completamente nuovo che non esiste come standard 
 
 **Argomenti correlati**
 
-Esempio di modifica dello schema nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#configuring-campaign-classic){target="_blank"}
+Esempio di modifica dello schema nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=it#configuring-campaign-classic){target="_blank"}
 
-Caso d&#39;uso: collegare un campo a una tabella di riferimento esistente nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#uc-link){target="_blank"}
+Caso d&#39;uso: collegare un campo a una tabella di riferimento esistente nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=it#uc-link){target="_blank"}
 
 
 ## Modificare i moduli di input
@@ -61,7 +61,7 @@ L’interfaccia di Adobe Campaign utilizza molte applicazioni web per accedere, 
 
 Le applicazioni Web incorporate sono memorizzate nella cartella **Amministrazione > Configurazione > Applicazioni Web** di Explorer.
 
-Scopri come creare una pagina di panoramica in Campaign nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases--creating-overviews.html#creating-a-single-page-web-application){target="_blank"}
+Scopri come creare una pagina di panoramica in Campaign nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases--creating-overviews.html?lang=it#creating-a-single-page-web-application){target="_blank"}
 
 
 ## Personalizzare gli elenchi e creare i filtri {#gs-lists-and-filters}

@@ -20,7 +20,7 @@ L’accesso alle API di Adobe Campaign Standard è configurato attraverso i pass
 
 >[!IMPORTANT]
 >
->Per gestire i certificati in [Adobe Developer](https://developer.adobe.com/), assicurati di disporre dei diritti di **amministratore di sistema** per l&#39;organizzazione o di un account [sviluppatore](https://helpx.adobe.com/enterprise/using/manage-developers.html) in Admin Console.
+>Per gestire i certificati in [Adobe Developer](https://developer.adobe.com/), assicurati di disporre dei diritti di **amministratore di sistema** per l&#39;organizzazione o di un account [sviluppatore](https://helpx.adobe.com/it/enterprise/using/manage-developers.html) in Admin Console.
 
 1. **Verifica di disporre di un certificato digitale** o creane uno, se necessario. Le chiavi pubbliche e private fornite con il certificato sono necessarie nei passaggi seguenti.
 1. **Crea una nuova integrazione con il servizio Adobe Campaign** in [Adobe Developer](https://developer.adobe.com/) e configuralo. Verranno quindi generate le credenziali (chiave API, segreto client...).
