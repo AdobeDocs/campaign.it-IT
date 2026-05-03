@@ -121,7 +121,7 @@ Selezionare il modello di consegna da utilizzare e fare clic su **[!UICONTROL Ok
 
 ### Eseguire un modello {#execute-a-template}
 
-Puoi avviare l’esecuzione di un modello direttamente dall’elenco dei modelli senza prima creare una consegna. Il modello di consegna può essere eseguito manualmente, come descritto di seguito, o attivato da un evento (eseguito in un determinato momento, quando un file è disponibile nel server, ecc.), come spiegato in [questa sezione](https://experienceleague.adobe.com/it/docs/campaign/automation/workflows/wf-activities/action-activities/delivery).
+Puoi avviare l’esecuzione di un modello direttamente dall’elenco dei modelli senza prima creare una consegna. Il modello di consegna può essere eseguito manualmente, come descritto di seguito, o attivato da un evento (eseguito in un determinato momento, quando un file è disponibile nel server, ecc.), come spiegato in [questa sezione](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/delivery).
 
 Per eseguire manualmente un modello, effettua le seguenti operazioni:
 
@@ -141,18 +141,18 @@ Questa azione genera una consegna nella cartella associata al modello. Il nome d
 
 Il video seguente illustra come configurare un modello per una consegna ad hoc.
 
->[!VIDEO](https://video.tv.adobe.com/v/3409246?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/342082?quality=12)
 
 ### Impostare le proprietà dei modelli di consegna
 
 Il video seguente mostra come impostare le proprietà del modello di consegna e spiega in dettaglio ciascuna proprietà.
 
->[!VIDEO](https://video.tv.adobe.com/v/3443409?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/338969?quality=12)
 
 ### Come distribuire un modello di consegna ad hoc
 
 Questo video spiega come distribuire un modello di consegna e-mail ad hoc e la differenza tra una consegna e-mail e un flusso di lavoro di consegna.
 
->[!VIDEO](https://video.tv.adobe.com/v/3444965?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/338965?quality=12)
 
-Ulteriori video dimostrativi di Campaign sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=it){target="_blank"}.
+Ulteriori video dimostrativi di Campaign sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.

@@ -42,7 +42,7 @@ Utilizzare l&#39;opzione **[!UICONTROL Test SMTP delivery]** per verificare l&#3
 >
 >* Questa opzione non deve essere impostata nel mid-sourcing.
 >
->* Ulteriori informazioni sulla configurazione del server SMTP nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html?lang=it#smtp-relay){target="_blank"}.
+>* Ulteriori informazioni sulla configurazione del server SMTP nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html#smtp-relay){target="_blank"}.
 
 ## Inviare in più scaglioni {#sending-using-multiple-waves}
 

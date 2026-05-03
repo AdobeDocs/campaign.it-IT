@@ -230,7 +230,7 @@ I flussi di lavoro utilizzano molte tabelle di lavoro che occupano spazio e fini
 
 Il flusso di lavoro **Database cleanup** accessibile tramite il nodo **Amministrazione > Produzione > Flussi di lavoro tecnici** consente di eliminare i dati obsoleti per evitare una crescita esponenziale del database. Il flusso di lavoro viene attivato automaticamente senza l’intervento dell’utente.
 
-Puoi anche creare flussi di lavoro tecnici specifici per eliminare i dati non necessari che occupano spazio. Fai riferimento a   e questa [sezione](#purging-the-logs).
+Puoi anche creare flussi di lavoro tecnici specifici per eliminare i dati non necessari che occupano spazio. Fai riferimento a e a questa [sezione](#purging-the-logs).
 
 ## Gestione dei flussi di lavoro in pausa {#handling-of-paused-workflows}
 

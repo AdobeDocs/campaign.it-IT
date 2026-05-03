@@ -84,7 +84,7 @@ Il pacchetto **Interaction** è installato in tutte le istanze (controllo ed ese
 
 >[!NOTE]
 >
->Durante l&#39;installazione del pacchetto, i campi di tipo **long** della tabella **nms:proposition**, come l&#39;ID proposta, diventano campi di tipo **int64**. Questo tipo di dati è descritto nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html?lang=it#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}.
+>Durante l&#39;installazione del pacchetto, i campi di tipo **long** della tabella **nms:proposition**, come l&#39;ID proposta, diventano campi di tipo **int64**. Questo tipo di dati è descritto nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}.
 
 La durata di conservazione dei dati è configurata in ogni istanza (tramite la finestra **[!UICONTROL Data purge]** nella procedura guidata di distribuzione). Nelle istanze di esecuzione, questo periodo deve corrispondere alla profondità storica necessaria per le regole di tipologia (periodo scorrevole) e le regole di idoneità da calcolare.
 

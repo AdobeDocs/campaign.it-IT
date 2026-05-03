@@ -87,7 +87,7 @@ Il controllo di modifica si adatta automaticamente al tipo di dati corrispondent
 
 Per impostazione predefinita, ogni campo viene visualizzato su una sola riga e occupa tutto lo spazio disponibile a seconda del tipo di dati.
 
-Tutti gli attributi del modulo sono elencati nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html?lang=it){target="_blank"}.
+Tutti gli attributi del modulo sono elencati nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html){target="_blank"}.
 
 ## Formattazione {#formatting}
 
@@ -589,7 +589,7 @@ Esempi di utilizzo del tag `<set>`:
 
 >[!NOTE]
 >
->`<enter>` e `<leave>`   I tag possono essere utilizzati nelle `<container>` pagine (tipi &quot;blocco appunti&quot; e &quot;iconbox&quot;).
+>I tag `<enter>` e `<leave>` possono essere utilizzati nei `<container>` di pagine (tipi &quot;blocco appunti&quot; e &quot;iconbox&quot;).
 
 ### Linguaggio di espressione {#expression-language-}
 

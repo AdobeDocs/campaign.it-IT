@@ -192,6 +192,6 @@ Aggiungi un&#39;attività **Consegna ricorrente** in base al modello di e-mail d
 >
 >Affinché i flussi di lavoro possano essere eseguiti, è necessario avviare i flussi di lavoro tecnici relativi al pacchetto Campaign. Per ulteriori informazioni, consulta la sezione [Elenco dei flussi di lavoro tecnici](technical-workflows.md).
 >
->Se i passaggi di approvazione sono abilitati per la campagna, le consegne verranno inviate solo dopo che tali passaggi sono stati confermati. Per ulteriori informazioni, consulta   sezione.
+>Se i passaggi di approvazione sono abilitati per la campagna, le consegne verranno inviate solo dopo che tali passaggi sono stati confermati. Per ulteriori informazioni, consulta la sezione.
 
 ![](assets/birthday-workflow_usecase_1.png)

@@ -43,7 +43,7 @@ La funzionalità **[!UICONTROL Audit trail]** di Adobe Campaign offre un record 
 
 * **Option audit trail** consente di controllare le attività e le ultime modifiche apportate alle opzioni.
 
-  Per ulteriori informazioni sulle opzioni, consulta questa [pagina](https://experienceleague.adobe.com/it/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
+  Per ulteriori informazioni sulle opzioni, consulta questa [pagina](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
 
 * **Audit trail consegna** consente di controllare le attività e le ultime modifiche apportate alle consegne.
 
