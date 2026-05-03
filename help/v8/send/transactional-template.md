@@ -86,7 +86,7 @@ Un indirizzo di seed consente di visualizzare un’anteprima del messaggio, invi
 
    ![](assets/messagecenter_create_seed_2.png)
 
-1. Inserire i dati di prova. [Ulteriori informazioni sui dati di personalizzazione nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
+1. Inserire i dati di prova. [Ulteriori informazioni sui dati di personalizzazione nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/it/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
 
    ![](assets/messagecenter_create_custo_3.png)
 

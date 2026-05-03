@@ -19,4 +19,4 @@ Accelera la consegna delle campagne associando Campaign ad Adobe Workfront. Semp
 I passaggi per configurare questa integrazione sono descritti nella documentazione di Adobe Workfront.
 
 
-[Moduli Adobe Campaign in Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-campaign-classic-connector.html){target="_blank"}.
+[Moduli Adobe Campaign in Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-campaign-classic-connector.html?lang=it){target="_blank"}.
