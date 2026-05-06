@@ -286,7 +286,7 @@ In questo esempio, 0x001E è il tag del campo facoltativo e l’UUID è il valor
 
 Per acquisire questo valore, ora puoi impostare il seguente regex nel regex di estrazione dell’ID nel campo SR:
 
-\b0x001E:([0-9a-f][-[0-9a-f][-{4}0-9a-f]{4}-[0-9a-f]{4}-{8}0-9a-f]{12})\b
+\b0x001E:([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\b
 
 >[!IMPORTANT]
 >
