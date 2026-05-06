@@ -8,8 +8,8 @@ exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
 version: Campaign v8, Campaign Classic v7
 source-git-commit: 04dff810f5a838b2468280519948c88e29acf221
 workflow-type: tm+mt
-source-wordcount: '2865'
-ht-degree: 50%
+source-wordcount: '2977'
+ht-degree: 49%
 
 ---
 
@@ -70,7 +70,7 @@ Adobe Campaign fa parte delle soluzioni Adobe Experience Cloud. Il modo in cui v
 
 * **Scelte degli utenti in materia di privacy relative all’utilizzo di Adobe Experience Cloud**
 
-   Adobe richiede che tu fornisca ai clienti le informative sulla privacy che descrivono:
+  Adobe richiede che tu fornisca ai clienti le informative sulla privacy che descrivono:
 
    * Le tue prassi in materia di privacy in relazione ad Adobe Experience Cloud
    * In che modo gli utenti possono impostare le proprie preferenze per la raccolta o l’utilizzo delle proprie informazioni in relazione ad Adobe Experience Cloud
@@ -123,7 +123,7 @@ Di seguito è riportato il flusso generale relativo a questo caso d’uso:
 
 ## Acquisizione dei dati {#data-acquisition}
 
- Adobe Campaign ti consente di raccogliere dati, incluse informazioni personali e riservate. È pertanto essenziale ricevere e monitorare il consenso dei destinatari.
+Adobe Campaign ti consente di raccogliere dati, incluse informazioni personali e riservate. È pertanto essenziale ricevere e monitorare il consenso dei destinatari.
 
 * Assicurati che i destinatari ricevano le comunicazioni solo se lo desiderano. Per farlo, accetta al più presto le richieste di rifiuto e verifica il consenso mediante un processo di doppio consenso. Per ulteriori informazioni, consulta [Creare un abbonamento con doppio consenso](https://experienceleague.adobe.com/it/docs/campaign-classic/using/designing-content/web-forms/use-cases-web-forms){target=_blank}.
 * Non importare elenchi fraudolenti e utilizza indirizzi di seed per verificare che il file client non venga utilizzato in modo fraudolento. Per ulteriori informazioni, consulta [Informazioni sugli indirizzi di seed](https://experienceleague.adobe.com/it/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses){target=_blank}.
@@ -132,12 +132,12 @@ Di seguito è riportato il flusso generale relativo a questo caso d’uso:
 
 ## Gestione della privacy {#privacy-management}
 
-La gestione della privacy si riferisce a tutti i processi e gli strumenti che possono aiutarti a rispettare le normative sulla privacy (GDPR, CCPA, ecc.).
+La gestione della privacy si riferisce a tutti i processi e agli strumenti che possono aiutarti a rispettare le normative sulla privacy (GDPR, CCPA, ecc.).
 
- Adobe Campaign offre varie serie di funzioni dedicate alla gestione della privacy:
+Adobe Campaign offre varie serie di funzioni dedicate alla gestione della privacy:
 * Gestione del consenso, conservazione dei dati e ruoli degli utenti. Vedi [questa sezione](#consent).
 * Richieste di accesso a dati personali (diritto di accesso e diritto all’oblio). Vedi [questa sezione](#privacy-requests).
-* Rinuncia alla vendita di informazioni personali (specifica per il CCPA).
+* Rinuncia alla vendita di informazioni personali (relativa al CCPA).
 
 In [questa sezione](https://helpx.adobe.com/it/campaign/kb/campaign-privacy-more.html#gdprpersonasandflow) sono illustrate le principali funzionalità di Campaign relative alla privacy e un esempio degli utenti tipo coinvolti.
 
@@ -151,7 +151,7 @@ Adobe Campaign offre da sempre funzioni importanti necessarie per la privacy:
 
 ### Richieste di accesso a dati personali {#privacy-requests}
 
- Adobe Campaign offre funzionalità aggiuntive per consentirti di attenerti a determinate richieste di accesso a dati personali in qualità di titolare del trattamento:
+Adobe Campaign offre funzionalità aggiuntive per consentirti di attenerti a determinate richieste di accesso a dati personali in qualità di titolare del trattamento:
 
 * Il **diritto di accesso** è il diritto dell’interessato di ottenere conferma da parte del titolare del trattamento sul fatto che i dati personali che lo riguardano siano trattati o meno, su dove avvenga il trattamento e sullo scopo del trattamento.
 
@@ -179,7 +179,7 @@ Normative quali il Regolamento generale sulla protezione dei dati (GDPR) afferma
 
 ### Tracciamento dei messaggi {#message-tracking}
 
-Adobe Campaign ti consente di tenere traccia delle e-mail inviate e del comportamento dei destinatari della consegna: apertura, clic su collegamenti, annullamenti di abbonamenti, ecc. Per ulteriori informazioni, consulta [Informazioni sui messaggi](../start/gs-message.md).
+Adobe Campaign consente di tenere traccia delle e-mail inviate e del comportamento dei destinatari della consegna: apertura, clic su collegamenti, annullamenti di abbonamenti e così via. Per ulteriori informazioni, consulta [Informazioni sui messaggi](../start/gs-message.md).
 
 A questo scopo, aggiungi collegamenti tracciati ai messaggi, in modo da poter misurare l’impatto della consegna e il comportamento del destinatario nella scheda Tracking (Tracciamento) del dashboard di consegna. I dati di tracciamento vengono interpretati nel rapporto Indicatori di tracciamento. Per ulteriori informazioni sul tracciamento, consulta [questa pagina](../send/tracking.md).
 

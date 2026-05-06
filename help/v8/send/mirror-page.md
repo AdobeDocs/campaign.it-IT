@@ -8,12 +8,12 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 7bf3937c-484d-4404-8a9b-de7a10f5455a
 source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '435'
 ht-degree: 57%
 
 ---
 
-# Collegamento a una pagina mirror {#mirror-page}
+# Collegamento alla pagina mirror {#mirror-page}
 
 ## Informazioni sulla pagina mirror {#about-mirror-page}
 

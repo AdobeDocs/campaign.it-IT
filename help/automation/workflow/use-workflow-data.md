@@ -6,8 +6,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 5014c2ed-2a74-4122-b7b9-d3703db7ab12
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 8%
+source-wordcount: '718'
+ht-degree: 9%
 
 ---
 
@@ -119,7 +119,7 @@ Nell’esempio seguente, stai raccogliendo un elenco di informazioni sui clienti
 
 ## Aggiornare il database {#update-the-database}
 
-Tutti i dati raccolti possono essere utilizzati per aggiornare il database o nelle consegne. Ad esempio, puoi arricchire le possibilità di personalizzazione del contenuto dei messaggi (includere il numero di contratti nel messaggio, specificare il carrello acquisti medio nell’ultimo anno, ecc.) o specificare il targeting dettagliato della popolazione (inviare un messaggio ai titolari di contratti, indirizzare i 1.000 migliori abbonati ai servizi online, ecc.). Questi dati possono anche essere esportati o archiviati in un elenco.
+Tutti i dati raccolti possono essere utilizzati per aggiornare il database o nelle consegne. Ad esempio, puoi arricchire le possibilità di personalizzazione del contenuto dei messaggi (includi il numero di contratti nel messaggio, specifica il carrello acquisti medio nell’ultimo anno, ecc.) o specificare il targeting della popolazione (inviare un messaggio ai co-titolari del contratto, indirizzare i 1,000 migliori abbonati ai servizi online, ecc.). Questi dati possono anche essere esportati o archiviati in un elenco.
 
 ### Aggiorna elenchi  {#list-updates}
 

@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: cb6094eb-0010-4c62-9589-3b52fd60c2c2
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '3068'
-ht-degree: 5%
+source-wordcount: '3154'
+ht-degree: 4%
 
 ---
 
@@ -184,7 +184,7 @@ Includi sempre un collegamento a una pagina speculare. La posizione preferita è
 
 ### Collegamento per annullamento iscrizione {#unsub-link-check}
 
-Il collegamento di annullamento dell’abbonamento è essenziale. Deve essere visibile e valido e il modulo deve essere funzionale. Per impostazione predefinita, quando il messaggio viene analizzato, una regola di tipologia **[!UICONTROL Unsubscription link approval]** [&#x200B; integrata](../../automation/campaign-opt/control-rules.md) controlla se è stato incluso un collegamento di rinuncia e, in caso contrario, genera un avviso.
+Il collegamento di annullamento dell’abbonamento è essenziale. Deve essere visibile e valido e il modulo deve essere funzionale. Per impostazione predefinita, quando il messaggio viene analizzato, una regola di tipologia [&#x200B; **[!UICONTROL Unsubscription link approval]** integrata](../../automation/campaign-opt/control-rules.md) controlla se è stato incluso un collegamento di rinuncia e, in caso contrario, genera un avviso.
 
 Scopri come inserire un collegamento di rinuncia [in questa sezione](../send/personalization-blocks.md).
 
@@ -354,7 +354,7 @@ Learn more [in this section](inbox-rendering.md).
 
 ### Messaggi di bozza {#proof-messages}
 
-L’invio di bozze consente di controllare il collegamento di rinuncia, la mirror page e tutti gli altri collegamenti, convalidare il messaggio, verificare che siano visualizzate le immagini, rilevare eventuali errori, ecc. È possibile anche controllare la progettazione e il rendering su dispositivi diversi.
+L’invio di bozze ti consente di controllare il collegamento di rinuncia, la pagina speculare e tutti gli altri collegamenti, convalidare il messaggio, verificare che siano visualizzate le immagini, rilevare eventuali errori, ecc. Puoi anche controllare la progettazione e il rendering su dispositivi diversi.
 
 <!--
 ### Set up A/B testing deliveries {#a-b-testing-deliveries}

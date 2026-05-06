@@ -7,7 +7,7 @@ level: Beginner
 exl-id: 7a710960-7e41-4462-bd5e-18e874aa46f8
 source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '1304'
+source-wordcount: '1326'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Per ogni ambiente e account esterno viene creato un flusso di lavoro per la sinc
 
 ### Configurazione pacchetti {#packages-configuration}
 
-Tutte le estensioni dello schema direttamente collegate all&#39;**interazione** (offerte, proposte, destinatari, ecc.) devono essere distribuite nelle istanze di esecuzione.
+Qualsiasi estensione dello schema collegata direttamente a **Interaction** (offerte, proposte, destinatari, ecc.) deve essere distribuito sulle istanze di esecuzione.
 
 Il pacchetto **Interaction** è installato in tutte le istanze (controllo ed esecuzione). Sono disponibili due pacchetti aggiuntivi: uno per le istanze di controllo e l’altro per ogni istanza di esecuzione.
 

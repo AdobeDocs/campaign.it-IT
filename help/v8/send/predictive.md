@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 648fefcc-6476-4af8-9f0d-c9a87a7a3019
 source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 64%
+source-wordcount: '796'
+ht-degree: 58%
 
 ---
 
@@ -43,7 +43,7 @@ Nel modello Ottimizzazione predittiva del tempo di invio sono presenti due model
 
 Dettagli di output:
 
-* Calcola il momento migliore per l’invio di un’e-mail nei 7 giorni della settimana con intervalli di 1 ora (ad es.: 9:00, 10:00, 11:00)
+* Calcola l’orario del giorno migliore per l’invio di un’e-mail nei 7 giorni della settimana con intervalli di 1 ora (ad esempio: 9:00 am, 10:00 am, 11:00 am)
 * Il modello indica il giorno migliore della settimana e l’ora migliore di quel determinato giorno
 * Ogni tempo ottimale viene calcolato due volte: una volta per massimizzare il tasso di apertura e una per massimizzare il click rate
 * Sono forniti 16 campi (14 per ogni giorno della settimana e 2 per l’intera settimana):
@@ -74,8 +74,8 @@ Il punteggio di coinvolgimento predittivo prevede la probabilità che un destina
 
 Il punteggio predittivo di coinvolgimento consente di:
 
-* **Selezionare un’audience**: utilizzando l’attività di query, puoi selezionare l’audience con cui interagire con un messaggio specifico
-* **Escludere un’audience**: utilizzando l’attività di query, puoi rimuovere l’audience per non inviare loro il messaggio
+* **Selezionare un pubblico**: utilizzando l’attività di query, puoi selezionare il pubblico con cui interagire con un messaggio specifico
+* **Escludere un pubblico**: utilizzando l’attività di query, puoi rimuovere un pubblico per non inviargli il messaggio
 * **Personalizzare**: personalizza i messaggi in base al livello di coinvolgimento (gli utenti altamente coinvolti riceveranno un messaggio diverso da quelli non coinvolti)
 
 Questo modello utilizza più punteggi per indicare:
@@ -83,7 +83,7 @@ Questo modello utilizza più punteggi per indicare:
 * **Punteggio di coinvolgimento per apertura/Punteggio di coinvolgimento per clic**: questo valore corrisponde alla probabilità che un utente iscritto sia interessato a un messaggio specifico (apertura o clic). I valori sono compresi tra 0,0 e 1,0.
 * **Probabilità di annullamento abbonamento**: questo valore corrisponde alla probabilità che il destinatario annulli l’iscrizione al canale e-mail a causa di un messaggio e-mail aperto. I valori sono compresi tra 0,0 e 1,0.
 * **Livello di mantenimento**: questo valore classifica gli utenti in tre livelli: basso, medio e alto. Con un valore alto, è molto probabile che il cliente sia interessato al marchio, mentre un valore basso implica la possibilità che annulli l’abbonamento.
-* **Grado percentile di mantenimento**: classificazione del profilo in termini di probabilità di annullamento dell’iscrizione. I valori sono compresi tra 0,0 e 1,0. Ad esempio, se la percentuale di mantenimento è 0,953, il destinatario ha più probabilità di restare con il marchio e meno probabilità di annullare l’iscrizione rispetto al 95,3% di tutti i destinatari.
+* **Grado percentile di mantenimento**: classificazione del profilo in termini di probabilità di annullamento dell’iscrizione. I valori sono compresi tra 0,0 e 1,0. Ad esempio, se il livello di fidelizzazione è 0,953, è più probabile che il destinatario rimanga con il marchio e meno probabile che annulli l’abbonamento rispetto al 95,3% di tutti i destinatari.
 
 >[!NOTE]
 >

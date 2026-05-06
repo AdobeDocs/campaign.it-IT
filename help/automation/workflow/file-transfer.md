@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 794de398-f35d-4c2b-af29-d6fd38eb9394
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '562'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ La configurazione dipende dall’azione selezionata.
 
    ![](assets/file_transfert_edit.png)
 
-   Selezionare **[!UICONTROL Use an external account]** per selezionare un account dagli account di archiviazione BLOB di Azure, S3, FTP o SFTP configurati nel nodo **[!UICONTROL Administration > Platform > External accounts]** della struttura. Quindi specifica quale directory sul server contiene i file da scaricare.
+   Selezionare **[!UICONTROL Use an external account]** per selezionare un account dall&#39;archivio BLOB di Azure, dagli account S3, FTP o SFTP configurati nel nodo **[!UICONTROL Administration > Platform > External accounts]** della struttura. Quindi specifica quale directory sul server contiene i file da scaricare.
 
    ![](assets/file_transfert_edit_external.png)
 

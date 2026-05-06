@@ -8,7 +8,7 @@ hide: true
 exl-id: c2862f94-7d15-4a49-a74e-df90d0ea7bc9
 source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1421'
 ht-degree: 1%
 
 ---
@@ -899,8 +899,8 @@ Struttura completa dell&#39;oggetto `queryDef`:
 ## Argomenti correlati {#related-topics}
 
 * [Introduzione alle API di Campaign](api.md)
-* [Campaign JavaScript SDK - API per query](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html){target="_blank"}
-* [Riferimento API queryDef](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html?lang=it){target="_blank"}
+* [Campaign JavaScript SDK - API Query](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html){target="_blank"}
+* [Riferimento API per queryDef](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html?lang=it){target="_blank"}
 * [Documentazione JSAPI per Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=it){target="_blank"}
 * [Utilizzare gli schemi](schemas.md)
 * [Utilizzare l’editor delle query](../start/query-editor.md)

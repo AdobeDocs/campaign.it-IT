@@ -7,7 +7,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 6e899937-5ca0-4ca5-bb14-f914e41559ab
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '178'
 ht-degree: 55%
 
 ---
@@ -23,7 +23,7 @@ Scopri diversi contesti in cui è possibile utilizzare i flussi di lavoro e come
 * [Utilizzare l’attività di approvazione locale](local-approval-activity.md)
 * [Inviare un’e-mail di compleanno](send-a-birthday-email.md)
 * [Caricare i contenuti della consegna](load-delivery-content.md)
-* [Flusso di lavoro di consegna cross-channel](cross-channel-delivery-workflow.md)
+* [Flusso di lavoro per consegna cross-channel](cross-channel-delivery-workflow.md)
 * [Arricchimento delle e-mail con campi data personalizzati](email-enrichment-with-custom-date-fields.md)
 
 ## Monitoraggio {#monitoring}

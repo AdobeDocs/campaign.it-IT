@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 711256e2-ab77-404a-b052-6793a85da193
 source-git-commit: 25ee55d5327e0ba7f2192f7b462853269c8cbf46
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ I dati di Personalization possono essere recuperati da vari tipi di origini: ori
 
 ## Origine dati del database di Campaign
 
-Nel caso più comune, i dati di personalizzazione vengono memorizzati nel database. Ad esempio, i &quot;campi di personalizzazione dei destinatari&quot; sono tutti i campi definiti nella tabella dei destinatari, i campi standard (in genere: cognome, nome, indirizzo, città, data di nascita e così via) o i campi personalizzati.
+Nel caso più comune, i dati di personalizzazione vengono memorizzati nel database. Ad esempio, &quot;campi di personalizzazione dei destinatari&quot; sono tutti i campi definiti nella tabella dei destinatari, campi standard (in genere: cognome, nome, indirizzo, città, data di nascita, ecc.) o campi personalizzati.
 
 ![Campi di personalizzazione della campagna in un messaggio e-mail](assets/perso-campaign-datasource.png)
 

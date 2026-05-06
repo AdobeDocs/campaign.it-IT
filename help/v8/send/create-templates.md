@@ -8,7 +8,7 @@ level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
 source-git-commit: 08e04f3642320df94d719a415e878e3a26d2e00f
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '1033'
 ht-degree: 18%
 
 ---
@@ -28,7 +28,7 @@ Un modello può includere impostazioni di configurazione parziali o complete, ad
 * Contenuto, logo dell’azienda o firma
 * Altre proprietà di consegna, ad esempio validità della risorsa, parametri dei nuovi tentativi o impostazioni della quarantena.
 
-![](assets/do-not-localize/how-to-video.png) [Guarda il video su questa funzione](#delivery-template-video)
+![](assets/do-not-localize/how-to-video.png) [Guarda un video su questa funzione](#delivery-template-video)
 
 I modelli di consegna sono archiviati nella cartella **[!UICONTROL Resources > Templates > Delivery templates]** di Explorer. In Adobe Campaign puoi utilizzare due tipi di modelli:
 
@@ -141,18 +141,18 @@ Questa azione genera una consegna nella cartella associata al modello. Il nome d
 
 Il video seguente illustra come configurare un modello per una consegna ad hoc.
 
->[!VIDEO](https://video.tv.adobe.com/v/3409246?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3409246?captions=ita&quality=12)
 
 ### Impostare le proprietà dei modelli di consegna
 
 Il video seguente mostra come impostare le proprietà del modello di consegna e spiega in dettaglio ciascuna proprietà.
 
->[!VIDEO](https://video.tv.adobe.com/v/3443409?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3443409?captions=ita&quality=12)
 
 ### Come distribuire un modello di consegna ad hoc
 
 Questo video spiega come distribuire un modello di consegna e-mail ad hoc e la differenza tra una consegna e-mail e un flusso di lavoro di consegna.
 
->[!VIDEO](https://video.tv.adobe.com/v/3444965?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3444965?captions=ita&quality=12)
 
 Ulteriori video dimostrativi di Campaign sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=it){target="_blank"}.

@@ -7,8 +7,8 @@ level: Beginner, Intermediate
 exl-id: 704e151a-b863-46d0-b8a1-fca86abd88b9
 source-git-commit: e349e9f236c3eeb28ffe96bcc5ec72ab64c4c127
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 5%
+source-wordcount: '1291'
+ht-degree: 2%
 
 ---
 
@@ -108,7 +108,7 @@ In questa tabella vengono riepilogate tutte le impostazioni. I valori sensibili 
 | batchUpdateSize | Dimensioni dei microbatch di aggiornamento | 5000 | 100: latenza molto bassa | maxWaitingMessages/updateThreads: andare oltre questo valore è inutile perché maxWaitingMessages limiterà comunque il buffering | 1: disabilitare la microbatch, aggiornare i messaggi uno alla volta |
 | configRefreshMillis | Periodo di ricaricamento della configurazione in millisecondi | 10000 | pollPeriodMillis: latenza bassa | 600000: non ricaricare troppo velocemente per risparmiare risorse | 500: la bassa latenza consente di provare più rapidamente le nuove impostazioni |
 | deliveryPartRetryCount | Numero massimo di tentativi o rinvii di un deliveryPart. Attenzione: il riavvio del processo di invio conta come un nuovo tentativo; anche gli arresti anomali possono essere conteggiati come un nuovo tentativo. | 20 | 1: Disattivare i nuovi tentativi | 50: rendere i messaggi più persistenti per aggirare i provider instabili | 1: disabilitare i nuovi tentativi. 1000: evitare lo scaricamento dei messaggi non riusciti. |
-| deliveryPartRetryDelaySeconds | Ritardo minimo prima di un nuovo tentativi di un deliveryPart. Si tratta di cross-process e cross-container. Il ritardo è espresso in secondi. | 60 | 0: Nuovi tentativi immediati | 3600: tentativi molto lenti (1 ora tra un tentativo e l’altro) | 1: rende i nuovi tentativi facili da seguire nei registri occupati. |
+| deliveryPartRetryDelaySeconds | Ritardo minimo prima di ritentare un deliveryPart. Si tratta di cross process e cross container. Il ritardo è in secondi. | 60 | 0: Nuovi tentativi immediati | 3600: tentativi molto lenti (1 ora tra un tentativo e l’altro) | 1: rende i nuovi tentativi facili da seguire nei registri occupati. |
 | logOutput | Invia dati di monitoraggio e profilatura sull’output del registro principale. | true | false: può aumentare un po’ la velocità effettiva. Scoraggiato. | true: abilita la registrazione. | true |
 | maxWaitingMessages | Numero massimo di messaggi elaborati in qualsiasi momento | 50000 | 256: sufficiente per una singola deliveryPart | 200000: limitata dalla lunghezza della query SQL (64 KB) | 1: Elaborare i messaggi uno alla volta |
 | pollPeriodMillis | Frequenza di polling del database (in millisecondi) per verificare la presenza di nuovi messaggi | 2000 | 500: latenza molto bassa | 10000: batch più grandi | 500: la bassa latenza semplifica il debug. |
@@ -116,7 +116,7 @@ In questa tabella vengono riepilogate tutte le impostazioni. I valori sensibili 
 | profDeliveryStat | Registra varie statistiche aggregate sulle funzioni interne del processo SMS | true | false: può aumentare un po’ la velocità effettiva. Scoraggiato. | true: registro di livello di dettaglio basso | true |
 | profLogPerMessage | Registra ogni passaggio di elaborazione per ogni messaggio | falso | false: riduce la gravità del registro. | true: registro di verbozza molto alto. **Da utilizzare solo se assolutamente necessario**. Grande impatto sulle prestazioni. **Disattivare questa impostazione non appena sono stati raccolti dati sufficienti**. | true |
 | providerIdScanPeriod | Periodo in secondi tra le analisi per la ricerca di nuovi ID provider da riconciliare | 10 | 1: latenza bassa | 60: Batch più grandi per una maggiore velocità effettiva | 1: latenza bassa per facilitare il debug dell’elaborazione dei messaggi. |
-| providerIdThreads | Numero di thread per la riconciliazione dell’ID fornitore. È sufficiente 1 thread per istanza. Imposta su 0 per disabilitare su questo contenitore. | 1 | 0: Disattiva su questo contenitore | 1 | 1 |
+| providerIdThreads | Numero di thread per la riconciliazione degli ID provider. È sufficiente 1 thread per istanza. Imposta questo contenitore su 0 per disattivarlo. | 1 | 0: Disattiva su questo contenitore | 1 | 1 |
 | sendingThreads | Numero di thread di invio | 1 | 1: filettato singolo | Numero di CPU. Troppi thread di solito compromettono le prestazioni. | 1: Il thread singolo genera registri più puliti. |
 | updateThreads | Numero di thread per l&#39;aggiornamento del database | 1 | 1: filettato singolo | Numero di CPU. Ogni thread crea la propria connessione DB. | 1: Il thread singolo genera registri più puliti. |
 | verifyMode | Simula l’invio di messaggi. I messaggi non vengono effettivamente inviati. Utile per il debug | falso | falso | true | false: esegue il sistema normalmente. true: verifica solo l&#39;accesso al database e la preparazione dei messaggi. |

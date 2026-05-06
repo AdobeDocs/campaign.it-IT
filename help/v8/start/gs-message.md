@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: a523e76d-776c-47d3-9c15-34241cee1092
 source-git-commit: 3453820bb0eca7847ec55d7e6ea15766a57ab94e
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 74%
+source-wordcount: '1003'
+ht-degree: 76%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 74%
 
 Con Adobe Campaign, puoi inviare campagne cross-channel tra cui e-mail, SMS, notifiche push e direct mail; inoltre, puoi misurarne l’efficacia utilizzando diversi rapporti dedicati. Questi messaggi sono progettati e inviati tramite consegna e possono essere personalizzati per ogni destinatario.
 
-Le funzionalità di base includono il targeting, la definizione e la personalizzazione dei messaggi, l’esecuzione di comunicazioni e i relativi rapporti operativi.
+Le funzionalità di base includono il targeting, la definizione e la personalizzazione dei messaggi, l’esecuzione delle comunicazioni e i relativi rapporti operativi.
 
 ## Casi d’uso {#gs-ac-delivery}
 
@@ -98,7 +98,7 @@ Le consegne continue vengono create all’interno dei flussi di lavoro tramite l
 
 I messaggi consegnati da Adobe Campaign possono essere personalizzati in vari modi. [Ulteriori informazioni sulle funzionalità di personalizzazione](../send/personalize.md)
 
-È possibile eseguire le seguenti operazioni:
+Puoi eseguire le seguenti azioni:
 
 * Inserire campi di personalizzazione dinamici. [Ulteriori informazioni](../send/personalization-fields.md)
 * Inserire blocchi di personalizzazione predefiniti. [Ulteriori informazioni](../send/personalization-blocks.md)

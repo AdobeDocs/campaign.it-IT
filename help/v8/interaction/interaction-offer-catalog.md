@@ -7,7 +7,7 @@ level: Beginner
 exl-id: 911096e2-0307-46a8-873c-ee2248b8e3e8
 source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '387'
 ht-degree: 2%
 
 ---
@@ -52,7 +52,7 @@ Per creare una nuova categoria, effettua le seguenti operazioni:
 
    * **[!UICONTROL Edit query]** per applicare i filtri alla destinazione dell&#39;offerta.
 
-   * Riepilogo delle regole di idoneità.Per visualizzarle, fare clic sul collegamento **[!UICONTROL Schedule and eligibility rules of the offer]**.
+   * Riepilogo delle regole di idoneità.Per visualizzarli, fare clic sul collegamento **[!UICONTROL Schedule and eligibility rules of the offer]**.
 
 ## Aggiungere una categoria di fallback
 

@@ -7,7 +7,7 @@ level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
 source-git-commit: fce4f85386c18d0919a85e938d3c1f2cca8d79b9
 workflow-type: tm+mt
-source-wordcount: '1758'
+source-wordcount: '2133'
 ht-degree: 1%
 
 ---
@@ -105,7 +105,7 @@ Le impostazioni di configurazione dell&#39;account esterno dipendono dal motore 
 
 Per l’interfaccia utente di Campaign Web (v8), consulta:
 
-* [Crea un account esterno](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/create-external-account){target="_blank"}
+* [Creare un account esterno](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/create-external-account){target="_blank"}
 * [Account di database esterni](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database){target="_blank"}
 
 La pagina dell&#39;interfaccia utente Web di Campaign fornisce un elenco più completo dei tipi di provider **database esterno**, inclusi:

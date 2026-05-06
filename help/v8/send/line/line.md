@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 4de3b2c2-7eb7-4fd9-9350-64a6e9e2b7f8
 source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1196'
 ht-degree: 4%
 
 ---
@@ -177,11 +177,11 @@ Puoi utilizzare:
 
   Le immagini possono essere definite in base alle dimensioni dello schermo:
 
-   * 1040 px
-   * 700 px
-   * 460 px
-   * 300 px
-   * 240 px
+   * 1040px
+   * 700px
+   * 460px
+   * 300px
+   * 240px
 
   >[!CAUTION]
   >

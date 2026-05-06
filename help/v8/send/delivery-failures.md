@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '3410'
-ht-degree: 5%
+source-wordcount: '3442'
+ht-degree: 6%
 
 ---
 
@@ -29,12 +29,12 @@ Quando un indirizzo e-mail viene messo in quarantena o se un profilo si trova in
 
 Esistono due tipi di errore quando un messaggio non riesce. Ogni tipo di errore di consegna determina se un indirizzo viene inviato o meno alla [quarantena](quarantines.md#quarantine-reason).
 
-* **Rimbalzi permanenti**
+* **mancati recapiti permanenti**
 I mancati recapiti permanenti sono errori permanenti generati dopo che un ISP determina che un tentativo di invio di e-mail all’indirizzo di un abbonato non è consegnabile. In Adobe Campaign, i mancati recapiti permanenti classificati come impossibili da recapitare vengono aggiunti all’elenco di quarantena, il che significa che non verranno ritentati. In alcuni casi, un mancato recapito permanente verrebbe ignorato se la causa dell’errore fosse sconosciuta.
 
   Di seguito sono riportati alcuni esempi comuni di mancati recapiti permanenti: l’indirizzo non esiste, l’account è disabilitato, la sintassi non è valida, il dominio non valido
 
-* **Mancati recapiti non permanenti**
+* **mancati recapiti non permanenti**
 I mancati recapiti non permanenti sono errori temporanei generati dagli ISP in caso di difficoltà nella consegna della posta. In caso di errori non permanenti, [riprova](#retries) più volte (con varianza in base all&#39;utilizzo di impostazioni di consegna personalizzate o predefinite) per tentare una consegna corretta. Gli indirizzi che generano mancati recapiti non permanenti in modo continuo non verranno aggiunti alla quarantena fino a quando non sarà raggiunto il numero massimo di tentativi (che, anche in questo caso, varia a seconda delle impostazioni).
 
   Alcune cause comuni di mancati recapiti non permanenti includono: Cassetta postale piena, Ricezione del server e-mail inattivo, Problemi di reputazione del mittente
@@ -141,13 +141,13 @@ Di seguito sono elencati i possibili motivi di un errore di consegna per il cana
   </tr> 
   <tr> 
    <td> Indirizzo in quarantena </td> 
-   <td> Rigido </td> 
+   <td> Permanente </td> 
    <td> 9 </td> 
    <td> L'indirizzo è stato messo in quarantena.<br /> </td> 
   </tr> 
   <tr> 
    <td> Indirizzo non specificato </td> 
-   <td> Rigido </td> 
+   <td> Permanente </td> 
    <td> 7 </td> 
    <td> Nessun indirizzo specificato per il destinatario.<br /> </td> 
   </tr> 
@@ -159,7 +159,7 @@ Di seguito sono elencati i possibili motivi di un errore di consegna per il cana
   </tr> 
   <tr> 
    <td> Indirizzo inserito nell’elenco bloccati </td> 
-   <td> Rigido </td> 
+   <td> Permanente </td> 
    <td> 8 </td> 
    <td> L’indirizzo è stato aggiunto al inserisco nell'elenco Bloccati di invio dell’. Questo stato viene utilizzato per importare dati da elenchi esterni e sistemi esterni nell'elenco di quarantena di Adobe Campaign.<br /> </td> 
   </tr> 
@@ -195,15 +195,15 @@ Di seguito sono elencati i possibili motivi di un errore di consegna per il cana
   </tr> 
   <tr> 
    <td> Dominio non valido </td> 
-   <td> Morbido </td> 
+   <td> Non permanente </td> 
    <td> 2 </td> 
    <td> Il dominio dell’indirizzo e-mail non è corretto o non esiste più. Questo profilo sarà nuovamente oggetto di targeting fino a raggiungere 5 errori. In seguito, il record verrà impostato sullo stato di quarantena e non verrà eseguito alcun nuovo tentativo.<br /> </td> 
   </tr> 
   <tr> 
    <td> Cassetta postale piena </td> 
-   <td> Morbido </td> 
+   <td> Non permanente </td> 
    <td> 5 </td> 
-   <td> La cassetta postale dell'utente è piena e non può accettare altri messaggi. Questo profilo sarà nuovamente oggetto di targeting fino a raggiungere 5 errori. Successivamente, il record verrà impostato sullo stato di quarantena e non verrà eseguito alcun nuovo tentativo.<br /> Questo tipo di errore è gestito da un processo di pulizia. L'indirizzo viene impostato su uno stato valido dopo 30 giorni.<br /> Avviso: per consentire la rimozione automatica dell'indirizzo dall'elenco degli indirizzi in quarantena, è necessario avviare il flusso di lavoro tecnico Database cleanup.<br /> </td> 
+   <td> La cassetta postale dell'utente è piena e non può accettare altri messaggi. Questo profilo sarà nuovamente oggetto di targeting fino a raggiungere 5 errori. In seguito, il record verrà impostato sullo stato di quarantena e non verrà eseguito alcun nuovo tentativo.<br /> Questo tipo di errore è gestito da un processo di pulizia. L'indirizzo viene impostato su uno stato valido dopo 30 giorni.<br /> Avviso: per consentire la rimozione automatica dell'indirizzo dall'elenco degli indirizzi in quarantena, è necessario avviare il flusso di lavoro tecnico Database cleanup.<br /> </td> 
   </tr> 
   <tr> 
    <td> Non connesso </td> 
@@ -249,7 +249,7 @@ Di seguito sono elencati i possibili motivi di un errore di consegna per il cana
   </tr> 
   <tr> 
    <td> Utente sconosciuto </td> 
-   <td> Rigido </td> 
+   <td> Permanente </td> 
    <td> 1 </td> 
    <td> L'indirizzo non esiste. Non verranno tentate ulteriori consegne per questo profilo.<br /> </td> 
   </tr> 
@@ -321,7 +321,7 @@ In modo sincrono, se il servizio APN restituisce lo stato &quot;unregistered&quo
    <td> No<br /> </td> 
   </tr> 
   <tr> 
-   <td> Problema del certificato (password, danneggiamento e così via) e verifica della connessione al problema APNs<br /> </td> 
+   <td> Problema del certificato (password, danneggiamento, ecc.) e verifica la connessione al problema APNs<br /> </td> 
    <td> Errore<br /> </td> 
    <td> Vari messaggi di errore in base all'errore<br /> </td> 
    <td> Morbido<br /> </td> 
@@ -400,7 +400,7 @@ Il meccanismo di quarantena di Android V2 utilizza lo stesso processo di Android
   <tr> 
    <td> Fase di creazione/analisi del messaggio: utilizzo di parole chiave non valide nei campi personalizzati<br /> </td> 
    <td> Errore<br /> </td> 
-   <td> Impossibile utilizzare le seguenti parole chiave: {1}<br /> </td> 
+   <td> Impossibile utilizzare le parole chiave seguenti: {1}<br /> </td> 
    <td> Morbido<br /> </td> 
    <td> </td> 
    <td> No<br /> </td> 
@@ -408,7 +408,7 @@ Il meccanismo di quarantena di Android V2 utilizza lo stesso processo di Android
   <tr> 
    <td> Fase di creazione/analisi del messaggio: payload troppo grande<br /> </td> 
    <td> Errore<br /> </td> 
-   <td> Notifica troppo pesante: {1} bit, mentre solo {2} sono autorizzati<br /> </td> 
+   <td> La notifica è troppo pesante: {1} bit, mentre solo {2} sono autorizzati<br /> </td> 
    <td> Morbido<br /> </td> 
    <td> Rifiutato<br /> </td> 
    <td> No<br /> </td> 
@@ -456,7 +456,7 @@ Il meccanismo di quarantena di Android V2 utilizza lo stesso processo di Android
   <tr> 
    <td> Messaggio FCM rifiutato: tutti gli altri errori<br /> </td> 
    <td> Errore<br /> </td> 
-   <td> Il server Firebase Cloud Messaging ha restituito un codice di errore imprevisto: {1} </td> 
+   <td> Il server di messaggistica Firebase ha restituito un codice di errore imprevisto: {1} </td> 
    <td> </td> 
    <td> Rifiutato<br /> </td> 
    <td> No<br /> </td> 
@@ -481,7 +481,7 @@ Il meccanismo di quarantena di Android V2 utilizza lo stesso processo di Android
    <td> Messaggio FCM rifiutato: ID mittente non corrispondente<br /> </td> 
    <td> Errore<br /> </td> 
    <td> SENDER_ID_MISMATCH </td> 
-   <td> Morbido</td>
+   <td> Non permanente</td>
    <td> Utente sconosciuto<br /> </td> 
    <td> No<br /> </td> 
   </tr>
@@ -489,7 +489,7 @@ Il meccanismo di quarantena di Android V2 utilizza lo stesso processo di Android
    <td> Rifiuto messaggio FCM: annullamento registrazione<br /> </td> 
    <td> Errore<br /> </td>
    <td> NON REGISTRATO </td> 
-   <td> Rigido</td> 
+   <td> Permanente</td> 
    <td> Utente sconosciuto<br /> </td> 
    <td> No<br /> </td> 
   </tr>
@@ -639,7 +639,7 @@ Le specificità del canale SMS sono elencate di seguito.
   <tr> 
    <td> Conferma MT non valida<br /> </td> 
    <td> Errore<br /> </td> 
-   <td> Errore '{1}' durante l'elaborazione del frame di conferma per la query di invio<br /> </td> 
+   <td> Errore '{1}' durante l'elaborazione del frame di riconoscimento per la query di invio<br /> </td> 
    <td> Morbido<br /> </td> 
    <td> Non raggiungibile<br /> </td> 
   </tr> 

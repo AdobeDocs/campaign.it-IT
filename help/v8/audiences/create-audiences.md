@@ -7,7 +7,7 @@ level: Beginner
 exl-id: 6fbe5616-7b8b-4504-988b-2bbbfd062548
 source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '796'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ Utilizza gli elenchi di Campaign per creare e organizzare i tipi di pubblico.
 
 Un elenco è un set statico di contatti che possono essere targetizzati nelle azioni di consegna o aggiornati durante un’importazione o un’altra azione del flusso di lavoro. Ad esempio, una popolazione estratta dal database tramite una query può essere memorizzata come elenco.
 
-Gli elenchi vengono creati e gestiti tramite il collegamento **[!UICONTROL Lists]** nella scheda **[!UICONTROL Profiles and targets]**. Questi elenchi sono basati sulla tabella del profilo di Adobe Campaign predefinita (nms:recipient). [Ulteriori informazioni](../dev/datamodel.md#ootb-profiles.md)
+Gli elenchi vengono creati e gestiti tramite il collegamento **[!UICONTROL Lists]** nella scheda **[!UICONTROL Profiles and targets]**. Questi elenchi sono basati sulla tabella del profilo Adobe Campaign predefinita (nms:recipient). [Ulteriori informazioni](../dev/datamodel.md#ootb-profiles.md)
 
 ![](assets/list-dashboard.png)
 
@@ -26,7 +26,7 @@ Gli elenchi vengono creati e gestiti tramite il collegamento **[!UICONTROL Lists
 
 Guarda questo video per ulteriori informazioni sulla gestione degli elenchi in Adobe Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/3426460?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3426460?captions=ita&quality=12)
 
 
 ## Creare un elenco di contatti {#create-a-list-of-contacts}

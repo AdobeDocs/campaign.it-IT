@@ -8,8 +8,8 @@ exl-id: 873578f6-6af9-4d0c-8df3-cce320fc6a4e
 version: Campaign v8, Campaign Classic v7
 source-git-commit: ec1b41ccf532b044e75c69e795eabfb19a523ec2
 workflow-type: tm+mt
-source-wordcount: '1883'
-ht-degree: 0%
+source-wordcount: '1943'
+ht-degree: 1%
 
 ---
 
@@ -144,7 +144,7 @@ Utilizza l’ultima scheda per visualizzare in anteprima i dati filtrati.
    <td> Seleziona i destinatari che hanno fatto clic su una consegna almeno X volte negli ultimi Y mesi.<br /> </td> 
   </tr> 
   <tr> 
- <td> Inserire nell'elenco Bloccati Indirizzo e-mail<br /> </td> 
+ <td> Indirizzo e-mail<br /> </td> 
     <td> Seleziona i destinatari il cui indirizzo e-mail si trova nel inserisco nell'elenco Bloccati di.<br/> </td>
   </tr> 
   <tr> 

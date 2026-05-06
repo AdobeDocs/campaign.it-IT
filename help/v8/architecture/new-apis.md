@@ -7,7 +7,7 @@ level: Intermediate
 exl-id: dd822f88-b27d-4944-879c-087f68e79825
 source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '440'
 ht-degree: 2%
 
 ---
@@ -203,7 +203,7 @@ Una volta eseguito il flusso di lavoro, la tabella di staging viene aggiornata c
 
 Di conseguenza, la tabella di gestione temporanea viene aggiornata come previsto.
 
-## Gestione abbonamenti {#sub-apis}
+## Gestione iscrizione {#sub-apis}
 
 La gestione degli abbonamenti in Campaign è descritta in [questa pagina](../start/subscriptions.md).
 
@@ -212,4 +212,4 @@ L&#39;inserimento dei dati di sottoscrizione e annullamento dell&#39;abbonamento
 
 **Argomenti correlati**
 
-* [JSAPI per Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=it){target="_blank"}
+* [JSAPI campagna](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=it){target="_blank"}

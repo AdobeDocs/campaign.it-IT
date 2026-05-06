@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 2a8b900b-ce0a-41b1-b4e4-b024ca93052e
 source-git-commit: 3d562aab2f19b84aad8b484768bf19648145feb3
 workflow-type: tm+mt
-source-wordcount: '1356'
+source-wordcount: '1461'
 ht-degree: 3%
 
 ---
@@ -38,7 +38,7 @@ AMP for Email è compatibile con le e-mail esistenti. La versione AMP del messag
 
 Per ulteriori informazioni su AMP per il formato, le specifiche e i requisiti delle e-mail, consulta la [documentazione per gli sviluppatori AMP](https://amp.dev/documentation/guides-and-tutorials/learn/email-spec/amp-email-format/?format=email).
 
-![](assets/do-not-localize/how-to-video.png) [Guarda il video su questa funzione](#amp-email-video)
+![](assets/do-not-localize/how-to-video.png) [Guarda un video su questa funzione](#amp-email-video)
 
 ## Passaggi chiave per utilizzare AMP per e-mail con Adobe Campaign {#key-steps-to-use-amp}
 
@@ -198,4 +198,4 @@ Ad esempio, se hai incluso un elenco di prodotti nell’e-mail, quando modifichi
 
 Il video seguente spiega come attivare AMP in Adobe Campaign e ne illustra l’utilizzo.
 
->[!VIDEO](https://video.tv.adobe.com/v/39583?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/39583?captions=ita&quality=12&learn=on)

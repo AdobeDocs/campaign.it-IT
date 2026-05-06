@@ -6,7 +6,7 @@ role: Developer
 exl-id: ad8e9f9c-df24-4a11-b8df-4b31dd54911f
 source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '3025'
+source-wordcount: '3090'
 ht-degree: 3%
 
 ---
@@ -356,7 +356,7 @@ Questo report è basato sulle tabelle **[!UICONTROL Delivery]** (nms:delivery), 
    <td> Nuovi contatti<br /> </td> 
    <td> @newContacts<br /> </td> 
    <td> Conteggio del numero di visitatori collegati a un destinatario.<br /> </td> 
-   <td> Formula: count(@id)<br /> Filter: @recipient-id != 0<br /> </td> 
+   <td> Formula: count(@id)<br /> Filtro: @recipient-id != 0<br /> </td> 
   </tr> 
   <tr> 
    <td> Apertura di <br /> </td> 
@@ -723,7 +723,7 @@ Questo report è basato sulla tabella **[!UICONTROL Delivery]** (nms:delivery).
    <td> Clic<br /> </td> 
    <td> @_click<br /> </td> 
    <td> Numero di tutti i @totalClicks con una chiave primaria URL diversa da 1<br /> </td> 
-   <td> count(Iif([@url-id]!= 1, @totalClicks, 0))<br /> </td> 
+   <td> count(Iif([@url-id] != 1, @totalClicks, 0))<br /> </td> 
   </tr> 
   <tr> 
    <td> Clic (%)<br /> </td> 

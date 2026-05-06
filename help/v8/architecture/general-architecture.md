@@ -7,7 +7,7 @@ level: Beginner
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
 source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1163'
 ht-degree: 7%
 
 ---
@@ -60,7 +60,7 @@ I processi principali sono i seguenti:
 
 * **Server di reindirizzamento** (nlserver webmdl): per la posta elettronica, Adobe Campaign gestisce automaticamente il tracciamento di aperture e clic (il tracciamento transazionale a livello di sito Web è un&#39;ulteriore possibilità). A questo scopo, gli URL incorporati nei messaggi e-mail vengono riscritti in modo da puntare a questo modulo, che registra il passaggio dell’utente Internet prima di reindirizzarlo all’URL richiesto.
 
-  Per garantire la massima disponibilità, questo processo è completamente indipendente dal database: gli altri processi server comunicano con esso utilizzando solo chiamate SOAP (HTTP, HTTP(S) e XML). Tecnicamente, questa funzionalità è implementata in un modulo di estensione di un server HTTP (estensione ISAPI in IIS, o un modulo DSO Apache, ecc.) ed è disponibile solo in Windows.
+  Per garantire la massima disponibilità, questo processo è completamente indipendente dal database: gli altri processi server comunicano con esso utilizzando solo chiamate SOAP (HTTP, HTTP(S) e XML). Tecnicamente, questa funzionalità viene implementata in un modulo di estensione di un server HTTP (estensione ISAPI in IIS, o un modulo Apache DSO, ecc.) ed è disponibile solo in Windows.
 
 Sono disponibili anche altri processi più tecnici:
 
@@ -81,7 +81,7 @@ Sono disponibili anche altri processi più tecnici:
 
 ## Contenitori database {#db-containers}
 
-Nella distribuzione di [Enterprise (FFDA)](enterprise-deployment.md), il database Adobe Campaign Cloud si basa su [!DNL Snowflake] che contiene i dati funzionali (profili, abbonamenti, contenuto, ecc.), i dati tecnici (processi e registri di consegna, registri di tracciamento, ecc.) e i dati di lavoro (acquisti, lead) per la soluzione e tutti i componenti Adobe Campaign comunicano con il database per eseguire le proprie attività specifiche.
+Nella distribuzione di [Enterprise (FFDA)](enterprise-deployment.md), il database di Adobe Campaign Cloud si basa su [!DNL Snowflake] che contiene i dati funzionali (profili, abbonamenti, contenuto, ecc.), i dati tecnici (processi e registri di consegna, registri di tracciamento, ecc.) e i dati di lavoro (acquisti, lead) della soluzione e tutti i componenti di Adobe Campaign comunicano con il database per eseguire le attività specifiche.
 
 Puoi distribuire Adobe Campaign utilizzando il database e gli schemi predefiniti e, se necessario, estendere questo ambiente predefinito. Adobe Campaign accede a tutti i dati all’interno del data mart tramite chiamate SQL. Adobe Campaign fornisce inoltre una serie completa di strumenti ETL (Extract Transform and Load) per eseguire l’importazione e l’esportazione dei dati all’interno e all’esterno del sistema.
 

@@ -9,7 +9,7 @@ level: Experienced
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
 source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '744'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ L’evento transazionale viene inviato tramite una richiesta POST con la seguent
 POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 ```
 
-* **&lt;ORGANIZZAZIONE>**: ID organizzazione personale. Fai riferimento a [questa sezione](must-read.md).
+* **&lt;ORGANIZATION>**: l’ID ORGANIZZAZIONE personale. Fai riferimento a [questa sezione](must-read.md).
 
 * **&lt;transactionalAPI>**: endpoint API per messaggi transazionali.
 
@@ -43,7 +43,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
   `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
 
-* **&lt;eventID>**: tipo di evento da inviare. Questo ID viene generato durante la creazione della configurazione dell’evento
+* **&lt;eventID>**: tipo di evento che si desidera inviare. Questo ID viene generato durante la creazione della configurazione dell’evento
 
 ### Intestazione della richiesta POST
 

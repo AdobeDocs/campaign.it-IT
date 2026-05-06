@@ -7,8 +7,8 @@ description: Note tecniche sulla campagna
 breadcrumb-title: Note tecniche sulla campagna
 source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 17%
+source-wordcount: '85'
+ht-degree: 24%
 
 ---
 
@@ -31,4 +31,4 @@ ht-degree: 17%
    + Sicurezza {#security}
       + {hide-from-toc}[Rotazione credenziali cliente](security/credential-rotation-guide.md)
       + {hide-from-toc}[Crittografia asimmetrica](security/asymetric-encryption.md)
-+ [&lt; Torna alla documentazione di Campaign v8](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/campaign-home)
++ [&lt; Documentazione di Back to Campaign v8](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/campaign-home)

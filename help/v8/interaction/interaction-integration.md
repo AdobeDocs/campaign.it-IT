@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 1eb0775a-5da9-4a27-aa7b-339372748f9c
 source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1458'
 ht-degree: 0%
 
 ---
@@ -343,7 +343,7 @@ In risposta alla query, il servizio SOAP restituirà i seguenti parametri:
 Aggiungi il comando **nms:interaction#UpdateStatus** all&#39;URL, seguito dai seguenti parametri:
 
 * **proposition**: stringa di caratteri, contiene l&#39;ID della proposta fornito come output durante una proposta di offerta. Consulta [Proposta di offerte](#offer-proposition).
-* **status**: tipo di stringa che specifica il nuovo stato dell&#39;offerta. I valori possibili sono elencati nello schema **nms** di [propositionStatus](../config/enumerations.md) **enumeration:common**. Ad esempio, il numero 3 corrisponde allo stato **Accettato**.
+* **status**: tipo di stringa che specifica il nuovo stato dell&#39;offerta. I valori possibili sono elencati nello schema **nms:common** di **propositionStatus** [enumeration](../config/enumerations.md). Ad esempio, il numero 3 corrisponde allo stato **Accettato**.
 * **contesto**: elemento XML, che consente di aggiungere informazioni di contesto nello schema dello spazio. Se lo schema utilizzato è **nms:interaction**, aggiungere **`<empty>`**.
 
 ### Esempio di utilizzo di una chiamata SOAP {#example-using-a-soap-call}

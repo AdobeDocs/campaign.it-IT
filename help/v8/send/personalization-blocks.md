@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 214ad693-d456-47ec-a9c8-199ba23c3d9c
 source-git-commit: 25ee55d5327e0ba7f2192f7b462853269c8cbf46
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '559'
 ht-degree: 20%
 
 ---
@@ -41,7 +41,7 @@ I blocchi di personalizzazione incorporati sono:
 
 * **[!UICONTROL Enabled by Adobe Campaign]**: inserisce il logo &quot;Abilitato da Adobe Campaign&quot;.
 * **[!UICONTROL Formatting function for proper nouns]**: genera la funzione JavaScript **[!UICONTROL toSmartCase]**, che modifica la prima lettera di ogni parola in maiuscolo.
-* **[!UICONTROL Greetings]**: inserisce i saluti con il nome completo del destinatario seguito da una virgola. Esempio: “Ciao John Doe,” 
+* **[!UICONTROL Greetings]**: inserisce i saluti con il nome completo del destinatario seguito da una virgola. Esempio: “Ciao John Doe,”
 * **[!UICONTROL Insert logo]**: inserisce un logo definito nelle impostazioni dell&#39;istanza.
 * **[!UICONTROL Link to mirror page]**: inserisce un collegamento alla [pagina mirror](mirror-page.md). Il formato predefinito è: “Se non riesci a visualizzare correttamente questo messaggio, fai clic qui”.
 * **[!UICONTROL Mirror page URL]**: inserisce l&#39;URL della pagina mirror, consentendo ai designer della consegna di controllare il collegamento.
@@ -72,7 +72,7 @@ Per creare un blocco di personalizzazione, effettua le seguenti operazioni:
    * Seleziona un tipo di contenuto **Consegna**.
    * Abilita l&#39;opzione **[!UICONTROL Visible in the customization menus]** per rendere accessibile questo blocco dall&#39;icona di inserimento del campo di personalizzazione.
    * Se necessario, abilita l&#39;opzione **[!UICONTROL The content of the personalization block depends upon the format]**, per definire due blocchi diversi per le e-mail HTML e Text.
-   * Immettere il contenuto (in HTML, testo, JavaScript, ecc.) del blocco di personalizzazione e fare clic su **[!UICONTROL Save]**.
+   * Inserisci il contenuto (in HTML, testo, JavaScript, ecc.) del blocco di personalizzazione e fare clic su **[!UICONTROL Save]**.
 
 Una volta salvato, il nuovo blocco di personalizzazione è disponibile nell’editor di consegna.
 

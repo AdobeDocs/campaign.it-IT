@@ -8,8 +8,8 @@ exl-id: 0f81d318-dbfd-45c8-b391-b1d14d23e9c8
 version: Campaign v8, Campaign Classic v7
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 82%
+source-wordcount: '1093'
+ht-degree: 83%
 
 ---
 
@@ -27,7 +27,7 @@ Scopri il **Diritto di accesso** e il **Diritto all&#39;oblio** (elimina richies
 
 >[!NOTE]
 >
->Questa funzionalità è disponibile a partire da Campaign v8.3. Per verificare la versione, consulta [questa sezione](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion).
+>Questa funzionalità è disponibile a partire da Campaign v8.3. Per verificare la versione, consulta [questa sezione](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
 ## Definire uno spazio dei nomi {#namespaces}
 

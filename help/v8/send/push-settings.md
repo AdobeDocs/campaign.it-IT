@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 1a75f411-3f71-4114-b738-277820dc6138
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '1679'
+source-wordcount: '1829'
 ht-degree: 5%
 
 ---
@@ -261,7 +261,7 @@ Per creare un&#39;app per dispositivi Android, effettua le seguenti operazioni:
 
 1. (facoltativo) Se necessario, puoi arricchire il contenuto di un messaggio push con alcuni **[!UICONTROL Application variables]**. Questi sono completamente personalizzabili e fanno parte del payload del messaggio inviato al dispositivo mobile.
 
-1. Fare clic su **[!UICONTROL Finish]** e quindi su **[!UICONTROL Save]**. L’applicazione Android è ora pronta per essere utilizzata in Campaign.
+1. Fai clic su **[!UICONTROL Finish]**, quindi su **[!UICONTROL Save]**. L’applicazione Android è ora pronta per essere utilizzata in Campaign.
 
 Di seguito sono riportati i nomi del payload FCM per personalizzare ulteriormente la notifica push:
 

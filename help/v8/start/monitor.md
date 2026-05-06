@@ -4,10 +4,11 @@ description: Scopri come monitorare consegne, flussi di lavoro e la tua istanza 
 feature: Monitoring
 role: User
 level: Beginner
-source-git-commit: c4d3a5d3cf89f2d342c661e54b5192d84ceb3a75
+exl-id: 2ad585f2-19bc-4391-8a19-9e892dbe01a3
+source-git-commit: 0868fa6522f622e9fa18d4acc3606f690550e5b6
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 2%
+source-wordcount: '1141'
+ht-degree: 4%
 
 ---
 
@@ -144,7 +145,7 @@ Tieni traccia del comportamento dei destinatari e misura l’efficacia delle cam
 
 Ulteriori informazioni sul [tracciamento dei messaggi](../send/tracking.md)
 
-### Rapporti sulle consegne {#delivery-reports}
+### Rapporti di consegna {#delivery-reports}
 
 Adobe Campaign fornisce un set completo di rapporti per analizzare le prestazioni di consegna:
 
@@ -171,4 +172,3 @@ Ulteriori informazioni sui [report globali](../reporting/global-reports.md)
 * [Gestione della quarantena](../send/quarantines.md)
 * [Configurare e inviare consegne](../send/configure-and-send.md)
 * [Introduzione al reporting](../reporting/gs-reporting.md)
-

@@ -7,7 +7,7 @@ level: Intermediate
 exl-id: 1f941b35-c7e0-4e8c-b6e5-a1a3e5354483
 source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
 workflow-type: tm+mt
-source-wordcount: '3666'
+source-wordcount: '3682'
 ht-degree: 3%
 
 ---
@@ -40,7 +40,7 @@ Di seguito sono riportati i parametri e il loro ruolo necessari per impostare la
 * **Tipo di sistema**: valore passato nel campo system_type della PDU BIND. Alcuni provider necessitano di un valore specifico.
 * **Numero di connessioni MTA secondarie**: definisce il numero di connessioni aperte per thread di invio.
 Il numero totale di connessioni può essere calcolato utilizzando questa formula:
-  *Totale connessioni = Numero di processi SMS * Numero di thread di invio * Numero di connessioni MTA secondarie*
+  *Totale connessioni = Numero di processi SMS* Numero di thread di invio * Numero di connessioni MTA secondarie*
 
    * Il numero di processi SMS è normalmente 1. In alcune istanze con prestazioni molto elevate, è possibile avviare più processi SMS in parallelo.
    * Il numero di thread di invio è impostato in serverConf (impostazione sendingThreads). Il valore predefinito è 1.

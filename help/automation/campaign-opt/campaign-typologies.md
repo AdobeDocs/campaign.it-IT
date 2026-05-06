@@ -6,7 +6,7 @@ feature: Typology Rules
 exl-id: 7832ffe1-eb65-4b37-9fc5-1374516755d9
 source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '482'
 ht-degree: 19%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 19%
 
 **Ottimizzazione campagne** è il modulo di Adobe Campaign che consente di controllare, filtrare e monitorare l&#39;invio delle consegne. Per evitare conflitti tra campagne, Adobe Campaign può sottoporre a test diverse combinazioni applicando specifiche regole di vincolo. Ciò garantisce che i messaggi inviati soddisfino le esigenze e le aspettative dei clienti, in linea con le politiche di comunicazione aziendali.
 
-![](assets/do-not-localize/how-to-video.png) [Guarda il video su questa funzione](#typologies-video)
+![](assets/do-not-localize/how-to-video.png) [Guarda un video su questa funzione](#typologies-video)
 
 >[!NOTE]
 >
@@ -79,11 +79,11 @@ Casi d&#39;uso di esempio sulle regole di tipologia della pressione sono disponi
 
 Questo video spiega come implementare la gestione dell’eccesso in Adobe Campaign sfruttando le regole di tipologia.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448339?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3448339?captions=ita&quality=12)
 
 ### Gestire l’eccesso di comunicazioni mediante filtri predefiniti
 
 La gestione dell’eccesso controlla la frequenza e la quantità di messaggi per evitare un’eccessiva sollecitazione dei destinatari. Se nell’istanza della campagna non è presente il modulo di ottimizzazione, puoi configurare un filtro predefinito che filtrerà la popolazione target in base al numero di messaggi ricevuti
 Questo video spiega come implementare la gestione dell’eccesso in Adobe Campaign utilizzando i filtri.
 
->[!VIDEO](https://video.tv.adobe.com/v/3444608?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3444608?captions=ita&quality=12)

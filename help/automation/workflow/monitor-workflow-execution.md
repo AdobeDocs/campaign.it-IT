@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: bc13d706-7888-42eb-9116-5538e68cd515
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '1926'
+source-wordcount: '1937'
 ht-degree: 2%
 
 ---
@@ -230,7 +230,7 @@ I flussi di lavoro utilizzano molte tabelle di lavoro che occupano spazio e fini
 
 Il flusso di lavoro **Database cleanup** accessibile tramite il nodo **Amministrazione > Produzione > Flussi di lavoro tecnici** consente di eliminare i dati obsoleti per evitare una crescita esponenziale del database. Il flusso di lavoro viene attivato automaticamente senza l’intervento dell’utente.
 
-Puoi anche creare flussi di lavoro tecnici specifici per eliminare i dati non necessari che occupano spazio. Fai riferimento a   e questa [sezione](#purging-the-logs).
+Puoi anche creare flussi di lavoro tecnici specifici per eliminare i dati non necessari che occupano spazio. Fai riferimento a e a questa [sezione](#purging-the-logs).
 
 ## Gestione dei flussi di lavoro in pausa {#handling-of-paused-workflows}
 

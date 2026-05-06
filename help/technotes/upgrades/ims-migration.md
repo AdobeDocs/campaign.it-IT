@@ -6,7 +6,7 @@ role: Admin
 exl-id: 775c5dbb-ef73-48dd-b163-23cfadc3dab8
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1598'
 ht-degree: 0%
 
 ---
@@ -221,7 +221,7 @@ L’utente dell’account tecnico NON esisterà in Adobe Campaign finché non ve
 
    ![](assets/do-not-localize/ims-updates-07.png)
 
-   Nella schermata Credenziali, scorri verso il basso per individuare il **Indirizzo e-mail account tecnico &#x200B;** e fai clic sul pulsante **Copia**.
+   Nella schermata Credenziali, scorri verso il basso per individuare il **Indirizzo e-mail account tecnico** e fai clic sul pulsante **Copia**.
 
    ![](assets/do-not-localize/ims-updates-08.png)
 

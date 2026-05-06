@@ -7,7 +7,7 @@ role: User
 exl-id: 51f3add9-a083-4db1-84a6-3aaaeec0465c
 source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
-source-wordcount: '2428'
+source-wordcount: '2429'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ Per creare un budget, effettua le seguenti operazioni:
 1. Fare clic sull&#39;icona **[!UICONTROL New]**, assegnare un nome e salvare il budget.
 1. Inserire l&#39;importo iniziale: indicare l&#39;importo allocato nel campo pertinente. Gli altri importi vengono inseriti automaticamente. [Ulteriori informazioni](#calculating-amounts).
 1. Definire il periodo di validità inserendo le date di inizio e di fine. Queste informazioni sono puramente indicative.
-1. Crea le categorie di spesa a cui assegnare i costi di questo budget per campagne, attività e così via. possono essere collegati. [Ulteriori informazioni](#expense-categories).
+1. Crea le categorie di spesa a cui collegare i costi assegnati a questo budget per campagne, attività e così via. [Ulteriori informazioni](#expense-categories).
 
 ![](assets/s_ncs_user_budget_create_and_save.png)
 
@@ -166,7 +166,7 @@ I costi sono suddivisi in tre categorie:
 
 1. Costo calcolato
 
-   Il costo calcolato dipende dall’elemento interessato (campagna, consegna, attività, ecc.) e dal suo stato (in corso di modifica, in corso, finito). In ogni caso, se si specifica il costo reale, il costo calcolato utilizzerà tale importo.
+   Il costo calcolato dipende dall’elemento interessato (campagna, consegna, attività, ecc.) e il relativo stato (in corso di modifica, in corso, terminato). In ogni caso, se si specifica il costo reale, il costo calcolato utilizzerà tale importo.
 
    Se non viene fornito il costo effettivo, si applicano le seguenti regole:
 

@@ -5,8 +5,8 @@ feature: Release Notes
 exl-id: 6a0a9486-19a9-4ec3-9030-48dbf419f45f
 source-git-commit: b52308bcbe68a7c382918fe28f8166e3bfcb6cde
 workflow-type: tm+mt
-source-wordcount: '1568'
-ht-degree: 91%
+source-wordcount: '1679'
+ht-degree: 89%
 
 ---
 
@@ -53,7 +53,7 @@ NEO-48232, NEO-56832, NEO-72504, NEO-74855, NEO-75898, NEO-76097, NEO-76958, NEO
 
 ## Versione 8.7.1 {#release-8-7-1}
 
-_2 maggio 2024_
+_venerdì 2 maggio 2024_
 
 >[!AVAILABILITY]
 >
@@ -69,7 +69,7 @@ _2 maggio 2024_
 
 * **API REST**: in qualità di utente Campaign Standard migrato, puoi utilizzare le API REST per creare integrazioni per Adobe Campaign e il tuo ecosistema interfacciando Adobe Campaign con il pannello di tecnologie utilizzato. [Ulteriori informazioni](../dev/api/get-started-apis.md)
 
-* **Reporting dinamico**: in qualità di utente Campaign Standard migrato, puoi accedere al Reporting dinamico che fornisce rapporti completamente personalizzabili e in tempo reale per misurare l’impatto delle attività di marketing. Permette di accedere ai dati del profilo, abilitando l’analisi demografica per dimensioni di profilo, come genere, città ed età, oltre ai dati funzionali delle campagne e-mail come aperture e clic. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html?lang=it){target="_blank"}
+* **Reporting dinamico**: in qualità di utente Campaign Standard migrato, puoi accedere al Reporting dinamico che fornisce rapporti completamente personalizzabili e in tempo reale per misurare l’impatto delle attività di marketing. Consente di accedere ai dati del profilo, abilitando l’analisi demografica per dimensioni di profilo, come genere, città ed età, oltre ai dati funzionali delle campagne e-mail come aperture e clic. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html?lang=it){target="_blank"}
 
 ### Aggiornamenti della compatibilità {#comp-8-7-1}
 
@@ -108,7 +108,7 @@ NEO-72648, NEO-71534, NEO-71473, NEO-70263, NEO-70195, NEO-69651, NEO-68704, NEO
 
 ## Versione 8.6.3 {#release-8-6-3}
 
-_30 luglio 2024_
+_mercoledì 30 luglio 2024_
 
 ### Nuove funzioni {#new-8-6-3}
 
@@ -186,7 +186,7 @@ NEO-67892, NEO-67235, NEO-66797, NEO-66462, NEO-65091, NEO-65036, NEO-64984, NEO
 
 ## Versione 8.5.3 {#release-8-5-3}
 
-_28 maggio 2024_
+_mercoledì 28 maggio 2024_
 
 ### Migrazione alle credenziali OAuth server-to-server {#change-8-5-3}
 

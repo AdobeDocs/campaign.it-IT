@@ -7,8 +7,8 @@ level: Beginner, Intermediate
 exl-id: bdd5e993-0ce9-49a8-a618-ab0ff3796d49
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '2740'
-ht-degree: 4%
+source-wordcount: '2777'
+ht-degree: 5%
 
 ---
 
@@ -181,7 +181,7 @@ In qualità di utente di Managed Cloud Services, rivolgiti ai consulenti o agli 
 
 Per garantire prestazioni migliori in qualsiasi momento, segui le best practice riportate di seguito.
 
-### Raccomandazioni generali {#general-recommendations}
+### Consigli generali {#general-recommendations}
 
 * Evita di utilizzare operazioni come &quot;CONTAINS&quot; nelle query. Se sai cosa è previsto e desideri filtrare, applica la stessa condizione con un &quot;UGUALE A&quot; o altri operatori di filtro specifici.
 * Prova ad assicurarti che i processi come l’importazione e l’esportazione avvengano al di fuori dell’orario di lavoro.

@@ -7,8 +7,8 @@ level: Beginner
 exl-id: ad639a39-f011-4f0f-9db6-d06078f2e7a2
 source-git-commit: 465d5d4ba10596ad2c3ced1fe621a93327fc48ab
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 7%
+source-wordcount: '376'
+ht-degree: 13%
 
 ---
 
@@ -20,7 +20,7 @@ Per creare pagine di destinazione, passa all&#39;[interfaccia utente Web](../sta
 
 >[!AVAILABILITY]
 >
->* L’interfaccia utente di Campaign Web è disponibile solo per gli utenti che si connettono a Adobe Campaign con il proprio Adobe ID. Ulteriori informazioni su [Adobe Identity Management System (IMS)](https://helpx.adobe.com/it/enterprise/using/identity.html){target="_blank"}.
+>* L’interfaccia utente di Campaign Web è disponibile solo per gli utenti che si connettono ad Adobe Campaign con il proprio Adobe ID. Ulteriori informazioni su [Adobe Identity Management System (IMS)](https://helpx.adobe.com/it/enterprise/using/identity.html){target="_blank"}.
 >
 >* Le pagine di destinazione create nell’interfaccia utente di Campaign Web non possono essere visualizzate o modificate nella console client di Campaign.
 >
@@ -57,11 +57,11 @@ Ulteriori informazioni sulle pagine di destinazione nella [documentazione dell&#
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/it/docs/campaign-web/v8/landing-pages/lp-templates">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-templates">
 <img alt="Convalida" src="assets/do-not-localize/lp-reporting.jpg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/it/docs/campaign-web/v8/landing-pages/lp-templates"><strong>Utilizzare i modelli di pagina di destinazione</strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-templates"><strong>Utilizzare i modelli di pagina di destinazione</strong></a>
 </div>
 <p>
 </td>

@@ -8,7 +8,7 @@ exl-id: ca7eca9d-9112-4ea1-9a0c-a24cf6a978e6
 source-git-commit: 26829656f8e06434ca3207c0c7b62ba907765972
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -35,7 +35,7 @@ Quando si utilizza l&#39;attività **[!UICONTROL Change Data Source]**, è neces
 
 Per utilizzare l&#39;attività **[!UICONTROL Change Data Source]**, è necessario:
 
-1. Crea un flusso di lavoro.
+1. Creazione di un flusso di lavoro.
 
 1. Eseguire una query sui destinatari con un&#39;attività **[!UICONTROL Query]**.
 

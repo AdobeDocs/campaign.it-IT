@@ -7,8 +7,8 @@ level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66
 source-git-commit: 8d6c3e03f9b7533f7f325b755e3b6d4f74b63a8d
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 93%
+source-wordcount: '852'
+ht-degree: 78%
 
 ---
 
@@ -20,7 +20,7 @@ Le campagne includono azioni (consegne), processi (importazione o estrazione fil
 
 ## Orchestrazione di campagne cross-channel{#cross-channel-orchestration}
 
- Adobe Campaign ti consente di progettare e orchestrare campagne mirate e personalizzate su più canali: e-mail, direct mail, SMS, notifica push. Un’unica interfaccia ti offre tutte le funzioni necessarie per pianificare, orchestrare, configurare, personalizzare, automatizzare, eseguire e misurare tutte le tue campagne e comunicazioni.
+Adobe Campaign ti consente di progettare e orchestrare campagne mirate e personalizzate su più canali: e-mail, direct mail, SMS, notifica push. Un’unica interfaccia ti offre tutte le funzioni necessarie per pianificare, orchestrare, configurare, personalizzare, automatizzare, eseguire e misurare tutte le tue campagne e comunicazioni.
 
 ![](assets/campaign-tab.png)
 
@@ -28,9 +28,9 @@ Le campagne includono azioni (consegne), processi (importazione o estrazione fil
 
 Prima di iniziare a implementare le campagne di marketing, devi acquisire familiarità con i concetti seguenti:
 
-* **Campagna di marketing**: una campagna centralizza tutti gli elementi relativi a una campagna di marketing: consegne, regole di targeting, costi, file di esportazione, documenti correlati, eccetera. Ogni campagna è associata a un programma.
+* **Campagna di marketing**: una campagna centralizza tutti gli elementi relativi a una campagna di marketing: consegne, regole di targeting, costi, file di esportazione, documenti correlati, ecc. Ogni campagna è associata a un programma.
 
-* **Programma**: un programma consente di definire azioni di marketing per un periodo di calendario: lancio, sondaggi, fidelizzazione, eccetera. Ogni programma contiene campagne collegate a un calendario, che fornisce una visualizzazione complessiva.
+* **Programma**: un programma consente di definire azioni di marketing per un periodo di calendario: lancio, sondaggi, fidelizzazione, ecc. Ogni programma contiene campagne collegate a un calendario, che fornisce una visualizzazione complessiva.
 
 * **Piano**: il piano marketing può contenere più programmi. È collegato a un periodo di calendario, ha un bilancio assegnato e può anche essere collegato a documenti e obiettivi.
 
@@ -80,7 +80,7 @@ I passaggi principali per creare una campagna di marketing cross-channel sono i 
 
    Per informazioni su come creare e avviare le consegne di campagne marketing, consulta [questa pagina](../../automation/campaigns/marketing-campaign-deliveries.md).
 
-   È possibile associare vari documenti a una campagna: rapporti, foto, pagina web, diagramma, ecc. Per ulteriori informazioni sui documenti associati, consulta [questa pagina](../../automation/campaigns/marketing-campaign-assets.md).
+   È possibile associare vari documenti a una campagna: report, foto, pagina web, diagramma, ecc. Ulteriori informazioni sui documenti associati in [questa pagina](../../automation/campaigns/marketing-campaign-assets.md).
 
 1. **Impostare il processo di approvazione**
 
@@ -91,7 +91,7 @@ I passaggi principali per creare una campagna di marketing cross-channel sono i 
 
 ## Componente aggiuntivo Marketing distribuito{#distributed-marketing-add-on}
 
-Adobe Campaign offre il componente aggiuntivo **Marketing distribuito** per l’implementazione di campagne di cooperazione tra entità centrali (sedi centrali, reparti di marketing, ecc.) ed entità locali (negozi, agenzie locali, ecc.). Questa cooperazione si basa su un’area di lavoro condivisa nota come **[!UICONTROL List of campaign packages]**, in cui i modelli di campagna progettati da entità centrali vengono offerti agli enti locali.
+Adobe Campaign offre il componente aggiuntivo **Marketing distribuito** per l&#39;implementazione di campagne di cooperazione tra entità centrali (sedi centrali, dipartimenti di marketing, ecc.) ed enti locali (negozi, agenzie regionali, ecc.). Questa cooperazione si basa su un’area di lavoro condivisa nota come **[!UICONTROL List of campaign packages]**, in cui i modelli di campagna progettati da entità centrali vengono offerti agli enti locali.
 
 >[!NOTE]
 >

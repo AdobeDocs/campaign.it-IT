@@ -5,9 +5,10 @@ feature: Monitoring
 role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
-source-git-commit: c4d3a5d3cf89f2d342c661e54b5192d84ceb3a75
+exl-id: 254765d3-f664-4200-9a70-f8876f2b2933
+source-git-commit: 0868fa6522f622e9fa18d4acc3606f690550e5b6
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1157'
 ht-degree: 3%
 
 ---
@@ -41,7 +42,7 @@ Ti consente di recuperare informazioni su una consegna e modificarle, se necessa
 Di seguito sono riportate le informazioni che è possibile monitorare utilizzando le diverse schede disponibili nel dashboard:
 
 * [Riepilogo della consegna](#delivery-summary)
-* [Rapporti sulle consegne](#delivery-reports)
+* [Rapporti di consegna](#delivery-reports)
 * [Registri di consegna, pagine mirror, esclusioni](#delivery-logs-and-history)
 * [Registri e cronologia di tracciamento delle consegne](#tracking-logs)
 * [Rendering consegna](#delivery-rendering)
@@ -60,7 +61,7 @@ Di seguito sono riportate le informazioni che è possibile monitorare utilizzand
 
 La scheda **[!UICONTROL Summary]** contiene le caratteristiche della consegna: stato della consegna, canale utilizzato, informazioni sul mittente, oggetto e informazioni sull&#39;esecuzione.
 
-## Rapporti sulle consegne {#delivery-reports}
+## Rapporti di consegna {#delivery-reports}
 
 Il collegamento **[!UICONTROL Reports]**, accessibile dalla scheda **[!UICONTROL Summary]**, consente di esaminare una serie di rapporti relativi all&#39;azione di consegna: report di consegna generale, report dettagliato, report di consegna, distribuzione dei messaggi non riusciti, tasso di apertura, clic e transazioni, ecc.
 
@@ -96,7 +97,7 @@ La scheda **[!UICONTROL Tracking]** elenca la cronologia di tracciamento per que
 
 La configurazione del tracciamento viene eseguita nella fase appropriata nell’assistente alla consegna. Consulta [Come configurare i collegamenti tracciati](tracking.md).
 
-I dati di **[!UICONTROL Tracking]** vengono interpretati nei report di consegna. Consulta [questa sezione](../reporting/delivery-reports.md).
+I dati di **[!UICONTROL Tracking]** vengono interpretati nei report di consegna. Vedi [questa sezione](../reporting/delivery-reports.md).
 
 ![](assets/s_ncs_user_delivery_tracking_tab.png)
 
@@ -164,4 +165,3 @@ I problemi di sistema possono impedire ai server di elaborare le consegne in mod
 >[!NOTE]
 >
 >In qualità di utente di Campaign v8 Managed Cloud Services, il monitoraggio dell’infrastruttura server è gestito da Adobe. Se riscontri problemi persistenti di prestazioni con l’invio della consegna, contatta l’Assistenza clienti Adobe con i registri di consegna.
-

@@ -5,7 +5,7 @@ feature: Release Notes
 exl-id: 3f91d83e-594e-49ee-a898-606e3de00bf3
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '3472'
+source-wordcount: '3608'
 ht-degree: 33%
 
 ---
@@ -35,7 +35,7 @@ _9 ottobre 2025_
 
 >[!AVAILABILITY]
 >
->Questa versione è in **disponibilità limitata** (LA).
+>Questa versione è in **Disponibilità limitata** (LA).
 
 ### Nuove funzioni {#features-8-8-2}
 
@@ -142,7 +142,7 @@ ACC - Dynamic Reporting - As a Campaign Standard migrated user, you can access D
   >
   >Questa funzionalità è **non** disponibile per [distribuzioni FFDA di Campaign](../architecture/enterprise-deployment.md).
 
-* **Annullamento iscrizione a mailing list con un solo clic** - Con i principali ISP che richiedono ai mittenti di consentire ai destinatari di rinunciare istantaneamente con un solo clic, ora puoi abilitare l&#39;intestazione Annullamento iscrizione a mailing list con un solo clic nell&#39;interfaccia utente, direttamente dal modello e-mail o dalle proprietà di consegna. Questa opzione è attivata per impostazione predefinita. [Ulteriori informazioni](../send/email-parameters.md#one-click-list-unsubscribe)
+* **Annullamento iscrizione a mailing list con un solo clic** - Con i principali ISP che richiedono ai mittenti di consentire ai destinatari di rinunciare istantaneamente con un solo clic, ora puoi abilitare l&#39;intestazione Annullamento iscrizione a mailing list con un solo clic nell&#39;interfaccia utente, direttamente dal modello e-mail o dalle proprietà di consegna. Questa opzione è abilitata per impostazione predefinita. [Ulteriori informazioni](../send/email-parameters.md#one-click-list-unsubscribe)
 
 <!--
 ACC - Rest APIs - As a Campaign Standard migrated user, you can use Rest APIs to create integrations for Adobe Campaign and build your own ecosystem by interfacing Adobe Campaign with the panel of technologies that you use. Read more
@@ -153,7 +153,7 @@ ACC * **Transactional messaging REST APIs** - Event-based Transactional APIs are
 
 Oltre alle funzioni elencate in precedenza, questa versione include anche una serie di funzionalità disponibili con l’interfaccia utente web di Campaign:
 
-* [Creazione consegna multilingue](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/edit-content.html?lang=it#multilingual-delivery){target="_blank"}
+* [Creazione di consegne multilingue](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/edit-content.html?lang=it#multilingual-delivery){target="_blank"}
 * [Avvisi di consegna](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-alerting/delivery-alerting.html?lang=it){target="_blank"}
 * [Miglioramenti alle pagine di destinazione](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/get-started-lp.html?lang=it){target="_blank"}
 * [Reporting dinamico](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html?lang=it){target="_blank"} (su richiesta)
@@ -275,7 +275,7 @@ _sabato 25 aprile 2025_
 
 >[!AVAILABILITY]
 >
->Questa versione è in **disponibilità limitata** (LA).
+>Questa versione è in **Disponibilità limitata** (LA).
 
 ### Nuove funzioni {#features-8-6-5}
 
@@ -307,7 +307,7 @@ _venerdì 10 aprile 2025_
 
 ### Nuove funzioni {#features-8-7-4}
 
-* **Supporto API REST SMS**: l’API REST per la messaggistica transazionale è ora disponibile per il canale SMS. Quando nel payload sono presenti sia e-mail che telefono cellulare, puoi utilizzare il campo “wishedChannel” per specificare il canale. Se non viene fornito, per impostazione predefinita verrà utilizzata l’e-mail, a meno che wishedChannel non richieda esplicitamente l’SMS.
+* **Supporto API REST SMS**: l’API REST per la messaggistica transazionale è ora disponibile per il canale SMS. Quando nel payload sono presenti sia e-mail che telefono cellulare, puoi utilizzare il campo “wishedChannel” per specificare il canale. Se non viene fornito, l’e-mail verrà utilizzata per impostazione predefinita a meno che wishedChannel non richieda esplicitamente l’invio di SMS.
 
 * **Consegne multilingue**: a partire dalla versione di aprile dell’interfaccia utente di Campaign Web, sarà possibile inviare più consegne e-mail in lingue diverse e accedere ai rapporti dinamici correlati. Questa funzionalità sarà disponibile nell’interfaccia utente di Adobe Campaign Web solo alla fine di aprile e richiederà un aggiornamento del server a Campaign v8.7.4.
 

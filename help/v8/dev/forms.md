@@ -7,7 +7,7 @@ level: Beginner, Intermediate
 exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
 source-git-commit: 4f9183c7f1d12feb255a0050da423647f0fce85e
 workflow-type: tm+mt
-source-wordcount: '2551'
+source-wordcount: '2571'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Il documento XML del modulo di input deve contenere l&#39;elemento principale `<
 </form>
 ```
 
-Per impostazione predefinita, un modulo è associato allo schema dati con lo stesso nome e lo stesso spazio dei nomi. Per associare un modulo a un nome diverso, impostare l&#39;attributo **entity-schema** dell&#39;elemento `<form>` sul nome della chiave dello schema. Per illustrare la struttura di un modulo di input, descriviamo un’interfaccia utilizzando lo schema di esempio &quot;cus:recipient&quot;:
+Per impostazione predefinita, un modulo è associato allo schema dati con lo stesso nome e lo stesso spazio dei nomi. Per associare un modulo a un nome diverso, impostare l&#39;attributo **entity-schema** dell&#39;elemento `<form>` sul nome della chiave dello schema. Per illustrare la struttura di un modulo di input, descrivere un&#39;interfaccia utilizzando lo schema di esempio &quot;cus:recipient&quot;:
 
 ```
 <srcSchema name="recipient" namespace="cus">
@@ -589,7 +589,7 @@ Esempi di utilizzo del tag `<set>`:
 
 >[!NOTE]
 >
->`<enter>` e `<leave>`   I tag possono essere utilizzati nelle `<container>` pagine (tipi &quot;blocco appunti&quot; e &quot;iconbox&quot;).
+>I tag `<enter>` e `<leave>` possono essere utilizzati nei `<container>` di pagine (tipi &quot;blocco appunti&quot; e &quot;iconbox&quot;).
 
 ### Linguaggio di espressione {#expression-language-}
 

@@ -9,8 +9,8 @@ level: Experienced
 exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
 source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 40%
+source-wordcount: '240'
+ht-degree: 58%
 
 ---
 
@@ -40,5 +40,5 @@ Per ulteriori informazioni al riguardo, consulta [questa sezione](setting-up-api
 
 Le API fornite sfruttano **concetti standard** con un’interfaccia REST e payload JSON.
 
-In questa documentazione sono descritti dettagliatamente tutti gli endpoint con le nozioni generali da conoscere per la manipolazione dell’API, il riferimento API completo, gli esempi di codice e le guide di avvio rapido. Tutti gli esempi funzionano con Postman, ma puoi usare il client REST che preferisci.
+Questa documentazione contiene la descrizione approfondita di tutti gli endpoint con le nozioni generali da conoscere per la manipolazione dell’API, il riferimento API completo, gli esempi di codice e le guide di avvio rapido. Tutti gli esempi funzionano con Postman, ma puoi usare il client REST che preferisci.
 

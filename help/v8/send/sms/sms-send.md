@@ -9,7 +9,7 @@ exl-id: 9469aeb6-831f-4c8f-8c25-b335dc47c764
 source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '111'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Quando l’SMS viene convalidato, ora puoi inviarlo al relativo pubblico.
 
-1. Fare clic sul pulsante **[!UICONTROL Send]**.
+1. Fai clic sul pulsante **[!UICONTROL Send]**.
 Nella finestra aperta, scegli l’azione adatta a te.
 
    Nell&#39;esempio seguente, si sceglie di **[!UICONTROL Deliver it as soon as possible]**, verrà visualizzato il pulsante **[!UICONTROL Analyze]**. Fare clic sul pulsante **[!UICONTROL Analyze]**.

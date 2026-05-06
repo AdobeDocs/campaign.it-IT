@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: aeb35076-2f0d-456d-8562-be69e7e902eb
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1111'
 ht-degree: 3%
 
 ---
@@ -94,7 +94,7 @@ Ogni riga rappresenta un&#39;ora del giorno e ogni cella rappresenta 5 minuti de
 
 La griglia mostra tutti i flussi di lavoro in esecuzione contemporaneamente per ciascuno di questi periodi di 5 minuti.
 
-Nell’esempio seguente, tra le 8.00 e le 8.05 sono in esecuzione tre flussi di lavoro (indipendentemente dalla durata):
+Nell&#39;esempio seguente, tra le 8.00 e le 8.00 sono in esecuzione tre flussi di lavoro (indipendentemente dalla durata)::05am
 
 ![](assets/wkf_monitoring_ex_8am.png)
 

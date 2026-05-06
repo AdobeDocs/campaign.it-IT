@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 1d4a98e6-af11-4645-864e-29aa5766d9d8
 source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
 workflow-type: tm+mt
-source-wordcount: '1830'
+source-wordcount: '1835'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ Per creare un modello di servizio e definirne il contenuto, effettuare le seguen
 
    ![](assets/supplier-new-template.png)
 
-1. Crea le categorie di costo per ogni tipo di processo (consegna tramite direct mailing/e-mail/ecc.). o attività). A tale scopo, fare clic sulla scheda **[!UICONTROL Cost categories]**, quindi sul pulsante **[!UICONTROL Add]** e immettere i parametri di ciascuna categoria di costo.
+1. Crea le categorie di costo per ogni tipo di processo (consegna tramite direct mailing/e-mail/ecc. o attività). A tale scopo, fare clic sulla scheda **[!UICONTROL Cost categories]**, quindi sul pulsante **[!UICONTROL Add]** e immettere i parametri di ciascuna categoria di costo.
 
    ![](assets/add-cost-categories.png)
 

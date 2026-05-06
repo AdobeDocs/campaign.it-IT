@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
 source-git-commit: 56d5628312ea3dedf9335dd0933811e4bf66eb97
 workflow-type: tm+mt
-source-wordcount: '1524'
-ht-degree: 99%
+source-wordcount: '1565'
+ht-degree: 93%
 
 ---
 
@@ -171,7 +171,7 @@ Per modificare la configurazione predefinita, fai clic sul collegamento **[!UICO
 
 ### Selezionare i destinatari dei messaggi di bozza {#select-the-proof-target}
 
-Per le consegne e-mail, puoi inviare bozze per convalidare il contenuto del messaggio. L’invio di bozze consente di controllare il collegamento di rinuncia, la mirror page e tutti gli altri collegamenti, convalidare il messaggio, verificare che siano visualizzate le immagini, rilevare eventuali errori, ecc. È possibile anche controllare la progettazione e il rendering su dispositivi diversi.
+Per le consegne e-mail, puoi inviare bozze per convalidare il contenuto del messaggio. L’invio di bozze ti consente di controllare il collegamento di rinuncia, la pagina speculare e tutti gli altri collegamenti, convalidare il messaggio, verificare che siano visualizzate le immagini, rilevare eventuali errori, ecc. Puoi anche controllare la progettazione e il rendering su dispositivi diversi.
 
 Una bozza è un messaggio specifico che consente di testare un messaggio prima che venga inviato al pubblico principale. I destinatari della bozza hanno il compito di approvare il messaggio: rendering, contenuto, impostazioni di personalizzazione, configurazione.
 
@@ -182,7 +182,7 @@ Per ulteriori informazioni sui destinatari e l’invio della bozza, consulta [qu
 
 In questo video scoprirai come aggiungere seed e bozze a un’e-mail esistente e come inviarla.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447007?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3447007?captions=ita&quality=12)
 
 Ulteriori video dimostrativi di Campaign Classic sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=it).
 
@@ -194,7 +194,7 @@ Per eseguire questa operazione:
 
 1. **Analizza la consegna**: questo passaggio consente di preparare i messaggi da consegnare. [Ulteriori informazioni](../send/delivery-analysis.md).
 
-1. **Invia bozze**: questo passaggio consente di verificare i contenuti, l’URL, la personalizzazione ecc. [Ulteriori informazioni](../send/preview-and-proof.md).
+1. **Invia bozze**: questo passaggio ti consente di controllare contenuto, URL, personalizzazione, ecc. [Ulteriori informazioni](../send/preview-and-proof.md).
 
 >[!IMPORTANT]
 >

@@ -9,8 +9,8 @@ version: Campaign v8
 exl-id: 8b4f6343-5dc5-4401-ad6f-9c1ddbb23168
 source-git-commit: da2274cfd19bb067fcc1e990360093f161d5638a
 workflow-type: tm+mt
-source-wordcount: '10485'
-ht-degree: 7%
+source-wordcount: '11573'
+ht-degree: 9%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 7%
 Risposte rapide alle domande più frequenti su Adobe Campaign v8. Se stai iniziando a lavorare o stai cercando aiuto per la configurazione avanzata, troverai le risposte organizzate per argomento di seguito.
 
 **Ti avvicini ora a Campaign?** Inizia con [Guida introduttiva](#getting-started) per apprendere le nozioni di base.\
-**Hai bisogno di assistenza per le versioni?** Controllare [Aggiornamenti](#upgrades) per informazioni sulla versione e sui processi di aggiornamento.\
+**Hai bisogno di assistenza per le versioni?** Controlla [Aggiornamenti](#upgrades) per informazioni sulla versione e sui processi di aggiornamento.\
 **Migrazione da v7 o Standard?** Per informazioni sulle differenze e sulla transizione, consulta [Campaign v8 rispetto alle versioni precedenti](#v7-differences).\
-**Hai bisogno di assistenza tecnica?** Seleziona [Sviluppatori](#developers) e [Impostazioni campagna](#settings).\
+**Hai bisogno di assistenza tecnica?** Controlla [Sviluppatori](#developers) e [Impostazioni campagna](#settings).\
 **Impossibile trovare la risposta?** Visita i [forum della community](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=it){target="_blank"} o [contatta l&#39;assistenza](#get-help).
 
 **Suggerimento:** utilizzare Ctrl+F (Comando+F su Mac) per cercare parole chiave specifiche in questa pagina. Fare clic su una domanda per espandere la risposta.
@@ -61,9 +61,9 @@ Ulteriori informazioni sul Centro distribuzione [in questa pagina](https://exper
 
 Per connetterti ad Adobe Campaign, scarica e installa la console client di Campaign. [Ulteriori informazioni](connect.md).
 
-A partire dalla versione v8.6 di Campaign, puoi accedere all&#39;**interfaccia utente di Campaign Web**, disponibile nell&#39;ambiente Adobe Experience Cloud centrale. Experience Cloud è un insieme integrato di applicazioni, prodotti e servizi Adobe per il marketing digitale.
+A partire dalla versione v8.6 di Campaign, puoi accedere all&#39;**interfaccia utente di Campaign Web**, disponibile nell&#39;ambiente Adobe Experience Cloud centrale. Experience Cloud è un insieme integrato di applicazioni, prodotti e servizi per il marketing digitale di Adobe.
 
-Scopri come connetterti a Adobe Experience Cloud e accedere all&#39;interfaccia Web di Adobe Campaign [in questa pagina](campaign-ui.md#ac-web-ui). Ulteriori informazioni sono disponibili nella [documentazione dell’interfaccia utente di Adobe Campaign Web](https://experienceleague.adobe.com/it/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
+Scopri come connetterti ad Adobe Experience Cloud e come accedere all’interfaccia di Adobe Campaign Web [in questa pagina](campaign-ui.md#ac-web-ui). Ulteriori informazioni sono disponibili nella [documentazione dell’interfaccia utente di Adobe Campaign Web](https://experienceleague.adobe.com/it/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
 
 
 **Argomenti correlati:**
@@ -396,7 +396,7 @@ Campaign v8 offre la maggior parte delle funzionalità v7/Standard con miglioram
 **Modifiche terminologiche chiave (Campaign Standard → v8):**
 
 * Risorse personalizzate → **Schemi** | Messaggi → **Consegne** | Utenti del prodotto → **Operatori**
-* Gruppi di sicurezza → **Gruppi di operatori** | Unità organizzative → **autorizzazioni cartella**
+* Gruppi di sicurezza → **Gruppi di operatori** | Unità organizzative → **Autorizzazioni cartella**
 
 **Aggiornamenti all&#39;interfaccia utente Web di Campaign:**
 
@@ -430,7 +430,7 @@ Crea i destinatari manualmente nella console client per i singoli profili, impor
 
 **Argomenti correlati:**
 
-[Creare i profili manualmente](../audiences/create-profiles.md) | [Importa profili da un file](../audiences/import-profiles.md) | [Raccogli profili con moduli web](../audiences/collect-profiles.md)
+[Creare i profili manualmente](../audiences/create-profiles.md) | [Importa profili da un file](../audiences/import-profiles.md) | [Raccogliere profili con moduli web](../audiences/collect-profiles.md)
 
 +++
 
@@ -460,7 +460,7 @@ Campaign offre più metodi di targeting: crea query con criteri visivi, esegui i
 
 **Argomenti correlati:**
 
-[Definire i target della campagna](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=it){target="_blank"} | [Attività query](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=it){target="_blank"} | [Crea pubblico](../audiences/create-audiences.md)
+[Definire i target della campagna](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=it){target="_blank"} | [Attività query](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=it){target="_blank"} | [Crea tipi di pubblico](../audiences/create-audiences.md)
 
 +++
 
@@ -621,7 +621,7 @@ Ulteriori informazioni sulla [localizzazione applicazioni Web](../dev/webapps.md
 
 +++ Posso utilizzare contenuti basati sull’intelligenza artificiale nelle e-mail?
 
-Sì, ma **solo tramite l&#39;interfaccia utente Web di Campaign**. L’Assistente per l’intelligenza artificiale, con tecnologia Microsoft Azure OpenAI e Adobe Firefly, consente di creare contenuti professionali e coerenti per il brand per e-mail, SMS e notifiche push.
+Sì, ma **solo tramite l&#39;interfaccia utente Web di Campaign**. L’Assistente per l’intelligenza artificiale, basato su Microsoft Azure OpenAI e Adobe Firefly, consente di creare contenuti professionali e coerenti per il brand per e-mail, SMS e notifiche push.
 
 **Funzionalità chiave:**
 
@@ -653,7 +653,7 @@ Scopri come implementare la recapitabilità in Campaign [in questa guida](https:
 
 **Argomenti correlati:**
 
-[Introduzione al recapito messaggi](../send/about-deliverability.md) | [Controllare il contenuto del messaggio](../send/control-message-content.md) | [Monitorare il recapito messaggi](../send/monitoring-deliverability.md) | [SpamAssassin](../send/spamassassin.md)
+[Introduzione al recapito messaggi](../send/about-deliverability.md) | [Contenuto del messaggio di controllo](../send/control-message-content.md) | [Monitorare il recapito messaggi](../send/monitoring-deliverability.md) | [SpamAssassin](../send/spamassassin.md)
 
 +++
 
@@ -868,7 +868,7 @@ I rapporti sono disponibili sia nella console client che nell’interfaccia uten
 
 **Argomenti correlati:**
 
-[Rapporti di consegna incorporati](../reporting/delivery-reports.md) | [Generazione rapporti per campagne](../reporting/gs-reporting.md)
+[Rapporti di consegna incorporati](../reporting/delivery-reports.md) | [Generazione rapporti sulle campagne](../reporting/gs-reporting.md)
 
 +++
 
@@ -882,7 +882,7 @@ Campaign gestisce automaticamente un elenco di quarantena per proteggere la repu
 * **Soglia di mancato recapito non permanente** - Errori temporanei ripetuti (cassetta postale piena, server temporaneamente non disponibile) che superano la soglia di errore
 * **Reclami spam** - Destinatari che contrassegnano le e-mail come spam
 * **Indirizzi non validi** - Indirizzi con errori di sintassi o che non superano la convalida
-* inserire nell&#39;elenco Bloccati **&#x200B;**&#x200B;- Destinatari che hanno rinunciato o richiesto di essere esclusi
+* **&#x200B;**&#x200B;- Destinatari che hanno rinunciato o richiesto di essere esclusi
 
 **Funzionamento della quarantena:**
 
@@ -906,7 +906,7 @@ Scopri come utilizzare i flussi di lavoro per automatizzare i processi, gestire 
 
 +++ Che cos’è un flusso di lavoro?
 
-Adobe Campaign include flussi di lavoro per orchestrare l’intera gamma di processi e attività tra i diversi moduli del server dell’applicazione. Questo ambiente grafico completo ti consente di progettare processi inclusi segmentazione, esecuzione di campagne, elaborazione di file, partecipazione di utenti, ecc. Il motore del flusso di lavoro esegue e traccia tali processi.
+Adobe Campaign include flussi di lavoro per orchestrare l’intera gamma di processi e attività tra i diversi moduli del server dell’applicazione. Questo ambiente grafico completo consente di progettare processi quali segmentazione, esecuzione di campagne, elaborazione di file, partecipazione di utenti, ecc. Il motore del flusso di lavoro esegue e tiene traccia di questi processi.
 
 Ad esempio, puoi utilizzare un flusso di lavoro per scaricare un file da un server, decomprimerlo e quindi importare i record contenuti all’interno nel database di Adobe Campaign.
 
@@ -1126,7 +1126,7 @@ Trascina dalla palette, fai doppio clic per configurare, connetti con le transiz
 
 **Argomenti correlati:**
 
-[Attività di targeting](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html?lang=it){target="_blank"} | [Controllo del flusso](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html?lang=it){target="_blank"} | [Attività azione](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html?lang=it){target="_blank"}
+[Attività di targeting](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html?lang=it){target="_blank"} | [Controllo flusso](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html?lang=it){target="_blank"} | [Attività azione](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html?lang=it){target="_blank"}
 
 +++
 
@@ -1180,7 +1180,7 @@ Campaign Pannelli di controllo Campaign è un’interfaccia amministrativa basat
 
 * **Gestione dei sottodomini** - Delega e gestione dei sottodomini, monitoraggio dei certificati SSL
 * **Monitoraggio archiviazione** - Monitoraggio dell&#39;utilizzo del database e prevenzione dei problemi di archiviazione
-* inserire nell&#39;elenco Consentiti **Gestione SFTP** - Monitoraggio dell&#39;archiviazione SFTP, gestione dei IP e delle chiavi SSH
+* **Gestione SFTP** - Monitoraggio dell&#39;archiviazione SFTP, gestione dei IP e delle chiavi SSH
 * **Impostazioni dell&#39;istanza** - Configurare i inserisce nell&#39;elenco Consentiti IP, gestire le autorizzazioni URL, esaminare i dettagli dell&#39;istanza
 * **Monitoraggio profili attivi** - Monitoraggio dell&#39;utilizzo dei profili attivi rispetto ai diritti
 * **Monitoraggio delle prestazioni** - Monitoraggio delle prestazioni del database e del flusso di lavoro
@@ -1194,7 +1194,7 @@ Campaign Pannelli di controllo Campaign è un’interfaccia amministrativa basat
 
 **Risorse aggiuntive:**
 
-[Documentazione del Pannello di controllo Campaign](https://experienceleague.adobe.com/it/docs/control-panel/using/control-panel-home){target="_blank"} | [Video tutorial di Pannello di controllo Campaign](https://experienceleague.adobe.com/it/docs/control-panel-learn/tutorials/control-panel-overview){target="_blank"}
+[Documentazione del Pannello di controllo Campaign](https://experienceleague.adobe.com/it/docs/control-panel/using/control-panel-home){target="_blank"} | [Video tutorial di Pannelli di controllo Campaign](https://experienceleague.adobe.com/it/docs/control-panel-learn/tutorials/control-panel-overview){target="_blank"}
 
 +++
 
@@ -1273,7 +1273,7 @@ Il recapito messaggi e-mail dipende dalla configurazione tecnica, dalla qualità
 
 **Argomenti correlati:**
 
-[Informazioni sul recapito messaggi in Campaign](../send/about-deliverability.md) | [Guida alle procedure consigliate per la consegna](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=it){target="_blank"}
+[Informazioni sul recapito messaggi in Campaign](../send/about-deliverability.md) | [Guida alle best practice per la consegna](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=it){target="_blank"}
 
 +++
 
@@ -1430,7 +1430,7 @@ Campaign offre diverse opzioni di reporting in base alle tue esigenze e competen
 
 **Argomenti correlati:**
 
-[Introduzione al reporting](../reporting/gs-reporting.md) | [Rapporti sull&#39;interfaccia utente web di Campaign](https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/gs-reports){target="_blank"}
+[Introduzione al reporting](../reporting/gs-reporting.md) | [Rapporti sull’interfaccia web di Campaign](https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/gs-reports){target="_blank"}
 
 +++
 
@@ -1555,7 +1555,7 @@ Sì, Campaign supporta più formati di esportazione per i rapporti della console
 
 **Argomenti correlati:**
 
-[Rapporti personalizzati](../reporting/custom-reports.md) | [Rapporti sull&#39;interfaccia utente web di Campaign](https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/gs-reports){target="_blank"}
+[Rapporti personalizzati](../reporting/custom-reports.md) | [Rapporti sull’interfaccia web di Campaign](https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/gs-reports){target="_blank"}
 
 +++
 
@@ -1612,7 +1612,7 @@ Utilizza una tabella dei destinatari personalizzata quando esegui il targeting d
 
 **Argomenti correlati:**
 
-[Tabella dei destinatari personalizzata](../dev/custom-recipient.md) | [Mappature di destinazione](../audiences/target-mappings.md)
+[Tabella dei destinatari personalizzata](../dev/custom-recipient.md) | [Mappature target](../audiences/target-mappings.md)
 
 +++
 

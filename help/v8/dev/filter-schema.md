@@ -7,7 +7,7 @@ level: Intermediate, Experienced
 exl-id: e8ad021c-ce2e-4a74-b9bf-a989d8879fd1
 source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '401'
 ht-degree: 2%
 
 ---
@@ -42,7 +42,7 @@ Questi filtri vengono immessi al livello **elemento** principale degli schemi e,
 
 * Limita le autorizzazioni di LETTURA e SCRITTURA:
 
-  In questo caso, il filtro viene utilizzato per non consentire le autorizzazioni di LETTURA e SCRITTURA sullo schema per tutti gli operatori. Solo l&#39;account **internal**, rappresentato dall&#39;espressione &quot;$(loginId).=0&quot;, dispone delle seguenti autorizzazioni.
+  In questo caso, il filtro viene utilizzato per non consentire le autorizzazioni di LETTURA e SCRITTURA sullo schema per tutti gli operatori. Solo l&#39;account **internal**, rappresentato dall&#39;espressione &quot;$(loginId)!=0&quot;, dispone di queste autorizzazioni.
 
   ```
   <sysFilter name="readAccess"> 
@@ -64,11 +64,11 @@ Questi filtri vengono immessi al livello **elemento** principale degli schemi e,
 
 Per impostazione predefinita, gli schemi incorporati sono accessibili solo con autorizzazioni di SCRITTURA per gli operatori con diritti di AMMINISTRAZIONE:
 
-* ncm:pubblicazione
-* nl:monitoraggio
-* nms:calendario
+* ncm:publishing
+* nl:monitoring
+* nms:calendar
 * xtk:builder
-* xtk:connessioni
+* xtk:connections
 * xtk:dbInit
 * xtk:entityBackupNew
 * xtk:entityBackupOriginal
@@ -76,7 +76,7 @@ Per impostazione predefinita, gli schemi incorporati sono accessibili solo con a
 * xtk:form
 * xtk:funcList
 * xtk:fusion
-* xtk:immagine
+* xtk:image
 * xtk:javascript
 * xtk:jssp
 * xtk:jst
@@ -92,12 +92,12 @@ Per impostazione predefinita, gli schemi incorporati sono accessibili solo con a
 * xtk:sql
 * xtk:sqlSchema
 * xtk:srcSchema
-* xtk:stringhe
+* xtk:strings
 * xtk:xslt
 
 >[!CAUTION]
 >
->Le autorizzazioni di LETTURA e SCRITTURA per lo schema **xtk:sessionInfo** sono accessibili solo dall&#39;account interno di un&#39;istanza di Adobe Campaign.
+>Le autorizzazioni di LETTURA e SCRITTURA per lo schema **xtk:sessionInfo** sono accessibili solo dall&#39;account interno di un&#39;istanza Adobe Campaign.
 
 ## Modificare i filtri di sistema degli schemi incorporati
 

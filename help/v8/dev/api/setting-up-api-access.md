@@ -9,7 +9,7 @@ level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
 source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '448'
 ht-degree: 6%
 
 ---
@@ -43,16 +43,16 @@ Per stabilire una sessione API Adobe I/O service-to-service sicura, ogni richies
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-* **&lt;ORGANIZZAZIONE>**: questo è il tuo ID organizzazione personale, un ID organizzazione viene fornito da Adobe per ciascuna istanza:
+* **&lt;ORGANIZATION>**: questo è il tuo ID ORGANIZZAZIONE personale, un ID ORGANIZZAZIONE viene fornito da Adobe per ciascuna istanza:
 
    * &lt;ORGANIZZAZIONE> : l’istanza di produzione,
    * &lt;ORGANIZATION-market-stage>: l’istanza di stage.
 
   Per ottenere il valore ID ORGANIZZAZIONE, rivolgiti all’amministratore o al contatto tecnico di Adobe. Puoi anche recuperarlo in Adobe I/O durante la creazione di una nuova integrazione, nell&#39;elenco delle licenze (consulta la <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">documentazione di Adobe Developer</a>).
 
-* **&lt;ACCESS_TOKEN>**: token di accesso personale recuperato durante lo scambio del token Web JSON tramite una richiesta POST.
+* **&lt;ACCESS_TOKEN>**: il token di accesso personale recuperato durante lo scambio del token web JSON tramite una richiesta POST.
 
-* **&lt;API_KEY>**: chiave API personale. Viene fornito in Adobe I/O dopo aver creato una nuova integrazione al servizio Adobe Campaign.
+* **&lt;API_KEY>**: la chiave API personale. Viene fornito in Adobe I/O dopo aver creato una nuova integrazione al servizio Adobe Campaign.
 
   ![testo alternativo](assets/tenant.png)
 
