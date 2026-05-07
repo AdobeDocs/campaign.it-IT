@@ -5,9 +5,9 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: 1f941b35-c7e0-4e8c-b6e5-a1a3e5354483
-source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
+source-git-commit: fc0a610a2215db3bfc15c5df3a1a7d1d30783545
 workflow-type: tm+mt
-source-wordcount: '3682'
+source-wordcount: '3659'
 ht-degree: 3%
 
 ---
@@ -280,13 +280,13 @@ Se questa opzione è selezionata, il contenuto dei campi facoltativi verrà aggi
 
 Ad esempio, potrebbe essere utile acquisire l&#39;ID nel campo receivted_message_id. Per questo, abilita questa casella di controllo e il seguente testo verrà aggiunto allo stato:
 
-0x001E:05e3299e-8d37-49d0-97c6-8e4fe60c7739
+`0x001E:05e3299e-8d37-49d0-97c6-8e4fe60c7739`
 
 In questo esempio, 0x001E è il tag del campo facoltativo e l’UUID è il valore del campo.
 
 Per acquisire questo valore, ora puoi impostare il seguente regex nel regex di estrazione dell’ID nel campo SR:
 
-\b0x001E:([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\b
+`\b0x001E:([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\b`
 
 >[!IMPORTANT]
 >
