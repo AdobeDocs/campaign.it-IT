@@ -7,11 +7,20 @@ level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: cb6094eb-0010-4c62-9589-3b52fd60c2c2
 TQID: https://experienceleague.adobe.com/20Kh0O94OY8Vpy5SmhVUUgVOCkWy7DNZiJko3EeOx-E
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: beb7a3c1-66ab-4786-b879-7621375b3c40id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 3154
@@ -136,11 +145,11 @@ Per personalizzare i messaggi, puoi utilizzare i dati dei destinatari memorizzat
 
 * Verifica le impostazioni di personalizzazione: assicurati che il contenuto del messaggio sia progettato correttamente per evitare errori che possono essere correlati alla personalizzazione. Un tag di personalizzazione Adobe Campaign ha sempre il seguente formato: `<%=table.field%>`. L’utilizzo errato dei parametri nei blocchi di personalizzazione può rappresentare un problema. Ad esempio, le variabili in JavaScript devono essere utilizzate come segue:
 
-  ``
+  &grave;&grave;
   <%
   var brand = "xxx"
   %>
-  ``
+  &grave;&grave;
 
   Per ulteriori informazioni sui blocchi di personalizzazione, consulta [questa sezione](../send/personalization-blocks.md).
 
@@ -190,7 +199,7 @@ Includi sempre un collegamento a una pagina speculare. La posizione preferita è
 
 ### Collegamento per annullamento iscrizione {#unsub-link-check}
 
-Il collegamento di annullamento dell’abbonamento è essenziale. Deve essere visibile e valido e il modulo deve essere funzionale. Per impostazione predefinita, quando il messaggio viene analizzato, una regola di tipologia [ **[!UICONTROL Unsubscription link approval]** integrata](../../automation/campaign-opt/control-rules.md) controlla se è stato incluso un collegamento di rinuncia e, in caso contrario, genera un avviso.
+Il collegamento di annullamento dell’abbonamento è essenziale. Deve essere visibile e valido e il modulo deve essere funzionale. Per impostazione predefinita, quando il messaggio viene analizzato, una regola di tipologia [&#x200B; **[!UICONTROL Unsubscription link approval]** integrata](../../automation/campaign-opt/control-rules.md) controlla se è stato incluso un collegamento di rinuncia e, in caso contrario, genera un avviso.
 
 Scopri come inserire un collegamento di rinuncia [in questa sezione](../send/personalization-blocks.md).
 
