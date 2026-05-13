@@ -6,9 +6,14 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
-source-git-commit: 08e04f3642320df94d719a415e878e3a26d2e00f
+TQID: https://experienceleague.adobe.com/bgnDExQAdWAsulXRjLGA46VthqPYWfNZRJ66C4ppF9M
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: 1033
 ht-degree: 18%
 
 ---
@@ -121,7 +126,7 @@ Selezionare il modello di consegna da utilizzare e fare clic su **[!UICONTROL Ok
 
 ### Eseguire un modello {#execute-a-template}
 
-Puoi avviare l’esecuzione di un modello direttamente dall’elenco dei modelli senza prima creare una consegna. Il modello di consegna può essere eseguito manualmente, come descritto di seguito, o attivato da un evento (eseguito in un determinato momento, quando un file è disponibile nel server, ecc.), come spiegato in [questa sezione](https://experienceleague.adobe.com/it/docs/campaign/automation/workflows/wf-activities/action-activities/delivery).
+Puoi avviare l’esecuzione di un modello direttamente dall’elenco dei modelli senza prima creare una consegna. Il modello di consegna può essere eseguito manualmente, come descritto di seguito, o attivato da un evento (eseguito in un determinato momento, quando un file è disponibile nel server, ecc.), come spiegato in [questa sezione](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/delivery).
 
 Per eseguire manualmente un modello, effettua le seguenti operazioni:
 
@@ -141,18 +146,18 @@ Questa azione genera una consegna nella cartella associata al modello. Il nome d
 
 Il video seguente illustra come configurare un modello per una consegna ad hoc.
 
->[!VIDEO](https://video.tv.adobe.com/v/3409246?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/342082?quality=12)
 
 ### Impostare le proprietà dei modelli di consegna
 
 Il video seguente mostra come impostare le proprietà del modello di consegna e spiega in dettaglio ciascuna proprietà.
 
->[!VIDEO](https://video.tv.adobe.com/v/3443409?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/338969?quality=12)
 
 ### Come distribuire un modello di consegna ad hoc
 
 Questo video spiega come distribuire un modello di consegna e-mail ad hoc e la differenza tra una consegna e-mail e un flusso di lavoro di consegna.
 
->[!VIDEO](https://video.tv.adobe.com/v/3444965?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/338965?quality=12)
 
-Ulteriori video dimostrativi di Campaign sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=it){target="_blank"}.
+Ulteriori video dimostrativi di Campaign sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.

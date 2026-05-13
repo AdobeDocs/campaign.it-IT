@@ -6,13 +6,17 @@ role: Developer
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
-source-git-commit: c7f139dd7f139ba421eb034f4d8911671b3b3332
+TQID: https://experienceleague.adobe.com/LHKXRb4lBbTL6DVrnsnTIPE-Pj-f5I5qQcG3O57Wz5I
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: 838
 ht-degree: 2%
 
 ---
-
 
 # Inviare e monitorare le e-mail  {#send-and-monitor-emails}
 
@@ -75,7 +79,7 @@ Domain Keys Identified Mail (DKIM) è un metodo di autenticazione utilizzato per
 
 In Adobe Campaign, la firma di autenticazione e-mail di DKIM viene eseguita dall’MTA.
 
-Ulteriori informazioni su DKIM sono disponibili nella [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=it#authentication){target="_blank"}.
+Ulteriori informazioni su DKIM sono disponibili nella [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication){target="_blank"}.
 
 ## Servizio di feedback delle e-mail {#email-feedback-service}
 

@@ -6,9 +6,13 @@ role: User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
 hide: true
-source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
+TQID: https://experienceleague.adobe.com/Cpc-97Lab93SQhsFloibdhpvCDFockj6afFSZUTgKoM
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: 785
 ht-degree: 96%
 
 ---
@@ -85,13 +89,13 @@ Hai bisogno di assistenza mentre lavori con Campaign? Leggi le principali domand
 
    È possibile ottenere il programma di installazione e Client Console da Adobe Download Center.
 
-   Per scaricare Adobe Campaign, accedi come utente amministratore alla [Distribuzione di software](https://experience.adobe.com/#/downloads/content/software-distribution/it/campaign.html){target="_blank"}  di Adobe.
+   Per scaricare Adobe Campaign, accedi come utente amministratore alla [Distribuzione di software](https://experience.adobe.com/#/downloads/content/software-distribution/it/campaign.html) {target="_blank"} di Adobe.
 
    Ulteriori informazioni sul Centro distribuzione sono disponibili a [questa pagina](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=it){target="_blank"}.
 
 1. **Posso entrare in contatto con gli esperti di Campaign?**
 
-   Iscriviti alla community di Campaign: puoi cercare le risposte nelle domande esistenti o chiedere agli esperti. [Partecipa alla conversazione](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=it){target="_blank"}
+   Iscriviti alla community di Campaign: puoi cercare le risposte nelle domande esistenti o chiedere agli esperti. [Partecipa alla conversazione](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}
 
 
 1. **Come posso segnalare un problema?**

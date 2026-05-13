@@ -6,9 +6,15 @@ role: Admin, Developer
 level: Intermediate
 version: Campaign v8, Campaign Classic v7
 exl-id: 1a75f411-3f71-4114-b738-277820dc6138
-source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
+TQID: https://experienceleague.adobe.com/haoxtaIu58t0Ko15csnTpoUi49JWsQaIKPAtWTNiRx8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2id: d5ef99fa-df0c-4153-bf94-105ad0724167
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: 1829
 ht-degree: 5%
 
 ---
@@ -38,7 +44,7 @@ Per configurare la tua app con gli SDK di Adobe Experience Platform Mobile, segu
 
 ### Impostare le autorizzazioni {#setup-permissions}
 
-Prima di creare un’app mobile, è necessario assicurarsi di disporre delle autorizzazioni utente corrette per i tag in Adobe Experience Platform o assegnarle. Le autorizzazioni utente per i tag in Adobe Experience Platform vengono assegnate agli utenti tramite Adobe Admin Console. Ulteriori informazioni nella [documentazione sui tag](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=it){target="_blank"}.
+Prima di creare un’app mobile, è necessario assicurarsi di disporre delle autorizzazioni utente corrette per i tag in Adobe Experience Platform o assegnarle. Le autorizzazioni utente per i tag in Adobe Experience Platform vengono assegnate agli utenti tramite Adobe Admin Console. Ulteriori informazioni nella [documentazione sui tag](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}.
 
 >[!CAUTION]
 >
@@ -48,7 +54,7 @@ Per assegnare i diritti di **Proprietà** e **Società**, effettua le seguenti o
 
 1. Accedere a **[!DNL Admin Console]**.
 1. Dalla scheda **[!UICONTROL Products]**, seleziona la scheda **[!UICONTROL Adobe Experience Platform Data Collection]**.
-1. Selezionare un elemento **[!UICONTROL Product Profile]** esistente o crearne uno nuovo con il pulsante **[!UICONTROL New profile]**. Scopri come creare un nuovo **[!UICONTROL New profile]** nella [documentazione di Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=it#ui){target="_blank"}.
+1. Selezionare un elemento **[!UICONTROL Product Profile]** esistente o crearne uno nuovo con il pulsante **[!UICONTROL New profile]**. Scopri come creare un nuovo **[!UICONTROL New profile]** nella [documentazione di Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"}.
 1. Dalla sezione **[!UICONTROL Permissions]**, seleziona **[!UICONTROL Property Rights]**.
 1. Fai clic su **[!UICONTROL Add all]**. Questo aggiungerà il seguente diritto al tuo profilo di prodotto:
    * **[!UICONTROL Approve]**
@@ -80,7 +86,7 @@ Per assegnare **[!UICONTROL Product profile]** agli utenti, eseguire la procedur
 
    >[!NOTE]
    >
-   >Se l&#39;utente non è stato creato in precedenza in Admin Console, consulta la [documentazione sull&#39;aggiunta di utenti](https://helpx.adobe.com/it/enterprise/using/manage-users-individually.html#add-users){target="_blank"}.
+   >Se l&#39;utente non è stato creato in precedenza in Admin Console, consulta la [documentazione sull&#39;aggiunta di utenti](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#add-users){target="_blank"}.
 
 ### Configurare l’app {#configure-app}
 
@@ -142,7 +148,7 @@ To get the SDKs needed for push notification to work you will need the following
 * **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
 -->
 
-Ulteriori informazioni su [!DNL Adobe Experience Platform Data Collection] tag nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html?lang=it){target="_blank"}.
+Ulteriori informazioni su [!DNL Adobe Experience Platform Data Collection] tag nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html){target="_blank"}.
 
 Una volta creata, apri la nuova proprietà tag e crea una libreria. Per eseguire questa operazione:
 

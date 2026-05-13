@@ -5,9 +5,13 @@ feature: Interaction, Offers
 role: User, Admin
 level: Beginner
 exl-id: c116d86a-d3e2-47e3-a641-e2d7c8cc575c
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+TQID: https://experienceleague.adobe.com/TKvl7xT7fg-r5vU8jW8sg0L-Xy-mC-JEvC2WeM4hmz4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: 848
 ht-degree: 1%
 
 ---
@@ -156,4 +160,4 @@ Se un destinatario non è idoneo per nessuna offerta, ciò viene mostrato nell�
 
 L’anteprima può ignorare i contesti quando sono limitati a uno spazio. Ciò si verifica quando lo schema di interazione è stato esteso per aggiungere campi a cui si fa riferimento in uno spazio utilizzando un canale in entrata.
 
-Per ulteriori informazioni, consulta questo esempio nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html?lang=it){target="_blank"}.
+Per ulteriori informazioni, consulta questo esempio nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html){target="_blank"}.

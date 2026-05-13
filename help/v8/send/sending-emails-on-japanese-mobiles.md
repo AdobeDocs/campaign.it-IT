@@ -6,9 +6,12 @@ feature: Email, Email Design
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 02cca21f-b1ac-4ac2-9761-015f6c7f5567
-source-git-commit: 3d562aab2f19b84aad8b484768bf19648145feb3
+TQID: https://experienceleague.adobe.com/LexEFgpaidGnonpgRFTasSk7Jr3Nc7443R8kj0kOLlM
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: 746
 ht-degree: 1%
 
 ---
@@ -25,7 +28,7 @@ Affinché il destinatario riceva correttamente i messaggi in uno di questi forma
 
 Se tuttavia si lascia l&#39;opzione **[!UICONTROL Email format]** come **[!UICONTROL Unknown]**, **[!UICONTROL HTML]** o **[!UICONTROL Text]**, Adobe Campaign rileverà automaticamente (durante l&#39;invio dell&#39;e-mail) il formato giapponese da utilizzare per visualizzare correttamente il messaggio.
 
-Questo sistema di rilevamento automatico si basa sull&#39;elenco di domini predefiniti definiti nel set di regole di posta **[!UICONTROL Management of Email Formats]**. Per ulteriori informazioni sulla gestione dei formati di posta elettronica, consulta la [documentazione di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html?lang=it#managing-email-formats).
+Questo sistema di rilevamento automatico si basa sull&#39;elenco di domini predefiniti definiti nel set di regole di posta **[!UICONTROL Management of Email Formats]**. Per ulteriori informazioni sulla gestione dei formati di posta elettronica, consulta la [documentazione di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html#managing-email-formats).
 
 ## Limitazioni e raccomandazioni {#limitations-and-recommendations}
 

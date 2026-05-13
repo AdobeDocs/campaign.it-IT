@@ -6,9 +6,13 @@ feature: Workflows, Data Management
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 9b225f78-1959-4e4f-aa4e-ff8a63051154
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+TQID: https://experienceleague.adobe.com/7owt-TM494cZq-Knz55qMpCAAtGhlpaKOlf2iXXeqo4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: 472
 ht-degree: 2%
 
 ---
@@ -23,7 +27,7 @@ Un&#39;attività di **gestione dei contenuti** consente di creare e manipolare u
 
 >[!NOTE]
 >
->L’interfaccia utente di Adobe Campaign Web consente di utilizzare frammenti di contenuto per i contenuti. Consente agli utenti marketing di precreare più blocchi di contenuto personalizzati, grazie a componenti riutilizzabili a cui è possibile fare riferimento in uno o più messaggi, che consentono di assemblare rapidamente il contenuto dei messaggi in un processo di progettazione migliorato. Per ulteriori informazioni sui frammenti di contenuto, consulta la [documentazione dell&#39;interfaccia utente Web di Adobe Campaign.](https://experienceleague.adobe.com/it/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments){target=_blank}
+>L’interfaccia utente di Adobe Campaign Web consente di utilizzare frammenti di contenuto per i contenuti. Consente agli utenti marketing di precreare più blocchi di contenuto personalizzati, grazie a componenti riutilizzabili a cui è possibile fare riferimento in uno o più messaggi, che consentono di assemblare rapidamente il contenuto dei messaggi in un processo di progettazione migliorato. Per ulteriori informazioni sui frammenti di contenuto, consulta la [documentazione dell&#39;interfaccia utente Web di Adobe Campaign.](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments){target=_blank}
 
 Le proprietà dell’attività sono suddivise in tre passaggi:
 

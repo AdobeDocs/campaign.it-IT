@@ -5,9 +5,13 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 6fbe5616-7b8b-4504-988b-2bbbfd062548
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+TQID: https://experienceleague.adobe.com/FOcEqR6kXaTUyLHSjaxXk2AhErFunD7JNokBzNiOJVY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: 796
 ht-degree: 3%
 
 ---
@@ -26,7 +30,7 @@ Gli elenchi vengono creati e gestiti tramite il collegamento **[!UICONTROL Lists
 
 Guarda questo video per ulteriori informazioni sulla gestione degli elenchi in Adobe Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/3426460?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334909?quality=12)
 
 
 ## Creare un elenco di contatti {#create-a-list-of-contacts}
@@ -103,7 +107,7 @@ Nell’esempio seguente, crea un elenco di tutti i destinatari tra 25 e 40.
 
    ![](assets/targeting-wf-age-filter.png)
 
-   Scopri come creare una query in un flusso di lavoro in [questa sezione](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=it){target="_blank"}.
+   Scopri come creare una query in un flusso di lavoro in [questa sezione](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
 
 1. Aggiungi un’etichetta per questa query e salva le modifiche.
 1. Aggiungi un&#39;attività **[!UICONTROL List update]** e modificala.
@@ -124,7 +128,7 @@ Nell’esempio seguente, crea un elenco di tutti i destinatari tra 25 e 40.
 
    ![](assets/access-new-list.png)
 
-   Puoi rendere ricorrente questo flusso di lavoro aggiungendo una pianificazione al flusso di lavoro. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html?lang=it){target="_blank"}.
+   Puoi rendere ricorrente questo flusso di lavoro aggiungendo una pianificazione al flusso di lavoro. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html){target="_blank"}.
 
 ## Rimuovere un profilo da un elenco {#remove-a-profile-from-a-list}
 

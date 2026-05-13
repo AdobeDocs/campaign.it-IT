@@ -6,9 +6,14 @@ feature: Email Design
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: c3e107b5-6d2e-408f-9c7d-a81a4756b4ef
-source-git-commit: 25ee55d5327e0ba7f2192f7b462853269c8cbf46
+TQID: https://experienceleague.adobe.com/9TXL-RQE41IZCKWoh7jvGNLfBonStPosLB7qkIHZdKo
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '2028'
+source-wordcount: 2028
 ht-degree: 1%
 
 ---
@@ -68,7 +73,7 @@ Per impostazione predefinita, i messaggi vengono inviati in formato HTML o testo
 
 * Per importare un contenuto HTML, utilizzare il pulsante **[!UICONTROL Open]**. È inoltre possibile incollare il codice sorgente direttamente nella scheda secondaria **[!UICONTROL Source]**.
 
-  Se utilizzi Digital Content Editor (DCE), consulta la [documentazione di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/use-case-creating-an-email-delivery.html?lang=it#step-3---selecting-a-content).
+  Se utilizzi Digital Content Editor (DCE), consulta la [documentazione di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/use-case-creating-an-email-delivery.html#step-3---selecting-a-content).
 
   >[!IMPORTANT]
   >
@@ -151,7 +156,7 @@ Le consegne e-mail in formato HTML possono contenere immagini. Dall&#39;assisten
 
 Per evitare problemi di prestazioni, le immagini incluse nelle e-mail non possono superare i 100 KB. Questo limite, impostato per impostazione predefinita, può essere modificato dall&#39;opzione `NmsDelivery_MaxDownloadedImageSize`. Tuttavia, Adobe consiglia vivamente di evitare le immagini di grandi dimensioni nelle consegne e-mail.
 
-Ulteriori informazioni sull&#39;elenco delle opzioni di Campaign sono disponibili nella [documentazione di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=it#delivery).
+Ulteriori informazioni sull&#39;elenco delle opzioni di Campaign sono disponibili nella [documentazione di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#delivery).
 
 ### Tipi di immagini {#img-types}
 
@@ -162,7 +167,7 @@ Le immagini possono essere:
 
   Le risorse pubbliche sono accessibili tramite il nodo **[!UICONTROL Resources > Online]** della gerarchia di Adobe Campaign. Sono raggruppati in una libreria e possono essere inclusi nei messaggi e-mail, ma possono anche essere utilizzati per campagne o attività o per la gestione del contenuto.
 
-* Una risorsa condivisa con Adobe Experience Cloud. Consulta la [documentazione di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=it).
+* Una risorsa condivisa con Adobe Experience Cloud. Consulta la [documentazione di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html).
 
 ### Inserire e gestire le immagini {#manage-images}
 

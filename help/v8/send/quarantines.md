@@ -6,9 +6,16 @@ role: User, Developer
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 220b7a88-bd42-494b-b55b-b827b4971c9e
-source-git-commit: c4d3a5d3cf89f2d342c661e54b5192d84ceb3a75
+TQID: https://experienceleague.adobe.com/Qn4CWccz3NcanKq9l-Awt0N9JiVzWoyPMxhqs9TrOVA
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: b5852c32-876b-41ae-92a7-9f588865ae52
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: 1363
 ht-degree: 4%
 
 ---
@@ -33,7 +40,7 @@ D&#39;altra parte, **profili** possono trovarsi nel **inserisco nell&#39;elenco 
 
 >[!NOTE]
 >
->I destinatari non sottoscritti tramite il metodo [&quot;mailto&quot; List-Unsubscribe](https://experienceleague.adobe.com/it/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations#mailto-list-unsubscribe){target="_blank"} non vengono messi in quarantena. È stato annullato l&#39;abbonamento al [servizio](../start/subscriptions.md) associato alla consegna oppure è stato inviato al inserisco nell&#39;elenco Bloccati di (visibile nella sezione **[!UICONTROL No longer contact]** del profilo) se per la consegna non è stato definito alcun servizio.
+>I destinatari non sottoscritti tramite il metodo [&quot;mailto&quot; List-Unsubscribe](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations#mailto-list-unsubscribe){target="_blank"} non vengono messi in quarantena. È stato annullato l&#39;abbonamento al [servizio](../start/subscriptions.md) associato alla consegna oppure è stato inviato al inserisco nell&#39;elenco Bloccati di (visibile nella sezione **[!UICONTROL No longer contact]** del profilo) se per la consegna non è stato definito alcun servizio.
 
 <!--For the mobile app channel, device tokens are quarantined.-->
 
@@ -49,7 +56,7 @@ Adobe Campaign gestisce la quarantena in base al tipo di consegna non riuscita e
 Nell&#39;elenco degli indirizzi messi in quarantena, il campo **[!UICONTROL Error reason]** indica il motivo per cui l&#39;indirizzo selezionato è stato messo in quarantena. [Ulteriori informazioni](#non-deliverable-bounces).
 
 
-Se un utente qualifica un’e-mail come spam, il messaggio viene automaticamente reindirizzato verso una casella di posta tecnica gestita da Adobe. L’indirizzo e-mail dell’utente viene quindi messo automaticamente in quarantena con lo stato **[!UICONTROL Denylisted]**. Questo stato si riferisce solo all’indirizzo, il profilo non è nel inserisco nell&#39;elenco Bloccati di, in modo che l’utente continui a ricevere messaggi SMS e notifiche push. Ulteriori informazioni sui cicli di feedback sono disponibili nella [Guida alle best practice per le consegne](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=it#feedback-loops){target="_blank"}.
+Se un utente qualifica un’e-mail come spam, il messaggio viene automaticamente reindirizzato verso una casella di posta tecnica gestita da Adobe. L’indirizzo e-mail dell’utente viene quindi messo automaticamente in quarantena con lo stato **[!UICONTROL Denylisted]**. Questo stato si riferisce solo all’indirizzo, il profilo non è nel inserisco nell&#39;elenco Bloccati di, in modo che l’utente continui a ricevere messaggi SMS e notifiche push. Ulteriori informazioni sui cicli di feedback sono disponibili nella [Guida alle best practice per le consegne](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target="_blank"}.
 
 >[!NOTE]
 >
@@ -92,7 +99,7 @@ Per visualizzare l&#39;elenco degli indirizzi messi in quarantena **per l&#39;in
 
 Inoltre, il report integrato **[!UICONTROL Non-deliverables and bounces]**, disponibile nella sezione **Reports** di questa home page, visualizza informazioni sugli indirizzi messi in quarantena, sui tipi di errore riscontrati e un raggruppamento di errori per dominio. Puoi filtrare i dati per una consegna specifica o personalizzare questo rapporto in base alle esigenze.
 
-Ulteriori informazioni sugli indirizzi non recapitati nella [Guida alle best practice per il recapito messaggi](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=it){target="_blank"}.
+Ulteriori informazioni sugli indirizzi non recapitati nella [Guida alle best practice per il recapito messaggi](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html){target="_blank"}.
 
 ### Indirizzo e-mail in quarantena {#quarantined-recipient}
 

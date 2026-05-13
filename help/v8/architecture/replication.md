@@ -5,13 +5,19 @@ feature: Workflows, FFDA
 role: Developer
 level: Intermediate
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4
-source-git-commit: b8f774ce507cff67163064b6bd1341b31512c08f
+TQID: https://experienceleague.adobe.com/2twe2j5Hff6hTUPBos45bAKXOYP2YSVFGWyTJlvFuvI
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: cfc95e9b-b035-4403-a6a9-b27a8a053a37id: e739ee2b-6228-412e-878f-45de0791417d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: 831
 ht-degree: 2%
 
 ---
-
 
 # Replica dei dati {#wf-data-replication}
 
@@ -42,7 +48,7 @@ I criteri di replica definiscono la quantità di dati replicati da una tabella d
 
 Campaign v8 si basa su flussi di lavoro tecnici specifici per gestire la replica pianificata dei dati. Questi flussi di lavoro tecnici sono disponibili dal nodo **[!UICONTROL Administration > Production > Technical workflows > Full FFDA Replication]** di Campaign Explorer. **Non devono essere modificati.**
 
-I flussi di lavoro tecnici eseguono processi o processi, pianificati regolarmente sul server. L&#39;elenco completo dei flussi di lavoro tecnici è descritto in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=it){target="_blank"}.
+I flussi di lavoro tecnici eseguono processi o processi, pianificati regolarmente sul server. L&#39;elenco completo dei flussi di lavoro tecnici è descritto in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}.
 
 I flussi di lavoro tecnici che garantiscono la replica dei dati sono i seguenti:
 
@@ -115,6 +121,6 @@ Ogni coda viene gestita da un flusso di lavoro tecnico, che gestisce la replica 
 
 Questo video illustra i concetti chiave dei database utilizzati da Adobe Campaign v8, il motivo per cui i dati vengono replicati, quali dati vengono replicati e come funziona il processo di replica.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416866?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334460?quality=12)
 
-Ulteriori tutorial sulla console client di Campaign v8 sono disponibili [qui](https://experienceleague.adobe.com/it/docs/campaign-learn/tutorials/overview).
+Ulteriori tutorial sulla console client di Campaign v8 sono disponibili [qui](https://experienceleague.adobe.com/en/docs/campaign-learn/tutorials/overview).

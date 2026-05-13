@@ -7,9 +7,14 @@ topic-tags: campaign-standard-apis
 role: Developer
 level: Experienced
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
-source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
+TQID: https://experienceleague.adobe.com/0JDPFM3PDI61vx3CPPveqw5Cta5AujFIngrbbD6V-tY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: 744
 ht-degree: 1%
 
 ---
@@ -35,7 +40,7 @@ L’evento transazionale viene inviato tramite una richiesta POST con la seguent
 POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 ```
 
-* **&lt;ORGANIZATION>**: l’ID ORGANIZZAZIONE personale. Fai riferimento a [questa sezione](must-read.md).
+* **&lt;ORGANIZZAZIONE>**: ID organizzazione personale. Fai riferimento a [questa sezione](must-read.md).
 
 * **&lt;transactionalAPI>**: endpoint API per messaggi transazionali.
 
@@ -43,7 +48,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
   `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
 
-* **&lt;eventID>**: tipo di evento che si desidera inviare. Questo ID viene generato durante la creazione della configurazione dell’evento
+* **&lt;eventID>**: tipo di evento da inviare. Questo ID viene generato durante la creazione della configurazione dell’evento
 
 ### Intestazione della richiesta POST
 
