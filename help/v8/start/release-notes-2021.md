@@ -4,10 +4,22 @@ description: Elenco delle funzioni e dei miglioramenti introdotti con le version
 feature: Release Notes
 hide: true
 exl-id: 5ac6bda9-86c8-4200-b285-6fee2a29039d
-source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
+TQID: https://experienceleague.adobe.com/o497R5a6OnWWHLy-QJUic5Mps5OlRGrW7JvQCQJKhC0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+subfeature_v2:
+  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '1644'
-ht-degree: 93%
+source-wordcount: 1644
+ht-degree: 97%
 
 ---
 
@@ -98,7 +110,7 @@ _venerdì 28 ottobre 2021_
 * È stato risolto un problema che poteva causare l’arresto anomalo del flusso di lavoro di fatturazione sulle istanze di marketing.
 * È stato risolto un problema che poteva causare la duplicazione delle chiavi nelle tabelle predefinite di Snowflake FFDA. (NEO-38583)
 * È stato risolto un problema che poteva causare la perdita di schemi temporanei del flusso di lavoro durante la modifica di due attività di deduplica una dopo l’altra. (NEO-34063)
-* È stato risolto un problema che restituiva risultati errati durante l’esecuzione delle funzioni Amazon Redshift HoursDiff e MinutesDiff durante il tentativo di estrarre il componente time.(NEO-31673)
+* È stato risolto un problema a causa del quale venivano restituiti risultati errati durante l’esecuzione delle funzioni HoursDiff e MinutesDiff di Amazon Redshift nel tentativo di estrarre il componente temporale.(NEO-31673)
 * È stato risolto un problema che poteva impedire agli utenti di accedere alla console a causa di un problema di configurazione proxy. (NEO-38388)
 * È stato risolto un problema di regressione che impediva il funzionamento corretto della funzionalità **Purge folder** (Svuota cartella). (NEO-37459)
 * È stato risolto un problema che poteva impedire la visualizzazione in anteprima delle consegne mobili collegate a un flusso di lavoro.
@@ -116,7 +128,7 @@ _7 settembre 2021_
 
 * Al termine del suo ciclo di vita, Flash è stato rimosso da tutte le funzioni e i componenti di Campaign correlati e sostituito con HTML5. Il tipo di grafico **Misuratore** è stato rimosso. (NEO-30330) [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/creating-a-chart.html?lang=it)
 * Durante l’installazione della console client su Windows, il programma di installazione ora controlla se è presente un nodo del Registro di sistema principale e, in caso contrario, ne crea uno. Questo evita potenziali problemi durante l’avvio della console. (NEO-34854)
-* La funzione di firma di tracciamento è stata migliorata per evitare errori collegati al modo in cui strumenti di terze parti (client e-mail, browser Internet, ecc.) gestiscono i caratteri speciali. I parametri URL sono ora codificati.
+* La funzione di tracciamento della firma è stata migliorata per evitare errori relativi al modo in cui strumenti di terze parti (client e-mail, browser Internet, ecc.) gestiscono i caratteri speciali. I parametri URL sono ora codificati.
 
 **Altre modifiche**
 
@@ -125,7 +137,7 @@ _7 settembre 2021_
 * In seguito alla migrazione a Tomcat 8, lo script di installazione di IIS è stato aggiornato per risolvere i problemi di integrazione di IIS. (NEO-31019)
 * È stato aggiunto un guardrail per consentire l’esecuzione del [flusso di lavoro tecnico di fatturazione](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/monitoring-processes.html?lang=it#billing-report) solo sull’istanza di marketing.
 * L’identificazione dell’origine dati è stata migliorata nelle schede dati e schema della finestra **Visualizza popolazione** delle transizioni del flusso di lavoro.
-* Indici di database mancanti aggiunti ai seguenti schemi per evitare problemi di aggiornamento del database: xtk:rights, nms:dlvExclusion, nms:seedMember, nms:trackingUrl
+* Sono stati aggiunti gli indici di database mancanti ai seguenti schemi, al fine di evitare problemi di aggiornamento del database: xtk:rights, nms:dlvExclusion, nms:seedMember, nms:trackingUrl
 
 **Patch**
 
