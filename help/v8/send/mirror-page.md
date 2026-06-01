@@ -17,10 +17,10 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 01596f03cb299f30a0a32e7095c62c6ce9c40259
 workflow-type: tm+mt
-source-wordcount: 435
-ht-degree: 57%
+source-wordcount: 426
+ht-degree: 58%
 
 ---
 
@@ -34,7 +34,7 @@ Mentre la maggior parte dei client e-mail esegue il rendering delle immagini sen
 
 La pagina mirror generata da Adobe Campaign contiene tutti i dati di personalizzazione.
 
-![esempio di collegamento mirror](assets/mirror-page-link.png){width="600" align="left"}
+![esempio di collegamento mirror](assets/mirror-page-link.png){width="600"}
 
 ## Aggiungere un collegamento alla pagina mirror {#link-to-mirror-page}
 
@@ -42,7 +42,7 @@ La pagina mirror generata da Adobe Campaign contiene tutti i dati di personalizz
 
 In Adobe Campaign, puoi inserire un collegamento alla pagina mirror nel contenuto dell’e-mail utilizzando il **blocco di personalizzazione** dedicato. Il blocco di personalizzazione incorporato **Collegamento a una pagina mirror** inserisce il seguente codice nel contenuto dell’e-mail: `<%@ include view='MirrorPage' %>`.
 
-![](assets/mirror-page-insert.png){width="800" align="left"}
+![](assets/mirror-page-insert.png){width="800"}
 
 
 Per ulteriori informazioni sull&#39;inserimento di blocchi di contenuto di personalizzazione, consulta [Blocchi di personalizzazione](personalization-blocks.md).
@@ -56,7 +56,7 @@ Puoi controllare la modalità di generazione della pagina mirror dell’e-mail. 
 1. Passare alla scheda **[!UICONTROL Validity]** delle proprietà e-mail.
 1. Nella sezione **Gestione pagine mirror**, selezionare l&#39;elenco a discesa **[!UICONTROL Mode]**.
 
-![](assets/mirror-page-generation.png){width="800" align="left"}
+![](assets/mirror-page-generation.png){width="800"}
 
 Oltre alla modalità predefinita, sono disponibili le seguenti opzioni:
 
@@ -74,6 +74,6 @@ Per accedere a questa pagina mirror:
 
 1. Selezionare un destinatario e fare clic sul collegamento **[!UICONTROL Display the mirror page for this message...]**.
 
-   ![](assets/mirror-page-display.png){width="800" align="left"}
+   ![](assets/mirror-page-display.png){width="800"}
 
    La pagina speculare viene visualizzata in una schermata dedicata, con i dati di personalizzazione per il destinatario selezionato.

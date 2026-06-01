@@ -6,9 +6,9 @@ role: Developer
 level: Intermediate
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 0f22b17c-ed01-4add-8300-8689b8a9f963
-source-git-commit: 52ea7f0a7690ef656568cc75925b9982e1f475e9
+source-git-commit: 01596f03cb299f30a0a32e7095c62c6ce9c40259
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1421'
 ht-degree: 4%
 
 ---
@@ -105,7 +105,7 @@ Per creare un servizio per l’invio di notifiche push, effettua le seguenti ope
 
 1. Passare alla scheda **[!UICONTROL Profiles and Targets > Services and Subscriptions]** e fare clic su **[!UICONTROL Create]**.
 
-   ![](assets/push-config-4.png){width="800" align="left"}
+   ![](assets/push-config-4.png){width="800"}
 
 1. Immettere **[!UICONTROL Label]** e **[!UICONTROL Internal name]** e selezionare un tipo **[!UICONTROL Mobile application]**.
 

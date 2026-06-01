@@ -15,7 +15,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 01596f03cb299f30a0a32e7095c62c6ce9c40259
 workflow-type: tm+mt
 source-wordcount: 1565
 ht-degree: 93%
@@ -97,7 +97,7 @@ Per selezionare i destinatari di una consegna, segui i passaggi indicati di segu
 1. Seleziona la [mappatura target](../audiences/target-mappings.md) nell’elenco a discesa **[!UICONTROL Target mapping]**.
 1. Fai clic sul pulsante **[!UICONTROL Add]** per definire i filtri di restrizione.
 
-   ![](assets/target-type.png){width="60%" align="left" zoomable="yes"}
+   ![](assets/target-type.png){width="60%" zoomable="yes"}
 
    Seleziona un tipo di filtro e fai clic su **[!UICONTROL Next]** per definire le condizioni. È possibile visualizzare i destinatari filtrati dalla scheda **[!UICONTROL Preview]**. A seconda del tipo di target, il pulsante **[!UICONTROL Refine target]** consente di combinare diversi criteri di targeting.
 

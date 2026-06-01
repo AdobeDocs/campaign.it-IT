@@ -15,9 +15,9 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 01596f03cb299f30a0a32e7095c62c6ce9c40259
 workflow-type: tm+mt
-source-wordcount: 693
+source-wordcount: 696
 ht-degree: 5%
 
 ---
@@ -64,7 +64,7 @@ Per preparare la consegna, assicurati che il contenuto e il target della consegn
    * Un&#39;icona gialla indica un errore di elaborazione non critico.
    * Un’icona rossa indica un errore critico che impedisce l’invio della consegna.
 
-   ![](assets/delivery-analysis-results.png){width="800" align="left"}
+   ![](assets/delivery-analysis-results.png){width="800"}
 
 1. Fare clic su **[!UICONTROL Close]** per correggere gli eventuali errori. Dopo aver apportato le modifiche, riavviare l&#39;analisi facendo clic su **[!UICONTROL Analyze]**.
 
@@ -80,7 +80,7 @@ Per preparare la consegna, assicurati che il contenuto e il target della consegn
 
 Passa alla scheda **[!UICONTROL Analysis]** delle proprietà di consegna per definire le impostazioni per la preparazione dei messaggi durante la fase di analisi.
 
-![](assets/delivery-properties-analysis-tab.png){width="800" align="left"}
+![](assets/delivery-properties-analysis-tab.png){width="800"}
 
 Questa scheda consente di accedere alle seguenti opzioni:
 
