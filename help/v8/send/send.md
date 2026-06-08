@@ -7,18 +7,13 @@ level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
 TQID: https://experienceleague.adobe.com/LHKXRb4lBbTL6DVrnsnTIPE-Pj-f5I5qQcG3O57Wz5I
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 62f279d8b36160ff56f4fdc1f7fba0099bdbc8ad
 workflow-type: tm+mt
-source-wordcount: 838
+source-wordcount: 832
 ht-degree: 2%
 
 ---
@@ -51,9 +46,9 @@ Disponibile per tutti i clienti di Campaign v8, garantisce scalabilità, un elev
 
 ### Vantaggi
 
-Adobe Campaign utilizza un Mail Transfer Agent (MTA) che esegue l&#39;MTA della posta elettronica commerciale di SparkPost denominato **Momentum**.
+Adobe Campaign utilizza l&#39;**MTA avanzato** (Mail Transfer Agent), un motore di consegna e-mail ad alte prestazioni.
 
-Momentum rappresenta una tecnologia MTA innovativa e ad alte prestazioni che include una gestione dei messaggi non recapitati più intelligente e una funzionalità di ottimizzazione automatizzata della consegna dei messaggi che consente ai mittenti di raggiungere e mantenere tassi di consegna della casella in entrata ottimali.
+L’MTA avanzato include una gestione più intelligente dei messaggi non recapitati e una funzionalità di ottimizzazione automatizzata della consegna che consente ai mittenti di raggiungere e mantenere tassi di consegna della casella in entrata ottimali.
 
 * L’MTA consente un aumento massiccio della velocità di trasmissione complessiva e una riduzione significativa dei mancati recapiti non permanenti.
 * Utilizza la tecnologia MTA più recente per fornire le velocità effettive ottimali per la consegna delle e-mail.
@@ -84,7 +79,7 @@ Domain Keys Identified Mail (DKIM) è un metodo di autenticazione utilizzato per
 
 In Adobe Campaign, la firma di autenticazione e-mail di DKIM viene eseguita dall’MTA.
 
-Ulteriori informazioni su DKIM sono disponibili nella [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=it#authentication){target="_blank"}.
+Ulteriori informazioni su DKIM sono disponibili nella [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication){target="_blank"}.
 
 ## Servizio di feedback delle e-mail {#email-feedback-service}
 
