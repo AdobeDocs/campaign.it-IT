@@ -7,9 +7,12 @@ level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
 hide: true
 TQID: https://experienceleague.adobe.com/Cpc-97Lab93SQhsFloibdhpvCDFockj6afFSZUTgKoM
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: b285c321f3b905150b31621941ea99608d627739
 workflow-type: tm+mt
 source-wordcount: 785
@@ -89,7 +92,7 @@ Hai bisogno di assistenza mentre lavori con Campaign? Leggi le principali domand
 
    È possibile ottenere il programma di installazione e Client Console da Adobe Download Center.
 
-   Per scaricare Adobe Campaign, accedi come utente amministratore alla [Distribuzione di software](https://experience.adobe.com/#/downloads/content/software-distribution/it/campaign.html) {target="_blank"} di Adobe.
+   Per scaricare Adobe Campaign, accedi come utente amministratore alla [Distribuzione di software](https://experience.adobe.com/#/downloads/content/software-distribution/it/campaign.html){target="_blank"}  di Adobe.
 
    Ulteriori informazioni sul Centro distribuzione sono disponibili a [questa pagina](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=it){target="_blank"}.
 
