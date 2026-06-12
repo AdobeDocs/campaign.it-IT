@@ -15,7 +15,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: b285c321f3b905150b31621941ea99608d627739
 workflow-type: tm+mt
 source-wordcount: 408
 ht-degree: 4%
@@ -101,4 +101,5 @@ Scopri come aggiornare la console client [&#x200B; in questa pagina](connect.md)
 #### Riferimento interno{#issue-3-ref}
 
 Riferimento: NEO-47269
+
 
