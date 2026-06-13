@@ -15,10 +15,10 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 94d9f6725b0bfb458707c9900f5b6cb553d72daf
 workflow-type: tm+mt
-source-wordcount: 331
-ht-degree: 74%
+source-wordcount: 281
+ht-degree: 80%
 
 ---
 
@@ -95,19 +95,19 @@ Some important changes to the Android Firebase Cloud Messaging (FCM) service wil
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>Esperienza del cliente</strong><br/><a href="../automation/workflow/about-workflows.md" target="_blank">Automatizzare con flussi di lavoro</a> - <a href="../automation/campaigns/set-up-campaigns.md" target="_blank">Orchestrazione campagna</a> - <a href="interaction/interaction.md">Gestione decisioni</a> - <a href="send/personalize.md">Personalization</a>
+      <strong>Esperienza cliente</strong><br/> <a href="../automation/workflow/about-workflows.md" target="_blank">Automatizza con i flussi di lavoro</a> - <a href="../automation/campaigns/set-up-campaigns.md" target="_blank">Orchestrazione della campagna</a> - <a href="interaction/interaction.md">Gestione delle decisioni</a> - <a href="send/personalize.md">Personalizzazione</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">
     <br/>
-      <strong>Inviare messaggi</strong><br/><a href="start/create-message.md">Inizia</a> - <a href="send/preview-and-proof.md">Anteprima e bozze</a> - <a href="send/predictive.md">Ottimizzazione dell'ora di invio</a> - <a href="reporting/gs-reporting.md">Reporting e analisi</a>
+      <strong>Inviare messaggi</strong><br/><a href="start/create-message.md">Introduzione</a> - <a href="send/preview-and-proof.md">Anteprima e bozze</a> - <a href="send/predictive.md">Ottimizzazione del tempo di invio</a> - <a href="reporting/gs-reporting.md">Reporting e analisi</a>
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
       <img src="assets/do-not-localize/icon_profile-audience.svg" width="35px">
     <br/>
-      <strong>Profili e pubblico</strong><br/><a href="audiences/create-profiles.md">Aggiungi profili</a> - <a href="audiences/create-audiences.md">Crea pubblico</a> - <a href="start/subscriptions.md">Gestisci abbonamenti</a> - <a href="start/privacy.md">Privacy</a>
+      <strong>Profili e tipi di pubblico</strong><br/> <a href="audiences/create-profiles.md">Aggiungere profili</a> - <a href="audiences/create-audiences.md">Creare tipi di pubblico</a> - <a href="start/subscriptions.md">Gestiire gli abbonamenti</a> - <a href="start/privacy.md">Privacy</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-configure.svg" width="35px">
@@ -117,12 +117,12 @@ Some important changes to the Android Firebase Cloud Messaging (FCM) service wil
     <td>
       <img src="assets/do-not-localize/icon-dev.svg" width="35px">
     <br/>
-      <strong>Risorse per sviluppatori</strong><br/><a href="dev/datamodel.md">Modello dati di Campaign v8</a> - <a href="dev/schemas.md">Schemi</a> - <a href="dev/api.md">API</a>
+      <strong>Risorse per sviluppatori</strong><br/><a href="dev/datamodel.md">Modello dati Campaign v8</a> - <a href="dev/schemas.md">Schemi</a> - <a href="dev/api.md">API</a>
     </td>
   </tr>
 </table>
 
 ## Risorse aggiuntive
 
-[Descrizione del prodotto Adobe Campaign v8](https://helpx.adobe.com/it/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Documentazione dell’interfaccia utente di Adobe Campaign Web](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=it){target="_blank"} - [Tutorial](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=it){target="_blank"} - [[!DNL Adobe Campaign] Guida all’automazione](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=it){target="_blank"} - [Pannello di controllo per Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=it){target="_blank"}
+[Descrizione del prodotto Adobe Campaign v8](https://helpx.adobe.com/it/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Documentazione dell&#39;interfaccia utente di Adobe Campaign Web](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=it){target="_blank"} - [Esercitazioni](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=it){target="_blank"} - [[!DNL Adobe Campaign] Guida all&#39;automazione](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=it){target="_blank"} - [Pannello di controllo Campaign per Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=it){target="_blank"} - [Guida ai pixel di tracciamento e-mail e linee guida CNIL](../v8/start/cnil-pixel-tracking.md)
 
