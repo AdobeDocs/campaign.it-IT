@@ -6,22 +6,23 @@ role: User
 level: Beginner
 exl-id: 3c1cae6e-0a75-4f18-b1ee-2d5fa23b4251
 TQID: https://experienceleague.adobe.com/3FTCgVEDf0XxbqOoqH1n5OxgwkEb4xDNk9MW-WTwIi4
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: b285c321f3b905150b31621941ea99608d627739
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: fc92f46a1df96412cc86b9a8c0946132f79a2da8
 workflow-type: tm+mt
-source-wordcount: 275
-ht-degree: 100%
+source-wordcount: 295
+ht-degree: 93%
 
 ---
 
 # Aggiornamenti alla documentazione {#latest-updates}
 
 In questa pagina sono elencati tutti gli aggiornamenti più recenti alla documentazione di [!DNL Campaign] v8 (console).
+
+## Giugno 2026 {#june-2026}
+
+È stata aggiunta una pagina sulle linee guida CNIL per i pixel di tracciamento delle e-mail e le relative funzionalità di Adobe Campaign. [Ulteriori informazioni](cnil-pixel-tracking.md)
 
 ## Aprile 2025 {#april-2025}
 
