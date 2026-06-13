@@ -1,12 +1,9 @@
 ---
 title: Pixel di tracciamento e-mail e indicazioni CNIL
 description: Informazioni sulle linee guida aggiornate di CNIL sui pixel di tracciamento delle e-mail e sulle funzionalità di Adobe Campaign che possono supportare le attività di conformità.
-feature: Overview
-role: User
-level: Beginner
 version: Campaign v8, Campaign Classic v7, Campaign Standard
 hide: true
-source-git-commit: d30c11b245b8ad7735a8e45efb2c5fdbe936a97b
+source-git-commit: fc92f46a1df96412cc86b9a8c0946132f79a2da8
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 1%
