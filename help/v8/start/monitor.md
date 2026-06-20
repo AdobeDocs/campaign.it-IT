@@ -18,7 +18,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 4a626787cafd7cc9bfb1d26b26a703aa5fb86a58
+source-git-commit: e8438b85eec144e83b2660f9d66444c1a01863ab
 workflow-type: tm+mt
 source-wordcount: 2101
 ht-degree: 2%
@@ -27,11 +27,7 @@ ht-degree: 2%
 
 # Panoramica sul monitoraggio di Campaign {#monitor-campaign}
 
-Adobe Campaign offre visibilità a tutti i livelli, dalla consegna di un singolo messaggio, al motivo dell’errore di un flusso di lavoro, alla capacità del database rimasta nell’istanza. Questa pagina mappa tutte le funzionalità di monitoraggio per consentirti di sapere dove trovare qualcosa che richiede attenzione.
-
->[!NOTE]
->
->In qualità di amministratore di Campaign, puoi anche utilizzare [Pannello di controllo Campaign Campaign](#control-panel) per monitorare le istanze, gestire le prestazioni e configurare le impostazioni con funzionalità self-service.
+Adobe Campaign offre visibilità a tutti i livelli, dalla consegna di un singolo messaggio, al motivo dell’errore di un flusso di lavoro, alla capacità del database rimasta nell’istanza. Questa pagina mappa tutte le funzionalità di monitoraggio per consentirti di sapere dove trovare qualcosa che richiede attenzione. In qualità di amministratore di Campaign, puoi anche utilizzare [Pannello di controllo Campaign Campaign](#control-panel) per monitorare le istanze, gestire le prestazioni e configurare le impostazioni con funzionalità self-service.
 
 >[!TIP]
 >
