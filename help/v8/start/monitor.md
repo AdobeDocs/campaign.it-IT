@@ -6,19 +6,12 @@ role: User
 level: Beginner
 exl-id: 2ad585f2-19bc-4391-8a19-9e892dbe01a3
 TQID: https://experienceleague.adobe.com/PjU1EFX5x4iB3yRsShGBWoR0k1D2-EI90-ss0FTcexE
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 4a626787cafd7cc9bfb1d26b26a703aa5fb86a58
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: e8438b85eec144e83b2660f9d66444c1a01863ab
 workflow-type: tm+mt
 source-wordcount: 2101
 ht-degree: 2%
@@ -27,11 +20,7 @@ ht-degree: 2%
 
 # Panoramica sul monitoraggio di Campaign {#monitor-campaign}
 
-Adobe Campaign offre visibilità a tutti i livelli, dalla consegna di un singolo messaggio, al motivo dell’errore di un flusso di lavoro, alla capacità del database rimasta nell’istanza. Questa pagina mappa tutte le funzionalità di monitoraggio per consentirti di sapere dove trovare qualcosa che richiede attenzione.
-
->[!NOTE]
->
->In qualità di amministratore di Campaign, puoi anche utilizzare [Pannello di controllo Campaign Campaign](#control-panel) per monitorare le istanze, gestire le prestazioni e configurare le impostazioni con funzionalità self-service.
+Adobe Campaign offre visibilità a tutti i livelli, dalla consegna di un singolo messaggio, al motivo dell’errore di un flusso di lavoro, alla capacità del database rimasta nell’istanza. Questa pagina mappa tutte le funzionalità di monitoraggio per consentirti di sapere dove trovare qualcosa che richiede attenzione. In qualità di amministratore di Campaign, puoi anche utilizzare [Pannello di controllo Campaign Campaign](#control-panel) per monitorare le istanze, gestire le prestazioni e configurare le impostazioni con funzionalità self-service.
 
 >[!TIP]
 >
@@ -98,7 +87,7 @@ I flussi di lavoro sono il motore delle automazioni di marketing e dell’elabor
 
 **Monitora i seguenti elementi del flusso di lavoro:**
 
-**Stato esecuzione flusso di lavoro** - Controllare se i flussi di lavoro sono in esecuzione, in pausa, non riusciti o completati. Visualizza subito i flussi di lavoro bloccati o con tempi di esecuzione lunghi. [Ulteriori informazioni sull&#39;esecuzione del flusso di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=it){target="_blank"}
+**Stato esecuzione flusso di lavoro** - Controllare se i flussi di lavoro sono in esecuzione, in pausa, non riusciti o completati. Visualizza subito i flussi di lavoro bloccati o con tempi di esecuzione lunghi. [Ulteriori informazioni sull&#39;esecuzione del flusso di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
 
 **Registri di esecuzione attività**. Eseguire l&#39;espansione nei registri per attività per capire cosa è successo in ogni passaggio. Ciò è utile per risolvere eventuali transizioni non riuscite o output di dati imprevisti.
 
@@ -129,13 +118,13 @@ Ulteriori informazioni su [Audit trail](../reporting/audit-trail.md)
 
 Campaign v8 fornisce diverse funzionalità di monitoraggio per monitorare le prestazioni dell’istanza e garantire il funzionamento ottimale:
 
-**Monitoraggio del database**: consente di monitorare l&#39;utilizzo e la capacità del database tramite il Pannello di controllo Campaign per garantire prestazioni ottimali e la gestione dello storage. [Ulteriori informazioni sul monitoraggio del database](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring.html?lang=it){target="_blank"}
+**Monitoraggio del database**: consente di monitorare l&#39;utilizzo e la capacità del database tramite il Pannello di controllo Campaign per garantire prestazioni ottimali e la gestione dello storage. [Ulteriori informazioni sul monitoraggio del database](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring.html){target="_blank"}
 
-**Monitoraggio dei profili attivi**: tieni traccia dell&#39;utilizzo dei profili attivi rispetto ai limiti contrattuali, per mantenere la conformità e ottimizzare l&#39;allocazione delle risorse. [Ulteriori informazioni sui profili attivi](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=it){target="_blank"}
+**Monitoraggio dei profili attivi**: tieni traccia dell&#39;utilizzo dei profili attivi rispetto ai limiti contrattuali, per mantenere la conformità e ottimizzare l&#39;allocazione delle risorse. [Ulteriori informazioni sui profili attivi](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}
 
 **Monitoraggio del flusso di lavoro**: controlla lo stato di esecuzione del flusso di lavoro per identificare i flussi di lavoro con tempi di esecuzione lunghi e garantire il corretto funzionamento di tutti i flussi di lavoro tecnici. [Ulteriori informazioni sui flussi di lavoro tecnici](#technical-workflows)
 
-**Velocità effettiva e latenza di consegna**: tieni traccia della velocità effettiva di consegna (messaggi inviati all&#39;ora) e della latenza per le comunicazioni transazionali tramite il Pannello di controllo Campaign. [Ulteriori informazioni sul monitoraggio della velocità effettiva](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/throughputs-latencies.html?lang=it){target="_blank"}
+**Velocità effettiva e latenza di consegna**: tieni traccia della velocità effettiva di consegna (messaggi inviati all&#39;ora) e della latenza per le comunicazioni transazionali tramite il Pannello di controllo Campaign. [Ulteriori informazioni sul monitoraggio della velocità effettiva](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/throughputs-latencies.html){target="_blank"}
 
 >[!NOTE]
 >
@@ -191,7 +180,7 @@ Verifica che ogni flusso di lavoro tecnico sia in esecuzione secondo la pianific
 | **Aggiornamento del recapito messaggi** | Aggiorna le regole di recapito messaggi e i modelli di filtro anti-spam | Le regole diventano obsolete; la precisione di filtraggio potrebbe peggiorare |
 | **Pulizia database** | Elimina i vecchi registri di consegna e tracciamento | L’accumulo di registri rallenta le query e i rapporti nel tempo |
 
-Ulteriori informazioni sui [flussi di lavoro tecnici](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=it){target="_blank"}
+Ulteriori informazioni sui [flussi di lavoro tecnici](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}
 
 ### Pannello di controllo Campaign {#control-panel}
 
