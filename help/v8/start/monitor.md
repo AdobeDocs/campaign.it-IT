@@ -94,7 +94,7 @@ I flussi di lavoro sono il motore delle automazioni di marketing e dell’elabor
 
 **Monitora i seguenti elementi del flusso di lavoro:**
 
-**Stato esecuzione flusso di lavoro** - Controllare se i flussi di lavoro sono in esecuzione, in pausa, non riusciti o completati. Visualizza subito i flussi di lavoro bloccati o con tempi di esecuzione lunghi. [Ulteriori informazioni sull&#39;esecuzione del flusso di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
+**Stato esecuzione flusso di lavoro** - Controllare se i flussi di lavoro sono in esecuzione, in pausa, non riusciti o completati. Visualizza subito i flussi di lavoro bloccati o con tempi di esecuzione lunghi. [Ulteriori informazioni sull&#39;esecuzione del flusso di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=it){target="_blank"}
 
 **Registri di esecuzione attività**. Eseguire l&#39;espansione nei registri per attività per capire cosa è successo in ogni passaggio. Ciò è utile per risolvere eventuali transizioni non riuscite o output di dati imprevisti.
 
@@ -125,13 +125,13 @@ Ulteriori informazioni su [Audit trail](../reporting/audit-trail.md)
 
 Campaign v8 fornisce diverse funzionalità di monitoraggio per monitorare le prestazioni dell’istanza e garantire il funzionamento ottimale:
 
-**Monitoraggio del database**: consente di monitorare l&#39;utilizzo e la capacità del database tramite il Pannello di controllo Campaign per garantire prestazioni ottimali e la gestione dello storage. [Ulteriori informazioni sul monitoraggio del database](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring.html){target="_blank"}
+**Monitoraggio del database**: consente di monitorare l&#39;utilizzo e la capacità del database tramite il Pannello di controllo Campaign per garantire prestazioni ottimali e la gestione dello storage. [Ulteriori informazioni sul monitoraggio del database](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring.html?lang=it){target="_blank"}
 
-**Monitoraggio dei profili attivi**: tieni traccia dell&#39;utilizzo dei profili attivi rispetto ai limiti contrattuali, per mantenere la conformità e ottimizzare l&#39;allocazione delle risorse. [Ulteriori informazioni sui profili attivi](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}
+**Monitoraggio dei profili attivi**: tieni traccia dell&#39;utilizzo dei profili attivi rispetto ai limiti contrattuali, per mantenere la conformità e ottimizzare l&#39;allocazione delle risorse. [Ulteriori informazioni sui profili attivi](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=it){target="_blank"}
 
 **Monitoraggio del flusso di lavoro**: controlla lo stato di esecuzione del flusso di lavoro per identificare i flussi di lavoro con tempi di esecuzione lunghi e garantire il corretto funzionamento di tutti i flussi di lavoro tecnici. [Ulteriori informazioni sui flussi di lavoro tecnici](#technical-workflows)
 
-**Velocità effettiva e latenza di consegna**: tieni traccia della velocità effettiva di consegna (messaggi inviati all&#39;ora) e della latenza per le comunicazioni transazionali tramite il Pannello di controllo Campaign. [Ulteriori informazioni sul monitoraggio della velocità effettiva](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/throughputs-latencies.html){target="_blank"}
+**Velocità effettiva e latenza di consegna**: tieni traccia della velocità effettiva di consegna (messaggi inviati all&#39;ora) e della latenza per le comunicazioni transazionali tramite il Pannello di controllo Campaign. [Ulteriori informazioni sul monitoraggio della velocità effettiva](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/throughputs-latencies.html?lang=it){target="_blank"}
 
 >[!NOTE]
 >
@@ -187,7 +187,7 @@ Verifica che ogni flusso di lavoro tecnico sia in esecuzione secondo la pianific
 | **Aggiornamento del recapito messaggi** | Aggiorna le regole di recapito messaggi e i modelli di filtro anti-spam | Le regole diventano obsolete; la precisione di filtraggio potrebbe peggiorare |
 | **Pulizia database** | Elimina i vecchi registri di consegna e tracciamento | L’accumulo di registri rallenta le query e i rapporti nel tempo |
 
-Ulteriori informazioni sui [flussi di lavoro tecnici](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}
+Ulteriori informazioni sui [flussi di lavoro tecnici](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=it){target="_blank"}
 
 ### Pannello di controllo Campaign {#control-panel}
 
