@@ -7,15 +7,10 @@ role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
 TQID: https://experienceleague.adobe.com/vSbY229FQjQL7M44gjs3WgYbYwMkcts98tuVVhS1LEw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 1504
@@ -118,43 +113,43 @@ Le icone della barra degli strumenti consentono di intervenire sull’esecuzione
 
 * Avvia o riavvia
 
-   * L&#39;icona **[!UICONTROL Start]** consente di avviare il flusso di lavoro di targeting. Quando fai clic su questa icona, vengono attivate tutte le attività senza una transizione di input (tranne i salti al punto finale).
+  * L&#39;icona **[!UICONTROL Start]** consente di avviare il flusso di lavoro di targeting. Quando fai clic su questa icona, vengono attivate tutte le attività senza una transizione di input (tranne i salti al punto finale).
 
-     ![](assets/start.png)
+    ![](assets/start.png)
 
-     Il server prende in considerazione la richiesta, come mostrato dal suo stato: **[!UICONTROL Start as soon as possible]**.
+    Il server prende in considerazione la richiesta, come mostrato dal suo stato: **[!UICONTROL Start as soon as possible]**.
 
-   * Puoi riavviare il flusso di lavoro di targeting tramite l’icona appropriata della barra degli strumenti. Questo comando può essere utile se l&#39;icona **[!UICONTROL Start]** non è disponibile, ad esempio quando è in corso l&#39;arresto del flusso di lavoro di targeting. In questo caso, fare clic sull&#39;icona **[!UICONTROL Restart]** per anticipare il riavvio. Il server prende in considerazione la richiesta, come mostra il suo stato: **[!UICONTROL Restart requested]**.
+  * Puoi riavviare il flusso di lavoro di targeting tramite l’icona appropriata della barra degli strumenti. Questo comando può essere utile se l&#39;icona **[!UICONTROL Start]** non è disponibile, ad esempio quando è in corso l&#39;arresto del flusso di lavoro di targeting. In questo caso, fare clic sull&#39;icona **[!UICONTROL Restart]** per anticipare il riavvio. Il server prende in considerazione la richiesta, come mostra il suo stato: **[!UICONTROL Restart requested]**.
 
 * Interrompi o sospendi
 
-   * Le icone della barra degli strumenti consentono di interrompere o mettere in pausa un flusso di lavoro di targeting in corso.
+  * Le icone della barra degli strumenti consentono di interrompere o mettere in pausa un flusso di lavoro di targeting in corso.
 
-     Quando si fa clic su **[!UICONTROL Pause]**, le operazioni in corso **[!UICONTROL are not]** sono state sospese, ma nessun&#39;altra attività viene avviata fino al successivo riavvio.
+    Quando si fa clic su **[!UICONTROL Pause]**, le operazioni in corso **[!UICONTROL are not]** sono state sospese, ma nessun&#39;altra attività viene avviata fino al successivo riavvio.
 
-     ![](assets/pause.png)
+    ![](assets/pause.png)
 
-     Il server prende in considerazione il comando, come mostra il suo stato: **[!UICONTROL Pause requested]**.
+    Il server prende in considerazione il comando, come mostra il suo stato: **[!UICONTROL Pause requested]**.
 
-     Puoi anche mettere in pausa automaticamente un flusso di lavoro di targeting quando l’esecuzione raggiunge una particolare attività. A questo scopo, fai clic con il pulsante destro del mouse sull&#39;attività da cui sospendere il flusso di lavoro di targeting e seleziona **[!UICONTROL Enable but do not execute]**.
+    Puoi anche mettere in pausa automaticamente un flusso di lavoro di targeting quando l’esecuzione raggiunge una particolare attività. A questo scopo, fai clic con il pulsante destro del mouse sull&#39;attività da cui sospendere il flusso di lavoro di targeting e seleziona **[!UICONTROL Enable but do not execute]**.
 
-     ![](assets/donotexecute.png)
+    ![](assets/donotexecute.png)
 
-     Questa configurazione è illustrata da un’icona speciale.
+    Questa configurazione è illustrata da un’icona speciale.
 
-     ![](assets/pause_activity.png)
+    ![](assets/pause_activity.png)
 
-     >[!NOTE]
-     >
-     >Questa opzione è utile durante le fasi avanzate di progettazione e test delle campagne di targeting.
+    >[!NOTE]
+    >
+    >Questa opzione è utile durante le fasi avanzate di progettazione e test delle campagne di targeting.
 
-     Fare clic su **[!UICONTROL Start]** per riprendere l&#39;esecuzione.
+    Fare clic su **[!UICONTROL Start]** per riprendere l&#39;esecuzione.
 
-   * Fare clic sull&#39;icona **[!UICONTROL Stop]** per interrompere l&#39;esecuzione in corso.
+  * Fare clic sull&#39;icona **[!UICONTROL Stop]** per interrompere l&#39;esecuzione in corso.
 
-     ![](assets/stop.png)
+    ![](assets/stop.png)
 
-     Il server prende in considerazione il comando, come mostra il suo stato: **[!UICONTROL Stop requested]**.
+    Il server prende in considerazione il comando, come mostra il suo stato: **[!UICONTROL Stop requested]**.
 
   Puoi anche interrompere automaticamente un flusso di lavoro di targeting quando l’esecuzione raggiunge un’attività. A tale scopo, fare clic con il pulsante destro del mouse sull&#39;attività da cui verrà interrotto il flusso di lavoro di targeting e selezionare **[!UICONTROL Do not activate]**.
 
@@ -260,6 +255,6 @@ Questa configurazione equivale a un&#39;attività **[!UICONTROL Split]** nel flu
 
 Questo video spiega come aggiungere un gruppo di controllo a una campagna.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446926?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335606?quality=12)
 
-Ulteriori video dimostrativi di Campaign sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=it){target="_blank"}.
+Ulteriori video dimostrativi di Campaign sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.
