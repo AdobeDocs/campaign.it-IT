@@ -61,7 +61,7 @@ Ulteriori informazioni sul Centro distribuzione [in questa pagina](https://exper
 
 Per connetterti ad Adobe Campaign, scarica e installa la console client di Campaign. [Ulteriori informazioni](connect.md).
 
-A partire dalla versione v8.6 di Campaign, puoi accedere all&#39;**interfaccia utente di Campaign Web**, disponibile nell&#39;ambiente Adobe Experience Cloud centrale. Experience Cloud è un insieme integrato di applicazioni, prodotti e servizi per il marketing digitale di Adobe.
+A partire dalla versione v8.6 di Campaign, puoi accedere all’**interfaccia utente di Campaign Web**, disponibile nell’ambiente Adobe Experience Cloud centrale. Experience Cloud è un insieme integrato di applicazioni, prodotti e servizi per il marketing digitale di Adobe.
 
 Scopri come connetterti ad Adobe Experience Cloud e come accedere all’interfaccia di Adobe Campaign Web [in questa pagina](campaign-ui.md#ac-web-ui). Ulteriori informazioni sono disponibili nella [documentazione dell’interfaccia utente di Adobe Campaign Web](https://experienceleague.adobe.com/it/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
 
@@ -89,7 +89,7 @@ Sì! Grazie all’integrazione con IMS (Adobe Identity Management System), gli u
 
 Fai riferimento a [questa sezione](campaign-ui.md) per ulteriori informazioni sulle nozioni di base dell&#39;interfaccia utente di Adobe Campaign.
 
-A partire dalla versione v8.6 di Campaign, potrai accedere anche alla nuova **interfaccia utente di Campaign Web**, disponibile nell&#39;ambiente Adobe Experience Cloud centrale.
+A partire dalla versione v8.6 di Campaign, potrai accedere anche alla nuova interfaccia utente **Web di Campaign**, disponibile nell&#39;ambiente Adobe Experience Cloud centrale.
 
 [Ulteriori informazioni sono disponibili nella documentazione relativa all&#39;interfaccia utente Web di Adobe Campaign](https://experienceleague.adobe.com/it/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
 
@@ -268,7 +268,7 @@ L’aggiornamento alla versione più recente di Campaign è fondamentale per la 
 * **Sicurezza migliorata** - Protezione contro vulnerabilità, ultime patch e protezione avanzata dei dati
 * **Supporto migliorato** - Risoluzione più rapida dei problemi, accesso alle correzioni di bug, supporto prioritario per le versioni recenti
 * **Prestazioni migliorate** - Ottimizzazioni del database e del flusso di lavoro, migliore scalabilità, operazioni più affidabili
-* **Nuove funzionalità** - Funzioni più recenti, integrazioni Adobe Experience Cloud migliorate, miglioramenti all&#39;interfaccia utente moderni
+* **Nuove funzionalità** - Funzioni più recenti, integrazioni migliorate di Adobe Experience Cloud, miglioramenti moderni all&#39;interfaccia utente
 
 Adobe consiglia vivamente di eseguire la versione più recente. In qualità di cliente di Managed Cloud Services, gli aggiornamenti vengono eseguiti da Adobe con interruzioni minime.
 
@@ -345,7 +345,7 @@ Campaign v8 è la piattaforma di Adobe, ideale per le organizzazioni che necessi
 
 * Gestire grandi volumi di dati o problemi di prestazioni
 * Desideri ridurre il sovraccarico IT e la gestione dell&#39;infrastruttura
-* Necessità di integrazione Adobe Experience Cloud/Platform
+* È necessaria l’integrazione di Adobe Experience Cloud/Platform
 * Desiderate una tecnologia a prova di futuro con aggiornamenti automatici
 
 **Passaggi successivi:** Contatta il tuo rappresentante Adobe per valutare la fattibilità della migrazione e accedere agli strumenti di migrazione.
@@ -1181,7 +1181,7 @@ Campaign Pannelli di controllo Campaign è un’interfaccia amministrativa basat
 * **Gestione dei sottodomini** - Delega e gestione dei sottodomini, monitoraggio dei certificati SSL
 * **Monitoraggio archiviazione** - Monitoraggio dell&#39;utilizzo del database e prevenzione dei problemi di archiviazione
 * **Gestione SFTP** - Monitoraggio dell&#39;archiviazione SFTP, gestione dei IP e delle chiavi SSH
-* **Impostazioni dell&#39;istanza** - Configurare i inserisce nell&#39;elenco Consentiti IP, gestire le autorizzazioni URL, esaminare i dettagli dell&#39;istanza
+* **Impostazioni istanza** - Configura i inserisce nell&#39;elenco Consentiti di IP, gestisci le autorizzazioni URL, controlla i dettagli dell&#39;istanza
 * **Monitoraggio profili attivi** - Monitoraggio dell&#39;utilizzo dei profili attivi rispetto ai diritti
 * **Monitoraggio delle prestazioni** - Monitoraggio delle prestazioni del database e del flusso di lavoro
 * **Recapito messaggi e-mail** - Configura DMARC, BIMI e altri record di autenticazione
@@ -1202,7 +1202,7 @@ Campaign Pannelli di controllo Campaign è un’interfaccia amministrativa basat
 
 Adobe Campaign v8 offre la possibilità di confrontare tutte le impostazioni correnti per gli account amministrativi di livello superiore e gli account con privilegi con le impostazioni predefinite protette consigliate.
 
-* **Impostazioni correnti (visibilità completa):** Tutte le impostazioni per gli account amministrativi e con privilegi possono essere riviste in **[!UICONTROL Administration]** > **[!UICONTROL Access management]** (console client o interfaccia utente Web di Campaign): **[!UICONTROL Operators]**, **[!UICONTROL Operator groups]**, **[!UICONTROL Named rights]** (ad esempio AMMINISTRAZIONE, AMMINISTRAZIONE APPROVAZIONE) e autorizzazioni a livello di cartella. Gli amministratori di prodotto possono inoltre rivedere le impostazioni a livello di istanza in [Pannello di controllo Campaign Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it){target="_blank"} (inserisco nell&#39;elenco Consentiti IP, autorizzazioni URL, dettagli istanza e altro).
+* **Impostazioni correnti (visibilità completa):** Tutte le impostazioni per gli account amministrativi e con privilegi possono essere riviste in **[!UICONTROL Administration]** > **[!UICONTROL Access management]** (console client o interfaccia utente Web di Campaign): **[!UICONTROL Operators]**, **[!UICONTROL Operator groups]**, **[!UICONTROL Named rights]** (ad esempio AMMINISTRAZIONE, AMMINISTRAZIONE APPROVAZIONE) e autorizzazioni a livello di cartella. Gli amministratori di prodotto possono inoltre rivedere le impostazioni a livello di istanza in [Pannello di controllo Campaign di campagne](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it){target="_blank"} (elenco Consentiti di IP, autorizzazioni URL, dettagli istanza e altro).
 * **Impostazioni predefinite di sicurezza consigliate:** Le [linee guida sulla sicurezza](../config/security.md) definiscono la linea di base sicura consigliata per gli account amministrativi e con privilegi, tra cui: creare gruppi di sicurezza sufficienti, assegnare diritti di accesso appropriati per ogni operatore e limitare l&#39;utilizzo dell&#39;operatore amministratore e del gruppo di amministratori. Se applicabile, vedere anche il componente aggiuntivo di sicurezza [Enhanced](../config/enhanced-security.md) per la protezione avanzata della rete e della crittografia.
 * **Confronto:** gli amministratori confrontano la propria configurazione corrente con questi consigli documentati per identificare le lacune e allinearsi ai valori predefiniti sicuri.
 
