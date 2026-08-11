@@ -13,16 +13,30 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: ffeb9430b382b598af412555b1b0a6ff42bc68d0
+source-git-commit: 989cd72ab555a1b81042bbc043c246427e22a0d4
 workflow-type: tm+mt
-source-wordcount: 1747
-ht-degree: 6%
+source-wordcount: 1984
+ht-degree: 5%
 
 ---
 
 # Versioni più recenti {#latest-release}
 
 In questa pagina sono elencate le nuove funzionalità, i miglioramenti e le correzioni introdotte con le **versioni più recenti** di Campaign v8 (console). Ulteriori informazioni sulle versioni e gli aggiornamenti di Campaign sono disponibili in [questa pagina](upgrades.md). Altre versioni sono elencate nella sezione Versioni precedenti di questa documentazione.
+
+## Versione 8.9.3 {#release-8-9-3}
+
+_11 agosto 2026_
+
+Questa versione include diversi miglioramenti al prodotto e correzioni di sicurezza, tra cui l’aggiornamento del connettore Adobe Analytics all’API Analytics 2.0.
+
+>[!NOTE]
+>
+> Passare al **[!UICONTROL Help > About...]** [menu](upgrades.md#version) per verificare che sia stata compilata la versione 9835 o successiva.
+
+### Connettore Adobe Analytics aggiornato all’API Analytics 2.0 {#analytics-2-0-8-9-3}
+
+Poiché le API di Adobe Analytics 1.4 stanno per [raggiungere la fine del ciclo di vita](https://developer.adobe.com/analytics-apis/docs/1.4/guides/eol){target="_blank"}, il [connettore di Web Analytics](../connect/ac-aa.md), che invia gli indicatori della campagna e i dati di classificazione ad Adobe Analytics, supporta il flusso di remarketing e viene utilizzato per configurare nuove suite di rapporti, è stato aggiornato all&#39;API di Analytics 2.0 nell&#39;ambito di questa versione. In qualità di cliente in hosting, Adobe si occupa di questa migrazione: non è richiesta alcuna configurazione da parte tua. L&#39;aggiornamento reimporta i flussi di lavoro tecnici incorporati che alimentano il connettore (**[!UICONTROL webAnalyticsSendMetrics]** e **[!UICONTROL webAnalyticsGetWebEvents]**) e aggiorna i file JavaScript incorporati di Analytics. Pertanto, se si è personalizzato uno di questi flussi di lavoro o flussi di lavoro personalizzati incorporati che fanno riferimento a tali file, riapplicare e adattare la personalizzazione dopo l&#39;aggiornamento, poiché in caso contrario verrà sovrascritta o interrotta. Come best practice, evita di modificare direttamente i flussi di lavoro incorporati: crea la personalizzazione in un flusso di lavoro personalizzato separato, in modo che gli aggiornamenti futuri non la sovrascrivano. Una volta completato l’aggiornamento, convalida i casi d’uso di Adobe Analytics su cui ti basi (esportazione metriche, esportazione classificazioni e remarketing, se applicabile) per confermare che i dati continuino a scorrere come previsto.
 
 ## Versione 8.9.2 {#release-8-9-2}
 
@@ -129,7 +143,7 @@ Consulta le [note sulla versione](https://experienceleague.adobe.com/docs/campai
 * Gli account esterni di Snowflake ora supportano l’autenticazione OAuth2, fornendo metodi di autenticazione moderni e sicuri per le connessioni federate di accesso ai dati. (NEO-87013) [Ulteriori informazioni](../config/external-accounts.md#snowflake-external-accounts)
 * Gli account esterni Databricks ora supportano l’autenticazione OAuth2 tramite l’entità principale del servizio (flusso di credenziali client non interattive), fornendo metodi di autenticazione sicuri per le connessioni federate di accesso ai dati. L’autenticazione interattiva OAuth2 sarà disponibile in una versione futura. (NEO-87422) [Ulteriori informazioni](../config/external-accounts.md#databricks-external-accounts)
 * Sono state corrette le vulnerabilità di accesso ai file del flusso di lavoro limitando le operazioni alle directory autorizzate, impedendo l’accesso non autorizzato e la potenziale esecuzione di codice remoto. (NEO-88460)
-* È stato aggiunto l’URL FTP, che consente di inserire nell&#39;elenco Consentiti controlli alle attività del codice JavaScript del flusso di lavoro, limitando le connessioni FTP in uscita solo agli indirizzi autorizzati. (NEO-89083)
+* È stato aggiunto l’URL FTP inserire nell&#39;elenco Consentiti controlli alle attività del codice JavaScript del flusso di lavoro, limitando le connessioni FTP in uscita solo agli indirizzi autorizzati. (NEO-89083)
 
 ### Altre modifiche {#changes-8-9-1}
 

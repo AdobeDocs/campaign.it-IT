@@ -18,10 +18,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 989cd72ab555a1b81042bbc043c246427e22a0d4
 workflow-type: tm+mt
-source-wordcount: 1429
-ht-degree: 63%
+source-wordcount: 1595
+ht-degree: 56%
 
 ---
 
@@ -33,7 +33,7 @@ Questa integrazione consente ad Adobe Campaign e Adobe Analytics di interagire t
 
 >[!NOTE]
 >
->In qualità di utente di Managed Cloud Services, [contatta Adobe](../start/campaign-faq.md#support) per collegare Campaign ai servizi e alle soluzioni Adobe Experience Cloud. Il componente aggiuntivo Connettore Web Analytics deve essere installato nell’ambiente tramite il pacchetto dedicato.
+>In qualità di utente di Managed Cloud Services, [contatta Adobe](../start/campaign-faq.md#support) per collegare Campaign ai servizi e alle soluzioni di Adobe Experience Cloud. Il componente aggiuntivo Connettore Web Analytics deve essere installato nell’ambiente tramite il pacchetto dedicato.
 
 Utilizzando il connettore Adobe Analytics, Adobe Campaign ha un modo di misurare il pubblico Internet (analisi web). Gli strumenti di analisi web consentono ad Adobe Campaign di inoltrare indicatori e attributi della campagna ad Analytics.
 
@@ -52,6 +52,7 @@ Per impostare la connessione Campaign-Analytics, è necessario eseguire le opera
 
 1. [Creare la suite di rapporti in Adobe Analytics](#report-suite-analytics)
 1. [Configurare le variabili di conversione e gli eventi di successo](#configure-conversion-success)
+1. [Creare un set di classificazione](#create-classification-set)
 1. [Configurare l’account esterno in Adobe Campaign](#external-account-ac)
 
 ## Creare la suite di rapporti di Analytics {#report-suite-analytics}
@@ -127,7 +128,30 @@ Dopo aver creato la **[!UICONTROL Report suite]**, è necessario configurare **[
 
 1. Al termine della configurazione, fai clic su **[!UICONTROL Save]**.
 
-Quando la suite di rapporti è configurata, dovrai configurare **[!UICONTROL External accounts]** in Adobe Campaign.
+## Creare un set di classificazione {#create-classification-set}
+
+A partire dalla migrazione all&#39;API di Adobe Analytics 2.0, prima di configurare l&#39;account esterno in Campaign è necessario creare anche **[!UICONTROL Classification set]** in Adobe Analytics. Questo set di classificazione collega la variabile di conversione appena creata (il nome della campagna interna) alla suite di rapporti, in modo che Campaign possa individuarla e utilizzarla automaticamente al momento di configurare l’account esterno nel passaggio successivo.
+
+Per creare il set di classificazione:
+
+1. Dalla barra dei menu superiore di [!DNL Adobe Analytics], seleziona **[!UICONTROL Components]** > **[!UICONTROL Classification sets]**, quindi fai clic su **[!UICONTROL New]**.
+
+   ![](assets/analytics_connnector_16.png)
+
+1. Nella finestra di dialogo **[!UICONTROL Add New Classification Set]**:
+
+   ![](assets/analytics_connnector_17.png)
+
+   * Immetti **[!UICONTROL Name]** per il set di classificazione.
+   * Imposta **[!UICONTROL Type]** su **[!UICONTROL Primary]**.
+   * In **[!UICONTROL Job notifications]**, scegli gli utenti a cui inviare la notifica relativa al completamento o al fallimento dei processi del set di classificazione e fornisci gli indirizzi e-mail corrispondenti.
+   * In **[!UICONTROL Subscriptions]**, seleziona la suite di rapporti e la variabile di conversione create per il nome della campagna interna nel passaggio precedente.
+
+1. Fai clic su **[!UICONTROL Save]**.
+
+Per ulteriori informazioni sui set di classificazione, consulta la [documentazione di Adobe Analytics](https://experienceleague.adobe.com/it/docs/analytics/components/classifications/sets/create-set){target="_blank"}.
+
+Quando la suite di rapporti, le variabili di conversione, gli eventi di successo e il set di classificazione sono configurati, sarà necessario configurare **[!UICONTROL External accounts]** in Adobe Campaign.
 
 ## Configurare l’account esterno di Campaign {#external-account-ac}
 
@@ -214,7 +238,7 @@ Questo flusso di lavoro è disponibile nella struttura di Esplora campagne, nell
 
 ![](assets/webanalytics_workflows.png)
 
-Il flusso di lavoro **[!UICONTROL Sending of indicators and campaign attributes]** consente di inviare gli indicatori della campagna e-mail tramite Adobe Campaign a Adobe Experience Cloud utilizzando il connettore Adobe Analytics. Questo flusso di lavoro viene attivato alle 4 del mattino ogni giorno e possono essere necessarie 24 ore per l’invio dei dati ad Analytics.
+Il flusso di lavoro **[!UICONTROL Sending of indicators and campaign attributes]** consente di inviare gli indicatori della campagna e-mail tramite Adobe Campaign ad Adobe Experience Cloud utilizzando il connettore Adobe Analytics. Questo flusso di lavoro viene attivato alle 4 del mattino ogni giorno e possono essere necessarie 24 ore per l’invio dei dati ad Analytics.
 
 Tieni presente che questo flusso di lavoro non deve essere riavviato altrimenti invierà nuovamente tutti i dati precedenti che possono distorcere i risultati di Analytics.
 
