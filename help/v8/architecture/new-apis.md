@@ -221,4 +221,4 @@ L&#39;inserimento dei dati di sottoscrizione e annullamento dell&#39;abbonamento
 
 **Argomenti correlati**
 
-* [JSAPI campagna](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}
+* [JSAPI campagna](https://experienceleague.adobe.com/it/tools/campaign-api){target="_blank"}
