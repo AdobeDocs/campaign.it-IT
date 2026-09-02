@@ -7,18 +7,13 @@ role: Developer
 version: Campaign v8, Campaign Classic v7
 exl-id: 3412e3de-1c88-496e-8fda-ca9fc9b18e69
 TQID: https://experienceleague.adobe.com/gdPa502-bqEhz1TwyQBQl7aLbCOvyD9wvjRMnXlHCqY
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
-subfeature_v2:
-  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+subfeature_v2: id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2425b8e500380076d56bccec41ac821f7c867d92
 workflow-type: tm+mt
-source-wordcount: 1812
+source-wordcount: 1777
 ht-degree: 3%
 
 ---
@@ -32,7 +27,7 @@ Questi esempi mostrano come utilizzare il codice JavaScript in un flusso di lavo
 * [Attivare un flusso di lavoro utilizzando un metodo SOAP statico](#trigger-example)
 * [Interagire con il database utilizzando un metodo SOAP non statico](#interact-example)
 
-[Ulteriori informazioni](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=it){target="_blank"} sui metodi SOAP statici e non statici.
+[Ulteriori informazioni](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"} sui metodi SOAP statici e non statici.
 
 In questi esempi viene utilizzata l&#39;estensione ECMAScript for XML (E4X). Con questa estensione, puoi combinare le chiamate JavaScript e le primitive XML nello stesso script.
 
@@ -110,7 +105,7 @@ var myXML = <recipient xtkschema="nms:recipient"
 
 #### Eliminare un record
 
-Utilizzare il metodo `DeleteCollection`. [Ulteriori informazioni](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html?lang=it){target="_blank"}.
+Utilizzare il metodo `DeleteCollection`. [Ulteriori informazioni](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}.
 
 Specifica queste informazioni:
 
@@ -284,7 +279,7 @@ for each (var rcp in res:recipient)
     logInfo(rcp.@email)
 ```
 
-Il ciclo include una variabile di destinatario locale. Per ogni destinatario restituito nella raccolta di destinatari, viene stampata l’e-mail del destinatario. [Ulteriori informazioni](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html?lang=it){target="_blank"} sulla funzione `logInfo`.
+Il ciclo include una variabile di destinatario locale. Per ogni destinatario restituito nella raccolta di destinatari, viene stampata l’e-mail del destinatario. [Ulteriori informazioni](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"} sulla funzione `logInfo`.
 
 #### Risultati di un&#39;operazione `getIfExists`
 
@@ -370,21 +365,21 @@ Puoi attivare i flussi di lavoro a livello di programmazione, ad esempio nei flu
 
 L’attivazione dei flussi di lavoro avviene tramite l’utilizzo di eventi. Puoi utilizzare queste funzioni per gli eventi:
 
-* Per pubblicare un evento, è possibile utilizzare il metodo statico `PostEvent`. [Ulteriori informazioni](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=it){target="_blank"}.
+* Per pubblicare un evento, è possibile utilizzare il metodo statico `PostEvent`. [Ulteriori informazioni](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}.
 * Per ricevere un evento, è possibile utilizzare l&#39;attività **[!UICONTROL External signal]**. [Ulteriori informazioni](external-signal.md).
 
 Puoi attivare i flussi di lavoro in diversi modi:
 
 * È possibile attivare un workflow in linea, ovvero dallo script principale di un&#39;attività **[!UICONTROL JavaScript code]**.
 * Puoi attivare un flusso di lavoro al completamento di un altro:
-   * Aggiungere uno script di inizializzazione all&#39;attività **[!UICONTROL End]** del flusso di lavoro iniziale.
-   * Aggiungi l&#39;attività **[!UICONTROL External signal]** all&#39;inizio del flusso di lavoro di destinazione.
+  * Aggiungere uno script di inizializzazione all&#39;attività **[!UICONTROL End]** del flusso di lavoro iniziale.
+  * Aggiungi l&#39;attività **[!UICONTROL External signal]** all&#39;inizio del flusso di lavoro di destinazione.
 
-     Al completamento del flusso di lavoro iniziale, viene registrato un evento. La transizione in uscita viene attivata e le variabili dell’evento vengono compilate. Quindi, l’evento viene ricevuto dal flusso di lavoro di destinazione.
+    Al completamento del flusso di lavoro iniziale, viene registrato un evento. La transizione in uscita viene attivata e le variabili dell’evento vengono compilate. Quindi, l’evento viene ricevuto dal flusso di lavoro di destinazione.
 
-     >[!TIP]
-     >
-     >Come procedura ottimale, quando si aggiunge uno script a un&#39;attività, racchiudere il nome dell&#39;attività in trattini doppi, ad esempio `-- end --`. [Ulteriori informazioni](workflow-best-practices.md) sulle best practice per i flussi di lavoro.
+    >[!TIP]
+    >
+    >Come procedura ottimale, quando si aggiunge uno script a un&#39;attività, racchiudere il nome dell&#39;attività in trattini doppi, ad esempio `-- end --`. [Ulteriori informazioni](workflow-best-practices.md) sulle best practice per i flussi di lavoro.
 
 Sintassi del metodo `PostEvent`:
 
@@ -437,10 +432,10 @@ Segui questi passaggi:
 
 1. Definisci la query:
 
-   * Recuperare un&#39;entità utilizzando il metodo `create` nello schema corrispondente, ad esempio lo schema `xtk:workflow`. [Ulteriori informazioni](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html?lang=it){target="_blank"}.
+   * Recuperare un&#39;entità utilizzando il metodo `create` nello schema corrispondente, ad esempio lo schema `xtk:workflow`. [Ulteriori informazioni](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}.
    * Utilizzare il metodo `queryDef` per eseguire una query SQL.
 
-1. Eseguire la query utilizzando il metodo `ExecuteQuery`. [Ulteriori informazioni](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html?lang=it){target="_blank"}.
+1. Eseguire la query utilizzando il metodo `ExecuteQuery`. [Ulteriori informazioni](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}.
 
    Utilizzare il ciclo `for each` per recuperare i risultati.
 
@@ -622,11 +617,11 @@ Questo video mostra un esempio di utilizzo di un metodo API non statico in un fl
 
 ### Documentazione API
 
-* [Esempi di chiamate SOAP](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=it){target="_blank"}
+* [Esempi di chiamate SOAP](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}
 * Metodi:
-   * [Crea](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html?lang=it){target="_blank"}
-   * [DeleteCollection](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html?lang=it){target="_blank"}
-   * [ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html?lang=it){target="_blank"}
-   * [PostEvent](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=it){target="_blank"}
-   * [Scrittura](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-Write.html?lang=it){target="_blank"}
-* [funzione logInfo](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html?lang=it){target="_blank"}
+  * [Crea](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}
+  * [DeleteCollection](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}
+  * [ExecuteQuery](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}
+  * [PostEvent](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}
+  * [Scrittura](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}
+* [funzione logInfo](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}
