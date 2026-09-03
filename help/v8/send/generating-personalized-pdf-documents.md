@@ -49,7 +49,7 @@ La procedura per la generazione di tabelle dinamiche è la seguente:
 
 >[!IMPORTANT]
 >
->La versione 8.9.3 include un aggiornamento dell’elenco consentiti dell’URL esterno. Accertati che i domini utilizzati per le immagini esterne negli allegati vengano aggiunti all’elenco consentiti approvato dell’istanza in modo che le risorse continuino a caricarsi senza interruzioni. In qualità di amministratore di Campaign, utilizza il Pannello di controllo Campaign per aggiungere e gestire gli URL inseriti nell’elenco Consentiti. Consulta [Aggiungi autorizzazioni URL](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions){target="_blank"} per i passaggi.
+>La versione 8.9.3 include un aggiornamento dell’elenco consentiti dell’URL esterno. Accertati che i domini utilizzati per le immagini esterne negli allegati vengano aggiunti all’elenco consentiti approvato dell’istanza in modo che le risorse continuino a caricarsi senza interruzioni. In qualità di amministratore di Campaign, utilizza il Pannello di controllo Campaign per aggiungere e gestire gli URL inseriti nell’elenco Consentiti. Consulta [Aggiungi autorizzazioni URL](https://experienceleague.adobe.com/it/docs/control-panel/using/instances-settings/url-permissions){target="_blank"} per i passaggi.
 
 L’inserimento di immagini esterne è utile, ad esempio, se desideri personalizzare un documento con un’immagine il cui URL viene inserito in un campo del destinatario.
 

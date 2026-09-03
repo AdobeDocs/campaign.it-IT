@@ -66,7 +66,7 @@ I blocchi di personalizzazione incorporati sono:
 
 >[!IMPORTANT]
 >
->La versione 8.9.3 include un aggiornamento dell’elenco consentiti dell’URL esterno. Se un blocco di personalizzazione personalizzato fa riferimento a un URL esterno (ad esempio, un’immagine ospitata esternamente), assicurati che il dominio venga aggiunto all’elenco consentiti approvato della tua istanza in modo che la risorsa continui a caricarsi senza interruzioni. In qualità di amministratore di Campaign, utilizza il Pannello di controllo Campaign per aggiungere e gestire gli URL inseriti nell’elenco Consentiti. Consulta [Aggiungi autorizzazioni URL](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions){target="_blank"} per i passaggi.
+>La versione 8.9.3 include un aggiornamento dell’elenco consentiti dell’URL esterno. Se un blocco di personalizzazione personalizzato fa riferimento a un URL esterno (ad esempio, un’immagine ospitata esternamente), assicurati che il dominio venga aggiunto all’elenco consentiti approvato della tua istanza in modo che la risorsa continui a caricarsi senza interruzioni. In qualità di amministratore di Campaign, utilizza il Pannello di controllo Campaign per aggiungere e gestire gli URL inseriti nell’elenco Consentiti. Consulta [Aggiungi autorizzazioni URL](https://experienceleague.adobe.com/it/docs/control-panel/using/instances-settings/url-permissions){target="_blank"} per i passaggi.
 
 Puoi definire nuovi blocchi di contenuto personalizzati da inserire dall’icona di personalizzazione.
 
