@@ -16,9 +16,9 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 87e77fcdb7c97ed903ea37a23fb2670aca904f59
 workflow-type: tm+mt
-source-wordcount: 2028
+source-wordcount: 2096
 ht-degree: 1%
 
 ---
@@ -71,6 +71,10 @@ Ad esempio, nel messaggio precedente, l’oggetto del messaggio è personalizzat
 >[!IMPORTANT]
 >
 >Per motivi di privacy, consigliamo di utilizzare HTTPS per tutte le risorse esterne.
+
+>[!IMPORTANT]
+>
+>La versione 8.9.3 include un aggiornamento dell’elenco consentiti dell’URL esterno. Assicurati che i domini utilizzati nel contenuto del messaggio siano aggiunti all’elenco consentiti approvato della tua istanza in modo che le risorse continuino a caricarsi senza interruzioni. In qualità di amministratore di Campaign, utilizza il Pannello di controllo Campaign per aggiungere e gestire gli URL inseriti nell’elenco Consentiti. Consulta [Aggiungi autorizzazioni URL](https://experienceleague.adobe.com/it/docs/control-panel/using/instances-settings/url-permissions){target="_blank"} per i passaggi.
 
 Il contenuto del messaggio è definito nella sezione inferiore della finestra di configurazione della consegna.
 

@@ -15,10 +15,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 87e77fcdb7c97ed903ea37a23fb2670aca904f59
 workflow-type: tm+mt
-source-wordcount: 559
-ht-degree: 20%
+source-wordcount: 638
+ht-degree: 17%
 
 ---
 
@@ -63,6 +63,10 @@ I blocchi di personalizzazione incorporati sono:
 * **[!UICONTROL Unsubscription link]**: inserisce un collegamento che consente di annullare l&#39;abbonamento a tutte le consegne (inserisco nell&#39;elenco Bloccati di). Il contenuto associato predefinito è: “Hai ricevuto questo messaggio perché sei stato in contatto con ***nome organizzazione*** o una sua filiale. Per non ricevere più messaggi da ***nome organizzazione***, fai clic qui.”
 
 ## Creare blocchi di personalizzazione personalizzati {#create-custom-personalization-blocks}
+
+>[!IMPORTANT]
+>
+>La versione 8.9.3 include un aggiornamento dell’elenco consentiti dell’URL esterno. Se un blocco di personalizzazione personalizzato fa riferimento a un URL esterno (ad esempio, un’immagine ospitata esternamente), assicurati che il dominio venga aggiunto all’elenco consentiti approvato della tua istanza in modo che la risorsa continui a caricarsi senza interruzioni. In qualità di amministratore di Campaign, utilizza il Pannello di controllo Campaign per aggiungere e gestire gli URL inseriti nell’elenco Consentiti. Consulta [Aggiungi autorizzazioni URL](https://experienceleague.adobe.com/it/docs/control-panel/using/instances-settings/url-permissions){target="_blank"} per i passaggi.
 
 Puoi definire nuovi blocchi di contenuto personalizzati da inserire dall’icona di personalizzazione.
 
