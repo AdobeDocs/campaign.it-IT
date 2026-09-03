@@ -7,18 +7,14 @@ level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 214ad693-d456-47ec-a9c8-199ba23c3d9c
 TQID: https://experienceleague.adobe.com/741rGWSBuFksbOfXbuszEXq56DOI-Pfg8tEiHQLhQf8
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 87e77fcdb7c97ed903ea37a23fb2670aca904f59
 workflow-type: tm+mt
-source-wordcount: 559
-ht-degree: 20%
+source-wordcount: 638
+ht-degree: 17%
 
 ---
 
@@ -64,6 +60,10 @@ I blocchi di personalizzazione incorporati sono:
 
 ## Creare blocchi di personalizzazione personalizzati {#create-custom-personalization-blocks}
 
+>[!IMPORTANT]
+>
+>La versione 8.9.3 include un aggiornamento dell’elenco consentiti dell’URL esterno. Se un blocco di personalizzazione personalizzato fa riferimento a un URL esterno (ad esempio, un’immagine ospitata esternamente), assicurati che il dominio venga aggiunto all’elenco consentiti approvato della tua istanza in modo che la risorsa continui a caricarsi senza interruzioni. In qualità di amministratore di Campaign, utilizza il Pannello di controllo Campaign per aggiungere e gestire gli URL inseriti nell’elenco Consentiti. Consulta [Aggiungi autorizzazioni URL](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions){target="_blank"} per i passaggi.
+
 Puoi definire nuovi blocchi di contenuto personalizzati da inserire dall’icona di personalizzazione.
 
 Per creare un blocco di personalizzazione, effettua le seguenti operazioni:
@@ -89,4 +89,4 @@ Una volta salvato, il nuovo blocco di personalizzazione è disponibile nell’ed
 
 Scopri come creare blocchi di contenuto dinamici e come utilizzarli per personalizzare il contenuto della consegna e-mail nel video seguente.
 
->[!VIDEO](https://video.tv.adobe.com/v/344595?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12)

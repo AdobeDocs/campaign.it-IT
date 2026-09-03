@@ -7,16 +7,12 @@ role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: f4a329e3-70d2-43cd-a04a-0bbd5e3ca390
 TQID: https://experienceleague.adobe.com/qfSKBHeQUkAYJb-PSeTxYMxGp-WicmITitT9qh8tHBs
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 87e77fcdb7c97ed903ea37a23fb2670aca904f59
 workflow-type: tm+mt
-source-wordcount: 430
+source-wordcount: 500
 ht-degree: 1%
 
 ---
@@ -47,6 +43,10 @@ La procedura per la generazione di tabelle dinamiche è la seguente:
 
 ## Inserisci immagini esterne {#inserting-external-images}
 
+>[!IMPORTANT]
+>
+>La versione 8.9.3 include un aggiornamento dell’elenco consentiti dell’URL esterno. Accertati che i domini utilizzati per le immagini esterne negli allegati vengano aggiunti all’elenco consentiti approvato dell’istanza in modo che le risorse continuino a caricarsi senza interruzioni. In qualità di amministratore di Campaign, utilizza il Pannello di controllo Campaign per aggiungere e gestire gli URL inseriti nell’elenco Consentiti. Consulta [Aggiungi autorizzazioni URL](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions){target="_blank"} per i passaggi.
+
 L’inserimento di immagini esterne è utile, ad esempio, se desideri personalizzare un documento con un’immagine il cui URL viene inserito in un campo del destinatario.
 
 A questo scopo, devi configurare un blocco di personalizzazione, quindi includere nell’allegato una chiamata al blocco di personalizzazione.
@@ -68,8 +68,8 @@ A questo scopo, devi configurare un blocco di personalizzazione, quindi includer
 
   Devi distinguere due tipi di dichiarazioni all’interno del blocco di personalizzazione:
 
-   * Il codice Adobe Campaign dei campi di personalizzazione per i quali le virgolette &quot;aperta&quot; e &quot;chiusa&quot; devono essere sostituite con caratteri di escape (rispettivamente `&lt;` e `&gt;`).
-   * L&#39;intero codice XML OpenOffice verrà copiato nel documento OpenOffice.
+  * Il codice Adobe Campaign dei campi di personalizzazione per i quali le virgolette &quot;aperta&quot; e &quot;chiusa&quot; devono essere sostituite con caratteri di escape (rispettivamente `&lt;` e `&gt;`).
+  * L&#39;intero codice XML OpenOffice verrà copiato nel documento OpenOffice.
 
 Nell’esempio, il blocco di personalizzazione si presenta così:
 
