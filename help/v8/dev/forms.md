@@ -18,9 +18,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 2425b8e500380076d56bccec41ac821f7c867d92
 workflow-type: tm+mt
-source-wordcount: 2571
+source-wordcount: 2569
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ Il controllo di modifica si adatta automaticamente al tipo di dati corrispondent
 
 Per impostazione predefinita, ogni campo viene visualizzato su una sola riga e occupa tutto lo spazio disponibile a seconda del tipo di dati.
 
-Tutti gli attributi del modulo sono elencati nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html?lang=it){target="_blank"}.
+Tutti gli attributi del modulo sono elencati nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/it/tools/campaign-api){target="_blank"}.
 
 ## Formattazione {#formatting}
 
@@ -333,9 +333,9 @@ L&#39;icona **[!UICONTROL Edit link]** (lente di ingrandimento) avvia il modulo 
 * **noAutoComplete**: disabilita il completamento automatico (con il valore &quot;true&quot;)
 * **createMode**: crea il collegamento al volo se non esiste. I valori possibili sono:
 
-   * **none**: disabilita la creazione. Se il collegamento non esiste, viene visualizzato un messaggio di errore
-   * **inline**: crea il collegamento con il contenuto nel campo di modifica
-   * **edizione**: visualizza il modulo di modifica sul collegamento. Quando il modulo viene convalidato, i dati vengono salvati (modalità predefinita)
+  * **none**: disabilita la creazione. Se il collegamento non esiste, viene visualizzato un messaggio di errore
+  * **inline**: crea il collegamento con il contenuto nel campo di modifica
+  * **edizione**: visualizza il modulo di modifica sul collegamento. Quando il modulo viene convalidato, i dati vengono salvati (modalità predefinita)
 
 * **noZoom**: nessun modulo di modifica sul collegamento (con il valore &quot;true&quot;)
 * **modulo**: sovraccarica il modulo di modifica dell&#39;elemento di destinazione
