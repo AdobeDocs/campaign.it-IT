@@ -19,7 +19,7 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 829f03234f4899643a7af4c8f21707f4dc7c5389
+source-git-commit: 8e5d8570e198b0e6db350ba82e521bee8a2f6d9e
 workflow-type: tm+mt
 source-wordcount: '1685'
 ht-degree: 7%
@@ -75,7 +75,7 @@ In qualità di cliente, devi inoltre assicurarti di utilizzare le versioni più 
 
 Poiché abbiamo condiviso in [Proteggere i clienti più rapidamente: come Adobe risponde all&#39;individuazione di vulnerabilità accelerata dall&#39;intelligenza artificiale](https://blog.adobe.com/security/protecting-customers-faster-how-adobe-is-responding-to-ai-accelerated-vulnerability-discovery), i team di sicurezza di Adobe utilizzano strumenti basati sull&#39;intelligenza artificiale per identificare e risolvere più rapidamente le vulnerabilità. Applichiamo questo approccio ai nostri prodotti, incluso Adobe Campaign.
 
-Questo post spiega come valutare e assegnare priorità ai problemi di sicurezza, come distribuire le correzioni e cosa significa per te.
+Questa pagina spiega come valutare e assegnare la priorità ai problemi di sicurezza, come distribuire le correzioni e cosa significa per te.
 
 ### Come valutare e assegnare priorità ai problemi di sicurezza {#assess-security-issues}
 
@@ -91,8 +91,8 @@ Prima del rilascio, gli aggiornamenti di sicurezza vengono convalidati e viene s
 
 A seconda dell’ambito dell’aggiornamento, utilizziamo uno dei due approcci di distribuzione seguenti:
 
-- Manutenzione dello stack di sicurezza: aggiornamenti mirati che non modificano il numero di build né introducono modifiche previste alle funzionalità del prodotto. I clienti con configurazioni standard in genere non devono intervenire.
-- Aggiornamenti della build basati sulla sicurezza: aggiornamenti che modificano il numero di build e seguono i processi standard di notifica, nota sulla versione e rollout di Adobe.
+* **Manutenzione dello stack di sicurezza**: aggiornamenti mirati che non modificano il numero di build o introducono modifiche previste alle funzionalità del prodotto. I clienti con configurazioni standard in genere non devono intervenire.
+* **Aggiornamenti della build basati sulla sicurezza**: aggiornamenti che modificano il numero di build e seguono i processi standard di notifica, nota sulla versione e rollout di Adobe.
 
 Per le configurazioni standard pronte all’uso, le integrazioni e le campagne in esecuzione continuano a funzionare come prima.
 
@@ -135,7 +135,7 @@ Le nuove versioni e le modifiche apportate, incluse le correzioni di sicurezza, 
 
 Per ricevere informazioni sulle nuove versioni della soluzione Experience Cloud e sui relativi contenuti, abbonati alla comunicazione [Aggiornamenti dei prodotti priority Adobe](https://www.adobe.com/it/subscription/priority-product-update.html){target="_blank"}.
 
-Puoi anche visitare la [Community di Campaign](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?profile.language=it&style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"} per ricevere informazioni sugli aggiornamenti delle versioni.
+Puoi anche visitare la [Community di Campaign](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"} per ricevere informazioni sugli aggiornamenti delle versioni.
 
 ### Perché la mia organizzazione ha bisogno di un aggiornamento? {#upgrades-1}
 
