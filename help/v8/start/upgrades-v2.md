@@ -90,7 +90,7 @@ Accedi alle seguenti informazioni:
 
 Le nuove versioni e le relative modifiche sono elencate nelle [Note sulla versione](release-notes.md).
 
-Per gli aggiornamenti sulle versioni del prodotto, abbonati ad [Aggiornamenti dei prodotti con priorità Adobe](https://www.adobe.com/it/subscription/priority-product-update.html){target="_blank"} o visita la [community di Campaign](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"}.
+Per gli aggiornamenti sulle versioni del prodotto, abbonati ad [Aggiornamenti dei prodotti con priorità Adobe](https://www.adobe.com/it/subscription/priority-product-update.html){target="_blank"} o visita la [community di Campaign](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?profile.language=it&style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"}.
 
 Per le notifiche di sicurezza e le indicazioni sulla preparazione dell&#39;organizzazione per gli aggiornamenti di sicurezza, vedere [Informazioni](#security-staying-informed).
 
