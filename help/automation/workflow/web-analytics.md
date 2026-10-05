@@ -4,13 +4,26 @@ title: Analisi web
 description: Ulteriori informazioni sul pacchetto Web Analytics
 feature: Workflows, Analytics Integration
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
+  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Analytics integration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 3%
-
 ---
-
 
 # Analisi web{#web-analytics}
 
@@ -28,7 +41,7 @@ Per impostazione predefinita, i flussi di lavoro descritti di seguito vengono in
   <tr> 
    <td> <span class="uicontrol">Invio di indicatori e attributi della campagna</span> <br /> </td> 
    <td> <span class="uicontrol">WebAnalyticsSendMetrics</span> <br /> </td> 
-   <td> Questo flusso di lavoro consente di inviare gli indicatori della campagna e-mail da Adobe Campaign a Adobe Experience Cloud Suite tramite il connettore Adobe® Analytics. Gli indicatori interessati sono i seguenti: <strong>Inviato</strong> (iSent), <strong>Numero totale di aperture</strong> (iTotalRecipientOpen), <strong>Numero totale di destinatari che hanno fatto clic</strong> (iTotalRecipientClick), <strong>Errori</strong> (iError), <strong>Rinuncia</strong> (iOptOut).<br /> </td> 
+   <td> Questo flusso di lavoro consente di inviare gli indicatori della campagna e-mail da Adobe Campaign alla suite Adobe Experience Cloud tramite il connettore Adobe® Analytics. Gli indicatori interessati sono i seguenti: <strong>Inviato</strong> (iSent), <strong>Numero totale di aperture</strong> (iTotalRecipientOpen), <strong>Numero totale di destinatari che hanno fatto clic</strong> (iTotalRecipientClick), <strong>Errori</strong> (iError), <strong>Rinuncia</strong> (iOptOut).<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Identificazione dei contatti convertiti</span> <br /> </td> 

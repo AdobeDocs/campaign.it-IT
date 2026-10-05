@@ -4,21 +4,34 @@ title: Configurare le regole di pressione
 description: Scopri come configurare le regole di pressione
 feature: Fatigue Management, Typology Rules
 exl-id: d234db0e-936a-48db-b697-11c6b40bc3ab
-TQID: https://experienceleague.adobe.com/HBf2YMR-DobvQCsVSJC-cCSpwL8IbBH9cAbOPS9V5zk
+TQID: 'https://experienceleague.adobe.com/HBf2YMR-DobvQCsVSJC-cCSpwL8IbBH9cAbOPS9V5zk'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: 237333ba-90fa-554c-bc8d-2047e6173477
+    internal-label: Cross Channel Orchestration
+  - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
+subfeature_v2:
+  - id: 3367e176-3f60-522b-8bf4-33c305430239
+    internal-label: Fatigue Management
+  - id: e5fb657f-3c0a-4fcc-9980-3589a23ab4de
+    internal-label: Typology rules
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Personalization
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 3145
+source-wordcount: '3145'
 ht-degree: 7%
-
 ---
-
 # Regole di pressione{#pressure-rules}
 
 L’implementazione della gestione della pressione di vendita consente di evitare di sollecitare eccessivamente la popolazione nel database, nota anche come affaticamento del marketing. A questo scopo, puoi definire un numero massimo di messaggi per destinatario. Consente inoltre di implementare regole di arbitrato tra le campagne, per inviare il messaggio migliore al pubblico di destinazione.

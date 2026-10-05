@@ -6,13 +6,25 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: ad75f01e-2c6c-4607-b15a-8870d399002a
-source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: 50d1fd2e-0fc9-5627-bbc9-02dbc9d15e08
+    internal-label: Email
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 9%
-
 ---
-
 # Parametri e-mail {#email-parameters}
 
 Questa sezione presenta le opzioni e i parametri disponibili nelle proprietà di consegna specifiche per la consegna e-mail.
@@ -79,7 +91,7 @@ Per ulteriori informazioni sulla gestione della posta non recapitata, consulta [
 
 ## Abilita annullamento iscrizione con un solo clic all’elenco {#one-click-list-unsubscribe}
 
-L’URL per l’annullamento dell’iscrizione con un solo clic è un collegamento o un pulsante visualizzato accanto alle informazioni sul mittente dell’e-mail che consente ai destinatari di annullare immediatamente l’iscrizione alle mailing list con un solo clic. <!--[Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=it#list-unsubscribe){target="_blank"}-->
+L’URL per l’annullamento dell’iscrizione con un solo clic è un collegamento o un pulsante visualizzato accanto alle informazioni sul mittente dell’e-mail che consente ai destinatari di annullare immediatamente l’iscrizione alle mailing list con un solo clic. <!--[Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#list-unsubscribe){target="_blank"}-->
 
 Viene visualizzato come collegamento **Annulla sottoscrizione** nelle interfacce e-mail degli ISP. Ad esempio:
 
@@ -119,7 +131,7 @@ A seconda del client e-mail e del metodo utilizzato per eseguire la rinuncia, fa
 
 >[!NOTE]
 >
->È inoltre possibile impostare manualmente i metodi [Annullamento sottoscrizione a un solo clic](https://experienceleague.adobe.com/it/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#one-click-list-unsubscribe){target="_blank"} e [&quot;mailto&quot; Annullamento sottoscrizione a un elenco](https://experienceleague.adobe.com/it/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#mailto-list-unsubscribe){target="_blank"}. I passaggi dettagliati sono descritti nella [Guida alle best practice per il recapito messaggi](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=it#list-unsubscribe){target="_blank"} di Experience Cloud.
+>È inoltre possibile impostare manualmente i metodi [Annullamento sottoscrizione a un solo clic](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#one-click-list-unsubscribe){target="_blank"} e [&quot;mailto&quot; Annullamento sottoscrizione a un elenco](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#mailto-list-unsubscribe){target="_blank"}. I passaggi dettagliati sono descritti nella [Guida alle best practice per il recapito messaggi](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#list-unsubscribe){target="_blank"} di Experience Cloud.
 
 
 ## Aggiungi intestazioni SMTP {#adding-smtp-headers}

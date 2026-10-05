@@ -4,13 +4,16 @@ title: Nota tecnica - Guida alla rotazione delle credenziali
 description: Nota tecnica di Adobe Campaign - Guida alla rotazione delle credenziali
 hide: true
 exl-id: 0848ee2d-3506-4167-9aea-a1589aa82805
-source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 1%
-
 ---
-
 # Nota tecnica: guida alla rotazione delle credenziali {#ac-customer-credentials}
 
 In qualità di cliente, sei tenuto a sostituire periodicamente le tue credenziali con un nuovo set per ridurre il rischio di compromessi.
@@ -44,19 +47,19 @@ Per gli operatori `mc*` tecnici specifici (es: mc1, mc2, ecc.) e `Interaction*` 
 
 Per la rotazione delle chiavi private e del certificato relativi ai servizi mobili, fai riferimento ai collegamenti riportati di seguito.
 
-* Per Android, consulta [questa documentazione](https://experienceleague.adobe.com/it/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android){target="_blank"}.
+* Per Android, consulta [questa documentazione](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android){target="_blank"}.
 Passare alla sezione **Creare l&#39;applicazione mobile Android > Configurare la versione API**.
 
-* Per iOS, consulta [questa documentazione](https://experienceleague.adobe.com/it/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application){target="_blank"}.
+* Per iOS, consulta [questa documentazione](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application){target="_blank"}.
 Passa alla sezione **Crea app mobile iOS->Modalità di autenticazione**.
 
 ## Chiavi GPG {#ac-gpg-credentials}
 
 Per la rotazione delle chiavi GPG, è necessario seguire i seguenti passaggi:
 
-1. Decrittare i dati esistenti utilizzando la chiave esistente. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"}.
+1. Decrittare i dati esistenti utilizzando la chiave esistente. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"}.
 
-1. Crea una nuova coppia di chiavi GPG. Ulteriori informazioni sulla gestione delle chiavi GPG in [questa documentazione](https://experienceleague.adobe.com/it/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"}.
+1. Crea una nuova coppia di chiavi GPG. Ulteriori informazioni sulla gestione delle chiavi GPG in [questa documentazione](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"}.
 
 1. Sostituisci l’utilizzo della chiave GPG esistente in tutti i flussi di lavoro con la chiave appena creata.
 

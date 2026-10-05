@@ -4,22 +4,29 @@ description: Scopri come eliminare gli abbonamenti con API
 role: Developer
 level: Experienced
 exl-id: 76e2d102-c877-41a6-af87-2f407201a572
-TQID: https://experienceleague.adobe.com/tn-B0YAO0bD1dtW3-ovb-xWtupiRaqFD1TMW8Rzu5aY
+TQID: 'https://experienceleague.adobe.com/tn-B0YAO0bD1dtW3-ovb-xWtupiRaqFD1TMW8Rzu5aY'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Metadata
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 239
+source-wordcount: '239'
 ht-degree: 0%
-
 ---
-
 # Eliminazione di abbonamenti con API {#mdeleting-subscriptions-api}
 
 <!--NOTE TO WRITER: There are two duplicate headings that seem to have the same content. Delete one? Rename if different?-->
@@ -102,7 +109,7 @@ Esegui una richiesta DELETE sull’URL del servizio desiderato.
 Questa è una procedura in tre fasi.
 
 1. Recupera il servizio desiderato e il relativo URL di abbonamento.
-1. Esegui una richiesta GET sull’URL degli abbonamenti per recuperare tutti gli abbonamenti dei profili.
+1. Esegui una richiesta GET sull’URL delle sottoscrizioni per recuperare tutte le sottoscrizioni di profili.
 1. Esegui una richiesta DELETE sull’URL di abbonamento del profilo desiderato.
 
 Se la richiesta di eliminazione ha esito positivo, lo stato della risposta è 204 Nessun contenuto.

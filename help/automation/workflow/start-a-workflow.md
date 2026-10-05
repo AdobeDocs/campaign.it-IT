@@ -7,21 +7,31 @@ level: Beginner
 role: User, Admin
 version: Campaign v8, Campaign Classic v7
 exl-id: 6d9789e3-d721-4ffd-b3fb-a0c522ab1c0a
-TQID: https://experienceleague.adobe.com/VHBQEKUthZcW2WrbNjmlIC7FzJFDqX0PykJg95sM-WI
+TQID: 'https://experienceleague.adobe.com/VHBQEKUthZcW2WrbNjmlIC7FzJFDqX0PykJg95sM-WI'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Beginner
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1143
+source-wordcount: '1143'
 ht-degree: 0%
-
 ---
-
 # Avviare, sospendere e interrompere un flusso di lavoro {#starting-a-workflow}
 
 Un workflow viene sempre avviato manualmente. Quando viene avviato, può tuttavia rimanere inattivo a seconda delle informazioni specificate tramite una pianificazione (vedi [Pianificazione](scheduler.md)) o la pianificazione delle attività.
@@ -73,14 +83,14 @@ Il pulsante **[!UICONTROL Actions]** della barra degli strumenti consente di acc
   Questa azione si interrompe e riavvia il flusso di lavoro. Nella maggior parte dei casi, consente un riavvio più rapido. È inoltre utile automatizzare il riavvio quando l’arresto richiede un certo periodo di tempo, perché il comando &quot;Interrompi&quot; non è disponibile quando il flusso di lavoro viene arrestato.
 
   Si noti che l&#39;azione **Riavvia** non cancella le variabili dell&#39;istanza del flusso di lavoro rispetto alle azioni **Esecuzione**, **Arresta** e **Avvia** (la cancellazione delle variabili dell&#39;istanza avviene al momento dell&#39;azione Avvia). Durante il riavvio di un flusso di lavoro, le variabili dell’istanza sono ancora disponibili per l’utilizzo con valori conservati. Per cancellarli, puoi effettuare le seguenti operazioni:
-   * Eseguire **Interrompi** e **Inizia** azioni.
-   * Aggiungi di seguito il codice JavaScript alla fine dell’esecuzione del flusso di lavoro:
+  * Eseguire **Interrompi** e **Inizia** azioni.
+  * Aggiungi di seguito il codice JavaScript alla fine dell’esecuzione del flusso di lavoro:
 
-     ```
-     var wkf = xtk.workflow.load(instance.id)
-     wkf.variables='<variables/>'
-     wkf.save()
-     ```
+    ```
+    var wkf = xtk.workflow.load(instance.id)
+    wkf.variables='<variables/>'
+    wkf.save()
+    ```
 
 * **[!UICONTROL Purge history]**
 
@@ -110,9 +120,9 @@ Migliora la stabilità dell’istanza implementando le seguenti best practice:
 
   Per evitare che i flussi di lavoro si trovino in stato di pausa:
 
-   * Controlla i flussi di lavoro regolarmente per assicurarti che non si verifichino errori imprevisti.
-   * Mantieni i flussi di lavoro il più semplici possibile, ad esempio suddividendo flussi di lavoro di grandi dimensioni in diversi flussi di lavoro. È possibile utilizzare le attività **[!UICONTROL External signal]** per attivarne l&#39;esecuzione in base all&#39;esecuzione di altri flussi di lavoro.
-   * Evita di disabilitare le attività con i flussi nei flussi di lavoro, lasciando aperti i thread e portando a molte tabelle temporanee che possono occupare molto spazio. Non mantenere le attività negli stati **[!UICONTROL Do not enable]** o **[!UICONTROL Enable but do not execute]** nei flussi di lavoro.
+  * Controlla i flussi di lavoro regolarmente per assicurarti che non si verifichino errori imprevisti.
+  * Mantieni i flussi di lavoro il più semplici possibile, ad esempio suddividendo flussi di lavoro di grandi dimensioni in diversi flussi di lavoro. È possibile utilizzare le attività **[!UICONTROL External signal]** per attivarne l&#39;esecuzione in base all&#39;esecuzione di altri flussi di lavoro.
+  * Evita di disabilitare le attività con i flussi nei flussi di lavoro, lasciando aperti i thread e portando a molte tabelle temporanee che possono occupare molto spazio. Non mantenere le attività negli stati **[!UICONTROL Do not enable]** o **[!UICONTROL Enable but do not execute]** nei flussi di lavoro.
 
 * **Interrompere i flussi di lavoro inutilizzati**. I flussi di lavoro in esecuzione gestiscono le connessioni al database.
 

@@ -4,26 +4,36 @@ description: Scopri come creare tipi di pubblico target in un flusso di lavoro
 feature: Query Editor, Data Management
 version: Campaign v8, Campaign Classic v7
 exl-id: 27be9d5a-168c-470e-a480-f3c71858fc75
-TQID: https://experienceleague.adobe.com/njUqAgkAYMjYMBQvnwt9HOO0aBNX8BRmKJZeccYejhc
+TQID: 'https://experienceleague.adobe.com/njUqAgkAYMjYMBQvnwt9HOO0aBNX8BRmKJZeccYejhc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
+  - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 2258
+source-wordcount: '2258'
 ht-degree: 5%
-
 ---
-
 # Creare un flusso di lavoro di targeting{#target-data}
 
 Il flusso di lavoro può essere utilizzato per eseguire query sul database e segmentare i dati. Il modulo del flusso di lavoro di Campaign è uno strumento potente per eseguire attività di gestione dei dati, estrarre, arricchire e trasformare i dati, gestire i tipi di pubblico e perfezionare le popolazioni.

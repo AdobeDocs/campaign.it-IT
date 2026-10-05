@@ -6,20 +6,26 @@ feature: Email
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 27d13642-2971-466b-818d-39328c198b14
-TQID: https://experienceleague.adobe.com/4GMBlA0-rTnn8kBciPmJLozcPU1qmwM9-5sTFhxkua4
+TQID: 'https://experienceleague.adobe.com/4GMBlA0-rTnn8kBciPmJLozcPU1qmwM9-5sTFhxkua4'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: 50d1fd2e-0fc9-5627-bbc9-02dbc9d15e08
+    internal-label: Email
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Personalization
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1006
+source-wordcount: '1006'
 ht-degree: 2%
-
 ---
-
 # Allegare file a un’e-mail{#attaching-files}
 
 ## Informazioni sugli allegati e-mail {#about-email-attachments}
@@ -28,7 +34,7 @@ Puoi allegare uno o più file a una consegna e-mail.
 
 >[!NOTE]
 >
->Per evitare problemi di prestazioni, si consiglia di non includere più di un allegato per e-mail. La soglia consigliata può essere configurata dall’elenco delle opzioni di Campaign. Consulta la [documentazione di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=it#delivery).
+>Per evitare problemi di prestazioni, si consiglia di non includere più di un allegato per e-mail. La soglia consigliata può essere configurata dall’elenco delle opzioni di Campaign. Consulta la [documentazione di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#delivery).
 
 Esistono due casi possibili:
 
@@ -45,7 +51,7 @@ Per evitare problemi di prestazioni, le immagini incluse nelle e-mail non posson
 
 Adobe consiglia inoltre di limitare le dimensioni e il numero di file allegati. Per impostazione predefinita, è possibile aggiungere un solo file come allegato a un messaggio e-mail. Questa soglia può essere configurata dall&#39;opzione `NmsDelivery_MaxRecommendedAttachments`.
 
-Ulteriori informazioni sono disponibili nell&#39;elenco delle opzioni di Campaign nella [documentazione di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=it#delivery).
+Ulteriori informazioni sono disponibili nell&#39;elenco delle opzioni di Campaign nella [documentazione di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#delivery).
 
 ## Allega un file locale {#attaching-a-local-file}
 

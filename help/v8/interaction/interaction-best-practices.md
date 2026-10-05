@@ -5,21 +5,30 @@ description: Approccio basato sulle best practice per gestire il modulo di inter
 feature: Interaction, Offers
 role: User, Admin
 exl-id: 28f3a5bc-67f5-413e-b2ba-35c341f9ec5f
-TQID: https://experienceleague.adobe.com/OUP5tiLtOXdnbtE-Q-Y673b2sinBqHj3071zUMc23bc
+TQID: 'https://experienceleague.adobe.com/OUP5tiLtOXdnbtE-Q-Y673b2sinBqHj3071zUMc23bc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: 65702805-0026-5ca1-843a-144fa79f0883
+    internal-label: Interaction
+  - id: ea08db70-4682-59a2-9408-9aedd9548e07
+    internal-label: Offers
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Metadata
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1173
+source-wordcount: '1173'
 ht-degree: 0%
-
 ---
-
 # Best practice di interazione {#interaction-best-practices}
 
 ## Consigli generali {#general-recommendations}
@@ -30,30 +39,30 @@ In questa sezione vengono presentate le best practice per gestire il modulo **In
 
 * Quando **si implementano e si configurano le interazioni**, è necessario tenere presenti le seguenti raccomandazioni:
 
-   * Per il motore batch (in genere utilizzato nelle comunicazioni in uscita come le e-mail), la velocità effettiva è il problema principale, in quanto è possibile gestire più contatti contemporaneamente. Il collo di bottiglia tipico è rappresentato dalle prestazioni del database.
-   * Il vincolo principale per il motore unitario (in genere utilizzato nelle comunicazioni in entrata come un banner su un sito web) è la latenza, in quanto qualcuno si aspetta una risposta. Il collo di bottiglia tipico è rappresentato dalle prestazioni di CPU.
-   * Il design del catalogo delle offerte ha un impatto enorme sulle prestazioni di Adobe Campaign.
-   * Quando si lavora con molte offerte, si consiglia di suddividerle in diversi cataloghi di offerte.
+  * Per il motore batch (in genere utilizzato nelle comunicazioni in uscita come le e-mail), la velocità effettiva è il problema principale, in quanto è possibile gestire più contatti contemporaneamente. Il collo di bottiglia tipico è rappresentato dalle prestazioni del database.
+  * Il vincolo principale per il motore unitario (in genere utilizzato nelle comunicazioni in entrata come un banner su un sito web) è la latenza, in quanto qualcuno si aspetta una risposta. Il collo di bottiglia tipico è rappresentato dalle prestazioni di CPU.
+  * Il design del catalogo delle offerte ha un impatto enorme sulle prestazioni di Adobe Campaign.
+  * Quando si lavora con molte offerte, si consiglia di suddividerle in diversi cataloghi di offerte.
 
 * Di seguito sono elencate alcune best practice per l&#39;utilizzo di **regole di idoneità**:
 
-   * Semplificare le regole. La complessità delle regole influisce sulle prestazioni in quanto estende la ricerca. Una regola complessa è una regola con più di cinque condizioni.
-   * Per migliorare le prestazioni, le regole possono essere suddivise in filtri predefiniti distinti condivisi tra più offerte.
-   * Posiziona le regole di categoria di offerta più restrittive nella posizione più alta possibile nella struttura. In questo modo, escluderanno prima il maggior numero di contatti, riducendo il numero di destinazione e impedendo che vengano elaborati da ulteriori regole.
-   * Metti le regole più costose in termini di tempo o di elaborazione nella parte inferiore dell’albero. In questo modo, queste regole verranno eseguite solo sul pubblico di destinazione rimanente.
-   * Inizia da una categoria specifica per evitare di eseguire la scansione dell’intera struttura.
-   * Per risparmiare tempo di elaborazione, precalcolare gli aggregati anziché creare regole complesse con join. A questo scopo, prova a memorizzare i dati dei clienti in una tabella di riferimento che può essere cercata all’interno delle regole di idoneità.
-   * Utilizza un numero minimo di pesi per limitare il numero di query.
-   * Si consiglia di avere un numero limitato di offerte per spazio dell’offerta. In questo modo è possibile recuperare più rapidamente le offerte in qualsiasi spazio.
-   * Utilizza gli indici, in particolare nelle colonne di ricerca utilizzate di frequente.
+  * Semplificare le regole. La complessità delle regole influisce sulle prestazioni in quanto estende la ricerca. Una regola complessa è una regola con più di cinque condizioni.
+  * Per migliorare le prestazioni, le regole possono essere suddivise in filtri predefiniti distinti condivisi tra più offerte.
+  * Posiziona le regole di categoria di offerta più restrittive nella posizione più alta possibile nella struttura. In questo modo, escluderanno prima il maggior numero di contatti, riducendo il numero di destinazione e impedendo che vengano elaborati da ulteriori regole.
+  * Metti le regole più costose in termini di tempo o di elaborazione nella parte inferiore dell’albero. In questo modo, queste regole verranno eseguite solo sul pubblico di destinazione rimanente.
+  * Inizia da una categoria specifica per evitare di eseguire la scansione dell’intera struttura.
+  * Per risparmiare tempo di elaborazione, precalcolare gli aggregati anziché creare regole complesse con join. A questo scopo, prova a memorizzare i dati dei clienti in una tabella di riferimento che può essere cercata all’interno delle regole di idoneità.
+  * Utilizza un numero minimo di pesi per limitare il numero di query.
+  * Si consiglia di avere un numero limitato di offerte per spazio dell’offerta. In questo modo è possibile recuperare più rapidamente le offerte in qualsiasi spazio.
+  * Utilizza gli indici, in particolare nelle colonne di ricerca utilizzate di frequente.
 
 * Di seguito sono elencate alcune best practice relative alla **tabella delle proposte**:
 
-   * Utilizza un numero minimo di regole per velocizzare l’elaborazione.
-   * Limita il numero di record nella tabella della proposta: conserva solo i record necessari per tenere traccia del suo aggiornamento di stato e di ciò che è necessario per le regole, quindi archiviali in un altro sistema.
-   * Esegui una manutenzione intensiva del database sulla tabella della proposta, ad esempio ricompila indici o ricrea tabella.
-   * Limita il numero di proposte richieste per target. Non impostare più di quello che si sta per utilizzare.
-   * Evita il più possibile i join nei criteri delle regole.
+  * Utilizza un numero minimo di regole per velocizzare l’elaborazione.
+  * Limita il numero di record nella tabella della proposta: conserva solo i record necessari per tenere traccia del suo aggiornamento di stato e di ciò che è necessario per le regole, quindi archiviali in un altro sistema.
+  * Esegui una manutenzione intensiva del database sulla tabella della proposta, ad esempio ricompila indici o ricrea tabella.
+  * Limita il numero di proposte richieste per target. Non impostare più di quello che si sta per utilizzare.
+  * Evita il più possibile i join nei criteri delle regole.
 
 ## Suggerimenti per la gestione delle offerte {#tips-managing-offers}
 

@@ -6,20 +6,27 @@ feature: Campaigns, Cross Channel Orchestration, Programs
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: eb1a0e52-14d9-4ad2-8bf2-ea955c6fd0f5
-TQID: https://experienceleague.adobe.com/lxE52O9cAoD8RwzYdi5l4lRfkWcM8kZQ-T-fMZVKxaM
+TQID: 'https://experienceleague.adobe.com/lxE52O9cAoD8RwzYdi5l4lRfkWcM8kZQ-T-fMZVKxaM'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: 237333ba-90fa-554c-bc8d-2047e6173477
+    internal-label: Cross Channel Orchestration
+  - id: 6641bfdc-d19c-56e4-9045-0f6d06e8a43b
+    internal-label: Programs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: User
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 449
-ht-degree: 14%
-
+source-wordcount: '472'
+ht-degree: 18%
 ---
-
 # Introduzione alle campagne di marketing {#gs-marketing-campaigns}
 
 Adobe Campaign ti consente di definire, ottimizzare, eseguire e analizzare campagne di comunicazione e marketing. Adobe Campaign funziona come un centro unificato di esecuzione e ordini per strategie di marketing. Gestisci più origini di dati, definisci i segmenti di pubblico e pianifica ed esegui campagne cross-channel con un&#39;interfaccia di flusso di lavoro visivo basata su trascinamento.
@@ -53,7 +60,7 @@ I tipi di pubblico possono essere importati da un elenco o incorporati in un flu
 Orchestrazione delle consegne cross-channel nelle campagne. Semplifica le tue comunicazioni con Adobe Campaign tramite e-mail, SMS personalizzati, notifiche push e messaggi in-app. Puoi anche aggiungere consegne di direct mailing. Scopri come creare, convalidare e monitorare le consegne nelle campagne [in questa sezione](marketing-campaign-deliveries.md).
 
 1. **Impostare il flusso di avvicinamento**
-Definisci i revisori e configura il flusso di approvazione per monitorare e controllare i processi della campagna: targeting, contenuto, budget, estrazione e invio di bozze. Scopri come impostare le approvazioni [&#x200B; in questa sezione](marketing-campaign-approval.md).
+Definisci i revisori e configura il flusso di approvazione per monitorare e controllare i processi della campagna: targeting, contenuto, budget, estrazione e invio di bozze. Scopri come impostare le approvazioni [ in questa sezione](marketing-campaign-approval.md).
 
 1. **Monitorare le consegne**.
 Tieni traccia delle campagne dal dashboard, controlla gli stati di consegna e l’esecuzione dall’interfaccia utente di Campaign. [Ulteriori informazioni](marketing-campaign-monitoring.md).
@@ -68,4 +75,4 @@ Una volta completati questi passaggi, puoi [avviare le consegne](marketing-campa
 
 Questo video illustra i concetti chiave delle campagne di marketing.
 
->[!VIDEO](https://video.tv.adobe.com/v/326578?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35131?quality=12)

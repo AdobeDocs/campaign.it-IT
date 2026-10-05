@@ -3,13 +3,16 @@ title: Aggiornamento dell’infrastruttura di invio e-mail di Campaign
 description: Aggiornamento dell’infrastruttura di invio e-mail di Campaign
 hide: true
 exl-id: f01e38ad-490e-4389-af5e-87beef533eb0
-source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 1%
-
 ---
-
 # Aggiornamento dell’infrastruttura di invio e-mail di Campaign {#migrate-infra-to-aws}
 
 ## Cosa verrà aggiornato?{#aws-changes}
@@ -56,11 +59,11 @@ Gli aggiornamenti degli ambienti di produzione sono iniziati il **gennaio 2024**
 
 * **Quali test sono richiesti dai clienti?**
 
-  Non sono previsti test da parte dei clienti in relazione a questo evento di aggiornamento. In caso di problemi, contatta l&#39;[Assistenza clienti Adobe](https://experienceleague.adobe.com/it?support-solution=Campaign#support){target="_blank"}.
+  Non sono previsti test da parte dei clienti in relazione a questo evento di aggiornamento. In caso di problemi, contatta l&#39;[Assistenza clienti Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
 
 
 * **Posso richiedere una modifica di data/ora nello slot di aggiornamento della sicurezza pianificato?**
 
   No. Non è possibile accettare le modifiche richieste alla pianificazione esistente, in quanto questo potrebbe interrompere l’evento di aggiornamento assegnato per un altro cliente.
 
-Per qualsiasi altra domanda, puoi contattare l&#39;[Assistenza clienti Adobe](https://experienceleague.adobe.com/it?support-solution=Campaign#support){target="_blank"}.
+Per qualsiasi altra domanda, puoi contattare l&#39;[Assistenza clienti Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
