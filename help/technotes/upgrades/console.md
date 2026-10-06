@@ -4,13 +4,16 @@ title: deprecazione a 32 bit della console client
 description: deprecazione a 32 bit della console client
 hide: true
 exl-id: 9411e38a-5783-439c-ad54-f33bd374f2b8
-source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 1%
-
 ---
-
 # Fine del supporto dei sistemi operativi a 32 bit {#console-eol}
 
 La versione a 32 bit della console client è obsoleta nella versione 8.5. È disponibile una nuova versione a 64 bit della console client per un aggiornamento senza soluzione di continuità.

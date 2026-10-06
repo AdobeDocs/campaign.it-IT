@@ -6,21 +6,31 @@ feature: Email Design
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 2a8b900b-ce0a-41b1-b4e4-b024ca93052e
-TQID: https://experienceleague.adobe.com/R-P0T4JskiBJcyqG-Mq9AilPcnHP-SglGbew0JGqJ-0
+TQID: 'https://experienceleague.adobe.com/R-P0T4JskiBJcyqG-Mq9AilPcnHP-SglGbew0JGqJ-0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
+subfeature_v2:
+  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Personalization
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1461
+source-wordcount: '1461'
 ht-degree: 3%
-
 ---
-
 # Definire il contenuto interattivo{#defining-interactive-content}
 
 Adobe Campaign consente di utilizzare il formato interattivo [AMP per e-mail](https://amp.dev/about/email/), che consente di inviare e-mail dinamiche, in determinate condizioni.
@@ -150,7 +160,7 @@ Al momento puoi sperimentare l’invio di un’e-mail AMP in due passaggi:
 
 1. Adobe Campaign consente di testare la consegna di un’e-mail dinamica basata su AMP a indirizzi e-mail selezionati configurati in modo appropriato, al fine di verificarne il contenuto e il comportamento. Consulta [Verifica della consegna e-mail AMP per gli indirizzi selezionati](#testing-amp-delivery-for-selected-addresses).
 
-1. Una volta testato, puoi inviare una consegna o una campagna come parte del programma AMP per e-mail registrandoti con i provider e-mail pertinenti in modo che il dominio del mittente venga aggiunto al inserisco nell&#39;elenco Consentiti di. Consulta [Invio di e-mail AMP tramite registrazione con un provider di posta elettronica](#delivering-amp-emails-by-registering).
+1. Una volta testato, puoi inviare una consegna o una campagna come parte del programma AMP per e-mail registrandoti con i provider e-mail pertinenti per far aggiungere il dominio del mittente al inserisco nell&#39;elenco Consentiti di. Consulta [Invio di e-mail AMP tramite registrazione con un provider di posta elettronica](#delivering-amp-emails-by-registering).
 
 ### Verifica della consegna e-mail AMP per gli indirizzi selezionati {#testing-amp-delivery-for-selected-addresses}
 
@@ -160,7 +170,7 @@ Puoi verificare l’invio di messaggi dinamici da Adobe Campaign a indirizzi e-m
 >
 >Solo Gmail e Mail.ru supportano il test del formato AMP.
 
-Per Gmail, devi innanzitutto aggiungere gli indirizzi del mittente utilizzati al inserisco nell&#39;elenco Consentiti di consegna da Adobe Campaign per gli account Gmail a cui stai eseguendo il targeting.
+Per Gmail, devi innanzitutto aggiungere gli indirizzi del mittente che stai utilizzando al inserisco nell&#39;elenco Consentiti di consegna da Adobe Campaign per gli account Gmail di cui stai eseguendo il targeting.
 
 Per eseguire questa operazione:
 1. Assicurati che l’opzione di abilitazione dell’e-mail dinamica sia selezionata per i provider e-mail pertinenti.
@@ -174,7 +184,7 @@ Per verificare l&#39;invio di un&#39;e-mail AMP a un indirizzo Mail.ru, seguire 
 
 ### Consegna di e-mail AMP tramite registrazione a un provider e-mail {#delivering-amp-emails-by-registering}
 
-Puoi sperimentare la distribuzione di e-mail dinamiche registrandoti con i provider e-mail supportati per aggiungere il dominio del mittente al inserisco nell&#39;elenco Consentiti di invio.
+Puoi sperimentare la distribuzione di e-mail dinamiche registrandoti con i provider di e-mail supportati per aggiungere il dominio del mittente al inserisco nell&#39;elenco Consentiti di.
 
 >[!NOTE]
 >

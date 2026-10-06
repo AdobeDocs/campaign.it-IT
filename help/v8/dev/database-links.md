@@ -5,20 +5,35 @@ feature: Data Model, Configuration
 role: Developer
 level: Intermediate, Experienced
 exl-id: f7047c6e-f045-4534-b117-311dd90dd92b
-TQID: https://experienceleague.adobe.com/TmmGBnpgDSPi2gvmfY5Fu9Hm3NiIaVIfUEMDBYJSIaw
+TQID: 'https://experienceleague.adobe.com/TmmGBnpgDSPi2gvmfY5Fu9Hm3NiIaVIfUEMDBYJSIaw'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: a1681cd8-6b2e-4955-9113-33b5f7a22b8c
+    internal-label: Data model architecture
+  - id: a14877cc-63b1-41d9-bf0b-5f97cadd0417
+    internal-label: Configuration guidelines
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 921
+source-wordcount: '921'
 ht-degree: 0%
-
 ---
-
 # Gestione collegamenti {#links--relation-between-tables}
 
 Un collegamento descrive l’associazione tra una tabella e un’altra.
@@ -58,23 +73,23 @@ I collegamenti rispettano le seguenti regole:
 
 * La definizione di un collegamento viene immessa in un **`<element>`** di tipo **link** con i seguenti attributi:
 
-   * **nome**: nome del collegamento dalla tabella di origine
-   * **target**: nome dello schema di destinazione
-   * **etichetta**: etichetta del collegamento
-   * **revLink** (facoltativo): nome del collegamento inverso dallo schema di destinazione (dedotto automaticamente per impostazione predefinita)
-   * **integrità** (facoltativo): integrità referenziale dell&#39;occorrenza della tabella di origine rispetto all&#39;occorrenza della tabella di destinazione.
-I valori possibili sono:
+  * **nome**: nome del collegamento dalla tabella di origine
+  * **target**: nome dello schema di destinazione
+  * **etichetta**: etichetta del collegamento
+  * **revLink** (facoltativo): nome del collegamento inverso dallo schema di destinazione (dedotto automaticamente per impostazione predefinita)
+  * **integrità** (facoltativo): integrità referenziale dell&#39;occorrenza della tabella di origine rispetto all&#39;occorrenza della tabella di destinazione.
+    I valori possibili sono:
 
-      * **define**: è possibile eliminare l&#39;occorrenza di origine se un&#39;occorrenza di destinazione non vi fa più riferimento
-      * **normal**: l&#39;eliminazione dell&#39;occorrenza di origine inizializza le chiavi del collegamento all&#39;occorrenza di destinazione (modalità predefinita). Questo tipo di integrità inizializza tutte le chiavi esterne
-      * **own**: l&#39;eliminazione dell&#39;occorrenza di origine determina l&#39;eliminazione dell&#39;occorrenza di destinazione
-      * **owncopy**: uguale a **own** (in caso di eliminazione) o duplica le occorrenze (in caso di duplicazione)
-      * **neutro**: nessun comportamento specifico
+    * **define**: è possibile eliminare l&#39;occorrenza di origine se un&#39;occorrenza di destinazione non vi fa più riferimento
+    * **normal**: l&#39;eliminazione dell&#39;occorrenza di origine inizializza le chiavi del collegamento all&#39;occorrenza di destinazione (modalità predefinita). Questo tipo di integrità inizializza tutte le chiavi esterne
+    * **own**: l&#39;eliminazione dell&#39;occorrenza di origine determina l&#39;eliminazione dell&#39;occorrenza di destinazione
+    * **owncopy**: uguale a **own** (in caso di eliminazione) o duplica le occorrenze (in caso di duplicazione)
+    * **neutro**: nessun comportamento specifico
 
-   * **revIntegrity** (facoltativo): integrità nello schema di destinazione (facoltativo, &quot;normal&quot; per impostazione predefinita)
-   * **revCardinality** (facoltativo): con il valore &quot;single&quot; compila la cardinalità con il tipo 1-1 (1-N per impostazione predefinita)
-   * **externalJoin** (facoltativo): forza l&#39;outer join
-   * **revExternalJoin** (facoltativo): forza il join esterno sul collegamento inverso
+  * **revIntegrity** (facoltativo): integrità nello schema di destinazione (facoltativo, &quot;normal&quot; per impostazione predefinita)
+  * **revCardinality** (facoltativo): con il valore &quot;single&quot; compila la cardinalità con il tipo 1-1 (1-N per impostazione predefinita)
+  * **externalJoin** (facoltativo): forza l&#39;outer join
+  * **revExternalJoin** (facoltativo): forza il join esterno sul collegamento inverso
 
 * Un collegamento fa riferimento a uno o più campi dalla tabella di origine alla tabella di destinazione. Non è necessario compilare i campi che compongono il join (elemento `<join>`) perché vengono dedotti automaticamente per impostazione predefinita utilizzando la chiave interna dello schema di destinazione.
 * Un indice viene aggiunto automaticamente alla chiave esterna del collegamento nello schema esteso.

@@ -5,29 +5,39 @@ description: Ulteriori informazioni sull’attività del flusso di lavoro Downlo
 feature: Workflows
 version: Campaign v8, Campaign Classic v7
 exl-id: 73bacf61-ac03-4a5c-b03b-6dfbe3fb9538
-TQID: https://experienceleague.adobe.com/o-kTHkx0LFrxyykvGSZW-fZJRMWDN2HFnRKlZ-LBDMk
+TQID: 'https://experienceleague.adobe.com/o-kTHkx0LFrxyykvGSZW-fZJRMWDN2HFnRKlZ-LBDMk'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
 subfeature_v2:
   - id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875f
+    internal-label: Troubleshooting
   - id: e656c701-3899-4db3-989c-de0980ddfffa
+    internal-label: Installation
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 491
+source-wordcount: '491'
 ht-degree: 1%
-
 ---
-
 # Download web{#web-download}
 
 
 
-L&#39;attività **Download Web** avvia il download di un file su un URL esplicito, un account esterno o un&#39;istanza di Adobe Campaign. Viene utilizzato il protocollo HTTP. Può trattarsi di un download GET o POST.
+L&#39;attività **Download Web** avvia il download di un file su un URL esplicito, un account esterno o un&#39;istanza di Adobe Campaign. Viene utilizzato il protocollo HTTP. Questo può essere un download GET o POST.
 
 ## Proprietà {#properties}
 

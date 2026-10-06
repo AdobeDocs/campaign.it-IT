@@ -4,25 +4,36 @@ description: Elenco delle funzioni e dei miglioramenti introdotti con le version
 feature: Release Notes
 hide: true
 exl-id: 5ac6bda9-86c8-4200-b285-6fee2a29039d
-TQID: https://experienceleague.adobe.com/o497R5a6OnWWHLy-QJUic5Mps5OlRGrW7JvQCQJKhC0
+TQID: 'https://experienceleague.adobe.com/o497R5a6OnWWHLy-QJUic5Mps5OlRGrW7JvQCQJKhC0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
+  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+    internal-label: Release notes
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: b285c321f3b905150b31621941ea99608d627739
+    internal-label: Security
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1617
-ht-degree: 96%
-
+source-wordcount: '1644'
+ht-degree: 97%
 ---
-
 # Note sulla versione 2021{#2021-release}
 
 In questa pagina sono elencate le nuove funzionalità, i miglioramenti e correzioni introdotte con le **versioni di Campaign v8 2021**.
@@ -70,7 +81,7 @@ _venerdì 28 ottobre 2021_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Il servizio Unicity è un nuovo componente di Cloud Database Manager. Consente agli utenti di preservare e monitorare l’integrità dei vincoli di chiave univoca all’interno delle tabelle del database cloud. Questo consente di ridurre il rischio di inserimento di chiavi duplicate.
+<td> <p>Il servizio Unicity è un nuovo componente Cloud Database Manager. Consente agli utenti di preservare e monitorare l’integrità dei vincoli di chiave univoca all’interno delle tabelle del database cloud. Questo consente di ridurre il rischio di inserimento di chiavi duplicate.
 <p>Poiché il database cloud non applica vincoli di unicità, il servizio Unicity introduce a livello applicativo <b>una serie di nuovi guardrail</b> per ridurre il rischio di inserimento di duplicati durante la gestione dei dati con Adobe Campaign.</p> 
 <p>Il servizio Unicity avvia un nuovo flusso di lavoro incorporato denominato <b>ffdaUnicity</b> per monitorare i vincoli di unicità e avvisare quando vengono rilevati duplicati.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../architecture/keys.md">documentazione dettagliata</a>.</p>
@@ -94,7 +105,7 @@ _venerdì 28 ottobre 2021_
 
 **Patch**
 
-* Se, uno schema di dati, veniva rimosso l’attributo `<autoStg>` di un elemento di definizione di tabella oppure veniva modificato il suo valore da `true` a `false`, la relativa tabella di staging non veniva eliminata. Questo problema è stato risolto.
+* Se, in uno schema di dati, veniva rimosso l’attributo `<autoStg>` di un elemento di definizione di tabella oppure veniva modificato il suo valore da `true` a `false`, la relativa tabella di staging non veniva eliminata. Questo problema è stato risolto.
 * È stato risolto un problema che causava un errore durante la creazione di record con un modulo dedicato a causa della gestione degli ID con un’origine dati FFDA.
 * È stato risolto un problema che poteva impedire l’inserimento di offerte in una consegna se queste erano gestite da un’attività di arricchimento in un flusso di lavoro.
 * È stato risolto un problema che poteva rallentare l’importazione dei pacchetti.

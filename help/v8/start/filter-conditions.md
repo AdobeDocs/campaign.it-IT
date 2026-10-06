@@ -6,20 +6,29 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 18e49a15-dbb5-42d6-9379-367e769f319a
-TQID: https://experienceleague.adobe.com/MvYtphJPgDXOp9-CR3rhTYNazED3seRZxt89W29PJlI
+TQID: 'https://experienceleague.adobe.com/MvYtphJPgDXOp9-CR3rhTYNazED3seRZxt89W29PJlI'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Beginner
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 3344
+source-wordcount: '3353'
 ht-degree: 48%
-
 ---
-
 # Definire le condizioni del filtro{#filter-conditions}
 
 Per progettare la query, è necessario selezionare le condizioni di filtro nell’editor delle query. Le funzionalità disponibili e i casi di utilizzo sono descritti in dettaglio in questa pagina.
@@ -301,10 +310,10 @@ Esistono quattro tipi di campi calcolati:
 
   Il campo calcolato di tipo **[!UICONTROL Enumerations]** può includere 4 condizioni:
 
-   * **[!UICONTROL Keep the source value]** ripristina il valore di origine nella destinazione senza modificarlo.
-   * **[!UICONTROL Use the following value]** consente di immettere un valore di destinazione predefinito per i valori di origine non definiti.
-   * **[!UICONTROL Generate a warning and continue]** avverte l&#39;utente che il valore di origine non può essere modificato.
-   * **[!UICONTROL Generate an error and reject the line]** impedisce il calcolo e l&#39;importazione della riga.
+  * **[!UICONTROL Keep the source value]** ripristina il valore di origine nella destinazione senza modificarlo.
+  * **[!UICONTROL Use the following value]** consente di immettere un valore di destinazione predefinito per i valori di origine non definiti.
+  * **[!UICONTROL Generate a warning and continue]** avverte l&#39;utente che il valore di origine non può essere modificato.
+  * **[!UICONTROL Generate an error and reject the line]** impedisce il calcolo e l&#39;importazione della riga.
 
 Fare clic su **[!UICONTROL Detail of calculated field]** per visualizzare i dettagli del campo inserito.
 

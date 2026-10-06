@@ -5,22 +5,28 @@ description: Creazione e gestione delle attività
 feature: Campaigns, Resource Management
 role: User
 exl-id: 730d1712-53a6-4bf7-9aac-523b06bd0d0a
-TQID: https://experienceleague.adobe.com/LggpejZ5h1fYPh3efYx2f7x3DEhqVlvPndjgNkNUUCs
+TQID: 'https://experienceleague.adobe.com/LggpejZ5h1fYPh3efYx2f7x3DEhqVlvPndjgNkNUUCs'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: 8d5d4b17-44c6-5e7b-891c-b4277613013d
+    internal-label: Resource Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Implementation
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 3764
+source-wordcount: '3766'
 ht-degree: 0%
-
 ---
-
 # Creare e gestire le attività{#creating-and-managing-tasks}
 
 Adobe Campaign consente di creare attività e gestirne il ciclo di vita completo direttamente all’interno dell’applicazione. L’implementazione del programma e della campagna può essere suddivisa in attività assegnate ad operatori Adobe Campaign o a fornitori di servizi esterni. Questa modalità operativa consente di creare un ambiente di collaborazione aperto che includa tutti i partecipanti al programma e i partecipanti esterni.
@@ -323,8 +329,8 @@ L’attività di creazione delle risorse di marketing interagisce con la risorsa
 
   È possibile utilizzare una serie di attività collegate per definire un ciclo di approvazione completo. Seleziona l&#39;opzione **[!UICONTROL Publish the marketing resource]** solo per l&#39;ultima attività: per pubblicare la risorsa, è necessario che tutte le attività siano state completate. Inoltre, quando crei un’attività di risorsa di marketing figlio, la risorsa viene selezionata automaticamente nell’attività figlio.
 
-   * **Tramite la risorsa**: se invii la risorsa per l&#39;approvazione o la approvi, queste azioni non influiranno sull&#39;attività.
-   * **Tramite l&#39;attività**: se l&#39;opzione **[!UICONTROL Publish the marketing resource]** è selezionata nell&#39;attività, la risorsa viene approvata e pubblicata automaticamente al termine dell&#39;attività (vedi sopra). Se l&#39;opzione non è selezionata, l&#39;attività e la risorsa non interagiscono: agire su una delle due non influirà sull&#39;altra.
+  * **Tramite la risorsa**: se invii la risorsa per l&#39;approvazione o la approvi, queste azioni non influiranno sull&#39;attività.
+  * **Tramite l&#39;attività**: se l&#39;opzione **[!UICONTROL Publish the marketing resource]** è selezionata nell&#39;attività, la risorsa viene approvata e pubblicata automaticamente al termine dell&#39;attività (vedi sopra). Se l&#39;opzione non è selezionata, l&#39;attività e la risorsa non interagiscono: agire su una delle due non influirà sull&#39;altra.
 
 #### Configurare un’attività di creazione di risorse di marketing {#configuring-a-marketing-resource-creation-task}
 
@@ -420,7 +426,7 @@ La dipendenza tra le attività è rappresentata da frecce nel dashboard della ca
 
 ![](assets/s_ncs_user_task_dependencies_from_board.png)
 
-In caso di attività raggruppate, Adobe Campaign assegna automaticamente la data di fine dell&#39;attività padre all&#39;attività figlio come data di inizio. Ad esempio, se un&#39;attività **Crea invito** termina il 15 ottobre alle ore 3:30PM, l&#39;attività secondaria **Invia e-mail invito** inizierà il 15 ottobre alle ore 3:30PM.
+In caso di attività raggruppate, Adobe Campaign assegna automaticamente la data di fine dell&#39;attività padre all&#39;attività figlio come data di inizio. Ad esempio, se un&#39;attività **Crea invito** termina il 15 ottobre alle 15:30, l&#39;attività secondaria **Invia e-mail invito** inizierà il 15 ottobre alle 15:30.
 
 Inoltre, se si posticipa la fine di un&#39;attività padre, alcune delle attività figlio potrebbero essere interessate: si tratta delle attività figlio il cui stato è **[!UICONTROL Scheduled]** e la cui data di inizio è precedente alla nuova data di fine dell&#39;attività padre. La durata dell&#39;attività rimane invariata. Se la data di inizio di un&#39;attività figlio è successiva alla nuova data di fine dell&#39;attività padre, l&#39;attività figlio non viene influenzata.
 

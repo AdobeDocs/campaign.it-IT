@@ -3,30 +3,46 @@ title: Note sulla versione di Campaign v8 (console) 2025
 description: Elenco di funzioni e miglioramenti introdotti con le versioni di Campaign v8 2025
 feature: Release Notes
 exl-id: 3f91d83e-594e-49ee-a898-606e3de00bf3
-TQID: https://experienceleague.adobe.com/OJjLadHvAgwmaelChtIjHv-xYlTV8syMi7IMIrkMvjs
+TQID: 'https://experienceleague.adobe.com/OJjLadHvAgwmaelChtIjHv-xYlTV8syMi7IMIrkMvjs'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+    internal-label: REST API
   - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+    internal-label: Triggers
+  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+    internal-label: Release notes
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Privacy
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 3608
+source-wordcount: '3609'
 ht-degree: 33%
-
 ---
-
 # Note sulle versioni 2025 {#2025-rn}
 
 In questa pagina sono elencate le nuove funzionalità, i miglioramenti e le correzioni inclusi nelle **versioni di Campaign v8 2025**. Per la versione più recente, consulta [questa pagina](release-notes.md).
@@ -52,7 +68,7 @@ _9 ottobre 2025_
 
 >[!AVAILABILITY]
 >
->Questa versione è in **Disponibilità limitata** (LA).
+>Questa versione è in **disponibilità limitata** (LA).
 
 ### Nuove funzioni {#features-8-8-2}
 
@@ -146,9 +162,9 @@ ACC * Rich Push Notification templates - You can now send rich push notification
 Precedentemente rilasciata in Disponibilità limitata, la seguente funzionalità è ora disponibile **su richiesta**:
 
 <!--
-* **Dynamic Reporting** - You can now access Dynamic Reporting which provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks. Dynamic reporting is also available for multilingual email deliveries and transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=it){target="_blank"}
+* **Dynamic Reporting** - You can now access Dynamic Reporting which provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks. Dynamic reporting is also available for multilingual email deliveries and transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html){target="_blank"}
 
-ACC **Dynamic Reporting for Transactional messages** - You can now monitor your transactional messages in the Dynamic Reporting user interface. These reports provide the ability to the marketer to view the all the reporting metrics and dimensions of transactional messages, breakdown of deliveries sent through a template in real time. [Read more](https://experienceleague.adobe.com/it/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
+ACC **Dynamic Reporting for Transactional messages** - You can now monitor your transactional messages in the Dynamic Reporting user interface. These reports provide the ability to the marketer to view the all the reporting metrics and dimensions of transactional messages, breakdown of deliveries sent through a template in real time. [Read more](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
 ACC - Dynamic Reporting - As a Campaign Standard migrated user, you can access Dynamic Reporting which provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks. Read more
 * **Dynamic Reporting for Multilingual** - Dynamic reporting is now available for multilingual email deliveries. For more information, refer to the [detailed documentation](../reporting/global-reports.md).
 -->
@@ -163,9 +179,9 @@ ACC - Dynamic Reporting - As a Campaign Standard migrated user, you can access D
 
 <!--
 ACC - Rest APIs - As a Campaign Standard migrated user, you can use Rest APIs to create integrations for Adobe Campaign and build your own ecosystem by interfacing Adobe Campaign with the panel of technologies that you use. Read more
-* **SMS REST API support (LA)** - The Transactional Messaging REST API is now available for the SMS channel. When both email and mobilePhone are present in the payload, you can use the "wishedChannel" field to specify the channel. If not provided, email will be used by default unless wishedChannel explicitly requests SMS. For more information, refer to the [detailed documentation](https://experienceleague.adobe.com/it/docs/experience-cloud/campaign/apis/managing-transactional-messages){target=_blank}.
+* **SMS REST API support (LA)** - The Transactional Messaging REST API is now available for the SMS channel. When both email and mobilePhone are present in the payload, you can use the "wishedChannel" field to specify the channel. If not provided, email will be used by default unless wishedChannel explicitly requests SMS. For more information, refer to the [detailed documentation](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages){target=_blank}.
 ACC - SMS REST API support - The Transactional Messaging REST API is now available for the SMS channel. When both email and mobilePhone are present in the payload, you can use the "wishedChannel" field to specify the channel. If not provided, email will be used by default unless wishedChannel explicitly requests SMS.
-ACC * **Transactional messaging REST APIs** - Event-based Transactional APIs are now available for Emails. [Read more](https://experienceleague.adobe.com/it/docs/experience-cloud/campaign/apis/managing-transactional-messages){target="_blank"}
+ACC * **Transactional messaging REST APIs** - Event-based Transactional APIs are now available for Emails. [Read more](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages){target="_blank"}
 -->
 
 Oltre alle funzioni elencate in precedenza, questa versione include anche una serie di funzionalità disponibili con l’interfaccia utente web di Campaign:
@@ -270,7 +286,7 @@ Consulta le [note sulla versione](https://experienceleague.adobe.com/docs/campai
 * È stato risolto un problema a causa del quale l’anteprima dei file di output della direct mailing causava la visualizzazione di dashboard vuoti. La dashboard ora viene visualizzata correttamente dopo le anteprime dei file. (NEO-75359)
 * Sono stati migliorati gli indicatori di tracciamento per le notifiche push, in modo da includere clic e aperture. Indicatori come `@recipientClick`, `@personClick` e `@totalRecipientClick` ora tengono conto dei clic di notifica mobile. (NEO-75240)
 * Sono stati corretti gli errori nei flussi di lavoro di pulizia per le consegne con stato di annullamento in sospeso esterno. La logica di recupero dei record del database è stata corretta. (NEO-74833)
-* È stato risolto un problema di discrepanza di fuso orario in Russia (UTC+3:00 Mosca) dove `nlserver` tempi di output non erano corretti. La logica di sincronizzazione dell&#39;ora è stata aggiornata. (NEO-74754)
+* Risoluzione di un problema di discrepanza di fuso orario in Russia (UTC+3:00 Mosca) dove i tempi di output `nlserver` non erano corretti. La logica di sincronizzazione dell&#39;ora è stata aggiornata. (NEO-74754)
 * Sono stati corretti gli errori nel flusso di lavoro `defaultMidSourcingDlvStat` causati da una sintassi SQL errata per i database MSSQL. La logica di generazione della query è stata regolata per compatibilità. (NEO-74156)
 * Sono stati risolti diversi arresti anomali nel processo web. (NEO-73174)
 * È stato risolto un problema che impediva il corretto funzionamento delle query BigQuery in presenza di apostrofi nelle condizioni. La logica di gestione delle query è stata aggiornata per interpretare correttamente i caratteri speciali. (NEO-72547)
@@ -292,7 +308,7 @@ _sabato 25 aprile 2025_
 
 >[!AVAILABILITY]
 >
->Questa versione è in **Disponibilità limitata** (LA).
+>Questa versione è in **disponibilità limitata** (LA).
 
 ### Nuove funzioni {#features-8-6-5}
 
@@ -387,8 +403,8 @@ Sono stati aggiunti i seguenti connettori FDA. Consulta [questa pagina](compatib
 
 * È ora disponibile un nuovo connettore Amazon Redshift FDA ODBC. Offre connettività migliorata, manutenzione semplificata e compatibilità avanzata. Questa nuova versione include i seguenti miglioramenti:
 
-   * Il nuovo connettore si basa sull’interfaccia ODBC che si allinea ai connettori FDA più recenti. Questo garantisce un supporto a lungo termine.
-   * Inoltre, introduce un nuovo meccanismo di caricamento dei dati utilizzando bucket S3, che migliora in modo significativo le prestazioni.
+  * Il nuovo connettore si basa sull’interfaccia ODBC che si allinea ai connettori FDA più recenti. Questo garantisce un supporto a lungo termine.
+  * Inoltre, introduce un nuovo meccanismo di caricamento dei dati utilizzando bucket S3, che migliora in modo significativo le prestazioni.
 
   È comunque possibile utilizzare il connettore legacy. Se desideri provare quello nuovo, contatta il tuo rappresentante Adobe.
 

@@ -5,20 +5,28 @@ title: Pagina principale di Adobe Campaign Automation
 feature: Overview
 description: Panoramica
 exl-id: 9ed73e65-3626-46c6-bfeb-a9fe9c2d7f72
-TQID: https://experienceleague.adobe.com/FtiYjkQl0glW5gi7Ar8DI4RVxoS7wd7Okh4vHdNdutU
+TQID: 'https://experienceleague.adobe.com/FtiYjkQl0glW5gi7Ar8DI4RVxoS7wd7Okh4vHdNdutU'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e8d937ec-9046-41b5-834b-d22a624e0d37
+    internal-label: Campaign overview
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Optimization
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 195
+source-wordcount: '195'
 ht-degree: 36%
-
 ---
-
 # Automazione Adobe Campaign {#automation-home}
 
 La comunicazione con i clienti attraverso più canali di marketing può funzionare sia per te che contro di te. Quando i diversi canali non funzionano insieme, si verificano solo rumore e confusione. Quando sono sincronizzati, si combinano per offrire ai clienti un’esperienza potente e complementare con il tuo marchio.

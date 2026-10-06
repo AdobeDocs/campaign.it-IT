@@ -5,24 +5,36 @@ feature: SMS
 role: User
 level: Beginner, Intermediate
 exl-id: c4d500ef-2339-491f-9ae2-9bfaf72088a9
-TQID: https://experienceleague.adobe.com/SUOihPjlej-JYbpNBWLCIhWhM2NrUpz0pMuO3NAaCWM
+TQID: 'https://experienceleague.adobe.com/SUOihPjlej-JYbpNBWLCIhWhM2NrUpz0pMuO3NAaCWM'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: b1bd1421-1927-4c59-9bc6-ce292360e43b
+    internal-label: SMS Messaging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Personalization
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 768
+source-wordcount: '773'
 ht-degree: 1%
-
 ---
-
 # Impostazioni sulla consegna SMS {#sms-settings}
 
 Le impostazioni tecniche necessarie per una consegna SMS sono:
@@ -60,10 +72,10 @@ Queste sono le informazioni necessarie per compilare il modulo. Ogni campo è sp
 
   Questo campo indica il tipo di SMS che desideri trasferire: messaggi normali o flash, memorizzati sul cellulare o sulla scheda SIM. Questa impostazione viene trasmessa nel campo facoltativo dest_addr_subunit nella PDU SUBMIT_SM.
 
-   * **Flash** imposta il valore su 1. Invia un messaggio flash che viene visualizzato sul dispositivo mobile e non viene memorizzato.
-   * **Normal** imposta il valore su 0. Invia un messaggio normale.
-   * **Salva su dispositivo mobile** imposta il valore su 2. Indica al telefono di memorizzare l’SMS nella memoria interna.
-   * **Salva nel terminale** imposta il valore su 3. Indica al telefono di memorizzare l’SMS nella scheda SIM.
+  * **Flash** imposta il valore su 1. Invia un messaggio flash che viene visualizzato sul dispositivo mobile e non viene memorizzato.
+  * **Normal** imposta il valore su 0. Invia un messaggio normale.
+  * **Salva su dispositivo mobile** imposta il valore su 2. Indica al telefono di memorizzare l’SMS nella memoria interna.
+  * **Salva nel terminale** imposta il valore su 3. Indica al telefono di memorizzare l’SMS nella scheda SIM.
 
 * **[!UICONTROL Priority, Communication type]**
 
@@ -82,11 +94,11 @@ Queste sono le informazioni necessarie per compilare il modulo. Ogni campo è sp
 * **[!UICONTROL Optional SMPP parameters (TLV)]**
 Puoi specificare campi aggiuntivi da inviare come parametri SMPP (TLV) facoltativi. Questi campi aggiuntivi vengono inviati con ogni messaggio MT e i campi personalizzati consentono di avere valori diversi per ogni messaggio MT.
 Nella tabella sono elencati i parametri facoltativi da inviare con ogni messaggio. Le colonne contengono le seguenti informazioni:
-   * **Etichetta**: etichetta facoltativa in formato libero. Non viene trasmesso al provider. Puoi fornire una descrizione testuale del parametro.
-   * **Tag**: il valore del tag, in formato decimale (ad esempio 12345) o esadecimale con prefisso 0x (ad esempio 0x12ab). I tag possono essere compresi tra 0 e 65535. Chiedi al provider di servizi SMPP i tag supportati.
-   * **Valore**: valore da inviare nel parametro facoltativo. Questo è un campo personalizzato.
-   * **Formato**: codifica utilizzata per il parametro. È possibile selezionare qualsiasi codifica di testo supportata o i formati binari più comuni. Chiedi al provider di servizi SMPP il formato richiesto.
-   * **Lunghezza massima**: numero massimo di byte per questo parametro. Questa opzione viene ignorata per i campi binari in quanto i campi binari hanno una dimensione fissa.
+  * **Etichetta**: etichetta facoltativa in formato libero. Non viene trasmesso al provider. Puoi fornire una descrizione testuale del parametro.
+  * **Tag**: il valore del tag, in formato decimale (ad esempio 12345) o esadecimale con prefisso 0x (ad esempio 0x12ab). I tag possono essere compresi tra 0 e 65535. Chiedi al provider di servizi SMPP i tag supportati.
+  * **Valore**: valore da inviare nel parametro facoltativo. Questo è un campo personalizzato.
+  * **Formato**: codifica utilizzata per il parametro. È possibile selezionare qualsiasi codifica di testo supportata o i formati binari più comuni. Chiedi al provider di servizi SMPP il formato richiesto.
+  * **Lunghezza massima**: numero massimo di byte per questo parametro. Questa opzione viene ignorata per i campi binari in quanto i campi binari hanno una dimensione fissa.
 
 * **[!UICONTROL Using binary formats for TLV]**
 

@@ -6,24 +6,33 @@ feature: Workflows, Heatmap
 role: Admin
 version: Campaign v8, Campaign Classic v7
 exl-id: aeb35076-2f0d-456d-8562-be69e7e902eb
-TQID: https://experienceleague.adobe.com/7-PYfeX9J1RnXdjB4eTOBjZT2GMaYz6t3oi8o-ABoV0
+TQID: 'https://experienceleague.adobe.com/7-PYfeX9J1RnXdjB4eTOBjZT2GMaYz6t3oi8o-ABoV0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
+  - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+    internal-label: HeatMap
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Data management
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1111
+source-wordcount: '1112'
 ht-degree: 3%
-
 ---
-
 # Flusso di lavoro HeatMap {#workflow-heatmap}
 
 La mappa di calore dei flussi di lavoro di Campaign consiste in una rappresentazione grafica codificata per colori di tutti i flussi di lavoro attualmente in esecuzione. È disponibile solo per **amministratori di campagne**.
@@ -105,7 +114,7 @@ Ogni riga rappresenta un&#39;ora del giorno e ogni cella rappresenta 5 minuti de
 
 La griglia mostra tutti i flussi di lavoro in esecuzione contemporaneamente per ciascuno di questi periodi di 5 minuti.
 
-Nell&#39;esempio seguente, tra le 8.00 e le 8.00 sono in esecuzione tre flussi di lavoro (indipendentemente dalla durata)::05am
+Nell’esempio seguente, tra le 8.00 e le 8.05 sono in esecuzione tre flussi di lavoro (indipendentemente dalla durata):
 
 ![](assets/wkf_monitoring_ex_8am.png)
 

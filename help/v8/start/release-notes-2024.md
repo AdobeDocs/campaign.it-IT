@@ -3,31 +3,48 @@ title: Note sulla versione di Campaign v8 (console) 2024
 description: Elenco di funzioni e miglioramenti introdotti con le versioni di Campaign v8 2024
 feature: Release Notes
 exl-id: 6a0a9486-19a9-4ec3-9030-48dbf419f45f
-TQID: https://experienceleague.adobe.com/pFGtgb4Lruzv6B7y6JA4b24yzE7ZF7ZnPsEppAz8-cE
+TQID: 'https://experienceleague.adobe.com/pFGtgb4Lruzv6B7y6JA4b24yzE7ZF7ZnPsEppAz8-cE'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+    internal-label: REST API
   - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+    internal-label: Triggers
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Analytics integration
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
+  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+    internal-label: Release notes
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 25ce962e7c8b6a62fc2c1edb08a78afa839d264e
+    internal-label: Privacy
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1669
+source-wordcount: '1669'
 ht-degree: 89%
-
 ---
-
 # Note sulla versione 2024 {#2024-rn}
 
 In questa pagina sono elencate le nuove funzionalità, i miglioramenti e le correzioni inclusi nelle **versioni di Campaign v8 2024**. Per la versione più recente, consulta [questa pagina](release-notes.md).
@@ -97,8 +114,8 @@ Sono stati aggiunti i seguenti connettori FDA. Consulta [questa pagina](compatib
 
 * È ora disponibile un nuovo connettore Amazon Redshift FDA ODBC. Offre connettività migliorata, manutenzione semplificata e compatibilità avanzata. Questa nuova versione include i seguenti miglioramenti:
 
-   * Il nuovo connettore si basa sull’interfaccia ODBC che si allinea ai connettori FDA più recenti. Questo garantisce un supporto a lungo termine.
-   * Inoltre, introduce un nuovo meccanismo di caricamento dei dati utilizzando bucket S3, che migliora in modo significativo le prestazioni.
+  * Il nuovo connettore si basa sull’interfaccia ODBC che si allinea ai connettori FDA più recenti. Questo garantisce un supporto a lungo termine.
+  * Inoltre, introduce un nuovo meccanismo di caricamento dei dati utilizzando bucket S3, che migliora in modo significativo le prestazioni.
 
   È comunque possibile utilizzare il connettore legacy. Se desideri provare quello nuovo, contatta il tuo rappresentante Adobe.
 

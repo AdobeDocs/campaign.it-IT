@@ -5,13 +5,30 @@ feature: Transactional Messaging
 role: Admin, Developer
 level: Experienced
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: d3b34fea-a110-482f-adb2-aae8d686bac8
+    internal-label: Transactional messaging
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 4%
-
 ---
-
 # Impostazioni dei messaggi transazionali {#mc-settings}
 
 La messaggistica transazionale (Message Center) è un modulo di Campaign progettato per la gestione dei messaggi attivati. Ulteriori informazioni sulla messaggistica transazionale in [questa sezione](../send/transactional.md).
@@ -104,9 +121,9 @@ Nelle istanze di esecuzione, devi avviare i seguenti flussi di lavoro tecnici:
 
   I possibili stati degli eventi sono:
 
-   * **[!UICONTROL Pending]**: l&#39;evento è in coda. Non è ancora stato assegnato alcun modello di messaggio.
-   * **[!UICONTROL Pending delivery]**: l&#39;evento è in coda, gli è stato assegnato un modello di messaggio e viene elaborato dalla consegna.
-   * **[!UICONTROL Sent]**: questo stato viene copiato dai log di consegna. Significa che la consegna è stata inviata.
-   * **[!UICONTROL Ignored by the delivery]**: questo stato viene copiato dai log di consegna. Significa che la consegna è stata ignorata.
-   * **[!UICONTROL Delivery failed]**: questo stato viene copiato dai log di consegna. Significa che la consegna è non è andata a buon fine.
-   * **[!UICONTROL Event not taken into account]**: impossibile collegare l&#39;evento a un modello di messaggio. L’evento non verrà elaborato.
+  * **[!UICONTROL Pending]**: l&#39;evento è in coda. Non è ancora stato assegnato alcun modello di messaggio.
+  * **[!UICONTROL Pending delivery]**: l&#39;evento è in coda, gli è stato assegnato un modello di messaggio e viene elaborato dalla consegna.
+  * **[!UICONTROL Sent]**: questo stato viene copiato dai log di consegna. Significa che la consegna è stata inviata.
+  * **[!UICONTROL Ignored by the delivery]**: questo stato viene copiato dai log di consegna. Significa che la consegna è stata ignorata.
+  * **[!UICONTROL Delivery failed]**: questo stato viene copiato dai log di consegna. Significa che la consegna è non è andata a buon fine.
+  * **[!UICONTROL Event not taken into account]**: impossibile collegare l&#39;evento a un modello di messaggio. L’evento non verrà elaborato.

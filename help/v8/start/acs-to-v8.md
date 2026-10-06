@@ -5,22 +5,31 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 98613a0a-7a6d-41a5-9541-e045d4ca318f
-TQID: https://experienceleague.adobe.com/47AdBAmfUk8LOApirtY00zHx1cddAdH0xVoYUlqVctQ
+TQID: 'https://experienceleague.adobe.com/47AdBAmfUk8LOApirtY00zHx1cddAdH0xVoYUlqVctQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e8d937ec-9046-41b5-834b-d22a624e0d37
+    internal-label: Campaign overview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Beginner
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 206
+source-wordcount: '206'
 ht-degree: 19%
-
 ---
-
 # Transizione da [!DNL Campaign Standard] a [!DNL Campaign] v8 {#acs-to-acv8}
 
 In qualità di utente di Campaign Standard che passa a Campaign v8, ora puoi beneficiare della nuova versione dell’interfaccia utente web di Adobe Campaign e della potente console v8. La transizione è semplice e ti consentirà di utilizzare tutte le funzioni intuitive progettate per semplificare la creazione di campagne personalizzate cross-channel. L’interfaccia utente di Campaign Web offre anche un’area di lavoro connessa con Adobe Experience Platform per un’esperienza unificata. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/campaign-web/v8/start/acs-migration){target="_blank"}.
@@ -34,6 +43,6 @@ In qualità di utente di Campaign v8, ora puoi accedere sia alla nuova interfacc
 * Ulteriori informazioni sulla nuova interfaccia utente Web di Campaign sono disponibili in [questa documentazione](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=it){target="_blank"}.
 
 <!--
-* Campaign Standard capabilities have been added to Campaign v8 to facilitate your transition. These capabilities are restricted to customers transitioning from Campaign Standard, and are described in [this documentation](https://experienceleague.adobe.com/it/docs/experience-cloud/campaign/campaign-standard-migration-home){target="_blank"}.
+* Campaign Standard capabilities have been added to Campaign v8 to facilitate your transition. These capabilities are restricted to customers transitioning from Campaign Standard, and are described in [this documentation](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/campaign-standard-migration-home){target="_blank"}.
 -->
 

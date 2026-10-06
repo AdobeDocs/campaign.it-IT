@@ -6,30 +6,45 @@ feature: Workflows
 role: User, Admin
 version: Campaign v8, Campaign Classic v7
 exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
-TQID: https://experienceleague.adobe.com/5ZAmiv-rcxhCwfmxaxGcgcX7iUxJpiTWUruz8nbuHq0
+TQID: 'https://experienceleague.adobe.com/5ZAmiv-rcxhCwfmxaxGcgcX7iUxJpiTWUruz8nbuHq0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
 subfeature_v2:
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+    internal-label: HeatMap
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 01596f03cb299f30a0a32e7095c62c6ce9c40259
+    internal-label: Privacy
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 2153
+source-wordcount: '2089'
 ht-degree: 1%
-
 ---
-
 # Flussi di lavoro tecnici{#about-technical-workflows}
 
 Adobe Campaign viene fornito con una serie di flussi di lavoro tecnici incorporati. Controllano le operazioni e i processi pianificati per l&#39;esecuzione periodica sul server. I flussi di lavoro tecnici eseguono operazioni di manutenzione sul database di Campaign, gestiscono i dati di tracciamento sulle consegne e impostano anche processi provvisori sulle consegne.
@@ -101,7 +116,7 @@ I flussi di lavoro descritti in questa pagina vengono installati con i pacchetti
 | **Replica tabelle di riferimento** (ffdaReplicateReferenceTables) | Installato per impostazione predefinita solo per [distribuzioni Campaign Enterprise (FFDA)](../../v8/architecture/enterprise-deployment.md) | Esegue la replica automatica delle tabelle incorporate che devono essere presenti nel database locale di Campaign (PostgreSQL) e nel database cloud ([!DNL Snowflake]). È pianificata per l&#39;esecuzione ogni ora, ogni giorno. Se il campo **lastModified** esiste, la replica viene eseguita in modo incrementale, altrimenti viene replicata l&#39;intera tabella. [Ulteriori informazioni sulla replica dei dati](../../v8/architecture/replication.md) |
 | **Replica dati gestione temporanea** (ffdaReplicateStagingData) | Installato per impostazione predefinita solo per [distribuzioni Campaign Enterprise (FFDA)](../../v8/architecture/enterprise-deployment.md) | Replica i dati di staging per le chiamate unitarie. È pianificata per l&#39;esecuzione ogni ora, ogni giorno. [Ulteriori informazioni sulla replica dei dati](../../v8/architecture/replication.md) |
 | **Reporting aggregates** (reportingAggregates) | Consegna | Questo flusso di lavoro aggiorna gli aggregati utilizzati nei rapporti. Viene attivato ogni giorno alle 2 per impostazione predefinita. |
-| **Invio di indicatori e attributi della campagna** (webAnalyticsSendMetrics) | Connettori di analisi web | Questo flusso di lavoro consente di inviare gli indicatori della campagna e-mail da Adobe Campaign a Adobe Experience Cloud Suite tramite il connettore Adobe® Analytics. Gli indicatori interessati sono i seguenti: Inviato (iSent), conteggio totale di aperture (iTotalRecipientOpen), numero totale di destinatari che hanno fatto clic (iTotalRecipientClick), errori (iError), rinuncia (opt-out) (iOptOut). |
+| **Invio di indicatori e attributi della campagna** (webAnalyticsSendMetrics) | Connettori di analisi web | Questo flusso di lavoro consente di inviare gli indicatori della campagna e-mail da Adobe Campaign alla suite Adobe Experience Cloud tramite il connettore Adobe® Analytics. Gli indicatori interessati sono i seguenti: Inviato (iSent), conteggio totale di aperture (iTotalRecipientOpen), numero totale di destinatari che hanno fatto clic (iTotalRecipientClick), errori (iError), rinuncia (opt-out) (iOptOut). |
 | **Magazzino: Ordini e avvisi** (stockMgt) | Installato per impostazione predefinita | Questo flusso di lavoro avvia il calcolo delle scorte nelle linee dell&#39;ordine e gestisce le soglie degli avvisi di avvertenza. |
 | **Sincronizza app mobili da raccolta dati di Adobe Experience Platform** (syncWithLaunch) | Installato per impostazione predefinita, a partire dalla versione v8.5 | Questo flusso di lavoro sincronizzerà automaticamente le proprietà mobili con Adobe Campaign da Raccolta dati. |
 | **Tracciamento** (tracciamento) | Installato per impostazione predefinita | Questo flusso di lavoro esegue il ripristino e il consolidamento delle informazioni di tracciamento. Assicura inoltre il ricalcolo delle statistiche di tracciamento e consegna, in particolare quelle utilizzate dai flussi di lavoro di archiviazione del Centro messaggi. Per impostazione predefinita viene attivato una volta all’ora. |
