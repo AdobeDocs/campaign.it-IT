@@ -25,9 +25,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: f1f84f565326bd683b47e6e498add3100ea81c4c
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '515'
 ht-degree: 10%
 ---
 # Gestire gli abbonamenti e il loro annullamento {#optin-optout}
@@ -67,7 +67,7 @@ Per abbonare (opt-in) un profilo a un servizio, le opzioni disponibili sono:
 
   ![](assets/web-app.png)
 
-  Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=it#create-a-subscription--form-with-double-opt-in){target="_blank"}.
+  Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/it/docs/campaign-classic/using/designing-content/web-forms/use-cases-web-forms#create-a-subscription--form-with-double-opt-in){target="_blank"}.
 
 
 * Creare un flusso di lavoro di targeting e utilizzare un&#39;attività **[!UICONTROL Subscription service]**.

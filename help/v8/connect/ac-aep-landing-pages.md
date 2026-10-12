@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: f1f84f565326bd683b47e6e498add3100ea81c4c
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1039'
 ht-degree: 1%
 ---
 # Aggiornare i profili Adobe Experience Platform dalle pagine di destinazione di Adobe Campaign {#ac-aep-lp}
@@ -123,7 +123,7 @@ Sfoglia le schede seguenti per scoprire i due metodi:
 
 >[!TAB Aggiungi opzioni tramite un&#39;attività codice JavaScript]
 
-Per configurare automaticamente queste opzioni durante l&#39;esecuzione del flusso di lavoro delle pagine di destinazione, aggiungere un&#39;attività **[!UICONTROL JavaScript code]** al flusso di lavoro con il codice seguente. [Scopri come configurare un&#39;attività codice JavaScript](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html?lang=it#JavaScript-code){target="_blank"}.
+Per configurare automaticamente queste opzioni durante l&#39;esecuzione del flusso di lavoro delle pagine di destinazione, aggiungere un&#39;attività **[!UICONTROL JavaScript code]** al flusso di lavoro con il codice seguente. [Scopri come configurare un&#39;attività codice JavaScript](https://experienceleague.adobe.com/it/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code#JavaScript-code){target="_blank"}.
 
 Durante l’esecuzione del flusso di lavoro, le opzioni vengono create automaticamente nella console Campaign con i valori forniti.
 
