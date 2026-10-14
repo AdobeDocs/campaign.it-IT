@@ -1,6 +1,6 @@
 ---
-title: Pixel di tracciamento delle e-mail e linee guida CNIL
-description: Informazioni sulle linee guida aggiornate di CNIL sui pixel di tracciamento delle e-mail e sulle funzionalità di Adobe Campaign che possono supportare le attività di conformità.
+title: Linee guida sul tracciamento e-mail in pixel
+description: Scopri le linee guida normative sui pixel di tracciamento delle e-mail e le funzionalità di Adobe Campaign che supportano le attività di conformità.
 version: Campaign v8, Campaign Classic v7
 hide: true
 product_v2:
@@ -8,27 +8,25 @@ product_v2:
     internal-label: Campaign
   - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
     internal-label: Campaign v8
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 93335b46b1c706a9409f0816b2ced4ebc612d5fe
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 1%
+source-wordcount: '834'
+ht-degree: 0%
 ---
 
-# Informazioni sulle linee guida aggiornate di CNIL sui pixel di tracciamento e-mail
+# Linee guida sul tracciamento e-mail in pixel
 
 Questo post è solo a scopo informativo. Non si tratta di una consulenza legale e non garantisce il rispetto delle leggi applicabili da parte dell&#39;utente. Le funzionalità del prodotto Adobe Campaign descritte di seguito sono elementi di base che, configurati e gestiti in modo appropriato, possono supportare un’implementazione conforme. Ciascun cliente è responsabile della determinazione e del rispetto degli obblighi derivanti dalla legge applicabile.
 
 ## Panoramica
 
-Il 14 aprile 2026 la _Commission nationale de l&#39;informatique et des libertés_ (CNIL), l&#39;autorità francese per la protezione dei dati, ha pubblicato una [raccomandazione sull&#39;uso dei pixel di tracciamento nelle e-mail](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf). La guida chiarisce quando è necessario il consenso ed evidenzia l’importanza di pratiche di consenso appropriate per il tracciamento dei pixel dell’e-mail. Questo criterio potrebbe influire sulle pratiche di invio per qualsiasi entità che distribuisce e-mail agli abbonati con sede in Francia.
+Il 14 aprile 2026 la _Commission nationale de l&#39;informatique et des libertés_ (CNIL), l&#39;autorità francese per la protezione dei dati, ha pubblicato una [raccomandazione sull&#39;uso dei pixel di tracciamento nelle e-mail](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf). Poco dopo, l&#39;autorità italiana indipendente per la protezione dei dati (&quot;Garante&quot;) ha pubblicato la disposizione n. 284 (la &quot;disposizione Garante&quot;) del 17 aprile 2026. Entrambi i documenti di guida, anche se non sono giuridicamente vincolanti, chiariscono quando è necessario il consenso e sottolineano l’importanza di pratiche di consenso appropriate per il tracciamento dei pixel delle e-mail. Questa politica potrebbe influire sulle pratiche di invio per qualsiasi entità che consegna e-mail agli abbonati ai sensi della normativa UE sulla privacy applicabile.
 
-CNIL ha previsto un periodo di tre mesi dalla data della raccomandazione alle aziende di informare i propri destinatari e-mail (&quot;utenti&quot;) della presenza dei pixel di tracciamento, del loro scopo e del diritto degli utenti di rinunciare. Durante questo periodo di transizione, i clienti devono avvisare gli utenti in merito al tracciamento dei pixel e, se necessario, fornire una rinuncia. CNIL dovrebbe iniziare le attività di applicazione dopo il 14 luglio 2026.
+Man mano che le autorità di regolamentazione chiariscono le linee guida sui pixel di tracciamento e sui problemi correlati, Adobe continuerà a monitorare le modifiche e informerà i clienti sulle funzionalità tecniche dei prodotti Adobe che supportano il marketing via e-mail, incluso Adobe Campaign. La documentazione di Adobe sui pixel di tracciamento delle e-mail riflette le attuali linee guida normative. Adobe continuerà ad aggiornare la documentazione in base alle esigenze per riflettere le modifiche rilevanti che possono influire sull’utilizzo dei prodotti CXO di Adobe con l’evolversi dei requisiti normativi. I ritardi nell’aggiornamento dei materiali non costituiscono un errore per conto di Adobe.
 
-Poiché il CNIL e altri enti normativi chiariscono le linee guida sui pixel di tracciamento e sui problemi correlati, Adobe continuerà a monitorare gli aggiornamenti e informerà i clienti sulle funzionalità tecniche dei prodotti Adobe che supportano il marketing via e-mail, incluso Adobe Campaign.
+Le applicazioni di esecuzione del marketing via e-mail di Adobe, tra cui Adobe Journey Optimizer, Journey Optimizer B2B, Adobe Campaign e Marketo Engage, forniscono controlli che possono aiutare i clienti a gestire il tracciamento delle aperture a livello di consegna o e-mail. I clienti sono responsabili della determinazione dei propri obblighi di conformità in base alle linee guida applicabili e ad altre leggi, ma queste funzionalità possono supportare le attività di conformità dei clienti.
 
-Le applicazioni di esecuzione del marketing via e-mail di Adobe, tra cui Adobe Journey Optimizer, Journey Optimizer B2B, Adobe Campaign e Marketo Engage, forniscono controlli che possono aiutare i clienti a gestire il tracciamento delle aperture a livello di consegna o e-mail. I clienti sono responsabili della determinazione dei propri obblighi di conformità in base alle linee guida CNIL applicabili e ad altre leggi, ma queste funzionalità possono supportare le attività di conformità dei clienti.
-
-## Cos’è un pixel di tracciamento e-mail
+## Cos’è un pixel di tracciamento e-mail?
 
 Un pixel di tracciamento e-mail è un’immagine trasparente 1x1 incorporata nel HTML di un’e-mail. Quando il client e-mail del destinatario carica l’immagine, il pixel invia un ping a un server che registra dati quali marca temporale, tipo di dispositivo, client e-mail e, a volte, un indirizzo IP per la posizione approssimativa. Il registro viene quindi associato al record di un destinatario, consentendo agli addetti al marketing di verificare se è stata aperta un’e-mail.
 
@@ -38,7 +36,7 @@ I clienti che necessitano di assistenza per implementare le modifiche descritte 
 
 ## Funzionalità Adobe Campaign relative al tracciamento e-mail
 
-I clienti possono utilizzare i meccanismi nativi di tracciamento, schema e personalizzazione di Adobe Campaign per affrontare alcuni elementi durante la configurazione dell’architettura in base alle indicazioni CNIL:
+I clienti possono utilizzare i meccanismi nativi di tracciamento, schema e personalizzazione di Adobe Campaign per affrontare alcuni elementi durante la configurazione dell’architettura, in modo da soddisfare le indicazioni relative ai pixel di tracciamento delle e-mail:
 
 * **Classificazione della consegna.** Estendere `nms:delivery` con un attributo `emailType` (autenticazione, solo recapito messaggi, transazionale, marketing, servizio pubblico, ricerca B2B). La classificazione guida i pixel consentiti senza consenso.
 
@@ -57,10 +55,10 @@ Per ulteriori informazioni sul tracciamento delle e-mail nelle applicazioni di e
 
 | Prodotto | Documentazione di riferimento |
 |---|---|
-| Campaign v8 | [Verifica messaggi](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/analytics/tracking/url-tracking){target="_blank"} |
-| Campaign Classic | [Introduzione al tracciamento dei messaggi](https://experienceleague.adobe.com/it/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-message-tracking){target="_blank"} |
-| Journey Optimizer | [Documentazione di verifica messaggi](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/email/design-email/add-content/message-tracking){target="_blank"} |
-| Marketo Engage | [Disattivazione del tracciamento per un collegamento e-mail](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/email-marketing/general/functions-in-the-editor/disable-tracking-for-an-email-link){target="_blank"} |
-| Journey Optimizer B2B | [Documentazione sulle impostazioni e-mail](https://experienceleague.adobe.com/it/docs/journey-optimizer-b2b/user/journey-content/email-channel/add-email){target="_blank"} |
+| Campaign v8 | [Verifica messaggi](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/url-tracking){target="_blank"} |
+| Campaign Classic | [Introduzione al tracciamento dei messaggi](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-message-tracking){target="_blank"} |
+| Journey Optimizer | [Documentazione di verifica messaggi](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/message-tracking){target="_blank"} |
+| Marketo Engage | [Disattivazione del tracciamento per un collegamento e-mail](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/functions-in-the-editor/disable-tracking-for-an-email-link){target="_blank"} |
+| Journey Optimizer B2B | [Documentazione sulle impostazioni e-mail](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/email-channel/add-email){target="_blank"} |
 
 
