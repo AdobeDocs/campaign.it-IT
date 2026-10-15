@@ -26,20 +26,44 @@ topic_v2:
     internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 7ae0ea8d334af5e3580b594d5ddc8b52b10fa5b6
 workflow-type: tm+mt
-source-wordcount: '2098'
-ht-degree: 11%
+source-wordcount: '2446'
+ht-degree: 9%
 ---
 # Versioni più recenti {#latest-release}
 
 In questa pagina sono elencate le nuove funzionalità, i miglioramenti e le correzioni introdotte con le **versioni più recenti** di Campaign v8 (console). Ulteriori informazioni sulle versioni e gli aggiornamenti di Campaign sono disponibili in [questa pagina](upgrades.md). Altre versioni sono elencate nella sezione Versioni precedenti di questa documentazione.
 
+## Versione 8.9.4 {#release-8-9-4}
+
+_15 ottobre 2026_
+
+### Miglioramenti {#improvements-8-9-4}
+
+* Ora è possibile archiviare e condividere i temi dell’interfaccia utente della console client tra gli utenti. (NEO-96823)
+
+### Correzioni {#fixes-8-9-4}
+
+* È stato risolto un problema a causa del quale alcuni messaggi di feedback sui mancati recapiti potevano causare l’arresto degli aggiornamenti sullo stato della consegna, impedendo alle consegne interessate di rimanere nello stato &quot;Preso in considerazione dal provider di servizi&quot;. (NEO-98183)
+* È stato risolto un problema a causa del quale gli avvisi di consegna per le consegne bloccate in uno stato di inizio lungo in sospeso potevano essere attivati in modo errato a causa di un errore di calcolo della soglia. (NEO-93434)
+* È stato risolto un problema che poteva causare l’arresto anomalo del processo del server di mid-sourcing a causa dell’invio di consegne di contenuto di testo. (NEO-95122)
+* È stato risolto un problema a causa del quale l&#39;attività del flusso di lavoro **Read Group** poteva generare istruzioni SQL non valide per i campi delle espressioni calcolate. (NEO-95233)
+* È stato risolto un problema che poteva causare un conflitto tra gli ID delle parti di consegna generati per le consegne mid-sourcing FFDA. (NEO-95777)
+* È stato risolto un problema che causava l’arresto anomalo della console client a causa di alcuni caratteri negli URL di navigazione incorporati del browser. (NEO-96267)
+* È stato risolto un problema a causa del quale le consegne SMS venivano riportate in modo errato in Reporting dinamico. (NEO-96401)
+* È stato risolto un problema che poteva causare un errore nella preparazione della consegna per destinazioni di file esterni Snowflake o FFDA che non utilizzano la mappatura del profilo. (NEO-96507)
+* È stato risolto un problema che poteva causare un errore nei flussi di lavoro contenenti più query collegate a diverse origini FDA. (NEO-97249)
+* È stato risolto un problema a causa del quale i flussi di lavoro di arricchimento in tempo quasi reale potevano interrompersi a intermittenza a causa di errori SQL durante l’elaborazione di eventi attivati insieme in tempo. (NEO-97557)
+* È stato risolto un problema a causa del quale un meccanismo di blocco interno poteva entrare in un ciclo di tentativi e causare un elevato utilizzo di CPU sul server. (NEO-94845)
+* È stato risolto un problema che poteva causare un errore di preparazione della consegna con un errore SQL durante l’utilizzo degli indirizzi di seed insieme a una mappatura di destinazione personalizzata. (NEO-94966)
+* È stato risolto un problema che poteva causare un errore di overflow delle colonne nei flussi di lavoro FDA durante il caricamento dei dati in Redshift. (NEO-96125)
+* È stato risolto un problema che poteva causare il mancato funzionamento dell’account esterno di Analytics con un errore &quot;Gone&quot; (410). (NEO-99019)
+* È stato risolto un problema a causa del quale alcune consegne potevano rimanere bloccate nello stato di personalizzazione in sospeso anche se i messaggi corrispondenti venivano inviati correttamente. (NEO-94471)
+
 ## Versione 8.9.3 {#release-8-9-3}
 
 _11 agosto 2026_
-
-<!-- CONFIRM: is a client console upgrade required for 8.9.3? If yes, add the >[!CAUTION] notice used in 8.9.2/8.9.1. If no, add an explicit one-line "no console upgrade required for this release" statement so the absence reads as intentional. -->
 
 ### Miglioramenti di sicurezza {#security-8-9-3}
 
@@ -130,12 +154,12 @@ Il **nuovo connettore di invio SMS** è ora disponibile per tutti i clienti (GA)
 
 Questa versione include una serie di funzionalità disponibili con l’interfaccia utente di Campaign Web:
 
-* [Funzionalità di consegna multilingue (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=it){target="_blank"}
-* [Arricchimento dei profili nei messaggi transazionali (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html?lang=it){target="_blank"}
-* [Adobe Experience Manager Live e copie per lingua](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html?lang=it){target="_blank"}
-* [Esperimenti sul contenuto - Test A/B](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html?lang=it){target="_blank"}
-* [Attività di consegna continua](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html?lang=it){target="_blank"}
-* [Gestione dell’approvazione delle campagne](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html?lang=it){target="_blank"}
+* [Funzionalità di consegna multilingue (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
+* [Arricchimento dei profili nei messaggi transazionali (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
+* [Adobe Experience Manager Live e copie per lingua](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html){target="_blank"}
+* [Esperimenti sul contenuto - Test A/B](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html){target="_blank"}
+* [Attività di consegna continua](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html){target="_blank"}
+* [Gestione dell’approvazione delle campagne](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html){target="_blank"}
 
 Consulta le [note sulla versione](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=it){target="_blank"} dell’interfaccia utente di Campaign Web
 
@@ -155,7 +179,7 @@ Consulta le [note sulla versione](https://experienceleague.adobe.com/docs/campai
 * È stato risolto un problema che poteva causare errori di layout di HTML nel desktop di Outlook Windows. (NEO-92611)
 * È stato risolto un problema di integrità dei dati a causa del quale le chiavi primarie di consegna venivano duplicate sull’istanza mid dopo un aggiornamento. (NEO-92424)
 * È stato risolto un problema che impediva la disattivazione dei collegamenti nella finestra di dialogo Tracciamento e immagini in una consegna. (NEO-92381)
-* È stato risolto un problema che impediva il funzionamento della funzione nms.subscribtion.RecipientSubscribe() per l’abbonamento in blocco. (NEO-92308)
+* È stato risolto un problema che impediva il funzionamento della funzione nms.subscription.RecipientSubscribe() per l’abbonamento in blocco. (NEO-92308)
 * È stato risolto un problema che causava errori di consegna a causa di parti di consegna mancanti dopo un aggiornamento. (NEO-92278)
 * È stato risolto un problema nel flusso di lavoro di tracciamento a causa del quale errori di stato duplicati ed errori di sintassi SQL impedivano l’aggiornamento degli indicatori di tracciamento. (NEO-92239)
 * È stato risolto un problema a causa del quale le etichette dei campi di enumerazione risultavano mancanti o non venivano visualizzate correttamente negli elenchi creati tramite il flusso di lavoro quando si utilizzavano campi dbEnum. (NEO-91158)
@@ -170,8 +194,8 @@ Consulta le [note sulla versione](https://experienceleague.adobe.com/docs/campai
 * È stato corretto un errore che si verificava durante la concatenazione di un campo &quot;char&quot; in PostgreSQL 15. (NEO-88028)
 * È stato risolto un problema che causava la modifica dell’ordine delle variabili del modello di consegna durante il salvataggio o la duplicazione del modello. (NEO-87845)
 * È stato risolto un problema che causava l’arresto anomalo dell’interfaccia web a causa della creazione di un nuovo schema della libreria dati. (NEO-87816)
-* È stato risolto un problema relativo ai set di complementi nell’attività Deduplication. (NEO-87711)
-* È stata corretta una richiesta di pacchetto di installazione senza dipendenza X11. (NEO-87471)
+* È stato risolto un problema a causa del quale i codici di segmento per i set di complementi non funzionavano correttamente nell’attività Deduplication. (NEO-87711)
+* È stata aggiunta un&#39;opzione del pacchetto di installazione che non richiede la dipendenza X11. (NEO-87471)
 * È stato risolto un problema che impediva l’utilizzo dei codici di segmento nei report dinamici. (NEO-87276)
 * È stato risolto un problema che bloccava i flussi di lavoro nell’attività Update Data (Aggiorna dati). (NEO-87252)
 * È stato risolto un problema a causa del quale BigQuery utilizzava un fuso orario errato. (NEO-86622)
@@ -183,7 +207,7 @@ Consulta le [note sulla versione](https://experienceleague.adobe.com/docs/campai
 * È stato risolto un problema a causa del quale i modelli di consegna tecnica non venivano aggiornati dopo le modifiche apportate alle opzioni. (NEO-84149)
 * È stato corretto un errore nel flusso di lavoro di fatturazione preconfigurato. (NEO-83624)
 * È stato risolto un problema di esclusione dei duplicati basati solo sulla chiave primaria dei record di destinazione. (NEO-82910)
-* Sono state corrette le discrepanze nei rapporti dell’interfaccia utente web di Campaign a causa delle quali le statistiche di tracciamento mostravano valori diversi rispetto alla console. (NEO-82339)
+* Sono state corrette le discrepanze nei rapporti dell’interfaccia utente web di Campaign a causa delle quali le statistiche di tracciamento mostravano valori diversi rispetto alla console client. (NEO-82339)
 * È stato risolto un problema che causava la modifica della data dell’ultima modifica anche se il record non doveva essere aggiornato nell’attività Aggiorna dati. (NEO-82002)
 * È stato risolto un problema che impediva l’aggiunta di nuovi attributi in un elenco a causa del quale i flussi di lavoro che leggevano l’elenco non riuscivano. (NEO-80258)
 * È stato risolto un problema che causava la visualizzazione di valori errati nel rapporto Tracking Indicators (Indicatori di tracciamento) per aperture distinte. (NEO-79466)
