@@ -82,7 +82,7 @@ Di seguito è riportato un esempio di configurazione di un evento per l’invio 
                 <mobileApp _operation="none" uuid="com.adobe.NeoMiles"/>
                 <ctx>
                     <deliveryTime>1:30 PM</deliveryTime>
-                    <url>http://www.adobe.com</url>
+                    <url>http://www.adobe.com/it</url>
                 </ctx>
               </rtEvent>
 

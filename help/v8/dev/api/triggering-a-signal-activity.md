@@ -118,7 +118,7 @@ Per attivare un&#39;attività di segnale, esegui una richiesta POST sull&#39;URL
 -d    "audience":"audience",
 -d    "email":"anna.varney@mail.com",
 -d    "template":"05",
--d    "contentURL":"http://www.adobe.com",
+-d    "contentURL":"http://www.adobe.com/it",
 -d    "test":"true",
 -d    "segmentCode":"my segment",
 -d    "attribute":"2019-04-03 08:17:19.100Z"}
