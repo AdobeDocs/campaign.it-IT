@@ -88,8 +88,8 @@ Si consiglia vivamente di includere gli URL nei delimitatori nella scheda **[!UI
 * Parentesi [ ]
 * Parentesi graffe { }
 
-In questo esempio, l&#39;URL https://www.adobe.com è seguito da un punto e virgola. Il punto e virgola può essere interpretato dai client e-mail dei destinatari come parte dell’URL. Di conseguenza, il collegamento potrebbe essere interrotto. Per evitare questo problema, puoi racchiudere l’URL nei delimitatori in uno dei seguenti modi:
+In questo esempio, l&#39;URL https://www.adobe.com/it è seguito da un punto e virgola. Il punto e virgola può essere interpretato dai client e-mail dei destinatari come parte dell’URL. Di conseguenza, il collegamento potrebbe essere interrotto. Per evitare questo problema, puoi racchiudere l’URL nei delimitatori in uno dei seguenti modi:
 
-* (https://www.adobe.com)
-* [https://www.adobe.com];
-* {https://www.adobe.com};
+* (https://www.adobe.com/it)
+* [https://www.adobe.com/it];
+* {https://www.adobe.com/it};
