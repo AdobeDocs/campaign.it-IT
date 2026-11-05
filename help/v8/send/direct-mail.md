@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: cb79282ed9b2b560201a001787c439a5da462ce1
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '921'
 ht-degree: 7%
 ---
 # Creare consegne di direct mailing
@@ -90,11 +90,11 @@ Questo collegamento ti consente di accedere all’assistente per l’estrazione 
 
 ![](assets/s_ncs_user_mail_delivery_format_wz.png)
 
-Puoi inserire un URL personalizzato nel file di estrazione. Per ulteriori informazioni, consulta la [documentazione](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/publishing-a-web-form.html?lang=it){target="_blank"} di Adobe Campaign Classic.
+Puoi inserire un URL personalizzato nel file di estrazione. Per ulteriori informazioni, consulta la [documentazione](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/publishing-a-web-form.html){target="_blank"} di Adobe Campaign Classic.
 
 >[!NOTE]
 >
->L&#39;assistente include i passaggi dell&#39;assistente all&#39;esportazione descritti nella [documentazione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html?lang=it){target="_blank"} di Adobe Campaign Classic.
+>L&#39;assistente include i passaggi dell&#39;assistente all&#39;esportazione descritti nella [documentazione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html){target="_blank"} di Adobe Campaign Classic.
 
 ## Convalidare la consegna{#validating}
 
@@ -138,3 +138,7 @@ Dopo aver convalidato il file di estrazione, fai clic su **Conferma consegna** u
 La conferma avvia l’estrazione dei dati nel file specificato.
 
 Nel contesto di una campagna di marketing, quando tutte le approvazioni sono state concesse, i file di estrazione vengono creati tramite un flusso di lavoro speciale che, in una configurazione predefinita, si avvia automaticamente quando una consegna direct mailing è in attesa di estrazione. Per ulteriori informazioni, consulta [questa sezione](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=it){target="_blank"}.
+
+>[!NOTE]
+>
+>Quando si utilizza un&#39;attività **[!UICONTROL Direct mail]** in un flusso di lavoro, la relativa transizione in uscita trasporta la popolazione di destinazione, non il file di estrazione generato. Per inviare il file a un server, aggiungere un&#39;attività **[!UICONTROL Data extraction]** dopo l&#39;attività **[!UICONTROL Direct mail]**, quindi un&#39;attività **[!UICONTROL File transfer]**.
