@@ -18,10 +18,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 8a7bf8408d15e0bd9e1c3e72f7846bf9a79c6885
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 4%
+source-wordcount: '112'
+ht-degree: 1%
 ---
 
 # Piattaforma di mid-sourcing{#mid-sourcing-platform}
@@ -45,3 +45,6 @@ Per impostazione predefinita, il flusso di lavoro descritto di seguito viene ins
  </tbody> 
 </table>
 
+>[!NOTE]
+>
+>Il periodo di conservazione del registro nel server di mid-sourcing deve essere più lungo del periodo di validità della consegna più il valore **indicatorsDuration**. In caso contrario, gli indicatori di consegna diminuiscono quando i registri precedenti vengono eliminati e i valori inferiori vengono sincronizzati con l’istanza di marketing. Ad esempio, con un periodo di validità di 5 giorni e una **indicatorsDuration** di 30 giorni, imposta il periodo di conservazione su almeno 36 giorni.
