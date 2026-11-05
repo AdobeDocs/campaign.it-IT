@@ -49,9 +49,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: f0e325102f748f6268a21a5397774a08a6994e51
 workflow-type: tm+mt
-source-wordcount: '3442'
+source-wordcount: '3475'
 ht-degree: 6%
 ---
 # Errori di consegna {#delivery-failures}
@@ -156,6 +156,8 @@ Il periodo di validità impostato nelle consegne di Campaign è limitato a **3,5
 Ad esempio, se il periodo di validità è impostato sul valore predefinito di 5 giorni in Campaign, i messaggi in soft-bouncing verranno inseriti nella coda dei nuovi tentativi MTA e verranno ritentati solo per un massimo di 3,5 giorni da quando il messaggio ha raggiunto l’MTA. In tal caso, il valore impostato in Campaign non verrà utilizzato.
 
 Una volta che un messaggio è rimasto nella coda MTA per 3,5 giorni e la consegna non è riuscita, si verificherà un timeout e il suo stato verrà aggiornato da **[!UICONTROL Sent]** a **[!UICONTROL Failed]** nei registri di consegna.
+
+Un messaggio può scadere prima della fine del periodo di validità, quando il prossimo tentativo rientra dopo la scadenza. Il registro di consegna mostra quindi l’errore dell’ultimo tentativo di consegna.
 
 <!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=it#defining-validity-period){target="_blank"}.-->
 

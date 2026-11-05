@@ -19,9 +19,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 2d8aa27d6565e216cc0842ba22678c884479ff43
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1244'
 ht-degree: 9%
 ---
 # Configurare e inviare la consegna {#configure-delivery}
@@ -98,6 +98,8 @@ Una regola di tipologia specifica, **[!UICONTROL Wave scheduling check]**, garan
 >* Assicurarsi che gli ultimi scaglioni non superino la scadenza della consegna, definita nella scheda **[!UICONTROL Validity]**. In caso contrario, alcuni messaggi potrebbero non essere inviati. Ulteriori informazioni sul periodo di validità di una consegna in [questa sezione](delivery-failures.md#valid-period).
 >
 >* È inoltre necessario impostare un tempo sufficiente per i nuovi tentativi durante la configurazione delle ultime ondate. Ulteriori informazioni sui nuovi tentativi in [questa sezione](delivery-failures.md#retries).
+>
+>* Gli scaglioni sono pianificati dalla data di contatto della consegna. Se la consegna inizia dopo il tempo pianificato di una o più ondate, queste ultime vengono tutte inviate insieme anziché essere distanziate.
 
 ### Monitorare le ondate {#monitor-waves}
 
