@@ -27,9 +27,9 @@ subfeature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 3ee068c0bb8fd8516218711ed2e0efa1cb12c643
 workflow-type: tm+mt
-source-wordcount: '1777'
+source-wordcount: '1779'
 ht-degree: 7%
 ---
 # Esempi di codice JavaScript nei flussi di lavoro{#javascript-in-workflows}
@@ -71,7 +71,7 @@ Per scrivere nel database, è possibile utilizzare il metodo statico `Write` nel
    1. Chiama il metodo `Write` nello schema `xtk:session`.
 
       >[!IMPORTANT]
-      > Se utilizzi Adobe Campaign v8, ti consigliamo di utilizzare il meccanismo di gestione temporanea con le API **Ingestion** e **Data update/delete** per il metodo `Write` in una tabella Snowflake. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html){target="_blank"}.
+      > Se utilizzi Adobe Campaign v8, ti consigliamo di utilizzare il meccanismo di gestione temporanea con le API **Ingestion** e **Data update/delete** per il metodo `Write` in una tabella Snowflake. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/architecture/ffda/new-apis){target="_blank"}.
 
    1. Passa il codice XML come argomento per la richiesta di scrittura.
 
@@ -581,7 +581,7 @@ for each (var w in res.recipient)
 * Operazione `delete`
 
 >[!IMPORTANT]
-> Se utilizzi Adobe Campaign v8, ti consigliamo di utilizzare il meccanismo di gestione temporanea con le API **Ingestion** e **Data update/delete** per il metodo `Write` in una tabella Snowflake. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html){target="_blank"}.
+> Se utilizzi Adobe Campaign v8, ti consigliamo di utilizzare il meccanismo di gestione temporanea con le API **Ingestion** e **Data update/delete** per il metodo `Write` in una tabella Snowflake. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/architecture/ffda/new-apis){target="_blank"}.
 
 #### Esempio 1: inserire o aggiornare un record
 
