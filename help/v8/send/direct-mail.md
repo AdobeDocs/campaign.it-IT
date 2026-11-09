@@ -94,7 +94,7 @@ Puoi inserire un URL personalizzato nel file di estrazione. Per ulteriori inform
 
 >[!NOTE]
 >
->L&#39;assistente include i passaggi dell&#39;assistente all&#39;esportazione descritti nella [documentazione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html){target="_blank"} di Adobe Campaign Classic.
+>L&#39;assistente include i passaggi dell&#39;assistente all&#39;esportazione descritti nella [documentazione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html?lang=it){target="_blank"} di Adobe Campaign Classic.
 
 ## Convalidare la consegna{#validating}
 
