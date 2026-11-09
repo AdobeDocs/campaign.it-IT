@@ -53,13 +53,13 @@ Scopri come creare il tuo primo sondaggio in [questa pagina](getting-started-wit
 
 >[!NOTE]
 >
->* I passaggi dettagliati per la creazione di un modulo Web standard sono disponibili in [questo documento](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}.
+>* I passaggi dettagliati per la creazione di un modulo Web standard sono disponibili in [questo documento](https://experienceleague.adobe.com/it/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}.
 >
->* La gestione delle applicazioni Web è descritta in [questo documento](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-applications/about-web-applications){target="_blank"}. Fare riferimento a questo capitolo per ulteriori informazioni.
+>* La gestione delle applicazioni Web è descritta in [questo documento](https://experienceleague.adobe.com/it/docs/campaign-classic/using/designing-content/web-applications/about-web-applications){target="_blank"}. Fare riferimento a questo capitolo per ulteriori informazioni.
 
 ## Ambito della funzione {#campaign-surveys-scope}
 
-In Adobe Campaign, utilizza [applicazioni Web](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"} per:
+In Adobe Campaign, utilizza [applicazioni Web](https://experienceleague.adobe.com/it/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"} per:
 
 * Creare moduli a più pagine
 * Gestire i moduli multilingue con uno strumento di traduzione integrato
@@ -90,7 +90,7 @@ Applica i seguenti passaggi per creare e consegnare un sondaggio ed elaborarne i
 1. Pubblica, quindi distribuisci il sondaggio ai destinatari (ad esempio, includi il collegamento in una consegna o in un sito web).
 1. Monitora le risposte e visualizza i rapporti.
 
-Per ulteriori informazioni sulla configurazione e la sequenza di questi passaggi, consulta [questo documento](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}. In questo capitolo sono descritte solo le configurazioni specifiche dei sondaggi.
+Per ulteriori informazioni sulla configurazione e la sequenza di questi passaggi, consulta [questo documento](https://experienceleague.adobe.com/it/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}. In questo capitolo sono descritte solo le configurazioni specifiche dei sondaggi.
 
 >[!CAUTION]
 >
@@ -107,4 +107,4 @@ Le impostazioni vengono memorizzate nelle seguenti cartelle:
 
 >[!NOTE]
 >
->I dettagli delle impostazioni sono disponibili in [questo documento](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}.
+>I dettagli delle impostazioni sono disponibili in [questo documento](https://experienceleague.adobe.com/it/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}.

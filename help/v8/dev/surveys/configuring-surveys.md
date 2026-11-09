@@ -36,7 +36,7 @@ ht-degree: 0%
 
 I sondaggi online sono completamente configurabili e personalizzabili per soddisfare le tue esigenze. I parametri devono essere immessi nella finestra delle proprietà.
 
-I parametri disponibili sono descritti in dettaglio in [questo documento](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/defining-web-forms-properties){target="_blank"}.
+I parametri disponibili sono descritti in dettaglio in [questo documento](https://experienceleague.adobe.com/it/docs/campaign-classic/using/designing-content/web-forms/defining-web-forms-properties){target="_blank"}.
 
 ![](assets/s_ncs_admin_survey_properties_general.png)
 

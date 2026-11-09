@@ -42,7 +42,7 @@ Le pagine del modulo vengono create utilizzando un editor speciale che consente 
 
 >[!NOTE]
 >
->Per ulteriori informazioni su come definire il contenuto e creare layout di schermo per un modulo Web, fare riferimento a [questo documento](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}.
+>Per ulteriori informazioni su come definire il contenuto e creare layout di schermo per un modulo Web, fare riferimento a [questo documento](https://experienceleague.adobe.com/it/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}.
 
 ## Aggiungi campi {#adding-fields}
 
@@ -71,7 +71,7 @@ La natura del campo da aggiungere (elenco a discesa, campo di testo, caselle di 
 
 ![](assets/s_ncs_admin_survey_change_type.png)
 
-I vari tipi di campi disponibili sono descritti in [questa sezione](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}.
+I vari tipi di campi disponibili sono descritti in [questa sezione](https://experienceleague.adobe.com/it/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}.
 
 ## Elementi specifici del sondaggio {#survey-specific-elements}
 
@@ -106,7 +106,7 @@ Inoltre, il percorso di archiviazione per questo campo di input deve essere un *
 
 ### Aggiungi domande {#adding-questions}
 
-Esistono due tipi di contenitori: standard e domanda. I contenitori Standard vengono utilizzati per configurare il layout di pagina e la visualizzazione condizionale in una pagina. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}.
+Esistono due tipi di contenitori: standard e domanda. I contenitori Standard vengono utilizzati per configurare il layout di pagina e la visualizzazione condizionale in una pagina. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}.
 
 Utilizza un contenitore **Domanda** per aggiungere una domanda alla pagina e inserire le possibili risposte di seguito nella gerarchia. Le risposte degli utenti alle domande poste in questo tipo di contenitore possono essere analizzate nei rapporti.
 
@@ -120,7 +120,7 @@ L&#39;etichetta della domanda viene immessa nel campo etichetta. In questo caso,
 
 >[!NOTE]
 >
->Fai riferimento a [questo documento](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"} per ulteriori informazioni sull&#39;utilizzo dell&#39;editor di HTML.
+>Fai riferimento a [questo documento](https://experienceleague.adobe.com/it/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"} per ulteriori informazioni sull&#39;utilizzo dell&#39;editor di HTML.
 
 Ad esempio:
 

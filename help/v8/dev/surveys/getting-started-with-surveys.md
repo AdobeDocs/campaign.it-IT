@@ -125,7 +125,7 @@ Nell&#39;esempio seguente viene utilizzata una pagina di tipo **[!UICONTROL Page
 
   >[!NOTE]
   >
-  >Per ogni campo o domanda, è possibile adattare il layout di pagina in base alle proprie esigenze, grazie alle opzioni disponibili nella scheda **[!UICONTROL Advanced]**. Il layout delle schermate del sondaggio è descritto in [questa sezione](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}.
+  >Per ogni campo o domanda, è possibile adattare il layout di pagina in base alle proprie esigenze, grazie alle opzioni disponibili nella scheda **[!UICONTROL Advanced]**. Il layout delle schermate del sondaggio è descritto in [questa sezione](https://experienceleague.adobe.com/it/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}.
 
   Nella schermata di dettaglio, fare clic sulla scheda **[!UICONTROL Preview]** per visualizzare il rendering del sondaggio appena creato.
 
