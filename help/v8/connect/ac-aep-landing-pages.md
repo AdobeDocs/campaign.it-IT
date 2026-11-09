@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f1f84f565326bd683b47e6e498add3100ea81c4c
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1024'
 ht-degree: 1%
 ---
 # Aggiornare i profili Adobe Experience Platform dalle pagine di destinazione di Adobe Campaign {#ac-aep-lp}
@@ -369,5 +369,5 @@ Di seguito è riportato un esempio di pagina di destinazione e di attività codi
 ### Ulteriori informazioni
 
 * [Configurare un’attività di codice JavaScript](../../automation/workflow/sql-code-and-javascript-code.md#javascript-code)
-* [Creare una pagina di destinazione](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/creating-a-landing-page.html?lang=it){target="_blank"}
+* [Creare una pagina di destinazione](../dev/web/creating-a-landing-page.md)
 * [Gestire gli abbonamenti e il loro annullamento](../start/subscriptions.md)

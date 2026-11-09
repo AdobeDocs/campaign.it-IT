@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
-source-git-commit: aa436bfd174075f7ed3e144ea0b16832b6b811ff
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '797'
 ht-degree: 2%
 ---
 # Progettare un sondaggio{#building-a-survey}
@@ -42,7 +42,7 @@ Le pagine del modulo vengono create utilizzando un editor speciale che consente 
 
 >[!NOTE]
 >
->Per ulteriori informazioni su come definire il contenuto e creare layout di schermo per un modulo Web, fare riferimento a [questo documento](https://experienceleague.adobe.com/it/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}.
+>Per ulteriori informazioni su come definire il contenuto e creare layout di schermo per un modulo Web, fare riferimento a [questo documento](../web/about-web-forms.md).
 
 ## Aggiungi campi {#adding-fields}
 
@@ -71,7 +71,7 @@ La natura del campo da aggiungere (elenco a discesa, campo di testo, caselle di 
 
 ![](assets/s_ncs_admin_survey_change_type.png)
 
-I vari tipi di campi disponibili sono descritti in [questa sezione](https://experienceleague.adobe.com/it/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}.
+I vari tipi di campi disponibili sono descritti in [questa sezione](../web/about-web-forms.md).
 
 ## Elementi specifici del sondaggio {#survey-specific-elements}
 
@@ -106,7 +106,7 @@ Inoltre, il percorso di archiviazione per questo campo di input deve essere un *
 
 ### Aggiungi domande {#adding-questions}
 
-Esistono due tipi di contenitori: standard e domanda. I contenitori Standard vengono utilizzati per configurare il layout di pagina e la visualizzazione condizionale in una pagina. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}.
+Esistono due tipi di contenitori: standard e domanda. I contenitori Standard vengono utilizzati per configurare il layout di pagina e la visualizzazione condizionale in una pagina. [Ulteriori informazioni](../web/about-web-forms.md).
 
 Utilizza un contenitore **Domanda** per aggiungere una domanda alla pagina e inserire le possibili risposte di seguito nella gerarchia. Le risposte degli utenti alle domande poste in questo tipo di contenitore possono essere analizzate nei rapporti.
 
@@ -120,7 +120,7 @@ L&#39;etichetta della domanda viene immessa nel campo etichetta. In questo caso,
 
 >[!NOTE]
 >
->Fai riferimento a [questo documento](https://experienceleague.adobe.com/it/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"} per ulteriori informazioni sull&#39;utilizzo dell&#39;editor di HTML.
+>Fai riferimento a [questo documento](../web/about-web-forms.md) per ulteriori informazioni sull&#39;utilizzo dell&#39;editor di HTML.
 
 Ad esempio:
 

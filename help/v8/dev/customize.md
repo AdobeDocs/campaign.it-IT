@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f1f84f565326bd683b47e6e498add3100ea81c4c
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '503'
 ht-degree: 1%
 ---
 # Personalizzare l’istanza {#gs-ac-custom}
@@ -92,7 +92,7 @@ L’interfaccia di Adobe Campaign utilizza molte applicazioni web per accedere, 
 
 Le applicazioni Web incorporate sono memorizzate nella cartella **Amministrazione > Configurazione > Applicazioni Web** di Explorer.
 
-Scopri come creare una pagina di panoramica in Campaign nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/it/docs/campaign-classic/using/designing-content/web-applications/use-cases-creating-overviews#creating-a-single-page-web-application){target="_blank"}
+Scopri come creare una pagina di panoramica in Campaign in [questa sezione](web/use-cases-creating-overviews.md#creating-a-single-page-web-application)
 
 
 ## Personalizzare gli elenchi e creare i filtri {#gs-lists-and-filters}

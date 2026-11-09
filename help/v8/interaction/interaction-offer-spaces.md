@@ -24,9 +24,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '837'
 ht-degree: 1%
 ---
 # Creare spazi dell’offerta{#creating-offer-spaces}
@@ -173,4 +173,4 @@ Se un destinatario non è idoneo per nessuna offerta, ciò viene mostrato nell�
 
 L’anteprima può ignorare i contesti quando sono limitati a uno spazio. Ciò si verifica quando lo schema di interazione è stato esteso per aggiungere campi a cui si fa riferimento in uno spazio utilizzando un canale in entrata.
 
-Per ulteriori informazioni, consulta questo esempio nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html?lang=it){target="_blank"}.
+Per ulteriori informazioni, consulta questo esempio in [questa sezione](extension-example.md).

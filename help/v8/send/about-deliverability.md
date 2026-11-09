@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '790'
 ht-degree: 8%
 ---
 # Che cos’è il recapito messaggi{#about-deliverability}
@@ -74,7 +74,7 @@ Durante la configurazione, la progettazione e il test del messaggio, assicurati 
 
 Per evitare l’invio di messaggi a indirizzi non validi, limitare le comunicazioni improprie e migliorare la reputazione del mittente, Adobe consiglia di implementare un doppio meccanismo di consenso. Questo metodo ti consente di garantire che i destinatari si siano abbonati intenzionalmente.
 
-Per ulteriori informazioni, consulta [Creare un abbonamento con doppio consenso](https://experienceleague.adobe.com/it/docs/campaign-classic/using/designing-content/web-forms/use-cases-web-forms){target=_blank}.
+Per ulteriori informazioni, consulta [Creare un abbonamento con doppio consenso](../dev/web/use-cases-web-forms.md).
 
 Per ulteriori informazioni sulle best practice per la raccolta di dati dai clienti, consulta la [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html?lang=it#data-quality-and-hygiene){target="_blank"}.
 

@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: cb79282ed9b2b560201a001787c439a5da462ce1
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 7%
+source-wordcount: '904'
+ht-degree: 8%
 ---
 # Creare consegne di direct mailing
 
@@ -90,7 +90,7 @@ Questo collegamento ti consente di accedere all’assistente per l’estrazione 
 
 ![](assets/s_ncs_user_mail_delivery_format_wz.png)
 
-Puoi inserire un URL personalizzato nel file di estrazione. Per ulteriori informazioni, consulta la [documentazione](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/publishing-a-web-form.html?lang=it){target="_blank"} di Adobe Campaign Classic.
+Puoi inserire un URL personalizzato nel file di estrazione. Per ulteriori informazioni al riguardo, consulta [questa sezione](../dev/web/publishing-a-web-form.md).
 
 >[!NOTE]
 >

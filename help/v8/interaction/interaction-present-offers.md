@@ -21,9 +21,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '187'
 ht-degree: 8%
 ---
 # Presenta l’offerta migliore{#interaction-present-offers}
@@ -34,7 +34,7 @@ Le offerte possono essere presentate in vari spazi di offerta utilizzando [un ca
 
 Per poter essere selezionata dal motore di offerta, un’offerta deve essere approvata e disponibile in un ambiente live.
 
-Per ulteriori informazioni, consulta la [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=it#approving-offer-content){target="_blank"}.
+Per ulteriori informazioni al riguardo, consulta [questa sezione](approving-and-activating-an-offer.md#approving-offer-content).
 
 Nel contesto di un contatto in entrata, l’utente che sta navigando nella pagina può essere identificato dal sito web o meno. Il motore di offerta presenta diverse offerte per profili identificati e per profili anonimi.
 

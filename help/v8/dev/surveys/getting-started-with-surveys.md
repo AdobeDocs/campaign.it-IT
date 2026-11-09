@@ -21,9 +21,9 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
-source-git-commit: aa436bfd174075f7ed3e144ea0b16832b6b811ff
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '944'
 ht-degree: 1%
 ---
 # Passaggi chiave per creare un sondaggio{#getting-started-with-surveys}
@@ -125,7 +125,7 @@ Nell&#39;esempio seguente viene utilizzata una pagina di tipo **[!UICONTROL Page
 
   >[!NOTE]
   >
-  >Per ogni campo o domanda, è possibile adattare il layout di pagina in base alle proprie esigenze, grazie alle opzioni disponibili nella scheda **[!UICONTROL Advanced]**. Il layout delle schermate del sondaggio è descritto in [questa sezione](https://experienceleague.adobe.com/it/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}.
+  >Per ogni campo o domanda, è possibile adattare il layout di pagina in base alle proprie esigenze, grazie alle opzioni disponibili nella scheda **[!UICONTROL Advanced]**. Il layout delle schermate del sondaggio è descritto in [questa sezione](../web/about-web-forms.md).
 
   Nella schermata di dettaglio, fare clic sulla scheda **[!UICONTROL Preview]** per visualizzare il rendering del sondaggio appena creato.
 

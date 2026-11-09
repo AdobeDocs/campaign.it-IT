@@ -41,9 +41,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '2969'
+source-wordcount: '2954'
 ht-degree: 49%
 ---
 # Best practice per la sicurezza di Campaign {#ac-security}
@@ -158,7 +158,7 @@ Di seguito è riportato il flusso generale relativo a questo caso d’uso:
 
 Adobe Campaign ti consente di raccogliere dati, incluse informazioni personali e riservate. È pertanto essenziale ricevere e monitorare il consenso dei destinatari.
 
-* Assicurati che i destinatari ricevano le comunicazioni solo se lo desiderano. Per farlo, accetta al più presto le richieste di rifiuto e verifica il consenso mediante un processo di doppio consenso. Per ulteriori informazioni, consulta [Creare un abbonamento con doppio consenso](https://experienceleague.adobe.com/it/docs/campaign-classic/using/designing-content/web-forms/use-cases-web-forms){target=_blank}.
+* Assicurati che i destinatari ricevano le comunicazioni solo se lo desiderano. Per farlo, accetta al più presto le richieste di rifiuto e verifica il consenso mediante un processo di doppio consenso. Per ulteriori informazioni, consulta [Creare un abbonamento con doppio consenso](../dev/web/use-cases-web-forms.md).
 * Non importare elenchi fraudolenti e utilizza indirizzi di seed per verificare che il file client non venga utilizzato in modo fraudolento. Per ulteriori informazioni, consulta [Informazioni sugli indirizzi di seed](https://experienceleague.adobe.com/it/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses){target=_blank}.
 * Tramite la gestione del consenso e dei diritti puoi tenere traccia delle preferenze dei destinatari e gestire chi all’interno dell’organizzazione può accedere ai dati. Per ulteriori informazioni, consulta [questa sezione](#consent).
 * Facilita e gestisci le richieste di accesso a dati personali dei destinatari. Per ulteriori informazioni, consulta [questa sezione](#privacy-requests).

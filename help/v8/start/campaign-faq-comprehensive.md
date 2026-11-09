@@ -1515,7 +1515,7 @@ Sì! Campaign include un modulo Survey che consente di creare questionari online
 
 **Argomenti correlati:**
 
-[Introduzione ai sondaggi](https://experienceleague.adobe.com/en/docs/campaign-classic/using/online-surveys/about-surveys){target="_blank"} | [Report sondaggi](https://experienceleague.adobe.com/en/docs/campaign-classic/using/online-surveys/publish-track-and-use-collected-data#reports-on-surveys){target="_blank"}
+[Introduzione ai sondaggi](https://experienceleague.adobe.com/it/docs/campaign-classic/using/online-surveys/about-surveys){target="_blank"} | [Report sondaggi](https://experienceleague.adobe.com/it/docs/campaign-classic/using/online-surveys/publish-track-and-use-collected-data#reports-on-surveys){target="_blank"}
 
 +++
 

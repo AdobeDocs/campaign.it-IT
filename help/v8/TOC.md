@@ -5,10 +5,10 @@ user-guide-description: Documentazione di prodotto per Adobe Campaign v8 (consol
 title: Documentazione di Adobe Campaign v8
 description: Documentazione di Campaign v8
 breadcrumb-title: Documentazione di Campaign v8
-source-git-commit: aa436bfd174075f7ed3e144ea0b16832b6b811ff
+source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 86%
+source-wordcount: '1084'
+ht-degree: 88%
 ---
 
 # Documentazione di Adobe Campaign v8 (console) {#campaign-v8}
@@ -133,6 +133,35 @@ ht-degree: 86%
 + Pagine di destinazione e moduli {#content}
   + [Creare pagine di destinazione](dev/landing-pages.md)
   + [Progettare applicazioni web e moduli](dev/webapps.md)
+  + Applicazioni web {#web-applications}
+    + [Introduzione alle applicazioni web](dev/web/about-web-applications.md)
+    + [Creare una nuova applicazione web](dev/web/creating-a-new-web-application.md)
+    + [Progettare un’applicazione web](dev/web/designing-a-web-application.md)
+    + [Casi d’uso: creare panoramiche](dev/web/use-cases-creating-overviews.md)
+    + [Progettare un’applicazione web](dev/web/translating-a-web-application.md)
+    + [Tracciare le visite in un’applicazione web](dev/web/tracking-a-web-application.md)
+    + [Rinuncia al tracciamento delle applicazioni web](dev/web/web-application-tracking-opt-out.md)
+  + Modificare i contenuti HTML {#editing-html-content}
+    + [Introduzione all’editor HTML](dev/web/about-campaign-html-editor.md)
+    + [Gestione dei modelli](dev/web/template-management.md)
+    + [Interfaccia dell’editor di contenuti](dev/web/content-editor-interface.md)
+    + [Modificare i contenuti](dev/web/editing-content.md)
+    + [Best practice per la modifica dei contenuti](dev/web/content-editing-best-practices.md)
+    + [Creare una pagina di destinazione](dev/web/creating-a-landing-page.md)
+    + [Caso d’uso: creare una consegna e-mail](dev/web/use-case-creating-an-email-delivery.md)
+  + Moduli web {#web-forms}
+    + [Introduzione ai moduli web](dev/web/about-web-forms.md)
+    + [Usare un modello per moduli web](dev/web/using-a-web-form-template.md)
+    + [Aggiungere campi a un modulo web](dev/web/adding-fields-to-a-web-form.md)
+    + [Elementi statici in un modulo web](dev/web/static-elements-in-a-web-form.md)
+    + [Definire il layout dei moduli web](dev/web/defining-web-forms-layout.md)
+    + [Rendering di un modulo](dev/web/form-rendering.md)
+    + [Definire la sequenza di pagine](dev/web/defining-web-forms-page-sequencing.md)
+    + [Salvare le risposte ai moduli web](dev/web/web-forms-answers.md)
+    + [Pubblicare un modulo web](dev/web/publishing-a-web-form.md)
+    + [Definire le proprietà dei moduli web](dev/web/defining-web-forms-properties.md)
+    + [Pubblicare un modulo web](dev/web/translating-a-web-form.md)
+    + [Casi d’uso: moduli web](dev/web/use-cases-web-forms.md)
   + Indagini {#surveys}
     + [Introduzione ai sondaggi](dev/surveys/about-surveys.md)
     + [Passaggi chiave per creare un sondaggio](dev/surveys/getting-started-with-surveys.md)
@@ -164,9 +193,24 @@ ht-degree: 86%
     + [Contesto](interaction/interaction-present-offers.md)
     + [Chiamare un’offerta in una pagina web](interaction/interaction-integration.md)
     + [Gestire le interazioni anonime](interaction/anonymous-interactions.md)
+  + Gestire un catalogo delle offerte {#managing-an-offer-catalog}
+    + [Approvare e attivare un’offerta](interaction/approving-and-activating-an-offer.md)
+    + [Gestire i modelli di offerta](interaction/managing-offer-templates.md)
+    + [Gestire la presentazione delle offerte](interaction/managing-offer-presentation.md)
+  + Simulazione di offerte {#simulating-offers}
+    + [Informazioni sulla simulazione delle offerte](interaction/about-offers-simulation.md)
+    + [Impostazioni di esecuzione](interaction/execution-settings.md)
+    + [Ambito della simulazione](interaction/simulation-scope.md)
+    + [Tracciamento della simulazione](interaction/simulation-tracking.md)
   + [Rapporti e cronologia](interaction/interaction-tracking.md)
   + [Casi d’uso](interaction/interaction-use-cases.md)
+  + Esempi di casi d’uso {#case-study}
+    + [Regole di presentazione](interaction/presentation-rules.md)
+    + [Offerte su un canale in entrata](interaction/offers-on-an-inbound-channel.md)
+    + [Offerte su un canale in uscita](interaction/offers-on-an-outbound-channel.md)
   + [Impostazioni avanzate](interaction/interaction-advanced-settings.md)
+  + Parametri avanzati {#advanced-parameters}
+    + [Estensione esemplificativa](interaction/extension-example.md)
 + Query e dati {#data}
   + Eseguire query sul database {#query}
     + [Utilizzare l’editor delle query](start/query-editor.md)
