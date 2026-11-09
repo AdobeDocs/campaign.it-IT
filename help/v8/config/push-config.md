@@ -33,9 +33,9 @@ topic_v2:
     internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1268'
 ht-degree: 2%
 ---
 # Integrare gli SDK di Campaign con la tua app {#integrate-campaign-sdk}
@@ -44,7 +44,7 @@ Puoi utilizzare gli SDK di Campaign per iOS e Android per facilitare l’integra
 
 Le versioni supportate di Android e iOS e le versioni compatibili con gli SDK di Campaign per Campaign v8 sono elencate nella [Matrice di compatibilità](../start/compatibility-matrix.md#MobileSDK).
 
-In qualità di amministratore di Campaign, puoi scaricare gli SDK di Campaign dalla [Distribuzione di software di Experience Cloud](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). Per ulteriori informazioni, contatta l&#39;[Assistenza clienti Adobe](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+In qualità di amministratore di Campaign, puoi scaricare gli SDK di Campaign dalla [Distribuzione di software di Experience Cloud](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). Per ulteriori informazioni, contatta l&#39;[Assistenza clienti Adobe](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
 
 
 >[!NOTE]

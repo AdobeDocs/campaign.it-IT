@@ -9,9 +9,9 @@ product_v2:
     internal-label: Campaign
   - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
     internal-label: Campaign v8
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '325'
 ht-degree: 11%
 ---
 # Aggiornamenti dell’ambiente Adobe Campaign 2023 {#ac-system-upgrade}
@@ -24,7 +24,7 @@ Per motivi di sicurezza, Adobe deve [installare la build Campaign più recente](
 
 >[!NOTE]
 >
->Per qualsiasi domanda su queste modifiche, contatta [Adobe Customer Care](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Per qualsiasi domanda su queste modifiche, contatta [Adobe Customer Care](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
 >
 
 ## Aggiornamento della build di Campaign {#ac-upgrade}

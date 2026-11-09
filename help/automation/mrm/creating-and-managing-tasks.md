@@ -3,6 +3,7 @@ product: campaign
 title: Creazione e gestione delle attività
 description: Creazione e gestione delle attività
 feature: Campaigns, Resource Management
+version: Campaign v8, Campaign Classic v7
 role: User
 exl-id: 730d1712-53a6-4bf7-9aac-523b06bd0d0a
 TQID: 'https://experienceleague.adobe.com/LggpejZ5h1fYPh3efYx2f7x3DEhqVlvPndjgNkNUUCs'
@@ -22,7 +23,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
 workflow-type: tm+mt
 source-wordcount: '3766'
 ht-degree: 0%
@@ -205,7 +206,7 @@ Per impostazione predefinita, il budget addebitato è il budget della campagna a
 
 >[!NOTE]
 >
->Per ulteriori informazioni su spese e budget, consulta [questa sezione](../campaigns/providers-stocks-and-budgets.md#cost-commitment--calculation-and-charging).
+>Per ulteriori informazioni su spese e budget, consulta [questa sezione](../campaigns/providers-stocks-and-budgets.md).
 
 In questa finestra puoi anche definire gli obiettivi da raggiungere. Gli obiettivi sono espressi in termini di ricavi previsti per l&#39;attività.
 

@@ -28,7 +28,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 3%
@@ -67,7 +67,7 @@ I campi da inserire in caso di notifica per l’approvazione del target sono:
 
 * **[!UICONTROL Distribution context]**: selezionare l&#39;opzione **[!UICONTROL Specified in the transition]** se si utilizza un&#39;attività di tipo **[!UICONTROL Split]** per limitare la popolazione di destinazione. In questo caso, il modello di distribuzione viene inserito nell’attività di suddivisione. Se non si desidera limitare la popolazione di destinazione, selezionare l&#39;opzione **[!UICONTROL Explicit]** e immettere il modello di distribuzione nel campo **[!UICONTROL Data distribution]**.
 
-  Per ulteriori informazioni sulla creazione di un modello di distribuzione dati, vedere [Limitazione del numero di record di sottoinsiemi per distribuzione dati](split.md#limiting-the-number-of-subset-records-per-data-distribution).
+  Per ulteriori informazioni sulla creazione di un modello di distribuzione dati, vedere [Limitazione del numero di record di sottoinsiemi per distribuzione dati](split.md#limit-the-number-of-subset-records-per-data-distribution).
 
 * **[!UICONTROL Approval management]**
 

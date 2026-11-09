@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '953'
 ht-degree: 1%
@@ -46,7 +46,7 @@ Utilizza i cubi per creare rapporti e per identificare e selezionare dati dal da
 
 ### Passaggio 1: creare un rapporto basato su un cubo {#step-1---create-a-report-based-on-a-cube}
 
-Una volta configurato il cubo [&#128279;](cube-indicators.md), è possibile utilizzarlo come modello per la creazione di un nuovo report.
+Una volta configurato il cubo [](cube-indicators.md), è possibile utilizzarlo come modello per la creazione di un nuovo report.
 
 Per creare un report basato su un cubo esistente, effettuare le seguenti operazioni:
 
@@ -126,7 +126,7 @@ Per aggiungere e configurare le misure, attieniti alla procedura seguente:
 
    ![](assets/cube-pivot-table-config.png)
 
-   È quindi possibile scegliere se visualizzare o meno le etichette delle misure. [Ulteriori informazioni](customize-cubes.md#configure-the-display).
+   È quindi possibile scegliere se visualizzare o meno le etichette delle misure. [Ulteriori informazioni](customize-cubes.md#configuring-the-display).
 
 1. Puoi creare nuove misure in base a quelle esistenti. A tale scopo, fare clic su **[!UICONTROL Create a measure]** e configurarlo.
 

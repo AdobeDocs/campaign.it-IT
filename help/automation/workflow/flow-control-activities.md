@@ -21,7 +21,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 239f132eab6976d228c6648917c3090f14cf5088
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 0%
@@ -42,4 +42,3 @@ Le seguenti attività sono attività di database: vengono utilizzate per coordin
 * **[Test](test.md)**: abilita una transizione basata su un risultato del test.
 * **[Vincolo di tempo](time-constraint.md)**: consente di sospendere un&#39;attività per un periodo impostato.
 * **[Attendi](wait.md)**: abilita la transizione in uscita dopo un determinato limite di tempo.
-  <!--* **Task**: lets you configure task execution. Refer to the [Task](task.md) section.-->

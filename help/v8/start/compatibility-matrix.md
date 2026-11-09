@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 100%
@@ -85,7 +85,7 @@ I database esterni compatibili con il modulo Federated Data Access (FDA) di Adob
 
 
 >[!AVAILABILITY]
->Inoltre, con il [Componente aggiuntivo di sicurezza avanzato](../config/enhanced-security.md#secure-vpn-tunneling), è possibile accedere ai database on-premise tramite il tunneling VPN sicuro. [Ulteriori informazioni](../config/enhanced-security.md#vpn-callouts)
+>Inoltre, con il [Componente aggiuntivo di sicurezza avanzato](../config/enhanced-security.md#secure-vpn-tunneling), è possibile accedere ai database on-premise tramite il tunneling VPN sicuro. [Ulteriori informazioni](../config/enhanced-security.md)
 
 ## Mobile SDK {#MobileSDK}
 

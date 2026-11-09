@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '1518'
 ht-degree: 55%
@@ -116,7 +116,7 @@ Per ulteriori informazioni, consulta la [documentazione dettagliata](../send/pus
 **Aggiornamenti della compatibilità**
 
 * La versione a 32 bit della console client è ora obsoleta. A partire dalla versione 8.6, la console client sarà disponibile solo a 64 bit. L’aggiornamento alla versione a 64 bit della console client è semplice. Per ulteriori informazioni su come aggiornare il sistema operativo, consulta questa [nota tecnica](../../technotes/upgrades/console.md).
-* Ora puoi collegare la tua istanza di Campaign v8 al database esterno di Azure Synapse. Questa connessione viene gestita tramite un nuovo account esterno. Ulteriori informazioni nella [Matrice di compatibilità di Campaign](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda).
+* Ora puoi collegare la tua istanza di Campaign v8 al database esterno di Azure Synapse. Questa connessione viene gestita tramite un nuovo account esterno. Ulteriori informazioni nella [Matrice di compatibilità di Campaign](../start/compatibility-matrix.md#FederatedDataAccessFDA).
 
 
 **Correzioni**

@@ -3,12 +3,15 @@ product: campaign
 title: Creare una campagna collaborativa
 description: Scopri come creare una campagna collaborativa
 feature: Distributed Marketing
+version: Campaign v8, Campaign Classic v7
 role: User
 exl-id: edf887fb-c391-405c-b3cf-dc34aed69c53
 TQID: https://experienceleague.adobe.com/UrdZY0sxtcDwZZd5sfgOcsyCKn1lQ8tIs8UlS8rHV4Y
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -20,18 +23,16 @@ topic_v2:
     internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
 workflow-type: tm+mt
-source-wordcount: 915
+source-wordcount: '915'
 ht-degree: 3%
-
 ---
-
 # Creare una campagna collaborativa{#creating-a-collaborative-campaign-intro}
 
 
 
-L&#39;entità centrale crea campagne collaborative dai **modelli di campagne Marketing distribuito**. Consulta [questa pagina](about-distributed-marketing.md#collaborative-campaign).
+L&#39;entità centrale crea campagne collaborative dai **modelli di campagne Marketing distribuito**. Consulta [questa pagina](about-distributed-marketing.md).
 
 ## Creare una campagna collaborativa {#creating-a-collaborative-campaign}
 

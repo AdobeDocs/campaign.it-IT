@@ -21,7 +21,7 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -134,4 +134,4 @@ Nell’esempio seguente, l’etichetta, il costo stimato e la descrizione della 
 
 ![](assets/campaign-export-template.png)
 
-Il modello di esportazione deve essere associato al fornitore di servizi selezionato per la consegna interessata. Vedi [questa sezione](providers-stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
+Il modello di esportazione deve essere associato al fornitore di servizi selezionato per la consegna interessata. Vedi [questa sezione](providers-stocks-and-budgets.md#create-service-providers-and-their-cost-structures).

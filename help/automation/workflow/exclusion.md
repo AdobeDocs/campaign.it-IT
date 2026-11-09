@@ -23,7 +23,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 1%
@@ -40,7 +40,7 @@ Per configurare questa attività, immetti la relativa etichetta e seleziona il s
 
 >[!NOTE]
 >
->Per ulteriori informazioni sulla configurazione e sull&#39;utilizzo dell&#39;attività di esclusione, consulta [Esclusione di una popolazione (esclusione)](targeting-workflows.md#excluding-a-population--exclusion-).
+>Per ulteriori informazioni sulla configurazione e sull&#39;utilizzo dell&#39;attività di esclusione, consulta [Esclusione di una popolazione (esclusione)](targeting-workflows.md#exclude-a-population--exclusion-).
 
 Selezionare l&#39;opzione **[!UICONTROL Generate complement]** se si desidera sfruttare il gruppo rimanente. Il complemento conterrà la popolazione entrante principale meno la popolazione uscente. Verrà quindi aggiunta all’attività una transizione di output aggiuntiva, come segue:
 

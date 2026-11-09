@@ -24,7 +24,7 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 4%
@@ -38,7 +38,7 @@ Scopri l&#39;architettura della messaggistica transazionale in [questa pagina](.
 
 >[!NOTE]
 >
->In qualità di utente di Managed Cloud Services, [contatta Adobe](../start/campaign-faq.md#support) per installare e configurare la messaggistica transazionale di Campaign nel tuo ambiente.
+>In qualità di utente di Managed Cloud Services, [contatta Adobe](../start/campaign-faq-comprehensive.md#support) per installare e configurare la messaggistica transazionale di Campaign nel tuo ambiente.
 
 ## Definire le autorizzazioni {#mc-permissions}
 
@@ -82,7 +82,7 @@ Di seguito è riportato un esempio di configurazione di un evento per l’invio 
                 <mobileApp _operation="none" uuid="com.adobe.NeoMiles"/>
                 <ctx>
                     <deliveryTime>1:30 PM</deliveryTime>
-                    <url>http://www.adobe.com/it</url>
+                    <url>http://www.adobe.com</url>
                 </ctx>
               </rtEvent>
 

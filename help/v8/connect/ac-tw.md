@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '1078'
 ht-degree: 2%
@@ -54,7 +54,7 @@ Il modulo **Gestione dei social network (Social Marketing)** consente di interag
 
 >[!NOTE]
 >
->In qualità di utente di Managed Cloud Services, [contatta Adobe](../start/campaign-faq.md#support) per connettere Campaign a X. Il componente aggiuntivo **Gestione dei social network (Social Marketing)** deve essere installato nel tuo ambiente tramite il pacchetto dedicato e l&#39;account esterno Twitter deve essere configurato.
+>In qualità di utente di Managed Cloud Services, [contatta Adobe](../start/campaign-faq-comprehensive.md#support) per connettere Campaign a X. Il componente aggiuntivo **Gestione dei social network (Social Marketing)** deve essere installato nel tuo ambiente tramite il pacchetto dedicato e l&#39;account esterno Twitter deve essere configurato.
 
 
 Per configurare Adobe Campaign per la pubblicazione di tweet sui tuoi account X, delega l’accesso in scrittura ad Adobe Campaign per questi account. A questo scopo, devi:
@@ -169,7 +169,7 @@ Al termine della configurazione, puoi creare post sui tuoi account X e inviare m
 
 ## Crea un account di test su X {#tw-test-account}
 
-Oltre all&#39;account X, crea un account X privato che può essere utilizzato per inviare [bozze tweet](../send/twitter.md#send-tw-proofs). A questo scopo, segui la procedura indicata di seguito:
+Oltre all&#39;account X, crea un account X privato che può essere utilizzato per inviare [bozze tweet](../send/twitter.md). A questo scopo, segui la procedura indicata di seguito:
 
 1. Crea un nuovo account X.
 1. Accedi all&#39;account **Impostazioni**.

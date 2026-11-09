@@ -3,12 +3,15 @@ product: campaign
 title: Introduzione al marketing distribuito
 description: Introduzione al marketing distribuito
 feature: Distributed Marketing
+version: Campaign v8, Campaign Classic v7
 role: User
 exl-id: c9f5b277-3ad8-4316-94b9-789d37813b8b
 TQID: https://experienceleague.adobe.com/Xic-o4WB0jDoHpUAdN2U9Uunuf8rAcQ7rrcpXIFLqSI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -27,13 +30,11 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
 workflow-type: tm+mt
-source-wordcount: 1135
+source-wordcount: '1135'
 ht-degree: 0%
-
 ---
-
 # Introduzione al marketing distribuito{#about-distributed-marketing}
 
 Adobe Campaign offre un&#39;applicazione **Marketing distribuito** per l&#39;implementazione di campagne di cooperazione tra entità centrali (sedi centrali, dipartimenti di marketing, ecc.) ed enti locali (punti vendita, agenzie regionali, ecc.). Questa cooperazione si basa su un&#39;area di lavoro condivisa nota come **[!UICONTROL list of campaign packages]**, in cui i modelli e le istanze della campagna creati a livello centrale vengono offerti alle entità locali.
@@ -52,10 +53,10 @@ L’entità centrale fornisce campagne che le entità locali possono utilizzare.
 
   Il modulo di marketing distribuito consente all’entità centrale di:
 
-   * configurare pacchetti di campagne di marketing per enti locali,
-   * aumentare il grado di autonomia delle entità locali per quanto riguarda la scelta di comunicazione, targeting, contenuto, ecc. tra clienti e potenziali.
-   * gestire e controllare i costi,
-   * gestisce una rete di agenzie.
+  * configurare pacchetti di campagne di marketing per enti locali,
+  * aumentare il grado di autonomia delle entità locali per quanto riguarda la scelta di comunicazione, targeting, contenuto, ecc. tra clienti e potenziali.
+  * gestire e controllare i costi,
+  * gestisce una rete di agenzie.
 
 * **Entità locali**
 
@@ -87,10 +88,10 @@ L’entità centrale fornisce campagne che le entità locali possono utilizzare.
 
   Una campagna collaborativa è una campagna la cui pianificazione di esecuzione **è definita** dall&#39;entità centrale, che può essere utilizzata dall&#39;entità locale. Il contenuto rimane lo stesso per ogni entità locale, ma i costi sono condivisi. Per partecipare, gli enti locali si abbonano alla campagna collaborativa.
 
-   * **[!UICONTROL Collaborative campaign (by form)]**: consigliato per campagne che coinvolgono fino a 300 entità locali. L’entità locale può immettere parametri predefiniti per il targeting e la personalizzazione del contenuto in un modulo web. Il modulo può essere un modulo Adobe Campaign o un modulo esterno (client Extranet). Un amministratore funzionale può definire e configurare il modulo in base a un modello di modulo definito dall&#39;integratore. Per ordinare la campagna, l’entità locale ha solo bisogno dell’accesso web.
-   * **[!UICONTROL Collaborative campaign (by campaign)]**: consigliato per campagne indirizzate a decine di entità locali. Questo tipo di campagna crea campagne secondarie per ogni entità locale. Una volta che **[!UICONTROL collaborative campaign (by campaign)]** è stato approvato dall&#39;entità centrale, la campagna è resa disponibile all&#39;entità locale, che può modificarla. L’esecuzione viene sincronizzata automaticamente tra le campagne principali e secondarie. L’entità locale deve avere accesso a un’istanza per ordinare una campagna e parteciparvi.
-   * **[!UICONTROL Collaborative campaign (by target approval)]**: consigliato per campagne indirizzate a diverse migliaia di entità locali. L&#39;entità locale riceve un elenco di contatti predefinito dall&#39;entità centrale. L’entità locale decide se mantenere o meno alcuni contatti in base al contenuto della campagna tramite un modulo web. Le entità locali vengono dedotte dall&#39;elenco dei contatti selezionati. Per partecipare alla campagna, l’entità locale ha solo bisogno dell’accesso web.
-   * **[!UICONTROL Collaborative campaign (simple)]**: questa modalità garantisce la compatibilità con i processi di esecuzione specifici delle versioni precedenti.
+  * **[!UICONTROL Collaborative campaign (by form)]**: consigliato per campagne che coinvolgono fino a 300 entità locali. L’entità locale può immettere parametri predefiniti per il targeting e la personalizzazione del contenuto in un modulo web. Il modulo può essere un modulo Adobe Campaign o un modulo esterno (client Extranet). Un amministratore funzionale può definire e configurare il modulo in base a un modello di modulo definito dall&#39;integratore. Per ordinare la campagna, l’entità locale ha solo bisogno dell’accesso web.
+  * **[!UICONTROL Collaborative campaign (by campaign)]**: consigliato per campagne indirizzate a decine di entità locali. Questo tipo di campagna crea campagne secondarie per ogni entità locale. Una volta che **[!UICONTROL collaborative campaign (by campaign)]** è stato approvato dall&#39;entità centrale, la campagna è resa disponibile all&#39;entità locale, che può modificarla. L’esecuzione viene sincronizzata automaticamente tra le campagne principali e secondarie. L’entità locale deve avere accesso a un’istanza per ordinare una campagna e parteciparvi.
+  * **[!UICONTROL Collaborative campaign (by target approval)]**: consigliato per campagne indirizzate a diverse migliaia di entità locali. L&#39;entità locale riceve un elenco di contatti predefinito dall&#39;entità centrale. L’entità locale decide se mantenere o meno alcuni contatti in base al contenuto della campagna tramite un modulo web. Le entità locali vengono dedotte dall&#39;elenco dei contatti selezionati. Per partecipare alla campagna, l’entità locale ha solo bisogno dell’accesso web.
+  * **[!UICONTROL Collaborative campaign (simple)]**: questa modalità garantisce la compatibilità con i processi di esecuzione specifici delle versioni precedenti.
 
   Consulta [Creazione di una campagna collaborativa](creating-a-collaborative-campaign.md).
 

@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '2258'
 ht-degree: 5%
@@ -86,11 +86,11 @@ Mentre per **Visitatori**, l&#39;elenco conterrà le seguenti dimensioni filtro:
 
 ### Utilizzare dati aggiuntivi {#select-data}
 
-Un&#39;attività **[!UICONTROL Query]** consente di selezionare i dati di base per generare la popolazione target. Per ulteriori informazioni al riguardo, consulta [questa sezione](query.md#create-a-query).
+Un&#39;attività **[!UICONTROL Query]** consente di selezionare i dati di base per generare la popolazione target. Per ulteriori informazioni al riguardo, consulta [questa sezione](query.md#creating-a-query).
 
 È inoltre possibile utilizzare le attività seguenti per eseguire query e perfezionare i dati dal database: [Incremental query](incremental-query.md), [Read list](read-list.md).
 
-È possibile raccogliere dati aggiuntivi da inoltrare ed elaborare durante l’intero ciclo di vita del flusso di lavoro. Per ulteriori informazioni, consulta [Aggiungi dati](query.md#add-data) e [Modifica dati aggiuntivi](#edit-additional-data).
+È possibile raccogliere dati aggiuntivi da inoltrare ed elaborare durante l’intero ciclo di vita del flusso di lavoro. Per ulteriori informazioni, consulta [Aggiungi dati](query.md#adding-data) e [Modifica dati aggiuntivi](#edit-additional-data).
 
 ### Modifica dati aggiuntivi {#edit-additional-data}
 
