@@ -1,0 +1,83 @@
+---
+product: campaign
+title: Informazioni sulla simulazione delle offerte
+description: Informazioni sulla simulazione delle offerte
+feature: Interaction, Offers
+version: Campaign v8, Campaign Classic v7
+exl-id: facaa88e-1fa2-4189-9d8f-348aaef3e235
+TQID: 'https://experienceleague.adobe.com/034-CFbQIFVm9QiSpDyRHlVsIrF46NSqKMwp-Gm3-mc'
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+    internal-label: Offer Management
+  - id: 65702805-0026-5ca1-843a-144fa79f0883
+    internal-label: Interaction
+  - id: ea08db70-4682-59a2-9408-9aedd9548e07
+    internal-label: Offers
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+workflow-type: tm+mt
+source-wordcount: '278'
+ht-degree: 3%
+---
+# Informazioni sulla simulazione delle offerte{#about-offers-simulation}
+
+
+
+Il modulo **Simulazione** ti consente di verificare la distribuzione delle offerte appartenenti a una categoria o a un ambiente prima di inviare la proposta ai destinatari.
+
+La simulazione tiene conto dei contesti e delle regole di idoneità applicati in precedenza alle offerte (consulta [Panoramica del catalogo delle offerte](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-offer-catalog){target="_blank"} (documentazione di Campaign v8)), nonché delle relative regole di presentazione (consulta [Gestione della presentazione delle offerte](managing-offer-presentation.md)). Questo consente di testare e perfezionare varie versioni della proposta di offerta senza utilizzare effettivamente un’offerta o sollecitare in eccesso o in difetto un target, poiché la simulazione non ha alcun impatto sui destinatari target.
+
+Per scoprire come simulare un’offerta, leggi i passaggi seguenti.
+
+![](assets/how-to-video.png) Puoi anche guardare questo [video](https://helpx.adobe.com/campaign/classic/how-to/simulate-offer-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/introduction/collection.ccx.js&ref=helpx.adobe.com).
+
+## Passaggi principali per la creazione di una simulazione {#main-steps-for-creating-a-simulation}
+
+Per eseguire una simulazione delle offerte, effettua le seguenti operazioni:
+
+1. Nella scheda **[!UICONTROL Profiles and Targets]**, fai clic sul collegamento **[!UICONTROL Simulations]**, quindi sul pulsante **[!UICONTROL Create]**.
+
+   ![](assets/offer_simulation_001.png)
+
+1. Salva e modifica la simulazione appena creata.
+1. Passare alla scheda **[!UICONTROL Edit]** e specificare le impostazioni di esecuzione.
+
+   Per ulteriori informazioni, consulta [Impostazioni di esecuzione](execution-settings.md).
+
+   ![](assets/offer_simulation_003.png)
+
+   >[!NOTE]
+   >
+   >Le impostazioni di esecuzione sono disponibili solo se utilizzi l’interazione con Campaign.
+
+1. Specifica l’ambito della simulazione.
+
+   Per ulteriori informazioni, fare riferimento a [Definizione dell&#39;ambito](simulation-scope.md#definition-of-the-scope).
+
+   ![](assets/offer_simulation_004.png)
+
+1. Aggiungere assi di reporting per migliorare il report **[!UICONTROL Offer distribution by rank]** (facoltativo).
+
+   Per ulteriori informazioni, consulta [Aggiunta di assi di reporting](simulation-scope.md#adding-reporting-axes).
+
+   ![](assets/offer_simulation_005.png)
+
+1. Fare clic su **[!UICONTROL Save]** per registrare le impostazioni di simulazione.
+1. Avvia la simulazione tramite la dashboard.
+
+   ![](assets/offer_simulation_006.png)
+
+1. Controllare il risultato della simulazione e visualizzare il rapporto di analisi.
+
+   Per ulteriori informazioni, consulta [Tracciamento della simulazione](simulation-tracking.md).
+
+   ![](assets/offer_simulation_007.png)

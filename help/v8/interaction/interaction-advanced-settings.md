@@ -20,20 +20,20 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '119'
 ht-degree: 0%
 ---
 # Impostazioni avanzate del modulo di interazione
 
 La configurazione del modulo di interazione di Campaign è riservata agli utenti esperti. Le impostazioni avanzate sono descritte in dettaglio nella **documentazione di Campaign Classic v7**:
 
-Scopri come utilizzare dati contestuali aggiuntivi nelle offerte [in questa pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/additional-data.html?lang=it){target="_blank"}.
+Scopri come utilizzare dati contestuali aggiuntivi nelle offerte [in questa pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/additional-data.html){target="_blank"}.
 
-Scopri come arricchire i criteri di idoneità delle offerte [in questa pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html?lang=it){target="_blank"}.
+Scopri come arricchire i criteri di idoneità delle offerte [in questa pagina](extension-example.md).
 
-Scopri come creare un ambiente di test [in questa pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/creating-a-test-environment.html?lang=it){target="_blank"}.
+Scopri come creare un ambiente di test [in questa pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/creating-a-test-environment.html){target="_blank"}.
 
-Scopri come utilizzare gli hook per modificare il comportamento standard del motore di offerta [in questa pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/hooks.html?lang=it){target="_blank"}.
+Scopri come utilizzare gli hook per modificare il comportamento standard del motore di offerta [in questa pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/hooks.html){target="_blank"}.
 
