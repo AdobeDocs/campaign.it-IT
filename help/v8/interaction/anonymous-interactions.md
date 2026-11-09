@@ -3,6 +3,7 @@ product: campaign
 title: Presentare offerte a profili anonimi (interazione in entrata)
 description: Scopri come presentare le offerte ai profili anonimi
 feature: Interaction, Offers
+version: Campaign v8, Campaign Classic v7
 role: User, Admin
 exl-id: b7a04360-f8c6-4c69-9594-2b44d3f819b7
 TQID: 'https://experienceleague.adobe.com/rl7SIcS-OkMmLnxvPiEfjs51xouGSSyLJV4in-vsoCE'
@@ -21,7 +22,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 0%
@@ -48,7 +49,7 @@ Viene visualizzato il campo **[!UICONTROL Visitor folder]**. Il collegamento all
 
 Proprio come le interazioni in uscita, le interazioni in entrata sono organizzate in un catalogo di offerte composto da categorie e offerte.
 
-Per creare categorie e spazi, applica lo stesso processo utilizzato per i visitatori identificati. Consulta [Creare una categoria di offerte](interaction-offer-catalog.md#creating-offer-categories) e [Creare un ambiente di offerte](interaction-env.md#creating-an-offer-environment)).
+Per creare categorie e spazi, applica lo stesso processo utilizzato per i visitatori identificati. Consulta [Creare una categoria di offerte](interaction-offer-catalog.md#creating-offer-categories) e [Creare un ambiente di offerte](interaction-env.md#create-an-offer-environment)).
 
 ## Visitatori anonimi {#anonymous-visitors}
 

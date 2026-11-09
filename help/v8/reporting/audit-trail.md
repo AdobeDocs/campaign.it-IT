@@ -3,6 +3,7 @@ product: campaign
 title: Audit trail
 description: Scopri come monitorare l’istanza con Campaign Audit trail
 feature: Audit Trail, Monitoring, Workflows
+version: Campaign v8, Campaign Classic v7
 exl-id: 6a937575-42d4-4dc5-8168-43c25bb2cde6
 TQID: 'https://experienceleague.adobe.com/0a5LrtW8EomSlw-mLwLTplBpEPovWLC-sXFdoSQYhV0'
 product_v2:
@@ -31,7 +32,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 2%
@@ -68,7 +69,7 @@ La funzionalità **[!UICONTROL Audit trail]** di Adobe Campaign offre un record 
 
 * **Option audit trail** consente di controllare le attività e le ultime modifiche apportate alle opzioni.
 
-  Per ulteriori informazioni sulle opzioni, consulta questa [pagina](https://experienceleague.adobe.com/it/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
+  Per ulteriori informazioni sulle opzioni, consulta questa [pagina](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
 
 * **Audit trail consegna** consente di controllare le attività e le ultime modifiche apportate alle consegne.
 
