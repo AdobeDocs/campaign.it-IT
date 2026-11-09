@@ -1,0 +1,88 @@
+---
+product: campaign
+title: Introduzione all’editor di Campaign HTML
+description: Introduzione a Campaign DCE
+feature: Web Apps, Web Forms, Landing Pages, Email Design
+version: Campaign v8, Campaign Classic v7
+exl-id: f5d65e89-6b18-482b-97d8-11ab94f6775e
+TQID: 'https://experienceleague.adobe.com/X-hpH7G2DRGdimNZ-HRbRJpnhmP-QByWSIF5hSUQFG0'
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
+subfeature_v2:
+  - id: f391046b-0cf3-4e76-bd3b-97fe06654506
+    internal-label: Web Apps
+  - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
+    internal-label: Web Forms
+  - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+    internal-label: Landing pages
+  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+source-git-commit: 6db6c9152f6060b40596bd65a2ce705f916401be
+workflow-type: tm+mt
+source-wordcount: '352'
+ht-degree: 2%
+---
+# Introduzione all’editor di Campaign HTML{#about-campaign-html-editor}
+
+>[!NOTE]
+>
+>Per i casi d’uso più comuni, crea le pagine di destinazione nell’interfaccia utente di Campaign Web, dove puoi facilmente progettarle e pubblicarle. Le pagine di destinazione create nella console client, come descritto in questa sezione, offrono più impostazioni e coprono casi di utilizzo più avanzati.
+>
+>[Ulteriori informazioni sulle pagine di destinazione nell&#39;interfaccia utente di Campaign Web](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
+
+
+
+**Digital Content Editor (DCE)** è un editor di contenuti HTML che consente di creare facilmente contenuti e modelli in formato HTML in Adobe Campaign.
+
+Con Digital Content Editor è possibile inserire e formattare elementi di pagina e mappare campi di database con elementi di una pagina HTML. Questo editor è disponibile quando crei una pagina per un’applicazione web o quando crei consegne basate su un modello DCE.
+
+>[!NOTE]
+>
+>Se devi aggiungere codice JavaScript lato server, utilizza i blocchi di personalizzazione. Consulta la [documentazione di Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}.
+
+>[!CAUTION]
+>
+>È necessario fare riferimento a tutte le risorse esterne con un URL HTTPS.
+
+## Passaggi chiave per utilizzare Digital Content Editor {#content-editor-general-operation}
+
+Questa sezione descrive i passaggi chiave per modificare e caricare contenuti modificati con il DCE, nel contesto di una progettazione di applicazioni web e consegne.
+
+Il funzionamento generale è il seguente:
+
+![](assets/dce_schema.png)
+
+Per creare una **applicazione Web** semplice, è necessario:
+
+1. Crea un&#39;applicazione Web - [Ulteriori informazioni](creating-a-landing-page.md)
+1. Seleziona contenuto esistente o crea contenuto da un modello standard - [Ulteriori informazioni](template-management.md)
+1. Modifica e configura il contenuto - [Ulteriori informazioni](editing-content.md)
+1. Pubblica applicazione Web - [Ulteriori informazioni](creating-a-landing-page.md#step-3---publishing-content)
+
+>[!NOTE]
+>
+>Un esempio completo di implementazione nel contesto di un&#39;applicazione Web è disponibile in [questa sezione](creating-a-landing-page.md).
+
+Per creare una **consegna e-mail**, è necessario:
+
+1. Creare una consegna da un modello DCE - [Ulteriori informazioni](use-case-creating-an-email-delivery.md)
+1. Seleziona un contenuto esistente o crea contenuto da un [modello standard](template-management.md)
+1. Modificare e configurare i contenuti online
+1. Invia la consegna - Ulteriori informazioni sono disponibili nella [documentazione di Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=it){target="_blank"}
+
+>[!NOTE]
+>
+>Un esempio completo di implementazione nel contesto di una consegna e-mail è disponibile in [questo caso d&#39;uso](use-case-creating-an-email-delivery.md).

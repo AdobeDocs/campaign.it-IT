@@ -29,10 +29,10 @@ level_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '3864'
-ht-degree: 5%
+source-wordcount: '3849'
+ht-degree: 4%
 ---
 # Importare dati in Campaign {#ootb-profiles}
 
@@ -462,7 +462,7 @@ Utilizza Campaign per creare moduli web e raccogliere e gestire le informazioni 
 
 ![](assets/web-form-page.png)
 
-Scopri come creare moduli web nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=it){target="_blank"}.
+Scopri come creare moduli web in [questa sezione](../dev/web/about-web-forms.md).
 
 **Argomenti correlati**
 

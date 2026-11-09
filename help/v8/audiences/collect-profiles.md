@@ -29,10 +29,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 34%
+source-wordcount: '78'
+ht-degree: 24%
 ---
 # Raccogliere e aggiornare profili con i moduli web
 
@@ -40,4 +40,4 @@ Utilizza Campaign per creare moduli web e raccogliere e gestire i dati di profil
 
 ![](assets/web-form-page.png)
 
-Scopri come creare moduli web nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=it){target="_blank"}.
+Scopri come creare moduli web in [questa sezione](../dev/web/about-web-forms.md).
