@@ -24,7 +24,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 4%
@@ -224,7 +224,7 @@ Di conseguenza, la tabella di gestione temporanea viene aggiornata come previsto
 
 La gestione degli abbonamenti in Campaign è descritta in [questa pagina](../start/subscriptions.md).
 
-L&#39;inserimento dei dati di sottoscrizione e annullamento dell&#39;abbonamento si basa sul [meccanismo di gestione temporanea](staging.md) nel database locale di Campaign. Le informazioni del sottoscrittore sono temporaneamente memorizzate nelle tabelle intermedie nel database locale e il flusso di lavoro di sincronizzazione invia tali dati dal database locale al database cloud. Di conseguenza, i processi di sottoscrizione e annullamento dell&#39;abbonamento sono **asincroni**. Le richieste di consenso e rinuncia vengono elaborate ogni ora tramite un flusso di lavoro tecnico specifico. [Ulteriori informazioni](replication.md#tech-wf)
+L&#39;inserimento dei dati di sottoscrizione e annullamento dell&#39;abbonamento si basa sul [meccanismo di gestione temporanea](staging.md) nel database locale di Campaign. Le informazioni del sottoscrittore sono temporaneamente memorizzate nelle tabelle intermedie nel database locale e il flusso di lavoro di sincronizzazione invia tali dati dal database locale al database cloud. Di conseguenza, i processi di sottoscrizione e annullamento dell&#39;abbonamento sono **asincroni**. Le richieste di consenso e rinuncia vengono elaborate ogni ora tramite un flusso di lavoro tecnico specifico. [Ulteriori informazioni](replication.md#workflows)
 
 
 **Argomenti correlati**

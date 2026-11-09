@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
 workflow-type: tm+mt
 source-wordcount: '994'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Questa integrazione consente di implementare i casi d’uso come segue: quando u
 >[!NOTE]
 >* L’integrazione supporta solo immagini statiche. Gli altri tipi di contenuto non possono essere personalizzati.
 >
->* In qualità di utente di Managed Cloud Services, [contatta Adobe](../start/campaign-faq.md#support) per implementare i trigger di Experience Cloud con Campaign.
+>* In qualità di utente di Managed Cloud Services, [contatta Adobe](../start/campaign-faq-comprehensive.md#support) per implementare i trigger di Experience Cloud con Campaign.
 
 Adobe Target può utilizzare i seguenti tipi di dati:
 

@@ -27,7 +27,7 @@ role_v2:
     internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '1627'
 ht-degree: 1%
@@ -105,10 +105,10 @@ Per aggiungere dati dal database di Adobe Campaign:
 
    Puoi aggiungere:
 
-   * Un campo calcolato in base ai dati ottenuti dalla popolazione target o a un aggregato (numero di acquisti in sospeso nell’ultimo mese, importo medio di una ricevuta, ecc.). Ad esempio, vai a [Seleziona dati](targeting-workflows.md#selecting-data).
+   * Un campo calcolato in base ai dati ottenuti dalla popolazione target o a un aggregato (numero di acquisti in sospeso nell’ultimo mese, importo medio di una ricevuta, ecc.). Ad esempio, vai a [Seleziona dati](targeting-workflows.md).
    * Nuovo campo creato con il pulsante **[!UICONTROL Add]** a destra dell&#39;elenco delle colonne di output.
 
-     Puoi anche aggiungere una raccolta di informazioni, ad esempio un elenco di contratti, le ultime 5 consegne e così via. Le raccolte coincidono con campi che possono avere più valori per lo stesso profilo (relazione 1-N). Per ulteriori informazioni, consulta [Modifica dati aggiuntivi](targeting-workflows.md#editing-additional-data).
+     Puoi anche aggiungere una raccolta di informazioni, ad esempio un elenco di contratti, le ultime 5 consegne e così via. Le raccolte coincidono con campi che possono avere più valori per lo stesso profilo (relazione 1-N). Per ulteriori informazioni, consulta [Modifica dati aggiuntivi](targeting-workflows.md#edit-additional-data).
 
 Per aggiungere una raccolta di informazioni collegate a una popolazione target:
 
@@ -222,7 +222,7 @@ L&#39;equivalente della dimensione di filtro in SQL è l&#39;inner join:
 
 `select iRecipientId from nmsRecipient INNER JOIN nmsBroadLog ON (...)`
 
-Per ulteriori informazioni sul filtro delle dimensioni, consulta [questa sezione](build-a-workflow.md#targeting-and-filtering-dimensions).
+Per ulteriori informazioni sul filtro delle dimensioni, consulta [questa sezione](build-a-workflow.md).
 
 ### Architettura {#architecture}
 

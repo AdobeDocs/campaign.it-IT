@@ -20,7 +20,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 9%
@@ -87,7 +87,7 @@ Ognuno di questi campi può essere personalizzato utilizzando l’icona dedicata
 
 ![](assets/email-smtp-bounce.png)
 
-Per ulteriori informazioni sulla gestione della posta non recapitata, consulta [questa sezione](delivery-failures.md#bounce-mail-management).
+Per ulteriori informazioni sulla gestione della posta non recapitata, consulta [questa sezione](delivery-failures.md#bounce-mail-qualification).
 
 ## Abilita annullamento iscrizione con un solo clic all’elenco {#one-click-list-unsubscribe}
 

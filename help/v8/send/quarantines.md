@@ -37,7 +37,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '1363'
 ht-degree: 4%
@@ -88,7 +88,7 @@ Se un utente qualifica un’e-mail come spam, il messaggio viene automaticamente
 
 Al contrario degli errori rigidi, gli errori morbidi non mettono immediatamente un indirizzo in quarantena, ma incrementano un contatore di errori. Quando il contatore di errori raggiunge la soglia limite, l’indirizzo viene messo in quarantena. Ulteriori informazioni sui nuovi tentativi e sui tipi di errore in [Informazioni sugli errori di consegna](delivery-failures.md).
 
-Il contatore degli errori viene reinizializzato se l&#39;ultimo errore significativo si è verificato più di 10 giorni fa. Lo stato dell&#39;indirizzo cambia quindi in **[!UICONTROL Valid]** e viene eliminato dall&#39;elenco di quarantena dal flusso di lavoro **[!UICONTROL Database cleanup]**. [Ulteriori informazioni sui workflow tecnici](../config/workflows.md#technical-workflows).
+Il contatore degli errori viene reinizializzato se l&#39;ultimo errore significativo si è verificato più di 10 giorni fa. Lo stato dell&#39;indirizzo cambia quindi in **[!UICONTROL Valid]** e viene eliminato dall&#39;elenco di quarantena dal flusso di lavoro **[!UICONTROL Database cleanup]**. [Ulteriori informazioni sui workflow tecnici](../config/workflows.md).
 
 ## Accedere agli indirizzi messi in quarantena {#access-quarantined-addresses}
 

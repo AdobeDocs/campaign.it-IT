@@ -43,7 +43,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '3162'
 ht-degree: 4%
@@ -336,7 +336,7 @@ Queste mappature sono presentate [in questa sezione](../audiences/target-mapping
 
 ### Destinatari esterni {#external-recipients}
 
-Puoi consegnare a destinatari memorizzati in un file esterno anziché salvati nel database. Per ulteriori informazioni, consulta [questa sezione](create-message.md#select-external-recipients-selecting-external-recipients).
+Puoi consegnare a destinatari memorizzati in un file esterno anziché salvati nel database. Per ulteriori informazioni, consulta [questa sezione](create-message.md#selecting-external-recipients).
 
 <!--
 ### Send to your subscribers {#send-to-subscribers}
@@ -348,7 +348,7 @@ To send messages to the subscribers of a newsletter, you can directly target the
 
 Per verificare la consegna, utilizza le bozze prima di inviare al target principale.
 
-Accertati di selezionare i destinatari della bozza appropriati, in quanto convalidano il modulo e il contenuto del messaggio. I passaggi per definire i destinatari della bozza sono descritti in [questa sezione](create-message.md#select-the-recipients-of-proof-messages-select-the-proof-target).
+Accertati di selezionare i destinatari della bozza appropriati, in quanto convalidano il modulo e il contenuto del messaggio. I passaggi per definire i destinatari della bozza sono descritti in [questa sezione](create-message.md#select-the-proof-target).
 
 
 ### Deduplica indirizzi {#deduplicate-addresses}

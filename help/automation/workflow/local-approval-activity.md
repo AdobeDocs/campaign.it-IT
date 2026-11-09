@@ -23,7 +23,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '1282'
 ht-degree: 2%
@@ -62,7 +62,7 @@ Le fasi principali del processo di approvazione locale sono:
 
 Il modello di distribuzione dei dati consente di limitare la popolazione risultante dal targeting in base al raggruppamento di dati, consentendo al contempo di assegnare ogni valore a un supervisore locale. In questo esempio, il campo **[!UICONTROL Email address domain]** è stato definito come campo di distribuzione e a ogni supervisore locale è stato assegnato un dominio
 
-Per ulteriori informazioni sulla creazione di un modello di distribuzione dati, vedere [Limitazione del numero di record di sottoinsiemi per distribuzione dati](split.md#limiting-the-number-of-subset-records-per-data-distribution).
+Per ulteriori informazioni sulla creazione di un modello di distribuzione dati, vedere [Limitazione del numero di record di sottoinsiemi per distribuzione dati](split.md#limit-the-number-of-subset-records-per-data-distribution).
 
 1. Per creare il modello di distribuzione dei dati, passare al nodo **[!UICONTROL Resources > Campaign management > Data distribution]** e fare clic su **[!UICONTROL New]**.
 
@@ -117,7 +117,7 @@ Sono state aggiunte le seguenti attività:
 
 Il targeting a monte è costituito da due query, una di intersezione e una di divisione. La popolazione risultante dal targeting può essere limitata utilizzando un&#39;attività **[!UICONTROL Split]** utilizzando un modello di distribuzione dei dati.
 
-Per ulteriori informazioni sulla configurazione di un&#39;attività divisa, consulta [Divisione](split.md). La creazione di un modello di distribuzione dati è descritta in [Limitazione del numero di record di sottoinsiemi per distribuzione dati](split.md#limiting-the-number-of-subset-records-per-data-distribution).
+Per ulteriori informazioni sulla configurazione di un&#39;attività divisa, consulta [Divisione](split.md). La creazione di un modello di distribuzione dati è descritta in [Limitazione del numero di record di sottoinsiemi per distribuzione dati](split.md#limit-the-number-of-subset-records-per-data-distribution).
 
 Se non si desidera limitare il gruppo della query, non è necessario utilizzare le attività **[!UICONTROL Query]**, **[!UICONTROL Intersection]** e **[!UICONTROL Split]**. In questo caso, completare il modello di distribuzione dati nella prima attività **[!UICONTROL Local approval]**.
 

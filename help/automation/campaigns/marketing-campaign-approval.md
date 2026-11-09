@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '2294'
 ht-degree: 1%
@@ -121,7 +121,7 @@ Per ogni campagna puoi approvare il target della consegna, [il contenuto della c
 
 Per le consegne di direct mailing, gli operatori Adobe Campaign possono visualizzare il file di estrazione prima di inviarlo al router, e se necessario possono modificare il formato e riavviare l’estrazione. [Ulteriori informazioni](#approve-an-extraction-file).
 
-Al termine di queste fasi di convalida, la consegna può essere avviata. [Ulteriori informazioni](marketing-campaign-deliveries.md#starting-a-delivery).
+Al termine di queste fasi di convalida, la consegna può essere avviata. [Ulteriori informazioni](marketing-campaign-deliveries.md#start-a-delivery).
 
 >[!NOTE]
 >

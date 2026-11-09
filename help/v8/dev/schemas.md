@@ -38,7 +38,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '1295'
 ht-degree: 5%
@@ -221,7 +221,7 @@ In questo esempio, invece di consentire all&#39;attributo **@autopk** o **@autou
 >
 >Quando crei un nuovo schema o durante un’estensione dello schema, devi mantenere lo stesso valore di sequenza di chiave primaria (@pkSequence) per l’intero schema.
 
-Ulteriori informazioni sulle chiavi in [questa sezione](database-mapping.md#management-of-keys).
+Ulteriori informazioni sulle chiavi in [questa sezione](database-mapping.md).
 
 ## Attributi (Campi) {#attributes--fields-}
 

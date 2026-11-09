@@ -25,7 +25,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '1288'
 ht-degree: 4%
@@ -119,11 +119,11 @@ Le campagne vengono create tramite modelli di campagna. Puoi configurare modelli
 
 Per ogni campagna sono disponibili le seguenti funzionalità:
 
-* Documentazione e risorse di riferimento: è possibile associare documenti alla campagna (breve, rapporto, immagini, ecc.). Sono supportati tutti i formati di documento. [Ulteriori informazioni](marketing-campaign-deliveries.md#manage-associated-documents).
-* Definire i costi: per ogni campagna, Adobe Campaign consente di definire le voci di costo e le strutture di calcolo dei costi che possono essere utilizzate durante la creazione della campagna di marketing. Ad esempio: costi di stampa, utilizzo di un&#39;agenzia esterna, affitto di stanze, ecc. [Ulteriori informazioni](providers-stocks-and-budgets.md#defining-cost-categories).
+* Documentazione e risorse di riferimento: è possibile associare documenti alla campagna (breve, rapporto, immagini, ecc.). Sono supportati tutti i formati di documento. [Ulteriori informazioni](marketing-campaign-deliveries.md).
+* Definire i costi: per ogni campagna, Adobe Campaign consente di definire le voci di costo e le strutture di calcolo dei costi che possono essere utilizzate durante la creazione della campagna di marketing. Ad esempio: costi di stampa, utilizzo di un&#39;agenzia esterna, affitto di stanze, ecc. [Ulteriori informazioni](providers-stocks-and-budgets.md#define-cost-categories).
 * Definire gli obiettivi: puoi definire obiettivi quantificabili per una campagna, ad esempio numero di abbonati, volume di business, ecc. Queste informazioni vengono successivamente utilizzate nei rapporti delle campagne.
-* Gestisce gli indirizzi seed e i gruppi di controllo. [Ulteriori informazioni](marketing-campaign-deliveries.md#defining-a-control-group).
-* Gestisci approvazioni: puoi selezionare i trattamenti da approvare e, se necessario, selezionare gli operatori o i gruppi di operatori per la revisione. [Ulteriori informazioni](marketing-campaign-approval.md#checking-and-approving-deliveries).
+* Gestisce gli indirizzi seed e i gruppi di controllo. [Ulteriori informazioni](marketing-campaign-deliveries.md).
+* Gestisci approvazioni: puoi selezionare i trattamenti da approvare e, se necessario, selezionare gli operatori o i gruppi di operatori per la revisione. [Ulteriori informazioni](marketing-campaign-approval.md#review-and-approve-deliveries).
 
 >[!NOTE]
 >
@@ -218,7 +218,7 @@ Le approvazioni di un target o di un contenuto di consegna possono essere esegui
 
 ![](assets/web-access-approval.png)
 
-Puoi anche utilizzare il collegamento contenuto nei messaggi di notifica. Per ulteriori informazioni al riguardo, consulta [questa sezione](marketing-campaign-approval.md#checking-and-approving-deliveries).
+Puoi anche utilizzare il collegamento contenuto nei messaggi di notifica. Per ulteriori informazioni al riguardo, consulta [questa sezione](marketing-campaign-approval.md#review-and-approve-deliveries).
 
 
 ## Video tutorial {#video}

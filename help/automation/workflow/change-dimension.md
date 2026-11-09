@@ -23,7 +23,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 1%
@@ -70,7 +70,7 @@ Per configurare l&#39;attività **[!UICONTROL Change dimension]**, attenersi all
 
      >[!NOTE]
      >
-     >Per informazioni sulla creazione e la gestione di colonne aggiuntive, consultare [Aggiungi dati](query.md#add-data).
+     >Per informazioni sulla creazione e la gestione di colonne aggiuntive, consultare [Aggiungi dati](query.md#adding-data).
 
    * Selezionare la dimensione di targeting precedente (prima del cambio asse) e selezionare **[!UICONTROL Zip Code]** nella sottostruttura **[!UICONTROL Location]** del destinatario, quindi fare clic su **[!UICONTROL Edit expression]**.
 

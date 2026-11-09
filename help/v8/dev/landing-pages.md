@@ -28,7 +28,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 13%
@@ -37,7 +37,7 @@ ht-degree: 13%
 
 Una pagina di destinazione è una pagina web dedicata progettata con un obiettivo di marketing specifico. I visitatori generalmente arrivano a una pagina di destinazione dopo aver fatto clic su un collegamento in un’e-mail, in un post su social media o nei risultati di un motore di ricerca. A differenza delle pagine web generiche, le pagine di destinazione si concentrano sull’esecuzione di un’unica azione ben definita, come effettuare un acquisto, abbonarsi/annullare l’abbonamento a un servizio o scaricare una risorsa. Con Adobe Campaign, crea pagine di destinazione per indirizzare gli utenti a un modulo online in cui possono aggiornare i propri dati, rinunciare o rinunciare alla ricezione delle comunicazioni o abbonarsi a un servizio specifico, ad esempio una newsletter.
 
-Per creare pagine di destinazione, passa all&#39;[interfaccia utente Web](../start/campaign-ui.md#campaign-web-user-interface-ac-web-ui). Adobe Campaign viene fornito con un’esperienza utente riprogettata per le pagine di destinazione, disponibile solo nell’interfaccia utente web.
+Per creare pagine di destinazione, passa all&#39;[interfaccia utente Web](../start/campaign-ui.md#ac-web-ui). Adobe Campaign viene fornito con un’esperienza utente riprogettata per le pagine di destinazione, disponibile solo nell’interfaccia utente web.
 
 >[!AVAILABILITY]
 >

@@ -20,7 +20,7 @@ subfeature_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 55%
@@ -56,7 +56,7 @@ Scopri diversi contesti in cui è possibile utilizzare i flussi di lavoro e come
 * [Creare un elenco di riepilogo](create-a-summary-list.md)
 * [Arricchire i dati](enrich-data.md)
 * [Utilizzare gli aggregati](using-aggregates.md)
-* [Crittografa ed esporta i dati utilizzando una chiave installata nel Pannello di controllo Campaign](use-workflow-data.md#use-case-gpg-encrypt)
+* [Crittografa ed esporta i dati utilizzando una chiave installata nel Pannello di controllo Campaign](use-workflow-data.md)
 * [Aggiornamento dell’elenco trimestrale tramite una query incrementale](quarterly-list-update.md)
 * [Utilizzare la funzionalità di unione dell’attività Deduplicazione](deduplication-merge.md)
 * [Impostare un flusso di lavoro di importazione ricorrente](recurring-import-workflow.md)

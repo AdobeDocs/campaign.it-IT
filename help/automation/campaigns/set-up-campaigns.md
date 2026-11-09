@@ -22,7 +22,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 18%
@@ -54,7 +54,7 @@ Un programma è un insieme di attività di marketing definite per un periodo. Og
 Una campagna centralizza tutti gli elementi relativi a una campagna di marketing: consegne, regole di targeting, costi, file di esportazione, documenti correlati, ecc. Ogni campagna è associata a un programma. Scopri come creare una campagna [in questa sezione](marketing-campaign-create.md#create-a-campaign).
 
 1. **Selezionare il pubblico**
-I tipi di pubblico possono essere importati da un elenco o incorporati in un flusso di lavoro della campagna utilizzando le query. Scopri come definire il pubblico target di una campagna [in questa sezione](marketing-campaign-target.md#select-the-target-population).
+I tipi di pubblico possono essere importati da un elenco o incorporati in un flusso di lavoro della campagna utilizzando le query. Scopri come definire il pubblico target di una campagna [in questa sezione](marketing-campaign-target.md).
 
 1. **Crea consegne**
 Orchestrazione delle consegne cross-channel nelle campagne. Semplifica le tue comunicazioni con Adobe Campaign tramite e-mail, SMS personalizzati, notifiche push e messaggi in-app. Puoi anche aggiungere consegne di direct mailing. Scopri come creare, convalidare e monitorare le consegne nelle campagne [in questa sezione](marketing-campaign-deliveries.md).
@@ -68,7 +68,7 @@ Tieni traccia delle campagne dal dashboard, controlla gli stati di consegna e l�
 1. **Tenere traccia di budget, scorte e costi associati**.
 Utilizza Adobe Campaign per controllare l’allocazione del budget e gestire fornitori, scorte e costi. [Ulteriori informazioni](providers-stocks-and-budgets.md#create-service-providers-and-their-cost-structures).
 
-Una volta completati questi passaggi, puoi [avviare le consegne](marketing-campaign-deliveries.md#start-a-delivery), controllare i dati, i processi e le informazioni relativi alle consegne e, se necessario, [gestire i documenti associati](marketing-campaign-deliveries.md#manage-associated-documents). Puoi anche [monitorare e monitorare l&#39;esecuzione](marketing-campaign-monitoring.md) delle campagne e delle consegne.
+Una volta completati questi passaggi, puoi [avviare le consegne](marketing-campaign-deliveries.md#start-a-delivery), controllare i dati, i processi e le informazioni relativi alle consegne e, se necessario, [gestire i documenti associati](marketing-campaign-deliveries.md). Puoi anche [monitorare e monitorare l&#39;esecuzione](marketing-campaign-monitoring.md) delle campagne e delle consegne.
 
 
 ## Concetti chiave nel video {#key-concepts-video}

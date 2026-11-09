@@ -41,9 +41,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
-source-wordcount: '2977'
+source-wordcount: '2969'
 ht-degree: 49%
 ---
 # Best practice per la sicurezza di Campaign {#ac-security}
@@ -172,7 +172,7 @@ Adobe Campaign offre varie serie di funzioni dedicate alla gestione della privac
 * Richieste di accesso a dati personali (diritto di accesso e diritto all’oblio). Vedi [questa sezione](#privacy-requests).
 * Rinuncia alla vendita di informazioni personali (relativa al CCPA).
 
-In [questa sezione](https://helpx.adobe.com/it/campaign/kb/campaign-privacy-more.html#gdprpersonasandflow) sono illustrate le principali funzionalità di Campaign relative alla privacy e un esempio degli utenti tipo coinvolti.
+In [questa sezione](#personal-data) sono illustrate le principali funzionalità di Campaign relative alla privacy e un esempio degli utenti tipo coinvolti.
 
 ### Consenso, conservazione e ruoli {#consent}
 

@@ -10,19 +10,19 @@ TQID: https://experienceleague.adobe.com/EzHUErLy7-OcfF0lxH4UHXm1N1HYGt6kP9Io1LI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
 workflow-type: tm+mt
-source-wordcount: 845
+source-wordcount: '845'
 ht-degree: 4%
-
 ---
-
 # Creare un flusso di lavoro {#build-a-workflow}
 
 ## Crea un nuovo flusso di lavoro {#create-a-new-workflow}
@@ -96,8 +96,8 @@ Per creare il diagramma
 
   Le icone relative all’avanzamento e alla visualizzazione dei registri sono descritte in dettaglio nelle sezioni seguenti:
 
-   * [Avanzamento visualizzazione](monitor-workflow-execution.md#displaying-progress)
-   * [Visualizza registri](monitor-workflow-execution.md#displaying-logs)
+  * [Avanzamento visualizzazione](monitor-workflow-execution.md#displaying-progress)
+  * [Visualizza registri](monitor-workflow-execution.md#displaying-logs)
 
 * **Allineamento oggetto**
 

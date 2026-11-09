@@ -3,6 +3,7 @@ product: campaign
 title: Introduzione alle tipologie di campagne
 description: Scopri come configurare e implementare le tipologie di campagne
 feature: Typology Rules
+version: Campaign v8, Campaign Classic v7
 exl-id: 7832ffe1-eb65-4b37-9fc5-1374516755d9
 TQID: 'https://experienceleague.adobe.com/Pxzz3-z8BorlEgP1gGwLK--l6hEAGZ-DQhGuxsLk6oU'
 product_v2:
@@ -27,7 +28,7 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 19%
@@ -67,7 +68,7 @@ Campaign viene fornito con un set di regole predefinite **Filtro** e **Controllo
 Il componente aggiuntivo Ottimizzazione Campaign fornisce due ulteriori tipi di **regole di tipologia**:
 
 * **Regole di pressione** che consentono di controllare l&#39;eccesso di marketing. [Ulteriori informazioni](pressure-rules.md).
-* **Regole di capacità** che consentono di limitare i carichi per garantire condizioni di elaborazione ottimali. [Ulteriori informazioni](consistency-rules.md#controlling-capacity).
+* **Regole di capacità** che consentono di limitare i carichi per garantire condizioni di elaborazione ottimali. [Ulteriori informazioni](consistency-rules.md#control-capacity).
 
 
 >[!NOTE]

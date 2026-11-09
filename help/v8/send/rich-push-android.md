@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: Progettare una consegna di notifiche push potenziata
+title: Progettare una consegna push avanzata per Android
 description: Scopri come progettare una consegna di notifiche push potenziata con Adobe Campaign Web
 feature: Push
 role: User
@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 239f132eab6976d228c6648917c3090f14cf5088
 workflow-type: tm+mt
 source-wordcount: '2043'
 ht-degree: 18%

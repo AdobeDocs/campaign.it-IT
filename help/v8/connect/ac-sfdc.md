@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 3%
@@ -99,7 +99,7 @@ Una volta creato lo schema, puoi sincronizzare automaticamente le enumerazioni d
 
 1. Fare clic su **[!UICONTROL Next]** e quindi su **[!UICONTROL Start]** per avviare l&#39;importazione delle enumerazioni.
 
-1. Sfoglia il nodo **[!UICONTROL Administration > Platform > Enumerations]** per controllare i valori importati. Ulteriori informazioni sulle enumerazioni in [questa pagina](../config/ui-settings.md#enumerations).
+1. Sfoglia il nodo **[!UICONTROL Administration > Platform > Enumerations]** per controllare i valori importati. Ulteriori informazioni sulle enumerazioni in [questa pagina](../config/ui-settings.md).
 
 Adobe Campaign e Salesforce.com sono ora connessi. È possibile impostare la sincronizzazione dei dati tra i due sistemi.
 

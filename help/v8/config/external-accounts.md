@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0ad8b1536e0bc065131ea64d6778dc18a0f27f04
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '2184'
 ht-degree: 1%
@@ -65,7 +65,7 @@ I seguenti account tecnici vengono utilizzati da Adobe Campaign per abilitare ed
 
 >[!NOTE]
 >
->A partire da Campaign v8.3, è disponibile l’autenticazione OAuth 2.0 di Microsoft Exchange Online per la funzionalità POP3. Per verificare la versione, consultare [questa sezione](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion).
+>A partire da Campaign v8.3, è disponibile l’autenticazione OAuth 2.0 di Microsoft Exchange Online per la funzionalità POP3. Per verificare la versione, consultare [questa sezione](../start/compatibility-matrix.md).
 >
 
 L&#39;account esterno **Messaggi non recapitati** specifica l&#39;account POP3 esterno da utilizzare per connettersi al servizio e-mail. Tutti i server configurati per l&#39;accesso POP3 possono essere utilizzati per ricevere la posta di ritorno.
