@@ -44,12 +44,12 @@ I risultati della simulazione contengono una suddivisione delle proposte per cla
 
 Puoi salvare questi risultati ed esportarli, se necessario, creando un’analisi descrittiva dei risultati. A tale scopo, fare clic sul collegamento appropriato nella finestra dei risultati.
 
-Fai riferimento a [questa sezione](https://experienceleague.adobe.com/en/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis){target="_blank"} per ulteriori informazioni sull&#39;Assistente all&#39;analisi descrittiva.
+Fai riferimento a [questa sezione](https://experienceleague.adobe.com/it/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis){target="_blank"} per ulteriori informazioni sull&#39;Assistente all&#39;analisi descrittiva.
 
 ![](assets/offer_simulation_012.png)
 
 Una tabella pivot fornisce una visualizzazione rapida dei raggruppamenti delle offerte per classificazione. Come tutti i rapporti in Adobe Campaign, puoi esportarli, stamparli, archiviarli o visualizzarli in un browser web.
 
-Per ulteriori informazioni al riguardo, consulta [questa sezione](https://experienceleague.adobe.com/en/docs/campaign-classic/using/reporting/creating-new-reports/actions-on-reports){target="_blank"}.
+Per ulteriori informazioni al riguardo, consulta [questa sezione](https://experienceleague.adobe.com/it/docs/campaign-classic/using/reporting/creating-new-reports/actions-on-reports){target="_blank"}.
 
 ![](assets/offer_simulation_013.png)
