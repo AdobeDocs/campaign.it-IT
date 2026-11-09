@@ -3,9 +3,9 @@ audience: user
 user-guide-title: Guida all’automazione di Campaign
 user-guide-description: Guida all’automazione di Campaign
 feature: Overview
-source-git-commit: 7e18801756113db5273f0108447c20d6b3ef85a3
+source-git-commit: c8cb0f8a3f752a46fae533c8fd0608aa4545d37c
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '477'
 ht-degree: 81%
 ---
 
@@ -164,4 +164,10 @@ ht-degree: 81%
   + [Controllare i costi](mrm/controlling-costs.md)
   + [Gestire le risorse di marketing](mrm/managing-marketing-resources.md)
   + [Forum di discussione](mrm/discussion-forums.md)
++ Gestione risposte (componente aggiuntivo) {#response-manager}
+  + [Introduzione a Gestione risposte](response/about-response-manager.md)
+  + [Configurare Response Manager](response/configure-response-manager.md)
+  + [Modelli di ipotesi](response/hypothesis-templates.md)
+  + [Creare ipotesi](response/creating-hypotheses.md)
+  + [Tracciamento delle ipotesi](response/hypothesis-tracking.md)
 + [&lt; Documentazione di Back to Campaign v8](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/campaign-home)
