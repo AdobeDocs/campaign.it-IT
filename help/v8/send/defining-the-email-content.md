@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '2072'
+source-wordcount: '2111'
 ht-degree: 2%
 ---
 # Definire il contenuto dell’e-mail {#defining-the-email-content}
@@ -85,6 +85,10 @@ Ad esempio, nel messaggio precedente, l’oggetto del messaggio è personalizzat
 >[!IMPORTANT]
 >
 >La versione 8.9.3 include un aggiornamento dell’elenco consentiti dell’URL esterno. Assicurati che i domini utilizzati nel contenuto del messaggio siano aggiunti all’elenco consentiti approvato della tua istanza in modo che le risorse continuino a caricarsi senza interruzioni. In qualità di amministratore di Campaign, utilizza il Pannello di controllo Campaign per aggiungere e gestire gli URL inseriti nell’elenco Consentiti. Consulta [Aggiungi autorizzazioni URL](https://experienceleague.adobe.com/it/docs/control-panel/using/instances-settings/url-permissions){target="_blank"} per i passaggi.
+
+>[!IMPORTANT]
+>
+>Non utilizzare il tag HTML `<base>` nel contenuto dell&#39;e-mail. Per motivi di sicurezza, questo tag non è supportato e può impedire il caricamento del contenuto nell’editor di contenuti. Utilizza invece URL assoluti per i collegamenti e le risorse esterne.
 
 Il contenuto del messaggio è definito nella sezione inferiore della finestra di configurazione della consegna.
 

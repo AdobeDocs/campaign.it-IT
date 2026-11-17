@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '2954'
-ht-degree: 49%
+source-wordcount: '2947'
+ht-degree: 48%
 ---
 # Best practice per la sicurezza di Campaign {#ac-security}
 
@@ -116,7 +116,7 @@ Nella gestione della privacy è importante definire quali dati devono essere ges
 * **I dati personali** sono informazioni che possono identificare direttamente o indirettamente un individuo.
 * **I dati personali riservati** sono informazioni relative a etnia, opinioni politiche, credenze religiose, precedenti penali, informazioni genetiche, dati sanitari, orientamento sessuale e informazioni biometriche di un individuo, nonché iscrizioni a sindacati.
 
-Durante l’integrazione di Campaign con altre soluzioni Experience Cloud in cui i tipi di pubblico possono essere trasferiti da un sistema all’altro, come [Adobe Analytics](../connect/ac-aa.md), [Experience Cloud Audiences](../start/shared-audiences.md), Campaign Standard o con altre soluzioni tramite [Connettore CRM](../../automation/workflow/crm-connector.md), devi prestare maggiore attenzione alla protezione dei dati personali.
+È necessario prestare maggiore attenzione alla protezione dei dati personali durante l&#39;integrazione di Campaign con altre soluzioni [!DNL Adobe CX Enterprise] in cui i tipi di pubblico possono essere trasferiti da un sistema all&#39;altro, ad esempio [Adobe Analytics](../connect/ac-aa.md), [Experience Cloud Audiences](../start/shared-audiences.md), Campaign Standard o con altre soluzioni tramite [Connettore CRM](../../automation/workflow/crm-connector.md).
 
 Le [normative principali](#privacy-regulations) si riferiscono alle diverse entità che gestiscono i dati come segue:
 
@@ -203,7 +203,7 @@ Grazie alle sue funzionalità di tracciamento, Adobe Campaign consente di monito
 * Un cookie di **sessione**: il cookie **nlid** contiene l’identificatore dell’e-mail inviata al contatto (**broadlogId**) e l’identificatore del modello del messaggio (**deliveryId**). Viene aggiunto quando il contatto fa clic su un URL incluso in un’e-mail inviata da Adobe Campaign e ti consente di tracciarne il comportamento sul web. Questo cookie di sessione viene cancellato automaticamente alla chiusura del browser. Il contatto può configurare il browser per rifiutare i cookie.
 
 * Due cookie **permanenti**:
-  * Il cookie **UUID** (Universal Unique IDentifier) è condiviso tra le diverse soluzioni Adobe Experience Cloud. Viene impostato una volta fino a quando non scompare dal browser client quando viene generato un nuovo valore. Questo cookie ti consente di identificare gli utenti che interagiscono con le soluzioni Experience Cloud quando visitano un sito web. Può essere depositato da una pagina di destinazione (per associare a un destinatario le attività cliente sconosciute) o da una consegna. La descrizione di questo cookie è disponibile in [questa pagina](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=it#ec-cookies).
+  * Il cookie **UUID** (Universal Unique IDentifier) è condiviso tra [!DNL CX Enterprise] soluzioni. Viene impostato una volta fino a quando non scompare dal browser client quando viene generato un nuovo valore. Questo cookie consente di identificare gli utenti che interagiscono con le soluzioni [!DNL CX Enterprise] quando visitano un sito Web. Può essere depositato da una pagina di destinazione (per associare a un destinatario le attività cliente sconosciute) o da una consegna. La descrizione di questo cookie è disponibile in [questa pagina](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=it#ec-cookies).
   * Il cookie **nllastdelid** (introdotto in Campaign Classic 20.3) è un cookie permanente che contiene il **deliveryId** dell’ultima consegna da cui l’utente ha fatto clic sul collegamento. Questo cookie viene utilizzato quando manca il cookie di sessione, per identificare la tabella di tracciamento che verrà utilizzata.
 
 Normative quali il Regolamento generale sulla protezione dei dati (GDPR) affermano che le aziende necessitano del consenso degli utenti del sito web per installare i cookie.

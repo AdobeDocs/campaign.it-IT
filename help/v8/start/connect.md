@@ -23,10 +23,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 94%
+source-wordcount: '1103'
+ht-degree: 90%
 ---
 # Connessione ad Adobe Campaign v8{#gs-ac-connect}
 
@@ -146,14 +146,14 @@ Ulteriori informazioni sugli utenti e su come definire le relative autorizzazion
 
 ### Interfaccia utente web {#connect-web-ui}
 
-A partire dalla versione di Campaign v8.6, potrai accedere alla nuova **interfaccia utente web di Campaign**, disponibile nell’ambiente Adobe Experience Cloud centrale. Experience Cloud è un insieme integrato di applicazioni, prodotti e servizi per il marketing digitale di Adobe. Grazie alla sua interfaccia intuitiva, puoi accedere rapidamente alle applicazioni cloud, alle funzionalità dei prodotti e ai servizi.
+A partire dalla versione v8.6 di Campaign, puoi accedere alla nuova interfaccia utente **Web di Campaign**, disponibile nell&#39;ambiente centrale [!DNL Adobe CX Enterprise]. [!DNL CX Enterprise] è un insieme integrato di applicazioni, prodotti e servizi Adobe per il marketing digitale. Grazie alla sua interfaccia intuitiva, puoi accedere rapidamente alle applicazioni cloud, alle funzionalità dei prodotti e ai servizi.
 
 >[!AVAILABILITY]
 >
 >L’interfaccia utente di Campaign Web è disponibile solo per gli utenti che si connettono ad Adobe Campaign con il proprio Adobe ID. Ulteriori informazioni su [Adobe Identity Management System (IMS)](https://helpx.adobe.com/it/enterprise/using/identity.html){target="_blank"}.
 >
 
-Scopri come connetterti ad Adobe Experience Cloud e come accedere all’interfaccia di Adobe Campaign Web [in questa pagina](campaign-ui.md#ac-web-ui).
+Scopri come connetterti a [!DNL CX Enterprise] e accedere all&#39;interfaccia Web di Adobe Campaign [in questa pagina](campaign-ui.md#ac-web-ui).
 
 Ulteriori informazioni nella [documentazione dell’interfaccia utente di Adobe Campaign Web](https://experienceleague.adobe.com/it/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
 

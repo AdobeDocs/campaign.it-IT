@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '1093'
-ht-degree: 87%
+source-wordcount: '1090'
+ht-degree: 85%
 ---
 # Gestire le richieste di accesso ai dati personali in Campaign {#privacy}
 
@@ -45,7 +45,7 @@ A seconda della natura della tua attività e delle giurisdizioni in cui opera, l
 Adobe offre ai titolari del trattamento strumenti per creare ed elaborare richieste di accesso ai dati personali per i dati memorizzati in Adobe Campaign. In qualità di titolare del trattamento, avrai pertanto la responsabilità di confermare l’identità dell’interessato che presenta la richiesta e confermare che i dati restituiti al richiedente riguardano l’interessato. Ulteriori informazioni sui dati personali e sulle diverse entità che gestiscono i dati nella [documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=it#personal-data){target="_blank"}.
 
 
-Per gestire le richieste di accesso a dati personali in Campaign, devi prima [definire uno spazio dei nomi](#namespaces). Dopodiché puoi creare e gestire le richieste Privacy. Per eseguire le richieste di accesso a dati personali, utilizza l’integrazione **Adobe Privacy Service**. Le richieste di accesso a dati personali inviate da Privacy Service a tutte le soluzioni Adobe Experience Cloud vengono gestite automaticamente da Campaign tramite un flusso di lavoro dedicato. [Ulteriori informazioni](#create-privacy-request)
+Per gestire le richieste di accesso a dati personali in Campaign, devi prima [definire uno spazio dei nomi](#namespaces). Dopodiché puoi creare e gestire le richieste Privacy. Per eseguire le richieste di accesso a dati personali, utilizza l’integrazione **Adobe Privacy Service**. Le richieste di accesso a dati personali inviate da Privacy Service a tutte le soluzioni [!DNL Adobe CX Enterprise] vengono gestite automaticamente da Campaign tramite un flusso di lavoro dedicato. [Ulteriori informazioni](#create-privacy-request)
 
 Scopri il **Diritto di accesso** e il **Diritto all&#39;oblio** (elimina richiesta) nella [Documentazione di Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=it#right-access-forgotten){target="_blank"}.
 

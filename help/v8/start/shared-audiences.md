@@ -24,12 +24,12 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 76%
+source-wordcount: '255'
+ht-degree: 61%
 ---
-# Condividere tipi di pubblico con le soluzioni Adobe Experience Cloud{#shared-audiences}
+# Condividi i tipi di pubblico con [!DNL Adobe CX Enterprise] soluzioni{#shared-audiences}
 
 
 Opzione 1: origini e destinazioni AEP
@@ -38,9 +38,9 @@ Opzione 2: Adobe People/AAM
 
 È possibile integrare **Adobe Campaign** con il **servizio core People** o Adobe Audience Manager. Potrai quindi:
 
-* Importare tipi di pubblico/segmenti condivisi da diverse soluzioni Adobe Experience Cloud in Adobe Campaign. I tipi di pubblico possono essere importati tramite elenchi in Adobe Campaign.
+* Importa tipi di pubblico/segmenti condivisi da diverse soluzioni [!DNL CX Enterprise] in Adobe Campaign. I tipi di pubblico possono essere importati tramite elenchi in Adobe Campaign.
 
-* Esportare elenchi sotto forma di tipi di pubblico condivisi di Adobe Experience Cloud. Questi tipi di pubblico possono essere utilizzati nelle diverse soluzioni Adobe Experience Cloud che utilizzi. I tipi di pubblico possono essere esportati dopo il targeting in un flusso di lavoro, utilizzando un’attività **[!UICONTROL Update shared audience]**.
+* Esporta elenchi sotto forma di [!DNL CX Enterprise] tipi di pubblico condivisi. Questi tipi di pubblico possono essere utilizzati nelle diverse soluzioni [!DNL CX Enterprise] utilizzate. I tipi di pubblico possono essere esportati dopo il targeting in un flusso di lavoro, utilizzando un’attività **[!UICONTROL Update shared audience]**.
 
 Questa integrazione supporta due tipi di ID Adobe Experience Cloud:
 
