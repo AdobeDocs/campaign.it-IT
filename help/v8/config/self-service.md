@@ -30,10 +30,10 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 91%
+source-wordcount: '516'
+ht-degree: 90%
 ---
 # Pannello di controllo Campaign {#ac-control-panel}
 
@@ -51,7 +51,7 @@ Ulteriori informazioni sono disponibili nella [documentazione del Pannello di co
 
 ## Come accedere al Pannello di controllo? {#ac-control-panel-access}
 
-Il Pannello di controllo è disponibile direttamente da Adobe Experience Cloud. È accessibile solo agli utenti amministratori.
+Pannello di controllo Campaign disponibile direttamente da [!DNL Adobe CX Enterprise]. È accessibile solo agli utenti amministratori.
 
 >[!IMPORTANT]
 >
@@ -63,7 +63,7 @@ Per ulteriori informazioni, [fai clic qui](https://experienceleague.adobe.com/do
 
 ## Domande frequenti sul Pannello di controllo {#ac-control-faq}
 
-[Fai clic qui &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=it#control-panel){target="_blank"} per accedere alle domande frequenti sul Pannello di controllo Campaign.
+[Fai clic qui ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=it#control-panel){target="_blank"} per accedere alle domande frequenti sul Pannello di controllo Campaign.
 
 ## Gestione SFTP {#ac-control-sftp}
 
