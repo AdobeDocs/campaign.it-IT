@@ -47,9 +47,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 30b0f5eda9c80b72af5c8574e01cec6965b05564
 workflow-type: tm+mt
-source-wordcount: '1944'
+source-wordcount: '1949'
 ht-degree: 0%
 ---
 # Utilizzare i pacchetti di dati{#data-packages}
@@ -59,6 +59,8 @@ ht-degree: 0%
 Puoi utilizzare i pacchetti di dati per esportare e importare le impostazioni e i dati personalizzati della piattaforma. Un pacchetto può contenere diversi tipi di configurazioni e componenti, filtrati o meno.
 
 Nei pacchetti di dati di Campaign, le entità del database Adobe Campaign vengono visualizzate in file XML. In un pacchetto, ogni entità è rappresentata con tutti i suoi dati.
+
+Questa pagina descrive **pacchetti di dati personalizzati** che puoi creare e gestire. I pacchetti che forniscono le funzionalità di Campaign sono **pacchetti incorporati**, che Adobe installa e gestisce. Ulteriori informazioni sono disponibili in [Pacchetti incorporati](../architecture/built-in-packages.md).
 
 Il principio di **pacchetti di dati** consiste nell&#39;esportare una configurazione di dati e integrarla in un altro ambiente Adobe Campaign. Scopri come mantenere un set coerente di pacchetti di dati in questa [sezione](#data-package-best-practices).
 
@@ -302,11 +304,9 @@ Il contenuto del pacchetto da importare viene quindi visualizzato nella sezione 
 
 Fare clic su **[!UICONTROL Next]** e **[!UICONTROL Start]** per avviare l&#39;importazione.
 
-### Installare un pacchetto integrato {#install-a-standard-package}
+### Pacchetti integrati {#install-a-standard-package}
 
-Pacchetti incorporati (alias pacchetti standard) quando Adobe Campaign è configurato. A seconda delle autorizzazioni, del modello di distribuzione e dell’offerta di prodotto, puoi importare nuovi pacchetti standard.
-
-Fare riferimento al contratto di licenza per verificare quali pacchetti è possibile installare.
+Adobe installa e gestisce i pacchetti incorporati in Campaign v8. Ulteriori informazioni sono disponibili in [Pacchetti incorporati](../architecture/built-in-packages.md).
 
 ## Best practice relative ai pacchetti dati {#data-package-best-practices}
 
