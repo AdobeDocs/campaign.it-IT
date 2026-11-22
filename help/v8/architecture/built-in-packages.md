@@ -26,9 +26,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: b37128ff4180befd5655c0c16b9ff0834235a84a
+source-git-commit: 9f70a309a882347a0df658d00c47127f31d28eb9
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '820'
 ht-degree: 15%
 ---
 # Pacchetti integrati {#built-in-packages}
@@ -65,7 +65,7 @@ Nella tabella seguente sono elencati i pacchetti incorporati a scopo informativo
 | Controllo ed esecuzione dei messaggi transazionali (Centro messaggi) | Gestisce i messaggi di attivazione generati dagli eventi nei sistemi informativi, con maggiore disponibilità e una migliore gestione del carico. [Ulteriori informazioni](../send/transactional.md) |
 | Canale LINE | Invia le consegne tramite il canale LINE. [Ulteriori informazioni](../send/line/line.md) |
 | Canale direct mail | Invia le consegne tramite il canale di direct mailing. [Ulteriori informazioni](../send/direct-mail.md) |
-| Canale mobile (SMS) | Invia consegne tramite il canale mobile (SMS). [Ulteriori informazioni](../send/sms/sms.md) |
+| Canale mobile (SMS) | Invia consegne tramite il canale mobile (SMS), incluso il connettore SMS v2 (generalmente disponibile dalla versione 8.9.1). [Ulteriori informazioni](../send/sms/sms.md) |
 | Canale app mobile | Invia notifiche personalizzate ai dispositivi iOS e Android tramite app. [Ulteriori informazioni](../send/push.md) |
 | Gestione dei contenuti | Crea newsletter o siti Web ricorrenti, quindi convalida e pubblica i messaggi. [Ulteriori informazioni](../../automation/workflow/content-management.md) |
 | Sondaggi online (Gestione sondaggi) | Crea e gestisce moduli online per aggiungere o modificare informazioni sul profilo, iscriversi, annullare l’iscrizione o partecipare a un concorso. [Ulteriori informazioni](../dev/surveys/about-surveys.md) |
