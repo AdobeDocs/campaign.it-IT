@@ -8,7 +8,7 @@ ht-degree: 5%
 
 > Avvertenza:
 >
-> Questa documentazione è stata aggiornata. Per ulteriori dettagli, consulta questa [pagina](https://experienceleague.adobe.com/en/docs/campaign-classic/using/technotes/gcm-functions#decryptpassword-headding-anchor-decryptpassword-javascript).
+> Questa documentazione è stata aggiornata. Per ulteriori dettagli, consulta questa [pagina](https://experienceleague.adobe.com/it/docs/campaign-classic/using/technotes/gcm-functions#decryptpassword-headding-anchor-decryptpassword-javascript).
 
 Decritta una password archiviata in un account esterno.
 

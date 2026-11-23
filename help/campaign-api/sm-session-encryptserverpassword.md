@@ -8,7 +8,7 @@ ht-degree: 24%
 
 > Avvertenza:
 >
-> Questa funzione è completamente obsoleta. Per ulteriori dettagli, consulta questa [pagina](https://experienceleague.adobe.com/en/docs/campaign-classic/using/technotes/gcm-functions#deprecated-functions-headding-anchor-depracated-functions).
+> Questa funzione è completamente obsoleta. Per ulteriori dettagli, consulta questa [pagina](https://experienceleague.adobe.com/it/docs/campaign-classic/using/technotes/gcm-functions#deprecated-functions-headding-anchor-depracated-functions).
 
 Crittografa la stringa di caratteri con la chiave del server.
 

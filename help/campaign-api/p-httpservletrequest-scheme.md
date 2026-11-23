@@ -17,7 +17,7 @@ scheme
 Esempio: lo schema del seguente URL:
 
 ```javascript
-      http://adobe.com:8080/nms/test.jst?id=1234&param=dummy#aFragment
+      http://adobe.com/it:8080/nms/test.jst?id=1234&param=dummy#aFragment
 ```
 
 restituisce la stringa seguente:

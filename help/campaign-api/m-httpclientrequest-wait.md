@@ -27,7 +27,7 @@ Nessuno.
 La funzione non si applica a una query, ma è una funzione del contenitore HttpClientRequest. Esempio:
 
 ```javascript
-var req = new HttpClientRequest("http://www.adobe.com/")
+var req = new HttpClientRequest("http://www.adobe.com/it/")
 req.complete = function(req, context, status) { logInfo(status) }
 req.execute(false, true)
 
