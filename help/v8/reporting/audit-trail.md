@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '624'
 ht-degree: 2%
 ---
 # Audit trail{#audit-trail}
@@ -58,9 +58,9 @@ La funzionalità **[!UICONTROL Audit trail]** di Adobe Campaign offre un record 
   * Pausa
   * Interruzione
   * Riavvio
-  * Pulizia uguale all’azione Cancella cronologia
+  * Pulizia che è uguale all’azione Cancella cronologia
   * Simula, che è uguale all’azione Avvia in modalità simulazione
-  * Attivazione uguale all&#39;azione Esegui attività in sospeso ora
+  * Riattivazione uguale all&#39;azione Esegui attività in sospeso ora
   * Interruzione incondizionata
 
   Per ulteriori informazioni sui flussi di lavoro, consulta questa [pagina](../../automation/workflow/about-workflows.md).
@@ -69,7 +69,7 @@ La funzionalità **[!UICONTROL Audit trail]** di Adobe Campaign offre un record 
 
 * **Option audit trail** consente di controllare le attività e le ultime modifiche apportate alle opzioni.
 
-  Per ulteriori informazioni sulle opzioni, consulta questa [pagina](https://experienceleague.adobe.com/it/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
+  Per ulteriori informazioni sulle opzioni, consulta questa [pagina](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
 
 * **Audit trail consegna** consente di controllare le attività e le ultime modifiche apportate alle consegne.
 

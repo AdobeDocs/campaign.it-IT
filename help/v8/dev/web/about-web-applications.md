@@ -40,7 +40,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 12%
@@ -51,7 +51,7 @@ ht-degree: 12%
 >
 >Per i casi d’uso più comuni, crea le pagine di destinazione nell’interfaccia utente di Campaign Web, dove puoi facilmente progettarle e pubblicarle. Le pagine di destinazione create nella console client, come descritto in questa sezione, offrono più impostazioni e coprono casi di utilizzo più avanzati.
 >
->[Ulteriori informazioni sulle pagine di destinazione nell&#39;interfaccia utente di Campaign Web](https://experienceleague.adobe.com/it/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
+>[Ulteriori informazioni sulle pagine di destinazione nell&#39;interfaccia utente di Campaign Web](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
 
 
 
@@ -82,24 +82,24 @@ Le applicazioni web in Adobe Campaign consentono di accedere alle seguenti funzi
 * Interfaccia di gestione delle pagine grafiche, layout di pagina a più colonne. Per ulteriori informazioni, consulta questa [pagina](designing-a-web-application.md).
 * Personalizzazione del rendering e posizione del campo. Per ulteriori informazioni, consulta questa [pagina](editing-content.md#adding-personalization-content).
 * Visualizzazione condizionale dei campi del sondaggio in base alle risposte fornite. Per ulteriori informazioni, consulta questa [pagina](form-rendering.md#defining-fields-conditional-display).
-* Visualizzazione casuale delle domande. Per ulteriori informazioni, consulta questa [pagina](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/content/surveys/building-a-survey#adding-questions){target="_blank"} (documentazione di Campaign v8).
+* Visualizzazione casuale delle domande. Per ulteriori informazioni, consulta questa [pagina](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/building-a-survey#adding-questions){target="_blank"} (documentazione di Campaign v8).
 * Visualizzazione pagina condizionale. Per ulteriori informazioni, consulta questa [pagina](defining-web-forms-page-sequencing.md#conditional-page-display).
 * Verifica delle informazioni prima della convalida in base al tipo di dati previsto (numero, indirizzo e-mail, data, ecc.) e i campi obbligatori. Per ulteriori informazioni, consulta questa [pagina](form-rendering.md#defining-control-settings).
 * Inviti o notifiche e-mail. Per ulteriori informazioni, consulta questa [pagina](publishing-a-web-form.md#delivering-a-form-via-email).
 * Personalization dei messaggi di errore e di fine. Per ulteriori informazioni, consulta questa [pagina](defining-web-forms-properties.md#setting-up-an-error-page).
 * Utilizzo di immagini, video, collegamenti ipertestuali, captcha, ecc. Per ulteriori informazioni, consulta questa [pagina](editing-content.md).
-* Monitoraggio delle risposte in tempo reale Per ulteriori informazioni, consulta questa [pagina](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/content/surveys/publish-track-and-use-collected-data#response-tracking){target="_blank"} (documentazione di Campaign v8).
+* Monitoraggio delle risposte in tempo reale Per ulteriori informazioni, consulta questa [pagina](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/publish-track-and-use-collected-data#response-tracking){target="_blank"} (documentazione di Campaign v8).
 
 Il modulo opzionale per la creazione di **Sondaggio** offre le seguenti funzionalità aggiuntive:
 
-* Estensione dinamica del database: creazione di risposte non incluse nel modello di dati iniziale. Per ulteriori informazioni, consulta questa [pagina](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/content/surveys/managing-answers#storing-collected-answers){target="_blank"} (documentazione di Campaign v8).
-* Generazione di rapporti dedicati. Per ulteriori informazioni, consulta questa [pagina](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/content/surveys/publish-track-and-use-collected-data#reports-on-surveys){target="_blank"} (documentazione di Campaign v8).
+* Estensione dinamica del database: creazione di risposte non incluse nel modello di dati iniziale. Per ulteriori informazioni, consulta questa [pagina](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/managing-answers#storing-collected-answers){target="_blank"} (documentazione di Campaign v8).
+* Generazione di rapporti dedicati. Per ulteriori informazioni, consulta questa [pagina](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/publish-track-and-use-collected-data#reports-on-surveys){target="_blank"} (documentazione di Campaign v8).
 
 Rispetto alle applicazioni Web, i sondaggi hanno un&#39;interfaccia grafica semplificata con un numero ridotto di controlli di modifica.
 
 >[!NOTE]
 >
->I sondaggi sono descritti in [questa sezione](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/content/surveys/about-surveys){target="_blank"} (documentazione di Campaign v8).
+>I sondaggi sono descritti in [questa sezione](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/about-surveys){target="_blank"} (documentazione di Campaign v8).
 >
 >Le funzionalità generali dei moduli Web in Adobe Campaign sono descritte in dettaglio in [questa sezione](about-web-forms.md).
 
@@ -112,7 +112,7 @@ Per creare e pubblicare un&#39;applicazione Web, è necessario:
    È inoltre possibile visualizzare la sezione che descrive i campi disponibili per i moduli: tutti questi campi sono disponibili anche per le applicazioni Web. Informazioni disponibili in [questa pagina](adding-fields-to-a-web-form.md).
 
 1. Se necessario, puoi aggiungere passaggi di precaricamento, test e salvataggio e configurare il sistema di controllo degli accessi (principalmente nel framework di una pubblicazione Extranet).
-1. Pubblicazione dell&#39;applicazione Web per renderla disponibile su una rete Extranet o in Adobe Campaign.
+1. Pubblica l’applicazione web per renderla disponibile su una extranet o in Adobe Campaign.
 
 ## Configurazione iniziale dell’applicazione web {#web-application-initial-configuration}
 

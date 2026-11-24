@@ -40,7 +40,7 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 2%
@@ -74,7 +74,7 @@ I criteri di replica definiscono la quantità di dati replicati da una tabella d
 
 Campaign v8 si basa su flussi di lavoro tecnici specifici per gestire la replica pianificata dei dati. Questi flussi di lavoro tecnici sono disponibili dal nodo **[!UICONTROL Administration > Production > Technical workflows > Full FFDA Replication]** di Campaign Explorer. **Non devono essere modificati.**
 
-I flussi di lavoro tecnici eseguono processi o processi, pianificati regolarmente sul server. L&#39;elenco completo dei flussi di lavoro tecnici è descritto in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=it){target="_blank"}.
+I flussi di lavoro tecnici eseguono processi o processi, pianificati regolarmente sul server. L&#39;elenco completo dei flussi di lavoro tecnici è descritto in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}.
 
 I flussi di lavoro tecnici che garantiscono la replica dei dati sono i seguenti:
 
@@ -87,7 +87,7 @@ I flussi di lavoro tecnici che garantiscono la replica dei dati sono i seguenti:
 
 Se necessario, puoi avviare manualmente la sincronizzazione dei dati. A tale scopo, fare clic con il pulsante destro del mouse sull&#39;attività **Scheduler** e selezionare **Esegui attività in sospeso ora**.
 
-Oltre al flusso di lavoro tecnico integrato **Replica tabelle di riferimento**, puoi forzare la replica dei dati nei flussi di lavoro utilizzando uno di questi metodi
+Oltre al flusso di lavoro tecnico integrato **Replica tabelle di riferimento**, puoi forzare la replica dei dati nei flussi di lavoro utilizzando uno dei seguenti metodi:
 
 +++Come forzare la replica dei dati
 
@@ -147,6 +147,6 @@ Ogni coda viene gestita da un flusso di lavoro tecnico, che gestisce la replica 
 
 Questo video illustra i concetti chiave dei database utilizzati da Adobe Campaign v8, il motivo per cui i dati vengono replicati, quali dati vengono replicati e come funziona il processo di replica.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416866?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334460?quality=12)
 
-Ulteriori tutorial sulla console client di Campaign v8 sono disponibili [qui](https://experienceleague.adobe.com/it/docs/campaign-learn/tutorials/overview).
+Ulteriori tutorial sulla console client di Campaign v8 sono disponibili [qui](https://experienceleague.adobe.com/en/docs/campaign-learn/tutorials/overview).

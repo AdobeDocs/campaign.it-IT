@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '1780'
 ht-degree: 15%
@@ -63,7 +63,7 @@ Gli aggiornamenti possono essere:
 
 Informazioni dettagliate su ogni nuova versione sono disponibili nelle [Note sulla versione](release-notes.md). Le correzioni relative alla sicurezza vengono inserite nelle note di ogni versione. Per ulteriori informazioni sulle notifiche di protezione, vedere [Informazioni](#security-staying-informed).
 
-Per garantire una configurazione stabile, Adobe consiglia di installare **esattamente la stessa versione** su tutti i server Campaign. Inoltre, salvo diversa indicazione nelle [Note sulla versione](release-notes.md), la console client deve essere in **la stessa versione** dell&#39;istanza del server. Scopri come aggiornare la console client in questa [pagina](../start/connect.md#upgrade-ac-console).
+Per garantire una configurazione stabile, Adobe consiglia di installare **esattamente la stessa versione** su tutti i server Campaign. Inoltre, a meno che non sia indicato diversamente nelle [Note sulla versione](release-notes.md), la console client deve essere **nella stessa versione** dell&#39;istanza del server. Scopri come aggiornare la console client in questa [pagina](../start/connect.md#upgrade-ac-console).
 
 ### Hotfix {#hotflixes}
 
@@ -109,7 +109,7 @@ Accedi alle seguenti informazioni:
 
 Le nuove versioni e le relative modifiche sono elencate nelle [Note sulla versione](release-notes.md).
 
-Per gli aggiornamenti sulle versioni del prodotto, abbonati ad [Aggiornamenti dei prodotti con priorità Adobe](https://www.adobe.com/it/subscription/priority-product-update.html){target="_blank"} o visita la [community di Campaign](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?profile.language=it&style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"}.
+Per gli aggiornamenti sulle versioni del prodotto, abbonati ad [Aggiornamenti dei prodotti con priorità Adobe](https://www.adobe.com/it/subscription/priority-product-update.html){target="_blank"} o visita la [community di Campaign](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"}.
 
 Per le notifiche di sicurezza e le indicazioni sulla preparazione dell&#39;organizzazione per gli aggiornamenti di sicurezza, vedere [Informazioni](#security-staying-informed).
 

@@ -24,7 +24,7 @@ feature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 1%
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 ## Creazione di una regola di presentazione {#creating-a-presentation-rule}
 
-Nel nostro database, ci sono diverse offerte di viaggio per Europa, Africa, Stati Uniti e Canada. Vogliamo inviare offerte per un viaggio in Canada, ma se il destinatario rifiuta questo tipo di offerta, non vogliamo inviarle di nuovo
+Nel nostro database, ci sono diverse offerte di viaggio per Europa, Africa, Stati Uniti e Canada. Vogliamo inviare offerte per un viaggio in Canada, ma se il destinatario rifiuta questo tipo di offerta, non vogliamo inviarle di nuovo.
 
 Stiamo per configurare la nostra regola in modo che il viaggio in Canada venga offerto solo una volta per destinatario e non nuovamente se rifiutato.
 
@@ -113,7 +113,7 @@ Desideriamo inviare una proposta di prima offerta appartenente alla categoria Ca
 
    ![](assets/offer_typology_example_016.png)
 
-1. Inserisci le offerte nel corpo del messaggio e invia la consegna. Per ulteriori informazioni, consulta [Informazioni sui canali in uscita](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/offers/interaction-send-offers){target="_blank"} (documentazione di Campaign v8).
+1. Inserisci le offerte nel corpo del messaggio e invia la consegna. Per ulteriori informazioni, consulta [Informazioni sui canali in uscita](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-send-offers){target="_blank"} (documentazione di Campaign v8).
 
    Il destinatario ha ricevuto l’offerta per la quale è idoneo.
 

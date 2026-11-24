@@ -27,7 +27,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 6db6c9152f6060b40596bd65a2ce705f916401be
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -38,11 +38,11 @@ ht-degree: 0%
 >
 >Per i casi d’uso più comuni, crea le pagine di destinazione nell’interfaccia utente di Campaign Web, dove puoi facilmente progettarle e pubblicarle. Le pagine di destinazione create nella console client, come descritto in questa sezione, offrono più impostazioni e coprono casi di utilizzo più avanzati.
 >
->[Ulteriori informazioni sulle pagine di destinazione nell&#39;interfaccia utente di Campaign Web](https://experienceleague.adobe.com/it/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
+>[Ulteriori informazioni sulle pagine di destinazione nell&#39;interfaccia utente di Campaign Web](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
 
 Adobe Campaign integra un modulo grafico per la definizione e la pubblicazione di **moduli Web** per la creazione di pagine con campi di input e di selezione e che possono includere dati provenienti dal database. In questo modo è possibile progettare e pubblicare pagine Web a cui gli utenti possono accedere per visualizzare o immettere informazioni.
 
-Scopri come creare e pubblicare moduli web in [questa sezione](web/about-web-forms.md)
+Scopri come creare e pubblicare moduli web in [questa sezione](web/about-web-forms.md).
 
 ![](assets/sample.png)
 
@@ -50,4 +50,4 @@ Adobe Campaign consente inoltre di creare e pubblicare **applicazioni Web** dina
 
 È possibile creare pagine, ad esempio un modulo di modifica su una extranet, o moduli di notifica che includono dati provenienti dal database con tabelle, grafici, moduli di input e così via. Questa funzionalità consente di progettare e pubblicare pagine Web in cui gli utenti possono cercare o immettere informazioni.
 
-Scopri come creare e pubblicare applicazioni web in [questa sezione](web/about-web-applications.md)
+Scopri come creare e pubblicare applicazioni web in [questa sezione](web/about-web-applications.md).

@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 1%
@@ -92,7 +92,7 @@ La dimensione massima di un messaggio dipende dalla relativa codifica. Questa ta
 
 ## SMS multipart (SMS lunghi) {#multipart-sms}
 
-Gli SMS multipart (spesso denominati SMS lunghi) sono SMS inviati in più parti. A causa di limitazioni tecniche nel protocollo di rete mobile, un SMS non può avere dimensioni superiori a 140 byte (consulta la sezione seguente relativa alla codifica del testo SMS per il numero di caratteri che possono rientrare in un SMS), pertanto è necessario dividere i messaggi più lunghi.
+Gli SMS multipart (spesso denominati SMS lunghi) sono SMS inviati in più parti. A causa di limitazioni tecniche nel protocollo di rete mobile, un SMS non può superare i 140 byte (consulta la sezione di seguito relativa alla codifica del testo SMS per il numero di caratteri che possono rientrare in un SMS), pertanto è necessario suddividere i messaggi più lunghi.
 
 Ogni parte di un messaggio lungo è un singolo SMS. Questi componenti viaggiano in modo indipendente sulla rete e sono assemblati dal telefono cellulare ricevente. Per gestire in modo corretto i nuovi tentativi e i problemi di connettività, Campaign invia le parti in ordine inverso e richiede un SR solo sulla prima parte del messaggio (quella inviata per ultima); poiché il telefono cellulare visualizza un messaggio solo quando ha ricevuto la prima parte, i nuovi tentativi su parti aggiuntive non produrranno duplicati sul telefono cellulare.
 
