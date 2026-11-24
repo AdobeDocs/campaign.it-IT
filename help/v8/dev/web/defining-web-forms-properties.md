@@ -159,7 +159,7 @@ Quando si accede alla pagina, viene visualizzato il seguente modulo di autentica
 
 ![](assets/s_ncs_admin_survey_access_login.png)
 
-L’accesso e la password sono quelli utilizzati dagli operatori Adobe Campaign. Per ulteriori informazioni al riguardo, consulta [questa sezione](https://experienceleague.adobe.com/en/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}.
+L’accesso e la password sono quelli utilizzati dagli operatori Adobe Campaign. Per ulteriori informazioni al riguardo, consulta [questa sezione](https://experienceleague.adobe.com/it/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}.
 
 L&#39;opzione **[!UICONTROL Use a specific account]** consente di limitare l&#39;autorizzazione di lettura o scrittura dell&#39;operatore che accede al modulo. Utilizza la casella a discesa per selezionare un operatore o un gruppo di operatori che saranno responsabili della concessione di queste autorizzazioni.
 
