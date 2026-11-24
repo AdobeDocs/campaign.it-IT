@@ -38,10 +38,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1295'
-ht-degree: 5%
+ht-degree: 6%
 ---
 # Utilizzare gli schemi{#gs-ac-schemas}
 
@@ -65,7 +65,7 @@ Gli schemi consentono di definire un’entità nel database. Esiste uno schema p
 
 Adobe Campaign utilizza gli schemi di dati per:
 
-* Definire il modo in cui l&#39;oggetto dati all&#39;interno dell&#39;applicazione viene associato alle tabelle di database sottostanti.
+* Definire il modo in cui gli oggetti dati all’interno dell’applicazione sono legati alle tabelle del database sottostanti.
 * Definire i collegamenti tra i diversi oggetti dati all’interno dell’applicazione Campaign.
 * Definire e descrivere i singoli campi inclusi in ciascun oggetto.
 
@@ -229,9 +229,9 @@ Gli attributi consentono di definire i campi che compongono l’oggetto dati. È
 
 ![](assets/schemaextension_2.png)
 
-L&#39;elenco completo degli attributi è disponibile nella sezione dell&#39;elemento `<attribute>` della [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=it#content-model){target="_blank"}. Di seguito sono riportati alcuni degli attributi più comunemente utilizzati: **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name**, **@notNull**, **@required**, **@ref**, **@xml**, **@type**.
+L&#39;elenco completo degli attributi è disponibile nella sezione dell&#39;elemento `<attribute>` della [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html#content-model){target="_blank"}. Di seguito sono riportati alcuni degli attributi più comunemente utilizzati: **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name**, **@notNull**, **@required**, **@ref**, **@xml**, **@type**.
 
-Per ulteriori informazioni su ciascun attributo, consulta la descrizione dell&#39;attributo nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=it#configuring-campaign-classic){target="_blank"}.
+Per ulteriori informazioni su ciascun attributo, consulta la descrizione dell&#39;attributo nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic){target="_blank"}.
 
 ### Esempi {#examples}
 

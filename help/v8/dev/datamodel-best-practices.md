@@ -49,9 +49,9 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '2777'
+source-wordcount: '2776'
 ht-degree: 5%
 ---
 # Best practice per i modelli di dati {#data-model-best-practices}
@@ -101,7 +101,7 @@ Se non rientra in nessuno di questi, molto probabilmente non avrai bisogno di qu
 
 Per garantire una buona architettura e prestazioni del sistema, segui le best practice riportate di seguito per configurare i dati in Adobe Campaign.
 
-* All’interno di tabelle di grandi dimensioni, puoi inserire campi stringa o numerici e aggiungere collegamenti alle tabelle di riferimento (quando utilizzi un elenco di valori).
+* All’interno di tabelle di grandi dimensioni, è possibile inserire campi stringa o numerici e aggiungere collegamenti alle tabelle di riferimento (quando si lavora con un elenco di valori).
 * L&#39;attributo **expr** consente di definire un attributo di schema come campo calcolato anziché come valore fisico impostato in una tabella. Questo può consentire l’accesso alle informazioni in un formato diverso (ad esempio per età e data di nascita) senza la necessità di memorizzare entrambi i valori. Questo è un buon modo per evitare la duplicazione dei campi. Ad esempio, la tabella Destinatario utilizza un’espressione per il dominio, che è già presente nel campo e-mail.
 * Tuttavia, quando il calcolo dell&#39;espressione è complesso, si sconsiglia di utilizzare l&#39;attributo **expr** in quanto il calcolo immediato potrebbe influire sulle prestazioni delle query.
 * Il tipo **XML** è adatto per evitare la creazione di troppi campi. ma occupa anche spazio su disco in quanto utilizza una colonna CLOB nel database. Può inoltre causare query SQL complesse e influire sulle prestazioni.
@@ -126,12 +126,12 @@ Chiavi efficienti sono essenziali per le prestazioni. Con Snowflake è possibile
 
 Le risorse Adobe Campaign hanno tre identificatori ed è possibile aggiungere un identificatore aggiuntivo.
 
-La tabella seguente descrive tali identificatori e il loro scopo.
+La tabella seguente descrive questi identificatori e il loro scopo.
 
 | Identificatore | Descrizione | Best practice |
 |--- |--- |--- |
 | Id | <ul><li>L’ID è la chiave primaria fisica di una tabella Adobe Campaign. Per le tabelle integrate, è un ID universalmente univoco (UUID)</li><li>Questo identificatore deve essere univoco. </li><li>Un UUID può essere visibile in una definizione di schema.</li></ul> | <ul><li>Gli identificatori generati automaticamente non devono essere utilizzati come riferimento in un flusso di lavoro o in una definizione di pacchetto.</li><li>L’ID in una tabella è un UUID e questo tipo non deve essere modificato.</li></ul> |
-| Nome (o nome interno) | <ul><li>Queste informazioni sono un identificatore univoco di un record in una tabella. Questo valore può essere aggiornato manualmente, in genere con un nome generato.</li><li>Questo identificatore mantiene il suo valore quando distribuito in un’istanza diversa di Adobe Campaign e non deve essere vuoto.</li></ul> | <ul><li>Rinomina il nome del record generato da Adobe Campaign se l’oggetto deve essere distribuito da un ambiente a un altro.</li><li>Quando un oggetto ha un attributo di spazio dei nomi (*schema*, ad esempio), questo spazio dei nomi comune verrà utilizzato in tutti gli oggetti personalizzati creati. Alcuni spazi dei nomi riservati non devono essere utilizzati: *nms*, *xtk*, ecc.  Alcuni spazi dei nomi sono solo interni. [Ulteriori informazioni](schemas.md#reserved-namespaces).</li><li>Se un oggetto non dispone di alcuno spazio dei nomi (*flusso di lavoro* o *consegna*, ad esempio), questa nozione di spazio dei nomi viene aggiunta come prefisso di un oggetto nome interno: *namespaceMyObjectName*.</li><li>Non utilizzare caratteri speciali come lo spazio &quot;&quot;, la semiconna &quot;:&quot; o il trattino &quot;-&quot;. Tutti questi caratteri verrebbero sostituiti da un carattere di sottolineatura &quot;_&quot; (carattere consentito). Ad esempio, &quot;abc-def&quot; e &quot;abc:def&quot; verrebbero memorizzati come &quot;abc_def&quot; e si sovrascriverebbero a vicenda.</li></ul> |
+| Nome (o nome interno) | <ul><li>Queste informazioni sono un identificatore univoco di un record in una tabella. Questo valore può essere aggiornato manualmente, in genere con un nome generato.</li><li>Questo identificatore mantiene il suo valore quando distribuito in un’istanza diversa di Adobe Campaign e non deve essere vuoto.</li></ul> | <ul><li>Rinomina il nome del record generato da Adobe Campaign se l’oggetto deve essere distribuito da un ambiente a un altro.</li><li>Quando un oggetto ha un attributo di spazio dei nomi (*schema*, ad esempio), questo spazio dei nomi comune verrà utilizzato in tutti gli oggetti personalizzati creati. Alcuni spazi dei nomi riservati non devono essere utilizzati: *nms*, *xtk*, ecc.  Alcuni spazi dei nomi sono solo interni. [Ulteriori informazioni](schemas.md#reserved-namespaces).</li><li>Se un oggetto non dispone di alcuno spazio dei nomi (*flusso di lavoro* o *consegna*, ad esempio), questa nozione di spazio dei nomi viene aggiunta come prefisso di un oggetto nome interno: *namespaceMyObjectName*.</li><li>Non utilizzare caratteri speciali come lo spazio &quot;&quot;, il punto e virgola &quot;:&quot; o il trattino &quot;-&quot;. Tutti questi caratteri verrebbero sostituiti da un carattere di sottolineatura &quot;_&quot; (carattere consentito). Ad esempio, &quot;abc-def&quot; e &quot;abc:def&quot; verrebbero memorizzati come &quot;abc_def&quot; e si sovrascriverebbero a vicenda.</li></ul> |
 | Etichetta | <ul><li>L’etichetta è l’identificatore aziendale di un oggetto o di un record in Adobe Campaign.</li><li>Questo oggetto consente spazi e caratteri speciali.</li><li>Non garantisce l&#39;univocità di un record.</li></ul> | <ul><li>Si consiglia di determinare una struttura per le etichette degli oggetti.</li><li>Questa è la soluzione più semplice da usare per identificare un record o un oggetto per un utente di Adobe Campaign.</li></ul> |
 
 Nel contesto di una distribuzione [Enterprise (FFDA)](../architecture/enterprise-deployment.md), la chiave primaria di Adobe Campaign è un UUID generato automaticamente per tutte le tabelle incorporate. Un UUID può essere utilizzato anche per le tabelle personalizzate. [Ulteriori informazioni](../architecture/keys.md)

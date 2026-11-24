@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 100%
+source-wordcount: '640'
+ht-degree: 78%
 ---
 # Informazioni sui componenti e sui processi di Campaign {#components-and-processes}
 
@@ -63,7 +63,7 @@ Puoi accedere ad Adobe Campaign tramite un client avanzato, un thin client o un�
 
 * Thin client
 
-  Le funzionalità di accesso web di Adobe Campaign consentono di accedere a un sottoinsieme di funzioni di Campaign con un browser web, utilizzando un’interfaccia utente HTML. Utilizza questa interfaccia web per accedere ai rapporti, verificare e convalidare i messaggi, accedere alle dashboard di monitoraggio e altro ancora.  [Ulteriori informazioni sull’accesso a Campaign Web](../start/connect.md).
+  Le funzionalità di accesso web di Adobe Campaign ti consentono di accedere a un sottoinsieme di funzionalità di Campaign con un browser web, utilizzando un’interfaccia utente di HTML. Utilizza questa interfaccia web per accedere ai rapporti, verificare e convalidare i messaggi, accedere alle dashboard di monitoraggio e altro ancora.  [Ulteriori informazioni sull’accesso a Campaign Web](../start/connect.md).
 
 * Applicazioni esterne con API
 
@@ -71,7 +71,7 @@ Puoi accedere ad Adobe Campaign tramite un client avanzato, un thin client o un�
 
 ### Livello di persistenza{#persistance-layer}
 
-I database di Campaign vengono utilizzati come livelli di persistenza e contengono quasi tutte le informazioni e i dati gestiti da Adobe Campaign. Ciò include: dati funzionali, tra cui profili, iscrizioni, contenuti; dati tecnici, tra cui processi e registri di consegna, registri di tracciamento; dati di lavoro (acquisti, lead).
+I database di Campaign vengono utilizzati come livello di persistenza e contengono quasi tutte le informazioni e i dati gestiti da Adobe Campaign. Ciò include: dati funzionali, tra cui profili, iscrizioni, contenuti; dati tecnici, tra cui processi e registri di consegna, registri di tracciamento; dati di lavoro (acquisti, lead).
 
 L’affidabilità del database è di fondamentale importanza perché la maggior parte dei componenti di Adobe Campaign richiede l’accesso al database per eseguire le proprie attività (ad eccezione del modulo di reindirizzamento).
 
@@ -89,7 +89,7 @@ Il server di Campaign Web controlla l’accesso ai processi di Campaign Web. Jav
 
 ![](assets/do-not-localize/ac-processes.png)
 
-La console client di Campaign si connette al server web utilizzando SOAP XML su HTTP. Il server web fornisce il livello di sicurezza, trasmette le richieste al livello dell’applicazione utilizzando JavaScript e i processi interni di Campaign accedono al database utilizzando SQL.
+La console client di Campaign si connette al server web utilizzando SOAP XML su HTTP. Il server web fornisce il livello di sicurezza, trasmette le richieste al livello applicazione utilizzando JavaScript e i processi interni di Campaign accedono al database utilizzando SQL.
 
 <!--
 The overall communication between Campaign processes are described in the following standalone deployment diagram: all Campaign components are installed in the same machine.
@@ -97,6 +97,6 @@ The overall communication between Campaign processes are described in the follow
 ![](assets/do-not-localize//ac-standalone.png)
 -->
 
-L’utente si connette al server applicazioni di Campaign utilizzando il protocollo HTTP. Tutti i dati e le informazioni vengono gestiti nel database di Campaign. Se uno sviluppatore di Campaign apporta modifiche alla configurazione, queste vengono acquisite nel database. Se un marketer crea una nuova campagna, nel database vengono gestite anche tutte le informazioni e i dati relativi ad essa. Quando un markter esegue una campagna, le consegne e-mail vengono inviate ai profili dal server di Campaign tramite il server SMTP. Quando i profili interagiscono con le consegne e-mail, ad esempio l’apertura dell’e-mail, i dati di tracciamento vengono rimandati al server di tracciamento.
+L’utente si connette al server applicazioni Campaign utilizzando HTTP. Tutti i dati e le informazioni vengono gestiti nel database di Campaign. Se uno sviluppatore di Campaign apporta modifiche alla configurazione, queste vengono acquisite nel database. Se un marketer crea una nuova campagna, nel database vengono gestite anche tutte le informazioni e i dati relativi ad essa. Quando un markter esegue una campagna, le consegne e-mail vengono inviate ai profili dal server di Campaign tramite il server SMTP. Quando i profili interagiscono con le consegne e-mail, ad esempio l’apertura dell’e-mail, i dati di tracciamento vengono rimandati al server di tracciamento.
 
 [Ulteriori informazioni sui processi di Campaign](../architecture/general-architecture.md#dev-env).

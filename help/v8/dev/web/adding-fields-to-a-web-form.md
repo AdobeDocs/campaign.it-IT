@@ -26,7 +26,7 @@ topic_v2:
     internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '2404'
 ht-degree: 0%
@@ -88,11 +88,11 @@ Per aggiungere un campo di input, fare clic sul pulsante **[!UICONTROL Input con
 
 In una pagina modulo è possibile inserire cinque diversi tipi di campi di testo:
 
-* **Testo**: consente all&#39;utente di immettere un testo su una riga.
+* **Testo**: consente all&#39;utente di immettere testo su una riga.
 
   ![](assets/s_ncs_admin_survey_txt_ex.png)
 
-* **Numero**: consente all&#39;utente di immettere un numero su una riga. per ulteriori informazioni, consulta [Aggiunta di numeri](#adding-numbers).
+* **Numero**: consente all&#39;utente di immettere un numero su una riga. Per ulteriori informazioni, consulta [Aggiunta di numeri](#adding-numbers).
 
   Quando la pagina viene approvata, il contenuto del campo viene controllato per verificare che il valore immesso sia compatibile con il campo. Per ulteriori informazioni, vedere [Definizione delle impostazioni di controllo](form-rendering.md#defining-control-settings).
 
@@ -332,7 +332,7 @@ Indicare l&#39;etichetta della casella di controllo e selezionare il servizio in
 
 >[!NOTE]
 >
->I servizi informativi sono descritti in [questa pagina](https://experienceleague.adobe.com/it/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions){target="_blank"}.
+>I servizi informativi sono descritti in [questa pagina](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions){target="_blank"}.
 
 L’utente si iscrive al servizio selezionando l’opzione pertinente.
 

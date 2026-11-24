@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '405'
 ht-degree: 1%
 ---
 # Utilizzare gli ambienti{#work-with-environments}
@@ -49,7 +49,7 @@ Per impostazione predefinita, Campaign dispone di un ambiente **[!UICONTROL Desi
 
 >[!NOTE]
 >
->Per eseguire il targeting della tabella dei destinatari, è necessario utilizzare l’assistente per la mappatura di destinazione per creare gli ambienti. [Ulteriori informazioni](#creating-an-offer-environment).
+>Per eseguire il targeting della tabella dei destinatari, è necessario utilizzare l’assistente alla mappatura di destinazione per creare gli ambienti. [Ulteriori informazioni](#creating-an-offer-environment).
 
 ![](assets/offer_environments_overview_002.png)
 

@@ -24,14 +24,14 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1278'
 ht-degree: 4%
 ---
 # Inviare un’offerta{#send}
 
-Per poter essere selezionata dal motore di offerta, un&#39;offerta deve essere approvata e disponibile in un ambiente **Live**. [Ulteriori informazioni](interaction-offer.md#approve-offers)
+Affinché un&#39;offerta possa essere selezionata dal motore di offerta, deve essere approvata e disponibile in un ambiente **Live**. [Ulteriori informazioni](interaction-offer.md#approve-offers)
 
 La presentazione dell’offerta tramite un canale di comunicazione in uscita viene eseguita tramite direct mailing, e-mail o consegne su dispositivi mobili. Puoi anche utilizzare la modalità unitaria con la messaggistica transazionale (Centro messaggi).
 
@@ -93,7 +93,7 @@ Diverse attività di flusso di lavoro ti consentono di definire il modo in cui v
 
 ### Arricchimento {#enrichment}
 
-L&#39;attività **Enrichment** ti consente di aggiungere offerte o collegamenti alle offerte per i destinatari della consegna.[Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=it){target="_blank"}.
+L&#39;attività **Enrichment** ti consente di aggiungere offerte o collegamenti alle offerte per i destinatari della consegna.[Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html){target="_blank"}.
 
 Ad esempio, puoi arricchire i dati di una query del destinatario prima di una consegna.
 
@@ -180,7 +180,7 @@ La consegna memorizza automaticamente la classificazione e il peso delle offerte
 
 L&#39;attività **[!UICONTROL Offer engine]** consente inoltre di specificare una chiamata al motore di offerta prima della consegna.
 
-Per ulteriori informazioni sull&#39;attività del **motore di offerta**, consulta [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html?lang=it){target="_blank"}.
+Per ulteriori informazioni sull&#39;attività del **motore di offerta**, consulta [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html){target="_blank"}.
 
 Questa attività funziona sullo stesso principio dell&#39;attività **Enrichment** con una chiamata al motore, arricchendo i dati della popolazione in entrata con un&#39;offerta calcolata dal motore, prima di una consegna.
 
@@ -189,7 +189,7 @@ Questa attività funziona sullo stesso principio dell&#39;attività **Enrichment
 Dopo aver configurato l&#39;attività **Query**:
 
 1. Aggiungi e apri un&#39;attività **[!UICONTROL Offer engine]**.
-1. Completa i vari campi disponibili per specificare i parametri della chiamata al motore di offerta (spazio dell’offerta, categoria o temi, data di contatto, numero di offerte da mantenere). Il motore calcola automaticamente le offerte da aggiungere in base a questi parametri.
+1. Completa i vari campi disponibili per specificare la chiamata ai parametri del motore di offerta (spazio dell’offerta, categoria o temi, data di contatto, numero di offerte da mantenere). Il motore calcola automaticamente le offerte da aggiungere in base a questi parametri.
 
    >[!CAUTION]
    >
@@ -203,7 +203,7 @@ Dopo aver configurato l&#39;attività **Query**:
 
 L&#39;attività **[!UICONTROL Offers by cell]** consente di distribuire il gruppo in entrata (ad esempio da una query) in più segmenti e di specificare un&#39;offerta da presentare per ciascuno di questi segmenti.
 
-Per ulteriori informazioni sull&#39;attività **Offerta per cella**, fare riferimento a [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html?lang=it){target="_blank"}.
+Per ulteriori informazioni sull&#39;attività **Offerta per cella**, fare riferimento a [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html){target="_blank"}.
 
 A questo scopo, utilizza il seguente processo:
 

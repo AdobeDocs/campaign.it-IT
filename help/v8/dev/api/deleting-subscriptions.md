@@ -22,7 +22,7 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -109,7 +109,7 @@ Esegui una richiesta DELETE sull’URL del servizio desiderato.
 Questa è una procedura in tre fasi.
 
 1. Recupera il servizio desiderato e il relativo URL di abbonamento.
-1. Esegui una richiesta GET sull’URL delle sottoscrizioni per recuperare tutte le sottoscrizioni di profili.
+1. Esegui una richiesta GET sull’URL degli abbonamenti per recuperare tutti gli abbonamenti del profilo.
 1. Esegui una richiesta DELETE sull’URL di abbonamento del profilo desiderato.
 
 Se la richiesta di eliminazione ha esito positivo, lo stato della risposta è 204 Nessun contenuto.

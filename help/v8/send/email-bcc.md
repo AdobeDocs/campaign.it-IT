@@ -24,7 +24,7 @@ level_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 1%
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 ## Informazioni su CCN e-mail {#gs-bcc}
 
-Puoi configurare Adobe Campaign per conservare una copia delle e-mail inviate dalla tua piattaforma. Questa opzione consente di inviare ai messaggi un indirizzo e-mail Ccn (Blind Carbon Copy) dedicato, da cui possono essere elaborati e archiviati utilizzando un sistema esterno.
+Puoi configurare Adobe Campaign per conservare una copia delle e-mail inviate dalla tua piattaforma. Questa opzione consente di inviare messaggi a un indirizzo e-mail Ccn (Blind Carbon Copy) dedicato, da cui è possibile elaborarli e archiviarli utilizzando un sistema esterno.
 
 >[!CAUTION]
 >
@@ -78,6 +78,6 @@ Quando utilizzi CCN e-mail con Adobe Campaign, si applicano i seguenti guardrail
 
 * L&#39;indirizzo e-mail Ccn <!--with Enhanced MTA--> viene recapitato all&#39;indirizzo e-mail Ccn prima di essere recapitato ai destinatari. Ciò può comportare l&#39;invio di messaggi Ccn anche se le consegne originali potrebbero essere state recapitate. Per ulteriori informazioni sui mancati recapiti, vedi [Informazioni sugli errori di consegna](delivery-failures.md).
 
-* Le e-mail inviate all&#39;indirizzo Ccn non devono essere aperte e cliccate tramite, poiché queste attività vengono prese in considerazione nell&#39;analisi **[!UICONTROL Total opens]** e **[!UICONTROL Clicks]** dall&#39;analisi di invio, possono causare errori di calcolo.
+* Le e-mail inviate all&#39;indirizzo Ccn non devono essere aperte e cliccate tramite, poiché queste attività vengono prese in considerazione in **[!UICONTROL Total opens]** e **[!UICONTROL Clicks]** dall&#39;analisi di invio, possono causare errori di calcolo.
 
 <!--Only successfully sent emails are taken in account, bounces are not.-->

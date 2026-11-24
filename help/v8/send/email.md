@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 8%
@@ -105,13 +105,13 @@ Nell’esempio seguente, scoprirai i passaggi per progettare una consegna e-mail
 
      Ulteriori informazioni sulla gestione della pagina mirror in [questa sezione](mirror-page.md#link-to-mirror-page).
 
-1. Puoi definire parametri aggiuntivi per l’e-mail, ad esempio l’invio di una copia dei messaggi a un indirizzo BBC, la modifica del formato del messaggio, l’impostazione di una codifica specifica e così via. Ulteriori informazioni in [questa sezione](email-parameters.md).
+1. Puoi definire parametri aggiuntivi per l’e-mail, ad esempio l’invio di una copia dei messaggi a un indirizzo Ccn, la modifica del formato del messaggio, l’impostazione di una codifica specifica e così via. Ulteriori informazioni in [questa sezione](email-parameters.md).
 
 1. Quando il contenuto è pronto, fai clic su **Salva**: verrà ora visualizzato nell&#39;elenco delle consegne, nella scheda **[!UICONTROL Campaigns > Deliveries]**.
 
 La prima consegna e-mail è pronta. Ora devi definire il pubblico, convalidare la consegna e inviarla.
 
-Scopri come creare un flusso di lavoro per importare un contenuto e-mail in questo [caso d&#39;uso](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=it){target="_blank"}.
+Scopri come creare un flusso di lavoro per importare un contenuto e-mail in questo [caso d&#39;uso](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}.
 
 >[!MORELIKETHIS]
 >
@@ -120,7 +120,7 @@ Scopri come creare un flusso di lavoro per importare un contenuto e-mail in ques
 >* [Seleziona il pubblico della tua e-mail](../audiences/gs-audiences.md)
 >* [Convalidare una consegna e inviare bozze](preview-and-proof.md)
 >* [Configura e invia la consegna](configure-and-send.md)
->* [Best practice per la consegna](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=it){target="_blank"}
+>* [Best practice per la consegna](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html){target="_blank"}
 
 ## Verifica e convalida le e-mail
 

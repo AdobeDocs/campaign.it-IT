@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1947'
-ht-degree: 87%
+ht-degree: 84%
 ---
 # Note sulla versione 2022{#2022-rn}
 
@@ -89,7 +89,7 @@ _sabato 30 settembre 2022_
 <ul> 
 <li><p>Inviare messaggi su X (precedentemente noto come Twitter): Adobe Campaign consente di pubblicare messaggi direttamente sul tuo account X. Puoi anche inviare messaggi diretti a tutti i tuoi follower.
 </p></li>
-<li><p>Raccogliere nuovi contatti: Adobe Campaign può ripristinare automaticamente i dati del profilo, consentendo di eseguire campagne di targeting e implementare strategie cross-channel.
+<li><p>Raccogliere nuovi contatti: Adobe Campaign può recuperare automaticamente i dati del profilo, consentendo di eseguire campagne di targeting e implementare strategie cross-channel.
 </p></li>
 </ul>
 <p>Scopri come collegare Campaign e X nella <a href="../connect/ac-tw.md">documentazione dettagliata</a>.</p>

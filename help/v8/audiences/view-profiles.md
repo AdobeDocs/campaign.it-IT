@@ -31,9 +31,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '456'
 ht-degree: 2%
 ---
 # Visualizzare i profili esistenti {#view-profiles}
@@ -66,7 +66,7 @@ Per un destinatario predefinito tipico, puoi accedere alle seguenti schede:
 
 * **[!UICONTROL General]**, per tutti i dati di profilo generali. In particolare, contiene il cognome, il nome, l’indirizzo e-mail, il formato e-mail, ecc.
 
-  In questa scheda viene inoltre memorizzato il flag **rinuncia** per il profilo: quando l&#39;opzione **[!UICONTROL No longer contact (by any channel)]** è selezionata, il profilo è in fase di elenco Bloccati di. Queste informazioni vengono aggiunte ai dati di contatto se, ad esempio, il destinatario ha fatto clic su un collegamento di annullamento dell’abbonamento in una newsletter. Tale destinatario non è più indirizzato su alcun canale (e-mail, direct mailing, ecc.). Per ulteriori informazioni, consulta [questa pagina](../send/quarantines.md).
+  In questa scheda viene inoltre memorizzato il flag **rinuncia** per il profilo: quando l&#39;opzione **[!UICONTROL No longer contact (by any channel)]** è selezionata, il profilo si trova nel inserisco nell&#39;elenco Bloccati di. Queste informazioni vengono aggiunte ai dati di contatto se, ad esempio, il destinatario ha fatto clic su un collegamento di annullamento dell’abbonamento in una newsletter. Un destinatario di questo tipo non è più indirizzato su alcun canale (e-mail, direct mailing, ecc.). Per ulteriori informazioni, consulta [questa pagina](../send/quarantines.md).
 
 * **Informazioni di contatto**, che contiene l&#39;indirizzo di direct mailing del profilo selezionato.
 

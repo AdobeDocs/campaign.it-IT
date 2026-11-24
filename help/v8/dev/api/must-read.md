@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '378'
 ht-degree: 1%
 ---
 # Da leggere {#must-read}
@@ -33,13 +33,13 @@ ht-degree: 1%
 
 * Le API di Adobe Campaign devono essere utilizzate solo da server a server.
 * Verifica sempre con il tuo contatto tecnico Adobe se il caso di utilizzo che desideri implementare è allineato alla scala consentita dalle API di Adobe Campaign.
-* Per impostare un accesso AdobeIO sono necessarie autorizzazioni specifiche, contatta il supporto Adobe per eventuali problemi.
+* Per impostare un accesso AdobeIO sono necessarie autorizzazioni specifiche; per qualsiasi problema, contatta il supporto Adobe.
 
 ## Diritti e accesso
 
 * Per impostazione predefinita, le API di Adobe Campaign utilizzano il contesto dell’amministratore e pertanto le unità organizzative e i ruoli non sono applicabili.
 * Le API di Adobe Campaign sono escluse dal contesto del ruolo.
-* Se desideri configurare le API con uno o più ruoli dell’organizzazione, rivolgiti prima al contatto tecnico di Adobe.
+* Se desideri configurare le API con uno o più ruoli dell’organizzazione, rivolgiti prima al tuo contatto tecnico Adobe.
 
 ## Rappresentazione delle risorse
 

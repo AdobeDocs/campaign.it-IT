@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '627'
 ht-degree: 2%
 ---
 # Audit trail{#audit-trail}
@@ -50,7 +50,7 @@ La funzionalità **[!UICONTROL Audit trail]** di Adobe Campaign offre un record 
 
 * **Audit trail dello schema**: consente di esplorare le modifiche apportate agli schemi, nonché di identificare chi ha apportato tali modifiche e quando si sono verificate.
 
-  Per informazioni dettagliate sugli schemi, consulta [pagina](../dev/schemas.md).
+  Per informazioni dettagliate sugli schemi, consulta questa [pagina](../dev/schemas.md).
 
 * **Audit trail del flusso di lavoro** tiene traccia di tutte le azioni relative ai flussi di lavoro, tra cui:
 
@@ -69,7 +69,7 @@ La funzionalità **[!UICONTROL Audit trail]** di Adobe Campaign offre un record 
 
 * **Option audit trail** consente di controllare le attività e le ultime modifiche apportate alle opzioni.
 
-  Per ulteriori informazioni sulle opzioni, consulta questa [pagina](https://experienceleague.adobe.com/it/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
+  Per ulteriori informazioni sulle opzioni, consulta questa [pagina](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
 
 * **Audit trail consegna** consente di controllare le attività e le ultime modifiche apportate alle consegne.
 
@@ -77,7 +77,7 @@ La funzionalità **[!UICONTROL Audit trail]** di Adobe Campaign offre un record 
 
 * **Account esterno** consente di controllare le modifiche apportate agli account esterni, utilizzate da processi tecnici quali flussi di lavoro tecnici o flussi di lavoro per campagne.
 
-  Per ulteriori informazioni sull&#39;account esterno, fare riferimento a questa [pagina](../config/external-accounts.md).
+  Per ulteriori informazioni sugli account esterni, consulta questa [pagina](../config/external-accounts.md).
 
 * **Mappatura consegna** consente di monitorare le attività e le modifiche recenti apportate alle mappature di consegna.
 
@@ -85,11 +85,11 @@ La funzionalità **[!UICONTROL Audit trail]** di Adobe Campaign offre un record 
 
 * **Applicazione Web** consente di controllare le modifiche apportate ai moduli Web in Campaign V8 utilizzati per creare pagine con campi di input e di selezione e che possono includere dati dal database.
 
-  Per ulteriori informazioni sull&#39;applicazione Web, fare riferimento a questa [pagina](../dev/webapps.md).
+  Per ulteriori informazioni sulle applicazioni Web, consulta questa [pagina](../dev/webapps.md).
 
 * **Offerta** ti consente di controllare le attività e le ultime modifiche apportate alle offerte.
 
-  Per ulteriori informazioni sull&#39;offerta, consulta questa [pagina](../interaction/interaction.md).
+  Per ulteriori informazioni sulle offerte, consulta questa [pagina](../interaction/interaction.md).
 
 * **Operatore** consente di monitorare le attività e le modifiche recenti apportate agli operatori.
 
@@ -115,7 +115,7 @@ Per accedere a **[!UICONTROL Audit trail]** dell&#39;istanza:
 
    * **[!UICONTROL Type]**: flusso di lavoro, opzioni, consegne o schemi.
    * **[!UICONTROL Entity]**: nome interno delle attività.
-   * **[!UICONTROL Modified by]**: nome utente dell&#39;ultima persona che ha modificato l&#39;entità.
+   * **[!UICONTROL Modified by]**: nome utente della persona che ha modificato per ultima l&#39;entità.
    * **[!UICONTROL Action]**: ultima azione eseguita sull&#39;entità, Creata, Modificata o Eliminata.
    * **[!UICONTROL Modification date]**: data dell&#39;ultima azione eseguita su questa entità.
 

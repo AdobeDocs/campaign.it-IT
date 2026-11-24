@@ -26,9 +26,9 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '460'
 ht-degree: 7%
 ---
 # Selezionare il pubblico della consegna SMS {#sms-audience}
@@ -76,7 +76,7 @@ Per selezionare il pubblico della consegna, segui i passaggi seguenti:
 
    ![](assets/audience_finish.png){zoomable="yes"}
 
-   È possibile aggiungere tutti i gruppi desiderati facendo nuovamente clic sul pulsante **[!UICONTROL Add]**. Puoi anche eliminarne alcuni facendo clic sulla croce che si trova dopo l’etichetta.
+   È possibile aggiungere tutte le popolazioni di destinazione necessarie facendo nuovamente clic sul pulsante **[!UICONTROL Add]**. Puoi anche eliminarne alcuni facendo clic sulla croce che si trova dopo l’etichetta.
 
 ## Pubblico in un file esterno {#external-audience}
 

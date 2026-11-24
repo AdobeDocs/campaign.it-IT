@@ -28,9 +28,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '572'
 ht-degree: 6%
 ---
 # Configurare collegamenti tracciati {#how-to-configure-tracked-links}
@@ -74,9 +74,9 @@ Il tracciamento dei messaggi è abilitato per impostazione predefinita. Per pers
    * **[!UICONTROL Enabled]**: attiva il tracciamento su questo URL.
    * **[!UICONTROL Not tracked]**: disattiva il tracciamento su questo URL.
    * **[!UICONTROL Always enabled]**: attiva sempre il tracciamento di questo URL. Queste informazioni vengono salvate in modo che, se l’URL viene nuovamente visualizzato in un messaggio futuro, il suo tracciamento viene attivato automaticamente.
-   * **[!UICONTROL Never tracked]**: non attiva mai il tracciamento di questo URL. Queste informazioni vengono salvate in modo che, se l’URL viene nuovamente visualizzato in un messaggio futuro, il suo tracciamento verrà disattivato automaticamente.
+   * **[!UICONTROL Never tracked]**: non attiva mai il tracciamento di questo URL. Queste informazioni vengono salvate in modo che, se l’URL viene nuovamente visualizzato in un messaggio futuro, il suo tracciamento viene disattivato automaticamente.
    * **[!UICONTROL Opt-out]**: considera questo URL come URL di rinuncia o di annullamento dell&#39;abbonamento.
-   * **[!UICONTROL Mirror page]**: considera questo URL come un URL di pagina mirror.
+   * **[!UICONTROL Mirror page]**: considera questo URL come un URL della pagina mirror.
 
 1. È inoltre possibile selezionare una categoria per ogni URL tracciato nell&#39;elenco a discesa della colonna **[!UICONTROL Category]**. Queste categorie possono essere visualizzate nei report, ad esempio nel report **[!UICONTROL URLs and click streams]** (vedi [questa sezione](../reporting/delivery-reports.md#urls-and-click-streams)). Le categorie sono definite in un&#39;enumerazione specifica: **[!UICONTROL urlCategory]**. Scopri come utilizzare le enumerazioni in [questa sezione](../config/enumerations.md).
 
@@ -88,8 +88,8 @@ Si consiglia vivamente di includere gli URL nei delimitatori nella scheda **[!UI
 * Parentesi [ ]
 * Parentesi graffe { }
 
-In questo esempio, l&#39;URL https://www.adobe.com/it è seguito da un punto e virgola. Il punto e virgola può essere interpretato dai client e-mail dei destinatari come parte dell’URL. Di conseguenza, il collegamento potrebbe essere interrotto. Per evitare questo problema, puoi racchiudere l’URL nei delimitatori in uno dei seguenti modi:
+In questo esempio, l&#39;URL https://www.adobe.com è seguito da un punto e virgola. Il punto e virgola può essere interpretato dai client e-mail dei destinatari come parte dell’URL. Di conseguenza, il collegamento potrebbe essere interrotto. Per evitare questo problema, puoi racchiudere l’URL nei delimitatori in uno dei seguenti modi:
 
-* (https://www.adobe.com/it)
-* [https://www.adobe.com/it];
-* {https://www.adobe.com/it};
+* (https://www.adobe.com)
+* [https://www.adobe.com];
+* {https://www.adobe.com};

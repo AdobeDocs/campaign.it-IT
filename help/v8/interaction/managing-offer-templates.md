@@ -23,16 +23,16 @@ feature_v2:
     internal-label: Offers
   - id: baf8e746-117b-5e73-b179-0a83edc0295f
     internal-label: Templates
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '172'
 ht-degree: 2%
 ---
 # Gestione dei modelli di offerta{#managing-offer-templates}
 
 
 
-I modelli di offerta sono forniti come predefiniti in Adobe Campaign. Puoi utilizzarli dopo aver creato le offerte, averle duplicate o adattato la loro configurazione alle tue esigenze. Puoi anche creare modelli personalizzati. Le offerte di modelli sono archiviate nella cartella **Risorse** > **Modelli** > **Modelli di offerta**.
+I modelli di offerta sono forniti come standard in Adobe Campaign. Puoi utilizzarli dopo aver creato le offerte, averle duplicate o adattato la loro configurazione alle tue esigenze. Puoi anche creare modelli personalizzati. Le offerte di modelli sono archiviate nella cartella **Risorse** > **Modelli** > **Modelli di offerta**.
 
 ## Creazione di un modello di offerta {#creating-an-offer-template}
 

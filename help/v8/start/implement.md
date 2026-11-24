@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1218'
-ht-degree: 97%
+ht-degree: 92%
 ---
 # Linee guida sull’implementazione di Campaign{#gs-implementation}
 
@@ -57,7 +57,7 @@ In questa sezione, scopri come adeguare Adobe Campaign ai requisiti della tua az
 
 >[!CAUTION]
 >
->Con **Campaign Managed Cloud Services**, l’ambiente e la configurazione iniziale sono impostati da Adobe in base ai termini del contratto di licenza. Non è consentito modificare i pacchetti installati incorporati, gli schemi incorporati o i rapporti.
+>Con **Campaign Managed Cloud Services**, l&#39;ambiente e la configurazione iniziale sono impostati da Adobe, in base ai termini del contratto di licenza. Non è consentito modificare i pacchetti installati incorporati, gli schemi incorporati o i rapporti.
 >
 >Se hai la necessità di utilizzare un componente aggiuntivo di Campaign o una funzionalità specifica che non è stata fornita, devi contattare il **Transition Manager di Adobe**.
 
@@ -67,7 +67,7 @@ Questa sezione contiene informazioni critiche sulla privacy e sulla sicurezza ch
 
 ### Privacy{#implementation-privacy}
 
-Adobe Campaign viene fornito con processi e impostazioni che ti consentono di utilizzare Campaign in conformità alle leggi sulla privacy dei dati applicabili e alle preferenze del destinatario. Puoi gestire:
+Adobe Campaign viene fornito con processi e impostazioni che ti consentono di utilizzare Campaign in conformità con le leggi sulla privacy dei dati applicabili e le preferenze dei destinatari. Puoi gestire:
 
 * **Raccolta dati**: Adobe Campaign ti consente di raccogliere dati, incluse informazioni personali e riservate. È pertanto essenziale ricevere e gestire il consenso dei destinatari.
 
@@ -195,7 +195,7 @@ Se utilizzi altre soluzioni Adobe, puoi collegarle all’ambiente Campaign e com
 
 Puoi anche utilizzare il Single Sign-On (SSO) per connetterti a Campaign. Per ulteriori informazioni, consulta [questa pagina](connect.md).
 
-Scopri l’elenco completo delle soluzioni Adobe che possono essere integrate con Adobe Campaign in [questa pagina](../connect/integration.md).
+Scopri l&#39;elenco completo delle soluzioni Adobe che possono essere integrate con Adobe Campaign [in questa pagina](../connect/integration.md).
 
 ### Connettori{#implementation-connectors}
 

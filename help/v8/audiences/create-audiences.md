@@ -25,9 +25,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '795'
 ht-degree: 3%
 ---
 # Creare un pubblico in un elenco {#create-segments}
@@ -44,7 +44,7 @@ Gli elenchi vengono creati e gestiti tramite il collegamento **[!UICONTROL Lists
 
 Guarda questo video per ulteriori informazioni sulla gestione degli elenchi in Adobe Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/3426460?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334909?quality=12)
 
 
 ## Creare un elenco di contatti {#create-a-list-of-contacts}
@@ -121,7 +121,7 @@ Nell’esempio seguente, crea un elenco di tutti i destinatari tra 25 e 40.
 
    ![](assets/targeting-wf-age-filter.png)
 
-   Scopri come creare una query in un flusso di lavoro in [questa sezione](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=it){target="_blank"}.
+   Scopri come creare una query in un flusso di lavoro in [questa sezione](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
 
 1. Aggiungi un’etichetta per questa query e salva le modifiche.
 1. Aggiungi un&#39;attività **[!UICONTROL List update]** e modificala.
@@ -142,7 +142,7 @@ Nell’esempio seguente, crea un elenco di tutti i destinatari tra 25 e 40.
 
    ![](assets/access-new-list.png)
 
-   Puoi rendere ricorrente questo flusso di lavoro aggiungendo una pianificazione al flusso di lavoro. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html?lang=it){target="_blank"}.
+   Puoi rendere ricorrente questo flusso di lavoro aggiungendo una pianificazione al flusso di lavoro. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html){target="_blank"}.
 
 ## Rimuovere un profilo da un elenco {#remove-a-profile-from-a-list}
 

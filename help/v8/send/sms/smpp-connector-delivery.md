@@ -28,7 +28,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1291'
 ht-degree: 2%
@@ -120,7 +120,7 @@ Le affinità vengono ignorate dal connettore di processo dedicato e vengono eseg
 
 ## opzioni serverConf {#sms-serverconf-options}
 
-Alcune impostazioni possono essere regolate in serverConf.xml. Come qualsiasi altra impostazione in questo file, deve essere specificato nel file config-instance.xml. Tutte le impostazioni si trovano nell&#39;elemento &lt; mta2 >.
+Alcune impostazioni possono essere regolate in serverConf.xml. Come tutte le altre impostazioni di questo file, è necessario specificarle nel file config-instance.xml. Tutte le impostazioni si trovano nell&#39;elemento &lt; mta2 >.
 
 In questa tabella vengono riepilogate tutte le impostazioni. I valori sensibili min/max forniscono un’idea approssimativa dell’intervallo da considerare nella maggior parte dei casi. Il valore di debug è il valore da scegliere quando si tenta di individuare problemi non correlati alle prestazioni.
 

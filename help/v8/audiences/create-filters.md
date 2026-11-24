@@ -31,9 +31,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1943'
+source-wordcount: '1944'
 ht-degree: 1%
 ---
 # Utilizzare i filtri{#create-filters}
@@ -294,7 +294,7 @@ Per creare un **filtro rapido**, eseguire la procedura seguente:
    ![](assets/add-filter-above-the-list.png)
 
 
-Se devi filtrare un campo non disponibile nel modulo, ma nelle colonne, e filtrare per tale colonna. Per eseguire questa operazione,
+Se devi filtrare in base a un campo non disponibile nel modulo ma incluso nelle colonne, applica il filtro in base a tale colonna. Per eseguire questa operazione,
 
 1. Fare clic sull&#39;icona **[!UICONTROL Configure list]**.
 
@@ -407,9 +407,9 @@ Per eseguire funzionalità di filtro avanzate, utilizza le funzioni per definire
 
 Scopri come creare query avanzate in questi esempi end-to-end:
 
-* Scopri come eseguire il targeting sugli attributi dei destinatari semplici in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=it){target="_blank"}.
-* Scopri come filtrare i destinatari non contattati negli ultimi 7 giorni in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html?lang=it){target="_blank"}.
-* Scopri come ripristinare l&#39;elenco degli operatori filtrabile per account attivi in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html?lang=it){target="_blank"}.
+* Scopri come eseguire il targeting sugli attributi dei destinatari semplici in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
+* Scopri come filtrare i destinatari non contattati negli ultimi 7 giorni in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html){target="_blank"}.
+* Scopri come recuperare l&#39;elenco degli operatori che possono essere filtrati dagli account attivi in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html){target="_blank"}.
 * Scopri come creare un pubblico di e-mail di compleanno in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=it){target="_blank"}.
 
 
@@ -419,7 +419,7 @@ Per i filtri predefiniti sono disponibili parametri avanzati. Per accedervi, pas
 
 * Per visualizzare il filtro predefinito per tutti gli elenchi basati su questo tipo di documento, selezionare l&#39;opzione **[!UICONTROL Default filter for the associated document type]**.
 
-  Ad esempio, il filtro **[!UICONTROL By name or login]** viene applicato agli operatori Questa opzione è selezionata, quindi il filtro viene sempre visualizzato in tutti gli elenchi di operatori.
+  Ad esempio, il filtro **[!UICONTROL By name or login]** viene applicato agli operatori. Questa opzione è selezionata, in modo che il filtro venga sempre visualizzato in tutti gli elenchi di operatori.
 
 * Per rendere disponibile un filtro per tutti gli operatori di Campaign, selezionare l&#39;opzione **[!UICONTROL Filter shared with other operators]**.
 

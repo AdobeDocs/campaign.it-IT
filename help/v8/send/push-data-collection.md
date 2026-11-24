@@ -23,9 +23,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1422'
 ht-degree: 2%
 ---
 # Configurazione della notifica push rivista {#push-notifications-config}
@@ -44,7 +44,7 @@ Nel contesto di questa implementazione aggiornata, per inviare notifiche push in
 
 1. [Creare e configurare una proprietà mobile in Raccolta dati di Adobe Experience Platform](#create-mobile-property)
 
-1. [Aggiungi estensione Adobe Adobe Experience Platform Assurance](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}(consigliato)
+1. [Aggiungi estensione Adobe Experience Platform Assurance](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}(scelta consigliata)
 
 1. [Aggiungere Campaign Classic alla tua app mobile](#campaign-mobile-ap)
 
@@ -88,7 +88,7 @@ La registrazione delle credenziali push dell’app mobile è necessaria per auto
 
 1. Fornisci l&#39;**ID chiave**. Si tratta di una stringa di 10 caratteri assegnata durante la creazione del tasto di autenticazione p8.
 
-   È disponibile nella scheda **Chiavi** della pagina **Certificati**, **Identificatori** e **Profili** del tuo account sviluppatore Apple.
+   È disponibile nella scheda **Chiavi** in **Certificati**, **Identificatori** e **Profili** della pagina del tuo account sviluppatore Apple.
 
 1. Fornisci **ID team**. Questo è un valore stringa che si trova nella scheda **Appartenenza**.
 
@@ -152,7 +152,7 @@ Per creare un&#39;app per dispositivi iOS, effettua le seguenti operazioni:
 
 1. (facoltativo) È possibile arricchire il contenuto di un messaggio push con alcuni **[!UICONTROL Application variables]**. Questi sono completamente personalizzabili e fanno parte del payload del messaggio inviato al dispositivo mobile.
 
-   Nell&#39;esempio seguente, le variabili **mediaURl** e **mediaExt** vengono aggiunte per creare notifiche push potenziate e quindi forniscono all&#39;applicazione l&#39;immagine da visualizzare all&#39;interno della notifica.
+   Nell&#39;esempio seguente, le variabili **mediaURl** e **mediaExt** vengono aggiunte per creare notifiche push potenziate e quindi fornire all&#39;applicazione l&#39;immagine da visualizzare all&#39;interno della notifica.
 
    ![](assets/push-config-8.png)
 

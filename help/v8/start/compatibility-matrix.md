@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '466'
-ht-degree: 96%
+ht-degree: 92%
 ---
 # Matrice di compatibilità per Campaign v8 {#compat-matrix}
 
@@ -85,7 +85,7 @@ I database esterni compatibili con il modulo Federated Data Access (FDA) di Adob
 
 
 >[!AVAILABILITY]
->Inoltre, con il [Componente aggiuntivo di sicurezza avanzato](../config/enhanced-security.md#secure-vpn-tunneling), è possibile accedere ai database on-premise tramite il tunneling VPN sicuro. [Ulteriori informazioni](../config/enhanced-security.md)
+>Inoltre, con [il componente aggiuntivo Sicurezza avanzata](../config/enhanced-security.md#secure-vpn-tunneling), puoi accedere ai tuoi database locali tramite il tunneling VPN sicuro. [Ulteriori informazioni](../config/enhanced-security.md)
 
 ## Mobile SDK {#MobileSDK}
 

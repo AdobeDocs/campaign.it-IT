@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '1830'
 ht-degree: 5%
 ---
 # Configurare il canale di notifica push {#push-notification-configuration}
@@ -61,13 +61,13 @@ Per configurare la tua app con gli SDK di Adobe Experience Platform Mobile, segu
 1. (facoltativo) Aggiungi [Adobe Experience Platform Assurance alla tua app](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"} per convalidare la tua implementazione. Scopri come implementare l&#39;estensione Adobe Experience Platform Assurance [in questa pagina](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}.
 1. Configura i tuoi iOS e Android Mobile Services in Adobe Campaign come [in questa pagina](#push-service).
 1. Installa e configura [l&#39;estensione Adobe Campaign](#configure-extension) nella tua proprietà mobile.
-1. Segui la [documentazione di Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} per completare la configurazione con gli SDK di Adobe Experience Platform Mobile nella tua app.
+1. Segui la [documentazione di Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} per effettuare la configurazione con gli SDK di Adobe Experience Platform Mobile nella tua app.
 
 ## Prerequisiti {#before-starting}
 
 ### Impostare le autorizzazioni {#setup-permissions}
 
-Prima di creare un’app mobile, è necessario assicurarsi di disporre delle autorizzazioni utente corrette per i tag in Adobe Experience Platform o assegnarle. Le autorizzazioni utente per i tag in Adobe Experience Platform vengono assegnate agli utenti tramite Adobe Admin Console. Ulteriori informazioni nella [documentazione sui tag](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=it){target="_blank"}.
+Prima di creare un’app mobile, è necessario assicurarsi di disporre delle autorizzazioni utente corrette per i tag in Adobe Experience Platform o assegnarle. Le autorizzazioni utente per i tag in Adobe Experience Platform vengono assegnate agli utenti tramite Adobe Admin Console. Ulteriori informazioni nella [documentazione sui tag](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}.
 
 >[!CAUTION]
 >
@@ -77,9 +77,9 @@ Per assegnare i diritti di **Proprietà** e **Società**, effettua le seguenti o
 
 1. Accedere a **[!DNL Admin Console]**.
 1. Dalla scheda **[!UICONTROL Products]**, seleziona la scheda **[!UICONTROL Adobe Experience Platform Data Collection]**.
-1. Selezionare un elemento **[!UICONTROL Product Profile]** esistente o crearne uno nuovo con il pulsante **[!UICONTROL New profile]**. Scopri come creare un nuovo **[!UICONTROL New profile]** nella [documentazione di Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=it#ui){target="_blank"}.
+1. Selezionare un elemento **[!UICONTROL Product Profile]** esistente o crearne uno nuovo con il pulsante **[!UICONTROL New profile]**. Scopri come creare un nuovo **[!UICONTROL New profile]** nella [documentazione di Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"}.
 1. Dalla sezione **[!UICONTROL Permissions]**, seleziona **[!UICONTROL Property Rights]**.
-1. Fai clic su **[!UICONTROL Add all]**. Questo aggiungerà il seguente diritto al tuo profilo di prodotto:
+1. Fai clic su **[!UICONTROL Add all]**. Verranno aggiunti i seguenti diritti al profilo di prodotto:
    * **[!UICONTROL Approve]**
    * **[!UICONTROL Develop]**
    * **[!UICONTROL Edit Property]**
@@ -109,7 +109,7 @@ Per assegnare **[!UICONTROL Product profile]** agli utenti, eseguire la procedur
 
    >[!NOTE]
    >
-   >Se l&#39;utente non è stato creato in precedenza in Admin Console, consulta la [documentazione sull&#39;aggiunta di utenti](https://helpx.adobe.com/it/enterprise/using/manage-users-individually.html#add-users){target="_blank"}.
+   >Se l&#39;utente non è stato creato in precedenza in Admin Console, consulta la [documentazione sull&#39;aggiunta di utenti](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#add-users){target="_blank"}.
 
 ### Configurare l’app {#configure-app}
 
@@ -171,7 +171,7 @@ To get the SDKs needed for push notification to work you will need the following
 * **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
 -->
 
-Ulteriori informazioni su [!DNL Adobe Experience Platform Data Collection] tag nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html?lang=it){target="_blank"}.
+Ulteriori informazioni su [!DNL Adobe Experience Platform Data Collection] tag nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html){target="_blank"}.
 
 Una volta creata, apri la nuova proprietà tag e crea una libreria. Per eseguire questa operazione:
 
@@ -213,7 +213,7 @@ Per creare un&#39;app per dispositivi iOS, effettua le seguenti operazioni:
 1. Immettere il nome dell&#39;app nel campo **[!UICONTROL Label]**.
 1. (facoltativo) È possibile arricchire il contenuto di un messaggio push con alcuni **[!UICONTROL Application variables]**. Questi sono completamente personalizzabili e fanno parte del payload del messaggio inviato al dispositivo mobile.
 
-   Nell&#39;esempio seguente, le variabili **mediaURl** e **mediaExt** vengono aggiunte per creare notifiche push potenziate e quindi forniscono all&#39;applicazione l&#39;immagine da visualizzare all&#39;interno della notifica.
+   Nell&#39;esempio seguente, le variabili **mediaURl** e **mediaExt** vengono aggiunte per creare notifiche push potenziate e quindi fornire all&#39;applicazione l&#39;immagine da visualizzare all&#39;interno della notifica.
 
    ![](assets/ios-app-parameters.png){width="600"}
 
@@ -304,7 +304,7 @@ Di seguito sono riportati i nomi del payload FCM per personalizzare ulteriorment
 
 ## Configurare l’estensione Adobe Campaign nella proprietà mobile {#configure-extension}
 
-L&#39;estensione **Adobe Campaign Classic** per gli SDK Adobe Experience Platform Mobile potenzia le notifiche push per le app mobili e ti aiuta a raccogliere i token push degli utenti e a gestire la misurazione delle interazioni con i servizi Adobe Experience Platform.
+L&#39;estensione **Adobe Campaign Classic** per gli SDK Adobe Experience Platform Mobile potenzia le notifiche push per le app mobili e ti consente di raccogliere i token push degli utenti e di gestire la misurazione delle interazioni con i servizi Adobe Experience Platform.
 
 Questa estensione, che si applica sia a Campaign Classic v7 che a Campaign v8, è preinstallata nell’ambiente e deve essere configurata. Per configurare l&#39;estensione per la proprietà tag per dispositivi mobili, effettua le seguenti operazioni:
 

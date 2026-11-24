@@ -31,7 +31,7 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 0%
@@ -56,7 +56,7 @@ Nell&#39;esempio seguente verranno create applicazioni Web di tipo panoramica pe
 
    ![](assets/s_ncs_configuration_webapp_create.png)
 
-1. Modifica del titolo della pagina.
+1. Modifica il titolo della pagina.
 
    Questo titolo verrà visualizzato nell’intestazione della panoramica e nella panoramica dell’applicazione web.
 
@@ -103,7 +103,7 @@ In una panoramica, puoi scegliere di accedere ai dati a seconda della loro posiz
 
    >[!NOTE]
    >
-   >In questa fase, l’applicazione web non rientra nel suo contesto applicativo, pertanto il filtro non può essere testato sulla cartella.
+   >In questa fase, l&#39;applicazione Web non si trova nel relativo contesto dell&#39;applicazione e pertanto non è possibile testare il filtro sulla cartella.
 
 ## Aggiunta di un pulsante per configurare una nuova applicazione Web {#adding-a-button-to-configure-a-new-web-application}
 

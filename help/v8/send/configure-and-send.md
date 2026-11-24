@@ -19,7 +19,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 2d8aa27d6565e216cc0842ba22678c884479ff43
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1244'
 ht-degree: 9%
@@ -54,7 +54,7 @@ Utilizzare l&#39;opzione **[!UICONTROL Test SMTP delivery]** per verificare l&#3
 >
 >* Questa opzione non deve essere impostata nel mid-sourcing.
 >
->* Ulteriori informazioni sulla configurazione del server SMTP nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html?lang=it#smtp-relay){target="_blank"}.
+>* Ulteriori informazioni sulla configurazione del server SMTP nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html#smtp-relay){target="_blank"}.
 
 ## Inviare in più scaglioni {#sending-using-multiple-waves}
 
@@ -75,7 +75,7 @@ Per definire le ondate, effettuare le seguenti operazioni:
 >
 >Puoi definire solo la dimensione e il ritardo tra due scaglioni consecutivi. Non è possibile configurare i criteri di selezione dei destinatari per ogni ondata.
 
-È possibile definire la dimensione di ogni scaglione o aggiungerlo a un calendario.
+È possibile definire la dimensione di ogni ondata o aggiungerle a un calendario.
 
 * **Definisci la dimensione per ogni scaglione**. Ad esempio, se immetti **[!UICONTROL 30%]** nel campo corrispondente, ogni ondata rappresenterà il 30% dei messaggi inclusi nella consegna, ad eccezione dell&#39;ultimo, che rappresenterà il 10% dei messaggi.
 

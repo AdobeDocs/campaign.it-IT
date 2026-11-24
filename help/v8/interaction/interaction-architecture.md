@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1327'
 ht-degree: 0%
 ---
 # Ambienti e architettura di interazione di Campaign
@@ -90,7 +90,7 @@ Per ogni ambiente e account esterno viene creato un flusso di lavoro per la sinc
 
 * Se utilizzi la funzione di fallback da un ambiente anonimo a un ambiente identificato, questi due ambienti devono trovarsi nella stessa istanza di esecuzione.
 * La sincronizzazione tra più istanze di esecuzione non viene eseguita in tempo reale. Le interazioni dello stesso contatto devono essere inviate alla stessa istanza. L’istanza di controllo deve essere dedicata al canale in uscita (non in tempo reale).
-* Il database di marketing non viene sincronizzato automaticamente. I dati di marketing utilizzati nelle ponderazioni e nelle regole di idoneità devono essere duplicati nelle istanze di esecuzione. Questo processo non è standard, è necessario svilupparlo durante il periodo di integrazione.
+* Il database di marketing non viene sincronizzato automaticamente. I dati di marketing utilizzati nelle ponderazioni e nelle regole di idoneità devono essere duplicati nelle istanze di esecuzione. Questo processo non è standard; è necessario svilupparlo durante il periodo di integrazione.
 * La sincronizzazione delle proposte viene eseguita esclusivamente dalla connessione FDA.
 * Se utilizzi Interaction e Message Center (Centro messaggi) sulla stessa istanza, in entrambi i casi la sincronizzazione verrà eseguita tramite il protocollo FDA.
 
@@ -102,7 +102,7 @@ Il pacchetto **Interaction** è installato in tutte le istanze (controllo ed ese
 
 >[!NOTE]
 >
->Durante l&#39;installazione del pacchetto, i campi di tipo **long** della tabella **nms:proposition**, come l&#39;ID proposta, diventano campi di tipo **int64**. Questo tipo di dati è descritto nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html?lang=it#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}.
+>Durante l&#39;installazione del pacchetto, i campi di tipo **long** della tabella **nms:proposition**, come l&#39;ID proposta, diventano campi di tipo **int64**. Questo tipo di dati è descritto nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}.
 
 La durata di conservazione dei dati è configurata in ogni istanza (tramite la finestra **[!UICONTROL Data purge]** nella procedura guidata di distribuzione). Nelle istanze di esecuzione, questo periodo deve corrispondere alla profondità storica necessaria per le regole di tipologia (periodo scorrevole) e le regole di idoneità da calcolare.
 
@@ -168,7 +168,7 @@ Se in precedenza l&#39;istanza non aveva il pacchetto **Interaction**, non è ne
 >
 >A seconda del volume di proposte esistenti nell’istanza, questa operazione potrebbe richiedere del tempo.
 
-* Se l’istanza ha poche proposte o non le ha, non è necessaria alcuna modifica manuale della tabella delle proposte. La modifica verrà eseguita al momento dell&#39;installazione dei pacchetti.
+* Se l’istanza ha poche proposte o non ne ha, non è necessaria alcuna modifica manuale della tabella delle proposte. La modifica verrà eseguita al momento dell&#39;installazione dei pacchetti.
 * Se l’istanza dispone di numerose proposte, è meglio modificare la struttura della tabella delle proposte prima di installare i pacchetti di controllo ed eseguirli. È consigliabile eseguire le query durante un periodo di bassa attività.
 
 >[!NOTE]

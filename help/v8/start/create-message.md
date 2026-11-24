@@ -35,10 +35,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1565'
-ht-degree: 93%
+ht-degree: 90%
 ---
 # Creare la prima consegna {#create-a-msg}
 
@@ -129,7 +129,7 @@ Per selezionare i destinatari di una consegna, segui i passaggi indicati di segu
 
      ![](assets/target-recipient-delivery.png)
 
-   * **[!UICONTROL Delivery recipients belonging to a folder]**: utilizza questa opzione per generare il target dalle consegne dei destinatari incluse in una cartella specifica.
+   * **[!UICONTROL Delivery recipients belonging to a folder]**: utilizzare questa opzione per generare la destinazione dai destinatari delle consegne inclusi in una cartella specifica.
 
      ![](assets/target-delivery-folder.png)
 
@@ -146,7 +146,7 @@ Per selezionare i destinatari di una consegna, segui i passaggi indicati di segu
      ![](assets/target-service.png)
 
    * **[!UICONTROL User filters]**: questa opzione consente di accedere ai filtri preconfigurati per utilizzarli come criteri di filtro per i profili del database. I filtri preconfigurati sono presentati in [questa sezione](../audiences/create-filters.md#default-filters).
-   * L’opzione **[!UICONTROL Exclude recipients from this segment]** consente di eseguire il targeting dei destinatari che non soddisfano i criteri di destinazione definiti. Per utilizzare questa opzione, seleziona la casella appropriata, quindi applica il targeting, come definito in precedenza, per escludere i profili risultanti.
+   * L&#39;opzione **[!UICONTROL Exclude recipients from this segment]** consente di eseguire il targeting dei destinatari che non soddisfano i criteri di destinazione definiti. Per utilizzare questa opzione, seleziona la casella appropriata, quindi applica il targeting, come definito in precedenza, per escludere i profili risultanti.
 
 1. Immetti un nome per questo targeting nel campo **[!UICONTROL Label]**. Per impostazione predefinita, l’etichetta è quella del primo criterio di targeting. Quando vengono combinati più criteri di filtro, è consigliato utilizzare un nome esplicito.
 1. Fai clic su **[!UICONTROL Finish]** per convalidare le opzioni di targeting.
@@ -209,7 +209,7 @@ Per ulteriori informazioni sui destinatari e l’invio della bozza, consulta [qu
 
 In questo video scoprirai come aggiungere seed e bozze a un’e-mail esistente e come inviarla.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447007?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/333404?quality=12)
 
 Ulteriori video dimostrativi di Campaign Classic sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=it).
 
@@ -230,6 +230,6 @@ Per eseguire questa operazione:
 
 ## Configurare e inviare la consegna {#configuring-and-sending-the-delivery}
 
-Accedi ai parametri di consegna per configurare altre impostazioni e definire la modalità di invio dei messaggi. Puoi definire la priorità di consegna, impostare l’invio in scaglioni, configurare le impostazioni per i nuovi tentativi e verificare l’invio della consegna. Al termine della configurazione, puoi confermare l’invio. I messaggi vengono quindi inviati immediatamente o in base alla pianificazione della consegna.
+Accedi ai parametri di consegna per configurare altre impostazioni e definire la modalità di invio dei messaggi. Puoi definire la priorità di consegna, impostare l’invio graduale, configurare le impostazioni per i nuovi tentativi e verificare l’invio della consegna. Al termine della configurazione, puoi confermare l’invio. I messaggi vengono quindi inviati immediatamente o in base alla pianificazione della consegna.
 
 Per informazioni su come configurare le impostazioni di consegna, consulta [questa pagina](../send/configure-and-send.md).

@@ -35,9 +35,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '558'
 ht-degree: 5%
 ---
 # Stati di consegna {#delivery-statuses}
@@ -70,7 +70,7 @@ Per ulteriori dettagli sui diversi errori di consegna riscontrabili e su come ri
   </tr> 
   <tr> 
    <td> Ignorato<br /> </td> 
-   <td> La consegna non è stata inviata al destinatario a causa di un errore con il suo indirizzo. Era in fase di inserisco nell'elenco Bloccati di, messo in quarantena, non fornito o duplicato. <br /> </td> 
+   <td> La consegna non è stata inviata al destinatario a causa di un errore con il suo indirizzo. Si trovava nel inserisco nell'elenco Bloccati di, messo in quarantena, non fornito o era un duplicato. <br /> </td> 
   </tr> 
   <tr> 
    <td> Non riuscito<br /> </td> 
@@ -122,7 +122,7 @@ Se la consegna non viene inviata e il suo stato rimane **[!UICONTROL Pending]**,
 
   Il limite di campagne simultanee è definito nell&#39;opzione **[!UICONTROL NmsOperation_LimitConcurrency]**. Il valore predefinito è 10.
 
-  In qualità di utente di Managed Cloud Services, puoi lavorare con Adobe per regolare questo limite, se necessario. Ulteriori informazioni sulle opzioni nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=it){target="_blank"}.
+  In qualità di utente di Managed Cloud Services, puoi lavorare con Adobe per regolare questo limite, se necessario. Ulteriori informazioni sulle opzioni nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html){target="_blank"}.
 
 * **Problemi relativi alla disponibilità delle risorse**
 

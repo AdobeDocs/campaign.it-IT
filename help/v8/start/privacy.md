@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1090'
-ht-degree: 85%
+ht-degree: 80%
 ---
 # Gestire le richieste di accesso ai dati personali in Campaign {#privacy}
 
@@ -75,7 +75,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 1. Creare uno spazio dei nomi nel servizio [Identity Namespace](https://developer.adobe.com/experience-platform-apis/references/identity-service/#tag/Identity-Namespace){target="_blank"}.
 
-1. Quando [vengono elencati gli spazi dei nomi di identità](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces){target="_blank"} disponibili per la tua organizzazione, vengono elencati i dettagli dello spazio dei nomi, ad esempio:
+1. Quando [vengono elencati gli spazi dei nomi di identità](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces){target="_blank"} disponibili per la tua organizzazione, vengono visualizzati i seguenti dettagli dello spazio dei nomi, ad esempio:
 
    ```
    {
@@ -157,7 +157,7 @@ L’elenco delle tabelle incorporate prese in considerazione durante l’esecuzi
 * Abbonamenti (subscription)
 * Proposta di offerta del destinatario (propositionRcp)
 
-Se hai creato tabelle personalizzate con un collegamento alla tabella dei profili (di tipo proprio), anche queste verranno considerate. Ad esempio, se disponi di una tabella di transazioni collegata alla tabella dei destinatari e una tabella di dettagli delle transazioni collegata alla tabella delle transazioni, verranno entrambe considerate.
+Se hai creato tabelle personalizzate con un collegamento alla tabella dei profili (di tipo proprio), anche queste verranno considerate. Ad esempio, se disponi di una tabella delle transazioni collegata alla tabella dei destinatari e di una tabella dei dettagli delle transazioni collegata alla tabella delle transazioni, verranno prese in considerazione entrambe.
 <!--
 >[!CAUTION]
 >

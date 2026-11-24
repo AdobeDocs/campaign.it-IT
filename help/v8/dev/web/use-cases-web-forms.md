@@ -25,9 +25,9 @@ subfeature_v2:
     internal-label: Landing pages
   - id: e739ee2b-6228-412e-878f-45de0791417d
     internal-label: Use cases
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '988'
 ht-degree: 1%
 ---
 # Casi d’uso: moduli web{#use-cases-web-forms}
@@ -45,7 +45,7 @@ Questo esempio si basa sullo scenario seguente:
 
 ### Passaggio 1: creazione di servizi informativi {#step-1---creating-information-services}
 
-1. Crea il servizio di abbonamento alla newsletter da offrire ai destinatari. Per ulteriori informazioni su come creare una newsletter, consulta [questa sezione](https://experienceleague.adobe.com/it/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/about-services-and-subscriptions){target="_blank"}.
+1. Crea il servizio di abbonamento alla newsletter da offrire ai destinatari. Per ulteriori informazioni su come creare una newsletter, consulta [questa sezione](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/about-services-and-subscriptions){target="_blank"}.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_1.png)
 
@@ -63,7 +63,7 @@ I messaggi di conferma vengono inviati tramite un modello di consegna dedicato a
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_1d.png)
 
-1. Poiché i destinatari di questa consegna non hanno confermato la loro approvazione, si trovano ancora nel database di elenco Bloccati di. Affinché possano ricevere questa comunicazione, devi autorizzare le consegne basate su questo modello per eseguire il targeting dei destinatari in base al inserisco nell&#39;elenco Bloccati di.
+1. Poiché i destinatari di questa consegna non hanno confermato la loro approvazione, si trovano ancora nel database di elenco Bloccati di. Affinché possano ricevere questa comunicazione, devi autorizzare le consegne basate su questo modello per eseguire il targeting dei destinatari sul inserisco nell&#39;elenco Bloccati di.
 
    A tale scopo, fare clic sulla scheda **[!UICONTROL Exclusions]**.
 
@@ -121,7 +121,7 @@ A questo scopo, segui la procedura indicata di seguito:
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6f.png)
 
-   La prima attività **[!UICONTROL Script]** aggiungerà i destinatari al elenco Bloccati di fino a quando non confermeranno il loro abbonamento alla newsletter. Il suo contenuto deve essere il seguente:
+   La prima attività **[!UICONTROL Script]** aggiungerà i destinatari al elenco Bloccati di fino a quando non avranno confermato l&#39;abbonamento alla newsletter. Il suo contenuto deve essere il seguente:
 
    ```
    ctx.recipient.@blackList=1
@@ -129,7 +129,7 @@ A questo scopo, segui la procedura indicata di seguito:
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6bbis.png)
 
-   La seconda attività **[!UICONTROL Script]** autorizza l&#39;invio delle consegne agli utenti e li sottoscrive alla newsletter. Le ultime due righe dello script ti consentiranno di trasferire i destinatari dalla cartella temporanea a un’altra cartella e di riconciliarli con i profili esistenti non appena avranno confermato l’abbonamento.
+   La seconda attività **[!UICONTROL Script]** autorizza l&#39;invio di consegne agli utenti e li sottoscrive alla newsletter. Le ultime due righe dello script ti consentiranno di trasferire i destinatari dalla cartella temporanea a un’altra cartella e di riconciliarli con i profili esistenti non appena avranno confermato l’abbonamento.
 
    ```
    ctx.recipient.@blackList=0

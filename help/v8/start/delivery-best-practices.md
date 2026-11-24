@@ -43,7 +43,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '3162'
 ht-degree: 4%
@@ -60,14 +60,14 @@ Prima ancora di iniziare a creare le consegne, puoi intraprendere diverse azioni
 
 Diversi fattori possono influire direttamente sulle prestazioni del server e rallentare la piattaforma Campaign:
 
-* Il numero e il tipo di [elementi di personalizzazione](../send/personalize.md): la personalizzazione nelle e-mail estrae dati dal database per ogni destinatario. nel caso di molti elementi di personalizzazione, la quantità di dati necessari per preparare la consegna è maggiore. Questo può rallentare la piattaforma. Ulteriori informazioni sui guardrail di personalizzazione in [questa sezione](../send/personalize.md#perso-guardrails).
+* Il numero e il tipo di [elementi di personalizzazione](../send/personalize.md): la personalizzazione nelle e-mail estrae dati dal database per ogni destinatario. Nel caso di molti elementi di personalizzazione, la quantità di dati necessari per preparare la consegna è più elevata. Questo può rallentare la piattaforma. Ulteriori informazioni sui guardrail di personalizzazione in [questa sezione](../send/personalize.md#perso-guardrails).
 
 * Caricamento del server: quando il server di marketing gestisce più attività diverse contemporaneamente, può rallentare le prestazioni. Il server di marketing deve coordinare tutti i dati in entrata e in uscita per tutte le consegne per garantire che i dati siano corretti e puntuali.
 Per evitare questo problema, coordina la pianificazione delle consegne con gli altri membri del team per garantire le migliori prestazioni.
 
 * Esecuzione del flusso di lavoro: il monitoraggio dei flussi di lavoro è essenziale per evitare problemi di prestazioni della piattaforma. Segui le linee guida elencate [in questo documento](../../automation/workflow/workflow-best-practices.md#execution-and-performance).
 
-* Connettiti alle [funzionalità di Pannello di controllo Campaign di Campaign](https://experienceleague.adobe.com/it/docs/control-panel/using/discover-control-panel/key-features){target="_blank"} per monitorare la piattaforma, utilizzando le [funzionalità di monitoraggio delle prestazioni](https://experienceleague.adobe.com/it/docs/control-panel/using/performance-monitoring/about-performance-monitoring){target="_blank"}.
+* Connettiti alle [funzionalità di Pannello di controllo Campaign di Campaign](https://experienceleague.adobe.com/en/docs/control-panel/using/discover-control-panel/key-features){target="_blank"} per monitorare la piattaforma, utilizzando le [funzionalità di monitoraggio delle prestazioni](https://experienceleague.adobe.com/en/docs/control-panel/using/performance-monitoring/about-performance-monitoring){target="_blank"}.
 
 #### Gestione della quarantena {#quarantine-management}
 
@@ -76,9 +76,9 @@ Per evitare questo problema, coordina la pianificazione delle consegne con gli a
 Quando inizi a inviare e-mail su una nuova piattaforma, puoi utilizzare un elenco di indirizzi non completamente qualificati. Se invii a indirizzi non validi o a indirizzi honeypot (cassette postali create solo per ingannare gli spammer), questo comincerà a ridurre la reputazione della tua piattaforma. Una buona gestione della quarantena aiuta a: mantenere la qualità dell’indirizzo, evitare l’inserisco nell&#39;elenco Bloccati da parte dei provider di accesso a Internet e ridurre il tasso di errore, velocizzando le consegne e la velocità effettiva.
 
 
-Per ulteriori informazioni su come avviare una nuova piattaforma, consulta la [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/it/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-starting-new-platform){target="_blank"}.
+Per ulteriori informazioni su come avviare una nuova piattaforma, consulta la [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-starting-new-platform){target="_blank"}.
 
-I consigli tecnici sono elencati in [questa sezione](https://experienceleague.adobe.com/it/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations){target="_blank"}.
+I consigli tecnici sono elencati in [questa sezione](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations){target="_blank"}.
 
 
 +++ **Leggi alcune best practice**
@@ -116,7 +116,7 @@ I modelli di consegna consentono una maggiore efficienza, fornendo scenari pront
 
 ### Sottodomini e branding {#subdomains-and-branding}
 
-Quando gestisci più marchi in Adobe Campaign, Adobe consiglia di avere un sottodominio per marchio. Ad esempio, una banca può avere diversi sottodomini corrispondenti a ciascuna delle sue agenzie regionali. Se una banca è proprietaria del dominio bluebank.com, i sottodomini possono essere @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com, ecc. Disporre di un modello di consegna per sottodominio consente di utilizzare sempre i giusti parametri preconfigurati per ciascun marchio, evitando errori e risparmiando tempo. Ulteriori informazioni sul branding dei sottodomini sono disponibili nella [documentazione del Pannello di controllo Campaign Campaign](https://experienceleague.adobe.com/it/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}.
+Quando gestisci più marchi in Adobe Campaign, Adobe consiglia di avere un sottodominio per marchio. Ad esempio, una banca può avere diversi sottodomini corrispondenti a ciascuna delle sue agenzie regionali. Se una banca è proprietaria del dominio bluebank.com, i sottodomini possono essere @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com, ecc. Disporre di un modello di consegna per sottodominio consente di utilizzare sempre i giusti parametri preconfigurati per ciascuno dei brand, evitando errori e risparmiando tempo. Ulteriori informazioni sul branding dei sottodomini sono disponibili nella [documentazione del Pannello di controllo Campaign Campaign](https://experienceleague.adobe.com/en/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}.
 
 ### Configurare gli indirizzi {#configure-addresses}
 
@@ -143,7 +143,7 @@ Per configurare gli indirizzi nell’interfaccia di Campaign, effettua le seguen
 
 ### Configurare un gruppo di controllo {#set-up-control-group}
 
-Una volta inviata la consegna, puoi confrontare il comportamento dei destinatari esclusi con quello dei destinatari che l’hanno ricevuta. Puoi quindi misurare l’efficienza delle campagne. Ulteriori informazioni sui gruppi di controllo [in questa sezione](../../automation/campaigns/marketing-campaign-target.md#add-a-control-group).
+Una volta inviata la consegna, puoi confrontare il comportamento dei destinatari esclusi con quello dei destinatari che l’hanno ricevuta. Puoi quindi misurare l’efficienza delle campagne. Ulteriori informazioni sui gruppi di controllo in [questa sezione](../../automation/campaigns/marketing-campaign-target.md#add-a-control-group).
 
 ### Utilizzare le tipologie per applicare filtri o regole di controllo {#create-typologies}
 
@@ -165,15 +165,15 @@ Per personalizzare i messaggi, puoi utilizzare i dati dei destinatari memorizzat
 
 * Verifica le impostazioni di personalizzazione: assicurati che il contenuto del messaggio sia progettato correttamente per evitare errori che possono essere correlati alla personalizzazione. Un tag di personalizzazione Adobe Campaign ha sempre il seguente formato: `<%=table.field%>`. L’utilizzo errato dei parametri nei blocchi di personalizzazione può rappresentare un problema. Ad esempio, le variabili in JavaScript devono essere utilizzate come segue:
 
-  &grave;&grave;
+  ``
   <%
   var brand = "xxx"
   %>
-  &grave;&grave;
+  ``
 
   Per ulteriori informazioni sui blocchi di personalizzazione, consulta [questa sezione](../send/personalization-blocks.md).
 
-* Preparare i dati di personalizzazione: puoi preparare i dati di personalizzazione in un flusso di lavoro per migliorare l’analisi della preparazione della consegna. Questa deve essere utilizzata in modo particolare se i dati di personalizzazione provengono da una tabella esterna tramite Federated Data Access (FDA). Questa opzione è descritta in [questa sezione](../send/personalization-data.md#optimize-personalization)
+* Preparare i dati di personalizzazione: puoi preparare i dati di personalizzazione in un flusso di lavoro per migliorare l’analisi della preparazione della consegna. Questo deve essere utilizzato soprattutto se i dati di personalizzazione provengono da una tabella esterna tramite Federated Data Access (FDA). Questa opzione è descritta in [questa sezione](../send/personalization-data.md#optimize-personalization)
 +++
 
 ### Creare contenuti ottimizzati {#build-optimized-content}
@@ -219,7 +219,7 @@ Includi sempre un collegamento a una pagina speculare. La posizione preferita è
 
 ### Collegamento per annullamento iscrizione {#unsub-link-check}
 
-Il collegamento di annullamento dell’abbonamento è essenziale. Deve essere visibile e valido e il modulo deve essere funzionale. Per impostazione predefinita, quando il messaggio viene analizzato, una regola di tipologia [&#x200B; **[!UICONTROL Unsubscription link approval]** integrata](../../automation/campaign-opt/control-rules.md) controlla se è stato incluso un collegamento di rinuncia e, in caso contrario, genera un avviso.
+Il collegamento di annullamento dell’abbonamento è essenziale. Deve essere visibile e valido e il modulo deve essere funzionale. Per impostazione predefinita, quando il messaggio viene analizzato, una regola di tipologia [ **[!UICONTROL Unsubscription link approval]** integrata](../../automation/campaign-opt/control-rules.md) controlla se è stato incluso un collegamento di rinuncia e, in caso contrario, genera un avviso.
 
 Scopri come inserire un collegamento di rinuncia [in questa sezione](../send/personalization-blocks.md).
 
@@ -275,7 +275,7 @@ To avoid common formatting errors, check the following elements:
 
 * Usage of **authorized characters** in emails: the list of valid characters for email addresses is defined in the "XtkEmail_Characters" option. Learn how to access Campaign options [in this section](../../installation/using/configuring-campaign-options.md). To correctly handle special characters, Adobe Campaign needs to be installed in Unicode.
 
-* Configuration of **Email Authentication**: make sure that the email headers contain the DKIM signature. DKIM (Domain Keys Identified Mail) authentication allows the receiving email server to verify that a message was indeed sent by the person or entity it claims it was sent by, and whether the message content was altered in between the time it was originally sent (and DKIM "signed") and the time it was received. This standard typically uses the domain in the From or Sender header. For more on this, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=it#authentication).
+* Configuration of **Email Authentication**: make sure that the email headers contain the DKIM signature. DKIM (Domain Keys Identified Mail) authentication allows the receiving email server to verify that a message was indeed sent by the person or entity it claims it was sent by, and whether the message content was altered in between the time it was originally sent (and DKIM "signed") and the time it was received. This standard typically uses the domain in the From or Sender header. For more on this, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).
 -->
 
 ## Gestione immagini {#manage-images}

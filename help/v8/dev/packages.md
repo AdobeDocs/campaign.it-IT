@@ -47,7 +47,7 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 30b0f5eda9c80b72af5c8574e01cec6965b05564
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1949'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 Puoi utilizzare i pacchetti di dati per esportare e importare le impostazioni e i dati personalizzati della piattaforma. Un pacchetto può contenere diversi tipi di configurazioni e componenti, filtrati o meno.
 
-Nei pacchetti di dati di Campaign, le entità del database Adobe Campaign vengono visualizzate in file XML. In un pacchetto, ogni entità è rappresentata con tutti i suoi dati.
+Nei pacchetti di dati di Campaign, le entità del database di Adobe Campaign vengono visualizzate in file XML. In un pacchetto, ogni entità è rappresentata con tutti i suoi dati.
 
 Questa pagina descrive **pacchetti di dati personalizzati** che puoi creare e gestire. I pacchetti che forniscono le funzionalità di Campaign sono **pacchetti incorporati**, che Adobe installa e gestisce. Ulteriori informazioni sono disponibili in [Pacchetti incorporati](../architecture/built-in-packages.md).
 

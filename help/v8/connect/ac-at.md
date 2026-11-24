@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '992'
 ht-degree: 0%
 ---
 # Utilizzare Campaign e Adobe Target
@@ -54,7 +54,7 @@ Adobe Target può utilizzare i seguenti tipi di dati:
 * Segmenti collegati all’ID visitatore in Adobe Target, solo se i dati utilizzati non sono soggetti a limitazioni legali
 * Dati Adobe Target: agente utente, indirizzo IP, dati di geolocalizzazione
 
-## Inserire un contenuto dinamico
+## Inserire contenuto dinamico
 
 Nell&#39;esempio seguente verrà illustrato come integrare **un&#39;offerta dinamica** da Adobe Target in un messaggio e-mail di Adobe Campaign.
 
@@ -99,7 +99,7 @@ Puoi quindi definire i parametri dell’immagine:
 * **[!UICONTROL Landing Page]** consente di reindirizzare l&#39;immagine predefinita a una pagina di destinazione predefinita. Questo URL si applica solo quando l’immagine predefinita viene visualizzata nell’e-mail finale. È opzionale.
 * **[!UICONTROL Additional decision parameters]** definisce il mapping tra i campi definiti nei segmenti Adobe Target e i campi Adobe Campaign. I campi Adobe Campaign utilizzati devono essere stati specificati nella rawbox. Nel nostro esempio, abbiamo aggiunto il campo Paese.
 
-Se utilizzi le autorizzazioni Enterprise nelle impostazioni di Adobe Target, aggiungi la proprietà corrispondente in questo campo. Per ulteriori informazioni sulle autorizzazioni Enterprise per Target, consulta la [documentazione di Adobe Target](https://experienceleague.adobe.com/it/docs/target/using/administer/manage-users/enterprise/properties-overview#administer){target="_blank"}.
+Se utilizzi le autorizzazioni Enterprise nelle impostazioni di Adobe Target, aggiungi la proprietà corrispondente in questo campo. Per ulteriori informazioni sulle autorizzazioni Enterprise per Target, consulta la [documentazione di Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/administer/manage-users/enterprise/properties-overview#administer){target="_blank"}.
 
 ![](assets/target_13.png)
 
@@ -119,7 +119,7 @@ Nel nostro caso, abbiamo bisogno di due offerte di reindirizzamento, la terza (q
 
    ![](assets/target_6.png)
 
-1. Segui la stessa procedura per l’offerta di reindirizzamento rimanente. Per ulteriori informazioni, consulta questa [documentazione di Adobe Target](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=it#experiences){target="_blank"}.
+1. Segui la stessa procedura per l’offerta di reindirizzamento rimanente. Per ulteriori informazioni, consulta questa [documentazione di Adobe Target](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html#experiences){target="_blank"}.
 
 ### Creare tipi di pubblico {#audiences-target}
 
@@ -159,7 +159,7 @@ Innanzitutto devi definire il pubblico:
 
 1. Creare un&#39;altra esperienza facendo clic su **[!UICONTROL Add Experience Targeting]**.
 
-Quindi aggiungi un contenuto per ogni pubblico:
+Quindi aggiungi il contenuto per ogni pubblico:
 
 1. Seleziona il nome della posizione scelto al momento dell’inserimento dell’offerta dinamica in Adobe Campaign.
 

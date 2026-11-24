@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1203'
 ht-degree: 1%
 ---
 # Creare e pubblicare il modello per la messaggistica transazionale{#template-transactional-messages}
@@ -76,7 +76,7 @@ La definizione del contenuto dei messaggi transazionali è la stessa di tutte le
 >Le immagini incluse nel messaggio devono essere accessibili al pubblico. Adobe Campaign non fornisce alcun meccanismo di caricamento di immagini per i messaggi transazionali.\
 >A differenza di JSSP o WebApp, `<%=` non ha alcun escape predefinito.
 >
->Devi eseguire correttamente l’escape di ogni dato proveniente dall’evento. L’escape dipende da come viene utilizzato questo campo. Ad esempio, all’interno di un URL, utilizza encodeURIComponent. Per essere visualizzato in HTML, puoi utilizzare escapeXMLString.
+>Devi eseguire correttamente l’escape di ogni elemento di dati proveniente dall’evento. L’escape dipende da come viene utilizzato questo campo. Ad esempio, all’interno di un URL, utilizza encodeURIComponent. Per essere visualizzato in HTML, puoi utilizzare escapeXMLString.
 
 Dopo aver definito il contenuto del messaggio, puoi integrare le informazioni sull’evento nel corpo del messaggio e personalizzarlo. Le informazioni sull’evento vengono inserite nel corpo del testo grazie ai tag di personalizzazione.
 
@@ -113,7 +113,7 @@ Un indirizzo di seed consente di visualizzare un’anteprima del messaggio, invi
 
    ![](assets/messagecenter_create_seed_2.png)
 
-1. Inserire i dati di prova. [Ulteriori informazioni sui dati di personalizzazione nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/it/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
+1. Inserire i dati di prova. [Ulteriori informazioni sui dati di personalizzazione nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
 
    ![](assets/messagecenter_create_custo_3.png)
 
@@ -191,7 +191,7 @@ Se [esegui la transizione da Campaign Classic v7](../start/v7-to-v8.md), tutte l
 
 Tuttavia, quando si crea un modello di messaggio transazionale, il routing necessario per il corretto utilizzo del modello è **consegna e-mail interna**. Questo ciclo impedisce l’invio di bozze.
 
-Di conseguenza, per inviare una bozza per il modello di messaggio transazionale, è necessario modificare il routing dalla consegna e-mail interna all&#39;**account di routing mid-sourcing**.
+Di conseguenza, per inviare una bozza per il modello di messaggio transazionale, devi modificare il routing dalla consegna e-mail interna all&#39;**account di routing mid-sourcing**.
 
 ![](assets/messagecenter_send_proof_004.png)
 

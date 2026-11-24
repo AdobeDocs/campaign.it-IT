@@ -50,9 +50,9 @@ topic_v2:
     internal-label: Personalization
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1165'
 ht-degree: 7%
 ---
 # Architettura generale{#general-architecture}
@@ -96,7 +96,7 @@ I processi principali sono i seguenti:
 * **Motore flusso di lavoro** (nlserver wfserver): questo processo esegue i processi del flusso di lavoro definiti nell&#39;applicazione. Gestisce inoltre flussi di lavoro tecnici eseguiti periodicamente, tra cui:
 
   * **Tracciamento**: recupera e consolida i registri di tracciamento in modo da poterli recuperare dal server di reindirizzamento e creare gli indicatori aggregati utilizzati dal modulo di reporting.
-  * **Pulizia**: pulisce il database, elimina i vecchi record ed evita una crescita esponenziale del database.
+  * **Pulizia**: pulisce il database, elimina i vecchi record ed evita la crescita esponenziale del database.
   * **Fatturazione**: invia un rapporto di attività per la piattaforma (dimensioni del database, numero di azioni di marketing, ecc.).
 
 * **Server di consegna** (mta nlserver) - Adobe Campaign dispone di funzionalità di trasmissione e-mail native. Questo processo funziona come agente di trasferimento di posta SMTP (MTA). Esegue la personalizzazione &quot;uno a uno&quot; dei messaggi e ne gestisce la consegna fisica. Viene eseguito utilizzando processi di consegna e gestisce i tentativi automatici. Inoltre, quando il tracciamento è abilitato, sostituisce automaticamente gli URL in modo che puntino al server di reindirizzamento. Questo processo può gestire la personalizzazione e l’invio automatico a un router di terze parti per SMS, fax e direct mail.
@@ -119,7 +119,7 @@ Sono disponibili anche altri processi più tecnici:
 
 * **Moduli di supervisione** (watchdog nlserver): questo processo tecnico funge da processo primario che genera gli altri. Vengono inoltre monitorati e riavviati automaticamente in caso di problemi, mantenendo così il massimo tempo di attività del sistema.
 
-* **Server delle statistiche** (nlserver stat): questo processo mantiene statistiche sul numero di connessioni, sui messaggi inviati per ogni server di posta a cui vengono inviati i messaggi, nonché sulle relative limitazioni (numero massimo di connessioni simultanee, messaggi all&#39;ora/ e/o connessione). Consente inoltre di federare più istanze o computer se condividono gli stessi indirizzi IP pubblici.
+* **Server delle statistiche** (nlserver stat): questo processo mantiene statistiche sul numero di connessioni, sui messaggi inviati per ogni server di posta a cui vengono inviati i messaggi, nonché sulle relative limitazioni (numero massimo di connessioni simultanee, messaggi all&#39;ora e/o per connessione). Consente inoltre di federare più istanze o computer se condividono gli stessi indirizzi IP pubblici.
 
 
 ## Contenitori database {#db-containers}
@@ -141,4 +141,4 @@ Puoi distribuire Adobe Campaign utilizzando il database e gli schemi predefiniti
 
 Lo spazio di archiviazione totale è suddiviso tra il database principale e il database secondario (facoltativo) di Snowflake. La posizione in cui vengono memorizzati i dati deve essere determinata al momento dell’implementazione o dell’aggiornamento, in base ai casi d’uso specifici per il cliente.
 
-Scopri come monitorare l’utilizzo del database nella [documentazione del Pannello di controllo Campaign Campaign](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html?lang=it){target="_blank"}.
+Scopri come monitorare l’utilizzo del database nella [documentazione del Pannello di controllo Campaign Campaign](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html){target="_blank"}.

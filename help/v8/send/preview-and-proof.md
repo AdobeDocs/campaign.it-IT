@@ -23,7 +23,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 13%
@@ -107,7 +107,7 @@ Si consiglia di inviare le bozze dopo ogni modifica al contenuto del messaggio.
 
 ### Proprietà bozza {#proofs-properties}
 
-Le proprietà della bozza sono impostate nella scheda **[!UICONTROL Advanced]** delle finestre delle proprietà di consegna. Passa al collegamento **[!UICONTROL Proof properties...]** per definire i parametri e l&#39;etichetta delle bozze. Puoi scegliere di mantenere:
+Le proprietà della bozza sono impostate nella scheda **[!UICONTROL Advanced]** della finestra delle proprietà di consegna. Passa al collegamento **[!UICONTROL Proof properties...]** per definire i parametri e l&#39;etichetta delle bozze. Puoi scegliere di mantenere:
 
 * Indirizzi duplicati nella bozza
 * Indirizzi Inseriti nell&#39;elenco Bloccati nella bozza
@@ -122,4 +122,4 @@ Per impostazione predefinita, i messaggi di bozza sono identificati dalla menzio
 
 Scopri come inviare e convalidare una bozza per una consegna e-mail.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447007?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/333404)

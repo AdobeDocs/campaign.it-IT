@@ -22,7 +22,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 2%
@@ -43,7 +43,7 @@ Per ogni categoria, puoi definire **date di idoneità**, che è il periodo duran
 
 Per creare una nuova categoria, effettua le seguenti operazioni:
 
-1. Browser alla cartella **[!UICONTROL Offer catalog]**.
+1. Selezionare la cartella **[!UICONTROL Offer catalog]**.
 
    ![](assets/offer_cat_create_001.png)
 
@@ -67,13 +67,13 @@ Per creare una nuova categoria, effettua le seguenti operazioni:
 
    * **[!UICONTROL Edit query]** per applicare i filtri alla destinazione dell&#39;offerta.
 
-   * Riepilogo delle regole di idoneità.Per visualizzarli, fare clic sul collegamento **[!UICONTROL Schedule and eligibility rules of the offer]**.
+   * Riepilogo delle regole di idoneità. Per visualizzarli, fare clic sul collegamento **[!UICONTROL Schedule and eligibility rules of the offer]**.
 
 ## Aggiungere una categoria di fallback
 
 Al fine di garantire che tutti i destinatari ricevano una proposta di offerta, è possibile aggiungere sistematicamente una o più categorie di offerta nelle raccomandazioni.
 
-Queste offerte di fallback devono avere un peso basso (ma non nullo), in modo che vengano prese in considerazione solo se non sono idonee offerte con un peso maggiore.
+Queste offerte di fallback devono avere un peso basso (ma non nullo), in modo che vengano prese in considerazione solo se non è idonea alcuna offerta di peso maggiore.
 
 Inoltre, a queste offerte non deve essere applicata alcuna regola di presentazione per garantire che vengano sempre incluse nelle raccomandazioni. Ciò significa che, durante una proposta, se non è disponibile un’offerta di peso superiore, il destinatario riceverà almeno un’offerta da questa categoria.
 

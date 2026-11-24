@@ -33,9 +33,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '971'
 ht-degree: 13%
 ---
 # Creare e inviare notifiche push{#push-notifications-create}
@@ -100,7 +100,7 @@ Per inviare notifiche sui dispositivi iOS, effettua le seguenti operazioni:
 
 1. Dalla scheda **[!UICONTROL Sound and Badge]**, è possibile modificare le opzioni seguenti:
 
-   * **[!UICONTROL Clean Badge]**: abilitare queste opzioni per aggiornare il valore del badge.
+   * **[!UICONTROL Clean Badge]**: abilitare questa opzione per aggiornare il valore del badge.
 
    * **[!UICONTROL Value]**: impostare un numero che verrà utilizzato per visualizzare direttamente sull&#39;icona dell&#39;applicazione il numero di nuove informazioni non lette.
 
@@ -133,7 +133,7 @@ Per inviare notifiche sui dispositivi iOS, effettua le seguenti operazioni:
 
    * **[!UICONTROL Target content ID]**: identificatore utilizzato per individuare la finestra dell&#39;applicazione da portare avanti quando viene aperta la notifica.
 
-   * **[!UICONTROL Launch image]**: nome del file dell&#39;immagine di avvio da visualizzare. Se l’utente sceglie di avviare l’applicazione, viene visualizzata l’immagine selezionata invece della schermata di avvio dell’applicazione.
+   * **[!UICONTROL Launch image]**: nome del file dell&#39;immagine di avvio da visualizzare. Se l’utente sceglie di avviare l’applicazione, verrà visualizzata l’immagine selezionata invece della schermata di avvio dell’applicazione.
 
    * **[!UICONTROL Interruption level]**:
 

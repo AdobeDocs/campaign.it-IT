@@ -24,9 +24,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '441'
 ht-degree: 4%
 ---
 # API specifiche per campagne FFDA{#gs-new-api}
@@ -88,7 +88,7 @@ Una volta eseguito il flusso di lavoro, la tabella di staging viene alimentata c
    </soapenv:Envelope>
    ```
 
-1. L’UUID viene rimandato alla risposta di SOAP:
+1. L’UUID viene rimandato nella risposta di SOAP:
 
    ```
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
@@ -164,7 +164,7 @@ Di conseguenza, la tabella di staging viene alimentata come previsto.
 
 ## Aggiornare o eliminare dati{#data-update-api}
 
-L&#39;API **xtk.session.IngestExt** è ottimizzata per l&#39;aggiornamento/eliminazione dei dati. Solo per inserimento, preferisci **xtk.session.ingest**. Inserisci funziona indipendentemente dal fatto che la chiave del record non sia nella tabella di gestione temporanea.
+L&#39;API **xtk.session.IngestExt** è ottimizzata per l&#39;aggiornamento/eliminazione dei dati. Solo per inserimento, preferisci **xtk.session.ingest**. L&#39;inserimento funziona quando la chiave del record non si trova nella tabella di gestione temporanea.
 
 ### Inserisci/aggiorna
 
@@ -218,13 +218,13 @@ Una volta eseguito il flusso di lavoro, la tabella di staging viene aggiornata c
    </SOAP-ENV:Envelope>
    ```
 
-Di conseguenza, la tabella di gestione temporanea viene aggiornata come previsto.
+Di conseguenza, la tabella di staging viene aggiornata come previsto.
 
 ## Gestione iscrizione {#sub-apis}
 
 La gestione degli abbonamenti in Campaign è descritta in [questa pagina](../start/subscriptions.md).
 
-L&#39;inserimento dei dati di sottoscrizione e annullamento dell&#39;abbonamento si basa sul [meccanismo di gestione temporanea](staging.md) nel database locale di Campaign. Le informazioni del sottoscrittore sono temporaneamente memorizzate nelle tabelle intermedie nel database locale e il flusso di lavoro di sincronizzazione invia tali dati dal database locale al database cloud. Di conseguenza, i processi di sottoscrizione e annullamento dell&#39;abbonamento sono **asincroni**. Le richieste di consenso e rinuncia vengono elaborate ogni ora tramite un flusso di lavoro tecnico specifico. [Ulteriori informazioni](replication.md#workflows)
+L&#39;inserimento dei dati di sottoscrizione e annullamento dell&#39;abbonamento si basa sul [meccanismo di gestione temporanea](staging.md) nel database locale di Campaign. Le informazioni del sottoscrittore vengono temporaneamente memorizzate nelle tabelle intermedie nel database locale e il flusso di lavoro di sincronizzazione invia tali dati dal database locale al database cloud. Di conseguenza, i processi di sottoscrizione e annullamento dell&#39;abbonamento sono **asincroni**. Le richieste di consenso e rinuncia vengono elaborate ogni ora tramite un flusso di lavoro tecnico specifico. [Ulteriori informazioni](replication.md#workflows)
 
 
 **Argomenti correlati**

@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '763'
 ht-degree: 2%
 ---
 # Operazioni aggiuntive {#additional-operations}
@@ -108,7 +108,7 @@ Per identificare i metadati di un filtro e determinare come utilizzarlo, è nece
 
 ***Richiesta di esempio***
 
-I payload di esempio seguenti mostrano come recuperare i metadati del filtro &quot;byText&quot; per la risorsa &quot;profile&quot;. Esegui prima una richiesta GET sulla metada della risorsa &quot;profile&quot;.
+I payload di esempio seguenti mostrano come recuperare i metadati del filtro &quot;byText&quot; per la risorsa &quot;profile&quot;. Esegui prima una richiesta GET sui metadati della risorsa &quot;profile&quot;.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \
@@ -243,7 +243,7 @@ i campi e-mail o cognome (il filtro byText esegue la ricerca sia nei campi e-mai
   }
   ```
 
-* Esempio di richiesta GET per recuperare le risorse dei servizi con il tipo &quot;e-mail&quot; e l’etichetta &quot;sport&quot;.
+* Esempio di richiesta GET per recuperare le risorse del servizio con il tipo &quot;e-mail&quot; e l’etichetta &quot;sport&quot;.
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/byText?channel=email&text=sport \
@@ -283,8 +283,8 @@ Se desideri utilizzare un filtro personalizzato, devi crearlo e personalizzarlo 
 
 Per ulteriori informazioni, consulta la documentazione di Campaign Standard:
 
-* [Configurazione della definizione del filtro](https://helpx.adobe.com/it/campaign/standard/developing/using/configuring-filter-definition.html).
-* [Caso d&#39;uso: chiamata di una risorsa tramite una chiave di identificazione composita](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html?lang=it).
+* [Configurazione della definizione del filtro](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
+* [Caso d&#39;uso: chiamata di una risorsa tramite una chiave di identificazione composita](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
 
 <br/>
 
@@ -450,7 +450,7 @@ Risposta alla richiesta, con il nodo **next** per eseguire la paginazione.
 }
 ```
 
-Per impostazione predefinita, il nodo **next** non è disponibile quando si interagisce con tabelle con grandi quantità di dati. Per poter eseguire l&#39;impaginazione, devi aggiungere il parametro **_forcePagination=true** all&#39;URL della chiamata.
+Per impostazione predefinita, il nodo **next** non è disponibile quando si interagisce con tabelle contenenti una grande quantità di dati. Per poter eseguire l&#39;impaginazione, devi aggiungere il parametro **_forcePagination=true** all&#39;URL della chiamata.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \

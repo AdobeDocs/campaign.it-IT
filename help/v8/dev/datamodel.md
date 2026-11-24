@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '739'
 ht-degree: 5%
 ---
 # Introduzione al modello dati di Campaign {#gs-ac-datamodel}
@@ -47,7 +47,7 @@ La struttura di base del modello dati di Adobe Campaign può essere descritta co
 
 * **Tabella destinatari**: il modello dati si basa su una tabella principale che per impostazione predefinita è la tabella destinatari (**nmsRecipient**). Questa tabella memorizza tutti i profili di marketing. Ulteriori informazioni sulla tabella dei destinatari in [questa sezione](#ootb-profiles).
 
-* **Tabella di consegna**: in questa tabella viene memorizzato un record per azione di consegna. Di solito si tratta della tabella di consegna (**NmsDelivery**). in questa tabella rappresenta un’azione di consegna o un modello di consegna. Contiene tutti i parametri necessari per eseguire le consegne come destinazione, contenuto, ecc. Ogni record viene aggiornato diverse volte per riflettere l’avanzamento della consegna
+* **Tabella di consegna**: in questa tabella viene memorizzato un record per azione di consegna. Di solito si tratta della tabella di consegna (**NmsDelivery**). Un record in questa tabella rappresenta un’azione di consegna o un modello di consegna. Contiene tutti i parametri necessari per eseguire le consegne come destinazione, contenuto, ecc. Ogni record viene aggiornato diverse volte per riflettere l’avanzamento della consegna
 
 * **Tabelle dei registri**: queste tabelle memorizzano tutti i registri associati all&#39;esecuzione delle campagne.
 
@@ -81,13 +81,13 @@ L’utilizzo della tabella dei destinatari standard offre i seguenti vantaggi:
 * Utilizzo di funzionalità chiave quali abbonamenti, elenchi di seed e altro ancora
 * Fornire a un database di marketing un modello dati incentrato sui destinatari
 * Implementazione più rapida
-* Manutenzione semplice grazie al supporto e ai partner
+* Manutenzione semplice da parte del supporto e dei partner
 
 È possibile estendere la tabella dei destinatari, ma non ridurre il numero di campi o collegamenti nella tabella.
 
 Scopri come estendere uno schema esistente in [questa sezione](extend-schema.md).
 
-Scopri alcuni esempi di estensioni integrate della tabella dei destinatari nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=it#extending-a-table){target="_blank"}
+Scopri alcuni esempi di estensioni integrate della tabella dei destinatari nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#extending-a-table){target="_blank"}
 
 È inoltre possibile utilizzare una tabella dei destinatari diversa per soddisfare meglio i requisiti aziendali o funzionali. Questo metodo presenta limitazioni ed è descritto in [questa sezione](custom-recipient.md).
 

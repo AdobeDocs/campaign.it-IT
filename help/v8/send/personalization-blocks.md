@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '637'
 ht-degree: 20%
 ---
 # Utilizzare i blocchi di personalizzazione{#personalization-blocks}
@@ -100,4 +100,4 @@ Una volta salvato, il nuovo blocco di personalizzazione è disponibile nell’ed
 
 Scopri come creare blocchi di contenuto dinamici e come utilizzarli per personalizzare il contenuto della consegna e-mail nel video seguente.
 
->[!VIDEO](https://video.tv.adobe.com/v/344595?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12)

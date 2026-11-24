@@ -23,10 +23,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1103'
-ht-degree: 90%
+ht-degree: 82%
 ---
 # Connessione ad Adobe Campaign v8{#gs-ac-connect}
 
@@ -39,7 +39,7 @@ Prima di iniziare, è necessario:
 * Verificare la compatibilità del sistema e degli strumenti con Adobe Campaign nella [Matrice di compatibilità](compatibility-matrix.md)
 * Ottenere l’URL del server di Campaign
 * Creare il proprio Adobe ID o ottenere le credenziali utente dall’azienda
-* Installare Microsoft Edge Webview2 Runtime sul sistema. [Ulteriori informazioni](#webview)
+* Installare Microsoft Edge Webview2 Runtime nel sistema. [Ulteriori informazioni](#webview)
 
 ## Installare la console client{#download-ac-console}
 
@@ -171,6 +171,6 @@ Con l’accesso web, invece, le opzioni consentiranno principalmente la visualiz
 
 ![](assets/campaign-from-web.png)
 
-L’accesso web viene utilizzato anche nel processo di convalida: gli operatori possono fare clic sull’e-mail di richiesta di approvazione e connettersi a Campaign tramite il proprio browser web per convalidare o rifiutare il contenuto o il budget di una consegna.
+L’accesso web viene utilizzato anche nel processo di convalida: gli operatori possono fare clic sull’e-mail della richiesta di approvazione e connettersi a Campaign tramite il proprio browser web per convalidare o rifiutare un contenuto o un budget di consegna.
 
-Per accedere all’istanza Campaign dal web, l’URL è: `https://<your adobe campaign server>:<port number>/view/home`.
+Per accedere alla tua istanza di Campaign dal Web, l&#39;URL è: `https://<your adobe campaign server>:<port number>/view/home`.

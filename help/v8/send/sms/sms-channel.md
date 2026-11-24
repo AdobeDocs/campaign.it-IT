@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1353'
+source-wordcount: '1354'
 ht-degree: 1%
 ---
 # Caratteristiche del canale SMS {#sms-channel}
@@ -49,7 +49,7 @@ Sia le conferme che l’SR possono attivare gli errori, distinguendo tra i due s
 
 ### Informazioni trasmesse da un SMS  {#sms-info}
 
-Un SMS trasporta più informazioni che testo. Di seguito un elenco di ciò che puoi aspettarti di trovare in un SMS:
+Un SMS trasporta più informazioni che testo. Di seguito è riportato un elenco di ciò che puoi aspettarti di trovare in un SMS:
 
 * Il testo, che è limitato a 140 byte, che significa tra 70 e 160 caratteri a seconda della codifica. Consulta [Codifica testo SMS](#sms-text-encoding) di seguito per dettagli e limitazioni.
 * Un indirizzo del destinatario, talvolta denominato ADC o MSISDN (il nome tecnico per &quot;numero di telefono&quot;). Questo è il numero del cellulare che riceverà l&#39;SMS.
@@ -65,7 +65,7 @@ Un SMS trasporta più informazioni che testo. Di seguito un elenco di ciò che p
 >
 >La codifica degli SMS è un argomento vasto e complesso con molte trappole e implementazioni non conformi!
 
-La prima regola è **contatta sempre il provider SMPP in caso di problemi di codifica**. Solo loro hanno una conoscenza precisa della codifica supportata e regole speciali che possono essere applicate a causa di limitazioni nella piattaforma tecnica. Assicurati che verifichino ciò che gli invii e ciò che ti inviano, poiché è l’unica strada per un’interconnessione stabile e di successo.
+La prima regola è **contatta sempre il provider SMPP in caso di problemi di codifica**. Solo gli utenti hanno una conoscenza precisa della codifica supportata e regole speciali che possono essere applicate a causa di limitazioni della piattaforma tecnica. Assicurati che verifichino ciò che gli invii e ciò che ti inviano, poiché è l’unica strada per un’interconnessione stabile e di successo.
 
 I messaggi SMS utilizzano una speciale codifica a 7 bit, spesso denominata codifica GSM7.  Wikipedia ha [un buon articolo su di esso (GSM 03.38 in inglese)](https://en.wikipedia.org/wiki/GSM_03.38).
 
@@ -78,7 +78,7 @@ In caso di problemi di codifica, ecco alcuni aspetti importanti da verificare:
 * Latin-1 non è sempre supportato. Verifica la compatibilità con il provider SMPP prima di tentare di utilizzare Latin-1.
 * Le tabelle di cambio della lingua nazionale non sono supportate dal connettore Adobe Campaign. Al suo posto, utilizza UCS-2 o un altro codice_dati.
 * Le unità UCS-2 e UTF-16 sono spesso combinate dai telefoni. Questo è un problema per le persone che inviano emoji e altri caratteri raramente utilizzati non presenti in UCS-2.
-* Gli unici telefoni meno recenti non dispongono di glifi font per tutti i caratteri UCS-2. Gli smartphone più recenti tendono a essere in grado di mostrare caratteri rari piuttosto facilmente, gli smartphone più vecchi spesso mancano di molte emoji, e i telefoni con caratteristiche molto vecchie in genere hanno un supporto limitato a ciò che è utile nella lingua nativa del paese in cui sono stati acquistati. Se desideri utilizzare emoji o ASCII-art di qualche tipo, testalo su un&#39;ampia varietà di telefoni prima di inviarlo. L’anteprima della campagna non simula i glifi mancanti e mostra tutti i simboli disponibili sul browser web per l’anteprima.
+* Alcuni telefoni meno recenti non dispongono di glifi font per tutti i caratteri UCS-2. Gli smartphone più recenti tendono a essere in grado di mostrare caratteri rari piuttosto facilmente, gli smartphone più vecchi spesso mancano di molte emoji, e i telefoni con caratteristiche molto vecchie in genere hanno un supporto limitato a ciò che è utile nella lingua nativa del paese in cui sono stati acquistati. Se desideri utilizzare emoji o ASCII-art di qualche tipo, testalo su un&#39;ampia varietà di telefoni prima di inviarlo. L’anteprima della campagna non simula i glifi mancanti e mostra tutti i simboli disponibili sul browser web per l’anteprima.
 
 Il campo *data_coding* indica la codifica utilizzata. Un problema importante è che il valore 0 indica *la codifica SMSC predefinita* nella specifica, in generale significa GSM7, ma non sempre è così. Rivolgiti al provider SMPP per sapere quale codifica è associata a data_coding = 0. Altri valori data_coding tendono a seguire le specifiche, ma l’unico modo per essere sicuri è quello di verificare con il provider SMPP.
 

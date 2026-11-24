@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Implementation
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '453'
 ht-degree: 13%
 ---
 # Collegare Campaign alle soluzioni{#gs-ac-connectors}
@@ -47,7 +47,7 @@ Combina [!DNL CX Enterprise] soluzioni per modernizzare l&#39;implementazione.
 
 Campaign v8 può connettersi con le seguenti soluzioni Adobe. Sfoglia i collegamenti per ulteriori informazioni su casi d’uso, configurazione e linee guida:
 
-* Adobe Analytics.[Ulteriori informazioni](../connect/ac-aa.md)
+* Adobe Analytics. [Ulteriori informazioni](../connect/ac-aa.md)
 * Trigger di Adobe Experience Cloud. [Ulteriori informazioni](../connect/ac-triggers.md)
 * Adobe Experience Manager. [Ulteriori informazioni](../connect/ac-aem.md)
 * Adobe Experience Platform. [Ulteriori informazioni](../connect/ac-aep.md)
@@ -57,9 +57,9 @@ Campaign v8 può connettersi con le seguenti soluzioni Adobe. Sfoglia i collegam
 
 Puoi anche combinare le **audience** e **risorse** nelle soluzioni [!DNL CX Enterprise] con le funzionalità di condivisione delle risorse e dei tipi di pubblico.
 
-Ulteriori informazioni sulla **condivisione del pubblico** tra Campaign e [!DNL CX Enterprise] soluzioni nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=it#integrating-with-adobe-experience-cloud){target="_blank"}.
+Ulteriori informazioni sulla **condivisione del pubblico** tra Campaign e [!DNL CX Enterprise] soluzioni nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}.
 
-Ulteriori informazioni sulla **condivisione di risorse** tra Campaign e [!DNL CX Enterprise] soluzioni nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=it#integrating-with-adobe-experience-cloud){target="_blank"}.
+Ulteriori informazioni sulla **condivisione di risorse** tra Campaign e [!DNL CX Enterprise] soluzioni nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}.
 
 >[!NOTE]
 >

@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '905'
 ht-degree: 8%
 ---
 # Creare consegne di direct mailing
@@ -94,7 +94,7 @@ Puoi inserire un URL personalizzato nel file di estrazione. Per ulteriori inform
 
 >[!NOTE]
 >
->L&#39;assistente include i passaggi dell&#39;assistente all&#39;esportazione descritti nella [documentazione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html?lang=it){target="_blank"} di Adobe Campaign Classic.
+>L&#39;assistente include i passaggi dell&#39;assistente all&#39;esportazione descritti nella [documentazione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html){target="_blank"} di Adobe Campaign Classic.
 
 ## Convalidare la consegna{#validating}
 

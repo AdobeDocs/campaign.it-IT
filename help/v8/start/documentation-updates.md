@@ -23,10 +23,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '295'
-ht-degree: 100%
+ht-degree: 94%
 ---
 # Aggiornamenti alla documentazione {#latest-updates}
 
@@ -55,7 +55,7 @@ La pagina sulla replica dei dati per le distribuzioni FFDA è stata riorganizzat
 
 ## Maggio 2024 {#may-2024}
 
-* L’elenco dei canali e dei tipi di consegna è ora disponibile in [questa pagina](create-message.md).
+* L&#39;elenco dei canali e dei tipi di consegna è ora elencato in [questa pagina](create-message.md).
 * Le sezioni relative alle impostazioni di consegna e alla gestione degli scaglioni sono state riorganizzate e migliorate. [Ulteriori informazioni](../send/configure-and-send.md).
 * È stata aggiunta una nota per specificare che le attività **[!UICONTROL Change Dimension]** e **[!UICONTROL Change Data source]** non devono essere aggiunte in una riga e devono avere un’attività **[!UICONTROL Enrichement]** tra di esse. Ulteriori informazioni sono disponibili nelle sezioni [Modifica dimensione](../../automation/workflow/change-dimension.md) e [Cambia l’origine dati](../../automation/workflow/change-data-source.md).
 

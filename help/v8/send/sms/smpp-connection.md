@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '4458'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Prima di andare &quot;live&quot;, assicurati che la configurazione di SMPP sia c
 
 >[!NOTE]
 >
->Abilita le tracce SMPP dettagliate durante i controlli; ti aiuterà, insieme al team di supporto, a comprendere le soluzioni ai problemi.
+>Abilita le tracce SMPP dettagliate durante i controlli; ti aiuterà, insieme al team di supporto, a comprendere la risoluzione dei problemi.
 
 ### Verifica la presenza di conflitti di account esterni {#sms-external-accounts-check}
 
@@ -96,7 +96,7 @@ Il numero minimo di messaggi da inviare può essere calcolato come segue:
 Al termine della consegna, verifica quanto segue:
 
 * Verifica che tutti i messaggi siano stati inviati (non necessariamente ricevuti)
-* Deve essere presente una PDU assolutamente pari a zero con command_status diverso da 0x00000000, a meno che il provider non lo indichi esplicitamente come funzionamento normale
+* Deve essere presente una PDU pari a zero con command_status diverso da 0x00000000, a meno che il provider non lo indichi esplicitamente come normale operazione
 * Le connessioni devono rimanere assolutamente stabili (nessuna PDU BIND) durante l’intero processo di consegna.
 * Verificare che tutti i messaggi abbiano un messaggio SR e che sia stato elaborato correttamente (vedere [Verificare che il messaggio SR sia stato elaborato correttamente](#real-test)). Se una piccola percentuale presenta errori, verifica che si tratti di errori SR effettivi che restituiscono errori, non di errori durante l’invio o l’elaborazione sul lato Campagna.
 * Se non si è sicuri delle prestazioni, verificare che la latenza sia ragionevole, in particolare tra una PDU e la corrispondente RESP, una latenza superiore a 500 ms può rappresentare un problema per l&#39;elevata velocità di trasmissione. Utilizza questa latenza per controllare la formula della finestra di invio (consulta l’impostazione della finestra di invio per ulteriori dettagli)
@@ -183,7 +183,7 @@ Per isolare l’account esterno che causa problemi:
 1. Disattiva tutti gli account esterni
 1. Abilita un account esterno
 1. Prova a riprodurre il problema
-1. Se il problema non viene visualizzato con l&#39;account singolo, disattivarlo e riavviare il sistema al passaggio 2 dell&#39;account successivo. Dopo aver controllato ogni singolo account, sono possibili due scenari:
+1. Se il problema non viene visualizzato con l&#39;account singolo, disattivarlo e riavviare il sistema al passaggio 2 dell&#39;account successivo. Una volta verificato ogni singolo account, esistono due possibili scenari:
 
 **Il problema è apparso su uno o più account**
 
@@ -209,7 +209,7 @@ Adobe Campaign supporta la gestione di più codici brevi sullo stesso account es
 
 In generale, le connessioni SMPP tendono a essere molto stabili nel tempo e, una volta configurate correttamente, dovrebbero continuare a funzionare.
 
-* Verifica se il connettore è stato modificato di recente e da chi (controlla Account esterni come gruppo).
+* Verifica se il connettore è stato modificato di recente, e da chi (controlla Account esterni come gruppo).
 * Verificare se il sistema è stato aggiornato e quando.
 * Verifica se eventuali pacchetti che influiscono sugli SMS potrebbero essere stati aggiornati di recente.
 
@@ -220,7 +220,7 @@ Si consiglia di tenersi in contatto con il provider, che spesso comunica in anti
 #### Problema con il mid-sourcing (in hosting)  {#sms-issue-hosted}
 
 * Se il problema si verifica in un ambiente di mid-sourcing, accertati che i registri di consegna e di broadcast siano creati e aggiornati correttamente sul server di mid-sourcing. In caso contrario, il problema non è un problema SMS.
-* Assicurati che il nome dell’operatore mid sia rigorosamente minuscolo, altrimenti la consegna rimarrà nello stato In sospeso.
+* Assicurati che il nome dell’operatore mid sia rigorosamente in minuscolo, altrimenti la consegna rimarrà nello stato In sospeso.
 * Se tutto funziona sul server mid e gli SMS vengono inviati correttamente, ma l’istanza di marketing non viene aggiornata correttamente, si verifica un problema di sincronizzazione mid.
 
 #### Problema durante la connessione al provider {#sms-issue-connection}
@@ -258,7 +258,7 @@ Una connessione è considerata instabile se si verifica una di queste situazioni
 
 * Verifica che la connessione sia stabile: una connessione SMPP deve rimanere attiva per almeno 1 ora di seguito. Consulta la sezione &quot;Problema con connessioni instabili&quot; di cui sopra.
 * Se il riavvio del processo SMS fa funzionare di nuovo il messaggio MT per un piccolo periodo di tempo, probabilmente hai dei limiti a causa di una connessione instabile. Consulta la sezione &quot;Problema con connessioni instabili&quot; di cui sopra.
-* Verificare che l&#39;ampio registro sia presente e che lo stato sia corretto con le date corrette. In caso contrario, non si tratta di un problema SMS, ma di un problema di consegna o di una questione di preparazione della consegna (che non rientra nell’ambito di questo documento).
+* Verificare che l&#39;ampio registro sia presente e che lo stato sia corretto con le date corrette. In caso contrario, non si tratta di un problema di SMS ma di un problema di consegna o di una preparazione della consegna (che esula dall’ambito di questo documento).
 * Verifica che il connettore SMS sia effettivamente associato all’apparecchiatura del provider. Chiedere al provider di fornire un feedback per verificare che tutti i sistemi comunichino correttamente. Per informazioni sul processo di associazione, vedere PDU BIND_TRANSMITTER e BIND_TRANSCEIVER. Per una corretta risoluzione dei problemi, potrebbe essere necessario abilitare le tracce SMPP.
 * Con le tracce SMPP abilitate, verifica che la PDU SUBMIT_SM contenga le informazioni corrette (consulta la documentazione precedente).
 * Verificare che il provider risponda con una PDU SUBMIT_SM_RESP con un valore &quot;OK&quot; (codice 0). Assicurati che la PDU arrivi con un ritardo ragionevole: qualsiasi elemento che superi 1 secondo è sospetto e deve essere discusso con il provider, in genere arriva in meno di 100 ms.
@@ -286,7 +286,7 @@ Attenuazione della quantità di duplicati in caso di un nuovo tentativo:
 Se la PDU DELIVER_SM non viene riconosciuta correttamente, è necessario controllare alcuni elementi:
 
 * Controlla la regex relativa all’estrazione degli ID e all’elaborazione degli errori nell’account esterno. Potrebbe essere necessario convalidarli in base al contenuto della PDU DELIVER_SM.
-* Verifica che nella tabella broadLogMsg sia stato eseguito correttamente il provisioning degli errori (per ulteriori informazioni, consulta la documentazione di Campaign).
+* Verifica che sia stato eseguito correttamente il provisioning degli errori nella tabella broadLogMsg (la documentazione di Campaign spiega nel dettaglio questo problema).
 
 Se la PDU DELIVER_SM è stata confermata dal connettore SMPP esteso ACC ma il broadLog non viene aggiornato correttamente, controlla il processo di riconciliazione degli ID descritto nella sezione Precedente Corrispondenza tra le voci MT, SR e broadlog.
 
@@ -294,7 +294,7 @@ Se hai corretto tutto ma alcuni SR non validi si trovano ancora nei buffer del p
 
 Se l’elaborazione SR è lenta, prova a qualificare i messaggi di stato più comuni nella tabella BroadLogMsg.
 
-Se vengono ricevuti solo alcuni messaggi SR ma non tutti, verificare che nessun altro sistema si connetta all&#39;account del provider, ad esempio un sistema di test. SR può essere indirizzato su qualsiasi connessione, quindi alcuni di essi possono essere indirizzati a questo altro sistema. Il provider potrebbe aiutarti a individuare la posizione di questo altro sistema che si connette all’account.
+Se vengono ricevuti solo alcuni SR ma non tutti, verifica che nessun altro sistema si connetta all’account del provider, ad esempio un sistema di test. SR può essere indirizzato su qualsiasi connessione, quindi alcuni di essi possono essere indirizzati a questo altro sistema. Il provider potrebbe aiutarti a individuare la posizione di questo altro sistema che si connette all’account.
 
 #### Problema durante l’elaborazione di MO (e quarantena/risposta automatica)
 

@@ -25,16 +25,16 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '145'
 ht-degree: 0%
 ---
 # Interazione con risorse personalizzate {#interacting-with-custom-resources}
 
 L&#39;endpoint **/customResources** consente di esporre le risorse personalizzate di Campaign in REST. In base a questa API, è disponibile un’integrazione tra entità personalizzate ed endpoint esterni.
 
-L’endpoint /customResources ha esattamente lo stesso comportamento dell’endpoint /profileAndServices.
+L’endpoint /customResources ha esattamente come endpoint /profileAndServices.
 
 Le risorse personalizzate esposte all’interno di questa API sono:
 

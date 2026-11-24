@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '3638'
+source-wordcount: '3642'
 ht-degree: 3%
 ---
 # Impostazioni account esterno SMPP {#smpp-external-account}
@@ -244,7 +244,7 @@ Questa funzione ha lo scopo di effettuare il flushing dei buffer SR sul lato pro
 
 Impostando questo campo su 0 si disabilita il meccanismo in modo che venga sempre restituito &quot;ID messaggio non valido&quot;. Si tratta di un comportamento normale.
 
-Impostando questo campo su 1, il connettore risponde sempre &quot;OK&quot;, anche se l’ID non è valido. Questo valore deve essere impostato su 1 utilizzato solo sotto supervisione per la risoluzione dei problemi e per il tempo minimo, ad esempio per il ripristino da un problema lato provider.
+Impostando questo campo su 1, il connettore risponde sempre &quot;OK&quot;, anche se l’ID non è valido. Deve essere impostato su 1 e utilizzato solo sotto supervisione per la risoluzione dei problemi e per il tempo minimo, ad esempio per il ripristino da un problema lato provider.
 
 ### Regex di estrazione dell’ID nell’SR
 
@@ -252,7 +252,7 @@ Il formato SR non è strettamente imposto dalla specifica del protocollo SMPP. S
 
 Per impostazione predefinita, acquisisce fino a 10 caratteri alfanumerici dopo &quot;id:&quot;.
 
-Il regex deve avere esattamente un gruppo di acquisizione (una parte racchiusa tra parentesi). Le parentesi devono circondare la parte corrispondente all&#39;ID. Il formato regex è PCRE.
+Il regex deve avere esattamente un gruppo di acquisizione (una parte racchiusa tra parentesi). Le parentesi devono circondare la parte che corrisponde all&#39;ID. Il formato regex è PCRE.
 
 Quando regoli questa impostazione, accertati di includere il maggior contesto possibile per evitare falsi attivatori. Se esistono prefissi specifici (come &quot;id:&quot; nello standard), includili nel regex. Utilizzare inoltre i delimitatori di parola (\b) il più possibile per evitare di acquisire il testo al centro di una parola.
 
@@ -364,7 +364,7 @@ Per ogni campo, puoi impostare il tag associato e il relativo formato. Chiedi al
 
 ### Risposta automatica inviata al MO
 
-Questa funzione consente di rispondere rapidamente al testo in formato MO e di gestire blacklist per codici di scelta rapida.
+Questa funzione consente di rispondere rapidamente con testo a MO e gestire blacklist per codici di scelta rapida.
 
 Le colonne *Parola chiave* e *Codice breve* definiscono le condizioni per attivare la risposta automatica: se entrambi i campi corrispondono, viene inviato il messaggio MO e viene attivata l&#39;azione aggiuntiva. Per specificare un carattere jolly, lascia vuoto il campo. La parola chiave corrisponde alla prima parola alfanumerica nel testo MO, ignorando la punteggiatura e gli spazi iniziali. Ciò significa che il campo Parola chiave non può contenere spazi e deve essere una singola parola.
 
@@ -382,7 +382,7 @@ Tutte le voci della tabella vengono elaborate nell&#39;ordine specificato, fino 
 
 >[!NOTE]
 >
->In un’architettura di mid-sourcing, l’applicazione della risposta automatica per il connettore SMPP esteso richiede di aggiungere l’accesso in scrittura per l’operatore mid nella cartella dell’account esterno.
+>In un’architettura di mid-sourcing, l’applicazione della risposta automatica per il connettore SMPP esteso richiede l’aggiunta dell’accesso in scrittura per l’operatore mid nella cartella dell’account esterno.
 
 >[!IMPORTANT]
 >

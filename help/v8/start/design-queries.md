@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '886'
 ht-degree: 3%
 ---
 # Query database Campaign
@@ -155,7 +155,7 @@ In questo esempio, i dati vengono ordinati in ordine crescente in base allâ€™etÃ
 
 >[!NOTE]
 >
->Come in per tutti gli elenchi disponibili nella console, per impostazione predefinita nella finestra **[!UICONTROL Data preview]** vengono visualizzate solo le prime 200 righe. Per modificare il valore, immettere un numero nella casella **[!UICONTROL Lines to display]** e fare clic su **[!UICONTROL Start the preview of the data]**. [Ulteriori informazioni](../config/ui-settings.md#customize-lists)
+>Come per tutti gli elenchi disponibili nella console, per impostazione predefinita nella finestra **[!UICONTROL Data preview]** vengono visualizzate solo le prime 200 righe. Per modificare il valore, immettere un numero nella casella **[!UICONTROL Lines to display]** e fare clic su **[!UICONTROL Start the preview of the data]**. [Ulteriori informazioni](../config/ui-settings.md#customize-lists)
 
 
 

@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1590'
-ht-degree: 54%
+source-wordcount: '1592'
+ht-degree: 50%
 ---
 # Utilizzare Campaign e Adobe Analytics {#ac-aa}
 
@@ -85,7 +85,7 @@ Per creare **[!UICONTROL Report suite]** in [!DNL Adobe Analytics], eseguire la 
 
 1. Dalla pagina **[!UICONTROL Report suite manager]**, fai clic su **[!UICONTROL Create new]** e quindi su **[!UICONTROL Report suite]**.
 
-   Per la procedura dettagliata sulla creazione di **[!UICONTROL Report suite]**, consulta [Documentazione di Adobe Analytics](https://experienceleague.adobe.com/it/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite#prerequisites){target="_blank"}.
+   Per la procedura dettagliata sulla creazione di **[!UICONTROL Report suite]**, consulta [Documentazione di Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite#prerequisites){target="_blank"}.
 
    ![](assets/analytics_connnector_3.png)
 
@@ -115,7 +115,7 @@ Dopo aver creato la **[!UICONTROL Report suite]**, è necessario configurare **[
 
 1. Fai clic su **[!UICONTROL Add new]** per creare gli identificatori necessari per misurare l’impatto della campagna e-mail, ovvero il nome della campagna interna (cid) e l’ID della tabella iNmsBroadlog (bid).
 
-   Per informazioni su come modificare **[!UICONTROL Conversion variables]**, consulta questa [documentazione di Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html?lang=it#admin-tools){target="_blank"}.
+   Per informazioni su come modificare **[!UICONTROL Conversion variables]**, consulta questa [documentazione di Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html#admin-tools){target="_blank"}.
 
    ![](assets/analytics_connnector_6.png)
 
@@ -138,7 +138,7 @@ Dopo aver creato la **[!UICONTROL Report suite]**, è necessario configurare **[
    * **[!UICONTROL Unique Opens]**
    * **[!UICONTROL Unsubscribed]**
 
-   Per informazioni su come configurare **[!UICONTROL Success events]**, consulta questa [documentazione di Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event.html?lang=it)
+   Per informazioni su come configurare **[!UICONTROL Success events]**, consulta questa [documentazione di Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event.html)
 
    ![](assets/analytics_connnector_8.png)
 
@@ -165,7 +165,7 @@ Per creare il set di classificazione:
 
 1. Fai clic su **[!UICONTROL Save]**.
 
-Per ulteriori informazioni sui set di classificazione, consulta la [documentazione di Adobe Analytics](https://experienceleague.adobe.com/it/docs/analytics/components/classifications/sets/create-set){target="_blank"}.
+Per ulteriori informazioni sui set di classificazione, consulta la [documentazione di Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/sets/create-set){target="_blank"}.
 
 Quando la suite di rapporti, le variabili di conversione, gli eventi di successo e il set di classificazione sono configurati, sarà necessario configurare **[!UICONTROL External accounts]** in Adobe Campaign.
 
@@ -175,7 +175,7 @@ Ora devi configurare l’account esterno **[!UICONTROL Web Analytics]** in Adobe
 
 Nota che se uno dei **[!UICONTROL Report suite]**, **[!UICONTROL Conversion variables]** o **[!UICONTROL Success events]** non è visibile durante la configurazione dell’account esterno, significa che manca un’autorizzazione per questo componente appena creato nel **[!UICONTROL Product profile]** associato all’utente.
 
-Per ulteriori informazioni, consulta la pagina [Profili di prodotto per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=it#product-profile-admins){target="_blank"}.
+Per ulteriori informazioni, consulta la pagina [Profili di prodotto per Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html#product-profile-admins){target="_blank"}.
 
 1. Selezionare la cartella **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External accounts]** della struttura Adobe Campaign Explorer e fare clic su **[!UICONTROL New]**.
 
@@ -199,7 +199,7 @@ Per ulteriori informazioni, consulta la pagina [Profili di prodotto per Adobe An
 
    >[!NOTE]
    >
-   >I campi ID campagna e ID caricamento sono raccolti tramite JavaScript nella pagina di destinazione o tramite le regole di elaborazione. [Ulteriori informazioni sulle regole di elaborazione](https://experienceleague.adobe.com/it/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)
+   >I campi ID campagna e ID Broadlog vengono raccolti tramite JavaScript nella pagina di destinazione o tramite le regole di elaborazione. [Ulteriori informazioni sulle regole di elaborazione](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)
 
    ![](assets/analytics_connnector_11.png)
 
@@ -240,7 +240,7 @@ Per ulteriori informazioni, consulta la pagina [Profili di prodotto per Adobe An
 1. La scheda **[!UICONTROL Advanced]** ti consente di configurare o modificare le impostazioni tecniche.
 
    * **[!UICONTROL Lifespan]**: consente di specificare il ritardo (in giorni) dopo il quale gli eventi web vengono recuperati in Adobe Campaign dai flussi di lavoro tecnici. Predefinito: 180 giorni.
-   * **[!UICONTROL Persistence]**: consente di specificare il periodo durante il quale tutti gli eventi web (ad esempio, un acquisto) possono essere attribuiti a una campagna di remarketing, predefinito: 7 giorni.
+   * **[!UICONTROL Persistence]**: consente di specificare il periodo durante il quale tutti gli eventi web (ad esempio, un acquisto) possono essere attribuiti a una campagna di remarketing. Impostazione predefinita: 7 giorni.
 
 >[!NOTE]
 >
@@ -273,7 +273,7 @@ Gli indicatori interessati sono i seguenti:
 
 >[!NOTE]
 >
->I dati inviati sono il delta basato sull’ultima istantanea che può portare a un valore negativo nei dati della metrica.
+>I dati inviati sono il delta basato sull’ultima istantanea che può portare a valori negativi nei dati della metrica.
 
 Gli attributi inviati sono i seguenti:
 
@@ -308,7 +308,7 @@ Per preparare la campagna di remarketing, è sufficiente creare modelli di conse
 
 Le campagne di remarketing vengono avviate automaticamente una volta che Adobe Campaign ha completato il recupero dei segmenti analizzando il comportamento delle persone target della campagna iniziale. In caso di abbandono del carrello o di visualizzazione del prodotto senza un acquisto, viene inviata una consegna ai destinatari interessati affinché la loro navigazione sul sito finalizzi il loro acquisto.
 
-Adobe Campaign fornisce modelli di consegna personalizzati su cui puoi utilizzare o creare un database per preparare le campagne.
+Adobe Campaign fornisce modelli di consegna personalizzati su cui puoi utilizzare o basarti per preparare le campagne.
 
 1. Dalla cartella **[!UICONTROL Explorer]**, vai alla cartella **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** della struttura Adobe Campaign.
 1. Duplica il modello **[!UICONTROL Email delivery (re-marketing)]** o gli esempi di modelli di remarketing offerti da Adobe Campaign.

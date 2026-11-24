@@ -51,18 +51,18 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1055'
-ht-degree: 87%
+ht-degree: 81%
 ---
 # Introduzione ad Adobe Campaign{#gs-ac-v8}
 
 Adobe Campaign fornisce una piattaforma per la progettazione di esperienze cliente cross-channel e un ambiente per l’orchestrazione visiva delle campagne, la gestione delle interazioni in tempo reale e l’esecuzione su più canali.
 
-Adobe Campaign v8 è lo strumento per campagne di nuova generazione creato per vari canali di marketing come e-mail, notifiche push, SMS e direct mail. Fornisce solide funzionalità di ETL e gestione dei dati per aiutare a creare e curare la campagna perfetta. Il motore di orchestrazione fornisce programmi di marketing multi-touch avanzati con un focus principale sui percorsi basati su batch. Viene inoltre fornito di un server di messaggistica in tempo reale scalabile che consente ai team di marketing di inviare messaggi predefiniti basati su un payload completo da qualsiasi sistema IT per scopi quali reimpostazione della password, conferma dell’ordine, ricezione elettronica e molto altro ancora.
+Adobe Campaign v8 è lo strumento per campagne di nuova generazione creato per vari canali di marketing come e-mail, notifiche push, SMS e direct mail. Fornisce solide funzionalità di ETL e gestione dei dati per aiutare a creare e curare la campagna perfetta. Il motore di orchestrazione fornisce programmi di marketing multi-touch avanzati con un focus principale sui percorsi basati su batch. Viene inoltre fornito con un server di messaggistica scalabile in tempo reale che consente ai team di marketing di inviare messaggi predefiniti basati su un payload completo da qualsiasi sistema IT per comunicazioni quali reimpostazione della password, conferma dell’ordine, e-mail e molto altro.
 
-Adobe Campaign v8 offre notevoli miglioramenti a livello di infrastruttura, sicurezza, recapito messaggi e monitoraggio. È disponibile come **Cloud Service gestito** che combina i servizi con una supervisione proattiva e modifiche tempestive. Per ulteriori informazioni su Campaign Managed Cloud Services, visita [questa pagina](whats-new.md#acms-desc).
+Adobe Campaign v8 offre notevoli miglioramenti a livello di infrastruttura, sicurezza, recapito messaggi e monitoraggio. È disponibile come **Managed Cloud Service** che combina servizi con supervisione proattiva e avvisi tempestivi. Per ulteriori informazioni su Campaign Managed Cloud Services, visita [questa pagina](whats-new.md#acms-desc).
 
 Utilizza Campaign per:
 

@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '489'
 ht-degree: 1%
 ---
 # Perché utilizzare le API di Campaign Standard {#why-using-campaign-standard-apis}
@@ -48,7 +48,7 @@ Sono costruiti con gli elementi seguenti:
 
    ![testo alternativo](assets/apis_uc1.png)
 
-1. Azioni personalizzate da eseguire in base alle caselle di controllo. Se un cliente seleziona &quot;Email Special Offers&quot; (Offerte speciali e-mail), riceverà un&#39;e-mail personalizzata diversa con un buono regalo rispetto al normale processo di registrazione.
+1. Azioni personalizzate da eseguire in base alle caselle di controllo. Se un cliente seleziona &quot;Email Special Offers&quot; (Offerte speciali e-mail), riceverà un&#39;e-mail personalizzata diversa con buono regalo rispetto al normale processo di registrazione.
 
    ![testo alternativo](assets/apis_uc2.png)
 
@@ -80,7 +80,7 @@ I passaggi seguenti descrivono un caso d’uso dettagliato per importare e utili
 
    ![testo alternativo](assets/postman_uc2.png)
 
-1. Dopo la creazione di un oggetto, a esso viene associata una chiave primaria (PKey). È visibile nella risposta della richiesta, così come in altri attributi.
+1. Una volta creato un oggetto, viene associata una chiave primaria (PKey). È visibile nella risposta della richiesta, così come in altri attributi.
 
    ![testo alternativo](assets/postman_uc3.png)
 

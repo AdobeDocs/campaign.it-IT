@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '2569'
+source-wordcount: '2568'
 ht-degree: 0%
 ---
 # Introduzione ai moduli di input {#gs-ac-forms}
@@ -186,7 +186,7 @@ Il tag **`<static>`** con tipo **separator** consente di aggiungere una barra di
 
 Utilizza **contenitori** per raggruppare un set di controlli. Sono rappresentati dall&#39;elemento **`<container>`**. Sono stati utilizzati in precedenza per formattare i controlli su più colonne.
 
-L&#39;attributo **xpath** in un `<container>` consente di semplificare il riferimento ai controlli figlio. Il riferimento ai controlli è quindi relativo al padre `<container>`.
+L&#39;attributo **xpath** in un `<container>` consente di semplificare il riferimento ai controlli figlio. Il riferimento ai controlli è quindi relativo all&#39;elemento padre `<container>`.
 
 Esempio di contenitore senza &quot;xpath&quot;:
 
@@ -447,7 +447,7 @@ L&#39;attributo **xpathChoiceTarget** consente di avviare un modulo di selezione
 * **xpathEditTarget**: imposta la modifica sul collegamento immesso
 * **xpathChoiceTarget**: avvia inoltre il modulo di selezione sul collegamento immesso
 
-## Aggiungere un elenco di controlli memoria {#memory-list-controls}
+## Aggiungi controlli elenco memoria {#memory-list-controls}
 
 Gli elenchi di memoria consentono di modificare gli elementi della raccolta utilizzando il precaricamento dei dati dell’elenco. Questo elenco non può essere filtrato o configurato.
 
@@ -529,7 +529,7 @@ Esempio sul campo &quot;Genere&quot;:
 <input xpath="@gender" readOnly="true"/>
 ```
 
-## Aggiungi pulsanti di scelta {#radio-button}
+## Aggiungi un pulsante di opzione {#radio-button}
 
 Un pulsante di scelta consente di scegliere tra diverse opzioni. I tag **`<input>`** vengono utilizzati per elencare le opzioni possibili e l&#39;attributo **checkvalue** specifica il valore associato alla scelta.
 

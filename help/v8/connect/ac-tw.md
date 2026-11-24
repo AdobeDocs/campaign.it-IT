@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1076'
 ht-degree: 2%
 ---
 # Utilizzare Campaign e X (Twitter) {#tw-ac-ovv}
@@ -79,7 +79,7 @@ Dopo aver ricevuto l’approvazione con accesso privilegiato, crea un’applicaz
 1. Connetti a [X portale per sviluppatori](https://developer.twitter.com/en/apps){target="_blank"}.
 1. Selezionare **Crea un&#39;app**.
 1. Lascia che l’assistente X ti guidi attraverso il processo.
-1. Per consentire ad Adobe Campaign di creare post sul tuo account, modifica le **autorizzazioni app** dalla sezione Configurazione autenticazione utente dell&#39;app. Selezionare **Messaggi diretti, di lettura e scrittura**.
+1. Per consentire ad Adobe Campaign di creare post sul tuo account, modifica le **Autorizzazioni app** dalla sezione Configurazione autenticazione utente dell&#39;app. Selezionare **Messaggi diretti, di lettura e scrittura**.
 
    ![](assets/tw-permissions.png)
 
@@ -108,7 +108,7 @@ Per collegare la tua istanza di Campaign all&#39;account X, crea un servizio **T
 >Ogni servizio **Twitter** deve essere creato anche da Adobe nell&#39;istanza MID (mid-sourcing). Contatta il rappresentante Adobe per configurare l’ambiente.
 >
 
-Per immettere le impostazioni, devi accedere sia alla console client di Adobe Campaign che alle autorizzazioni della tua app X.
+Per immettere le impostazioni, devi accedere sia alla console client di Adobe Campaign che alle autorizzazioni dell’app X.
 
 1. In **Adobe Campaign**, passare alla scheda **[!UICONTROL Profiles and targets]** e selezionare il collegamento **[!UICONTROL Services and Subscriptions]**
 1. Crea un nuovo servizio.
@@ -169,7 +169,7 @@ Al termine della configurazione, puoi creare post sui tuoi account X e inviare m
 
 ## Crea un account di test su X {#tw-test-account}
 
-Oltre all&#39;account X, crea un account X privato che può essere utilizzato per inviare [bozze tweet](../send/twitter.md). A questo scopo, segui la procedura indicata di seguito:
+Oltre a un account X, crea un account X privato che può essere utilizzato per inviare [bozze tweet](../send/twitter.md). A questo scopo, segui la procedura indicata di seguito:
 
 1. Crea un nuovo account X.
 1. Accedi all&#39;account **Impostazioni**.

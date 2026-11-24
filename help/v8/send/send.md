@@ -26,7 +26,7 @@ topic_v2:
     internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 2%
@@ -92,7 +92,7 @@ Domain Keys Identified Mail (DKIM) è un metodo di autenticazione utilizzato per
 
 In Adobe Campaign, la firma di autenticazione e-mail di DKIM viene eseguita dall’MTA.
 
-Ulteriori informazioni su DKIM sono disponibili nella [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=it#authentication){target="_blank"}.
+Ulteriori informazioni su DKIM sono disponibili nella [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication){target="_blank"}.
 
 ## Servizio di feedback delle e-mail {#email-feedback-service}
 
@@ -123,5 +123,5 @@ La tabella seguente mostra come vengono aggiornati gli stati dei KPI e dei regis
 | Il messaggio è stato inoltrato correttamente da Campaign all’MTA | La percentuale **[!UICONTROL Success]** non viene visualizzata (inizia da 0%) | Considerato dal fornitore di servizi |
 | I messaggi non recapitabili vengono segnalati dall’MTA | Nessuna modifica nella percentuale **[!UICONTROL Success]** | Non riuscito |
 | I messaggi in soft-bouncing vengono segnalati dall’MTA | Nessuna modifica nella percentuale **[!UICONTROL Success]** | Considerato dal fornitore di servizi |
-| Nuovi tentativi di messaggi con mancati recapiti non permanenti riusciti | La percentuale di **[!UICONTROL Success]** viene aumentata di conseguenza | Inviato |
+| Nuovi tentativi di messaggio in mancati recapiti non permanenti riusciti | La percentuale di **[!UICONTROL Success]** viene aumentata di conseguenza | Inviato |
 | Nuovi tentativi di messaggi con mancati recapiti non riusciti | Nessuna modifica nella percentuale **[!UICONTROL Success]** | Non riuscito |

@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '264'
 ht-degree: 78%
 ---
 # Guardrail del prodotto{#guardrails}
@@ -47,4 +47,4 @@ I guardrail e le limitazioni identificano le funzionalità, l’architettura o i
 * Nel contesto di un’[implementazione Enterprise (FFDA)](../architecture/enterprise-deployment.md) i meccanismi di abbonamento (opt-in), annullamento dell’abbonamento (opt-out) e registrazione mobile sono processi asincroni. Le richieste vengono elaborate ogni ora, mediante un flusso di lavoro tecnico specifico. [Ulteriori informazioni](../architecture/replication.md#workflows)
 * Nel contesto di una distribuzione [Enterprise (FFDA)](../architecture/enterprise-deployment.md), i duplicati devono essere gestiti manualmente dagli utenti finali. [Ulteriori informazioni](../architecture/keys.md)
 * Adobe Campaign v8 non supporta la velocità di elaborazione estesa nelle applicazioni API e web; in caso di esigenze specifiche, contatta Adobe per ottenere assistenza
-* Nel contesto di una distribuzione [Enterprise (FFDA)](../architecture/enterprise-deployment.md), il modulo di ottimizzazione di Adobe Campaign Campaign non tiene conto delle consegne pianificate nelle regole di tipologia di pressione. Per ulteriori informazioni, consulta [questa pagina](../../automation/campaign-opt/pressure-rules.md)
+* Nel contesto di una distribuzione [Enterprise (FFDA)](../architecture/enterprise-deployment.md), il modulo di ottimizzazione Adobe Campaign non tiene conto delle consegne pianificate nelle regole di tipologia della pressione. Per ulteriori informazioni, consulta [questa pagina](../../automation/campaign-opt/pressure-rules.md)

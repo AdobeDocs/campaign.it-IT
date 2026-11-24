@@ -30,10 +30,10 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 90%
+source-wordcount: '517'
+ht-degree: 83%
 ---
 # Pannello di controllo Campaign {#ac-control-panel}
 
@@ -45,7 +45,7 @@ Vantaggi principali:
 * Configura le impostazioni in base alle diverse esigenze aziendali in momenti diversi.
 * Migliora la sicurezza controllando le impostazioni di accesso in base alle necessità.
 
-Puoi anche utilizzare il Pannello di controllo Campaign per configurare le impostazioni delle istanze, ad esempio l’elenco Consentiti IP, le autorizzazioni URL e recuperare informazioni sull’istanza.
+Puoi anche utilizzare Campaign Pannelli di controllo Campaign per configurare le impostazioni delle istanze, ad esempio l’inserimento di IP nell’elenco Consentiti, le autorizzazioni URL e per recuperare informazioni sull’istanza.
 
 Ulteriori informazioni sono disponibili nella [documentazione del Pannello di controllo Campaign di campagne](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it){target="_blank"}.
 
@@ -63,7 +63,7 @@ Per ulteriori informazioni, [fai clic qui](https://experienceleague.adobe.com/do
 
 ## Domande frequenti sul Pannello di controllo {#ac-control-faq}
 
-[Fai clic qui &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=it#control-panel){target="_blank"} per accedere alle domande frequenti sul Pannello di controllo Campaign.
+[Fai clic qui ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=it#control-panel){target="_blank"} per accedere alle domande frequenti sul Pannello di controllo Campaign.
 
 ## Gestione SFTP {#ac-control-sftp}
 
@@ -86,7 +86,7 @@ Per Campaign v8 Managed Cloud Services, Adobe monitora anche i processi di infra
 
 ## Impostazioni delle istanze
 
-Scopri come gestire le impostazioni delle istanze di Campaign nel Pannello di controllo.
+Scopri come gestire le impostazioni delle istanze di Campaign nel Pannello di controllo Campaign.
 * [IP sull’elenco consentiti](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=it){target="_blank"}
 * [Autorizzazioni URL](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=it){target="_blank"}
 * [Dettagli istanza](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=it){target="_blank"}
