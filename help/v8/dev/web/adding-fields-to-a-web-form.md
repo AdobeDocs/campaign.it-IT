@@ -332,7 +332,7 @@ Indicare l&#39;etichetta della casella di controllo e selezionare il servizio in
 
 >[!NOTE]
 >
->I servizi informativi sono descritti in [questa pagina](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions){target="_blank"}.
+>I servizi informativi sono descritti in [questa pagina](https://experienceleague.adobe.com/it/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions){target="_blank"}.
 
 L’utente si iscrive al servizio selezionando l’opzione pertinente.
 

@@ -60,7 +60,7 @@ Il nostro obiettivo finale è quello di creare una consegna con un modello perso
 
 ## Passaggio 1: creazione di una consegna {#step-1---creating-a-delivery}
 
-Per creare una nuova consegna, posiziona il cursore nella scheda **Campagne** e fai clic su **Consegne**. Fai clic sul pulsante **Crea** sopra l&#39;elenco delle consegne esistenti. Per ulteriori informazioni sulla creazione di consegne, consulta [questa pagina](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/about-email-channel){target="_blank"}.
+Per creare una nuova consegna, posiziona il cursore nella scheda **Campagne** e fai clic su **Consegne**. Fai clic sul pulsante **Crea** sopra l&#39;elenco delle consegne esistenti. Per ulteriori informazioni sulla creazione di consegne, consulta [questa pagina](https://experienceleague.adobe.com/it/docs/campaign-classic/using/sending-messages/about-email-channel){target="_blank"}.
 
 ![](assets/delivery_step_1.png)
 
