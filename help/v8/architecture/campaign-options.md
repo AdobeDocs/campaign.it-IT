@@ -23,9 +23,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 36111995a9a550d5089107bbc1f734c204db8aff
+source-git-commit: 92bab89570eca3eb13d6010db0deec74e7860c91
 workflow-type: tm+mt
-source-wordcount: '2828'
+source-wordcount: '2849'
 ht-degree: 3%
 ---
 # Opzioni della campagna {#campaign-options}
@@ -60,7 +60,7 @@ Puoi leggere e scrivere i valori delle opzioni dal codice JavaScript, dalla pers
 
 ## Opzioni disponibili {#available-options}
 
-Le tabelle seguenti elencano le opzioni disponibili in Campaign v8, raggruppate per area. Quando un’altra pagina della documentazione descrive un’opzione, la tabella vi si collega.
+Le tabelle seguenti elencano le opzioni disponibili in Campaign v8, raggruppate per area. Quando un’altra pagina della documentazione descrive un’opzione, la tabella vi si collega. Alcune voci sono opzioni informative o di manutenzione. Elencare un’opzione non significa che sia sicuro modificarla.
 
 ### Consegne {#delivery-options}
 
@@ -83,7 +83,6 @@ Queste opzioni controllano il modo in cui le consegne vengono preparate e inviat
 | NmsMTA_Alert_Delay | Ritardo, in minuti, dopo il quale una consegna viene considerata ritardata. Il valore predefinito è 30 minuti. |
 | NmsServer_MirrorPageUrl | URL del server della pagina speculare. Si tratta del valore predefinito delle consegne e-mail quando la definizione di indirizzamento non specifica un URL. Per impostazione predefinita, è identico all’URL del server di tracciamento. |
 | XtkBarcode_SpecialChar | Attiva o disattiva il supporto di caratteri speciali per i codici a barre Code128. |
-| XtkSecurity_Restrict_EditXML | Aggiungilo con il valore 0 per disabilitare la modifica del codice XML delle consegne (Modifica origine XML o Ctrl+F4). |
 | NMS_ActivateOwnerConfirmation | Impostalo su 1 in modo che l’operatore responsabile della consegna possa confermare l’invio, quando un operatore o un gruppo specifico è designato per avviare la consegna. Impostalo su 0 per disattivarlo: solo l’operatore o il gruppo designato, o un amministratore, può quindi confermare l’invio. |
 | NmsDelivery_senderAddressMask | Elenco separato da virgole degli indirizzi del mittente consentiti nel campo Da e-mail delle consegne e-mail. Quando l’opzione ha un valore, il campo diventa un elenco a discesa. La restrizione è globale: si applica a ogni marchio e modello di consegna e supporta solo indirizzi statici. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/options#restrict-sender-address){target="_blank"} |
 
@@ -164,6 +163,8 @@ Queste opzioni definiscono le soglie che generano un avviso o un avviso quando l
 
 Il flusso di lavoro di pulizia elimina i vecchi record per impedire la crescita del database. Queste opzioni definiscono per quanto tempo Campaign conserva ogni tipo di dati. Quando si modifica il ritardo nell&#39;interfaccia, viene creata automaticamente un&#39;opzione di rimozione ritardata. Se lo modifichi dall’elenco delle opzioni, esprime il valore in secondi. Ulteriori informazioni sono disponibili in [Architettura generale](general-architecture.md) e [Linee guida sulla sicurezza](../config/security.md#consent).
 
+Solo gli amministratori possono modificare le opzioni di ritardo di eliminazione. I valori appropriati dipendono dall’ambiente in uso, pertanto verifica il valore corrente nell’istanza e non assumere un valore universale predefinito.
+
 | Opzione | Descrizione |
 |---|---|
 | NmsCleanup_BroadLogPurgeDelay | Ritardo dopo il quale i registri di consegna (broadLog) vengono cancellati. |
@@ -178,7 +179,6 @@ Il flusso di lavoro di pulizia elimina i vecchi record per impedire la crescita 
 | NmsCleanup_RejectsPurgeDelay | Ritardo dopo il quale i rifiuti vengono cancellati. |
 | NmsCleanup_VisitorPurgeDelay | Ritardo dopo il quale i visitatori vengono cancellati. |
 | NmsCleanup_WorkflowResultPurgeDelay | Ritardo dopo il quale i risultati del flusso di lavoro vengono cancellati. |
-| XtkCleanup_NoStats | Impostarlo su 1 in modo che il flusso di lavoro di pulizia non aggiorni le statistiche del database. |
 | WdbcKillSessionPolicy | Comportamento dell’arresto incondizionato dei flussi di lavoro su PostgreSQL. 0 (impostazione predefinita): interrompe il processo del flusso di lavoro senza alcun impatto sul database. 1: interrompe il processo e annulla la query (pg_cancel_backend). 2: interrompe il processo e termina la query (pg_terminate_backend). |
 | XtkSequence_AutoGeneration | Si applica agli schemi personalizzati creati dopo l’impostazione di questa opzione, con autopk=&quot;true&quot; e nessun attributo pkSequence: Campaign genera la sequenza automaticamente. |
 
@@ -201,8 +201,8 @@ Queste opzioni si applicano all’interazione con Campaign, il modulo di gestion
 | Opzione | Descrizione |
 |---|---|
 | NmsInteraction_UseDaemon | Impostatelo su 1 per abilitare la scrittura asincrona delle proposte, o su 0 per disabilitarla. |
-| NmsInteraction_MapWorkflowId | Elenco di tutti i flussi di lavoro di sincronizzazione generati. Opzione di manutenzione dell’istanza di controllo. |
-| NmsExecutionInstanceId | Identificatore dell’istanza di esecuzione. Disponibile nelle istanze di esecuzione. |
+| NmsInteraction_MapWorkflowId | Elenco di tutti i flussi di lavoro di sincronizzazione generati. Opzione di manutenzione informativa dell’istanza di controllo: non modificarla. |
+| NmsExecutionInstanceId | Identificatore dell’istanza di esecuzione. Opzione informativa disponibile sulle istanze di esecuzione: non modificarla. |
 
 Le seguenti opzioni sono anche opzioni di manutenzione dell’istanza di controllo:
 
