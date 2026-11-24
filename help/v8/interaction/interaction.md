@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 709e38026d74ed707d10fc8109356289dc9f4ac9
 workflow-type: tm+mt
 source-wordcount: '1620'
 ht-degree: 2%
@@ -44,7 +44,7 @@ L’interazione consente di creare e gestire un catalogo di offerte e configurar
 
 ![](assets/interaction-cycle.png)
 
-In primo luogo, si verifica un contatto tra un cliente e un’azienda attraverso un canale di comunicazione: può essere un sito web (interazione in uscita), un’e-mail, un SMS, una notifica push (interazioni in entrata). [Ulteriori informazioni](#interaction-types)
+In primo luogo, si verifica un contatto tra un cliente e un’azienda attraverso un canale di comunicazione: può essere un sito web (interazione in entrata), un’e-mail, un SMS, una notifica push (interazioni in uscita). [Ulteriori informazioni](#interaction-types)
 
 Il contatto determina una chiamata al motore di offerta. (1)
 
