@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1028'
-ht-degree: 10%
+ht-degree: 8%
 ---
 # Rapporti di consegna {#delivery-reports}
 
@@ -35,7 +35,7 @@ Puoi tenere traccia dell’esecuzione delle consegne tramite vari rapporti acces
 Per accedere ai rapporti, effettua le seguenti operazioni:
 
 1. Passare alla scheda **[!UICONTROL Campaigns]** e fare clic sul collegamento **[!UICONTROL Delivery]** per visualizzare l&#39;elenco delle consegne.
-1. Fai clic sul nome della consegna a cui desideri accedere.
+1. Fai clic sul nome della consegna di cui desideri accedere ai rapporti.
 1. Selezionare la scheda **[!UICONTROL Summary]** e fare clic sul collegamento **[!UICONTROL Reports]** per accedere ai report specifici della consegna.
 
    ![](assets/detailed-report-2.png)
@@ -192,7 +192,7 @@ Questa sezione include i seguenti indicatori:
 
 ## Hot click {#hot-clicks}
 
-Questo rapporto mostra il contenuto del messaggio (HTML e/o testo) e la percentuale di clic per ogni collegamento. I collegamenti presenti nei blocchi di personalizzazione per l’annullamento dell’iscrizione, per le pagine mirror e per le offerte vengono presi in considerazione nei clic totali cumulati, ma non vengono visualizzati nel rapporto.
+Questo rapporto mostra il contenuto del messaggio (HTML e/o testo) e la percentuale di clic per ogni collegamento. I blocchi di personalizzazione, i collegamenti di annullamento dell’abbonamento, i collegamenti di pagina mirror e i collegamenti alle offerte vengono presi in considerazione nel totale dei clic cumulativi, ma non vengono visualizzati nel rapporto.
 
 >[!NOTE]
 >

@@ -18,7 +18,7 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Per identificare i metadati di un filtro e determinare come utilizzarlo, è nece
 
 ***Richiesta di esempio***
 
-I payload di esempio seguenti mostrano come recuperare i metadati del filtro &quot;byText&quot; per la risorsa &quot;profile&quot;. Esegui prima una richiesta GET sulla metada della risorsa &quot;profile&quot;.
+I payload di esempio seguenti mostrano come recuperare i metadati del filtro &quot;byText&quot; per la risorsa &quot;profile&quot;. Esegui prima una richiesta GET sui metadati della risorsa &quot;profile&quot;.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \
@@ -170,7 +170,7 @@ i campi e-mail o cognome (il filtro byText esegue la ricerca sia nei campi e-mai
   }
   ```
 
-* Esempio di richiesta GET per recuperare le risorse dei servizi con il tipo &quot;e-mail&quot; e l’etichetta &quot;sport&quot;.
+* Esempio di richiesta GET per recuperare le risorse del servizio con il tipo &quot;e-mail&quot; e l’etichetta &quot;sport&quot;.
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/byText?channel=email&text=sport \

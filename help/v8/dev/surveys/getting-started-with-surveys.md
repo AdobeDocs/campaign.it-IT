@@ -21,9 +21,9 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '943'
 ht-degree: 1%
 ---
 # Passaggi chiave per creare un sondaggio{#getting-started-with-surveys}
@@ -109,7 +109,7 @@ Nell&#39;esempio seguente viene utilizzata una pagina di tipo **[!UICONTROL Page
 
   ![](assets/s_ncs_admin_survey_add_qu.png)
 
-  Immettere l&#39;etichetta della domanda e inserire il campo o i campi di risposta come sottosezione della domanda. A questo scopo, quando crei il campo di risposta devi selezionare il nodo collegato alla domanda. Aggiungere **[!UICONTROL drop-down listx]** utilizzando l&#39;icona **[!UICONTROL Selection controls]** o facendo clic con il pulsante destro del mouse, come illustrato di seguito:
+  Immettere l&#39;etichetta della domanda e inserire il campo o i campi di risposta come sottosezione della domanda. A questo scopo, quando crei il campo di risposta devi selezionare il nodo collegato alla domanda. Aggiungere **[!UICONTROL drop-down list]** utilizzando l&#39;icona **[!UICONTROL Selection controls]** o facendo clic con il pulsante destro del mouse, come illustrato di seguito:
 
   ![](assets/s_ncs_admin_survey_add_list.png)
 

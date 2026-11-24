@@ -49,9 +49,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f0e325102f748f6268a21a5397774a08a6994e51
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '3475'
+source-wordcount: '3476'
 ht-degree: 6%
 ---
 # Errori di consegna {#delivery-failures}
@@ -64,7 +64,7 @@ Se non è possibile inviare un messaggio a un profilo, il server remoto invia au
 
 Dopo l’invio del messaggio, puoi visualizzare lo stato di consegna per ciascun profilo e il tipo e il motivo dell’errore associati nei registri di consegna.
 
-Quando un indirizzo e-mail viene messo in quarantena o se un profilo si trova in fase di inserisco nell&#39;elenco Bloccati di consegna, il destinatario viene escluso durante la fase di preparazione della consegna. I messaggi esclusi sono elencati nel dashboard di consegna.
+Quando un indirizzo e-mail viene messo in quarantena o se un profilo si trova nel inserisco nell&#39;elenco Bloccati di, il destinatario viene escluso durante la fase di preparazione della consegna. I messaggi esclusi sono elencati nel dashboard di consegna.
 
 ## Perché la consegna del messaggio non è riuscita {#delivery-failure-reasons}
 

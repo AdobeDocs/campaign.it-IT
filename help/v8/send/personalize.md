@@ -24,14 +24,14 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 48%
+source-wordcount: '476'
+ht-degree: 37%
 ---
 # Introduzione alla personalizzazione {#personalize-content}
 
-Per ottenere il massimo da ogni campagna di marketing, Adobe Campaign offre un modo per fornire contenuti personalizzati che parlano ai clienti a loro livello. In base ai dati del profilo, funzionalità di personalizzazione per creare un’esperienza personalizzata per diversi gruppi e singoli utenti: puoi adattare i messaggi a ogni destinatario specifico sfruttando i dati e le informazioni di cui disponi su di essi. Può essere il nome, gli interessi, dove vivono, cosa hanno comprato, e molto altro.
+Per ottenere il massimo da ogni campagna di marketing, Adobe Campaign offre un modo per fornire contenuti personalizzati che parlano ai clienti a loro livello. In base ai dati del profilo, le funzionalità di personalizzazione ti consentono di creare un’esperienza personalizzata per diversi gruppi e singoli utenti: puoi adattare i messaggi a ogni destinatario specifico sfruttando i dati e le informazioni di cui disponi su di essi. Può essere il nome, gli interessi, dove vivono, cosa hanno comprato, e molto altro.
 
 Adobe Campaign semplifica la personalizzazione: puoi visualizzare diversi tipi di contenuto personalizzati per ogni destinatario utilizzando un singolo [modello di messaggio](create-templates.md). Nei messaggi transazionali, ad esempio e-mail di conferma dell’acquisto o di abbandono del carrello, includi informazioni sugli elenchi dei prodotti per ogni individuo all’interno di un singolo modello e-mail.
 
@@ -52,9 +52,9 @@ Puoi personalizzare il contenuto del messaggio in diversi modi:
 
   Campaign viene fornito con un set di blocchi di personalizzazione contenenti un rendering specifico da inserire nelle consegne. Ad esempio, puoi aggiungere un logo, un messaggio di auguri o un collegamento alla pagina mirror del messaggio. I blocchi di contenuto sono disponibili da una voce dedicata nell’editor di personalizzazione. [Ulteriori informazioni](personalization-blocks.md).
 
-* Creare **contenuto condizionale**
+* Creazione di **contenuto condizionale**
 
-  Configura il contenuto condizionale per aggiungere la personalizzazione dinamica, ad esempio in base al profilo del destinatario. I blocchi di testo e/o le immagini vengono inseriti quando viene soddisfatta una particolare condizione. [Ulteriori informazioni](conditions.md).
+  Configura il contenuto condizionale per aggiungere la personalizzazione dinamica in base al profilo del destinatario, ad esempio. I blocchi di testo e/o le immagini vengono inseriti quando viene soddisfatta una particolare condizione. [Ulteriori informazioni](conditions.md).
 
 <!--
 * Add **personalized offers**

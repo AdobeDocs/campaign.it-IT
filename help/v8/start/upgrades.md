@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7ae0ea8d334af5e3580b594d5ddc8b52b10fa5b6
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1780'
-ht-degree: 6%
+ht-degree: 15%
 ---
 # Versioni, aggiornamenti e protezione {#upgrades}
 
@@ -65,15 +65,15 @@ Informazioni dettagliate su ogni nuova versione sono disponibili nelle [Note sul
 
 Per garantire una configurazione stabile, Adobe consiglia di installare **esattamente la stessa versione** su tutti i server Campaign. Inoltre, salvo diversa indicazione nelle [Note sulla versione](release-notes.md), la console client deve essere in **la stessa versione** dell&#39;istanza del server. Scopri come aggiornare la console client in questa [pagina](../start/connect.md#upgrade-ac-console).
 
-### Hotflix {#hotflixes}
+### Hotfix {#hotflixes}
 
 In casi eccezionali, Adobe può fornire un hotfix specifico per il cliente per risolvere un problema prima che sia disponibile una correzione in una versione standard. Le richieste di hotfix vengono valutate caso per caso e non fanno parte del ciclo di rilascio standard.
 
-Le richieste di hotfix devono essere generate tramite l’Assistenza clienti di Adobe. Se approvato, viene preparato un hotfix per il cliente e la build del prodotto interessati. Un hotfix non è una versione generale per tutti i clienti; Adobe può approvare la condivisione con altri clienti interessati dopo la revisione.
+Le richieste di hotfix devono essere inoltrate tramite l’Assistenza clienti Adobe. Se approvate, viene preparato un hotfix per il cliente e la build del prodotto interessati. Un hotfix non è una versione generale per tutti i clienti; Adobe può approvare di condividerlo con altri clienti interessati dopo la revisione.
 
-I dettagli dell’hotfix potrebbero non essere inclusi nelle note sulla versione pubbliche al momento della distribuzione dell’hotfix. Adobe potrebbe successivamente includere un hotfix in una versione standard per la versione applicabile. L&#39;inclusione e la tempistica non sono garantite. Consulta le note sulla versione per conoscere le modifiche incluse in ciascuna versione standard.
+I dettagli dell’hotfix potrebbero non essere inclusi nelle note sulla versione pubbliche al momento della distribuzione dell’hotfix. Adobe potrebbe successivamente includere una correzione hotfix in una versione standard per la versione applicabile. L&#39;inclusione e la tempistica non sono garantite. Consulta le note sulla versione per le modifiche incluse in ciascuna versione standard.
 
-Questo processo di hotfix specifico per il cliente è separato dal criterio delle patch di sicurezza critiche descritto in precedenza, in base al quale Adobe può applicare patch di sicurezza critiche agli ambienti in hosting senza preavviso.
+Questo processo di hotfix specifico per il cliente è separato dal criterio relativo alle patch di sicurezza critiche descritto in precedenza, in base al quale Adobe può applicare patch di sicurezza critiche agli ambienti ospitati senza preavviso.
 
 ### Mantieni aggiornata la console client {#ac-upgrades}
 
@@ -97,7 +97,7 @@ Per verificare la versione di Campaign, accedi al menu **Guida > Informazioni su
 Accedi alle seguenti informazioni:
 
 * Numero di **versione** della console client e del server applicazioni. Nell’esempio precedente, la versione è 8.1.5 sia per la console client che per il server applicazioni.
-* Il numero SHA, tra parentesi.
+* Numero SHA, tra parentesi.
 * Un collegamento per contattare l’Assistenza clienti di Adobe.
 * Collegamenti alla Policy per i cookie, alle Condizioni d’uso e all’Informativa sulla privacy di Adobe.
 

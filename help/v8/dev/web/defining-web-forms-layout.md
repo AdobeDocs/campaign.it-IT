@@ -21,7 +21,7 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 2%
@@ -32,7 +32,7 @@ ht-degree: 2%
 
 ## Creazione di contenitori {#creating-containers}
 
-I contenitori consentono di combinare i campi di una pagina e configurarne il layout, per organizzare gli elementi nella pagina.
+I contenitori consentono di combinare i campi di una pagina, configurarne il layout e organizzare gli elementi nella pagina.
 
 Per ogni pagina del modulo, i contenitori vengono creati tramite il pulsante **[!UICONTROL Containers]** della barra degli strumenti.
 

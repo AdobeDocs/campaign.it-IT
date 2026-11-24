@@ -22,16 +22,16 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '322'
 ht-degree: 2%
 ---
 # Attivazione di attività di segnale {#triggering-a-signal-activity}
 
 In un flusso di lavoro Adobe Campaign Standard possono essere presenti una o più attività **External signal**. Queste attività sono &quot;listener&quot; che attendono di essere attivate.
 
-Le API di Campaign Standard consentono di attivare un&#39;attività **External signal** per richiamare un flusso di lavoro. La chiamata API può includere parametri che verranno acquisiti nelle variabili degli eventi del flusso di lavoro (un nome di pubblico per il target, un nome di file da importare, una parte del contenuto del messaggio, ecc.). In questo modo, puoi integrare facilmente le automazioni di Campaign con il sistema esterno.
+Le API di Campaign Standard consentono di attivare un&#39;attività **External signal** per richiamare un flusso di lavoro. La chiamata API può includere parametri che verranno acquisiti nelle variabili evento del flusso di lavoro (un nome di pubblico per il target, un nome di file da importare, una parte del contenuto del messaggio, ecc.). In questo modo, puoi integrare facilmente le automazioni di Campaign con il sistema esterno.
 
 >[!NOTE]
 >

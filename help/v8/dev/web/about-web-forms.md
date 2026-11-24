@@ -26,7 +26,7 @@ subfeature_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 1%
@@ -85,7 +85,7 @@ Per definire la configurazione e il contenuto del modulo Web, attenersi alla pro
 
 ## Informazioni sulla progettazione di moduli web {#about-web-forms-designing}
 
-Le pagine del modulo vengono create tramite un editor specifico che consente di definire e configurare aree di input (testo) e campi di selezione (elenchi, caselle di controllo e così via) ed elementi statici (immagini, contenuti HTLM, ecc.). Possono essere raggruppati in contenitori e il loro layout può essere modificato in base alle tue esigenze (per ulteriori informazioni, consulta [Creazione di contenitori](defining-web-forms-layout.md#creating-containers)).
+Le pagine del modulo vengono create tramite un editor specifico che consente di definire e configurare aree di input (testo) e campi di selezione (elenchi, caselle di controllo e così via) ed elementi statici (immagini, contenuti HTML, ecc.). Possono essere raggruppati in contenitori e il loro layout può essere modificato in base alle tue esigenze (per ulteriori informazioni, consulta [Creazione di contenitori](defining-web-forms-layout.md#creating-containers)).
 
 Nelle sezioni seguenti viene descritto come definire il contenuto e il layout delle schermate dei moduli:
 

@@ -43,14 +43,14 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1003'
-ht-degree: 76%
+ht-degree: 72%
 ---
 # Introduzione ai messaggi {#gs-ac-msg}
 
-Con Adobe Campaign, puoi inviare campagne cross-channel tra cui e-mail, SMS, notifiche push e direct mail; inoltre, puoi misurarne l’efficacia utilizzando diversi rapporti dedicati. Questi messaggi sono progettati e inviati tramite consegna e possono essere personalizzati per ogni destinatario.
+Con Adobe Campaign, puoi inviare campagne cross-channel tra cui e-mail, SMS, notifiche push e direct mail; inoltre, puoi misurarne l’efficacia utilizzando diversi rapporti dedicati. Questi messaggi sono progettati e inviati tramite consegne e possono essere personalizzati per ogni destinatario.
 
 Le funzionalità di base includono il targeting, la definizione e la personalizzazione dei messaggi, l’esecuzione delle comunicazioni e i relativi rapporti operativi.
 
@@ -123,7 +123,7 @@ Le consegne ricorrenti vengono create all’interno dei flussi di lavoro tramite
 
 Una **consegna continua** è disponibile nel contesto di un flusso di lavoro. Consente di aggiungere nuovi destinatari a una consegna esistente, evitando di dover crearne una nuova ogni volta che viene eseguita.
 
-Se un’informazione nella consegna cambia (contenuto, nome, ecc.), nell’esecuzione della consegna viene creato un nuovo oggetto di consegna. Se non è stata modificata alcuna informazione, viene riutilizzato lo stesso oggetto di consegna e i registri di consegna e di tracciamento vengono aggiunti nello stesso oggetto.
+Se alcune informazioni nella consegna cambiano (contenuto, nome, ecc.), all’esecuzione della consegna viene creato un nuovo oggetto di consegna. Se non è stata modificata alcuna informazione, viene riutilizzato lo stesso oggetto di consegna e i registri di consegna e di tracciamento vengono aggiunti nello stesso oggetto.
 
 Ad esempio, se esegui questo tipo di attività una volta al mese, ti ritroverai una singola consegna dopo un anno (purché non sia stata apportata alcuna modifica alla consegna).
 
@@ -142,6 +142,6 @@ Puoi eseguire le seguenti azioni:
 
 ## Tracciamento e monitoraggio {#gs-tracking-logs}
 
-Il monitoraggio delle consegne dopo l’invio è un passaggio fondamentale per garantire l’efficienza delle campagne di marketing e l’effettivo raggiungimento dei clienti. Puoi monitorare una consegna, oltre a capire come vengono gestiti errori e quarantene.
+Il monitoraggio delle consegne dopo l’invio è un passaggio chiave per garantire l’efficienza delle campagne di marketing e l’effettivo raggiungimento dei clienti. Puoi monitorare una consegna, oltre a capire come vengono gestiti errori e quarantene.
 
 Scopri come [tenere traccia e monitorare le consegne](../send/tracking.md)

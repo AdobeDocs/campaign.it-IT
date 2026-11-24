@@ -18,14 +18,14 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 0%
 ---
 # Utilizzare Campaign e Adobe Workfront
 
-Accelera la consegna delle campagne associando Campaign ad Adobe Workfront. Semplifica ai team cross-channel l’acquisizione, la collaborazione e l’esecuzione. Con i moduli Adobe Campaign in Adobe Workfont, puoi avviare uno scenario Adobe Workfront Fusion basato sugli eventi nell’account Adobe Campaign, creare, leggere o aggiornare i record, cercare i record utilizzando i criteri impostati ed eseguire chiamate API personalizzate.
+Accelera la consegna delle campagne associando Campaign ad Adobe Workfront. Semplifica ai team cross-channel l’acquisizione, la collaborazione e l’esecuzione. Con i moduli Adobe Campaign in Adobe Workfront, puoi avviare uno scenario Adobe Workfront Fusion basato sugli eventi nell’account Adobe Campaign, creare, leggere o aggiornare i record, cercare i record utilizzando i criteri impostati ed eseguire chiamate API personalizzate.
 
 
 I passaggi per configurare questa integrazione sono descritti nella documentazione di Adobe Workfront.

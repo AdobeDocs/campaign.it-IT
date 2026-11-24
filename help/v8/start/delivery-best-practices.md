@@ -43,7 +43,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '3162'
 ht-degree: 4%
@@ -60,7 +60,7 @@ Prima ancora di iniziare a creare le consegne, puoi intraprendere diverse azioni
 
 Diversi fattori possono influire direttamente sulle prestazioni del server e rallentare la piattaforma Campaign:
 
-* Il numero e il tipo di [elementi di personalizzazione](../send/personalize.md): la personalizzazione nelle e-mail estrae dati dal database per ogni destinatario. nel caso di molti elementi di personalizzazione, la quantità di dati necessari per preparare la consegna è maggiore. Questo può rallentare la piattaforma. Ulteriori informazioni sui guardrail di personalizzazione in [questa sezione](../send/personalize.md#perso-guardrails).
+* Il numero e il tipo di [elementi di personalizzazione](../send/personalize.md): la personalizzazione nelle e-mail estrae dati dal database per ogni destinatario. Nel caso di molti elementi di personalizzazione, la quantità di dati necessari per preparare la consegna è più elevata. Questo può rallentare la piattaforma. Ulteriori informazioni sui guardrail di personalizzazione in [questa sezione](../send/personalize.md#perso-guardrails).
 
 * Caricamento del server: quando il server di marketing gestisce più attività diverse contemporaneamente, può rallentare le prestazioni. Il server di marketing deve coordinare tutti i dati in entrata e in uscita per tutte le consegne per garantire che i dati siano corretti e puntuali.
 Per evitare questo problema, coordina la pianificazione delle consegne con gli altri membri del team per garantire le migliori prestazioni.
@@ -116,7 +116,7 @@ I modelli di consegna consentono una maggiore efficienza, fornendo scenari pront
 
 ### Sottodomini e branding {#subdomains-and-branding}
 
-Quando gestisci più marchi in Adobe Campaign, Adobe consiglia di avere un sottodominio per marchio. Ad esempio, una banca può avere diversi sottodomini corrispondenti a ciascuna delle sue agenzie regionali. Se una banca è proprietaria del dominio bluebank.com, i sottodomini possono essere @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com, ecc. Disporre di un modello di consegna per sottodominio consente di utilizzare sempre i giusti parametri preconfigurati per ciascun marchio, evitando errori e risparmiando tempo. Ulteriori informazioni sul branding dei sottodomini sono disponibili nella [documentazione del Pannello di controllo Campaign Campaign](https://experienceleague.adobe.com/it/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}.
+Quando gestisci più marchi in Adobe Campaign, Adobe consiglia di avere un sottodominio per marchio. Ad esempio, una banca può avere diversi sottodomini corrispondenti a ciascuna delle sue agenzie regionali. Se una banca è proprietaria del dominio bluebank.com, i sottodomini possono essere @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com, ecc. Disporre di un modello di consegna per sottodominio consente di utilizzare sempre i giusti parametri preconfigurati per ciascuno dei brand, evitando errori e risparmiando tempo. Ulteriori informazioni sul branding dei sottodomini sono disponibili nella [documentazione del Pannello di controllo Campaign Campaign](https://experienceleague.adobe.com/it/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}.
 
 ### Configurare gli indirizzi {#configure-addresses}
 
@@ -143,7 +143,7 @@ Per configurare gli indirizzi nell’interfaccia di Campaign, effettua le seguen
 
 ### Configurare un gruppo di controllo {#set-up-control-group}
 
-Una volta inviata la consegna, puoi confrontare il comportamento dei destinatari esclusi con quello dei destinatari che l’hanno ricevuta. Puoi quindi misurare l’efficienza delle campagne. Ulteriori informazioni sui gruppi di controllo [in questa sezione](../../automation/campaigns/marketing-campaign-target.md#add-a-control-group).
+Una volta inviata la consegna, puoi confrontare il comportamento dei destinatari esclusi con quello dei destinatari che l’hanno ricevuta. Puoi quindi misurare l’efficienza delle campagne. Ulteriori informazioni sui gruppi di controllo in [questa sezione](../../automation/campaigns/marketing-campaign-target.md#add-a-control-group).
 
 ### Utilizzare le tipologie per applicare filtri o regole di controllo {#create-typologies}
 
@@ -173,7 +173,7 @@ Per personalizzare i messaggi, puoi utilizzare i dati dei destinatari memorizzat
 
   Per ulteriori informazioni sui blocchi di personalizzazione, consulta [questa sezione](../send/personalization-blocks.md).
 
-* Preparare i dati di personalizzazione: puoi preparare i dati di personalizzazione in un flusso di lavoro per migliorare l’analisi della preparazione della consegna. Questa deve essere utilizzata in modo particolare se i dati di personalizzazione provengono da una tabella esterna tramite Federated Data Access (FDA). Questa opzione è descritta in [questa sezione](../send/personalization-data.md#optimize-personalization)
+* Preparare i dati di personalizzazione: puoi preparare i dati di personalizzazione in un flusso di lavoro per migliorare l’analisi della preparazione della consegna. Questo deve essere utilizzato soprattutto se i dati di personalizzazione provengono da una tabella esterna tramite Federated Data Access (FDA). Questa opzione è descritta in [questa sezione](../send/personalization-data.md#optimize-personalization)
 +++
 
 ### Creare contenuti ottimizzati {#build-optimized-content}

@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '580'
 ht-degree: 0%
 ---
 # SMS in un’infrastruttura mid-sourcing {#sms-mid}
@@ -50,12 +50,12 @@ L’invio di consegne SMS con un’infrastruttura mid-sourcing richiede:
 
 Innanzitutto, devi creare un operatore SMS sul Mid-server, che verrà utilizzato dall’account esterno SMS sul server di marketing.
 
-Per creare l’operatore SMS, effettua le seguenti operazioni:
+Per creare il tuo operatore SMS, segui i passaggi seguenti:
 
 1. In **[!UICONTROL Administration]** > **[!UICONTROL Access management]** > **[!UICONTROL Operators]**, fai clic su **[!UICONTROL New]** e compila il modulo nella nuova finestra aperta.
 
    * **[!UICONTROL Name (login)]** e **[!UICONTROL Label]** sono obbligatori.
-   * La password non è obbligatoria, ma consigliata per la sicurezza.
+   * La password non è obbligatoria, ma è altamente consigliata per la sicurezza.
 
    In seguito verrà utilizzato il nome (accesso) per denominare l’account esterno SMPP nel mid-server.
 

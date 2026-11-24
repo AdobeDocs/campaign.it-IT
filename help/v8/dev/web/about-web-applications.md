@@ -40,7 +40,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6db6c9152f6060b40596bd65a2ce705f916401be
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 12%
@@ -116,7 +116,7 @@ Per creare e pubblicare un&#39;applicazione Web, è necessario:
 
 ## Configurazione iniziale dell’applicazione web {#web-application-initial-configuration}
 
-L&#39;applicazione Web viene creata tramite il collegamento **[!UICONTROL Web Applications]** nelle schede **[!UICONTROL Campaigns]** e **[!UICONTROL Profiles and targets]**.
+Le applicazioni Web vengono create tramite il collegamento **[!UICONTROL Web Applications]** nelle schede **[!UICONTROL Campaigns]** e **[!UICONTROL Profiles and targets]**.
 
 Le applicazioni Web sono archiviate nel nodo **[!UICONTROL Resources > Online > Web Applications]** della struttura Adobe Campaign. Le configurazioni sono suddivise nelle seguenti cartelle:
 

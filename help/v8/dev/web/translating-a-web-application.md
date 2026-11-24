@@ -21,9 +21,9 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '365'
 ht-degree: 5%
 ---
 # Progettare un’applicazione web{#translating-a-web-application}
@@ -69,7 +69,7 @@ Per contrassegnare le stringhe da tradurre:
 
    >[!NOTE]
    >
-   >Una volta raccolte le stringhe, non verranno rimosse dall&#39;elenco se rimuovi il flag di traduzione in DCE. Questo consente di mantenerli nella memoria di traduzione.
+   >Una volta raccolte le stringhe, non verranno rimosse dall&#39;elenco se rimuovi il flag di traduzione in DCE. Questo ti consente di mantenerli nella memoria di traduzione.
 
 1. Traduci e approva le stringhe.
 

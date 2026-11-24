@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '3609'
-ht-degree: 33%
+source-wordcount: '3608'
+ht-degree: 31%
 ---
 # Note sulle versioni 2025 {#2025-rn}
 
@@ -233,7 +233,7 @@ Consulta le [note sulla versione](https://experienceleague.adobe.com/docs/campai
 * Sono stati risolti i problemi di funzionalità delle regole di tipologia, garantendo la corretta applicazione delle regole di pressione nelle consegne PUSH. (NEO-84010)
 * Sono stati risolti gli errori di query BigQuery causati da confronti di date e marche temporali non corrispondenti dopo l’aggiornamento, garantendo la compatibilità con le condizioni di filtro. (NEO-83826)
 * È stato risolto un problema che causava un errore nelle attività di consegna durante la ripresa delle consegne in pausa a causa di errori di personalizzazione. Questa correzione garantisce flussi di lavoro di consegna più fluidi e impedisce errori relativi alle attività in pausa. (NEO-83809)
-* È stato risolto un problema in FFDA, quando si utilizzava l’opzione &quot;target record load query&quot; (query di caricamento record target). È stato aggiunto il supporto per le clausole &quot;ordina per&quot; e &quot;dove&quot;. (NEO-83793)
+* È stato risolto un problema in FFDA, quando si utilizzava l’opzione &quot;target record load query&quot; (query di caricamento record di destinazione). È stato aggiunto il supporto per le clausole &quot;ordina per&quot; e &quot;dove&quot;. (NEO-83793)
 * Sono stati risolti errori di consegna ricorrenti causati dalla scrittura di valori Null in colonne non nullable nella tabella broadLogRcp. Questa correzione migliora l’affidabilità della consegna e impedisce gli errori durante le campagne live. (NEO-83729)
 * È stato risolto un problema a causa del quale gli indirizzi di seed venivano duplicati durante la preparazione della consegna, causando discrepanze nel conteggio dei messaggi. Questa correzione assicura un targeting accurato e impedisce errori di duplicazione. (NEO-83703)
 * È stato risolto un problema critico a causa del quale le consegne di produzione venivano inviate dopo il periodo di validità, causando potenzialmente problemi legali. Le consegne ora rispettano rigorosamente i periodi di validità definiti. (NEO-83350)
@@ -312,7 +312,7 @@ _sabato 25 aprile 2025_
 
 ### Nuove funzioni {#features-8-6-5}
 
-**Nuovo connettore di invio SMS** - Il connettore di invio SMS è stato modernizzato e migliorato per abilitare le connessioni SMPP in modalità ricetrasmettitore, abilitare le connessioni SMPP permanenti e garantire una migliore compatibilità per gli ambienti in transizione da Adobe Campaign Standard. È ora disponibile un nuovo account esterno SMS per tutte le nuove implementazioni SMS. L’implementazione esistente è ancora supportata, tuttavia si consiglia di passare a questo nuovo connettore moderno ed esteso. [Ulteriori informazioni](../send/sms/sms.md).
+**Nuovo connettore di invio SMS** - Il connettore di invio SMS è stato modernizzato e migliorato per abilitare le connessioni SMPP in modalità ricetrasmettitore, abilitare le connessioni SMPP permanenti e garantire una migliore compatibilità per gli ambienti in transizione da Adobe Campaign Standard. È ora disponibile un nuovo account esterno SMS per tutte le nuove implementazioni SMS. Le implementazioni esistenti sono ancora supportate, tuttavia si consiglia di passare a questo nuovo connettore moderno ed esteso. [Ulteriori informazioni](../send/sms/sms.md).
 
 ### Miglioramenti generali {#improvements-8-6-5}
 
@@ -362,7 +362,7 @@ _14 febbraio 2025_
 
 ### Nuove funzioni {#features-8-7-3}
 
-* **Reporting dinamico per messaggi transazionali**: ora puoi monitorare i messaggi transazionali nell’interfaccia utente del reporting dinamico. Questi rapporti forniscono al marketer la possibilità di visualizzare in tempo reale tutte le metriche e le dimensioni del reporting dei messaggi transazionali, con l’analisi delle consegne inviate tramite un modello. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html?lang=it){target="_blank"}
+* **Reporting dinamico per messaggi transazionali**: ora puoi monitorare i messaggi transazionali nell’interfaccia utente del reporting dinamico. Questi rapporti forniscono all’addetto marketing la possibilità di visualizzare in tempo reale tutte le metriche e le dimensioni di reporting dei messaggi transazionali, con il raggruppamento delle consegne inviate tramite un modello. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html?lang=it){target="_blank"}
 
 * **API REST per la messaggistica transazionale**: le API transazionali basate su eventi sono ora disponibili per le e-mail. [Ulteriori informazioni](../dev/api/get-started-apis.md)
 
@@ -380,7 +380,7 @@ _15 gennaio 2025_
 
 * La stabilità dell’applicazione Campaign è stata migliorata durante l’analisi della consegna nel contesto di una [distribuzione Enterprise (FFDA)](../../v8/architecture/enterprise-deployment.md).
 * Questa versione include meccanismi dell’architettura FFDA migliorati e rafforzati, tra cui gestione delle chiavi, staging e replica dei dati.
-* Sono stati introdotti nuovi flussi di lavoro tecnici per la [distribuzione Enterprise (FFDA)](../../v8/architecture/enterprise-deployment.md). Questi flussi di lavoro replicano la consegna e i dati correlati centralizzando le richieste di replica parallela sulle tabelle corrispondenti. Il flusso di lavoro inizia con `Replicate nms`. [Ulteriori informazioni](../architecture/replication.md)
+* Sono stati introdotti nuovi flussi di lavoro tecnici per la [distribuzione Enterprise (FFDA)](../../v8/architecture/enterprise-deployment.md). Questi flussi di lavoro replicano la consegna e i dati correlati centralizzando le richieste di replica parallela sulle tabelle corrispondenti. Questi flussi di lavoro iniziano con `Replicate nms`. [Ulteriori informazioni](../architecture/replication.md)
 * Nelle proprietà del flusso di lavoro è ora disponibile una nuova opzione **Abilita il supervisore watchdog per mantenere il flusso di lavoro in esecuzione permanente**. Quando questa opzione è abilitata, i flussi di lavoro si riavviano automaticamente dopo che si è verificato un errore. Per impostazione predefinita, il riavvio si verifica ogni 30 secondi se il flusso di lavoro presenta ancora un errore. Per modificare questo intervallo, puoi creare una nuova opzione `XtkWorkflow_WatchdogRestartTimerTimeout` e impostare un tipo di dati interi per specificare il nuovo ritardo. Questa opzione deve essere abilitata solo nei flussi di lavoro tecnici. [Ulteriori informazioni](../../automation/workflow/workflow-properties.md#execution)
 
 ### Miglioramenti di sicurezza {#security-8-6-4}

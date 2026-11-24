@@ -35,7 +35,7 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 1%
@@ -79,7 +79,7 @@ Per il momento, è possibile utilizzare le API REST elencate di seguito:
 
 ## Filtro
 
-* Per utilizzare i filtri nei payload API REST, è necessario modificarli in Campaign v8 e fornire un nome da utilizzare nei payload. A tale scopo, accedere ai parametri aggiuntivi del filtro dalla scheda **[!UICONTROL Parameters]** e fornire il nome desiderato nel campo **[!UICONTROL Filter name in REST API]**.
+* Per utilizzare i filtri nei payload API REST, è necessario modificarli in Campaign v8 e fornire un nome da utilizzare nei payload. A tale scopo, accedere ai parametri aggiuntivi del filtro dalla scheda **[!UICONTROL Parameters]** e specificare il nome desiderato nel campo **[!UICONTROL Filter name in REST API]**.
 
   ![](assets/api-filtering.png)
 

@@ -41,7 +41,7 @@ topic_v2:
     internal-label: Implementation
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 2%
@@ -50,7 +50,7 @@ ht-degree: 2%
 
 ## Panoramica {#overview}
 
-Se hai bisogno che gli utenti marketing possano accedere ai record di dati ma non desideri che visualizzino le informazioni personali del destinatario (PI), come nome, cognome o indirizzo e-mail, applica le linee guida seguenti per proteggere la privacy e impedire che i dati vengano utilizzati in modo improprio dagli operatori regolari delle campagne.
+Se hai bisogno che gli utenti marketing possano accedere ai record di dati ma non desideri che vedano i Dati Personali del destinatario (PI), come nome, cognome o indirizzo e-mail, applica le linee guida seguenti per proteggere la privacy e impedire l’uso improprio dei dati da parte degli operatori regolari delle campagne.
 
 ## Implementazione {#implementation}
 

@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 2%
@@ -53,7 +53,7 @@ Se un utente finale rinuncia al tracciamento comportamentale tramite cookie o we
 
 Per essere visualizzato nelle applicazioni web o nelle pagine di destinazione, è necessario configurare il banner.
 
-Adobe Campaign viene fornito con un banner di esempio da adattare in base alle tue esigenze. Questa versione del banner viene visualizzata come un blocco di personalizzazione che si trova nella cartella del modello di contenuto. consulta la [documentazione di Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=it){target="_blank"}.
+Adobe Campaign viene fornito con un banner di esempio da adattare in base alle tue esigenze. Questa versione del banner viene visualizzata come un blocco di personalizzazione che si trova nella cartella del modello di contenuto. Consulta la [documentazione di Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=it){target="_blank"}.
 
 >[!IMPORTANT]
 >
@@ -106,7 +106,7 @@ Le API lato client disponibili per personalizzare il banner sono:
 
 * **NL.ClientWebTracking.allow()**: imposta il valore del cookie di rinuncia per consentire il tracciamento Web. Il tracciamento web è consentito per impostazione predefinita.
 * **NL.ClientWebTracking.forbid()**: imposta il valore del cookie di rinuncia per impedire il tracciamento Web. Il tracciamento web richiede che un input dell’utente sia vietato.
-* **NL.ClientWebTracking.closeOptOutBanner(bannerDomElt)**: chiude il banner del cookie di rinuncia dopo che l&#39;utente ha fatto clic sul pulsante Accetta o Rifiuta. (durante la fase di bubbling dell’evento clic)
+* **NL.ClientWebTracking.closeOptOutBanner(bannerDomElt)**: chiude il banner del cookie di rinuncia dopo che l&#39;utente ha fatto clic sul pulsante Accetta o Rifiuta (durante la fase di bubbling degli eventi di clic).
 
   bannerDomElt {DOMElement} l&#39;elemento DOM principale del banner del cookie da rimuovere
 

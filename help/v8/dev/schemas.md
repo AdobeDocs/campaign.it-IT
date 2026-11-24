@@ -38,10 +38,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1295'
-ht-degree: 5%
+ht-degree: 6%
 ---
 # Utilizzare gli schemi{#gs-ac-schemas}
 
@@ -65,7 +65,7 @@ Gli schemi consentono di definire un’entità nel database. Esiste uno schema p
 
 Adobe Campaign utilizza gli schemi di dati per:
 
-* Definire il modo in cui l&#39;oggetto dati all&#39;interno dell&#39;applicazione viene associato alle tabelle di database sottostanti.
+* Definire il modo in cui gli oggetti dati all’interno dell’applicazione sono legati alle tabelle del database sottostanti.
 * Definire i collegamenti tra i diversi oggetti dati all’interno dell’applicazione Campaign.
 * Definire e descrivere i singoli campi inclusi in ciascun oggetto.
 

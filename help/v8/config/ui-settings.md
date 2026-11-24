@@ -25,7 +25,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 0%
@@ -145,7 +145,7 @@ Per salvare una configurazione di elenco in modo che possa essere riutilizzata, 
 1. Fare clic su **[!UICONTROL Advanced settings]** e quindi specificare un nome nel campo **[!UICONTROL Configuration]**.
 1. Fare clic su **[!UICONTROL OK]** e quindi su **[!UICONTROL Save]**.
 
-Puoi quindi applicare questa configurazione a qualsiasi altra cartella dello stesso tipo. Ulteriori informazioni sulle cartelle in [questa pagina](../audiences/folders-and-views.md).
+Puoi quindi applicare questa configurazione a un’altra cartella dello stesso tipo. Ulteriori informazioni sulle cartelle in [questa pagina](../audiences/folders-and-views.md).
 
 ### Esportare un elenco {#exporting-a-list}
 

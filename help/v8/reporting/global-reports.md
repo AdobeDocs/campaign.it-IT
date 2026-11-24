@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1783'
+source-wordcount: '1782'
 ht-degree: 10%
 ---
 # Rapporti globali {#global-reports}
@@ -329,4 +329,4 @@ Il numero di aperture corrisponde al numero totale di messaggi aperti. Le e-mail
 
 >[!NOTE]
 >
->I nomi del browser e del sistema operativo costituiscono parte delle informazioni inviate dall’agente utente del browser a cui è stato aperto il messaggio. Adobe Campaign deduce il tipo di dispositivo utilizzando le relative informazioni sul dispositivo.
+>I nomi del browser e del sistema operativo costituiscono parte delle informazioni inviate dall’agente utente del browser a cui è stato aperto il messaggio. Adobe Campaign deduce il tipo di dispositivo utilizzando le informazioni sul dispositivo.

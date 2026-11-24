@@ -28,9 +28,9 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '563'
 ht-degree: 4%
 ---
 # Best practice per la modifica dei contenuti{#content-editing-best-practices}
@@ -60,7 +60,7 @@ Per garantire il funzionamento ottimale dell’editor, si consiglia di osservare
   ![](assets/dce_enchainement.png)
 
 * Assicurarsi che nella pagina sia presente un solo `<body> </body>`.
-* Quando viene caricato un file CSS o JS, le immagini contenute nel file.zip non vengono caricate. I riferimenti a queste immagini presenti nel CSS non vengono quindi aggiornati.
+* Quando viene caricato un file CSS o JS, le immagini contenute nel file .zip non vengono caricate. I riferimenti a queste immagini presenti nel CSS non vengono quindi aggiornati.
 
 ## Formati supportati dall’editor di contenuti {#content-editor-supported-formats}
 

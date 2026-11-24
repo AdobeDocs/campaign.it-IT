@@ -36,7 +36,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 27%
@@ -56,7 +56,7 @@ Adobe Campaign è dotato delle seguenti mappature di destinazione integrate:
 | Nome | Utilizza per | Schema |
 |---|---|---|
 | Destinatari | Consegnare ai destinatari (tabella dei destinatari incorporata) | nms:recipient |
-| Visitatori | Consegnare ai visitatori i cui profili sono stati raccolti tramite riferimento (marketing virale) per es. | mns:visitor |
+| Visitatori | Consegnare ai visitatori i cui profili sono stati raccolti tramite riferimento (marketing virale) per es. | nms:visitor |
 | Abbonamenti | Consegnare ai destinatari abbonati o iscritti a un servizio informativo, ad esempio una newsletter | nms:subscription |
 | Abbonamenti visitatore | Consegnare ai visitatori abbonati o iscritti a un servizio informativo | nms:visitorSub |
 | Operatori | Consegnare agli operatori Adobe Campaign | nms:operator |

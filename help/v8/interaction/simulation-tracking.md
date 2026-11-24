@@ -29,16 +29,16 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '164'
 ht-degree: 8%
 ---
 # Tracciamento della simulazione{#simulation-tracking}
 
 
 
-Al termine della simulazione, puoi analizzarne i risultati tramite la scheda **[!UICONTROL Results]** che viene aggiunta alla finestra di simulazione e al rapporto **[!UICONTROL Breakdown of offers by rank]**, disponibile tramite nel dashboard di simulazione.
+Al termine della simulazione, è possibile analizzarne i risultati tramite la scheda **[!UICONTROL Results]** che viene aggiunta alla finestra di simulazione e al report **[!UICONTROL Breakdown of offers by rank]**, disponibile tramite la dashboard di simulazione.
 
 I risultati della simulazione contengono una suddivisione delle proposte per classificazione e per destinatario. Anche gli assi di reporting sono presi in considerazione e visualizzati in questa scheda.
 

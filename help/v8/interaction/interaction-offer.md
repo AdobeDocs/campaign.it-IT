@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '890'
 ht-degree: 5%
 ---
 # Creare un’offerta
@@ -58,7 +58,7 @@ Per creare un’offerta, effettua le seguenti operazioni:
 
 ### Periodo di idoneità dell’offerta{#eligibility-period}
 
-Nella scheda **[!UICONTROL Eligibility]** dell&#39;offerta, definisci il periodo di idoneità dell&#39;offerta. utilizzare gli elenchi a discesa per selezionare una data di inizio e una data di fine nel calendario.
+Nella scheda **[!UICONTROL Eligibility]** dell&#39;offerta, definisci il periodo di idoneità dell&#39;offerta. Utilizza gli elenchi a discesa per selezionare una data di inizio e una data di fine nel calendario.
 
 ![](assets/offer_eligibility_create_002.png)
 
@@ -80,7 +80,7 @@ Se sono già stati creati filtri predefiniti, puoi selezionarli dall’elenco de
 
 Per consentire al motore di decidere tra diverse offerte per le quali il target è idoneo, devi assegnare uno o più pesi all’offerta. Se necessario, puoi anche applicare dei filtri al target o limitare lo spazio dell’offerta a cui verrà applicato il peso. Un’offerta con un peso più significativo sarà preferita rispetto a un’offerta con meno peso.
 
-Puoi configurare più pesi per la stessa offerta, ad esempio per distinguere periodi superiori, target specifici o persino uno spazio dell’offerta.
+Puoi configurare più pesi per la stessa offerta, ad esempio per distinguere periodi secondari, target specifici o persino uno spazio dell’offerta.
 
 Ad esempio, un’offerta può avere un peso di A per i contatti di età compresa tra i 18 e i 25 anni e un peso di B per i contatti al di sopra di tale intervallo. Se un’offerta è idonea per tutta l’estate, può anche avere un peso di A in luglio e un peso di B in agosto.
 

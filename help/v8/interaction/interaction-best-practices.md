@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1177'
 ht-degree: 0%
 ---
 # Best practice di interazione {#interaction-best-practices}
@@ -61,7 +61,7 @@ In questa sezione vengono presentate le best practice per gestire il modulo **In
 
   * Utilizza un numero minimo di regole per velocizzare l’elaborazione.
   * Limita il numero di record nella tabella della proposta: conserva solo i record necessari per tenere traccia del suo aggiornamento di stato e di ciò che è necessario per le regole, quindi archiviali in un altro sistema.
-  * Esegui una manutenzione intensiva del database sulla tabella della proposta, ad esempio ricompila indici o ricrea tabella.
+  * Esegui una manutenzione intensiva del database sulla tabella delle proposte, ad esempio la ricostruzione degli indici o la ricreazione della tabella.
   * Limita il numero di proposte richieste per target. Non impostare più di quello che si sta per utilizzare.
   * Evita il più possibile i join nei criteri delle regole.
 
@@ -131,7 +131,7 @@ Quando si utilizza l’interazione e si selezionano manualmente le offerte, l’
 
 ### Estendere lo schema nms:offer {#extending-nms-offer-schema}
 
-Quando si estende lo schema nms:offer, assicurarsi di seguire la struttura preconfigurata già configurata:
+Quando si estende lo schema nms:offer, assicurarsi di seguire la struttura preconfigurata già impostata:
 * Definire un nuovo campo per l&#39;archiviazione del contenuto in `<element name="view">`.
 * Ogni nuovo campo deve essere definito due volte. Una volta come campo XML normale e una volta come campo XML CDATA con &quot;_jst&quot; aggiunto al nome. Ad esempio:
 

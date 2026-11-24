@@ -26,7 +26,7 @@ topic_v2:
     internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 2%
@@ -123,5 +123,5 @@ La tabella seguente mostra come vengono aggiornati gli stati dei KPI e dei regis
 | Il messaggio è stato inoltrato correttamente da Campaign all’MTA | La percentuale **[!UICONTROL Success]** non viene visualizzata (inizia da 0%) | Considerato dal fornitore di servizi |
 | I messaggi non recapitabili vengono segnalati dall’MTA | Nessuna modifica nella percentuale **[!UICONTROL Success]** | Non riuscito |
 | I messaggi in soft-bouncing vengono segnalati dall’MTA | Nessuna modifica nella percentuale **[!UICONTROL Success]** | Considerato dal fornitore di servizi |
-| Nuovi tentativi di messaggi con mancati recapiti non permanenti riusciti | La percentuale di **[!UICONTROL Success]** viene aumentata di conseguenza | Inviato |
+| Nuovi tentativi di messaggio in mancati recapiti non permanenti riusciti | La percentuale di **[!UICONTROL Success]** viene aumentata di conseguenza | Inviato |
 | Nuovi tentativi di messaggi con mancati recapiti non riusciti | Nessuna modifica nella percentuale **[!UICONTROL Success]** | Non riuscito |

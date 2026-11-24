@@ -26,7 +26,7 @@ topic_v2:
     internal-label: Accessibility
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1382'
 ht-degree: 1%
@@ -107,7 +107,7 @@ Nella parte inferiore della finestra delle proprietà viene visualizzato un rend
 
 È possibile modificare il logo utilizzato nel modulo utilizzando il proprio logo.
 
-Nella scheda **[!UICONTROL Rendering]** all&#39;interno di **[!UICONTROL Properties]** dell&#39;app Web, fare clic sull&#39;icona a forma di vetro del modello:
+Nella scheda **[!UICONTROL Rendering]** all&#39;interno di **[!UICONTROL Properties]** dell&#39;app Web, fai clic sull&#39;icona a forma di vetro del modello:
 
 ![](assets/logo_glass.png)
 

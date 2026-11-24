@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: e633414f053265108e33aa63d7b7504d307e05c3
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '3132'
-ht-degree: 4%
+ht-degree: 3%
 ---
 # Calcolo delle metriche di report integrato {#metrics-calculation}
 
@@ -809,7 +809,7 @@ Questo report è basato sulla tabella **[!UICONTROL Delivery]** (nms:delivery).
 
 Questo report è basato sulle tabelle Delivery(nms:delivery) e **[!UICONTROL Consolidated tracking]** (nms:trackingStats).
 
-Questo rapporto mostra il contenuto del messaggio (HTML e/o testo) e la percentuale di clic per ogni collegamento. La personalizzazione blocca i collegamenti di annullamento dell’abbonamento e i collegamenti alle pagine mirror che vengono presi in considerazione nel totale dei clic cumulativi, ma non vengono visualizzati nel rapporto.
+Questo rapporto mostra il contenuto del messaggio (HTML e/o testo) e la percentuale di clic per ogni collegamento. I blocchi di personalizzazione, i collegamenti di annullamento dell’abbonamento e i collegamenti alle pagine mirror vengono presi in considerazione nel totale dei clic cumulativi, ma non vengono visualizzati nel rapporto.
 
 ## Statistiche di tracciamento {#tracking-statistics-1}
 
@@ -940,7 +940,7 @@ Se per alcuni indicatori si verificano desincronizzazione o incoerenza, selezion
 
 ## Tracciamento delle aperture {#tracking-opens-}
 
-Affinché Adobe Campaign possa rilevare l’apertura di un messaggio, il destinatario deve scaricare le immagini nell’e-mail. Le e-mail HTML e Multipart/Alternative includono un’immagine a 0 pixel, che consente di rilevare quali messaggi sono stati aperti. Poiché i messaggi in formato di testo non includono immagini, è impossibile rilevare se sono stati aperti o meno. I valori calcolati in base alle aperture dei messaggi sono sempre delle stime, a causa del margine di errore legato alla visualizzazione delle immagini.
+Affinché Adobe Campaign possa rilevare l’apertura di un messaggio, il destinatario deve scaricare le immagini nell’e-mail. Le e-mail HTML e Multipart/Alternative includono un’immagine da 0 pixel, che consente di rilevare i messaggi aperti. Poiché i messaggi in formato di testo non includono immagini, è impossibile rilevare se sono stati aperti o meno. I valori calcolati in base alle aperture dei messaggi sono sempre delle stime, a causa del margine di errore legato alla visualizzazione delle immagini.
 
 ## Persone/destinatari interessati {#targeted-persons---recipients}
 

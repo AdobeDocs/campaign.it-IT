@@ -21,7 +21,7 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Per ogni campo di input di un modulo sono disponibili le seguenti opzioni di arc
 
 * **[!UICONTROL Edit a recipient]**
 
-  È possibile selezionare un campo del database: le risposte degli utenti verranno memorizzate in questo campo. Per ogni utente, viene salvato solo l&#39;ultimo valore immesso: viene aggiunto al profilo: fare riferimento a [Memorizzazione dei dati nel database](#storing-data-in-the-database).
+  È possibile selezionare un campo del database: le risposte degli utenti verranno memorizzate in questo campo. Per ogni utente, viene salvato solo l’ultimo valore immesso: viene aggiunto al suo profilo. Fare riferimento a [Memorizzazione dei dati nel database](#storing-data-in-the-database).
 
 * **[!UICONTROL Variable]**
 

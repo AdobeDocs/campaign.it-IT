@@ -24,14 +24,14 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1278'
 ht-degree: 4%
 ---
 # Inviare un’offerta{#send}
 
-Per poter essere selezionata dal motore di offerta, un&#39;offerta deve essere approvata e disponibile in un ambiente **Live**. [Ulteriori informazioni](interaction-offer.md#approve-offers)
+Affinché un&#39;offerta possa essere selezionata dal motore di offerta, deve essere approvata e disponibile in un ambiente **Live**. [Ulteriori informazioni](interaction-offer.md#approve-offers)
 
 La presentazione dell’offerta tramite un canale di comunicazione in uscita viene eseguita tramite direct mailing, e-mail o consegne su dispositivi mobili. Puoi anche utilizzare la modalità unitaria con la messaggistica transazionale (Centro messaggi).
 
@@ -189,7 +189,7 @@ Questa attività funziona sullo stesso principio dell&#39;attività **Enrichment
 Dopo aver configurato l&#39;attività **Query**:
 
 1. Aggiungi e apri un&#39;attività **[!UICONTROL Offer engine]**.
-1. Completa i vari campi disponibili per specificare i parametri della chiamata al motore di offerta (spazio dell’offerta, categoria o temi, data di contatto, numero di offerte da mantenere). Il motore calcola automaticamente le offerte da aggiungere in base a questi parametri.
+1. Completa i vari campi disponibili per specificare la chiamata ai parametri del motore di offerta (spazio dell’offerta, categoria o temi, data di contatto, numero di offerte da mantenere). Il motore calcola automaticamente le offerte da aggiungere in base a questi parametri.
 
    >[!CAUTION]
    >

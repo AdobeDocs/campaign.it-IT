@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 2%
@@ -36,7 +36,7 @@ I collegamenti nel contenuto delle e-mail che contengono la personalizzazione de
 
 L’utilizzo di JavaScript nel contenuto delle e-mail (HTML o Testo) consente di generare e inviare contenuto dinamico ai destinatari, con due limitazioni:
 
-* Lo script non può accedere direttamente al database (funzioni SQL e API non disponibili),
+* Lo script non può accedere direttamente al database (le funzioni SQL e API non sono disponibili),
 * Adobe Campaign deve essere in grado di rilevare gli URL in modo da poter tenere traccia dei collegamenti.
 
 ## Istruzioni di pre-elaborazione {#pre-processing-instructions}

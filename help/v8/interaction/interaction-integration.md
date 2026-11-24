@@ -24,7 +24,7 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1458'
 ht-degree: 0%
@@ -227,7 +227,7 @@ Il caso d’uso seguente descrive le configurazioni da eseguire in Adobe Campaig
 
 1. **Estendere la formula dell&#39;offerta per modificare nuovi campi e modificare un campo esistente**
 
-   Modifica il modulo di input **Offerta (nsm)**.
+   Modifica il modulo di input **Offerta (nms)**.
 
    Nella sezione &quot;Viste&quot;, inserisci i due nuovi campi con il seguente contenuto:
 

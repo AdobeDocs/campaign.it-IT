@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1444'
 ht-degree: 2%
 ---
 # Personalizzare i cubi{#cube-custom}
@@ -255,7 +255,7 @@ Per eseguire questa operazione:
 
    ![](assets/cube_multiple_filters.png)
 
-Ogni volta che si modifica un filtro (aggiungi, rimuovi, modifica), il rapporto deve essere ricalcolato.
+Ogni volta che un filtro viene modificato (aggiunto, rimosso, modificato), il rapporto deve essere ricalcolato.
 
 I filtri possono essere creati anche in base a una selezione. A tale scopo, selezionare le celle, le righe e le colonne di origine, quindi fare clic sull&#39;icona **[!UICONTROL Add a filter]**.
 

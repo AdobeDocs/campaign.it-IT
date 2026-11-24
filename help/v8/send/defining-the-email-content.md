@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '2111'
 ht-degree: 2%
@@ -94,7 +94,7 @@ Il contenuto del messaggio è definito nella sezione inferiore della finestra di
 
 Per impostazione predefinita, i messaggi vengono inviati in formato HTML o testo, in base alle preferenze del destinatario. È consigliabile creare contenuti in entrambi i formati per garantire che i messaggi possano essere visualizzati correttamente in qualsiasi sistema di posta. Per ulteriori informazioni, consulta [Selezione dei formati dei messaggi](email-parameters.md#selecting-message-formats).
 
-* Per importare un contenuto HTML, utilizzare il pulsante **[!UICONTROL Open]**. È inoltre possibile incollare il codice sorgente direttamente nella scheda secondaria **[!UICONTROL Source]**.
+* Per importare contenuto HTML, utilizzare il pulsante **[!UICONTROL Open]**. È inoltre possibile incollare il codice sorgente direttamente nella scheda secondaria **[!UICONTROL Source]**.
 
   Se utilizzi Digital Content Editor (DCE), consulta [questa sezione](../dev/web/use-case-creating-an-email-delivery.md#step-3---selecting-a-content).
 
@@ -132,7 +132,7 @@ Per impostazione predefinita, i messaggi vengono inviati in formato HTML o testo
 
   ![](assets/s_ncs_user_wizard_email01_141.png)
 
-  Per il formato HTML, fare clic sulla scheda **[!UICONTROL Preview]** nella parte inferiore della pagina per visualizzare il rendering del messaggio con la relativa personalizzazione.
+  Per quanto riguarda il formato HTML, fare clic sulla scheda **[!UICONTROL Preview]** nella parte inferiore della pagina per visualizzare il rendering del messaggio con la relativa personalizzazione.
 
   ![](assets/s_ncs_user_wizard_email01_142.png)
 

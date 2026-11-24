@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 58%
+source-wordcount: '800'
+ht-degree: 56%
 ---
 # Ottimizzazione del tempo di invio e punteggio di coinvolgimento predittivo{#optimize-message-delivery}
 
@@ -65,7 +65,7 @@ Nel modello Ottimizzazione predittiva del tempo di invio sono presenti due model
 
 Dettagli di output:
 
-* Calcola l’ora del giorno migliore per inviare un’e-mail nei 7 giorni della settimana con intervalli di 1 ora (ad esempio: 9:00, 10:00, 11:00)
+* Calcola l’ora del giorno migliore per inviare un’e-mail per i 7 giorni della settimana con intervalli di 1 ora (ad esempio: 9:00, 10:00, 11:00)
 * Il modello indica il giorno migliore della settimana e l’ora migliore di quel determinato giorno
 * Ogni tempo ottimale viene calcolato due volte: una volta per massimizzare il tasso di apertura e una per massimizzare il click rate
 * Sono forniti 16 campi (14 per ogni giorno della settimana e 2 per l’intera settimana):
@@ -103,7 +103,7 @@ Il punteggio predittivo di coinvolgimento consente di:
 Questo modello utilizza più punteggi per indicare:
 
 * **Punteggio di coinvolgimento per apertura/Punteggio di coinvolgimento per clic**: questo valore corrisponde alla probabilità che un utente iscritto sia interessato a un messaggio specifico (apertura o clic). I valori sono compresi tra 0,0 e 1,0.
-* **Probabilità di annullamento abbonamento**: questo valore corrisponde alla probabilità che il destinatario annulli l’iscrizione al canale e-mail a causa di un messaggio e-mail aperto. I valori sono compresi tra 0,0 e 1,0.
+* **Probabilità di annullamento abbonamento**: questo valore corrisponde alla probabilità che un destinatario annulli l&#39;abbonamento al canale e-mail a causa di un messaggio e-mail aperto. I valori sono compresi tra 0,0 e 1,0.
 * **Livello di mantenimento**: questo valore determina il ranking degli utenti in tre livelli: basso, medio e alto. Con un valore alto, è molto probabile che il cliente sia interessato al marchio, mentre un valore basso implica la possibilità che annulli l’abbonamento.
 * **Grado percentile di mantenimento**: ranking dei profili in termini di probabilità di annullamento dell’iscrizione. I valori sono compresi tra 0,0 e 1,0. Ad esempio, se il livello di fidelizzazione è 0,953, è più probabile che il destinatario rimanga con il marchio e meno probabile che annulli l’abbonamento rispetto al 95,3% di tutti i destinatari.
 

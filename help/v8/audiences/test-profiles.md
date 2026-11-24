@@ -42,7 +42,7 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: f1f84f565326bd683b47e6e498add3100ea81c4c
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 2%
@@ -94,7 +94,7 @@ Per creare indirizzi di seed, effettua le seguenti operazioni:
 
 ### Creare modelli di indirizzi seed {#creating-seed-address-templates}
 
-Puoi creare modelli di indirizzo che possono essere importati e modificati per ogni consegna. Il processo è lo stesso utilizzato per definire un nuovo indirizzo di seed. L&#39;unica differenza consiste nel fatto che gli indirizzi dei modelli di indirizzi seed devono essere memorizzati in una cartella di tipo &quot;Modello&quot;.
+Puoi creare modelli di indirizzo che possono essere importati e modificati per ogni consegna. Il processo è lo stesso utilizzato per definire un nuovo indirizzo di seed. L’unica differenza consiste nel fatto che gli indirizzi del modello di indirizzo seed devono essere memorizzati in una cartella di tipo &quot;Modello&quot;.
 
 ### Indirizzi seed per le consegne di direct mailing {#direct-mail-seed-addresses}
 

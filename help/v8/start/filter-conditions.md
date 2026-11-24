@@ -24,10 +24,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 239f132eab6976d228c6648917c3090f14cf5088
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '3351'
-ht-degree: 48%
+source-wordcount: '3350'
+ht-degree: 47%
 ---
 # Definire le condizioni del filtro{#filter-conditions}
 
@@ -78,7 +78,7 @@ Di seguito è riportato un elenco degli operatori disponibili:
   <tr> 
    <td> <span class="uicontrol">Diverso da</span> <br /> </td> 
    <td> Restituisce tutti i valori non identici al valore immesso.<br /> </td> 
-   <td> <strong>Lingua (@language) uguale a 'Inglese'</strong>.<br /> </td> 
+   <td> <strong>Lingua (@language) non uguale a 'Inglese'</strong>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Inizia con</span> <br /> </td> 
@@ -781,7 +781,7 @@ Consente di selezionare i campi nelle tabelle del database e di aggiungere funzi
    <td> Year(&lt;data&gt;)<br /> </td>  
   </tr> 
   <tr> 
-   <td> <strong>YearAnd Month</strong><br /> </td> 
+   <td> <strong>AnnoMese</strong><br /> </td> 
    <td> Restituisce il numero che rappresenta l’anno e il mese della data<br /> </td> 
    <td> YearAndMonth(&lt;data&gt;)<br /> </td>  
   </tr> 

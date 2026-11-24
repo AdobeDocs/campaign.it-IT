@@ -37,14 +37,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1364'
 ht-degree: 4%
 ---
 # Quarantena {#quarantine-management}
 
-Adobe Campaign gestisce un elenco di indirizzi in quarantena per i canali online (e-mail, SMS, notifiche push). Alcuni provider di accesso a Internet considerano automaticamente le e-mail come spam se la percentuale di indirizzi non validi è troppo elevata. La quarantena consente quindi di evitare che questi provider aggiungano altri elementi al elenco Bloccati del sistema di protezione. Inoltre, le quarantene contribuiscono a ridurre i costi di invio degli SMS escludendo numeri di telefono errati dalle consegne.
+Adobe Campaign gestisce un elenco di indirizzi in quarantena per i canali online (e-mail, SMS, notifiche push). Alcuni provider di accesso a Internet considerano automaticamente le e-mail come spam se la percentuale di indirizzi non validi è troppo elevata. La quarantena consente quindi di evitare che questi provider aggiungano al inserisco nell&#39;elenco Bloccati di. Inoltre, le quarantene contribuiscono a ridurre i costi di invio degli SMS escludendo numeri di telefono errati dalle consegne.
 
 Quando l’indirizzo o il numero di telefono vengono messi in quarantena, i destinatari vengono esclusi dal target durante l’analisi della consegna: non potrai inviare messaggi di marketing, incluse e-mail automatizzate del flusso di lavoro, a tali contatti. Se tali indirizzi in quarantena sono presenti anche negli elenchi, verranno esclusi al momento dell’invio a tali elenchi. Un indirizzo e-mail può essere messo in quarantena, ad esempio, quando la cassetta postale è piena, se l’indirizzo non esiste o se il server e-mail non è disponibile.
 
@@ -82,7 +82,7 @@ Se un utente qualifica un’e-mail come spam, il messaggio viene automaticamente
 
 >[!NOTE]
 >
->In Adobe Campaign la quarantena distingue tra maiuscole e minuscole. Accertati di importare gli indirizzi e-mail in lettere minuscole, in modo che non vengano reindirizzate in un secondo momento.
+>In Adobe Campaign la quarantena è soggetta a distinzione maiuscole/minuscole. Accertati di importare gli indirizzi e-mail in lettere minuscole, in modo che non vengano reindirizzate in un secondo momento.
 
 ## Gestione degli errori morbidi {#soft-error-management}
 
@@ -96,7 +96,7 @@ Gli indirizzi in quarantena possono essere visualizzati per una consegna specifi
 
 ### Quarantene per una consegna{#delivery-quarantines}
 
-Gli indirizzi in quarantena vengono elencati durante la fase di preparazione della consegna, nei registri di consegna del dashboard di consegna.
+Gli indirizzi messi in quarantena vengono elencati durante la fase di preparazione della consegna, nei registri di consegna del dashboard di consegna.
 
 Per ogni consegna, è inoltre possibile controllare il report **[!UICONTROL Delivery summary]**, che mostra il numero di indirizzi in quarantena nel target della consegna e visualizza:
 

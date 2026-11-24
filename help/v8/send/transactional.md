@@ -30,9 +30,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '451'
 ht-degree: 0%
 ---
 # Introduzione alla messaggistica transazionale{#send-transactional-messages}
@@ -68,7 +68,7 @@ Di seguito sono illustrate le fasi principali per l’attuazione di questa proce
 1. [Verifica il messaggio](transactional-template.md#test-message-template).
 1. [Pubblica il modello di messaggio](transactional-template.md#publish-message-template).
 
-Dopo aver progettato e pubblicato il modello di messaggio transazionale, se viene attivato un evento corrispondente, i dati rilevanti vengono inviati a Campaign tramite i [metodi SOAP](../send/event-description.md) PushEvent e PushEvents e la consegna viene inviata ai destinatari desiderati.
+Dopo aver progettato e pubblicato il modello di messaggio transazionale, se viene attivato un evento corrispondente, i dati pertinenti vengono inviati a Campaign tramite i [metodi SOAP](../send/event-description.md) PushEvent e PushEvents e la consegna viene inviata ai destinatari desiderati.
 
 ## Creare tipi di evento {#create-event-types}
 

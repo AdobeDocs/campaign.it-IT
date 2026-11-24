@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1620'
 ht-degree: 2%
@@ -107,9 +107,9 @@ Scopri i termini specifici dell’offerta e le relative indicazioni prima di ini
   * **Ambiente di progettazione**: ambiente in cui vengono create le offerte e/o vengono definite le regole di tipologia (regole che determinano le offerte da presentare o non presentare a una persona di destinazione). In questo documento sono anche definiti la tabella delle persone target delle offerte e la tabella per l’archiviazione di tutte le proposte di offerta. Il nodo **[!UICONTROL Design environment]** contiene sottocartelle di spazio dell&#39;offerta, filtri predefiniti e categorie di offerta. Per ogni **[!UICONTROL Design environment]** esiste un **[!UICONTROL Live environment]** di sola lettura corrispondente, generato dallo stesso **[!UICONTROL Design environment]**.
   * **Ambiente live**: ambiente collegato a un **[!UICONTROL Design environment]**. Contiene offerte di sola lettura il cui contenuto e idoneità sono stati approvati tramite **[!UICONTROL Design environment]**. Possono essere visualizzati su un sito Web o inseriti in un messaggio.
 
-* **Spazio dell&#39;offerta**: cartella che definisce il percorso in cui è esposta l&#39;offerta. Quando si definisce uno spazio è possibile:
+* **Spazio dell&#39;offerta**: cartella che definisce il percorso in cui è esposta l&#39;offerta. Quando si definisce uno spazio, è possibile:
   * seleziona il canale
-  * scegli può essere utilizzato in modalità unitaria (per impostazione predefinita: solo in modalità batch)
+  * scegli se può essere utilizzato in modalità unitaria (per impostazione predefinita: solo in modalità batch)
   * creare il contenuto dell’offerta utilizzando le funzioni di rendering
   * specifica le offerte da presentare
 
@@ -117,7 +117,7 @@ Scopri i termini specifici dell’offerta e le relative indicazioni prima di ini
 
   >[!CAUTION]
   >
-  >Uno spazio dell’offerta non è un canale di comunicazione, bensì coincide con una posizione specifica dell’esposizione sul canale. Ad esempio, le offerte esposte su un sito web possono occupare due spazi sulla stessa pagina. In questo caso, sono disponibili due spazi per lo stesso canale.
+  >Uno spazio dell’offerta non è un canale di comunicazione; coincide con una posizione specifica dell’esposizione sul canale. Ad esempio, le offerte esposte su un sito web possono occupare due spazi sulla stessa pagina. In questo caso, sono disponibili due spazi per lo stesso canale.
   >
   >Gli spazi devono essere definiti nelle specifiche e non devono essere modificati durante il progetto.
 
@@ -154,7 +154,7 @@ Scopri i termini specifici dell’offerta e le relative indicazioni prima di ini
 * **Modalità di identificazione**: fa riferimento allo stato di un contatto:
 
   * **[!UICONTROL explicit]**: i contatti sono identificati dal loro accesso all&#39;interfaccia del canale.
-  * **[!UICONTROL implicit]**: il contatto è identificato da un cookie (permanente o sessione). Può essere elaborato come contatto anonimo o identificato.
+  * **[!UICONTROL implicit]**: i contatti sono identificati da un cookie (permanente o sessione). Può essere elaborato come contatto anonimo o identificato.
   * **[!UICONTROL anonymous]**: impossibile identificare i contatti.
 
 * **Offerta idonea**: offerta che soddisfa i vincoli definiti a monte e che può essere offerta in modo coerente a una destinazione.

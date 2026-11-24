@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '2947'
-ht-degree: 48%
+ht-degree: 47%
 ---
 # Best practice per la sicurezza di Campaign {#ac-security}
 
@@ -101,9 +101,9 @@ Adobe Campaign fa parte delle soluzioni Adobe Experience Cloud. Il modo in cui v
   * Le soluzioni Adobe Experience Cloud utilizzano cookie e tecnologie simili, come web beacon (noti anche come tag o pixel), per consentirti di raccogliere informazioni. Per ulteriori informazioni sui cookie e sulle funzionalità di tracciamento con Adobe Campaign, consulta [questa sezione](#tracking-capabilities).
   * Puoi anche utilizzare le tecnologie Adobe Experience Cloud nelle tue app mobili. Per ulteriori informazioni sull&#39;invio di consegne per dispositivi mobili con Campaign, consulta [Canale SMS](../send/sms/sms-channel.md) e Canale app mobile.
 
-* **Scelte degli utenti in materia di privacy relative all’utilizzo di Adobe Experience Cloud**
+* **Scelte degli utenti sulla privacy relative all&#39;utilizzo di Adobe Experience Cloud**
 
-  Adobe richiede che tu fornisca ai clienti le informative sulla privacy che descrivono:
+  Adobe ti chiede di fornire le politiche sulla privacy dei tuoi clienti che descrivono:
 
   * Le tue prassi in materia di privacy in relazione ad Adobe Experience Cloud
   * In che modo gli utenti possono impostare le proprie preferenze per la raccolta o l’utilizzo delle proprie informazioni in relazione ad Adobe Experience Cloud
@@ -292,7 +292,7 @@ Quando aggiungi collegamenti personalizzati al contenuto, evita sempre di includ
 
 È necessario assicurarsi che le password crittografate non siano accessibili da un utente autenticato con privilegi limitati. A tal fine, esistono due modi principali: limitare l’accesso solo ai campi password o all’intera entità.
 
-Questa restrizione consente di rimuovere i campi delle password, ma lascia l’account esterno accessibile dall’interfaccia per tutti gli utenti. Per ulteriori informazioni, consulta [questa pagina](../dev/restrict-pi-view.md).
+Questa restrizione ti consente di rimuovere i campi della password, ma lascia l’account esterno accessibile dall’interfaccia per tutti gli utenti. Per ulteriori informazioni, consulta [questa pagina](../dev/restrict-pi-view.md).
 
 1. Vai in **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**.
 

@@ -31,20 +31,20 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1226'
-ht-degree: 66%
+source-wordcount: '1224'
+ht-degree: 61%
 ---
 # Scoprire l’interfaccia utente {#ui-client-console}
 
-Puoi accedere ad Adobe Campaign tramite la console client o l’interfaccia utente web. Puoi anche utilizzare le API per gestire i dati ed eseguire attività nella piattaforma Campaign.
+Puoi accedere ad Adobe Campaign tramite la sua console client o la sua interfaccia utente web. Puoi anche utilizzare le API per gestire i dati ed eseguire attività nella piattaforma Campaign.
 
 * **Console client**: la console client di Campaign è un’applicazione nativa che comunica con il server applicazioni di Adobe Campaign tramite protocolli Internet standard, quali SOAP e HTTP. La console client di Campaign centralizza tutte le funzionalità e le impostazioni e richiede una larghezza di banda minima in quanto si basa su una cache locale. Progettata per una semplice implementazione, la console client di Campaign può essere distribuita da un browser Internet, può essere aggiornata automaticamente e non richiede alcuna configurazione di rete specifica perché genera solo traffico HTTP(S). [Ulteriori informazioni](#ui-access)
 
   Scopri come installare e configurare la console client di Campaign in [questa sezione](../start/connect.md).
 
-* **Accesso web**: le funzionalità di accesso web di Adobe Campaign consentono di accedere a un sottoinsieme di funzioni di Campaign con un browser web, utilizzando un’interfaccia utente HTML. Utilizza questa interfaccia web per accedere ai rapporti, verificare e convalidare i messaggi, accedere alle dashboard di monitoraggio e altro ancora.  Ulteriori informazioni sull’accesso a Campaign Web sono disponibili [in questa pagina](../start/connect.md#web-access).
+* **Accesso web** - Le funzionalità di accesso web di Adobe Campaign ti consentono di accedere a un sottoinsieme di funzionalità di Campaign con un browser web, utilizzando un’interfaccia utente di HTML. Utilizza questa interfaccia web per accedere ai rapporti, verificare e convalidare i messaggi, accedere alle dashboard di monitoraggio e altro ancora.  Ulteriori informazioni sull’accesso a Campaign Web sono disponibili [in questa pagina](../start/connect.md#web-access).
 
 * **API**: per rispondere a un numero maggiore di casi d’uso, è possibile chiamare il sistema da applicazioni esterne utilizzando le API dei servizi web esposte tramite il protocollo SOAP. Ulteriori informazioni sulle API di Campaign sono disponibili [in questa pagina](../dev/api.md).
 
@@ -103,7 +103,7 @@ Una volta connesso alla console client di Campaign, sfoglia le schede nella sezi
 
 Per ogni funzionalità, è possibile accedere al set di funzioni chiave nella sezione **[!UICONTROL Browsing]**. Il collegamento **[!UICONTROL More]** ti consente di accedere a tutti gli altri componenti.
 
-Ad esempio, durante la navigazione nella scheda **[!UICONTROL Profiles and targets]**, è possibile accedere agli elenchi dei destinatari, ai servizi di abbonamento, ai flussi di lavoro di targeting esistenti e alle scelte rapide per la creazione di tutti questi componenti.
+Ad esempio, quando si passa alla scheda **[!UICONTROL Profiles and targets]**, è possibile accedere agli elenchi dei destinatari, ai servizi di abbonamento, ai flussi di lavoro di targeting esistenti e alle scelte rapide per la creazione di tutti questi componenti.
 
 ![Interfaccia utente della console di Campaign che mostra come accedere agli elenchi dalla scheda Profili e destinazione](assets/overview-list.png)
 
@@ -120,7 +120,7 @@ Utilizza le scelte rapide nella sezione **[!UICONTROL Create]** a sinistra della
 <!--
 ## Use a web browser {#web-browser}
 
-You can also access a subset of Campaign capabilities through the a web browser.
+You can also access a subset of Campaign capabilities through a web browser.
 
 The web access interface is similar to the console interface. From a browser, you can use the same navigation and display features as in the console, but you can perform only a reduced set of actions on campaigns. For example, you can view and cancel campaigns, but you cannot modify campaigns.
 

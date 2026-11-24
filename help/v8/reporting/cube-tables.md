@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '953'
 ht-degree: 1%
@@ -114,7 +114,7 @@ Per aggiungere e configurare le misure, attieniti alla procedura seguente:
 
    ![](assets/cube-measure-button.png)
 
-1. Con il pulsante **[!UICONTROL Use a measure]**, seleziona una delle misure esistenti.
+1. Con il pulsante **[!UICONTROL Use a measure]**, selezionare una delle misure esistenti.
 
    ![](assets/cube-add-measure.png)
 
@@ -152,7 +152,7 @@ Per aggiungere e configurare le misure, attieniti alla procedura seguente:
 
 ## Creare una popolazione target {#build-a-target-population}
 
-I rapporti generati utilizzando i cubi consentono di raccogliere i dati dalla tabella e salvarli in un elenco.
+I rapporti creati utilizzando cubi consentono di raccogliere dati dalla tabella e salvarli in un elenco.
 
 Per raggruppare una popolazione in un elenco, effettua le seguenti operazioni:
 
@@ -160,7 +160,7 @@ Per raggruppare una popolazione in un elenco, effettua le seguenti operazioni:
 
    ![](assets/cube-add-to-cart.png)
 
-   A questo scopo, quante volte è necessario raccogliere vari profili
+   Esegui questa operazione tutte le volte necessarie per raccogliere vari profili.
 
 1. Fare clic sul pulsante **[!UICONTROL Show cart]** per visualizzarne il contenuto prima di eseguire l&#39;esportazione.
 

@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '501'
 ht-degree: 1%
 ---
 # Personalizzare l’istanza {#gs-ac-custom}
@@ -82,7 +82,7 @@ Caso d&#39;uso: collegare un campo a una tabella di riferimento esistente nella 
 
 ## Modificare i moduli di input
 
-I moduli di input delle campagne possono essere adattati alla tua implementazione. È possibile aggiungere o rimuovere campi modulo modificando il contenuto XML.
+I moduli di input delle campagne possono essere adattati in base alla tua implementazione. È possibile aggiungere o rimuovere campi modulo modificando il contenuto XML.
 
 Scopri come modificare un modulo di input esistente o crearne uno nuovo in [questa sezione](../dev/forms.md).
 
@@ -103,6 +103,6 @@ Quando ci si sposta nella struttura di Adobe Campaign Explorer, i dati contenuti
 
 Scopri come configurare gli elenchi e salvare una configurazione di elenchi in [questa pagina](../start/campaign-ui.md).
 
-Puoi applicare un filtro a questi elenchi per visualizzare solo i dati necessari all’operatore. Quindi è possibile eseguire le azioni sui dati filtrati. La configurazione del filtro consente di selezionare i dati da un elenco in modo dinamico. Se i dati vengono modificati, i dati filtrati vengono aggiornati.
+Puoi applicare filtri a questi elenchi per visualizzare solo i dati necessari all’operatore. Le azioni possono quindi essere eseguite sui dati filtrati. La configurazione del filtro consente di selezionare i dati da un elenco in modo dinamico. Se i dati vengono modificati, i dati filtrati vengono aggiornati.
 
 Ulteriori informazioni sulle opzioni di filtro in [questa pagina](../audiences/create-filters.md).

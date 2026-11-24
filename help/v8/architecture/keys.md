@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '581'
 ht-degree: 3%
 ---
 # Gestione delle chiavi e unicità {#key-management}
@@ -51,12 +51,12 @@ Nel contesto di una distribuzione di [Enterprise (FFDA)](enterprise-deployment.m
 
 Adobe Campaign v8 utilizza [!DNL Snowflake] come database di base. L&#39;architettura distribuita del database [!DNL Snowflake] non fornisce un meccanismo per garantire l&#39;unicità di una chiave all&#39;interno di una tabella: gli utenti finali sono responsabili della coerenza delle chiavi all&#39;interno del database Adobe Campaign.
 
-Per preservare la coerenza del database relazionale è obbligatorio evitare duplicati sulle chiavi, in particolare sulle chiavi primarie. I duplicati sulle chiavi primarie causano problemi con le attività del flusso di lavoro di gestione dati come **Query**, **Riconciliazione**, **Aggiorna dati** e altro ancora. Questo è fondamentale per definire i criteri di riconciliazione corretti durante l&#39;aggiornamento di [!DNL Snowflake] tabelle.
+Per preservare la coerenza del database relazionale è obbligatorio evitare duplicati sulle chiavi, in particolare sulle chiavi primarie. I duplicati sulle chiavi primarie causano problemi con le attività del flusso di lavoro di gestione dati come **Query**, **Riconciliazione**, **Aggiorna dati** e altro ancora. Questo è fondamentale per definire criteri di riconciliazione corretti durante l&#39;aggiornamento di [!DNL Snowflake] tabelle.
 
 
 >[!CAUTION]
 >
->Le chiavi duplicate non sono limitate agli UUID. Ciò può verificarsi in con ID di, incluse le chiavi personalizzate create in tabelle personalizzate.
+>Le chiavi duplicate non sono limitate agli UUID. Ciò può accadere con gli ID, comprese le chiavi personalizzate create nelle tabelle personalizzate.
 
 
 ## Servizio Unicity{#unicity-service}
@@ -90,7 +90,7 @@ Una notifica specifica viene inviata al gruppo di operatori **[!UICONTROL Workfl
 
 ## Guardrail aggiuntivi {#duplicates-guardrails}
 
-Campaign viene fornito con un set di nuovi guardrail per impedire l&#39;inserimento di chiavi duplicate nel database [!DNL Snowflake].
+Campaign include un set di nuovi guardrail per impedire l&#39;inserimento di chiavi duplicate nel database [!DNL Snowflake].
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ Campaign viene fornito con un set di nuovi guardrail per impedire l&#39;inserime
 
 ### Preparazione della consegna {#remove-duplicates-delivery-preparation}
 
-Adobe Campaign rimuove automaticamente qualsiasi UUID duplicato da un pubblico durante la preparazione della consegna. Questo meccanismo impedisce che si verifichino errori durante la preparazione di una consegna. In qualità di utente finale, puoi controllare queste informazioni nei registri di consegna: alcuni destinatari possono essere esclusi dal target principale a causa di una chiave duplicata. In tal caso, verrà visualizzato il seguente avviso: `Exclusion of duplicates (based on the primary key or targeted records)`.
+Adobe Campaign rimuove automaticamente qualsiasi UUID duplicato da un pubblico durante la preparazione della consegna. Questo meccanismo impedisce che si verifichino errori durante la preparazione di una consegna. In qualità di utente finale, puoi controllare queste informazioni nei registri di consegna: alcuni destinatari possono essere esclusi dal target principale a causa di chiavi duplicate. In tal caso, verrà visualizzato il seguente avviso: `Exclusion of duplicates (based on the primary key or targeted records)`.
 
 ![](assets/exclusion-duplicates-log.png)
 
@@ -110,7 +110,7 @@ Nel contesto di una distribuzione [Enterprise (FFDA)](enterprise-deployment.md),
 
 ### Eseguire una query su uno schema con duplicati {#query-with-duplicates}
 
-Quando un flusso di lavoro avvia l&#39;esecuzione di una query su uno schema, Adobe Campaign controlla se nella [tabella Controllo unicità](#unicity-wf) sono riportati record duplicati. In tal caso, il flusso di lavoro registra un avviso, poiché l’operazione successiva sui dati duplicati potrebbe influire sui risultati del flusso di lavoro.
+Quando un flusso di lavoro inizia a eseguire una query su uno schema, Adobe Campaign controlla se nella [tabella Controllo unicità](#unicity-wf) sono riportati record duplicati. In tal caso, il flusso di lavoro registra un avviso, poiché l’operazione successiva sui dati duplicati potrebbe influire sui risultati del flusso di lavoro.
 
 ![](assets/query-with-duplicates.png)
 

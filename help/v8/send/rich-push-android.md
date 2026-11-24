@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 239f132eab6976d228c6648917c3090f14cf5088
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '2043'
 ht-degree: 18%
@@ -211,7 +211,7 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 
 1. Nel menu **[!UICONTROL Color options]** immettere i codici colore esadecimali per **[!UICONTROL Title]**, **[!UICONTROL Message]** e **[!UICONTROL Background]**.
 
-1. Nel menu **[!UICONTROL Input box options]**, compila la seguente opzione:
+1. Nel menu **[!UICONTROL Input box options]**, compila le seguenti opzioni:
 
    * **[!UICONTROL Input receiver name]**: immettere il nome o l&#39;identificatore del destinatario dell&#39;input.
    * **[!UICONTROL Input text]**: immettere il testo per la **casella di input**.

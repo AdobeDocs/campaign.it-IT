@@ -26,14 +26,14 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1461'
 ht-degree: 3%
 ---
 # Definire il contenuto interattivo{#defining-interactive-content}
 
-Adobe Campaign consente di utilizzare il formato interattivo [AMP per e-mail](https://amp.dev/about/email/), che consente di inviare e-mail dinamiche, in determinate condizioni.
+Adobe Campaign consente di utilizzare il formato interattivo [AMP per e-mail](https://amp.dev/about/email/), che consente di inviare e-mail dinamiche in determinate condizioni.
 
 Con AMP per e-mail, puoi:
 * Verifica la consegna di e-mail AMP a indirizzi specifici configurati in modo appropriato.
@@ -45,7 +45,7 @@ Questa funzione è disponibile tramite un pacchetto dedicato in Adobe Campaign. 
 
 ## Informazioni su AMP per e-mail {#about-amp-for-email}
 
-Utilizza il nuovo formato **AMP per e-mail** per includere componenti AMP nei messaggi e migliorare l&#39;esperienza e-mail con un contenuto avanzato e actionable. Integrando direttamente nelle e-mail le funzionalità tipiche delle app, i destinatari possono interagire in modo dinamico con il contenuto stesso del messaggio.
+Utilizza il nuovo formato **AMP per e-mail** per includere nei messaggi i componenti AMP e migliorare l&#39;esperienza e-mail con contenuti avanzati e fruibili. Integrando direttamente nelle e-mail le funzionalità tipiche delle app, i destinatari possono interagire in modo dinamico con il contenuto stesso del messaggio.
 
 Ad esempio:
 * Le e-mail scritte con AMP possono contenere elementi interattivi come caroselli di immagini.
@@ -145,7 +145,7 @@ Quando crei il contenuto AMP in Adobe Campaign, devi soddisfare le condizioni pe
 
 Attualmente due provider di posta elettronica supportano il test di questo formato: Gmail e Mail.ru.
 
-Tutti i passaggi e le specifiche necessari per testare la consegna in formato AMP sugli account Gmail sono descritti nella documentazione per gli sviluppatori [Gmail](https://developers.google.com/gmail/ampemail?) e [Mail.ru](https://postmaster.mail.ru/amp).
+Tutti i passaggi e le specifiche necessari per testare la consegna in formato AMP sugli account Gmail sono descritti nella corrispondente documentazione per gli sviluppatori di [Gmail](https://developers.google.com/gmail/ampemail?) e [Mail.ru](https://postmaster.mail.ru/amp).
 
 In particolare, devono essere soddisfatti i seguenti requisiti:
 * Segui i requisiti di sicurezza AMP specifici per [Gmail](https://developers.google.com/gmail/ampemail/security-requirements) e [Mail.ru](https://postmaster.mail.ru/amp/#howto).

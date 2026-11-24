@@ -34,20 +34,20 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '322'
 ht-degree: 2%
 ---
 # Meccanismo di staging per le API di Campaign
 
-Nel contesto di un&#39;implementazione [Enterprise (FFDA)](enterprise-deployment.md), la generazione di chiamate unitarie non è consigliata per quanto riguarda le prestazioni (latenza e concorrenza). A meno che non si invii un volume estremamente basso, è necessario utilizzare l&#39;operazione batch **1&rbrace;.** Per migliorare le prestazioni, le API di acquisizione vengono reindirizzate al database locale.
+Nel contesto di un&#39;implementazione [Enterprise (FFDA)](enterprise-deployment.md), la generazione di chiamate unitarie non è consigliata per quanto riguarda le prestazioni (latenza e concorrenza). A meno che non si invii un volume estremamente basso, è necessario utilizzare le operazioni batch **1&rbrace;.** Per migliorare le prestazioni, le API di acquisizione vengono reindirizzate al database locale.
 
 La funzionalità di staging di Campaign è abilitata per impostazione predefinita su alcuni schemi incorporati. Possiamo anche abilitarlo su qualsiasi schema personalizzato. Meccanismo di staging in breve:
 
 * La struttura dello schema dati viene duplicata nella tabella di staging locale
 * Le nuove API dedicate all’acquisizione dei dati fluiscono direttamente nella tabella di staging locale. [Ulteriori informazioni](new-apis.md)
-* Un flusso di lavoro pianificato viene attivato ogni ora e i dati vengono sincronizzati nuovamente con il database cloud. [Ulteriori informazioni](replication.md)
+* Un flusso di lavoro pianificato viene attivato ogni ora e sincronizza nuovamente i dati con il database cloud. [Ulteriori informazioni](replication.md)
 
 Alcuni schemi incorporati sono posizionati in staging per impostazione predefinita, ad esempio nmsSubscriptionRcp, nmsAppSubscriptionRcp, nmsRecipient.
 

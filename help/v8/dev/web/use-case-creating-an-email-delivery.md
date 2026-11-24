@@ -34,16 +34,16 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '757'
 ht-degree: 1%
 ---
 # Caso d’uso: creare una consegna e-mail{#use-case-creating-an-email-delivery}
 
 
 
-In questo caso d’uso, imparerai a progettare una consegna e-mail utilizzando Adobe Campaign Digital Content Editor (DCE).
+In questo caso d’uso, scoprirai i passaggi per progettare una consegna e-mail utilizzando Adobe Campaign Digital Content Editor (DCE).
 
 Il nostro obiettivo finale è quello di creare una consegna con un modello personalizzato contenente:
 
@@ -66,11 +66,11 @@ Per creare una nuova consegna, posiziona il cursore nella scheda **Campagne** e 
 
 ## Passaggio 2: selezione di un modello {#step-2---selecting-a-template}
 
-Seleziona un modello di consegna, quindi assegna un nome alla consegna. Questo nome sarà visibile solo agli utenti della console Adobe Campaign e non ai destinatari, tuttavia questa intestazione verrà visualizzata nell’elenco delle consegne. Fai clic su **[!UICONTROL Continue]**.
+Seleziona un modello di consegna, quindi assegna un nome alla consegna. Questo nome sarà visibile solo agli utenti della console Adobe Campaign e non ai destinatari; tuttavia, questa intestazione verrà visualizzata nell’elenco delle consegne. Fai clic su **[!UICONTROL Continue]**.
 
 ![](assets/dce_delivery_model.png)
 
-## Passaggio 3: selezione di un contenuto {#step-3---selecting-a-content}
+## Passaggio 3: selezione del contenuto {#step-3---selecting-a-content}
 
 Digital Content Editor viene fornito con vari modelli pronti all’uso con strutture diverse (colonne, aree di testo, ecc.).
 
@@ -78,7 +78,7 @@ Selezionare il modello di contenuto che si desidera utilizzare, quindi fare clic
 
 ![](assets/dce_select_model.png)
 
-È inoltre possibile importare un contenuto HTML creato al di fuori di Adobe Campaign selezionando **[!UICONTROL From a file]**.
+È inoltre possibile importare contenuto HTML creato al di fuori di Adobe Campaign selezionando **[!UICONTROL From a file]**.
 
 ![](assets/dce_select_from_file_template.png)
 
