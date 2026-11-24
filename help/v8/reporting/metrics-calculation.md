@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e633414f053265108e33aa63d7b7504d307e05c3
 workflow-type: tm+mt
-source-wordcount: '3106'
+source-wordcount: '3132'
 ht-degree: 4%
 ---
 # Calcolo delle metriche di report integrato {#metrics-calculation}
@@ -933,6 +933,8 @@ Questo report è basato su **Tabelle Consegne** (nms:delivery) e **Registri di t
 L&#39;indicatore **Inviato** (@sent), a cui si accede tramite il nodo **Consegne (nms:delivery) > Indicatori**, corrisponde al numero totale di SMS inviati al provider di servizi. Questo indicatore viene utilizzato solo per le consegne SMS e non deve essere utilizzato per altri tipi di consegne (da non confondere con gli indicatori **@success** e **@processed**).
 
 ## Sincronizzazione indicatore {#indicator-synchronization}
+
+L&#39;indicatore **Elaborato** può temporaneamente superare il numero di messaggi da inviare durante l&#39;aggiornamento degli indicatori, ad esempio per le consegne con nuovi tentativi o con consegne collegate.
 
 Se per alcuni indicatori si verificano desincronizzazione o incoerenza, selezionare la consegna interessata in Adobe Campaign Explorer, fare clic con il pulsante destro del mouse e scegliere **[!UICONTROL Action>Recompute delivery and tracking indicators]**. Fare clic su **[!UICONTROL Next]**, quindi su **[!UICONTROL Finish]**.
 
