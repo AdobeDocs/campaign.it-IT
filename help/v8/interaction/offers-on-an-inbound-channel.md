@@ -24,7 +24,7 @@ feature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 709e38026d74ed707d10fc8109356289dc9f4ac9
 workflow-type: tm+mt
 source-wordcount: '2144'
 ht-degree: 1%
@@ -415,7 +415,7 @@ Per configurare questi spazi dell’offerta sulla pagina HTML del sito web, appl
 
    ![](assets/offer_inbound_fallback_example_049.png)
 
-   L&#39;URL contiene **EnvNeobankRecip**, il nome interno dell&#39;ambiente identificato.
+   L&#39;URL contiene **EnvNeobankIdnRecip**, il nome interno dell&#39;ambiente identificato.
 
 Quando apri la pagina web, lo script consente di richiamare il motore di interazione per visualizzare il contenuto delle offerte negli spazi pertinenti della pagina web. In una singola chiamata al server Adobe Campaign, il motore determina l’ambiente, lo spazio dell’offerta e le categorie da selezionare.
 

@@ -25,9 +25,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1053'
 ht-degree: 0%
 ---
 # Impostazioni dell’interfaccia utente di Campaign {#ui-settings}
@@ -86,7 +86,7 @@ La colonna viene aggiunta a destra delle colonne esistenti.
 
 Puoi anche utilizzare la schermata di configurazione dell’elenco per aggiungere e rimuovere colonne:
 
-1. Da un elenco di record, fare clic sull&#39;icona **[!UICONTROL Configure list]** nella sezione in basso a destra.
+1. In un elenco di record fare clic sull&#39;icona **[!UICONTROL Configure list]** in basso a destra.
 1. Fare doppio clic sui campi da aggiungere all&#39;elenco **[!UICONTROL Available fields]**: verranno aggiunti all&#39;elenco **[!UICONTROL Output columns]**.
 
    ![Schermata di configurazione elenco](assets/list-config-screen.png)
@@ -116,7 +116,7 @@ Se devi rimuovere una colonna, selezionala e fai clic sull&#39;icona **Elimina**
 
 Per creare una colonna, effettua le seguenti operazioni:
 
-1. Da un elenco di record, fare clic sull&#39;icona **[!UICONTROL Configure list]** nella sezione in basso a destra.
+1. In un elenco di record fare clic sull&#39;icona **[!UICONTROL Configure list]** in basso a destra.
 1. Fare clic sull&#39;icona **[!UICONTROL Add]** per visualizzare un nuovo campo nell&#39;elenco.
 1. Configura il campo da aggiungere nella colonna.
 

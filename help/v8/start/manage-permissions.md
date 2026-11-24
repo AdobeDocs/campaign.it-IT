@@ -47,7 +47,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '1733'
 ht-degree: 1%
@@ -239,7 +239,7 @@ L&#39;appartenenza ai gruppi di operatori può concedere o limitare i diritti di
 
 I diritti denominati predefiniti in Adobe Campaign sono:
 
-* **[!UICONTROL ADMINISTRATION]**: gli operatori con il diritto **[!UICONTROL ADMINISTRATION]** dispongono dell&#39;accesso completo all&#39;istanza. Gli utenti amministratori possono eseguire/creare/modificare/eliminare qualsiasi oggetto, ad esempio flusso di lavoro, consegna, script e così via. **Nota:** i profili di prodotto in Adobe Admin Console contenenti la parola &quot;admin&quot; concedono l&#39;accesso al Pannello di controllo Campaign Campaign.
+* **[!UICONTROL ADMINISTRATION]**: gli operatori con il diritto **[!UICONTROL ADMINISTRATION]** hanno accesso completo all&#39;istanza. Gli utenti amministratori possono eseguire/creare/modificare/eliminare qualsiasi oggetto, ad esempio flusso di lavoro, consegna, script e così via. **Nota:** i profili di prodotto in Adobe Admin Console contenenti la parola &quot;admin&quot; concedono l&#39;accesso al Pannello di controllo Campaign Campaign.
 
 * **[!UICONTROL APPROVAL ADMINISTRATION]**: è possibile impostare più passaggi di approvazione all&#39;interno dei flussi di lavoro e delle consegne per assicurarsi che lo stato corrente sia stato approvato da un operatore o un gruppo assegnato. Gli utenti con il diritto **[!UICONTROL APPROVAL ADMINISTRATION]** possono impostare i passaggi di approvazione e assegnare un operatore o un gruppo di operatori che deve approvare tali passaggi. **Nota:** i profili di prodotto contenenti la parola &quot;admin&quot; (ad esempio &quot;approval admin&quot;) concedono l&#39;accesso al Pannello di controllo Campaign Campaign.
 

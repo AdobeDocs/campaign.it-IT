@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '1090'
-ht-degree: 80%
+ht-degree: 78%
 ---
 # Gestire le richieste di accesso ai dati personali in Campaign {#privacy}
 
@@ -144,7 +144,7 @@ Il modello per un nome file è: `<InstanceName>-<NamespaceId>-<ReconciliationKey
 
 Durante l’esecuzione di una richiesta di eliminazione o di accesso ai dati personali, Adobe Campaign cerca tutti i dati dell’interessato in base al **[!UICONTROL Reconciliation value]** in tutte le tabelle che presentano un collegamento alla tabella dei destinatari (di tipo proprio).
 
-L’elenco delle tabelle incorporate prese in considerazione durante l’esecuzione delle richieste di accesso a dati personali è:
+L’elenco delle tabelle integrate prese in considerazione durante l’esecuzione delle richieste di accesso a dati personali è:
 
 * Destinatari (recipient)
 * Registro delle consegne ai destinatari (broadLogRcp)

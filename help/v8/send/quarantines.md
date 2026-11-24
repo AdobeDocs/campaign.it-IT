@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '1364'
+source-wordcount: '1365'
 ht-degree: 4%
 ---
 # Quarantena {#quarantine-management}
@@ -48,7 +48,7 @@ Adobe Campaign gestisce un elenco di indirizzi in quarantena per i canali online
 
 Quando l’indirizzo o il numero di telefono vengono messi in quarantena, i destinatari vengono esclusi dal target durante l’analisi della consegna: non potrai inviare messaggi di marketing, incluse e-mail automatizzate del flusso di lavoro, a tali contatti. Se tali indirizzi in quarantena sono presenti anche negli elenchi, verranno esclusi al momento dell’invio a tali elenchi. Un indirizzo e-mail può essere messo in quarantena, ad esempio, quando la cassetta postale è piena, se l’indirizzo non esiste o se il server e-mail non è disponibile.
 
-<!--For more on best practices to secure and optimize your deliveries, refer to [this page](delivery-best-practices.md).-->
+<!--For more on best practices to secure and optimize your deliveries, refer to [this page](../start/delivery-best-practices.md).-->
 
 ## Quarantena e elenco Bloccati di
 
@@ -58,7 +58,7 @@ Quando l’indirizzo o il numero di telefono vengono messi in quarantena, i dest
 >
 >Quando i destinatari segnalano il messaggio come spam o rispondono a un messaggio SMS con una parola chiave come &quot;STOP&quot;, il loro indirizzo o numero di telefono viene messo in quarantena come **[!UICONTROL Denylisted]**. Il loro profilo viene aggiornato di conseguenza.
 
-D&#39;altra parte, **profili** possono trovarsi nel **inserisco nell&#39;elenco Bloccati di** come dopo l&#39;annullamento dell&#39;abbonamento (rinuncia) per un determinato canale: ciò implica che non sono più oggetto di targeting da alcuna consegna. Di conseguenza, se un profilo nel elenco Bloccati di per il canale e-mail ha due indirizzi e-mail, entrambi gli indirizzi verranno esclusi dalla consegna. È possibile verificare se un profilo si trova nel elenco Bloccati di accesso a uno o più canali nella sezione **[!UICONTROL No longer contact]** della scheda **[!UICONTROL General]** del profilo. [Ulteriori informazioni](../audiences/view-profiles.md)
+D&#39;altra parte, **i profili** possono trovarsi nel **inserisco nell&#39;elenco Bloccati di**, ad esempio dopo l&#39;annullamento dell&#39;abbonamento (rinuncia), per un determinato canale: questo implica che non sono più oggetto di targeting da alcuna consegna. Di conseguenza, se un profilo nel elenco Bloccati di per il canale e-mail ha due indirizzi e-mail, entrambi gli indirizzi verranno esclusi dalla consegna. È possibile verificare se un profilo si trova nel elenco Bloccati di accesso a uno o più canali nella sezione **[!UICONTROL No longer contact]** della scheda **[!UICONTROL General]** del profilo. [Ulteriori informazioni](../audiences/view-profiles.md)
 
 >[!NOTE]
 >

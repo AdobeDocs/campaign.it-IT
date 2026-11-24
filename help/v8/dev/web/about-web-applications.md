@@ -40,7 +40,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 12%
@@ -112,7 +112,7 @@ Per creare e pubblicare un&#39;applicazione Web, è necessario:
    È inoltre possibile visualizzare la sezione che descrive i campi disponibili per i moduli: tutti questi campi sono disponibili anche per le applicazioni Web. Informazioni disponibili in [questa pagina](adding-fields-to-a-web-form.md).
 
 1. Se necessario, puoi aggiungere passaggi di precaricamento, test e salvataggio e configurare il sistema di controllo degli accessi (principalmente nel framework di una pubblicazione Extranet).
-1. Pubblicazione dell&#39;applicazione Web per renderla disponibile su una rete Extranet o in Adobe Campaign.
+1. Pubblica l’applicazione web per renderla disponibile su una extranet o in Adobe Campaign.
 
 ## Configurazione iniziale dell’applicazione web {#web-application-initial-configuration}
 

@@ -26,7 +26,7 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 7%
@@ -72,7 +72,7 @@ Per selezionare il pubblico della consegna, segui i passaggi seguenti:
 
    L&#39;opzione **[!UICONTROL Exclude recipients from this segment]** consente di eseguire il targeting di destinatari che non soddisfano i criteri di destinazione definiti. Per utilizzare questa opzione, seleziona la casella appropriata, quindi applica il targeting, come definito in precedenza, per escludere i profili risultanti.
 
-1. Immetti il nome del pubblico nel campo etichetta e fai clic sul pulsante **[!UICONTROL Finish]** per convalidare il pubblico.
+1. Immettere il nome del pubblico nel campo etichetta e fare clic sul pulsante **[!UICONTROL Finish]** per convalidare il pubblico.
 
    ![](assets/audience_finish.png){zoomable="yes"}
 

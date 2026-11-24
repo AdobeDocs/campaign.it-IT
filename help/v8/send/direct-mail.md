@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 8%
@@ -133,7 +133,7 @@ Esistono due modalità:
 
 ## Avviare la consegna{#start-delivery}
 
-Dopo aver convalidato il file di estrazione, fai clic su **Conferma consegna** un messaggio di conferma ti consente di avviare la consegna.
+Dopo aver convalidato il file di estrazione, fai clic su **Conferma consegna**. Un messaggio di conferma ti consente di avviare la consegna.
 
 La conferma avvia l’estrazione dei dati nel file specificato.
 

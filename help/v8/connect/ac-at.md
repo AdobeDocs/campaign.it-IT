@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '992'
 ht-degree: 0%
@@ -97,7 +97,7 @@ Puoi quindi definire i parametri dell’immagine:
 * L&#39;URL di **[!UICONTROL Default image]** è l&#39;immagine che verrà visualizzata quando non viene soddisfatta alcuna delle condizioni. Puoi anche selezionare un’immagine dalla libreria Assets.
 * **[!UICONTROL Target location]** è il nome della posizione dell&#39;offerta dinamica. Dovrai selezionare questa posizione nell’attività di Adobe Target.
 * **[!UICONTROL Landing Page]** consente di reindirizzare l&#39;immagine predefinita a una pagina di destinazione predefinita. Questo URL si applica solo quando l’immagine predefinita viene visualizzata nell’e-mail finale. È opzionale.
-* **[!UICONTROL Additional decision parameters]** definisce il mapping tra i campi definiti nei segmenti Adobe Target e i campi Adobe Campaign. I campi Adobe Campaign utilizzati devono essere stati specificati nella rawbox. Nel nostro esempio, abbiamo aggiunto il campo Paese.
+* **[!UICONTROL Additional decision parameters]** definiscono il mapping tra i campi definiti nei segmenti Adobe Target e i campi Adobe Campaign. I campi Adobe Campaign utilizzati devono essere stati specificati nella rawbox. Nel nostro esempio, abbiamo aggiunto il campo Paese.
 
 Se utilizzi le autorizzazioni Enterprise nelle impostazioni di Adobe Target, aggiungi la proprietà corrispondente in questo campo. Per ulteriori informazioni sulle autorizzazioni Enterprise per Target, consulta la [documentazione di Adobe Target](https://experienceleague.adobe.com/it/docs/target/using/administer/manage-users/enterprise/properties-overview#administer){target="_blank"}.
 

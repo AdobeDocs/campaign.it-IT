@@ -19,7 +19,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '1244'
 ht-degree: 9%
@@ -103,7 +103,7 @@ Una regola di tipologia specifica, **[!UICONTROL Wave scheduling check]**, garan
 
 ### Monitorare le ondate {#monitor-waves}
 
-Per monitorare gli invii, passa ai registri di consegna. Vedi [questa pagina](send.md)
+Per monitorare gli invii, passa ai registri di consegna. Consulta [questa pagina](send.md).
 
 È possibile visualizzare le consegne già inviate negli scaglioni elaborati (**[!UICONTROL Sent]** stato) e le consegne da inviare negli scaglioni rimanenti (**[!UICONTROL Pending]** stato).
 

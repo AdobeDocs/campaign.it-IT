@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Implementation
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 13%
@@ -73,13 +73,13 @@ Puoi collegare la tua piattaforma Adobe Campaign ai tuoi **sistemi di terze part
 Attiva i dati di gestione delle relazioni con i clienti sulla comunicazione cross-channel: scopri come trasferire i contatti dal sistema di gestione delle relazioni con i clienti ad Adobe Campaign e condividere i dati della campagna da Adobe Campaign al sistema di gestione delle relazioni con i clienti.
 I connettori di gestione delle relazioni con i clienti consentono un’integrazione rapida e semplice dei dati: Adobe Campaign fornisce un assistente dedicato per la raccolta e la selezione dalle tabelle disponibili nella gestione delle relazioni con i clienti. Ciò garantisce la sincronizzazione bidirezionale per far sì che i dati siano sempre aggiornati in tutti i sistemi.
 
-Scopri come integrare Campaign con Microsoft Dynamics 365 e Salesforce.com in [questa pagina](crm.md)
+Scopri come integrare Campaign con Microsoft Dynamics 365 e Salesforce.com in [questa pagina](crm.md).
 
 ## Connettere terze parti con Federated Data Access{#gs-fda}
 
 Utilizza il connettore FDA (Federated Data Access) per collegare Campaign a uno o più **database esterni** ed elaborare le informazioni in essi memorizzate senza influire sui dati del database cloud di Campaign.
 
-Per ulteriori informazioni, consulta [questa pagina](fda.md)
+Per ulteriori informazioni, consulta [questa pagina](fda.md).
 
 ## Utilizzare i social media{#gs-social}
 

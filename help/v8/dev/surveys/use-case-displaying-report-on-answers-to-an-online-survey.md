@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 1%
@@ -45,7 +45,7 @@ ht-degree: 1%
 
 Le risposte ai sondaggi di Adobe Campaign possono essere raccolte e analizzate utilizzando rapporti dedicati.
 
-Nell’esempio seguente, vogliamo raccogliere le risposte a un sondaggio online e visualizzarle in una tabella pivot
+Nell’esempio seguente, vogliamo raccogliere le risposte a un sondaggio online e visualizzarle in una tabella pivot.
 
 Applica i seguenti passaggi:
 

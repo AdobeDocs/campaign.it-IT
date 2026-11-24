@@ -26,10 +26,10 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 7%
+source-wordcount: '171'
+ht-degree: 8%
 ---
 # Creare la prima consegna SMS {#sms-delivery}
 
@@ -48,7 +48,7 @@ Per creare una nuova consegna SMS, segui i passaggi seguenti:
 
 1. Rinomina la consegna nel campo **[!UICONTROL Label]** e aggiungi le informazioni nel campo **[!UICONTROL Delivery code]** e nell&#39;elenco **[!UICONTROL Nature]**, se necessario, per il tracciamento. Puoi anche aggiungere **[!UICONTROL Description]** alla consegna.
 
-1. Fare clic sul pulsante **[!UICONTROL Continue]**. Ora nella consegna sono presenti tutte le impostazioni del modello.
+1. Fai clic sul pulsante **[!UICONTROL Continue]**. Ora nella consegna sono presenti tutte le impostazioni del modello.
 
 1. È possibile archiviare il pulsante **[!UICONTROL Properties]** in modo che tutto sia configurato in base alle esigenze. [Ulteriori informazioni sulla scheda SMS](sms-delivery-settings.md#sms-tab)
 

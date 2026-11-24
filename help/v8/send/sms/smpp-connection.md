@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '4458'
 ht-degree: 0%
@@ -229,7 +229,7 @@ Si consiglia di tenersi in contatto con il provider, che spesso comunica in anti
 * Verificare che la rete sia configurata correttamente in modo da consentire la connessione TCP al provider.
 * Chiedi al provider di verificare che gli indirizzi IP dell’istanza di Adobe Campaign siano consentiti correttamente (la maggior parte dei provider lo richiede).
 * Controlla le impostazioni dell’account esterno. Chiedi al provider in caso di dubbi sul valore di alcuni campi.
-* Se la connessione è riuscita ma instabile, controllare [Problemi con connessioni instabili](#unstable-connections). sezione successiva.
+* Se la connessione è riuscita ma instabile, controllare la sezione [Problemi con connessioni instabili](#unstable-connections) di seguito.
 * Se i problemi di connessione sono difficili da diagnosticare, un&#39;acquisizione di rete porterà molte informazioni. Assicurarsi che l&#39;acquisizione di rete venga eseguita contemporaneamente mentre il problema si verifica, in modo da poterlo analizzare in modo efficiente. È inoltre necessario notare l&#39;ora esatta in cui il problema si verifica, in modo che sia più facile individuarlo nelle acquisizioni di rete.
 
 #### Problemi con connessioni instabili {#unstable-connections}
