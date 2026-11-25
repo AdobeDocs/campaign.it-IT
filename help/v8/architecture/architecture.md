@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 9d4ec9f8454acd6a939221075251c265a1ffd672
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 10%
+source-wordcount: '1166'
+ht-degree: 9%
 ---
 # Introduzione all’architettura di Campaign{#gs-ac-archi}
 
@@ -51,7 +51,7 @@ Sono disponibili due tipi di ambienti:
 
 Puoi esportare e importare pacchetti da un ambiente a un altro.
 
-Ulteriori informazioni sui pacchetti nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html?lang=it){target="_blank"}
+Ulteriori informazioni sui pacchetti nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html){target="_blank"}
 
 ## Modelli di distribuzione {#ac-deployment}
 
@@ -62,7 +62,7 @@ Sono disponibili due modelli di distribuzione: **Distribuzione FDA campagna** (P
 Nella distribuzione [FDA](fda-deployment.md), [!DNL Adobe Campaign] v8 può essere connesso a [!DNL Snowflake] per accedere ai dati tramite la funzionalità Federated Data Access: è possibile accedere ed elaborare dati e informazioni esterni archiviati nel database [!DNL Snowflake] senza modificare la struttura dei dati di Adobe Campaign. PostgreSQL è il database principale e puoi utilizzare Snowflake come database secondario per estendere il modello di dati e archiviare i dati in Snowflake. Successivamente, puoi eseguire ETL, segmentazione e rapporti su un set di dati di grandi dimensioni con prestazioni eccezionali.
 
 
-![](assets/P1-P3-architecture.png){zoomable="yes"}
+![Architettura FDA di Campaign v8: server applicazioni, database Postgres e Snowflake, server di consegna in tempo reale e in batch](assets/P1-P3-architecture.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -75,7 +75,7 @@ Nel contesto di una distribuzione di [Enterprise (FFDA)](enterprise-deployment.m
 
 Campaign v8 Enterprise introduce il concetto di **Full Federated Data Access** (FFDA): adesso tutti i dati sono remoti, nel database cloud. Con questa nuova architettura, l’implementazione di Campaign v8 Enterprise (FFDA) semplifica la gestione dei dati, in quanto nel database cloud non è richiesto alcun indice. È sufficiente creare le tabelle, copiare i dati e iniziare. La tecnologia del database Cloud non richiede una manutenzione specifica per garantire le prestazioni del servizio.
 
-![](assets/P4-architecture.png){zoomable="yes"}
+![Architettura FFDA di Campaign v8: server applicazioni, database cloud con Snowflake, replica Postgres, server di consegna](assets/P4-architecture.png){zoomable="yes"}
 
 
 ## Esecuzione della consegna divisa {#split}
@@ -97,7 +97,7 @@ A questo scopo, vengono creati account esterni aggiuntivi con la modalità di ro
 * Consegna divisa - iOS (splitDeliveryIOS)
 * Consegna separata - Android (splitDeliveryAndroid)
 
-![](assets/splitted-delivery.png)
+![Consegna divisa account esterno - E-mail: tipo di indirizzamento, canale e-mail, modalità di consegna mid-sourcing, nome splitDeliveryEmail](assets/splitted-delivery.png)
 
 >[!IMPORTANT]
 >
@@ -109,11 +109,11 @@ Per impostare gli account esterni suddivisi come account predefinito per l’inv
 
 1. Passare alla cartella **[!UICONTROL Resources]** / **[!UICONTROL Templates]** / **[!UICONTROL Delivery templates]** e aprire il modello di consegna desiderato. In questo esempio, desideri modificare il modello di consegna e-mail.
 
-   ![](assets/split-default-list.png)
+   ![Elenco dei modelli di consegna in Risorse, Modelli, con il modello di consegna e-mail selezionato](assets/split-default-list.png)
 
 1. Fare clic sul pulsante **[!UICONTROL Properties]** e cambiare il provider di routing con l&#39;account esterno di consegna divisa corrispondente.
 
-   ![](assets/split-default-delivery.png)
+   ![Finestra di dialogo delle proprietà di consegna con il campo Indirizzamento e l&#39;elenco degli account esterni che mostra SplitEmail](assets/split-default-delivery.png)
 
 1. Salva le modifiche. Tutte le consegne inviate utilizzando il modello ora utilizzano la modalità di routing diviso per impostazione predefinita.
 
@@ -127,7 +127,7 @@ In addition, you can select split external accounts as the default routing provi
 
 La messaggistica transazionale (Message Center) è il modulo di Campaign progettato per la gestione dei messaggi di attivazione.
 
-Scopri come inviare messaggi transazionali in [questa sezione](../send/transactional.md).
+Scopri come inviare messaggi transazionali in [Campaign Messaging transazionale](../send/transactional.md).
 
 In risposta a un’azione di un cliente su un sito web, un evento viene inviato a Campaign tramite un’API REST, il modello del messaggio viene compilato con le informazioni o i dati forniti tramite la chiamata API e un messaggio transazionale viene inviato in tempo reale al cliente. Questi messaggi possono essere inviati singolarmente o in batch tramite e-mail, SMS o notifiche push.
 
@@ -135,7 +135,7 @@ In questa architettura specifica, la cella di esecuzione è separata dall’ista
 
 * L&#39;**istanza di controllo** (o istanza di marketing) viene utilizzata dagli addetti al marketing e dai team IT per creare, configurare e pubblicare modelli di messaggio. Questa istanza centralizza anche il monitoraggio e la cronologia degli eventi.
 
-  Scopri come creare e pubblicare modelli di messaggio in [questa sezione](../send/transactional.md).
+  Scopri come creare e pubblicare modelli di messaggi in [Messaggistica transazionale di Campaign](../send/transactional.md).
 
 * L&#39;**istanza di esecuzione** recupera gli eventi in arrivo (reimpostazione password o ordini da un sito Web, ad esempio) e invia messaggi personalizzati. Possono essere presenti più istanze di esecuzione per elaborare i messaggi tramite il load balancer e scalare il numero di eventi da elaborare per ottenere la massima disponibilità.
 
@@ -143,7 +143,7 @@ In questa architettura specifica, la cella di esecuzione è separata dall’ista
 >
 >L&#39;istanza di controllo e le istanze di esecuzione devono essere installate su computer diversi. Non possono condividere la stessa istanza di Campaign.
 
-![](assets/messagecenter_diagram.png)
+![Centro messaggi: gli eventi del sito Web raggiungono l&#39;istanza di controllo P e le istanze di esecuzione E1 a EN, che inviano messaggi](assets/messagecenter_diagram.png)
 
 ### Autenticazione
 
@@ -156,4 +156,4 @@ Quindi, con il sessionToken fornito dall’istanza di esecuzione in risposta all
 * Più istanze di esecuzione
 In un’architettura di esecuzione a più celle con più istanze di esecuzione dietro un load balancer, il metodo di accesso richiamato dall’applicazione esterna passa attraverso il load balancer: per questo motivo, non è possibile utilizzare un’autenticazione basata su token. È necessaria un&#39;autenticazione basata su utente/password.
 
-Ulteriori informazioni sugli eventi di messaggistica transazionale in [questa pagina](../send/event-processing.md).
+Ulteriori informazioni sugli eventi di messaggistica transazionale in [Raccogliere ed elaborare eventi](../send/event-processing.md).

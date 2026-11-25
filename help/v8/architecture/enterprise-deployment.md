@@ -42,10 +42,10 @@ topic_v2:
     internal-label: Reporting
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 9d4ec9f8454acd6a939221075251c265a1ffd672
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 44%
+source-wordcount: '1093'
+ht-degree: 42%
 ---
 # Distribuzione FFDA [!DNL Campaign] {#gs-ac-ffda}
 
@@ -76,11 +76,11 @@ In una distribuzione di [Enterprise (FFDA)](../architecture/enterprise-deploymen
 
 Campaign v8 Enterprise introduce il concetto di **Full Federated Data Access** (FFDA): adesso tutti i dati sono remoti, nel database cloud.
 
-Sono disponibili API specifiche per la gestione dei dati tra il database locale e quello cloud. Per scoprire come funzionano queste nuove API e come utilizzarle, visita [questa pagina](new-apis.md).
+Sono disponibili API specifiche per la gestione dei dati tra il database locale e quello cloud. Scopri come funzionano queste nuove API e come utilizzarle nelle [nuove API di Campaign v8](new-apis.md).
 
 La comunicazione generale tra server e processi viene eseguita in base allo schema seguente:
 
-![](assets/architecture.png)
+![Istanza di marketing con Snowflake e PgSQL, Centro messaggi e istanze Mid Sourcing, consumer, tracciamento, passaggi da 1 a 4](assets/architecture.png)
 
 * I moduli di esecuzione e gestione dei mancati recapiti sono disabilitati nell’istanza.
 * L’applicazione è configurata per eseguire l’esecuzione dei messaggi su un server remoto di &quot;mid-sourcing&quot; guidato tramite chiamate SOAP (su HTTP o HTTPS).

@@ -50,9 +50,9 @@ topic_v2:
     internal-label: Personalization
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 9d4ec9f8454acd6a939221075251c265a1ffd672
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1180'
 ht-degree: 7%
 ---
 # Architettura generale{#general-architecture}
@@ -128,7 +128,7 @@ Nella distribuzione di [Enterprise (FFDA)](enterprise-deployment.md), il databas
 
 Puoi distribuire Adobe Campaign utilizzando il database e gli schemi predefiniti e, se necessario, estendere questo ambiente predefinito. Adobe Campaign accede a tutti i dati all’interno del data mart tramite chiamate SQL. Adobe Campaign fornisce inoltre una serie completa di strumenti ETL (Extract Transform and Load) per eseguire l’importazione e l’esportazione dei dati all’interno e all’esterno del sistema.
 
-![](assets/data-flow-diagram.png)
+![Traffico tra computer client, server frontali con rilevamento e MTA, server applicazioni, database, cassetta postale di mancato recapito](assets/data-flow-diagram.png)
 
 
 >[!CAUTION]
@@ -141,4 +141,4 @@ Puoi distribuire Adobe Campaign utilizzando il database e gli schemi predefiniti
 
 Lo spazio di archiviazione totale è suddiviso tra il database principale e il database secondario (facoltativo) di Snowflake. La posizione in cui vengono memorizzati i dati deve essere determinata al momento dell’implementazione o dell’aggiornamento, in base ai casi d’uso specifici per il cliente.
 
-Scopri come monitorare l’utilizzo del database nella [documentazione del Pannello di controllo Campaign Campaign](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html?lang=it){target="_blank"}.
+Scopri come monitorare l’utilizzo del database nella [documentazione del Pannello di controllo Campaign Campaign](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html){target="_blank"}.

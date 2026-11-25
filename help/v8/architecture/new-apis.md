@@ -24,10 +24,10 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 9d4ec9f8454acd6a939221075251c265a1ffd672
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 4%
+source-wordcount: '492'
+ht-degree: 3%
 ---
 # API specifiche per campagne FFDA{#gs-new-api}
 
@@ -53,7 +53,7 @@ L&#39;API **xtk.session.ingest** è dedicata solo a Data Insert. Nessun aggiorna
 
 Utilizza il seguente codice in un&#39;attività **Codice JavaScript** per inserire dati nel database Cloud senza riconciliazione:
 
-```
+```javascript
 var xmlStagingSampleTable = <sampleTableStg
                                 testcol1="testValue1"
                                 testcol2="testValue2"
@@ -70,7 +70,7 @@ Una volta eseguito il flusso di lavoro, la tabella di staging viene alimentata c
 1. Ottieni il token di autenticazione.
 1. Attiva l’API. Il payload è:
 
-   ```
+   ```xml
    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:xtk:session">
    <soapenv:Header/>
    <soapenv:Body>
@@ -90,7 +90,7 @@ Una volta eseguito il flusso di lavoro, la tabella di staging viene alimentata c
 
 1. L’UUID viene rimandato nella risposta di SOAP:
 
-   ```
+   ```xml
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
    <SOAP-ENV:Body>
        <IngestResponse SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns="urn:wpp:default">
@@ -102,7 +102,7 @@ Una volta eseguito il flusso di lavoro, la tabella di staging viene alimentata c
 
 Di conseguenza, la tabella di staging viene alimentata come previsto.
 
-![](assets/no-reconciliation.png)
+![Contenuto della tabella di esempio dello schema di gestione temporanea (gestione temporanea) che elenca quattro record con valori Test Col 1 e Test Col 2](assets/no-reconciliation.png)
 
 ### Inserisci con riconciliazione
 
@@ -110,7 +110,7 @@ Di conseguenza, la tabella di staging viene alimentata come previsto.
 
 Utilizza il seguente codice in un&#39;attività **Codice JavaScript** per inserire dati nel database cloud con la riconciliazione:
 
-```
+```javascript
 var xmlStagingSampleTable = <sampleTableStg  _key="@id" id="ABC12345"
                               testcol1="testValue1"
                               testcol2="testValue2"
@@ -122,7 +122,7 @@ logInfo(strUuid);
 
 Una volta eseguito il flusso di lavoro, la tabella di staging viene alimentata come previsto.
 
-![](assets/with-reconciliation.png)
+![Contenuto della tabella di esempio dello schema di gestione temporanea (gestione temporanea) che ora elenca sei record, inclusi ABC12345 e ABDCD321](assets/with-reconciliation.png)
 
 
 **Da una chiamata SOAP**
@@ -130,7 +130,7 @@ Una volta eseguito il flusso di lavoro, la tabella di staging viene alimentata c
 1. Ottieni il token di autenticazione.
 1. Attiva l’API. Il payload è:
 
-   ```
+   ```xml
    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:xtk:session">
    <soapenv:Header/>
    <soapenv:Body>
@@ -150,7 +150,7 @@ Una volta eseguito il flusso di lavoro, la tabella di staging viene alimentata c
 
 1. In questo caso, l’UUID non viene fornito nuovamente alla risposta perché è stato fornito nel payload. La risposta è:
 
-   ```
+   ```xml
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
    <SOAP-ENV:Body>
        <IngestResponse SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns="urn:wpp:default">
@@ -172,7 +172,7 @@ L&#39;API **xtk.session.IngestExt** è ottimizzata per l&#39;aggiornamento/elimi
 
 Utilizza il seguente codice in un&#39;attività **Codice JavaScript** per aggiornare i dati nel database cloud:
 
-```
+```javascript
 var xmlStagingRecipient = <sampleTableStg  _key="@id" id="ABC12345"
                               testcol1="testValue A (updated)"
                               testcol2="testValue B (updated)"
@@ -183,14 +183,14 @@ xtk.session.IngestExt(xmlStagingRecipient);
 
 Una volta eseguito il flusso di lavoro, la tabella di staging viene aggiornata come previsto.
 
-![](assets/updated-data.png)
+![Contenuto della tabella di gestione temporanea in cui il record ABC12345 ora mostra testValue A (aggiornato) e testValue B (aggiornato)](assets/updated-data.png)
 
 **Da una chiamata SOAP**
 
 1. Ottieni il token di autenticazione.
 1. Attiva l’API. Il payload è:
 
-   ```
+   ```xml
    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:xtk:session">
    <soapenv:Header/>
    <soapenv:Body>
@@ -210,7 +210,7 @@ Una volta eseguito il flusso di lavoro, la tabella di staging viene aggiornata c
 
 1. La risposta di SOAP è:
 
-   ```
+   ```xml
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
    <SOAP-ENV:Body>
        <IngestExtResponse SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns="urn:wpp:default"/>
@@ -222,7 +222,7 @@ Di conseguenza, la tabella di staging viene aggiornata come previsto.
 
 ## Gestione iscrizione {#sub-apis}
 
-La gestione degli abbonamenti in Campaign è descritta in [questa pagina](../start/subscriptions.md).
+La gestione degli abbonamenti in Campaign è descritta in [Gestire gli abbonamenti e il loro annullamento in Campaign](../start/subscriptions.md).
 
 L&#39;inserimento dei dati di sottoscrizione e annullamento dell&#39;abbonamento si basa sul [meccanismo di gestione temporanea](staging.md) nel database locale di Campaign. Le informazioni del sottoscrittore vengono temporaneamente memorizzate nelle tabelle intermedie nel database locale e il flusso di lavoro di sincronizzazione invia tali dati dal database locale al database cloud. Di conseguenza, i processi di sottoscrizione e annullamento dell&#39;abbonamento sono **asincroni**. Le richieste di consenso e rinuncia vengono elaborate ogni ora tramite un flusso di lavoro tecnico specifico. [Ulteriori informazioni](replication.md#workflows)
 

@@ -34,14 +34,14 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 9d4ec9f8454acd6a939221075251c265a1ffd672
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '345'
 ht-degree: 2%
 ---
 # Meccanismo di staging per le API di Campaign
 
-Nel contesto di un&#39;implementazione [Enterprise (FFDA)](enterprise-deployment.md), la generazione di chiamate unitarie non è consigliata per quanto riguarda le prestazioni (latenza e concorrenza). A meno che non si invii un volume estremamente basso, è necessario utilizzare le operazioni batch **1&rbrace;.** Per migliorare le prestazioni, le API di acquisizione vengono reindirizzate al database locale.
+Nel contesto di un&#39;implementazione [Enterprise (FFDA)](enterprise-deployment.md), la generazione di chiamate unitarie non è consigliata per quanto riguarda le prestazioni (latenza e concorrenza). A meno che non si invii un volume estremamente basso, è necessario utilizzare le operazioni batch **1}.** Per migliorare le prestazioni, le API di acquisizione vengono reindirizzate al database locale.
 
 La funzionalità di staging di Campaign è abilitata per impostazione predefinita su alcuni schemi incorporati. Possiamo anche abilitarlo su qualsiasi schema personalizzato. Meccanismo di staging in breve:
 
@@ -66,7 +66,7 @@ Per implementare il meccanismo di staging di Campaign su una tabella specifica, 
 
 1. Crea uno schema personalizzato di esempio nel database Campaign Cloud. Nessuna gestione temporanea abilitata in questo passaggio.
 
-   ```
+   ```xml
    <srcSchema _cs="Sample Table (dem)" created="YYYY-DD-MM"
            entitySchema="xtk:srcSchema" img="xtk:schema.png" label="Sample Table"
            lastModified="YYYY-DD-MM HH:MM:SS.TZ" mappingType="sql" md5="XXX"
@@ -79,13 +79,13 @@ Per implementare il meccanismo di staging di Campaign su una tabella specifica, 
    </srcSchema>
    ```
 
-   Ulteriori informazioni sulla creazione di schemi personalizzati in [questa pagina](../dev/create-schema.md).
+   Ulteriori informazioni sulla creazione di schemi personalizzati in [Creare un nuovo schema in Campaign](../dev/create-schema.md).
 
 1. Salva e aggiorna la struttura del database.  [Ulteriori informazioni](../dev/update-database-structure.md)
 
 1. Abilita il meccanismo di staging nella definizione dello schema aggiungendo il parametro **autoStg=&quot;true&quot;**.
 
-   ```
+   ```xml
    <srcSchema _cs="Sample Table (dem)" "YYYY-DD-MM"
            entitySchema="xtk:srcSchema" img="xtk:schema.png" label="Sample Table"
            lastModified="YYYY-DD-MM HH:MM:SS.TZ" mappingType="sql" md5="XXX"
@@ -100,6 +100,6 @@ Per implementare il meccanismo di staging di Campaign su una tabella specifica, 
 
 1. Salva la modifica. È disponibile un nuovo schema di staging, ovvero una copia locale dello schema iniziale.
 
-   ![](assets/staging-mechanism.png)
+   ![Origine XML dello schema di gestione temporanea generato dem:sampleTableStg per la tabella di esempio (gestione temporanea), una copia locale dello schema iniziale](assets/staging-mechanism.png)
 
 1. Aggiornare la struttura del database. La tabella di staging verrà creata nel database locale di Campaign.
