@@ -17,10 +17,10 @@ feature_v2:
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 4%
+source-wordcount: '210'
+ht-degree: 3%
 ---
 # Test{#test}
 
@@ -30,11 +30,11 @@ Un&#39;attività di tipo **Test** attiva la prima transizione che soddisfa la co
 
 Una condizione è un’espressione JavaScript che deve essere valutata come &quot;true&quot; o &quot;false&quot;. Per immettere l&#39;espressione, fare clic sull&#39;icona a destra del nome della condizione, quindi selezionare **[!UICONTROL Edit...]**.
 
-![](assets/edit_test.png)
+![Tabella Condizioni attività di test con il menu di personalizzazione aperto nell&#39;opzione Modifica e la casella Usa connessione predefinita](assets/edit_test.png)
 
 Per ulteriori informazioni su tutte le funzioni JavaScript aggiuntive e i metodi SOAP del server applicativo accessibili tramite JavaScript del flusso di lavoro, fare riferimento alla [documentazione JSAPI](https://experienceleague.adobe.com/it/tools/campaign-api){target="_blank"}.
 
-Puoi anche inserire le variabili direttamente da questo editor. Per ulteriori informazioni su come utilizzare le variabili, consulta [questa sezione](javascript-scripts-and-templates.md#variables).
+Puoi anche inserire le variabili direttamente da questo editor. Per ulteriori informazioni su come utilizzare le variabili, consulta [Variabili](javascript-scripts-and-templates.md#variables).
 
 Le condizioni possono essere aggiunte, eliminate o ordinate dalla finestra di modifica delle proprietà dell’attività, ma possono anche essere modificate dalla transizione.
 

@@ -21,9 +21,9 @@ subfeature_v2:
     internal-label: Targeting Activity
   - id: 2454f09c-f028-5647-8fef-1e986ec2d4e5
     internal-label: Subscription Services Activity
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '430'
 ht-degree: 1%
 ---
 # Servizi di iscrizione{#subscription-services}
@@ -34,7 +34,7 @@ Un&#39;attività di tipo **Subscription services** consente di creare o eliminar
 
 Per configurarla, modifica l’attività e immetti la relativa etichetta, quindi seleziona l’azione da eseguire (Abbonamento o Annullamento dell’abbonamento) e il servizio interessato, come nell’esempio seguente:
 
-![](assets/edit_service_inscription.png)
+![Attività dei servizi di abbonamento con registrazione o annullamento dell&#39;abbonamento, opzione del messaggio di conferma ed elenco dei servizi](assets/edit_service_inscription.png)
 
 1. Inserisci l’etichetta dell’attività.
 1. Selezionare **[!UICONTROL Generate an outbound transition]** se si desidera creare una transizione alla fine dell&#39;esecuzione.
@@ -56,7 +56,7 @@ A questo scopo, devi escludere anche i destinatari che si sono già abbonati.
 >
 >Prima di abbonare manualmente i destinatari a un servizio, verifica che accettino di ricevere comunicazioni da te.
 
-![](assets/subscription_services_example.png)
+![Tre query generano un&#39;intersezione, quindi un aggiornamento elenco e un&#39;attività Subscription Services](assets/subscription_services_example.png)
 
 1. Aggiungi le tre query seguenti:
 

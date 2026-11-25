@@ -24,9 +24,9 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '559'
 ht-degree: 0%
 ---
 # Raccolta file{#file-collector}
@@ -43,7 +43,7 @@ I file devono trovarsi nel server in cui viene eseguito il modulo wfserver respo
 
 La prima scheda dell&#39;attività **[!UICONTROL File collector]** consente di selezionare la directory di origine e, se necessario, di filtrare i file raccolti. Le altre schede sono dettagliate in [E-mail in entrata](inbound-emails.md) (**[!UICONTROL Schedule]** e **[!UICONTROL Expiry]** schede).
 
-![](assets/file_collect_edit.png)
+![Scheda Directory dell&#39;agente di raccolta file con Directory, Filtro e Interrompi non appena un file è stato elaborato, opzioni](assets/file_collect_edit.png)
 
 1. **Download dei file** in corso
 
@@ -89,7 +89,7 @@ La prima scheda dell&#39;attività **[!UICONTROL File collector]** consente di s
 
 Impossibile determinare l&#39;ordine di elaborazione dei file. Per elaborare un set di file in sequenza, utilizzare l&#39;opzione **[!UICONTROL Stop as soon as a file has been processed]** e creare un ciclo continuo. In questo caso, i file verranno elaborati in ordine alfabetico. L&#39;opzione **[!UICONTROL Process file nonexistence]** consente di completare l&#39;iterazione.
 
-![](assets/file_collect_loop.png)
+![Ciclo continuo del flusso di lavoro dall&#39;importazione all&#39;agente di raccolta file, con un&#39;attività di avviso nella transizione Nessun file](assets/file_collect_loop.png)
 
 ## Parametri di output {#output-parameters}
 

@@ -23,9 +23,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '382'
 ht-degree: 1%
 ---
 # E-mail in entrata{#inbound-emails}
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 L&#39;attività **Inbound emails** ti consente di scaricare ed elaborare messaggi di posta elettronica da un server di posta POP3.
 
-![](assets/email_rec_edit_1.png)
+![Finestra di dialogo attività e-mail in entrata con il server POP3, l&#39;account esterno e i campi di script](assets/email_rec_edit_1.png)
 
 La prima scheda dell&#39;attività **Posta in arrivo** consente di immettere i parametri del server POP3 e di immettere lo script da eseguire al ricevimento di ogni messaggio. La seconda scheda ti consente di assegnare una pianificazione all’attività e la terza scheda definisce le condizioni di scadenza dell’attività.
 
@@ -46,7 +46,7 @@ La prima scheda dell&#39;attività **Posta in arrivo** consente di immettere i p
 
      Se questa opzione non è selezionata, è necessario specificare i seguenti parametri:
 
-     ![](assets/email_rec_edit_1b.png)
+     ![Sezione del server POP3 con i campi del server POP3, dell&#39;account POP3, della password e della porta](assets/email_rec_edit_1b.png)
 
      * **[!UICONTROL POP3 server]**
 
@@ -91,6 +91,6 @@ La prima scheda dell&#39;attività **Posta in arrivo** consente di immettere i p
 
    È possibile definire i ritardi di scadenza tramite la scheda **[!UICONTROL Expiration]**.
 
-   ![](assets/email_rec_edit_3.png)
+   ![Scheda Scadenza e-mail in entrata con l&#39;elenco Tipo di scadenza che mostra le opzioni di ritardo e scadenza](assets/email_rec_edit_3.png)
 
    La configurazione è la stessa dell’attività di pianificazione. Consulta [Scadenze](define-approvals.md).

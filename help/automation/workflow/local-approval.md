@@ -28,16 +28,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 3%
+source-wordcount: '822'
+ht-degree: 2%
 ---
 # Approvazione locale{#local-approval}
 
 Se integrata in un flusso di lavoro di targeting, l&#39;attività **[!UICONTROL Local approval]** ti consente di impostare un processo di approvazione del destinatario prima che la consegna venga inviata.
 
-![](assets/local_validation_0.png)
+![Attività di approvazione locale con azione di notifica di approvazione di Target, gestione dell&#39;approvazione e opzione Genera complemento.](assets/local_validation_0.png)
 
 >[!CAUTION]
 >
@@ -47,23 +47,23 @@ Per un esempio dell&#39;attività **[!UICONTROL Local approval]** con un modello
 
 Per iniziare, immetti un&#39;etichetta per l&#39;attività e il campo **[!UICONTROL Action to execute]**:
 
-![](assets/local_validation_1.png)
+![Etichetta dell&#39;attività di approvazione locale e azione da eseguire: notifica di approvazione di destinazione o rapporto del feedback di consegna.](assets/local_validation_1.png)
 
 * Selezionare l&#39;opzione **[!UICONTROL Target approval notification]** per inviare un&#39;e-mail di notifica ai supervisori locali prima della consegna, chiedendo l&#39;approvazione dei destinatari assegnati.
 
 * **Query incrementale**: consente di eseguire una query e pianificarne l&#39;esecuzione. Consulta la sezione [Incremental query](incremental-query.md).
 
-  ![](assets/local_validation_intro_3.png)
+  ![Pagina Web di convalida locale con un elenco dei destinatari del feedback di consegna suddivisi per genere e relativo stato: inviato, aperto, selezionato](assets/local_validation_intro_3.png)
 
 ## Notifica per approvazione target {#target-approval-notification}
 
 In questo caso, l&#39;attività **[!UICONTROL Local approval]** viene inserita tra il targeting a monte e la consegna:
 
-![](assets/local_validation_2.png)
+![Flusso di lavoro con l&#39;attività di convalida locale inserita tra la query 1 e la consegna.](assets/local_validation_2.png)
 
 I campi da inserire in caso di notifica per l’approvazione del target sono:
 
-![](assets/local_validation_3.png)
+![Campi di approvazione locali per una notifica di approvazione target: contesto di distribuzione, tipo di approvazione, modello, promemoria.](assets/local_validation_3.png)
 
 * **[!UICONTROL Distribution context]**: selezionare l&#39;opzione **[!UICONTROL Specified in the transition]** se si utilizza un&#39;attività di tipo **[!UICONTROL Split]** per limitare la popolazione di destinazione. In questo caso, il modello di distribuzione viene inserito nell’attività di suddivisione. Se non si desidera limitare la popolazione di destinazione, selezionare l&#39;opzione **[!UICONTROL Explicit]** e immettere il modello di distribuzione nel campo **[!UICONTROL Data distribution]**.
 
@@ -90,11 +90,11 @@ I campi da inserire in caso di notifica per l’approvazione del target sono:
 
 In questo caso, l&#39;attività **[!UICONTROL Local approval]** viene inserita dopo la consegna:
 
-![](assets/local_validation_4.png)
+![Flusso di lavoro con un&#39;attività Attendi e Convalida locale 2 inserita dopo l&#39;attività Consegna.](assets/local_validation_4.png)
 
 Nel caso di un rapporto sul feedback della consegna, è necessario inserire i campi seguenti:
 
-![](assets/local_validation_workflow_4.png)
+![Approvazione locale impostata sul report del feedback della consegna, con l&#39;opzione Specificato nella transizione e il modello.](assets/local_validation_workflow_4.png)
 
 * Seleziona l&#39;opzione **[!UICONTROL Specified in the transition]** se la consegna è stata immessa durante un&#39;attività precedente. Selezionare **[!UICONTROL Explicit]** per specificare la consegna nell&#39;attività di approvazione locale.
 * Seleziona il modello di consegna e l’oggetto dell’e-mail di notifica. Modello predefinito: **[!UICONTROL Local approval notification]**.
@@ -111,22 +111,22 @@ Un operatore può approvare una consegna in uno dei due modi seguenti: utilizzan
 
   Per approvare la consegna, fai clic sul collegamento pertinente e accedi alla console client di Adobe Campaign.
 
-  ![](assets/new-workflow-valid-webaccess.png)
+  ![E-mail di richiesta di approvazione con la richiesta di approvazione dei 574 destinatari, con un collegamento Fai clic qui per rispondere.](assets/new-workflow-valid-webaccess.png)
 
   Scegliere e fare clic sul pulsante **[!UICONTROL Submit]**.
 
-  ![](assets/new-workflow-valid-webaccess-confirm.png)
+  ![Pagina Web di approvazione con un campo Note, la scelta Sì e No e il pulsante Invia.](assets/new-workflow-valid-webaccess-confirm.png)
 
 * Approvazione tramite la console client
 
   Nella struttura ad albero, il nodo **[!UICONTROL Administration > Production > Objects created automatically > Approvals pending]** contiene l&#39;elenco delle attività che devono essere approvate dall&#39;operatore attualmente connesso. L’elenco deve visualizzare una riga. Fare doppio clic su questa riga per rispondere. Viene visualizzata la seguente finestra:
 
-![](assets/new-workflow-7.png)
+![Approvazioni in sospeso nodo nella console client e nella finestra Approvazione attività con Sì selezionato e il pulsante Approva.](assets/new-workflow-7.png)
 
 Seleziona **Sì**, quindi fai clic su **[!UICONTROL Approve]**. Viene visualizzato un messaggio per informare che la risposta è stata registrata.
 
 Torna alla schermata del flusso di lavoro: dopo circa dieci secondi, il diagramma viene visualizzato come segue:
 
-![](assets/new-workflow-8.png)
+![Diagramma del flusso di lavoro dopo l&#39;approvazione: Consegna, Approvazione, Controllo della consegna e Fine, con il ramo Sì seguito.](assets/new-workflow-8.png)
 
 Il flusso di lavoro ha eseguito l&#39;attività **[!UICONTROL Delivery control]**, che in questo caso significa avviare la consegna creata in precedenza. Il flusso di lavoro è stato completato senza errori.

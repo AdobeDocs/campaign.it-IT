@@ -26,9 +26,9 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '1067'
 ht-degree: 0%
 ---
 # Arricchire i dati{#enriching-data}
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 Questo caso d&#39;uso descrive i possibili utilizzi dell&#39;attività **[!UICONTROL Enrichment]** in un flusso di lavoro di targeting. Per ulteriori informazioni sull&#39;utilizzo dell&#39;attività **[!UICONTROL Enrichment]**, vedere: [Arricchimento](enrichment.md).
 
-Un caso d&#39;uso su come arricchire una consegna e-mail con date personalizzate è disponibile anche in [questa sezione](email-enrichment-with-custom-date-fields.md).
+Un caso d&#39;uso su come arricchire una consegna e-mail con date personalizzate è disponibile anche in [Arricchimento e-mail con campi data personalizzati](email-enrichment-with-custom-date-fields.md).
 
 I contatti della banca dati di marketing ricevono un invito a partecipare a un concorso tramite un’applicazione web. I risultati della concorrenza vengono recuperati nella tabella **[!UICONTROL Competition results]**. Tabella collegata alla tabella dei contatti (**[!UICONTROL Recipients]**). La tabella **[!UICONTROL Competition results]** contiene i campi seguenti:
 
@@ -47,17 +47,17 @@ I contatti della banca dati di marketing ricevono un invito a partecipare a un c
 * Numero della prova (@trial)
 * Punteggio (@score)
 
-![](assets/uc1_enrich_1.png)
+![Tabella dei destinatari collegata 1-n alla tabella dei risultati della concorrenza con i campi Nome concorrenza, Numero di prova e Punteggio.](assets/uc1_enrich_1.png)
 
 Un contatto trovato nella tabella **[!UICONTROL Recipients]** può essere collegato a diverse righe della tabella **[!UICONTROL Competition results]**. La relazione tra queste due tabelle è di tipo 1-n. Ecco un esempio dei registri dei risultati per un destinatario:
 
-![](assets/uc1_enrich_2.png)
+![Scheda Concorsi di un destinatario che elenca tre righe dei risultati della concorrenza con il nome della concorrenza, il numero di prova e il punteggio.](assets/uc1_enrich_2.png)
 
 Lo scopo di questo caso d’uso è quello di inviare consegne personalizzate a persone che hanno partecipato all’ultimo concorso a seconda dei punteggi più elevati. Il destinatario con il punteggio più alto ottiene il primo premio, il destinatario con il secondo punteggio più alto riceve un premio di consolazione e tutti gli altri ricevono un messaggio augurando loro maggiore fortuna la prossima volta.
 
 Per impostare questo caso d’uso, abbiamo creato il seguente flusso di lavoro di targeting:
 
-![](assets/uc1_enrich_3.png)
+![Flusso di lavoro di targeting: due query generano un&#39;intersezione, quindi Arricchimento e Divisione, determinando tre attività di consegna.](assets/uc1_enrich_3.png)
 
 Per creare il flusso di lavoro, effettua le seguenti operazioni:
 
@@ -70,11 +70,11 @@ Per creare il flusso di lavoro, effettua le seguenti operazioni:
 
 La prima query viene utilizzata per eseguire il targeting dei destinatari aggiunti al database negli ultimi sei mesi.
 
-![](assets/uc1_enrich_4.png)
+![Attività Query Abbonati recenti con filtro Data di creazione (@created) in corrispondenza o dopo MonthsAgo(-6).](assets/uc1_enrich_4.png)
 
 La seconda query viene utilizzata per eseguire il targeting dei destinatari che hanno partecipato all’ultimo concorso.
 
-![](assets/uc1_enrich_5.png)
+![Esiste già un filtro attività query sui risultati della concorrenza, ad esempio il nome della concorrenza è uguale al collegamento più debole.](assets/uc1_enrich_5.png)
 
 Viene quindi aggiunta un&#39;attività di tipo **[!UICONTROL Intersection]** per individuare i destinatari aggiunti al database negli ultimi sei mesi e che hanno partecipato all&#39;ultimo concorso.
 
@@ -84,62 +84,62 @@ In questo esempio, scopri come personalizzare le consegne in base al campo **[!U
 
 1. Nella schermata di modifica dell&#39;attività di arricchimento, selezionare **[!UICONTROL Add data]**, quindi **[!UICONTROL Data linked to the filtering dimension]** e fare clic su **[!UICONTROL Next]**.
 
-   ![](assets/uc1_enrich_6.png)
+   ![Finestra di dialogo per dati aggiuntivi con i dati collegati all&#39;opzione della dimensione di filtro selezionata ed evidenziata in Avanti.](assets/uc1_enrich_6.png)
 
 1. Selezionare quindi l&#39;opzione **[!UICONTROL Data linked to the filtering dimension]**, selezionare la tabella **[!UICONTROL Competition results]** e fare clic su **[!UICONTROL Next]**.
 
-   ![](assets/uc1_enrich_7.png)
+   ![Selezionare i campi da aggiungere alla schermata con il collegamento dei risultati della concorrenza selezionato in Dati collegati alla dimensione filtro.](assets/uc1_enrich_7.png)
 
 1. Immettere un ID e un&#39;etichetta e selezionare l&#39;opzione **[!UICONTROL Limit the line count]** nel campo **[!UICONTROL Data collected]**. Nel campo **[!UICONTROL Lines to retrieve]**, selezionare &#39;1&#39; come valore. Per ogni destinatario, l&#39;attività di arricchimento aggiungerà una singola riga dalla tabella **[!UICONTROL Competition results]** alla tabella di lavoro del flusso di lavoro. Fai clic su **[!UICONTROL Next]**.
 
-   ![](assets/uc1_enrich_8.png)
+   ![Schermata dei parametri generali con i dati raccolti impostati su Limita il conteggio delle righe e le righe da recuperare impostate su 1.](assets/uc1_enrich_8.png)
 
 1. In questo esempio, vogliamo recuperare il punteggio più alto del destinatario, ma solo per l’ultimo concorso. A questo scopo, aggiungere un filtro al campo **[!UICONTROL Competition name]** per escludere tutte le righe relative ai concorsi precedenti. Fai clic su **[!UICONTROL Next]**.
 
-   ![](assets/uc1_enrich_9.png)
+   ![Filtra la schermata con la condizione Nome concorrenza (@game) uguale al collegamento più debole.](assets/uc1_enrich_9.png)
 
 1. Andare alla schermata **[!UICONTROL Sort]** e fare clic sul pulsante **[!UICONTROL Add]**, selezionare il campo **[!UICONTROL Score]** e selezionare la casella nella colonna **[!UICONTROL descending]** per ordinare gli elementi dei campi **[!UICONTROL Score]** in ordine decrescente. Per ogni destinatario, l’attività di arricchimento aggiunge una riga che corrisponde al punteggio più alto dell’ultima partita. Fai clic su **[!UICONTROL Next]**.
 
-   ![](assets/uc1_enrich_10.png)
+   ![Schermata di ordinamento in cui viene aggiunto il campo Punteggio con l&#39;opzione Decrescente selezionata per mantenere il punteggio più alto.](assets/uc1_enrich_10.png)
 
 1. Nella finestra **[!UICONTROL Data to add]** fare doppio clic sul campo **[!UICONTROL Score]**. Per ogni destinatario, l&#39;attività di arricchimento aggiungerà solo il campo **[!UICONTROL Score]**. Fai clic su **[!UICONTROL Finish]**.
 
-   ![](assets/uc1_enrich_11.png)
+   ![Dati per aggiungere una schermata con solo il campo Punteggio (@score) nelle colonne di output e Fine evidenziata.](assets/uc1_enrich_11.png)
 
 Fare clic con il pulsante destro del mouse sulla transizione in entrata dell&#39;attività di arricchimento e selezionare **[!UICONTROL Display the target]**. La tabella di lavoro contiene i dati seguenti:
 
-![](assets/uc1_enrich_13.png)
+![Visualizza finestra popolazione aperta con Visualizza la destinazione, elencando la chiave primaria e la dimensione di targeting, senza punteggio.](assets/uc1_enrich_13.png)
 
 Schema collegato:
 
-![](assets/uc1_enrich_15.png)
+![Scheda schema del gruppo in entrata che mostra solo l&#39;intersezione con la chiave primaria e la dimensione di targeting.](assets/uc1_enrich_15.png)
 
 Rinnova questa operazione nella transizione in uscita dell’attività di arricchimento. Possiamo vedere che sono stati aggiunti i dati collegati ai punteggi dei destinatari. È stato recuperato il punteggio più alto di ciascun destinatario.
 
-![](assets/uc1_enrich_12.png)
+![Visualizza la finestra di popolazione dopo l&#39;arricchimento elencando una colonna Punteggio con il punteggio più alto di ogni destinatario.](assets/uc1_enrich_12.png)
 
 Anche lo schema corrispondente è stato arricchito.
 
-![](assets/uc1_enrich_14.png)
+![Scheda Schema della popolazione arricchita che mostra i risultati della concorrenza con il campo Punteggio aggiunto.](assets/uc1_enrich_14.png)
 
 ## Passaggio 3: suddivisione e consegna {#step-3--split-and-delivery}
 
 Per ordinare i destinatari in base ai loro punteggi, viene aggiunta un&#39;attività **[!UICONTROL Split]** dopo l&#39;arricchimento.
 
-![](assets/uc1_enrich_18.png)
+![Dividi l&#39;attività con tre transizioni in uscita alle attività di consegna: primo posto, secondo posto e riprova.](assets/uc1_enrich_18.png)
 
 1. È stato definito un primo sottoinsieme (**Vincitore**) per includere il destinatario con il punteggio più alto. A questo scopo, definisci un limite del numero di record, applica un ordinamento decrescente al punteggio e limita il numero di record a 1.
 
-   ![](assets/uc1_enrich_16.png)
+   ![Dividi sottoinsieme Vincitore limitato a un record, ordinato in base al punteggio (dati aggiuntivi/risultati della concorrenza) decrescente.](assets/uc1_enrich_16.png)
 
 1. Il secondo sottoinsieme (**Secondo posto**) include il destinatario con il secondo punteggio più alto. La configurazione è la stessa del primo sottoinsieme.
 
-   ![](assets/uc1_enrich_17.png)
+   ![Dividi sottoinsieme Seconda posizione configurata come Vincitore: ordinata in base al punteggio decrescente, limitata a 1.](assets/uc1_enrich_17.png)
 
 1. Il terzo sottoinsieme (**perdenti**) contiene tutti gli altri destinatari. Vai alla scheda **[!UICONTROL General]** e seleziona la casella **[!UICONTROL Generate complement]** per eseguire il targeting di tutti i destinatari che non hanno ottenuto i due punteggi più alti.
 
-   ![](assets/uc1_enrich_19.png)
+   ![Dividi scheda Generale con Genera complemento selezionato e il complemento etichettato Perdenti.](assets/uc1_enrich_19.png)
 
 1. Aggiungere un&#39;attività di tipo **[!UICONTROL Delivery]** per ogni sottoinsieme utilizzando un modello di consegna diverso per ogni sottoinsieme.
 
-   ![](assets/uc1_enrich_20.png)
+   ![Attività di consegna 1o luogo creato dal modello 1o luogo di consegna (DM41).](assets/uc1_enrich_20.png)

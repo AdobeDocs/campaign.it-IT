@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 1%
+source-wordcount: '589'
+ht-degree: 0%
 ---
 # Cambiare dimensione{#change-dimension}
 
@@ -42,11 +42,11 @@ Per configurare l&#39;attività **[!UICONTROL Change dimension]**, attenersi all
 
 1. Selezionare la nuova dimensione di targeting tramite il campo **[!UICONTROL Change dimension]**.
 
-   ![](assets/s_user_change_dimension_param1.png)
+   ![Modifica il campo dimensione dell&#39;attività con il selettore di campi aperto e le sottoscrizioni selezionate come nuova dimensione](assets/s_user_change_dimension_param1.png)
 
 1. Durante la modifica della quota, potete mantenere tutti gli elementi o selezionarli da mantenere nell&#39;output. Nell&#39;esempio seguente, il valore massimo. numero di duplicati impostato su 2.
 
-   ![](assets/s_user_change_dimension_limit.png)
+   ![Opzione Limita il numero di elementi nel nuovo documento di destinazione selezionato con il campo Limite impostato su 2](assets/s_user_change_dimension_limit.png)
 
    Quando si sceglie di mantenere un solo record, nello schema di lavoro viene visualizzata una raccolta: questa raccolta rappresenta tutti i record che non verranno inclusi nel risultato finale (poiché viene mantenuto un solo record). Come tutte le altre raccolte, questo consente di calcolare aggregati o recuperare informazioni nelle colonne.
 
@@ -54,7 +54,7 @@ Per configurare l&#39;attività **[!UICONTROL Change dimension]**, attenersi all
 
 1. Se scegli di non conservare tutte queste informazioni, puoi configurare la modalità di gestione dei duplicati.
 
-   ![](assets/s_user_change_dimension_param2.png)
+   ![Finestra di dialogo di deduplicazione in cui sono elencati i campi e-mail e numero account con le frecce che ne impostano la priorità](assets/s_user_change_dimension_param2.png)
 
    Le frecce blu ti consentono di definire la priorità di elaborazione dei duplicati.
 
@@ -66,7 +66,7 @@ Per configurare l&#39;attività **[!UICONTROL Change dimension]**, attenersi all
 
    * Fare clic sul collegamento **[!UICONTROL Add data...]** e selezionare **[!UICONTROL Data linked to the filtering dimension]**.
 
-     ![](assets/wf_change-dimension_sample_01.png)
+     ![Scheda Risultati Aggiunta di un collegamento dati apertura della procedura guidata Dati aggiuntivi con dati collegati alla dimensione filtro selezionata](assets/wf_change-dimension_sample_01.png)
 
      >[!NOTE]
      >
@@ -74,22 +74,22 @@ Per configurare l&#39;attività **[!UICONTROL Change dimension]**, attenersi all
 
    * Selezionare la dimensione di targeting precedente (prima del cambio asse) e selezionare **[!UICONTROL Zip Code]** nella sottostruttura **[!UICONTROL Location]** del destinatario, quindi fare clic su **[!UICONTROL Edit expression]**.
 
-     ![](assets/wf_change-dimension_sample_02.png)
+     ![Creazione guidata dati aggiuntivi con CAP/codice postale dalla sottostruttura Posizione aggiunta come colonna di output ed espressione di modifica](assets/wf_change-dimension_sample_02.png)
 
    * Fare clic su **[!UICONTROL Advanced selection]** e scegliere **[!UICONTROL Edit the formula using an expression]**.
 
-     ![](assets/wf_change-dimension_sample_03.png)
+     ![Pulsante di selezione avanzato per aprire il tipo di formula con Modifica formula utilizzando un&#39;espressione selezionata](assets/wf_change-dimension_sample_03.png)
 
    * Utilizzare le funzioni offerte nell&#39;elenco e specificare il calcolo da eseguire.
 
-     ![](assets/wf_change-dimension_sample_04.png)
+     ![Editor espressioni con la formula Sottostringa del codice postale dal carattere 1 con lunghezza 2 e elenco di funzioni](assets/wf_change-dimension_sample_04.png)
 
    * Infine, immetti l’etichetta della colonna appena creata.
 
-     ![](assets/wf_change-dimension_sample_05.png)
+     ![Colonne di output con l&#39;etichetta Contea e l&#39;espressione Substring(zip/Postcode, 1, 2)](assets/wf_change-dimension_sample_05.png)
 
 1. Esegui il flusso di lavoro per visualizzare il risultato di questa configurazione. Confronta i dati nelle tabelle prima e dopo l’attività di modifica della dimensione e confronta la struttura delle tabelle del flusso di lavoro, come illustrato negli esempi seguenti:
 
-   ![](assets/wf_change-dimension_sample_06.png)
+   ![Visualizza l&#39;opzione di destinazione nella dimensione Transizione prima di Cambia, con i relativi dati e schema in Visualizza popolazione](assets/wf_change-dimension_sample_06.png)
 
-   ![](assets/wf_change-dimension_sample_07.png)
+   ![Visualizza l&#39;opzione di destinazione dopo la dimensione Modifica, mostrando i dati con la colonna Contea e il nuovo schema](assets/wf_change-dimension_sample_07.png)

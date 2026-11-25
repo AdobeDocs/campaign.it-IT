@@ -23,10 +23,10 @@ role_v2:
     internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 12%
+source-wordcount: '292'
+ht-degree: 10%
 ---
 # Consegna ricorrente{#recurring-delivery}
 
@@ -34,7 +34,7 @@ ht-degree: 12%
 
 Un&#39;attività **[!UICONTROL Recurring delivery]** consente di configurare un&#39;occorrenza del modello di consegna specifica per una campagna.
 
-![](assets/do-not-localize/how-to-video.png) [Guarda un video su questa funzione](#recurring-delivery-video)
+![Icona pulsante di riproduzione per il collegamento video.](assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](#recurring-delivery-video)
 
 Questa attività è disponibile solo dalla scheda **[!UICONTROL Targeting and workflows]** trovata in una campagna.
 
@@ -42,7 +42,7 @@ Per eseguire questa operazione:
 
 1. Seleziona il modello di consegna su cui basare l’attività.
 
-   ![](assets/recurring_delivery_001.png)
+   ![Finestra di consegna con il menu a discesa Modello di consegna aperto e la consegna e-mail selezionata.](assets/recurring_delivery_001.png)
 
 1. Configura il modello di consegna.
 

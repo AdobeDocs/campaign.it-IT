@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '1128'
 ht-degree: 1%
 ---
 # Consegna{#delivery}
@@ -41,7 +41,7 @@ Un&#39;attività di tipo **Consegna** consente di creare un&#39;azione di conseg
 
 Per configurarlo, modifica l’attività e immetti le opzioni di consegna.
 
-![](assets/edit_diffusion.png)
+![Finestra attività di consegna con Consegna, Destinatari, Contenuto e Azione per eseguire sezioni e transizione in uscita](assets/edit_diffusion.png)
 
 1. **Consegna**
 
@@ -53,27 +53,27 @@ Per configurarlo, modifica l’attività e immetti le opzioni di consegna.
 
      Nell’esempio seguente, la consegna viene creata per la prima volta. La popolazione e il contenuto vengono definiti in un secondo momento. Successivamente, le informazioni per questi tre elementi vengono reinserite in una nuova attività di consegna utilizzando la transizione in entrata in modo che possa essere inviata.
 
-     ![](assets/specified_transition_option_exemple.png)
+     ![Flusso di lavoro in cui un&#39;attività Create the delivery genera una seconda attività Delivery impostata su Specified in the transition](assets/specified_transition_option_exemple.png)
 
    * Seleziona direttamente la consegna interessata. A tale scopo, selezionare l&#39;opzione **[!UICONTROL Explicit]** e selezionare la consegna dall&#39;elenco a discesa del campo **[!UICONTROL Delivery]**.
 
      L&#39;elenco mostra le consegne non completate contenute nella cartella **Consegne** per impostazione predefinita. Per accedere ad altre campagne, fare clic sull&#39;icona **[!UICONTROL Select link]**.
 
-     ![](assets/diffusion_edit_1.png)
+     ![Sezione Consegna con esplicito selezionato e l&#39;icona del collegamento Seleziona accanto al campo Consegna](assets/diffusion_edit_1.png)
 
      Selezionare la campagna dall&#39;elenco a discesa del campo **[!UICONTROL Folder]** oppure fare clic su **[!UICONTROL Display sub-levels]** per visualizzare tutte le consegne contenute nelle sottocartelle:
 
-     ![](assets/diffusion_edit_2.png)
+     ![Finestra di selezione della consegna con il campo Cartella impostato su Consegne e l&#39;icona Visualizza livelli secondari](assets/diffusion_edit_2.png)
 
      Dopo aver selezionato l&#39;azione di consegna, puoi visualizzare il contenuto facendo clic sull&#39;icona **[!UICONTROL Edit link]**.
 
    * Crea uno script per calcolare la consegna. A tale scopo, selezionare l&#39;opzione **[!UICONTROL Computed by a script]** e immettere lo script. È possibile aprire una finestra di input facendo clic sull&#39;opzione **[!UICONTROL Edit...]**. L’esempio seguente recupera l’identificatore della consegna:
 
-     ![](assets/diffusion_edit_3.png)
+     ![Calcolato da un&#39;opzione di script con la finestra Modifica script che mostra l&#39;espressione vars.deliveryId](assets/diffusion_edit_3.png)
 
    * Crea una nuova consegna. A questo scopo, seleziona l’opzione **[!UICONTROL New, created from a template]** e seleziona il modello di consegna su cui basare la consegna.
 
-     ![](assets/diffusion_edit_4.png)
+     ![Nuovo, creato da un&#39;opzione modello con un modello di consegna selezionato e l&#39;icona Modifica collegamento](assets/diffusion_edit_4.png)
 
      Fare clic sull&#39;icona **[!UICONTROL Select link]** per sfogliare le cartelle e fare clic sull&#39;icona **[!UICONTROL Edit link]** per visualizzare il contenuto del modello selezionato.
 
@@ -81,19 +81,19 @@ Per configurarlo, modifica l’attività e immetti le opzioni di consegna.
 
    I destinatari possono essere specificati dagli eventi in entrata, ad esempio dopo un’importazione di file, o specificati nell’azione di consegna. Possono anche essere archiviati in uno o più file.
 
-   ![](assets/diffusion_edit_5.png)
+   ![Sezione Destinatari con le opzioni specificate dagli eventi in entrata, specificate nella consegna e nei file specificati](assets/diffusion_edit_5.png)
 
 1. **Contenuto**
 
    Il contenuto del messaggio può essere definito nella consegna o nell’evento in entrata.
 
-   ![](assets/diffusion_edit_6.png)
+   ![Sezione contenuto con specificato dall&#39;evento in entrata e specificato nelle opzioni di consegna](assets/diffusion_edit_6.png)
 
 1. **Azione da eseguire**
 
    Puoi creare la consegna, prepararla, avviarla, stimare il target o inviare una bozza.
 
-   ![](assets/diffusion_edit_7.png)
+   ![Azione per eseguire le opzioni Salva per preparare e avviare e l&#39;opzione Genera una transizione in uscita](assets/diffusion_edit_7.png)
 
    Seleziona il tipo di azione da eseguire:
 
@@ -121,13 +121,13 @@ Per configurarlo, modifica l’attività e immetti le opzioni di consegna.
 
    La scheda **Script** consente di modificare i parametri di consegna.
 
-   ![](assets/edit_diffusion_fil_script.png)
+   ![Scheda Script dell&#39;attività Delivery con uno script di modifica dell&#39;oggetto delivery che imposta l&#39;etichetta di consegna](assets/edit_diffusion_fil_script.png)
 
 ## Esempio: flusso di lavoro di consegna {#example--delivery-workflow}
 
 Crea un nuovo flusso di lavoro e aggiungi le attività come mostrato nell’immagine seguente:
 
-![](assets/new-workflow-5.png)
+![Flusso di lavoro con attività di inizio, consegna e approvazione, quindi controllo della consegna su Sì e Fine su No](assets/new-workflow-5.png)
 
 Apri l&#39;attività **Consegna** e definisci le proprietà come segue:
 
@@ -135,7 +135,7 @@ Apri l&#39;attività **Consegna** e definisci le proprietà come segue:
 * Nella sezione **[!UICONTROL Recipients]**, selezionare **[!UICONTROL Specified in the delivery]**.
 * Nella sezione **[!UICONTROL Action to execute]**, mantenere l&#39;opzione **[!UICONTROL Prepare]**.
 
-![](assets/new-workflow-param-delivery.png)
+![Attività di consegna con nuovo, creata da un modello, specificata nei destinatari della consegna e Prepara selezionati](assets/new-workflow-param-delivery.png)
 
 Fare clic su **[!UICONTROL OK]** per chiudere la finestra delle proprietà. Hai appena configurato un’attività che consiste nella creazione e preparazione di una nuova consegna basata su un modello di consegna il cui target verrà specificato al suo interno.
 
@@ -150,7 +150,7 @@ Apri l&#39;attività **Approval** e definisci le proprietà come segue:
 
    Questo messaggio include un&#39;espressione scritta in JavaScript: **[!UICONTROL vars.recCount]** rappresenta il numero di destinatari interessati dalla consegna dell&#39;attività precedente. Per ulteriori informazioni sulle espressioni di JavaScript, fare riferimento a [Script e modelli di JavaScript](javascript-scripts-and-templates.md).
 
-   ![](assets/new-workflow-param-validation.png)
+   ![Attività di approvazione con tipo di assegnazione Gruppo e un messaggio tramite vars.recCount con richiesta di approvazione della destinazione](assets/new-workflow-param-validation.png)
 
    L&#39;attività Approvazione è descritta in [Approvazione](approval.md).
 

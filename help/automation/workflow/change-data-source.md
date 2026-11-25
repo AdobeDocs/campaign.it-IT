@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '355'
 ht-degree: 2%
 ---
 # Cambiare l’origine dati {#change-data-source}
@@ -61,22 +61,22 @@ Per utilizzare l&#39;attività **[!UICONTROL Change Data Source]**, è necessari
 
 1. Aggiungi un&#39;attività **[!UICONTROL Change data source]**.
 
-   ![](assets/change-data-source.png)
+   ![Flusso di lavoro con Start e Query e l&#39;attività Change Data Source evidenziata nella palette](assets/change-data-source.png)
 
 1. Modifica l&#39;attività **[!UICONTROL Change data source]** per selezionare **[!UICONTROL Default data source]**.
 
    La tabella di lavoro, che contiene il risultato della query, viene quindi spostata nel database locale di Campaign predefinito.
 
-   ![](assets/change-data-source_2.png)
+   ![Modifica l&#39;attività di Data Source con l&#39;opzione Origine dati predefinita selezionata](assets/change-data-source_2.png)
 
 1. Aggiungere un&#39;attività **[!UICONTROL JavaScript code]** per eseguire operazioni unitarie sulla tabella di lavoro.
 
-   Per ulteriori informazioni sull&#39;attività **[!UICONTROL JavaScript code]**, vedere [questa pagina](sql-code-and-javascript-code.md#javascript-code).
+   Per ulteriori informazioni sull&#39;attività **[!UICONTROL JavaScript code]**, fare riferimento al [codice JavaScript e codice JavaScript avanzato](sql-code-and-javascript-code.md#javascript-code).
 
 1. Aggiungi un&#39;altra attività **[!UICONTROL Change data source]** per tornare al database cloud.
 
 1. Modifica questa attività e seleziona **[!UICONTROL Active FDA external account]** e l&#39;account esterno **[!UICONTROL External database]** corrispondente.
 
-   ![](assets/change-data-source_3.png)
+   ![Cambia l&#39;attività di Data Source con l&#39;account esterno Active FDA selezionato e Snowflake evidenziato nell&#39;elenco](assets/change-data-source_3.png)
 
 1. Ora puoi avviare il flusso di lavoro.

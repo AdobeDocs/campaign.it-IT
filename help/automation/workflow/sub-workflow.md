@@ -17,9 +17,9 @@ feature_v2:
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '507'
 ht-degree: 1%
 ---
 # Flusso di lavoro secondario{#sub-workflow}
@@ -30,13 +30,13 @@ L&#39;attività **[!UICONTROL Sub-workflow]** consente di attivare l&#39;esecuzi
 
 È possibile chiamare più flussi di lavoro secondari in un unico flusso di lavoro. I workflow secondari vengono eseguiti in modo sincrono.
 
-Nell’esempio seguente, un flusso di lavoro primario sta chiamando un flusso di lavoro secondario utilizzando i ponticelli. Per ulteriori informazioni sugli oggetti grafici di tipo Jump, vedere [questa sezione](jump-start-point-and-end-point.md).
+Nell’esempio seguente, un flusso di lavoro primario sta chiamando un flusso di lavoro secondario utilizzando i ponticelli. Per ulteriori informazioni sugli oggetti grafici di tipo Salto, vedere [Salto (punto iniziale e punto finale)](jump-start-point-and-end-point.md).
 
 1. Crea un flusso di lavoro da utilizzare come flusso di lavoro secondario in un altro flusso di lavoro.
 1. Inserire un&#39;attività **[!UICONTROL Jump (end point)]** con priorità 1 all&#39;inizio del flusso di lavoro. Se disponi di più salti di tipo &quot;end point&quot;, Adobe Campaign utilizzerà il salto &quot;end point&quot; con il numero più basso.
 1. Inserire un&#39;attività **[!UICONTROL Jump (start point)]** con priorità 2 alla fine del flusso di lavoro. Se disponi di più salti di tipo &quot;punto iniziale&quot;, Adobe Campaign utilizzerà il salto &quot;punto iniziale&quot; con il numero più alto.
 
-   ![](assets/subworkflow_jumps.png)
+   ![Diagramma del flusso di lavoro secondario che inizia con Salta (punto finale) 1 e termina con Salta (punto iniziale) 2 intorno alle query e a un&#39;unione.](assets/subworkflow_jumps.png)
 
    >[!NOTE]
    >
@@ -49,12 +49,12 @@ Nell’esempio seguente, un flusso di lavoro primario sta chiamando un flusso di
 1. Inserire un&#39;attività **[!UICONTROL Sub-workflow]** e aprirla.
 1. Selezionare il flusso di lavoro da utilizzare dall&#39;elenco a discesa **[!UICONTROL Workflow template]**.
 
-   ![](assets/subworkflow_selection.png)
+   ![Attività flusso di lavoro secondario con elenco a discesa Modello flusso di lavoro, flussi di lavoro disponibili, flusso di lavoro secondario (WKF55) selezionato.](assets/subworkflow_selection.png)
 
 1. Puoi anche aggiungere uno script di configurazione per modificare il flusso di lavoro di riferimento.
 1. Fai clic su **[!UICONTROL Ok]**. Verrà automaticamente creata una transizione in uscita con l&#39;etichetta dell&#39;attività **[!UICONTROL Jump (start point)]** dal flusso di lavoro selezionato.
 
-   ![](assets/subworkflow_outbound.png)
+   ![Flusso di lavoro primario con flusso di lavoro secondario di chiamata e transizione in uscita con etichetta Salta (punto iniziale) 2.](assets/subworkflow_outbound.png)
 
 1. Esegui il flusso di lavoro.
 
@@ -64,7 +64,7 @@ Dopo l&#39;esecuzione, il flusso di lavoro chiamato come flusso di lavoro second
 * Impossibile visualizzare il conteggio delle popolazioni intermedie.
 * I registri del flusso di lavoro secondario vengono visualizzati nel flusso di lavoro principale.
 
-  ![](assets/subworkflow_logs.png)
+  ![Scheda Audit del flusso di lavoro principale che mostra i messaggi di registro del flusso di lavoro secondario per la query dei risultati.](assets/subworkflow_logs.png)
 
 >[!NOTE]
 >

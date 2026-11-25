@@ -17,10 +17,10 @@ feature_v2:
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 4%
+source-wordcount: '175'
+ht-degree: 3%
 ---
 # Attività Start e End{#start-and-end}
 
@@ -32,14 +32,14 @@ Le attività **[!UICONTROL Start]** e **[!UICONTROL End]** ti consentono di cont
 
   L’esecuzione di un flusso di lavoro inizia con le attività senza una transizione in entrata e le attività di tipo Start.
 
-  ![](assets/s_user_segmentation_start_stop.png)
+  ![Flusso di lavoro con attività di inizio, Consegna, Approvazione, Controllo della consegna e due attività di fine, una per risultato di approvazione.](assets/s_user_segmentation_start_stop.png)
 
 * **[!UICONTROL End]**
 
   È possibile configurare l&#39;attività **[!UICONTROL End]** per interrompere tutte le attività in corso. A questo scopo, fai doppio clic sull’attività per visualizzarne le proprietà e seleziona l’opzione appropriata.
 
-  ![](assets/s_user_segmentation_end.png)
+  ![Proprietà attività finale con l&#39;opzione Arresta tutte le attività in corso selezionata.](assets/s_user_segmentation_end.png)
 
   I dati nella tabella di lavoro vengono eliminati automaticamente quando l&#39;attività finale è abilitata. Se non è necessario e per evitare carichi superflui, puoi scegliere di disabilitare la transizione all’ultimo output dell’attività. Ad esempio, a un output di consegna, se non è pianificato alcun processo, deseleziona l’opzione pertinente come mostrato di seguito:
 
-  ![](assets/s_advuser_delivery_option_no_output.png)
+  ![Proprietà dell&#39;attività di consegna con l&#39;opzione Generate an outbound transition cancellata.](assets/s_advuser_delivery_option_no_output.png)

@@ -23,9 +23,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '409'
 ht-degree: 3%
 ---
 # Query incrementale{#incremental-query}
@@ -54,15 +54,15 @@ Per eseguire questa operazione:
 
    Nella finestra **[!UICONTROL Schedule editing wizard]** è possibile configurare il tipo di frequenza, la ricorrenza degli eventi e il periodo di validità degli eventi.
 
-   ![](assets/s_user_segmentation_wizard_11.png)
+   ![Procedura guidata di modifica della pianificazione: Frequenza settimanale, Giovedì selezionato e un periodo di validità con una data di inizio e di fine validità.](assets/s_user_segmentation_wizard_11.png)
 
 1. Fare clic su **[!UICONTROL Finish]** per salvare la pianificazione.
 
-   ![](assets/s_user_segmentation_wizard_valid.png)
+   ![Pagina di riepilogo della procedura guidata di modifica della pianificazione con la descrizione della pianificazione, l&#39;elenco dei tempi di avvio e il pulsante Fine.](assets/s_user_segmentation_wizard_valid.png)
 
 1. La sezione inferiore della scheda **[!UICONTROL Scheduling & History]** consente di selezionare il numero di giorni da considerare nella cronologia.
 
-   ![](assets/edit_request_inc.png)
+   ![Scheda Pianificazione e cronologia query incrementale con l&#39;opzione Esecuzione del piano selezionata e il campo Cronologia in giorni impostato su 10.](assets/edit_request_inc.png)
 
    * **[!UICONTROL History in days]**
 

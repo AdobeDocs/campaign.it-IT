@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 6%
+source-wordcount: '146'
+ht-degree: 4%
 ---
 # SMS in entrata{#inbound-sms}
 
@@ -41,7 +41,7 @@ L&#39;attività **Inbound SMS** ti consente di scaricare ed elaborare messaggi d
 
 ## Proprietà {#properties}
 
-![](assets/sms_rec_edit.png)
+![Attività SMS in entrata con il campo Account esterno, il collegamento Filtri messaggi da elaborare e un&#39;area di script.](assets/sms_rec_edit.png)
 
 La prima scheda dell&#39;attività **SMS in entrata** consente di immettere i parametri di routing per i messaggi SMS e di immettere lo script da eseguire alla ricezione di ogni messaggio. La seconda scheda ti consente di assegnare una pianificazione all’attività e la terza scheda definisce le condizioni di scadenza dell’attività.
 
@@ -49,7 +49,7 @@ La prima scheda dell&#39;attività **SMS in entrata** consente di immettere i pa
 1. **[!UICONTROL Script]**
 1. **[!UICONTROL Schedule]**
 
-   ![](assets/sms_rec_edit_2.png)
+   ![Scheda Pianificazione SMS in entrata con l&#39;esecuzione del piano selezionata e Interrompi pianificazione non appena viene ricevuto un SMS selezionato.](assets/sms_rec_edit_2.png)
 
 1. **[!UICONTROL Expiration]**
 

@@ -17,9 +17,9 @@ feature_v2:
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '467'
 ht-degree: 2%
 ---
 # Inviare avvisi personalizzati agli operatori{#sending-personalized-alerts-to-operators}
@@ -37,7 +37,7 @@ Il processo consiste nel creare un flusso di lavoro come indicato di seguito:
 1. Utilizzare un&#39;attività **[!UICONTROL Test]** per verificare il conteggio della popolazione.
 1. Utilizzare un&#39;attività **[!UICONTROL Alert]** per inviare un avviso a un operatore, a seconda del risultato dell&#39;attività **[!UICONTROL Test]**.
 
-![](assets/uc_operator_1.png)
+![Flusso di lavoro con una query, codice JavaScript e attività Test; il ramo True porta a un&#39;attività Alert, da False a End 2.](assets/uc_operator_1.png)
 
 ## Salvataggio del gruppo nella variabile di istanza {#saving-the-population-to-the-instance-variable}
 
@@ -60,21 +60,21 @@ Assicurati che il codice JavaScript corrisponda alle informazioni del flusso di 
 * Il tag **[!UICONTROL queryDef schema]** deve corrispondere al nome della dimensione di targeting utilizzata nell&#39;attività di query.
 * Il tag **[!UICONTROL node expr]** deve corrispondere al nome dei campi che si desidera recuperare.
 
-![](assets/uc_operator_3.png)
+![Script di codice JavaScript con lo schema queryDef temp:query e i nodi firstName e lastName di destinazione evidenziati.](assets/uc_operator_3.png)
 
 Per recuperare queste informazioni, effettua le seguenti operazioni:
 
 1. Fare clic con il pulsante destro del mouse sulla transizione in uscita dall&#39;attività **[!UICONTROL Query]**, quindi selezionare **[!UICONTROL Display the target]**.
 
-   ![](assets/uc_operator_4.png)
+   ![Menu di scelta rapida nella transizione in uscita dell&#39;attività Query con la destinazione selezionata.](assets/uc_operator_4.png)
 
 1. Fare clic con il pulsante destro del mouse sull&#39;elenco, quindi selezionare **[!UICONTROL Configure list]**.
 
-   ![](assets/uc_operator_5.png)
+   ![Record dell&#39;elenco di destinazione con il menu di scelta rapida aperto e l&#39;opzione Configura elenco selezionata.](assets/uc_operator_5.png)
 
 1. Nell’elenco vengono visualizzati la dimensione di targeting della query e i nomi dei campi.
 
-   ![](assets/uc_operator_6.png)
+   ![Configura la scheda Colonne elenco che mostra l&#39;elemento principale temp:query della query evidenziato e i relativi campi dimensione di targeting.](assets/uc_operator_6.png)
 
 ## Verifica del conteggio della popolazione {#testing-the-population-count}
 
@@ -84,7 +84,7 @@ Aggiungi il codice seguente all&#39;attività **[!UICONTROL Test]** per verifica
 var.recCount>0
 ```
 
-![](assets/uc_operator_7.png)
+![Verifica l&#39;attività con un fork condizionale True utilizzando la condizione vars.recCount>0 e un ramo False predefinito.](assets/uc_operator_7.png)
 
 ## Configurazione dell’avviso {#setting-up-the-alert}
 
@@ -108,4 +108,4 @@ for each (var item in items){
 >Il comando **[!UICONTROL <%= item.target.recipient.@fieldName %>]** consente di aggiungere uno dei campi salvati nella variabile di istanza tramite l&#39;attività **[!UICONTROL JavaScript code]**.\
 >Puoi aggiungere tutti i campi desiderati, purché siano stati inseriti nel codice JavaScript.
 
-![](assets/uc_operator_8.png)
+![Attività di avviso assegnata a un operatore, con un messaggio che esegue il ciclo degli elementi salvati per elencare nomi e cognomi.](assets/uc_operator_8.png)

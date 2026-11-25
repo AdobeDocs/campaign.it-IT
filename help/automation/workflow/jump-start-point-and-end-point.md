@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 15%
+source-wordcount: '153'
+ht-degree: 11%
 ---
 # Oggetti Jump (punto iniziale e punto finale){#jump-start-point-and-end-point}
 
@@ -36,12 +36,12 @@ I salti sono transizioni senza frecce.
 
 Passano da un’attività all’altra, come nell’esempio seguente:
 
-![](assets/s_user_segmentation_jump_sample.png)
+![Flusso di lavoro in cui i salti del punto iniziale sostituiscono le transizioni lunghe a due salti dell&#39;endpoint che alimentano un&#39;unione e una deduplicazione.](assets/s_user_segmentation_jump_sample.png)
 
 Per ogni transizione di tipo &quot;punto iniziale&quot;, è necessario posizionare una transizione di tipo &quot;punto finale&quot;.
 
 Nello stesso flusso di lavoro è possibile inserire più salti di punti iniziali e finali. Sono identificati da un numero che deve essere inserito nei parametri:
 
-![](assets/s_user_segmentation_jump_in.png)
+![Attività Salta (punto iniziale) con i campi Etichetta e Numero salta impostati su 1.](assets/s_user_segmentation_jump_in.png)
 
 Per migliorare la leggibilità del diagramma, è possibile modificare l&#39;immagine associata ai salti per visualizzare il numero correlato. Vedi [Cambia immagini attività](change-activity-images.md).

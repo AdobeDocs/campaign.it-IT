@@ -24,10 +24,10 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 4%
+source-wordcount: '360'
+ht-degree: 3%
 ---
 # Coordinare gli aggiornamenti dei dati{#coordinating-data-updates}
 
@@ -37,7 +37,7 @@ Questo caso d’uso descrive la creazione di un flusso di lavoro che consente di
 
 Lo scopo è verificare che il processo di aggiornamento sia terminato prima di eseguire un&#39;altra operazione di aggiornamento. A questo scopo, verrà impostata una variabile di istanza e verrà eseguito un test del flusso di lavoro se l’istanza è in esecuzione per decidere se continuare l’esecuzione del flusso di lavoro ed eseguire l’aggiornamento.
 
-![](assets/uc_dataupdate_wkf.png)
+![Flusso di lavoro: modulo di pianificazione, in esecuzione? test che termina alla fine il giorno Sì oppure Query, Aggiorna dati e fine 2 il giorno No.](assets/uc_dataupdate_wkf.png)
 
 Questo flusso di lavoro è costituito da:
 
@@ -55,19 +55,19 @@ Per creare il flusso di lavoro, effettua le seguenti operazioni:
    >
    >&quot;isRunning&quot; è il nome della variabile di istanza scelto per questo esempio. Questa non è una variabile incorporata.
 
-   ![](assets/uc_dataupdate_test.png)
+   ![È in esecuzione? attività di test con la condizione Yes instance.vars.isRunning e il ramo predefinito etichettato No.](assets/uc_dataupdate_test.png)
 
 1. Aggiungi un&#39;attività **End** al fork **No**. In questo modo, non viene eseguito nulla se il flusso di lavoro è già in esecuzione.
 1. Aggiungi le attività desiderate al fork **Yes**. Nel nostro caso, **Attività Query** e **Aggiorna dati**.
 1. Apri la prima attività, quindi aggiungi il comando **instance.vars.isRunning = true** nella scheda **[!UICONTROL Advanced]**. In questo modo, la variabile di istanza viene impostata come in esecuzione.
 
-   ![](assets/uc_dataupdate_query.png)
+   ![Scheda Avanzate dell&#39;attività Query con istanza dello script di inizializzazione.vars.isRunning = true.](assets/uc_dataupdate_query.png)
 
 1. Aggiungi un&#39;attività **End** alla fine del fork **[!UICONTROL Yes]**, quindi aggiungi il comando **instance.vars.isRunning = false** nella scheda **[!UICONTROL Advanced]**.
 
    In questo modo, non verrà eseguita alcuna azione durante l’esecuzione del flusso di lavoro.
 
-   ![](assets/uc_dataupdate_end.png)
+   ![Scheda Avanzate dell&#39;attività Fine 2 con istanza dello script di inizializzazione.vars.isRunning = false.](assets/uc_dataupdate_end.png)
 
 **Argomenti correlati:**
 

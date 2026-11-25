@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 12%
+source-wordcount: '745'
+ht-degree: 10%
 ---
 # Utilizzare la funzionalità di unione dell’attività Deduplicazione {#deduplication-merge}
 
@@ -36,7 +36,7 @@ ht-degree: 12%
 
 Questo caso d&#39;uso descrive come utilizzare la funzionalità **[!UICONTROL Merge]** nell&#39;attività **[!UICONTROL Deduplication]**.
 
-Per ulteriori informazioni su questa funzionalità, consulta [questa sezione](deduplication.md#merging-fields-into-single-record).
+Per ulteriori informazioni su questa funzionalità, vedere [Unione di campi in un singolo record di dati](deduplication.md#merging-fields-into-single-record).
 
 L&#39;attività **[!UICONTROL Deduplication]** viene utilizzata per rimuovere righe duplicate da un set di dati. In questo caso d’uso, i dati mostrati di seguito vengono duplicati in base al campo E-mail.
 
@@ -57,11 +57,11 @@ Per abilitare la funzionalità di unione, è innanzitutto necessario configurare
 
 1. Selezionare il campo di riconciliazione da utilizzare per la deduplicazione, quindi fare clic su **[!UICONTROL Next]**. In questo esempio, vogliamo deduplicare in base al campo e-mail.
 
-   ![](assets/uc_merge_edit.png)
+   ![Finestra della dimensione di targeting della deduplicazione con i destinatari selezionati e il campo di riconciliazione e-mail scelto.](assets/uc_merge_edit.png)
 
 1. Fare clic sul collegamento **[!UICONTROL Advanced parameters]**, quindi attivare le opzioni **[!UICONTROL Merge records]** e **[!UICONTROL Use several record merging criteria]**.
 
-   ![](assets/uc_merge_advanced_parameters.png)
+   ![Finestra di dialogo dei parametri di deduplicazione con Unisci record e verifica dell&#39;utilizzo di diverse opzioni dei criteri di unione dei record.](assets/uc_merge_advanced_parameters.png)
 
 1. La scheda **[!UICONTROL Merge]** è stata aggiunta alla schermata di configurazione **[!UICONTROL Deduplication]**. Questa scheda consente di specificare i dati da unire durante l’esecuzione della deduplicazione.
 
@@ -78,31 +78,31 @@ Per configurare queste regole, effettua le seguenti operazioni:
 
 1. Apri la scheda **[!UICONTROL Merge]**, quindi fai clic sul pulsante **[!UICONTROL Add]**.
 
-   ![](assets/uc_merge_add.png)
+   ![Scheda Unisci dell&#39;attività Deduplicazione con il pulsante Aggiungi sopra un elenco vuoto di dati uniti.](assets/uc_merge_add.png)
 
 1. Specifica l’identificatore e l’etichetta del gruppo di campi da unire.
 
-   ![](assets/uc_merge_identifier.png)
+   ![Identificatore e fase etichetta della procedura guidata Seleziona dati da unire, con il nome dell&#39;identificatore e il nome dell&#39;etichetta immessi.](assets/uc_merge_identifier.png)
 
 1. Indicare le condizioni per la selezione dei record da prendere in considerazione.
 
-   ![](assets/uc_merge_filter.png)
+   ![Il passaggio del filtro con le condizioni First Name non è vuoto e Last Name non è vuoto per la selezione dei record da unire.](assets/uc_merge_filter.png)
 
 1. Ordina in base all’ultima data di modifica per selezionare il nome più recente.
 
-   ![](assets/uc_merge_sort.png)
+   ![Passaggio di ordinamento con data di modifica in ordine decrescente per selezionare il record più recente.](assets/uc_merge_sort.png)
 
 1. Selezionare i campi da unire. In questo esempio, è necessario mantenere i campi Nome e Cognome.
 
-   ![](assets/uc_merge_keep.png)
+   ![Campi da mantenere, con le colonne Nome e Cognome selezionate come colonne di output.](assets/uc_merge_keep.png)
 
 1. I campi vengono aggiunti al set di dati da unire e un nuovo elemento viene aggiunto allo schema del flusso di lavoro.
 
    Ripeti questi passaggi per configurare i campi relativi al telefono cellulare e al telefono.
 
-   ![](assets/dedup8.png)
+   ![Scheda Unione in cui sono elencati i gruppi uniti Nome, cellulare e telefono con i relativi alias e condizioni enabled-if.](assets/dedup8.png)
 
-   ![](assets/dedup9.png)
+   ![Scheda Schema che mostra la struttura dati generata della deduplicazione con i nodi mobile, Name e phone.](assets/dedup9.png)
 
 ## Risultati {#results}
 

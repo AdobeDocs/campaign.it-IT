@@ -25,9 +25,9 @@ role_v2:
     internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '621'
 ht-degree: 0%
 ---
 # Lettura di un elenco{#read-list}
@@ -38,15 +38,15 @@ L&#39;attività **[!UICONTROL Read list]** consente di copiare i dati da un elen
 
 L&#39;elenco da elaborare può essere specificato esplicitamente, calcolato da uno script o localizzato in modo dinamico, in base alle opzioni selezionate e ai parametri definiti in un&#39;attività **[!UICONTROL Read list]**.
 
-![](assets/list_edit_select_option_01.png)
+![Attività di lettura elenco con l&#39;opzione Specificato selezionato in modo esplicito, un elenco scelto e il collegamento Modifica query in Filtro Source](assets/list_edit_select_option_01.png)
 
 Se l’elenco non è specificato in modo esplicito, devi fornire un elenco da utilizzare come modello per scoprirne la struttura.
 
-![](assets/s_advuser_list_template_select.png)
+![Attività di lettura elenco con nome calcolato da uno script selezionato e il menu a discesa Elenco aperto](assets/s_advuser_list_template_select.png)
 
 Una volta configurata la selezione dell&#39;elenco, è possibile aggiungere un filtro utilizzando l&#39;opzione **[!UICONTROL Edit query]** per mantenere una parte della popolazione per il flusso di lavoro successivo.
 
-![](assets/wf_readlist_1.png)
+![L&#39;attività di lettura dell&#39;elenco con un filtro di query Modifica su Prezzo non è vuota applicata all&#39;elenco selezionato](assets/wf_readlist_1.png)
 
 >[!CAUTION]
 >
@@ -58,21 +58,21 @@ Gli elenchi possono essere creati direttamente in Adobe Campaign tramite il coll
 
 L’esempio seguente ti consente di utilizzare un elenco di indirizzi e-mail da escludere dal target della consegna e-mail.
 
-![](assets/s_advuser_list_read_sample_1.png)
+![Flusso di lavoro con un elenco di lettura e una query del file dei nuovi contatti uniti in un&#39;esclusione, quindi una consegna e un&#39;attesa di 3 giorni](assets/s_advuser_list_read_sample_1.png)
 
 I profili contenuti nella cartella **Nuovi contatti** devono essere interessati da un&#39;azione di consegna. Gli indirizzi e-mail da escludere dal target vengono memorizzati in un elenco esterno. Nel nostro esempio, per l’esclusione sono necessarie solo le informazioni sugli indirizzi e-mail.
 
 1. La query di selezione della cartella **Nuovi contatti** deve consentire di caricare gli indirizzi e-mail dei profili selezionati, per consentire l&#39;allineamento con le informazioni nell&#39;elenco.
 
-   ![](assets/s_advuser_list_read_sample_0.png)
+   ![Nuova attività di query dei contatti con il campo E-mail aggiunto in Informazioni complementari](assets/s_advuser_list_read_sample_0.png)
 
 1. In questo caso, l&#39;elenco viene archiviato nella cartella **Elenchi** e l&#39;etichetta viene calcolata.
 
-   ![](assets/s_advuser_list_read_sample_2.png)
+   ![Attività di lettura elenco con la cartella Elenchi ed etichetta calcolata per il file della blacklist](assets/s_advuser_list_read_sample_2.png)
 
 1. Per escludere gli indirizzi di posta elettronica dell&#39;elenco esterno dalla destinazione principale, è necessario configurare l&#39;attività di esclusione e specificare che la cartella **Nuovi contatti** contiene i dati da mantenere. I dati congiunti tra questo set e qualsiasi altro set in entrata dall’attività di esclusione verranno eliminati dal target.
 
-   ![](assets/s_advuser_list_read_sample_3.png)
+   ![Attività di esclusione con il file dei nuovi contatti impostato come Set primario e la tabella delle regole di esclusione](assets/s_advuser_list_read_sample_3.png)
 
    Le regole di esclusione sono configurate nella sezione centrale dello strumento di modifica. Fare clic sul pulsante **[!UICONTROL Add]** per definire il tipo di esclusione da applicare.
 
@@ -82,6 +82,6 @@ I profili contenuti nella cartella **Nuovi contatti** devono essere interessati 
 
    Nel nostro esempio, abbiamo un’esclusione sui join: i dati contenuti nell’elenco verranno riconciliati con i dati del set principale tramite il campo contenente l’indirizzo e-mail. Per configurare il join, selezionare **[!UICONTROL Joins]** nel campo **[!UICONTROL Change dimension]**.
 
-   ![](assets/s_advuser_list_read_sample_4.png)
+   ![Definizione dell&#39;eccezione con l&#39;elenco di lettura impostato come esclusione e l&#39;opzione Joins nella dimensione Change](assets/s_advuser_list_read_sample_4.png)
 
 1. Quindi seleziona il campo corrispondente all’indirizzo e-mail nei due set (Source e Destinazione). Le colonne verranno quindi collegate e i destinatari il cui indirizzo e-mail si trova nell’elenco degli indirizzi importati verranno esclusi dal target.

@@ -24,10 +24,10 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 2%
+source-wordcount: '566'
+ht-degree: 1%
 ---
 # Gestione dei contenuti{#content-management}
 
@@ -47,7 +47,7 @@ Le proprietà dell’attività sono suddivise in tre passaggi:
 * **Aggiornamento contenuto**: l&#39;attività può modificare l&#39;oggetto del contenuto o importare tutto il contenuto XML.
 * **Azione**: il contenuto risultante può essere salvato o generato.
 
-  ![](assets/content_mgmt_edit.png)
+  ![Attività di gestione dei contenuti con contenuto, Aggiorna contenuto e azione per eseguire sezioni e una transizione in uscita](assets/content_mgmt_edit.png)
 
 1. **Contenuto**
 
@@ -59,19 +59,19 @@ Le proprietà dell’attività sono suddivise in tre passaggi:
 
      Questa opzione consente di selezionare un contenuto già creato tramite il campo **[!UICONTROL Content]**. Questo campo è visibile solo quando è selezionata l&#39;opzione **[!UICONTROL Explicit]**.
 
-     ![](assets/content_mgmt_explicit.png)
+     ![Sezione contenuto con opzione Esplicito selezionata e campo Contenuto impostato su un contenuto esistente](assets/content_mgmt_explicit.png)
 
    * **[!UICONTROL Calculated by a script]**
 
      L’identificatore del contenuto viene calcolato da uno script. Il campo **[!UICONTROL Script]** consente di definire un modello JavaScript che valuta l&#39;identificatore (chiave primaria) del contenuto. Questo campo è visibile solo quando è selezionata l&#39;opzione **[!UICONTROL Calculated by a script]**.
 
-     ![](assets/content_mgmt_script.png)
+     ![Sezione contenuto con calcolo eseguito da uno script selezionato e campo Script visualizzato](assets/content_mgmt_script.png)
 
    * **[!UICONTROL New, created from a publication template]**
 
      Crea un nuovo contenuto da un modello di pubblicazione. Il nuovo contenuto verrà salvato nel file specificato nel campo **[!UICONTROL String]**. Il campo **[!UICONTROL Template]** specifica il modello di pubblicazione da utilizzare per creare il contenuto.
 
-     ![](assets/content_mgmt_new.png)
+     ![Sezione contenuto con nuovo, creata da un modello di pubblicazione selezionato e dai campi Modello e Canale](assets/content_mgmt_new.png)
 
 1. **Aggiorna contenuto**
 
@@ -83,7 +83,7 @@ Le proprietà dell’attività sono suddivise in tre passaggi:
 
      Questa opzione consente di creare il contenuto da un documento XML scaricato tramite un foglio di stile XSL. Quando questa opzione è selezionata, il campo **[!UICONTROL URL]** specifica l&#39;URL di download del contenuto XML. **[!UICONTROL XSL stylesheet]** consente di specificare il foglio di stile da utilizzare per trasformare il documento XML scaricato. Questa proprietà è facoltativa.
 
-     ![](assets/content_mgmt_xmlcontent.png)
+     ![Aggiorna sezione contenuto con accesso ai dati da un feed XML selezionato, con i campi del foglio di stile URL e XSL](assets/content_mgmt_xmlcontent.png)
 
 1. **Azione da eseguire**
 
@@ -97,7 +97,7 @@ Le proprietà dell’attività sono suddivise in tre passaggi:
 
      Questa opzione consente di salvare il contenuto e quindi di generare i file di output per ciascun modello di trasformazione con una pubblicazione di tipo &quot;File&quot;.
 
-     ![](assets/content_mgmt_generate.png)
+     ![Azione da eseguire nella sezione con Genera selezionata e il campo Cartella di pubblicazione visualizzato](assets/content_mgmt_generate.png)
 
      La transizione in uscita viene attivata per ogni file generato con l&#39;identificatore del contenuto salvato nella variabile **[!UICONTROL contentId]** come parametro e il nome file nella variabile **[!UICONTROL filename]**.
 

@@ -22,10 +22,10 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1835'
-ht-degree: 4%
+source-wordcount: '2149'
+ht-degree: 3%
 ---
 # Dividi{#split}
 
@@ -37,9 +37,9 @@ Questa attività non attiva un’unione di popolazioni in entrata. Se più trans
 >
 >Non è possibile eseguire operazioni di suddivisione per tabelle con origini diverse. A questo scopo, devi aggiungere un&#39;attività **Enrichment** prima dell&#39;attività **Split**.
 
-* Per un esempio dell&#39;attività divisa in uso, fare riferimento a [questa sezione](targeting-workflows.md#create-subsets-using-the-split-activity).
-* Un esempio che illustra come utilizzare l&#39;attività Split per segmentare la destinazione in popolazioni diverse utilizzando condizioni di filtro è descritto in [questa sezione](cross-channel-delivery-workflow.md).
-* Un esempio che mostra come utilizzare una variabile di istanza in un&#39;attività Split è disponibile in [questa sezione](javascript-scripts-and-templates.md).
+* Per un esempio dell&#39;attività divisa in uso, fare riferimento a [Creare sottoinsiemi utilizzando l&#39;attività Divisione](targeting-workflows.md#create-subsets-using-the-split-activity).
+* Un esempio che illustra come utilizzare l&#39;attività Split per segmentare la destinazione in popolazioni diverse utilizzando condizioni di filtro è descritto in [Flusso di lavoro di consegna cross-channel](cross-channel-delivery-workflow.md).
+* Un esempio che mostra come utilizzare una variabile di istanza in un&#39;attività Split è disponibile in [script e modelli di JavaScript](javascript-scripts-and-templates.md).
 
 Per configurare questa attività, definire il contenuto e l&#39;etichetta del sottoinsieme nella scheda **[!UICONTROL Subsets]**, quindi scegliere la dimensione di destinazione nella scheda **[!UICONTROL General]**.
 
@@ -62,11 +62,11 @@ Per creare un sottoinsieme:
 
    Una procedura guidata consente di scegliere la modalità di selezione per i record di questo sottoinsieme. [Ulteriori informazioni](#limit-the-number-of-subset-records).
 
-   ![](assets/s_user_segmentation_partage4.png)
+   ![Scheda Subset con subset 1, Limita i record selezionati e il collegamento Modifica che apre la procedura guidata di limitazione](assets/s_user_segmentation_partage4.png)
 
 1. Puoi **aggiungere altri sottoinsiemi** utilizzando il pulsante **[!UICONTROL Add]**.
 
-   ![](assets/s_user_segmentation_partage_add.png)
+   ![Scheda Sottoinsiemi con il pulsante Aggiungi e le schede Sottoinsieme 1, Sottoinsieme 2 e Sottoinsieme 3 nella parte inferiore](assets/s_user_segmentation_partage_add.png)
 
    >[!NOTE]
    >
@@ -74,7 +74,7 @@ Per creare un sottoinsieme:
 
    Per ogni sottoinsieme creato, all’attività divisa verrà aggiunta una transizione in uscita.
 
-   ![](assets/s_user_segmentation_partage_add2.png)
+   ![Attività divisa con una transizione in uscita per sottoinsieme: sottoinsieme 1, sottoinsieme 2 e sottoinsieme 3](assets/s_user_segmentation_partage_add2.png)
 
    Puoi scegliere di generare una singola transizione in uscita (e identificare i set utilizzando, ad esempio, il codice di segmento): a questo scopo, seleziona l&#39;opzione **[!UICONTROL Generate subsets in the same table]** nella scheda **[!UICONTROL General]**.
 
@@ -93,15 +93,15 @@ Se non si desidera utilizzare l&#39;intera popolazione contenuta in un sottoinsi
 
      Ad esempio, se si seleziona il campo **[!UICONTROL Age]** come criterio di ordinamento e si definisce un limite di 100, ma i 2000 destinatari più giovani nel database sono tutti 18, verranno selezionati in modo casuale 100 di questi 2000.
 
-   ![](assets/s_user_segmentation_partage_wz1.png)
+   ![Tipo di passaggio della procedura guidata Limite: campionamento casuale, primi record dopo l&#39;ordinamento o primi record dopo l&#39;ordinamento (criteri, casuale)](assets/s_user_segmentation_partage_wz1.png)
 
 1. Se si desidera definire i criteri di ordinamento, è possibile definire le colonne e l&#39;ordine di ordinamento in un passaggio aggiuntivo.
 
-   ![](assets/s_user_segmentation_partage_wz1.1.png)
+   ![Passaggio della procedura guidata di ordinamento con dimensioni di targeting e filtro e colonne di ordinamento Data di creazione e società, decrescente](assets/s_user_segmentation_partage_wz1.1.png)
 
 1. Quindi scegli il metodo di limitazione dei dati.
 
-   ![](assets/s_user_segmentation_partage_wz2.png)
+   ![Passaggio della procedura guidata Limita la dimensione (in %) selezionata e impostata su 10.00, oltre alle altre opzioni di limitazione dei dati](assets/s_user_segmentation_partage_wz2.png)
 
    Esistono diversi modi per farlo:
 
@@ -125,15 +125,15 @@ Ad esempio, se si seleziona il campo **[!UICONTROL Language]** come campo di gru
 
 1. Dopo aver selezionato i valori di limitazione dei dati, selezionare **[!UICONTROL By data grouping]** o **[!UICONTROL By data grouping (as a %)]** e fare clic su **[!UICONTROL Next]**.
 
-   ![](assets/s_user_segmentation_partage_wz3.png)
+   ![Passaggio della procedura guidata Limita l&#39;opzione Per raggruppamento dati selezionata e viene richiesto di fare clic su Avanti per immettere le informazioni aggiuntive](assets/s_user_segmentation_partage_wz3.png)
 
 1. Selezionare quindi i campi di raggruppamento (il campo **[!UICONTROL Language]** per l&#39;istanza) e fare clic su **[!UICONTROL Next]**.
 
-   ![](assets/s_user_segmentation_partage_wz4.png)
+   ![Passaggio della procedura guidata di raggruppamento dati che elenca il campo Lingua come espressione di raggruppamento](assets/s_user_segmentation_partage_wz4.png)
 
 1. Infine, specifica le soglie di raggruppamento dei dati (utilizzando valori fissi o percentuali a seconda del metodo di raggruppamento selezionato in precedenza). Per impostare la stessa soglia per ogni valore, ad esempio per impostare su 10 il numero di record per ogni lingua, selezionare l&#39;opzione **[!UICONTROL All data groupings are the same size]**. Per impostare un limite diverso per ogni valore, selezionare l&#39;opzione **[!UICONTROL Limitations by grouping value]**. Questo ti consentirà di scegliere un limite diverso per inglese, francese, ecc.
 
-   ![](assets/s_user_segmentation_partage_wz5.png)
+   ![Passaggio di raggruppamento dati con tutti i raggruppamenti dati sono selezionati della stessa dimensione e un valore di 8](assets/s_user_segmentation_partage_wz5.png)
 
 1. Fai clic su **[!UICONTROL Finish]** per approvare la limitazione e tornare alla modifica dell&#39;attività di suddivisione.
 
@@ -141,9 +141,9 @@ Ad esempio, se si seleziona il campo **[!UICONTROL Language]** come campo di gru
 
 Se i campi di raggruppamento contengono un numero eccessivo di valori o se desideri evitare di reimpostare i valori per ogni nuova attività di suddivisione, Adobe Campaign ti consente di creare un limite per la distribuzione dei dati. Quando selezioni [valori limite dati](#create-subsets) sezione), seleziona l&#39;opzione **[!UICONTROL By data distribution]** e seleziona un modello dal menu a discesa. La creazione di un modello di distribuzione dei dati è illustrata di seguito.
 
-Per un esempio dell&#39;attività **[!UICONTROL Local approval]** con un modello di distribuzione, vedere [questa pagina](local-approval-activity.md).
+Per un esempio dell&#39;attività **[!UICONTROL Local approval]** con un modello di distribuzione, vedere [Utilizzare l&#39;attività di approvazione locale](local-approval-activity.md).
 
-![](assets/s_user_segmentation_partage_wz6.png)
+![Passaggio della procedura guidata Limiti con la distribuzione dei dati Per selezionata e la distribuzione del modello applicata ai destinatari](assets/s_user_segmentation_partage_wz6.png)
 
 >[!CAUTION]
 >
@@ -153,11 +153,11 @@ Il modello di distribuzione dati consente di limitare il numero di record utiliz
 
 1. Per creare il modello di distribuzione dei dati, passare al nodo **[!UICONTROL Resources > Campaign management > Data distribution]** e fare clic su **[!UICONTROL New]**.
 
-   ![](assets/local_validation_data_distribution_1.png)
+   ![Struttura di Explorer con il nodo Distribuzione dati in Gestione risorse e campagne e il pulsante Nuovo](assets/local_validation_data_distribution_1.png)
 
 1. La scheda **[!UICONTROL General]** consente di immettere l&#39;etichetta e il contesto di esecuzione della distribuzione (dimensione di targeting, campo di distribuzione).
 
-   ![](assets/local_validation_data_distribution_2.png)
+   ![Scheda Generale della distribuzione dei dati con dimensione di targeting, campo di distribuzione, tipo di distribuzione e archiviazione dell&#39;approvazione](assets/local_validation_data_distribution_2.png)
 
    È necessario inserire i campi seguenti:
 
@@ -171,7 +171,7 @@ Il modello di distribuzione dati consente di limitare il numero di record utiliz
 
 1. Se si utilizza un&#39;attività [Approvazione locale](local-approval.md), immettere **[!UICONTROL Advanced settings]** per il modello di distribuzione:
 
-   ![](assets/local_validation_data_distribution_3.png)
+   ![Parametri avanzati con le impostazioni Approva i messaggi target, Etichetta di consegna, Campo di raggruppamento e Interfaccia Web](assets/local_validation_data_distribution_3.png)
 
    È necessario inserire i campi seguenti:
 
@@ -181,21 +181,21 @@ Il modello di distribuzione dati consente di limitare il numero di record utiliz
      >
      >Questa opzione è selezionata per impostazione predefinita.
 
-     ![](assets/local_validation_notification.png)
+     ![Elenco di notifiche di approvazione dei destinatari da approvare, ciascuno con una casella selezionata evidenziata in rosso](assets/local_validation_notification.png)
 
    * **[!UICONTROL Delivery label]**: consente di definire un&#39;espressione per visualizzare l&#39;etichetta di consegna nella notifica di ritorno. L’espressione predefinita fornisce informazioni sull’etichetta standard della consegna (stringa di calcolo). È possibile modificare questa espressione.
 
-     ![](assets/local_validation_notification_3.png)
+     ![Notifica di feedback della consegna con la riga di consegna, che mostra l&#39;etichetta di consegna, evidenziata in rosso](assets/local_validation_notification_3.png)
 
    * **[!UICONTROL Grouping field]**: questo campo consente di definire il raggruppamento utilizzato per visualizzare i destinatari nelle notifiche di approvazione e di ritorno.
 
-     ![](assets/local_validation_notification_4.png)
+     ![Elenco approvazioni in cui i destinatari sono raggruppati sotto le intestazioni Maschio e Femmina evidenziate in rosso](assets/local_validation_notification_4.png)
 
    * **[!UICONTROL Web Interface]**: consente di collegare un&#39;applicazione Web all&#39;elenco dei destinatari. Nella notifica di approvazione e di ritorno, ogni destinatario sarà cliccabile e si collegherà all’applicazione web selezionata. Il campo **[!UICONTROL Parameters]** (ad esempio **[!UICONTROL recipientId]**) consente di configurare il parametro aggiuntivo da utilizzare nell&#39;URL e nell&#39;applicazione Web.
 
 1. La scheda **[!UICONTROL Breakdown]** consente di definire l&#39;elenco dei valori di distribuzione.
 
-   ![](assets/local_validation_data_distribution_4.png)
+   ![Scheda Raggruppamento in cui sono elencati i valori dei campi di distribuzione con la relativa percentuale, etichetta e gruppo o operatore](assets/local_validation_data_distribution_4.png)
 
    * **[!UICONTROL Value]**: immettere i valori di distribuzione.
    * **[!UICONTROL Percentage / Set]**: immettere il limite di record (fisso o percentuale) collegato a ciascun valore.
@@ -215,11 +215,11 @@ Il modello di distribuzione dati consente di limitare il numero di record utiliz
 
 Fare clic sulla scheda **[!UICONTROL General]** per immettere l&#39;etichetta dell&#39;attività. Selezionare le dimensioni di destinazione e filtro per la suddivisione. Se necessario, potete modificare queste dimensioni per un determinato sottoinsieme.
 
-![](assets/s_user_segmentation_partage_general.png)
+![Scheda Generale dell&#39;attività Dividi con dimensioni di targeting e filtro e opzione Genera complemento selezionata](assets/s_user_segmentation_partage_general.png)
 
 Selezionare l&#39;opzione **[!UICONTROL Generate complement]** se si desidera sfruttare il gruppo rimanente. Il complemento è il target in entrata meno l’unione dei sottoinsiemi. Verrà quindi aggiunta all’attività un’ulteriore transizione in uscita, come segue:
 
-![](assets/s_user_segmentation_partage_compl.png)
+![Attività divisa con transizioni in uscita Sottoinsieme 1, Sottoinsieme 2, Sottoinsieme 3 e transizione di complemento aggiuntiva](assets/s_user_segmentation_partage_compl.png)
 
 Affinché questa opzione funzioni correttamente, i dati in entrata devono avere una chiave primaria.
 

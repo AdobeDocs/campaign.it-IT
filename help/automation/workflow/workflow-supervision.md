@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '772'
 ht-degree: 0%
 ---
 # Caso di utilizzo: supervisione dei flussi di lavoro{#supervising-workflows}
@@ -49,7 +49,7 @@ Per monitorare lo stato di un set di flussi di lavoro, è necessario seguire que
 >
 >Oltre al flusso di lavoro, Campaign **Workflow Heatmap** ti consente di analizzare in dettaglio i flussi di lavoro attualmente in esecuzione. Per ulteriori informazioni, consulta la [sezione dedicata](heatmap.md).
 >
->Per ulteriori informazioni su come **monitorare l&#39;esecuzione dei flussi di lavoro**, consulta [questa sezione](monitor-workflow-execution.md).
+>Per ulteriori informazioni su come **monitorare l&#39;esecuzione dei flussi di lavoro**, consulta [Monitorare l&#39;esecuzione dei flussi di lavoro](monitor-workflow-execution.md).
 
 ## Passaggio 1: creazione del flusso di lavoro di monitoraggio {#step-1--creating-the-monitoring-workflow}
 
@@ -59,7 +59,7 @@ Il **flusso di lavoro di monitoraggio** è archiviato nella directory principale
 
 Lo schema seguente mostra la sequenza di attività:
 
-![](assets/uc_monitoring_workflow_overview.png)
+![Flusso di lavoro di supervisione con attività Start, JavaScript, Test, Delivery e Wait collegate da transizioni](assets/uc_monitoring_workflow_overview.png)
 
 Questo flusso di lavoro è costituito da:
 
@@ -137,11 +137,11 @@ L’attività &quot;Test&quot; consente di determinare se una consegna deve esse
 
 Viene inviata una consegna al supervisore **se almeno una delle tre variabili di evento &quot;vars.strWorkflowError&quot;, &quot;vars.strWorkflowPaused&quot; o &quot;vars.strWorkflowStop&quot; non è nulla.**
 
-![](assets/uc_monitoring_workflow_test.png)
+![Attività di test con una condizione True per verificare che le tre lunghezze delle variabili del flusso di lavoro siano 0 e un valore predefinito False](assets/uc_monitoring_workflow_test.png)
 
 L’attività &quot;Attendi&quot; può essere configurata per riavviare il flusso di lavoro di monitoraggio a intervalli regolari. Per questo caso d&#39;uso, **il tempo di attesa è impostato su un&#39;ora**.
 
-![](assets/uc_monitoring_workflow_attente.png)
+![Attività di attesa con il campo Durata impostato su 1h](assets/uc_monitoring_workflow_attente.png)
 
 ## Passaggio 4: preparazione della consegna {#step-4--preparing-the-delivery}
 
@@ -152,7 +152,7 @@ Questo modello deve includere:
 * **l&#39;indirizzo di posta elettronica del supervisore**.
 * **Contenuto HTML** per l&#39;inserimento di testo personalizzato.
 
-  ![](assets/uc_monitoring_workflow_variables_diffusion.png)
+  ![Scheda Variabili del modello di consegna con WF_Stop, WF_Error e WF_Paused come variabili di testo](assets/uc_monitoring_workflow_variables_diffusion.png)
 
   Le tre variabili dichiarate (WF_Stop, WF_Paused, WF_Error) corrispondono alle tre variabili di evento del flusso di lavoro.
 
@@ -162,7 +162,7 @@ Questo modello deve includere:
 
   Il modello di consegna ha il seguente contenuto:
 
-  ![](assets/uc_monitoring_workflow_model_diffusion.png)
+  ![Contenuto HTML del modello di consegna con intestazioni e variabili di flussi di lavoro di tipo Errore, Sospeso e Arrestato.WF_ tags](assets/uc_monitoring_workflow_model_diffusion.png)
 
 Una volta creato e approvato il modello, devi configurare l&#39;attività **Delivery** in:
 
@@ -176,13 +176,13 @@ Fare doppio clic sull&#39;attività **Consegna** e selezionare le opzioni seguen
 * Azione da eseguire: selezionare **Prepara e avvia**.
 * Deseleziona l&#39;opzione **Errori di processo**.
 
-  ![](assets/uc_monitoring_workflow_optionmodel.png)
+  ![Attività di consegna con nuovo, creata da un modello, specificata nella consegna e selezionata per Prepara e avvia](assets/uc_monitoring_workflow_optionmodel.png)
 
 * Vai alla scheda **Script** dell&#39;attività **Consegna**, aggiungi tre variabili di tipo **stringa di caratteri** tramite il menu del campo di personalizzazione.
 
-  ![](assets/uc_monitoring_workflow_selectlinkvariables.png)
+  ![Scheda Script dell&#39;attività Consegna con il menu di personalizzazione aperto su Consegna e l&#39;opzione Altro](assets/uc_monitoring_workflow_selectlinkvariables.png)
 
-  ![](assets/uc_monitoring_workflow_linkvariables.png)
+  ![Finestra dei campi disponibili con le variabili selezionate e il campo Valore (testo) evidenziato](assets/uc_monitoring_workflow_linkvariables.png)
 
   Le tre variabili dichiarate sono:
 

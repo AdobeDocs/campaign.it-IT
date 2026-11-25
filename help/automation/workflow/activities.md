@@ -26,26 +26,26 @@ topic_v2:
     internal-label: Implementation
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 23%
+source-wordcount: '141'
+ht-degree: 15%
 ---
 # Attività del flussi di lavoro{#wf-activities}
 
 Le attività del flusso di lavoro sono raggruppate per categoria, in quattro schede diverse.
 
-![](assets/wf-activity-tabs.png)
+![Tavolozza delle attività con le quattro schede delle categorie evidenziate e le attività di targeting elencate.](assets/wf-activity-tabs.png)
 
 A seconda delle autorizzazioni, dell’implementazione e del contesto in cui viene progettato il flusso di lavoro, le attività disponibili possono essere diverse.
 
 Ad esempio, i flussi di lavoro creati in una campagna hanno una scheda **Consegne** specifica, con tutti i canali. Questa scheda non è disponibile in [flusso di lavoro tecnico](technical-workflows.md).
 
-![](assets/campaign-wf-activities.png)
+![Scheda Consegne di un flusso di lavoro della campagna: e-mail, direct mailing, dispositivi mobili, iOS, Android, altro e consegna ricorrente.](assets/campaign-wf-activities.png)
 
 I flussi di lavoro tecnici hanno una scheda **Eventi** specifica che non è disponibile nei [flussi di lavoro per campagne](campaign-workflows.md).
 
-![](assets/tech-wf-activities.png)
+![Scheda Eventi di un flusso di lavoro tecnico: Agente di raccolta file, Trasferimento file, Download Web, E-mail in entrata e SMS in entrata.](assets/tech-wf-activities.png)
 
 Tutte le attività sono descritte nelle sezioni seguenti:
 

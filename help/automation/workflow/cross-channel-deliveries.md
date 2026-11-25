@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 3%
+source-wordcount: '337'
+ht-degree: 2%
 ---
 # Consegne cross-channel{#cross-channel-deliveries}
 
@@ -46,26 +46,26 @@ Nell’esempio seguente, scopri come creare un flusso di lavoro per inviare un�
    >
    >Per le notifiche push, utilizza la dimensione di destinazione **applicazioni in abbonamento**.
 
-   ![](assets/cross_channel_delivery_1.png)
+   ![Attività Query con lo schema delle applicazioni in abbonamento selezionato come documento su cui filtrare.](assets/cross_channel_delivery_1.png)
 
 1. Aggiungi le condizioni del filtro alla query. In questo caso, selezioneremo i destinatari che hanno un numero di cellulare o un indirizzo e-mail.
 
-   ![](assets/cross_channel_delivery_2.png)
+   ![Il filtro di query con Mobile non è vuoto e una condizione Or per E-mail non è vuota.](assets/cross_channel_delivery_2.png)
 
 1. Aggiungi un&#39;attività **[!UICONTROL Split]** al flusso di lavoro per dividere i destinatari con un numero di cellulare e quelli con un indirizzo e-mail.
 1. Nella scheda **[!UICONTROL Delivery]**, seleziona una consegna per ciascuno degli oggetti.
 
    Crea la consegna nello stesso modo in cui crei una procedura guidata di consegna classica facendo doppio clic sull’attività di consegna nel flusso di lavoro.
 
-   ![](assets/cross_channel_delivery_3.png)
+   ![Flusso di lavoro della campagna con una query e una suddivisione che portano a una consegna tramite dispositivi mobili e una consegna tramite e-mail.](assets/cross_channel_delivery_3.png)
 
 1. Aggiungere e configurare un&#39;attività **[!UICONTROL Wait]** in modo che i destinatari non ricevano troppe consegne contemporaneamente.
 1. Aggiungi un&#39;attività **[!UICONTROL Split]** per dividere gli abbonati di un&#39;app mobile iOS o Android.
 
    Selezionare un servizio per ciascun sistema operativo.
 
-   ![](assets/cross_channel_delivery_4.png)
+   ![Finestra di dialogo per query con le applicazioni in abbonamento come dimensione di targeting e i sottoscrittori di un&#39;app mobile Android selezionata.](assets/cross_channel_delivery_4.png)
 
 1. Seleziona e configura la consegna di un’app mobile per ciascuno dei sistemi operativi.
 
-   ![](assets/cross_channel_delivery_5.png)
+   ![Flusso di lavoro con consegne e-mail e SMS che si uniscono a un&#39;attività Attendi, quindi una suddivisione per inviare le consegne iOS e Android push.](assets/cross_channel_delivery_5.png)

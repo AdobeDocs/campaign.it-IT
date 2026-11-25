@@ -25,10 +25,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 4%
+source-wordcount: '170'
+ht-degree: 3%
 ---
 # Motore di offerta{#offer-engine}
 
@@ -36,7 +36,7 @@ L&#39;attività **[!UICONTROL Offer engine]** ti consente di definire una chiama
 
 Questa attività funziona sullo stesso principio dell’attività di arricchimento con una chiamata al motore, arricchendo i dati della popolazione in entrata con un’offerta calcolata dal motore, prima di una consegna.
 
-![](assets/int_offerengine_activity2.png)
+![Diagramma del flusso di lavoro con l&#39;attività del motore di offerta inserita tra una query e una consegna direct mailing.](assets/int_offerengine_activity2.png)
 
 Dopo aver configurato la query (consulta questa [sezione](query.md)):
 
@@ -47,6 +47,6 @@ Dopo aver configurato la query (consulta questa [sezione](query.md)):
    >
    >Se utilizzi questa attività, verranno memorizzate solo le proposte di offerta utilizzate nella consegna.
 
-   ![](assets/int_offerengine_activity1.png)
+   ![Attività del motore di offerta con spazio, categoria, temi, numero di proposte da calcolare e data di contatto.](assets/int_offerengine_activity1.png)
 
 1. Quindi configura un’attività di consegna che corrisponde al canale scelto. Consulta [Consegne cross-channel](cross-channel-deliveries.md).

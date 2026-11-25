@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '1005'
 ht-degree: 4%
 ---
 # Creare un flusso di lavoro {#build-a-workflow}
@@ -31,7 +31,7 @@ Il flusso di creazione del flusso di lavoro dipende dal tipo di flussi di lavoro
 
 * Creare [flussi di lavoro di targeting](#targeting-workflows) dal nodo **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Jobs]** > **[!UICONTROL Targeting workflows]** di Explorer o dalla scheda **[!UICONTROL Profiles and Targets]** della home page tramite la scheda secondaria **[!UICONTROL Targeting workflows]**.
 
-  ![](assets/create-targeting-wf.png)
+  ![Elenco dei flussi di lavoro di targeting nella scheda Profili e destinazioni con il pulsante Crea evidenziato](assets/create-targeting-wf.png)
 
 * Crea [Flussi di lavoro per campagne](#campaign-workflows) dalla scheda **[!UICONTROL Targeting and workflows]** di una campagna
 
@@ -39,7 +39,7 @@ Il flusso di creazione del flusso di lavoro dipende dal tipo di flussi di lavoro
 
 Fare clic sul pulsante **[!UICONTROL New]** situato sopra l&#39;elenco dei flussi di lavoro.
 
-![](assets/create_a_wf_icon.png)
+![Elenco dei flussi di lavoro di targeting con il pulsante Nuovo evidenziato sopra l&#39;elenco](assets/create_a_wf_icon.png)
 
 Immettere un&#39;etichetta e fare clic su **[!UICONTROL Save]**.
 
@@ -47,7 +47,7 @@ Immettere un&#39;etichetta e fare clic su **[!UICONTROL Save]**.
 
 Devi ora definire le varie attività e collegarle nel diagramma. In questa fase della configurazione, è possibile visualizzare l’etichetta del diagramma e lo stato del flusso di lavoro (Modifica in corso). La sezione inferiore della finestra viene utilizzata solo per modificare il diagramma. Contiene una barra degli strumenti, una palette di attività (a sinistra) e il diagramma stesso (a destra).
 
-![](assets/new-workflow-2.png)
+![Editor flussi di lavoro con etichetta, stato in corso di modifica, barra degli strumenti, tavolozza attività e area del diagramma vuota](assets/new-workflow-2.png)
 
 >[!NOTE]
 >
@@ -66,17 +66,17 @@ Per creare il diagramma
 
    Aggiungi un&#39;attività **Inizio** e quindi un&#39;attività **Consegna** nel diagramma.
 
-   ![](assets/new-workflow-3.png)
+   ![Diagramma con un&#39;attività di inizio e un&#39;attività di consegna inserita](assets/new-workflow-3.png)
 
 1. Collega le attività trascinando la transizione dell&#39;attività **Start** e rilasciandola sull&#39;attività **Delivery**.
 
-   ![](assets/new-workflow-4.png)
+   ![Attività di avvio collegata da una transizione all&#39;attività di consegna](assets/new-workflow-4.png)
 
    Puoi collegare automaticamente un’attività alla precedente inserendo la nuova attività alla fine della transizione.
 
 1. Aggiungi le attività necessarie e collegale come mostrato nel diagramma seguente.
 
-   ![](assets/new-workflow-5.png)
+   ![Diagramma del flusso di lavoro che collega avvio, consegna, approvazione, controllo della consegna e fine con transizioni Sì e No](assets/new-workflow-5.png)
 
 >[!CAUTION]
 >
@@ -88,11 +88,11 @@ Per creare il diagramma
 
   La barra degli strumenti di modifica del diagramma consente di accedere alle funzioni di layout ed esecuzione del flusso di lavoro.
 
-  ![](assets/wf-toolbar.png)
+  ![Barra degli strumenti di modifica del diagramma evidenziata sopra un flusso di lavoro con query, unione, deduplicazione, suddivisione e consegne](assets/wf-toolbar.png)
 
   Questo consente di adattare il layout dello strumento di modifica: visualizzazione della palette e panoramica, dimensioni e allineamento degli oggetti grafici.
 
-  ![](assets/s_user_segmentation_toolbar.png)
+  ![Gruppi di barre degli strumenti: visualizzazione e layout, tracciamento ed esecuzione, pulsante Proprietà](assets/s_user_segmentation_toolbar.png)
 
   Le icone relative all’avanzamento e alla visualizzazione dei registri sono descritte in dettaglio nelle sezioni seguenti:
 
@@ -115,17 +115,17 @@ Fare doppio clic su un&#39;attività per configurarla oppure fare clic con il pu
 
 >[!NOTE]
 >
->Le attività del flusso di lavoro di Campaign sono descritte in [questa sezione](activities.md).
+>Le attività del flusso di lavoro di Campaign sono descritte in dettaglio in [Informazioni sulle attività del flusso di lavoro](activities.md).
 
 La prima scheda contiene la configurazione di base. La scheda **[!UICONTROL Advanced]** contiene i parametri aggiuntivi utilizzati in particolare per definire il comportamento quando si verifica un errore, specificare la durata di esecuzione di un&#39;attività e immettere uno script di inizializzazione.
 
 Per comprendere meglio le attività e migliorare la leggibilità del flusso di lavoro, puoi inserire commenti nelle attività.
 
-![](assets/example1-comment.png)
+![Scheda Avanzate attività query con un commento immesso nel campo Commento](assets/example1-comment.png)
 
 Questi commenti vengono visualizzati automaticamente quando gli operatori scorrono sull’attività.
 
-![](assets/example2-comment.png)
+![Testo del commento visualizzato in una descrizione comando quando il puntatore si trova sopra l&#39;attività di divisione nel diagramma](assets/example2-comment.png)
 
 
 ## Modelli di flusso di lavoro {#workflow-templates}
@@ -138,7 +138,7 @@ I modelli di flusso di lavoro sono archiviati nel nodo **[!UICONTROL Resources >
 
 Oltre alle consuete proprietà del flusso di lavoro, le proprietà del modello consentono di specificare il file di esecuzione per i flussi di lavoro creati in base a questo modello.
 
-![](assets/wf-template-properties.png)
+![Scheda Generale delle proprietà del flusso di lavoro con il selettore della cartella Esecuzione aperto nella cartella Flussi di lavoro](assets/wf-template-properties.png)
 
 ## Flussi di lavoro duplicati {#duplicate-workflows}
 
@@ -149,7 +149,7 @@ Adobe consiglia di duplicare un flusso di lavoro invece di eseguire un copia/inc
 1. Fai clic con il pulsante destro del mouse su un flusso di lavoro.
 1. Fai clic su **Duplica**.
 
-   ![](assets/duplicate-workflows.png)
+   ![Elenco dei flussi di lavoro con il menu di scelta rapida aperto ed opzione Duplica evidenziata](assets/duplicate-workflows.png)
 
 1. Nella finestra del flusso di lavoro, modifica l’etichetta del flusso di lavoro.
 1. Fai clic su **Salva**.

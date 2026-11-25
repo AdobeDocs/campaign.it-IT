@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '329'
 ht-degree: 1%
 ---
 # Gestire le autorizzazioni del flusso di lavoro{#managing-rights}
@@ -40,7 +40,7 @@ In generale, gli operatori che agiscono sui flussi di lavoro devono accedere ai 
 
 Devono inoltre essere mappati ai diritti denominati che coincidono con le azioni eseguite dai flussi di lavoro che avranno effetto (importazione dei destinatari, accesso ai file, fusione, esecuzione di script SQL, ecc.).
 
-Per ulteriori informazioni sulla gestione di operatori e autorizzazioni, consulta [questa sezione](../../v8/start/gs-permissions.md).
+Per ulteriori informazioni sulla gestione di operatori e autorizzazioni, consulta [Introduzione alle autorizzazioni in Campaign v8](../../v8/start/gs-permissions.md).
 
 ## Gruppi di operatori {#operator-groups-wf}
 

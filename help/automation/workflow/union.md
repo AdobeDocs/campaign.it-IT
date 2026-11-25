@@ -19,20 +19,20 @@ subfeature_v2:
     internal-label: Workflows
   - id: ff84ab2f-a7c2-4ced-a3c8-5113f4348d99
     internal-label: Targeting Activity
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '333'
 ht-degree: 2%
 ---
 # Unione{#union}
 
 **[!UICONTROL Union]** raggruppa il risultato di diverse attività in entrata in un&#39;unica destinazione. Il target viene creato con tutti i risultati ricevuti: tutte le attività precedenti devono quindi essere completate affinché l&#39;unione possa essere eseguita.
 
-![](assets/s_user_segmentation_union.png)
+![Attività unione con opzioni di riconciliazione, casella di controllo Limita le dimensioni della popolazione generata ed etichetta risultati](assets/s_user_segmentation_union.png)
 
 >[!NOTE]
 >
->Per ulteriori informazioni sulla configurazione e sull&#39;utilizzo dell&#39;attività **[!UICONTROL Union]**, fare riferimento a [questa pagina](targeting-workflows.md#combine-several-targets--union-).
+>Per ulteriori informazioni sulla configurazione e sull&#39;utilizzo dell&#39;attività **[!UICONTROL Union]**, vedere [Combinare più destinazioni (Unione)](targeting-workflows.md#combine-several-targets--union-).
 
 ## Esempio di unione {#union-example}
 
@@ -49,7 +49,7 @@ Nell’esempio seguente, i risultati di due query sono stati combinati per aggio
 1. Approva l&#39;attività **[!UICONTROL Union]**, quindi configura l&#39;attività [Aggiornamento elenco](list-update.md).
 1. Avvia il flusso di lavoro. Viene visualizzato il numero di risultati e viene creato o aggiornato l’elenco definito nell’attività di aggiornamento elenco. Questo elenco contiene il set di destinatari per entrambe le query o, se applicabile, il numero definito al passaggio precedente.
 
-   ![](assets/union_example.png)
+   ![Flusso di lavoro in cui due query alimentano un&#39;attività di unione, che restituisce 5 risultati in un&#39;attività di aggiornamento elenco](assets/union_example.png)
 
 ## Parametri di input {#input-parameters}
 

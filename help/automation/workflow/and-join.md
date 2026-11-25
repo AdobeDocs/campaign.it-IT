@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 22%
+source-wordcount: '212'
+ht-degree: 16%
 ---
 # AND-join{#and-join}
 
@@ -34,7 +34,7 @@ Un join attiva la relativa transizione in uscita solo quando vengono attivate tu
 
 Ad esempio, puoi utilizzare un’attività AND-join nel contesto della creazione di contenuti e dell’automazione dell’invio della consegna, per assicurarti che una consegna venga avviata solo una volta completati i passaggi di query di destinazione e aggiornamenti dei contenuti. Un caso d’uso dedicato è disponibile in
 
-![](assets/and-join-usage.png)
+![Flusso di lavoro in cui un fork esegue in parallelo una query e la gestione dei contenuti in un AND-join prima della consegna.](assets/and-join-usage.png)
 
 >[!NOTE]
 >
@@ -46,4 +46,4 @@ La transizione in uscita può contenere solo una delle popolazioni di transizion
 
 >[!CAUTION]
 >
->Nel caso di attività di tipo **AND-join**, le variabili evento vengono unite ma se viene definita due volte la stessa variabile, si verifica un conflitto e il valore rimane indeterminato. Per ulteriori informazioni al riguardo, consulta [questa sezione](javascript-scripts-and-templates.md#event-variables).
+>Nel caso di attività di tipo **AND-join**, le variabili evento vengono unite ma se viene definita due volte la stessa variabile, si verifica un conflitto e il valore rimane indeterminato. Per ulteriori informazioni, consulta [Variabili evento](javascript-scripts-and-templates.md#event-variables).

@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '532'
 ht-degree: 1%
 ---
 # Aggiornare un elenco{#list-update}
@@ -36,13 +36,13 @@ ht-degree: 1%
 
 Un&#39;attività **List update** memorizza la popolazione specificata nella transizione in un elenco di destinatari.
 
-![](assets/s_user_segmentation_update_group.png)
+![Editor attività di aggiornamento elenco con le opzioni specificate esplicitamente selezionate, cartella Elenchi e tipo di salvataggio.](assets/s_user_segmentation_update_group.png)
 
 L’elenco può essere selezionato dall’elenco dei gruppi esistenti.
 
 Può essere creato anche utilizzando le opzioni **[!UICONTROL Create the list if necessary (Computed name)]** e **[!UICONTROL Create the list if necessary (Computed Folder and Name)]**. Queste opzioni consentono di selezionare l&#39;etichetta desiderata per creare un elenco e, successivamente, la cartella in cui verrà salvato. L’etichetta può anche essere generata automaticamente inserendo campi dinamici o uno script. I diversi campi dinamici sono disponibili nel menu a comparsa a destra dell’etichetta.
 
-![](assets/s_user_segmentation_update_list_calc.png)
+![Attività di aggiornamento elenco con creazione dell&#39;elenco, se necessario (nome calcolato), selezionata e uno script di etichetta calcolato.](assets/s_user_segmentation_update_list_calc.png)
 
 Se l&#39;elenco esiste già, i destinatari verranno aggiunti al contenuto esistente, a meno che non si selezioni l&#39;opzione **[!UICONTROL Purge the list if it exists (otherwise add to the list)]**. In questo caso, il contenuto dell’elenco viene eliminato prima dell’aggiornamento.
 
@@ -52,7 +52,7 @@ Per utilizzare l’opzione, le tabelle specifiche in questione devono essere sta
 
 In genere, il salvataggio di una destinazione in un elenco indica la fine di un flusso di lavoro. Per impostazione predefinita, l&#39;attività **[!UICONTROL List update]** non ha quindi una transizione in uscita. Selezionare l&#39;opzione **[!UICONTROL Generate an outbound transition]** per aggiungerne una.
 
-![](assets/do-not-localize/how-to-video.png) [Scopri come creare un elenco di destinatari da Esplora risorse nel video](#video)
+![Icona pulsante di riproduzione per il collegamento video.](assets/do-not-localize/how-to-video.png) [Scopri come creare un elenco di destinatari da Esplora risorse nel video](#video)
 
 ## Esempio: aggiornamento elenco {#example--list-update}
 
@@ -71,7 +71,7 @@ Nell’esempio seguente, l’attività di aggiornamento dell’elenco segue una 
 1. Lascia deselezionata l&#39;opzione **[!UICONTROL Generate an outbound transition]**.
 1. Fai clic su **[!UICONTROL Ok]**, quindi avvia il flusso di lavoro.
 
-   ![](assets/s_user_segmentation_update_list_calc_example.png)
+   ![Attività di aggiornamento elenco impostata per creare l&#39;elenco M_WestUS_18-30 nella cartella Elenchi, con l&#39;opzione di eliminazione e riutilizzo selezionata.](assets/s_user_segmentation_update_list_calc_example.png)
 
    Viene quindi creato o aggiornato l’elenco dei destinatari corrispondenti.
 

@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 5%
+source-wordcount: '527'
+ht-degree: 4%
 ---
 # Parametri avanzati{#advanced-parameters}
 
@@ -39,11 +39,11 @@ La schermata delle proprietà di un&#39;attività include una scheda **[!UICONTR
 
 * una versione semplificata (per **[!UICONTROL Start]** e **[!UICONTROL End]** attività, ad esempio)
 
-  ![](assets/wf-advanced-basic.png)
+  ![Scheda Avanzate semplificate di un&#39;attività Inizio con campi Nome, Immagine, Script di inizializzazione e Commento.](assets/wf-advanced-basic.png)
 
 * una versione più dettagliata (per l&#39;attività **[!UICONTROL Query]**, ad esempio)
 
-  ![](assets/wf-advanced-full.png)
+  ![Scheda Avanzata dettagliata di un&#39;attività Query con campi di gestione di esecuzione, affinità, comportamento, fuso orario ed errori.](assets/wf-advanced-full.png)
 
 I campi da immettere nella scheda **[!UICONTROL Advanced]** sono descritti nelle sezioni seguenti.
 

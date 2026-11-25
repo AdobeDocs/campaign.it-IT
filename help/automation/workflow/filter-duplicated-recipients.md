@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 4%
+source-wordcount: '206'
+ht-degree: 2%
 ---
 # Filtrare i destinatari duplicati {#filtering-duplicated-recipients}
 
@@ -37,19 +37,19 @@ Per creare questo esempio, attieniti alla seguente procedura:
 1. Trascinare e rilasciare un&#39;attività **[!UICONTROL Query]** in un flusso di lavoro e aprire l&#39;attività.
 1. Fare clic su **[!UICONTROL Edit query]** e impostare la destinazione e le dimensioni filtro su **[!UICONTROL Recipients]**.
 
-   ![](assets/query_recipients_1.png)
+   ![Passaggio della dimensione di targeting e filtro dell&#39;attività Query con destinatari selezionati, condizioni di filtro evidenziate.](assets/query_recipients_1.png)
 
 1. Definisci la seguente condizione di filtro per eseguire il targeting dei destinatari esistenti nel registro di consegna. Scegliere **Registro recapito destinatari (broadlog)** nella colonna **Espressione**, scegliere **esiste come** nella colonna **Operatore**.
 
-   ![](assets/query_recipients_2.png)
+   ![Passaggio filtro con la condizione Registri di consegna destinatari (broadLog) e l&#39;operatore esiste come.](assets/query_recipients_2.png)
 
 1. Definisci la seguente condizione di filtro per eseguire il targeting della consegna. Scegliere **[!UICONTROL Internal name]** nella colonna Espressione e **[!UICONTROL equal to]** nella colonna Operatore.
 1. Nella colonna Valore aggiungi il nome interno della consegna di destinazione.
 
-   ![](assets/query_recipients_3.png)
+   ![Condizione filtro in base al nome interno della consegna, uguale al valore summer_delivery_sales, in esistente ad esempio.](assets/query_recipients_3.png)
 
 1. Con un operatore **[!UICONTROL AND]**, ripeti le stesse operazioni per eseguire il targeting di altre consegne.
 
-   ![](assets/query_recipients_4.png)
+   ![Esistono due condizioni, ad esempio quelle a cui si unisce And, con targeting summer_delivery_sales e summer_delivery_new_collection.](assets/query_recipients_4.png)
 
 La transizione in uscita contiene i destinatari duplicati target delle consegne.

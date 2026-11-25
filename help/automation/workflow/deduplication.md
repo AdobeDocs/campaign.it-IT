@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 14%
+source-wordcount: '1332'
+ht-degree: 12%
 ---
 # Deduplica{#deduplication}
 
@@ -66,7 +66,7 @@ La questione deve essere affrontata come segue:
 * Crea un&#39;attività **Union** per unificare ogni flusso in entrata.
 * Crea un&#39;attività **Deduplication** dopo l&#39;attività **Union**.
 
-![](assets/dedup-best-practice.png)
+![Due query unite da un&#39;unione, seguite da un&#39;attività Deduplication e da un aggiornamento elenco](assets/dedup-best-practice.png)
 
 ## Configurazione {#configuration}
 
@@ -74,7 +74,7 @@ Per configurare una deduplicazione, immetti l’etichetta, il metodo e i criteri
 
 1. Fare clic sul collegamento **[!UICONTROL Edit configuration...]** per definire la modalità di deduplicazione.
 
-   ![](assets/s_user_segmentation_dedup_param.png)
+   ![Finestra dell&#39;attività Deduplication con il collegamento Modifica configurazione nei parametri di deduplicazione](assets/s_user_segmentation_dedup_param.png)
 
 1. Seleziona il tipo di destinazione per questa attività (per impostazione predefinita, la deduplicazione è collegata ai destinatari) e il criterio da utilizzare, ovvero il campo per il quale valori identici ti consentono di identificare i duplicati.
 
@@ -84,30 +84,30 @@ Per configurare una deduplicazione, immetti l’etichetta, il metodo e i criteri
    >
    >Nel passaggio successivo, l&#39;opzione **[!UICONTROL Other]** consente di selezionare il criterio o i criteri da utilizzare:
 
-   ![](assets/s_user_segmentation_dedup_param2.png)
+   ![Passaggio dimensione di targeting con e-mail, SMS, telefono, fax, indirizzo postale e altre opzioni](assets/s_user_segmentation_dedup_param2.png)
 
 1. Nel passaggio successivo, l&#39;opzione **[!UICONTROL Other]** consente di selezionare il criterio o i criteri da utilizzare per valori identici.
 
-   ![](assets/s_user_segmentation_dedup_param3.png)
+   ![Identificazione del passaggio duplicati con la finestra Seleziona espressione e il campo Data di nascita selezionati](assets/s_user_segmentation_dedup_param3.png)
 
 1. Dall’elenco a discesa, seleziona il metodo di deduplicazione da utilizzare e inserisci il numero di duplicati da conservare.
 
-   ![](assets/s_user_segmentation_dedup_param4.png)
+   ![Passaggio del metodo di deduplicazione con Doubles da mantenere e l&#39;elenco dei metodi che mostra quattro metodi](assets/s_user_segmentation_dedup_param4.png)
 
    Sono disponibili i seguenti metodi:
 
    * **[!UICONTROL Choose for me]**: seleziona in modo casuale il record da escludere dai duplicati.
    * **[!UICONTROL Following a list of values]**: ti consente di definire un valore di priorità per uno o più campi. Per definire i valori, seleziona un campo o crea un’espressione, quindi aggiungi i valori nella tabella appropriata. Per definire un nuovo campo, fai clic sul pulsante **[!UICONTROL Add]** situato sopra l’elenco dei valori.
 
-     ![](assets/s_user_segmentation_dedup_param5.png)
+     ![Segue un elenco di valori con le opzioni Inglese e Francese nell&#39;elenco di priorità e Altri valori](assets/s_user_segmentation_dedup_param5.png)
 
    * **[!UICONTROL Non-empty value]**: questo ti consente di conservare i record per i quali il valore dell’espressione selezionata non è vuoto come priorità.
 
-     ![](assets/s_user_segmentation_dedup_param6.png)
+     ![Metodo con valore non vuoto con il campo Espressione e il campo Numero account selezionati](assets/s_user_segmentation_dedup_param6.png)
 
    * **[!UICONTROL Using an expression]**: consente di conservare i record con il valore più basso (o più alto) dell&#39;espressione specificata.
 
-     ![](assets/s_user_segmentation_dedup_param7.png)
+     ![Utilizzo di un metodo di espressione con Status come espressione e Mantenimento dei record con il valore più grande selezionato](assets/s_user_segmentation_dedup_param7.png)
 
    >[!NOTE]
    >
@@ -119,11 +119,11 @@ Per configurare una deduplicazione, immetti l’etichetta, il metodo e i criteri
 
    Nella sezione inferiore della finestra dell’editor attività, puoi modificare l’etichetta per la transizione in uscita dell’oggetto grafico e inserire un codice di segmento che verrà associato al risultato dell’attività. Questo codice può essere utilizzato in seguito come criterio di targeting.
 
-   ![](assets/s_user_segmentation_dedup_param8.png)
+   ![Attività di deduplicazione con etichetta di risultato Target, codice segmento PRO e Genera complemento selezionata](assets/s_user_segmentation_dedup_param8.png)
 
 1. Selezionare l&#39;opzione **[!UICONTROL Generate complement]** se si desidera sfruttare il gruppo rimanente. Il complemento è costituito da tutti i duplicati. Verrà quindi aggiunta una transizione aggiuntiva all’attività, come segue:
 
-   ![](assets/s_user_segmentation_dedup_param9.png)
+   ![Tre query di profilo alimentano la deduplicazione, con output duplicati e di destinazione inviati a due attività di aggiornamento elenco](assets/s_user_segmentation_dedup_param9.png)
 
 ## Esempio: identificare i duplicati prima di una consegna {#example--identify-the-duplicates-before-a-delivery}
 
@@ -133,7 +133,7 @@ Lo scopo del flusso di lavoro è quello di definire il target di una consegna es
 
 I duplicati identificati saranno inoltre integrati in un elenco dedicato che può essere riutilizzato, se necessario.
 
-![](assets/deduplication_example.png)
+![Flusso di lavoro con un&#39;unione di tre query di profilo, deduplicazione, una consegna e un aggiornamento elenco nella transizione del complemento](assets/deduplication_example.png)
 
 1. Aggiungi e collega le varie attività necessarie per il funzionamento del flusso di lavoro, come illustrato in precedenza.
 
@@ -157,23 +157,23 @@ La funzionalità **[!UICONTROL Merge]** consente di configurare un set di regole
 
 Ad esempio, con un set di record duplicati, è possibile scegliere di mantenere il numero di telefono meno recente o il nome più recente.
 
-Un caso d&#39;uso che sfrutta questa funzione è disponibile in [questa sezione](deduplication-merge.md).
+Un caso d&#39;uso che sfrutta questa funzione è disponibile in [Utilizzare la funzionalità di unione dell&#39;attività Deduplicazione](deduplication-merge.md).
 
 Per farlo, segui questi passaggi:
 
 1. Nel passaggio di selezione **[!UICONTROL Deduplication method]**, fare clic sul collegamento **[!UICONTROL Advanced Parameters]**.
 
-   ![](assets/dedup1.png)
+   ![Passaggio del metodo di deduplicazione con il collegamento Parametri avanzati evidenziato](assets/dedup1.png)
 
 1. Selezionare l&#39;opzione **[!UICONTROL Merge records]** per attivare la funzionalità.
 
    Se si desidera raggruppare più campi dati in ciascuna condizione di unione, attivare l&#39;opzione **[!UICONTROL Use several record merging criteria]**.
 
-   ![](assets/dedup2.png)
+   ![Parametri avanzati con record di unione e utilizzo di diverse opzioni dei criteri di unione dei record selezionate](assets/dedup2.png)
 
 1. Dopo l&#39;attivazione della funzionalità, all&#39;attività **[!UICONTROL Deduplication]** viene aggiunta una scheda **[!UICONTROL Merge]**. Consente di definire gruppi di campi da unire e le relative regole associate.
 
-   Per ulteriori informazioni, consulta il caso d&#39;uso dedicato disponibile in [questa sezione](deduplication-merge.md).
+   Per ulteriori informazioni, consulta il caso d&#39;uso dedicato disponibile in [Utilizzare la funzionalità di unione dell&#39;attività Deduplicazione](deduplication-merge.md).
 
 ## Parametri di input {#input-parameters}
 

@@ -29,9 +29,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '285'
 ht-degree: 4%
 ---
 # Gestire i fusi orari{#managing-time-zones}
@@ -46,7 +46,7 @@ In un flusso di lavoro, puoi adattare i programmi di esecuzione dell’attività
 
 Per tutte le attività pianificate, ovvero tutte le attività con opzioni di pianificazione, è possibile selezionare il fuso orario da applicare. Il fuso orario viene selezionato tramite la scheda **[!UICONTROL Advanced]** dell&#39;attività interessata:
 
-![](assets/wf-timezone-in-a-box.png)
+![Scheda Avanzate dell&#39;utilità di pianificazione con il menu a discesa Fuso orario aperto, in cui sono elencati i fusi orari predefiniti, Server, Operatore e database.](assets/wf-timezone-in-a-box.png)
 
 I valori possibili sono:
 
