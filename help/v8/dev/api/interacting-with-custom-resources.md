@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%
@@ -48,12 +48,12 @@ Le risorse personalizzate esposte all’interno di questa API sono:
 
 Di seguito è riportato un esempio per recuperare i metadati da una risorsa personalizzata:
 
-```
+```http
 GET /customResources/resourceType/<customResourceName>
 ```
 
 Per eseguire una creazione, un aggiornamento o un’eliminazione, vengono utilizzati GET, POST, PATCH, DELETE.
 
-```
+```http
 POST /customResources/<customResourceName>
 ```

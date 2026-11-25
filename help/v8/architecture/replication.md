@@ -40,7 +40,7 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 2%
@@ -74,7 +74,7 @@ I criteri di replica definiscono la quantità di dati replicati da una tabella d
 
 Campaign v8 si basa su flussi di lavoro tecnici specifici per gestire la replica pianificata dei dati. Questi flussi di lavoro tecnici sono disponibili dal nodo **[!UICONTROL Administration > Production > Technical workflows > Full FFDA Replication]** di Campaign Explorer. **Non devono essere modificati.**
 
-I flussi di lavoro tecnici eseguono processi o processi, pianificati regolarmente sul server. L&#39;elenco completo dei flussi di lavoro tecnici è descritto in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=it){target="_blank"}.
+I flussi di lavoro tecnici eseguono processi o processi, pianificati regolarmente sul server. L&#39;elenco completo dei flussi di lavoro tecnici è descritto in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}.
 
 I flussi di lavoro tecnici che garantiscono la replica dei dati sono i seguenti:
 
@@ -93,7 +93,7 @@ Oltre al flusso di lavoro tecnico integrato **Replica tabelle di riferimento**, 
 
 * Aggiungi un&#39;attività **Codice JavaScript** specifica con il codice seguente:
 
-  ```
+  ```javascript
   nms.replicationStrategy.StartReplicateStagingData("dem:sampleTable")
   ```
 
@@ -101,7 +101,7 @@ Oltre al flusso di lavoro tecnico integrato **Replica tabelle di riferimento**, 
 
 * Aggiungi un&#39;attività **nlmodule** specifica con il comando seguente:
 
-  ```
+  ```bash
   nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
   ```
 
@@ -121,7 +121,7 @@ Le API consentono la replica di dati personalizzati e predefiniti dal database l
 
 Esempio:
 
-```
+```javascript
 var dataSource = "nms:extAccount:ffda";
 var xml = xtk.builder.CopyXxlData(
     <params dataSource={dataSource} policy="xs">
@@ -147,6 +147,6 @@ Ogni coda viene gestita da un flusso di lavoro tecnico, che gestisce la replica 
 
 Questo video illustra i concetti chiave dei database utilizzati da Adobe Campaign v8, il motivo per cui i dati vengono replicati, quali dati vengono replicati e come funziona il processo di replica.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416866?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334460?quality=12)
 
-Ulteriori tutorial sulla console client di Campaign v8 sono disponibili [qui](https://experienceleague.adobe.com/it/docs/campaign-learn/tutorials/overview).
+Ulteriori tutorial sulla console client di Campaign v8 sono disponibili [qui](https://experienceleague.adobe.com/en/docs/campaign-learn/tutorials/overview).

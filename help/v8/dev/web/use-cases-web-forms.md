@@ -25,7 +25,7 @@ subfeature_v2:
     internal-label: Landing pages
   - id: e739ee2b-6228-412e-878f-45de0791417d
     internal-label: Use cases
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 1%
@@ -45,7 +45,7 @@ Questo esempio si basa sullo scenario seguente:
 
 ### Passaggio 1: creazione di servizi informativi {#step-1---creating-information-services}
 
-1. Crea il servizio di abbonamento alla newsletter da offrire ai destinatari. Per ulteriori informazioni su come creare una newsletter, consulta [questa sezione](https://experienceleague.adobe.com/it/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/about-services-and-subscriptions){target="_blank"}.
+1. Crea il servizio di abbonamento alla newsletter da offrire ai destinatari. Per ulteriori informazioni su come creare una newsletter, consulta [questa sezione](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/about-services-and-subscriptions){target="_blank"}.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_1.png)
 
@@ -123,7 +123,7 @@ A questo scopo, segui la procedura indicata di seguito:
 
    La prima attività **[!UICONTROL Script]** aggiungerà i destinatari al elenco Bloccati di fino a quando non avranno confermato l&#39;abbonamento alla newsletter. Il suo contenuto deve essere il seguente:
 
-   ```
+   ```javascript
    ctx.recipient.@blackList=1
    ```
 
@@ -131,7 +131,7 @@ A questo scopo, segui la procedura indicata di seguito:
 
    La seconda attività **[!UICONTROL Script]** autorizza l&#39;invio di consegne agli utenti e li sottoscrive alla newsletter. Le ultime due righe dello script ti consentiranno di trasferire i destinatari dalla cartella temporanea a un’altra cartella e di riconciliarli con i profili esistenti non appena avranno confermato l’abbonamento.
 
-   ```
+   ```javascript
    ctx.recipient.@blackList=0
    nms.subscription.Subscribe("INTERNAL_NAME_OF_THE_NEWSLETTER", ctx.recipient, false)
    ctx.recipient.folder = <folder name="nmsRootRecipient"/>

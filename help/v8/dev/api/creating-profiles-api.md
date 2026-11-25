@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%
@@ -38,7 +38,7 @@ La creazione dei profili viene eseguita con una richiesta **POST** nella risorsa
 >
 >Se si desidera associare una <b>orgUnit</b> al profilo creato, è necessario estendere la risorsa profilo a questo campo e, dopo la pubblicazione dell&#39;estensione, eseguire una richiesta POST sull&#39;endpoint <b>ProfileAndServicesExt</b>.
 >
->Per ulteriori informazioni sull&#39;estensione della risorsa del profilo, consulta la <a href="https://helpx.adobe.com/it/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">documentazione di Campaign</a>.
+>Per ulteriori informazioni sull&#39;estensione della risorsa del profilo, consulta la <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">documentazione di Campaign</a>.
 
 <br/>
 
@@ -46,7 +46,7 @@ La creazione dei profili viene eseguita con una richiesta **POST** nella risorsa
 
 Esempio di richiesta POST per creare un profilo con l’e-mail &quot;john.doe@mail.com&quot;.
 
-```
+```bash
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -58,7 +58,7 @@ Esempio di richiesta POST per creare un profilo con l’e-mail &quot;john.doe@ma
 
 Restituisce il nuovo profilo creato, con l’indirizzo e-mail &quot;john.doe@mail.com&quot;.
 
-```
+```json
 {
     "PKey": "<PKEY>",
     "firstName": "John",

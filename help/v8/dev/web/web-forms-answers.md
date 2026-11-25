@@ -21,7 +21,7 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '875'
 ht-degree: 0%
@@ -101,19 +101,19 @@ Per ogni modulo, le risposte fornite possono essere riutilizzate nei campi o nel
 
 * Per il contenuto memorizzato in un campo del database:
 
-  ```
+  ```html
   <%=ctx.recipient.@field name%
   ```
 
 * Per il contenuto archiviato in una variabile locale:
 
-  ```
+  ```html
   <%= ctx.vars.variable name %
   ```
 
 * Per il contenuto memorizzato in un campo di testo HTML:
 
-  ```
+  ```html
   <%== HTML field name %
   ```
 
@@ -153,4 +153,4 @@ Puoi selezionare una cartella di ricerca per la riconciliazione e la cartella di
 >
 >Operazioni possibili: **[!UICONTROL Simple reconciliation]**, **[!UICONTROL Update or insertion]**, **[!UICONTROL Insertion]**, **[!UICONTROL Update]**, **[!UICONTROL Deletion]**.\
 >La cartella predefinita dell&#39;operatore è la prima cartella per la quale l&#39;operatore dispone dell&#39;autorizzazione di scrittura.\
->Fai riferimento a [questa sezione](https://experienceleague.adobe.com/it/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}.
+>Fai riferimento a [questa sezione](https://experienceleague.adobe.com/en/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}.

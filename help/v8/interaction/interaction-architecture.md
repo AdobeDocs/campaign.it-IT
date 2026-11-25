@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 709e38026d74ed707d10fc8109356289dc9f4ac9
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '1327'
 ht-degree: 0%
@@ -102,7 +102,7 @@ Il pacchetto **Interaction** è installato in tutte le istanze (controllo ed ese
 
 >[!NOTE]
 >
->Durante l&#39;installazione del pacchetto, i campi di tipo **long** della tabella **nms:proposition**, come l&#39;ID proposta, diventano campi di tipo **int64**. Questo tipo di dati è descritto nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html?lang=it#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}.
+>Durante l&#39;installazione del pacchetto, i campi di tipo **long** della tabella **nms:proposition**, come l&#39;ID proposta, diventano campi di tipo **int64**. Questo tipo di dati è descritto nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}.
 
 La durata di conservazione dei dati è configurata in ogni istanza (tramite la finestra **[!UICONTROL Data purge]** nella procedura guidata di distribuzione). Nelle istanze di esecuzione, questo periodo deve corrispondere alla profondità storica necessaria per le regole di tipologia (periodo scorrevole) e le regole di idoneità da calcolare.
 
@@ -120,7 +120,7 @@ Sulle istanze di controllo:
    * Controllare il tipo di applicazione utilizzato: **[!UICONTROL Message Center]**, **[!UICONTROL Interaction]** o entrambi.
    * Immettere l&#39;account FDA utilizzato. Un operatore deve essere creato nelle istanze di esecuzione e deve disporre dei seguenti diritti di lettura e scrittura sul database dell’istanza in questione:
 
-     ```
+     ```sql
      grant SELECT ON nmspropositionrcp, nmsoffer, nmsofferspace, xtkoption, xtkfolder TO user;
      grant DELETE, INSERT, UPDATE ON nmspropositionrcp TO user;
      ```
@@ -180,7 +180,7 @@ Esistono due metodi:
 
 **Tabella di lavoro** (scelta consigliata)
 
-```
+```sql
 CREATE TABLE NmsPropositionRcp_tmp AS SELECT * FROM nmspropositionrcp WHERE 0=1;
 ALTER TABLE nmspropositionrcp_tmp
   ALTER COLUMN ipropositionid TYPE bigint,
@@ -198,7 +198,7 @@ ALTER TABLE nmspropositionrcp_tmp RENAME TO nmspropositionrcp;
 
 **Modifica tabella**
 
-```
+```sql
 ALTER TABLE nmspropositionrcp
   ALTER COLUMN ipropositionid TYPE bigint,
   ALTER COLUMN iinteractionid TYPE bigint;

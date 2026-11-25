@@ -22,7 +22,7 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 1%
@@ -55,7 +55,7 @@ Tutte le risorse API sono disponibili in **JSON** con un&#39;estensione URL o al
 
 ***esempio di richiesta***
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile.json \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -87,7 +87,7 @@ Utilizza una chiave personalizzata solo per **risorse di profilo di primo livell
 
 Per recuperare le sottoscrizioni di un profilo utilizzando una chiave personalizzata, eseguire un&#39;operazione GET sulla chiave personalizzata.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<customKey> \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -97,7 +97,7 @@ Per recuperare le sottoscrizioni di un profilo utilizzando una chiave personaliz
 
 Esegui una richiesta GET sull’URL degli abbonamenti restituito.
 
-```
+```bash
 -X GET <SUBSCRIPTION_URL> \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -107,7 +107,7 @@ Esegui una richiesta GET sull’URL degli abbonamenti restituito.
 
 Restituisce l’elenco delle sottoscrizioni per il profilo.
 
-```
+```json
 "service": {
 "PKey": "<PKEY>",
 "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>",

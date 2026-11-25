@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 2%
@@ -45,7 +45,7 @@ Puoi aggiungere istruzioni di pre-elaborazione specifiche per scrivere lo script
 
 Ad esempio:
 
-```
+```html
 <%@ value object="myObject" xpath="@myField" %>
 ```
 
@@ -71,7 +71,7 @@ Dove:
 
 Quando la pagina da scaricare è la stessa per tutti i destinatari, la best practice è quella di utilizzare:
 
-```
+```html
 <%@ include url="http://mynewsletter.com" %>
 ```
 
@@ -81,7 +81,7 @@ In tal caso, la pagina viene scaricata durante l’analisi, prima del rilevament
 
 Dopo aver elaborato le istruzioni `<%@`, l&#39;URL da tracciare deve avere la seguente sintassi:
 
-```
+```xml
 <a href="http://myurl.com/a.php?param1=aaa&param2=<%=escapeUrl(recipient.xxx)%>&param3=<%=escapeUrl(recipient.xxx)%>">
 ```
 
@@ -95,7 +95,7 @@ Per garantire che gli URL personalizzati vengano tracciati correttamente, è nec
 
 **Esempio:**
 
-```
+```xml
 <a href="http://myurl.com/a.php?name=<%=escapeUrl(recipient.lastName)%>">Click here</a>
 ```
 
@@ -107,7 +107,7 @@ L&#39;istruzione `<%@ foreach %>` consente di eseguire iterazioni su array di og
 
 ### Sintassi
 
-```
+```html
 <%@ foreach object="myObject" xpath="myLink" index="3" item="myItem" %>
   <!-- Content to repeat -->
 <%@ end %>
@@ -126,7 +126,7 @@ Nelle proprietà/personalizzazione della consegna, carica un array di articoli e
 
 Puoi visualizzare i collegamenti a questi articoli con il tracciamento individuale:
 
-```
+```html
 <%@ foreach object="articleList" item="article" %>
   <a href="http://example.com/article.jsp?id=<%@ value object="article" xpath="@id" %>">
     <%@ value object="article" xpath="@title" %>

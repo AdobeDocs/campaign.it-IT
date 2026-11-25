@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -48,7 +48,7 @@ I verbi disponibili per eseguire operazioni sulle risorse sono:
 * Richiesta GET di esempio sulla raccolta di profili.
 
 
-  ```
+  ```bash
   $curl  
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
   -H 'Content-Type: application/json' \
@@ -60,7 +60,7 @@ I verbi disponibili per eseguire operazioni sulle risorse sono:
   Restituisce un array di profili.
 
 
-  ```
+  ```json
   {
       "content": [
           {
@@ -84,7 +84,7 @@ I verbi disponibili per eseguire operazioni sulle risorse sono:
 * Richiesta GET di esempio per un profilo specifico.
 
 
-  ```
+  ```bash
   $curl  
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
   -H 'Content-Type: application/json' \
@@ -96,7 +96,7 @@ I verbi disponibili per eseguire operazioni sulle risorse sono:
   Restituisce il profilo richiesto.
 
 
-  ```
+  ```json
   {
       "PKey": "<PKEY>",
       "firstName": "John",
@@ -110,7 +110,7 @@ I verbi disponibili per eseguire operazioni sulle risorse sono:
 * Richiesta POST di esempio per creare un profilo.
 
 
-  ```
+  ```bash
   -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -121,7 +121,7 @@ I verbi disponibili per eseguire operazioni sulle risorse sono:
 
   Restituisce il profilo con i campi predefiniti.
 
-  ```
+  ```json
   {
       "PKey": "<PKEY>",
       "firstName": "John",
@@ -133,7 +133,7 @@ I verbi disponibili per eseguire operazioni sulle risorse sono:
 
 * Richiesta PATCH di esempio per aggiornare un profilo.
 
-  ```
+  ```bash
   -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -144,7 +144,7 @@ I verbi disponibili per eseguire operazioni sulle risorse sono:
 
   Restituisce la PKEY e l’URL per recuperare il profilo aggiornato.
 
-  ```
+  ```json
   {
       "PKey": "<PKEY>",
       "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>"
@@ -153,7 +153,7 @@ I verbi disponibili per eseguire operazioni sulle risorse sono:
 
 * Richiesta DELETE di esempio per eliminare un profilo.
 
-  ```
+  ```bash
   -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \

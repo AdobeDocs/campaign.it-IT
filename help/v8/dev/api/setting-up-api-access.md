@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 3%
@@ -41,7 +41,7 @@ L’accesso alle API di Adobe Campaign Standard è configurato attraverso i pass
 
 >[!IMPORTANT]
 >
->Per gestire i certificati in [Adobe Developer](https://developer.adobe.com/), assicurati di disporre dei diritti di **amministratore di sistema** per l&#39;organizzazione o di un account [sviluppatore](https://helpx.adobe.com/it/enterprise/using/manage-developers.html) in Admin Console.
+>Per gestire i certificati in [Adobe Developer](https://developer.adobe.com/), assicurati di disporre dei diritti di **amministratore di sistema** per l&#39;organizzazione o di un account [sviluppatore](https://helpx.adobe.com/enterprise/using/manage-developers.html) in Admin Console.
 
 1. **Verifica di disporre di un certificato digitale** o creane uno, se necessario. Le chiavi pubbliche e private fornite con il certificato sono necessarie nei passaggi seguenti.
 1. **Crea una nuova integrazione con il servizio Adobe Campaign** in [Adobe Developer](https://developer.adobe.com/) e configuralo. Verranno quindi generate le credenziali (chiave API, segreto client...).
@@ -56,7 +56,7 @@ L’accesso alle API di Adobe Campaign Standard è configurato attraverso i pass
 
 Per stabilire una sessione API Adobe I/O service-to-service sicura, ogni richiesta a un servizio Adobe deve includere nell’intestazione Autorizzazione le informazioni seguenti.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -81,7 +81,7 @@ Per stabilire una sessione API Adobe I/O service-to-service sicura, ogni richies
 
 Durante l’integrazione Adobe IO, se viene visualizzato il seguente errore:
 
-```
+```json
 { 
 "code": 502, 
 "message": "Oops. Something went wrong. Check your URI and try again." 

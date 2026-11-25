@@ -19,7 +19,7 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
-source-git-commit: aa436bfd174075f7ed3e144ea0b16832b6b811ff
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '866'
 ht-degree: 1%
@@ -106,13 +106,13 @@ Crea la query in base ai profili che desideri recuperare. Nell’esempio seguent
 
 Per ogni modulo è possibile utilizzare le risposte fornite nei campi o nelle etichette. Utilizza la seguente sintassi per il contenuto archiviato in un campo archiviato:
 
-```
+```html
 <%= ctx.webAppLogRcpData.name of the archived field %
 ```
 
 >[!NOTE]
 >
->Per altri tipi di campi, la sintassi è descritta in [questa sezione](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"} (documentazione di Campaign v8).
+>Per altri tipi di campi, la sintassi è descritta in [questa sezione](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"} (documentazione di Campaign v8).
 
 ### Impostazioni di archiviazione {#storage-settings}
 
