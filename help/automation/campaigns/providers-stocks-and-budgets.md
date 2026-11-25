@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '1835'
+source-wordcount: '2173'
 ht-degree: 1%
 ---
 # Fornitori, scorte e budget{#providers-stocks-and-budgets}
@@ -66,7 +66,7 @@ Puoi creare tutti i provider di servizi necessari per le consegne. La procedura 
 1. Fare clic sul pulsante **[!UICONTROL New]** sopra l&#39;elenco dei provider di servizi.
 1. Nella sezione inferiore della finestra specificare il nome e i recapiti del provider di servizi.
 
-   ![](assets/add-a-supplier.png)
+   ![Elenco dei provider di servizi in Esplora risorse e nuovo modulo del provider di servizi con campi Etichetta, Nome interno e Commento](assets/add-a-supplier.png)
 
 1. Fare clic sul pulsante **[!UICONTROL Save]** per aggiungere il provider di servizi all&#39;elenco.
 
@@ -80,11 +80,11 @@ Per creare un modello di servizio e definirne il contenuto, effettuare le seguen
 
 1. Nella scheda **[!UICONTROL Services]** del provider di servizi fare clic sul pulsante **[!UICONTROL Add]** e immettere il nome del modello di servizio.
 
-   ![](assets/supplier-new-template.png)
+   ![Finestra di dialogo Servizio per un nuovo modello di servizio, scheda Generale, con campi Etichetta, Nome interno e Commento](assets/supplier-new-template.png)
 
 1. Crea le categorie di costo per ogni tipo di processo (consegna tramite direct mailing/e-mail/ecc. o attività). A tale scopo, fare clic sulla scheda **[!UICONTROL Cost categories]**, quindi sul pulsante **[!UICONTROL Add]** e immettere i parametri di ciascuna categoria di costo.
 
-   ![](assets/add-cost-categories.png)
+   ![Scheda Categorie di costo con il pulsante Aggiungi e la finestra di dialogo Categoria di costo per una categoria Direct Mail e i relativi tipi di costo](assets/add-cost-categories.png)
 
    * Immettere un&#39;etichetta per questa categoria di costi e selezionare il tipo di processo interessato: **[!UICONTROL Direct mail]**, **[!UICONTROL Email]**, **[!UICONTROL Mobile]** e così via.
    * Fare clic sul pulsante **[!UICONTROL Add]** per definire i tipi di costi associati a questa categoria.
@@ -96,7 +96,7 @@ Per creare un modello di servizio e definirne il contenuto, effettuare le seguen
 
 1. È possibile preselezionare un valore per questa categoria di costo, che è il valore predefinito nelle categorie di costo del fornitore di servizi (anziché uno vuoto). Per eseguire questa operazione, abilitare l&#39;opzione **Sì** nella colonna **[!UICONTROL Selected]** per il tipo di categoria interessata:
 
-   ![](assets/default-cost-type.png)
+   ![Finestra di dialogo Categoria di costo con l&#39;opzione Sì abilitata nella colonna Selezionato per il tipo di costo Lettera](assets/default-cost-type.png)
 
    A livello di consegna, il valore viene selezionato per impostazione predefinita.
 
@@ -106,7 +106,7 @@ Per ogni tipo di costo, la struttura dei costi specifica le regole di calcolo da
 
 Fare clic sulla scheda **[!UICONTROL Cost structure]** per configurare il calcolo dei costi per ogni categoria e tipo di costo. Fare clic su **[!UICONTROL Add]** e immettere la struttura dei costi.
 
-![](assets/add-cost-structure.png)
+![Scheda Struttura costi con pulsante Aggiungi e finestra di dialogo Definizione struttura costi: canale, categoria costi, calcolo](assets/add-cost-structure.png)
 
 * Per creare la struttura dei costi, selezionare il tipo di messaggio e la categoria di costo interessati dagli elenchi a discesa, nonché il tipo di costo a cui verrà applicata la regola di calcolo. Il contenuto di questi elenchi a discesa proviene dalle informazioni immesse tramite la scheda **[!UICONTROL Cost categories]**.
 
@@ -126,7 +126,7 @@ Se l&#39;importo è sempre lo stesso per un messaggio (o un batch di messaggi) i
 
 Se questo importo si applica a un batch di messaggi, specificare il numero di messaggi interessati nel campo **[!UICONTROL for]**.
 
-![](assets/supplier_cost_structure_calc.png)
+![Finestra di dialogo della struttura dei costi con Per messaggio e Lineare selezionati, un importo di 4,00 per 5 unità](assets/supplier_cost_structure_calc.png)
 
 
 #### Struttura lineare per soglia {#linear-structure-by-threshold}
@@ -135,7 +135,7 @@ Se l&#39;importo si applica per soglia per ogni messaggio, è necessario definir
 
 La configurazione è la seguente:
 
-![](assets/supplier-cost-structure-linear.png)
+![Finestra di dialogo della struttura dei costi con il tipo di soglia Lineare per, un elenco di soglie con importi e un valore Oltre](assets/supplier-cost-structure-linear.png)
 
 Per aggiungere una soglia, fare clic sul pulsante **[!UICONTROL Add]** a destra dell&#39;elenco.
 
@@ -143,13 +143,13 @@ Per aggiungere una soglia, fare clic sul pulsante **[!UICONTROL Add]** a destra 
 
 Infine, puoi configurare un calcolo dei costi in base al numero totale di messaggi. A tale scopo, selezionare una struttura di calcolo **[!UICONTROL Constant by threshold]**. Ad esempio, il costo verrà impostato su un importo fisso di 12.00 per 1-100 messaggi e su 100.00 per una consegna di 101-1000 messaggi e su 500.00 per una consegna superiore a 1000 messaggi, indipendentemente dal numero totale.
 
-![](assets/supplier-cost-structure-constant.png)
+![Finestra di dialogo della struttura dei costi con Costante per tipo di soglia, elenco di soglie con importi fissi e valore Oltre](assets/supplier-cost-structure-constant.png)
 
 ### Configurare i processi associati a un servizio {#configure-processes-associated-with-a-service}
 
 È possibile associare informazioni sui processi associati al provider di servizi tramite la scheda **[!UICONTROL Jobs]**. Questa sezione consente di configurare l&#39;invio di informazioni al router.
 
-![](assets/cost-supplier-jobs.png)
+![Scheda Processi di un servizio che mostra le impostazioni del modello di flusso di lavoro di estrazione file, e-mail di notifica e post-elaborazione](assets/cost-supplier-jobs.png)
 
 * La sezione **[!UICONTROL File extraction]** indica il modello di esportazione utilizzato per la consegna quando questo servizio è selezionato. È possibile indicare il nome del file di output nel campo **[!UICONTROL Extraction file]**. Il pulsante a destra del campo consente di inserire le variabili.
 
@@ -171,18 +171,18 @@ Quando viene selezionato un servizio, le categorie di costo corrispondenti al ti
 
 * Per una consegna direct mailing, puoi selezionare il servizio dalla finestra di configurazione.
 
-  ![](assets/supplier-mail-delivery-select.png)
+  ![Recapito direct mailing con la sezione Service provider evidenziata: campo Service e elenco delle categorie di costo](assets/supplier-mail-delivery-select.png)
 
 * Per la consegna su canali mobili, si applica la stessa modalità di selezione.
 * Per una consegna e-mail, il servizio è selezionato dalla scheda **[!UICONTROL Advanced]** nelle proprietà di consegna, come nell&#39;esempio seguente:
 
-  ![](assets/supplier-email-delivery-select.png)
+  ![Proprietà di consegna, scheda Avanzate, con la sezione Provider di servizi che mostra il campo Servizio e l&#39;elenco delle categorie di costo](assets/supplier-email-delivery-select.png)
 
 La colonna **[!UICONTROL Amount to surcharge]** consente di aggiungere un costo per questa categoria nel contesto della consegna o dell&#39;attività interessata.
 
 È possibile definire una selezione obbligatoria di un tipo di costo durante la definizione delle categorie di costo per una consegna. A tale scopo, selezionare **[!UICONTROL A cost type must be selected]**.
 
-![](assets/cost-type-must-be-selected.png)
+![Finestra di dialogo Categoria di costo con l&#39;opzione Tipo di costo A deve essere selezionata, sopra l&#39;elenco dei tipi di costo](assets/cost-type-must-be-selected.png)
 
 ## Gestione di scorte e ordini {#stock-and-order-management}
 
@@ -202,7 +202,7 @@ La procedura per impostare la gestione delle scorte e degli ordini in Adobe Camp
 
 Adobe Campaign può avvisare un gruppo di operatori se le scorte sono esaurite o hanno raggiunto una soglia minima. I livelli azionari sono accessibili tramite il collegamento **[!UICONTROL Stocks]** della scheda **[!UICONTROL Campaigns]** tramite il collegamento **[!UICONTROL Other choices]** dell&#39;area di navigazione.
 
-![](assets/stock-dashboard.png)
+![Pagina principale di Adobe Campaign, scheda Campagne, con l&#39;elenco Scorte che mostra le scorte disponibili](assets/stock-dashboard.png)
 
 #### Creare un grezzo {#creating-a-stock}
 
@@ -217,17 +217,17 @@ Un magazzino comprende varie linee di magazzino. Una linea magazzino contiene un
 
 Quando si crea un titolo, fare clic sulla scheda **[!UICONTROL Stock lines]** per aggiungere nuove righe.
 
-![](assets/stock-new-lines.png)
+![Schermata di modifica Stock, scheda Righe Stock, elenco di righe Stock con colonne Livello Stock iniziale, Consumato, In Stock e Avviso](assets/stock-new-lines.png)
 
 Una volta creato il grezzo, utilizzate il relativo quadro comandi per creare e monitorare le linee del grezzo.
 
 Fare clic sul pulsante **[!UICONTROL Create]** per aggiungere nuove linee di magazzino.
 
-![](assets/add-stock-lines.png)
+![Dashboard scorte con il pulsante Crea sopra un elenco di linee di magazzino che mostra le quantità iniziali, consumate e in magazzino](assets/add-stock-lines.png)
 
 * Indicare la quantità inizialmente in magazzino nel campo **[!UICONTROL Initial stock]**. I campi **[!UICONTROL Consumed]** e **[!UICONTROL In stock]** vengono calcolati automaticamente e aggiornati con l&#39;avanzamento delle campagne.
 
-  ![](assets/create-new-stock-line.png)
+  ![Finestra di dialogo Riga magazzino, scheda Generale, con i campi Scorta iniziale, Quantità consumate e in magazzino e Livello di avviso](assets/create-new-stock-line.png)
 
 * Indicare la soglia dalla quale gli operatori devono essere avvisati di ordinare le scorte nel campo **[!UICONTROL Alert level]**. Quando viene raggiunto il livello di avviso, nella finestra di approvazione delle consegne che utilizzano questo stock viene visualizzato un messaggio di avviso.
 
@@ -235,7 +235,7 @@ Fare clic sul pulsante **[!UICONTROL Create]** per aggiungere nuove linee di mag
 
 Per un determinato fornitore di servizi, in un servizio, una linea di magazzino può essere referenziata da una delle categorie di costo, come segue:
 
-![](assets/select-stock-line-supplier.png)
+![Finestra di dialogo Categoria di costo con una linea magazzino selezionata dall&#39;elenco a discesa Linea magazzino di un tipo di costo](assets/select-stock-line-supplier.png)
 
 ### Tracciamento magazzino {#stock-tracking}
 
@@ -243,7 +243,7 @@ Per un determinato fornitore di servizi, in un servizio, una linea di magazzino 
 
 Viene visualizzato un avviso quando una scorta a cui si fa riferimento in una consegna è insufficiente. Ad esempio, quando viene approvato un file di estrazione, viene visualizzato il seguente avviso:
 
-![](assets/stock-alert.png)
+![Azione nella finestra di dialogo di consegna che mostra un avviso scorte insufficienti con le opzioni Accetta e Rifiuta prima dell&#39;approvazione del file](assets/stock-alert.png)
 
 #### Ordini {#orders}
 
@@ -251,7 +251,7 @@ La scheda secondaria **[!UICONTROL Orders]** consente di visualizzare gli ordini
 
 Per salvare un ordine, modificare la linea delle scorte di destinazione, fare clic sul pulsante **[!UICONTROL Add]** e specificare la data di consegna e la quantità ordinata.
 
-![](assets/order-stocks.png)
+![Scheda Ordini linea magazzino con il pulsante Aggiungi e una finestra di dialogo Ordine magazzino con data di consegna e volume nei campi ordine](assets/order-stocks.png)
 
 >[!NOTE]
 >

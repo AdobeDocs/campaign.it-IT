@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '2294'
+source-wordcount: '2636'
 ht-degree: 1%
 ---
 # Impostare e gestire il processo di approvazione {#approval-marketing-campaigns}
@@ -51,25 +51,25 @@ I messaggi di notifica vengono inviati agli operatori di Adobe Campaign designat
 Gli operatori possono approvare in diversi modi:
 
 * Dal messaggio di notifica. Il collegamento nell’e-mail porta l’operatore a Campaign tramite un browser web. Dopo la connessione, il revisore può scegliere se approvare o meno il contenuto.
-  ![](assets/approval-content-email.png)
+  ![E-mail di notifica dell&#39;approvazione del contenuto con il collegamento Approva o rifiuta il contenuto della consegna e i dettagli della consegna.](assets/approval-content-email.png)
 
 * Dal dashboard della campagna.
-  ![](assets/approval-from-dashboard.png)
+  ![Dashboard di Campaign nella console client con il menu Approvazione aperto e l&#39;opzione Approva targeting evidenziata.](assets/approval-from-dashboard.png)
 
 * Dal dashboard di consegna.
-  ![](assets/approval-from-delivery-dashboard.png)
+  ![Dashboard delle consegne con il menu Approvazione aperto, elenco Contenuto invio, Approva targeting e Approva budget.](assets/approval-from-delivery-dashboard.png)
 
 Gli operatori possono accedere alla campagna e alla consegna dalla finestra di approvazione. Possono anche inserire un commento.
 
-![](assets/approval-target-confirm.png)
+![Azione nella finestra di consegna con le opzioni Accetta o Rifiuta, un campo Commento e il pulsante di approvazione Target.](assets/approval-target-confirm.png)
 
 Una volta convalidata da un operatore, le informazioni vengono visualizzate nelle dashboard di campagna e consegna e nei registri.
 
-![](assets/approvals-from-delivery.png)
+![Sezione Approvazioni dashboard di consegna che mostra il targeting approvato e il budget da approvare con la relativa scadenza.](assets/approvals-from-delivery.png)
 
 Le informazioni sono disponibili anche nei registri di approvazione della consegna e nel giornale di approvazione della campagna. Per accedere a questi registri, utilizzare le schede **[!UICONTROL Edit > Audit > Approvals]**.
 
-![](assets/approval-logs.png)
+![Scheda Approvazioni di verifica della consegna con la pianificazione delle scadenze di approvazione e una voce del registro Approvazioni per il targeting.](assets/approval-logs.png)
 
 
 ## Abilita approvazioni{#enable-approvals}
@@ -84,24 +84,24 @@ Queste impostazioni possono essere ignorate per ogni campagna creata utilizzando
 
 Nell’esempio seguente, il contenuto della consegna non richiederà approvazioni:
 
-![](assets/approval-not-enabled.png)
+![Scheda Approvazioni delle proprietà di consegna con Abilita approvazione contenuto cancellata mentre sono abilitate le approvazioni di destinazione e budget.](assets/approval-not-enabled.png)
 
 
 >[!CAUTION]
 >
 >Verificare che i revisori dispongano delle **autorizzazioni appropriate** per l&#39;approvazione e che l&#39;area di sicurezza sia definita correttamente. [Ulteriori informazioni](#selecting-reviewers).
 
-Il processo di approvazione per le consegne è descritto in [questa sezione](#review-and-approve-deliveries).
+Il processo di approvazione per le consegne è descritto in [Rivedere e approvare le consegne](#review-and-approve-deliveries).
 
 ## Seleziona revisori {#select-reviewers}
 
 Per ogni tipo di approvazione, gli operatori o i gruppi di operatori responsabili dell’approvazione vengono selezionati dall’elenco a discesa nella consegna. È possibile aggiungere altri operatori utilizzando il collegamento **[!UICONTROL Edit...]**. Questa finestra consente inoltre di modificare la scadenza dell’approvazione. Per impostazione predefinita, i revisori dispongono di tre giorni a partire dalla data di invio per approvare un processo. Per aggiungere un promemoria automatico, utilizzare il collegamento **[!UICONTROL Add a reminder]**.
 
-![](assets/add-reviewers.png)
+![Impostazioni avanzate, scheda Approvazioni e finestra Modifica revisori con revisori aggiuntivi, ritarda e aggiungi un promemoria.](assets/add-reviewers.png)
 
 Se non viene specificato alcun revisore, il proprietario della campagna è responsabile delle approvazioni e riceve le notifiche. Il proprietario della campagna è specificato nella scheda **[!UICONTROL Edit > Properties]** della campagna:
 
-![](assets/campaign-owner.png)
+![Scheda Modifica campagna con il campo Assegnato a evidenziato per impostare il proprietario della campagna.](assets/campaign-owner.png)
 
 Anche tutti gli altri operatori Adobe Campaign con diritti **[!UICONTROL Administrator]** possono approvare i processi, ma non ricevono notifiche.
 
@@ -112,7 +112,7 @@ Anche tutti gli altri operatori Adobe Campaign con diritti **[!UICONTROL Adminis
 
 Se è definito un elenco di revisori, un processo viene approvato quando un revisore lo ha approvato. Il collegamento di approvazione non è più disponibile nelle dashboard di campagna e consegna. Quando l’invio delle notifiche è abilitato, se un altro revisore fa clic sul collegamento di approvazione nel messaggio di notifica, riceve una notifica che indica che un altro operatore ha già approvato il processo.
 
-![](assets/delivery-target-already-approved.png)
+![E-mail di notifica che conferma che il targeting della consegna è già stato approvato da un altro operatore.](assets/delivery-target-already-approved.png)
 
 
 ## Rivedere e approvare le consegne {#review-and-approve-deliveries}
@@ -132,7 +132,7 @@ Al termine di queste fasi di convalida, la consegna può essere avviata. [Ulteri
 
 Le fasi che richiedono l’approvazione vengono visualizzate nel dashboard della campagna (tramite la console client o l’interfaccia web). Vengono inoltre visualizzati nella tabella di tracciamento della consegna e nel dashboard della consegna.
 
-![](assets/delivery-approval-actions.png)
+![Riepilogo delle consegne con l&#39;elenco del menu Approvazione Contenuto di invio, Approva targeting e Approva budget.](assets/delivery-approval-actions.png)
 
 Per ogni consegna nella campagna, puoi approvare i seguenti processi:
 
@@ -140,7 +140,7 @@ Per ogni consegna nella campagna, puoi approvare i seguenti processi:
 
   Quando le opzioni **[!UICONTROL Enable target approval]**, **[!UICONTROL Enable content approval]** o **[!UICONTROL Enable budget approval]** sono selezionate nella finestra delle impostazioni di approvazione, i collegamenti correlati vengono visualizzati nelle dashboard della campagna e della consegna.
 
-  ![](assets/template-activate-6.png)
+  ![Scheda Approvazioni impostazioni avanzate con le opzioni di approvazione Abilita contenuto, destinazione, budget ed estrazione e i relativi revisori.](assets/template-activate-6.png)
 
   >[!NOTE]
   >
@@ -156,7 +156,7 @@ Per ogni consegna nella campagna, puoi approvare i seguenti processi:
 
   L&#39;opzione **[!UICONTROL Approve file]** è disponibile nei dashboard di campagna e consegna.
 
-  ![](assets/approve-file-preview.png)
+  ![Pagina di consegna Web con il pulsante Approve file e la finestra Action on delivery per accettare o rifiutare il file.](assets/approve-file-preview.png)
 
   È possibile visualizzare in anteprima il file di output prima della convalida. L’anteprima del file di estrazione mostra solo un esempio di dati. L&#39;intero file non è stato caricato.
 
@@ -164,7 +164,7 @@ Per ogni consegna nella campagna, puoi approvare i seguenti processi:
 
   L&#39;opzione **[!UICONTROL Enable individual approval of each associated delivery]** viene utilizzata per una consegna principale associata alle consegne secondarie. Per impostazione predefinita, questa opzione non è selezionata, pertanto è possibile eseguire un’approvazione complessiva della consegna principale. Se questa opzione è selezionata, ogni consegna deve essere approvata singolarmente.
 
-  ![](assets/enable-ind-approval.png)
+  ![Scheda Approvazioni impostazioni avanzate con Abilita approvazione individuale di ogni consegna associata selezionata.](assets/enable-ind-approval.png)
 
 
 >[!NOTE]
@@ -252,20 +252,20 @@ Ad esempio, una volta eseguita l’analisi della consegna:
 
 1. Seleziona **[!UICONTROL Approve targeting]**.
 
-![](assets/target-validation-from-console.png)
+![Dashboard di Campaign con il menu a discesa Approvazione aperto e le opzioni Approva contenuto e Approva targeting.](assets/target-validation-from-console.png)
 
 1. Nella finestra pop-up, controlla le informazioni da approvare.
 1. Selezionare **[!UICONTROL Accept]** o **[!UICONTROL Reject]** e immettere un commento, se necessario. Questo commento verrà visualizzato nei registri di convalida.
 1. Conferma la scelta con il pulsante **[!UICONTROL Target approval]**.
 
-![](assets/confirm-validation-from-console.png)
+![Azione nella finestra di consegna con Accetta selezionata, un commento inserito ed il pulsante di approvazione Target evidenziato.](assets/confirm-validation-from-console.png)
 
 
 Se un processo è già stato approvato da un altro operatore, il collegamento di approvazione non è disponibile.
 
 Se un processo è stato rifiutato, le informazioni vengono visualizzate nel dashboard di consegna come segue:
 
-![](assets/target-approval-rejected.png)
+![Il dashboard di consegna che mostra l&#39;approvazione di Target è stato rifiutato con il pulsante Approva targeting e lo stato di targeting rifiutato.](assets/target-approval-rejected.png)
 
 
 ### Approva dai messaggi di notifica {#approval-via-notification-messages}
@@ -288,19 +288,19 @@ I registri di approvazione sono disponibili nell’interfaccia utente:
 
 * Nel registro di approvazione della campagna, scheda secondaria **[!UICONTROL Approvals]** della scheda **[!UICONTROL Edit > Audit]**:
 
-  ![](assets/approval-tracking-from-campaign.png)
+  ![Modifica campagna > Audit > Approvazioni scheda secondaria in cui è elencato il giornale di registrazione approvazioni con consegna, azione, tipo e approvatore.](assets/approval-tracking-from-campaign.png)
 
 * Nel registro di consegna della campagna, scheda secondaria **[!UICONTROL Deliveries]** della scheda **[!UICONTROL Edit > Audit]**:
 
-  ![](assets/approval-tracking-from-campaign-deliveries.png)
+  ![Modifica campagna > Audit > Scheda secondaria Consegne che elenca ogni consegna con il relativo stato di targeting e contenuto.](assets/approval-tracking-from-campaign-deliveries.png)
 
 * È possibile visualizzare lo stato di approvazione per ogni consegna facendo clic sull&#39;opzione **[!UICONTROL Hide/display logs]** della scheda **[!UICONTROL Summary]**.
 
-  ![](assets/approval-tracking-delivery-dashboard.png)
+  ![Scheda Riepilogo consegne con il collegamento Nascondi/visualizza registri evidenziato e i registri di approvazione mostrati di seguito Approvazioni.](assets/approval-tracking-delivery-dashboard.png)
 
 * È inoltre possibile accedere a queste informazioni tramite la scheda **[!UICONTROL Audit > Approvals]** di ciascuna consegna:
 
-  ![](assets/approval-tracking-delivery-tab.png)
+  ![Controllo della consegna > scheda Approvazioni in cui è elencato il registro delle approvazioni con data, azione, tipo, approvatore e commento.](assets/approval-tracking-delivery-tab.png)
 
 >[!NOTE]
 >
@@ -312,7 +312,7 @@ Durante la creazione di un flusso di lavoro di targeting, se l’approvazione è
 
 Per scegliere la modalità di approvazione (manuale o automatica), fare clic sulla scheda **[!UICONTROL Edit > Properties]** della campagna o del modello della campagna, quindi su **[!UICONTROL Advanced campaign parameters...]** e infine sulla scheda **[!UICONTROL Approvals]**.
 par
-![](assets/approval-mode.png)
+![Scheda Approvazioni impostazioni avanzate con il menu a discesa Modalità di approvazione aperto, che mostra Automatico e Manuale.](assets/approval-mode.png)
 
 >[!NOTE]
 >
@@ -338,7 +338,7 @@ Per impostazione predefinita, i messaggi di notifica vengono inviati se l’appr
 
 A questo scopo, modifica la finestra di approvazione della campagna o del modello della campagna ( **[!UICONTROL Edit > Properties]** > **[!UICONTROL Advanced campaign parameters...]** > scheda **[!UICONTROL Approvals]**) e seleziona **[!UICONTROL Do not enable notification sending]**.
 
-![](assets/enable-disable-notifications.png)
+![Scheda Approvazioni impostazioni avanzate con l&#39;opzione Non abilitare l&#39;invio di notifiche selezionata.](assets/enable-disable-notifications.png)
 
 ### Contenuto della notifica {#notification-content}
 

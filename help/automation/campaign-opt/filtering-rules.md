@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 1%
+source-wordcount: '659'
+ht-degree: 0%
 ---
 # Regole di filtro{#filtering-rules}
 
@@ -44,27 +44,27 @@ Per definire questo filtro, effettua le seguenti operazioni:
 1. Individua la cartella **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** di Campaign Exporer e fai clic sull&#39;icona **Nuovo** per creare una regola di tipologia.
 1. Creare una regola di tipologia **[!UICONTROL Filtering]** applicabile a tutti i canali.
 
-   ![](assets/campaign_opt_create_filter_01.png)
+   ![Nuova regola di tipologia con Filtro come tipo di regola e l&#39;opzione Tutti i canali selezionati nell&#39;elenco Canali.](assets/campaign_opt_create_filter_01.png)
 
 1. Dalla scheda **Filtro**, modifica la dimensione di targeting predefinita in **Sottoscrizioni** (**nms:subscription**).
 
-   ![](assets/campaign_opt_create_filter_02.png)
+   ![Scheda Filtro con lo schema Sottoscrizioni (nms) selezionato come dimensione di targeting.](assets/campaign_opt_create_filter_02.png)
 
 1. Creare il filtro utilizzando il collegamento **[!UICONTROL Edit the query from the targeting dimension...]**.
 
-   ![](assets/campaign_opt_create_filter_03.png)
+   ![Finestra di dialogo Modifica query di filtro, passaggio del tipo di destinazione, con condizioni di filtro selezionate.](assets/campaign_opt_create_filter_03.png)
 
 1. Filtra in base all’età del destinatario e salva la condizione di filtro.
 
-   ![](assets/campaign_opt_create_filter_03b.png)
+   ![Finestra di dialogo Modifica query di filtro con la condizione Età (destinatario/@age) maggiore di 18.](assets/campaign_opt_create_filter_03b.png)
 
 1. Dalla scheda **Tipologie**, collega questa regola a una tipologia di campagna e salvala.
 
-   ![](assets/campaign_opt_create_filter_04.png)
+   ![Scheda Tipologie della regola di filtro con la finestra di dialogo Aggiungi tipologie e la tipologia Newsletter selezionate.](assets/campaign_opt_create_filter_04.png)
 
 Quando questa regola viene utilizzata in una consegna, gli abbonati minorenni vengono esclusi automaticamente. Un messaggio specifico indica quando viene applicata la regola:
 
-![](assets/campaign_opt_create_filter_05.png)
+![Registro di analisi delle consegne con una freccia sulle righe che applicano le regole Escludi indirizzi e Escludi domini.](assets/campaign_opt_create_filter_05.png)
 
 ## Condizione di una regola di filtro {#condition-a-filtering-rule}
 
@@ -86,17 +86,17 @@ In questo caso, anche se la regola è collegata a tutte le consegne, verrà appl
 
 È possibile creare **[!UICONTROL Filtering]** tipologie: contengono solo regole di filtro.
 
-![](assets/campaign_opt_create_typo_filtering.png)
+![Tipologia con l&#39;elenco Tipo impostato su Filtro e la relativa scheda Regole che elenca le regole di filtro da applicare.](assets/campaign_opt_create_typo_filtering.png)
 
 Queste tipologie specifiche possono essere collegate a una consegna quando la destinazione è selezionata: nella procedura guidata di consegna, fai clic sul collegamento **[!UICONTROL To]**, quindi sulla scheda **[!UICONTROL Exclusions]**.
 
-![](assets/campaign_opt_apply_typo_filtering.png)
+![Finestra di dialogo Seleziona destinazione, scheda Esclusioni, con il collegamento Aggiungi una regola di filtro in Regole di filtro.](assets/campaign_opt_apply_typo_filtering.png)
 
 Quindi seleziona la tipologia di filtro da applicare alla consegna. A tale scopo, fare clic sul pulsante **[!UICONTROL Add]** e selezionare le tipologie da applicare.
 
 Puoi anche collegare le regole di filtro direttamente tramite questa scheda, senza raggrupparle in una tipologia. A tale scopo, utilizzare la sezione inferiore della finestra.
 
-![](assets/campaign_opt_select_typo_filtering.png)
+![Scheda Esclusioni con una tipologia di filtro e una regola di filtro aggiunte tramite i due pulsanti Aggiungi.](assets/campaign_opt_select_typo_filtering.png)
 
 >[!NOTE]
 >

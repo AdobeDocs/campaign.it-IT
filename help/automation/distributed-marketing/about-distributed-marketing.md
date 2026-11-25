@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1202'
 ht-degree: 0%
 ---
 # Introduzione al marketing distribuito{#about-distributed-marketing}
@@ -103,7 +103,7 @@ Se un’entità locale si registra per una campagna, questa viene inserita in un
 
 È possibile accedere all&#39;elenco dei pacchetti della campagna dalla scheda **Campagne**: fare clic sul collegamento **[!UICONTROL Campaign packages]**.
 
-![](assets/mkg_dist_home_local_op.png)
+![Scheda Campagne: facendo clic su Pacchetti campagna nel menu Esplorazione viene aperto l&#39;elenco dei pacchetti campagna.](assets/mkg_dist_home_local_op.png)
 
 Questa finestra consente a tutti gli operatori locali di visualizzare le campagne disponibili per la propria agenzia locale.
 
@@ -113,7 +113,7 @@ Nel caso delle agenzie centrali, questa finestra visualizza tutti i pacchetti di
 
 Iniziare specificando gli operatori di entità centrali e locali tramite la cartella **[!UICONTROL Access management]**.
 
-![](assets/s_advuser_mkg_dist_tree.png)
+![Struttura di Explorer con Amministrazione > Gestione degli accessi espansa, che mostra gli operatori e le entità organizzative.](assets/s_advuser_mkg_dist_tree.png)
 
 ### Operatori {#operators}
 
@@ -123,13 +123,13 @@ Gli operatori centrali devono appartenere al gruppo di operatori **[!UICONTROL C
 
 Gli operatori locali devono appartenere al gruppo di operatori **[!UICONTROL Local management]** o disporre dell&#39;autorizzazione denominata **[!UICONTROL LOCAL]**. Devono anche essere collegati al loro ente locale.
 
-![](assets/s_advuser_mkg_dist_local_create.png)
+![Scheda Diritti di accesso dell&#39;operatore che elenca i gruppi di sicurezza di gestione locale e centrale.](assets/s_advuser_mkg_dist_local_create.png)
 
 ### Entità organizzative {#organizational-entities}
 
 Per creare un&#39;entità organizzativa, fare clic sulla cartella **[!UICONTROL Administration > Access management > Organizational entities]** e sull&#39;icona **[!UICONTROL New]** sopra l&#39;elenco delle entità.
 
-![](assets/s_advuser_mkg_dist_local_list.png)
+![Cartella delle entità organizzative con l&#39;icona Nuovo evidenziata sopra l&#39;elenco delle entità.](assets/s_advuser_mkg_dist_local_list.png)
 
 Ogni entità organizzativa contiene informazioni di identificazione (etichetta, nome interno, informazioni di contatto, ecc.) e i gruppi coinvolti nel processo di approvazione degli ordini. Questi sono definiti nella sezione **[!UICONTROL Notifications and approvals]** trovata nella scheda **[!UICONTROL General]**.
 
@@ -152,7 +152,7 @@ La procedura di implementazione dipende dal tipo di pacchetto della campagna uti
 1. Creare entità locali.
 1. Collega i destinatari agli operatori che gestiscono le entità locali.
 
-   ![](assets/mkg_dist_local_entity_association.png)
+   ![Modulo destinatario con il campo Origine evidenziato, che collega il destinatario a un&#39;entità locale.](assets/mkg_dist_local_entity_association.png)
 
 1. Specificare i diritti e le regole di esplorazione per le entità locali
 1. Specifica il set di campi necessari per la localizzazione della campagna:

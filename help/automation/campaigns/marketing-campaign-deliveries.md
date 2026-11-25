@@ -27,10 +27,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 1%
+source-wordcount: '861'
+ht-degree: 0%
 ---
 # Consegne di campagne di marketing {#marketing-campaign-deliveries}
 
@@ -44,13 +44,13 @@ Puoi aggiungere consegne alle campagne di marketing in due modi:
 
 * Dal collegamento **[!UICONTROL Add a delivery]** nel dashboard della campagna.
 
-  ![](assets/campaign_op_add_delivery.png)
+  ![Dashboard della campagna con il collegamento Aggiungi una consegna e la nuova finestra di consegna per selezionare un modello e un&#39;etichetta.](assets/campaign_op_add_delivery.png)
 
   Una volta salvata, la consegna viene aggiunta al dashboard della campagna.
 
 * Da un flusso di lavoro della campagna, nella scheda **[!UICONTROL Targeting and workflows]**, aggiungendo la consegna.
 
-  ![](assets/campaign-wf-delivery.png)
+  ![Scheda Targeting e flussi di lavoro con la palette Consegne e un flusso di lavoro che termina con un&#39;attività di consegna.](assets/campaign-wf-delivery.png)
 
   Una volta avviato il flusso di lavoro, la consegna viene aggiunta al dashboard della campagna.
 
@@ -60,23 +60,23 @@ Scopri come impostare ed eseguire il flusso di approvazione della consegna [in q
 
 Una consegna può essere inviata una volta che tutte le approvazioni sono state concesse. Il processo di esecuzione della consegna dipende dal canale.
 
-* Per le consegne tramite e-mail o canale mobile, consulta [questa sezione](#start-an-online-delivery)
+* Per le consegne tramite e-mail o canale mobile, consulta [Avviare una consegna tramite e-mail o dispositivo mobile](#start-an-online-delivery)
 
-* Per le consegne di direct mailing, consulta [questa sezione](#start-an-offline-delivery)
+* Per le consegne di direct mailing, fare riferimento a [Avviare una consegna di direct mailing](#start-an-offline-delivery)
 
 ### Avviare un’e-mail o una consegna mobile {#start-an-online-delivery}
 
 Dopo aver concesso tutte le richieste di approvazione, lo stato di consegna cambia in **[!UICONTROL Pending confirmation]** e può essere avviato. I revisori che possono avviare la consegna ricevono una notifica che indica che la consegna è pronta per essere avviata.
 
-![](assets/confirm-delivery.png)
+![Riepilogo delle consegne con il pulsante Conferma consegna, visualizzato dopo che tutte le approvazioni sono state concesse e lo stato è In sospeso.](assets/confirm-delivery.png)
 
 Le informazioni vengono visualizzate anche nel dashboard della campagna. Il collegamento **[!UICONTROL Confirm delivery]** ti consente di avviare la consegna.
 
-![](assets/confirm-delivery-from-dashboard.png)
+![Dashboard di Campaign con il collegamento Conferma consegna in una consegna in attesa di conferma.](assets/confirm-delivery-from-dashboard.png)
 
 La conferma della consegna è riservata agli amministratori e all’operatore o al gruppo di operatori esplicitamente menzionati nelle proprietà della consegna o della campagna. Se non è stato progettato alcun operatore, gli amministratori e il proprietario della campagna possono approvare.
 
-![](assets/select-delivery-reviewers.png)
+![Scheda Approvazioni delle proprietà di consegna che mostra i revisori per ogni approvazione e per l&#39;inizio della consegna.](assets/select-delivery-reviewers.png)
 
 Tuttavia, puoi anche consentire al proprietario della campagna di confermare l’invio, anche se nelle proprietà della consegna o della campagna sono stati definiti revisori specifici. Per eseguire questa operazione, come amministratore, crea l&#39;opzione **NmsCampaign_Activate_OwnerConfirmation** e impostala su **1**. Le opzioni sono gestite dalla cartella **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** di Campaign Explorer.
 
@@ -93,7 +93,7 @@ Per convalidare i contenuti e inviare il file al provider, segui la procedura ri
 
    Questo passaggio è disponibile solo se l&#39;opzione **[!UICONTROL Enable the sending and validation of proofs (Direct mail)]** è stata abilitata nella scheda **[!UICONTROL Approvals]** dei parametri della campagna avanzata.
 
-   ![](assets/enable-proof-validation.png)
+   ![Finestra di convalida della bozza con l&#39;opzione Abilita invio e convalida delle bozze (direct mailing) selezionata e un gruppo di bozze.](assets/enable-proof-validation.png)
 
 1. Fare clic sul pulsante **[!UICONTROL Send a proof]** per creare le bozze.
 
@@ -115,17 +115,17 @@ L’estrazione del file avvia due processi: il calcolo del budget e il calcolo d
 
 * La scheda **[!UICONTROL Budget]** consente di gestire i budget per la campagna. Il totale delle voci di costo è visualizzato nel campo **[!UICONTROL Calculated cost]** della scheda principale della campagna e nel programma a cui appartiene. Gli importi sono riportati anche nel bilancio della campagna.
 
-  ![](assets/campaign-budget-tab.png)
+  ![Scheda Budget campagna con il budget correlato, il costo calcolato e l&#39;elenco delle righe di costo per ogni consegna.](assets/campaign-budget-tab.png)
 
   Il costo reale verrà calcolato in base alle informazioni fornite dal router. Solo i messaggi effettivamente inviati vengono fatturati.
 
 * Le scorte sono definite nel nodo **[!UICONTROL Administration > Campaign management > Stocks]** della struttura.
 
-  ![](assets/campaign-stocks.png)
+  ![Nodo Stock in Esplora campagne con il dashboard azionario dei volantini di vendita e le relative linee di magazzino.](assets/campaign-stocks.png)
 
   Strutture di costo nel nodo **[!UICONTROL Administration > Campaign management > Service providers]**.
 
-  ![](assets/campaign-service-providers.png)
+  ![Nodo provider di servizi in Esplora campagne con il provider Blue Print e il relativo elenco di servizi.](assets/campaign-service-providers.png)
 
   Le linee del grezzo sono visibili nella sezione del grezzo. Per definire il materiale iniziale, aprire una linea del materiale. Le scorte vengono diminuite ogni volta che si verifica una consegna. Puoi definire un livello di avviso e le notifiche.
 

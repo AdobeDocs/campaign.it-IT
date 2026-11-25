@@ -20,9 +20,9 @@ subfeature_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '457'
 ht-degree: 0%
 ---
 # Regole di controllo{#control-rules}
@@ -52,11 +52,11 @@ Applica i seguenti passaggi:
 
 1. Creare una regola di tipologia **[!UICONTROL Control]**. Selezionare un livello di avviso **[!UICONTROL Warning]**.
 
-   ![](assets/campaign_opt_create_control_01.png)
+   ![Finestra di dialogo per la creazione della regola di tipologia, scheda Generale: Tipo di regola di controllo, canale SMS, elenco a discesa Livello con Avviso evidenziato.](assets/campaign_opt_create_control_01.png)
 
 1. Nella scheda **[!UICONTROL Code]**, immettere lo script per applicare la soglia desiderata, come illustrato di seguito:
 
-   ![](assets/campaign_opt_create_control_02.png)
+   ![Scheda Codice regola di tipologia con lo script che registra un avviso quando il target di consegna supera i 100 contatti.](assets/campaign_opt_create_control_02.png)
 
    Questo script attiverà un avviso se il target della consegna supera i 100 contatti:
 
@@ -66,18 +66,18 @@ Applica i seguenti passaggi:
 
 1. Collega questa regola a una tipologia di campagna e fai riferimento alla tipologia nell’SMS interessato.
 
-   ![](assets/campaign_opt_create_control_03.png)
+   ![Proprietà di consegna, scheda Tipologia: elenco a discesa Tipologia Mobile (massimo 100) tra le tipologie disponibili.](assets/campaign_opt_create_control_03.png)
 
 1. Durante l’analisi della consegna, la regola viene applicata e viene creato un avviso, se applicabile.
 
-   ![](assets/campaign_opt_create_control_04.png)
+   ![Registro di analisi della consegna con un avviso che indica che la regola +100 messaggi ha rilevato un problema. Conferma consegna disponibile.](assets/campaign_opt_create_control_04.png)
 
    Tuttavia, la consegna sarà ancora pronta per l’invio.
 
    Se aumenti il livello di avviso, ciò impedirà l’avvio della consegna.
 
-   ![](assets/campaign_opt_create_control_05.png)
+   ![Scheda Generale della regola di tipologia con l&#39;elenco a discesa Livello aperto e l&#39;opzione Errore selezionata al posto di Avviso.](assets/campaign_opt_create_control_05.png)
 
    Al termine dell&#39;analisi, il pulsante **[!UICONTROL Confirm delivery]** non sarà disponibile.
 
-   ![](assets/campaign_opt_create_control_06.png)
+   ![Il log di analisi della consegna termina con un errore. Il pulsante Conferma consegna è disabilitato.](assets/campaign_opt_create_control_06.png)

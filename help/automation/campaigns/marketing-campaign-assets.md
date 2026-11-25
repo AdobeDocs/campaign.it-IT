@@ -21,9 +21,9 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '881'
 ht-degree: 0%
 ---
 # Gestire risorse e documenti {#manage-assets-documents}
@@ -54,19 +54,19 @@ Per una campagna, la scheda **[!UICONTROL Documents]** contiene:
 
 I documenti sono collegati al programma o alla campagna tramite la scheda **[!UICONTROL Edit > Documents]**.
 
-![](assets/op_add_document.png)
+![Scheda Modifica campagna, scheda secondaria Documenti: elenco dei documenti allegati con i pulsanti Aggiungi, Elimina e Dettagli.](assets/op_add_document.png)
 
 Puoi anche aggiungere un documento a una campagna dal collegamento dedicato nella dashboard.
 
-![](assets/add_a_document_in_op.png)
+![Dashboard di Campaign con il collegamento Aggiungi documento e la finestra di dialogo Documento di marketing per il caricamento di un file.](assets/add_a_document_in_op.png)
 
 Fare clic sull&#39;icona **[!UICONTROL Detail...]** per visualizzare il contenuto di un file e aggiungere informazioni:
 
-![](assets/add_document_details.png)
+![Finestra di dialogo del documento aperta da Dettaglio: etichetta, versione, natura, collegamento e descrizione del file caricato.](assets/add_document_details.png)
 
 Nel dashboard, i documenti associati alla campagna sono raggruppati nella sezione **[!UICONTROL Document(s)]**, come nell&#39;esempio seguente:
 
-![](assets/edit_documents.png)
+![Dashboard della campagna con la sezione Documenti che evidenzia i documenti allegati alla campagna.](assets/edit_documents.png)
 
 Da questa vista è possibile modificarli.
 
@@ -86,7 +86,7 @@ Per una campagna, i profili di consegna ti consentono di strutturare elementi es
 
 Per creare una struttura di consegna, fare clic sulla scheda secondaria **[!UICONTROL Delivery outlines]** nella scheda **[!UICONTROL Edit > Documents]** della campagna interessata.
 
-![](assets/add-a-delivery-outline.png)
+![Scheda secondaria Modifica campagna, Documenti, Struttura consegna con il collegamento Aggiungi una struttura di consegna.](assets/add-a-delivery-outline.png)
 
 
 >[!NOTE]
@@ -98,33 +98,33 @@ Fare quindi clic su **[!UICONTROL Add a delivery outline]** e creare la gerarchi
 1. Fare clic con il pulsante destro del mouse sulla radice della struttura e selezionare **[!UICONTROL New > Delivery outlines]**.
 1. Fare clic con il pulsante destro del mouse sulla struttura appena creata e selezionare **[!UICONTROL New > Item]** o **[!UICONTROL New > Personalization fields]**.
 
-![](assets/del-outline-add-new-item.png)
+![Struttura dei profili di consegna con il menu di scelta rapida: Nuovo > Elemento, campi di personalizzazione o Offerta.](assets/del-outline-add-new-item.png)
 
 Una struttura può contenere elementi, campi di personalizzazione e offerte:
 
 * Gli elementi possono essere, ad esempio, documenti fisici a cui viene fatto riferimento e che vengono descritti qui e che verranno allegati alla consegna.
 * I campi di personalizzazione ti consentono di creare elementi di personalizzazione relativi alle consegne anziché ai destinatari. È quindi possibile creare valori da utilizzare nelle consegne per un target specifico (offerta di benvenuto, uno sconto, ecc.) Vengono creati in Adobe Campaign e importati nella struttura tramite il collegamento **[!UICONTROL Import personalization fields...]**.
 
-  ![](assets/del-outline-perso-field.png)
+  ![Seleziona la finestra di dialogo dei campi di personalizzazione in cui sono elencati Pack, Gold e Premium, aperti dai campi di personalizzazione Importa.](assets/del-outline-perso-field.png)
 
   È inoltre possibile crearli direttamente nella struttura facendo clic sull&#39;icona **[!UICONTROL Add]** a destra dell&#39;area elenco.
 
-  ![](assets/add-del-outline-button.png)
+  ![Elenco dei campi di personalizzazione in una struttura di consegna con i valori immessi e l&#39;icona Aggiungi a destra dell&#39;elenco.](assets/add-del-outline-button.png)
 
 
 ### Seleziona una struttura {#select-an-outline}
 
 Per ogni consegna, puoi selezionare la struttura da associare dalla sezione riservata alla struttura di estrazione, come nell’esempio seguente:
 
-![](assets/select-delivery-outline.png)
+![Scheda Direct Mail di una consegna con la finestra di dialogo Seleziona una struttura di consegna che elenca l&#39;unità B, l&#39;unità C e l&#39;unità A.](assets/select-delivery-outline.png)
 
 La struttura selezionata viene quindi visualizzata nella sezione inferiore della finestra. Può essere modificata utilizzando l’icona a destra del campo o modificata utilizzando l’elenco a discesa:
 
-![](assets/delivery-outline-selected.png)
+![Scheda Direct Mail di una consegna con il campo Struttura consegna evidenziato e con l&#39;unità C.](assets/delivery-outline-selected.png)
 
 Nella scheda **[!UICONTROL Summary]** della consegna vengono visualizzate anche queste informazioni:
 
-![](assets/delivery-outline-in-dashboard.png)
+![Scheda Riepilogo consegne con una freccia che punta al valore di struttura della consegna, Unità C.](assets/delivery-outline-in-dashboard.png)
 
 ### Risultato estrazione {#extraction-result}
 
@@ -132,6 +132,6 @@ Nel fascicolo estratto e inviato al prestatore di servizi, il nome della struttu
 
 Nell’esempio seguente, l’etichetta, il costo stimato e la descrizione della struttura associata alla consegna verranno aggiunti al file di estrazione.
 
-![](assets/campaign-export-template.png)
+![Dati per estrarre il passaggio del modello di esportazione con la colonna di output Etichetta (struttura consegna/consegna) evidenziata.](assets/campaign-export-template.png)
 
 Il modello di esportazione deve essere associato al fornitore di servizi selezionato per la consegna interessata. Vedi [questa sezione](providers-stocks-and-budgets.md#create-service-providers-and-their-cost-structures).

@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 2%
+source-wordcount: '271'
+ht-degree: 1%
 ---
 # Monitorare le campagne di marketing {#monitor-marketing-campaigns}
 
@@ -38,11 +38,11 @@ Le seguenti informazioni sono accessibili tramite questa scheda secondaria:
 
 * La scheda secondaria **[!UICONTROL Audit]** mostra il giornale di registrazione attività. Contiene i processi eseguiti nella campagna: creazione o avvio del flusso di lavoro, approvazione, estrazione, gestione del magazzino, ecc.
 
-  ![](assets/campaign-audit-tab.png)
+  ![Scheda Modifica campagna, sezione Audit, scheda secondaria Diario in cui sono elencati i messaggi del diario attività e i tipi di registro](assets/campaign-audit-tab.png)
 
 * La scheda secondaria **[!UICONTROL Deliveries]** contiene tutte le consegne della campagna. Da questa vista è possibile modificarli. A tale scopo, selezionare la consegna e fare clic sull&#39;icona **[!UICONTROL Detail]**.
 
-  ![](assets/campaign-delivery-tab.png)
+  ![Sezione di controllo della campagna, scheda secondaria Consegne che elenca il canale, lo stato, lo stato di targeting e lo stato del contenuto](assets/campaign-delivery-tab.png)
 
 * La scheda secondaria **[!UICONTROL Approvals]** contiene tutto il processo di approvazione per la campagna. Puoi controllare dettagli e commenti
 
@@ -52,7 +52,7 @@ Le seguenti informazioni sono accessibili tramite questa scheda secondaria:
 
 L’elenco delle consegne è disponibile tramite il collegamento **[!UICONTROL Deliveries]** del nodo Campaign.
 
-![](assets/filter-deliveries-from-homepage.png)
+![Elenco delle consegne nella home page con elenco a discesa del filtro di stato In fase di modifica, In corso e Completato](assets/filter-deliveries-from-homepage.png)
 
 Per ogni consegna, questo elenco ti consente di accedere agli indicatori chiave: stato, numero di destinatari target, campagne collegate, ecc.
 

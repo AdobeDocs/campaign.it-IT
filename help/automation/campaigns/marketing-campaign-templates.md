@@ -20,10 +20,10 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 5%
+source-wordcount: '1331'
+ht-degree: 4%
 ---
 # Creare e configurare modelli di campagna {#campaign-templates}
 
@@ -45,7 +45,7 @@ Per creare un modello per campagne, segui la procedura seguente:
 1. Apri Campaign **Explorer** e passa a **Risorse > Modelli > Modelli campagna**.
 1. Fai clic su **Nuovo** nella barra degli strumenti sopra l&#39;elenco dei modelli.
 
-![](assets/campaign-template-node.png)
+![Elenco modelli campagna in Risorse > Modelli, con il pulsante Nuovo evidenziato nella barra degli strumenti.](assets/campaign-template-node.png)
 
 Puoi anche **duplicare** il modello incorporato per riutilizzarne e adattarne la configurazione. A tale scopo, fare clic con il pulsante destro del mouse sul modello e selezionare **Duplica**.
 
@@ -54,13 +54,13 @@ Puoi anche **duplicare** il modello incorporato per riutilizzarne e adattarne la
 1. Nella scheda **Modifica**, definisci le proprietà del modello.
 1. Seleziona il collegamento **Parametri campagna avanzati...** per aggiungere un flusso di lavoro al modello della campagna.
 
-   ![](assets/campaign-template-parameters.png)
+   ![Scheda Modifica nuovo modello campagna con il collegamento Parametri campagna avanzati evidenziato.](assets/campaign-template-parameters.png)
 
-1. Modifica il valore **Targeting e flussi di lavoro** in **Sì**. e conferma. Scopri come aggiungere funzionalità in [questa sezione](#typology-of-enabled-modules).
+1. Modifica il valore **Targeting e flussi di lavoro** in **Sì**. e conferma. Scopri come aggiungere funzionalità in [Tipologia di moduli](#typology-of-enabled-modules).
 1. La scheda **Impostazione destinazione e flussi di lavoro** è stata aggiunta al modello. Fare clic su **Aggiungi flusso di lavoro...**, immettere un **Etichetta** e fare clic su **Ok**.
 1. Crea il flusso di lavoro in base alle tue esigenze.
 
-   ![](assets/campaign-template-create-wf.png)
+   ![Scheda Targeting e flussi di lavoro del modello con un flusso di lavoro contenente Query e Read list che porta alla consegna e-mail.](assets/campaign-template-create-wf.png)
 
 1. Fai clic su **Salva**. Il modello è ora pronto per essere utilizzato per creare una nuova campagna.
 
@@ -70,7 +70,7 @@ Le varie schede e schede secondarie del modello della campagna consentono di acc
 
 Il collegamento **[!UICONTROL Advanced campaign parameters...]** consente di abilitare e disabilitare i processi per le campagne basate su questo modello. Seleziona le funzionalità che desideri abilitare nelle campagne create in base a questo modello.
 
-![](assets/campaign-template-select-modules.png)
+![Scheda Configurazione impostazioni avanzate in cui sono elencate tutte le funzionalità con un valore Sì o No; spese e obiettivi sono No.](assets/campaign-template-select-modules.png)
 
 Se non è selezionata una funzionalità, gli elementi relativi al processo (menu, icone, opzioni, schede, schede secondarie, ecc.) non vengono visualizzati nell’interfaccia del modello o nelle campagne basate su questo modello. Le schede a sinistra dei dettagli della campagna e le schede disponibili coincidono con le funzionalità selezionate nel modello. Ad esempio, la funzionalità **Spese e obiettivi** non è abilitata, la scheda **[!UICONTROL Budget]** corrispondente non viene visualizzata nelle campagne basate su questo modello.
 
@@ -80,44 +80,44 @@ Inoltre, al dashboard della campagna vengono aggiunte scelte rapide per le fines
 
 * Ad esempio, con le seguenti impostazioni:
 
-  ![](assets/campaign-template-select-functionalities.png)
+  ![Impostazioni avanzate: gruppo di controllo, indirizzi seed e documenti impostati su Sì; approvazioni, targeting e flussi di lavoro impostati su No.](assets/campaign-template-select-functionalities.png)
 
   Il dashboard della campagna mostra:
 
-  ![](assets/campaign-template-dashboard-sample-1.png)
+  ![Dashboard di Campaign con solo le schede Dashboard e Modifica, Aggiungi una consegna e Aggiungi collegamenti a documenti.](assets/campaign-template-dashboard-sample-1.png)
 
   Manca la scheda **[!UICONTROL Targeting and workflows]**.
 
   Sono disponibili le seguenti funzionalità:
 
-  ![](assets/campaign-template-edit-sample-1.png)
+  ![Scheda Modifica della campagna con le sezioni Proprietà, Documenti e Audit e nessuna sezione Budget.](assets/campaign-template-edit-sample-1.png)
 
   Manca la scheda **[!UICONTROL Budget]**.
 
   Anche le impostazioni avanzate della campagna riflettono questa configurazione.
 
-  ![](assets/campaign-template-parameters-sample-1.png)
+  ![Impostazioni avanzate della campagna con le schede Popolazione controllo e Indirizzi seed e Nessuna scheda Approvazioni.](assets/campaign-template-parameters-sample-1.png)
 
   La scheda **[!UICONTROL Approvals]** non è disponibile.
 
 * Con questa configurazione:
-  ![](assets/campaign-template-dashboard-sample-2.png)
+  ![Impostazioni avanzate: approvazioni, targeting e flussi di lavoro, spese e obiettivi impostati su Sì; altre funzionalità No.](assets/campaign-template-dashboard-sample-2.png)
 
   Il dashboard della campagna mostra:
 
-  ![](assets/campaign-template-select-functionalities-2.png)
+  ![Dashboard di Campaign con la scheda Targeting e flussi di lavoro e un collegamento Aggiungi consegna, ma nessun collegamento Aggiungi documento.](assets/campaign-template-select-functionalities-2.png)
 
   La scheda **[!UICONTROL Targeting and workflows]** è disponibile, ma manca il collegamento **Aggiungi documento**.
 
   Sono disponibili le seguenti funzionalità:
 
-  ![](assets/campaign-template-edit-sample-2.png)
+  ![Scheda Modifica con la sezione Budget aperta, che mostra le relative schede Budget, Obiettivi e Costi e Spese.](assets/campaign-template-edit-sample-2.png)
 
   La scheda **[!UICONTROL Budget]** è disponibile.
 
   Anche le impostazioni avanzate della campagna riflettono questa configurazione.
 
-  ![](assets/campaign-template-parameters-sample-2.png)
+  ![Impostazioni avanzate con la scheda Approvazioni e le convalide dei processi e senza le schede Popolazione controllo o Indirizzi seed.](assets/campaign-template-parameters-sample-2.png)
 
   La scheda **[!UICONTROL Approvals]** è disponibile, ma le schede **[!UICONTROL Control population]** e **[!UICONTROL Seed addresses]** non sono abilitate.
 
@@ -126,42 +126,42 @@ Inoltre, al dashboard della campagna vengono aggiunte scelte rapide per le fines
 
 * **Gruppo di controllo**
 
-  Quando questo modulo è selezionato, viene aggiunta una scheda aggiuntiva alle impostazioni avanzate del modello e delle campagne basate su questo modello. La configurazione può essere definita tramite il modello o singolarmente per ogni campagna. Ulteriori informazioni sui gruppi di controllo in [questa sezione](marketing-campaign-deliveries.md).
+  Quando questo modulo è selezionato, viene aggiunta una scheda aggiuntiva alle impostazioni avanzate del modello e delle campagne basate su questo modello. La configurazione può essere definita tramite il modello o singolarmente per ogni campagna. Ulteriori informazioni sui gruppi di controllo in [Consegne di campagne di marketing](marketing-campaign-deliveries.md).
 
-  ![](assets/template-activate-1.png)
+  ![Scheda Popolazione controllo impostazioni avanzate con l&#39;opzione Gruppo di controllo attivata e un collegamento Modifica per la relativa configurazione.](assets/template-activate-1.png)
 
 
 * **Indirizzi di seed**
 
   Quando questo modulo è selezionato, viene aggiunta una scheda aggiuntiva alle impostazioni avanzate del modello e delle campagne basate su questo modello. La configurazione può essere definita tramite il modello o singolarmente per ogni campagna.
 
-  ![](assets/template-activate-2.png)
+  ![Impostazioni avanzate Scheda Indirizzi seed con un collegamento Importa modelli seed e un elenco di indirizzi seed.](assets/template-activate-2.png)
 
 * **Documenti**
 
-  Quando questo modulo è selezionato, viene aggiunta una scheda aggiuntiva alla scheda **[!UICONTROL Edit]** del modello e delle campagne basate su questo modello. I documenti allegati possono essere aggiunti dal modello o singolarmente per ciascuna campagna. Ulteriori informazioni sui documenti in [questa sezione](marketing-campaign-deliveries.md).
+  Quando questo modulo è selezionato, viene aggiunta una scheda aggiuntiva alla scheda **[!UICONTROL Edit]** del modello e delle campagne basate su questo modello. I documenti allegati possono essere aggiunti dal modello o singolarmente per ciascuna campagna. Ulteriori informazioni sui documenti in [Consegne di campagne di marketing](marketing-campaign-deliveries.md).
 
-  ![](assets/template-activate-3.png)
+  ![Sezione Documenti della scheda Modifica in cui sono elencati i documenti allegati, con i pulsanti Aggiungi, Elimina e Dettagli.](assets/template-activate-3.png)
 
 * **Profilo di consegna**
 
-  Quando questo modulo è selezionato, alla scheda **[!UICONTROL Documents]** viene aggiunta una scheda secondaria **[!UICONTROL Delivery outlines]** per definire i profili di consegna per la campagna. Ulteriori informazioni sui profili di consegna in [questa sezione](marketing-campaign-assets.md#delivery-outlines).
+  Quando questo modulo è selezionato, alla scheda **[!UICONTROL Documents]** viene aggiunta una scheda secondaria **[!UICONTROL Delivery outlines]** per definire i profili di consegna per la campagna. Ulteriori informazioni sui profili di consegna in [Usa profili di consegna](marketing-campaign-assets.md#delivery-outlines).
 
-  ![](assets/template-activate-4.png)
+  ![Scheda secondaria dei profili di consegna della sezione Documenti con un collegamento Aggiungi struttura di consegna.](assets/template-activate-4.png)
 
 * **Impostazione destinazione e flussi di lavoro**
 
-  Quando selezioni il modulo **[!UICONTROL Targeting and workflows]**, viene aggiunta una scheda che consente di creare uno o più flussi di lavoro per le campagne basate su questo modello. I flussi di lavoro possono anche essere configurati singolarmente per ogni campagna basata su questo modello.Ulteriori informazioni sui flussi di lavoro delle campagne in [questa sezione](marketing-campaign-deliveries.md).
+  Quando selezioni il modulo **[!UICONTROL Targeting and workflows]**, viene aggiunta una scheda che consente di creare uno o più flussi di lavoro per le campagne basate su questo modello. I flussi di lavoro possono anche essere configurati singolarmente per ogni campagna basata su questo modello.Ulteriori informazioni sui flussi di lavoro delle campagne in [Consegne di campagne di marketing](marketing-campaign-deliveries.md).
 
-  ![](assets/template-activate-5.png)
+  ![Scheda Targeting e flussi di lavoro con un flusso di lavoro: Query e Leggi elenco, Deduplicazione, Consegna mobile.](assets/template-activate-5.png)
 
   Quando questo modulo è abilitato, viene aggiunta una scheda **[!UICONTROL Jobs]** alle impostazioni avanzate della campagna per definire la sequenza di esecuzione del processo.
 
 * **Approvazioni**
 
-  Se abiliti **[!UICONTROL Approvals]**, puoi selezionare i processi da approvare e gli operatori responsabili delle approvazioni. Ulteriori informazioni sulle approvazioni in [questa sezione](marketing-campaign-approval.md#select-reviewers).
+  Se abiliti **[!UICONTROL Approvals]**, puoi selezionare i processi da approvare e gli operatori responsabili delle approvazioni. Ulteriori informazioni sulle approvazioni in [Seleziona revisori](marketing-campaign-approval.md#select-reviewers).
 
-  ![](assets/template-activate-6.png)
+  ![Scheda Approvazioni impostazioni avanzate con approvazioni di contenuto, destinazione, budget ed estrazione abilitate e revisori assegnati.](assets/template-activate-6.png)
 
   È possibile scegliere se abilitare o meno l&#39;approvazione del processo tramite la scheda **[!UICONTROL Approvals]** della sezione delle impostazioni avanzate dei modelli.
 
@@ -169,21 +169,21 @@ Inoltre, al dashboard della campagna vengono aggiunte scelte rapide per le fines
 
   Quando questo modulo è selezionato, viene aggiunta una scheda **[!UICONTROL Budget]** ai dettagli del modello e delle campagne basate su questo modello, in modo che sia possibile selezionare il budget associato.
 
-  ![](assets/template-activate-7.png)
+  ![Sezione Budget della scheda Modifica con i campi di budget correlati, gli obiettivi e la scheda Costi con le righe di costo.](assets/template-activate-7.png)
 
 
 ## Proprietà modello {#template-properties}
 
-![](assets/template-op-type.png)
+![Scheda Modifica modello campagna con il menu a discesa Tipo di operazione aperto, che mostra Univoco, Ricorrente e Periodico.](assets/template-op-type.png)
 
 Quando crei un modello di campagna, devi immettere le seguenti informazioni:
 
 * Immetti l&#39;**etichetta** del modello: l&#39;etichetta è obbligatoria ed è l&#39;etichetta predefinita per tutte le campagne basate su questo modello.
 * Seleziona la campagna **natura** dall&#39;elenco a discesa. I valori disponibili in questo elenco sono quelli salvati nell&#39;enumerazione **[!UICONTROL natureOp]**.
 
-  Scopri come accedere e configurare le enumerazioni in [questa pagina](../../v8/config/enumerations.md).
+  Scopri come accedere e configurare le enumerazioni in [Gestione enumerazioni](../../v8/config/enumerations.md).
 
-* Selezionare il tipo **di campagna**: univoco, ricorrente o periodico. Per impostazione predefinita, i modelli di campagna si applicano a campagne univoche. Le campagne ricorrenti e periodiche sono descritte in dettaglio in [questa sezione](recurring-periodic-campaigns.md).
+* Selezionare il tipo **di campagna**: univoco, ricorrente o periodico. Per impostazione predefinita, i modelli di campagna si applicano a campagne univoche. Le campagne ricorrenti e periodiche sono descritte in dettaglio in [Creare campagne ricorrenti e periodiche](recurring-periodic-campaigns.md).
 * Specifica la durata della campagna, ovvero il numero di giorni durante i quali la campagna avrà luogo. Quando crei una campagna basata su questo modello, le date di inizio e di fine della campagna verranno compilate automaticamente.
 
   Se la campagna è ricorrente, devi specificare le date di inizio e di fine della campagna direttamente nel modello.

@@ -18,9 +18,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '187'
 ht-degree: 1%
 ---
 # Accedere alle campagne{#accessing-campaigns}
@@ -37,7 +37,7 @@ Una volta che l’ordine è stato approvato e la data di disponibilità è stata
 
 Viene aggiunto ai dettagli dell’ordine corrispondente e può essere modificato. La dashboard completa consente di gestirla a livello locale.
 
-![](assets/mkg_dist_local_op_edit_new_op1.png)
+![Elenco pacchetti campagna con una campagna locale aperta nel dashboard, che mostra le consegne e aggiunge un collegamento di consegna](assets/mkg_dist_local_op_edit_new_op1.png)
 
 La campagna rimane accessibile nella panoramica della campagna, che si trova tramite il collegamento **[!UICONTROL Campaigns]** nella home page.
 

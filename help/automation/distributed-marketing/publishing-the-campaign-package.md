@@ -18,9 +18,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '563'
 ht-degree: 2%
 ---
 # Pubblicare il pacchetto della campagna{#publishing-the-campaign-package}
@@ -33,15 +33,15 @@ Prima di poter essere pubblicati nell’elenco dei pacchetti della campagna, i p
 
 Per selezionare il revisore, fare clic sul collegamento **[!UICONTROL Approval parameters]** dal pacchetto della campagna e scegliere il revisore appropriato dall&#39;elenco a discesa.
 
-![](assets/s_advuser_mkg_dist_define_valid.png)
+![Finestra di dialogo Parametri di approvazione di un pacchetto della campagna con il campo Revisore impostato su un gruppo di gestione centrale.](assets/s_advuser_mkg_dist_define_valid.png)
 
 È quindi possibile avviare il processo di approvazione facendo clic su **[!UICONTROL Submit for approval]**.
 
-![](assets/s_advuser_mkg_dist_valid_process.png)
+![Dashboard del pacchetto Campaign che mostra il messaggio inviato per l&#39;approvazione e il pulsante Approva il pacchetto.](assets/s_advuser_mkg_dist_valid_process.png)
 
 Viene quindi inviato un messaggio di notifica al revisore per confermare la disponibilità di questo pacchetto della campagna. Il messaggio contiene un collegamento per accettare o rifiutare l’approvazione tramite accesso web.
 
-![](assets/s_advuser_mkg_dist_valid_process1.png)
+![E-mail di approvazione con il collegamento Accetta o rifiuta, apertura della pagina Azione sul pacchetto con le opzioni Accetta e Rifiuta.](assets/s_advuser_mkg_dist_valid_process1.png)
 
 >[!NOTE]
 >
@@ -51,7 +51,7 @@ Viene quindi inviato un messaggio di notifica al revisore per confermare la disp
 
 Puoi aggiungere altri revisori dal collegamento **[!UICONTROL Edit...]**, che si trova nella scheda **[!UICONTROL Approval parameters...]** del pacchetto della campagna.
 
-![](assets/s_advuser_mkg_dist_select_op_valid.png)
+![Collegamento Modifica nei parametri di approvazione che apre la finestra Modifica revisori con revisori aggiuntivi e pianificazione dell&#39;approvazione.](assets/s_advuser_mkg_dist_select_op_valid.png)
 
 ## Timeline di approvazione {#approval-periods}
 
@@ -61,7 +61,7 @@ All’interno della finestra di modifica dei revisori, puoi anche impostare i pr
 
 I promemoria possono essere inviati in una determinata data e/o **x** giorni dopo la data di invio. Il tipo di promemoria può essere configurato nella prima colonna della tabella dei promemoria. Nell&#39;esempio seguente, i revisori riceveranno un messaggio di promemoria il 01/11/2023, ovvero due giorni prima della data selezionata nella colonna **[!UICONTROL Date]**, e un secondo promemoria un giorno prima della fine del periodo di approvazione, ovvero due giorni dopo la data di invio per l&#39;approvazione.
 
-![](assets/s_advuser_mkg_dist_reminder_planning.png)
+![Finestra Modifica revisori con un ritardo di approvazione 3d e due promemoria: Ritardo dalla scadenza di approvazione e Data specificata.](assets/s_advuser_mkg_dist_reminder_planning.png)
 
 Una volta definito e inviato il pacchetto per l&#39;approvazione, la pianificazione dell&#39;esecuzione viene visualizzata nella scheda **[!UICONTROL Audit]**. Mostra la scadenza dell’elaborazione calcolata in base alla configurazione precedente, nonché le date di tutti i promemoria configurati.
 
@@ -69,6 +69,6 @@ Una volta definito e inviato il pacchetto per l&#39;approvazione, la pianificazi
 
 Se non è stato specificato alcun revisore o se nessuno degli operatori notificati ha approvato il pacchetto, il pulsante **[!UICONTROL Approve the package]** consente di passare direttamente all&#39;approvazione dal pacchetto della campagna **[!UICONTROL Dashboard]** o dalla panoramica dei pacchetti.
 
-![](assets/s_advuser_mkg_dist_valid_button.png)
+![Approva il pulsante del pacchetto aprendo la finestra di dialogo Azione sul pacchetto con le opzioni Accetta o Rifiuta e un campo Commento.](assets/s_advuser_mkg_dist_valid_button.png)
 
 Dopo l’approvazione, la campagna viene pubblicata, aggiunta all’elenco e, non appena viene raggiunta la data di disponibilità, le entità locali possono utilizzarla. Se durante la creazione della campagna sono state specificate le entità locali, viene inviato un messaggio agli operatori nel gruppo di notifica per comunicare loro che la campagna è disponibile. Se in precedenza non è stata specificata alcuna entità, la campagna è disponibile per tutte le entità locali per impostazione predefinita. Per ulteriori informazioni, consulta [Entità organizzative](about-distributed-marketing.md#organizational-entities).

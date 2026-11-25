@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '568'
 ht-degree: 0%
 ---
 # Forum di discussione{#discussion-forums}
@@ -43,13 +43,13 @@ Gli operatori possono iscriversi a un forum per ricevere un’e-mail di notifica
 
 Per accedere a un forum, passare a un dashboard e fare clic sul collegamento **[!UICONTROL Forum]** nell&#39;angolo superiore destro.
 
-![](assets/mrm-forum-icon.png)
+![Dashboard di Campaign con una freccia che punta al collegamento del forum e all&#39;elenco delle discussioni.](assets/mrm-forum-icon.png)
 
 I messaggi e le relative risposte vengono visualizzati dal più recente al meno recente.
 
 Per avviare un nuovo thread, fare clic sul pulsante **[!UICONTROL Add a discussion]** nell&#39;angolo superiore destro. Viene visualizzata la casella **[!UICONTROL Discussion forum]** (vedere di seguito).
 
-![](assets/mrm-forum-new-thread.png)
+![Finestra di dialogo del forum di discussione con oggetto, messaggio, operatore da notificare, allegare un documento e creare il messaggio.](assets/mrm-forum-new-thread.png)
 
 
 Immettere il testo nel campo **[!UICONTROL Message]** e un titolo di discussione nel campo **[!UICONTROL Subject]**.
@@ -85,7 +85,7 @@ Per rispondere a un messaggio, fai clic sul corpo dell’e-mail, quindi accedi a
 
 * Nel dashboard personale sono elencati i forum a cui sei abbonato. Fai clic sul collegamento **[!UICONTROL Subscription to discussion forums]** per visualizzare l&#39;elenco, quindi fai clic sull&#39;elemento che ti interessa per accedere al relativo forum.
 
-  ![](assets/forum-subscribed.png)
+  ![Dashboard dell&#39;operatore con l&#39;elenco Sottoscrizioni ai forum di discussione evidenziato.](assets/forum-subscribed.png)
 
 
 ## Risoluzione dei problemi di consegna delle notifiche {#checking-notification-delivery}
