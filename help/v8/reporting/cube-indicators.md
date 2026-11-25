@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 63e73a31c5c46cb7544917557c3a0670d7ac91c9
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 3%
+source-wordcount: '1000'
+ht-degree: 1%
 ---
 # Creare un cubo{#create-a-cube}
 
@@ -43,7 +43,7 @@ ht-degree: 3%
 
 Per accedere ai cubi, passa a **[!UICONTROL Administration > Configuration > Cubes]** da Esplora campagne.
 
-![](assets/cube-node.png)
+![Nodo cubi in Amministrazione > Configurazione in Esplora risorse, con l&#39;elenco dei cubi e i dettagli del cubo selezionati](assets/cube-node.png)
 
 Con i cubi è possibile:
 
@@ -51,21 +51,21 @@ Con i cubi è possibile:
 
   A questo scopo, crea un nuovo rapporto e seleziona il cubo da utilizzare.
 
-  ![](assets/create-new-cube.png)
+  ![Creazione di un nuovo report dai modelli di cubo disponibili, con Destinatari selezionati e un&#39;etichetta inserita prima della creazione](assets/create-new-cube.png)
 
   I cubi vengono visualizzati come modelli in base ai rapporti creati. Dopo aver scelto un modello, fare clic su **[!UICONTROL Create]** per configurare e visualizzare il nuovo report.
 
   Puoi adattare le misure, modificare la modalità di visualizzazione o configurare la tabella, quindi visualizzare il rapporto utilizzando il pulsante principale.
 
-  ![](assets/display-cube-table.png)
+  ![Nuovo report basato su un cubo, con campi Misure, Età e Paese/Area e il pulsante per visualizzare la tabella pivot](assets/display-cube-table.png)
 
 * Fare riferimento a un cubo nella casella **[!UICONTROL Query]** di un report per utilizzare i relativi indicatori, come illustrato di seguito:
 
-  ![](assets/cube-report-query.png)
+  ![Attività Query di un report con l&#39;opzione Usa un cubo selezionata e un cubo scelto nel campo Cubo](assets/cube-report-query.png)
 
 * Inserire una tabella pivot basata su un cubo in una pagina qualsiasi di un report. A tale scopo, fare riferimento al cubo da utilizzare nella scheda **[!UICONTROL Data]** della tabella pivot sulla pagina interessata.
 
-  ![](assets/cube-in-a-report.png)
+  ![Scheda dati di una tabella pivot in una pagina di un report, con un cubo selezionato nel campo Cubo e nelle dimensioni Età e Città](assets/cube-in-a-report.png)
 
   Per ulteriori informazioni, consulta [Esplorare i dati in un report](cube-tables.md#explore-the-data-in-a-report).
 
@@ -94,14 +94,14 @@ Per creare un cubo, effettuare le seguenti operazioni:
 
 1. Fare clic sul pulsante **[!UICONTROL New]** sopra l&#39;elenco dei cubi.
 
-   ![](assets/create-a-cube.png)
+   ![Finestra di dialogo Nuovo cubo con le opzioni relative all&#39;origine dei fatti, il campo Schema dei fatti, un&#39;etichetta e il pulsante Salva](assets/create-a-cube.png)
 
 1. Seleziona lo schema contenente gli elementi da esplorare (noto anche come &quot;schema dei fatti&quot;). In questo esempio, selezionare la tabella predefinita **Destinatario**.
 1. Fare clic su **[!UICONTROL Save]** per creare il cubo, che verrà aggiunto all&#39;elenco dei cubi. Ora puoi utilizzare le schede per configurarlo.
 
 1. Fare clic sul collegamento **[!UICONTROL Filter the source data...]** per applicare i calcoli del cubo ai dati del database.
 
-   ![](assets/cube-filter-source.png)
+   ![Scheda Generale del cubo con il collegamento Filtra i dati di origine che apre la finestra di dialogo Modifica filtro con la condizione Età superiore a 18](assets/cube-filter-source.png)
 
 ### Definire le dimensioni {#define-dimensions}
 
@@ -112,7 +112,7 @@ Per creare le quote, effettuate le seguenti operazioni:
 1. Passare alla scheda **[!UICONTROL Dimension]** del cubo e fare clic sul pulsante **[!UICONTROL Add]** per creare una nuova dimensione.
 1. In **[!UICONTROL Expression field]**, fare clic sull&#39;icona **[!UICONTROL Edit expression]** per selezionare il campo che contiene i dati interessati.
 
-   ![](assets/cube-add-dimension.png)
+   ![Scheda Dimensioni con il pulsante Aggiungi e la finestra di dialogo della nuova dimensione; l&#39;icona Modifica espressione seleziona il campo](assets/cube-add-dimension.png)
 
 1. In questo esempio, stiamo selezionando il destinatario **Età**. Per questo campo, puoi definire il binning per raggruppare le pagine e semplificare la lettura delle informazioni. È consigliabile utilizzare il binning quando è probabile che siano presenti più valori separati.
 
@@ -121,7 +121,7 @@ Per eseguire questa operazione, selezionare l&#39;opzione **[!UICONTROL Enable b
 1. Aggiungi una dimensione di tipo **Date**. In questo caso, vogliamo visualizzare le date di creazione del profilo del destinatario. A tale scopo, fare clic su **[!UICONTROL Add]** e selezionare il campo **[!UICONTROL Creation date]** nella tabella dei destinatari.
 Puoi personalizzare la modalità di visualizzazione della data. A questo scopo, seleziona la gerarchia da utilizzare e i livelli da generare:
 
-![](assets/cube-date-dimension.png)
+![Finestra di dialogo della dimensione Data di creazione con i livelli per creare opzioni: Anni, Trimestri, Mesi, Giorni e Ore](assets/cube-date-dimension.png)
 
 Nel nostro esempio, vogliamo visualizzare solo anni, mesi e giorni. Tieni presente che non è possibile lavorare contemporaneamente con settimane e semestri/mesi: questi livelli non sono compatibili.
 
@@ -131,11 +131,11 @@ Nel nostro esempio, vogliamo visualizzare solo anni, mesi e giorni. Tieni presen
 
 Seleziona l’enumerazione dall’elenco a discesa. Questa enumerazione deve essere definita come **[!UICONTROL Reserved for binning]**.
 
-![](assets/cube-dimension-with-enum.png)
+![Dimensione città con abilitazione binning, collega dinamicamente i valori a un&#39;enumerazione e Label degli altri valori](assets/cube-dimension-with-enum.png)
 
 Verranno visualizzati solo i valori nell’enumerazione. Gli altri saranno raggruppati sotto l&#39;etichetta definita nel campo **[!UICONTROL Label of the other values]**.
 
-Per ulteriori informazioni al riguardo, consulta [questa sezione](customize-cubes.md#dynamically-manage-bins).
+Per ulteriori informazioni, consulta [Gestione dinamica dei raccoglitori](customize-cubes.md#dynamically-manage-bins).
 
 ### Creare indicatori {#build-indicators}
 
@@ -148,15 +148,15 @@ Per creare gli indicatori, effettua le seguenti operazioni:
 1. Passare alla scheda **[!UICONTROL Measures]** e fare clic sul pulsante **[!UICONTROL Add]**.
 1. Selezionare il tipo di misura e la formula da applicare. In questo esempio, stiamo contando il numero di donne tra i destinatari. La misura si basa sullo schema dei fatti e utilizza l&#39;operatore **[!UICONTROL Count]**.
 
-   ![](assets/cube-new-measure.png)
+   ![Finestra di dialogo Nuova misura con la misura definita utilizzando lo schema dei fatti, l&#39;operatore Count e il collegamento Filtra dati misura](assets/cube-new-measure.png)
 
    Utilizza il collegamento **[!UICONTROL Filter the measure data...]** per selezionare solo donne. [Ulteriori informazioni](customize-cubes.md#define-measures).
 
-   ![](assets/cube-filter-measure-data.png)
+   ![Finestra di dialogo Modifica filtro con la condizione Genere uguale a e il valore Femmina selezionati nell&#39;elenco Valore](assets/cube-filter-measure-data.png)
 
 1. Immettere l&#39;etichetta della misura e salvarla.
 
-   ![](assets/cube-save-measure.png)
+   ![Le donne completate misurano con l&#39;operatore Count, il genere del filtro è uguale a Femmina e il campo Label prima del salvataggio](assets/cube-save-measure.png)
 
 1. Salvare il cubo.
 

@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 63e73a31c5c46cb7544917557c3a0670d7ac91c9
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '678'
 ht-degree: 2%
 ---
 # Audit trail{#audit-trail}
@@ -69,7 +69,7 @@ La funzionalità **[!UICONTROL Audit trail]** di Adobe Campaign offre un record 
 
 * **Option audit trail** consente di controllare le attività e le ultime modifiche apportate alle opzioni.
 
-  Per ulteriori informazioni sulle opzioni, consulta questa [pagina](https://experienceleague.adobe.com/it/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
+  Per ulteriori informazioni sulle opzioni, consulta questa [pagina](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
 
 * **Audit trail consegna** consente di controllare le attività e le ultime modifiche apportate alle consegne.
 
@@ -105,7 +105,7 @@ Per accedere a **[!UICONTROL Audit trail]** dell&#39;istanza:
 
 1. Nel menu **[!UICONTROL Administration]**, selezionare **[!UICONTROL Audit]** e quindi **[!UICONTROL Audit Trail]**.
 
-   ![](assets/audit-trail-1.png)
+   ![Struttura di Explorer con Administration, Audit, AuditTrail selezionato e l&#39;elenco delle entità sottoposte a audit](assets/audit-trail-1.png)
 
 1. Viene visualizzata la finestra **[!UICONTROL Audit trail]** con l&#39;elenco delle entità. Adobe Campaign controllerà le azioni di creazione, modifica ed eliminazione per le diverse entità.
 
@@ -119,7 +119,7 @@ Per accedere a **[!UICONTROL Audit trail]** dell&#39;istanza:
    * **[!UICONTROL Action]**: ultima azione eseguita sull&#39;entità, Creata, Modificata o Eliminata.
    * **[!UICONTROL Modification date]**: data dell&#39;ultima azione eseguita su questa entità.
 
-   ![](assets/audit-trail-2.png)
+   ![Dettagli entità di controllo che mostrano Tipo, Entità, Modificato da, Azione e Data modifica](assets/audit-trail-2.png)
 
 >[!NOTE]
 >
@@ -148,10 +148,10 @@ Per eseguire questa operazione:
    * Per l&#39;operatore: **[!UICONTROL XtkAudit_Operator]**
    * Per ogni entità: **[!UICONTROL XtkAudit_Enable_All]**
 
-   ![](assets/audit-trail-3.png)
+   ![Elenco opzioni in Amministrazione, Platform filtrato su XtkAudit_ con l&#39;opzione XtkAudit_Delivery selezionata](assets/audit-trail-3.png)
 
 1. Modificare **[!UICONTROL Value]** in 1 se si desidera abilitare l&#39;entità o in 0 se si desidera disabilitarla.
 
-   ![](assets/audit-trail-4.png)
+   ![Opzione XtkAudit_Delivery con il campo Valore (numero intero) impostato su 1 per abilitare Audit trail](assets/audit-trail-4.png)
 
 1. Fai clic su **[!UICONTROL Save]**.
