@@ -23,9 +23,9 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '517'
 ht-degree: 4%
 ---
 # Generare documenti PDF personalizzati{#generating-personalized-pdf-documents}
@@ -75,7 +75,7 @@ A questo scopo, devi configurare un blocco di personalizzazione, quindi includer
 * Crea un nuovo blocco di personalizzazione &quot;Il mio logo&quot; con &quot;Il mio_logo&quot; come nome interno.
 * Fai clic sul collegamento **[!UICONTROL Advanced parameters...]**, quindi seleziona l&#39;opzione **[!UICONTROL "The content of the block is included in an attachment"]**. Questo consente di copiare la definizione del blocco di personalizzazione direttamente nel contenuto del file OpenOffice.
 
-  ![](assets/s_ncs_pdf_bloc_option.png)
+  ![Blocco di personalizzazione Logo con il relativo tipo di contenuto e la definizione XML OpenOffice nell&#39;editor](assets/s_ncs_pdf_bloc_option.png)
 
   Devi distinguere due tipi di dichiarazioni all’interno del blocco di personalizzazione:
 
@@ -84,7 +84,7 @@ A questo scopo, devi configurare un blocco di personalizzazione, quindi includer
 
 Nell’esempio, il blocco di personalizzazione si presenta così:
 
-```
+```html
 <% if (recipient.country.label == "Germany") { %>
 <draw:frame svg:width="4cm" svg:height="3cm">
 <draw:image xlink:href=https://..../logo_germany.png />

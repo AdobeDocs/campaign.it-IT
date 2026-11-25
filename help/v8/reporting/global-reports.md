@@ -31,20 +31,20 @@ topic_v2:
     internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 63e73a31c5c46cb7544917557c3a0670d7ac91c9
 workflow-type: tm+mt
-source-wordcount: '1782'
-ht-degree: 10%
+source-wordcount: '1984'
+ht-degree: 8%
 ---
 # Rapporti globali {#global-reports}
 
 Tali relazioni riguardano l&#39;attività dei dati nell&#39;intero database. Per visualizzare il dashboard dei report, passare alla scheda **[!UICONTROL Reports]**.
 
-![](assets/reports-tab.png)
+![Scheda Report della home page di Adobe Campaign, che mostra la dashboard Global Reports con riquadri](assets/reports-tab.png)
 
 Per visualizzare i rapporti, fai clic sui relativi nomi. Per impostazione predefinita sono disponibili i seguenti rapporti:
 
-![](assets/report-global-list.png)
+![Elenco di rapporti globali che mostra i rapporti predefiniti, ad esempio le attività degli utenti, la velocità effettiva di consegna e i browser](assets/report-global-list.png)
 
 >[!NOTE]
 >
@@ -68,7 +68,7 @@ Per visualizzare i rapporti, fai clic sui relativi nomi. Per impostazione predef
 
 Questo rapporto contiene informazioni sulla velocità effettiva di consegna dell’intera piattaforma per un determinato periodo. I criteri utilizzati per misurare la velocità con cui vengono consegnati i messaggi comprendono il numero di messaggi inviati all’ora e le dimensioni dei messaggi (in bit al secondo). Nell’esempio seguente, il primo grafico mostra le consegne riuscite in blu e il numero di consegne con errori in arancione.
 
-![](assets/report-toolbar.png)
+![Rapporto della velocità effettiva di consegna con l&#39;intervallo di tempo Parametri, il collegamento Aggiorna e i grafici dei successi e degli errori all&#39;ora](assets/report-toolbar.png)
 
 Puoi configurare i valori visualizzati modificando la scala cronologica: visualizzazione a 1 ora, visualizzazione a 3 ore, visualizzazione a 24 ore, ecc. Fai clic su **[!UICONTROL Refresh]** per confermare la selezione.
 
@@ -139,11 +139,11 @@ Per ogni nome di dominio, abbiamo:
 
 Per aprire ogni riga della tabella dei valori, fare clic sul simbolo [+]. Per ogni tipo di dominio, puoi visualizzare la suddivisione dei messaggi di errore per tipo.
 
-![](assets/errors-report-details.png)
+![Suddivisione degli errori per tabella di dominio, con righe di dominio espandibili che mostrano i conteggi degli errori per tipo di errore](assets/errors-report-details.png)
 
 >[!NOTE]
 >
->I nomi di dominio visualizzati in questo report sono definiti a livello di cubo. Per modificare questi valori, modificare il cubo **[!UICONTROL Delivery logs (broadlogrcp)]**. Per ulteriori informazioni al riguardo, consulta [questa sezione](gs-cubes.md). La categoria **[!UICONTROL Others]** include nomi di dominio che non appartengono a una classe specifica.
+>I nomi di dominio visualizzati in questo report sono definiti a livello di cubo. Per modificare questi valori, modificare il cubo **[!UICONTROL Delivery logs (broadlogrcp)]**. Per ulteriori informazioni, consulta [Introduzione ai rapporti di Adobe Campaign Analytics](gs-cubes.md). La categoria **[!UICONTROL Others]** include nomi di dominio che non appartengono a una classe specifica.
 
 ## Browser {#browsers}
 
@@ -157,7 +157,7 @@ Questo rapporto mostra il raggruppamento dei browser Internet utilizzati dai des
 
 Le statistiche globali sull’utilizzo del browser sono presentate sotto forma di tabella di valori e di grafico.
 
-![](assets/browser-report.png)
+![Rapporto browser Internet con una tabella di visitatori, pagine visualizzate, tasso di utilizzo per browser e un grafico ad anello](assets/browser-report.png)
 
 Sono utilizzati i seguenti indicatori:
 
@@ -169,7 +169,7 @@ Sono utilizzati i seguenti indicatori:
 
 Nella tabella dei valori delle statistiche globali, puoi fare clic sul nome di ogni browser per visualizzarne le statistiche di utilizzo.
 
-![](assets/browser-report-info.png)
+![Statistiche per un browser, con la curva Cronologia, il grafico Raggruppamento per versioni e il tasso globale e il tasso relativo](assets/browser-report-info.png)
 
 Le statistiche sono presentate sotto forma di curva, grafico e tabella di valori.
 
@@ -247,7 +247,7 @@ Questo rapporto mostra la suddivisione dei sistemi operativi utilizzati dai dest
 
 Le statistiche di utilizzo globali dei sistemi operativi vengono presentate sotto forma di tabella di valori e di grafico.
 
-![](assets/os-report.png)
+![Rapporto Sistemi operativi con una tabella di visitatori, pagine visualizzate, tasso di utilizzo per sistema e un grafico ad anello](assets/os-report.png)
 
 Sono utilizzati i seguenti indicatori:
 
@@ -259,7 +259,7 @@ Sono utilizzati i seguenti indicatori:
 
 Nella tabella dei valori delle statistiche globali fare clic sul nome di ogni sistema operativo per visualizzare le statistiche per sistema operativo.
 
-![](assets/os-report-details.png)
+![Pagina delle statistiche di Windows con la curva Cronologia, il grafico Raggruppamento per versioni e il tasso globale e il tasso relativo per versione](assets/os-report-details.png)
 
 Le statistiche sono presentate sotto forma di curva, grafico e tabella di valori.
 
@@ -276,11 +276,11 @@ La tabella dei valori utilizza i seguenti indicatori:
 
 Questo report consente di monitorare gli abbonamenti ai servizi di informazione. Mostra gli abbonamenti e il loro annullamento.
 
-![](assets/service-report.png)
+![Rapporto di tracciamento delle sottoscrizioni con l&#39;evoluzione complessiva della tabella delle sottoscrizioni e le curve di evoluzione delle sottoscrizioni](assets/service-report.png)
 
 È possibile visualizzarlo per un abbonamento facendo clic sul nodo **[!UICONTROL Profiles and targets > Services and subscriptions]** della home page o dell&#39;Explorer. Selezionare la sottoscrizione desiderata, quindi fare clic sulla scheda **[!UICONTROL Reports]**. Il report **[!UICONTROL Subscriptions tracking]** è disponibile per impostazione predefinita. Ti consente di visualizzare le tendenze di abbonamento e annullamento dell’abbonamento e il tasso di fedeltà in un periodo. Puoi configurare la rappresentazione di questi dati tramite l’elenco a discesa. Fare clic su **[!UICONTROL Refresh]** per convalidare la configurazione selezionata.
 
-Per ulteriori informazioni, consultare [questa pagina](../start/subscriptions.md).
+Per ulteriori informazioni, consulta [Gestire gli abbonamenti e il loro annullamento in Campaign](../start/subscriptions.md).
 
 **[!UICONTROL Number subscribed to date]** rappresenta il numero totale di persone attualmente abbonate.
 
@@ -302,7 +302,7 @@ Questo grafico mostra l’evoluzione degli abbonamenti e dei loro annullamenti p
 
 Questo rapporto mostra la suddivisione per dominio Internet di tutti i messaggi elaborati e inviati, di mancati recapiti permanenti e non permanenti, aperture, clic e annullamenti di abbonamenti.
 
-![](assets/broadcast-report.png)
+![Report delle statistiche di consegna che mostra e-mail elaborate, consegnate, non recapitate, aperture, clic e annullamenti di abbonamenti per dominio e-mail](assets/broadcast-report.png)
 
 Sono utilizzati i seguenti indicatori:
 
@@ -313,7 +313,7 @@ Sono utilizzati i seguenti indicatori:
 
   >[!NOTE]
   >
-  >Per ulteriori informazioni sui mancati recapiti permanenti e non permanenti, consulta [questa pagina](../send/quarantines.md).
+  >Per ulteriori informazioni sui mancati recapiti permanenti e non permanenti, consulta [Gestione della quarantena in Campaign](../send/quarantines.md).
 
 * **[!UICONTROL Opens]**: percentuale del numero di destinatari che hanno aperto un messaggio almeno una volta rispetto al numero di messaggi elaborati correttamente.
 * **[!UICONTROL Clicks]**: percentuale del numero di persone che hanno fatto clic almeno una volta in una consegna rispetto al numero di messaggi elaborati correttamente.
@@ -323,9 +323,9 @@ Sono utilizzati i seguenti indicatori:
 
 Raggruppamenti delle aperture: questo rapporto mostra le aperture raggruppate per sistema operativo, dispositivo e browser per il periodo in questione. Per ogni categoria vengono utilizzati due grafici. Il primo visualizza le statistiche relative all’apertura su un computer e dispositivi mobili. Il secondo visualizza le statistiche relative solo all’apertura su dispositivi mobili.
 
-Il numero di aperture corrisponde al numero totale di messaggi aperti. Le e-mail in formato testo non vengono conteggiate. Per ulteriori informazioni sulle aperture di tracciamento, consulta [questa sezione](metrics-calculation.md#tracking-opens-).
+Il numero di aperture corrisponde al numero totale di messaggi aperti. Le e-mail in formato testo non vengono conteggiate. Per ulteriori informazioni sulle aperture di tracciamento, fare riferimento a [Aperture di tracciamento](metrics-calculation.md#tracking-opens-).
 
-![](assets/user-agent-report.png)
+![Raggruppamento del report di aperture con grafici a torta di sistemi operativi, dispositivi e browser per tutte le aperture e solo per le aperture per dispositivi mobili](assets/user-agent-report.png)
 
 >[!NOTE]
 >

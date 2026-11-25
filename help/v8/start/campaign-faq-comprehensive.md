@@ -24,9 +24,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 011875268793bca1a000d745818dbd6c69461227
 workflow-type: tm+mt
-source-wordcount: '11502'
+source-wordcount: '11508'
 ht-degree: 8%
 ---
 # Domande frequenti {#faq}
@@ -102,7 +102,7 @@ Sì! Grazie all’integrazione con IMS (Adobe Identity Management System), gli u
 
 +++ Quali concetti dell’interfaccia utente di Campaign dovrei conoscere?
 
-Fai riferimento a [questa sezione](campaign-ui.md) per ulteriori informazioni sulle nozioni di base dell&#39;interfaccia utente di Adobe Campaign.
+Per ulteriori informazioni sulle nozioni di base sull&#39;interfaccia utente di Adobe Campaign, consulta [Scopri l&#39;interfaccia utente di Campaign](campaign-ui.md).
 
 A partire dalla versione v8.6 di Campaign, potrai accedere anche alla nuova interfaccia utente **Web di Campaign**, disponibile tramite l&#39;ambiente centrale [!DNL CX Enterprise].
 
@@ -534,7 +534,7 @@ Scopri come progettare messaggi di marketing efficaci in Campaign v8, inclusi mo
 
 +++ Quali sono le best practice per la progettazione delle e-mail in Campaign?
 
-Linee guida chiave: assicurati che la progettazione sia reattiva per dispositivi mobili, usa codice compatibile HTML 4.0/XHTML con CSS in linea, ottimizza le immagini (sotto i 100 KB) con testo alt, utilizza campi unione di personalizzazione, testa i client e-mail prima dell’invio e includi una versione in testo normale. Per una consegna dei messaggi ottimale, è necessario impostare la dimensione totale dell&#39;e-mail su un valore inferiore a 500 KB.
+Linee guida chiave: assicurati che la progettazione sia adattabile alla mobilità e utilizza codice compatibile con HTML 4.0/XHTML con CSS in linea. Ottimizza le immagini (sotto i 100 KB) con testo alternativo, utilizza campi unione di personalizzazione, testa i client e-mail prima dell’invio e includi una versione in testo normale. Per una consegna dei messaggi ottimale, è necessario impostare la dimensione totale dell&#39;e-mail su un valore inferiore a 500 KB.
 
 **Argomenti correlati:**
 
@@ -1212,7 +1212,7 @@ Campaign Pannelli di controllo Campaign è un’interfaccia amministrativa basat
 Adobe Campaign v8 offre la possibilità di confrontare tutte le impostazioni correnti per gli account amministrativi di livello superiore e gli account con privilegi con le impostazioni predefinite protette consigliate.
 
 * **Impostazioni correnti (visibilità completa):** Tutte le impostazioni per gli account amministrativi e con privilegi possono essere riviste in **[!UICONTROL Administration]** > **[!UICONTROL Access management]** (console client o interfaccia utente Web di Campaign): **[!UICONTROL Operators]**, **[!UICONTROL Operator groups]**, **[!UICONTROL Named rights]** (ad esempio AMMINISTRAZIONE, AMMINISTRAZIONE APPROVAZIONE) e autorizzazioni a livello di cartella. Gli amministratori di prodotto possono inoltre rivedere le impostazioni a livello di istanza in [Pannello di controllo Campaign di campagne](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it){target="_blank"} (elenco Consentiti di IP, autorizzazioni URL, dettagli istanza e altro).
-* **Impostazioni predefinite di sicurezza consigliate:** Le [linee guida sulla sicurezza](../config/security.md) definiscono la linea di base sicura consigliata per gli account amministrativi e con privilegi, tra cui: creare gruppi di sicurezza sufficienti, assegnare diritti di accesso appropriati per ogni operatore e limitare l&#39;utilizzo dell&#39;operatore amministratore e del gruppo di amministratori. Se applicabile, vedere anche il componente aggiuntivo di sicurezza [Enhanced](../config/enhanced-security.md) per la protezione avanzata della rete e della crittografia.
+* **Impostazioni predefinite di sicurezza consigliate:** Le [linee guida sulla sicurezza](../config/security.md) definiscono la linea di base di sicurezza consigliata per gli account amministrativi e con privilegi. È consigliabile creare un numero sufficiente di gruppi di sicurezza, assegnare diritti di accesso appropriati per ogni operatore e limitare l’utilizzo dell’operatore amministratore e del gruppo di amministratori. Se applicabile, vedere anche il componente aggiuntivo di sicurezza [Enhanced](../config/enhanced-security.md) per la protezione avanzata della rete e della crittografia.
 * **Confronto:** gli amministratori confrontano la propria configurazione corrente con questi consigli documentati per identificare le lacune e allinearsi ai valori predefiniti sicuri.
 
 **Argomenti correlati:**

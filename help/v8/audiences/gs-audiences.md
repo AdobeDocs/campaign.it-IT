@@ -29,18 +29,18 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: bf608c313c238d3ba16f9fe6902bb66bb2b90d98
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 20%
+source-wordcount: '383'
+ht-degree: 18%
 ---
 # Guida introduttiva ai profili e ai tipi di pubblico{#gs-profiles-and-audiences}
 
 I profili sono contatti memorizzati nel database di Campaign, ad esempio clienti, abbonati a un servizio o potenziali clienti. Esistono molti possibili meccanismi per l’acquisizione di profili e la creazione di questo database: raccolta online tramite moduli web, importazione manuale o automatica di file di testo, replica con database aziendali o altri sistemi di informazioni. Con Adobe Campaign, puoi incorporare la cronologia di marketing, le informazioni di acquisto, le preferenze, i dati di gestione delle relazioni con i clienti ed eventuali dati PI rilevanti in una visualizzazione consolidata per analizzare e intraprendere azioni. I profili contengono tutte le informazioni necessarie per il targeting, la qualificazione e il tracciamento dei singoli utenti.
 
-Un profilo è un record nella tabella **nmsRecipient** o in una tabella esterna in cui sono memorizzati tutti gli attributi del profilo, ad esempio nome, cognome, indirizzo e-mail, un ID cookie, un ID cliente, un identificatore mobile o altre informazioni relative a un canale specifico. Altre tabelle collegate alla tabella dei destinatari contengono dati relativi al profilo, ad esempio la tabella dei registri di consegna che contiene i record di tutte le consegne inviate ai destinatari. Ulteriori informazioni sui profili incorporati e sulle tabelle dei destinatari in [questa sezione](../dev/datamodel.md#ootb-profiles).
+Un profilo è un record nella tabella **nmsRecipient** o in una tabella esterna in cui sono memorizzati tutti gli attributi del profilo, ad esempio nome, cognome, indirizzo e-mail, un ID cookie, un ID cliente, un identificatore mobile o altre informazioni relative a un canale specifico. Altre tabelle collegate alla tabella dei destinatari contengono dati relativi al profilo, ad esempio la tabella dei registri di consegna che contiene i record di tutte le consegne inviate ai destinatari. Ulteriori informazioni sui profili incorporati e sulle tabelle dei destinatari in [Tabella dei profili incorporata](../dev/datamodel.md#ootb-profiles).
 
-![](assets/recipients-in-explorer.png)
+![Struttura di Explorer con il nodo Destinatari selezionato, elenco dei profili e dettagli del destinatario selezionato.](assets/recipients-in-explorer.png)
 
 In Adobe Campaign, **destinatari** sono i profili predefiniti target per l&#39;invio di consegne (e-mail, SMS, ecc.).
 
@@ -53,6 +53,6 @@ Per popolare Adobe Campaign con i dati del profilo, puoi:
 * [mappa su un database esterno](../connect/fda.md) in cui sono archiviati i profili
 * immetti manualmente i profili nella console client, come segue:
 
-![](assets/create-profile.png)
+![Finestra di dialogo Nuovo destinatario aperta da Crea nella pagina Destinatari, con campi Generali quali Nome e Indirizzo di posta elettronica.](assets/create-profile.png)
 
 Una volta importato, puoi creare tipi di pubblico per inviare i messaggi. Scopri come creare tipi di pubblico [in questa sezione](create-audiences.md).

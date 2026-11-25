@@ -21,10 +21,10 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 5%
+source-wordcount: '428'
+ht-degree: 3%
 ---
 # Progettare un’applicazione web{#translating-a-web-application}
 
@@ -36,18 +36,18 @@ Se si seleziona almeno una lingua aggiuntiva tramite la scheda **[!UICONTROL Loc
 
 Questa opzione ti consente di indicare se il contenuto del blocco deve essere tradotto o meno.
 
-Le stringhe da tradurre vengono raccolte nello stesso modo delle altre stringhe dell&#39;applicazione Web tramite la scheda **[!UICONTROL Translations]** dell&#39;applicazione. Per ulteriori informazioni, consulta [questa pagina](translating-a-web-form.md).
+Le stringhe da tradurre vengono raccolte nello stesso modo delle altre stringhe dell&#39;applicazione Web tramite la scheda **[!UICONTROL Translations]** dell&#39;applicazione. Per ulteriori informazioni, consulta [Tradurre un modulo Web](translating-a-web-form.md).
 
 Per contrassegnare le stringhe da tradurre:
 
 1. Aprire una pagina di contenuto modificata con DCE in un&#39;applicazione Web.
 
-   ![](assets/dce_translation_3.png)
+   ![Editor applicazioni Web con l&#39;attività Page evidenziata in Preloading, Page, Storage, End flow](assets/dce_translation_3.png)
 
 1. Seleziona un blocco HTML.
 1. Nel blocco dei parametri a destra, l&#39;opzione **[!UICONTROL Localization]** consente di contrassegnare il contenuto del blocco selezionato. Per impostazione predefinita, deve essere tradotto solo il titolo della pagina.
 
-   ![](assets/dce_translation_1.png)
+   ![Opzione di blocco con la sezione Localizzazione e l&#39;opzione Traduci sì/no evidenziata](assets/dce_translation_1.png)
 
    >[!NOTE]
    >
@@ -58,11 +58,11 @@ Per contrassegnare le stringhe da tradurre:
    * Quando il blocco selezionato contiene più stringhe/blocchi, viene contrassegnato come una singola stringa da tradurre. La stringa contiene quindi il codice HTML degli elementi all’interno di questo blocco.
    * Se si desidera contrassegnare un blocco contenente più stringhe e almeno una di esse è già contrassegnata, viene visualizzato un avviso. Puoi quindi rimuovere il flag dalla stringa isolata e aggiungere l’intero blocco.
 
-     ![](assets/dce_translation_4.png)
+     ![Avviso della finestra di dialogo di conferma del raggruppamento che indica che il blocco contiene già 2 elementi da tradurre](assets/dce_translation_4.png)
 
    * Quando desideri rimuovere il flag da una stringa contenuta in un blocco già contrassegnato, non puoi modificare direttamente l’opzione di traduzione della stringa. Tuttavia, puoi accedere al blocco contenente la stringa per modificarlo.
 
-     ![](assets/dce_translation_2.png)
+     ![Avviso della sezione di localizzazione che l&#39;elemento si trova già in un blocco da tradurre, con un pulsante Seleziona blocco](assets/dce_translation_2.png)
 
 1. Dopo aver completato il contrassegno delle stringhe, tornare all&#39;applicazione Web e selezionare la scheda **[!UICONTROL Translations]**.
 1. Seleziona **[!UICONTROL Collect the strings to translate]**. Le stringhe contrassegnate in DCE vengono aggiunte alle stringhe dell&#39;applicazione Web.

@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '372'
 ht-degree: 0%
 ---
 # Registri di tracciamento degli accessi {#accessing-the-tracking-logs}
@@ -45,7 +45,7 @@ Quando la consegna è stata inviata e il tracciamento è attivato, il flusso di 
 
 Queste informazioni vengono visualizzate nella scheda **[!UICONTROL Tracking]** del profilo dei destinatari interessati dalla consegna, come nell’esempio seguente:
 
-![](assets/s_ncs_user_select_tracking_tab_from_recipient.png)
+![Scheda di tracciamento di un elenco di profili dei destinatari con clic tracciati e aperture con data, etichetta, tipo e consegna](assets/s_ncs_user_select_tracking_tab_from_recipient.png)
 
 In questa scheda vengono visualizzati tutti gli URL tracciati e su cui il destinatario ha fatto clic, tra cui:
 
@@ -60,7 +60,7 @@ Puoi filtrare e ordinare queste informazioni per analizzare il comportamento dei
 
 Le informazioni di tracciamento sono accessibili anche tramite la scheda **[!UICONTROL Tracking]** della consegna.
 
-![](assets/s_ncs_user_select_tracking_tab_from_del.png)
+![Scheda di tracciamento di un elenco di consegne con registri di tracciamento contenenti data, etichetta, tipo e destinatario](assets/s_ncs_user_select_tracking_tab_from_del.png)
 
 Da questa scheda puoi visualizzare:
 
@@ -73,7 +73,7 @@ Da questa scheda puoi visualizzare:
 
 >[!NOTE]
 >
->Se non riesci a visualizzare la scheda **[!UICONTROL Tracking]** di una consegna, significa che il tracciamento non è stato attivato. Consulta [questa sezione](tracked-links.md) per scoprire come configurare il tracciamento.
+>Se non riesci a visualizzare la scheda **[!UICONTROL Tracking]** di una consegna, significa che il tracciamento non è stato attivato. Per informazioni su come configurare il tracciamento, consulta [Configurare i collegamenti tracciati](tracked-links.md).
 
 ### Controlla il flusso di lavoro tecnico di tracciamento {#check-tracking-workflow}
 

@@ -21,10 +21,10 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 6%
+source-wordcount: '262'
+ht-degree: 5%
 ---
 # Usare un modello per moduli web{#using-a-web-form-template}
 
@@ -38,7 +38,7 @@ Da qui è possibile creare nuovi modelli o convertire un modulo esistente in un 
 
 Un modulo può essere modificato in un modello e la relativa configurazione può essere riutilizzata. A tale scopo, selezionare il modulo, fare clic con il pulsante destro del mouse e selezionare **[!UICONTROL Actions > Save as template...]**.
 
-![](assets/s_ncs_admin_survey_saveastemplate.png)
+![Elenco applicazioni Web con menu di scelta rapida aperto e Salva come modello evidenziato](assets/s_ncs_admin_survey_saveastemplate.png)
 
 Questa azione apre la finestra per la creazione di applicazioni Web. È possibile immettere il nome e la descrizione del modello e selezionare la cartella in cui verrà salvato.
 
@@ -46,11 +46,11 @@ Questa azione apre la finestra per la creazione di applicazioni Web. È possibil
 
 Per creare un modello di modulo Web, fare clic con il pulsante destro del mouse sull&#39;elenco dei modelli di applicazione Web e selezionare **[!UICONTROL New]**. È inoltre possibile utilizzare il pulsante **[!UICONTROL New]** sopra l&#39;elenco dei modelli.
 
-![](assets/s_ncs_admin_survey_createtemplate.png)
+![Cartella dei modelli di applicazioni Web in Esplora risorse, con il pulsante Nuovo utilizzato per creare un modello](assets/s_ncs_admin_survey_createtemplate.png)
 
 Immettere il nome del modello. Nel campo **[!UICONTROL Instance folder]** selezionare la cartella in cui vengono salvati i moduli Web creati in base a questo modello. Il campo **[!UICONTROL Nature]** consente di aggiungere informazioni descrittive per ordinare e/o filtrare i vari modelli di applicazioni Web.
 
-![](assets/s_ncs_admin_survey_createtemplate_details.png)
+![Finestra di dialogo Nuova applicazione Web con le opzioni Etichetta, Sondaggio e sito Web avanzato, i campi della cartella Natura e Istanze](assets/s_ncs_admin_survey_createtemplate_details.png)
 
 Fare clic sul pulsante **[!UICONTROL Save]** per creare il modello, quindi generare il contenuto del modello e definirne i parametri.
 

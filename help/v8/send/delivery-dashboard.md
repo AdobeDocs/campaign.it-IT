@@ -33,9 +33,9 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1279'
 ht-degree: 3%
 ---
 # Monitorare le consegne nell’interfaccia utente di Campaign {#delivery-dashboard}
@@ -46,7 +46,7 @@ Il monitoraggio delle consegne è essenziale per garantire l’efficienza delle 
 
 Puoi accedere alle consegne dall’elenco di consegna tramite il nodo **[!UICONTROL Campaign Management > Deliveries]** della struttura.
 
-![](assets/deliveries-list.png)
+![Elenco delle consegne in Gestione campagne con conteggi di stato e messaggi e dashboard di consegna selezionato di seguito](assets/deliveries-list.png)
 
 Per impostazione predefinita, l’elenco delle consegne contiene i nomi e gli stati delle consegne create nel nodo selezionato. Mostra anche il numero di messaggi da inviare, elaborati e inviati con successo.
 
@@ -73,7 +73,7 @@ Di seguito sono riportate le informazioni che è possibile monitorare utilizzand
 * [Rendering consegna](#delivery-rendering)
 * [Audit della consegna](#delivery-audit-)
 
-![](assets/s_ncs_user_del_details.png)
+![Scheda Riepilogo dashboard di consegna con cui inviare, elaborare e cifre di successo, stato e configurazione e-mail](assets/s_ncs_user_del_details.png)
 
 **Argomenti correlati:**
 
@@ -90,9 +90,9 @@ La scheda **[!UICONTROL Summary]** contiene le caratteristiche della consegna: s
 
 Il collegamento **[!UICONTROL Reports]**, accessibile dalla scheda **[!UICONTROL Summary]**, consente di esaminare una serie di rapporti relativi all&#39;azione di consegna: report di consegna generale, report dettagliato, report di consegna, distribuzione dei messaggi non riusciti, tasso di apertura, clic e transazioni, ecc.
 
-Il contenuto di questa scheda può essere configurato in base alle tue esigenze. Per ulteriori informazioni sui report di consegna, consulta [questa sezione](../reporting/delivery-reports.md).
+Il contenuto di questa scheda può essere configurato in base alle tue esigenze. Per ulteriori informazioni sui rapporti di consegna, consulta [Rapporti di consegna incorporati di Adobe Campaign](../reporting/delivery-reports.md).
 
-![](assets/delivery-report.png)
+![Visualizzazione dei rapporti della scheda Riepilogo consegna che elenca i rapporti di consegna disponibili](assets/delivery-report.png)
 
 ## Registri di consegna, cronologia ed esclusioni {#delivery-logs-and-history}
 
@@ -102,15 +102,15 @@ Per una consegna, puoi visualizzare (ad esempio) solo i destinatari con una cons
 
 >[!NOTE]
 >
->L’elenco che mostra i registri di consegna può essere personalizzato, come qualsiasi altro elenco in Campaign. Ad esempio, puoi aggiungere una colonna per individuare l’indirizzo IP che ha inviato ogni e-mail di una consegna. Per ulteriori informazioni sulla configurazione della visualizzazione degli elenchi, consulta [questa sezione](../config/ui-settings.md#customize-lists).
+>L’elenco che mostra i registri di consegna può essere personalizzato, come qualsiasi altro elenco in Campaign. Ad esempio, puoi aggiungere una colonna per individuare l’indirizzo IP che ha inviato ogni e-mail di una consegna. Per ulteriori informazioni sulla configurazione della visualizzazione degli elenchi, fare riferimento a [Gestire e personalizzare gli elenchi](../config/ui-settings.md#customize-lists).
 
-![](assets/s_ncs_user_delivery_delivery_tab.png)
+![Scheda secondaria Registri della consegna con l&#39;elenco a discesa Filtro di stato che elenca gli stati del registro di consegna](assets/s_ncs_user_delivery_delivery_tab.png)
 
 Il collegamento **[!UICONTROL Display the mirror page for this message...]** ti consente di visualizzare in una nuova finestra la pagina speculare per il contenuto della consegna selezionata dall&#39;elenco.
 
 La pagina speculare è disponibile solo per le consegne per le quali è stato definito il contenuto di HTML. Per ulteriori informazioni, consulta [Collegamento alla pagina mirror](mirror-page.md).
 
-![](assets/s_ncs_user_wizard_miror_page_link.png)
+![Elenco dei registri di consegna con il collegamento Visualizza la pagina speculare per questo messaggio evidenziato](assets/s_ncs_user_wizard_miror_page_link.png)
 
 ## Registri e cronologia di tracciamento delle consegne {#tracking-logs}
 
@@ -122,9 +122,9 @@ La scheda **[!UICONTROL Tracking]** elenca la cronologia di tracciamento per que
 
 La configurazione del tracciamento viene eseguita nella fase appropriata nell’assistente alla consegna. Consulta [Come configurare i collegamenti tracciati](tracking.md).
 
-I dati di **[!UICONTROL Tracking]** vengono interpretati nei report di consegna. Vedi [questa sezione](../reporting/delivery-reports.md).
+I dati di **[!UICONTROL Tracking]** vengono interpretati nei report di consegna. Consulta [Rapporti di consegna incorporati di Adobe Campaign](../reporting/delivery-reports.md).
 
-![](assets/s_ncs_user_delivery_tracking_tab.png)
+![Scheda di tracciamento Registra la scheda secondaria in cui sono elencati i clic e le aperture rilevati con data, etichetta, tipo e destinatario](assets/s_ncs_user_delivery_tracking_tab.png)
 
 ## Rendering della casella in entrata {#delivery-rendering}
 
@@ -132,7 +132,7 @@ La scheda **[!UICONTROL Inbox rendering]** consente di visualizzare in anteprima
 
 In questo modo, puoi assicurarti che il messaggio venga visualizzato ai destinatari in modo ottimale su diversi client web, servizi di posta sul web e dispositivi.
 
-Per ulteriori informazioni sul rendering della casella in entrata, consulta [questa pagina](inbox-rendering.md)
+Per ulteriori informazioni sul rendering della casella in entrata, consulta [Rendering della casella in entrata in Campaign](inbox-rendering.md)
 
 
 ## Audit della consegna {#delivery-audit-}
@@ -145,9 +145,9 @@ Icone speciali consentono di identificare errori o avvisi. Consulta [Analisi del
 
 La scheda secondaria **[!UICONTROL Proofs]** ti consente di visualizzare l&#39;elenco delle bozze che sono state inviate.
 
-![](assets/s_ncs_user_delivery_log_tab.png)
+![Scheda Audit scheda secondaria Bozze in cui sono elencate le bozze inviate per la consegna con messaggi da inviare, elaborati e completati](assets/s_ncs_user_delivery_log_tab.png)
 
-È possibile modificare le informazioni visualizzate in questa finestra (e quelle delle schede **[!UICONTROL Delivery]** e **[!UICONTROL Tracking]**) selezionando le colonne da visualizzare. A tale scopo, fare clic sull&#39;icona **[!UICONTROL Configure list]** situata nell&#39;angolo inferiore destro. Per ulteriori informazioni sulla configurazione della visualizzazione degli elenchi, consulta [questa sezione](../config/ui-settings.md#customize-lists).
+È possibile modificare le informazioni visualizzate in questa finestra (e quelle delle schede **[!UICONTROL Delivery]** e **[!UICONTROL Tracking]**) selezionando le colonne da visualizzare. A tale scopo, fare clic sull&#39;icona **[!UICONTROL Configure list]** situata nell&#39;angolo inferiore destro. Per ulteriori informazioni sulla configurazione della visualizzazione degli elenchi, fare riferimento a [Gestire e personalizzare gli elenchi](../config/ui-settings.md#customize-lists).
 
 ## Sincronizzazione del dashboard di consegna {#delivery-dashboard-synchronization}
 

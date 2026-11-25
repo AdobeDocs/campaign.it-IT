@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: df8d8e17c486122e23a6db0e44263f9f9632a204
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '1244'
 ht-degree: 0%
 ---
 # Utilizzare Campaign e Adobe Target
@@ -66,7 +66,7 @@ In questa e-mail, vogliamo che una delle immagini vari in modo dinamico in base 
 * L’e-mail viene aperta negli Stati Uniti.
 * Se nessuna di queste condizioni è applicabile, viene visualizzata un&#39;immagine predefinita.
 
-![](assets/target_4.png)
+![Varianti e-mail per pubblico: per impostazione predefinita viene visualizzato un aereo, in francese la Torre Eiffel, in americano la Statua della Libertà](assets/target_4.png)
 
 In Adobe Campaign e Adobe Target è necessario eseguire i seguenti passaggi:
 
@@ -86,11 +86,11 @@ In Adobe Campaign, esistono due modi per inserire un’immagine dinamica da Targ
 
 * Se utilizzi l&#39;editor di contenuti digitali, scegli un&#39;immagine esistente e seleziona **[!UICONTROL Insert]** > **[!UICONTROL Dynamic image served by Adobe Target]** dalla barra degli strumenti.
 
-  ![](assets/target_5.png)
+  ![Editor di contenuti digitali con l&#39;immagine dinamica fornita da Adobe Target selezionata nel menu della barra degli strumenti dell&#39;immagine](assets/target_5.png)
 
 * Se si utilizza l&#39;editor standard, posizionare il cursore nel punto in cui si desidera inserire l&#39;immagine e selezionare **[!UICONTROL Include]** > **[!UICONTROL Dynamic image served by Adobe Target...]** dal menu a discesa di personalizzazione.
 
-  ![](assets/target_12.png)
+  ![Editor standard con inclusione, quindi immagine dinamica fornita da Adobe Target selezionata nel menu di personalizzazione](assets/target_12.png)
 
 Puoi quindi definire i parametri dell’immagine:
 
@@ -101,7 +101,7 @@ Puoi quindi definire i parametri dell’immagine:
 
 Se utilizzi le autorizzazioni Enterprise nelle impostazioni di Adobe Target, aggiungi la proprietà corrispondente in questo campo. Per ulteriori informazioni sulle autorizzazioni Enterprise per Target, consulta la [documentazione di Adobe Target](https://experienceleague.adobe.com/it/docs/target/using/administer/manage-users/enterprise/properties-overview#administer){target="_blank"}.
 
-![](assets/target_13.png)
+![Inserisci un&#39;immagine fornita dalla finestra di dialogo di Adobe Target con l&#39;immagine predefinita, la posizione di destinazione, la pagina di destinazione e i parametri decisionali](assets/target_13.png)
 
 ### Creare offerte di reindirizzamento {#create-redirect-offers}
 
@@ -113,11 +113,11 @@ Nel nostro caso, abbiamo bisogno di due offerte di reindirizzamento, la terza (q
 
 1. Fai clic su **[!UICONTROL Create]**, quindi su **[!UICONTROL Redirect Offer]**.
 
-   ![](assets/target_9.png)
+   ![Scheda Offerte Adobe Target, Offerte codice, con menu Crea aperto ed Offerta di reindirizzamento evidenziata](assets/target_9.png)
 
 1. Immetti un nome per l’offerta e l’URL dell’immagine.
 
-   ![](assets/target_6.png)
+   ![Modulo Crea offerta di reindirizzamento Adobe Target con il campo Nome impostato sul pubblico francese e il campo URL di reindirizzamento](assets/target_6.png)
 
 1. Segui la stessa procedura per l’offerta di reindirizzamento rimanente. Per ulteriori informazioni, consulta questa [documentazione di Adobe Target](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=it#experiences){target="_blank"}.
 
@@ -127,11 +127,11 @@ In Adobe Target, devi creare i due tipi di pubblico in cui le persone che visita
 
 1. Per creare un nuovo pubblico in Target, dalla scheda **[!UICONTROL Audiences]**, fai clic su **[!UICONTROL Create Audience]**.
 
-   ![](assets/audiences_1.png)
+   ![Scheda Pubblico di Adobe Target con il pulsante Crea pubblico evidenziato](assets/audiences_1.png)
 
 1. Aggiungi un nome al pubblico.
 
-   ![](assets/audiences_2.png)
+   ![Finestra di dialogo Nuovo pubblico di Adobe Target con il campo Nome pubblico e il pulsante Aggiungi regola](assets/audiences_2.png)
 
 1. Fare clic su **[!UICONTROL Add a rule]** e selezionare una categoria. La regola utilizza criteri specifici per eseguire il targeting dei visitatori. Puoi perfezionare le regole aggiungendo condizioni o creando nuove regole in altre categorie.
 
@@ -145,17 +145,17 @@ Innanzitutto devi definire il pubblico:
 
 1. Per creare un&#39;attività Targeting esperienze, dalla scheda **[!UICONTROL Activities]**, fai clic su **[!UICONTROL Create Activity]** e quindi su **[!UICONTROL Experience Targeting]**.
 
-   ![](assets/target_10.png)
+   ![Scheda Attività di Adobe Target con il menu Crea attività aperto ed Experience Targeting evidenziato](assets/target_10.png)
 
 1. Seleziona **[!UICONTROL Form]** come **[!UICONTROL Experience Composer]**.
 
 1. Scegliere un pubblico facendo clic sul pulsante **[!UICONTROL Change audience]**.
 
-   ![](assets/target_10_2.png)
+   ![Passaggio Nuove esperienze attività con Cambia pubblico selezionato nel menu Pubblico Tutti i visitatori](assets/target_10_2.png)
 
 1. Seleziona il pubblico creato nei passaggi precedenti.
 
-   ![](assets/target_10_3.png)
+   ![Finestra di dialogo Scegli pubblico in cui è elencata la libreria Pubblico con tutti i visitatori e altri tipi di pubblico](assets/target_10_3.png)
 
 1. Creare un&#39;altra esperienza facendo clic su **[!UICONTROL Add Experience Targeting]**.
 
@@ -163,27 +163,27 @@ Quindi aggiungi il contenuto per ogni pubblico:
 
 1. Seleziona il nome della posizione scelto al momento dell’inserimento dell’offerta dinamica in Adobe Campaign.
 
-   ![](assets/target_15.png)
+   ![Attività Targeting esperienza con la posizione v_rawbox selezionata nell&#39;elenco Seleziona posizione](assets/target_15.png)
 
 1. Fare clic sul pulsante a discesa e selezionare **[!UICONTROL Change Redirect Offer]**.
 
-   ![](assets/target_content.png)
+   ![Menu dei contenuti dell&#39;attività con Change Redirect Offer evidenziato](assets/target_content.png)
 
 1. Seleziona l’offerta di reindirizzamento creata in precedenza.
 
-   ![](assets/target_content_2.png)
+   ![Seleziona la finestra di dialogo dell&#39;offerta di reindirizzamento con l&#39;offerta del pubblico francese selezionata e il pulsante Salva](assets/target_content_2.png)
 
 1. Segui gli stessi passaggi per la seconda esperienza.
 
 La finestra **[!UICONTROL Target]** riepiloga l&#39;attività. Se necessario, puoi aggiungere altre esperienze.
 
-![](assets/target_experience.png)
+![Passaggio di Target che elenca il pubblico francese come Esperienza A e il pubblico americano come Esperienza B con Aggiungi esperienza](assets/target_experience.png)
 
 La finestra **[!UICONTROL Goal & Settings]** consente di personalizzare l&#39;attività impostando una priorità, un obiettivo o una durata.
 
 La sezione **[!UICONTROL Reporting Settings]** consente di selezionare un&#39;azione e modificare i parametri che determineranno quando l&#39;obiettivo verrà raggiunto.
 
-![](assets/target_experience_2.png)
+![Passaggio Obiettivo e impostazioni con metrica obiettivo impostata su Conversione e visualizzazione di una mbox per v6_rawbox](assets/target_experience_2.png)
 
 ## Anteprima e invio del messaggio {#preview-send-email}
 
@@ -193,4 +193,4 @@ Noterai che l’immagine cambia in base alle diverse esperienze create.
 
 Ora puoi inviare la tua e-mail contenente un’offerta dinamica di Target.
 
-![](assets/target_20.png)
+![Anteprima e-mail per Marie Dupont con l&#39;immagine della Torre Eiffel fornita da Adobe Target per il pubblico francese](assets/target_20.png)

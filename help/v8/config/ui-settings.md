@@ -25,9 +25,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: f22ef7562e86372db4c5c05c04acd986d1c557fb
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1077'
 ht-degree: 0%
 ---
 # Impostazioni dell’interfaccia utente di Campaign {#ui-settings}
@@ -45,13 +45,13 @@ In Adobe Campaign, per i campi che esprimono una durata (ad esempio periodo di v
 
 Puoi aggiungere cartelle a Esplora campagne, creare visualizzazioni e assegnare autorizzazioni.
 
-Scopri come gestire cartelle e visualizzazioni in [questa pagina](../audiences/folders-and-views.md)
+Scopri come gestire cartelle e viste in [Cartelle e viste](../audiences/folders-and-views.md)
 
 ## Gestire e personalizzare gli elenchi {#customize-lists}
 
 Nella console client di Campaign, i dati vengono visualizzati in elenchi. È possibile adattare questi elenchi alle proprie esigenze. Ad esempio, puoi aggiungere colonne, filtrare dati, contare record, salvare e condividere le impostazioni.
 
-Inoltre, puoi creare e salvare i filtri.  Ulteriori informazioni sui filtri in [questa pagina](../audiences/create-filters.md).
+Inoltre, puoi creare e salvare i filtri.  Ulteriori informazioni sui filtri in [Utilizza i filtri in Adobe Campaign](../audiences/create-filters.md).
 
 ### Numero di record {#number-of-records}
 
@@ -107,7 +107,7 @@ Se devi rimuovere una colonna, selezionala e fai clic sull&#39;icona **Elimina**
 
 È possibile utilizzare l&#39;icona **[!UICONTROL Distribution of values]** per visualizzare la partizione dei valori per il campo selezionato nella cartella corrente.
 
-![](assets/value-distribution.png)
+![Finestra di dialogo Distribuzione di valori in cui è elencato ogni tipo con il relativo conteggio e percentuale per la cartella Servizi e sottoscrizioni](assets/value-distribution.png)
 
 
 ### Crea una nuova colonna {#create-a-new-column}
@@ -145,7 +145,7 @@ Per salvare una configurazione di elenco in modo che possa essere riutilizzata, 
 1. Fare clic su **[!UICONTROL Advanced settings]** e quindi specificare un nome nel campo **[!UICONTROL Configuration]**.
 1. Fare clic su **[!UICONTROL OK]** e quindi su **[!UICONTROL Save]**.
 
-Puoi quindi applicare questa configurazione a un’altra cartella dello stesso tipo. Ulteriori informazioni sulle cartelle in [questa pagina](../audiences/folders-and-views.md).
+Puoi quindi applicare questa configurazione a un’altra cartella dello stesso tipo. Ulteriori informazioni sulle cartelle in [Cartelle e visualizzazioni](../audiences/folders-and-views.md).
 
 ### Esportare un elenco {#exporting-a-list}
 

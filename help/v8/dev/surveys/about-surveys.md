@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '541'
 ht-degree: 3%
 ---
 # Introduzione ai sondaggi{#about-surveys}
@@ -49,7 +49,7 @@ Il componente aggiuntivo opzionale **Sondaggio** consente di creare un nuovo tip
 
 Questo capitolo descrive come creare e gestire **sondaggi**, la gestione di campi e pagine, le modalità di archiviazione e i record.
 
-Scopri come creare il tuo primo sondaggio in [questa pagina](getting-started-with-surveys.md).
+Scopri come creare il tuo primo sondaggio in [Passaggi chiave per creare un sondaggio](getting-started-with-surveys.md).
 
 >[!NOTE]
 >

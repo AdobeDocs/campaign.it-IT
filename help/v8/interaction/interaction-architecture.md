@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 709e38026d74ed707d10fc8109356289dc9f4ac9
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '1327'
+source-wordcount: '1417'
 ht-degree: 0%
 ---
 # Ambienti e architettura di interazione di Campaign
@@ -57,7 +57,7 @@ Questi due tipi di interazioni possono essere eseguiti in **modalità unitaria**
 
 Non appena un’offerta può o deve essere presentata (in base alle configurazioni effettuate), il motore di offerta svolge il ruolo di intermediario: calcola automaticamente la migliore offerta possibile per un contatto tra quelli disponibili combinando i dati ricevuti sul contatto e le diverse regole che possono essere applicate come specificato nell’applicazione.
 
-![](assets/architecture_interaction2.png)
+![Flussi del motore di offerta: consegna batch in uscita, interazioni unitarie identificate e anonime con i relativi cataloghi](assets/architecture_interaction2.png)
 
 ## Architettura distribuita
 
@@ -66,7 +66,7 @@ Per supportare la scalabilità e fornire un servizio 24 ore su 24, 7 giorni su 7
 * una o più istanze di controllo dedicate al canale in uscita e contenenti la base di progettazione di marketing e ambiente
 * una o più istanze di esecuzione dedicate al canale in entrata
 
-![](assets/interaction_powerbooster_schema.png)
+![L&#39;istanza di controllo distribuisce le offerte di progettazione in tempo reale e invia pacchetti alle istanze di esecuzione che pubblicano su siti Web](assets/interaction_powerbooster_schema.png)
 
 Le istanze di esecuzione sono dedicate al canale in entrata e contengono la versione online del catalogo. Ogni istanza di esecuzione è indipendente e dedicata a un segmento di contatto (ad esempio, un’istanza di esecuzione per paese). Le chiamate al motore di offerta devono essere eseguite direttamente all’esecuzione (un URL specifico per ogni istanza di esecuzione). Poiché la sincronizzazione tra le istanze non è automatica, le interazioni dello stesso contatto devono essere inviate tramite la stessa istanza.
 
@@ -82,7 +82,7 @@ Le offerte vengono distribuite automaticamente e quindi pubblicate nelle istanze
 
 Le offerte eliminate nell’ambiente di progettazione vengono disabilitate su tutte le istanze online. Le proposte e le offerte obsolete vengono eliminate automaticamente in tutte le istanze dopo il periodo di eliminazione (specificato nell’assistente alla distribuzione di ogni istanza) e il periodo scorrevole (specificato nelle regole di tipologia delle proposte in arrivo).
 
-![](assets/interaction_powerbooster_schema2.png)
+![Proposte di offerta sincronizzate in entrambe le direzioni tra l&#39;istanza di controllo e ogni istanza di esecuzione](assets/interaction_powerbooster_schema2.png)
 
 Per ogni ambiente e account esterno viene creato un flusso di lavoro per la sincronizzazione della proposta. La frequenza di sincronizzazione può essere regolata per ogni ambiente e account esterno.
 
@@ -110,7 +110,7 @@ Sulle istanze di controllo:
 
 1. Crea un account esterno per istanza di esecuzione:
 
-   ![](assets/interaction_powerbooster1.png)
+   ![Modulo account esterno per un&#39;istanza di esecuzione con opzioni Abilitate, connessione, Centro messaggi e Interazione](assets/interaction_powerbooster1.png)
 
    * Completa l’etichetta e aggiungi un nome interno breve ed esplicito.
    * Seleziona **[!UICONTROL Execution instance]**.
@@ -120,7 +120,7 @@ Sulle istanze di controllo:
    * Controllare il tipo di applicazione utilizzato: **[!UICONTROL Message Center]**, **[!UICONTROL Interaction]** o entrambi.
    * Immettere l&#39;account FDA utilizzato. Un operatore deve essere creato nelle istanze di esecuzione e deve disporre dei seguenti diritti di lettura e scrittura sul database dell’istanza in questione:
 
-     ```
+     ```sql
      grant SELECT ON nmspropositionrcp, nmsoffer, nmsofferspace, xtkoption, xtkfolder TO user;
      grant DELETE, INSERT, UPDATE ON nmspropositionrcp TO user;
      ```
@@ -131,7 +131,7 @@ Sulle istanze di controllo:
 
 1. Configurare l’ambiente:
 
-   ![](assets/interaction_powerbooster2.png)
+   ![Scheda Generale dell&#39;ambiente in cui sono elencate le istanze di esecuzione con frequenza di aggiornamento e filtraggio delle proposte in base al paese](assets/interaction_powerbooster2.png)
 
    * Aggiungi l’elenco delle istanze di esecuzione.
    * Per ciascuno, specifica il periodo di sincronizzazione e i criteri di filtro (ad esempio, per paese).
@@ -142,7 +142,7 @@ Sulle istanze di controllo:
 
 Se, per motivi di ottimizzazione, nelle istanze di esecuzione viene duplicata solo una parte del database di marketing, puoi specificare uno schema con restrizioni collegato all’ambiente per consentire agli utenti di utilizzare solo i dati disponibili nelle istanze di esecuzione. Puoi creare un’offerta utilizzando dati non disponibili nelle istanze di esecuzione. A tale scopo, è necessario disattivare la regola sugli altri canali limitandola sul canale in uscita (campo **[!UICONTROL Taken into account if]**).
 
-![](assets/ita_filtering.png)
+![Filtro elementi di popolazione per Paese con il campo Taken into account if per il canale](assets/ita_filtering.png)
 
 ### Opzioni di manutenzione {#maintenance-options}
 
@@ -180,7 +180,7 @@ Esistono due metodi:
 
 **Tabella di lavoro** (scelta consigliata)
 
-```
+```sql
 CREATE TABLE NmsPropositionRcp_tmp AS SELECT * FROM nmspropositionrcp WHERE 0=1;
 ALTER TABLE nmspropositionrcp_tmp
   ALTER COLUMN ipropositionid TYPE bigint,
@@ -198,7 +198,7 @@ ALTER TABLE nmspropositionrcp_tmp RENAME TO nmspropositionrcp;
 
 **Modifica tabella**
 
-```
+```sql
 ALTER TABLE nmspropositionrcp
   ALTER COLUMN ipropositionid TYPE bigint,
   ALTER COLUMN iinteractionid TYPE bigint;

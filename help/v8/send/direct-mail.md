@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 8%
+source-wordcount: '985'
+ht-degree: 5%
 ---
 # Creare consegne di direct mailing
 
@@ -52,14 +52,14 @@ Per creare una nuova consegna di direct mailing, segui i passaggi seguenti:
 
 >[!NOTE]
 >
->I concetti globali sulla creazione della consegna sono presentati in [questa sezione](../start/create-message.md).
+>I concetti globali sulla creazione della consegna sono presentati in [Crea la prima consegna](../start/create-message.md).
 
 1. Crea una nuova consegna, ad esempio dal dashboard Consegna.
 1. Selezionare il modello di consegna **Consegna tramite direct mailing (carta)**.
 
-   ![](assets/direct_mail.png)
+   ![Finestra di dialogo per la nuova consegna con il modello di consegna tramite direct mailing (carta) selezionato nell&#39;elenco](assets/direct_mail.png)
 
-1. Identifica la consegna con un’etichetta, un codice e una descrizione. Per ulteriori informazioni al riguardo, consulta [questa sezione](../start/create-message.md#create-the-delivery).
+1. Identifica la consegna con un’etichetta, un codice e una descrizione. Per ulteriori informazioni, consulta [Creare la consegna](../start/create-message.md#create-the-delivery).
 1. Fai clic su **Continua** per confermare queste informazioni e visualizzare la finestra di configurazione del messaggio.
 
 ## Definire il pubblico{#defining-the-direct-mail-audience}
@@ -70,7 +70,7 @@ Gli indirizzi postali sono campi calcolati. Per impostazione predefinita, un ind
 
 Un indirizzo è considerato completo se il nome, il campo CAP e i campi città non sono vuoti. Tutti i destinatari con indirizzi incompleti saranno esclusi dalle consegne di direct mailing.
 
-Per ulteriori informazioni, consulta [questa sezione](../start/create-message.md#target-population).
+Ulteriori informazioni in [Definire il pubblico di destinazione](../start/create-message.md#target-population).
 
 ## Definire il contenuto del file{#defining-the-direct-mail-content}
 
@@ -80,17 +80,17 @@ Il nome del file che contiene i dati estratti è definito nel campo **[!UICONTRO
 
 Per impostazione predefinita, il file di estrazione viene creato e memorizzato sul server. È possibile salvarlo nel computer. Per eseguire questa operazione, controllare **[!UICONTROL Download the generated file after the analysis of the delivery]**. In questo caso, è necessario indicare il percorso di accesso alla directory di archiviazione locale e il nome del file.
 
-![](assets/s_ncs_user_mail_delivery_local_file.png)
+![Scheda Estrazione con l&#39;opzione Scarica il file generato selezionata e un percorso di file locale immesso](assets/s_ncs_user_mail_delivery_local_file.png)
 
 Per una consegna direct mailing, il contenuto dell&#39;estrazione è definito nel collegamento **[!UICONTROL Edit the extraction file format...]**.
 
-![](assets/s_ncs_user_mail_delivery_format_link.png)
+![Scheda Estrazione con il collegamento Modifica formato file di estrazione evidenziato](assets/s_ncs_user_mail_delivery_format_link.png)
 
 Questo collegamento ti consente di accedere all’assistente per l’estrazione e definire le informazioni (colonne) da esportare nel file di output.
 
-![](assets/s_ncs_user_mail_delivery_format_wz.png)
+![Dati da estrarre dalla procedura guidata con campi trascinati dai campi disponibili nelle colonne di output](assets/s_ncs_user_mail_delivery_format_wz.png)
 
-Puoi inserire un URL personalizzato nel file di estrazione. Per ulteriori informazioni al riguardo, consulta [questa sezione](../dev/web/publishing-a-web-form.md).
+Puoi inserire un URL personalizzato nel file di estrazione. Per ulteriori informazioni, consulta [Pubblicare un modulo web](../dev/web/publishing-a-web-form.md).
 
 >[!NOTE]
 >
@@ -102,7 +102,7 @@ Verificare il risultato dell&#39;analisi e il contenuto del file di output.
 
 Nel contesto di una campagna di marketing, alla data di estrazione viene creato il file di estrazione. Puoi visualizzare il contenuto del file estratto, approvarlo o modificare il formato e, se necessario, riavviare l’estrazione. Una volta approvato il file, è possibile inviare il messaggio di notifica al router. Per ulteriori informazioni, consulta [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html?lang=it){target="_blank"}.
 
-I concetti globali durante la convalida di una consegna sono presentati in [questa sezione](../start/create-message.md#validate-the-delivery).
+I concetti globali durante la convalida di una consegna sono presentati in [Prepara e convalida la consegna](../start/create-message.md#validate-the-delivery).
 
 Il file di output di una consegna direct mailing viene generato durante l’analisi della consegna. Il contenuto del file dipende dalle colonne di output selezionate (fare riferimento a questo [file di sezione](#defining-the-direct-mail-content)).
 
@@ -116,7 +116,7 @@ Controllare il risultato dell&#39;analisi e il contenuto del file di output prim
 
 La conferma di invio avvia l’estrazione dei dati nel file specificato.
 
-![](assets/s_ncs_user_postal_del_send_confirm_postal.png)
+![Avvia la finestra di dialogo di conferma della consegna con OK e Annulla per una consegna Direct Mail nello stato In sospeso](assets/s_ncs_user_postal_del_send_confirm_postal.png)
 
 È quindi possibile chiudere l&#39;assistente e visualizzare i registri di consegna tramite la scheda **[!UICONTROL Delivery]**, accessibile tramite i dettagli di consegna.
 

@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 9548dde346f10c57350f21e5946690f2f988b939
 workflow-type: tm+mt
-source-wordcount: '4458'
+source-wordcount: '4448'
 ht-degree: 0%
 ---
 # Convalida di una connessione SMPP {#validate-smpp-connection}
@@ -197,11 +197,11 @@ Si è verificato un conflitto tra gli account. Adobe Campaign tratta gli account
 Contattare il provider per diagnosticare potenziali conflitti.
 
 *Alcuni degli account esterni condividono la stessa combinazione di login/password*
-Il provider non ha modo di sapere da quale account esterno proviene la PDU BIND, quindi tratta tutte le connessioni da più account come un unico account, quindi probabilmente indirizzano MO e SR in modo casuale sui 2 account, causando problemi apparentemente casuali.
+Il provider non dispone di alcun modo per indicare da quale account esterno proviene una PDU BIND. Tratta tutte le connessioni da più account come un unico account, quindi probabilmente instradano MO e SR in modo casuale sui 2 account. Questo causa problemi apparentemente casuali.
 
 Se il provider supporta più codici brevi per la stessa combinazione di login/password, dovrai chiedere loro dove inserire tale codice breve nella PDU BIND. Si noti che questa informazione deve essere inserita nella PDU BIND e non in SUBMIT_SM, perché la PDU BIND è l&#39;unica posizione che consente il routing corretto dei MO.
 
-Consulta la sezione [Informazioni in ogni tipo di PDU](#pdu) per sapere quali campi sono disponibili nella PDU BIND. In genere il codice breve viene inserito in *address_range*, ma questo richiede un supporto speciale da parte del provider. Contattali per sapere in che modo si aspettano di instradare più codici brevi in modo indipendente.
+Vedere la sezione [Informazioni in ogni tipo di PDU](#pdu) sopra per i campi disponibili nella PDU BIND. In genere il codice breve viene inserito in *address_range*, ma questo richiede un supporto speciale da parte del provider. Contattali per scoprire come si aspettano di instradare più codici brevi in modo indipendente.
 
 Adobe Campaign supporta la gestione di più codici brevi sullo stesso account esterno in modo corretto, quindi spesso l’utilizzo di un singolo account per tutto il traffico funziona correttamente.
 
@@ -251,7 +251,7 @@ Una connessione è considerata instabile se si verifica una di queste situazioni
 * Se il provider invia PDU UNBIND, probabilmente commette un errore. Chiedi loro perché hanno inviato UNBIND e probabilmente porterà alla causa principale.
 * L&#39;acquisizione di una rete a volte è l&#39;unico modo per vedere come viene chiusa la connessione.
 * Se il provider chiude le connessioni (inviando un pacchetto TCP FIN o TCP RST), chiedere loro perché lo fanno. Questo dovrebbe dirvi la causa principale del problema.
-* Se il provider chiude la connessione dopo aver inviato un errore corretto (ad esempio DELIVER_SM_RESP con un codice di errore), deve correggere il connettore perché impedisce la trasmissione di altri tipi di messaggi e attiverà la limitazione dell’MTA. Ciò è particolarmente importante nella modalità ricetrasmettitore, dove la chiusura della connessione influisce sia su MT che su SR.
+* Se il provider chiude la connessione dopo aver inviato un errore (ad esempio DELIVER_SM_RESP con un codice di errore), deve correggere il connettore. La chiusura della connessione impedisce la trasmissione di altri tipi di messaggi e attiva la limitazione dell’MTA. Ciò è particolarmente importante nella modalità ricetrasmettitore, dove la chiusura della connessione influisce sia su MT che su SR.
 * In presenza di timeout (BIND timeout, SUBMIT_SM timeout), è possibile che Campaign invii messaggi troppo rapidamente per tale provider. Prova ad abbassare l&#39;impostazione *velocità effettiva MT massima* e a vedere se risolve il problema.
 
 #### Problema durante l’invio di un messaggio MT (SMS regolare inviato a un utente finale)
@@ -288,7 +288,7 @@ Se la PDU DELIVER_SM non viene riconosciuta correttamente, è necessario control
 * Controlla la regex relativa all’estrazione degli ID e all’elaborazione degli errori nell’account esterno. Potrebbe essere necessario convalidarli in base al contenuto della PDU DELIVER_SM.
 * Verifica che sia stato eseguito correttamente il provisioning degli errori nella tabella broadLogMsg (la documentazione di Campaign spiega nel dettaglio questo problema).
 
-Se la PDU DELIVER_SM è stata confermata dal connettore SMPP esteso ACC ma il broadLog non viene aggiornato correttamente, controlla il processo di riconciliazione degli ID descritto nella sezione Precedente Corrispondenza tra le voci MT, SR e broadlog.
+Se il connettore SMPP esteso ACC ha confermato la PDU DELIVER_SM ma broadLog non è aggiornato correttamente, controlla il processo di riconciliazione degli ID. È descritto nella sezione Corrispondenza delle voci MT, SR e broadlog precedente.
 
 Se hai corretto tutto ma alcuni SR non validi si trovano ancora nei buffer del provider, puoi saltarli utilizzando l’opzione &quot;Conteggio conferme ID non valido&quot;. Questo deve essere usato con cautela e azzerato a 0 il più rapidamente possibile dopo la pulizia dei buffer.
 
@@ -303,7 +303,7 @@ Se vengono ricevuti solo alcuni SR ma non tutti, verifica che nessun altro siste
 * Se il MO (DELIVER_SM PDU) non viene visualizzato nelle tracce, è possibile essere certi che il problema si verifichi sul lato del provider. Dovranno risolvere i problemi sulla loro piattaforma.
 * Se viene visualizzata la PDU DELIVER_SM, verifica che sia confermata da Campaign con una PDU DELIVER_SM_RESP riuscita (codice 0). Questo RESP garantisce che tutta la logica di elaborazione sia stata applicata da Campaign (risposta automatica e quarantena). In caso contrario, cerca un messaggio di errore nei registri di processo SMS.
 * Se sono abilitate le risposte automatiche, verificare che SUBMIT_SM sia stato inviato al provider. In caso contrario, troverai sicuramente un messaggio di errore nei registri di processo degli SMS.
-* Se la PDU SUBMIT_SM MT contenente la risposta si trova nelle tracce ma l’SMS non arriva al telefono cellulare, dovrai contattare il provider per assistenza sulla risoluzione dei problemi, perché il problema è probabilmente dalla loro parte.
+* Se la PDU SUBMIT_SM MT contenente la risposta si trova nelle tracce ma l’SMS non raggiunge il telefono cellulare, contatta il provider per assistenza nella risoluzione dei problemi. Il problema è probabilmente dalla loro parte.
 
 #### Problema durante la preparazione della consegna che non esclude i destinatari in quarantena (messi in quarantena dalla funzione di risposta automatica)
 
@@ -322,7 +322,7 @@ Il provider è l’esperto che sa come funziona l’SMS. Contattali e vedi con l
 
 Dovrai sapere cosa c&#39;è nel tuo messaggio. Quella frase può sembrare facile, però non lo è. Unicode consente un numero talmente elevato di varianti per caratteri simili che Campaign non è in grado di gestirli tutti.
 
-La causa più comune di problemi è il copia-incolla da un elaboratore di testi, che cambia i caratteri usuali in versioni corrette tipograficamente: spazi modificati in spazi unificatori, virgolette doppie modificate in virgolette di apertura e chiusura, meno segni modificati in vari tipi di trattini ...
+La causa più comune di problemi è il copia-incolla da un elaboratore di testi. Cambia i caratteri usuali in versioni corrette tipograficamente: spazi modificati in spazi unificatori, virgolette doppie modificate in virgolette di apertura e chiusura, meno segni modificati in vari tipi di trattini...
 
 Non copiare e incollare il messaggio durante il test, digitalo sempre direttamente nell’interfaccia.
 
@@ -365,7 +365,7 @@ Se il provider lamenta un sovraccarico del buffer sul lato, è possibile che Cam
 
 ### Elementi da includere durante la comunicazione relativa a un problema SMS
 
-Ogni volta che chiedi assistenza su un problema relativo agli SMS (che si tratti dell’apertura di un ticket di supporto ad Adobe Campaign, al provider SMS o di qualsiasi tipo di comunicazione sul problema), dovrai includere almeno le seguenti informazioni per assicurarti che sia adeguatamente qualificato. I problemi correttamente qualificati sono fondamentali per risolverli più rapidamente, pertanto dedicare un po’ più di tempo a comprendere la situazione e fornire informazioni significative porterà a un enorme salto in efficienza.
+Ogni volta che chiedi assistenza su un problema SMS, includi almeno le seguenti informazioni in modo che il problema possa essere qualificato correttamente. Ciò vale sia che apri un ticket di supporto con Adobe Campaign o con il provider SMS, sia che comunichi il problema in qualsiasi altro modo. I problemi correttamente qualificati sono fondamentali per risolverli più rapidamente, pertanto dedicare un po’ più di tempo a comprendere la situazione e fornire informazioni significative porterà a un enorme salto in efficienza.
 
 * Abilita i messaggi SMPP dettagliati quando viene visualizzato il problema. La maggior parte dei problemi relativi agli SMS sono praticamente impossibili da risolvere senza questo.
 * Se il problema è relativo al traffico SMS, contatta prima il provider. Sono i più esperti e la loro piattaforma è solitamente adatta per una diagnosi efficiente dei problemi di traffico SMS in tempo reale.

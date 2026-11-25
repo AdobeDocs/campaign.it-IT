@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1417'
 ht-degree: 4%
 ---
 # Quarantena {#quarantine-management}
@@ -103,13 +103,13 @@ Per ogni consegna, è inoltre possibile controllare il report **[!UICONTROL Deli
 * Il numero di indirizzi messi in quarantena durante l’analisi della consegna,
 * Il numero di indirizzi messi in quarantena dopo l’azione di consegna.
 
-Per ulteriori informazioni sui rapporti sulle consegne, consulta [questa sezione](../reporting/gs-reporting.md).
+Ulteriori informazioni sui report di consegna in [Introduzione agli strumenti di reporting di Adobe Campaign](../reporting/gs-reporting.md).
 
 ### Indirizzi non consegnabili e non recapitati{#non-deliverable-bounces}
 
 Per visualizzare l&#39;elenco degli indirizzi messi in quarantena **per l&#39;intera piattaforma**, gli amministratori di Campaign possono passare a **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]**. In questa sezione sono elencati gli elementi messi in quarantena per i canali **email**, **SMS** e **Push notification**.
 
-![](assets/tech-quarantine.png)
+![Record di indirizzo in quarantena con stato quarantena, motivo dell&#39;errore, testo dell&#39;errore e azione di consegna](assets/tech-quarantine.png)
 
 >[!NOTE]
 >
@@ -131,7 +131,7 @@ A tale scopo, selezionare il profilo del destinatario e fare clic sulla scheda *
 
 Per ogni cartella, è possibile visualizzare solo i destinatari il cui indirizzo e-mail è in quarantena, con il filtro integrato **[!UICONTROL Quarantined email address]**, come segue:
 
-![](assets/quarantine-filter.png)
+![Menu Filtri elenco destinatari con il filtro predefinito dell&#39;indirizzo e-mail in quarantena evidenziato](assets/quarantine-filter.png)
 
 
 ## Rimuovere un indirizzo messo in quarantena {#remove-a-quarantined-address}
@@ -143,7 +143,7 @@ Gli indirizzi che soddisfano condizioni specifiche vengono eliminati automaticam
 Gli indirizzi vengono rimossi automaticamente dall’elenco di quarantena nei seguenti casi:
 
 * Gli indirizzi con stato **[!UICONTROL With errors]** verranno rimossi dall&#39;elenco di quarantena dopo una consegna riuscita.
-* Gli indirizzi con lo stato **[!UICONTROL With errors]** verranno rimossi dall&#39;elenco di quarantena se l&#39;ultimo messaggio non recapitato è stato eseguito più di 10 giorni fa. Per ulteriori informazioni sulla gestione degli errori software, consulta [questa sezione](#soft-error-management).
+* Gli indirizzi con lo stato **[!UICONTROL With errors]** verranno rimossi dall&#39;elenco di quarantena se l&#39;ultimo messaggio non recapitato è stato eseguito più di 10 giorni fa. Per ulteriori informazioni sulla gestione degli errori soft, vedere [Gestione degli errori soft](#soft-error-management).
 * Gli indirizzi con stato **[!UICONTROL With errors]** che non hanno superato l&#39;errore **[!UICONTROL Mailbox full]** verranno rimossi dall&#39;elenco di quarantena dopo 30 giorni.
 
 Il loro stato diventa quindi **[!UICONTROL Valid]**.
@@ -156,7 +156,7 @@ Il loro stato diventa quindi **[!UICONTROL Valid]**.
 
 È inoltre possibile rimuovere manualmente un indirizzo dall’elenco di quarantena. Per rimuovere manualmente un indirizzo dalla quarantena, è possibile modificarne lo stato in **[!UICONTROL Valid]** dal nodo **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]**.
 
-![](assets/tech-quarantine-status.png)
+![Record di indirizzo con l&#39;elenco a discesa Stato aperto e lo stato Valido selezionato per rimuoverlo dalla quarantena](assets/tech-quarantine-status.png)
 
 ### Aggiornamenti in blocco {#unquarantine-bulk}
 

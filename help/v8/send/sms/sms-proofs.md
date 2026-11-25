@@ -26,9 +26,9 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '303'
 ht-degree: 1%
 ---
 # Inviare una prova di una consegna SMS {#sms-proof}
@@ -39,7 +39,7 @@ Puoi inviare una bozza per la consegna SMS per convalidarla:
 
 1. Fare clic sul pulsante **[!UICONTROL Send a proof]**. Verrà aperta una finestra
 
-   ![](assets/proof_targeting.png){zoomable="yes"}
+   ![Invia una finestra di dialogo per la bozza con l&#39;elenco delle modalità di targeting: destinazione bozza specifica, sostituzione indirizzo, indirizzi seed o entrambi](assets/proof_targeting.png){zoomable="yes"}
 
    Sono disponibili più modalità per inviare una bozza:
 
@@ -53,12 +53,12 @@ Puoi inviare una bozza per la consegna SMS per convalidarla:
 
    Nell&#39;esempio seguente, scegliamo **[!UICONTROL Definition of a specific proof target]** e aggiungiamo un destinatario:
 
-   ![](assets/proof_recipient.png){zoomable="yes"}
+   ![Invia una finestra di dialogo di bozza nella definizione di una modalità di destinazione di bozza specifica con un destinatario aggiunto e il pulsante Analizza](assets/proof_recipient.png){zoomable="yes"}
 
 1. Fai clic sul pulsante **[!UICONTROL Analyze]**.
 Adobe Campaign eseguirà tutti i controlli prima di convalidare l’invio della bozza. Al termine dell&#39;analisi, sarà possibile fare clic sul pulsante **[!UICONTROL Confirm delivery]**.
 
-   ![](assets/proof_analyze.png){zoomable="yes"}
+   ![Invia una bozza dopo l&#39;analisi: preparazione completata, 1 messaggio da inviare, registro analisi e pulsante Conferma consegna](assets/proof_analyze.png){zoomable="yes"}
 
 1. Per inviare la prova della consegna SMS, fai clic sul pulsante **[!UICONTROL Confirm delivery]**.
 

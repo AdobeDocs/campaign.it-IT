@@ -21,10 +21,10 @@ feature_v2:
     internal-label: Interaction
   - id: ea08db70-4682-59a2-9408-9aedd9548e07
     internal-label: Offers
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 4%
+source-wordcount: '154'
+ht-degree: 3%
 ---
 # Impostazioni di esecuzione{#execution-settings}
 
@@ -34,7 +34,7 @@ Quando crei una simulazione, puoi specificare le impostazioni di esecuzione, se 
 
 Queste impostazioni possono essere modificate in seguito nella scheda **[!UICONTROL General]** della finestra di simulazione.
 
-![](assets/offer_simulation_008.png)
+![Scheda Generale di una simulazione con impostazioni di esecuzione: pianificazione attività bassa, registrazione SQL e elenco priorità.](assets/offer_simulation_008.png)
 
 * **[!UICONTROL Schedule execution for a time of low activity]** : consente di pianificare la simulazione in base alla priorità scelta (Bassa, Media o Alta) per ottimizzare le prestazioni di Adobe Campaign.
 * **[!UICONTROL Priority]** : questo è il livello applicato alla simulazione per pianificarla. Quando l&#39;opzione **[!UICONTROL Schedule execution for a time of low activity]** è selezionata, il flusso di lavoro di elaborazione della campagna seleziona un periodo di bassa attività per avviare la campagna.

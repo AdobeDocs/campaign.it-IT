@@ -26,9 +26,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '517'
 ht-degree: 5%
 ---
 # Introduzione alle autorizzazioni{#gs-permissions}
@@ -48,12 +48,12 @@ In Adobe Campaign, gli utenti sono **operatori** e **gruppi di operatori** rappr
 
 ## Passaggi chiave per concedere le autorizzazioni{#key-steps-permissions}
 
-In qualità di amministratore di prodotto, puoi concedere autorizzazioni agli utenti della tua organizzazione. Le autorizzazioni vengono concesse tramite Adobe Admin Console e la console client di Campaign. Gli utenti accedono ad Adobe Campaign con il proprio Adobe ID. Scopri come connetterti ad Adobe Campaign in [questa pagina](connect.md).
+In qualità di amministratore di prodotto, puoi concedere autorizzazioni agli utenti della tua organizzazione. Le autorizzazioni vengono concesse tramite Adobe Admin Console e la console client di Campaign. Gli utenti accedono ad Adobe Campaign con il proprio Adobe ID. Scopri come connettersi ad Adobe Campaign in [Connessione a Campaign v8](connect.md).
 
 I passaggi chiave sono i seguenti:
 
 * **Passaggio 1**: definisci i gruppi di operatori e assegna loro le autorizzazioni nella console client di Campaign. [Ulteriori informazioni](manage-permissions.md#create-product-profile).
-Tieni presente che puoi anche utilizzare i gruppi di operatori incorporati per iniziare con. Questi gruppi predefiniti e le relative autorizzazioni sono elencati in [questa sezione](manage-permissions.md#ootb-productprofiles).
+Tieni presente che puoi anche utilizzare i gruppi di operatori incorporati per iniziare con. Questi gruppi predefiniti e le relative autorizzazioni sono elencati in [Profili di prodotto e gruppi di operatori predefiniti](manage-permissions.md#ootb-productprofiles).
 * **Passaggio 2**: creare in Adobe Admin Console profili di prodotto corrispondenti a tali gruppi. [Ulteriori informazioni](manage-permissions.md#create-product-profile).
 Puoi utilizzare i profili di prodotto incorporati per iniziare con. [Ulteriori informazioni](manage-permissions.md#ootb-productprofiles).
 * **Passaggio 3**: crea utenti in Adobe Admin Console e assegnali a un profilo di prodotto. [Ulteriori informazioni](manage-permissions.md#add-users).
@@ -65,7 +65,7 @@ Adobe Admin Console è una posizione centrale per la gestione delle adesioni Ado
 
 Utilizza Admin Console per aggiungere utenti, creare e assegnare profili di prodotto (che sono gruppi di ruoli dell’operatore).
 
-Scopri come aggiungere utenti in [questa pagina](manage-permissions.md#add-users).
+Scopri come aggiungere utenti in [Aggiungi utenti](manage-permissions.md#add-users).
 
 ## Informazioni sui profili di prodotto{#ootb-product-profiles}
 
@@ -73,10 +73,10 @@ I profili di prodotto sono gruppi di prodotti e servizi che puoi assegnare agli 
 
 In Admin Console, ogni [!DNL CX Enterprise] **profilo di prodotto** per Campaign è associato a un **gruppo di operatori** nella console client di Campaign.
 
-Scopri come creare e assegnare profili di prodotto in [questa pagina](manage-permissions.md#create-product-profile).
+Scopri come creare e assegnare profili di prodotto in [Creare un profilo di prodotto](manage-permissions.md#create-product-profile).
 
 ## Diritti denominati della campagna{#named-rights}
 
 In qualità di membro di un profilo di prodotto (ovvero di un gruppo di operatori), un utente dispone dei diritti per eseguire operazioni, denominate &quot;Diritti denominati&quot;, e ha accesso in lettura e/o scrittura ai dati. Un operatore può essere membro di più gruppi di operatori: i diritti e le autorizzazioni di accesso sono additivi.
 
-Ulteriori informazioni sui diritti denominati in [questa sezione](manage-permissions.md#use-named-rights).
+Ulteriori informazioni sui diritti denominati in [Diritti denominati](manage-permissions.md#use-named-rights).

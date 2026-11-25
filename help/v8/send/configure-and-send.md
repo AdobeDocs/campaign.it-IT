@@ -19,20 +19,20 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1244'
-ht-degree: 9%
+source-wordcount: '1440'
+ht-degree: 7%
 ---
 # Configurare e inviare la consegna {#configure-delivery}
 
-Accedi ai parametri di consegna per configurare altre impostazioni e definire la modalità di invio dei messaggi. Puoi definire la consegna [priority](#delivery-priority), configurare [scaglioni](#sending-using-multiple-waves) e verificare l&#39;invio della consegna. Al termine della configurazione, puoi confermare l&#39;invio come descritto in [questa sezione](#confirm-delivery). I messaggi vengono quindi inviati immediatamente o in base alla [pianificazione](#schedule-delivery-sending) della consegna.
+Accedi ai parametri di consegna per configurare altre impostazioni e definire la modalità di invio dei messaggi. Puoi definire la consegna [priority](#delivery-priority), configurare [scaglioni](#sending-using-multiple-waves) e verificare l&#39;invio della consegna. Al termine della configurazione, puoi confermare l&#39;invio come descritto in [Conferma la consegna](#confirm-delivery). I messaggi vengono quindi inviati immediatamente o in base alla [pianificazione](#schedule-delivery-sending) della consegna.
 
 ## Imposta parametri aggiuntivi {#delivery-additional-parameters}
 
 Prima di inviare la consegna, puoi definire i parametri di invio nelle proprietà di consegna tramite la scheda **[!UICONTROL Delivery]**.
 
-![](assets/delivery-properties-delivery.png)
+![Proprietà di consegna Scheda Consegna con priorità, ondate, nuovi tentativi, impostazioni di personalizzazione e formato e-mail](assets/delivery-properties-delivery.png)
 
 ### Priorità della consegna {#delivery-priority}
 
@@ -67,7 +67,7 @@ Per definire le ondate, effettuare le seguenti operazioni:
 1. Apri le proprietà di consegna e passa alla scheda **[!UICONTROL Delivery]**.
 1. Abilitare l&#39;opzione **[!UICONTROL Send using multiple waves]** e fare clic sul collegamento **[!UICONTROL Define waves...]**.
 
-   ![](assets/delivery-define-waves.png)
+   ![Scheda Consegna con Invia utilizzando più scaglioni selezionata ed evidenziato il collegamento Definisci scaglioni](assets/delivery-define-waves.png)
 
 ### Configura ondate {#config-waves}
 
@@ -81,29 +81,29 @@ Per definire le ondate, effettuare le seguenti operazioni:
 
   Nel campo **[!UICONTROL Period]** specificare il ritardo tra l&#39;inizio di due scaglioni consecutivi. Se ad esempio si immette **[!UICONTROL 2d]**, la prima ondata inizierà immediatamente, la seconda ondata inizierà tra due giorni, la terza ondata tra quattro giorni e così via.
 
-  ![](assets/delivery-waves-size.png)
+  ![Finestra di dialogo di definizione delle onde con onde di uguale dimensione impostata su 30% e un punto 2d tra le onde](assets/delivery-waves-size.png)
 
 * **Definisci un calendario per l&#39;invio di ogni ondata**.  Ad esempio, la prima ondata rappresenta il 25% del numero totale di messaggi inclusi nella consegna e inizierà immediatamente. Le due fasi successive completano la consegna e sono impostate per iniziare a intervalli di sei ore.
 
   Nella colonna **[!UICONTROL Start]** specificare il ritardo tra l&#39;inizio di due ondate consecutive. Nella colonna **[!UICONTROL Size]** immettere un numero fisso o una percentuale.
 
-  ![](assets/delivery-waves-calendar.png)
+  ![Finestra di dialogo Definizione scaglioni con un calendario di tre scaglioni: 25% alle 0, 50% alle 6 ore e 25% alle 6 ore](assets/delivery-waves-calendar.png)
 
 ### Controllo programmazione ondata {#check-waves}
 
-Una regola di tipologia specifica, **[!UICONTROL Wave scheduling check]**, garantisce che l&#39;ultimo scaglione sia pianificato prima del limite di validità della consegna. Le tipologie di campagne e le relative regole, configurate nella scheda **[!UICONTROL Typology]** delle proprietà di consegna, sono presentate in [questa sezione](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->.
+Una regola di tipologia specifica, **[!UICONTROL Wave scheduling check]**, garantisce che l&#39;ultimo scaglione sia pianificato prima del limite di validità della consegna. Le tipologie di campagne e le relative regole, configurate nella scheda **[!UICONTROL Typology]** delle proprietà di consegna, sono presentate in [Regole e tipologie di tipologia](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->.
 
 >[!IMPORTANT]
 >
->* Assicurarsi che gli ultimi scaglioni non superino la scadenza della consegna, definita nella scheda **[!UICONTROL Validity]**. In caso contrario, alcuni messaggi potrebbero non essere inviati. Ulteriori informazioni sul periodo di validità di una consegna in [questa sezione](delivery-failures.md#valid-period).
+>* Assicurarsi che gli ultimi scaglioni non superino la scadenza della consegna, definita nella scheda **[!UICONTROL Validity]**. In caso contrario, alcuni messaggi potrebbero non essere inviati. Ulteriori informazioni sul periodo di validità di una consegna in [Periodo di validità](delivery-failures.md#valid-period).
 >
->* È inoltre necessario impostare un tempo sufficiente per i nuovi tentativi durante la configurazione delle ultime ondate. Ulteriori informazioni sui nuovi tentativi in [questa sezione](delivery-failures.md#retries).
+>* È inoltre necessario impostare un tempo sufficiente per i nuovi tentativi durante la configurazione delle ultime ondate. Ulteriori informazioni sui nuovi tentativi in [Gestione tentativi](delivery-failures.md#retries).
 >
 >* Gli scaglioni sono pianificati dalla data di contatto della consegna. Se la consegna inizia dopo il tempo pianificato di una o più ondate, queste ultime vengono tutte inviate insieme anziché essere distanziate.
 
 ### Monitorare le ondate {#monitor-waves}
 
-Per monitorare gli invii, passa ai registri di consegna. Consulta [questa pagina](send.md).
+Per monitorare gli invii, passa ai registri di consegna. Consulta [Inviare e monitorare le e-mail](send.md).
 
 È possibile visualizzare le consegne già inviate negli scaglioni elaborati (**[!UICONTROL Sent]** stato) e le consegne da inviare negli scaglioni rimanenti (**[!UICONTROL Pending]** stato).
 
@@ -120,7 +120,7 @@ I due esempi seguenti sono i casi d’uso più comuni per l’utilizzo di più s
 
   A tale scopo, utilizzare l&#39;opzione **[!UICONTROL Schedule waves according to a calendar]**. Ad esempio, imposta la prima ondata su 10%, la seconda su 15% e così via.
 
-  ![](assets/delivery-waves-ex-ramp-up.png)
+  ![Calendario di definizione scaglioni con cinque scaglioni di dimensioni crescenti, dal 10% al 30%, a 12 ore di distanza](assets/delivery-waves-ex-ramp-up.png)
 
 * **Campagne con call center**
 
@@ -130,7 +130,7 @@ I due esempi seguenti sono i casi d’uso più comuni per l’utilizzo di più s
 
   A tale scopo, selezionare l&#39;opzione **[!UICONTROL Schedule multiple waves of the same size]**. Immetti **[!UICONTROL 20]** come dimensione dell&#39;ondata e **[!UICONTROL 1d]** nel campo **[!UICONTROL Period]**.
 
-  ![](assets/delivery-waves-ex-call-center.png)
+  ![Finestra di dialogo di definizione ondate con ondate di 20 messaggi di uguale dimensione e un punto 1d](assets/delivery-waves-ex-call-center.png)
 
 ## Conferma la consegna {#confirm-delivery}
 
@@ -143,13 +143,13 @@ A tale scopo, segui la procedura indicata di seguito.
    * Per inviare immediatamente la consegna, selezionare **[!UICONTROL Deliver as soon as possible]**.
    * Per pianificare l&#39;invio a una data successiva, selezionare **[!UICONTROL Postpone the delivery]**. [Ulteriori informazioni](#schedule-delivery-sending)
 
-1. Fai clic su **[!UICONTROL Analyze]**. Per ulteriori informazioni, consulta [questa sezione](delivery-analysis.md).
+1. Fai clic su **[!UICONTROL Analyze]**. Per ulteriori informazioni, consulta [Analisi della consegna](delivery-analysis.md).
 
-   ![](assets/delivery-send-analyze.png)
+   ![Invia alla finestra di dialogo del target di consegna principale con Consegna selezionata il prima possibile e il pulsante Analizza evidenziato](assets/delivery-send-analyze.png)
 
 1. Al termine, fai clic su **[!UICONTROL Confirm delivery]** per avviare la consegna dei messaggi.
 
-   ![](assets/delivery-send-confirm.png)
+   ![Invia alla finestra di dialogo del target di consegna principale dopo l&#39;analisi, con il pulsante Conferma consegna evidenziato](assets/delivery-send-confirm.png)
 
 1. È possibile chiudere la procedura guidata di consegna e tenere traccia dell&#39;esecuzione della consegna dalla scheda **[!UICONTROL Delivery]**, accessibile tramite i dettagli della consegna o tramite l&#39;elenco delle consegne.
 
@@ -168,7 +168,7 @@ Puoi posticipare la consegna dei messaggi per pianificare la consegna o per gest
 
 1. Specificare una data di inizio nel campo **[!UICONTROL Contact date]**.
 
-   ![](assets/delivery-send-postpone.png)
+   ![Invia alla finestra di dialogo di destinazione della consegna principale con Posticipa la consegna selezionata e una data di contatto immessa](assets/delivery-send-postpone.png)
 
 1. Avvia l’analisi della consegna e conferma l’invio. Tuttavia, l’invio della consegna non inizierà fino alla data specificata nel campo **[!UICONTROL Contact date]**.
 
@@ -176,13 +176,13 @@ Puoi posticipare la consegna dei messaggi per pianificare la consegna o per gest
    >
    >Dopo aver avviato l&#39;analisi, la data di contatto definita viene corretta. Se modifichi questa data, dovrai riavviare l’analisi in modo da tenere conto delle modifiche.
 
-   ![](assets/delivery-send-scheduled.png)
+   ![Messaggio di completamento preparazione consegna che mostra la data di consegna pianificata e il pulsante Conferma consegna](assets/delivery-send-scheduled.png)
 
 Nell&#39;elenco di consegna, la consegna verrà visualizzata con lo stato **[!UICONTROL Pending]**.
 
 La pianificazione può essere configurata anche a monte tramite il pulsante **[!UICONTROL Scheduling]** della consegna.
 
-![](assets/delivery-scheduling-button.png)
+![Finestra di dialogo Pianificazione aperta dal pulsante Pianificazione, con consegna pianificata (nessuna esecuzione automatica) selezionata](assets/delivery-scheduling-button.png)
 
 Ti consente di posticipare la consegna a una data successiva o di salvarla nel calendario provvisorio.
 
@@ -198,7 +198,7 @@ Le date e le ore sono espresse nel fuso orario dell&#39;operatore corrente. L&#3
 
 Ad esempio, se pianifichi una consegna da eseguire automaticamente alle 8 (ora di Londra), l’ora viene automaticamente convertita nel fuso orario selezionato:
 
-![](assets/delivery-schedule-time-zone.png)
+![Finestra di dialogo di pianificazione con elenco a discesa Fuso orario aperta per convertire la data di contatto in un altro fuso orario](assets/delivery-schedule-time-zone.png)
 
 <!--
 ## Adjust delivery failure management {#delivery-failure-management}

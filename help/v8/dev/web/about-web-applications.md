@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '849'
-ht-degree: 12%
+source-wordcount: '886'
+ht-degree: 10%
 ---
 # Introduzione alle applicazioni web{#about-web-applications}
 
@@ -61,7 +61,7 @@ Adobe Campaign consente di creare e pubblicare applicazioni web dinamiche e inte
 
 Può trattarsi di un modulo di abbonamento contenente dati precaricati con le informazioni contenute nel database di Adobe Campaign, come illustrato di seguito:
 
-![](assets/webapp_form_sample.png)
+![Modulo di abbonamento precaricato con un indirizzo e-mail, nome e paese, con un pulsante di abbonamento.](assets/webapp_form_sample.png)
 
 In questo capitolo viene fornita una panoramica sulla gestione delle applicazioni Web.
 
@@ -101,7 +101,7 @@ Rispetto alle applicazioni Web, i sondaggi hanno un&#39;interfaccia grafica semp
 >
 >I sondaggi sono descritti in [questa sezione](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/content/surveys/about-surveys){target="_blank"} (documentazione di Campaign v8).
 >
->Le funzionalità generali dei moduli Web in Adobe Campaign sono descritte in dettaglio in [questa sezione](about-web-forms.md).
+>Le funzionalità generali dei moduli web in Adobe Campaign sono descritte in dettaglio in [Introduzione ai moduli web](about-web-forms.md).
 
 ## Implementazione dell’applicazione web {#web-application-implementation}
 
@@ -109,7 +109,7 @@ Per creare e pubblicare un&#39;applicazione Web, è necessario:
 
 1. Crea il contenuto (campi, elenchi, tabelle, grafici, ecc.).
 
-   È inoltre possibile visualizzare la sezione che descrive i campi disponibili per i moduli: tutti questi campi sono disponibili anche per le applicazioni Web. Informazioni disponibili in [questa pagina](adding-fields-to-a-web-form.md).
+   È inoltre possibile visualizzare la sezione che descrive i campi disponibili per i moduli: tutti questi campi sono disponibili anche per le applicazioni Web. Queste informazioni sono disponibili in [Aggiungere campi a un modulo Web](adding-fields-to-a-web-form.md).
 
 1. Se necessario, puoi aggiungere passaggi di precaricamento, test e salvataggio e configurare il sistema di controllo degli accessi (principalmente nel framework di una pubblicazione Extranet).
 1. Pubblica l’applicazione web per renderla disponibile su una extranet o in Adobe Campaign.
@@ -120,7 +120,7 @@ Le applicazioni Web vengono create tramite il collegamento **[!UICONTROL Web App
 
 Le applicazioni Web sono archiviate nel nodo **[!UICONTROL Resources > Online > Web Applications]** della struttura Adobe Campaign. Le configurazioni sono suddivise nelle seguenti cartelle:
 
-* **[!UICONTROL Administration > Configuration > Form renderings]**: contiene i modelli di rendering per la presentazione del modulo Web (applicazioni e sondaggi). Il modello consente di generare il modulo. Viene inoltre utilizzato un foglio di stile CSS. Questo foglio di stile può essere sovraccaricato a livello di modello. Per ulteriori informazioni, consulta [questa pagina](form-rendering.md#selecting-the-form-rendering-template).
+* **[!UICONTROL Administration > Configuration > Form renderings]**: contiene i modelli di rendering per la presentazione del modulo Web (applicazioni e sondaggi). Il modello consente di generare il modulo. Viene inoltre utilizzato un foglio di stile CSS. Questo foglio di stile può essere sovraccaricato a livello di modello. Per ulteriori informazioni, consulta [Selezione del modello di rendering del modulo](form-rendering.md#selecting-the-form-rendering-template).
 * **[!UICONTROL Resources > Templates > Web application templates]**: contiene modelli di modulo. Per creare un modulo o un&#39;applicazione Web, è necessario partire da un modello.
 
 ## Modelli di applicazioni web {#web-application-templates}
@@ -135,7 +135,7 @@ Per impostazione predefinita, Adobe Campaign fornisce un modello per ogni applic
 
 L’assistente alla creazione ti consente di selezionare le opzioni che desideri abilitare, come mostrato di seguito.
 
-![](assets/webapp_create_template.png)
+![Finestra di dialogo Nuova applicazione Web con le opzioni Sondaggio e sito Web avanzato (extranet) da abilitare.](assets/webapp_create_template.png)
 
 >[!CAUTION]
 >

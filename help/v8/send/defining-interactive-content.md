@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1461'
+source-wordcount: '1553'
 ht-degree: 3%
 ---
 # Definire il contenuto interattivo{#defining-interactive-content}
@@ -39,7 +39,7 @@ Con AMP per e-mail, puoi:
 * Verifica la consegna di e-mail AMP a indirizzi specifici configurati in modo appropriato.
 * Consegna le e-mail AMP agli indirizzi Gmail o Mail.ru dopo la registrazione ai provider corrispondenti.
 
-Per ulteriori informazioni sul test e l&#39;invio di e-mail AMP, consulta [questa sezione](#targeting-amp-email).
+Per ulteriori informazioni sul test e l&#39;invio di e-mail AMP, consulta [Eseguire il targeting di un&#39;e-mail AMP](#targeting-amp-email).
 
 Questa funzione è disponibile tramite un pacchetto dedicato in Adobe Campaign. A seconda delle autorizzazioni e del modello di distribuzione, puoi installare questo pacchetto o rivolgerti ad Adobe per installarlo autonomamente.
 
@@ -56,7 +56,7 @@ AMP for Email è compatibile con le e-mail esistenti. La versione AMP del messag
 
 Per ulteriori informazioni su AMP per il formato, le specifiche e i requisiti delle e-mail, consulta la [documentazione per gli sviluppatori AMP](https://amp.dev/documentation/guides-and-tutorials/learn/email-spec/amp-email-format/?format=email).
 
-![](assets/do-not-localize/how-to-video.png) [Guarda un video su questa funzione](#amp-email-video)
+![Icona Riproduci per il video AMP per e-mail](assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](#amp-email-video)
 
 ## Passaggi chiave per utilizzare AMP per e-mail con Adobe Campaign {#key-steps-to-use-amp}
 
@@ -87,7 +87,7 @@ Per creare un’e-mail utilizzando il formato AMP, segui i passaggi indicati di 
 
 1. Fare clic sulla scheda **[!UICONTROL AMP content]**.
 
-   ![](assets/amp_tab.png)
+   ![Consegna e-mail con la scheda del contenuto AMP evidenziata e il codice sorgente AMP visualizzato](assets/amp_tab.png)
 
 1. Modifica il contenuto AMP in base alle tue esigenze.
 
@@ -99,7 +99,7 @@ Per creare un’e-mail utilizzando il formato AMP, segui i passaggi indicati di 
 
 1. Personalizza il contenuto AMP in base alle esigenze, come faresti solitamente con il formato HTML in Adobe Campaign, con campi di personalizzazione e blocchi di personalizzazione.
 
-   ![](assets/amp_tab_perso.png)
+   ![Editor di contenuti AMP con un campo di personalizzazione nome destinatario evidenziato nel codice](assets/amp_tab_perso.png)
 
 1. Al termine della modifica, seleziona l&#39;intero contenuto AMP e copialo e incollalo nella convalida basata sul Web [AMP](https://validator.ampproject.org) o in un sito Web simile.
 
@@ -107,7 +107,7 @@ Per creare un’e-mail utilizzando il formato AMP, segui i passaggi indicati di 
    >
    >Assicurarsi di selezionare **AMP4 EMAIL** dall&#39;elenco a discesa nella parte superiore dello schermo.
 
-   ![](assets/amp_validator.png)
+   ![La convalida AMP con il formato AMP4EMAIL selezionato e lo stato di convalida NON riesce. Elenco URL relativi non consentiti](assets/amp_validator.png)
 
    Gli errori vengono contrassegnati in linea.
 
@@ -117,7 +117,7 @@ Per creare un’e-mail utilizzando il formato AMP, segui i passaggi indicati di 
 
 1. Apporta le modifiche necessarie fino a quando il contenuto AMP non supera la convalida.
 
-   ![](assets/amp_validator_pass.png)
+   ![Convalida AMP con formato AMP4EMAIL selezionato e Stato convalida: PASSAGGIO evidenziato](assets/amp_validator_pass.png)
 
 1. Per visualizzare l&#39;anteprima del contenuto, copia e incolla il contenuto convalidato in [AMP Playground](https://playground.amp.dev) o in un sito Web simile.
 
@@ -125,7 +125,7 @@ Per creare un’e-mail utilizzando il formato AMP, segui i passaggi indicati di 
    >
    >Accertati di selezionare **AMP per e-mail** dall&#39;elenco a discesa nella parte superiore dello schermo.
 
-   ![](assets/amp_playground.png)
+   ![Ambiente giochi AMP con AMP per e-mail selezionato e un&#39;anteprima dell&#39;e-mail con rendering a destra](assets/amp_playground.png)
 
    >[!NOTE]
    >
@@ -178,7 +178,7 @@ Per eseguire questa operazione:
 
 Per ulteriori dettagli, consulta la documentazione per gli sviluppatori di [Gmail](https://developers.google.com/gmail/ampemail/testing-dynamic-email).
 
-![](assets/amp_from_field.png)
+![Parametri e-mail con il campo Da evidenziato sopra la scheda del contenuto AMP](assets/amp_from_field.png)
 
 Per verificare l&#39;invio di un&#39;e-mail AMP a un indirizzo Mail.ru, seguire i passaggi descritti nella [documentazione per gli sviluppatori di Mail.ru](https://postmaster.mail.ru/amp/#howto) (**Se si è un utente**).
 

@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 011875268793bca1a000d745818dbd6c69461227
 workflow-type: tm+mt
-source-wordcount: '1833'
+source-wordcount: '1890'
 ht-degree: 5%
 ---
 # Configurare il canale di notifica push {#push-notification-configuration}
@@ -71,7 +71,7 @@ Prima di creare un’app mobile, è necessario assicurarsi di disporre delle aut
 
 >[!CAUTION]
 >
->La configurazione push deve essere eseguita da un utente esperto. A seconda del modello di implementazione e degli utenti tipo coinvolti nell&#39;implementazione, potrebbe essere necessario assegnare il set completo di autorizzazioni a un singolo profilo di prodotto o condividere le autorizzazioni tra lo sviluppatore di app e l&#39;amministratore **Adobe Campaign**.
+>La configurazione push deve essere eseguita da un utente esperto. A seconda del modello di implementazione e degli utenti tipo coinvolti, potrebbe essere necessario assegnare l’intero set di autorizzazioni a un singolo profilo di prodotto. In alternativa, condividi le autorizzazioni tra lo sviluppatore di app e l&#39;amministratore **Adobe Campaign**.
 
 Per assegnare i diritti di **Proprietà** e **Società**, effettua le seguenti operazioni:
 
@@ -182,7 +182,7 @@ Una volta creata, apri la nuova proprietà tag e crea una libreria. Per eseguire
 
 ## Configurare i servizi mobili in Campaign {#push-service}
 
-Dopo aver configurato l&#39;app mobile in [!DNL Adobe Experience Platform Data Collection], è necessario creare due servizi (uno per i dispositivi iOS e uno per i dispositivi Android) per poter inviare notifiche push da **[!DNL Adobe Campaign]**.
+Una volta configurata l&#39;app mobile in [!DNL Adobe Experience Platform Data Collection], creare due servizi: uno per i dispositivi iOS e uno per i dispositivi Android. Questi servizi ti consentono di inviare notifiche push da **[!DNL Adobe Campaign]**.
 
 Le notifiche push vengono inviate agli utenti dell’app tramite un servizio dedicato. Quando gli utenti installano l’app, si abbonano a questo servizio: Adobe Campaign si basa su questo servizio per eseguire il targeting solo per gli abbonati dell’app. In questo servizio, devi aggiungere le app iOS e Android da inviare su dispositivi iOS e Android.
 
@@ -190,13 +190,13 @@ Per creare un servizio per l’invio di notifiche push, effettua le seguenti ope
 
 1. Passare alla scheda **[!UICONTROL Profiles and Targets > Services and Subscriptions]** e fare clic su **[!UICONTROL Create]**.
 
-   ![](assets/new-service-push.png){width="800"}
+   ![Finestra di dialogo Nuovo servizio con il tipo di applicazione mobile e la mappatura di destinazione delle applicazioni in abbonamento](assets/new-service-push.png){width="800"}
 
 1. Immettere **[!UICONTROL Label]** e **[!UICONTROL Internal name]** e selezionare un tipo **[!UICONTROL Mobile application]**.
 
    >[!NOTE]
    >
-   >Il mapping di destinazione predefinito **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** è collegato alla tabella dei destinatari. Se si desidera utilizzare una mappatura di destinazione diversa, è necessario creare una nuova mappatura di destinazione e immetterla nel campo **[!UICONTROL Target mapping]** del servizio. Ulteriori informazioni sulle mappature di destinazione in [questa pagina](../audiences/target-mappings.md).
+   >Il mapping di destinazione predefinito **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** è collegato alla tabella dei destinatari. Se si desidera utilizzare una mappatura di destinazione diversa, è necessario creare una nuova mappatura di destinazione e immetterla nel campo **[!UICONTROL Target mapping]** del servizio. Ulteriori informazioni sulle mappature di destinazione in [Utilizzare le mappature di destinazione](../audiences/target-mappings.md).
 
 1. Quindi utilizza l&#39;icona **[!UICONTROL Add]** a destra per definire le applicazioni mobili che utilizzano questo servizio.
 
@@ -208,14 +208,14 @@ Per creare un&#39;app per dispositivi iOS, effettua le seguenti operazioni:
 
 1. Seleziona **[!UICONTROL Create an iOS application]** e fai clic su **[!UICONTROL Next]**.
 
-   ![](assets/new-ios-app.png){width="600"}
+   ![Creazione guidata applicazione mobile con Creazione di un&#39;applicazione iOS selezionata e pulsante Avanti](assets/new-ios-app.png){width="600"}
 
 1. Immettere il nome dell&#39;app nel campo **[!UICONTROL Label]**.
 1. (facoltativo) È possibile arricchire il contenuto di un messaggio push con alcuni **[!UICONTROL Application variables]**. Questi sono completamente personalizzabili e fanno parte del payload del messaggio inviato al dispositivo mobile.
 
    Nell&#39;esempio seguente, le variabili **mediaURl** e **mediaExt** vengono aggiunte per creare notifiche push potenziate e quindi fornire all&#39;applicazione l&#39;immagine da visualizzare all&#39;interno della notifica.
 
-   ![](assets/ios-app-parameters.png){width="600"}
+   ![Passaggio Parametri generali della procedura guidata dell&#39;app iOS con mediaURL e mediaExt elencati come variabili dell&#39;applicazione](assets/ios-app-parameters.png){width="600"}
 
 1. Passare alla scheda **[!UICONTROL Subscription parameters]** per definire il mapping con un&#39;estensione dello schema **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]**.
 
@@ -258,7 +258,7 @@ Per creare un&#39;app per dispositivi Android, effettua le seguenti operazioni:
 
 1. Seleziona **[!UICONTROL Create an Android application]** e fai clic su **[!UICONTROL Next]**.
 
-   ![](assets/new-android-app.png){width="600"}
+   ![Creazione guidata applicazione mobile con Creazione di un&#39;applicazione Android selezionata e pulsante Avanti](assets/new-android-app.png){width="600"}
 
 1. Immettere il nome dell&#39;app nel campo **[!UICONTROL Label]**.
 1. La chiave di integrazione è specifica per ogni applicazione. Collega l’app mobile ad Adobe Campaign.

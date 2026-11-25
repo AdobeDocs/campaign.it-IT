@@ -24,9 +24,9 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1566'
 ht-degree: 0%
 ---
 # Aggiungere un’offerta in una pagina web{#add-an-offer-in-web}
@@ -35,7 +35,7 @@ Per chiamare il motore di offerta in una pagina web, inserisci una chiamata a un
 
 L’URL di chiamata dello script si presenta così:
 
-```
+```xml
 <script id="interactionProposalScript" src="https://<SERVER_URL>/nl/interactionProposal.js?env=" type="text/javascript"></script>
 ```
 
@@ -61,13 +61,13 @@ La pagina HTML deve includere un elemento con un attributo @id con il valore del
 
 Nel nostro esempio, l’attributo @id riceve il valore &quot;i_SPC12&quot;, dove &quot;SPC12&quot; è il nome interno dello spazio dell’offerta creato in precedenza:
 
-```
+```xml
 <div id="i_SPC12"></div>
 ```
 
 Nel nostro esempio, l’URL per la chiamata dello script è il seguente (&quot;OE3&quot; è il nome interno dell’ambiente live):
 
-```
+```xml
 <script id="interactionProposalScript" src="https://instance.adobe.org:8080/nl/interactionProposal.js?env=OE3" type="text/javascript"></script>
 ```
 
@@ -83,7 +83,7 @@ Questo comportamento ti consente di utilizzare diversi spazi di offerta sulla st
 
 Il contenuto della rappresentazione dell’offerta viene restituito alla pagina HTML dal motore di offerta:
 
-```
+```xml
 <div id="banner_header">
  <div id="i_SPC12">
    <table>
@@ -111,7 +111,7 @@ Per presentare un&#39;offerta a un contatto identificato, il processo è simile 
 
 Nel contenuto della pagina web, devi aggiungere il seguente script che identificherà il contatto durante la chiamata al motore di offerta:
 
-```
+```xml
 <script type="text/javascript">
   interactionTarget = <contact_identifier>;
 </script>
@@ -119,7 +119,7 @@ Nel contenuto della pagina web, devi aggiungere il seguente script che identific
 
 1. Vai allo spazio dell&#39;offerta che verrà richiamato dalla pagina Web, fai clic su **[!UICONTROL Advanced parameters]** e aggiungi una o più chiavi di identificazione.
 
-   ![](assets/interaction_htmlmode_001.png)
+   ![Parametri avanzati Scheda di identificazione della destinazione con @email del percorso della chiave e il campo Cognome aggiunto come seconda chiave](assets/interaction_htmlmode_001.png)
 
    In questo esempio, la chiave di identificazione è composita perché si basa sia sull’e-mail che sul nome del destinatario.
 
@@ -127,7 +127,7 @@ Nel contenuto della pagina web, devi aggiungere il seguente script che identific
 
    Nell’esempio seguente, il contatto ha effettuato l’accesso al sito web ed è stato riconosciuto durante la chiamata al motore di offerta grazie alla sua e-mail e al suo nome.
 
-   ```
+   ```xml
    <script type="text/javascript">
      interactionTarget = myEmail|myName;
    </script>
@@ -141,7 +141,7 @@ Per generare automaticamente la rappresentazione dell’offerta HTML, puoi utili
 1. Seleziona **[!UICONTROL Overload the HTML rendering function]**.
 1. Vai alla scheda **[!UICONTROL HTML rendering]** e inserisci le variabili che corrispondono ai campi definiti per il contenuto dell&#39;offerta nello spazio dell&#39;offerta.
 
-   ![](assets/interaction_htmlmode_002.png)
+   ![Spazio dell&#39;offerta Finestra di dialogo Modifica funzioni, scheda di rendering HTML, con l&#39;opzione e lo script Overload the HTML rendering function](assets/interaction_htmlmode_002.png)
 
    In questo esempio, l’offerta viene visualizzata sotto forma di banner in una pagina web ed è composta da un’immagine cliccabile e da un titolo che corrisponde ai campi definiti nel contenuto dell’offerta.
 
@@ -153,7 +153,7 @@ Il modulo **Interaction** della campagna ti consente di restituire un nodo XML a
 
 La chiamata al motore di offerta si presenta così:
 
-```
+```xml
 <script type="text/javascript" id="interactionProposalScript" src="https://<SERVER_URL>/nl/interactionProposal.js?env=&cb="></script>
 ```
 
@@ -171,7 +171,7 @@ La chiamata al motore di offerta si presenta così:
 
 Il nodo XML restituito è simile al seguente:
 
-```
+```xml
 <propositions>
  <proposition id="" offer-id="" weight="" rank="" space="" div=""> //proposition identifiers
    ...XML content defined in Adobe Campaign...
@@ -184,9 +184,9 @@ Il caso d’uso seguente descrive le configurazioni da eseguire in Adobe Campaig
 
 1. **Creare un ambiente e uno spazio delle offerte**
 
-   Per ulteriori informazioni sulla creazione di un ambiente, consulta [questa pagina](interaction-env.md).
+   Per ulteriori informazioni sulla creazione di un ambiente, consulta [Utilizzare gli ambienti di interazione di Campaign](interaction-env.md).
 
-   Per ulteriori informazioni sulla creazione di uno spazio delle offerte, consulta [questa pagina](interaction-offer-spaces.md).
+   Per ulteriori informazioni sulla creazione di uno spazio delle offerte, consulta [Spazi delle offerte di interazione campagna](interaction-offer-spaces.md).
 
 1. **Estendere lo schema delle offerte per aggiungere nuovi campi**
 
@@ -194,7 +194,7 @@ Il caso d’uso seguente descrive le configurazioni da eseguire in Adobe Campaig
 
    Il nome dello schema nell&#39;esempio è **cus:offer**
 
-   ```
+   ```xml
    <srcSchema _cs="Marketing offers (cus)" created="2013-01-18 17:14:20.762Z" createdBy-id="0"
               desc="" entitySchema="xtk:srcSchema" extendedSchema="nms:offer" img="nms:offer.png"
               label="Marketing offers" labelSingular="Marketing offers" lastModified="2013-01-18 15:20:18.373Z"
@@ -231,7 +231,7 @@ Il caso d’uso seguente descrive le configurazioni da eseguire in Adobe Campaig
 
    Nella sezione &quot;Viste&quot;, inserisci i due nuovi campi con il seguente contenuto:
 
-   ```
+   ```xml
    <input label="Title 2" margin-right="5" prebuildSubForm="false" type="subFormLink" xpath="title2_jst">
         <form label="Edit title 2" name="editForm" nothingToSave="true">
             <input nolabel="true" toolbarAlign="horizontal" type="jstEdit" xpath="." xpathInsert="/ignored/customizeTitle2">
@@ -256,7 +256,7 @@ Il caso d’uso seguente descrive le configurazioni da eseguire in Adobe Campaig
 
    Commenta il campo URL di destinazione:
 
-   ![](assets/interaction_xmlmode_form_001.png)
+   ![XML modulo di rappresentazione dell&#39;offerta con il blocco di input URL di destinazione commentato](assets/interaction_xmlmode_form_001.png)
 
    >[!CAUTION]
    >
@@ -264,17 +264,17 @@ Il caso d’uso seguente descrive le configurazioni da eseguire in Adobe Campaig
 
    Il rendering nel modulo delle rappresentazioni di offerta è simile al seguente:
 
-   ![](assets/interaction_xmlmode_form.png)
+   ![Scheda Contenuto offerta con campi Titolo, URL di destinazione e URL immagine vuoti sopra l&#39;editor di contenuti HTML](assets/interaction_xmlmode_form.png)
 
    I campi **[!UICONTROL Title 2]** e **[!UICONTROL Price]** sono stati aggiunti e il campo **[!UICONTROL Destination URL]** non viene più visualizzato.
 
 1. **Creare un’offerta**
 
-   Per ulteriori informazioni sulla creazione delle offerte, consulta [questa pagina](interaction-offer.md).
+   Per ulteriori informazioni sulla creazione delle offerte, consulta [Offerta interazione campagna](interaction-offer.md).
 
    Nel seguente caso d’uso, l’offerta viene immessa come segue:
 
-   ![](assets/interaction_xmlmode_offer.png)
+   ![Scheda Contenuto offerta con titolo, URL di destinazione e URL immagine compilati e contenuto HTML utilizzando recipient.firstName](assets/interaction_xmlmode_offer.png)
 
 1. **Approva l&#39;offerta**
 
@@ -284,7 +284,7 @@ Il caso d’uso seguente descrive le configurazioni da eseguire in Adobe Campaig
 
    La chiamata al motore di offerta nella pagina HTML si presenta così:
 
-   ```
+   ```xml
    <script id="interactionProposalScript" src="https://<SERVER_URL>/nl/interactionProposal.js?env=OE7&cb=alert" type="text/javascript">
    ```
 
@@ -294,7 +294,7 @@ Il caso d’uso seguente descrive le configurazioni da eseguire in Adobe Campaig
 
    Il nodo XML restituito dal motore delle offerte è simile al seguente:
 
-   ```
+   ```xml
    <propositions>
     <proposition id="a28002" offer-id="10322005" weight="1" rank="1" space="SPC14" div="i_SPC14">
      <xmlOfferView>
@@ -320,14 +320,14 @@ Il caso d’uso seguente descrive le configurazioni da eseguire in Adobe Campaig
 
    La funzione può essere simile alla seguente:
 
-   ```
+   ```javascript
    function (proposition) {
      delete proposition.@id;
      proposition.@newAttribute = "newValue";
    } 
    ```
 
-![](assets/interaction_xmlmode_001.png)
+![Spazio dell&#39;offerta Finestra di dialogo Modifica funzioni, scheda Rendering XML, con l&#39;opzione Overload the XML rendering function and script](assets/interaction_xmlmode_001.png)
 
 ## Configurare un’integrazione SOAP
 
@@ -367,7 +367,7 @@ Aggiungi il comando **nms:interaction#UpdateStatus** all&#39;URL, seguito dai se
 
 Di seguito è riportato un esempio di codice per una chiamata SOAP:
 
-```
+```html
 <%
   var space = request.parameters.sp
   var cnx = new HttpSoapConnection(

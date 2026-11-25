@@ -19,7 +19,7 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 Esegui una richiesta GET per recuperare il profilo.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -40,7 +40,7 @@ Esegui una richiesta GET per recuperare il profilo.
 
 Restituisce l’URL delle sottoscrizioni per il profilo.
 
-```
+```json
   {
     ...
     "postalAddress":...,
@@ -54,7 +54,7 @@ Restituisce l’URL delle sottoscrizioni per il profilo.
 
 Esegui una richiesta POST sull’URL degli abbonamenti con la chiave primaria del servizio desiderata all’interno del payload.
 
-```
+```bash
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -66,7 +66,7 @@ Esegui una richiesta POST sull’URL degli abbonamenti con la chiave primaria de
 
 Restituisce il profilo aggiornato con il nodo di servizio completato.
 
-```
+```json
 {
   ...
   "service": {
@@ -83,7 +83,7 @@ Restituisce il profilo aggiornato con il nodo di servizio completato.
 
 Esegui una richiesta GET per recuperare il servizio.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -93,7 +93,7 @@ Esegui una richiesta GET per recuperare il servizio.
 
 Restituisce l’URL degli abbonamenti per il servizio.
 
-```
+```json
   {
     ...
     "messageType": "email",
@@ -107,7 +107,7 @@ Restituisce l’URL degli abbonamenti per il servizio.
 
 Effettua una richiesta POST sull’URL degli abbonamenti con la chiave primaria del profilo desiderata all’interno del payload.
 
-```
+```bash
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign//profileAndServices/service/<PKEY>/subscriptions/ \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -119,7 +119,7 @@ Effettua una richiesta POST sull’URL degli abbonamenti con la chiave primaria 
 
 Restituisce il servizio aggiornato con il nodo degli abbonati completato.
 
-```
+```json
 {
   ...
   "service": ...,

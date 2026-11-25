@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '513'
 ht-degree: 1%
 ---
 # Personalizzare l’istanza {#gs-ac-custom}
@@ -67,7 +67,7 @@ Sono disponibili due modalità di estensione della tabella:
 
   Scopri come aggiungere rapidamente un nuovo campo in Campaign nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=it#configuring-campaign-classic){target="_blank"}
 
-* A livello di programmazione, estendendo lo schema. Scopri come estendere uno schema esistente in [questa sezione](../dev/extend-schema.md).
+* A livello di programmazione, estendendo lo schema. Scopri come estendere uno schema esistente in [Estendere gli schemi di Campaign](../dev/extend-schema.md).
 
 Puoi anche creare nuove tabelle nel database di Campaign ed estendere il modello dati integrato.
 
@@ -84,7 +84,7 @@ Caso d&#39;uso: collegare un campo a una tabella di riferimento esistente nella 
 
 I moduli di input delle campagne possono essere adattati in base alla tua implementazione. È possibile aggiungere o rimuovere campi modulo modificando il contenuto XML.
 
-Scopri come modificare un modulo di input esistente o crearne uno nuovo in [questa sezione](../dev/forms.md).
+Scopri come modificare un modulo di input esistente o crearne uno nuovo in [Moduli di input per Campaign](../dev/forms.md).
 
 ## Personalizzare le dashboard{#gs-custom-dashboards}
 
@@ -92,7 +92,7 @@ L’interfaccia di Adobe Campaign utilizza molte applicazioni web per accedere, 
 
 Le applicazioni Web incorporate sono memorizzate nella cartella **Amministrazione > Configurazione > Applicazioni Web** di Explorer.
 
-Scopri come creare una pagina di panoramica in Campaign in [questa sezione](web/use-cases-creating-overviews.md#creating-a-single-page-web-application)
+Scopri come creare una pagina di panoramica in Campaign in [Creazione di un&#39;applicazione Web a pagina singola](web/use-cases-creating-overviews.md#creating-a-single-page-web-application)
 
 
 ## Personalizzare gli elenchi e creare i filtri {#gs-lists-and-filters}
@@ -101,8 +101,8 @@ Gli elenchi delle campagne sono dotati di filtri predefiniti per facilitare la n
 
 Quando ci si sposta nella struttura di Adobe Campaign Explorer, i dati contenuti nel database vengono visualizzati in elenchi. Puoi filtrare questi elenchi, eseguire ricerche, aggiungere informazioni, filtrare e ordinare i dati.
 
-Scopri come configurare gli elenchi e salvare una configurazione di elenchi in [questa pagina](../start/campaign-ui.md).
+Scopri come configurare gli elenchi e salvare una configurazione di elenchi in [Scopri l’interfaccia utente di Campaign](../start/campaign-ui.md).
 
 Puoi applicare filtri a questi elenchi per visualizzare solo i dati necessari all’operatore. Le azioni possono quindi essere eseguite sui dati filtrati. La configurazione del filtro consente di selezionare i dati da un elenco in modo dinamico. Se i dati vengono modificati, i dati filtrati vengono aggiornati.
 
-Ulteriori informazioni sulle opzioni di filtro in [questa pagina](../audiences/create-filters.md).
+Ulteriori informazioni sulle opzioni di filtro in [Operazioni con i filtri in Adobe Campaign](../audiences/create-filters.md).

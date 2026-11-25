@@ -26,14 +26,14 @@ topic_v2:
     internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 7ae0ea8d334af5e3580b594d5ddc8b52b10fa5b6
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '2446'
-ht-degree: 9%
+source-wordcount: '2451'
+ht-degree: 11%
 ---
 # Versioni più recenti {#latest-release}
 
-In questa pagina sono elencate le nuove funzionalità, i miglioramenti e le correzioni introdotte con le **versioni più recenti** di Campaign v8 (console). Ulteriori informazioni sulle versioni e gli aggiornamenti di Campaign sono disponibili in [questa pagina](upgrades.md). Altre versioni sono elencate nella sezione Versioni precedenti di questa documentazione.
+In questa pagina sono elencate le nuove funzionalità, i miglioramenti e le correzioni introdotte con le **versioni più recenti** di Campaign v8 (console). Ulteriori informazioni su versioni, aggiornamenti e aggiornamenti di Campaign in [Versioni, aggiornamenti e protezione di Campaign](upgrades.md). Altre versioni sono elencate nella sezione Versioni precedenti di questa documentazione.
 
 ## Versione 8.9.4 {#release-8-9-4}
 
@@ -55,10 +55,10 @@ _15 ottobre 2026_
 * È stato risolto un problema che poteva causare un errore nella preparazione della consegna per destinazioni di file esterni Snowflake o FFDA che non utilizzano la mappatura del profilo. (NEO-96507)
 * È stato risolto un problema che poteva causare un errore nei flussi di lavoro contenenti più query collegate a diverse origini FDA. (NEO-97249)
 * È stato risolto un problema a causa del quale i flussi di lavoro di arricchimento in tempo quasi reale potevano interrompersi a intermittenza a causa di errori SQL durante l’elaborazione di eventi attivati insieme in tempo. (NEO-97557)
-* È stato risolto un problema a causa del quale un meccanismo di blocco interno poteva entrare in un ciclo di tentativi e causare un elevato utilizzo di CPU sul server. (NEO-94845)
+* È stato risolto un problema a causa del quale un meccanismo di blocco interno poteva entrare in un ciclo di tentativi e causare un elevato utilizzo della CPU sul server. (NEO-94845)
 * È stato risolto un problema che poteva causare un errore di preparazione della consegna con un errore SQL durante l’utilizzo degli indirizzi di seed insieme a una mappatura di destinazione personalizzata. (NEO-94966)
 * È stato risolto un problema che poteva causare un errore di overflow delle colonne nei flussi di lavoro FDA durante il caricamento dei dati in Redshift. (NEO-96125)
-* È stato risolto un problema che poteva causare il mancato funzionamento dell’account esterno di Analytics con un errore &quot;Gone&quot; (410). (NEO-99019)
+* È stato risolto un problema a causa del quale l’account esterno Analytics poteva fallire con un errore “Gone” (410). (NEO-99019)
 * È stato risolto un problema a causa del quale alcune consegne potevano rimanere bloccate nello stato di personalizzazione in sospeso anche se i messaggi corrispondenti venivano inviati correttamente. (NEO-94471)
 
 ## Versione 8.9.3 {#release-8-9-3}
@@ -142,8 +142,8 @@ _27 gennaio 2026_
 
 ### Miglioramenti di sicurezza {#security-8-9-1}
 
-* Gli account esterni di Snowflake ora supportano l’autenticazione OAuth2, fornendo metodi di autenticazione moderni e sicuri per le connessioni federate di accesso ai dati. (NEO-87013) [Ulteriori informazioni](../config/external-accounts.md#snowflake-external-accounts)
-* Gli account esterni Databricks ora supportano l’autenticazione OAuth2 tramite l’entità principale del servizio (flusso di credenziali client non interattive), fornendo metodi di autenticazione sicuri per le connessioni federate di accesso ai dati. L’autenticazione interattiva OAuth2 sarà disponibile in una versione futura. (NEO-87422) [Ulteriori informazioni](../config/external-accounts.md#databricks-external-accounts)
+* Gli account esterni di Snowflake ora supportano l’autenticazione OAuth2, fornendo metodi di autenticazione moderni e sicuri per le connessioni federate di accesso ai dati. (NEO-87013) [Account esterno Snowflake](../config/external-accounts.md#snowflake-external-accounts)
+* Gli account esterni Databricks ora supportano l’autenticazione OAuth2 tramite l’entità principale del servizio (flusso di credenziali client non interattive), fornendo metodi di autenticazione sicuri per le connessioni federate di accesso ai dati. L’autenticazione interattiva OAuth2 sarà disponibile in una versione futura. (NEO-87422) [Account esterno Database](../config/external-accounts.md#databricks-external-accounts)
 * Sono state corrette le vulnerabilità di accesso ai file del flusso di lavoro limitando le operazioni alle directory autorizzate, impedendo l’accesso non autorizzato e la potenziale esecuzione di codice remoto. (NEO-88460)
 * È stato aggiunto l’URL FTP inserire nell&#39;elenco Consentiti controlli alle attività del codice JavaScript del flusso di lavoro, limitando le connessioni FTP in uscita solo agli indirizzi autorizzati. (NEO-89083)
 * È stato risolto un problema di sicurezza che poteva causare il rifiuto del servizio da parte dell’applicazione. (NEO-89984)

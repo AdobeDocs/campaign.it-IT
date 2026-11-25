@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '770'
 ht-degree: 5%
 ---
 # Controllare il contenuto del messaggio{#control-message-content}
@@ -52,7 +52,7 @@ Per ulteriori informazioni sulla definizione dell&#39;indirizzo del mittente, co
 
 Per migliorare l’esperienza dei destinatari e farli aprire l’e-mail, Adobe Campaign ti consente di personalizzare i messaggi.
 
-Per ulteriori informazioni sull&#39;utilizzo dei campi di personalizzazione in Adobe Campaign, consulta [questa sezione](personalization-fields.md).
+Per ulteriori informazioni sull&#39;utilizzo dei campi di personalizzazione in Adobe Campaign, consulta [Aggiungi campi di personalizzazione](personalization-fields.md).
 
 ## Collegamento e modulo per la rinuncia {#opt-out}
 

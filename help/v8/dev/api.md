@@ -28,10 +28,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 14%
+source-wordcount: '319'
+ht-degree: 12%
 ---
 # Introduzione a [!DNL Campaign] API {#gs-ac-api}
 
@@ -69,7 +69,7 @@ Prima di utilizzare le API di [!DNL Adobe Campaign], è necessario avere familia
 Per utilizzare le API e interagire con [!DNL Adobe Campaign], è inoltre necessario avere familiarità con il modello dati.
 
 >[!NOTE]
->Puoi generare una descrizione completa del modello dati. Per ulteriori informazioni, consulta [questa pagina](datamodel.md).
+>Puoi generare una descrizione completa del modello dati. Ulteriori informazioni in [Introduzione al modello dati di Campaign](datamodel.md).
 
 
 **Argomenti correlati**

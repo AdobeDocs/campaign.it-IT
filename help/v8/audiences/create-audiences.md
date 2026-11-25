@@ -25,10 +25,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: bf608c313c238d3ba16f9fe6902bb66bb2b90d98
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 3%
+source-wordcount: '987'
+ht-degree: 2%
 ---
 # Creare un pubblico in un elenco {#create-segments}
 
@@ -38,7 +38,7 @@ Un elenco è un set statico di contatti che possono essere targetizzati nelle az
 
 Gli elenchi vengono creati e gestiti tramite il collegamento **[!UICONTROL Lists]** nella scheda **[!UICONTROL Profiles and targets]**. Questi elenchi sono basati sulla tabella del profilo Adobe Campaign predefinita (nms:recipient). [Ulteriori informazioni](../dev/datamodel.md#ootb-profiles)
 
-![](assets/list-dashboard.png)
+![Pagina Elenchi in Profili e destinazioni in cui sono visualizzati gli elenchi esistenti e il pulsante Crea](assets/list-dashboard.png)
 
 È possibile creare un elenco utilizzando l&#39;attività **Aggiorna elenco** in un flusso di lavoro. Questa attività memorizza la popolazione risultante in un elenco. Utilizzalo per creare un nuovo elenco o aggiornarne uno esistente. Per creare elenchi contenenti tipi di dati diversi dalla tabella di profilo incorporata, è necessario eseguire un flusso di lavoro. Ad esempio, utilizzando una query nella tabella dei visitatori e aggiornando l’elenco, puoi creare un elenco di visitatori. [Ulteriori informazioni](#create-a-list-wf).
 
@@ -53,11 +53,11 @@ Per creare un elenco di contatti, effettuare le seguenti operazioni:
 
 1. Fare clic sul pulsante **[!UICONTROL Create]** e selezionare **[!UICONTROL New list]**.
 
-   ![](assets/new-list.png)
+   ![Crea menu nella pagina Elenchi con l&#39;opzione Nuovo elenco](assets/new-list.png)
 
 1. Immettere le informazioni nella scheda **[!UICONTROL Edit]** della finestra di creazione dell&#39;elenco.
 
-   ![](assets/list-details.png)
+   ![Scheda Modifica della finestra di creazione dell&#39;elenco con i campi Etichetta, Nome interno, Tipo di elenco, Schema e Cartella](assets/list-details.png)
 
    * Immettere il nome elenco nel campo **[!UICONTROL Label]** e, se necessario, modificare il nome interno.
    * Aggiungere una descrizione per l&#39;elenco.
@@ -66,7 +66,7 @@ Per creare un elenco di contatti, effettuare le seguenti operazioni:
 
 1. Nella scheda **[!UICONTROL Content]**, fare clic su **[!UICONTROL Add]** per selezionare i profili appartenenti all&#39;elenco.
 
-   ![](assets/add-profiles-to-a-list.png)
+   ![Aggiungi destinatari alla finestra di dialogo dell&#39;elenco con diversi destinatari selezionati dalla cartella del set di dati](assets/add-profiles-to-a-list.png)
 
    È possibile creare un nuovo profilo e aggiungerlo all&#39;elenco direttamente da questa finestra utilizzando l&#39;icona **[!UICONTROL Create]**. Il profilo verrà aggiunto al database.
 
@@ -83,15 +83,15 @@ Puoi selezionare i profili e aggiungerli a un elenco. A tale scopo, segui i pass
 
 1. Seleziona **[!UICONTROL Actions > Associate selection with a list...]**.
 
-   ![](assets/add-selection-to-a-list.png)
+   ![Menu Azioni con l&#39;opzione Associa selezione a elenco per i destinatari selezionati](assets/add-selection-to-a-list.png)
 
 1. Selezionare un elenco esistente o crearne uno nuovo e fare clic su **[!UICONTROL Next]**.
 
-   ![](assets/select-the-list.png)
+   ![Selezionare il passaggio elenco della Creazione guidata Destinatari ed elenchi con un elenco selezionato e il pulsante Avanti](assets/select-the-list.png)
 
 1. Fai clic sul pulsante **[!UICONTROL Start]**.
 
-   ![](assets/record-a-list.png)
+   ![Registra in un passaggio elenco della procedura guidata con l&#39;opzione Ricrea l&#39;elenco e il pulsante Start](assets/record-a-list.png)
 
 Selezionare l&#39;opzione **[!UICONTROL Recreate the list]** per eliminare il contenuto esistente dall&#39;elenco e ottimizzare la creazione dell&#39;elenco. Non è necessaria alcuna query per verificare se i profili sono già collegati all&#39;elenco.
 
@@ -111,22 +111,22 @@ Nell’esempio seguente, crea un elenco di tutti i destinatari tra 25 e 40.
 1. Selezionare **[!UICONTROL Profiles and targets]** e **[!UICONTROL Targeting workflows]**, quindi creare un nuovo flusso di lavoro dal pulsante **[!UICONTROL Create]**.
 1. Immettere un&#39;etichetta per il flusso di lavoro, ad esempio &#39;Contatti 25-40&#39;, aggiungere una descrizione e fare clic su **[!UICONTROL Next]**.
 
-   ![](assets/targeting-wf-sample.png)
+   ![Finestra di dialogo Nuovo flusso di lavoro nei flussi di lavoro di targeting con etichetta e descrizione compilate per 25-40 contatti](assets/targeting-wf-sample.png)
 
 1. Inserire un&#39;attività **[!UICONTROL Query]** per definire la popolazione target e modificare la query.
 
-   ![](assets/targeting-wf-edit-query.png)
+   ![Attività Query con il collegamento Modifica query e il passaggio della dimensione di targeting e filtro con condizioni di filtro](assets/targeting-wf-edit-query.png)
 
 1. Definisci le condizioni del filtro come segue:
 
-   ![](assets/targeting-wf-age-filter.png)
+   ![Passaggio filtro della query con età maggiore o uguale a 25 e minore o uguale a 40](assets/targeting-wf-age-filter.png)
 
    Scopri come creare una query in un flusso di lavoro in [questa sezione](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=it){target="_blank"}.
 
 1. Aggiungi un’etichetta per questa query e salva le modifiche.
 1. Aggiungi un&#39;attività **[!UICONTROL List update]** e modificala.
 
-   ![](assets/list-update-activity.png)
+   ![Elenca le impostazioni delle attività di aggiornamento nel flusso di lavoro, con le opzioni per la creazione degli elenchi e delle cartelle e il pulsante OK](assets/list-update-activity.png)
 
 1. Immetti un’etichetta per l’attività.
 1. Selezionare l&#39;opzione **[!UICONTROL Create the list if necessary (Computed name)]** per indicare che l&#39;elenco verrà creato una volta eseguito il primo flusso di lavoro, quindi aggiornato con le esecuzioni seguenti.
@@ -140,7 +140,7 @@ Nell’esempio seguente, crea un elenco di tutti i destinatari tra 25 e 40.
 
    Viene quindi creato l’elenco dei destinatari corrispondenti. È possibile accedere a questo elenco dalla voce **[!UICONTROL Lists]** della home page.
 
-   ![](assets/access-new-list.png)
+   ![Pagina Elenchi che mostra il nuovo elenco di contatti 25-40 nella parte superiore, raggiunto dalla voce Elenchi](assets/access-new-list.png)
 
    Puoi rendere ricorrente questo flusso di lavoro aggiungendo una pianificazione al flusso di lavoro. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html?lang=it){target="_blank"}.
 

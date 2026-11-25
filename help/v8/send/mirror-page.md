@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 57%
+source-wordcount: '482'
+ht-degree: 51%
 ---
 # Collegamento alla pagina mirror {#mirror-page}
 
@@ -51,7 +51,7 @@ La pagina mirror generata da Adobe Campaign contiene tutti i dati di personalizz
 
 In Adobe Campaign, puoi inserire un collegamento alla pagina mirror nel contenuto dell’e-mail utilizzando il **blocco di personalizzazione** dedicato. Il blocco di personalizzazione incorporato **Collegamento a una pagina mirror** inserisce il seguente codice nel contenuto dell’e-mail: `<%@ include view='MirrorPage' %>`.
 
-![](assets/mirror-page-insert.png){width="800"}
+![Menu di personalizzazione dell&#39;editor e-mail con Includi e quindi Collega a pagina mirror selezionato](assets/mirror-page-insert.png){width="800"}
 
 
 Per ulteriori informazioni sull&#39;inserimento di blocchi di contenuto di personalizzazione, consulta [Blocchi di personalizzazione](personalization-blocks.md).
@@ -65,7 +65,7 @@ Puoi controllare la modalità di generazione della pagina mirror dell’e-mail. 
 1. Passare alla scheda **[!UICONTROL Validity]** delle proprietà e-mail.
 1. Nella sezione **Gestione pagine mirror**, selezionare l&#39;elenco a discesa **[!UICONTROL Mode]**.
 
-![](assets/mirror-page-generation.png){width="800"}
+![Scheda Validità con il menu a discesa Modalità di gestione della pagina mirror, in cui sono elencate quattro opzioni di generazione](assets/mirror-page-generation.png){width="800"}
 
 Oltre alla modalità predefinita, sono disponibili le seguenti opzioni:
 
@@ -83,6 +83,6 @@ Per accedere a questa pagina mirror:
 
 1. Selezionare un destinatario e fare clic sul collegamento **[!UICONTROL Display the mirror page for this message...]**.
 
-   ![](assets/mirror-page-display.png){width="800"}
+   ![Registri di consegna con un registro selezionato e il collegamento Visualizza la pagina speculare per questo messaggio in basso a sinistra](assets/mirror-page-display.png){width="800"}
 
    La pagina speculare viene visualizzata in una schermata dedicata, con i dati di personalizzazione per il destinatario selezionato.

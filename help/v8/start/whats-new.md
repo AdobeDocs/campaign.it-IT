@@ -62,10 +62,10 @@ topic_v2:
     internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '1501'
-ht-degree: 63%
+source-wordcount: '1531'
+ht-degree: 62%
 ---
 # Funzionalità chiave di Adobe Campaign v8 {#ac-gs-what-is-new}
 
@@ -73,7 +73,7 @@ Adobe Campaign v8 è progettato per gli esperti di marketing cross-channel che n
 
 Adobe Campaign v8 offre notevoli miglioramenti a livello di infrastruttura, sicurezza, recapito messaggi e monitoraggio. È disponibile come **Managed Cloud Service** che combina servizi con supervisione proattiva e avvisi tempestivi. Per ulteriori informazioni sui Cloud Service gestiti da Campaign, consulta [questa sezione](#acms-desc).
 
-![](assets/home-page.png)
+![Home page della console client di Campaign con un messaggio di benvenuto e una scheda Adobe Campaign Managed Cloud Services](assets/home-page.png)
 
 ## Funzionalità principali{#key-capabilities}
 
@@ -231,7 +231,7 @@ Grazie a un’interfaccia utente intuitiva, gli amministratori possono monitorar
 * Configura le impostazioni in base alle diverse esigenze aziendali in momenti diversi
 * Migliora la sicurezza controllando le impostazioni di accesso in base alle necessità
 
-![](assets/subdomain1.png)
+![Pagina Gestione sottodomini di Pannello di controllo Campaign in cui sono elencati i sottodomini configurati, con l&#39;opzione Imposta nuovo sottodominio evidenziata](assets/subdomain1.png)
 
 [Ulteriori informazioni sul Pannello di controllo Campaign di Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=it){target="_blank"}
 

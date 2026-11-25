@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '1003'
-ht-degree: 72%
+source-wordcount: '1057'
+ht-degree: 66%
 ---
 # Introduzione ai messaggi {#gs-ac-msg}
 
@@ -60,21 +60,21 @@ Per inviare messaggi, devi creare una consegna. La modalità di creazione della 
 
 >[!NOTE]
 >
->Durante la creazione di una consegna, devi selezionare un modello. Per ogni canale sono disponibili modelli predefiniti. Ulteriori informazioni sui modelli di consegna sono disponibili in [questa pagina](../send/create-templates.md).
+>Durante la creazione di una consegna, devi selezionare un modello. Per ogni canale sono disponibili modelli predefiniti. Ulteriori informazioni sui modelli di consegna in [Utilizzare i modelli di consegna](../send/create-templates.md).
 
-1. **Messaggi una tantum** - Puoi inviare messaggi una tantum a un pubblico. Scopri come inviare il primo messaggio in [questa sezione](create-message.md).
+1. **Messaggi una tantum** - Puoi inviare messaggi una tantum a un pubblico. Scopri come inviare il primo messaggio in [Creare la prima consegna](create-message.md).
 
-   ![](assets/send-email.png)
+   ![Editor recapito e-mail con campi Da, A e Oggetto, contenuto HTML e pulsante Invia](assets/send-email.png)
 
-1. **Messaggi in una campagna di marketing** - Puoi inviare messaggi nel contesto di una [campagna di marketing](campaigns.md), definire un processo di approvazione, inviarli e tracciarli in un dashboard consolidato. Scopri come in [questa sezione](../../automation/campaigns/marketing-campaign-deliveries.md).
+1. **Messaggi in una campagna di marketing** - Puoi inviare messaggi nel contesto di una [campagna di marketing](campaigns.md), definire un processo di approvazione, inviarli e tracciarli in un dashboard consolidato. Scopri come fare in [Consegne di campagne di marketing](../../automation/campaigns/marketing-campaign-deliveries.md).
 
-   ![](assets/deliveries-in-a-campaign.png)
+   ![Dashboard di Campaign in cui sono elencate le consegne con i relativi stati di approvazione, ad esempio Da approvare e Da inviare](assets/deliveries-in-a-campaign.png)
 
-1. **Messaggi in un flusso di lavoro** - Puoi inviare messaggi tramite un [flusso di lavoro](../config/workflows.md) e automatizzare le consegne. Scopri come in [questa pagina](../../automation/workflow/delivery.md).
+1. **Messaggi in un flusso di lavoro** - Puoi inviare messaggi tramite un [flusso di lavoro](../config/workflows.md) e automatizzare le consegne. Scopri come in [Consegna](../../automation/workflow/delivery.md).
 
-   ![](assets/send-in-a-wf.png)
+   ![Flusso di lavoro della campagna con query e elenco di lettura che inseriscono una consegna di offerte estive, una consegna in attesa e una consegna mobile](assets/send-in-a-wf.png)
 
-1. **Messaggi attivati** - È possibile [Attivare i messaggi](../send/transactional.md) da un evento. La messaggistica transazionale (Message Center) è il modulo di Campaign progettato per la gestione dei messaggi di attivazione. Scopri come configurare e inviare messaggi transazionali in [questa pagina](../send/transactional.md)
+1. **Messaggi attivati** - È possibile [Attivare i messaggi](../send/transactional.md) da un evento. La messaggistica transazionale (Message Center) è il modulo di Campaign progettato per la gestione dei messaggi di attivazione. I passaggi per configurare e inviare messaggi transazionali sono descritti in dettaglio in [Messaggistica transazionale di Campaign](../send/transactional.md)
 
 ## Canali di comunicazione {#gs-channel}
 
@@ -111,7 +111,7 @@ Una **consegna** è un oggetto di consegna autonoma che viene eseguito una volta
 
 Le consegne possono essere create dall’elenco delle consegne o all’interno di un flusso di lavoro tramite un’attività di [Consegna](../../automation/workflow/delivery.md).
 
-I flussi di lavoro forniscono anche attività di consegna specifiche in base al tipo di canale che desideri utilizzare. Per ulteriori informazioni su tali attività, consulta [questa sezione](../../automation/workflow/cross-channel-deliveries.md).
+I flussi di lavoro forniscono anche attività di consegna specifiche in base al tipo di canale che desideri utilizzare. Per ulteriori informazioni su queste attività, consulta [Consegne cross-channel](../../automation/workflow/cross-channel-deliveries.md).
 
 ### Consegna ricorrente {#recurring-delivery}
 

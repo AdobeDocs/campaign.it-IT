@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 3%
+source-wordcount: '367'
+ht-degree: 2%
 ---
 # Informazioni sulla simulazione delle offerte{#about-offers-simulation}
 
@@ -38,7 +38,7 @@ La simulazione tiene conto dei contesti e delle regole di idoneità applicati in
 
 Per scoprire come simulare un’offerta, leggi i passaggi seguenti.
 
-![](assets/how-to-video.png) Puoi anche guardare questo [video](https://helpx.adobe.com/campaign/classic/how-to/simulate-offer-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/introduction/collection.ccx.js&ref=helpx.adobe.com).
+![Riproduci video](assets/how-to-video.png) Puoi anche guardare questo [video](https://helpx.adobe.com/campaign/classic/how-to/simulate-offer-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/introduction/collection.ccx.js&ref=helpx.adobe.com).
 
 ## Passaggi principali per la creazione di una simulazione {#main-steps-for-creating-a-simulation}
 
@@ -46,14 +46,14 @@ Per eseguire una simulazione delle offerte, effettua le seguenti operazioni:
 
 1. Nella scheda **[!UICONTROL Profiles and Targets]**, fai clic sul collegamento **[!UICONTROL Simulations]**, quindi sul pulsante **[!UICONTROL Create]**.
 
-   ![](assets/offer_simulation_001.png)
+   ![Elenco simulazioni con il pulsante Crea che apre la finestra di dialogo Nuova simulazione offerta con modello, etichetta e cartella](assets/offer_simulation_001.png)
 
 1. Salva e modifica la simulazione appena creata.
 1. Passare alla scheda **[!UICONTROL Edit]** e specificare le impostazioni di esecuzione.
 
    Per ulteriori informazioni, consulta [Impostazioni di esecuzione](execution-settings.md).
 
-   ![](assets/offer_simulation_003.png)
+   ![Scheda Generale della simulazione, Impostazioni di esecuzione: pianificazione attività bassa, registrazione SQL e elenco priorità](assets/offer_simulation_003.png)
 
    >[!NOTE]
    >
@@ -63,21 +63,21 @@ Per eseguire una simulazione delle offerte, effettua le seguenti operazioni:
 
    Per ulteriori informazioni, fare riferimento a [Definizione dell&#39;ambito](simulation-scope.md#definition-of-the-scope).
 
-   ![](assets/offer_simulation_004.png)
+   ![Scheda Ambito simulazione con ambiente, spazio dell&#39;offerta, data di contatto, proposte e la cartella Obiettivo grandi viaggiatori](assets/offer_simulation_004.png)
 
 1. Aggiungere assi di reporting per migliorare il report **[!UICONTROL Offer distribution by rank]** (facoltativo).
 
    Per ulteriori informazioni, consulta [Aggiunta di assi di reporting](simulation-scope.md#adding-reporting-axes).
 
-   ![](assets/offer_simulation_005.png)
+   ![Scheda Calcoli di simulazione con assi di reporting sulla destinazione e sulle offerte e il pulsante Aggiungi](assets/offer_simulation_005.png)
 
 1. Fare clic su **[!UICONTROL Save]** per registrare le impostazioni di simulazione.
 1. Avvia la simulazione tramite la dashboard.
 
-   ![](assets/offer_simulation_006.png)
+   ![Dashboard di simulazione con il pulsante Avvia simulazione evidenziato](assets/offer_simulation_006.png)
 
 1. Controllare il risultato della simulazione e visualizzare il rapporto di analisi.
 
    Per ulteriori informazioni, consulta [Tracciamento della simulazione](simulation-tracking.md).
 
-   ![](assets/offer_simulation_007.png)
+   ![Scheda Risultati e raggruppamento delle offerte per rapporto di classificazione con tabella di classificazione delle offerte e grafico a torta](assets/offer_simulation_007.png)

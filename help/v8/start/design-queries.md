@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 3%
+source-wordcount: '1109'
+ht-degree: 2%
 ---
 # Query database Campaign
 
@@ -52,7 +52,7 @@ Tutti questi passaggi sono disponibili nell&#39;[editor di query generico](query
 
 Per eseguire una query sul database di Campaign, aprire l&#39;**[editor di query generico](query-editor.md)** e selezionare la tabella contenente i dati che si desidera eseguire nella finestra **[!UICONTROL Document type]**.
 
-![](assets/query_editor_nveau_21.png)
+![Menu Strumenti con editor di query generico che apre la finestra Tipo di documento, con lo schema Destinatari nell&#39;elenco.](assets/query_editor_nveau_21.png)
 
 Se necessario, filtrare i dati utilizzando il campo filtro o il pulsante **[!UICONTROL Filters]**.
 
@@ -62,19 +62,19 @@ Nella schermata **[!UICONTROL Data to extract]** scegliere i campi che si deside
 
 È possibile ad esempio selezionare **[!UICONTROL Age]**, **[!UICONTROL Primary key]**, **[!UICONTROL Email domain]** e **[!UICONTROL City]**. L’output sarà strutturato in base a questa selezione. Per regolare l&#39;ordine delle colonne, utilizzare le frecce blu sul lato destro della finestra.
 
-![](assets/query_editor_nveau_01.png)
+![Dati da estrarre con Age, Primary key, Email domain e City aggiunti all&#39;elenco delle colonne di output.](assets/query_editor_nveau_01.png)
 
 È possibile modificare un&#39;espressione aggiungendo una formula o applicando un processo a una funzione di aggregazione. Per modificare un&#39;espressione, fare clic sul campo colonna **[!UICONTROL Expression]**, quindi selezionare **[!UICONTROL Edit expression]**.
 
-![](assets/query_editor_nveau_97.png)
+![Campo colonna espressione nelle colonne di output con il pulsante Modifica espressione evidenziato.](assets/query_editor_nveau_97.png)
 
-È possibile raggruppare i dati visualizzati nelle colonne di output. A tale scopo, selezionare **[!UICONTROL Yes]** nella colonna **[!UICONTROL Group]** della finestra **[!UICONTROL Data to extract]**. I risultati verranno quindi aggregati in base all&#39;asse di raggruppamento selezionato. Per un esempio di query con raggruppamento, vedere [questa sezione](../../automation/workflow/query-delivery-info.md).
+È possibile raggruppare i dati visualizzati nelle colonne di output. A tale scopo, selezionare **[!UICONTROL Yes]** nella colonna **[!UICONTROL Group]** della finestra **[!UICONTROL Data to extract]**. I risultati verranno quindi aggregati in base all&#39;asse di raggruppamento selezionato. Per un esempio di query che utilizza il raggruppamento, vedere [Query delle informazioni di consegna](../../automation/workflow/query-delivery-info.md).
 
-![](assets/query_editor_nveau_56.png)
+![Dati da estrarre nel passaggio con la colonna Gruppo evidenziata, impostati su No per ogni colonna di output.](assets/query_editor_nveau_56.png)
 
 * L&#39;opzione **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** consente di raggruppare i risultati e di applicare condizioni a tali gruppi. Si applica a tutti i campi nelle colonne di output. Ad esempio, puoi utilizzarlo per raggruppare i valori di una colonna di output e quindi filtrare i risultati in modo da recuperare solo informazioni specifiche, ad esempio i destinatari di età compresa tra 35 e 50 anni.
 
-  Per ulteriori informazioni al riguardo, consulta [questa sezione](../../automation/workflow/query-grouping-management.md).
+  Per ulteriori informazioni, consulta [Eseguire query tramite gestione dei raggruppamenti](../../automation/workflow/query-grouping-management.md).
 
 L&#39;opzione **[!UICONTROL Remove duplicate rows (DISTINCT)]** elimina righe identiche dall&#39;output (deduplicazione). Ad esempio, se selezioni **Cognome**, **Nome** e **E-mail** come colonne di output, tutti i record con gli stessi valori in tutti e tre i campi verranno considerati duplicati. Nei risultati verrà mantenuta solo un’istanza, garantendo che ogni contatto venga visualizzato una sola volta.
 
@@ -87,13 +87,13 @@ La finestra **[!UICONTROL Sorting]** consente di ordinare il contenuto delle col
 
 In questo esempio, i dati vengono ordinati in ordine crescente in base all’età del destinatario.
 
-![](assets/query_editor_nveau_57.png)
+![Ordinamento del passaggio che elenca età, chiave primaria, dominio e-mail e città, con le colonne di ordinamento Ordinamento e Decrescente impostate su No.](assets/query_editor_nveau_57.png)
 
 ## Passaggio 4: filtrare i dati {#step-4---filter-data}
 
 L’editor delle query ti consente di filtrare i dati per limitare i risultati. I filtri disponibili dipendono dalla tabella su cui si sta eseguendo la query.
 
-![](assets/query_editor_nveau_09.png)
+![Passaggio di filtro dati con condizioni di filtro selezionate nell&#39;elenco dei filtri di restrizione e dei filtri utente seguenti.](assets/query_editor_nveau_09.png)
 
 Dopo aver selezionato **[!UICONTROL Filtering conditions]**, viene aperta la sezione **[!UICONTROL Target elements]**. Qui puoi definire le regole per filtrare i dati da raccogliere.
 
@@ -101,7 +101,7 @@ Dopo aver selezionato **[!UICONTROL Filtering conditions]**, viene aperta la sez
 
 * Per riutilizzare un filtro esistente, fare clic sul pulsante **[!UICONTROL Add]**, selezionare **[!UICONTROL Predefined filter]** e scegliere il filtro desiderato.
 
-  ![](assets/query_editor_15.png)
+  ![Aggiungi il menu nel passaggio dell&#39;elemento Target con il filtro predefinito aperto, elencando l&#39;indirizzo e-mail inserito nella blacklist e altri filtri.](assets/query_editor_15.png)
 
 I filtri creati in **[!UICONTROL Generic query editor]** possono essere riutilizzati in altre applicazioni di query e viceversa. Per salvare un filtro per un utilizzo successivo, fare clic sull&#39;icona **[!UICONTROL Save]**.
 
@@ -111,7 +111,7 @@ I filtri creati in **[!UICONTROL Generic query editor]** possono essere riutiliz
 
 Come mostrato nell&#39;esempio seguente, per recuperare tutti i destinatari di lingua inglese, selezionare: &quot;recipient language **equal to** EN&quot;.
 
-![](assets/query_editor_nveau_89.png)
+![Condizioni di filtro selezionate, quindi un elemento di destinazione con la condizione Language uguale a EN.](assets/query_editor_nveau_89.png)
 
 >[!NOTE]
 >
@@ -119,11 +119,11 @@ Come mostrato nell&#39;esempio seguente, per recuperare tutti i destinatari di l
 
 Fare clic sulla scheda **[!UICONTROL Preview]** per visualizzare il risultato della condizione di filtro. In questo caso, tutti i destinatari di lingua inglese vengono visualizzati con il loro nome, nome e indirizzo e-mail.
 
-![](assets/query_editor_nveau_98.png)
+![Scheda Anteprima del passaggio dell&#39;elemento di destinazione in cui sono elencati i destinatari che corrispondono al filtro.](assets/query_editor_nveau_98.png)
 
 Gli utenti che hanno familiarità con il linguaggio SQL possono fare clic su **[!UICONTROL Generate SQL query]** per visualizzare la query in SQL.
 
-![](assets/query_editor_nveau_99.png)
+![Collegamento query SQL generato che apre la query SQL nativa generata dal filtro per la lingua uguale a EN.](assets/query_editor_nveau_99.png)
 
 ## Passaggio 5: formattare i dati {#step-5---format-data}
 
@@ -135,7 +135,7 @@ Dopo aver configurato i filtri di restrizione, viene visualizzata la finestra **
 
 Le colonne non selezionate sono nascoste nella finestra di anteprima dati.
 
-![](assets/query_editor_nveau_10.png)
+![Passaggio di formattazione dei dati che elenca età, chiave primaria, dominio e-mail e città, con la colonna Dominio e-mail deselezionata.](assets/query_editor_nveau_10.png)
 
 La colonna **[!UICONTROL Transformation]** consente di modificare l&#39;etichetta di una colonna in maiuscolo o minuscolo. Selezionare la colonna e fare clic nella colonna **[!UICONTROL Transformation]**. Puoi scegliere:
 
@@ -143,7 +143,7 @@ La colonna **[!UICONTROL Transformation]** consente di modificare l&#39;etichett
 * **[!UICONTROL Switch to upper case]**,
 * **[!UICONTROL First letter in upper case]**.
 
-![](assets/query_editor_nveau_42.png)
+![Elenco a discesa delle trasformazioni con Nessuno, Passa a lettere minuscole, Passa a lettere maiuscole e Prima lettera in lettere maiuscole.](assets/query_editor_nveau_42.png)
 
 ## Passaggio 6: visualizzare l’anteprima dei dati {#step-6---preview-data}
 
@@ -151,7 +151,7 @@ La finestra **[!UICONTROL Data preview]** contrassegna la fase finale del proces
 
 In questo esempio, i dati vengono ordinati in ordine crescente in base all’età del destinatario.
 
-![](assets/query_editor_nveau_11.png)
+![Passaggio di anteprima dati: avviare l&#39;anteprima dei dati per riempire una tabella di valori Età, Chiave primaria e Città.](assets/query_editor_nveau_11.png)
 
 >[!NOTE]
 >

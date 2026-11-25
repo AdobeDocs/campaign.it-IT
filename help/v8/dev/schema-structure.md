@@ -39,16 +39,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '1448'
-ht-degree: 1%
+source-wordcount: '1524'
+ht-degree: 0%
 ---
 # Struttura dello schema{#schema-structure}
 
 La struttura di base di `<srcschema>` è la seguente:
 
-```
+```xml
 <srcSchema>
     <enumeration>
         ...          //definition of enumerations
@@ -88,7 +88,7 @@ La struttura di base di `<srcschema>` è la seguente:
 
 Il documento XML di uno schema dati deve contenere l&#39;elemento principale **`<srcschema>`** con gli attributi **name** e **namespace** per popolare il nome dello schema e il relativo spazio dei nomi.
 
-```
+```xml
 <srcSchema name="schema_name" namespace="namespace">
 ...
 </srcSchema>
@@ -96,7 +96,7 @@ Il documento XML di uno schema dati deve contenere l&#39;elemento principale **`
 
 Per illustrare la struttura di uno schema di dati, utilizziamo i seguenti contenuti XML:
 
-```
+```xml
 <recipient email="John.doe@aol.com" created="AAAA/DD/MM" gender="1"> 
   <location city="London"/>
 </recipient>
@@ -104,7 +104,7 @@ Per illustrare la struttura di uno schema di dati, utilizziamo i seguenti conten
 
 Con lo schema di dati corrispondente:
 
-```
+```xml
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient">
     <attribute name="email"/>
@@ -123,7 +123,7 @@ Il punto di ingresso dello schema è il suo elemento principale. È facile da id
 
 Nel nostro esempio, l’elemento principale è rappresentato dalla seguente riga:
 
-```
+```xml
 <element name="recipient">
 ```
 
@@ -131,7 +131,7 @@ Gli elementi **`<attribute>`** e **`<element>`** che seguono l&#39;elemento prin
 
 Nello schema di esempio, questi sono:
 
-```
+```xml
 <attribute name="email"/>
 <attribute name="created"/>
 <attribute name="gender"/>
@@ -181,7 +181,7 @@ Negli schemi sono supportati i seguenti tipi di dati:
 
 Di seguito è riportato uno schema di esempio con i tipi immessi:
 
-```
+```xml
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient">
     <attribute name="email" type="string" length="80"/>
@@ -208,13 +208,13 @@ Gli elementi **`<elements>`** e **`<attributes>`** dello schema dati possono ess
 
   **Esempio**:
 
-  ```
+  ```xml
   <attribute name="email" type="string" length="80" label="Email"/>
   ```
 
   L’etichetta può essere vista dal modulo di input della console client di Adobe Campaign:
 
-  ![](assets/schema_label.png)
+  ![Campo di input e-mail nella console, con etichetta E-mail e indirizzo e-mail immesso.](assets/schema_label.png)
 
 * La proprietà **desc** consente di immettere una descrizione lunga.
 
@@ -226,7 +226,7 @@ Gli elementi **`<elements>`** e **`<attributes>`** dello schema dati possono ess
 
   **Esempio**:
 
-  ```
+  ```xml
   <attribute name="email" type="string" length="80" label="Email" desc="Email of recipient"/>
   ```
 
@@ -234,7 +234,7 @@ Gli elementi **`<elements>`** e **`<attributes>`** dello schema dati possono ess
 
 La proprietà **default** consente di definire un&#39;espressione che restituisce un valore predefinito durante la creazione del contenuto.
 
-Il valore deve essere un&#39;espressione compatibile con il linguaggio XPath. Per ulteriori informazioni al riguardo, consulta [questa sezione](#reference-with-xpath).
+Il valore deve essere un&#39;espressione compatibile con il linguaggio XPath. Per ulteriori informazioni, fare riferimento a [Riferimento con XPath](#reference-with-xpath).
 
 **Esempio**:
 
@@ -267,7 +267,7 @@ Il nome assegnato all’enumerazione può essere scelto liberamente e condiviso 
 
 Questi valori vengono visualizzati in un elenco a discesa dal modulo di input:
 
-![](assets/schema_user_enum.png)
+![Campo Città nel modulo di input che mostra un elenco a discesa di valori da un&#39;enumerazione utente.](assets/schema_user_enum.png)
 
 >[!NOTE]
 >
@@ -281,11 +281,11 @@ L&#39;attributo **enum** fa riferimento alla definizione di una classe di enumer
 
 Le enumerazioni consentono di selezionare un valore da un elenco a discesa anziché immetterlo in un campo di input regolare:
 
-![](assets/schema_enum.png)
+![Elenco a discesa Genere che mostra i valori Nessuno specificato, Maschio e Femmina.](assets/schema_enum.png)
 
 Esempio di dichiarazione di enumerazione nello schema dati:
 
-```
+```xml
 <enumeration name="gender" basetype="byte" default="0">    
   <value name="unknown" label="Not specified" value="0"/>    
   <value name="male" label="male" value="1"/>   
@@ -317,13 +317,13 @@ I valori di enumerazione sono dichiarati nell&#39;elemento **`<value>`** con i s
 
   Questa enumerazione viene utilizzata per specificare la natura delle campagne, ad esempio.
 
-  ![](assets/schema_dbenum.png)
+  ![Finestra di dialogo per una nuova campagna di marketing con il menu a discesa Natura aperto, che mostra Nessuno specificato e Nuovo marketing.](assets/schema_dbenum.png)
 
 ### Esempio {#example}
 
 Di seguito è riportato uno schema di esempio con le proprietà compilate:
 
-```
+```xml
 <srcSchema name="recipient" namespace="cus">
   <enumeration name="gender" basetype="byte">    
     <value name="unknown" label="Not specified" value="0"/>    
@@ -350,7 +350,7 @@ L&#39;attributo **unbound** con valore &quot;true&quot; consente di popolare un 
 
 **Esempio**: definizione dell&#39;elemento di raccolta **`<group>`** nello schema.
 
-```
+```xml
 <element name="group" unbound="true" label="List of groups">
   <attribute name="label" type="string" label="Label"/>
 </element>
@@ -358,7 +358,7 @@ L&#39;attributo **unbound** con valore &quot;true&quot; consente di popolare un 
 
 Con la proiezione del contenuto XML:
 
-```
+```xml
 <group label="Group1"/>
 <group label="Group2"/>
 ```
@@ -396,7 +396,7 @@ Sono state aggiunte funzioni di alto livello alle espressioni per arricchire il 
 
 Puoi accedere all’elenco delle funzioni disponibili tramite qualsiasi editor di espressioni nella console client di Adobe Campaign:
 
-![](assets/schema_function.png)
+![Struttura delle funzioni dell&#39;editor espressioni con gruppi di aggregazione, stringa, data e numerici, ad esempio Abs, Ceil e Round.](assets/schema_function.png)
 
 **Esempio**:
 
@@ -412,7 +412,7 @@ La **stringa di calcolo** è definita tramite l&#39;elemento **`<compute-string>
 
 **Esempio**: stringa di calcolo della tabella dei destinatari.
 
-```
+```xml
 <srcSchema name="recipient" namespace="nms">  
   <element name="recipient">
     <compute-string expr="@lastName + ' ' + @firstName +' (' + @email + ')' "/>

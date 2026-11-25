@@ -27,9 +27,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '251'
 ht-degree: 0%
 ---
 # Introduzione alle applicazioni web e ai moduli web{#gs-ac-web}
@@ -42,12 +42,12 @@ ht-degree: 0%
 
 Adobe Campaign integra un modulo grafico per la definizione e la pubblicazione di **moduli Web** per la creazione di pagine con campi di input e di selezione e che possono includere dati provenienti dal database. In questo modo è possibile progettare e pubblicare pagine Web a cui gli utenti possono accedere per visualizzare o immettere informazioni.
 
-Scopri come creare e pubblicare moduli web in [questa sezione](web/about-web-forms.md).
+Scopri come creare e pubblicare moduli web in [Introduzione ai moduli web](web/about-web-forms.md).
 
-![](assets/sample.png)
+![Modulo Web di esempio per un abbonamento a una newsletter via e-mail con campi e-mail, nome e paese e un pulsante di abbonamento.](assets/sample.png)
 
 Adobe Campaign consente inoltre di creare e pubblicare **applicazioni Web** dinamiche e interattive con dati provenienti dal database e contenuto adattato ai diritti dell&#39;utente connesso.
 
 È possibile creare pagine, ad esempio un modulo di modifica su una extranet, o moduli di notifica che includono dati provenienti dal database con tabelle, grafici, moduli di input e così via. Questa funzionalità consente di progettare e pubblicare pagine Web in cui gli utenti possono cercare o immettere informazioni.
 
-Scopri come creare e pubblicare applicazioni web in [questa sezione](web/about-web-applications.md).
+Scopri come creare e pubblicare applicazioni web in [Introduzione alle applicazioni web](web/about-web-applications.md).

@@ -31,10 +31,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: bf608c313c238d3ba16f9fe6902bb66bb2b90d98
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 2%
+source-wordcount: '582'
+ht-degree: 0%
 ---
 # Visualizzare i profili esistenti {#view-profiles}
 
@@ -42,11 +42,11 @@ Passare a **[!UICONTROL Profiles and targets]** per accedere ai destinatari arch
 
 Da questa pagina, puoi [creare un nuovo destinatario](create-profiles.md), modificare un destinatario esistente e accedere ai relativi dettagli del profilo.
 
-![](assets/profiles-and-targets.png)
+![Scheda Profili e destinazioni della home page di Campaign, che mostra l&#39;elenco Destinatari con il pulsante Crea](assets/profiles-and-targets.png)
 
 Per manipolazioni del profilo più avanzate, accedere alla struttura Campaign dal collegamento **[!UICONTROL Explorer]** nella home page di Adobe Campaign.
 
-![](assets/recipients-in-explorer.png)
+![Struttura di Explorer con la cartella Destinatari selezionata, l&#39;elenco dei destinatari e i dettagli del destinatario selezionato](assets/recipients-in-explorer.png)
 
 
 >[!CAUTION]
@@ -58,7 +58,7 @@ Per manipolazioni del profilo più avanzate, accedere alla struttura Campaign da
 
 Seleziona un profilo per visualizzare i dettagli in una nuova scheda.
 
-![](assets/edit-a-profile.png)
+![Scheda Profilo destinatario con le sezioni Generale, Informazioni di contatto, Altro, Abbonamenti, Consegne e Tracciamento](assets/edit-a-profile.png)
 
 I dati relativi ai profili sono raggruppati in schede. Queste schede e il loro contenuto dipendono dalle impostazioni specifiche e dai pacchetti installati.
 
@@ -66,7 +66,7 @@ Per un destinatario predefinito tipico, puoi accedere alle seguenti schede:
 
 * **[!UICONTROL General]**, per tutti i dati di profilo generali. In particolare, contiene il cognome, il nome, l’indirizzo e-mail, il formato e-mail, ecc.
 
-  In questa scheda viene inoltre memorizzato il flag **rinuncia** per il profilo: quando l&#39;opzione **[!UICONTROL No longer contact (by any channel)]** è selezionata, il profilo si trova nel inserisco nell&#39;elenco Bloccati di. Queste informazioni vengono aggiunte ai dati di contatto se, ad esempio, il destinatario ha fatto clic su un collegamento di annullamento dell’abbonamento in una newsletter. Un destinatario di questo tipo non è più indirizzato su alcun canale (e-mail, direct mailing, ecc.). Per ulteriori informazioni, consulta [questa pagina](../send/quarantines.md).
+  In questa scheda viene inoltre memorizzato il flag **rinuncia** per il profilo: quando l&#39;opzione **[!UICONTROL No longer contact (by any channel)]** è selezionata, il profilo si trova nel inserisco nell&#39;elenco Bloccati di. Queste informazioni vengono aggiunte ai dati di contatto se, ad esempio, il destinatario ha fatto clic su un collegamento di annullamento dell’abbonamento in una newsletter. Un destinatario di questo tipo non è più indirizzato su alcun canale (e-mail, direct mailing, ecc.). Per ulteriori informazioni, consulta [Gestione della quarantena in Campaign](../send/quarantines.md).
 
 * **Informazioni di contatto**, che contiene l&#39;indirizzo di direct mailing del profilo selezionato.
 
@@ -76,15 +76,15 @@ Per un destinatario predefinito tipico, puoi accedere alle seguenti schede:
 
   Utilizza il menu contestuale **[!UICONTROL Field properties…]** per modificare i nomi dei campi e definirne il formato.
 
-  ![](assets/other-tab-field-properties.png)
+  ![Altra scheda di un destinatario con l&#39;opzione Proprietà campo selezionata nel menu di scelta rapida del campo booleano 1](assets/other-tab-field-properties.png)
 
   Immetti le nuove impostazioni come segue:
 
-  ![](assets/change-field-properties.png)
+  ![Finestra di dialogo delle proprietà del campo con il campo Etichetta impostato su Programma Luma Gold e il campo Descrizione compilato](assets/change-field-properties.png)
 
   Controlla l’aggiornamento nell’interfaccia utente:
 
-  ![](assets/other-tab-updated.png)
+  ![Altra scheda di un destinatario in cui il campo booleano 1 viene ora visualizzato come programma Luma Gold con un valore Sì o No](assets/other-tab-updated.png)
 
 
   >[!CAUTION]
@@ -94,7 +94,7 @@ Per un destinatario predefinito tipico, puoi accedere alle seguenti schede:
 
 * **Abbonamenti**, per tutti gli abbonamenti attivi ai servizi. Utilizza la scheda **Cronologia** per accedere ai dettagli degli abbonamenti e dei loro annullamenti per questo contatto.
 
-  ![](assets/subscription-tab.png)
+  ![Scheda Sottoscrizioni di un destinatario che elenca le sottoscrizioni attive, con le schede Sottoscrizioni attive e Cronologia](assets/subscription-tab.png)
 
   Ulteriori informazioni sulle sottoscrizioni [in questa sezione](../start/subscriptions.md).
 

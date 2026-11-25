@@ -25,10 +25,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 10%
+source-wordcount: '577'
+ht-degree: 7%
 ---
 # Gestire gli abbonamenti e il loro annullamento {#optin-optout}
 
@@ -40,17 +40,17 @@ Per abbonare (opt-in) un profilo a un servizio, le opzioni disponibili sono:
 
 * Aggiungi manualmente il servizio al profilo del destinatario: a tale scopo, dalla scheda **[!UICONTROL Subscriptions]** del profilo, fai clic su **[!UICONTROL Add]** e seleziona il servizio informazioni interessato.
 
-  ![](assets/subscribe-to-a-service.png)
+  ![Scheda Sottoscrizioni di un profilo destinatario con la finestra di dialogo Seleziona i servizi aperta da Aggiungi](assets/subscribe-to-a-service.png)
 
   Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=it#deliveries-tab){target="_blank"}
 
 * Iscrizione automatica di un set di destinatari al servizio. L’elenco dei destinatari può provenire da un’operazione di filtro, un gruppo, una cartella, un’importazione o una selezione manuale diretta. Per sottoscrivere questi destinatari, seleziona i profili e fai clic con il pulsante destro del mouse. Seleziona **[!UICONTROL Actions > Subscribe selection to a service...]**.
 
-  ![](assets/subscribe-selection.png)
+  ![Menu di scelta rapida sui destinatari selezionati con Azioni > Sottoscrivi selezione a un servizio](assets/subscribe-selection.png)
 
   Selezionare il servizio interessato e avviare l&#39;operazione.
 
-  ![](assets/subscribe-confirm.png)
+  ![Sottoscrizione guidata del servizio, passaggio di scelta del servizio, con l&#39;opzione Invia un messaggio di conferma](assets/subscribe-confirm.png)
 
   Ulteriori informazioni sono disponibili nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=it#deliveries-tab){target="_blank"}
 
@@ -61,18 +61,18 @@ Per abbonare (opt-in) un profilo a un servizio, le opzioni disponibili sono:
 
 * Utilizza un modulo web in modo che i destinatari possano abbonarsi a un servizio.
 
-  ![](assets/opt-in-webapp.png)
+  ![Flusso di lavoro dell&#39;applicazione Web per l&#39;abbonamento alla newsletter: precaricamento, abbonamento, archiviazione e fine](assets/opt-in-webapp.png)
 
   Campaign viene fornito con un modulo web predefinito per gestire l’opt-in. Puoi personalizzarlo e mappare i dati del profilo.
 
-  ![](assets/web-app.png)
+  ![Editor pagina del modulo Web di abbonamento con nome, e-mail, telefono, casella di controllo del consenso e pulsante Sottoscrivi](assets/web-app.png)
 
-  Per ulteriori informazioni, consulta [questa sezione](../dev/web/use-cases-web-forms.md#create-a-subscription--form-with-double-opt-in).
+  Ulteriori informazioni in [Creare un modulo di abbonamento con doppio consenso](../dev/web/use-cases-web-forms.md#create-a-subscription--form-with-double-opt-in).
 
 
 * Creare un flusso di lavoro di targeting e utilizzare un&#39;attività **[!UICONTROL Subscription service]**.
 
-  ![](assets/wf-subscription.png)
+  ![Flusso di lavoro con elenco di lettura, raccolta query e file che alimenta Servizi di deduplicazione e sottoscrizione](assets/wf-subscription.png)
 
   Per ulteriori informazioni, consulta [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/subscription-services.html?lang=it){target="_blank"}.
 

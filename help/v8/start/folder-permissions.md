@@ -29,10 +29,10 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 18%
+source-wordcount: '333'
+ht-degree: 17%
 ---
 # Gestire le autorizzazioni cartella{#manage-folder-permissions}
 
@@ -40,14 +40,14 @@ ht-degree: 18%
 
 Utilizza le autorizzazioni sulle cartelle per organizzare e controllare l’accesso ai dati di Campaign.
 
-La gestione delle cartelle è descritta in [questa pagina](../audiences/folders-and-views.md).
+La gestione delle cartelle è descritta in [Cartelle e visualizzazioni](../audiences/folders-and-views.md).
 
 Per modificare le autorizzazioni per una cartella Campaign specifica, effettua le seguenti operazioni:
 
 1. Fare clic con il pulsante destro del mouse sulla cartella e selezionare **[!UICONTROL Properties...]**.
 1. Passare alla scheda **[!UICONTROL Security]** per visualizzare le autorizzazioni per questa cartella.
 
-   ![](assets/folder-permissions.png)
+   ![Proprietà cartella Scheda Sicurezza con autorizzazioni per operatori o gruppi e diritti di lettura, scrittura ed eliminazione dei dati](assets/folder-permissions.png)
 
 * Per **autorizzare un gruppo o un operatore**, fare clic sul pulsante **[!UICONTROL Add]** e selezionare il gruppo o l&#39;operatore a cui assegnare le autorizzazioni per la cartella.
 * Per **vietare un gruppo o un operatore**, fare clic su **[!UICONTROL Delete]** e selezionare il gruppo o l&#39;operatore per rimuovere l&#39;autorizzazione per la cartella.

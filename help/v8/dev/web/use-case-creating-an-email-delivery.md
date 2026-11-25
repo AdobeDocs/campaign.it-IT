@@ -34,9 +34,9 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '866'
 ht-degree: 1%
 ---
 # Caso d’uso: creare una consegna e-mail{#use-case-creating-an-email-delivery}
@@ -62,13 +62,13 @@ Il nostro obiettivo finale è quello di creare una consegna con un modello perso
 
 Per creare una nuova consegna, posiziona il cursore nella scheda **Campagne** e fai clic su **Consegne**. Fai clic sul pulsante **Crea** sopra l&#39;elenco delle consegne esistenti. Per ulteriori informazioni sulla creazione di consegne, consulta [questa pagina](https://experienceleague.adobe.com/it/docs/campaign-classic/using/sending-messages/about-email-channel){target="_blank"}.
 
-![](assets/delivery_step_1.png)
+![Elenco delle consegne nella scheda Campagne con il pulsante Crea utilizzato per avviare una nuova consegna.](assets/delivery_step_1.png)
 
 ## Passaggio 2: selezione di un modello {#step-2---selecting-a-template}
 
 Seleziona un modello di consegna, quindi assegna un nome alla consegna. Questo nome sarà visibile solo agli utenti della console Adobe Campaign e non ai destinatari; tuttavia, questa intestazione verrà visualizzata nell’elenco delle consegne. Fai clic su **[!UICONTROL Continue]**.
 
-![](assets/dce_delivery_model.png)
+![Finestra di dialogo per la creazione della consegna con il modello di consegna e-mail, un campo Etichetta e il pulsante Continua.](assets/dce_delivery_model.png)
 
 ## Passaggio 3: selezione del contenuto {#step-3---selecting-a-content}
 
@@ -76,11 +76,11 @@ Digital Content Editor viene fornito con vari modelli pronti all’uso con strut
 
 Selezionare il modello di contenuto che si desidera utilizzare, quindi fare clic sul pulsante **[!UICONTROL Start with the selected content]** per visualizzare il modello nella consegna creata.
 
-![](assets/dce_select_model.png)
+![Passaggio del contenuto di consegna in cui sono elencati i modelli di contenuto con il pulsante Inizia con il contenuto selezionato.](assets/dce_select_model.png)
 
 È inoltre possibile importare contenuto HTML creato al di fuori di Adobe Campaign selezionando **[!UICONTROL From a file]**.
 
-![](assets/dce_select_from_file_template.png)
+![Modelli di contenuto disponibili con l&#39;opzione Da un file evidenziata.](assets/dce_select_from_file_template.png)
 
 Puoi salvare questo contenuto come modello da utilizzare in futuro. Una volta creato un modello di contenuto personalizzato, puoi visualizzarne l’anteprima dall’elenco dei modelli. Per ulteriori informazioni, consulta [Gestione modelli](template-management.md).
 
@@ -94,13 +94,13 @@ Puoi salvare questo contenuto come modello da utilizzare in futuro. Una volta cr
 
   Per inserire il primo e il secondo nome dei destinatari in un campo di testo della consegna, fai clic sul campo di testo scelto, quindi posiziona il cursore nel punto in cui desideri visualizzarli. Fare clic sulla prima icona nella barra degli strumenti popup, quindi fare clic su **[!UICONTROL Personalization block]**. Seleziona **[!UICONTROL Greetings]**, quindi fai clic su **[!UICONTROL OK]**.
 
-  ![](assets/dce_personalizationblock_greetings.png)
+  ![Inserisci una finestra di dialogo dell&#39;elemento con il blocco di personalizzazione Greetings selezionato, aperto dal menu della barra degli strumenti.](assets/dce_personalizationblock_greetings.png)
 
 * Inserire un collegamento in un&#39;immagine
 
   Per indirizzare i destinatari della consegna a un indirizzo esterno tramite un&#39;immagine, fare clic sull&#39;immagine corrispondente per visualizzare la barra degli strumenti popup, posizionare il cursore sulla prima icona, quindi fare clic su **[!UICONTROL Link to an external URL]**. Per ulteriori informazioni, consulta [Aggiunta di un collegamento](editing-content.md#adding-a-link).
 
-  ![](assets/dce_externalpage.png)
+  ![Menu della barra degli strumenti Immagine con l&#39;opzione Collega a un URL esterno selezionata.](assets/dce_externalpage.png)
 
   Immetti l&#39;URL per il collegamento nel campo **URL** utilizzando il seguente formato **https://www.myURL.com**, quindi conferma.
 
@@ -122,7 +122,7 @@ Puoi salvare questo contenuto come modello da utilizzare in futuro. Una volta cr
 
   Fai clic sul campo di testo in cui desideri visualizzare il collegamento pubblicato. Fare clic sulla prima icona nella barra degli strumenti popup, selezionare **[!UICONTROL Personalization block]**, quindi **[!UICONTROL Link to Mirror Page (MirrorPage)]**. Fai clic su **[!UICONTROL Save]** per confermare.
 
-  ![](assets/dce_mirrorpage.png)
+  ![Menu della barra degli strumenti nell&#39;editor di testo con l&#39;opzione di blocco Personalization selezionata.](assets/dce_mirrorpage.png)
 
   >[!CAUTION]
   >
@@ -134,7 +134,7 @@ Puoi salvare questo contenuto come modello da utilizzare in futuro. Una volta cr
 
   Selezionare un campo di testo per il collegamento a un&#39;applicazione Web, quindi fare clic sulla prima icona. Scegliere **[!UICONTROL Link to a Web application]**, quindi selezionare l&#39;applicazione desiderata facendo clic sull&#39;icona alla fine del campo **Applicazione Web**.
 
-  ![](assets/dce_webapp.png)
+  ![Inserire una finestra di dialogo di collegamento con i campi Etichetta e Applicazione Web e un pulsante OK.](assets/dce_webapp.png)
 
   Fai clic su **Salva** per confermare.
 

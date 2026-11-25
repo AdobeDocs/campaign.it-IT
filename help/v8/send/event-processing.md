@@ -26,14 +26,14 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '744'
 ht-degree: 1%
 ---
 # Elaborazione di eventi {#event-processing}
 
-Nel contesto dei messaggi transazionali, un evento viene generato da un sistema di informazioni esterno e inviato ad Adobe Campaign tramite i metodi **[!UICONTROL PushEvent]** e **[!UICONTROL PushEvents]**. Questi metodi sono descritti in [questa sezione](event-description.md).
+Nel contesto dei messaggi transazionali, un evento viene generato da un sistema di informazioni esterno e inviato ad Adobe Campaign tramite i metodi **[!UICONTROL PushEvent]** e **[!UICONTROL PushEvents]**. Questi metodi sono descritti in [Comprendere la descrizione dell&#39;evento](event-description.md).
 
 Questo evento contiene dati collegati all’evento, ad esempio:
 
@@ -43,7 +43,7 @@ Questo evento contiene dati collegati all’evento, ad esempio:
 
 Esempio di dati evento:
 
-![](assets/mc-event-request.png)
+![Esempio di XML evento: attributi di dati evento (tipo, e-mail, origine) e dati evento personalizzati nell&#39;elemento ctx](assets/mc-event-request.png)
 
 Per elaborare gli eventi di messaggistica transazionale, alle istanze di esecuzione vengono applicati i seguenti passaggi:
 
@@ -65,11 +65,11 @@ Gli eventi generati dal sistema di informazione possono essere raccolti utilizza
 
 Una volta raccolti, gli eventi vengono suddivisi per flussi di lavoro tecnici tra code in tempo reale e batch delle istanze di esecuzione, in attesa di essere collegati a un [modello di messaggio](transactional-template.md).
 
-![](assets/mc-event-queues.png)
+![Cartelle del Centro messaggi nell&#39;istanza di esecuzione: eventi in tempo reale ed eventi batch nella cartella predefinita](assets/mc-event-queues.png)
 
 >[!NOTE]
 >
->Nelle istanze di esecuzione, le cartelle **[!UICONTROL Real time events]** o **[!UICONTROL Batch events]** non devono essere impostate come viste, in quanto ciò potrebbe causare problemi di diritti di accesso. Per ulteriori informazioni sull&#39;impostazione di una cartella come visualizzazione, consulta [questa sezione](../audiences/folders-and-views.md#turn-a-folder-to-a-view).
+>Nelle istanze di esecuzione, le cartelle **[!UICONTROL Real time events]** o **[!UICONTROL Batch events]** non devono essere impostate come viste, in quanto ciò potrebbe causare problemi di diritti di accesso. Per ulteriori informazioni sull&#39;impostazione di una cartella come visualizzazione, vedere [Impostare una cartella come visualizzazione](../audiences/folders-and-views.md#turn-a-folder-to-a-view).
 
 ## Trasferire un evento in un modello {#event-to-template}
 
@@ -79,11 +79,11 @@ La fase di instradamento consiste nel collegare un evento al modello di messaggi
 
 * Il tipo di evento specificato nelle proprietà dell’evento stesso:
 
-  ![](assets/event-type-sample.png)
+  ![XML evento batch con attributo del tipo di evento impostato su purchase_order](assets/event-type-sample.png)
 
 * Tipo di evento specificato nelle proprietà del modello di messaggio:
 
-  ![](assets/event-type-select.png)
+  ![Creazione guidata modello di messaggio con l&#39;elenco Tipo di evento che mostra purchase_def](assets/event-type-select.png)
 
 Per impostazione predefinita, il ciclo si basa sulle seguenti informazioni:
 

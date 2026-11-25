@@ -19,9 +19,9 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '140'
 ht-degree: 0%
 ---
 # Configurare i sondaggi online{#configuring-surveys}
@@ -38,7 +38,7 @@ I sondaggi online sono completamente configurabili e personalizzabili per soddis
 
 I parametri disponibili sono descritti in dettaglio in [questo documento](../web/defining-web-forms-properties.md).
 
-![](assets/s_ncs_admin_survey_properties_general.png)
+![Scheda Modifica dell&#39;applicazione Web Kids Event con il pulsante Proprietà evidenziato sopra il flusso di lavoro.](assets/s_ncs_admin_survey_properties_general.png)
 
 ## Archiviazione dei dati del sondaggio {#survey-data-storage}
 

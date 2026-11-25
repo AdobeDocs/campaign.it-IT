@@ -23,9 +23,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1651'
 ht-degree: 2%
 ---
 # Configurazione della notifica push rivista {#push-notifications-config}
@@ -64,7 +64,7 @@ La registrazione delle credenziali push dell’app mobile è necessaria per auto
 
 1. Fare clic su **[!UICONTROL Create App Surface]** per creare una nuova configurazione.
 
-   ![](assets/push-config-1.png)
+   ![Elenco delle superfici dell&#39;app nella raccolta dati con il pulsante Crea superficie dell&#39;app evidenziato](assets/push-config-1.png)
 
 1. Immettere **[!UICONTROL Name]** per la configurazione.
 
@@ -74,7 +74,7 @@ La registrazione delle credenziali push dell’app mobile è necessaria per auto
 
 >[!TAB iOS]
 
-![](assets/push-config-2.png)
+![Crea superficie app per Apple iOS: ID app, opzione Credenziali push e zona di rilascio file chiave p8](assets/push-config-2.png)
 
 1. Immetti l&#39;ID **bundle** dell&#39;app mobile nel campo **[!UICONTROL App ID (iOS Bundle ID)]**.
 
@@ -96,7 +96,7 @@ La registrazione delle credenziali push dell’app mobile è necessaria per auto
 
 >[!TAB Android]
 
-![](assets/push-config-3.png)
+![Crea superficie app per Android: ID app (nome pacchetto Android), opzione credenziali push e zona di rilascio chiave JSON](assets/push-config-3.png)
 
 1. Fornisci **[!UICONTROL App ID (Android package name)]**. In genere il nome del pacchetto corrisponde all&#39;ID app nel file `build.gradle`.
 
@@ -120,17 +120,17 @@ Per creare un servizio per l’invio di notifiche push, effettua le seguenti ope
 
 1. Passare alla scheda **[!UICONTROL Profiles and Targets > Services and Subscriptions]** e fare clic su **[!UICONTROL Create]**.
 
-   ![](assets/push-config-4.png){width="800"}
+   ![Finestra di dialogo Nuovo servizio con etichetta, nome interno, tipo di applicazione mobile e mappatura destinazione applicazioni sottoscrittore](assets/push-config-4.png){width="800"}
 
 1. Immettere **[!UICONTROL Label]** e **[!UICONTROL Internal name]** e selezionare un tipo **[!UICONTROL Mobile application]**.
 
    >[!NOTE]
    >
-   >Il mapping di destinazione predefinito **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** è collegato alla tabella dei destinatari. Se si desidera utilizzare una mappatura di destinazione diversa, è necessario creare una nuova mappatura di destinazione e immetterla nel campo **[!UICONTROL Target mapping]** del servizio. Ulteriori informazioni sulle mappature di destinazione in [questa pagina](../audiences/target-mappings.md).
+   >Il mapping di destinazione predefinito **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** è collegato alla tabella dei destinatari. Se si desidera utilizzare una mappatura di destinazione diversa, è necessario creare una nuova mappatura di destinazione e immetterla nel campo **[!UICONTROL Target mapping]** del servizio. Ulteriori informazioni sulle mappature di destinazione in [Utilizzare le mappature di destinazione](../audiences/target-mappings.md).
 
 1. Quindi utilizza l&#39;icona **[!UICONTROL Add]** a destra per definire le applicazioni mobili che utilizzano questo servizio.
 
-   ![](assets/push-config-5.png)
+   ![Finestra di dialogo del servizio con l&#39;icona Aggiungi evidenziata per definire le applicazioni mobili che utilizzano il servizio](assets/push-config-5.png)
 
 ### Creare un’app mobile {#create-sapp}
 
@@ -144,17 +144,17 @@ Per creare un&#39;app per dispositivi iOS, effettua le seguenti operazioni:
 
 1. Dal tuo servizio, fai clic su **[!UICONTROL Add]**, quindi seleziona **[!UICONTROL Create an iOS application]**. Fai clic su **[!UICONTROL Next]**.
 
-   ![](assets/push-config-6.png)
+   ![Creazione guidata applicazione mobile con Creazione di un&#39;applicazione iOS selezionata](assets/push-config-6.png)
 
 1. Dalla finestra **[!UICONTROL Launch app configurations list]**, seleziona la superficie dell&#39;app creata in precedenza in questa sezione. Fai clic su **[!UICONTROL Next]**.
 
-   ![](assets/push-config-7.png)
+   ![Elenco configurazioni app di avvio che elenca la superficie app demo da selezionare](assets/push-config-7.png)
 
 1. (facoltativo) È possibile arricchire il contenuto di un messaggio push con alcuni **[!UICONTROL Application variables]**. Questi sono completamente personalizzabili e fanno parte del payload del messaggio inviato al dispositivo mobile.
 
    Nell&#39;esempio seguente, le variabili **mediaURl** e **mediaExt** vengono aggiunte per creare notifiche push potenziate e quindi fornire all&#39;applicazione l&#39;immagine da visualizzare all&#39;interno della notifica.
 
-   ![](assets/push-config-8.png)
+   ![Parametri generali con le variabili di applicazione mediaURL e mediaExt aggiunte](assets/push-config-8.png)
 
 1. Passare alla scheda **[!UICONTROL Subscription parameters]** per definire il mapping con un&#39;estensione dello schema **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]**.
 
@@ -175,7 +175,7 @@ Per creare un&#39;app per dispositivi iOS, effettua le seguenti operazioni:
    >
    > Non è possibile utilizzare lo stesso certificato per la versione di sviluppo (sandbox) e la versione di produzione dell’applicazione.
 
-   ![](assets/push-config-9.png)
+   ![Passaggio dell&#39;applicazione di sviluppo con i campi Chiave di integrazione e Icona applicazione per iOS](assets/push-config-9.png)
 
 1. Seleziona l&#39;icona dal campo **[!UICONTROL Application icon]** per personalizzare l&#39;app mobile nel servizio.
 
@@ -191,11 +191,11 @@ Per creare un&#39;app per dispositivi Android, effettua le seguenti operazioni:
 
 1. Dal tuo servizio, fai clic su **[!UICONTROL Add]**, quindi seleziona **[!UICONTROL Create an Android application]**. Fai clic su **[!UICONTROL Next]**.
 
-   ![](assets/push-config-10.png)
+   ![Creazione guidata applicazione mobile con Creazione di un&#39;applicazione Android selezionata](assets/push-config-10.png)
 
 1. Dalla finestra **[!UICONTROL Launch app configurations list]**, seleziona la superficie app creata in questa sezione e fai clic su **[!UICONTROL Next]**.
 
-   ![](assets/push-config-11.png)
+   ![Elenco configurazioni app di avvio che elenca la superficie dell&#39;app demo per l&#39;applicazione Android](assets/push-config-11.png)
 
 1. La chiave di integrazione è specifica per ogni applicazione. Collega l’app mobile ad Adobe Campaign e verrà utilizzata per configurare l’estensione Campaign.
 
@@ -207,7 +207,7 @@ Per creare un&#39;app per dispositivi Android, effettua le seguenti operazioni:
    >
    > **[!UICONTROL Integration key]** è completamente personalizzabile con valore stringa, ma deve essere esattamente lo stesso specificato in SDK.
 
-   ![](assets/push-config-12.png)
+   ![Parametri generali per Android con chiave di integrazione, icona Applicazione e variabili applicazione](assets/push-config-12.png)
 
 1. Seleziona l&#39;icona dal campo **[!UICONTROL Application icon]** per personalizzare l&#39;app mobile nel servizio.
 
@@ -234,11 +234,11 @@ Di seguito sono riportati i nomi del payload FCM per personalizzare ulteriorment
 
 1. Fai clic su **[!UICONTROL New Property]**.
 
-   ![](assets/push-config-13.png)
+   ![Elenco delle proprietà dei tag nella raccolta dati con il pulsante Nuova proprietà evidenziato](assets/push-config-13.png)
 
 1. Digitare un nome per la proprietà e selezionare **[!UICONTROL Mobile]** come piattaforma.
 
-   ![](assets/push-config-14.png)
+   ![Crea modulo proprietà con un nome immesso e la piattaforma mobile selezionata](assets/push-config-14.png)
 
 1. Fare clic su **[!UICONTROL Save]** per creare la proprietà mobile.
 
@@ -246,18 +246,18 @@ Di seguito sono riportati i nomi del payload FCM per personalizzare ulteriorment
 
 1. Dalla dashboard delle proprietà mobili, accedi al menu **[!UICONTROL Extensions]** e quindi alla scheda **[!UICONTROL Catalog]**.
 
-   ![](assets/push-config-15.png)
+   ![Pagina Estensioni proprietà mobile con la scheda Catalogo evidenziata](assets/push-config-15.png)
 
 1. Installa l&#39;estensione **[!DNL Adobe Campaign Classic]**. [Ulteriori informazioni sull&#39;estensione Campaign](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configure-campaign-classic-extension)
 
-   ![](assets/push-config-16.png)
+   ![Catalogo estensioni con il pulsante Installa evidenziato nell&#39;estensione Adobe Campaign Classic](assets/push-config-16.png)
 
 1. Inserisci i dettagli dell’istanza:
 
    * Gli URL **[!UICONTROL Registration endpoint]** o **[!UICONTROL Tracking endpoint]** si trovano nel menu **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Deployment wizard]** in Campaign.
    * **[!UICONTROL Integration keys]** si trova nell&#39;app mobile configurata in [questa sezione](#create-app).
 
-   ![](assets/push-config-17.png)
+   ![Installa la pagina dell&#39;estensione con gli endpoint di registrazione e tracciamento e le chiavi di integrazione di iOS e Android](assets/push-config-17.png)
 
 1. Fai clic su **[!UICONTROL Save]**.
 
@@ -275,4 +275,4 @@ Adobe Experience Platform Mobile SDK consente di alimentare le soluzioni e i ser
 
 Dopo aver configurato correttamente l’app mobile in Raccolta dati, ora puoi creare e inviare notifiche push in Adobe Campaign.
 
-Fai riferimento a [questa pagina](push.md#push-create) per gli elementi dettagliati specifici per la consegna delle notifiche iOS e Android.
+Consulta [Creare la prima notifica push](push.md#push-create) per gli elementi dettagliati specifici per la consegna delle notifiche iOS e Android.

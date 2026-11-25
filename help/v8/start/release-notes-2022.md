@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '1947'
-ht-degree: 84%
+source-wordcount: '1949'
+ht-degree: 83%
 ---
 # Note sulla versione 2022{#2022-rn}
 
@@ -106,7 +106,7 @@ Per ottimizzare la sicurezza, i token di sicurezza sono stati rimossi dagli URL 
 * Questa modifica si applica solo agli URL delle richieste GET. Altri tipi, inclusi gli URL delle richieste POST, non subiscono modifiche.
 * Se utilizzi un codice personalizzato, i token di sicurezza non vengono più recuperati dal parametro di protezione URL delle richieste GET. Devi generare un nuovo token di sicurezza utilizzando il seguente codice JSSP:
 
-  ```
+  ```javascript
   getNewSecurityToken(jsspContext.getSessionToken(), jsspContext.getSecurityToken(), true);
   ```
 
@@ -254,14 +254,14 @@ Consulta la [Matrice di compatibilità di Campaign](compatibility-matrix.md).
 
 **Miglioramenti**
 
-* L’autenticazione di Microsoft Exchange Online OAuth 2.0 per POP3 è ora supportata in Campaign. [Maggiori informazioni](../config/external-accounts.md#bounce-mails-external-account)
+* L’autenticazione di Microsoft Exchange Online OAuth 2.0 per POP3 è ora supportata in Campaign. [Messaggi non recapitati](../config/external-accounts.md#bounce-mails-external-account)
 * Sono state applicate correzioni critiche relative all’API web di Microsoft Dynamics Connector.
 * È stato aggiunto il nuovo diritto di scrittura dello schema di operatore e gruppo (operatorWrite) denominato per consentire agli utenti di inserire, aggiornare ed eliminare schemi di operatori (xtk:operator) e gruppi di operatori (xtk:group).
   <!--* You can now enable the Email BCC (blind carbon copy) capability to store emails sent by Campaign at the delivery level, through the dedicated option in the delivery properties. [Read more](../config/email-settings.md#email-bcc)-->
   <!--* To ensure better performances, a new "Split" option is now activated by default in the Routing external account. This option allows messages to be automatically split across your mid-sourcing instances in order to be delivered faster to the recipients.-->
 * È ora possibile configurare più account attivi LINE su un singolo mid-sourcing.
 * Il numero di connessioni predefinite per il processo web è stato aumentato da 50 a 150.
-* Campaign viene fornito con un set di nuovi guardrail per impedire l’inserimento di chiavi duplicate nel database di Snowflake. [Ulteriori informazioni](../architecture/keys.md)
+* Campaign viene fornito con un set di nuovi guardrail per impedire l’inserimento di chiavi duplicate nel database di Snowflake. [Gestione chiavi in Campaign](../architecture/keys.md)
 
 **Correzioni**
 

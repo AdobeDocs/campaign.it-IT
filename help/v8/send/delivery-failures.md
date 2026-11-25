@@ -49,9 +49,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '3476'
+source-wordcount: '3478'
 ht-degree: 6%
 ---
 # Errori di consegna {#delivery-failures}
@@ -714,7 +714,7 @@ Prima che venga qualificato un nuovo tipo di errore, il motivo dell&#39;errore �
 
 Esempio di messaggio generato:
 
-```
+```text
 SR Generic DELIVRD 000|#MESSAGE#
 ```
 
@@ -750,7 +750,7 @@ I registri di consegna sono fondamentali per comprendere il motivo per cui una c
 
 I messaggi dei destinatari non riescono e viene visualizzato un errore &quot;Non raggiungibile&quot; che indica:
 
-```
+```text
 Error while compiling script 'content htmlContent' line X: `[table]` is not defined. JavaScript: error while evaluating script 'content htmlContent
 ```
 
@@ -758,13 +758,13 @@ Error while compiling script 'content htmlContent' line X: `[table]` is not defi
 
 **Risoluzione**: rivedi il flusso di lavoro e il contenuto della consegna per determinare in modo specifico cosa la personalizzazione sta tentando di chiamare la tabella in questione. Quindi rimuovi la chiamata a questa tabella in HTML o correggi il mapping alla consegna.
 
-Ulteriori informazioni sulla personalizzazione in [questa sezione](personalize.md).
+Ulteriori informazioni sulla personalizzazione in [Introduzione alla personalizzazione](personalize.md).
 
 ### Errore con più valori di personalizzazione {#multiple-values-error}
 
 Quando una consegna non riesce, nei registri di consegna può essere visualizzato il seguente errore:
 
-```
+```text
 DLV-XXXX The count of message prepared (123) is greater than the number of messages to send (111). Please contact support.
 ```
 
@@ -776,7 +776,7 @@ DLV-XXXX The count of message prepared (123) is greater than the number of messa
 
 Alcune consegne possono non riuscire e viene visualizzato un errore &quot;Non raggiungibile&quot; che indica:
 
-```
+```text
 Inbound email bounce (rule 'Auto_replies' has matched this bounce).
 ```
 

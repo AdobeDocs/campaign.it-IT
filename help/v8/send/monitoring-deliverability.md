@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Data quality
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 6%
+ht-degree: 5%
 ---
 # Monitorare il recapito messaggi{#monitoring-deliverability}
 
@@ -44,7 +44,7 @@ Il report di rendering della [Posta in arrivo](inbox-rendering.md) consente di v
 
 ### Velocità di consegna {#throughput-reports}
 
-Il report **[!UICONTROL Delivery throughput]** offre una panoramica della velocità effettiva dell&#39;intera piattaforma per un determinato periodo. Per ulteriori informazioni, consulta [questa sezione](../reporting/global-reports.md#delivery-throughput).
+Il report **[!UICONTROL Delivery throughput]** offre una panoramica della velocità effettiva dell&#39;intera piattaforma per un determinato periodo. Per ulteriori informazioni, consulta [Velocità effettiva di consegna](../reporting/global-reports.md#delivery-throughput).
 
 ### Statistiche di trasmissione {#broadcast-statistics}
 

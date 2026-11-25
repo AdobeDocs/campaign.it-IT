@@ -21,20 +21,20 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 8%
+source-wordcount: '209'
+ht-degree: 0%
 ---
 # Presenta l’offerta migliore{#interaction-present-offers}
 
 Le offerte possono essere presentate in vari spazi di offerta utilizzando [un canale in entrata o in uscita](interaction-architecture.md#interaction-types). Questo capitolo descrive alcune funzioni specifiche per i canali in entrata.
 
-![](assets/inbound-interactions.png)
+![Flusso in entrata: sfoglia un sito, identifica il visitatore tramite cookie o accesso, il motore di offerta seleziona l&#39;offerta migliore dal catalogo](assets/inbound-interactions.png)
 
 Per poter essere selezionata dal motore di offerta, un’offerta deve essere approvata e disponibile in un ambiente live.
 
-Per ulteriori informazioni al riguardo, consulta [questa sezione](approving-and-activating-an-offer.md#approving-offer-content).
+Per ulteriori informazioni, consulta [Approvazione del contenuto delle offerte](approving-and-activating-an-offer.md#approving-offer-content).
 
 Nel contesto di un contatto in entrata, l’utente che sta navigando nella pagina può essere identificato dal sito web o meno. Il motore di offerta presenta diverse offerte per profili identificati e per profili anonimi.
 
@@ -44,4 +44,4 @@ Prima di poter presentare le offerte su un canale in entrata, devi configurare l
 >
 >Per le interazioni in entrata, devi configurare in modo specifico il motore delle offerte per presentare e aggiornare una o più offerte.
 >
->Devi anche abilitare la modalità unitaria negli spazi dell’offerta. Per ulteriori informazioni, consulta [questa pagina](interaction-offer-spaces.md).
+>Devi anche abilitare la modalità unitaria negli spazi dell’offerta. Per ulteriori informazioni, consulta [Spazi dell&#39;offerta di interazione campagna](interaction-offer-spaces.md).

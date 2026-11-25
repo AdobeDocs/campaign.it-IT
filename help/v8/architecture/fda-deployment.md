@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 9d4ec9f8454acd6a939221075251c265a1ffd672
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '348'
 ht-degree: 0%
 ---
 # Distribuzione FDA [!DNL Campaign]{#gs-fda}
@@ -69,6 +69,6 @@ Con questo modello di distribuzione, gli utenti di Adobe Campaign possono estend
 
 La comunicazione generale tra server e processi viene eseguita in base allo schema seguente:
 
-![](assets/fda-architecture.png)
+![Flusso di dati FDA: server marketing Campaign, Snowflake, PgSQL, Centro messaggi e server Mid Sourcing, passaggi numerati da 1 a 5](assets/fda-architecture.png)
 
 PostgreSQL è il database primario e Snowflake può essere utilizzato come database secondario. Puoi estendere il modello dati e archiviare i dati su Snowflake. Successivamente, puoi eseguire ETL, segmentazione e rapporti su un set di dati di grandi dimensioni con prestazioni eccezionali.

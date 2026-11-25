@@ -39,9 +39,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: bf608c313c238d3ba16f9fe6902bb66bb2b90d98
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '793'
 ht-degree: 1%
 ---
 # Gestire le cartelle e le visualizzazioni {#folders-and-views}
@@ -74,13 +74,13 @@ Per creare una cartella, fai clic con il pulsante destro del mouse su una cartel
 
 Per creare lo stesso tipo di cartella selezionato, scegli la prima opzione nel menu contestuale. Ad esempio, da una cartella Destinatari, selezionare **[!UICONTROL Create a new 'Recipients' folder]**.
 
-![](assets/create-recipient-folder.png)
+![Menu di scelta rapida della cartella Destinatari con l&#39;opzione Crea una nuova cartella &#39;Destinatari&#39; evidenziata](assets/create-recipient-folder.png)
 
 Puoi trascinare e rilasciare la nuova cartella per organizzare la struttura di Esplora campagne come necessario.
 
 Per creare un altro tipo di cartella, fare clic con il pulsante destro del mouse su una cartella esistente e selezionare **[!UICONTROL Add new folder]**. Puoi creare tutti i tipi di cartelle, a seconda dei dati da archiviare.
 
-![](assets/add-new-folder.png)
+![Il menu Aggiungi nuova cartella mostra il sottomenu Database con il tipo di cartella Elenchi selezionato](assets/add-new-folder.png)
 
 >[!CAUTION]
 >
@@ -109,15 +109,15 @@ Nell’esempio seguente, creeremo una nuova cartella per visualizzare solo le co
 1. Fare clic con il pulsante destro del mouse su questa cartella e selezionare **[!UICONTROL Properties...]**.
 1. Nella scheda **[!UICONTROL Restriction]**, selezionare **[!UICONTROL This folder is a view]**. Verranno quindi visualizzate tutte le consegne nel database.
 
-   ![](assets/this-folder-is-a-view.png)
+   ![Proprietà cartella delle consegne USA con questa cartella selezionata nella scheda Restrizioni](assets/this-folder-is-a-view.png)
 
 1. Definisci i criteri di filtro dall’editor delle query nella sezione centrale della finestra: nella cartella vengono visualizzate solo le consegne corrispondenti al filtro.
 
-   ![](assets/filter-view.png)
+   ![Condizioni del filtro della scheda delle restrizioni che definiscono la visualizzazione come nome interno che inizia con Stati Uniti](assets/filter-view.png)
 
    >[!NOTE]
    >
-   >Scopri come progettare le query in [questa pagina](create-filters.md#advanced-filters)
+   >Scopri come progettare le query in [Filtri avanzati](create-filters.md#advanced-filters)
 
 
 >[!CAUTION]
@@ -132,7 +132,7 @@ Sfoglia la scheda **Sottocartelle** delle proprietà della cartella per organizz
 
 È possibile spostare le cartelle con le frecce a destra oppure selezionare l&#39;opzione **[!UICONTROL Sort the sub-folders in alphabetical order]** per ordinarle automaticamente.
 
-![](assets/sort-folders.png)
+![Scheda Sottocartelle delle proprietà della cartella con la freccia Sposta in basso e l&#39;opzione di ordinamento alfabetico](assets/sort-folders.png)
 
 
 ## Filtrare i dati in una cartella{#filter-data-in-a-folder}
@@ -141,9 +141,9 @@ Per filtrare i dati memorizzati in una cartella, accedere alle proprietà della 
 
 Ad esempio, la cartella seguente conterrà solo contatti con un indirizzo e-mail e la cui origine non è contrassegnata come &quot;Esterna&quot; oppure è vuota.
 
-![](assets/add-a-filter-to-a-folder.png)
+![Scheda Restrizione delle proprietà della cartella Consegne negli Stati Uniti, filtrata in base al nome interno, inizia con Stati Uniti](assets/add-a-filter-to-a-folder.png)
 
 
 ## Limitare l’accesso a una cartella{#restrict-access-to-a-folder}
 
-Utilizza le autorizzazioni sulle cartelle per organizzare e controllare l’accesso ai dati di Campaign. Ulteriori informazioni sulle autorizzazioni per le cartelle in [questa sezione](../start/folder-permissions.md).
+Utilizza le autorizzazioni sulle cartelle per organizzare e controllare l’accesso ai dati di Campaign. Ulteriori informazioni sulle autorizzazioni per le cartelle in [Concedere e limitare le autorizzazioni per le cartelle di Campaign](../start/folder-permissions.md).

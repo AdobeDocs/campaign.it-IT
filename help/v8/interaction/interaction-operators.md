@@ -27,14 +27,14 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '255'
 ht-degree: 3%
 ---
 # Profili operatore {#operator-profiles}
 
-Due tipi di operatori possono utilizzare l&#39;interazione con Campaign: **Gestione offerte** e **Gestione consegne**. Ognuno di essi dispone di autorizzazioni e restrizioni specifiche. Ulteriori informazioni sugli operatori e sulle autorizzazioni di Campaign in [questa pagina](../start/gs-permissions.md).
+Due tipi di operatori possono utilizzare l&#39;interazione con Campaign: **Gestione offerte** e **Gestione consegne**. Ognuno di essi dispone di autorizzazioni e restrizioni specifiche. Ulteriori informazioni sugli operatori e sulle autorizzazioni di Campaign in [Introduzione alle autorizzazioni in Campaign v8](../start/gs-permissions.md).
 
 * **[!UICONTROL Offer manager]** crea e gestisce le offerte.
 * **[!UICONTROL Delivery manager]** approva e utilizza le offerte
@@ -44,7 +44,7 @@ Due tipi di operatori possono utilizzare l&#39;interazione con Campaign: **Gesti
 1. Crea un operatore. [Ulteriori informazioni](../start/manage-permissions.md#add-users)
 1. Passare alla finestra **[!UICONTROL Groups and named rights]**, fare clic su **[!UICONTROL Add]** e selezionare il gruppo **[!UICONTROL Offer manager]**.
 
-Le autorizzazioni associate a Gestione offerte sono descritte [qui](../start/manage-permissions.md#ootb-productprofiles).
+Le autorizzazioni associate a Gestione offerte sono descritte [Profili di prodotto e gruppi di operatori predefiniti](../start/manage-permissions.md#ootb-productprofiles).
 
 ## Creare un operatore di Delivery Manager {#delivery-manager}
 

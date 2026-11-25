@@ -25,10 +25,10 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
 source-wordcount: '744'
-ht-degree: 1%
+ht-degree: 0%
 ---
 # Gestione dei messaggi transazionali {#managing-transactional-messages}
 
@@ -47,11 +47,11 @@ Ad esempio, desideri che venga attivato un evento di &quot;abbandono del carrell
 
 L’evento transazionale viene inviato tramite una richiesta POST con la seguente struttura URL:
 
-```
+```http
 POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 ```
 
-* **&lt;ORGANIZZAZIONE>**: ID organizzazione personale. Fai riferimento a [questa sezione](must-read.md).
+* **&lt;ORGANIZZAZIONE>**: ID organizzazione personale. Consulta [Da leggere](must-read.md).
 
 * **&lt;transactionalAPI>**: endpoint API per messaggi transazionali.
 
@@ -67,7 +67,7 @@ La richiesta deve contenere un’intestazione &quot;Content-Type: application/js
 
 Aggiungere un set di caratteri, ad esempio **utf-8**. Questo valore dipende dall’applicazione REST in uso.
 
-```
+```bash
 -X POST \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
 -H 'Cache-Control: no-cache' \
@@ -100,7 +100,7 @@ Se il payload contiene solo &quot;mobilePhone&quot;, verrà attivato il canale d
 
 L’esempio seguente mostra un payload in cui verrà attivata una comunicazione SMS:
 
-```
+```bash
 curl --location 'https://mc.adobe.io/<ORGANIZATION>/campaign/mcAdobe/EVTcartAbandonment' \
 --header 'Authorization: Bearer <ACCESS_TOKEN>' \
 --header 'Cache-Control: no-cache' \
@@ -135,7 +135,7 @@ La risposta POST restituisce lo stato dell’evento transazionale al momento del
 
 richiesta POST per inviare l’evento.
 
-```
+```bash
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/mcAdobe/EVTcartAbandonment \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
 -H 'Cache-Control: no-cache' \
@@ -161,7 +161,7 @@ richiesta POST per inviare l’evento.
 
 Risposta alla richiesta POST.
 
-```
+```json
 {
   "PKey":"<PKEY>",
   "ctx":

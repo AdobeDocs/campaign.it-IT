@@ -24,9 +24,9 @@ feature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1201'
 ht-degree: 0%
 ---
 # Gestione della presentazione delle offerte{#managing-offer-presentation}
@@ -42,24 +42,24 @@ L’interazione ti consente di controllare il flusso delle proposte di offerta u
 1. Vai al nodo **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Typology management]** > **[!UICONTROL Typology rules]**.
 1. Creare una regola di tipologia e scegliere il tipo **[!UICONTROL Offer presentation]**.
 
-   ![](assets/offer_typology_001.png)
+   ![Nodo regole di tipologia con un nuovo modulo regola e l&#39;elenco Tipo regola che mostra la presentazione dell&#39;offerta](assets/offer_typology_001.png)
 
 1. Specifica il canale a cui applicare la regola.
 
-   ![](assets/offer_typology_002.png)
+   ![Elenco canali della regola di tipologia con tutti i canali evidenziati](assets/offer_typology_002.png)
 
 1. Configura i criteri di applicazione della regola. Per ulteriori informazioni, consulta [Impostazioni regola di presentazione](#presentation-rule-settings).
 1. Vai al nodo **[!UICONTROL Administration]** > **[!UICONTROL Campaign execution]** > **[!UICONTROL Typology management]** > **[!UICONTROL Typologies]** e crea una tipologia che raggrupperà tutte le regole di tipo **[!UICONTROL Offer presentation]**.
 
-   ![](assets/offer_typology_003.png)
+   ![Nodo Tipologie con la tipologia Offerte selezionata e la relativa scheda Generale visualizzata](assets/offer_typology_003.png)
 
 1. Una volta creata la tipologia, posiziona il cursore sulle regole di tipologia e raggruppatele nella tipologia appena creata.
 
-   ![](assets/offer_typology_004.png)
+   ![Scheda Tipologie della regola con la finestra di dialogo Aggiungi tipologie in cui è elencata la tipologia Offerte selezionata](assets/offer_typology_004.png)
 
 1. Nell’ambiente dell’offerta, fai riferimento alla tipologia utilizzando l’elenco a discesa.
 
-   ![](assets/offer_typology_005.png)
+   ![Scheda Idoneità dell&#39;ambiente - Ambiente offerte dai visitatori, elenco delle tipologie di presentazione delle offerte con offerte](assets/offer_typology_005.png)
 
 ## Impostazioni delle regole di presentazione {#presentation-rule-settings}
 
@@ -69,13 +69,13 @@ I criteri di applicazione disponibili nella scheda **[!UICONTROL General]** cons
 
 1. Nella regola di tipologia, fai clic sul collegamento **[!UICONTROL Edit the rule application conditions...]** per creare la query.
 
-   ![](assets/offer_typology_006.png)
+   ![Scheda Generale di una regola di tipologia con il collegamento Modifica le condizioni di applicazione della regola evidenziato](assets/offer_typology_006.png)
 
 1. Nella finestra della query puoi applicare un filtro alle offerte a cui desideri applicare una regola di tipologia.
 
    Ad esempio, puoi selezionare una categoria di offerta.
 
-   ![](assets/offer_typology_008.png)
+   ![Query su categoria uguale a una categoria di offerta selezionata nell&#39;albero delle offerte](assets/offer_typology_008.png)
 
 ### Dimensioni dell’offerta {#offer-dimensions}
 
@@ -83,7 +83,7 @@ Nella scheda **[!UICONTROL Offer presentation]** è necessario specificare per l
 
 **[!UICONTROL Targeting dimension]** coincide con la tabella dei destinatari (per impostazione predefinita: `nms:recipients`) che riceveranno le proposte di offerta. **[!UICONTROL Storage dimension]** coincide con la tabella che contiene la cronologia delle proposte collegata alla dimensione di targeting (per impostazione predefinita: `nms:propositionRcp`).
 
-![](assets/offer_typology_009.png)
+![Scheda Presentazione offerte con i campi Dimensione targeting e Dimensione archiviazione evidenziati](assets/offer_typology_009.png)
 
 >[!NOTE]
 >
@@ -100,7 +100,7 @@ Il periodo inizia **n** giorni prima della data della proposta e termina **n** g
 
 Utilizzare le frecce per modificare il numero di giorni o immettere direttamente un punto (&quot;2d 6h&quot;, ad esempio).
 
-![](assets/offer_typology_010.png)
+![Scheda Presentazione offerta con il periodo scorrevole, campo Periodo considerato evidenziato](assets/offer_typology_010.png)
 
 ### Numero di proposte {#number-of-propositions}
 
@@ -108,7 +108,7 @@ Utilizzare le frecce per modificare il numero di giorni o immettere direttamente
 
 Utilizza le frecce per modificare il numero di proposte di offerta.
 
-![](assets/offer_typology_011.png)
+![Scheda Presentazione offerta con il numero massimo di proposte, campo Quantità evidenziato](assets/offer_typology_011.png)
 
 ## Definizione di proposte e destinatari {#defining-propositions-and-recipients}
 
@@ -118,7 +118,7 @@ La sezione **[!UICONTROL Propositions to count]** ti consente di specificare sia
 
 Puoi selezionare i criteri di filtro per escludere le proposte in base al canale, alle offerte interessate o allo stato delle proposte assegnate in precedenza.
 
-![](assets/offer_typology_014.png)
+![Proposte per il conteggio sezione con Solo sullo stesso canale, filtri di stato Offerte e Proposte evidenziati](assets/offer_typology_014.png)
 
 Questi criteri rappresentano le applicazioni più frequenti delle regole di presentazione. Per utilizzare altri criteri, è possibile creare una query utilizzando il collegamento **[!UICONTROL Limit propositions...]**. Per ulteriori informazioni, consulta la sezione [Creazione di una query sulle proposte](#creating-a-query-on-propositions).
 
@@ -164,7 +164,7 @@ Questi criteri rappresentano le applicazioni più frequenti delle regole di pres
 
 Per specificare i destinatari, fare clic sul collegamento **[!UICONTROL Edit the query from the targeting dimension...]** e selezionare i destinatari interessati dalla regola.
 
-![](assets/offer_typology_012.png)
+![Modifica creazione guidata query di filtraggio selezionando i destinatari inclusi in una cartella come query della dimensione di targeting](assets/offer_typology_012.png)
 
 ### Creazione di una query sulle proposte {#creating-a-query-on-propositions}
 
@@ -172,4 +172,4 @@ Per specificare le proposte da conteggiare tramite una query, fai clic sul colle
 
 Nell&#39;esempio seguente, le proposte da conteggiare dopo due presentazioni sono quelle della categoria **Offerte speciali**, per lo spazio **Call center**, con un peso inferiore a **20**.
 
-![](assets/offer_typology_013.png)
+![Limita la query delle proposte in base a peso, spazio dell&#39;offerta e peso inferiore a 20 per il conteggio delle proposte](assets/offer_typology_013.png)

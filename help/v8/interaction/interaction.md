@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 709e38026d74ed707d10fc8109356289dc9f4ac9
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1636'
 ht-degree: 2%
 ---
 # Gestire le interazioni in tempo reale
@@ -42,7 +42,7 @@ Puoi creare un catalogo di offerte che si interfaccia con i canali in uscita (e-
 
 L’interazione consente di creare e gestire un catalogo di offerte e configurare le regole di idoneità e i temi dell’applicazione ad esse collegati. A seconda del canale scelto, il contenuto dell’offerta può essere personalizzato grazie a varie funzioni di rendering. Infine, puoi utilizzare il modulo di simulazione per calcolare l’impatto di una presentazione di offerta.
 
-![](assets/interaction-cycle.png)
+![Ciclo del motore di offerta: chiamata del motore, chiamata del catalogo, selezione e personalizzazione, cronologia, presentazione dell&#39;offerta](assets/interaction-cycle.png)
 
 In primo luogo, si verifica un contatto tra un cliente e un’azienda attraverso un canale di comunicazione: può essere un sito web (interazione in entrata), un’e-mail, un SMS, una notifica push (interazioni in uscita). [Ulteriori informazioni](#interaction-types)
 
@@ -76,7 +76,7 @@ Se lo spazio è definito da un canale unitario in modalità identificata, è nec
 
 1. Configura il motore delle offerte per le interazioni in entrata per presentare e aggiornare una o più offerte.
 
-   Le varie modalità di integrazione sono descritte in [questa sezione](interaction-present-offers.md).
+   Le varie modalità di integrazione sono descritte in dettaglio in [Presentare un&#39;offerta (interazione in entrata)](interaction-present-offers.md).
 
    >[!NOTE]
    >

@@ -35,16 +35,16 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 5%
+source-wordcount: '576'
+ht-degree: 4%
 ---
 # Stati di consegna {#delivery-statuses}
 
 Una volta inviata la consegna, il dashboard di consegna visualizza uno stato che consente di monitorare se l’invio è stato eseguito correttamente. I possibili stati sono descritti nella sezione seguente.
 
-![](assets/delivery-status.png)
+![Riepilogo del dashboard di consegna con il campo Stato evidenziato, che mostra la data di fine e la data di fine](assets/delivery-status.png)
 
 Per ulteriori dettagli sui diversi errori di consegna riscontrabili e su come risolverli, consulta [Informazioni sugli errori di consegna](delivery-failures.md).
 
@@ -108,7 +108,7 @@ Per ulteriori dettagli sui diversi errori di consegna riscontrabili e su come ri
  </tbody> 
 </table>
 
-Per informazioni su come ottimizzare il recapito dei messaggi di posta elettronica di Adobe Campaign, consulta [questa sezione](about-deliverability.md). Per informazioni più approfondite sul recapito messaggi, consulta la [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=it).
+Per informazioni su come ottimizzare il recapito dei messaggi di posta elettronica di Adobe Campaign, consulta [Introduzione al recapito messaggi in Campaign](about-deliverability.md). Per informazioni più approfondite sul recapito messaggi, consulta la [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=it).
 
 ## Stato in sospeso {#pending-status}
 

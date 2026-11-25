@@ -30,9 +30,9 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '957'
 ht-degree: 0%
 ---
 # Gestione collegamenti {#links--relation-between-tables}
@@ -49,14 +49,14 @@ Nell’interfaccia utente, le cardinalità sono rappresentate da un’icona spec
 
 Per le relazioni di join con una tabella o un database di Campaign:
 
-* ![](assets/do-not-localize/join_with_campaign11.png): Cardinalità 1-1. Ad esempio, tra un destinatario e un ordine corrente. Un destinatario può essere correlato a una sola occorrenza della tabella dell&#39;ordine corrente alla volta.
-* ![](assets/do-not-localize/externaljoin11.png): Cardinalità 1-1, join esterno. Ad esempio, tra un destinatario e il suo paese. Un destinatario può essere correlato a una sola occorrenza del paese della tabella. Il contenuto della country table non verrà salvato.
-* ![](assets/do-not-localize/join_with_campaign1n.png): Cardinalità 1-N. Ad esempio, tra un destinatario e la tabella delle sottoscrizioni. Un destinatario può essere correlato a diverse occorrenze nella tabella delle sottoscrizioni.
+* ![Icona per un collegamento di cardinalità 1-1](assets/do-not-localize/join_with_campaign11.png): cardinalità 1-1. Ad esempio, tra un destinatario e un ordine corrente. Un destinatario può essere correlato a una sola occorrenza della tabella dell&#39;ordine corrente alla volta.
+* ![Icona per un join esterno con cardinalità 1-1](assets/do-not-localize/externaljoin11.png): cardinalità 1-1, join esterno. Ad esempio, tra un destinatario e il suo paese. Un destinatario può essere correlato a una sola occorrenza del paese della tabella. Il contenuto della country table non verrà salvato.
+* ![Icona per un collegamento di cardinalità 1-N](assets/do-not-localize/join_with_campaign1n.png): cardinalità 1-N. Ad esempio, tra un destinatario e la tabella delle sottoscrizioni. Un destinatario può essere correlato a diverse occorrenze nella tabella delle sottoscrizioni.
 
 Per le relazioni di join che utilizzano Federated Database Access (FDA):
 
-* ![](assets/do-not-localize/join_fda_11.png): Cardinalità 1-1
-* ![](assets/do-not-localize/join_fda_1m.png): Cardinalità 1-N
+* ![Icona per un collegamento di cardinalità 1-1](assets/do-not-localize/join_fda_11.png): cardinalità 1-1
+* ![Icona per un collegamento di cardinalità 1-N](assets/do-not-localize/join_fda_1m.png): cardinalità 1-N
 
 Per ulteriori informazioni sulle tabelle FDA, vedere [Accesso a un database esterno](../connect/fda.md).
 

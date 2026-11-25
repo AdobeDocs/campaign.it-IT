@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '627'
 ht-degree: 0%
 ---
 # Origini dati di Personalization{#personalization-data}
@@ -53,7 +53,7 @@ Per selezionare il file da utilizzare come origine dati, passare al collegamento
 
 I dati Personalization possono essere estratti da una tabella esterna tramite [Federated Data Access](../connect/fda.md).  Se desideri eseguire la personalizzazione nelle consegne utilizzando i dati del database esterno, raccogli i dati da utilizzare in un flusso di lavoro per renderli disponibili in una tabella temporanea.
 
-Per eseguire questa operazione, aggiungere un&#39;attività **Query** nel flusso di lavoro di targeting e utilizzare il collegamento **Aggiungi dati...** per selezionare il database esterno. Il processo dettagliato è disponibile in [questa sezione](../../automation/workflow/query.md#adding-data).
+Per eseguire questa operazione, aggiungere un&#39;attività **Query** nel flusso di lavoro di targeting e utilizzare il collegamento **Aggiungi dati...** per selezionare il database esterno. Il processo dettagliato è disponibile in [Aggiungi dati](../../automation/workflow/query.md#adding-data).
 
 Quindi utilizza i dati della tabella temporanea per personalizzare la consegna. Una volta configurata l&#39;attività Query, accedi ai dati esterni nelle opzioni di personalizzazione dalla voce **Estensione Target**.
 
@@ -87,4 +87,4 @@ Al termine dell&#39;analisi, passare al flusso di lavoro **[!UICONTROL Propertie
 
 Quando una consegna viene creata nel contesto di un flusso di lavoro, puoi utilizzare i dati della tabella del flusso di lavoro temporaneo. I dati memorizzati nella tabella di lavoro temporanea del flusso di lavoro sono disponibili per le attività di personalizzazione. I dati possono essere utilizzati nei campi di personalizzazione.
 
-Questi dati sono raggruppati nel menu **[!UICONTROL Target extension]**. Per ulteriori informazioni, consulta [questa sezione](../../automation/workflow/use-workflow-data.md#target-data).
+Questi dati sono raggruppati nel menu **[!UICONTROL Target extension]**. Per ulteriori informazioni, consulta [Sfruttare i dati di destinazione](../../automation/workflow/use-workflow-data.md#target-data).

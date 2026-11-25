@@ -21,9 +21,9 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '1244'
 ht-degree: 1%
 ---
 # Passaggi chiave per creare un sondaggio{#getting-started-with-surveys}
@@ -36,7 +36,7 @@ ht-degree: 1%
 
 Ecco una breve panoramica dei passaggi principali per creare un semplice sondaggio utilizzando il seguente modello integrato:
 
-![](assets/s_ncs_admin_survey_result.png)
+![Pagina del sondaggio I tuoi dettagli con cognome, numero account e campi e-mail, un elenco di formati e-mail e un pulsante Convalida](assets/s_ncs_admin_survey_result.png)
 
 I passaggi seguenti sono:
 
@@ -52,13 +52,13 @@ I passaggi seguenti sono:
 
 Per creare un nuovo sondaggio, passare alla scheda **[!UICONTROL Campaigns]** o **[!UICONTROL Profiles and targets]** e fare clic sul menu **[!UICONTROL Web Applications]**. Fare clic sul pulsante **[!UICONTROL Create]** sopra l&#39;elenco dei moduli.
 
-![](assets/s_ncs_admin_survey_create.png)
+![Elenco applicazioni Web nella scheda Campagne con il pulsante Crea sopra l&#39;elenco dei moduli](assets/s_ncs_admin_survey_create.png)
 
 ## Passaggio 2: selezionare il modello {#step-2---selecting-the-template}
 
 Seleziona un modello di sondaggio, quindi assegna un nome al sondaggio. Questo nome non verrà visualizzato dagli utenti finali, ma consente di identificare il sondaggio in Adobe Campaign. Fare clic su **[!UICONTROL Save]** per aggiungere il sondaggio all&#39;elenco delle applicazioni Web.
 
-![](assets/s_ncs_admin_survey_wz_00.png)
+![Finestra di dialogo Nuova applicazione Web con il nuovo modello di sondaggio selezionato, un&#39;etichetta, una cartella e il pulsante Salva](assets/s_ncs_admin_survey_wz_00.png)
 
 ## Passaggio 3: creare il sondaggio {#step-3---building-the-survey}
 
@@ -70,34 +70,34 @@ Un sondaggio deve contenere **almeno** i seguenti tre componenti: una pagina, un
 
 * Per creare una pagina, selezionare l&#39;oggetto **[!UICONTROL Page]** nella sezione sinistra dell&#39;editor e depositarlo nella sezione centrale, come illustrato di seguito:
 
-  ![](assets/s_ncs_admin_survey_new_page.png)
+  ![Editor sondaggi con l&#39;oggetto Page trascinato dall&#39;elenco Comune nell&#39;area del diagramma](assets/s_ncs_admin_survey_new_page.png)
 
 * Selezionare quindi l&#39;oggetto **[!UICONTROL Storage]** e inserirlo nella transizione di output della pagina.
 * Infine, selezionare l&#39;oggetto **[!UICONTROL End]** e collocarlo alla fine della transizione di output della casella di archiviazione per ottenere il diagramma seguente:
 
-  ![](assets/s_ncs_admin_survey_end.png)
+  ![Diagramma di sondaggio con una pagina, una casella di archiviazione e un oggetto finale collegati da transizioni](assets/s_ncs_admin_survey_end.png)
 
 ## Passaggio 4: creare il contenuto della pagina {#step-4---creating-the-page-content}
 
 Nell&#39;esempio seguente viene utilizzata una pagina di tipo **[!UICONTROL Page (v5 compatibility)]**. Questo tipo di pagina è accessibile tramite il menu avanzato della scheda **[!UICONTROL Edit]**.
 
-![](assets/s_ncs_admin_survey_pagev5.png)
+![Elenco avanzato della scheda Modifica con l&#39;oggetto Page (compatibilità v5) selezionato in un diagramma Page, Storage, End](assets/s_ncs_admin_survey_pagev5.png)
 
 * **Aggiungi campi di input**
 
   Per creare il contenuto della pagina, è necessario modificarlo: a tale scopo, fare doppio clic sull&#39;oggetto **[!UICONTROL Page]**. Fai clic sulla prima icona nella barra degli strumenti per aprire l’assistente per la creazione dei campi. Per creare un campo di immissione per il nome utente da archiviare nel campo corrispondente del profilo del destinatario, selezionare **[!UICONTROL Edit a recipient]**.
 
-  ![](assets/s_ncs_admin_survey_add_field_menu.png)
+  ![Creazione guidata campi con l&#39;opzione Modifica un destinatario selezionata per aggiungere un campo modulo](assets/s_ncs_admin_survey_add_field_menu.png)
 
   Fare clic sul pulsante **[!UICONTROL Next]** per selezionare il campo per l&#39;archiviazione dei dati nel database. In questo caso, il campo &quot;Cognome&quot;.
 
-  ![](assets/s_ncs_admin_survey_choose_field.png)
+  ![Creazione guidata campi in cui sono elencati i campi Destinatario, con Cognome selezionato come campo da immettere](assets/s_ncs_admin_survey_choose_field.png)
 
   Fare clic su **[!UICONTROL Finish]** per confermare la creazione del campo.
 
   Per impostazione predefinita, quando le informazioni vengono memorizzate in un campo già esistente nel database, il campo assume il nome del campo selezionato, ovvero &#39;Cognome&#39; in questo esempio. Puoi modificare questa etichetta come mostrato di seguito:
 
-  ![](assets/s_ncs_admin_survey_change_label.png)
+  ![Editor pagina in cui l&#39;etichetta del campo Cognome viene modificata in Nome utente, memorizzato nel campo del database @lastName](assets/s_ncs_admin_survey_change_label.png)
 
   Ora crea un campo di immissione per il numero di account utente. Ripetere l&#39;operazione e selezionare il campo &#39;nr. account&#39;.
 
@@ -107,29 +107,29 @@ Nell&#39;esempio seguente viene utilizzata una pagina di tipo **[!UICONTROL Page
 
   Per creare una domanda, fare clic con il pulsante destro del mouse sull&#39;ultimo elemento della struttura e selezionare **[!UICONTROL Containers > Question]** oppure fare clic sull&#39;icona **[!UICONTROL Containers]** e selezionare **[!UICONTROL Question]**.
 
-  ![](assets/s_ncs_admin_survey_add_qu.png)
+  ![Editor pagina con il menu Contenitori aperto e Domanda selezionata, sotto il nome, il numero account e i campi e-mail](assets/s_ncs_admin_survey_add_qu.png)
 
   Immettere l&#39;etichetta della domanda e inserire il campo o i campi di risposta come sottosezione della domanda. A questo scopo, quando crei il campo di risposta devi selezionare il nodo collegato alla domanda. Aggiungere **[!UICONTROL drop-down list]** utilizzando l&#39;icona **[!UICONTROL Selection controls]** o facendo clic con il pulsante destro del mouse, come illustrato di seguito:
 
-  ![](assets/s_ncs_admin_survey_add_list.png)
+  ![Menu di scelta rapida sulla domanda con i controlli Selezione aperti e la casella combinata evidenziata](assets/s_ncs_admin_survey_add_list.png)
 
   Seleziona uno spazio di archiviazione: seleziona un campo di enumerazione per recuperare automaticamente i valori (in questo caso, il formato e-mail).
 
-  ![](assets/s_ncs_admin_survey_add_itz_list.png)
+  ![Finestra di dialogo Archiviazione con Modifica un destinatario selezionato e il campo del database Formato e-mail (@emailFormat)](assets/s_ncs_admin_survey_add_itz_list.png)
 
   Nella scheda **[!UICONTROL General]**, fare clic sul collegamento **[!UICONTROL Initialize the list of values from the database]**: l&#39;indice dei valori viene immesso automaticamente.
 
-  ![](assets/s_ncs_admin_survey_add_value.png)
+  ![Casella combinata Scheda Generale con l&#39;elenco di valori Inizializza dal database link e l&#39;elenco di valori compilato](assets/s_ncs_admin_survey_add_value.png)
 
   Fare clic su **[!UICONTROL OK]** per chiudere l&#39;editor e su **[!UICONTROL Save]** per salvare le modifiche.
 
   >[!NOTE]
   >
-  >Per ogni campo o domanda, è possibile adattare il layout di pagina in base alle proprie esigenze, grazie alle opzioni disponibili nella scheda **[!UICONTROL Advanced]**. Il layout delle schermate del sondaggio è descritto in [questa sezione](../web/about-web-forms.md).
+  >Per ogni campo o domanda, è possibile adattare il layout di pagina in base alle proprie esigenze, grazie alle opzioni disponibili nella scheda **[!UICONTROL Advanced]**. Il layout delle schermate del sondaggio è descritto in [Introduzione ai moduli web](../web/about-web-forms.md).
 
   Nella schermata di dettaglio, fare clic sulla scheda **[!UICONTROL Preview]** per visualizzare il rendering del sondaggio appena creato.
 
-  ![](assets/s_ncs_admin_survey_preview.png)
+  ![Scheda Anteprima che mostra la pagina del sondaggio con il nome, il numero di account, i campi del formato e-mail e e-mail e un pulsante Convalida](assets/s_ncs_admin_survey_preview.png)
 
 ## Passaggio 5: memorizzare i dati del sondaggio {#step-5---storing-the-survey-data-}
 
@@ -139,7 +139,7 @@ A questo scopo, modifica la casella e seleziona il campo che verrà utilizzato c
 
 Nell’esempio seguente, quando si esegue il salvataggio (conferma), se un profilo viene salvato nel database con lo stesso numero di conto di quello immesso nel modulo, il profilo viene aggiornato. Se il profilo non esiste, verrà creato.
 
-![](assets/s_ncs_admin_survey_save_edit.png)
+![Finestra di dialogo della casella di archiviazione con il campo Account # selezionato come chiave di riconciliazione in Destinatario](assets/s_ncs_admin_survey_save_edit.png)
 
 Fai clic su **[!UICONTROL OK]** per confermare, quindi su **[!UICONTROL Save]** per salvare il sondaggio.
 
@@ -150,17 +150,17 @@ Affinché gli utenti possano accedere alle pagine di HTML, l’applicazione deve
 * Fai clic sul pulsante **[!UICONTROL Publish]** situato sopra il dashboard del sondaggio.
 * Fare clic su **[!UICONTROL Start]** per avviare la pubblicazione e chiudere l&#39;assistente.
 
-  ![](assets/s_ncs_admin_survey_start_publ.png)
+  ![Pulsante Pubblica dashboard che consente di aprire la finestra di dialogo di pubblicazione dell&#39;applicazione Web con il pulsante Start](assets/s_ncs_admin_survey_start_publ.png)
 
   Lo stato del sondaggio diventa: **Online**.
 
-  ![](assets/survey_published.png)
+  ![Dashboard del sondaggio con stato cambiato in Online e data di pubblicazione e URL pubblico visualizzati](assets/survey_published.png)
 
 ## Passaggio 7: condividere un sondaggio online {#step-7---sharing-your-online-survey}
 
 Una volta che è in produzione, il sondaggio è accessibile sul server e puoi distribuirlo. L’URL per accedere al sondaggio viene visualizzato nel dashboard.
 
-![](assets/survey_url_from_dashboard.png)
+![Dashboard del sondaggio con una freccia che punta al campo URL pubblico del sondaggio online](assets/survey_url_from_dashboard.png)
 
 Per inviare il sondaggio, puoi inviare un messaggio contenente un collegamento di accesso alla popolazione target oppure, ad esempio, inserire l’URL di accesso al sondaggio in una pagina web.
 

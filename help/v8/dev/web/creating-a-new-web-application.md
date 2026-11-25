@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 16%
+source-wordcount: '418'
+ht-degree: 9%
 ---
 # Creare una nuova applicazione web{#creating-a-new-web-application}
 
@@ -43,7 +43,7 @@ I tipi di applicazione Web vengono selezionati durante la creazione.
 
 Vai alla scheda **Campagne** e seleziona il menu **[!UICONTROL Web Applications]**. Fai clic sul pulsante **[!UICONTROL Create]**. Selezionare il modello di applicazione Web che si desidera utilizzare:
 
-![](assets/webapp_create_from_campaign.png)
+![Elenco applicazioni Web con il pulsante Crea e l&#39;elenco dei modelli, inclusi Nuova pagina di destinazione e Nuovo modulo Web](assets/webapp_create_from_campaign.png)
 
 >[!NOTE]
 >
@@ -57,11 +57,11 @@ Questo modello determina il tipo di applicazione Web. Puoi creare:
 
 1. Applicazioni web
 
-   Adobe Campaign consente di creare applicazioni Web da esporre, ad esempio, su una piattaforma Web o su una extranet. Questo consente di modificare i dati e registrare le informazioni in Adobe Campaign. In questo caso, puoi limitarne l’accesso agli utenti autenticati (tramite il controllo degli accessi) e impostare il precaricamento dei dati in base a vari criteri. Per ulteriori informazioni al riguardo, consulta [questa sezione](about-web-applications.md).
+   Adobe Campaign consente di creare applicazioni Web da esporre, ad esempio, su una piattaforma Web o su una extranet. Questo consente di modificare i dati e registrare le informazioni in Adobe Campaign. In questo caso, puoi limitarne l’accesso agli utenti autenticati (tramite il controllo degli accessi) e impostare il precaricamento dei dati in base a vari criteri. Per ulteriori informazioni, consulta [Introduzione alle applicazioni Web](about-web-applications.md).
 
 1. Pagine di destinazione
 
-   Una pagina di destinazione è una pagina di HTML il cui contenuto è disponibile su un sito web e che consente agli utenti di immettere informazioni da memorizzare nel profilo del database di Adobe Campaign. Il contenuto di questo tipo di pagina viene in genere creato da un’agenzia Web specializzata prima di essere importato in Adobe Campaign per la pubblicazione, la gestione e il follow-up. Per ulteriori informazioni, consulta [questa pagina](creating-a-landing-page.md).
+   Una pagina di destinazione è una pagina di HTML il cui contenuto è disponibile su un sito web e che consente agli utenti di immettere informazioni da memorizzare nel profilo del database di Adobe Campaign. Il contenuto di questo tipo di pagina viene in genere creato da un’agenzia Web specializzata prima di essere importato in Adobe Campaign per la pubblicazione, la gestione e il follow-up. Per ulteriori informazioni, consulta [Creare una pagina di destinazione](creating-a-landing-page.md).
 
 1. Indagini
 
@@ -79,4 +79,4 @@ Questo modello determina il tipo di applicazione Web. Puoi creare:
    >
    >**Social Marketing** è un modulo Adobe Campaign facoltativo. Controlla il contratto di licenza.
 
-La modalità di configurazione della pagina e le configurazioni disponibili possono essere identiche per diversi tipi di applicazioni web. Per ulteriori informazioni al riguardo, consulta [questa sezione](about-web-forms.md).
+La modalità di configurazione della pagina e le configurazioni disponibili possono essere identiche per diversi tipi di applicazioni web. Per ulteriori informazioni, consulta [Introduzione ai moduli web](about-web-forms.md).

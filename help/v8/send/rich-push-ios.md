@@ -25,10 +25,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 8%
+source-wordcount: '1338'
+ht-degree: 7%
 ---
 # Progettare una consegna push iOS avanzata {#rich-push}
 
@@ -56,7 +56,7 @@ Per ulteriori informazioni su come personalizzare questi modelli, accedi alle sc
 
 1. Dall&#39;elenco a discesa **[!UICONTROL Notification Type]**, selezionare **[!UICONTROL Default]**.
 
-   ![](assets/rich_push_ios_default_1.png)
+   ![Scheda Generale con elenco a discesa Tipo di notifica Predefinito, Base, Carosello e Timer](assets/rich_push_ios_default_1.png)
 
 1. Nel campo **[!UICONTROL Title]**, immettere l&#39;etichetta del titolo che si desidera visualizzare nell&#39;elenco delle notifiche disponibili dal centro notifiche.
 
@@ -66,17 +66,17 @@ Per ulteriori informazioni su come personalizzare questi modelli, accedi alle sc
 
 1. Immettere il contenuto del messaggio nella sezione **[!UICONTROL Message content]** della procedura guidata.
 
-   ![](assets/rich_push_ios_default_2.png)
+   ![Scheda Generale con il tipo di notifica predefinito, il titolo e il contenuto del messaggio compilati](assets/rich_push_ios_default_2.png)
 
 1. Passare alla scheda **[!UICONTROL Sound and Badge]** per personalizzare ulteriori impostazioni, ad esempio le opzioni audio e di badge per le notifiche. [Ulteriori informazioni](#sound-badge)
 
-   ![](assets/rich_push_ios_default_3.png)
+   ![Scheda Suono e badge con le impostazioni Pulisci badge selezionate, Modalità avviso critico e Nome suono](assets/rich_push_ios_default_3.png)
 
 1. Dalla scheda **[!UICONTROL Application variables]**, **[!UICONTROL Application variables]** viene aggiunto automaticamente. Consentono di definire il comportamento di notifica; ad esempio, puoi configurare una schermata di un’applicazione specifica da visualizzare quando l’utente attiva la notifica.
 
 1. Per ulteriori personalizzazioni, esplora **[!UICONTROL Advanced options]** disponibile per le notifiche push. [Ulteriori informazioni](#push-advanced)
 
-   ![](assets/rich_push_ios_default_4.png)
+   ![Scheda Avanzate con campi Thread-id, Category, Target Content id, Launch image e Relevance score](assets/rich_push_ios_default_4.png)
 
 1. Una volta configurata la notifica, fare clic sulla scheda **[!UICONTROL Preview]** per visualizzare l&#39;anteprima della notifica.
 
@@ -86,13 +86,13 @@ Per ulteriori informazioni su come personalizzare questi modelli, accedi alle sc
 
 1. Dall&#39;elenco a discesa **[!UICONTROL Notification Type]**, selezionare **[!UICONTROL Basic]**.
 
-   ![](assets/rich_push_ios_basic_1.png)
+   ![Elenco a discesa Tipo di notifica con Basic selezionato, aggiunta dei campi Titolo espanso e Messaggio espanso](assets/rich_push_ios_basic_1.png)
 
 1. Per comporre il messaggio, immettere il testo nei campi **[!UICONTROL Title]**,**[!UICONTROL Expanded message]**, **[!UICONTROL Message]** e **[!UICONTROL Expanded message]**.
 
    Il testo **[!UICONTROL Message]** viene visualizzato nella visualizzazione compressa mentre **[!UICONTROL Expanded message]** viene visualizzato quando la notifica viene espansa.
 
-   ![](assets/rich_push_ios_basic_2.png)
+   ![Notifica di base con i campi Titolo, Titolo espanso, Messaggio ed Messaggio espanso compilati](assets/rich_push_ios_basic_2.png)
 
 1. Facoltativamente, aggiungi **[!UICONTROL Subtitle]**, che corrisponde al parametro **subtitle** del payload di notifica di iOS.
 
@@ -102,11 +102,11 @@ Per ulteriori informazioni su come personalizzare questi modelli, accedi alle sc
 
 1. Per ulteriori personalizzazioni, esplora **[!UICONTROL Advanced options]** disponibile per le notifiche push. [Ulteriori informazioni](#push-advanced)
 
-   ![](assets/rich_push_ios_default_4.png)
+   ![Scheda Avanzate con campi Thread-id, Category, Target Content id, Launch image e Relevance score](assets/rich_push_ios_default_4.png)
 
 1. Nel menu **[!UICONTROL Color options]** immettere i codici colore esadecimali per **[!UICONTROL Title]**, **[!UICONTROL Message]** e **[!UICONTROL Background]**.
 
-   ![](assets/rich_push_ios_basic_3.png)
+   ![Scheda Opzioni colore con i campi Colore titolo, Colore messaggio e Colore sfondo](assets/rich_push_ios_basic_3.png)
 
 Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di prova per visualizzare in anteprima e verificare il messaggio.
 
@@ -116,17 +116,17 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 
 1. Dall&#39;elenco a discesa **[!UICONTROL Notification Type]**, selezionare **[!UICONTROL Carousel]**.
 
-   ![](assets/rich_push_ios_carousel_1.png)
+   ![Elenco a discesa Tipo di notifica con carosello selezionato, aggiunta delle schede Opzioni colore e Opzioni carosello](assets/rich_push_ios_carousel_1.png)
 
 1. Per comporre il messaggio, immettere il testo nei campi **[!UICONTROL Title]**, **[!UICONTROL Expanded Title]** e **[!UICONTROL Message]**.
 
-   ![](assets/rich_push_ios_carousel_2.png)
+   ![Notifica carosello con i campi Titolo, Titolo espanso e Messaggio compilati](assets/rich_push_ios_carousel_2.png)
 
 1. Passare alla scheda **[!UICONTROL Sound and Badge]** per personalizzare ulteriori impostazioni, ad esempio le opzioni audio e di badge per le notifiche. [Ulteriori informazioni](#sound-badge)
 
 1. Dalla scheda **[!UICONTROL Application variables]**, **[!UICONTROL Application variables]** viene aggiunto automaticamente. Consentono di definire il comportamento di notifica; ad esempio, puoi configurare una schermata di un’applicazione specifica da visualizzare quando l’utente attiva la notifica.
 
-   ![](assets/rich_push_ios_carousel_4.png)
+   ![Scheda Avanzata di una notifica Carosello con i campi ID thread, ID contenuto di destinazione e Azione di clic](assets/rich_push_ios_carousel_4.png)
 
 1. Per ulteriori personalizzazioni, esplora **[!UICONTROL Advanced options]** disponibile per le notifiche push. [Ulteriori informazioni](#push-advanced)
 
@@ -141,7 +141,7 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 
    Assicurati di includere un minimo di tre immagini e un massimo di cinque.
 
-   ![](assets/rich_push_ios_carousel_3.png)
+   ![Scheda Opzioni carosello con modalità di funzionamento manuale e elenco di immagini con URI azione](assets/rich_push_ios_carousel_3.png)
 
 Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di prova per visualizzare in anteprima e verificare il messaggio.
 
@@ -151,13 +151,13 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 
 1. Dall&#39;elenco a discesa **[!UICONTROL Notification Type]**, selezionare **[!UICONTROL Timer]**.
 
-   ![](assets/rich_push_ios_timer_1.png)
+   ![Elenco a discesa Tipo di notifica con Timer selezionato, aggiunta delle schede Opzioni colore e Opzioni timer](assets/rich_push_ios_timer_1.png)
 
 1. Per comporre il messaggio, immettere il testo nei campi **[!UICONTROL Title]**, **[!UICONTROL Expanded title]**, **[!UICONTROL Message]** e **[!UICONTROL Expanded message]**.
 
    Il testo **[!UICONTROL Message]** viene visualizzato nella visualizzazione compressa mentre **[!UICONTROL Expanded message]** viene visualizzato quando la notifica viene espansa.
 
-   ![](assets/rich_push_ios_timer_2.png)
+   ![Notifica con timer con i campi Titolo, Titolo espanso e Messaggio compilati](assets/rich_push_ios_timer_2.png)
 
 1. Facoltativamente, aggiungi **[!UICONTROL Subtitle]**, che corrisponde al parametro **subtitle** del payload di notifica di iOS.
 
@@ -169,13 +169,13 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 
 1. Nel menu **[!UICONTROL Color options]** immettere i codici colore esadecimali per **[!UICONTROL Title]**, **[!UICONTROL Message]** e **[!UICONTROL Background]**.
 
-   ![](assets/rich_push_ios_timer_4.png)
+   ![Scheda Opzioni colore con i campi Colore titolo, Colore messaggio, Colore sfondo e Colore timer](assets/rich_push_ios_timer_4.png)
 
 1. Dalla scheda **[!UICONTROL Timer]**, imposta **[!UICONTROL Timer duration]** in secondi o **[!UICONTROL Timer end timestamp]** su un timestamp epoca specifico.
 
 1. Immettere il testo e l&#39;immagine che verranno visualizzati dopo la scadenza del timer nei campi **[!UICONTROL Alternate title]**, **[!UICONTROL Alternate message]** e **[!UICONTROL Alternate image]**.
 
-   ![](assets/rich_push_ios_timer_3.png)
+   ![Scheda Opzioni timer con i campi Titolo alternativo, Durata timer, Immagine alternativa e Messaggio alternativo](assets/rich_push_ios_timer_3.png)
 
 Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di prova per visualizzare in anteprima e verificare il messaggio.
 

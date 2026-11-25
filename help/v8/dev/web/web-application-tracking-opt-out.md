@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '740'
 ht-degree: 2%
 ---
 # Rinuncia al tracciamento delle applicazioni web{#web-application-tracking-opt-out}
@@ -66,11 +66,11 @@ Se il tracciamento web è attivato, puoi avere:
 * Nessun banner.
 * Configura il banner manualmente su ogni pagina: seleziona questa opzione e seleziona il banner in ogni pagina nelle proprietà della pagina.
 
-  ![](assets/pageproperties.png)
+  ![Intestazione della finestra di dialogo delle proprietà della pagina con l&#39;opzione Abilita transizioni in uscita selezionata.](assets/pageproperties.png)
 
 * Aggiungi automaticamente il banner a tutte le pagine: seleziona il banner direttamente nelle proprietà dell&#39;applicazione Web.
 
-  ![](assets/optoutconfig.png)
+  ![Scheda Generale delle proprietà dell&#39;applicazione Web con le opzioni del banner di rinuncia: nessun banner, manuale per pagina o automatico.](assets/optoutconfig.png)
 
 >[!NOTE]
 >
@@ -78,7 +78,7 @@ Se il tracciamento web è attivato, puoi avere:
 
 Il banner predefinito ha la seguente struttura:
 
-```
+```xml
 <div onClick="NL.ClientWebTracking.closeOptOutBanner(this);" id="defaultOptOutBanner">
   <p>Please insert your message here
    <a onClick="NL.ClientWebTracking.allow();" class="optout-accept">Accept</a>
@@ -90,7 +90,7 @@ Il banner predefinito ha la seguente struttura:
 
 È necessario sostituire **Inserire qui il messaggio** con il blocco contenente le informazioni di tracciamento. Questa sostituzione deve essere eseguita nel nuovo blocco di personalizzazione relativo al banner di rinuncia.
 
-Il banner viene consegnato con un CSS specifico. Tuttavia, è possibile sovrascrivere gli stili durante la creazione e la configurazione di una pagina Web. Consulta [questa pagina](content-editor-interface.md).
+Il banner viene consegnato con un CSS specifico. Tuttavia, è possibile sovrascrivere gli stili durante la creazione e la configurazione di una pagina Web. Consulta [Interfaccia dell&#39;editor di contenuti](content-editor-interface.md).
 
 ## Impostazione del cookie di rinuncia tramite API {#setting-the-opt-out-cookie-using-api}
 
@@ -137,7 +137,7 @@ Se devi scrivere un JSSP, sono disponibili le API lato server:
 
 Esempio JSSP:
 
-```
+```html
 <%@ page import="/nl/core/shared/nl.js" %>
 <!doctype html>
 <%

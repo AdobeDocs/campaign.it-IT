@@ -35,22 +35,22 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '1565'
-ht-degree: 90%
+source-wordcount: '1710'
+ht-degree: 78%
 ---
 # Creare la prima consegna {#create-a-msg}
 
-In questa pagina scoprirai come creare una consegna singola. Puoi creare altri tipi di consegne per generare i tuoi casi d’uso. Ulteriori informazioni sui diversi tipi di consegne e su come crearle sono disponibili in [questa pagina](gs-message.md).
+In questa pagina scoprirai come creare una consegna singola. Puoi creare altri tipi di consegne per generare i tuoi casi d’uso. Ulteriori informazioni sui diversi tipi di consegne e su come crearle in [Introduzione ai messaggi](gs-message.md).
 
 I passaggi chiave per la creazione di una consegna singola sono i seguenti:
 
-1. **Crea una nuova consegna**. [Ulteriori informazioni](#create-the-delivery)
+1. **Crea una nuova consegna**. [Crea la consegna](#create-the-delivery)
 
-1. **Definisci il contenuto della consegna**. [Ulteriori informazioni](#content-of-the-delivery)
+1. **Definisci il contenuto della consegna**. [Definisci il contenuto della consegna](#content-of-the-delivery)
 
-1. **Seleziona la popolazione target** [Ulteriori informazioni](#target-population)
+1. **Seleziona la popolazione target** [Definisci il pubblico di destinazione](#target-population)
 
 Puoi quindi preparare, testare, inviare e monitorare i messaggi con Adobe Campaign.
 
@@ -65,7 +65,7 @@ Per creare una consegna, segui questi passaggi:
 1. Accedi all’elenco delle consegne e fai clic su **[!UICONTROL Create]**.
 1. Seleziona il canale di consegna. Per farlo, scegli il modello di consegna appropriato dall’elenco a discesa.
 
-   ![](../send/assets/select-the-new-template.png)
+   ![Elenco a discesa dei modelli di consegna tra cui scegliere e-mail, SMS, tweet e altri modelli di consegna](../send/assets/select-the-new-template.png)
 
    Per ogni canale installato viene fornito un modello incorporato: e-mail, telefono, canali mobili (push/SMS), direct mail, X (Twitter), ecc. I canali disponibili nell’elenco dipendono dal contratto di licenza.
 
@@ -110,32 +110,32 @@ Per selezionare i destinatari di una consegna, segui i passaggi indicati di segu
 1. Nell’editor di consegna, seleziona **[!UICONTROL To]**.
 1. Se i destinatari sono memorizzati nel database, scegli la prima opzione.
 
-   ![](../send/sms/assets/audience_to.png){zoomable="yes"}
+   ![Finestra di dialogo Seleziona destinazione con il collegamento A e l&#39;opzione Definito nel database selezionata](../send/sms/assets/audience_to.png){zoomable="yes"}
 
 1. Seleziona la [mappatura target](../audiences/target-mappings.md) nell’elenco a discesa **[!UICONTROL Target mapping]**.
 1. Fai clic sul pulsante **[!UICONTROL Add]** per definire i filtri di restrizione.
 
-   ![](assets/target-type.png){width="60%" zoomable="yes"}
+   ![Finestra di dialogo Tipo di destinazione in cui sono elencati i filtri di restrizione, ad esempio Destinatari inclusi in una cartella](assets/target-type.png){width="60%" zoomable="yes"}
 
    Seleziona un tipo di filtro e fai clic su **[!UICONTROL Next]** per definire le condizioni. È possibile visualizzare i destinatari filtrati dalla scheda **[!UICONTROL Preview]**. A seconda del tipo di target, il pulsante **[!UICONTROL Refine target]** consente di combinare diversi criteri di targeting.
 
    Sono disponibili i seguenti tipi di target:
 
-   * **[!UICONTROL Filtering conditions]**: utilizzare questa opzione per definire una query personalizzata per il recupero dei destinatari. Per informazioni su come progettare una query, consulta [questa sezione](../start/query-editor.md).
-   * **[!UICONTROL A list of recipients]**: utilizza questa opzione per impostare come target un elenco di profili. Per ulteriori informazioni sugli elenchi, consulta [questa sezione](../audiences/create-audiences.md).
+   * **[!UICONTROL Filtering conditions]**: utilizzare questa opzione per definire una query personalizzata per il recupero dei destinatari. Scopri come progettare una query in [Utilizza l&#39;editor di query](../start/query-editor.md).
+   * **[!UICONTROL A list of recipients]**: utilizza questa opzione per impostare come target un elenco di profili. Ulteriori informazioni sugli elenchi in [Creare tipi di pubblico di profilo in Campaign](../audiences/create-audiences.md).
    * **[!UICONTROL A recipient]**: utilizza questa opzione per selezionare un profilo specifico nel database.
    * **[!UICONTROL Recipients included in a folder]**: utilizza questa opzione per eseguire il targeting di tutti i profili contenuti in una cartella specifica.
    * **[!UICONTROL Recipients of a delivery]**: utilizza questa opzione per generare il target dai destinatari di una consegna. Quindi, seleziona la consegna nell’elenco:
 
-     ![](assets/target-recipient-delivery.png)
+     ![Finestra di dialogo dell&#39;elemento di destinazione per selezionare una consegna i cui destinatari sono destinatari, con un filtro Comportamento](assets/target-recipient-delivery.png)
 
    * **[!UICONTROL Delivery recipients belonging to a folder]**: utilizzare questa opzione per generare la destinazione dai destinatari delle consegne inclusi in una cartella specifica.
 
-     ![](assets/target-delivery-folder.png)
+     ![Finestra di dialogo dell&#39;elemento di destinazione per la selezione di una cartella di consegna, con le opzioni di comportamento e inclusione delle sottocartelle](assets/target-delivery-folder.png)
 
      È possibile filtrare il comportamento dei destinatari selezionandolo dall’elenco a discesa:
 
-     ![](assets/target-filter-behavior.png)
+     ![Elenco a discesa dei comportamenti che elenca i filtri dei destinatari, ad esempio messaggi aperti o su cui è stato fatto clic, messaggi non aperti e messaggi non riusciti](assets/target-filter-behavior.png)
 
      >[!NOTE]
      >
@@ -143,9 +143,9 @@ Per selezionare i destinatari di una consegna, segui i passaggi indicati di segu
 
    * **[!UICONTROL Subscribers of an information service]**: questa opzione consente di selezionare una newsletter a cui i destinatari devono essere iscritti per rientrare nel target della consegna creata.
 
-     ![](assets/target-service.png)
+     ![Finestra di dialogo dell&#39;elemento di destinazione in cui sono elencati i servizi di informazioni, ad esempio Newsletter, per eseguire il targeting degli abbonati](assets/target-service.png)
 
-   * **[!UICONTROL User filters]**: questa opzione consente di accedere ai filtri preconfigurati per utilizzarli come criteri di filtro per i profili del database. I filtri preconfigurati sono presentati in [questa sezione](../audiences/create-filters.md#default-filters).
+   * **[!UICONTROL User filters]**: questa opzione consente di accedere ai filtri preconfigurati per utilizzarli come criteri di filtro per i profili del database. I filtri preconfigurati sono presentati in [Filtri predefiniti](../audiences/create-filters.md#default-filters).
    * L&#39;opzione **[!UICONTROL Exclude recipients from this segment]** consente di eseguire il targeting dei destinatari che non soddisfano i criteri di destinazione definiti. Per utilizzare questa opzione, seleziona la casella appropriata, quindi applica il targeting, come definito in precedenza, per escludere i profili risultanti.
 
 1. Immetti un nome per questo targeting nel campo **[!UICONTROL Label]**. Per impostazione predefinita, l’etichetta è quella del primo criterio di targeting. Quando vengono combinati più criteri di filtro, è consigliato utilizzare un nome esplicito.
@@ -153,7 +153,7 @@ Per selezionare i destinatari di una consegna, segui i passaggi indicati di segu
 
    I criteri di targeting definiti sono riepilogati nella sezione centrale della scheda di configurazione principale del target. Fai clic su un criterio per visualizzarne il contenuto (configurazione e anteprima). Per eliminare un criterio, fai clic sulla crocetta che segue la sua etichetta.
 
-   ![](assets/target-remove-criterion.png)
+   ![Scheda Destinazione principale con la croce Elimina dopo un criterio di targeting nella popolazione target](assets/target-remove-criterion.png)
 
 ### Selezionare destinatari esterni {#selecting-external-recipients}
 
@@ -184,13 +184,13 @@ Puoi escludere gli indirizzi che hanno raggiunto un certo numero di errori conse
 
 Per modificare la configurazione predefinita, fai clic sul collegamento **[!UICONTROL Edit...]**.
 
-![](assets/target-exclusion-settings.png)
+![Opzioni delle impostazioni di esclusione, inclusa l&#39;esclusione dei destinatari e in quarantena e la conservazione dei duplicati](assets/target-exclusion-settings.png)
 
 +++ Opzioni disponibili:
 
 * **[!UICONTROL Exclude duplicate addresses during delivery]**: questa opzione è attiva per impostazione predefinita e rimuove gli indirizzi e-mail duplicati durante la consegna. La strategia applicata può variare a seconda del modo in cui Adobe Campaign viene utilizzato e del tipo di dati nel database. Il valore dell’opzione può essere configurato per ogni modello di consegna.
 * **[!UICONTROL Exclude recipients who no longer want to be contacted]**, ad esempio i destinatari i cui indirizzi e-mail fanno parte dell’elenco Bloccati (“rinuncia”). Questa opzione deve rimanere selezionata per rispettare l’etica professionale dell’e-marketing.
-* **[!UICONTROL Exclude quarantined recipients]**: questa opzione consente di escludere dal target i profili con un indirizzo messo in quarantena. Si consiglia vivamente di mantenere selezionata questa opzione. Ulteriori informazioni sulla gestione della quarantena sono disponibili in [questa sezione](../send/quarantines.md).
+* **[!UICONTROL Exclude quarantined recipients]**: questa opzione consente di escludere dal target i profili con un indirizzo messo in quarantena. Si consiglia vivamente di mantenere selezionata questa opzione. Ulteriori informazioni sulla gestione della quarantena in [Gestione della quarantena in Campaign](../send/quarantines.md).
 * **[!UICONTROL Limit delivery]** a un determinato numero di messaggi. Questa opzione consente di immettere il numero massimo di messaggi da inviare. Se il pubblico target supera il numero di messaggi indicato, al target viene applicata una selezione casuale. Per inviare tutti i messaggi, mantieni questo valore su “0”.
 * **[!UICONTROL Keep duplicate records (same identifier)]**: questa opzione consente di inviare più consegne a destinatari che soddisfano diversi criteri di targeting.
 +++
@@ -202,7 +202,7 @@ Per le consegne e-mail, puoi inviare bozze per convalidare il contenuto del mess
 
 Una bozza è un messaggio specifico che consente di testare un messaggio prima che venga inviato al pubblico principale. I destinatari della bozza hanno il compito di approvare il messaggio: rendering, contenuto, impostazioni di personalizzazione, configurazione.
 
-Per ulteriori informazioni sui destinatari e l’invio della bozza, consulta [questa sezione](../send/preview-and-proof.md#send-proofs).
+Per ulteriori informazioni sui destinatari delle bozze e sull&#39;invio, consulta [Inviare bozze](../send/preview-and-proof.md#send-proofs).
 
 
 #### Video tutorial {#seeds-and-proofs-video}
@@ -232,4 +232,4 @@ Per eseguire questa operazione:
 
 Accedi ai parametri di consegna per configurare altre impostazioni e definire la modalità di invio dei messaggi. Puoi definire la priorità di consegna, impostare l’invio graduale, configurare le impostazioni per i nuovi tentativi e verificare l’invio della consegna. Al termine della configurazione, puoi confermare l’invio. I messaggi vengono quindi inviati immediatamente o in base alla pianificazione della consegna.
 
-Per informazioni su come configurare le impostazioni di consegna, consulta [questa pagina](../send/configure-and-send.md).
+Scopri come configurare le impostazioni di consegna in [Configurare le e-mail con Adobe Campaign](../send/configure-and-send.md).

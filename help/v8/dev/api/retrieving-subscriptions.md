@@ -22,7 +22,7 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 1%
@@ -46,7 +46,7 @@ Questa è una procedura in due fasi.
 
 Esegui una richiesta GET per recuperare il servizio.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -56,7 +56,7 @@ Esegui una richiesta GET per recuperare il servizio.
 
 Restituisce l’URL degli abbonamenti per il servizio.
 
-```
+```json
   {
     ...
     "messageType": "email",
@@ -70,7 +70,7 @@ Restituisce l’URL degli abbonamenti per il servizio.
 
 Esegui una richiesta GET sull’URL degli abbonamenti.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -80,7 +80,7 @@ Esegui una richiesta GET sull’URL degli abbonamenti.
 
 Viene visualizzato l’elenco degli abbonamenti al servizio, con ogni profilo associato.
 
-```
+```json
   {
     ...
     "service": ...,
@@ -108,7 +108,7 @@ Questa è una procedura in due fasi.
 
 Esegui una richiesta GET per recuperare il profilo.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -118,7 +118,7 @@ Esegui una richiesta GET per recuperare il profilo.
 
 Restituisce l’URL delle sottoscrizioni per il profilo.
 
-```
+```json
   {
     ...
     "postalAddress":...,
@@ -132,7 +132,7 @@ Restituisce l’URL delle sottoscrizioni per il profilo.
 
 Esegui una richiesta GET sull’URL degli abbonamenti.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -142,7 +142,7 @@ Esegui una richiesta GET sull’URL degli abbonamenti.
 
 Restituisce l’elenco dei servizi a cui il profilo si è abbonato.
 
-```
+```json
   {
     ...
     "PKey": "<PKEY>",

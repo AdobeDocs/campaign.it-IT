@@ -35,14 +35,14 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '151'
 ht-degree: 3%
 ---
 # Utilizzare una tabella dei destinatari personalizzata{#gs-ac-custom-recipient}
 
-Adobe Campaign viene fornito con una tabella di profilo integrata: **nmsRecipient**. Questa tabella contiene una serie di campi e tabelle predefiniti che possono essere facilmente estesi. Ulteriori informazioni su questa tabella sono disponibili in [questa pagina](datamodel.md#ootb-profiles).
+Adobe Campaign viene fornito con una tabella di profilo integrata: **nmsRecipient**. Questa tabella contiene una serie di campi e tabelle predefiniti che possono essere facilmente estesi. Ulteriori informazioni su questa tabella sono disponibili nella [tabella del profilo incorporata](datamodel.md#ootb-profiles).
 
 L’estensione di tabella incorporata offre flessibilità, ma non consente di rimuovere alcuni campi o collegamenti inutilizzati. Di conseguenza, l’utilizzo di una tabella dei destinatari personalizzata può essere una buona opzione quando il modello di dati è notevolmente diverso dalla struttura della tabella dei destinatari integrata in Campaign o se disponi di un numero elevato di profili.  Tuttavia, questo metodo richiede alcune precauzioni durante la sua applicazione.
 

@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '688'
 ht-degree: 1%
 ---
 # Verifica tracciamento dei messaggi {#testing-tracking}
@@ -59,7 +59,7 @@ Puoi verificare il tracciamento su pagine mirror, registri e collegamenti e-mail
 1. Progetta i contenuti delle e-mail con i collegamenti di cui desideri tenere traccia. [Informazioni sulla progettazione del contenuto delle e-mail](defining-the-email-content.md)
 1. Aggiungi un blocco di personalizzazione della pagina speculare nel contenuto dell’e-mail. [Informazioni sui blocchi di personalizzazione](personalization-blocks.md)
 
-   ![](assets/mirror-page-insert.png)
+   ![Menu Personalization con Includi e Collega a pagina speculare selezionati nell&#39;editor contenuti e-mail](assets/mirror-page-insert.png)
 
 1. Specifica l’utente che riceverà l’e-mail. Poiché questo utente dovrà aprire l’e-mail e fare clic sui collegamenti in essa contenuti, assicurati di selezionare un indirizzo del destinatario di prova che controlli. [Informazioni sui profili di test](../audiences/test-profiles.md)
 
@@ -71,7 +71,7 @@ Puoi verificare il tracciamento su pagine mirror, registri e collegamenti e-mail
    * Verifica che **[!UICONTROL Activate tracking]** sia selezionato
    * Assicurati che **[!UICONTROL Opens tracking]** sia selezionato se desideri tenere traccia delle aperture
 
-   ![](assets/s_ncs_user_email_del_tracking_param.png)
+   ![Finestra di dialogo Tracciamento e immagini con Attiva tracciamento e Apre tracciamento selezionato ed elenco degli URL tracciati](assets/s_ncs_user_email_del_tracking_param.png)
 
    [Ulteriori informazioni sulle opzioni di tracciamento URL](url-tracking.md)
 
@@ -92,7 +92,7 @@ Puoi verificare il tracciamento su pagine mirror, registri e collegamenti e-mail
    * Seleziona la scheda **[!UICONTROL Tracking]**
    * Verifica che venga visualizzato l’elenco dei registri di tracciamento con gli URL su cui hai fatto clic e altri eventi di tracciamento
 
-   ![](assets/s_ncs_user_delivery_tracking_tab.png)
+   ![Scheda Tracciamento consegna con un elenco di registri di tracciamento che mostrano etichette, tipi di clic e di apertura e destinatari](assets/s_ncs_user_delivery_tracking_tab.png)
 
 ## Passaggio 4: controllare la scheda di tracciamento dei destinatari {#check-recipient-tracking}
 
@@ -101,7 +101,7 @@ Puoi verificare il tracciamento su pagine mirror, registri e collegamenti e-mail
 
 1. Seleziona la scheda **[!UICONTROL Tracking]**. [Ulteriori informazioni sui registri di tracciamento](tracking-logs.md)
 
-   ![](assets/s_ncs_user_select_tracking_tab_from_recipient.png)
+   ![Scheda Tracciamento profilo destinatario con elenco dei registri di tracciamento contenenti data, etichetta, tipo e consegna](assets/s_ncs_user_select_tracking_tab_from_recipient.png)
 
 1. Verifica che i record di tracciamento vengano visualizzati con:
    * Il valore **[!UICONTROL Mirror Page]** nella colonna **[!UICONTROL Type]**

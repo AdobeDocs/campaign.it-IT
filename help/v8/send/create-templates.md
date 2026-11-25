@@ -39,10 +39,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 18%
+source-wordcount: '1153'
+ht-degree: 16%
 ---
 # Utilizzare i modelli di consegna {#work-with-delivery-template}
 
@@ -59,7 +59,7 @@ Un modello può includere impostazioni di configurazione parziali o complete, ad
 * Contenuto, logo dell’azienda o firma
 * Altre proprietà di consegna, ad esempio validità della risorsa, parametri dei nuovi tentativi o impostazioni della quarantena.
 
-![](assets/do-not-localize/how-to-video.png) [Guarda un video su questa funzione](#delivery-template-video)
+![Icona Riproduci per il collegamento video](assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](#delivery-template-video)
 
 I modelli di consegna sono archiviati nella cartella **[!UICONTROL Resources > Templates > Delivery templates]** di Explorer. In Adobe Campaign puoi utilizzare due tipi di modelli:
 
@@ -88,15 +88,15 @@ Per duplicare un modello di consegna, segui la procedura seguente:
 1. Seleziona un modello di consegna integrato. I modelli incorporati sono visualizzati in grassetto nell’elenco.
 1. Fare clic con il pulsante destro del mouse e selezionare **[!UICONTROL Duplicate]**.
 
-   ![](assets/duplicate-built-in-template.png)
+   ![Elenco dei modelli di consegna con menu di scelta rapida aperto e duplicato selezionato in un modello incorporato](assets/duplicate-built-in-template.png)
 
 1. Definisci le impostazioni del modello e salva il nuovo modello.
 
-   ![](assets/delivery-template-new.png)
+   ![Proprietà di un modello e-mail duplicato con la relativa etichetta, indirizzo mittente, oggetto e contenuto HTML](assets/delivery-template-new.png)
 
 Il modello viene aggiunto all’elenco dei modelli di consegna. Ora puoi selezionarlo durante la creazione di una nuova consegna.
 
-![](assets/select-the-new-template.png)
+![Elenco a discesa dei modelli predefiniti del modello di consegna e nuovo modello personalizzato Annuncio e-mail di consegna](assets/select-the-new-template.png)
 
 ### Convertire una consegna esistente in un modello {#convert-an-existing-delivery}
 
@@ -108,11 +108,11 @@ Per convertire una consegna in un modello, segui la procedura seguente:
 
 1. Fare clic con il pulsante destro del mouse e selezionare **[!UICONTROL Actions > Save as template...]**.
 
-   ![](assets/save-as-template.png)
+   ![Menu di scelta rapida Elenco consegne con Azioni e Salva come modello selezionati](assets/save-as-template.png)
 
 1. Modificare le proprietà di consegna e selezionare la cartella in cui salvare il nuovo modello (nel campo **[!UICONTROL Folder]**) e la cartella in cui creare le consegne basate su questo modello (nel campo **[!UICONTROL Execution folder]**).
 
-   ![](assets/template-select-folders.png)
+   ![Proprietà di consegna con i campi Cartella di esecuzione, Cartella e Instradamento per il nuovo modello](assets/template-select-folders.png)
 
 ### Creare un nuovo modello {#create-a-new-template}
 
@@ -140,11 +140,11 @@ Per configurare un modello di consegna da zero, segui la procedura seguente:
 
 Per creare una consegna basata su un modello esistente, seleziona il modello dall’elenco dei modelli di consegna disponibili.
 
-![](assets/select-the-new-template.png)
+![Elenco a discesa dei modelli predefiniti del modello di consegna e nuovo modello personalizzato Annuncio e-mail di consegna](assets/select-the-new-template.png)
 
 Se non riesci a visualizzare il modello, fai clic sulla cartella **[!UICONTROL Select link]** a destra del campo per sfogliare le cartelle di Campaign.
 
-![](assets/browse-templates.png)
+![Finestra di dialogo per la selezione delle cartelle con i modelli di consegna, aperta dal campo Modello di consegna](assets/browse-templates.png)
 
 Selezionare la directory desiderata dal campo **[!UICONTROL Folder]** oppure fare clic sull&#39;icona **[!UICONTROL Display sub-levels]** per visualizzare il contenuto delle directory nelle sottostrutture della directory corrente.
 
@@ -160,7 +160,7 @@ Per eseguire manualmente un modello, effettua le seguenti operazioni:
 
    È inoltre possibile utilizzare **[!UICONTROL File>Actions>Execute the delivery template...]**.
 
-   ![](assets/execute-delivery-template.png)
+   ![Elenco dei modelli di consegna con l&#39;opzione di menu Esegui modello di consegna selezionata](assets/execute-delivery-template.png)
 
 1. Immettere i parametri di consegna e fare clic su **[!UICONTROL Send]**.
 

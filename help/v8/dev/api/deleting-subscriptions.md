@@ -22,7 +22,7 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Se la richiesta di eliminazione ha esito positivo, lo stato della risposta è 20
 
 I payload di esempio riportati di seguito mostrano come annullare l’abbonamento di un profilo a un servizio. Esegui prima una richiesta GET per recuperare il profilo.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -57,7 +57,7 @@ I payload di esempio riportati di seguito mostrano come annullare l’abbonament
 
 Restituisce l’URL delle sottoscrizioni per il profilo.
 
-```
+```json
   {
     ...
     "postalAddress":...,
@@ -70,7 +70,7 @@ Restituisce l’URL delle sottoscrizioni per il profilo.
 
 Esegui una richiesta GET sull’URL degli abbonamenti.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -80,7 +80,7 @@ Esegui una richiesta GET sull’URL degli abbonamenti.
 
 Restituisce l’elenco degli abbonamenti per il profilo selezionato, con un URL per ciascun servizio a cui si è iscritti.
 
-```
+```json
 ...
 "service": {
   "PKey": "<PKEY>",
@@ -94,7 +94,7 @@ Restituisce l’elenco degli abbonamenti per il profilo selezionato, con un URL 
 
 Esegui una richiesta DELETE sull’URL del servizio desiderato.
 
-```
+```bash
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -120,7 +120,7 @@ Se la richiesta di eliminazione ha esito positivo, lo stato della risposta è 20
 
 Recupera il record del servizio.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -130,7 +130,7 @@ Recupera il record del servizio.
 
 Restituisce l’URL degli abbonamenti per il servizio.
 
-```
+```json
 {
   ...
   "messageType": "email",
@@ -147,7 +147,7 @@ Restituisce l’URL degli abbonamenti per il servizio.
 
 Esegui una richiesta GET sull’URL degli abbonamenti.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -157,7 +157,7 @@ Esegui una richiesta GET sull’URL degli abbonamenti.
 
 Restituisce l’elenco degli abbonamenti per il servizio selezionato, con un URL (href) per ogni abbonamento al profilo.
 
-```
+```json
 {
   "PKey": "<PKEY>",
   "created": "2019-03-26 08:58:04.764Z",
@@ -174,7 +174,7 @@ Restituisce l’elenco degli abbonamenti per il servizio selezionato, con un URL
 
 Esegui una richiesta DELETE sull’URL di abbonamento del profilo desiderato.
 
-```
+```bash
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions/<PKEY> \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \

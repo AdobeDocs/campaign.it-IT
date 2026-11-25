@@ -28,9 +28,9 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '311'
 ht-degree: 0%
 ---
 # Monitorare e tenere traccia di un SMS
@@ -47,25 +47,25 @@ Per accedere alla dashboard, fai doppio clic sulla consegna nell’elenco di con
 
 Nella scheda **[!UICONTROL Summary]** sono presenti dati principali quali il numero di messaggi elaborati e il numero di operazioni riuscite.
 
-![](assets/sms_summary.png){zoomable="yes"}
+![Scheda Riepilogo dashboard di consegna SMS con messaggi da inviare, tassi di elaborazione e di successo e stato di consegna](assets/sms_summary.png){zoomable="yes"}
 
 Dopo l&#39;invio dell&#39;SMS, la scheda **[!UICONTROL SMS]**, relativa al contenuto della consegna, non è più accessibile per una modifica.
 
 Nella scheda **[!UICONTROL Delivery]** sono disponibili le informazioni sui registri di consegna. Per ogni indirizzo contattato, puoi vedere se l’SMS è stato inviato o meno
 
-![](assets/sms_deliverylogs.png){zoomable="yes"}
+![Elenco dei registri delle consegne che mostra, per ogni indirizzo contattato, se l&#39;SMS è stato inviato, con stato e motivo](assets/sms_deliverylogs.png){zoomable="yes"}
 
 Nella scheda **[!UICONTROL Exclusions]** sono disponibili i dettagli sul motivo per cui alcuni indirizzi sono esclusi dalla destinazione.
 
-![](assets/sms_exclusions.png){zoomable="yes"}
+![Scheda Esclusioni nell&#39;elenco degli indirizzi ignorati con il motivo, ad esempio indirizzo Inserito nell&#39;elenco Bloccati o Doppio](assets/sms_exclusions.png){zoomable="yes"}
 
 La scheda **[!UICONTROL Tracking]** riguarda il tracciamento. Di seguito è riportato l’esempio di un URL tracciato nel contenuto dell’SMS.
 
-![](assets/sms_trackinglogs.png){zoomable="yes"}
+![Elenco degli URL della scheda di tracciamento che mostra un URL tracciato dal contenuto SMS con la relativa etichetta, tipo e URL di origine](assets/sms_trackinglogs.png){zoomable="yes"}
 
 Infine, la scheda **[!UICONTROL Audit]** con tutti i dettagli durante l’avvio della consegna:
 
-![](assets/sms_audit.png){zoomable="yes"}
+![Scheda Audit Log con l&#39;elenco dei messaggi registrati durante l&#39;avvio della consegna, con le colonne data e messaggio](assets/sms_audit.png){zoomable="yes"}
 
 ## Comprendere gli errori SMS
 

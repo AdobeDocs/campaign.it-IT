@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '1159'
 ht-degree: 1%
 ---
 # Coupon personalizzati{#personalized-coupons}
@@ -55,12 +55,12 @@ Prima di seguire i passaggi seguenti, assicurati di conoscere il tipo di coupon 
 
 1. Nella struttura Campaign, vai a **[!UICONTROL Resources > Campaign management > Coupons]**.
 
-   ![](assets/deliv_coup_01.png)
+   ![Struttura della campagna con risorse, Gestione campagne espansa e nodo Coupon selezionato](assets/deliv_coup_01.png)
 
 1. Fai clic sul pulsante **[!UICONTROL New]**.
 1. Immettere il nome del coupon nel campo **[!UICONTROL Label]**. Un codice univoco è stato immesso automaticamente in **[!UICONTROL Coupon code]**. Puoi conservare il codice o immetterne uno nuovo.
 
-   ![](assets/deliv_coup_02.png)
+   ![Elenco coupon e scheda Generale di un coupon con campi Etichetta, Codice coupon, Tipo coupon, Data inizio e Data fine](assets/deliv_coup_02.png)
 
 1. Scegliere **[!UICONTROL Start date]** e **[!UICONTROL End date]** per impostare il periodo di validità del coupon.
 1. In **[!UICONTROL Coupon type]**, scegliere Anonimo o Individuale.
@@ -77,11 +77,11 @@ Prima di seguire i passaggi seguenti, assicurati di conoscere il tipo di coupon 
 
    >[!NOTE]
    >
-   >I singoli coupon possono essere importati in blocco. Per informazioni dettagliate sull&#39;importazione e l&#39;esportazione, consultare [questa sezione](../start/import.md).
+   >I singoli coupon possono essere importati in blocco. Per informazioni dettagliate sull&#39;importazione e l&#39;esportazione, vedere [Introduzione ai profili](../start/import.md).
 
 ### Configurare singoli coupon {#configuring-individual-coupons}
 
-![](assets/deliv_coup_03.png)
+![Scheda Coupon di un coupon che elenca i singoli codici coupon, ciascuno con stato Disponibile](assets/deliv_coup_03.png)
 
 La scheda Coupon è disponibile solo con i singoli coupon. Dopo aver associato un coupon a una consegna, la scheda Coupon fornisce i seguenti dettagli:
 
@@ -94,64 +94,64 @@ I valori per **[!UICONTROL status]**, **[!UICONTROL channel]** e **[!UICONTROL a
 
 ## Inserire un coupon in una consegna e-mail {#inserting-a-coupon-into-an-email-delivery}
 
-Nell’esempio seguente, la consegna viene creata dalla pagina Home. Per istruzioni dettagliate su come creare una consegna, consulta [questa sezione](email.md).
+Nell’esempio seguente, la consegna viene creata dalla pagina Home. Per istruzioni dettagliate su come creare una consegna, consulta [Inviare e-mail con Adobe Campaign](email.md).
 1. Vai a **[!UICONTROL Campaigns]** e scegli **[!UICONTROL Deliveries]**.
 1. Fai clic su **[!UICONTROL Create]**.
 
-   ![](assets/deliv_coup_04.png)
+   ![Elenco consegne nella scheda Campagne con il pulsante Crea evidenziato](assets/deliv_coup_04.png)
 
 1. Immettere un nome in **[!UICONTROL Label]** e fare clic su **[!UICONTROL Continue]**.
 1. Fare clic su **[!UICONTROL To]** per aggiungere i destinatari.
 1. Fare clic su **[!UICONTROL Add]** per scegliere i destinatari per la consegna. Dopo aver selezionato i destinatari, fare clic su **[!UICONTROL Ok]** per tornare alla consegna.
 
-   ![](assets/deliv_coup_05.png)
+   ![Finestra di dialogo Seleziona destinazione nella scheda Destinazione principale con il pulsante Aggiungi evidenziato](assets/deliv_coup_05.png)
 
 1. Inserisci un oggetto e aggiungi il contenuto al messaggio.
 
-   ![](assets/deliv_coup_06.png)
+   ![Editor consegne con oggetto e contenuto HTML per l&#39;e-mail del coupon](assets/deliv_coup_06.png)
 
 1. Nella barra degli strumenti fare clic su **[!UICONTROL Properties]** e scegliere la scheda **[!UICONTROL Advanced]**.
 1. Fare clic sull&#39;icona della cartella per **[!UICONTROL Coupon management]**.
 
-   ![](assets/deliv_coup_07.png)
+   ![Scheda Avanzate delle proprietà di consegna con l&#39;icona della cartella accanto al campo Coupon in Gestione coupon evidenziata](assets/deliv_coup_07.png)
 
 1. Scegliere il coupon e fare clic su **[!UICONTROL Ok]**. Fare di nuovo clic su **[!UICONTROL Ok]**.
 
-   ![](assets/deliv_coup_08.png)
+   ![Finestra di dialogo per selezione coupon in cui sono elencati i documenti coupon con coupon di calcio selezionati](assets/deliv_coup_08.png)
 
 1. Fai clic sul messaggio per scegliere dove posizionare il coupon.
 
-   ![](assets/deliv_coup_09.png)
+   ![Editor di contenuti HTML con cursore posizionato nel punto in cui deve essere inserito il codice del coupon](assets/deliv_coup_09.png)
 
 1. Fai clic sull’icona di personalizzazione per scegliere una delle seguenti opzioni in base al tipo di coupon:
 
    * Coupon anonimo: **[!UICONTROL Coupon > Coupon code]**
 
-     ![](assets/deliv_coup_10.png)
+     ![Menu Personalization con Coupon e quindi codice coupon selezionato, per un coupon anonimo](assets/deliv_coup_10.png)
 
    * Singolo coupon: **[!UICONTROL Coupon value > Coupon code]**
 
-     ![](assets/deliv_coup_11.png)
+     ![Menu Personalization con valore coupon e codice coupon selezionato, per un singolo coupon](assets/deliv_coup_11.png)
 
      Il coupon viene inserito nel messaggio come codice anziché come nome assegnato. Il codice viene utilizzato all’interno del modello dati di Campaign ootb.
 
-   ![](assets/deliv_coup_12.png)
+   ![Contenuto e-mail con lo script di codice coupon inserito, couponValue.couponCode, evidenziato](assets/deliv_coup_12.png)
 
 1. Esegui un test per confermare il nome assegnato al coupon. Passare alla scheda **[!UICONTROL Preview]** e fare clic su **[!UICONTROL Test personalization]**. Scegli un destinatario per il test.
 
-   ![](assets/deliv_coup_13.png)
+   ![Scheda Anteprima con il menu Test personalization aperto e l&#39;opzione Destinatario evidenziata](assets/deliv_coup_13.png)
 
    Dopo il test, il coupon deve essere visualizzato come nome assegnato anziché come codice.
 
-   ![](assets/deliv_coup_14.png)
+   ![Anteprima dell&#39;e-mail con codice coupon Trynow visualizzato nel corpo del messaggio](assets/deliv_coup_14.png)
 
 1. Nella barra degli strumenti, fai clic su **[!UICONTROL Send]** (in alto a sinistra) e scegli come desideri inviare la consegna.
 
-   ![](assets/deliv_coup_15.png)
+   ![Invia alla finestra di dialogo del target di consegna principale con l&#39;opzione Consegna il prima possibile e il pulsante Analizza](assets/deliv_coup_15.png)
 
 1. Fai clic su **[!UICONTROL Analyze]**. Se il log di analisi conferma che sono presenti coupon sufficienti per tutti i destinatari, fare clic su **[!UICONTROL Confirm delivery]** per inviarlo.
 
-   ![](assets/deliv_coup_16.png)
+   ![Registro di analisi della consegna con 2 coupon riciclati e pulsante Conferma consegna disponibile](assets/deliv_coup_16.png)
 
 >[!NOTE]
 >
@@ -162,7 +162,7 @@ Per confermare che la consegna è avvenuta correttamente:
 1. Vai a **[!UICONTROL Explorer > Resources > Campaign management > Coupons]**.
 1. Fare clic sulla scheda **[!UICONTROL Deliveries]**.
 
-   ![](assets/deliv_coup_17.png)
+   ![Scheda Consegne di un coupon che elenca le consegne che lo utilizzano con il relativo stato e conteggi dei messaggi](assets/deliv_coup_17.png)
 
    Lo stato è **[!UICONTROL Finished]** per una consegna riuscita.
 
@@ -180,12 +180,12 @@ L’analisi della consegna si interrompe se il numero di coupon è inferiore a q
 1. Fai clic su **[!UICONTROL To]**.
 1. In **[!UICONTROL Select target]**, passare alla scheda **[!UICONTROL Exclusions]**.
 
-   ![](assets/deliv_coup_18.png)
+   ![Finestra di dialogo Seleziona destinazione con la scheda Esclusioni evidenziata e il collegamento Modifica per le impostazioni di esclusione](assets/deliv_coup_18.png)
 
 1. Nella sezione delle impostazioni di esclusione, fare clic su **[!UICONTROL Edit]**.
 1. Immettere il numero di messaggi da inviare in **[!UICONTROL Limit delivery to...messages]** e fare clic su **[!UICONTROL Ok]**. Puoi inviare la consegna.
 
-   ![](assets/deliv_coup_19.png)
+   ![Finestra di dialogo delle impostazioni di esclusione con il campo Limita consegna a impostato su 20 messaggi evidenziati](assets/deliv_coup_19.png)
 
 >[!NOTE]
 >

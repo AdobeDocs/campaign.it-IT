@@ -23,20 +23,20 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '849'
 ht-degree: 1%
 ---
 # Inviare e-mail su dispositivi mobili giapponesi {#sending-emails-on-japanese-mobiles}
 
 ## Formati e-mail per dispositivi mobili giapponesi {#email-formats-for-japanese-mobiles}
 
-Adobe Campaign gestisce tre formati giapponesi specifici per le e-mail sui dispositivi mobili: **Deco-mail** (dispositivi mobili DoCoMo), **Decore Mail** (dispositivi mobili Softbank) e **Decoration Mail** (dispositivi mobili KDDI AU). Questi formati impongono particolari vincoli di codifica, struttura e dimensione. Ulteriori informazioni su limitazioni e raccomandazioni in [questa sezione](#limitations-and-recommendations).
+Adobe Campaign gestisce tre formati giapponesi specifici per le e-mail sui dispositivi mobili: **Deco-mail** (dispositivi mobili DoCoMo), **Decore Mail** (dispositivi mobili Softbank) e **Decoration Mail** (dispositivi mobili KDDI AU). Questi formati impongono particolari vincoli di codifica, struttura e dimensione. Ulteriori informazioni su limitazioni e raccomandazioni in [Limitazioni e raccomandazioni](#limitations-and-recommendations).
 
 Affinché il destinatario riceva correttamente i messaggi in uno di questi formati, è consigliabile selezionare **[!UICONTROL Deco-mail (DoCoMo)]**, **[!UICONTROL Decore Mail (Softbank)]** o **[!UICONTROL Decoration Mail (KDDI AU)]** nel profilo corrispondente:
 
-![](assets/deco-mail_03.png)
+![Scheda Generale destinatario con l&#39;elenco Formato e-mail aperto: Sconosciuto, Testo, HTML, Deco-mail, Decoration Mail, Decore Mail](assets/deco-mail_03.png)
 
 Se tuttavia si lascia l&#39;opzione **[!UICONTROL Email format]** come **[!UICONTROL Unknown]**, **[!UICONTROL HTML]** o **[!UICONTROL Text]**, Adobe Campaign rileverà automaticamente (durante l&#39;invio dell&#39;e-mail) il formato giapponese da utilizzare per visualizzare correttamente il messaggio.
 
@@ -73,7 +73,7 @@ Nella scheda **[!UICONTROL Preview]** della finestra di modifica del contenuto, 
 * Verifica che il numero di immagini nel messaggio non superi il limite imposto dal formato (20 immagini)
 * Verifica la dimensione totale del messaggio (inferiore a 100 KB)
 
-  ![](assets/deco-mail_06.png)
+  ![Anteprima della finestra dei risultati con la scheda di diagnostica Deco-mail che elenca gli avvisi relativi ai tag non supportati e al limite di dimensioni di 100 kB](assets/deco-mail_06.png)
 
 ### Eseguire la regola di tipologia {#running-typology-rule}
 
@@ -91,14 +91,14 @@ Puoi inviare delle bozze per verificare la consegna. Quando invii la bozza, se u
 
 Ad esempio, puoi sostituire l&#39;indirizzo di un profilo con test@softbank.ne.jp se il formato e-mail per questo profilo è stato definito in precedenza il **[!UICONTROL Decore Mail (Softbank)]**.
 
-![](assets/deco-mail_05.png)
+![Invia una finestra di dialogo di prova in Sostituzione della modalità indirizzo con un indirizzo di prova softbank.ne.jp mappato a un profilo](assets/deco-mail_05.png)
 
 ## Inviare messaggi {#sending-messages}
 
 Per inviare un’e-mail a destinatari con formati e-mail giapponesi con Campaign, sono possibili due opzioni:
 
-* Creare due consegne: una solo per i destinatari giapponesi e un&#39;altra per gli altri destinatari. Fare riferimento a [questa sezione](#designing-a-specific-delivery-for-japanese-formats).
-* Creare una singola consegna e Adobe Campaign rileverà automaticamente il formato da utilizzare. Fare riferimento a [questa sezione](#designing-a-delivery-for-all-formats).
+* Creare due consegne: una solo per i destinatari giapponesi e un&#39;altra per gli altri destinatari. Fare riferimento a [Progettare una consegna specifica per i formati giapponesi](#designing-a-specific-delivery-for-japanese-formats).
+* Creare una singola consegna e Adobe Campaign rileverà automaticamente il formato da utilizzare. Fare riferimento a [Progettare una consegna per tutti i formati](#designing-a-delivery-for-all-formats).
 
 ### Progettare una consegna specifica per i formati giapponesi {#designing-a-specific-delivery-for-japanese-formats}
 
@@ -106,9 +106,9 @@ Puoi creare un flusso di lavoro contenente due consegne: una da leggere su un di
 
 A questo scopo, utilizza l&#39;attività **[!UICONTROL Split]** nel flusso di lavoro e definisci i formati di posta elettronica giapponesi (Deco-mail, Decoration Mail e Decore Mail) come condizioni di filtro.
 
-![](assets/deco-mail_08.png)
+![Finestra di dialogo Filtra con tre condizioni di formato e-mail combinate da O: Deco-mail, Decoration Mail e Decore Mail](assets/deco-mail_08.png)
 
-![](assets/deco-mail_07.png)
+![Flusso di lavoro: query, deduplicazione, quindi una suddivisione per formato e-mail in una consegna mobile giapponese e in una consegna standard](assets/deco-mail_07.png)
 
 ### Progettare una consegna per tutti i formati {#designing-a-delivery-for-all-formats}
 
@@ -118,4 +118,4 @@ Il contenuto del messaggio verrà visualizzato correttamente per gli utenti sui 
 
 >[!IMPORTANT]
 >
->Assicurati di rispettare le funzioni speciali associate a ciascun formato e-mail giapponese (Deco-mail, Decoration Mail e Decore Mail). Per ulteriori informazioni sulle limitazioni, consultare [questa sezione](#limitations-and-recommendations).
+>Assicurati di rispettare le funzioni speciali associate a ciascun formato e-mail giapponese (Deco-mail, Decoration Mail e Decore Mail). Per ulteriori informazioni sulle limitazioni, consulta [Limitazioni e raccomandazioni](#limitations-and-recommendations).

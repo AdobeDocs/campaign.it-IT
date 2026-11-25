@@ -26,10 +26,10 @@ subfeature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '990'
-ht-degree: 2%
+source-wordcount: '1298'
+ht-degree: 1%
 ---
 # Rendering di un modulo{#form-rendering}
 
@@ -39,17 +39,17 @@ ht-degree: 2%
 
 Le impostazioni del modulo consentono di selezionare il modello utilizzato per generare le pagine. Per accedervi, fare clic sul pulsante **[!UICONTROL Properties]** nella barra degli strumenti dei dettagli del modulo e selezionare la scheda **[!UICONTROL Rendering]**. Per impostazione predefinita sono disponibili diversi modelli (fogli di stile).
 
-![](assets/s_ncs_admin_survey_rendering_select.png)
+![Scheda Rendering delle proprietà del modulo con l&#39;elenco dei modelli aperto, che mostra il modulo standard e il tema da 1 al tema 7.](assets/s_ncs_admin_survey_rendering_select.png)
 
 La sezione inferiore dell’editor consente di visualizzare un rendering del modello selezionato.
 
 La funzione di zoom consente di modificare il modello selezionato.
 
-![](assets/s_ncs_admin_survey_render_edit.png)
+![Finestra di dialogo Tema 5 modello generazione moduli con il collegamento Layout di pagina e le impostazioni CSS.](assets/s_ncs_admin_survey_render_edit.png)
 
 Puoi modificare o ignorare questi modelli. A tale scopo, fare clic sul collegamento **[!UICONTROL Page layout...]** e personalizzare le informazioni.
 
-![](assets/s_ncs_admin_survey_render_edit_param.png)
+![Finestra di dialogo Layout di pagina, scheda Proprietà, con l&#39;immagine del logo, larghezza e altezza e il percorso dell&#39;immagine di anteprima.](assets/s_ncs_admin_survey_render_edit_param.png)
 
 Puoi eseguire le seguenti azioni:
 
@@ -58,19 +58,19 @@ Puoi eseguire le seguenti azioni:
 
 La scheda **[!UICONTROL Headers/Footers]** consente di modificare le informazioni visualizzate nelle intestazioni e nei piè di pagina di ogni pagina del modulo che utilizza questo modello.
 
-![](assets/s_ncs_admin_survey_render_edit_header.png)
+![Finestra di dialogo Layout di pagina, scheda Intestazioni/Piè di pagina, con le intestazioni di pagina e le linee dei piè di pagina e i campi Posizione.](assets/s_ncs_admin_survey_render_edit_header.png)
 
 Ogni riga della sezione **[!UICONTROL Page headers]** e **[!UICONTROL Page footers]** corrisponde a una riga nella pagina HTML. Fare clic su **[!UICONTROL Add]** per creare una nuova riga.
 
 Selezionare una riga esistente e fare clic sul pulsante **[!UICONTROL Detail]** per personalizzarla.
 
-![](assets/s_ncs_admin_survey_render_edit_header_detail.png)
+![Finestra di dialogo dei dettagli delle intestazioni di pagina con layout di pagina, schede Bordi e Carattere e contenuto delle zone sinistra e destra.](assets/s_ncs_admin_survey_render_edit_header_detail.png)
 
 È possibile modificare il contenuto della linea, aggiungere bordi e modificare gli attributi del carattere tramite le relative schede. Fare clic su **[!UICONTROL OK]** per confermare le modifiche.
 
 I campi **[!UICONTROL Position]** ti consentono di definire la posizione degli elementi nell&#39;intestazione e nel piè di pagina.
 
-![](assets/s_ncs_admin_survey_render_edit_header_position.png)
+![Scheda Intestazioni/Piè di pagina con gli elenchi Posizione per le intestazioni e i piè di pagina, con l&#39;offerta Nascosto, Fuori dalla pagina, Nella pagina.](assets/s_ncs_admin_survey_render_edit_header_position.png)
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ I campi **[!UICONTROL Position]** ti consentono di definire la posizione degli e
 
 A tale scopo, utilizzare la scheda **[!UICONTROL Advanced]**.
 
-![](assets/s_ncs_admin_survey_advanced_tab.png)
+![Scheda avanzata di un elemento modulo con impostazioni di visualizzazione quali Numero di celle e Allineamento verticale.](assets/s_ncs_admin_survey_advanced_tab.png)
 
 Consente di definire le seguenti proprietà:
 
@@ -98,7 +98,7 @@ Consente di definire le seguenti proprietà:
 * **[!UICONTROL Lines]**: numero di righe per una zona di tipo **[!UICONTROL Multi-line text]**,
 * **[!UICONTROL Style inline]**: consente di sovraccaricare il foglio di stile CSS con impostazioni aggiuntive. Questi sono separati utilizzando **;** caratteri come mostrato nell&#39;esempio seguente:
 
-  ![](assets/s_ncs_admin_survey_advanced_tab_inline.png)
+  ![Scheda Avanzate con il valore Stile in linea impostato su font-size:16pt; sfondo: blu.](assets/s_ncs_admin_survey_advanced_tab_inline.png)
 
 ### Definizione di intestazioni e piè di pagina {#defining-headers-and-footers}
 
@@ -106,7 +106,7 @@ I campi sono sequenziati in una struttura ad albero la cui radice ha lo stesso n
 
 Il titolo della finestra deve essere immesso nella scheda **[!UICONTROL Page]** della finestra delle proprietà della maschera. Puoi anche aggiungere un set di contenuti all’intestazione e al piè di pagina (queste informazioni vengono visualizzate su ogni pagina). Questo contenuto viene immesso nelle sezioni corrispondenti della scheda **[!UICONTROL Texts]**, come illustrato di seguito:
 
-![](assets/s_ncs_admin_survey_titles_config.png)
+![Scheda Pagina delle proprietà del modulo con il titolo della finestra, l&#39;intestazione e il piè di pagina della pagina.](assets/s_ncs_admin_survey_titles_config.png)
 
 ### Aggiunta di elementi all’intestazione HTML {#adding-elements-to-html-header}
 
@@ -114,7 +114,7 @@ Il titolo della finestra deve essere immesso nella scheda **[!UICONTROL Page]** 
 
 Ciò ti consente di fare riferimento a un’icona che verrà visualizzata, ad esempio, nella barra del titolo della pagina.
 
-![](assets/webform_header_page_tab.png)
+![Scheda Intestazione pagina con un elemento di collegamento per un&#39;icona di collegamento aggiunta all&#39;intestazione di HTML.](assets/webform_header_page_tab.png)
 
 ## Definizione delle impostazioni di controllo {#defining-control-settings}
 
@@ -124,19 +124,19 @@ Quando l’utente compila il modulo, viene automaticamente eseguito un controllo
 
 Per rendere obbligatori alcuni campi, seleziona questa opzione durante la creazione del campo.
 
-![](assets/s_ncs_admin_survey_required_field.png)
+![Scheda Generale campo con l&#39;opzione Obbligatorio selezionata per il campo Cognome.](assets/s_ncs_admin_survey_required_field.png)
 
 Se l’utente approva questa pagina senza aver inserito il campo, viene visualizzato il seguente messaggio:
 
-![](assets/s_ncs_admin_survey_required_default_msg.png)
+![La pagina del modulo contiene il messaggio di errore predefinito Il campo &#39;Cognome&#39; è obbligatorio e il campo vuoto è evidenziato.](assets/s_ncs_admin_survey_required_default_msg.png)
 
 Per personalizzare il messaggio, fare clic sul collegamento **[!UICONTROL Personalize this message]**.
 
-![](assets/s_ncs_admin_survey_required_custom_msg.png)
+![Finestra di dialogo Personalizzazione messaggio aperta da Personalizzare il messaggio con testo personalizzato per un campo obbligatorio vuoto.](assets/s_ncs_admin_survey_required_custom_msg.png)
 
 Se l’utente approva questa pagina senza aver inserito il campo, viene visualizzato il seguente messaggio:
 
-![](assets/s_ncs_admin_survey_required_custom_msg2.png)
+![Pagina modulo contenente il messaggio CAMPO OBBLIGATORIO personalizzato sopra il campo vuoto evidenziato.](assets/s_ncs_admin_survey_required_custom_msg2.png)
 
 ### Verifica del formato dei dati {#checking-data-format}
 
@@ -146,7 +146,7 @@ Per i controlli dei moduli i cui valori sono memorizzati in una variabile, le re
 
 Ad esempio, se crei un controllo **[!UICONTROL Number]** per memorizzare il numero client, come mostrato di seguito:
 
-![](assets/s_ncs_admin_survey_choose_format.png)
+![Campo di tipo numero che memorizza il relativo valore in una variabile client, con le finestre di dialogo Archiviazione e Modifica rami che mostrano il tipo Integer.](assets/s_ncs_admin_survey_choose_format.png)
 
 L’utente deve immettere un numero intero nel campo del modulo.
 
@@ -156,13 +156,13 @@ Puoi configurare la visualizzazione dei campi sulla pagina da visualizzare in ba
 
 Per ogni elemento della pagina, la sezione **[!UICONTROL Visibility]** consente di definire le condizioni di visualizzazione.
 
-![](assets/s_ncs_admin_survey_condition_edit.png)
+![Scheda Generale contenitore con il collegamento Modifica visibilità che apre la finestra di dialogo Condizione visibilità.](assets/s_ncs_admin_survey_condition_edit.png)
 
 Le condizioni possono riguardare il valore dei campi o delle variabili del database.
 
 Nella finestra di selezione dei campi è possibile scegliere tra i seguenti dati:
 
-![](assets/s_ncs_admin_survey_condition_select.png)
+![Finestra di dialogo per la selezione di un campo che mostra la struttura del contesto con identificatore, lingua, origine, destinatari e variabili.](assets/s_ncs_admin_survey_condition_select.png)
 
 * La struttura principale contiene i parametri del contesto del modulo. I parametri predefiniti sono Identificatore (che corrisponde all’identificatore crittografato del destinatario), Lingua e Origine.
 
@@ -186,11 +186,11 @@ Per importare un elemento in un modulo, attieniti alla seguente procedura:
 
 1. Modificare la pagina in cui si desidera inserire uno o più elementi, quindi fare clic su **[!UICONTROL Import an existing block]** nella barra degli strumenti.
 
-   ![](assets/s_ncs_admin_survey_import_block.png)
+   ![Barra degli strumenti dell&#39;editor di pagine con il pulsante Importa un blocco esistente evidenziato.](assets/s_ncs_admin_survey_import_block.png)
 
 1. Selezionare il modulo Web contenente i campi da importare e scegliere i contenitori e i campi da importare.
 
-   ![](assets/s_ncs_admin_survey_import_block_selection.png)
+   ![Importa una finestra di dialogo di blocco esistente con un&#39;applicazione Web di origine e i blocchi da importare sono selezionati.](assets/s_ncs_admin_survey_import_block_selection.png)
 
    >[!NOTE]
    >
@@ -198,4 +198,4 @@ Per importare un elemento in un modulo, attieniti alla seguente procedura:
 
 1. Fare clic su **[!UICONTROL Ok]** per confermare l&#39;inserimento.
 
-   ![](assets/s_ncs_admin_survey_import_block_rendering.png)
+   ![Struttura delle pagine dopo l&#39;importazione, che ora contiene i campi Cognome, Paese, N. account ed E-mail.](assets/s_ncs_admin_survey_import_block_rendering.png)

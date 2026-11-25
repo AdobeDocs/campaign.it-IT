@@ -21,10 +21,10 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 2%
+source-wordcount: '703'
+ht-degree: 1%
 ---
 # Definire il layout dei moduli web{#defining-web-forms-layout}
 
@@ -36,19 +36,19 @@ I contenitori consentono di combinare i campi di una pagina, configurarne il lay
 
 Per ogni pagina del modulo, i contenitori vengono creati tramite il pulsante **[!UICONTROL Containers]** della barra degli strumenti.
 
-![](assets/s_ncs_admin_survey_containers_add.png)
+![Editor pagina modulo Web con il pulsante della barra degli strumenti Contenitori aperto, che offre l&#39;opzione Contenitore standard](assets/s_ncs_admin_survey_containers_add.png)
 
 Utilizza un contenitore per raggruppare gli elementi della pagina senza aggiungere un’etichetta al rendering finale. Gli elementi sono raggruppati nella sottostruttura contenitore. I contenitori standard consentono di gestire il layout.
 
 Ad esempio:
 
-![](assets/s_ncs_admin_survey_containers_std_arbo.png)
+![Proprietà di pagina con una struttura ad albero composta da due contenitori, informazioni generali e contratti e relativi campi modulo](assets/s_ncs_admin_survey_containers_std_arbo.png)
 
 La posizione delle etichette viene applicata agli elementi posizionati sotto il contenitore nella gerarchia. Se necessario, può essere sovraccaricato per ogni elemento. Aggiungere o rimuovere colonne per modificare il layout. Vedi [Posizionamento dei campi nella pagina](#positioning-the-fields-on-the-page).
 
 Nell’esempio precedente, il rendering sarà il seguente:
 
-![](assets/s_ncs_admin_survey_containers_std_ex.png)
+![Pagina modulo con rendering con due contenitori: campi dei dettagli personali e un elenco di caselle di controllo del contratto, più un pulsante Convalida](assets/s_ncs_admin_survey_containers_std_ex.png)
 
 ## Posizionamento dei campi nella pagina {#positioning-the-fields-on-the-page}
 
@@ -58,33 +58,33 @@ Le pagine sono suddivise in colonne: ogni pagina contiene un determinato numero 
 
 Per impostazione predefinita, le pagine sono create su una singola colonna e ogni elemento occupa una cella. Ciò significa che i campi vengono visualizzati uno sotto l&#39;altro, ciascuno occupando un&#39;intera linea, come illustrato di seguito:
 
-![](assets/s_ncs_admin_survey_container_ex.png)
+![Pagina modulo a colonna singola con rendering con campi Genere, Nome, Nome e Posta elettronica sovrapposti su righe separate](assets/s_ncs_admin_survey_container_ex.png)
 
 Nell’esempio seguente, è stata mantenuta la configurazione predefinita. La pagina occupa una singola colonna che include quattro contenitori.
 
-![](assets/s_ncs_admin_survey_container_ex0.png)
+![Proprietà pagina con quattro contenitori e numero di colonne impostato su 1 evidenziato](assets/s_ncs_admin_survey_container_ex0.png)
 
 Ogni contenitore occupa una colonna e ogni elemento occupa una cella:
 
-![](assets/s_ncs_admin_survey_container_ex0a.png)
+![Proprietà degli elementi di informazione con numero di celle impostato su 1 evidenziato in Impostazioni visualizzazione](assets/s_ncs_admin_survey_container_ex0a.png)
 
 Il rendering è il seguente:
 
-![](assets/s_ncs_admin_survey_container_ex0_rend.png)
+![Rendering di pagine a colonna singola con quattro contenitori, ciascuno con una colonna, impilato verticalmente](assets/s_ncs_admin_survey_container_ex0_rend.png)
 
 È possibile adattare i parametri di visualizzazione per ottenere il seguente rendering:
 
-![](assets/s_ncs_admin_survey_container_ex1_rend.png)
+![Rendering di pagine a due colonne in cui i contenitori 1 e 3 riempiono la colonna sinistra e i contenitori 2 e 4 la destra](assets/s_ncs_admin_survey_container_ex1_rend.png)
 
 Nell’esempio di rendering precedente, ogni campo di input, titolo e immagine occupa una cella nelle colonne dei contenitori.
 
 Puoi modificare la formattazione in ogni contenitore. Nel nostro esempio, puoi distribuire il contenuto del contenitore 4 su due colonne e distribuire gli elementi.
 
-![](assets/s_ncs_admin_survey_container_ex2_rend.png)
+![Contenitore 4 con due colonne: il titolo e la casella combinata contengono una cella ciascuna, la casella di controllo si estende su due celle](assets/s_ncs_admin_survey_container_ex2_rend.png)
 
 Il titolo e l’elenco occupano una cella ciascuno (e quindi un’intera riga del contenitore) e la casella di controllo si estende su due celle. Il numero di celle attribuite al campo di input è definito nella scheda **[!UICONTROL General]** o nella scheda **[!UICONTROL Advanced]**, in base al tipo di campo:
 
-![](assets/s_ncs_admin_survey_container_ex2.png)
+![Scheda avanzata dell&#39;elemento checkbox con numero di celle impostato su 2 in Impostazioni di visualizzazione](assets/s_ncs_admin_survey_container_ex2.png)
 
 ## Definizione della posizione delle etichette {#defining-the-position-of-labels}
 
@@ -94,7 +94,7 @@ Per impostazione predefinita, i parametri di visualizzazione per i campi e altro
 
 I parametri di visualizzazione globali per l&#39;intero modulo sono specificati nella casella delle proprietà del modulo. La scheda **[!UICONTROL Rendering]** consente di selezionare la posizione delle etichette.
 
-![](assets/s_ncs_admin_survey_label_position.png)
+![Finestra di dialogo Proprietà modulo Web, scheda Rendering, con l&#39;elenco Posizione etichetta: Ereditata, Sinistra, Destra, Sopra, Sotto, Nascosta](assets/s_ncs_admin_survey_label_position.png)
 
 Questa posizione può essere sovraccaricata per ogni pagina, contenitore e campo tramite la scheda **[!UICONTROL Advanced]**.
 

@@ -22,9 +22,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '448'
 ht-degree: 0%
 ---
 # Interazioni anonime {#anonymous-interactions}
@@ -39,7 +39,7 @@ Quando si crea un ambiente anonimo tramite la procedura guidata di creazione del
 
 Viene visualizzato il campo **[!UICONTROL Visitor folder]**. Il collegamento alla cartella **[!UICONTROL Visitors]** viene completato automaticamente. Questo campo consente di scegliere dove memorizzare i profili dei visitatori.
 
-![](assets/anonymous_environment_option.png)
+![Ambiente di offerta con ambiente dedicato alle interazioni anonime in arrivo selezionate e campi della cartella del visitatore](assets/anonymous_environment_option.png)
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ Durante questo passaggio, viene effettuato un confronto tra i dati recuperati da
 
 Per eseguire questa analisi, per lo spazio dell&#39;offerta selezionare l&#39;opzione **[!UICONTROL Implicitly identify the individual based on their browser history]**.
 
-![](assets/identification_anonymous_visitors.png)
+![Spazio dell&#39;offerta con l&#39;opzione Identifica in modo implicito l&#39;utente in base alla cronologia del browser selezionata](assets/identification_anonymous_visitors.png)
 
 ## Elaborazione di visitatori anonimi non identificati {#processing-unidentified-anonymous-visitors}
 
@@ -69,4 +69,4 @@ Se non esiste alcun elemento che ti consenta di identificare un contatto o se no
 
 A questo scopo, controlla **[!UICONTROL Fall back on an anonymous environment if no individuals were identified]**, quindi specifica l&#39;ambiente dedicato a questi visitatori non identificati in **[!UICONTROL Linked anonymous space]** quando specifichi uno spazio dell&#39;offerta.
 
-![](assets/anonymous_to_anonymous_environment.png)
+![Spazio dell&#39;offerta con l&#39;opzione Riprova in un ambiente anonimo selezionata e un campo Spazio anonimo collegato](assets/anonymous_to_anonymous_environment.png)

@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '996'
 ht-degree: 2%
 ---
 # Progettare un sondaggio{#building-a-survey}
@@ -36,7 +36,7 @@ I moduli Web sono accessibili tramite il nodo **[!UICONTROL Resources > Online >
 
 Selezionare il modello di sondaggio (**[!UICONTROL newSurvey]** per impostazione predefinita).
 
-![](assets/s_ncs_admin_survey_select_template.png)
+![Viene aperta la finestra di dialogo Nuova applicazione Web con l&#39;elenco dei modelli per la scelta di un sondaggio o di un modello di modulo Web.](assets/s_ncs_admin_survey_select_template.png)
 
 Le pagine del modulo vengono create utilizzando un editor speciale che consente di definire e configurare campi di input (testo), campi di selezione (elenchi, caselle di controllo, ecc.) ed elementi statici (immagini, contenuti HTML, ecc.). Essi possono essere raccolti in &quot;contenitori&quot; e disposti secondo i requisiti. [Ulteriori informazioni](#adding-questions).
 
@@ -48,7 +48,7 @@ Le pagine del modulo vengono create utilizzando un editor speciale che consente 
 
 I campi di un modulo consentono agli utenti di immettere informazioni e selezionare opzioni. Per ogni pagina del modulo vengono create tramite il primo pulsante della barra degli strumenti tramite il menu **[!UICONTROL Add using the assistant]**.
 
-![](assets/s_ncs_admin_survey_add_field_menu.png)
+![Creazione guidata campi aperta da Aggiungi tramite la procedura guidata, con quattro opzioni di campo da Rispondi a una domanda all&#39;importazione.](assets/s_ncs_admin_survey_add_field_menu.png)
 
 >[!NOTE]
 >
@@ -65,13 +65,13 @@ Quando si aggiunge un campo a un sondaggio, è necessario selezionarne il tipo. 
 
    >[!NOTE]
    >
-   >Le modalità di archiviazione e le importazioni dei campi sono descritte in [questa sezione](managing-answers.md#storing-collected-answers).
+   >Le modalità di archiviazione e le importazioni dei campi sono descritte in dettaglio in [Memorizzare le risposte raccolte](managing-answers.md#storing-collected-answers).
 
 La natura del campo da aggiungere (elenco a discesa, campo di testo, caselle di controllo e così via) si adatta alla modalità di archiviazione selezionata. Puoi modificarlo utilizzando il campo **[!UICONTROL Type]** della scheda **[!UICONTROL General]**, ma assicurati di rimanere coerente con il tipo di dati.
 
-![](assets/s_ncs_admin_survey_change_type.png)
+![Scheda Generale dell&#39;Editor pagine con l&#39;elenco Tipo aperto, che mostra Scelta multipla, Casella combinata e altri tipi di campi.](assets/s_ncs_admin_survey_change_type.png)
 
-I vari tipi di campi disponibili sono descritti in [questa sezione](../web/about-web-forms.md).
+I vari tipi di campi disponibili sono descritti in dettaglio in [Introduzione ai moduli Web](../web/about-web-forms.md).
 
 ## Elementi specifici del sondaggio {#survey-specific-elements}
 
@@ -81,11 +81,11 @@ I sondaggi online si basano sulle funzionalità delle applicazioni web. Le funzi
 
 Per i controlli di tipo **[!UICONTROL Multiple choice]**, è possibile definire un numero minimo e massimo di selezioni. Ad esempio, questa opzione consente di forzare la selezione ad almeno **2** valori e al massimo a **4** valori dalle opzioni disponibili:
 
-![](assets/s_ncs_admin_survey_multichoice_ex1.png)
+![Pagina del sondaggio Seleziona i tuoi interessi con le caselle di controllo, selezionate da tre a quattro opzioni.](assets/s_ncs_admin_survey_multichoice_ex1.png)
 
 Se il numero di selezioni è troppo grande o troppo piccolo, viene visualizzato il messaggio appropriato.
 
-![](assets/s_ncs_admin_survey_multichoice_ex2.png)
+![Nella pagina del sondaggio Interests viene visualizzato il messaggio di errore Non scegliere più di quattro interessi.](assets/s_ncs_admin_survey_multichoice_ex2.png)
 
 >[!NOTE]
 >
@@ -93,11 +93,11 @@ Se il numero di selezioni è troppo grande o troppo piccolo, viene visualizzato 
 
 La configurazione corrispondente è la seguente:
 
-![](assets/s_ncs_admin_survey_multichoice_ex3.png)
+![Campo a scelta multipla impostato per consentire selezioni multiple, con 2 selezioni richieste e 4 consentite.](assets/s_ncs_admin_survey_multichoice_ex3.png)
 
 Inoltre, il percorso di archiviazione per questo campo di input deve essere un **campo archiviato** di tipo **[!UICONTROL Multiple values]**:
 
-![](assets/s_ncs_admin_survey_multiple_values_field.png)
+![Finestra di dialogo Crea nuovo campo archiviato con l&#39;opzione Più valori selezionata per il campo Interests.](assets/s_ncs_admin_survey_multiple_values_field.png)
 
 >[!CAUTION]
 >
@@ -114,7 +114,7 @@ Utilizza un contenitore **Domanda** per aggiungere una domanda alla pagina e ins
 >
 >Non inserire mai un contenitore **Domanda** sotto un altro contenitore **Domanda** nella gerarchia.
 
-![](assets/s_ncs_admin_question_label.png)
+![Scheda Generale del contenitore delle domande con l&#39;opzione Immetti il titolo in formato HTML selezionata e l&#39;editor di HTML visualizzato.](assets/s_ncs_admin_question_label.png)
 
 L&#39;etichetta della domanda viene immessa nel campo etichetta. In questo caso, verrà applicato lo stile del foglio di stile del modulo. Selezionare l&#39;opzione **[!UICONTROL Enter the title in HTML format]** per personalizzarla. In questo modo potrai accedere all’editor di HTML.
 
@@ -124,11 +124,11 @@ L&#39;etichetta della domanda viene immessa nel campo etichetta. In questo caso,
 
 Ad esempio:
 
-![](assets/s_ncs_admin_survey_containers_qu_arbo.png)
+![Struttura ad albero delle pagine con contenitori Domande per il formato e i contratti di posta elettronica e impostazioni della scheda Generale della pagina.](assets/s_ncs_admin_survey_containers_qu_arbo.png)
 
 Nell’esempio precedente, il rendering sarà il seguente:
 
-![](assets/s_ncs_admin_survey_containers_qu_ex.png)
+![Pagina di sondaggio con rendering con campi, elenco a discesa del formato e-mail e domanda con casella di controllo dei contratti.](assets/s_ncs_admin_survey_containers_qu_ex.png)
 
 >[!NOTE]
 >
@@ -136,11 +136,11 @@ Nell’esempio precedente, il rendering sarà il seguente:
 
 Puoi abilitare il disegno casuale delle domande in Adobe Campaign. È quindi possibile specificare il numero di domande da visualizzare nella pagina, nel campo che si trova nella parte inferiore della finestra di configurazione.
 
-![](assets/s_ncs_admin_survey_containers_qu_display.png)
+![Scheda Generale pagina con visualizzazione selezionata in modo casuale e numero di domande da visualizzare impostato su 1.](assets/s_ncs_admin_survey_containers_qu_display.png)
 
 Il rendering sarà simile al seguente:
 
-![](assets/s_ncs_admin_survey_containers_qu_display_rendering.png)
+![Pagina sottoposta a rendering contenente solo due domande selezionate in modo casuale, Domanda 2 e Domanda 3, con pulsante Avanti.](assets/s_ncs_admin_survey_containers_qu_display_rendering.png)
 
 Quando la pagina viene aggiornata, le domande visualizzate non sono le stesse.
 

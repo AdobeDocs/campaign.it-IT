@@ -36,10 +36,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: bf608c313c238d3ba16f9fe6902bb66bb2b90d98
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 27%
+source-wordcount: '449'
+ht-degree: 22%
 ---
 # Utilizzare le mappature target{#gs-target-mappings}
 
@@ -71,7 +71,7 @@ Puoi anche creare una mappatura di destinazione. Potrebbe essere necessario aggi
 * si utilizza una tabella dei destinatari personalizzata,
 * puoi configurare una dimensione di filtro diversa dalla dimensione di targeting incorporata nella schermata mappatura target.
 
-Ulteriori informazioni sulle tabelle dei destinatari personalizzate in [questa pagina](../dev/custom-recipient.md).
+Ulteriori informazioni sulle tabelle dei destinatari personalizzate in [Modificare la tabella dei destinatari predefinita](../dev/custom-recipient.md).
 
 la procedura guidata per la creazione di Adobe Campaign target mapping consente di creare tutti gli schemi necessari per utilizzare la mappatura di destinazione personalizzata.
 
@@ -79,16 +79,16 @@ la procedura guidata per la creazione di Adobe Campaign target mapping consente 
 
 1. Crea una nuova mappatura di destinazione e seleziona lo schema personalizzato come dimensione di targeting.
 
-   ![](assets/new-target-mapping.png)
+   ![Selezionare il passaggio della dimensione di targeting della nuova procedura guidata di mappatura destinazione, con Contratti della dimensione di targeting e Client etichette.](assets/new-target-mapping.png)
 
 
 1. Indica i campi in cui sono memorizzate le informazioni del profilo: cognome, nome, e-mail, indirizzo, ecc.
 
-   ![](assets/wf_new_mapping_define_join.png)
+   ![Passaggio Modifica moduli di indirizzo, in cui ogni campo dell&#39;indirizzo di consegna, ad esempio E-mail, è collegato a un campo della nuova dimensione.](assets/wf_new_mapping_define_join.png)
 
 1. Specifica i parametri per l’archiviazione delle informazioni, compreso il suffisso degli schemi di estensione affinché siano facilmente identificabili.
 
-   ![](assets/wf_new_mapping_define_names.png)
+   ![Passaggio di archiviazione con spazio dei nomi, suffisso degli schemi di estensione e opzioni di esclusione per l&#39;archiviazione di esclusioni e messaggi.](assets/wf_new_mapping_define_names.png)
 
    Puoi scegliere se memorizzare le esclusioni (**excludelog**), con i messaggi (**broadlog**) o in una tabella separata.
 
@@ -96,6 +96,6 @@ la procedura guidata per la creazione di Adobe Campaign target mapping consente 
 
 1. Quindi seleziona le estensioni da prendere in considerazione. Il tipo di estensione dipende dalle impostazioni e dai componenti aggiuntivi di Campaign.
 
-   ![](assets/wf_new_mapping_define_extensions.png)
+   ![Passaggio Estensioni con l&#39;opzione Genera uno schema di archiviazione per le proposte selezionata in Motore offerte.](assets/wf_new_mapping_define_extensions.png)
 
    Fai clic sul pulsante **[!UICONTROL Save]** per avviare la creazione della mappatura di consegna: tutte le tabelle collegate vengono create automaticamente in base ai parametri selezionati.

@@ -27,10 +27,10 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 59%
+source-wordcount: '246'
+ht-degree: 53%
 ---
 # Guida introduttiva alle API REST di Campaign {#get-started-apis}
 
@@ -54,7 +54,7 @@ Con le API REST di Adobe Campaign, puoi accedere alle seguenti funzionalità:
 </tr></table>
 
 Per utilizzare le API REST di Campaign, è necessario un account Adobe I/O. Questo passaggio è obbligatorio per andare avanti e scoprire le funzionalità API.
-Per ulteriori informazioni al riguardo, consulta [questa sezione](setting-up-api-access.md).
+Per ulteriori informazioni, consulta [Impostazione dell&#39;accesso API](setting-up-api-access.md).
 
 Le API fornite sfruttano **concetti standard** con un’interfaccia REST e payload JSON.
 

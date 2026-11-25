@@ -23,10 +23,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 13%
+source-wordcount: '829'
+ht-degree: 11%
 ---
 # Anteprima e verifica dell’e-mail {#preview-test}
 
@@ -41,11 +41,11 @@ Per visualizzare in anteprima il contenuto del messaggio, segui i passaggi segue
 1. Passa alla scheda **Anteprima** della consegna.
 1. Fai clic sul pulsante **[!UICONTROL Test personalization]** per selezionare un profilo per compilare i dati di personalizzazione. Puoi scegliere un destinatario specifico nel database, un indirizzo di seed o selezionare un profilo dalla popolazione target, se è già stato definito. Puoi anche controllare il contenuto senza personalizzazione.
 
-   ![](assets/test-personalization.png)
+   ![Test del menu di personalizzazione nella scheda Anteprima: Destinatario, Un indirizzo di seed, Popolazione target della consegna, Nessuna personalizzazione](assets/test-personalization.png)
 
 1. L’anteprima viene generata in modo da poter controllare il rendering del messaggio. Nell’anteprima del messaggio, gli elementi personalizzati vengono sostituiti dai dati del profilo di test selezionati.
 
-   ![](assets/test-personalization-with-a-recipient.png)
+   ![Anteprima e-mail con l&#39;oggetto e l&#39;intestazione personalizzati con il nome del profilo di test selezionato](assets/test-personalization-with-a-recipient.png)
 
 1. Seleziona altri profili di test per visualizzare in anteprima il rendering delle e-mail per ogni variante del messaggio.
 
@@ -59,7 +59,7 @@ Una bozza è un messaggio specifico che consente di testare un messaggio prima c
 
 Il target della bozza può essere definito nel modello di consegna o specifico per una consegna. In entrambi i casi, passare alla schermata di definizione di destinazione dal collegamento **[!UICONTROL To]** e selezionare la scheda **[!UICONTROL Target of the proofs]**.
 
-![](assets/target-of-proofs.png)
+![Finestra di dialogo Seleziona destinazione, Target della scheda bozze, con il menu a discesa Modalità di targeting e il pulsante Aggiungi](assets/target-of-proofs.png)
 
 Il tipo di destinazione della bozza è selezionato dall&#39;elenco a discesa **[!UICONTROL Targeting mode]**.
 
@@ -68,11 +68,11 @@ Il tipo di destinazione della bozza è selezionato dall&#39;elenco a discesa **[
 
   Per impostazione predefinita, la sostituzione viene eseguita in modo casuale, ma è possibile selezionare un destinatario specifico dal target principale tramite l&#39;icona **[!UICONTROL Detail]**.
 
-  ![](assets/target-of-proofs-substitution-details.png){width="800"}
+  ![Sostituzione della modalità indirizzo con l&#39;elenco degli indirizzi bozza, con l&#39;icona Dettaglio utilizzata per selezionare un profilo specifico](assets/target-of-proofs-substitution-details.png){width="800"}
 
   Scegliere l&#39;opzione **[!UICONTROL Select a profile (must be included in the target)]** e selezionare un destinatario.
 
-  ![](assets/target-of-proofs-substitution.png){width="800"}
+  ![Finestra di dialogo del destinatario della bozza autonoma con l&#39;opzione Seleziona un profilo e un destinatario scelto dall&#39;elenco](assets/target-of-proofs-substitution.png){width="800"}
 
 
 * Utilizza l&#39;opzione **[!UICONTROL Seed addresses]** per utilizzare gli indirizzi di seed come destinazione della bozza. Questi indirizzi possono essere importati da un file o immessi manualmente.
@@ -81,7 +81,7 @@ Il tipo di destinazione della bozza è selezionato dall&#39;elenco a discesa **[
   >
   >Gli indirizzi seed non appartengono alla tabella dei destinatari predefinita (nms:recipient), ma vengono creati in una tabella separata. Se estendi la tabella dei destinatari con nuovi dati, devi estendere anche la tabella degli indirizzi di seed con gli stessi dati.
 
-  Ulteriori informazioni sugli indirizzi di seed in [questa sezione](../audiences/test-profiles.md).
+  Ulteriori informazioni sugli indirizzi di seed in [Creare profili di test in Campaign](../audiences/test-profiles.md).
 
 * Utilizzare l&#39;opzione **[!UICONTROL Specific target and Seed addresses]** per combinare indirizzi seed e indirizzi e-mail specifici. Le configurazioni correlate vengono quindi definite in due schede secondarie separate.
 
@@ -93,7 +93,7 @@ Per inviare bozze dei messaggi, effettua le seguenti operazioni:
 1. Dalla finestra **[!UICONTROL Send a proof]**, controlla i destinatari della bozza.
 1. Fare clic su **[!UICONTROL Analyze]** per avviare la preparazione dei messaggi di bozza.
 
-   ![](assets/send-proof-analyze.png){width="800"}
+   ![Dopo aver fatto clic su Analizza, invia una finestra di bozza con gli indirizzi di sostituzione e il registro di analisi della consegna in esecuzione](assets/send-proof-analyze.png){width="800"}
 
 1. Una volta completata la preparazione della consegna, utilizza **[!UICONTROL Confirm delivery]** per iniziare a inviare messaggi di prova.
 
@@ -115,7 +115,7 @@ Le proprietà della bozza sono impostate nella scheda **[!UICONTROL Advanced]** 
 
 Per impostazione predefinita, i messaggi di bozza sono identificati dalla menzione `Proof #N` nell&#39;oggetto, dove `N` è il numero della bozza. Questo numero viene incrementato con ogni analisi della consegna della bozza. È possibile modificare il prefisso `proof` in base alle esigenze.
 
-![](assets/proof-parameters.png){width="800"}
+![Finestra di dialogo Proprietà bozza dalla scheda Avanzate con opzioni bozza e il campo Prefisso etichetta impostato su Bozza](assets/proof-parameters.png){width="800"}
 
 
 ## Video dimostrativo {#video-proof}

@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 63e73a31c5c46cb7544917557c3a0670d7ac91c9
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1189'
 ht-degree: 3%
 ---
 # Rapporti incorporati di Adobe Campaign {#ootb-reports}
@@ -57,32 +57,32 @@ Per accedere ai rapporti incorporati di Campaign:
 
 1. Selezionare la scheda **[!UICONTROL Reports]** dell&#39;interfaccia di Adobe Campaign.
 
-   ![](assets/reporting-access-from-home.png)
+   ![Scheda Rapporti evidenziata nella home di Campaign, che mostra l&#39;elenco dei rapporti globali dei rapporti incorporati.](assets/reporting-access-from-home.png)
 
 1. Utilizza i campi di ricerca per filtrare i rapporti visualizzati.
 
 1. Quindi fai clic sul rapporto che desideri visualizzare.
 
-   ![](assets/edit-a-report.png)
+   ![Elenco di report globali filtrato con il campo di ricerca nel budget, che mostra i report corrispondenti da aprire.](assets/edit-a-report.png)
 
 1. Fai clic sul collegamento **[!UICONTROL Back]** nella parte superiore della schermata per tornare all&#39;elenco dei rapporti.
 
-   ![](assets/back-button.png)
+   ![Report di analisi costi con il pulsante Indietro evidenziato in alto a destra per tornare all&#39;elenco dei report.](assets/back-button.png)
 
 I rapporti specifici di una campagna o di una consegna sono accessibili tramite le rispettive dashboard.
 
-![](assets/reporting-on-delivery.png)
+![Dashboard delle consegne con il collegamento Rapporti evidenziato, elenco dei rapporti di consegna.](assets/reporting-on-delivery.png)
 
 Il principio è lo stesso per elenchi, servizi, offerte, ecc. come mostrato di seguito:
 
-![](assets/reporting-on-offer.png)
+![Dashboard elenco con il collegamento Report evidenziato per accedere ai report elenco.](assets/reporting-on-offer.png)
 
 
 ## Rapporti sulle consegne {#reports-on-deliveries}
 
 I rapporti incorporati forniti da Adobe Campaign sono disponibili nella tabella seguente.
 
-Per ulteriori informazioni sul contenuto di questi report, consulta [questa sezione](delivery-reports.md).
+Per ulteriori informazioni sul contenuto di questi rapporti, consulta [Rapporti di consegna incorporati di Adobe Campaign](delivery-reports.md).
 
 <table> 
  <tbody> 

@@ -34,10 +34,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 2%
+source-wordcount: '515'
+ht-degree: 0%
 ---
 # Crea un nuovo schema {#create-new-schema}
 
@@ -47,11 +47,11 @@ Per modificare, creare e configurare gli schemi, fare clic sul nodo **[!UICONTRO
 >
 >Gli schemi di dati incorporati possono essere eliminati solo da un amministratore della console Adobe Campaign.
 
-![](assets/schema_navtree.png)
+![Struttura di Explorer con amministrazione, configurazione e nodo Schemi dati evidenziato.](assets/schema_navtree.png)
 
 La scheda **[!UICONTROL Edit]** mostra il contenuto XML di uno schema:
 
-![](assets/schema_edition.png)
+![Editor schema di Source, scheda Modifica, con i campi Nome ed Etichetta e il contenuto XML dello schema.](assets/schema_edition.png)
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ La scheda **[!UICONTROL Edit]** mostra il contenuto XML di uno schema:
 
 La scheda **[!UICONTROL Preview]** genera automaticamente lo schema esteso:
 
-![](assets/schema_edition2.png)
+![Editor schema di Source, scheda Anteprima, che mostra l&#39;XML dello schema esteso generato.](assets/schema_edition2.png)
 
 >[!NOTE]
 >
@@ -76,11 +76,11 @@ A questo scopo, devi creare lo schema della tabella e aggiornare la struttura de
 1. Modificare il nodo **[!UICONTROL Administration > Configuration > Data schemas]** della struttura Adobe Campaign e fare clic su **[!UICONTROL New]**.
 1. Scegliere l&#39;opzione **[!UICONTROL Create a new table in the data template]** e fare clic su **[!UICONTROL Next]**.
 
-   ![](assets/create_new_schema.png)
+   ![Pagina del tipo di schema della procedura guidata dello schema dati con Crea una nuova tabella nel modello dati selezionato.](assets/create_new_schema.png)
 
 1. Specificare un nome per la tabella e uno spazio dei nomi.
 
-   ![](assets/create_new_param.png)
+   ![Pagina dei parametri dello schema in cui sono stati inseriti il nodo dello spazio dei nomi, i contratti dei nomi, l&#39;etichetta, l&#39;etichetta (singolare) e la descrizione.](assets/create_new_param.png)
 
    >[!NOTE]
    >
@@ -88,7 +88,7 @@ A questo scopo, devi creare lo schema della tabella e aggiornare la struttura de
 
 1. Crea il contenuto della tabella. È consigliabile utilizzare l’assistente dedicato per verificare che non manchino impostazioni. A tale scopo, fare clic sul pulsante **[!UICONTROL Insert]** e scegliere il tipo di impostazione da aggiungere.
 
-   ![](assets/create_new_content.png)
+   ![Pagina Modifica schema con il menu Inserisci aperto, che mostra i tipi di attributo, ad esempio Stringa e Numero intero.](assets/create_new_content.png)
 
 1. Definire le impostazioni per la tabella dei contratti.
 
@@ -138,6 +138,6 @@ A questo scopo, devi creare lo schema della tabella e aggiornare la struttura de
 
 1. Salvare lo schema e fare clic sulla scheda **[!UICONTROL Structure]** per generare la struttura:
 
-   ![](assets/configuration_structure.png)
+   ![Scheda Struttura degli attributi del titolare dell&#39;elenco di schemi dei contratti, del cotitolare, del numero di contratto e della data di sottoscrizione.](assets/configuration_structure.png)
 
-1. Aggiorna la struttura del database per creare la tabella a cui verrà collegato lo schema. Per ulteriori informazioni al riguardo, consulta [questa sezione](update-database-structure.md).
+1. Aggiorna la struttura del database per creare la tabella a cui verrà collegato lo schema. Per ulteriori informazioni, consulta [Aggiornare la struttura del database](update-database-structure.md).

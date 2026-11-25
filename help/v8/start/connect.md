@@ -23,10 +23,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 82%
+source-wordcount: '1164'
+ht-degree: 76%
 ---
 # Connessione ad Adobe Campaign v8{#gs-ac-connect}
 
@@ -93,7 +93,7 @@ Per accedere a un’istanza, segui i seguenti passaggi:
 
 1. Avvia la console e sfoglia il collegamento nell’angolo a destra per accedere alla schermata di configurazione della connessione.
 
-   ![](assets/connectToCampaign.png)
+   ![Finestra di dialogo Connessioni aperta dalla schermata di accesso, con l&#39;opzione Connetti con Adobe ID selezionata](assets/connectToCampaign.png)
 
 1. Seleziona l’istanza di Campaign a cui devi accedere.
 
@@ -101,7 +101,7 @@ Per accedere a un’istanza, segui i seguenti passaggi:
 
 Puoi quindi accedere a Campaign con il tuo Adobe ID.
 
-![](assets/adobeID.png)
+![Schermata di accesso di Adobe ID alla console del client Campaign con campo e-mail e pulsante Continua](assets/adobeID.png)
 
 >[!NOTE]
 >
@@ -139,7 +139,7 @@ Adobe Campaign consente di definire e gestire i diritti assegnati ai vari operat
 
 In qualità di amministratore di Campaign, sei responsabile della creazione degli operatori e della condivisione delle relative credenziali con gli utenti.
 
-Ulteriori informazioni sugli utenti e su come definire le relative autorizzazioni sono disponibili in [questa sezione](gs-permissions.md).
+Ulteriori informazioni sugli utenti e su come definire le relative autorizzazioni in [Introduzione alle autorizzazioni in Campaign v8](gs-permissions.md).
 
 
 ## Accedere a Campaign con un browser web {#connect-web-ac}
@@ -165,11 +165,11 @@ L’accesso web fornisce un’interfaccia simile alla console ma con un set rido
 
 Ad esempio, per un dato operatore, viene visualizzata una campagna con le seguenti opzioni nella console:
 
-![](assets/campaign-from-console.png)
+![Dashboard di Campaign nella console client, con schede e azioni di modifica complete disponibili](assets/campaign-from-console.png)
 
 Con l’accesso web, invece, le opzioni consentiranno principalmente la visualizzazione di:
 
-![](assets/campaign-from-web.png)
+![Dashboard di Campaign nell&#39;accesso Web, con principalmente opzioni di visualizzazione](assets/campaign-from-web.png)
 
 L’accesso web viene utilizzato anche nel processo di convalida: gli operatori possono fare clic sull’e-mail della richiesta di approvazione e connettersi a Campaign tramite il proprio browser web per convalidare o rifiutare un contenuto o un budget di consegna.
 

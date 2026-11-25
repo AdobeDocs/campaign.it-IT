@@ -28,9 +28,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '621'
 ht-degree: 6%
 ---
 # Configurare collegamenti tracciati {#how-to-configure-tracked-links}
@@ -39,17 +39,17 @@ Per ogni consegna, puoi tracciare la ricezione dei messaggi e l’attivazione de
 
 >[!NOTE]
 >
->I collegamenti nel contenuto delle e-mail che contengono la personalizzazione devono essere tracciati con una sintassi specifica. Scopri come aggiungere nelle e-mail collegamenti che possono essere personalizzati e che supportano il tracciamento in [questa sezione](personalized-links.md).
+>I collegamenti nel contenuto delle e-mail che contengono la personalizzazione devono essere tracciati con una sintassi specifica. Scopri come aggiungere nelle e-mail collegamenti che possono essere personalizzati e che supportano il tracciamento in [Tracciare collegamenti personalizzati](personalized-links.md).
 
 Il tracciamento dei messaggi è abilitato per impostazione predefinita. Per personalizzare il tracciamento degli URL, effettua le seguenti operazioni:
 
 1. Seleziona l’opzione **[!UICONTROL Display URLs]** nella sezione inferiore dell’assistente alla consegna, sotto il contenuto del messaggio.
 
-   ![](assets/s_ncs_user_email_del_display_urls.png)
+   ![Contenuto HTML di consegna con l&#39;opzione URL di visualizzazione sotto il contenuto, non ancora selezionato](assets/s_ncs_user_email_del_display_urls.png)
 
    Quando selezioni un URL dall’elenco degli URL tracciati, questo viene evidenziato nel contenuto della consegna, ad eccezione del collegamento nella pagina speculare e del collegamento di annullamento dell’abbonamento forniti per impostazione predefinita.
 
-   ![](assets/s_ncs_user_email_del_show_urls.png)
+   ![Elenco di URL tracciati con un URL selezionato e il relativo collegamento corrispondente evidenziato nel contenuto della consegna](assets/s_ncs_user_email_del_show_urls.png)
 
 1. Per ogni URL del messaggio, seleziona se attivare o meno il tracciamento.
 
@@ -67,7 +67,7 @@ Il tracciamento dei messaggi è abilitato per impostazione predefinita. Per pers
 
 1. Se necessario, modificare la modalità di tracciamento, selezionare una nuova modalità nella colonna **[!UICONTROL Tracking]** che corrisponda al collegamento di destinazione, come illustrato di seguito:
 
-   ![](assets/s_ncs_user_select_tracking_mode.png)
+   ![Elenco a discesa delle colonne di tracciamento che elenca le modalità di tracciamento per un URL, da Abilitato a Pagina mirror](assets/s_ncs_user_select_tracking_mode.png)
 
    Per ogni singolo URL, puoi impostare la modalità di tracciamento su uno dei seguenti valori:
 
@@ -78,7 +78,7 @@ Il tracciamento dei messaggi è abilitato per impostazione predefinita. Per pers
    * **[!UICONTROL Opt-out]**: considera questo URL come URL di rinuncia o di annullamento dell&#39;abbonamento.
    * **[!UICONTROL Mirror page]**: considera questo URL come un URL della pagina mirror.
 
-1. È inoltre possibile selezionare una categoria per ogni URL tracciato nell&#39;elenco a discesa della colonna **[!UICONTROL Category]**. Queste categorie possono essere visualizzate nei report, ad esempio nel report **[!UICONTROL URLs and click streams]** (vedi [questa sezione](../reporting/delivery-reports.md#urls-and-click-streams)). Le categorie sono definite in un&#39;enumerazione specifica: **[!UICONTROL urlCategory]**. Scopri come utilizzare le enumerazioni in [questa sezione](../config/enumerations.md).
+1. È inoltre possibile selezionare una categoria per ogni URL tracciato nell&#39;elenco a discesa della colonna **[!UICONTROL Category]**. Queste categorie possono essere visualizzate nei report, ad esempio nel report **[!UICONTROL URLs and click streams]** (vedi [URL e flussi di clic](../reporting/delivery-reports.md#urls-and-click-streams)). Le categorie sono definite in un&#39;enumerazione specifica: **[!UICONTROL urlCategory]**. Ulteriori informazioni su come utilizzare le enumerazioni in [Gestione enumerazioni](../config/enumerations.md).
 
 ## Best practice per i delimitatori URL {#url-delimiters}
 

@@ -29,15 +29,15 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: bf608c313c238d3ba16f9fe6902bb66bb2b90d98
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 24%
+source-wordcount: '100'
+ht-degree: 19%
 ---
 # Raccogliere e aggiornare profili con i moduli web
 
 Utilizza Campaign per creare moduli web e raccogliere e gestire i dati di profilo in modo semplice ed efficiente. Puoi condividere questi moduli nel tuo sito web, in modo che i tuoi contatti possano inviarti facilmente i loro dati. I dati vengono inviati a Campaign per creare o aggiornare il profilo.
 
-![](assets/web-form-page.png)
+![Attività di pagina di un flusso di lavoro dell’applicazione web, che mostra il modulo per newsletter Luma con un campo e-mail e un pulsante Invia.](assets/web-form-page.png)
 
-Scopri come creare moduli web in [questa sezione](../dev/web/about-web-forms.md).
+Scopri come creare moduli web in [Introduzione ai moduli web](../dev/web/about-web-forms.md).

@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '820'
 ht-degree: 0%
 ---
 # Caso d’uso: creare un modulo di riferimento{#use-case-creating-a-refer-a-friend-form}
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 In questo esempio, vogliamo offrire un concorso ai destinatari nel database. Nel modulo Web sarà presente una sezione per l&#39;immissione delle risposte e un&#39;altra per l&#39;invio di un messaggio a un amico immettendo il proprio indirizzo di posta elettronica.
 
-![](assets/s_ncs_admin_survey_viral_sample_0.png)
+![Modulo di concorso con un&#39;area di identificazione, un&#39;area quiz con domande casuali e un&#39;area di invito per segnalare un amico](assets/s_ncs_admin_survey_viral_sample_0.png)
 
 I blocchi di identificazione e di concorrenza vengono creati utilizzando i processi descritti in precedenza.
 
@@ -53,7 +53,7 @@ Per configurare e creare il blocco di riferimento, attieniti alla seguente proce
 
 1. Creare un modulo Web per la concorrenza con domande e un campo per l&#39;immissione delle informazioni di contatto di un amico come illustrato di seguito:
 
-   ![](assets/s_ncs_admin_survey_viral_sample_2.png)
+   ![Struttura del modulo per la concorrenza con identificazione, gioco e sezione di riferimento con campi per i contatti dei tuoi amici](assets/s_ncs_admin_survey_viral_sample_2.png)
 
    Il campo **Messaggio** consente di immettere un messaggio per l&#39;arbitro. Il referente deve inoltre immettere **Cognome**, **Nome** e **E-mail**.
 
@@ -65,7 +65,7 @@ Per configurare e creare il blocco di riferimento, attieniti alla seguente proce
    >
    >In questo esempio, vogliamo indirizzare i destinatari affinché suggeriscano di partecipare al concorso raccomandato dal loro referrer. Tuttavia, in questo messaggio vogliamo offrire loro anche un abbonamento a uno dei nostri servizi informativi. Se si iscrivono, possono essere memorizzati nel database.
 
-   ![](assets/s_ncs_admin_survey_viral_sample_5.png)
+   ![Struttura del modulo con il campo Cognome nella sezione Riferimento a un amico selezionata](assets/s_ncs_admin_survey_viral_sample_5.png)
 
    Il contenuto dei campi che riguardano l’arbitro verrà utilizzato nello script di creazione del profilo e nel messaggio a loro inviato.
 
@@ -73,9 +73,9 @@ Per configurare e creare il blocco di riferimento, attieniti alla seguente proce
 
    Contiene le seguenti istruzioni:
 
-   ![](assets/s_ncs_admin_survey_viral_sample_4.png)
+   ![Diagramma del modulo con la casella di script Informazioni referente aperta, impostazione dell&#39;ID visitatore, dell&#39;URL di inoltro e dei campi referente](assets/s_ncs_admin_survey_viral_sample_4.png)
 
-   ```
+   ```javascript
    ctx.recipient.visitor.@id = xtk.session.GetNewIds(1)
    ctx.recipient.visitor.@forwardUrl = "APP5"
    ctx.recipient.visitor.@referrerEmail = ctx.recipient.@email
@@ -89,23 +89,23 @@ Per configurare e creare il blocco di riferimento, attieniti alla seguente proce
 
 1. La casella di memorizzazione consente di raccogliere le informazioni e di memorizzarle nel database.
 
-   ![](assets/s_ncs_admin_survey_viral_sample_4b.png)
+   ![Finestra di dialogo Archiviazione con l&#39;elemento Visitatore selezionato nelle opzioni di riconciliazione per memorizzare l&#39;arbitro](assets/s_ncs_admin_survey_viral_sample_4b.png)
 
 1. Quindi crea il modello di consegna collegato al servizio informazioni creato durante il passaggio 1. Verrà selezionato nel campo **[!UICONTROL Choose scenario]** del servizio informazioni.
 
    Il modello di consegna utilizzato per creare il messaggio di offerta di riferimento contiene le seguenti informazioni:
 
-   ![](assets/s_ncs_admin_survey_viral_sample_7.png)
+   ![Invita un modello di consegna amico con un oggetto e un contenuto HTML che utilizza campi di personalizzazione](assets/s_ncs_admin_survey_viral_sample_7.png)
 
    Questo modello presenta le seguenti caratteristiche:
 
    * Seleziona la tabella dei visitatori come mappatura di destinazione.
 
-     ![](assets/s_ncs_admin_survey_viral_sample_7b.png)
+     ![Finestra di dialogo Seleziona destinazione con i visitatori (nms:visitor) selezionati come mappatura di destinazione della consegna](assets/s_ncs_admin_survey_viral_sample_7b.png)
 
    * Le informazioni di contatto dell’arbitro e quelle sul referente vengono ricavate dalla tabella dei visitatori. Viene inserito utilizzando il pulsante di personalizzazione.
 
-     ![](assets/s_ncs_admin_survey_viral_sample_7a.png)
+     ![Menu Personalization nel contenuto della consegna, sottomenu Visitatore che elenca i campi Cognome, Nome, E-mail e Referrer](assets/s_ncs_admin_survey_viral_sample_7a.png)
 
    * Questo modello contiene un collegamento al modulo del concorso e il collegamento di abbonamento per l&#39;abbonamento alla newsletter da parte dell&#39;arbitro.
 
@@ -119,9 +119,9 @@ Per configurare e creare il blocco di riferimento, attieniti alla seguente proce
 
 1. Crea il secondo script per la consegna dei messaggi di abbonamento.
 
-   ![](assets/s_ncs_admin_survey_viral_sample_7c.png)
+   ![Casella di script Archiviazione referee e invio di messaggi, con codice che accoda la notifica e-mail di riferimento all&#39;arbitro](assets/s_ncs_admin_survey_viral_sample_7c.png)
 
-   ```
+   ```javascript
    // Updtate visitor to have a link to the referrer recipient
    ctx.recipient.visitor.@referrerId = ctx.recipient.@id
    ctx.recipient.visitor.@xtkschema = "nms:visitor"
@@ -146,10 +146,10 @@ Per configurare e creare il blocco di riferimento, attieniti alla seguente proce
 
 1. Pubblica il modulo di concorso e invia un invito ai destinatari del target iniziale. Quando uno di loro invita un amico, viene creata una consegna basata sul modello **Offerta di riferimento**.
 
-   ![](assets/s_ncs_admin_survey_viral_sample_8.png)
+   ![Pagina quiz completata con una sezione Invite a friend e l&#39;elenco Consegne che mostra la consegna in corso](assets/s_ncs_admin_survey_viral_sample_8.png)
 
    L&#39;arbitro viene aggiunto alla cartella dei visitatori in **[!UICONTROL Administration > Visitors node]**:
 
-   ![](assets/s_ncs_admin_survey_viral_sample_9.png)
+   ![Cartella Visitatori che elenca l&#39;arbitro, con la scheda Generale visitatore che mostra nome, e-mail e referrer](assets/s_ncs_admin_survey_viral_sample_9.png)
 
    Il loro profilo contiene le informazioni inserite dal referente. Viene memorizzato in base alle configurazioni immesse nello script del modulo. Se decidono di abbonarsi alla newsletter, verranno salvati nella tabella dei destinatari.

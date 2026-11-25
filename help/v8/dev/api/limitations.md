@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1071'
 ht-degree: 1%
 ---
 # Raccomandazioni e limitazioni {#limitations}
@@ -81,7 +81,7 @@ Per il momento, è possibile utilizzare le API REST elencate di seguito:
 
 * Per utilizzare i filtri nei payload API REST, è necessario modificarli in Campaign v8 e fornire un nome da utilizzare nei payload. A tale scopo, accedere ai parametri aggiuntivi del filtro dalla scheda **[!UICONTROL Parameters]** e specificare il nome desiderato nel campo **[!UICONTROL Filter name in REST API]**.
 
-  ![](assets/api-filtering.png)
+  ![Finestra di dialogo parametri avanzati di un filtro predefinito con il nome del filtro nel campo API REST impostato su byEmailNotEmpty](assets/api-filtering.png)
 
 
 * Il prefisso &quot;by&quot; necessario per utilizzare i filtri personalizzati non è più necessario. Il nome del filtro deve essere utilizzato così com’è nelle richieste.
@@ -98,7 +98,7 @@ Alcuni campi del database vengono eliminati durante la migrazione. Quando si uti
 
 Quando si utilizza il seguente formato del corpo della richiesta, con &quot;vehicleOwner&quot; che rappresenta il collegamento a &quot;nms:recipient&quot;:
 
-```
+```json
 {
     "vehicleNumber": "20009",
     "vehicleName": "Model E",

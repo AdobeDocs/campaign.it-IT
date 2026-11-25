@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '370'
 ht-degree: 2%
 ---
 # Introduzione all’editor di Campaign HTML{#about-campaign-html-editor}
@@ -63,7 +63,7 @@ Questa sezione descrive i passaggi chiave per modificare e caricare contenuti mo
 
 Il funzionamento generale è il seguente:
 
-![](assets/dce_schema.png)
+![La pagina di destinazione e la consegna e-mail passano attraverso l&#39;Editor di contenuti digitali, quindi alla pubblicazione o all&#39;invio](assets/dce_schema.png)
 
 Per creare una **applicazione Web** semplice, è necessario:
 
@@ -74,7 +74,7 @@ Per creare una **applicazione Web** semplice, è necessario:
 
 >[!NOTE]
 >
->Un esempio completo di implementazione nel contesto di un&#39;applicazione Web è disponibile in [questa sezione](creating-a-landing-page.md).
+>Un esempio completo di implementazione nel contesto di un&#39;applicazione Web è disponibile in [Creare una pagina di destinazione](creating-a-landing-page.md).
 
 Per creare una **consegna e-mail**, è necessario:
 

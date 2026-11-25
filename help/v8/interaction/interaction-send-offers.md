@@ -24,10 +24,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '1278'
-ht-degree: 4%
+source-wordcount: '1565'
+ht-degree: 3%
 ---
 # Inviare un’offerta{#send}
 
@@ -41,37 +41,37 @@ Per inserire le proposte di offerta in una consegna, segui i passaggi seguenti:
 
 1. Nella finestra di consegna, fai clic sull&#39;icona **Offerte**.
 
-   ![](assets/offer_delivery_001.png)
+   ![Invia e-mail con il pulsante Offerte, aprendo la finestra di dialogo Gestione offerte con un campo Spazio offerte vuoto](assets/offer_delivery_001.png)
 
 1. Seleziona lo spazio corrispondente all’ambiente delle offerte.
 
-   ![](assets/offer_delivery_002.png)
+   ![Elenco a discesa dello spazio dell&#39;offerta nella finestra di dialogo Gestione delle offerte in cui sono elencati gli spazi dell&#39;offerta e-mail disponibili](assets/offer_delivery_002.png)
 
 1. Per perfezionare la scelta delle offerte da parte del motore, seleziona la categoria di cui fanno parte le offerte da presentare oppure uno o più temi. È consigliabile utilizzare solo uno di questi campi alla volta per evitare di sovraccaricare le restrizioni.
 
-   ![](assets/offer_delivery_003.png)
+   ![Finestra di dialogo Gestione delle offerte con il menu a discesa Categoria, in cui sono elencate le categorie del catalogo delle offerte](assets/offer_delivery_003.png)
 
-   ![](assets/offer_delivery_004.png)
+   ![Finestra di dialogo Gestione delle offerte con il campo Temi compilata](assets/offer_delivery_004.png)
 
 1. Specifica il numero di offerte che desideri inserire nel corpo della consegna.
 
-   ![](assets/offer_delivery_005.png)
+   ![Finestra di dialogo Gestione delle offerte con il campo Numero di proposte per messaggio impostato su 2](assets/offer_delivery_005.png)
 
 1. Selezionare l&#39;opzione **[!UICONTROL Exclude non-eligible recipients]** se necessario. [Ulteriori informazioni](#parameters-for-calling-offer-engine)
 
-   ![](assets/offer_delivery_006.png)
+   ![Finestra di dialogo Gestione delle offerte con l&#39;opzione Escludi destinatari non idonei selezionata](assets/offer_delivery_006.png)
 
 1. Se necessario, selezionare l&#39;opzione **[!UICONTROL Do not display anything if no offers are selected]**. [Ulteriori informazioni](#parameters-for-calling-offer-engine)
 
-   ![](assets/offer_delivery_007.png)
+   ![Finestra di dialogo Gestione delle offerte con l&#39;opzione Non visualizzare nulla se non è selezionata alcuna offerta](assets/offer_delivery_007.png)
 
 1. Inserisci le proprietà nel contenuto della consegna utilizzando i campi di unione. Il numero di proposte disponibili dipende dal modo in cui viene configurata la chiamata del motore e il loro ordine dipende dalla priorità delle offerte.
 
-   ![](assets/offer_delivery_008.png)
+   ![Percorso del menu dei contenuti della consegna Proposizioni, Proposizioni 2, Funzione di rendering, rendering HTML](assets/offer_delivery_008.png)
 
 1. Completa il contenuto, esegui un test e invia la consegna.
 
-   ![](assets/offer_delivery_010.png)
+   ![Il contenuto della consegna e-mail con due proposte include script ed è evidenziato il pulsante Invia](assets/offer_delivery_010.png)
 
 
 ### Parametri del motore di offerta {#parameters-for-calling-offer-engine}
@@ -97,7 +97,7 @@ L&#39;attività **Enrichment** ti consente di aggiungere offerte o collegamenti 
 
 Ad esempio, puoi arricchire i dati di una query del destinatario prima di una consegna.
 
-![](assets/int_enrichment_offer1.png)
+![Flusso di lavoro con un&#39;attività Query, Enrichment e Direct Mail delivery collegata da transizioni di risultati](assets/int_enrichment_offer1.png)
 
 Esistono due metodi per specificare le proposte di offerta.
 
@@ -112,18 +112,18 @@ Dopo aver configurato l&#39;attività **Query**:
 1. Nella scheda **[!UICONTROL Enrichment]**, selezionare **[!UICONTROL Add data]**.
 1. Selezionare **[!UICONTROL An offer proposition]** nei tipi di dati da aggiungere.
 
-   ![](assets/int_enrichment_offer2.png)
+   ![Creazione guidata dati aggiuntivi con l&#39;opzione di proposta di offerta selezionata](assets/int_enrichment_offer2.png)
 
 1. Specifica un identificatore e un’etichetta per la proposta che verrà aggiunta.
 1. Specifica la selezione dell’offerta. Esistono due opzioni possibili per questo:
 
    * **[!UICONTROL Search for the best offer in a category]**: selezionare questa opzione e specificare i parametri di chiamata del motore di offerta (spazio dell&#39;offerta, categoria o temi, data di contatto, numero di offerte da mantenere). Il motore calcola automaticamente le offerte da aggiungere in base a questi parametri. È consigliabile completare il campo **[!UICONTROL Category]** o **[!UICONTROL Theme]**, anziché entrambi contemporaneamente.
 
-     ![](assets/int_enrichment_offer3.png)
+     ![Passaggio della proposta di offerta impostato per cercare l&#39;offerta migliore in una categoria, con spazio, categoria e offerte da mantenere](assets/int_enrichment_offer3.png)
 
    * **[!UICONTROL A pre-defined offer]**: selezionare questa opzione e specificare uno spazio dell&#39;offerta, un&#39;offerta specifica e una data di contatto per configurare direttamente l&#39;offerta da aggiungere senza chiamare il motore delle offerte.
 
-     ![](assets/int_enrichment_offer4.png)
+     ![Passaggio della proposta di offerta impostato su un&#39;offerta predefinita, con i campi Spazio e Offerta](assets/int_enrichment_offer4.png)
 
 1. Quindi configura un’attività di consegna che corrisponde al canale scelto. [Ulteriori informazioni](#offer-into-a-delivery)
 
@@ -141,11 +141,11 @@ A questo scopo, segui la procedura indicata di seguito:
 1. Nella finestra in cui si sceglie il tipo di dati da aggiungere, selezionare **[!UICONTROL A link]**.
 1. Seleziona il tipo di collegamento che desideri stabilire e la relativa destinazione. In questo caso, la destinazione è lo schema dell’offerta.
 
-   ![](assets/int_enrichment_link1.png)
+   ![Passaggio di definizione del collegamento con un collegamento la cui destinazione è sempre disponibile e lo schema Offerte di marketing come destinazione](assets/int_enrichment_link1.png)
 
 1. Specifica il join tra i dati della tabella in entrata nell’attività di arricchimento (qui la tabella dei destinatari) e la tabella delle offerte. Ad esempio, puoi collegare un codice di offerta a un destinatario.
 
-   ![](assets/int_enrichment_link2.png)
+   ![Condizioni di join della definizione del collegamento corrispondenti al campo di origine cryptedId con il campo del codice di destinazione](assets/int_enrichment_link2.png)
 
 1. Quindi configura un’attività di consegna che corrisponde al canale scelto. [Ulteriori informazioni](#offer-into-a-delivery)
 
@@ -166,11 +166,11 @@ Tuttavia, è possibile memorizzare queste informazioni come segue:
 1. Crea una chiamata al motore di offerta in un’attività di arricchimento inserita dopo una query e prima di un’attività di consegna. [Ulteriori informazioni](#specifying-an-offer-or-a-call-to-the-offer-engine)
 1. Nella finestra principale dell&#39;attività, selezionare **[!UICONTROL Edit additional data...]**.
 
-   ![](assets/ita_enrichment_rankweight_1.png)
+   ![Attività di arricchimento con il collegamento Modifica dati aggiuntivi evidenziato, elenco dei dati della proposta](assets/ita_enrichment_rankweight_1.png)
 
 1. Aggiungi le colonne **[!UICONTROL @rank]** per la classificazione e **[!UICONTROL @weight]** per il peso dell&#39;offerta.
 
-   ![](assets/ita_enrichment_rankweight_2.png)
+   ![Finestra di dialogo Seleziona colonne aggiuntive con le colonne di output Peso e Classificazione aggiunte nella proposta](assets/ita_enrichment_rankweight_2.png)
 
 1. Conferma l’aggiunta e salva il flusso di lavoro.
 
@@ -184,7 +184,7 @@ Per ulteriori informazioni sull&#39;attività del **motore di offerta**, consult
 
 Questa attività funziona sullo stesso principio dell&#39;attività **Enrichment** con una chiamata al motore, arricchendo i dati della popolazione in entrata con un&#39;offerta calcolata dal motore, prima di una consegna.
 
-![](assets/int_offerengine_activity2.png)
+![Flusso di lavoro con query, motore di offerta e attività di consegna direct mailing collegate da transizioni di risultati](assets/int_offerengine_activity2.png)
 
 Dopo aver configurato l&#39;attività **Query**:
 
@@ -195,7 +195,7 @@ Dopo aver configurato l&#39;attività **Query**:
    >
    >Se utilizzi questa attività, verranno memorizzate solo le proposte di offerta utilizzate nella consegna.
 
-   ![](assets/int_offerengine_activity1.png)
+   ![Attività del motore di offerta con spazio, categoria e numero di proposte da calcolare](assets/int_offerengine_activity1.png)
 
 1. Quindi configura un’attività di consegna che corrisponde al canale scelto. [Ulteriori informazioni](#inserting-an-offer-proposition-into-a-delivery)
 
@@ -214,7 +214,7 @@ A questo scopo, utilizza il seguente processo:
    * Specifica la popolazione del sottoinsieme utilizzando le regole di filtro e limitazione disponibili.
    * Quindi seleziona l’offerta da presentare al sottoinsieme. Le offerte disponibili sono quelle idonee nell’ambiente delle offerte selezionato al passaggio precedente.
 
-     ![](assets/int_offer_per_cell1.png)
+     ![Attività del subset con uno spazio delle offerte e-mail e l&#39;elenco a discesa delle offerte disponibili](assets/int_offer_per_cell1.png)
 
 1. Quindi configura un’attività di consegna che corrisponde al canale scelto.
 

@@ -26,10 +26,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 9%
+source-wordcount: '793'
+ht-degree: 8%
 ---
 # Rendering della casella in entrata{#inbox-rendering}
 
@@ -72,7 +72,7 @@ Ogni volta che utilizzi la funzione **[!UICONTROL Inbox rendering]** in una cons
 
 Il numero di token disponibili rimanenti viene visualizzato nel report di rendering della [casella in entrata](#inbox-rendering-report).
 
-![](assets/s_tn_inbox_rendering_tokens.png)
+![Rapporto dei risultati di rendering della casella in entrata con il numero di token utilizzati del pacchetto mensile evidenziato](assets/s_tn_inbox_rendering_tokens.png)
 
 In genere, la funzione di rendering della casella in entrata viene utilizzata per testare il framework HTML di un messaggio e-mail di nuova progettazione. Ogni rendering richiede circa 70 token (a seconda del numero di ambienti generalmente testati su). Tuttavia, in alcuni casi potresti aver bisogno di più rapporti di rendering della casella in entrata per testare completamente la consegna. Potrebbero quindi essere necessari più token per completare diversi controlli.
 
@@ -87,17 +87,17 @@ Per ulteriori informazioni sulla creazione, progettazione e targeting di una con
 
 1. Selezionare **[!UICONTROL Analyze]** per avviare il processo di acquisizione.
 
-   ![](assets/s_tn_inbox_rendering_button.png)
+   ![Pulsante di rendering della casella in entrata nella barra degli strumenti di consegna e il pulsante Analizza nella finestra di dialogo di rendering della casella in entrata](assets/s_tn_inbox_rendering_button.png)
 
-   Viene inviata una bozza. È possibile accedere alle miniature di rendering nella bozza pochi minuti dopo l’invio delle e-mail. Per ulteriori informazioni sull&#39;invio di bozze, consulta [questa sezione](preview-and-proof.md#send-proofs).
+   Viene inviata una bozza. È possibile accedere alle miniature di rendering nella bozza pochi minuti dopo l’invio delle e-mail. Per ulteriori informazioni sull&#39;invio di bozze, consulta [Invia bozze](preview-and-proof.md#send-proofs).
 
 1. Dopo l’invio, la bozza viene visualizzata nell’elenco delle consegne. Fare doppio clic su di esso.
 
-   ![](assets/s_tn_inbox_rendering_delivery_list.png)
+   ![Elenco delle consegne con la prova della consegna e-mail selezionata dopo l&#39;invio](assets/s_tn_inbox_rendering_delivery_list.png)
 
 1. Passa alla scheda **Rendering casella in entrata** della bozza.
 
-   ![](assets/s_tn_inbox_rendering_tab.png)
+   ![Scheda Rendering casella in entrata della bozza, evidenziata, con il riepilogo del report e la sezione Mobile](assets/s_tn_inbox_rendering_tab.png)
 
    Viene visualizzato il report di rendering della casella in entrata.
 
@@ -107,14 +107,14 @@ Questo report visualizza i rendering della casella in entrata così come vengono
 
 La sezione superiore presenta la ripartizione del numero di messaggi ricevuti, indesiderati (spam), non ricevuti o in attesa di ricezione tramite una rappresentazione grafica con codice colore.
 
-![](assets/s_tn_inbox_rendering_summary.png){width="40%"}
+![Grafico a torta di Posta in arrivo, Spam, Non ricevuto e In attesa di ricezione, con Non ricevuto e In attesa nascosto](assets/s_tn_inbox_rendering_summary.png){width="40%"}
 
 Passa il puntatore del mouse sul grafico per visualizzare i dettagli di ciascun colore. Fare clic su un elemento dell&#39;elenco per nascondere o visualizzare la categoria corrispondente nel grafico.
 
 Il corpo del report è diviso in tre parti: **[!UICONTROL Mobile]**, **[!UICONTROL Desktop]** e **[!UICONTROL Webmails]**. Per visualizzare tutti i rendering raggruppati in queste tre categorie, scorri il report verso il basso.
 
-![](assets/s_tn_inbox_rendering_report.png)
+![Sezione Webmails del report di rendering della casella in entrata con una scheda per ogni combinazione di webmail e browser](assets/s_tn_inbox_rendering_report.png)
 
 Per ottenere i dettagli di ciascun report, fai clic sulla scheda corrispondente. Viene visualizzato il rendering per il metodo di ricezione selezionato.
 
-![](assets/s_tn_inbox_rendering_example.png)
+![Rendering dettagliato dell&#39;e-mail in Gmail su Chrome, aperto dalla relativa scheda nel report](assets/s_tn_inbox_rendering_example.png)

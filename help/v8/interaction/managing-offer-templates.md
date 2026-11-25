@@ -23,10 +23,10 @@ feature_v2:
     internal-label: Offers
   - id: baf8e746-117b-5e73-b179-0a83edc0295f
     internal-label: Templates
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 2%
+source-wordcount: '211'
+ht-degree: 1%
 ---
 # Gestione dei modelli di offerta{#managing-offer-templates}
 
@@ -41,7 +41,7 @@ Per creare un’offerta modello, effettua le seguenti operazioni:
 1. Vai a **Risorse** > **Modelli** > **Modelli di offerta**.
 1. Fai clic sull&#39;icona **Nuovo**.
 
-   ![](assets/offer_model_001.png)
+   ![Cartella Modelli di offerta in Esplora risorse con il pulsante Nuovo evidenziato e la nuova scheda Generale dell&#39;offerta](assets/offer_model_001.png)
 
 1. Configura il modello applicando lo stesso processo di un&#39;offerta normale, quindi salvala facendo clic su **Salva**.
 
@@ -52,10 +52,10 @@ Per duplicare un modello di offerta (preconfigurato o meno), effettua le seguent
 1. Vai a **Risorse > Modelli > Modelli di offerta**.
 1. Con il mouse, fai clic con il pulsante destro del mouse sul modello da duplicare e seleziona **Duplica** dal menu a discesa.
 
-   ![](assets/offer_model_002.png)
+   ![Menu di scelta rapida dei modelli di offerta con il comando Duplica evidenziato](assets/offer_model_002.png)
 
 1. Se necessario, configurare le impostazioni da visualizzare nel modello, quindi salvare il modello facendo clic su **Salva**.
 
 Questo modello verrà ora offerto al momento della creazione di un’offerta.
 
-![](assets/offer_modelcreated_001.png)
+![Finestra di dialogo per la selezione delle offerte di marketing nella cartella Modelli di offerta, in cui sono elencati due modelli di offerta](assets/offer_modelcreated_001.png)

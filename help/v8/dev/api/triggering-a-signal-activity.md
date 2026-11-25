@@ -22,7 +22,7 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 2%
@@ -47,7 +47,7 @@ Per attivare un flusso di lavoro, effettua le seguenti operazioni:
 
 Se desideri chiamare il flusso di lavoro con i parametri, aggiungili al payload con l&#39;attributo **&quot;parameters&quot;**. La sintassi è costituita dal nome del parametro seguito dal relativo valore (sono supportati i tipi seguenti: **string**, **number**, **boolean** e **date/time**).
 
-```
+```bash
   -X POST <TRIGGER_URL>
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
   -H 'Cache-Control: no-cache' \
@@ -76,7 +76,7 @@ Se desideri chiamare il flusso di lavoro con i parametri, aggiungili al payload 
 
 Eseguire una richiesta GET sul flusso di lavoro.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID> \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -86,7 +86,7 @@ Eseguire una richiesta GET sul flusso di lavoro.
 
 Restituisce l’attività del segnale del flusso di lavoro e l’URL del trigger associato.
 
-```
+```json
 {
 "PKey": "<PKEY>",
 "activities": {
@@ -105,7 +105,7 @@ Restituisce l’attività del segnale del flusso di lavoro e l’URL del trigger
 
 Per attivare un&#39;attività di segnale, esegui una richiesta POST sull&#39;URL del trigger con la &quot;sorgente&quot;. Aggiungi gli attributi &quot;parameters&quot; se desideri chiamare il flusso di lavoro con i parametri.
 
-```
+```bash
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<PKEY>/activities/activity/<PKEY>/trigger \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -129,7 +129,7 @@ Per attivare un&#39;attività di segnale, esegui una richiesta POST sull&#39;URL
 
 Se uno dei parametri non è dichiarato nell’attività External signal, la richiesta POST restituisce l’errore seguente, indicando quale parametro è mancante.
 
-```
+```text
 RST-360011 An error has occurred - please contact your administrator.
 'contentURL' parameter isn't defined in signal activity.
 XTK-170006 Unable to parse expression 'HandleTrigger(@name, $(source), $({parameters}))'.
