@@ -26,9 +26,9 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '176'
 ht-degree: 8%
 ---
 # Creare la prima consegna SMS {#sms-delivery}
@@ -39,7 +39,7 @@ Per creare una nuova consegna SMS, segui i passaggi seguenti:
 
    ![](assets/sms_create.png){zoomable="yes"}
 
-   I passaggi per la creazione della consegna sono descritti in [questa pagina](../../start/create-message.md).
+   I passaggi di creazione della consegna sono descritti in [Creare la prima consegna](../../start/create-message.md).
 
 <!--
  * For standalone instance,  [learn more here](sms-standalone-instance.md#sms-delivery-template).
@@ -58,7 +58,7 @@ Per creare una nuova consegna SMS, segui i passaggi seguenti:
 
 1. [Selezionare il pubblico](sms-audience.md).
 
-I passaggi per definire un pubblico sono descritti in dettaglio in [questa pagina](../../audiences/create-audiences.md).
+I passaggi per definire un pubblico sono descritti in dettaglio in [Creare tipi di pubblico di profilo in Campaign](../../audiences/create-audiences.md).
 
 ## Convalidare e inviare SMS {#sms-validate}
 

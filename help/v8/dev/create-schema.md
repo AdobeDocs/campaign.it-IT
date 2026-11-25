@@ -34,10 +34,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 2%
+source-wordcount: '412'
+ht-degree: 0%
 ---
 # Crea un nuovo schema {#create-new-schema}
 
@@ -140,4 +140,4 @@ A questo scopo, devi creare lo schema della tabella e aggiornare la struttura de
 
    ![](assets/configuration_structure.png)
 
-1. Aggiorna la struttura del database per creare la tabella a cui verrà collegato lo schema. Per ulteriori informazioni al riguardo, consulta [questa sezione](update-database-structure.md).
+1. Aggiorna la struttura del database per creare la tabella a cui verrà collegato lo schema. Per ulteriori informazioni, consulta [Aggiornare la struttura del database](update-database-structure.md).

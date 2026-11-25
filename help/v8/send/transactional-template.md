@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1204'
 ht-degree: 1%
 ---
 # Creare e pubblicare il modello per la messaggistica transazionale{#template-transactional-messages}
@@ -113,7 +113,7 @@ Un indirizzo di seed consente di visualizzare un’anteprima del messaggio, invi
 
    ![](assets/messagecenter_create_seed_2.png)
 
-1. Inserire i dati di prova. [Ulteriori informazioni sui dati di personalizzazione nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/it/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
+1. Inserire i dati di prova. [Ulteriori informazioni sui dati di personalizzazione nella documentazione di Campaign Classic v7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
 
    ![](assets/messagecenter_create_custo_3.png)
 
@@ -162,7 +162,7 @@ Puoi verificare la consegna dei messaggi inviando una bozza a un indirizzo seed 
 
 L’invio di una bozza comporta la stessa procedura applicata per qualsiasi consegna.
 
-Ulteriori informazioni sulle bozze in [questa sezione](../send/preview-and-proof.md#proofs-send).
+Ulteriori informazioni sulle bozze in [Invia una bozza](../send/preview-and-proof.md#proofs-send).
 
 Tuttavia, per inviare la bozza di un messaggio sulle transazioni, è necessario effettuare le operazioni seguenti:
 

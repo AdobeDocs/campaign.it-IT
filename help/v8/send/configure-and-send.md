@@ -19,14 +19,14 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1250'
 ht-degree: 9%
 ---
 # Configurare e inviare la consegna {#configure-delivery}
 
-Accedi ai parametri di consegna per configurare altre impostazioni e definire la modalità di invio dei messaggi. Puoi definire la consegna [priority](#delivery-priority), configurare [scaglioni](#sending-using-multiple-waves) e verificare l&#39;invio della consegna. Al termine della configurazione, puoi confermare l&#39;invio come descritto in [questa sezione](#confirm-delivery). I messaggi vengono quindi inviati immediatamente o in base alla [pianificazione](#schedule-delivery-sending) della consegna.
+Accedi ai parametri di consegna per configurare altre impostazioni e definire la modalità di invio dei messaggi. Puoi definire la consegna [priority](#delivery-priority), configurare [scaglioni](#sending-using-multiple-waves) e verificare l&#39;invio della consegna. Al termine della configurazione, puoi confermare l&#39;invio come descritto in [Conferma la consegna](#confirm-delivery). I messaggi vengono quindi inviati immediatamente o in base alla [pianificazione](#schedule-delivery-sending) della consegna.
 
 ## Imposta parametri aggiuntivi {#delivery-additional-parameters}
 
@@ -54,7 +54,7 @@ Utilizzare l&#39;opzione **[!UICONTROL Test SMTP delivery]** per verificare l&#3
 >
 >* Questa opzione non deve essere impostata nel mid-sourcing.
 >
->* Ulteriori informazioni sulla configurazione del server SMTP nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html?lang=it#smtp-relay){target="_blank"}.
+>* Ulteriori informazioni sulla configurazione del server SMTP nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html#smtp-relay){target="_blank"}.
 
 ## Inviare in più scaglioni {#sending-using-multiple-waves}
 
@@ -91,19 +91,19 @@ Per definire le ondate, effettuare le seguenti operazioni:
 
 ### Controllo programmazione ondata {#check-waves}
 
-Una regola di tipologia specifica, **[!UICONTROL Wave scheduling check]**, garantisce che l&#39;ultimo scaglione sia pianificato prima del limite di validità della consegna. Le tipologie di campagne e le relative regole, configurate nella scheda **[!UICONTROL Typology]** delle proprietà di consegna, sono presentate in [questa sezione](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->.
+Una regola di tipologia specifica, **[!UICONTROL Wave scheduling check]**, garantisce che l&#39;ultimo scaglione sia pianificato prima del limite di validità della consegna. Le tipologie di campagne e le relative regole, configurate nella scheda **[!UICONTROL Typology]** delle proprietà di consegna, sono presentate in [Regole e tipologie di tipologia](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->.
 
 >[!IMPORTANT]
 >
->* Assicurarsi che gli ultimi scaglioni non superino la scadenza della consegna, definita nella scheda **[!UICONTROL Validity]**. In caso contrario, alcuni messaggi potrebbero non essere inviati. Ulteriori informazioni sul periodo di validità di una consegna in [questa sezione](delivery-failures.md#valid-period).
+>* Assicurarsi che gli ultimi scaglioni non superino la scadenza della consegna, definita nella scheda **[!UICONTROL Validity]**. In caso contrario, alcuni messaggi potrebbero non essere inviati. Ulteriori informazioni sul periodo di validità di una consegna in [Periodo di validità](delivery-failures.md#valid-period).
 >
->* È inoltre necessario impostare un tempo sufficiente per i nuovi tentativi durante la configurazione delle ultime ondate. Ulteriori informazioni sui nuovi tentativi in [questa sezione](delivery-failures.md#retries).
+>* È inoltre necessario impostare un tempo sufficiente per i nuovi tentativi durante la configurazione delle ultime ondate. Ulteriori informazioni sui nuovi tentativi in [Gestione tentativi](delivery-failures.md#retries).
 >
 >* Gli scaglioni sono pianificati dalla data di contatto della consegna. Se la consegna inizia dopo il tempo pianificato di una o più ondate, queste ultime vengono tutte inviate insieme anziché essere distanziate.
 
 ### Monitorare le ondate {#monitor-waves}
 
-Per monitorare gli invii, passa ai registri di consegna. Consulta [questa pagina](send.md).
+Per monitorare gli invii, passa ai registri di consegna. Consulta [Inviare e monitorare le e-mail](send.md).
 
 È possibile visualizzare le consegne già inviate negli scaglioni elaborati (**[!UICONTROL Sent]** stato) e le consegne da inviare negli scaglioni rimanenti (**[!UICONTROL Pending]** stato).
 
@@ -143,7 +143,7 @@ A tale scopo, segui la procedura indicata di seguito.
    * Per inviare immediatamente la consegna, selezionare **[!UICONTROL Deliver as soon as possible]**.
    * Per pianificare l&#39;invio a una data successiva, selezionare **[!UICONTROL Postpone the delivery]**. [Ulteriori informazioni](#schedule-delivery-sending)
 
-1. Fai clic su **[!UICONTROL Analyze]**. Per ulteriori informazioni, consulta [questa sezione](delivery-analysis.md).
+1. Fai clic su **[!UICONTROL Analyze]**. Per ulteriori informazioni, consulta [Analisi della consegna](delivery-analysis.md).
 
    ![](assets/delivery-send-analyze.png)
 

@@ -38,14 +38,14 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '1518'
+source-wordcount: '1521'
 ht-degree: 53%
 ---
 # Note sulle versioni 2023 {#2023-rn}
 
-In questa pagina sono elencate le nuove funzionalità, i miglioramenti e le correzioni inclusi nelle **versioni di Campaign v8 2023**. Per la versione più recente, consulta [questa pagina](release-notes.md).
+In questa pagina sono elencate le nuove funzionalità, i miglioramenti e le correzioni inclusi nelle **versioni di Campaign v8 2023**. Per la versione più recente, consulta [Note sulla versione di Campaign v8](release-notes.md).
 
 Per qualsiasi nuova implementazione o aggiornamento a un ambiente esistente, installa [la versione più recente](release-notes.md).
 
@@ -105,7 +105,7 @@ Per ulteriori informazioni, consulta la [documentazione dettagliata](../send/pus
 
 * Ora puoi sfruttare la connessione di destinazione Adobe Experience Platform per sincronizzare gli attributi del profilo, ad esempio i dati di rinuncia, tra Adobe Experience Platform e il database di Campaign v8.
 * La preparazione della consegna è stata ottimizzata su tutti i canali.
-* È stata aggiunta una nuova opzione di autenticazione basata su chiave per l’account esterno SFTP, insieme al metodo di autenticazione utente/password esistente. Ora gli utenti possono eseguire l’autenticazione in modo sicuro utilizzando una chiave privata, migliorando la sicurezza e fornendo un meccanismo di autenticazione alternativo per l’accesso SFTP. Per ulteriori informazioni, consulta [questa sezione](../config/external-accounts.md).
+* È stata aggiunta una nuova opzione di autenticazione basata su chiave per l’account esterno SFTP, insieme al metodo di autenticazione utente/password esistente. Ora gli utenti possono eseguire l’autenticazione in modo sicuro utilizzando una chiave privata, migliorando la sicurezza e fornendo un meccanismo di autenticazione alternativo per l’accesso SFTP. Ulteriori informazioni in [Account esterni di Campaign](../config/external-accounts.md).
 
 **Miglioramenti della sicurezza**
 

@@ -38,10 +38,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '1295'
-ht-degree: 6%
+source-wordcount: '1306'
+ht-degree: 5%
 ---
 # Utilizzare gli schemi{#gs-ac-schemas}
 
@@ -69,7 +69,7 @@ Adobe Campaign utilizza gli schemi di dati per:
 * Definire i collegamenti tra i diversi oggetti dati all’interno dell’applicazione Campaign.
 * Definire e descrivere i singoli campi inclusi in ciascun oggetto.
 
-Per informazioni sulle tabelle integrate di Campaign e sulla loro interazione, consulta [questa sezione](datamodel.md).
+Per informazioni sulle tabelle integrate di Campaign e sulla loro interazione, consulta [Introduzione al modello dati di Campaign](datamodel.md).
 
 >[!CAUTION]
 >
@@ -81,7 +81,7 @@ L&#39;elemento radice dello schema è **`<srcschema>`**. Contiene i sottoelement
 
 Il primo sottoelemento **`<element>`** coincide con la radice dell&#39;entità.
 
-```
+```xml
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient">  
     <attribute name="lastName"/>
@@ -221,17 +221,17 @@ In questo esempio, invece di consentire all&#39;attributo **@autopk** o **@autou
 >
 >Quando crei un nuovo schema o durante un’estensione dello schema, devi mantenere lo stesso valore di sequenza di chiave primaria (@pkSequence) per l’intero schema.
 
-Ulteriori informazioni sulle chiavi in [questa sezione](database-mapping.md).
+Ulteriori informazioni sulle chiavi in [Mappatura database di Campaign](database-mapping.md).
 
 ## Attributi (Campi) {#attributes--fields-}
 
-Gli attributi consentono di definire i campi che compongono l’oggetto dati. È possibile utilizzare il pulsante **[!UICONTROL Insert]** nella barra degli strumenti dell&#39;edizione dello schema per rilasciare modelli di attributi vuoti nel file XML in cui si trova il cursore. Per ulteriori informazioni, consulta [questa sezione](create-schema.md).
+Gli attributi consentono di definire i campi che compongono l’oggetto dati. È possibile utilizzare il pulsante **[!UICONTROL Insert]** nella barra degli strumenti dell&#39;edizione dello schema per rilasciare modelli di attributi vuoti nel file XML in cui si trova il cursore. Ulteriori informazioni in [Creare un nuovo schema in Campaign](create-schema.md).
 
 ![](assets/schemaextension_2.png)
 
-L&#39;elenco completo degli attributi è disponibile nella sezione dell&#39;elemento `<attribute>` della [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=it#content-model){target="_blank"}. Di seguito sono riportati alcuni degli attributi più comunemente utilizzati: **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name**, **@notNull**, **@required**, **@ref**, **@xml**, **@type**.
+L&#39;elenco completo degli attributi è disponibile nella sezione dell&#39;elemento `<attribute>` della [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html#content-model){target="_blank"}. Di seguito sono riportati alcuni degli attributi più comunemente utilizzati: **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name**, **@notNull**, **@required**, **@ref**, **@xml**, **@type**.
 
-Per ulteriori informazioni su ciascun attributo, consulta la descrizione dell&#39;attributo nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=it#configuring-campaign-classic){target="_blank"}.
+Per ulteriori informazioni su ciascun attributo, consulta la descrizione dell&#39;attributo nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic){target="_blank"}.
 
 ### Esempi {#examples}
 
@@ -313,7 +313,7 @@ Una volta completate e salvate le modifiche, è necessario applicare al database
 
 ![](assets/schemaextension_3.png)
 
-Per ulteriori informazioni al riguardo, consulta [questa sezione](update-database-structure.md).
+Per ulteriori informazioni, consulta [Aggiornare la struttura del database](update-database-structure.md).
 
 >[!NOTE]
 >

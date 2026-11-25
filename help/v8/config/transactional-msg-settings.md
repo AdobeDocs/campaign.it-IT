@@ -24,16 +24,16 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '603'
 ht-degree: 4%
 ---
 # Impostazioni dei messaggi transazionali {#mc-settings}
 
-La messaggistica transazionale (Message Center) è un modulo di Campaign progettato per la gestione dei messaggi attivati. Ulteriori informazioni sulla messaggistica transazionale in [questa sezione](../send/transactional.md).
+La messaggistica transazionale (Message Center) è un modulo di Campaign progettato per la gestione dei messaggi attivati. Ulteriori informazioni sulla messaggistica transazionale in [Campaign Messaging transazionale](../send/transactional.md).
 
-Scopri l&#39;architettura della messaggistica transazionale in [questa pagina](../architecture/architecture.md#transac-msg-archi).
+Scopri l&#39;architettura della messaggistica transazionale nell&#39;architettura del [Centro messaggi](../architecture/architecture.md#transac-msg-archi).
 
 
 >[!NOTE]
@@ -82,7 +82,7 @@ Di seguito è riportato un esempio di configurazione di un evento per l’invio 
                 <mobileApp _operation="none" uuid="com.adobe.NeoMiles"/>
                 <ctx>
                     <deliveryTime>1:30 PM</deliveryTime>
-                    <url>http://www.adobe.com/it</url>
+                    <url>http://www.adobe.com</url>
                 </ctx>
               </rtEvent>
 

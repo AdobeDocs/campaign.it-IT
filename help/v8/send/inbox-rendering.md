@@ -26,7 +26,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 9%
@@ -89,7 +89,7 @@ Per ulteriori informazioni sulla creazione, progettazione e targeting di una con
 
    ![](assets/s_tn_inbox_rendering_button.png)
 
-   Viene inviata una bozza. È possibile accedere alle miniature di rendering nella bozza pochi minuti dopo l’invio delle e-mail. Per ulteriori informazioni sull&#39;invio di bozze, consulta [questa sezione](preview-and-proof.md#send-proofs).
+   Viene inviata una bozza. È possibile accedere alle miniature di rendering nella bozza pochi minuti dopo l’invio delle e-mail. Per ulteriori informazioni sull&#39;invio di bozze, consulta [Invia bozze](preview-and-proof.md#send-proofs).
 
 1. Dopo l’invio, la bozza viene visualizzata nell’elenco delle consegne. Fare doppio clic su di esso.
 

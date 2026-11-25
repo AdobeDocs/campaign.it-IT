@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '603'
 ht-degree: 8%
 ---
 # Progettazione e invio di e-mail
@@ -42,7 +42,7 @@ Con Adobe Campaign, crea consegne e-mail per inviare e-mail personalizzate alla 
 >Per creare e-mail accattivanti e personalizzate, passa all&#39;[interfaccia utente Web](../start/campaign-ui.md#ac-web-ui). Adobe Campaign viene fornito con E-mail Designer, un’interfaccia di trascinamento intuitiva che consente di progettare e perfezionare tutti i contenuti per ogni e-mail.
 
 
-Scopri i passaggi chiave per creare e configurare una consegna in [questa pagina](../start/create-message.md).
+Scopri i passaggi chiave per creare e configurare una consegna in [Crea la tua prima consegna](../start/create-message.md).
 
 ## Creare una consegna e-mail
 
@@ -87,7 +87,7 @@ Nell’esempio seguente, scoprirai i passaggi per progettare una consegna e-mail
 
      ![](assets/perso-check.png)
 
-     Ulteriori informazioni sulle opzioni di personalizzazione in [questa sezione](personalize.md).
+     Ulteriori informazioni sulle opzioni di personalizzazione in [Introduzione alla personalizzazione](personalize.md).
 
    * Inserire un collegamento tracciato
 
@@ -103,15 +103,15 @@ Nell’esempio seguente, scoprirai i passaggi per progettare una consegna e-mail
 
      Posizionare il cursore nel punto in cui si desidera inserire il collegamento e fare clic sull&#39;ultima icona nella barra degli strumenti, quindi fare clic su **[!UICONTROL Include]** e selezionare **[!UICONTROL link to mirror page]**.
 
-     Ulteriori informazioni sulla gestione della pagina mirror in [questa sezione](mirror-page.md#link-to-mirror-page).
+     Ulteriori informazioni sulla gestione della pagina mirror in [Aggiungere un collegamento alla pagina mirror](mirror-page.md#link-to-mirror-page).
 
-1. Puoi definire parametri aggiuntivi per l’e-mail, ad esempio l’invio di una copia dei messaggi a un indirizzo Ccn, la modifica del formato del messaggio, l’impostazione di una codifica specifica e così via. Ulteriori informazioni in [questa sezione](email-parameters.md).
+1. Puoi definire parametri aggiuntivi per l’e-mail, ad esempio l’invio di una copia dei messaggi a un indirizzo Ccn, la modifica del formato del messaggio, l’impostazione di una codifica specifica e così via. Ulteriori informazioni in [Parametri e-mail in Adobe Campaign](email-parameters.md).
 
 1. Quando il contenuto è pronto, fai clic su **Salva**: verrà ora visualizzato nell&#39;elenco delle consegne, nella scheda **[!UICONTROL Campaigns > Deliveries]**.
 
 La prima consegna e-mail è pronta. Ora devi definire il pubblico, convalidare la consegna e inviarla.
 
-Scopri come creare un flusso di lavoro per importare un contenuto e-mail in questo [caso d&#39;uso](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=it){target="_blank"}.
+Scopri come creare un flusso di lavoro per importare un contenuto e-mail in questo [caso d&#39;uso](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}.
 
 >[!MORELIKETHIS]
 >
@@ -120,11 +120,11 @@ Scopri come creare un flusso di lavoro per importare un contenuto e-mail in ques
 >* [Seleziona il pubblico della tua e-mail](../audiences/gs-audiences.md)
 >* [Convalidare una consegna e inviare bozze](preview-and-proof.md)
 >* [Configura e invia la consegna](configure-and-send.md)
->* [Best practice per la consegna](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=it){target="_blank"}
+>* [Best practice per la consegna](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html){target="_blank"}
 
 ## Verifica e convalida le e-mail
 
-Campaign offre diversi modi per testare e convalidare le e-mail prima di inviarle al pubblico. Scopri come visualizzare in anteprima e verificare il contenuto delle e-mail in [questa sezione](../send/preview-and-proof.md).
+Campaign offre diversi modi per testare e convalidare le e-mail prima di inviarle al pubblico. Scopri come visualizzare in anteprima e verificare il contenuto delle e-mail in [Anteprima e verifica dell&#39;e-mail](../send/preview-and-proof.md).
 
 Puoi eseguire le seguenti azioni:
 

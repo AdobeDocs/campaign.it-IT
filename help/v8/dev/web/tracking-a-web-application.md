@@ -32,9 +32,9 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '406'
 ht-degree: 4%
 ---
 # Tracciare le visite in un’applicazione web{#tracking-a-web-application}
@@ -85,7 +85,7 @@ Per identificare l’origine del traffico in un’applicazione web, Adobe Campai
 
 ## Applicazioni Web progettate con Digital Content Editor (DCE) {#web-applications-designed-with-digital-content-editor--dce-}
 
-Quando un&#39;applicazione Web viene creata utilizzando l&#39;editor di contenuti di HTML - **Digital Content Editor (DCE)** - i tag di tracciamento vengono inseriti dalla scheda **[!UICONTROL Properties]** dell&#39;editor. Per ulteriori informazioni su Digital Content Editor (DCE), consultare [questa sezione](about-campaign-html-editor.md).
+Quando un&#39;applicazione Web viene creata utilizzando l&#39;editor di contenuti di HTML - **Digital Content Editor (DCE)** - i tag di tracciamento vengono inseriti dalla scheda **[!UICONTROL Properties]** dell&#39;editor. Per ulteriori informazioni su Digital Content Editor (DCE), fare riferimento a [Introduzione a Campaign HTML Editor](about-campaign-html-editor.md).
 
 ![](assets/trackers_2.png)
 

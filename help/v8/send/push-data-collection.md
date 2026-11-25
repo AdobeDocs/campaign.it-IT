@@ -23,9 +23,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1430'
 ht-degree: 2%
 ---
 # Configurazione della notifica push rivista {#push-notifications-config}
@@ -126,7 +126,7 @@ Per creare un servizio per l’invio di notifiche push, effettua le seguenti ope
 
    >[!NOTE]
    >
-   >Il mapping di destinazione predefinito **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** è collegato alla tabella dei destinatari. Se si desidera utilizzare una mappatura di destinazione diversa, è necessario creare una nuova mappatura di destinazione e immetterla nel campo **[!UICONTROL Target mapping]** del servizio. Ulteriori informazioni sulle mappature di destinazione in [questa pagina](../audiences/target-mappings.md).
+   >Il mapping di destinazione predefinito **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** è collegato alla tabella dei destinatari. Se si desidera utilizzare una mappatura di destinazione diversa, è necessario creare una nuova mappatura di destinazione e immetterla nel campo **[!UICONTROL Target mapping]** del servizio. Ulteriori informazioni sulle mappature di destinazione in [Utilizzare le mappature di destinazione](../audiences/target-mappings.md).
 
 1. Quindi utilizza l&#39;icona **[!UICONTROL Add]** a destra per definire le applicazioni mobili che utilizzano questo servizio.
 
@@ -275,4 +275,4 @@ Adobe Experience Platform Mobile SDK consente di alimentare le soluzioni e i ser
 
 Dopo aver configurato correttamente l’app mobile in Raccolta dati, ora puoi creare e inviare notifiche push in Adobe Campaign.
 
-Fai riferimento a [questa pagina](push.md#push-create) per gli elementi dettagliati specifici per la consegna delle notifiche iOS e Android.
+Consulta [Creare la prima notifica push](push.md#push-create) per gli elementi dettagliati specifici per la consegna delle notifiche iOS e Android.

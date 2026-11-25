@@ -26,14 +26,14 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '687'
 ht-degree: 1%
 ---
 # Elaborazione di eventi {#event-processing}
 
-Nel contesto dei messaggi transazionali, un evento viene generato da un sistema di informazioni esterno e inviato ad Adobe Campaign tramite i metodi **[!UICONTROL PushEvent]** e **[!UICONTROL PushEvents]**. Questi metodi sono descritti in [questa sezione](event-description.md).
+Nel contesto dei messaggi transazionali, un evento viene generato da un sistema di informazioni esterno e inviato ad Adobe Campaign tramite i metodi **[!UICONTROL PushEvent]** e **[!UICONTROL PushEvents]**. Questi metodi sono descritti in [Comprendere la descrizione dell&#39;evento](event-description.md).
 
 Questo evento contiene dati collegati all’evento, ad esempio:
 
@@ -69,7 +69,7 @@ Una volta raccolti, gli eventi vengono suddivisi per flussi di lavoro tecnici tr
 
 >[!NOTE]
 >
->Nelle istanze di esecuzione, le cartelle **[!UICONTROL Real time events]** o **[!UICONTROL Batch events]** non devono essere impostate come viste, in quanto ciò potrebbe causare problemi di diritti di accesso. Per ulteriori informazioni sull&#39;impostazione di una cartella come visualizzazione, consulta [questa sezione](../audiences/folders-and-views.md#turn-a-folder-to-a-view).
+>Nelle istanze di esecuzione, le cartelle **[!UICONTROL Real time events]** o **[!UICONTROL Batch events]** non devono essere impostate come viste, in quanto ciò potrebbe causare problemi di diritti di accesso. Per ulteriori informazioni sull&#39;impostazione di una cartella come visualizzazione, vedere [Impostare una cartella come visualizzazione](../audiences/folders-and-views.md#turn-a-folder-to-a-view).
 
 ## Trasferire un evento in un modello {#event-to-template}
 

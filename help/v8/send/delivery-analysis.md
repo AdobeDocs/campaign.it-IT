@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '696'
 ht-degree: 5%
 ---
 # Analisi della consegna {#analyze-delivery}
@@ -45,7 +45,7 @@ Per preparare la consegna, assicurati che il contenuto e il target della consegn
 
 1. Fare clic su **[!UICONTROL Analyze]** per avviare l&#39;analisi manualmente. La barra di avanzamento mostra lo stato di avanzamento dell’analisi.
 
-   Durante l’analisi della consegna viene applicato un set di regole di controllo. Queste regole sono definite in una **tipologia**, selezionata nella scheda **[!UICONTROL Typology]** nelle proprietà di consegna. Ulteriori informazioni sulle tipologie in [questa sezione](../../automation/campaign-opt/campaign-typologies.md).
+   Durante l’analisi della consegna viene applicato un set di regole di controllo. Queste regole sono definite in una **tipologia**, selezionata nella scheda **[!UICONTROL Typology]** nelle proprietà di consegna. Ulteriori informazioni sulle tipologie in [Introduzione alle tipologie di campagne](../../automation/campaign-opt/campaign-typologies.md).
 
    Per impostazione predefinita, per le e-mail, l’analisi tratta i seguenti punti:
 

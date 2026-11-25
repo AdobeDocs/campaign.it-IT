@@ -33,16 +33,16 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '1198'
-ht-degree: 4%
+source-wordcount: '1201'
+ht-degree: 3%
 ---
 # Creare consegne LINE
 
 LINE è un’applicazione per la messaggistica istantanea gratuita, chiamate vocali e video, disponibile su tutti i dispositivi mobili e su PC. Puoi utilizzare Adobe Campaign per inviare messaggi LINE.
 
-È inoltre possibile combinare [!DNL LINE] con il modulo dei messaggi transazionali per inviare messaggi in tempo reale sull&#39;app [!DNL LINE] installata nei dispositivi mobili di consumo. Per ulteriori informazioni, consulta questa [pagina](https://experienceleague.adobe.com/it/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/transactional-messaging-architecture#transactional-messaging-and-line) nella documentazione di Campaign Classic v7.
+È inoltre possibile combinare [!DNL LINE] con il modulo dei messaggi transazionali per inviare messaggi in tempo reale sull&#39;app [!DNL LINE] installata nei dispositivi mobili di consumo. Per ulteriori informazioni, consulta questa [pagina](https://experienceleague.adobe.com/en/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/transactional-messaging-architecture#transactional-messaging-and-line) nella documentazione di Campaign Classic v7.
 
 ![](assets/line_message.png)
 
@@ -124,13 +124,13 @@ Per creare una consegna [!DNL LINE], è necessario seguire questi passaggi:
 
    ![](assets/line_message_01.png)
 
-1. Identifica la consegna con **[!UICONTROL Label]**, **[!UICONTROL Delivery code]** e **[!UICONTROL Description]**. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../start/create-message.md#create-the-delivery).
+1. Identifica la consegna con **[!UICONTROL Label]**, **[!UICONTROL Delivery code]** e **[!UICONTROL Description]**. Per ulteriori informazioni, consulta [Creare la consegna](../../start/create-message.md#create-the-delivery).
 
 1. Fai clic su **[!UICONTROL Continue]** per creare la consegna.
 
 1. Nell&#39;editor di consegna, selezionare **[!UICONTROL To]** per eseguire il targeting dei destinatari della consegna [!DNL LINE]. Targeting eseguito il **[!UICONTROL Visitor subscriptions (nms:visitorSub)]**.
 
-   Per ulteriori informazioni, consulta [questa pagina](../../audiences/target-mappings.md).
+   Per ulteriori informazioni, fare riferimento a [Operazioni con le mappature di destinazione](../../audiences/target-mappings.md).
 
    ![](assets/line_message_08.png)
 

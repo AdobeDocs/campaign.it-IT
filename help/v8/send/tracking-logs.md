@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '341'
 ht-degree: 0%
 ---
 # Registri di tracciamento degli accessi {#accessing-the-tracking-logs}
@@ -73,7 +73,7 @@ Da questa scheda puoi visualizzare:
 
 >[!NOTE]
 >
->Se non riesci a visualizzare la scheda **[!UICONTROL Tracking]** di una consegna, significa che il tracciamento non è stato attivato. Consulta [questa sezione](tracked-links.md) per scoprire come configurare il tracciamento.
+>Se non riesci a visualizzare la scheda **[!UICONTROL Tracking]** di una consegna, significa che il tracciamento non è stato attivato. Per informazioni su come configurare il tracciamento, consulta [Configurare i collegamenti tracciati](tracked-links.md).
 
 ### Controlla il flusso di lavoro tecnico di tracciamento {#check-tracking-workflow}
 

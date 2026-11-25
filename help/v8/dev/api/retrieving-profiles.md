@@ -19,10 +19,10 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 4%
+source-wordcount: '238'
+ht-degree: 0%
 ---
 # Recupero di profili con API {#retrieving-profiles}
 
@@ -30,7 +30,7 @@ Il recupero dei profili viene eseguito con una richiesta **GET**.
 
 Puoi quindi perfezionare la ricerca utilizzando filtri, ordinamento e impaginazione. Per ulteriori informazioni, consulta la sezione [Operazioni aggiuntive](sorting.md).
 
-Inoltre, le API di Campaign Standard ti consentono di cercare profili in base a uno dei seguenti campi: e-mail, nome, cognome o qualsiasi campo personalizzato. Per ulteriori informazioni al riguardo, consulta [questa sezione](#searching-field).
+Inoltre, le API di Campaign Standard ti consentono di cercare profili in base a uno dei seguenti campi: e-mail, nome, cognome o qualsiasi campo personalizzato. Per ulteriori informazioni, consulta [Ricerca di profili basati su un campo](#searching-field).
 
 <br/>
 
@@ -38,7 +38,7 @@ Inoltre, le API di Campaign Standard ti consentono di cercare profili in base a 
 
 * Richiesta GET di esempio per recuperare tutti i profili.
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -48,7 +48,7 @@ Inoltre, le API di Campaign Standard ti consentono di cercare profili in base a 
 
   Risposta alla richiesta.
 
-  ```
+  ```json
   {
       "content": [
           {
@@ -64,7 +64,7 @@ Inoltre, le API di Campaign Standard ti consentono di cercare profili in base a 
 
 * Richiesta GET di esempio per recuperare i primi 10 valori e-mail.
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_lineCount=10 \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -74,7 +74,7 @@ Inoltre, le API di Campaign Standard ti consentono di cercare profili in base a 
 
   Risposta alla richiesta. Il nodo &quot;avanti&quot; restituisce l’URL che ti consente di accedere ai 10 valori e-mail successivi.
 
-  ```
+  ```json
   {
   "content": [
       "amy.dakota@mail.com",
@@ -107,7 +107,7 @@ Il parametro **[!UICONTROL filterType]** ti consente di recuperare i profili in 
 
 * Richiesta di esempio per filtrare i profili in base al nome.
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=John&filterType=firstName \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -117,7 +117,7 @@ Il parametro **[!UICONTROL filterType]** ti consente di recuperare i profili in 
 
 * Richiesta di esempio per filtrare i profili in base al cognome.
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Miller&filterType=lastName \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -127,7 +127,7 @@ Il parametro **[!UICONTROL filterType]** ti consente di recuperare i profili in 
 
 * Richiesta di esempio per filtrare i profili in base all’e-mail.
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=John%40gmail.com&filterType=email \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -137,7 +137,7 @@ Il parametro **[!UICONTROL filterType]** ti consente di recuperare i profili in 
 
 * Richiesta di esempio per filtrare i profili in base al campo personalizzato &quot;Hobby&quot;.
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byText?cusHobby=Dancing&filterType=Hobby \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \

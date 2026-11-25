@@ -49,9 +49,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '3476'
+source-wordcount: '3478'
 ht-degree: 6%
 ---
 # Errori di consegna {#delivery-failures}
@@ -82,7 +82,7 @@ I mancati recapiti non permanenti sono errori temporanei generati dagli ISP in c
 
 Il tipo di errore **Ignorato** è considerato temporaneo, ad esempio &quot;Fuori sede&quot;, oppure è un errore tecnico, ad esempio se il tipo di mittente è &quot;postmaster&quot;.
 
-Il ciclo di feedback funziona come le e-mail non recapitate: quando un utente qualifica un’e-mail come spam, puoi configurare le regole e-mail in Adobe Campaign per bloccare tutte le consegne a questo utente. Gli indirizzi di questi utenti vengono anche se non hanno fatto clic sul collegamento di annullamento dell’abbonamento. Gli indirizzi vengono aggiunti alla tabella di quarantena (**NmsAddress**) e non alla tabella dei destinatari (**NmsRecipient**) con lo stato **[!UICONTROL Denylisted]**. Ulteriori informazioni sul meccanismo del ciclo di feedback nella [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=it#feedback-loops){target="_blank"}.
+Il ciclo di feedback funziona come le e-mail non recapitate: quando un utente qualifica un’e-mail come spam, puoi configurare le regole e-mail in Adobe Campaign per bloccare tutte le consegne a questo utente. Gli indirizzi di questi utenti vengono anche se non hanno fatto clic sul collegamento di annullamento dell’abbonamento. Gli indirizzi vengono aggiunti alla tabella di quarantena (**NmsAddress**) e non alla tabella dei destinatari (**NmsRecipient**) con lo stato **[!UICONTROL Denylisted]**. Ulteriori informazioni sul meccanismo del ciclo di feedback nella [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target="_blank"}.
 
 ## Errori sincroni e asincroni {#synchronous-and-asynchronous-errors}
 
@@ -159,7 +159,7 @@ Una volta che un messaggio è rimasto nella coda MTA per 3,5 giorni e la consegn
 
 Un messaggio può scadere prima della fine del periodo di validità, quando il prossimo tentativo rientra dopo la scadenza. Il registro di consegna mostra quindi l’errore dell’ultimo tentativo di consegna.
 
-<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=it#defining-validity-period){target="_blank"}.-->
+<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}.-->
 
 
 ## Tipi di errore e-mail {#email-error-types}
@@ -714,7 +714,7 @@ Prima che venga qualificato un nuovo tipo di errore, il motivo dell&#39;errore �
 
 Esempio di messaggio generato:
 
-```
+```text
 SR Generic DELIVRD 000|#MESSAGE#
 ```
 
@@ -750,7 +750,7 @@ I registri di consegna sono fondamentali per comprendere il motivo per cui una c
 
 I messaggi dei destinatari non riescono e viene visualizzato un errore &quot;Non raggiungibile&quot; che indica:
 
-```
+```text
 Error while compiling script 'content htmlContent' line X: `[table]` is not defined. JavaScript: error while evaluating script 'content htmlContent
 ```
 
@@ -758,25 +758,25 @@ Error while compiling script 'content htmlContent' line X: `[table]` is not defi
 
 **Risoluzione**: rivedi il flusso di lavoro e il contenuto della consegna per determinare in modo specifico cosa la personalizzazione sta tentando di chiamare la tabella in questione. Quindi rimuovi la chiamata a questa tabella in HTML o correggi il mapping alla consegna.
 
-Ulteriori informazioni sulla personalizzazione in [questa sezione](personalize.md).
+Ulteriori informazioni sulla personalizzazione in [Introduzione alla personalizzazione](personalize.md).
 
 ### Errore con più valori di personalizzazione {#multiple-values-error}
 
 Quando una consegna non riesce, nei registri di consegna può essere visualizzato il seguente errore:
 
-```
+```text
 DLV-XXXX The count of message prepared (123) is greater than the number of messages to send (111). Please contact support.
 ```
 
 **Causa**: nell&#39;e-mail è presente un campo o un blocco di personalizzazione con più valori per il destinatario. Un blocco di personalizzazione è in uso e sta recuperando più di un record per un destinatario specifico.
 
-**Risoluzione**: controlla i dati di personalizzazione utilizzati, quindi controlla la destinazione per i destinatari che hanno più di una voce per uno qualsiasi di questi campi. È inoltre possibile utilizzare un&#39;attività **[!UICONTROL Deduplication]** nel flusso di lavoro di targeting prima dell&#39;attività di consegna per assicurarsi che esista un solo campo di personalizzazione alla volta. Per ulteriori informazioni sulla deduplicazione, consulta la [documentazione del flusso di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html?lang=it){target="_blank"}.
+**Risoluzione**: controlla i dati di personalizzazione utilizzati, quindi controlla la destinazione per i destinatari che hanno più di una voce per uno qualsiasi di questi campi. È inoltre possibile utilizzare un&#39;attività **[!UICONTROL Deduplication]** nel flusso di lavoro di targeting prima dell&#39;attività di consegna per assicurarsi che esista un solo campo di personalizzazione alla volta. Per ulteriori informazioni sulla deduplicazione, consulta la [documentazione del flusso di lavoro](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html){target="_blank"}.
 
 ### Gestione della risposta automatica {#auto-reply-handling}
 
 Alcune consegne possono non riuscire e viene visualizzato un errore &quot;Non raggiungibile&quot; che indica:
 
-```
+```text
 Inbound email bounce (rule 'Auto_replies' has matched this bounce).
 ```
 

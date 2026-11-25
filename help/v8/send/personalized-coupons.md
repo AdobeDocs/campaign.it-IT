@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '895'
 ht-degree: 1%
 ---
 # Coupon personalizzati{#personalized-coupons}
@@ -77,7 +77,7 @@ Prima di seguire i passaggi seguenti, assicurati di conoscere il tipo di coupon 
 
    >[!NOTE]
    >
-   >I singoli coupon possono essere importati in blocco. Per informazioni dettagliate sull&#39;importazione e l&#39;esportazione, consultare [questa sezione](../start/import.md).
+   >I singoli coupon possono essere importati in blocco. Per informazioni dettagliate sull&#39;importazione e l&#39;esportazione, vedere [Introduzione ai profili](../start/import.md).
 
 ### Configurare singoli coupon {#configuring-individual-coupons}
 
@@ -94,7 +94,7 @@ I valori per **[!UICONTROL status]**, **[!UICONTROL channel]** e **[!UICONTROL a
 
 ## Inserire un coupon in una consegna e-mail {#inserting-a-coupon-into-an-email-delivery}
 
-Nell’esempio seguente, la consegna viene creata dalla pagina Home. Per istruzioni dettagliate su come creare una consegna, consulta [questa sezione](email.md).
+Nell’esempio seguente, la consegna viene creata dalla pagina Home. Per istruzioni dettagliate su come creare una consegna, consulta [Inviare e-mail con Adobe Campaign](email.md).
 1. Vai a **[!UICONTROL Campaigns]** e scegli **[!UICONTROL Deliveries]**.
 1. Fai clic su **[!UICONTROL Create]**.
 

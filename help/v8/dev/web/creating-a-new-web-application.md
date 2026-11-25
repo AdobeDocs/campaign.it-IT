@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 16%
+source-wordcount: '399'
+ht-degree: 10%
 ---
 # Creare una nuova applicazione web{#creating-a-new-web-application}
 
@@ -47,7 +47,7 @@ Vai alla scheda **Campagne** e seleziona il menu **[!UICONTROL Web Applications]
 
 >[!NOTE]
 >
->Proteggi sempre le pagine che potrebbero contenere informazioni personali. Consulta la [Lista di controllo protezione e privacy](https://helpx.adobe.com/it/campaign/kb/acc-security.html#privacy).
+>Proteggi sempre le pagine che potrebbero contenere informazioni personali. Consulta la [Lista di controllo protezione e privacy](https://helpx.adobe.com/campaign/kb/acc-security.html#privacy).
 
 Questo modello determina il tipo di applicazione Web. Puoi creare:
 
@@ -57,15 +57,15 @@ Questo modello determina il tipo di applicazione Web. Puoi creare:
 
 1. Applicazioni web
 
-   Adobe Campaign consente di creare applicazioni Web da esporre, ad esempio, su una piattaforma Web o su una extranet. Questo consente di modificare i dati e registrare le informazioni in Adobe Campaign. In questo caso, puoi limitarne l’accesso agli utenti autenticati (tramite il controllo degli accessi) e impostare il precaricamento dei dati in base a vari criteri. Per ulteriori informazioni al riguardo, consulta [questa sezione](about-web-applications.md).
+   Adobe Campaign consente di creare applicazioni Web da esporre, ad esempio, su una piattaforma Web o su una extranet. Questo consente di modificare i dati e registrare le informazioni in Adobe Campaign. In questo caso, puoi limitarne l’accesso agli utenti autenticati (tramite il controllo degli accessi) e impostare il precaricamento dei dati in base a vari criteri. Per ulteriori informazioni, consulta [Introduzione alle applicazioni Web](about-web-applications.md).
 
 1. Pagine di destinazione
 
-   Una pagina di destinazione è una pagina di HTML il cui contenuto è disponibile su un sito web e che consente agli utenti di immettere informazioni da memorizzare nel profilo del database di Adobe Campaign. Il contenuto di questo tipo di pagina viene in genere creato da un’agenzia Web specializzata prima di essere importato in Adobe Campaign per la pubblicazione, la gestione e il follow-up. Per ulteriori informazioni, consulta [questa pagina](creating-a-landing-page.md).
+   Una pagina di destinazione è una pagina di HTML il cui contenuto è disponibile su un sito web e che consente agli utenti di immettere informazioni da memorizzare nel profilo del database di Adobe Campaign. Il contenuto di questo tipo di pagina viene in genere creato da un’agenzia Web specializzata prima di essere importato in Adobe Campaign per la pubblicazione, la gestione e il follow-up. Per ulteriori informazioni, consulta [Creare una pagina di destinazione](creating-a-landing-page.md).
 
 1. Indagini
 
-   Adobe Campaign ti consente, tramite l&#39;opzione **Gestione sondaggi**, di progettare e gestire sondaggi online ed elaborarne i risultati: creazione di campi dinamici, gestione dei punteggi, esportazione di risposte e rapporti dedicati. Per ulteriori informazioni, consulta [questa sezione](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/content/surveys/about-surveys){target="_blank"} (documentazione di Campaign v8).
+   Adobe Campaign ti consente, tramite l&#39;opzione **Gestione sondaggi**, di progettare e gestire sondaggi online ed elaborarne i risultati: creazione di campi dinamici, gestione dei punteggi, esportazione di risposte e rapporti dedicati. Per ulteriori informazioni, consulta [questa sezione](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/about-surveys){target="_blank"} (documentazione di Campaign v8).
 
    >[!CAUTION]
    >
@@ -73,10 +73,10 @@ Questo modello determina il tipo di applicazione Web. Puoi creare:
 
 1. Applicazioni Facebook
 
-   Grazie all&#39;opzione **Social Marketing**, Adobe Campaign consente di pubblicare contenuti personalizzati in un&#39;applicazione Facebook. Per ulteriori informazioni al riguardo, consulta [questa sezione](https://experienceleague.adobe.com/it/docs/campaign-classic/using/integrating-with-social-media/about-social-marketing){target="_blank"}.
+   Grazie all&#39;opzione **Social Marketing**, Adobe Campaign consente di pubblicare contenuti personalizzati in un&#39;applicazione Facebook. Per ulteriori informazioni al riguardo, consulta [questa sezione](https://experienceleague.adobe.com/en/docs/campaign-classic/using/integrating-with-social-media/about-social-marketing){target="_blank"}.
 
    >[!CAUTION]
    >
    >**Social Marketing** è un modulo Adobe Campaign facoltativo. Controlla il contratto di licenza.
 
-La modalità di configurazione della pagina e le configurazioni disponibili possono essere identiche per diversi tipi di applicazioni web. Per ulteriori informazioni al riguardo, consulta [questa sezione](about-web-forms.md).
+La modalità di configurazione della pagina e le configurazioni disponibili possono essere identiche per diversi tipi di applicazioni web. Per ulteriori informazioni, consulta [Introduzione ai moduli web](about-web-forms.md).

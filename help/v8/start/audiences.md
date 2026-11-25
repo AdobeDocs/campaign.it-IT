@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '541'
 ht-degree: 18%
 ---
 # Utilizzare i tipi di pubblico in Campaign{#gs-ac-audiences}
@@ -44,13 +44,13 @@ Scopri come importare, aggiornare e gestire profili e tipi di pubblico [in quest
 
 Un elenco è un set statico di contatti che possono essere targetizzati nelle azioni di consegna o aggiornati durante un’importazione o un’altra azione del flusso di lavoro. Ad esempio, una popolazione estratta dal database tramite una query può essere memorizzata come elenco.
 
-Scopri come creare e gestire gli elenchi in [questa pagina](../audiences/create-audiences.md).
+Scopri come creare e gestire gli elenchi in [Creare tipi di pubblico di profilo in Campaign](../audiences/create-audiences.md).
 
 ## Filtrare il database{#filter-the-database}
 
 La configurazione del filtro consente di selezionare i dati da un elenco **[!UICONTROL dynamically]**: quando i dati vengono modificati, i dati filtrati vengono aggiornati. Puoi creare filtri personalizzati o utilizzare i filtri incorporati per definire un pubblico target.
 
-Scopri come creare e gestire i filtri in [questa pagina](../audiences/create-filters.md).
+Scopri come creare e gestire i filtri in [Utilizzare i filtri in Adobe Campaign](../audiences/create-filters.md).
 
 ## Creare un pubblico in un flusso di lavoro
 
@@ -65,7 +65,7 @@ Un profilo attivo è un profilo con cui un cliente ha tentato di comunicare negl
 
 In base al contratto, a ciascuna istanza di Campaign viene fornito un numero specifico di profili attivi conteggiati a scopo di fatturazione. Per informazioni sul numero di profili attivi acquistati, fai riferimento al contratto più recente. Ulteriori informazioni sono disponibili in [Descrizione del prodotto Adobe Campaign](https://helpx.adobe.com/it/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
-Puoi monitorare il numero di profili attivi nell’istanza direttamente dal Pannello di controllo Campaign Campaign. Per ulteriori informazioni, consulta la [documentazione del Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=it){target="_blank"}.
+Puoi monitorare il numero di profili attivi nell’istanza direttamente dal Pannello di controllo Campaign Campaign. Per ulteriori informazioni, consulta la [documentazione del Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}.
 
 
 Si applicano le seguenti protezioni e limitazioni:

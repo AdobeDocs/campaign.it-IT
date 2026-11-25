@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Implementation
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 13%
+source-wordcount: '472'
+ht-degree: 12%
 ---
 # Collegare Campaign alle soluzioni{#gs-ac-connectors}
 
@@ -57,9 +57,9 @@ Campaign v8 può connettersi con le seguenti soluzioni Adobe. Sfoglia i collegam
 
 Puoi anche combinare le **audience** e **risorse** nelle soluzioni [!DNL CX Enterprise] con le funzionalità di condivisione delle risorse e dei tipi di pubblico.
 
-Ulteriori informazioni sulla **condivisione del pubblico** tra Campaign e [!DNL CX Enterprise] soluzioni nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=it#integrating-with-adobe-experience-cloud){target="_blank"}.
+Ulteriori informazioni sulla **condivisione del pubblico** tra Campaign e [!DNL CX Enterprise] soluzioni nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}.
 
-Ulteriori informazioni sulla **condivisione di risorse** tra Campaign e [!DNL CX Enterprise] soluzioni nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=it#integrating-with-adobe-experience-cloud){target="_blank"}.
+Ulteriori informazioni sulla **condivisione di risorse** tra Campaign e [!DNL CX Enterprise] soluzioni nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}.
 
 >[!NOTE]
 >
@@ -73,13 +73,13 @@ Puoi collegare la tua piattaforma Adobe Campaign ai tuoi **sistemi di terze part
 Attiva i dati di gestione delle relazioni con i clienti sulla comunicazione cross-channel: scopri come trasferire i contatti dal sistema di gestione delle relazioni con i clienti ad Adobe Campaign e condividere i dati della campagna da Adobe Campaign al sistema di gestione delle relazioni con i clienti.
 I connettori di gestione delle relazioni con i clienti consentono un’integrazione rapida e semplice dei dati: Adobe Campaign fornisce un assistente dedicato per la raccolta e la selezione dalle tabelle disponibili nella gestione delle relazioni con i clienti. Ciò garantisce la sincronizzazione bidirezionale per far sì che i dati siano sempre aggiornati in tutti i sistemi.
 
-Scopri come integrare Campaign con Microsoft Dynamics 365 e Salesforce.com in [questa pagina](crm.md).
+Scopri come integrare Campaign con Microsoft Dynamics 365 e Salesforce.com in [Utilizzare Campaign e il CRM](crm.md).
 
 ## Connettere terze parti con Federated Data Access{#gs-fda}
 
 Utilizza il connettore FDA (Federated Data Access) per collegare Campaign a uno o più **database esterni** ed elaborare le informazioni in essi memorizzate senza influire sui dati del database cloud di Campaign.
 
-Per ulteriori informazioni, consulta [questa pagina](fda.md).
+Ulteriori informazioni in [Utilizzare Campaign e i database esterni (FDA)](fda.md).
 
 ## Utilizzare i social media{#gs-social}
 
@@ -91,6 +91,6 @@ Puoi eseguire le seguenti azioni:
 * Pubblica sul tuo account X
 * Raccogli nuovi contatti
 
-Scopri come impostare e utilizzare l&#39;integrazione X in [questa pagina](../connect/ac-tw.md).
+Scopri come configurare e utilizzare l’integrazione X in [Utilizzare Campaign e X (Twitter)](../connect/ac-tw.md).
 
-Scopri come creare X post e inviare messaggi diretti ai tuoi follower in [questa pagina](../send/twitter.md).
+Scopri come creare X post e inviare messaggi diretti ai tuoi follower in [Pubblicare messaggi su X (Twitter) con Adobe Campaign](../send/twitter.md).

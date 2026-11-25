@@ -28,9 +28,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '575'
 ht-degree: 6%
 ---
 # Configurare collegamenti tracciati {#how-to-configure-tracked-links}
@@ -39,7 +39,7 @@ Per ogni consegna, puoi tracciare la ricezione dei messaggi e l’attivazione de
 
 >[!NOTE]
 >
->I collegamenti nel contenuto delle e-mail che contengono la personalizzazione devono essere tracciati con una sintassi specifica. Scopri come aggiungere nelle e-mail collegamenti che possono essere personalizzati e che supportano il tracciamento in [questa sezione](personalized-links.md).
+>I collegamenti nel contenuto delle e-mail che contengono la personalizzazione devono essere tracciati con una sintassi specifica. Scopri come aggiungere nelle e-mail collegamenti che possono essere personalizzati e che supportano il tracciamento in [Tracciare collegamenti personalizzati](personalized-links.md).
 
 Il tracciamento dei messaggi è abilitato per impostazione predefinita. Per personalizzare il tracciamento degli URL, effettua le seguenti operazioni:
 
@@ -78,7 +78,7 @@ Il tracciamento dei messaggi è abilitato per impostazione predefinita. Per pers
    * **[!UICONTROL Opt-out]**: considera questo URL come URL di rinuncia o di annullamento dell&#39;abbonamento.
    * **[!UICONTROL Mirror page]**: considera questo URL come un URL della pagina mirror.
 
-1. È inoltre possibile selezionare una categoria per ogni URL tracciato nell&#39;elenco a discesa della colonna **[!UICONTROL Category]**. Queste categorie possono essere visualizzate nei report, ad esempio nel report **[!UICONTROL URLs and click streams]** (vedi [questa sezione](../reporting/delivery-reports.md#urls-and-click-streams)). Le categorie sono definite in un&#39;enumerazione specifica: **[!UICONTROL urlCategory]**. Scopri come utilizzare le enumerazioni in [questa sezione](../config/enumerations.md).
+1. È inoltre possibile selezionare una categoria per ogni URL tracciato nell&#39;elenco a discesa della colonna **[!UICONTROL Category]**. Queste categorie possono essere visualizzate nei report, ad esempio nel report **[!UICONTROL URLs and click streams]** (vedi [URL e flussi di clic](../reporting/delivery-reports.md#urls-and-click-streams)). Le categorie sono definite in un&#39;enumerazione specifica: **[!UICONTROL urlCategory]**. Ulteriori informazioni su come utilizzare le enumerazioni in [Gestione enumerazioni](../config/enumerations.md).
 
 ## Best practice per i delimitatori URL {#url-delimiters}
 
@@ -88,8 +88,8 @@ Si consiglia vivamente di includere gli URL nei delimitatori nella scheda **[!UI
 * Parentesi [ ]
 * Parentesi graffe { }
 
-In questo esempio, l&#39;URL https://www.adobe.com/it è seguito da un punto e virgola. Il punto e virgola può essere interpretato dai client e-mail dei destinatari come parte dell’URL. Di conseguenza, il collegamento potrebbe essere interrotto. Per evitare questo problema, puoi racchiudere l’URL nei delimitatori in uno dei seguenti modi:
+In questo esempio, l&#39;URL https://www.adobe.com è seguito da un punto e virgola. Il punto e virgola può essere interpretato dai client e-mail dei destinatari come parte dell’URL. Di conseguenza, il collegamento potrebbe essere interrotto. Per evitare questo problema, puoi racchiudere l’URL nei delimitatori in uno dei seguenti modi:
 
-* (https://www.adobe.com/it)
-* [https://www.adobe.com/it];
-* {https://www.adobe.com/it};
+* (https://www.adobe.com)
+* [https://www.adobe.com];
+* {https://www.adobe.com};

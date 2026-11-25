@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '268'
 ht-degree: 2%
 ---
 # Estendere uno schema{#extend-schemas}
@@ -54,7 +54,7 @@ I passaggi chiave per personalizzare il modello dati di Campaign sono:
 >[!CAUTION]
 >Lo schema incorporato non deve essere modificato direttamente. Se devi adattare uno schema integrato, devi estenderlo.
 
-Per informazioni sulle tabelle integrate di Campaign e sulla loro interazione, consulta [questa pagina](datamodel.md). Consulta anche i consigli durante la creazione di un nuovo schema in [questa pagina](create-schema.md).
+Per informazioni sulle tabelle integrate di Campaign e sulla loro interazione, consulta [Introduzione al modello dati di Campaign](datamodel.md). Consulta anche i consigli per la creazione di un nuovo schema in [Crea un nuovo schema in Campaign](create-schema.md).
 
 Per estendere uno schema, effettua le seguenti operazioni:
 
@@ -79,7 +79,7 @@ Per estendere uno schema, effettua le seguenti operazioni:
 
    ![](assets/extend-schema-sample.png)
 
-   ```
+   ```xml
    <srcSchema created="YYYY-MM-DD" desc="Recipient table" extendedSchema="nms:recipient"
            img="nms:recipient.png" label="Recipients" labelSingular="Recipient" lastModified="YYYY-MM-DD"
            mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:srcSchema">

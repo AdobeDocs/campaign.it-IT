@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Accessibility
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1283'
 ht-degree: 1%
 ---
 # Pubblicare un modulo web{#publishing-a-web-form}
@@ -161,7 +161,7 @@ Per essere accessibile agli utenti, il modulo deve essere in produzione e deve e
 
 Quando si invia un invito tramite e-mail, è possibile utilizzare l&#39;opzione **[!UICONTROL Adobe Campaign Encryption]** per la riconciliazione dei dati. A questo scopo, passa all’assistente alla consegna e adatta il collegamento al modulo aggiungendo il seguente parametro:
 
-```
+```xml
 <a href="https://server/webApp/APP264?&id=<%=escapeUrl(recipient.cryptedId) %>">
 ```
 
@@ -191,7 +191,7 @@ Puoi elaborare i registri di risposta forniti nelle query, ad esempio per esegui
 
 Durante l’esportazione e l’importazione di un pacchetto che include un modulo web da un’istanza a un’altra (ad esempio, dalla fase di produzione), lo stato del modulo web nella nuova istanza può variare in base a diverse condizioni. I diversi casi sono elencati di seguito.
 
-Ulteriori informazioni sui diversi stati di un modulo Web sono disponibili in [questa sezione](#life-cycle-of-a-form).
+Ulteriori informazioni sui diversi stati di un modulo Web nel [Ciclo di vita di un modulo](#life-cycle-of-a-form).
 
 >[!NOTE]
 >

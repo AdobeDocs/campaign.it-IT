@@ -21,9 +21,9 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '946'
 ht-degree: 1%
 ---
 # Passaggi chiave per creare un sondaggio{#getting-started-with-surveys}
@@ -125,7 +125,7 @@ Nell&#39;esempio seguente viene utilizzata una pagina di tipo **[!UICONTROL Page
 
   >[!NOTE]
   >
-  >Per ogni campo o domanda, è possibile adattare il layout di pagina in base alle proprie esigenze, grazie alle opzioni disponibili nella scheda **[!UICONTROL Advanced]**. Il layout delle schermate del sondaggio è descritto in [questa sezione](../web/about-web-forms.md).
+  >Per ogni campo o domanda, è possibile adattare il layout di pagina in base alle proprie esigenze, grazie alle opzioni disponibili nella scheda **[!UICONTROL Advanced]**. Il layout delle schermate del sondaggio è descritto in [Introduzione ai moduli web](../web/about-web-forms.md).
 
   Nella schermata di dettaglio, fare clic sulla scheda **[!UICONTROL Preview]** per visualizzare il rendering del sondaggio appena creato.
 

@@ -21,10 +21,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 8%
+source-wordcount: '188'
+ht-degree: 0%
 ---
 # Presenta l’offerta migliore{#interaction-present-offers}
 
@@ -34,7 +34,7 @@ Le offerte possono essere presentate in vari spazi di offerta utilizzando [un ca
 
 Per poter essere selezionata dal motore di offerta, un’offerta deve essere approvata e disponibile in un ambiente live.
 
-Per ulteriori informazioni al riguardo, consulta [questa sezione](approving-and-activating-an-offer.md#approving-offer-content).
+Per ulteriori informazioni, consulta [Approvazione del contenuto delle offerte](approving-and-activating-an-offer.md#approving-offer-content).
 
 Nel contesto di un contatto in entrata, l’utente che sta navigando nella pagina può essere identificato dal sito web o meno. Il motore di offerta presenta diverse offerte per profili identificati e per profili anonimi.
 
@@ -44,4 +44,4 @@ Prima di poter presentare le offerte su un canale in entrata, devi configurare l
 >
 >Per le interazioni in entrata, devi configurare in modo specifico il motore delle offerte per presentare e aggiornare una o più offerte.
 >
->Devi anche abilitare la modalità unitaria negli spazi dell’offerta. Per ulteriori informazioni, consulta [questa pagina](interaction-offer-spaces.md).
+>Devi anche abilitare la modalità unitaria negli spazi dell’offerta. Per ulteriori informazioni, consulta [Spazi dell&#39;offerta di interazione campagna](interaction-offer-spaces.md).

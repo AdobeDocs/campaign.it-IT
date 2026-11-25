@@ -26,9 +26,9 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6db6c9152f6060b40596bd65a2ce705f916401be
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '800'
 ht-degree: 2%
 ---
 # Creare una pagina di destinazione{#creating-a-landing-page}
@@ -37,7 +37,7 @@ ht-degree: 2%
 >
 >Per i casi d’uso più comuni, crea le pagine di destinazione nell’interfaccia utente di Campaign Web, dove puoi facilmente progettarle e pubblicarle. Le pagine di destinazione create nella console client, come descritto in questa sezione, offrono più impostazioni e coprono casi di utilizzo più avanzati.
 >
->[Ulteriori informazioni sulle pagine di destinazione nell&#39;interfaccia utente di Campaign Web](https://experienceleague.adobe.com/it/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
+>[Ulteriori informazioni sulle pagine di destinazione nell&#39;interfaccia utente di Campaign Web](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
 
 
 
@@ -73,7 +73,7 @@ Viene quindi creata la seguente sequenza:
 
 >[!NOTE]
 >
->Per ulteriori informazioni sulla creazione di un&#39;applicazione Web, consultare [questa sezione](creating-a-new-web-application.md).
+>Per ulteriori informazioni sulla creazione di un&#39;applicazione Web, vedere [Creare una nuova applicazione Web](creating-a-new-web-application.md).
 
 ## Passaggio 1: selezione e caricamento dei modelli {#step-1---selecting-and-loading-templates}
 

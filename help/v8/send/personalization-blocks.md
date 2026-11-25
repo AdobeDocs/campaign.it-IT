@@ -24,16 +24,16 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '639'
 ht-degree: 20%
 ---
 # Utilizzare i blocchi di personalizzazione{#personalization-blocks}
 
 I blocchi di personalizzazione sono contenuti dinamici che contengono un rendering specifico che puoi inserire nelle consegne. Ad esempio, puoi aggiungere un logo, un messaggio di auguri o un collegamento alla pagina mirror.
 
-Per accedere a blocchi di contenuto personalizzati, passa al nodo **[!UICONTROL Resources > Campaign Management > Personalization blocks]** dell&#39;Explorer. I blocchi di personalizzazione incorporati sono elencati in [questa sezione](#ootb-personalization-blocks).
+Per accedere a blocchi di contenuto personalizzati, passa al nodo **[!UICONTROL Resources > Campaign Management > Personalization blocks]** dell&#39;Explorer. I blocchi di personalizzazione incorporati sono elencati in [blocchi di personalizzazione incorporati](#ootb-personalization-blocks).
 
 Puoi anche definire nuovi blocchi per ottimizzare la personalizzazione delle consegne. [Ulteriori informazioni](#create-custom-personalization-blocks).
 
@@ -100,4 +100,4 @@ Una volta salvato, il nuovo blocco di personalizzazione è disponibile nell’ed
 
 Scopri come creare blocchi di contenuto dinamici e come utilizzarli per personalizzare il contenuto della consegna e-mail nel video seguente.
 
->[!VIDEO](https://video.tv.adobe.com/v/344595?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12)

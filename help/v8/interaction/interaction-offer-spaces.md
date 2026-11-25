@@ -24,10 +24,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 2%
+source-wordcount: '841'
+ht-degree: 1%
 ---
 # Creare spazi dell’offerta{#creating-offer-spaces}
 
@@ -134,13 +134,13 @@ A questo scopo, segui la procedura indicata di seguito:
 
 La scheda **[!UICONTROL Storage]** ti consente di definire gli stati solo per le proposte di offerta **proposte** e **accettate**. Per l’interazione in entrata, lo stato delle proposte di offerta deve essere specificato direttamente nell’URL per la chiamata al motore di offerta, anziché tramite l’interfaccia. In questo modo, potrai specificare lo stato da applicare in altri casi, ad esempio se una proposta di offerta viene rifiutata.
 
-```
+```xml
 <BASE_URL>?a=UpdateStatus&p=<PRIMARY_KEY_OF_THE_PROPOSITION>&st=<NEW_STATUS_OF_THE_PROPOSITION>&r=<REDIRECT_URL>
 ```
 
 Ad esempio, la proposta (identificatore **40004**) che corrisponde all&#39;offerta **Assicurazione sulla casa** visualizzata nel sito **Neobank** contiene il seguente URL:
 
-```
+```xml
 <BASE_URL>?a=UpdateStatus&p=<40004>&st=<3>&r=<"http://www.neobank.com/insurance/subscribe.html">
 ```
 
@@ -150,13 +150,13 @@ Non appena un visitatore fa clic sull&#39;offerta, e quindi sull&#39;URL, lo sta
 >
 >Se desideri specificare un altro stato nell’URL (ad esempio se una proposta di offerta viene rifiutata), utilizza il valore corrispondente allo stato desiderato. Esempio: **[!UICONTROL Rejected]** = &quot;5&quot;, **[!UICONTROL Presented]** = &quot;1&quot; ecc.
 >
->Gli stati e i relativi valori possono essere recuperati nello schema di dati **[!UICONTROL Offer propositions (nms)]**. Per ulteriori informazioni, consulta [questa pagina](../dev/create-schema.md).
+>Gli stati e i relativi valori possono essere recuperati nello schema di dati **[!UICONTROL Offer propositions (nms)]**. Per ulteriori informazioni, consulta [Creare un nuovo schema in Campaign](../dev/create-schema.md).
 
 **Interazione in uscita**
 
 È possibile applicare automaticamente lo stato **[!UICONTROL Interested]** a una proposta di offerta quando la consegna contiene un collegamento. È sufficiente aggiungere il valore **_urlType=&quot;11&quot;** al collegamento:
 
-```
+```xml
 <a _urlType="11" href="<DEST_URL>">Link inserted into the delivery</a>
 ```
 
@@ -173,4 +173,4 @@ Se un destinatario non è idoneo per nessuna offerta, ciò viene mostrato nell�
 
 L’anteprima può ignorare i contesti quando sono limitati a uno spazio. Ciò si verifica quando lo schema di interazione è stato esteso per aggiungere campi a cui si fa riferimento in uno spazio utilizzando un canale in entrata.
 
-Per ulteriori informazioni, consulta questo esempio in [questa sezione](extension-example.md).
+Per ulteriori informazioni, consulta questo esempio nell&#39;[Esempio di estensione](extension-example.md).

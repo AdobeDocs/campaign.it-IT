@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '801'
 ht-degree: 2%
 ---
 # Progettare un sondaggio{#building-a-survey}
@@ -65,13 +65,13 @@ Quando si aggiunge un campo a un sondaggio, è necessario selezionarne il tipo. 
 
    >[!NOTE]
    >
-   >Le modalità di archiviazione e le importazioni dei campi sono descritte in [questa sezione](managing-answers.md#storing-collected-answers).
+   >Le modalità di archiviazione e le importazioni dei campi sono descritte in dettaglio in [Memorizzare le risposte raccolte](managing-answers.md#storing-collected-answers).
 
 La natura del campo da aggiungere (elenco a discesa, campo di testo, caselle di controllo e così via) si adatta alla modalità di archiviazione selezionata. Puoi modificarlo utilizzando il campo **[!UICONTROL Type]** della scheda **[!UICONTROL General]**, ma assicurati di rimanere coerente con il tipo di dati.
 
 ![](assets/s_ncs_admin_survey_change_type.png)
 
-I vari tipi di campi disponibili sono descritti in [questa sezione](../web/about-web-forms.md).
+I vari tipi di campi disponibili sono descritti in dettaglio in [Introduzione ai moduli Web](../web/about-web-forms.md).
 
 ## Elementi specifici del sondaggio {#survey-specific-elements}
 

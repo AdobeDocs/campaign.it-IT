@@ -35,10 +35,10 @@ topic_v2:
     internal-label: Email marketing
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 13%
+source-wordcount: '350'
+ht-degree: 11%
 ---
 # Collegare il CRM con Campaign {#gs-crm}
 
@@ -69,8 +69,8 @@ I CRM e le versioni supportati sono descritti in dettaglio nella [Matrice di com
 
 ## Passaggi di implementazione {#crm-implementation-steps}
 
-Scopri la procedura dettagliata per collegare Campaign e Microsoft Dynamics in [questa pagina](ac-ms-dyn.md).
+Scopri la procedura dettagliata per collegare Campaign e Microsoft Dynamics in [Utilizzare Campaign e Microsoft Dynamics](ac-ms-dyn.md).
 
-Scopri la procedura dettagliata per connettere Campaign e Salesforce.com in [questa pagina](ac-sfdc.md).
+Scopri la procedura dettagliata per connettere Campaign e Salesforce.com in [Utilizzare Campaign e SFDC](ac-sfdc.md).
 
-La sincronizzazione dei dati tra Adobe Campaign e il sistema CRM viene eseguita tramite un’attività del flusso di lavoro dedicata. Crea i flussi di lavoro per automatizzare la sincronizzazione tra Campaign e il tuo sistema CRM. Puoi creare un flusso di lavoro che importa i contatti tramite Microsoft Dynamics, li sincronizza con i dati esistenti di Adobe Campaign, elimina i contatti duplicati e quindi aggiorna il database di Adobe Campaign. Per ulteriori informazioni, consulta [questa pagina](crm-data-sync.md).
+La sincronizzazione dei dati tra Adobe Campaign e il sistema CRM viene eseguita tramite un’attività del flusso di lavoro dedicata. Crea i flussi di lavoro per automatizzare la sincronizzazione tra Campaign e il tuo sistema CRM. Puoi creare un flusso di lavoro che importa i contatti tramite Microsoft Dynamics, li sincronizza con i dati esistenti di Adobe Campaign, elimina i contatti duplicati e quindi aggiorna il database di Adobe Campaign. Ulteriori informazioni sono disponibili in [Sincronizzazione dati dei connettori CRM](crm-data-sync.md).

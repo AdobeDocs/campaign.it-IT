@@ -14,9 +14,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '355'
 ht-degree: 0%
 ---
 # Risoluzione dei problemi API {#troubleshooting}
@@ -32,7 +32,7 @@ Ciò significa che esiste un problema con il provisioning IMS del prodotto Campa
 Per ottenere ulteriori dettagli, puoi chiamare l’API IMS con il token per visualizzare l’aspetto del profilo IMS: per poter instradare la richiesta, è necessario disporre di un prodCtx in cui il valore organization_id sia uguale a quello inserito nell’URL di Adobe.io.
 Se manca, è necessario correggere il provisioning IMS.
 
-```
+```bash
 -X GET https://mc.adobe.io/{ORGANIZATION}/campaign/profileAndServices/profile \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -42,13 +42,13 @@ Se manca, è necessario correggere il provisioning IMS.
 
 Restituisce il seguente errore.
 
-```
+```json
 {"error_code":"403023","message":"Profile is not valid"}
 ```
 
 Verifica il tuo profilo IMS con questa richiesta.
 
-```
+```bash
 -X GET https://ims-na1.adobelogin.com/ims/profile/v1 \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -58,7 +58,7 @@ Verifica il tuo profilo IMS con questa richiesta.
 
 Nella risposta, il valore ORGANIZATION_ID deve essere lo stesso nella prima richiesta GET.
 
-```
+```json
 {
   "countryCode": "FR",
   "mrktPermEmail": null,
@@ -91,7 +91,7 @@ Il token non è valido (per generare un token viene utilizzata una chiamata IMS 
 
 * **Non visualizzo il mio profilo dopo la creazione**
 
-A seconda della configurazione dell&#39;istanza, il profilo creato deve essere associato a una **orgUnit**. Per informazioni su come aggiungere questo campo nella creazione, consulta [questa sezione](creating-profiles-api.md).
+A seconda della configurazione dell&#39;istanza, il profilo creato deve essere associato a una **orgUnit**. Per informazioni su come aggiungere questo campo nella creazione, consulta [Creazione di profili con API](creating-profiles-api.md).
 
 <!--
  * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu'un POST)

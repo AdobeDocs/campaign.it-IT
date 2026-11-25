@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '353'
 ht-degree: 2%
 ---
 # Introduzione all’editor di Campaign HTML{#about-campaign-html-editor}
@@ -41,7 +41,7 @@ ht-degree: 2%
 >
 >Per i casi d’uso più comuni, crea le pagine di destinazione nell’interfaccia utente di Campaign Web, dove puoi facilmente progettarle e pubblicarle. Le pagine di destinazione create nella console client, come descritto in questa sezione, offrono più impostazioni e coprono casi di utilizzo più avanzati.
 >
->[Ulteriori informazioni sulle pagine di destinazione nell&#39;interfaccia utente di Campaign Web](https://experienceleague.adobe.com/it/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
+>[Ulteriori informazioni sulle pagine di destinazione nell&#39;interfaccia utente di Campaign Web](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
 
 
 
@@ -51,7 +51,7 @@ Con Digital Content Editor è possibile inserire e formattare elementi di pagina
 
 >[!NOTE]
 >
->Se devi aggiungere codice JavaScript lato server, utilizza i blocchi di personalizzazione. Consulta la [documentazione di Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=it){target="_blank"}.
+>Se devi aggiungere codice JavaScript lato server, utilizza i blocchi di personalizzazione. Consulta la [documentazione di Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}.
 
 >[!CAUTION]
 >
@@ -74,7 +74,7 @@ Per creare una **applicazione Web** semplice, è necessario:
 
 >[!NOTE]
 >
->Un esempio completo di implementazione nel contesto di un&#39;applicazione Web è disponibile in [questa sezione](creating-a-landing-page.md).
+>Un esempio completo di implementazione nel contesto di un&#39;applicazione Web è disponibile in [Creare una pagina di destinazione](creating-a-landing-page.md).
 
 Per creare una **consegna e-mail**, è necessario:
 

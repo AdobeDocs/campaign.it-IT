@@ -47,9 +47,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: f89b58e9c7a87b6526dbbf491db67109418f2006
 workflow-type: tm+mt
-source-wordcount: '1949'
+source-wordcount: '1963'
 ht-degree: 0%
 ---
 # Utilizzare i pacchetti di dati{#data-packages}
@@ -142,7 +142,7 @@ Per esportare un set di oggetti in un pacchetto di dati, eseguire la procedura s
 
    >[!NOTE]
    >
-   >L&#39;editor delle query è presentato in [questa sezione](../../automation/workflow/query.md).
+   >L&#39;editor delle query è presentato in [Crea una query](../../automation/workflow/query.md#creating-a-query).
 
 1. Fare clic su **[!UICONTROL Next]** e selezionare l&#39;ordinamento dei dati esportati.
 
@@ -159,7 +159,7 @@ Il processo di esportazione tiene traccia dei collegamenti tra i vari elementi e
 
 >[!NOTE]
 >
->I tipi di integrità collegati agli elementi dello schema sono definiti in [questa pagina](database-links.md).
+>I tipi di integrità collegati agli elementi dello schema sono definiti in [Gestione dei collegamenti negli schemi di Campaign](database-links.md).
 
 #### Esportare una campagna {#export-a-campaign}
 
@@ -253,7 +253,7 @@ Per creare una definizione di pacchetto, fare clic sul pulsante **[!UICONTROL Ne
 
 ### Aggiungere entità a una definizione di pacchetto {#add-entities-to-a-package-definition}
 
-Nella scheda **[!UICONTROL Content]**, fare clic sul pulsante **[!UICONTROL Add]** per selezionare le entità da esportare con il pacchetto. Le best practice per la selezione delle entità sono presentate in [questa sezione](#export-a-set-of-objects-in-a-package).
+Nella scheda **[!UICONTROL Content]**, fare clic sul pulsante **[!UICONTROL Add]** per selezionare le entità da esportare con il pacchetto. Le best practice per la selezione delle entità sono presentate in [Esporta un set di oggetti in un pacchetto](#export-a-set-of-objects-in-a-package).
 
 ![](assets/packagedefinition_addentities.png)
 
@@ -263,7 +263,7 @@ Le entità possono essere aggiunte a una definizione di pacchetto direttamente d
 
 1. Selezionare **[!UICONTROL Add to a package definition]**, quindi selezionare la definizione del pacchetto a cui si desidera aggiungere l&#39;entità.
 
-1. L&#39;entità viene aggiunta alla definizione del pacchetto e verrà esportata con il pacchetto (vedere [questa sezione](#export-packages-from-a-package-definition)).
+1. L&#39;entità viene aggiunta alla definizione del pacchetto e verrà esportata con il pacchetto (vedere [Esporta pacchetti da una definizione del pacchetto](#export-packages-from-a-package-definition)).
 
 ### Configurare la generazione delle definizioni dei pacchetti {#configure-package-definitions-generation}
 

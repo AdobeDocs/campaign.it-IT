@@ -33,9 +33,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '979'
 ht-degree: 13%
 ---
 # Creare e inviare notifiche push{#push-notifications-create}
@@ -194,9 +194,9 @@ Per inviare notifiche sui dispositivi Android, effettua le seguenti operazioni:
 
 Per inviare una bozza e la consegna finale, utilizza lo stesso processo utilizzato per le altre consegne.
 
-Scopri come convalidare una consegna in [questa pagina](preview-and-proof.md).
+Scopri come convalidare una consegna in [Anteprima e test dell&#39;e-mail](preview-and-proof.md).
 
-Scopri come confermare e inviare la consegna in [questa pagina](send.md)
+Scopri come confermare e inviare la consegna in [Inviare e monitorare le e-mail](send.md)
 
-Dopo aver inviato i messaggi, puoi monitorare e tenere traccia delle consegne. Ulteriori informazioni sui motivi degli errori di consegna delle notifiche push in [questa pagina](delivery-failures.md#push-error-types).
+Dopo aver inviato i messaggi, puoi monitorare e tenere traccia delle consegne. Ulteriori informazioni sui motivi degli errori di recapito delle notifiche push sono disponibili in [Tipi di errore per le notifiche push](delivery-failures.md#push-error-types).
 

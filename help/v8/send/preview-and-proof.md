@@ -23,10 +23,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 13%
+source-wordcount: '710'
+ht-degree: 12%
 ---
 # Anteprima e verifica dell’e-mail {#preview-test}
 
@@ -81,7 +81,7 @@ Il tipo di destinazione della bozza è selezionato dall&#39;elenco a discesa **[
   >
   >Gli indirizzi seed non appartengono alla tabella dei destinatari predefinita (nms:recipient), ma vengono creati in una tabella separata. Se estendi la tabella dei destinatari con nuovi dati, devi estendere anche la tabella degli indirizzi di seed con gli stessi dati.
 
-  Ulteriori informazioni sugli indirizzi di seed in [questa sezione](../audiences/test-profiles.md).
+  Ulteriori informazioni sugli indirizzi di seed in [Creare profili di test in Campaign](../audiences/test-profiles.md).
 
 * Utilizzare l&#39;opzione **[!UICONTROL Specific target and Seed addresses]** per combinare indirizzi seed e indirizzi e-mail specifici. Le configurazioni correlate vengono quindi definite in due schede secondarie separate.
 
@@ -122,4 +122,4 @@ Per impostazione predefinita, i messaggi di bozza sono identificati dalla menzio
 
 Scopri come inviare e convalidare una bozza per una consegna e-mail.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447007?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/333404)

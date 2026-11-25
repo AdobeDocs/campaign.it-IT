@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1180'
 ht-degree: 0%
 ---
 # Best practice di interazione {#interaction-best-practices}
@@ -117,7 +117,7 @@ Ad esempio, quando selezioni manualmente un&#39;offerta (senza interazione) in u
 
 Poiché nella tabella della proposta è presente un campo denominato `@rank`, il valore nella tabella temporanea del flusso di lavoro verrà copiato.
 
-Per ulteriori informazioni sulla memorizzazione di campi aggiuntivi nella tabella della proposta, consulta [questa sezione](interaction-send-offers.md#storing-offer-rankings-and-weights).
+Per ulteriori informazioni sulla memorizzazione di campi aggiuntivi nella tabella delle proposte, consulta [Classificazioni e pesi delle offerte store](interaction-send-offers.md#storing-offer-rankings-and-weights).
 
 Per le offerte in uscita con interazione, questo è utile quando sono selezionate più offerte e vuoi registrare in quale ordine verranno visualizzate in un’e-mail.
 
@@ -135,7 +135,7 @@ Quando si estende lo schema nms:offer, assicurarsi di seguire la struttura preco
 * Definire un nuovo campo per l&#39;archiviazione del contenuto in `<element name="view">`.
 * Ogni nuovo campo deve essere definito due volte. Una volta come campo XML normale e una volta come campo XML CDATA con &quot;_jst&quot; aggiunto al nome. Ad esempio:
 
-  ```
+  ```xml
   <element label="Price" name="price" type="long" xml="true"/>
   <element advanced="true" label="Script price" name="price_jst" type="CDATA" xml="true"/>
   ```

@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 709e38026d74ed707d10fc8109356289dc9f4ac9
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1623'
 ht-degree: 2%
 ---
 # Gestire le interazioni in tempo reale
@@ -76,7 +76,7 @@ Se lo spazio è definito da un canale unitario in modalità identificata, è nec
 
 1. Configura il motore delle offerte per le interazioni in entrata per presentare e aggiornare una o più offerte.
 
-   Le varie modalità di integrazione sono descritte in [questa sezione](interaction-present-offers.md).
+   Le varie modalità di integrazione sono descritte in dettaglio in [Presentare un&#39;offerta (interazione in entrata)](interaction-present-offers.md).
 
    >[!NOTE]
    >

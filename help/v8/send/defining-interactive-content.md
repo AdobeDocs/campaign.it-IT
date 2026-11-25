@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '1461'
+source-wordcount: '1463'
 ht-degree: 3%
 ---
 # Definire il contenuto interattivo{#defining-interactive-content}
@@ -39,7 +39,7 @@ Con AMP per e-mail, puoi:
 * Verifica la consegna di e-mail AMP a indirizzi specifici configurati in modo appropriato.
 * Consegna le e-mail AMP agli indirizzi Gmail o Mail.ru dopo la registrazione ai provider corrispondenti.
 
-Per ulteriori informazioni sul test e l&#39;invio di e-mail AMP, consulta [questa sezione](#targeting-amp-email).
+Per ulteriori informazioni sul test e l&#39;invio di e-mail AMP, consulta [Eseguire il targeting di un&#39;e-mail AMP](#targeting-amp-email).
 
 Questa funzione è disponibile tramite un pacchetto dedicato in Adobe Campaign. A seconda delle autorizzazioni e del modello di distribuzione, puoi installare questo pacchetto o rivolgerti ad Adobe per installarlo autonomamente.
 
@@ -216,4 +216,4 @@ Ad esempio, se hai incluso un elenco di prodotti nell’e-mail, quando modifichi
 
 Il video seguente spiega come attivare AMP in Adobe Campaign e ne illustra l’utilizzo.
 
->[!VIDEO](https://video.tv.adobe.com/v/39583?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/29940?quality=12&learn=on)

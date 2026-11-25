@@ -33,9 +33,9 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1171'
 ht-degree: 3%
 ---
 # Monitorare le consegne nell’interfaccia utente di Campaign {#delivery-dashboard}
@@ -90,7 +90,7 @@ La scheda **[!UICONTROL Summary]** contiene le caratteristiche della consegna: s
 
 Il collegamento **[!UICONTROL Reports]**, accessibile dalla scheda **[!UICONTROL Summary]**, consente di esaminare una serie di rapporti relativi all&#39;azione di consegna: report di consegna generale, report dettagliato, report di consegna, distribuzione dei messaggi non riusciti, tasso di apertura, clic e transazioni, ecc.
 
-Il contenuto di questa scheda può essere configurato in base alle tue esigenze. Per ulteriori informazioni sui report di consegna, consulta [questa sezione](../reporting/delivery-reports.md).
+Il contenuto di questa scheda può essere configurato in base alle tue esigenze. Per ulteriori informazioni sui rapporti di consegna, consulta [Rapporti di consegna incorporati di Adobe Campaign](../reporting/delivery-reports.md).
 
 ![](assets/delivery-report.png)
 
@@ -102,7 +102,7 @@ Per una consegna, puoi visualizzare (ad esempio) solo i destinatari con una cons
 
 >[!NOTE]
 >
->L’elenco che mostra i registri di consegna può essere personalizzato, come qualsiasi altro elenco in Campaign. Ad esempio, puoi aggiungere una colonna per individuare l’indirizzo IP che ha inviato ogni e-mail di una consegna. Per ulteriori informazioni sulla configurazione della visualizzazione degli elenchi, consulta [questa sezione](../config/ui-settings.md#customize-lists).
+>L’elenco che mostra i registri di consegna può essere personalizzato, come qualsiasi altro elenco in Campaign. Ad esempio, puoi aggiungere una colonna per individuare l’indirizzo IP che ha inviato ogni e-mail di una consegna. Per ulteriori informazioni sulla configurazione della visualizzazione degli elenchi, fare riferimento a [Gestire e personalizzare gli elenchi](../config/ui-settings.md#customize-lists).
 
 ![](assets/s_ncs_user_delivery_delivery_tab.png)
 
@@ -122,7 +122,7 @@ La scheda **[!UICONTROL Tracking]** elenca la cronologia di tracciamento per que
 
 La configurazione del tracciamento viene eseguita nella fase appropriata nell’assistente alla consegna. Consulta [Come configurare i collegamenti tracciati](tracking.md).
 
-I dati di **[!UICONTROL Tracking]** vengono interpretati nei report di consegna. Vedi [questa sezione](../reporting/delivery-reports.md).
+I dati di **[!UICONTROL Tracking]** vengono interpretati nei report di consegna. Consulta [Rapporti di consegna incorporati di Adobe Campaign](../reporting/delivery-reports.md).
 
 ![](assets/s_ncs_user_delivery_tracking_tab.png)
 
@@ -132,7 +132,7 @@ La scheda **[!UICONTROL Inbox rendering]** consente di visualizzare in anteprima
 
 In questo modo, puoi assicurarti che il messaggio venga visualizzato ai destinatari in modo ottimale su diversi client web, servizi di posta sul web e dispositivi.
 
-Per ulteriori informazioni sul rendering della casella in entrata, consulta [questa pagina](inbox-rendering.md)
+Per ulteriori informazioni sul rendering della casella in entrata, consulta [Rendering della casella in entrata in Campaign](inbox-rendering.md)
 
 
 ## Audit della consegna {#delivery-audit-}
@@ -147,7 +147,7 @@ La scheda secondaria **[!UICONTROL Proofs]** ti consente di visualizzare l&#39;e
 
 ![](assets/s_ncs_user_delivery_log_tab.png)
 
-È possibile modificare le informazioni visualizzate in questa finestra (e quelle delle schede **[!UICONTROL Delivery]** e **[!UICONTROL Tracking]**) selezionando le colonne da visualizzare. A tale scopo, fare clic sull&#39;icona **[!UICONTROL Configure list]** situata nell&#39;angolo inferiore destro. Per ulteriori informazioni sulla configurazione della visualizzazione degli elenchi, consulta [questa sezione](../config/ui-settings.md#customize-lists).
+È possibile modificare le informazioni visualizzate in questa finestra (e quelle delle schede **[!UICONTROL Delivery]** e **[!UICONTROL Tracking]**) selezionando le colonne da visualizzare. A tale scopo, fare clic sull&#39;icona **[!UICONTROL Configure list]** situata nell&#39;angolo inferiore destro. Per ulteriori informazioni sulla configurazione della visualizzazione degli elenchi, fare riferimento a [Gestire e personalizzare gli elenchi](../config/ui-settings.md#customize-lists).
 
 ## Sincronizzazione del dashboard di consegna {#delivery-dashboard-synchronization}
 

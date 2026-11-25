@@ -24,10 +24,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 3%
+source-wordcount: '790'
+ht-degree: 2%
 ---
 # Pubblicare messaggi su X (Twitter) con Adobe Campaign {#post-tw-messages}
 
@@ -40,7 +40,7 @@ Una volta configurata l’integrazione, puoi:
 * Raccogliere nuovi contatti recuperando i dati del profilo, che consente di eseguire campagne di targeting e, quando possibile, di implementare strategie cross-channel. Questa azione richiede il consenso dell’utente.
 
 
-I passaggi di configurazione per integrare il tuo account X con Adobe Campaign sono descritti in [questa pagina](../connect/ac-tw.md).
+I passaggi di configurazione per integrare l&#39;account X con Adobe Campaign sono descritti in [Operazioni con Campaign e X (Twitter)](../connect/ac-tw.md).
 
 ## Creare e pubblicare un post X {#publish-on-tw}
 
@@ -126,7 +126,7 @@ Per inviare messaggi diretti ai tuoi follower, segui i passaggi seguenti:
 
       * Seleziona **[!UICONTROL Twitter subscribers]** per inviare un messaggio diretto a tutti i tuoi follower.
 
-      * Selezionare **[!UICONTROL Filter conditions]** per definire una query e visualizzarne il risultato. Scopri come creare un filtro in [questa sezione](../audiences/create-filters.md#advanced-filters).
+      * Selezionare **[!UICONTROL Filter conditions]** per definire una query e visualizzarne il risultato. Scopri come creare un filtro in [Filtri avanzati](../audiences/create-filters.md#advanced-filters).
 
 1. Seleziona la destinazione della bozza dalla scheda **[!UICONTROL Target of the proofs]**: questo account riceverà la bozza del tuo messaggio diretto.
 
@@ -141,7 +141,7 @@ Per inviare messaggi diretti ai tuoi follower, segui i passaggi seguenti:
 
    ![](assets/tw-dm-content.png)
 
-   I campi di personalizzazione possono essere utilizzati come per le consegne e-mail, ad esempio per aggiungere il nome del follower nel corpo del messaggio. Per ulteriori informazioni, consulta [questa sezione](../send/personalize.md).
+   I campi di personalizzazione possono essere utilizzati come per le consegne e-mail, ad esempio per aggiungere il nome del follower nel corpo del messaggio. Ulteriori informazioni in [Introduzione alla personalizzazione](../send/personalize.md).
 
 1. Anteprima del messaggio
 

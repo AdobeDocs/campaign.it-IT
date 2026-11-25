@@ -31,9 +31,9 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '953'
 ht-degree: 0%
 ---
 # Casi di utilizzo: creare pagine di panoramica{#use-cases-creating-overviews}
@@ -148,7 +148,7 @@ Quando configuri un elenco nella panoramica, puoi scegliere di visualizzare ulte
 
 1. Nella scheda **[!UICONTROL Additional detail]**, aggiungi il seguente codice:
 
-   ```
+   ```html
    <div class="detailBox">
      <div class="actionBox">
        <span class="action"><img src="/xtk/img/fileEdit.png"/><a title="Open" class="linkAction" href="xtk://open/?schema=nms:webApp&form=nms:webApp&pk=
@@ -194,7 +194,7 @@ Questi due elementi saranno raggruppati nello stesso contenitore per essere ragg
 
    ![](assets/s_ncs_configuration_webapp_container.png)
 
-   Per informazioni sul layout degli elementi, fare riferimento a [questa sezione](about-web-forms.md).
+   Per informazioni sul layout degli elementi, fare riferimento a [Introduzione ai moduli Web](about-web-forms.md).
 
 1. Applica **dottedFilter**.
 

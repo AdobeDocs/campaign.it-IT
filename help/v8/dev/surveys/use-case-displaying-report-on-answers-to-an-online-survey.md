@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '500'
 ht-degree: 1%
 ---
 # Caso d’uso: visualizzare un rapporto sulle risposte a un sondaggio online{#use-case-displaying-report-on-answers-to-an-online-survey}
@@ -63,7 +63,7 @@ Prima di iniziare questo caso d’uso, devi avere accesso a un sondaggio e a una
 
 Per raccogliere le risposte al sondaggio, attieniti alla seguente procedura:
 
-1. Crea un flusso di lavoro e inserisci un&#39;attività **[!UICONTROL Answers to a survey]**. Per ulteriori informazioni sull&#39;utilizzo di questa attività, consulta [questa sezione](publish-track-and-use-collected-data.md#using-the-collected-data).
+1. Crea un flusso di lavoro e inserisci un&#39;attività **[!UICONTROL Answers to a survey]**. Per ulteriori informazioni sull&#39;utilizzo di questa attività, vedere [Utilizzo dei dati raccolti](publish-track-and-use-collected-data.md#using-the-collected-data).
 1. Modifica l’attività e seleziona il sondaggio di cui desideri analizzare le risposte.
 1. Abilita l&#39;opzione **[!UICONTROL Select all the answer data]** per raccogliere tutte le informazioni.
 
@@ -93,7 +93,7 @@ Per raccogliere le risposte al sondaggio, attieniti alla seguente procedura:
 
 ## Passaggio 2 - Creazione del cubo, delle relative misure e dei relativi indicatori {#step-2---creating-the-cube--its-measures-and-its-indicators}
 
-Puoi quindi creare il cubo e configurarne le misure, che verranno utilizzate per creare gli indicatori che verranno visualizzati nel rapporto. Per ulteriori informazioni sulla creazione e la configurazione dei cubi, consulta [Informazioni sui cubi](https://experienceleague.adobe.com/it/docs/campaign-classic/using/reporting/ac-cubes){target="_blank"}.
+Puoi quindi creare il cubo e configurarne le misure, che verranno utilizzate per creare gli indicatori che verranno visualizzati nel rapporto. Per ulteriori informazioni sulla creazione e la configurazione dei cubi, consulta [Informazioni sui cubi](https://experienceleague.adobe.com/en/docs/campaign-classic/using/reporting/ac-cubes){target="_blank"}.
 
 In questo esempio, il cubo si basa sui dati dell&#39;elenco alimentato dal flusso di lavoro creato in precedenza.
 

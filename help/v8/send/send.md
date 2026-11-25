@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '838'
 ht-degree: 2%
 ---
 # Inviare e monitorare le e-mail  {#send-and-monitor-emails}
@@ -77,7 +77,7 @@ L’MTA qualifica il mancato recapito SMTP e invia nuovamente tale qualifica a C
 >
 >Attualmente **mancati recapiti asincroni** sono qualificati dal processo inMail tramite le regole **[!UICONTROL Inbound email]**.
 
-Ulteriori informazioni sugli errori di consegna in [questa sezione](delivery-failures.md).
+Ulteriori informazioni sugli errori di consegna in [Errori di consegna in Campaign](delivery-failures.md).
 
 
 ### Regole MX specifiche
@@ -92,7 +92,7 @@ Domain Keys Identified Mail (DKIM) è un metodo di autenticazione utilizzato per
 
 In Adobe Campaign, la firma di autenticazione e-mail di DKIM viene eseguita dall’MTA.
 
-Ulteriori informazioni su DKIM sono disponibili nella [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=it#authentication){target="_blank"}.
+Ulteriori informazioni su DKIM sono disponibili nella [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication){target="_blank"}.
 
 ## Servizio di feedback delle e-mail {#email-feedback-service}
 
@@ -112,9 +112,9 @@ Quando vengono segnalati i messaggi in mancati recapiti dall&#39;MTA, lo stato d
 
 >[!NOTE]
 >
->Per ulteriori informazioni sui mancati recapiti permanenti e non permanenti, consulta [questa sezione](delivery-failures.md#delivery-failure-reasons).
+>Per ulteriori informazioni sui mancati recapiti permanenti e non permanenti, vedere [Perché la consegna del messaggio non è riuscita](delivery-failures.md#delivery-failure-reasons).
 >
->Per ulteriori informazioni sui nuovi tentativi dopo un errore temporaneo di consegna, vedere [questa sezione](delivery-failures.md#retries).
+>Per ulteriori informazioni sui nuovi tentativi dopo un errore temporaneo di consegna, vedere [Gestione dei nuovi tentativi](delivery-failures.md#retries).
 
 La tabella seguente mostra come vengono aggiornati gli stati dei KPI e dei registri di invio in ogni fase del processo di invio.
 

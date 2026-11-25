@@ -29,10 +29,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: d027f76f86f34524ddf5b620de32cdcc98e60d21
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 5%
+source-wordcount: '898'
+ht-degree: 3%
 ---
 # Creare un’offerta
 
@@ -143,7 +143,7 @@ Utilizzare la scheda **[!UICONTROL Content]** per definire il contenuto dell&#39
    * **[!UICONTROL Image URL]**: specifica un URL o un percorso di accesso all&#39;immagine dell&#39;offerta.
    * **[!UICONTROL HTML content]** / **[!UICONTROL Text content]**: inserisci il corpo dell&#39;offerta nella scheda desiderata. Per generare il tracciamento, **[!UICONTROL HTML content]** deve essere composto da elementi HTML che possono essere racchiusi in un elemento di tipo `<div>`. Ad esempio, il risultato di un elemento `<table>` nella pagina HTML sarà il seguente:
 
-   ```
+   ```xml
       <div> 
        <table>
         <tr>
@@ -158,7 +158,7 @@ Utilizzare la scheda **[!UICONTROL Content]** per definire il contenuto dell&#39
       </div>
    ```
 
-   Scopri come definire l’URL di accettazione in [questa sezione](interaction-offer-spaces.md#configuring-the-status-when-the-proposition-is-accepted).
+   Scopri come definire l’URL di accettazione nello stato [Offerta quando la proposta viene accettata](interaction-offer-spaces.md#configuring-the-status-when-the-proposition-is-accepted).
 
    ![](assets/offer_content_create_002.png)
 
@@ -202,13 +202,13 @@ Creating hypotheses is detailed in [this page](../../automation/response/about-r
 
 Ora puoi approvare e attivare l&#39;offerta per renderla disponibile nell&#39;ambiente **Live**.
 
-Per ulteriori informazioni al riguardo, consulta [questa sezione](approving-and-activating-an-offer.md#approving-offer-content).
+Per ulteriori informazioni, consulta [Approvazione del contenuto delle offerte](approving-and-activating-an-offer.md#approving-offer-content).
 
 ## Gestire la presentazione delle offerte{#offer-presentation}
 
 Campaign ti consente di controllare il flusso delle proposte di offerta utilizzando le regole di presentazione. Queste regole, specifiche dell&#39;interazione con Campaign, sono **regole di tipologia**. Ti consentono di escludere le offerte basate sulla cronologia delle proposte già effettuate a un destinatario. Nell’ambiente vi si fa riferimento.
 
-Per ulteriori informazioni al riguardo, consulta [questa sezione](managing-offer-presentation.md).
+Per ulteriori informazioni, consulta [Gestione della presentazione delle offerte](managing-offer-presentation.md).
 
 ## Simulazione di offerta
 
@@ -216,4 +216,4 @@ Il modulo **Simulazione** ti consente di verificare la distribuzione delle offer
 
 La simulazione tiene conto dei contesti e delle regole di idoneità applicati in precedenza alle offerte e delle relative regole di presentazione. Questo consente di testare e perfezionare varie versioni della proposta di offerta senza utilizzare effettivamente un’offerta o sollecitare in eccesso o in difetto un target, poiché la simulazione non ha alcun impatto sui destinatari target.
 
-Per ulteriori informazioni sulla simulazione delle offerte, consulta [questa sezione](about-offers-simulation.md).
+Per ulteriori informazioni sulla simulazione delle offerte, consulta [Informazioni sulla simulazione delle offerte](about-offers-simulation.md).

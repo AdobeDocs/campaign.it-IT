@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 3%
+source-wordcount: '570'
+ht-degree: 2%
 ---
 # Introduzione ai canali personalizzati {#gs-custom-channel}
 
@@ -36,15 +36,15 @@ Adobe Campaign consente di creare canali personalizzati esterni o API integrati 
 
 La creazione e l’invio della consegna possono essere eseguiti sia nella console client che nell’interfaccia web. Tuttavia, la configurazione del canale personalizzata viene eseguita solo nella console client.
 
-Per informazioni su come creare e inviare una consegna basata su un canale personalizzato, consulta questa [pagina](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html?lang=it){target="_blank"}.
+Per informazioni su come creare e inviare una consegna basata su un canale personalizzato, consulta questa [pagina](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html){target="_blank"}.
 
 Di seguito sono riportati i passaggi per configurare un nuovo canale personalizzato nella console client. Questi passaggi sono comuni ai canali esterni e API personalizzati:
 
-1. Configura lo schema, [ulteriori informazioni](#configure-schema)
-1. Crea un nuovo account esterno, [ulteriori informazioni](#create-ext-account)
-1. Crea un nuovo modello di consegna, [ulteriori informazioni](#create-template)
+1. Configura lo schema, [Configura lo schema](#configure-schema)
+1. Crea un nuovo account esterno, [Crea un nuovo account esterno](#create-ext-account)
+1. Crea un nuovo modello di consegna, [Crea un nuovo modello di consegna](#create-template)
 
-I canali API personalizzati richiedono una configurazione aggiuntiva. [Ulteriori informazioni](#api-additional)
+I canali API personalizzati richiedono una configurazione aggiuntiva. [Configurazione aggiuntiva API personalizzata](#api-additional)
 
 ## Configurare lo schema{#configure-schema}
 
@@ -56,7 +56,7 @@ Innanzitutto, devi configurare lo schema per aggiungere il nuovo canale all’el
 
    Ad esempio:
 
-   ```
+   ```xml
    <enumeration basetype="byte" default="mail" label="Channel" name="messageType">
    <value desc="My Webpush" img="ncm:channels.png" label="My Webpush" name="webpush"
           value="122"/>
@@ -109,11 +109,11 @@ Dall’interfaccia web di Campaign, imposta la definizione della schermata perso
 
    ![](assets/cus-schema2.png){zoomable="yes"}
 
-1. Seleziona la scheda che corrisponde al canale e definisci come verranno visualizzati i campi nella schermata del contenuto della consegna. Per ulteriori informazioni sull&#39;edizione dello schermo, consulta questa [pagina](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html?lang=it#fields){target="_blank"}.
+1. Seleziona la scheda che corrisponde al canale e definisci come verranno visualizzati i campi nella schermata del contenuto della consegna. Per ulteriori informazioni sull&#39;edizione dello schermo, consulta questa [pagina](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html#fields){target="_blank"}.
 
    ![](assets/cus-schema3.png){zoomable="yes"}
 
-1. Nella sezione **Anteprima per simulare il contenuto**, seleziona il JSPP dedicato. Questo è facoltativo. L’anteprima viene attivata nella schermata di simulazione della consegna. [Ulteriori informazioni](#api-additional-preview)
+1. Nella sezione **Anteprima per simulare il contenuto**, seleziona il JSPP dedicato. Questo è facoltativo. L’anteprima viene attivata nella schermata di simulazione della consegna. [Configura l&#39;anteprima](#api-additional-preview)
 
 ### Configurare l’anteprima{#api-additional-preview}
 
@@ -128,7 +128,7 @@ Quando fai clic su **Apri anteprima** nella schermata di simulazione della conse
 
 Nella console client, selezionare **Amministrazione** > **Configurazione** > **Pagine JavaScript dinamiche** e creare un nuovo JSSP. Ecco un esempio con i parametri che devono essere recuperati.
 
-```
+```html
 <%@ page import="xtk:shared/nl.js"
 %><%
   NL.require("/nl/core/shared/core.js")

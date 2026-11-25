@@ -40,14 +40,14 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '1662'
-ht-degree: 84%
+source-wordcount: '1687'
+ht-degree: 82%
 ---
 # Note sulla versione 2024 {#2024-rn}
 
-In questa pagina sono elencate le nuove funzionalità, i miglioramenti e le correzioni inclusi nelle **versioni di Campaign v8 2024**. Per la versione più recente, consulta [questa pagina](release-notes.md).
+In questa pagina sono elencate le nuove funzionalità, i miglioramenti e le correzioni inclusi nelle **versioni di Campaign v8 2024**. Per la versione più recente, consulta [Note sulla versione di Campaign v8](release-notes.md).
 
 Per qualsiasi nuova implementazione o aggiornamento a un ambiente esistente, installa [la versione più recente](release-notes.md).
 
@@ -74,11 +74,11 @@ _3 settembre 2024_
 
 ### Nuove funzioni {#new-8-7-2}
 
-* **Nuovo connettore di invio SMS** - Il connettore di invio SMS è stato modernizzato e migliorato per abilitare le connessioni SMPP in modalità ricetrasmettitore, abilitare le connessioni SMPP permanenti e garantire una migliore compatibilità per gli ambienti in transizione da Adobe Campaign Standard. È ora disponibile un nuovo account esterno SMS per tutte le nuove implementazioni SMS. Le implementazioni esistenti sono ancora supportate, tuttavia si consiglia di passare a questo nuovo connettore moderno ed esteso. [Ulteriori informazioni](../send/sms/sms.md).
+* **Nuovo connettore di invio SMS** - Il connettore di invio SMS è stato modernizzato e migliorato per abilitare le connessioni SMPP in modalità ricetrasmettitore, abilitare le connessioni SMPP permanenti e garantire una migliore compatibilità per gli ambienti in transizione da Adobe Campaign Standard. È ora disponibile un nuovo account esterno SMS per tutte le nuove implementazioni SMS. Le implementazioni esistenti sono ancora supportate, tuttavia si consiglia di passare a questo nuovo connettore moderno ed esteso. [Invia SMS con Adobe Campaign](../send/sms/sms.md).
 
-* **Notifica push avanzata (GA)**: ora puoi inviare notifiche push avanzate. La notifica push avanzata è una forma avanzata di notifica mobile che va oltre i semplici messaggi di testo incorporando elementi multimediali come immagini, pulsanti interattivi o altri contenuti rich media. Con questa versione, è ora disponibile un set di modelli per notifiche push avanzate per le app iOS e Android. [Ulteriori informazioni](../send/rich-push-android.md).
+* **Notifica push avanzata (GA)**: ora puoi inviare notifiche push avanzate. La notifica push avanzata è una forma avanzata di notifica mobile che va oltre i semplici messaggi di testo incorporando elementi multimediali come immagini, pulsanti interattivi o altri contenuti rich media. Con questa versione, è ora disponibile un set di modelli per notifiche push avanzate per le app iOS e Android. [Progetta una consegna push potenziata da Android](../send/rich-push-android.md).
 
-* **Branding** - Le opzioni di branding sono ora disponibili per tutti i canali, inclusi SMS e Direct mail. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html?lang=it){target="_blank"}
+* **Branding** - Le opzioni di branding sono ora disponibili per tutti i canali, inclusi SMS e Direct mail. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html){target="_blank"}
 
 ### Correzioni {#fixes-8-7-2}
 
@@ -98,13 +98,13 @@ _venerdì 2 maggio 2024_
 
 ### Nuove funzioni {#new-8-7-1}
 
-* **Modelli di notifiche push avanzate**: è ora possibile inviare notifiche push avanzate tramite Android. La notifica push avanzata è una forma avanzata di notifica mobile che va oltre i semplici messaggi di testo incorporando elementi multimediali come immagini, pulsanti interattivi o altri contenuti rich media. [Ulteriori informazioni](../send/rich-push-ios.md).
+* **Modelli di notifiche push avanzate**: è ora possibile inviare notifiche push avanzate tramite Android. La notifica push avanzata è una forma avanzata di notifica mobile che va oltre i semplici messaggi di testo incorporando elementi multimediali come immagini, pulsanti interattivi o altri contenuti rich media. [Progetta una consegna push potenziata da iOS](../send/rich-push-ios.md).
 
-* **Branding**: in qualità di utente Campaign Standard migrato, gli amministratori tecnici possono ora definire uno o più brand per centralizzare i parametri che ne influiscono l’identità. Ciò include il logo del brand, il dominio dell’URL di accesso delle pagine di destinazione o le impostazioni di tracciamento dei messaggi. Puoi creare questi brand e collegarli a messaggi o pagine di destinazione. Questa configurazione viene gestita tramite modelli. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html?lang=it){target="_blank"}
+* **Branding**: in qualità di utente Campaign Standard migrato, gli amministratori tecnici possono ora definire uno o più brand per centralizzare i parametri che ne influiscono l’identità. Ciò include il logo del brand, il dominio dell’URL di accesso delle pagine di destinazione o le impostazioni di tracciamento dei messaggi. Puoi creare questi brand e collegarli a messaggi o pagine di destinazione. Questa configurazione viene gestita tramite modelli. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html){target="_blank"}
 
-* **API REST**: in qualità di utente Campaign Standard migrato, puoi utilizzare le API REST per creare integrazioni per Adobe Campaign e il tuo ecosistema interfacciando Adobe Campaign con il pannello di tecnologie utilizzato. [Ulteriori informazioni](../dev/api/get-started-apis.md)
+* **API REST**: in qualità di utente Campaign Standard migrato, puoi utilizzare le API REST per creare integrazioni per Adobe Campaign e il tuo ecosistema interfacciando Adobe Campaign con il pannello di tecnologie utilizzato. [Introduzione alle API REST di Campaign](../dev/api/get-started-apis.md)
 
-* **Reporting dinamico**: in qualità di utente Campaign Standard migrato, puoi accedere al Reporting dinamico che fornisce rapporti completamente personalizzabili e in tempo reale per misurare l’impatto delle attività di marketing. Consente di accedere ai dati del profilo, abilitando l’analisi demografica per dimensioni di profilo, come genere, città ed età, oltre ai dati funzionali delle campagne e-mail come aperture e clic. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html?lang=it){target="_blank"}
+* **Reporting dinamico**: in qualità di utente Campaign Standard migrato, puoi accedere al Reporting dinamico che fornisce rapporti completamente personalizzabili e in tempo reale per misurare l’impatto delle attività di marketing. Consente di accedere ai dati del profilo, abilitando l’analisi demografica per dimensioni di profilo, come genere, città ed età, oltre ai dati funzionali delle campagne e-mail come aperture e clic. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"}
 
 ### Aggiornamenti della compatibilità {#comp-8-7-1}
 
@@ -127,7 +127,7 @@ Se hai implementato integrazioni in entrata con Campaign, devi migrare l&#39;acc
 
 ### Miglioramenti generali {#improvements-8-7-1}
 
-* Diversi schemi sono stati modificati da 32 a 64 bit. Questo vale solo per i clienti che eseguono la migrazione da Campaign Standard. [Ulteriori informazioni](../../technotes/upgrades/64-bit-tables.md)
+* Diversi schemi sono stati modificati da 32 a 64 bit. Questo vale solo per i clienti che eseguono la migrazione da Campaign Standard. [Schemi a 64 bit](../../technotes/upgrades/64-bit-tables.md)
 
 * Nelle tabelle di Campaign, i seguenti attributi ora vengono compilati per impostazione predefinita dalla data e dall’ora del server: `lastModified` e `created`. Il valore dell’attributo `createdBy-id` ora viene compilato con l’ID di accesso corrente per impostazione predefinita. I valori forniti dagli utenti nelle chiamate API vengono ignorati. <!--This configuration can be changed in the Campaign server configuration file. As a Managed Cloud Services customer, you must reach out to Adobe to change this default configuration.-->
 
@@ -147,7 +147,7 @@ _mercoledì 30 luglio 2024_
 
 ### Nuove funzioni {#new-8-6-3}
 
-* **Notifica push avanzata**: ora puoi inviare notifiche push avanzate. La notifica push avanzata è una forma avanzata di notifica mobile che va oltre i semplici messaggi di testo incorporando elementi multimediali come immagini, pulsanti interattivi o altri contenuti rich media. Con questa versione, è ora disponibile un set di modelli per notifiche push avanzate per le app iOS e Android. [Ulteriori informazioni](../send/rich-push-android.md).
+* **Notifica push avanzata**: ora puoi inviare notifiche push avanzate. La notifica push avanzata è una forma avanzata di notifica mobile che va oltre i semplici messaggi di testo incorporando elementi multimediali come immagini, pulsanti interattivi o altri contenuti rich media. Con questa versione, è ora disponibile un set di modelli per notifiche push avanzate per le app iOS e Android. [Progetta una consegna push potenziata da Android](../send/rich-push-android.md).
 
 * A partire da questa versione, poiché le credenziali dell’account di servizio (JWT) sono state dichiarate obsolete da Adobe, le integrazioni in uscita di Campaign con le soluzioni e le app Adobe ora si basano sulle credenziali OAuth server-to-server. [Ulteriori informazioni](release-notes-2024.md#change-8-7-1)
 
@@ -170,7 +170,7 @@ https://jira.corp.adobe.com/issues/?filter=585288&jql=fixVersion%20%3D%208.6.3%2
 
 La seguente modifica è stata rilasciata a maggio ed è ora disponibile per gli utenti di Campaign v8:
 
-* **Nuovo componente aggiuntivo di sicurezza avanzato**: per rendere più sicura la connessione di rete e migliorare la sicurezza delle risorse, Adobe Campaign offre un nuovo componente aggiuntivo di sicurezza avanzato, che include due funzionalità: integrazione CMK sicura e tunneling VPN sicuro. [Ulteriori informazioni](../config/enhanced-security.md)
+* **Nuovo componente aggiuntivo di sicurezza avanzato**: per rendere più sicura la connessione di rete e migliorare la sicurezza delle risorse, Adobe Campaign offre un nuovo componente aggiuntivo di sicurezza avanzato, che include due funzionalità: integrazione CMK sicura e tunneling VPN sicuro. [Componente aggiuntivo di sicurezza avanzato per Campaign](../config/enhanced-security.md)
 
 ## Versione 8.6.2 {#release-8-6-2}
 
@@ -208,7 +208,7 @@ _14 febbraio 2024_
 
 * Entro febbraio 2024, qualsiasi azienda che invia più di 5.000 messaggi e-mail tramite Google o Yahoo! dovrà iniziare a utilizzare una tecnologia di autenticazione nota come Domain-based Message Authentication Reporting and Conformance (DMARC). Assicurati di avere un record DMARC configurato per tutti i sottodomini che utilizzi con Adobe Campaign. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=it){target="_blank"}
 
-* A partire dal 1° giugno 2024, Google e Yahoo! richiederanno ai mittenti di conformarsi all’opzione Annulla iscrizione elenco con un clic. Adobe Campaign ora supporta questa opzione. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=it#list-unsubscribe){target="_blank"}
+* A partire dal 1° giugno 2024, Google e Yahoo! richiederanno ai mittenti di conformarsi all’opzione Annulla iscrizione elenco con un clic. Adobe Campaign ora supporta questa opzione. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#list-unsubscribe){target="_blank"}
 
 
 ### Correzioni {#fixes-8-6-1}

@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '754'
 ht-degree: 5%
 ---
 # Introduzione al modello dati di Campaign {#gs-ac-datamodel}
@@ -45,7 +45,7 @@ Adobe Campaign viene fornito con un modello dati predefinito. Questa sezione for
 
 La struttura di base del modello dati di Adobe Campaign può essere descritta come segue:
 
-* **Tabella destinatari**: il modello dati si basa su una tabella principale che per impostazione predefinita è la tabella destinatari (**nmsRecipient**). Questa tabella memorizza tutti i profili di marketing. Ulteriori informazioni sulla tabella dei destinatari in [questa sezione](#ootb-profiles).
+* **Tabella destinatari**: il modello dati si basa su una tabella principale che per impostazione predefinita è la tabella destinatari (**nmsRecipient**). Questa tabella memorizza tutti i profili di marketing. Ulteriori informazioni sulla tabella dei destinatari in [Tabella dei profili incorporata](#ootb-profiles).
 
 * **Tabella di consegna**: in questa tabella viene memorizzato un record per azione di consegna. Di solito si tratta della tabella di consegna (**NmsDelivery**). Un record in questa tabella rappresenta un’azione di consegna o un modello di consegna. Contiene tutti i parametri necessari per eseguire le consegne come destinazione, contenuto, ecc. Ogni record viene aggiornato diverse volte per riflettere l’avanzamento della consegna.
 
@@ -65,12 +65,12 @@ La struttura di base del modello dati di Adobe Campaign può essere descritta co
 
 Quando si inizia con Adobe Campaign, è necessario valutare il modello dati predefinito per verificare quale tabella è più adatta per memorizzare i dati di marketing.
 
-È possibile utilizzare la tabella Destinatario predefinita con i campi predefiniti, come descritto in [questa sezione](#ootb-profiles). Se necessario, è possibile estenderlo con due meccanismi:
+È possibile utilizzare la tabella dei destinatari predefinita con i campi predefiniti, come descritto nella [tabella dei profili incorporata](#ootb-profiles). Se necessario, è possibile estenderlo con due meccanismi:
 
 * [Estendere una tabella esistente](extend-schema.md) con nuovi campi. Ad esempio, puoi aggiungere un nuovo campo &quot;Fedeltà&quot; alla tabella Destinatario.
 * [Creare una nuova tabella](create-schema.md), ad esempio una tabella &quot;Acquisti&quot; in cui sono elencati tutti gli acquisti effettuati da ciascun profilo del database e collegarla alla tabella Destinatario.
 
-Scopri le best practice per l&#39;utilizzo del modello dati di Campaign in [questa sezione](datamodel-best-practices.md).
+Scopri le best practice per l’utilizzo del modello dati di Campaign in [Best practice per il modello dati](datamodel-best-practices.md).
 
 ## Tabella profilo incorporata {#ootb-profiles}
 
@@ -85,19 +85,19 @@ L’utilizzo della tabella dei destinatari standard offre i seguenti vantaggi:
 
 È possibile estendere la tabella dei destinatari, ma non ridurre il numero di campi o collegamenti nella tabella.
 
-Scopri come estendere uno schema esistente in [questa sezione](extend-schema.md).
+Scopri come estendere uno schema esistente in [Estendere gli schemi di Campaign](extend-schema.md).
 
-Scopri alcuni esempi di estensioni integrate della tabella dei destinatari nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=it#extending-a-table){target="_blank"}
+Scopri alcuni esempi di estensioni integrate della tabella dei destinatari nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#extending-a-table){target="_blank"}
 
-È inoltre possibile utilizzare una tabella dei destinatari diversa per soddisfare meglio i requisiti aziendali o funzionali. Questo metodo presenta limitazioni ed è descritto in [questa sezione](custom-recipient.md).
+È inoltre possibile utilizzare una tabella dei destinatari diversa per soddisfare meglio i requisiti aziendali o funzionali. Questo metodo presenta limitazioni ed è descritto in [Modificare la tabella dei destinatari predefinita](custom-recipient.md).
 
 ## Tabelle di Campaign e database cloud
 
 Per comprendere meglio la gestione delle tabelle in Campaign v8, tieni presente che, nel contesto di una distribuzione [Enterprise (FFDA)](../architecture/enterprise-deployment.md), le tabelle vengono replicate tra Campaign e il relativo database Snowflake Cloud.
 
-Ulteriori informazioni sulla strategia e sui meccanismi di replica sono disponibili in [questa sezione](../architecture/replication.md).
+Ulteriori informazioni sulla strategia e sui meccanismi di replica in [Replica dei dati](../architecture/replication.md).
 
 **Argomenti correlati**
 
-Scopri come importare i profili in [questa sezione](../start/import.md)
-Ulteriori informazioni sui tipi di pubblico di Campaign in [questa sezione](../start/audiences.md)
+Scopri come importare i profili in [Introduzione ai profili](../start/import.md)
+Ulteriori informazioni sui tipi di pubblico di Campaign in [Utilizzare i tipi di pubblico di Campaign](../start/audiences.md)

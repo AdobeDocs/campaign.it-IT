@@ -32,10 +32,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 9%
+source-wordcount: '170'
+ht-degree: 4%
 ---
 # Configurare le opzioni di tracciamento URL {#personalizing-url-tracking}
 
@@ -61,7 +61,7 @@ Puoi configurare le opzioni di tracciamento:
 
 Gli URL tracciati sono elencati nella finestra centrale sotto forma di struttura ad albero.
 
-Puoi attivare o disattivare il tracciamento singolarmente per ogni URL del messaggio. Per ulteriori informazioni al riguardo, consulta [questa sezione](tracked-links.md).
+Puoi attivare o disattivare il tracciamento singolarmente per ogni URL del messaggio. Per ulteriori informazioni, consulta [Configurare collegamenti tracciati](tracked-links.md).
 
 La scheda **[!UICONTROL Advanced]** ti consente di personalizzare le formule di calcolo degli URL tracciati e dell&#39;URL di apertura.
 
