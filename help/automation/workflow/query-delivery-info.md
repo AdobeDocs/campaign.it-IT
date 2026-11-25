@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 7%
+source-wordcount: '1775'
+ht-degree: 5%
 ---
 # Eseguire una query sulle informazioni di consegna {#querying-delivery-information}
 
@@ -50,7 +50,7 @@ Per eseguire questo esempio, attieniti alla seguente procedura:
 
 1. Aprire **[!UICONTROL Generic query editor]** e selezionare lo schema **[!UICONTROL Recipient tracking logs]**.
 
-   ![](assets/query_editor_tracklog_05.png)
+   ![Finestra del tipo di documento filtrata durante il tracciamento con i registri di tracciamento dei destinatari (nms) selezionati.](assets/query_editor_tracklog_05.png)
 
 1. Nella finestra **[!UICONTROL Data to extract]**, si desidera creare un aggregato per raccogliere informazioni. A questo scopo, aggiungere la chiave primaria (situata sopra l&#39;elemento principale **[!UICONTROL Recipient tracking logs]**): il conteggio del registro di tracciamento viene eseguito su questo campo **[!UICONTROL Primary key]**. L&#39;espressione modificata sarà **[!UICONTROL x=count(primary key)]**. Collega la somma dei vari registri di tracciamento a un singolo indirizzo e-mail.
 
@@ -58,27 +58,27 @@ Per eseguire questo esempio, attieniti alla seguente procedura:
 
    * Fare clic sull&#39;icona **[!UICONTROL Add]** a destra del campo **[!UICONTROL Output columns]**. Nella finestra **[!UICONTROL Formula type]**, selezionare l&#39;opzione **[!UICONTROL Edit the formula using an expression]** e fare clic su **[!UICONTROL Next]**. Nella finestra **[!UICONTROL Field to select]**, fare clic su **[!UICONTROL Advanced selection]**.
 
-     ![](assets/query_editor_tracklog_06.png)
+     ![Campo per selezionare la finestra per lo schema del registro di tracciamento dei destinatari con il pulsante di selezione Avanzata evidenziato.](assets/query_editor_tracklog_06.png)
 
    * Nella finestra **[!UICONTROL Formula type]** eseguire un processo sulla funzione di aggregazione. Questo processo sarà un conteggio di chiavi primarie.
 
      Selezionare **[!UICONTROL Process on an aggregate function]** nella sezione **[!UICONTROL Aggregate]** e fare clic su **[!UICONTROL Count]**.
 
-     ![](assets/query_editor_nveau_18.png)
+     ![Finestra del tipo di formula con Elabora su una funzione di aggregazione e Conteggio selezionato.](assets/query_editor_nveau_18.png)
 
      Fai clic su **[!UICONTROL Next]**.
 
    * Selezionare il campo **[!UICONTROL Primary key (@id)]**. La colonna di output **[!UICONTROL count (primary key)]** è configurata.
 
-     ![](assets/query_editor_nveau_19.png)
+     ![Dati da estrarre nella finestra con la colonna di output count(primary key) configurata.](assets/query_editor_nveau_19.png)
 
 1. Selezionare l&#39;altro campo da visualizzare nella colonna di output. Nella colonna **[!UICONTROL Available fields]** aprire il nodo **[!UICONTROL Recipient]** e scegliere **[!UICONTROL Email]**. Selezionare la casella **[!UICONTROL Group]** in **[!UICONTROL Yes]** per raggruppare i registri di tracciamento per indirizzo e-mail: questo gruppo collega ogni registro al relativo destinatario.
 
-   ![](assets/query_editor_nveau_20.png)
+   ![Dati per estrarre la finestra con E-mail (destinatario) aggiunta come seconda colonna di output e Gruppo impostato su Sì.](assets/query_editor_nveau_20.png)
 
 1. Configura l’ordinamento delle colonne in modo che vengano visualizzati per primi i destinatari più attivi (con il maggior numero di registri di tracciamento). Selezionare **[!UICONTROL Yes]** nella colonna **[!UICONTROL Descending sort]**.
 
-   ![](assets/query_editor_nveau_64.png)
+   ![Ordinamento della finestra con ordinamento decrescente impostato su Sì nella colonna count(primary key).](assets/query_editor_nveau_64.png)
 
 1. Devi quindi filtrare i registri che ti interessano, ovvero quelli che hanno meno di 2 settimane e che riguardano le consegne relative alle vendite.
 
@@ -86,19 +86,19 @@ Per eseguire questo esempio, attieniti alla seguente procedura:
 
    * Configura il filtro dei dati. A tale scopo, selezionare **[!UICONTROL Filter conditions]** e fare clic su **[!UICONTROL Next]**.
 
-     ![](assets/query_editor_nveau_22.png)
+     ![Finestra di filtro dati con condizioni di filtro selezionate nell&#39;elenco dei filtri di restrizione.](assets/query_editor_nveau_22.png)
 
    * Recupera i registri di tracciamento in un determinato periodo per una consegna specifica. Sono necessarie tre condizioni di filtro: due condizioni di data per impostare il periodo di ricerca tra 2 settimane prima della data corrente e il giorno prima della data corrente; e un’altra condizione per limitare la ricerca a una consegna specifica.
 
      Nella finestra **[!UICONTROL Target element]**, configura la data a partire dalla quale i registri di tracciamento verranno presi in considerazione. Fai clic su **[!UICONTROL Add]**. Viene visualizzata una riga di condizione. Modificare la colonna **[!UICONTROL Expression]** facendo clic sulla funzione **[!UICONTROL Edit expression]**. Nella finestra **[!UICONTROL Field to select]**, scegliere **[!UICONTROL Date (@logDate)]**.
 
-     ![](assets/query_editor_nveau_23.png)
+     ![Campo per selezionare la finestra per l&#39;elenco Data, ID esterno e chiave primaria dello schema del registro di tracciamento dei destinatari.](assets/query_editor_nveau_23.png)
 
      Selezionare l&#39;operatore **[!UICONTROL greater than]**. Nella colonna **[!UICONTROL Value]** fare clic su **[!UICONTROL Edit expression]** e nella finestra **[!UICONTROL Formula type]** selezionare **[!UICONTROL Process on dates]**. Infine, in **[!UICONTROL Current date minus n days]**, immettere &quot;15&quot;.
 
      Fai clic su **[!UICONTROL Finish]**.
 
-     ![](assets/query_editor_nveau_24.png)
+     ![Finestra di tipo Formula con Elabora su date e Data corrente meno n giorni impostati su 15 ed evidenziata da Fine.](assets/query_editor_nveau_24.png)
 
    * Per selezionare la data di fine della ricerca nel registro di tracciamento, creare una seconda condizione facendo clic su **[!UICONTROL Add]**. Nella colonna **[!UICONTROL Expression]**, scegli di nuovo **[!UICONTROL Date (@logDate)]**.
 
@@ -106,7 +106,7 @@ Per eseguire questo esempio, attieniti alla seguente procedura:
 
      Fai clic su **[!UICONTROL Finish]**.
 
-     ![](assets/query_editor_nveau_65.png)
+     ![Finestra di tipo Formula con Elabora in date e Data corrente meno n giorni impostati su 1 e Fine evidenziata.](assets/query_editor_nveau_65.png)
 
      Ora vogliamo configurare la terza condizione di filtro, ovvero l’etichetta di consegna interessata dalla query.
 
@@ -114,18 +114,18 @@ Per eseguire questo esempio, attieniti alla seguente procedura:
 
      Fai clic su **[!UICONTROL Finish]**.
 
-     ![](assets/query_editor_nveau_66.png)
+     ![Campo per selezionare la finestra con il campo Etichetta (@label) evidenziato e Fine evidenziata.](assets/query_editor_nveau_66.png)
 
      Cerca una consegna contenente la parola &quot;vendite&quot;. Poiché non si ricorda l&#39;etichetta esatta, è possibile scegliere l&#39;operatore **[!UICONTROL contains]** e immettere &quot;sales&quot; nella colonna **[!UICONTROL Value]**.
 
-     ![](assets/query_editor_nveau_25.png)
+     ![Finestra dell&#39;elemento di destinazione con data anteriore a 15 giorni, data anteriore a 1 giorno e etichetta contenente vendite.](assets/query_editor_nveau_25.png)
 
 1. Fare clic su **[!UICONTROL Next]** fino a visualizzare la finestra **[!UICONTROL Data preview]**: qui non è necessaria alcuna formattazione.
 1. Nella finestra **[!UICONTROL Data preview]**, fai clic su **[!UICONTROL Start the preview of the data]** per visualizzare il numero di registri di tracciamento per ogni destinatario della consegna.
 
    Il risultato viene visualizzato in ordine decrescente.
 
-   ![](assets/query_editor_tracklog_04.png)
+   ![Finestra di anteprima dati che elenca i conteggi dei registri di tracciamento per e-mail del destinatario in ordine decrescente, da 6 a 2.](assets/query_editor_tracklog_04.png)
 
    Il numero più alto di registri per un utente è 6 per questa consegna. 5 utenti diversi hanno aperto l’e-mail di consegna o fatto clic su uno dei collegamenti presenti nell’e-mail.
 
@@ -138,33 +138,33 @@ Per creare questo esempio, attieniti alla seguente procedura:
 1. Trascinare e rilasciare un&#39;attività **[!UICONTROL Query]** in un flusso di lavoro e aprire l&#39;attività.
 1. Fare clic su **[!UICONTROL Edit query]** e impostare la destinazione e le dimensioni filtro su **[!UICONTROL Recipients]**.
 
-   ![](assets/query_recipients_1.png)
+   ![Finestra della dimensione di targeting e filtro con entrambe le dimensioni impostate su Destinatari e condizioni di filtro selezionate.](assets/query_recipients_1.png)
 
 1. Selezionare **[!UICONTROL Filtering conditions]**, quindi fare clic su **[!UICONTROL Next]**.
 1. Fare clic sul pulsante **[!UICONTROL Add]** e selezionare **[!UICONTROL Tracking logs]**.
 1. Impostare **[!UICONTROL Operator]** dell&#39;espressione **[!UICONTROL Tracking logs]** su **[!UICONTROL Do not exist such as]**.
 
-   ![](assets/query_open_1.png)
+   ![Filtra la finestra con l&#39;espressione dei registri di tracciamento (trackingLog) e i non esistono, ad esempio l&#39;operatore.](assets/query_open_1.png)
 
 1. Aggiungi un’altra espressione. Selezionare **[!UICONTROL Type]** nella categoria **[!UICONTROL URL]**.
 1. Quindi, impostare **[!UICONTROL Operator]** su **[!UICONTROL equal to]** e **[!UICONTROL Value]** su **[!UICONTROL Open]**.
 
-   ![](assets/query_open_2.png)
+   ![Filtra la finestra con una condizione Type (url/@type) impostata su Open nell&#39;espressione dei registri di tracciamento.](assets/query_open_2.png)
 
 1. Aggiungere un&#39;altra espressione e selezionare **[!UICONTROL Date]**. **[!UICONTROL Operator]** deve essere impostato su **[!UICONTROL on or after]**.
 
-   ![](assets/query_open_3.png)
+   ![Filtra la finestra con una condizione Date of Tracking logs (@logDate) utilizzando l&#39;operatore on o after, valore ancora vuoto.](assets/query_open_3.png)
 
 1. Per impostare il valore negli ultimi 7 giorni, fare clic sul pulsante **[!UICONTROL Edit expression]** nel campo **[!UICONTROL Value]**.
 1. Nella categoria **[!UICONTROL Function]**, selezionare **[!UICONTROL Current date minus n days]** e aggiungere il numero di giorni di cui si desidera eseguire il targeting. In questo caso, vogliamo puntare agli ultimi 7 giorni.
 
-   ![](assets/query_open_4.png)
+   ![Finestra di tipo Formula con Elabora su date e Data corrente meno n giorni impostata su 7.](assets/query_open_4.png)
 
 La transizione in uscita conterrà destinatari che non hanno aperto un’e-mail negli ultimi 7 giorni.
 
 Se, al contrario, desideri filtrare i destinatari che hanno aperto almeno un’e-mail, la query deve essere la seguente. Tieni presente che in questo caso **[!UICONTROL Filtering dimension]** deve essere impostato su **[!UICONTROL Tracking logs (Recipients)]**.
 
-![](assets/query_open_5.png)
+![Filtra la finestra con la condizione Chiave primaria (@id) non uguale a 0 e il riepilogo della query sottostante.](assets/query_open_5.png)
 
 ## Destinatari che hanno aperto una consegna {#recipients-who-have-opened-a-delivery}
 
@@ -172,25 +172,25 @@ L’esempio seguente mostra come eseguire il targeting dei profili che hanno ape
 
 1. Per eseguire il targeting dei profili che hanno aperto una consegna, devi utilizzare i registri di tracciamento. sono archiviati in una tabella collegata: iniziare selezionando questa tabella nell&#39;elenco a discesa del campo **[!UICONTROL Filtering dimension]**, come illustrato di seguito:
 
-   ![](assets/s_advuser_query_sample1.0.png)
+   ![Elenco a discesa delle dimensioni filtro con registro di tracciamento dei destinatari tra le tabelle disponibili.](assets/s_advuser_query_sample1.0.png)
 
 1. Per quanto riguarda le condizioni di filtro, fai clic sull&#39;icona **[!UICONTROL Edit expression]** dei criteri mostrati nella struttura ad albero secondaria dei registri di tracciamento. Selezionare il campo **[!UICONTROL Date]**.
 
-   ![](assets/s_advuser_query_sample1.1.png)
+   ![Filtraggio della dimensione impostato sul registro di tracciamento dei destinatari, con il campo Data selezionato nella finestra Campo da selezionare.](assets/s_advuser_query_sample1.1.png)
 
    Fare clic su **[!UICONTROL Finish]** per confermare la selezione.
 
    Per ripristinare solo i registri di tracciamento di meno di due settimane, selezionare l&#39;operatore **[!UICONTROL Greater than]**.
 
-   ![](assets/s_advuser_query_sample1.4.png)
+   ![Filtra la finestra in base alla data (@logDate) con l&#39;elenco a discesa dell&#39;operatore aperto e l&#39;operatore after evidenziato.](assets/s_advuser_query_sample1.4.png)
 
    Fare quindi clic sull&#39;icona **[!UICONTROL Edit expression]** nella colonna **[!UICONTROL Value]** per definire la formula di calcolo da applicare. Selezionare la formula **[!UICONTROL Current date minus n days]** e immettere 15 nel campo correlato.
 
-   ![](assets/s_advuser_query_sample1.5.png)
+   ![Finestra di tipo Formula aperta da Modifica espressione, con la data corrente meno n giorni impostata su 15.](assets/s_advuser_query_sample1.5.png)
 
    Fare clic sul pulsante **[!UICONTROL Finish]** della finestra della formula. Nella finestra del filtro fare clic sulla scheda **[!UICONTROL Preview]** per verificare i criteri di targeting.
 
-   ![](assets/s_advuser_query_sample1.6.png)
+   ![Filtra la finestra nella scheda Anteprima elencando i 53 destinatari che corrispondono ai criteri di targeting.](assets/s_advuser_query_sample1.6.png)
 
 ## Filtrare il comportamento dei destinatari dopo una consegna {#filtering-recipients--behavior-folllowing-a-delivery}
 
@@ -210,17 +210,17 @@ Nei passaggi seguenti viene illustrato come configurare la casella **[!UICONTROL
 
 1. Inserire la casella **[!UICONTROL Split]** nel flusso di lavoro. In questa casella i destinatari della prima consegna vengono suddivisi nelle due consegne successive. Il raggruppamento si verifica in base alle condizioni di filtro collegate al comportamento del destinatario durante la prima consegna.
 
-   ![](assets/query_editor_ex_09.png)
+   ![Flusso di lavoro con query, consegna di offerte sportive estive, attesa di 4 giorni e suddivisione in base all&#39;attività del comportamento.](assets/query_editor_ex_09.png)
 
 1. Aprire la casella **[!UICONTROL Split]**. Nella scheda **[!UICONTROL General]**, immetti un&#39;etichetta: **Dividi in base al comportamento**, ad esempio.
 
-   ![](assets/query_editor_ex_04.png)
+   ![Scheda Generale dell&#39;attività di suddivisione con il campo Etichetta impostato su Dividi in base al comportamento.](assets/query_editor_ex_04.png)
 
 1. Nella scheda **[!UICONTROL Subsets]**, definisci il primo ramo diviso. Ad esempio, immetti l&#39;etichetta **Clic** per questo ramo.
 1. Seleziona l’opzione **[!UICONTROL Add a filtering condition on the incoming population]**. Fai clic su **[!UICONTROL Edit]**.
 1. Nella finestra **[!UICONTROL Targeting and filtering dimension]** fare doppio clic sul filtro **[!UICONTROL Recipients of a delivery]**.
 
-   ![](assets/query_editor_ex_05.png)
+   ![Scheda Dividi sottoinsiemi con Aggiungi una condizione di filtro selezionata ed Evidenziati i destinatari di una consegna.](assets/query_editor_ex_05.png)
 
 1. Nella finestra **[!UICONTROL Target element]** selezionare il comportamento da applicare al ramo: **[!UICONTROL Recipients having clicked (email)]**.
 
@@ -228,23 +228,23 @@ Nei passaggi seguenti viene illustrato come configurare la casella **[!UICONTROL
 
    Questa è la consegna &quot;Offerta sport acquatici&quot;.
 
-   ![](assets/query_editor_ex_08.png)
+   ![Finestra dell&#39;elemento di destinazione con comportamento impostato su Destinatari che hanno fatto clic (e-mail) e Consegna specificata dalla transizione.](assets/query_editor_ex_08.png)
 
 1. Definite il secondo ramo. Questo ramo includerà l’e-mail di follow-up con lo stesso contenuto della prima consegna. Passare alla scheda **[!UICONTROL Subsets]** e fare clic su **[!UICONTROL Add]** per crearla.
 
-   ![](assets/query_editor_ex_06.png)
+   ![Dividi scheda Sottoinsiemi con il sottoinsieme selezionato e il pulsante Aggiungi evidenziato per creare un secondo sottoinsieme.](assets/query_editor_ex_06.png)
 
 1. Viene visualizzata un’altra scheda secondaria. Denomina &quot;**Non ho fatto clic**&quot;.
 1. Fai clic su **[!UICONTROL Add a filtering condition for the incoming population]**. Quindi fai clic su **[!UICONTROL Edit...]**.
 
-   ![](assets/query_editor_ex_07.png)
+   ![Scheda Sottoinsiemi suddivisi per il sottoinsieme Non è stato fatto clic con il collegamento Modifica evidenziato per la condizione di filtro.](assets/query_editor_ex_07.png)
 
 1. Fare clic su **[!UICONTROL Delivery recipients]** nella finestra **[!UICONTROL Targeting and filtering dimension]**.
 1. Nella finestra **[!UICONTROL Target element]**, selezionare il comportamento **[!UICONTROL Recipients who did not click (email)]**. Selezionare l&#39;opzione **[!UICONTROL Delivery specified by the transition]** come mostrato per l&#39;ultimo ramo.
 
    La casella **[!UICONTROL Split]** è ora completamente configurata.
 
-   ![](assets/query_editor_ex_03.png)
+   ![Flusso di lavoro in cui la suddivisione invia i destinatari selezionati all&#39;offerta Watersport e quelli ai quali non è stato fatto clic vengono inviati al promemoria.](assets/query_editor_ex_03.png)
 
 Di seguito è riportato l’elenco dei vari componenti configurati per impostazione predefinita:
 
@@ -256,4 +256,4 @@ Di seguito è riportato l’elenco dei vari componenti configurati per impostazi
 * **[!UICONTROL Recipients who didn't open or click (email),]**
 * **[!UICONTROL Recipients who didn't click (email).]**
 
-  ![](assets/query_editor_ex_02.png)
+  ![Elenco dei comportamenti degli elementi di destinazione con tutti i destinatari, aperto o su cui è stato fatto clic, su cui è stato fatto clic, non riuscito e non ha fatto clic sulle opzioni.](assets/query_editor_ex_02.png)

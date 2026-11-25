@@ -24,9 +24,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '373'
 ht-degree: 2%
 ---
 # Caricare i contenuti della consegna{#loading-delivery-content}
@@ -39,7 +39,7 @@ Per eseguire questa operazione:
 
    Ecco un esempio di account esterno S3:
 
-   ![](assets/delivery_loadcontent_filetransfertexamples3.png)
+   ![Modulo di creazione account esterno con i campi Tipo AWS S3, Server, ID chiave di accesso AWS e chiave di accesso segreta compilati](assets/delivery_loadcontent_filetransfertexamples3.png)
 
 1. Crea un nuovo flusso di lavoro, ad esempio da **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Jobs]** > **[!UICONTROL Targeting workflows]**.
 1. Aggiungi un&#39;attività **[!UICONTROL File transfer]** al flusso di lavoro e configurala specificando
@@ -47,7 +47,7 @@ Per eseguire questa operazione:
    * Account esterno da utilizzare per la connessione al server S3 o (S)FTP.
    * Percorso del file sul server S3 o (S)FTP.
 
-   ![](assets/delivery_loadcontent_filetransfertexample.png)
+   ![Attività di trasferimento file impostata su Download file, utilizzando un account esterno e un percorso della cartella del server in un file HTML](assets/delivery_loadcontent_filetransfertexample.png)
 
 1. Aggiungere un&#39;attività **[!UICONTROL Delivery]** e collegarla alla transizione in uscita dell&#39;attività **[!UICONTROL File transfer]**. Configura come segue:
 
@@ -56,7 +56,7 @@ Per eseguire questa operazione:
    * Contenuto: anche se il contenuto viene importato nell&#39;attività precedente, selezionare **[!UICONTROL Specified in the delivery]**. Poiché il contenuto viene importato direttamente da un file che si trova su un server remoto, non ha un identificatore quando viene elaborato dal flusso di lavoro e non può essere identificato come proveniente dall’evento in entrata.
    * Azione da eseguire: selezionare **[!UICONTROL Save]** per salvare la consegna e accedervi da **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]** dopo l&#39;esecuzione del flusso di lavoro.
 
-   ![](assets/delivery_loadcontent_activityexample.png)
+   ![Attività di consegna con una nuova consegna da un modello, contenuto specificato nella consegna e azione Salva](assets/delivery_loadcontent_activityexample.png)
 
 1. Nella scheda **[!UICONTROL Script]** dell&#39;attività **[!UICONTROL Delivery]**, aggiungi il seguente comando per caricare il contenuto del file importato nella consegna:
 
@@ -64,7 +64,7 @@ Per eseguire questa operazione:
    delivery.content.html.source=loadFile(vars.filename)
    ```
 
-   ![](assets/delivery_loadcontent_script.png)
+   ![Scheda Script dell&#39;attività Delivery con il comando delivery.content.html.source=loadFile(vars.filename)](assets/delivery_loadcontent_script.png)
 
 1. Salva ed esegui il flusso di lavoro. Viene creata una nuova consegna con il contenuto caricato in **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**.
 

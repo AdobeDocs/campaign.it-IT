@@ -23,9 +23,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1359'
+source-wordcount: '1391'
 ht-degree: 13%
 ---
 # Best practice per i flussi di lavoro{#workflow-best-practices}
@@ -95,7 +95,7 @@ Il nome dell&#39;attività si trova nella scheda **[!UICONTROL Advanced]**. Non 
 * Avvia sempre il flusso di lavoro con un&#39;attività **[!UICONTROL Start]** o **[!UICONTROL Scheduler]**. Se necessario, è inoltre possibile utilizzare un&#39;attività **[!UICONTROL External signal]**.
 * Durante la creazione del flusso di lavoro, utilizzare una sola attività **[!UICONTROL Scheduler]** per ramo. Se lo stesso ramo di un flusso di lavoro include più pianificatori (collegati tra loro), il numero di attività da eseguire verrà moltiplicato in modo esponenziale, il che sovraccaricherebbe notevolmente il database. Questa regola si applica anche a tutte le attività con una scheda **[!UICONTROL Scheduling & History]**. Ulteriori informazioni su [Pianificazione](scheduler.md).
 
-  ![](assets/wf-scheduler.png)
+  ![Layout corretto con un modulo di pianificazione per ramo, rispetto a due moduli di pianificazione in un ramo contrassegnati come non consentiti.](assets/wf-scheduler.png)
 
 * Utilizza **[!UICONTROL End]** attività per ogni flusso di lavoro. Questo consente ad Adobe Campaign di liberare spazio temporaneo utilizzato per i calcoli all’interno dei flussi di lavoro. Per ulteriori informazioni, consulta: [Inizio e fine](start-and-end.md).
 
@@ -158,4 +158,4 @@ Per evitare problemi, nella pianificazione dell’esecuzione dei flussi di lavor
 
 In un ambiente di produzione, evita di eseguire flussi di lavoro nel motore. Quando l&#39;opzione **[!UICONTROL Execute in the engine]** è selezionata in **[!UICONTROL Workflow properties]**, il flusso di lavoro ha la priorità e tutti gli altri flussi di lavoro vengono interrotti dal motore del flusso di lavoro fino al completamento di questo.
 
-![](assets/wf-execute-in-engine.png)
+![Scheda Esecuzione proprietà flusso di lavoro con l&#39;opzione Esegui nel motore (non utilizzare in produzione) selezionata.](assets/wf-execute-in-engine.png)

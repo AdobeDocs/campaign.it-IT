@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 1%
+source-wordcount: '404'
+ht-degree: 0%
 ---
 # Esclusione{#exclusion}
 
@@ -36,7 +36,7 @@ Un&#39;attività di tipo **Exclusion** crea una destinazione basata su una desti
 
 Per configurare questa attività, immetti la relativa etichetta e seleziona il set di destinatari principale: la popolazione del set principale ti consente di costruire il risultato. Verranno esclusi i profili condivisi dal set principale e almeno una delle attività iniziali.
 
-![](assets/s_user_segmentation_exclu.png)
+![Attività di esclusione con il set principale, le regole di esclusione, l&#39;etichetta Risultato e l&#39;opzione Genera complemento.](assets/s_user_segmentation_exclu.png)
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Per configurare questa attività, immetti la relativa etichetta e seleziona il s
 
 Selezionare l&#39;opzione **[!UICONTROL Generate complement]** se si desidera sfruttare il gruppo rimanente. Il complemento conterrà la popolazione entrante principale meno la popolazione uscente. Verrà quindi aggiunta all’attività una transizione di output aggiuntiva, come segue:
 
-![](assets/s_user_segmentation_exclu_compl.png)
+![Attività di esclusione con due transizioni in uscita etichettate Risultato e Complemento.](assets/s_user_segmentation_exclu_compl.png)
 
 ## Esempi di esclusione {#exclusion-examples}
 
@@ -56,7 +56,7 @@ L&#39;esempio seguente cerca di compilare un elenco di destinatari di età compr
 1. Approva la configurazione di esclusione, quindi inserisci nel risultato un’attività di aggiornamento elenco. Se necessario, puoi anche inserire un ulteriore aggiornamento dell’elenco del complemento.
 1. Esegui il flusso di lavoro. In questo esempio, il risultato è costituito da destinatari di età compresa tra i 18 e i 30 anni, ma quelli che vivono a Parigi sono esclusi e inviati al complemento.
 
-   ![](assets/exclusion_example.png)
+   ![Flusso di lavoro in cui le query 18-30 e live in parigi generano un&#39;esclusione con risultato e completano ciascuna andando a un aggiornamento elenco.](assets/exclusion_example.png)
 
 ## Parametri di input {#input-parameters}
 

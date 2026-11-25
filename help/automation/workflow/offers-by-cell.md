@@ -25,10 +25,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 7%
+source-wordcount: '173'
+ht-degree: 6%
 ---
 # Offerte per cella{#offers-by-cell}
 
@@ -36,7 +36,7 @@ ht-degree: 7%
 
 L&#39;attività **[!UICONTROL Offers by cell]** consente di distribuire il gruppo in entrata (ad esempio da una query) in più segmenti e di specificare un&#39;offerta da presentare per ciascuno di questi segmenti.
 
-Questa attività può essere utilizzata solo con **Interaction**. Ulteriori informazioni sulla gestione delle offerte sono disponibili in [questa sezione](../../v8/interaction/interaction.md).
+Questa attività può essere utilizzata solo con **Interaction**. Ulteriori informazioni sulla gestione delle offerte in [Interazione campagna - Gestione delle offerte](../../v8/interaction/interaction.md).
 
 Per eseguire questa operazione:
 
@@ -47,6 +47,6 @@ Per eseguire questa operazione:
    * Specifica la popolazione del sottoinsieme utilizzando le regole di filtro e limitazione disponibili.
    * Quindi, seleziona l’offerta da presentare al sottoinsieme. Le offerte disponibili sono quelle idonee per lo spazio dell’offerta selezionato al passaggio precedente.
 
-     ![](assets/int_offer_per_cell1.png)
+     ![Finestra subset di offerte per cella: opzioni di filtro e di limitazione dei record, spazio dell&#39;offerta e elenco delle offerte.](assets/int_offer_per_cell1.png)
 
 1. Quindi configura un’attività di consegna che corrisponde al canale scelto. Consulta [Consegne cross-channel](cross-channel-deliveries.md).

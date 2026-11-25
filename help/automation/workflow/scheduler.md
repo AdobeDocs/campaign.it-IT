@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 8%
+source-wordcount: '473'
+ht-degree: 7%
 ---
 # Modulo di pianificazione {#scheduler}
 
@@ -50,22 +50,22 @@ Dovresti considerare l’attività **[!UICONTROL Scheduler]** come un inizio pia
 
 Il modulo di pianificazione definisce la pianificazione di attivazione della transizione. Per configurarlo, fare doppio clic sull&#39;oggetto grafico, quindi fare clic su **[!UICONTROL Change...]**
 
-![](assets/s_user_segmentation_scheduler.png)
+![Finestra di dialogo dell&#39;attività di pianificazione con il pulsante Cambia utilizzato per definire la frequenza di esecuzione](assets/s_user_segmentation_scheduler.png)
 
 Una procedura guidata consente di definire la frequenza e il periodo di validità dell’attività. I passaggi di configurazione sono i seguenti:
 
 1. Selezionare la frequenza di attivazione e fare clic su **[!UICONTROL Next]**.
 
-   ![](assets/s_user_segmentation_scheduler2.png)
+   ![Pianificazione modifica guidata, Seleziona tipo di frequenza: Più volte al giorno, Giornaliero, Settimanale, Mensile, Una volta](assets/s_user_segmentation_scheduler2.png)
 
 1. Assegna ore e giorni di attivazione. I parametri per questo passaggio dipendono dalla frequenza selezionata nel passaggio precedente. Se scegli di avviare l’attività più volte al giorno, le opzioni di configurazione saranno le seguenti:
 
-   ![](assets/s_user_segmentation_scheduler3.png)
+   ![Procedura guidata di modifica pianificata, molte volte al giorno: selezione ore nelle ore selezionate e selezione giorno nei giorni feriali](assets/s_user_segmentation_scheduler3.png)
 
 1. Definisci il periodo di validità della pianificazione o specifica quante volte verrà eseguita.
 
-   ![](assets/s_user_segmentation_scheduler4.png)
+   ![Pianificazione modifica guidata, periodo di validità: validità permanente, date di inizio e fine validità o numero massimo di iterazioni](assets/s_user_segmentation_scheduler4.png)
 
 1. Controllare la configurazione e fare clic su **[!UICONTROL Finish]** per salvare.
 
-   ![](assets/s_user_segmentation_scheduler5.png)
+   ![Procedura guidata di modifica della pianificazione, Riepilogo: descrizione della pianificazione ed elenco degli orari di avvio successivi, con pulsante Fine](assets/s_user_segmentation_scheduler5.png)

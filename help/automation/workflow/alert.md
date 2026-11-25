@@ -21,9 +21,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '100'
 ht-degree: 3%
 ---
 # Attività Alert{#alert}
@@ -32,6 +32,6 @@ ht-degree: 3%
 
 Un&#39;attività **Alert** invia un messaggio a un gruppo di operatori. Funziona allo stesso modo di un’attività di approvazione, ma in questo caso non è prevista alcuna risposta.
 
-![](assets/edit_alerte.png)
+![Attività di avviso con il gruppo di tipi di assegnazione, l&#39;assegnatario e il titolo e il corpo del messaggio.](assets/edit_alerte.png)
 
 Un avviso non è persistente e non è pertanto visibile dalla console client. Per ricevere la notifica, gli operatori del gruppo assegnato devono disporre di un indirizzo e-mail completo. La configurazione di questa attività è simile a quella di una **approvazione**. Il modello di consegna predefinito utilizzato per avvisare gli operatori è &quot;alertAssignee&quot;.

@@ -23,9 +23,9 @@ role_v2:
     internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '277'
 ht-degree: 0%
 ---
 # Eseguire il calcolo aggregato {#performing-aggregate-computing}
@@ -48,12 +48,12 @@ Per creare questo esempio, attieniti alla seguente procedura:
 
 1. In **[!UICONTROL Data to extract]**, definire un conteggio per la chiave primaria (come illustrato nell&#39;esempio precedente). Aggiungi il campo **[!UICONTROL Gender]** nella colonna di output. Selezionare l&#39;opzione **[!UICONTROL Group]** nella colonna **[!UICONTROL Gender]**. In questo modo i destinatari saranno raggruppati per genere.
 
-   ![](assets/query_editor_nveau_27.png)
+   ![Dati da estrarre con le colonne count(chiave primaria) e Gender e Gruppo impostato su Sì per Gender.](assets/query_editor_nveau_27.png)
 
 1. Nella finestra **[!UICONTROL Sorting]**, fare clic su **[!UICONTROL Next]**: non è necessario alcun ordinamento.
 1. Configura il filtro dei dati. In questo caso, si desidera limitare la selezione ai contatti che risiedono a Londra.
 
-   ![](assets/query_editor_22.png)
+   ![Filtro elementi di destinazione: City (location/@city) uguale a London, con il riepilogo delle query evidenziato.](assets/query_editor_22.png)
 
    >[!NOTE]
    >
@@ -64,4 +64,4 @@ Per creare questo esempio, attieniti alla seguente procedura:
 
    Esistono tre valori distinti per ogni ordinamento in base al sesso: **2** per la donna, **1** per il maschio e **0** quando il genere è sconosciuto. In questo esempio, l&#39;elenco contiene 10 donne, 16 uomini e 2 persone il cui genere non è noto.
 
-   ![](assets/query_editor_agregat_04.png)
+   ![Anteprima dati che mostra i conteggi 10, 16 e 2 per i valori di genere 2, 1 e 0.](assets/query_editor_agregat_04.png)

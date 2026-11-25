@@ -24,16 +24,16 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 3%
+source-wordcount: '796'
+ht-degree: 2%
 ---
 # Inviare un rapporto a un elenco{#send-a-report-to-a-list}
 
 Questo caso d&#39;uso descrive come generare un report **[!UICONTROL Tracking indicators]** predefinito mensile in formato PDF e come inviarlo a un elenco di destinatari.
 
-![](assets/use_case_report_intro.png)
+![Flusso di lavoro del report mensile con modulo di pianificazione, codice JavaScript e consegna e e-mail con indicators.pdf allegati.](assets/use_case_report_intro.png)
 
 I passaggi principali di implementazione per questo caso d’uso sono:
 
@@ -49,7 +49,7 @@ Per creare l’elenco dei destinatari target, effettua le seguenti operazioni:
 1. Fai clic sul pulsante **[!UICONTROL Create]**.
 1. Selezionare **[!UICONTROL New list]** e creare un nuovo elenco di destinatari per il report da inviare a.
 
-Per ulteriori informazioni sulla creazione di elenchi, consulta [questa sezione](../../v8/audiences/create-audiences.md).
+Per ulteriori informazioni sulla creazione di elenchi, consulta [Creare tipi di pubblico di profilo in Campaign](../../v8/audiences/create-audiences.md).
 
 ## Passaggio 2: creare il modello di consegna {#step-2--create-the-delivery-template}
 
@@ -57,7 +57,7 @@ Per creare il modello di consegna, segui i passaggi seguenti:
 
 1. Individua il nodo **[!UICONTROL Resources > Templates > Delivery templates]** di Adobe Campaign Explorer e duplica il modello integrato **[!UICONTROL Email delivery]**.
 
-   Per ulteriori informazioni sulla creazione di un modello di consegna, consulta [questa sezione](../../v8/send/create-templates.md).
+   Per ulteriori informazioni sulla creazione di un modello di consegna, consulta [Utilizzare i modelli di consegna](../../v8/send/create-templates.md).
 
 1. Immetti i parametri del modello: etichetta, destinazione (l’elenco dei destinatari creati in precedenza), oggetto e contenuto.
 
@@ -67,17 +67,17 @@ Per creare il modello di consegna, segui i passaggi seguenti:
 
    * Fare clic sul collegamento **[!UICONTROL Attachments]** e sulla freccia accanto al pulsante **[!UICONTROL Add]**. Seleziona **[!UICONTROL Calculated attachment...]**.
 
-     ![](assets/use_case_report_4.png)
+     ![Finestra Modifica file allegati con il menu Aggiungi aperto e l&#39;allegato calcolato selezionato.](assets/use_case_report_4.png)
 
    * Nell&#39;elenco a discesa **[!UICONTROL Type]** selezionare l&#39;opzione più recente: **[!UICONTROL File name is computed during delivery of each message (it may then depend on the recipient profile)]**.
 
-     ![](assets/use_case_report_5.png)
+     ![Definizione dell&#39;allegato con tipo impostato sul nome file calcolato durante la consegna per ogni messaggio e report etichette.](assets/use_case_report_5.png)
 
      Il valore immesso nel campo **[!UICONTROL Label]** non verrà visualizzato nella consegna finale.
 
    * Nell&#39;area di testo immettere il percorso di accesso e il nome del file.
 
-     ![](assets/use_case_report_6.png)
+     ![Scheda Generale della definizione dell&#39;allegato con il percorso del file /tmp/indicators.pdf immesso nell&#39;area di testo.](assets/use_case_report_6.png)
 
      >[!CAUTION]
      >
@@ -85,13 +85,13 @@ Per creare il modello di consegna, segui i passaggi seguenti:
 
    * Selezionare la scheda **[!UICONTROL Advanced]** e selezionare **[!UICONTROL Script the name of the file name displayed in the mails sent]**. Nell’area di testo, immetti il nome dell’allegato nella consegna finale.
 
-     ![](assets/use_case_report_6b.png)
+     ![Scheda Avanzate di definizione dell&#39;allegato con script il nome del file selezionato e il file latest-report.pdf immesso.](assets/use_case_report_6b.png)
 
 ## Passaggio 3: creare il flusso di lavoro {#step-3--creating-the-workflow}
 
 Crea il seguente flusso di lavoro per questo caso d’uso.
 
-![](assets/use_case_report_8.png)
+![Indicatori report mensile flusso di lavoro: modulo di pianificazione, codice JavaScript, quindi consegna.](assets/use_case_report_8.png)
 
 Utilizza tre attività:
 
@@ -104,17 +104,17 @@ Per creare questo flusso di lavoro, effettua le seguenti operazioni:
 1. Passa al nodo **[!UICONTROL Administration > Production > Technical workflows]** di Campaign exploere e crea una nuova cartella in cui archiviare i flussi di lavoro.
 1. Crea un nuovo flusso di lavoro.
 
-   ![](assets/use_case_report_7.png)
+   ![Finestra di dialogo Nuovo flusso di lavoro in Amministrazione > Produzione > Flussi di lavoro tecnici con un campo Etichetta e pulsante Salva.](assets/use_case_report_7.png)
 
 1. Iniziare aggiungendo un&#39;attività di tipo **[!UICONTROL Scheduler]** e configurarla in modo che il flusso di lavoro venga eseguito il primo lunedì del mese.
 
-   ![](assets/use_case_report_9.png)
+   ![L&#39;attività di pianificazione viene attivata alle 00:00 del primo lunedì di ogni mese.](assets/use_case_report_9.png):00:
 
    Per ulteriori informazioni sulla configurazione della pianificazione, fare riferimento a [Pianificazione](scheduler.md).
 
 1. Quindi aggiungi un&#39;attività di tipo **[!UICONTROL JavaScript code]**.
 
-   ![](assets/use_case_report_10.png)
+   ![Attività codice JavaScript con lo script che definisce reportName, path, exportFormat e la chiamata xtk.report.export.](assets/use_case_report_10.png)
 
    Immetti il seguente codice nella zona di modifica:
 
@@ -137,14 +137,14 @@ Per creare questo flusso di lavoro, effettua le seguenti operazioni:
 
      >[!CAUTION]
      >
-     >Il file deve essere salvato sul server. Immettere lo stesso percorso e lo stesso nome della scheda **[!UICONTROL General]** della finestra di modifica per l&#39;allegato calcolato, come descritto [qui](#step-2--create-the-delivery-template)).
+     >Il file deve essere salvato sul server. È necessario immettere lo stesso percorso e lo stesso nome della scheda **[!UICONTROL General]** della finestra di modifica per l&#39;allegato calcolato, come dettagliato [Passaggio 2: creare il modello di consegna](#step-2--create-the-delivery-template)).
 
    * **var exportFormat**: immettere il formato di esportazione del file (&quot;PDF&quot;).
    * **var _ctx** (contesto): in questo caso, il report **[!UICONTROL Tracking indicators]** viene utilizzato nel relativo contesto globale.
 
 1. Per terminare, aggiungi un&#39;attività **[!UICONTROL Delivery]** con le seguenti opzioni:
 
-   ![](assets/use_case_report_11.png)
+   ![Attività di consegna: nuovo da modello, preparazione e avvio, transizione in uscita ed errori di elaborazione deselezionati.](assets/use_case_report_11.png)
 
    * **[!UICONTROL Delivery]**: selezionare **[!UICONTROL New, created from a template]**, quindi selezionare il modello di consegna creato in precedenza.
    * Per i campi **[!UICONTROL Recipients]** e **[!UICONTROL Content]**, selezionare **[!UICONTROL Specified in the delivery]**.

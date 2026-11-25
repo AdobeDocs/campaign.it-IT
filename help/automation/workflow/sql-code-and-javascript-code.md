@@ -25,10 +25,10 @@ level_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 9%
+source-wordcount: '436'
+ht-degree: 8%
 ---
 # Codice SQL e codice JavaScript{#sql-code-and-javascript-code}
 
@@ -36,7 +36,7 @@ ht-degree: 9%
 
 Un&#39;attività **[!UICONTROL SQL code]** esegue uno script SQL. Lo script è un modello JST.
 
-![](assets/sql_code.png)
+![Finestra di dialogo attività codice SQL con il campo Etichetta, l&#39;editor di script SQL e l&#39;opzione Elabora errori](assets/sql_code.png)
 
 * **[!UICONTROL Script]**
 
@@ -79,7 +79,7 @@ Per ignorare questo limite, è necessario impostare il valore su **0**.
 
 ### Codice JavaScript {#js-code-desc}
 
-![](assets/javascript_code.png)
+![Finestra di dialogo dell&#39;attività del codice JavaScript con i campi Etichetta, Interrompi esecuzione dopo e Script e opzione Elabora errori](assets/javascript_code.png)
 
 * **[!UICONTROL Script]**: l&#39;area centrale dell&#39;editor contiene lo script da eseguire.
 
@@ -87,7 +87,7 @@ Per ignorare questo limite, è necessario impostare il valore su **0**.
 
 ### Codice JavaScript avanzato {#adv-js-code-desc}
 
-![](assets/advanced_javascript_code.png)
+![Attività codice JavaScript avanzata con editor di script per la prima chiamata e la successiva chiamata e transizione OK](assets/advanced_javascript_code.png)
 
 * **[!UICONTROL First call]**: la prima zona dell&#39;editor contiene lo script da eseguire durante la prima chiamata.
 * **[!UICONTROL Next calls]**: la seconda zona dell&#39;editor contiene lo script da eseguire durante le chiamate successive.

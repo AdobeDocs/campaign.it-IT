@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 3%
+source-wordcount: '213'
+ht-degree: 2%
 ---
 # Modificare le immagini dell’attività{#change-activity-images}
 
@@ -41,7 +41,7 @@ ht-degree: 3%
 
 * Per modificare l&#39;immagine di sfondo, selezionare il flusso di lavoro di destinazione desiderato, quindi fare clic sulla scheda **[!UICONTROL Properties]**.
 
-  ![](assets/s_user_segmentation_properties_tab.png)
+  ![Proprietà flusso di lavoro, scheda Avanzate: campo Immagine di sfondo con l&#39;icona Seleziona collegamento evidenziata.](assets/s_user_segmentation_properties_tab.png)
 
   Per selezionare l&#39;immagine da utilizzare, fare clic sull&#39;icona **[!UICONTROL Select link]** a destra del campo **[!UICONTROL Background image]**.
 
@@ -49,7 +49,7 @@ ht-degree: 3%
   >
   >La larghezza in pixel dell&#39;immagine di sfondo deve essere un multiplo di 4.
 
-  ![](assets/s_user_segmentation_background_select.png)
+  ![Finestra di selezione delle immagini in cui sono elencate le immagini di sfondo, ad esempio backgrounds/grid.png, con OK per confermare.](assets/s_user_segmentation_background_select.png)
 
   L&#39;icona **[!UICONTROL Edit link]** consente di visualizzare l&#39;immagine selezionata.
 
@@ -57,11 +57,11 @@ ht-degree: 3%
 
   Per selezionare l&#39;immagine da utilizzare, fare clic sull&#39;icona **[!UICONTROL Select link]** a destra del campo **[!UICONTROL Image]**.
 
-  ![](assets/s_user_segmentation_activity_image.png)
+  ![Scheda avanzata di un&#39;attività con il campo Immagine evidenziato, impostata su activities/dedup.png.](assets/s_user_segmentation_activity_image.png)
 
   L&#39;icona **[!UICONTROL Edit link]** consente di visualizzare l&#39;immagine selezionata.
 
-  ![](assets/s_user_segmentation_activity_image_select.png)
+  ![Anteprima dell&#39;immagine selezionata nms:activities/dedup.png, visualizzata con l&#39;icona Modifica collegamento.](assets/s_user_segmentation_activity_image_select.png)
 
 >[!NOTE]
 >

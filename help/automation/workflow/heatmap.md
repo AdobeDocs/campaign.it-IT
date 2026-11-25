@@ -28,12 +28,12 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 3%
+source-wordcount: '1305'
+ht-degree: 2%
 ---
-# Flusso di lavoro HeatMap {#workflow-heatmap}
+# Mappa di calore dei flussi di lavoro {#workflow-heatmap}
 
 La mappa di calore dei flussi di lavoro di Campaign consiste in una rappresentazione grafica codificata per colori di tutti i flussi di lavoro attualmente in esecuzione. È disponibile solo per **amministratori di campagne**.
 
@@ -64,7 +64,7 @@ L&#39;utilizzo di Workflow HeatMap richiede una buona comprensione dei seguenti 
 
 1. Vai a **[!UICONTROL Monitoring]** e fai clic sul collegamento **[!UICONTROL Workflow HeatMap]** per visualizzare la pagina **[!UICONTROL Campaign Workflow HeatMap]**.
 
-   ![](assets/wkf_monitoring_path.png)
+   ![Scheda Monitoraggio con il collegamento Workflow HeatMap selezionato, apertura della griglia di Workflow HeatMap di Campaign.](assets/wkf_monitoring_path.png)
 
 1. Fare clic sul calendario per selezionare un giorno.
 
@@ -76,15 +76,15 @@ L&#39;utilizzo di Workflow HeatMap richiede una buona comprensione dei seguenti 
 
 1. Fai clic sul pulsante **[!UICONTROL Filters]**.
 
-   ![](assets/wkf_monitoring_filters.png)
+   ![Pagina Workflow HeatMap di Campaign con il pulsante Filtri evidenziato accanto a Guida in linea e caricamento dati.](assets/wkf_monitoring_filters.png)
 
 1. Utilizzare il dispositivo di scorrimento per impostare la durata minima da 0 secondi a 1 ora. Questo consente di cercare solo i flussi di lavoro in esecuzione per più di un certo numero di secondi o minuti.
 
-   ![](assets/wkf_monitoring_filters_duration.png)
+   ![Pannello dei filtri HeatMap con cursore di durata minima impostato su 30 minuti, sopra i campi Tipo di flusso di lavoro e Flussi di lavoro.](assets/wkf_monitoring_filters_duration.png)
 
 1. È inoltre possibile scegliere un workflow specifico dall&#39;elenco a discesa **[!UICONTROL Workflows]**.
 
-   ![](assets/wkf_monitoring_filters_workflows.png)
+   ![Elenco a discesa Flussi di lavoro nei filtri HeatMap che mostrano tutti i flussi di lavoro, pulizia del database, previsione e altri flussi di lavoro.](assets/wkf_monitoring_filters_workflows.png)
 
    >[!NOTE]
    >
@@ -108,7 +108,7 @@ La mappa di calore del flusso di lavoro della campagna è una griglia naturalmen
 
 Per informazioni sull&#39;applicazione del codice colore e su come esplorare la mappa di calore, fare clic sul pulsante **[!UICONTROL Help]**.
 
-![](assets/wkf_monitoring_legend.png)
+![Pannello della Guida di HeatMap che elenca i controlli da tastiera e la legenda dei colori dal verde per 1 flusso di lavoro al rosso per 50.](assets/wkf_monitoring_legend.png)
 
 Ogni riga rappresenta un&#39;ora del giorno e ogni cella rappresenta 5 minuti dell&#39;ora.
 
@@ -116,11 +116,11 @@ La griglia mostra tutti i flussi di lavoro in esecuzione contemporaneamente per 
 
 Nell’esempio seguente, tra le 8.00 e le 8.05 sono in esecuzione tre flussi di lavoro (indipendentemente dalla durata):
 
-![](assets/wkf_monitoring_ex_8am.png)
+![Griglia HeatMap con riga 08h, cella di colonna 00m evidenziata, che mostra tre flussi di lavoro in esecuzione tra le 8.00 e le 8.05am.](assets/wkf_monitoring_ex_8am.png)
 
 1. Fai clic su una cella colorata per visualizzare i dettagli di tutti i flussi di lavoro simultanei in esecuzione durante questo periodo.
 
-   ![](assets/wkf_monitoring_details.png)
+   ![Mappa di calore con la cella 08h selezionata e una tabella che elenca i tre flussi di lavoro simultanei con attività e durata.](assets/wkf_monitoring_details.png)
 
    Per ogni flusso di lavoro, vengono elencate tutte le attività in esso contenute, con la relativa durata.
 
@@ -139,7 +139,7 @@ In qualità di amministratore di Campaign, la Workflow HeatMap può aiutarti a c
 1. Imposta la durata su alcuni secondi o minuti.
 1. Escludi i flussi di lavoro più brevi che non sono significativi aumentando il filtro della durata.
 
-   ![](assets/wkf_monitoring_short_duration.png)
+   ![Filtri HeatMap con cursore di durata minima impostato su 3 minuti (189 secondi) per escludere i flussi di lavoro più brevi.](assets/wkf_monitoring_short_duration.png)
 
 1. Esplora i risultati per comprendere il carico sull’istanza e intraprendere le azioni appropriate:
 
@@ -153,7 +153,7 @@ In qualità di amministratore di Campaign, Workflow HeatMap ti consente di trova
 1. Dalla visualizzazione **[!UICONTROL Campaign Workflow HeatMap]**, fare clic sul pulsante **[!UICONTROL Filters]**.
 1. Imposta la durata su 1 ora.
 
-   ![](assets/wkf_monitoring_long_duration.png)
+   ![Filtri HeatMap con cursore di durata minima impostato su un massimo di 1 ora (3600 secondi).](assets/wkf_monitoring_long_duration.png)
 
 1. Includi altri risultati diminuendo il filtro **[!UICONTROL Min duration]**.
 1. Esplora i risultati per trovare i flussi di lavoro più lunghi, che possono potenzialmente avere un maggiore impatto sulle risorse del server e del database (CPU, RAM, rete, IOPS e così via).
@@ -173,7 +173,7 @@ In questo caso, molti utenti si lamentano delle prestazioni del flusso di lavoro
 1. Impostare il filtro **[!UICONTROL Workflow type]** su **[!UICONTROL Marketing]**.
 1. Osservate quanto segue dalla griglia di HeatMap:
 
-   ![](assets/wkf_monitoring_without.png)
+   ![Griglia HeatMap senza filtro durata, con un picco di 50 flussi di lavoro nella riga 10h e poche celle dopo 14h.](assets/wkf_monitoring_without.png)
 
    * Sono in esecuzione alle 10:00 cinquanta flussi di lavoro per campagne di lunga durata (più di 5 minuti).
    * La maggior parte di essi presenta uno stato in sospeso (per impostazione predefinita, il limite di concorrenza è impostato su 20).
@@ -184,7 +184,7 @@ In questo caso, molti utenti si lamentano delle prestazioni del flusso di lavoro
 1. Tornare alla pagina **[!UICONTROL Campaign Workflow HeatMap]** e fare clic sul pulsante **[!UICONTROL Reload data]**.
 1. Osserva ora quanto segue:
 
-   ![](assets/wkf_monitoring_with.png)
+   ![Griglia HeatMap con filtro di durata applicato, che mostra una distribuzione diversa con picco ridotto a 18 flussi di lavoro.](assets/wkf_monitoring_with.png)
 
    * Solo diciotto flussi di lavoro per campagne di lunga durata sono ancora in esecuzione alle ore 10.
    * Nessun altro flusso di lavoro è in sospeso (il limite di concorrenza è ancora impostato su 20).

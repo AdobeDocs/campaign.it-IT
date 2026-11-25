@@ -23,9 +23,9 @@ role_v2:
     internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '541'
 ht-degree: 0%
 ---
 # Eseguire una query tramite una relazione molti-a-molti {#querying-using-a-many-to-many-relationship}
@@ -53,36 +53,36 @@ Applica i seguenti passaggi:
 1. Aprire l&#39;editor delle query generiche e selezionare la tabella dei destinatari **[!UICONTROL (nms:recipient)]**.
 1. Nella finestra **[!UICONTROL Data to extract]**, selezionare **[!UICONTROL Primary key]**, **[!UICONTROL First name]**, **[!UICONTROL Last name]** e **[!UICONTROL Email]**.
 
-   ![](assets/query_editor_nveau_33.png)
+   ![Dati per estrarre la finestra con la chiave primaria, il nome, il cognome e l&#39;indirizzo e-mail elencati come colonne di output](assets/query_editor_nveau_33.png)
 
 1. Nella finestra di ordinamento, ordinare i nomi in ordine alfabetico.
 
-   ![](assets/query_editor_nveau_34.png)
+   ![Ordinamento della finestra con l&#39;opzione Ordina impostata su Sì per la colonna Cognome](assets/query_editor_nveau_34.png)
 
 1. Nella finestra **[!UICONTROL Data filtering]**, selezionare **[!UICONTROL Filtering conditions]**.
 1. Nella finestra **[!UICONTROL Target element]**, la condizione di filtro per l&#39;estrazione dei profili senza registro di tracciamento per gli ultimi 7 giorni prevede due passaggi. L’elemento da selezionare è un collegamento da molti-a-molti.
 
    * Per iniziare, selezionare l&#39;elemento della raccolta **[!UICONTROL Recipient delivery logs (broadlog)]** (nodo arancione) per la prima colonna **[!UICONTROL Value]**.
 
-     ![](assets/query_editor_nveau_67.png)
+     ![Campo per selezionare la finestra con l&#39;elemento di raccolta dei registri di consegna dei destinatari (broadLog) selezionato](assets/query_editor_nveau_67.png)
 
      Scegliere l&#39;operatore **[!UICONTROL do not exist as]**. Non è necessario selezionare un secondo valore in questa riga.
 
    * Il contenuto della seconda condizione di filtro dipende dalla prima. In questo caso, il campo **[!UICONTROL Event date]** viene offerto direttamente nella tabella **[!UICONTROL Recipient delivery logs]** poiché è presente un collegamento a questa tabella.
 
-     ![](assets/query_editor_nveau_36.png)
+     ![Campo per selezionare la finestra in cui sono elencati i campi dei log di consegna dei destinatari, con la data evento (@eventDate) evidenziata](assets/query_editor_nveau_36.png)
 
      Selezionare **[!UICONTROL Event date]** con l&#39;operatore **[!UICONTROL greater than or equal to]**. Selezionare il valore **[!UICONTROL DaysAgo (7)]**. A tale scopo, fare clic su **[!UICONTROL Edit expression]** nel campo **[!UICONTROL Value]**. Nella finestra **[!UICONTROL Formula type]**, selezionare **[!UICONTROL Process on dates]** e **[!UICONTROL Current date minus n days]**, fornendo &quot;7&quot; come valore.
 
-     ![](assets/query_editor_nveau_37.png)
+     ![Finestra di tipo Formula con Elabora su date e Data corrente meno n giorni impostata su 7](assets/query_editor_nveau_37.png)
 
      La condizione del filtro è configurata.
 
-     ![](assets/query_editor_nveau_38.png)
+     ![Finestra dell&#39;elemento di destinazione con il filtro: i registri di consegna non esistono, ad esempio la data dell&#39;evento il o dopo 7 giorni prima](assets/query_editor_nveau_38.png)
 
 1. Nella finestra **[!UICONTROL Data formatting]**, impostare i cognomi in maiuscolo. Fare clic sulla riga **[!UICONTROL Last name]** nella colonna **[!UICONTROL Transformation]** e selezionare **[!UICONTROL Switch to upper case]** nel menu a discesa.
 
-   ![](assets/query_editor_nveau_39.png)
+   ![Finestra di formattazione dei dati con l&#39;elenco di trasformazione Cognome, opzione Passa a maiuscolo evidenziata](assets/query_editor_nveau_39.png)
 
 1. Utilizzare la funzione **[!UICONTROL Add a calculated field]** per inserire una colonna nella finestra di anteprima dei dati.
 
@@ -93,7 +93,7 @@ Applica i seguenti passaggi:
    return rep
    ```
 
-   ![](assets/query_editor_nveau_40.png)
+   ![Editor espressioni JavaScript per la colonna Nome - Cognome con lo script che concatena entrambi i campi](assets/query_editor_nveau_40.png)
 
    Fai clic su **[!UICONTROL OK]**. Finestra **[!UICONTROL Data formatting]** configurata.
 
@@ -101,4 +101,4 @@ Applica i seguenti passaggi:
 
 1. Il risultato viene visualizzato nella finestra **[!UICONTROL Data preview]**. I destinatari che non sono stati contattati negli ultimi 7 giorni vengono visualizzati in ordine alfabetico. I nomi vengono visualizzati in maiuscolo ed è stata creata la colonna con nome e cognome.
 
-   ![](assets/query_editor_nveau_41.png)
+   ![Finestra di anteprima dati in cui sono elencati i destinatari con il nome aggiunto - Colonna cognome](assets/query_editor_nveau_41.png)

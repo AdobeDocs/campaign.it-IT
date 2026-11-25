@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 40%
+source-wordcount: '666'
+ht-degree: 39%
 ---
 # Introduzione ai flussi di lavoro{#gs-workflows}
 
@@ -50,7 +50,7 @@ Un flusso di lavoro è una definizione di un processo, cioè del diagramma del f
 
 Il modello di flusso di lavoro descrive le varie attività da eseguire e il modo in cui vengono collegate tra loro. I modelli di attività sono denominati attività e sono rappresentati da icone. Sono collegati tra loro da transizioni.
 
-![](assets/example1.png)
+![Diagramma del flusso di lavoro da due query di cartelle tramite Union, Enrichment, Delivery e Approval per aggiornare i dati o End](assets/example1.png)
 
 ## Principi chiave
 
@@ -62,7 +62,7 @@ Ogni flusso di lavoro contiene:
 
   In un diagramma di flusso di lavoro, una determinata attività può produrre più attività, in particolare quando è presente un ciclo continuo o azioni ricorrenti (periodiche).
 
-  Tutte le attività del flusso di lavoro sono elencate in [questa sezione](activities.md), inclusi casi d&#39;uso ed esempi.
+  Tutte le attività del flusso di lavoro sono elencate in [Informazioni sulle attività del flusso di lavoro](activities.md), inclusi casi d&#39;uso ed esempi.
 
 * **[!UICONTROL Transitions]**
 
@@ -74,22 +74,22 @@ Ogni flusso di lavoro contiene:
   >
   >È comunque possibile eseguire un flusso di lavoro contenente transizioni non terminate: verrà generato un messaggio di avviso e il flusso di lavoro verrà messo in pausa una volta raggiunta la transizione, ma non verrà generato un errore. È quindi possibile avviare un flusso di lavoro senza che sia stato completato e aggiungerlo man mano che prosegui.
 
-  Per ulteriori informazioni su come creare un flusso di lavoro, consulta [questa sezione](build-a-workflow.md).
+  Per ulteriori informazioni su come creare un flusso di lavoro, consultare [Creare un flusso di lavoro](build-a-workflow.md).
 
 * **[!UICONTROL Worktables]**
 
   La tabella di lavoro contiene tutte le informazioni contenute nella transizione. Ogni flusso di lavoro utilizza diverse tabelle di lavoro. I dati trasmessi in queste tabelle possono essere accelerati e utilizzati in tutto il ciclo di vita del flusso di lavoro, purché non vengano eliminati. In effetti, le tabelle non necessarie vengono eliminate ogni volta che il flusso di lavoro viene passivato e possibilmente durante l’esecuzione dei flussi di lavoro più grandi per evitare di sovraccaricare il server.
 
-  Ulteriori informazioni sui dati e sulle tabelle del flusso di lavoro in [questa sezione](use-workflow-data.md).
+  Ulteriori informazioni sui dati e sulle tabelle del flusso di lavoro in [Usa dati flusso di lavoro](use-workflow-data.md).
 
 ## Sezioni correlate
 
 Consulta queste sezioni per trovare indicazioni e best practice per automatizzare i processi con i flussi di lavoro:
 
-* Ulteriori informazioni sulle attività del flusso di lavoro in [questa pagina](use-workflow-data.md).
-* Scopri come creare un flusso di lavoro in [questa sezione](build-a-workflow.md).
-* Scopri come utilizzare i flussi di lavoro per importare dati in Campaign in [questa sezione](campaign-workflows.md)..
-* Le best practice per i flussi di lavoro sono descritte in [questa pagina](workflow-best-practices.md).
-* Trova indicazioni sull&#39;esecuzione del flusso di lavoro in [questa sezione](start-a-workflow.md).
-* Scopri come monitorare i flussi di lavoro in [questa pagina](monitor-workflow-execution.md).
-* Scopri come concedere agli utenti l&#39;accesso per utilizzare i flussi di lavoro in [questa pagina](managing-rights.md).
+* Ulteriori informazioni sulle attività del flusso di lavoro in [Utilizzare i dati del flusso di lavoro](use-workflow-data.md).
+* Scopri come creare un flusso di lavoro in [Creare un flusso di lavoro](build-a-workflow.md).
+* Scopri come utilizzare i flussi di lavoro per importare dati in Campaign in [Tipo di flussi di lavoro](campaign-workflows.md).
+* Le best practice per i flussi di lavoro sono descritte in dettaglio in [Best practice per i flussi di lavoro](workflow-best-practices.md).
+* Trova indicazioni sull&#39;esecuzione del flusso di lavoro in [Avvia un flusso di lavoro](start-a-workflow.md).
+* Scopri come monitorare i flussi di lavoro in [Monitorare l&#39;esecuzione dei flussi di lavoro](monitor-workflow-execution.md).
+* Scopri come concedere agli utenti l&#39;accesso per utilizzare i flussi di lavoro in [Gestione autorizzazioni flusso di lavoro](managing-rights.md).

@@ -24,9 +24,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '513'
 ht-degree: 5%
 ---
 # Monitorare i flussi di lavoro tecnici {#monitoring-technical-workflows}
@@ -37,7 +37,7 @@ I flussi di lavoro tecnici devono essere monitorati e, in caso di errore, è nec
 
 È possibile accedere al dashboard di monitoraggio delle istanze tramite la scheda **[!UICONTROL Monitoring]**.
 
-![](assets/monitoring_technical_workflows1.png)
+![Dashboard di monitoraggio dell&#39;istanza con elenco dei processi, flussi di lavoro e consegne non riusciti e collegamenti agli indicatori di sistema](assets/monitoring_technical_workflows1.png)
 
 In Indicatori di sistema e file di base, verificare che nessun indicatore sia evidenziato in rosso. Se questo è il caso e alcuni sono, dovresti:
 
@@ -75,7 +75,7 @@ Per **[!UICONTROL Campaign process ('operationMgt', 'deliveryMgt', ...)]**:
 
 Il gruppo **[!UICONTROL Workflow supervisors]** deve contenere operatori che devono essere tenuti informati degli errori e che possono intervenire in tempo.
 
-![](assets/monitoring_technical_workflows3.png)
+![Scheda Generale delle proprietà del flusso di lavoro con i supervisori del flusso di lavoro selezionati nel campo Supervisori](assets/monitoring_technical_workflows3.png)
 
 In caso di problemi, genera un avviso che deve essere inviato al gruppo corretto.
 
@@ -93,7 +93,7 @@ Tutti i flussi di lavoro tecnici personalizzati devono essere documentati in un 
 * Operatore incaricato del monitoraggio.
 * Istruzioni su cosa fare in caso di errore.
 
-![](assets/monitoring_technical_workflows4.png)
+![Foglio di lavoro di manutenzione in cui sono elencate la frequenza, l&#39;inizio, la durata, la cartella, il nome, la criticità e le dipendenze di ogni flusso di lavoro](assets/monitoring_technical_workflows4.png)
 
 ## Pianificazione e automazione del monitoraggio {#planning-and-automation-of-monitoring}
 

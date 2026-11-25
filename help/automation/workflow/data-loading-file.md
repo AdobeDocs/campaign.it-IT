@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 14%
+source-wordcount: '1287'
+ht-degree: 12%
 ---
 # Caricamento dati (file){#data-loading-file}
 
@@ -45,13 +45,13 @@ La sezione superiore della finestra di configurazione per questa attività ti co
 
 >[!CAUTION]
 >
->Sono supportati solo i file con struttura &quot;flat&quot; (ad esempio CSV, TXT, ecc.). Non è consigliabile utilizzare il formato XML. Con la console client, puoi caricare file fino a una dimensione massima di 150 MB. Nell’interfaccia utente web, l’attività Load file ha un limite di 50 MB. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html?lang=it){target="_blank"}
+>Sono supportati solo i file con struttura &quot;flat&quot; (ad esempio CSV, TXT, ecc.). Non è consigliabile utilizzare il formato XML. Con la console client, puoi caricare file fino a una dimensione massima di 150 MB. Nell’interfaccia utente web, l’attività Load file ha un limite di 50 MB. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
 
-![](assets/s_advuser_wf_etl_file.png)
+![Attività di caricamento dati (file) con un file di esempio, anteprima delle colonne, opzioni dei nomi dei file e gestione dei rifiuti.](assets/s_advuser_wf_etl_file.png)
 
 È possibile definire un pre-processo da eseguire durante l&#39;importazione dei file, ad esempio per non dover decomprimere il file sul server (e quindi risparmiare spazio per il file decompresso) ma per includere la decompressione nell&#39;elaborazione dei file. Selezionare l&#39;opzione **[!UICONTROL Pre-process the file]** e scegliere una delle tre opzioni seguenti: **[!UICONTROL None]**, **[!UICONTROL Decompression]** (zcat) o **[!UICONTROL Decrypt]** (gpg).
 
-![](assets/preprocessing-dataloading.png)
+![Caricamento dei dati (file) con il file di pre-elaborazione selezionato e l&#39;elenco dei comandi: Nessuno, Decompressione, Decrittografia.](assets/preprocessing-dataloading.png)
 
 >[!IMPORTANT]
 >
@@ -63,7 +63,7 @@ Quando si carica un file, il formato colonna viene rilevato automaticamente con 
 
 A tale scopo, selezionare **[!UICONTROL Click here to change the file format...]** nella finestra principale dell&#39;attività **[!UICONTROL Data loading (file)]**. Viene visualizzata la finestra dei dettagli del formato.
 
-![](assets/file_loading_columns_format.png)
+![Finestra di formato file con impostazioni generali e una tabella Columns con tipo di dati, valori NULL e lunghezza consentiti.](assets/file_loading_columns_format.png)
 
 È quindi possibile modificare la formattazione generale del file e la formattazione di ogni colonna.
 
@@ -108,7 +108,7 @@ La formattazione della colonna ti consente di definire il valore di elaborazione
 
 L&#39;esempio seguente consente di raccogliere un file sul server ogni giorno, caricarne il contenuto e aggiornare i dati nel database in base alle informazioni in esso contenute. Il fascicolo da raccogliere contiene informazioni sui clienti che possono aver effettuato acquisti (per un valore superiore o inferiore a 3,000 euro), chiesto un rimborso su un acquisto o visitato il negozio senza acquistare nulla. A seconda di queste informazioni, vari processi verranno applicati al loro profilo nel database.
 
-![](assets/s_advuser_load_file_sample_0.png)
+![Flusso di lavoro con l&#39;agente di raccolta file, caricamento dati (file) e suddivisione, che porta a quattro attività Aggiorna dati per tipo di acquisto.](assets/s_advuser_load_file_sample_0.png)
 
 1. Il raccoglitore di file consente di recuperare i file memorizzati in una directory, a seconda della frequenza specificata.
 
@@ -116,13 +116,13 @@ L&#39;esempio seguente consente di raccogliere un file sul server ogni giorno, c
 
    L&#39;utilizzo di **[!UICONTROL File collector]** è descritto nella sezione [Raccoglitore file](file-collector.md).
 
-   ![](assets/s_advuser_load_file_sample_1.png)
+   ![Scheda Directory dell&#39;agente di raccolta file con una directory del server e il filtro per i file di testo dei clienti.](assets/s_advuser_load_file_sample_1.png)
 
    La scheda **[!UICONTROL Schedule]** consente di pianificare l&#39;esecuzione dell&#39;agente di raccolta, ovvero di specificare la frequenza con cui verrà verificata la presenza di questi file.
 
    In questo caso, vogliamo attivare il raccoglitore ogni giorno alle 21.
 
-   ![](assets/s_advuser_load_file_sample_2.png)
+   ![Scheda Pianificazione dell&#39;agente di raccolta file con l&#39;esecuzione del piano selezionata e il trigger giornaliero delle 21:00, più il pulsante Cambia.](assets/s_advuser_load_file_sample_2.png)
 
    A tale scopo, fare clic sul pulsante **[!UICONTROL Change...]** situato nella sezione inferiore destra dello strumento di modifica e configurare la pianificazione.
 
@@ -130,7 +130,7 @@ L&#39;esempio seguente consente di raccogliere un file sul server ogni giorno, c
 
 1. Quindi configura l’attività di caricamento dei dati (file) per indicare come devono essere letti i file raccolti. A questo scopo, seleziona un file di esempio con la stessa struttura dei file da caricare.
 
-   ![](assets/s_advuser_load_file_sample_3.png)
+   ![Attività di caricamento dati (file) con un file di esempio e un&#39;anteprima dell&#39;evento, cognome, nome e altre colonne.](assets/s_advuser_load_file_sample_3.png)
 
    In questo caso, il file contiene cinque colonne:
 
@@ -143,15 +143,15 @@ L&#39;esempio seguente consente di raccogliere un file sul server ogni giorno, c
 
    L’attività Dividi è descritta nella sezione.
 
-   ![](assets/s_advuser_load_file_sample_4.png)
+   ![Dividi sottoinsieme per Nessun acquisto, con il collegamento Modifica che apre una query in cui il campo Evento è selezionato come espressione.](assets/s_advuser_load_file_sample_4.png)
 
    Per ogni sottoinsieme, specifica uno dei valori nella colonna **Evento**.
 
-   ![](assets/s_advuser_load_file_sample_5.png)
+   ![Query della condizione del filtro con l&#39;espressione Evento (Event) uguale a 0 per il sottoinsieme.](assets/s_advuser_load_file_sample_5.png)
 
    L&#39;attività **[!UICONTROL Split]** conterrà pertanto le seguenti informazioni:
 
-   ![](assets/s_advuser_load_file_sample_6.png)
+   ![Dividi attività con schede di subset per meno di 3000 acquisti, Nessun acquisto, Restituzione e oltre 3000 acquisti; Nessun acquisto mostrato.](assets/s_advuser_load_file_sample_6.png)
 
 1. Specificare quindi i processi da eseguire per ciascun tipo di popolazione. Nel nostro esempio, andremo a **[!UICONTROL Update the data]** nel database. A questo scopo, inserisci un&#39;attività **[!UICONTROL Update data]** alla fine di ogni transizione in uscita dall&#39;attività divisa.
 

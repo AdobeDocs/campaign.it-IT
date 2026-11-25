@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '436'
 ht-degree: 3%
 ---
 # Gestione dati SQL{#sql-data-management}
@@ -73,7 +73,7 @@ Per ulteriori dettagli e best practice, consulta [Codice SQL](sql-code-and-javas
 
    In caso contrario, digitare o copiare e incollare lo script SQL nell&#39;area dedicata.
 
-   ![](assets/sql_datamanagement.png)
+   ![Attività di gestione dati SQL con destinatari dello schema in uscita e uno script SQL che utilizza i nomi delle tabelle di transizione in ingresso](assets/sql_datamanagement.png)
 
    L’attività ti consente di utilizzare le seguenti variabili nello script:
 

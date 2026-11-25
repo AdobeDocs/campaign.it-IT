@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1729'
 ht-degree: 1%
 ---
 # Arricchimento{#enrichment}
@@ -36,24 +36,24 @@ ht-degree: 1%
 
 L&#39;attività **[!UICONTROL Enrichment]** consente di aggiungere informazioni a un elenco di profili e collegamenti a una tabella esistente (creare un nuovo join). È inoltre possibile definire i criteri di riconciliazione con i profili nel database.
 
-![](assets/enrichment_design.png)
+![Diagramma del flusso di lavoro con attività di arricchimento, ad esempio 3 newsletter e servizio Etichetta, che alimenta un&#39;attività Primi 1000.](assets/enrichment_design.png)
 
 ## Definizioni {#definitions}
 
 Per utilizzare l’attività di arricchimento, è necessario avere familiarità con le varie opzioni disponibili quando si aggiungono i dati.
 
-![](assets/enrichment_edit.png)
+![Attività di arricchimento Aggiungi collegamento dati aprendo la procedura guidata Dati aggiuntivi con i cinque tipi di dati da aggiungere.](assets/enrichment_edit.png)
 
 L&#39;opzione **[!UICONTROL Data linked to the filtering dimension]** consente di accedere a:
 
 * Dati della dimensione filtro: accesso ai dati della tabella di lavoro
 * Dati collegati alla dimensione filtro: accesso ai dati collegati alla tabella di lavoro
 
-![](assets/wf_enrich_linkoptions.png)
+![Selezionare i campi per aggiungere la pagina con i dati della dimensione filtro e i dati collegati alle opzioni della dimensione filtro.](assets/wf_enrich_linkoptions.png)
 
 L&#39;opzione **[!UICONTROL A link]** consente di creare un join su qualsiasi tabella del database.
 
-![](assets/wf_enrich_linkstype.png)
+![Pagina di definizione del collegamento in cui sono elencati i quattro tipi di collegamento, con Definisci una raccolta selezionata e la sezione Destinazione collegamento.](assets/wf_enrich_linkstype.png)
 
 Esistono quattro tipi di collegamenti:
 
@@ -83,27 +83,27 @@ Il campo **[!UICONTROL Primary set]** consente di selezionare la transizione in 
 
 Fare clic sul collegamento **[!UICONTROL Add data]** e selezionare il tipo di dati da aggiungere. L’elenco dei tipi di dati offerti dipende dai moduli e dalle opzioni installati nella piattaforma. In una configurazione minima, puoi sempre aggiungere dati collegati alla dimensione di filtro e un collegamento.
 
-![](assets/enrichment_edit.png)
+![Attività di arricchimento Aggiungi collegamento dati aprendo la procedura guidata Dati aggiuntivi con i cinque tipi di dati da aggiungere.](assets/enrichment_edit.png)
 
 Nell’esempio seguente, la transizione in uscita verrà arricchita con informazioni sull’età dei profili target.
 
-![](assets/enrichment_add_data.png)
+![Dati da aggiungere alla pagina con il campo Età selezionato nella dimensione Targeting ed elencato nelle colonne Output.](assets/enrichment_add_data.png)
 
 Fai clic con il pulsante destro del mouse sulla transizione in entrata dell’attività di arricchimento per visualizzare i dati prima della fase di arricchimento.
 
-![](assets/enrichment_content_before.png)
+![Menu di scelta rapida nella transizione dopo l&#39;unione 2 con l&#39;opzione Visualizza destinazione evidenziata.](assets/enrichment_content_before.png)
 
 La tabella di lavoro contiene i dati seguenti e lo schema associato:
 
-![](assets/enrichment_content_before_a.png)
+![Visualizza la popolazione con i dati della tabella di lavoro prima dell&#39;arricchimento e il relativo schema con la chiave primaria e la dimensione di targeting.](assets/enrichment_content_before_a.png)
 
 Ripetete questa operazione nell&#39;output della fase di arricchimento.
 
-![](assets/enrichment_content_after.png)
+![Menu di scelta rapida nella transizione dopo l&#39;attività Enrichment 3 con l&#39;opzione Visualizza destinazione evidenziata.](assets/enrichment_content_after.png)
 
 Puoi vedere che sono stati aggiunti i dati relativi alle età del profilo:
 
-![](assets/enrichment_content_after_a.png)
+![Visualizza la popolazione con la colonna Age aggiunta e lo schema arricchito con le dimensioni Age, Primary Key e Targeting.](assets/enrichment_content_after_a.png)
 
 Anche lo schema corrispondente è stato arricchito.
 
@@ -111,11 +111,11 @@ Anche lo schema corrispondente è stato arricchito.
 
 Deselezionare l&#39;opzione **[!UICONTROL Keep all additional data from the main set]** se non si desidera conservare i dati aggiuntivi definiti in precedenza. In questo caso, solo le colonne aggiuntive selezionate nell&#39;attività di arricchimento verranno aggiunte alla tabella di lavoro in uscita. Le informazioni aggiuntive aggiunte alle attività a monte non verranno salvate.
 
-![](assets/enrichment_edit_without_additional.png)
+![Scheda Arricchimento con Mantieni tutti i dati aggiuntivi dal set principale cancellati e elencata solo la pagina (dimensione di targeting).](assets/enrichment_edit_without_additional.png)
 
 I dati e lo schema nell’output della fase di arricchimento saranno i seguenti:
 
-![](assets/enrichment_content_after_without_additional.png)
+![Visualizza la finestra di popolazione con la colonna Age e il relativo schema dopo l&#39;arricchimento senza i dati aggiuntivi del set principale.](assets/enrichment_content_after_without_additional.png)
 
 ## Creazione di un collegamento {#creating-a-link}
 
@@ -140,19 +140,19 @@ A questo scopo, esegui i seguenti passaggi:
 
 1. Modificare l&#39;attività di arricchimento e fare clic sul collegamento **Aggiungi dati...** per creare un join con la tabella Paese.
 
-   ![](assets/enrichment_edit_after_file_box.png)
+   ![Flusso di lavoro con Agente di raccolta file, Caricamento dati (file) e Arricchimento, con il collegamento Aggiungi dati dell&#39;attività Arricchimento.](assets/enrichment_edit_after_file_box.png)
 
 1. Selezionare l&#39;opzione **[!UICONTROL Link definition]** e fare clic sul pulsante **[!UICONTROL Next]**. Specifica il tipo di collegamento da creare. In questo esempio, vogliamo riconciliare il paese del destinatario del file con un paese nell’elenco dei paesi disponibili nella tabella dedicata del database. Scegli l’opzione **[!UICONTROL Define a link by searching for a reference among several options]**. Selezionare la tabella dei paesi nel campo **[!UICONTROL Target schema]**.
 
-   ![](assets/enrichment_add_a_link_select_option4.png)
+   ![Definizione del collegamento con Definizione di un collegamento mediante la ricerca di un riferimento tra diverse opzioni e destinazione Paese (nms).](assets/enrichment_add_a_link_select_option4.png)
 
 1. Infine, selezionare i campi che consentono di collegare i valori del file di origine a quelli del database.
 
-   ![](assets/enrichment_add_a_link_select_join.png)
+   ![Condizioni di join della definizione del collegamento che mappano il paese di origine al campo dell&#39;etichetta inglese dello schema Paese.](assets/enrichment_add_a_link_select_join.png)
 
 All’output di questa attività di arricchimento, lo schema temporaneo conterrà il collegamento alla tabella del paese:
 
-![](assets/enrichment_external_link_schema.png)
+![Scheda Schema della finestra dei risultati che mostra la struttura generata con la chiave esterna e il collegamento Paese e i relativi campi.](assets/enrichment_external_link_schema.png)
 
 ## Riconciliazione dei dati {#data-reconciliation}
 
@@ -162,7 +162,7 @@ Selezionare l&#39;opzione **[!UICONTROL Identify the targeting document based on
 
 Puoi utilizzare uno o più criteri di riconciliazione.
 
-![](assets/enrichment_reconciliations_tab_01.png)
+![Scheda Riconciliazione con Identificare il documento dai dati di lavoro ed espressioni di origine e di destinazione.](assets/enrichment_reconciliations_tab_01.png)
 
 Se sono specificate più condizioni di unione, è necessario verificarle TUTTE in modo che i dati possano essere collegati tra loro.
 
@@ -174,7 +174,7 @@ Per ulteriori informazioni sull&#39;attività di arricchimento, fare riferimento
 
 Ad esempio, puoi arricchire i dati di una query del destinatario prima di una consegna.
 
-![](assets/int_enrichment_offer1.png)
+![Flusso di lavoro con un&#39;attività Query, un&#39;attività Enrichment e un&#39;attività Direct mail delivery connesse in sequenza.](assets/int_enrichment_offer1.png)
 
 Dopo aver configurato la query (consulta questa [sezione](query.md)):
 
@@ -182,18 +182,18 @@ Dopo aver configurato la query (consulta questa [sezione](query.md)):
 1. Nella scheda **[!UICONTROL Enrichment]**, selezionare **[!UICONTROL Add data]**.
 1. Selezionare **[!UICONTROL An offer proposition]** nei tipi di dati da aggiungere.
 
-   ![](assets/int_enrichment_offer2.png)
+   ![Seleziona il tipo di dati da aggiungere alla pagina con una proposta di offerta selezionata.](assets/int_enrichment_offer2.png)
 
 1. Specifica un identificatore e un’etichetta per la proposta che verrà aggiunta.
 1. Specifica la selezione dell’offerta. Esistono due opzioni possibili per questo:
 
    * **[!UICONTROL Search for the best offer in a category]**: selezionare questa opzione e specificare i parametri di chiamata del motore di offerta (spazio dell&#39;offerta, categoria o temi, data di contatto, numero di offerte da mantenere). Il motore calcola automaticamente le offerte da aggiungere in base a questi parametri. È consigliabile completare il campo **[!UICONTROL Category]** o **[!UICONTROL Theme]**, anziché entrambi contemporaneamente.
 
-     ![](assets/int_enrichment_offer3.png)
+     ![Pagina della proposta di offerta con i campi Identificatore, Etichetta, Spazio, Categoria offerta e Data di contatto per la migliore ricerca di offerte.](assets/int_enrichment_offer3.png)
 
    * **[!UICONTROL A predefined offer]**: selezionare questa opzione e specificare uno spazio dell&#39;offerta, un&#39;offerta specifica e una data di contatto per configurare direttamente l&#39;offerta da aggiungere senza chiamare il motore delle offerte.
 
-     ![](assets/int_enrichment_offer4.png)
+     ![Pagina della proposta di offerta con identificatore, etichetta, spazio, offerta specifica e data di contatto per un&#39;offerta predefinita.](assets/int_enrichment_offer4.png)
 
 1. Quindi configura un’attività di consegna che corrisponde al canale scelto. Consulta [Consegne cross-channel](cross-channel-deliveries.md).
 
@@ -211,11 +211,11 @@ Per eseguire questa operazione:
 1. Nella finestra in cui si sceglie il tipo di dati da aggiungere, selezionare **[!UICONTROL A link]**.
 1. Seleziona il tipo di collegamento che desideri stabilire e la relativa destinazione. In questo caso, la destinazione è lo schema dell’offerta.
 
-   ![](assets/int_enrichment_link1.png)
+   ![Pagina di definizione del collegamento con un collegamento la cui destinazione è sempre disponibile e Offerte di marketing (nms) come schema di destinazione.](assets/int_enrichment_link1.png)
 
 1. Specifica il join tra i dati della tabella in entrata nell’attività di arricchimento (qui la tabella dei destinatari) e la tabella delle offerte. Ad esempio, puoi collegare un codice di offerta a un destinatario.
 
-   ![](assets/int_enrichment_link2.png)
+   ![Condizioni di join della definizione del collegamento che collegano l&#39;ID crittografato di origine al codice dell&#39;offerta, con offerta Identifier.](assets/int_enrichment_link2.png)
 
 1. Quindi configura un’attività di consegna che corrisponde al canale scelto. Consulta [Consegne cross-channel](cross-channel-deliveries.md).
 
@@ -234,11 +234,11 @@ Tuttavia, è possibile memorizzare queste informazioni come segue:
 1. Crea una chiamata al motore di offerta in un’attività di arricchimento inserita dopo una query e prima di un’attività di consegna.
 1. Nella finestra principale dell&#39;attività, selezionare **[!UICONTROL Edit additional data...]**.
 
-   ![](assets/ita_enrichment_rankweight_1.png)
+   ![Scheda Arricchimento in cui sono elencate le colonne della proposta di offerta, con il collegamento Modifica dati aggiuntivi evidenziato.](assets/ita_enrichment_rankweight_1.png)
 
 1. Aggiungi le colonne **[!UICONTROL @rank]** per la classificazione e **[!UICONTROL @weight]** per il peso dell&#39;offerta.
 
-   ![](assets/ita_enrichment_rankweight_2.png)
+   ![Seleziona una finestra di colonne aggiuntive con colonne di peso e classificazione aggiunte alla proposta utilizzando Aggiungi un elemento secondario.](assets/ita_enrichment_rankweight_2.png)
 
 1. Conferma l’aggiunta e salva il flusso di lavoro.
 

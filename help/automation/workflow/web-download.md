@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '573'
 ht-degree: 1%
 ---
 # Download web{#web-download}
@@ -47,23 +47,23 @@ L&#39;attività **Download Web** avvia il download di un file su un URL esplicit
 
    * Per immettere direttamente l&#39;URL del file da scaricare, selezionare l&#39;opzione **[!UICONTROL Explicit URL]** e specificare l&#39;URL nel campo appropriato. Questo URL può essere costruito con dati variabili.
 
-     ![](assets/download_web_edit.png)
+     ![Attività di download Web con l&#39;opzione URL esplicito selezionata e un campo URL vuoto.](assets/download_web_edit.png)
 
    * Per utilizzare un **[!UICONTROL External account]**, selezionare l&#39;account dall&#39;elenco a discesa e specificare il file da scaricare.
 
      Gli account esterni sono configurati dal nodo **[!UICONTROL Administration > Platform > External accounts]** della struttura Adobe Campaign. I parametri dell&#39;account possono essere modificati tramite l&#39;icona **[!UICONTROL Edit link]**.
 
-     ![](assets/download_web_edit_external.png)
+     ![Sezione del file Web con account esterno selezionato, con un account e il nome del file da scaricare.](assets/download_web_edit_external.png)
 
    * Per scaricare il file dall&#39;istanza di Adobe Campaign, selezionare l&#39;opzione **[!UICONTROL Adobe Campaign Instance]**.
 
-     ![](assets/download_web_edit_instance.png)
+     ![Sezione di file Web con istanza di Adobe Campaign selezionata e un nome di file che utilizza una variabile.](assets/download_web_edit_instance.png)
 
 1. **Storicizzazione file**
 
    Il collegamento **[!UICONTROL File historization settings...]** consente di specificare la directory di archiviazione dei file e la frequenza di eliminazione della directory.
 
-   ![](assets/download_web_edit_hist.png)
+   ![Finestra di dialogo delle impostazioni di storicizzazione con la directory di archiviazione, il numero di file e le impostazioni di eliminazione delle dimensioni massime (in MB).](assets/download_web_edit_hist.png)
 
    Sono disponibili le seguenti opzioni:
 
@@ -85,7 +85,7 @@ L&#39;attività **Download Web** avvia il download di un file su un URL esplicit
    * **[!UICONTROL Add the HTTP headers to the file]**: in alcuni casi, potrebbe essere utile aggiungere altre intestazioni HTTP a un file. Nella maggior parte dei casi, queste intestazioni verranno utilizzate per fornire informazioni aggiuntive a scopo di risoluzione dei problemi, per [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/docs/Web/HTTP/CORS) o per impostare direttive di caching specifiche.
    * **[!UICONTROL Ignore the HTTP return code]**: i codici di ritorno HTTP, noti anche come codici di stato HTTP, indicano il risultato di una richiesta HTTP.
 
-   ![](assets/download_web_edit_advanced.png)
+   ![Finestra di dialogo Parametri avanzati con seguire i reindirizzamenti, aggiungere le intestazioni HTTP al file e ignorare il codice di ritorno HTTP.](assets/download_web_edit_advanced.png)
 
    L&#39;opzione **[!UICONTROL Process errors]** è descritta in [Errori di elaborazione](monitor-workflow-execution.md#processing-errors).
 

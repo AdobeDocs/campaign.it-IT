@@ -21,9 +21,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '376'
 ht-degree: 2%
 ---
 # Fork{#fork}
@@ -40,7 +40,7 @@ Per configurare un&#39;attività **[!UICONTROL Fork]** e le attività correlate,
 
 1. Apri l&#39;attività **[!UICONTROL Fork]** e definisci il nome e l&#39;etichetta delle transizioni in uscita.
 
-   ![](assets/s_user_segmentation_fork.png)
+   ![Effettua il forking dell&#39;attività con quattro transizioni e la finestra Transizione utilizzata per modificare il nome e l&#39;etichetta della transizione 4.](assets/s_user_segmentation_fork.png)
 
 1. Apri ogni transizione in uscita e configurala.
 1. Facoltativamente, per unire le transizioni in uscita, aggiungi un’attività AND-join. [Ulteriori informazioni](and-join.md).

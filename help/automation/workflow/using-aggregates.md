@@ -17,10 +17,10 @@ feature_v2:
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 3%
+source-wordcount: '682'
+ht-degree: 2%
 ---
 # Utilizzare gli aggregati{#using-aggregates}
 
@@ -37,7 +37,7 @@ Per eseguire un filtro di tipo **Data di creazione = max (Data di creazione)** s
 1. Il collegamento di ciascun destinatario alla funzione di aggregazione restituisce lo stesso schema.
 1. Filtra i destinatari utilizzando l’aggregato tramite lo schema modificato.
 
-![](assets/datamanagement_usecase_1.png)
+![Flusso di lavoro: i destinatari e le query DateMax generano un&#39;attività Modifica schema, quindi un&#39;attività Dividi e Fine.](assets/datamanagement_usecase_1.png)
 
 ## Passaggio 1: calcolo del risultato aggregato {#step-1--calculating-the-aggregate-result}
 
@@ -46,7 +46,7 @@ Per eseguire un filtro di tipo **Data di creazione = max (Data di creazione)** s
 1. Nelle finestre aperte, selezionare **[!UICONTROL Data linked to the filtering dimension]** e quindi **[!UICONTROL Filtering dimension data]**.
 1. Nella finestra **[!UICONTROL Data to add]**, aggiungi una colonna che calcola il valore massimo per il campo **Data creazione** nella tabella dei destinatari. Puoi utilizzare l&#39;editor espressioni o immettere **max(@created)** direttamente in un campo della colonna **[!UICONTROL Expression]**. Quindi fare clic sul pulsante **[!UICONTROL Finish]**.
 
-   ![](assets/datamanagement_usecase_2.png)
+   ![Dati da aggiungere alla finestra con la colonna di output Max(data di creazione) nella colonna Espressione e il pulsante Fine.](assets/datamanagement_usecase_2.png)
 
 1. Fai clic su **[!UICONTROL Edit additional data]**, quindi su **[!UICONTROL Advanced parameters...]**. Seleziona l’opzione **[!UICONTROL Disable automatic adding of the primary keys of the targeting dimension]**.
 
@@ -65,7 +65,7 @@ Per collegare la query che tratta i destinatari alla query che esegue il calcolo
    * Selezionare **[!UICONTROL Use a simple join]** per collegare il risultato aggregato a ogni destinatario del set principale.
    * Infine, specificare che il collegamento è un **[!UICONTROL Type 11 simple link]**.
 
-   ![](assets/datamanagement_usecase_3.png)
+   ![Definizione collegamento con schema temporaneo DateMax, Usa un join semplice e il collegamento semplice Tipo 11 selezionato.](assets/datamanagement_usecase_3.png)
 
 Il risultato dell&#39;aggregazione è quindi collegato a ciascun destinatario.
 
@@ -86,7 +86,7 @@ Una volta stabilito il collegamento, il risultato aggregato e i destinatari fann
    * **[!UICONTROL Expression]**: `toDate([target/@created])`.
    * **[!UICONTROL Value]**: `toDate([datemax/expr####])`, dove expr#### fa riferimento all&#39;aggregato specificato nella query della funzione di aggregazione.
 
-   ![](assets/datamanagement_usecase_4.png)
+   ![Filtro elemento di destinazione: destinazione ToDate/@created uguale a DateOnly(Max(data di creazione)).](assets/datamanagement_usecase_4.png)
 
 Il risultato dell’attività divisa si riferisce quindi ai destinatari creati lo stesso giorno dell’ultima data di creazione nota.
 

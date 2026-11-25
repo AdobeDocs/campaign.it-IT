@@ -30,24 +30,24 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 2%
+source-wordcount: '166'
+ht-degree: 1%
 ---
 # Celle{#cells}
 
 L&#39;attività **[!UICONTROL Cells]** fornisce una visualizzazione dei vari sottoinsiemi come colonne di dati. Semplifica la manipolazione dei sottoinsiemi ed è progettato anche per sfruttare le funzionalità di personalizzazione.
 
-![](assets/wf_split_cells.png)
+![Scheda Celle dell&#39;attività Celle che elenca il subset da 1 a 3 con colonne di filtro, limitazione, esclusione e codice segmento.](assets/wf_split_cells.png)
 
 Questa attività può essere configurata per immettere parametri specifici in base alle esigenze dell’utente. Per impostazione predefinita, i dettagli di ciascun sottoinsieme sono descritti in una finestra dedicata tramite le schede **[!UICONTROL Cells]** e **[!UICONTROL Advanced]**.
 
-![](assets/wf_split_cells_with_customization.png)
+![Scheda Celle con il pulsante Dettaglio evidenziato per aprire i dettagli del sottoinsieme selezionato.](assets/wf_split_cells_with_customization.png)
 
 Nell&#39;esempio seguente, il modulo di input è stato modificato: è stata aggiunta una scheda **[!UICONTROL Data]** per abilitare l&#39;associazione di un&#39;offerta e un livello di priorità per ogni sottoinsieme.
 
-![](assets/cells-activity-sample.png)
+![Dettagli del subset con una scheda Dati personalizzata contenente i campi Codice segmento, Priorità, Identificatore cella e Offerte.](assets/cells-activity-sample.png)
 
 Per questa configurazione, le seguenti informazioni sono state aggiunte al modulo del flusso di lavoro, nel nodo **[!UICONTROL Administration > Configurations > Input forms]** di Adobe Campaign Explorer:
 

@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 3%
+source-wordcount: '797'
+ht-degree: 1%
 ---
 # Flusso di lavoro per consegna cross-channel{#cross-channel-delivery-workflow}
 
@@ -47,18 +47,18 @@ I passaggi principali di implementazione per questo caso d’uso sono i seguenti
    * Invia un SMS ai destinatari che hanno aperto l’e-mail ma non hanno fatto clic sul collegamento all’offerta.
    * Aggiungi al database i destinatari che hanno aperto l’e-mail e fatto clic sul collegamento.
 
-![](assets/wkf_cross-channel_7.png)
+![Flusso di lavoro da una query e da un&#39;e-mail Gold Members, tramite Wait and Split, a Promemoria e-mail, SMS e aggiornamento elenco](assets/wkf_cross-channel_7.png)
 
 ## Passaggio 1: creare il pubblico {#step-1--build-the-audience}
 
 Per definire il target, crea una query per identificare i destinatari.
 
-1. Creare una campagna. Per ulteriori informazioni, consulta [questa pagina](../campaigns/marketing-campaign-create.md).
+1. Creare una campagna. Ulteriori informazioni in [Creare campagne di marketing](../campaigns/marketing-campaign-create.md).
 1. Nella scheda **[!UICONTROL Targeting and workflows]** della campagna, aggiungi un&#39;attività **Query** al flusso di lavoro. Per ulteriori informazioni sull&#39;utilizzo di questa attività, consulta [questa sezione](query.md).
 1. Definisci i destinatari che riceveranno le consegne. Ad esempio, selezionare membri &quot;Gold&quot; come dimensione di destinazione.
 1. Aggiungi condizioni di filtro alla query. In questo esempio, seleziona i destinatari che dispongono di un indirizzo e-mail e di un numero di cellulare.
 
-   ![](assets/wkf_cross-channel_3.png)
+   ![Finestra di filtro per i membri Gold dell&#39;elenco con condizioni L&#39;indirizzo e-mail non è vuoto e il dispositivo mobile non è vuoto](assets/wkf_cross-channel_3.png)
 
 1. Salva le modifiche.
 
@@ -67,21 +67,21 @@ Per definire il target, crea una query per identificare i destinatari.
 1. Creare una consegna e-mail.
 1. Progetta il messaggio e inserisci un collegamento che includa un’offerta nel contenuto.
 
-   ![](assets/wkf_cross-channel_1.png)
+   ![Finestra Gestione delle offerte con le opzioni di selezione delle offerte, il campo Spazio offerte ed Escludi destinatari non idonei](assets/wkf_cross-channel_1.png)
 
-   Per ulteriori informazioni sull&#39;integrazione di un&#39;offerta nel corpo di un messaggio, fare riferimento a [questa pagina](../../v8/send/email.md).
+   Per ulteriori informazioni sull&#39;integrazione di un&#39;offerta nel corpo di un messaggio, consulta [Inviare e-mail con Adobe Campaign](../../v8/send/email.md).
 
 1. Salva le modifiche.
 1. Fare clic con il pulsante destro del mouse sull&#39;attività **[!UICONTROL Email delivery]** per aprirla.
 1. Selezionare l&#39;opzione **[!UICONTROL Generate an outbound transition]** per recuperare la popolazione e i registri di tracciamento.
 
-   ![](assets/wkf_cross-channel_2.png)
+   ![Attività Email delivery con generazione di una transizione in uscita selezionata](assets/wkf_cross-channel_2.png)
 
    Questo ti consentirà di utilizzare queste informazioni per inviare un’altra consegna a seconda del comportamento dei destinatari al momento della ricezione della prima e-mail.
 
 1. Aggiungi un&#39;attività **[!UICONTROL Wait]** per consentire ai destinatari di aprire l&#39;e-mail per alcuni giorni.
 
-   ![](assets/wkf_cross-channel_4.png)
+   ![Attività di attesa con il campo Durata impostato su 3d](assets/wkf_cross-channel_4.png)
 
 ## Passaggio 3: segmentare il pubblico risultante {#step-3--segment-the-resulting-audience}
 
@@ -90,32 +90,32 @@ Una volta identificata la destinazione e creata la prima consegna, devi segmenta
 1. Aggiungi un&#39;attività **Split** al flusso di lavoro e aprila. Per ulteriori informazioni sull&#39;utilizzo di questa attività, consulta [questa sezione](split.md).
 1. Crea tre segmenti dalla popolazione calcolata a monte nella query.
 
-   ![](assets/wkf_cross-channel_6.png)
+   ![Dividi la scheda Sottoinsiemi attività con tre sottoinsiemi: non hai aperto l&#39;e-mail, hai aperto ma non hai fatto clic sul collegamento, hai fatto clic su](assets/wkf_cross-channel_6.png)
 
 1. Per il primo sottoinsieme, selezionare l&#39;opzione **[!UICONTROL Add a filtering condition on the inbound population]** e fare clic su **[!UICONTROL Edit]**.
 
-   ![](assets/wkf_cross-channel_8.png)
+   ![Il sottoinsieme diviso non ha aperto l&#39;e-mail con Aggiungi una condizione di filtro sul gruppo in entrata e il collegamento Modifica](assets/wkf_cross-channel_8.png)
 
 1. Selezionare **[!UICONTROL Recipients of a delivery]** come filtro di restrizione e fare clic su **[!UICONTROL Next]**.
 
-   ![](assets/wkf_cross-channel_9.png)
+   ![Finestra della dimensione di targeting e filtro con i destinatari di una consegna selezionati nell&#39;elenco dei filtri di restrizione](assets/wkf_cross-channel_9.png)
 
 1. Nelle impostazioni del filtro, selezionare **[!UICONTROL Recipients who have not opened or clicked (email)]** dall&#39;elenco a discesa **[!UICONTROL Behavior]** e selezionare l&#39;e-mail che include l&#39;offerta che si desidera inviare dall&#39;elenco di consegna. Fai clic su **[!UICONTROL Finish]**.
 
-   ![](assets/wkf_cross-channel_10.png)
+   ![Finestra dell&#39;elemento di destinazione con comportamento impostato su Destinatari che non hanno aperto o fatto clic (e-mail) e una consegna selezionata](assets/wkf_cross-channel_10.png)
 
 1. Procedere in modo simile per il secondo sottoinsieme e selezionare **[!UICONTROL Recipients who have not clicked (email)]** dall&#39;elenco a discesa **[!UICONTROL Behavior]**.
 
-   ![](assets/wkf_cross-channel_11.png)
+   ![Elenco comportamenti aperto con destinatari che non hanno fatto clic (e-mail) selezionati](assets/wkf_cross-channel_11.png)
 
 1. Per il terzo sottoinsieme, dopo aver selezionato **[!UICONTROL Add a filtering condition on the inbound population]** e aver fatto clic su **[!UICONTROL Edit]**, selezionare l&#39;opzione **[!UICONTROL Use a specific filtering dimension]**.
 1. Selezionare **[!UICONTROL Recipient tracking log]** dall&#39;elenco a discesa **[!UICONTROL Filtering dimension]**, evidenziare **[!UICONTROL Filtering conditions]** da **[!UICONTROL List of restriction filters]** e fare clic su **[!UICONTROL Next]**.
 
-   ![](assets/wkf_cross-channel_12.png)
+   ![Utilizza una dimensione filtro specifica selezionata con la dimensione filtro impostata nel registro di tracciamento dei destinatari](assets/wkf_cross-channel_12.png)
 
 1. Seleziona le condizioni del filtro come segue:
 
-   ![](assets/wkf_cross-channel_13.png)
+   ![Condizioni filtro: Tipo uguale a Clic e-mail, Etichetta di consegna uguale a E-mail con offerta invernale e offerta invernale](assets/wkf_cross-channel_13.png)
 
 1. Fai clic su **[!UICONTROL Finish]** per salvare le modifiche.
 

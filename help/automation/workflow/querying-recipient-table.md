@@ -23,10 +23,10 @@ role_v2:
     internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 3%
+source-wordcount: '528'
+ht-degree: 2%
 ---
 # Eseguire una query sulla tabella dei destinatari {#querying-recipient-table}
 
@@ -55,18 +55,18 @@ Per creare questo esempio, attieniti alla seguente procedura:
 1. Fai clic su **[!UICONTROL Tools > Generic query editor...]** e scegli la tabella **Destinatari** (**nms:recipient**). Quindi fai clic su **[!UICONTROL Next]**.
 1. Scegliere: **[!UICONTROL Last name]**, **[!UICONTROL First name]**, **[!UICONTROL Email]**, **[!UICONTROL City]** e **[!UICONTROL Account number]**. Questi campi vengono aggiunti a **[!UICONTROL Output columns]**. Quindi fai clic su **[!UICONTROL Next]**.
 
-   ![](assets/query_editor_03.png)
+   ![Dati da estrarre con i campi E-mail, Cognome, Nome, Città e N. account nelle colonne di output](assets/query_editor_03.png)
 
 1. Ordinare le colonne per visualizzarle nell&#39;ordine corretto. In questo caso si desidera ordinare i numeri di conto in ordine decrescente e i nomi in ordine alfabetico. Quindi fai clic su **[!UICONTROL Next]**.
 
-   ![](assets/query_editor_04.png)
+   ![Passaggio di ordinamento con numero account ordinato in ordine decrescente e cognome in ordine crescente](assets/query_editor_04.png)
 
 1. Nella finestra **[!UICONTROL Data filtering]**, perfeziona la ricerca: scegli **[!UICONTROL Filtering conditions]** e fai clic su **[!UICONTROL Next]**.
 1. La finestra **[!UICONTROL Target element]** consente di immettere le impostazioni del filtro.
 
    Definisci la seguente condizione di filtro: destinatari con un dominio e-mail uguale a &quot;orange.co.uk&quot;. A tale scopo, scegliere **Dominio e-mail (@email)** nella colonna **[!UICONTROL Expression]**, scegliere **uguale a** nella colonna **[!UICONTROL Operator]** e immettere &quot;orange.co.uk&quot; nella colonna **[!UICONTROL Value]**.
 
-   ![](assets/query_editor_05.png)
+   ![Passaggio elemento di destinazione con il filtro Dominio e-mail (@domain) uguale a orange.co.uk e riepilogo query](assets/query_editor_05.png)
 
 1. Se necessario, fare clic sul pulsante **[!UICONTROL Distribution of values]** per visualizzare una distribuzione basata sul dominio e-mail dei potenziali clienti. È disponibile una percentuale per ogni dominio e-mail nel database. I domini diversi da &quot;orange.co.uk&quot; vengono visualizzati finché non viene applicato il filtro.
 
@@ -74,19 +74,19 @@ Per creare questo esempio, attieniti alla seguente procedura:
 
 1. Fare clic su **[!UICONTROL Preview]** per avere un&#39;idea del risultato della query: vengono visualizzati solo i domini e-mail &quot;orange.co.uk&quot;.
 
-   ![](assets/query_editor_nveau_17.png)
+   ![Scheda Anteprima elemento di destinazione in cui sono elencati solo i destinatari con un indirizzo e-mail orange.co.uk](assets/query_editor_nveau_17.png)
 
 1. Ora modificheremo la query per trovare i contatti che non vivono a Londra.
 
    Selezionare **[!UICONTROL City (location/@city)]** nella colonna **[!UICONTROL Expression]**, **[!UICONTROL different from]** come operatore e immettere **[!UICONTROL London]** nella colonna **[!UICONTROL Value]**.
 
-   ![](assets/query_editor_08.png)
+   ![Passaggio elemento di destinazione con la condizione Città (posizione/@city) non uguale a Londra aggiunta al filtro](assets/query_editor_08.png)
 
 1. Verrà visualizzata la finestra **[!UICONTROL Data formatting]**. Controlla l’ordine delle colonne. Sposta la colonna &quot;Città&quot; verso l’alto sotto la colonna &quot;Numero account&quot;.
 
    Deselezionare la colonna &quot;Nome&quot; per rimuoverla dall&#39;elenco.
 
-   ![](assets/query_editor_nveau_15.png)
+   ![Passaggio di formattazione dei dati con l&#39;ordine delle colonne e la colonna Nome deselezionata](assets/query_editor_nveau_15.png)
 
 1. Nella finestra **[!UICONTROL Data preview]**, fare clic su **[!UICONTROL Start the preview of the data]**. Questa funzione calcola il risultato della query.
 
@@ -94,12 +94,12 @@ Per creare questo esempio, attieniti alla seguente procedura:
 
    Il risultato mostra tutti i destinatari con un dominio e-mail &quot;orange.co.uk&quot; che non vivono a Londra. La colonna &quot;Nome&quot; non viene visualizzata perché è stata deselezionata durante la fase precedente. I numeri di conto sono ordinati in ordine decrescente.
 
-   ![](assets/query_editor_nveau_12.png)
+   ![Anteprima dati con la scheda Risultati colonna che mostra il numero di account, la città, l&#39;indirizzo e-mail e il cognome del risultato della query](assets/query_editor_nveau_12.png)
 
    La scheda **[!UICONTROL XML result]** mostra il risultato in formato XML.
 
-   ![](assets/query_editor_nveau_13.png)
+   ![Anteprima dati con scheda Risultato XML che mostra il risultato della query come elementi XML del destinatario](assets/query_editor_nveau_13.png)
 
    La scheda **[!UICONTROL Generated SQL queries]** mostra il risultato della query in formato SQL.
 
-   ![](assets/query_editor_nveau_14.png)
+   ![Anteprima dati con la scheda Query SQL generate che mostra l&#39;istruzione SELECT della query](assets/query_editor_nveau_14.png)

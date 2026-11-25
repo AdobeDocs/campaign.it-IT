@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 5%
+source-wordcount: '294'
+ht-degree: 4%
 ---
 # Aggiornamento dell’elenco trimestrale tramite una query incrementale {#quarterly-list-update}
 
@@ -36,7 +36,7 @@ Nell&#39;esempio seguente viene utilizzata una [query incrementale](incremental-
 
 Poiché tali campagne sono lanciate all’inizio di ogni stagione per offrire attività sportive pertinenti, tali elenchi sono aggiornati ogni trimestre. Tuttavia, un destinatario in questo caso deve essere oggetto di targeting solo una volta ogni 9 mesi per questa campagna. Questo ti consente di intervallare la frequenza di idoneità del destinatario e di offrire attività per diverse stagioni nel corso degli anni.
 
-![](assets/incremental_query_example.png)
+![Flusso di lavoro con un&#39;attività Incremental query collegata tramite la relativa transizione dei risultati a un&#39;attività List Update](assets/incremental_query_example.png)
 
 1. Aggiungi una query incrementale e un’attività di aggiornamento elenco in un nuovo flusso di lavoro.
 1. Configura la scheda **[!UICONTROL Incremental query]** dell&#39;attività come specificato in [Crea una query](query.md#creating-a-query).

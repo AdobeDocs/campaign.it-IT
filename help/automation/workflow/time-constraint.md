@@ -17,10 +17,10 @@ feature_v2:
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 4%
+source-wordcount: '117'
+ht-degree: 3%
 ---
 # Attività Time constraint{#time-constraint}
 
@@ -30,4 +30,4 @@ Immetti l’etichetta per l’attività e specifica l’intervallo di tempo dura
 
 Quando l&#39;opzione **[!UICONTROL Try again later if outside of execution period]** è selezionata, consente di riavviare l&#39;attività al di fuori dell&#39;intervallo di tempo di esecuzione. se desideri che l’azione del flusso di lavoro venga abbandonata definitivamente dopo la sospensione, deseleziona questa opzione.
 
-![](assets/s_user_scheduled_wait.png)
+![Attività vincolo di tempo con orari di inizio e fine e riprovare più tardi se non è selezionato il periodo di esecuzione.](assets/s_user_scheduled_wait.png)

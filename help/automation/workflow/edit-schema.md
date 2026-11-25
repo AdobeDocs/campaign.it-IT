@@ -25,10 +25,10 @@ role_v2:
     internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 3%
+source-wordcount: '149'
+ht-degree: 2%
 ---
 # Modifica di uno schema{#edit-schema}
 
@@ -38,10 +38,10 @@ I dati possono essere trasformati, normalizzati e, se necessario, arricchiti nel
 
 Questa attività non modifica i dati nella tabella di lavoro, ma solo il relativo schema, ovvero la vista logica dei dati.
 
-![](assets/wf_manipulation_box.png)
+![Modifica l&#39;attività dello schema con le colonne e le espressioni di output, inclusa una colonna Media ordine calcolata con Media](assets/wf_manipulation_box.png)
 
 È inoltre possibile creare join con altre tabelle di lavoro tramite la scheda **[!UICONTROL Links]**.
 
-![](assets/wf_manipulation_box_link_tab.png)
+![Scheda Collegamenti di Modifica schema con la finestra di dialogo Definizione collegamento che mostra lo schema di destinazione e le condizioni di unione](assets/wf_manipulation_box_link_tab.png)
 
 La sezione inferiore consente di configurare l’elenco delle condizioni di join, ovvero i criteri utilizzati per riconciliare i dati delle due tabelle.

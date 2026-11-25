@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 10%
+source-wordcount: '388'
+ht-degree: 8%
 ---
 # Consegna continua{#continuous-delivery}
 
@@ -34,11 +34,11 @@ ht-degree: 10%
 
 Un&#39;azione di tipo **Consegna continua** consente di aggiungere nuovi destinatari a una consegna esistente. Questo tipo di consegna evita di dover creare ogni volta una nuova consegna: questa modalità è spesso più efficiente, in particolare per gli avvisi o le notifiche di basso volume inviate come e quando necessario.
 
-![](assets/do-not-localize/how-to-video.png) [Guarda un video su questa funzione](#continuous-delivery-video)
+![Icona riproduzione video](assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](#continuous-delivery-video)
 
 A livello di modello di consegna, puoi specificare uno script per calcolare l’etichetta (e la cartella della campagna) della consegna associata. Se lo script calcola una consegna che non esiste ancora, viene creato al volo.
 
-![](assets/edit_diffusion_fil.png)
+![Attività di consegna continua con un campo Modello e le opzioni Destinatari, oltre alla casella di controllo Elabora errori](assets/edit_diffusion_fil.png)
 
 L&#39;opzione **[!UICONTROL Process errors]** visualizza una transizione particolare che verrà attivata se viene generato un errore. In questo caso, il flusso di lavoro non entra in modalità di errore e continua con l’esecuzione.
 
@@ -79,6 +79,6 @@ Una consegna continua creerà un SINGOLO registro di consegna e consegna (broadL
 
 Questo video mostra come configurare una consegna continua con una query incrementale.
 
->[!VIDEO](https://video.tv.adobe.com/v/329896?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)
 
-Ulteriori video dimostrativi di Campaign sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=it){target="_blank"}.
+Ulteriori video dimostrativi di Campaign sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.

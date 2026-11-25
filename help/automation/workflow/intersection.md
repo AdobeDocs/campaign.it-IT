@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 9%
+source-wordcount: '440'
+ht-degree: 8%
 ---
 # Intersezione{#intersection}
 
@@ -36,13 +36,13 @@ Un&#39;attività di tipo **Intersection** crea una destinazione dall&#39;interse
 
 L’intersezione consente di estrarre solo la popolazione comune a tutti i risultati delle attività in entrata. Il target viene creato con tutti i risultati ricevuti: tutte le attività precedenti devono quindi essere completate prima che l’intersezione possa essere eseguita. Per configurare questa attività, devi immettere un’etichetta e le opzioni relative al risultato.
 
-![](assets/s_user_segmentation_inter.png)
+![Attività di intersezione con riconciliazione impostata solo su Chiavi, un&#39;etichetta Risultato e l&#39;opzione Genera complemento](assets/s_user_segmentation_inter.png)
 
 Per ulteriori informazioni sulla configurazione e l&#39;utilizzo dell&#39;attività di intersezione, fare riferimento a [Estrazione dei dati del giunto (intersezione)](targeting-workflows.md#extract-joint-data--intersection-).
 
 Selezionare l&#39;opzione **[!UICONTROL Generate complement]** se si desidera elaborare il gruppo rimanente. Il complemento conterrà l’unione dei risultati di tutte le attività in entrata senza l’intersezione. Verrà quindi aggiunta all’attività un’ulteriore transizione in uscita, come segue:
 
-![](assets/s_user_segmentation_inter_compl.png)
+![Attività di intersezione con due transizioni in uscita, Risultato e Complemento](assets/s_user_segmentation_inter_compl.png)
 
 ## Esempio di intersezione {#intersection-example}
 
@@ -60,7 +60,7 @@ Nell’esempio seguente, lo scopo dell’intersezione è quello di calcolare i d
 
    Il risultato dell&#39;intersezione viene inviato al primo aggiornamento elenco. Se hai scelto di utilizzare il complemento, questo viene inviato anche al secondo aggiornamento dell’elenco.
 
-   ![](assets/intersection_example.png)
+   ![Tre query che inviano un&#39;intersezione con risultato e complemento passano a due attività di aggiornamento elenco](assets/intersection_example.png)
 
 ## Parametri di input {#input-parameters}
 

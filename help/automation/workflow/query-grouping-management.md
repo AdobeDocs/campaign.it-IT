@@ -23,10 +23,10 @@ role_v2:
     internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 4%
+source-wordcount: '329'
+ht-degree: 3%
 ---
 # Eseguire query tramite gestione dei raggruppamenti {#querying-using-grouping-management}
 
@@ -50,32 +50,32 @@ Per creare questo esempio, attieniti alla seguente procedura:
 
 1. Apri **[!UICONTROL Generic query editor]** e scegli la tabella Destinatario (**nms:recipient**).
 
-   ![](assets/query_editor_02.png)
+   ![Schermata del tipo di documento dell&#39;editor di query generico con destinatari (nms) selezionati.](assets/query_editor_02.png)
 
 1. Nella finestra **[!UICONTROL Data to extract]**, selezionare i campi **[!UICONTROL Email domain]** e **[!UICONTROL Primary key]**. Eseguire un conteggio nel campo **[!UICONTROL Primary key]**.
 
 1. Selezionare la casella **[!UICONTROL Handle groupings (GROUP BY + HAVING)]**.
 
-   ![](assets/query_editor_nveau_29.png)
+   ![Dati da estrarre nella schermata con le colonne Dominio e-mail e Conteggio (chiave primaria), Gestisci raggruppamenti (GROUP BY + HAVING) selezionate.](assets/query_editor_nveau_29.png)
 
 1. Nella finestra **[!UICONTROL Sorting]**, ordina i domini e-mail in ordine decrescente. Per eseguire questa operazione, selezionare **[!UICONTROL Yes]** nella colonna **[!UICONTROL Descending sort]**. Fai clic su **[!UICONTROL Next]**.
 
-   ![](assets/query_editor_nveau_70.png)
+   ![Schermata di ordinamento con dominio e-mail ordinato, con le colonne Ordinamento e Ordinamento decrescente.](assets/query_editor_nveau_70.png)
 
 1. In **[!UICONTROL Data filtering]**, seleziona **[!UICONTROL Filtering conditions]**. Passare alla finestra **[!UICONTROL Target elements]** e fare clic su **[!UICONTROL Next]**.
 1. Nella finestra **[!UICONTROL Data grouping]**, selezionare **[!UICONTROL Email domain]** facendo clic su **[!UICONTROL Add]**.
 
    Questa finestra di raggruppamento dati viene visualizzata solo se è stata selezionata la casella **[!UICONTROL Handle groupings (GROUP BY + HAVING]**).
 
-   ![](assets/query_editor_blocklist_04.png)
+   ![Schermata di raggruppamento dati che elenca il dominio e-mail (@domain) come colonna del gruppo per la clausola GROUP BY.](assets/query_editor_blocklist_04.png)
 
 1. Nella finestra **[!UICONTROL Grouping condition]**, indica un conteggio di chiavi primarie maggiore di 30 poiché si desidera che vengano restituiti come risultati solo i domini e-mail con destinazione superiore a 30 volte.
 
    Questa finestra viene visualizzata quando è stata selezionata la casella **[!UICONTROL Manage groupings (GROUP BY + HAVING)]**: è qui che il risultato del raggruppamento viene filtrato (HAVING).
 
-   ![](assets/query_editor_blocklist_05.png)
+   ![Schermata delle condizioni di raggruppamento con conteggio (chiave primaria) maggiore di 30 per la clausola HAVING.](assets/query_editor_blocklist_05.png)
 
 1. Nella finestra **[!UICONTROL Data formatting]**, fare clic su **[!UICONTROL Next]**: non è necessaria alcuna formattazione.
 1. Nella finestra di anteprima dei dati, fai clic su **[!UICONTROL Launch data preview]**: qui vengono restituiti tre diversi domini e-mail con destinazione superiore a 30 volte.
 
-   ![](assets/query_editor_blocklist_06.png)
+   ![La schermata di anteprima dei dati restituisce due domini e-mail dopo l&#39;avvio dell&#39;anteprima.](assets/query_editor_blocklist_06.png)

@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 3%
+source-wordcount: '885'
+ht-degree: 2%
 ---
 # Definire le approvazioni {#defining-approvals}
 
@@ -43,11 +43,11 @@ Un messaggio viene inviato a un gruppo di operatori e il flusso di lavoro attend
 
 Un’approvazione può contenere più opzioni che l’operatore può scegliere. Tuttavia, è possibile limitare il numero di scelte a una per inviare un&#39;attività da eseguire a un operatore, ad esempio l&#39;esecuzione del targeting. L&#39;operatore può quindi rispondere una volta che l&#39;operazione viene eseguita (il processo riprende). L’esempio seguente illustra questi tipi di approvazioni:
 
-![](assets/validation-1.png)
+![Flusso di lavoro con approvazione di convalida della consegna che porta a Invia, Notifica rifiuto e Notifica richiesta di modifica](assets/validation-1.png)
 
 Nelle operazioni, tutte le fasi che richiedono l’approvazione si basano sullo stesso principio.
 
-![](assets/validation-1-in-op.png)
+![Blocco di consegna della campagna con il menu Approvazione che mostra Approva contenuto e Approva targeting, entrambi in attesa di approvazione](assets/validation-1-in-op.png)
 
 Un operatore può rispondere in uno dei due modi seguenti: tramite la convalida tramite la pagina web collegata nel messaggio e-mail o tramite la console.
 
@@ -69,7 +69,7 @@ Nelle operazioni, gli elementi da approvare vengono visualizzati nel dashboard d
 
 Per i flussi di lavoro tecnici, è possibile accedere alle attività che l&#39;utente può approvare dalla struttura ad albero nella cartella **[!UICONTROL Administration > Production > Objects created automatically > Pending approvals]**.
 
-![](assets/validation-node.png)
+![Struttura di Explorer con Amministrazione > Produzione > Oggetti creati automaticamente > Approvazioni in sospeso selezionate](assets/validation-node.png)
 
 ## Gruppi {#groups}
 
@@ -86,7 +86,7 @@ Le scadenze sono transizioni specifiche utilizzate in diversi tipi di attività 
 
 La seconda scheda nelle proprietà di approvazione dell’attività ti consente di definire una o più scadenze. In effetti, puoi definire più tipi di scadenza.
 
-![](assets/expiration.png)
+![Scheda Scadenza approvazione con una finestra dei dettagli della scadenza e l&#39;elenco delle opzioni di ritardo per il tipo di scadenza](assets/expiration.png)
 
 Per aggiungere una nuova scadenza, fare clic su **[!UICONTROL Add]**. A ciascuna delle scadenze create viene aggiunta una transizione. Puoi eseguire le seguenti azioni:
 

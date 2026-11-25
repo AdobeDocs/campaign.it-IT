@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 33%
+source-wordcount: '684'
+ht-degree: 31%
 ---
 # Proprietà del flusso di lavoro{#workflow-properties}
 
@@ -35,7 +35,7 @@ ht-degree: 33%
 
 La scheda **[!UICONTROL Execution]** della finestra **[!UICONTROL Properties]** in un flusso di lavoro è suddivisa in 3 sezioni:
 
-![](assets/wf_execution_tab.png)
+![Scheda Esecuzione con le sezioni Scheduler, Execution ed Error Management delle proprietà del flusso di lavoro.](assets/wf_execution_tab.png)
 
 ### Modulo di pianificazione {#scheduler}
 
@@ -65,7 +65,7 @@ Questa sezione viene visualizzata solo nei flussi di lavoro delle campagne.
 
   Le query vengono visualizzate in una scheda **[!UICONTROL SQL logs]** che viene aggiunta al flusso di lavoro (ad eccezione dei flussi di lavoro della campagna) e all&#39;attività **[!UICONTROL Properties]** quando l&#39;opzione è abilitata. La scheda **[!UICONTROL Audit]** include anche le query SQL.
 
-  ![](assets/wf_tab_log_sql.png)
+  ![Finestra del flusso di lavoro con la scheda Registri SQL evidenziata accanto alle schede Diagramma e Audit.](assets/wf_tab_log_sql.png)
 
 * **[!UICONTROL Execute in the engine]**
 
@@ -102,7 +102,7 @@ Questa sezione viene visualizzata solo nei flussi di lavoro delle campagne.
 
   Gli operatori interessati riceveranno una notifica via e-mail, se nel loro profilo è presente un indirizzo e-mail. Per definire i supervisori del flusso di lavoro, passare al campo **[!UICONTROL Supervisor(s)]** delle proprietà (**[!UICONTROL General]** scheda).
 
-  ![](assets/wf-properties_select-supervisors.png)
+  ![Scheda Generale con l&#39;elenco a discesa Supervisori aperto ed evidenziati i Supervisori del flusso di lavoro.](assets/wf-properties_select-supervisors.png)
 
   Il modello predefinito di **[!UICONTROL Notification to a workflow supervisor]** include un collegamento per accedere alla console client di Adobe Campaign tramite il Web in modo che il destinatario possa occuparsi del problema una volta effettuato l&#39;accesso.
 

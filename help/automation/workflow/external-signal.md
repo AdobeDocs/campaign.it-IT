@@ -21,9 +21,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '194'
 ht-degree: 2%
 ---
 # Segnale esterno{#external-signal}
@@ -38,7 +38,7 @@ Per ulteriori informazioni sulla funzione PostEvent, consulta la documentazione 
 
 Puoi configurare questa attività per definire gli eventi se non viene ricevuto alcun segnale. A tale scopo, modificare l&#39;attività e fare clic sulla scheda **[!UICONTROL Expiration]**. Fare clic sul pulsante **[!UICONTROL Insert]** per creare e configurare un evento.
 
-![](assets/edit_signal.png)
+![Scheda Scadenza segnale esterno che elenca tre scadenze, con la finestra Dettagli scadenza aperta](assets/edit_signal.png)
 
 La configurazione delle scadenze è descritta in [Scadenze](define-approvals.md).
 
@@ -46,4 +46,4 @@ Il campo **Ritardo** consente di specificare un ritardo di scadenza nelle unità
 
 Ogni riga rappresenta un tipo di scadenza e coincide con una transizione.
 
-![](assets/external_sign_diag.png)
+![Attività del segnale esterno con transizioni in uscita Scadenza, Scadenza 2, Scadenza 3 e nuova](assets/external_sign_diag.png)

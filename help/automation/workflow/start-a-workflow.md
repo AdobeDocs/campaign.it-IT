@@ -27,9 +27,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1180'
 ht-degree: 0%
 ---
 # Avviare, sospendere e interrompere un flusso di lavoro {#starting-a-workflow}
@@ -50,7 +50,7 @@ L&#39;elenco delle opzioni disponibili nel menu di **[!UICONTROL Actions]** e ne
 
 Il pulsante **[!UICONTROL Actions]** della barra degli strumenti consente di accedere a opzioni di esecuzione aggiuntive nei flussi di lavoro selezionati. È inoltre possibile utilizzare il menu **[!UICONTROL File > Actions]** oppure fare clic con il pulsante destro del mouse su un flusso di lavoro e selezionare **[!UICONTROL Actions]**.
 
-![](assets/purge_historique.png)
+![Elenco dei flussi di lavoro con il menu Azioni aperto e Cronologia di rimozione evidenziata tra le opzioni Start, Pause, Stop e Restart.](assets/purge_historique.png)
 
 * **[!UICONTROL Start]**
 
@@ -134,7 +134,7 @@ Migliora la stabilità dell’istanza implementando le seguenti best practice:
 
 Quando sono selezionate una o più attività del flusso di lavoro, puoi fare clic con il pulsante destro del mouse per intervenire sulla selezione.
 
-![](assets/contextual_menu.png)
+![Menu di scelta rapida su un&#39;attività del flusso di lavoro con Visualizza registri evidenziati e opzioni Apri, Taglia, Copia, Elimina e Salva.](assets/contextual_menu.png)
 
 Nel menu di scelta rapida sono disponibili le seguenti opzioni:
 
