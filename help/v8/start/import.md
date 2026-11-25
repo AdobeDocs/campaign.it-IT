@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
+source-git-commit: 9548dde346f10c57350f21e5946690f2f988b939
 workflow-type: tm+mt
-source-wordcount: '4502'
+source-wordcount: '4507'
 ht-degree: 3%
 ---
 # Importare dati in Campaign {#ootb-profiles}
@@ -169,7 +169,7 @@ Esistono quattro tipi di campi calcolati:
 
 ### Passaggio 4 - Riconciliazione {#step-4---reconciliation}
 
-Il passaggio di riconciliazione dell’assistente all’importazione ti consente di definire la modalità di riconciliazione dei dati del file con i dati esistenti nel database e di impostare le regole di priorità tra i dati del file e i dati del database. La finestra di configurazione si presenta così:
+Il passaggio di riconciliazione dell’assistente all’importazione ti consente di definire il modo in cui i dati del file vengono riconciliati con i dati esistenti nel database. Consente inoltre di impostare le regole di priorità tra i dati del file e i dati del database. La finestra di configurazione si presenta così:
 
 ![Schermata di riconciliazione con la struttura dei campi, in cui First name è impostato come parte della chiave di riconciliazione 1.](assets/s_ncs_user_import_wizard04_1.png)
 
@@ -205,7 +205,7 @@ Per gestire la deduplicazione è necessario specificare almeno una chiave di ric
 
 Una chiave di riconciliazione è un insieme di campi utilizzati per identificare un record. Ad esempio, per importare i destinatari, la chiave di riconciliazione può essere il numero dell’account, il campo &quot;e-mail&quot; o i campi &quot;Cognome, Nome, Società&quot; e così via.
 
-In questo caso, per verificare se una riga di un file corrisponde a un destinatario esistente nel database, il motore di importazione confronta i valori del file con quelli del database per tutti i campi della chiave. Quando i campi sono specifici di un record, è possibile eseguire un confronto preciso tra i dati di origine e di destinazione, garantendo l’integrità dei dati dopo l’importazione. Una seconda chiave di riconciliazione può essere compilata per la stessa tabella; viene utilizzata per le righe la cui prima chiave è vuota.
+In questo caso, il motore di importazione confronta i valori del file con quelli del database per tutti i campi della chiave. In questo modo viene verificato se una riga del file corrisponde a un destinatario esistente nel database. Quando i campi sono specifici di un record, è possibile eseguire un confronto preciso tra i dati di origine e di destinazione, garantendo l’integrità dei dati dopo l’importazione. Una seconda chiave di riconciliazione può essere compilata per la stessa tabella; viene utilizzata per le righe la cui prima chiave è vuota.
 
 Evita di scegliere un campo che potrebbe essere modificato durante l’importazione; in questo caso, il motore potrebbe creare record aggiuntivi.
 
@@ -253,7 +253,7 @@ I dettagli di questi rifiuti possono essere visualizzati tramite la scheda **[!U
 Esistono due tipi di rifiuto (il tipo viene visualizzato nella colonna **[!UICONTROL Connector]**):
 
 * I rifiuti del connettore di testo riguardano errori che si verificano durante l’elaborazione della riga di file (campo calcolato, analisi dei dati, ecc.). In questo caso, in caso di errore, l’intera riga viene sempre rifiutata.
-* I rifiuti del connettore del database riguardano errori che si verificano durante la riconciliazione dei dati o la scrittura nel database. In caso di importazione in più tabelle, il rifiuto può riguardare solo una parte del record (ad esempio, per un’importazione di destinatari ed eventi associati, un errore può impedire l’aggiornamento di un evento senza rifiutare il destinatario).
+* I rifiuti del connettore del database riguardano errori che si verificano durante la riconciliazione dei dati o la scrittura nel database. Nel caso di un’importazione in più tabelle, il rifiuto può riguardare solo una parte del record. Ad esempio, per un’importazione di destinatari ed eventi associati, un errore può impedire l’aggiornamento di un evento senza rifiutare il destinatario.
 
 Nella pagina di riconciliazione dei dati, puoi definire il tipo di gestione degli errori desiderato, campo per campo e tabella per tabella.
 
@@ -271,7 +271,7 @@ La struttura nella schermata di rifiuto di un’istanza di importazione indica q
 
 ### Passaggio 5: passaggio aggiuntivo durante l’importazione dei destinatari {#step-5---additional-step-when-importing-recipients}
 
-Il passaggio successivo dell’assistente all’importazione consente di selezionare o creare la cartella in cui verranno importati i dati, mappare automaticamente i destinatari importati con un elenco (nuovo o esistente) e abbonare i destinatari a un servizio.
+Il passaggio successivo dell&#39;Assistente all&#39;importazione consente di selezionare o creare la cartella in cui verranno importati i dati. Puoi anche mappare automaticamente i destinatari importati con un elenco (nuovo o esistente) e abbonarli a un servizio.
 
 ![Schermata Destinatari di importazione con Modifica collegamenti per cartella, elenco e servizio più il campo Origine.](assets/s_ncs_user_import_wizard05_1.png)
 
@@ -315,7 +315,7 @@ Il passaggio successivo dell’assistente all’importazione consente di selezio
 
   1. Iscrizione a un servizio
 
-     Per sottoscrivere tutti i destinatari importati a un servizio informazioni, fare clic sul collegamento **[!UICONTROL Edit...]** della sezione **[!UICONTROL Subscribe recipients to a service]** per selezionare o creare il servizio informazioni a cui i destinatari verranno abbonati. È possibile selezionare l&#39;opzione **[!UICONTROL Send a confirmation message]**: il contenuto del messaggio è definito nel modello di consegna associato al servizio di abbonamento.
+     Per sottoscrivere tutti i destinatari importati a un servizio informazioni, fare clic sul collegamento **[!UICONTROL Edit...]** della sezione **[!UICONTROL Subscribe recipients to a service]**. Quindi seleziona o crea il servizio di informazioni a cui i destinatari saranno abbonati. È possibile selezionare l&#39;opzione **[!UICONTROL Send a confirmation message]**: il contenuto del messaggio è definito nel modello di consegna associato al servizio di abbonamento.
 
      ![Sottoscrivi i destinatari in una finestra di dialogo del servizio con un servizio esistente selezionato e Invia un messaggio di conferma selezionato.](assets/s_ncs_user_import_wizard05_7.png)
 
