@@ -27,10 +27,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 78%
+source-wordcount: '929'
+ht-degree: 70%
 ---
 # Introduzione alle campagne {#gs-ac-campaigns}
 
@@ -42,7 +42,7 @@ Le campagne includono azioni (consegne), processi (importazione o estrazione fil
 
 Adobe Campaign ti consente di progettare e orchestrare campagne mirate e personalizzate su più canali: e-mail, direct mail, SMS, notifica push. Un’unica interfaccia ti offre tutte le funzioni necessarie per pianificare, orchestrare, configurare, personalizzare, automatizzare, eseguire e misurare tutte le tue campagne e comunicazioni.
 
-![](assets/campaign-tab.png)
+![Scheda Campagne della home page in cui sono elencate le campagne di marketing con stato, date e il pulsante Crea](assets/campaign-tab.png)
 
 ### Concetti principali{#ac-core-concepts}
 
@@ -64,7 +64,7 @@ Prima di iniziare a implementare le campagne di marketing, devi acquisire famili
 
 Adobe Campaign consente di creare, configurare, eseguire e analizzare tutte le campagne di marketing da un centro di controllo unificato.
 
-![](assets/calendar.png)
+![Calendario della campagna che mostra le campagne e le consegne su una timeline, con un popup dei dettagli del programma fedeltà](assets/calendar.png)
 
 Scopri come accedere e implementare campagne di marketing in [questa sezione](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=it){target="_blank"}.
 
@@ -88,7 +88,7 @@ I passaggi principali per creare una campagna di marketing cross-channel sono i 
 
    Puoi creare i tipi di pubblico in un flusso di lavoro o selezionare un gruppo esistente, ad esempio un elenco di destinatari, gli abbonati a una newsletter o i destinatari di una consegna precedente, oppure puoi selezionare qualsiasi condizione di filtro.
 
-   ![](assets/campaign-wf.png)
+   ![Flusso di lavoro della campagna: ricerca e leggi l&#39;elenco feed una consegna di offerte estive, quindi una consegna in attesa e una consegna mobile](assets/campaign-wf.png)
 
    Per scoprire come definire il pubblico dei messaggi, consulta [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=it){target="_blank"}.
 
@@ -96,11 +96,11 @@ I passaggi principali per creare una campagna di marketing cross-channel sono i 
 
    Seleziona uno o più canali, definisci il contenuto del messaggio e avvia le consegne.
 
-   ![](assets/campaign-dashboard.png)
+   ![Dashboard di Campaign con stato, pianificazione, documenti, azioni e elenco delle consegne con i relativi stati](assets/campaign-dashboard.png)
 
-   Per informazioni su come creare e avviare le consegne di campagne marketing, consulta [questa pagina](../../automation/campaigns/marketing-campaign-deliveries.md).
+   Scopri come creare e avviare le consegne delle campagne di marketing in [Creare le consegne](../../automation/campaigns/marketing-campaign-deliveries.md#create-deliveries) e [Avviare una consegna](../../automation/campaigns/marketing-campaign-deliveries.md#start-a-delivery).
 
-   È possibile associare vari documenti a una campagna: report, foto, pagina web, diagramma, ecc. Ulteriori informazioni sui documenti associati in [questa pagina](../../automation/campaigns/marketing-campaign-assets.md).
+   È possibile associare vari documenti a una campagna: report, foto, pagina web, diagramma, ecc. Ulteriori informazioni sui documenti associati in [Risorse della campagna di marketing, documenti e profili di consegna](../../automation/campaigns/marketing-campaign-assets.md).
 
 1. **Impostare il processo di approvazione**
 
@@ -115,7 +115,7 @@ Adobe Campaign offre il componente aggiuntivo **Marketing distribuito** per l&#3
 
 >[!NOTE]
 >
->Questa funzionalità è disponibile a partire da Campaign v8.3. Per verificare la versione, consulta [questa sezione](compatibility-matrix.md)
+>Questa funzionalità è disponibile a partire da Campaign v8.3. Per verificare la versione, fare riferimento alla [Matrice di compatibilità di Campaign v8](compatibility-matrix.md)
 
 Scopri come configurare e utilizzare le funzionalità di Marketing distribuito di Campaign in [questa pagina](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=it){target="_blank"}.
 
@@ -125,6 +125,6 @@ Adobe Campaign offre il componente aggiuntivo **Gestione della risposta** che co
 
 >[!NOTE]
 >
->Questa funzionalità è disponibile a partire da Campaign v8.3. Per verificare la versione, consulta [questa sezione](compatibility-matrix.md)
+>Questa funzionalità è disponibile a partire da Campaign v8.3. Per verificare la versione, fare riferimento alla [Matrice di compatibilità di Campaign v8](compatibility-matrix.md)
 
-[&#128279;](../assets/do-not-localize/book.png) Scopri come configurare e utilizzare Campaign Response Manager nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=it){target="_blank"}.
+[](../assets/do-not-localize/book.png) Scopri come configurare e utilizzare Campaign Response Manager nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=it){target="_blank"}.

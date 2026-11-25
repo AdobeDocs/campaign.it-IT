@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '1780'
-ht-degree: 15%
+source-wordcount: '1796'
+ht-degree: 14%
 ---
 # Versioni, aggiornamenti e protezione {#upgrades}
 
@@ -43,7 +43,7 @@ In qualità di utente di Managed Cloud Services:
 
 * L’istanza del server Campaign viene aggiornata da Adobe con ogni nuova versione, in modo automatico e senza richiedere alcuna azione da parte tua.
 * Il rappresentante Adobe ti contatta prima di un aggiornamento che influisce sul tuo ambiente.
-* **La console client è l&#39;unico componente di cui sei responsabile.** Deve essere aggiornato alla stessa versione del server Campaign. Scopri come aggiornare la console client in questa [pagina](../start/connect.md#upgrade-ac-console).
+* **La console client è l&#39;unico componente di cui sei responsabile.** Deve essere aggiornato alla stessa versione del server Campaign. Scopri come aggiornare la console client in [Aggiorna la console client](../start/connect.md#upgrade-ac-console).
 
 Inoltre, in qualità di cliente, assicurati di utilizzare la versione supportata più recente dei sistemi elencati nella [Matrice di compatibilità](compatibility-matrix.md).
 
@@ -92,7 +92,7 @@ In qualità di cliente, devi inoltre assicurarti di utilizzare le versioni più 
 
 Per verificare la versione di Campaign, accedi al menu **Guida > Informazioni su...** dalla console client.
 
-![](assets/ac-version.png)
+![Informazioni sulla finestra di dialogo della console client che mostra le versioni della console client e del server applicazioni](assets/ac-version.png)
 
 Accedi alle seguenti informazioni:
 
@@ -109,7 +109,7 @@ Accedi alle seguenti informazioni:
 
 Le nuove versioni e le relative modifiche sono elencate nelle [Note sulla versione](release-notes.md).
 
-Per gli aggiornamenti sulle versioni del prodotto, abbonati ad [Aggiornamenti dei prodotti con priorità Adobe](https://www.adobe.com/it/subscription/priority-product-update.html){target="_blank"} o visita la [community di Campaign](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?profile.language=it&style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"}.
+Per gli aggiornamenti sulle versioni del prodotto, abbonati ad [Aggiornamenti dei prodotti con priorità Adobe](https://www.adobe.com/it/subscription/priority-product-update.html){target="_blank"} o visita la [community di Campaign](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"}.
 
 Per le notifiche di sicurezza e le indicazioni sulla preparazione dell&#39;organizzazione per gli aggiornamenti di sicurezza, vedere [Informazioni](#security-staying-informed).
 
