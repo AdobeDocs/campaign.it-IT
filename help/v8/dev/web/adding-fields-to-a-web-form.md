@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '2404'
+source-wordcount: '3152'
 ht-degree: 0%
 ---
 # Aggiungere campi a un modulo web{#adding-fields-to-a-web-form}
@@ -39,7 +39,7 @@ In un modulo Web, i campi consentono agli utenti di immettere informazioni e sel
 
 Quando si utilizza l’assistente per aggiungere campi, il tipo di campo viene rilevato automaticamente in base al campo o alla variabile di archiviazione selezionati. È possibile modificarlo utilizzando la casella a discesa **[!UICONTROL Type]** nella scheda **[!UICONTROL General]**.
 
-![](assets/s_ncs_admin_webform_change_type.png)
+![Finestra di dialogo Pagina, scheda Generale, con il menu a discesa Tipo aperto per cambiare un campo da Casella combinata a un altro tipo di campo](assets/s_ncs_admin_webform_change_type.png)
 
 Quando utilizzi i pulsanti nella barra degli strumenti, seleziona il tipo di campo da aggiungere.
 
@@ -66,23 +66,23 @@ Specifica la modalità di archiviazione della risposta: aggiorna un campo nel da
 
 Per ogni pagina del modulo è possibile aggiungere un campo tramite il primo pulsante nella barra degli strumenti. A tale scopo, passare al menu **[!UICONTROL Add using the assistant]**.
 
-![](assets/s_ncs_admin_survey_add_field_menu.png)
+![Creazione guidata campi che consente di rispondere a una domanda, modificare un destinatario, aggiungere una variabile e importare una domanda esistente](assets/s_ncs_admin_survey_add_field_menu.png)
 
 Selezionare il tipo di campo che si desidera creare: è possibile scegliere di aggiungere un campo nel database, una variabile o di importare un gruppo di campi creati in un altro modulo e raccolti in un contenitore.
 
 Fare clic su **[!UICONTROL Next]** e selezionare il campo o la variabile di archiviazione o il contenitore da importare.
 
-![](assets/s_ncs_admin_webform_wz_confirm_db.png)
+![Creazione guidata campi, passaggio Modifica profilo, con il campo del database Formula di apertura selezionato prima di fare clic su Fine](assets/s_ncs_admin_webform_wz_confirm_db.png)
 
 Fare clic su **[!UICONTROL Finish]** per inserire il campo selezionato nella pagina.
 
-![](assets/s_ncs_admin_webform_wz_insert_field.png)
+![Finestra di dialogo che mostra il campo Casella combinata Formula di apertura inserito nella pagina di benvenuto dopo la procedura guidata](assets/s_ncs_admin_webform_wz_insert_field.png)
 
 ## Aggiunta di campi di input {#adding-input-fields}
 
 Per aggiungere un campo di input, fare clic sul pulsante **[!UICONTROL Input control]** e scegliere il tipo di campo che si desidera aggiungere.
 
-![](assets/s_ncs_admin_webform_select_field.png)
+![Menu di controllo input con l&#39;elenco dei tipi di campi Testo, Numero, Password, Testo su più righe e Testo HTML](assets/s_ncs_admin_webform_select_field.png)
 
 ### Tipi di campi di input {#types-of-input-fields}
 
@@ -90,7 +90,7 @@ In una pagina modulo è possibile inserire cinque diversi tipi di campi di testo
 
 * **Testo**: consente all&#39;utente di immettere testo su una riga.
 
-  ![](assets/s_ncs_admin_survey_txt_ex.png)
+  ![Campo di testo con rendering con etichetta Cognome contenente un valore a una riga](assets/s_ncs_admin_survey_txt_ex.png)
 
 * **Numero**: consente all&#39;utente di immettere un numero su una riga. Per ulteriori informazioni, consulta [Aggiunta di numeri](#adding-numbers).
 
@@ -98,7 +98,7 @@ In una pagina modulo è possibile inserire cinque diversi tipi di campi di testo
 
 * **Password**: consente all&#39;utente di immettere testo su una singola riga. Durante l&#39;immissione del testo, i caratteri vengono sostituiti da punti:
 
-  ![](assets/s_ncs_admin_survey_passwd_ex.png)
+  ![Campo password con rendering etichettato Password con i caratteri digitati mascherati da punti](assets/s_ncs_admin_survey_passwd_ex.png)
 
   >[!CAUTION]
   >
@@ -106,7 +106,7 @@ In una pagina modulo è possibile inserire cinque diversi tipi di campi di testo
 
 * **Testo su più righe**: consente all&#39;utente di immettere testo su più righe.
 
-  ![](assets/s_ncs_admin_survey_txtmulti_ex.png)
+  ![Campo di testo su più righe con rendering etichettato Il messaggio con una barra di scorrimento e un testo di esempio](assets/s_ncs_admin_survey_txtmulti_ex.png)
 
   >[!CAUTION]
   >
@@ -115,21 +115,21 @@ In una pagina modulo è possibile inserire cinque diversi tipi di campi di testo
 
 * **Testo su più righe arricchito**: consente all&#39;utente di immettere testo con un layout che verrà memorizzato in formato HTML.
 
-  ![](assets/s_ncs_admin_survey_txthtmli_ex.png)
+  ![Editor di testo arricchito con rendering con barra degli strumenti di formattazione, grassetto, collegamenti e immagine inserita](assets/s_ncs_admin_survey_txthtmli_ex.png)
 
   Puoi selezionare il tipo di editor offerto agli utenti. A tale scopo, utilizzare la casella a discesa del campo **[!UICONTROL HTML editor]** nella scheda **[!UICONTROL Advanced]**.
 
-  ![](assets/webapp_enrich_text_type.png)
+  ![Scheda Avanzate con elenco a discesa dell&#39;editor di HTML Minimalist, Basic, Intermediate and Advanced](assets/webapp_enrich_text_type.png)
 
   Il numero di icone visualizzate varia a seconda del tipo di editor. Per un editor **[!UICONTROL Advanced]**, il rendering sarà il seguente:
 
-  ![](assets/webapp_enrich_text_max.png)
+  ![Editor HTML avanzato in una pagina del modulo con barra degli strumenti completa e menu a discesa Dimensione carattere aperto](assets/webapp_enrich_text_max.png)
 
 ### Configurare i campi di input {#configure-input-fields}
 
 I campi di input sono tutti configurati in base alla stessa modalità, utilizzando le seguenti opzioni:
 
-![](assets/s_ncs_admin_survey_txt_param.png)
+![Scheda Generale di un campo di immissione Testo con Label, Mandatory, Storage, Edit storage link e Default value](assets/s_ncs_admin_survey_txt_param.png)
 
 La scheda **[!UICONTROL General]** consente di immettere il nome del campo e di attribuirvi un valore predefinito, se necessario.
 
@@ -145,17 +145,17 @@ La scheda **[!UICONTROL Advanced]** consente di definire i parametri di visualiz
 
 È possibile inserire un elenco a discesa in una pagina del sondaggio. In questo modo l’utente può selezionare uno dei valori offerti in un menu a discesa.
 
-![](assets/s_ncs_admin_survey_dropdown_sample.png)
+![Elenco a discesa con rendering etichettato Titolo che offre signore, signora e signorina](assets/s_ncs_admin_survey_dropdown_sample.png)
 
 Per aggiungere una casella di riepilogo a discesa a una pagina del modulo, fare clic sul pulsante **[!UICONTROL Selection controls > Drop-down list]** nella barra degli strumenti dell&#39;editor di pagine.
 
-![](assets/s_ncs_admin_survey_create_dropdown.png)
+![Menu della barra degli strumenti dell&#39;editor di pagine Controlli di selezione con casella combinata, casella di controllo, pulsante di opzione, scelta multipla, data, griglia](assets/s_ncs_admin_survey_create_dropdown.png)
 
 Selezionare la modalità di archiviazione delle risposte e confermare la scelta.
 
 Definire le etichette e i valori dell&#39;elenco nella sezione inferiore della scheda **[!UICONTROL General]**. Se le informazioni sono memorizzate in un campo esistente del database e si tratta di un campo di enumerazione, è possibile compilare automaticamente i valori facendo clic su **[!UICONTROL Initialize the list of values from the database]** , come illustrato di seguito:
 
-![](assets/s_ncs_admin_survey_database_values.png)
+![Scheda Generale della casella combinata con l&#39;elenco Inizializza i valori dal database link e dall&#39;elenco compilato](assets/s_ncs_admin_survey_database_values.png)
 
 >[!NOTE]
 >
@@ -163,11 +163,11 @@ Definire le etichette e i valori dell&#39;elenco nella sezione inferiore della s
 
 Se i dati vengono memorizzati in una tabella collegata, è possibile selezionare il campo in cui vengono salvati i valori da suggerire nell&#39;elenco. Ad esempio, se si seleziona la tabella dei paesi, fare clic su **[!UICONTROL Initialize the list of values from the database...]** e selezionare il campo desiderato.
 
-![](assets/s_ncs_admin_survey_preload_values.png)
+![Finestra di dialogo dell&#39;applicazione Web per scegliere il campo Etichetta dalla tabella Paese, con la finestra di dialogo Seleziona un&#39;espressione](assets/s_ncs_admin_survey_preload_values.png)
 
 Fare quindi clic sul collegamento **[!UICONTROL Load]** per recuperare i valori:
 
-![](assets/s_ncs_admin_survey_load_button.png)
+![Finestra di dialogo dell&#39;applicazione Web dopo aver fatto clic su Carica, con un elenco di anteprima delle etichette e dei valori del paese](assets/s_ncs_admin_survey_load_button.png)
 
 >[!CAUTION]
 >
@@ -177,7 +177,7 @@ Fare quindi clic sul collegamento **[!UICONTROL Load]** per recuperare i valori:
 
 Per consentire all’utente di selezionare un’opzione, è necessario utilizzare una casella di controllo.
 
-![](assets/s_ncs_admin_survey_check_box.png)
+![Casella di controllo con rendering, selezionata, con l&#39;etichetta che desidero ricevere la newsletter](assets/s_ncs_admin_survey_check_box.png)
 
 Per aggiungere una casella di controllo a un modulo, fare clic sull&#39;icona **[!UICONTROL Selection controls > Checkbox...]** nella barra degli strumenti dell&#39;editor di pagine.
 
@@ -185,33 +185,33 @@ Selezionare la modalità di archiviazione delle risposte e confermare la scelta.
 
 Immettere l&#39;etichetta della casella nel campo **[!UICONTROL Label]** della scheda **[!UICONTROL General]**.
 
-![](assets/s_ncs_admin_survey_check_box_edit.png)
+![Scheda Generale della casella di controllo con i campi Etichetta, Archiviazione, Selezionato per impostazione predefinita, Valore e Valore vuoto](assets/s_ncs_admin_survey_check_box_edit.png)
 
 Una casella di controllo consente di assegnare un valore al campo di memorizzazione (o al valore) a seconda che la casella sia selezionata o meno. La sezione **[!UICONTROL Values]** consente di immettere il valore da assegnare se la casella è selezionata (nel campo **[!UICONTROL Value]**) e il valore da assegnare se non è selezionata (nel campo **[!UICONTROL Empty value]**). Questi valori dipendono dal formato di archiviazione dei dati.
 
 Se il campo di memorizzazione (o variabile) è booleano, il valore da assegnare se la casella non è selezionata verrà dedotto automaticamente. In questo caso, viene offerto solo il campo **[!UICONTROL Value if checked]**, come illustrato di seguito:
 
-![](assets/s_ncs_admin_survey_check_box_enum.png)
+![Scheda Generale della casella di controllo per un campo booleano, con l&#39;offerta a discesa Solo valore se selezionata Sì e No](assets/s_ncs_admin_survey_check_box_enum.png)
 
 ## Esempio: assegnare un valore a un campo se è selezionata una casella {#example--assign-a-value-to-a-field-if-a-box-is-checked}
 
 Si desidera inserire una casella di controllo in un modulo per inviare una richiesta di manutenzione, come illustrato di seguito:
 
-![](assets/s_ncs_admin_survey_check_box_ex.png)
+![Pagina modulo con rendering con elenco a discesa Prodotto, campo Data di spedizione e casella Manutenzione richiesta selezionata](assets/s_ncs_admin_survey_check_box_ex.png)
 
 Le informazioni verranno caricate nel database e in un campo esistente (in questo caso, il campo **[!UICONTROL Comment]**):
 
-![](assets/s_ncs_admin_survey_check_box_ex_list.png)
+![Elenco destinatari con una colonna Commento che mostra Manutenzione richiesta o Manutenzione non richiesta](assets/s_ncs_admin_survey_check_box_ex_list.png)
 
 Se la casella &quot;Manutenzione richiesta&quot; è selezionata, la colonna **[!UICONTROL Comment]** conterrà &quot;Manutenzione richiesta&quot;. Se la casella non è selezionata, nella colonna viene visualizzato &quot;Manutenzione non richiesta&quot;. Per ottenere questo risultato, applicare la seguente configurazione alla casella di controllo nella pagina del modulo:
 
-![](assets/s_ncs_admin_survey_check_box_ex_edit.png)
+![Casella di controllo obbligatoria per la manutenzione archiviata nel campo dei commenti, con valori vuoti e con valori vuoti](assets/s_ncs_admin_survey_check_box_ex_edit.png)
 
 ## Aggiunta di pulsanti di scelta {#adding-radio-buttons}
 
 I pulsanti di scelta consentono di offrire all&#39;utente una serie di opzioni esclusive tra cui scegliere. Valori diversi per lo stesso campo.
 
-![](assets/s_ncs_admin_survey_radio_button.png)
+![Pulsanti di scelta Rendering per signore, signora e signorina, con la signora selezionata](assets/s_ncs_admin_survey_radio_button.png)
 
 È possibile creare pulsanti di scelta singolarmente (pulsanti unitari) o tramite un elenco a scelta multipla, ma poiché il punto dei pulsanti di scelta è quello di selezionare un&#39;opzione o un&#39;altra, creeremo sempre almeno una coppia di pulsanti di scelta, mai un solo pulsante.
 
@@ -223,7 +223,7 @@ I pulsanti di scelta consentono di offrire all&#39;utente una serie di opzioni e
 
 Per aggiungere un pulsante di scelta a una pagina del modulo, passare al menu **[!UICONTROL Selection controls > Radio button]** nella barra degli strumenti dell&#39;editor di pagine e scegliere una modalità di archiviazione.
 
-![](assets/s_ncs_admin_survey_radio_button_sample.png)
+![Scheda Generale di un campo pulsante di opzione con opzione etichetta 1, Archiviazione variabili, Selezionata per impostazione predefinita e Valore](assets/s_ncs_admin_survey_radio_button_sample.png)
 
 I pulsanti di scelta sono configurati in modo simile alle caselle di controllo (vedere [Aggiunta di caselle di controllo](#adding-checkboxes)). Tuttavia, se l’opzione non è selezionata, non viene assegnato alcun valore. Affinché diversi pulsanti siano interdipendenti, ovvero se ne seleziona uno deseleziona automaticamente gli altri, è necessario memorizzarli nello stesso campo. Se non sono memorizzate nel database, è necessario utilizzare la stessa variabile locale per l&#39;archiviazione temporanea. Vedi [Campi di archiviazione delle risposte](web-forms-answers.md#response-storage-fields).
 
@@ -231,7 +231,7 @@ I pulsanti di scelta sono configurati in modo simile alle caselle di controllo (
 
 Per aggiungere pulsanti di scelta tramite un elenco, passare al menu **[!UICONTROL Selection controls>Multiple choice]** nella barra degli strumenti dell&#39;editor di pagine.
 
-![](assets/s_ncs_admin_survey_radio_button_sample2.png)
+![Campo a scelta multipla Scheda Generale in cui sono elencate le opzioni da 1 a 3 con le colonne Valore, Selezionato e Punteggio](assets/s_ncs_admin_survey_radio_button_sample2.png)
 
 Aggiungi tutti i pulsanti di scelta disponibili. Il vantaggio di questa funzione è che puoi importare valori da un campo esistente (in caso di campo dettagliato) e consentire all’utente di scegliere una delle opzioni. Tuttavia, la disposizione dei pulsanti è meno flessibile.
 
@@ -244,15 +244,15 @@ Aggiungi tutti i pulsanti di scelta disponibili. Il vantaggio di questa funzione
 
 Le griglie vengono utilizzate per progettare pagine di voto nelle applicazioni Web. In questo modo è possibile offrire elenchi di pulsanti di scelta per rispondere a sondaggi o moduli Web di tipo valutazione, come illustrato di seguito:
 
-![](assets/s_ncs_admin_survey_vote_param.png)
+![Griglia di valutazione con rendering con righe da Video 1 a Video 3 e pulsanti di scelta da 1 scarso a 5 eccellente](assets/s_ncs_admin_survey_vote_param.png)
 
 Per utilizzare questo tipo di elemento in un modulo, creare una griglia semplice e aggiungere una riga per ogni elemento da valutare.
 
-![](assets/s_ncs_admin_survey_vote_sample.png)
+![Editor pagina con una griglia semplice di Notes e tre linee di griglia, da Video 1 a Video 3 e valori di valutazione da 1 a 5](assets/s_ncs_admin_survey_vote_sample.png)
 
 Il numero di pulsanti di scelta in ogni riga della griglia corrisponde al numero di valori definiti nella griglia semplice.
 
-![](assets/s_ncs_admin_survey_vote_ex.png)
+![Griglia con rendering con una semplice riga di intestazione di griglia da 1 a 5 e tre righe di griglia, un pulsante di scelta scelto per riga](assets/s_ncs_admin_survey_vote_ex.png)
 
 È possibile selezionare una sola opzione per linea della griglia.
 
@@ -266,17 +266,17 @@ Il contenuto dei campi modulo può essere formattato in modo da corrispondere ai
 
 ### Aggiunta di date {#adding-dates}
 
-![](assets/s_ncs_admin_survey_date_calendar.png)
+![Campo data con selettore calendario aperto a gennaio 2017 e un giorno selezionato](assets/s_ncs_admin_survey_date_calendar.png)
 
 Per consentire all&#39;utente di immettere una data in una pagina del modulo, aggiungere un campo di input e selezionare il tipo **[!UICONTROL Date...]**.
 
 Immetti un’etichetta per il campo e configura la modalità di archiviazione dati.
 
-![](assets/s_ncs_admin_survey_date_edit.png)
+![Scheda generale di un campo Data di nascita di tipo Data, con menu a discesa Formato data e Formato ora](assets/s_ncs_admin_survey_date_edit.png)
 
 Nella sezione inferiore della finestra è possibile selezionare i formati di data e ora per i valori memorizzati in questo campo.
 
-![](assets/s_ncs_admin_survey_date_edit_values.png)
+![Formati di elenchi a discesa formato data come 12/31/12, 31 dicembre 2012 e 31 dicembre 2012](assets/s_ncs_admin_survey_date_edit_values.png)
 
 Puoi anche scegliere di non visualizzare la data (o l’ora).
 
@@ -288,37 +288,37 @@ Le date possono essere selezionate tramite un calendario o caselle a discesa. Pu
 
 Tuttavia, in alcuni casi (ad esempio per l’immissione delle date di nascita) può essere più semplice utilizzare gli elenchi a discesa.
 
-![](assets/s_ncs_admin_survey_date_list_select.png)
+![Campo data di nascita con rendering che utilizza tre elenchi a discesa per giorno, mese e anno](assets/s_ncs_admin_survey_date_list_select.png)
 
 A tale scopo, fare clic sulla scheda **[!UICONTROL Advanced]** e scegliere la modalità di input utilizzando **[!UICONTROL Drop-down lists]**.
 
-![](assets/s_ncs_admin_survey_date_selection.png)
+![Scheda Avanzate con il menu a discesa Modalità di input impostato per scegliere l&#39;input della data utilizzando un calendario o elenchi a discesa](assets/s_ncs_admin_survey_date_selection.png)
 
 Puoi quindi impostare i limiti per i valori offerti nell’elenco.
 
-![](assets/s_ncs_admin_survey_date_first_last_y.png)
+![Scheda Generale del campo Data con le caselle Primo anno e Ultimo anno che limitano gli anni offerti negli elenchi](assets/s_ncs_admin_survey_date_first_last_y.png)
 
 ### Aggiunta di numeri {#adding-numbers}
 
 È possibile creare campi appropriati per l&#39;immissione di numeri.
 
-![](assets/s_ncs_admin_survey_number.png)
+![Campo numerico con etichetta Punti con valore 2 500](assets/s_ncs_admin_survey_number.png)
 
 In un campo numerico, l’utente può immettere solo numeri. Il controllo della voce viene applicato automaticamente quando la pagina viene approvata.
 
 A seconda del campo in cui i dati vengono memorizzati nel database, è possibile applicare una formattazione speciale o determinate restrizioni. È inoltre possibile specificare valori massimi e minimi. Questo tipo di campo è configurato come segue:
 
-![](assets/s_ncs_admin_survey_number_edit.png)
+![Scheda Generale del campo Numero con le opzioni Valore predefinito, Valore minimo e Valore massimo](assets/s_ncs_admin_survey_number_edit.png)
 
 Il valore predefinito è il valore visualizzato nel campo al momento della pubblicazione del modulo. Può essere corretto dall’utente.
 
 È possibile aggiungere un prefisso e/o un suffisso al campo numerico tramite la scheda **[!UICONTROL Advanced]**, come illustrato di seguito:
 
-![](assets/s_ncs_admin_survey_number_ex_conf.png)
+![Scheda avanzata di un campo numerico con Prefisso impostato su Hai e Suffisso impostato su punti](assets/s_ncs_admin_survey_number_ex_conf.png)
 
 Nel modulo, il rendering sarà il seguente:
 
-![](assets/s_ncs_admin_survey_number_ex.png)
+![Campo numerico con rendering che mostra il prefisso esistente, il valore 10 e i punti suffisso](assets/s_ncs_admin_survey_number_ex.png)
 
 ## Caselle di controllo delle sottoscrizioni {#subscription-checkboxes}
 
@@ -326,17 +326,17 @@ Nel modulo, il rendering sarà il seguente:
 
 Per creare una casella di controllo di sottoscrizione, fare clic su **[!UICONTROL Advanced controls>Subscription]**.
 
-![](assets/s_ncs_admin_survey_subscription_edit.png)
+![Scheda Generale del campo Sottoscrizione con l&#39;elenco a discesa dei servizi di informazioni da selezionare](assets/s_ncs_admin_survey_subscription_edit.png)
 
 Indicare l&#39;etichetta della casella di controllo e selezionare il servizio informazioni interessato utilizzando la casella a discesa **[!UICONTROL Service]**.
 
 >[!NOTE]
 >
->I servizi informativi sono descritti in [questa pagina](https://experienceleague.adobe.com/it/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions){target="_blank"}.
+>I servizi informativi sono descritti in [questa pagina](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions){target="_blank"}.
 
 L’utente si iscrive al servizio selezionando l’opzione pertinente.
 
-![](assets/s_ncs_admin_survey_subscribe.png)
+![Profilo conferma rendering e modulo Seleziona newsletter con caselle di controllo per newsletter e un pulsante Convalida](assets/s_ncs_admin_survey_subscribe.png)
 
 >[!CAUTION]
 >
@@ -352,11 +352,11 @@ Lo scopo dei test **captcha** è quello di impedire l&#39;utilizzo fraudolento d
 
 Per inserire un Captcha in un modulo, fare clic sul primo pulsante sulla barra degli strumenti e selezionare **[!UICONTROL Advanced controls>Captcha]**.
 
-![](assets/s_ncs_admin_survey_add_captcha.png)
+![Menu della barra degli strumenti Controlli avanzati con l&#39;elenco File, Sottoscrizione, Costante e Captcha, con Captcha evidenziato](assets/s_ncs_admin_survey_add_captcha.png)
 
 Immetti l’etichetta del campo. Questa etichetta verrà visualizzata davanti all’area di visualizzazione Captcha. È possibile modificare la posizione di questa etichetta nella scheda **[!UICONTROL Advanced]**.
 
-![](assets/s_ncs_admin_survey_captcha_adv.png)
+![Scheda Avanzate Captcha con il menu a discesa Posizione etichetta, che offre Ereditato, Sinistra, Destra, Sopra, Sotto, Nascosto](assets/s_ncs_admin_survey_captcha_adv.png)
 
 >[!NOTE]
 >
@@ -364,15 +364,15 @@ Immetti l’etichetta del campo. Questa etichetta verrà visualizzata davanti al
 
 Il Captcha viene inserito nella pagina con un campo di input posizionato sotto l’elemento visivo. Questi due elementi sono inseparabili e sono considerati come un singolo elemento ai fini del layout di pagina (occupano una singola cella).
 
-![](assets/s_ncs_admin_survey_captcha_sample.png)
+![Pagina modulo con rendering con un&#39;immagine captcha di caratteri distorti e un campo di input sottostante](assets/s_ncs_admin_survey_captcha_sample.png)
 
 Quando la pagina viene confermata, il campo di input viene visualizzato in rosso se il contenuto del Captcha non è stato immesso correttamente.
 
-![](assets/s_ncs_admin_survey_captcha_error.png)
+![Nella pagina del modulo è visualizzato un messaggio di errore rosso che indica che i caratteri immessi devono corrispondere all&#39;immagine captcha](assets/s_ncs_admin_survey_captcha_error.png)
 
 Puoi creare un messaggio di errore da visualizzare. A tale scopo, utilizzare il collegamento **[!UICONTROL Personalize the message]** nella scheda **[!UICONTROL General]**.
 
-![](assets/s_ncs_admin_survey_captcha_error_msg.png)
+![Scheda Generale Captcha con il collegamento Personalizza il messaggio che apre la finestra di dialogo Personalizzazione messaggio](assets/s_ncs_admin_survey_captcha_error_msg.png)
 
 >[!NOTE]
 >
@@ -382,7 +382,7 @@ Puoi creare un messaggio di errore da visualizzare. A tale scopo, utilizzare il 
 
 Puoi aggiungere un campo di caricamento a una pagina. Questa funzionalità può essere utile, ad esempio, per la condivisione di file intranet.
 
-![](assets/s_ncs_admin_survey_download_file.png)
+![Campo di caricamento con rendering etichettato Carica l&#39;immagine con un pulsante Sfoglia](assets/s_ncs_admin_survey_download_file.png)
 
 Per inserire un campo di caricamento in una pagina del modulo, selezionare il menu **[!UICONTROL Advanced controls > File...]** nella barra degli strumenti dell&#39;editor pagina.
 
@@ -408,4 +408,4 @@ A questo scopo, inserisci una **costante** nella pagina e specifica il valore e 
 
 Nell&#39;esempio seguente, il campo **origin** del profilo del destinatario viene compilato automaticamente ogni volta che un utente approva la pagina. La costante non viene visualizzata nella pagina.
 
-![](assets/s_ncs_admin_survey_constante.png)
+![Campo costante denominato Origin, memorizzato nel campo del database di origine, con valore esterno](assets/s_ncs_admin_survey_constante.png)

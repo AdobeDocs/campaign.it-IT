@@ -25,9 +25,9 @@ subfeature_v2:
     internal-label: Landing pages
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
     internal-label: Email design
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '661'
 ht-degree: 3%
 ---
 # Interfaccia dell’editor di contenuti{#content-editor-interface}
@@ -38,7 +38,7 @@ ht-degree: 3%
 
 La finestra di modifica DCE è suddivisa in tre diverse sezioni. Consentono di visualizzare, modificare e controllare lo stato del contenuto.
 
-![](assets/dce_decoupe_window_nb.png)
+![Finestra di modifica DCE con tre sezioni numerate: messaggio di stato, area contenuto e pannello opzioni destra](assets/dce_decoupe_window_nb.png)
 
 1. La sezione **top** è un&#39;area di visualizzazione per i messaggi inviati all&#39;utente. Questi messaggi indicano lo stato dell’applicazione web o della consegna in fase di creazione, nonché avvisi e messaggi di errore relativi al contenuto. Per ulteriori informazioni, consulta [Stati del contenuto di HTML](content-editing-best-practices.md#html-content-statuses).
 1. La sezione a **sinistra** della finestra è l&#39;area per la modifica del contenuto. Da quest’area, l’utente può interagire direttamente con il contenuto utilizzando la barra degli strumenti pop-up: inserire un collegamento in un’immagine, modificare il font, eliminare un campo e così via. Per ulteriori informazioni, consulta [Modifica dei moduli](editing-content.md#editing-forms).
@@ -48,17 +48,17 @@ La finestra di modifica DCE è suddivisa in tre diverse sezioni. Consentono di v
 
 La sezione in alto a destra dell’editor ti consente di accedere alle opzioni globali che ti consentono di controllare il contenuto attualmente in fase di creazione.
 
-![](assets/dce_global_options.png)
+![In alto a destra nell&#39;editor con quattro icone di opzione globali sopra il pannello delle opzioni di blocco](assets/dce_global_options.png)
 
 Sono disponibili quattro icone:
 
-![](assets/dce_icons_sidebar.png)
+![Icone di opzione globali: Visualizza/Nascondi blocchi, Scegli un altro contenuto, Salva come modello e Proprietà della pagina](assets/dce_icons_sidebar.png)
 
 * L&#39;icona **Visualizza/Nascondi blocchi** consente di visualizzare frame blu intorno ai blocchi di contenuto (corrispondenti al tag HTML `<div>`).
 
 * L&#39;icona **Scegli un altro contenuto** consente all&#39;utente di caricare nuovo contenuto da un modello (modello esistente o predefinito).
 
-  ![](assets/dce_popup_templatechoice.png)
+  ![Scegliere una finestra di dialogo per il contenuto con Da un file e i modelli disponibili, ad esempio Contatto e Clickthrough](assets/dce_popup_templatechoice.png)
 
   >[!CAUTION]
   >
@@ -66,15 +66,15 @@ Sono disponibili quattro icone:
 
 * L&#39;icona **Salva come modello** consente di salvare il contenuto corrente come modello. Immettere l&#39;etichetta e il nome interno per il modello. I modelli sono archiviati nel nodo **[!UICONTROL Resources > Templates > Content templates]**.
 
-  ![](assets/dce_popup_savetemplate.png)
+  ![Finestra di dialogo Salva come modello con i campi Etichetta, Nome interno e Cartella](assets/dce_popup_savetemplate.png)
 
   Una volta salvato, il modello è disponibile e può essere selezionato durante la creazione di nuovo contenuto.
 
-  ![](assets/dce_create_fromtemplate.png)
+  ![Scheda Contenuto HTML di consegna e-mail con il modello Musica e arti salvato disponibile tra i modelli di contenuto](assets/dce_create_fromtemplate.png)
 
 * L&#39;icona **Proprietà pagina** consente di selezionare le informazioni sul contenuto nella parte superiore della pagina HTML.
 
-  ![](assets/dce_popup_headerhtml.png)
+  ![Proprietà della finestra di dialogo della pagina con i campi Titolo, Parole chiave e Descrizione per l&#39;intestazione della pagina HTML](assets/dce_popup_headerhtml.png)
 
   >[!NOTE]
   >
@@ -86,7 +86,7 @@ Sono disponibili quattro icone:
 
 La sezione a destra dell’editor raggruppa le opzioni principali che ti consentono di agire sul contenuto. Per visualizzare queste opzioni, devi selezionare un blocco: la natura di queste opzioni dipende dal blocco selezionato.
 
-![](assets/dce_right_section.png)
+![Sezione destra dell&#39;editor con le opzioni di blocco: Condizione di visibilità, Colore bordi e sfondo](assets/dce_right_section.png)
 
 Puoi eseguire le seguenti azioni:
 

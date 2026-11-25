@@ -28,10 +28,10 @@ subfeature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 4%
+source-wordcount: '347'
+ht-degree: 3%
 ---
 # Progettare un’applicazione web{#designing-a-web-application}
 
@@ -47,21 +47,21 @@ Le applicazioni Web vengono create e gestite in base allo stesso principio dei [
 
 È possibile includere grafici nelle applicazioni Web. A tale scopo, utilizzare l&#39;elenco a discesa dei grafici nella barra delle applicazioni per selezionare il tipo di grafico da inserire.
 
-![](assets/s_ncs_admin_webapps_bar_graph.png)
+![Elenco a discesa del grafico della barra degli strumenti dell&#39;editor pagina con istogramma, torta, radar, aree, curve e Funnel.](assets/s_ncs_admin_webapps_bar_graph.png)
 
 È inoltre possibile selezionare il menu **[!UICONTROL Add a chart]**.
 
-![](assets/s_ncs_admin_webapps_graph.png)
+![Menu di scelta rapida Pagina con Aggiungi un sottomenu grafico che elenca Istogramma, Torta, Radar, Aree, Curve e Funnel.](assets/s_ncs_admin_webapps_graph.png)
 
 ## Inserimento di tabelle in un&#39;applicazione Web {#inserting-tables-in-a-web-application}
 
 Per aggiungere una tabella, utilizzare l&#39;elenco a discesa delle tabelle nella barra delle applicazioni per selezionare il tipo di tabella da utilizzare.
 
-![](assets/s_ncs_admin_webapps_bar_table.png)
+![Tabella a discesa della barra degli strumenti dell&#39;editor di pagine contenente un elenco di tabella pivot, un elenco con gruppo e distribuzione.](assets/s_ncs_admin_webapps_bar_table.png)
 
 Puoi anche selezionare il tipo di tabella nel menu a discesa.
 
-![](assets/s_ncs_admin_webapps_table.png)
+![Menu di scelta rapida pagina con sottomenu Aggiungi una tabella contenente una tabella pivot, un elenco con gruppo e distribuzione.](assets/s_ncs_admin_webapps_table.png)
 
 ## Applicazioni Web di tipo Panoramica {#overview-type-web-applications}
 

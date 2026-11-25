@@ -21,9 +21,9 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '1069'
 ht-degree: 0%
 ---
 # Risposte ai moduli web{#web-forms-answers}
@@ -35,7 +35,7 @@ Le risposte ai moduli possono essere salvate temporaneamente in un campo del dat
 
 Per ogni campo di input di un modulo sono disponibili le seguenti opzioni di archiviazione:
 
-![](assets/s_ncs_admin_survey_select_storage.png)
+![Campo di input Cognome con il collegamento Modifica archivio e la finestra di dialogo Archiviazione che mostra le opzioni Modifica destinatario e Variabile.](assets/s_ncs_admin_survey_select_storage.png)
 
 * **[!UICONTROL Edit a recipient]**
 
@@ -49,7 +49,7 @@ Per ogni campo di input di un modulo sono disponibili le seguenti opzioni di arc
 
 Per salvare i dati in un campo esistente del database, fare clic sull&#39;icona **[!UICONTROL Edit expression]** e selezionarla dall&#39;elenco dei campi disponibili.
 
-![](assets/s_ncs_admin_survey_storage_type1.png)
+![Finestra di dialogo Archiviazione con espressione Modifica che apre il selettore di campi, in cui è selezionato Cognome (@lastName).](assets/s_ncs_admin_survey_storage_type1.png)
 
 >[!NOTE]
 >
@@ -61,15 +61,15 @@ Per salvare i dati in un campo esistente del database, fare clic sull&#39;icona 
 
 Ciò significa che puoi utilizzare il valore di un campo non salvato per autorizzare la visualizzazione di un gruppo di opzioni sulla pagina. Nella pagina seguente, il tipo di veicolo non è memorizzato nella banca dati:
 
-![](assets/s_ncs_admin_survey_no_storage_variable.png)
+![Tipo di casella combinata dell&#39;auto con spazio di archiviazione impostato su typeV variabile e collegamento Modifica spazio di archiviazione.](assets/s_ncs_admin_survey_no_storage_variable.png)
 
 Viene memorizzato in una variabile che deve essere selezionata al momento della creazione della casella a discesa o tramite il collegamento **[!UICONTROL Edit storage...]**.
 
-![](assets/s_ncs_admin_survey_no_storage_variable2.png)
+![Finestra di dialogo Archiviazione con l&#39;opzione Variabile e elenco a discesa Tipo di auto, camion mobile e auto personale.](assets/s_ncs_admin_survey_no_storage_variable2.png)
 
 Puoi visualizzare le variabili esistenti e crearne di nuove tramite il collegamento **[!UICONTROL Edit variables...]**. Fare clic sul pulsante **[!UICONTROL Add]** per creare una nuova variabile.
 
-![](assets/s_ncs_admin_survey_add_a_variable.png)
+![Per aggiungere una variabile, modificare l&#39;elenco delle variabili e la finestra di dialogo Variabile con l&#39;etichetta e il nome di Car Energy, digitare Testo.](assets/s_ncs_admin_survey_add_a_variable.png)
 
 La variabile aggiunta sarà disponibile nell’elenco delle variabili locali quando vengono creati i campi di input della pagina.
 
@@ -81,19 +81,19 @@ La variabile aggiunta sarà disponibile nell’elenco delle variabili locali qua
 
 Nell&#39;esempio precedente, il contenitore che include i dati relativi ai veicoli privati viene visualizzato solo se l&#39;opzione **[!UICONTROL Private]** è selezionata dall&#39;elenco a discesa, come indicato nella condizione di visibilità:
 
-![](assets/s_ncs_admin_survey_add_a_condition.png)
+![Contenitore per auto personale Condizione di visibilità: tipo di auto uguale a Personale.](assets/s_ncs_admin_survey_add_a_condition.png)
 
 Se l’utente seleziona un veicolo privato, il modulo web offre le seguenti opzioni:
 
-![](assets/s_ncs_admin_survey_no_storage_conda.png)
+![Pagina del modulo per la prenotazione di un&#39;auto che mostra l&#39;elenco a discesa Tipo di auto con Seleziona, Compatta, Intermedia e Standard.](assets/s_ncs_admin_survey_no_storage_conda.png)
 
 Il contenitore contenente i dati relativi ai veicoli commerciali sarà visualizzato se si seleziona l&#39;opzione Professionista, come espresso nella condizione di visibilità:
 
-![](assets/s_ncs_admin_survey_view_a_condition.png)
+![Condizione di visibilità contenitore camion/camion: origine uguale a camion.](assets/s_ncs_admin_survey_view_a_condition.png)
 
 Ciò significa che, se l’utente seleziona un veicolo commerciale, il modulo offre le seguenti opzioni:
 
-![](assets/s_ncs_admin_survey_no_storage_condb.png)
+![Modulo di prenotazione auto con carrello mobile selezionato e elenco a discesa Classe Minibus, Pick-up, Cargo Van e 20 Truck.](assets/s_ncs_admin_survey_no_storage_condb.png)
 
 ## Utilizzo delle informazioni raccolte {#using-collected-information}
 
@@ -125,7 +125,7 @@ Per ogni modulo, le risposte fornite possono essere riutilizzate nei campi o nel
 
 Per salvare le informazioni raccolte nelle pagine di un modulo, è necessario inserire una casella di memorizzazione nel diagramma.
 
-![](assets/s_ncs_admin_survey_save_box.png)
+![Diagramma modulo Web con pagina di benvenuto, sottoscrizione, attività di archiviazione ed estremità, casella Archiviazione evidenziata.](assets/s_ncs_admin_survey_save_box.png)
 
 Esistono due modi per utilizzare questa casella:
 
@@ -139,13 +139,13 @@ Esistono due modi per utilizzare questa casella:
 
 * Per arricchire i dati dei destinatari nel database, modifica la casella di archiviazione e seleziona la chiave di riconciliazione. Per uso interno (in genere un sistema Intranet) o per un modulo utilizzato per creare nuovi profili, ad esempio, puoi selezionare i campi di riconciliazione. Nella casella sono disponibili tutti i campi del database utilizzati nelle varie pagine dell&#39;applicazione Web:
 
-  ![](assets/s_ncs_admin_survey_save_box_edit.png)
+  ![Finestra di dialogo dell&#39;attività di archiviazione con la struttura delle opzioni di riconciliazione dei campi Destinatari e Cartella di ricerca.](assets/s_ncs_admin_survey_save_box_edit.png)
 
 Per impostazione predefinita, i dati vengono importati nel database da un&#39;operazione **[!UICONTROL Update or insertion]**: se esiste nel database, l&#39;elemento viene aggiornato (ad esempio, la newsletter selezionata o l&#39;indirizzo e-mail inserito). Se non esiste, le informazioni vengono aggiunte.
 
 Tuttavia, è possibile modificare questo comportamento. A questo scopo, seleziona la radice dell’elemento e l’operazione da eseguire dall’elenco a discesa:
 
-![](assets/s_ncs_admin_survey_save_operation.png)
+![Elenco operazioni attività di archiviazione: solo riconciliazione, Aggiorna o inserisci, Inserisci, Aggiorna ed Elimina.](assets/s_ncs_admin_survey_save_operation.png)
 
 Puoi selezionare una cartella di ricerca per la riconciliazione e la cartella di creazione per i nuovi profili. Se questi campi sono vuoti, i profili vengono cercati e creati nella cartella predefinita dell’operatore.
 
@@ -153,4 +153,4 @@ Puoi selezionare una cartella di ricerca per la riconciliazione e la cartella di
 >
 >Operazioni possibili: **[!UICONTROL Simple reconciliation]**, **[!UICONTROL Update or insertion]**, **[!UICONTROL Insertion]**, **[!UICONTROL Update]**, **[!UICONTROL Deletion]**.\
 >La cartella predefinita dell&#39;operatore è la prima cartella per la quale l&#39;operatore dispone dell&#39;autorizzazione di scrittura.\
->Fai riferimento a [questa sezione](https://experienceleague.adobe.com/it/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}.
+>Fai riferimento a [questa sezione](https://experienceleague.adobe.com/en/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}.

@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '740'
 ht-degree: 2%
 ---
 # Rinuncia al tracciamento delle applicazioni web{#web-application-tracking-opt-out}
@@ -47,13 +47,13 @@ Se un utente finale rinuncia al tracciamento comportamentale tramite cookie o we
 
 >[!NOTE]
 >
->Durante la creazione degli script, seguire sempre le linee guida descritte nell&#39;[Elenco di controllo protezione e privacy](https://helpx.adobe.com/it/campaign/kb/acc-security.html#dev).
+>Durante la creazione degli script, seguire sempre le linee guida descritte nell&#39;[Elenco di controllo protezione e privacy](https://helpx.adobe.com/campaign/kb/acc-security.html#dev).
 
 ## Configurazione del banner {#configuring-the-banner-}
 
 Per essere visualizzato nelle applicazioni web o nelle pagine di destinazione, è necessario configurare il banner.
 
-Adobe Campaign viene fornito con un banner di esempio da adattare in base alle tue esigenze. Questa versione del banner viene visualizzata come un blocco di personalizzazione che si trova nella cartella del modello di contenuto. Consulta la [documentazione di Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=it){target="_blank"}.
+Adobe Campaign viene fornito con un banner di esempio da adattare in base alle tue esigenze. Questa versione del banner viene visualizzata come un blocco di personalizzazione che si trova nella cartella del modello di contenuto. Consulta la [documentazione di Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}.
 
 >[!IMPORTANT]
 >
@@ -66,11 +66,11 @@ Se il tracciamento web è attivato, puoi avere:
 * Nessun banner.
 * Configura il banner manualmente su ogni pagina: seleziona questa opzione e seleziona il banner in ogni pagina nelle proprietà della pagina.
 
-  ![](assets/pageproperties.png)
+  ![Intestazione della finestra di dialogo delle proprietà della pagina con l&#39;opzione Abilita transizioni in uscita selezionata.](assets/pageproperties.png)
 
 * Aggiungi automaticamente il banner a tutte le pagine: seleziona il banner direttamente nelle proprietà dell&#39;applicazione Web.
 
-  ![](assets/optoutconfig.png)
+  ![Scheda Generale delle proprietà dell&#39;applicazione Web con le opzioni del banner di rinuncia: nessun banner, manuale per pagina o automatico.](assets/optoutconfig.png)
 
 >[!NOTE]
 >

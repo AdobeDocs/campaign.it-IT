@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 10%
+source-wordcount: '418'
+ht-degree: 9%
 ---
 # Creare una nuova applicazione web{#creating-a-new-web-application}
 
@@ -43,11 +43,11 @@ I tipi di applicazione Web vengono selezionati durante la creazione.
 
 Vai alla scheda **Campagne** e seleziona il menu **[!UICONTROL Web Applications]**. Fai clic sul pulsante **[!UICONTROL Create]**. Selezionare il modello di applicazione Web che si desidera utilizzare:
 
-![](assets/webapp_create_from_campaign.png)
+![Elenco applicazioni Web con il pulsante Crea e l&#39;elenco dei modelli, inclusi Nuova pagina di destinazione e Nuovo modulo Web](assets/webapp_create_from_campaign.png)
 
 >[!NOTE]
 >
->Proteggi sempre le pagine che potrebbero contenere informazioni personali. Consulta la [Lista di controllo protezione e privacy](https://helpx.adobe.com/it/campaign/kb/acc-security.html#privacy).
+>Proteggi sempre le pagine che potrebbero contenere informazioni personali. Consulta la [Lista di controllo protezione e privacy](https://helpx.adobe.com/campaign/kb/acc-security.html#privacy).
 
 Questo modello determina il tipo di applicazione Web. Puoi creare:
 
@@ -65,7 +65,7 @@ Questo modello determina il tipo di applicazione Web. Puoi creare:
 
 1. Indagini
 
-   Adobe Campaign ti consente, tramite l&#39;opzione **Gestione sondaggi**, di progettare e gestire sondaggi online ed elaborarne i risultati: creazione di campi dinamici, gestione dei punteggi, esportazione di risposte e rapporti dedicati. Per ulteriori informazioni, consulta [questa sezione](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/content/surveys/about-surveys){target="_blank"} (documentazione di Campaign v8).
+   Adobe Campaign ti consente, tramite l&#39;opzione **Gestione sondaggi**, di progettare e gestire sondaggi online ed elaborarne i risultati: creazione di campi dinamici, gestione dei punteggi, esportazione di risposte e rapporti dedicati. Per ulteriori informazioni, consulta [questa sezione](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/about-surveys){target="_blank"} (documentazione di Campaign v8).
 
    >[!CAUTION]
    >
@@ -73,7 +73,7 @@ Questo modello determina il tipo di applicazione Web. Puoi creare:
 
 1. Applicazioni Facebook
 
-   Grazie all&#39;opzione **Social Marketing**, Adobe Campaign consente di pubblicare contenuti personalizzati in un&#39;applicazione Facebook. Per ulteriori informazioni al riguardo, consulta [questa sezione](https://experienceleague.adobe.com/it/docs/campaign-classic/using/integrating-with-social-media/about-social-marketing){target="_blank"}.
+   Grazie all&#39;opzione **Social Marketing**, Adobe Campaign consente di pubblicare contenuti personalizzati in un&#39;applicazione Facebook. Per ulteriori informazioni al riguardo, consulta [questa sezione](https://experienceleague.adobe.com/en/docs/campaign-classic/using/integrating-with-social-media/about-social-marketing){target="_blank"}.
 
    >[!CAUTION]
    >

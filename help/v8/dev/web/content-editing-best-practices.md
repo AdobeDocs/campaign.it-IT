@@ -28,10 +28,10 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 4%
+source-wordcount: '599'
+ht-degree: 3%
 ---
 # Best practice per la modifica dei contenuti{#content-editing-best-practices}
 
@@ -51,13 +51,13 @@ Per garantire il funzionamento ottimale dell’editor, si consiglia di osservare
 
   L&#39;attributo **&#39;type&#39;** è visibile nell&#39;interfaccia nel seguente formato:
 
-  ![](assets/dce_sidebar_inputtypechanges.png)
+  ![Pannello della barra laterale della zona di input (e-mail) con sezione Dati modulo, selettore Campo e interruttore Obbligatorio Sì o No](assets/dce_sidebar_inputtypechanges.png)
 
   L&#39;elenco ufficiale degli attributi &#39;type&#39; è disponibile [in questo sito Web](https://www.w3schools.com/tags/att_input_type.asp).
 
 * Passaggi per simulare una pagina finale con DCE:
 
-  ![](assets/dce_enchainement.png)
+  ![Diagramma modulo con caselle Precaricamento, Pagina, Archiviazione e Pagina 2 in sequenza, che simula una pagina finale](assets/dce_enchainement.png)
 
 * Assicurarsi che nella pagina sia presente un solo `<body> </body>`.
 * Quando viene caricato un file CSS o JS, le immagini contenute nel file .zip non vengono caricate. I riferimenti a queste immagini presenti nel CSS non vengono quindi aggiornati.

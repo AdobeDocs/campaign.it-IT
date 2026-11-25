@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1364'
 ht-degree: 2%
 ---
 # Elementi statici in un modulo web{#static-elements-in-a-web-form}
@@ -37,7 +37,7 @@ ht-degree: 2%
 
 È possibile includere nelle pagine del modulo elementi con i quali l&#39;utente non ha alcuna interazione, ovvero elementi statici quali immagini, contenuto HTML, una barra orizzontale o un collegamento ipertestuale. Questi elementi vengono creati tramite il primo pulsante nella barra degli strumenti, selezionando **[!UICONTROL Static elements]**.
 
-![](assets/s_ncs_admin_survey_add_static_element.png)
+![Menu della barra degli strumenti Pagina per elementi statici: Valore, Collegamento, HTML, Immagine, Barra orizzontale, Tag di tracciamento e Script](assets/s_ncs_admin_survey_add_static_element.png)
 
 Sono disponibili i seguenti tipi di campo:
 
@@ -58,11 +58,11 @@ L’editor di HTML consente di inserire il contenuto da inserire nella pagina de
 
 Puoi inserire e formattare il contenuto direttamente o visualizzare la finestra del codice sorgente per incollare del contenuto esterno. Per passare alla modalità &quot;codice sorgente&quot;, fai clic sulla prima icona nella barra degli strumenti:
 
-![](assets/s_ncs_admin_survey_html_editor.png)
+![Editor HTML di una pagina con il pulsante Visualizza codice sorgente evidenziato e l&#39;origine HTML visualizzata](assets/s_ncs_admin_survey_html_editor.png)
 
 Per inserire un campo di database, utilizza il pulsante di personalizzazione.
 
-![](assets/webapp_perso_button_in_html.png)
+![Menu di personalizzazione dell&#39;editor di HTML con campi Destinatari quali Nome, Cognome e Chiave primaria](assets/webapp_perso_button_in_html.png)
 
 >[!NOTE]
 >
@@ -74,14 +74,14 @@ Compila i campi nella finestra di modifica come mostrato nell’esempio seguente
 
 Per aggiungere un collegamento ipertestuale, passare a **[!UICONTROL Static elements]** > **[!UICONTROL Link]**.
 
-![](assets/s_ncs_admin_survey_add_link.png)
+![Proprietà collegamento: etichetta, azione impostata su URL, URL mailto, finestra, descrizione comandi e impostazioni di visualizzazione](assets/s_ncs_admin_survey_add_link.png)
 
 * **[!UICONTROL Label]** è il contenuto del collegamento ipertestuale che verrà visualizzato nella pagina del modulo.
-* **[!UICONTROL URL]** è l&#39;indirizzo desiderato, ad esempio [https://www.adobe.com/it](https://www.adobe.com/it) per un sito Web o [info@adobe.com](mailto:info@adobe.com) per inviare un messaggio.
+* **[!UICONTROL URL]** è l&#39;indirizzo desiderato, ad esempio [https://www.adobe.com](https://www.adobe.com) per un sito Web o [info@adobe.com](mailto:info@adobe.com) per inviare un messaggio.
 * Il campo **[!UICONTROL Window]** consente di selezionare la modalità di visualizzazione per il collegamento nel caso di un sito. È possibile decidere di aprire il collegamento in una nuova finestra, nella finestra corrente o in un&#39;altra finestra.
 * È possibile aggiungere una descrizione comandi, come illustrato di seguito:
 
-  ![](assets/s_ncs_admin_survey_send_an_email.png)
+  ![Rendering Inviare un collegamento di messaggio con la descrizione comando Fare clic qui per inviare un&#39;e-mail](assets/s_ncs_admin_survey_send_an_email.png)
 
 * Puoi scegliere di visualizzare il collegamento come pulsante o immagine. A tale scopo, selezionare il tipo di visualizzazione nel campo **[!UICONTROL Type]**.
 
@@ -89,7 +89,7 @@ Per aggiungere un collegamento ipertestuale, passare a **[!UICONTROL Static elem
 
 Per impostazione predefinita, i collegamenti sono associati a un’azione di tipo URL, in modo che un indirizzo di destinazione del collegamento possa essere inserito nel campo URL.
 
-![](assets/s_ncs_admin_survey_link_url.png)
+![Collega le proprietà con un URL mailto, il campo Finestra è impostato su Crea una nuova finestra e una descrizione comandi](assets/s_ncs_admin_survey_link_url.png)
 
 Puoi definire altre azioni per il collegamento, in modo che l’utente possa fare clic sul collegamento per effettuare le seguenti operazioni:
 
@@ -97,33 +97,33 @@ Puoi definire altre azioni per il collegamento, in modo che l’utente possa far
 
   A tale scopo, selezionare l&#39;opzione **[!UICONTROL Refresh page]** nella casella a discesa del campo **[!UICONTROL Action]**.
 
-  ![](assets/s_ncs_admin_survey_link_refresh.png)
+  ![Elenco a discesa Azione collegamento Nessuno, URL, Visualizza, Aggiorna pagina, Pagina successiva e Abilita una transizione, con la pagina di aggiornamento selezionata](assets/s_ncs_admin_survey_link_refresh.png)
 
 * Visualizza la pagina precedente/successiva
 
   A tale scopo, selezionare l&#39;opzione **[!UICONTROL Next page]** o **[!UICONTROL Previous page]** nella casella a discesa del campo **[!UICONTROL Action]**.
 
-  ![](assets/s_ncs_admin_survey_link_next.png)
+  ![Menu a discesa Azione collegamento con la pagina successiva selezionata per un collegamento con etichetta Pagina successiva](assets/s_ncs_admin_survey_link_next.png)
 
   È possibile nascondere i pulsanti **[!UICONTROL Next]** e/o **[!UICONTROL Back]** se devono essere sostituiti da un collegamento. Consulta [questa pagina](defining-web-forms-page-sequencing.md).
 
   Il collegamento sostituirà il pulsante **[!UICONTROL Next]** utilizzato per impostazione predefinita.
 
-  ![](assets/s_ncs_admin_survey_link_next_ex.png)
+  ![Pagina modulo con campi Nome, Cognome e Password e un collegamento Successivo con una descrizione comando di convalida](assets/s_ncs_admin_survey_link_next_ex.png)
 
 * Visualizza un&#39;altra pagina
 
   L&#39;opzione **[!UICONTROL Enable a transition]** consente di visualizzare una pagina specifica associata alla transizione in uscita selezionata nel campo **[!UICONTROL Transition]**.
 
-  ![](assets/s_ncs_admin_survey_link_viral.png)
+  ![Collegamento con azione impostato per abilitare una transizione e l&#39;elenco di transizione che offre Avanti e Inviato a un amico](assets/s_ncs_admin_survey_link_viral.png)
 
   Per impostazione predefinita, una pagina ha una sola transizione di output. Per creare nuove transizioni, selezionare la pagina e fare clic sul pulsante **[!UICONTROL Add]** nella sezione **[!UICONTROL Output transitions]**, come illustrato di seguito:
 
-  ![](assets/s_ncs_admin_survey_add_transition.png)
+  ![Proprietà pagina di benvenuto con transizioni in uscita abilitate, elenco successivo e Viral (inviato a un amico) e pulsante Aggiungi](assets/s_ncs_admin_survey_add_transition.png)
 
   Nel diagramma, l’aggiunta avrà un aspetto simile al seguente:
 
-  ![](assets/s_ncs_admin_survey_add_transition_graph.png)
+  ![Flusso di moduli web in cui i contratti portano al tuo account o tramite Inviato a un amico per sponsorizzare, quindi Archiviazione ed Fine](assets/s_ncs_admin_survey_add_transition_graph.png)
 
   >[!NOTE]
   >
@@ -133,7 +133,7 @@ Puoi definire altre azioni per il collegamento, in modo che l’utente possa far
 
 È possibile personalizzare il contenuto HTML di una pagina del modulo con i dati registrati in una pagina precedente. Ad esempio, è possibile creare un modulo Web di assicurazione auto la cui prima pagina consente di fornire informazioni di contatto e il marchio dell&#39;auto.
 
-![](assets/s_ncs_admin_survey_tag_ctx_1.png)
+![Pagina modulo 1 di 2 con richiesta di titolo, nome, e-mail, identificatore e marchio dell&#39;auto, con un pulsante Avanti](assets/s_ncs_admin_survey_tag_ctx_1.png)
 
 Utilizza i campi di personalizzazione per inserire nuovamente il nome utente e il marchio selezionati nella pagina successiva. La sintassi da utilizzare dipende dalla modalità di archiviazione delle informazioni. Per ulteriori informazioni, consulta [Utilizzo delle informazioni raccolte](web-forms-answers.md#using-collected-information).
 
@@ -143,7 +143,7 @@ Utilizza i campi di personalizzazione per inserire nuovamente il nome utente e i
 
 Nel nostro esempio, il nome e il cognome del destinatario sono memorizzati in un campo del database, mentre il marchio della sua auto è memorizzato in una variabile. La sintassi del messaggio personalizzato a pagina 2 sarà la seguente:
 
-![](assets/webapp_perso_vars_include.png)
+![Messaggio personalizzato HTML con nome del destinatario, cognome e variabile del marchio dell&#39;auto inseriti utilizzando la sintassi tag](assets/webapp_perso_vars_include.png)
 
 ```xml
 <P>Welcome <%= ctx.recipient.@firstName %> <%= ctx.recipient.@lastName %>,</P>
@@ -152,7 +152,7 @@ Nel nostro esempio, il nome e il cognome del destinatario sono memorizzati in un
 
 Questo produce il seguente risultato:
 
-![](assets/s_ncs_admin_survey_tag_ctx_2.png)
+![Pagina modulo 2 di 2 saluta il destinatario per nome e marchio, con Seleziona il modello e l&#39;anno degli elenchi di auto](assets/s_ncs_admin_survey_tag_ctx_2.png)
 
 ### Usa variabili di testo {#using-text-variables}
 
@@ -167,11 +167,11 @@ Ad esempio, puoi creare un campo **Contatto** che ti consentirà di visualizzare
 1. Nella colonna **[!UICONTROL Identifier]** immettere il nome della variabile
 1. Nella colonna **[!UICONTROL Text]** immettere il valore predefinito.
 
-   ![](assets/s_ncs_admin_survey_html_text.png)
+   ![Elemento HTML, scheda Testi, in cui sono elencati gli identificatori Country e DateFormat con i relativi valori di testo](assets/s_ncs_admin_survey_html_text.png)
 
 1. Nel contenuto di HTML, inserire questa variabile di testo tramite la sintassi **&lt;%= $(Contact) %>**.
 
-   ![](assets/s_ncs_admin_survey_html_content.png)
+   ![Editor di contenuti HTML con l&#39;identificatore di testo del contatto inserito accanto al campo data dell&#39;ultima modifica](assets/s_ncs_admin_survey_html_content.png)
 
    >[!CAUTION]
    >
@@ -179,7 +179,7 @@ Ad esempio, puoi creare un campo **Contatto** che ti consentirà di visualizzare
 
 1. Aprire l&#39;etichetta **[!UICONTROL Preview]** del modulo per visualizzare il valore immesso nel HTML:
 
-   ![](assets/s_ncs_admin_survey_html_content_preview.png)
+   ![Pagina modulo 2 di 2 con la data dell&#39;ultimo contatto con l&#39;identificatore di testo tradotto](assets/s_ncs_admin_survey_html_content_preview.png)
 
 Questa modalità operativa consente di definire il testo dei moduli web una sola volta e di gestire le traduzioni utilizzando lo strumento di traduzione integrato. Per ulteriori informazioni, consulta [Traduzione di un modulo web](translating-a-web-form.md).
 
@@ -191,7 +191,7 @@ Selezionare il menu **[!UICONTROL Static elements]** > **[!UICONTROL Image]**.
 
 Seleziona l’origine dell’immagine da inserire: può provenire dalla libreria delle risorse pubbliche o essere memorizzata su un server esterno accessibile dall’esterno.
 
-![](assets/s_ncs_admin_survey_add_img.png)
+![Proprietà degli elementi immagine per un logo, con l&#39;elenco di origini immagine che offre Libreria ed Esterna](assets/s_ncs_admin_survey_add_img.png)
 
 Se si tratta di un’immagine della libreria, selezionala nella casella combinata del campo; se si trova in un file esterno, immetti il percorso di accesso. L’etichetta viene visualizzata passando il cursore sull’immagine (coincide con un campo ALT in HTML) o quando l’immagine non viene visualizzata.
 

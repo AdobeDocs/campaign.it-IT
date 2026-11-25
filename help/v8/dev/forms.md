@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '2568'
+source-wordcount: '2820'
 ht-degree: 0%
 ---
 # Introduzione ai moduli di input {#gs-ac-forms}
@@ -51,15 +51,15 @@ La chiave di identificazione di un modulo è una stringa costituita dallo spazio
 
 Crea e configura i moduli di input dalla cartella **[!UICONTROL Administration]> [!UICONTROL Configuration] >[!UICONTROL Input forms]** della console client:
 
-![](assets/form_arbo.png)
+![Struttura di Explorer in Configurazione con la cartella Moduli di input selezionata](assets/form_arbo.png)
 
 L&#39;area di modifica consente di immettere il contenuto XML del modulo di input:
 
-![](assets/form_edit.png)
+![Editor moduli di input Scheda Modifica che mostra l&#39;XML del modulo Destinatario (cus) con input di data di nascita, genere e posta elettronica](assets/form_edit.png)
 
 L’anteprima genera una visualizzazione del modulo di input:
 
-![](assets/form_preview.png)
+![Scheda Anteprima del modulo Destinatario (cus) con i campi Data di nascita, Genere ed E-mail](assets/form_preview.png)
 
 ## Struttura di un modulo
 
@@ -93,7 +93,7 @@ Per impostazione predefinita, un modulo è associato allo schema dati con lo ste
 
 Il modulo di input basato sullo schema di esempio:
 
-![](assets/do-not-localize/form_exemple1.png)
+![Genere, data di nascita ed e-mail di rendering del modulo di input in tre campi sovrapposti](assets/do-not-localize/form_exemple1.png)
 
 ```xml
 <form name="recipient" namespace="cus">
@@ -122,7 +122,7 @@ Il layout dei controlli è simile al layout utilizzato nelle tabelle di HTML, co
 
 Per visualizzare i controlli dell&#39;esempio precedente in due colonne:
 
-![](assets/do-not-localize/form_exemple2.png)
+![Modulo di input con Genere e Data di nascita affiancati in due colonne e E-mail sottostante](assets/do-not-localize/form_exemple2.png)
 
 ```xml
 <form name="recipient" namespace="cus">
@@ -138,7 +138,7 @@ L&#39;elemento **`<container>`** con attributo **colcount** consente di forzare 
 
 L&#39;attributo **colspan** in un controllo estende il controllo in base al numero di colonne immesse nel relativo valore:
 
-![](assets/do-not-localize/form_exemple3.png)
+![Modulo di input a due colonne con campo E-mail esteso a entrambe le colonne](assets/do-not-localize/form_exemple3.png)
 
 ```xml
 <form name="recipient" namespace="cus">
@@ -152,7 +152,7 @@ L&#39;attributo **colspan** in un controllo estende il controllo in base al nume
 
 Compilando l&#39;attributo **type=&quot;frame&quot;**, il contenitore aggiunge un frame intorno ai controlli figlio con l&#39;etichetta contenuta nell&#39;attributo **label**:
 
-![](assets/do-not-localize/form_exemple4.png)
+![Modulo di input a due colonne con genere, data di nascita e campo e-mail a larghezza intera, senza frame visibile](assets/do-not-localize/form_exemple4.png)
 
 ```xml
 <form name="recipient" namespace="cus">
@@ -166,7 +166,7 @@ Compilando l&#39;attributo **type=&quot;frame&quot;**, il contenitore aggiunge u
 
 È possibile utilizzare un elemento **`<static>`** per formattare il modulo di input:
 
-![](assets/do-not-localize/form_exemple5.png)
+![Modulo di input con i campi Genere, Data ed E-mail e una riga di testo della guida statica al di sotto di essi](assets/do-not-localize/form_exemple5.png)
 
 ```xml
 <form name="recipient" namespace="cus">
@@ -212,7 +212,7 @@ I contenitori vengono utilizzati per creare controlli complessi utilizzando un s
 
 Utilizza un contenitore **blocco appunti** per formattare i dati nelle pagine accessibili dalle schede.
 
-![](assets/do-not-localize/form_exemple6.png)
+![Modulo di input con schede Generali e Posizione sopra i campi Genere, Data e E-mail](assets/do-not-localize/form_exemple6.png)
 
 ```xml
 <container type="notebook">
@@ -231,7 +231,7 @@ Il contenitore principale è definito dall&#39;attributo **type=&quot;notebook&q
 
 Aggiungere l&#39;attributo **style=&quot;down&quot;** per forzare il posizionamento verticale delle etichette di tabulazione sotto il controllo. Questo attributo è facoltativo. Il valore predefinito è **&quot;up&quot;**.
 
-![](assets/do-not-localize/form_exemple7.png)
+![Modulo di input con le etichette della scheda Generale e della scheda Posizione posizionate sotto i campi Genere, Data e E-mail](assets/do-not-localize/form_exemple7.png)
 
 `<container style="down" type="notebook">  ... </container>`
 
@@ -239,7 +239,7 @@ Aggiungere l&#39;attributo **style=&quot;down&quot;** per forzare il posizioname
 
 Utilizza questo contenitore per visualizzare una barra di icone verticale che consente di selezionare le pagine da visualizzare.
 
-![](assets/do-not-localize/form_exemple8.png)
+![Modulo di input con una barra di icone verticale che offre pagine Generali e Posizione accanto ai campi Genere, Data e E-mail](assets/do-not-localize/form_exemple8.png)
 
 ```xml
 <container type="iconbox">
@@ -308,7 +308,7 @@ Ricorda che un collegamento viene dichiarato nello schema di dati come segue:
 
 Il controllo di modifica del collegamento nel relativo modulo di input è il seguente:
 
-![](assets/do-not-localize/form_exemple9.png)
+![Campo aziendale che mostra un controllo di modifica a discesa per un collegamento, con Adobe selezionato](assets/do-not-localize/form_exemple9.png)
 
 ```xml
 <input xpath="company"/>
@@ -421,7 +421,7 @@ Esempio di tabella di relazioni in uno schema:
 
 Nel nostro esempio, iniziamo con il modulo di input dello schema &quot;cus:recipient&quot;. L’elenco deve visualizzare le associazioni con gli abbonamenti ai servizi e deve consentirti di aggiungere un abbonamento selezionando un servizio esistente.
 
-![](assets/do-not-localize/form_exemple12.png)
+![Seleziona la finestra di dialogo dei servizi in cui sono elencati in nero, MobApp, Newsletter e altri servizi per aggiungere un abbonamento](assets/do-not-localize/form_exemple12.png)
 
 ```xml
 <input type="linklist" xpath="subscription" xpathChoiceTarget="service" xpathEditTarget="service" zoom="true">
@@ -522,7 +522,7 @@ Per visualizzare un campo e impedirne la modifica, utilizzare il tag **`<value>`
 
 Esempio sul campo &quot;Genere&quot;:
 
-![](assets/do-not-localize/form_exemple16.png)
+![Campo di genere visualizzato come elenco a discesa con il valore Maschio](assets/do-not-localize/form_exemple16.png)
 
 ```xml
 <value value="@gender"/>
@@ -541,7 +541,7 @@ Esempio sul campo &quot;Genere&quot;:
 <input type="RadioButton" xpath="@gender" checkedValue="2" label="Choice 3"/>
 ```
 
-![](assets/do-not-localize/form_exemple17.png)
+![Campo Genere visualizzato come pulsanti di scelta Scelta 1, Scelta 2 e Scelta 3, con Scelta 1 selezionata](assets/do-not-localize/form_exemple17.png)
 
 ## Aggiungi una casella di controllo {#checkbox}
 
@@ -552,7 +552,7 @@ Una casella di controllo riflette uno stato booleano (selezionato o meno). Per i
 <input xpath="@field1" type="checkbox" checkedValue="Y"/>
 ```
 
-![](assets/do-not-localize/form_exemple20.png)
+![Due caselle di controllo deselezionate etichettate Boolean1 e field1](assets/do-not-localize/form_exemple20.png)
 
 ## Modifica gerarchia di navigazione {#navigation-hierarchy-edit}
 
@@ -573,7 +573,7 @@ I controlli da modificare sono raggruppati in un tag **`<container>`** immesso s
 </input>
 ```
 
-![](assets/do-not-localize/form_exemple18.png)
+![Controllo di modifica struttura con campi di testo e gruppi di campi booleani, elenco da text1 a text3 e da Boolean1 a Boolean3](assets/do-not-localize/form_exemple18.png)
 
 ## Aggiungere un campo espressione {#expression-field}
 

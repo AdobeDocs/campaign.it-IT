@@ -26,9 +26,9 @@ subfeature_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '623'
 ht-degree: 1%
 ---
 # Introduzione ai moduli web{#about-web-forms}
@@ -55,19 +55,19 @@ I moduli Web sono accessibili tramite il menu Applicazioni Web della scheda **Ca
 
 Per creare un modulo Web, fare clic sul pulsante **[!UICONTROL Create]** sopra l&#39;elenco delle applicazioni Web.
 
-![](assets/webapp_create_new.png)
+![Elenco applicazioni Web in Campagne con il pulsante Crea evidenziato per l&#39;avvio di un nuovo modulo Web.](assets/webapp_create_new.png)
 
 Selezionare il modello di modulo Web **[!UICONTROL newWebForm]** per impostazione predefinita.
 
-![](assets/s_ncs_admin_survey_select_template.png)
+![Finestra di dialogo Nuova applicazione Web con il modello Nuovo modulo Web (newWebForm) selezionato nell&#39;elenco Modello.](assets/s_ncs_admin_survey_select_template.png)
 
 Verrà visualizzata la dashboard del modulo.
 
-![](assets/webapp_empty_dashboard.png)
+![Scheda Dashboard di un nuovo modulo Web che ne mostra lo stato, lo schema, la cartella, l&#39;URL pubblico e il pulsante Pubblica.](assets/webapp_empty_dashboard.png)
 
 La scheda **[!UICONTROL Edit]** consente di creare il contenuto.
 
-![](assets/webapp_edit_tab.png)
+![Scheda Modifica di un modulo Web che mostra il diagramma delle attività (Start, Page, Test, Storage, End) e la tavolozza delle attività.](assets/webapp_edit_tab.png)
 
 Per definire la configurazione e il contenuto del modulo Web, attenersi alla procedura descritta di seguito.
 
@@ -104,12 +104,12 @@ Nelle sezioni seguenti viene descritto come definire il contenuto e il layout de
 
 È inoltre possibile utilizzare le icone nella barra degli strumenti o fare clic con il pulsante destro del mouse per inserire un&#39;area di input.
 
-![](assets/s_ncs_admin_webform_add_selection.png)
+![Menu della barra degli strumenti dell&#39;editor di pagine per l&#39;aggiunta di un campo di input: Casella combinata, Casella di controllo, Pulsante di opzione, Scelta multipla, Data, Griglia.](assets/s_ncs_admin_webform_add_selection.png)
 
 In questo caso, inizia selezionando il tipo di campo da aggiungere e la modalità di archiviazione delle risposte.
 
-![](assets/s_ncs_admin_webform_select_storage.png)
+![Finestra di dialogo Archiviazione: scegliere Modifica destinatario o Variabile, quindi scegliere il campo Database con l&#39;espressione Modifica.](assets/s_ncs_admin_webform_select_storage.png)
 
 Fare clic su **[!UICONTROL Ok]** per approvare la selezione.
 
-![](assets/s_ncs_admin_webform_confirm_storage.png)
+![La selezione del campo Formula di apertura in Seleziona un&#39;espressione riempie il campo Database nella finestra di dialogo Archiviazione. Fare clic su OK.](assets/s_ncs_admin_webform_confirm_storage.png)

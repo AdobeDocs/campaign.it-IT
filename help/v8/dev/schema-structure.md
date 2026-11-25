@@ -39,9 +39,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1524'
 ht-degree: 0%
 ---
 # Struttura dello schema{#schema-structure}
@@ -156,7 +156,7 @@ Devono essere rispettate le seguenti regole:
 
 Il tipo di dati viene immesso tramite l&#39;attributo **type** negli elementi **`<attribute>`** e **`<element>`**.
 
-Elenco dettagliato disponibile nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=it#configuring-campaign-classic){target="_blank"}.
+Elenco dettagliato disponibile nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic){target="_blank"}.
 
 Quando questo attributo non viene popolato, **stringa** è il tipo di dati predefinito a meno che l&#39;elemento non contenga elementi figlio. In caso affermativo, viene utilizzato solo per strutturare gli elementi in modo gerarchico (**`<location>`** elemento nel nostro esempio).
 
@@ -214,7 +214,7 @@ Gli elementi **`<elements>`** e **`<attributes>`** dello schema dati possono ess
 
   L’etichetta può essere vista dal modulo di input della console client di Adobe Campaign:
 
-  ![](assets/schema_label.png)
+  ![Campo di input e-mail nella console, con etichetta E-mail e indirizzo e-mail immesso.](assets/schema_label.png)
 
 * La proprietà **desc** consente di immettere una descrizione lunga.
 
@@ -267,7 +267,7 @@ Il nome assegnato all’enumerazione può essere scelto liberamente e condiviso 
 
 Questi valori vengono visualizzati in un elenco a discesa dal modulo di input:
 
-![](assets/schema_user_enum.png)
+![Campo Città nel modulo di input che mostra un elenco a discesa di valori da un&#39;enumerazione utente.](assets/schema_user_enum.png)
 
 >[!NOTE]
 >
@@ -281,7 +281,7 @@ L&#39;attributo **enum** fa riferimento alla definizione di una classe di enumer
 
 Le enumerazioni consentono di selezionare un valore da un elenco a discesa anziché immetterlo in un campo di input regolare:
 
-![](assets/schema_enum.png)
+![Elenco a discesa Genere che mostra i valori Nessuno specificato, Maschio e Femmina.](assets/schema_enum.png)
 
 Esempio di dichiarazione di enumerazione nello schema dati:
 
@@ -317,7 +317,7 @@ I valori di enumerazione sono dichiarati nell&#39;elemento **`<value>`** con i s
 
   Questa enumerazione viene utilizzata per specificare la natura delle campagne, ad esempio.
 
-  ![](assets/schema_dbenum.png)
+  ![Finestra di dialogo per una nuova campagna di marketing con il menu a discesa Natura aperto, che mostra Nessuno specificato e Nuovo marketing.](assets/schema_dbenum.png)
 
 ### Esempio {#example}
 
@@ -396,7 +396,7 @@ Sono state aggiunte funzioni di alto livello alle espressioni per arricchire il 
 
 Puoi accedere all’elenco delle funzioni disponibili tramite qualsiasi editor di espressioni nella console client di Adobe Campaign:
 
-![](assets/schema_function.png)
+![Struttura delle funzioni dell&#39;editor espressioni con gruppi di aggregazione, stringa, data e numerici, ad esempio Abs, Ceil e Round.](assets/schema_function.png)
 
 **Esempio**:
 

@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '370'
 ht-degree: 2%
 ---
 # Introduzione all’editor di Campaign HTML{#about-campaign-html-editor}
@@ -41,7 +41,7 @@ ht-degree: 2%
 >
 >Per i casi d’uso più comuni, crea le pagine di destinazione nell’interfaccia utente di Campaign Web, dove puoi facilmente progettarle e pubblicarle. Le pagine di destinazione create nella console client, come descritto in questa sezione, offrono più impostazioni e coprono casi di utilizzo più avanzati.
 >
->[Ulteriori informazioni sulle pagine di destinazione nell&#39;interfaccia utente di Campaign Web](https://experienceleague.adobe.com/it/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
+>[Ulteriori informazioni sulle pagine di destinazione nell&#39;interfaccia utente di Campaign Web](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
 
 
 
@@ -51,7 +51,7 @@ Con Digital Content Editor è possibile inserire e formattare elementi di pagina
 
 >[!NOTE]
 >
->Se devi aggiungere codice JavaScript lato server, utilizza i blocchi di personalizzazione. Consulta la [documentazione di Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=it){target="_blank"}.
+>Se devi aggiungere codice JavaScript lato server, utilizza i blocchi di personalizzazione. Consulta la [documentazione di Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}.
 
 >[!CAUTION]
 >
@@ -63,7 +63,7 @@ Questa sezione descrive i passaggi chiave per modificare e caricare contenuti mo
 
 Il funzionamento generale è il seguente:
 
-![](assets/dce_schema.png)
+![La pagina di destinazione e la consegna e-mail passano attraverso l&#39;Editor di contenuti digitali, quindi alla pubblicazione o all&#39;invio](assets/dce_schema.png)
 
 Per creare una **applicazione Web** semplice, è necessario:
 

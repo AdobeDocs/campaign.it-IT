@@ -38,9 +38,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '1306'
+source-wordcount: '1376'
 ht-degree: 5%
 ---
 # Utilizzare gli schemi{#gs-ac-schemas}
@@ -97,7 +97,7 @@ Il primo sottoelemento **`<element>`** coincide con la radice dell&#39;entità.
 >
 >L’elemento principale dell’entità ha lo stesso nome dello schema.
 
-![](assets/schema_and_entity.png)
+![Uno schema definisce la struttura XML dei dati del destinatario; un&#39;entità è un record specifico che lo segue.](assets/schema_and_entity.png)
 
 I tag **`<element>`** definiscono i nomi degli elementi di entità. **`<attribute>`** tag dello schema definiscono i nomi degli attributi nei tag **`<element>`** a cui sono stati collegati.
 
@@ -137,7 +137,7 @@ Per aggiungere un tipo di dati completamente nuovo che non esiste in Adobe Campa
 
 Per ulteriori informazioni, consulta [Creare un nuovo schema](create-schema.md).
 
-![](assets/schemaextension_1.png)
+![Procedura guidata per la creazione dello schema dati, passaggio del tipo di schema, con le opzioni Nuova tabella ed Estensione di uno schema evidenziate.](assets/schemaextension_1.png)
 
 
 Dopo aver creato o esteso uno schema in cui lavorare, la best practice consiste nel definire gli elementi di contenuto XML nello stesso ordine in cui vengono visualizzati di seguito.
@@ -227,11 +227,11 @@ Ulteriori informazioni sulle chiavi in [Mappatura database di Campaign](database
 
 Gli attributi consentono di definire i campi che compongono l’oggetto dati. È possibile utilizzare il pulsante **[!UICONTROL Insert]** nella barra degli strumenti dell&#39;edizione dello schema per rilasciare modelli di attributi vuoti nel file XML in cui si trova il cursore. Ulteriori informazioni in [Creare un nuovo schema in Campaign](create-schema.md).
 
-![](assets/schemaextension_2.png)
+![Modifica passaggio schema con il menu Inserisci aperto per aggiungere un attributo come String, Boolean, Integer o Date.](assets/schemaextension_2.png)
 
-L&#39;elenco completo degli attributi è disponibile nella sezione dell&#39;elemento `<attribute>` della [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=it#content-model){target="_blank"}. Di seguito sono riportati alcuni degli attributi più comunemente utilizzati: **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name**, **@notNull**, **@required**, **@ref**, **@xml**, **@type**.
+L&#39;elenco completo degli attributi è disponibile nella sezione dell&#39;elemento `<attribute>` della [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html#content-model){target="_blank"}. Di seguito sono riportati alcuni degli attributi più comunemente utilizzati: **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name**, **@notNull**, **@required**, **@ref**, **@xml**, **@type**.
 
-Per ulteriori informazioni su ciascun attributo, consulta la descrizione dell&#39;attributo nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=it#configuring-campaign-classic){target="_blank"}.
+Per ulteriori informazioni su ciascun attributo, consulta la descrizione dell&#39;attributo nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic){target="_blank"}.
 
 ### Esempi {#examples}
 
@@ -311,7 +311,7 @@ Utilizza l’esempio seguente per includere nella tabella campi relativi alla da
 
 Una volta completate e salvate le modifiche, è necessario applicare al database tutte le modifiche che possono influire sulla struttura SQL. A tale scopo, utilizzare l&#39;Assistente all&#39;aggiornamento del database.
 
-![](assets/schemaextension_3.png)
+![Strumenti, menu Avanzate nella console con Aggiorna struttura database selezionato per applicare le modifiche allo schema.](assets/schemaextension_3.png)
 
 Per ulteriori informazioni, consulta [Aggiornare la struttura del database](update-database-structure.md).
 

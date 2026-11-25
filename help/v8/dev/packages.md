@@ -47,9 +47,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f89b58e9c7a87b6526dbbf491db67109418f2006
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '1963'
+source-wordcount: '2026'
 ht-degree: 0%
 ---
 # Utilizzare i pacchetti di dati{#data-packages}
@@ -128,7 +128,7 @@ Per esportare un set di oggetti in un pacchetto di dati, eseguire la procedura s
 1. Passare all&#39;Assistente all&#39;esportazione del pacchetto tramite il menu **[!UICONTROL Tools > Advanced > Export package...]** dell&#39;Explorer.
 1. Selezionare i [tipi di pacchetti](#types-of-packages).
 
-   ![](assets/package_type.png)
+   ![Esportazione guidata pacchetti con pacchetto utente, pacchetto piattaforma e opzioni pacchetto amministratore, pacchetto utente selezionato](assets/package_type.png)
 
 1. Fai clic sul pulsante **Aggiungi** per selezionare le entità da esportare come pacchetto.
 
@@ -241,7 +241,7 @@ Le definizioni dei pacchetti consentono di creare una struttura di pacchetti in 
 
 Per creare una definizione di pacchetto, fare clic sul pulsante **[!UICONTROL New]**, quindi inserire le informazioni generali sulla definizione del pacchetto.
 
-![](assets/packagedefinition_create.png)
+![Cartella delle definizioni dei pacchetti con il pulsante Nuovo e i campi della scheda Generale Etichetta, Nome e Distributore](assets/packagedefinition_create.png)
 
 È quindi possibile aggiungere entità alla definizione del pacchetto ed esportarla in un pacchetto di file XML.
 
@@ -255,7 +255,7 @@ Per creare una definizione di pacchetto, fare clic sul pulsante **[!UICONTROL Ne
 
 Nella scheda **[!UICONTROL Content]**, fare clic sul pulsante **[!UICONTROL Add]** per selezionare le entità da esportare con il pacchetto. Le best practice per la selezione delle entità sono presentate in [Esporta un set di oggetti in un pacchetto](#export-a-set-of-objects-in-a-package).
 
-![](assets/packagedefinition_addentities.png)
+![Scheda Contenuto di una definizione di pacchetto con il pulsante Aggiungi che apre la finestra di dialogo Esporta entità in cui sono elencati gli schemi](assets/packagedefinition_addentities.png)
 
 Le entità possono essere aggiunte a una definizione di pacchetto direttamente dalla loro posizione nell’istanza. A questo scopo, segui la procedura indicata di seguito:
 
@@ -269,7 +269,7 @@ Le entità possono essere aggiunte a una definizione di pacchetto direttamente d
 
 La generazione del pacchetto può essere configurata dalla scheda Definizione pacchetto **[!UICONTROL Content]**. A tale scopo, fare clic sul collegamento **[!UICONTROL Generation parameters]**.
 
-![](assets/packagedefinition_generationparameters.png)
+![Finestra di dialogo Parametri di generazione con Includi definizione, Includi script di installazione e Includi valori predefiniti](assets/packagedefinition_generationparameters.png)
 
 * Utilizzare l&#39;opzione **[!UICONTROL Include the definition]** per includere la definizione attualmente utilizzata nella definizione del pacchetto.
 * Utilizzare l&#39;opzione **[!UICONTROL Include an installation script]** per aggiungere uno script JavaScript da eseguire all&#39;importazione del pacchetto. Se selezionata, nella schermata di definizione del pacchetto viene aggiunta una scheda **[!UICONTROL Script]**.

@@ -32,10 +32,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 4%
+source-wordcount: '511'
+ht-degree: 3%
 ---
 # Tracciare le visite in un’applicazione web{#tracking-a-web-application}
 
@@ -50,11 +50,11 @@ I principali miglioramenti presenti in questa versione sono i seguenti:
 * Possibilità di inserire diversi tag di tracciamento nella stessa pagina per semplificare la definizione dei percorsi di navigazione (ad esempio acquisto, abbonamento, restituzione, ecc.).
 * Visualizzazione dei percorsi di navigazione e dei tag di tracciamento delle diverse pagine nel dashboard dell’applicazione Web.
 
-  ![](assets/trackers_1.png)
+  ![Dashboard dell&#39;applicazione Web con sezione dei tag di tracciamento che elenca i percorsi di conversione e la fase del tag di tracciamento in ogni pagina](assets/trackers_1.png)
 
 * Generazione di un rapporto di tracciamento completo.
 
-  ![](assets/trackers_5.png)
+  ![Rapporto di analisi dei tag di tracciamento con visite totali, visitatori univoci, tasso di conversione, tasso di mancato recapito e grafico delle visite](assets/trackers_5.png)
 
   I principali indicatori sono i seguenti:
 
@@ -71,7 +71,7 @@ Per identificare l’origine del visitatore durante l’accesso a un’applicazi
 1. Invio di una consegna specifica per concedere l’accesso alle pagine dell’applicazione web: in questo caso, l’origine del traffico è la consegna,
 1. Associazione dell’applicazione web a un’origine del traffico dedicata: in questo caso, deve essere una consegna esterna di tipo &quot;origine del traffico&quot;. Può essere selezionato dalle proprietà dell’applicazione web o dalla mappatura di destinazione.
 
-   ![](assets/trackers_6.png)
+   ![Finestra di dialogo Parametri avanzati delle proprietà dell&#39;applicazione Web, con il campo Origine traffico impostato su una consegna Web](assets/trackers_6.png)
 
 Per identificare l’origine del traffico in un’applicazione web, Adobe Campaign cerca successivamente le seguenti informazioni:
 
@@ -87,12 +87,12 @@ Per identificare l’origine del traffico in un’applicazione web, Adobe Campai
 
 Quando un&#39;applicazione Web viene creata utilizzando l&#39;editor di contenuti di HTML - **Digital Content Editor (DCE)** - i tag di tracciamento vengono inseriti dalla scheda **[!UICONTROL Properties]** dell&#39;editor. Per ulteriori informazioni su Digital Content Editor (DCE), fare riferimento a [Introduzione a Campaign HTML Editor](about-campaign-html-editor.md).
 
-![](assets/trackers_2.png)
+![Scheda Proprietà pagina DCE in cui a un tag di tracciamento viene assegnato un obiettivo come Abbonamento, Conversione o Aggiornamento](assets/trackers_2.png)
 
 Quando si utilizza l’interfaccia web, i tag di tracciamento devono essere inseriti dalle proprietà della pagina.
 
-![](assets/trackers_3.png)
+![Proprietà della finestra di dialogo della pagina, scheda Tag di tracciamento, elenco di ogni tag con la relativa area di visualizzazione e azione di destinazione](assets/trackers_3.png)
 
 L&#39;icona **[!UICONTROL Display blocks]** ti consente di visualizzare il numero di tag di tracciamento definiti per la pagina.
 
-![](assets/trackers_4.png)
+![Visualizza l&#39;icona dei blocchi nell&#39;editor Web, con una descrizione comando che indica 2 tag di tracciamento nella pagina](assets/trackers_4.png)

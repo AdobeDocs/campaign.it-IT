@@ -25,24 +25,24 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '153'
 ht-degree: 0%
 ---
 # Aggiornare la struttura del database {#updating-the-database-structure}
 
 Per applicare le modifiche apportate agli schemi, avviare la procedura guidata di aggiornamento del database. L&#39;assistente è accessibile tramite **[!UICONTROL Tools > Advanced > Update database structure]**. Controlla se la struttura fisica del database corrisponde alla relativa descrizione logica ed esegue gli script di aggiornamento SQL.
 
-![](assets/schema_update.png)
+![Procedura guidata di aggiornamento del database: pagina Aggiorna parametri con il pulsante Avanti per avviare il processo di individuazione automatica](assets/schema_update.png)
 
 I moduli nel database vengono compilati e attivati automaticamente.
 
-![](assets/schema_update_select2.png)
+![Procedura guidata di aggiornamento del database: pagina Modifica tabelle con elenco tabelle, con la tabella CusContracts impostata per la sincronizzazione](assets/schema_update_select2.png)
 
 Seguire la procedura riportata di seguito e visualizzare lo script SQL di aggiornamento del database:
 
-![](assets/schema_update2.png)
+![Procedura guidata di aggiornamento del database: pagina Aggiorna script con lo script SQL CREATE TABLE per CusContracts](assets/schema_update2.png)
 
 >[!NOTE]
 >
@@ -50,4 +50,4 @@ Seguire la procedura riportata di seguito e visualizzare lo script SQL di aggior
 
 Quindi, avviare l&#39;aggiornamento del database:
 
-![](assets/schema_update3.png)
+![Procedura guidata di aggiornamento del database Avvia la pagina di aggiornamento del database con il registro che mostra l&#39;aggiornamento completato al 100%](assets/schema_update3.png)

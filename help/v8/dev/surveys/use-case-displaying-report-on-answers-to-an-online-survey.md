@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 1%
+source-wordcount: '657'
+ht-degree: 0%
 ---
 # Caso d’uso: visualizzare un rapporto sulle risposte a un sondaggio online{#use-case-displaying-report-on-answers-to-an-online-survey}
 
@@ -67,23 +67,23 @@ Per raccogliere le risposte al sondaggio, attieniti alla seguente procedura:
 1. Modifica l’attività e seleziona il sondaggio di cui desideri analizzare le risposte.
 1. Abilita l&#39;opzione **[!UICONTROL Select all the answer data]** per raccogliere tutte le informazioni.
 
-   ![](assets/reporting_usecase_1_01.png)
+   ![Attività risposte sondaggio nel flusso di lavoro Sondaggio online con un sondaggio selezionato e Seleziona tutti i dati di risposta abilitata.](assets/reporting_usecase_1_01.png)
 
 1. Seleziona le colonne da estrarre (in questo caso, seleziona tutti i campi archiviati). Questi sono i campi che contengono le risposte.
 
-   ![](assets/reporting_usecase_1_02.png)
+   ![Finestra di dialogo Seleziona colonne aggiuntive per scegliere i campi archiviati da aggiungere alle colonne di output.](assets/reporting_usecase_1_02.png)
 
 1. Una volta configurata la casella raccolta risposte, posizionare un&#39;attività di tipo **[!UICONTROL List update]** per salvare i dati.
 
-   ![](assets/reporting_usecase_1_04.png)
+   ![Flusso di lavoro con un&#39;attività di risposte al sondaggio collegata da una transizione dei risultati a un&#39;attività di aggiornamento elenco.](assets/reporting_usecase_1_04.png)
 
    In questa attività, specificare l&#39;elenco da aggiornare e deselezionare l&#39;opzione **[!UICONTROL Purge and re-use the list if it exists (otherwise add to the list)]**: le risposte vengono aggiunte alla tabella esistente. Questa opzione consente di fare riferimento all&#39;elenco in un cubo. Lo schema collegato all’elenco non verrà rigenerato per ogni aggiornamento, il che garantisce l’integrità del cubo che utilizza questo elenco.
 
-   ![](assets/reporting_usecase_1_03.png)
+   ![Finestra di dialogo per l&#39;aggiornamento dell&#39;elenco con l&#39;opzione Rimuovi e riutilizza l&#39;elenco se esiste, deselezionata, in modo che le risposte vengano aggiunte all&#39;elenco.](assets/reporting_usecase_1_03.png)
 
 1. Avvia il flusso di lavoro per confermarne la configurazione.
 
-   ![](assets/reporting_usecase_1_05.png)
+   ![Diagramma del flusso di lavoro del sondaggio online con le risposte al sondaggio connesse all&#39;aggiornamento dell&#39;elenco, pronto per l&#39;avvio.](assets/reporting_usecase_1_05.png)
 
    L&#39;elenco specificato viene creato e include lo schema delle risposte al sondaggio.
 
@@ -93,15 +93,15 @@ Per raccogliere le risposte al sondaggio, attieniti alla seguente procedura:
 
 ## Passaggio 2 - Creazione del cubo, delle relative misure e dei relativi indicatori {#step-2---creating-the-cube--its-measures-and-its-indicators}
 
-Puoi quindi creare il cubo e configurarne le misure, che verranno utilizzate per creare gli indicatori che verranno visualizzati nel rapporto. Per ulteriori informazioni sulla creazione e la configurazione dei cubi, consulta [Informazioni sui cubi](https://experienceleague.adobe.com/it/docs/campaign-classic/using/reporting/ac-cubes){target="_blank"}.
+Puoi quindi creare il cubo e configurarne le misure, che verranno utilizzate per creare gli indicatori che verranno visualizzati nel rapporto. Per ulteriori informazioni sulla creazione e la configurazione dei cubi, consulta [Informazioni sui cubi](https://experienceleague.adobe.com/en/docs/campaign-classic/using/reporting/ac-cubes){target="_blank"}.
 
 In questo esempio, il cubo si basa sui dati dell&#39;elenco alimentato dal flusso di lavoro creato in precedenza.
 
-![](assets/reporting_usecase_2_01.png)
+![Finestra di dialogo del cubo Risposte al sondaggio online utilizzando un elenco selezionato e l&#39;elenco WEB REP come elenco dei fatti.](assets/reporting_usecase_2_01.png)
 
 Definire le dimensioni e le misure da visualizzare nel rapporto. In questo caso, si desidera visualizzare la data del contratto e il paese del rispondente.
 
-![](assets/reporting_usecase_2_02.png)
+![Scheda Dimensioni cubo con Paese e Reparto e scheda Misure con Contratto Risposto, 2016 e 2017.](assets/reporting_usecase_2_02.png)
 
 La scheda **[!UICONTROL Preview]** consente di controllare il rendering del report.
 
@@ -109,8 +109,8 @@ La scheda **[!UICONTROL Preview]** consente di controllare il rendering del repo
 
 Puoi quindi creare un rapporto basato su questo cubo ed elaborare i dati e le informazioni.
 
-![](assets/reporting_usecase_3_01.png)
+![Creazione di una nuova pagina di report con il modello di cubo Sondaggio online risposte selezionato e il pulsante Crea.](assets/reporting_usecase_3_01.png)
 
 Adatta le informazioni da visualizzare in base alle tue esigenze.
 
-![](assets/reporting_usecase_3_02.png)
+![Tabella report sondaggio online dei conteggi dei contratti 2016 e 2017 per paese, con la dimensione Paese nelle righe.](assets/reporting_usecase_3_02.png)

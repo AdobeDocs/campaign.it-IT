@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Accessibility
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '1382'
-ht-degree: 1%
+source-wordcount: '1710'
+ht-degree: 0%
 ---
 # Definizione delle proprietà dei moduli web{#defining-web-forms-properties}
 
@@ -39,13 +39,13 @@ Puoi configurare e personalizzare completamente i moduli web per soddisfare le t
 
 La finestra delle proprietà è accessibile tramite il pulsante **[!UICONTROL Properties]** nella barra degli strumenti del modulo Web. Questa finestra consente di accedere a una serie di impostazioni specifiche del modulo Web. Alcune impostazioni potrebbero derivare dalla configurazione del modello.
 
-![](assets/s_ncs_admin_survey_properties_general.png)
+![Editor applicazioni Web con il pulsante Proprietà, che apre la finestra delle proprietà del modulo, evidenziato nella barra degli strumenti](assets/s_ncs_admin_survey_properties_general.png)
 
 ## Proprietà modulo generali {#overall-form-properties}
 
 Nella scheda **[!UICONTROL General]** della finestra delle proprietà è possibile modificare l&#39;**Etichetta** del modulo. Si consiglia vivamente di non modificare il **nome interno**.
 
-![](assets/s_ncs_admin_survey_properties_general_tab.png)
+![Scheda Generale della finestra Proprietà della maschera con Etichetta, Nome interno, Natura, Stato, Data di inizio e di fine, Controllo di accesso](assets/s_ncs_admin_survey_properties_general_tab.png)
 
 Il modello di modulo viene scelto durante la creazione del modulo. Non può essere modificato in un secondo momento. Per ulteriori informazioni sulla creazione e la gestione di modelli di modulo, vedere [Utilizzo di un modello di modulo Web](using-a-web-form-template.md).
 
@@ -63,11 +63,11 @@ La pagina di errore viene definita nella scheda corrispondente della finestra de
 
 Per impostazione predefinita, vengono visualizzate le seguenti informazioni:
 
-![](assets/s_ncs_admin_survey_default_error_page.png)
+![Pagina del browser con il messaggio di errore predefinito: si è verificato un errore. Se il problema persiste, contattare l&#39;amministratore](assets/s_ncs_admin_survey_default_error_page.png)
 
 Il contenuto delle stringhe visualizzate è definito nella scheda **[!UICONTROL Error page]** della finestra delle proprietà. Nella scheda **[!UICONTROL HTML]** viene visualizzato il rendering e la scheda **[!UICONTROL Texts]** consente di modificare le stringhe di testo e aggiungere testo, se necessario:
 
-![](assets/s_ncs_admin_survey_error_page.png)
+![Scheda Pagina di errore delle proprietà, con la scheda Testi che elenca le stringhe riga1 e riga2 del messaggio di errore](assets/s_ncs_admin_survey_error_page.png)
 
 ## Localizzazione dei moduli {#form-localization}
 
@@ -81,7 +81,7 @@ La scheda **[!UICONTROL Rendering]** consente di definire il tipo di esplorazion
 
 Puoi scegliere di navigare tramite collegamenti o pulsanti.
 
-![](assets/s_ncs_admin_survey_wz_02_navig_type.png)
+![Opzioni di spostamento: un pulsante Avanti e un collegamento Avanti, i due modi per spostarsi tra le pagine del modulo](assets/s_ncs_admin_survey_wz_02_navig_type.png)
 
 Per impostazione predefinita, i pulsanti sono gli elementi di navigazione. Consentono di eseguire le azioni seguenti:
 
@@ -101,7 +101,7 @@ I temi vengono salvati nel nodo **[!UICONTROL Administration>Configuration>Form 
 
 Nella parte inferiore della finestra delle proprietà viene visualizzato un rendering di esempio. L&#39;icona **[!UICONTROL Edit link]** consente di visualizzare la configurazione per il tema selezionato.
 
-![](assets/s_ncs_admin_survey_properties_render.png)
+![Scheda Rendering delle proprietà con i pulsanti Usa o Usa collegamenti, posizione etichetta e anteprima modello con l&#39;icona Modifica collegamento](assets/s_ncs_admin_survey_properties_render.png)
 
 ## Logo nel modulo {#logo-in-the-form}
 
@@ -109,15 +109,15 @@ Nella parte inferiore della finestra delle proprietà viene visualizzato un rend
 
 Nella scheda **[!UICONTROL Rendering]** all&#39;interno di **[!UICONTROL Properties]** dell&#39;app Web, fai clic sull&#39;icona a forma di vetro del modello:
 
-![](assets/logo_glass.png)
+![Scheda Rendering di Proprietà con l&#39;icona della lente di ingrandimento accanto al campo Modello evidenziata per aprire il modello](assets/logo_glass.png)
 
 Nella nuova finestra, fare clic sul collegamento **[!UICONTROL Page layout]**:
 
-![](assets/logo_pagelayout.png)
+![Finestra del modello di generazione del modulo con il collegamento Layout di pagina evidenziato](assets/logo_pagelayout.png)
 
 Qui è possibile modificare il percorso dell&#39;immagine del logo:
 
-![](assets/logo_path.png)
+![Finestra di layout della pagina con il campo Immagine in Logo evidenziato, con il percorso dell&#39;immagine del logo](assets/logo_path.png)
 
 Le immagini disponibili si trovano in **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Images]**. Puoi aggiungere il tuo logo qui.
 
@@ -141,7 +141,7 @@ Un modulo Web è accessibile agli utenti se è **[!UICONTROL Online]** e se la d
 
 Il periodo di validità va dalla data **[!UICONTROL Start]** alla data **[!UICONTROL End date]**. Se in questi campi non è specificata alcuna data, il modulo ha validità permanente.
 
-![](assets/s_ncs_admin_survey_properties_date.png)
+![Scheda Generale delle Proprietà con il calendario Data di fine aperto per selezionare la data in cui il modulo non sarà più valido](assets/s_ncs_admin_survey_properties_date.png)
 
 >[!NOTE]
 >
@@ -153,17 +153,17 @@ Per impostazione predefinita, l’accesso ai moduli web viene eseguito in modali
 
 È possibile abilitare il controllo degli accessi per la visualizzazione del modulo, ad esempio durante la consegna di un modulo in un sito Intranet, al fine di autenticare gli utenti. A tale scopo, visualizzare la finestra **[!UICONTROL Properties]** del modulo interessato e fare clic sull&#39;opzione **[!UICONTROL Enable access control]**, come illustrato di seguito:
 
-![](assets/s_ncs_admin_survey_access_ctrl.png)
+![Scheda Generale di Proprietà con l&#39;opzione Abilita controllo di accesso selezionata in Controllo di accesso](assets/s_ncs_admin_survey_access_ctrl.png)
 
 Quando si accede alla pagina, viene visualizzato il seguente modulo di autenticazione:
 
-![](assets/s_ncs_admin_survey_access_login.png)
+![Modulo di autenticazione con campi di accesso e password e un pulsante di accesso, visualizzato quando il controllo degli accessi è abilitato](assets/s_ncs_admin_survey_access_login.png)
 
-L’accesso e la password sono quelli utilizzati dagli operatori Adobe Campaign. Per ulteriori informazioni al riguardo, consulta [questa sezione](https://experienceleague.adobe.com/it/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}.
+L’accesso e la password sono quelli utilizzati dagli operatori Adobe Campaign. Per ulteriori informazioni al riguardo, consulta [questa sezione](https://experienceleague.adobe.com/en/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}.
 
 L&#39;opzione **[!UICONTROL Use a specific account]** consente di limitare l&#39;autorizzazione di lettura o scrittura dell&#39;operatore che accede al modulo. Utilizza la casella a discesa per selezionare un operatore o un gruppo di operatori che saranno responsabili della concessione di queste autorizzazioni.
 
-![](assets/s_ncs_admin_survey_access_op_select.png)
+![Utilizza un&#39;opzione di account specifica selezionata, con gli operatori dell&#39;elenco a discesa Operatore tra cui scegliere](assets/s_ncs_admin_survey_access_op_select.png)
 
 ## Parametri URL modulo {#form-url-parameters}
 
@@ -194,7 +194,7 @@ Per impostazione predefinita sono disponibili i seguenti parametri:
 
 I parametri possono essere aggiunti tramite la scheda **[!UICONTROL Parameters...]** nella finestra Proprietà del modulo. Possono essere rese obbligatorie, come illustrato di seguito:
 
-![](assets/s_ncs_admin_survey_properties_param.png)
+![Scheda Parametri che elenca società, genere e stato, con l&#39;opzione Parametro obbligatorio selezionata per lo stato](assets/s_ncs_admin_survey_properties_param.png)
 
 Specificare un percorso di archiviazione da cui recuperare il valore del parametro. A tale scopo, selezionare una delle opzioni di archiviazione, quindi fare clic sulla scheda **[!UICONTROL Storage]** per selezionare il campo o la variabile interessata. Le opzioni di archiviazione sono descritte in dettaglio nei [campi di archiviazione delle risposte](web-forms-answers.md#response-storage-fields).
 
@@ -202,20 +202,20 @@ Lo stato del partecipante (0, 1 o qualsiasi altro valore) può quindi essere agg
 
 1. Home page per i clienti (**stato=1**):
 
-   ![](assets/s_ncs_admin_survey_test_client.png)
+   ![Home page client del modulo, aperta con il parametro URL status=1 e un campo ID](assets/s_ncs_admin_survey_test_client.png)
 
 1. Home page per i potenziali clienti (**stato=0**):
 
-   ![](assets/s_ncs_admin_survey_test_prospect.png)
+   ![Home page potenziale del modulo, aperta con il parametro URL status=0 e i campi name, email e captcha](assets/s_ncs_admin_survey_test_prospect.png)
 
 1. Home page per altri profili (ad esempio, **status=12**):
 
-   ![](assets/s_ncs_admin_survey_test_other.png)
+   ![Contatta la home page del modulo, aperta con il parametro URL status=12 e i campi name, email e message](assets/s_ncs_admin_survey_test_other.png)
 
 Per configurare questo modulo, creare una casella di prova e posizionarla all&#39;inizio del diagramma, come illustrato di seguito:
 
-![](assets/s_ncs_admin_survey_test.png)
+![Diagramma del modulo in cui una casella di prova Client/Prospect/Contact si estende alle home page di Prospect, Client e Contact](assets/s_ncs_admin_survey_test.png)
 
 La casella di test consente di configurare le condizioni di sequenza della pagina:
 
-![](assets/s_ncs_admin_survey_test_box.png)
+![Finestra di dialogo della casella di test con rami definiti dallo stato, in cui la variabile di stato è selezionata dai campi Contesto](assets/s_ncs_admin_survey_test_box.png)

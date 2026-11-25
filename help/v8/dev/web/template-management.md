@@ -25,10 +25,10 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 5%
+source-wordcount: '148'
+ht-degree: 4%
 ---
 # Gestione dei modelli{#template-management}
 
@@ -38,7 +38,7 @@ Digital Content Editor offre **modelli standard** per applicazioni Web e consegn
 
 Durante la creazione di un&#39;applicazione Web di tipo Pagina di destinazione, l&#39;utente può scegliere uno di questi modelli. Puoi anche importare un modello HTML creato al di fuori di Adobe Campaign.
 
-![](assets/dce_popup_templatechoice.png)
+![Scegliere una finestra di dialogo per contenuto in cui sono elencati i modelli di contenuto disponibili, ad esempio Da un file, Contatto e Clickthrough](assets/dce_popup_templatechoice.png)
 
 Per aggiungere un modello, consulta [Opzioni globali](content-editor-interface.md#global-options).
 
@@ -48,6 +48,6 @@ Dopo aver configurato una consegna, puoi salvarla come modello per riutilizzarla
 
 Nella scheda **Campagne**, apri la consegna scelta. Fare clic sul pulsante **Salva come modello**, assegnare un nome al modello e quindi salvare.
 
-![](assets/dce_save_model.png)
+![Editor di contenuti HTML con l&#39;icona Salva come modello evidenziata nella barra degli strumenti a destra](assets/dce_save_model.png)
 
 Il nuovo modello viene salvato nel nodo **Risorse > Modelli > Modelli di contenuto** in Esplora risorse.

@@ -28,9 +28,9 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1581'
 ht-degree: 0%
 ---
 # Modificare i contenuti{#editing-content}
@@ -43,13 +43,13 @@ Puoi specificare una condizione di visibilità in un elemento della pagina web: 
 
 Per aggiungere una condizione di visibilità, selezionare un blocco e immetterla nel campo **[!UICONTROL Visibility condition]** utilizzando l&#39;editor di espressioni.
 
-![](assets/dce_add_condition.png)
+![Editor di contenuti con il campo Condizione di visibilità e l&#39;icona di modifica evidenziati nel pannello delle opzioni di blocco a destra](assets/dce_add_condition.png)
 
 >[!NOTE]
 >
->La modifica avanzata delle espressioni è presentata in [questa pagina](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"} (documentazione di Campaign v8).
+>La modifica avanzata delle espressioni è presentata in [questa pagina](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"} (documentazione di Campaign v8).
 
-![](assets/dce_popup_visibilitycondition.png)
+![Finestra di dialogo dell&#39;editor di espressioni con l&#39;elenco Campi disponibili, l&#39;elenco delle funzioni e il pulsante Inserisci](assets/dce_popup_visibilitycondition.png)
 
 Queste condizioni adottano la sintassi dell&#39;espressione XTK (ad esempio **ctx.recipient.@email != &quot;&quot;** o **ctx.recipient.@status==&quot;0&quot;**). Per impostazione predefinita, tutti i campi sono visibili.
 
@@ -61,11 +61,11 @@ Queste condizioni adottano la sintassi dell&#39;espressione XTK (ad esempio **ct
 
 Puoi aggiungere un **bordo** a un blocco selezionato. I bordi vengono definiti utilizzando tre opzioni: stile, dimensione e colore.
 
-![](assets/dce_popup_border.png)
+![Finestra di dialogo Bordi con stile, dimensione, selettore colore e anteprima con sfondi trasparenti, chiari e scuri](assets/dce_popup_border.png)
 
 È inoltre possibile definire un **colore di sfondo** selezionando un colore dal grafico a colori.
 
-![](assets/dce_popup_background.png)
+![Finestra di dialogo Indietro con selettore colore, cursore opacità e Anteprima con opzioni Trasparente, Chiaro e Scuro](assets/dce_popup_background.png)
 
 ## Modifica dei moduli {#editing-forms}
 
@@ -73,7 +73,7 @@ Puoi aggiungere un **bordo** a un blocco selezionato. I bordi vengono definiti u
 
 Puoi collegare i campi del database con zone di input, pulsanti di scelta o blocchi di tipo casella di controllo.
 
-![](assets/dce_sidebar_field.png)
+![Opzioni della zona di input (testo) con la sezione Dati modulo, Campo impostato su No data e l&#39;opzione obbligatoria Sì/No](assets/dce_sidebar_field.png)
 
 >[!NOTE]
 >
@@ -83,7 +83,7 @@ L&#39;area di input **field** consente di selezionare un campo di database da co
 
 Per impostazione predefinita, i campi offerti sono quelli della tabella **nms:recipient**.
 
-![](assets/dce_field_selection.png)
+![Campo della finestra di dialogo Destinatario in cui sono elencati i campi nms:recipient quali E-mail, Nome e Cognome](assets/dce_field_selection.png)
 
 L&#39;opzione **Campo obbligatorio** consente di autorizzare l&#39;approvazione della pagina solo se l&#39;utente ha compilato il campo. Se non viene compilato un campo obbligatorio, viene visualizzato un messaggio di errore.
 
@@ -95,11 +95,11 @@ Per eseguire questa operazione:
 
 * Fare clic sull&#39;icona **[!UICONTROL Edit]**.
 
-  ![](assets/dce_sidebar_options.png)
+  ![Opzioni casella di controllo con la sezione Dati modulo e l&#39;icona Modifica evidenziate sopra le impostazioni Tipo, Campo e Obbligatorio](assets/dce_sidebar_options.png)
 
 * Immettere il valore dell&#39;elenco dettagliato (definito dal campo selezionato) nel campo **[!UICONTROL Value]**.
 
-  ![](assets/dce_sidebar_completeoptionradio.png)
+  ![Finestra di dialogo Dati modulo con il valore se selezionato e il valore se non selezionato campi evidenziati](assets/dce_sidebar_completeoptionradio.png)
 
 ### Modifica dei campi modulo {#modifying-form-fields}
 
@@ -111,13 +111,13 @@ Ciò significa che è possibile:
 * Duplica il campo selezionato creando un nuovo blocco utilizzando l&#39;icona **[!UICONTROL Duplicate]**.
 * Modificare la finestra **[!UICONTROL Form data]** per collegare un campo del database alla zona del modulo utilizzando l&#39;icona **[!UICONTROL Edit]**.
 
-  ![](assets/dce_toolbar_formblock_edition.png)
+  ![Finestra di dialogo Dati modulo con il selettore Campo impostato su No data e l&#39;interruttore obbligatorio Sì/No](assets/dce_toolbar_formblock_edition.png)
 
 ## Aggiunta di un&#39;azione a un pulsante {#adding-an-action-to-a-button}
 
 Quando l’utente fa clic su un pulsante, puoi definire un’azione associata. A questo scopo, seleziona l’azione da eseguire dall’elenco a discesa.
 
-![](assets/dce_sidebar_button.png)
+![Opzioni collegamento ipertestuale con elenco a discesa Azione Per definire, Nessuno, Aggiorna, Pagina successiva e Passaggio precedente](assets/dce_sidebar_button.png)
 
 Le azioni disponibili sono le seguenti:
 
@@ -137,11 +137,11 @@ Puoi inserire un collegamento in qualsiasi elemento della pagina: immagine, paro
 
 A questo scopo, seleziona l’elemento e utilizza la prima icona dal menu a comparsa.
 
-![](assets/dce_insertlink_icon.png)
+![Barra degli strumenti di blocco con l&#39;icona Inserisci evidenziata, utilizzata per aprire il menu dei collegamenti](assets/dce_insertlink_icon.png)
 
 Questa icona ti consente di accedere a tutti i tipi di collegamenti disponibili.
 
-![](assets/dce_insertlink_menu.png)
+![Menu di inserimento con campi Personalization, blocchi Personalization e tipi di collegamento: URL esterno, azione, applicazione Web](assets/dce_insertlink_menu.png)
 
 I blocchi e i campi di personalizzazione possono essere inseriti solo in blocchi di tipo Testo.
 
@@ -163,7 +163,7 @@ I blocchi e i campi di personalizzazione possono essere inseriti solo in blocchi
 
 L&#39;opzione **Collega a un URL esterno** consente di aprire qualsiasi URL dal contenuto di origine.
 
-![](assets/dce_toolbar_imgblock_externallink.png)
+![Inserisci una finestra di dialogo di collegamento per un URL esterno con i campi URL e Target](assets/dce_toolbar_imgblock_externallink.png)
 
 Immetti l&#39;indirizzo del collegamento in questione nel campo **URL**. Il campo URL deve essere immesso come: **https://www.myURL.com**.
 
@@ -171,7 +171,7 @@ Immetti l&#39;indirizzo del collegamento in questione nel campo **URL**. Il camp
 
 L&#39;opzione **Collega a un&#39;applicazione Web** consente di accedere a un&#39;applicazione Web Adobe Campaign.
 
-![](assets/dce_toolbar_imgblock_appweb.png)
+![Inserisci una finestra di dialogo di collegamento per un&#39;applicazione Web con l&#39;applicazione Web e i campi di destinazione](assets/dce_toolbar_imgblock_appweb.png)
 
 Selezionare l&#39;applicazione Web dal campo corrispondente.
 
@@ -181,7 +181,7 @@ L&#39;elenco delle applicazioni Web suggerite corrisponde alle applicazioni disp
 
 Il **collegamento che definisce un&#39;azione** consente di configurare un&#39;azione quando si fa clic su un elemento di origine.
 
-![](assets/dce_toolbar_imgblock_action.png)
+![Inserisci una finestra di dialogo di collegamento per un&#39;azione con i campi Azione e Destinazione](assets/dce_toolbar_imgblock_action.png)
 
 >[!NOTE]
 >
@@ -202,7 +202,7 @@ Dopo aver inserito un collegamento, la barra degli strumenti offre due nuove ico
 
 Quando selezionate un elemento di testo, potete modificare gli attributi del carattere (stile, formato).
 
-![](assets/dce_toolbar_txt.png)
+![Pulsanti della barra degli strumenti Testo: ingrandire o ridurre il carattere, il grassetto, il corsivo, la sottolineatura, l&#39;allineamento, il colore di sfondo e il colore del carattere](assets/dce_toolbar_txt.png)
 
 Le opzioni disponibili sono le seguenti:
 
@@ -235,11 +235,11 @@ Digital Content Editor consente di lavorare su **qualsiasi tipo di immagine** co
 
 Per inserire un&#39;immagine, seleziona un blocco di tipo Immagine e fai clic sull&#39;icona **Immagine**.
 
-![](assets/dce_insert_image.png)
+![Barra degli strumenti per blocchi di immagini con l&#39;icona Immagine evidenziata per l&#39;inserimento di un&#39;immagine](assets/dce_insert_image.png)
 
 Selezionare un file di immagine salvato localmente.
 
-![](assets/dce_popup_imgupload.png)
+![Finestra di dialogo per la selezione delle immagini con il pulsante Sfoglia per scegliere un file di immagine locale](assets/dce_popup_imgupload.png)
 
 L&#39;icona **Elimina** elimina il tag contenente l&#39;immagine.
 
@@ -256,7 +256,7 @@ Quando selezioni un blocco contenente un’immagine, puoi accedere alle seguenti
 * **Didascalia** consente di definire la didascalia collegata all&#39;immagine (corrisponde all&#39;attributo HTML **alt**).
 * **Dimensioni** consente di specificare la dimensione dell&#39;immagine, in pixel.
 
-  ![](assets/dce_popup_imgsize.png)
+  ![Finestra di dialogo Dimensioni con campi Larghezza e Altezza in pixel, entrambi impostati su 96](assets/dce_popup_imgsize.png)
 
 ## Aggiunta di contenuti di personalizzazione {#adding-personalization-content}
 
@@ -264,7 +264,7 @@ Quando selezioni un blocco contenente un’immagine, puoi accedere alle seguenti
 
 L&#39;opzione **Campo Personalization** per l&#39;icona Inserisci consente di aggiungere un campo di database al contenuto, ad esempio il nome del destinatario. Questa opzione è disponibile solo per i blocchi di testo.
 
-![](assets/dce_toolbar_textblock_persofield.png)
+![Inserisci una finestra di dialogo di elemento in cui sono elencati i campi Destinatario, ad esempio E-mail, Nome e Cognome](assets/dce_toolbar_textblock_persofield.png)
 
 Per impostazione predefinita, i campi offerti provengono dalla tabella **[!UICONTROL Recipient]**. Se necessario, modificare le proprietà dell&#39;applicazione Web per selezionare un&#39;altra tabella.
 
@@ -276,8 +276,8 @@ Un esempio è presentato nella sezione [Inserimento di un campo di personalizzaz
 
 L&#39;opzione **Blocco Personalization** consente di inserire blocchi dinamici e personalizzati nel contenuto. Ad esempio, puoi aggiungere un logo o un messaggio di saluto. Non è disponibile per i blocchi di tipo Testo.
 
-![](assets/dce_toolbar_textblock_persoblock.png)
+![Inserisce una finestra di dialogo di elemento in cui sono elencati blocchi di personalizzazione quali Saluti, Inserisci logo e Collegamento per annullare l&#39;abbonamento](assets/dce_toolbar_textblock_persoblock.png)
 
 Una volta inserito, il nome del blocco di personalizzazione viene visualizzato nell’editor ed evidenziato in giallo. Viene adattato automaticamente al profilo del destinatario quando viene generata la personalizzazione.
 
-Per ulteriori informazioni sui blocchi di personalizzazione incorporati e su come definire blocchi di personalizzazione personalizzati, consulta la [documentazione di Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=it){target="_blank"}.
+Per ulteriori informazioni sui blocchi di personalizzazione incorporati e su come definire blocchi di personalizzazione personalizzati, consulta la [documentazione di Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}.

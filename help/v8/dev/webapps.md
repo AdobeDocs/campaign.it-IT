@@ -27,9 +27,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '251'
 ht-degree: 0%
 ---
 # Introduzione alle applicazioni web e ai moduli web{#gs-ac-web}
@@ -38,13 +38,13 @@ ht-degree: 0%
 >
 >Per i casi d’uso più comuni, crea le pagine di destinazione nell’interfaccia utente di Campaign Web, dove puoi facilmente progettarle e pubblicarle. Le pagine di destinazione create nella console client, come descritto in questa sezione, offrono più impostazioni e coprono casi di utilizzo più avanzati.
 >
->[Ulteriori informazioni sulle pagine di destinazione nell&#39;interfaccia utente di Campaign Web](https://experienceleague.adobe.com/it/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
+>[Ulteriori informazioni sulle pagine di destinazione nell&#39;interfaccia utente di Campaign Web](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
 
 Adobe Campaign integra un modulo grafico per la definizione e la pubblicazione di **moduli Web** per la creazione di pagine con campi di input e di selezione e che possono includere dati provenienti dal database. In questo modo è possibile progettare e pubblicare pagine Web a cui gli utenti possono accedere per visualizzare o immettere informazioni.
 
 Scopri come creare e pubblicare moduli web in [Introduzione ai moduli web](web/about-web-forms.md).
 
-![](assets/sample.png)
+![Modulo Web di esempio per un abbonamento a una newsletter via e-mail con campi e-mail, nome e paese e un pulsante di abbonamento.](assets/sample.png)
 
 Adobe Campaign consente inoltre di creare e pubblicare **applicazioni Web** dinamiche e interattive con dati provenienti dal database e contenuto adattato ai diritti dell&#39;utente connesso.
 

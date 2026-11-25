@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Accessibility
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '1283'
-ht-degree: 1%
+source-wordcount: '1481'
+ht-degree: 0%
 ---
 # Pubblicare un modulo web{#publishing-a-web-form}
 
@@ -49,7 +49,7 @@ Sono possibili i seguenti metodi di identificazione:
 
 * **[!UICONTROL DES encryption]**
 
-  ![](assets/s_ncs_admin_survey_preload_methods_001.png)
+  ![Precaricamento della sezione di identificazione con il metodo impostato sulla crittografia DES, un campo chiave DES e Ignora precaricamento se non viene specificato alcun ID](assets/s_ncs_admin_survey_preload_methods_001.png)
 
   Questo metodo di crittografia utilizza un identificatore (ID) fornito esternamente, collegato a una chiave condivisa da Adobe Campaign e dal provider esterno. Il campo **[!UICONTROL Des key]** consente di immettere questa chiave di crittografia.
 
@@ -57,7 +57,7 @@ Sono possibili i seguenti metodi di identificazione:
 
   Questa opzione consente di scegliere tra i campi nel contesto corrente del modulo quelli che verranno utilizzati per trovare il profilo corrispondente nel database.
 
-  ![](assets/s_ncs_admin_survey_preload_methods_002.png)
+  ![Precaricamento della sezione di identificazione con il metodo List of fields e il campo e-mail selezionato come identificatore](assets/s_ncs_admin_survey_preload_methods_002.png)
 
   I campi possono essere aggiunti alle proprietà del modulo tramite la scheda **[!UICONTROL Parameters]** (fare riferimento a [Aggiunta di parametri](defining-web-forms-properties.md#adding-parameters)). Vengono inseriti sotto forma di URL o aree di input.
 
@@ -69,11 +69,11 @@ Sono possibili i seguenti metodi di identificazione:
 
   L’URL può includere l’indirizzo e-mail non crittografato, nel qual caso gli utenti hanno accesso diretto alle pagine che li riguardano.
 
-  ![](assets/s_ncs_admin_survey_preload_methods_003.png)
+  ![URL del modulo Web contenente l&#39;indirizzo e-mail, apertura diretta del modulo informazioni client precompilato](assets/s_ncs_admin_survey_preload_methods_003.png)
 
   In caso contrario, verrà richiesta loro la password.
 
-  ![](assets/s_ncs_admin_survey_preload_methods_004.png)
+  ![URL modulo Web senza indirizzo e-mail, apertura di una pagina Immettere la password che richiede la password](assets/s_ncs_admin_survey_preload_methods_004.png)
 
   >[!CAUTION]
   >
@@ -89,7 +89,7 @@ L&#39;opzione **[!UICONTROL Load additional data]** consente di aggiungere infor
 
 Ad esempio, puoi precaricare il genere del destinatario e indirizzarlo automaticamente alla pagina appropriata tramite una casella di test.
 
-![](assets/s_ncs_admin_survey_preload_ex.png)
+![La casella di precaricamento carica il campo di genere, seguita da una casella di test che invia i destinatari alla pagina corrispondente](assets/s_ncs_admin_survey_preload_ex.png)
 
 ## Gestione della consegna e del tracciamento dei moduli web {#managing-web-forms-delivery-and-tracking}
 
@@ -137,13 +137,13 @@ Il ciclo di vita di una forma prevede tre fasi:
 
 Lo stato di pubblicazione di un modulo viene visualizzato nell&#39;elenco dei moduli.
 
-![](assets/s_ncs_admin_survey_status.png)
+![Elenco delle applicazioni Web con lo stato di pubblicazione di ogni modulo, ad esempio In linea e In fase di modifica](assets/s_ncs_admin_survey_status.png)
 
 ### Pubblicazione di un modulo {#publishing-a-form}
 
 Per modificare lo stato di un modulo, è necessario pubblicarlo. A tale scopo, fare clic sul pulsante **[!UICONTROL Publication]** sopra l&#39;elenco dei moduli Web e selezionare lo stato nella casella a discesa.
 
-![](assets/webapp_publish_webform.png)
+![Dashboard del modulo Web con il pulsante Pubblica, che consente di aprire la finestra di dialogo di pubblicazione dell&#39;applicazione Web con un pulsante Avvia](assets/webapp_publish_webform.png)
 
 ### Come rendere un modulo disponibile online {#making-a-form-available-online}
 
@@ -151,7 +151,7 @@ Per essere accessibile agli utenti, il modulo deve essere in produzione e deve e
 
 * Utilizzare i campi della sezione **[!UICONTROL Project]** per immettere le date di inizio e di fine del modulo.
 
-  ![](assets/webapp_availability_date.png)
+  ![Scheda Generale di Proprietà con i campi Data inizio e Data fine nella sezione Progetto e il calendario Data fine aperto](assets/webapp_availability_date.png)
 
 * Fare clic sul collegamento **[!UICONTROL Personalize the message displayed if the form is closed...]** per definire il messaggio di errore da visualizzare se l&#39;utente tenta di accedere al modulo mentre non è valido.
 
@@ -169,21 +169,21 @@ In questo caso, la chiave di riconciliazione per l’archiviazione dei dati deve
 
 In questo caso, è necessario selezionare l&#39;opzione **[!UICONTROL Update the preloaded record]** nella casella di record. Per ulteriori informazioni, vedere [Salvataggio delle risposte ai moduli Web](web-forms-answers.md#saving-web-forms-answers).
 
-![](assets/s_ncs_admin_survey_save_box_option.png)
+![Finestra di dialogo Archiviazione con l&#39;opzione Aggiorna il record precaricato selezionata](assets/s_ncs_admin_survey_save_box_option.png)
 
 ### Registro risposte {#log-responses}
 
 Il tracciamento delle risposte può essere attivato in una scheda dedicata per monitorare l’impatto del modulo web. A tale scopo, fare clic sul collegamento **[!UICONTROL Advanced parameters...]** nella finestra delle proprietà del modulo e selezionare l&#39;opzione **[!UICONTROL Log responses]**.
 
-![](assets/s_ncs_admin_survey_trace.png)
+![Finestra di dialogo Parametri avanzati con l&#39;opzione Registra risposte selezionata, aperta dalle proprietà del modulo](assets/s_ncs_admin_survey_trace.png)
 
 Viene visualizzata la scheda **[!UICONTROL Responses]** che consente di visualizzare l&#39;identità dei partecipanti.
 
-![](assets/s_ncs_admin_survey_trace_tab.png)
+![Scheda Risposte del modulo Web in cui sono elencate la data e il destinatario di ogni risposta al modulo](assets/s_ncs_admin_survey_trace_tab.png)
 
 Selezionare un destinatario e fare clic sul pulsante **[!UICONTROL Detail...]** per visualizzare le risposte fornite.
 
-![](assets/s_ncs_admin_survey_trace_edit.png)
+![Pulsante Dettagli nella scheda Risposte apertura di una finestra di risposte di un modulo con le risposte immesse da un destinatario](assets/s_ncs_admin_survey_trace_edit.png)
 
 Puoi elaborare i registri di risposta forniti nelle query, ad esempio per eseguire il targeting solo dei non-rispondenti durante l’invio di promemoria o per offrire comunicazioni specifiche solo ai rispondenti.
 
