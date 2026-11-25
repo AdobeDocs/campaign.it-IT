@@ -103,7 +103,7 @@ Le risposte a un sondaggio possono essere esportate in un file esterno per esser
 
    Per esportare i dati del report, fare clic sul pulsante **[!UICONTROL Export]** e scegliere il formato di esportazione.
 
-   Per ulteriori informazioni sull&#39;esportazione dei dati del report, consultare [questa sezione](https://experienceleague.adobe.com/en/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign){target="_blank"}.
+   Per ulteriori informazioni sull&#39;esportazione dei dati del report, consultare [questa sezione](https://experienceleague.adobe.com/it/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign){target="_blank"}.
 
 1. Esportazione delle risposte
 
@@ -181,4 +181,4 @@ Modifica la casella di divisione per configurarla:
 
 ## Standardizzazione dei dati {#standardizing-data}
 
-È possibile impostare processi di standardizzazione in Adobe Campaign per i dati raccolti utilizzando gli alias. Ciò ti consente di standardizzare i dati memorizzati nel database: a questo scopo, definisci gli alias negli elenchi dettagliati che contengono le informazioni pertinenti. Scopri come **utilizzare le enumerazioni** nella [documentazione di Adobe Campaign v8 (console)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
+È possibile impostare processi di standardizzazione in Adobe Campaign per i dati raccolti utilizzando gli alias. Ciò ti consente di standardizzare i dati memorizzati nel database: a questo scopo, definisci gli alias negli elenchi dettagliati che contengono le informazioni pertinenti. Scopri come **utilizzare le enumerazioni** nella [documentazione di Adobe Campaign v8 (console)](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
