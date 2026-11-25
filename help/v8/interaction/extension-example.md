@@ -26,9 +26,9 @@ feature_v2:
 subfeature_v2:
   - id: e739ee2b-6228-412e-878f-45de0791417d
     internal-label: Use cases
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '193'
 ht-degree: 3%
 ---
 # Estensione esemplificativa{#extension-example}
@@ -41,12 +41,12 @@ Nel caso di un contatto in entrata (call center o sito web), le offerte più ril
 
   Nell’esempio seguente, i criteri aggiunti sono il codice del paese e l’ultima pagina visitata.
 
-  ![](assets/s_ncs_configuration_offer_schemas.png)
+  ![Schema dati delle interazioni con codice paese e attributi della pagina Ultima visita aggiunti.](assets/s_ncs_configuration_offer_schemas.png)
 
 * È quindi possibile utilizzare gli attributi creati in precedenza durante la definizione dei criteri di idoneità.
 
   Nell’esempio seguente, è possibile creare criteri di idoneità per visualizzare un’offerta in base al paese dell’utente o all’ultima pagina web visualizzata.
 
-  ![](assets/s_ncs_configuration_offer_context.png)
+  ![Editor query di idoneità con i campi Codice paese e Interazione ultima pagina visitata selezionabili come criteri.](assets/s_ncs_configuration_offer_context.png)
 
-* Durante la configurazione delle chiamate di SOAP, inserisci l&#39;elemento XML **context** per fare riferimento alle informazioni di contesto aggiunte nello schema di interazione. Per ulteriori informazioni, consulta [Integrazione tramite SOAP (lato server)](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/offers/inbound/interaction-integration){target="_blank"} (documentazione di Campaign v8).
+* Durante la configurazione delle chiamate di SOAP, inserisci l&#39;elemento XML **context** per fare riferimento alle informazioni di contesto aggiunte nello schema di interazione. Per ulteriori informazioni, consulta [Integrazione tramite SOAP (lato server)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/inbound/interaction-integration){target="_blank"} (documentazione di Campaign v8).

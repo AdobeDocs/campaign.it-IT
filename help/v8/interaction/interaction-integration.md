@@ -24,9 +24,9 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '1464'
+source-wordcount: '1566'
 ht-degree: 0%
 ---
 # Aggiungere un’offerta in una pagina web{#add-an-offer-in-web}
@@ -119,7 +119,7 @@ Nel contenuto della pagina web, devi aggiungere il seguente script che identific
 
 1. Vai allo spazio dell&#39;offerta che verrà richiamato dalla pagina Web, fai clic su **[!UICONTROL Advanced parameters]** e aggiungi una o più chiavi di identificazione.
 
-   ![](assets/interaction_htmlmode_001.png)
+   ![Parametri avanzati Scheda di identificazione della destinazione con @email del percorso della chiave e il campo Cognome aggiunto come seconda chiave](assets/interaction_htmlmode_001.png)
 
    In questo esempio, la chiave di identificazione è composita perché si basa sia sull’e-mail che sul nome del destinatario.
 
@@ -141,7 +141,7 @@ Per generare automaticamente la rappresentazione dell’offerta HTML, puoi utili
 1. Seleziona **[!UICONTROL Overload the HTML rendering function]**.
 1. Vai alla scheda **[!UICONTROL HTML rendering]** e inserisci le variabili che corrispondono ai campi definiti per il contenuto dell&#39;offerta nello spazio dell&#39;offerta.
 
-   ![](assets/interaction_htmlmode_002.png)
+   ![Spazio dell&#39;offerta Finestra di dialogo Modifica funzioni, scheda di rendering HTML, con l&#39;opzione e lo script Overload the HTML rendering function](assets/interaction_htmlmode_002.png)
 
    In questo esempio, l’offerta viene visualizzata sotto forma di banner in una pagina web ed è composta da un’immagine cliccabile e da un titolo che corrisponde ai campi definiti nel contenuto dell’offerta.
 
@@ -256,7 +256,7 @@ Il caso d’uso seguente descrive le configurazioni da eseguire in Adobe Campaig
 
    Commenta il campo URL di destinazione:
 
-   ![](assets/interaction_xmlmode_form_001.png)
+   ![XML modulo di rappresentazione dell&#39;offerta con il blocco di input URL di destinazione commentato](assets/interaction_xmlmode_form_001.png)
 
    >[!CAUTION]
    >
@@ -264,7 +264,7 @@ Il caso d’uso seguente descrive le configurazioni da eseguire in Adobe Campaig
 
    Il rendering nel modulo delle rappresentazioni di offerta è simile al seguente:
 
-   ![](assets/interaction_xmlmode_form.png)
+   ![Scheda Contenuto offerta con campi Titolo, URL di destinazione e URL immagine vuoti sopra l&#39;editor di contenuti HTML](assets/interaction_xmlmode_form.png)
 
    I campi **[!UICONTROL Title 2]** e **[!UICONTROL Price]** sono stati aggiunti e il campo **[!UICONTROL Destination URL]** non viene più visualizzato.
 
@@ -274,7 +274,7 @@ Il caso d’uso seguente descrive le configurazioni da eseguire in Adobe Campaig
 
    Nel seguente caso d’uso, l’offerta viene immessa come segue:
 
-   ![](assets/interaction_xmlmode_offer.png)
+   ![Scheda Contenuto offerta con titolo, URL di destinazione e URL immagine compilati e contenuto HTML utilizzando recipient.firstName](assets/interaction_xmlmode_offer.png)
 
 1. **Approva l&#39;offerta**
 
@@ -327,7 +327,7 @@ Il caso d’uso seguente descrive le configurazioni da eseguire in Adobe Campaig
    } 
    ```
 
-![](assets/interaction_xmlmode_001.png)
+![Spazio dell&#39;offerta Finestra di dialogo Modifica funzioni, scheda Rendering XML, con l&#39;opzione Overload the XML rendering function and script](assets/interaction_xmlmode_001.png)
 
 ## Configurare un’integrazione SOAP
 

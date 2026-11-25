@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1269'
 ht-degree: 0%
 ---
 # Best practice di interazione {#interaction-best-practices}
@@ -77,13 +77,13 @@ Quando selezioni le offerte in un&#39;attività **Enrichment**, puoi scegliere q
 
 Nell&#39;esempio seguente, lo spazio dell&#39;offerta selezionato nella consegna è **[!UICONTROL Email (Environment - Recipient)]**:
 
-![](assets/Interaction-best-practices-offer-space-selected.png)
+![Sezione di selezione delle offerte di una consegna con il campo Spazio offerte impostato su E-mail (ambiente - destinatario).](assets/Interaction-best-practices-offer-space-selected.png)
 
 Se lo spazio dell’offerta selezionato nella consegna non dispone di una funzione di rendering di HTML configurata, non verrà visualizzato nel menu di consegna e non sarà disponibile per la selezione. Indipendente dallo spazio delle offerte selezionato nell&#39;attività **Arricchimento**.
 
 Nell’esempio seguente, la funzione di rendering di HTML è disponibile nell’elenco a discesa perché lo spazio dell’offerta selezionato nella consegna ha una funzione di rendering:
 
-![](assets/Interaction-best-practices-HTML-rendering.png)
+![Menu campo di Personalization con proposte, proposta e opzione di rendering HTML evidenziate.](assets/Interaction-best-practices-HTML-rendering.png)
 
 Questa funzione inserisce il codice seguente: `<%@ include proposition="targetData.proposition" view="rendering/html" %>`.
 
@@ -99,7 +99,7 @@ Di conseguenza, per evitare problemi, si consiglia di definire una funzione di r
 
 Gli spazi dell’offerta consentono di memorizzare i dati nella tabella delle proposte quando queste vengono generate o accettate:
 
-![](assets/Interaction-best-practices-offer-space-storage.png)
+![Scheda Archiviazione di uno spazio delle offerte con espressioni relative allo stato di accettazione e al percorso di archiviazione On proposition e On.](assets/Interaction-best-practices-offer-space-storage.png)
 
 Tuttavia, questo si applica solo alle interazioni in entrata.
 
@@ -109,11 +109,11 @@ Qualsiasi campo della tabella temporanea del flusso di lavoro il cui nome corris
 
 Ad esempio, quando selezioni manualmente un&#39;offerta (senza interazione) in un&#39;attività del flusso di lavoro **Arricchimento**, i campi standard sono definiti come segue:
 
-![](assets/Interaction-best-practices-manual-offer-std-fields.png)
+![Colonne di output di un&#39;attività di arricchimento con i campi standard per un&#39;offerta selezionata manualmente.](assets/Interaction-best-practices-manual-offer-std-fields.png)
 
 È possibile aggiungere altri campi, ad esempio un campo `@rank`:
 
-![](assets/Interaction-best-practices-manual-offer-add-fields.png)
+![Colonne di output di un&#39;attività di arricchimento con un campo Classificazione aggiunto per la proposta.](assets/Interaction-best-practices-manual-offer-add-fields.png)
 
 Poiché nella tabella della proposta è presente un campo denominato `@rank`, il valore nella tabella temporanea del flusso di lavoro verrà copiato.
 
@@ -127,7 +127,7 @@ Quando si utilizza l&#39;interazione in uscita, è possibile aggiungere il campo
 
 Quando si utilizza l’interazione e si selezionano manualmente le offerte, l’utente può combinare entrambi gli approcci. Ad esempio, l&#39;utente può impostare manualmente il campo `@rank` su 1 per l&#39;offerta selezionata manualmente e utilizzare un&#39;espressione come `"1 + @rank"` per le offerte restituite da Interaction. Supponendo che Interaction selezioni tre offerte, le offerte restituite da entrambi gli approcci saranno classificate da 1 a 4:
 
-![](assets/Interaction-best-practices-manual-offer-combined.png)
+![Colonne di output che combinano l&#39;interazione dell&#39;offerta con un&#39;espressione di classificazione 1 + per impostare manualmente la classificazione.](assets/Interaction-best-practices-manual-offer-combined.png)
 
 ### Estendere lo schema nms:offer {#extending-nms-offer-schema}
 

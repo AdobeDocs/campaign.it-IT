@@ -21,16 +21,16 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '209'
 ht-degree: 0%
 ---
 # Presenta l’offerta migliore{#interaction-present-offers}
 
 Le offerte possono essere presentate in vari spazi di offerta utilizzando [un canale in entrata o in uscita](interaction-architecture.md#interaction-types). Questo capitolo descrive alcune funzioni specifiche per i canali in entrata.
 
-![](assets/inbound-interactions.png)
+![Flusso in entrata: sfoglia un sito, identifica il visitatore tramite cookie o accesso, il motore di offerta seleziona l&#39;offerta migliore dal catalogo](assets/inbound-interactions.png)
 
 Per poter essere selezionata dal motore di offerta, un’offerta deve essere approvata e disponibile in un ambiente live.
 

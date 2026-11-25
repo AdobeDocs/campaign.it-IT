@@ -29,10 +29,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 3%
+source-wordcount: '1119'
+ht-degree: 2%
 ---
 # Creare un’offerta
 
@@ -60,7 +60,7 @@ Per creare un’offerta, effettua le seguenti operazioni:
 
 Nella scheda **[!UICONTROL Eligibility]** dell&#39;offerta, definisci il periodo di idoneità dell&#39;offerta. Utilizza gli elenchi a discesa per selezionare una data di inizio e una data di fine nel calendario.
 
-![](assets/offer_eligibility_create_002.png)
+![Scheda Idoneità con calendario a discesa della data di inizio e di fine per il periodo di idoneità dell&#39;offerta.](assets/offer_eligibility_create_002.png)
 
 Al di fuori di questo periodo, l’offerta non sarà selezionata. Se hai configurato anche le date di idoneità per la categoria dell’offerta, verrà applicato il periodo più restrittivo.
 
@@ -70,11 +70,11 @@ Nella scheda **[!UICONTROL Eligibility]** dell&#39;offerta, applica i filtri all
 
 A tale scopo, fare clic sul collegamento **[!UICONTROL Edit query]** e selezionare il filtro che si desidera applicare.
 
-![](assets/offer_eligibility_create_003.png)
+![Selezionare la procedura guidata delle condizioni di filtro delle destinazioni, aperta dal collegamento Modifica query nella scheda Idoneità.](assets/offer_eligibility_create_003.png)
 
 Se sono già stati creati filtri predefiniti, puoi selezionarli dall’elenco dei filtri utente. [Ulteriori informazioni](interaction-predefined-filters.md)
 
-![](assets/offer_eligibility_create_004.png)
+![Elenco filtri utente nella procedura guidata di targeting, con il filtro selezionato applicato e un&#39;anteprima dei destinatari corrispondenti.](assets/offer_eligibility_create_004.png)
 
 ### Impostare il peso dell’offerta {#offer-weight}
 
@@ -92,11 +92,11 @@ Per creare un peso in un’offerta, effettua le seguenti operazioni:
 
 1. Nella scheda **[!UICONTROL Eligibility]** dell&#39;offerta, fare clic su **[!UICONTROL Add]**.
 
-   ![](assets/offer_weight_create_001.png)
+   ![Scheda Idoneità con il pulsante Aggiungi che apre la finestra di dialogo Spessore per creare lo spessore di un&#39;offerta.](assets/offer_weight_create_001.png)
 
 1. Modifica l’etichetta e assegna un peso. Il valore predefinito è 1.
 
-   ![](assets/offer_weight_create_006.png)
+   ![Finestra di dialogo Peso con il campo Etichetta e il valore Peso nella sezione Arbitrato.](assets/offer_weight_create_006.png)
 
    >[!CAUTION]
    >
@@ -104,19 +104,19 @@ Per creare un peso in un’offerta, effettua le seguenti operazioni:
 
 1. Se si desidera applicare il fattore di ponderazione per un determinato periodo, definire le date di idoneità.
 
-   ![](assets/offer_weight_create_002.png)
+   ![Finestra di dialogo del peso con data di inizio e data di fine impostate nella sezione Date di idoneità.](assets/offer_weight_create_002.png)
 
 1. Se necessario, limita il peso a uno spazio dell’offerta specifico.
 
-   ![](assets/offer_weight_create_003.png)
+   ![Finestra di dialogo Peso con il menu a discesa Spazio offerte in cui sono elencati gli spazi a cui è possibile limitare lo spessore.](assets/offer_weight_create_003.png)
 
 1. Applicare un filtro a una destinazione.
 
-   ![](assets/offer_weight_create_004.png)
+   ![Finestra di dialogo Spessore con il collegamento Modifica query in Filtri sulla destinazione evidenziati.](assets/offer_weight_create_004.png)
 
 1. Fare clic su **[!UICONTROL OK]** per salvare lo spessore.
 
-   ![](assets/offer_weight_create_005.png)
+   ![Tabella di ponderazione della scheda Idoneità che elenca il nuovo peso Premium con le relative date e filtro.](assets/offer_weight_create_005.png)
 
    >[!NOTE]
    >
@@ -128,13 +128,13 @@ Al termine della configurazione, nel dashboard delle offerte sarà disponibile u
 
 Per visualizzarlo, fare clic sul collegamento **[!UICONTROL Schedule and eligibility rules]**.
 
-![](assets/offer_eligibility_create_005.png)
+![Dashboard delle offerte con il collegamento Pianificazione e regole di idoneità evidenziato.](assets/offer_eligibility_create_005.png)
 
 ## Creare il contenuto dell’offerta {#creating-the-offer-content}
 
 Utilizzare la scheda **[!UICONTROL Content]** per definire il contenuto dell&#39;offerta.
 
-![](assets/offer_content_create_001.png)
+![Scheda Contenuto dell&#39;offerta con i campi Titolo, URL di destinazione, URL immagine e l&#39;editor di contenuti HTML.](assets/offer_content_create_001.png)
 
 1. Definisci i vari parametri del contenuto dell’offerta.
 
@@ -160,11 +160,11 @@ Utilizzare la scheda **[!UICONTROL Content]** per definire il contenuto dell&#39
 
    Scopri come definire l’URL di accettazione nello stato [Offerta quando la proposta viene accettata](interaction-offer-spaces.md#configuring-the-status-when-the-proposition-is-accepted).
 
-   ![](assets/offer_content_create_002.png)
+   ![Scheda Contenuto compilata con un titolo, un URL di destinazione e un URL immagine, oltre al collegamento Definizioni contenuto.](assets/offer_content_create_002.png)
 
    Per trovare i campi obbligatori definiti durante la configurazione dello spazio dell&#39;offerta, fare clic sul collegamento **[!UICONTROL Content definitions]** per visualizzare l&#39;elenco. [Ulteriori informazioni](interaction-offer-spaces.md)
 
-   ![](assets/offer_content_create_003.png)
+   ![Elenco delle definizioni dei contenuti, per ogni spazio dell&#39;offerta, i campi di contenuto richiesti.](assets/offer_content_create_003.png)
 
    In questo esempio, l’offerta deve includere un titolo, un’immagine, un contenuto HTML e un URL di destinazione.
 
@@ -176,11 +176,11 @@ Per eseguire questa operazione:
 
 1. Fare clic sulla scheda **[!UICONTROL Preview]**.
 
-   ![](assets/offer_preview_create_001.png)
+   ![Scheda Anteprima dell&#39;offerta, in cui sono elencate le rappresentazioni da visualizzare in anteprima per ogni spazio dell&#39;offerta.](assets/offer_preview_create_001.png)
 
 1. Seleziona la rappresentazione dell’offerta da visualizzare.
 
-   ![](assets/offer_preview_create_002.png)
+   ![Scheda Anteprima con la rappresentazione E-mail/client espansa per visualizzare il contenuto dell&#39;offerta di cui è stato eseguito il rendering.](assets/offer_preview_create_002.png)
 
 1. Se hai personalizzato il contenuto dell’offerta, seleziona il target dell’offerta per visualizzare la personalizzazione.
 

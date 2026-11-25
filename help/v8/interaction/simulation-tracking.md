@@ -29,10 +29,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 8%
+source-wordcount: '198'
+ht-degree: 7%
 ---
 # Tracciamento della simulazione{#simulation-tracking}
 
@@ -44,12 +44,12 @@ I risultati della simulazione contengono una suddivisione delle proposte per cla
 
 Puoi salvare questi risultati ed esportarli, se necessario, creando un’analisi descrittiva dei risultati. A tale scopo, fare clic sul collegamento appropriato nella finestra dei risultati.
 
-Fai riferimento a [questa sezione](https://experienceleague.adobe.com/it/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis){target="_blank"} per ulteriori informazioni sull&#39;Assistente all&#39;analisi descrittiva.
+Fai riferimento a [questa sezione](https://experienceleague.adobe.com/en/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis){target="_blank"} per ulteriori informazioni sull&#39;Assistente all&#39;analisi descrittiva.
 
-![](assets/offer_simulation_012.png)
+![Scheda Risultati simulazione con suddivisione delle proposte per offerte e collegamento Analisi descrittiva dei risultati](assets/offer_simulation_012.png)
 
 Una tabella pivot fornisce una visualizzazione rapida dei raggruppamenti delle offerte per classificazione. Come tutti i rapporti in Adobe Campaign, puoi esportarli, stamparli, archiviarli o visualizzarli in un browser web.
 
-Per ulteriori informazioni al riguardo, consulta [questa sezione](https://experienceleague.adobe.com/it/docs/campaign-classic/using/reporting/creating-new-reports/actions-on-reports){target="_blank"}.
+Per ulteriori informazioni al riguardo, consulta [questa sezione](https://experienceleague.adobe.com/en/docs/campaign-classic/using/reporting/creating-new-reports/actions-on-reports){target="_blank"}.
 
-![](assets/offer_simulation_013.png)
+![Dashboard di simulazione, rapporto Analisi stratificata delle offerte per classificazione, con tabella di classificazione delle offerte, grafico a torta e barra degli strumenti di esportazione](assets/offer_simulation_013.png)

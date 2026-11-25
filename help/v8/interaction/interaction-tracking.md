@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 4%
+source-wordcount: '232'
+ht-degree: 2%
 ---
 # Cronologia e reporting delle interazioni in tempo reale
 
@@ -44,15 +44,15 @@ Una volta create le proposte di offerta, puoi visualizzare la cronologia delle p
 
 * A livello di offerta, nella scheda **[!UICONTROL Edit]**, fare clic su **[!UICONTROL Propositions]**.
 
-  ![](assets/offer_followup_006.png)
+  ![Scheda Proposte di un&#39;offerta in elenco Proposte effettuate per l&#39;offerta con data evento, spazio e stato](assets/offer_followup_006.png)
 
 * Dal profilo di un destinatario, fare clic sulla scheda **[!UICONTROL Propositions]**.
 
-  ![](assets/offer_followup_002.png)
+  ![Scheda Proposte di un profilo destinatario che elenca le offerte con data evento, stato, spazio offerta e consegna](assets/offer_followup_002.png)
 
 * A livello di spazio dell&#39;offerta, fare clic sulla scheda **[!UICONTROL Propositions]**.
 
-  ![](assets/offer_space_prop_001_b.png)
+  ![Scheda Proposte di uno spazio delle offerte in cui sono elencate le proposte effettuate con classificazione, peso e stato](assets/offer_space_prop_001_b.png)
 
 ## Rapporto di analisi delle offerte{#offer-analysis-report}
 
@@ -62,14 +62,14 @@ Le statistiche sono ordinate in base a tre criteri:
 
 * Per data:
 
-  ![](assets/offer_report_perdate.png)
+  ![Rapporto di analisi delle offerte, statistiche per data, con conteggi delle proposte, tassi accettati e rifiutati e un grafico](assets/offer_report_perdate.png)
 
 * Per spazio:
 
-  ![](assets/offer_report_perspaces.png)
+  ![Rapporto di analisi delle offerte, statistiche per spazio, con percentuali accettate e rifiutate per canale e grafico a barre](assets/offer_report_perspaces.png)
 
 * Per consegne:
 
-  ![](assets/offer_report_perdeliveries.png)
+  ![Rapporto di analisi delle offerte, statistiche per consegna, con proposte, conteggi accettati e rifiutati per consegna](assets/offer_report_perdeliveries.png)
 
 I dati possono essere filtrati in base ai vari criteri disponibili nella sezione superiore del rapporto. Dopo aver selezionato i criteri desiderati, fare clic sul collegamento **[!UICONTROL Refresh]** per applicarli al report.

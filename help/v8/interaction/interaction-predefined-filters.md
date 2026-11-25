@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 7%
+source-wordcount: '244'
+ht-degree: 4%
 ---
 # Creare filtri predefiniti{#creating-pre-defined-filters}
 
@@ -38,31 +38,31 @@ Crea filtri predefiniti per definire le regole di idoneità per la popolazione t
 
 >[!NOTE]
 >
->L’interfaccia web di Adobe Campaign offre un’interfaccia intuitiva per gestire e personalizzare facilmente i filtri predefiniti in base alle tue esigenze specifiche. Crea una sola volta e salva per un utilizzo futuro. Per ulteriori informazioni sui filtri predefiniti per l&#39;interfaccia utente Web, consulta la [documentazione dell&#39;interfaccia utente Web di Adobe Campaign](https://experienceleague.adobe.com/it/docs/campaign-web/v8/start/predefined-filters){target=_blank}.
+>L’interfaccia web di Adobe Campaign offre un’interfaccia intuitiva per gestire e personalizzare facilmente i filtri predefiniti in base alle tue esigenze specifiche. Crea una sola volta e salva per un utilizzo futuro. Per ulteriori informazioni sui filtri predefiniti per l&#39;interfaccia utente Web, consulta la [documentazione dell&#39;interfaccia utente Web di Adobe Campaign](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/predefined-filters){target=_blank}.
 
 
 Per creare un filtro predefinito, applica il seguente processo:
 
 1. Individuare la cartella **[!UICONTROL Administration]** e selezionare **[!UICONTROL Pre-defined offer filters]**.
 
-   ![](assets/offer_filter_create_005.png)
+   ![Offerte - struttura di progettazione con il nodo Filtri di offerta predefiniti selezionato in Amministrazione](assets/offer_filter_create_005.png)
 
 1. Fai clic su **[!UICONTROL New]**.
 
-   ![](assets/offer_filter_create_001.png)
+   ![Elenco filtri offerte predefinito con il pulsante Nuovo evidenziato e un filtro di età elencato](assets/offer_filter_create_001.png)
 
 1. Modifica l’etichetta per poter identificare il filtro in un secondo momento.
 
-   ![](assets/offer_filter_create_002.png)
+   ![Finestra di dialogo Filtro applicazioni con il campo Etichetta impostato su Canale e-mail](assets/offer_filter_create_002.png)
 
 1. Seleziona il campo che verrà interessato dalla condizione di filtro.
 
-   ![](assets/offer_filter_create_003.png)
+   ![Seleziona una finestra di dialogo di espressione con il campo E-mail scelto tra i campi Destinatario](assets/offer_filter_create_003.png)
 
 1. Seleziona un operatore e un valore, se necessario, quindi salva la query.
 
-   ![](assets/offer_filter_create_004.png)
+   ![La condizione del filtro nell&#39;espressione e-mail con l&#39;operatore impostato su non è vuota](assets/offer_filter_create_004.png)
 
 1. Fare clic su **[!UICONTROL Preview]** per visualizzare il risultato del filtro.
 
-   ![](assets/offer_filter_create_006.png)
+   ![Scheda Anteprima del filtro del canale e-mail che elenca i destinatari corrispondenti al filtro](assets/offer_filter_create_006.png)

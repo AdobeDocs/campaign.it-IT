@@ -24,9 +24,9 @@ feature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '271'
 ht-degree: 2%
 ---
 # Ambito della simulazione{#simulation-scope}
@@ -50,7 +50,7 @@ I seguenti elementi sono obbligatori:
 
   Il destinatario riceverà un numero così elevato di proposte. Ad esempio, se immetti 5, ogni destinatario riceverà un massimo di 5 proposte di offerta.
 
-  ![](assets/offer_simulation_009.png)
+  ![Scheda Ambito simulazione con data di contatto, numero di proposte e la cartella Query di destinazione Grandi viaggiatori](assets/offer_simulation_009.png)
 
 Per perfezionare le offerte da prendere in considerazione per la simulazione, puoi aggiungere uno o più temi (precedentemente specificati nelle categorie).
 
@@ -66,4 +66,4 @@ Puoi anche scegliere di eseguire la simulazione su tutte le offerte o solo su qu
 
 A tale scopo, fare clic sul pulsante **[!UICONTROL Add]** e scegliere i campi appropriati. Gli assi vengono utilizzati per il calcolo della simulazione e vengono visualizzati nel rapporto di analisi. Per ulteriori informazioni, consulta [Tracciamento della simulazione](simulation-tracking.md).
 
-![](assets/offer_simulation_011.png)
+![Scheda Calcoli con la finestra di dialogo Seleziona espressione che sceglie Data di fine per aggiungere un asse di reporting dell&#39;offerta](assets/offer_simulation_011.png)

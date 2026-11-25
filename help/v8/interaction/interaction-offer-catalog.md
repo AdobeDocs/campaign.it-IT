@@ -22,10 +22,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 2%
+source-wordcount: '463'
+ht-degree: 1%
 ---
 # Creare un catalogo di offerte
 
@@ -45,15 +45,15 @@ Per creare una nuova categoria, effettua le seguenti operazioni:
 
 1. Selezionare la cartella **[!UICONTROL Offer catalog]**.
 
-   ![](assets/offer_cat_create_001.png)
+   ![Struttura di Explorer con la cartella del catalogo offerte selezionata in Offerte - Progettazione e ambiente - Destinatario](assets/offer_cat_create_001.png)
 
 1. Fare clic con il pulsante destro del mouse e selezionare **[!UICONTROL Create a new "Offer category" folder]** dall&#39;elenco a discesa.
 
-   ![](assets/offer_cat_create_002.png)
+   ![Menu di scelta rapida nel catalogo offerte con l&#39;opzione Crea una nuova cartella di categorie offerte evidenziata](assets/offer_cat_create_002.png)
 
 1. Rinomina la categoria. In seguito sarà possibile modificare l&#39;etichetta utilizzando la scheda **[!UICONTROL General]**.
 
-   ![](assets/offer_cat_create_003.png)
+   ![Nuova cartella delle categorie denominata Neobank - Personal banking nella struttura del catalogo delle offerte, pronta per la ridenominazione](assets/offer_cat_create_003.png)
 
    >[!NOTE]
    >
@@ -63,7 +63,7 @@ Per creare una nuova categoria, effettua le seguenti operazioni:
 
    * Assegnare le date di idoneità dalla scheda **[!UICONTROL Eligibility]**.
 
-     ![](assets/offer_cat_create_004.png)
+     ![Scheda Idoneità con campi Data di inizio e Data di fine, un calendario aperto e il collegamento Modifica query per i filtri di destinazione](assets/offer_cat_create_004.png)
 
    * **[!UICONTROL Edit query]** per applicare i filtri alla destinazione dell&#39;offerta.
 
@@ -83,4 +83,4 @@ Per includere una categoria di fallback nelle raccomandazioni, effettua le segue
 1. Fare clic sulla scheda **[!UICONTROL Eligibility]** e selezionare l&#39;opzione **[!UICONTROL Always include this category in the recommendations]**.
 1. Fai clic su **[!UICONTROL Save]**.
 
-   ![](assets/offer_cat_default_001.png)
+   ![Scheda Idoneità categoria con Includi sempre questa categoria nei consigli selezionati](assets/offer_cat_default_001.png)

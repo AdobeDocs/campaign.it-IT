@@ -24,10 +24,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 1%
+source-wordcount: '1015'
+ht-degree: 0%
 ---
 # Creare spazi dell’offerta{#creating-offer-spaces}
 
@@ -37,27 +37,27 @@ In qualità di **amministratore tecnico**, puoi creare spazi dell&#39;offerta ne
 
 Il rendering HTML viene creato tramite una funzione di rendering. La sequenza dei campi definiti nella funzione di rendering deve essere identica alla sequenza configurata nel contenuto.
 
-![](assets/offer_space_create_009.png)
+![Proprietà dello spazio dell&#39;offerta con campi obbligatori URL immagine, URL destinazione, titolo e funzione di rendering HTML corrispondente](assets/offer_space_create_009.png)
 
 Per creare un nuovo spazio dell’offerta, effettua le seguenti operazioni:
 
 1. Nell&#39;elenco degli spazi dell&#39;offerta fare clic su **[!UICONTROL New]**.
 
-   ![](assets/offer_space_create_001.png)
+   ![Elenco di spazi dell&#39;offerta con il pulsante Nuovo evidenziato e uno spazio dell&#39;offerta e-mail selezionato](assets/offer_space_create_001.png)
 
 1. Seleziona il canale da utilizzare e cambia l’etichetta dello spazio dell’offerta.
 
-   ![](assets/offer_space_create_002.png)
+   ![Scheda Proprietà spazio offerte con l&#39;etichetta impostata su E-mail/client e il canale impostato su E-mail](assets/offer_space_create_002.png)
 
 1. Seleziona l’opzione **[!UICONTROL Enable unitary mode]**.
 
 1. Passare alla finestra **[!UICONTROL Content field]** e fare clic su **[!UICONTROL Add]**.
 
-   ![](assets/offer_space_create_003.png)
+   ![Proprietà dello spazio dell&#39;offerta con il pulsante di aggiunta accanto all&#39;elenco dei campi del contenuto dell&#39;offerta](assets/offer_space_create_003.png)
 
 1. Andare al nodo **[!UICONTROL Content]** e selezionare i campi nell&#39;ordine seguente: **[!UICONTROL Title]**, **[!UICONTROL Image URL]**, **[!UICONTROL HTML content]**, quindi **[!UICONTROL Destination URL]**.
 
-   ![](assets/offer_space_create_004.png)
+   ![Seleziona una finestra di dialogo di espressione in cui sono elencati i campi di contenuto, ad esempio URL immagine, Contenuto testo e Titolo](assets/offer_space_create_004.png)
 
 1. Selezionare l&#39;opzione **[!UICONTROL Required]** per rendere obbligatorio ogni campo.
 
@@ -65,7 +65,7 @@ Per creare un nuovo spazio dell’offerta, effettua le seguenti operazioni:
    >
    >Questa opzione viene utilizzata nell’anteprima e rende non validi gli spazi dell’offerta durante la pubblicazione se manca uno dei campi obbligatori nell’offerta. Tuttavia, se un’offerta è già live in uno spazio dell’offerta, questi criteri non vengono presi in considerazione.
 
-   ![](assets/offer_space_create_005.png)
+   ![Elenco dei campi di contenuto dell&#39;offerta con titolo, URL immagine, contenuto HTML e URL di destinazione, tutti obbligatori](assets/offer_space_create_005.png)
 
 1. Fare clic su **[!UICONTROL Edit functions]** per creare una funzione di rendering.
 
@@ -73,12 +73,12 @@ Per creare un nuovo spazio dell’offerta, effettua le seguenti operazioni:
 
    **Nota** - Il formato XML è limitato alle interazioni in entrata non disponibili in questa versione del prodotto. [Ulteriori informazioni](../start/v7-to-v8.md#gs-unavailable-features)
 
-   ![](assets/offer_space_create_006.png)_
+   ![Proprietà dello spazio delle offerte con il collegamento Modifica funzioni evidenziato in Funzioni di rendering](assets/offer_space_create_006.png)_
 
 1. Passare alla scheda **[!UICONTROL HTML rendering]** e selezionare **[!UICONTROL Overload the HTML rendering function]**.
 1. Inserire la funzione di rendering.
 
-   ![](assets/offer_space_create_007.png)
+   ![Scheda di rendering di HTML con l&#39;opzione Overload the HTML rendering function e una funzione di esempio](assets/offer_space_create_007.png)
 
 ## Stati delle proposte di offerta {#offer-proposition-statuses}
 
@@ -116,7 +116,7 @@ A questo scopo, segui la procedura indicata di seguito:
 1. Passare alla scheda **[!UICONTROL Storage]** dello spazio desiderato.
 1. Seleziona lo stato da applicare alla proposta al momento della sua creazione.
 
-   ![](assets/offer_update_status_001.png)
+   ![Scheda Archiviazione con l&#39;elenco Stato della proposta aperto e lo stato Presentato selezionato](assets/offer_update_status_001.png)
 
 ### Stato dell’offerta quando la proposta viene accettata {#configuring-the-status-when-the-proposition-is-accepted}
 
@@ -127,7 +127,7 @@ A questo scopo, segui la procedura indicata di seguito:
 1. Passare alla scheda **[!UICONTROL Storage]** dello spazio desiderato.
 1. Seleziona lo stato da applicare alla proposta quando viene accettata.
 
-   ![](assets/offer_update_status_002.png)
+   ![Scheda Archiviazione con l&#39;elenco Stato accettazione aperto e lo stato Accettato selezionato](assets/offer_update_status_002.png)
 
 
 **Interazione in entrata**
@@ -164,11 +164,11 @@ Non appena un visitatore fa clic sull&#39;offerta, e quindi sull&#39;URL, lo sta
 
 Nella scheda **[!UICONTROL Preview]**, è possibile visualizzare le offerte per le quali il destinatario è idoneo tramite un metodo scelto. Nell’esempio che segue, il destinatario può presentare tre proposte di offerta per posta.
 
-![](assets/offer_space_overview_002.png)
+![Scheda Anteprima spazio offerte con tre offerte idonee classificate in base al peso e al contenuto dell&#39;offerta di cui è stato eseguito il rendering](assets/offer_space_overview_002.png)
 
 Se un destinatario non è idoneo per nessuna offerta, ciò viene mostrato nell’anteprima.
 
-![](assets/offer_space_overview_001.png)
+![Scheda Anteprima spazio offerte con il messaggio Nessuna offerta idonea](assets/offer_space_overview_001.png)
 
 
 L’anteprima può ignorare i contesti quando sono limitati a uno spazio. Ciò si verifica quando lo schema di interazione è stato esteso per aggiungere campi a cui si fa riferimento in uno spazio utilizzando un canale in entrata.
