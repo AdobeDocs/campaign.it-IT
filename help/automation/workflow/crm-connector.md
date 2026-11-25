@@ -45,4 +45,4 @@ Seleziona l’account esterno che corrisponde al CRM con cui desideri configurar
 
 ![Attività del connettore di gestione delle relazioni con i clienti con Importazione da CRM e l&#39;elenco di oggetti remoti aperto con Contatto evidenziato](assets/crm_task_select_obj.png)
 
-Per ulteriori informazioni sui connettori CRM in Adobe Campaign, consulta [questa sezione](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-crm/crm.html){target="_blank"}.
+Per ulteriori informazioni sui connettori CRM in Adobe Campaign, consulta [questa sezione](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-crm/crm.html?lang=it){target="_blank"}.
