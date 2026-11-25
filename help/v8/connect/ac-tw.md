@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: df8d8e17c486122e23a6db0e44263f9f9632a204
 workflow-type: tm+mt
-source-wordcount: '1076'
-ht-degree: 2%
+source-wordcount: '1168'
+ht-degree: 1%
 ---
 # Utilizzare Campaign e X (Twitter) {#tw-ac-ovv}
 
@@ -81,15 +81,15 @@ Dopo aver ricevuto l’approvazione con accesso privilegiato, crea un’applicaz
 1. Lascia che l’assistente X ti guidi attraverso il processo.
 1. Per consentire ad Adobe Campaign di creare post sul tuo account, modifica le **Autorizzazioni app** dalla sezione Configurazione autenticazione utente dell&#39;app. Selezionare **Messaggi diretti, di lettura e scrittura**.
 
-   ![](assets/tw-permissions.png)
+   ![Autorizzazioni app con lettura e scrittura e messaggio diretto selezionato](assets/tw-permissions.png)
 
 1. Nella sezione **Tipo di app**, selezionare **App Web, App automatizzata o Bot**. Puoi lasciare vuoto il campo **URL richiamata** e salvare la configurazione.
 
-   ![](assets/tw-app-type.png)
+   ![Tipo di app con app Web, app automatizzata o bot selezionati come client riservato](assets/tw-app-type.png)
 
 1. Torna al dashboard dell&#39;app, seleziona l&#39;app e passa alla scheda **Tasti e token**. In **Token di accesso e segreto**, se l&#39;autorizzazione **Messaggi diretti, di lettura e scrittura** non è menzionata, è necessario rigenerare il token e il segreto dell&#39;app. Tieni presente che tutte le chiavi e i token devono essere salvati al momento della creazione. Saranno necessarie per configurare il servizio Campaign Twitter.
 
-   ![](assets/tw-permissions-check.png)
+   ![Token di autenticazione che mostra il token di accesso e il segreto creati con le autorizzazioni di lettura, scrittura e messaggi diretti](assets/tw-permissions-check.png)
 
 
 >[!NOTE]
@@ -122,7 +122,7 @@ Per immettere le impostazioni, devi accedere sia alla console client di Adobe Ca
 
 1. Per impostazione predefinita, i follower vengono salvati nella cartella **[!UICONTROL Visitors]**. È possibile selezionare un altro percorso dal campo **[!UICONTROL Visitor folder]**. [Ulteriori informazioni](../send/twitter.md#direct-tw-messages)
 
-   ![](assets/tw-service-in-ac.png)
+   ![Modulo per nuove offerte di servizio disponibile con etichetta, indirizzo e-mail, cartella Visitatore e i campi del token di accesso e del consumer OAuth](assets/tw-service-in-ac.png)
 
    >[!NOTE]
    >
@@ -138,7 +138,7 @@ Per verificare le impostazioni, è possibile:
 
 * Modifica il servizio **Twitter** appena creato.
 * Sfoglia la scheda **[!UICONTROL Twitter page]**: dovrebbe essere visualizzato il tuo account Twitter.
-  ![](assets/tw-page.png)
+  ![Scheda della pagina Twitter del servizio nella console Adobe Campaign che mostra l&#39;account Jane Marge collegato](assets/tw-page.png)
 
 ## Sincronizza il tuo account X {#synchro-tw-accounts}
 
@@ -148,7 +148,7 @@ Per impostazione predefinita sono interrotti. Devi avviarli manualmente quando i
 
 Il flusso di lavoro tecnico **[!UICONTROL Synchronization of Twitter accounts]** sincronizza gli account X in Adobe Campaign. Questo flusso di lavoro recupera l’elenco degli X follower in modo da poter inviare loro messaggi diretti. [Ulteriori informazioni](../send/twitter.md#direct-tw-messages)
 
-Per impostazione predefinita, questo flusso di lavoro viene attivato ogni giovedì alle 07:30. È possibile utilizzare l&#39;opzione **[!UICONTROL Execute pending task(s) now]** per avviare il flusso di lavoro in qualsiasi momento durante l&#39;implementazione di questa integrazione.  Puoi anche modificare la pianificazione per cambiare la frequenza di attivazione del flusso di lavoro. Per ulteriori informazioni, consulta [questa pagina](../../automation/workflow/scheduler.md).
+Per impostazione predefinita, questo flusso di lavoro viene attivato ogni giovedì alle 07:30. È possibile utilizzare l&#39;opzione **[!UICONTROL Execute pending task(s) now]** per avviare il flusso di lavoro in qualsiasi momento durante l&#39;implementazione di questa integrazione.  Puoi anche modificare la pianificazione per cambiare la frequenza di attivazione del flusso di lavoro. Ulteriori informazioni in [Configurazione dell&#39;attività di pianificazione](../../automation/workflow/scheduler.md#configuring-scheduler-activity).
 
 >[!CAUTION]
 >
@@ -175,6 +175,6 @@ Oltre a un account X, crea un account X privato che può essere utilizzato per i
 1. Accedi all&#39;account **Impostazioni**.
 1. Passa a **Privacy e sicurezza** e **Pubblico e assegnazione tag** e seleziona l&#39;opzione **Proteggi i tuoi post**. I tuoi post e altre informazioni sull&#39;account sono visibili solo alle persone che ti seguono.
 
-![](assets/do-not-localize/social_tw_test_page.png)
+![X impostazioni Pubblico, media e pagina di assegnazione tag con l&#39;opzione Proteggi i post selezionata](assets/do-not-localize/social_tw_test_page.png)
 
 Configura l’app X e il servizio Campaign affinché funzionino con questo account di test, come descritto in precedenza.

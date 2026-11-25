@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: df8d8e17c486122e23a6db0e44263f9f9632a204
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1161'
 ht-degree: 1%
 ---
 # Aggiornare i profili Adobe Experience Platform dalle pagine di destinazione di Adobe Campaign {#ac-aep-lp}
@@ -69,7 +69,7 @@ Per farlo, segui questi passaggi:
    * `CLIENT SECRET`
    * `ORGANIZATION ID`
 
-   ![](assets/ac-lp-oauth.png){width="70%"}
+   ![Progetto Adobe Developer Console con API Experience Platform e credenziali server-to-server OAuth](assets/ac-lp-oauth.png){width="70%"}
 
 Dopo aver configurato la connessione OAuth, crea e configura una nuova connessione Source **[!UICONTROL HTTP API]** per collegare Adobe Campaign a Adobe Experience Platform.
 
@@ -79,21 +79,21 @@ Una volta stabilita la connessione OAuth, il passaggio successivo consiste nel c
 
 1. Passare a Adobe Experience Platform **[!UICONTROL Sources]**, cercare l&#39;origine **[!UICONTROL HTTP API]**, quindi fare clic su **[!UICONTROL Add data]**.
 
-   ![](assets/ac-lp-source.png){width="70%"}
+   ![Il catalogo delle origini di Experience Platform ha cercato http con il pulsante Aggiungi dati dell&#39;origine API HTTP](assets/ac-lp-source.png){width="70%"}
 
-1. Configura la connessione in base alle tue esigenze. Informazioni dettagliate su come configurare una connessione API HTTP sono disponibili nella [documentazione sulle origini di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=it){target="_blank"}.
+1. Configura la connessione in base alle tue esigenze. Informazioni dettagliate su come configurare una connessione API HTTP sono disponibili nella [documentazione sulle origini di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html){target="_blank"}.
 
    Al passaggio **[!UICONTROL Authentication]**, attiva l&#39;opzione **[!UICONTROL Enable authentication]** per eseguire l&#39;autenticazione utilizzando il token di accesso generato in precedenza tramite l&#39;integrazione OAuth.
 
-   ![](assets/ac-lp-source-authentication.png){width="70%"}
+   ![Connetti il passaggio dell&#39;account API HTTP con l&#39;opzione Abilita autenticazione attivata](assets/ac-lp-source-authentication.png){width="70%"}
 
 1. Una volta configurata la connessione di origine, viene visualizzato l’endpoint di streaming. Questo endpoint è necessario per acquisire i dati in Adobe Experience Platform.
 
-   ![](assets/ac-lp-endpoint.png){width="70%"}
+   ![Pagina dei dettagli di origine API HTTP con il campo dell&#39;endpoint di streaming evidenziato](assets/ac-lp-endpoint.png){width="70%"}
 
    È inoltre possibile accedere a un esempio del formato dati acquisito in Adobe Experience Platform aprendo il flusso di dati appena creato dalla scheda **[!UICONTROL Dataflows]**.
 
-   ![](assets/ac-lp-schema.png){width="70%"}
+   ![Pagina del flusso di dati API HTTP con l&#39;opzione Copia schema payload evidenziata](assets/ac-lp-schema.png){width="70%"}
 
 Ora che la connessione HTTP API Source è configurata, è necessario aggiungere opzioni specifiche in Adobe Campaign per abilitare la connessione a Adobe Experience Platform.
 
@@ -115,7 +115,7 @@ Sfoglia le schede seguenti per scoprire i due metodi:
    * IMS_ORG_ID = ID ORGANIZZAZIONE
    * IMS_CLIENT_API_KEY = cryptString(CLIENT ID)
 
-   ![](assets/ac-lp-xtk.png){width="70%"}
+   ![Elenco opzioni campagna con IMS_CLIENT_API_KEY, IMS_CLIENT_ID, IMS_CLIENT_SECRET e IMS_ORG_ID selezionati](assets/ac-lp-xtk.png){width="70%"}
 
    >[!NOTE]
    >
@@ -123,7 +123,7 @@ Sfoglia le schede seguenti per scoprire i due metodi:
 
 >[!TAB Aggiungi opzioni tramite un&#39;attività codice JavaScript]
 
-Per configurare automaticamente queste opzioni durante l&#39;esecuzione del flusso di lavoro delle pagine di destinazione, aggiungere un&#39;attività **[!UICONTROL JavaScript code]** al flusso di lavoro con il codice seguente. [Scopri come configurare un&#39;attività codice JavaScript](https://experienceleague.adobe.com/it/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code#JavaScript-code){target="_blank"}.
+Per configurare automaticamente queste opzioni durante l&#39;esecuzione del flusso di lavoro delle pagine di destinazione, aggiungere un&#39;attività **[!UICONTROL JavaScript code]** al flusso di lavoro con il codice seguente. [Scopri come configurare un&#39;attività codice JavaScript](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code#JavaScript-code){target="_blank"}.
 
 Durante l’esecuzione del flusso di lavoro, le opzioni vengono create automaticamente nella console Campaign con i valori forniti.
 
@@ -157,7 +157,7 @@ Per consentire la sincronizzazione dei dati tra le pagine di destinazione e Adob
    >
    >Il token di accesso e i dati di autenticazione vengono recuperati automaticamente dalle opzioni impostate in precedenza.
 
-   ![](assets/ac-lp-script.png){width="70%"}
+   ![Elenco di codici JavaScript di Campaign con il codice aepAPI personalizzato che aggiorna un profilo in AEP](assets/ac-lp-script.png){width="70%"}
 
    +++  Script 1 - Caricare gli attributi del profilo da Experience Platform
 
@@ -358,13 +358,13 @@ Con i codici JavaScript aggiunti ad Adobe Campaign, puoi sfruttarli nel flusso d
 
 Di seguito è riportato un flusso di lavoro di esempio che utilizza le attività del codice JavaScript prima e dopo una pagina di destinazione:
 
-![](assets/ac-lp-wkf.png){width="70%"}
+![Flusso di lavoro per la pagina di destinazione: precaricamento, caricamento dei dettagli del profilo da AEP, pagina Web Opt-out/In, aggiornamento del profilo, fine](assets/ac-lp-wkf.png){width="70%"}
 
 Di seguito è riportato un esempio di pagina di destinazione e di attività codice JavaScript configurate per aggiornare gli attributi del profilo in Adobe Experience Platform:
 
-![](assets/ac-lp-example.png){width="70%"}
+![Anteprima della pagina di destinazione con caselle di controllo per la rinuncia a e-mail, SMS e push e un pulsante Invia](assets/ac-lp-example.png){width="70%"}
 
-![](assets/ac-lp-code.png){width="70%" zoomable="yes"}
+![Aggiorna l&#39;attività script profilo con codice che invia i valori di rinuncia profilo ad Experience Platform](assets/ac-lp-code.png){width="70%" zoomable="yes"}
 
 ### Ulteriori informazioni
 
