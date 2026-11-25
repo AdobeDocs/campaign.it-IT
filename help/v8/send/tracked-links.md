@@ -28,9 +28,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '621'
 ht-degree: 6%
 ---
 # Configurare collegamenti tracciati {#how-to-configure-tracked-links}
@@ -45,11 +45,11 @@ Il tracciamento dei messaggi è abilitato per impostazione predefinita. Per pers
 
 1. Seleziona l’opzione **[!UICONTROL Display URLs]** nella sezione inferiore dell’assistente alla consegna, sotto il contenuto del messaggio.
 
-   ![](assets/s_ncs_user_email_del_display_urls.png)
+   ![Contenuto HTML di consegna con l&#39;opzione URL di visualizzazione sotto il contenuto, non ancora selezionato](assets/s_ncs_user_email_del_display_urls.png)
 
    Quando selezioni un URL dall’elenco degli URL tracciati, questo viene evidenziato nel contenuto della consegna, ad eccezione del collegamento nella pagina speculare e del collegamento di annullamento dell’abbonamento forniti per impostazione predefinita.
 
-   ![](assets/s_ncs_user_email_del_show_urls.png)
+   ![Elenco di URL tracciati con un URL selezionato e il relativo collegamento corrispondente evidenziato nel contenuto della consegna](assets/s_ncs_user_email_del_show_urls.png)
 
 1. Per ogni URL del messaggio, seleziona se attivare o meno il tracciamento.
 
@@ -67,7 +67,7 @@ Il tracciamento dei messaggi è abilitato per impostazione predefinita. Per pers
 
 1. Se necessario, modificare la modalità di tracciamento, selezionare una nuova modalità nella colonna **[!UICONTROL Tracking]** che corrisponda al collegamento di destinazione, come illustrato di seguito:
 
-   ![](assets/s_ncs_user_select_tracking_mode.png)
+   ![Elenco a discesa delle colonne di tracciamento che elenca le modalità di tracciamento per un URL, da Abilitato a Pagina mirror](assets/s_ncs_user_select_tracking_mode.png)
 
    Per ogni singolo URL, puoi impostare la modalità di tracciamento su uno dei seguenti valori:
 
@@ -88,8 +88,8 @@ Si consiglia vivamente di includere gli URL nei delimitatori nella scheda **[!UI
 * Parentesi [ ]
 * Parentesi graffe { }
 
-In questo esempio, l&#39;URL https://www.adobe.com/it è seguito da un punto e virgola. Il punto e virgola può essere interpretato dai client e-mail dei destinatari come parte dell’URL. Di conseguenza, il collegamento potrebbe essere interrotto. Per evitare questo problema, puoi racchiudere l’URL nei delimitatori in uno dei seguenti modi:
+In questo esempio, l&#39;URL https://www.adobe.com è seguito da un punto e virgola. Il punto e virgola può essere interpretato dai client e-mail dei destinatari come parte dell’URL. Di conseguenza, il collegamento potrebbe essere interrotto. Per evitare questo problema, puoi racchiudere l’URL nei delimitatori in uno dei seguenti modi:
 
-* (https://www.adobe.com/it)
-* [https://www.adobe.com/it];
-* {https://www.adobe.com/it};
+* (https://www.adobe.com)
+* [https://www.adobe.com];
+* {https://www.adobe.com};

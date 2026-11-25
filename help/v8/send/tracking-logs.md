@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '372'
 ht-degree: 0%
 ---
 # Registri di tracciamento degli accessi {#accessing-the-tracking-logs}
@@ -45,7 +45,7 @@ Quando la consegna è stata inviata e il tracciamento è attivato, il flusso di 
 
 Queste informazioni vengono visualizzate nella scheda **[!UICONTROL Tracking]** del profilo dei destinatari interessati dalla consegna, come nell’esempio seguente:
 
-![](assets/s_ncs_user_select_tracking_tab_from_recipient.png)
+![Scheda di tracciamento di un elenco di profili dei destinatari con clic tracciati e aperture con data, etichetta, tipo e consegna](assets/s_ncs_user_select_tracking_tab_from_recipient.png)
 
 In questa scheda vengono visualizzati tutti gli URL tracciati e su cui il destinatario ha fatto clic, tra cui:
 
@@ -60,7 +60,7 @@ Puoi filtrare e ordinare queste informazioni per analizzare il comportamento dei
 
 Le informazioni di tracciamento sono accessibili anche tramite la scheda **[!UICONTROL Tracking]** della consegna.
 
-![](assets/s_ncs_user_select_tracking_tab_from_del.png)
+![Scheda di tracciamento di un elenco di consegne con registri di tracciamento contenenti data, etichetta, tipo e destinatario](assets/s_ncs_user_select_tracking_tab_from_del.png)
 
 Da questa scheda puoi visualizzare:
 

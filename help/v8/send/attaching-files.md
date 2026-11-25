@@ -21,10 +21,10 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 4%
+source-wordcount: '1290'
+ht-degree: 3%
 ---
 # Allegare file a un’e-mail{#attaching-files}
 
@@ -34,7 +34,7 @@ Puoi allegare uno o più file a una consegna e-mail.
 
 >[!NOTE]
 >
->Per evitare problemi di prestazioni, si consiglia di non includere più di un allegato per e-mail. La soglia consigliata può essere configurata dall’elenco delle opzioni di Campaign. Consulta la [documentazione di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=it#delivery).
+>Per evitare problemi di prestazioni, si consiglia di non includere più di un allegato per e-mail. La soglia consigliata può essere configurata dall’elenco delle opzioni di Campaign. Consulta la [documentazione di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#delivery).
 
 Esistono due casi possibili:
 
@@ -51,7 +51,7 @@ Per evitare problemi di prestazioni, le immagini incluse nelle e-mail non posson
 
 Adobe consiglia inoltre di limitare le dimensioni e il numero di file allegati. Per impostazione predefinita, è possibile aggiungere un solo file come allegato a un messaggio e-mail. Questa soglia può essere configurata dall&#39;opzione `NmsDelivery_MaxRecommendedAttachments`.
 
-Ulteriori informazioni sono disponibili nell&#39;elenco delle opzioni di Campaign nella [documentazione di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=it#delivery).
+Ulteriori informazioni sono disponibili nell&#39;elenco delle opzioni di Campaign nella [documentazione di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#delivery).
 
 ## Allega un file locale {#attaching-a-local-file}
 
@@ -65,21 +65,21 @@ Per allegare un file locale a una consegna, segui i passaggi seguenti.
 1. Fai clic sul pulsante **[!UICONTROL Add]**.
 1. Fare clic su **[!UICONTROL File...]** per selezionare il file da allegare alla consegna.
 
-   ![](assets/s_ncs_user_wizard_email_attachement.png)
+   ![Finestra di dialogo Modifica file allegati con il menu Aggiungi aperto e File... selezionato per allegare un file a una consegna e-mail](assets/s_ncs_user_wizard_email_attachement.png)
 
 Puoi anche trascinare e rilasciare direttamente il file nel campo **[!UICONTROL Attachments]** della consegna oppure utilizzare l&#39;icona **[!UICONTROL Attach]** dalla barra degli strumenti dell&#39;assistente alla consegna,
 
-![](assets/s_ncs_user_wizard_add_file_ico.png)
+![Icona Allega nella barra degli strumenti dell&#39;assistente alla consegna, accanto alla sezione Parametri e-mail](assets/s_ncs_user_wizard_add_file_ico.png)
 
 Una volta selezionato, il file viene immediatamente caricato sul server per essere disponibile al momento della consegna. È elencato nel campo **[!UICONTROL Attachments]**.
 
-![](assets/s_ncs_user_wizard_email_attachement_e.png)
+![Parametri e-mail con il file caricato elencato nel campo Allegati](assets/s_ncs_user_wizard_email_attachement_e.png)
 
 ## Creazione di un allegato calcolato {#creating-a-calculated-attachment}
 
 Quando si crea un allegato calcolato, il nome dell&#39;allegato può essere calcolato durante l&#39;analisi o la consegna di ogni messaggio e può dipendere dal destinatario. Può anche essere personalizzato e convertito in PDF.
 
-![](assets/s_ncs_user_wizard_attachment.png)
+![Finestra di dialogo Modifica file allegati con il menu Aggiungi aperto e Allegato calcolato... selezionato](assets/s_ncs_user_wizard_attachment.png)
 
 Per creare un allegato personalizzato, effettua le seguenti operazioni:
 
@@ -87,7 +87,7 @@ Per creare un allegato personalizzato, effettua le seguenti operazioni:
 1. Fare clic sul pulsante **[!UICONTROL Add]**, quindi selezionare **[!UICONTROL Calculated attachment]**.
 1. Selezionare il tipo di calcolo dall&#39;elenco a discesa **[!UICONTROL Type]**:
 
-![](assets/s_ncs_user_wizard_email01_136.png)
+![Finestra di dialogo per la definizione dell&#39;allegato con l&#39;elenco a discesa Tipo che mostra le quattro opzioni calcolate per l&#39;allegato](assets/s_ncs_user_wizard_email01_136.png)
 
 Sono disponibili le seguenti opzioni:
 
@@ -103,11 +103,11 @@ Se l&#39;allegato è un file locale, selezionare l&#39;opzione: **[!UICONTROL Fi
 1. Selezionare il file da caricare nel campo **[!UICONTROL Local file]**.
 1. Se necessario, specifica l’etichetta. L’etichetta sostituisce il nome del file quando viene visualizzato nei sistemi di messaggistica. Se non viene specificato nulla, per impostazione predefinita viene utilizzato il nome del file.
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_02.png)
+   ![Scheda Generale della definizione dell&#39;allegato con i campi Tipo, Etichetta e File locale e l&#39;opzione Carica file sul server](assets/s_ncs_user_wizard_email_calc_attachement_02.png)
 
 1. Se necessario, selezionare **[!UICONTROL Upload file on the server]**, quindi fare clic su **[!UICONTROL Update on server]** per avviare il trasferimento.
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_01.png)
+   ![Finestra Avanzamento caricamento in cui sono elencati i messaggi di log e viene visualizzato il trasferimento di file al server al 100%](assets/s_ncs_user_wizard_email_calc_attachement_01.png)
 
 Il file è quindi disponibile sul server da allegare alle diverse consegne create da questo modello.
 
@@ -115,7 +115,7 @@ Il file è quindi disponibile sul server da allegare alle diverse consegne creat
 
 L&#39;opzione **[!UICONTROL The file content is personalized and converted into PDF format at the time of delivery for each message]** consente di selezionare un file con campi di personalizzazione, ad esempio il cognome e il nome del destinatario.
 
-![](assets/s_ncs_user_wizard_email_calc_attachement_06.png)
+![Documento del processore di Word contenente i campi di personalizzazione nome e cognome del destinatario per un allegato PDF](assets/s_ncs_user_wizard_email_calc_attachement_06.png)
 
 Per questo tipo di allegato, attenersi ai seguenti passaggi di configurazione:
 
@@ -124,13 +124,13 @@ Per questo tipo di allegato, attenersi ai seguenti passaggi di configurazione:
 1. Selezionare **[!UICONTROL Upload file on the server]**, quindi fare clic su **[!UICONTROL Update on server]** per avviare il trasferimento.
 1. Puoi visualizzare un’anteprima. A questo scopo, seleziona un destinatario.
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_07.png)
+   ![Finestra di dialogo di definizione dell&#39;allegato che visualizza l&#39;anteprima del PDF personalizzato per un destinatario selezionato dall&#39;elenco di anteprima](assets/s_ncs_user_wizard_email_calc_attachement_07.png)
 
 1. Analizza la consegna e avviala.
 
    Ogni destinatario riceve un PDF personalizzato associato alla consegna.
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_08.png)
+   ![E-mail ricevuta con un allegato PDF personalizzato, aperto per mostrare il nome del destinatario nel saluto](assets/s_ncs_user_wizard_email_calc_attachement_08.png)
 
 
 
@@ -149,13 +149,13 @@ Puoi calcolare il nome dell’allegato durante la preparazione della consegna. A
    >
    >Il file deve essere presente sul server.
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_04.png)
+   ![Definizione dell&#39;allegato con uno script che calcola il percorso e il nome del file, inclusa la data, durante l&#39;analisi della consegna](assets/s_ncs_user_wizard_email_calc_attachement_04.png)
 
 1. Analizza e avvia la consegna.
 
    Il calcolo del nome file può essere visualizzato nel registro di analisi.
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_05.png)
+   ![Registro di analisi della consegna con la riga che mostra il risultato del nome file allegato calcolato evidenziato](assets/s_ncs_user_wizard_email_calc_attachement_05.png)
 
 ### Allegare un file personalizzato {#attach-a-personalized-file}
 
@@ -168,7 +168,7 @@ Quando si seleziona l&#39;allegato, è possibile scegliere l&#39;opzione **[!UIC
 1. Specificare l&#39;etichetta da applicare all&#39;allegato.
 1. Specificare il percorso di accesso del file e il nome esatto nella finestra di definizione. Se il nome del file è personalizzato, puoi utilizzare i campi di personalizzazione per i valori pertinenti.
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_010.png)
+   ![Definizione dell&#39;allegato che utilizza il cognome del destinatario nel percorso del file per scegliere un file diverso per ciascun destinatario](assets/s_ncs_user_wizard_email_calc_attachement_010.png)
 
    >[!IMPORTANT]
    >
@@ -178,21 +178,21 @@ Quando si seleziona l&#39;allegato, è possibile scegliere l&#39;opzione **[!UIC
 
    Nell’esempio seguente, il file allegato è stato scelto in base al suo nome definito utilizzando i campi di unione.
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_011.png)
+   ![Ricevuto messaggio di posta elettronica con un file allegato il cui nome è stato creato dal cognome del destinatario](assets/s_ncs_user_wizard_email_calc_attachement_011.png)
 
 ### Impostazioni degli allegati {#attachment-settings}
 
 Per le prime due opzioni, è possibile scegliere **[!UICONTROL Upload file on the server]** selezionando l&#39;opzione appropriata. Il collegamento **[!UICONTROL Update the file on the server]** ti consente di iniziare a caricare.
 
-![](assets/s_ncs_user_wizard_email01_137.png)
+![Scheda Generale della definizione dell&#39;allegato con il file di caricamento sul server selezionato e il collegamento Aggiorna sul server](assets/s_ncs_user_wizard_email01_137.png)
 
 Un messaggio indica che il file è stato caricato sul server:
 
-![](assets/s_ncs_user_wizard_email01_1371.png)
+![La definizione dell&#39;allegato che mostra il file esiste già nel messaggio del server](assets/s_ncs_user_wizard_email01_1371.png)
 
 Per la modifica del file, viene visualizzato un messaggio di avvertenza:
 
-![](assets/s_ncs_user_wizard_email01_1372.png)
+![La definizione dell&#39;allegato mostra l&#39;avviso che il file locale non è uguale a quello sul server](assets/s_ncs_user_wizard_email01_1372.png)
 
 La scheda **[!UICONTROL Advanced]** consente di definire opzioni avanzate per i file allegati:
 
@@ -201,4 +201,4 @@ La scheda **[!UICONTROL Advanced]** consente di definire opzioni avanzate per i 
 
   Inserisci il testo nella finestra e utilizza i campi di personalizzazione disponibili nell’elenco a discesa. Nell’esempio seguente, il nome del file viene personalizzato in modo da contenere la data odierna e il nome del destinatario.
 
-  ![](assets/s_ncs_user_wizard_email_calc_attachement_09.png)
+  ![Scheda Avanzate con uno script che personalizza il nome del file allegato e l&#39;indirizzo e-mail con il nome risultante](assets/s_ncs_user_wizard_email_calc_attachement_09.png)

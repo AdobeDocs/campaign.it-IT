@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '985'
 ht-degree: 5%
 ---
 # Creare consegne di direct mailing
@@ -57,7 +57,7 @@ Per creare una nuova consegna di direct mailing, segui i passaggi seguenti:
 1. Crea una nuova consegna, ad esempio dal dashboard Consegna.
 1. Selezionare il modello di consegna **Consegna tramite direct mailing (carta)**.
 
-   ![](assets/direct_mail.png)
+   ![Finestra di dialogo per la nuova consegna con il modello di consegna tramite direct mailing (carta) selezionato nell&#39;elenco](assets/direct_mail.png)
 
 1. Identifica la consegna con un’etichetta, un codice e una descrizione. Per ulteriori informazioni, consulta [Creare la consegna](../start/create-message.md#create-the-delivery).
 1. Fai clic su **Continua** per confermare queste informazioni e visualizzare la finestra di configurazione del messaggio.
@@ -80,21 +80,21 @@ Il nome del file che contiene i dati estratti è definito nel campo **[!UICONTRO
 
 Per impostazione predefinita, il file di estrazione viene creato e memorizzato sul server. È possibile salvarlo nel computer. Per eseguire questa operazione, controllare **[!UICONTROL Download the generated file after the analysis of the delivery]**. In questo caso, è necessario indicare il percorso di accesso alla directory di archiviazione locale e il nome del file.
 
-![](assets/s_ncs_user_mail_delivery_local_file.png)
+![Scheda Estrazione con l&#39;opzione Scarica il file generato selezionata e un percorso di file locale immesso](assets/s_ncs_user_mail_delivery_local_file.png)
 
 Per una consegna direct mailing, il contenuto dell&#39;estrazione è definito nel collegamento **[!UICONTROL Edit the extraction file format...]**.
 
-![](assets/s_ncs_user_mail_delivery_format_link.png)
+![Scheda Estrazione con il collegamento Modifica formato file di estrazione evidenziato](assets/s_ncs_user_mail_delivery_format_link.png)
 
 Questo collegamento ti consente di accedere all’assistente per l’estrazione e definire le informazioni (colonne) da esportare nel file di output.
 
-![](assets/s_ncs_user_mail_delivery_format_wz.png)
+![Dati da estrarre dalla procedura guidata con campi trascinati dai campi disponibili nelle colonne di output](assets/s_ncs_user_mail_delivery_format_wz.png)
 
 Puoi inserire un URL personalizzato nel file di estrazione. Per ulteriori informazioni, consulta [Pubblicare un modulo web](../dev/web/publishing-a-web-form.md).
 
 >[!NOTE]
 >
->L&#39;assistente include i passaggi dell&#39;assistente all&#39;esportazione descritti nella [documentazione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html?lang=it){target="_blank"} di Adobe Campaign Classic.
+>L&#39;assistente include i passaggi dell&#39;assistente all&#39;esportazione descritti nella [documentazione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html){target="_blank"} di Adobe Campaign Classic.
 
 ## Convalidare la consegna{#validating}
 
@@ -116,7 +116,7 @@ Controllare il risultato dell&#39;analisi e il contenuto del file di output prim
 
 La conferma di invio avvia l’estrazione dei dati nel file specificato.
 
-![](assets/s_ncs_user_postal_del_send_confirm_postal.png)
+![Avvia la finestra di dialogo di conferma della consegna con OK e Annulla per una consegna Direct Mail nello stato In sospeso](assets/s_ncs_user_postal_del_send_confirm_postal.png)
 
 È quindi possibile chiudere l&#39;assistente e visualizzare i registri di consegna tramite la scheda **[!UICONTROL Delivery]**, accessibile tramite i dettagli di consegna.
 

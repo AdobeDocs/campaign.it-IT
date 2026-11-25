@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '820'
 ht-degree: 1%
 ---
 # Inviare e monitorare i messaggi transazionali {#delivery-execution}
@@ -71,7 +71,7 @@ Adobe Campaign offre diversi rapporti che ti consentono di controllare l’attiv
 
 È possibile accedere a questi report del Centro messaggi dalla scheda **[!UICONTROL Reports]** dell&#39;**istanza di controllo**.
 
-![](assets/mc-reports.png)
+![Pagina Report globali nella scheda Report con i tre report del Centro messaggi evidenziati](assets/mc-reports.png)
 
 ### Cronologia eventi del Centro messaggi {#history-events}
 
@@ -86,7 +86,7 @@ Puoi visualizzare i dati specifici di ciascun tipo di evento, per periodo di tem
 
 Il report **[!UICONTROL Message Center processing time]** visualizza gli indicatori principali relativi alla coda in tempo reale. È inoltre possibile accedere al report tramite la scheda **[!UICONTROL Monitoring]** nell&#39;istanza di controllo.
 
-![](assets/mc-processing-time-report.png)
+![Rapporto del tempo di elaborazione del Centro messaggi con filtri di canale, istanza e periodo, indicatori e grafico](assets/mc-processing-time-report.png)
 
 È possibile scegliere di visualizzare le statistiche globali o quelle relative a una particolare istanza di esecuzione. Puoi anche filtrare i dati per canale e in un periodo specifico.
 
@@ -135,4 +135,4 @@ A questo scopo, segui la procedura indicata di seguito:
 1. Aprire la procedura guidata di distribuzione nell&#39;**istanza di esecuzione** e passare alla pagina **[!UICONTROL Message Center]**.
 1. Utilizzare le frecce per modificare le soglie.
 
-   ![](assets/mc-thresholds.png)
+   ![Configurazione guidata Centro messaggi con impostazioni dell&#39;istanza di esecuzione e soglie di avviso e avviso](assets/mc-thresholds.png)

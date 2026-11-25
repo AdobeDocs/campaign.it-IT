@@ -24,10 +24,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 20%
+source-wordcount: '689'
+ht-degree: 18%
 ---
 # Utilizzare i blocchi di personalizzazione{#personalization-blocks}
 
@@ -44,7 +44,7 @@ Per inserire un blocco di personalizzazione in un messaggio, effettua le seguent
 1. Nell&#39;editor dei contenuti della consegna guidata, fai clic sull&#39;icona di personalizzazione e seleziona il menu **[!UICONTROL Include]**.
 1. Selezionare un blocco di personalizzazione dall&#39;elenco oppure fare clic sul menu **[!UICONTROL Other...]** per accedere all&#39;elenco completo.
 
-   ![](assets/perso-content-block.png)
+   ![Includi sottomenu nel menu di personalizzazione elencando blocchi come Collega a pagina mirror, con Altro... alla fine](assets/perso-content-block.png)
 
 1. Il blocco di personalizzazione viene quindi inserito come script. Viene adattato automaticamente al profilo del destinatario quando viene generata la personalizzazione.
 1. Passare alla scheda **[!UICONTROL Preview]** e selezionare un destinatario per visualizzare il contenuto di questo blocco per un destinatario specifico.
@@ -82,11 +82,11 @@ Per creare un blocco di personalizzazione, effettua le seguenti operazioni:
 1. Individua la cartella **[!UICONTROL Resources > Campaign Management > Personalization blocks]** di Campaign Explorer.
 1. Sopra l&#39;elenco dei blocchi predefiniti, fare clic su **[!UICONTROL New]**.
 
-   ![](assets/perso-new-block.png)
+   ![Elenco di blocchi di personalizzazione in Esplora campagne con una freccia sul pulsante Nuovo](assets/perso-new-block.png)
 
 1. Compila le impostazioni del blocco di personalizzazione:
 
-   ![](assets/perso-custom-block.png)
+   ![Nuovo modulo per blocchi di personalizzazione con etichetta, nome interno, tipo di contenuto e contenuto script per un collegamento di rinuncia](assets/perso-custom-block.png)
 
    * Inserisci l’etichetta del blocco. Questa etichetta viene visualizzata nella finestra di inserimento del campo di personalizzazione.
    * Seleziona un tipo di contenuto **Consegna**.
@@ -100,4 +100,4 @@ Una volta salvato, il nuovo blocco di personalizzazione è disponibile nell’ed
 
 Scopri come creare blocchi di contenuto dinamici e come utilizzarli per personalizzare il contenuto della consegna e-mail nel video seguente.
 
->[!VIDEO](https://video.tv.adobe.com/v/344595?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12)

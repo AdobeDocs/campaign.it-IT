@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '3642'
+source-wordcount: '3734'
 ht-degree: 3%
 ---
 # Impostazioni account esterno SMPP {#smpp-external-account}
@@ -53,7 +53,7 @@ L’apparecchiatura di rete sul lato del fornitore di servizi SMS è spesso deno
 
 ## Impostazioni della connessione {#smpp-connection-settings}
 
-![](assets/smpp_connection_settings.png){zoomable="yes"}
+![Scheda Impostazioni di connessione dell&#39;account esterno SMPP: server, porta, account, password e modalità di connessione](assets/smpp_connection_settings.png){zoomable="yes"}
 
 Di seguito sono riportati i parametri e il loro ruolo necessari per impostare la connessione:
 
@@ -94,7 +94,7 @@ Quando questa opzione è attivata, i registri aggiuntivi verranno inviati al fil
 
 ## Impostazioni canale SMPP {#smpp-channel-settings}
 
-![](assets/smpp_channel_settings.png){zoomable="yes"}
+![Scheda impostazioni canale SMPP: opzione di traslitterazione, numero di origine, TON/NPI di origine e di destinazione, tipo di servizio](assets/smpp_channel_settings.png){zoomable="yes"}
 
 ### Autorizza la traslitterazione di caratteri {#smpp-transliteration}
 
@@ -124,7 +124,7 @@ Questo campo viene trasmesso così come è nel campo service_type della PDU SUBM
 
 ## Velocità effettiva e ritardi {#smpp-delays}
 
-![](assets/smpp_throughput.png){zoomable="yes"}
+![Scheda Throughput e ritardi: finestra di invio, velocità effettiva MT massima, riconnessione, scadenza, timeout binding, inquire_link](assets/smpp_throughput.png){zoomable="yes"}
 
 Queste impostazioni controllano tutti gli aspetti relativi alla temporizzazione del canale SMPP. Alcuni provider richiedono un controllo molto preciso della frequenza dei messaggi, della finestra e degli intervalli dei nuovi tentativi, pertanto queste impostazioni devono essere impostate su valori che corrispondano alla capacità del provider e alle condizioni indicate nel relativo contratto.
 
@@ -134,7 +134,7 @@ La finestra è il numero di PDU SUBMIT_SM che possono essere inviate senza atten
 
 Esempio di trasmissione con una finestra massima di 4:
 
-![](assets/sms_sending_window.png){zoomable="yes"}
+![Sequenza tra Campaign e SMSC: richieste SUBMIT_SM e risposte SUBMIT_SM_RESP con una finestra di 4](assets/sms_sending_window.png){zoomable="yes"}
 
 La finestra consente di aumentare il throughput quando il collegamento di rete ha una latenza elevata. Il valore della finestra deve essere almeno il numero di SMS/s moltiplicato per la latenza del collegamento (in secondi), in modo che il connettore non attenda mai un SUBMIT_SM_RESP prima di inviare il messaggio successivo.
 
@@ -199,7 +199,7 @@ Se il messaggio non può essere codificato in GSM, verrà codificato in UCS-2 e 
 
 ## Specificità SMSC {#smsc-specificities}
 
-![](assets/smsc_specificities.png){zoomable="yes"}
+![Scheda delle specificità di SMSC con message_payload, bind TON/NPI, status regex, formati ID e opzioni TLS](assets/smsc_specificities.png){zoomable="yes"}
 
 ### Attiva message_payload
 
@@ -347,7 +347,7 @@ Se abilitate, tutte le connessioni a SMSC verranno crittografate utilizzando TLS
 
 ## Traffico in entrata {#incoming-traffic}
 
-![](assets/incoming_traffic.png){zoomable="yes"}
+![Scheda Traffico in ingresso: parametri SMPP (TLV) facoltativi in MO e tabella di risposta automatica per MO](assets/incoming_traffic.png){zoomable="yes"}
 
 ### Parametri SMPP (TLV) opzionali in MO
 

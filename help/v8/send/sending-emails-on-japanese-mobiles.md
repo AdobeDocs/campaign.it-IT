@@ -23,9 +23,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '849'
 ht-degree: 1%
 ---
 # Inviare e-mail su dispositivi mobili giapponesi {#sending-emails-on-japanese-mobiles}
@@ -36,11 +36,11 @@ Adobe Campaign gestisce tre formati giapponesi specifici per le e-mail sui dispo
 
 Affinché il destinatario riceva correttamente i messaggi in uno di questi formati, è consigliabile selezionare **[!UICONTROL Deco-mail (DoCoMo)]**, **[!UICONTROL Decore Mail (Softbank)]** o **[!UICONTROL Decoration Mail (KDDI AU)]** nel profilo corrispondente:
 
-![](assets/deco-mail_03.png)
+![Scheda Generale destinatario con l&#39;elenco Formato e-mail aperto: Sconosciuto, Testo, HTML, Deco-mail, Decoration Mail, Decore Mail](assets/deco-mail_03.png)
 
 Se tuttavia si lascia l&#39;opzione **[!UICONTROL Email format]** come **[!UICONTROL Unknown]**, **[!UICONTROL HTML]** o **[!UICONTROL Text]**, Adobe Campaign rileverà automaticamente (durante l&#39;invio dell&#39;e-mail) il formato giapponese da utilizzare per visualizzare correttamente il messaggio.
 
-Questo sistema di rilevamento automatico si basa sull&#39;elenco di domini predefiniti definiti nel set di regole di posta **[!UICONTROL Management of Email Formats]**. Per ulteriori informazioni sulla gestione dei formati di posta elettronica, consulta la [documentazione di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html?lang=it#managing-email-formats).
+Questo sistema di rilevamento automatico si basa sull&#39;elenco di domini predefiniti definiti nel set di regole di posta **[!UICONTROL Management of Email Formats]**. Per ulteriori informazioni sulla gestione dei formati di posta elettronica, consulta la [documentazione di Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html#managing-email-formats).
 
 ## Limitazioni e raccomandazioni {#limitations-and-recommendations}
 
@@ -73,7 +73,7 @@ Nella scheda **[!UICONTROL Preview]** della finestra di modifica del contenuto, 
 * Verifica che il numero di immagini nel messaggio non superi il limite imposto dal formato (20 immagini)
 * Verifica la dimensione totale del messaggio (inferiore a 100 KB)
 
-  ![](assets/deco-mail_06.png)
+  ![Anteprima della finestra dei risultati con la scheda di diagnostica Deco-mail che elenca gli avvisi relativi ai tag non supportati e al limite di dimensioni di 100 kB](assets/deco-mail_06.png)
 
 ### Eseguire la regola di tipologia {#running-typology-rule}
 
@@ -91,7 +91,7 @@ Puoi inviare delle bozze per verificare la consegna. Quando invii la bozza, se u
 
 Ad esempio, puoi sostituire l&#39;indirizzo di un profilo con test@softbank.ne.jp se il formato e-mail per questo profilo è stato definito in precedenza il **[!UICONTROL Decore Mail (Softbank)]**.
 
-![](assets/deco-mail_05.png)
+![Invia una finestra di dialogo di prova in Sostituzione della modalità indirizzo con un indirizzo di prova softbank.ne.jp mappato a un profilo](assets/deco-mail_05.png)
 
 ## Inviare messaggi {#sending-messages}
 
@@ -106,9 +106,9 @@ Puoi creare un flusso di lavoro contenente due consegne: una da leggere su un di
 
 A questo scopo, utilizza l&#39;attività **[!UICONTROL Split]** nel flusso di lavoro e definisci i formati di posta elettronica giapponesi (Deco-mail, Decoration Mail e Decore Mail) come condizioni di filtro.
 
-![](assets/deco-mail_08.png)
+![Finestra di dialogo Filtra con tre condizioni di formato e-mail combinate da O: Deco-mail, Decoration Mail e Decore Mail](assets/deco-mail_08.png)
 
-![](assets/deco-mail_07.png)
+![Flusso di lavoro: query, deduplicazione, quindi una suddivisione per formato e-mail in una consegna mobile giapponese e in una consegna standard](assets/deco-mail_07.png)
 
 ### Progettare una consegna per tutti i formati {#designing-a-delivery-for-all-formats}
 

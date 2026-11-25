@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1835'
+source-wordcount: '1893'
 ht-degree: 5%
 ---
 # Configurare il canale di notifica push {#push-notification-configuration}
@@ -67,7 +67,7 @@ Per configurare la tua app con gli SDK di Adobe Experience Platform Mobile, segu
 
 ### Impostare le autorizzazioni {#setup-permissions}
 
-Prima di creare un’app mobile, è necessario assicurarsi di disporre delle autorizzazioni utente corrette per i tag in Adobe Experience Platform o assegnarle. Le autorizzazioni utente per i tag in Adobe Experience Platform vengono assegnate agli utenti tramite Adobe Admin Console. Ulteriori informazioni nella [documentazione sui tag](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=it){target="_blank"}.
+Prima di creare un’app mobile, è necessario assicurarsi di disporre delle autorizzazioni utente corrette per i tag in Adobe Experience Platform o assegnarle. Le autorizzazioni utente per i tag in Adobe Experience Platform vengono assegnate agli utenti tramite Adobe Admin Console. Ulteriori informazioni nella [documentazione sui tag](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}.
 
 >[!CAUTION]
 >
@@ -77,7 +77,7 @@ Per assegnare i diritti di **Proprietà** e **Società**, effettua le seguenti o
 
 1. Accedere a **[!DNL Admin Console]**.
 1. Dalla scheda **[!UICONTROL Products]**, seleziona la scheda **[!UICONTROL Adobe Experience Platform Data Collection]**.
-1. Selezionare un elemento **[!UICONTROL Product Profile]** esistente o crearne uno nuovo con il pulsante **[!UICONTROL New profile]**. Scopri come creare un nuovo **[!UICONTROL New profile]** nella [documentazione di Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=it#ui){target="_blank"}.
+1. Selezionare un elemento **[!UICONTROL Product Profile]** esistente o crearne uno nuovo con il pulsante **[!UICONTROL New profile]**. Scopri come creare un nuovo **[!UICONTROL New profile]** nella [documentazione di Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"}.
 1. Dalla sezione **[!UICONTROL Permissions]**, seleziona **[!UICONTROL Property Rights]**.
 1. Fai clic su **[!UICONTROL Add all]**. Verranno aggiunti i seguenti diritti al profilo di prodotto:
    * **[!UICONTROL Approve]**
@@ -109,7 +109,7 @@ Per assegnare **[!UICONTROL Product profile]** agli utenti, eseguire la procedur
 
    >[!NOTE]
    >
-   >Se l&#39;utente non è stato creato in precedenza in Admin Console, consulta la [documentazione sull&#39;aggiunta di utenti](https://helpx.adobe.com/it/enterprise/using/manage-users-individually.html#add-users){target="_blank"}.
+   >Se l&#39;utente non è stato creato in precedenza in Admin Console, consulta la [documentazione sull&#39;aggiunta di utenti](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#add-users){target="_blank"}.
 
 ### Configurare l’app {#configure-app}
 
@@ -171,7 +171,7 @@ To get the SDKs needed for push notification to work you will need the following
 * **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
 -->
 
-Ulteriori informazioni su [!DNL Adobe Experience Platform Data Collection] tag nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html?lang=it){target="_blank"}.
+Ulteriori informazioni su [!DNL Adobe Experience Platform Data Collection] tag nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html){target="_blank"}.
 
 Una volta creata, apri la nuova proprietà tag e crea una libreria. Per eseguire questa operazione:
 
@@ -190,7 +190,7 @@ Per creare un servizio per l’invio di notifiche push, effettua le seguenti ope
 
 1. Passare alla scheda **[!UICONTROL Profiles and Targets > Services and Subscriptions]** e fare clic su **[!UICONTROL Create]**.
 
-   ![](assets/new-service-push.png){width="800"}
+   ![Finestra di dialogo Nuovo servizio con il tipo di applicazione mobile e la mappatura di destinazione delle applicazioni in abbonamento](assets/new-service-push.png){width="800"}
 
 1. Immettere **[!UICONTROL Label]** e **[!UICONTROL Internal name]** e selezionare un tipo **[!UICONTROL Mobile application]**.
 
@@ -208,14 +208,14 @@ Per creare un&#39;app per dispositivi iOS, effettua le seguenti operazioni:
 
 1. Seleziona **[!UICONTROL Create an iOS application]** e fai clic su **[!UICONTROL Next]**.
 
-   ![](assets/new-ios-app.png){width="600"}
+   ![Creazione guidata applicazione mobile con Creazione di un&#39;applicazione iOS selezionata e pulsante Avanti](assets/new-ios-app.png){width="600"}
 
 1. Immettere il nome dell&#39;app nel campo **[!UICONTROL Label]**.
 1. (facoltativo) È possibile arricchire il contenuto di un messaggio push con alcuni **[!UICONTROL Application variables]**. Questi sono completamente personalizzabili e fanno parte del payload del messaggio inviato al dispositivo mobile.
 
    Nell&#39;esempio seguente, le variabili **mediaURl** e **mediaExt** vengono aggiunte per creare notifiche push potenziate e quindi fornire all&#39;applicazione l&#39;immagine da visualizzare all&#39;interno della notifica.
 
-   ![](assets/ios-app-parameters.png){width="600"}
+   ![Passaggio Parametri generali della procedura guidata dell&#39;app iOS con mediaURL e mediaExt elencati come variabili dell&#39;applicazione](assets/ios-app-parameters.png){width="600"}
 
 1. Passare alla scheda **[!UICONTROL Subscription parameters]** per definire il mapping con un&#39;estensione dello schema **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]**.
 
@@ -258,7 +258,7 @@ Per creare un&#39;app per dispositivi Android, effettua le seguenti operazioni:
 
 1. Seleziona **[!UICONTROL Create an Android application]** e fai clic su **[!UICONTROL Next]**.
 
-   ![](assets/new-android-app.png){width="600"}
+   ![Creazione guidata applicazione mobile con Creazione di un&#39;applicazione Android selezionata e pulsante Avanti](assets/new-android-app.png){width="600"}
 
 1. Immettere il nome dell&#39;app nel campo **[!UICONTROL Label]**.
 1. La chiave di integrazione è specifica per ogni applicazione. Collega l’app mobile ad Adobe Campaign.

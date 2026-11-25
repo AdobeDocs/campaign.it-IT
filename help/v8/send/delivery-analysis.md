@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '748'
 ht-degree: 5%
 ---
 # Analisi della consegna {#analyze-delivery}
@@ -41,7 +41,7 @@ Per preparare la consegna, assicurati che il contenuto e il target della consegn
 1. Dalle finestre di consegna, fare clic sul pulsante **[!UICONTROL Send]**.
 1. Selezionare **[!UICONTROL Deliver as soon as possible]** per eseguire il calcolo del pubblico e la preparazione del contenuto per un invio immediato. Puoi anche posticipare la consegna a una data successiva, oppure ottenere una stima della popolazione senza preparare il contenuto.
 
-   ![](assets/delivery-analysis-start.png)
+   ![Invia alla finestra di dialogo del target di consegna principale con Consegna selezionata il prima possibile, più il pulsante Analizza](assets/delivery-analysis-start.png)
 
 1. Fare clic su **[!UICONTROL Analyze]** per avviare l&#39;analisi manualmente. La barra di avanzamento mostra lo stato di avanzamento dell’analisi.
 
@@ -72,7 +72,7 @@ Per preparare la consegna, assicurati che il contenuto e il target della consegn
    * Un&#39;icona gialla indica un errore di elaborazione non critico.
    * Un’icona rossa indica un errore critico che impedisce l’invio della consegna.
 
-   ![](assets/delivery-analysis-results.png){width="800"}
+   ![Risultati dell&#39;analisi: preparazione completata, 22 messaggi da inviare, registrazione con un avviso e pulsante Conferma consegna](assets/delivery-analysis-results.png){width="800"}
 
 1. Fare clic su **[!UICONTROL Close]** per correggere gli eventuali errori. Dopo aver apportato le modifiche, riavviare l&#39;analisi facendo clic su **[!UICONTROL Analyze]**.
 
@@ -88,7 +88,7 @@ Per preparare la consegna, assicurati che il contenuto e il target della consegn
 
 Passa alla scheda **[!UICONTROL Analysis]** delle proprietà di consegna per definire le impostazioni per la preparazione dei messaggi durante la fase di analisi.
 
-![](assets/delivery-properties-analysis-tab.png){width="800"}
+![Scheda Analisi delle proprietà di consegna con le opzioni di etichetta e codice, la modalità di approvazione impostata su Manuale e le impostazioni FFDA](assets/delivery-properties-analysis-tab.png){width="800"}
 
 Questa scheda consente di accedere alle seguenti opzioni:
 

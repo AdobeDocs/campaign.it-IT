@@ -19,10 +19,10 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 3%
+source-wordcount: '315'
+ht-degree: 2%
 ---
 # SpamAssassin{#spamassassin}
 
@@ -52,7 +52,7 @@ Per ulteriori informazioni sulla creazione e la progettazione di una consegna, c
 1. Vai alla scheda **[!UICONTROL Preview]**.
 1. Seleziona un destinatario per visualizzare l’anteprima della consegna.
 
-   ![](assets/s_tn_del_preview_spamassassin_recipient.png)
+   ![Scheda Anteprima consegna con l&#39;elenco dei destinatari aperto per scegliere un destinatario per il controllo anti-spam](assets/s_tn_del_preview_spamassassin_recipient.png)
 
    >[!NOTE]
    >
@@ -60,13 +60,13 @@ Per ulteriori informazioni sulla creazione e la progettazione di una consegna, c
 
 1. Un messaggio di avvertenza fornisce il risultato del test. Se viene rilevato un livello di rischio elevato, viene visualizzato il seguente messaggio di avvertenza:
 
-   ![](assets/s_tn_del_preview_spamassassin_ko.png)
+   ![Avviso della scheda Anteprima: il controllo anti-spam ha rilevato un rischio elevato per questa e-mail, con il collegamento Altro](assets/s_tn_del_preview_spamassassin_ko.png)
 
 1. Fare clic sul collegamento **[!UICONTROL More...]** accanto all&#39;avviso.
 1. Seleziona la scheda **[!UICONTROL Anti-spam checking]**.
 1. Andare alla sezione **[!UICONTROL Points / Rule / Description]** per visualizzare i motivi di questo rischio.
 
-   ![](assets/s_tn_del_msg_spamassassin_ko.png)
+   ![Scheda Controllo anti-spam con punteggio spam, punteggio massimo autorizzato e elenco Punti/Regola/Descrizione](assets/s_tn_del_msg_spamassassin_ko.png)
 
 >[!NOTE]
 >

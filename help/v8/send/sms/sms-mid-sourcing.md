@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '762'
 ht-degree: 0%
 ---
 # SMS in un’infrastruttura mid-sourcing {#sms-mid}
@@ -59,22 +59,22 @@ Per creare il tuo operatore SMS, segui i passaggi seguenti:
 
    In seguito verrà utilizzato il nome (accesso) per denominare l’account esterno SMPP nel mid-server.
 
-   ![](assets/smsoperator_mid.png){zoomable="yes"}
+   ![Nuovo modulo per l&#39;operatore SMS sul server mid con nome (accesso), password ed etichetta e il pulsante Aggiungi per i diritti](assets/smsoperator_mid.png){zoomable="yes"}
 
 1. Nella parte **[!UICONTROL Groups and named rights]**, fare clic sul pulsante **[!UICONTROL Add]**.
 Nella nuova finestra aperta, scegliere **[!UICONTROL Named rights]** nell&#39;elenco **[!UICONTROL Folder]** e selezionare **[!UICONTROL ADMINISTRATION]** nell&#39;elenco a destra.
 
 1. Fare clic sul pulsante **[!UICONTROL Ok]**.
 
-   ![](assets/smsoperator_rights.png){zoomable="yes"}
+   ![Finestra di dialogo per l&#39;aggiunta di gruppi o diritti denominati con l&#39;opzione Amministrazione denominata selezionata](assets/smsoperator_rights.png){zoomable="yes"}
 
 1. Fai clic sul pulsante **[!UICONTROL Save]** per finalizzare la creazione dell&#39;operatore SMS.
 
-   ![](assets/smsoperator_save.png){zoomable="yes"}
+   ![Modulo per l&#39;operatore SMS con aggiunta del diritto ADMINISTRATION ed evidenziazione del pulsante Save](assets/smsoperator_save.png){zoomable="yes"}
 
 Ora è possibile visualizzarlo nell&#39;elenco degli operatori.
 
-![](assets/smsoperator_list.png){zoomable="yes"}
+![Elenco operatori che mostra il nuovo operatore sms mid (smsOperator)](assets/smsoperator_list.png){zoomable="yes"}
 
 ## Creare un account esterno SMS sul server di marketing {#sms-external-account}
 
@@ -86,17 +86,17 @@ In un’infrastruttura mid, devi creare un account SMS esterno sul server Market
 
 1. In **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]**, fare clic sull&#39;icona **[!UICONTROL New]**
 
-   ![](assets/sms_extaccount.png){zoomable="yes"}
+   ![Elenco account esterni in Amministrazione > Piattaforma con l&#39;icona Nuovo evidenziata](assets/sms_extaccount.png){zoomable="yes"}
 
 1. Configura **[!UICONTROL Label]** e **[!UICONTROL Internal name]** dell&#39;account esterno. Definisci il tipo di account come **[!UICONTROL Routing]**, seleziona la casella **[!UICONTROL Enabled]**, seleziona **[!UICONTROL Mobile (SMS)]** per il canale e **[!UICONTROL Mid-sourcing]** per la modalità di consegna.
 
-   ![](assets/mid_smsextaccount.png){zoomable="yes"}
+   ![Scheda Generale account esterno: tipo di routing, abilitato, canale mobile (SMS) e modalità di consegna mid-sourcing](assets/mid_smsextaccount.png){zoomable="yes"}
 
 1. Nella scheda **[!UICONTROL Mid-sourcing]**, compila il modulo con l’URL del server di mid-sourcing e l’operatore SMS creato in precedenza sul server mid.
 
    Confermare la connessione facendo clic sul pulsante **[!UICONTROL Test the connection]**.
 
-   ![](assets/midtab_smsextaccount.png){zoomable="yes"}
+   ![Scheda mid-sourcing con URL del server, account dell&#39;operatore SMS, password e pulsante Prova connessione](assets/midtab_smsextaccount.png){zoomable="yes"}
 
 1. Fai clic su **[!UICONTROL Save]**.
 
@@ -120,15 +120,15 @@ A questo scopo, segui la procedura indicata di seguito:
    >
 
    Definisci il tipo di account come **[!UICONTROL Routing]**, seleziona la casella **[!UICONTROL Enabled]**, seleziona **[!UICONTROL Mobile (SMS)]** per il canale e **[!UICONTROL Bulk delivery]** per la modalità di consegna.
-   ![](assets/mid_extaccount.png){zoomable="yes"}
+   ![Scheda Generale dell&#39;account esterno mid-server: tipo di routing, abilitato, canale mobile (SMS) e modalità di consegna in blocco](assets/mid_extaccount.png){zoomable="yes"}
 
 1. Nella scheda **[!UICONTROL Mobile]**, mantenere **[!UICONTROL Extended generic SMPP]** nell&#39;elenco a discesa **[!UICONTROL Connector]**.
 
    La casella **[!UICONTROL Send messages through a dedicated process]** è selezionata per impostazione predefinita.
 
-   ![](assets/sms_extaccount_connector.png){zoomable="yes"}
+   ![Scheda Mobile con il connettore SMPP generico esteso e invio di messaggi tramite un processo dedicato selezionato](assets/sms_extaccount_connector.png){zoomable="yes"}
 
-   Per impostare la connessione, è necessario compilare le schede di questo modulo. Per ulteriori informazioni sull&#39;account esterno SMPP[&#128279;](smpp-external-account.md#smpp-connection-settings), vedere .
+   Per impostare la connessione, è necessario compilare le schede di questo modulo. Per ulteriori informazioni sull&#39;account esterno SMPP](smpp-external-account.md#smpp-connection-settings), vedere [.
 
 ## Configurare il modello di consegna {#sms-delivery-template}
 
@@ -136,18 +136,18 @@ Per facilitare la creazione della consegna SMS, crea un modello di consegna SMS 
 
 In **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** sul server Marketing, fare clic con il pulsante destro del mouse sul modello di consegna Mobile esistente e scegliere **[!UICONTROL Duplicate]**.
 
-![](assets/sms_template_duplicate.png){zoomable="yes"}
+![Elenco modelli di consegna con duplicato selezionato nel menu di scelta rapida per il modello Mobile (SMS)](assets/sms_template_duplicate.png){zoomable="yes"}
 
 Modifica **[!UICONTROL Label]** e **[!UICONTROL Internal name]** del modello per riconoscerlo facilmente e fai clic sul pulsante **[!UICONTROL Properties]**.
 
-![](assets/sms_template_name.png){zoomable="yes"}
+![Modello di consegna duplicato con i campi Etichetta e Nome interno ed evidenziato il pulsante Proprietà](assets/sms_template_name.png){zoomable="yes"}
 
 Nella scheda **[!UICONTROL General]**, in **[!UICONTROL Routing]**, seleziona l’account esterno SMPP.
 
-![](assets/mid_template.png){zoomable="yes"}
+![Scheda Generale delle proprietà di consegna con il campo Indirizzamento impostato sull&#39;account esterno SMPP](assets/mid_template.png){zoomable="yes"}
 
 Nella scheda **[!UICONTROL SMS]** è possibile aggiungere parametri facoltativi al modello.
 
-![](assets/sms_template_properties.png){zoomable="yes"}
+![Scheda SMS delle proprietà di consegna con parametri generali e parametri SMPP (TLV) facoltativi](assets/sms_template_properties.png){zoomable="yes"}
 
 [Ulteriori informazioni sulla configurazione della scheda SMS](sms-delivery-settings.md).

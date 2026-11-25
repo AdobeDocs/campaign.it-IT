@@ -20,9 +20,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '1048'
 ht-degree: 8%
 ---
 # Parametri e-mail {#email-parameters}
@@ -37,7 +37,7 @@ Puoi configurare Adobe Campaign per conservare una copia delle e-mail inviate da
 
 Puoi modificare il formato dei messaggi e-mail inviati. A tale scopo, modificare le proprietà di consegna e fare clic sulla scheda **[!UICONTROL Delivery]**.
 
-![](assets/email-message-format.png)
+![Scheda Consegna delle proprietà di consegna con la sezione Formati e-mail evidenziata e tre opzioni di formato](assets/email-message-format.png)
 
 Seleziona il formato dell’e-mail nella sezione inferiore della finestra:
 
@@ -73,7 +73,7 @@ Ad esempio, desideri inviare un’e-mail contenente caratteri giapponesi. Per ga
 
 A tale scopo, selezionare l&#39;opzione **[!UICONTROL Force the encoding used for messages]** nella sezione **[!UICONTROL Character encoding]** e scegliere una codifica dall&#39;elenco a discesa visualizzato.
 
-![](assets/email-smtp-encoding.png)
+![Scheda SMTP con Forza la codifica utilizzata per i messaggi selezionati e l&#39;elenco a discesa Codifica aperto](assets/email-smtp-encoding.png)
 
 ## Gestire le e-mail non recapitate {#managing-bounce-emails}
 
@@ -85,17 +85,17 @@ La scheda **[!UICONTROL SMTP]** delle proprietà di consegna consente inoltre di
 
 Ognuno di questi campi può essere personalizzato utilizzando l’icona dedicata. Ulteriori informazioni sui campi di personalizzazione in [Aggiungi campi di personalizzazione](personalization-fields.md).
 
-![](assets/email-smtp-bounce.png)
+![Scheda SMTP con la sezione Mail non recapitate evidenziata: campi Indirizzo destinatario errore e Indirizzo non recapitato](assets/email-smtp-bounce.png)
 
 Per ulteriori informazioni sulla gestione della posta non recapitata, consulta [Qualificazione della posta non recapitata](delivery-failures.md#bounce-mail-qualification).
 
 ## Abilita annullamento iscrizione con un solo clic all’elenco {#one-click-list-unsubscribe}
 
-L’URL per l’annullamento dell’iscrizione con un solo clic è un collegamento o un pulsante visualizzato accanto alle informazioni sul mittente dell’e-mail che consente ai destinatari di annullare immediatamente l’iscrizione alle mailing list con un solo clic. <!--[Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=it#list-unsubscribe){target="_blank"}-->
+L’URL per l’annullamento dell’iscrizione con un solo clic è un collegamento o un pulsante visualizzato accanto alle informazioni sul mittente dell’e-mail che consente ai destinatari di annullare immediatamente l’iscrizione alle mailing list con un solo clic. <!--[Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#list-unsubscribe){target="_blank"}-->
 
 Viene visualizzato come collegamento **Annulla sottoscrizione** nelle interfacce e-mail degli ISP. Ad esempio:
 
-![](assets/email-list-unsubscribe-example.png)
+![Riga mittente del client di posta elettronica con il collegamento per annullare l&#39;iscrizione visualizzato accanto all&#39;indirizzo del mittente](assets/email-list-unsubscribe-example.png)
 
 L’aggiunta di un’intestazione SMTP denominata Annullamento iscrizione a mailing list è obbligatoria per garantire una gestione ottimale del recapito messaggi e può essere utilizzata in alternativa all’icona &quot;Report as SPAM&quot; (Report as SPAM). In effetti, l’utilizzo di questa funzionalità riduce la percentuale di reclami e contribuisce a proteggere la tua reputazione.
 
@@ -109,7 +109,7 @@ Per abilitare questa funzionalità, seleziona l&#39;opzione **[!UICONTROL Additi
 >
 >Questa opzione è abilitata per impostazione predefinita.
 
-![](assets/email-smtp-list-unsubscribe.png)
+![Scheda SMTP con la sezione One-Click List-Unsubscribe e l&#39;opzione di intestazione selezionata per impostazione predefinita](assets/email-smtp-list-unsubscribe.png)
 
 <!--
 >[!WARNING]
@@ -131,7 +131,7 @@ A seconda del client e-mail e del metodo utilizzato per eseguire la rinuncia, fa
 
 >[!NOTE]
 >
->È inoltre possibile impostare manualmente i metodi [Annullamento sottoscrizione a un solo clic](https://experienceleague.adobe.com/it/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#one-click-list-unsubscribe){target="_blank"} e [&quot;mailto&quot; Annullamento sottoscrizione a un elenco](https://experienceleague.adobe.com/it/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#mailto-list-unsubscribe){target="_blank"}. I passaggi dettagliati sono descritti nella [Guida alle best practice per il recapito messaggi](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=it#list-unsubscribe){target="_blank"} di Experience Cloud.
+>È inoltre possibile impostare manualmente i metodi [Annullamento sottoscrizione a un solo clic](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#one-click-list-unsubscribe){target="_blank"} e [&quot;mailto&quot; Annullamento sottoscrizione a un elenco](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#mailto-list-unsubscribe){target="_blank"}. I passaggi dettagliati sono descritti nella [Guida alle best practice per il recapito messaggi](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#list-unsubscribe){target="_blank"} di Experience Cloud.
 
 
 ## Aggiungi intestazioni SMTP {#adding-smtp-headers}
@@ -148,7 +148,7 @@ Se necessario, i valori vengono codificati automaticamente.
 >
 >La sintassi di questo script deve essere conforme ai requisiti di questo tipo di contenuto: nessuno spazio inutilizzato, nessuna linea vuota e così via.
 
-![](assets/email-smtp-headers.png)
+![Scheda SMTP con l&#39;area dello script intestazioni SMTP aggiuntive evidenziata, utilizzando il formato nome:value](assets/email-smtp-headers.png)
 
 
 ## Genera pagina mirror {#generating-mirror-page}

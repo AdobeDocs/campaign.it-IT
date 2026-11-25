@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '647'
 ht-degree: 2%
 ---
 # Introduzione ai canali personalizzati {#gs-custom-channel}
@@ -36,7 +36,7 @@ Adobe Campaign consente di creare canali personalizzati esterni o API integrati 
 
 La creazione e l’invio della consegna possono essere eseguiti sia nella console client che nell’interfaccia web. Tuttavia, la configurazione del canale personalizzata viene eseguita solo nella console client.
 
-Per informazioni su come creare e inviare una consegna basata su un canale personalizzato, consulta questa [pagina](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html?lang=it){target="_blank"}.
+Per informazioni su come creare e inviare una consegna basata su un canale personalizzato, consulta questa [pagina](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html){target="_blank"}.
 
 Di seguito sono riportati i passaggi per configurare un nuovo canale personalizzato nella console client. Questi passaggi sono comuni ai canali esterni e API personalizzati:
 
@@ -63,7 +63,7 @@ Innanzitutto, devi configurare lo schema per aggiungere il nuovo canale all’el
    </enumeration>
    ```
 
-   ![](assets/cus-schema.png){zoomable="yes"}
+   ![Schema di origine delle consegne (cus) con enumerazione messageType per il canale personalizzato evidenziato](assets/cus-schema.png){zoomable="yes"}
 
 ## Crea un nuovo account esterno{#create-ext-account}
 
@@ -75,7 +75,7 @@ Quindi, devi creare un nuovo account esterno di indirizzamento.
 
 1. Seleziona il canale e cambia la modalità di consegna. Scegli **External** per i canali esterni personalizzati e **Bulk** per i canali API personalizzati.
 
-   ![](assets/cus-ext-account.png){zoomable="yes"}
+   ![Account esterno di tipo Routing con il canale personalizzato selezionato e la modalità di consegna impostata su Esterno](assets/cus-ext-account.png){zoomable="yes"}
 
 ## Creare un nuovo modello di consegna{#create-template}
 
@@ -87,7 +87,7 @@ Ora creiamo il nuovo modello associato al nuovo canale.
 
 1. Fai clic su **Proprietà** e seleziona la cartella e il routing corretti.
 
-   ![](assets/cus-template.png){zoomable="yes"}
+   ![Proprietà del modello di consegna, scheda Generale, con i campi Cartella e Indirizzamento impostati sull&#39;account esterno del canale personalizzato](assets/cus-template.png){zoomable="yes"}
 
 Il nuovo canale è ora disponibile. Puoi creare ed eseguire consegne in base a questo canale.
 
@@ -107,11 +107,11 @@ Dall’interfaccia web di Campaign, imposta la definizione della schermata perso
 
 1. Apri lo schema **Delivery** e fai clic su **Screen edition**.
 
-   ![](assets/cus-schema2.png){zoomable="yes"}
+   ![Pagina dello schema delle consegne (nms) con il pulsante Screen edition in alto a destra](assets/cus-schema2.png){zoomable="yes"}
 
-1. Seleziona la scheda che corrisponde al canale e definisci come verranno visualizzati i campi nella schermata del contenuto della consegna. Per ulteriori informazioni sull&#39;edizione dello schermo, consulta questa [pagina](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html?lang=it#fields){target="_blank"}.
+1. Seleziona la scheda che corrisponde al canale e definisci come verranno visualizzati i campi nella schermata del contenuto della consegna. Per ulteriori informazioni sull&#39;edizione dello schermo, consulta questa [pagina](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html#fields){target="_blank"}.
 
-   ![](assets/cus-schema3.png){zoomable="yes"}
+   ![Finestra di dialogo per la definizione dello schermo, scheda del canale personalizzato, elenco di campi personalizzati con etichetta, attributo, tipo e opzione obbligatoria](assets/cus-schema3.png){zoomable="yes"}
 
 1. Nella sezione **Anteprima per simulare il contenuto**, seleziona il JSPP dedicato. Questo è facoltativo. L’anteprima viene attivata nella schermata di simulazione della consegna. [Configura l&#39;anteprima](#api-additional-preview)
 

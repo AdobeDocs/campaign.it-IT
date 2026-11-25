@@ -26,10 +26,10 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 7%
+source-wordcount: '524'
+ht-degree: 6%
 ---
 # Selezionare il pubblico della consegna SMS {#sms-audience}
 
@@ -45,7 +45,7 @@ Per selezionare il pubblico della consegna, segui i passaggi seguenti:
 
 1. Poiché il pubblico è archiviato nel database di Adobe Campaign, nella scheda **[!UICONTROL Main target]** scegliere l&#39;opzione **[!UICONTROL Defined in the database]**.
 
-   ![](assets/audience_to.png){zoomable="yes"}
+   ![Finestra di dialogo Seleziona destinazione con l&#39;opzione Definito nel database selezionata, aperta dal collegamento A](assets/audience_to.png){zoomable="yes"}
 
 1. Selezionare **[!UICONTROL Target mapping]** nell&#39;elenco a discesa. La mappatura di destinazione predefinita di Adobe Campaign è Destinatari, basata sullo schema **[!UICONTROL nms:recipient]**.
 
@@ -55,7 +55,7 @@ Per selezionare il pubblico della consegna, segui i passaggi seguenti:
 
    Puoi quindi selezionare il tipo di filtro da applicare:
 
-   ![](assets/audience_filters.png){zoomable="yes"}
+   ![Finestra di dialogo Seleziona elemento di destinazione in cui sono elencati i tipi di destinazione e i filtri utente tra cui scegliere](assets/audience_filters.png){zoomable="yes"}
 
    Per utilizzare un tipo di destinazione, selezionarlo e fare clic sul pulsante **[!UICONTROL Next]**.
 
@@ -74,7 +74,7 @@ Per selezionare il pubblico della consegna, segui i passaggi seguenti:
 
 1. Immettere il nome del pubblico nel campo etichetta e fare clic sul pulsante **[!UICONTROL Finish]** per convalidare il pubblico.
 
-   ![](assets/audience_finish.png){zoomable="yes"}
+   ![La definizione dell&#39;elemento di destinazione con l&#39;etichetta mobile non è vuota, il filtro è su Mobile e Fine è evidenziato](assets/audience_finish.png){zoomable="yes"}
 
    È possibile aggiungere tutte le popolazioni di destinazione necessarie facendo nuovamente clic sul pulsante **[!UICONTROL Add]**. Puoi anche eliminarne alcuni facendo clic sulla croce che si trova dopo l’etichetta.
 
@@ -88,7 +88,7 @@ Di seguito sono riportati i passaggi da seguire:
 
 1. Scegli l’opzione **[!UICONTROL Defined in an external file]**.
 
-   ![](assets/audience_externalfile.png){zoomable="yes"}
+   ![Finestra di dialogo Seleziona destinazione con l&#39;opzione Definito in un file esterno selezionata e collegamento alla definizione del formato file](assets/audience_externalfile.png){zoomable="yes"}
 
 1. Per impostazione predefinita, i destinatari vengono importati nel database. Selezionare **[!UICONTROL Target mapping]** in questo caso. Per ulteriori informazioni sui mapping di destinazione, fare riferimento a [Operazioni con i mapping di destinazione](../../audiences/target-mappings.md).
 

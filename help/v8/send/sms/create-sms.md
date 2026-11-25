@@ -26,10 +26,10 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 8%
+source-wordcount: '208'
+ht-degree: 7%
 ---
 # Creare la prima consegna SMS {#sms-delivery}
 
@@ -37,7 +37,7 @@ Per creare una nuova consegna SMS, segui i passaggi seguenti:
 
 1. Crea una nuova consegna e seleziona il [modello di consegna SMS](sms-mid-sourcing.md#sms-delivery-template) creato per le invii SMS.
 
-   ![](assets/sms_create.png){zoomable="yes"}
+   ![Elenco dei modelli di consegna per una nuova consegna, con il modello SMS Send to mobiles (SMPP) evidenziato](assets/sms_create.png){zoomable="yes"}
 
    I passaggi di creazione della consegna sono descritti in [Creare la prima consegna](../../start/create-message.md).
 
@@ -52,7 +52,7 @@ Per creare una nuova consegna SMS, segui i passaggi seguenti:
 
 1. È possibile archiviare il pulsante **[!UICONTROL Properties]** in modo che tutto sia configurato in base alle esigenze. [Ulteriori informazioni sulla scheda SMS](sms-delivery-settings.md#sms-tab)
 
-   ![](assets/sms_settings.png){zoomable="yes"}
+   ![Proprietà di recapito della consegna SMS evidenziate dalla scheda Generale, dal campo Indirizzamento e dalla scheda SMS](assets/sms_settings.png){zoomable="yes"}
 
 1. [Definisci il contenuto](sms-content.md) della consegna.
 

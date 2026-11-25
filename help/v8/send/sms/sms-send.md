@@ -26,10 +26,10 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 3%
+source-wordcount: '143'
+ht-degree: 2%
 ---
 # Inviare la consegna SMS al pubblico {#sms-send-audience}
 
@@ -40,10 +40,10 @@ Nella finestra aperta, scegli l’azione adatta a te.
 
    Nell&#39;esempio seguente, si sceglie di **[!UICONTROL Deliver it as soon as possible]**, verrà visualizzato il pulsante **[!UICONTROL Analyze]**. Fare clic sul pulsante **[!UICONTROL Analyze]**.
 
-   ![](assets/send_action.png){zoomable="yes"}
+   ![Invia alla finestra di dialogo del target di consegna principale con Consegna selezionata il prima possibile e Analizza evidenziata](assets/send_action.png){zoomable="yes"}
 
    Adobe Campaign eseguirà tutti i controlli prima di convalidare l’invio della bozza. Qui puoi vedere il volume reale del pubblico. Al termine dell&#39;analisi, sarà possibile fare clic sul pulsante **[!UICONTROL Confirm delivery]**.
 
-   ![](assets/send_analyze.png){zoomable="yes"}
+   ![Analisi della consegna completata che mostra il numero di messaggi da inviare e il pulsante Conferma consegna](assets/send_analyze.png){zoomable="yes"}
 
 1. Per inviare la consegna SMS al pubblico, fare clic sul pulsante **[!UICONTROL Confirm delivery]**.

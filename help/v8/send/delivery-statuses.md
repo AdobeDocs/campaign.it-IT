@@ -35,16 +35,16 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '576'
 ht-degree: 4%
 ---
 # Stati di consegna {#delivery-statuses}
 
 Una volta inviata la consegna, il dashboard di consegna visualizza uno stato che consente di monitorare se l’invio è stato eseguito correttamente. I possibili stati sono descritti nella sezione seguente.
 
-![](assets/delivery-status.png)
+![Riepilogo del dashboard di consegna con il campo Stato evidenziato, che mostra la data di fine e la data di fine](assets/delivery-status.png)
 
 Per ulteriori dettagli sui diversi errori di consegna riscontrabili e su come risolverli, consulta [Informazioni sugli errori di consegna](delivery-failures.md).
 
@@ -122,7 +122,7 @@ Se la consegna non viene inviata e il suo stato rimane **[!UICONTROL Pending]**,
 
   Il limite di campagne simultanee è definito nell&#39;opzione **[!UICONTROL NmsOperation_LimitConcurrency]**. Il valore predefinito è 10.
 
-  In qualità di utente di Managed Cloud Services, puoi lavorare con Adobe per regolare questo limite, se necessario. Ulteriori informazioni sulle opzioni nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=it){target="_blank"}.
+  In qualità di utente di Managed Cloud Services, puoi lavorare con Adobe per regolare questo limite, se necessario. Ulteriori informazioni sulle opzioni nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html){target="_blank"}.
 
 * **Problemi relativi alla disponibilità delle risorse**
 

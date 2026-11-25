@@ -32,10 +32,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 4%
+source-wordcount: '212'
+ht-degree: 3%
 ---
 # Configurare le opzioni di tracciamento URL {#personalizing-url-tracking}
 
@@ -45,7 +45,7 @@ Le impostazioni avanzate di verifica dei messaggi sono accessibili tramite l&#39
 >
 >In questa finestra è configurata anche la gestione delle immagini nelle e-mail. Vedi [Aggiungi immagini](defining-the-email-content.md#adding-images).
 
-![](assets/s_ncs_user_email_del_tracking_ico.png)
+![Consegna e-mail con l&#39;icona Tracciamento e immagini evidenziata nella barra degli strumenti](assets/s_ncs_user_email_del_tracking_ico.png)
 
 Puoi configurare le opzioni di tracciamento:
 
@@ -57,7 +57,7 @@ Puoi configurare le opzioni di tracciamento:
 
 * Attiva/disattiva il tracciamento per le aperture dei messaggi.
 
-![](assets/s_ncs_user_email_del_tracking_param.png)
+![Finestra Tracciamento e immagini, scheda Tracciamento, con le opzioni di tracciamento Attivazione e Apertura e la struttura degli URL tracciati](assets/s_ncs_user_email_del_tracking_param.png)
 
 Gli URL tracciati sono elencati nella finestra centrale sotto forma di struttura ad albero.
 
@@ -65,7 +65,7 @@ Puoi attivare o disattivare il tracciamento singolarmente per ogni URL del messa
 
 La scheda **[!UICONTROL Advanced]** ti consente di personalizzare le formule di calcolo degli URL tracciati e dell&#39;URL di apertura.
 
-![](assets/s_ncs_user_email_del_tracking_param_adv.png)
+![Finestra Tracciamento e immagini, scheda Avanzate, con le formule di calcolo dell&#39;URL tracciato e dell&#39;URL aperto](assets/s_ncs_user_email_del_tracking_param_adv.png)
 
 >[!CAUTION]
 >

@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '788'
 ht-degree: 1%
 ---
 # Impostazioni sulla consegna SMS {#sms-settings}
@@ -46,7 +46,7 @@ Puoi impostarli tutti in un modello di consegna per evitare di eseguire le impos
 
 ## Configurare la scheda SMS {#sms-tab}
 
-![](assets/send_settings.png){zoomable="yes"}
+![Scheda SMS delle proprietà di consegna con parametri generali e la tabella dei parametri SMPP (TLV) facoltativi](assets/send_settings.png){zoomable="yes"}
 
 Queste sono le informazioni necessarie per compilare il modulo. Ogni campo è spiegato di seguito:
 

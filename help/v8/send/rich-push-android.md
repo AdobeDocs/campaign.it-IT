@@ -30,16 +30,16 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '2046'
-ht-degree: 18%
+source-wordcount: '2484'
+ht-degree: 15%
 ---
 # Progettare una consegna push avanzata per Android {#rich-push}
 
 >[!IMPORTANT]
 >
->Prima di progettare una notifica push potenziata, è necessario configurare il connettore V2. Per la procedura dettagliata, consulta [questa pagina](https://experienceleague.adobe.com/it/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android).
+>Prima di progettare una notifica push potenziata, è necessario configurare il connettore V2. Per la procedura dettagliata, consulta [questa pagina](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android).
 
 Con Firebase Cloud Messaging puoi scegliere tra due tipi di messaggi:
 
@@ -79,17 +79,17 @@ Per ulteriori informazioni su come personalizzare questi modelli, accedi alle sc
 
 1. Dall&#39;elenco a discesa **[!UICONTROL Notification type]**, selezionare **[!UICONTROL Default]**.
 
-   ![](assets/rich_push_default.png)
+   ![Elenco dei tipi di notifica con Predefinito selezionato nella scheda Contenuto Android](assets/rich_push_default.png)
 
 1. Per comporre il messaggio, immettere il testo nei campi **[!UICONTROL Title]** e **[!UICONTROL Message]**.
 
-   ![](assets/rich_push_default_2.png)
+   ![Notifica predefinita con campi Titolo e Messaggio compilata in un&#39;offerta di codice promozionale](assets/rich_push_default_2.png)
 
 1. Utilizza i campi di personalizzazione dinamica per definire il contenuto, personalizzare i dati e aggiungere contenuto dinamico. [Ulteriori informazioni](../send/personalize.md)
 
 1. Per personalizzare ulteriormente la notifica push, configurare **[!UICONTROL Notification options]** e **[!UICONTROL HTTPv1 additional options]** della notifica push. [Ulteriori informazioni](#push-advanced)
 
-   ![](assets/rich_push_default_3.png)
+   ![Opzioni di notifica e opzioni aggiuntive HTTPv1 compilate per una notifica predefinita](assets/rich_push_default_3.png)
 
 Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di prova per visualizzare in anteprima e verificare il messaggio.
 
@@ -97,13 +97,13 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 
 1. Dall&#39;elenco a discesa **[!UICONTROL Notification Type]**, selezionare **[!UICONTROL Basic]**.
 
-   ![](assets/rich_push_basic.png)
+   ![Elenco dei tipi di notifica con Basic selezionato nella scheda Contenuto Android](assets/rich_push_basic.png)
 
 1. Per comporre il messaggio, immettere il testo nei campi **[!UICONTROL Title]**, **[!UICONTROL Message]** e **[!UICONTROL Expanded message]**.
 
    Il testo **[!UICONTROL Message]** viene visualizzato nella visualizzazione compressa mentre **[!UICONTROL Expanded message]** viene visualizzato quando la notifica viene espansa.
 
-   ![](assets/rich_push_basic_2.png)
+   ![Notifica di base con i campi Titolo, Messaggio ed Messaggio espanso compilati](assets/rich_push_basic_2.png)
 
 1. Utilizza i campi di personalizzazione dinamica per definire il contenuto, personalizzare i dati e aggiungere contenuto dinamico. [Ulteriori informazioni](../send/personalize.md)
 
@@ -130,11 +130,11 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 
    Per ulteriori informazioni su come gestire i collegamenti alle app Android, consulta la [documentazione per sviluppatori di Android](https://developer.android.com/training/app-links).
 
-   ![](assets/rich_push_basic_3.png)
+   ![Tabella dei pulsanti di notifica di base con un pulsante URL Web etichettato Acquista ora! e ricorda campi compilati in seguito](assets/rich_push_basic_3.png)
 
 1. Per personalizzare ulteriormente la notifica push, configurare **[!UICONTROL Notification options]** e **[!UICONTROL HTTPv1 additional options]** della notifica push. [Ulteriori informazioni](#push-advanced)
 
-   ![](assets/rich_push_basic_4.png)
+   ![Opzioni di notifica e opzioni aggiuntive HTTPv1 compilate per una notifica di base](assets/rich_push_basic_4.png)
 
 Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di prova per visualizzare in anteprima e verificare il messaggio.
 
@@ -142,13 +142,13 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 
 1. Dall&#39;elenco a discesa **[!UICONTROL Notification Type]**, selezionare **[!UICONTROL Carousel]**.
 
-   ![](assets/rich_push_carousel.png)
+   ![Elenco dei tipi di notifica con carosello selezionato nella scheda Contenuto Android](assets/rich_push_carousel.png)
 
 1. Per comporre il messaggio, immettere il testo nei campi **[!UICONTROL Title]**, **[!UICONTROL Message]** e **[!UICONTROL Expanded message]**.
 
    Il testo **[!UICONTROL Message]** viene visualizzato nella visualizzazione compressa mentre **[!UICONTROL Expanded message]** viene visualizzato quando la notifica viene espansa.
 
-   ![](assets/rich_push_carousel_1.png)
+   ![Notifica carosello con i campi Titolo, Messaggio ed Messaggio espanso compilata](assets/rich_push_carousel_1.png)
 
 1. Utilizza l’editor espressioni per definire il contenuto, personalizzare i dati e aggiungere contenuto dinamico. [Ulteriori informazioni](../send/personalize.md)
 
@@ -165,11 +165,11 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 
    Assicurati di includere un minimo di tre immagini e un massimo di cinque.
 
-   ![](assets/rich_push_carousel_2.png)
+   ![Opzioni carosello impostate su Manuale con layout Filmstrip e tre immagini con URI azione nella tabella Immagini](assets/rich_push_carousel_2.png)
 
 1. Per personalizzare ulteriormente la notifica push, configurare **[!UICONTROL Notification options]** e **[!UICONTROL HTTPv1 additional options]** della notifica push. [Ulteriori informazioni](#push-advanced)
 
-   ![](assets/rich_push_carousel_3.png)
+   ![Opzioni di notifica e opzioni aggiuntive HTTPv1 compilate per una notifica Carosello](assets/rich_push_carousel_3.png)
 
 Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di prova per visualizzare in anteprima e verificare il messaggio.
 
@@ -177,11 +177,11 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 
 1. Dall&#39;elenco a discesa **[!UICONTROL Notification Type]**, selezionare **[!UICONTROL Icon buttons]**.
 
-   ![](assets/rich_push_icon.png)
+   ![Elenco dei tipi di notifica con i pulsanti Icona selezionati nella scheda Contenuto Android](assets/rich_push_icon.png)
 
 1. Nel menu **[!UICONTROL Color options]** immettere i codici colore esadecimali per **[!UICONTROL Background]**.
 
-   ![](assets/rich_push_icon_2.png)
+   ![Notifica pulsanti icona con valore esadecimale immesso in Colore sfondo](assets/rich_push_icon_2.png)
 
 1. Specificare l&#39;URL per **[!UICONTROL Cancel button image]**.
 
@@ -189,11 +189,11 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 
    Accertatevi di includere un minimo di tre immagini e un massimo di cinque pulsanti.
 
-   ![](assets/rich_push_icon_3.png)
+   ![URL immagine pulsante Annulla e tabella pulsanti immagine icona con tre pulsanti URL Web](assets/rich_push_icon_3.png)
 
 1. Per personalizzare ulteriormente la notifica push, configurare **[!UICONTROL Notification options]** e **[!UICONTROL HTTPv1 additional options]** della notifica push. [Ulteriori informazioni](#push-advanced)
 
-   ![](assets/rich_push_icon_5.png)
+   ![Opzioni di notifica e opzioni aggiuntive HTTPv1 compilate per la notifica dei pulsanti icona](assets/rich_push_icon_5.png)
 
 Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di prova per visualizzare in anteprima e verificare il messaggio.
 
@@ -201,13 +201,13 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 
 1. Dall&#39;elenco a discesa **[!UICONTROL Notification Type]**, selezionare **[!UICONTROL Input box]**.
 
-   ![](assets/rich_push_input.png)
+   ![Elenco Tipo di notifica con casella Input selezionata nella scheda Contenuto Android](assets/rich_push_input.png)
 
 1. Per comporre il messaggio, immettere il testo nei campi **[!UICONTROL Title]**, **[!UICONTROL Message]** e **[!UICONTROL Expanded message]**.
 
    Il testo **[!UICONTROL Message]** viene visualizzato nella visualizzazione compressa mentre **[!UICONTROL Expanded message]** viene visualizzato quando la notifica viene espansa.
 
-   ![](assets/rich_push_input_2.png)
+   ![Notifica nella casella di input con i campi Titolo, Messaggio ed Messaggio espanso compilati](assets/rich_push_input_2.png)
 
 1. Nel menu **[!UICONTROL Color options]** immettere i codici colore esadecimali per **[!UICONTROL Title]**, **[!UICONTROL Message]** e **[!UICONTROL Background]**.
 
@@ -218,11 +218,11 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
    * **[!UICONTROL Feedback text]**: immettere il testo da visualizzare dopo una risposta.
    * **[!UICONTROL Feedback image]**: aggiungi l&#39;URL per l&#39;immagine visualizzata dopo una risposta.
 
-   ![](assets/rich_push_input_3.png)
+   ![Opzioni della casella di input: Nome del ricevitore di input, Testo di input, Testo feedback e Immagine feedback inseriti](assets/rich_push_input_3.png)
 
 1. Per personalizzare ulteriormente la notifica push, configurare **[!UICONTROL Notification options]** e **[!UICONTROL HTTPv1 additional options]** della notifica push. [Ulteriori informazioni](#push-advanced)
 
-   ![](assets/rich_push_input_4.png)
+   ![Opzioni di notifica e opzioni aggiuntive HTTPv1 compilate per una notifica della casella di input](assets/rich_push_input_4.png)
 
 Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di prova per visualizzare in anteprima e verificare il messaggio.
 
@@ -230,13 +230,13 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 
 1. Dall&#39;elenco a discesa **[!UICONTROL Notification Type]**, selezionare **[!UICONTROL Product catalog]**.
 
-   ![](assets/rich_push_catalog.png)
+   ![Elenco dei tipi di notifica con catalogo prodotti selezionato nella scheda Contenuto Android](assets/rich_push_catalog.png)
 
 1. Per comporre il messaggio, immettere il testo nei campi **[!UICONTROL Title]**, **[!UICONTROL Message]** e **[!UICONTROL Expanded message]**.
 
    Il testo **[!UICONTROL Message]** viene visualizzato nella visualizzazione compressa mentre **[!UICONTROL Expanded message]** viene visualizzato quando la notifica viene espansa.
 
-   ![](assets/rich_push_catalog_2.png)
+   ![Notifica del catalogo prodotti con i campi Titolo e Messaggio compilati](assets/rich_push_catalog_2.png)
 
 1. Nel menu **[!UICONTROL Color options]** immettere i codici colore esadecimali per **[!UICONTROL Title]**, **[!UICONTROL Message]** e **[!UICONTROL Background]**.
 
@@ -248,7 +248,7 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
    * **[!UICONTROL Action button URI]**: specificare l&#39;URI da eseguire facendo clic sul pulsante.
    * **[!UICONTROL Display type]**: scegliere tra visualizzazione verticale o orizzontale.
 
-   ![](assets/rich_push_catalog_3.png)
+   ![Opzioni del catalogo prodotti: testo pulsante azione, colore pulsante azione, URI pulsante azione e tipo di visualizzazione](assets/rich_push_catalog_3.png)
 
 1. Nel menu **[!UICONTROL Product catalog items]**, fare clic su **[!UICONTROL Add]** e immettere i dettagli seguenti per ogni elemento:
 
@@ -260,7 +260,7 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 
    Assicurati di includere un massimo di tre elementi.
 
-   ![](assets/rich_push_catalog_4.png)
+   ![Tabella degli elementi del catalogo prodotti con tre elementi che mostrano Titolo, Immagine, Prezzo e URI](assets/rich_push_catalog_4.png)
 
 1. Per personalizzare ulteriormente la notifica push, configurare **[!UICONTROL Notification options]** e **[!UICONTROL HTTPv1 additional options]** della notifica push. [Ulteriori informazioni](#push-advanced)
 
@@ -270,19 +270,19 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 
 1. Dall&#39;elenco a discesa **[!UICONTROL Notification Type]**, selezionare **[!UICONTROL Product rating]**.
 
-   ![](assets/rich_push_rating.png)
+   ![Elenco dei tipi di notifica con valutazione del prodotto selezionata nella scheda Contenuto Android](assets/rich_push_rating.png)
 
 1. Per comporre il messaggio, immettere il testo nei campi **[!UICONTROL Title]**, **[!UICONTROL Message]** e **[!UICONTROL Expanded message]**.
 
    Il testo **[!UICONTROL Message]** viene visualizzato nella visualizzazione compressa mentre **[!UICONTROL Expanded message]** viene visualizzato quando la notifica viene espansa.
 
-   ![](assets/rich_push_rating_2.png)
+   ![Notifica di valutazione del prodotto con i campi Titolo e Messaggio compilati](assets/rich_push_rating_2.png)
 
 1. Nel menu **[!UICONTROL Color options]** immettere i codici colore esadecimali per **[!UICONTROL Title]**, **[!UICONTROL Message]** e **[!UICONTROL Background]**.
 
 1. Nel menu **[!UICONTROL Product rating options]**, immettere gli URL per **[!UICONTROL Rating icon in unselected state]** e **[!UICONTROL Rating icon in selected state]**.
 
-   ![](assets/rich_push_rating_3.png)
+   ![Opzioni di valutazione del prodotto con URL immagine per l&#39;icona Valutazione in stato non selezionato e stato selezionato](assets/rich_push_rating_3.png)
 
 1. Nel menu **[!UICONTROL Product rating items]**, fare clic su **[!UICONTROL Add]**, immettere **[!UICONTROL Link URI]** e scegliere **[!UICONTROL Link type]**.
 
@@ -296,11 +296,11 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 
    Assicurati di includere un minimo di tre valori e un massimo di cinque valori.
 
-   ![](assets/rich_push_rating_4.png)
+   ![Tabella degli elementi di valutazione del prodotto con tre voci dell&#39;URI di collegamento di tipo URL Web](assets/rich_push_rating_4.png)
 
 1. Per personalizzare ulteriormente la notifica push, configurare **[!UICONTROL Notification options]** e **[!UICONTROL HTTPv1 additional options]** della notifica push. [Ulteriori informazioni](#push-advanced)
 
-   ![](assets/rich_push_carousel_3.png)
+   ![Opzioni di notifica e opzioni aggiuntive HTTPv1 compilate per una notifica Carosello](assets/rich_push_carousel_3.png)
 
 Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di prova per visualizzare in anteprima e verificare il messaggio.
 
@@ -308,23 +308,23 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 
 1. Dall&#39;elenco a discesa **[!UICONTROL Notification Type]**, selezionare **[!UICONTROL Timer]**.
 
-   ![](assets/rich_push_timer.png)
+   ![Elenco dei tipi di notifica con Timer selezionato nella scheda Contenuto Android](assets/rich_push_timer.png)
 
 1. Per comporre il messaggio, immettere il testo nei campi **[!UICONTROL Title]**, **[!UICONTROL Message]** e **[!UICONTROL Expanded message]**.
 
    Il testo **[!UICONTROL Message]** viene visualizzato nella visualizzazione compressa mentre **[!UICONTROL Expanded message]** viene visualizzato quando la notifica viene espansa.
 
-   ![](assets/rich_push_timer_2.png)
+   ![Notifica al timer con i campi Titolo e Messaggio compilati, più i campi Messaggio alternativo](assets/rich_push_timer_2.png)
 
 1. Immettere il testo che verrà visualizzato dopo la scadenza del timer nei campi **[!UICONTROL Alternate title]**, **[!UICONTROL Alternate message]** e **[!UICONTROL Alternate expanded message]**.
 
 1. Nel menu **[!UICONTROL Color options]** immettere i codici colore esadecimali per **[!UICONTROL Title]**, **[!UICONTROL Message]**, **[!UICONTROL Background]** e **[!UICONTROL Timer]**.
 
-   ![](assets/rich_push_timer_3.png)
+   ![Opzioni colore per la notifica con timer: colore titolo, colore messaggio, colore sfondo e colore timer](assets/rich_push_timer_3.png)
 
 1. Imposta **[!UICONTROL Timer duration]** in secondi o **[!UICONTROL Timer end timestamp]** su un timestamp epoca specifico e aggiungi l&#39;URL **[!UICONTROL Alternate image]** che verrà visualizzato dopo la scadenza del timer.
 
-   ![](assets/rich_push_timer_4.png)
+   ![Opzioni timer con Durata timer impostata su 3600 e URL immagine alternativo](assets/rich_push_timer_4.png)
 
 1. Per personalizzare ulteriormente la notifica push, configurare **[!UICONTROL Notification options]** e **[!UICONTROL HTTPv1 additional options]** della notifica push. [Ulteriori informazioni](#push-advanced)
 
@@ -334,19 +334,19 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 
 1. Dall&#39;elenco a discesa **[!UICONTROL Notification Type]**, selezionare **[!UICONTROL Zero bezel]**.
 
-   ![](assets/rich_push_bezel.png)
+   ![Elenco dei tipi di notifica con pannello a sinistra zero selezionato nella scheda Contenuto Android](assets/rich_push_bezel.png)
 
 1. Per comporre il messaggio, immettere il testo nei campi **[!UICONTROL Title]**, **[!UICONTROL Message]** e **[!UICONTROL Expanded message]**.
 
    Il testo **[!UICONTROL Message]** viene visualizzato nella visualizzazione compressa mentre **[!UICONTROL Expanded message]** viene visualizzato quando la notifica viene espansa.
 
-   ![](assets/rich_push_zero_2.png)
+   ![Notifica a pannello zero con i campi Titolo e Messaggio compilati](assets/rich_push_zero_2.png)
 
 1. Nel menu **[!UICONTROL Color options]** immettere i codici colore esadecimali per **[!UICONTROL Title]**, **[!UICONTROL Message]** e **[!UICONTROL Background]**.
 
 1. Nel menu **[!UICONTROL Zero bezel options]**, aggiungi l&#39;URL immagine nel campo **[!UICONTROL Collapsed notification style]**.
 
-   ![](assets/rich_push_zero_3.png)
+   ![Opzioni Frontalino zero con URL immagine nello stile di notifica Compresso](assets/rich_push_zero_3.png)
 
 1. Per personalizzare ulteriormente la notifica push, configurare **[!UICONTROL Notification options]** e **[!UICONTROL HTTPv1 additional options]** della notifica push. [Ulteriori informazioni](#push-advanced)
 
@@ -376,7 +376,7 @@ Dopo aver definito il contenuto del messaggio, puoi utilizzare gli abbonati di p
 | **[!UICONTROL Ticker]** | Imposta il testo del segno di spunta della notifica. Disponibile solo per i dispositivi impostati su Android 5.0 Lollipop. |
 | **[!UICONTROL Sticky]** | Quando è attivata, la notifica rimane visibile anche dopo che l’utente fa clic su di essa. <br>Se è disattivata, la notifica viene automaticamente ignorata quando l’utente interagisce con essa. Il comportamento permanente consente alle notifiche importanti di rimanere sullo schermo per periodi più lunghi. |
 | **[!UICONTROL Image]** | Imposta l&#39;URL dell&#39;immagine da visualizzare nella notifica. |
-| **[!UICONTROL Notification Priority]** | Imposta il livello di priorità della notifica, che può essere predefinito, minimo, basso o alto. Il livello di priorità determina l’importanza e l’urgenza della notifica, influenzandone la modalità di visualizzazione e la possibilità di ignorare determinate impostazioni di sistema. Per ulteriori informazioni, consulta la [documentazione FCM &#x200B;](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#notificationpriority). |
+| **[!UICONTROL Notification Priority]** | Imposta il livello di priorità della notifica, che può essere predefinito, minimo, basso o alto. Il livello di priorità determina l’importanza e l’urgenza della notifica, influenzandone la modalità di visualizzazione e la possibilità di ignorare determinate impostazioni di sistema. Per ulteriori informazioni, consulta la [documentazione FCM ](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#notificationpriority). |
 | **[!UICONTROL Notification Count]** | Imposta il numero di nuove informazioni non lette da visualizzare direttamente sull’icona dell’applicazione. Questo consente all’utente di visualizzare rapidamente il numero di notifiche in sospeso. |
 | **[!UICONTROL Visibility]** | Imposta il livello di visibilità della notifica, che può essere pubblica, privata o segreta. Il livello di visibilità determina la quantità di contenuto della notifica viene visualizzata nella schermata di blocco e in altre aree sensibili. Per ulteriori informazioni, consulta la [documentazione FCM](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#visibility). |
 | **[!UICONTROL Application variables]** | Consente di definire il comportamento di notifica. Queste variabili sono completamente personalizzabili e sono incluse nel payload del messaggio inviato al dispositivo mobile. |

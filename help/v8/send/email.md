@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 8%
+source-wordcount: '704'
+ht-degree: 7%
 ---
 # Progettazione e invio di e-mail
 
@@ -48,7 +48,7 @@ Scopri i passaggi chiave per creare e configurare una consegna in [Crea la tua p
 
 Crea e-mail personalizzate e contestualmente pertinenti, coerenti con il resto dell’esperienza del cliente.
 
-![](assets/new-email-content.png)
+![Editor di recapito e-mail con oggetto, contenuto HTML ed elenco degli URL tracciati sotto](assets/new-email-content.png)
 
 
 Nell’esempio seguente, scoprirai i passaggi per progettare una consegna e-mail in Adobe Campaign che contiene dati personalizzati, collegamenti a un URL esterno e un collegamento alla pagina speculare.
@@ -57,19 +57,19 @@ Nell’esempio seguente, scoprirai i passaggi per progettare una consegna e-mail
 
    Per creare una nuova consegna, passa alla scheda **Campagne**, fai clic su **Consegne** e fai clic sul pulsante **Crea** sopra l&#39;elenco delle consegne esistenti.
 
-   ![](assets/delivery_step_1.png)
+   ![Elenco delle consegne nella scheda Campagne con il nodo Consegne ed il pulsante Crea evidenziati](assets/delivery_step_1.png)
 
 1. **Seleziona il modello**
 
    Seleziona un modello di consegna, quindi assegna un nome alla consegna. Questo nome sarà visibile solo agli utenti della console Adobe Campaign e non ai destinatari, tuttavia questa intestazione verrà visualizzata nell’elenco delle consegne. Fai clic su **[!UICONTROL Continue]**.
 
-   ![](assets/dce_delivery_model.png)
+   ![Finestra di dialogo per la nuova consegna con il modello di consegna e-mail selezionato e un&#39;etichetta inserita, quindi Continua](assets/dce_delivery_model.png)
 
 1. **Importa il contenuto**
 
    Fai clic sulla scheda **Source** per incollare il contenuto di HTML.
 
-   ![](assets/paste-content.png)
+   ![Editor di recapito e-mail con la scheda Source aperta che mostra il codice HTML da incollare](assets/paste-content.png)
 
    >[!NOTE]
    >
@@ -81,11 +81,11 @@ Nell’esempio seguente, scoprirai i passaggi per progettare una consegna e-mail
 
      Per inserire il nome e il cognome dei profili di destinazione nel contenuto del messaggio, posizionare il cursore nel punto in cui si desidera inserirli e fare clic sull&#39;ultima icona nella barra degli strumenti, quindi fare clic su **[!UICONTROL Include]** e selezionare **[!UICONTROL Greetings]**.
 
-     ![](assets/include-greetings.png)
+     ![Menu Personalization con Includi e quindi Saluti selezionati nel contenuto del HTML dell&#39;e-mail](assets/include-greetings.png)
 
      Passa alla scheda anteprima per verificare la personalizzazione selezionando un destinatario.
 
-     ![](assets/perso-check.png)
+     ![Scheda Anteprima con un destinatario selezionato e il saluto personalizzato evidenziato nel testo dell&#39;e-mail](assets/perso-check.png)
 
      Ulteriori informazioni sulle opzioni di personalizzazione in [Introduzione alla personalizzazione](personalize.md).
 
@@ -95,7 +95,7 @@ Nell’esempio seguente, scoprirai i passaggi per progettare una consegna e-mail
 
      Immetti l&#39;URL per il collegamento nel campo **URL** utilizzando il seguente formato **https://www.myURL.com**, quindi conferma.
 
-     ![](assets/add-a-link.png)
+     ![Finestra di dialogo Aggiungi collegamento ipertestuale con un URL immesso e il pulsante Aggiungi sopra il testo selezionato](assets/add-a-link.png)
 
    * Aggiungere una pagina mirror
 
@@ -111,7 +111,7 @@ Nell’esempio seguente, scoprirai i passaggi per progettare una consegna e-mail
 
 La prima consegna e-mail è pronta. Ora devi definire il pubblico, convalidare la consegna e inviarla.
 
-Scopri come creare un flusso di lavoro per importare un contenuto e-mail in questo [caso d&#39;uso](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=it){target="_blank"}.
+Scopri come creare un flusso di lavoro per importare un contenuto e-mail in questo [caso d&#39;uso](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}.
 
 >[!MORELIKETHIS]
 >
@@ -120,7 +120,7 @@ Scopri come creare un flusso di lavoro per importare un contenuto e-mail in ques
 >* [Seleziona il pubblico della tua e-mail](../audiences/gs-audiences.md)
 >* [Convalidare una consegna e inviare bozze](preview-and-proof.md)
 >* [Configura e invia la consegna](configure-and-send.md)
->* [Best practice per la consegna](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=it){target="_blank"}
+>* [Best practice per la consegna](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html){target="_blank"}
 
 ## Verifica e convalida le e-mail
 
