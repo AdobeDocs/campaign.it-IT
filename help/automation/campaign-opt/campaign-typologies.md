@@ -28,16 +28,16 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 19%
+source-wordcount: '508'
+ht-degree: 17%
 ---
 # Introduzione alle tipologie di campagne{#about-campaign-typologies}
 
 **Ottimizzazione campagne** è il modulo di Adobe Campaign che consente di controllare, filtrare e monitorare l&#39;invio delle consegne. Per evitare conflitti tra campagne, Adobe Campaign può sottoporre a test diverse combinazioni applicando specifiche regole di vincolo. Ciò garantisce che i messaggi inviati soddisfino le esigenze e le aspettative dei clienti, in linea con le politiche di comunicazione aziendali.
 
-![](assets/do-not-localize/how-to-video.png) [Guarda un video su questa funzione](#typologies-video)
+![Icona pulsante Riproduci per il video delle tipologie](assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](#typologies-video)
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ Le regole e le tipologie incorporate sono disponibili nella cartella **[!UICONTR
 
 Per ogni tipologia, la scheda **[!UICONTROL Rules]** ti consente di aggiungere, eliminare o visualizzare le regole di tipologia da applicare.
 
-![](assets/campaign_opt_rules_tab.png)
+![Elenco delle tipologie con una tipologia selezionata e la relativa scheda Regole che elenca le regole di tipologia da applicare](assets/campaign_opt_rules_tab.png)
 
 Una volta create, le regole di tipologia sono raggruppate nelle **tipologie** della campagna a cui si fa riferimento nelle consegne. [Ulteriori informazioni](#apply-typologies).
 
@@ -93,7 +93,7 @@ I passaggi dettagliati sono elencati nella sezione seguente:
 
 Durante la preparazione della consegna, i destinatari vengono esclusi quando viene soddisfatto il criterio. Per monitorare le esclusioni, puoi controllare i registri.
 
-Casi d&#39;uso di esempio sulle regole di tipologia della pressione sono disponibili in [questa pagina](pressure-rules.md#use-cases-on-pressure-rules).
+Casi d&#39;uso di esempio sulle regole di tipologia della pressione sono disponibili in [Casi d&#39;uso sulle regole di pressione](pressure-rules.md#use-cases-on-pressure-rules).
 
 ## Video tutorial {#typologies-video}
 

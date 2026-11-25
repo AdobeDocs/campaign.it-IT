@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '1598'
+source-wordcount: '1763'
 ht-degree: 0%
 ---
 # Migrazione degli operatori tecnici di Campaign a Adobe Developer Console {#migrate-tech-users-to-ims}
@@ -73,7 +73,7 @@ For this migration, you must add below APIs in your project: **I/O Management AP
 
 Per creare un nuovo progetto, fare clic su **Crea nuovo progetto** nella schermata principale di Adobe Developer Console.
 
-![](assets/New-Project.png)
+![Home page di Adobe Developer Console con l&#39;opzione di avvio rapido Crea nuovo progetto evidenziata.](assets/New-Project.png)
 
 Puoi usare il pulsante **Modifica progetto** per rinominare questo progetto.
 
@@ -85,16 +85,16 @@ Dalla schermata del progetto appena creato, aggiungi nelle API necessarie per po
 Per aggiungere API al progetto, effettua le seguenti operazioni:
 
 1. Fai clic su **Aggiungi API** per selezionare le API da aggiungere al progetto.
-   ![](assets/do-not-localize/ims-updates-01.png)
+   ![Nuova pagina di progetto vuota in Adobe Developer Console con le opzioni Aggiungi API, Aggiungi evento e Aggiungi plug-in.](assets/do-not-localize/ims-updates-01.png)
 1. Seleziona e aggiungi l’API Adobe Campaign al progetto selezionando la casella nell’angolo superiore destro della scheda Adobe Campaign che viene visualizzata quando passi il mouse sulla scheda
-   ![](assets/do-not-localize/ims-updates-02.png)
+   ![Aggiungi una schermata API con la scheda di Adobe Campaign selezionata in Experience Cloud e il pulsante Avanti.](assets/do-not-localize/ims-updates-02.png)
 1. Fai clic su **Avanti** nella parte inferiore della schermata.
 
 ### Passaggio 3: selezionare il tipo di autenticazione  {#ims-migration-step-3}
 
 Nella schermata **Configura API**, selezionare il tipo di autenticazione necessario. Per questo progetto è richiesta l&#39;autenticazione da server a server **OAuth**. Assicurati che sia selezionato e fai clic su **Avanti** nella parte inferiore della schermata.
 
-![](assets/do-not-localize/ims-updates-03.png)
+![Configura schermata API con OAuth Server-to-Server selezionato, un campo del nome delle credenziali e il pulsante Avanti.](assets/do-not-localize/ims-updates-03.png)
 
 <!--
 Once your project is created in the Adobe Developer Console, add an API that uses Server-to-Server authentication. Learn how to set up the OAuth Server-to-Server credential in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/){target="_blank"}.
@@ -129,17 +129,17 @@ You can now add your Campaign product profile to the project, as detailed below:
 
 Dalla schermata del progetto, fai clic su **[!UICONTROL + Add to Project]** e scegli **[!UICONTROL API]** in alto a sinistra per poter aggiungere l&#39;API di gestione I/O a questo progetto.
 
-![](assets/do-not-localize/ims-updates-04.png)
+![Pagina API di Adobe Campaign con il menu Aggiungi al progetto aperto che mostra API, eventi e plug-in.](assets/do-not-localize/ims-updates-04.png)
 
 Nella schermata **Aggiungi API**, scorri verso il basso per trovare la scheda **API di gestione I/O**. Selezionala facendo clic sulla casella di controllo che compare quando passi il cursore del mouse sulla scheda. Quindi fai clic su **Avanti** nella parte inferiore della schermata.
 
-![](assets/do-not-localize/ims-updates-05.png)
+![Aggiungere una schermata API con la scheda API Gestione I/O selezionata e il pulsante Avanti.](assets/do-not-localize/ims-updates-05.png)
 
 
 Nella schermata **Configura API**, l&#39;autenticazione server-to-server OAuth esiste già. Fai clic su **Salva API configurata** nella parte inferiore della schermata.
 
 
-![](assets/do-not-localize/ims-updates-06.png)
+![Nella schermata Configura API sono visualizzate le credenziali server-to-server OAuth esistenti e il pulsante Salva API configurata.](assets/do-not-localize/ims-updates-06.png)
 
 Viene visualizzata di nuovo la schermata Progetto nell’API di gestione I/O del progetto appena creato. Fai clic sul nome del progetto nelle breadcrumb nella parte superiore dello schermo per tornare alla pagina principale dei Dettagli del progetto.
 
@@ -148,7 +148,7 @@ Viene visualizzata di nuovo la schermata Progetto nell’API di gestione I/O del
 
 Controlla il progetto per assicurarti che sia simile al seguente con le **API di gestione I/O** e **API Adobe Campaign** visibili nella sezione Prodotti e servizi e **Server-to-Server OAuth** nella sezione Credenziali.
 
-![](assets/do-not-localize/ims-updates-07.png)
+![Panoramica del progetto in cui sono elencate le API di gestione I/O e Adobe Campaign in Prodotti e servizi, oltre a OAuth Server-to-Server.](assets/do-not-localize/ims-updates-07.png)
 
 
 ### Passaggio 7: convalidare la configurazione {#ims-migration-step-7}
@@ -228,11 +228,11 @@ L’utente dell’account tecnico NON esisterà in Adobe Campaign finché non ve
 
    Puoi individuare questo indirizzo e-mail facendo clic sull&#39;intestazione **OAuth Server-to-Server** nella sezione **Credenziali** del progetto.
 
-   ![](assets/do-not-localize/ims-updates-07.png)
+   ![Panoramica del progetto con le credenziali da server a server OAuth da selezionare nella sezione Credenziali.](assets/do-not-localize/ims-updates-07.png)
 
    Nella schermata Credenziali, scorri verso il basso per individuare il **Indirizzo e-mail account tecnico** e fai clic sul pulsante **Copia**.
 
-   ![](assets/do-not-localize/ims-updates-08.png)
+   ![Dettagli delle credenziali da server a server OAuth con il pulsante Genera token di accesso, l&#39;ID client e il segreto client.](assets/do-not-localize/ims-updates-08.png)
 
 1. Ora devi aggiornare l’operatore tecnico appena creato nella console client di Adobe Campaign. È necessario applicare al nuovo operatore tecnico le autorizzazioni esistenti per la cartella dell’operatore tecnico.
 

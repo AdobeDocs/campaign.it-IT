@@ -22,9 +22,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '888'
 ht-degree: 0%
 ---
 # Campagne ricorrenti e periodiche {#recurring-and-periodic-campaigns}
@@ -43,10 +43,10 @@ Per creare un modello per le campagne ricorrenti, effettua le seguenti operazion
 
 1. Apri Campaign Explorer e passa a **[!UICONTROL Resources > Templates > Campaign templates]**.
 1. Duplica il modello predefinito **[!UICONTROL Recurring campaign]**.
-   ![](assets/recurring-campaign-duplicate.png)
+   ![Elenco dei modelli di campagna con il comando Duplica selezionato nel menu di scelta rapida del modello di campagna ricorrente.](assets/recurring-campaign-duplicate.png)
 1. Inserisci il nome del modello e la durata della campagna.
 1. Per questo tipo di campagna, viene aggiunta una scheda **[!UICONTROL Schedule]** per creare la pianificazione di esecuzione del modello. Utilizza questa scheda per definire le date di esecuzione delle campagne basate su questo modello.
-   ![](assets/recurring-campaign-schedule.png)
+   ![Scheda Pianificazione di un modello di campagna con l&#39;elenco Pianificazione esecuzione e un selettore calendario per impostare una data di inizio.](assets/recurring-campaign-schedule.png)
 
    La modalità di configurazione della pianificazione di esecuzione coincide con l&#39;oggetto **[!UICONTROL Scheduler]** del flusso di lavoro. [Ulteriori informazioni](../workflow/scheduler.md).
 
@@ -61,7 +61,7 @@ Per creare un modello per le campagne ricorrenti, effettua le seguenti operazion
    >
    >Questo flusso di lavoro deve essere salvato come modello di flusso di lavoro ricorrente. A tale scopo, modificare le proprietà del flusso di lavoro e selezionare l&#39;opzione **[!UICONTROL Recurring workflow template]** nella scheda **[!UICONTROL Execution]**.
 
-   ![](assets/recurring-campaign-wf-properties.png)
+   ![Proprietà flusso di lavoro, scheda Esecuzione, con l&#39;opzione Modello flusso di lavoro ricorrente selezionata.](assets/recurring-campaign-wf-properties.png)
 
 ### Creare la campagna ricorrente {#create-the-recurring-campaign}
 
@@ -81,13 +81,13 @@ Per creare la campagna ricorrente ed eseguire i relativi flussi di lavoro in bas
 
 1. I flussi di lavoro ricorrenti vengono creati automaticamente dal modello di flusso di lavoro presente nella campagna. Sono visibili dalla scheda **[!UICONTROL Targeting and workflows]** della campagna.
 
-   ![](assets/recurring-wf-created.png)
+   ![Scheda Targeting e flussi di lavoro che elenca il flusso di lavoro predefinito e le relative istanze ricorrenti #1 e #2.](assets/recurring-wf-created.png)
 
    L’etichetta di un’istanza di flusso di lavoro ricorrente è costituita dall’etichetta del modello e dal numero del flusso di lavoro, con il carattere # tra i due.
 
    I flussi di lavoro creati dalla pianificazione vengono associati automaticamente alla pianificazione nella colonna **[!UICONTROL Workflow]** della scheda **[!UICONTROL Schedule]**.
 
-   ![](assets/recurring-wf-schedule-executed.png)
+   ![Scheda Pianifica con la colonna Flusso di lavoro che collega i flussi di lavoro creati alle linee di programmazione; creato in anticipo per è 15d.](assets/recurring-wf-schedule-executed.png)
 
    Ogni flusso di lavoro può essere modificato da questa scheda.
 

@@ -23,9 +23,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '3766'
+source-wordcount: '4562'
 ht-degree: 0%
 ---
 # Creare e gestire le attività{#creating-and-managing-tasks}
@@ -40,7 +40,7 @@ Tutte le attività sono raggruppate in un elenco accessibile tramite la scheda *
 
 Possono essere visualizzati nella pianificazione del programma a cui appartengono.
 
-![](assets/campaign-calendar.png)
+![Timeline del calendario della campagna che mostra la campagna invernale e la campagna di marketing con le attività 1, 2 e 3.](assets/campaign-calendar.png)
 
 ## Accedere alle attività {#accessing-tasks}
 
@@ -48,7 +48,7 @@ Possono essere visualizzati nella pianificazione del programma a cui appartengon
 
 Le attività vengono visualizzate nell&#39;elenco delle attività accessibile tramite la scheda **[!UICONTROL Campaigns]**.
 
-![](assets/campaign-task-dashboard.png)
+![Elenco attività in Campagne con pulsante Crea, filtri e tre attività che mostrano stato e avanzamento.](assets/campaign-task-dashboard.png)
 
 Puoi visualizzare tutte le attività dell’operatore corrente.
 
@@ -62,7 +62,7 @@ Quando si visualizza questa visualizzazione, questa viene filtrata automaticamen
 
 Fai clic su un’attività per modificarla.
 
-![](assets/edit-a-task.png)
+![Finestra di riepilogo attività per l&#39;attività 3 che mostra lo stato, la priorità, la pianificazione, l&#39;assegnatario e la campagna con un pulsante Annulla.](assets/edit-a-task.png)
 
 ## Crea una nuova attività {#creating-a-new-task}
 
@@ -70,17 +70,17 @@ Per creare un&#39;attività, effettuare le seguenti operazioni:
 
 1. Individuare il collegamento **[!UICONTROL Tasks]** nella scheda **[!UICONTROL Campaigns]** e fare clic su **[!UICONTROL Create]**.
 
-   ![](assets/create-a-task-from-dashboard.png)
+   ![Elenco attività con una freccia che punta al pulsante Crea utilizzato per aggiungere una nuova attività.](assets/create-a-task-from-dashboard.png)
 
 1. Immetti il nome dell’attività e seleziona la campagna a cui è collegata.
 1. Imposta le date di inizio e di fine.
 1. Fare clic su **[!UICONTROL Save]** per creare l&#39;attività.
 
-   ![](assets/new-task-edit.png)
+   ![Nuovo modulo attività con modello, etichetta, assegnatario, campagna, date di inizio e fine, carico di lavoro e descrizione, oltre a Salva.](assets/new-task-edit.png)
 
 Puoi anche creare un’attività tramite il dashboard di una campagna: in questo caso, viene automaticamente collegata alla campagna da cui è stata creata.
 
-![](assets/add-a-task-in-a-campaign.png)
+![Dashboard di Campaign con una freccia che punta al collegamento Aggiungi un&#39;attività sopra l&#39;elenco Attività della campagna.](assets/add-a-task-in-a-campaign.png)
 
 Una volta creata, l’attività viene aggiunta alla pianificazione della campagna, al dashboard della campagna e all’elenco delle attività. Per modificare un&#39;attività, fare clic sul relativo nome nell&#39;elenco delle attività oppure selezionarla dalla pianificazione o dal dashboard della campagna e fare clic su **[!UICONTROL Open]**.
 
@@ -92,7 +92,7 @@ Una volta creata, puoi configurare l’attività definendo:
 
 È inoltre possibile aggiungere [revisori](#reviewers) e [documenti di riferimento](#documents-referenced).
 
-Il ciclo di vita dell&#39;attività è presentato in [questa sezione](#life-cycle).
+Il ciclo di vita dell&#39;attività è presentato nel [Ciclo di vita](#life-cycle).
 
 ### Manager e partecipanti {#manager-and-participants}
 
@@ -100,11 +100,11 @@ Per impostazione predefinita, l’attività viene assegnata all’operatore che 
 
 È possibile selezionare un operatore diverso dall&#39;elenco a discesa **[!UICONTROL Assigned to]**.
 
-![](assets/task-assigned-to.png)
+![Scheda Generale attività con l&#39;elenco a discesa Assegnato a aperto per selezionare un operatore diverso.](assets/task-assigned-to.png)
 
 >[!NOTE]
 >
->La gestione degli operatori è descritta in [questa sezione](../../v8/start/gs-permissions.md).
+>La gestione degli operatori è descritta in [Introduzione alle autorizzazioni in Campaign v8](../../v8/start/gs-permissions.md).
 >
 >Solo l’operatore responsabile di un’attività può chiuderla.
 
@@ -114,12 +114,12 @@ Per aggiungere operatori di attività, attieniti alla procedura seguente:
 
 1. Fare clic sull&#39;icona **[!UICONTROL Resources]** nella barra degli strumenti dell&#39;attività.
 
-   ![](assets/add-task-resources.png)
+   ![Scheda Generale attività con una freccia che punta all&#39;icona Risorse nella barra degli strumenti.](assets/add-task-resources.png)
 
 1. Fare clic su **[!UICONTROL Add]** e selezionare gli operatori interessati.
 1. Immettere il tasso di utilizzo: rappresenta il carico di lavoro assegnato all&#39;operatore per la durata dell&#39;esecuzione dell&#39;attività. Questo tasso è solo indicativo ed è espresso in percentuale.
 
-   ![](assets/define-operator-task-workload.png)
+   ![Finestra Risorse in cui sono elencati gli operatori con tasso di utilizzo, carico di lavoro pianificato e carico di lavoro eseguito.](assets/define-operator-task-workload.png)
 
    Ad esempio, per un’attività la cui pianificazione di esecuzione è impostata su 10 giorni, un operatore il cui tasso di utilizzo è del 50% verrà mobilizzato su questa attività per metà del tempo di lavoro per i 10 giorni.
 
@@ -127,7 +127,7 @@ Per aggiungere operatori di attività, attieniti alla procedura seguente:
 
 1. È possibile configurare un promemoria dal collegamento **[!UICONTROL Add a reminder...]**. Una notifica e-mail verrà inviata a tutti gli operatori coinvolti nell’attività prima della sua data di fine.
 
-   ![](assets/task-op-add-a-reminder.png)
+   ![Finestra delle risorse con l&#39;elenco Promemoria e un elenco a discesa che offre un ritardo rispetto alla scadenza o alla data specificata per l&#39;approvazione.](assets/task-op-add-a-reminder.png)
 
 1. È inoltre possibile inviare una notifica prima dell&#39;inizio dell&#39;attività. Per impostare questa impostazione, selezionare la data nel campo **[!UICONTROL Initial notification]**.
 1. Quando viene raggiunta la data di fine e l&#39;attività non viene chiusa, è possibile inviare una notifica all&#39;assegnatario o al gruppo di assegnatari selezionati nell&#39;elenco a discesa **[!UICONTROL Assignee]**.
@@ -135,7 +135,7 @@ Per aggiungere operatori di attività, attieniti alla procedura seguente:
 
 Il dashboard dell’operatore consente di controllarne il carico di lavoro (altre attività in corso).
 
-![](assets/operator-dashboard.png)
+![Dashboard degli operatori con l&#39;elenco Attività assegnate all&#39;operatore che mostra ogni attività e il relativo stato.](assets/operator-dashboard.png)
 
 ### Approvazione attività {#reviewers}
 
@@ -145,7 +145,7 @@ A tale scopo, fare clic sull&#39;opzione **[!UICONTROL Enable task approval]** n
 
 Per specificare un elenco di operatori, fare clic sul collegamento **[!UICONTROL Edit...]** a destra del primo revisore e aggiungere tutti gli operatori necessari, come illustrato di seguito:
 
-![](assets/enable-task-approval.png)
+![Finestra Risorse con l&#39;opzione Abilita approvazione attività selezionata e la finestra di dialogo Modifica revisori che elenca i revisori aggiuntivi.](assets/enable-task-approval.png)
 
 Nella sezione inferiore della finestra di configurazione è possibile definire un programma di approvazione per il task. Per impostazione predefinita, i revisori dispongono di tre giorni a partire dalla data di invio per approvare l&#39;attività. Puoi anche aggiungere un promemoria, che verrà inviato automaticamente agli operatori interessati prima della scadenza dell’approvazione.
 
@@ -159,14 +159,14 @@ Per eseguire questa operazione:
 
 1. Apri l&#39;attività e fai clic sull&#39;icona **[!UICONTROL Documents]** nella barra degli strumenti dell&#39;attività.
 
-   ![](assets/add-documents-to-a-task.png)
+   ![Scheda Generale attività con una freccia che punta all&#39;icona Documenti nella barra degli strumenti.](assets/add-documents-to-a-task.png)
 
 1. Fare clic su **[!UICONTROL Add]** e selezionare il documento da aggiungere all&#39;attività. Applica lo stesso processo alle risorse di marketing.
 
 
 I documenti a cui si fa riferimento vengono aggiunti alle notifiche inviate agli operatori coinvolti nell’attività. Vengono inoltre aggiunte al dashboard delle attività.
 
-![](assets/s_ncs_user_task_notification_documents.png)
+![Dashboard attività con i documenti Brief.pdf e Central Agency.pdf a cui si fa riferimento evidenziati nella riga Documenti.](assets/s_ncs_user_task_notification_documents.png)
 
 ### Pianificazione di esecuzione {#execution-schedule}
 
@@ -178,17 +178,17 @@ Il periodo di validità di un&#39;attività è indicato nei campi **[!UICONTROL 
 
 Il campo **[!UICONTROL Workload performed]**, espresso anche in giorni e ore, consente di aggiornare manualmente l&#39;avanzamento dell&#39;attività rispetto al carico di lavoro pianificato.
 
-![](assets/s_ncs_user_task_percentage_done_enter.png)
+![Scheda Generale attività con una freccia che punta al campo Avanzamento (in %) impostato su 35.](assets/s_ncs_user_task_percentage_done_enter.png)
 
 Il **[!UICONTROL Progress status]** dell&#39;attività, espresso come percentuale, viene aggiornato automaticamente in base alle attività eseguite dagli operatori coinvolti. Può essere immesso manualmente.
 
 Queste informazioni possono essere visualizzate nel dashboard delle attività.
 
-![](assets/s_ncs_user_task_percentage_done_from_dashboard.png)
+![Dashboard attività con una freccia che punta al valore di Avanzamento del 35%.](assets/s_ncs_user_task_percentage_done_from_dashboard.png)
 
 È visibile anche nella scheda Campaign.
 
-![](assets/s_ncs_user_task_percentage_done_from_op.png)
+![Elenco attività campagna con una freccia che punta alla barra di avanzamento del 35% di un&#39;attività.](assets/s_ncs_user_task_percentage_done_from_op.png)
 
 Se la data di fine della pianificazione dell&#39;esecuzione dell&#39;attività è stata raggiunta ma l&#39;attività non è stata completata, l&#39;attività sarà **[!UICONTROL Late]**. Verrà inoltre visualizzato un messaggio di avviso per avvisare gli operatori.
 
@@ -200,13 +200,13 @@ Per ulteriori informazioni, consulta [Stato di avanzamento di un&#39;attività](
 
 Per specificare queste informazioni, fare clic sull&#39;icona **[!UICONTROL Expenses and revenue]** nella barra degli strumenti dell&#39;attività.
 
-![](assets/s_ncs_user_task_edit_costs.png)
+![Finestra Spese e ricavi aperta dalla barra degli strumenti, che mostra l&#39;addebito, il livello dell&#39;impegno, i costi e l&#39;aggiunta di un obiettivo.](assets/s_ncs_user_task_edit_costs.png)
 
 Per impostazione predefinita, il budget addebitato è il budget della campagna a cui è associata l&#39;attività. Viene visualizzato nei dettagli dell’attività.
 
 >[!NOTE]
 >
->Per ulteriori informazioni su spese e budget, consulta [questa sezione](../campaigns/providers-stocks-and-budgets.md).
+>Per ulteriori informazioni su spese e budget, consultare [Provider, scorte e budget](../campaigns/providers-stocks-and-budgets.md).
 
 In questa finestra puoi anche definire gli obiettivi da raggiungere. Gli obiettivi sono espressi in termini di ricavi previsti per l&#39;attività.
 
@@ -218,7 +218,7 @@ A tale scopo, modificare le proprietà dell&#39;attività e selezionare il provi
 
 Selezionare le categorie di costo correlate all&#39;esecuzione del task. A tale scopo, selezionare il tipo di costo e, se necessario, aggiungere un importo alla maggiorazione.
 
-![](assets/s_ncs_user_task_edit_simple_costs_tab.png)
+![Finestra delle proprietà dell&#39;attività con il campo Provider di servizi e le categorie di costi elencate con un importo di maggiorazione.](assets/s_ncs_user_task_edit_simple_costs_tab.png)
 
 >[!NOTE]
 >
@@ -226,7 +226,7 @@ Selezionare le categorie di costo correlate all&#39;esecuzione del task. A tale 
 
 Quando viene selezionato un provider di servizi, questo viene visualizzato nel dashboard attività:
 
-![](assets/s_ncs_user_task_supplier_view.png)
+![Dashboard attività con una freccia che punta alla riga Provider di servizi che mostra il servizio selezionato.](assets/s_ncs_user_task_supplier_view.png)
 
 ### Attività in ritardo {#late-tasks}
 
@@ -234,19 +234,19 @@ Un&#39;attività è in ritardo se ha raggiunto la data di fine senza che lo stat
 
 Passare alla casella **[!UICONTROL Resources]** e aggiungere l&#39;operatore al campo **[!UICONTROL Assignation]**. Per inviare una notifica a più persone, seleziona un gruppo di operatori.
 
-![](assets/mrm_task_alert_if_late.png)
+![Finestra Risorse con il campo Assegnatario evidenziato in Notifica nel caso in cui la data di fine dell&#39;attività venga superata.](assets/mrm_task_alert_if_late.png)
 
 ### Notifiche iniziali {#initial-notifications}
 
 Quando crei o modifichi un’attività con una data di inizio nel futuro, Adobe Campaign offre di inviare un’e-mail alla persona responsabile dell’attività per informarla dell’inizio.
 
-![](assets/mrm_task_first_notif.png)
+![Chiedere se inviare una notifica iniziale per l&#39;attività pianificata, con i pulsanti Sì e No.](assets/mrm_task_first_notif.png)
 
 Tuttavia, se l&#39;attività che si sta creando è molto lontana, potrebbe essere preferibile pianificare l&#39;invio della notifica prima dell&#39;inizio dell&#39;attività. Ad esempio, se l&#39;attività inizia tra un mese, è possibile inviare una notifica alla persona responsabile una settimana prima dell&#39;inizio.
 
 Per pianificare una notifica, passare alla casella **[!UICONTROL Resources]** e utilizzare il campo **[!UICONTROL Initial notification]**.
 
-![](assets/mrm_task_alert_before.png)
+![Finestra Risorse con il campo Notifica iniziale evidenziato nella sezione della data di inizio attività.](assets/mrm_task_alert_before.png)
 
 * Per le attività all’interno delle campagne, seleziona una data e un’ora specifiche.
 * Per le attività all’interno dei modelli di campagna, il tempo di notifica è espresso come il tempo rimanente prima dell’inizio dell’attività (ad esempio, se immetti 2d nel campo **[!UICONTROL Initial notification]**, l’e-mail verrà inviata 2 giorni prima della data di inizio dell’attività).
@@ -264,19 +264,19 @@ Per creare un&#39;attività collegata direttamente a un programma:
 1. In questa finestra fare clic su **[!UICONTROL Open]**. Viene visualizzata la pianificazione del programma.
 1. Fai clic sul pulsante **[!UICONTROL Add]** sopra la pianificazione a destra, quindi fai clic su **[!UICONTROL Add a task]**.
 
-![](assets/mrm_task_create_from_prg.png)
+![Pianificazione del programma con il menu Aggiungi aperto e l&#39;opzione Aggiungi un&#39;attività selezionata.](assets/mrm_task_create_from_prg.png)
 
 ### Disponibilità dell&#39;operatore {#operator-availability}
 
 Nel dashboard attività, un&#39;icona accanto al nome dell&#39;operatore indica che questi sta già lavorando su un&#39;altra attività o evento durante il periodo coperto dall&#39;attività. L&#39;attività di cui l&#39;operatore è responsabile o coinvolta viene visualizzata nel campo **[!UICONTROL Assigned to]** o nella casella attività **[!UICONTROL Resources]**.
 
-![](assets/mrm_task_alert_operator_busy.png)
+![Dashboard attività con una freccia che punta all&#39;operatore nella riga Assegnato a.](assets/mrm_task_alert_operator_busy.png)
 
 ### Attività in un flusso di lavoro {#task-in-a-workflow}
 
 L&#39;utilizzo di un elemento **[!UICONTROL Task]** in un flusso di lavoro della campagna consente di definire due scenari a seconda che l&#39;attività sia approvata o meno.
 
-![](assets/mrm_task_in_workflow.png)
+![Flusso di lavoro in cui un&#39;attività porta alla consegna direct mailing se completata o ad Attesa e ritorno se incompleta.](assets/mrm_task_in_workflow.png)
 
 Nei flussi di lavoro della campagna, l&#39;attività **[!UICONTROL Task]** si trova nella scheda **[!UICONTROL Flow control]**.
 
@@ -284,7 +284,7 @@ Nei flussi di lavoro della campagna, l&#39;attività **[!UICONTROL Task]** si tr
 
 Quando crei attività tramite una campagna, puoi creare attività specifiche. Il tipo di attività è definito nel modello selezionato.
 
-![](assets/s_ncs_user_task_select_template.png)
+![Elenco di modelli di attività con controllo, raggruppamento, creazione di risorse di marketing, notifiche e modelli di attività standard.](assets/s_ncs_user_task_select_template.png)
 
 È possibile pianificare le seguenti attività:
 
@@ -302,11 +302,11 @@ Quando crei attività tramite una campagna, puoi creare attività specifiche. Il
 
 Un **[!UICONTROL Control task]** è collegato all&#39;approvazione della consegna: approvazione del targeting, contenuto, file di estrazione, budget o bozza.
 
-![](assets/s_ncs_user_task_new_control.png)
+![Modulo attività di controllo con l&#39;elenco dei tipi di approvazione che mostra l&#39;approvazione di destinazione, contenuto, budget, file di estrazione e bozza.](assets/s_ncs_user_task_new_control.png)
 
 Una volta creata, l’attività viene aggiunta al dashboard della campagna.
 
-![](assets/s_ncs_user_task_edit_from_board.png)
+![Dashboard di Campaign con una freccia che punta alla nuova attività di controllo nell&#39;elenco Attività, con Apri, Approva e Rifiuta.](assets/s_ncs_user_task_edit_from_board.png)
 
 È quindi possibile modificarlo e specificarne i parametri.
 
@@ -337,7 +337,7 @@ L’attività di creazione delle risorse di marketing interagisce con la risorsa
 
 La persona che rivede l’attività non è necessaria se è la stessa persona che rivede il contenuto definito nella risorsa. Tuttavia, se l&#39;opzione **[!UICONTROL Publish the marketing resource]** è selezionata (vedere di seguito), il revisore dell&#39;attività è autorizzato ad approvare il contenuto della risorsa, poiché il completamento dell&#39;attività approva automaticamente la risorsa (o, se non è definito alcun revisore, il responsabile dell&#39;attività).
 
-![](assets/mrm_task_asset_creation.png)
+![Attività di creazione risorse marketing con il campo Risorsa marketing e Pubblica la risorsa marketing selezionata.](assets/mrm_task_asset_creation.png)
 
 Nel campo **[!UICONTROL Marketing resource]**, definisci la risorsa da gestire tramite questa attività. Puoi eseguire le seguenti azioni:
 
@@ -348,7 +348,7 @@ L&#39;opzione **[!UICONTROL Publish the marketing resource]** consente di automa
 
 Il pulsante **[!UICONTROL Publish the resource]** è disponibile e il revisore della pubblicazione delle risorse riceve un&#39;e-mail di notifica per comunicare che è pronto per la pubblicazione. Nella scheda **[!UICONTROL Edit > Tracking]**, la revisione e la pubblicazione da parte del revisore attività diventano visibili. Se è stato definito un flusso di lavoro di post-elaborazione della risorsa, questo viene eseguito ora.
 
-![](assets/mrm_resource_audit_tab.png)
+![Scheda Audit risorse marketing che mostra il giornale di registrazione approvazioni e pubblicazioni con voci di approvazione e pubblicazione.](assets/mrm_resource_audit_tab.png)
 
 ### Raggruppa attività {#grouping-task}
 
@@ -362,11 +362,11 @@ Il raggruppamento delle attività include un collegamento che consente di creare
 
 Per creare un&#39;attività raggruppata basata su un&#39;attività di raggruppamento, passare al dashboard della campagna e fare clic sul nome dell&#39;attività di raggruppamento per visualizzarne la descrizione, quindi fare clic su **[!UICONTROL Add a task]**.
 
-![](assets/mrm_task_grouped_create.png)
+![Dashboard di Campaign con l&#39;attività di raggruppamento espansa e una freccia che punta al collegamento Aggiungi attività.](assets/mrm_task_grouped_create.png)
 
 Tuttavia, se è già stata creata un&#39;attività che si desidera collegare a un&#39;attività di raggruppamento, è possibile eseguirla tramite il campo **[!UICONTROL Linked to]** della casella **[!UICONTROL Properties]**.
 
-![](assets/s_ncs_user_task_group_with.png)
+![Finestra delle proprietà dell&#39;attività con il campo Collegato a impostato su un&#39;altra attività in Definisci collegamenti tra attività.](assets/s_ncs_user_task_group_with.png)
 
 ### Attività di notifica {#notification-task}
 
@@ -376,7 +376,7 @@ Le attività di notifica ti consentono di pianificare le consegne e-mail (a un o
 
 Le attività di notifica non richiedono approvazione. Ciò significa che il loro ciclo di vita è più semplice di quello di un&#39;attività standard:
 
-![](assets/mrm_task_notif_lifecycle.png)
+![Ciclo di vita attività di notifica: pianificato fino alla data di inizio quando l&#39;e-mail viene inviata, In corso, quindi Finito alla data di fine.](assets/mrm_task_notif_lifecycle.png)
 
 Un&#39;attività di notifica può avere i seguenti stati:
 
@@ -386,7 +386,7 @@ Un&#39;attività di notifica può avere i seguenti stati:
 
 #### Configurazione {#configuration}
 
-![](assets/mrm_task_notif_dashboard.png)
+![Modulo attività di notifica con modello, etichetta, Assegnazione a, date di inizio e fine e descrizione attività.](assets/mrm_task_notif_dashboard.png)
 
 Durante la creazione, è necessario immettere i seguenti elementi nell&#39;attività:
 
@@ -395,7 +395,7 @@ Durante la creazione, è necessario immettere i seguenti elementi nell&#39;attiv
 * **Data di fine attività**: data in cui lo stato dell&#39;attività diventa **[!UICONTROL Finished]**. Per impostazione predefinita, la data di fine è identica alla data di inizio. Tuttavia, l’assegnazione di una durata all’attività ti consente di simboleggiare il tempo di azione dell’operatore nella pianificazione, se necessario.
 * **[!UICONTROL Description]**: il testo immesso verrà visualizzato nel corpo dell&#39;e-mail di notifica.
 
-  ![](assets/mrm_task_notif_dashboard_msg.png)
+  ![Riepilogo attività di notifica che mostra lo stato pianificato, il tipo di notifica, l&#39;assegnatario, la campagna e il testo della descrizione.](assets/mrm_task_notif_dashboard_msg.png)
 
 Puoi aggiungere un allegato all’attività e all’e-mail di notifica. A tale scopo, fare clic sull&#39;icona **[!UICONTROL Documents]** nella barra degli strumenti nell&#39;angolo superiore destro.
 
@@ -411,21 +411,21 @@ Utilizzare il campo **[!UICONTROL Linked task]** per associare le attività a un
 
 Nell’esempio seguente, l’approvazione del targeting è suddivisa in quattro sottoattività.
 
-![](assets/s_ncs_user_task_linked_tasks.png)
+![Elenco Attività campagna con l&#39;attività Aggiorna stili, un&#39;attività Convalida destinazione e quattro sottoattività collegate.](assets/s_ncs_user_task_linked_tasks.png)
 
 Ogni sottoattività è un&#39;attività standard collegata all&#39;attività principale.
 
-![](assets/s_ncs_user_task_depends_on.png)
+![Modulo attività con una freccia che punta al campo Dipende dall&#39;attività padre di Convalida destinazione.](assets/s_ncs_user_task_depends_on.png)
 
 #### Raggruppa attività {#grouping-tasks}
 
 Utilizzare il campo **[!UICONTROL Grouped to]** per rendere l&#39;esecuzione di un&#39;attività dipendente dall&#39;esecuzione di un&#39;altra attività.
 
-![](assets/s_ncs_user_task_group_with.png)
+![Finestra delle proprietà dell&#39;attività con il campo Collegato a impostato su un&#39;altra attività in Definisci collegamenti tra attività.](assets/s_ncs_user_task_group_with.png)
 
 La dipendenza tra le attività è rappresentata da frecce nel dashboard della campagna.
 
-![](assets/s_ncs_user_task_dependencies_from_board.png)
+![Elenco attività campagna con frecce che mostrano due attività figlio che dipendono dall&#39;attività di convalida di destinazione.](assets/s_ncs_user_task_dependencies_from_board.png)
 
 In caso di attività raggruppate, Adobe Campaign assegna automaticamente la data di fine dell&#39;attività padre all&#39;attività figlio come data di inizio. Ad esempio, se un&#39;attività **Crea invito** termina il 15 ottobre alle 15:30, l&#39;attività secondaria **Invia e-mail invito** inizierà il 15 ottobre alle 15:30.
 
@@ -437,7 +437,7 @@ Un&#39;attività padre con scadenza 9 ottobre alle 17 presenta due attività fig
 
 Posticipiamo il compito principale: adesso termina l&#39;11 ottobre alle 13. Solo l&#39;attività A è stata posticipata e inizierà l&#39;11 ottobre alle 13.
 
-![](assets/mrm_task_parent_postpones_child.png)
+![Prima e dopo la visualizzazione di un&#39;attività padre posticipata, che sposta l&#39;inizio dell&#39;attività figlio A ma non dell&#39;attività figlio B.](assets/mrm_task_parent_postpones_child.png)
 
 ### Stato di esecuzione di un’attività {#execution-status-of-a-task}
 
@@ -473,7 +473,7 @@ Di seguito sono riportate le fasi di un ciclo di vita completo di un&#39;attivit
 
    Durante la creazione e la modifica di un&#39;attività **pianificata in futuro** (a condizione che non sia stata raggiunta la data di inizio dell&#39;attività), è possibile inviare una notifica ai partecipanti e ai manager per informarli che è stata pianificata una nuova attività.
 
-   ![](assets/s_ncs_user_task_planed_send_message.png)
+   ![Richiedi se inviare una notifica iniziale per l&#39;attività pianificata, con una freccia che punta al No.](assets/s_ncs_user_task_planed_send_message.png)
 
    Per inviare questa prima notifica, fare clic su **[!UICONTROL Yes]**. Questa notifica comunica loro l’attività successiva e include dettagli sul contenuto e il numero di giorni rimanenti alla scadenza.
 
@@ -485,21 +485,21 @@ Di seguito sono riportate le fasi di un ciclo di vita completo di un&#39;attivit
    * tramite l’e-mail di notifica.
    * tramite la console client o l’interfaccia web, nel dashboard delle attività.
 
-     ![](assets/s_ncs_user_task_start_rea.png)
+     ![Riepilogo attività con i pulsanti Esegui l&#39;attività e Rifiuta per consentire a un partecipante di approvare l&#39;attività.](assets/s_ncs_user_task_start_rea.png)
 
 1. Ogni volta che un partecipante approva un job, lo stato di avanzamento del task viene aggiornato.
 
-   ![](assets/s_ncs_user_task_percentage_done_op.png)
+   ![Azione nella finestra di dialogo dell&#39;attività con un commento e pulsante Esegui l&#39;attività, seguito dall&#39;avanzamento aggiornato al 34%.](assets/s_ncs_user_task_percentage_done_op.png)
 
 1. Il revisore riceve un’e-mail di notifica che informa che l’operatore ha completato la sezione a lui assegnata.
 
    Possono seguire lo stato di avanzamento nel dashboard attività.
 
-   ![](assets/s_ncs_user_task_follow_from_dashboard.png)
+   ![Dashboard attività con il 34% di avanzamento e una freccia che indica l&#39;approvazione già concessa da un partecipante.](assets/s_ncs_user_task_follow_from_dashboard.png)
 
 1. Una volta che la persona responsabile dell’attività decide che è stata completata, può chiuderla utilizzando il collegamento nell’e-mail di notifica inviata all’avvio dell’attività, la console client o l’interfaccia.
 
-   ![](assets/s_ncs_user_task_console_ressource_validation.png)
+   ![Pulsante Fine riepilogo attività che consente di visualizzare l&#39;azione nella finestra di dialogo dell&#39;attività con un commento e il pulsante Fine attività.](assets/s_ncs_user_task_console_ressource_validation.png)
 
    >[!NOTE]
    >
@@ -511,11 +511,11 @@ Di seguito sono riportate le fasi di un ciclo di vita completo di un&#39;attivit
 
    Possono agire tramite il dashboard della campagna:
 
-   ![](assets/s_ncs_user_task_console_validation.png)
+   ![Dashboard di Campaign con l&#39;attività in attesa di approvazione selezionata e una freccia che punta al pulsante Approva.](assets/s_ncs_user_task_console_validation.png)
 
    Possono inoltre utilizzare il pulsante di approvazione dell’attività:
 
-   ![](assets/s_ncs_user_task__validation.png)
+   ![Riepilogo attività con stato In sospeso, avanzamento 100% e pulsante Approva attività.](assets/s_ncs_user_task__validation.png)
 
    >[!NOTE]
    >

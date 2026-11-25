@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 8%
+source-wordcount: '1058'
+ht-degree: 7%
 ---
 # Applicare le regole di tipologia{#applying-rules}
 
@@ -45,14 +45,14 @@ A questo scopo, segui la procedura indicata di seguito:
 
 1. Vai alla scheda **[!UICONTROL Rules]**, fai clic sul pulsante **[!UICONTROL Add]** e seleziona le regole da applicare con questa tipologia.
 
-   ![](assets/campaign_opt_pressure_sample_1_6.png)
+   ![Scheda Regole di tipologia con il pulsante Aggiungi e la finestra di dialogo Aggiungi regole che elenca le regole di tipologia da selezionare](assets/campaign_opt_pressure_sample_1_6.png)
 
 1. Salva la tipologia: viene aggiunta all’elenco delle tipologie esistenti.
 1. Apri la consegna a cui desideri applicare le regole.
 1. Individuare le proprietà di consegna e aprire la scheda **[!UICONTROL Typology]**.
 1. Seleziona la tipologia nell’elenco a discesa.
 
-   ![](assets/campaign_opt_pressure_sample_1_7.png)
+   ![Proprietà di consegna, scheda Tipologia, con l&#39;elenco a discesa Tipologia Pressione client/potenziali](assets/campaign_opt_pressure_sample_1_7.png)
 
    >[!NOTE]
    >
@@ -68,7 +68,7 @@ Per definire le condizioni di applicazione di una regola, fare clic sul collegam
 
 Quindi utilizza l&#39;[editor query](../../v8/start/query-editor.md) per definire le condizioni di filtro. Nell’esempio seguente, la regola di capacità riguarda solo le consegne con la parola &quot;offerta&quot; nell’etichetta o le consegne create prima del 1° aprile 2013.
 
-![](assets/campaign_opt_create_capacity_criterion.png)
+![Scheda Generale della regola di capacità con la query delle condizioni dell&#39;applicazione sull&#39;etichetta che contiene l&#39;offerta e la data di creazione](assets/campaign_opt_create_capacity_criterion.png)
 
 >[!NOTE]
 >
@@ -119,7 +119,7 @@ Ad esempio, una regola di pressione con ordine di esecuzione di 20 viene eseguit
 
 Per le regole **[!UICONTROL Control]**, puoi decidere a quale punto del ciclo di vita della consegna viene applicata la regola: prima o dopo il targeting, all&#39;inizio della personalizzazione, alla fine dell&#39;analisi. Selezionare il valore da applicare nell&#39;elenco a discesa del campo **[!UICONTROL Phase]** nella scheda **[!UICONTROL General]** della regola di tipologia.
 
-![](assets/campaign_opt_define_control_phase.png)
+![Scheda Generale della regola di tipologia di controllo con il menu a discesa Fase che elenca le quattro fasi dell&#39;applicazione](assets/campaign_opt_define_control_phase.png)
 
 I valori possibili sono:
 
@@ -147,7 +147,7 @@ I valori possibili sono:
 
 Come opzione, puoi utilizzare il campo **[!UICONTROL Managing affinities with IP addresses]** per collegare le consegne al server di consegna (MTA) questa affinità. Questo ti consente di limitare il numero di e-mail per consegne specifiche a computer o indirizzi di output.
 
-![](assets/campaign_opt_select_ip_affinity.png)
+![Scheda Generale della tipologia con il campo Affinità in Gestione delle affinità con gli indirizzi IP](assets/campaign_opt_select_ip_affinity.png)
 
 >[!NOTE]
 >
@@ -161,9 +161,9 @@ Come opzione, puoi utilizzare il campo **[!UICONTROL Managing affinities with IP
 
 La scheda **[!UICONTROL Distributed Marketing]** ti consente di definire la nuova mappatura di tipologie e/o regole che si applica quando una campagna condivisa viene ordinata e/o riservata. Le tipologie/regole definite per un’entità locale (collegate a quelle definite per l’entità centrale) sostituiscono le regole/tipologie collegate all’entità centrale. La nuova mappatura consente di adattare le regole dell’entità centrale alle entità locali che ordinano la campagna.
 
-![](assets/simu_campaign_opti_distrib_mkg.png)
+![Scheda Marketing distribuito per la tipologia con l&#39;entità organizzativa e i campi di tipologia centrali associati](assets/simu_campaign_opti_distrib_mkg.png)
 
 >[!NOTE]
 >
 >Nelle tipologie e nelle regole di tipologia, la scheda **[!UICONTROL Distributed Marketing]** viene aggiunta se la licenza include questa opzione: verificare il contratto di licenza.\
->Per ulteriori informazioni sul Marketing distribuito, consulta [questa sezione](../distributed-marketing/about-distributed-marketing.md).
+>Per ulteriori informazioni sul Marketing distribuito, fare riferimento a [Introduzione al marketing distribuito](../distributed-marketing/about-distributed-marketing.md).

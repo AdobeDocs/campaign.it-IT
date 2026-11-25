@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '1288'
-ht-degree: 4%
+source-wordcount: '1529'
+ht-degree: 3%
 ---
 # Creare programmi e campagne{#create-programs-and-campaigns}
 
@@ -36,9 +36,9 @@ I componenti di orchestrazione delle campagne si trovano nella scheda **[!UICONT
 
 Un programma di marketing è costituito da campagne, che sono costituite da consegne, risorse, ecc. Tutte le informazioni relative a consegne, budget, revisori e documenti collegati sono raggruppate nella campagna.
 
-![](assets/campaigns-create-from-home.png)
+![Home page Campagne con l&#39;elenco Campagne di marketing, il pulsante Crea e il menu Calendario campagna](assets/campaigns-create-from-home.png)
 
-![](assets/do-not-localize/how-to-video.png) [Scopri programmi e campagne nel video](#video)
+![Icona Riproduci per il video su programmi e campagne](assets/do-not-localize/how-to-video.png) [Scopri programmi e campagne nel video](#video)
 
 ## Utilizzare programmi e piani{#work-with-plan-and-program}
 
@@ -52,18 +52,18 @@ Prima di iniziare a creare campagne e consegne, configura la gerarchia di cartel
 1. Fare clic con il pulsante destro del mouse sulla cartella in cui si desidera creare il piano.
 1. Selezionare **Aggiungi nuova cartella > Gestione campagne > Piano**.
 
-   ![](assets/create-new-plan-folder.png)
+   ![Aggiungi nuovo menu cartella in Explorer, con Gestione campagne > Piano selezionato](assets/create-new-plan-folder.png)
 
 1. Rinominare il piano.
 1. Fare clic con il pulsante destro del mouse sul piano appena creato e selezionare **Proprietà...**.
 1. Nella scheda **Generale**, modifica **Nome interno** per evitare duplicati durante le esportazioni del pacchetto.
 
-   ![](assets/plan-properties.png)
+   ![Finestra di dialogo Proprietà cartella, scheda Generale, con i campi Etichetta e Nome interno e il pulsante Salva](assets/plan-properties.png)
 
 1. Fai clic su **Salva**.
 1. Fare clic con il pulsante destro del mouse sul piano appena creato e selezionare **Crea una nuova cartella &#39;Programma&#39;**.
 
-   ![](assets/program-folder.png)
+   ![Menu di scelta rapida nella cartella del piano con Crea una nuova cartella &#39;Programma&#39; selezionata](assets/program-folder.png)
 
 1. Ripetere i passaggi precedenti per rinominare la nuova cartella del programma e il relativo nome interno.
 
@@ -76,7 +76,7 @@ Durante la modifica di un programma, utilizza le schede descritte di seguito per
 
 * La scheda **Modifica** ti consente di personalizzare il programma: nome, date di inizio e fine, budget, documenti collegati, ecc.
 
-  ![](assets/new-program-edit-tab.png)
+  ![Scheda Modifica programma con etichetta, nome interno, date programma, budget correlato e obiettivi](assets/new-program-edit-tab.png)
 
 ## Utilizzare le campagne{#work-with-campaigns}
 
@@ -86,7 +86,7 @@ Puoi creare una campagna tramite l’elenco delle campagne. Per visualizzare que
 
 Il campo **[!UICONTROL Program]** consente di selezionare il programma a cui allegare la campagna. Queste informazioni sono obbligatorie.
 
-![](assets/new-campaign-settings.png)
+![Finestra di dialogo per una nuova campagna di marketing con i campi Modello, Etichetta e Programma e il pulsante OK](assets/new-campaign-settings.png)
 
 Le campagne possono essere create anche tramite dal calendario della campagna o del programma. [Ulteriori informazioni](#campaign-calendar)
 
@@ -102,7 +102,7 @@ Puoi quindi modificare la campagna appena creata e definirne i parametri. Per ap
 
 Tutte queste azioni ti portano al dashboard della campagna.
 
-![](assets/campaigns-dashboard-approve.png)
+![Dashboard di Campaign con il menu Approvazione in una consegna che offre Approva contenuto e Approva targeting](assets/campaigns-dashboard-approve.png)
 
 Accedi alle sezioni seguenti per scoprire come configurare la campagna:
 
@@ -133,17 +133,17 @@ Per ogni campagna sono disponibili le seguenti funzionalità:
 
 Per ogni campagna, i processi, le risorse e le consegne sono centralizzati in un dashboard. Questa interfaccia consente di gestire e orchestrare azioni di marketing.
 
-Con Adobe Campaign puoi impostare processi collaborativi per la creazione e l’approvazione dei vari passaggi delle campagne: approvazione del budget, target, contenuto, ecc. Questa orchestrazione è descritta in [questa sezione](marketing-campaign-approval.md).
+Con Adobe Campaign puoi impostare processi collaborativi per la creazione e l’approvazione dei vari passaggi delle campagne: approvazione del budget, target, contenuto, ecc. Questa orchestrazione è descritta in [Impostare e gestire il processo di approvazione](marketing-campaign-approval.md).
 
-![](assets/campaigns-dashboard-approval-tab.png)
+![Pannello Consegna del dashboard della campagna con il menu Approvazione, il contenuto e lo stato di targeting](assets/campaigns-dashboard-approval-tab.png)
 
 >[!NOTE]
 >
->I componenti disponibili in una campagna dipendono dal relativo modello. La configurazione del modello di campagna è presentata in [questa sezione](marketing-campaign-templates.md#campaign-templates).
+>I componenti disponibili in una campagna dipendono dal relativo modello. La configurazione del modello di campagna è presentata in [Creare e configurare modelli di campagna](marketing-campaign-templates.md#campaign-templates).
 
 Una volta ottenuta la campagna, utilizza il collegamento **[!UICONTROL Reports]** per accedere ai rapporti della campagna.
 
-![](assets/campaigns-reports-dashboard.png)
+![Dashboard campagna Scheda Rapporti in cui sono elencati i rapporti delle campagne, ad esempio le spese della campagna e il riepilogo delle consegne](assets/campaigns-reports-dashboard.png)
 
 ## Calendario della campagna {#campaign-calendar}
 
@@ -151,11 +151,11 @@ Il calendario della campagna mostra tutti i programmi, i piani, le campagne e le
 
 Per modificare un piano, un programma, una campagna o una consegna, individuarne il nome nel calendario e quindi utilizzare il collegamento **[!UICONTROL Open]**. Viene quindi visualizzato in una nuova scheda, come illustrato di seguito:
 
-![](assets/campaign-calendar.png)
+![Calendario della campagna con un pop-up per una campagna che mostra il collegamento Apri, la pianificazione e lo stato](assets/campaign-calendar.png)
 
 Puoi filtrare le informazioni visualizzate nel calendario della campagna. A tale scopo, fare clic sul collegamento **[!UICONTROL Filter]** e selezionare i criteri di filtro.
 
-![](assets/campaign_planning_filter.png)
+![Calendario della campagna Collegamento filtro che espande le opzioni di filtro per campagne, consegne, attività e programmi](assets/campaign_planning_filter.png)
 
 >[!NOTE]
 >
@@ -167,11 +167,11 @@ Le icone collegate a ciascun elemento ti consentono di visualizzarne lo stato: c
 
 Per filtrare le campagne da visualizzare, fare clic sul collegamento **[!UICONTROL Filter]** e selezionare lo stato delle campagne da visualizzare.
 
-![](assets/calendar-filter-options.png)
+![Filtro del calendario della campagna con stati dell&#39;elenco a discesa Attività, ad esempio In corso di modifica, Avviato e Completato](assets/calendar-filter-options.png)
 
 Durante l’esplorazione del calendario, puoi anche creare un programma o una campagna.
 
-![](assets/campaign-create-from-calendar.png)
+![Scheda Pianificazione programma con l&#39;offerta del menu Aggiungi un programma e Aggiungi una campagna](assets/campaign-create-from-calendar.png)
 
 Quando si crea una campagna tramite la scheda **[!UICONTROL Schedule]** di un programma, la campagna viene automaticamente collegata al programma interessato. In questo caso, il campo **[!UICONTROL Program]** è nascosto.
 
@@ -183,7 +183,7 @@ Puoi accedere alle schermate della console client di Adobe Campaign tramite un b
 1. Accedi come di consueto tramite https://`<your instance>:<port>/view/home`.
 1. Utilizza i menu per accedere alle panoramiche.
 
-   ![](assets/web-access-campaigns.png)
+   ![Elenco delle campagne di marketing nell&#39;interfaccia Web con stato della campagna e menu Azioni](assets/web-access-campaigns.png)
 
 Oltre a navigare tra le campagne e visualizzarle, puoi eseguire i seguenti tipi di attività:
 
@@ -216,9 +216,9 @@ Questa tabella fornisce un riepilogo delle azioni che è possibile eseguire sull
 
 Le approvazioni di un target o di un contenuto di consegna possono essere eseguite tramite accesso web.
 
-![](assets/web-access-approval.png)
+![Azione nella finestra di dialogo di consegna nell&#39;interfaccia Web con le opzioni Accetta e Rifiuta e un campo Commento](assets/web-access-approval.png)
 
-Puoi anche utilizzare il collegamento contenuto nei messaggi di notifica. Per ulteriori informazioni al riguardo, consulta [questa sezione](marketing-campaign-approval.md#review-and-approve-deliveries).
+Puoi anche utilizzare il collegamento contenuto nei messaggi di notifica. Per ulteriori informazioni, consulta [Rivedere e approvare le consegne](marketing-campaign-approval.md#review-and-approve-deliveries).
 
 
 ## Video tutorial {#video}

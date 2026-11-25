@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 4%
+source-wordcount: '956'
+ht-degree: 2%
 ---
 # Regole di coerenza{#consistency-rules}
 
@@ -50,22 +50,22 @@ Per progettare una nuova regola di capacità, effettuare le seguenti operazioni:
 1. Nella cartella **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** fare clic su **[!UICONTROL New]**.
 1. Selezionare un tipo di regola **[!UICONTROL Capacity]**.
 
-   ![](assets/campaign_opt_create_capacity_01.png)
+   ![Schermata di creazione della regola di tipologia con l&#39;opzione Capacità selezionata nell&#39;elenco a discesa Tipo di regola.](assets/campaign_opt_create_capacity_01.png)
 
 1. Nella scheda **[!UICONTROL Capacity]**, crea le righe di disponibilità: nel nostro esempio, si tratta di periodi di tempo durante i quali è possibile effettuare chiamate. Selezionare un periodo di 24 ore e immettere 150 nella quantità iniziale, il che significa che il call center è in grado di gestire 150 chiamate al giorno.
 
-   ![](assets/campaign_opt_create_capacity_02.png)
+   ![Scheda Capacità con la finestra di dialogo Modifica riga di disponibilità per immettere la quantità iniziale, finale e iniziale.](assets/campaign_opt_create_capacity_02.png)
 
    >[!NOTE]
    >
-   >Le linee di disponibilità sono solo a scopo informativo. Se devi escludere i messaggi quando viene raggiunto il limite di capacità, fai riferimento a [questa sezione](#exclude-messages-when-capacity-limit-reached).
+   >Le linee di disponibilità sono solo a scopo informativo. Se devi escludere i messaggi al raggiungimento del limite di capacità, fai riferimento a [Escludi messaggi al raggiungimento del limite di capacità](#exclude-messages-when-capacity-limit-reached).
 
-1. Associa questa regola a una tipologia e fai riferimento a essa nella consegna per applicare questa regola di capacità. Per ulteriori informazioni al riguardo, consulta [questa sezione](apply-rules.md#apply-a-typology-to-a-delivery).
+1. Associa questa regola a una tipologia e fai riferimento a essa nella consegna per applicare questa regola di capacità. Per ulteriori informazioni, consulta [Applicare una tipologia a una consegna](apply-rules.md#apply-a-typology-to-a-delivery).
 1. È possibile monitorare il consumo dalle schede delle regole **[!UICONTROL Consumptions]** e **[!UICONTROL Capacity]**.
 
    Quando una regola viene utilizzata in una consegna, le colonne **[!UICONTROL Consumed]** e **[!UICONTROL Remaining]** forniscono informazioni sul caricamento, come illustrato di seguito:
 
-   ![](assets/campaign_opt_create_capacity_03.png)
+   ![Scheda Capacità che mostra una linea di disponibilità con 150 quantità iniziale, 200 consumate e -50 rimanenti.](assets/campaign_opt_create_capacity_03.png)
 
    Per ulteriori informazioni al riguardo, consulta [questa sezione](#monitor-consumption).
 
@@ -77,7 +77,7 @@ Per definire il carico massimo, è necessario definire le linee di disponibilit�
 
 Per creare una riga di disponibilità, fare clic sul pulsante **[!UICONTROL Add]** e selezionare **[!UICONTROL Add an availability line]**. Inserire il periodo di disponibilità e il carico disponibile.
 
-![](assets/campaign_opt_create_capacity_02.png)
+![Finestra di dialogo Modifica riga di disponibilità aperta dal pulsante Aggiungi, con campi di inizio, fine e quantità iniziale.](assets/campaign_opt_create_capacity_02.png)
 
 Aggiungi tutte le righe necessarie per adattarle alla capacità di elaborazione.
 
@@ -87,25 +87,25 @@ Per definire i periodi di disponibilità per un determinato periodo di tempo, fa
 
 Per automatizzare la frequenza di creazione delle pagine, fare clic sul pulsante **[!UICONTROL Change]** e definire la pianificazione dei periodi di tempo.
 
-![](assets/campaign_opt_create_capacity_07.png)
+![Finestra di dialogo Modifica riga di disponibilità con Aggiungi un set di righe di disponibilità selezionate e il pulsante Modifica per la pianificazione.](assets/campaign_opt_create_capacity_07.png)
 
 Ad esempio, definiamo una pianificazione per creare periodi di disponibilità per tutti i giorni lavorativi a una velocità di 10 chiamate all’ora tra le 9 e le 17. A questo scopo, esegui i seguenti passaggi:
 
 1. Selezionare il tipo di periodicità e i giorni e le ore di validità:
 
-   ![](assets/campaign_opt_create_capacity_08.png)
+   ![Pianificazione modifica guidata Pagina Periodo di validità con date di inizio e fine valide selezionate da un calendario.](assets/campaign_opt_create_capacity_08.png)
 
 1. Indicare le date di validità:
 
-   ![](assets/campaign_opt_create_capacity_09.png)
+   ![Pianifica modifica guidata Pagina Periodo di validità con la data di fine validità selezionata da un calendario.](assets/campaign_opt_create_capacity_09.png)
 
 1. Controlla la pianificazione prima di approvarla:
 
-   ![](assets/campaign_opt_create_capacity_10.png)
+   ![Pagina di riepilogo della procedura guidata di modifica della pianificazione con la descrizione della pianificazione e l&#39;elenco degli orari di avvio prima della fine.](assets/campaign_opt_create_capacity_10.png)
 
 Il flusso di lavoro **[!UICONTROL Forecasting]** crea automaticamente tutte le righe corrispondenti.
 
-![](assets/campaign_opt_create_capacity_12.png)
+![Scheda Capacità della regola Call Center che elenca le righe di disponibilità create automaticamente dalla pianificazione.](assets/campaign_opt_create_capacity_12.png)
 
 >[!NOTE]
 >
@@ -115,17 +115,17 @@ Il flusso di lavoro **[!UICONTROL Forecasting]** crea automaticamente tutte le r
 
 Le righe di disponibilità sono solo a scopo informativo. Per escludere i messaggi in eccesso, selezionare l&#39;opzione **[!UICONTROL Exclude from the target messages in excess of capacity]**. Questo impedisce il superamento della capacità. Per la stessa popolazione dell&#39;esempio precedente, il consumo e la capacità rimanente non possono superare la quantità iniziale:
 
-![](assets/campaign_opt_create_capacity_04.png)
+![Scheda Capacità con Escludi dai messaggi di destinazione in eccesso di capacità selezionata: 100 consumati, 50 rimanenti.](assets/campaign_opt_create_capacity_04.png)
 
 Il numero massimo di messaggi che possono essere elaborati viene suddiviso in modo uniforme nell’intervallo di disponibilità definito. Ciò è particolarmente importante per i call center, poiché il loro numero massimo di chiamate al giorno è limitato. Nel caso di consegne di e-mail, l&#39;opzione **[!UICONTROL Do not limit instantaneous delivery capacity]** consente di ignorare questo intervallo di disponibilità e di inviare contemporaneamente le e-mail.
 
-![](assets/campaign_opt_create_capacity_05.png)
+![Scheda Capacità con la casella Non limitare la capacità di consegna istantanea selezionata, che mostra 150 unità consumate e 0 rimanenti.](assets/campaign_opt_create_capacity_05.png)
 
 >[!NOTE]
 >
 >In caso di sovraccarico, i messaggi salvati vengono selezionati in base alla formula definita nelle proprietà di consegna.
 
-![](assets/campaign_opt_create_capacity_06.png)
+![Scheda Tipologia delle proprietà di consegna con le impostazioni di capacità: formula di importanza e capacità del canale del call center.](assets/campaign_opt_create_capacity_06.png)
 
 ## Consumo monitor {#monitoring-consumption}
 
@@ -133,6 +133,6 @@ Per impostazione predefinita, le regole di capacità sono solo a scopo indicativ
 
 Per monitorare i consumi, visualizzare i valori visualizzati nella colonna **[!UICONTROL Consumed]** della scheda **[!UICONTROL Capacity]** nella regola di tipologia.
 
-![](assets/campaign_opt_create_capacity_04.png)
+![Scheda Capacità con l&#39;opzione di esclusione selezionata, che mostra 100 consumati e 50 rimanenti di 150 quantità iniziale.](assets/campaign_opt_create_capacity_04.png)
 
 Per visualizzare le righe di consumo, fare clic sulla scheda **[!UICONTROL Consumptions]** nella regola.

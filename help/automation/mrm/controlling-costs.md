@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '2429'
-ht-degree: 1%
+source-wordcount: '3051'
+ht-degree: 0%
 ---
 # Controllare i costi{#controlling-costs}
 
@@ -40,7 +40,7 @@ I costi impegnati per i vari processi di una campagna vengono addebitati a un bu
 
 La gestione e il tracciamento dei budget sono centralizzati in un nodo dedicato della struttura Adobe Campaign. Questo consente di monitorare gli importi allocati, impegnati, impegnati e spesi dalla stessa visualizzazione e per tutti i budget.
 
-![](assets/s_ncs_user_budget_node_02.png)
+![Nodo Budget della struttura di gestione delle campagne con il budget eMarketing che mostra gli importi e le categorie di spesa.](assets/s_ncs_user_budget_node_02.png)
 
 Per implementare la gestione del budget utilizzando MRM, è necessario eseguire le operazioni seguenti:
 
@@ -62,11 +62,11 @@ Per creare un budget, effettua le seguenti operazioni:
 1. Definire il periodo di validità inserendo le date di inizio e di fine. Queste informazioni sono puramente indicative.
 1. Crea le categorie di spesa a cui collegare i costi assegnati a questo budget per campagne, attività e così via. [Ulteriori informazioni](#expense-categories).
 
-![](assets/s_ncs_user_budget_create_and_save.png)
+![Nuovo modulo budget con etichetta, pianificazione, importo allocato e le categorie di spesa Progettazione, Risorse e Dati.](assets/s_ncs_user_budget_create_and_save.png)
 
 >[!NOTE]
 >
->Puoi selezionare un budget correlato. Per ulteriori informazioni al riguardo, consulta [questa sezione](#linking-a-budget-to-another).
+>Puoi selezionare un budget correlato. Per ulteriori informazioni, consulta [Collegare un budget a un altro](#linking-a-budget-to-another).
 >
 
 ### Calcola importi {#calculating-amounts}
@@ -79,7 +79,7 @@ Ciascun bilancio è definito da un importo iniziale che verrà diminuito dai cos
 
 Per le campagne, a seconda del livello di impegno, un costo può essere pianificato, impegnato o riservato per un’azione futura.
 
-![](assets/s_user_cost_op_engaged.png)
+![Sezione Budget campagna con l&#39;elenco dei livelli di impegno aperto che mostra Pianificato, Riservato e Impegnato.](assets/s_user_cost_op_engaged.png)
 
 >[!CAUTION]
 >
@@ -89,11 +89,11 @@ Per le campagne, a seconda del livello di impegno, un costo può essere pianific
 
 Ad esempio, il costo previsto di una campagna web è di 45.000 Euro.
 
-![](assets/s_user_edit_budget_node_impact_0.png)
+![Sezione Budget campagna con un costo provvisorio stimato di 45.000, addebitato al budget Web a livello Pianificato.](assets/s_user_edit_budget_node_impact_0.png)
 
 Per la campagna, quando lo stato di creazione del budget è impostato su **[!UICONTROL Defined]**, il costo reale della campagna (o, in caso contrario, il costo calcolato) verrà riportato nei totali del budget.
 
-![](assets/s_user_budget_in_op_a.png)
+![Sezione Budget campagna con il campo Stato processo impostato su Definito in modo che i costi vengano consolidati durante l&#39;esecuzione.](assets/s_user_budget_in_op_a.png)
 
 In base al livello di impegno del budget della campagna, l&#39;importo verrà immesso nel campo **[!UICONTROL Planned]**, **[!UICONTROL Reserved]** o **[!UICONTROL Committed]**.
 
@@ -102,15 +102,15 @@ Il livello di impegno può essere modificato:
 * nel livello **campaign**, nella finestra **[!UICONTROL Budget]**, nella scheda **[!UICONTROL Edit]**. Qui vengono configurati budget, costi e spese.
 * nel livello **attività**, nella finestra **[!UICONTROL Expenses and revenues]**.
 
-![](assets/s_user_op_engagement_level_costs.png)
+![Sezione Budget campagna con l&#39;elenco dei livelli di impegno aperto, sopra la scheda Spese che elenca una riga spese.](assets/s_user_op_engagement_level_costs.png)
 
 Quando il budget è **[!UICONTROL Reserved]**, l&#39;aggiornamento viene eseguito automaticamente per il budget addebitato.
 
-![](assets/s_user_edit_budget_node_impact_2.png)
+![Modulo di budget in cui l&#39;importo riservato viene visualizzato 45.000 dopo che il livello di impegno della campagna è stato impostato su Riservato.](assets/s_user_edit_budget_node_impact_2.png)
 
 La procedura è la stessa a livello di attività.
 
-![](assets/s_user_edit_budget_node_impact_task.png)
+![Finestra Spese e ricavi attività con l&#39;elenco Livello di impegno aperto che mostra Pianificati, Impegnati e Impegnati.](assets/s_user_edit_budget_node_impact_task.png)
 
 Quando una spesa genera una fattura e la fattura viene pagata, il relativo importo viene quindi inserito nel campo **[!UICONTROL Invoiced]**.
 
@@ -120,7 +120,7 @@ Gli importi possono essere distribuiti in diverse categorie di spesa per una mig
 
 Per aggiungere una categoria, fare clic sul pulsante **[!UICONTROL Add]** nella parte inferiore della finestra.
 
-![](assets/s_user_budget_category.png)
+![Modulo Budget con il pulsante Aggiungi dell&#39;elenco Categorie spese per le categorie Progettazione, Stampa e Web.](assets/s_user_budget_category.png)
 
 Puoi selezionare una categoria tra quelle esistenti o definirne una nuova inserendola direttamente nel campo. Quando confermi l’input, un messaggio di conferma ti consente di aggiungere questa categoria all’elenco delle categorie esistenti e associarla a una natura, se necessario. Queste informazioni verranno utilizzate nelle relazioni sul budget.
 
@@ -128,11 +128,11 @@ Puoi selezionare una categoria tra quelle esistenti o definirne una nuova insere
 
 Puoi collegare un budget a un budget principale. A tale scopo, selezionare il budget principale nel campo **[!UICONTROL related budget]** dei budget secondari.
 
-![](assets/budget_link.png)
+![Modulo budget secondario con il campo Budget correlato impostato sul budget eMarketing principale.](assets/budget_link.png)
 
 Al budget principale verrà aggiunta una scheda aggiuntiva per visualizzare l&#39;elenco dei budget correlati.
 
-![](assets/budget_link_new_tab.png)
+![Budget principale con la scheda Budget aggiunti che elenca i budget collegati.](assets/budget_link_new_tab.png)
 
 Queste informazioni sono riportate nelle relazioni sul bilancio.
 
@@ -140,7 +140,7 @@ Queste informazioni sono riportate nelle relazioni sul bilancio.
 
 Le righe spese vengono aggiunte automaticamente al budget. Vengono creati durante l’analisi della consegna e al termine di un’attività.
 
-![](assets/s_ncs_user_budget_line_edit.png)
+![Scheda Spese preventivate con il pulsante Dettaglio che apre una riga spese con la suddivisione della campagna, della consegna e della categoria costi.](assets/s_ncs_user_budget_line_edit.png)
 
 Per ogni campagna, consegna o attività, i costi generati sono raggruppati nelle righe spese del budget a cui vengono addebitati. Queste linee di spesa vengono create in base alle linee di costo del fornitore di servizi interessato e calcolate tramite le strutture di costo associate.
 
@@ -156,15 +156,15 @@ Nell&#39;esempio precedente, la riga spese modificata contiene i costi calcolati
 
 Il calcolo dei costi per questa consegna si basa sulle categorie di costi selezionate per il fornitore di servizi interessato:
 
-![](assets/s_user_edit_del_supplier_costs.png)
+![Riga di spesa collegata a una consegna la cui scheda Direct mailing elenca le categorie di costo del provider di servizi.](assets/s_user_edit_del_supplier_costs.png)
 
 In base alle categorie di costo selezionate, per calcolare le linee di costo vengono applicate le strutture di costo corrispondenti. In questo esempio, per il prestatore di servizi interessato, le strutture dei costi sono le seguenti:
 
-![](assets/s_user_edit_node_supplier_costs.png)
+![Scheda Struttura costi assistenza con grafica - 01 dettagli struttura costi: canale direct mailing, per messaggio, lineare.](assets/s_user_edit_node_supplier_costs.png)
 
 >[!NOTE]
 >
->Le categorie e le strutture di costo sono presentate in [questa pagina](../campaigns/providers-stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories)
+>Le categorie e le strutture di costo vengono presentate in [Creare un provider di servizi e le relative categorie di costo](../campaigns/providers-stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories)
 
 ## Impegno, calcolo e addebito dei costi {#cost-commitment--calculation-and-charging}
 
@@ -180,7 +180,7 @@ I costi sono suddivisi in tre categorie:
 
    Questo importo viene immesso manualmente e può essere suddiviso in diverse categorie di spesa. Per ridurre un costo, fare clic sul collegamento **[!UICONTROL Breakdown...]** e quindi sul pulsante **[!UICONTROL Add]** per definire un nuovo importo.
 
-   ![](assets/s_user_edit_budget_tab_ventil.png)
+   ![Finestra Modifica analisi stratificata costi dal collegamento Analisi stratificata costi provvisori stimati, suddividendo il costo per categoria.](assets/s_user_edit_budget_tab_ventil.png)
 
    È possibile associare ciascun costo a una categoria in modo che il raggruppamento dei costi per categoria di spesa possa essere visualizzato successivamente nei rapporti relativi al budget e al budget.
 
@@ -223,29 +223,29 @@ Stiamo per creare una campagna con:
 
 1. Definisci un budget di 10.000 euro nel campo **[!UICONTROL Allocated]** della sezione **[!UICONTROL Amounts]**. Aggiungere due categorie di spesa nella parte inferiore della finestra:
 
-![](assets/s_user_cost_mgmt_sample_1.png)
+![Modulo budget con 10.000 unità allocate e due categorie di spesa, prima categoria e seconda categoria.](assets/s_user_cost_mgmt_sample_1.png)
 
 #### Passaggio 2: configurare il provider di servizi e definire le strutture dei costi {#step-2---configuring-the-service-provider-and-defining-the-cost-structures}
 
-1. Creare un provider di servizi e un modello di servizi con la relativa struttura dei costi dal nodo **[!UICONTROL Administration > Campaigns]**. Per ulteriori informazioni al riguardo, consulta [questa sezione](../campaigns/providers-stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories).
+1. Creare un provider di servizi e un modello di servizi con la relativa struttura dei costi dal nodo **[!UICONTROL Administration > Campaigns]**. Per ulteriori informazioni, consulta [Creare un provider di servizi e le relative categorie di costo](../campaigns/providers-stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories).
 
    Per le consegne di direct mailing, creare categorie di costo **[!UICONTROL Envelopes]** (tipi 114x229 e 162x229), **[!UICONTROL Postage]** e **[!UICONTROL Print]** (tipi A3 e A4). Quindi creare le seguenti strutture di costo:
 
-   ![](assets/s_user_cost_mgmt_sample_2.png)
+   ![Buste strutture costi - 114x229, Spese postali - Standard e Stampa - A4: Direct mailing, per messaggio, importi lineari.](assets/s_user_cost_mgmt_sample_2.png)
 
 1. Aggiungere un costo fisso (nelle categorie di costo) il cui calcolo è fisso e il cui importo è vuoto (nella struttura di costo corrispondente) e che verrà specificato singolarmente per ogni consegna.
 
-   ![](assets/s_user_cost_mgmt_sample_5.png)
+   ![Costo fisso struttura costi - Progettazione con il canale Direct Mail, calcolo fisso e importo vuoto.](assets/s_user_cost_mgmt_sample_5.png)
 
    Per le attività, creare le due categorie di costo seguenti:
 
    * **[!UICONTROL Room reservation]** (Camera piccola e Camera grande), con una struttura di costo **fissa** per un importo di 300 e 500 euro:
 
-   ![](assets/s_user_cost_mgmt_sample_6.png)
+   ![Struttura di costo Prenotazione camera - Grande per il canale attività con un calcolo fisso e un importo di 500.](assets/s_user_cost_mgmt_sample_6.png)
 
    * **[!UICONTROL Creation]** (**Tipo di modello di contenuto**), con una struttura di costo **giornaliera** di 300 euro:
 
-   ![](assets/s_user_cost_mgmt_sample_7.png)
+   ![Progettazione struttura costi - Modello di contenuto per il canale attività con un calcolo giornaliero e un importo di 300.](assets/s_user_cost_mgmt_sample_7.png)
 
 #### Passaggio 3: addebitare il budget nella campagna {#step-3---charging-the-budget-in-the-campaign}
 
@@ -255,11 +255,11 @@ Stiamo per creare una campagna con:
    >
    >Per impostazione predefinita, il budget selezionato per il programma viene applicato a tutte le campagne del programma.
 
-   ![](assets/s_user_cost_mgmt_sample_4.png)
+   ![Sezione Budget campagna con l&#39;elenco di addebito aperto che mostra le operazioni speciali, l&#39;eMarketing e il Programma di sviluppo.](assets/s_user_cost_mgmt_sample_4.png)
 
 1. Specificare il costo provvisorio stimato, con suddivisione:
 
-   ![](assets/s_user_cost_mgmt_sample_9.png)
+   ![Costo provvisorio stimato di 3.000 unità suddiviso per la prima categoria e la seconda categoria nella finestra Modifica costo.](assets/s_user_cost_mgmt_sample_9.png)
 
 1. Fare clic su **[!UICONTROL Ok]** e quindi su **[!UICONTROL Save]** per confermare queste informazioni. Il costo calcolato della campagna viene quindi aggiornato con il costo provvisorio stimato.
 
@@ -271,7 +271,7 @@ Stiamo per creare una campagna con:
 
 1. Sostituire il costo delle buste e aggiungere un costo fisso. Selezionare anche le categorie interessate da tali costi.
 
-   ![](assets/s_user_cost_mgmt_sample_3.png)
+   ![Consegna del catalogo nel flusso di lavoro con le categorie di costo del provider di servizi, incluso il costo fisso di 560.](assets/s_user_cost_mgmt_sample_3.png)
 
    >[!NOTE]
    >
@@ -279,19 +279,19 @@ Stiamo per creare una campagna con:
 
 1. Avvia il flusso di lavoro appena creato per avviare l’analisi e calcolare i costi.
 
-   ![](assets/s_user_cost_mgmt_sample_10.png)
+   ![Barra degli strumenti del flusso di lavoro di targeting con il pulsante Start selezionato per eseguire l&#39;analisi e calcolare i costi.](assets/s_user_cost_mgmt_sample_10.png)
 
 1. Se per questa campagna è abilitata l&#39;approvazione del budget, approva il budget dal dashboard. È possibile controllare l&#39;approvazione delle categorie di costo.
 
-   ![](assets/s_user_cost_mgmt_sample_10b.png)
+   ![Menu Approvazione consegna con budget di approvazione che apre la finestra di dialogo Azione sulla consegna con suddivisione dei costi e approvazione del budget.](assets/s_user_cost_mgmt_sample_10b.png)
 
 La riga spese relativa alla consegna viene aggiunta nella scheda **[!UICONTROL Edit > Budget]** della campagna. Modificalo per visualizzare i dettagli del calcolo.
 
-![](assets/s_user_cost_mgmt_sample_11.png)
+![Scheda Spese budget campagna con il pulsante Dettaglio che apre la riga spese di consegna e la relativa suddivisione dei costi.](assets/s_user_cost_mgmt_sample_11.png)
 
 Il costo calcolato per la consegna viene aggiornato con le seguenti informazioni:
 
-![](assets/s_user_cost_mgmt_sample_12.png)
+![Finestra Spese di consegna e ricavi con il costo calcolato di 22.844 dalle strutture dei costi.](assets/s_user_cost_mgmt_sample_12.png)
 
 Quando si modifica il costo calcolato, è possibile controllare il raggruppamento dei costi e lo stato e la data del calcolo del costo.
 
@@ -305,11 +305,11 @@ A tale scopo, nel dashboard della campagna fare clic sul pulsante **[!UICONTROL 
 
 1. Nella scheda **[!UICONTROL Properties]** selezionare il servizio e la categoria di costo corrispondente:
 
-   ![](assets/s_user_cost_mgmt_sample_14.png)
+   ![Finestra delle proprietà delle attività con l&#39;elenco dei tipi di categoria di costo per la prenotazione della camera aperto che mostra Grande, Medium e Piccola.](assets/s_user_cost_mgmt_sample_14.png)
 
 1. Fare quindi clic sull&#39;icona **[!UICONTROL Expenses and revenue]** dell&#39;attività e specificare il costo provvisorio stimato.
 
-   ![](assets/s_user_cost_mgmt_sample_15.png)
+   ![Finestra Spese attività e ricavi con un costo provvisorio stimato di 5.500 addebitato alle operazioni speciali.](assets/s_user_cost_mgmt_sample_15.png)
 
    Quando l&#39;attività è stata salvata, il costo calcolato viene specificato con il valore immesso per il costo provvisorio stimato.
 
@@ -317,23 +317,23 @@ A tale scopo, nel dashboard della campagna fare clic sul pulsante **[!UICONTROL 
 
 1. Quindi, creare una seconda attività in base alla stessa procedura, programmata su cinque giorni e correlata alla struttura dei costi creata in precedenza.
 
-   ![](assets/s_user_cost_mgmt_sample_16.png)
+   ![Seconda attività Creazione del contenuto, la cui finestra Proprietà attività mostra un elenco di tipi di categoria costi aperto.](assets/s_user_cost_mgmt_sample_16.png)
 
    Al termine dell&#39;attività, il costo calcolato viene specificato con il valore della relativa struttura dei costi, ovvero 1500 euro nel nostro esempio (5 giorni x 300 euro):
 
-   ![](assets/s_user_cost_mgmt_sample_17.png)
+   ![Attività di creazione contenuti completata con un costo calcolato di 1.500 nella finestra Spese e ricavi.](assets/s_user_cost_mgmt_sample_17.png)
 
 #### Passaggio 6: aggiornare lo stato del budget della campagna {#step-6---update-the-campaign-budget-status}
 
 Quando la campagna è configurata, è possibile aggiornarne lo stato impostandolo su **[!UICONTROL Specified]**. Il costo calcolato della campagna indica quindi la somma dei costi calcolati della consegna e delle attività della campagna:
 
-![](assets/s_user_cost_mgmt_sample_18.png)
+![Sezione Budget campagna con l&#39;elenco dello stato del processo aperto: in corso di modifica, definizione ed esecuzione, sopra le righe di costo.](assets/s_user_cost_mgmt_sample_18.png)
 
 #### Approvazione del budget {#budget-approval}
 
 Quando è attivata l’approvazione, un collegamento speciale ti consente di approvare il budget dal dashboard della campagna. Questo collegamento viene visualizzato quando il flusso di lavoro di targeting viene avviato e occorre approvare una consegna direct mailing.
 
-![](assets/s_user_cost_mgmt_sample_19.png)
+![Opzione Approva budget nel menu Approvazione consegna aprendo Azione sulla consegna con l&#39;approvazione Accetta, Rifiuta e Budget.](assets/s_user_cost_mgmt_sample_19.png)
 
 Puoi quindi fare clic sul collegamento per concedere o rifiutare l’approvazione, oppure utilizzare il collegamento nell’e-mail di notifica se la notifica è stata attivata per questa campagna.
 
@@ -349,7 +349,7 @@ Per salvare un nuovo ordine con un provider di servizi, fare clic sul nodo **[!U
 
 Specifica il numero dell’ordine, il fornitore di servizi interessato e l’importo totale dell’ordine.
 
-![](assets/s_user_cost_create_order.png)
+![Nodo Ordini in MRM con l&#39;elenco degli ordini e un modulo d&#39;ordine che mostra numero, fornitore di servizi e importo.](assets/s_user_cost_create_order.png)
 
 ### Emissione e registrazione delle fatture {#issuing-and-tracking-invoices}
 
@@ -357,15 +357,15 @@ Per ogni fornitore di servizi è possibile salvare le fatture e definirne lo sta
 
 Le fatture vengono create e memorizzate nel nodo **[!UICONTROL MRM > Invoices]** della struttura Adobe Campaign.
 
-![](assets/s_user_cost_create_invoice.png)
+![Nodo Fatture in MRM con un modulo di fattura che mostra numero, fornitore di servizi, budget, importo e stato.](assets/s_user_cost_create_invoice.png)
 
 Una fattura è costituita da righe di fattura il cui totale consente di calcolare automaticamente l&#39;importo. Queste righe vengono create manualmente dalla scheda **[!UICONTROL Invoice lines]**. Possono essere associati a un ordine per caricare le informazioni negli ordini.
 
-![](assets/s_user_cost_invoice_add_line.png)
+![Scheda Righe fattura con il pulsante Aggiungi che apre un modulo di righe fattura con ordine, importo e opzione Liquidato.](assets/s_user_cost_invoice_add_line.png)
 
 Le fatture di ciascun provider di servizi vengono visualizzate nella scheda **[!UICONTROL Invoices]** del profilo:
 
-![](assets/s_ncs_user_invoice_from_supplier.png)
+![Nodo provider di servizi con la scheda Fatture in cui sono elencate le fatture del provider di servizi selezionato.](assets/s_ncs_user_invoice_from_supplier.png)
 
 La scheda **[!UICONTROL Details]** consente di visualizzare il contenuto della fattura.
 

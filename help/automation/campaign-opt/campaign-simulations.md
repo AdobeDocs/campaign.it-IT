@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '1233'
+source-wordcount: '1511'
 ht-degree: 1%
 ---
 # Simulazioni delle campagne{#campaign-simulations}
@@ -43,7 +43,7 @@ Ciò significa che le regole di pressione e capacità vengono applicate solo all
 
 La modalità di consegna viene scelta nella scheda secondaria **[!UICONTROL Typology]** delle proprietà di consegna.
 
-![](assets/simu_campaign_select_delivery_mode.png)
+![Scheda Tipologia delle proprietà di consegna con il menu a discesa Modalità di consegna che elenca tre modalità.](assets/simu_campaign_select_delivery_mode.png)
 
 
 ### Creare una simulazione {#create-a-simulation}
@@ -52,19 +52,19 @@ Per creare una simulazione, attieniti alla seguente procedura:
 
 1. Apri la scheda **[!UICONTROL Campaigns]**, fai clic sul collegamento **[!UICONTROL More]** nella sezione **[!UICONTROL Create]** e seleziona l&#39;opzione **[!UICONTROL Simulation]**.
 
-   ![](assets/simu_campaign_opti_01.png)
+   ![Home page del calendario della campagna con il menu Altro in Crea aperto ed evidenziata la simulazione.](assets/simu_campaign_opti_01.png)
 
 1. Immettere il modello e il nome della simulazione. Fare clic su **[!UICONTROL Save]** per creare la simulazione.
 
-   ![](assets/simu_campaign_opti_02.png)
+   ![Finestra di dialogo per la creazione della simulazione con i campi Modello simulazione ed Etichetta evidenziati e il pulsante Salva.](assets/simu_campaign_opti_02.png)
 
 1. Fare clic sulla scheda **[!UICONTROL Edit]** per configurarla.
 
-   ![](assets/simu_campaign_opti_edit.png)
+   ![Scheda Modifica della simulazione con le sezioni Generale, Ambito, Calcoli e Audit e le impostazioni di esecuzione.](assets/simu_campaign_opti_edit.png)
 
 1. Nella scheda **[!UICONTROL Scope]**, specifica le consegne da considerare per questa simulazione. A tale scopo, fare clic sul pulsante **[!UICONTROL Add]** e specificare la modalità di selezione della consegna da considerare.
 
-   ![](assets/simu_campaign_opti_edit_scope.png)
+   ![Sezione ambito con il pulsante Aggiungi e la finestra di dialogo Elemento di simulazione per scegliere la modalità di selezione delle consegne.](assets/simu_campaign_opti_edit_scope.png)
 
    Puoi selezionare ciascuna consegna singolarmente oppure ordinarle per campagna, programma o piano.
 
@@ -74,17 +74,17 @@ Per creare una simulazione, attieniti alla seguente procedura:
    >  
    >In caso contrario, non verranno prese in considerazione le consegne non disponibili nel piano, nel programma o nella campagna al momento della creazione della simulazione: le consegne aggiunte successivamente verranno ignorate.
 
-   ![](assets/simu_campaign_opti_edit_scope_update.png)
+   ![Finestra di dialogo Elemento di simulazione con tutte le consegne di uno o più programmi e opzione Aggiorna selezione selezionata.](assets/simu_campaign_opti_edit_scope_update.png)
 
 1. Selezionare gli elementi da includere nell&#39;ambito di simulazione. Se necessario, selezionare più elementi utilizzando i tasti MAIUSC e CTRL.
 
-   ![](assets/simu_campaign_opti_edit_scope_select.png)
+   ![Finestra di dialogo per la selezione delle consegne con diverse consegne evidenziate e pulsante Fine.](assets/simu_campaign_opti_edit_scope_select.png)
 
    Fare clic su **[!UICONTROL Finish]** per approvare la selezione.
 
    Puoi combinare manualmente le consegne selezionate e le consegne appartenenti a piani, programmi o campagne.
 
-   ![](assets/simu_campaign_opti_edit_scope_save.png)
+   ![Combinazione di programmi, campagne e un piano nell&#39;elenco di ambito, con il pulsante Salva e il collegamento Modifica condizione dinamica.](assets/simu_campaign_opti_edit_scope_save.png)
 
    Se necessario, è possibile utilizzare una condizione dinamica tramite il collegamento **[!UICONTROL Edit the dynamic condition...]**.
 
@@ -96,11 +96,11 @@ Per creare una simulazione, attieniti alla seguente procedura:
 
 1. Nella scheda **[!UICONTROL Calculations]**, selezionare una dimensione di analisi, ad esempio lo schema del destinatario.
 
-   ![](assets/simu_campaign_opti_dimension.png)
+   ![Sezione Calcoli con la finestra di dialogo di selezione dello schema aperta e i destinatari (nms) selezionati come dimensione di analisi.](assets/simu_campaign_opti_dimension.png)
 
 1. È quindi possibile aggiungere espressioni.
 
-   ![](assets/simu_campaign_opti_dimension_02.png)
+   ![Sezione Calcoli con destinatari (nms) elencati come dimensioni analisi e assi di reporting Conto e Stato.](assets/simu_campaign_opti_dimension_02.png)
 
 ### Impostazioni di esecuzione {#execution-settings}
 
@@ -118,11 +118,11 @@ Una volta definito l’ambito di simulazione, puoi eseguirlo.
 
 Per eseguire questa operazione, aprire il dashboard di simulazione e fare clic su **[!UICONTROL Start simulation]**.
 
-![](assets/simu_campaign_opti_start.png)
+![Dashboard di simulazione con il pulsante Avvia simulazione.](assets/simu_campaign_opti_start.png)
 
 Una volta completata l&#39;esecuzione, aprire la simulazione e fare clic sulla scheda **[!UICONTROL Results]** per visualizzare le destinazioni calcolate per ogni consegna.
 
-![](assets/simu_campaign_opti_results.png)
+![Scheda Risultati, scheda secondaria Consegne, che elenca ogni consegna con il relativo conteggio iniziale e finale.](assets/simu_campaign_opti_results.png)
 
 1. Nella scheda secondaria **[!UICONTROL Deliveries]** sono elencate tutte le consegne prese in considerazione dalla simulazione. Mostra due conteggi:
 
@@ -135,12 +135,12 @@ Una volta completata l&#39;esecuzione, aprire la simulazione e fare clic sulla s
 
 1. La scheda secondaria **[!UICONTROL Exclusions]** ti consente di visualizzare il raggruppamento di esclusione.
 
-   ![](assets/simu_campaign_opti_14.png)
+   ![Scheda Risultati, scheda secondaria Esclusioni che mostra il conteggio delle esclusioni per consegna e regola.](assets/simu_campaign_opti_14.png)
 
 1. La scheda secondaria **[!UICONTROL Alerts]** raggruppa tutti i messaggi di avviso generati durante la simulazione. I messaggi di avviso possono essere inviati in caso di sovraccarico di capacità (ad esempio, se il numero di destinatari supera la capacità impostata).
 1. La scheda secondaria **[!UICONTROL Exploration of the exclusions]** consente di creare una tabella di analisi dei risultati. L’utente deve indicare le variabili negli assi delle ascisse/ordinate.
 
-   Per un esempio di creazione di tabelle di analisi, fare riferimento alla fine di [questa sezione](#explore-results).
+   Per un esempio di creazione di tabelle di analisi, fare riferimento alla fine di [Esplora risultati](#explore-results).
 
 ### Visualizza risultati {#view-results}
 
@@ -148,7 +148,7 @@ Una volta completata l&#39;esecuzione, aprire la simulazione e fare clic sulla s
 
 La scheda **[!UICONTROL Audit]** consente di monitorare l&#39;esecuzione della simulazione. La scheda secondaria **[!UICONTROL SQL Logs]** è utile per gli utenti esperti. Elenca i registri di esecuzione in formato SQL. Questi registri vengono visualizzati solo se l&#39;opzione **[!UICONTROL Save SQL queries in the log]** è stata selezionata nella scheda **[!UICONTROL General]** prima dell&#39;esecuzione della simulazione.
 
-![](assets/simu_campaign_opti_11.png)
+![Sezione di controllo con le schede secondarie Registri di Windows Journal e Registri SQL, con i registri SQL che mostrano le query di esecuzione.](assets/simu_campaign_opti_11.png)
 
 #### Esplora i risultati {#explore-results}
 
@@ -180,7 +180,7 @@ Per impostazione predefinita, vengono forniti i seguenti rapporti:
 
 Per accedere ai report, fai clic sul collegamento **[!UICONTROL Reports]** della simulazione di destinazione tramite la relativa dashboard.
 
-![](assets/campaign_opt_reporting_edit_from_board.png)
+![Dashboard di simulazione Visualizza i riquadri di report in cui sono elencati dettagli delle esclusioni di simulazione.](assets/campaign_opt_reporting_edit_from_board.png)
 
 È inoltre possibile modificare i report utilizzando il collegamento **[!UICONTROL Reports]** accessibile dal dashboard di simulazione.
 
@@ -196,12 +196,12 @@ Per confrontare i risultati, devi utilizzare i rapporti. In effetti, Adobe Campa
 1. Nella scheda **[!UICONTROL Reports]**, modifica uno dei rapporti disponibili, ad esempio **[!UICONTROL Detail of simulation exclusions]**.
 1. Nella sezione in alto a destra del rapporto, fai clic sull’icona per creare una nuova cronologia.
 
-   ![](assets/campaign_opt_reporting_create_hist.png)
+   ![Rapporto Dettagli esclusioni simulazione con l&#39;icona Nuova cronologia evidenziata nella barra degli strumenti.](assets/campaign_opt_reporting_create_hist.png)
 
 1. Chiudere la simulazione e modificare la configurazione della tipologia **A**.
 1. Esegui nuovamente la simulazione e confronta il risultato con quello visualizzato nel rapporto per il quale è stata creata una cronologia.
 
-   ![](assets/campaign_opt_reporting_edit_hist.png)
+   ![Dettagli del report delle esclusioni di simulazione confrontato con una cronologia salvata aperta dall&#39;icona Cronologia disponibile.](assets/campaign_opt_reporting_edit_hist.png)
 
    Puoi salvare tutte le cronologie dei rapporti necessarie.
 
@@ -221,7 +221,7 @@ Nell’esempio seguente, vogliamo creare un asse di reporting aggiuntivo basato 
 1. Per definire un asse di reporting, selezionare la tabella contenente le informazioni da elaborare nel campo **[!UICONTROL Analysis dimension]**. Queste informazioni sono obbligatorie.
 1. In questo caso, desideri selezionare il campo Segmento della tabella dei destinatari.
 
-   ![](assets/simu_campaign_opti_09.png)
+   ![Sezione Calcoli con destinatari (nms) come dimensione di analisi e un asse di reporting Stato basato su @status.](assets/simu_campaign_opti_09.png)
 
 1. Sono disponibili le seguenti opzioni:
 
@@ -241,7 +241,7 @@ Quando vengono visualizzati i risultati della simulazione, le informazioni sull&
 
 Le sovrapposizioni del target di consegna indicano i destinatari target in almeno due consegne di una simulazione.
 
-![](assets/simu_campaign_opti_13.png)
+![Scheda Risultati, scheda secondaria Sovrapposizioni, che elenca ogni consegna, la consegna concorrente e il conteggio di sovrapposizione.](assets/simu_campaign_opti_13.png)
 
 >[!NOTE]
 >
