@@ -31,9 +31,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: f22ef7562e86372db4c5c05c04acd986d1c557fb
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '822'
 ht-degree: 1%
 ---
 # Utilizzare le enumerazioni {#enumerations}
@@ -42,7 +42,7 @@ Un’enumerazione (detta anche elenco dettagliato) è un elenco predefinito di v
 
 Una volta definiti, i valori vengono visualizzati in un elenco a discesa. Un valore può essere selezionato direttamente o immesso utilizzando l’input predittivo, che suggerisce e completa le voci corrispondenti. Alcuni campi includono enumerazioni predefinite; se necessario, è possibile creare enumerazioni aggiuntive.
 
-![](assets/enum_values.png)
+![Modulo destinatario con elenco a discesa Lingua aperto, in cui sono elencati i valori di enumerazione Inglese, Francese, Italiano, Russo e Spagnolo](assets/enum_values.png)
 
 
 ## Tipi di enumerazioni {#types-of-enum}
