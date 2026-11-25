@@ -24,9 +24,9 @@ feature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
+source-git-commit: 011875268793bca1a000d745818dbd6c69461227
 workflow-type: tm+mt
-source-wordcount: '2986'
+source-wordcount: '2989'
 ht-degree: 1%
 ---
 # Offerte su un canale in entrata{#offers-on-an-inbound-channel}
@@ -47,7 +47,7 @@ Per impostare questa interazione:
 
 ### Creazione di un ambiente anonimo {#creating-an-anonymous-environment}
 
-Segui la procedura descritta in [Creazione di un ambiente di offerta](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} (documentazione di Campaign v8) per creare l&#39;ambiente anonimo in base alle dimensioni di **Visitatori**.
+Segui la procedura descritta in [Creazione di un ambiente di offerta](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} (documentazione di Campaign v8) per creare l&#39;ambiente anonimo in base alle dimensioni di **Visitatori**.
 
 Otterrai una struttura ad albero contenente il nuovo ambiente:
 
@@ -147,7 +147,7 @@ Otterrai una struttura ad albero contenente il nuovo ambiente:
 
 ### Configurare lo spazio dell’offerta web sul sito web {#configure-the-web-offer-space-on-the-website}
 
-Per rendere visibili sul sito web le offerte appena configurate, inserisci il codice JavaScript nella pagina HTML del sito per richiamare il motore di interazione (per ulteriori informazioni, consulta [Informazioni sui canali in entrata](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/offers/inbound/interaction-present-offers){target="_blank"} (documentazione di Campaign v8).
+Per rendere visibili sul sito web le offerte appena configurate, inserisci il codice JavaScript nella pagina HTML del sito. Questo codice richiama il motore di interazione. Per ulteriori informazioni, consulta [Informazioni sui canali in entrata](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/inbound/interaction-present-offers){target="_blank"} (documentazione di Campaign v8).
 
 1. Vai alla pagina HTML e inserisci un attributo @id con un valore corrispondente al nome interno dello spazio delle offerte anonimo creato in precedenza (fai riferimento a [Creazione di spazi delle offerte anonimi](#creating-anonymous-offer-spaces)), preceduto da **i_**.
 
@@ -157,7 +157,7 @@ Per rendere visibili sul sito web le offerte appena configurate, inserisci il co
 
    ![Chiamata tramite script di HTML a interfaceProject.js con env=liveVisitor e th=parametri di finanziamento evidenziati](assets/offer_inbound_anonymous_example_020.png)
 
-   Le caselle URL blu sopra corrispondono al nome dell&#39;istanza, al nome interno dell&#39;ambiente (fare riferimento a [Creazione di un ambiente anonimo](#creating-an-anonymous-environment)) e al tema collegato alla categoria ([Creazione di una categoria di offerta e di un tema](#creating-an-offer-category-and-a-theme)). Quest&#39;ultimo è facoltativo.
+   Le caselle blu URL sopra corrispondono al nome dell’istanza, al nome interno dell’ambiente e al tema collegato alla categoria. Per ulteriori informazioni, consulta [Creazione di un ambiente anonimo](#creating-an-anonymous-environment) e [Creazione di una categoria di offerta e di un tema](#creating-an-offer-category-and-a-theme). Il tema è facoltativo.
 
 Quando un visitatore accede alla home page del sito Web, le offerte con il tema **finanziamento** vengono visualizzate come configurate nella pagina HTML.
 
@@ -211,7 +211,7 @@ Applica i seguenti passaggi:
 
 ### Creazione di un ambiente per i contatti anonimi {#creating-an-environment-for-anonymous-contacts}
 
-1. Crea un ambiente di offerta per le interazioni in entrata anonime tramite l&#39;assistente per la mappatura della consegna (**Visitatore**). Per ulteriori informazioni, consulta [Creazione di un ambiente di offerta](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} (documentazione di Campaign v8).
+1. Crea un ambiente di offerta per le interazioni in entrata anonime tramite l&#39;assistente per la mappatura della consegna (**Visitatore**). Per ulteriori informazioni, consulta [Creazione di un ambiente di offerta](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} (documentazione di Campaign v8).
 
    ![Offre struttura struttura e ambiente - Proprietà dei visitatori, un ambiente per le interazioni anonime in ingresso](assets/offer_env_anonymous_003.png)
 
@@ -409,7 +409,7 @@ Per configurare questi spazi dell’offerta sulla pagina HTML del sito web, appl
 
    ![variabile interfaceTarget impostata per l&#39;indirizzo e-mail della persona che effettua l&#39;accesso, nello script della pagina](assets/offer_inbound_fallback_example_043.png)
 
-   L’identificazione della persona può essere basata su un cookie del browser, un parametro di lettura nell’URL, nell’e-mail o nell’identificatore della persona. Se viene utilizzato un campo della tabella dei destinatari diverso dalla chiave primaria, deve essere definito nei parametri avanzati dello spazio (fare riferimento a [Specifica delle impostazioni avanzate degli spazi dell&#39;offerta identificati](#specifying-the-advanced-settings-of-the-identified-offer-spaces)).
+   L’identificazione della persona può essere basata su un cookie del browser, un parametro di lettura nell’URL, nell’e-mail o nell’identificatore della persona. Se utilizzi un campo della tabella dei destinatari diverso dalla chiave primaria, definiscilo nei parametri avanzati dello spazio. Per ulteriori informazioni, consulta [Specifica delle impostazioni avanzate degli spazi dell&#39;offerta identificati](#specifying-the-advanced-settings-of-the-identified-offer-spaces).
 
 1. Inserisci l’URL della chiamata.
 
@@ -419,6 +419,6 @@ Per configurare questi spazi dell’offerta sulla pagina HTML del sito web, appl
 
 Quando apri la pagina web, lo script consente di richiamare il motore di interazione per visualizzare il contenuto delle offerte negli spazi pertinenti della pagina web. In una singola chiamata al server Adobe Campaign, il motore determina l’ambiente, lo spazio dell’offerta e le categorie da selezionare.
 
-In questo esempio, il motore riconosce l&#39;ambiente identificato (**EnvNeobankIdnRecip**). Identifica lo spazio dell&#39;offerta (**OSWebBestOfferIdentified**) e la categoria **Proposta d&#39;acquisto** (**CatBestOffer**) per la prima e la seconda offerta sulla pagina Web, nonché lo spazio dell&#39;offerta (**OSWebPartnerIdentified**) e la categoria **Partner** (**CatPartner**) per la terza offerta sul sito.
+In questo esempio, il motore riconosce l&#39;ambiente identificato (**EnvNeobankIdnRecip**). Identifica lo spazio dell&#39;offerta (**OSWebBestOfferIdentified**) e la categoria **Proposta d&#39;acquisto** (**CatBestOffer**) per il primo e il secondo spazio dell&#39;offerta sulla pagina Web. Per il terzo spazio delle offerte, identifica lo spazio delle offerte (**OSWebPartnerIdentified**) e la categoria **Partner** (**CatPartner**).
 
 Se il motore non è in grado di identificare il destinatario, passa agli spazi di offerta anonimi a cui si fa riferimento negli spazi di offerta identificati e alle categorie anonime (**CatPartner** e **CatPartnerAnonym**) come specificato nello script.
