@@ -43,14 +43,14 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
+source-git-commit: 7d3481d1a8453d0663d67765c664c60ed988aee6
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 66%
+source-wordcount: '1059'
+ht-degree: 63%
 ---
 # Introduzione ai messaggi {#gs-ac-msg}
 
-Con Adobe Campaign, puoi inviare campagne cross-channel tra cui e-mail, SMS, notifiche push e direct mail; inoltre, puoi misurarne l’efficacia utilizzando diversi rapporti dedicati. Questi messaggi sono progettati e inviati tramite consegne e possono essere personalizzati per ogni destinatario.
+Con Adobe Campaign, puoi inviare campagne cross-channel tra cui e-mail, SMS, messaggi LINE, notifiche push e direct mail; inoltre, puoi misurarne l’efficacia utilizzando diversi rapporti dedicati. Questi messaggi sono progettati e inviati tramite consegne e possono essere personalizzati per ogni destinatario.
 
 Le funzionalità di base includono il targeting, la definizione e la personalizzazione dei messaggi, l’esecuzione delle comunicazioni e i relativi rapporti operativi.
 
