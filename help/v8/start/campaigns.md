@@ -27,10 +27,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
+source-git-commit: 7d3481d1a8453d0663d67765c664c60ed988aee6
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 70%
+source-wordcount: '933'
+ht-degree: 67%
 ---
 # Introduzione alle campagne {#gs-ac-campaigns}
 
@@ -40,7 +40,7 @@ Le campagne includono azioni (consegne), processi (importazione o estrazione fil
 
 ## Orchestrazione di campagne cross-channel{#cross-channel-orchestration}
 
-Adobe Campaign ti consente di progettare e orchestrare campagne mirate e personalizzate su più canali: e-mail, direct mail, SMS, notifica push. Un’unica interfaccia ti offre tutte le funzioni necessarie per pianificare, orchestrare, configurare, personalizzare, automatizzare, eseguire e misurare tutte le tue campagne e comunicazioni.
+Adobe Campaign ti consente di progettare e orchestrare campagne mirate e personalizzate su più canali: e-mail, direct mail, SMS, notifica push, LINE e canali personalizzati. Un’unica interfaccia ti offre tutte le funzioni necessarie per pianificare, orchestrare, configurare, personalizzare, automatizzare, eseguire e misurare tutte le tue campagne e comunicazioni.
 
 ![Scheda Campagne della home page in cui sono elencate le campagne di marketing con stato, date e il pulsante Crea](assets/campaign-tab.png)
 
@@ -127,4 +127,4 @@ Adobe Campaign offre il componente aggiuntivo **Gestione della risposta** che co
 >
 >Questa funzionalità è disponibile a partire da Campaign v8.3. Per verificare la versione, fare riferimento alla [Matrice di compatibilità di Campaign v8](compatibility-matrix.md)
 
-[&#128279;](../assets/do-not-localize/book.png) Scopri come configurare e utilizzare Campaign Response Manager nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=it){target="_blank"}.
+[](../assets/do-not-localize/book.png) Scopri come configurare e utilizzare Campaign Response Manager nella [documentazione di Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=it){target="_blank"}.
